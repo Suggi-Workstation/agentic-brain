@@ -21,7 +21,6 @@ Conventions: see `../CONVENTIONS.md`. Max 6 topics per group.
 
 | # | Topic | File | Status |
 | :--- | :--- | :--- | :--- |
-| 1 | Margin of Safety | `margin-of-safety.md` | stub |
 
 ## Spawn queue
 Topics proposed but not yet written. Format:
