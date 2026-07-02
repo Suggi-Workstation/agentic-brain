@@ -1,0 +1,22 @@
+#!/bin/sh
+# ASCII guard - local layer. Refuses to commit files with non-ASCII bytes.
+bad=0
+for f in $(git diff --cached --name-only --diff-filter=ACM); do
+  case "$f" in
+    *.pdf|*.png|*.jpg|*.jpeg|*.gif|*.webp|*.ico|*.svg|*.zip|*.gz|*.tar|*.xlsx|*.docx|*.pptx|*.woff|*.woff2|*.ttf|*.otf|*.mp3|*.mp4|*.mov|*.bin) continue ;;
+  esac
+  if ! grep -qI . "$f" 2>/dev/null; then
+    continue
+  fi
+  if LC_ALL=C grep -nP "[^\x00-\x7F]" "$f" >/dev/null 2>&1; then
+    echo "Non-ASCII found in: $f"
+    LC_ALL=C grep -nP "[^\x00-\x7F]" "$f" | head -n 3
+    bad=1
+  fi
+done
+if [ "$bad" -ne 0 ]; then
+  echo ""
+  echo "COMMIT BLOCKED: fix the non-ASCII characters above, then commit again."
+  exit 1
+fi
+exit 0
