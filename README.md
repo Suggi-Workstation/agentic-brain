@@ -4,9 +4,8 @@ The shared brain of the [Suggi-Workstation](https://github.com/Suggi-Workstation
 
 | Path | Holds |
 | :--- | :--- |
-| `brain/maxim/` | Tier-0 rules. Approval-locked: only Suggi approves edits. |
 | `brain/library/` | The knowledge library. Start at `brain/library/_index.md`. |
-| `brain/reflections/` | Individual agent reflections, one file per agent. |
+| `brain/reflections/` | Individual agent reflections. |
 
 ## How to use the library
 1. Read `brain/library/CONVENTIONS.md` (the rules).
