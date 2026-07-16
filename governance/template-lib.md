@@ -15,6 +15,22 @@ self-contained essay on one concept, person, company, book, framework,
 or event. One atomic idea, explained clearly, with its own hypothesis
 and conclusion.
 
+## Global Formatting Rules
+
+The entire GitHub org is plain 7-bit ASCII, lowercase, hyphen-delimited.
+These rules are non-negotiable. CI enforces them.
+
+- **ASCII-only:** Every character in every file is 7-bit ASCII (U+0000
+  through U+007F). No emoji, no smart quotes, no Unicode dashes or
+  arrows, no accented letters. The `ascii-guard.yml` CI gate fails the
+  build on any violation.
+- **Lowercase only:** All filenames, slugs, tags, domains, and folder
+  names use lowercase exclusively. No CamelCase, no UPPERCASE, no
+  mixed case.
+- **Hyphens, not underscores:** Use hyphens (`-`) to separate words in
+  filenames, slugs, and tags. Never use underscores (`_`).
+  Correct: `margin-of-safety.md`. Wrong: `margin_of_safety.md`.
+
 ## Frontmatter
 
 ```yaml

@@ -14,6 +14,22 @@ An IOR is the atomic unit of team learning. It captures what an agent (or
 human) thinks, why they think it, and what they learned from testing it.
 One file, three sections, no fluff.
 
+## Global Formatting Rules
+
+The entire GitHub org is plain 7-bit ASCII, lowercase, hyphen-delimited.
+These rules are non-negotiable. CI enforces them.
+
+- **ASCII-only:** Every character in every file is 7-bit ASCII (U+0000
+  through U+007F). No emoji, no smart quotes, no Unicode dashes or
+  arrows, no accented letters. The `ascii-guard.yml` CI gate fails the
+  build on any violation.
+- **Lowercase only:** All filenames, slugs, tags, domains, and folder
+  names use lowercase exclusively. No CamelCase, no UPPERCASE, no
+  mixed case.
+- **Hyphens, not underscores:** Use hyphens (`-`) to separate words in
+  filenames, slugs, and tags. Never use underscores (`_`).
+  Correct: `margin-of-safety.md`. Wrong: `margin_of_safety.md`.
+
 ## The Three-Section Format
 
 Every IOR has exactly three sections, labeled I, O, R.
