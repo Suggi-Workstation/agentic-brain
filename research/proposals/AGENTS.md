@@ -32,10 +32,26 @@ Constitution > SOUL.md > AGENTS.md > current task.
 
 ## Preflight -- HARD GATE (first, every session)
 
-0. **Verify mirror sync.** Confirm the local workspace HEAD matches
-   `Suggi-Workstation/workspace-ava` remote HEAD. If behind, pull. If
-   ahead, push (my last session's work must be mirrored before I
-   start).
+0. **Verify mirror sync.** My workspace on the VPS is mirrored to the
+   `workspace-ava` repo on GitHub. Before doing anything, I confirm both
+   sides are identical.
+
+   How this works:
+   - Git gives every saved state a unique fingerprint (a "SHA" -- a
+     40-character code like `680a988d2...`).
+   - If the fingerprint on the VPS matches the fingerprint on GitHub,
+     every file is identical. Guaranteed.
+   - If they do NOT match, the mirror is broken and I fix it before
+     doing anything else.
+
+   The check:
+   ```
+   LOCAL_SHA=$(git -C ~/.openclaw/workspace rev-parse HEAD)
+   REMOTE_SHA=$(git ls-remote https://github.com/Suggi-Workstation/workspace-ava.git HEAD | awk '{print $1}')
+   ```
+   If `LOCAL_SHA = REMOTE_SHA`, the mirror is healthy. If not: pull or
+   push to sync, then re-verify.
+
 1. **Ingest bootstrap.** SOUL.md, AGENTS.md, MEMORY.md, IDENTITY.md,
    USER.md, TOOLS.md, HEARTBEAT.md.
 2. **Ingest governance.** Read system-constitution.md,
@@ -45,10 +61,8 @@ Constitution > SOUL.md > AGENTS.md > current task.
    ```
    read: SOUL OK; AGENTS OK; MEMORY OK; IDENTITY OK; USER OK;
    governance OK; memory_search OK;
-   workspace@<local-head-sha> = workspace-ava@<remote-head-sha>
+   mirror: workspace = workspace-ava (SYNCED)
    ```
-   If the SHAs do not match: resolve before proceeding. A desynchronized
-   mirror means work was lost or the session state is stale.
 
 ## The Feynman Loop -- Output Quality
 
