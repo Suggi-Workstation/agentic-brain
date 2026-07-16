@@ -51,7 +51,7 @@ Files are named: `<short-slug>.md`
 
 Example: `inter-agent-cooperation-research-2026-06.md`
 
-### Frontmatter Rules:
+## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `inter-agent-cooperation-findings`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
