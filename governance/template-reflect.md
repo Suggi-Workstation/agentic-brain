@@ -1,5 +1,5 @@
 ---
-name: template-ior
+name: template-reflect
 id: 20260618T120014Z
 tier: core-template
 lock: approval-required
