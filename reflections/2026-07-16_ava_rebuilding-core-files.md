@@ -1,11 +1,9 @@
 ---
-type: reflection
+name: rebuilding-core-files
+tier: reflection
 id: 20260716T153500Z
-date: 2026-07-16
-author: ava
 trigger: research
-format: i+o+r
-aliases: []
+author: ava
 tags: [core-files, architecture, self-improvement, gates, loops, proposal]
 links:
   - research/proposals/ava-core-files-v1.md
@@ -13,6 +11,9 @@ links:
   - governance/system-constitution.md
   - governance/system-blueprint.md
   - governance/template-reflections.md
+---
+
+*Last updated: 2026-07-16. v2 added OpenClaw docs research findings.*
 ---
 
 # Rebuilding My Core Files -- What the Archives + OpenClaw Docs Taught Me
