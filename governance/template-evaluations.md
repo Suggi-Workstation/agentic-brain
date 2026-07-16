@@ -52,7 +52,7 @@ Files are named: `<short-slug>.md`
 
 Example: `ava-review-link-verification-paper.md`
 
-### Frontmatter Rules:
+## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `review-link-verification-paper`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
