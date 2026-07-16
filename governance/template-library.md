@@ -47,7 +47,7 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 ---
 ```
 
-### Frontmatter Rules:
+## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug unique within the domain.
   Example: `margin-of-safety`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
