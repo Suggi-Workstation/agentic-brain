@@ -51,7 +51,7 @@ Files are named: `<short-slug>.md`
 - `short-slug` -- kebab-case, max 60 chars, unique.
   Example: `ava-core-files-v1.md`
 
-### Frontmatter Rules:
+## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `ava-core-files-v1`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
