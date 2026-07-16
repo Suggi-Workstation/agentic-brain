@@ -35,8 +35,9 @@ These rules are non-negotiable. CI enforces them.
 
 ```yaml
 ---
+name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
-date: <YYYY-MM-DD>               # local date of first write
+tier: library                     # always library
 author: <link|ava|zelda|suggi|luffy>
 domain: <domain-slug>            # lowercase, matches folder name
 tags: [<tag>, <tag>]             # lowercase, 3-6 tags. Include type as a tag
@@ -47,6 +48,8 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 ```
 
 ### Frontmatter Rules:
+- `name` is a short lowercase kebab-case slug unique within the domain.
+  Example: `margin-of-safety`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
   after publishing.
 - `domain` is the lowercase folder name (e.g., `value-investing`).
@@ -131,8 +134,9 @@ Every library topic passes these checks before committing:
 - **G5 -- Cross-links Exist:** At least 2 links to other brain content
   (library topics, reflections, insights, or reports). Zero links =
   dead-end knowledge.
-- **G6 -- Frontmatter Complete:** All 6 fields present. Domain matches
-  the folder. Type is included as a tag.
+- **G6 -- Frontmatter Complete:** All 7 fields present (name, id,
+  tier, author, domain, tags, links). Name is unique within the
+  domain. Type is included as a tag.
 - **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
@@ -141,8 +145,9 @@ Every library topic passes these checks before committing:
 
 ```markdown
 ---
+name: margin-of-safety
 id: 20260716T120000Z
-date: 2026-07-16
+tier: library
 author: ava
 domain: value-investing
 tags: [concept, margin-of-safety, risk-management, graham]
@@ -227,7 +232,7 @@ topic reveals a structural gap.*
 Copy-paste this block at the end of every new library topic before committing:
 
 ```
-[ ] Frontmatter complete (6 fields: id, date, author, domain, tags, links)
+[ ] Frontmatter complete (7 fields: name, id, tier, author, domain, tags, links)
 [ ] id is UTC timestamp, never used before
 [ ] Domain matches the folder the file lives in
 [ ] Tags include the file's type (concept, person, company, book, etc.)

@@ -132,18 +132,18 @@ The Schoen Loop is reflection-on-action at session scope.
 
 ```yaml
 type: reflection
+name: <short-slug>               # lowercase, kebab-case, unique
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC timestamp, permanent, never reused
-date: <YYYY-MM-DD>               # local date of writing
 author: <link|ava|zelda|suggi|luffy>  # who wrote this IOR
 trigger: <what prompted this>    # session-end | error | surprise | milestone |
                                  # decision | research | insight | self-knowledge
-format: i+o+r
-aliases: []                      # alternative titles for search
 tags: [<topic>, <topic>]         # lowercase, specific
 links: [<brain/lib/file.md>]     # paths relative to brain root
 ```
 
 ### Frontmatter Rules:
+- `name` is a short lowercase kebab-case slug, unique. Example:
+  `rebuilding-core-files`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse an id. Never
   change an id after publishing.
 - `author` is who wrote the IOR. The author list is {link, ava, zelda,
@@ -154,7 +154,6 @@ links: [<brain/lib/file.md>]     # paths relative to brain root
   from the brain's tag registry.
 - `links` are relative paths from the brain root. Do not use absolute
   paths or file:// URIs.
-- `aliases` are alternative search titles. Optional.
 
 ## Naming Convention
 
@@ -227,12 +226,10 @@ When multiple agents contribute to an IOR (via version-updates):
 ```markdown
 ---
 type: reflection
+name: blank-page-before-search
 id: 20260716T120000Z
-date: 2026-07-16
 author: link
 trigger: insight
-format: i+o+r
-aliases: []
 tags: [feynman, quality, writing]
 links: [brain/library/self-improvement-learning/feynman_technique_teaching.md]
 ---
@@ -299,7 +296,7 @@ the Feynman pass.
 ## The IOR Checklist (Copy-Paste for Every New IOR)
 
 ```
-[ ] Frontmatter complete (all 9 fields)
+[ ] Frontmatter complete (all 7 fields: name, id, author, trigger, tags, links)
 [ ] id is UTC timestamp, never used before
 [ ] Title makes a claim
 [ ] I section: idea stated in one sentence + context
