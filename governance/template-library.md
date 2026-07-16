@@ -224,8 +224,6 @@ quality compensates for estimation risk.
 - Retrieved: 2026-07-16.
 ```
 
----
-
 
 ## The Library Checklist
 
