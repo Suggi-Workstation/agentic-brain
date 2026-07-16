@@ -4,7 +4,7 @@ id: 20260618T120015Z
 tier: core-template
 lock: approval-required
 approved_by: Suggi
-author: link
+author: Suggi
 links: []
 ---
 
@@ -47,6 +47,15 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 ---
 ```
 
+## Naming Convention
+
+Files are named: `<domain>/<slug>.md`
+
+- `domain` -- lowercase folder name
+- `slug` -- kebab-case, max 60 chars, unique within the domain
+
+Example: `value-investing/margin-of-safety.md`
+
 ## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug unique within the domain.
   Example: `margin-of-safety`.
@@ -61,15 +70,6 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
   (concept, person, company, book, framework, event, culture).
 - `links` are relative paths from the agentic-brain root. Do not use
   absolute paths or file:// URIs.
-
-## Naming Convention
-
-Files are named: `<domain>/<slug>.md`
-
-- `domain` -- lowercase folder name
-- `slug` -- kebab-case, max 60 chars, unique within the domain
-
-Example: `value-investing/margin-of-safety.md`
 
 ## Body Structure
 
@@ -226,10 +226,6 @@ quality compensates for estimation risk.
 
 ---
 
-*Last updated: 2026-07-16 by link + ava. Based on Zettelkasten atomic-note
-principles, Ahrens' Smart Notes methodology, Matuschak's evergreen note
-principles, and the Feynman technique. Amended only after a real library
-topic reveals a structural gap.*
 
 ## The Library Checklist
 
@@ -253,5 +249,5 @@ Copy-paste this block at the end of every new library topic before committing:
 
 ---
 
-*Last updated: 2026-07-16 by link + ava. Rules are scar tissue -- each
+*Last updated: 2026-07-16 by Suggi. Rules are scar tissue -- each
 one should trace to a failure that proved it necessary.*
