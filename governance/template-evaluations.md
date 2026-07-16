@@ -52,6 +52,21 @@ Files are named: `<short-slug>.md`
 
 Example: `ava-review-link-verification-paper.md`
 
+### Frontmatter Rules:
+- `name` is a short lowercase kebab-case slug, unique. Example:
+  `review-link-verification-paper`.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
+  after publishing.
+- `tier` is always `evaluation`.
+- `source` is the id of the proposal, report, or insight being
+  evaluated. Never evaluate your own work (the decorrelation rule).
+- `author` is who performed the evaluation. The author list is {link,
+  ava, zelda, luffy}. A different agent than the source's author.
+- `tags` use lowercase, hyphens for spaces. Prefer existing tags from
+  the brain's tag registry.
+- `links` are relative paths from the agentic-brain root. Do not use
+  absolute paths or file:// URIs.
+
 ## Body Structure
 
 ### Source

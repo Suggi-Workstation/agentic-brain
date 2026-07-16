@@ -52,11 +52,15 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
   Example: `margin-of-safety`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
   after publishing.
+- `tier` is always `library`.
 - `domain` is the lowercase folder name (e.g., `value-investing`).
+- `author` is who wrote the topic. The author list is {link, ava, zelda,
+  suggi, luffy}. Suggi is the human; others are agents.
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry. Include the file's type as a tag
   (concept, person, company, book, framework, event, culture).
-- `links` are relative paths from the agentic-brain root.
+- `links` are relative paths from the agentic-brain root. Do not use
+  absolute paths or file:// URIs.
 
 ## Naming Convention
 

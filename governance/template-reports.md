@@ -51,6 +51,20 @@ Files are named: `<short-slug>.md`
 
 Example: `inter-agent-cooperation-research-2026-06.md`
 
+### Frontmatter Rules:
+- `name` is a short lowercase kebab-case slug, unique. Example:
+  `inter-agent-cooperation-findings`.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
+  after publishing.
+- `tier` is always `report`.
+- `author` is who wrote the report. The author list is {link, ava,
+  zelda, suggi, luffy}. Suggi is the human; others are agents.
+- `tags` use lowercase, hyphens for spaces. Prefer existing tags from
+  the brain's tag registry.
+- `links` are relative paths from the agentic-brain root. Include
+  links to the evaluations that reviewed this report. Do not use
+  absolute paths or file:// URIs.
+
 ## Body Structure
 
 ### Executive Summary

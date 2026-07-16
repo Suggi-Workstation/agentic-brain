@@ -54,6 +54,21 @@ Files are named: `<short-slug>.md`
 
 Example: `verification-is-the-bottleneck.md`
 
+### Frontmatter Rules:
+- `name` is a short lowercase kebab-case slug, unique. Example:
+  `verification-is-the-bottleneck`.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
+  after publishing.
+- `tier` is always `insight`.
+- `source` lists the ids of the IORs, reports, or evaluations that
+  produced this insight. At least one source required.
+- `author` is who wrote the insight. The author list is {link, ava,
+  zelda, suggi, luffy}. Suggi is the human; others are agents.
+- `tags` use lowercase, hyphens for spaces. Prefer existing tags from
+  the brain's tag registry.
+- `links` are relative paths from the agentic-brain root. Do not use
+  absolute paths or file:// URIs.
+
 ## Body Structure
 
 ### The Insight

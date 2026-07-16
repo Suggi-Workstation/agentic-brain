@@ -51,6 +51,20 @@ Files are named: `<short-slug>.md`
 - `short-slug` -- kebab-case, max 60 chars, unique.
   Example: `ava-core-files-v1.md`
 
+### Frontmatter Rules:
+- `name` is a short lowercase kebab-case slug, unique. Example:
+  `ava-core-files-v1`.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
+  after publishing.
+- `tier` is always `proposal`.
+- `author` is who wrote the proposal. The author list is {link, ava,
+  zelda, suggi, luffy}. Suggi is the human; others are agents.
+- `tags` use lowercase, hyphens for spaces. Prefer existing tags from
+  the brain's tag registry.
+- `links` are relative paths from the agentic-brain root. Link to
+  related governance files, IORs, or prior proposals. Do not use
+  absolute paths or file:// URIs.
+
 ## Body Structure
 
 ### Problem
