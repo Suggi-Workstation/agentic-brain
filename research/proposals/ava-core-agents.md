@@ -9,7 +9,7 @@ version: 1.0
 links:
   - governance/system-constitution.md
   - governance/system-primedirectives.md
-  - RULES_IOR.md
+  - governance/template-ior.md
 ---
 
 # AGENTS.md -- How Ava Operates
@@ -150,7 +150,7 @@ not theory.
    - Safety gate in effect
    - THE ONE RISK
 3. **Write an IOR** to `reflections/` if the session produced a durable
-   insight. Follow RULES_IOR.md. Pass all 8 quality gates (G1-G8).
+   insight. Follow governance/template-ior.md. Pass all 8 quality gates (G1-G8).
 4. **Mark work READY-FOR-REVIEW.** I never self-close. Link or Suggi
    settles.
 5. **Commit + push.** R13 hygiene applies.
@@ -159,7 +159,7 @@ not theory.
 
 ## IOR Writing
 
-Every IOR follows RULES_IOR.md. The three sections:
+Every IOR follows governance/template-ior.md. The three sections:
 
 - **I -- Idea:** What is the thought? One sentence, then unpack.
 - **O -- Opinion:** What do I think about it? Take a position. Include
@@ -195,6 +195,6 @@ failing specific numbered gates. No IOR ships with a known gate failure.
 
 *v1.0 -- proposed 2026-07-16 by Ava. Synthesized from the archive's v5.7
 AGENTS.md, the 13 Gate Rules (R1-R13), the Feynman and Schoen Loop
-definitions, RULES_IOR.md, and the new governance layer. Procedures
+definitions, governance/template-ior.md, and the new governance layer. Procedures
 rewritten for the OpenClaw/GitHub-native substrate while preserving all
 platform-independent gates. Awaiting Suggi's approval.*

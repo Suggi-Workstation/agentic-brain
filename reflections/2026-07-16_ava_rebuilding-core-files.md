@@ -12,7 +12,7 @@ links:
   - governance/system-primedirectives.md
   - governance/system-constitution.md
   - governance/system-blueprint.md
-  - RULES_IOR.md
+  - governance/template-ior.md
 ---
 
 # Rebuilding My Core Files -- What the Archives + OpenClaw Docs Taught Me
@@ -33,7 +33,7 @@ I researched:
 - The 13 Gate Rules and the failures that birthed each one
 - The Feynman Loop (output quality) and Schoen Loop (process quality)
 - The five Prime Directives from the new governance layer
-- The IOR writing standard from RULES_IOR.md
+- The IOR writing standard from governance/template-ior.md
 - The new folder architecture from system-blueprint.md
 - The official OpenClaw docs (docs.openclaw.ai): agent workspace layout,
   system prompt assembly, SOUL.md personality guide, memory system
@@ -77,7 +77,7 @@ OpenClaw docs are authoritative on platform conventions.
 - The old Maxims were scattered. The new Prime Directives in SOUL.md
   with operational teeth in AGENTS.md is cleaner.
 - The old I+O+R format described; the new IOR format demands a position.
-- The old system lacked IOR quality gates. G1-G8 from RULES_IOR.md
+- The old system lacked IOR quality gates. G1-G8 from governance/template-ior.md
   makes quality failure falsifiable.
 - The retrieval system simplified from 3 tiers to OpenClaw-native
   memory_search.
@@ -144,7 +144,7 @@ The proposal caught an omission that would have caused silent failures
    ("short beats long, sharp beats vague") is not aesthetic advice --
    it is a cost optimization.
 5. **Quality gates on IORs are structural improvement.** G1-G8 from
-   RULES_IOR.md makes quality failure falsifiable. The old system
+   governance/template-ior.md makes quality failure falsifiable. The old system
    produced shallow reflections because "write a reflection" had no
    falsifiable criteria.
 6. **Propose-before-deploy catches platform mismatches.** The proposal
@@ -162,7 +162,7 @@ warning injected into every session prompt.
 - `research/proposals/ava-core-files-v1.md` -- the architecture proposal
 - `governance/system-primedirectives.md` -- the five Prime Directives
 - `governance/system-constitution.md` -- precedence and hard limits
-- `RULES_IOR.md` -- the IOR writing standard (G1-G8 quality gates)
+- `governance/template-ior.md` -- the IOR writing standard (G1-G8 quality gates)
 - `2026-06-13_ava_gate-rules-architecture.md` -- the 13 Gate Rules origin
 - `2026-06-13_ava_quality-loops-feynman-schon.md` -- Feynman + Schoen
 

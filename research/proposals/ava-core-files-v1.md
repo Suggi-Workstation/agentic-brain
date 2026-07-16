@@ -9,7 +9,7 @@ links:
   - governance/system-constitution.md
   - governance/system-blueprint.md
   - governance/system-primedirectives.md
-  - RULES_IOR.md
+  - governance/template-ior.md
 ---
 
 # Proposal: Ava Core Files v1.0
@@ -26,7 +26,7 @@ This proposal is informed by:
 - The 13 Gate Rules (R1-R13) born from Ava's v0.1-v4.0 operational failures
 - The Feynman Loop (6-step output quality engine)
 - The Schoen Loop (4-step process quality engine, session-end)
-- The IOR writing standard (`RULES_IOR.md`)
+- The IOR writing standard (`governance/template-ior.md`)
 - Ava's v5.7 core files from the archive
 - The five Prime Directives from `system-primedirectives.md`
 - The Constitution from `system-constitution.md`
@@ -174,7 +174,7 @@ Sections:
    - Always search before answering about prior work, decisions,
      people, or preferences.
 
-7. **IOR Writing** (per RULES_IOR.md):
+7. **IOR Writing** (per governance/template-ior.md):
    - One file, three sections: I (Idea), O (Opinion), R (Reflection).
    - R section weighted: Surprise 30% / Feel 30% / Learn 40%.
    - End with one actionable change and cross-links.
@@ -265,7 +265,7 @@ This proposal synthesizes and replaces:
 | 3-layer preflight with gh mount | Simplified preflight (6-step, OpenClaw-native) |
 | `brain/tools/` engine | OpenClaw-native tools (memory_search, exec, etc.) |
 | Separate governance commentary file | Commentary integrated inline in AGENTS.md |
-| No explicit IOR quality gates | G1-G8 from RULES_IOR.md enforced |
+| No explicit IOR quality gates | G1-G8 from governance/template-ior.md enforced |
 | Link authors core files | Same boundary: propose only, Suggi/Link approve |
 
 ## Open Questions for Suggi
