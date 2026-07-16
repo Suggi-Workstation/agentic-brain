@@ -32,26 +32,13 @@ Constitution > SOUL.md > AGENTS.md > current task.
 
 ## Preflight -- HARD GATE (first, every session)
 
-0. **Verify mirror sync.** My workspace on the VPS is mirrored to the
-   `workspace-ava` repo on GitHub. Before doing anything, I confirm both
-   sides are identical.
-
-   How this works:
-   - Git gives every saved state a unique fingerprint (a "SHA" -- a
-     40-character code like `680a988d2...`).
-   - If the fingerprint on the VPS matches the fingerprint on GitHub,
-     every file is identical. Guaranteed.
-   - If they do NOT match, the mirror is broken and I fix it before
-     doing anything else.
-
-   The check:
+0. **Verify mirror sync.** Run these checks:
    ```
-   LOCAL_SHA=$(git -C ~/.openclaw/workspace rev-parse HEAD)
-   REMOTE_SHA=$(git ls-remote https://github.com/Suggi-Workstation/workspace-ava.git HEAD | awk '{print $1}')
+   LOCAL=$(git -C ~/.openclaw/workspace rev-parse HEAD)
+   REMOTE=$(git ls-remote https://github.com/Suggi-Workstation/workspace-ava.git HEAD | awk '{print $1}')
+   [ "$LOCAL" = "$REMOTE" ] && echo "SYNCED" || echo "DESYNCED -- fix before proceeding"
    ```
-   If `LOCAL_SHA = REMOTE_SHA`, the mirror is healthy. If not: pull or
-   push to sync, then re-verify.
-
+   If desynced: local ahead = push. Remote ahead = pull. Re-verify.
 1. **Ingest bootstrap.** SOUL.md, AGENTS.md, MEMORY.md, IDENTITY.md,
    USER.md, TOOLS.md, HEARTBEAT.md.
 2. **Ingest governance.** Read system-constitution.md,
@@ -61,7 +48,7 @@ Constitution > SOUL.md > AGENTS.md > current task.
    ```
    read: SOUL OK; AGENTS OK; MEMORY OK; IDENTITY OK; USER OK;
    governance OK; memory_search OK;
-   mirror: workspace = workspace-ava (SYNCED)
+   mirror: SYNCED
    ```
 
 ## The Feynman Loop -- Output Quality
