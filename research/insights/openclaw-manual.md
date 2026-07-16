@@ -170,6 +170,16 @@ for security reasons. Use `~/.openclaw/.env` instead.
 | `HEARTBEAT.md` | Heartbeat task checklist (keep small to minimize token burn) |
 | `MEMORY.md` | Curated long-term memory (loaded in main/direct sessions only) |
 
+Sub-agent sessions only inject AGENTS.md and TOOLS.md.
+
+### Workspace Setup:
+- Default location: `~/.openclaw/workspace`.
+- Auto-created on onboarding. `openclaw setup --baseline` creates
+  workspace without the full wizard.
+- `agents.defaults.skipBootstrap: true` disables auto-creation of
+  bootstrap files (use when you ship your own from a repo).
+- `agents.defaults.skipOptionalBootstrapFiles` can skip specific files.
+
 ### Memory Files:
 | File | Purpose |
 |---|---|
@@ -178,9 +188,23 @@ for security reasons. Use `~/.openclaw/.env` instead.
 | `memory/heartbeat-state.json` | Timestamps of last checks (email, calendar, etc.) |
 
 ### Bootstrap Limits:
-- `bootstrapMaxChars`: max characters per file before truncation (default 20K).
-- `bootstrapTotalMaxChars`: max total characters across all files (default 60K).
+- `bootstrapMaxChars`: max characters per file before truncation (default 20K,
+  ours: 50K).
+- `bootstrapTotalMaxChars`: max total characters across all files (default 60K,
+  ours: 120K).
 - Increase these if truncation warnings appear for important files.
+
+### Our Workspace Conventions:
+- Workspace is mirrored 1:1 to a GitHub repo (`workspace-ava`) via git.
+- The `## Workspace Layout` section in AGENTS.md lists every required
+  file and folder. The preflight gate verifies they all exist.
+- Every workspace contains ASCII infra: `.github/workflows/ascii-guard.yml`,
+  `.githooks/pre-commit`, `.gitattributes`, `.gitignore`,
+  `scripts/setup-hooks.sh`.
+- `memory/YYYY-MM-DD.md` files are daily raw logs; MEMORY.md is
+  periodically updated from them.
+- `IDENTITY.md` includes an Evolution Log section for tracking personal
+  growth milestones across versions.
 
 ## Session Lifecycle
 
@@ -189,11 +213,16 @@ for security reasons. Use `~/.openclaw/.env` instead.
 - **Shared/group sessions:** multi-user channels. MEMORY.md is NOT loaded
   for security (personal context stays private).
 - **Sub-agent sessions:** isolated children spawned via `sessions_spawn`.
+  Only AGENTS.md and TOOLS.md are injected (not SOUL/MEMORY/IDENTITY/
+  USER/HEARTBEAT). Use `context: "fork"` only when the child needs the
+  full parent transcript.
 - **Cron sessions:** scheduled agentTurn jobs from the cron system.
 
 ### Session Reset:
-- Default cadence: daily at 4 AM local time (configurable).
-- Manual: user runs `/new` or `/reset`.
+- Default cadence: daily at 4 AM local time (`session.reset.atHour: 4`).
+- Manual: `/new` or `/reset`. Sent alone, these acknowledge without
+  invoking the model.
+- Session scope: `per-sender` keeps separate sessions per user/chat.
 - Heartbeat, cron, and system turns do not reset idle freshness.
 
 ### Compaction:
@@ -201,6 +230,8 @@ for security reasons. Use `~/.openclaw/.env` instead.
 - Older turns are summarized; recent messages stay intact.
 - Tool-call/result pairs are preserved at the compaction boundary.
 - Memory flush runs before compaction.
+- `/compact [instructions]` triggers manual compaction and reports
+  remaining context budget.
 
 ## Secrets Management
 
@@ -281,10 +312,26 @@ openclaw secrets reload          # re-resolve runtime snapshot
 ## Heartbeat System
 
 ### How It Works:
-- The Gateway polls the agent at intervals defined in config.
-- The agent checks HEARTBEAT.md for pending tasks.
-- If HEARTBEAT.md is empty or comment-only: reply `HEARTBEAT_OK`.
-- If tasks are listed: execute them.
+- Default interval: every 30 minutes. Set `every: "0m"` to disable.
+- The Gateway polls the agent; the agent checks HEARTBEAT.md for tasks.
+- If HEARTBEAT.md is empty, comment-only, or only contains headings and
+  empty checklist stubs: OpenClaw SKIPS the heartbeat API call entirely
+  (no model invocation, no token cost).
+- If HEARTBEAT.md has real tasks: the agent executes them.
+- If the agent replies `HEARTBEAT_OK` (optionally with short padding),
+  OpenClaw suppresses outbound delivery for that heartbeat.
+- Heartbeats run full agent turns -- shorter intervals burn more tokens.
+
+### Config:
+```json5
+{
+  agents: {
+    defaults: {
+      heartbeat: { every: "30m" },  // set "0m" to disable
+    },
+  },
+}
+```
 
 ### Heartbeat vs Cron:
 - **Heartbeat:** batched periodic checks, conversational context is OK,
@@ -316,10 +363,17 @@ openclaw secrets audit       # scan for plaintext secrets
 ### Session Slash Commands:
 - `/status` -- usage overview (tokens, cost, time).
 - `/context list` -- injected files, sizes, truncation status.
+- `/context detail` -- per-skill, per-tool schema breakdown.
+- `/context map` -- treemap visualization of context composition.
 - `/model <provider>/<model>` -- switch model mid-session.
 - `/reasoning on|off` -- toggle thinking/reasoning mode.
-- `/new [model]` -- start a fresh session.
+- `/new [model]` -- start a fresh session. Sent alone, acknowledges
+  without model invocation.
+- `/compact [instructions]` -- manually compact context, reports
+  remaining budget.
 
 ---
 
-*Written 2026-07-16 by link. Update as the platform evolves.*
+*Written 2026-07-16 by link. Updated 2026-07-17 with heartbeat config,
+sub-agent bootstrap behavior, session management details, workspace
+conventions, and slash command reference.*

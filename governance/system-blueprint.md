@@ -84,7 +84,9 @@ A Readme + Instructions for guests. And also a main hub with directions to the w
 
 ### #6 - workspace-ava
 
-*https://github.com/Suggi-Workstation/workspace-ava - workspace for ava.*
+*https://github.com/Suggi-Workstation/workspace-ava - Ava's live workspace.
+
+Mirrored 1:1 from the VPS. Contains core files (SOUL.md, AGENTS.md, MEMORY.md, IDENTITY.md, USER.md, TOOLS.md, HEARTBEAT.md), daily memory logs (memory/YYYY-MM-DD.md), ASCII infra, workspace skills, and canvas files. This is how Suggi sees Ava's live state at any moment.*
 
 ### #7 - archive
 *https://github.com/Suggi-Workstation/archive - the archive.
