@@ -10,39 +10,10 @@ links: []
 
 # Library Topic Template -- How We Write Knowledge Files
 
-A library topic is an independent, agent-authored research file. It is
-NOT cross-examined research (that lives in `research/reports/`). It is
-a concise, self-contained essay on one concept, person, company, book,
-framework, or event. Think of it as a mini-essay: one atomic idea,
-explained clearly, with its own hypothesis and conclusion.
-
-## Research Basis
-
-This structure draws from:
-- **Zettelkasten / Smart Notes (Luhmann, Ahrens):** Notes should be atomic,
-  concept-oriented, densely linked, and written in the author's own words.
-  "Writing is thinking, not the output of thinking."
-- **Evergreen Notes (Matuschak):** One concept per note, associative
-  linking over rigid hierarchy, written for yourself disregarding an
-  external audience.
-- **The Feynman Technique:** A library topic should pass the Feynman test
-  -- explain it simply enough that someone new to the domain can follow.
-
-The structure below adapts these principles to a multi-agent shared
-library where every topic is independently researched and must be useful
-to any agent that retrieves it.
-
-## When to Write a Library Topic
-
-- After a Feynman Loop pass on a specific concept.
-- When researching a new company, person, book, framework, or event.
-- When filling a SPAWN entry from the domain index.
-- When an IOR hardens into reusable knowledge (promoted to Library).
-
-Do NOT write a library topic:
-- For cross-examined research (use `research/reports/`).
-- For personal reflections (use `reflections/`).
-- For proposals (use `research/proposals/`).
+A library topic is an independent, agent-authored research file: a
+self-contained essay on one concept, person, company, book, framework,
+or event. One atomic idea, explained clearly, with its own hypothesis
+and conclusion.
 
 ## Frontmatter
 
@@ -59,22 +30,41 @@ status: <draft|complete>         # draft = not yet reviewed; complete = indexed
 ---
 ```
 
+### Frontmatter Rules:
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
+  after publishing.
+- `domain` is the lowercase folder name (e.g., `value-investing`).
+- `type` picks from the canonical list. Do not invent new types without
+  updating this file.
+- `tags` use lowercase, hyphens for spaces. Prefer existing tags from
+  the brain's tag registry.
+- `links` are relative paths from the agentic-brain root.
+- `status` is `draft` until reviewed by another agent or Suggi.
+
+## Naming Convention
+
+Files are named: `<domain>/<slug>.md`
+
+- `domain` -- lowercase folder name
+- `slug` -- kebab-case, max 60 chars, unique within the domain
+
+Example: `value-investing/margin-of-safety.md`
+
 ## Body Structure
 
-The body follows a three-part structure. Percentages are guidelines, not
-rules. Let the content dictate the shape.
+Three parts. Percentages are guidelines, not rules. Let the content
+dictate the shape.
 
 ### Hypothesis (roughly 10-15%)
 
 State the core claim in one to three sentences. Then provide the framing:
-why this topic matters, what question it answers, and what the reader
-will understand by the end.
+why this topic matters and what question it answers.
 
-Good hypothesis: "Munger's inversion technique is not just a thinking
-tool -- it is a structural risk-management discipline that forces you to
-identify failure modes before they occur."
+Good: "Munger's inversion technique is not just a thinking tool -- it is
+a structural risk-management discipline that forces you to identify
+failure modes before they occur."
 
-Weak hypothesis: "This file is about Charlie Munger's inversion technique."
+Weak: "This file is about Charlie Munger's inversion technique."
 
 ### Body (roughly 70-80%)
 
@@ -82,42 +72,36 @@ Split into two parts, chosen by the author:
 
 **Analytical (roughly 30-40%):** Quantitative, structured, or systematic
 content. Data tables, formulas, frameworks, criteria checklists,
-comparative analysis, timelines, or model components. This is the part
-that could be verified or falsified by another agent.
+comparative analysis, timelines, or model components. Verifiable or
+falsifiable by another agent.
 
 **Narrative / Free Text (roughly 30-40%):** Qualitative explanation,
 historical context, illustrative examples, quotes from primary sources,
-analogies, or synthesis. This is the part where the agent's voice and
-judgment show. Connect the analytical content to real-world application.
+analogies, or synthesis. The agent's voice and judgment.
 
-The order is up to the author: analytical-then-narrative works for
-framework-first topics; narrative-then-analytical works for story-first
-topics. The split is a guideline, not a constraint. Some topics are
-80% narrative with a single analytical table. That is fine.
+The order is up to the author. The split is a guideline -- some topics
+are 80% narrative with one analytical table; that is fine.
 
 ### Conclusion (roughly 10%)
 
 Three elements:
 1. Restate the hypothesis in light of what was presented.
-2. One actionable takeaway: what should the reader do differently after
-   reading this?
-3. Open questions or SPAWN entries: what is still unknown? What related
-   topics should be written next?
+2. One actionable takeaway: what changes after reading this?
+3. Open questions or SPAWN entries: what is still unknown?
 
 ## Cross-Links
 
-End with an explicit cross-links section. Link to:
+End with an explicit cross-links section. Include:
 - Related topics in the same domain.
 - Topics in other domains that connect.
 - Reflections or reports that reference this topic.
-- Any external source cited in the body (with URL + retrieval date).
+- Any external source cited (with URL + retrieval date).
 
-Cross-links are the connective tissue of the brain. A topic with zero
-links is a dead end.
+Cross-links are the connective tissue of the brain. Zero links = dead end.
 
 ## Quality Gates
 
-Before marking `status: complete`, verify:
+Before marking `status: complete`:
 
 - **Atomic:** One concept per file. If the topic sprawls, split it.
 - **Feynman test:** Can someone new to the domain follow it?

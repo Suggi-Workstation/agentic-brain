@@ -14,20 +14,6 @@ An IOR is the atomic unit of team learning. It captures what an agent (or
 human) thinks, why they think it, and what they learned from testing it.
 One file, three sections, no fluff.
 
-## When to Write an IOR
-
-**Write one when:**
-- A session produces a durable insight (Feynman Loop completed).
-- Something surprised you -- your model was incomplete.
-- A decision was made that changes how we operate.
-- A failure taught a reusable lesson.
-- You read/researched something and formed a strong opinion.
-
-**Do NOT write one when:**
-- The work was routine with nothing learned.
-- You are logging for the sake of logging. Quality over volume.
-- The insight already exists in an IOR -- version-update that one instead.
-
 ## The Three-Section Format
 
 Every IOR has exactly three sections, labeled I, O, R.
@@ -89,11 +75,9 @@ End every IOR with:
   (`brain/library/<topic>/<file>.md`), insights, or governance files.
   These are the connective tissue of the brain.
 
-## The Feynman Loop (How Ideas Become IORs)
+## The Feynman Loop
 
-The Feynman Loop is the *process* that produces the *input* for an IOR.
-An IOR without a Feynman pass is a journal entry. A Feynman pass without
-an IOR is wasted effort.
+The Feynman Loop is the process that produces the input for an IOR.
 
 1. **Blank Page** -- Write everything you think you know about the topic.
    No sources, no notes, no search. This is the diagnostic.
@@ -110,13 +94,11 @@ an IOR is wasted effort.
 
 **Critical rule:** Step 1 MUST come before Step 3. Writing before search
 prevents existing-knowledge bias. The blank page reveals what you actually
-know vs. what you can patch together from sources. Reversing the order
-produces plausibly-sourced shallow thinking.
+know vs. what you can patch together from sources.
 
-## The Schoen Loop (How Sessions Produce IORs)
+## The Schoen Loop
 
-The Schoen Loop is reflection-on-action at session scope. Every substantive
-session ends with a Schoen pass:
+The Schoen Loop is reflection-on-action at session scope.
 
 1. What happened? (the facts)
 2. What worked / what did not? (with root cause for each "did not")
@@ -124,13 +106,11 @@ session ends with a Schoen pass:
 4. What structural gate did I add? (R7: every substantive session adds
    one gate)
 
-If steps 2-4 produce something worth keeping, it becomes an IOR.
-
-**Guardrail:** Reflection budget at most 20% of session effort. Reflection
-serves action; it does not replace it.
-
-**Guardrail:** Stop at second-order. Reflecting on a reflection beyond two
-layers is rumination, not learning.
+**Guardrails:**
+- Reflection budget: at most 20% of session effort. Reflection serves
+  action; it does not replace it.
+- Stop at second-order. Reflecting on a reflection beyond two layers is
+  rumination, not learning.
 
 ## Frontmatter Schema
 
@@ -147,19 +127,18 @@ tags: [<topic>, <topic>]         # lowercase, specific
 links: [<brain/lib/file.md>]     # paths relative to brain root
 ```
 
-**Rules for frontmatter:**
+### Frontmatter Rules:
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse an id. Never
   change an id after publishing.
 - `author` is who wrote the IOR. The author list is {link, ava, zelda,
   suggi, luffy}. Suggi is the human; others are agents.
 - `trigger` picks from the canonical list. Do not invent new trigger
-  values without updating this rules file.
+  values without updating this file.
 - `tags` use lowercase, hyphens for spaces, and prefer existing tags
-  from the brain's tag registry. Tags are how future-you finds this.
+  from the brain's tag registry.
 - `links` are relative paths from the brain root. Do not use absolute
   paths or file:// URIs.
-- `aliases` are alternative search titles. Optional but useful when the
-  IOR title uses domain-specific terms.
+- `aliases` are alternative search titles. Optional.
 
 ## Naming Convention
 
@@ -182,29 +161,25 @@ core lesson, overlapping conclusions), do NOT create a new file. Instead:
    another author's sections.
 3. Add a `version-history` table at the end.
 
-Only create a new file for a genuinely distinct lesson.
-
-## Quality Gates (Before Publishing)
+## Quality Gates
 
 Every IOR passes these checks before it is committed:
 
-- **G1 -- Idempotent Title:** The title makes a claim someone can agree
+- **G1 -- Title Makes a Claim:** The title is something someone can agree
   or disagree with. Not "Notes on X" -- that is a draft.
-- **G2 -- I Section Completeness:** Would someone with no context
-  understand what triggered this?
-- **G3 -- O Section Has a Spine:** Is there a clear position, not just
-  description? Does it cite a confidence level?
+- **G2 -- I Section Completeness:** A reader with no context understands
+  what triggered this.
+- **G3 -- O Section Has a Spine:** A clear position, not just description.
+  Cites a confidence level.
 - **G4 -- R Section Has a Surprise:** If nothing surprised you, the
-  reflection is incomplete. "Everything went as expected" is a red flag.
+  reflection is incomplete.
 - **G5 -- Actionable Change Is Concrete:** Not "be better" or "pay
-  attention." Something another agent could execute from the description
-  alone.
+  attention." Another agent could execute it from the description alone.
 - **G6 -- Cross-links Exist:** At least one link to a Library topic,
   insight, or another IOR. Zero links = dead-end knowledge.
 - **G7 -- Feynman Pre-write Rule:** The I section was written AFTER a
   blank-page diagnostic, not assembled from search results.
-- **G8 -- Schoen Budget Rule:** Total effort spent on this IOR at most
-  20% of the session that produced it. If you are polishing, stop.
+- **G8 -- ASCII-only:** Zero non-ASCII characters in the file.
 
 ## Anti-patterns
 
@@ -213,25 +188,9 @@ Every IOR passes these checks before it is committed:
 | IOR as journal entry | "Today I worked on X, then Y, then Z." No insight. | Ask: what did I *learn* that I did not know before? |
 | O section is description | "Here is what happened" dressed as "here is what I think." | The O must take a position. If it does not, delete it. |
 | Learn section is platitudes | "Communication is important" / "Test more." | Make it operational. "When X, do Y, because Z." |
-| Success-only reflection | "Everything went great!" No surprise, no learning. | Structure around surprise and error. Success is curation. |
-| Search-before-blank-page | Research fills gaps before you know what the gaps are. | Feynman Step 1 always precedes Step 3. No exceptions. |
-| Rumination (3rd-order) | Reflecting on a reflection on a reflection. | Stop at second-order. Write the IOR; do not write an IOR about the IOR. |
-
-## Lifecycle
-
-```
-Draft -> IOR -> (version-updates) -> promoted to Library OR pruned
-```
-
-- **Draft:** Written but not yet committed. Fails any quality gate.
-- **IOR:** Committed, passes all gates, cross-linked, indexed.
-- **Version-updated:** At least 75% similar new insight -> appended to
-  existing IOR. IORs compound in place.
-- **Promoted:** A reflection that hardens into reusable knowledge gets
-  extracted into a Library topic. The IOR stays as provenance.
-- **Pruned:** Stale, superseded, or low-signal IORs are removed during
-  periodic consolidation. Reflections are working memory, not permanent
-  storage. The Library is permanent; IORs are allowed to age out.
+| Success-only reflection | "Everything went great!" No surprise, no learning. | Structure around surprise and error. |
+| Search-before-blank-page | Research fills gaps before you know what the gaps are. | Feynman Step 1 always precedes Step 3. |
+| Rumination (3rd-order) | Reflecting on a reflection on a reflection. | Stop at second-order. |
 
 ## Attribution -- Keeping Multi-Agent IORs Honest
 
@@ -281,11 +240,10 @@ between search-first and blank-page-first output is consistent and large.
 
 This is not just a writing tip. It is a structural gate. "Write first,
 search second" should be a non-negotiable step in any knowledge-work
-pipeline, not a preference. The reason most "research notes" are boring
-is that they are written after the research is done -- the writer already
-knows the answer and is just performing knowledge. The blank page forces
-the performance BEFORE the answer exists, which is where learning
-actually happens.
+pipeline, not a preference. Most "research notes" are boring because they
+are written after the research is done -- the writer already knows the
+answer and is just performing knowledge. The blank page forces the
+performance BEFORE the answer exists, which is where learning happens.
 
 ## R -- Reflection
 
@@ -306,17 +264,15 @@ searching first conveniently hides.
 1. Blank-page-first is a structural gate, not a style choice. It must be
    enforced by the Feynman Loop definition, not left to preference.
 2. Comfort is the enemy of learning. If the blank-page pass does not feel
-   slightly uncomfortable (because you do not know enough), you picked
-   too easy a topic.
+   slightly uncomfortable, you picked too easy a topic.
 3. This extends beyond Feynman: any "research" task should start with a
-   self-audit of current knowledge. Garbage in = garbage out applies to
-   your own brain too.
+   self-audit of current knowledge.
 
 ## One Actionable Change
 Add "blank-page diagnostic" as Step 1 in the Feynman Loop definition in
-this rules file. It was implicit; make it explicit with the rationale
-above. Gate: every IOR's I section must cite what was known before vs.
-after the Feynman pass.
+this file. It was implicit; make it explicit with the rationale above.
+Gate: every IOR's I section must cite what was known before vs. after
+the Feynman pass.
 
 ## Cross-links
 - `2026-06-13_ava_quality-loops-feynman-schon.md` -- Ava's original
@@ -324,7 +280,7 @@ after the Feynman pass.
 - `brain/library/self-improvement-learning/feynman_technique_teaching.md`
 ```
 
-## The IOR File Checklist (Copy-Paste for Every New IOR)
+## The IOR Checklist (Copy-Paste for Every New IOR)
 
 ```
 [ ] Frontmatter complete (all 9 fields)
@@ -346,6 +302,5 @@ after the Feynman pass.
 ---
 
 *Last updated: 2026-07-16 by link. This file governs all IOR creation.
-Amend it through the same process: propose, test against at least one
-real IOR, then update. Rules are scar tissue -- each one should trace
-to a failure that proved it necessary.*
+Rules are scar tissue -- each one should trace to a failure that proved
+it necessary.*
