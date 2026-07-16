@@ -37,9 +37,9 @@ These rules are non-negotiable. CI enforces them.
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
 tier: report                     # always report
-author: <link|ava|zelda|suggi|luffy>
-tags: [<tag>, <tag>]
-links: [<relative-brain-path>]
+author: <link|ava|zelda|suggi|luffy>  # who wrote this report
+tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
+links: [<relative-brain-path>]   # paths relative to agentic-brain root
 ---
 ```
 
