@@ -4,7 +4,7 @@ id: 20260618T120019Z
 tier: core-template
 lock: approval-required
 approved_by: Suggi
-author: link
+author: Suggi
 links: []
 ---
 
@@ -230,5 +230,5 @@ for approval:
 
 ---
 
-*Last updated: 2026-07-16 by link + ava. Rules are scar tissue -- each
+*Last updated: 2026-07-16 by Suggi. Rules are scar tissue -- each
 one should trace to a failure that proved it necessary.*
