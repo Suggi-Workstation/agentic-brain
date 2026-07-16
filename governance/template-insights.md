@@ -37,7 +37,7 @@ These rules are non-negotiable. CI enforces them.
 ---
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
-tier: core-insight                # always core-insight
+tier: insight                # always insight
 author: <link|ava|zelda|suggi|luffy>
 source: [<id>, <id>]              # IOR(s), report(s), or evaluation(s)
                                   # that produced this insight
@@ -132,7 +132,7 @@ Every insight passes these checks before submission for approval:
 ---
 name: verification-is-the-bottleneck
 id: 20260614T180000Z
-tier: core-insight
+tier: insight
 author: link
 source:
   - 20260614T120000Z

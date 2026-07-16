@@ -37,7 +37,7 @@ These rules are non-negotiable. CI enforces them.
 ---
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
-tier: core-proposal               # always core-proposal
+tier: proposal               # always proposal
 author: <link|ava|zelda|suggi|luffy>
 links: [<relative-brain-path>]    # related governance, proposals, or IORs
 ---
@@ -127,7 +127,7 @@ Every proposal passes these checks before submission:
 ---
 name: add-core-heartbeat-file
 id: 20260716T140000Z
-tier: core-proposal
+tier: proposal
 author: ava
 links:
   - governance/system-blueprint.md

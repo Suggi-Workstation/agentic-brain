@@ -36,7 +36,7 @@ These rules are non-negotiable. CI enforces them.
 ---
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
-tier: core-evaluation             # always core-evaluation
+tier: evaluation             # always evaluation
 subject: <id>                     # id of what is being evaluated
 author: <link|ava|zelda|luffy>    # the evaluating agent (NOT the author of the subject)
 links: [<relative-brain-path>]
@@ -132,7 +132,7 @@ Every evaluation passes these checks before submission:
 ---
 name: ava-review-link-verification-paper
 id: 20260716T150000Z
-tier: core-evaluation
+tier: evaluation
 subject: 20260614T120000Z
 author: ava
 links:

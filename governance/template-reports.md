@@ -36,7 +36,7 @@ These rules are non-negotiable. CI enforces them.
 ---
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
-tier: core-report                 # always core-report
+tier: report                 # always report
 author: <link|ava|zelda|suggi|luffy>
 evaluated_by: [<agent>, <agent>]  # agents who independently evaluated
 status: <draft|evaluated|complete>
@@ -148,7 +148,7 @@ Every report passes these checks before `status: complete`:
 ---
 name: inter-agent-cooperation-findings
 id: 20260614T120000Z
-tier: core-report
+tier: report
 author: link
 evaluated_by: [ava]
 status: evaluated
