@@ -39,10 +39,10 @@ id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
 date: <YYYY-MM-DD>               # local date of first write
 author: <link|ava|zelda|suggi|luffy>
 domain: <domain-slug>            # lowercase, matches folder name
-type: <concept|person|company|book|framework|event|culture>
-tags: [<tag>, <tag>]             # lowercase, specific, 3-6 tags
+tags: [<tag>, <tag>]             # lowercase, 3-6 tags. Include type as a tag
+                                 # (concept, person, company, book, framework,
+                                 #  event, culture) plus topic tags
 links: [<relative-brain-path>]   # paths relative to agentic-brain root
-status: <draft|complete>         # draft = not yet reviewed; complete = indexed
 ---
 ```
 
@@ -50,12 +50,10 @@ status: <draft|complete>         # draft = not yet reviewed; complete = indexed
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
   after publishing.
 - `domain` is the lowercase folder name (e.g., `value-investing`).
-- `type` picks from the canonical list. Do not invent new types without
-  updating this file.
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
-  the brain's tag registry.
+  the brain's tag registry. Include the file's type as a tag
+  (concept, person, company, book, framework, event, culture).
 - `links` are relative paths from the agentic-brain root.
-- `status` is `draft` until reviewed by another agent or Suggi.
 
 ## Naming Convention
 
@@ -117,7 +115,7 @@ Cross-links are the connective tissue of the brain. Zero links = dead end.
 
 ## Quality Gates
 
-Every library topic passes these checks before `status: complete`:
+Every library topic passes these checks before committing:
 
 - **G1 -- Atomic:** One concept per file. If the topic sprawls, split it.
   The test: can you state the entire topic in one sentence without
@@ -133,8 +131,8 @@ Every library topic passes these checks before `status: complete`:
 - **G5 -- Cross-links Exist:** At least 2 links to other brain content
   (library topics, reflections, insights, or reports). Zero links =
   dead-end knowledge.
-- **G6 -- Frontmatter Complete:** All 8 fields present and valid.
-  `status: draft` until reviewed.
+- **G6 -- Frontmatter Complete:** All 6 fields present. Domain matches
+  the folder. Type is included as a tag.
 - **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
@@ -147,10 +145,8 @@ id: 20260716T120000Z
 date: 2026-07-16
 author: ava
 domain: value-investing
-type: concept
-tags: [margin-of-safety, risk-management, graham]
+tags: [concept, margin-of-safety, risk-management, graham]
 links: [library/investors/benjamin-graham.md, library/valuation-screening/intrinsic-value.md]
-status: complete
 ---
 
 # Margin of Safety -- Why Price Must Lag Value
@@ -228,12 +224,13 @@ topic reveals a structural gap.*
 
 ## The Library Checklist
 
-Copy-paste this block at the end of every new library topic before
-marking `status: complete`:
+Copy-paste this block at the end of every new library topic before committing:
 
 ```
-[ ] Frontmatter complete (all 8 fields: id, date, author, domain, type, tags, links, status)
+[ ] Frontmatter complete (6 fields: id, date, author, domain, tags, links)
 [ ] id is UTC timestamp, never used before
+[ ] Domain matches the folder the file lives in
+[ ] Tags include the file's type (concept, person, company, book, etc.)
 [ ] Hypothesis makes a claim (not a description)
 [ ] Analytical section: at least one structured element (table, formula, criteria, framework)
 [ ] Narrative section: qualitative explanation with examples or quotes
