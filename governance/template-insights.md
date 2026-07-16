@@ -104,19 +104,29 @@ Link to:
 
 ## Quality Gates
 
-Before submitting for approval:
+Every insight passes these checks before submission for approval:
 
-- **One sentence insight:** The core realization fits in one quotable
-  sentence.
-- **Evidence is cited:** At least one specific source (IOR, report,
-  evaluation) by id.
-- **Implications are concrete:** "Changes X" not "is important."
-- **Falsifiable:** The counter-evidence section states what would prove
-  the insight wrong.
-- **Source traceability:** The `source:` field in frontmatter links to
-  the originating artifacts.
-- **ASCII-only:** Zero non-ASCII characters.
-- **Lowercase + hyphens:** Filename follows the convention.
+- **G1 -- One-Sentence Insight:** The core realization fits in one
+  quotable sentence. If it takes a paragraph to explain, it is not yet
+  an insight -- it is still a reflection or report finding.
+- **G2 -- Evidence Is Cited:** At least one specific source (IOR,
+  report, or evaluation) by id. The insight traces back to something
+  that was observed, not something that was assumed.
+- **G3 -- Implications Are Concrete:** "Changes X" or "informs decision
+  Y," not "is important" or "matters a lot." Another agent should
+  know what to do differently after reading this.
+- **G4 -- Falsifiable:** The counter-evidence section states what would
+  prove the insight wrong. An insight that cannot be falsified is
+  dogma, not knowledge.
+- **G5 -- Source Traceability:** The `source:` field in frontmatter
+  links to every originating IOR, report, or evaluation. The chain
+  of evidence is complete.
+- **G6 -- Cross-links Exist:** Links to the source artifacts, related
+  insights that complement or extend this one, and any governance
+  files affected by this insight.
+- **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
+  lowercase slugs and tags, hyphens not underscores. CI enforces
+  ASCII via `ascii-guard.yml`.
 
 ---
 

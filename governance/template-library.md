@@ -117,16 +117,27 @@ Cross-links are the connective tissue of the brain. Zero links = dead end.
 
 ## Quality Gates
 
-Before marking `status: complete`:
+Every library topic passes these checks before `status: complete`:
 
-- **Atomic:** One concept per file. If the topic sprawls, split it.
-- **Feynman test:** Can someone new to the domain follow it?
-- **Has a claim:** The hypothesis makes a statement, not a description.
-- **Cross-linked:** At least 2 links to other brain content.
-- **Sourced:** Claims cite their origin (primary source, data, or
-  explicit "author's analysis" label).
-- **ASCII-only:** Every character is 7-bit ASCII. CI enforces this.
-- **Frontmatter complete:** All 8 fields present and valid.
+- **G1 -- Atomic:** One concept per file. If the topic sprawls, split it.
+  The test: can you state the entire topic in one sentence without
+  "and" connecting unrelated ideas?
+- **G2 -- Feynman Test:** A reader new to the domain can follow it from
+  start to finish without needing external context.
+- **G3 -- Hypothesis Makes a Claim:** The hypothesis states a position
+  someone could disagree with, not a description of what the file
+  contains.
+- **G4 -- Sourced:** Every factual claim cites its origin. Primary
+  sources, data, or an explicit "author's analysis" label. No
+  unattributed assertions.
+- **G5 -- Cross-links Exist:** At least 2 links to other brain content
+  (library topics, reflections, insights, or reports). Zero links =
+  dead-end knowledge.
+- **G6 -- Frontmatter Complete:** All 8 fields present and valid.
+  `status: draft` until reviewed.
+- **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
+  lowercase slugs and tags, hyphens not underscores. CI enforces
+  ASCII via `ascii-guard.yml`.
 
 ## Example -- Minimal Valid Library Topic
 

@@ -102,18 +102,27 @@ Link to:
 
 ## Quality Gates
 
-Before submitting for approval:
+Every proposal passes these checks before submission:
 
-- **Problem is specific:** "X broke" or "Y is missing," not "things could
-  be better."
-- **Solution is concrete:** Another agent could implement it from the
-  description alone.
-- **Impact is estimated:** Positive, risk, and cost are all addressed.
-- **Open questions are surfaced:** Nothing uncertain is buried or implied.
-- **Frontmatter complete:** All fields present. `approved_by: pending`
-  until review.
-- **ASCII-only:** Zero non-ASCII characters.
-- **Lowercase + hyphens:** Filename, slug, and tags follow the convention.
+- **G1 -- Problem Is Specific:** "X broke on Y date because Z" or "Y is
+  missing and causes Z," not "things could be better." A reader
+  understands what is wrong and why it matters.
+- **G2 -- Solution Is Concrete:** Another agent could implement it from
+  the description alone. What files change? What is created? What
+  processes are added or removed? No hand-waving.
+- **G3 -- Impact Is Estimated:** Positive impact, risk assessment, and
+  cost estimate are all addressed. At minimum: one sentence each.
+- **G4 -- Open Questions Surfaced:** Every uncertainty is written down.
+  Nothing is buried or implied. If Suggi needs to decide something,
+  the question is explicit.
+- **G5 -- Cross-links Exist:** At least one link to the IOR, evaluation,
+  or governance file that triggered this proposal. Zero links =
+  untethered from the system's learning.
+- **G6 -- Frontmatter Complete:** All fields present. `approved_by:
+  pending` until reviewed by Suggi.
+- **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
+  lowercase slugs and tags, hyphens not underscores. CI enforces
+  ASCII via `ascii-guard.yml`.
 
 ---
 

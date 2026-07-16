@@ -105,15 +105,29 @@ Link to:
 
 ## Quality Gates
 
-Before submitting:
+Every evaluation passes these checks before submission:
 
-- **Different agent:** Evaluator is not the original author.
-- **Criteria stated first:** Criteria are listed before findings.
-- **Evidence cited:** Every finding is backed by a specific reference.
-- **Verdict is explicit:** One of the three options, not a maybe.
-- **Confidence included:** With reasoning.
-- **ASCII-only:** Zero non-ASCII characters.
-- **Lowercase + hyphens:** Filename follows the convention.
+- **G1 -- Different Agent:** The evaluator is not the original author of
+  what is being evaluated. This is the decorrelation rule -- independent
+  review requires a different mind.
+- **G2 -- Criteria Stated First:** Evaluation criteria are listed before
+  findings begin. This prevents moving the goalposts after seeing the
+  results.
+- **G3 -- Evidence Cited:** Every finding is backed by a specific
+  reference. Quote the source, cite the line, link the file. No
+  unsupported assertions about someone else's work.
+- **G4 -- Verdict Is Explicit:** One of three options: APPROVE, APPROVE
+  WITH CHANGES (list each required change), or REJECT (state the
+  fundamental flaw). No \"maybe\" or \"mostly good.\"
+- **G5 -- Confidence Included:** With reasoning. High (85%+), medium
+  (60-85%), or low (below 60%). State what would change the confidence
+  level.
+- **G6 -- Cross-links Exist:** At minimum, a link to the subject of the
+  evaluation. Ideally, also link to related evaluations or governance
+  files defining the criteria used.
+- **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
+  lowercase slugs and tags, hyphens not underscores. CI enforces
+  ASCII via `ascii-guard.yml`.
 
 ---
 

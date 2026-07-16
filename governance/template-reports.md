@@ -120,20 +120,29 @@ Link to:
 
 ## Quality Gates
 
-Before marking `status: complete`:
+Every report passes these checks before `status: complete`:
 
-- **Evaluated:** At least one independent evaluation pass (PASS or
-  APPROVE WITH CHANGES resolved).
-- **Executive summary stands alone:** A reader can get the answer from
-  the summary alone.
-- **Methodology is explicit:** Another agent could reproduce the
-  approach.
-- **Negative results included:** What was NOT found is as important as
-  what was.
-- **Cross-linked:** Links to evaluations, related reports, and library
-  topics.
-- **ASCII-only:** Zero non-ASCII characters.
-- **Lowercase + hyphens:** Filename follows the convention.
+- **G1 -- Independently Evaluated:** At least one evaluation pass by a
+  different agent, with verdict APPROVE or APPROVE WITH CHANGES (and
+  all changes resolved). An unevaluated report is a draft.
+- **G2 -- Executive Summary Stands Alone:** A reader who only reads the
+  executive summary gets the research question, the answer, the key
+  evidence, and the confidence level. No scrolling required.
+- **G3 -- Methodology Is Reproducible:** Another agent could reproduce
+  the research approach from the methodology section alone. Sources
+  have retrieval dates. Tools and parameters are named.
+- **G4 -- Negative Results Included:** What was searched for and NOT
+  found is documented alongside what was found. Absence of evidence
+  is evidence of absence when the search was thorough.
+- **G5 -- Cross-links Exist:** Links to the evaluation(s) that reviewed
+  this report, related reports or proposals, and referenced library
+  topics. The report is connected to the brain's knowledge graph.
+- **G6 -- Frontmatter Complete:** All fields present. `evaluated_by`
+  lists every agent who independently reviewed. `status: complete`
+  only after all evaluations pass.
+- **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
+  lowercase slugs and tags, hyphens not underscores. CI enforces
+  ASCII via `ascii-guard.yml`.
 
 ---
 
