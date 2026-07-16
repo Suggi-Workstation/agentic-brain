@@ -4,7 +4,6 @@ id: 20260618T120018Z
 tier: core-template
 lock: approval-required
 approved_by: Suggi
-tags: [<tag>, <tag>]
 author: link
 links: []
 ---
@@ -37,10 +36,8 @@ These rules are non-negotiable. CI enforces them.
 ---
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
-tier: report                 # always report
+tier: report                     # always report
 author: <link|ava|zelda|suggi|luffy>
-evaluated_by: [<agent>, <agent>]  # agents who independently evaluated
-status: <draft|evaluated|complete>
 tags: [<tag>, <tag>]
 links: [<relative-brain-path>]
 ---
@@ -119,11 +116,12 @@ Link to:
 
 ## Quality Gates
 
-Every report passes these checks before `status: complete`:
+Every report passes these checks before committing:
 
 - **G1 -- Independently Evaluated:** At least one evaluation pass by a
   different agent, with verdict APPROVE or APPROVE WITH CHANGES (and
-  all changes resolved). An unevaluated report is a draft.
+  all changes resolved). The evaluations are linked in `links`. An
+  unevaluated report is a draft.
 - **G2 -- Executive Summary Stands Alone:** A reader who only reads the
   executive summary gets the research question, the answer, the key
   evidence, and the confidence level. No scrolling required.
@@ -136,9 +134,8 @@ Every report passes these checks before `status: complete`:
 - **G5 -- Cross-links Exist:** Links to the evaluation(s) that reviewed
   this report, related reports or proposals, and referenced library
   topics. The report is connected to the brain's knowledge graph.
-- **G6 -- Frontmatter Complete:** All fields present. `evaluated_by`
-  lists every agent who independently reviewed. `status: complete`
-  only after all evaluations pass.
+- **G6 -- Frontmatter Complete:** All 6 fields present (name, id,
+  tier, author, tags, links).
 - **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
@@ -152,8 +149,6 @@ id: 20260614T120000Z
 tier: report
 tags: [<tag>, <tag>]
 author: link
-evaluated_by: [ava]
-status: evaluated
 tags: [multi-agent, cooperation, verification, architecture]
 links:
   - research/evaluations/ava-review-cooperation-findings.md
@@ -237,11 +232,10 @@ volitional -- self-close must be impossible by design.
 
 ## The Report Checklist
 
-Copy-paste this block at the end of every new report before marking
-`status: complete`:
+Copy-paste this block at the end of every new report before committing:
 
 ```
-[ ] Frontmatter complete (all fields, evaluated_by is populated)
+[ ] Frontmatter complete (6 fields: name, id, tier, author, tags, links)
 [ ] id is UTC timestamp, never used before
 [ ] Executive summary: question + answer + key evidence + confidence
 [ ] Research question: falsifiable, scoped (in/out)
