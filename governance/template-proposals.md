@@ -38,8 +38,6 @@ These rules are non-negotiable. CI enforces them.
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
 tier: core-proposal               # always core-proposal
-lock: approval-required           # proposals always require approval
-approved_by: pending              # pending | Suggi | <reviewer>
 author: <link|ava|zelda|suggi|luffy>
 links: [<relative-brain-path>]    # related governance, proposals, or IORs
 ---
@@ -118,8 +116,7 @@ Every proposal passes these checks before submission:
 - **G5 -- Cross-links Exist:** At least one link to the IOR, evaluation,
   or governance file that triggered this proposal. Zero links =
   untethered from the system's learning.
-- **G6 -- Frontmatter Complete:** All fields present. `approved_by:
-  pending` until reviewed by Suggi.
+- **G6 -- Frontmatter Complete:** All fields present.
 - **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
@@ -131,8 +128,6 @@ Every proposal passes these checks before submission:
 name: add-core-heartbeat-file
 id: 20260716T140000Z
 tier: core-proposal
-lock: approval-required
-approved_by: pending
 author: ava
 links:
   - governance/system-blueprint.md
@@ -179,7 +174,7 @@ update the core-files proposal index, and notify Suggi.
 Copy-paste this block at the end of every new proposal before submission:
 
 ```
-[ ] Frontmatter complete (all 7 fields, approved_by: pending)
+[ ] Frontmatter complete (all 7 fields)
 [ ] id is UTC timestamp, never used before
 [ ] Problem: specific, evidence-backed, one to three sentences
 [ ] Solution: concrete steps, another agent could implement from description

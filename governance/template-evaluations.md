@@ -37,8 +37,6 @@ These rules are non-negotiable. CI enforces them.
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
 tier: core-evaluation             # always core-evaluation
-lock: approval-required
-approved_by: pending
 evaluator: <link|ava|zelda|luffy>  # who performed the evaluation (NOT the author)
 subject: <id of what is being evaluated>
 author: <evaluator>               # same as evaluator
@@ -136,8 +134,6 @@ Every evaluation passes these checks before submission:
 name: ava-review-link-verification-paper
 id: 20260716T150000Z
 tier: core-evaluation
-lock: approval-required
-approved_by: pending
 evaluator: ava
 subject: 20260614T120000Z
 author: ava
