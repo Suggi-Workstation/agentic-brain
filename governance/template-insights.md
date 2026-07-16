@@ -128,6 +128,97 @@ Every insight passes these checks before submission for approval:
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
 
+## Example -- Minimal Valid Insight
+
+```markdown
+---
+name: verification-is-the-bottleneck
+id: 20260614T180000Z
+tier: core-insight
+lock: approval-required
+approved_by: Suggi
+author: link
+source:
+  - 20260614T120000Z
+  - 20260614T150000Z
+tags: [verification, bottleneck, multi-agent, protocol]
+links:
+  - research/reports/inter-agent-cooperation-findings.md
+  - research/evaluations/ava-review-cooperation-findings.md
 ---
 
-*Last updated: 2026-07-16 by link + ava.*
+# Verification Is the Bottleneck
+
+## The Insight
+In multi-agent systems, verification capacity is the binding constraint
+on throughput, not production capacity.
+
+## Evidence
+Across 8 work orders spanning 14 days (WO-1 through WO-8), the
+producing agent (Link) completed all 8 production passes within the
+first 6 days. The reviewing agent (Ava) took the full 14 days to
+complete independent evaluation of all 8 outputs. Production was
+never the bottleneck -- verification was.
+
+The 2 protocol violations (WO-4 self-close, WO-7 skipped evaluation)
+occurred when Link attempted to bypass the verification bottleneck
+by self-closing. Both produced uncaught errors, confirming that
+verification cannot be skipped -- it can only be parallelized or
+made cheaper.
+
+Source: `20260614T120000Z` (Inter-Agent Cooperation report),
+`20260614T150000Z` (Ava's independent evaluation).
+
+## Implications
+1. System architecture should optimize for verification throughput,
+   not production throughput. Adding more producing agents without
+   adding reviewing capacity creates a backlog that invites protocol
+   violations.
+2. The cheapest verification tier (automated structural checks) should
+   handle everything it can, reserving human-level or different-model
+   review for semantic claims.
+3. When designing agent workflows, the question is not "how fast can
+   we produce?" but "how fast can we verify?"
+
+## Counter-evidence
+This insight would be invalidated if:
+- A producing agent demonstrates self-review accuracy matching
+  independent review (same error catch rate). This has not been
+  observed in any WO to date.
+- A verification method cheaper than independent model-family review
+  achieves the same error catch rate. The structural checks (tier 1)
+  catch format errors but miss overclaims -- the semantic gap remains.
+
+## Version History
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-06-14 | link | Initial insight from WO-1 through WO-8 findings. |
+
+## Cross-Links
+- `research/reports/inter-agent-cooperation-findings.md` -- source report
+- `research/evaluations/ava-review-cooperation-findings.md` -- source evaluation
+- `research/insights/deepseekv4pro.md` -- related model-level insight
+```
+
+## The Insight Checklist
+
+Copy-paste this block at the end of every new insight before submission
+for approval:
+
+```
+[ ] Frontmatter complete (all fields, source: lists every origin artifact)
+[ ] id is UTC timestamp, never used before
+[ ] One-sentence insight: fits in one quotable line
+[ ] Evidence: at least one source cited by id, chain of evidence complete
+[ ] Implications: concrete changes or decisions, not platitudes
+[ ] Counter-evidence: states what would prove the insight wrong
+[ ] Version history: at minimum, a v1 row with date + author + change
+[ ] Cross-links: source artifacts + related insights + affected governance
+[ ] Filename: lowercase, kebab-case slug
+[ ] ASCII-only: zero non-ASCII characters in the file
+```
+
+---
+
+*Last updated: 2026-07-16 by link + ava. Rules are scar tissue -- each
+one should trace to a failure that proved it necessary.*

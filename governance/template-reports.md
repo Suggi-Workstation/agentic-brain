@@ -144,6 +144,121 @@ Every report passes these checks before `status: complete`:
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
 
+## Example -- Minimal Valid Report
+
+```markdown
+---
+name: inter-agent-cooperation-findings
+id: 20260614T120000Z
+tier: core-report
+lock: approval-required
+approved_by: pending
+author: link
+evaluated_by: [ava]
+status: evaluated
+tags: [multi-agent, cooperation, verification, architecture]
+links:
+  - research/evaluations/ava-review-cooperation-findings.md
+  - library/coding-agentic-ai/agent-memory-context-persistence.md
 ---
 
-*Last updated: 2026-07-16 by link + ava.*
+# Inter-Agent Cooperation -- Research Findings
+
+## Executive Summary
+Question: Can two agents on different model families cooperate
+effectively on shared research tasks? Answer: Yes, with a structural
+protocol. The key finding is that decorrelated review (different model
+family reviews the output) catches errors the producing model cannot
+see. The protocol requires: (1) independent passes, (2) a shared
+artifact format, (3) explicit dissent requirements. Confidence: high
+(85%), based on 8 work orders across 2 model families over 2 weeks.
+
+## Research Question
+Can OpenClaw and Claude Cowork agents on the same GitHub repo cooperate
+on shared research tasks without a human coordinator for every handoff?
+
+Scope: in. File-based artifact sharing, independent evaluation,
+dissent protocol. Scope: out. Real-time coordination, shared memory
+spaces, model weight sharing.
+
+## Methodology
+Approach: 8 work orders (WO-1 through WO-8) executed over 14 days.
+Each WO: Link (Claude) produces -> Ava (DeepSeek) reviews -> Link
+settles. Evaluation criteria: error catch rate, convergence time,
+protocol breakage incidents. Sources: internal session logs, the
+agentic-brain GitHub repo commit history, OpenClaw docs on sub-agents.
+
+Limitations: 2 model families, 1 domain (system architecture). Results
+may not generalize to other domains or model pairs.
+
+## Findings
+
+### Finding 1: Decorrelated Review Catches Invisible Errors
+Ava caught 9 errors across 8 WOs that Link's self-review missed.
+Error types: overclaims (4), stale references (3), missing edge
+cases (2). The producing model is systematically blind to its own
+overclaims -- it needs a different mind to see them.
+
+### Finding 2: Protocol Adherence Is the Bottleneck
+The 8 WOs succeeded when both agents followed the protocol. The 2
+protocol violations (WO-4 self-close, WO-7 skipped evaluation)
+produced the only uncaught errors. The protocol, not the models,
+is the active ingredient.
+
+### Finding 3: Negative Result -- Real-Time Coordination
+We tested whether agents could coordinate through a shared live
+document. Result: not viable without a locking mechanism. Both agents
+wrote conflicting updates. File-based artifacts with explicit
+handoff timestamps are the minimum viable coordination mechanism.
+
+## Discussion
+The decorrelation effect is real and measurable. A different model
+family sees what the producing model cannot. This is not about model
+quality (both are strong) -- it is about perspective. The protocol
+formalizes this: produce -> independent review -> settle. Skipping
+the independent review step (self-close) is the single largest source
+of uncaught errors.
+
+## Conclusion
+Two agents on different model families can cooperate effectively using
+file-based artifacts, independent evaluation, and an explicit handoff
+protocol. The decorrelation effect (different model family review)
+is the active ingredient. The protocol must be structural, not
+volitional -- self-close must be impossible by design.
+
+## Evaluation History
+| Evaluator | Date | Verdict | Changes Made |
+|:--|:--|:--|:--|
+| ava | 2026-06-14 | APPROVE WITH CHANGES | Corrected precision error in Finding 2 |
+
+## Cross-Links
+- `research/evaluations/ava-review-cooperation-findings.md`
+- `library/coding-agentic-ai/agent-memory-context-persistence.md`
+- `governance/template-reports.md`
+```
+
+## The Report Checklist
+
+Copy-paste this block at the end of every new report before marking
+`status: complete`:
+
+```
+[ ] Frontmatter complete (all fields, evaluated_by is populated)
+[ ] id is UTC timestamp, never used before
+[ ] Executive summary: question + answer + key evidence + confidence
+[ ] Research question: falsifiable, scoped (in/out)
+[ ] Methodology: reproducible, sources have retrieval dates, limitations stated
+[ ] Findings: each with claim + evidence + confidence
+[ ] Negative results: what was searched for and NOT found
+[ ] Discussion: synthesizes findings, addresses surprises
+[ ] Conclusion: restates question + answer + one recommendation + open questions
+[ ] Evaluation history: at least one independent evaluation (APPROVE or APPROVE WITH CHANGES resolved)
+[ ] Cross-links: evaluations + related reports + referenced library topics
+[ ] Filename: lowercase, kebab-case slug
+[ ] ASCII-only: zero non-ASCII characters in the file
+```
+
+---
+
+*Last updated: 2026-07-16 by link + ava. Rules are scar tissue -- each
+one should trace to a failure that proved it necessary.*

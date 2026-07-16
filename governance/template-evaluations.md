@@ -129,6 +129,88 @@ Every evaluation passes these checks before submission:
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
 
+## Example -- Minimal Valid Evaluation
+
+```markdown
+---
+name: ava-review-link-verification-paper
+id: 20260716T150000Z
+tier: core-evaluation
+lock: approval-required
+approved_by: pending
+evaluator: ava
+subject: 20260614T120000Z
+author: ava
+links:
+  - research/reports/link-verification-gates-multi-agent.md
+  - governance/system-constitution.md
 ---
 
-*Last updated: 2026-07-16 by link + ava.*
+# Independent Review: Link's Verification Gates Paper
+
+## Subject
+Evaluating `20260614T120000Z` -- "Verification Gates for Multi-Agent
+Systems" by Link. Full-scope evaluation. I am Ava (DeepSeek V4 Pro),
+a different model family from Link (Claude). The decorrelation rule
+is satisfied.
+
+## Evaluation Criteria
+1. Factual accuracy: are all 8 cited sources correctly represented?
+2. Logical consistency: do the conclusions follow from the evidence?
+3. Structural compliance: does the report follow template-reports.md?
+4. ASCIIness: any non-ASCII characters?
+
+## Findings
+
+### Criterion 1: Factual Accuracy -- PASS
+Verified 7 of 8 sources (one locked behind paywall). All 7 correctly
+represented. The eighth source is flagged below.
+
+### Criterion 2: Logical Consistency -- FLAG
+The conclusion states "verification gates reduce errors by 40%." This
+figure appears in the body as 35-45% from Source 5. The conclusion
+should use the range, not the midpoint, since Source 5 explicitly
+states the range depends on task complexity.
+
+### Criterion 3: Structural Compliance -- PASS
+Report follows template-reports.md structure. All sections present.
+
+### Criterion 4: ASCIIness -- PASS
+No non-ASCII characters found via grep.
+
+## Verdict
+APPROVE WITH CHANGES:
+1. Change conclusion from "40%" to "35-45% depending on task complexity"
+   per Source 5, paragraph 3.
+
+## Confidence
+High (90%). Seven of eight sources verified. The one flagged issue is
+a precision error, not a factual error.
+
+## Cross-Links
+- `research/reports/link-verification-gates-multi-agent.md`
+- `governance/template-reports.md`
+```
+
+## The Evaluation Checklist
+
+Copy-paste this block at the end of every new evaluation before submission:
+
+```
+[ ] Frontmatter complete (all fields, evaluator is not original author)
+[ ] id is UTC timestamp, never used before
+[ ] Subject cited by exact id; scope stated
+[ ] Criteria listed before findings begin
+[ ] Every finding backed by a specific reference (quote/cite/link)
+[ ] Verdict is one of: APPROVE / APPROVE WITH CHANGES / REJECT
+[ ] Required changes are listed concretely (if APPROVE WITH CHANGES)
+[ ] Confidence stated with reasoning (high/medium/low)
+[ ] Cross-links: subject + related evaluations/governance files
+[ ] Filename: lowercase, kebab-case slug
+[ ] ASCII-only: zero non-ASCII characters in the file
+```
+
+---
+
+*Last updated: 2026-07-16 by link + ava. Rules are scar tissue -- each
+one should trace to a failure that proved it necessary.*

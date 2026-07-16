@@ -225,3 +225,27 @@ quality compensates for estimation risk.
 principles, Ahrens' Smart Notes methodology, Matuschak's evergreen note
 principles, and the Feynman technique. Amended only after a real library
 topic reveals a structural gap.*
+
+## The Library Checklist
+
+Copy-paste this block at the end of every new library topic before
+marking `status: complete`:
+
+```
+[ ] Frontmatter complete (all 8 fields: id, date, author, domain, type, tags, links, status)
+[ ] id is UTC timestamp, never used before
+[ ] Hypothesis makes a claim (not a description)
+[ ] Analytical section: at least one structured element (table, formula, criteria, framework)
+[ ] Narrative section: qualitative explanation with examples or quotes
+[ ] Conclusion: restates hypothesis + one actionable takeaway + open questions
+[ ] Cross-links: at least 2 links to other brain content (library/reflections/insights/reports)
+[ ] Source citations: every factual claim traces to a primary source, data, or "author's analysis"
+[ ] Feynman test: a domain newcomer can follow from start to finish
+[ ] Filename: <domain>/<slug>.md -- lowercase, kebab-case
+[ ] ASCII-only: zero non-ASCII characters in the file
+```
+
+---
+
+*Last updated: 2026-07-16 by link + ava. Rules are scar tissue -- each
+one should trace to a failure that proved it necessary.*

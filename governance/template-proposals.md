@@ -124,6 +124,73 @@ Every proposal passes these checks before submission:
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
 
+## Example -- Minimal Valid Proposal
+
+```markdown
+---
+name: add-core-heartbeat-file
+id: 20260716T140000Z
+tier: core-proposal
+lock: approval-required
+approved_by: pending
+author: ava
+links:
+  - governance/system-blueprint.md
+  - governance/template-reflections.md
+  - research/proposals/ava-core-files-v1.md
 ---
 
-*Last updated: 2026-07-16 by link + ava.*
+# Add HEARTBEAT.md to Ava Core File Set
+
+## Problem
+The proposed core file set for Ava (v1.1) includes 7 files but omits
+HEARTBEAT.md. The official OpenClaw workspace file map lists HEARTBEAT.md
+as a standard bootstrap file. A missing HEARTBEAT.md injects a "missing
+file" marker into every session prompt, wasting tokens on every turn.
+
+## Proposed Solution
+Add `ava-core-heartbeat.md` to the proposal set in
+`research/proposals/`. The file follows the comment-only template
+pattern already used in our current workspace. Content: a comment-only
+heartbeat template that skips API calls until tasks are explicitly added.
+
+## Impact
+- Positive: eliminates the "missing file" warning from every session
+  prompt. Saves roughly 50 tokens per session start.
+- Risk: negligible. Comment-only file has zero behavioral effect.
+- Cost: less than 5 minutes to write and commit.
+
+## Open Questions
+1. Should the heartbeat file use a comment-only template or include a
+   minimal "check inbox" task by default?
+
+## Approval Gate
+If approved, I will add `ava-core-heartbeat.md` to the proposals folder,
+update the core-files proposal index, and notify Suggi.
+
+## Cross-Links
+- `governance/system-blueprint.md`
+- `governance/template-reflections.md`
+- `research/proposals/ava-core-files-v1.md`
+```
+
+## The Proposal Checklist
+
+Copy-paste this block at the end of every new proposal before submission:
+
+```
+[ ] Frontmatter complete (all 7 fields, approved_by: pending)
+[ ] id is UTC timestamp, never used before
+[ ] Problem: specific, evidence-backed, one to three sentences
+[ ] Solution: concrete steps, another agent could implement from description
+[ ] Impact: positive + risk + cost, at least one sentence each
+[ ] Open questions: all uncertainties written down, nothing implied
+[ ] Cross-links: at least 1 link to triggering IOR/evaluation/governance file
+[ ] Filename: lowercase, kebab-case slug
+[ ] ASCII-only: zero non-ASCII characters in the file
+```
+
+---
+
+*Last updated: 2026-07-16 by link + ava. Rules are scar tissue -- each
+one should trace to a failure that proved it necessary.*
