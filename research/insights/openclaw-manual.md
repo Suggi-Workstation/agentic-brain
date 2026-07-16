@@ -1,11 +1,15 @@
 ---
 name: openclaw-manual
 id: 20260716T151201Z
-tier: core-insight
-lock: approval-required
-approved_by: Suggi
-author: link
+tier: insight
+source:
+  - 20260716T153500Z
+author: ava
+tags: [openclaw, platform, manual, reference, tools, workspace]
 links:
+  - research/insights/deepseekv4pro.md
+  - research/insights/prompt-engineering.md
+  - research/insights/context-engineering.md
 ---
 
 # OpenClaw Agent Platform -- General Operating Manual

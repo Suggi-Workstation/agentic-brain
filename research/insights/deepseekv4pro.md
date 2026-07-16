@@ -1,11 +1,14 @@
 ---
 name: deepseekv4pro
 id: 20260716T151200Z
-tier: core-insight
-lock: approval-required
-approved_by: Suggi
-author: link
+tier: insight
+source:
+  - 20260716T153500Z
+author: ava
+tags: [deepseek, model, v4-pro, api, parameters, thinking, reference]
 links:
+  - research/insights/openclaw-manual.md
+  - research/insights/prompt-engineering.md
 ---
 
 # DeepSeek V4 Pro -- General Reference Manual
