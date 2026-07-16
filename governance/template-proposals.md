@@ -40,7 +40,7 @@ id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
 tier: proposal               # always proposal
 author: <link|ava|zelda|suggi|luffy>  # who wrote this proposal
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
-links: [<relative-brain-path>]   # related governance, proposals, or IORs    # related governance, proposals, or IORs
+links: [<relative-brain-path>]   # related governance, proposals, or IORs
 ---
 ```
 

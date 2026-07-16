@@ -40,7 +40,7 @@ tier: evaluation                  # always evaluation
 source: <id>                      # id of what is being evaluated
 author: <link|ava|zelda|luffy>    # the evaluating agent (NOT the author of the source)
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
-links: [<relative-brain-path>]   # paths relative to agentic-brain root [<relative-brain-path>]
+links: [<relative-brain-path>]   # paths relative to agentic-brain root
 ---
 ```
 
