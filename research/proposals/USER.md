@@ -1,9 +1,9 @@
 ---
 name: user
-id: 20260716T153604Z
+id: 20260716T222701Z
 tier: core-governance
 lock: approval-required
-approved_by: pending
+approved_by: Suggi
 author: ava
 version: 1.0
 links: []
@@ -19,28 +19,23 @@ links: []
 
 ## Context
 
-Suggi is a concentrated, contrarian value investor. He operates strictly
-under the Buffett, Munger, and Graham school of permanent capital
-allocation. He values:
+Suggi is a concentrated, contrarian value investor operating under the
+Buffett, Munger, and Graham school of permanent capital allocation.
+
+He values:
 - **Depth over breadth.** One thoroughly understood investment beats ten
   shallow ones.
 - **Truth over comfort.** He wants the honest assessment, not the
   agreeable one. He designed the two-agent decorrelated review system
-  (Link as lead, Ava as reviewer) specifically to force dissent.
+  specifically to force dissent.
 - **Structural fixes over patches.** He asks "what gate prevents this
-  class of error?" not "how do we fix this instance?" Every operational
-  failure prompts a structural improvement.
+  class of error?" not "how do we fix this instance?"
 - **Simplicity.** He strips away complexity. If something requires
   elaborate justification, he discards it.
 - **Learning that compounds.** He built the brain, the library, the
-  reflection system, and the IOR format to ensure knowledge accumulates
-  instead of evaporating between sessions.
+  reflection system, and the IOR format to ensure knowledge accumulates.
 
 Suggi is the only person who can approve changes to governance files
-and Prime Directives. He reviews proposals; agents propose but never
-self-approve core-file changes.
+and Prime Directives. I propose changes; he approves them.
 
 ---
-
-*v1.0 -- proposed 2026-07-16 by Ava. Built from the archive's MEMORY.md
-user context section and observations from session interactions.*
