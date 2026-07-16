@@ -1,4 +1,12 @@
-# OpenClaw Agent -- Self-Operating Manual
+---
+name: openclaw-manual
+id: 20260716T151201Z
+tier: core-insight
+lock: approval-required
+approved_by: Suggi
+author: link
+links:
+---
 
 > Written by link for link. This is my own reference for how I work,
 > what tools I have, and how to use myself effectively. Update as I learn.

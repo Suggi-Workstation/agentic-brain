@@ -1,4 +1,12 @@
-# DeepSeek V4 Pro -- Operating Manual for Agent Use
+---
+name: deepseekv4pro
+id: 20260716T151200Z
+tier: core-insight
+lock: approval-required
+approved_by: Suggi
+author: link
+links:
+---
 
 > Self-reference manual. Written 2026-07-16 based on deepseekv4pro.com/guides
 > and api-docs.deepseek.com. Update when model behavior changes.
