@@ -54,7 +54,7 @@ Files are named: `<short-slug>.md`
 
 Example: `verification-is-the-bottleneck.md`
 
-### Frontmatter Rules:
+## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `verification-is-the-bottleneck`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
