@@ -1,3 +1,13 @@
+---
+name: template-ior
+id: 20260618T120014Z
+tier: core-template
+lock: approval-required
+approved_by: Suggi
+author: link
+links:
+---
+
 # IOR Rules -- How We Write Ideas, Opinions, and Reflections
 
 An IOR is the atomic unit of team learning. It captures what an agent (or
