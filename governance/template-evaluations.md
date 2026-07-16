@@ -37,9 +37,8 @@ These rules are non-negotiable. CI enforces them.
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
 tier: core-evaluation             # always core-evaluation
-evaluator: <link|ava|zelda|luffy>  # who performed the evaluation (NOT the author)
-subject: <id of what is being evaluated>
-author: <evaluator>               # same as evaluator
+subject: <id>                     # id of what is being evaluated
+author: <link|ava|zelda|luffy>    # the evaluating agent (NOT the author of the subject)
 links: [<relative-brain-path>]
 ---
 ```
@@ -105,7 +104,7 @@ Link to:
 
 Every evaluation passes these checks before submission:
 
-- **G1 -- Different Agent:** The evaluator is not the original author of
+- **G1 -- Different Agent:** The author is not the original author of
   what is being evaluated. This is the decorrelation rule -- independent
   review requires a different mind.
 - **G2 -- Criteria Stated First:** Evaluation criteria are listed before
@@ -134,7 +133,6 @@ Every evaluation passes these checks before submission:
 name: ava-review-link-verification-paper
 id: 20260716T150000Z
 tier: core-evaluation
-evaluator: ava
 subject: 20260614T120000Z
 author: ava
 links:
@@ -146,9 +144,8 @@ links:
 
 ## Subject
 Evaluating `20260614T120000Z` -- "Verification Gates for Multi-Agent
-Systems" by Link. Full-scope evaluation. I am Ava (DeepSeek V4 Pro),
-a different model family from Link (Claude). The decorrelation rule
-is satisfied.
+Systems" by Link. Full-scope evaluation. I am Ava (DeepSeek V4 Pro), a different model family from Link (Claude).
+The decorrelation rule is satisfied.
 
 ## Evaluation Criteria
 1. Factual accuracy: are all 8 cited sources correctly represented?
@@ -193,7 +190,7 @@ a precision error, not a factual error.
 Copy-paste this block at the end of every new evaluation before submission:
 
 ```
-[ ] Frontmatter complete (all fields, evaluator is not original author)
+[ ] Frontmatter complete (all fields, author is not the subject's author)
 [ ] id is UTC timestamp, never used before
 [ ] Subject cited by exact id; scope stated
 [ ] Criteria listed before findings begin
