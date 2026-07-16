@@ -150,7 +150,7 @@ Files are named: `YYYY-MM-DD_author_slug.md`
 - `slug` -- kebab-case title, max 60 chars, unique per author-date
 
 
-### Frontmatter Rules:
+## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `rebuilding-core-files`.
 - `tier` is always `reflection`.
