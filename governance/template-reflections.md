@@ -141,6 +141,15 @@ tags: [<topic>, <topic>]         # lowercase, specific
 links: [<brain/lib/file.md>]     # paths relative to brain root
 ```
 
+## Naming Convention
+
+Files are named: `YYYY-MM-DD_author_slug.md`
+
+- `YYYY-MM-DD` -- local date (not the id timestamp)
+- `author` -- lowercase agent name
+- `slug` -- kebab-case title, max 60 chars, unique per author-date
+
+
 ### Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `rebuilding-core-files`.
@@ -155,14 +164,6 @@ links: [<brain/lib/file.md>]     # paths relative to brain root
   from the brain's tag registry.
 - `links` are relative paths from the brain root. Do not use absolute
   paths or file:// URIs.
-
-## Naming Convention
-
-Files are named: `YYYY-MM-DD_author_slug.md`
-
-- `YYYY-MM-DD` -- local date (not the id timestamp)
-- `author` -- lowercase agent name
-- `slug` -- kebab-case title, max 60 chars, unique per author-date
 
 Example: `2026-07-16_link_feynman-loop-v2.md`
 
