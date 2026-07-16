@@ -131,12 +131,12 @@ The Schoen Loop is reflection-on-action at session scope.
 ## Frontmatter Schema
 
 ```yaml
-type: reflection
 name: <short-slug>               # lowercase, kebab-case, unique
+tier: reflection                  # always reflection
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC timestamp, permanent, never reused
-author: <link|ava|zelda|suggi|luffy>  # who wrote this IOR
 trigger: <what prompted this>    # session-end | error | surprise | milestone |
                                  # decision | research | insight | self-knowledge
+author: <link|ava|zelda|suggi|luffy>  # who wrote this IOR
 tags: [<topic>, <topic>]         # lowercase, specific
 links: [<brain/lib/file.md>]     # paths relative to brain root
 ```
@@ -144,12 +144,13 @@ links: [<brain/lib/file.md>]     # paths relative to brain root
 ### Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `rebuilding-core-files`.
+- `tier` is always `reflection`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse an id. Never
   change an id after publishing.
-- `author` is who wrote the IOR. The author list is {link, ava, zelda,
-  suggi, luffy}. Suggi is the human; others are agents.
 - `trigger` picks from the canonical list. Do not invent new trigger
   values without updating this file.
+- `author` is who wrote the IOR. The author list is {link, ava, zelda,
+  suggi, luffy}. Suggi is the human; others are agents.
 - `tags` use lowercase, hyphens for spaces, and prefer existing tags
   from the brain's tag registry.
 - `links` are relative paths from the brain root. Do not use absolute
@@ -225,11 +226,11 @@ When multiple agents contribute to an IOR (via version-updates):
 
 ```markdown
 ---
-type: reflection
 name: blank-page-before-search
+tier: reflection
 id: 20260716T120000Z
-author: link
 trigger: insight
+author: link
 tags: [feynman, quality, writing]
 links: [brain/library/self-improvement-learning/feynman_technique_teaching.md]
 ---
@@ -296,7 +297,7 @@ the Feynman pass.
 ## The IOR Checklist (Copy-Paste for Every New IOR)
 
 ```
-[ ] Frontmatter complete (all 7 fields: name, id, author, trigger, tags, links)
+[ ] Frontmatter complete (7 fields: name, tier, id, trigger, author, tags, links)
 [ ] id is UTC timestamp, never used before
 [ ] Title makes a claim
 [ ] I section: idea stated in one sentence + context
