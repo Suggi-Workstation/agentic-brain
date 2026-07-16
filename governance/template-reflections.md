@@ -132,8 +132,8 @@ The Schoen Loop is reflection-on-action at session scope.
 
 ```yaml
 name: <short-slug>               # lowercase, kebab-case, unique
-tier: reflection                  # always reflection
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC timestamp, permanent, never reused
+tier: reflection                  # always reflection
 trigger: <what prompted this>    # session-end | error | surprise | milestone |
                                  # decision | research | insight | self-knowledge
 author: <link|ava|zelda|suggi|luffy>  # who wrote this IOR
@@ -227,8 +227,8 @@ When multiple agents contribute to an IOR (via version-updates):
 ```markdown
 ---
 name: blank-page-before-search
-tier: reflection
 id: 20260716T120000Z
+tier: reflection
 trigger: insight
 author: link
 tags: [feynman, quality, writing]

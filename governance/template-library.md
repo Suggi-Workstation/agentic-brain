@@ -38,8 +38,8 @@ These rules are non-negotiable. CI enforces them.
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
 tier: library                     # always library
-author: <link|ava|zelda|suggi|luffy>
 domain: <domain-slug>            # lowercase, matches folder name
+author: <link|ava|zelda|suggi|luffy>
 tags: [<tag>, <tag>]             # lowercase, 3-6 tags. Include type as a tag
                                  # (concept, person, company, book, framework,
                                  #  event, culture) plus topic tags
@@ -148,8 +148,8 @@ Every library topic passes these checks before committing:
 name: margin-of-safety
 id: 20260716T120000Z
 tier: library
-author: ava
 domain: value-investing
+author: ava
 tags: [concept, margin-of-safety, risk-management, graham]
 links: [library/investors/benjamin-graham.md, library/valuation-screening/intrinsic-value.md]
 ---
