@@ -36,9 +36,10 @@ These rules are non-negotiable. CI enforces them.
 ---
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
-tier: evaluation             # always evaluation
-subject: <id>                     # id of what is being evaluated
-author: <link|ava|zelda|luffy>    # the evaluating agent (NOT the author of the subject)
+tier: evaluation                  # always evaluation
+source: <id>                      # id of what is being evaluated
+author: <link|ava|zelda|luffy>    # the evaluating agent (NOT the author of the source)
+tags: [<tag>, <tag>]
 links: [<relative-brain-path>]
 ---
 ```
@@ -53,7 +54,7 @@ Example: `ava-review-link-verification-paper.md`
 
 ## Body Structure
 
-### Subject
+### Source
 *What is being evaluated?*
 
 - Cite the exact id and name of the proposal, report, or insight.
@@ -96,7 +97,7 @@ One of:
 ## Cross-Links
 
 Link to:
-- The subject of the evaluation.
+- The source of the evaluation.
 - Related evaluations or proposals.
 - Governance files that define the criteria used.
 
@@ -119,7 +120,7 @@ Every evaluation passes these checks before submission:
 - **G5 -- Confidence Included:** With reasoning. High (85%+), medium
   (60-85%), or low (below 60%). State what would change the confidence
   level.
-- **G6 -- Cross-links Exist:** At minimum, a link to the subject of the
+- **G6 -- Cross-links Exist:** At minimum, a link to the source of the
   evaluation. Ideally, also link to related evaluations or governance
   files defining the criteria used.
 - **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
@@ -133,7 +134,7 @@ Every evaluation passes these checks before submission:
 name: ava-review-link-verification-paper
 id: 20260716T150000Z
 tier: evaluation
-subject: 20260614T120000Z
+source: 20260614T120000Z
 author: ava
 links:
   - research/reports/link-verification-gates-multi-agent.md
@@ -142,7 +143,7 @@ links:
 
 # Independent Review: Link's Verification Gates Paper
 
-## Subject
+## Source
 Evaluating `20260614T120000Z` -- "Verification Gates for Multi-Agent
 Systems" by Link. Full-scope evaluation. I am Ava (DeepSeek V4 Pro), a different model family from Link (Claude).
 The decorrelation rule is satisfied.
@@ -190,15 +191,15 @@ a precision error, not a factual error.
 Copy-paste this block at the end of every new evaluation before submission:
 
 ```
-[ ] Frontmatter complete (all fields, author is not the subject's author)
+[ ] Frontmatter complete (all fields, author is not the source's author)
 [ ] id is UTC timestamp, never used before
-[ ] Subject cited by exact id; scope stated
+[ ] Source cited by exact id; scope stated
 [ ] Criteria listed before findings begin
 [ ] Every finding backed by a specific reference (quote/cite/link)
 [ ] Verdict is one of: APPROVE / APPROVE WITH CHANGES / REJECT
 [ ] Required changes are listed concretely (if APPROVE WITH CHANGES)
 [ ] Confidence stated with reasoning (high/medium/low)
-[ ] Cross-links: subject + related evaluations/governance files
+[ ] Cross-links: source + related evaluations/governance files
 [ ] Filename: lowercase, kebab-case slug
 [ ] ASCII-only: zero non-ASCII characters in the file
 ```

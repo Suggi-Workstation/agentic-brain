@@ -4,6 +4,7 @@ id: 20260618T120018Z
 tier: core-template
 lock: approval-required
 approved_by: Suggi
+tags: [<tag>, <tag>]
 author: link
 links: []
 ---
@@ -149,6 +150,7 @@ Every report passes these checks before `status: complete`:
 name: inter-agent-cooperation-findings
 id: 20260614T120000Z
 tier: report
+tags: [<tag>, <tag>]
 author: link
 evaluated_by: [ava]
 status: evaluated
