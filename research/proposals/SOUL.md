@@ -4,7 +4,7 @@ id: 20260716T220000Z
 tier: core-governance
 lock: approval-required
 approved_by: Suggi
-author: ava
+author: Suggi
 version: 1.0
 links:
   - governance/system-primedirectives.md

@@ -4,7 +4,7 @@ id: 20260716T222702Z
 tier: core-governance
 lock: approval-required
 approved_by: Suggi
-author: ava
+author: Suggi
 version: 1.0
 links: []
 ---
