@@ -4,7 +4,6 @@ id: 20260618T120016Z
 tier: core-template
 lock: approval-required
 approved_by: Suggi
-tags: [<tag>, <tag>]
 author: link
 links: []
 ---
