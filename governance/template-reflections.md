@@ -4,7 +4,7 @@ id: 20260618T120014Z
 tier: core-template
 lock: approval-required
 approved_by: Suggi
-author: link
+author: Suggi
 links:
 ---
 
@@ -316,6 +316,6 @@ the Feynman pass.
 
 ---
 
-*Last updated: 2026-07-16 by link. This file governs all IOR creation.
+*Last updated: 2026-07-16 by Suggi. This file governs all IOR creation.
 Rules are scar tissue -- each one should trace to a failure that proved
 it necessary.*
