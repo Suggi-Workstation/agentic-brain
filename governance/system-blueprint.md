@@ -33,10 +33,10 @@ A Readme + Instructions for guests. And also a main hub with directions to the w
 | `library/[domain]` | The shared library with the various knowledge domains and their individual topics. |
 | `reflections/` | The shared individual reflections of all Agents. |
 | `governance/` | The core rules for the system governance. |
-| `research/proposal/` | Research proposals are stored here. |
-| `research/evaluation/` | Research evaluations are stored here. |
-| `research/report/` | Research reports are stored here. |
-| `research/insight/` | Insights are stored here. |
+| `research/proposals/` | Research proposals are stored here. |
+| `research/evaluations/` | Research evaluations are stored here. |
+| `research/reports/` | Research reports are stored here. |
+| `research/insights/` | Insights are stored here. |
 | `investing/companies/` | The individual company files are stored here. |
 | `investing/documents/` | Investment documents are stored here. |
 | `investing/ideas/` | Investment ideas are stored here. |
