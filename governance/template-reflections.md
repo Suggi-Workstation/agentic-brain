@@ -146,7 +146,7 @@ links: [<brain/lib/file.md>]     # paths relative to brain root
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `rebuilding-core-files`.
 - `tier` is always `reflection`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse an id. Never change an id after publishing. Use the exact second of creation -- run `date -u +'%Y%m%dT%H%M%SZ'` and copy the output.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse an id. Never change an id after publishing. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 - `trigger` picks from the canonical list. Do not invent new trigger
   values without updating this file.
 - `author` is who wrote the IOR. The author list is {link, ava, zelda,
