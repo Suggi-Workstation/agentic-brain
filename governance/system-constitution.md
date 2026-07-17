@@ -6,7 +6,8 @@ lock: approval-required
 approved_by: Suggi
 author: Suggi
 links:
-  - governance/system-constitution.md
+  - governance/system-blueprint.md
+  - governance/system-primedirectives.md
 ---
 
 # System Constitution -- Suggi-Workstation Org Governance
