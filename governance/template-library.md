@@ -232,8 +232,8 @@ MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published file.
 
 ```
-[ ] Frontmatter Schema complete (7 fields: name, id, tier, author, domain, tags, links)
-[ ] Frontmatter Rules correctly applied (7 fields: name, id, tier, author, domain, tags, links)
+[ ] Frontmatter Schema complete (7 fields: name, id, tier, domain, author, tags, links)
+[ ] Frontmatter Rules correctly applied (7 fields: name, id, tier, domain, author, tags, links)
 [ ] id is UTC timestamp, never used before
 [ ] Domain matches the folder the file lives in
 [ ] Tags include the file's type (concept, person, company, book, etc.)

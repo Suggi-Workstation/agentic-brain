@@ -217,8 +217,8 @@ MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published file.
 
 ```
-[ ] Frontmatter Schema complete (all fields, source: lists every origin artifact)
-[ ] Frontmatter Rules correctly applied (all fields, source: lists every origin artifact)
+[ ] Frontmatter Schema complete (7 fields: name, id, tier, source, author, tags, links)
+[ ] Frontmatter Rules correctly applied (7 fields: name, id, tier, source, author, tags, links)
 [ ] id is UTC timestamp, never used before
 [ ] One-sentence insight: fits in one quotable line
 [ ] Evidence: at least one source cited by id, chain of evidence complete

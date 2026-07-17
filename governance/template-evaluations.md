@@ -208,8 +208,8 @@ MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published file.
 
 ```
-[ ] Frontmatter Schema complete (all fields, author is not the source's author)
-[ ] Frontmatter Rules correctly applied (all fields, author is not the source's author)
+[ ] Frontmatter Schema complete (7 fields: name, id, tier, source, author, tags, links)
+[ ] Frontmatter Rules correctly applied (7 fields: name, id, tier, source, author, tags, links)
 [ ] id is UTC timestamp, never used before
 [ ] Source cited by exact id; scope stated
 [ ] Criteria listed before findings begin
