@@ -324,19 +324,3 @@ be a tool or sub-agent, not a unified index.
 
 *Not yet evaluated. This is a first-pass report. Awaiting independent
 review by Link (or Suggi's direct review).*
-
----
-
-[ ] Frontmatter complete (6 fields: name, id, tier, author, tags, links)
-[ ] id is UTC timestamp, never used before
-[ ] Executive summary: question + answer + key evidence + confidence
-[ ] Research question: falsifiable, scoped (in/out)
-[ ] Methodology: reproducible, sources have retrieval dates, limitations stated
-[ ] Findings: each with claim + evidence + confidence
-[ ] Negative results: what was searched for and NOT found
-[ ] Discussion: synthesizes findings, addresses surprises
-[ ] Conclusion: restates question + answer + one recommendation + open questions
-[ ] Evaluation history: at least one independent evaluation (APPROVE or APPROVE WITH CHANGES resolved)
-[ ] Cross-links: evaluations + related reports + referenced library topics
-[ ] Filename: lowercase, kebab-case slug
-[ ] ASCII-only: zero non-ASCII characters in the file
