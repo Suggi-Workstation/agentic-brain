@@ -153,7 +153,7 @@ name: margin-of-safety
 id: 20260716T120000Z
 tier: library
 domain: value-investing
-author: ava
+author: Ava
 tags: [concept, margin-of-safety, risk-management, graham]
 links: [library/investors/benjamin-graham.md, library/valuation-screening/intrinsic-value.md]
 ---

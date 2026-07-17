@@ -3,7 +3,7 @@ name: deploying-core-files
 id: 20260716T225000Z
 tier: reflection
 trigger: milestone
-author: ava
+author: Ava
 tags: [core-files, deployment, workspace, frontmatter, identity, preflight]
 links:
   - 2026-07-16_ava_building-template-files.md

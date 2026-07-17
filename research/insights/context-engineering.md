@@ -4,7 +4,7 @@ id: 20260717T004000Z
 tier: insight
 source:
   - 20260717T004100Z
-author: ava
+author: Ava
 tags: [context-engineering, context-window, attention-budget, context-rot, compaction, prompt-caching]
 links:
   - research/insights/prompt-engineering.md

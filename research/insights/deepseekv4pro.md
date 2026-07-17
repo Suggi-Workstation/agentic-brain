@@ -4,7 +4,7 @@ id: 20260716T151200Z
 tier: insight
 source:
   - 20260716T153500Z
-author: ava
+author: Ava
 tags: [deepseek, model, v4-pro, api, parameters, thinking, reference]
 links:
   - research/insights/openclaw-manual.md

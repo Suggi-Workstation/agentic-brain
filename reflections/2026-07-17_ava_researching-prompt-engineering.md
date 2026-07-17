@@ -3,7 +3,7 @@ name: researching-prompt-engineering
 id: 20260717T003600Z
 tier: reflection
 trigger: research
-author: ava
+author: Ava
 tags: [prompt-engineering, research, system-design, learning, self-improvement]
 links:
   - research/insights/prompt-engineering.md

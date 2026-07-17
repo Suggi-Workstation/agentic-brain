@@ -150,7 +150,7 @@ name: ava-review-link-verification-paper
 id: 20260716T150000Z
 tier: evaluation
 source: 20260614T120000Z
-author: ava
+author: Ava
 links:
   - research/reports/link-verification-gates-multi-agent.md
   - governance/system-constitution.md

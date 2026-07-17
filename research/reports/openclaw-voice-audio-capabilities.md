@@ -2,7 +2,7 @@
 name: openclaw-voice-audio-capabilities
 id: 20260717T080900Z
 tier: report
-author: ava
+author: Ava
 tags: [openclaw, voice, tts, stt, talk, realtime, audio, webchat]
 links:
   - research/insights/openclaw-manual.md

@@ -4,7 +4,7 @@ id: 20260716T151201Z
 tier: insight
 source:
   - 20260716T153500Z
-author: ava
+author: Ava
 tags: [openclaw, platform, manual, reference, tools, workspace]
 links:
   - research/insights/deepseekv4pro.md

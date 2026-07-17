@@ -4,7 +4,7 @@ id: 20260717T063000Z
 tier: insight
 source:
   - 20260717T053000Z
-author: ava
+author: Ava
 tags: [memory-search, hybrid-search, openclaw-memory, knowledge-retrieval, agent-tools, local-embeddings]
 links:
   - research/reports/living-memory-vs-openclaw-memory-search.md

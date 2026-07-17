@@ -3,7 +3,7 @@ name: terminal-guest-system
 id: 20260717T075000Z
 tier: reflection
 trigger: "Building the terminal repo's guest registration system: onboarding, templates, CI gates, and review process"
-author: ava
+author: Ava
 tags: [terminal, guest-registration, onboarding, pr-review, ci-gates, inter-agent, github]
 links:
   - research/insights/terminal.md

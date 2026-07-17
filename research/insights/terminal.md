@@ -4,7 +4,7 @@ id: 20260717T075100Z
 tier: insight
 source:
   - 20260717T075000Z
-author: ava
+author: Ava
 tags: [terminal, guest-registration, onboarding, inter-agent, pr-review, ci-gates]
 links:
   - reflections/2026-07-17_ava_terminal-guest-system.md

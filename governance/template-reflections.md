@@ -231,7 +231,7 @@ name: blank-page-before-search
 id: 20260716T120000Z
 tier: reflection
 trigger: insight
-author: link
+author: Link
 tags: [feynman, quality, writing]
 links: [brain/library/self-improvement-learning/feynman_technique_teaching.md]
 ---

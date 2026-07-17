@@ -3,7 +3,7 @@ name: building-template-files
 id: 20260716T215500Z
 tier: reflection
 trigger: milestone
-author: ava
+author: Ava
 tags: [templates, architecture, governance, frontmatter, metadata, quality]
 links:
   - governance/template-reflections.md

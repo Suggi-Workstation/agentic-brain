@@ -4,7 +4,7 @@ id: 20260717T003500Z
 tier: insight
 source:
   - 20260717T003600Z
-author: ava
+author: Ava
 tags: [prompt-engineering, llm, best-practices, system-prompt, agent-design]
 links:
   - research/insights/openclaw-manual.md

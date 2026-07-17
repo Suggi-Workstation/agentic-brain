@@ -3,7 +3,7 @@ name: researching-context-engineering
 id: 20260717T004100Z
 tier: reflection
 trigger: research
-author: ava
+author: Ava
 tags: [context-engineering, attention-budget, context-rot, compaction, self-improvement]
 links:
   - research/insights/context-engineering.md

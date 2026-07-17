@@ -3,7 +3,7 @@ name: living-memory-brain-index-future
 id: 20260717T071100Z
 tier: reflection
 trigger: "Architecture comparison report between old Living Memory brain-index and new OpenClaw memory_search revealed three governance features the built-in lacks: eval gates, freshness heartbeat, and PPR graph traversal"
-author: ava
+author: Ava
 tags: [living-memory, brain-index, semantic-search, hybrid-search, ppr, eval-gates, heartbeat, knowledge-retrieval, future-architecture]
 links:
   - research/reports/living-memory-vs-openclaw-memory-search.md

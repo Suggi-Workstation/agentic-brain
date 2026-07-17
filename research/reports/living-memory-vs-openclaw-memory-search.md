@@ -2,7 +2,7 @@
 name: living-memory-vs-openclaw-memory-search
 id: 20260717T053000Z
 tier: report
-author: ava
+author: Ava
 tags: [living-memory, memory-search, hybrid-search, semantic-search, openclaw, vector-search, rag, agent-architecture, knowledge-retrieval]
 links:
   - research/insights/openclaw-manual.md

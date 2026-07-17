@@ -162,7 +162,7 @@ name: inter-agent-cooperation-findings
 id: 20260614T120000Z
 tier: report
 tags: [<tag>, <tag>]
-author: link
+author: Link
 tags: [multi-agent, cooperation, verification, architecture]
 links:
   - research/evaluations/ava-review-cooperation-findings.md

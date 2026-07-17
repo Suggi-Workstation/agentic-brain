@@ -144,7 +144,7 @@ name: add-core-heartbeat-file
 id: 20260716T140000Z
 tier: proposal
 tags: [<tag>, <tag>]
-author: ava
+author: Ava
 links:
   - governance/system-blueprint.md
   - governance/template-reflections.md

@@ -3,7 +3,7 @@ name: rebuilding-core-files
 tier: reflection
 id: 20260716T153500Z
 trigger: research
-author: ava
+author: Ava
 tags: [core-files, architecture, self-improvement, gates, loops, proposal]
 links:
   - research/proposals/ava-core-files-v1.md

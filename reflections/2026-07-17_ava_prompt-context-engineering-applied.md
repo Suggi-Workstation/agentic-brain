@@ -3,7 +3,7 @@ name: prompt-context-engineering-applied
 id: 20260717T010000Z
 tier: reflection
 trigger: milestone
-author: ava
+author: Ava
 tags: [prompt-engineering, context-engineering, gate-rules, preflight, self-improvement, research]
 links:
   - research/insights/prompt-engineering.md
