@@ -260,9 +260,9 @@ fix in place MAY be retired (archived, not deleted).
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 3 | 2026-07-17 | Ava | Live deployment. Edits per Suggi: generalized to "your Human," added anti-cheat/fabrication clause under Ethics, added hyphen/underscore examples, frontmatter preserved with original id/author. |
-| 2 | 2026-07-17 | Ava | Complete rewrite. Reduced to org-scope only: removed agent-specific sections, renumbered rule-writing standards as S1-S10 (S-prefix to distinguish from G-prefix Gates and R-prefix Rules). Added Org-Wide Standards section. |
-| 1 | 2026-07-17 | Ava | Initial proposal. Added chain of command, platform rules, rule writing standards. 396 lines. |
+| 3 | 2026-07-17 | Suggi | Live deployment. Edits per Suggi: generalized to "your Human," added anti-cheat/fabrication clause under Ethics, added hyphen/underscore examples, frontmatter preserved with original id/author. |
+| 2 | 2026-07-17 | Suggi | Complete rewrite. Reduced to org-scope only: removed agent-specific sections, renumbered rule-writing standards as S1-S10 (S-prefix to distinguish from G-prefix Gates and R-prefix Rules). Added Org-Wide Standards section. |
+| 1 | 2026-07-17 | Suggi | Initial proposal. Added chain of command, platform rules, rule writing standards. 396 lines. |
 | 0 | 2026-06-18 | Suggi | Original constitution. |
 
 ---
