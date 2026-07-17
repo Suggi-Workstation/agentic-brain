@@ -35,7 +35,7 @@ These rules are non-negotiable. CI enforces them.
 ```yaml
 ---
 name: <short-slug>
-id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- do not pad with 00.
+id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 tier: evaluation                  # always evaluation
 source: <id>                      # id of what is being evaluated
 author: <link|ava|zelda|luffy>    # the evaluating agent (NOT the author of the source)
@@ -48,7 +48,7 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `review-link-verification-paper`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- do not pad with 00.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 - `tier` is always `evaluation`.
 - `source` is the id of the proposal, report, or insight being
   evaluated. Never evaluate your own work (the decorrelation rule).

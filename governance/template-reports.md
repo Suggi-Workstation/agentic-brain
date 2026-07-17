@@ -35,7 +35,7 @@ These rules are non-negotiable. CI enforces them.
 ```yaml
 ---
 name: <short-slug>
-id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- do not pad with 00.
+id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 tier: report                     # always report
 author: <link|ava|zelda|suggi|luffy>  # who wrote this report
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
@@ -47,7 +47,7 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `inter-agent-cooperation-findings`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- do not pad with 00.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 - `tier` is always `report`.
 - `author` is who wrote the report. The author list is {link, ava,
   zelda, suggi, luffy}. Suggi is the human; others are agents.

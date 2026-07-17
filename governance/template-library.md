@@ -36,7 +36,7 @@ These rules are non-negotiable. CI enforces them.
 ```yaml
 ---
 name: <short-slug>
-id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- do not pad with 00.
+id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 tier: library                     # always library
 domain: <domain-slug>            # lowercase, matches folder name
 author: <link|ava|zelda|suggi|luffy>  # who wrote this topic
@@ -51,7 +51,7 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 
 - `name` is a short lowercase kebab-case slug unique within the domain.
   Example: `margin-of-safety`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- do not pad with 00.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 - `tier` is always `library`.
 - `domain` is the lowercase folder name (e.g., `value-investing`).
 - `author` is who wrote the topic. The author list is {link, ava, zelda,

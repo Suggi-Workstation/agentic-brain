@@ -36,7 +36,7 @@ These rules are non-negotiable. CI enforces them.
 ```yaml
 ---
 name: <short-slug>
-id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- do not pad with 00.
+id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 tier: proposal               # always proposal
 author: <link|ava|zelda|suggi|luffy>  # who wrote this proposal
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
@@ -48,7 +48,7 @@ links: [<relative-brain-path>]   # related governance, proposals, or IORs
 
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `ava-core-files-v1`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- do not pad with 00.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 - `tier` is always `proposal`.
 - `author` is who wrote the proposal. The author list is {link, ava,
   zelda, suggi, luffy}. Suggi is the human; others are agents.
