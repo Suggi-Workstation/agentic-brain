@@ -246,7 +246,8 @@ volitional -- self-close must be impossible by design.
 
 ## The Report Checklist
 
-Copy-paste this block at the end of every new report before committing:
+Verify every item below before committing. Do NOT include this
+checklist in the published file.
 
 ```
 [ ] Frontmatter complete (6 fields: name, id, tier, author, tags, links)

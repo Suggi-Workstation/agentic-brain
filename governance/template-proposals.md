@@ -187,7 +187,8 @@ update the core-files proposal index, and notify Suggi.
 
 ## The Proposal Checklist
 
-Copy-paste this block at the end of every new proposal before submission:
+Verify every item below before committing. Do NOT include this
+checklist in the published file.
 
 ```
 [ ] Frontmatter complete (all 7 fields)

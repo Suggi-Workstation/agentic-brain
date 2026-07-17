@@ -212,8 +212,8 @@ This insight would be invalidated if:
 
 ## The Insight Checklist
 
-Copy-paste this block at the end of every new insight before submission
-for approval:
+Verify every item below before committing. Do NOT include this
+checklist in the published file.
 
 ```
 [ ] Frontmatter complete (all fields, source: lists every origin artifact)

@@ -227,7 +227,8 @@ quality compensates for estimation risk.
 
 ## The Library Checklist
 
-Copy-paste this block at the end of every new library topic before committing:
+Verify every item below before committing. Do NOT include this
+checklist in the published file.
 
 ```
 [ ] Frontmatter complete (7 fields: name, id, tier, author, domain, tags, links)

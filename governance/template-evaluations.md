@@ -203,7 +203,8 @@ a precision error, not a factual error.
 
 ## The Evaluation Checklist
 
-Copy-paste this block at the end of every new evaluation before submission:
+Verify every item below before committing. Do NOT include this
+checklist in the published file.
 
 ```
 [ ] Frontmatter complete (all fields, author is not the source's author)

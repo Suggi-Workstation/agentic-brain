@@ -295,7 +295,10 @@ the Feynman pass.
 - `brain/library/self-improvement-learning/feynman_technique_teaching.md`
 ```
 
-## The IOR Checklist (Copy-Paste for Every New IOR)
+## Pre-Commit Self-Check
+
+Verify every item below before committing. Do NOT include this
+checklist in the published IOR.
 
 ```
 [ ] Frontmatter complete (7 fields: name, tier, id, trigger, author, tags, links)
