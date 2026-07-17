@@ -154,8 +154,7 @@ Files are named: `YYYY-MM-DD_author_slug.md`
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `rebuilding-core-files`.
 - `tier` is always `reflection`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse an id. Never
-  change an id after publishing.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse an id. Never change an id after publishing. Use the exact second of creation -- do not pad with 00.
 - `trigger` picks from the canonical list. Do not invent new trigger
   values without updating this file.
 - `author` is who wrote the IOR. The author list is {link, ava, zelda,

@@ -59,8 +59,7 @@ Example: `value-investing/margin-of-safety.md`
 ## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug unique within the domain.
   Example: `margin-of-safety`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
-  after publishing.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- do not pad with 00.
 - `tier` is always `library`.
 - `domain` is the lowercase folder name (e.g., `value-investing`).
 - `author` is who wrote the topic. The author list is {link, ava, zelda,

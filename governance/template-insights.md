@@ -57,8 +57,7 @@ Example: `verification-is-the-bottleneck.md`
 ## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `verification-is-the-bottleneck`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
-  after publishing.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- do not pad with 00.
 - `tier` is always `insight`.
 - `source` lists the ids of the IORs, reports, or evaluations that
   produced this insight. At least one source required.

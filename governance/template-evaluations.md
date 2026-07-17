@@ -55,8 +55,7 @@ Example: `ava-review-link-verification-paper.md`
 ## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `review-link-verification-paper`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
-  after publishing.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- do not pad with 00.
 - `tier` is always `evaluation`.
 - `source` is the id of the proposal, report, or insight being
   evaluated. Never evaluate your own work (the decorrelation rule).

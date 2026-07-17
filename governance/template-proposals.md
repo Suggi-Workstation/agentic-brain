@@ -54,8 +54,7 @@ Files are named: `<short-slug>.md`
 ## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `ava-core-files-v1`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change
-  after publishing.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- do not pad with 00.
 - `tier` is always `proposal`.
 - `author` is who wrote the proposal. The author list is {link, ava,
   zelda, suggi, luffy}. Suggi is the human; others are agents.
