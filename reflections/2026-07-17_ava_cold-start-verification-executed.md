@@ -3,7 +3,7 @@ name: cold-start-verification-executed
 id: 20260717T141500Z
 tier: reflection
 trigger: milestone
-author: ava
+author: Ava
 tags: [skills, testing, verification, cold-start, protocol-migration, archive, final-report]
 links:
   - 2026-07-17_ava_cold-start-final-verification.md
