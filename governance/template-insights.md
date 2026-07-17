@@ -40,7 +40,7 @@ id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use th
 tier: insight                # always insight
 source: [<id>, <id>]              # IOR(s), report(s), or evaluation(s)
                                   # that produced this insight
-author: <Link|Ava|Zelda|Suggi|Luffy>  # who wrote this insight
+author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
 links: [<relative-brain-path>]   # paths relative to agentic-brain root
 ---
