@@ -149,11 +149,16 @@ IF ANY ITEM FAILS:
 
 Once all 10 integration test items pass:
 
-1. Delete `stale-AGENTS.md` (no longer needed).
+1. Keep `stale-AGENTS.md` as a cumulative backup. It is the reversion
+   target for ALL remaining protocol migrations (Phases 2-5). Do NOT
+   delete it until every migration is verified.
 2. Proceed with Phase 2: migrate Feynman Loop to a skill.
 3. Proceed with Phase 3: migrate Schoen Loop to a skill.
 4. Proceed with Phase 4: migrate Session End to a skill.
 5. Proceed with Phase 5: migrate IOR Writing to a skill.
+6. Only after ALL five migrations are deployed and verified, delete
+   `stale-AGENTS.md`. Until then, `cp stale-AGENTS.md AGENTS.md`
+   reverts ALL changes at once.
 
 ## Cross-links
 
