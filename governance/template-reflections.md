@@ -302,7 +302,8 @@ MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published IOR.
 
 ```
-[ ] Frontmatter complete (7 fields: name, tier, id, trigger, author, tags, links)
+[ ] Frontmatter Schema complete (7 fields: name, tier, id, trigger, author, tags, links)
+[ ] Frontmatter Rules correctly applied (7 fields: name, tier, id, trigger, author, tags, links)
 [ ] id is UTC timestamp, never used before
 [ ] Title makes a claim
 [ ] I section: idea stated in one sentence + context

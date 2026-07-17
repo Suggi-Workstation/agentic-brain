@@ -31,7 +31,7 @@ These rules are non-negotiable. CI enforces them.
   filenames, slugs, and tags. Never use underscores (`_`).
   Correct: `ava-core-files-v1.md`. Wrong: `ava_core_files_v1.md`.
 
-## Frontmatter
+## Frontmatter Schema
 
 ```yaml
 ---
@@ -192,7 +192,8 @@ MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published file.
 
 ```
-[ ] Frontmatter complete (all 7 fields)
+[ ] Frontmatter Schema complete (all 7 fields)
+[ ] Frontmatter Rules correctly applied (all 7 fields)
 [ ] id is UTC timestamp, never used before
 [ ] Problem: specific, evidence-backed, one to three sentences
 [ ] Solution: concrete steps, another agent could implement from description

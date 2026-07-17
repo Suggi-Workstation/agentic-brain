@@ -31,7 +31,7 @@ These rules are non-negotiable. CI enforces them.
   filenames, slugs, and tags. Never use underscores (`_`).
   Correct: `margin-of-safety.md`. Wrong: `margin_of_safety.md`.
 
-## Frontmatter
+## Frontmatter Schema
 
 ```yaml
 ---
@@ -232,7 +232,8 @@ MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published file.
 
 ```
-[ ] Frontmatter complete (7 fields: name, id, tier, author, domain, tags, links)
+[ ] Frontmatter Schema complete (7 fields: name, id, tier, author, domain, tags, links)
+[ ] Frontmatter Rules correctly applied (7 fields: name, id, tier, author, domain, tags, links)
 [ ] id is UTC timestamp, never used before
 [ ] Domain matches the folder the file lives in
 [ ] Tags include the file's type (concept, person, company, book, etc.)

@@ -30,7 +30,7 @@ These rules are non-negotiable. CI enforces them.
 - **Hyphens, not underscores:** Use hyphens (`-`) to separate words in
   filenames, slugs, and tags. Never use underscores (`_`).
 
-## Frontmatter
+## Frontmatter Schema
 
 ```yaml
 ---
@@ -208,7 +208,8 @@ MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published file.
 
 ```
-[ ] Frontmatter complete (all fields, author is not the source's author)
+[ ] Frontmatter Schema complete (all fields, author is not the source's author)
+[ ] Frontmatter Rules correctly applied (all fields, author is not the source's author)
 [ ] id is UTC timestamp, never used before
 [ ] Source cited by exact id; scope stated
 [ ] Criteria listed before findings begin
