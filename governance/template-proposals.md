@@ -36,7 +36,7 @@ These rules are non-negotiable. CI enforces them.
 ```yaml
 ---
 name: <short-slug>
-id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
+id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- do not pad with 00.
 tier: proposal               # always proposal
 author: <link|ava|zelda|suggi|luffy>  # who wrote this proposal
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
@@ -194,7 +194,7 @@ this checklist in the published file.
 ```
 [ ] Frontmatter Schema complete (6 fields: name, id, tier, author, tags, links)
 [ ] Frontmatter Rules correctly applied (6 fields: name, id, tier, author, tags, links)
-[ ] id is UTC timestamp, never used before
+[ ] id is UTC timestamp with exact second, never used before
 [ ] Problem: specific, evidence-backed, one to three sentences
 [ ] Solution: concrete steps, another agent could implement from description
 [ ] Impact: positive + risk + cost, at least one sentence each

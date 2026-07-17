@@ -35,7 +35,7 @@ These rules are non-negotiable. CI enforces them.
 ```yaml
 ---
 name: <short-slug>
-id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
+id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- do not pad with 00.
 tier: evaluation                  # always evaluation
 source: <id>                      # id of what is being evaluated
 author: <link|ava|zelda|luffy>    # the evaluating agent (NOT the author of the source)
@@ -210,7 +210,7 @@ this checklist in the published file.
 ```
 [ ] Frontmatter Schema complete (7 fields: name, id, tier, source, author, tags, links)
 [ ] Frontmatter Rules correctly applied (7 fields: name, id, tier, source, author, tags, links)
-[ ] id is UTC timestamp, never used before
+[ ] id is UTC timestamp with exact second, never used before
 [ ] Source cited by exact id; scope stated
 [ ] Criteria listed before findings begin
 [ ] Every finding backed by a specific reference (quote/cite/link)

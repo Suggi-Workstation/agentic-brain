@@ -36,7 +36,7 @@ These rules are non-negotiable. CI enforces them.
 ```yaml
 ---
 name: <short-slug>
-id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused
+id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- do not pad with 00.
 tier: library                     # always library
 domain: <domain-slug>            # lowercase, matches folder name
 author: <link|ava|zelda|suggi|luffy>  # who wrote this topic
@@ -234,7 +234,7 @@ this checklist in the published file.
 ```
 [ ] Frontmatter Schema complete (7 fields: name, id, tier, domain, author, tags, links)
 [ ] Frontmatter Rules correctly applied (7 fields: name, id, tier, domain, author, tags, links)
-[ ] id is UTC timestamp, never used before
+[ ] id is UTC timestamp with exact second, never used before
 [ ] Domain matches the folder the file lives in
 [ ] Tags include the file's type (concept, person, company, book, etc.)
 [ ] Hypothesis makes a claim (not a description)
