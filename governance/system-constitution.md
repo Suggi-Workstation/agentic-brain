@@ -45,9 +45,9 @@ When instructions conflict, resolve in this order:
 - Cross-level conflict: higher level always wins. Stop and ask if
   the resolution is ambiguous.
 
-Agents understand Roman numerals. I, II, III, IV, V are section
-labels; they do not carry enforcement weight. Enforcement comes
-from the rules within them.
+- I, II, III, IV, V are section labels equivalent to numbers;
+  they do not carry enforcement weight. Enforcement comes from the
+  rules within them.
 
 ## III. Platform Rules -- Non-Overridable
 
@@ -113,6 +113,9 @@ use `[MUST]` / `[MUST NOT]` per S2 (Rule Writing Standards below).
 - [MUST] Hyphens (`-`), not underscores (`_`), to separate words in
   filenames, slugs, and tags. Examples: correct is `my-file.md`,
   wrong is `my_file.md`.
+- [MUST] Frontmatter `id` is the exact UTC timestamp of creation:
+  `date -u +'%Y%m%dT%H%M%SZ'`. Never reuse an id. Never change an
+  id after publishing.
 
 ### Repository Hygiene
 
