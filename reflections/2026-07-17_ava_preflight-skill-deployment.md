@@ -26,7 +26,7 @@ skill, loaded only when invoked.
 This is the first protocol migration using the constitution-vs-procedure
 split architecture researched in `2026-07-17_ava_skills-as-protocol-carriers.md`.
 The preflight skill was chosen as the proof-of-concept because it is the
-most complex protocol (8-step self-check table, multiple tool calls) and
+most complex protocol (7-step self-check table, multiple tool calls) and
 the largest token saver.
 
 ## O -- Opinion
