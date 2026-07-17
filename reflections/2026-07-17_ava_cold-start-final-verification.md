@@ -36,7 +36,8 @@ would have produced, the migration is complete.
 
 ## O -- Opinion
 
-Confidence: high (92%) that the cold-start test will pass. All 5 skills
+Confidence: confirmed (100%) -- the cold-start test was executed on
+2026-07-17 and passed. See v2 execution results below. All 5 skills
 passed their individual integration checks (37/37 items total). The
 risk specific to a cold start is: will the agent correctly interpret
 the AGENTS.md gate instructions without any prior context about the
@@ -53,6 +54,8 @@ the agent running from skills produce the same output it would have
 produced running from inline AGENTS.md? If any step diverges -- if
 the skill procedure is missing a step the inline version had -- the
 test catches it.
+
+**UPDATE (v2, 2026-07-17): Protocol executed. Results below.**
 
 ## R -- Reflection
 
@@ -344,16 +347,48 @@ After all checklists are complete and all items show PASS:
 
 ---
 
+## v2 Execution Results (2026-07-17 14:04 UTC)
+
+The cold-start protocol was executed in a brand-new session. Summary:
+
+- **Prompt sequence worked:** "what do you remember" triggered
+  preflight automatically via Step 6 memory_search requirement. No
+  explicit "run preflight" instruction needed. R6 (Automation Over
+  Rules) confirmed working at the prompt-design level.
+- **All 36 checklist items across the 5 per-skill verification
+  tables above confirmed PASS.** The Schoen Loop and session-end
+  items were verified in the same session.
+- **Regression gate results:**
+
+| Skill | MISSING | ADDED | CHANGED |
+|:--|:--|:--|:--|
+| Preflight | 0 | 4 | 1 (Step 3 method) |
+| Feynman Loop | 0 | 5 | 0 |
+| IOR Writing | 0 | 6 | 0 |
+| Schoen Loop | 0 | 4 | 0 |
+| Session End | 0 | 5 | 0 |
+
+- The one CHANGED item (Preflight Step 3: `/context list` -> bootstrap
+  inspection) was reviewed and approved by Suggi. It is an improvement:
+  the new method does not depend on a specific CLI command and is more
+  portable. Not a regression.
+- **Verdict: PASS. Migration complete.** `stale-AGENTS.md` was archived
+  to `Suggi-Workstation/archive` (folder: "ava workspace - openclaw -
+  17.07.26" with full workspace snapshot including the file), then
+  deleted from workspace. Archive commit: `c7a5689`.
+
 ## Cross-links
 
+- `2026-07-17_ava_cold-start-verification-executed.md` -- execution
+  report: 3 durable lessons, 1 actionable change (archive-before-delete)
 - `2026-07-17_ava_skills-test-verification.md` -- warm-test verification
   IOR (37/37 PASS, all 4 skills)
 - `2026-07-17_ava_preflight-skill-deployment.md` -- preflight integration
   test (10/10 PASS)
 - `2026-07-17_ava_constitution-vs-procedure-verification.md` -- Feynman
   Loop evaluation of the architecture split
-- `stale-AGENTS.md` (workspace) -- regression oracle (delete after this
-  test passes)
+- `stale-AGENTS.md` (archive) -- regression oracle preserved in
+  `Suggi-Workstation/archive` (no longer in workspace)
 - `skills/preflight/SKILL.md` (workspace) -- the 7-step procedure
 - `skills/loop-feynman/SKILL.md` (workspace) -- the 6-step procedure
 - `skills/loop-schoen/SKILL.md` (workspace) -- the 4-question procedure
@@ -365,3 +400,4 @@ After all checklists are complete and all items show PASS:
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
 | 1 | 2026-07-17 | Ava | Initial IOR. Cold-start verification protocol for all 5 skills. Includes regression gate against stale-AGENTS.md, prompt sequence ("what do you remember" + "read the reflection you just wrote"), and per-skill checklists. |
+| 2 | 2026-07-17 | Ava | Execution results added. Session executed at 2026-07-17 14:04 UTC. All 5 skills passed cold-start: 0 MISSING, 1 CHANGED/approved (preflight Step 3: /context list -> bootstrap inspection), 24 ADDED. The prompt trigger worked: "what do you remember" auto-invoked preflight via Step 6 memory_search requirement (R6). stale-AGENTS.md archived to Suggi-Workstation/archive (folder: "ava workspace - openclaw - 17.07.26" with full workspace snapshot), then deleted from workspace. Migration complete. See also: 2026-07-17_ava_cold-start-verification-executed.md. |
