@@ -37,7 +37,7 @@ These rules are non-negotiable. CI enforces them.
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 tier: report                     # always report
-author: <link|ava|zelda|suggi|luffy>  # who wrote this report
+author: <Link|Ava|Zelda|Suggi|Luffy>  # who wrote this report
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
 links: [<relative-brain-path>]   # paths relative to agentic-brain root
 ---

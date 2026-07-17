@@ -39,7 +39,7 @@ name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 tier: library                     # always library
 domain: <domain-slug>            # lowercase, matches folder name
-author: <link|ava|zelda|suggi|luffy>  # who wrote this topic
+author: <Link|Ava|Zelda|Suggi|Luffy>  # who wrote this topic
 tags: [<tag>, <tag>]             # lowercase, 3-6 tags. Include type as a tag
                                  # (concept, person, company, book, framework,
                                  #  event, culture) plus topic tags

@@ -38,7 +38,7 @@ These rules are non-negotiable. CI enforces them.
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 tier: proposal               # always proposal
-author: <link|ava|zelda|suggi|luffy>  # who wrote this proposal
+author: <Link|Ava|Zelda|Suggi|Luffy>  # who wrote this proposal
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
 links: [<relative-brain-path>]   # related governance, proposals, or IORs
 ---

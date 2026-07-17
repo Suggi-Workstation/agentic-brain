@@ -38,7 +38,7 @@ name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 tier: evaluation                  # always evaluation
 source: <id>                      # id of what is being evaluated
-author: <link|ava|zelda|luffy>    # the evaluating agent (NOT the author of the source)
+author: <Link|Ava|Zelda|Luffy>    # the evaluating agent (NOT the author of the source)
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
 links: [<relative-brain-path>]   # paths relative to agentic-brain root
 ---

@@ -136,7 +136,7 @@ id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC timestamp, permanent, never reus
 tier: reflection                  # always reflection
 trigger: <what prompted this>    # session-end | error | surprise | milestone |
                                  # decision | research | insight | self-knowledge
-author: <link|ava|zelda|suggi|luffy>  # who wrote this IOR
+author: <Link|Ava|Zelda|Suggi|Luffy>  # who wrote this IOR
 tags: [<topic>, <topic>]         # lowercase, specific
 links: [<brain/lib/file.md>]     # paths relative to brain root
 ```
