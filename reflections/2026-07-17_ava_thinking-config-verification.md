@@ -2,14 +2,14 @@
 name: thinking-config-verification
 id: 20260717T102400Z
 tier: reflection
+trigger: error
 author: Ava
-version: 1.0
+tags: [configuration, thinking, reasoning, reload-kind, verification, gates, sessions]
 links:
-  - ../../workspace-ava/memory/2026-07-17.md
-  - ../../workspace-ava/AGENTS.md
+  - governance/template-reflections.md
 ---
 
-# IOR -- thinkingDefault + reasoningDefault config verification
+# i+o+r  config reloadKind:none needs new-session verification (Ava)
 
 ## I -- Idea
 
@@ -20,9 +20,18 @@ dashboard session (webchat Control UI) survives gateway restarts with its
 original thinking/reasoning values intact. Without a phase-2 verification
 on a genuinely new session, the config change is unproven.
 
+This surfaced when Suggi set `thinkingDefault: "xhigh"` and
+`reasoningDefault: "on"` via `openclaw config set`. The config file was
+correct, the gateway was restarted, but the dashboard session still showed
+`Think: high` and `Fast: off`. Two gateway restarts later, the same
+session still showed the old values. The root cause was not a config
+failure -- it was a verification failure. The dashboard session key
+persisted across restarts and kept the values baked in at creation time.
+
 ## O -- Opinion
 
-Confidence: high (observed twice across two gateway restarts).
+Confidence: high (observed across two gateway restarts, confirmed by
+`config.schema.lookup` showing `reloadKind: "none"` on both fields).
 
 Every `reloadKind: "none"` config change needs a two-phase verification
 gate:
@@ -39,6 +48,8 @@ high"), and only phase 2 tells you the real state of the system.
 This is a specific instance of a general pattern: verifying config
 correctness from within the session that the config was supposed to
 change is circular. You need an independent observer -- a fresh session.
+The dashboard session is convenient but always stale for config-change
+verification.
 
 ## R -- Reflection
 
@@ -72,8 +83,8 @@ wrong one.
 
 ### Learn (40%)
 
-**The verification protocol for `reloadKind: "none"` config changes
-needs a structural gate: "Verified on a new session."**
+The verification protocol for `reloadKind: "none"` config changes
+needs a structural gate: "Verified on a new session."
 
 Concretely, after any config change with `reloadKind: "none"` + gateway
 restart:
@@ -86,12 +97,16 @@ restart:
 The dashboard/webchat session is NEVER a valid verification surface
 after config changes -- it is always the old session.
 
-**Actionable change:** Add a preflight-like gate to the config-change
-workflow: after `reloadKind: "none"` changes, the session end protocol
-must include creating a fresh session and verifying the new defaults
-before logging "done."
+## One Actionable Change
 
-Cross-links:
-- Source: memory/2026-07-17.md Phase 17 -- Model defaults hardened
-- Related: AGENTS.md R5 (Root Cause Fix), R6 (Automation over Rules)
-- Related gate: G7 (Cross-check) from template-reflections.md
+Add a preflight-like gate to the config-change workflow: after any
+`reloadKind: "none"` config change with gateway restart, the session-end
+protocol must include creating a fresh session (via `/new`) and verifying
+the new defaults are active before logging the change as complete.
+
+## Cross-links
+
+- `governance/template-reflections.md` -- IOR format and quality gates
+- `2026-07-17_ava_template-hard-gate.md` -- prior instance of R10
+  (Bootstrap Propagation) in template fix workflow
+- Source: workspace-ava `memory/2026-07-17.md` Phase 17-18
