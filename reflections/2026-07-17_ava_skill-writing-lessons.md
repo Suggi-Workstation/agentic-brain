@@ -1,6 +1,6 @@
 ---
 name: skill-writing-lessons
-id: 20260717T153800Z
+id: 20260717T153726Z
 tier: reflection
 trigger: error
 author: ava
