@@ -116,6 +116,30 @@ specific reason to raise it.
 - `reasoning_effort` controls depth: higher effort = more tool-calling
   cycles permitted before the final answer.
 
+### OpenClaw Thinking Level -> DeepSeek reasoning_effort Mapping:
+
+OpenClaw's `/think` directive and `thinkingDefault` config map to
+DeepSeek's `reasoning_effort` API parameter:
+
+| OpenClaw level | DeepSeek reasoning_effort | Notes |
+|---|---|---|
+| `off` | thinking disabled at API level | model does not reason |
+| `minimal`, `low`, `medium`, `high` | `high` | all map to the same high effort |
+| `xhigh`, `max` | `max` | maximum reasoning depth |
+
+**Recommendation for V4 Pro:** Set `agents.defaults.thinkingDefault:
+"xhigh"` in openclaw.json for maximum reasoning depth. This maps to
+`reasoning_effort: "max"` at the API level.
+
+**Warning -- sessions.json override trap:** The thinking resolution order
+in OpenClaw is: inline directive > session override (sessions.json) >
+per-agent config > global config default. If any session has
+`thinkingLevel` stored in sessions.json, it permanently beats the
+openclaw.json config. After changing `thinkingDefault`, also check
+`~/.openclaw/agents/main/sessions/sessions.json` for stored overrides
+and remove them. See `research/insights/openclaw-manual.md` for the
+full resolution order and pitfall documentation.
+
 ### When to Use:
 - **Always on for Pro:** reasoning is the primary value proposition of
   Pro over Flash.

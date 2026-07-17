@@ -4,109 +4,127 @@ id: 20260717T102400Z
 tier: reflection
 trigger: error
 author: Ava
-tags: [configuration, thinking, reasoning, reload-kind, verification, gates, sessions]
+tags: [configuration, thinking, reasoning, session-override, sessions.json, parent-inheritance, verification, gates]
 links:
   - governance/template-reflections.md
+  - research/insights/openclaw-manual.md
 ---
 
-# i+o+r  config reloadKind:none needs new-session verification (Ava)
+# i+o+r  session overrides beat config defaults -- the sessions.json trap (Ava)
 
 ## I -- Idea
 
-Config values marked `reloadKind: "none"` in the OpenClaw schema load only
-at gateway startup AND only apply to genuinely new sessions. Verifying the
-config file and `config.get` is necessary but insufficient. The persistent
-dashboard session (webchat Control UI) survives gateway restarts with its
-original thinking/reasoning values intact. Without a phase-2 verification
-on a genuinely new session, the config change is unproven.
+Setting `agents.defaults.thinkingDefault: "xhigh"` in openclaw.json is
+necessary but insufficient. The thinking resolution order puts SESSION
+OVERRIDES at layer 2, above the global config default at layer 4. If
+any session has `thinkingLevel` stored in sessions.json (for example
+via the webchat UI picker or parent-session inheritance), it permanently
+beats the config. The config file, gateway restart, and `/new` are all
+ineffective until the sessions.json override is removed.
 
-This surfaced when Suggi set `thinkingDefault: "xhigh"` and
-`reasoningDefault: "on"` via `openclaw config set`. The config file was
-correct, the gateway was restarted, but the dashboard session still showed
-`Think: high` and `Fast: off`. Two gateway restarts later, the same
-session still showed the old values. The root cause was not a config
-failure -- it was a verification failure. The dashboard session key
-persisted across restarts and kept the values baked in at creation time.
+This surfaced as a 4-attempt failure chain spanning Phase 17-19:
+1. Phase 17: Config set to xhigh/on. Gateway restarted. Dashboard session
+   still showed high. Diagnosed as "sessions are sticky across restarts."
+2. Phase 18: Two more restarts. "/new" tried. Still high. Diagnosed as
+   "verify on genuinely new session." The new-session verification gate
+   was correct but incomplete.
+3. Phase 19: Third "/new" attempt. Still high. Root cause found: the
+   `agent:main:main` parent session had `thinkingLevel: "high"` stored in
+   sessions.json. EVERY dashboard session inherited it via
+   `parentSessionKey: agent:main:main`. The contamination was across all
+   sessions, so even "/new" sessions picked up "high" from the parent.
+
+The fix: removed `thinkingLevel` from all 9 sessions in sessions.json
+(root parent, 3 dashboard, 5 subagent). Sessions now inherit from config
+default (xhigh). Immediately verified on next session.
 
 ## O -- Opinion
 
-Confidence: high (observed across two gateway restarts, confirmed by
-`config.schema.lookup` showing `reloadKind: "none"` on both fields).
+Confidence: confirmed (observed across 4 independent attempts, verified
+by direct inspection of sessions.json, confirmed fixed after removing
+session-level overrides).
 
-Every `reloadKind: "none"` config change needs a two-phase verification
-gate:
+The two-phase verification gate from Phase 18 was necessary but
+insufficient. It needs a third phase:
 
 1. **Config file correct.** `config.get` confirms the value.
-2. **New session picks it up.** Start a genuinely new session (not the
-   persistent dashboard session) and check with `/status` or
-   `session_status`.
+2. **New session picks it up.** "/new" + session_status on the new session.
+3. **No session overrides blocking.** Check sessions.json for
+   `thinkingLevel` / `reasoningLevel` / `fastLevel` on the active session,
+   its parent, and any ancestor in the inheritance chain.
 
-Without phase 2, the change is aspirational. The phase-1 signal ("config
-is xhigh") is contradicted by the phase-2 observation ("session is
-high"), and only phase 2 tells you the real state of the system.
+Without phase 3, the config change silently fails because the override is
+invisible from within the session itself. The agent running in the
+session sees "Think: high" on /status but cannot tell whether that comes
+from config, session override, or parent inheritance. Only direct
+inspection of sessions.json reveals the true source.
 
-This is a specific instance of a general pattern: verifying config
-correctness from within the session that the config was supposed to
-change is circular. You need an independent observer -- a fresh session.
-The dashboard session is convenient but always stale for config-change
-verification.
+This pattern generalizes beyond thinking: reasoning, fast mode, and any
+future session-scoped override that can be set via UI picker will have
+the same failure mode. The "config says X but session says Y" class of
+bug is now understood and detectable.
 
 ## R -- Reflection
 
 ### Surprise (30%)
 
-The dashboard session key (`agent:main:dashboard:...`) survived the
-gateway restart. I assumed gateway restart == clean slate for the
-webchat session. Wrong. Sessions are stateful entities managed by the
-gateway, and the dashboard session is sticky by design -- it persists
-across restarts so the user does not lose their conversation. The
-thinking/reasoning defaults are baked into the session at creation
-time and are immutable for that session's lifetime.
+The `parentSessionKey` inheritance was the blind spot. I knew sessions
+had overrides, but I did not realize that "/new" in webchat creates a
+child session that COPIES overrides from the parent. This creates a
+self-sustaining contamination chain: parent has thinkingLevel=high, child
+inherits it, grandchild inherits it from child, ad infinitum. Changing
+the config file has zero effect because the override is at a higher
+resolution layer AND propagates via inheritance.
 
-This is correct behavior (you do not want thinking mode changing
-mid-conversation), but the docs do not call it out explicitly, and
-it created a two-hour blind spot where I believed the config was
-applied when it was not.
+The OpenClaw docs on thinking resolution order list 5 layers but do not
+explain parent-child override inheritance. This gap cost roughly 4
+session-hours of debugging across two agents.
 
 ### Feel (30%)
 
-This is a second-order configuration failure. The config was right.
-The gateway restart happened. The preflight verified the config.
-But the observer (me) was verifying from inside the stale session,
-so the measurement itself was contaminated. I was the broken
-thermometer checking my own calibration.
+This was a third-order configuration failure. Layer 1: config was right.
+Layer 2: session override blocked it. Layer 3: parent inheritance made
+every new session inherit the override. Each layer was individually
+correct behavior (session overrides should persist, child sessions should
+inherit reasonable defaults), but the composition created a lock-in that
+no amount of config editing or gateway restarting could break.
 
-The frustration is that I checked everything except the one thing
-that mattered: what does a NEW session see? The dashboard session
-was the default testing surface, and its stickiness made it the
-wrong one.
+The most unsettling part: the `/status` command showed "Think: high" on
+every session, and I interpreted it as "the config did not take effect"
+rather than "the session has a stored override." The diagnostic signal
+was right there, but I read it wrong for three sessions straight.
 
 ### Learn (40%)
 
-The verification protocol for `reloadKind: "none"` config changes
-needs a structural gate: "Verified on a new session."
+The verification protocol for ANY config change that affects
+session-scoped behavior must include direct inspection of sessions.json.
+Config file verification is layer 1. Session status verification is layer
+2. Session store inspection is layer 3. All three are required.
 
-Concretely, after any config change with `reloadKind: "none"` + gateway
-restart:
+Concrete protocol:
+1. After config change + gateway restart: `openclaw config get <path>`
+2. After "/new": `session_status` on the new session
+3. After both: inspect sessions.json for `thinkingLevel`, `reasoningLevel`,
+   `fastLevel` on the new session AND its parent chain
 
-1. Create a fresh session (via `/new` or a new channel message).
-2. Run `session_status` on that new session.
-3. Confirm the expected values appear.
-4. Only then declare the change applied.
-
-The dashboard/webchat session is NEVER a valid verification surface
-after config changes -- it is always the old session.
+If any override key exists in sessions.json with a value DIFFERENT from
+the desired config value, the config change has not fully applied regardless
+of what `session_status` reports.
 
 ## One Actionable Change
 
-Add a preflight-like gate to the config-change workflow: after any
-`reloadKind: "none"` config change with gateway restart, the session-end
-protocol must include creating a fresh session (via `/new`) and verifying
-the new defaults are active before logging the change as complete.
+Add a sessions.json audit step to the preflight or config-change workflow:
+after any config change that targets `agents.defaults.thinkingDefault`,
+`agents.defaults.reasoningDefault`, or `agents.defaults.fastModeDefault`,
+the verification protocol MUST include grepping sessions.json for stored
+overrides on active sessions and their parent chain.
 
 ## Cross-links
 
 - `governance/template-reflections.md` -- IOR format and quality gates
-- `2026-07-17_ava_template-hard-gate.md` -- prior instance of R10
-  (Bootstrap Propagation) in template fix workflow
-- Source: workspace-ava `memory/2026-07-17.md` Phase 17-18
+- `2026-07-17_ava_template-hard-gate.md` -- prior R10 instance
+- `research/insights/openclaw-manual.md` -- updated with thinking config
+  resolution order and session override pitfall
+- `research/insights/deepseekv4pro.md` -- updated with OpenClaw thinking
+  config integration
+- Source: workspace-ava `memory/2026-07-17.md` Phase 17-19

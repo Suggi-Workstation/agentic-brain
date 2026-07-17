@@ -75,7 +75,8 @@ The Gateway is the single process that:
 | `agents.defaults.model` | Primary model + fallback chain |
 | `agents.defaults.bootstrapMaxChars` | Max chars per workspace file injected into prompt (default 20K) |
 | `agents.defaults.bootstrapTotalMaxChars` | Max total chars across all bootstrap files (default 60K) |
-| `agents.defaults.thinkingDefault` | Whether thinking/reasoning mode is default |
+| `agents.defaults.thinkingDefault` | Default thinking effort level (off/minimal/low/medium/high/xhigh/adaptive/max) |
+| `agents.defaults.reasoningDefault` | Default reasoning visibility (off/on/stream) |
 | `tools.exec` | Shell execution policy: security level, timeouts, approval |
 | `tools.browser` | Browser automation policy |
 | `session` | Session scoping, reset cadence |
@@ -90,6 +91,53 @@ The Gateway is the single process that:
 
 Provider credentials from workspace-level `.env` files are IGNORED
 for security reasons. Use `~/.openclaw/.env` instead.
+
+## Thinking & Reasoning Configuration
+
+### Resolution Order (which value wins):
+1. **Inline directive** on the message (per-message only, e.g. `/think:xhigh`).
+2. **Session override** stored in `sessions.json` as `thinkingLevel`. Set via
+   the webchat UI picker or a directive-only `/think` message.
+3. **Per-agent default** in `agents.list[].thinkingDefault` (config).
+4. **Global default** in `agents.defaults.thinkingDefault` (config).
+5. **Provider fallback** (model-specific default when available).
+
+Same resolution order applies to reasoning (`/reasoning`) and fast mode
+(`/fast`).
+
+### Critical Pitfall: sessions.json Override Contamination
+
+If ANY session has `thinkingLevel` stored in sessions.json, it permanently
+wins over the config default. This creates a silent failure mode:
+
+- Config says `thinkingDefault: "xhigh"` -> verified with `config.get`
+- Gateway restarted -> config loaded into runtime
+- `/new` in webchat -> new dashboard session created
+- `/status` shows `Think: high` -> **contradiction**
+
+**Root cause:** Dashboard sessions inherit `parentSessionKey:
+agent:main:main`. If the parent has `thinkingLevel: "high"` stored, every
+child inherits it. Changing the config file has zero effect because the
+stored override at resolution layer 2 beats the config at layer 4 AND
+propagates via parent-child inheritance.
+
+**Fix:** Remove `thinkingLevel` (and `reasoningLevel`, `fastLevel`) from
+ALL sessions in `~/.openclaw/agents/main/sessions/sessions.json`. Without
+a stored override, sessions fall through to the config default.
+
+**Verification protocol for thinking config changes:**
+1. `openclaw config get agents.defaults.thinkingDefault` -> confirm value
+2. `/new` + `session_status` on the new session -> confirm displayed value
+3. Inspect `sessions.json` for `thinkingLevel` on the new session AND its
+   parent chain -> confirm no overrides blocking the config
+
+### DeepSeek V4 Pro + Thinking Mode:
+- `thinkingDefault: "xhigh"` maps to DeepSeek `reasoning_effort: "max"`
+  (the highest available effort tier).
+- `thinkingDefault: "high"` maps to `reasoning_effort: "high"`.
+- Lower non-off levels also map to "high" on DeepSeek.
+- For DeepSeek V4 Pro, xhigh is recommended for maximum reasoning depth.
+  See `research/insights/deepseekv4pro.md` for model details.
 
 ## Tool Catalog
 
@@ -380,4 +428,5 @@ openclaw secrets audit       # scan for plaintext secrets
 
 *Written 2026-07-16 by link. Updated 2026-07-17 with heartbeat config,
 sub-agent bootstrap behavior, session management details, workspace
-conventions, and slash command reference.*
+conventions, slash command reference, thinking/reasoning resolution
+order, and sessions.json override pitfall.*
