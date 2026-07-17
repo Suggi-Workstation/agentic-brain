@@ -98,7 +98,7 @@ Ethics, Ethics wins. No exceptions.
 ## IV. Org-Wide Standards
 
 These standards apply to every file in every repo in the org. They
-use `[MUST]` / `[MUST NOT]` per R2 (Rule Writing Standards below).
+use `[MUST]` / `[MUST NOT]` per S2 (Rule Writing Standards below).
 
 ### File Format
 
@@ -131,12 +131,12 @@ use `[MUST]` / `[MUST NOT]` per R2 (Rule Writing Standards below).
 
 ## V. Rule Writing Standards
 
-These are meta-rules. They govern how rules themselves are written
+These are meta-rules (S-prefix: Standards; distinct from G-prefix Gates in templates and R-prefix Rules in AGENTS.md). They govern how rules themselves are written
 and enforced, in any file in any repo. They apply to the rules in
 this constitution, in every AGENTS.md, in every SOUL.md, in every
 skill, and in every template. Rules write rules.
 
-### R1 -- Every Rule MUST Have a Paired Gate
+### S1 -- Every Rule MUST Have a Paired Gate
 
 A rule without a paired checklist item (PASS/HALT) is a suggestion.
 The gate is the active ingredient.
@@ -150,7 +150,7 @@ A rule missing any layer is aspirational, not enforceable. Protocol
 without a gate is silently skipped. Gate without a protocol forces
 the verifier to invent their own procedure. Both are failures.
 
-### R2 -- MUST / MUST NOT Language Is Required
+### S2 -- MUST / MUST NOT Language Is Required
 
 Use RFC 2119 normative language:
 - **MUST** / **MUST NOT:** Absolute. Violation = HALT.
@@ -163,7 +163,7 @@ implies a rule is optional when it is not. The difference between
 "verify" and "MUST confirm" is the difference between a checklist
 item and a gate.
 
-### R3 -- Ambiguous Symbols MUST Be Defined at Point of Use
+### S3 -- Ambiguous Symbols MUST Be Defined at Point of Use
 
 Any symbol, variable, or path reference that could resolve to
 multiple locations (e.g., `{baseDir}`, relative paths) MUST be
@@ -180,7 +180,7 @@ Risk: silent divergence when templates differ.
 Correct: "Read `{baseDir}/references/template.md` (where `{baseDir}`
 is this skill's local directory -- NOT the agentic-brain clone)."
 
-### R4 -- Checklists MUST Match Schema Order
+### S4 -- Checklists MUST Match Schema Order
 
 When a checklist item enumerates fields (e.g., "Frontmatter Schema
 complete (7 fields: name, id, tier, source, author, tags, links)"),
@@ -188,14 +188,14 @@ the field order MUST match the YAML schema order exactly. Mismatched
 order forces the verifier to mentally reorder. Friction leads to
 rote checking. Rote checking misses violations.
 
-### R5 -- Checklists MUST Distinguish Creation from Update
+### S5 -- Checklists MUST Distinguish Creation from Update
 
 A checklist for NEW artifacts contains different items than a
 checklist for UPDATES. Do not use one checklist for both. Creation
 items ("id never used before") fail on updates and teach the
 verifier to ignore failures.
 
-### R6 -- Operational Files MUST Reference Governance, Never Duplicate
+### S6 -- Operational Files MUST Reference Governance, Never Duplicate
 
 An operational file (e.g., AGENTS.md) references a governance file's
 self-check. It never inlines the checklist items. Duplication = drift.
@@ -207,7 +207,7 @@ Correct pattern:
 ```
 Not: copying all 14 items from the template into the operational file.
 
-### R7 -- Gates MUST Verify Correctness, Not Just Presence
+### S7 -- Gates MUST Verify Correctness, Not Just Presence
 
 A gate that checks "X exists" passes with empty X. A gate that checks
 "X contains Y" verifies substance.
@@ -216,14 +216,14 @@ Wrong: "[ ] Version history exists" (could be empty).
 Correct: "[ ] Version-history table: new row added (version, date,
 author, change)."
 
-### R8 -- Every Protocol Section MUST Have a Paired Checklist Section
+### S8 -- Every Protocol Section MUST Have a Paired Checklist Section
 
 If a file has a section describing a procedure (HOW to do X), it MUST
 also have a section with verification items (verify X was done).
 The protocol section says HOW. The checklist section verifies it.
 Both are required. Neither is optional.
 
-### R9 -- Scar Tissue Drives Rule Creation
+### S9 -- Scar Tissue Drives Rule Creation
 
 Add a rule only after a real failure showed it was missing. Every
 rule MUST trace to a specific, documented failure event. Rules
@@ -233,7 +233,7 @@ Remove rules that stop earning their place. A rule whose failure
 class has not recurred after 30 sessions and has a structural
 fix in place MAY be retired (archived, not deleted).
 
-### R10 -- Constitution Amendment Protocol
+### S10 -- Constitution Amendment Protocol
 
 - [MUST] Only Suggi directly edits this file. Agents propose changes
   via the formal proposals system.
@@ -251,7 +251,7 @@ fix in place MAY be retired (archived, not deleted).
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 2 | 2026-07-17 | Ava | Complete rewrite. Reduced to org-scope only: removed agent-specific sections (old R1-R13 framework, old mandatory procedures, old progressive disclosure table), folded amendment protocol into R10, renumbered rule-writing standards as R1-R10. Added Org-Wide Standards section. Kept: chain of command, platform rules, rule-writing meta-rules. Target: ~180 lines (vs 396 in v1). |
+| 2 | 2026-07-17 | Ava | Complete rewrite. Reduced to org-scope only: removed agent-specific sections (old R1-R13 framework, old mandatory procedures, old progressive disclosure table), folded amendment protocol into R10, renumbered rule-writing standards as S1-S10 (S-prefix to distinguish from G-prefix Gates and R-prefix Rules). Added Org-Wide Standards section. Kept: chain of command, platform rules, rule-writing meta-rules. Target: ~180 lines (vs 396 in v1). |
 | 1 | 2026-07-17 | Ava | Initial proposal. Added chain of command, platform rules, agent rules framework, nine rule writing standards (S1-S9), complex amendment protocol, progressive disclosure table. 396 lines. |
 | 0 | 2026-06-18 | Suggi | Original constitution. |
 
