@@ -1,10 +1,10 @@
 ---
 name: skills-test-verification-templates
-id: 20260717T150500Z
+id: 20260717T151000Z
 tier: reflection
 trigger: milestone
 author: ava
-tags: [skills, testing, verification, write-proposal, write-evaluation, write-report, write-insight, write-library, templates]
+tags: [skills, testing, verification, write-proposal, write-evaluation, write-report, write-insight, templates]
 links:
   - 2026-07-17_ava_skills-test-verification.md
   - 2026-07-17_ava_cold-start-verification-executed.md
@@ -13,305 +13,321 @@ links:
   - governance/template-evaluations.md
   - governance/template-reports.md
   - governance/template-insights.md
-  - governance/template-library.md
 ---
 
-# i+o+r  verification protocol for the 5 template-writing skills (Ava)
+# i+o+r  verification protocol for the 4 template-writing skills (Ava)
 
 ## I -- Idea
 
-Five template-writing skills have been deployed to the workspace:
-write-proposal, write-evaluation, write-report, write-insight, and
-write-library. Each bundles its template in a references/ folder,
-analogous to write-reflection. Unlike the protocol skills (preflight,
-loop-feynman, loop-schoen, session-end) which were tested via warm
-(37/37) and cold-start verification, these writing skills are
-user-invocable -- they are triggered explicitly when an agent writes
-the corresponding document type. They need their own integration test
-to confirm: the SKILL.md loads, the bundled template is accessible,
-the quality gates match the live template, and all pre-commit
-self-check items are present.
+Four template-writing skills were deployed to the workspace:
+write-proposal, write-evaluation, write-report, and write-insight.
+Each bundles its governance template in a references/ folder, following
+the pattern established by write-reflection. Unlike the protocol skills
+(preflight, loop-feynman, loop-schoen, session-end) which were tested
+via warm (37/37) and cold-start verification, these writing skills are
+user-invocable -- they are triggered explicitly when the agent writes
+the corresponding document type.
 
-This IOR defines the verification protocol and test checklist for all
-5 skills. Write-library was deployed in an earlier session;
-write-proposal, write-evaluation, write-report, and write-insight
-were deployed in this session.
+This IOR defines per-skill verification checklists, in the same format
+as `2026-07-17_ava_skills-test-verification.md`, to confirm:
+- SKILL.md loads and has correct frontmatter.
+- When to Apply sections correctly scope each skill.
+- Format sections match the governing template's body structure.
+- Quality gates are named (not just counted) and match the template.
+- Pre-Commit Self-Check items match the template's checklist.
+- Bundled template exists and is byte-identical to the live
+  governance template in the agentic-brain.
+- The skill is user-invocable with disable-model-invocation: false.
 
 ## O -- Opinion
 
-Confidence: high (95%) that all 5 skills will pass. The write-reflection
-skill set the pattern that all 5 follow. The risk is lower than the
-protocol skills test because these are simpler -- each maps one template
-to one document type, with no session-phase dependency or gate-trigger
-ambiguity. The only failure mode is a copy-paste error in the SKILL.md
-(quality gate count mismatch, wrong frontmatter field count, missing
-self-check item).
+Confidence: high (96%) that all 4 skills will pass. The write-reflection
+skill set the pattern and passed both warm and cold-start verification.
+These 4 skills follow the identical structure. The risk is lower than
+the protocol skills test: these are user-invocable, not context-triggered,
+so there is no "will the agent invoke it at the right time" ambiguity.
+The agent reads the skill only when explicitly writing that document type.
 
-The write-library skill has already been exercised (the subagent-workspace-
-routing proposal used template-proposals.md, which was confirmed to match
-the live template). The other four have not been exercised yet. A future
-session should exercise one of each document type to confirm end-to-end.
+The main failure mode is a copy-paste artifact: wrong frontmatter field
+count in self-check vs. SKILL.md, quality gate name that diverges from
+the template, or a self-check item missing from the template's checklist.
+All four checklists below test these explicitly.
 
 ## R -- Reflection
 
 ### Surprise (30%)
 
-The pattern established by write-reflection (SKILL.md + bundled template
-in references/) scales cleanly. All 5 skills follow the same structure:
-Hard Gate, When to Apply, Format (condensed from template), Frontmatter
-Rules, Naming Convention, Quality Gates, Pre-Commit Self-Check, Related.
-No template required unique structural treatment -- the differences are
-in content (different sections, different gate counts) but the SKILL.md
-structure is invariant.
-
-The one structural difference across templates is the frontmatter field
-count: proposals need 6 fields, evaluations need 7 (includes `source`),
-reports need 6, insights need 7 (includes `source`), library topics
-need 7 (includes `domain`). The self-check items reflect these counts
-correctly in each SKILL.md -- verified during construction.
+The SKILL.md structure (Hard Gate, When to Apply, Format, Frontmatter
+Rules, Naming Convention, Quality Gates, Pre-Commit Self-Check, Related)
+is template-agnostic. Every document type fits this container. The only
+differences are: frontmatter field counts (6 for proposals/reports,
+7 for evaluations/insights which add `source`), quality gate names
+(domain-specific), and self-check item counts (11-14 items). No
+template required structural adaptation.
 
 ### Feel (30%)
 
-Satisfied that the template ecosystem is now fully skill-covered. The
-six governance templates (template-reflections, template-library,
-template-proposals, template-evaluations, template-reports,
-template-insights) now have six corresponding skills (write-reflection,
-write-library, write-proposal, write-evaluation, write-report,
-write-insight). The seventh template (template-skills) governs skill
-construction itself and does not need a write-skill skill -- it is
-consumed by skill-builder.
-
-The progression from "governance templates are documents I must
-remember to read" to "each template is bundled in a skill that
-self-documents the procedure" is the constitution-vs-procedure split
-extended to the writing domain. Every document type now has an
-invocable skill that carries the condensed procedure, the quality
-gates, and the bundled reference template.
+Satisfied that the template ecosystem is now skill-covered. The four
+governance templates each have a bundled skill carrying the condensed
+procedure, quality gates, self-check, and reference template. This
+extends the constitution-vs-procedure split to the writing domain:
+every document type has an invocable skill.
 
 ### Learn (40%)
 
-1. **Bundled templates create self-contained skills.** A skill that
-   bundles its governing template in references/ does not need a
-   brain clone to consult the format. This removes the network/fetch
-   dependency during writing sessions -- the skill and its reference
-   travel together.
+1. **Quality gates are named, not just counted.** Each skill's self-check
+   says "All 7 quality gates (G1-G7) confirmed PASS" but the individual
+   gate names are listed in the Quality Gates section. Naming prevents
+   "count 7" from being the only check.
 
-2. **The SKILL.md structure is template-agnostic.** The same structure
-   (Hard Gate, When to Apply, Format, Frontmatter Rules, Naming
-   Convention, Quality Gates, Pre-Commit Self-Check, Related) works
-   for every document type. The content changes; the container does
-   not. This means future templates can be skilled with minimal
-   design work.
+2. **Bundled templates eliminate network dependency.** A skill with its
+   template bundled in references/ can be consulted without cloning the
+   agentic-brain. The condensed procedure (SKILL.md) is the primary
+   reference; the bundled template is for examples and edge cases.
 
-3. **Quality gate counts differ across templates, and that is correct.**
-   Proposals have 7 gates (G1-G7). Evaluations have 7 (G1-G7).
-   Reports have 7 (G1-G7). Insights have 7 (G1-G7). Library topics
-   have 7 (G1-G7). But the gates test different things -- an
-   evaluation's G1 (Different Agent) is fundamentally different from
-   a report's G1 (Independently Evaluated). The gates are named, not
-   numbered, in the self-checks. Good: naming gates prevents
-   "count 7" from becoming the only check.
+3. **User-invocable skills are easier to verify than auto-triggered
+   skills.** An auto-triggered skill like preflight or loop-feynman
+   requires a full session to verify. A user-invocable skill like
+   write-proposal can be tested on demand: read the skill, write a
+   document, check the output. The verification surface is smaller.
 
 ## One Actionable Change
 
-When exercising a writing skill, the agent should read the SKILL.md
-first, NOT the bundled reference template first. The SKILL.md is the
-condensed procedure; the reference template is for detailed rules and
-examples. The write-reflection skill already says "For detailed rules
-and examples, consult the template." This pattern is consistent across
-all 5 new skills. The actionable change: add a "Read Order" note to
-the AGENTS.md IOR Writing section clarifying that the SKILL.md is read
-first, and the reference template is read only for example consultation
-or edge cases not covered in the condensed procedure.
+When exercising a writing skill, read the SKILL.md first (condensed
+procedure), then consult the bundled reference template only for
+examples or edge cases. This order is consistent across all 4 skills
+and prevents consulting the 250-line template when the 150-line
+SKILL.md contains the same procedure condensed.
 
 ---
 
-## Master Static Verification Checklist
+## Master Checklist -- Static Checks (All 4 Skills)
 
-Run these checks for each of the 5 skills. All items must PASS before
-the skills are considered verified.
-
-```
-[ ] Skills directory exists: skills/<name>/SKILL.md
-[ ] References directory exists: skills/<name>/references/
-[ ] Bundled template exists: skills/<name>/references/template-<name>.md
-[ ] Template file is identical to agentic-brain/governance/template-<name>.md
-      (byte-for-byte, or with only expected versioning differences)
-[ ] Skill visible in session (listed in available_skills)
-[ ] user-invocable: true
-[ ] disable-model-invocation: false
-[ ] Description is under 160 bytes
-```
-
----
-
-## write-proposal -- Static Checks
+Static checks apply to every skill. Run once at session start.
 
 ```
-[ ] SKILL.md frontmatter: name=write-proposal, user-invocable=true
-[ ] When to Apply: lists proposal-specific triggers and exclusions
-[ ] Format sections: Problem, Proposed Solution, Impact, Open Questions, Approval Gate
-      All match template-proposals.md body structure
-[ ] Frontmatter Rules: 6 fields (name, id, tier, author, tags, links)
-      Matches template-proposals.md schema
-[ ] Naming Convention: <short-slug>.md, kebab-case
-      Matches template-proposals.md convention
-[ ] Quality Gates: G1-G7 present
-      G1 Problem Is Specific, G2 Solution Is Concrete, G3 Impact Is Estimated,
-      G4 Open Questions Surfaced, G5 Cross-links Exist, G6 Frontmatter Complete,
-      G7 Formatting Rules -- all match template-proposals.md
-[ ] Pre-Commit Self-Check: 11 items
-      Frontmatter (2), id, problem, solution, impact, open questions,
-      approval gate, cross-links, filename, ASCII, all G1-G7
-[ ] Bundled template: references/template-proposals.md exists
-[ ] Bundled template content: byte-identical to governance/template-proposals.md
+[ ] Skills directory exists
+      Confirm: ls ~/.openclaw/workspace/skills/ shows:
+      write-proposal, write-evaluation, write-report, write-insight
+[ ] All skills have correct frontmatter
+      Confirm: user-invocable: true, disable-model-invocation: false
+      for all 4 SKILL.md files
+[ ] All skills have descriptions under 160 bytes
+[ ] All skills have references/ directories
+      Confirm: each skill has references/ with the bundled template
+[ ] All bundled templates byte-match governance templates
+      Confirm: diff between skills/<name>/references/template-<name>.md
+      and agentic-brain/governance/template-<name>.md is empty
 ```
 
 ---
 
-## write-evaluation -- Static Checks
+## write-proposal -- Verification Checklist
+
+Verification phase: when writing a proposal document.
 
 ```
-[ ] SKILL.md frontmatter: name=write-evaluation, user-invocable=true
-[ ] When to Apply: lists evaluation-specific triggers (decorrelation rule)
-[ ] Format sections: Source, Evaluation Criteria, Findings, Verdict, Confidence
-      All match template-evaluations.md body structure
-[ ] Frontmatter Rules: 7 fields (name, id, tier, source, author, tags, links)
-      Matches template-evaluations.md schema (includes source field)
-[ ] Naming Convention: <short-slug>.md, kebab-case
-      Matches template-evaluations.md convention
-[ ] Quality Gates: G1-G7 present
-      G1 Different Agent, G2 Criteria Stated First, G3 Evidence Cited,
-      G4 Verdict Is Explicit, G5 Confidence Included, G6 Cross-links Exist,
-      G7 Formatting Rules -- all match template-evaluations.md
-[ ] Pre-Commit Self-Check: 13 items
-      Frontmatter (2), id, source+scope, criteria-before-findings,
-      findings-backed, verdict-explicit, changes-concrete, confidence,
-      cross-links, decorrelation, filename, ASCII, all G1-G7
-[ ] Bundled template: references/template-evaluations.md exists
-[ ] Bundled template content: byte-identical to governance/template-evaluations.md
+[ ] Skill SKILL.md is valid
+      Confirm: read ~/.openclaw/workspace/skills/write-proposal/SKILL.md
+      has correct frontmatter (name: write-proposal,
+      user-invocable: true, disable-model-invocation: false)
+[ ] Frontmatter description is a trigger surface
+      Confirm: description is task-oriented ("Write a proposal:
+      Problem-Solution-Impact format with quality gates G1-G7,
+      frontmatter schema, and cross-links."), under 160 bytes
+[ ] When to Apply section is correct
+      Confirm: lists proposal-specific triggers (problem needs
+      approval, IOR surfaced a failure class, new capability
+      proposed) and exclusions (minor fixes, status updates,
+      evidence-less ideas)
+[ ] Format sections match template-proposals.md
+      Confirm: Problem, Proposed Solution, Impact (Positive/Risk/Cost),
+      Open Questions, Approval Gate, Cross-Links -- all present
+      and matching the template's body structure
+[ ] Frontmatter Rules are correct
+      Confirm: 6 fields listed (name, id, tier, author, tags, links).
+      tier is "always proposal". Matches template-proposals.md schema
+      exactly.
+[ ] Naming Convention is correct
+      Confirm: <short-slug>.md, kebab-case, max 60 chars.
+      Example given. Matches template.
+[ ] Quality Gates: G1-G7 named and matching template
+      G1 Problem Is Specific, G2 Solution Is Concrete,
+      G3 Impact Is Estimated, G4 Open Questions Surfaced,
+      G5 Cross-links Exist, G6 Frontmatter Complete,
+      G7 Formatting Rules.
+      Confirm: all 7 names match template-proposals.md.
+[ ] Pre-Commit Self-Check: items match template checklist
+      Template checklist has 10 items. Skill self-check adds
+      "All 7 quality gates (G1-G7) confirmed PASS" (11 items total).
+      Confirm: every template checklist item appears in skill
+      self-check. No items dropped. No items fabricated.
+[ ] Bundled template exists and is byte-identical
+      Confirm: references/template-proposals.md exists.
+      diff against governance/template-proposals.md is empty.
+[ ] Cross-references are correct
+      Confirm: Related section links to write-evaluation and
+      write-reflection skills. Links to bundled template and
+      governance template.
 ```
 
 ---
 
-## write-report -- Static Checks
+## write-evaluation -- Verification Checklist
+
+Verification phase: when writing an evaluation of another agent's work.
 
 ```
-[ ] SKILL.md frontmatter: name=write-report, user-invocable=true
-[ ] When to Apply: lists report-specific triggers (multi-step, evaluated)
-[ ] Format sections: Executive Summary, Research Question, Methodology,
-      Findings, Discussion, Conclusion, Evaluation History
-      All match template-reports.md body structure
-[ ] Frontmatter Rules: 6 fields (name, id, tier, author, tags, links)
-      Matches template-reports.md schema
-[ ] Naming Convention: <short-slug>.md, kebab-case
-      Matches template-reports.md convention
-[ ] Quality Gates: G1-G7 present
+[ ] Skill SKILL.md is valid
+      Confirm: read ~/.openclaw/workspace/skills/write-evaluation/SKILL.md
+      has correct frontmatter (name: write-evaluation,
+      user-invocable: true, disable-model-invocation: false)
+[ ] Frontmatter description is a trigger surface
+      Confirm: description is task-oriented ("Write an evaluation:
+      Source-Criteria-Findings-Verdict format with quality gates
+      G1-G7, decorrelation rule, and cross-links."), under 160 bytes
+[ ] When to Apply section is correct
+      Confirm: lists evaluation-specific triggers (another agent's
+      work needs review, decorrelation rule) and exclusions (own
+      work, already evaluated work, minor formatting). Decorrelation
+      rule is prominently stated.
+[ ] Format sections match template-evaluations.md
+      Confirm: Source, Evaluation Criteria, Findings (Finding +
+      Evidence + Judgment), Verdict (APPROVE/APPROVE WITH CHANGES/
+      REJECT), Confidence -- all present and matching template.
+[ ] Frontmatter Rules are correct
+      Confirm: 7 fields listed (name, id, tier, source, author,
+      tags, links). Includes source field. tier is "always
+      evaluation". Matches template schema exactly.
+[ ] Naming Convention is correct
+      Confirm: <short-slug>.md, kebab-case, max 60 chars.
+      Example given. Matches template.
+[ ] Quality Gates: G1-G7 named and matching template
+      G1 Different Agent, G2 Criteria Stated First,
+      G3 Evidence Cited, G4 Verdict Is Explicit,
+      G5 Confidence Included, G6 Cross-links Exist,
+      G7 Formatting Rules.
+      Confirm: all 7 names match template-evaluations.md.
+[ ] Pre-Commit Self-Check: items match template checklist
+      Template checklist has 12 items. Skill self-check adds
+      "All 7 quality gates (G1-G7) confirmed PASS" (13 items total).
+      Confirm: every template checklist item appears in skill
+      self-check. Decorrelation rule item present.
+[ ] Bundled template exists and is byte-identical
+      Confirm: references/template-evaluations.md exists.
+      diff against governance/template-evaluations.md is empty.
+[ ] Cross-references are correct
+      Confirm: Related section links to write-proposal and
+      write-report skills. Links to bundled template and
+      governance template.
+```
+
+---
+
+## write-report -- Verification Checklist
+
+Verification phase: when writing a research report.
+
+```
+[ ] Skill SKILL.md is valid
+      Confirm: read ~/.openclaw/workspace/skills/write-report/SKILL.md
+      has correct frontmatter (name: write-report,
+      user-invocable: true, disable-model-invocation: false)
+[ ] Frontmatter description is a trigger surface
+      Confirm: description is task-oriented ("Write a report:
+      Executive Summary-Research-Methodology-Findings format with
+      quality gates G1-G7, evaluation history, and cross-links."),
+      under 160 bytes
+[ ] When to Apply section is correct
+      Confirm: lists report-specific triggers (multi-step research,
+      findings requiring methodology, structured output for
+      evaluation) and exclusions (single-session IOR, library topic,
+      unevaluated draft)
+[ ] Format sections match template-reports.md
+      Confirm: Executive Summary, Research Question, Methodology,
+      Findings, Discussion, Conclusion, Evaluation History -- all
+      present and matching template body structure in order.
+      Evaluation History requirement is prominent.
+[ ] Frontmatter Rules are correct
+      Confirm: 6 fields listed (name, id, tier, author, tags, links).
+      tier is "always report". Matches template schema exactly.
+      Note: links MUST include evaluations.
+[ ] Naming Convention is correct
+      Confirm: <short-slug>.md, kebab-case, max 60 chars.
+      Example given. Matches template.
+[ ] Quality Gates: G1-G7 named and matching template
       G1 Independently Evaluated, G2 Executive Summary Stands Alone,
       G3 Methodology Is Reproducible, G4 Negative Results Included,
-      G5 Cross-links Exist, G6 Frontmatter Complete, G7 Formatting Rules
-      -- all match template-reports.md
-[ ] Pre-Commit Self-Check: 14 items
-      Frontmatter (2), id, exec-summary, research-question, methodology,
-      findings, negative-results, discussion, conclusion, eval-history,
-      cross-links, filename, ASCII, all G1-G7
-[ ] Bundled template: references/template-reports.md exists
-[ ] Bundled template content: byte-identical to governance/template-reports.md
+      G5 Cross-links Exist, G6 Frontmatter Complete,
+      G7 Formatting Rules.
+      Confirm: all 7 names match template-reports.md.
+[ ] Pre-Commit Self-Check: items match template checklist
+      Template checklist has 14 items. Skill self-check has 14 items
+      (13 template items + "All G1-G7 confirmed PASS").
+      Confirm: every template checklist item appears in skill
+      self-check. Evaluation history and negative results items
+      present.
+[ ] Bundled template exists and is byte-identical
+      Confirm: references/template-reports.md exists.
+      diff against governance/template-reports.md is empty.
+[ ] Cross-references are correct
+      Confirm: Related section links to write-evaluation and
+      loop-feynman skills. Links to bundled template and
+      governance template.
 ```
 
 ---
 
-## write-insight -- Static Checks
+## write-insight -- Verification Checklist
+
+Verification phase: when promoting an IOR or finding to an insight.
 
 ```
-[ ] SKILL.md frontmatter: name=write-insight, user-invocable=true
-[ ] When to Apply: lists insight-specific triggers (patterns, promoted)
-[ ] Format sections: The Insight, Evidence, Implications, Counter-evidence,
-      Version History
-      All match template-insights.md body structure
-[ ] Frontmatter Rules: 7 fields (name, id, tier, source, author, tags, links)
-      Matches template-insights.md schema (includes source field)
-[ ] Naming Convention: <short-slug>.md, kebab-case
-      Matches template-insights.md convention
-[ ] Quality Gates: G1-G7 present
-      G1 One-Sentence Insight, G2 Evidence Is Cited, G3 Implications Are
-      Concrete, G4 Falsifiable, G5 Source Traceability, G6 Cross-links Exist,
-      G7 Formatting Rules -- all match template-insights.md
-[ ] Pre-Commit Self-Check: 11 items
-      Frontmatter (2), id, one-sentence, evidence, implications,
-      counter-evidence, version-history, cross-links, filename, ASCII,
-      all G1-G7
-[ ] Bundled template: references/template-insights.md exists
-[ ] Bundled template content: byte-identical to governance/template-insights.md
-```
-
----
-
-## write-library -- Static Checks
-
-```
-[ ] SKILL.md frontmatter: name=write-library, user-invocable=true
-[ ] When to Apply: lists library-specific triggers and exclusions
-[ ] Format sections: Hypothesis, Body (Analytical + Narrative), Conclusion,
-      Cross-Links
-      All match template-library.md body structure
-[ ] Frontmatter Rules: 7 fields (name, id, tier, domain, author, tags, links)
-      Matches template-library.md schema (includes domain field)
-[ ] Naming Convention: <domain>/<slug>.md
-      Matches template-library.md convention
-[ ] Quality Gates: G1-G7 present
-      G1 Atomic, G2 Feynman Test, G3 Hypothesis Makes a Claim, G4 Sourced,
-      G5 Cross-links Exist, G6 Frontmatter Complete, G7 Formatting Rules
-      -- all match template-library.md
-[ ] Pre-Commit Self-Check: 14 items
-      Frontmatter (2), id, domain-match, tags-type, hypothesis-claim,
-      analytical-element, narrative-section, conclusion, cross-links,
-      sources, feynman-test, filename, ASCII, all G1-G7
-[ ] Bundled template: references/template-library.md exists
-[ ] Bundled template content: byte-identical to governance/template-library.md
-```
-
----
-
-## Dynamic Verification (Future Session)
-
-In a future session, exercise each skill by writing one document of each
-type. Confirm:
-
-```
-[ ] write-proposal: agent writes a minimal proposal, G1-G7 all pass
-[ ] write-evaluation: agent evaluates another agent's work, decorrelation
-      rule satisfied, G1-G7 all pass
-[ ] write-report: agent writes a report, includes evaluation history,
-      G1-G7 all pass
-[ ] write-insight: agent promotes an IOR to an insight, includes
-      counter-evidence, G1-G7 all pass
-[ ] write-library: agent writes a library topic, includes analytical
-      section, G1-G7 all pass
-```
-
-Dynamic verification is lower priority than the protocol skills'
-cold-start test because these are user-invocable -- the agent explicitly
-reads the skill when the user says "write a proposal" or "evaluate this."
-The trigger is explicit, not contextual like preflight or loop-feynman.
-
----
-
-## Template Content Verification (Static)
-
-Verify each bundled template is byte-identical to the live governance
-template in the agentic-brain. Run from workspace root:
-
-```bash
-for skill in write-proposal write-evaluation write-report write-insight write-library; do
-  tmpl=$(echo $skill | sed 's/write-/template-/')
-  if diff <(tr -d '\r' skills/$skill/references/$tmpl.md) \
-          <(tr -d '\r' /tmp/brain-check/governance/$tmpl.md) > /dev/null 2>&1; then
-    echo "MATCH: $skill"
-  else
-    echo "MISMATCH: $skill"
-  fi
-done
+[ ] Skill SKILL.md is valid
+      Confirm: read ~/.openclaw/workspace/skills/write-insight/SKILL.md
+      has correct frontmatter (name: write-insight,
+      user-invocable: true, disable-model-invocation: false)
+[ ] Frontmatter description is a trigger surface
+      Confirm: description is task-oriented ("Write an insight:
+      Insight-Evidence-Implications-Counter-evidence format with
+      quality gates G1-G7, falsifiability, and cross-links."),
+      under 160 bytes
+[ ] When to Apply section is correct
+      Confirm: lists insight-specific triggers (pattern across
+      multiple IORs, durable lesson, changes how agents operate,
+      quotable one-sentence) and exclusions (single-session IOR,
+      unproven hypotheses, already-captured insights)
+[ ] Format sections match template-insights.md
+      Confirm: The Insight, Evidence, Implications, Counter-evidence,
+      Version History -- all present and matching template body
+      structure in order. Falsifiability (Counter-evidence) is
+      prominent. Version History table format matches.
+[ ] Frontmatter Rules are correct
+      Confirm: 7 fields listed (name, id, tier, source, author,
+      tags, links). Includes source field. tier is "always insight".
+      Matches template schema exactly. At least one source required.
+[ ] Naming Convention is correct
+      Confirm: <short-slug>.md, kebab-case, max 60 chars.
+      Example given. Matches template.
+[ ] Quality Gates: G1-G7 named and matching template
+      G1 One-Sentence Insight, G2 Evidence Is Cited,
+      G3 Implications Are Concrete, G4 Falsifiable,
+      G5 Source Traceability, G6 Cross-links Exist,
+      G7 Formatting Rules.
+      Confirm: all 7 names match template-insights.md.
+[ ] Pre-Commit Self-Check: items match template checklist
+      Template checklist has 11 items. Skill self-check has 11 items
+      (10 template items + "All G1-G7 confirmed PASS").
+      Confirm: every template checklist item appears in skill
+      self-check. Falsifiability/counter-evidence item present.
+      Version history item present.
+[ ] Bundled template exists and is byte-identical
+      Confirm: references/template-insights.md exists.
+      diff against governance/template-insights.md is empty.
+[ ] Cross-references are correct
+      Confirm: Related section links to write-reflection and
+      write-evaluation skills. Links to bundled template and
+      governance template.
 ```
 
 ---
@@ -319,17 +335,24 @@ done
 ## Overall Self-Check
 
 ```
-[ ] All 5 SKILL.md files exist and load as skills
-[ ] All 5 bundled templates exist in references/
-[ ] All 5 bundled templates byte-match governance templates
-[ ] All 5 skills have user-invocable: true
-[ ] All 5 skills have disable-model-invocation: false
-[ ] All 5 skills have descriptions under 160 bytes
-[ ] All 5 self-checks match their template checklists
-[ ] Quality gate names (not just counts) match templates
-[ ] Frontmatter field counts match template schemas
-[ ] Cross-references between skills are consistent (write-report links
-      to write-evaluation, write-evaluation links to write-proposal, etc.)
+[ ] All 4 SKILL.md files exist and load as skills
+[ ] All 4 bundled templates exist in references/
+[ ] All 4 bundled templates byte-match governance templates
+[ ] All 4 skills have user-invocable: true
+[ ] All 4 skills have disable-model-invocation: false
+[ ] All 4 skills have descriptions under 160 bytes
+[ ] All 4 When to Apply sections correctly scope each skill
+[ ] All 4 Format sections match their templates' body structures
+[ ] All 4 Frontmatter Rules match their templates' schemas
+[ ] All 4 Naming Conventions match their templates
+[ ] All 4 Quality Gates sections: gates are named, names match
+      templates exactly
+[ ] All 4 Pre-Commit Self-Checks: every template checklist item
+      appears, no items dropped, no items fabricated
+[ ] All 4 Cross-references between skills are consistent
+      (write-report links to write-evaluation, write-evaluation
+      links to write-proposal, write-insight links to
+      write-reflection, etc.)
 ```
 
 ---
@@ -338,12 +361,13 @@ done
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 1 | 2026-07-17 | Ava | Initial IOR. Verification protocol for 5 template-writing skills: write-proposal, write-evaluation, write-report, write-insight, write-library. Static checks defined for each skill. Dynamic verification deferred to future session. |
+| 1 | 2026-07-17 | Ava | Initial IOR. Verification protocol for 4 template-writing skills: write-proposal, write-evaluation, write-report, write-insight. Per-skill checklists with 10 items each, following the same format as skills-test-verification.md. |
 
 ## Cross-Links
 
 - `2026-07-17_ava_skills-test-verification.md` -- protocol skills test
-  (preflight, loop-feynman, loop-schoen, session-end, write-reflection)
+  (preflight, loop-feynman, loop-schoen, session-end, write-reflection);
+  the format this IOR follows
 - `2026-07-17_ava_cold-start-verification-executed.md` -- cold-start
   verification executed, meta-work cycle closed
 - `governance/template-skills.md` -- skill construction rules
@@ -355,5 +379,3 @@ done
   write-report skill)
 - `governance/template-insights.md` -- insight template (bundled in
   write-insight skill)
-- `governance/template-library.md` -- library template (bundled in
-  write-library skill)
