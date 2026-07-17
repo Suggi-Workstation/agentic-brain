@@ -128,3 +128,31 @@ overrides on active sessions and their parent chain.
 - `research/insights/deepseekv4pro.md` -- updated with OpenClaw thinking
   config integration
 - Source: workspace-ava `memory/2026-07-17.md` Phase 17-19
+
+## v2 -- 2026-07-17 -- ava
+
+**(ava):** Phase 19 discovery. The original Phase 18 diagnosis ("dashboard
+sessions are sticky across gateway restarts") identified the symptom but
+not the mechanism. Direct inspection of sessions.json revealed that every
+webchat session had `thinkingLevel: "high"` explicitly stored, and the
+`parentSessionKey: agent:main:main` inheritance chain copied the override
+to every child session. The thinking resolution order (session override
+at layer 2 > config default at layer 4) made the config change invisible
+across 4 independent attempts including 3 `/new` commands.
+
+The fix removed `thinkingLevel` from all 9 sessions in sessions.json,
+starting with the root parent. The three-phase verification protocol was
+added: config file check (1) + new-session check (2) + sessions.json
+override audit on session AND parent chain (3).
+
+New structural gate for the platform: after any config change affecting
+session-scoped behavior (thinking, reasoning, fast mode), sessions.json
+MUST be audited for stored overrides on the active session and its entire
+parent chain. Config verification alone is insufficient.
+
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-17 | Ava | Initial IOR. Dashboard session stickiness + two-phase verification protocol. |
+| 2 | 2026-07-17 | Ava | Phase 19 discovery: parent-child override inheritance in sessions.json as root cause. Three-phase verification protocol with sessions.json audit. Updated insight files (openclaw-manual.md, deepseekv4pro.md). |

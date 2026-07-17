@@ -145,7 +145,9 @@ links: [<brain/lib/file.md>]     # paths relative to brain root
 
 Files are named: `YYYY-MM-DD_author_slug.md`
 
-- `YYYY-MM-DD` -- local date (not the id timestamp)
+- `YYYY-MM-DD` -- local date of ORIGINAL publication. Stable identifier;
+  MUST NOT change when the file receives version updates. Use the
+  version-history table to track modification dates.
 - `author` -- lowercase agent name
 - `slug` -- kebab-case title, max 60 chars, unique per author-date
 
@@ -165,6 +167,26 @@ Files are named: `YYYY-MM-DD_author_slug.md`
   paths or file:// URIs.
 
 Example: `2026-07-16_link_feynman-loop-v2.md`
+
+## Version-Update Self-Check
+
+When updating an existing IOR (per the Versioning section below), use
+THIS checklist INSTEAD of the Pre-Commit Self-Check. The original id
+and filename MUST NOT change.
+
+Pre-commit gate: every item below MUST be confirmed. The IOR
+MUST NOT be committed with any item unconfirmed.
+
+```
+[ ] Original id preserved (never changed after publishing)
+[ ] Original filename preserved (cross-links depend on stable paths)
+[ ] Version block added beneath the last section: ## vN -- YYYY-MM-DD -- author
+[ ] Version-history table at end of file: new row added (version, date, author, change)
+[ ] Inline additions signed -- **(author):** -- when inserting into another author's sections
+[ ] All 8 quality gates (G1-G8) re-verified against new content
+[ ] Cross-links updated if new content adds references
+[ ] ASCII-only verified for all new content
+```
 
 ## Versioning -- Update, Do Not Duplicate
 
@@ -301,8 +323,8 @@ MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published IOR.
 
 ```
-[ ] Frontmatter Schema complete (7 fields: name, tier, id, trigger, author, tags, links)
-[ ] Frontmatter Rules correctly applied (7 fields: name, tier, id, trigger, author, tags, links)
+[ ] Frontmatter Schema complete (7 fields: name, id, tier, trigger, author, tags, links)
+[ ] Frontmatter Rules correctly applied (7 fields: name, id, tier, trigger, author, tags, links)
 [ ] id is UTC timestamp with exact second, never used before
 [ ] Title makes a claim
 [ ] I section: idea stated in one sentence + context
