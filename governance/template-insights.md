@@ -212,8 +212,9 @@ This insight would be invalidated if:
 
 ## The Insight Checklist
 
-Verify every item below before committing. Do NOT include this
-checklist in the published file.
+Pre-commit gate: every item below MUST be confirmed. The file
+MUST NOT be committed with any item unconfirmed. Do not include
+this checklist in the published file.
 
 ```
 [ ] Frontmatter complete (all fields, source: lists every origin artifact)

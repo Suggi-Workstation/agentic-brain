@@ -203,8 +203,9 @@ a precision error, not a factual error.
 
 ## The Evaluation Checklist
 
-Verify every item below before committing. Do NOT include this
-checklist in the published file.
+Pre-commit gate: every item below MUST be confirmed. The file
+MUST NOT be committed with any item unconfirmed. Do not include
+this checklist in the published file.
 
 ```
 [ ] Frontmatter complete (all fields, author is not the source's author)

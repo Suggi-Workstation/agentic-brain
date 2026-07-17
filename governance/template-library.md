@@ -227,8 +227,9 @@ quality compensates for estimation risk.
 
 ## The Library Checklist
 
-Verify every item below before committing. Do NOT include this
-checklist in the published file.
+Pre-commit gate: every item below MUST be confirmed. The file
+MUST NOT be committed with any item unconfirmed. Do not include
+this checklist in the published file.
 
 ```
 [ ] Frontmatter complete (7 fields: name, id, tier, author, domain, tags, links)

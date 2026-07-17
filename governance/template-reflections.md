@@ -297,8 +297,9 @@ the Feynman pass.
 
 ## Pre-Commit Self-Check
 
-Verify every item below before committing. Do NOT include this
-checklist in the published IOR.
+Pre-commit gate: every item below MUST be confirmed. The IOR
+MUST NOT be committed with any item unconfirmed. Do not include
+this checklist in the published IOR.
 
 ```
 [ ] Frontmatter complete (7 fields: name, tier, id, trigger, author, tags, links)
