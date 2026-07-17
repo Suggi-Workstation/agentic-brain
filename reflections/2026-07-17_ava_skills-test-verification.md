@@ -4,7 +4,7 @@ id: 20260717T133500Z
 tier: reflection
 trigger: milestone
 author: Ava
-tags: [skills, testing, verification, feynman-loop, schoen-loop, session-end, ior-write, protocol-migration]
+tags: [skills, testing, verification, loop-feynman, loop-schoen, session-end, write-reflection, protocol-migration]
 links:
   - 2026-07-17_ava_preflight-skill-deployment.md
   - 2026-07-17_ava_skills-as-protocol-carriers.md
@@ -24,10 +24,10 @@ migration actually works before we delete `stale-AGENTS.md`.
 
 Unlike preflight (which fires at session start and is immediately
 verifiable), the remaining skills fire at different session phases:
-- `feynman-loop`: during substantive writing (mid-session)
-- `schoen-loop`: at end of substantive session
+- `loop-feynman`: during substantive writing (mid-session)
+- `loop-schoen`: at end of substantive session
 - `session-end`: at end of session (after Schoen Loop)
-- `ior-write`: before writing any IOR
+- `write-reflection`: before writing any IOR
 
 This means verification requires at least one full substantive session
 that produces durable insight -- the only session type that exercises
@@ -37,21 +37,21 @@ all four skills.
 
 Confidence: high (88%) that the skills will pass, but medium (55%) that
 the test exposure will be complete in one session. The bottleneck is the
-ior-write skill -- it only fires when the session produces something
+write-reflection skill -- it only fires when the session produces something
 worth writing an IOR about. A session that is purely procedural (only
-file edits, commits, config changes) would exercise feynman-loop,
-schoen-loop, and session-end, but not ior-write.
+file edits, commits, config changes) would exercise loop-feynman,
+loop-schoen, and session-end, but not write-reflection.
 
 The preflight verification succeeded in 10/10 items despite one gap
 (step 3 `/context list`). The same template-matching gap pattern could
 appear in the other skills. Specifically:
 
 - Will the agent recognize when "substantive writing" begins and
-  invoke feynman-loop unprompted?
-- Will the agent invoke schoen-loop at session end, or skip it
+  invoke loop-feynman unprompted?
+- Will the agent invoke loop-schoen at session end, or skip it
   because the session "didn't feel substantive enough"?
-- Will session-end correctly chain schoen-loop as prerequisite?
-- Will ior-write correctly defer to template-reflections.md instead
+- Will session-end correctly chain loop-schoen as prerequisite?
+- Will write-reflection correctly defer to template-reflections.md instead
   of duplicating it (R8 risk)?
 
 These are the failure modes worth watching.
@@ -79,11 +79,11 @@ to trigger all four. The test is real -- it cannot be simulated.
 ### Learn (40%)
 
 1. **Verification coverage is phase-locked.** You cannot verify
-   session-end without ending a session. You cannot verify ior-write
+   session-end without ending a session. You cannot verify write-reflection
    without writing an IOR. The test protocol must acknowledge this
-   and provide partial-verification milestones: feynman-loop can be
-   verified mid-session, schoen-loop at session end, etc.
-2. **The ior-write skill is the hardest to exercise.** A session
+   and provide partial-verification milestones: loop-feynman can be
+   verified mid-session, loop-schoen at session end, etc.
+2. **The write-reflection skill is the hardest to exercise.** A session
    that produces no durable insight will never trigger it. The
    verification protocol must explicitly state: "This item requires
    a session that generates an IOR. If the current session did not,
@@ -113,18 +113,18 @@ Static checks apply to every skill. Run once at session start.
 ```
 [ ] Skills directory exists
       Confirm: ls ~/.openclaw/workspace/skills/ shows:
-      feynman-loop, schoen-loop, session-end, ior-write
+      loop-feynman, loop-schoen, session-end, write-reflection
 [ ] All skills load correctly
       Confirm: `openclaw skills list` shows all 4 as "ready"
 [ ] All skills visible in session
       Confirm: available-skills list in system prompt includes
-      feynman-loop, schoen-loop, session-end, ior-write
+      loop-feynman, loop-schoen, session-end, write-reflection
 [ ] AGENTS.md references all skills
       Confirm: gate instructions present for each skill:
-      - "MUST invoke the `feynman-loop` skill"
-      - "MUST invoke the `schoen-loop` skill"
+      - "MUST invoke the `loop-feynman` skill"
+      - "MUST invoke the `loop-schoen` skill"
       - "MUST invoke the `session-end` skill"
-      - "MUST invoke the `ior-write` skill"
+      - "MUST invoke the `write-reflection` skill"
 [ ] stale-AGENTS.md exists (reversion path)
       Confirm: ~/.openclaw/workspace/stale-AGENTS.md present
 ```
@@ -137,14 +137,14 @@ Verification phase: mid-session, before first substantive output.
 
 ```
 [ ] Skill SKILL.md is valid
-      Confirm: read ~/.openclaw/workspace/skills/feynman-loop/SKILL.md
+      Confirm: read ~/.openclaw/workspace/skills/loop-feynman/SKILL.md
       has correct frontmatter (name, description, user-invocable: false,
       disable-model-invocation: false)
 [ ] Frontmatter description is a trigger surface
       Confirm: description is task-oriented ("Run the 6-step Feynman
       Loop for output quality...") not a summary
 [ ] Agent invokes the skill before substantive writing
-      Confirm: read of feynman-loop/SKILL.md appears in session
+      Confirm: read of loop-feynman/SKILL.md appears in session
       transcript BEFORE the first substantive output (report,
       analysis, IOR, evaluation) is produced
 [ ] All 6 steps execute
@@ -171,14 +171,14 @@ Verification phase: end of substantive session, before session-end.
 
 ```
 [ ] Skill SKILL.md is valid
-      Confirm: read ~/.openclaw/workspace/skills/schoen-loop/SKILL.md
+      Confirm: read ~/.openclaw/workspace/skills/loop-schoen/SKILL.md
       has correct frontmatter (name, description, user-invocable: false,
       disable-model-invocation: false)
 [ ] Frontmatter description is a trigger surface
       Confirm: description is task-oriented ("Run the 4-question Schoen
       Loop at the end of every substantive session...") not a summary
 [ ] Agent invokes the skill at session end
-      Confirm: read of schoen-loop/SKILL.md appears in session
+      Confirm: read of loop-schoen/SKILL.md appears in session
       transcript near session end, before session-end skill
 [ ] All 4 questions answered
       Confirm: what happened (facts), what worked/did not (root cause),
@@ -219,7 +219,7 @@ Verification phase: end of session, after Schoen Loop.
       Confirm: read of session-end/SKILL.md appears in session
       transcript as the final procedure before session ends
 [ ] Schoen Loop invoked as prerequisite
-      Confirm: schoen-loop skill was invoked BEFORE session-end
+      Confirm: loop-schoen skill was invoked BEFORE session-end
       skill (prerequisite ordering)
 [ ] Daily memory written (Step 1)
       Confirm: memory/YYYY-MM-DD.md created or appended with
@@ -254,14 +254,14 @@ substantive session.
 
 ```
 [ ] Skill SKILL.md is valid
-      Confirm: read ~/.openclaw/workspace/skills/ior-write/SKILL.md
+      Confirm: read ~/.openclaw/workspace/skills/write-reflection/SKILL.md
       has correct frontmatter (name, description, user-invocable: false,
       disable-model-invocation: false)
 [ ] Frontmatter description is a trigger surface
       Confirm: description is task-oriented ("Write an IOR...")
       not a summary
 [ ] Agent invokes the skill before writing any IOR
-      Confirm: read of ior-write/SKILL.md appears in session
+      Confirm: read of write-reflection/SKILL.md appears in session
       transcript BEFORE the first IOR is written
 [ ] I/O/R format followed correctly
       Confirm: written IOR has exactly three sections: Idea, Opinion,
@@ -274,7 +274,7 @@ substantive session.
       change concrete (G5), cross-links exist (G6), Feynman pass
       completed first (G7), ASCII-only (G8)
 [ ] Template referenced, not duplicated (R8)
-      Confirm: ior-write skill references template-reflections.md
+      Confirm: write-reflection skill references template-reflections.md
       for full format. Agent read template-reflections.md for
       detailed rules. No template content was duplicated in-line
       that would drift
@@ -301,10 +301,10 @@ The skills are designed to fire in a specific sequence. Verification
 must respect this order:
 
 1. **Session start:** preflight (already verified -- PASS)
-2. **Mid-session (substantive work):** feynman-loop
-3. **End of session:** schoen-loop
+2. **Mid-session (substantive work):** loop-feynman
+3. **End of session:** loop-schoen
 4. **After Schoen Loop:** session-end
-5. **During session-end (if insight):** ior-write
+5. **During session-end (if insight):** write-reflection
 
 ### Partial Verification Is Acceptable
 
@@ -312,10 +312,10 @@ Not every session exercises every skill. The verification protocol
 allows partial completion:
 
 - If the session is purely procedural (no substantive output),
-  mark feynman-loop as "SKIP -- not triggered" and ior-write as
+  mark loop-feynman as "SKIP -- not triggered" and write-reflection as
   "SKIP -- no insight produced." Verify the remaining skills.
 - If the session is substantive but produces no IOR-worthy insight,
-  mark ior-write as "PENDING -- needs substantive session with
+  mark write-reflection as "PENDING -- needs substantive session with
   durable insight." Verify the remaining skills.
 - **One full substantive session with an IOR output** is the ideal
   case and exercises all four skills in one pass.
@@ -339,10 +339,10 @@ Once all checklists are completed and all applicable items show PASS:
 - `2026-07-17_ava_skills-as-protocol-carriers.md` -- the architecture
   IOR that motivated these migrations
 - `governance/template-skills.md` -- skill construction rules
-- `skills/feynman-loop/SKILL.md` (workspace) -- the deployed skill
-- `skills/schoen-loop/SKILL.md` (workspace) -- the deployed skill
+- `skills/loop-feynman/SKILL.md` (workspace) -- the deployed skill
+- `skills/loop-schoen/SKILL.md` (workspace) -- the deployed skill
 - `skills/session-end/SKILL.md` (workspace) -- the deployed skill
-- `skills/ior-write/SKILL.md` (workspace) -- the deployed skill
+- `skills/write-reflection/SKILL.md` (workspace) -- the deployed skill
 - `stale-AGENTS.md` (workspace) -- reversion backup (delete after
   all 4 skills verified PASS)
 
@@ -350,4 +350,4 @@ Once all checklists are completed and all applicable items show PASS:
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 1 | 2026-07-17 | Ava | Initial IOR. Verification protocol and checklists for feynman-loop, schoen-loop, session-end, ior-write skills. |
+| 1 | 2026-07-17 | Ava | Initial IOR. Verification protocol and checklists for loop-feynman, loop-schoen, session-end, write-reflection skills. |

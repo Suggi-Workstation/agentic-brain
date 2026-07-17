@@ -207,13 +207,13 @@ to match. Patch committed to `skills/preflight/SKILL.md` and pushed.
 With the preflight verified working, Phases 2-5 were deployed in the
 same session:
 
-- **Phase 2 -- feynman-loop skill:** 6-step output quality loop.
+- **Phase 2 -- loop-feynman skill:** 6-step output quality loop.
   AGENTS.md: 17 inline lines -> 4-line gate instruction.
-- **Phase 3 -- schoen-loop skill:** 4-question process quality review.
+- **Phase 3 -- loop-schoen skill:** 4-question process quality review.
   AGENTS.md: 12 inline lines -> 4-line gate instruction.
 - **Phase 4 -- session-end skill:** 5-step closing procedure with
   self-check. AGENTS.md: 27 inline lines -> 4-line gate instruction.
-- **Phase 5 -- ior-write skill:** I/O/R format with G1-G8 quality
+- **Phase 5 -- write-reflection skill:** I/O/R format with G1-G8 quality
   gates and template reference. AGENTS.md: 15 inline lines -> 3-line
   gate instruction.
 
@@ -239,4 +239,4 @@ can be reverted in one operation: `cp stale-AGENTS.md AGENTS.md`.
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
 | 1 | 2026-07-17 | Ava | Initial IOR. Preflight skill deployment, integration test checklist, reversion plan. |
-| 2 | 2026-07-17 | Ava | Integration test passed (10/10 items). Step 3 `/context list` gap found and fixed. Phases 2-5 deployed (feynman-loop, schoen-loop, session-end, ior-write skills). AGENTS.md reduced 76 lines. |
+| 2 | 2026-07-17 | Ava | Integration test passed (10/10 items). Step 3 `/context list` gap found and fixed. Phases 2-5 deployed (loop-feynman, loop-schoen, session-end, write-reflection skills). AGENTS.md reduced 76 lines. |
