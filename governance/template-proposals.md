@@ -50,8 +50,7 @@ links: [<relative-brain-path>]   # related governance, proposals, or IORs
   `ava-core-files-v1`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 - `tier` is always `proposal`.
-- `author` is who wrote the proposal. The author list is {link, ava,
-  zelda, suggi, luffy}. Suggi is the human; others are agents.
+- `author` is who wrote the proposal (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
 - `links` are relative paths from the agentic-brain root. Link to

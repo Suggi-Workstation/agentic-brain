@@ -54,8 +54,7 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 - `tier` is always `library`.
 - `domain` is the lowercase folder name (e.g., `value-investing`).
-- `author` is who wrote the topic. The author list is {link, ava, zelda,
-  suggi, luffy}. Suggi is the human; others are agents.
+- `author` is who wrote the topic (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry. Include the file's type as a tag
   (concept, person, company, book, framework, event, culture).

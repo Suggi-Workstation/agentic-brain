@@ -52,8 +52,7 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 - `tier` is always `evaluation`.
 - `source` is the id of the proposal, report, or insight being
   evaluated. Never evaluate your own work (the decorrelation rule).
-- `author` is who performed the evaluation. The author list is {link,
-  ava, zelda, luffy}. A different agent than the source's author.
+- `author` is who performed the evaluation (e.g. Link, Ava, Zelda, Luffy). Must differ from the source.s author.
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
 - `links` are relative paths from the agentic-brain root. Do not use

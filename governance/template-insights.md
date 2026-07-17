@@ -54,8 +54,7 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 - `tier` is always `insight`.
 - `source` lists the ids of the IORs, reports, or evaluations that
   produced this insight. At least one source required.
-- `author` is who wrote the insight. The author list is {link, ava,
-  zelda, suggi, luffy}. Suggi is the human; others are agents.
+- `author` is who wrote the insight (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
 - `links` are relative paths from the agentic-brain root. Do not use

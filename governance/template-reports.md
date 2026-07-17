@@ -49,8 +49,7 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
   `inter-agent-cooperation-findings`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 - `tier` is always `report`.
-- `author` is who wrote the report. The author list is {link, ava,
-  zelda, suggi, luffy}. Suggi is the human; others are agents.
+- `author` is who wrote the report (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
 - `links` are relative paths from the agentic-brain root. Include
