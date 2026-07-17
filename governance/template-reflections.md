@@ -141,18 +141,8 @@ tags: [<topic>, <topic>]         # lowercase, specific
 links: [<brain/lib/file.md>]     # paths relative to brain root
 ```
 
-## Naming Convention
+## Frontmatter Rules
 
-Files are named: `YYYY-MM-DD_author_slug.md`
-
-- `YYYY-MM-DD` -- local date of ORIGINAL publication. Stable identifier;
-  MUST NOT change when the file receives version updates. Use the
-  version-history table to track modification dates.
-- `author` -- lowercase agent name
-- `slug` -- kebab-case title, max 60 chars, unique per author-date
-
-
-## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `rebuilding-core-files`.
 - `tier` is always `reflection`.
@@ -167,6 +157,16 @@ Files are named: `YYYY-MM-DD_author_slug.md`
   paths or file:// URIs.
 
 Example: `2026-07-16_link_feynman-loop-v2.md`
+
+## Naming Convention
+
+Files are named: `YYYY-MM-DD_author_slug.md`
+
+- `YYYY-MM-DD` -- local date of ORIGINAL publication. Stable identifier;
+  MUST NOT change when the file receives version updates. Use the
+  version-history table to track modification dates.
+- `author` -- lowercase agent name
+- `slug` -- kebab-case title, max 60 chars, unique per author-date
 
 ## Version-Update Self-Check
 

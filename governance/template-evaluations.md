@@ -44,15 +44,8 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 ---
 ```
 
-## Naming Convention
+## Frontmatter Rules
 
-Files are named: `<short-slug>.md`
-
-- `short-slug` -- kebab-case, max 60 chars, unique.
-
-Example: `ava-review-link-verification-paper.md`
-
-## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `review-link-verification-paper`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- do not pad with 00.
@@ -65,6 +58,14 @@ Example: `ava-review-link-verification-paper.md`
   the brain's tag registry.
 - `links` are relative paths from the agentic-brain root. Do not use
   absolute paths or file:// URIs.
+
+## Naming Convention
+
+Files are named: `<short-slug>.md`
+
+- `short-slug` -- kebab-case, max 60 chars, unique.
+
+Example: `ava-review-link-verification-paper.md`
 
 ## Body Structure
 

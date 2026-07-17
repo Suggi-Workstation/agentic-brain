@@ -44,14 +44,8 @@ links: [<relative-brain-path>]   # related governance, proposals, or IORs
 ---
 ```
 
-## Naming Convention
+## Frontmatter Rules
 
-Files are named: `<short-slug>.md`
-
-- `short-slug` -- kebab-case, max 60 chars, unique.
-  Example: `ava-core-files-v1.md`
-
-## Frontmatter Rules:
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `ava-core-files-v1`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. Use the exact second of creation -- do not pad with 00.
@@ -63,6 +57,13 @@ Files are named: `<short-slug>.md`
 - `links` are relative paths from the agentic-brain root. Link to
   related governance files, IORs, or prior proposals. Do not use
   absolute paths or file:// URIs.
+
+## Naming Convention
+
+Files are named: `<short-slug>.md`
+
+- `short-slug` -- kebab-case, max 60 chars, unique.
+  Example: `ava-core-files-v1.md`
 
 ## Body Structure
 
