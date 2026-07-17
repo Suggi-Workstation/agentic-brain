@@ -2,7 +2,7 @@
 name: memory-search-build
 id: 20260717T071000Z
 tier: reflection
-trigger: "Installing and configuring OpenClaw memory_search with local embeddings on the VPS, then documenting it in the agentic-brain"
+trigger: milestone
 author: Ava
 tags: [memory-search, hybrid-search, local-embeddings, ollama, llama-cpp, openclaw, agent-configuration]
 links:

@@ -2,7 +2,7 @@
 name: template-hard-gate
 id: 20260717T070900Z
 tier: reflection
-trigger: "Fixing ambiguous 'copy-paste' checklist instruction in all 6 governance templates after the same error occurred twice in one session"
+trigger: error
 author: Ava
 tags: [templates, gates, checklists, ambiguity, rfc-2119, r10, governance]
 links:
