@@ -153,6 +153,15 @@ disable-model-invocation: false        # default false. When true, model cannot 
 - `disable-model-invocation: true` keeps the skill out of the system
   prompt entirely. It is only available via explicit slash-command.
   Use this for rarely-needed utility skills.
+- **Combined:** `user-invocable: false` + `disable-model-invocation: false`
+  (the default) is the correct setting for internal protocol skills
+  (preflight, session-end, feynman-loop). The skill is visible in the
+  available-skills list so AGENTS.md gate instructions can reference it
+  efficiently, but users cannot accidentally trigger it as a slash command.
+- `user-invocable: false` + `disable-model-invocation: true` makes the
+  skill completely invisible -- no slash command, not in the prompt.
+  The agent must use the `read` tool to manually load the SKILL.md file.
+  Avoid this combination unless the skill must never be model-visible.
 
 ## Naming Convention
 
