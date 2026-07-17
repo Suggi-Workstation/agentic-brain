@@ -169,8 +169,74 @@ Once all 10 integration test items pass:
 - `skills/preflight/SKILL.md` -- the deployed skill
 - `stale-AGENTS.md` (workspace) -- reversion backup
 
+## v2 -- 2026-07-17 -- Ava
+
+### Integration Test Results
+
+The integration test checklist was run in the first session after
+deployment (2026-07-17 15:20 CEST). All items confirmed PASS or
+addressed with a structural fix:
+
+| # | Item | Status |
+|:--|:--|:--|
+| 1 | Skill loads (`skills list`) | PASS -- preflight shows "ready" |
+| 2 | Gating passes (`git` on PATH) | PASS -- git 2.43.0 |
+| 3 | AGENTS.md references skill | PASS -- gate instruction present |
+| 4 | Skill visible in session | PASS -- appears in available-skills |
+| 5 | Agent invokes on start | PASS -- first tool call was preflight |
+| 6 | All 7 steps execute | PASS -- all ran successfully |
+| 7 | Read-proof format | PASS -- exact format match |
+| 8 | Self-check confirmed | PASS -- all items confirmed |
+| 9 | Token savings | VERIFIED -- AGENTS.md reduced ~76 lines |
+| 10 | No regression | PASS -- no steps dropped |
+
+### Gap Found and Fixed
+
+Step 3 originally instructed: "Run `/context list`". This is a
+slash command (human-only), not invocable by the agent through tools.
+The agent verified context health via the injected project context
+instead -- same check, different method.
+
+**Fix applied:** Step 3 reworded to "Inspect the project context loaded
+at the top of this session. Confirm all bootstrap files are present
+and complete -- no sentences cut off mid-word." Self-check item updated
+to match. Patch committed to `skills/preflight/SKILL.md` and pushed.
+
+### Remaining Phases Completed
+
+With the preflight verified working, Phases 2-5 were deployed in the
+same session:
+
+- **Phase 2 -- feynman-loop skill:** 6-step output quality loop.
+  AGENTS.md: 17 inline lines -> 4-line gate instruction.
+- **Phase 3 -- schoen-loop skill:** 4-question process quality review.
+  AGENTS.md: 12 inline lines -> 4-line gate instruction.
+- **Phase 4 -- session-end skill:** 5-step closing procedure with
+  self-check. AGENTS.md: 27 inline lines -> 4-line gate instruction.
+- **Phase 5 -- ior-write skill:** I/O/R format with G1-G8 quality
+  gates and template reference. AGENTS.md: 15 inline lines -> 3-line
+  gate instruction.
+
+### Net Result
+
+AGENTS.md: reduced from ~10,500 chars to ~7,500 chars (76 lines
+removed from always-loaded bootstrap context). Five lazily-loaded
+skills carry the procedures (~16,000 chars total, loaded only when
+invoked).
+
+All skills follow the preflight pattern: same frontmatter style
+(user-invocable: false, disable-model-invocation: false), same hard-gate
+language (MUST/MUST NOT), inline self-check tables, and cross-references
+to related skills and governance templates.
+
+### Reversion
+
+`stale-AGENTS.md` preserved as cumulative backup. All five migrations
+can be reverted in one operation: `cp stale-AGENTS.md AGENTS.md`.
+
 ## Version History
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
 | 1 | 2026-07-17 | Ava | Initial IOR. Preflight skill deployment, integration test checklist, reversion plan. |
+| 2 | 2026-07-17 | Ava | Integration test passed (10/10 items). Step 3 `/context list` gap found and fixed. Phases 2-5 deployed (feynman-loop, schoen-loop, session-end, ior-write skills). AGENTS.md reduced 76 lines. |
