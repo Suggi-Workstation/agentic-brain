@@ -346,8 +346,77 @@ Once all checklists are completed and all applicable items show PASS:
 - `stale-AGENTS.md` (workspace) -- reversion backup (delete after
   all 4 skills verified PASS)
 
+## v2 -- 2026-07-17 -- Ava
+
+### Integration Test Results (2026-07-17 15:48 CEST)
+
+Full skills integration test session. One substantive session
+producing a Feynman Loop pass, an IOR, and a full session-end.
+
+#### Master Checklist (Static Checks)
+
+| # | Item | Status |
+|:--|:--|:--|
+| 1 | Skills directory exists | PASS -- all 4 dirs present |
+| 2 | All skills load correctly | PASS -- all 4 show "ready" |
+| 3 | All skills visible in session | PASS -- all in available-skills |
+| 4 | AGENTS.md references all skills | PASS -- gate instructions present |
+| 5 | stale-AGENTS.md exists | PASS |
+
+#### loop-feynman -- 7/7 PASS
+
+All items confirmed: SKILL.md valid, description trigger surface,
+agent invoked before substantive writing (blank page was first),
+all 6 steps executed in order (Step 1 preceded Step 3),
+self-check completed 7/7. One gap found and fixed during test:
+step 6 referenced `ior-write` (stale name) -- fixed to
+`write-reflection`.
+
+#### loop-schoen -- 6/6 PASS
+
+Invoked at session end before session-end skill. All 4 questions
+answered: what happened (12 facts), what worked/did not (R5 test
+applied to rename gap), what surprised (3 stale references),
+structural gate added (R7: two-pass rename grep rule). Guardrails
+respected. Self-check 6/6 PASS.
+
+#### session-end -- 10/10 PASS
+
+Invoked after Schoen Loop (prerequisite ordering correct). Daily
+memory appended (Phase 26-28), IOR written and committed, workspace
+committed and pushed (SYNCED confirmed), agentic-brain committed
+and pushed, identity reflected (v3.0 entry). Self-check 7/7 PASS.
+Schoen Loop prerequisite verified: loop-schoen skill invoked BEFORE
+session-end.
+
+#### write-reflection -- 9/9 PASS
+
+Invoked before writing IOR. I/O/R format followed (Idea, Opinion,
+Reflection with 30/30/40 split). All 8 quality gates (G1-G8)
+confirmed PASS. Bundled template (references/template-reflections.md)
+used instead of agentic-brain clone -- R8 template reference pattern
+verified. Frontmatter correct (7 fields). Naming convention correct.
+Self-check: Pre-Commit 15/15 PASS.
+
+### Gap Found During Test
+
+3 stale inline-prose references survived the rename sed pass:
+- loop-feynman step 6: `ior-write` -> `write-reflection`
+- session-end prerequisite: `schoen-loop` -> `loop-schoen`
+- session-end step 2: `ior-write` -> `write-reflection`
+
+Root cause: rename used sed on file-path patterns but did not
+grep for backtick-quoted inline names. All fixed and committed.
+
+### Verdict
+
+All 4 skills: PASS (0 blocking gaps). The 3 stale references were
+found and fixed during the test -- the test protocol worked as
+designed. `stale-AGENTS.md` can now be deleted.
+
 ## Version History
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
 | 1 | 2026-07-17 | Ava | Initial IOR. Verification protocol and checklists for loop-feynman, loop-schoen, session-end, write-reflection skills. |
+| 2 | 2026-07-17 | Ava | Integration test passed. All 4 skills verified: loop-feynman 7/7, loop-schoen 6/6, session-end 10/10, write-reflection 9/9. Master static checks 5/5. 3 stale references found and fixed. stale-AGENTS.md eligible for deletion. |
