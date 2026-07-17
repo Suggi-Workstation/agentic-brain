@@ -6,7 +6,7 @@ lock: approval-required
 status: proposal
 version: 2
 author: Ava
-note: V2 -- reduced to org-scope only. Removed agent-specific sections (R1-R13, procedures, progressive disclosure table). Kept platform rules, org-wide standards, and rule-writing meta-rules in R-prefix style. Research base: OpenAI Model Spec (chain of command), Anthropic Constitutional AI (principle-based oversight), our own scar tissue (13 Gate Rules, rules-need-gates, template-hard-gate, ambiguous-basedir IORs).
+note: "V2 -- reduced to org-scope only. Removed agent-specific sections. Kept platform rules, org-wide standards, and rule-writing meta-rules as S1-S10 (S-prefix: Standards). Research base: OpenAI Model Spec chain-of-command, Anthropic Constitutional AI principle-based oversight, our own scar tissue (13 Gate Rules, rules-need-gates, template-hard-gate, ambiguous-basedir IORs)."
 links:
   - governance/system-constitution.md
 ---
