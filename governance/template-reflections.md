@@ -132,7 +132,7 @@ The Schoen Loop is reflection-on-action at session scope.
 
 ```yaml
 name: <short-slug>               # lowercase, kebab-case, unique
-id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC timestamp, permanent, never reused. Use the exact second of creation -- do not pad with 00.
+id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC timestamp, permanent, never reused. Use the exact second of creation -- run date -u +'%Y%m%dT%H%M%SZ'
 tier: reflection                  # always reflection
 trigger: <what prompted this>    # session-end | error | surprise | milestone |
                                  # decision | research | insight | self-knowledge
@@ -146,7 +146,7 @@ links: [<brain/lib/file.md>]     # paths relative to brain root
 - `name` is a short lowercase kebab-case slug, unique. Example:
   `rebuilding-core-files`.
 - `tier` is always `reflection`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse an id. Never change an id after publishing. Use the exact second of creation -- do not pad with 00.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse an id. Never change an id after publishing. Use the exact second of creation -- run `date -u +'%Y%m%dT%H%M%SZ'` and copy the output.
 - `trigger` picks from the canonical list. Do not invent new trigger
   values without updating this file.
 - `author` is who wrote the IOR. The author list is {link, ava, zelda,
