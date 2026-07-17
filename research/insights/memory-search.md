@@ -153,16 +153,3 @@ This insight would be invalidated if:
 
 - `research/reports/living-memory-vs-openclaw-memory-search.md` -- source report
 - `research/insights/openclaw-manual.md` -- related OpenClaw platform reference
-
----
-
-[ ] Frontmatter complete (all fields, source: lists every origin artifact)
-[ ] id is UTC timestamp, never used before
-[ ] One-sentence insight: fits in one quotable line
-[ ] Evidence: at least one source cited by id, chain of evidence complete
-[ ] Implications: concrete changes or decisions, not platitudes
-[ ] Counter-evidence: states what would prove the insight wrong
-[ ] Version history: at minimum, a v1 row with date + author + change
-[ ] Cross-links: source artifacts + related insights + affected governance
-[ ] Filename: lowercase, kebab-case slug
-[ ] ASCII-only: zero non-ASCII characters in the file
