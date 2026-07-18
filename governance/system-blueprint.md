@@ -23,12 +23,12 @@ links:
 ## Repos
 
 ### #1 - terminal
-*https://github.com/Suggi-Workstation/terminal - the main terminal.
+https://github.com/Suggi-Workstation/terminal - *the main terminal.*
 
 A Readme + Instructions for guests. And also a main hub with directions to the whole GitHub org. A navigation hub starting point.
 
 ### #2 - agentic-brain
-*https://github.com/Suggi-Workstation/agentic-brain the shared brain hub.*
+https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 
 | Path | Holds |
 | :---------------------------- | :--------------------------------------------------------------------------------- |
@@ -74,7 +74,7 @@ A Readme + Instructions for guests. And also a main hub with directions to the w
 - library/anthropology
 ### #3 - workspace-ava
 
-*https://github.com/Suggi-Workstation/workspace-ava - Ava's live workspace.*
+https://github.com/Suggi-Workstation/workspace-ava - *Ava's live workspace.*
 
 Mirrored 1:1 from the VPS. Contains core files (SOUL.md, AGENTS.md,
 MEMORY.md, IDENTITY.md, USER.md, TOOLS.md, HEARTBEAT.md), daily memory
@@ -84,8 +84,7 @@ the primary orchestrator agent -- the conductor and decorrelated reviewer.
 
 ### #4 - workspace-researcher-1
 
-*https://github.com/Suggi-Workstation/workspace-researcher-1 - workspace
-for the first research agent.*
+https://github.com/Suggi-Workstation/workspace-researcher-1 - *workspace for the first research agent.*
 
 Lean workspace for independent deep-dive research. Runs on its own
 model (separate model family from Ava for decorrelation). Contains
@@ -95,8 +94,7 @@ to the agentic-brain. Reserved for a future research agent.
 
 ### #5 - workspace-researcher-2
 
-*https://github.com/Suggi-Workstation/workspace-researcher-2 - workspace
-for the second research agent.*
+https://github.com/Suggi-Workstation/workspace-researcher-2 - *workspace for the second research agent.*
 
 Lean workspace for independent deep-dive research. Runs on a different
 model family from both Ava and Researcher-1 for three-way decorrelation.
@@ -105,8 +103,7 @@ output to the agentic-brain. Reserved for a future research agent.
 
 ### #6 - workspace-investor
 
-*https://github.com/Suggi-Workstation/workspace-investor - workspace
-for the investing agent.*
+https://github.com/Suggi-Workstation/workspace-investor - *workspace for the investing agent.*
 
 Lean workspace for investing research and analysis. Runs on its own
 model. Contains investing-specific skills and a minimal bootstrap.
@@ -115,6 +112,6 @@ goes to the agentic-brain under investing/. Reserved for a future
 investing agent.
 
 ### #7 - archive
-*https://github.com/Suggi-Workstation/archive - the archive.
+https://github.com/Suggi-Workstation/archive - *the archive.*
 
 Old, archived workspaces and repositories are stored here.
