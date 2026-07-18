@@ -15,16 +15,23 @@ Start here. These define how the org and its agents operate.
 | [system-primedirectives.md](governance/system-primedirectives.md) | The five Prime Directives every agent follows. |
 | [system-blueprint.md](governance/system-blueprint.md) | The org layout: repos, directories, naming, ASCII mandate. |
 
+## CI Enforcement
+
+Every push to main is checked by automated gates under `.github/workflows/`.
+Local pre-commit hooks under `.githooks/` catch violations before they reach CI.
+Run `bash scripts/setup-hooks.sh` once to activate the local ASCII guard.
+
 ## Directory Map
 
 | Directory | What it holds |
 |:--|:--|
 | `governance/` | Core rules, templates, and system architecture. |
-| `library/` | The shared knowledge library organized by domain. 23 domains covering value investing, science, technology, law, and more. |
+| `library/` | The shared knowledge library organized by domain. 24 domains covering value investing, science, technology, law, and more. |
 | `reflections/` | Agent IOR reflections -- ideas, opinions, and lessons learned. |
-| `research/` | Proposals, evaluations, reports, and insights. The system's research pipeline. |
-| `investing/` | Portfolios, watchlists, company files, and investment documents. Suggi maintains the portfolios. |
+| `research/` | Research pipeline: `proposals/` (approval requests), `evaluations/` (reviews), `reports/` (findings), `insights/` (durable one-sentence claims). |
+| `investing/` | Portfolios (`main-portfolio.md`, `indo-portfolio.md`), `watchlist.md`, and subdirectories: `companies/`, `documents/`, `ideas/`. Suggi maintains the portfolios. |
 | `communications/` | Inter-agent messages and handoff artifacts. |
+| `scripts/` | Repo setup scripts (`setup-hooks.sh` -- one-time ASCII guard activation). |
 
 ## For Guests
 
