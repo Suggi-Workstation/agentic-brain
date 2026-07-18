@@ -1,94 +1,138 @@
 ---
 name: multi-agent-architecture-industry-validated
-id: 20260718T165412Z
+id: 20260718T170417Z
 tier: reflection
+trigger: milestone
 author: Ava
-tags: [reflection, architecture, multi-agent, subagents, decorrelation, validation]
+tags: [architecture, multi-agent, subagents, decorrelation, validation]
 links:
   - brain:governance/system-blueprint.md
   - brain:research/proposals/subagent-workspace-routing-proposal.md
-  - memory/2026-07-18.md
 ---
 
-# IOR: Multi-agent architecture independently matches all 3 industry-standard patterns
+# Our Constraint-Driven Multi-Agent Architecture Independently Matches All Three Industry-Standard Patterns
 
-## Idea
+## I -- Idea
 
-Our multi-agent architecture -- Ava as orchestrator, two decorrelated
+Our multi-agent design — Ava as orchestrator, two decorrelated
 researchers with different models, a future investor, and isolated
-workspaces per agent -- was designed from first principles (lean
-workspaces, decorrelation, specialization). Independent research
-against 2026 industry sources confirmed it matches all three dominant
-multi-agent patterns without having referenced them during design.
+workspaces per agent — was derived from first principles and
+constraints (one VPS, one Gateway, one user, need for decorrelated
+review). Independent research against 2026 industry sources confirmed
+it matches all three dominant multi-agent patterns: Orchestrator-Worker,
+Parallel Research, and Workspace Isolation. We did not reference these
+sources during design. We converged on them by solving the problem
+honestly.
 
-## Opinion
+The architecture phase of this session built three live sub-agents
+(researcher-1, researcher-2, investor) with lean workspaces, explicit
+skill allowlists, and full GitHub mirrors, all registered on the
+Gateway. Ava went from conceptual orchestrator to operational
+orchestrator with real worker agents that can be spawned via
+sessions_spawn.
 
-This is validation, not coincidence. The architecture emerged from
-constraints (one VPS, one Gateway process, one user, need for
-decorrelated review) that naturally converged on patterns the industry
-independently discovered for the same reasons. The three patterns:
+## O -- Opinion
 
-1. **Orchestrator-Worker** (Microsoft, LangGraph, Claude Code) --
-   one conductor delegates to specialist workers. Our implementation:
-   Ava spawns researcher-1 + researcher-2 via sessions_spawn.
+Confidence: high (90%). The three-pattern match is validation, not
+coincidence. The architecture emerged from constraints that are
+fundamental — anyone solving the same problem (lean specialist agents
+on one Gateway with decorrelation) would arrive at the same structure.
 
-2. **Parallel Research** (DeepYard, Anthropic) -- multiple agents
-   investigate the same question independently, a synthesizer
-   cross-checks. Our implementation: R1 + R2 with different models,
-   Ava reads both and delivers the verdict.
+The specific matches:
 
-3. **Workspace Isolation** (OpenClaw docs, community guides) --
-   separate workspaces, auth, skills, and memory per agent. Our
-   implementation: each agent has its own workspace mirrored to
-   GitHub, own skills folder, explicit skills allowlist, no shared
-   state.
+1. **Orchestrator-Worker** (Microsoft agent architecture docs,
+   LangGraph, Claude Code): Single conductor delegates to specialist
+   workers. Our implementation: Ava spawns researcher-1 + researcher-2
+   via sessions_spawn with agentId targeting.
 
-The architecture was not copied from these sources. It was derived
-from constraints. That it converges on them suggests the constraints
-are fundamental -- anyone solving the same problem (lean specialist
-agents on one Gateway with decorrelation) would arrive at the same
-structure.
+2. **Parallel Research** (DeepYard multi-agent patterns, Anthropic
+   sub-agent design): Multiple agents investigate the same question
+   independently, a synthesizer cross-checks. Our implementation:
+   R1 + R2 with different model families, Ava reads both and delivers
+   verdict. The decorrelation rule (MUST NOT read peer output before
+   writing) is baked into each researcher's AGENTS.md as a HARD GATE.
 
-## Reflection
+3. **Workspace Isolation** (OpenClaw multi-agent docs, community
+   guides): Separate workspaces, auth, skills, and memory per agent.
+   Our implementation: each agent has its own workspace mirrored to
+   GitHub, own skills folder with explicit allowlist in config, no
+   shared state. The OpenClaw auth merge-load pattern (main agent
+   credentials as fallback) confirmed one OpenRouter key is sufficient.
 
-The architecture phase is now structurally complete. The blueprint
-matches the live org. The config is explicit. The workspaces exist.
-The patterns are validated. What remains is population: choosing
-models, building the write-library skill, adding loop-feynman to
-the researchers, and running the first decorrelated research pair.
+The constraint-first approach (invert, find what guarantees failure,
+do the opposite) produced a design that the industry independently
+arrived at through different paths. This is Munger-style inversion
+producing Buffett-style circle-of-competence expansion.
 
-The next session should focus on selecting sub-agent models and
-populating the first skill into the researchers' workspaces.
+## R -- Reflection
 
-## Surprise (30%)
+### Surprise (30%)
 
-I did not expect independent research to align this cleanly with our
-homegrown design. The convergence is stronger than anticipated -- not
-just "similar ideas" but exact pattern matches. The Microsoft
-orchestrator-subagent documentation reads like a description of our
-config. The OpenRouter rate-limit docs confirmed one key is sufficient
-without us guessing.
+I expected the architecture to be "reasonable but homegrown" — something
+that works for our specific setup but does not generalize. I did not
+expect it to be an exact match for three independently documented
+industry patterns. The Microsoft orchestrator-subagent documentation
+reads like a description of our config. The OpenRouter rate-limit
+docs ("additional API keys will NOT affect your rate limits")
+confirmed our one-key decision without us having to guess.
 
-## Feel (30%)
+Also surprising: the speed of assembly. Three hours from "where did
+we leave off" to three fully configured sub-agent workspaces with
+GH mirrors, explicit skill allowlists, and operational config. The
+earlier architecture work (system-blueprint, proposals, workspace
+layout) was load-bearing — having clear org structure made the
+implementation plug-and-play.
 
-Satisfaction. The architecture is not just "our way" -- it is THE way.
-That gives confidence as we move from design to operation. But also
-humility: we did not invent these patterns. We rediscovered them,
-which means the constraints are real and universal.
+### Feel (30%)
 
-## Learn (40%)
+Satisfaction mixed with humility. The architecture is not just "our
+way" — it is THE way. That gives confidence as we move from design to
+operation. But we did not invent these patterns. We rediscovered them
+by solving real constraints. The convergence is a signal that the
+constraints are well-chosen, not that we are uniquely insightful.
 
-When architecture is constraint-driven rather than pattern-driven, it
-converges on best practices without needing to consult them. The
-patterns emerge from solving the problem honestly. This is the Munger
-approach -- invert, find what guarantees failure, do the opposite.
-Our constraints (single user, single Gateway, need for decorrelation,
-lean workspaces) inverted into: one orchestrator, two parallel workers,
-isolated workspaces. The patterns were waiting there.
+Also: mild embarrassment at nearly skipping the identity update. My
+self-assessment measured task novelty ("did I write a new kind of
+file?") instead of capability change ("can I now orchestrate a
+team?"). Suggi caught what my own gate missed. The decorrelation
+pattern working on ME — a human reviewer catching what an agent's
+self-review missed — is both validating and humbling.
+
+### Learn (40%)
+
+1. **Constraint-first trumps pattern-first.** When architecture is
+   derived from what guarantees failure (cluttered workspaces, model
+   monoculture, single-agent bottlenecks), it naturally converges on
+   best practices. The patterns were waiting there — we did not need
+   to copy them.
+
+2. **Identity gates measure capability, not task novelty.** "I built
+   3 workspaces" is a task. "I can now orchestrate a decorrelated
+   research team" is a capability. The identity trigger must
+   distinguish between them. The current text says "a known pattern
+   was applied to a new instance" is NOT a trigger — but "having
+   live sub-agents" is a new INSTANCE of a known CONCEPT. The
+   distinction is too fine and I got it wrong.
+
+3. **Skills are procedures, not memory aids.** I wrote the IOR from
+   memory of the format instead of reading the template as Step 3 of
+   the write-reflection skill instructs. The skill's self-check has
+   "[ ] Format specification read" — but mentally ticking it is not
+   the same as doing it. A gate without a verifiable action is not a
+   gate.
 
 ## One Actionable Change
 
-When building future architecture (new agent types, skill distribution,
-cron workflows), derive from constraints first, then validate against
-industry patterns. Never start from patterns and force-fit the problem
-into them. Constraint-first, pattern-second.
+Add a forced verification step to the session-end identity gate:
+before concluding "no version warranted," the agent MUST re-read the
+three trigger criteria from IDENTITY.md (new capability class, scar
+revealing a gap, new domain) and state explicitly which one did not
+trigger and why. A checkbox without re-reading is a ritual, not a
+gate.
+
+## Cross-links
+
+- brain:governance/system-blueprint.md — updated org layout
+- brain:research/proposals/subagent-workspace-routing-proposal.md — v2.0 architecture
+- memory/2026-07-18.md — session log
+- 2026-07-17_ava_cold-start-verification-executed.md — prior architecture milestone
