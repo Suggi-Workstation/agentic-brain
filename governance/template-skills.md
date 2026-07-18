@@ -239,18 +239,16 @@ skill directory. Prefer absolute paths for workspace and system paths.
 For procedures with verification steps, include either an inline
 checklist or a reference to a checklist file:
 
-```markdown
 ## Self-Check
 
-[ ] Mirror sync verified (LOCAL = REMOTE)
-[ ] Workspace structure verified
-[ ] Context health checked
-[ ] Bootstrap ingested
-[ ] Governance ingested
-[ ] Memory index healthy
-[ ] memory_search run
-[ ] Read-proof emitted
-```
+- [ ] Mirror sync verified (LOCAL = REMOTE)
+- [ ] Workspace structure verified
+- [ ] Context health checked
+- [ ] Bootstrap ingested
+- [ ] Governance ingested
+- [ ] Memory index healthy
+- [ ] memory_search run
+- [ ] Read-proof emitted
 
 ### Cross-References
 
@@ -303,7 +301,6 @@ Every skill passes these checks before being committed:
 
 ## Example -- Minimal Valid Skill
 
-```markdown
 ---
 name: example-skill
 description: "Run a specific multi-step workflow with verification."
@@ -323,14 +320,13 @@ Invoked by AGENTS.md. Every step MUST pass. HALT on failure.
 
 ## Self-Check
 
-[ ] check.sh returned OK
-[ ] Output verified
+- [ ] check.sh returned OK
+- [ ] Output verified
 
 ## Related
 
 - AGENTS.md -- the gate instruction that triggers this skill
 - `governance/template-skills.md` -- skill construction rules
-```
 
 ## The Skill Checklist
 
@@ -338,20 +334,18 @@ Pre-commit gate: every item below MUST be confirmed. The skill
 MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published skill.
 
-```
-[ ] Frontmatter complete: name, description present; metadata.openclaw correct if used
-[ ] Frontmatter rules correct: name is kebab-case slug, description under 160 chars, quoted
-[ ] Description is a trigger surface (task-oriented instruction fragment)
-[ ] Skill has a constitutional trigger (AGENTS.md gate instruction or task-description match)
-[ ] Procedure steps are actionable (commands are copy-pasteable)
-[ ] Self-check exists if procedure has verification steps
-[ ] No duplicate governance content (references templates, does not inline them)
-[ ] Token budget: description under 160 chars, body lean
-[ ] {baseDir} used for internal references (not hardcoded relative paths)
-[ ] Folder name matches frontmatter name (or is clearly related)
-[ ] File is named SKILL.md (uppercase, as required)
-[ ] ASCII-only: zero non-ASCII characters in the file
-```
+- [ ] Frontmatter complete: name, description present; metadata.openclaw correct if used
+- [ ] Frontmatter rules correct: name is kebab-case slug, description under 160 chars, quoted
+- [ ] Description is a trigger surface (task-oriented instruction fragment)
+- [ ] Skill has a constitutional trigger (AGENTS.md gate instruction or task-description match)
+- [ ] Procedure steps are actionable (commands are copy-pasteable)
+- [ ] Self-check exists if procedure has verification steps
+- [ ] No duplicate governance content (references templates, does not inline them)
+- [ ] Token budget: description under 160 chars, body lean
+- [ ] {baseDir} used for internal references (not hardcoded relative paths)
+- [ ] Folder name matches frontmatter name (or is clearly related)
+- [ ] File is named SKILL.md (uppercase, as required)
+- [ ] ASCII-only: zero non-ASCII characters in the file
 
 ---
 
