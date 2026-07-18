@@ -136,3 +136,36 @@ gate.
 - brain:research/proposals/subagent-workspace-routing-proposal.md — v2.0 architecture
 - memory/2026-07-18.md — session log
 - 2026-07-17_ava_cold-start-verification-executed.md — prior architecture milestone
+
+## v2 -- 2026-07-18 -- Ava
+
+The "One Actionable Change" from v1 was implemented in the same
+session. Two structural gates were added to the skill files:
+
+**(Ava):** session-end/SKILL.md Step 5 now requires the agent to
+re-read the three identity trigger criteria from the file before
+concluding "no version warranted." The re-read "MUST be done from the
+file text, not from memory. Skipping this re-read = GATE FAILURE."
+The self-check was split from one binary item into three: re-read
+criteria, state which triggered, execute update or skip.
+
+**(Ava):** write-reflection/SKILL.md Step 3 now requires the agent
+to confirm three specific format rules (I/O/R headers, confidence
+level, S/F/L percentages) after reading the spec. "After reading,
+you MUST confirm these specific rules were verified... Skipping this
+verification = GATE FAILURE." The self-check item was upgraded from
+"format specification read" to "format specification read AND 3 key
+rules verified."
+
+Both fixes close the same scar class: a mental checkbox without a
+verifiable action is a ritual, not a gate. The word "MUST" and the
+phrase "GATE FAILURE" now appear in both files, making the gates
+unambiguous. This is R6 (Automation Over Rules) applied to R1 (Gate
+Definition — PASS or HALT, two outcomes only).
+
+## Version-History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-18 | Ava | Initial IOR: architecture validated against 3 industry patterns, root cause of identity/IOR failures identified. |
+| 2 | 2026-07-18 | Ava | Documented implementation of structural gates in session-end and write-reflection skills (MUST + GATE FAILURE wording). |
