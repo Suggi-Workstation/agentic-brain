@@ -6,8 +6,8 @@ trigger: milestone
 author: Ava
 tags: [architecture, multi-agent, subagents, decorrelation, validation]
 links:
-  - brain:governance/system-blueprint.md
-  - brain:research/proposals/subagent-workspace-routing-proposal.md
+  - governance/system-blueprint.md
+  - research/proposals/subagent-workspace-routing-proposal.md
 ---
 
 # Our Constraint-Driven Multi-Agent Architecture Independently Matches All Three Industry-Standard Patterns
