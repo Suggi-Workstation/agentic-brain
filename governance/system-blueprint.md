@@ -90,16 +90,17 @@ Lean workspace for independent deep-dive research. Runs on its own
 model (separate model family from Ava for decorrelation). Contains
 a minimal AGENTS.md, SOUL.md, research skills (loop-feynman,
 write-library, write-reflection), and daily memory logs. Output goes
-to the agentic-brain. Reserved for a future research agent.
+to the agentic-brain.
 
 ### #5 - workspace-researcher-2
 
 https://github.com/Suggi-Workstation/workspace-researcher-2 - *workspace for the second research agent.*
 
-Lean workspace for independent deep-dive research. Runs on a different
-model family from both Ava and Researcher-1 for three-way decorrelation.
-Same structure as Researcher-1: minimal bootstrap, research skills only,
-output to the agentic-brain. Reserved for a future research agent.
+Lean workspace for independent deep-dive research. Runs on its own
+model (separate model family from Ava for decorrelation). Contains
+a minimal AGENTS.md, SOUL.md, research skills (loop-feynman,
+write-library, write-reflection), and daily memory logs. Output goes
+to the agentic-brain.
 
 ### #6 - workspace-investor
 
@@ -108,8 +109,7 @@ https://github.com/Suggi-Workstation/workspace-investor - *workspace for the inv
 Lean workspace for investing research and analysis. Runs on its own
 model. Contains investing-specific skills and a minimal bootstrap.
 Output (company deep-dives, valuation models, portfolio analysis)
-goes to the agentic-brain under investing/. Reserved for a future
-investing agent.
+goes to the agentic-brain under investing/.
 
 ### #7 - archive
 https://github.com/Suggi-Workstation/archive - *the archive.*
