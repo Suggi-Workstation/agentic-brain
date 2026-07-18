@@ -76,7 +76,7 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 
 https://github.com/Suggi-Workstation/workspace-ava - *Ava's live workspace.*
 
-Mirrored 1:1 from the VPS. Contains core files (SOUL.md, AGENTS.md,
+Mirrored 1:1 from the VPS. Contains all core files (SOUL.md, AGENTS.md,
 MEMORY.md, IDENTITY.md, USER.md, TOOLS.md, HEARTBEAT.md), daily memory
 logs (memory/YYYY-MM-DD.md), ASCII infra, workspace skills, and canvas
 files. This is how Suggi sees Ava's live state at any moment. Ava is
@@ -86,30 +86,19 @@ the primary orchestrator agent -- the conductor and decorrelated reviewer.
 
 https://github.com/Suggi-Workstation/workspace-researcher-1 - *workspace for the first research agent.*
 
-Lean workspace for independent deep-dive research. Runs on its own
-model (separate model family from Ava for decorrelation). Contains
-a minimal AGENTS.md, SOUL.md, research skills (loop-feynman,
-write-library, write-reflection), and daily memory logs. Output goes
-to the agentic-brain.
+Lean workspace for independent deep-dive research. Runs on its own model.
 
 ### #5 - workspace-researcher-2
 
 https://github.com/Suggi-Workstation/workspace-researcher-2 - *workspace for the second research agent.*
 
-Lean workspace for independent deep-dive research. Runs on its own
-model (separate model family from Ava for decorrelation). Contains
-a minimal AGENTS.md, SOUL.md, research skills (loop-feynman,
-write-library, write-reflection), and daily memory logs. Output goes
-to the agentic-brain.
+Lean workspace for independent deep-dive research. Runs on its own model.
 
 ### #6 - workspace-investor
 
 https://github.com/Suggi-Workstation/workspace-investor - *workspace for the investing agent.*
 
-Lean workspace for investing research and analysis. Runs on its own
-model. Contains investing-specific skills and a minimal bootstrap.
-Output (company deep-dives, valuation models, portfolio analysis)
-goes to the agentic-brain under investing/.
+Lean workspace for investing research and analysis. Runs on its own model.
 
 ### #7 - archive
 https://github.com/Suggi-Workstation/archive - *the archive.*
