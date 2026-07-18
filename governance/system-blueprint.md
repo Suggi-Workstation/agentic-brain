@@ -46,6 +46,7 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 | `investing/indo-portfolio.md` | The Indonesia Portfolio. Only Suggi will keep it up to date. |
 | `investing/watchlist.md` | The watchlist. Potential candidate companies for the portfolios are kept here. |
 | `communications/` | The inter-agent communications are stored here. |
+
 ### library domains:
 
 - library/value-investing
@@ -72,15 +73,13 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 - library/coding-agentic-ai
 - library/technology
 - library/anthropology
+
 ### #3 - workspace-ava
 
 https://github.com/Suggi-Workstation/workspace-ava - *Ava's live workspace.*
 
-Mirrored 1:1 from the VPS. Contains all core files (SOUL.md, AGENTS.md,
-MEMORY.md, IDENTITY.md, USER.md, TOOLS.md, HEARTBEAT.md), daily memory
-logs (memory/YYYY-MM-DD.md), ASCII infra, workspace skills, and canvas
-files. This is how Suggi sees Ava's live state at any moment. Ava is
-the primary orchestrator agent -- the conductor and decorrelated reviewer.
+Mirrored 1:1 from the VPS. Contains all core files. Ava is
+the primary agent for Suggi.
 
 ### #4 - workspace-researcher-1
 
