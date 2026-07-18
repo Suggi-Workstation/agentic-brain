@@ -241,14 +241,14 @@ checklist or a reference to a checklist file:
 
 ## Self-Check
 
-- [ ] Mirror sync verified (LOCAL = REMOTE)
-- [ ] Workspace structure verified
-- [ ] Context health checked
-- [ ] Bootstrap ingested
-- [ ] Governance ingested
-- [ ] Memory index healthy
-- [ ] memory_search run
-- [ ] Read-proof emitted
+- [ ] Mirror sync verified (LOCAL = REMOTE)  (PASS / HALT)
+- [ ] Workspace structure verified  (PASS / HALT)
+- [ ] Context health checked  (PASS / HALT)
+- [ ] Bootstrap ingested  (PASS / HALT)
+- [ ] Governance ingested  (PASS / HALT)
+- [ ] Memory index healthy  (PASS / HALT)
+- [ ] memory_search run  (PASS / HALT)
+- [ ] Read-proof emitted  (PASS / HALT)
 
 ### Cross-References
 
@@ -320,8 +320,8 @@ Invoked by AGENTS.md. Every step MUST pass. HALT on failure.
 
 ## Self-Check
 
-- [ ] check.sh returned OK
-- [ ] Output verified
+- [ ] check.sh returned OK  (PASS / HALT)
+- [ ] Output verified  (PASS / HALT)
 
 ## Related
 
@@ -334,18 +334,18 @@ Pre-commit gate: every item below MUST be confirmed. The skill
 MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published skill.
 
-- [ ] Frontmatter complete: name, description present; metadata.openclaw correct if used
-- [ ] Frontmatter rules correct: name is kebab-case slug, description under 160 chars, quoted
-- [ ] Description is a trigger surface (task-oriented instruction fragment)
-- [ ] Skill has a constitutional trigger (AGENTS.md gate instruction or task-description match)
-- [ ] Procedure steps are actionable (commands are copy-pasteable)
-- [ ] Self-check exists if procedure has verification steps
-- [ ] No duplicate governance content (references templates, does not inline them)
-- [ ] Token budget: description under 160 chars, body lean
-- [ ] {baseDir} used for internal references (not hardcoded relative paths)
-- [ ] Folder name matches frontmatter name (or is clearly related)
-- [ ] File is named SKILL.md (uppercase, as required)
-- [ ] ASCII-only: zero non-ASCII characters in the file
+- [ ] Frontmatter complete: name, description present; metadata.openclaw correct if used  (PASS / HALT)
+- [ ] Frontmatter rules correct: name is kebab-case slug, description under 160 chars, quoted  (PASS / HALT)
+- [ ] Description is a trigger surface (task-oriented instruction fragment)  (PASS / HALT)
+- [ ] Skill has a constitutional trigger (AGENTS.md gate instruction or task-description match)  (PASS / HALT)
+- [ ] Procedure steps are actionable (commands are copy-pasteable)  (PASS / HALT)
+- [ ] Self-check exists if procedure has verification steps  (PASS / HALT)
+- [ ] No duplicate governance content (references templates, does not inline them)  (PASS / HALT)
+- [ ] Token budget: description under 160 chars, body lean  (PASS / HALT)
+- [ ] {baseDir} used for internal references (not hardcoded relative paths)  (PASS / HALT)
+- [ ] Folder name matches frontmatter name (or is clearly related)  (PASS / HALT)
+- [ ] File is named SKILL.md (uppercase, as required)  (PASS / HALT)
+- [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
 ---
 
