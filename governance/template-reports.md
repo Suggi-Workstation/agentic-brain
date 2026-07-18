@@ -39,7 +39,7 @@ id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use th
 tier: report                     # always report
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
-links: [<relative-brain-path>]   # paths relative to agentic-brain root
+links: [<brain:path/to/file.md>]   # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
 ---
 ```
 
@@ -52,9 +52,11 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 - `author` is who wrote the report (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
-- `links` are relative paths from the agentic-brain root. Include
-  links to the evaluations that reviewed this report. Do not use
-  absolute paths or file:// URIs.
+- `links` are paths relative to the agentic-brain root. Use `brain:`
+  prefix (e.g. `brain:governance/system-constitution.md`) for
+  cross-repo references. No prefix = same-repo link. Include links to
+  the evaluations that reviewed this report. Do not use absolute
+  paths or file:// URIs.
 
 ## Naming Convention
 

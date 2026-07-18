@@ -43,7 +43,7 @@ author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<tag>, <tag>]             # lowercase, 3-6 tags. Include type as a tag
                                  # (concept, person, company, book, framework,
                                  #  event, culture) plus topic tags
-links: [<relative-brain-path>]   # paths relative to agentic-brain root
+links: [<brain:path/to/file.md>]   # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
 ---
 ```
 
@@ -58,7 +58,9 @@ links: [<relative-brain-path>]   # paths relative to agentic-brain root
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry. Include the file's type as a tag
   (concept, person, company, book, framework, event, culture).
-- `links` are relative paths from the agentic-brain root. Do not use
+- `links` are paths relative to the agentic-brain root. Use `brain:`
+  prefix (e.g. `brain:governance/system-constitution.md`) for
+  cross-repo references. No prefix = same-repo link. Do not use
   absolute paths or file:// URIs.
 
 ## Naming Convention

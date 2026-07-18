@@ -40,7 +40,7 @@ id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. Use th
 tier: proposal               # always proposal
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
-links: [<relative-brain-path>]   # related governance, proposals, or IORs
+links: [<brain:path/to/file.md>]   # related governance, proposals, or IORs. Use `brain:` prefix for cross-repo references; omit for same-repo links.
 ---
 ```
 
@@ -53,9 +53,11 @@ links: [<relative-brain-path>]   # related governance, proposals, or IORs
 - `author` is who wrote the proposal (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
-- `links` are relative paths from the agentic-brain root. Link to
-  related governance files, IORs, or prior proposals. Do not use
-  absolute paths or file:// URIs.
+- `links` are paths relative to the agentic-brain root. Use `brain:`
+  prefix (e.g. `brain:governance/system-constitution.md`) for
+  cross-repo references. No prefix = same-repo link. Link to related
+  governance files, IORs, or prior proposals. Do not use absolute
+  paths or file:// URIs.
 
 ## Naming Convention
 

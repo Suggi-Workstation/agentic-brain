@@ -138,7 +138,7 @@ trigger: <what prompted this>    # session-end | error | surprise | milestone |
                                  # decision | research | insight | self-knowledge
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<topic>, <topic>]         # lowercase, specific
-links: [<brain/lib/file.md>]     # paths relative to brain root
+links: [<brain:path/to/file.md>]     # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
 ```
 
 ## Frontmatter Rules
@@ -152,8 +152,10 @@ links: [<brain/lib/file.md>]     # paths relative to brain root
 - `author` is who wrote the IOR (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces, and prefer existing tags
   from the brain's tag registry.
-- `links` are relative paths from the brain root. Do not use absolute
-  paths or file:// URIs.
+- `links` are paths relative to the agentic-brain root. Use `brain:`
+  prefix (e.g. `brain:governance/system-constitution.md`) for
+  cross-repo references. No prefix = same-repo link. Do not use
+  absolute paths or file:// URIs.
 
 Example: `2026-07-16_link_feynman-loop-v2.md`
 
@@ -253,7 +255,7 @@ tier: reflection
 trigger: insight
 author: Link
 tags: [feynman, quality, writing]
-links: [brain/library/self-improvement-learning/feynman_technique_teaching.md]
+links: [brain:library/self-improvement-learning/feynman_technique_teaching.md]
 ---
 
 # Blank Page Before Search -- Order Is the Active Ingredient
