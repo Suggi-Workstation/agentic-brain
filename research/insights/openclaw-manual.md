@@ -158,8 +158,8 @@ a stored override, sessions fall through to the config default.
 ### Web & Browser Tools
 | Tool | Purpose |
 |---|---|
-| `web_search` | Search the web (requires a configured search provider). |
-| `web_fetch` | Fetch a URL and extract readable markdown or plain text. |
+| `web_search` | Search the web. Our provider: `parallel-free` (Parallel Search MCP, key-free, zero-cost). Returns LLM-optimized dense excerpts (~2.2s). Use for broad research, current events, finding sources. |
+| `web_fetch` | Fetch a specific URL, extract readable markdown/text. Use for docs, articles, API references when you know the URL. Pair with web_search: search to find sources, fetch to read them. |
 | `browser` | Full browser automation: tabs, click, type, screenshot, snapshot. Supports login profiles for authenticated sessions. |
 
 ### Memory & Knowledge Tools
@@ -429,4 +429,12 @@ openclaw secrets audit       # scan for plaintext secrets
 *Written 2026-07-16 by link. Updated 2026-07-17 with heartbeat config,
 sub-agent bootstrap behavior, session management details, workspace
 conventions, slash command reference, thinking/reasoning resolution
-order, and sessions.json override pitfall.*
+order, and sessions.json override pitfall. Updated 2026-07-18 by ava:
+web_search provider (parallel-free), web_fetch usage guidance.*
+
+## Version History
+
+| Date | Version | Changes |
+|:--|:--|:--|
+| 2026-07-18 | v2026.7.1 | web_search switched from DuckDuckGo to Parallel Free (key-free, no rate-limit issues). web_fetch available for targeted URL reading. |
+| 2026-07-13 | v2026.7.1 | Major Control UI overhaul, GPT-5.6 support, expanded mobile apps, sessions improvements, usage tracking, model catalog updates. |
