@@ -202,7 +202,7 @@ a precision error, not a factual error.
 - `governance/template-reports.md`
 ```
 
-## The Evaluation Checklist
+## The Evaluation Checklist -- HARD GATE
 
 Pre-commit gate: every item below MUST be confirmed. The file
 MUST NOT be committed with any item unconfirmed. Do not include

@@ -239,7 +239,7 @@ skill directory. Prefer absolute paths for workspace and system paths.
 For procedures with verification steps, include either an inline
 checklist or a reference to a checklist file:
 
-## Self-Check
+## Self-Check -- HARD GATE
 
 - [ ] Mirror sync verified (LOCAL = REMOTE)  (PASS / HALT)
 - [ ] Workspace structure verified  (PASS / HALT)
@@ -318,7 +318,7 @@ Invoked by AGENTS.md. Every step MUST pass. HALT on failure.
 2. Verify output contains "OK".
 3. If "OK", proceed. If "FAIL", HALT and report.
 
-## Self-Check
+## Self-Check -- HARD GATE
 
 - [ ] check.sh returned OK  (PASS / HALT)
 - [ ] Output verified  (PASS / HALT)
@@ -328,7 +328,7 @@ Invoked by AGENTS.md. Every step MUST pass. HALT on failure.
 - AGENTS.md -- the gate instruction that triggers this skill
 - `governance/template-skills.md` -- skill construction rules
 
-## The Skill Checklist
+## The Skill Checklist -- HARD GATE
 
 Pre-commit gate: every item below MUST be confirmed. The skill
 MUST NOT be committed with any item unconfirmed. Do not include

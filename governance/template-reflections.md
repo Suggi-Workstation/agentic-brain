@@ -169,7 +169,7 @@ Files are named: `YYYY-MM-DD_author_slug.md`
 - `author` -- lowercase agent name
 - `slug` -- kebab-case title, max 60 chars, unique per author-date
 
-## Version-Update Self-Check
+## Version-Update Self-Check -- HARD GATE
 
 When updating an existing IOR (per the Versioning section below), use
 THIS checklist INSTEAD of the Pre-Commit Self-Check. The original id
@@ -315,7 +315,7 @@ the Feynman pass.
 - `brain/library/self-improvement-learning/feynman_technique_teaching.md`
 ```
 
-## Pre-Commit Self-Check
+## Pre-Commit Self-Check -- HARD GATE
 
 Pre-commit gate: every item below MUST be confirmed. The IOR
 MUST NOT be committed with any item unconfirmed. Do not include

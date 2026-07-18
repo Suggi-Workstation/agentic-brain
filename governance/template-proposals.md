@@ -186,7 +186,7 @@ update the core-files proposal index, and notify Suggi.
 - `research/proposals/ava-core-files-v1.md`
 ```
 
-## The Proposal Checklist
+## The Proposal Checklist -- HARD GATE
 
 Pre-commit gate: every item below MUST be confirmed. The file
 MUST NOT be committed with any item unconfirmed. Do not include

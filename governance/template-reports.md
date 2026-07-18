@@ -245,7 +245,7 @@ volitional -- self-close must be impossible by design.
 - `governance/template-reports.md`
 ```
 
-## The Report Checklist
+## The Report Checklist -- HARD GATE
 
 Pre-commit gate: every item below MUST be confirmed. The file
 MUST NOT be committed with any item unconfirmed. Do not include

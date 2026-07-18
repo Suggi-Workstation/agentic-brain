@@ -211,7 +211,7 @@ This insight would be invalidated if:
 - `research/insights/deepseekv4pro.md` -- related model-level insight
 ```
 
-## The Insight Checklist
+## The Insight Checklist -- HARD GATE
 
 Pre-commit gate: every item below MUST be confirmed. The file
 MUST NOT be committed with any item unconfirmed. Do not include

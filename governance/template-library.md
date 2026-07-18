@@ -226,7 +226,7 @@ quality compensates for estimation risk.
 ```
 
 
-## The Library Checklist
+## The Library Checklist -- HARD GATE
 
 Pre-commit gate: every item below MUST be confirmed. The file
 MUST NOT be committed with any item unconfirmed. Do not include
