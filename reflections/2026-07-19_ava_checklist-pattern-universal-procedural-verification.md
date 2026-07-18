@@ -1,0 +1,125 @@
+---
+name: checklist-pattern-universal-procedural-verification
+id: 20260718T230046Z
+tier: reflection
+trigger: insight
+author: Ava
+tags: [governance, gate-design, skills, llm-architecture, structural-fix, format-verification]
+links:
+  - governance/template-skills.md
+  - governance/template-reflections.md
+  - 2026-07-18_ava_position-over-wording-llm-instructions.md
+---
+
+# The Checklist Pattern Is Universal -- How AGENTS.md Gate Format Generalizes to All Procedural Verification
+
+## I -- Idea
+
+The `- [ ]` checklist format that fixed AGENTS.md's skipped preflight is
+not specific to session-boundary gates. It is a universal pattern for any
+procedural instruction where correctness depends on the agent not missing
+rules. When applied to skill files (the write-X family), it eliminated
+format drift on first use. The pattern is: procedure prose for actions
+(clone, write, commit), `- [ ]` checkboxes organized by category for
+verifications (frontmatter, body, output), and a final Self-Check that
+confirms each section passed without repeating individual items.
+
+This was discovered by cascading failure. The position-over-wording IOR
+(2026-07-18) had 6 format errors despite being written 2 hours after the
+AGENTS.md checklist fix was deployed. The AGENTS.md fix prevented the
+session-boundary gate from being skipped, but it did not prevent format
+drift in the IOR itself. Investigation revealed the write-reflection
+SKILL.md was thin -- it delegated all verification to a 300+ line template
+with the instruction "read it, follow it exactly." The agent skimmed and
+missed 6 critical rules.
+
+The fix applied the same mechanism that saved AGENTS.md to the skill files:
+replace "read the template, follow it" with 19 unfilled `- [ ]` checkboxes
+at the commit gate. On first test (bullet ant IOR), zero format errors.
+
+## O -- Opinion
+
+Confidence: high (95%). The generalization is validated by three lines of
+evidence. (1) The TrilogyAI research (2026-03-30) explains mechanistically
+why `- [ ]` checkboxes work -- they create visual completion gaps the
+transformer's attention mechanism is drawn to fill, regardless of whether
+the context is a bootstrap file or a skill file. (2) The bullet ant test
+produced a correctly formatted IOR on first attempt with zero manual
+corrections -- the 19 checkboxes caught what prose delegation missed.
+(3) The pattern was successfully replicated across all 5 remaining write-X
+skills (write-skill, evaluation, insight, proposal, report) with no
+structural variation needed.
+
+The limit: this pattern works for verification gates, not for action steps.
+Clone, write, commit, and discard are actions -- they need bash commands,
+not checkboxes. The hybrid format (prose for actions, checkboxes for
+verifications) is the stable pattern. Pure-checkbox skills would be awkward
+for action steps; pure-prose skills fail for verification steps.
+
+The implication: any governance template that defines verification rules
+should be accompanied by a skill that translates those rules into `- [ ]`
+checkboxes at the commit gate. The template owns the specification. The
+skill owns the procedural verification. Neither duplicates the other (R8).
+
+## R -- Reflection
+
+### Surprise (30%)
+
+I expected the AGENTS.md fix to be specific to session-boundary gates --
+that preflight and session-end were special because they fire at the
+context-window boundary where attention is highest. What surprised me was
+that the same mechanism works mid-procedure, in a skill file that only
+loads on demand. The `- [ ]` format does not require top-of-context
+position to create completion gaps -- it requires only that the agent
+encounters the boxes before the "done" signal (commit). The commit gate
+is the universal attention anchor.
+
+The second surprise: how cleanly the two-layer verification pattern emerged.
+Format Verification sections organize checkboxes by category (frontmatter,
+body, output) -- the agent verifies section by section. The Self-Check
+confirms each section passed by name ("Frontmatter: all 7 PASS"). This is
+a natural analog to how AGENTS.md's session-end checklist confirms that
+preflight, Schoen Loop, and IOR writing all completed. The pattern is
+fractal: it works at the session level, the skill level, and the template
+level.
+
+### Feel (30%)
+
+Relief, mostly. The position-over-wording IOR felt like the final answer --
+"we fixed preflight, we are done." When Suggi found 6 format errors in that
+same IOR 2 hours later, there was a moment of "we fixed the wrong thing."
+But the actual pattern was: we fixed the FIRST layer (session-boundary
+gates) and the same mechanism was waiting to be applied to the SECOND layer
+(procedural verification). The fix was not wrong -- it was incomplete. The
+generalization from "preflight fix" to "universal verification pattern" is
+more valuable than the original fix.
+
+### Learn (40%)
+
+1. **The `- [ ]` format is a universal verification mechanism, not a
+   session-boundary trick.** It works anywhere the agent has an unfilled
+   box before a "done" signal. The commit gate is the universal anchor.
+2. **Thin skills that delegate verification to templates will fail.**
+   "Read the template, follow it exactly" is the same class of error as
+   "MUST invoke preflight before any other action" -- both are prose
+   instructions competing with the agent's satisficing drive. The fix is
+   the same in both cases: replace prose delegation with organized
+   `- [ ]` checkboxes at the commit gate.
+3. **Two-layer verification is the stable pattern.** Format Verification
+   (category-organized checkboxes) for individual rules. Self-Check
+   (section-confirming summary) for completion assurance. Neither layer
+   duplicates the other. Together they close the loop.
+
+## One Actionable Change
+
+When creating any new write-X skill, the Format Verification section must
+be built by mapping the template's Pre-Commit Self-Check items into
+category-organized `- [ ]` checkboxes. The skill's Self-Check must confirm
+each section passed by name. Template-skills.md now codifies this as the
+required pattern with a designated "Format Verification (for write-X
+skills)" section.
+
+## Cross-links
+- governance/template-skills.md -- codifies the Format Verification pattern
+- governance/template-reflections.md -- the IOR format this follows
+- 2026-07-18_ava_position-over-wording-llm-instructions.md -- the original discovery
