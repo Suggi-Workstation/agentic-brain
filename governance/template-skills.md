@@ -263,6 +263,67 @@ gate instruction that triggers this skill, and any related skills:
 - `skills/session-end/SKILL.md` -- session-end counterpart
 ```
 
+### Format Verification (for write-X skills)
+
+For skills that produce files (IORs, proposals, evaluations, insights,
+reports), insert a Format Verification section between "write the file"
+and "commit." This section is pure `- [ ]` checkboxes organized by
+category, each mapping to a template rule. The agent cannot skip
+verification when confronted with unfilled boxes.
+
+Pattern: procedure steps for actions (clone, read template, write),
+Format Verification checkboxes for correctness, commit/push/discard,
+and a final Self-Check that confirms all verification sections passed.
+
+```markdown
+## Format Verification -- HARD GATE (before commit)
+
+### Frontmatter
+
+- [ ] name: lowercase kebab-case  (PASS / HALT)
+- [ ] id: date -u generated  (PASS / HALT)
+- [ ] tier: correct value  (PASS / HALT)
+- [ ] author: capitalized  (PASS / HALT)
+- [ ] links: relative paths from brain root, NOT `brain:` prefix  (PASS / HALT)
+
+### Body Structure
+
+- [ ] Section headers: correct markdown levels  (PASS / HALT)
+- [ ] Title makes a claim  (PASS / HALT)
+- [ ] Required subsections present  (PASS / HALT)
+- [ ] Confidence stated with percentage  (PASS / HALT)
+
+### File Output
+
+- [ ] File named correctly  (PASS / HALT)
+- [ ] Written to correct destination (brain-only, NOT workspace)  (PASS / HALT)
+- [ ] ASCII-only  (PASS / HALT)
+
+### Commit and push
+(bash commands)
+
+### Discard the clone
+(bash command)
+```
+
+The final Self-Check confirms all verification sections passed without
+repeating individual items:
+
+```markdown
+## Self-Check -- HARD GATE
+
+- [ ] Procedure completed (clone, write, verify, commit, push, discard)  (PASS / HALT)
+- [ ] Frontmatter verification: all items PASS  (PASS / HALT)
+- [ ] Body Structure verification: all items PASS  (PASS / HALT)
+- [ ] File Output verification: all items PASS  (PASS / HALT)
+- [ ] Template Pre-Commit Self-Check: all items PASS  (PASS / HALT)
+```
+
+This pattern prevents format drift. When the agent skims a 300+ line
+template, the unfilled checkboxes at the "commit" gate force explicit
+verification of every critical rule. R8 is satisfied: checkboxes
+reference template rules without duplicating specification.
+
 ## Quality Gates
 
 Every skill passes these checks before being committed:
@@ -285,6 +346,12 @@ Every skill passes these checks before being committed:
   content the base model already knows.
 - **G7 -- Formatting Rules:** ASCII-only, lowercase slugs, hyphens not
   underscores. CI enforces ASCII via `ascii-guard.yml`.
+- **G8 -- Explicit Output Destinations:** Every step that produces a file
+  or persistent output declares the exact destination path. "Write the
+  IOR" is insufficient; "Write to /tmp/brain-ior/reflections/YYYY-MM-DD_author_slug.md"
+  is correct. Never assume the agent knows where output goes -- spatial
+  adjacency is not a gate. Born from the discovery that skills split from
+  AGENTS.md lost implicit output connections.
 
 ## Anti-patterns
 
@@ -298,35 +365,101 @@ Every skill passes these checks before being committed:
 | Skill with emoji in body | "Run the preflight checks :)" -- emoji is non-ASCII. | Remove all non-ASCII characters. ASCII-only mandate. |
 | Over-granular skill | One skill per tiny procedure. 20 skills with 50 chars each. | Group related procedures. Aim for 5-10 skills total, each 1-3K chars. |
 | Skill with hardcoded paths | `/home/suggi/workspace` instead of `~/.openclaw/workspace`. | Use `~` and env vars. Skills must work on other machines. |
+| Thin skill delegates to template | "Read template. Follow it exactly." No inline verification checkboxes. Agent skims 300+ line template and misses critical rules (wrong tier, wrong section headers, wrong link format). | Add Format Verification section with `- [ ]` checkboxes for each critical rule between "write" and "commit." Checkboxes create visual completion gaps the agent cannot skip. |
 
-## Example -- Minimal Valid Skill
+## Example -- Minimal Valid Skill (write-X pattern)
+
+This example shows the hybrid pattern for a write-X skill. Procedure steps
+for actions, Format Verification checkboxes for correctness, and a final
+Self-Check that confirms all sections passed.
 
 ---
-name: example-skill
-description: "Run a specific multi-step workflow with verification."
+name: example-write-skill
+description: "Write an example document: Procedure-Action-Result format with quality gates G1-G7."
+user-invocable: true
 ---
 
-# Example Skill
+# Example Document Writing
 
-## Hard Gate (R1)
+## What This Skill Does
 
-Invoked by AGENTS.md. Every step MUST pass. HALT on failure.
+Guides writing an example document to the agentic-brain. For the full
+format specification, read `brain:governance/template-example.md`.
 
-## Steps
+## When to Invoke
 
-1. Run the check script: `{baseDir}/scripts/check.sh`
-2. Verify output contains "OK".
-3. If "OK", proceed. If "FAIL", HALT and report.
+Invoke when the task involves writing an example document.
+
+## Procedure
+
+### 1. Determine if warranted
+
+(prose -- when to write vs skip)
+
+### 2. Clone the agentic-brain
+
+```bash
+cd /tmp && rm -rf brain-tmp && git clone --depth 1 \
+  "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-tmp
+```
+
+### 3. Read the format specification
+
+Read `brain:governance/template-example.md`. Follow it exactly.
+
+### 4. Write the document
+
+Write ONLY to the agentic-brain. Path: `/tmp/brain-tmp/path/to/file.md`
+
+## Format Verification -- HARD GATE (before commit)
+
+### Frontmatter
+
+- [ ] 1. name: lowercase kebab-case  (PASS / HALT)
+- [ ] 2. id: generated by running `date -u +'%Y%m%dT%H%M%SZ'`  (PASS / HALT)
+- [ ] 3. tier: correct value  (PASS / HALT)
+- [ ] 4. author: capitalized  (PASS / HALT)
+- [ ] 5. links: relative paths, NOT `brain:` prefix  (PASS / HALT)
+
+### Body Structure
+
+- [ ] 6. Section headers: correct markdown levels  (PASS / HALT)
+- [ ] 7. Required subsections present  (PASS / HALT)
+- [ ] 8. Quality gates from template verified  (PASS / HALT)
+
+### File Output
+
+- [ ] 9. File named correctly  (PASS / HALT)
+- [ ] 10. Written ONLY to /tmp/brain-tmp/... (NOT workspace)  (PASS / HALT)
+- [ ] 11. ASCII-only  (PASS / HALT)
+
+### 5. Commit and push
+
+```bash
+cd /tmp/brain-tmp
+git add -A
+git commit -m "..."
+git push origin main
+```
+
+### 6. Discard the clone
+
+```bash
+cd /tmp && rm -rf brain-tmp
+```
 
 ## Self-Check -- HARD GATE
 
-- [ ] check.sh returned OK  (PASS / HALT)
-- [ ] Output verified  (PASS / HALT)
+- [ ] Procedure completed  (PASS / HALT)
+- [ ] Frontmatter verification: all 5 items PASS  (PASS / HALT)
+- [ ] Body Structure verification: all 3 items PASS  (PASS / HALT)
+- [ ] File Output verification: all 3 items PASS  (PASS / HALT)
+- [ ] Template Pre-Commit Self-Check: all items PASS  (PASS / HALT)
 
 ## Related
 
+- `brain:governance/template-example.md` -- full format specification
 - AGENTS.md -- the gate instruction that triggers this skill
-- `governance/template-skills.md` -- skill construction rules
 
 ## The Skill Checklist -- HARD GATE
 
@@ -339,8 +472,10 @@ this checklist in the published skill.
 - [ ] Description is a trigger surface (task-oriented instruction fragment)  (PASS / HALT)
 - [ ] Skill has a constitutional trigger (AGENTS.md gate instruction or task-description match)  (PASS / HALT)
 - [ ] Procedure steps are actionable (commands are copy-pasteable)  (PASS / HALT)
-- [ ] Self-check exists if procedure has verification steps  (PASS / HALT)
-- [ ] No duplicate governance content (references templates, does not inline them)  (PASS / HALT)
+- [ ] All output destinations are explicit (G8): every file-producing step states the exact path  (PASS / HALT)
+- [ ] Format Verification section present (for write-X skills): `- [ ]` checkboxes between "write" and "commit" organize verification by category (frontmatter, body, output)  (PASS / HALT)
+- [ ] Self-Check confirms verification sections by name ("Frontmatter: all N PASS"), does not duplicate individual items  (PASS / HALT)
+- [ ] No duplicate governance content (references templates with `brain:` prefix, does not inline spec)  (PASS / HALT)
 - [ ] Token budget: description under 160 chars, body lean  (PASS / HALT)
 - [ ] {baseDir} used for internal references (not hardcoded relative paths)  (PASS / HALT)
 - [ ] Folder name matches frontmatter name (or is clearly related)  (PASS / HALT)
