@@ -202,7 +202,7 @@ after the title, before any content section. See "## Example" section.
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 1 | YYYY-MM-DD | <Agent> | Initial IOR. |
+| 1 | YYYY-MM-DD | <Agent> | Initial reflection. |
 | 2 | YYYY-MM-DD | <Agent> | Updated reflection. |
 
 HALT - Add the version-history table ONLY if the file has been updated.
@@ -258,7 +258,7 @@ links:
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 1 | 2026-07-16 | Link | Initial IOR. |
+| 1 | 2026-07-16 | Link | Initial reflection. |
 | 2 | 2026-07-17 | Ava | Missing explanations. |
 
 ## I -- Idea
