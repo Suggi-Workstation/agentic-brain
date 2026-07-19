@@ -6,7 +6,7 @@ domain: portfolio-risk-management
 tags: [portfolio, risk-management, diversification, volatility, correlation, position-sizing]
 ---
 
-# portfolio-risk-management
+# Portfolio-risk-management
 
 ## Anchor
 

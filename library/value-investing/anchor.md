@@ -6,7 +6,7 @@ domain: value-investing
 tags: [value-investing, buffett, munger, graham, intrinsic-value, margin-of-safety]
 ---
 
-# value-investing
+# Value-investing
 
 ## Anchor
 

@@ -6,7 +6,7 @@ domain: self-improvement
 tags: [self-improvement, learning, productivity, habits, personal-growth]
 ---
 
-# self-improvement
+# Self-improvement
 
 ## Anchor
 

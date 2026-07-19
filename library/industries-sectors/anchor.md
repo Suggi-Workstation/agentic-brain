@@ -6,7 +6,7 @@ domain: industries-sectors
 tags: [industries, sectors, business, competitive-analysis, market-structure]
 ---
 
-# industries-sectors
+# Industries-sectors
 
 ## Anchor
 

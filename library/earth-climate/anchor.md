@@ -6,7 +6,7 @@ domain: earth-climate
 tags: [earth, climate, geology, environment, climate-change, sustainability]
 ---
 
-# earth-climate
+# Earth-climate
 
 ## Anchor
 

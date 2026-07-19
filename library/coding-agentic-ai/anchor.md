@@ -6,7 +6,7 @@ domain: coding-agentic-ai
 tags: [coding, agents, ai, llm, agent-architecture, prompts, skills]
 ---
 
-# coding-agentic-ai
+# Coding-agentic-ai
 
 ## Anchor
 

@@ -6,7 +6,7 @@ domain: anthropology
 tags: [anthropology, culture, human-societies, ethnography, history, civilization]
 ---
 
-# anthropology
+# Anthropology
 
 ## Anchor
 

@@ -2,7 +2,9 @@
 name: master-index
 id: 20260719T220915Z
 tier: library-meta
+author: Ava
 tags: [library, index, master-index]
+links: []
 ---
 
 # Library -- Master Index

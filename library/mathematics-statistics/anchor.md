@@ -6,7 +6,7 @@ domain: mathematics-statistics
 tags: [mathematics, statistics, probability, modeling, data-science]
 ---
 
-# mathematics-statistics
+# Mathematics-statistics
 
 ## Anchor
 

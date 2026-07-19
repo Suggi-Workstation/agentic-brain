@@ -6,7 +6,7 @@ domain: valuation-screening
 tags: [valuation, screening, dcf, multiples, intrinsic-value, quantitative-methods]
 ---
 
-# valuation-screening
+# Valuation-screening
 
 ## Anchor
 

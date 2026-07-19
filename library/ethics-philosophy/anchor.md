@@ -6,7 +6,7 @@ domain: ethics-philosophy
 tags: [ethics, philosophy, morality, epistemology, logic, stoicism]
 ---
 
-# ethics-philosophy
+# Ethics-philosophy
 
 ## Anchor
 

@@ -6,7 +6,7 @@ domain: notable-people
 tags: [notable-people, biographies, historical-figures, leaders, thinkers]
 ---
 
-# notable-people
+# Notable-people
 
 ## Anchor
 

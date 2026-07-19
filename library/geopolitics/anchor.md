@@ -6,7 +6,7 @@ domain: geopolitics
 tags: [geopolitics, international-relations, diplomacy, conflict, trade, strategy]
 ---
 
-# geopolitics
+# Geopolitics
 
 ## Anchor
 

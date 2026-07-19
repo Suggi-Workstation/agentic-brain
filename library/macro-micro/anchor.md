@@ -6,7 +6,7 @@ domain: macro-micro
 tags: [economics, macroeconomics, microeconomics, monetary-policy, fiscal-policy, supply-demand]
 ---
 
-# macro-micro
+# Macro-micro
 
 ## Anchor
 

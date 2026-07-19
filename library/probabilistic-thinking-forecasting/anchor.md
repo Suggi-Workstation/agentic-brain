@@ -6,7 +6,7 @@ domain: probabilistic-thinking-forecasting
 tags: [probability, forecasting, decision-making, superforecasting, uncertainty, bayesian]
 ---
 
-# probabilistic-thinking-forecasting
+# Probabilistic-thinking-forecasting
 
 ## Anchor
 

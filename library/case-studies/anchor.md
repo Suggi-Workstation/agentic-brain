@@ -6,7 +6,7 @@ domain: case-studies
 tags: [case-studies, history, events, analysis, business-cases, lessons-learned]
 ---
 
-# case-studies
+# Case-studies
 
 ## Anchor
 

@@ -6,7 +6,7 @@ domain: psychology-behavior
 tags: [psychology, behavior, cognitive-biases, behavioral-economics, decision-making]
 ---
 
-# psychology-behavior
+# Psychology-behavior
 
 ## Anchor
 

@@ -6,7 +6,7 @@ domain: technology
 tags: [technology, engineering, computing, ai, software, hardware]
 ---
 
-# technology
+# Technology
 
 ## Anchor
 

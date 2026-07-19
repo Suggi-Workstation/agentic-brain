@@ -6,7 +6,7 @@ domain: books
 tags: [books, literature, summaries, reviews, reading, knowledge]
 ---
 
-# books
+# Books
 
 ## Anchor
 

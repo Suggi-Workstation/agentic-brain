@@ -6,7 +6,7 @@ domain: law-regulation
 tags: [law, regulation, legal, legislation, compliance, jurisprudence]
 ---
 
-# law-regulation
+# Law-regulation
 
 ## Anchor
 

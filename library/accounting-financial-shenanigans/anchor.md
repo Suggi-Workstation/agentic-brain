@@ -6,7 +6,7 @@ domain: accounting-financial-shenanigans
 tags: [accounting, fraud, earnings-manipulation, forensic-accounting, shenanigans]
 ---
 
-# accounting-financial-shenanigans
+# Accounting-financial-shenanigans
 
 ## Anchor
 

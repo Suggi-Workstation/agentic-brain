@@ -6,7 +6,7 @@ domain: pop-culture
 tags: [pop-culture, entertainment, media, film, music, literature, cultural-analysis]
 ---
 
-# pop-culture
+# Pop-culture
 
 ## Anchor
 

@@ -6,7 +6,7 @@ domain: finance
 tags: [finance, corporate-finance, financial-statements, accounting, capital-markets, banking]
 ---
 
-# finance
+# Finance
 
 ## Anchor
 

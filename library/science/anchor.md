@@ -6,7 +6,7 @@ domain: science
 tags: [science, natural-sciences, physics, chemistry, biology, astronomy, earth-science]
 ---
 
-# science
+# Science
 
 ## Anchor
 

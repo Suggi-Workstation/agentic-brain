@@ -6,7 +6,7 @@ domain: investors
 tags: [investors, buffett, munger, graham, biographies, investment-approaches]
 ---
 
-# investors
+# Investors
 
 ## Anchor
 
