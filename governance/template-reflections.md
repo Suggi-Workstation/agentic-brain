@@ -183,7 +183,7 @@ MUST NOT be committed with any item unconfirmed.
 - [ ] Version block added beneath the last section: ## vN -- YYYY-MM-DD -- author  (PASS / HALT)
 - [ ] Version-history table at end of file: new row added (version, date, author, change)  (PASS / HALT)
 - [ ] Inline additions signed -- **(author):** -- when inserting into another author's sections  (PASS / HALT)
-- [ ] All 8 quality gates (G1-G8) re-verified against new content  (PASS / HALT)
+- [ ] All quality gates (G1-G8) re-verified against new content  (PASS / HALT)
 - [ ] Cross-links updated if new content adds references  (PASS / HALT)
 - [ ] ASCII-only verified for all new content  (PASS / HALT)
 
