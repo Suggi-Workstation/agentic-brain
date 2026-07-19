@@ -223,7 +223,7 @@ the agent derives the count live from the authoritative section.
 
 **Structural fixes deployed across 19 files:** preflight step 5
 (verifiable chain), preflight step 6 (filesystem-vs-index script),
-AGENTS.md (8→5 preflight, 12→7 session-end), preflight SKILL.md
+AGENTS.md (8->5 preflight, 12->7 session-end), preflight SKILL.md
 (procedure + self-check sync), session-end SKILL.md (R11 cleanup),
 10 workspace SKILL.mds (position optimization), 7 brain templates
 (position optimization), 6 write-X SKILL.mds (Self-Check R11 cleanup).
