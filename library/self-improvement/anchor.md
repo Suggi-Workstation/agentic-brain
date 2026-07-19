@@ -45,7 +45,3 @@ coaching industry critique.
 - **notable-people**: biographies of self-improvement figures
   belong there. Their distilled techniques belong here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies. Topic must
-be actionable, not purely theoretical.

@@ -42,6 +42,3 @@ investing (finance), crime as social phenomenon (anthropology).
   framework belongs here; market impact belongs there.
 - **geopolitics**: international law and treaties are bridge topics.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

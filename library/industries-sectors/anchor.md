@@ -46,8 +46,3 @@ strategy without industry context, industry fiction.
 - **finance**: financial metrics by industry belong there.
   Structural industry economics belong here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies. Topic must
-concern an industry or sector as a whole, not an individual
-company.

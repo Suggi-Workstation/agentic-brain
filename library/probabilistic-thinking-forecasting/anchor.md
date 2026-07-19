@@ -48,6 +48,3 @@ portfolios (portfolio-risk-management), political forecasting
   there. The mental models for thinking about uncertainty belong
   here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

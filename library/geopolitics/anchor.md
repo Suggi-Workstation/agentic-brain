@@ -44,6 +44,3 @@ geopolitical analysis (case-studies), travel writing.
 - **case-studies**: specific geopolitical events as case studies
   are bridge topics.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

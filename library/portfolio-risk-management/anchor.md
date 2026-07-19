@@ -47,6 +47,3 @@ as a business (finance), trading risk management (short-term).
 - **macro-micro**: macroeconomic risks belong there. How those
   risks affect portfolio construction belongs here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

@@ -45,8 +45,3 @@ perspective.
   Specific investment cases that illustrate principles are
   bridge topics.
 
-## Topic discovery
-
-Case studies must identify specific transferable lessons. A
-case without extractable principles is just a story. Minimum
-three lessons per case study.

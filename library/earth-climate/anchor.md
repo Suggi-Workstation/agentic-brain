@@ -44,6 +44,3 @@ geopolitics of climate (geopolitics).
 - **geopolitics**: climate diplomacy and resource conflicts
   belong there.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

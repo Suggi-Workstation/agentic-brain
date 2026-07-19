@@ -50,8 +50,3 @@ construction (portfolio-risk-management), fraud detection
 - **portfolio-risk-management**: portfolio construction belongs there.
   Individual security valuation belongs here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies. Topic must
-concern specific quantitative methods, not general investment
-advice.

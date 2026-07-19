@@ -46,6 +46,3 @@ studies).
 - **notable-people**: biographies of specific anthropologists
   belong there. Their findings and theories belong here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

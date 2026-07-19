@@ -46,6 +46,3 @@ agent design patterns (coding-agentic-ai).
 - **ethics-philosophy**: tech ethics and philosophy of AI belong
   there.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

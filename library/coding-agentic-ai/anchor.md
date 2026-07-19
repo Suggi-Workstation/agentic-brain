@@ -45,6 +45,3 @@ training (technology), AI ethics (ethics-philosophy), AI regulation
 - **self-improvement**: personal productivity with AI tools belongs
   there. Building AI tools for productivity belongs here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

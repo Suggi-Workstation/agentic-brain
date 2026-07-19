@@ -61,17 +61,3 @@ activism (earth-climate), mathematical proofs and formal logic
   Scientific discoveries and theories they produced belong here.
   Cross-reference both ways when a topic touches both.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies (core 0.4,
-scope 0.4, value 0.2). Topic must concern natural phenomena or
-scientific methodology. The auditor additionally checks for
-peer-reviewed source citations, redundancy against existing
-topics, and correct domain placement (not better suited to an
-adjacent domain).
-
-Example high-scoring topics: quantum entanglement, CRISPR gene
-editing, plate tectonics, stellar nucleosynthesis, the Krebs cycle.
-Example low-scoring topics: Elon Musk biography (notable-people),
-quantum computing (technology), climate activism (earth-climate),
-the ethics of nuclear research (ethics-philosophy).

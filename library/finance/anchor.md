@@ -52,8 +52,3 @@ macroeconomic theory (macro-micro), behavioral biases in markets
 - **investors**: specific investor strategies belong there. Financial
   market context they operated in belongs here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies (core 0.4,
-scope 0.4, value 0.2). Verify topic is about financial mechanics,
-not investment philosophy.

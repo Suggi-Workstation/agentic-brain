@@ -47,6 +47,3 @@ ideology without philosophical foundation, motivational content.
   Scientific findings belong there; philosophical interpretation
   belongs here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

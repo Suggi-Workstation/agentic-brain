@@ -45,7 +45,3 @@ creation tips, book summaries (books), biographies of artists
 - **psychology-behavior**: psychological analysis of media
   effects is a bridge topic.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies. Topic must
-analyze cultural significance, not review quality.

@@ -47,6 +47,3 @@ strategy (industries-sectors), economic history narratives
 - **industries-sectors**: industry-specific economics belongs there.
   General economic principles belong here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

@@ -44,10 +44,3 @@ consumer advice, reading lists without analysis.
 - **notable-people**: author biographies belong there. Book
   content belongs here.
 
-## Topic discovery
-
-Books are discovered differently from topic entries. The
-discovery process identifies influential books within each
-domain and proposes them for summarization. A book qualifies
-if it has lasting influence, contains original ideas, and
-its insights are not already captured in existing topic files.

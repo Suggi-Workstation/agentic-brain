@@ -43,8 +43,3 @@ assessment, celebrity gossip.
   domain are referenced in that domain's topic file. The
   biography here is about the PERSON, not the field.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies. Subject
-must have verifiable historical significance. Cross-reference
-with the relevant domain's topic files.

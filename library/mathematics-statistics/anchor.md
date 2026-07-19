@@ -43,7 +43,3 @@ statistics (science), psychological statistics (psychology-behavior).
 - **technology**: applied ML and AI belong there. Foundational
   mathematics of ML belongs here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies. Topic must
-concern mathematical or statistical theory, not application.

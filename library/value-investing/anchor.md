@@ -62,12 +62,3 @@ sectors), tax optimization strategies, retirement planning.
   general belong there. The specific biases that value investors
   exploit (Mr. Market, loss aversion) are bridge topics.
 
-## Topic discovery
-
-The writer must verify:
-1. Topic concerns value investing philosophy, principles, or
-   methodology (core match -- weight 0.4).
-2. Topic does not drift into adjacent domain territory (scope fit
-   -- weight 0.4). Check each adjacent domain boundary above.
-3. Topic compounds with existing brain knowledge about value
-   investing (knowledge value -- weight 0.2).

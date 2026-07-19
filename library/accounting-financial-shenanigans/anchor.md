@@ -45,6 +45,3 @@ statements, tax fraud, money laundering, audit procedures.
 - **law-regulation**: securities fraud prosecution belongs there.
   Detection methodology belongs here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.

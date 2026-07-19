@@ -52,8 +52,3 @@ psychology (psychology-behavior).
   topics. If focused on the investor's decision process, here.
   If focused on the business outcome, there.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies. Additional
-check: does this topic focus on the PERSON and their PROCESS,
-not just the abstract principles they represent?

@@ -48,6 +48,3 @@ of mind (ethics-philosophy), self-help without evidence base
 - **ethics-philosophy**: philosophy of mind and consciousness
   belong there. Empirical psychology belongs here.
 
-## Topic discovery
-
-Standard three-dimensional weighted scoring applies.
