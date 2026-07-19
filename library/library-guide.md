@@ -29,9 +29,10 @@ snapshots below during each audit cycle.
 
 ```
 library/
-  anchor-index.md              # this file
+  library-guide.md             # this file (rules, weights, pipeline)
+  index-library.md             # master index (regenerated from filesystem)
   <domain>/                    # one folder per knowledge domain
-    anchor.md                  # domain anchor (scope, adjacent domains, discovery rules)
+    anchor.md                  # domain anchor (scope, adjacent domains)
     <topic-slug>.md            # individual topic files
     ...
 ```
@@ -164,6 +165,6 @@ The anchor paragraph is the most important part. It must be:
 
 ## Index
 
-The master index lives in `master-index.md` -- a separate file to
+The master index lives in `index-library.md` -- a separate file to
 keep the index lean for agents reading it during operations. The
 audit process regenerates the index snapshot from the live filesystem.
