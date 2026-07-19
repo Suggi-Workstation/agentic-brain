@@ -219,7 +219,8 @@ core lesson, overlapping conclusions), do NOT create a new file. Instead:
    existing IOR with the new/changed insight.
 2. Sign added content inline with `**(author):**` when inserting into
    another author's sections.
-3. Add a `version-history` table at the end.
+3. Add a `version-history` table at the top (after title) when the
+   file has version updates; omit for single-version files.
 
 ## Quality Gates
 
