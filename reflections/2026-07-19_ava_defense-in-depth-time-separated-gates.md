@@ -107,11 +107,6 @@ depth pair. This principle is now codified in the session-end protocol
 (step 6: Reindex Memory) and the preflight protocol (step 6: Verify
 Memory Index).
 
-## Version History
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-19 | Ava | Initial IOR -- defense-in-depth through time-separated gates. |
 
 ## Cross-links
 - research/insights/stale-index-problem.md -- the problem this architecture solves
