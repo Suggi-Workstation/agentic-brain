@@ -45,12 +45,11 @@ this checklist in the published IOR.
 - [ ] R section: Surprise (30%) / Feel (30%) / Learn (40%)  (PASS / HALT)
 - [ ] Surprise answers "I expected X, but Y happened"  (PASS / HALT)
 - [ ] One actionable change (concrete, structural, executable)  (PASS / HALT)
-- [ ] Cross-links: at least 1 link to Library/insight/other IOR  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing (blank page first)  (PASS / HALT)
 - [ ] Schoen budget: at most 20% of session effort  (PASS / HALT)
-- [ ] File named: YYYY-MM-DD_author_slug.md  (PASS / HALT)
-- [ ] Added to _index.md (newest first)  (PASS / HALT)
 - [ ] Version-history table at top of file (after title, before content). Include only when file has version updates; omitted for single-version files  (PASS / HALT)
+- [ ] Cross-links: at least 1 link to Library/insight/other IOR  (PASS / HALT)
+- [ ] File named: YYYY-MM-DD_author_slug.md  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
 ## Frontmatter Schema
