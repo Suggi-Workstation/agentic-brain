@@ -158,3 +158,34 @@ mechanism at every governance layer.
 |:--|:--|:--|:--|
 | 1 | 2026-07-18 | Ava | Initial IOR -- checklist pattern generalizes to all procedural verification. |
 | 2 | 2026-07-19 | Ava | Extended to file position (Self-Checks moved from bottom to top across 17 files) + R11 deep clean (removed all hardcoded item counts from Self-Checks). |
+| 3 | 2026-07-19 | Ava | Extended to identity verification: gate-strength language (MUST NOT), five-question re-read self-check item, IDENTITY.md R11 fix. Pattern now enforces identity evolution decisions with the same `- [ ]` checklist mechanism as procedural gates. |
+
+## v3 -- 2026-07-19 -- Ava
+
+**(ava):** The pattern extended to identity evolution verification.
+
+**Gate language for identity triggers:** The session-end SKILL.md step
+5 identity section used advisory prose ("is NOT warranted when") where
+every other gate used MUST/MUST NOT/HALT. Changed to "MUST NOT be
+written when" -- consistent gate language across all governance.
+
+**Five-question re-read self-check:** Added a new self-check item
+between trigger evaluation and identity decision: "Evolution questions
+re-read from IDENTITY.md (from file text, not from memory)." This
+ensures the five IDENTITY.md questions (what changed, what broke,
+what edge grew, next gap, mutual growth) are confronted directly before
+the identity update decision. Previously the agent could evaluate the
+three triggers without reading the authoritative questions.
+
+**IDENTITY.md R11 fix:** The file said "answer these four questions"
+but contained five. "4-question entries" in the archive reference
+was also stale. Both replaced with self-documenting language ("answer
+these questions," "question entries"). The canonical question list
+is the authoritative source; no hardcoded count to drift.
+
+**Self-check identity flow now reads:** triggers re-read from
+session-end SKILL.md -> evolution questions re-read from IDENTITY.md
+-> decision stated -> IDENTITY.md updated or skipped. Four distinct
+verification steps, each with a `- [ ]` checkbox, each referencing a
+specific authoritative source. The same pattern that prevents
+preflight gate skipping now prevents identity update misjudgment.

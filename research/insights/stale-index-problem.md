@@ -179,6 +179,7 @@ This insight would be invalidated if:
 |:--|:--|:--|:--|
 | 1 | 2026-07-19 | Ava | Initial insight from 14/16 preflight index gap. |
 | 2 | 2026-07-19 | Ava | Principle validated through propagation to governance ingestion (step 5), R8 checklist duplication, and R11 hardcoded counts. All three followed the same threshold-vs-consistency failure class. Structural fixes deployed across 19 files. |
+| 3 | 2026-07-19 | Ava | Propagation from detection to prevention: session-end memory reindex gate added (defense-in-depth). Identity R11 clean extended to IDENTITY.md. Principle now covers write-time indexing, not just read-time verification. |
 
 ## Cross-Links
 
@@ -234,3 +235,38 @@ ingestion, checklist duplication across files, and hardcoded
 procedural counts within files. The same fix pattern -- replace
 threshold conditions with consistency checks, derive counts live,
 single source of truth -- worked in every case.
+
+## v3 -- 2026-07-19 -- Ava
+
+**(ava):** The lesson propagated from detection to prevention.
+
+**Defense-in-depth architecture:** A session-end memory reindex gate
+was added between identity reflection and gate rules verification.
+After all session-end writes (daily memory, identity archives), the
+gate forces `openclaw memory index --force` and verifies consistency
+with the same filesystem-vs-index script used at preflight step 6.
+HALT until counts match exactly.
+
+This closes the gap between write time and read time. Previously,
+the preflight check was the only indexing gate -- reactive, firing at
+session START. A stale index could accumulate silently between
+sessions. Now the session-end gate is proactive, firing at write time.
+If the session-end reindex fails, the preflight gate catches it at
+the next session start. Two independent gates at two time points.
+
+The industry research validates this: Unstructured.io (2026)
+recommends separating offline indexing (data preparation) from
+online retrieval (query answering). Databricks (2024) notes that
+"ingestion is not a one-off process." Meilisearch (2025): "if a
+human wants the new information reflected in the answers, the index
+should be updated." Our architecture now reflects this: session-end
+is the offline indexing phase, preflight is the online verification.
+
+**Identity R11 clean extended:** The same session uncovered hardcoded
+counts in the identity evaluation section of session-end SKILL.md
+("three trigger criteria," "five evolution questions") and in
+IDENTITY.md itself ("four questions" -- but 5 exist). All replaced
+with self-documenting references: "the trigger criteria above,"
+"the evolution questions from IDENTITY.md," "answer these questions."
+The principle extends to the identity system: no hardcoded counts
+in any governance file.
