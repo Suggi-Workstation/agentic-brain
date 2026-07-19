@@ -44,6 +44,7 @@ this checklist in the published file.
 - [ ] Solution: concrete steps, another agent could implement from description  (PASS / HALT)
 - [ ] Impact: positive + risk + cost, at least one sentence each  (PASS / HALT)
 - [ ] Open questions: all uncertainties written down, nothing implied  (PASS / HALT)
+- [ ] Version-history table at top of file (after title, before content). Include only when file has version updates; omitted for single-version files  (PASS / HALT)
 - [ ] Cross-links: at least 1 link to triggering IOR/evaluation/governance file  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
@@ -124,6 +125,22 @@ Files are named: `<short-slug>.md`
 - Explicitly state: "If approved, I will [specific action]."
 - Do not assume approval implies anything beyond what is written.
 
+## Version History
+*Has this insight evolved?*
+
+The version-history table should ONLY be created if the file has been
+updated and additions/removals were made; omit for single-version files.
+
+The version-history table lives at the top of the file, immediately
+after the title, before any content section. See "## Example" section.
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | YYYY-MM-DD | <Agent> | Initial insight. |
+| 2 | YYYY-MM-DD | <Agent> | Initial insight. |
+
+HALT - Add the version-history table ONLY if the file has been updated.
+
 ## Cross-Links
 
 Link to:
@@ -170,6 +187,13 @@ links:
 ---
 
 # Add HEARTBEAT.md to Ava Core File Set
+
+## Version History (only when file has version updates)
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-06-14 | Suggi | Initial Proposal from WO-1 through WO-8 findings. |
+| 2 | 2026-06-17 | Ava | Added extra explanations. |
 
 ## Problem
 The proposed core file set for Ava (v1.1) includes 7 files but omits
