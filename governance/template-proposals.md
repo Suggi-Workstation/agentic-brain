@@ -178,8 +178,8 @@ Every proposal passes these checks before submission:
 name: add-core-heartbeat-file
 id: 20260716T140000Z
 tier: proposal
-tags: [heartbeat, bootstrap, core-files, token-budget]
 author: Ava
+tags: [heartbeat, bootstrap, core-files, token-budget]
 links:
   - governance/system-blueprint.md
   - governance/template-reflections.md
