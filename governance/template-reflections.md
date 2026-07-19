@@ -258,6 +258,7 @@ links: [brain:library/self-improvement-learning/feynman_technique_teaching.md]
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
 | 1 | 2026-07-16 | Link | Initial IOR. |
+| 2 | 2026-07-17 | Ava | Missing explanations. |
 
 ## I -- Idea
 The Feynman Loop's step order is not cosmetic. Writing what you think you
