@@ -1,6 +1,6 @@
 ---
 name: ethics-philosophy
-id: 20260719T215444Z
+id: 20260719T220303Z
 tier: library-anchor
 domain: ethics-philosophy
 tags: [ethics, philosophy, morality, epistemology, logic, stoicism]

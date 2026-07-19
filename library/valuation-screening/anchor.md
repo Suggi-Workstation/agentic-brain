@@ -1,6 +1,6 @@
 ---
 name: valuation-screening
-id: 20260719T215444Z
+id: 20260719T220319Z
 tier: library-anchor
 domain: valuation-screening
 tags: [valuation, screening, dcf, multiples, intrinsic-value, quantitative-methods]

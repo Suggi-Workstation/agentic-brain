@@ -1,6 +1,6 @@
 ---
 name: coding-agentic-ai
-id: 20260719T215444Z
+id: 20260719T220301Z
 tier: library-anchor
 domain: coding-agentic-ai
 tags: [coding, agents, ai, llm, agent-architecture, prompts, skills]

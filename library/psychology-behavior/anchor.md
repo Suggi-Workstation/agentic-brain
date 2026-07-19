@@ -1,6 +1,6 @@
 ---
 name: psychology-behavior
-id: 20260719T215444Z
+id: 20260719T220315Z
 tier: library-anchor
 domain: psychology-behavior
 tags: [psychology, behavior, cognitive-biases, behavioral-economics, decision-making]

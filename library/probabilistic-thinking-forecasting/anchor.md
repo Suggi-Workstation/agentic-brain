@@ -1,6 +1,6 @@
 ---
 name: probabilistic-thinking-forecasting
-id: 20260719T215444Z
+id: 20260719T220314Z
 tier: library-anchor
 domain: probabilistic-thinking-forecasting
 tags: [probability, forecasting, decision-making, superforecasting, uncertainty, bayesian]

@@ -1,6 +1,6 @@
 ---
 name: pop-culture
-id: 20260719T215444Z
+id: 20260719T220312Z
 tier: library-anchor
 domain: pop-culture
 tags: [pop-culture, entertainment, media, film, music, literature, cultural-analysis]

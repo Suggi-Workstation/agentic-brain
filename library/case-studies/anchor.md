@@ -1,6 +1,6 @@
 ---
 name: case-studies
-id: 20260719T215444Z
+id: 20260719T220300Z
 tier: library-anchor
 domain: case-studies
 tags: [case-studies, history, events, analysis, business-cases, lessons-learned]

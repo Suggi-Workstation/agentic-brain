@@ -1,6 +1,6 @@
 ---
 name: geopolitics
-id: 20260719T215444Z
+id: 20260719T220305Z
 tier: library-anchor
 domain: geopolitics
 tags: [geopolitics, international-relations, diplomacy, conflict, trade, strategy]

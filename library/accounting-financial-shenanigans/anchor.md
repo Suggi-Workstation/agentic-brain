@@ -1,6 +1,6 @@
 ---
 name: accounting-financial-shenanigans
-id: 20260719T215444Z
+id: 20260719T220257Z
 tier: library-anchor
 domain: accounting-financial-shenanigans
 tags: [accounting, fraud, earnings-manipulation, forensic-accounting, shenanigans]

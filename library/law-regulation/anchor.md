@@ -1,6 +1,6 @@
 ---
 name: law-regulation
-id: 20260719T215444Z
+id: 20260719T220308Z
 tier: library-anchor
 domain: law-regulation
 tags: [law, regulation, legal, legislation, compliance, jurisprudence]

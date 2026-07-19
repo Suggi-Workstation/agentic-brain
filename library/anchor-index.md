@@ -1,6 +1,6 @@
 ---
 name: anchor-index
-id: 20260719T214241Z
+id: 20260719T220256Z
 tier: library-meta
 author: Ava
 tags: [library, anchor, index, pipeline, weights]

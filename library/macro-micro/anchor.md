@@ -1,6 +1,6 @@
 ---
 name: macro-micro
-id: 20260719T215444Z
+id: 20260719T220309Z
 tier: library-anchor
 domain: macro-micro
 tags: [economics, macroeconomics, microeconomics, monetary-policy, fiscal-policy, supply-demand]

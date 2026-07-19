@@ -1,6 +1,6 @@
 ---
 name: self-improvement
-id: 20260719T215444Z
+id: 20260719T220317Z
 tier: library-anchor
 domain: self-improvement
 tags: [self-improvement, learning, productivity, habits, personal-growth]

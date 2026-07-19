@@ -1,6 +1,6 @@
 ---
 name: industries-sectors
-id: 20260719T215444Z
+id: 20260719T220306Z
 tier: library-anchor
 domain: industries-sectors
 tags: [industries, sectors, business, competitive-analysis, market-structure]

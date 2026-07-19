@@ -1,6 +1,6 @@
 ---
 name: investors
-id: 20260719T215444Z
+id: 20260719T220307Z
 tier: library-anchor
 domain: investors
 tags: [investors, buffett, munger, graham, biographies, investment-approaches]

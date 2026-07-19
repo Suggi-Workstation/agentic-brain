@@ -1,6 +1,6 @@
 ---
 name: science
-id: 20260719T214319Z
+id: 20260719T220316Z
 tier: library-anchor
 domain: science
 tags: [science, natural-sciences, physics, chemistry, biology, astronomy, earth-science]
@@ -63,22 +63,12 @@ activism (earth-climate), mathematical proofs and formal logic
 
 ## Topic discovery
 
-When evaluating candidate topics, the writer must verify:
-
-1. The topic concerns natural phenomena or scientific methodology
-   (core match -- weight 0.4).
-2. The topic does not drift into adjacent domain territory (scope
-   fit -- weight 0.4). Check each adjacent domain boundary above.
-3. The topic compounds with existing science knowledge in the brain
-   (knowledge value -- weight 0.2).
-
-The auditor additionally checks:
-4. Does the written topic cite peer-reviewed sources? Are claims
-   backed by specific references?
-5. Does any existing topic cover the same ground? Redundancy check
-   via semantic similarity against all topics in this domain.
-6. Would this topic fit better in an adjacent domain? If yes, flag
-   for relocation.
+Standard three-dimensional weighted scoring applies (core 0.4,
+scope 0.4, value 0.2). Topic must concern natural phenomena or
+scientific methodology. The auditor additionally checks for
+peer-reviewed source citations, redundancy against existing
+topics, and correct domain placement (not better suited to an
+adjacent domain).
 
 Example high-scoring topics: quantum entanglement, CRISPR gene
 editing, plate tectonics, stellar nucleosynthesis, the Krebs cycle.

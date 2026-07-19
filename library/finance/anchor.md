@@ -1,6 +1,6 @@
 ---
 name: finance
-id: 20260719T215444Z
+id: 20260719T220304Z
 tier: library-anchor
 domain: finance
 tags: [finance, corporate-finance, financial-statements, accounting, capital-markets, banking]

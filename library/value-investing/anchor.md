@@ -1,6 +1,6 @@
 ---
 name: value-investing
-id: 20260719T215444Z
+id: 20260719T220320Z
 tier: library-anchor
 domain: value-investing
 tags: [value-investing, buffett, munger, graham, intrinsic-value, margin-of-safety]

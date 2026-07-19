@@ -1,6 +1,6 @@
 ---
 name: anthropology
-id: 20260719T215444Z
+id: 20260719T220258Z
 tier: library-anchor
 domain: anthropology
 tags: [anthropology, culture, human-societies, ethnography, history, civilization]

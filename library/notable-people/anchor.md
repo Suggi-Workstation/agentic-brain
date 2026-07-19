@@ -1,6 +1,6 @@
 ---
 name: notable-people
-id: 20260719T215444Z
+id: 20260719T220311Z
 tier: library-anchor
 domain: notable-people
 tags: [notable-people, biographies, historical-figures, leaders, thinkers]

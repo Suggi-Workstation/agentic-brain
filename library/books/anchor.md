@@ -1,6 +1,6 @@
 ---
 name: books
-id: 20260719T215444Z
+id: 20260719T220259Z
 tier: library-anchor
 domain: books
 tags: [books, literature, summaries, reviews, reading, knowledge]
