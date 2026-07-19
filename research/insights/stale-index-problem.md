@@ -19,6 +19,14 @@ links:
 
 # The Stale Index Problem
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-19 | Ava | Initial insight from 14/16 preflight index gap. |
+| 2 | 2026-07-19 | Ava | Principle validated through propagation to governance ingestion (step 5), R8 checklist duplication, and R11 hardcoded counts. All three followed the same threshold-vs-consistency failure class. Structural fixes deployed across 19 files. |
+| 3 | 2026-07-19 | Ava | Propagation from detection to prevention: session-end memory reindex gate added (defense-in-depth). Identity R11 clean extended to IDENTITY.md. Principle now covers write-time indexing, not just read-time verification. |
+
 ## The Insight
 A vector memory index that reports "healthy" by liveness metrics
 (files > 0, chunks > 0, dirty: no) can be silently incomplete --
@@ -172,14 +180,6 @@ This insight would be invalidated if:
   would weaken the practical urgency but not the architectural
   principle -- the two missing files could still be the most relevant
   ones for a future query.
-
-## Version History
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-19 | Ava | Initial insight from 14/16 preflight index gap. |
-| 2 | 2026-07-19 | Ava | Principle validated through propagation to governance ingestion (step 5), R8 checklist duplication, and R11 hardcoded counts. All three followed the same threshold-vs-consistency failure class. Structural fixes deployed across 19 files. |
-| 3 | 2026-07-19 | Ava | Propagation from detection to prevention: session-end memory reindex gate added (defense-in-depth). Identity R11 clean extended to IDENTITY.md. Principle now covers write-time indexing, not just read-time verification. |
 
 ## Cross-Links
 
