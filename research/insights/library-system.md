@@ -88,7 +88,7 @@ cycle) + read-time verification (any process can run `ls` to verify).
 The system was designed against current best practices research
 conducted on 2026-07-19:
 
-**Pipeline pattern validated.** The writer → auditor sequential
+**Pipeline pattern validated.** The writer -> auditor sequential
 pipeline maps to Pattern #1 (Sequential Pipeline) in multi-agent
 architecture -- the most common, most debuggable, and most
 production-ready pattern across LangGraph, CrewAI, and AutoGen
@@ -97,8 +97,8 @@ in enterprise knowledge base population workflows (MITRE KBP, 2024).
 
 **Decorrelated review validated.** Independent model review is the
 core principle behind the Reviewer Pattern (Elegant Software Solutions,
-2026) and Knowrite's multi-agent novel writing engine (Writer →
-Editor → Reviewer, 2026). Both systems report significantly higher
+2026) and Knowrite's multi-agent novel writing engine (Writer ->
+Editor -> Reviewer, 2026). Both systems report significantly higher
 error catch rates with decorrelated review than with self-review.
 Our prior IOR "verification-is-the-bottleneck" independently confirms
 this from 8 work orders across 2 model families.
