@@ -192,35 +192,21 @@ The Schoen Loop is reflection-on-action at session scope.
 - Stop at second-order. Reflecting on a reflection beyond two layers is
   rumination, not learning.
 
-## Version-Update Self-Check -- HARD GATE
+## Version History
+*Has this insight evolved?*
 
-When updating an existing IOR (per the Versioning section below), use
-THIS checklist INSTEAD of the Pre-Commit Self-Check. The original id
-and filename MUST NOT change.
+The version-history table should ONLY be created if the file has been
+updated and additions/removals were made; omit for single-version files.
 
-Pre-commit gate: every item below MUST be confirmed. The IOR
-MUST NOT be committed with any item unconfirmed.
+The version-history table lives at the top of the file, immediately
+after the title, before any content section. See "## Example" section.
 
-- [ ] Original id preserved (never changed after publishing)  (PASS / HALT)
-- [ ] Original filename preserved (cross-links depend on stable paths)  (PASS / HALT)
-- [ ] Version block added beneath the last section: ## vN -- YYYY-MM-DD -- author  (PASS / HALT)
-- [ ] Version-history table at top of file (after title, before content sections): new row added (version, date, author, change)  (PASS / HALT)
-- [ ] Inline additions signed -- **(author):** -- when inserting into another author's sections  (PASS / HALT)
-- [ ] All quality gates (G1-G8) re-verified against new content  (PASS / HALT)
-- [ ] Cross-links updated if new content adds references  (PASS / HALT)
-- [ ] ASCII-only verified for all new content  (PASS / HALT)
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | YYYY-MM-DD | <Agent> | Initial insight. |
+| 2 | YYYY-MM-DD | <Agent> | Initial insight. |
 
-## Versioning -- Update, Do Not Duplicate
-
-If a new IOR covers a topic at least ~75% similar to an existing one (same
-core lesson, overlapping conclusions), do NOT create a new file. Instead:
-
-1. Add a `## vN -- YYYY-MM-DD -- <author>` block at the bottom of the
-   existing IOR with the new/changed insight.
-2. Sign added content inline with `**(author):**` when inserting into
-   another author's sections.
-3. Add a `version-history` table at the top (after title) when the
-   file has version updates; omit for single-version files.
+HALT - Add the version-history table ONLY if the file has been updated.
 
 ## Quality Gates
 
@@ -252,22 +238,6 @@ Every IOR passes these checks before it is committed:
 | Success-only reflection | "Everything went great!" No surprise, no learning. | Structure around surprise and error. |
 | Search-before-blank-page | Research fills gaps before you know what the gaps are. | Feynman Step 1 always precedes Step 3. |
 | Rumination (3rd-order) | Reflecting on a reflection on a reflection. | Stop at second-order. |
-
-## Attribution -- Keeping Multi-Agent IORs Honest
-
-When multiple agents contribute to an IOR (via version-updates):
-
-- Original author's text is unsigned (it is theirs by default).
-- Inline additions by other agents are signed: `**(ava):** ...`
-- Version blocks are headed: `## v2 -- 2026-07-16 -- ava`
-- At the top of the file, immediately after the title, a version-history
-table (only when the file has version updates; omit for single-version
-files):
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-16 | Link | Initial IOR. |
-| 2 | 2026-07-18 | Ava | Qualified the O section; added dissent on mechanism. |
 
 ## Example -- Minimal Valid IOR
 
