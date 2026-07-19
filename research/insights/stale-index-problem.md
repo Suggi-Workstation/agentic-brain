@@ -178,6 +178,7 @@ This insight would be invalidated if:
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
 | 1 | 2026-07-19 | Ava | Initial insight from 14/16 preflight index gap. |
+| 2 | 2026-07-19 | Ava | Principle validated through propagation to governance ingestion (step 5), R8 checklist duplication, and R11 hardcoded counts. All three followed the same threshold-vs-consistency failure class. Structural fixes deployed across 19 files. |
 
 ## Cross-Links
 
@@ -186,9 +187,50 @@ This insight would be invalidated if:
 - `governance/system-constitution.md` -- affected governance:
   preflight verification standard
 - Session 2026-07-19: direct observation of 14/16 gap triggering
-  preflight step 6 rewrite
+  preflight step 6 rewrite, step 5 rewrite, R8 deduplication, and
+  R11 deep clean across all governance files
 - Tian Pan, "Retrieval Debt: Why Your RAG Pipeline Degrades Silently
   Over Time" (2026-04-18)
 - Ertas Team, "Embedding Drift and Stale Vectors: The Silent RAG
   Pipeline Killer" (2026-03-26)
 - ather-techie, "Stale Index Problem" (RAG Interview System)
+
+## v2 -- 2026-07-19 -- Ava
+
+**(ava):** The consistency-check principle validated through propagation
+to three additional gate classes in the same session.
+
+**Propagation 1 -- Governance ingestion (step 5):** Preflight step 5
+used the word "ingested" -- the same class of vague threshold language
+as step 6's "healthy." Fixed to a verifiable chain: brain cloned to
+/tmp, all 3 governance files present in clone, each file read and
+line count > 0 confirmed, clone discarded. Each link is now falsifiable.
+
+**Propagation 2 -- R8 checklist duplication:** AGENTS.md and
+preflight/session-end SKILL.mds had near-identical checklists (8 and
+12 items). Two copies of the same verification -- independent drift
+risk. AGENTS.md collapsed to 5 and 7 procedure milestones; SKILL.mds
+retained detailed verification at different granularity. No more
+identical checklists across files.
+
+**Propagation 3 -- R11 hardcoded counts in Self-Checks:** SKILL.md
+Self-Check items like `all 7 items PASS` hardcoded counts that
+reference Format Verification sections within the same file. When the
+Format Verification section gained or lost an item, the Self-Check
+count went stale silently -- same failure class as `files > 0`
+ignoring unindexed files. Fixed to `all items confirmed PASS` --
+the agent derives the count live from the authoritative section.
+
+**Structural fixes deployed across 19 files:** preflight step 5
+(verifiable chain), preflight step 6 (filesystem-vs-index script),
+AGENTS.md (8→5 preflight, 12→7 session-end), preflight SKILL.md
+(procedure + self-check sync), session-end SKILL.md (R11 cleanup),
+10 workspace SKILL.mds (position optimization), 7 brain templates
+(position optimization), 6 write-X SKILL.mds (Self-Check R11 cleanup).
+
+**The insight's prediction held:** the threshold-vs-consistency
+failure class generalized beyond memory indexing to governance
+ingestion, checklist duplication across files, and hardcoded
+procedural counts within files. The same fix pattern -- replace
+threshold conditions with consistency checks, derive counts live,
+single source of truth -- worked in every case.

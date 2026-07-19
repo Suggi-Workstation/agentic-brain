@@ -123,3 +123,38 @@ skills)" section.
 - governance/template-skills.md -- codifies the Format Verification pattern
 - governance/template-reflections.md -- the IOR format this follows
 - 2026-07-18_ava_position-over-wording-llm-instructions.md -- the original discovery
+
+## v2 -- 2026-07-19 -- Ava
+
+**(ava):** This session extended the checklist pattern from format
+verification to file position and eliminated hardcoded counts.
+
+**Position optimization:** The position-over-wording IOR established
+that `- [ ]` checklists at the top of context outperform prose
+mid-prompt. The logical extension: checklists should also live at the
+top of their containing files, not buried at the bottom. Applied to
+17 files across workspace (10 SKILL.mds) and agentic-brain (7
+template-X.mds). Every Self-Check / Checklist section moved from
+~85-95% file depth to 9-26%. Zero content changes -- pure repositioning.
+The Version-Update Self-Check in template-reflections.md was left in
+place because it is contextually embedded (references "the Versioning
+section below").
+
+**R11 deep clean:** All hardcoded item counts were removed from
+Self-Check verification items across all 6 write-X SKILL.mds.
+`all 7 items PASS` became `all items confirmed PASS`. The count is
+now derived live by reading the Format Verification section above,
+not hardcoded. Gate identifier lists `(G1-G7)` were replaced with
+`(per template)` -- the template is the authoritative source.
+
+**Pattern now at three layers:** (1) session level -- AGENTS.md
+preflight checkboxes at position 1 in bootstrap context, (2) file
+level -- Self-Check at top of skill files before procedure steps,
+(3) template level -- pre-commit checklists at top of template
+files before format spec. Fractal verification architecture: same
+mechanism at every governance layer.
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-18 | Ava | Initial IOR -- checklist pattern generalizes to all procedural verification. |
+| 2 | 2026-07-19 | Ava | Extended to file position (Self-Checks moved from bottom to top across 17 files) + R11 deep clean (removed all hardcoded item counts from Self-Checks). |
