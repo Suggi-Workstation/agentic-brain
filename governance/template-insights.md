@@ -192,7 +192,7 @@ links:
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
 | 1 | 2026-06-14 | Suggi | Initial insight from WO-1 through WO-8 findings. |
-| 2 | 2026-06-14 | Ava | Added extra explanations. |
+| 2 | 2026-06-17 | Ava | Added extra explanations. |
 
 ## The Insight
 In multi-agent systems, verification capacity is the binding constraint
