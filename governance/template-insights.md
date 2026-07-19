@@ -16,6 +16,12 @@ insight is promoted from reflections, evaluations, or reports when the
 lesson is general enough to stand on its own. Insights are part of the
 system's permanent knowledge -- they are rarely deleted, only versioned.
 
+## Version History (only when file has version updates)
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | YYYY-MM-DD | <agent> | Initial insight. |
+
 ## Global Formatting Rules
 
 The entire GitHub org is plain 7-bit ASCII, lowercase, hyphen-delimited.
@@ -44,7 +50,7 @@ this checklist in the published file.
 - [ ] Evidence: at least one source cited by id, chain of evidence complete  (PASS / HALT)
 - [ ] Implications: concrete changes or decisions, not platitudes  (PASS / HALT)
 - [ ] Counter-evidence: states what would prove the insight wrong  (PASS / HALT)
-- [ ] Version history: at minimum, a v1 row with date + author + change  (PASS / HALT)
+- [ ] Version history at top (after title): at minimum, a v1 row with date + author + change. Include only when file has version updates  (PASS / HALT)
 - [ ] Cross-links: source artifacts + related insights + affected governance  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
@@ -120,13 +126,6 @@ Example: `verification-is-the-bottleneck.md`
 - This section makes the insight falsifiable and prevents it from
   becoming dogma.
 
-### Version History
-*Has this insight evolved?*
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | YYYY-MM-DD | <agent> | Initial insight. |
-
 ## Cross-Links
 
 Link to:
@@ -178,6 +177,12 @@ links:
 
 # Verification Is the Bottleneck
 
+## Version History (only when file has version updates)
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-06-14 | link | Initial insight from WO-1 through WO-8 findings. |
+
 ## The Insight
 In multi-agent systems, verification capacity is the binding constraint
 on throughput, not production capacity.
@@ -217,11 +222,6 @@ This insight would be invalidated if:
 - A verification method cheaper than independent model-family review
   achieves the same error catch rate. The structural checks (tier 1)
   catch format errors but miss overclaims -- the semantic gap remains.
-
-## Version History
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-06-14 | link | Initial insight from WO-1 through WO-8 findings. |
 
 ## Cross-Links
 - `research/reports/inter-agent-cooperation-findings.md` -- source report
