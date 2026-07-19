@@ -18,6 +18,13 @@ links:
 > OpenClaw agent platform. Covers architecture, configuration, tools,
 > workspace system, sessions, memory, secrets, and best practices.
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-13 | Ava | Initial manual: Control UI overhaul, GPT-5.6 support, expanded mobile apps, sessions improvements, usage tracking, model catalog updates. |
+| 2 | 2026-07-18 | Ava | web_search switched from DuckDuckGo to Parallel Free (key-free, no rate-limit issues). web_fetch available for targeted URL reading. |
+
 ## What OpenClaw Is
 
 OpenClaw is an MIT-licensed, self-hosted agent gateway. A single Node.js
@@ -431,10 +438,3 @@ sub-agent bootstrap behavior, session management details, workspace
 conventions, slash command reference, thinking/reasoning resolution
 order, and sessions.json override pitfall. Updated 2026-07-18 by ava:
 web_search provider (parallel-free), web_fetch usage guidance.*
-
-## Version History
-
-| Date | Version | Changes |
-|:--|:--|:--|
-| 2026-07-18 | v2026.7.1 | web_search switched from DuckDuckGo to Parallel Free (key-free, no rate-limit issues). web_fetch available for targeted URL reading. |
-| 2026-07-13 | v2026.7.1 | Major Control UI overhaul, GPT-5.6 support, expanded mobile apps, sessions improvements, usage tracking, model catalog updates. |
