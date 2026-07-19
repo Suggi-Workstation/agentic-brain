@@ -16,12 +16,6 @@ insight is promoted from reflections, evaluations, or reports when the
 lesson is general enough to stand on its own. Insights are part of the
 system's permanent knowledge -- they are rarely deleted, only versioned.
 
-## Version History (only when file has version updates)
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | YYYY-MM-DD | <agent> | Initial insight. |
-
 ## Global Formatting Rules
 
 The entire GitHub org is plain 7-bit ASCII, lowercase, hyphen-delimited.
@@ -125,6 +119,17 @@ Example: `verification-is-the-bottleneck.md`
   note that.
 - This section makes the insight falsifiable and prevents it from
   becoming dogma.
+
+### Version History
+*Has this insight evolved?*
+
+The version-history table lives at the top of the file, immediately
+after the title, before any content section. Include only when the
+file has version updates; omit for single-version files.
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | YYYY-MM-DD | <agent> | Initial insight. |
 
 ## Cross-Links
 
