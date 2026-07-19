@@ -10,6 +10,13 @@ links:
   - research/insights/openclaw-manual.md
 ---
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-17 | Ava | Initial IOR. Dashboard session stickiness + two-phase verification protocol. |
+| 2 | 2026-07-17 | Ava | Phase 19 discovery: parent-child override inheritance in sessions.json as root cause. Three-phase verification protocol with sessions.json audit. Updated insight files (openclaw-manual.md, deepseekv4pro.md). |
+
 # i+o+r  session overrides beat config defaults -- the sessions.json trap (Ava)
 
 ## I -- Idea
@@ -149,10 +156,3 @@ New structural gate for the platform: after any config change affecting
 session-scoped behavior (thinking, reasoning, fast mode), sessions.json
 MUST be audited for stored overrides on the active session and its entire
 parent chain. Config verification alone is insufficient.
-
-## Version History
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-17 | Ava | Initial IOR. Dashboard session stickiness + two-phase verification protocol. |
-| 2 | 2026-07-17 | Ava | Phase 19 discovery: parent-child override inheritance in sessions.json as root cause. Three-phase verification protocol with sessions.json audit. Updated insight files (openclaw-manual.md, deepseekv4pro.md). |

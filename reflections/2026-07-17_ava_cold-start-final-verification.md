@@ -12,6 +12,13 @@ links:
   - governance/template-skills.md
 ---
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-17 | Ava | Initial IOR. Cold-start verification protocol for all 5 skills. Includes regression gate against stale-AGENTS.md, prompt sequence ("what do you remember" + "read the reflection you just wrote"), and per-skill checklists. |
+| 2 | 2026-07-17 | Ava | Execution results added. Session executed at 2026-07-17 14:04 UTC. All 5 skills passed cold-start: 0 MISSING, 1 CHANGED/approved (preflight Step 3: /context list -> bootstrap inspection), 24 ADDED. The prompt trigger worked: "what do you remember" auto-invoked preflight via Step 6 memory_search requirement (R6). stale-AGENTS.md archived to Suggi-Workstation/archive (folder: "ava workspace - openclaw - 17.07.26" with full workspace snapshot), then deleted from workspace. Migration complete. See also: 2026-07-17_ava_cold-start-verification-executed.md. |
+
 # i+o+r  cold-start final verification -- test all 5 skills in a brand-new session (Ava)
 
 ## I -- Idea
@@ -394,10 +401,3 @@ The cold-start protocol was executed in a brand-new session. Summary:
 - `skills/loop-schoen/SKILL.md` (workspace) -- the 4-question procedure
 - `skills/session-end/SKILL.md` (workspace) -- the 5-step procedure
 - `skills/write-reflection/SKILL.md` (workspace) -- the I/O/R procedure
-
-## Version History
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-17 | Ava | Initial IOR. Cold-start verification protocol for all 5 skills. Includes regression gate against stale-AGENTS.md, prompt sequence ("what do you remember" + "read the reflection you just wrote"), and per-skill checklists. |
-| 2 | 2026-07-17 | Ava | Execution results added. Session executed at 2026-07-17 14:04 UTC. All 5 skills passed cold-start: 0 MISSING, 1 CHANGED/approved (preflight Step 3: /context list -> bootstrap inspection), 24 ADDED. The prompt trigger worked: "what do you remember" auto-invoked preflight via Step 6 memory_search requirement (R6). stale-AGENTS.md archived to Suggi-Workstation/archive (folder: "ava workspace - openclaw - 17.07.26" with full workspace snapshot), then deleted from workspace. Migration complete. See also: 2026-07-17_ava_cold-start-verification-executed.md. |

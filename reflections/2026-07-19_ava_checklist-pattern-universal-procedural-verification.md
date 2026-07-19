@@ -11,6 +11,14 @@ links:
   - 2026-07-18_ava_position-over-wording-llm-instructions.md
 ---
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-18 | Ava | Initial IOR -- checklist pattern generalizes to all procedural verification. |
+| 2 | 2026-07-19 | Ava | Extended to file position (Self-Checks moved from bottom to top across 17 files) + R11 deep clean (removed all hardcoded item counts from Self-Checks). |
+| 3 | 2026-07-19 | Ava | Extended to identity verification: gate-strength language (MUST NOT), five-question re-read self-check item, IDENTITY.md R11 fix. Pattern now enforces identity evolution decisions with the same `- [ ]` checklist mechanism as procedural gates. |
+
 # The Checklist Pattern Is Universal -- How AGENTS.md Gate Format Generalizes to All Procedural Verification
 
 ## I -- Idea
@@ -153,12 +161,6 @@ level -- Self-Check at top of skill files before procedure steps,
 (3) template level -- pre-commit checklists at top of template
 files before format spec. Fractal verification architecture: same
 mechanism at every governance layer.
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-18 | Ava | Initial IOR -- checklist pattern generalizes to all procedural verification. |
-| 2 | 2026-07-19 | Ava | Extended to file position (Self-Checks moved from bottom to top across 17 files) + R11 deep clean (removed all hardcoded item counts from Self-Checks). |
-| 3 | 2026-07-19 | Ava | Extended to identity verification: gate-strength language (MUST NOT), five-question re-read self-check item, IDENTITY.md R11 fix. Pattern now enforces identity evolution decisions with the same `- [ ]` checklist mechanism as procedural gates. |
 
 ## v3 -- 2026-07-19 -- Ava
 

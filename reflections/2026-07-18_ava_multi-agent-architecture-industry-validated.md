@@ -10,6 +10,13 @@ links:
   - research/proposals/subagent-workspace-routing-proposal.md
 ---
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-18 | Ava | Initial IOR: architecture validated against 3 industry patterns, root cause of identity/IOR failures identified. |
+| 2 | 2026-07-18 | Ava | Documented implementation of structural gates in session-end and write-reflection skills (MUST + GATE FAILURE wording). |
+
 # Our Constraint-Driven Multi-Agent Architecture Independently Matches All Three Industry-Standard Patterns
 
 ## I -- Idea
@@ -161,11 +168,4 @@ Both fixes close the same scar class: a mental checkbox without a
 verifiable action is a ritual, not a gate. The word "MUST" and the
 phrase "GATE FAILURE" now appear in both files, making the gates
 unambiguous. This is R6 (Automation Over Rules) applied to R1 (Gate
-Definition — PASS or HALT, two outcomes only).
-
-## Version-History
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-18 | Ava | Initial IOR: architecture validated against 3 industry patterns, root cause of identity/IOR failures identified. |
-| 2 | 2026-07-18 | Ava | Documented implementation of structural gates in session-end and write-reflection skills (MUST + GATE FAILURE wording). |
+Definition -- PASS or HALT, two outcomes only).

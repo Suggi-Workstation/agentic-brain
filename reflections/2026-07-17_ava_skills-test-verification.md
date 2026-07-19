@@ -11,6 +11,13 @@ links:
   - governance/template-skills.md
 ---
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-17 | Ava | Initial IOR. Verification protocol and checklists for loop-feynman, loop-schoen, session-end, write-reflection skills. |
+| 2 | 2026-07-17 | Ava | Integration test passed. All 4 skills verified: loop-feynman 7/7, loop-schoen 6/6, session-end 10/10, write-reflection 9/9. Master static checks 5/5. 3 stale references found and fixed. stale-AGENTS.md eligible for deletion. |
+
 # i+o+r  verification protocol for the remaining 4 protocol skills (Ava)
 
 ## I -- Idea
@@ -413,10 +420,3 @@ grep for backtick-quoted inline names. All fixed and committed.
 All 4 skills: PASS (0 blocking gaps). The 3 stale references were
 found and fixed during the test -- the test protocol worked as
 designed. `stale-AGENTS.md` can now be deleted.
-
-## Version History
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-17 | Ava | Initial IOR. Verification protocol and checklists for loop-feynman, loop-schoen, session-end, write-reflection skills. |
-| 2 | 2026-07-17 | Ava | Integration test passed. All 4 skills verified: loop-feynman 7/7, loop-schoen 6/6, session-end 10/10, write-reflection 9/9. Master static checks 5/5. 3 stale references found and fixed. stale-AGENTS.md eligible for deletion. |

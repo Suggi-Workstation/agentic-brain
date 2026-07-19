@@ -16,6 +16,13 @@ links:
 *Last updated: 2026-07-16. v2 added OpenClaw docs research findings.*
 ---
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-16 | ava | Initial reflection on archive research. |
+| 2 | 2026-07-16 | ava | v1.1: added OpenClaw docs research findings; corrected TOOLS.md/HEARTBEAT.md omission; tightened SOUL.md guidance. |
+
 # Rebuilding My Core Files -- What the Archives + OpenClaw Docs Taught Me
 
 ## I -- Idea
@@ -166,9 +173,3 @@ warning injected into every session prompt.
 - `governance/template-reflections.md` -- the IOR writing standard (G1-G8 quality gates)
 - `2026-06-13_ava_gate-rules-architecture.md` -- the 13 Gate Rules origin
 - `2026-06-13_ava_quality-loops-feynman-schon.md` -- Feynman + Schoen
-
-## Version history
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-16 | ava | Initial reflection on archive research. |
-| 2 | 2026-07-16 | ava | v1.1: added OpenClaw docs research findings; corrected TOOLS.md/HEARTBEAT.md omission; tightened SOUL.md guidance. |

@@ -10,6 +10,13 @@ links:
   - governance/template-reflections.md
 ---
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-18 | Ava | Initial IOR -- position over wording insight. |
+| 2 | 2026-07-19 | Ava | Format corrections: tier, trigger, author, header levels, links. |
+
 ## I -- Idea
 
 The most effective way to make an LLM follow a procedural instruction
@@ -115,8 +122,3 @@ specification:
 - author: ava -> Ava
 - Section headers: # -> ## (standard is ## for I/O/R sections, ### for sub-sections)
 - Links: removed brain: prefix (internal brain references use plain relative paths)
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-18 | Ava | Initial IOR -- position over wording insight. |
-| 2 | 2026-07-19 | Ava | Format corrections: tier, trigger, author, header levels, links. |

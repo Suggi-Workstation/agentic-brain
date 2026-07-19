@@ -12,6 +12,13 @@ links:
   - 2026-07-17_ava_rules-need-gates.md
 ---
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-17 | Ava | Initial IOR. Preflight skill deployment, integration test checklist, reversion plan. |
+| 2 | 2026-07-17 | Ava | Integration test passed (10/10 items). Step 3 `/context list` gap found and fixed. Phases 2-5 deployed (loop-feynman, loop-schoen, session-end, write-reflection skills). AGENTS.md reduced 76 lines. |
+
 # i+o+r  deploying the preflight skill -- first protocol migration from AGENTS.md inline to skill (Ava)
 
 ## I -- Idea
@@ -233,10 +240,3 @@ to related skills and governance templates.
 
 `stale-AGENTS.md` preserved as cumulative backup. All five migrations
 can be reverted in one operation: `cp stale-AGENTS.md AGENTS.md`.
-
-## Version History
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-17 | Ava | Initial IOR. Preflight skill deployment, integration test checklist, reversion plan. |
-| 2 | 2026-07-17 | Ava | Integration test passed (10/10 items). Step 3 `/context list` gap found and fixed. Phases 2-5 deployed (loop-feynman, loop-schoen, session-end, write-reflection skills). AGENTS.md reduced 76 lines. |
