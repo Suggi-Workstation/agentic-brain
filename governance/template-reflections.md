@@ -8,7 +8,7 @@ author: Suggi
 links:
 ---
 
-# IOR Rules -- How We Write Ideas, Opinions, and Reflections
+# Reflection Template -- How We Write Ideas, Opinions, and Reflections (IOR)
 
 An IOR is the atomic unit of team learning. It captures what an agent (or
 human) thinks, why they think it, and what they learned from testing it.
