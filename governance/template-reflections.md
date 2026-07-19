@@ -53,6 +53,47 @@ this checklist in the published IOR.
 - [ ] Version-history table at top of file (after title, before content). Include only when file has version updates; omitted for single-version files  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
+## Frontmatter Schema
+
+```yaml
+name: <short-slug>               # lowercase, kebab-case, unique
+id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC timestamp, permanent, never reused. MUST generate with: date -u +'%Y%m%dT%H%M%SZ' at creation. Estimating or rounding = GATE FAILURE.
+tier: reflection                  # always reflection
+trigger: <what prompted this>    # session-end | error | surprise | milestone |
+                                 # decision | research | insight | self-knowledge
+author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
+tags: [<topic>, <topic>]         # lowercase, specific
+links: [<brain:path/to/file.md>]     # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
+```
+
+## Frontmatter Rules
+
+- `name` is a short lowercase kebab-case slug, unique. Example:
+  `rebuilding-core-files`.
+- `tier` is always `reflection`.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. MUST generate with: `date -u +'%Y%m%dT%H%M%SZ'` at creation. Estimating or rounding = GATE FAILURE.
+- `trigger` picks from the canonical list. Do not invent new trigger
+  values without updating this file.
+- `author` is who wrote the IOR (e.g. Link, Ava, Zelda, Suggi, Luffy).
+- `tags` use lowercase, hyphens for spaces, and prefer existing tags
+  from the brain's tag registry.
+- `links` are paths relative to the agentic-brain root. Use `brain:`
+  prefix (e.g. `brain:governance/system-constitution.md`) for
+  cross-repo references. No prefix = same-repo link. Do not use
+  absolute paths or file:// URIs.
+
+Example: `2026-07-16_link_feynman-loop-v2.md`
+
+## Naming Convention
+
+Files are named: `YYYY-MM-DD_author_slug.md`
+
+- `YYYY-MM-DD` -- local date of ORIGINAL publication. Stable identifier;
+  MUST NOT change when the file receives version updates. Use the
+  version-history table to track modification dates.
+- `author` -- lowercase agent name
+- `slug` -- kebab-case title, max 60 chars, unique per author-date
+
 ## The Three-Section Format
 
 Every IOR has exactly three sections, labeled I, O, R.
@@ -150,47 +191,6 @@ The Schoen Loop is reflection-on-action at session scope.
   action; it does not replace it.
 - Stop at second-order. Reflecting on a reflection beyond two layers is
   rumination, not learning.
-
-## Frontmatter Schema
-
-```yaml
-name: <short-slug>               # lowercase, kebab-case, unique
-id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC timestamp, permanent, never reused. MUST generate with: date -u +'%Y%m%dT%H%M%SZ' at creation. Estimating or rounding = GATE FAILURE.
-tier: reflection                  # always reflection
-trigger: <what prompted this>    # session-end | error | surprise | milestone |
-                                 # decision | research | insight | self-knowledge
-author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
-tags: [<topic>, <topic>]         # lowercase, specific
-links: [<brain:path/to/file.md>]     # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
-```
-
-## Frontmatter Rules
-
-- `name` is a short lowercase kebab-case slug, unique. Example:
-  `rebuilding-core-files`.
-- `tier` is always `reflection`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. MUST generate with: `date -u +'%Y%m%dT%H%M%SZ'` at creation. Estimating or rounding = GATE FAILURE.
-- `trigger` picks from the canonical list. Do not invent new trigger
-  values without updating this file.
-- `author` is who wrote the IOR (e.g. Link, Ava, Zelda, Suggi, Luffy).
-- `tags` use lowercase, hyphens for spaces, and prefer existing tags
-  from the brain's tag registry.
-- `links` are paths relative to the agentic-brain root. Use `brain:`
-  prefix (e.g. `brain:governance/system-constitution.md`) for
-  cross-repo references. No prefix = same-repo link. Do not use
-  absolute paths or file:// URIs.
-
-Example: `2026-07-16_link_feynman-loop-v2.md`
-
-## Naming Convention
-
-Files are named: `YYYY-MM-DD_author_slug.md`
-
-- `YYYY-MM-DD` -- local date of ORIGINAL publication. Stable identifier;
-  MUST NOT change when the file receives version updates. Use the
-  version-history table to track modification dates.
-- `author` -- lowercase agent name
-- `slug` -- kebab-case title, max 60 chars, unique per author-date
 
 ## Version-Update Self-Check -- HARD GATE
 
