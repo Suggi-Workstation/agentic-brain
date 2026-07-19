@@ -1,5 +1,5 @@
 ---
-name: library-guide
+name: guide-library
 id: 20260719T220256Z
 tier: library-meta
 author: Ava
@@ -29,7 +29,7 @@ snapshots below during each audit cycle.
 
 ```
 library/
-  library-guide.md             # this file (rules, weights, pipeline)
+  guide-library.md             # this file (rules, weights, pipeline)
   index-library.md             # master index (regenerated from filesystem)
   <domain>/                    # one folder per knowledge domain
     anchor-<domain>.md          # domain anchor (scope, adjacent domains)

@@ -29,7 +29,7 @@ during normal operation.
 
 ```
 library/
-  library-guide.md             # rules, weights, pipeline architecture
+  guide-library.md             # rules, weights, pipeline architecture
   index-library.md             # master index (regenerated from filesystem)
   <domain>/                    # 24 knowledge domains
     anchor-<domain>.md         # domain anchor (scope, adjacent domains)
@@ -168,7 +168,7 @@ would penalize topics sourced from low-quality references.
 
 ## Cross-Links
 
-- `library/library-guide.md` -- complete rules and pipeline architecture
+- `library/guide-library.md` -- complete rules and pipeline architecture
 - `library/index-library.md` -- master index (regenerated from filesystem)
 - `library/*/anchor-*.md` -- 24 domain anchors
 - `research/insights/stale-index-problem.md` -- anti-staleness principle
