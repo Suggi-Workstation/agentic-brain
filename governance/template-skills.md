@@ -30,6 +30,12 @@ Create a skill when:
 - The procedure could be shared across multiple agents.
 - The procedure has its own scripts, templates, or reference materials.
 
+**Deployment path:** New skills or major redesigns go through Skill
+Workshop for operator review before going live. Minor edits to
+existing skills can be made directly. Workshop is the deployment
+gate -- it prevents unreviewed skills from taking effect immediately.
+See: [Skill Workshop](/tools/skill-workshop).
+
 Do NOT create a skill when:
 
 - The content is constitutional (gate rules, principles, identity). These
@@ -111,7 +117,7 @@ this checklist in the published skill.
 - [ ] Procedure steps are actionable (commands are copy-pasteable)  (PASS / HALT)
 - [ ] All output destinations are explicit (G8): every file-producing step states the exact path  (PASS / HALT)
 - [ ] Format Verification section present (for write-X skills): `- [ ]` checkboxes between "write" and "commit" organize verification by category (frontmatter, body, output)  (PASS / HALT)
-- [ ] Self-Check confirms verification sections by name ("Frontmatter: all N PASS"), does not duplicate individual items  (PASS / HALT)
+- [ ] Self-Check confirms verification sections by name (e.g. "Frontmatter: all items confirmed PASS"), does not duplicate individual items  (PASS / HALT)
 - [ ] No duplicate governance content (references templates with `brain:` prefix, does not inline spec)  (PASS / HALT)
 - [ ] Token budget: description under 160 chars, body lean  (PASS / HALT)
 - [ ] {baseDir} used for internal references (not hardcoded relative paths)  (PASS / HALT)
@@ -210,7 +216,7 @@ Run the verification script: `{baseDir}/scripts/verify.sh`
 See the checklist: `{baseDir}/references/checklist.md`
 ```
 
-## Body Structure
+## How to Structure a SKILL.md
 
 ### The Title
 
@@ -334,10 +340,10 @@ repeating individual items:
 ## Self-Check -- HARD GATE
 
 - [ ] Procedure completed (clone, write, verify, commit, push, discard)  (PASS / HALT)
-- [ ] Frontmatter verification: all items PASS  (PASS / HALT)
-- [ ] Body Structure verification: all items PASS  (PASS / HALT)
-- [ ] File Output verification: all items PASS  (PASS / HALT)
-- [ ] Template Pre-Commit Self-Check: all items PASS  (PASS / HALT)
+- [ ] Frontmatter verification: all items confirmed PASS  (PASS / HALT)
+- [ ] Body Structure verification: all items confirmed PASS  (PASS / HALT)
+- [ ] File Output verification: all items confirmed PASS  (PASS / HALT)
+- [ ] Template Pre-Commit Self-Check: all items confirmed PASS  (PASS / HALT)
 ```
 
 This pattern prevents format drift. When the agent skims a 300+ line
@@ -472,10 +478,10 @@ cd /tmp && rm -rf brain-tmp
 ## Self-Check -- HARD GATE
 
 - [ ] Procedure completed  (PASS / HALT)
-- [ ] Frontmatter verification: all 5 items PASS  (PASS / HALT)
-- [ ] Body Structure verification: all 3 items PASS  (PASS / HALT)
-- [ ] File Output verification: all 3 items PASS  (PASS / HALT)
-- [ ] Template Pre-Commit Self-Check: all items PASS  (PASS / HALT)
+- [ ] Frontmatter verification: all items confirmed PASS  (PASS / HALT)
+- [ ] Body Structure verification: all items confirmed PASS  (PASS / HALT)
+- [ ] File Output verification: all items confirmed PASS  (PASS / HALT)
+- [ ] Template Pre-Commit Self-Check: all items confirmed PASS  (PASS / HALT)
 
 ## Related
 
