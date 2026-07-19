@@ -98,6 +98,27 @@ These rules are non-negotiable. CI enforces them.
 - **Hyphens, not underscores:** Use hyphens (`-`) to separate words in
   filenames, slugs, and tags. Never use underscores (`_`).
 
+## The Skill Checklist -- HARD GATE
+
+Pre-commit gate: every item below MUST be confirmed. The skill
+MUST NOT be committed with any item unconfirmed. Do not include
+this checklist in the published skill.
+
+- [ ] Frontmatter complete: name, description present; metadata.openclaw correct if used  (PASS / HALT)
+- [ ] Frontmatter rules correct: name is kebab-case slug, description under 160 chars, quoted  (PASS / HALT)
+- [ ] Description is a trigger surface (task-oriented instruction fragment)  (PASS / HALT)
+- [ ] Skill has a constitutional trigger (AGENTS.md gate instruction or task-description match)  (PASS / HALT)
+- [ ] Procedure steps are actionable (commands are copy-pasteable)  (PASS / HALT)
+- [ ] All output destinations are explicit (G8): every file-producing step states the exact path  (PASS / HALT)
+- [ ] Format Verification section present (for write-X skills): `- [ ]` checkboxes between "write" and "commit" organize verification by category (frontmatter, body, output)  (PASS / HALT)
+- [ ] Self-Check confirms verification sections by name ("Frontmatter: all N PASS"), does not duplicate individual items  (PASS / HALT)
+- [ ] No duplicate governance content (references templates with `brain:` prefix, does not inline spec)  (PASS / HALT)
+- [ ] Token budget: description under 160 chars, body lean  (PASS / HALT)
+- [ ] {baseDir} used for internal references (not hardcoded relative paths)  (PASS / HALT)
+- [ ] Folder name matches frontmatter name (or is clearly related)  (PASS / HALT)
+- [ ] File is named SKILL.md (uppercase, as required)  (PASS / HALT)
+- [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
+
 ## Frontmatter Schema
 
 ```yaml
@@ -460,27 +481,6 @@ cd /tmp && rm -rf brain-tmp
 
 - `brain:governance/template-example.md` -- full format specification
 - AGENTS.md -- the gate instruction that triggers this skill
-
-## The Skill Checklist -- HARD GATE
-
-Pre-commit gate: every item below MUST be confirmed. The skill
-MUST NOT be committed with any item unconfirmed. Do not include
-this checklist in the published skill.
-
-- [ ] Frontmatter complete: name, description present; metadata.openclaw correct if used  (PASS / HALT)
-- [ ] Frontmatter rules correct: name is kebab-case slug, description under 160 chars, quoted  (PASS / HALT)
-- [ ] Description is a trigger surface (task-oriented instruction fragment)  (PASS / HALT)
-- [ ] Skill has a constitutional trigger (AGENTS.md gate instruction or task-description match)  (PASS / HALT)
-- [ ] Procedure steps are actionable (commands are copy-pasteable)  (PASS / HALT)
-- [ ] All output destinations are explicit (G8): every file-producing step states the exact path  (PASS / HALT)
-- [ ] Format Verification section present (for write-X skills): `- [ ]` checkboxes between "write" and "commit" organize verification by category (frontmatter, body, output)  (PASS / HALT)
-- [ ] Self-Check confirms verification sections by name ("Frontmatter: all N PASS"), does not duplicate individual items  (PASS / HALT)
-- [ ] No duplicate governance content (references templates with `brain:` prefix, does not inline spec)  (PASS / HALT)
-- [ ] Token budget: description under 160 chars, body lean  (PASS / HALT)
-- [ ] {baseDir} used for internal references (not hardcoded relative paths)  (PASS / HALT)
-- [ ] Folder name matches frontmatter name (or is clearly related)  (PASS / HALT)
-- [ ] File is named SKILL.md (uppercase, as required)  (PASS / HALT)
-- [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
 ---
 
