@@ -77,3 +77,11 @@ jobs:
           fi
 
           echo "ascii-guard PASSED: every tracked text file is pure ASCII."
+
+      - name: Validate frontmatter IDs
+        shell: bash
+        run: |
+          # Check that all frontmatter id: fields are not manually typed.
+          # Suspect rounded timestamps (ending in 00Z) get a warning.
+          # Invalid formats and duplicates fail the build.
+          bash scripts/validate-ids.sh
