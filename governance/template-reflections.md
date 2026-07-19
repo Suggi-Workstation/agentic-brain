@@ -30,7 +30,7 @@ These rules are non-negotiable. CI enforces them.
   filenames, slugs, and tags. Never use underscores (`_`).
   Correct: `margin-of-safety.md`. Wrong: `margin_of_safety.md`.
 
-## Pre-Commit Self-Check -- HARD GATE
+## The Reflection Checklist -- HARD GATE
 
 Pre-commit gate: every item below MUST be confirmed. The IOR
 MUST NOT be committed with any item unconfirmed. Do not include
