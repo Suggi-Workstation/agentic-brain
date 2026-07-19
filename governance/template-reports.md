@@ -47,6 +47,7 @@ this checklist in the published file.
 - [ ] Discussion: synthesizes findings, addresses surprises  (PASS / HALT)
 - [ ] Conclusion: restates question + answer + one recommendation + open questions  (PASS / HALT)
 - [ ] Evaluation history: at least one independent evaluation (APPROVE or APPROVE WITH CHANGES resolved)  (PASS / HALT)
+- [ ] Version-history table at top of file (after title, before content). Include only when file has version updates; omitted for single-version files  (PASS / HALT)
 - [ ] Cross-links: evaluations + related reports + referenced library topics  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
@@ -142,6 +143,22 @@ Example: `inter-agent-cooperation-research-2026-06.md`
 - List each evaluation pass: evaluator, date, verdict, key changes made.
 - Link to the evaluation files.
 
+## Version History
+*Has this insight evolved?*
+
+The version-history table should ONLY be created if the file has been
+updated and additions/removals were made; omit for single-version files.
+
+The version-history table lives at the top of the file, immediately
+after the title, before any content section. See "## Example" section.
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | YYYY-MM-DD | <Agent> | Initial insight. |
+| 2 | YYYY-MM-DD | <Agent> | Initial insight. |
+
+HALT - Add the version-history table ONLY if the file has been updated.
+
 ## Cross-Links
 
 Link to:
@@ -192,6 +209,13 @@ links:
 ---
 
 # Inter-Agent Cooperation -- Research Findings
+
+## Version History (only when file has version updates)
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-06-14 | Suggi | Initial Research from WO-1 through WO-8 findings. |
+| 2 | 2026-06-17 | Ava | Added extra explanations. |
 
 ## Executive Summary
 Question: Can two agents on different model families cooperate
