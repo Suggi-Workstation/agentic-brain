@@ -120,7 +120,7 @@ Example: `verification-is-the-bottleneck.md`
 - This section makes the insight falsifiable and prevents it from
   becoming dogma.
 
-### Version History
+## Version History
 *Has this insight evolved?*
 
 The version-history table lives at the top of the file, immediately
@@ -129,7 +129,8 @@ file has version updates; omit for single-version files.
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 1 | YYYY-MM-DD | <agent> | Initial insight. |
+| 1 | YYYY-MM-DD | <Agent> | Initial insight. |
+| 2 | YYYY-MM-DD | <Agent> | Initial insight. |
 
 ## Cross-Links
 
