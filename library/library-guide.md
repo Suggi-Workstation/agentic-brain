@@ -32,7 +32,7 @@ library/
   library-guide.md             # this file (rules, weights, pipeline)
   index-library.md             # master index (regenerated from filesystem)
   <domain>/                    # one folder per knowledge domain
-    anchor.md                  # domain anchor (scope, adjacent domains)
+    anchor-<domain>.md          # domain anchor (scope, adjacent domains)
     <topic-slug>.md            # individual topic files
     ...
 ```
@@ -65,9 +65,9 @@ from the discovery queue, researches it, writes it.
 
 | Dimension | Weight | What it measures |
 |:--|:--|:--|
-| Core match | 0.4 | How central is this topic to the domain anchor? Does it directly concern the domain's subject matter? |
-| Scope fit | 0.4 | Does it fit the domain's In scope? Does it avoid Out scope and adjacent domain overlap? |
-| Knowledge value | 0.2 | Would a well-researched topic on this compound with existing brain knowledge? Is it worth the token cost? |
+| Core match (0.0-10.0) | 0.4 | How central is this topic to the domain anchor? Does it directly concern the domain's subject matter? |
+| Scope fit (0.0-10.0) | 0.4 | Does it fit the domain's In scope? Does it avoid Out scope and adjacent domain overlap? |
+| Knowledge value (0.0-10.0) | 0.2 | Would a well-researched topic on this compound with existing brain knowledge? Is it worth the token cost? |
 
 **Topic similarity gate:** Before writing, the writer must check the
 candidate topic against EXISTING topics in the domain. If a similar
@@ -93,9 +93,9 @@ most recently written (unaudited) topics and evaluates them.
 
 | Dimension | Weight | What it measures |
 |:--|:--|:--|
-| Quality | 0.4 | Factual accuracy, completeness, source citations, ASCII compliance, structural correctness. Is this a well-researched topic? |
-| Redundancy | 0.3 | Does this topic overlap with any other topic in the same domain or adjacent domains? Semantic similarity check against all existing topics. |
-| Anchor compliance | 0.3 | Does the topic stay within the domain's anchor scope? Would it fit better in an adjacent domain? |
+| Quality (0.0-10.0) | 0.4 | Factual accuracy, completeness, source citations, ASCII compliance, structural correctness. Is this a well-researched topic? |
+| Redundancy (0.0-10.0) | 0.3 | Does this topic overlap with any other topic in the same domain or adjacent domains? Semantic similarity check against all existing topics. |
+| Anchor compliance (0.0-10.0) | 0.3 | Does the topic stay within the domain's anchor scope? Would it fit better in an adjacent domain? |
 
 **Minimum threshold:** Weighted score >= 7.0 to approve. 5.0-6.9: flag
 with specific change requests for the writer. < 5.0: reject (move file
@@ -119,9 +119,9 @@ domains and proposes 1-3 candidate topics per domain.
 
 | Dimension | Weight | What it measures |
 |:--|:--|:--|
-| Gap score | 0.5 | How uncovered is this topic? Does a topic on this subject already exist? Is this a known gap in the domain's coverage? |
-| Knowledge compounding | 0.3 | Would this topic connect multiple existing topics? Would it fill a bridge between domains? Would it enable deeper research on related topics? |
-| Timeliness | 0.2 | Is this topic currently relevant? Are there recent developments, new research, or active debates? |
+| Gap score (0.0-10.0) | 0.5 | How uncovered is this topic? Does a topic on this subject already exist? Is this a known gap in the domain's coverage? |
+| Knowledge compounding (0.0-10.0) | 0.3 | Would this topic connect multiple existing topics? Would it fill a bridge between domains? Would it enable deeper research on related topics? |
+| Timeliness (0.0-10.0) | 0.2 | Is this topic currently relevant? Are there recent developments, new research, or active debates? |
 
 **Output:** Candidate topic proposals with title, domain, brief scope
 description, and discovery score. Stored as proposals (not topic files)
@@ -129,7 +129,7 @@ for the writer to pick up.
 
 ## The anchor file format
 
-Every domain folder MUST contain an `anchor.md` file. Format:
+Every domain folder MUST contain an `anchor-<domain>.md` file. Format:
 
 ```markdown
 ---
