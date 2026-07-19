@@ -124,7 +124,7 @@ Example: `verification-is-the-bottleneck.md`
 *Has this insight evolved?*
 
 The version-history table should ONLY be created if the file has been
-updated; omit for single-version files.
+updated and additions/removals were made; omit for single-version files.
 
 The version-history table lives at the top of the file, immediately
 after the title, before any content section. See "## Example" section.
