@@ -1,5 +1,5 @@
 ---
-name: pipeline-rules
+name: library-guide
 id: 20260719T220256Z
 tier: library-meta
 author: Ava
@@ -9,7 +9,7 @@ links:
   - research/insights/stale-index-problem.md
 ---
 
-# Library -- Anchor Index
+# Library Guide
 
 ## What this file is
 
