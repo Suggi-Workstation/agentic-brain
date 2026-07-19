@@ -50,6 +50,7 @@ this checklist in the published IOR.
 - [ ] Schoen budget: at most 20% of session effort  (PASS / HALT)
 - [ ] File named: YYYY-MM-DD_author_slug.md  (PASS / HALT)
 - [ ] Added to _index.md (newest first)  (PASS / HALT)
+- [ ] Version-history table at top of file (after title, before content) when version updates exist; omitted for single-version files  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
 ## The Three-Section Format
@@ -203,7 +204,7 @@ MUST NOT be committed with any item unconfirmed.
 - [ ] Original id preserved (never changed after publishing)  (PASS / HALT)
 - [ ] Original filename preserved (cross-links depend on stable paths)  (PASS / HALT)
 - [ ] Version block added beneath the last section: ## vN -- YYYY-MM-DD -- author  (PASS / HALT)
-- [ ] Version-history table at end of file: new row added (version, date, author, change)  (PASS / HALT)
+- [ ] Version-history table at top of file (after title, before content sections): new row added (version, date, author, change)  (PASS / HALT)
 - [ ] Inline additions signed -- **(author):** -- when inserting into another author's sections  (PASS / HALT)
 - [ ] All quality gates (G1-G8) re-verified against new content  (PASS / HALT)
 - [ ] Cross-links updated if new content adds references  (PASS / HALT)
@@ -258,7 +259,9 @@ When multiple agents contribute to an IOR (via version-updates):
 - Original author's text is unsigned (it is theirs by default).
 - Inline additions by other agents are signed: `**(ava):** ...`
 - Version blocks are headed: `## v2 -- 2026-07-16 -- ava`
-- At the bottom, a version-history table:
+- At the top of the file, immediately after the title, a version-history
+table (only when the file has version updates; omit for single-version
+files):
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
@@ -279,6 +282,12 @@ links: [brain:library/self-improvement-learning/feynman_technique_teaching.md]
 ---
 
 # Blank Page Before Search -- Order Is the Active Ingredient
+
+## Version History (only when file has version updates)
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-16 | Link | Initial IOR. |
 
 ## I -- Idea
 The Feynman Loop's step order is not cosmetic. Writing what you think you
