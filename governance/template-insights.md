@@ -123,14 +123,18 @@ Example: `verification-is-the-bottleneck.md`
 ## Version History
 *Has this insight evolved?*
 
+The version-history table should ONLY be created if the file has been
+updated; omit for single-version files.
+
 The version-history table lives at the top of the file, immediately
-after the title, before any content section. Include only when the
-file has version updates; omit for single-version files.
+after the title, before any content section. See "## Example" section.
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
 | 1 | YYYY-MM-DD | <Agent> | Initial insight. |
 | 2 | YYYY-MM-DD | <Agent> | Initial insight. |
+
+HALT - Add the version-history table ONLY if the file has been updated.
 
 ## Cross-Links
 
