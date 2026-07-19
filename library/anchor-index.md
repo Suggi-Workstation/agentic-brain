@@ -3,7 +3,7 @@ name: anchor-index
 id: 20260719T214241Z
 tier: library-meta
 author: Ava
-tags: [library, anchor, index, pipeline, weights, multi-agent]
+tags: [library, anchor, index, pipeline, weights]
 links:
   - governance/template-library.md
   - research/insights/stale-index-problem.md
@@ -15,7 +15,7 @@ links:
 
 This is the parent file for the library knowledge system. It defines:
 
-1. The multi-agent pipeline that populates library domains with topics.
+1. The three-process pipeline that populates library domains with topics.
 2. The global weight rules each agent uses.
 3. The structure every domain anchor must follow.
 4. How the master index is maintained (R11: derive live, never hardcode).
@@ -44,21 +44,21 @@ portfolio-risk-management, probabilistic-thinking-forecasting,
 psychology-behavior, science, self-improvement, technology,
 valuation-screening, value-investing.
 
-## The multi-agent pipeline
+## The three-process pipeline
 
-Three sub-agents run as cron jobs on isolated sessions with independent
-models (decorrelation rule). Each has a different role, different
+Three processes run as isolated cron jobs with independent models
+(decorrelation rule). Each process has a different purpose, different
 weights, and different verification criteria.
 
-### Agent 1: Topic Writer (`write-library` skill)
+### Writing process
 
-**Role:** Research and write topic files. Receives a candidate topic
+**Purpose:** Research and write topic files. Receives a candidate topic
 title + domain anchor. Performs web search, synthesizes knowledge,
 writes a markdown topic file to the domain folder. Checks anchor
 compliance and topic similarity before writing.
 
-**Cron:** Runs periodically. Each cycle: writer picks one candidate
-topic from the discoverer's queue, researches it, writes it.
+**Cron:** Runs periodically. Each cycle: picks one candidate topic
+from the discovery queue, researches it, writes it.
 
 **Weighted scoring (writer weight):**
 
@@ -78,14 +78,14 @@ existing one and focus on the uncovered portion. If low overlap
 **Minimum threshold:** Weighted score >= 7.0 to proceed. 5.0-6.9: flag
 for human review. < 5.0: reject or redirect to adjacent domain.
 
-### Agent 2: Topic Auditor (`audit-library` skill)
+### Audit process
 
-**Role:** Review written topics for quality, redundancy, and anchor
-compliance. Updates the master index below. Runs after the writer
-has produced new files. Decorrelated from writer (different model
-family or different system prompt emphasis).
+**Purpose:** Review written topics for quality, redundancy, and anchor
+compliance. Updates the master index below. Runs after the writing
+process has produced new files. Decorrelated from the writing process
+(different model family or different system prompt emphasis).
 
-**Cron:** Runs after writer cycles. Each cycle: auditor picks the
+**Cron:** Runs after writing cycles. Each cycle: auditor picks the
 most recently written (unaudited) topics and evaluates them.
 
 **Weighted scoring (auditor weight):**
@@ -104,14 +104,14 @@ to quarantine or request rewrite).
 master index snapshot below from the live filesystem. The auditor is
 the ONLY agent authorized to update index entries in this file.
 
-### Agent 3: Topic Discoverer (`discover-library` skill)
+### Discovery process
 
-**Role:** Discover new candidate topics. Scans all domain anchors,
+**Purpose:** Discover new candidate topics. Scans all domain anchors,
 identifies knowledge gaps, proposes new topics. Runs before the
-writer to populate the candidate queue. Does NOT write topic files --
-only proposes titles and brief scopes.
+writing process to populate the candidate queue. Does NOT write topic
+files -- only proposes titles and brief scopes.
 
-**Cron:** Runs periodically. Each cycle: discoverer picks a subset of
+**Cron:** Runs periodically. Each cycle: picks a subset of
 domains and proposes 1-3 candidate topics per domain.
 
 **Weighted scoring (discovery weight):**

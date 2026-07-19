@@ -1,8 +1,8 @@
 ---
 name: science
+id: 20260719T214319Z
 tier: library-anchor
 domain: science
-id: 20260719T214319Z
 tags: [science, natural-sciences, physics, chemistry, biology, astronomy, earth-science]
 ---
 
