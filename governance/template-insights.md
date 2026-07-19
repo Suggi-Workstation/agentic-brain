@@ -44,7 +44,7 @@ this checklist in the published file.
 - [ ] Evidence: at least one source cited by id, chain of evidence complete  (PASS / HALT)
 - [ ] Implications: concrete changes or decisions, not platitudes  (PASS / HALT)
 - [ ] Counter-evidence: states what would prove the insight wrong  (PASS / HALT)
-- [ ] Version history at top (after title): at minimum, a v1 row with date + author + change. Include only when file has version updates  (PASS / HALT)
+- [ ] Version-history table at top of file (after title, before content). Include only when file has version updates; omitted for single-version files  (PASS / HALT)
 - [ ] Cross-links: source artifacts + related insights + affected governance  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)

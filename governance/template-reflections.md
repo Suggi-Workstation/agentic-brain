@@ -50,7 +50,7 @@ this checklist in the published IOR.
 - [ ] Schoen budget: at most 20% of session effort  (PASS / HALT)
 - [ ] File named: YYYY-MM-DD_author_slug.md  (PASS / HALT)
 - [ ] Added to _index.md (newest first)  (PASS / HALT)
-- [ ] Version-history table at top of file (after title, before content) when version updates exist; omitted for single-version files  (PASS / HALT)
+- [ ] Version-history table at top of file (after title, before content). Include only when file has version updates; omitted for single-version files  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
 ## The Three-Section Format
