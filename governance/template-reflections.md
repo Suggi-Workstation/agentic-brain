@@ -93,9 +93,9 @@ Files are named: `YYYY-MM-DD_author_slug.md`
 - `author` -- lowercase agent name
 - `slug` -- kebab-case title, max 60 chars, unique per author-date
 
-## The Three-Section Format
+## Body Structure
 
-Every IOR has exactly three sections, labeled I, O, R.
+Every Reflection has exactly three sections, labeled I, O, R.
 
 ### I -- Idea
 *What is the thought? State it in one sentence, then unpack.*
