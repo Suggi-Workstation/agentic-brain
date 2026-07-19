@@ -1,5 +1,5 @@
 ---
-name: portfolio-risk-management
+name: anchor-portfolio-risk-management
 id: 20260719T220313Z
 tier: library-anchor
 domain: portfolio-risk-management

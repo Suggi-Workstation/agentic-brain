@@ -1,5 +1,5 @@
 ---
-name: pop-culture
+name: anchor-pop-culture
 id: 20260719T220312Z
 tier: library-anchor
 domain: pop-culture

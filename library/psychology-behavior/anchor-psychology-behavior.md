@@ -1,5 +1,5 @@
 ---
-name: psychology-behavior
+name: anchor-psychology-behavior
 id: 20260719T220315Z
 tier: library-anchor
 domain: psychology-behavior

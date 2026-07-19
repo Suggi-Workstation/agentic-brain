@@ -1,5 +1,5 @@
 ---
-name: finance
+name: anchor-finance
 id: 20260719T220304Z
 tier: library-anchor
 domain: finance

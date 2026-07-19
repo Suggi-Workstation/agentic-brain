@@ -1,5 +1,5 @@
 ---
-name: books
+name: anchor-books
 id: 20260719T220259Z
 tier: library-anchor
 domain: books

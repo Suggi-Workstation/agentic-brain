@@ -1,5 +1,5 @@
 ---
-name: technology
+name: anchor-technology
 id: 20260719T220318Z
 tier: library-anchor
 domain: technology

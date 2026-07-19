@@ -1,5 +1,5 @@
 ---
-name: coding-agentic-ai
+name: anchor-coding-agentic-ai
 id: 20260719T220301Z
 tier: library-anchor
 domain: coding-agentic-ai

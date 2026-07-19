@@ -1,5 +1,5 @@
 ---
-name: anthropology
+name: anchor-anthropology
 id: 20260719T220258Z
 tier: library-anchor
 domain: anthropology

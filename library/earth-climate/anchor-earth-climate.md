@@ -1,5 +1,5 @@
 ---
-name: earth-climate
+name: anchor-earth-climate
 id: 20260719T220302Z
 tier: library-anchor
 domain: earth-climate

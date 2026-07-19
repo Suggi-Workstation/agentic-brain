@@ -1,5 +1,5 @@
 ---
-name: investors
+name: anchor-investors
 id: 20260719T220307Z
 tier: library-anchor
 domain: investors

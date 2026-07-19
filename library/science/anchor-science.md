@@ -1,5 +1,5 @@
 ---
-name: science
+name: anchor-science
 id: 20260719T220316Z
 tier: library-anchor
 domain: science

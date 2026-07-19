@@ -1,5 +1,5 @@
 ---
-name: ethics-philosophy
+name: anchor-ethics-philosophy
 id: 20260719T220303Z
 tier: library-anchor
 domain: ethics-philosophy

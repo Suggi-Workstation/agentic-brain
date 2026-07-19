@@ -1,5 +1,5 @@
 ---
-name: case-studies
+name: anchor-case-studies
 id: 20260719T220300Z
 tier: library-anchor
 domain: case-studies

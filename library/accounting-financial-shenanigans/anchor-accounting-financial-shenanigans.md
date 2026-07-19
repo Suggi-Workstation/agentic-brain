@@ -1,5 +1,5 @@
 ---
-name: accounting-financial-shenanigans
+name: anchor-accounting-financial-shenanigans
 id: 20260719T220257Z
 tier: library-anchor
 domain: accounting-financial-shenanigans

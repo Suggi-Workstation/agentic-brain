@@ -1,5 +1,5 @@
 ---
-name: self-improvement
+name: anchor-self-improvement
 id: 20260719T220317Z
 tier: library-anchor
 domain: self-improvement

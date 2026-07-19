@@ -1,5 +1,5 @@
 ---
-name: law-regulation
+name: anchor-law-regulation
 id: 20260719T220308Z
 tier: library-anchor
 domain: law-regulation

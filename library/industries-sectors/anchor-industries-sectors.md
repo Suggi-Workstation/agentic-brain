@@ -1,5 +1,5 @@
 ---
-name: industries-sectors
+name: anchor-industries-sectors
 id: 20260719T220306Z
 tier: library-anchor
 domain: industries-sectors

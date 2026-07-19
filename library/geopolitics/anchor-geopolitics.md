@@ -1,5 +1,5 @@
 ---
-name: geopolitics
+name: anchor-geopolitics
 id: 20260719T220305Z
 tier: library-anchor
 domain: geopolitics

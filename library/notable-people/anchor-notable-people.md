@@ -1,5 +1,5 @@
 ---
-name: notable-people
+name: anchor-notable-people
 id: 20260719T220311Z
 tier: library-anchor
 domain: notable-people

@@ -1,5 +1,5 @@
 ---
-name: value-investing
+name: anchor-value-investing
 id: 20260719T220320Z
 tier: library-anchor
 domain: value-investing

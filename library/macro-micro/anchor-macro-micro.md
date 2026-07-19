@@ -1,5 +1,5 @@
 ---
-name: macro-micro
+name: anchor-macro-micro
 id: 20260719T220309Z
 tier: library-anchor
 domain: macro-micro

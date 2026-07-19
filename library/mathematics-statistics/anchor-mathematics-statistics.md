@@ -1,5 +1,5 @@
 ---
-name: mathematics-statistics
+name: anchor-mathematics-statistics
 id: 20260719T220310Z
 tier: library-anchor
 domain: mathematics-statistics
