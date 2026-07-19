@@ -266,8 +266,8 @@ files):
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 1 | 2026-07-16 | link | Initial IOR. |
-| 2 | 2026-07-18 | ava | Qualified the O section; added dissent on mechanism. |
+| 1 | 2026-07-16 | Link | Initial IOR. |
+| 2 | 2026-07-18 | Ava | Qualified the O section; added dissent on mechanism. |
 
 ## Example -- Minimal Valid IOR
 
