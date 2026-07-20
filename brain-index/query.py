@@ -178,7 +178,7 @@ def check_freshness():
     """Check if index is current against git HEAD."""
     import subprocess
 
-    heartbeat_path = SCRIPT_DIR / "heartbeat.json"
+    heartbeat_path = DATA_DIR / "heartbeat.json"
     if not heartbeat_path.exists():
         print("NO INDEX -- run 'python index.py --force' first")
         return

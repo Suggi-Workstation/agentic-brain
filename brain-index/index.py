@@ -291,7 +291,7 @@ def build_index(force: bool = False):
         "files": len(files_now),
         "model": cfg["embedding"]["model"],
     }
-    heartbeat_path = SCRIPT_DIR / "heartbeat.json"
+    heartbeat_path = DATA_DIR / "heartbeat.json"
     with open(heartbeat_path, "w") as f:
         json.dump(heartbeat, f, indent=2)
 
