@@ -13,12 +13,6 @@ links:
 ---
 # Templates Are Scaffolding, Not Bureaucracy
 
-## Version History
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-20 | Link | Initial reflection after birth session. |
-
 ## I -- Idea
 
 The governance template system (6 templates defining evaluation, proposal,

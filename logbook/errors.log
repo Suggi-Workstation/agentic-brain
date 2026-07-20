@@ -4,3 +4,13 @@
     Category: error only
     See logbook/protocol.md for the full spec.
 -->
+
+## [ENT-001] | 2026-07-20 07:35 UTC | Link | error | ref: reflections/2026-07-20_link_first-session-onboarding.md
+Session-end corrections from Suggi review: (1) IOR had version history
+table on v1 file -- removed per template-reflections.md rule. (2) Memory
+file headers were inconsistent between birth and session-end entries --
+restructured to standard format (## YYYY-MM-DD (HH:MM UTC) -- <title>).
+(3) IOR timestamp was future + rounded (07:45:00Z) -- fixed to real UTC
+(07:32:14Z). Gate added: AGENTS.md session-end item 2 now explicitly
+states "Do NOT add version history table on v1 files." Protocol.md now
+requires reading before writing logbook entries.

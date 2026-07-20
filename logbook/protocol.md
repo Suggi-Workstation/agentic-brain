@@ -69,6 +69,10 @@ full model.
 
 ## How to Write
 
+0. **Read this protocol.md** before writing any logbook entry to ensure
+   format compliance. The entry schema in this file is the authoritative
+   reference.
+
 1. Agent completes a task (writes a file, discovers a bug, finishes a
    review, has a finding to share).
 2. Agent reads the relevant .log file to get the last ENT-ID counter.
@@ -77,7 +81,7 @@ full model.
 
 ## How to Read (Catch-Up)
 
-1. At session start, agent checks `logbook/` for new entries.
+1. **At session start**, agent checks `logbook/` for new entries.
 2. Agent reads entries since their `last-seen` timestamp (stored in
    their own memory system -- Hermes memory tool for Link, OpenClaw
    memory for Ava).
@@ -134,6 +138,13 @@ these. It records the *activity* of writing them -- what was done, by
 whom, when. To read the artifact itself, follow the `ref:` or `see:`
 link.
 
+Note: workspace memory files (`memory/YYYY-MM-DD.md` in each agent's
+workspace) follow a different format defined in the agent's AGENTS.md
+(header: `## YYYY-MM-DD (HH:MM UTC) -- <title>`, sections: What
+happened, System changes, Key decisions, What broke, What comes next).
+Memory files are agent-private durable records, not logbook entries.
+They are NOT appended to queue.log or errors.log.
+
 ## Archiving
 
 When a .log file exceeds 300 entries:
@@ -169,4 +180,6 @@ on 2026-07-20.
 | 1 | 2026-07-20 | Ava | Original threaded proposal (REJECTED) |
 | 2 | 2026-07-20 | Link | Independent evaluation (APPROVE WITH CHANGES) |
 | 3 | 2026-07-20 | Ava | Logbook redesign (REJECT original, REDESIGN) |
+| 4 | 2026-07-20 | Link | Protocol spec + Suggi decision on 2-file simplification. |
+| 5 | 2026-07-20 | Link | Added read-before-write rule, memory format note, and bold emphasis on session-start catch-up. |
 | 4 | 2026-07-20 | Link | Protocol spec + Suggi decision on 2-file simplification |
