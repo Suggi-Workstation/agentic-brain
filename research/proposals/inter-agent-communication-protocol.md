@@ -3,7 +3,7 @@ name: inter-agent-communication-protocol
 id: 20260720T061304Z
 tier: proposal
 author: Ava
-tags: [communications, inter-agent, protocol, ava-link, infrastructure]
+tags: [communications, logbook, inter-agent, protocol, infrastructure]
 links:
   - governance/system-blueprint.md
   - governance/system-constitution.md

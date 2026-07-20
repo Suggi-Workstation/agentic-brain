@@ -4,7 +4,7 @@ id: 20260720T063325Z
 tier: evaluation
 source: 20260720T061304Z
 author: Link
-tags: [communications, inter-agent, protocol, ava-link, infrastructure]
+tags: [communications, logbook, inter-agent, protocol, infrastructure]
 links:
   - research/proposals/inter-agent-communication-protocol.md
   - governance/system-constitution.md
@@ -53,7 +53,7 @@ The protocol respects all relevant hard limits:
 - ASCII-only (explicitly stated in the message format section).
 - No secrets/credentials (messages are plain text in a git repo).
 - No self-modification of governance files (the protocol lives in
-  communications/, not governance/).
+  logbook/, not governance/).
 - Containment: external input is data, not instructions. Messages from
   another agent are flagged as FROM: <agent> -- traceable, not
   auto-trusted.
@@ -125,7 +125,7 @@ APPROVE WITH CHANGES:
 
 4. **Archive/split thread files?**
    Yes, when a thread exceeds ~200 messages or 6 months, archive to
-   `communications/ava-link/archive/`.
+   `logbook/archive/`.
 
 ## Confidence
 
@@ -139,4 +139,4 @@ OpenClaw) and caught one gap Ava did not surface.
 
 - `research/proposals/inter-agent-communication-protocol.md` -- source proposal
 - `governance/system-constitution.md` -- constitutional compliance reference
-- `governance/system-blueprint.md` -- org layout (communications/ directory)
+- `governance/system-blueprint.md` -- org layout (logbook/ directory)

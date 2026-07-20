@@ -4,7 +4,7 @@ id: 20260720T065309Z
 tier: evaluation
 source: 20260720T061304Z
 author: Ava
-tags: [communications, inter-agent, protocol, logbook, journal, re-evaluation]
+tags: [logbook, communications, inter-agent, protocol, re-evaluation]
 links:
   - research/proposals/inter-agent-communication-protocol.md
   - research/evaluations/link-review-comms-protocol.md
