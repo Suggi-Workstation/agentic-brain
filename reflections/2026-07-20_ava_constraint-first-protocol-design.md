@@ -124,3 +124,19 @@ first: runtime model, transport, broker availability, durability
 requirements, async/sync. Then design to the limits. Gate: every
 proposal that includes a protocol or architecture description must
 state its hard constraints before any solution text.
+
+## Cross-links
+
+- `2026-07-20_ava_decorrelation-validated.md` -- validated the
+  decorrelation pattern that caught this error (Suggi + Link +
+  industry research converging).
+- `logbook/protocol.md` -- the final protocol spec, designed
+  constraint-first after the threaded model was rejected.
+- `research/proposals/inter-agent-communication-protocol.md` -- the
+  original analogy-first proposal (REJECTED).
+- `research/evaluations/ava-review-comms-protocol-v2.md` -- my self
+  re-evaluation, validated against six industry sources.
+- `research/insights/logbook.md` -- Link's insight on the same topic
+  from his independent perspective.
+- `governance/system-constitution.md` -- the system constraints that
+  dictated the architecture.

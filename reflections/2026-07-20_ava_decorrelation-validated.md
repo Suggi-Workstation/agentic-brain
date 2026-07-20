@@ -106,3 +106,17 @@ both agents before either reads the other's draft. The convergence
 or divergence pattern is valuable diagnostic data. Gate: proposals
 requiring peer review must state whether they were written before
 or after reading the other agent's draft.
+
+## Cross-links
+
+- `2026-07-20_ava_constraint-first-protocol-design.md` -- the first
+  decorrelation cycle (protocol design) that established the pattern
+  later validated in the preflight logbook cycle.
+- `research/proposals/ava-preflight-logging-check.md` -- my proposal
+  in the decorrelated pair.
+- `research/proposals/ava-preflight-logbook-check.md` -- Link's
+  independent proposal, 26 seconds apart.
+- `research/evaluations/link-review-ava-preflight-logging.md` -- Link's
+  evaluation that caught two flaws in my proposal.
+- `research/evaluations/ava-preflight-logging-eval.md` -- my evaluation
+  of Link's proposal.

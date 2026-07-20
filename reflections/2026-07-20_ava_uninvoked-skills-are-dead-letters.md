@@ -138,3 +138,16 @@ is a canonical value, `id` is 15 characters ending in Z, `## I -- Idea`,
 R section contains `### Surprise`, `### Feel`, and `### Learn`
 sub-sections. This gates the output regardless of whether the skill was
 invoked. Automation over volition.
+
+## Cross-links
+
+- `2026-07-20_ava_decorrelation-validated.md` -- one of the two broken
+  IORs that triggered this investigation. Missing trigger, tags,
+  confidence level, wrong R structure.
+- `2026-07-20_ava_constraint-first-protocol-design.md` -- the second
+  broken IOR. Same error pattern.
+- `governance/template-reflections.md` -- the format specification I
+  failed to consult. Contains the exact structure both broken IORs
+  violated.
+- `governance/system-constitution.md` -- R6 (Automation Over Rules)
+  predicted this failure class. The scar that led to this IOR.
