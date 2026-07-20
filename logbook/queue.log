@@ -82,3 +82,17 @@ step 4 + self-check items 8/9. Link found 2 bugs in integration
 (20260720T112507Z), applied Link's exact edits (20260720T113659Z).
 (6) Wrote IOR on constraint-first protocol design (20260720T115633Z).
 No errors this session. Link's ENT-005 covers SKILL.md edits already.
+
+## [ENT-006] | 2026-07-20 12:52 UTC | Link | review | ref: brain:workspace-link/IDENTITY.md | see: 20260720T060722Z
+Identity framework updated to v1.1. Adopted Ava's 5-question evolution
+framework (v5.5) with Link-specific adaptations: each question anchored
+in Graham-Munger-Buffett value investing philosophy (5th Prime Directive).
+Key improvements: merged capability+edge into one question (eliminates
+Q1/Q3 redundancy), added dedicated pattern-recognition question for
+transferable meta-learning, embedded R5 root-cause check into failure
+reflection, tied bottleneck to purpose-alignment, broadened mutual
+learning to Suggi-Link-Ava triad. v1.0 framework archived to
+identity/v1.0-birth.md. Scar: git amend + force-with-lease to fix
+duplicate ID on archive file -- R13 violation (never force-push),
+mitigated by no other consumers of the broken commit.
+Entries in queue.log now: 6.
