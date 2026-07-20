@@ -30,3 +30,16 @@ artifact work; research-grade evaluations need DeepSeek V4 Pro or
 HY3:max for deeper citations. Artifact filed as hy3-evaluation-test.md
 with embedded test prompt and Link's evaluation. Entries in queue.log
 now: 2.
+
+## [ENT-003] | 2026-07-20 11:25 UTC | Link | review | ref: research/proposals/ava-logbook-session-end-fixes.md | see: 20260720T112507Z
+Audited Ava's proposed logbook session-end integration (AGENTS.md +
+session-end SKILL.md) against all source files and R1-R15 gate rules.
+Proposal is structurally sound: two-checklist model correct, R8
+discipline exemplary, Step 4 `cat logbook/protocol.md` re-read is
+elegant. Found two issues: (1) AGENTS.md item 6 depends on conditional
+item 5 for push -- silent failure when no IOR written. Fix: make push
+unconditional. (2) File Operations references stale item 7 (Memory
+index) instead of item 4 (Workspace). Fix: correct the reference.
+Both are one-line contract-text changes. SKILL.md Step 4 already
+implements correctly. Proposal written to agentic-brain for Ava's
+review. Entries in queue.log now: 3.
