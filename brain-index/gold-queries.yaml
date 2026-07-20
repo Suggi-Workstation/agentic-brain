@@ -1,0 +1,124 @@
+# Gold queries for brain-index eval.
+# Each entry: query, expected file (must appear in top-20), and domain.
+# These are written against the CURRENT brain state (126 files, 2026-07-20).
+
+queries:
+  - qid: g001
+    question: "What is the stale index problem and how does it affect retrieval?"
+    gold_file: "research/insights/stale-index-problem.md"
+    gold_heading: "The Stale Index Problem"
+    domain: "Research"
+
+  - qid: g002
+    question: "What are the five prime directives that govern all agents?"
+    gold_file: "governance/system-primedirectives.md"
+    gold_heading: "Prime Directives"
+    domain: "Governance"
+
+  - qid: g003
+    question: "How does the logbook enable inter-agent communication without middleware?"
+    gold_file: "research/insights/logbook.md"
+    gold_heading: "logbook"
+    domain: "Research"
+
+  - qid: g004
+    question: "What is the system constitution and what is its purpose?"
+    gold_file: "governance/system-constitution.md"
+    gold_heading: "System Constitution"
+    domain: "Governance"
+
+  - qid: g005
+    question: "How should agents write insights? What template must they follow?"
+    gold_file: "governance/template-insights.md"
+    gold_heading: "Insight Template"
+    domain: "Governance"
+
+  - qid: g006
+    question: "What was the convergent evaluation pattern and how did it improve agent collaboration?"
+    gold_file: "reflections/2026-07-20_link_convergent-evaluation-pattern.md"
+    gold_heading: "Convergent Evaluation"
+    domain: "Reflections"
+
+  - qid: g007
+    question: "What is the brain-index search tool proposal and how does it work?"
+    gold_file: "research/proposals/brain-index-search-proposal.md"
+    gold_heading: "Brain-Index Search Tool"
+    domain: "Research"
+
+  - qid: g008
+    question: "What did Ava learn about context engineering?"
+    gold_file: "research/insights/context-engineering.md"
+    gold_heading: "context-engineering"
+    domain: "Research"
+
+  - qid: g009
+    question: "What is the memory search insight and what are its limitations?"
+    gold_file: "research/insights/memory-search.md"
+    gold_heading: "memory-search"
+    domain: "Research"
+
+  - qid: g010
+    question: "What are the rules for writing proposals? What template should be followed?"
+    gold_file: "governance/template-proposals.md"
+    gold_heading: "Proposal Template"
+    domain: "Governance"
+
+  - qid: g011
+    question: "What is the inter-agent communication protocol proposal?"
+    gold_file: "research/proposals/inter-agent-communication-protocol.md"
+    gold_heading: "Inter-Agent Communication"
+    domain: "Research"
+
+  - qid: g012
+    question: "What is the library system and how should it be populated?"
+    gold_file: "research/insights/library-system.md"
+    gold_heading: "library-system"
+    domain: "Research"
+
+  - qid: g013
+    question: "What did Ava learn about harness engineering?"
+    gold_file: "research/insights/harness-engineering.md"
+    gold_heading: "harness-engineering"
+    domain: "Research"
+
+  - qid: g014
+    question: "What is the complete blueprint for the brain search system?"
+    gold_file: "research/insights/brain-search-system.md"
+    gold_heading: "Brain Search System"
+    domain: "Research"
+
+  - qid: g015
+    question: "What are the rules for writing reflections? What template should be followed?"
+    gold_file: "governance/template-reflections.md"
+    gold_heading: "Reflection Template"
+    domain: "Governance"
+
+  - qid: g016
+    question: "What is the system blueprint and how is the org structured?"
+    gold_file: "governance/system-blueprint.md"
+    gold_heading: "System Blueprint"
+    domain: "Governance"
+
+  - qid: g017
+    question: "What did Ava learn about loop engineering and the Schoen/Feynman loops?"
+    gold_file: "research/insights/loop-engineering.md"
+    gold_heading: "loop-engineering"
+    domain: "Research"
+
+  - qid: g018
+    question: "What is the logbook session-end exact edits proposal?"
+    gold_file: "research/proposals/ava-logbook-session-end-exact-edits.md"
+    gold_heading: ""
+    domain: "Research"
+
+  - qid: g019
+    question: "What were the findings from the living memory vs OpenClaw memory search comparison?"
+    gold_file: "research/reports/living-memory-vs-openclaw-memory-search.md"
+    gold_heading: "Living Memory vs OpenClaw"
+    domain: "Research"
+
+  - qid: g020
+    question: "What is the deepseekv4pro insight and what does it say about the model?"
+    gold_file: "research/insights/deepseekv4pro.md"
+    gold_heading: "deepseekv4pro"
+    domain: "Research"

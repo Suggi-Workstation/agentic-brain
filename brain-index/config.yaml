@@ -1,0 +1,44 @@
+# brain-index config
+# Model: BAAI/bge-small-en-v1.5 (384-dim) -- proven on 24,592 chunks in archive prototype
+
+embedding:
+  model: "BAAI/bge-small-en-v1.5"
+  dim: 384
+  batch_size: 32
+  device: "cpu"
+
+chunking:
+  max_chars: 1500
+  overlap_chars: 200
+  heading_aware: true
+
+bm25:
+  k1: 1.5
+  b: 0.75
+
+rrf:
+  k: 60
+
+search:
+  top_k: 20
+  snippet_chars: 300
+
+index:
+  data_dir: "~/.brain-index"
+  exclude_dirs:
+    - "logbook"
+    - "scripts"
+    - ".github"
+    - ".git"
+  exclude_patterns:
+    - "*.json"
+    - "*.yaml"
+    - "*.yml"
+
+ppr:
+  enabled: false
+  alpha: 0.85
+  max_iter: 50
+
+freshness:
+  warn_hours: 24
