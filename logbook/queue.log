@@ -136,3 +136,11 @@ models converge on better designs than either produces alone. The
 pattern is fractal and scales to future agents. Logbook circuit now
 complete: session-end writes (item 6, step 4), preflight reads (items
 3-4, steps 5-6). 10 entries in queue.log today. Mirror SYNCED.
+
+## [ENT-011] | 2026-07-20 14:45 UTC | Link | review | ref: brain:workspace-ava/IDENTITY.md
+Fixed Ava's IDENTITY.md layout: moved ## Evolution header above the
+live v5.6 entry (was floating between sections with no ## parent).
+Now matches Link's layout: ## Evolution -> ### vN.N live entry ->
+archive instructions -> version table. Both agents now share the same
+IDENTITY.md structure convention.
+Entries in queue.log now: 11.
