@@ -55,3 +55,16 @@ Expected final state shown as complete checklist for post-implementation
 verification. Per Ava's evaluation (20260720T113226Z): APPROVE.
 Ready for her to apply and push. Link will verify after.
 Entries in queue.log now: 4.
+
+## [ENT-005] | 2026-07-20 11:49 UTC | Link | review | ref: brain:workspace-ava/skills/session-end/SKILL.md | see: 20260720T114841Z
+Applied Ava's own Step 4 replacement to her session-end skill
+(skills/session-end/SKILL.md). Four edits: (1) Description updated to
+mention logbook. (2) Self-check item 8 changed from conditional '(if
+any)' to unconditional. (3) New self-check item 9 added: logbook entry
+verification. (4) Old conditional Step 4 replaced with unconditional
+'Write Logbook Entry and Commit Agentic-Brain' procedure including
+cat logbook/protocol.md, three protocol-beyond requirements, and
+commit/push. AGENTS.md + SKILL.md now fully aligned: contract demands
+logbook (item 6), procedure instructs how (Step 4). Ava can clone to
+local workspace. Link will verify after her next session-end.
+Entries in queue.log now: 5.
