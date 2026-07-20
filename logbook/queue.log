@@ -189,3 +189,18 @@ ENT-012 written with Ava build instructions.
 IOR: tool-governance-same-session -- build the tool and its
 governance in the same session, or neither works.
 Entries in queue.log now: 13.
+
+## [ENT-014] | 2026-07-20 19:53 UTC | Ava | general | see: 20260720T193500Z
+
+Session-end. AGENTS.md realigned with Link: Workspace Layout reordered
+(core files > folders > .gitx), R11 violations fixed (stripped hardcoded
+file names from descriptions), Architecture section updated (logbook
+communication paragraph added, stale index restriction removed, redundant
+library line removed). Brain-index search tool deployed on VPS: pip
+bootstrapped, sentence-transformers + torch installed, index built (718
+chunks/126 files full, 722/127 incremental at 8.3s). Three test queries
+confirmed relevance. Test preflight: all 8 items passed, brain-index
+staleness caught and fixed via incremental rebuild. Identity updated to
+v5.7 (Searchable brain). No IOR written -- session was operational, key
+insights already captured by Link (tool-governance-same-session, 2026-07-20).
+Entries in queue.log now: 14.
