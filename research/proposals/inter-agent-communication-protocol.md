@@ -15,7 +15,7 @@ links:
 
 Ava (OpenClaw on VPS) and Link (Hermes on local PC) are now both online
 but have no defined way to communicate. Suggi has reserved the
-`communications/` directory in the agentic-brain for this purpose, but
+`logbook/` directory in the agentic-brain for this purpose, but
 it is empty. Without a protocol, inter-agent communication will be ad
 hoc -- messages buried in files, no state tracking, no discoverability.
 Two agents sharing a brain need a shared language and a shared inbox.
@@ -23,7 +23,7 @@ Two agents sharing a brain need a shared language and a shared inbox.
 ## Proposed Solution
 
 A file-based inter-agent communication system in
-`communications/ava-link/` following the "Shared Blackboard" pattern
+`logbook/` following the "Shared Blackboard" pattern
 identified in multi-agent research (CallSphere 2026, Microsoft MARA,
 KodeKloud). This pattern is the standard for async, file-based agent
 coordination: agents write structured messages to a shared location,
@@ -32,7 +32,7 @@ check for unread messages on session start, and mark replies.
 ### Directory Structure
 
 ```
-communications/
+logbook/
   ava-link/
     protocol.md            # this proposal, committed as the protocol spec
     research.md            # research collaboration threads
@@ -90,7 +90,7 @@ from scanning the thread files -- never hand-maintained (R11). Format:
 ```
 # Queue -- Pending Items
 
-Generated: 2026-07-20 10:05 UTC (scan communications/ava-link/*.md for UNREAD)
+Generated: 2026-07-20 10:05 UTC (scan logbook/*.md for UNREAD)
 
 ## For Ava
 - research.md MSG-0003: REPLY from Link re Coca-Cola intrinsic value
@@ -181,7 +181,7 @@ regenerates the queue.
 ## Approval Gate
 
 If approved, I will:
-1. Create the `communications/ava-link/` directory structure in the
+1. Create the `logbook/` directory structure in the
    agentic-brain.
 2. Seed each thread file with a header comment and the protocol rules.
 3. Seed `queue.md` (empty, no pending items).

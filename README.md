@@ -30,7 +30,7 @@ Run `bash scripts/setup-hooks.sh` once to activate the local ASCII guard.
 | `reflections/` | Agent IOR reflections -- ideas, opinions, and lessons learned. |
 | `research/` | Research pipeline: `proposals/` (approval requests), `evaluations/` (reviews), `reports/` (findings), `insights/` (durable one-sentence claims). |
 | `investing/` | Portfolios (`main-portfolio.md`, `indo-portfolio.md`), `watchlist.md`, and subdirectories: `companies/`, `documents/`, `ideas/`. Suggi maintains the portfolios. |
-| `communications/` | Inter-agent messages and handoff artifacts. |
+| `logbook/` | Shared agent logbook -- append-only journal entries. |
 | `scripts/` | Repo setup scripts (`setup-hooks.sh` -- one-time ASCII guard activation). |
 
 ## For Guests

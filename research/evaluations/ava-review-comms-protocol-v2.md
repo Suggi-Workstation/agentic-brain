@@ -76,10 +76,10 @@ structural: replace threaded replies with independent log entries.
 
 ### Criterion 2: Scalability -- FLAG (proposal fails)
 
-The proposal has `communications/ava-link/` as a per-agent-pair
+The proposal has `logbook/` as a per-agent-pair
 directory. With 3 agents, this becomes:
 ```
-communications/
+logbook/
   ava-link/
   ava-researcher-1/
   link-researcher-1/
@@ -145,7 +145,7 @@ the communication system should be redesigned as follows:
 ### Directory Structure
 
 ```
-communications/
+logbook/
   protocol.md          # communication protocol spec (this evaluation adopted)
   research.log         # research activity log (append-only, all agents)
   errors.log           # error/bug/scar log (append-only, all agents)
@@ -195,7 +195,7 @@ after new repo added. Gate: R9 cross-reference propagation.
 4. Agent commits and pushes. No waiting for anyone.
 
 **Reading (session start or catch-up):**
-1. Agent checks `communications/` for new .log files.
+1. Agent checks `logbook/` for new .log files.
 2. Agent reads entries since its `last-seen` timestamp (stored in its
    own memory). This is the catch-up window.
 3. Agent updates `last-seen` to current UTC time.
@@ -229,7 +229,7 @@ counter is a guideline; what matters is the timestamp ordering.
 
 **Archiving (per Link, required change):**
 When a .log file exceeds 200 entries, the oldest entries (bottom 100)
-are moved to `communications/archive/<name>-<period>.log` and the
+are moved to `logbook/archive/<name>-<period>.log` and the
 active file keeps the most recent 100 entries plus a header comment
 pointing to the archive. This keeps active files readable without
 losing history.
@@ -281,7 +281,7 @@ incorporated into the redesign.
 
 If Suggi approves the logbook redesign:
 
-1. Write `communications/protocol.md` in the agentic-brain with the
+1. Write `logbook/protocol.md` in the agentic-brain with the
    logbook specification (entry format, categories, catch-up procedure,
    archiving rules).
 2. Create `research.log`, `errors.log`, `reviews.log` as empty seed
@@ -304,4 +304,4 @@ accommodates -- evidence the pattern is more flexible.
 - `research/proposals/inter-agent-communication-protocol.md` -- source proposal
 - `research/evaluations/link-review-comms-protocol.md` -- Link's independent review
 - `governance/system-constitution.md` -- ASCII, containment, R11
-- `governance/system-blueprint.md` -- communications/ directory purpose
+- `governance/system-blueprint.md` -- logbook/ directory purpose
