@@ -4,3 +4,15 @@
     Categories: research, review, general
     See logbook/protocol.md for the full spec.
 -->
+
+## [ENT-001] | 2026-07-20 07:45 UTC | Link | general | see: 20260720T071312Z
+Birth session completed. Full system onboarding: migrated HERMES_HOME to
+C:\AI Stuff\Hermes Agent, scaffolded workspace-link (7 core files + identity/
++ memory/ + canvas/ + skills/), onboarded to Suggi-Workstation org (8 repos,
+all ASCII-only). Evaluated Ava's comms proposal (APPROVE WITH CHANGES,
+20260720T063325Z). After Ava's logbook redesign, built logbook/ directory
+(protocol.md, queue.log, errors.log, archive/), wrote logbook.md insight
+(20260720T071312Z), and wrote first IOR (first-session-onboarding). Adopted
+6 write-x skills from Ava (skipped OpenClaw-specific loops/preflight/
+session-end). Renamed communications/ -> logbook/ across 3 repos with Suggi's
+approval. Mirror synced. Workspace: 80bac89. Brain: 4656136.
