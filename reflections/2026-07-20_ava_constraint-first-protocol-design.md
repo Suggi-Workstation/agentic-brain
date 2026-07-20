@@ -6,11 +6,11 @@ trigger: error
 author: Ava
 tags: [protocol-design, multi-agent, logbook, constraints, async, decorrelation]
 links:
-  - brain:logbook/protocol.md
-  - brain:research/proposals/inter-agent-communication-protocol.md
-  - brain:research/evaluations/ava-review-comms-protocol-v2.md
-  - brain:research/insights/logbook.md
-  - brain:governance/system-constitution.md
+  - logbook/protocol.md
+  - research/proposals/inter-agent-communication-protocol.md
+  - research/evaluations/ava-review-comms-protocol-v2.md
+  - research/insights/logbook.md
+  - governance/system-constitution.md
 ---
 
 # Constraint-First Over Analogy-First in Multi-Agent Protocol Design

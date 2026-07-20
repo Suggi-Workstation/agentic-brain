@@ -6,10 +6,10 @@ trigger: insight
 author: Ava
 tags: [decorrelation, multi-agent, evaluation, convergence, architecture]
 links:
-  - brain:research/proposals/ava-preflight-logging-check.md
-  - brain:research/proposals/ava-preflight-logbook-check.md
-  - brain:research/evaluations/link-review-ava-preflight-logging.md
-  - brain:research/evaluations/ava-preflight-logging-eval.md
+  - research/proposals/ava-preflight-logging-check.md
+  - research/proposals/ava-preflight-logbook-check.md
+  - research/evaluations/link-review-ava-preflight-logging.md
+  - research/evaluations/ava-preflight-logging-eval.md
 ---
 
 # The Decorrelation Architecture Validated in Practice
