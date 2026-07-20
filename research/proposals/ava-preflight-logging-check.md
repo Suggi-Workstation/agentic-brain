@@ -37,11 +37,9 @@ and a logbook status line in the read-proof.
 Insert a new item 3 (logbook catch-up), renumber existing 3->4, 4->5,
 5->6:
 
-```
 - [ ] 3. Logbook catch-up: queue.log and errors.log read for new
        entries since last session; @agent mentions noted for action;
        last-seen timestamp updated  (PASS / HALT)
-```
 
 Position: after item 2 (governance ingested -- which does the brain
 clone) and before item 3/4 (memory index). The logbook files are
@@ -51,7 +49,6 @@ available in the governance clone at `/tmp/brain-pf/logbook/`.
 
 **New step (between current step 5 and 6, renumbering 6->7, 7->8):**
 
-```markdown
 ### 6. Catch Up on Logbook
 
 Read new logbook entries since the last session. The governance clone
@@ -89,30 +86,27 @@ echo "logbook-last-seen: $(date -u +'%Y-%m-%d %H:%M UTC')" >> /tmp/last-seen
 The next session uses this timestamp to determine which entries are
 new. A simple `grep` for entries after this timestamp in the logbook
 files is sufficient.
-```
 
 **New self-check item (insert after governance item):**
 
-```
-- [ ] Logbook catch-up: queue.log and errors.log read from brain clone (tail -n 50 each); @agent mentions identified and flagged; last-seen timestamp recorded  (PASS / HALT)
-```
+- [ ] Logbook catch-up: queue.log and errors.log read from brain clone
+       (tail -n 50 each); @agent mentions identified and flagged;
+       last-seen timestamp recorded  (PASS / HALT)
 
 ### Edit C: preflight SKILL.md -- read-proof update
 
 The read-proof emission (step 7, renumbered to 8) adds a logbook line:
 
 Add after the governance line:
-```
-logbook: <caught up | no new entries>;
-```
+
+    logbook: <caught up | no new entries>;
 
 The read-proof becomes:
-```
-read: SOUL OK; AGENTS OK; MEMORY OK; IDENTITY OK; USER OK;
-governance OK; logbook: caught up (N new entries, M @mentions);
-memory_search OK; context OK;
-mirror: SYNCED
-```
+
+    read: SOUL OK; AGENTS OK; MEMORY OK; IDENTITY OK; USER OK;
+    governance OK; logbook: caught up (N new entries, M @mentions);
+    memory_search OK; context OK;
+    mirror: SYNCED
 
 This makes the logbook read visible in the session's first output,
 providing immediate feedback on what happened while the agent was
