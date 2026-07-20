@@ -81,25 +81,32 @@ https://github.com/Suggi-Workstation/workspace-ava - *Ava's live workspace.*
 Mirrored 1:1 from the VPS. Contains all core files. Ava is
 the primary agent for Suggi.
 
-### #4 - workspace-researcher-1
+### #4 - workspace-ava
+
+https://github.com/Suggi-Workstation/workspace-ava - *Ava's live workspace.*
+
+Mirrored 1:1 from local PC. Contains all core files. Link is
+the secondary agent for Suggi.
+
+### #5 - workspace-researcher-1
 
 https://github.com/Suggi-Workstation/workspace-researcher-1 - *workspace for the first research agent.*
 
 Lean workspace for independent deep-dive research. Runs on its own model.
 
-### #5 - workspace-researcher-2
+### #6 - workspace-researcher-2
 
 https://github.com/Suggi-Workstation/workspace-researcher-2 - *workspace for the second research agent.*
 
 Lean workspace for independent deep-dive research. Runs on its own model.
 
-### #6 - workspace-investor
+### #7 - workspace-investor
 
 https://github.com/Suggi-Workstation/workspace-investor - *workspace for the investing agent.*
 
 Lean workspace for investing research and analysis. Runs on its own model.
 
-### #7 - archive
+### #8 - archive
 https://github.com/Suggi-Workstation/archive - *the archive.*
 
 Old, archived workspaces and repositories are stored here.
