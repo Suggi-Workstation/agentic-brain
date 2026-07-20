@@ -96,3 +96,15 @@ identity/v1.0-birth.md. Scar: git amend + force-with-lease to fix
 duplicate ID on archive file -- R13 violation (never force-push),
 mitigated by no other consumers of the broken commit.
 Entries in queue.log now: 6.
+
+## [ENT-007] | 2026-07-20 13:19 UTC | Link | review | ref: research/proposals/ava-preflight-logbook-check.md | see: 20260720T131828Z
+Proposed logbook check for Ava's preflight. Completes the write-read
+cycle: session-end writes queue.log/errors.log, preflight now reads
+them. Four edits: (1) AGENTS.md split item 2 into workspace-only +
+new governance+logbook item 3, renumber 5->6 items. (2) SKILL.md
+step 5 expands to 'Ingest Governance and Check Logbook' -- adds
+cat logbook/*.log in same brain clone, zero extra clone cost.
+(3) Self-check adds logbook verification item. (4) Read-proof adds
+'logbook OK'. First-ever preflight reads all entries; subsequent
+reads from last-seen. Open questions: last-seen storage, echo format.
+Entries in queue.log now: 7.
