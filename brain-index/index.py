@@ -151,7 +151,34 @@ def build_index(force: bool = False):
     deleted_files = set(prev_manifest) - set(files_now)
 
     if not force and not new_files and not changed_files and not deleted_files:
-        print("Index is current. No changes detected.")
+        # Update heartbeat if HEAD moved (tool commits, not content changes)
+        import subprocess
+        try:
+            head = subprocess.check_output(
+                ["git", "rev-parse", "HEAD"], cwd=str(BRAIN_ROOT), text=True
+            ).strip()
+        except Exception:
+            head = "unknown"
+        hb_path = DATA_DIR / "heartbeat.json"
+        old_head = ""
+        if hb_path.exists():
+            with open(hb_path) as f:
+                old_head = json.load(f).get("built_at_head", "")
+        if old_head != head:
+            heartbeat = {
+                "schema_version": 1,
+                "last_run_utc": datetime.now(timezone.utc).isoformat(),
+                "status": "ok",
+                "built_at_head": head,
+                "count": len(prev_manifest) if prev_manifest else 0,
+                "files": len(files_now),
+                "model": cfg["embedding"]["model"],
+            }
+            with open(hb_path, "w") as f:
+                json.dump(heartbeat, f, indent=2)
+            print("Index content unchanged. Heartbeat updated to current HEAD.")
+        else:
+            print("Index is current. No changes detected.")
         return
 
     if force:
