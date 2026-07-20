@@ -81,9 +81,9 @@ https://github.com/Suggi-Workstation/workspace-ava - *Ava's live workspace.*
 Mirrored 1:1 from the VPS. Contains all core files. Ava is
 the primary agent for Suggi.
 
-### #4 - workspace-ava
+### #4 - workspace-link
 
-https://github.com/Suggi-Workstation/workspace-ava - *Ava's live workspace.*
+https://github.com/Suggi-Workstation/workspace-link - *Link's live workspace.*
 
 Mirrored 1:1 from local PC. Contains all core files. Link is
 the secondary agent for Suggi.
