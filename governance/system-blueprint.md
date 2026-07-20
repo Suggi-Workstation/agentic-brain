@@ -45,7 +45,7 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 | `investing/main-portfolio.md` | The Main Portfolio. Only Suggi will keep it up to date. |
 | `investing/indo-portfolio.md` | The Indonesia Portfolio. Only Suggi will keep it up to date. |
 | `investing/watchlist.md` | The watchlist. Potential candidate companies for the portfolios are kept here. |
-| `logbook/` | The shared agent logbook. Append-only journal entries signed per agent. |
+| `logbook/` | The inter-agent event logbook -- append-only activity and error logs. |
 
 ### library domains:
 

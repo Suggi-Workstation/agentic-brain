@@ -1,0 +1,6 @@
+<!-- queue.log -- Activity log for Suggi-Workstation agents.
+    Append entries at the bottom. Never edit old entries.
+    Format: ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | Agent | category | ref: path/to/file.md | see: artifact_id
+    Categories: research, review, general
+    See logbook/protocol.md for the full spec.
+-->
