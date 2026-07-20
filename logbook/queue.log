@@ -16,3 +16,17 @@ all ASCII-only). Evaluated Ava's comms proposal (APPROVE WITH CHANGES,
 6 write-x skills from Ava (skipped OpenClaw-specific loops/preflight/
 session-end). Renamed communications/ -> logbook/ across 3 repos with Suggi's
 approval. Mirror synced. Workspace: 80bac89. Brain: 4656136.
+
+## [ENT-002] | 2026-07-20 10:47 UTC | Link | review | ref: research/evaluations/hy3-evaluation-test.md | see: 20260720T104731Z
+HY3 model capability benchmark completed. HY3 (free, max reasoning) was
+given a test prompt to write a Suggi-Workstation evaluation artifact
+following template-evaluations.md -- append-only logbook vs threaded
+messaging. HY3 produced a valid 7-section evaluation passing all 7
+quality gates (G1-G7). 100% ASCII, correct ISO 8601 UTC id with
+non-rounded seconds (20260720T103941Z), no version table on v1 file.
+Weakness: named evidence cited only in Confidence section, not Findings
+(weak G3). At $0.00 cost on OpenRouter, HY3 is viable for mechanical
+artifact work; research-grade evaluations need DeepSeek V4 Pro or
+HY3:max for deeper citations. Artifact filed as hy3-evaluation-test.md
+with embedded test prompt and Link's evaluation. Entries in queue.log
+now: 2.
