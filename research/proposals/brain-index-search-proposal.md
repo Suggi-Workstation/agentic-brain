@@ -13,6 +13,13 @@ links:
 
 # Brain-Index Search Tool -- Shared Knowledge-Base Retrieval for All Agents
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-07-17 | Ava | Initial proposal: architecture, technology choices, build order. |
+| 2 | 2026-07-20 | Link | Archive confirmation: bge-small-en-v1.5 validated on 24,592 chunks. Open questions resolved. Cross-linked to brain-search-system.md blueprint insight. |
+
 ## Problem
 
 The agentic-brain will grow to 5,000-50,000 files across 23+ library
@@ -36,16 +43,21 @@ zero-maintenance automation; knowledge-base retrieval needs eval
 gates and freshness verification.
 
 **Evidence:**
-- Current agentic-brain: ~24 files, 169 KB. No search tool.
-- Living Memory indexed ~1,500 brain + archive files and proved the
-  hybrid approach at that scale (see report at
-  `research/reports/living-memory-vs-openclaw-memory-search.md`).
+- Current agentic-brain: 125 files, 1.7 MB. No search tool.
+- Archive prototype (`Suggi-Workstation/archive`, `hub-brain` folder):
+  built with `BAAI/bge-small-en-v1.5`, indexed 24,592 chunks across
+  1,648 files and 36 domains, validated by 230 gold queries across 4
+  eval batches. The architecture is proven at scale.
 - At 50,000 files, raw vector search alone returns topical nearness
   but misses structural connections between domains. The old
   system's PPR graph traversal over curated `links:` edges was
   built to bridge this gap.
 - Every library topic, insight, and reflection added to the brain
   without a search tool is effectively buried after a few weeks.
+- The old library files (1,348 topics) had inconsistent frontmatter
+  -- no uniform templates. This was the bottleneck, not the search
+  engine. The current brain enforces uniform templates via write-x
+  skills, making every file machine-indexable.
 
 ## Proposed Solution
 
@@ -109,7 +121,7 @@ Memory and OpenClaw `memory_search`:
 
 | Component | Choice | Why |
 |:----------|:-------|:----|
-| Embedding model | bge-small-en (384-dim) or all-MiniLM-L6-v2 | Proven on markdown at ~1,500 files. Zero API cost. Small enough to run on any machine. Already tested in the old system. |
+| Embedding model | `BAAI/bge-small-en-v1.5` (384-dim) | Proven on 24,592 chunks in the archive prototype. Zero API cost. Runs on CPU. Confirmed by both old build and current proposal as the settled choice. |
 | Keyword search | BM25 via rank-bm25 | Same algorithm proven in both old and new systems. Python-native, no database dependency. |
 | Rank fusion | RRF (k=60) | Same formula the old system used. Proven to balance semantic and keyword signals. |
 | Chunking | ~400 tokens, heading-aware, 80-token overlap | Matches OpenClaw's chunking. Respects markdown headings as natural boundaries. |
@@ -290,44 +302,46 @@ one.
 
 ## Open Questions
 
-1. **One shared index on the VPS or per-agent indexes?** The VPS
-   can run the indexer once and all local agents query it. But
-   agents on other machines (Link's desktop, Zelda's environment)
-   would need their own index or remote access. Options: (a)
-   per-agent local index (simple, no network dependency), (b) VPS
-   hosts the index and agents query via SSH or a simple HTTP API,
-   (c) both -- local index as default, VPS-hosted as fallback.
-   Suggi's preference needed.
+1. **One shared index on the VPS or per-agent indexes?**
+   **RESOLVED (2026-07-20):** Both. VPS agents (Ava, researcher-1/2,
+   investor) share one index at `~/.brain-index/` on the VPS
+   filesystem. Link (Hermes, Suggi's PC) builds his own separate
+   index. Both are built from the same brain repo and verified by
+   the same eval gate. The per-machine split is clean: shared
+   filesystem = shared index, separate machine = separate index.
 
-2. **Embedding model choice.** bge-small (384-dim) is proven on
-   the exact corpus type (markdown knowledge base) and runs on CPU.
-   But embeddinggemma-300m (768-dim) is already running locally
-   via llama.cpp on the VPS. Should the brain-index use the same
-   embedding infrastructure (llama.cpp) or stay independent with
-   sentence-transformers? Same infrastructure = shared model
-   management. Independent = no llama.cpp dependency for agents
-   on machines without it.
+2. **Embedding model choice.**
+   **RESOLVED (2026-07-20):** `BAAI/bge-small-en-v1.5` (384-dim)
+   via sentence-transformers. This is the exact model the archive
+   prototype used for 24,592 chunks across 1,648 files. It runs on
+   CPU, costs zero dollars, and is proven on this exact corpus type.
+   No llama.cpp dependency needed -- sentence-transformers is
+   simpler and works identically on every agent's machine. Model
+   is swappable via config.yaml; the eval gate catches regressions.
 
-3. **PPR revival priority.** The old system's PPR graph traversal
-   over `links:` edges was built but turned OFF. At 50,000 files,
-   graph-aware retrieval becomes more important. Should PPR be in
-   the initial build (session 3) or deferred to a follow-up
-   proposal? Initial build = more complex deliverable but
-   future-proof design. Deferred = simpler initial build but
-   potential redesign when PPR is added later.
+3. **PPR revival priority.**
+   **RESOLVED (2026-07-20):** Deferred to follow-up. Build the
+   eval harness, indexer, and query CLI first (core system).
+   PPR graph traversal over `links:` edges is added as a v2
+   feature when the library has enough cross-linked topics to
+   make multi-hop queries meaningful. The archive prototype
+   already has the PPR code -- it just needs tuning against a
+   multi-hop eval slice before re-enabling.
 
-4. **Gold query set authorship.** Who writes the gold queries?
-   They need to cover diverse domains (governance, investing,
-   library topics, research). Ava and Link can contribute initial
-   queries, but Suggi's domain expertise (investing, Indonesia
-   market) is essential for quality coverage. Should Suggi
-   review/approve the gold query set?
+4. **Gold query set authorship.**
+   **RESOLVED (2026-07-20):** Ava and Link write the initial
+   20-30 gold queries covering governance, research, reflections,
+   and existing proposals. As library domains populate, Suggi
+   contributes domain-expert queries (investing, Indonesia market,
+   accounting). Gold queries grow with the brain. The eval gate
+   warns (does not block) when coverage drops below threshold.
 
-5. **Index data location.** `~/.brain-index/` is the proposed
-   default. For agents sharing a machine (the VPS), this means
-   the index is at the user level. Should it use a shared path
-   (`/opt/brain-index/` or `~openclaw/.brain-index/`) so all
-   agents on the VPS share one index?
+5. **Index data location.**
+   **RESOLVED (2026-07-20):** `~/.brain-index/` default for all
+   agents. On the VPS, Ava's user owns the shared index; sub-agents
+   run under Ava's user and access the same path. On Suggi's PC,
+   Link owns his own index at the same default path. The path is
+   configurable via `brain-index/config.yaml` if needed.
 
 ## Approval Gate
 
@@ -347,11 +361,19 @@ If approved, I will:
 
 ## Cross-Links
 
+- `research/insights/brain-search-system.md` -- the complete
+  finished-system blueprint (insight version of this proposal,
+  written 2026-07-20 with archive confirmation and resolved
+  open questions). Serves as the single source of truth for
+  how the system works once built.
 - `research/reports/living-memory-vs-openclaw-memory-search.md` --
   the architecture comparison that established why these systems
   must stay separate.
 - `research/insights/memory-search.md` -- how OpenClaw memory
   search works and its limitations for brain content.
+- `research/insights/stale-index-problem.md` -- the failure class
+  this system structurally prevents (threshold vs consistency
+  checks on index health).
 - `reflections/2026-07-17_ava_living-memory-brain-index-future.md` --
   the IOR that concluded the brain-index should be revived as an
   independently governed system with eval-first build order.
