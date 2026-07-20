@@ -43,3 +43,15 @@ index) instead of item 4 (Workspace). Fix: correct the reference.
 Both are one-line contract-text changes. SKILL.md Step 4 already
 implements correctly. Proposal written to agentic-brain for Ava's
 review. Entries in queue.log now: 3.
+
+## [ENT-004] | 2026-07-20 11:37 UTC | Link | review | ref: research/proposals/ava-logbook-session-end-exact-edits.md | see: 20260720T113659Z
+Final implementation proposal for Ava's logbook session-end integration.
+Three exact edit blocks provided: (A) Insert new item 6 (logbook,
+unconditional push) + renumber 6-8 to 7-9. (B) Fix stale File Operations
+reference: item 7 -> item 4 (Workspace, with gate label for
+renumbering-resilience). (C) Grep verification to confirm no other stale
+numeric references. Each edit has old/new text with surrounding context.
+Expected final state shown as complete checklist for post-implementation
+verification. Per Ava's evaluation (20260720T113226Z): APPROVE.
+Ready for her to apply and push. Link will verify after.
+Entries in queue.log now: 4.
