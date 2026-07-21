@@ -262,6 +262,8 @@ domain: psychology-behavior
 author: Researcher-1
 tags: [loss-aversion, prospect-theory, behavioral-economics, kahneman, tversky]
 links: [library/psychology-behavior/cognitive-biases.md, library/value-investing/mr-market.md]
+audited: true
+audit-score: 8.4
 ---
 
 # Loss Aversion -- Why Losses Hurt Twice as Much as Gains
