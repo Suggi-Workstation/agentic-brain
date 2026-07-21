@@ -13,10 +13,9 @@ Guides the writing process of the library pipeline. Receives a candidate
 topic title + domain anchor from the discovery queue, performs web
 search, synthesizes knowledge, and writes a markdown topic file to the
 domain folder. Scores the candidate across 4 dimensions before writing.
-Checks anchor compliance, topic similarity, and source credibility.
-For the full pipeline architecture and weight rules, read
-`brain:library/guide-library.md` and
-`brain:research/insights/library-system.md`.
+For the full format specification with frontmatter schema, body structure,
+quality gates, and a complete example, read
+`brain:governance/template-library.md`. Follow it exactly.
 
 ## When to Invoke
 
@@ -212,6 +211,7 @@ cd /tmp && rm -rf brain-writer
 
 ## Related
 
+- `brain:governance/template-library.md` -- full format specification, frontmatter schema, quality gates G1-G10, complete example
 - `brain:library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
 - `brain:research/insights/library-system.md` -- full system blueprint, scoring rationale
 - `brain:governance/library-auditor.md` -- auditor skill (reviews written topics)
