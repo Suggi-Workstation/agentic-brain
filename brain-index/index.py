@@ -165,12 +165,17 @@ def build_index(force: bool = False):
             with open(hb_path) as f:
                 old_head = json.load(f).get("built_at_head", "")
         if old_head != head:
+            # Read actual chunk count from meta.json (authoritative source)
+            actual_count = 0
+            if META_PATH.exists():
+                with open(META_PATH) as f:
+                    actual_count = json.load(f).get("count", 0)
             heartbeat = {
                 "schema_version": 1,
                 "last_run_utc": datetime.now(timezone.utc).isoformat(),
                 "status": "ok",
                 "built_at_head": head,
-                "count": len(prev_manifest) if prev_manifest else 0,
+                "count": actual_count,
                 "files": len(files_now),
                 "model": cfg["embedding"]["model"],
             }
