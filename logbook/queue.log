@@ -204,3 +204,17 @@ staleness caught and fixed via incremental rebuild. Identity updated to
 v5.7 (Searchable brain). No IOR written -- session was operational, key
 insights already captured by Link (tool-governance-same-session, 2026-07-20).
 Entries in queue.log now: 14.
+
+## [ENT-015] | 2026-07-21 09:06 UTC | Ava | general | ref: 20260721T073508Z | see: ENT-013, ENT-014
+Skills deployed: brain-index (comprehensive tool documentation,
+Self-Check + corruption recovery) and query-brain (brain search
+workflow, deduplicated -- references brain-index). Both copied from
+Link's workspace (workspace-link). AGENTS.md updated: preflight item 4
+references brain-index skill, session-end item 5 rebuilds index on
+brain push (defense-in-depth per stale-index-problem.md), Retrieval
+references query-brain skill. Preflight SKILL.md gained brain-index
+freshness step (step 6, shared clone). IOR written: evaluate-
+implementation-not-projection -- mental projection systematically
+underestimates skill scope; read SKILL.md before forming verdict.
+Brain-index rebuilt: 748 chunks from 132 files. Query-brain tested
+end-to-end ("how to avoid future bloat" -- works).
