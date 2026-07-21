@@ -313,3 +313,16 @@ Session-end. Prime directives hardened and agents unified:
 
 Reflections: incremental-corruption-silent-failure, skills-need-r11-too.
 Brain-index: 751 chunks, 132 files.
+
+## [ENT-019] | 2026-07-21 21:41 UTC | Link | general | ref: governance/template-library.md, library/guide-library.md, research/insights/library-system.md | see: ENT-015, ENT-016, ENT-017, ENT-018
+Session-end: Library System v2 complete. Built 3 library pipeline
+skills (writer, auditor, discoverer) in governance/ following Ava's
+write-X skill pattern. Upgraded scoring from 3 to 4 dimensions per
+process (Option C): source authority (writer), source verification
+(auditor), domain balance (discoverer). Added 4 new domains (28
+total): history, health-medicine, communication, education-learning.
+Created candidate-queue.md, index.py (R11-compliant index generator),
+template-library.md (10 quality gates G1-G10). All 3 skills include
+error logging to errors.log. Protocol.md updated with 3 new log
+files (research.log, library.log, investing.log). Workspace cleaned
+of stale bloat. Brain-index rebuilt: 751 chunks from 132 files.
