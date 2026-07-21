@@ -18,7 +18,7 @@ links:
 When Suggi asks for "3 library skills," the correct answer is not
 "write 3 SKILL.md files." It is "build the 14 supporting files the 3
 skills will reference, then write the 3 skills last." Skills are the
-tip of the pyramid — they reference templates, weights, conventions,
+tip of the pyramid -- they reference templates, weights, conventions,
 and scripts that must exist first. Building a skill before its
 foundation produces a file full of undefined references that another
 agent cannot execute.
@@ -42,7 +42,7 @@ architecture to exist first. Any skill that logs needs its logging
 protocol to exist first.
 
 The "3 skills" scope estimate was off by a factor of ~5x. This is not a
-failure of estimation — it is a structural property of well-designed
+failure of estimation -- it is a structural property of well-designed
 skills. A skill that inlines its format specification is a G5 violation
 (duplicate governance). A skill that references a non-existent template
 is a dead reference. The correct approach is: build the foundation,
@@ -60,7 +60,7 @@ I expected "3 skills" to mean 3 files. It produced 14: 3 skill drafts,
 2 updated brain files (guide-library.md, library-system.md), 1 new
 template (template-library.md), 3 log files (research.log, library.log,
 investing.log), 1 protocol update, 1 index script (index.py), 1 candidate
-queue, and 4 domain anchors. The ratio was 1:4.7 — for every skill file,
+queue, and 4 domain anchors. The ratio was 1:4.7 -- for every skill file,
 ~5 supporting files were needed.
 
 I also did not expect that the time spent on foundational work (weights,
@@ -74,7 +74,7 @@ would have shipped with wrong weights and required immediate revision.
 Satisfied that the system came together coherently. Frustrated that it
 took 3 correction passes to get the frontmatter right in template-library.md
 (links format, audited fields). The builder cannot audit their own
-formatting — Suggi's scan caught what I read past 3 times.
+formatting -- Suggi's scan caught what I read past 3 times.
 
 Also: proud that the skills follow Ava's write-X pattern exactly. Reading
 her work before building mine transferred the pattern without trial and
@@ -84,7 +84,7 @@ from 5 days ago and produced structurally identical output in one pass.
 ### Learn (40%)
 
 1. **Before writing any skill, list its dependencies.** Templates, scripts,
-   protocols, conventions — every reference in the skill body is a
+   protocols, conventions -- every reference in the skill body is a
    dependency. If any are missing, build them first. This should be a
    gate in the write-skill procedure.
 
@@ -92,8 +92,8 @@ from 5 days ago and produced structurally identical output in one pass.
    "check what X needs and build anything missing." The user sees the
    skill; the agent must see the dependency graph underneath it.
 
-3. **The write-X skill format is a universal pattern.** Self-Check →
-   Procedure → Format Verification → Related works for any procedural
+3. **The write-X skill format is a universal pattern.** Self-Check ->
+   Procedure -> Format Verification -> Related works for any procedural
    skill regardless of domain. The content changes; the structure stays.
    This is now a reusable template for all future skill construction.
 
