@@ -260,3 +260,14 @@ implementation-not-projection -- mental projection systematically
 underestimates skill scope; read SKILL.md before forming verdict.
 Brain-index rebuilt: 748 chunks from 132 files. Query-brain tested
 end-to-end ("how to avoid future bloat" -- works).
+
+## [ENT-016] | 2026-07-21 11:07 UTC | Ava | general | see: ENT-015
+Session-end continuation. Identity v5.8 corrected (not skipped).
+Version history table removed from IDENTITY.md per Suggi (table = bloat,
+identity/ folder IS the history). Session-end SKILL.md archive procedure
+rewritten R11-clean: "answering every question from Evolution Guidelines"
+-- no hardcoded counts, no table references. Daily memory filename now
+derived via `date -u +%Y-%m-%d` (Link review fix). Self-check verifies
+command-derived date, not manual entry. SOUL.md Prime Directives expanded
+(aspirations -> operational gates with MUST/MUST NOT). AGENTS.md
+precedence: AGENTS.md + SOUL.md as peers (orthogonal domains).
