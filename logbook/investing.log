@@ -1,5 +1,6 @@
 <!-- investing.log -- append-only event log for investing activity
      Format: follows logbook/protocol.md entry schema
+     Append entries at the bottom. Never edit old entries.
      Category: investing
      See: logbook/protocol.md for full spec
 -->
