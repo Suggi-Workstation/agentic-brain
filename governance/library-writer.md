@@ -1,19 +1,20 @@
 ---
 name: library-writer
-description: "Research and write a library topic file: web-search, synthesize, check anchor compliance and topic similarity before writing. Use when a candidate topic is ready from the discovery queue."
+description: "Research and write a library topic file: web-search, synthesize, score across 4 dimensions, check anchor compliance and topic similarity before writing. Use when a candidate topic is ready from the discovery queue."
 user-invocable: false
 disable-model-invocation: false
 ---
 
-# Library Writer
+# Library Writer (v2)
 
 ## What This Skill Does
 
 Guides the writing process of the library pipeline. Receives a candidate
-topic title + domain anchor, performs web search, synthesizes knowledge,
-writes a markdown topic file to the domain folder. Checks anchor
-compliance and topic similarity before writing. For the full
-pipeline architecture and weight rules, read
+topic title + domain anchor from the discovery queue, performs web
+search, synthesizes knowledge, and writes a markdown topic file to the
+domain folder. Scores the candidate across 4 dimensions before writing.
+Checks anchor compliance, topic similarity, and source credibility.
+For the full pipeline architecture and weight rules, read
 `brain:library/guide-library.md` and
 `brain:research/insights/library-system.md`.
 
@@ -27,15 +28,17 @@ Skip for:
 - Topics already covered by an existing file (>= 80% semantic overlap)
 - Topics whose weighted score falls below 7.0
 - Domains without an anchor file
+- Topics whose sources are too weak to proceed (authority < 3.0 AND
+  core match would still not reach 7.0 after accounting for it)
 
 ## Self-Check -- HARD GATE
 
 Confirm ALL verification sections passed before committing.
 
-- [ ] Procedure completed (clone, pick candidate, research, score, write, verify, commit, push, discard) (PASS / HALT)
+- [ ] Procedure completed (clone, pick candidate, read anchor, research, score all 4 dimensions, check similarity, write, verify, commit, push, discard) (PASS / HALT)
 - [ ] Frontmatter verification: all items confirmed PASS (PASS / HALT)
 - [ ] Body Structure verification: all items confirmed PASS (PASS / HALT)
-- [ ] Scoring verification: all items confirmed PASS (PASS / HALT)
+- [ ] Scoring verification: all 4 dimensions scored, weighted sum calculated (PASS / HALT)
 - [ ] File Output verification: all items confirmed PASS (PASS / HALT)
 - [ ] Logbook entry written to library.log (PASS / HALT)
 
@@ -66,22 +69,29 @@ are non-negotiable.
 ### 4. Research the topic
 
 Perform web search using the domain name + topic title as query terms.
-Collect 3-5 high-quality sources. Synthesize into a coherent topic
-file following the library topic format (see Body Structure
-verification below).
+Collect 3-5 sources. Evaluate source quality:
+- **High authority (8-10):** academic papers, reputable publications,
+  primary sources, official data.
+- **Medium authority (4-7):** reputable blogs, industry publications,
+  secondary sources with attribution.
+- **Low authority (1-3):** personal blogs, forums, unattributed content.
 
-### 5. Score the candidate (writer weight)
+Synthesize into a coherent topic file following the library topic
+format (see Body Structure verification below).
 
-Before writing, score the candidate topic across three dimensions
+### 5. Score the candidate (writer weight, v2: 4 dimensions)
+
+Before writing, score the candidate topic across four dimensions
 using a 0.0-10.0 scale:
 
 | Dimension | Weight | What it measures |
 |:--|:--|:--|
-| Core match | 0.4 | How central is this topic to the domain anchor? |
-| Scope fit | 0.4 | Does it fit In scope? Avoid Out scope and adjacent overlap? |
-| Knowledge value | 0.2 | Would this compound with existing brain knowledge? |
+| Core match | 0.35 | How central is this topic to the domain anchor? |
+| Scope fit | 0.35 | Does it fit In scope? Avoid Out scope and adjacent overlap? |
+| Knowledge value | 0.20 | Would this compound with existing brain knowledge? |
+| Source authority | 0.10 | Are the web sources credible? Rated by the high/medium/low scale above. |
 
-Calculate weighted score: `(core * 0.4) + (scope * 0.4) + (value * 0.2)`.
+Calculate weighted score: `(core * 0.35) + (scope * 0.35) + (value * 0.20) + (authority * 0.10)`.
 
 - >= 7.0: proceed to write.
 - 5.0-6.9: log to library.log with FLAG and the scores. Skip.
@@ -128,13 +138,17 @@ any failure; fix before committing.
 - [ ] Opening paragraph summarizes the topic in 2-3 sentences (PASS / HALT)
 - [ ] Body sections organized logically with ## headings (PASS / HALT)
 - [ ] Sources cited: at least 3 web sources with URLs in a `## Sources` section (PASS / HALT)
+- [ ] Source authority rated: each source annotated with high/medium/low rating (PASS / HALT)
 - [ ] Cross-references to related library topics included where applicable (PASS / HALT)
 
 ### Scoring
 
+- [ ] All four dimensions scored (core match, scope fit, knowledge value, source authority) (PASS / HALT)
+- [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
+- [ ] Weighted score calculated correctly: (core*0.35 + scope*0.35 + value*0.20 + authority*0.10) (PASS / HALT)
 - [ ] Weighted score >= 7.0 confirmed before writing (PASS / HALT)
-- [ ] All three dimensions scored (core, scope, value) with brief justification (PASS / HALT)
 - [ ] Topic similarity check completed; overlap estimate recorded (PASS / HALT)
+- [ ] Source authority checked: 3+ sources, each rated on the high/medium/low scale (PASS / HALT)
 
 ### File Output
 
@@ -149,8 +163,9 @@ Append to `/tmp/brain-writer/logbook/library.log`:
 ```
 ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/<domain>/<topic-slug>.md | see: <candidate-id>
 Wrote topic <title> to <domain>. Weighted score: X.X/10.0
-(core=X.X, scope=X.X, value=X.X). Similarity overlap: X%.
-Sources: N. Cross-references: N topics.
+(core=X.X, scope=X.X, value=X.X, authority=X.X).
+Similarity overlap: X%. Sources: N (N high, N medium, N low).
+Cross-references: N topics.
 ```
 
 Increment ENT counter from the last entry in library.log.
@@ -181,8 +196,8 @@ cd /tmp && rm -rf brain-writer
 
 ## Related
 
-- `brain:library/guide-library.md` -- pipeline architecture, weights, anchor format
-- `brain:research/insights/library-system.md` -- full system blueprint
+- `brain:library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
+- `brain:research/insights/library-system.md` -- full system blueprint, scoring rationale
 - `brain:governance/library-auditor.md` -- auditor skill (reviews written topics)
 - `brain:governance/library-discoverer.md` -- discoverer skill (proposes candidates)
 - `brain:logbook/protocol.md` -- logbook entry format

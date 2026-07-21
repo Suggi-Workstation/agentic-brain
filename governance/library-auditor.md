@@ -1,20 +1,21 @@
 ---
 name: library-auditor
-description: "Audit written library topics: review quality, redundancy, and anchor compliance. Regenerate master index from filesystem. Use when new topics have been written since last audit cycle."
+description: "Audit written library topics: review quality, redundancy, anchor compliance, and source verification across 4 dimensions. Regenerate master index from filesystem. Use when new topics have been written since last audit cycle."
 user-invocable: false
 disable-model-invocation: false
 ---
 
-# Library Auditor
+# Library Auditor (v2)
 
 ## What This Skill Does
 
 Guides the audit process of the library pipeline. Reviews recently
-written topic files for quality, redundancy, and anchor compliance.
-Regenerates the master index from the live filesystem after each cycle.
-Decorrelated from the writing process (different model or different
-system prompt emphasis). For the full pipeline architecture and weight
-rules, read `brain:library/guide-library.md` and
+written topic files across 4 dimensions: quality, redundancy, anchor
+compliance, and source verification. Regenerates the master index from
+the live filesystem after each cycle. Decorrelated from the writing
+process (different model or different system prompt emphasis). For the
+full pipeline architecture and weight rules, read
+`brain:library/guide-library.md` and
 `brain:research/insights/library-system.md`.
 
 ## When to Invoke
@@ -32,8 +33,9 @@ Skip for:
 
 Confirm ALL verification sections passed before committing.
 
-- [ ] Procedure completed (clone, find unaudited, review, score, regenerate index, verify, commit, push, discard) (PASS / HALT)
-- [ ] Audit Scoring verification: all items confirmed PASS (PASS / HALT)
+- [ ] Procedure completed (clone, find unaudited, read, score all 4 dimensions, verdict, regenerate index, verify, commit, push, discard) (PASS / HALT)
+- [ ] Audit Scoring verification: all 4 dimensions scored, weighted sum calculated (PASS / HALT)
+- [ ] Source Verification: spot-check completed on 2-3 claims per topic (PASS / HALT)
 - [ ] Index verification: regenerated from filesystem, no hardcoded counts (PASS / HALT)
 - [ ] File Output verification: all items confirmed PASS (PASS / HALT)
 - [ ] Logbook entry written to library.log (PASS / HALT)
@@ -63,17 +65,32 @@ For each topic:
 - Read the domain anchor at `library/<domain>/anchor-<domain>.md`.
 - Read adjacent domain anchors if boundary rules apply.
 
-### 4. Score each topic (auditor weight)
+### 4. Verify sources (spot-check)
 
-Score each topic across three dimensions using a 0.0-10.0 scale:
+For each topic, pick 2-3 claims that cite specific sources. Attempt
+to verify that the source actually supports the claim:
+- Read the source URL if accessible.
+- Check that the cited claim is present in the source.
+- Note any misrepresentations, fabrications, or loose paraphrasing.
+
+Score source verification on a 0.0-10.0 scale:
+- **8-10:** All spot-checked claims verified. Sources accurately cited.
+- **5-7:** Most claims verified. Minor paraphrasing issues.
+- **1-4:** Claims misrepresented or sources do not support them.
+- **0:** Unable to verify (paywalled, inaccessible) -- note this.
+
+### 5. Score each topic (auditor weight, v2: 4 dimensions)
+
+Score each topic across four dimensions using a 0.0-10.0 scale:
 
 | Dimension | Weight | What it measures |
 |:--|:--|:--|
-| Quality | 0.4 | Factual accuracy, completeness, source citations, ASCII compliance, structural correctness. |
-| Redundancy | 0.3 | Semantic overlap with other topics in same or adjacent domains. |
-| Anchor compliance | 0.3 | Does the topic stay within the anchor's scope? Would it fit better in an adjacent domain? |
+| Quality | 0.35 | Factual accuracy, completeness, source citations, ASCII compliance, structural correctness. |
+| Redundancy | 0.25 | Semantic overlap with other topics in same or adjacent domains. |
+| Anchor compliance | 0.30 | Does the topic stay within the anchor's scope? Would it fit better in an adjacent domain? |
+| Source verification | 0.10 | Do the cited sources actually support the claims? Based on the spot-check from step 4. |
 
-Calculate weighted score: `(quality * 0.4) + (redundancy * 0.3) + (anchor * 0.3)`.
+Calculate weighted score: `(quality * 0.35) + (redundancy * 0.25) + (anchor * 0.30) + (source * 0.10)`.
 
 - >= 7.0: APPROVE. Add `audited: true` and `audit-score: X.X` to the
   topic file's frontmatter.
@@ -82,7 +99,7 @@ Calculate weighted score: `(quality * 0.4) + (redundancy * 0.3) + (anchor * 0.3)
 - < 5.0: REJECT. Move the topic file to
   `library/<domain>/quarantine/<topic-slug>.md` and log the reason.
 
-### 5. Regenerate the master index
+### 6. Regenerate the master index
 
 Regenerate `library/index-library.md` from the live filesystem. The
 index MUST NOT contain hardcoded counts (R11). Derive everything from
@@ -93,17 +110,13 @@ cd /tmp/brain-audit
 for domain in library/*/; do
   domain_name=$(basename "$domain")
   count=$(ls "$domain"*.md 2>/dev/null | grep -v anchor | grep -v quarantine | wc -l)
-  echo "- **$domain_name**: $count topics"
+  audited=$(grep -rl "audited: true" "$domain"*.md 2>/dev/null | wc -l)
+  echo "- **$domain_name**: $count topics ($audited audited)"
 done
 ```
 
 Write the output to `library/index-library.md` with a timestamp header
 and the audit cycle number.
-
-### 6. Score the audit cycle itself (meta-audit)
-
-Score the overall audit cycle quality for continuous improvement.
-Log to library.log.
 
 ## Format Verification -- HARD GATE (before commit)
 
@@ -112,19 +125,25 @@ any failure; fix before committing.
 
 ### Audit Scoring
 
-- [ ] Every unaudited topic scored across all three dimensions (PASS / HALT)
+- [ ] Every unaudited topic scored across all four dimensions (PASS / HALT)
 - [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
-- [ ] Weighted score calculated correctly (quality*0.4 + redundancy*0.3 + anchor*0.3) (PASS / HALT)
+- [ ] Weighted score calculated correctly: (quality*0.35 + redundancy*0.25 + anchor*0.30 + source*0.10) (PASS / HALT)
 - [ ] Verdict applied correctly: APPROVE (>=7.0), FLAG (5.0-6.9), REJECT (<5.0) (PASS / HALT)
 - [ ] APPROVE topics: frontmatter updated with audited=true and audit-score (PASS / HALT)
 - [ ] FLAG topics: change requests logged with specific, actionable items (PASS / HALT)
 - [ ] REJECT topics: moved to quarantine directory (PASS / HALT)
 
+### Source Verification
+
+- [ ] 2-3 claims spot-checked per topic against cited sources (PASS / HALT)
+- [ ] Source verification score has justification (what was checked, what was found) (PASS / HALT)
+- [ ] Inaccessible sources noted (paywalled, not "assumed correct") (PASS / HALT)
+
 ### Index
 
 - [ ] Master index regenerated from live filesystem (not edited by hand) (PASS / HALT)
 - [ ] Zero hardcoded counts (R11): all counts derived from `ls` output (PASS / HALT)
-- [ ] Index includes timestamp header and audit cycle number (PASS / HALT)
+- [ ] Index includes timestamp header, audit cycle number, and audited/unadited breakdown (PASS / HALT)
 
 ### File Output
 
@@ -140,12 +159,12 @@ Append to `/tmp/brain-audit/logbook/library.log` for each audited topic:
 ```
 ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/<domain>/<topic-slug>.md | see: <writer-ent-id>
 Audited topic <title>. Verdict: APPROVE/FLAG/REJECT. Weighted score: X.X/10.0
-(quality=X.X, redundancy=X.X, anchor=X.X). <change requests if FLAG>.
+(quality=X.X, redundancy=X.X, anchor=X.X, source=X.X).
+Source check: N/N claims verified. <change requests if FLAG>.
 <quarantine path if REJECT>.
 ```
 
-Also append a summary entry for the index regeneration and meta-audit
-score.
+Also append a summary entry for the index regeneration.
 
 ### 8. Commit and push
 
@@ -154,7 +173,7 @@ cd /tmp/brain-audit
 git add -A
 git diff --cached --stat
 git -c user.name="<agent-name>" -c user.email="<agent-email>" \
-  commit -m "library: audit cycle <N> -- <N> topics reviewed"
+  commit -m "library: audit cycle -- N topics reviewed (M approved, P flagged, Q rejected)"
 git push origin main
 ```
 
@@ -168,7 +187,7 @@ cd /tmp && rm -rf brain-audit
 
 ## Related
 
-- `brain:library/guide-library.md` -- pipeline architecture, weights, anchor format, index rules
+- `brain:library/guide-library.md` -- pipeline architecture, v2 weights, anchor format, index rules
 - `brain:research/insights/library-system.md` -- full system blueprint, decorrelation rule
 - `brain:governance/library-writer.md` -- writer skill (produces topics for audit)
 - `brain:governance/library-discoverer.md` -- discoverer skill (proposes candidates)

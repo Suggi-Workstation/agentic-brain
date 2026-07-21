@@ -3,20 +3,22 @@ name: guide-library
 id: 20260719T220256Z
 tier: library-meta
 author: Ava
-tags: [library, anchor, index, pipeline, weights]
+version: 2.0
+tags: [library, anchor, index, pipeline, weights, scoring]
 links:
-  - governance/template-library.md
+  - research/insights/library-system.md
   - research/insights/stale-index-problem.md
+  - logbook/protocol.md
 ---
 
-# Library Guide
+# Library Guide (v2)
 
 ## What this file is
 
 This is the parent file for the library knowledge system. It defines:
 
 1. The three-process pipeline that populates library domains with topics.
-2. The global weight rules each agent uses.
+2. The global weight rules each agent uses (v2: 4 dimensions per process).
 3. The structure every domain anchor must follow.
 4. How the master index is maintained (R11: derive live, never hardcode).
 
@@ -31,9 +33,11 @@ snapshots below during each audit cycle.
 library/
   guide-library.md             # this file (rules, weights, pipeline)
   index-library.md             # master index (regenerated from filesystem)
+  candidate-queue.md           # topics proposed by the discoverer, awaiting the writer
   <domain>/                    # one folder per knowledge domain
     anchor-<domain>.md          # domain anchor (scope, adjacent domains)
     <topic-slug>.md            # individual topic files
+    quarantine/                 # topics rejected by the auditor
     ...
 ```
 
@@ -48,84 +52,97 @@ valuation-screening, value-investing.
 ## The three-process pipeline
 
 Three processes run as isolated cron jobs with independent models
-(decorrelation rule). Each process has a different purpose, different
-weights, and different verification criteria.
+(decorrelation rule). Each process has 4 weighted dimensions (v2)
+scored on a consistent 0.0-10.0 scale. Thresholds: >= 7.0 proceed,
+5.0-6.9 flag for review, < 5.0 reject or redirect.
 
 ### Writing process
 
 **Purpose:** Research and write topic files. Receives a candidate topic
 title + domain anchor. Performs web search, synthesizes knowledge,
 writes a markdown topic file to the domain folder. Checks anchor
-compliance and topic similarity before writing.
+compliance, topic similarity, and source credibility before writing.
 
 **Cron:** Runs periodically. Each cycle: picks one candidate topic
 from the discovery queue, researches it, writes it.
 
-**Weighted scoring (writer weight):**
+**Weighted scoring (4 dimensions):**
 
 | Dimension | Weight | What it measures |
 |:--|:--|:--|
-| Core match (0.0-10.0) | 0.4 | How central is this topic to the domain anchor? Does it directly concern the domain's subject matter? |
-| Scope fit (0.0-10.0) | 0.4 | Does it fit the domain's In scope? Does it avoid Out scope and adjacent domain overlap? |
-| Knowledge value (0.0-10.0) | 0.2 | Would a well-researched topic on this compound with existing brain knowledge? Is it worth the token cost? |
+| Core match | 0.35 | How central is this topic to the domain anchor? Does it directly concern the domain's subject matter? |
+| Scope fit | 0.35 | Does it fit the domain's In scope? Does it avoid Out scope and adjacent domain overlap? |
+| Knowledge value | 0.20 | Would this compound with existing brain knowledge? Is it worth the token cost? |
+| Source authority | 0.10 | Are the web sources credible? Academic papers, reputable publications, primary sources -- or random blog posts and forums? |
 
-**Topic similarity gate:** Before writing, the writer must check the
-candidate topic against EXISTING topics in the domain. If a similar
-topic already exists (>= 80% semantic overlap), skip and flag. If
-partial overlap (50-80%), the new topic should cross-reference the
-existing one and focus on the uncovered portion. If low overlap
-(< 50%), proceed normally.
+Weighted score: `(core * 0.35) + (scope * 0.35) + (value * 0.20) + (authority * 0.10)`.
+
+**Topic similarity gate:** Before writing, the writer MUST check the
+candidate topic against existing topics in the domain. If >= 80%
+semantic overlap, skip and flag DUPLICATE. If 50-80% overlap, proceed
+but cross-reference the existing topic and focus on the uncovered
+portion. If < 50%, proceed normally.
 
 **Minimum threshold:** Weighted score >= 7.0 to proceed. 5.0-6.9: flag
-for human review. < 5.0: reject or redirect to adjacent domain.
+for review, skip. < 5.0: reject or redirect to adjacent domain.
 
 ### Audit process
 
-**Purpose:** Review written topics for quality, redundancy, and anchor
-compliance. Updates the master index below. Runs after the writing
-process has produced new files. Decorrelated from the writing process
-(different model family or different system prompt emphasis).
+**Purpose:** Review written topics for quality, redundancy, anchor
+compliance, and source accuracy. Regenerates the master index from the
+live filesystem after each cycle. Decorrelated from the writing process
+(different model or different system prompt emphasis).
 
-**Cron:** Runs after writing cycles. Each cycle: auditor picks the
-most recently written (unaudited) topics and evaluates them.
+**Cron:** Runs after writing cycles. Each cycle: picks the most
+recently written (unaudited) topics and evaluates them.
 
-**Weighted scoring (auditor weight):**
+**Weighted scoring (4 dimensions):**
 
 | Dimension | Weight | What it measures |
 |:--|:--|:--|
-| Quality (0.0-10.0) | 0.4 | Factual accuracy, completeness, source citations, ASCII compliance, structural correctness. Is this a well-researched topic? |
-| Redundancy (0.0-10.0) | 0.3 | Does this topic overlap with any other topic in the same domain or adjacent domains? Semantic similarity check against all existing topics. |
-| Anchor compliance (0.0-10.0) | 0.3 | Does the topic stay within the domain's anchor scope? Would it fit better in an adjacent domain? |
+| Quality | 0.35 | Factual accuracy, completeness, source citations, ASCII compliance, structural correctness. Is this a well-researched topic? |
+| Redundancy | 0.25 | Does this topic overlap with any other topic in the same domain or adjacent domains? Semantic similarity check against all existing topics. |
+| Anchor compliance | 0.30 | Does the topic stay within the domain's anchor scope? Would it fit better in an adjacent domain? |
+| Source verification | 0.10 | Spot-check: do the cited sources actually support the claims made? Pick 2-3 cited claims and verify against the source material. |
 
-**Minimum threshold:** Weighted score >= 7.0 to approve. 5.0-6.9: flag
-with specific change requests for the writer. < 5.0: reject (move file
-to quarantine or request rewrite).
+Weighted score: `(quality * 0.35) + (redundancy * 0.25) + (anchor * 0.30) + (source * 0.10)`.
+
+**Minimum threshold:** Weighted score >= 7.0 to APPROVE. Update topic
+frontmatter with `audited: true` and `audit-score: X.X`. 5.0-6.9: FLAG
+with specific change requests. < 5.0: REJECT, move file to
+`quarantine/` directory.
 
 **Index update:** After each audit cycle, the auditor regenerates the
-master index snapshot below from the live filesystem. The auditor is
-the ONLY agent authorized to update index entries in this file.
+master index in `index-library.md` from the live filesystem. The auditor
+is the ONLY agent authorized to update index entries.
 
 ### Discovery process
 
-**Purpose:** Discover new candidate topics. Scans all domain anchors,
+**Purpose:** Discover new candidate topics. Scans domain anchors,
 identifies knowledge gaps, proposes new topics. Runs before the
 writing process to populate the candidate queue. Does NOT write topic
 files -- only proposes titles and brief scopes.
 
-**Cron:** Runs periodically. Each cycle: picks a subset of
-domains and proposes 1-3 candidate topics per domain.
+**Cron:** Runs periodically. Each cycle: picks a subset of domains
+and proposes 1-3 candidate topics per domain. Rotates domains across
+cycles to ensure even coverage.
 
-**Weighted scoring (discovery weight):**
+**Weighted scoring (4 dimensions):**
 
 | Dimension | Weight | What it measures |
 |:--|:--|:--|
-| Gap score (0.0-10.0) | 0.5 | How uncovered is this topic? Does a topic on this subject already exist? Is this a known gap in the domain's coverage? |
-| Knowledge compounding (0.0-10.0) | 0.3 | Would this topic connect multiple existing topics? Would it fill a bridge between domains? Would it enable deeper research on related topics? |
-| Timeliness (0.0-10.0) | 0.2 | Is this topic currently relevant? Are there recent developments, new research, or active debates? |
+| Gap score | 0.40 | How uncovered is this topic? Does a topic on this subject already exist? Is this a known gap in the domain's coverage? |
+| Knowledge compounding | 0.25 | Would this topic connect multiple existing topics? Would it fill a bridge between domains? |
+| Timeliness | 0.20 | Is this topic currently relevant? Are there recent developments, new research, or active debates? |
+| Domain balance | 0.15 | Is this domain underrepresented vs others? Prioritize domains with fewer topics to prevent library tilt. |
+
+Weighted score: `(gap * 0.40) + (compounding * 0.25) + (timeliness * 0.20) + (balance * 0.15)`.
+
+No minimum threshold for discovery -- all scored candidates are
+proposed. The writer applies its own >= 7.0 threshold.
 
 **Output:** Candidate topic proposals with title, domain, brief scope
-description, and discovery score. Stored as proposals (not topic files)
-for the writer to pick up.
+description, and discovery score. Appended to `library/candidate-queue.md`.
 
 ## The anchor file format
 
@@ -168,3 +185,17 @@ The anchor paragraph is the most important part. It must be:
 The master index lives in `index-library.md` -- a separate file to
 keep the index lean for agents reading it during operations. The
 audit process regenerates the index snapshot from the live filesystem.
+
+## Logging
+
+All three processes write to `logbook/library.log` following the
+logbook protocol (`logbook/protocol.md`). Category: `library`.
+Each entry includes the ENT counter, timestamp, agent name, reference
+to the affected file, and a summary of the action taken with scores.
+
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1.0 | 2026-07-19 | Ava | Initial design: 3 dimensions per process |
+| 2.0 | 2026-07-21 | Link | Added 4th dimension per process: source authority (writer), source verification (auditor), domain balance (discoverer). Research consensus: 3-5 dims optimal. Weights redistributed per Crosley 2026 pattern. |
