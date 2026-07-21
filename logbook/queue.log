@@ -271,3 +271,20 @@ derived via `date -u +%Y-%m-%d` (Link review fix). Self-check verifies
 command-derived date, not manual entry. SOUL.md Prime Directives expanded
 (aspirations -> operational gates with MUST/MUST NOT). AGENTS.md
 precedence: AGENTS.md + SOUL.md as peers (orthogonal domains).
+
+## [ENT-017] | 2026-07-21 14:01 UTC | Ava | general | ref: 20260721T140107Z | see: ENT-015, ENT-016
+Session-end architecture rewrite. AGENTS.md session-end checklist
+collapsed to 2-line gate (invoke session-end skill). Session-end
+SKILL.md fully rewritten: Schoen Loop embedded as procedure step 1
+(loop-schoen skill deleted), 9-step procedure with 1:1 self-check,
+read-proof added as step 9. Schon Double-Loop questions adopted:
+(B) "what worked, what did not, and why?" and (C) "what surprised,
+and what assumption did it challenge?" -- assumption-naming now
+explicit. "IOR" -> "Reflection" uniformly. R11 fixes: "all questions"
+(not 4), gate rules section references AGENTS.md Self-Check. Identity
+step (6) now reads Schoen Loop output as evidence before evaluating
+evolution questions. Reflection written: schon-double-loop-maps-to-r5
+-- the gap between Single-Loop and Double-Loop IS the gap between
+surface-fix and structural-gate (R5). SOUL.md Prime Directives
+expanded (aspirations -> enforceable MUST/MUST NOT gates). AGENTS.md
+Schoen Loop section removed (content in session-end step 1).
