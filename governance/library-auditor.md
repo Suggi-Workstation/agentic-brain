@@ -85,7 +85,7 @@ Score each topic across four dimensions using a 0.0-10.0 scale:
 
 | Dimension | Weight | What it measures |
 |:--|:--|:--|
-| Quality | 0.35 | Factual accuracy, completeness, source citations, ASCII compliance, structural correctness. |
+| Quality | 0.35 | Factual accuracy, completeness, source citations, ASCII compliance, structural correctness. Includes frontmatter verification: all required fields present (name, id, tier, domain, author, tags, links), id matches `date -u` format, no human-rounded timestamps. |
 | Redundancy | 0.25 | Semantic overlap with other topics in same or adjacent domains. |
 | Anchor compliance | 0.30 | Does the topic stay within the anchor's scope? Would it fit better in an adjacent domain? |
 | Source verification | 0.10 | Do the cited sources actually support the claims? Based on the spot-check from step 4. |
@@ -101,22 +101,22 @@ Calculate weighted score: `(quality * 0.35) + (redundancy * 0.25) + (anchor * 0.
 
 ### 6. Regenerate the master index
 
-Regenerate `library/index-library.md` from the live filesystem. The
-index MUST NOT contain hardcoded counts (R11). Derive everything from
-`ls library/<domain>/*.md`.
+Run the index regeneration script. This derives all counts from the
+live filesystem (R11: never hardcode):
 
 ```bash
-cd /tmp/brain-audit
-for domain in library/*/; do
-  domain_name=$(basename "$domain")
-  count=$(ls "$domain"*.md 2>/dev/null | grep -v anchor | grep -v quarantine | wc -l)
-  audited=$(grep -rl "audited: true" "$domain"*.md 2>/dev/null | wc -l)
-  echo "- **$domain_name**: $count topics ($audited audited)"
-done
+cd /tmp/brain-audit && python library/index.py
 ```
 
-Write the output to `library/index-library.md` with a timestamp header
-and the audit cycle number.
+The script:
+- Scans every domain folder via `ls`.
+- Counts topic files (excluding anchors and quarantine).
+- Counts audited topics by checking frontmatter for `audited: true`.
+- Writes `library/index-library.md` with a UTC timestamp header.
+- Prints a summary with total topics, domains, and audited counts.
+
+The script is the single source of truth for index generation. The
+auditor MUST use this script, never regenerate the index by hand.
 
 ## Format Verification -- HARD GATE (before commit)
 
@@ -165,6 +165,20 @@ Source check: N/N claims verified. <change requests if FLAG>.
 ```
 
 Also append a summary entry for the index regeneration.
+
+### 7a. Log errors (if any)
+
+If any step in this procedure failed or produced unexpected results,
+append to `/tmp/brain-audit/logbook/errors.log`:
+
+```
+## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | error | ref: library/<domain>/<topic-slug>.md | see: <related-ent-id>
+<description of what went wrong, what was expected, and any partial results>
+```
+
+This allows other agents to identify and fix pipeline failures.
+Only write to errors.log if something actually failed. Successful
+operations go to library.log (step 7).
 
 ### 8. Commit and push
 

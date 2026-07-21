@@ -175,6 +175,22 @@ Increment ENT counter from the last entry in library.log.
 Remove the processed candidate entry from
 `/tmp/brain-writer/library/candidate-queue.md`.
 
+### 9a. Log errors (if any)
+
+If any step failed or produced unexpected results (score below threshold,
+duplicate topic detected, source authority too low, push conflict),
+append to `/tmp/brain-writer/logbook/errors.log`:
+
+```
+## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | error | ref: library/<domain>/<topic-slug>.md | see: <related-ent-id>
+<description of what went wrong, what was expected, and any partial results>
+```
+
+Only write to errors.log if something actually failed. Successful writes
+and normal pipeline outcomes (FLAG, REJECT, DUPLICATE) go to library.log.
+Errors.log is for unexpected failures: clone failed, push rejected,
+file write error, or any crash.
+
 ### 10. Commit and push
 
 ```bash

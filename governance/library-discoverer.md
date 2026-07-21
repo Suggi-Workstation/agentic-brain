@@ -195,6 +195,21 @@ Domains: <list with topic counts>. Candidates: <list with all 4 dimension scores
 Domain balance survey: <least-covered domain (N topics)> to <most-covered (N topics)>.
 ```
 
+### 10a. Log errors (if any)
+
+If any step failed or produced unexpected results (clone failed,
+push rejected, file write error, or any crash), append to
+`/tmp/brain-discover/logbook/errors.log`:
+
+```
+## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | error | ref: library/candidate-queue.md | see: <related-ent-id>
+<description of what went wrong, what was expected, and any partial results>
+```
+
+Only write to errors.log if something actually failed. Successful
+discovery cycles go to library.log. Errors.log is for unexpected
+failures only.
+
 ### 11. Commit and push
 
 ```bash
