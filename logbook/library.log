@@ -1,4 +1,4 @@
-<!-- library.log -- append-only event log for library pipeline activity (writer, auditor, discoverer)
+<!-- library.log -- append-only event log for library pipeline activity
      Format: follows logbook/protocol.md entry schema
      Category: library
      See: logbook/protocol.md for full spec

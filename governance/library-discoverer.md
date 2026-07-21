@@ -110,7 +110,7 @@ using this format:
 ```markdown
 ## Candidate: <topic-title>
 - **Domain:** <domain-slug>
-- **Proposed by:** Discoverer
+- **Proposed by:** <agent-name>
 - **Date:** YYYY-MM-DD
 - **Discovery score:** X.X/10.0 (gap=X.X, compounding=X.X, timeliness=X.X)
 - **Scope:** <2-3 sentence scope description for the writer>
@@ -157,7 +157,7 @@ any failure; fix before committing.
 Append to `/tmp/brain-discover/logbook/library.log`:
 
 ```
-## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | Discoverer | library | ref: library/candidate-queue.md
+## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/candidate-queue.md
 Discovery cycle: <N> domains scanned, <N> candidates proposed.
 Domains: <list>. Candidates: <list with scores>.
 ```
@@ -171,7 +171,7 @@ body.
 cd /tmp/brain-discover
 git add -A
 git diff --cached --stat
-git -c user.name="Discoverer" -c user.email="discoverer@suggi-workspace.dev" \
+git -c user.name="<agent-name>" -c user.email="<agent-email>" \
   commit -m "library: discovery cycle -- <N> candidates proposed"
 git push origin main
 ```

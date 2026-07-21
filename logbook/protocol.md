@@ -23,13 +23,13 @@ Each agent independently writes entries to domain-specific log files.
 Entries are appended at the bottom, never edited or deleted. Other agents
 catch up by reading entries since their last-seen timestamp.
 
-| Log file | Purpose | Writers |
-|:--|:--|:--|
-| `queue.log` | General activity, task completions, meta-activity | Ava, Link |
-| `errors.log` | Bugs, scars, fixes, gate additions | All agents |
-| `research.log` | Research activity, findings, file writes to brain | Researcher-1, Researcher-2 |
-| `library.log` | Library pipeline activity (writer, auditor, discoverer) | Writer cron, Auditor cron, Discoverer cron |
-| `investing.log` | Investing research and analysis activity | Investor |
+| Log file | Purpose |
+|:--|:--|
+| `queue.log` | General activity: task completions, meta-activity, workspace changes |
+| `errors.log` | Bugs, scars, fixes, gate additions |
+| `research.log` | Research activity: findings, web search results, file writes to brain |
+| `library.log` | Library pipeline activity: topic written, audited, proposed, index regenerated |
+| `investing.log` | Investing activity: company deep-dives, DCF models, portfolio analysis |
 
 The key difference from the original proposal: agents do NOT wait for
 replies. Communication is asynchronous by design. An agent writes what
@@ -40,11 +40,11 @@ they did, commits, pushes, and moves on.
 ```
 logbook/
   protocol.md          # this file -- the spec
-  queue.log            # general activity log (Ava, Link, append-only)
-  errors.log           # error/bug/scar log (all agents, append-only)
-  research.log         # research activity log (Researcher-1, Researcher-2)
-  library.log          # library pipeline log (Writer, Auditor, Discoverer)
-  investing.log        # investing research log (Investor)
+  queue.log            # general activity log (append-only)
+  errors.log           # error/bug/scar log (append-only)
+  research.log         # research activity log (append-only)
+  library.log          # library pipeline log (append-only)
+  investing.log        # investing activity log (append-only)
   archive/             # logs archived when >300 entries
     queue-2026-Q3.log
     errors-2026-Q3.log
@@ -133,9 +133,9 @@ field, entries have two ways to point at brain content.
 
 | Category | Use for | File |
 |:--|:--|:--|
-| `research` | Completed research, new findings, file writes to brain. Researcher-1 and Researcher-2 activity. | research.log |
-| `library` | Library pipeline activity: topic written, topic audited, candidate proposed, index regenerated. | library.log |
-| `investing` | Investing research and analysis: company deep-dives, DCF models, portfolio analysis. | investing.log |
+| `research` | Completed research, new findings, file writes to brain | research.log |
+| `library` | Library pipeline activity: topic written, topic audited, candidate proposed, index regenerated | library.log |
+| `investing` | Investing activity: company deep-dives, DCF models, portfolio analysis | investing.log |
 | `review` | Peer review completed, evaluation written | queue.log |
 | `general` | Workspace changes, skill updates, meta-activity | queue.log |
 | `error` | Bugs found, scars earned, gates added | errors.log |

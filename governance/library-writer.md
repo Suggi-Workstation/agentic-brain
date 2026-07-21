@@ -118,7 +118,7 @@ any failure; fix before committing.
 - [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly. Does not end in 000000Z (human-rounded = reject). Never manually typed. (PASS / HALT)
 - [ ] tier: "library-topic" (PASS / HALT)
 - [ ] domain: `<domain-slug>` matching the folder name (PASS / HALT)
-- [ ] author: "Researcher-1" or "Researcher-2" (PASS / HALT)
+- [ ] author: agent name (e.g. Ava, Link, Researcher-1) (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, domain-specific (PASS / HALT)
 - [ ] links: relative paths from brain root (PASS / HALT)
 
@@ -147,7 +147,7 @@ any failure; fix before committing.
 Append to `/tmp/brain-writer/logbook/library.log`:
 
 ```
-## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent> | library | ref: library/<domain>/<topic-slug>.md | see: <candidate-id>
+## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/<domain>/<topic-slug>.md | see: <candidate-id>
 Wrote topic <title> to <domain>. Weighted score: X.X/10.0
 (core=X.X, scope=X.X, value=X.X). Similarity overlap: X%.
 Sources: N. Cross-references: N topics.
@@ -166,7 +166,7 @@ Remove the processed candidate entry from
 cd /tmp/brain-writer
 git add -A
 git diff --cached --stat
-git -c user.name="Writer" -c user.email="writer@suggi-workspace.dev" \
+git -c user.name="<agent-name>" -c user.email="<agent-email>" \
   commit -m "library: write <topic-slug> to <domain>"
 git push origin main
 ```

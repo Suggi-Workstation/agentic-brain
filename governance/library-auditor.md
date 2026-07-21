@@ -138,7 +138,7 @@ any failure; fix before committing.
 Append to `/tmp/brain-audit/logbook/library.log` for each audited topic:
 
 ```
-## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | Auditor | library | ref: library/<domain>/<topic-slug>.md | see: <writer-ent-id>
+## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/<domain>/<topic-slug>.md | see: <writer-ent-id>
 Audited topic <title>. Verdict: APPROVE/FLAG/REJECT. Weighted score: X.X/10.0
 (quality=X.X, redundancy=X.X, anchor=X.X). <change requests if FLAG>.
 <quarantine path if REJECT>.
@@ -153,7 +153,7 @@ score.
 cd /tmp/brain-audit
 git add -A
 git diff --cached --stat
-git -c user.name="Auditor" -c user.email="auditor@suggi-workspace.dev" \
+git -c user.name="<agent-name>" -c user.email="<agent-email>" \
   commit -m "library: audit cycle <N> -- <N> topics reviewed"
 git push origin main
 ```
