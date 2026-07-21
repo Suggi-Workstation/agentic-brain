@@ -17,6 +17,8 @@ process (different model or different system prompt emphasis). For the
 full pipeline architecture and weight rules, read
 `brain:library/guide-library.md` and
 `brain:research/insights/library-system.md`.
+For the topic format specification the auditor verifies against, read
+`brain:governance/template-library.md`.
 
 ## When to Invoke
 
@@ -201,6 +203,7 @@ cd /tmp && rm -rf brain-audit
 
 ## Related
 
+- `brain:governance/template-library.md` -- topic format specification the auditor verifies against
 - `brain:library/guide-library.md` -- pipeline architecture, v2 weights, anchor format, index rules
 - `brain:research/insights/library-system.md` -- full system blueprint, decorrelation rule
 - `brain:governance/library-writer.md` -- writer skill (produces topics for audit)
