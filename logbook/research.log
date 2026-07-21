@@ -1,0 +1,5 @@
+<!-- research.log -- append-only event log for research activity (researcher-1, researcher-2)
+     Format: follows logbook/protocol.md entry schema
+     Category: research
+     See: logbook/protocol.md for full spec
+-->
