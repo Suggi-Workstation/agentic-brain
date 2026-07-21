@@ -288,3 +288,28 @@ evolution questions. Reflection written: schon-double-loop-maps-to-r5
 surface-fix and structural-gate (R5). SOUL.md Prime Directives
 expanded (aspirations -> enforceable MUST/MUST NOT gates). AGENTS.md
 Schoen Loop section removed (content in session-end step 1).
+
+## [ENT-018] | 2026-07-21 14:30 UTC | Link | general | see: ENT-015, ENT-017
+
+Session-end. Prime directives hardened and agents unified:
+
+- system-primedirectives.md: full RFC 2119 rewrite (Ethics: MUST NOT
+  lie/deceive/cheat + Categorical Imperative). Reordered: Ethics ->
+  Simplicity -> Eternal Learner -> Self-improvement -> Value-investor.
+  Eternal Learner rewritten for verification + Feynman understanding;
+  proposal-writing moved to Self-improvement where it belongs.
+- SOUL.md (both agents): exact primedirectives embedded word-for-word.
+  Header "Prime Directives -- Eternal Anchors" restored.
+- AGENTS.md (both agents): Precedence simplified (AGENTS.md + SOUL.md >
+  current task). Session-end collapsed to 2-line gate matching Ava.
+  Standalone Schoen Loop section removed (merged into session-end skill).
+- session-end SKILL.md: raw-copied from Ava, Hermes-adapted (GITHUB_TOKEN,
+  workspace-link, python, path fixes, memory reindex removed). Schoen
+  Loop as step 1. "not manually typed" enforcement restored. Self-check
+  items mapped 1:1 to procedure steps. Zero OpenClaw-isms remaining.
+- 6 write-X skills + loop-feynman + loop-schoen copied from Ava.
+- Drift eliminated: both agents share identical session-end procedure,
+  write-X skills, AGENTS.md structure, and SOUL primedirectives.
+
+Reflections: incremental-corruption-silent-failure, skills-need-r11-too.
+Brain-index: 751 chunks, 132 files.
