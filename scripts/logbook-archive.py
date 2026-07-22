@@ -99,11 +99,12 @@ def process_log(log_path):
     mode = "a" if os.path.exists(archive_path) else "w"
     with open(archive_path, mode, encoding="ascii") as f:
         if mode == "w":
-            from_line = boundaries.index(archive_boundaries[0]) + 1 if archive_boundaries else 1
-            to_line = boundaries.index(archive_boundaries[-1]) + len(archive_boundaries) if archive_boundaries else len(boundaries)
-            f.write(f"<!-- {base}.log archive -- entries {from_line}-{to_line}\n")
+            # Extract first ENT number from the first kept boundary for the header
+            first_kept_line = lines[kept_boundaries[0][0]] if kept_boundaries else "ENT-???"
+            ent_match = first_kept_line.strip().split("[ENT-")[1].split("]")[0] if "[ENT-" in first_kept_line else "???"
+            f.write(f"<!-- {base}.log archive -- entries {archive_boundaries[0][0]}-{archive_boundaries[-1][1]} (line range)\n")
             f.write(f"     Moved from active log on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n")
-            f.write(f"     Active log continues with entries {len(kept_boundaries) + 1} onward.\n")
+            f.write(f"     Active log continues from ENT-{ent_match} onward.\n")
             f.write(f"     See logbook/protocol.md for full spec.\n")
             f.write("-->\n\n")
         else:
