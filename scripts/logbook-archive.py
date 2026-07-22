@@ -16,10 +16,9 @@ TARGET_LINES = 400  # Cut enough to leave headroom for normal operation
 LOGBOOK_DIR = "logbook"
 ARCHIVE_DIR = "logbook/archive"
 
-def quarter_label():
-    """Return current quarter label like '2026-Q3'."""
-    now = datetime.now(timezone.utc)
-    return f"{now.year}-Q{(now.month - 1) // 3 + 1}"
+def date_label():
+    """Return current date label like '2026-07-22'."""
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 def find_entry_boundaries(lines):
     """Return list of (start_idx, end_idx) tuples for each entry block.
@@ -90,7 +89,7 @@ def process_log(log_path):
 
     # Determine archive filename
     base = os.path.basename(log_path).replace(".log", "")
-    archive_name = f"{base}-{quarter_label()}.log"
+    archive_name = f"{base}-{date_label()}.log"
     archive_path = os.path.join(ARCHIVE_DIR, archive_name)
 
     # Create archive dir if needed

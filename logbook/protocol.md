@@ -164,9 +164,9 @@ oldest entries to keep preflight reads fast and context lean.
 
 The `logbook-archive.yml` workflow (`.github/workflows/`) fires on every
 push to main. It:
-1. Checks all `logbook/*.log` files for line count > 1000.
+1. Checks all `logbook/*.log` files for line count > 500.
 2. Cuts the oldest complete entries (never mid-entry) from the active file.
-3. Appends them to `logbook/archive/<name>-<quarter>.log` (e.g. `queue-2026-Q3.log`).
+3. Appends them to `logbook/archive/<name>-<YYYY-MM-DD>.log`.
 4. Commits with `[archive]` tag so the workflow does not re-trigger itself.
 5. The ENT-ID counter continues uninterrupted -- archived entries keep their
    original ENT-IDs for cross-reference integrity.
