@@ -45,10 +45,12 @@ status). Link's evaluation (`20260720T063325Z`) flagged a discoverability gap
 own proposal and redesigned to the logbook pattern, validated by the six
 sources above.
 
-The logbook converged on a 2-file design (queue.log for activity, errors.log
-for bugs/scars) because the write-x skills already produce durable artifacts
-in their own folders. The logbook records *what happened*, not the artifacts
-themselves. This avoids duplication and keeps the logbook lean.
+The logbook converged on a 5-file design: queue.log (general activity),
+errors.log (bugs/scars), research.log (research activity), library.log
+(library pipeline), and investing.log (investing analysis). The write-x
+skills already produce durable artifacts in their own folders. The
+logbook records *what happened*, not the artifacts themselves. This
+avoids duplication and keeps the logbook lean.
 
 ## Implications
 
@@ -68,9 +70,12 @@ themselves. This avoids duplication and keeps the logbook lean.
    create durable links to specific artifacts (e.g., `see: 20260720T063325Z`).
    The `id:` is permanent and unique -- unlike file paths, which may change.
 
-5. **300-entry threshold.** When a .log file exceeds 300 entries, the oldest
-   150 move to `logbook/archive/`. The active file keeps the most recent 150.
-   This keeps files readable without losing history.
+5. **CI archive workflow.** When a .log file exceeds 500 lines, CI
+   automatically archives the oldest complete entries to per-day files
+   (`logbook/archive/<name>-<date>.log`). The ENT-ID counter stays
+   continuous so cross-references never break. Agents never touch
+   archiving -- push as normal, CI handles the rest. This keeps
+   preflight reads fast and context lean.
 
 ## Counter-evidence
 
@@ -79,8 +84,8 @@ This insight would be invalidated if:
   tracking) produce measurably better throughput or lower error rates than
   append-only logs. This has not been observed.
 - A system with 5+ agents shows that flat .log files degrade performance
-  (e.g., grep-ing large files becomes a bottleneck). The archive threshold
-  mitigates this.
+  (e.g., grep-ing large files becomes a bottleneck). The CI archive
+  workflow (500-line threshold) mitigates this.
 - An agent-pair-specific routing pattern (e.g., Ava should not see Link's
   Researcher-1 delegation logs) becomes necessary. The `agent` field on each
   entry already supports filtering, and per-agent-pair logging can be added
