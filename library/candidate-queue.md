@@ -26,14 +26,6 @@
 - **Scope:** Morningstar's five moat sources (switching costs, intangible assets, network effects, cost advantage, efficient scale) and how to assess moat durability. Qualitative moat assessment frameworks, reinvestment moat analysis, and how moats erode over time. Connects case studies and industry analysis to investment decision-making.
 - **Status:** proposed
 
-## Candidate: The Scientific Method and Falsifiability
-- **Domain:** science
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-22
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** The scientific method as the engine of natural knowledge: hypothesis formation, experimental design, reproducibility, peer review, and the demarcation problem of falsifiability (Popper). Why science is self-correcting, how paradigm shifts occur (Kuhn), and what distinguishes science from pseudoscience. Foundational for all other science topics.
-- **Status:** proposed
-
 ## Candidate: Cognitive Biases: A Systematic Catalog
 - **Domain:** psychology-behavior
 - **Proposed by:** Researcher-1
