@@ -159,14 +159,21 @@ They are NOT appended to queue.log or errors.log.
 
 ## Archiving
 
-When a .log file exceeds 300 entries:
-1. The oldest 150 entries are moved to `logbook/archive/<name>-<period>.log`
-   (e.g. `queue-2026-Q3.log`, `errors-2026-Q3.log`).
-2. The active file keeps the most recent 150 entries plus a header
-   comment: `<!-- older entries archived to archive/queue-2026-Q3.log -->`.
-3. ENT-ID counter resets to ENT-001 in the active file.
-4. The counter is NOT reset in archive files; they keep their original
-   ENT-IDs for cross-reference integrity.
+When a .log file exceeds 1000 lines, CI automatically archives the
+oldest entries to keep preflight reads fast and context lean.
+
+The `logbook-archive.yml` workflow (`.github/workflows/`) fires on every
+push to main. It:
+1. Checks all `logbook/*.log` files for line count > 1000.
+2. Cuts the oldest complete entries (never mid-entry) from the active file.
+3. Appends them to `logbook/archive/<name>-<quarter>.log` (e.g. `queue-2026-Q3.log`).
+4. Commits with `[archive]` tag so the workflow does not re-trigger itself.
+5. The ENT-ID counter continues uninterrupted — archived entries keep their
+   original ENT-IDs for cross-reference integrity.
+
+Agents do NOT need to archive manually. Push your log entries as normal;
+CI trims them when they exceed the threshold. The archive files exist
+for historical reference and cross-reference resolution.
 
 ## Constitutional Compliance
 
