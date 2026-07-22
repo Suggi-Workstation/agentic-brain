@@ -37,11 +37,14 @@ statements, tax fraud, money laundering, audit procedures.
 
 ## Adjacent domains
 
-- [finance](library/finance/anchor-finance.md): accounting standards and normal financial reporting
+- finance: accounting standards and normal financial reporting
   belong there. Deviations and manipulation belong here.
-- [valuation-screening](library/valuation-screening/anchor-valuation-screening.md): adjustments for honest but misleading
+  `library/finance/anchor-finance.md`
+- valuation-screening: adjustments for honest but misleading
   accounting belong there. Adjustments for fraudulent accounting
   belong here.
-- [law-regulation](library/law-regulation/anchor-law-regulation.md): securities fraud prosecution belongs there.
+  `library/valuation-screening/anchor-valuation-screening.md`
+- law-regulation: securities fraud prosecution belongs there.
   Detection methodology belongs here.
+  `library/law-regulation/anchor-law-regulation.md`
 

@@ -37,10 +37,13 @@ geopolitics of climate (geopolitics).
 
 ## Adjacent domains
 
-- [science](library/science/anchor-science.md): general scientific principles belong there. Earth
+- science: general scientific principles belong there. Earth
   and climate systems specifically belong here.
-- [law-regulation](library/law-regulation/anchor-law-regulation.md): environmental law and climate treaties
+  `library/science/anchor-science.md`
+- law-regulation: environmental law and climate treaties
   belong there. The science those laws are based on belongs here.
-- [geopolitics](library/geopolitics/anchor-geopolitics.md): climate diplomacy and resource conflicts
+  `library/law-regulation/anchor-law-regulation.md`
+- geopolitics: climate diplomacy and resource conflicts
   belong there.
+  `library/geopolitics/anchor-geopolitics.md`
 

@@ -36,12 +36,16 @@ creation tips, book summaries (books), biographies of artists
 
 ## Adjacent domains
 
-- [books](library/books/anchor-books.md): book summaries and takeaways belong there. Cultural
+- books: book summaries and takeaways belong there. Cultural
   analysis of literature belongs here.
-- [notable-people](library/notable-people/anchor-notable-people.md): artist biographies belong there. Analysis
+  `library/books/anchor-books.md`
+- notable-people: artist biographies belong there. Analysis
   of their work's cultural significance belongs here.
-- [anthropology](library/anthropology/anchor-anthropology.md): academic cultural anthropology belongs there.
+  `library/notable-people/anchor-notable-people.md`
+- anthropology: academic cultural anthropology belongs there.
   Accessible cultural analysis through media belongs here.
-- [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md): psychological analysis of media
+  `library/anthropology/anchor-anthropology.md`
+- psychology-behavior: psychological analysis of media
   effects is a bridge topic.
+  `library/psychology-behavior/anchor-psychology-behavior.md`
 

@@ -46,18 +46,22 @@ current investing (macro-micro), legal history of specific laws
 
 ## Adjacent domains
 
-- [case-studies](library/case-studies/anchor-case-studies.md): specific
+- case-studies: specific
   event analysis with extracted business/investing lessons belongs there.
   Broad historical analysis of periods and forces belongs here.
-- [anthropology](library/anthropology/anchor-anthropology.md): cultural
+  `library/case-studies/anchor-case-studies.md`
+- anthropology: cultural
   and ethnographic study of societies belongs there. Political and
   economic history of those societies belongs here.
-- [geopolitics](library/geopolitics/anchor-geopolitics.md): contemporary
+  `library/anthropology/anchor-anthropology.md`
+- geopolitics: contemporary
   international relations belongs there. Historical context for
   current geopolitical situations is a bridge topic.
+  `library/geopolitics/anchor-geopolitics.md`
 - [notable-people](library/notable-people/anchor-notable-people.md):
   biographies of historical figures belong there. Historical periods
   and forces they operated within belong here.
-- [macro-micro](library/macro-micro/anchor-macro-micro.md): economic
+- macro-micro: economic
   history as a force shaping current economic systems is a bridge topic.
   Current economic theory and policy belong there.
+  `library/macro-micro/anchor-macro-micro.md`

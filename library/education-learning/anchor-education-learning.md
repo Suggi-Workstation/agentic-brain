@@ -58,15 +58,18 @@ acquisition (ethics-philosophy).
 - [self-improvement](library/self-improvement/anchor-self-improvement.md):
   personal learning techniques and productivity systems belong there.
   Formal educational methods and learning science belong here.
-- [technology](library/technology/anchor-technology.md): educational
+- technology: educational
   technology platforms and tools belong there. Evidence for what
   makes edtech effective belongs here.
-- [anthropology](library/anthropology/anchor-anthropology.md): how
+  `library/technology/anchor-technology.md`
+- anthropology: how
   different cultures transmit knowledge belongs there. Comparative
   education systems and pedagogy belong here.
-- [books](library/books/anchor-books.md): summaries of education
+  `library/anthropology/anchor-anthropology.md`
+- books: summaries of education
   and learning books belong there. General principles of learning
   science belong here.
+  `library/books/anchor-books.md`
 - [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md):
   epistemology and philosophy of education belong there. Applied
   educational philosophy and curriculum design belong here.

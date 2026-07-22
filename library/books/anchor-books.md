@@ -41,6 +41,7 @@ consumer advice, reading lists without analysis.
   belongs in value-investing as a TOPIC entry. They are
   complementary -- the topic covers the subject, the book
   entry covers what a specific author contributed.
-- [notable-people](library/notable-people/anchor-notable-people.md): author biographies belong there. Book
+- notable-people: author biographies belong there. Book
   content belongs here.
+  `library/notable-people/anchor-notable-people.md`
 

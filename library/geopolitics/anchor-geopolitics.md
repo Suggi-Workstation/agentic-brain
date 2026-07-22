@@ -36,11 +36,14 @@ geopolitical analysis (case-studies), travel writing.
 
 ## Adjacent domains
 
-- [macro-micro](library/macro-micro/anchor-macro-micro.md): economic dimensions of geopolitics are bridge
+- macro-micro: economic dimensions of geopolitics are bridge
   topics. Trade war mechanisms belong here; trade theory belongs
   there.
-- [law-regulation](library/law-regulation/anchor-law-regulation.md): international law belongs there. Geopolitical
+  `library/macro-micro/anchor-macro-micro.md`
+- law-regulation: international law belongs there. Geopolitical
   context for international law belongs here.
-- [case-studies](library/case-studies/anchor-case-studies.md): specific geopolitical events as case studies
+  `library/law-regulation/anchor-law-regulation.md`
+- case-studies: specific geopolitical events as case studies
   are bridge topics.
+  `library/case-studies/anchor-case-studies.md`
 

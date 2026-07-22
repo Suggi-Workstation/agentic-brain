@@ -47,18 +47,21 @@ industry practice, marketing strategy (industries-sectors).
 - [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md):
   cognitive psychology of language processing and persuasion belongs
   there as theory. Applied communication techniques belong here.
-- [technology](library/technology/anchor-technology.md): communication
+- technology: communication
   technology (telecom, internet, platforms) belongs there. How those
   technologies change communication patterns belongs here.
+  `library/technology/anchor-technology.md`
 - [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md):
   philosophy of language and epistemology of testimony belong there.
   Applied rhetoric and argumentation ethics belong here.
-- [pop-culture](library/pop-culture/anchor-pop-culture.md): media
+- pop-culture: media
   content and entertainment belong there. How media shapes public
   discourse belongs here.
-- [books](library/books/anchor-books.md): summaries of specific books
+  `library/pop-culture/anchor-pop-culture.md`
+- books: summaries of specific books
   on communication belong there. General principles of effective
   writing and rhetoric belong here.
+  `library/books/anchor-books.md`
 - [law-regulation](library/law-regulation/anchor-law-regulation.md):
   media law, defamation, and free speech regulation belong there.
   Journalistic ethics and standards belong here.

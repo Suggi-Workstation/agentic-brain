@@ -36,14 +36,18 @@ ideology without philosophical foundation, motivational content.
 
 ## Adjacent domains
 
-- [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md): empirical study of moral behavior
+- psychology-behavior: empirical study of moral behavior
   belongs there. Normative frameworks for ethics belong here.
-- [self-improvement](library/self-improvement/anchor-self-improvement.md): applied Stoic practices are bridge topics.
+  `library/psychology-behavior/anchor-psychology-behavior.md`
+- self-improvement: applied Stoic practices are bridge topics.
   Philosophical foundations belong here; daily practice belongs
   there.
-- [law-regulation](library/law-regulation/anchor-law-regulation.md): legal philosophy and jurisprudence belong
+  `library/self-improvement/anchor-self-improvement.md`
+- law-regulation: legal philosophy and jurisprudence belong
   here. Specific laws and regulations belong there.
-- [science](library/science/anchor-science.md): philosophy of science is a bridge topic.
+  `library/law-regulation/anchor-law-regulation.md`
+- science: philosophy of science is a bridge topic.
   Scientific findings belong there; philosophical interpretation
   belongs here.
+  `library/science/anchor-science.md`
 

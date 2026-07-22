@@ -46,13 +46,15 @@ regulation (law-regulation), bioethics as philosophy
 
 ## Adjacent domains
 
-- [science](library/science/anchor-science.md): biology, chemistry,
+- science: biology, chemistry,
   and physiology as pure science belong there. Clinical application
   of those sciences to human health belongs here.
-- [technology](library/technology/anchor-technology.md): medical
+  `library/science/anchor-science.md`
+- technology: medical
   device engineering, diagnostic technology, and AI in healthcare
   belong there. Clinical use and evidence for those technologies
   belong here.
+  `library/technology/anchor-technology.md`
 - [industries-sectors](library/industries-sectors/anchor-industries-sectors.md):
   healthcare industry analysis, pharma business models, and hospital
   economics belong there. Clinical evidence for what treatments work

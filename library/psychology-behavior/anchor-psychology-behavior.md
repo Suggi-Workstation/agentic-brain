@@ -38,13 +38,17 @@ of mind (ethics-philosophy), self-help without evidence base
 
 ## Adjacent domains
 
-- [probabilistic-thinking-forecasting](library/probabilistic-thinking-forecasting/anchor-probabilistic-thinking-forecasting.md): applying psychological
+- probabilistic-thinking-forecasting: applying psychological
   insights to forecasting belongs there. The psychological
   mechanisms themselves belong here.
-- [self-improvement](library/self-improvement/anchor-self-improvement.md): actionable techniques for personal change
+  `library/probabilistic-thinking-forecasting/anchor-probabilistic-thinking-forecasting.md`
+- self-improvement: actionable techniques for personal change
   belong there. The psychological theory behind them belongs here.
-- [value-investing](library/value-investing/anchor-value-investing.md): behavioral biases exploited by investors
+  `library/self-improvement/anchor-self-improvement.md`
+- value-investing: behavioral biases exploited by investors
   are bridge topics. The bias mechanisms belong here.
-- [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md): philosophy of mind and consciousness
+  `library/value-investing/anchor-value-investing.md`
+- ethics-philosophy: philosophy of mind and consciousness
   belong there. Empirical psychology belongs here.
+  `library/ethics-philosophy/anchor-ethics-philosophy.md`
 

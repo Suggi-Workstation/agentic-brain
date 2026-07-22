@@ -37,11 +37,14 @@ training (technology), AI ethics (ethics-philosophy), AI regulation
 
 ## Adjacent domains
 
-- [technology](library/technology/anchor-technology.md): general AI/ML, programming languages, and
+- technology: general AI/ML, programming languages, and
   software engineering belong there. Agent-specific engineering
   belongs here.
-- [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md): AI ethics and alignment belong there.
+  `library/technology/anchor-technology.md`
+- ethics-philosophy: AI ethics and alignment belong there.
   Engineering solutions for safe agents belong here.
-- [self-improvement](library/self-improvement/anchor-self-improvement.md): personal productivity with AI tools belongs
+  `library/ethics-philosophy/anchor-ethics-philosophy.md`
+- self-improvement: personal productivity with AI tools belongs
   there. Building AI tools for productivity belongs here.
+  `library/self-improvement/anchor-self-improvement.md`
 

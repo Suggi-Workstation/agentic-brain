@@ -39,11 +39,14 @@ strategy (industries-sectors), economic history narratives
 
 ## Adjacent domains
 
-- [finance](library/finance/anchor-finance.md): market-level economic forces are bridge topics. When
+- finance: market-level economic forces are bridge topics. When
   the focus is on the economy itself, here. When it is on market
   pricing, there.
-- [geopolitics](library/geopolitics/anchor-geopolitics.md): economic dimensions of international relations
+  `library/finance/anchor-finance.md`
+- geopolitics: economic dimensions of international relations
   are bridge topics.
-- [industries-sectors](library/industries-sectors/anchor-industries-sectors.md): industry-specific economics belongs there.
+  `library/geopolitics/anchor-geopolitics.md`
+- industries-sectors: industry-specific economics belongs there.
   General economic principles belong here.
+  `library/industries-sectors/anchor-industries-sectors.md`
 

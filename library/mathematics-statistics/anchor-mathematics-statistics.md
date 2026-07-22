@@ -36,10 +36,13 @@ statistics (science), psychological statistics (psychology-behavior).
 
 ## Adjacent domains
 
-- [science](library/science/anchor-science.md): scientific applications of math/statistics are bridge
+- science: scientific applications of math/statistics are bridge
   topics. The mathematical foundations belong here.
-- [probabilistic-thinking-forecasting](library/probabilistic-thinking-forecasting/anchor-probabilistic-thinking-forecasting.md): applied probability for
+  `library/science/anchor-science.md`
+- probabilistic-thinking-forecasting: applied probability for
   decision-making belongs there. Probability theory belongs here.
-- [technology](library/technology/anchor-technology.md): applied ML and AI belong there. Foundational
+  `library/probabilistic-thinking-forecasting/anchor-probabilistic-thinking-forecasting.md`
+- technology: applied ML and AI belong there. Foundational
   mathematics of ML belongs here.
+  `library/technology/anchor-technology.md`
 
