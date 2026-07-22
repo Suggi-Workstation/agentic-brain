@@ -44,16 +44,16 @@ industry practice, marketing strategy (industries-sectors).
 
 ## Adjacent domains
 
-- [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md):
-  cognitive psychology of language processing and persuasion belongs
+- psychology-behavior: cognitive psychology of language processing and persuasion belongs
   there as theory. Applied communication techniques belong here.
+  `library/psychology-behavior/anchor-psychology-behavior.md`
 - technology: communication
   technology (telecom, internet, platforms) belongs there. How those
   technologies change communication patterns belongs here.
   `library/technology/anchor-technology.md`
-- [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md):
-  philosophy of language and epistemology of testimony belong there.
+- ethics-philosophy: philosophy of language and epistemology of testimony belong there.
   Applied rhetoric and argumentation ethics belong here.
+  `library/ethics-philosophy/anchor-ethics-philosophy.md`
 - pop-culture: media
   content and entertainment belong there. How media shapes public
   discourse belongs here.
@@ -62,6 +62,6 @@ industry practice, marketing strategy (industries-sectors).
   on communication belong there. General principles of effective
   writing and rhetoric belong here.
   `library/books/anchor-books.md`
-- [law-regulation](library/law-regulation/anchor-law-regulation.md):
-  media law, defamation, and free speech regulation belong there.
+- law-regulation: media law, defamation, and free speech regulation belong there.
   Journalistic ethics and standards belong here.
+  `library/law-regulation/anchor-law-regulation.md`

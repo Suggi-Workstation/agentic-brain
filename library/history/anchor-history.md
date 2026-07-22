@@ -58,9 +58,9 @@ current investing (macro-micro), legal history of specific laws
   international relations belongs there. Historical context for
   current geopolitical situations is a bridge topic.
   `library/geopolitics/anchor-geopolitics.md`
-- [notable-people](library/notable-people/anchor-notable-people.md):
-  biographies of historical figures belong there. Historical periods
+- notable-people: biographies of historical figures belong there. Historical periods
   and forces they operated within belong here.
+  `library/notable-people/anchor-notable-people.md`
 - macro-micro: economic
   history as a force shaping current economic systems is a bridge topic.
   Current economic theory and policy belong there.

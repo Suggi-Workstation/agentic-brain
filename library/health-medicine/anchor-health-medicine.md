@@ -55,16 +55,16 @@ regulation (law-regulation), bioethics as philosophy
   belong there. Clinical use and evidence for those technologies
   belong here.
   `library/technology/anchor-technology.md`
-- [industries-sectors](library/industries-sectors/anchor-industries-sectors.md):
-  healthcare industry analysis, pharma business models, and hospital
+- industries-sectors: healthcare industry analysis, pharma business models, and hospital
   economics belong there. Clinical evidence for what treatments work
   belongs here.
-- [law-regulation](library/law-regulation/anchor-law-regulation.md):
-  healthcare law, FDA regulation, and drug approval processes belong
+  `library/industries-sectors/anchor-industries-sectors.md`
+- law-regulation: healthcare law, FDA regulation, and drug approval processes belong
   there. Clinical implications of regulation belong here.
-- [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md):
-  bioethics, medical ethics philosophy, and end-of-life ethics belong
+  `library/law-regulation/anchor-law-regulation.md`
+- ethics-philosophy: bioethics, medical ethics philosophy, and end-of-life ethics belong
   there. Applied medical ethics in clinical practice belongs here.
-- [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md):
-  psychological mechanisms and behavioral science belong there.
+  `library/ethics-philosophy/anchor-ethics-philosophy.md`
+- psychology-behavior: psychological mechanisms and behavioral science belong there.
   Clinical mental health treatment and psychiatric medicine belong here.
+  `library/psychology-behavior/anchor-psychology-behavior.md`

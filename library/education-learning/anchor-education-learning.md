@@ -52,12 +52,12 @@ acquisition (ethics-philosophy).
 
 ## Adjacent domains
 
-- [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md):
-  cognitive psychology of memory and attention belongs there.
+- psychology-behavior: cognitive psychology of memory and attention belongs there.
   Applied learning techniques and pedagogy belong here.
-- [self-improvement](library/self-improvement/anchor-self-improvement.md):
-  personal learning techniques and productivity systems belong there.
+  `library/psychology-behavior/anchor-psychology-behavior.md`
+- self-improvement: personal learning techniques and productivity systems belong there.
   Formal educational methods and learning science belong here.
+  `library/self-improvement/anchor-self-improvement.md`
 - technology: educational
   technology platforms and tools belong there. Evidence for what
   makes edtech effective belongs here.
@@ -70,6 +70,6 @@ acquisition (ethics-philosophy).
   and learning books belong there. General principles of learning
   science belong here.
   `library/books/anchor-books.md`
-- [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md):
-  epistemology and philosophy of education belong there. Applied
+- ethics-philosophy: epistemology and philosophy of education belong there. Applied
   educational philosophy and curriculum design belong here.
+  `library/ethics-philosophy/anchor-ethics-philosophy.md`
