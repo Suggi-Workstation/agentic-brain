@@ -3,117 +3,81 @@ name: library-discoverer-test
 id: 20260722T184716Z
 tier: proposal
 author: Link
-tags: [library, discoverer, test, pipeline, expected-results]
-links: [governance/library-discoverer.md, library/guide-library.md, research/insights/library-system.md]
+tags: [library, discoverer, test, pipeline]
+links:
+  - governance/library-discoverer.md
+  - library/guide-library.md
+  - research/insights/library-system.md
 ---
 
-# Library Discoverer Test -- Expected Results
+# Library Discoverer Test -- Verify First Pipeline Phase
 
-## Purpose
+## Problem
 
-This proposal defines the expected outputs when Researcher-1 runs the
-`library-discoverer` skill for the first time. All 28 domains have 0
-topics. The discoverer must survey domains, select 4-6 across major
-categories, read anchors, identify knowledge gaps, score candidates,
-and append proposals to `library/candidate-queue.md`.
+The library pipeline has 3 skills (discoverer, writer, auditor) that
+have never been tested end-to-end. The discoverer runs first -- it
+surveys 28 domains (all at 0 topics), selects 4-6 across major
+categories, reads domain anchors, identifies knowledge gaps, scores
+candidates, and appends proposals to the candidate queue. Without a
+test run, we do not know whether the skill procedure is executable, the
+domain balance survey loop works correctly, the scoring formula produces
+sensible results, or the candidate queue format matches what the writer
+expects.
 
-This document is the acceptance criteria. After the test run, compare
-actual outputs against these expectations. Deviations must be explained
-or fixed.
+## Proposed Solution
 
-## Expected Outputs
+Run a single cron cycle of the discoverer skill on Researcher-1.
+Verify the outputs against concrete acceptance criteria:
 
-### 1. library.log entry
+1. `logbook/library.log`: one entry with ENT counter incremented, N
+   domains scanned, M candidates proposed (M = 4-18), all 4 dimension
+   scores listed, domain balance survey showing 0 topics for all
+   domains.
+2. `library/candidate-queue.md`: M candidates appended with all
+   required fields (Domain, Proposed by, Date, Discovery score, Scope,
+   Status). No duplicates. All proposed for domains with anchors.
+   Domain balance = 10.0 for all (all domains at 0 topics).
+3. `logbook/errors.log`: no new entry. Normal pipeline outcomes
+   (FLAG, REJECT) go to library.log.
+4. No topic files created, no anchor files modified, no index
+   regenerated. The discoverer proposes; it does not write.
 
-A single entry in `logbook/library.log` with format:
-```
-## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | Researcher-1 | library | ref: library/candidate-queue.md
-Discovery cycle: N domains scanned, M candidates proposed.
-Domains: <list with topic counts>. Candidates: <list with all 4 dimension scores>.
-Domain balance survey: <least-covered domain (0 topics)> to <most-covered (0 topics)>.
-```
+## Impact
 
-Acceptance criteria:
-- ENT counter increments from last library.log entry (currently ENT-001)
-- N = 4-6 (the number of domains selected for this cycle)
-- M = 4-18 (each domain yields 1-3 candidates; 4 domains x 1 = 4 minimum, 6 x 3 = 18 maximum)
-- All domains listed with topic count = 0 (no topics exist yet)
-- Each candidate includes all 4 dimension scores (gap, compounding, timeliness, balance)
-- Domain balance survey shows 0 topics for all domains (all equally underrepresented)
-
-### 2. candidate-queue.md
-
-File at `library/candidate-queue.md` contains M candidate entries. Each entry:
-```markdown
-## Candidate: <topic-title>
-- **Domain:** <domain-slug>
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-22
-- **Discovery score:** X.X/10.0 (gap=X.X, compounding=X.X, timeliness=X.X, balance=X.X)
-- **Scope:** <2-3 sentence scope description for the writer>
-- **Status:** proposed
-```
-
-Acceptance criteria:
-- File retains its header: `# Library Candidate Queue -- topics proposed for the writing process`
-- M candidates appended (not overwritten)
-- No duplicate candidates (checked by title and scope)
-- Each candidate's domain has an anchor file
-- Domain balance scores reflect the survey: all domains at 0 topics -> all balance scores are 10.0
-- No candidate proposes a topic outside its domain's In scope
-- ASCII-only
-
-### 3. errors.log (expected: no entry)
-
-Acceptance criteria:
-- No new entry in `logbook/errors.log`
-- If an entry IS written, it MUST describe an unexpected failure (clone failed, push rejected, file write error). Normal pipeline outcomes go to library.log only.
-
-### 4. No other files modified
-
-Acceptance criteria:
-- No topic files created (discoverer proposes, does not write)
-- No anchor files modified
-- No governance files modified
-- No index regeneration (that is the auditor's job)
-
-## Domain Selection Expectations
-
-With all 28 domains at 0 topics, the discoverer must:
-1. Prioritize domain balance (all equal at 0)
-2. Cover at least one domain from each major category:
-   - **investing:** value-investing, finance, valuation-screening, portfolio-risk-management, accounting-financial-shenanigans, macro-micro, industries-sectors
-   - **science:** science, earth-climate, mathematics-statistics, technology
-   - **human/social:** psychology-behavior, anthropology, health-medicine, education-learning, communication, ethics-philosophy, history, law-regulation, self-improvement
-   - **global:** geopolitics
-   - **thinking:** probabilistic-thinking-forecasting
-   Plus: books, case-studies, coding-agentic-ai, investors, notable-people, pop-culture
-
-3. Select 4-6 domains total, rotating across categories
-
-Acceptance criteria:
-- At least 4 categories represented across the selected domains
-
-## Scoring Expectations
-
-All domains have 0 topics -> domain balance = 10.0 for every candidate.
-Other dimensions (gap, compounding, timeliness) vary by candidate.
-
-Acceptance criteria:
-- Every candidate has all 4 dimensions scored
-- Every dimension has a brief justification (1-2 sentences)
-- Weighted score formula correct: (gap*0.40 + compounding*0.25 + timeliness*0.20 + balance*0.15)
-- Domain balance derived from the topic count survey, not hardcoded
+- **Positive:** Validates the first pipeline phase end-to-end.
+  Exercises the domain survey loop, anchor reading, gap identification,
+  and scoring formula on real data. Surfaces any execution gaps before
+  the writer and auditor run.
+- **Risk:** Low. The discoverer writes only to the brain (candidate
+  queue + library.log). If the run fails incorrectly, the queue stays
+  empty and we debug. No existing data is modified.
+- **Cost:** One cron cycle. Model: Haiku 4.5 via Copilot free ($0).
+  The skill procedure is ~240 lines; context load is moderate.
 
 ## Open Questions
 
-1. Will the discoverer select exactly 4-6 domains or pick all 28? The skill says "4-6 per cycle" but with 0 topics everywhere, the temptation to over-select is real.
-2. Will gap scores be inflated? With no existing topics, every proposed topic is a "gap" -- but some gaps are larger than others. The discoverer must distinguish critical gaps from nice-to-haves.
-3. Will the balance survey for-loop work correctly in the cron environment? The skill uses bash `for domain in library/*/; do` -- this depends on the shell and the clone being at the expected path.
-4. Will the queue format match exactly? The skill shows a markdown template. If the discoverer deviates (adds extra fields, changes indentation), the writer may not parse the candidate correctly.
+1. Will the discoverer select exactly 4-6 domains or all 28? All
+   domains have 0 topics -- domain balance scores are identical. The
+   skill says "4-6 per cycle" but the temptation to over-select is
+   real with uniform scores.
+2. Will gap scores be inflated? Every proposed topic with 0 existing
+   topics is a "gap" -- but some gaps are critical and some are
+   nice-to-have. The discoverer must distinguish them.
+3. Will the balance survey bash loop work? The skill uses `for domain
+   in library/*/; do`. This depends on the shell, the clone path, and
+   the presence of anchor files in every domain folder.
+4. Will the queue format match the skill's template exactly? If the
+   discoverer deviates (adds fields, changes indentation), the writer
+   may not parse the candidate correctly.
 
-## Version History
+## Approval Gate
 
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1.0 | 2026-07-22 | Link | Initial test specification |
+If approved, Ava deploys the discoverer cron on Researcher-1. After
+the run completes, compare actual outputs against the acceptance
+criteria above. File any deviations as errors or skill patches.
+
+## Cross-Links
+
+- `governance/library-discoverer.md` -- the skill being tested
+- `library/guide-library.md` -- pipeline architecture and weights
+- `research/insights/library-system.md` -- full system design
