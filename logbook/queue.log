@@ -339,3 +339,12 @@ sessions beyond 3-result browse cap.
 Brain commits: 27124bc (26 files), 9c776af (5 edge cases), 71722a3
 (13 files reverse), 7533397 (IOR reverse-adjacency-principle).
 IOR: 2026-07-22_link_reverse-adjacency-principle.
+
+## [ENT-020] | 2026-07-22 10:33 UTC | Link | general | see: ENT-019
+Session: cron setup prep + CI archive workflow + anchor path fixes.
+Built 3 Hermes profile skills (library-writer, auditor, discoverer).
+Model assignments: Writer=Sonnet 4.6, Auditor=GPT-5.4, Discoverer=Haiku 4.5
+(all Copilot free tier). CI logbook-archive workflow live: >500 lines
+triggers archive to per-day files, ENT counter continuous. Session-end
+skill stale path fixed. Identity archive procedure hardened. Anchor
+adjacent domain format settled: plain text name + backtick path reference.
