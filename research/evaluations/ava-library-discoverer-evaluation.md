@@ -61,13 +61,13 @@ The removal was unintentional -- a casualty of the lean rewrite.
 ### F3 -- Candidate output matches test spec (PASS)
 
 All 7 test spec acceptance criteria pass:
-- 12 candidates across 6 domains (spec: 4-18) ✅
-- 5 major categories represented (spec: at least 4) ✅
-- All balance scores = 10.0 (correct: all domains at 0 topics) ✅
-- All 4 dimensions scored with justifications ✅
-- Weighted formula correct: `(gap*0.40 + comp*0.25 + time*0.20 + bal*0.15)` ✅
-- No duplicate candidates ✅
-- Queue format matches spec (header preserved, entries appended) ✅
+- 12 candidates across 6 domains (spec: 4-18) [PASS]
+- 5 major categories represented (spec: at least 4) [PASS]
+- All balance scores = 10.0 (correct: all domains at 0 topics) [PASS]
+- All 4 dimensions scored with justifications [PASS]
+- Weighted formula correct: `(gap*0.40 + comp*0.25 + time*0.20 + bal*0.15)` [PASS]
+- No duplicate candidates [PASS]
+- Queue format matches spec (header preserved, entries appended) [PASS]
 
 **Evidence:** `library/candidate-queue.md` contains 12 entries in exact
 spec format. Each entry has domain, score (all 4 dims), scope, and
@@ -76,7 +76,7 @@ geopolitics, probabilistic-thinking-forecasting, technology.
 
 ### F4 -- logbook entry correct (PASS)
 
-ENT-002 follows the spec format exactly: ENT counter incremented (1→2),
+ENT-002 follows the spec format exactly: ENT counter incremented (1->2),
 all 12 candidates listed with scores, domain balance survey completed,
 timestamp correct.
 
