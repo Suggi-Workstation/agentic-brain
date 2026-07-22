@@ -128,9 +128,12 @@ proposed. The writer applies its own >= 7.0 threshold.
 ### 8. Propose candidates to the queue
 
 Append each candidate to `/tmp/brain-discover/library/candidate-queue.md`
-using this format:
+using this format. If the queue already has entries, add a blank line
+before the first `## Candidate:` block to separate the new candidates
+from existing entries.
 
 ```markdown
+
 ## Candidate: <topic-title>
 - **Domain:** <domain-slug>
 - **Proposed by:** <agent-name>
@@ -177,6 +180,7 @@ any failure; fix before committing.
 - [ ] No duplicate candidates in the queue (checked by title and scope) (PASS / HALT)
 - [ ] Each candidate has domain, score (all 4 dims), scope, and status fields (PASS / HALT)
 - [ ] Candidate queue created with header if it did not exist (PASS / HALT)
+- [ ] Blank line separates new candidates from existing queue entries when appending (PASS / HALT)
 
 ### File Output
 
