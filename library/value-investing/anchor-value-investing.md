@@ -43,22 +43,28 @@ sectors), tax optimization strategies, retirement planning.
 
 ## Adjacent domains
 
-- [finance](library/finance/anchor-finance.md): corporate finance, financial statement analysis, and
+- finance: corporate finance, financial statement analysis, and
   accounting principles that value investors USE belong there as
   tools. Value investing philosophy and application belong here.
-- [investors](library/investors/anchor-investors.md): biographies and investment approaches of specific
+  `library/finance/anchor-finance.md`
+- investors: biographies and investment approaches of specific
   investors (Buffett, Munger, Graham, Klarman, etc.) belong there.
   Their investment philosophy and principles distilled belong here.
-- [valuation-screening](library/valuation-screening/anchor-valuation-screening.md): specific valuation techniques, screening
+  `library/investors/anchor-investors.md`
+- valuation-screening: specific valuation techniques, screening
   criteria, and quantitative models belong there. The philosophical
   framework for why valuation matters belongs here.
-- [accounting-financial-shenanigans](library/accounting-financial-shenanigans/anchor-accounting-financial-shenanigans.md): detecting earnings manipulation
+  `library/valuation-screening/anchor-valuation-screening.md`
+- accounting-financial-shenanigans: detecting earnings manipulation
   and accounting fraud belongs there. The value investor's need for
   honest accounting and how to spot shenanigans is a bridge topic.
-- [portfolio-risk-management](library/portfolio-risk-management/anchor-portfolio-risk-management.md): portfolio theory, diversification
+  `library/accounting-financial-shenanigans/anchor-accounting-financial-shenanigans.md`
+- portfolio-risk-management: portfolio theory, diversification
   mathematics, and risk modeling belong there. The value investor's
   approach to concentration and risk belongs here.
-- [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md): behavioral finance and cognitive biases in
+  `library/portfolio-risk-management/anchor-portfolio-risk-management.md`
+- psychology-behavior: behavioral finance and cognitive biases in
   general belong there. The specific biases that value investors
   exploit (Mr. Market, loss aversion) are bridge topics.
+  `library/psychology-behavior/anchor-psychology-behavior.md`
 
