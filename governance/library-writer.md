@@ -47,7 +47,7 @@ Confirm ALL verification sections passed before committing.
 
 ```bash
 cd /tmp && rm -rf brain-writer && git clone --depth 1 \
-  "https://${OPEN...KEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-writer
+  "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-writer
 ```
 
 ### 2. Pick a candidate topic from the discovery queue

@@ -47,7 +47,7 @@ Confirm ALL verification sections passed before committing.
 
 ```bash
 cd /tmp && rm -rf brain-discover && git clone --depth 1 \
-  "https://${OPEN...KEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-discover
+  "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-discover
 ```
 
 ### 2. Survey domain coverage

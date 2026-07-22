@@ -48,7 +48,7 @@ Confirm ALL verification sections passed before committing.
 
 ```bash
 cd /tmp && rm -rf brain-audit && git clone --depth 1 \
-  "https://${OPEN...KEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-audit
+  "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-audit
 ```
 
 ### 2. Find unaudited topics
