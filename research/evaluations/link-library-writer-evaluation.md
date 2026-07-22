@@ -73,8 +73,8 @@ forward-links to planned topics.
 | Knowledge value (0.20) | 9.0 | Good -- foundational topic, future topics will reference it |
 | Source authority (0.10) | 6.5 | Honest -- acknowledges web sources alongside primary texts |
 
-Weighted: (10.0 × 0.35) + (10.0 × 0.35) + (9.0 × 0.20) + (6.5 × 0.10)
-= 3.5 + 3.5 + 1.8 + 0.65 = **9.45 → 9.5**. Correct.
+Weighted: (10.0 * 0.35) + (10.0 * 0.35) + (9.0 * 0.20) + (6.5 * 0.10)
+= 3.5 + 3.5 + 1.8 + 0.65 = **9.45 -> 9.5**. Correct.
 
 The writer correctly scored source authority at 6.5 despite having 3
 high-authority sources (Graham's books and Klarman) by factoring in the
@@ -83,7 +83,7 @@ did not inflate authority because a few primary texts were cited.
 
 ### F4 -- Logbook entry format correct (PASS)
 
-ENT-003 follows the spec format: ENT counter 2→3, timestamp correct,
+ENT-003 follows the spec format: ENT counter 2->3, timestamp correct,
 agent=Researcher-1, weighted score 9.5 with all 4 dimension breakdowns,
 similarity overlap 0%, sources 6 (3 high, 3 medium, 0 low),
 cross-references 4. The `see:` field references the candidate.
@@ -103,7 +103,7 @@ strengths:
 - **Graham's engineering analogy** (bridge load capacity) -- excellent
   explanatory technique. Makes the concept accessible.
 - **Formula provided** -- MOS = 1 - (Price / Intrinsic Value). Concrete.
-- **Historical evolution traced** -- Security Analysis 1934 → 1940 →
+- **Historical evolution traced** -- Security Analysis 1934 -> 1940 ->
   1951 editions, showing the concept's development over time.
 - **Common Pitfalls section** -- not required by the template but adds
   practical value. Distinguishes cheap price from genuine margin of
