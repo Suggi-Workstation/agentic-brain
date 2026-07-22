@@ -31,13 +31,13 @@ is ambiguity in both the template and the skill, not writer error.
 
 | Topic | Writer Scoring position | Order of final 3 sections |
 |:--|:--|:--|
-| margin-of-safety | Between Sources and See Also | Sources → Scoring → See Also |
-| cognitive-biases | Missing entirely | Sources → See Also |
-| scientific-method | After See Also | Sources → See Also → Scoring |
-| economic-moats | Between Sources and See Also | Sources → Scoring → See Also |
+| margin-of-safety | Between Sources and See Also | Sources -> Scoring -> See Also |
+| cognitive-biases | Missing entirely | Sources -> See Also |
+| scientific-method | After See Also | Sources -> See Also -> Scoring |
+| economic-moats | Between Sources and See Also | Sources -> Scoring -> See Also |
 
 Four topics, three different section orders. The template says "Body
-sections organized logically with ## headings" — permissive, no
+sections organized logically with ## headings" -- permissive, no
 mandated order. The writer skill's Format Verification checklist says
 "Sources cited" and "Cross-references included" but does not specify
 a fixed section order or which sections are mandatory.
@@ -46,7 +46,7 @@ a fixed section order or which sections are mandatory.
 
 cognitive-biases.md (347 lines) has no Writer Scoring section at all.
 The logbook entry (ENT-004) records scores (core=10.0, scope=10.0,
-value=9.0, authority=7.0) — so the writer DID score the topic — but
+value=9.0, authority=7.0) -- so the writer DID score the topic -- but
 the scores are not recorded in the topic file itself.
 
 The skill's Format Verification says "All four dimensions scored with
@@ -81,7 +81,7 @@ Three problems:
 3. **Sources and See Also positions are described in prose, not in
    the structure template.** The template says "A `## Sources` section
    at the end of the file" and "A `## See Also` section at the end
-   (after Sources)." That is clear for Sources → See Also ordering.
+   (after Sources)." That is clear for Sources -> See Also ordering.
    But Writer Scoring has no position guidance, so it floats.
 
 ### F4 -- Writer skill Format Verification checklist is incomplete (ROOT CAUSE)
@@ -204,7 +204,7 @@ line: "Follow the body structure and section order specified in
   topics will be structurally identical regardless of which writer
   model produces them.
 - **Risk:** Low. Adding mandatory sections to the template is backward-
-  compatible — no existing topic content is invalidated, only
+  compatible -- no existing topic content is invalidated, only
   re-ordered.
 - **Cost:** 4 edits across 2 files (template-library.md, library-writer
   skill). All 3 copies must be synced (governance, researcher-1, Link).
@@ -214,7 +214,7 @@ line: "Follow the body structure and section order specified in
 **High (90%).** The structural inconsistency is directly observable
 across 4 files. The root cause (template permissiveness + missing
 checklist items) is clear. 10% reserved for whether the writer models
-will reliably follow MUST/MUST NOT instructions on section order —
+will reliably follow MUST/MUST NOT instructions on section order --
 weaker models may still deviate.
 
 ## Cross-Links
