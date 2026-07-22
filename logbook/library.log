@@ -4,3 +4,9 @@
      Category: library
      See: logbook/protocol.md for full spec
 -->
+
+## [ENT-001] | 2026-07-22 10:22 UTC | Link | library | ref: library/*/anchor-*.md
+Library: 28-domain anchor file standardization. All adjacent domain
+references now use uniform format (plain domain name + backtick path).
+Reverse-adjacency graph completed -- bidirectional edges across all 28
+domains. 3 commits, 34 files touched, 21 new reverse entries added.

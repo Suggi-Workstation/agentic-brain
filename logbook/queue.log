@@ -326,3 +326,16 @@ template-library.md (10 quality gates G1-G10). All 3 skills include
 error logging to errors.log. Protocol.md updated with 3 new log
 files (research.log, library.log, investing.log). Workspace cleaned
 of stale bloat. Brain-index rebuilt: 751 chunks from 132 files.
+
+## [ENT-020] | 2026-07-22 10:22 UTC | Link | general | ref: library/*/anchor-*.md | see: ENT-019
+Session: Library adjacency graph completion. (1) Standardized adjacent
+domains format across all 27 non-value-investing anchor files to match
+anchor-value-investing.md reference (domain-name: description + backtick
+path). (2) Added reverse-adjacency entries for 4 new domains (history,
+health-medicine, communication, education-learning) to 13 old anchor
+files that the new domains reference. 21 new adjacent entries total.
+(3) Preflight step 0.5 added: session_search at startup to surface
+sessions beyond 3-result browse cap.
+Brain commits: 27124bc (26 files), 9c776af (5 edge cases), 71722a3
+(13 files reverse), 7533397 (IOR reverse-adjacency-principle).
+IOR: 2026-07-22_link_reverse-adjacency-principle.
