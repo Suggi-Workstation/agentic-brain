@@ -375,6 +375,41 @@ margins, falling market share, rising customer acquisition costs,
 deteriorating ROIC -- with the same rigor they apply to valuation
 metrics.
 
+## Writer Scoring
+
+- **Core match:** 9.0/10.0 -- Moat analysis and competitive advantage
+  durability are explicitly listed in the domain anchor paragraph and In
+  scope. The topic directly addresses "moat analysis and competitive
+  advantage durability," "qualitative moat assessment," and
+  "reinvestment moat analysis" -- all items in the anchor's In scope list.
+- **Scope fit:** 10.0/10.0 -- Squarely within the value-investing domain
+  boundary. Does not drift into finance (which covers tools, not
+  philosophy), investors (which covers biographies, not frameworks), or
+  valuation-screening (which covers quantitative models, not qualitative
+  assessment). The topic stays focused on the value investor's approach
+  to assessing competitive advantage.
+- **Knowledge value:** 8.5/10.0 -- Compounds with the existing
+  margin-of-safety topic (moat durability determines required margin
+  size), bridges to intrinsic-value-estimation (moat width determines DCF
+  persistence period), and connects to investors (Buffett/Munger's
+  philosophy) and psychology-behavior (behavioral biases exploited by
+  value investors). Medium-high compounding value.
+- **Source authority:** 7.0/10.0 -- Two Morningstar primary sources
+  [high], Morgan Stanley institutional research [high], and three
+  reputable practitioner sources [medium]. No low-authority sources.
+  Average authority across 6 sources is approximately 7.3, rounded to
+  7.0.
+
+**Weighted score:** (9.0 x 0.35) + (10.0 x 0.35) + (8.5 x 0.20) +
+(7.0 x 0.10) = 3.15 + 3.50 + 1.70 + 0.70 = **9.05** (rounded to 9.1)
+
+**Topic similarity:** Approximately 10-15% overlap with
+margin-of-safety.md. The existing topic mentions moats only in passing
+as a candidate cross-reference. The topics are complementary
+(margin-of-safety is about the price-value gap; moats are about the
+business quality that justifies a long holding period) but not
+overlapping. Proceeded normally.
+
 ## Sources
 
 1. Morningstar. "Economic Moat Ratings: How to Measure a Company's
@@ -413,41 +448,6 @@ metrics.
    https://stockalpha.ai/alpha-learning/economic-moats-identifying-companies-with-durable-competitive-advantages
    Advanced guide on quantifying moat durability through financial
    metrics, valuation adjustments, and erosion monitoring. [medium]
-
-## Writer Scoring
-
-- **Core match:** 9.0/10.0 -- Moat analysis and competitive advantage
-  durability are explicitly listed in the domain anchor paragraph and In
-  scope. The topic directly addresses "moat analysis and competitive
-  advantage durability," "qualitative moat assessment," and
-  "reinvestment moat analysis" -- all items in the anchor's In scope list.
-- **Scope fit:** 10.0/10.0 -- Squarely within the value-investing domain
-  boundary. Does not drift into finance (which covers tools, not
-  philosophy), investors (which covers biographies, not frameworks), or
-  valuation-screening (which covers quantitative models, not qualitative
-  assessment). The topic stays focused on the value investor's approach
-  to assessing competitive advantage.
-- **Knowledge value:** 8.5/10.0 -- Compounds with the existing
-  margin-of-safety topic (moat durability determines required margin
-  size), bridges to intrinsic-value-estimation (moat width determines DCF
-  persistence period), and connects to investors (Buffett/Munger's
-  philosophy) and psychology-behavior (behavioral biases exploited by
-  value investors). Medium-high compounding value.
-- **Source authority:** 7.0/10.0 -- Two Morningstar primary sources
-  [high], Morgan Stanley institutional research [high], and three
-  reputable practitioner sources [medium]. No low-authority sources.
-  Average authority across 6 sources is approximately 7.3, rounded to
-  7.0.
-
-**Weighted score:** (9.0 x 0.35) + (10.0 x 0.35) + (8.5 x 0.20) +
-(7.0 x 0.10) = 3.15 + 3.50 + 1.70 + 0.70 = **9.05** (rounded to 9.1)
-
-**Topic similarity:** Approximately 10-15% overlap with
-margin-of-safety.md. The existing topic mentions moats only in passing
-as a candidate cross-reference. The topics are complementary
-(margin-of-safety is about the price-value gap; moats are about the
-business quality that justifies a long holding period) but not
-overlapping. Proceeded normally.
 
 ## See Also
 
