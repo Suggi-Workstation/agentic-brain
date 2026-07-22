@@ -248,6 +248,31 @@ purchase AND the underlying business compounds intrinsic value at an
 attractive rate. Selling simply because the discount has closed
 surrenders the second source of return.
 
+## Writer Scoring
+
+- **Core match:** 10.0/10.0 -- Margin of safety is the central concept of
+  value investing. The domain anchor states the discipline is about
+  purchasing assets at prices below their intrinsic value, with a
+  margin of safety. This topic is the anchor's thesis statement.
+- **Scope fit:** 10.0/10.0 -- Explicitly In scope: margin of safety
+  quantification. The topic stays entirely within the domain boundary
+  and does not drift into adjacent domains.
+- **Knowledge value:** 9.0/10.0 -- Foundational topic that all future
+  value-investing topics (intrinsic value estimation, moat analysis,
+  Mr. Market, circle of competence) will reference and compound with.
+  First topic written in the domain; essential primer.
+- **Source authority:** 6.5/10.0 -- Two primary Graham sources [high],
+  one Klarman book [high], and three reputable web sources [medium].
+  No sources rated [low] in the final selection. Average authority
+  across 6 sources is approximately 7.3, adjusted to 6.5 to reflect
+  reliance on web interpretations alongside primary texts.
+
+**Weighted score:** (10.0 x 0.35) + (10.0 x 0.35) + (9.0 x 0.20) +
+(6.5 x 0.10) = 3.5 + 3.5 + 1.8 + 0.65 = **9.45** (rounded to 9.5)
+
+**Topic similarity:** 0% overlap -- no existing topics in the
+value-investing domain. Proceeded normally.
+
 ## Sources
 
 1. Graham, B. (1949, revised 1973). "The Intelligent Investor."
@@ -275,31 +300,6 @@ surrenders the second source of return.
 
 6. Klarman, S. (1991). "Margin of Safety: Risk-Averse Value Investing
    Strategies for the Thoughtful Investor." HarperCollins. [high]
-
-## Writer Scoring
-
-- **Core match:** 10.0/10.0 -- Margin of safety is the central concept of
-  value investing. The domain anchor states the discipline is about
-  "purchasing assets at prices below their intrinsic value, with a
-  margin of safety." This topic is the anchor's thesis statement.
-- **Scope fit:** 10.0/10.0 -- Explicitly In scope: "margin of safety
-  quantification." The topic stays entirely within the domain boundary
-  and does not drift into adjacent domains.
-- **Knowledge value:** 9.0/10.0 -- Foundational topic that all future
-  value-investing topics (intrinsic value estimation, moat analysis,
-  Mr. Market, circle of competence) will reference and compound with.
-  First topic written in the domain; essential primer.
-- **Source authority:** 6.5/10.0 -- Two primary Graham sources [high],
-  one Klarman book [high], and three reputable web sources [medium].
-  No sources rated [low] in the final selection. Average authority
-  across 6 sources is approximately 7.3, adjusted to 6.5 to reflect
-  reliance on web interpretations alongside primary texts.
-
-**Weighted score:** (10.0 x 0.35) + (10.0 x 0.35) + (9.0 x 0.20) +
-(6.5 x 0.10) = 3.5 + 3.5 + 1.8 + 0.65 = **9.45** (rounded to 9.5)
-
-**Topic similarity:** 0% overlap -- no existing topics in the
-value-investing domain. Proceeded normally.
 
 ## See Also
 
