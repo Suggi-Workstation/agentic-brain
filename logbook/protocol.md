@@ -46,8 +46,6 @@ logbook/
   library.log          # library pipeline log (append-only)
   investing.log        # investing activity log (append-only)
   archive/             # logs archived by CI when >500 lines
-    queue-2026-07-22.log
-    test-2026-07-22.log
 ```
 
 ## Entry Format
