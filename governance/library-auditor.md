@@ -15,10 +15,10 @@ compliance, and source verification. Regenerates the master index from
 the live filesystem after each cycle. Decorrelated from the writing
 process (different model or different system prompt emphasis). For the
 full pipeline architecture and weight rules, read
-`brain:library/guide-library.md` and
-`brain:research/insights/library-system.md`.
+`library/guide-library.md` and
+`research/insights/library-system.md`.
 For the topic format specification the auditor verifies against, read
-`brain:governance/template-library.md`.
+`governance/template-library.md`.
 
 ## When to Invoke
 
@@ -203,9 +203,9 @@ cd /tmp && rm -rf brain-audit
 
 ## Related
 
-- `brain:governance/template-library.md` -- topic format specification the auditor verifies against
-- `brain:library/guide-library.md` -- pipeline architecture, v2 weights, anchor format, index rules
-- `brain:research/insights/library-system.md` -- full system blueprint, decorrelation rule
-- `brain:governance/library-writer.md` -- writer skill (produces topics for audit)
-- `brain:governance/library-discoverer.md` -- discoverer skill (proposes candidates)
-- `brain:logbook/protocol.md` -- logbook entry format
+- `governance/template-library.md` -- topic format specification the auditor verifies against
+- `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format, index rules
+- `research/insights/library-system.md` -- full system blueprint, decorrelation rule
+- `governance/library-writer.md` -- writer skill (produces topics for audit)
+- `governance/library-discoverer.md` -- discoverer skill (proposes candidates)
+- `logbook/protocol.md` -- logbook entry format

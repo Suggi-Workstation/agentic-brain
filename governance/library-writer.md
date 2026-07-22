@@ -15,7 +15,7 @@ search, synthesizes knowledge, and writes a markdown topic file to the
 domain folder. Scores the candidate across 4 dimensions before writing.
 For the full format specification with frontmatter schema, body structure,
 quality gates, and a complete example, read
-`brain:governance/template-library.md`. Follow it exactly.
+`governance/template-library.md`. Follow it exactly.
 
 ## When to Invoke
 
@@ -211,9 +211,9 @@ cd /tmp && rm -rf brain-writer
 
 ## Related
 
-- `brain:governance/template-library.md` -- full format specification, frontmatter schema, quality gates G1-G10, complete example
-- `brain:library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
-- `brain:research/insights/library-system.md` -- full system blueprint, scoring rationale
-- `brain:governance/library-auditor.md` -- auditor skill (reviews written topics)
-- `brain:governance/library-discoverer.md` -- discoverer skill (proposes candidates)
-- `brain:logbook/protocol.md` -- logbook entry format
+- `governance/template-library.md` -- full format specification, frontmatter schema, quality gates G1-G10, complete example
+- `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
+- `research/insights/library-system.md` -- full system blueprint, scoring rationale
+- `governance/library-auditor.md` -- auditor skill (reviews written topics)
+- `governance/library-discoverer.md` -- discoverer skill (proposes candidates)
+- `logbook/protocol.md` -- logbook entry format

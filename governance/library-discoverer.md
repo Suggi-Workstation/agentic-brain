@@ -15,8 +15,8 @@ across 4 dimensions including domain balance to prevent library tilt.
 Does NOT write topic files -- only proposes titles and brief scopes
 for the writing process to pick up. Candidates are appended to
 `library/candidate-queue.md`. For the full pipeline architecture and
-weight rules, read `brain:library/guide-library.md` and
-`brain:research/insights/library-system.md`.
+weight rules, read `library/guide-library.md` and
+`research/insights/library-system.md`.
 
 ## When to Invoke
 
@@ -231,8 +231,8 @@ cd /tmp && rm -rf brain-discover
 
 ## Related
 
-- `brain:library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
-- `brain:research/insights/library-system.md` -- full system blueprint, anti-staleness design
-- `brain:governance/library-writer.md` -- writer skill (picks candidates from queue)
-- `brain:governance/library-auditor.md` -- auditor skill (reviews written topics)
-- `brain:logbook/protocol.md` -- logbook entry format
+- `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
+- `research/insights/library-system.md` -- full system blueprint, anti-staleness design
+- `governance/library-writer.md` -- writer skill (picks candidates from queue)
+- `governance/library-auditor.md` -- auditor skill (reviews written topics)
+- `logbook/protocol.md` -- logbook entry format
