@@ -45,9 +45,9 @@ logbook/
   research.log         # research activity log (append-only)
   library.log          # library pipeline log (append-only)
   investing.log        # investing activity log (append-only)
-  archive/             # logs archived when >300 entries
-    queue-2026-Q3.log
-    errors-2026-Q3.log
+  archive/             # logs archived by CI when >500 lines
+    queue-2026-07-22.log
+    test-2026-07-22.log
 ```
 
 ## Entry Format
@@ -172,8 +172,11 @@ push to main. It:
    original ENT-IDs for cross-reference integrity.
 
 Agents do NOT need to archive manually. Push your log entries as normal;
-CI trims them when they exceed the threshold. The archive files exist
-for historical reference and cross-reference resolution.
+CI trims them when they exceed the threshold. If the same date's archive
+file already exists, new entries are appended (not overwritten). The
+archive files exist for historical reference and cross-reference
+resolution. Archive filenames are chronological by day -- open the
+folder to browse history from oldest to newest.
 
 ## Constitutional Compliance
 
@@ -201,4 +204,4 @@ on 2026-07-20.
 | 3 | 2026-07-20 | Ava | Logbook redesign (REJECT original, REDESIGN) |
 | 4 | 2026-07-20 | Link | Protocol spec + Suggi decision on 2-file simplification. |
 | 5 | 2026-07-20 | Link | Added read-before-write rule, memory format note, and bold emphasis on session-start catch-up. |
-| 4 | 2026-07-20 | Link | Protocol spec + Suggi decision on 2-file simplification |
+| 6 | 2026-07-22 | Link | Added 3 log files (research, library, investing). Added CI archive workflow: auto-archives >500 lines to per-day files, ENT counter continuous. Agents no longer archive manually. |
