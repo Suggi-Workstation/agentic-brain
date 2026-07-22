@@ -10,3 +10,9 @@ Library: 28-domain anchor file standardization. All adjacent domain
 references now use uniform format (plain domain name + backtick path).
 Reverse-adjacency graph completed -- bidirectional edges across all 28
 domains. 3 commits, 34 files touched, 21 new reverse entries added.
+
+## [ENT-002] | 2026-07-22 19:02 UTC | ava | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 12 candidates proposed.
+Domains: value-investing (0 topics), science (0), psychology-behavior (0), geopolitics (0), probabilistic-thinking-forecasting (0), technology (0).
+Candidates: Margin of Safety (8.5, gap=9.0 comp=8.0 time=7.0 bal=10.0), Moat Analysis (8.4, gap=8.0 comp=9.0 time=7.0 bal=10.0), The Scientific Method (9.0, gap=9.0 comp=9.0 time=8.0 bal=10.0), Fundamental Forces (7.7, gap=8.0 comp=7.0 time=6.0 bal=10.0), Cognitive Biases Catalog (9.2, gap=9.0 comp=10.0 time=8.0 bal=10.0), Prospect Theory (8.4, gap=8.0 comp=9.0 time=7.0 bal=10.0), Great Power Competition (9.1, gap=9.0 comp=8.0 time=10.0 bal=10.0), Energy Geopolitics (8.5, gap=8.0 comp=8.0 time=9.0 bal=10.0), Bayesian Reasoning (9.0, gap=9.0 comp=9.0 time=8.0 bal=10.0), Superforecasting (8.3, gap=8.0 comp=8.0 time=8.0 bal=10.0), Artificial Intelligence (9.4, gap=9.0 comp=9.0 time=10.0 bal=10.0), Semiconductor Technology (8.5, gap=8.0 comp=8.0 time=9.0 bal=10.0).
+Domain balance survey: all 28 domains at 0 topics (first discovery cycle). Underrepresented domains across all categories prioritized.
