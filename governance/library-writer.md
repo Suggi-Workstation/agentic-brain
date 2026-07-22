@@ -53,7 +53,7 @@ cd /tmp && rm -rf brain-writer && git clone --depth 1 \
 ### 2. Pick a candidate topic from the discovery queue
 
 Read `/tmp/brain-writer/library/candidate-queue.md`. Select the
-highest-scored unaudited candidate. Note the candidate ID, title,
+highest-scored unaudited candidate (by discoverer score). Note the candidate ID, title,
 domain, and proposed scope.
 
 If the queue is empty, log to `library.log` and exit.
