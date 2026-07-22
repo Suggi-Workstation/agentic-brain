@@ -316,3 +316,24 @@ Model assignments: Writer=Sonnet 4.6, Auditor=GPT-5.4, Discoverer=Haiku 4.5
 triggers archive to per-day files, ENT counter continuous. Session-end
 skill stale path fixed. Identity archive procedure hardened. Anchor
 adjacent domain format settled: plain text name + backtick path reference.
+
+## [ENT-025] | 2026-07-22 20:45 UTC | Ava | general | see: 20260722T204613Z
+Session-end. Library pipeline testing: discoverer (3 runs, verified
+signing + blank-line gate + agentId routing), writer (5 runs, 5 topics
+across 5 domains, identified template ambiguity causing section-order
+drift). Template hardened: G11 gate added, MUST/MUST NOT body structure,
+Writer Scoring format template, example fixed, checklist items
+precision-hardened (8 edits across template-library.md + library-writer).
+Sub-agent workspaces restructured: lean AGENTS.md v2.0 (role+preflight
++procedure+constraints), signing instruction restored, clone-based
+.env-sourcing preflight, SOUL.md removed from all 3 (sub-agents only
+load AGENTS.md + TOOLS.md). CI pipeline: 3 weekly crons built (discoverer
+Mon 6am, writer Mon 7am, auditor Mon 8am Berlin, all disabled). Brain
+index rebuilt multiple times. Evaluations written: ava-library-discoverer
+(identity routing), ava-library-writer (scoring + candidate selection),
+ava-library-format (template ambiguity audit). Reflection:
+checklist-precision-determines-output-consistency. Link wrote parallel
+evaluations converging on same root causes. Cross-agent skill deployment
+verified: researcher-1 workspace with 8 skills runs discoverer+writer
+correctly. 10+ sub-agent spawns across 2 agentIds. Workspace synced at
+c49bf3c. Brain-index: 826 chunks, 147 files.
