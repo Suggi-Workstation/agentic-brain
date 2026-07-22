@@ -18,14 +18,6 @@
 - **Scope:** The core methodologies for estimating intrinsic value: discounted cash flow (DCF), earnings power value (EPV), and liquidation value analysis. How each method works, when to use which, common mistakes and their consequences, and how to triangulate between methods. Link to the philosophy of margin of safety.
 - **Status:** proposed
 
-## Candidate: Economic Moats and Competitive Advantage Durability
-- **Domain:** value-investing
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-22
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** Morningstar's five moat sources (switching costs, intangible assets, network effects, cost advantage, efficient scale) and how to assess moat durability. Qualitative moat assessment frameworks, reinvestment moat analysis, and how moats erode over time. Connects case studies and industry analysis to investment decision-making.
-- **Status:** proposed
-
 ## Candidate: Cognitive Biases: A Systematic Catalog
 - **Domain:** psychology-behavior
 - **Proposed by:** Researcher-1
