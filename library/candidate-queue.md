@@ -34,14 +34,6 @@
 - **Scope:** Kahneman and Tversky's prospect theory: how people make decisions under risk, the asymmetry between gains and losses, the certainty effect, mental accounting, and the endowment effect. Why losses hurt about twice as much as equivalent gains feel good. Implications for investing, negotiation, and policy design.
 - **Status:** proposed
 
-## Candidate: International Relations Theory
-- **Domain:** geopolitics
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-22
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.0, timeliness=7.5, balance=10.0)
-- **Scope:** The three main paradigms of international relations: realism, liberalism, and constructivism. How each theory explains state behavior, the balance of power, international institutions, and why nations cooperate or conflict. Application to understanding current events through theoretical lenses. Foundational for all other geopolitics topics.
-- **Status:** proposed
-
 ## Candidate: US-China Great Power Competition
 - **Domain:** geopolitics
 - **Proposed by:** Researcher-1
