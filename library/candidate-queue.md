@@ -40,7 +40,7 @@
 - **Date:** 2026-07-22
 - **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0)
 - **Scope:** A comprehensive catalog of cognitive biases: confirmation bias, anchoring, availability heuristic, overconfidence, hindsight bias, framing effects, loss aversion, and more. Each bias defined with real-world examples, its evolutionary origin where known, and how it manifests in investing, business, and everyday decision-making. Foundation for all other psychology-behavior topics.
-- **Status:** proposed
+- **Status:** written
 
 ## Candidate: Prospect Theory and Loss Aversion
 - **Domain:** psychology-behavior
