@@ -159,7 +159,7 @@ They are NOT appended to queue.log or errors.log.
 
 ## Archiving
 
-When a .log file exceeds 1000 lines, CI automatically archives the
+When a .log file exceeds 500 lines, CI automatically archives the
 oldest entries to keep preflight reads fast and context lean.
 
 The `logbook-archive.yml` workflow (`.github/workflows/`) fires on every

@@ -2,7 +2,7 @@ name: logbook-archive
 
 # WHAT THIS DOES:
 # After every push to main, checks all logbook/*.log files. If any
-# exceed 1000 lines, cuts the oldest complete entries (never mid-entry)
+# exceed 500 lines, cuts the oldest complete entries (never mid-entry)
 # and moves them to logbook/archive/<name>-<quarter>.log. The active
 # log is trimmed so it stays readable at preflight without bloating
 # agent context. Archive commits are tagged [archive] and do not

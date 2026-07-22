@@ -11,8 +11,8 @@ import os
 import sys
 from datetime import datetime, timezone
 
-MAX_LINES = 1000
-TARGET_LINES = 800  # Cut enough to leave headroom for normal operation
+MAX_LINES = 500
+TARGET_LINES = 400  # Cut enough to leave headroom for normal operation
 LOGBOOK_DIR = "logbook"
 ARCHIVE_DIR = "logbook/archive"
 
