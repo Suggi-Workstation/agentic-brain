@@ -39,10 +39,10 @@ studies).
 
 ## Adjacent domains
 
-- **case-studies**: specific historical events belong there.
+- [case-studies](library/case-studies/anchor-case-studies.md): specific historical events belong there.
   Cultural patterns derived from multiple events belong here.
-- **psychology-behavior**: individual-level behavior belongs
+- [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md): individual-level behavior belongs
   there. Group and cultural-level behavior belongs here.
-- **notable-people**: biographies of specific anthropologists
+- [notable-people](library/notable-people/anchor-notable-people.md): biographies of specific anthropologists
   belong there. Their findings and theories belong here.
 

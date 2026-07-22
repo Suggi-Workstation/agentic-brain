@@ -36,14 +36,14 @@ as a business (finance), trading risk management (short-term).
 
 ## Adjacent domains
 
-- **value-investing**: the philosophy of concentration vs
+- [value-investing](library/value-investing/anchor-value-investing.md): the philosophy of concentration vs
   diversification is a bridge topic. The mathematics of either
   approach belongs here.
-- **finance**: market-level risk belongs there. Portfolio-level
+- [finance](library/finance/anchor-finance.md): market-level risk belongs there. Portfolio-level
   risk belongs here.
-- **probabilistic-thinking-forecasting**: probability theory
+- [probabilistic-thinking-forecasting](library/probabilistic-thinking-forecasting/anchor-probabilistic-thinking-forecasting.md): probability theory
   underpinnings belong there. Applied portfolio probability
   (Kelly, drawdown risk) belongs here.
-- **macro-micro**: macroeconomic risks belong there. How those
+- [macro-micro](library/macro-micro/anchor-macro-micro.md): macroeconomic risks belong there. How those
   risks affect portfolio construction belongs here.
 

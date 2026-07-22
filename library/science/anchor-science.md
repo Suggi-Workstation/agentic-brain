@@ -41,23 +41,23 @@ activism (earth-climate), mathematical proofs and formal logic
 
 ## Adjacent domains
 
-- **mathematics-statistics**: mathematics is the language of science
+- [mathematics-statistics](library/mathematics-statistics/anchor-mathematics-statistics.md): mathematics is the language of science
   but not a natural science itself. Statistical methods used in
   science belong here; mathematical proofs and formal logic belong
   there. Quantitative analysis of scientific data is a bridge topic
   -- if the emphasis is on the natural phenomenon, it belongs here.
-- **technology**: applied science. Scientific principles that enable
+- [technology](library/technology/anchor-technology.md): applied science. Scientific principles that enable
   technology belong here (thermodynamics -> engines). Specific
   technologies, engineering designs, and implementation details
   belong there.
-- **earth-climate**: geological and climate science mechanisms belong
+- [earth-climate](library/earth-climate/anchor-earth-climate.md): geological and climate science mechanisms belong
   here (plate tectonics, carbon cycle). Climate policy, environmental
   activism, and impact assessments belong there.
-- **ethics-philosophy**: scientific ethics, philosophy of science,
+- [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md): scientific ethics, philosophy of science,
   demarcation problem, epistemology of scientific knowledge belong
   there. Scientific findings that have ethical implications are
   reported here factually; the ethical analysis goes there.
-- **notable-people**: biographies of scientists belong there.
+- [notable-people](library/notable-people/anchor-notable-people.md): biographies of scientists belong there.
   Scientific discoveries and theories they produced belong here.
   Cross-reference both ways when a topic touches both.
 

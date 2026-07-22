@@ -37,11 +37,11 @@ coaching industry critique.
 
 ## Adjacent domains
 
-- **psychology-behavior**: psychological theory of behavior change
+- [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md): psychological theory of behavior change
   belongs there. Actionable techniques belong here.
-- **ethics-philosophy**: Stoic practice and virtue ethics are bridge
+- [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md): Stoic practice and virtue ethics are bridge
   topics. Practical self-improvement application belongs here;
   philosophical foundations belong there.
-- **notable-people**: biographies of self-improvement figures
+- [notable-people](library/notable-people/anchor-notable-people.md): biographies of self-improvement figures
   belong there. Their distilled techniques belong here.
 

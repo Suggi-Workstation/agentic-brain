@@ -37,12 +37,12 @@ strategy without industry context, industry fiction.
 
 ## Adjacent domains
 
-- **case-studies**: specific company cases belong there. Industry-
+- [case-studies](library/case-studies/anchor-case-studies.md): specific company cases belong there. Industry-
   level patterns derived from multiple cases belong here.
-- **macro-micro**: macroeconomic forces affecting industries
+- [macro-micro](library/macro-micro/anchor-macro-micro.md): macroeconomic forces affecting industries
   are bridge topics.
-- **value-investing**: moat analysis at industry level belongs
+- [value-investing](library/value-investing/anchor-value-investing.md): moat analysis at industry level belongs
   here. Company-level moat assessment belongs there.
-- **finance**: financial metrics by industry belong there.
+- [finance](library/finance/anchor-finance.md): financial metrics by industry belong there.
   Structural industry economics belong here.
 

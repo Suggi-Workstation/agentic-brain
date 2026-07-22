@@ -37,12 +37,12 @@ agent design patterns (coding-agentic-ai).
 
 ## Adjacent domains
 
-- **science**: scientific principles belong there. Applied
+- [science](library/science/anchor-science.md): scientific principles belong there. Applied
   technology belongs here.
-- **coding-agentic-ai**: agent architecture and design patterns
+- [coding-agentic-ai](library/coding-agentic-ai/anchor-coding-agentic-ai.md): agent architecture and design patterns
   belong there. General AI and software technology belongs here.
-- **industries-sectors**: tech industry business analysis belongs
+- [industries-sectors](library/industries-sectors/anchor-industries-sectors.md): tech industry business analysis belongs
   there. The technology itself belongs here.
-- **ethics-philosophy**: tech ethics and philosophy of AI belong
+- [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md): tech ethics and philosophy of AI belong
   there.
 

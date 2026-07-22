@@ -41,14 +41,14 @@ macroeconomic theory (macro-micro), behavioral biases in markets
 
 ## Adjacent domains
 
-- **value-investing**: investment philosophy belongs there. Financial
+- [value-investing](library/value-investing/anchor-value-investing.md): investment philosophy belongs there. Financial
   tools and analysis that support investment decisions belong here.
-- **accounting-financial-shenanigans**: detecting fraud belongs there.
+- [accounting-financial-shenanigans](library/accounting-financial-shenanigans/anchor-accounting-financial-shenanigans.md): detecting fraud belongs there.
   Accounting standards and normal financial reporting belong here.
-- **valuation-screening**: quantitative screening models belong there.
+- [valuation-screening](library/valuation-screening/anchor-valuation-screening.md): quantitative screening models belong there.
   The financial data those models consume belongs here.
-- **macro-micro**: macroeconomic forces that affect financial markets
+- [macro-micro](library/macro-micro/anchor-macro-micro.md): macroeconomic forces that affect financial markets
   are bridge topics. The market mechanisms themselves belong here.
-- **investors**: specific investor strategies belong there. Financial
+- [investors](library/investors/anchor-investors.md): specific investor strategies belong there. Financial
   market context they operated in belongs here.
 

@@ -42,13 +42,13 @@ psychology (psychology-behavior).
 
 ## Adjacent domains
 
-- **value-investing**: investment philosophy belongs there. The
+- [value-investing](library/value-investing/anchor-value-investing.md): investment philosophy belongs there. The
   people who developed and practiced that philosophy belong here.
-- **notable-people**: general biographies belong there. Investors
+- [notable-people](library/notable-people/anchor-notable-people.md): general biographies belong there. Investors
   specifically belong here.
-- **finance**: market mechanics belong there. How investors
+- [finance](library/finance/anchor-finance.md): market mechanics belong there. How investors
   navigated those mechanics belongs here.
-- **case-studies**: specific investment case studies can be bridge
+- [case-studies](library/case-studies/anchor-case-studies.md): specific investment case studies can be bridge
   topics. If focused on the investor's decision process, here.
   If focused on the business outcome, there.
 

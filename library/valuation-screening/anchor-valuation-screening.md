@@ -40,13 +40,13 @@ construction (portfolio-risk-management), fraud detection
 
 ## Adjacent domains
 
-- **value-investing**: philosophy and principles belong there.
+- [value-investing](library/value-investing/anchor-value-investing.md): philosophy and principles belong there.
   Quantitative valuation tools belong here.
-- **finance**: financial statement data belongs there. How to
+- [finance](library/finance/anchor-finance.md): financial statement data belongs there. How to
   interpret that data for valuation belongs here.
-- **accounting-financial-shenanigans**: detecting manipulated numbers
+- [accounting-financial-shenanigans](library/accounting-financial-shenanigans/anchor-accounting-financial-shenanigans.md): detecting manipulated numbers
   belongs there. Adjusting for honest but misleading accounting
   in valuation models belongs here.
-- **portfolio-risk-management**: portfolio construction belongs there.
+- [portfolio-risk-management](library/portfolio-risk-management/anchor-portfolio-risk-management.md): portfolio construction belongs there.
   Individual security valuation belongs here.
 

@@ -36,9 +36,9 @@ investing (finance), crime as social phenomenon (anthropology).
 
 ## Adjacent domains
 
-- **ethics-philosophy**: jurisprudence and philosophy of law
+- [ethics-philosophy](library/ethics-philosophy/anchor-ethics-philosophy.md): jurisprudence and philosophy of law
   belong there. Specific laws and legal systems belong here.
-- **finance**: financial regulation is a bridge topic. Regulatory
+- [finance](library/finance/anchor-finance.md): financial regulation is a bridge topic. Regulatory
   framework belongs here; market impact belongs there.
-- **geopolitics**: international law and treaties are bridge topics.
+- [geopolitics](library/geopolitics/anchor-geopolitics.md): international law and treaties are bridge topics.
 

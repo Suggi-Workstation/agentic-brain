@@ -35,9 +35,9 @@ assessment, celebrity gossip.
 
 ## Adjacent domains
 
-- **investors**: investor-specific biographies belong there.
+- [investors](library/investors/anchor-investors.md): investor-specific biographies belong there.
   Non-investor biographies belong here.
-- **case-studies**: event-focused analysis belongs there.
+- [case-studies](library/case-studies/anchor-case-studies.md): event-focused analysis belongs there.
   Person-focused analysis belongs here.
 - All other domains: the person's contributions to a specific
   domain are referenced in that domain's topic file. The

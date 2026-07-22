@@ -43,22 +43,22 @@ sectors), tax optimization strategies, retirement planning.
 
 ## Adjacent domains
 
-- **finance**: corporate finance, financial statement analysis, and
+- [finance](library/finance/anchor-finance.md): corporate finance, financial statement analysis, and
   accounting principles that value investors USE belong there as
   tools. Value investing philosophy and application belong here.
-- **investors**: biographies and investment approaches of specific
+- [investors](library/investors/anchor-investors.md): biographies and investment approaches of specific
   investors (Buffett, Munger, Graham, Klarman, etc.) belong there.
   Their investment philosophy and principles distilled belong here.
-- **valuation-screening**: specific valuation techniques, screening
+- [valuation-screening](library/valuation-screening/anchor-valuation-screening.md): specific valuation techniques, screening
   criteria, and quantitative models belong there. The philosophical
   framework for why valuation matters belongs here.
-- **accounting-financial-shenanigans**: detecting earnings manipulation
+- [accounting-financial-shenanigans](library/accounting-financial-shenanigans/anchor-accounting-financial-shenanigans.md): detecting earnings manipulation
   and accounting fraud belongs there. The value investor's need for
   honest accounting and how to spot shenanigans is a bridge topic.
-- **portfolio-risk-management**: portfolio theory, diversification
+- [portfolio-risk-management](library/portfolio-risk-management/anchor-portfolio-risk-management.md): portfolio theory, diversification
   mathematics, and risk modeling belong there. The value investor's
   approach to concentration and risk belongs here.
-- **psychology-behavior**: behavioral finance and cognitive biases in
+- [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md): behavioral finance and cognitive biases in
   general belong there. The specific biases that value investors
   exploit (Mr. Market, loss aversion) are bridge topics.
 

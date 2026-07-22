@@ -37,11 +37,11 @@ perspective.
 
 ## Adjacent domains
 
-- **notable-people**: person-focused narratives belong there.
+- [notable-people](library/notable-people/anchor-notable-people.md): person-focused narratives belong there.
   Event-focused analysis with extracted lessons belongs here.
-- **industries-sectors**: industry-level analysis belongs there.
+- [industries-sectors](library/industries-sectors/anchor-industries-sectors.md): industry-level analysis belongs there.
   Specific company or event analysis belongs here.
-- **value-investing**: investment philosophy belongs there.
+- [value-investing](library/value-investing/anchor-value-investing.md): investment philosophy belongs there.
   Specific investment cases that illustrate principles are
   bridge topics.
 

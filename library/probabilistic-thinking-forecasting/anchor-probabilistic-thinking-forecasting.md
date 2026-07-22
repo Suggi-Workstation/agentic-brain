@@ -40,11 +40,11 @@ portfolios (portfolio-risk-management), political forecasting
 
 ## Adjacent domains
 
-- **mathematics-statistics**: probability theory and statistics
+- [mathematics-statistics](library/mathematics-statistics/anchor-mathematics-statistics.md): probability theory and statistics
   belong there. Applying them to decision-making belongs here.
-- **psychology-behavior**: cognitive biases belong there. The
+- [psychology-behavior](library/psychology-behavior/anchor-psychology-behavior.md): cognitive biases belong there. The
   frameworks for overcoming them in forecasting belong here.
-- **portfolio-risk-management**: portfolio risk modeling belongs
+- [portfolio-risk-management](library/portfolio-risk-management/anchor-portfolio-risk-management.md): portfolio risk modeling belongs
   there. The mental models for thinking about uncertainty belong
   here.
 
