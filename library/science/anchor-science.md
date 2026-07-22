@@ -65,4 +65,8 @@ activism (earth-climate), mathematical proofs and formal logic
   Scientific discoveries and theories they produced belong here.
   Cross-reference both ways when a topic touches both.
   `library/notable-people/anchor-notable-people.md`
+- health-medicine: clinical application of biological sciences
+  to human health belongs there. The underlying biology,
+  chemistry, and physiology belong here.
+  `library/health-medicine/anchor-health-medicine.md`
 

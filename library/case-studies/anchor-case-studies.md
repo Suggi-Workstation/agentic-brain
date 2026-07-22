@@ -47,4 +47,7 @@ perspective.
   Specific investment cases that illustrate principles are
   bridge topics.
   `library/value-investing/anchor-value-investing.md`
+- history: broad historical analysis of periods and forces belongs there.
+  Specific events analyzed for transferable lessons belong here.
+  `library/history/anchor-history.md`
 

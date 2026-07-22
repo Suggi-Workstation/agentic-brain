@@ -48,4 +48,8 @@ creation tips, book summaries (books), biographies of artists
 - psychology-behavior: psychological analysis of media
   effects is a bridge topic.
   `library/psychology-behavior/anchor-psychology-behavior.md`
+- communication: how media shapes public discourse and
+  communication patterns belongs there. Media content as
+  cultural artifact belongs here.
+  `library/communication/anchor-communication.md`
 

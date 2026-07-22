@@ -48,4 +48,11 @@ studies).
 - notable-people: biographies of specific anthropologists
   belong there. Their findings and theories belong here.
   `library/notable-people/anchor-notable-people.md`
+- history: political and economic history of civilizations belongs there.
+  Cultural and social history of those same societies belongs here.
+  `library/history/anchor-history.md`
+- education-learning: formal education systems and learning science
+  belong there. How different cultures transmit knowledge informally
+  belongs here.
+  `library/education-learning/anchor-education-learning.md`
 

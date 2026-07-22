@@ -47,4 +47,8 @@ coaching industry critique.
 - notable-people: biographies of self-improvement figures
   belong there. Their distilled techniques belong here.
   `library/notable-people/anchor-notable-people.md`
+- education-learning: formal educational methods and learning
+  science belong there. Personal learning techniques and
+  self-directed study belong here.
+  `library/education-learning/anchor-education-learning.md`
 

@@ -49,4 +49,7 @@ strategy (industries-sectors), economic history narratives
 - industries-sectors: industry-specific economics belongs there.
   General economic principles belong here.
   `library/industries-sectors/anchor-industries-sectors.md`
+- history: economic history of past systems and crises belongs
+  there. Current economic theory and policy applications belong here.
+  `library/history/anchor-history.md`
 

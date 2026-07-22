@@ -51,4 +51,16 @@ of mind (ethics-philosophy), self-help without evidence base
 - ethics-philosophy: philosophy of mind and consciousness
   belong there. Empirical psychology belongs here.
   `library/ethics-philosophy/anchor-ethics-philosophy.md`
+- health-medicine: clinical mental health treatment and
+  psychiatric medicine belong there. Psychological mechanisms
+  underlying mental health belong here.
+  `library/health-medicine/anchor-health-medicine.md`
+- communication: applied communication techniques and
+  rhetoric belong there. Cognitive psychology of language
+  processing and persuasion belongs here.
+  `library/communication/anchor-communication.md`
+- education-learning: applied pedagogy and learning techniques
+  belong there. Cognitive psychology of memory, attention,
+  and learning mechanisms belongs here.
+  `library/education-learning/anchor-education-learning.md`
 

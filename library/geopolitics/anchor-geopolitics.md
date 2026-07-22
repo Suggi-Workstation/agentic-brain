@@ -46,4 +46,7 @@ geopolitical analysis (case-studies), travel writing.
 - case-studies: specific geopolitical events as case studies
   are bridge topics.
   `library/case-studies/anchor-case-studies.md`
+- history: historical context for current geopolitical situations
+  is a bridge topic. Contemporary international relations belong here.
+  `library/history/anchor-history.md`
 

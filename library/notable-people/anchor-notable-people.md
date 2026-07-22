@@ -44,4 +44,7 @@ assessment, celebrity gossip.
 - All other domains: the person's contributions to a specific
   domain are referenced in that domain's topic file. The
   biography here is about the PERSON, not the field.
+- history: historical periods and forces belong there.
+  Biographies of the people who shaped those periods belong here.
+  `library/history/anchor-history.md`
 

@@ -49,4 +49,8 @@ strategy without industry context, industry fiction.
 - finance: financial metrics by industry belong there.
   Structural industry economics belong here.
   `library/finance/anchor-finance.md`
+- health-medicine: clinical evidence for what treatments work
+  belongs there. Healthcare industry economics and pharma business
+  models belong here.
+  `library/health-medicine/anchor-health-medicine.md`
 

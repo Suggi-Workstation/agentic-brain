@@ -44,4 +44,12 @@ investing (finance), crime as social phenomenon (anthropology).
   `library/finance/anchor-finance.md`
 - geopolitics: international law and treaties are bridge topics.
   `library/geopolitics/anchor-geopolitics.md`
+- health-medicine: clinical medicine and treatment evidence
+  belongs there. Healthcare law, FDA regulation, and drug
+  approval processes belong here.
+  `library/health-medicine/anchor-health-medicine.md`
+- communication: journalistic ethics and media standards belong
+  there. Media law, defamation, and free speech regulation
+  belong here.
+  `library/communication/anchor-communication.md`
 

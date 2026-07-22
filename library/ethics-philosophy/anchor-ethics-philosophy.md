@@ -50,4 +50,15 @@ ideology without philosophical foundation, motivational content.
   Scientific findings belong there; philosophical interpretation
   belongs here.
   `library/science/anchor-science.md`
+- health-medicine: clinical medicine and evidence-based treatment
+  belong there. Bioethics and the philosophy of medical practice
+  belong here.
+  `library/health-medicine/anchor-health-medicine.md`
+- communication: applied rhetoric and communication technique
+  belong there. Philosophy of language and argumentation ethics
+  belong here.
+  `library/communication/anchor-communication.md`
+- education-learning: applied pedagogy and learning science belong
+  there. Epistemology and philosophy of education belong here.
+  `library/education-learning/anchor-education-learning.md`
 

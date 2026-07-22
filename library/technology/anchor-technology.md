@@ -49,4 +49,16 @@ agent design patterns (coding-agentic-ai).
 - ethics-philosophy: tech ethics and philosophy of AI belong
   there.
   `library/ethics-philosophy/anchor-ethics-philosophy.md`
+- health-medicine: clinical use and evidence for medical
+  technologies belongs there. Medical device engineering,
+  diagnostic technology, and health AI belong here.
+  `library/health-medicine/anchor-health-medicine.md`
+- communication: how technology changes communication patterns
+  belongs there. Communication technology infrastructure and
+  platforms belong here.
+  `library/communication/anchor-communication.md`
+- education-learning: evidence for what makes educational
+  technology effective belongs there. Educational technology
+  platforms and tools belong here.
+  `library/education-learning/anchor-education-learning.md`
 
