@@ -109,7 +109,8 @@ with the candidate topic. Estimate overlap percentage:
 ### 7. Write the topic file
 
 Write ONLY to the agentic-brain. NEVER write topic files to the
-workspace.
+workspace. Follow the body structure and section order specified in
+`governance/template-library.md` exactly.
 
 Path: `/tmp/brain-writer/library/<domain>/<topic-slug>.md`
 
@@ -135,14 +136,14 @@ any failure; fix before committing.
 
 - [ ] Title is a level-1 heading making a claim about the topic (PASS / HALT)
 - [ ] Opening paragraph summarizes the topic in 2-3 sentences (PASS / HALT)
-- [ ] Body sections organized logically with ## headings (PASS / HALT)
+- [ ] Body sections follow template order: content sections -> `## Writer Scoring` -> `## Sources` -> `## See Also`. No content after `## See Also`. (PASS / HALT)
 - [ ] Sources cited: at least 3 web sources with URLs in a `## Sources` section (PASS / HALT)
 - [ ] Source authority rated: each source annotated with high/medium/low rating (PASS / HALT)
 - [ ] Cross-references to related library topics included where applicable (PASS / HALT)
 
 ### Scoring
 
-- [ ] All four dimensions scored (core match, scope fit, knowledge value, source authority) (PASS / HALT)
+- [ ] `## Writer Scoring` section present with all 4 dimensions (core match, scope fit, knowledge value, source authority) scored with justifications, weighted formula shown, and similarity overlap recorded (PASS / HALT)
 - [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
 - [ ] Weighted score calculated correctly: (core*0.35 + scope*0.35 + value*0.20 + authority*0.10) (PASS / HALT)
 - [ ] Weighted score >= 7.0 confirmed before writing (PASS / HALT)
