@@ -12,6 +12,7 @@ import sys
 from datetime import datetime, timezone
 
 MAX_LINES = 1000
+TARGET_LINES = 800  # Cut enough to leave headroom for normal operation
 LOGBOOK_DIR = "logbook"
 ARCHIVE_DIR = "logbook/archive"
 
@@ -65,7 +66,7 @@ def process_log(log_path):
     kept_count = header_count
     for start, end in reversed(boundaries):
         entry_len = end - start
-        if kept_count + entry_len <= MAX_LINES:
+        if kept_count + entry_len <= TARGET_LINES:
             kept_boundaries.insert(0, (start, end))
             kept_count += entry_len
         else:
