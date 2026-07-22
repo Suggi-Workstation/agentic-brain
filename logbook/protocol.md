@@ -168,7 +168,7 @@ push to main. It:
 2. Cuts the oldest complete entries (never mid-entry) from the active file.
 3. Appends them to `logbook/archive/<name>-<quarter>.log` (e.g. `queue-2026-Q3.log`).
 4. Commits with `[archive]` tag so the workflow does not re-trigger itself.
-5. The ENT-ID counter continues uninterrupted — archived entries keep their
+5. The ENT-ID counter continues uninterrupted -- archived entries keep their
    original ENT-IDs for cross-reference integrity.
 
 Agents do NOT need to archive manually. Push your log entries as normal;
