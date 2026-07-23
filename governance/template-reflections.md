@@ -225,7 +225,11 @@ Every IOR passes these checks before it is committed:
   insight, or another IOR. Zero links = dead-end knowledge.
 - **G7 -- Feynman Pre-write Rule:** The I section was written AFTER a
   blank-page diagnostic, not assembled from search results.
-- **G8 -- ASCII-only:** Zero non-ASCII characters in the file.
+- **G8 -- Frontmatter Complete:** All 7 fields present (name, id,
+  tier, trigger, author, tags, links).
+- **G9 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
+  lowercase slugs and tags, hyphens not underscores. CI enforces
+  ASCII via `ascii-guard.yml`.
 
 ## Anti-patterns
 
