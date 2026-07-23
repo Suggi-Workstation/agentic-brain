@@ -175,7 +175,9 @@ Every evaluation passes these checks before submission:
 - **G6 -- Cross-links Exist:** At minimum, a link to the source of the
   evaluation. Ideally, also link to related evaluations or governance
   files defining the criteria used.
-- **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
+- **G7 -- Frontmatter Complete:** All 7 fields present (name, id,
+  tier, source, author, tags, links).
+- **G8 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
 
