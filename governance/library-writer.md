@@ -158,30 +158,6 @@ and normal pipeline outcomes (FLAG, REJECT, DUPLICATE) go to library.log.
 Errors.log is for unexpected failures: clone failed, push rejected,
 file write error, or any crash.
 
-### 11. Commit and push
-
-```bash
-cd /tmp/brain-writer
-git add -A
-git diff --cached --stat
-git -c user.name="<agent-name>" -c user.email="<agent-email>" \
-  commit -m "library: write <topic-slug> to <domain>"
-git push origin main
-```
-
-If the push fails, pull first, resolve, then push.
-
-### 12. Discard the clone
-
-```bash
-cd /tmp && rm -rf brain-writer
-```
-
-## Format Verification -- HARD GATE (before commit)
-
-Verify every item below. Each maps to the template-library checklist
-and quality gates. HALT on any failure; fix before committing.
-
 ### Frontmatter
 
 - [ ] name: lowercase kebab-case, matches filename slug (PASS / HALT)
@@ -226,6 +202,30 @@ and quality gates. HALT on any failure; fix before committing.
 - [ ] File named: lowercase kebab-case slug, matching topic title (PASS / HALT)
 - [ ] Written ONLY to /tmp/brain-writer/library/<domain>/ (NOT workspace) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
+
+### 11. Commit and push
+
+```bash
+cd /tmp/brain-writer
+git add -A
+git diff --cached --stat
+git -c user.name="<agent-name>" -c user.email="<agent-email>" \
+  commit -m "library: write <topic-slug> to <domain>"
+git push origin main
+```
+
+If the push fails, pull first, resolve, then push.
+
+### 12. Discard the clone
+
+```bash
+cd /tmp && rm -rf brain-writer
+```
+
+## Format Verification -- HARD GATE (before commit)
+
+Verify every item below. Each maps to the template-library checklist
+and quality gates. HALT on any failure; fix before committing.
 
 ## Related
 
