@@ -165,7 +165,9 @@ Every insight passes these checks before submission for approval:
 - **G6 -- Cross-links Exist:** Links to the source artifacts, related
   insights that complement or extend this one, and any governance
   files affected by this insight.
-- **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
+- **G7 -- Frontmatter Complete:** All 7 fields present (name, id,
+  tier, source, author, tags, links).
+- **G8 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
 
