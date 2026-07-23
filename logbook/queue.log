@@ -354,3 +354,23 @@ governance). Wrote proposal: crewai-agenticbrain.md. Key finding: our logbook
 Three adaptations proposed: (1) Flow template for multi-step pipelines,
 (2) typed state handoffs in candidate-queue.md, (3) Research Manager skill
 for hierarchical orchestration. Verdict: adopt patterns, not the framework.
+
+## [ENT-028] | 2026-07-23 15:30 UTC | Ava | general | ref: governance/library-writer.md, governance/template-library.md | see: ENT-025, ENT-026
+Session: library-writer skill (v2->v3) + template-library.md
+hardening. Root cause: international-relations-theory.md omitted
+`## Core Concepts` and `## Evidence` sections because template
+said "order at the writer's discretion. Standard pattern" --
+permissive language the writer interpreted literally as permission
+to skip. Fix: (1) library-writer restructured to mirror
+write-evaluation skill pattern -- lean self-check delegates to
+template checklist, Format Verification adds Quality Gates section
+mapping 1:1 to G1-G11, Body Structure now enforces mandatory
+sections (Background, Core Concepts, Evidence, Implications).
+(2) template-library Body Structure replaced "standard pattern"
+with MUST-enforced numbered section list with purpose statements,
+analogous to template-evaluations. Checklist gained explicit
+items for each mandatory section. Added "Missing mandatory
+sections" anti-pattern. G11 expanded to cover mandatory section
+presence + order. Scar documented in "Why Mandatory Sections"
+subsection. Both files committed at a2f779e. Changed: 178 insertions,
+99 deletions across 2 files.
