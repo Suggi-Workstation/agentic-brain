@@ -374,3 +374,14 @@ sections" anti-pattern. G11 expanded to cover mandatory section
 presence + order. Scar documented in "Why Mandatory Sections"
 subsection. Both files committed at a2f779e. Changed: 178 insertions,
 99 deletions across 2 files.
+## [ENT-029] | 2026-07-23 22:34 UTC | Link | general | ref: reflections/2026-07-23_link_template-as-source-of-format-drift.md | see: ENT-028
+Session: write-X skill sync + library format audit. Copied Ava's 5 write-X
+skills (evaluation, proposal, reflection, insight, report) and 5 brain
+governance templates to Hermes profile. Adapted OPENCLAW_GITHUB_TOKEN ->
+GITHUB_TOKEN, Ava -> Link. Discovered template-library.md Writer Scoring
+format doesn't match any production topic -- template prescribes
+`**Dimension (X.X/10.0):` but all correct topics use `**Dimension:**
+X.X/10.0 --`. International-relations-theory followed template and got
+flagged wrong. Concluded Writer Scoring should move to library.log
+(process metadata, not knowledge artifact). IOR: template-as-source-of-
+format-drift. Library writer/template reformat scheduled for tomorrow.
