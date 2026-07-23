@@ -121,10 +121,7 @@ Location: `library/<domain>/<topic-slug>.md`
 ## Body Structure
 
 The topic body MUST include the following sections in this order.
-Each section has a defined purpose -- analogous to how evaluations
-require `## Source`, `## Evaluation Criteria`, `## Findings`,
-`## Verdict`, and `## Confidence` each with a distinct role. The
-analogy is exact: these are not suggestions or patterns. They are
+Each section has a defined purpose. They are
 mandatory structural elements.
 
 ### Title (level-1 heading)
