@@ -338,7 +338,14 @@ verified: researcher-1 workspace with 8 skills runs discoverer+writer
 correctly. 10+ sub-agent spawns across 2 agentIds. Workspace synced at
 c49bf3c. Brain-index: 826 chunks, 147 files.
 ## [ENT-026] | 2026-07-22 20:46 UTC | Link | general
-Session-end: library pipeline testing (discoverer 3 runs, writer 4 topics). Converged evaluation with Ava hardened template-library.md (G11 section order gate, Writer Scoring mandated, MUST/MUST NOT wording). 8 edits across 2 governance files synced to all 3 copies. Memory pruned (12->7 entries, 56%). Preflight step 5.5 added (recurring-failure scan). Discoverer blank-line separator gate added. 4 topics structurally fixed (Writer Scoring -> Sources -> See Also). 3 proposals + 3 evaluations + 1 IOR written. Template permissiveness identified as distinct failure mode.
+Session-end: library pipeline testing (discoverer 3 runs, writer 4 topics). 
+Converged evaluation with Ava hardened template-library.md (G11 section order
+gate, Writer Scoring mandated, MUST/MUST NOT wording). 8 edits across 2 
+governance files synced to all 3 copies. Memory pruned (12->7 entries, 56%). 
+Preflight step 5.5 added (recurring-failure scan). Discoverer blank-line 
+separator gate added. 4 topics structurally fixed (Writer Scoring -> 
+Sources -> See Also). 3 proposals + 3 evaluations + 1 IOR written. Template 
+permissiveness identified as distinct failure mode.
 ## [ENT-027] | 2026-07-23 10:15 UTC | Link | research | ref: research/proposals/crewai-agenticbrain.md | see: 20260723T101355Z
 Researched CrewAI v1.15.5 (open-source + AMP free tier) and compared against
 our agentic-brain architecture (logbook, library pipeline, brain-index,
