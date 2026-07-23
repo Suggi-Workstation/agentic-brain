@@ -166,7 +166,7 @@ Every proposal passes these checks before submission:
 - **G5 -- Cross-links Exist:** At least one link to the IOR, evaluation,
   or governance file that triggered this proposal. Zero links =
   untethered from the system's learning.
-- **G6 -- Frontmatter Complete:** All fields present.
+- **G6 -- Frontmatter Complete:** All 6 fields present (name, id, tier, author, tags, links).
 - **G7 -- Formatting Rules:** ASCII-only (zero non-ASCII characters),
   lowercase slugs and tags, hyphens not underscores. CI enforces
   ASCII via `ascii-guard.yml`.
