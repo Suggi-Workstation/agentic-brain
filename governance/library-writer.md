@@ -5,7 +5,7 @@ user-invocable: false
 disable-model-invocation: false
 ---
 
-# Library Writer (v2)
+# Library Writer (v3)
 
 ## What This Skill Does
 
@@ -14,7 +14,7 @@ topic title + domain anchor from the discovery queue, performs web
 search, synthesizes knowledge, and writes a markdown topic file to the
 domain folder. Scores the candidate across 4 dimensions before writing.
 For the full format specification with frontmatter schema, body structure,
-quality gates, and a complete example, read
+mandatory sections, quality gates (G1-G11), and a complete example, read
 `governance/template-library.md`. Follow it exactly.
 
 ## When to Invoke
@@ -34,12 +34,10 @@ Skip for:
 
 Confirm ALL verification sections passed before committing.
 
-- [ ] Procedure completed (clone, pick candidate, read anchor, research, score all 4 dimensions, check similarity, write, verify, commit, push, discard) (PASS / HALT)
-- [ ] Frontmatter verification: all items confirmed PASS (PASS / HALT)
-- [ ] Body Structure verification: all items confirmed PASS (PASS / HALT)
-- [ ] Scoring verification: all 4 dimensions scored, weighted sum calculated (PASS / HALT)
-- [ ] File Output verification: all items confirmed PASS (PASS / HALT)
+- [ ] Procedure completed (clone, read template, pick candidate, read anchor, research, score all 4 dimensions, check similarity, write, verify, commit, push, discard) (PASS / HALT)
+- [ ] Template-library checklist: all items confirmed PASS (per `governance/template-library.md`) (PASS / HALT)
 - [ ] Logbook entry written to library.log (PASS / HALT)
+- [ ] Errors logged to errors.log (if any) (PASS / HALT)
 
 ## Procedure
 
@@ -50,22 +48,30 @@ cd /tmp && rm -rf brain-writer && git clone --depth 1 \
   "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-writer
 ```
 
-### 2. Pick a candidate topic from the discovery queue
+### 2. Read the format specification
+
+Read `governance/template-library.md`. It defines the body structure
+(mandatory sections in order), frontmatter schema (7 fields), quality
+gates (G1-G11), and the complete example. Follow it exactly. Do not
+substitute your own section order or naming -- the template is the
+single source of format truth.
+
+### 3. Pick a candidate topic from the discovery queue
 
 Read `/tmp/brain-writer/library/candidate-queue.md`. Select the
-highest-scored unaudited candidate (by discoverer score). Note the candidate ID, title,
-domain, and proposed scope.
+highest-scored unaudited candidate (by discoverer score). Note the
+candidate ID, title, domain, and proposed scope.
 
 If the queue is empty, log to `library.log` and exit.
 
-### 3. Read the domain anchor
+### 4. Read the domain anchor
 
 Read `/tmp/brain-writer/library/<domain>/anchor-<domain>.md`. This is
 the eternal reference against which all topics are measured. The
 anchor paragraph, scope (In/Out), and adjacent domain boundary rules
 are non-negotiable.
 
-### 4. Research the topic
+### 5. Research the topic
 
 Perform web search using the domain name + topic title as query terms.
 Collect 3-5 sources. Evaluate source quality:
@@ -75,10 +81,10 @@ Collect 3-5 sources. Evaluate source quality:
   secondary sources with attribution.
 - **Low authority (1-3):** personal blogs, forums, unattributed content.
 
-Synthesize into a coherent topic file following the library topic
-format (see Body Structure verification below).
+Synthesize into a coherent topic file following the body structure
+defined in `governance/template-library.md`.
 
-### 5. Score the candidate (writer weight, v2: 4 dimensions)
+### 6. Score the candidate (writer weight, v2: 4 dimensions)
 
 Before writing, score the candidate topic across four dimensions
 using a 0.0-10.0 scale:
@@ -96,7 +102,7 @@ Calculate weighted score: `(core * 0.35) + (scope * 0.35) + (value * 0.20) + (au
 - 5.0-6.9: log to library.log with FLAG and the scores. Skip.
 - < 5.0: log to library.log with REJECT and suggested redirect domain. Skip.
 
-### 6. Check topic similarity
+### 7. Check topic similarity
 
 Scan existing topic files in `library/<domain>/` for semantic overlap
 with the candidate topic. Estimate overlap percentage:
@@ -106,7 +112,7 @@ with the candidate topic. Estimate overlap percentage:
   focus on the uncovered portion.
 - < 50% overlap: proceed normally.
 
-### 7. Write the topic file
+### 8. Write the topic file
 
 Write ONLY to the agentic-brain. NEVER write topic files to the
 workspace. Follow the body structure and section order specified in
@@ -117,46 +123,7 @@ Path: `/tmp/brain-writer/library/<domain>/<topic-slug>.md`
 `<topic-slug>`: lowercase kebab-case, max 80 chars, unique within the
 domain. Derive from the topic title.
 
-## Format Verification -- HARD GATE (before commit)
-
-Verify every item below. Each maps to the library guide rules. HALT on
-any failure; fix before committing.
-
-### Frontmatter
-
-- [ ] name: lowercase kebab-case, matches filename slug (PASS / HALT)
-- [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly. Does not end in 000000Z (human-rounded = reject). Never manually typed. (PASS / HALT)
-- [ ] tier: "library-topic" (PASS / HALT)
-- [ ] domain: `<domain-slug>` matching the folder name (PASS / HALT)
-- [ ] author: agent name (e.g. Ava, Link, Researcher-1) (PASS / HALT)
-- [ ] tags: lowercase, hyphen-delimited, domain-specific (PASS / HALT)
-- [ ] links: relative paths from brain root (PASS / HALT)
-
-### Body Structure
-
-- [ ] Title is a level-1 heading making a claim about the topic (PASS / HALT)
-- [ ] Opening paragraph summarizes the topic in 2-3 sentences (PASS / HALT)
-- [ ] Body sections follow template order: content sections -> `## Writer Scoring` -> `## Sources` -> `## See Also`. No content after `## See Also`. (PASS / HALT)
-- [ ] Sources cited: at least 3 web sources with URLs in a `## Sources` section (PASS / HALT)
-- [ ] Source authority rated: each source annotated with high/medium/low rating (PASS / HALT)
-- [ ] Cross-references to related library topics included where applicable (PASS / HALT)
-
-### Scoring
-
-- [ ] `## Writer Scoring` section present with all 4 dimensions (core match, scope fit, knowledge value, source authority) scored with justifications, weighted formula shown, and similarity overlap recorded (PASS / HALT)
-- [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
-- [ ] Weighted score calculated correctly: (core*0.35 + scope*0.35 + value*0.20 + authority*0.10) (PASS / HALT)
-- [ ] Weighted score >= 7.0 confirmed before writing (PASS / HALT)
-- [ ] Topic similarity check completed; overlap estimate recorded (PASS / HALT)
-- [ ] Source authority checked: 3+ sources, each rated on the high/medium/low scale (PASS / HALT)
-
-### File Output
-
-- [ ] File named: lowercase kebab-case slug, matching topic title (PASS / HALT)
-- [ ] Written ONLY to /tmp/brain-writer/library/<domain>/ (NOT workspace) (PASS / HALT)
-- [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
-
-### 8. Write logbook entry
+### 9. Write logbook entry
 
 Append to `/tmp/brain-writer/logbook/library.log`:
 
@@ -170,12 +137,12 @@ Cross-references: N topics.
 
 Increment ENT counter from the last entry in library.log.
 
-### 9. Remove the candidate from the queue
+### 10. Remove the candidate from the queue
 
 Remove the processed candidate entry from
 `/tmp/brain-writer/library/candidate-queue.md`.
 
-### 9a. Log errors (if any)
+### 10a. Log errors (if any)
 
 If any step failed or produced unexpected results (score below threshold,
 duplicate topic detected, source authority too low, push conflict),
@@ -191,7 +158,7 @@ and normal pipeline outcomes (FLAG, REJECT, DUPLICATE) go to library.log.
 Errors.log is for unexpected failures: clone failed, push rejected,
 file write error, or any crash.
 
-### 10. Commit and push
+### 11. Commit and push
 
 ```bash
 cd /tmp/brain-writer
@@ -204,15 +171,65 @@ git push origin main
 
 If the push fails, pull first, resolve, then push.
 
-### 11. Discard the clone
+### 12. Discard the clone
 
 ```bash
 cd /tmp && rm -rf brain-writer
 ```
 
+## Format Verification -- HARD GATE (before commit)
+
+Verify every item below. Each maps to the template-library checklist
+and quality gates. HALT on any failure; fix before committing.
+
+### Frontmatter
+
+- [ ] name: lowercase kebab-case, matches filename slug (PASS / HALT)
+- [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly. Does not end in 000000Z (human-rounded = reject). Never manually typed. (PASS / HALT)
+- [ ] tier: "library-topic" (PASS / HALT)
+- [ ] domain: `<domain-slug>` matching the folder name (PASS / HALT)
+- [ ] author: agent name (e.g. Ava, Link, Researcher-1) (PASS / HALT)
+- [ ] tags: lowercase, hyphen-delimited, domain-specific (PASS / HALT)
+- [ ] links: relative paths from brain root (PASS / HALT)
+
+### Body Structure
+
+- [ ] Title is a level-1 heading making a claim about the topic (G1) (PASS / HALT)
+- [ ] Opening paragraph summarizes the topic in 2-3 sentences (G2) (PASS / HALT)
+- [ ] `## Background` section present -- historical/intellectual context (PASS / HALT)
+- [ ] `## Core Concepts` section present -- essential ideas. Title MAY vary by domain (e.g. `## Core Biases by Category`) but MUST exist. (PASS / HALT)
+- [ ] `## Evidence` section present -- empirical support, research findings. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. (PASS / HALT)
+- [ ] `## Implications` section present -- why the topic matters, practical application (PASS / HALT)
+- [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Writer Scoring (PASS / HALT)
+- [ ] `## Writer Scoring` section present with all 4 dimensions scored, justifications, weighted formula, and similarity overlap recorded (PASS / HALT)
+- [ ] `## Sources` section present with 3+ sources, each annotated with authority rating (high/medium/low) (PASS / HALT)
+- [ ] `## See Also` section present with 1+ cross-reference to a related library topic or brain artifact (PASS / HALT)
+- [ ] Section order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional sections) -> Writer Scoring -> Sources -> See Also (G11) (PASS / HALT)
+- [ ] No content follows `## See Also` (G11) (PASS / HALT)
+
+### Quality Gates
+
+- [ ] G1 (Title Makes a Claim) -- PASS (PASS / HALT)
+- [ ] G2 (Opening Paragraph Self-Contained) -- PASS (PASS / HALT)
+- [ ] G3 (Every Claim Sourced) -- PASS (PASS / HALT)
+- [ ] G4 (Sources Have Authority Ratings, 2+ high/medium) -- PASS (PASS / HALT)
+- [ ] G5 (Cross-references Exist) -- PASS (PASS / HALT)
+- [ ] G6 (Domain Anchor Compliant) -- PASS (PASS / HALT)
+- [ ] G7 (Topic Similarity Checked) -- PASS (PASS / HALT)
+- [ ] G8 (Frontmatter Complete, id from date command) -- PASS (PASS / HALT)
+- [ ] G9 (Formatting Rules: ASCII-only, lowercase, hyphens) -- PASS (PASS / HALT)
+- [ ] G10 (Output Destination Correct: library/<domain>/, not workspace) -- PASS (PASS / HALT)
+- [ ] G11 (Section Order: mandatory sections present and in correct sequence) -- PASS (PASS / HALT)
+
+### File Output
+
+- [ ] File named: lowercase kebab-case slug, matching topic title (PASS / HALT)
+- [ ] Written ONLY to /tmp/brain-writer/library/<domain>/ (NOT workspace) (PASS / HALT)
+- [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
+
 ## Related
 
-- `governance/template-library.md` -- full format specification, frontmatter schema, quality gates G1-G10, complete example
+- `governance/template-library.md` -- full format specification, mandatory body sections, quality gates G1-G11, complete example
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
 - `research/insights/library-system.md` -- full system blueprint, scoring rationale
 - `governance/library-auditor.md` -- auditor skill (reviews written topics)
