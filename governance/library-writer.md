@@ -220,9 +220,9 @@ committing.
 - [ ] Title is a level-1 heading making a claim about the topic (G1). Something a reader can agree or disagree with. (PASS / HALT)
 - [ ] Opening paragraph summarizes the topic in 2-3 sentences. A reader with no domain knowledge understands what this topic is and why it matters. (G2) (PASS / HALT)
 - [ ] `## Background` section present and contains substantive content (not a one-liner) (PASS / HALT)
-- [ ] `## Core Concepts` section present and contains the essential ideas. Title MAY vary by domain (e.g. `## Core Biases by Category`, `## Core Principles`) but the section MUST exist. (G12) (PASS / HALT)
-- [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. (G12) (PASS / HALT)
-- [ ] `## Implications` section present -- why the topic matters, practical application (PASS / HALT)
+- [ ] `## Core Concepts` section present and contains the essential ideas. Title MAY vary by domain (e.g. `## Core Biases by Category`, `## Core Principles`) but the section MUST exist. Contains substantive content -- at least 600 words. (G12) (PASS / HALT)
+- [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. Contains substantive content -- at least 400 words. (G12) (PASS / HALT)
+- [ ] `## Implications` section present -- why the topic matters, practical application. Contains substantive content -- at least 400 words. (PASS / HALT)
 - [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Sources. Each must contain substantive, domain-relevant content. (PASS / HALT)
 - [ ] `## Sources` section present with 3+ sources, each annotated with authority rating (high/medium/low) (G4) (PASS / HALT)
 - [ ] `## See Also` section present with 1+ cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
@@ -242,7 +242,7 @@ committing.
 - [ ] G9 (Formatting Rules): PASS. ASCII-only (zero non-ASCII characters), lowercase slugs/tags, hyphens not underscores. (PASS / HALT)
 - [ ] G10 (Output Destination Correct): PASS. File written ONLY to library/<domain>/<topic-slug>.md. NOT the workspace. (PASS / HALT)
 - [ ] G11 (Section Order): PASS. Mandatory sections present and in correct sequence. No content after See Also. (PASS / HALT)
-- [ ] G12 (Mandatory Section Quality): PASS. Each mandatory section (Background, Core Concepts, Evidence, Implications) contains substantive content -- not a single sentence, not a placeholder. (PASS / HALT)
+- [ ] G12 (Mandatory Section Quality): PASS. Each mandatory section (Background, Core Concepts, Evidence, Implications) contains substantive content. Core Concepts >= 600 words; Evidence >= 400 words; Implications >= 400 words. Verified by word count on extracted section text. Not a single sentence, not a placeholder. (PASS / HALT)
 
 ### File Output Sub-Checklist
 
