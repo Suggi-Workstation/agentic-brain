@@ -122,17 +122,23 @@ auditor MUST use this script, never regenerate the index by hand.
 
 ### 7. Write logbook entry
 
-Append to `/tmp/brain-audit/logbook/library.log` for each audited topic:
+Append to `/tmp/brain-audit/logbook/library.log` for each audited
+topic. The logbook entry MUST follow this exact format. Each data
+field MUST be on its own line. Do NOT pack multiple fields onto a
+single line.
 
 ```
 ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/<domain>/<topic-slug>.md | see: <writer-ent-id>
-Audited topic <title>. Verdict: APPROVE/FLAG/REJECT. Weighted score: X.X/10.0
+Audited topic <title>.
+Verdict: APPROVE/FLAG/REJECT. Weighted score: X.X/10.0
 (quality=X.X, redundancy=X.X, anchor=X.X, source=X.X).
-Source check: N/N claims verified. <change requests if FLAG>.
-<quarantine path if REJECT>.
+Source check: N/N claims verified.
 ```
 
-Also append a summary entry for the index regeneration.
+If FLAG: add a line listing the required changes.
+If REJECT: add a line with the quarantine path.
+
+Increment ENT counter from the last entry in library.log.
 
 ### 7a. Log errors (if any)
 
@@ -181,6 +187,7 @@ any failure; fix before committing.
 - [ ] No topic content modified (auditor reviews, does not rewrite) (PASS / HALT)
 - [ ] Quarantine directory created if it did not exist (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in modified files (PASS / HALT)
+- [ ] Logbook entry format: each data field on its own line, matching the step 7 example exactly (PASS / HALT)
 
 ### 8. Commit and push
 
