@@ -54,6 +54,12 @@ Weighted score: 9.2/10.0 (core=9.5, scope=9.5, value=8.5, authority=8.0).
 Similarity overlap: 5-10%. Sources: 8 (3 high, 5 medium, 0 low).
 Cross-references: 1 topics.
 
+## [ENT-009] | 2026-07-24 16:25 UTC | Ava | library | ref: library/probabilistic-thinking-forecasting/bayesian-reasoning.md | see: candidate-bayesian-reasoning
+Wrote topic Bayesian Reasoning: Updating Beliefs with Evidence to probabilistic-thinking-forecasting. Weighted score: 8.9/10.0
+(core=9.0, scope=9.0, value=9.0, authority=8.0).
+Similarity overlap: 0%. Sources: 6 (3 high, 3 medium, 0 low).
+Cross-references: 3 topics.
+
 ## [ENT-008] | 2026-07-24 14:30 UTC | Researcher-1 | library | ref: library/candidate-queue.md
 Discovery cycle: 6 domains scanned, 14 candidates proposed.
 Candidates:

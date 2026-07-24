@@ -98,14 +98,6 @@
 - **Scope:** What does it mean to know something? The classical definition (justified true belief), Gettier problems, foundationalism vs coherentism, internalism vs externalism, and the problem of skepticism. How epistemology connects to the scientific method, Bayesian reasoning, and the challenge of distinguishing reliable knowledge from misinformation in the digital age.
 - **Status:** proposed
 
-## Candidate: Bayesian Reasoning: Updating Beliefs with Evidence
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** Bayes' theorem as a framework for belief updating: priors, likelihoods, and posteriors. How to think in probabilities rather than certainties, the problem of base rate neglect, and practical applications from medical diagnosis to investment decisions. Why "strong opinions, weakly held" is Bayesian in spirit. The mathematical foundation and the intuitive mindset.
-- **Status:** proposed
-
 ## Candidate: Superforecasting: The Art and Science of Predicting the Future
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Researcher-1
