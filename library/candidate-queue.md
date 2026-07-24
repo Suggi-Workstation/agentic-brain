@@ -49,3 +49,115 @@
 - **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.0, timeliness=6.0, balance=10.0)
 - **Scope:** The core toolkit for analyzing financial statements: balance sheet, income statement, and cash flow statement. Key ratios (ROE, ROIC, debt/equity, current ratio, operating margins), how they interconnect, and what they reveal about business quality. Links between accounting data and economic reality. Foundation for all investment analysis.
 - **Status:** proposed
+
+## Candidate: Revenue Recognition Shenanigans: How Companies Inflate the Top Line
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=6.0, timeliness=6.5, balance=10.0)
+- **Scope:** The most common form of financial statement fraud: premature revenue recognition, fictitious sales, bill-and-hold arrangements, and channel stuffing. How each technique works, the red flags to watch for in filings, and how to estimate the true revenue impact. Foundation for all accounting fraud detection.
+- **Status:** proposed
+
+## Candidate: The Beneish M-Score: Quantitative Detection of Earnings Manipulation
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=6.5, timeliness=7.0, balance=10.0)
+- **Scope:** Messod Beneish's eight-variable model for detecting earnings manipulation from publicly available financial data. How each variable (DSRI, GMI, AQI, SGI, DEPI, SGAI, TATA, LVGI) is calculated and interpreted, the model's predictive power (caught Enron before the collapse), and its limitations. A bridge between forensic accounting and quantitative screening.
+- **Status:** proposed
+
+## Candidate: Cash Flow Shenanigans: When Operating Cash Isn't Really Operating
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 7.4/10.0 (gap=8.0, compounding=6.0, timeliness=6.0, balance=10.0)
+- **Scope:** How companies manipulate the cash flow statement: misclassifying financing or investing cash flows as operating, factoring receivables to accelerate cash recognition, delaying payables to window-dress operating cash, and structured payables programs. Why the cash flow statement is harder to manipulate but far from immune. Red flags and forensic techniques.
+- **Status:** proposed
+
+## Candidate: Normative Ethics: Deontology, Consequentialism, and Virtue Ethics
+- **Domain:** ethics-philosophy
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
+- **Scope:** The three great frameworks of moral philosophy: Kantian deontology (duty, universal maxims, the categorical imperative), consequentialism (Bentham, Mill, utility maximization, the greatest happiness principle), and virtue ethics (Aristotle, eudaimonia, character, practical wisdom). How each framework answers "what should I do?" and their real-world applications in business, medicine, and personal life.
+- **Status:** proposed
+
+## Candidate: Stoicism: The Philosophical Framework for a Life of Virtue
+- **Domain:** ethics-philosophy
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=7.0, timeliness=7.5, balance=10.0)
+- **Scope:** Stoic philosophy from Zeno to Marcus Aurelius: the dichotomy of control, living according to nature, the four cardinal virtues (wisdom, courage, justice, temperance), and the discipline of assent. How Stoicism differs from modern "stoic" stereotypes, its relationship to cognitive behavioral therapy, and its practical application in investing, leadership, and personal adversity.
+- **Status:** proposed
+
+## Candidate: Epistemology: Theories of Knowledge and Justified Belief
+- **Domain:** ethics-philosophy
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
+- **Scope:** What does it mean to know something? The classical definition (justified true belief), Gettier problems, foundationalism vs coherentism, internalism vs externalism, and the problem of skepticism. How epistemology connects to the scientific method, Bayesian reasoning, and the challenge of distinguishing reliable knowledge from misinformation in the digital age.
+- **Status:** proposed
+
+## Candidate: Bayesian Reasoning: Updating Beliefs with Evidence
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0)
+- **Scope:** Bayes' theorem as a framework for belief updating: priors, likelihoods, and posteriors. How to think in probabilities rather than certainties, the problem of base rate neglect, and practical applications from medical diagnosis to investment decisions. Why "strong opinions, weakly held" is Bayesian in spirit. The mathematical foundation and the intuitive mindset.
+- **Status:** proposed
+
+## Candidate: Superforecasting: The Art and Science of Predicting the Future
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=7.5, timeliness=8.0, balance=10.0)
+- **Scope:** Philip Tetlock's Good Judgment Project and what separates superforecasters from the rest: fox vs hedgehog thinking, probabilistic precision, updating frequency, Fermi estimation, and the outside view. The traits, habits, and methods that produce calibrated forecasts. Why prediction markets and forecasting tournaments outperform expert pundits, and how to apply these techniques to investing and business strategy.
+- **Status:** proposed
+
+## Candidate: The Carbon Cycle and the Greenhouse Effect
+- **Domain:** earth-climate
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=7.0, timeliness=8.0, balance=10.0)
+- **Scope:** How carbon moves through Earth's systems: the atmosphere, oceans, biosphere, and lithosphere. The greenhouse effect as a physical mechanism, the role of CO2 and other greenhouse gases, and how human activity (fossil fuel combustion, deforestation, agriculture) has disrupted the carbon cycle. The evidence from ice cores, atmospheric measurements, and climate models. Foundation for understanding climate change science.
+- **Status:** proposed
+
+## Candidate: Plate Tectonics: How Earth's Crust Shapes the Planet
+- **Domain:** earth-climate
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 7.2/10.0 (gap=8.0, compounding=5.5, timeliness=5.5, balance=10.0)
+- **Scope:** The unifying theory of geology: continental drift, seafloor spreading, subduction zones, and the mechanisms that drive plate movement. How plate tectonics explains earthquakes, volcanoes, mountain building, and the distribution of natural resources. The history of the theory from Wegener's continental drift to modern GPS-confirmed plate motion.
+- **Status:** proposed
+
+## Candidate: The Rise and Fall of Civilizations: Patterns Across History
+- **Domain:** anthropology
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
+- **Scope:** Why complex societies collapse: Jared Diamond's five-factor framework (environmental damage, climate change, hostile neighbors, trade partners, societal responses), Joseph Tainter's diminishing returns on complexity, and the specific cases of Rome, the Maya, Easter Island, and others. The patterns that recur across civilizations and what they tell us about the resilience and fragility of modern global society.
+- **Status:** proposed
+
+## Candidate: Gift Economies and Reciprocity: The Anthropology of Exchange
+- **Domain:** anthropology
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 7.7/10.0 (gap=8.5, compounding=6.5, timeliness=6.0, balance=10.0)
+- **Scope:** Marcel Mauss's foundational insight that gifts are never free -- they create obligations to receive and reciprocate. The kula ring of the Trobriand Islands, potlatch ceremonies of the Pacific Northwest, and how gift economies differ from market and barter systems. Why reciprocity remains a powerful force in modern life: corporate gifting, political favors, open-source software, and the social dynamics of obligation.
+- **Status:** proposed
+
+## Candidate: Cybersecurity: Principles, Threats, and Defense in Depth
+- **Domain:** technology
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=6.5, timeliness=8.5, balance=10.0)
+- **Scope:** The core principles of information security (confidentiality, integrity, availability) and the modern threat landscape: ransomware, phishing, supply chain attacks, zero-day exploits, and state-sponsored cyber operations. Defense-in-depth architecture, encryption fundamentals, zero-trust models, and the human factor in security breaches. Why cybersecurity is an economic problem as much as a technical one.
+- **Status:** proposed
+
+## Candidate: Cloud Computing: Architecture, Economics, and the End of On-Premise
+- **Domain:** technology
+- **Proposed by:** Researcher-1
+- **Date:** 2026-07-24
+- **Discovery score:** 7.7/10.0 (gap=8.0, compounding=6.0, timeliness=7.5, balance=10.0)
+- **Scope:** The shift from owning servers to renting compute: IaaS, PaaS, and SaaS models, the economics of scale that make AWS/Azure/GCP possible, and the architectural patterns (microservices, containers, serverless) that cloud enables. Why cloud computing changed the software industry's cost structure and barriers to entry, and the emerging concerns around vendor lock-in, data sovereignty, and repatriation.
+- **Status:** proposed
