@@ -8,7 +8,7 @@ author: Ava
 links:
   - library/guide-library.md
   - research/insights/library-system.md
-  - governance/library-writer3.md
+  - governance/library-writer.md
   - governance/template-skills.md
 ---
 
@@ -16,7 +16,7 @@ links:
 
 A library topic is a researched, structured knowledge artifact that
 lives in a domain folder under `library/<domain>/`. It is written by
-the Writer process (guided by `governance/library-writer3.md`),
+the Writer process (guided by `governance/library-writer.md`),
 reviewed by the Auditor process, and proposed by the Discoverer
 process. Each topic is a self-contained unit of knowledge: it explains
 a subject, cites sources, and cross-references related topics.
@@ -482,8 +482,8 @@ away means accepting the loss).
 |:--|:--|:--|:--|
 | 1 | 2026-07-21 | Link | Initial template: 7-field frontmatter, 4 mandatory sections (standard pattern), G1-G11 quality gates, anti-patterns, example. |
 | 2 | 2026-07-23 | Ava | Hardened body structure: Background, Core Concepts, Evidence, Implications changed from "standard pattern at writer's discretion" to MUST sections. Added "Missing mandatory sections" anti-pattern. G11 expanded to cover mandatory section presence AND order. |
-| 3 | 2026-07-24 | Ava | Complete restructure to match write-X template pattern. Added template self-check checklist (The Library Topic Checklist -- HARD GATE). Added G12 (Mandatory Section Quality) and G13 (Writer Scoring Format) as custom library gates. Skill (library-writer3.md) restructured with Final Self-Check + Sub-Checklists pattern matching write-evaluation SKILL.md. |
-| 4 | 2026-07-24 | Suggi/Ava | Removed `## Writer Scoring` section from topic file body structure. Writer Scoring moved entirely to logbook (library-writer3.md step 9). G13 removed; gates renumbered G1-G12. All positional references ("before Writer Scoring", "after Writer Scoring") updated to adjacent sections (Sources, Implications). Removed 3 Writer Scoring anti-patterns. Updated example. |
+| 3 | 2026-07-24 | Ava | Complete restructure to match write-X template pattern. Added template self-check checklist (The Library Topic Checklist -- HARD GATE). Added G12 (Mandatory Section Quality) and G13 (Writer Scoring Format) as custom library gates. Skill (library-writer.md) restructured with Final Self-Check + Sub-Checklists pattern matching write-evaluation SKILL.md. |
+| 4 | 2026-07-24 | Suggi/Ava | Removed `## Writer Scoring` section from topic file body structure. Writer Scoring moved entirely to logbook (library-writer.md step 9). G13 removed; gates renumbered G1-G12. All positional references ("before Writer Scoring", "after Writer Scoring") updated to adjacent sections (Sources, Implications). Removed 3 Writer Scoring anti-patterns. Updated example. |
 
 ---
 
