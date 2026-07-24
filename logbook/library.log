@@ -54,12 +54,6 @@ Weighted score: 9.2/10.0 (core=9.5, scope=9.5, value=8.5, authority=8.0).
 Similarity overlap: 5-10%. Sources: 8 (3 high, 5 medium, 0 low).
 Cross-references: 1 topics.
 
-## [ENT-010] | 2026-07-24 16:25 UTC | Ava | library | ref: library/probabilistic-thinking-forecasting/bayesian-reasoning.md | see: candidate-bayesian-reasoning
-Wrote topic Bayesian Reasoning: Updating Beliefs with Evidence to probabilistic-thinking-forecasting. Weighted score: 8.9/10.0
-(core=9.0, scope=9.0, value=9.0, authority=8.0).
-Similarity overlap: 0%. Sources: 6 (3 high, 3 medium, 0 low).
-Cross-references: 3 topics.
-
 ## [ENT-008] | 2026-07-24 14:30 UTC | Researcher-1 | library | ref: library/candidate-queue.md
 Discovery cycle: 6 domains scanned, 14 candidates proposed.
 Candidates:
@@ -93,3 +87,9 @@ Candidates:
 - Multi-Agent Orchestration Patterns (coding-agentic-ai, 9.1: gap=9.0 compounding=9.0 timeliness=9.0 balance=10.0).
 - Agent Skill Systems (coding-agentic-ai, 8.9: gap=9.0 compounding=8.5 timeliness=9.0 balance=10.0).
 Domain balance: all 3 domains at 0 topics -- maximum balance score (10.0).
+
+## [ENT-010] | 2026-07-24 16:25 UTC | Ava | library | ref: library/probabilistic-thinking-forecasting/bayesian-reasoning.md | see: candidate-bayesian-reasoning
+Wrote topic Bayesian Reasoning: Updating Beliefs with Evidence to probabilistic-thinking-forecasting. Weighted score: 8.9/10.0
+(core=9.0, scope=9.0, value=9.0, authority=8.0).
+Similarity overlap: 0%. Sources: 6 (3 high, 3 medium, 0 low).
+Cross-references: 3 topics.
