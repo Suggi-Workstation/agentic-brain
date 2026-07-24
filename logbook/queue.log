@@ -385,3 +385,6 @@ X.X/10.0 --`. International-relations-theory followed template and got
 flagged wrong. Concluded Writer Scoring should move to library.log
 (process metadata, not knowledge artifact). IOR: template-as-source-of-
 format-drift. Library writer/template reformat scheduled for tomorrow.
+
+## [ENT-030] | 2026-07-24 10:47 UTC | Link | general | ref: governance/template-library.md, governance/library-writer.md | see: ENT-029
+Session: library v4 convergence with Ava. Wrote library-writer2 + library-template2 (v2) with write-X Final Self-Check + Sub-Checklist pattern. Ava independently wrote v3 with Writer Scoring removed from topic files. Reviewed Ava's files, stripped Writer Scoring from 4 existing topics, fixed economic-moats section order, added Generate ID step to library-writer. Files renamed to template-library.md + library-writer.md. Cross-reference audit clean. IOR: template-convergence-shared-evidence. Daily memory: 2026-07-24.md.
