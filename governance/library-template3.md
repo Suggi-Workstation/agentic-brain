@@ -59,9 +59,8 @@ in the published topic file.
 - [ ] `## Core Concepts` section present with essential ideas. Title MAY vary by domain (e.g. `## Core Biases by Category`, `## Core Principles`) but the section MUST exist. Contains substantive content. (G12) (PASS / HALT)
 - [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. Contains substantive content. (G12) (PASS / HALT)
 - [ ] `## Implications` section present -- why the topic matters, practical application. Contains substantive content. (G12) (PASS / HALT)
-- [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Writer Scoring (PASS / HALT)
-- [ ] Body sections follow order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional) -> Writer Scoring -> Sources -> See Also. No content after `## See Also`. (G11) (PASS / HALT)
-- [ ] `## Writer Scoring` section present: all 4 dimensions scored with justifications, weighted formula shown, similarity overlap recorded. MUST appear between body content and `## Sources`. (G13) (PASS / HALT)
+- [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Sources (PASS / HALT)
+- [ ] Body sections follow order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional) -> Sources -> See Also. No content after `## See Also`. (G11) (PASS / HALT)
 - [ ] `## Sources` section present with 3+ sources. Each source annotated with authority rating (high/medium/low). At least 2 of 3+ sources are high or medium. (G4) (PASS / HALT)
 - [ ] `## See Also` section present with at least 1 cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
 - [ ] Every factual claim traceable to a source in Sources. Synthesized claims are labeled as such. (G3) (PASS / HALT)
@@ -193,26 +192,20 @@ non-negotiable.
 
 6.  (optional sections)
     ## Common Pitfalls, ## Criticisms, ## Practical Frameworks.
-    MAY appear after Implications and before Writer Scoring.
+    MAY appear after Implications and before Sources.
 
-7.  ## Writer Scoring
-    4-dimension scores with justifications, weighted formula, and
-    topic similarity assessment. MUST appear after the last body
-    content section and before `## Sources`. Format specification
-    below.
-
-8.  ## Sources
+7.  ## Sources
     Cited references with authority ratings. MUST appear after
-    Writer Scoring and before `## See Also`. Format specification
-    below.
+    the last body content section and before `## See Also`. Format
+    specification below.
 
-9.  ## See Also
+8.  ## See Also
     Cross-references to related topics and brain artifacts. MUST
     be the final section. No content may follow.
 ```
 
-Sections 7-9 (Writer Scoring, Sources, See Also) MUST appear in this
-exact order. No content may follow `## See Also`.
+Sections 7-8 (Sources, See Also) MUST appear in this exact order.
+No content may follow `## See Also`.
 
 Use `###` level-3 headings for sub-sections within body content sections.
 Avoid going deeper than level-3.
@@ -220,35 +213,6 @@ Avoid going deeper than level-3.
 Every factual claim must be traceable to a source in the Sources
 section. If a claim is the author's synthesis or interpretation, label
 it as such: "The author's assessment is..." or "This suggests that..."
-
-## Writer Scoring
-
-A `## Writer Scoring` section recording the scored dimensions with
-justifications. MUST appear after the last body content section and
-before `## Sources`. Format:
-
-```markdown
-## Writer Scoring
-
-- **Core match:** X.X/10.0 -- <1-2 sentence justification>
-- **Scope fit:** X.X/10.0 -- <1-2 sentence justification>
-- **Knowledge value:** X.X/10.0 -- <1-2 sentence justification>
-- **Source authority:** X.X/10.0 -- <1-2 sentence justification>
-
-**Weighted score:** (core * 0.35) + (scope * 0.35) + (value * 0.20)
-+ (authority * 0.10) = **X.X/10.0**
-
-**Topic similarity:** <X% overlap with existing topics. Proceeded /
-Flagged / Skipped.>
-```
-
-Format rules:
-- Each dimension line: `**Dimension name:** X.X/10.0 -- justification`
-  with the score on the same line as the dimension name.
-- Do NOT use `**Dimension (X.X/10.0):**` format (score in parentheses).
-- Do NOT put the score on a separate line from the dimension name.
-- Weighted formula must show the calculation, not just the result.
-- Similarity must include a verdict keyword: Proceeded / Flagged / Skipped.
 
 ## Sources
 
@@ -311,9 +275,9 @@ may follow.
 ## Quality Gates
 
 Every library topic passes these checks before the Writer commits.
-G1-G11 are the original gates from v2. G12-G13 are v3 additions
-specific to the library pipeline (mandatory section quality, scoring
-format). The Writer verifies all 13 gates before committing; the
+G1-G11 are the original gates from v2. G12 is a v3 addition
+(mandatory section quality). G13 (Writer Scoring Format) was removed in
+v4 when Writer Scoring was moved out of topic files into the logbook. The Writer verifies all 12 gates before committing; the
 Auditor re-verifies them during review.
 
 - **G1 -- Title Makes a Claim:** The level-1 heading is something
@@ -338,8 +302,8 @@ Auditor re-verifies them during review.
   domain's `anchor-<domain>.md` file before writing.
 - **G7 -- Topic Similarity Gate:** Before writing, the candidate topic
   was checked against existing topics in the domain. If >= 80% overlap,
-  the topic was skipped. The overlap estimate is recorded in Writer
-  Scoring.
+  the topic was skipped. The overlap estimate is recorded in
+  the logbook entry.
 - **G8 -- Frontmatter Complete:** All 7 required fields present (name,
   id, tier, domain, author, tags, links). `id` was generated by
   `date -u +'%Y%m%dT%H%M%SZ'` and is not human-rounded. `audited` and
@@ -352,8 +316,8 @@ Auditor re-verifies them during review.
 - **G11 -- Section Order:** The topic MUST include `## Background`,
   `## Core Concepts` (or domain-equivalent), `## Evidence` (or
   domain-equivalent), and `## Implications` as mandatory sections.
-  Body sections -> `## Writer Scoring` -> `## Sources` ->
-  `## See Also`. No content may follow `## See Also`.
+  Body sections -> `## Sources` -> `## See Also`. No
+  content may follow `## See Also`.
 - **G12 -- Mandatory Section Quality:** Each mandatory section
   (Background, Core Concepts, Evidence, Implications) MUST contain
   substantive, non-trivial content. A section with only one sentence,
@@ -375,9 +339,6 @@ Auditor re-verifies them during review.
 | Missing mandatory sections | `## Core Concepts` or `## Evidence` omitted; body content embedded in ad-hoc domain sections. | The topic MUST include `## Background`, `## Core Concepts`, `## Evidence`, and `## Implications` as dedicated sections. |
 | Empty mandatory sections | A section heading with one sentence or placeholder text below it. | Each mandatory section must contain substantive content worth reading independently. (G12) |
 | Content after See Also | Additional text, notes, or references appended after `## See Also`. | `## See Also` MUST be the final section. No content may follow. |
-| Writer Scoring format drift | Score in parentheses: `**Dimension (X.X/10.0):**` or score on separate line from dimension name. | Use `**Dimension name:** X.X/10.0 -- justification` on one line. |
-| Writer Scoring missing formula | Only the final weighted score shown without the calculation. | Show the full formula: `(core * 0.35) + (scope * 0.35) + ... = X.X/10.0`. |
-| Scoring before body sections | Writer Scoring placed before Background or between body sections instead of after Implications. | Writer Scoring MUST appear between the last body section and Sources. |
 
 ## Example -- Minimal Valid Topic
 
@@ -488,24 +449,6 @@ feel like losses), pricing (discounts are framed as "saving" a loss),
 and commitment (sunk cost fallacy is partly loss aversion -- walking
 away means accepting the loss).
 
-## Writer Scoring
-
-- **Core match:** 9.0/10.0 -- Loss aversion is central to the
-  psychology-behavior domain's exploration of decision-making biases.
-- **Scope fit:** 10.0/10.0 -- Directly In scope as a cognitive bias
-  with investing applications.
-- **Knowledge value:** 9.0/10.0 -- Compounds with prospect-theory and
-  cognitive-biases topics. Bridges to value-investing (Mr. Market,
-  disposition effect).
-- **Source authority:** 9.5/10.0 -- Four high-authority sources:
-  primary academic research and Kahneman's magnum opus.
-
-**Weighted score:** (9.0 * 0.35) + (10.0 * 0.35) + (9.0 * 0.20) +
-(9.5 * 0.10) = 3.15 + 3.50 + 1.80 + 0.95 = **9.4/10.0**
-
-**Topic similarity:** 0% overlap -- first topic in psychology-behavior.
-Proceeded.
-
 ## Sources
 
 1. Kahneman, D. & Tversky, A. (1979). "Prospect Theory: An Analysis of
@@ -539,7 +482,8 @@ Proceeded.
 |:--|:--|:--|:--|
 | 1 | 2026-07-21 | Link | Initial template: 7-field frontmatter, 4 mandatory sections (standard pattern), G1-G11 quality gates, anti-patterns, example. |
 | 2 | 2026-07-23 | Ava | Hardened body structure: Background, Core Concepts, Evidence, Implications changed from "standard pattern at writer's discretion" to MUST sections. Added "Missing mandatory sections" anti-pattern. G11 expanded to cover mandatory section presence AND order. |
-| 3 | 2026-07-24 | Ava | Complete restructure to match write-X template pattern. Added template self-check checklist (The Library Topic Checklist -- HARD GATE). Added G12 (Mandatory Section Quality) and G13 (Writer Scoring Format) as custom library gates. Writer Scoring format specification: required `**Dimension:** X.X/10.0 --` format, banned parenthesized score format. Added "Empty mandatory sections" and "Writer Scoring format drift" and "Scoring before body sections" anti-patterns. Skill (library-writer3.md) restructured with Final Self-Check + Sub-Checklists pattern matching write-evaluation SKILL.md. |
+| 3 | 2026-07-24 | Ava | Complete restructure to match write-X template pattern. Added template self-check checklist (The Library Topic Checklist -- HARD GATE). Added G12 (Mandatory Section Quality) and G13 (Writer Scoring Format) as custom library gates. Skill (library-writer3.md) restructured with Final Self-Check + Sub-Checklists pattern matching write-evaluation SKILL.md. |
+| 4 | 2026-07-24 | Suggi/Ava | Removed `## Writer Scoring` section from topic file body structure. Writer Scoring moved entirely to logbook (library-writer3.md step 9). G13 removed; gates renumbered G1-G12. All positional references ("before Writer Scoring", "after Writer Scoring") updated to adjacent sections (Sources, Implications). Removed 3 Writer Scoring anti-patterns. Updated example. |
 
 ---
 

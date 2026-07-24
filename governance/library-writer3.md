@@ -14,7 +14,7 @@ topic title + domain anchor from the discovery queue, performs web
 search, synthesizes knowledge, and writes a markdown topic file to the
 domain folder. Scores the candidate across 4 dimensions before writing.
 For the full format specification with frontmatter schema, body
-structure, mandatory sections, quality gates (G1-G13), anti-patterns,
+structure, mandatory sections, quality gates (G1-G12), anti-patterns,
 and a complete example, read `governance/library-template3.md`. Follow
 it exactly.
 
@@ -60,7 +60,7 @@ cd /tmp && rm -rf brain-writer && git clone --depth 1 \
 
 Read `governance/library-template3.md`. It defines the body structure
 (mandatory sections in order), frontmatter schema (7 fields + 2 optional
-auditor fields), quality gates (G1-G13), anti-patterns, and the complete
+auditor fields), quality gates (G1-G12), anti-patterns, and the complete
 example. Follow it exactly. Do not substitute your own section order or
 naming -- the template is the single source of format truth.
 
@@ -191,7 +191,7 @@ committing.
 - [ ] `## Core Concepts` section present and contains the essential ideas. Title MAY vary by domain (e.g. `## Core Biases by Category`, `## Core Principles`) but the section MUST exist. (G12) (PASS / HALT)
 - [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. (G12) (PASS / HALT)
 - [ ] `## Implications` section present -- why the topic matters, practical application (PASS / HALT)
-- [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Writer Scoring. Each must contain substantive, domain-relevant content. (PASS / HALT)
+- [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Sources. Each must contain substantive, domain-relevant content. (PASS / HALT)
 - [ ] `## Sources` section present with 3+ sources, each annotated with authority rating (high/medium/low) (G4) (PASS / HALT)
 - [ ] `## See Also` section present with 1+ cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
 - [ ] Section order enforced: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional) -> Sources -> See Also (G11) (PASS / HALT)
@@ -240,7 +240,7 @@ cd /tmp && rm -rf brain-writer
 
 ## Related
 
-- `governance/library-template3.md` -- full format specification, mandatory body sections, quality gates G1-G13, anti-patterns, complete example
+- `governance/library-template3.md` -- full format specification, mandatory body sections, quality gates G1-G12, anti-patterns, complete example
 - `governance/library-auditor.md` -- auditor skill (reviews written topics)
 - `governance/library-discoverer.md` -- discoverer skill (proposes candidates)
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
