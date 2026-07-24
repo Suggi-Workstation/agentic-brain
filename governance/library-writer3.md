@@ -5,7 +5,7 @@ user-invocable: false
 disable-model-invocation: false
 ---
 
-# Library Writer (v3)
+# Library Writer
 
 ## What This Skill Does
 
@@ -15,7 +15,7 @@ search, synthesizes knowledge, and writes a markdown topic file to the
 domain folder. Scores the candidate across 4 dimensions before writing.
 For the full format specification with frontmatter schema, body
 structure, mandatory sections, quality gates (G1-G12), anti-patterns,
-and a complete example, read `governance/library-template3.md`. Follow
+and a complete example, read `governance/template-library.md`. Follow
 it exactly.
 
 ## When to Invoke
