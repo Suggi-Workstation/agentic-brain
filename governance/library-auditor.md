@@ -120,6 +120,34 @@ The script:
 The script is the single source of truth for index generation. The
 auditor MUST use this script, never regenerate the index by hand.
 
+### 7. Write logbook entry
+
+Append to `/tmp/brain-audit/logbook/library.log` for each audited topic:
+
+```
+## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/<domain>/<topic-slug>.md | see: <writer-ent-id>
+Audited topic <title>. Verdict: APPROVE/FLAG/REJECT. Weighted score: X.X/10.0
+(quality=X.X, redundancy=X.X, anchor=X.X, source=X.X).
+Source check: N/N claims verified. <change requests if FLAG>.
+<quarantine path if REJECT>.
+```
+
+Also append a summary entry for the index regeneration.
+
+### 7a. Log errors (if any)
+
+If any step in this procedure failed or produced unexpected results,
+append to `/tmp/brain-audit/logbook/errors.log`:
+
+```
+## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | error | ref: library/<domain>/<topic-slug>.md | see: <related-ent-id>
+<description of what went wrong, what was expected, and any partial results>
+```
+
+This allows other agents to identify and fix pipeline failures.
+Only write to errors.log if something actually failed. Successful
+operations go to library.log (step 7).
+
 ## Format Verification -- HARD GATE (before commit)
 
 Verify every item below. Each maps to the library guide rules. HALT on
@@ -153,34 +181,6 @@ any failure; fix before committing.
 - [ ] No topic content modified (auditor reviews, does not rewrite) (PASS / HALT)
 - [ ] Quarantine directory created if it did not exist (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in modified files (PASS / HALT)
-
-### 7. Write logbook entry
-
-Append to `/tmp/brain-audit/logbook/library.log` for each audited topic:
-
-```
-## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/<domain>/<topic-slug>.md | see: <writer-ent-id>
-Audited topic <title>. Verdict: APPROVE/FLAG/REJECT. Weighted score: X.X/10.0
-(quality=X.X, redundancy=X.X, anchor=X.X, source=X.X).
-Source check: N/N claims verified. <change requests if FLAG>.
-<quarantine path if REJECT>.
-```
-
-Also append a summary entry for the index regeneration.
-
-### 7a. Log errors (if any)
-
-If any step in this procedure failed or produced unexpected results,
-append to `/tmp/brain-audit/logbook/errors.log`:
-
-```
-## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | error | ref: library/<domain>/<topic-slug>.md | see: <related-ent-id>
-<description of what went wrong, what was expected, and any partial results>
-```
-
-This allows other agents to identify and fix pipeline failures.
-Only write to errors.log if something actually failed. Successful
-operations go to library.log (step 7).
 
 ### 8. Commit and push
 
