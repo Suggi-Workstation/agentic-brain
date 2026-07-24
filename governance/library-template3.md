@@ -360,13 +360,6 @@ Auditor re-verifies them during review.
   a bare bullet list without explanation, or placeholder text fails
   this gate. The section must be worth reading independently -- if a
   reader skipped to this section, they would learn something.
-- **G13 -- Writer Scoring Format:** The Writer Scoring section MUST
-  follow the exact format: `**Dimension name:** X.X/10.0 -- justification`
-  on each line. All 4 dimensions present. Weighted formula shown with
-  calculation. Similarity overlap recorded with verdict keyword
-  (Proceeded / Flagged / Skipped). Do not use `**Dimension (X.X/10.0):**`
-  format (parenthesized score). Do not put the score on a separate
-  line from the dimension name.
 
 ## Anti-patterns
 
