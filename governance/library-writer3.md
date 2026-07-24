@@ -40,7 +40,6 @@ Confirm ALL verification sections passed before committing.
 - [ ] Frontmatter Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
 - [ ] Body Structure Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
 - [ ] Quality Gates Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
-- [ ] Scoring Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
 - [ ] File Output Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
 - [ ] `governance/library-template3.md` Checklist: all items confirmed PASS (PASS / HALT)
 - [ ] Logbook entry written to library.log (PASS / HALT)
@@ -193,10 +192,9 @@ committing.
 - [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. (G12) (PASS / HALT)
 - [ ] `## Implications` section present -- why the topic matters, practical application (PASS / HALT)
 - [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Writer Scoring. Each must contain substantive, domain-relevant content. (PASS / HALT)
-- [ ] `## Writer Scoring` section present with all 4 dimensions scored, justifications, weighted formula shown, and similarity overlap recorded. MUST appear between body content and `## Sources`. (G13) (PASS / HALT)
 - [ ] `## Sources` section present with 3+ sources, each annotated with authority rating (high/medium/low) (G4) (PASS / HALT)
 - [ ] `## See Also` section present with 1+ cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
-- [ ] Section order enforced: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional) -> Writer Scoring -> Sources -> See Also (G11) (PASS / HALT)
+- [ ] Section order enforced: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional) -> Sources -> See Also (G11) (PASS / HALT)
 - [ ] No content follows `## See Also` (G11) (PASS / HALT)
 
 ### Quality Gates Sub-Checklist
@@ -213,17 +211,6 @@ committing.
 - [ ] G10 (Output Destination Correct): PASS. File written ONLY to library/<domain>/<topic-slug>.md. NOT the workspace. (PASS / HALT)
 - [ ] G11 (Section Order): PASS. Mandatory sections present and in correct sequence. No content after See Also. (PASS / HALT)
 - [ ] G12 (Mandatory Section Quality): PASS. Each mandatory section (Background, Core Concepts, Evidence, Implications) contains substantive content -- not a single sentence, not a placeholder. (PASS / HALT)
-- [ ] G13 (Writer Scoring Format): PASS. Writer Scoring section includes all 4 dimensions with numeric scores, per-dimension justifications, weighted formula calculation, and similarity overlap with verdict (Proceeded / Flagged / Skipped). (PASS / HALT)
-
-### Scoring Sub-Checklist
-
-- [ ] All 4 dimensions scored: core match, scope fit, knowledge value, source authority (PASS / HALT)
-- [ ] Each dimension score is a number between 0.0 and 10.0 (PASS / HALT)
-- [ ] Each dimension has a 1-2 sentence justification explaining the score (PASS / HALT)
-- [ ] Weighted formula shown and calculated correctly: `(core * 0.35) + (scope * 0.35) + (value * 0.20) + (authority * 0.10)` (PASS / HALT)
-- [ ] Final weighted score >= 7.0 before proceeding to write (PASS / HALT)
-- [ ] Topic similarity overlap estimate recorded with verdict (Proceeded / Flagged / Skipped) (PASS / HALT)
-- [ ] Source authority dimension justified by the high/medium/low scale (PASS / HALT)
 
 ### File Output Sub-Checklist
 
