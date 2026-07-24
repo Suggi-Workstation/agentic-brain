@@ -56,9 +56,9 @@ in the published topic file.
 - [ ] Title is a level-1 heading making a claim about the topic (G1) (PASS / HALT)
 - [ ] Opening paragraph summarizes the topic in 2-3 sentences (G2) (PASS / HALT)
 - [ ] `## Background` section present with substantive content -- not a one-liner (PASS / HALT)
-- [ ] `## Core Concepts` section present with essential ideas. Title MAY vary by domain (e.g. `## Core Biases by Category`, `## Core Principles`) but the section MUST exist. Contains substantive content -- at least 750 words. (G12) (PASS / HALT)
-- [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. Contains substantive content -- at least 500 words. (G12) (PASS / HALT)
-- [ ] `## Implications` section present -- why the topic matters, practical application. Contains substantive content -- at least 500 words. (G12) (PASS / HALT)
+- [ ] `## Core Concepts` section present with essential ideas. Title MAY vary by domain (e.g. `## Core Biases by Category`, `## Core Principles`) but the section MUST exist. Contains substantive content -- at least 600 words. (G12) (PASS / HALT)
+- [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. Contains substantive content -- at least 400 words. (G12) (PASS / HALT)
+- [ ] `## Implications` section present -- why the topic matters, practical application. Contains substantive content -- at least 400 words. (G12) (PASS / HALT)
 - [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Sources (PASS / HALT)
 - [ ] Body sections follow order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional) -> Sources -> See Also. No content after `## See Also`. (G11) (PASS / HALT)
 - [ ] `## Sources` section present with 3+ sources. Each source annotated with authority rating (high/medium/low). At least 2 of 3+ sources are high or medium. (G4) (PASS / HALT)
@@ -172,7 +172,7 @@ non-negotiable.
     What mental models, frameworks, or principles define this subject?
     Title MAY vary by domain: ## Core Biases by Category,
     ## Core Principles, ## Core Mechanisms. The section itself MUST
-    appear and MUST contain substantive content -- at least 750 words.
+    appear and MUST contain substantive content -- at least 600 words.
     Verified by word count on the extracted section text.
 
 3.  (domain body sections)
@@ -185,13 +185,13 @@ non-negotiable.
     Empirical support, research findings, case studies. What data or
     observations back the claims? Title MAY vary: ## Evidence and
     Research Foundation, ## Empirical Support. The section MUST appear
-    and MUST contain substantive content -- at least 500 words.
+    and MUST contain substantive content -- at least 400 words.
     Verified by word count on the extracted section text.
 
 5.  ## Implications
     Why this topic matters. Practical applications, consequences,
     connections to other domains. MUST appear. MUST contain substantive
-    content -- at least 500 words. Verified by word count on the
+    content -- at least 400 words. Verified by word count on the
     extracted section text.
 
 6.  (optional sections)
@@ -326,7 +326,7 @@ Auditor re-verifies them during review.
 - **G12 -- Mandatory Section Quality:** Each mandatory section
   (Background, Core Concepts, Evidence, Implications) MUST contain
   substantive, non-trivial content. Core Concepts MUST be at least
-  750 words; Evidence and Implications MUST each be at least 500
+  600 words; Evidence and Implications MUST each be at least 400
   words. Verified by word count on the extracted section text. A
   section with only one sentence, a bare bullet list without
   explanation, or placeholder text fails this gate. The section
@@ -495,6 +495,7 @@ away means accepting the loss).
 | 4 | 2026-07-24 | Suggi/Ava | Removed `## Writer Scoring` section from topic file body structure. Writer Scoring moved entirely to logbook (library-writer.md step 10). G13 removed; gates renumbered G1-G12. All positional references ("before Writer Scoring", "after Writer Scoring") updated to adjacent sections (Sources, Implications). Removed 3 Writer Scoring anti-patterns. Updated example. |
 | 5 | 2026-07-24 | Ava | Hardened G5 (Cross-references) to require target file existence verification via `ls`. Added checklist item for cross-reference verification. Added "Cross-references to non-existent files" anti-pattern. Scar: us-china-great-power-competition.md cross-referenced international-relations-theory.md which researcher-1 hallucinated (file was deleted before the write cycle). |
 | 6 | 2026-07-24 | Ava | Added minimum word counts to mandatory sections: Core Concepts >= 750 words, Evidence >= 500 words, Implications >= 500 words. Updated Body Structure section descriptions, The Library Topic Checklist items, and G12 quality gate definition. Verified by word count on extracted section text. |
+| 7 | 2026-07-24 | Ava | Reduced word count thresholds to 600/400/400. Narrower topics (single-study evidence, specific techniques) struggle to reach 500-word Evidence/Implications sections without padding. 600/400/400 preserves structural gate quality while being achievable across all candidate topic scopes. |
 
 ---
 
