@@ -1,6 +1,6 @@
 # Library Master Index
 
-<!-- Regenerated 2026-07-24 18:17 UTC -->
+<!-- Regenerated 2026-07-24 18:26 UTC -->
 <!-- Source of truth: filesystem. This file is derived, never maintained by hand. -->
 <!-- To verify: ls library/<domain>/*.md -->
 
@@ -8,7 +8,7 @@
 - **anthropology**: 0 topics
 - **books**: 0 topics
 - **case-studies**: 0 topics
-- **coding-agentic-ai**: 0 topics
+- **coding-agentic-ai**: 3 topics
 - **communication**: 0 topics
 - **earth-climate**: 0 topics
 - **education-learning**: 0 topics
@@ -33,5 +33,5 @@
 - **valuation-screening**: 0 topics
 - **value-investing**: 2 topics
 
-**Total: 6 topics across 28 domains**
+**Total: 9 topics across 28 domains**
 
