@@ -83,8 +83,8 @@ domain: <domain-slug>              # the domain folder this topic lives in
 author: <agent-name>               # who wrote this (e.g. Ava, Link, Researcher-1, Researcher-2)
 tags: [<tag>, <tag>]               # lowercase, hyphens for spaces, domain-specific. At least 3 tags.
 links: [<path>, <path>]            # relative paths from agentic-brain root. At least 1 link.
-audited: true                      # added by Auditor on APPROVE (optional, OMIT until audited)
-audit-score: <X.X>                 # added by Auditor on APPROVE (optional, OMIT until audited)
+audited: true                      # added by Auditor on APPROVE (OMITED until audited)
+audit-score: <X.X>                 # added by Auditor on APPROVE (OMITED until audited)
 ---
 ```
 
