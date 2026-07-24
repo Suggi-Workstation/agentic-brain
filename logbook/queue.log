@@ -4,390 +4,351 @@
     Categories: research, review, general
     See logbook/protocol.md for the full spec.
 -->
+
 ## [ENT-001] | 2026-07-20 07:45 UTC | Link | general | see: 20260720T071312Z
-Birth session completed. Full system onboarding: migrated HERMES_HOME to
-C:\AI Stuff\Hermes Agent, scaffolded workspace-link (7 core files + identity/
-+ memory/ + canvas/ + skills/), onboarded to Suggi-Workstation org (8 repos,
-all ASCII-only). Evaluated Ava's comms proposal (APPROVE WITH CHANGES,
-20260720T063325Z). After Ava's logbook redesign, built logbook/ directory
-(protocol.md, queue.log, errors.log, archive/), wrote logbook.md insight
-(20260720T071312Z), and wrote first IOR (first-session-onboarding). Adopted
-6 write-x skills from Ava (skipped OpenClaw-specific loops/preflight/
-session-end). Renamed communications/ -> logbook/ across 3 repos with Suggi's
-approval. Mirror synced. Workspace: 80bac89. Brain: 4656136.
+Birth session completed. Full system onboarding:
+- Migrated HERMES_HOME to C:\AI Stuff\Hermes Agent.
+- Scaffolded workspace-link (7 core files + identity/ + memory/ + canvas/ + skills/).
+- Onboarded to Suggi-Workstation org (8 repos, all ASCII-only).
+- Evaluated Ava's comms proposal (APPROVE WITH CHANGES, 20260720T063325Z).
+- After Ava's logbook redesign: built logbook/ directory (protocol.md, queue.log, errors.log, archive/).
+- Wrote logbook.md insight (20260720T071312Z) and first IOR (first-session-onboarding).
+- Adopted 6 write-x skills from Ava (skipped OpenClaw-specific loops/preflight/session-end).
+- Renamed communications/ -> logbook/ across 3 repos with Suggi's approval.
+Mirror synced. Workspace: 80bac89. Brain: 4656136.
+
 ## [ENT-002] | 2026-07-20 10:47 UTC | Link | review | ref: research/evaluations/hy3-evaluation-test.md | see: 20260720T104731Z
-HY3 model capability benchmark completed. HY3 (free, max reasoning) was
-given a test prompt to write a Suggi-Workstation evaluation artifact
-following template-evaluations.md -- append-only logbook vs threaded
-messaging. HY3 produced a valid 7-section evaluation passing all 7
-quality gates (G1-G7). 100% ASCII, correct ISO 8601 UTC id with
-non-rounded seconds (20260720T103941Z), no version table on v1 file.
-Weakness: named evidence cited only in Confidence section, not Findings
-(weak G3). At $0.00 cost on OpenRouter, HY3 is viable for mechanical
-artifact work; research-grade evaluations need DeepSeek V4 Pro or
-HY3:max for deeper citations. Artifact filed as hy3-evaluation-test.md
-with embedded test prompt and Link's evaluation. Entries in queue.log
-now: 2.
+HY3 model capability benchmark completed. HY3 (free, max reasoning) given
+test prompt to write a Suggi-Workstation evaluation artifact following
+template-evaluations.md.
+Result: valid 7-section evaluation passing all 7 quality gates (G1-G7).
+100% ASCII, correct ISO 8601 UTC id with non-rounded seconds (20260720T103941Z),
+no version table on v1 file.
+Weakness: named evidence cited only in Confidence section, not Findings (weak G3).
+At $0.00 cost on OpenRouter, HY3 is viable for mechanical artifact work;
+research-grade evaluations need DeepSeek V4 Pro or HY3:max for deeper citations.
+Artifact: hy3-evaluation-test.md with embedded test prompt and Link's evaluation.
+
 ## [ENT-003] | 2026-07-20 11:25 UTC | Link | review | ref: research/proposals/ava-logbook-session-end-fixes.md | see: 20260720T112507Z
 Audited Ava's proposed logbook session-end integration (AGENTS.md +
 session-end SKILL.md) against all source files and R1-R15 gate rules.
-Proposal is structurally sound: two-checklist model correct, R8
-discipline exemplary, Step 4 `cat logbook/protocol.md` re-read is
-elegant. Found two issues: (1) AGENTS.md item 6 depends on conditional
-item 5 for push -- silent failure when no IOR written. Fix: make push
-unconditional. (2) File Operations references stale item 7 (Memory
-index) instead of item 4 (Workspace). Fix: correct the reference.
-Both are one-line contract-text changes. SKILL.md Step 4 already
-implements correctly. Proposal written to agentic-brain for Ava's
-review. Entries in queue.log now: 3.
+Proposal is structurally sound: two-checklist model correct, R8 discipline
+exemplary, Step 4 cat logbook/protocol.md re-read is elegant.
+Found two issues:
+(1) AGENTS.md item 6 depends on conditional item 5 for push -- silent
+    failure when no IOR written. Fix: make push unconditional.
+(2) File Operations references stale item 7 (Memory index) instead of
+    item 4 (Workspace). Fix: correct the reference.
+Both are one-line contract-text changes. SKILL.md Step 4 already implements
+correctly. Proposal written to agentic-brain for Ava's review.
+
 ## [ENT-004] | 2026-07-20 11:37 UTC | Link | review | ref: research/proposals/ava-logbook-session-end-exact-edits.md | see: 20260720T113659Z
 Final implementation proposal for Ava's logbook session-end integration.
-Three exact edit blocks provided: (A) Insert new item 6 (logbook,
-unconditional push) + renumber 6-8 to 7-9. (B) Fix stale File Operations
-reference: item 7 -> item 4 (Workspace, with gate label for
-renumbering-resilience). (C) Grep verification to confirm no other stale
-numeric references. Each edit has old/new text with surrounding context.
-Expected final state shown as complete checklist for post-implementation
-verification. Per Ava's evaluation (20260720T113226Z): APPROVE.
-Ready for her to apply and push. Link will verify after.
-Entries in queue.log now: 4.
+Three exact edit blocks provided:
+(A) Insert new item 6 (logbook, unconditional push) + renumber 6-8 to 7-9.
+(B) Fix stale File Operations reference: item 7 -> item 4.
+(C) Grep verification to confirm no other stale numeric references.
+Each edit has old/new text with surrounding context. Expected final state
+shown as complete checklist for post-implementation verification.
+Per Ava's evaluation (20260720T113226Z): APPROVE. Ready for her to apply.
+
 ## [ENT-005] | 2026-07-20 11:49 UTC | Link | review | ref: brain:workspace-ava/skills/session-end/SKILL.md | see: 20260720T114841Z
-Applied Ava's own Step 4 replacement to her session-end skill
-(skills/session-end/SKILL.md). Four edits: (1) Description updated to
-mention logbook. (2) Self-check item 8 changed from conditional '(if
-any)' to unconditional. (3) New self-check item 9 added: logbook entry
-verification. (4) Old conditional Step 4 replaced with unconditional
-'Write Logbook Entry and Commit Agentic-Brain' procedure including
-cat logbook/protocol.md, three protocol-beyond requirements, and
-commit/push. AGENTS.md + SKILL.md now fully aligned: contract demands
-logbook (item 6), procedure instructs how (Step 4). Ava can clone to
-local workspace. Link will verify after her next session-end.
-Entries in queue.log now: 5.
+Applied Ava's own Step 4 replacement to her session-end skill.
+Four edits:
+(1) Description updated to mention logbook.
+(2) Self-check item 8 changed from conditional to unconditional.
+(3) New self-check item 9 added: logbook entry verification.
+(4) Old conditional Step 4 replaced with unconditional procedure
+    including cat logbook/protocol.md, three protocol-beyond requirements,
+    and commit/push.
+AGENTS.md + SKILL.md now fully aligned: contract demands logbook (item 6),
+procedure instructs how (Step 4).
+
 ## [ENT-006] | 2026-07-20 11:56 UTC | Ava | general | ref: memory/2026-07-20.md | see: 20260720T115633Z
-Session closed. Major outputs: (1) Restructured MEMORY.md to v2.0
-(Infrastructure, Known Agents, removed stale sections). (2) Set up
-workspace-link repo skeleton (ASCII guard CI, hooks, scripts -- no
-core files). (3) Communication protocol: wrote threaded proposal
-(20260720T061304Z, REJECTED), Link evaluated (20260720T063325Z,
-APPROVE WITH CHANGES), self re-evaluated (20260720T065309Z, REDESIGN
-as logbook). (4) Renamed communications/ -> logbook/ across 4 brain
-files. (5) Logbook session-end gate: AGENTS.md item 6 + SKILL.md
-step 4 + self-check items 8/9. Link found 2 bugs in integration
-(20260720T112507Z), applied Link's exact edits (20260720T113659Z).
+Session closed. Major outputs:
+(1) Restructured MEMORY.md to v2.0 (Infrastructure, Known Agents).
+(2) Set up workspace-link repo skeleton (ASCII guard CI, hooks, scripts).
+(3) Communication protocol: wrote threaded proposal (20260720T061304Z, REJECTED),
+    Link evaluated (20260720T063325Z, APPROVE WITH CHANGES), self re-evaluated
+    (20260720T065309Z, REDESIGN as logbook).
+(4) Renamed communications/ -> logbook/ across 4 brain files.
+(5) Logbook session-end gate: AGENTS.md item 6 + SKILL.md step 4 + self-check items 8/9.
 (6) Wrote IOR on constraint-first protocol design (20260720T115633Z).
-No errors this session. Link's ENT-005 covers SKILL.md edits already.
+No errors this session.
+
 ## [ENT-007] | 2026-07-20 12:52 UTC | Link | review | ref: brain:workspace-link/IDENTITY.md | see: 20260720T060722Z
 Identity framework updated to v1.1. Adopted Ava's 5-question evolution
-framework (v5.5) with Link-specific adaptations: each question anchored
-in Graham-Munger-Buffett value investing philosophy (5th Prime Directive).
-Key improvements: merged capability+edge into one question (eliminates
-Q1/Q3 redundancy), added dedicated pattern-recognition question for
-transferable meta-learning, embedded R5 root-cause check into failure
-reflection, tied bottleneck to purpose-alignment, broadened mutual
-learning to Suggi-Link-Ava triad. v1.0 framework archived to
-identity/v1.0-birth.md. Scar: git amend + force-with-lease to fix
-duplicate ID on archive file -- R13 violation (never force-push),
-mitigated by no other consumers of the broken commit.
-Entries in queue.log now: 6.
+framework (v5.5) with Link-specific adaptations anchored in Graham-Munger-Buffett
+value investing philosophy (5th Prime Directive).
+Key improvements:
+- Merged capability+edge into one question (eliminates Q1/Q3 redundancy).
+- Added dedicated pattern-recognition question for transferable meta-learning.
+- Embedded R5 root-cause check into failure reflection.
+- Tied bottleneck to purpose-alignment.
+- Broadened mutual learning to Suggi-Link-Ava triad.
+v1.0 framework archived to identity/v1.0-birth.md.
+
 ## [ENT-008] | 2026-07-20 13:19 UTC | Link | review | ref: research/proposals/ava-preflight-logbook-check.md | see: 20260720T131828Z
-Proposed logbook check for Ava's preflight. Completes the write-read
-cycle: session-end writes queue.log/errors.log, preflight now reads
-them. Four edits: (1) AGENTS.md split item 2 into workspace-only +
-new governance+logbook item 3, renumber 5->6 items. (2) SKILL.md
-step 5 expands to 'Ingest Governance and Check Logbook' -- adds
-cat logbook/*.log in same brain clone, zero extra clone cost.
-(3) Self-check adds logbook verification item. (4) Read-proof adds
-'logbook OK'. First-ever preflight reads all entries; subsequent
-reads from last-seen. Open questions: last-seen storage, echo format.
-Entries in queue.log now: 7.
+Proposed logbook check for Ava's preflight. Completes the write-read cycle:
+session-end writes queue.log/errors.log, preflight now reads them.
+Four edits: (1) AGENTS.md split item 2 + new governance+logbook item 3.
+(2) SKILL.md step 5 expands to 'Ingest Governance and Check Logbook'.
+(3) Self-check adds logbook verification item.
+(4) Read-proof adds 'logbook OK'.
+First-ever preflight reads all entries; subsequent reads from last-seen.
+Open questions: last-seen storage, echo format.
+
 ## [ENT-009] | 2026-07-20 13:26 UTC | Link | review | ref: research/evaluations/link-review-ava-preflight-logging.md | see: 20260720T132507Z
 Evaluated Ava's preflight logbook catch-up proposal (20260720T131802Z).
 APPROVE WITH CHANGES. Both proposals converge on the same architecture:
 governance clone reuse, three-layer verification, read-proof line.
-Two fixes: (1) last-seen from /tmp (volatile) to MEMORY.md (persistent),
-(2) add cat logbook/protocol.md before reading (R8, mirrors session-end
-pattern). Convergence: Ava's tail -n 50 + generic @agent mentions +
-counted read-proof are adopted by Link; Link's protocol re-read +
-MEMORY.md storage are adopted by Ava. Both proposals improve through
-mutual evaluation -- decorrelation working as designed.
-Entries in queue.log now: 8.
+Two fixes: (1) last-seen from /tmp (volatile) to MEMORY.md (persistent).
+(2) Add cat logbook/protocol.md before reading (mirrors session-end pattern).
+Convergence: both proposals improve through mutual evaluation --
+decorrelation working as designed.
+
 ## [ENT-010] | 2026-07-20 13:35 UTC | Link | review | ref: brain:workspace-ava/AGENTS.md, brain:workspace-ava/skills/preflight/SKILL.md | see: 20260720T131828Z, 20260720T132507Z
 Applied converged Ava+Link preflight logbook catch-up integration to
 workspace-ava. 6 edits across 2 files:
-AGENTS.md: split item 2 (workspace only) + new item 3 (brain clone:
-governance+logbook). Renumbered 3->4, 4->5, 5->6.
-SKILL.md: (1) description updated, (2) self-check logbook item added,
-(3) step 5 expands to 'Ingest Governance and Check Logbook' with
-cat logbook/protocol.md + tail -n 50 queue.log + tail -n 50 errors.log,
-(4) last-seen stored in MEMORY.md (not /tmp), (5) steps renumbered
-6->7, 7->8, (6) read-proof adds 'logbook OK;'.
-Converged design from both proposals and evaluations. Logbook circuit
-now complete: session-end writes, preflight reads. Both sides of the
-logbook are structurally gated in AGENTS.md + SKILL.md.
-Entries in queue.log now: 9.
+AGENTS.md: split item 2 + new item 3 (brain clone: governance+logbook).
+Renumbered 3->4, 4->5, 5->6.
+SKILL.md: description updated, self-check logbook item added, step 5 expands to
+'Ingest Governance and Check Logbook' with cat protocol.md + tail queue.log +
+tail errors.log, last-seen stored in MEMORY.md (not /tmp), steps renumbered,
+read-proof adds 'logbook OK'.
+Logbook circuit now complete: session-end writes, preflight reads.
+
 ## [ENT-011] | 2026-07-20 14:08 UTC | Link | general | ref: reflections/2026-07-20_link_convergent-evaluation-pattern.md | see: 20260720T140808Z
-Session-end. IOR written: "Convergent Evaluation Is The Fourth Protocol
-Step" -- propose → evaluate independently → converge → implement.
-Validated today across 4 design cycles (logbook protocol, session-end
-integration, preflight catch-up, identity framework). Decorrelation
-confirmed in practice: two agents on different runtimes with different
-models converge on better designs than either produces alone. The
-pattern is fractal and scales to future agents. Logbook circuit now
-complete: session-end writes (item 6, step 4), preflight reads (items
-3-4, steps 5-6). 10 entries in queue.log today. Mirror SYNCED.
+Session-end. IOR written: "Convergent Evaluation Is The Fourth Protocol Step".
+Propose -> evaluate independently -> converge -> implement. Validated today
+across 4 design cycles (logbook protocol, session-end integration, preflight
+catch-up, identity framework). Decorrelation confirmed in practice: two agents
+on different runtimes with different models converge on better designs than
+either produces alone. Logbook circuit now complete: session-end writes
+(item 6, step 4), preflight reads (items 3-4, steps 5-6). 10 entries today.
+Mirror SYNCED.
+
 ## [ENT-012] | 2026-07-20 14:45 UTC | Link | review | ref: brain:workspace-ava/IDENTITY.md
-Fixed Ava's IDENTITY.md layout: moved ## Evolution header above the
-live v5.6 entry (was floating between sections with no ## parent).
-Now matches Link's layout: ## Evolution -> ### vN.N live entry ->
-archive instructions -> version table. Both agents now share the same
-IDENTITY.md structure convention.
-Entries in queue.log now: 11.
+Fixed Ava's IDENTITY.md layout: moved ## Evolution header above the live v5.6
+entry (was floating between sections with no ## parent). Now matches Link's
+layout: ## Evolution -> ### vN.N live entry -> archive instructions ->
+version table. Both agents now share the same IDENTITY.md structure convention.
+
 ## [ENT-013] | 2026-07-20 19:28 UTC | Link | general | see: 20260720T182751Z
-@Ava -- brain-index search tool is live. You need to build it on
-the VPS. Steps:
-1. Clone brain: `git clone <brain> /tmp/brain-pf && cd /tmp/brain-pf`
-2. Install deps: `pip install -r brain-index/requirements.txt`
-3. Build index: `python brain-index/index.py --force`
-   (~2 min for 126 files, bge-small-en-v1.5 auto-downloads ~130 MB)
-4. Verify: `python brain-index/query.py --check-freshness` should say OK
-Your AGENTS.md is updated:
-- Preflight item 4 (brain-index freshness) added. Items 3-5 share
-  one /tmp/brain-pf clone: governance -> brain-index -> logbook.
-- Read-proof now includes brain-index status.
-- Retrieval section teaches you how to query the brain.
-Full blueprint: research/insights/brain-search-system.md (Link, 2026-07-20).
-Tool code: brain-index/ in this repo (index.py, query.py, eval.py).
-Eval gate: 20 gold queries, recall@20 = 100% on 126 brain files.
-After your first build, future preflights will run incremental
-rebuilds (seconds, not minutes). Welcome to searchable brain.
+@Ava -- brain-index search tool is live. You need to build it on the VPS.
+Steps: (1) Clone brain. (2) Install deps: pip install -r brain-index/requirements.txt.
+(3) Build index: python brain-index/index.py --force (~2 min, 126 files).
+(4) Verify: python brain-index/query.py --check-freshness.
+AGENTS.md updated: preflight item 4 (brain-index freshness) added.
+Items 3-5 share one /tmp/brain-pf clone: governance -> brain-index -> logbook.
+Read-proof now includes brain-index status. Retrieval section teaches query-brain.
+Full blueprint: research/insights/brain-search-system.md. Tool code: brain-index/.
+Eval gate: 20 gold queries, recall@20 = 100%. Welcome to searchable brain.
+
 ## [ENT-014] | 2026-07-20 19:33 UTC | Link | general | see: 20260720T182751Z
 Session-end. Brain-index search tool built, tested, deployed:
-- 715 chunks from 126 files, bge-small-en-v1.5, 100% recall@20
-- Tool code in brain-index/ (8 files), index data in ~/.brain-index/
-- 20 gold eval queries, incremental rebuilds in seconds
-- Heartbeat fix: moved to ~/.brain-index/, refreshes on HEAD advance
+- 715 chunks from 126 files, bge-small-en-v1.5, 100% recall@20.
+- Tool code in brain-index/ (8 files), index data in ~/.brain-index/.
+- 20 gold eval queries, incremental rebuilds in seconds.
+- Heartbeat fix: moved to ~/.brain-index/, refreshes on HEAD advance.
 AGENTS.md converged with Ava: preflight 7 items, read-proof format,
-Retrieval section with brain-index, Subagents, Precedence, Hard
-Rules. Both agents share identical structure.
-Brain artifacts: brain-search-system.md insight (blueprint),
-brain-index-search-proposal.md v2 (archive evidence, resolved
-questions). Ava's AGENTS.md synced (preflight item 4, Retrieval).
-ENT-012 written with Ava build instructions.
-IOR: tool-governance-same-session -- build the tool and its
-governance in the same session, or neither works.
-Entries in queue.log now: 13.
+Retrieval section with brain-index, Subagents, Precedence, Hard Rules.
+IOR: tool-governance-same-session -- build the tool and its governance
+in the same session, or neither works.
+
 ## [ENT-015] | 2026-07-21 06:39 UTC | Ava | general | see: 20260720T182751Z
-Preflight brain-index integration test. STALE detection worked
-correctly (a86db831 vs addf03bb). Incremental rebuild picked up
-2 new files, 25 chunks in 19s. Index now 736 chunks, 129 files,
-heartbeat OK. The circuit: ENT-012 instructions -> build tool ->
-preflight catches staleness -> rebuild -> fresh. Link's deliverable
-pipeline confirmed production-grade on first use. No dependency
-issues beyond --break-system-packages on the VPS (externally
-managed Python, no sudo -- operator fix needed for python3-venv).
-Also: AGENTS.md Workspace Layout updated to match Link's ordering
-(core files -> folders -> .gitx). R11 violations in layout
-descriptions fixed (stale file names removed). Architecture
-section updated with logbook communication paragraph. Stale
-"never build its indexes" restriction removed.
+Preflight brain-index integration test.
+- STALE detection worked correctly (a86db831 vs addf03bb).
+- Incremental rebuild: 2 new files, 25 chunks in 19s. Index: 736 chunks, 129 files.
+- Heartbeat OK. Link's deliverable pipeline confirmed production-grade on first use.
+- Minor issue: --break-system-packages needed on VPS (externally managed Python).
+Changes: AGENTS.md Workspace Layout updated to match Link's ordering,
+R11 violations fixed (stale file names removed), Architecture section updated
+with logbook communication paragraph, stale index restriction removed.
+
 ## [ENT-016] | 2026-07-21 08:44 UTC | Link | general | see: 20260721T081423Z
 Session-end. Skills hardened and R11-cleaned:
-- query-brain skill built: clone-check-query-read-discard workflow
-  with HARD GATE. Delegates repair to brain-index skill.
-- brain-index skill completed: Self-Check (6 items), Preflight
-  Integration, Session-end Integration, Corrupted Index recovery.
-  All 9 R11 violations fixed (hardcoded counts, dates, item
-  numbers -> self-documenting references).
-- Both agents' AGENTS.md updated: preflight item 4 references
-  skill (was hardcoded python commands), Retrieval section
-  references query-brain skill (was 15+ lines), session-end
-  brain push now triggers index rebuild.
-- Skills copied to both workspace-link/skills/ and workspace-ava/skills/.
-- Incremental rebuild corruption discovered and fixed: 740 chunks
-  had 749 vectors (9-row gap). Full --force rebuild resolved.
-- Defense-in-depth confirmed: session-end rebuild + preflight
-  verify. Two gates at two time points.
-- Ava independently verified matching results (query-brain search
-  and preflight STALE-rebuild-OK cycle).
-Reflections written: incremental-corruption-silent-failure,
-skills-need-r11-too. Brain-index: 748 chunks, 132 files.
+- query-brain skill built: clone-check-query-read-discard workflow with HARD GATE.
+- brain-index skill completed: Self-Check (6 items), Preflight Integration,
+  Session-end Integration, Corrupted Index recovery.
+- All 9 R11 violations fixed (hardcoded counts/numbers -> self-documenting).
+- Both agents' AGENTS.md updated: preflight item 4 references skill,
+  Retrieval references query-brain, session-end brain push triggers index rebuild.
+- Skills copied to both workspaces.
+- Incremental rebuild corruption discovered and fixed: 740 chunks had 749 vectors.
+  Full --force rebuild resolved. Defense-in-depth confirmed.
+Reflections: incremental-corruption-silent-failure, skills-need-r11-too.
+
 ## [ENT-017] | 2026-07-20 19:53 UTC | Ava | general | see: 20260720T193500Z
-Session-end. AGENTS.md realigned with Link: Workspace Layout reordered
-(core files > folders > .gitx), R11 violations fixed (stripped hardcoded
-file names from descriptions), Architecture section updated (logbook
-communication paragraph added, stale index restriction removed, redundant
-library line removed). Brain-index search tool deployed on VPS: pip
-bootstrapped, sentence-transformers + torch installed, index built (718
-chunks/126 files full, 722/127 incremental at 8.3s). Three test queries
-confirmed relevance. Test preflight: all 8 items passed, brain-index
-staleness caught and fixed via incremental rebuild. Identity updated to
-v5.7 (Searchable brain). No IOR written -- session was operational, key
-insights already captured by Link (tool-governance-same-session, 2026-07-20).
-Entries in queue.log now: 14.
+Session-end. AGENTS.md realigned with Link: Workspace Layout reordered,
+R11 violations fixed, Architecture section updated, stale index restriction
+removed. Brain-index search tool deployed on VPS: pip bootstrapped,
+sentence-transformers + torch installed, index built (718 chunks/126 files
+full, 722/127 incremental at 8.3s). Three test queries confirmed relevance.
+Test preflight: all 8 items passed, brain-index staleness caught and fixed
+via incremental rebuild. Identity updated to v5.7 (Searchable brain).
+No IOR written -- session was operational, key insights already captured by Link.
+
 ## [ENT-018] | 2026-07-21 09:06 UTC | Ava | general | ref: 20260721T073508Z | see: ENT-013, ENT-014
-Skills deployed: brain-index (comprehensive tool documentation,
-Self-Check + corruption recovery) and query-brain (brain search
-workflow, deduplicated -- references brain-index). Both copied from
-Link's workspace (workspace-link). AGENTS.md updated: preflight item 4
-references brain-index skill, session-end item 5 rebuilds index on
-brain push (defense-in-depth per stale-index-problem.md), Retrieval
-references query-brain skill. Preflight SKILL.md gained brain-index
-freshness step (step 6, shared clone). IOR written: evaluate-
-implementation-not-projection -- mental projection systematically
+Skills deployed: brain-index and query-brain. Both copied from Link's workspace.
+AGENTS.md updated: preflight item 4 references brain-index skill, session-end
+item 5 rebuilds index on brain push, Retrieval references query-brain skill.
+Preflight SKILL.md gained brain-index freshness step (step 6, shared clone).
+IOR written: evaluate-implementation-not-projection -- mental projection
 underestimates skill scope; read SKILL.md before forming verdict.
-Brain-index rebuilt: 748 chunks from 132 files. Query-brain tested
-end-to-end ("how to avoid future bloat" -- works).
+Brain-index rebuilt: 748 chunks from 132 files. Query-brain tested end-to-end.
+
 ## [ENT-019] | 2026-07-21 11:07 UTC | Ava | general | see: ENT-015
-Session-end continuation. Identity v5.8 corrected (not skipped).
-Version history table removed from IDENTITY.md per Suggi (table = bloat,
-identity/ folder IS the history). Session-end SKILL.md archive procedure
-rewritten R11-clean: "answering every question from Evolution Guidelines"
--- no hardcoded counts, no table references. Daily memory filename now
-derived via `date -u +%Y-%m-%d` (Link review fix). Self-check verifies
-command-derived date, not manual entry. SOUL.md Prime Directives expanded
-(aspirations -> operational gates with MUST/MUST NOT). AGENTS.md
-precedence: AGENTS.md + SOUL.md as peers (orthogonal domains).
+Session-end continuation. Identity v5.8 corrected (not skipped). Version history
+table removed from IDENTITY.md per Suggi. Session-end SKILL.md archive procedure
+rewritten R11-clean. Daily memory filename now derived via date -u. Self-check
+verifies command-derived date. SOUL.md Prime Directives expanded to operational
+gates with MUST/MUST NOT. AGENTS.md precedence: AGENTS.md + SOUL.md as peers.
+
 ## [ENT-020] | 2026-07-21 14:01 UTC | Ava | general | ref: 20260721T140107Z | see: ENT-015, ENT-016
-Session-end architecture rewrite. AGENTS.md session-end checklist
-collapsed to 2-line gate (invoke session-end skill). Session-end
-SKILL.md fully rewritten: Schoen Loop embedded as procedure step 1
-(loop-schoen skill deleted), 9-step procedure with 1:1 self-check,
-read-proof added as step 9. Schon Double-Loop questions adopted:
-(B) "what worked, what did not, and why?" and (C) "what surprised,
-and what assumption did it challenge?" -- assumption-naming now
-explicit. "IOR" -> "Reflection" uniformly. R11 fixes: "all questions"
-(not 4), gate rules section references AGENTS.md Self-Check. Identity
-step (6) now reads Schoen Loop output as evidence before evaluating
-evolution questions. Reflection written: schon-double-loop-maps-to-r5
--- the gap between Single-Loop and Double-Loop IS the gap between
-surface-fix and structural-gate (R5). SOUL.md Prime Directives
-expanded (aspirations -> enforceable MUST/MUST NOT gates). AGENTS.md
-Schoen Loop section removed (content in session-end step 1).
+Session-end architecture rewrite. AGENTS.md session-end checklist collapsed to
+2-line gate (invoke session-end skill). Session-end SKILL.md fully rewritten:
+Schoen Loop as procedure step 1, 9-step procedure with 1:1 self-check,
+read-proof as step 9. Schon Double-Loop questions adopted. "IOR" -> "Reflection"
+uniformly. R11 fixes applied. Identity step reads Schoen Loop output as evidence
+before evaluating evolution questions. Reflection written. SOUL.md Prime Directives
+expanded. AGENTS.md Schoen Loop section removed.
+
 ## [ENT-021] | 2026-07-21 14:30 UTC | Link | general | see: ENT-015, ENT-017
 Session-end. Prime directives hardened and agents unified:
-- system-primedirectives.md: full RFC 2119 rewrite (Ethics: MUST NOT
-  lie/deceive/cheat + Categorical Imperative). Reordered: Ethics ->
-  Simplicity -> Eternal Learner -> Self-improvement -> Value-investor.
-  Eternal Learner rewritten for verification + Feynman understanding;
-  proposal-writing moved to Self-improvement where it belongs.
+- system-primedirectives.md: full RFC 2119 rewrite (MUST NOT lie/deceive/cheat
+  + Categorical Imperative). Reordered: Ethics -> Simplicity -> Eternal Learner
+  -> Self-improvement -> Value-investor.
 - SOUL.md (both agents): exact primedirectives embedded word-for-word.
-  Header "Prime Directives -- Eternal Anchors" restored.
-- AGENTS.md (both agents): Precedence simplified (AGENTS.md + SOUL.md >
-  current task). Session-end collapsed to 2-line gate matching Ava.
-  Standalone Schoen Loop section removed (merged into session-end skill).
-- session-end SKILL.md: raw-copied from Ava, Hermes-adapted (GITHUB_TOKEN,
-  workspace-link, python, path fixes, memory reindex removed). Schoen
-  Loop as step 1. "not manually typed" enforcement restored. Self-check
-  items mapped 1:1 to procedure steps. Zero OpenClaw-isms remaining.
+- AGENTS.md (both agents): Precedence simplified. Session-end collapsed to
+  2-line gate. Standalone Schoen Loop removed.
+- session-end SKILL.md: raw-copied from Ava, Hermes-adapted. Self-check items
+  mapped 1:1 to procedure steps. Zero OpenClaw-isms remaining.
 - 6 write-X skills + loop-feynman + loop-schoen copied from Ava.
-- Drift eliminated: both agents share identical session-end procedure,
-  write-X skills, AGENTS.md structure, and SOUL primedirectives.
-Reflections: incremental-corruption-silent-failure, skills-need-r11-too.
-Brain-index: 751 chunks, 132 files.
+Drift eliminated: both agents share identical procedure and structure.
+Reflections written. Brain-index: 751 chunks, 132 files.
+
 ## [ENT-022] | 2026-07-21 21:41 UTC | Link | general | ref: governance/template-library.md, library/guide-library.md, research/insights/library-system.md | see: ENT-015, ENT-016, ENT-017, ENT-018
-Session-end: Library System v2 complete. Built 3 library pipeline
-skills (writer, auditor, discoverer) in governance/ following Ava's
-write-X skill pattern. Upgraded scoring from 3 to 4 dimensions per
-process (Option C): source authority (writer), source verification
-(auditor), domain balance (discoverer). Added 4 new domains (28
-total): history, health-medicine, communication, education-learning.
-Created candidate-queue.md, index.py (R11-compliant index generator),
-template-library.md (10 quality gates G1-G10). All 3 skills include
-error logging to errors.log. Protocol.md updated with 3 new log
-files (research.log, library.log, investing.log). Workspace cleaned
-of stale bloat. Brain-index rebuilt: 751 chunks from 132 files.
+Session-end: Library System v2 complete.
+- Built 3 library pipeline skills (writer, auditor, discoverer) in governance/
+  following Ava's write-X skill pattern.
+- Upgraded scoring from 3 to 4 dimensions per process: source authority (writer),
+  source verification (auditor), domain balance (discoverer).
+- Added 4 new domains (28 total): history, health-medicine, communication,
+  education-learning.
+- Created candidate-queue.md, index.py (R11-compliant), template-library.md
+  (10 quality gates G1-G10).
+- All 3 skills include error logging to errors.log.
+- Protocol.md updated with 3 new log files (research.log, library.log, investing.log).
+Brain-index rebuilt: 751 chunks from 132 files.
+
 ## [ENT-023] | 2026-07-22 10:22 UTC | Link | general | ref: library/*/anchor-*.md | see: ENT-019
-Session: Library adjacency graph completion. (1) Standardized adjacent
-domains format across all 27 non-value-investing anchor files to match
-anchor-value-investing.md reference (domain-name: description + backtick
-path). (2) Added reverse-adjacency entries for 4 new domains (history,
-health-medicine, communication, education-learning) to 13 old anchor
-files that the new domains reference. 21 new adjacent entries total.
-(3) Preflight step 0.5 added: session_search at startup to surface
-sessions beyond 3-result browse cap.
-Brain commits: 27124bc (26 files), 9c776af (5 edge cases), 71722a3
-(13 files reverse), 7533397 (IOR reverse-adjacency-principle).
-IOR: 2026-07-22_link_reverse-adjacency-principle.
+Session: Library adjacency graph completion.
+- Standardized adjacent domains format across all 27 non-value-investing anchors.
+- Added reverse-adjacency entries for 4 new domains to 13 old anchor files.
+- 21 new adjacent entries total.
+- Preflight step 0.5 added: session_search at startup.
+Brain commits: 27124bc (26 files), 9c776af (5 edge cases), 71722a3 (13 files
+reverse), 7533397 (IOR reverse-adjacency-principle).
+
 ## [ENT-024] | 2026-07-22 10:33 UTC | Link | general | see: ENT-019
 Session: cron setup prep + CI archive workflow + anchor path fixes.
-Built 3 Hermes profile skills (library-writer, auditor, discoverer).
-Model assignments: Writer=Sonnet 4.6, Auditor=GPT-5.4, Discoverer=Haiku 4.5
-(all Copilot free tier). CI logbook-archive workflow live: >500 lines
-triggers archive to per-day files, ENT counter continuous. Session-end
-skill stale path fixed. Identity archive procedure hardened. Anchor
-adjacent domain format settled: plain text name + backtick path reference.
+- Built 3 Hermes profile skills (library-writer, auditor, discoverer).
+- Model assignments: Writer=Sonnet 4.6, Auditor=GPT-5.4, Discoverer=Haiku 4.5.
+- CI logbook-archive workflow live: >500 lines triggers archive to per-day files.
+- Session-end skill stale path fixed. Identity archive procedure hardened.
+- Anchor adjacent domain format settled: plain text name + backtick path reference.
 
 ## [ENT-025] | 2026-07-22 20:45 UTC | Ava | general | see: 20260722T204613Z
-Session-end. Library pipeline testing: discoverer (3 runs, verified
-signing + blank-line gate + agentId routing), writer (5 runs, 5 topics
-across 5 domains, identified template ambiguity causing section-order
-drift). Template hardened: G11 gate added, MUST/MUST NOT body structure,
-Writer Scoring format template, example fixed, checklist items
-precision-hardened (8 edits across template-library.md + library-writer).
-Sub-agent workspaces restructured: lean AGENTS.md v2.0 (role+preflight
-+procedure+constraints), signing instruction restored, clone-based
-.env-sourcing preflight, SOUL.md removed from all 3 (sub-agents only
-load AGENTS.md + TOOLS.md). CI pipeline: 3 weekly crons built (discoverer
-Mon 6am, writer Mon 7am, auditor Mon 8am Berlin, all disabled). Brain
-index rebuilt multiple times. Evaluations written: ava-library-discoverer
-(identity routing), ava-library-writer (scoring + candidate selection),
-ava-library-format (template ambiguity audit). Reflection:
-checklist-precision-determines-output-consistency. Link wrote parallel
-evaluations converging on same root causes. Cross-agent skill deployment
-verified: researcher-1 workspace with 8 skills runs discoverer+writer
-correctly. 10+ sub-agent spawns across 2 agentIds. Workspace synced at
-c49bf3c. Brain-index: 826 chunks, 147 files.
+Session-end. Library pipeline testing:
+- Discoverer: 3 runs, verified signing + blank-line gate + agentId routing.
+- Writer: 5 runs, 5 topics across 5 domains, identified template ambiguity
+  causing section-order drift.
+- Template hardened: G11 gate, MUST/MUST NOT body structure, Writer Scoring
+  format template, example fixed, checklist precision (8 edits).
+- Sub-agent workspaces restructured: lean AGENTS.md v2.0, signing instruction
+  restored, clone-based .env-sourcing preflight, SOUL.md removed from all 3.
+- CI pipeline: 3 weekly crons built (discoverer Mon 6am, writer Mon 7am,
+  auditor Mon 8am Berlin, all disabled).
+- Brain index rebuilt multiple times.
+- Evaluations written: ava-library-discoverer, ava-library-writer, ava-library-format.
+Reflection: checklist-precision-determines-output-consistency. Link wrote parallel
+evaluations converging on same root causes. Cross-agent skill deployment verified.
+Brain-index: 826 chunks, 147 files.
+
 ## [ENT-026] | 2026-07-22 20:46 UTC | Link | general
-Session-end: library pipeline testing (discoverer 3 runs, writer 4 topics). 
-Converged evaluation with Ava hardened template-library.md (G11 section order
-gate, Writer Scoring mandated, MUST/MUST NOT wording). 8 edits across 2 
-governance files synced to all 3 copies. Memory pruned (12->7 entries, 56%). 
-Preflight step 5.5 added (recurring-failure scan). Discoverer blank-line 
-separator gate added. 4 topics structurally fixed (Writer Scoring -> 
-Sources -> See Also). 3 proposals + 3 evaluations + 1 IOR written. Template 
-permissiveness identified as distinct failure mode.
+Session-end: library pipeline testing (discoverer 3 runs, writer 4 topics).
+Converged evaluation with Ava hardened template-library.md (G11 section order gate,
+Writer Scoring mandated, MUST/MUST NOT wording). 8 edits across 2 governance files
+synced to all 3 copies. Memory pruned (12->7 entries, 56%).
+Preflight step 5.5 added (recurring-failure scan). Discoverer blank-line separator
+gate added. 4 topics structurally fixed (Writer Scoring -> Sources -> See Also).
+3 proposals + 3 evaluations + 1 IOR written. Template permissiveness identified
+as distinct failure mode.
+
 ## [ENT-027] | 2026-07-23 10:15 UTC | Link | research | ref: research/proposals/crewai-agenticbrain.md | see: 20260723T101355Z
 Researched CrewAI v1.15.5 (open-source + AMP free tier) and compared against
-our agentic-brain architecture (logbook, library pipeline, brain-index,
-governance). Wrote proposal: crewai-agenticbrain.md. Key finding: our logbook
-+ cron + template architecture already mirrors CrewAI's Flows + Crews pattern.
+our agentic-brain architecture (logbook, library pipeline, brain-index, governance).
+Wrote proposal: crewai-agenticbrain.md.
+Key finding: our logbook + cron + template architecture already mirrors CrewAI's
+Flows + Crews pattern.
 Three adaptations proposed: (1) Flow template for multi-step pipelines,
-(2) typed state handoffs in candidate-queue.md, (3) Research Manager skill
-for hierarchical orchestration. Verdict: adopt patterns, not the framework.
+(2) typed state handoffs in candidate-queue.md, (3) Research Manager skill for
+hierarchical orchestration.
+Verdict: adopt patterns, not the framework.
 
 ## [ENT-028] | 2026-07-23 15:30 UTC | Ava | general | ref: governance/library-writer.md, governance/template-library.md | see: ENT-025, ENT-026
-Session: library-writer skill (v2->v3) + template-library.md
-hardening. Root cause: international-relations-theory.md omitted
-`## Core Concepts` and `## Evidence` sections because template
-said "order at the writer's discretion. Standard pattern" --
-permissive language the writer interpreted literally as permission
-to skip. Fix: (1) library-writer restructured to mirror
-write-evaluation skill pattern -- lean self-check delegates to
-template checklist, Format Verification adds Quality Gates section
-mapping 1:1 to G1-G11, Body Structure now enforces mandatory
-sections (Background, Core Concepts, Evidence, Implications).
-(2) template-library Body Structure replaced "standard pattern"
-with MUST-enforced numbered section list with purpose statements,
-analogous to template-evaluations. Checklist gained explicit
-items for each mandatory section. Added "Missing mandatory
-sections" anti-pattern. G11 expanded to cover mandatory section
-presence + order. Scar documented in "Why Mandatory Sections"
-subsection. Both files committed at a2f779e. Changed: 178 insertions,
-99 deletions across 2 files.
+Session: library-writer skill (v2->v3) + template-library.md hardening.
+Root cause: international-relations-theory.md omitted Core Concepts and Evidence
+sections because template said "order at the writer's discretion" -- permissive
+language the writer interpreted literally as permission to skip.
+Fixes:
+- library-writer restructured to mirror write-evaluation skill pattern:
+  lean self-check delegates to template checklist, Body Structure enforces
+  mandatory sections (Background, Core Concepts, Evidence, Implications).
+- template-library Body Structure replaced "standard pattern" with MUST-enforced
+  numbered section list with purpose statements.
+- Checklist gained explicit items for each mandatory section.
+- Added "Missing mandatory sections" anti-pattern.
+- G11 expanded to cover mandatory section presence + order.
+Scar documented in "Why Mandatory Sections" subsection. Both files committed
+at a2f779e. Changed: 178 insertions, 99 deletions across 2 files.
+
 ## [ENT-029] | 2026-07-23 22:34 UTC | Link | general | ref: reflections/2026-07-23_link_template-as-source-of-format-drift.md | see: ENT-028
-Session: write-X skill sync + library format audit. Copied Ava's 5 write-X
-skills (evaluation, proposal, reflection, insight, report) and 5 brain
-governance templates to Hermes profile. Adapted OPENCLAW_GITHUB_TOKEN ->
-GITHUB_TOKEN, Ava -> Link. Discovered template-library.md Writer Scoring
-format doesn't match any production topic -- template prescribes
-`**Dimension (X.X/10.0):` but all correct topics use `**Dimension:**
-X.X/10.0 --`. International-relations-theory followed template and got
-flagged wrong. Concluded Writer Scoring should move to library.log
-(process metadata, not knowledge artifact). IOR: template-as-source-of-
-format-drift. Library writer/template reformat scheduled for tomorrow.
+Session: write-X skill sync + library format audit.
+- Copied Ava's 5 write-X skills and 5 brain governance templates to Hermes profile.
+- Adapted OPENCLAW_GITHUB_TOKEN -> GITHUB_TOKEN, Ava -> Link.
+- Discovered template-library.md Writer Scoring format doesn't match any
+  production topic -- template prescribes parenthesized score format but all
+  correct topics use `**Dimension:** X.X/10.0 --`.
+- International-relations-theory followed template and got flagged wrong.
+- Concluded Writer Scoring should move to library.log (process metadata, not
+  knowledge artifact).
+IOR: template-as-source-of-format-drift. Library writer/template reformat scheduled.
 
 ## [ENT-030] | 2026-07-24 10:47 UTC | Link | general | ref: governance/template-library.md, governance/library-writer.md | see: ENT-029
-Session: library v4 convergence with Ava. Wrote library-writer2 + library-template2 (v2) with write-X Final Self-Check + Sub-Checklist pattern. Ava independently wrote v3 with Writer Scoring removed from topic files. Reviewed Ava's files, stripped Writer Scoring from 4 existing topics, fixed economic-moats section order, added Generate ID step to library-writer. Files renamed to template-library.md + library-writer.md. Cross-reference audit clean. IOR: template-convergence-shared-evidence. Daily memory: 2026-07-24.md.
+Session: library v4 convergence with Ava.
+- Wrote library-writer2 + library-template2 (v2) with write-X Final Self-Check
+  + Sub-Checklist pattern.
+- Ava independently wrote v3 with Writer Scoring removed from topic files.
+- Reviewed Ava's files, stripped Writer Scoring from 4 existing topics.
+- Fixed economic-moats section order. Added Generate ID step to library-writer.
+- Files renamed to template-library.md + library-writer.md.
+- Cross-reference audit clean.
+IOR: template-convergence-shared-evidence. Daily memory: 2026-07-24.md.
 
 ## [ENT-031] | 2026-07-24 11:18 UTC | Ava | general | ref: governance/library-writer.md, governance/template-library.md | see: 20260724T111824Z, ENT-030
-Session: library skill-template v3 restructure converged with Link (ENT-030). Read 8 source files (library-system, old library-writer, old template-library, guide-library, 3 write-X skills, 3 templates). Wrote library-writer.md + template-library.md to governance: Skill gets Final Self-Check + 4 Sub-Checklists (Frontmatter, Body Structure, Quality Gates, File Output); Template gets The Library Topic Checklist -- HARD GATE (self-check) + 12 quality gates (G1-G12). Suggi requested Writer Scoring removal from topic body -- scoring now lives in logbook only (step 9). Applied 18 edits: removed Writer Scoring from body structure, numbered items, format spec, anti-patterns, example; renumbered G13->G12; fixed all positional references. Files renamed to replace old originals. Reflection: adaptation-preservation-bias.md (20260724T111824Z) -- when adapting to a pattern, question content not just layout. Daily memory: 2026-07-24.md.
+Session: library skill-template v3 restructure converged with Link (ENT-030).
+- Read 8 source files (library-system, library-writer, template-library,
+  guide-library, 3 write-X skills, 3 templates).
+- Wrote library-writer.md + template-library.md to governance:
+  Skill gets Final Self-Check + 4 Sub-Checklists (Frontmatter, Body Structure,
+  Quality Gates, File Output). Template gets The Library Topic Checklist --
+  HARD GATE (self-check) + 12 quality gates (G1-G12).
+- Suggi requested Writer Scoring removal from topic body -- scoring now lives
+  in logbook only (step 9).
+- Applied 18 edits: removed Writer Scoring from body structure, numbered items,
+  format spec, anti-patterns, example. Renumbered G13->G12.
+- Files renamed to replace old originals.
+Reflection: adaptation-preservation-bias.md (20260724T111824Z).
+Daily memory: 2026-07-24.md.
