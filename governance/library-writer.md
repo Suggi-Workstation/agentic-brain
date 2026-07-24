@@ -1,6 +1,6 @@
 ---
-name: library-writer3
-description: "Research and write a library topic file to the agentic-brain. Follows the write-X pattern with Final Self-Check plus Sub-Checklists for frontmatter, body structure, quality gates, scoring, and file output. Reads governance/library-template3.md for the full format specification."
+name: library-writer
+description: "Research and write a library topic file to the agentic-brain. Follows the write-X pattern with Final Self-Check plus Sub-Checklists for frontmatter, body structure, quality gates, scoring, and file output. Reads governance/template-library.md for the full format specification."
 user-invocable: false
 disable-model-invocation: false
 ---
@@ -41,7 +41,7 @@ Confirm ALL verification sections passed before committing.
 - [ ] Body Structure Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
 - [ ] Quality Gates Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
 - [ ] File Output Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
-- [ ] `governance/library-template3.md` Checklist: all items confirmed PASS (PASS / HALT)
+- [ ] `governance/template-library.md` Checklist: all items confirmed PASS (PASS / HALT)
 - [ ] Logbook entry written to library.log (PASS / HALT)
 - [ ] Errors logged to errors.log (if any) (PASS / HALT)
 - [ ] Committed and pushed: changes pushed to origin main (PASS / HALT)
@@ -58,7 +58,7 @@ cd /tmp && rm -rf brain-writer && git clone --depth 1 \
 
 ### 2. Read the format specification
 
-Read `governance/library-template3.md`. It defines the body structure
+Read `governance/template-library.md`. It defines the body structure
 (mandatory sections in order), frontmatter schema (7 fields + 2 optional
 auditor fields), quality gates (G1-G12), anti-patterns, and the complete
 example. Follow it exactly. Do not substitute your own section order or
@@ -90,7 +90,7 @@ Collect 3-5 sources. Evaluate source quality:
 - **Low authority (1-3):** personal blogs, forums, unattributed content.
 
 Synthesize into a coherent topic file following the body structure
-defined in `governance/library-template3.md`.
+defined in `governance/template-library.md`.
 
 ### 6. Score the candidate (4 dimensions, v2 weights)
 
@@ -135,7 +135,7 @@ Never type the ID digits by hand. The exec output is authoritative.
 
 Write ONLY to the agentic-brain. NEVER write topic files to the
 workspace. Follow the body structure and section order specified in
-`governance/library-template3.md` exactly.
+`governance/template-library.md` exactly.
 
 Path: `/tmp/brain-writer/library/<domain>/<topic-slug>.md`
 
@@ -180,7 +180,7 @@ Remove the processed candidate entry from
 ## Sub-Checklists -- HARD GATE (before commit)
 
 Verify every Sub-Checklist item below. Each maps to a section of
-`governance/library-template3.md`. HALT on any failure; fix before
+`governance/template-library.md`. HALT on any failure; fix before
 committing.
 
 ### Frontmatter Sub-Checklist
@@ -251,7 +251,7 @@ cd /tmp && rm -rf brain-writer
 
 ## Related
 
-- `governance/library-template3.md` -- full format specification, mandatory body sections, quality gates G1-G12, anti-patterns, complete example
+- `governance/template-library.md` -- full format specification, mandatory body sections, quality gates G1-G12, anti-patterns, complete example
 - `governance/library-auditor.md` -- auditor skill (reviews written topics)
 - `governance/library-discoverer.md` -- discoverer skill (proposes candidates)
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
