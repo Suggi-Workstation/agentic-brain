@@ -309,35 +309,6 @@ present. In these situations, slowing down and applying structured
 reasoning -- even something as simple as asking "what would convince me
 I am wrong?" -- can substantially improve decision quality.
 
-## Writer Scoring
-
-- **Core match:** 10.0/10.0 -- Cognitive biases are the central subject
-  of the psychology-behavior domain. The anchor paragraph names
-  systematic errors in human judgment and decision-making as the
-  domain's core focus. This topic is the domain's thesis statement.
-- **Scope fit:** 10.0/10.0 -- Stays entirely within psychology-behavior
-  scope. Catalogues biases by mechanism (representativeness,
-  availability, anchoring, confirmation, social, memory) without
-  drifting into adjacent domains like neuroscience or clinical
-  psychology.
-- **Knowledge value:** 9.0/10.0 -- Foundational topic that every other
-  psychology-behavior topic (prospect theory, loss aversion, behavioral
-  economics, decision-making frameworks) will reference. Also bridges
-  to investing (confirmation bias in stock analysis), science (bias
-  mitigation in experimental design), and forecasting (overconfidence
-  in predictions).
-- **Source authority:** 7.0/10.0 -- Five high-authority sources (Tversky
-  & Kahneman 1974 in Science, Kahneman 2011 book, Wilke & Mata 2017
-  Elsevier reference module, Ruffo et al. 2024 in Information
-  Processing & Management, Stanovich & West 2008 in JPSP). One medium
-  (Wikipedia list of cognitive biases). No low-authority sources.
-
-**Weighted score:** (10.0 x 0.35) + (10.0 x 0.35) + (9.0 x 0.20) +
-(7.0 x 0.10) = 3.5 + 3.5 + 1.8 + 0.7 = **9.5/10.0**
-
-**Topic similarity:** 0% overlap -- no existing topics in the
-psychology-behavior domain. Proceeded normally.
-
 ## Sources
 
 1. Tversky, A. & Kahneman, D. (1974). "Judgment under Uncertainty:

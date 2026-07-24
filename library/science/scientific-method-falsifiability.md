@@ -260,26 +260,6 @@ peer review -- even though their specific techniques differ. This
 shared epistemology is what makes cross-disciplinary science
 possible.
 
-## Writer Scoring
-
-Weighted score: 9.2/10.0 (core=9.5, scope=9.0, value=9.5, authority=8.5).
-
-- **Core match (9.5):** The scientific method, falsifiability, and
-  reproducibility are the explicit anchor of the science domain.
-- **Scope fit (9.0):** Scientific methodology, experimental design,
-  peer review, and paradigm shifts are all In scope. Minor care was
-  taken at the boundary with ethics-philosophy: the demarcation
-  problem is addressed methodologically, not philosophically.
-- **Knowledge value (9.5):** This is the foundational topic for the
-  entire science domain. Every other science topic builds on these
-  concepts.
-- **Source authority (8.5):** Seven of eight sources are high
-  authority (Stanford Encyclopedia, Cambridge UP, PMC/NIH, IEP,
-  peer-reviewed journals). One medium (Wikipedia).
-
-Topic similarity: 0% overlap. The science domain has no existing
-topics beyond the anchor.
-
 ## Sources
 
 1. Popper, K. (1959). "The Logic of Scientific Discovery." Routledge.

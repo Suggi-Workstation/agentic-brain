@@ -261,46 +261,6 @@ require active defense and can erode through competitive innovation
 (Intel), changing customer preferences (Starbucks), or regulatory and
 technological shifts (patent cliffs in pharmaceuticals).
 
-## Practical Moat Analysis Framework
-
-The author synthesizes the Morningstar methodology and practitioner
-approaches into a repeatable four-step framework:
-
-### Step 1: Identify the Moat Source
-
-Determine which of the five sources applies. A company may have
-multiple sources. Document the specific mechanism -- not "brand" but
-"Coca-Cola's distribution network and century-old brand recognition
-allow it to charge approximately 30% more than private-label cola
-while maintaining volume share."
-
-### Step 2: Verify with Financial Evidence
-
-Look for persistent ROIC above the cost of capital (10+ years), stable
-or expanding gross margins, high free cash flow conversion, and
-consistent market share. If the qualitative moat story is not supported
-by the financial data, the moat is either weaker than claimed or
-already eroding.
-
-### Step 3: Assess the Threat Horizon
-
-Identify what would have to change for the moat to disappear. Is that
-change plausible within 10 years? Is there a well-funded competitor
-working on that change? Consider:
-
-- **Patent cliffs** for intangible-asset moats.
-- **Technology shifts** that reduce switching costs or enable new
-  entrants.
-- **Regulatory changes** that remove legal protections.
-- **Consumer behavior shifts** that weaken brand pricing power.
-- **Commodity cycles** that eliminate temporary cost advantages.
-
-### Step 4: Determine Moat Width
-
-Based on the evidence, classify the moat as wide (20+ years), narrow
-(10+ years), or none. Err toward conservatism: it is more costly to
-overestimate moat durability than to underestimate it.
-
 ## Implications
 
 ### For Intrinsic Value Estimation
@@ -343,6 +303,46 @@ before their competitive positions collapsed. A value investor who
 ignores moat analysis will repeatedly buy stocks that are cheap for
 the correct reason: the business is deteriorating.
 
+## Practical Moat Analysis Framework
+
+The author synthesizes the Morningstar methodology and practitioner
+approaches into a repeatable four-step framework:
+
+### Step 1: Identify the Moat Source
+
+Determine which of the five sources applies. A company may have
+multiple sources. Document the specific mechanism -- not "brand" but
+"Coca-Cola's distribution network and century-old brand recognition
+allow it to charge approximately 30% more than private-label cola
+while maintaining volume share."
+
+### Step 2: Verify with Financial Evidence
+
+Look for persistent ROIC above the cost of capital (10+ years), stable
+or expanding gross margins, high free cash flow conversion, and
+consistent market share. If the qualitative moat story is not supported
+by the financial data, the moat is either weaker than claimed or
+already eroding.
+
+### Step 3: Assess the Threat Horizon
+
+Identify what would have to change for the moat to disappear. Is that
+change plausible within 10 years? Is there a well-funded competitor
+working on that change? Consider:
+
+- **Patent cliffs** for intangible-asset moats.
+- **Technology shifts** that reduce switching costs or enable new
+  entrants.
+- **Regulatory changes** that remove legal protections.
+- **Consumer behavior shifts** that weaken brand pricing power.
+- **Commodity cycles** that eliminate temporary cost advantages.
+
+### Step 4: Determine Moat Width
+
+Based on the evidence, classify the moat as wide (20+ years), narrow
+(10+ years), or none. Err toward conservatism: it is more costly to
+overestimate moat durability than to underestimate it.
+
 ## Common Pitfalls
 
 ### Mistaking Temporary Advantage for a Moat
@@ -374,41 +374,6 @@ Value investors must monitor moat health indicators -- declining gross
 margins, falling market share, rising customer acquisition costs,
 deteriorating ROIC -- with the same rigor they apply to valuation
 metrics.
-
-## Writer Scoring
-
-- **Core match:** 9.0/10.0 -- Moat analysis and competitive advantage
-  durability are explicitly listed in the domain anchor paragraph and In
-  scope. The topic directly addresses "moat analysis and competitive
-  advantage durability," "qualitative moat assessment," and
-  "reinvestment moat analysis" -- all items in the anchor's In scope list.
-- **Scope fit:** 10.0/10.0 -- Squarely within the value-investing domain
-  boundary. Does not drift into finance (which covers tools, not
-  philosophy), investors (which covers biographies, not frameworks), or
-  valuation-screening (which covers quantitative models, not qualitative
-  assessment). The topic stays focused on the value investor's approach
-  to assessing competitive advantage.
-- **Knowledge value:** 8.5/10.0 -- Compounds with the existing
-  margin-of-safety topic (moat durability determines required margin
-  size), bridges to intrinsic-value-estimation (moat width determines DCF
-  persistence period), and connects to investors (Buffett/Munger's
-  philosophy) and psychology-behavior (behavioral biases exploited by
-  value investors). Medium-high compounding value.
-- **Source authority:** 7.0/10.0 -- Two Morningstar primary sources
-  [high], Morgan Stanley institutional research [high], and three
-  reputable practitioner sources [medium]. No low-authority sources.
-  Average authority across 6 sources is approximately 7.3, rounded to
-  7.0.
-
-**Weighted score:** (9.0 x 0.35) + (10.0 x 0.35) + (8.5 x 0.20) +
-(7.0 x 0.10) = 3.15 + 3.50 + 1.70 + 0.70 = **9.05** (rounded to 9.1)
-
-**Topic similarity:** Approximately 10-15% overlap with
-margin-of-safety.md. The existing topic mentions moats only in passing
-as a candidate cross-reference. The topics are complementary
-(margin-of-safety is about the price-value gap; moats are about the
-business quality that justifies a long holding period) but not
-overlapping. Proceeded normally.
 
 ## Sources
 
