@@ -1,5 +1,5 @@
 ---
-name: library-template3
+name: template-library
 id: 20260724T072802Z
 tier: core-template
 lock: approval-required
