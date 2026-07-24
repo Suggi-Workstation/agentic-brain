@@ -19,7 +19,6 @@ Candidates:
 - The Scientific Method and Falsifiability (8.5): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
 - Cognitive Biases: A Systematic Catalog (8.7): gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0
 - Prospect Theory and Loss Aversion (8.2): gap=8.5, compounding=7.5, timeliness=7.0, balance=10.0
-- International Relations Theory (8.4): gap=9.0, compounding=7.0, timeliness=7.5, balance=10.0
 - US-China Great Power Competition (8.4): gap=8.0, compounding=7.0, timeliness=9.5, balance=10.0
 - Artificial Intelligence: Large Language Models and Their Trajectory (8.2): gap=7.5, compounding=7.0, timeliness=9.5, balance=10.0
 - Financial Statement Analysis (8.3): gap=9.0, compounding=8.0, timeliness=6.0, balance=10.0
@@ -49,19 +48,13 @@ Weighted score: 9.1/10.0 (core=9.0, scope=10.0, value=8.5, authority=7.0).
 Similarity overlap: 10-15%. Sources: 6 (3 high, 3 medium, 0 low).
 Cross-references: 5 topics.
 
-## [ENT-007] | 2026-07-22 20:37 UTC | Researcher-1 | library | ref: library/geopolitics/international-relations-theory.md | see: candidate-international-relations-theory
-Wrote topic International Relations Theory -- How the Three Great Paradigms Explain Why Nations Cooperate and Why They Fight to geopolitics.
-Weighted score: 9.7/10.0 (core=10.0, scope=10.0, value=9.5, authority=8.0).
-Similarity overlap: 0%. Sources: 7 (3 high, 4 medium, 0 low).
-Cross-references: 2 topics.
-
-## [ENT-008] | 2026-07-24 12:00 UTC | Researcher-1 | library | ref: library/geopolitics/us-china-great-power-competition.md | see: candidate-us-china-great-power-competition
+## [ENT-007] | 2026-07-24 12:00 UTC | Researcher-1 | library | ref: library/geopolitics/us-china-great-power-competition.md | see: candidate-us-china-great-power-competition
 Wrote topic US-China Great Power Competition -- How the Defining Rivalry of the 21st Century Is Reshaping Global Order to geopolitics.
 Weighted score: 9.2/10.0 (core=9.5, scope=9.5, value=8.5, authority=8.0).
 Similarity overlap: 5-10%. Sources: 8 (3 high, 5 medium, 0 low).
-Cross-references: 2 topics.
+Cross-references: 1 topics.
 
-## [ENT-009] | 2026-07-24 14:30 UTC | Researcher-1 | library | ref: library/candidate-queue.md
+## [ENT-008] | 2026-07-24 14:30 UTC | Researcher-1 | library | ref: library/candidate-queue.md
 Discovery cycle: 6 domains scanned, 14 candidates proposed.
 Candidates:
 - Revenue Recognition Shenanigans: How Companies Inflate the Top Line (7.9): gap=9.0, compounding=6.0, timeliness=6.5, balance=10.0
