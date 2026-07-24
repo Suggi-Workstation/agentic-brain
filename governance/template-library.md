@@ -63,6 +63,7 @@ in the published topic file.
 - [ ] Body sections follow order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional) -> Sources -> See Also. No content after `## See Also`. (G11) (PASS / HALT)
 - [ ] `## Sources` section present with 3+ sources. Each source annotated with authority rating (high/medium/low). At least 2 of 3+ sources are high or medium. (G4) (PASS / HALT)
 - [ ] `## See Also` section present with at least 1 cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
+- [ ] Cross-reference targets verified: each path in `## See Also` and `links:` frontmatter confirmed to exist in the brain clone via `ls <path>` before committing (G5) (PASS / HALT)
 - [ ] Every factual claim traceable to a source in Sources. Synthesized claims are labeled as such. (G3) (PASS / HALT)
 - [ ] Domain anchor compliance verified: topic stays within anchor's In scope, avoids Out scope (G6) (PASS / HALT)
 - [ ] Topic similarity check completed: overlap < 80%. Estimate recorded. (G7) (PASS / HALT)
@@ -294,9 +295,10 @@ Auditor re-verifies them during review.
   a `[high]`, `[medium]`, or `[low]` rating. At least 2 of the 3+
   sources must be `[high]` or `[medium]`. A topic sourced entirely
   from `[low]` authority sources fails this gate.
-- **G5 -- Cross-references Exist:** At least one link to a related
-  library topic or brain artifact. Zero links = isolated knowledge
-  that does not compound.
+- **G5 -- Cross-references Exist AND Are Valid:** At least one link to a
+  related library topic or brain artifact. Zero links = isolated knowledge
+  that does not compound. Every cross-referenced path MUST point to a file
+  that exists in the brain clone. Verify with `ls <path>` before committing.
 - **G6 -- Domain Anchor Compliant:** The topic stays within the domain
   anchor's In scope and avoids Out scope. Verified by reading the
   domain's `anchor-<domain>.md` file before writing.
@@ -339,6 +341,7 @@ Auditor re-verifies them during review.
 | Missing mandatory sections | `## Core Concepts` or `## Evidence` omitted; body content embedded in ad-hoc domain sections. | The topic MUST include `## Background`, `## Core Concepts`, `## Evidence`, and `## Implications` as dedicated sections. |
 | Empty mandatory sections | A section heading with one sentence or placeholder text below it. | Each mandatory section must contain substantive content worth reading independently. (G12) |
 | Content after See Also | Additional text, notes, or references appended after `## See Also`. | `## See Also` MUST be the final section. No content may follow. |
+| Cross-references to non-existent files | Linking to a file the agent assumed exists but never verified with `ls` in the clone. | Verify every cross-referenced path with `ls <path>` in the brain clone before committing. Do not assume a file exists because it is mentioned in a domain anchor or candidate description. |
 
 ## Example -- Minimal Valid Topic
 
@@ -483,7 +486,8 @@ away means accepting the loss).
 | 1 | 2026-07-21 | Link | Initial template: 7-field frontmatter, 4 mandatory sections (standard pattern), G1-G11 quality gates, anti-patterns, example. |
 | 2 | 2026-07-23 | Ava | Hardened body structure: Background, Core Concepts, Evidence, Implications changed from "standard pattern at writer's discretion" to MUST sections. Added "Missing mandatory sections" anti-pattern. G11 expanded to cover mandatory section presence AND order. |
 | 3 | 2026-07-24 | Ava | Complete restructure to match write-X template pattern. Added template self-check checklist (The Library Topic Checklist -- HARD GATE). Added G12 (Mandatory Section Quality) and G13 (Writer Scoring Format) as custom library gates. Skill (library-writer.md) restructured with Final Self-Check + Sub-Checklists pattern matching write-evaluation SKILL.md. |
-| 4 | 2026-07-24 | Suggi/Ava | Removed `## Writer Scoring` section from topic file body structure. Writer Scoring moved entirely to logbook (library-writer.md step 9). G13 removed; gates renumbered G1-G12. All positional references ("before Writer Scoring", "after Writer Scoring") updated to adjacent sections (Sources, Implications). Removed 3 Writer Scoring anti-patterns. Updated example. |
+| 4 | 2026-07-24 | Suggi/Ava | Removed `## Writer Scoring` section from topic file body structure. Writer Scoring moved entirely to logbook (library-writer.md step 10). G13 removed; gates renumbered G1-G12. All positional references ("before Writer Scoring", "after Writer Scoring") updated to adjacent sections (Sources, Implications). Removed 3 Writer Scoring anti-patterns. Updated example. |
+| 5 | 2026-07-24 | Ava | Hardened G5 (Cross-references) to require target file existence verification via `ls`. Added checklist item for cross-reference verification. Added "Cross-references to non-existent files" anti-pattern. Scar: us-china-great-power-competition.md cross-referenced international-relations-theory.md which researcher-1 hallucinated (file was deleted before the write cycle). |
 
 ---
 

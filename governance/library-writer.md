@@ -142,7 +142,24 @@ Path: `/tmp/brain-writer/library/<domain>/<topic-slug>.md`
 `<topic-slug>`: lowercase kebab-case, max 80 chars, unique within the
 domain. Derive from the topic title.
 
-### 9. Write logbook entry
+### 9. Verify cross-references
+
+Before writing the logbook entry, verify every cross-referenced file
+actually exists in the brain clone. Hallucinated references to deleted
+or assumed files produce broken links that fail G5.
+
+```bash
+# Extract paths from the topic's links: frontmatter and See Also,
+# then verify each exists
+for f in <path1> <path2>; do
+  ls /tmp/brain-writer/$f || { echo "MISSING: $f -- remove from topic"; exit 1; }
+done
+```
+
+If any path fails, remove it from both `links:` frontmatter and
+`## See Also` before committing.
+
+### 10. Write logbook entry
 
 Append to `/tmp/brain-writer/logbook/library.log`:
 
@@ -156,7 +173,7 @@ Cross-references: N topics.
 
 Increment ENT counter from the last entry in library.log.
 
-### 9a. Log errors (if any)
+### 10a. Log errors (if any)
 
 If any step failed or produced unexpected results (score below threshold,
 duplicate topic detected, source authority too low, push conflict),
@@ -172,7 +189,7 @@ and normal pipeline outcomes (FLAG, REJECT, DUPLICATE) go to library.log.
 Errors.log is for unexpected failures: clone failed, push rejected,
 file write error, or any crash.
 
-### 10. Remove the candidate from the queue
+### 11. Remove the candidate from the queue
 
 Remove the processed candidate entry from
 `/tmp/brain-writer/library/candidate-queue.md`.
@@ -230,7 +247,7 @@ committing.
 - [ ] ASCII-only: zero non-ASCII characters in the file (G9) (PASS / HALT)
 - [ ] Candidate removed from candidate-queue.md (PASS / HALT)
 
-### 11. Commit and push
+### 12. Commit and push
 
 ```bash
 cd /tmp/brain-writer
@@ -243,7 +260,7 @@ git push origin main
 
 If the push fails, pull first, resolve, then push.
 
-### 12. Discard the clone
+### 13. Discard the clone
 
 ```bash
 cd /tmp && rm -rf brain-writer
