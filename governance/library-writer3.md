@@ -167,25 +167,6 @@ file write error, or any crash.
 Remove the processed candidate entry from
 `/tmp/brain-writer/library/candidate-queue.md`.
 
-### 11. Commit and push
-
-```bash
-cd /tmp/brain-writer
-git add -A
-git diff --cached --stat
-git -c user.name="<agent-name>" -c user.email="<agent-email>" \
-  commit -m "library: write <topic-slug> to <domain>"
-git push origin main
-```
-
-If the push fails, pull first, resolve, then push.
-
-### 12. Discard the clone
-
-```bash
-cd /tmp && rm -rf brain-writer
-```
-
 ## Sub-Checklists -- HARD GATE (before commit)
 
 Verify every Sub-Checklist item below. Each maps to a section of
@@ -250,6 +231,25 @@ committing.
 - [ ] Written ONLY to /tmp/brain-writer/library/<domain>/ (NOT workspace, NOT any other path) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (G9) (PASS / HALT)
 - [ ] Candidate removed from candidate-queue.md (PASS / HALT)
+
+### 11. Commit and push
+
+```bash
+cd /tmp/brain-writer
+git add -A
+git diff --cached --stat
+git -c user.name="<agent-name>" -c user.email="<agent-email>" \
+  commit -m "library: write <topic-slug> to <domain>"
+git push origin main
+```
+
+If the push fails, pull first, resolve, then push.
+
+### 12. Discard the clone
+
+```bash
+cd /tmp && rm -rf brain-writer
+```
 
 ## Related
 
