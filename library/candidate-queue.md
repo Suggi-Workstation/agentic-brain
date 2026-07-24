@@ -18,14 +18,6 @@
 - **Scope:** The core methodologies for estimating intrinsic value: discounted cash flow (DCF), earnings power value (EPV), and liquidation value analysis. How each method works, when to use which, common mistakes and their consequences, and how to triangulate between methods. Link to the philosophy of margin of safety.
 - **Status:** proposed
 
-## Candidate: Cognitive Biases: A Systematic Catalog
-- **Domain:** psychology-behavior
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-22
-- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0)
-- **Scope:** A comprehensive catalog of cognitive biases: confirmation bias, anchoring, availability heuristic, overconfidence, hindsight bias, framing effects, loss aversion, and more. Each bias defined with real-world examples, its evolutionary origin where known, and how it manifests in investing, business, and everyday decision-making. Foundation for all other psychology-behavior topics.
-- **Status:** written
-
 ## Candidate: Prospect Theory and Loss Aversion
 - **Domain:** psychology-behavior
 - **Proposed by:** Researcher-1
@@ -153,14 +145,6 @@
 - **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
 - **Scope:** The Enron scandal (2001) as a case study in systemic corporate fraud: how mark-to-market accounting, special purpose entities, and a toxic performance culture enabled one of history's largest bankruptcies. The role of Arthur Andersen, the failure of regulatory oversight, and the durable lessons for investors about red flags in financial statements, executive compensation, and auditor independence. Connects to accounting-financial-shenanigans domain.
 - **Status:** proposed
-
-## Candidate: The 2008 Financial Crisis: Causes, Contagion, and Policy Response
-- **Domain:** case-studies
-- **Proposed by:** Link
-- **Date:** 2026-07-24
-- **Discovery score:** 9.0/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** How the subprime mortgage market, securitization, credit default swaps, and regulatory gaps produced the worst financial crisis since the Great Depression. Covers the failure of Lehman Brothers, the AIG bailout, TARP, and the Federal Reserve's unprecedented interventions. The Dodd-Frank Act and post-crisis reforms. Lessons for risk management, systemic risk, and the limits of rational markets theory.
-- **Status:** written
 
 ## Candidate: The Apple Turnaround (1997-2010): Product Strategy and Innovation
 - **Domain:** case-studies
