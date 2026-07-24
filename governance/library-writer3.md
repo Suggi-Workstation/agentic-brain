@@ -122,9 +122,9 @@ with the candidate topic. Estimate overlap percentage:
 
 ### 7b. Generate the ID
 
-Run date -u +'%Y%m%dT%H%M%SZ' and capture the output:
+Run `date -u +'%Y%m%dT%H%M%SZ'` and capture the output:
 
-bash date -u +'%Y%m%dT%H%M%SZ'
+bash `date -u +'%Y%m%dT%H%M%SZ'`
 
 ### 8. Write the topic file
 
