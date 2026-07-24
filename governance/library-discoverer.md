@@ -187,17 +187,27 @@ any failure; fix before committing.
 - [ ] Candidate appended ONLY to library/candidate-queue.md (PASS / HALT)
 - [ ] No topic files created (discoverer proposes, does not write) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
+- [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 10 example exactly (PASS / HALT)
 
 ### 10. Write logbook entry
 
-Append to `/tmp/brain-discover/logbook/library.log`:
+Append to `/tmp/brain-discover/logbook/library.log`. The logbook
+entry MUST follow this exact format. Each data field MUST be on its
+own line. Candidates MUST be listed one per line using bullet points
+(`-`). Do NOT pack multiple fields onto a single line. The archiving
+system counts lines, not bytes -- single-line entries defeat
+line-based archiving.
 
 ```
 ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/candidate-queue.md
 Discovery cycle: N domains scanned, M candidates proposed.
-Domains: <list with topic counts>. Candidates: <list with all 4 dimension scores>.
-Domain balance survey: <least-covered domain (N topics)> to <most-covered (N topics)>.
+Candidates:
+- <title> (X.X): gap=X.X, compounding=X.X, timeliness=X.X, balance=X.X
+- <title> (X.X): gap=X.X, compounding=X.X, timeliness=X.X, balance=X.X
+Domain balance: <least-covered> (N topics) to <most-covered> (N topics).
 ```
+
+Increment ENT counter from the last entry in library.log.
 
 ### 10a. Log errors (if any)
 
