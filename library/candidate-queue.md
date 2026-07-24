@@ -170,14 +170,6 @@
 - **Scope:** Apple's near-bankruptcy in 1997 and its transformation into the world's most valuable company: Steve Jobs's return, the product-line simplification, the iMac revival, the iPod/iTunes ecosystem, the iPhone's category creation, and the retail store strategy. How design thinking, supply chain mastery, and ecosystem lock-in created an economic moat. Lessons for turnarounds, innovation strategy, and brand-building.
 - **Status:** proposed
 
-## Candidate: Discounted Cash Flow (DCF) Valuation: Methodology and Critical Assumptions
-- **Domain:** valuation-screening
-- **Proposed by:** Link
-- **Date:** 2026-07-24
-- **Discovery score:** 9.2/10.0 (gap=9.5, compounding=9.0, timeliness=7.0, balance=10.0)
-- **Scope:** The foundational valuation method: projecting free cash flows, estimating terminal value (perpetuity growth vs exit multiple), and discounting at the weighted average cost of capital. Critical assumptions: growth rates, margin projections, capex requirements, and the cost of capital. Why small changes in terminal growth rate or discount rate produce large valuation swings. Common errors and how to stress-test a DCF with sensitivity analysis.
-- **Status:** proposed
-
 ## Candidate: Valuation Multiples: P/E, EV/EBITDA, P/B Analysis and When Each Fails
 - **Domain:** valuation-screening
 - **Proposed by:** Link
