@@ -62,6 +62,13 @@ footnote as risk factor. See `investing/companies/coca-cola.md` for
 full model.
 ```
 
+Entry bodies MUST use multiple short lines. Do NOT pack an entire
+session summary or pipeline cycle onto one line. Break at logical
+boundaries: one major point or workstream per line. This keeps log
+files scannable with `tail` and ensures the 500-line CI archive
+threshold works correctly (single-line entries produce enormous
+files that never trigger archiving).
+
 ## Entry Schema
 
 | Field | Required | Description |
@@ -73,7 +80,7 @@ full model.
 | ref: | Optional | Path to brain file this entry relates to (ref: `path/to/file.md`). Use the entry's `id:` frontmatter field for precise artifact linking. |
 | see: | Optional | Reference to another log entry (see: `ENT-003`) or artifact ID (see: `20260720T063325Z`). Creates cross-log connectivity. |
 | @mention | Optional | `@Ava` or `@Link` in body text for directed action requests. Informal, natural language. |
-| Body | Yes | What was done, what file was written/changed, what was discovered. |
+| Body | Yes | What was done, what file was written/changed, what was discovered. MUST be multiline -- one major point or workstream per line. Do NOT pack everything onto one line. |
 
 ## How to Write
 
