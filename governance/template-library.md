@@ -488,6 +488,6 @@ away means accepting the loss).
 ---
 
 *This template is the single source of format truth for library topics.
-The Writer reads it as a specification (`governance/library-writer3.md`
+The Writer reads it as a specification (`governance/library-writer.md`
 step 2). The Auditor uses it as an evaluation rubric. Changes to this
 file propagate to all future topics.*
