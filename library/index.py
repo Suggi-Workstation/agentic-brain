@@ -16,17 +16,10 @@ OUTPUT = os.path.join(LIBRARY_DIR, "index-library.md")
 def count_topics(domain_path):
     """Count topic files, excluding anchors and quarantine."""
     if not os.path.isdir(domain_path):
-        return 0, 0
+        return 0
     files = [f for f in os.listdir(domain_path)
              if f.endswith(".md") and not f.startswith("anchor") and "quarantine" not in f]
-    audited = 0
-    for f in files:
-        path = os.path.join(domain_path, f)
-        with open(path, "r", encoding="ascii", errors="replace") as fh:
-            content = fh.read(500)
-            if "audited: true" in content:
-                audited += 1
-    return len(files), audited
+    return len(files)
 
 def main():
     domains = sorted([
@@ -49,21 +42,20 @@ def main():
         domain_path = os.path.join(LIBRARY_DIR, domain)
         anchor_file = os.path.join(domain_path, f"anchor-{domain}.md")
         has_anchor = os.path.exists(anchor_file)
-        topics, audited = count_topics(domain_path)
+        topics = count_topics(domain_path)
         total_topics += topics
-        total_audited += audited
 
         anchor_mark = " (no anchor)" if not has_anchor else ""
-        lines.append(f"- **{domain}**: {topics} topics ({audited} audited){anchor_mark}")
+        lines.append(f"- **{domain}**: {topics} topics{anchor_mark}")
 
     lines.append("")
-    lines.append(f"**Total: {total_topics} topics across {len(domains)} domains ({total_audited} audited)**")
+    lines.append(f"**Total: {total_topics} topics across {len(domains)} domains**")
     lines.append("")
 
     with open(OUTPUT, "w", encoding="ascii") as f:
         f.write("\n".join(lines) + "\n")
 
-    print(f"Index regenerated: {total_topics} topics across {len(domains)} domains ({total_audited} audited)")
+    print(f"Index regenerated: {total_topics} topics across {len(domains)} domains")
     print(f"Written to: {OUTPUT}")
 
 if __name__ == "__main__":
