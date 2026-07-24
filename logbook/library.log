@@ -88,6 +88,12 @@ Candidates:
 - Agent Skill Systems (coding-agentic-ai, 8.9: gap=9.0 compounding=8.5 timeliness=9.0 balance=10.0).
 Domain balance: all 3 domains at 0 topics -- maximum balance score (10.0).
 
+## [ENT-010] | 2026-07-24 16:25 UTC | Ava | library | ref: library/probabilistic-thinking-forecasting/bayesian-reasoning.md | see: candidate-bayesian-reasoning
+Wrote topic Bayesian Reasoning: Updating Beliefs with Evidence to probabilistic-thinking-forecasting. Weighted score: 8.9/10.0
+(core=9.0, scope=9.0, value=9.0, authority=8.0).
+Similarity overlap: 0%. Sources: 6 (3 high, 3 medium, 0 low).
+Cross-references: 3 topics.
+
 ## [ENT-011] | 2026-07-24 18:21 UTC | Ava | library | ref: library/coding-agentic-ai/context-window-management.md | see: candidate-context-window-management
 Wrote topic Context Window Management for AI Agents to coding-agentic-ai. Weighted score: 9.2/10.0
 (core=9.5, scope=9.5, value=9.0, authority=7.0).
