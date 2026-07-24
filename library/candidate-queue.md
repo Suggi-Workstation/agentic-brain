@@ -34,14 +34,6 @@
 - **Scope:** Kahneman and Tversky's prospect theory: how people make decisions under risk, the asymmetry between gains and losses, the certainty effect, mental accounting, and the endowment effect. Why losses hurt about twice as much as equivalent gains feel good. Implications for investing, negotiation, and policy design.
 - **Status:** proposed
 
-## Candidate: US-China Great Power Competition
-- **Domain:** geopolitics
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-22
-- **Discovery score:** 8.4/10.0 (gap=8.0, compounding=7.0, timeliness=9.5, balance=10.0)
-- **Scope:** The defining geopolitical rivalry of the 21st century: technology competition (semiconductors, AI, 5G), trade wars and decoupling, military posturing in the South China Sea and Taiwan Strait, the Belt and Road vs. alliance networks, and the battle for global influence. How this competition shapes capital allocation, supply chains, and investment risk.
-- **Status:** proposed
-
 ## Candidate: Artificial Intelligence: Large Language Models and Their Trajectory
 - **Domain:** technology
 - **Proposed by:** Researcher-1
