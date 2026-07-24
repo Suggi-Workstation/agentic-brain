@@ -160,7 +160,7 @@
 - **Date:** 2026-07-24
 - **Discovery score:** 9.0/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
 - **Scope:** How the subprime mortgage market, securitization, credit default swaps, and regulatory gaps produced the worst financial crisis since the Great Depression. Covers the failure of Lehman Brothers, the AIG bailout, TARP, and the Federal Reserve's unprecedented interventions. The Dodd-Frank Act and post-crisis reforms. Lessons for risk management, systemic risk, and the limits of rational markets theory.
-- **Status:** proposed
+- **Status:** written
 
 ## Candidate: The Apple Turnaround (1997-2010): Product Strategy and Innovation
 - **Domain:** case-studies
