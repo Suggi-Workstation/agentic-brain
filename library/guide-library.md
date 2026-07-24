@@ -36,9 +36,9 @@ library/
   index.py                     # index regeneration script (R11: derive live)
   candidate-queue.md           # topics proposed by the discoverer
   <domain>/                    # one folder per knowledge domain
-    anchor-<domain>.md          # domain anchor (with adjacent domain paths)
+    anchor-<domain>.md         # domain anchor (with adjacent domain paths)
     <topic-slug>.md            # individual topic files
-    quarantine/                 # topics rejected by the auditor
+    quarantine/                # topics rejected by the auditor
 ```
 
 Currently 28 domains: accounting-financial-shenanigans, anthropology,
