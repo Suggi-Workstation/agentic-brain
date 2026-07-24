@@ -124,7 +124,12 @@ with the candidate topic. Estimate overlap percentage:
 
 Run `date -u +'%Y%m%dT%H%M%SZ'` and capture the output:
 
-bash `date -u +'%Y%m%dT%H%M%SZ'`
+```bash
+date -u +'%Y%m%dT%H%M%SZ'
+```
+
+Paste the exact output into the `id:` field in the frontmatter.
+Never type the ID digits by hand. The exec output is authoritative.
 
 ### 8. Write the topic file
 
