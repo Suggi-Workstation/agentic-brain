@@ -161,7 +161,11 @@ If any path fails, remove it from both `links:` frontmatter and
 
 ### 10. Write logbook entry
 
-Append to `/tmp/brain-writer/logbook/library.log`:
+Append to `/tmp/brain-writer/logbook/library.log`. The logbook entry
+MUST follow this exact format. Each data field MUST be on its own line.
+Do NOT pack multiple fields onto a single line. The archiving system
+counts lines, not bytes -- single-line entries defeat line-based
+archiving.
 
 ```
 ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/<domain>/<topic-slug>.md | see: <candidate-id>
@@ -246,6 +250,7 @@ committing.
 - [ ] Written ONLY to /tmp/brain-writer/library/<domain>/ (NOT workspace, NOT any other path) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (G9) (PASS / HALT)
 - [ ] Candidate removed from candidate-queue.md (PASS / HALT)
+- [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
 
 ### 12. Commit and push
 
