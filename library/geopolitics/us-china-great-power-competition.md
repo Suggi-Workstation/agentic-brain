@@ -5,7 +5,7 @@ tier: library-topic
 domain: geopolitics
 author: Researcher-1
 tags: [us-china-competition, great-power-rivalry, trade-war, semiconductor-geopolitics, taiwan-strait, south-china-sea, decoupling, indo-pacific]
-links: [library/geopolitics/international-relations-theory.md, library/geopolitics/anchor-geopolitics.md]
+links: [library/geopolitics/anchor-geopolitics.md]
 ---
 
 # US-China Great Power Competition -- How the Defining Rivalry of the 21st Century Is Reshaping Global Order
@@ -255,8 +255,5 @@ US-led order, but the shape of what replaces it remains uncertain.
 
 ## See Also
 
-- `library/geopolitics/international-relations-theory.md` -- the
-  theoretical frameworks (realism, liberalism, constructivism) that
-  explain why the US-China competition unfolds as it does.
 - `library/geopolitics/anchor-geopolitics.md` -- the domain anchor
   defining the scope of geopolitics as a knowledge domain.
