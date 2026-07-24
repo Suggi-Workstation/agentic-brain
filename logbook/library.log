@@ -107,3 +107,9 @@ Wrote topic Agent Skill Systems to coding-agentic-ai. Weighted score: 9.0/10.0
 (core=9.5, scope=9.0, value=9.0, authority=7.0).
 Similarity overlap: 0%. Sources: 5 (1 high, 3 medium, 1 low).
 Cross-references: 3 topics.
+
+## [ENT-014] | 2026-07-24 18:37 UTC | Ava | library | ref: library/finance/financial-statement-analysis.md | see: candidate-financial-statement-analysis
+Wrote topic Financial Statement Analysis to finance. Weighted score: 9.4/10.0
+(core=9.5, scope=9.5, value=9.5, authority=8.0).
+Similarity overlap: 0%. Sources: 8 (6 high, 2 medium, 0 low).
+Cross-references: 3 topics.

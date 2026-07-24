@@ -42,14 +42,6 @@
 - **Scope:** How large language models work at a conceptual level (transformer architecture, training, scaling laws), their current capabilities and limitations, and the trajectory of AI development. Covers emergent abilities, alignment challenges, and the economic implications of increasingly capable AI systems. Focus on the technology itself, not its regulatory or ethical dimensions.
 - **Status:** proposed
 
-## Candidate: Financial Statement Analysis
-- **Domain:** finance
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-22
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.0, timeliness=6.0, balance=10.0)
-- **Scope:** The core toolkit for analyzing financial statements: balance sheet, income statement, and cash flow statement. Key ratios (ROE, ROIC, debt/equity, current ratio, operating margins), how they interconnect, and what they reveal about business quality. Links between accounting data and economic reality. Foundation for all investment analysis.
-- **Status:** proposed
-
 ## Candidate: Revenue Recognition Shenanigans: How Companies Inflate the Top Line
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Researcher-1
