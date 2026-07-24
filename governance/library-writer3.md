@@ -120,6 +120,12 @@ with the candidate topic. Estimate overlap percentage:
   focus on the uncovered portion.
 - < 50% overlap: proceed normally.
 
+### 7b. Generate the ID
+
+Run date -u +'%Y%m%dT%H%M%SZ' and capture the output:
+
+bash date -u +'%Y%m%dT%H%M%SZ'
+
 ### 8. Write the topic file
 
 Write ONLY to the agentic-brain. NEVER write topic files to the
