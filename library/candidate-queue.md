@@ -153,3 +153,75 @@
 - **Discovery score:** 7.7/10.0 (gap=8.0, compounding=6.0, timeliness=7.5, balance=10.0)
 - **Scope:** The shift from owning servers to renting compute: IaaS, PaaS, and SaaS models, the economics of scale that make AWS/Azure/GCP possible, and the architectural patterns (microservices, containers, serverless) that cloud enables. Why cloud computing changed the software industry's cost structure and barriers to entry, and the emerging concerns around vendor lock-in, data sovereignty, and repatriation.
 - **Status:** proposed
+
+## Candidate: The Enron Scandal: Corporate Governance Failure and Lessons for Investors
+- **Domain:** case-studies
+- **Proposed by:** Link
+- **Date:** 2026-07-24
+- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
+- **Scope:** The Enron scandal (2001) as a case study in systemic corporate fraud: how mark-to-market accounting, special purpose entities, and a toxic performance culture enabled one of history's largest bankruptcies. The role of Arthur Andersen, the failure of regulatory oversight, and the durable lessons for investors about red flags in financial statements, executive compensation, and auditor independence. Connects to accounting-financial-shenanigans domain.
+- **Status:** proposed
+
+## Candidate: The 2008 Financial Crisis: Causes, Contagion, and Policy Response
+- **Domain:** case-studies
+- **Proposed by:** Link
+- **Date:** 2026-07-24
+- **Discovery score:** 9.0/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** How the subprime mortgage market, securitization, credit default swaps, and regulatory gaps produced the worst financial crisis since the Great Depression. Covers the failure of Lehman Brothers, the AIG bailout, TARP, and the Federal Reserve's unprecedented interventions. The Dodd-Frank Act and post-crisis reforms. Lessons for risk management, systemic risk, and the limits of rational markets theory.
+- **Status:** proposed
+
+## Candidate: The Apple Turnaround (1997-2010): Product Strategy and Innovation
+- **Domain:** case-studies
+- **Proposed by:** Link
+- **Date:** 2026-07-24
+- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=10.0)
+- **Scope:** Apple's near-bankruptcy in 1997 and its transformation into the world's most valuable company: Steve Jobs's return, the product-line simplification, the iMac revival, the iPod/iTunes ecosystem, the iPhone's category creation, and the retail store strategy. How design thinking, supply chain mastery, and ecosystem lock-in created an economic moat. Lessons for turnarounds, innovation strategy, and brand-building.
+- **Status:** proposed
+
+## Candidate: Discounted Cash Flow (DCF) Valuation: Methodology and Critical Assumptions
+- **Domain:** valuation-screening
+- **Proposed by:** Link
+- **Date:** 2026-07-24
+- **Discovery score:** 9.2/10.0 (gap=9.5, compounding=9.0, timeliness=7.0, balance=10.0)
+- **Scope:** The foundational valuation method: projecting free cash flows, estimating terminal value (perpetuity growth vs exit multiple), and discounting at the weighted average cost of capital. Critical assumptions: growth rates, margin projections, capex requirements, and the cost of capital. Why small changes in terminal growth rate or discount rate produce large valuation swings. Common errors and how to stress-test a DCF with sensitivity analysis.
+- **Status:** proposed
+
+## Candidate: Valuation Multiples: P/E, EV/EBITDA, P/B Analysis and When Each Fails
+- **Domain:** valuation-screening
+- **Proposed by:** Link
+- **Date:** 2026-07-24
+- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0)
+- **Scope:** The most commonly used valuation multiples: price-to-earnings (P/E), enterprise value-to-EBITDA (EV/EBITDA), price-to-book (P/B), and price-to-sales (P/S). When each multiple is appropriate and when it is misleading: cyclical earnings, capital structure differences, intangible-heavy businesses, and growth rate distortions. How to select comparable companies and adjust for differences. The Shiller CAPE ratio and cyclically adjusted valuation.
+- **Status:** proposed
+
+## Candidate: The Graham Number and Quantitative Value Screens
+- **Domain:** valuation-screening
+- **Proposed by:** Link
+- **Date:** 2026-07-24
+- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.5, timeliness=6.5, balance=10.0)
+- **Scope:** Benjamin Graham's quantitative screening methodology: the Graham Number (sqrt(22.5 x EPS x BVPS)), net-net working capital screens, and the defensive investor criteria. How modern value screens (low P/E, low P/B, high dividend yield) extend Graham's approach. The academic evidence on value factor performance (Fama-French), the value premium's persistence, and why mechanical screens produce false positives that require qualitative analysis.
+- **Status:** proposed
+
+## Candidate: Context Window Management and Context Engineering for AI Agents
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Link
+- **Date:** 2026-07-24
+- **Discovery score:** 9.4/10.0 (gap=9.5, compounding=9.0, timeliness=9.5, balance=10.0)
+- **Scope:** The central engineering challenge of current AI agents: managing limited context windows. Strategies including progressive disclosure (load only what's needed), tiered memory (hot/warm/cold), context compression and summarization, structured prompt partitioning, and automatic cache-aware prompt design. How context engineering decisions affect agent reliability, token costs, and response quality. Covers the trade-off between context breadth and instruction fidelity.
+- **Status:** proposed
+
+## Candidate: Multi-Agent Orchestration Patterns: Delegation, Pipelining, and Routing
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Link
+- **Date:** 2026-07-24
+- **Discovery score:** 9.1/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
+- **Scope:** Architectural patterns for coordinating multiple AI agents: hierarchical delegation (orchestrator spawns worker agents), sequential pipelining (writer → reviewer → publisher), parallel fan-out (one task dispatched to N specialized agents), role-based routing (agents with distinct system prompts handling different task types), and blackboard architectures. When each pattern is appropriate, failure modes (agent hallucination propagation, context pollution), and how to implement handoff protocols between agents.
+- **Status:** proposed
+
+## Candidate: Agent Skill Systems: Reusable Procedural Memory and Self-Improving Agents
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Link
+- **Date:** 2026-07-24
+- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
+- **Scope:** How AI agents persist procedural knowledge across sessions: skill/plugin architectures, templated workflows, retrieval-augmented generation for skills, and self-improving loops where agents create, refine, and deprecate their own skill libraries. Covers skill discovery (detecting gaps in existing skills), skill composition (chaining multiple skills), and the curation lifecycle (evaluation, pruning, merging). The trade-off between skill specificity and reusability.
+- **Status:** proposed

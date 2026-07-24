@@ -78,3 +78,18 @@ Candidates:
 - Cybersecurity: Principles, Threats, and Defense in Depth (8.2): gap=8.5, compounding=6.5, timeliness=8.5, balance=10.0
 - Cloud Computing: Architecture, Economics, and the End of On-Premise (7.7): gap=8.0, compounding=6.0, timeliness=7.5, balance=10.0
 Domain balance: 6 domains at 0 topics each, all 5 major categories represented (investing: accounting-financial-shenanigans; human/social: ethics-philosophy, anthropology; thinking: probabilistic-thinking-forecasting; global: earth-climate; other: technology).
+
+## [ENT-009] | 2026-07-24 11:15 UTC | Link | library | ref: library/candidate-queue.md
+Discovery cycle: 3 domains scanned, 9 candidates proposed.
+Domains: case-studies (0 topics), valuation-screening (0 topics), coding-agentic-ai (0 topics).
+Candidates:
+- The Enron Scandal (case-studies, 8.8: gap=9.0 compounding=8.0 timeliness=7.5 balance=10.0).
+- The 2008 Financial Crisis (case-studies, 9.0: gap=9.5 compounding=8.5 timeliness=8.0 balance=10.0).
+- The Apple Turnaround 1997-2010 (case-studies, 8.3: gap=8.5 compounding=7.5 timeliness=7.0 balance=10.0).
+- DCF Valuation Methodology (valuation-screening, 9.2: gap=9.5 compounding=9.0 timeliness=7.0 balance=10.0).
+- Valuation Multiples P/E EV/EBITDA P/B (valuation-screening, 8.7: gap=9.0 compounding=8.0 timeliness=7.0 balance=10.0).
+- Graham Number and Quantitative Screens (valuation-screening, 8.1: gap=8.5 compounding=7.5 timeliness=6.5 balance=10.0).
+- Context Window Management for AI Agents (coding-agentic-ai, 9.4: gap=9.5 compounding=9.0 timeliness=9.5 balance=10.0).
+- Multi-Agent Orchestration Patterns (coding-agentic-ai, 9.1: gap=9.0 compounding=9.0 timeliness=9.0 balance=10.0).
+- Agent Skill Systems (coding-agentic-ai, 8.9: gap=9.0 compounding=8.5 timeliness=9.0 balance=10.0).
+Domain balance: all 3 domains at 0 topics -- maximum balance score (10.0).
