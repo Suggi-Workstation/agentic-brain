@@ -90,14 +90,6 @@
 - **Scope:** Philip Tetlock's Good Judgment Project and what separates superforecasters from the rest: fox vs hedgehog thinking, probabilistic precision, updating frequency, Fermi estimation, and the outside view. The traits, habits, and methods that produce calibrated forecasts. Why prediction markets and forecasting tournaments outperform expert pundits, and how to apply these techniques to investing and business strategy.
 - **Status:** proposed
 
-## Candidate: The Carbon Cycle and the Greenhouse Effect
-- **Domain:** earth-climate
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=7.0, timeliness=8.0, balance=10.0)
-- **Scope:** How carbon moves through Earth's systems: the atmosphere, oceans, biosphere, and lithosphere. The greenhouse effect as a physical mechanism, the role of CO2 and other greenhouse gases, and how human activity (fossil fuel combustion, deforestation, agriculture) has disrupted the carbon cycle. The evidence from ice cores, atmospheric measurements, and climate models. Foundation for understanding climate change science.
-- **Status:** proposed
-
 ## Candidate: Plate Tectonics: How Earth's Crust Shapes the Planet
 - **Domain:** earth-climate
 - **Proposed by:** Researcher-1
