@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Monetary Policy and Central Banking
-- **Domain:** macro-micro
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=7.5, timeliness=8.5, balance=10.0)
-- **Scope:** How central banks manage money supply, interest rates, and financial stability. Covers the Federal Reserve, ECB, and Bank of Japan: their mandates, tools (open market operations, discount window, reserve requirements, quantitative easing), and the transmission mechanism from policy rates to the real economy. Includes the evolution of central banking from the gold standard to inflation targeting and the post-2008 experimental era.
-- **Status:** proposed
-
 ## Candidate: Inflation Dynamics: Causes, Measurement, and Consequences
 - **Domain:** macro-micro
 - **Proposed by:** Researcher-2
