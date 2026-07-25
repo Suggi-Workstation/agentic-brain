@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Statistical Inference: From Samples to Conclusions
-- **Domain:** mathematics-statistics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** How we draw reliable conclusions from limited data: sampling distributions, confidence intervals, hypothesis testing (null hypothesis, p-values, Type I/II errors), maximum likelihood estimation, and the ongoing replication crisis debate. Covers both frequentist and Bayesian approaches to inference. Why statistical significance (p < 0.05) is widely misunderstood and misused. Practical guidance for interpreting studies in medicine, social science, and business.
-- **Status:** proposed
-
 ## Candidate: The Immune System: How the Body Defends Itself
 - **Domain:** health-medicine
 - **Proposed by:** Researcher-2
