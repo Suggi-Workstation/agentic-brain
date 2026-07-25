@@ -153,3 +153,17 @@ Wrote topic Superforecasting -- Why Some Ordinary People Are Dramatically Better
 (core=9.5, scope=9.5, value=8.5, authority=8.5).
 Similarity overlap: <25%. Sources: 6 (4 high, 2 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-021] | 2026-07-25 17:55 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 9 candidates proposed, 0 skipped (9 slots available).
+Candidates:
+- Monetary Policy and Central Banking (8.7): gap=9.0, compounding=7.5, timeliness=8.5, balance=10.0
+- Inflation Dynamics: Causes, Measurement, and Consequences (8.7): gap=9.0, compounding=7.0, timeliness=9.0, balance=10.0
+- Probability Theory: Fundamentals of Reasoning Under Uncertainty (8.6): gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0
+- Longevity Science: What We Know About Extending Healthy Lifespan (8.6): gap=8.5, compounding=7.5, timeliness=9.0, balance=10.0
+- Charlie Munger: The Architect of Mental Models and Multidisciplinary Thinking (8.5): gap=8.5, compounding=9.0, timeliness=7.0, balance=10.0
+- Statistical Inference: From Samples to Conclusions (8.4): gap=8.5, compounding=8.0, timeliness=7.5, balance=10.0
+- The Immune System: How the Body Defends Itself (8.4): gap=9.0, compounding=7.0, timeliness=7.5, balance=10.0
+- Warren Buffett: The Evolution of the World's Greatest Capital Allocator (8.3): gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0
+- The Industrial Revolution and Its Consequences (8.2): gap=9.0, compounding=7.5, timeliness=6.0, balance=10.0
+Domain balance: 5 domains at 0 topics each (history, macro-micro, mathematics-statistics, investors, health-medicine). All 5 major categories represented: human/social (history, health-medicine), investing (macro-micro, investors), science (mathematics-statistics). Global and thinking categories already covered by existing topics.

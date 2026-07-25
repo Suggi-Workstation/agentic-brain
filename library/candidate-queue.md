@@ -140,3 +140,75 @@
 - **Scope:** Benjamin Graham's quantitative screening methodology: the Graham Number (sqrt(22.5 x EPS x BVPS)), net-net working capital screens, and the defensive investor criteria. How modern value screens (low P/E, low P/B, high dividend yield) extend Graham's approach. The academic evidence on value factor performance (Fama-French), the value premium's persistence, and why mechanical screens produce false positives that require qualitative analysis.
 - **Status:** proposed
 
+
+## Candidate: Monetary Policy and Central Banking
+- **Domain:** macro-micro
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=7.5, timeliness=8.5, balance=10.0)
+- **Scope:** How central banks manage money supply, interest rates, and financial stability. Covers the Federal Reserve, ECB, and Bank of Japan: their mandates, tools (open market operations, discount window, reserve requirements, quantitative easing), and the transmission mechanism from policy rates to the real economy. Includes the evolution of central banking from the gold standard to inflation targeting and the post-2008 experimental era.
+- **Status:** proposed
+
+## Candidate: Inflation Dynamics: Causes, Measurement, and Consequences
+- **Domain:** macro-micro
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=7.0, timeliness=9.0, balance=10.0)
+- **Scope:** What causes inflation, how it is measured (CPI, PCE, PPI), and why it matters. Covers demand-pull vs cost-push inflation, the quantity theory of money, the Phillips curve tradeoff with unemployment, hyperinflation case studies (Weimar Germany, Zimbabwe, Venezuela), and the 2021-2023 global inflation surge. Why moderate inflation is policy goal and deflation is feared. Links to monetary policy and interest rates.
+- **Status:** proposed
+
+## Candidate: Probability Theory: Fundamentals of Reasoning Under Uncertainty
+- **Domain:** mathematics-statistics
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0)
+- **Scope:** The mathematical foundations of uncertainty: Kolmogorov's axioms, conditional probability, Bayes' theorem, independence, expectation, variance, and the law of large numbers. Covers both frequentist and Bayesian interpretations of probability and why the distinction matters. Applications in risk assessment, gambling mathematics, scientific inference, and everyday decision-making. The bridge between abstract mathematics and the applied reasoning covered in probabilistic-thinking-forecasting.
+- **Status:** proposed
+
+## Candidate: Longevity Science: What We Know About Extending Healthy Lifespan
+- **Domain:** health-medicine
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.6/10.0 (gap=8.5, compounding=7.5, timeliness=9.0, balance=10.0)
+- **Scope:** The biology of aging and evidence-based interventions to extend healthspan: caloric restriction, mTOR pathway, senolytics, NAD+ precursors, metformin, and epigenetic clocks for measuring biological age. Distinguishes rigorous science from the wellness industry hype. Covers the hallmarks of aging (Lopez-Otin 2013/2023), the difference between lifespan and healthspan, and the ethical and economic implications of radical life extension.
+- **Status:** proposed
+
+## Candidate: Charlie Munger: The Architect of Mental Models and Multidisciplinary Thinking
+- **Domain:** investors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=9.0, timeliness=7.0, balance=10.0)
+- **Scope:** Charlie Munger's intellectual biography: from lawyer to Berkshire Hathaway vice chairman, his evolution as a thinker, and his most influential ideas. Covers the latticework of mental models, the psychology of human misjudgment, inversion as a problem-solving tool, and his philosophy of "sit on your ass investing." Analysis of his major investments (See's Candies, Costco, BYD) and his greatest mistake (the 1973-74 drawdown). Munger as the bridge between value investing and multidisciplinary wisdom.
+- **Status:** proposed
+
+## Candidate: Statistical Inference: From Samples to Conclusions
+- **Domain:** mathematics-statistics
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=10.0)
+- **Scope:** How we draw reliable conclusions from limited data: sampling distributions, confidence intervals, hypothesis testing (null hypothesis, p-values, Type I/II errors), maximum likelihood estimation, and the ongoing replication crisis debate. Covers both frequentist and Bayesian approaches to inference. Why statistical significance (p < 0.05) is widely misunderstood and misused. Practical guidance for interpreting studies in medicine, social science, and business.
+- **Status:** proposed
+
+## Candidate: The Immune System: How the Body Defends Itself
+- **Domain:** health-medicine
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.0, timeliness=7.5, balance=10.0)
+- **Scope:** The innate and adaptive immune system: how the body recognizes self from non-self, the roles of B cells, T cells, antibodies, and the complement system. Covers immunological memory and vaccination, autoimmune disease mechanisms, allergies, and the emerging field of cancer immunotherapy (checkpoint inhibitors, CAR-T). The immune system as a case study in complex adaptive systems: distributed detection, amplification cascades, and the cost of dysregulation.
+- **Status:** proposed
+
+## Candidate: Warren Buffett: The Evolution of the World's Greatest Capital Allocator
+- **Domain:** investors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
+- **Scope:** Buffett's intellectual evolution from Graham-style cigar-butt investing to Munger-influenced quality compounding. Key phases: the Buffett Partnership years (1956-1969), the See's Candies epiphany (1972), the GEICO and Washington Post investments, the Coca-Cola decade, and the massive capital allocation challenges of Berkshire Hathaway today. Analysis of his greatest hits and his acknowledged mistakes (Dexter Shoe, US Air, Tesco). How his philosophy adapted as his capital base grew from millions to hundreds of billions.
+- **Status:** proposed
+
+## Candidate: The Industrial Revolution and Its Consequences
+- **Domain:** history
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.5, timeliness=6.0, balance=10.0)
+- **Scope:** The transformation from agrarian to industrial society (c.1760-1914): why it began in Britain, the role of coal, steam, and iron, the factory system and urbanization, and the second industrial revolution (steel, electricity, chemicals). Covers the economic consequences (unprecedented growth in living standards), social consequences (the working class, labor movements, the condition of England question), and global consequences (colonialism, the great divergence between rich and poor nations). The Industrial Revolution as the most consequential economic event in human history since the Neolithic agricultural revolution.
+- **Status:** proposed
