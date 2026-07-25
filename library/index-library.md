@@ -1,16 +1,16 @@
 # Library Master Index
 
-<!-- Regenerated 2026-07-25 16:46 UTC -->
+<!-- Regenerated 2026-07-25 18:11 UTC -->
 <!-- Source of truth: filesystem. This file is derived, never maintained by hand. -->
 <!-- To verify: ls library/<domain>/*.md -->
 
 - **accounting-financial-shenanigans**: 0 topics
 - **anthropology**: 0 topics
 - **books**: 0 topics
-- **case-studies**: 1 topics
+- **case-studies**: 2 topics
 - **coding-agentic-ai**: 3 topics
 - **communication**: 0 topics
-- **earth-climate**: 0 topics
+- **earth-climate**: 1 topics
 - **education-learning**: 0 topics
 - **ethics-philosophy**: 0 topics
 - **finance**: 1 topics
@@ -25,13 +25,13 @@
 - **notable-people**: 0 topics
 - **pop-culture**: 0 topics
 - **portfolio-risk-management**: 0 topics
-- **probabilistic-thinking-forecasting**: 1 topics
+- **probabilistic-thinking-forecasting**: 2 topics
 - **psychology-behavior**: 1 topics
 - **science**: 1 topics
 - **self-improvement**: 0 topics
 - **technology**: 0 topics
-- **valuation-screening**: 1 topics
+- **valuation-screening**: 2 topics
 - **value-investing**: 2 topics
 
-**Total: 12 topics across 28 domains**
+**Total: 16 topics across 28 domains**
 
