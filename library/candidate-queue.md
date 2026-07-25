@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Inflation Dynamics: Causes, Measurement, and Consequences
-- **Domain:** macro-micro
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=7.0, timeliness=9.0, balance=10.0)
-- **Scope:** What causes inflation, how it is measured (CPI, PCE, PPI), and why it matters. Covers demand-pull vs cost-push inflation, the quantity theory of money, the Phillips curve tradeoff with unemployment, hyperinflation case studies (Weimar Germany, Zimbabwe, Venezuela), and the 2021-2023 global inflation surge. Why moderate inflation is policy goal and deflation is feared. Links to monetary policy and interest rates.
-- **Status:** proposed
-
 ## Candidate: Probability Theory: Fundamentals of Reasoning Under Uncertainty
 - **Domain:** mathematics-statistics
 - **Proposed by:** Researcher-2
