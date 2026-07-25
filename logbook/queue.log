@@ -352,3 +352,14 @@ Session: library skill-template v3 restructure converged with Link (ENT-030).
 - Files renamed to replace old originals.
 Reflection: adaptation-preservation-bias.md (20260724T111824Z).
 Daily memory: 2026-07-24.md.
+
+## [ENT-032] | 2026-07-25 18:04 UTC | Ava | general | ref: reflections/2026-07-25_ava_cron-agent-scoping-as-workspace-isolation.md
+Session: Library pipeline cron architecture, workspace isolation, queue cap, first cycle.
+Workstreams:
+- Cron architecture: documented agent scoping in TOOLS.md + MEMORY.md. Discovered 3 crons, disabled all, removed auditor.
+- Skills: synced library-writer, library-discoverer (queue cap 25), library-auditor across all sub-agent workspaces.
+- Workspace cleanup: removed SOUL/IDENTITY/HEARTBEAT/USER from researcher-1 (now lean: AGENTS.md + TOOLS.md + README.md).
+- Pipeline config: writer every 15m, discoverer :55 every 2h (odd hours). Skills copied to researcher-2.
+- First cycle: writer 4 topics (Carbon Cycle, Enron, Valuation Multiples, Superforecasting). Discoverer 9 candidates, hit 25 cap.
+- Brain index: rebuilt (1152 chunks from 176 files).
+Reflection: 2026-07-25_ava_cron-agent-scoping-as-workspace-isolation.md. Daily memory: 2026-07-25.md.
