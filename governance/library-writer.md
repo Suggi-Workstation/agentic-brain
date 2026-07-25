@@ -72,7 +72,7 @@ candidate ID, title, domain, and proposed scope.
 
 ### 3a. Remove the candidate from the queue
 
-Remove the processed candidate entry from
+Remove the selected candidate entry from
 `/tmp/brain-writer/library/candidate-queue.md`.
 
 If the queue is empty, log to `library.log` and exit.
