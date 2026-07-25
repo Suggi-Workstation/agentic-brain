@@ -203,3 +203,14 @@ Wrote topic Statistical Inference -- Why Drawing Reliable Conclusions from Limit
 (core=9.5, scope=9.5, value=8.5, authority=9.0).
 Similarity overlap: ~25% (adjacent: probability-theory-fundamentals.md covers probability foundations, frequentist vs Bayesian interpretations; statistical inference covers the practical machinery of drawing conclusions from samples). Sources: 5 (3 high, 2 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-028] | 2026-07-25 19:58 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 6 candidates proposed, 0 skipped (6 slots available, queue now at 25/25 capacity).
+Candidates:
+- Thinking, Fast and Slow by Daniel Kahneman -- A Summary (8.8): gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0
+- The Kelly Criterion and Optimal Position Sizing (8.6): gap=9.5, compounding=8.0, timeliness=6.5, balance=10.0
+- The Intelligent Investor by Benjamin Graham -- A Summary (8.6): gap=9.5, compounding=8.0, timeliness=6.5, balance=10.0
+- Evolution by Natural Selection (8.4): gap=9.5, compounding=8.5, timeliness=6.5, balance=8.0
+- Nuclear Deterrence and the Logic of Mutually Assured Destruction (8.4): gap=9.5, compounding=7.0, timeliness=8.0, balance=8.0
+- Black Swan Theory and Fat-Tailed Distributions (7.8): gap=8.5, compounding=8.0, timeliness=7.5, balance=6.0
+Domain balance: books (0 topics) to probabilistic-thinking-forecasting (2 topics) within cycle; accounting-financial-shenanigans (0) to coding-agentic-ai (3) across all 28 domains. All 5 major categories represented: investing (portfolio-risk-management), science (science), human/social (books), global (geopolitics), thinking (probabilistic-thinking-forecasting).

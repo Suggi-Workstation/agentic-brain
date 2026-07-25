@@ -164,3 +164,52 @@
 - **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.5, timeliness=6.0, balance=10.0)
 - **Scope:** The transformation from agrarian to industrial society (c.1760-1914): why it began in Britain, the role of coal, steam, and iron, the factory system and urbanization, and the second industrial revolution (steel, electricity, chemicals). Covers the economic consequences (unprecedented growth in living standards), social consequences (the working class, labor movements, the condition of England question), and global consequences (colonialism, the great divergence between rich and poor nations). The Industrial Revolution as the most consequential economic event in human history since the Neolithic agricultural revolution.
 - **Status:** proposed
+
+
+## Candidate: Thinking, Fast and Slow by Daniel Kahneman -- A Summary
+- **Domain:** books
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.8/10.0 (gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0)
+- **Scope:** A summary of Daniel Kahneman's landmark book on the two systems of thinking: the fast, intuitive System 1 and the slow, deliberate System 2. Covers the book's core thesis about cognitive biases, prospect theory, the experiencing self vs the remembering self, and what the book contributes to our understanding of human judgment and decision-making. Assessment of the book's lasting impact on economics, psychology, and investing.
+- **Status:** proposed
+
+## Candidate: The Kelly Criterion and Optimal Position Sizing
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.6/10.0 (gap=9.5, compounding=8.0, timeliness=6.5, balance=10.0)
+- **Scope:** The mathematical framework for sizing sequential bets when odds favor the bettor: the Kelly formula, its derivation from information theory, and its application to portfolio concentration. Covers fractional Kelly strategies, the relationship between Kelly sizing and geometric mean maximization, the danger of overbetting, and why full Kelly is rarely optimal in practice due to estimation error. Bridge to value investing's concentration vs diversification debate.
+- **Status:** proposed
+
+## Candidate: The Intelligent Investor by Benjamin Graham -- A Summary
+- **Domain:** books
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.6/10.0 (gap=9.5, compounding=8.0, timeliness=6.5, balance=10.0)
+- **Scope:** A summary of Benjamin Graham's foundational text that defined value investing as a discipline. Covers the book's core concepts: Mr. Market as an allegory for market volatility, margin of safety as the central principle of investing, the distinction between investment and speculation, and the defensive vs enterprising investor frameworks. Assessment of what has aged well, what has not, and why Buffett called it the best book on investing ever written.
+- **Status:** proposed
+
+## Candidate: Evolution by Natural Selection
+- **Domain:** science
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.4/10.0 (gap=9.5, compounding=8.5, timeliness=6.5, balance=8.0)
+- **Scope:** Darwin's mechanism and the modern synthesis: how random variation plus non-random selection produces complex adaptation without design. Covers the evidence from comparative anatomy, the fossil record, biogeography, and molecular genetics, plus common misconceptions (evolution is not "just a theory," not goal-directed, not "survival of the fittest" in the popular sense). Extensions: kin selection, sexual selection, punctuated equilibrium, and the gene's-eye view.
+- **Status:** proposed
+
+## Candidate: Nuclear Deterrence and the Logic of Mutually Assured Destruction
+- **Domain:** geopolitics
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 8.4/10.0 (gap=9.5, compounding=7.0, timeliness=8.0, balance=8.0)
+- **Scope:** How nuclear weapons created an unprecedented strategic logic: the theory of deterrence, first-strike vs second-strike capability, the nuclear triad, and why MAD produced the "long peace" between superpowers despite intense hostility. Covers the history from Hiroshima to the Cuban Missile Crisis, arms control treaties (NPT, SALT, START, INF), and contemporary proliferation challenges with North Korea, Iran, and the erosion of arms control architecture. Why nuclear deterrence is stable but fragile.
+- **Status:** proposed
+
+## Candidate: Black Swan Theory and Fat-Tailed Distributions
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-25
+- **Discovery score:** 7.8/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=6.0)
+- **Scope:** Nassim Taleb's framework for understanding rare, high-impact events that fall outside the scope of normal expectations. Covers the distinction between Mediocristan (thin-tailed, predictable domains) and Extremistan (fat-tailed domains where a single observation can dominate the sample), the ludic fallacy, the problem of induction, and why Gaussian statistics fail catastrophically in fat-tailed domains. Practical implications: the barbell strategy, antifragility, and why prediction is impossible for Black Swan events but preparation is not.
+- **Status:** proposed
