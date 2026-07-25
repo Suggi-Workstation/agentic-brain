@@ -174,38 +174,6 @@ reason and explain why this re-proposal is different.
 Verify every item below. Each maps to the library guide rules. HALT on
 any failure; fix before committing.
 
-### Discovery Scoring
-
-- [ ] Each candidate scored across all four dimensions (PASS / HALT)
-- [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
-- [ ] Weighted score calculated correctly: (gap*0.40 + compounding*0.25 + timeliness*0.20 + balance*0.15) (PASS / HALT)
-- [ ] Gap assessment verified against existing topics (no false gaps) (PASS / HALT)
-- [ ] Domain balance score derived from topic count survey in step 2 (PASS / HALT)
-- [ ] No candidate proposed for a domain without an anchor file (PASS / HALT)
-
-### Domain Balance
-
-- [ ] Topic count survey completed before selecting domains (PASS / HALT)
-- [ ] Underrepresented domains prioritized in domain selection (PASS / HALT)
-- [ ] At least one domain from each major category included (PASS / HALT)
-- [ ] Balance dimension score reflects actual topic counts, not assumed (PASS / HALT)
-
-### Queue
-
-- [ ] Candidate queue format matches the specification (PASS / HALT)
-- [ ] No duplicate candidates in the queue (checked by title and scope) (PASS / HALT)
-- [ ] Each candidate has domain, score (all 4 dims), scope, and status fields (PASS / HALT)
-- [ ] Candidate queue created with header if it did not exist (PASS / HALT)
-- [ ] Blank line separates new candidates from existing queue entries when appending (PASS / HALT)
-- [ ] Queue capacity: total proposed entries in queue <= 25 after this cycle (PASS / HALT)
-
-### File Output
-
-- [ ] Candidate appended ONLY to library/candidate-queue.md (PASS / HALT)
-- [ ] No topic files created (discoverer proposes, does not write) (PASS / HALT)
-- [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
-- [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
-
 ### 11. Write logbook entry
 
 Append to `/tmp/brain-discover/logbook/library.log`. The logbook
@@ -240,6 +208,38 @@ push rejected, file write error, or any crash), append to
 Only write to errors.log if something actually failed. Successful
 discovery cycles go to library.log. Errors.log is for unexpected
 failures only.
+
+### Discovery Scoring
+
+- [ ] Each candidate scored across all four dimensions (PASS / HALT)
+- [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
+- [ ] Weighted score calculated correctly: (gap*0.40 + compounding*0.25 + timeliness*0.20 + balance*0.15) (PASS / HALT)
+- [ ] Gap assessment verified against existing topics (no false gaps) (PASS / HALT)
+- [ ] Domain balance score derived from topic count survey in step 2 (PASS / HALT)
+- [ ] No candidate proposed for a domain without an anchor file (PASS / HALT)
+
+### Domain Balance
+
+- [ ] Topic count survey completed before selecting domains (PASS / HALT)
+- [ ] Underrepresented domains prioritized in domain selection (PASS / HALT)
+- [ ] At least one domain from each major category included (PASS / HALT)
+- [ ] Balance dimension score reflects actual topic counts, not assumed (PASS / HALT)
+
+### Queue
+
+- [ ] Candidate queue format matches the specification (PASS / HALT)
+- [ ] No duplicate candidates in the queue (checked by title and scope) (PASS / HALT)
+- [ ] Each candidate has domain, score (all 4 dims), scope, and status fields (PASS / HALT)
+- [ ] Candidate queue created with header if it did not exist (PASS / HALT)
+- [ ] Blank line separates new candidates from existing queue entries when appending (PASS / HALT)
+- [ ] Queue capacity: total proposed entries in queue <= 25 after this cycle (PASS / HALT)
+
+### File Output
+
+- [ ] Candidate appended ONLY to library/candidate-queue.md (PASS / HALT)
+- [ ] No topic files created (discoverer proposes, does not write) (PASS / HALT)
+- [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
+- [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
 
 ### 12. Commit and push
 
