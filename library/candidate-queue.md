@@ -205,3 +205,4 @@
 - **Discovery score:** 7.8/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=6.0)
 - **Scope:** Nassim Taleb's framework for understanding rare, high-impact events that fall outside the scope of normal expectations. Covers the distinction between Mediocristan (thin-tailed, predictable domains) and Extremistan (fat-tailed domains where a single observation can dominate the sample), the ludic fallacy, the problem of induction, and why Gaussian statistics fail catastrophically in fat-tailed domains. Practical implications: the barbell strategy, antifragility, and why prediction is impossible for Black Swan events but preparation is not.
 - **Status:** proposed
+# test comment
