@@ -34,10 +34,11 @@ Skip for:
 
 Confirm ALL verification sections passed before committing.
 
-- [ ] Procedure completed (clone, select domains, scan anchors, identify gaps, score all 4 dimensions, propose, check duplicates, verify, commit, push, discard) (PASS / HALT)
+- [ ] Procedure completed (clone, select domains, scan anchors, identify gaps, score all 4 dimensions, check capacity, propose, check duplicates, verify, commit, push, discard) (PASS / HALT)
 - [ ] Discovery Scoring verification: all 4 dimensions scored, weighted sum calculated (PASS / HALT)
 - [ ] Domain Balance: underrepresented domains prioritized (PASS / HALT)
 - [ ] Queue verification: candidates appended, no duplicates created (PASS / HALT)
+- [ ] Queue capacity: total proposed entries in queue does not exceed 25 after cycle (PASS / HALT)
 - [ ] File Output verification: all items confirmed PASS (PASS / HALT)
 - [ ] Logbook entry written to library.log (PASS / HALT)
 
@@ -122,13 +123,28 @@ Domain balance scoring: assign 10 to the domain with the fewest topics
 in this cycle, scale others proportionally. A domain with 0 topics =
 balance 10. A domain with 50 topics next to one with 0 = balance 1-2.
 
-No minimum threshold for discovery -- all scored candidates are
-proposed. The writer applies its own >= 7.0 threshold.
+No minimum threshold for discovery -- score all candidates. The
+writer applies its own >= 7.0 threshold. The queue itself is capped
+at 25 proposed entries (see step 8).
 
-### 8. Propose candidates to the queue
+### 8. Check queue capacity
 
-Append each candidate to `/tmp/brain-discover/library/candidate-queue.md`
-using this format. If the queue already has entries, add a blank line
+Read `/tmp/brain-discover/library/candidate-queue.md`. Count every
+entry with `Status: proposed`. Calculate available slots:
+`available = 25 - proposed_count`.
+
+- If available <= 0: log to library.log "Queue at capacity (25)."
+  Note the candidates that would have been proposed (titles and
+  scores) in the logbook entry. Skip to step 11 (logbook).
+- If available < number of scored candidates: sort by discovery
+  score descending, take only the top `available`. The rest are
+  dropped -- they may re-surface in future cycles.
+- If available >= number of scored candidates: proceed normally.
+
+### 9. Propose candidates to the queue
+
+Propose up to `available` top-scored candidates. Append each to
+`/tmp/brain-discover/library/candidate-queue.md` using this format. If the queue already has entries, add a blank line
 before the first `## Candidate:` block to separate the new candidates
 from existing entries.
 
@@ -146,7 +162,7 @@ from existing entries.
 If `candidate-queue.md` does not exist, create it with a header:
 `# Library Candidate Queue -- topics proposed for the writing process`.
 
-### 9. Check for duplicates in queue
+### 10. Check for duplicates in queue
 
 Before appending, scan existing queue entries. If a candidate with
 similar title or scope already exists and is still `proposed`, skip it.
@@ -181,15 +197,16 @@ any failure; fix before committing.
 - [ ] Each candidate has domain, score (all 4 dims), scope, and status fields (PASS / HALT)
 - [ ] Candidate queue created with header if it did not exist (PASS / HALT)
 - [ ] Blank line separates new candidates from existing queue entries when appending (PASS / HALT)
+- [ ] Queue capacity: total proposed entries in queue <= 25 after this cycle (PASS / HALT)
 
 ### File Output
 
 - [ ] Candidate appended ONLY to library/candidate-queue.md (PASS / HALT)
 - [ ] No topic files created (discoverer proposes, does not write) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
-- [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 10 example exactly (PASS / HALT)
+- [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
 
-### 10. Write logbook entry
+### 11. Write logbook entry
 
 Append to `/tmp/brain-discover/logbook/library.log`. The logbook
 entry MUST follow this exact format. Each data field MUST be on its
@@ -200,7 +217,7 @@ line-based archiving.
 
 ```
 ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/candidate-queue.md
-Discovery cycle: N domains scanned, M candidates proposed.
+Discovery cycle: N domains scanned, M candidates proposed, K skipped (queue capped at 25).
 Candidates:
 - <title> (X.X): gap=X.X, compounding=X.X, timeliness=X.X, balance=X.X
 - <title> (X.X): gap=X.X, compounding=X.X, timeliness=X.X, balance=X.X
@@ -209,7 +226,7 @@ Domain balance: <least-covered> (N topics) to <most-covered> (N topics).
 
 Increment ENT counter from the last entry in library.log.
 
-### 10a. Log errors (if any)
+### 11a. Log errors (if any)
 
 If any step failed or produced unexpected results (clone failed,
 push rejected, file write error, or any crash), append to
@@ -224,7 +241,7 @@ Only write to errors.log if something actually failed. Successful
 discovery cycles go to library.log. Errors.log is for unexpected
 failures only.
 
-### 11. Commit and push
+### 12. Commit and push
 
 ```bash
 cd /tmp/brain-discover
@@ -237,7 +254,7 @@ git push origin main
 
 If the push fails, pull first, resolve, then push.
 
-### 12. Discard the clone
+### 13. Discard the clone
 
 ```bash
 cd /tmp && rm -rf brain-discover
