@@ -82,14 +82,6 @@
 - **Scope:** What does it mean to know something? The classical definition (justified true belief), Gettier problems, foundationalism vs coherentism, internalism vs externalism, and the problem of skepticism. How epistemology connects to the scientific method, Bayesian reasoning, and the challenge of distinguishing reliable knowledge from misinformation in the digital age.
 - **Status:** proposed
 
-## Candidate: Superforecasting: The Art and Science of Predicting the Future
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=7.5, timeliness=8.0, balance=10.0)
-- **Scope:** Philip Tetlock's Good Judgment Project and what separates superforecasters from the rest: fox vs hedgehog thinking, probabilistic precision, updating frequency, Fermi estimation, and the outside view. The traits, habits, and methods that produce calibrated forecasts. Why prediction markets and forecasting tournaments outperform expert pundits, and how to apply these techniques to investing and business strategy.
-- **Status:** proposed
-
 ## Candidate: Plate Tectonics: How Earth's Crust Shapes the Planet
 - **Domain:** earth-climate
 - **Proposed by:** Researcher-1
