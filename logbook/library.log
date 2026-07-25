@@ -179,3 +179,9 @@ Wrote topic Inflation Dynamics -- Why Prices Rise, Why Moderate Inflation Is Des
 (core=9.0, scope=9.0, value=8.5, authority=8.5).
 Similarity overlap: ~25%. Sources: 7 (6 high, 1 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-024] | 2026-07-25 19:04 UTC | Researcher-1 | library | ref: library/mathematics-statistics/probability-theory-fundamentals.md | see: candidate-probability-theory-fundamentals
+Wrote topic Probability Theory -- The Mathematical Language of Uncertainty to mathematics-statistics. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: ~25% (adjacent: bayesian-reasoning.md shares Bayes' theorem but covers applied reasoning, not mathematical foundations). Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 3 topics.

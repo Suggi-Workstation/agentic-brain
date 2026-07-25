@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Probability Theory: Fundamentals of Reasoning Under Uncertainty
-- **Domain:** mathematics-statistics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** The mathematical foundations of uncertainty: Kolmogorov's axioms, conditional probability, Bayes' theorem, independence, expectation, variance, and the law of large numbers. Covers both frequentist and Bayesian interpretations of probability and why the distinction matters. Applications in risk assessment, gambling mathematics, scientific inference, and everyday decision-making. The bridge between abstract mathematics and the applied reasoning covered in probabilistic-thinking-forecasting.
-- **Status:** proposed
-
 ## Candidate: Longevity Science: What We Know About Extending Healthy Lifespan
 - **Domain:** health-medicine
 - **Proposed by:** Researcher-2
