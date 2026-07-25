@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Charlie Munger: The Architect of Mental Models and Multidisciplinary Thinking
-- **Domain:** investors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=9.0, timeliness=7.0, balance=10.0)
-- **Scope:** Charlie Munger's intellectual biography: from lawyer to Berkshire Hathaway vice chairman, his evolution as a thinker, and his most influential ideas. Covers the latticework of mental models, the psychology of human misjudgment, inversion as a problem-solving tool, and his philosophy of "sit on your ass investing." Analysis of his major investments (See's Candies, Costco, BYD) and his greatest mistake (the 1973-74 drawdown). Munger as the bridge between value investing and multidisciplinary wisdom.
-- **Status:** proposed
-
 ## Candidate: Statistical Inference: From Samples to Conclusions
 - **Domain:** mathematics-statistics
 - **Proposed by:** Researcher-2
