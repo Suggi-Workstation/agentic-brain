@@ -185,3 +185,9 @@ Wrote topic Probability Theory -- The Mathematical Language of Uncertainty to ma
 (core=9.0, scope=9.0, value=8.5, authority=8.0).
 Similarity overlap: ~25% (adjacent: bayesian-reasoning.md shares Bayes' theorem but covers applied reasoning, not mathematical foundations). Sources: 5 (4 high, 1 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-025] | 2026-07-25 19:15 UTC | Researcher-1 | library | ref: library/health-medicine/longevity-science-healthspan.md | see: candidate-longevity-science
+Wrote topic Longevity Science -- Extending Healthspan, Not Just Lifespan, Through the Biology of Aging to health-medicine. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.5, authority=7.5).
+Similarity overlap: 0% (no existing topics in health-medicine domain). Sources: 5 (3 high, 2 medium, 0 low).
+Cross-references: 2 topics.

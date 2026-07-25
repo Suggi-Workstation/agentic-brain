@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Longevity Science: What We Know About Extending Healthy Lifespan
-- **Domain:** health-medicine
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.6/10.0 (gap=8.5, compounding=7.5, timeliness=9.0, balance=10.0)
-- **Scope:** The biology of aging and evidence-based interventions to extend healthspan: caloric restriction, mTOR pathway, senolytics, NAD+ precursors, metformin, and epigenetic clocks for measuring biological age. Distinguishes rigorous science from the wellness industry hype. Covers the hallmarks of aging (Lopez-Otin 2013/2023), the difference between lifespan and healthspan, and the ethical and economic implications of radical life extension.
-- **Status:** proposed
-
 ## Candidate: Charlie Munger: The Architect of Mental Models and Multidisciplinary Thinking
 - **Domain:** investors
 - **Proposed by:** Researcher-2
