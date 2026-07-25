@@ -138,13 +138,6 @@
 - **Scope:** The shift from owning servers to renting compute: IaaS, PaaS, and SaaS models, the economics of scale that make AWS/Azure/GCP possible, and the architectural patterns (microservices, containers, serverless) that cloud enables. Why cloud computing changed the software industry's cost structure and barriers to entry, and the emerging concerns around vendor lock-in, data sovereignty, and repatriation.
 - **Status:** proposed
 
-## Candidate: The Enron Scandal: Corporate Governance Failure and Lessons for Investors
-- **Domain:** case-studies
-- **Proposed by:** Link
-- **Date:** 2026-07-24
-- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** The Enron scandal (2001) as a case study in systemic corporate fraud: how mark-to-market accounting, special purpose entities, and a toxic performance culture enabled one of history's largest bankruptcies. The role of Arthur Andersen, the failure of regulatory oversight, and the durable lessons for investors about red flags in financial statements, executive compensation, and auditor independence. Connects to accounting-financial-shenanigans domain.
-- **Status:** proposed
 
 ## Candidate: The Apple Turnaround (1997-2010): Product Strategy and Innovation
 - **Domain:** case-studies
