@@ -166,14 +166,6 @@
 - **Status:** proposed
 
 
-## Candidate: Thinking, Fast and Slow by Daniel Kahneman -- A Summary
-- **Domain:** books
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.8/10.0 (gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** A summary of Daniel Kahneman's landmark book on the two systems of thinking: the fast, intuitive System 1 and the slow, deliberate System 2. Covers the book's core thesis about cognitive biases, prospect theory, the experiencing self vs the remembering self, and what the book contributes to our understanding of human judgment and decision-making. Assessment of the book's lasting impact on economics, psychology, and investing.
-- **Status:** proposed
-
 ## Candidate: The Kelly Criterion and Optimal Position Sizing
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Researcher-2
