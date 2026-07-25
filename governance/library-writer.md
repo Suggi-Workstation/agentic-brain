@@ -70,6 +70,11 @@ Read `/tmp/brain-writer/library/candidate-queue.md`. Select the
 highest-scored unaudited candidate (by discoverer score). Note the
 candidate ID, title, domain, and proposed scope.
 
+### 3a. Remove the candidate from the queue
+
+Remove the processed candidate entry from
+`/tmp/brain-writer/library/candidate-queue.md`.
+
 If the queue is empty, log to `library.log` and exit.
 
 ### 4. Read the domain anchor
@@ -193,11 +198,6 @@ and normal pipeline outcomes (FLAG, REJECT, DUPLICATE) go to library.log.
 Errors.log is for unexpected failures: clone failed, push rejected,
 file write error, or any crash.
 
-### 11. Remove the candidate from the queue
-
-Remove the processed candidate entry from
-`/tmp/brain-writer/library/candidate-queue.md`.
-
 ## Sub-Checklists -- HARD GATE (before commit)
 
 Verify every Sub-Checklist item below. Each maps to a section of
@@ -252,7 +252,7 @@ committing.
 - [ ] Candidate removed from candidate-queue.md (PASS / HALT)
 - [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
 
-### 12. Commit and push
+### 11. Commit and push
 
 ```bash
 cd /tmp/brain-writer
@@ -265,7 +265,7 @@ git push origin main
 
 If the push fails, pull first, resolve, then push.
 
-### 13. Discard the clone
+### 12. Discard the clone
 
 ```bash
 cd /tmp && rm -rf brain-writer
