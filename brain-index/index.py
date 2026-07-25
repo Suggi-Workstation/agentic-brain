@@ -207,11 +207,16 @@ def build_index(force: bool = False):
                 if line:
                     existing_chunks.append(json.loads(line))
 
-    # Remove deleted file chunks
+    # Remove deleted/changed file chunks
+    existing_chunks_old = list(existing_chunks)  # snapshot before filter
     existing_chunks = [c for c in existing_chunks
                        if c.get("file") not in deleted_files
                        and c.get("file") not in new_files
                        and c.get("file") not in changed_files]
+    # Build keep mask for vectors (must align with chunk filter)
+    kept_ids = {c["chunk_id"] for c in existing_chunks}
+    keep_mask = np.array([c["chunk_id"] in kept_ids for c in existing_chunks_old],
+                         dtype=bool)
 
     # Process new and changed files
     new_chunks = []
@@ -267,10 +272,10 @@ def build_index(force: bool = False):
     else:
         new_vectors = np.empty((0, cfg["embedding"]["dim"]), dtype=np.float16)
 
-    # Combine with existing
+    # Combine with existing (filter old vectors to match filtered chunks)
     all_chunks = existing_chunks + new_chunks
     if existing_chunks and VECTORS_PATH.exists():
-        old_vectors = np.load(VECTORS_PATH).astype(np.float16)
+        old_vectors = np.load(VECTORS_PATH).astype(np.float16)[keep_mask]
         all_vectors = np.concatenate([old_vectors, new_vectors], axis=0)
     else:
         all_vectors = new_vectors
