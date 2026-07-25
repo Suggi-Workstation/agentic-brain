@@ -147,13 +147,6 @@
 - **Scope:** Apple's near-bankruptcy in 1997 and its transformation into the world's most valuable company: Steve Jobs's return, the product-line simplification, the iMac revival, the iPod/iTunes ecosystem, the iPhone's category creation, and the retail store strategy. How design thinking, supply chain mastery, and ecosystem lock-in created an economic moat. Lessons for turnarounds, innovation strategy, and brand-building.
 - **Status:** proposed
 
-## Candidate: Valuation Multiples: P/E, EV/EBITDA, P/B Analysis and When Each Fails
-- **Domain:** valuation-screening
-- **Proposed by:** Link
-- **Date:** 2026-07-24
-- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** The most commonly used valuation multiples: price-to-earnings (P/E), enterprise value-to-EBITDA (EV/EBITDA), price-to-book (P/B), and price-to-sales (P/S). When each multiple is appropriate and when it is misleading: cyclical earnings, capital structure differences, intangible-heavy businesses, and growth rate distortions. How to select comparable companies and adjust for differences. The Shiller CAPE ratio and cyclically adjusted valuation.
-- **Status:** proposed
 
 ## Candidate: The Graham Number and Quantitative Value Screens
 - **Domain:** valuation-screening
