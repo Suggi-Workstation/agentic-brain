@@ -1,0 +1,9 @@
+we need to build a pipeline for valueinvesting that includes something like the magic formula deplayod by joel greenblatt. 
+-> What my personla method is goes as follows. -> I usually start by pulling the whole financial data of a certain region. Lets say EU companies ~3500 companies total 
+-> Then i would sort them by growth (Operating Income/EBIT, Revenue or FCF. Depends on sector and company) 25% weight, by ROIC 25% weight, then cheapness (Enterprise Value/EBIT or MC/EBIT) 
+-> Then go the list down from the top and go 1 by 1 all the way down and identify which are indeed cheap and good. And which are cheap because they are bad. Since cheapness is weighted 50% it factors in more and alot of "junk" companies end up at the top. But some good companies are at the top too and are "out of favor" currently, therefore they are cheap too. 
+-> Then the companies that make the cut usually have or must have the following criteria: CAGR growth over last 5-10 years 10%+ (however measured. Rev growth (most basic)), at least 15% ROIC and/or 15% ROE
+-> This is the most broad selection first. Many companies will enter here. Further selection is required afterwards. Lets call this group that enter here "broad screen result.
+-> Then the "broad screen result" needs to be examid further.
+-> Some of my exclusion criteria are: too high multiple, example: P/E, P/S, P/FCF, P/EBIT etc. (They should usually end up farther down after sorting, but can also end up rather at the top if 25% weight growth and/or 25% weight ROIC overweights the 50% cheapness), too high debt, no clearly identifiable moat, no good management (prefer skin in the game)
+-> The companies that pass should go in to the watchlist, but even expensive companies that are good can go into the watchlist. I would only consider to buy if the margin of safety is 30-50%.
