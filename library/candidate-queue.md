@@ -166,14 +166,6 @@
 - **Status:** proposed
 
 
-## Candidate: The Kelly Criterion and Optimal Position Sizing
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.6/10.0 (gap=9.5, compounding=8.0, timeliness=6.5, balance=10.0)
-- **Scope:** The mathematical framework for sizing sequential bets when odds favor the bettor: the Kelly formula, its derivation from information theory, and its application to portfolio concentration. Covers fractional Kelly strategies, the relationship between Kelly sizing and geometric mean maximization, the danger of overbetting, and why full Kelly is rarely optimal in practice due to estimation error. Bridge to value investing's concentration vs diversification debate.
-- **Status:** proposed
-
 ## Candidate: The Intelligent Investor by Benjamin Graham -- A Summary
 - **Domain:** books
 - **Proposed by:** Researcher-2
