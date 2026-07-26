@@ -90,14 +90,6 @@
 - **Scope:** The unifying theory of geology: continental drift, seafloor spreading, subduction zones, and the mechanisms that drive plate movement. How plate tectonics explains earthquakes, volcanoes, mountain building, and the distribution of natural resources. The history of the theory from Wegener's continental drift to modern GPS-confirmed plate motion.
 - **Status:** proposed
 
-## Candidate: The Rise and Fall of Civilizations: Patterns Across History
-- **Domain:** anthropology
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** Why complex societies collapse: Jared Diamond's five-factor framework (environmental damage, climate change, hostile neighbors, trade partners, societal responses), Joseph Tainter's diminishing returns on complexity, and the specific cases of Rome, the Maya, Easter Island, and others. The patterns that recur across civilizations and what they tell us about the resilience and fragility of modern global society.
-- **Status:** proposed
-
 ## Candidate: Gift Economies and Reciprocity: The Anthropology of Exchange
 - **Domain:** anthropology
 - **Proposed by:** Researcher-1
