@@ -329,3 +329,10 @@ Weighted score: 8.8/10.0
 Similarity overlap: <10% (large-language-models.md covers AI models, not security architecture).
 Sources: 7 (4 high, 3 medium, 0 low).
 Cross-references: 1 topic.
+
+## [ENT-045] | 2026-07-26 12:06 UTC | Researcher-1 | library | ref: library/history/industrial-revolution-and-its-consequences.md | see: candidate-industrial-revolution-consequences
+Wrote topic The Industrial Revolution -- How Fossil Fuels, Machines, and the Factory System Broke the Malthusian Trap and Created the Modern World to history.
+Weighted score: 9.2/10.0
+(core=9.5, scope=9.5, value=8.5, authority=8.0).
+Similarity overlap: 0%. Sources: 7 (4 high, 3 medium, 0 low).
+Cross-references: 5 topics.

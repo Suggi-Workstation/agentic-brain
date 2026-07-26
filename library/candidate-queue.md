@@ -67,13 +67,6 @@
 - **Scope:** Benjamin Graham's quantitative screening methodology: the Graham Number (sqrt(22.5 x EPS x BVPS)), net-net working capital screens, and the defensive investor criteria. How modern value screens (low P/E, low P/B, high dividend yield) extend Graham's approach. The academic evidence on value factor performance (Fama-French), the value premium's persistence, and why mechanical screens produce false positives that require qualitative analysis.
 - **Status:** proposed
 
-## Candidate: The Industrial Revolution and Its Consequences
-- **Domain:** history
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.5, timeliness=6.0, balance=10.0)
-- **Scope:** The transformation from agrarian to industrial society (c.1760-1914): why it began in Britain, the role of coal, steam, and iron, the factory system and urbanization, and the second industrial revolution (steel, electricity, chemicals). Covers the economic consequences (unprecedented growth in living standards), social consequences (the working class, labor movements, the condition of England question), and global consequences (colonialism, the great divergence between rich and poor nations). The Industrial Revolution as the most consequential economic event in human history since the Neolithic agricultural revolution.
-- **Status:** proposed
 ## Candidate: Black Swan Theory and Fat-Tailed Distributions
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Researcher-2
