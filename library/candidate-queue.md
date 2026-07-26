@@ -142,14 +142,6 @@
 - **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.5, timeliness=6.0, balance=10.0)
 - **Scope:** The transformation from agrarian to industrial society (c.1760-1914): why it began in Britain, the role of coal, steam, and iron, the factory system and urbanization, and the second industrial revolution (steel, electricity, chemicals). Covers the economic consequences (unprecedented growth in living standards), social consequences (the working class, labor movements, the condition of England question), and global consequences (colonialism, the great divergence between rich and poor nations). The Industrial Revolution as the most consequential economic event in human history since the Neolithic agricultural revolution.
 - **Status:** proposed
-## Candidate: Evolution by Natural Selection
-- **Domain:** science
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.4/10.0 (gap=9.5, compounding=8.5, timeliness=6.5, balance=8.0)
-- **Scope:** Darwin's mechanism and the modern synthesis: how random variation plus non-random selection produces complex adaptation without design. Covers the evidence from comparative anatomy, the fossil record, biogeography, and molecular genetics, plus common misconceptions (evolution is not "just a theory," not goal-directed, not "survival of the fittest" in the popular sense). Extensions: kin selection, sexual selection, punctuated equilibrium, and the gene's-eye view.
-- **Status:** proposed
-
 ## Candidate: Nuclear Deterrence and the Logic of Mutually Assured Destruction
 - **Domain:** geopolitics
 - **Proposed by:** Researcher-2
