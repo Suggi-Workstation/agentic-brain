@@ -108,14 +108,6 @@
 - **Scope:** The classical art of persuasion from Aristotle's ethos-pathos-logos framework through Cicero's five canons to modern applications in politics, law, advertising, and everyday argument. Covers the rhetorical triangle, figures of speech and rhetorical devices, the psychology of persuasion (Cialdini's principles as bridge), and why understanding rhetoric is essential armor against manipulation. How the greatest speeches in history deployed rhetorical structure to achieve their effects.
 - **Status:** proposed
 
-## Candidate: Bond Pricing and Fixed Income Markets
-- **Domain:** finance
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** How bonds are priced, traded, and analyzed in the world's largest securities market. Covers bond math fundamentals: present value, yield-to-maturity, duration and convexity, the inverse relationship between price and yield. Spread across government bonds, corporate bonds, and emerging market debt. How credit rating agencies, default risk, and recovery rates shape bond pricing. The role of fixed income in portfolio construction and why the bond market's signals often precede equity market moves.
-- **Status:** proposed
-
 ## Candidate: Banking: The Business of Maturity Transformation
 - **Domain:** finance
 - **Proposed by:** Researcher-2
