@@ -6,7 +6,7 @@ author: Link
 tags: [value-investing, pipeline, screening, agent-architecture, multi-agent, buffett, munger, greenblatt, pabrai, magic-formula, job-decomposition]
 links:
   - governance/suggi-investment-approach.md
-  - research/proposals/investment-pipeline-architecture.md
+  - investing/pipeline/investment-pipeline-architecture.md
   - library/coding-agentic-ai/multi-agent-orchestration.md
   - library/value-investing/anchor-value-investing.md
   - library/value-investing/economic-moats.md
@@ -621,7 +621,7 @@ If approved, I will:
 ## Cross-Links
 
 - `governance/suggi-investment-approach.md` -- Suggi's methodology
-- `research/proposals/investment-pipeline-architecture.md` -- Ava's
+- `investing/pipeline/investment-pipeline-architecture.md` -- Ava's
   original proposal (the foundation this extends)
 - `library/coding-agentic-ai/multi-agent-orchestration.md` -- orchestration
   patterns that inform the job decomposition

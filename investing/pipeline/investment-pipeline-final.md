@@ -6,8 +6,8 @@ author: Ava + Link (merged)
 tags: [value-investing, pipeline, screening, agent-architecture, multi-agent, buffett, munger, greenblatt, pabrai, sleep, magic-formula, job-decomposition, moat-scoring, management-scoring, position-sizing, post-mortem]
 links:
   - governance/suggi-investment-approach.md
-  - research/proposals/investment-pipeline-architecture.md
-  - research/proposals/link-investment-pipeline.md
+  - investing/pipeline/investment-pipeline-architecture.md
+  - investing/pipeline/link-investment-pipeline.md
   - library/coding-agentic-ai/multi-agent-orchestration.md
   - library/value-investing/anchor-value-investing.md
   - library/value-investing/economic-moats.md
@@ -922,8 +922,8 @@ If approved, I will:
 ## Cross-Links
 
 - `governance/suggi-investment-approach.md` -- methodology this pipeline implements
-- `research/proposals/investment-pipeline-architecture.md` -- Ava v2 (operational foundation)
-- `research/proposals/link-investment-pipeline.md` -- Link v1 (philosophical foundation)
+- `investing/pipeline/investment-pipeline-architecture.md` -- Ava v2 (operational foundation)
+- `investing/pipeline/link-investment-pipeline.md` -- Link v1 (philosophical foundation)
 - `library/coding-agentic-ai/multi-agent-orchestration.md` -- orchestration patterns
 - `library/value-investing/anchor-value-investing.md` -- domain anchor
 - `library/value-investing/economic-moats.md` -- 6-source moat framework
