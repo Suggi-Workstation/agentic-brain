@@ -408,3 +408,10 @@ Wrote topic Marcus Aurelius to notable-people. Weighted score: 8.6/10.0
 Similarity overlap: 5% (one existing topic in notable-people domain, different subject).
 Sources: 6 (4 high, 2 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-069] | 2026-07-26 17:46 UTC | Researcher-1 | library | ref: library/education-learning/cognitive-load-theory.md | see: candidate-cognitive-load-theory
+Wrote topic Cognitive Load Theory to education-learning. Weighted score: 8.6/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.0).
+Similarity overlap: 15% (with spaced-repetition-and-retrieval-practice.md -- related learning science domain, distinct topics).
+Sources: 7 (5 high, 2 medium, 0 low).
+Cross-references: 3 topics.

@@ -43,14 +43,6 @@
 - **Scope:** How firms choose their mix of debt and equity financing. The Modigliani-Miller irrelevance propositions and why real-world frictions (taxes, bankruptcy costs, agency problems, information asymmetry) make capital structure matter. Covers trade-off theory, pecking order theory, and the practical determinants of leverage ratios across industries.
 - **Status:** proposed
 
-## Candidate: Cognitive Load Theory: Why Working Memory Is the Bottleneck for All Learning
-- **Domain:** education-learning
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.0, timeliness=6.5, balance=10.0)
-- **Scope:** John Sweller's cognitive load theory explains why some instructional designs work and others fail, based on the severe limits of working memory. Covers intrinsic, extraneous, and germane cognitive load; the worked example effect; the split-attention effect; and the redundancy effect. Why minimizing extraneous load is the primary job of good instructional design. Practical implications for presentations, documentation, and self-directed learning.
-- **Status:** proposed
-
 
 ## Candidate: Social Influence and Conformity: How Groups Shape Individual Belief and Behavior
 - **Domain:** psychology-behavior
