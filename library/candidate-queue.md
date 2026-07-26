@@ -18,13 +18,6 @@
 - **Scope:** The unifying theory of geology: continental drift, seafloor spreading, subduction zones, and the mechanisms that drive plate movement. How plate tectonics explains earthquakes, volcanoes, mountain building, and the distribution of natural resources. The history of the theory from Wegener's continental drift to modern GPS-confirmed plate motion.
 - **Status:** proposed
 
-## Candidate: Internet Culture and Memetics: How Ideas Spread, Mutate, and Compete Online
-- **Domain:** pop-culture
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.7/10.0 (gap=8.5, compounding=8.0, timeliness=9.0, balance=10.0)
-- **Scope:** The mechanics of how memes, viral content, and cultural ideas propagate through digital networks. Covers Dawkins' original meme concept, the mutation and selection pressures of social media platforms, and how internet culture creates shared identity and language. Examines what makes ideas "sticky" online and how digital culture differs from pre-internet cultural transmission.
-- **Status:** proposed
 
 ## Candidate: Securities Regulation: The SEC, Disclosure, and the Rules That Protect Capital Markets
 - **Domain:** law-regulation
