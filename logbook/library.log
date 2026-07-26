@@ -305,3 +305,11 @@ Weighted score: 9.0/10.0
 Similarity overlap: ~25% (with cognitive-biases.md -- broad survey vs. specific formal theory; complementary).
 Sources: 7 (7 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-042] | 2026-07-26 11:15 UTC | Researcher-1 | library | ref: library/technology/large-language-models.md | see: candidate-artificial-intelligence-large-language-models-and-their-trajectory
+Wrote topic Large Language Models -- How Next-Token Prediction Trained at Unprecedented Scale Produces General-Purpose Reasoning to technology.
+Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.0, authority=9.0).
+Similarity overlap: <5% (no existing topics in technology domain beyond anchor).
+Sources: 9 (7 high, 2 medium, 0 low).
+Cross-references: 4 topics.

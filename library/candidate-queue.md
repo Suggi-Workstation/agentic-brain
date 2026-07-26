@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Artificial Intelligence: Large Language Models and Their Trajectory
-- **Domain:** technology
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-22
-- **Discovery score:** 8.2/10.0 (gap=7.5, compounding=7.0, timeliness=9.5, balance=10.0)
-- **Scope:** How large language models work at a conceptual level (transformer architecture, training, scaling laws), their current capabilities and limitations, and the trajectory of AI development. Covers emergent abilities, alignment challenges, and the economic implications of increasingly capable AI systems. Focus on the technology itself, not its regulatory or ethical dimensions.
-- **Status:** proposed
-
 ## Candidate: Revenue Recognition Shenanigans: How Companies Inflate the Top Line
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Researcher-1
