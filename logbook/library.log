@@ -321,3 +321,11 @@ Weighted score: 8.8/10.0
 Similarity overlap: <15% (normative-ethics.md covers virtue ethics broadly but not Stoicism specifically).
 Sources: 8 (6 high, 2 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-044] | 2026-07-26 11:45 UTC | Researcher-1 | library | ref: library/technology/cybersecurity-principles-threats-and-defense-in-depth.md | see: candidate-cybersecurity-principles-threats-and-defense-in-depth
+Wrote topic Cybersecurity Is an Economic Problem Masquerading as a Technical One -- Why Defense in Depth and Zero Trust Are Not Optional to technology.
+Weighted score: 8.8/10.0
+(core=9.0, scope=9.5, value=8.0, authority=7.5).
+Similarity overlap: <10% (large-language-models.md covers AI models, not security architecture).
+Sources: 7 (4 high, 3 medium, 0 low).
+Cross-references: 1 topic.

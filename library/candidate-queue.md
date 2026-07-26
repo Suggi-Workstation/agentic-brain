@@ -52,14 +52,6 @@
 - **Scope:** Marcel Mauss's foundational insight that gifts are never free -- they create obligations to receive and reciprocate. The kula ring of the Trobriand Islands, potlatch ceremonies of the Pacific Northwest, and how gift economies differ from market and barter systems. Why reciprocity remains a powerful force in modern life: corporate gifting, political favors, open-source software, and the social dynamics of obligation.
 - **Status:** proposed
 
-## Candidate: Cybersecurity: Principles, Threats, and Defense in Depth
-- **Domain:** technology
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=6.5, timeliness=8.5, balance=10.0)
-- **Scope:** The core principles of information security (confidentiality, integrity, availability) and the modern threat landscape: ransomware, phishing, supply chain attacks, zero-day exploits, and state-sponsored cyber operations. Defense-in-depth architecture, encryption fundamentals, zero-trust models, and the human factor in security breaches. Why cybersecurity is an economic problem as much as a technical one.
-- **Status:** proposed
-
 ## Candidate: Cloud Computing: Architecture, Economics, and the End of On-Premise
 - **Domain:** technology
 - **Proposed by:** Researcher-1
