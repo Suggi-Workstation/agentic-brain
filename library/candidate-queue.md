@@ -43,14 +43,6 @@
 - **Scope:** How firms choose their mix of debt and equity financing. The Modigliani-Miller irrelevance propositions and why real-world frictions (taxes, bankruptcy costs, agency problems, information asymmetry) make capital structure matter. Covers trade-off theory, pecking order theory, and the practical determinants of leverage ratios across industries.
 - **Status:** proposed
 
-## Candidate: Spaced Repetition and Retrieval Practice: The Two Most Robust Findings in Learning Science
-- **Domain:** education-learning
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.8/10.0 (gap=9.5, compounding=7.5, timeliness=8.0, balance=10.0)
-- **Scope:** The spacing effect and testing effect are the most replicated findings in cognitive psychology of learning. Covers Ebbinghaus's forgetting curve, the neuroscientific basis of memory consolidation through spaced reactivation, and practical implementation via spaced repetition systems (Anki, SuperMemo). Why massed practice feels more productive but produces worse long-term retention. Applications in medical education, language learning, and knowledge work.
-- **Status:** proposed
-
 ## Candidate: Cognitive Load Theory: Why Working Memory Is the Bottleneck for All Learning
 - **Domain:** education-learning
 - **Proposed by:** Researcher-2
