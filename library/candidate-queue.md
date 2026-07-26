@@ -119,13 +119,6 @@
 - **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.5, timeliness=6.5, balance=10.0)
 - **Scope:** Benjamin Graham's quantitative screening methodology: the Graham Number (sqrt(22.5 x EPS x BVPS)), net-net working capital screens, and the defensive investor criteria. How modern value screens (low P/E, low P/B, high dividend yield) extend Graham's approach. The academic evidence on value factor performance (Fama-French), the value premium's persistence, and why mechanical screens produce false positives that require qualitative analysis.
 - **Status:** proposed
-## Candidate: The Immune System: How the Body Defends Itself
-- **Domain:** health-medicine
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.0, timeliness=7.5, balance=10.0)
-- **Scope:** The innate and adaptive immune system: how the body recognizes self from non-self, the roles of B cells, T cells, antibodies, and the complement system. Covers immunological memory and vaccination, autoimmune disease mechanisms, allergies, and the emerging field of cancer immunotherapy (checkpoint inhibitors, CAR-T). The immune system as a case study in complex adaptive systems: distributed detection, amplification cascades, and the cost of dysregulation.
-- **Status:** proposed
 
 ## Candidate: Warren Buffett: The Evolution of the World's Greatest Capital Allocator
 - **Domain:** investors
