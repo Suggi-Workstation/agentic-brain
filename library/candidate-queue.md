@@ -59,14 +59,6 @@
 - **Scope:** Stoic philosophy from Zeno to Marcus Aurelius: the dichotomy of control, living according to nature, the four cardinal virtues (wisdom, courage, justice, temperance), and the discipline of assent. How Stoicism differs from modern "stoic" stereotypes, its relationship to cognitive behavioral therapy, and its practical application in investing, leadership, and personal adversity.
 - **Status:** proposed
 
-## Candidate: Epistemology: Theories of Knowledge and Justified Belief
-- **Domain:** ethics-philosophy
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** What does it mean to know something? The classical definition (justified true belief), Gettier problems, foundationalism vs coherentism, internalism vs externalism, and the problem of skepticism. How epistemology connects to the scientific method, Bayesian reasoning, and the challenge of distinguishing reliable knowledge from misinformation in the digital age.
-- **Status:** proposed
-
 ## Candidate: Plate Tectonics: How Earth's Crust Shapes the Planet
 - **Domain:** earth-climate
 - **Proposed by:** Researcher-1
