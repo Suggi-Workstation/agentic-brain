@@ -149,14 +149,6 @@
 - **Status:** proposed
 
 
-## Candidate: International Relations Theory: Realism, Liberalism, and Constructivism
-- **Domain:** geopolitics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 9.0/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** The three grand theoretical frameworks that have structured how scholars and policymakers think about world politics. Realism: states are rational, self-interested actors in an anarchic system where power and security are paramount (Morgenthau, Waltz, Mearsheimer). Liberalism: international institutions, economic interdependence, and democratic norms can overcome anarchy and produce cooperation (Keohane, Nye, Doyle). Constructivism: identities, norms, and ideas shape state interests, not just material power (Wendt, Finnemore). How each theory explains (or fails to explain) contemporary dynamics from Russia's invasion of Ukraine to China's Belt and Road Initiative.
-- **Status:** proposed
-
 ## Candidate: Energy Geopolitics: How Oil, Gas, and Critical Minerals Shape Global Power
 - **Domain:** geopolitics
 - **Proposed by:** Researcher-2
