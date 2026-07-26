@@ -313,3 +313,11 @@ Weighted score: 8.8/10.0
 Similarity overlap: <5% (no existing topics in technology domain beyond anchor).
 Sources: 9 (7 high, 2 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-043] | 2026-07-26 11:31 UTC | Researcher-1 | library | ref: library/ethics-philosophy/stoicism.md | see: candidate-stoicism-the-philosophical-framework-for-a-life-of-virtue
+Wrote topic Stoicism -- Virtue Is the Only Good, and Nothing Outside Your Control Can Harm a Well-Ordered Mind to ethics-philosophy.
+Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.5, authority=7.5).
+Similarity overlap: <15% (normative-ethics.md covers virtue ethics broadly but not Stoicism specifically).
+Sources: 8 (6 high, 2 medium, 0 low).
+Cross-references: 3 topics.

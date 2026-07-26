@@ -35,13 +35,6 @@
 - **Status:** proposed
 
 
-## Candidate: Stoicism: The Philosophical Framework for a Life of Virtue
-- **Domain:** ethics-philosophy
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=7.0, timeliness=7.5, balance=10.0)
-- **Scope:** Stoic philosophy from Zeno to Marcus Aurelius: the dichotomy of control, living according to nature, the four cardinal virtues (wisdom, courage, justice, temperance), and the discipline of assent. How Stoicism differs from modern "stoic" stereotypes, its relationship to cognitive behavioral therapy, and its practical application in investing, leadership, and personal adversity.
-- **Status:** proposed
 
 ## Candidate: Plate Tectonics: How Earth's Crust Shapes the Planet
 - **Domain:** earth-climate
