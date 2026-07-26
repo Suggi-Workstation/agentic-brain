@@ -252,6 +252,7 @@ committing.
 - [ ] ASCII-only: zero non-ASCII characters in the file (G9) (PASS / HALT)
 - [ ] Candidate removed from candidate-queue.md (PASS / HALT)
 - [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
+- [ ] Logbook entry properly separated: a blank line precedes this entry in library.log. Verify with: `tail -n +<last-ent-line> /tmp/brain-writer/logbook/library.log | head -2` -- the first line must be empty. No entries merged without spacing. (PASS / HALT)
 
 ### 11. Commit and push
 
