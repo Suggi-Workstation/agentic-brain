@@ -100,14 +100,6 @@
 - **Scope:** The classical art of persuasion from Aristotle's ethos-pathos-logos framework through Cicero's five canons to modern applications in politics, law, advertising, and everyday argument. Covers the rhetorical triangle, figures of speech and rhetorical devices, the psychology of persuasion (Cialdini's principles as bridge), and why understanding rhetoric is essential armor against manipulation. How the greatest speeches in history deployed rhetorical structure to achieve their effects.
 - **Status:** proposed
 
-## Candidate: Ancient Civilizations and Their Legacies
-- **Domain:** history
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.0, timeliness=6.0, balance=10.0)
-- **Scope:** The foundational civilizations -- Mesopotamia, Egypt, the Indus Valley, China, Mesoamerica, Greece, and Rome -- and the institutions they built that still shape modern life: writing, law codes, currency, bureaucracy, democracy, roads, and aqueducts. Why civilizations rise (geographic luck, agricultural surplus, institutional innovation) and why they collapse (environmental degradation, institutional decay, external shock). Jared Diamond's framework alongside Toynbee's challenge-and-response theory. What the arc of ancient civilizations tells us about the fragility of complex societies.
-- **Status:** proposed
-
 ## Candidate: Diversification: The Mathematics of Not Putting All Eggs in One Basket
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Researcher-2
