@@ -147,3 +147,60 @@
 - **Discovery score:** 6.9/10.0 (gap=8.0, compounding=6.5, timeliness=6.5, balance=5.0)
 - **Scope:** A survey of practical techniques for learning faster and deeper: the Feynman Technique (teach to learn; identify gaps; simplify until the explanation is clear), the Leitner system for spaced flashcards, the Pomodoro method for sustained focus, SQ3R for reading comprehension, and mind mapping for knowledge organization. How these heuristics connect to underlying cognitive science (elaborative rehearsal, testing effect, chunking). The meta-skill of learning how to learn as the highest-leverage investment in a world where most specific knowledge decays rapidly.
 - **Status:** proposed
+
+
+## Candidate: Causal Inference: Moving Beyond Correlation to Understand Why
+- **Domain:** mathematics-statistics
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 9.2/10.0 (gap=9.5, compounding=8.5, timeliness=9.0, balance=10.0)
+- **Scope:** Why most statistical tools only measure association, not causation, and how the causal inference revolution (Rubin causal model, Pearl's do-calculus, directed acyclic graphs) has transformed epidemiology, economics, and the social sciences. Covers randomized controlled trials as the gold standard, natural experiments and instrumental variables, difference-in-differences, regression discontinuity, and the fundamental problem of causal inference: we can never observe the counterfactual. Why understanding causation matters for investing (correlation-based strategies vs. understanding business drivers), policy evaluation, and everyday reasoning.
+- **Status:** proposed
+
+## Candidate: International Relations Theory: Realism, Liberalism, and Constructivism
+- **Domain:** geopolitics
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 9.0/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** The three grand theoretical frameworks that have structured how scholars and policymakers think about world politics. Realism: states are rational, self-interested actors in an anarchic system where power and security are paramount (Morgenthau, Waltz, Mearsheimer). Liberalism: international institutions, economic interdependence, and democratic norms can overcome anarchy and produce cooperation (Keohane, Nye, Doyle). Constructivism: identities, norms, and ideas shape state interests, not just material power (Wendt, Finnemore). How each theory explains (or fails to explain) contemporary dynamics from Russia's invasion of Ukraine to China's Belt and Road Initiative.
+- **Status:** proposed
+
+## Candidate: Energy Geopolitics: How Oil, Gas, and Critical Minerals Shape Global Power
+- **Domain:** geopolitics
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.0, timeliness=9.0, balance=10.0)
+- **Scope:** How control over energy resources has been a central driver of international conflict, alliance formation, and economic leverage since the 20th century. Covers the oil age: OPEC, the 1973 embargo, petrodollar recycling, and the resource curse. The shale revolution's reshaping of global energy flows and US energy independence. Russia's gas weapon and Europe's dependency dilemma. The clean energy transition as a geopolitical shift: critical minerals (lithium, cobalt, rare earths), supply chain dominance (China's refining monopoly), and how energy interdependence will look different in an electrified world.
+- **Status:** proposed
+
+## Candidate: Benjamin Graham: The Father of Value Investing
+- **Domain:** investors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.7/10.0 (gap=9.5, compounding=8.5, timeliness=6.5, balance=10.0)
+- **Scope:** The life, intellectual evolution, and lasting influence of Benjamin Graham, from his early losses in the 1929 crash to the development of Security Analysis (1934) and The Intelligent Investor (1949). Covers Graham's core innovations: Mr. Market as a metaphor for price volatility, margin of safety as the central concept of defensive investing, and the distinction between investment and speculation. His partnership track record at Graham-Newman Corp., his influence on his most famous student Warren Buffett, and how Graham's quantitative net-net approach evolved into Buffett's quality-at-a-fair-price philosophy. Why Graham's psychological framework for handling market volatility is timeless even as his mechanical methods became less effective.
+- **Status:** proposed
+
+## Candidate: Bayesian Statistics: Updating Beliefs with Evidence
+- **Domain:** mathematics-statistics
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
+- **Scope:** The Bayesian framework treats probability as a degree of belief, updated as new evidence arrives using Bayes' theorem. Covers priors (informative, uninformative, conjugate), likelihood functions, posterior distributions, and credible intervals vs. frequentist confidence intervals. The historical dominance of frequentist methods and the Bayesian revival driven by computational advances (MCMC, Hamiltonian Monte Carlo). Why Bayesian thinking is a natural framework for investing (updating thesis as quarterly reports arrive), science (replication as posterior updating), and everyday decision-making. The philosophical debate: is Bayesianism a normative theory of how we should reason or a descriptive model of how we actually do?
+- **Status:** proposed
+
+## Candidate: Game Theory: Strategic Interaction and the Mathematics of Cooperation
+- **Domain:** macro-micro
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0)
+- **Scope:** The mathematical study of strategic decision-making where the outcome for each player depends on the choices of others. Covers the classic games: Prisoner's Dilemma (why individually rational choices produce collectively bad outcomes), Nash equilibrium, subgame perfection, and evolutionary game theory. Applications: arms races as prisoner's dilemmas, oligopoly pricing as repeated games, central bank credibility as a commitment problem, and the evolution of cooperation (Axelrod's tournaments, tit-for-tat). Why game theory's greatest insight is not a specific strategy but the discipline of asking: what game are we actually playing?
+- **Status:** proposed
+
+## Candidate: The Selfish Gene by Richard Dawkins -- A Summary
+- **Domain:** books
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.5, timeliness=6.5, balance=10.0)
+- **Scope:** A summary and critical assessment of Richard Dawkins's 1976 masterpiece that reframed evolutionary biology around the gene-centered view. Covers the core argument: genes, not organisms or species, are the fundamental unit of natural selection. The organism is a survival machine built by genes to propagate themselves. Key concepts: replicators vs. vehicles, kin selection and Hamilton's rule, the concept of the extended phenotype, and the provocative final chapter on memes as cultural replicators (the origin of meme theory). Why the book remains controversial: its metaphors are easily misunderstood as genetic determinism, but its explanatory power for altruism, eusociality, and apparent self-sacrifice in nature is unmatched.
+- **Status:** proposed
