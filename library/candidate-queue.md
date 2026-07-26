@@ -19,14 +19,6 @@
 - **Status:** proposed
 
 
-## Candidate: The Medium Is the Message: How Communication Technology Shapes Thought
-- **Domain:** communication
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.3/10.0 (gap=8.0, compounding=8.0, timeliness=8.0, balance=10.0)
-- **Scope:** McLuhan's core insight that the medium of communication shapes cognition and society more than any individual message carried. Traces the evolution from oral culture to writing, printing press, radio, television, and now algorithmic social media and LLMs. How each medium rewires attention, memory, and social organization in ways invisible to those immersed in it.
-- **Status:** proposed
-
 ## Candidate: Habit Formation: The Science of Building and Breaking Habits
 - **Domain:** self-improvement
 - **Proposed by:** Researcher-2
