@@ -100,14 +100,6 @@
 - **Scope:** Quantum computing leverages superposition and entanglement to solve certain problems exponentially faster than classical computers. Covers qubits vs. bits, the major approaches (superconducting, trapped ions, topological), the key algorithms (Shor's for factoring, Grover's for search), and the error correction challenge that keeps practical quantum advantage just out of reach. Current state of the race between Google, IBM, and startups. What quantum computing would mean for cryptography, drug discovery, and optimization.
 - **Status:** proposed
 
-## Candidate: Propaganda and Misinformation: How Information Is Weaponized
-- **Domain:** communication
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.6/10.0 (gap=8.5, compounding=7.5, timeliness=9.0, balance=10.0)
-- **Scope:** The techniques and systems through which information is deliberately distorted to manipulate belief and behavior. Covers propaganda models (Bernays, Goebbels, Soviet agitprop), modern misinformation ecosystems (social media amplification, algorithmic radicalization, deepfakes), and the psychology of why false information spreads faster than truth. The distinction between misinformation (accidental), disinformation (deliberate), and malinformation (true but weaponized). Counter-strategies: prebunking, fact-checking, media literacy, and platform governance.
-- **Status:** proposed
-
 ## Candidate: Rhetoric: The Art of Persuasion
 - **Domain:** communication
 - **Proposed by:** Researcher-2
