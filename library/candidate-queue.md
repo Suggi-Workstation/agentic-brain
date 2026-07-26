@@ -52,14 +52,6 @@
 - **Status:** proposed
 
 
-## Candidate: Marcus Aurelius: The Philosopher Emperor and the Practice of Stoic Leadership
-- **Domain:** notable-people
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** Biography of the Roman emperor whose private journal, the Meditations, became one of history's most enduring philosophical works. Covers his Stoic practice as a daily discipline, his leadership during plague and war, the tension between philosophical ideals and imperial power, and how he applied Stoic principles to the hardest job in the ancient world. What his example teaches about resilience, duty, and maintaining inner order amid external chaos.
-- **Status:** proposed
-
 ## Candidate: Social Influence and Conformity: How Groups Shape Individual Belief and Behavior
 - **Domain:** psychology-behavior
 - **Proposed by:** Researcher-2
