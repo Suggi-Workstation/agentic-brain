@@ -107,14 +107,14 @@ Run the index regeneration script. This derives all counts from the
 live filesystem (R11: never hardcode):
 
 ```bash
-cd /tmp/brain-audit && python library/index-library.py
+cd /tmp/brain-audit && python scripts/index-library.py
 ```
 
 The script:
 - Scans every domain folder via `ls`.
 - Counts topic files (excluding anchors and quarantine).
 - Counts audited topics by checking frontmatter for `audited: true`.
-- Writes `library/index-library.md` with a UTC timestamp header.
+- Writes `library/index-library.md` with a UTC timestamp header (via `scripts/index-library.py`).
 - Prints a summary with total topics, domains, and audited counts.
 
 The script is the single source of truth for index generation. The
