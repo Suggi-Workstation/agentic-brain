@@ -208,6 +208,14 @@ non-negotiable.
     be the final section. No content may follow.
 ```
 
+The ONLY mandatory body sections are `## Background`, `## Core Concepts`,
+`## Evidence`, `## Implications`, `## Sources`, and `## See Also`. All
+other `##` sections are optional and may be added where the topic
+warrants: domain-specific sections between Core Concepts and Evidence
+(e.g. `## Practical Moat Analysis Framework`), or supplementary
+sections between Implications and Sources (e.g. `## Common Pitfalls`,
+`## Criticism`, `## Practical Frameworks`).
+
 Sections 7-8 (Sources, See Also) MUST appear in this exact order.
 No content may follow `## See Also`.
 
@@ -458,6 +466,11 @@ feel like losses), pricing (discounts are framed as "saving" a loss),
 and commitment (sunk cost fallacy is partly loss aversion -- walking
 away means accepting the loss).
 
+## (Optional sections if needed: Common Pitfalls, Criticism, etc.)
+> This section is optional. Add domain-specific supplementary sections
+> only when the topic warrants additional depth. Remove this
+> placeholder if not needed.
+
 ## Sources
 
 1. Kahneman, D. & Tversky, A. (1979). "Prospect Theory: An Analysis of
@@ -496,6 +509,7 @@ away means accepting the loss).
 | 5 | 2026-07-24 | Ava | Hardened G5 (Cross-references) to require target file existence verification via `ls`. Added checklist item for cross-reference verification. Added "Cross-references to non-existent files" anti-pattern. Scar: us-china-great-power-competition.md cross-referenced international-relations-theory.md which researcher-1 hallucinated (file was deleted before the write cycle). |
 | 6 | 2026-07-24 | Ava | Added minimum word counts to mandatory sections: Core Concepts >= 750 words, Evidence >= 500 words, Implications >= 500 words. Updated Body Structure section descriptions, The Library Topic Checklist items, and G12 quality gate definition. Verified by word count on extracted section text. |
 | 7 | 2026-07-24 | Ava | Reduced word count thresholds to 600/400/400. Narrower topics (single-study evidence, specific techniques) struggle to reach 500-word Evidence/Implications sections without padding. 600/400/400 preserves structural gate quality while being achievable across all candidate topic scopes. |
+| 8 | 2026-07-26 | Ava | Clarified optional sections. Added explicit "ONLY mandatory body sections are..." statement after numbered list. Added optional section placeholder to example (between Implications and Sources). Split domain body sections and optional supplementary sections into separate checklist items in library-writer.md. |
 
 ---
 
