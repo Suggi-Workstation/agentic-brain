@@ -439,3 +439,17 @@ Wrote topic Ancient Civilizations -- Why the Institutions They Built Still Shape
 Similarity overlap: <5%.
 Sources: 5 (3 high, 2 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-086] | 2026-07-26 23:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 9 candidates proposed, 0 skipped (queue at 25/25).
+Candidates:
+- Focus and Deep Work: The Scarce Resource in a Distracted Age (8.8): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
+- Biodiversity and the Sixth Extinction: What We Are Losing and Why It Matters (8.8): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
+- Constitutional Law and Governance Structures: How Nations Organize Power (8.7): gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0
+- Tail Risk Hedging: Protecting Portfolios Against Rare Catastrophes (8.6): gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Abraham Lincoln: Leadership Through Crisis (8.5): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
+- Sleep Optimization: The Foundation of Cognitive and Physical Performance (8.5): gap=9.0, compounding=7.5, timeliness=7.5, balance=10.0
+- Criminal Law and Justice Systems: The Architecture of Punishment (8.4): gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Film as Cultural Lens: How Cinema Reflects and Shapes Society (8.4): gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Value at Risk (VaR) and Risk Measurement Frameworks: How We Quantify What We Can Lose (8.3): gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0
+Domain balance: law-regulation (2 topics), pop-culture (2), self-improvement (2), notable-people (2), earth-climate (2), portfolio-risk-management (2) to mathematics-statistics (4), geopolitics (4). All 6 selected domains at minimum topic count.

@@ -141,3 +141,75 @@
 - **Status:** proposed
 
 
+## Candidate: Focus and Deep Work: The Scarce Resource in a Distracted Age
+- **Domain:** self-improvement
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0)
+- **Scope:** Cal Newport's framework arguing that the ability to focus without distraction on cognitively demanding tasks is becoming both more valuable and more rare in an attention-saturated economy. Covers the neuroscience of attention and task-switching costs, why shallow work dominates modern organizations, and the practical disciplines for cultivating deep work: time blocking, ritual, embracing boredom, and quitting social media. How deep work connects to deliberate practice, flow states, and the craftsman mindset.
+- **Status:** proposed
+
+## Candidate: Biodiversity and the Sixth Extinction: What We Are Losing and Why It Matters
+- **Domain:** earth-climate
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0)
+- **Scope:** The evidence that Earth is experiencing a mass extinction event driven by human activity -- habitat destruction, overexploitation, pollution, invasive species, and climate change. Covers the five previous mass extinctions as context, the current extinction rate compared to background rates, keystone species and trophic cascades, biodiversity hotspots, and the ecosystem services that biodiversity provides (pollination, water purification, carbon sequestration). Why biodiversity loss is a threat multiplier that amplifies climate risk and threatens food security. The conservation strategies that work and the ones that fail.
+- **Status:** proposed
+
+## Candidate: Constitutional Law and Governance Structures: How Nations Organize Power
+- **Domain:** law-regulation
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
+- **Scope:** How constitutions distribute and constrain governmental power through separation of powers, federalism, judicial review, and enumerated rights. Compares parliamentary vs. presidential systems, the role of constitutional courts, and the mechanisms for constitutional amendment. Covers landmark cases that defined constitutional interpretation (Marbury v. Madison, Brown v. Board) and the contemporary challenge of democratic backsliding -- how elected leaders use constitutional mechanisms to erode constitutional constraints. Why constitutional design choices made centuries ago shape modern political outcomes.
+- **Status:** proposed
+
+## Candidate: Tail Risk Hedging: Protecting Portfolios Against Rare Catastrophes
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.6/10.0 (gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** How to construct portfolios that survive extreme events that fall outside normal distribution assumptions. Covers the limitations of Value at Risk and why it fails to capture tail risk, the concept of ergodicity and why avoiding ruin is more important than maximizing returns, and practical hedging strategies: out-of-the-money put options, volatility derivatives, tail risk funds, gold, and managed futures. Taleb's barbell strategy -- extreme safety paired with extreme speculation. The cost of tail hedging as negative carry and why most investors abandon it before it pays off. How tail hedging changes the geometric return profile of a portfolio.
+- **Status:** proposed
+
+## Candidate: Abraham Lincoln: Leadership Through Crisis
+- **Domain:** notable-people
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0)
+- **Scope:** How a self-educated frontier lawyer became the president who preserved the American union through its gravest constitutional crisis. Covers Lincoln's unlikely rise from poverty, his evolution on slavery from pragmatist to moral crusader, his leadership style (the Team of Rivals model -- surrounding himself with competitors), his rhetorical genius in speeches that redefined American identity, and his decision-making under the unbearable pressure of the Civil War. The duality of Lincoln: the melancholy fatalist who acted with relentless determination. His assassination and the unfinished work of Reconstruction.
+- **Status:** proposed
+
+## Candidate: Sleep Optimization: The Foundation of Cognitive and Physical Performance
+- **Domain:** self-improvement
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=10.0)
+- **Scope:** Why sleep is not passive downtime but an active biological process essential for memory consolidation, emotional regulation, immune function, and metabolic health. Covers sleep architecture (NREM and REM cycles), circadian rhythms and chronotypes, the glymphatic system and brain cleaning during deep sleep, and the cumulative cognitive cost of sleep debt. Evidence-based practices for sleep optimization: light exposure timing, temperature, caffeine and alcohol effects, wind-down routines, and the limitations of sleep tracking wearables. Matthew Walker's research and why the global sleep-loss epidemic is a public health crisis hiding in plain sight.
+- **Status:** proposed
+
+## Candidate: Criminal Law and Justice Systems: The Architecture of Punishment
+- **Domain:** law-regulation
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
+- **Scope:** The principles that justify state punishment: retribution, deterrence, incapacitation, and rehabilitation. Covers the structure of criminal procedure (investigation, charging, trial, sentencing, appeal), the role of prosecutorial discretion, plea bargaining as the dominant mode of case resolution, and the tension between due process and crime control. Mass incarceration, racial disparities in sentencing, and the debate over punitive vs. restorative justice. Landmark reforms and experiments: Norway's rehabilitation-focused prisons, drug courts, and the movement to end cash bail. Why criminal justice systems reflect a society's deepest values about responsibility, mercy, and who deserves a second chance.
+- **Status:** proposed
+
+## Candidate: Film as Cultural Lens: How Cinema Reflects and Shapes Society
+- **Domain:** pop-culture
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
+- **Scope:** Film as the dominant narrative medium of the 20th and 21st centuries -- how movies both mirror cultural anxieties and actively shape public consciousness. Covers the evolution of cinematic language (editing, cinematography, sound design), genre as a reflection of social concerns (horror and societal fear, westerns and American identity, sci-fi and technological anxiety), and landmark films that shifted cultural norms (Guess Who's Coming to Dinner, The Matrix, Parasite). The auteur theory vs. collaborative filmmaking. How streaming platforms are changing what stories get told and who gets to tell them. Why understanding film language is a form of media literacy essential to civic life.
+- **Status:** proposed
+
+## Candidate: Value at Risk (VaR) and Risk Measurement Frameworks: How We Quantify What We Can Lose
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
+- **Scope:** The dominant framework for measuring financial risk: Value at Risk estimates the maximum loss a portfolio faces over a given horizon at a specified confidence level. Covers the three calculation methods (historical simulation, variance-covariance, Monte Carlo), the choice of confidence level and time horizon, and VaR's critical limitations -- it ignores what happens beyond the threshold (tail risk), assumes normal distributions, and creates perverse incentives when used as a regulatory capital metric. Extensions and alternatives: Expected Shortfall (CVaR), stress testing, and scenario analysis. The role of VaR in Basel accords and how risk models became both indispensable and dangerous.
+- **Status:** proposed
+
