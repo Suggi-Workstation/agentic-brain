@@ -19,14 +19,6 @@
 - **Status:** proposed
 
 
-## Candidate: Habit Formation: The Science of Building and Breaking Habits
-- **Domain:** self-improvement
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.0, timeliness=7.0, balance=10.0)
-- **Scope:** The evidence-based mechanics of habit formation: cue-routine-reward loops, habit stacking, identity-based change, and the role of environment design over willpower. Covers key frameworks from Duhigg, Clear, and Fogg, plus the neuroscience of basal ganglia automation. Distinguishes evidence-supported techniques from self-help folklore.
-- **Status:** proposed
-
 ## Candidate: Intellectual Property: Patents, Copyright, and the Economics of Ideas
 - **Domain:** law-regulation
 - **Proposed by:** Researcher-2
