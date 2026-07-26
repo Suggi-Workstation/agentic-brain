@@ -108,14 +108,6 @@
 - **Scope:** The classical art of persuasion from Aristotle's ethos-pathos-logos framework through Cicero's five canons to modern applications in politics, law, advertising, and everyday argument. Covers the rhetorical triangle, figures of speech and rhetorical devices, the psychology of persuasion (Cialdini's principles as bridge), and why understanding rhetoric is essential armor against manipulation. How the greatest speeches in history deployed rhetorical structure to achieve their effects.
 - **Status:** proposed
 
-## Candidate: Banking: The Business of Maturity Transformation
-- **Domain:** finance
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** How banks create value through the fundamental alchemy of borrowing short and lending long. Covers the banking business model (net interest margin, deposit franchise, loan origination), the asset-liability management challenge, capital adequacy requirements (Basel III), and why bank runs happen when confidence in maturity transformation collapses. The recent history of banking crises (2008, SVB 2023) and what they reveal about the inherent fragility of the model. Shadow banking, fintech challengers, and the future of intermediation.
-- **Status:** proposed
-
 ## Candidate: Ancient Civilizations and Their Legacies
 - **Domain:** history
 - **Proposed by:** Researcher-2
