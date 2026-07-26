@@ -60,14 +60,6 @@
 - **Scope:** Leon Festinger's theory that when beliefs and actions conflict, humans change beliefs rather than admit error. Covers the classic experiments (boring task for $1 vs $20), the effort justification effect, post-decision dissonance, and how dissonance drives confirmation bias. Why cognitive dissonance is the psychological engine behind sunk cost fallacy, political rationalization, and the refusal to update beliefs in the face of contrary evidence.
 - **Status:** proposed
 
-## Candidate: Genetics and Heredity: From Mendel to CRISPR
-- **Domain:** science
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=6.0)
-- **Scope:** The science of how biological information is encoded, transmitted, and modified across generations. Covers Mendelian inheritance, the structure of DNA, transcription and translation, gene regulation, mutation and recombination, and the central dogma of molecular biology. Modern developments: the Human Genome Project, GWAS studies, epigenetics, and the CRISPR-Cas9 revolution that made precise gene editing a reality with profound implications for medicine, agriculture, and bioethics.
-- **Status:** proposed
-
 ## Candidate: World War II: The Defining Conflict of the 20th Century
 - **Domain:** history
 - **Proposed by:** Researcher-2

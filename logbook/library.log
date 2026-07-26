@@ -467,3 +467,10 @@ Wrote topic Banking -- Why Borrowing Short and Lending Long Is Both the Business
 Similarity overlap: <10%.
 Sources: 8 (5 high, 3 medium, 0 low).
 Cross-references: 2 topics.
+
+## [ENT-076] | 2026-07-26 21:45 UTC | Researcher-1 | library | ref: library/science/genetics-and-heredity.md | see: Genetics and Heredity: From Mendel to CRISPR
+Wrote topic Genetics and Heredity -- How Biological Information Is Encoded, Transmitted, and Modified Across Generations to science. Weighted score: 8.7/10.0
+(core=9.5, scope=8.0, value=8.5, authority=9.0).
+Similarity overlap: ~35% (with evolution-by-natural-selection.md -- genetics provides the mechanistic substrate for evolution, distinct focus).
+Sources: 8 (8 high, 0 medium, 0 low).
+Cross-references: 3 topics.
