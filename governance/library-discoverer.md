@@ -240,6 +240,7 @@ failures only.
 - [ ] No topic files created (discoverer proposes, does not write) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
 - [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
+- [ ] Logbook entry properly separated: a blank line precedes this entry in library.log. Verify with: `tail -n +<last-ent-line> /tmp/brain-discover/logbook/library.log | head -2` -- the first line must be empty. No entries merged without spacing. (PASS / HALT)
 
 ### 12. Commit and push
 
