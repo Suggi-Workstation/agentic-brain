@@ -51,5 +51,5 @@ jobs:
           git config user.name "Logbook Archive Bot"
           git config user.email "archive@suggi-workstation.dev"
           git add logbook/
-          git commit -m "[archive] logbook: auto-archived entries exceeding 1000 lines"
+          git commit -m "[archive] logbook: auto-archived entries exceeding 500 lines"
           git push origin main
