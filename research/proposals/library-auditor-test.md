@@ -45,7 +45,7 @@ criteria:
    Results recorded with justification. Inaccessible sources noted
    as "unable to verify."
 6. **Master index:** `library/index-library.md` regenerated via
-   `python library/index.py`. Zero hardcoded counts (R11). Topic
+   `python library/index-library.py`. Zero hardcoded counts (R11). Topic
    count matches `ls library/*/*.md | wc -l`. Audited count matches
    topics with `audited: true`.
 7. `logbook/library.log`: one entry per audited topic + one summary
@@ -64,7 +64,7 @@ criteria:
   is deterministic -- a failed run can be re-executed.
 - **Cost:** One cron cycle. Model: GPT-5.4 via Copilot free ($0).
   Source verification may require web fetching (free tier). Context
-  load moderate -- skill + topics + anchors + index.py.
+  load moderate -- skill + topics + anchors + index-library.py.
 
 ## Open Questions
 
