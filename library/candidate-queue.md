@@ -59,14 +59,6 @@
 - **Scope:** John Sweller's cognitive load theory explains why some instructional designs work and others fail, based on the severe limits of working memory. Covers intrinsic, extraneous, and germane cognitive load; the worked example effect; the split-attention effect; and the redundancy effect. Why minimizing extraneous load is the primary job of good instructional design. Practical implications for presentations, documentation, and self-directed learning.
 - **Status:** proposed
 
-## Candidate: Porter's Five Forces: The Framework That Defined Industry Analysis
-- **Domain:** industries-sectors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.8/10.0 (gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** Michael Porter's foundational framework for analyzing industry attractiveness through five competitive forces: threat of new entrants, bargaining power of suppliers, bargaining power of buyers, threat of substitutes, and rivalry among existing competitors. How each force affects profit margins and return on capital. The framework's enduring relevance, its limitations in dynamic industries, and how value investors use it to identify sustainably profitable businesses with durable moats.
-- **Status:** proposed
-
 ## Candidate: Network Effects and Platform Economics: Why Winner-Take-Most Markets Are Different
 - **Domain:** industries-sectors
 - **Proposed by:** Researcher-2
