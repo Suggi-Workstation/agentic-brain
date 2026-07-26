@@ -149,14 +149,6 @@
 - **Status:** proposed
 
 
-## Candidate: Benjamin Graham: The Father of Value Investing
-- **Domain:** investors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.7/10.0 (gap=9.5, compounding=8.5, timeliness=6.5, balance=10.0)
-- **Scope:** The life, intellectual evolution, and lasting influence of Benjamin Graham, from his early losses in the 1929 crash to the development of Security Analysis (1934) and The Intelligent Investor (1949). Covers Graham's core innovations: Mr. Market as a metaphor for price volatility, margin of safety as the central concept of defensive investing, and the distinction between investment and speculation. His partnership track record at Graham-Newman Corp., his influence on his most famous student Warren Buffett, and how Graham's quantitative net-net approach evolved into Buffett's quality-at-a-fair-price philosophy. Why Graham's psychological framework for handling market volatility is timeless even as his mechanical methods became less effective.
-- **Status:** proposed
-
 ## Candidate: Bayesian Statistics: Updating Beliefs with Evidence
 - **Domain:** mathematics-statistics
 - **Proposed by:** Researcher-2
