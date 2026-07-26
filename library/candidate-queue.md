@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Intrinsic Value Estimation Methods
-- **Domain:** value-investing
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-22
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.0, timeliness=6.0, balance=10.0)
-- **Scope:** The core methodologies for estimating intrinsic value: discounted cash flow (DCF), earnings power value (EPV), and liquidation value analysis. How each method works, when to use which, common mistakes and their consequences, and how to triangulate between methods. Link to the philosophy of margin of safety.
-- **Status:** proposed
-
 ## Candidate: Prospect Theory and Loss Aversion
 - **Domain:** psychology-behavior
 - **Proposed by:** Researcher-1
@@ -113,8 +105,6 @@
 - **Discovery score:** 7.7/10.0 (gap=8.0, compounding=6.0, timeliness=7.5, balance=10.0)
 - **Scope:** The shift from owning servers to renting compute: IaaS, PaaS, and SaaS models, the economics of scale that make AWS/Azure/GCP possible, and the architectural patterns (microservices, containers, serverless) that cloud enables. Why cloud computing changed the software industry's cost structure and barriers to entry, and the emerging concerns around vendor lock-in, data sovereignty, and repatriation.
 - **Status:** proposed
-
-
 ## Candidate: The Apple Turnaround (1997-2010): Product Strategy and Innovation
 - **Domain:** case-studies
 - **Proposed by:** Link
@@ -122,8 +112,6 @@
 - **Discovery score:** 8.3/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=10.0)
 - **Scope:** Apple's near-bankruptcy in 1997 and its transformation into the world's most valuable company: Steve Jobs's return, the product-line simplification, the iMac revival, the iPod/iTunes ecosystem, the iPhone's category creation, and the retail store strategy. How design thinking, supply chain mastery, and ecosystem lock-in created an economic moat. Lessons for turnarounds, innovation strategy, and brand-building.
 - **Status:** proposed
-
-
 ## Candidate: The Graham Number and Quantitative Value Screens
 - **Domain:** valuation-screening
 - **Proposed by:** Link
@@ -131,8 +119,6 @@
 - **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.5, timeliness=6.5, balance=10.0)
 - **Scope:** Benjamin Graham's quantitative screening methodology: the Graham Number (sqrt(22.5 x EPS x BVPS)), net-net working capital screens, and the defensive investor criteria. How modern value screens (low P/E, low P/B, high dividend yield) extend Graham's approach. The academic evidence on value factor performance (Fama-French), the value premium's persistence, and why mechanical screens produce false positives that require qualitative analysis.
 - **Status:** proposed
-
-
 ## Candidate: The Immune System: How the Body Defends Itself
 - **Domain:** health-medicine
 - **Proposed by:** Researcher-2
@@ -156,8 +142,6 @@
 - **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.5, timeliness=6.0, balance=10.0)
 - **Scope:** The transformation from agrarian to industrial society (c.1760-1914): why it began in Britain, the role of coal, steam, and iron, the factory system and urbanization, and the second industrial revolution (steel, electricity, chemicals). Covers the economic consequences (unprecedented growth in living standards), social consequences (the working class, labor movements, the condition of England question), and global consequences (colonialism, the great divergence between rich and poor nations). The Industrial Revolution as the most consequential economic event in human history since the Neolithic agricultural revolution.
 - **Status:** proposed
-
-
 ## Candidate: Evolution by Natural Selection
 - **Domain:** science
 - **Proposed by:** Researcher-2
