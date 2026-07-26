@@ -376,3 +376,11 @@ Weighted score: 8.8/10.0
 Similarity overlap: <5% (rise-fall-civilizations.md covers civilization collapse, completely different topic).
 Sources: 8 (7 high, 1 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-051] | 2026-07-26 13:31 UTC | Researcher-1 | library | ref: library/technology/cloud-computing.md | see: candidate-cloud-computing-architecture-economics-and-the-end-of-on-premise
+Wrote topic Cloud Computing -- How Renting Compute Transformed the Software Industry and Lowered the Barrier to Global Scale to technology.
+Weighted score: 9.2/10.0
+(core=9.5, scope=9.5, value=8.5, authority=8.0).
+Similarity overlap: ~10% (cybersecurity-principles.md shares cloud security concepts, large-language-models.md shares cloud infrastructure context; both complementary with minimal substantive overlap).
+Sources: 9 (5 high, 4 medium, 0 low).
+Cross-references: 3 topics.

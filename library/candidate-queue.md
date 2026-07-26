@@ -28,10 +28,3 @@
 - **Scope:** The unifying theory of geology: continental drift, seafloor spreading, subduction zones, and the mechanisms that drive plate movement. How plate tectonics explains earthquakes, volcanoes, mountain building, and the distribution of natural resources. The history of the theory from Wegener's continental drift to modern GPS-confirmed plate motion.
 - **Status:** proposed
 
-## Candidate: Cloud Computing: Architecture, Economics, and the End of On-Premise
-- **Domain:** technology
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 7.7/10.0 (gap=8.0, compounding=6.0, timeliness=7.5, balance=10.0)
-- **Scope:** The shift from owning servers to renting compute: IaaS, PaaS, and SaaS models, the economics of scale that make AWS/Azure/GCP possible, and the architectural patterns (microservices, containers, serverless) that cloud enables. Why cloud computing changed the software industry's cost structure and barriers to entry, and the emerging concerns around vendor lock-in, data sovereignty, and repatriation.
-- **Status:** proposed
