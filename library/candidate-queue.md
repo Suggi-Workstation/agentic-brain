@@ -50,13 +50,6 @@
 - **Scope:** How companies manipulate the cash flow statement: misclassifying financing or investing cash flows as operating, factoring receivables to accelerate cash recognition, delaying payables to window-dress operating cash, and structured payables programs. Why the cash flow statement is harder to manipulate but far from immune. Red flags and forensic techniques.
 - **Status:** proposed
 
-## Candidate: Normative Ethics: Deontology, Consequentialism, and Virtue Ethics
-- **Domain:** ethics-philosophy
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
-- **Scope:** The three great frameworks of moral philosophy: Kantian deontology (duty, universal maxims, the categorical imperative), consequentialism (Bentham, Mill, utility maximization, the greatest happiness principle), and virtue ethics (Aristotle, eudaimonia, character, practical wisdom). How each framework answers "what should I do?" and their real-world applications in business, medicine, and personal life.
-- **Status:** proposed
 
 ## Candidate: Stoicism: The Philosophical Framework for a Life of Virtue
 - **Domain:** ethics-philosophy
