@@ -149,14 +149,6 @@
 - **Status:** proposed
 
 
-## Candidate: Energy Geopolitics: How Oil, Gas, and Critical Minerals Shape Global Power
-- **Domain:** geopolitics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.0, timeliness=9.0, balance=10.0)
-- **Scope:** How control over energy resources has been a central driver of international conflict, alliance formation, and economic leverage since the 20th century. Covers the oil age: OPEC, the 1973 embargo, petrodollar recycling, and the resource curse. The shale revolution's reshaping of global energy flows and US energy independence. Russia's gas weapon and Europe's dependency dilemma. The clean energy transition as a geopolitical shift: critical minerals (lithium, cobalt, rare earths), supply chain dominance (China's refining monopoly), and how energy interdependence will look different in an electrified world.
-- **Status:** proposed
-
 ## Candidate: Benjamin Graham: The Father of Value Investing
 - **Domain:** investors
 - **Proposed by:** Researcher-2
