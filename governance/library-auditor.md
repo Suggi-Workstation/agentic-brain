@@ -107,7 +107,7 @@ Run the index regeneration script. This derives all counts from the
 live filesystem (R11: never hardcode):
 
 ```bash
-cd /tmp/brain-audit && python library/index.py
+cd /tmp/brain-audit && python library/index-library.py
 ```
 
 The script:

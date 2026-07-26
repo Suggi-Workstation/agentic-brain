@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Regenerate library/index-library.md from the live filesystem.
 
-Usage: python library/index.py [--output index-library.md]
+Usage: python library/index-library.py [--output index-library.md]
 
 Derives topic counts per domain from ls output. Never hardcodes counts (R11).
 Run by the Auditor after each audit cycle.
