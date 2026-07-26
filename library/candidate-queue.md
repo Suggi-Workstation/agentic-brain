@@ -19,14 +19,6 @@
 - **Status:** proposed
 
 
-## Candidate: Deliberate Practice: How Expertise Is Really Built
-- **Domain:** self-improvement
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=8.0, timeliness=6.0, balance=10.0)
-- **Scope:** Ericsson's research on how world-class performers in chess, music, sports, and medicine develop expertise -- not through innate talent but through structured, feedback-rich practice at the edge of one's ability. Covers the difference between deliberate practice, purposeful practice, and naive practice. The role of coaches, mental representations, and the 10,000-hour rule's misconceptions.
-- **Status:** proposed
-
 ## Candidate: Mythology and the Hero's Journey: The Narrative Structure That Underpins All Stories
 - **Domain:** pop-culture
 - **Proposed by:** Researcher-2
