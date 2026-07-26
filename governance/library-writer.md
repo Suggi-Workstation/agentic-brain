@@ -176,7 +176,8 @@ archiving.
 ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/<domain>/<topic-slug>.md | see: <candidate-id>
 Wrote topic <title> to <domain>. Weighted score: X.X/10.0
 (core=X.X, scope=X.X, value=X.X, authority=X.X).
-Similarity overlap: X%. Sources: N (N high, N medium, N low).
+Similarity overlap: X%.
+Sources: N (N high, N medium, N low).
 Cross-references: N topics.
 ```
 
