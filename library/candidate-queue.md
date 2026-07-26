@@ -149,14 +149,6 @@
 - **Status:** proposed
 
 
-## Candidate: Causal Inference: Moving Beyond Correlation to Understand Why
-- **Domain:** mathematics-statistics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 9.2/10.0 (gap=9.5, compounding=8.5, timeliness=9.0, balance=10.0)
-- **Scope:** Why most statistical tools only measure association, not causation, and how the causal inference revolution (Rubin causal model, Pearl's do-calculus, directed acyclic graphs) has transformed epidemiology, economics, and the social sciences. Covers randomized controlled trials as the gold standard, natural experiments and instrumental variables, difference-in-differences, regression discontinuity, and the fundamental problem of causal inference: we can never observe the counterfactual. Why understanding causation matters for investing (correlation-based strategies vs. understanding business drivers), policy evaluation, and everyday reasoning.
-- **Status:** proposed
-
 ## Candidate: International Relations Theory: Realism, Liberalism, and Constructivism
 - **Domain:** geopolitics
 - **Proposed by:** Researcher-2

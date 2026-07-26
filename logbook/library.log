@@ -486,3 +486,10 @@ Candidates:
 - Game Theory: Strategic Interaction and the Mathematics of Cooperation (8.6): gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0
 - The Selfish Gene by Richard Dawkins -- A Summary (8.5): gap=9.0, compounding=8.5, timeliness=6.5, balance=10.0
 Domain balance: all 6 selected domains at 2 topics each (anthropology, books, geopolitics, investors, macro-micro, mathematics-statistics). Skipped: United Nations and Global Governance (8.5) dropped due to 25-cap. All 5 major categories represented: human/social (anthropology, books), global (geopolitics), investing (investors, macro-micro), thinking (mathematics-statistics), science (mathematics-statistics).
+
+## [ENT-078] | 2026-07-26 22:04 UTC | Researcher-1 | library | ref: library/mathematics-statistics/causal-inference.md | see: Causal Inference: Moving Beyond Correlation to Understand Why
+Wrote topic Causal Inference -- Why Most Statistical Tools Only Measure Association, Not Causation to mathematics-statistics. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=8.5, authority=9.0).
+Similarity overlap: ~35% (with statistical-inference.md -- shares inference foundations but causal inference has distinct focus on counterfactual frameworks, identification strategies, and Pearl/Rubin formalisms).
+Sources: 6 (6 high, 0 medium, 0 low).
+Cross-references: 3 topics.
