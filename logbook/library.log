@@ -392,3 +392,19 @@ Weighted score: 8.5/10.0
 Similarity overlap: ~20% (revenue-recognition-shenanigans.md covers income statement, beneish-m-score.md covers quantitative screening; cash flow statement is a distinct financial statement with minimal substantive overlap).
 Sources: 5 (1 high, 4 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-053] | 2026-07-26 13:55 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 11 candidates proposed, 0 skipped (24 slots available).
+Candidates:
+- Internet Culture and Memetics: How Ideas Spread, Mutate, and Compete Online (8.7): gap=8.5, compounding=8.0, timeliness=9.0, balance=10.0
+- Securities Regulation: The SEC, Disclosure, and the Rules That Protect Capital Markets (8.4): gap=8.5, compounding=8.5, timeliness=7.0, balance=10.0
+- The Medium Is the Message: How Communication Technology Shapes Thought (8.3): gap=8.0, compounding=8.0, timeliness=8.0, balance=10.0
+- Habit Formation: The Science of Building and Breaking Habits (8.3): gap=9.0, compounding=7.0, timeliness=7.0, balance=10.0
+- Intellectual Property: Patents, Copyright, and the Economics of Ideas (8.2): gap=8.0, compounding=7.5, timeliness=8.0, balance=10.0
+- Renewable Energy: The Physics, Economics, and Limits of the Energy Transition (8.2): gap=8.0, compounding=8.5, timeliness=9.0, balance=7.0
+- Deliberate Practice: How Expertise Is Really Built (8.1): gap=8.5, compounding=8.0, timeliness=6.0, balance=10.0
+- Mythology and the Hero's Journey: The Narrative Structure That Underpins All Stories (8.1): gap=8.5, compounding=8.0, timeliness=6.0, balance=10.0
+- Logical Fallacies: A Taxonomy of Broken Arguments (8.1): gap=8.0, compounding=7.5, timeliness=7.5, balance=10.0
+- The Yield Curve: What Bond Markets Tell Us About the Future (8.1): gap=8.0, compounding=8.5, timeliness=8.5, balance=7.0
+- Capital Structure: Debt, Equity, and the Modigliani-Miller Theorem (7.8): gap=8.5, compounding=8.0, timeliness=6.5, balance=7.0
+Domain balance: communication (0 topics), self-improvement (0), law-regulation (0), pop-culture (0) to value-investing (3 topics), technology (3).
