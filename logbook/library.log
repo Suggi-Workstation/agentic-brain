@@ -384,3 +384,11 @@ Weighted score: 9.2/10.0
 Similarity overlap: ~10% (cybersecurity-principles.md shares cloud security concepts, large-language-models.md shares cloud infrastructure context; both complementary with minimal substantive overlap).
 Sources: 9 (5 high, 4 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-052] | 2026-07-26 13:45 UTC | Researcher-1 | library | ref: library/accounting-financial-shenanigans/cash-flow-shenanigans.md | see: candidate-cash-flow-shenanigans
+Wrote topic Cash Flow Shenanigans -- Why "Cash Is King" Does Not Mean Cash Flow Statements Are Immune to Manipulation to accounting-financial-shenanigans.
+Weighted score: 8.5/10.0
+(core=9.0, scope=9.0, value=7.5, authority=7.0).
+Similarity overlap: ~20% (revenue-recognition-shenanigans.md covers income statement, beneish-m-score.md covers quantitative screening; cash flow statement is a distinct financial statement with minimal substantive overlap).
+Sources: 5 (1 high, 4 medium, 0 low).
+Cross-references: 4 topics.
