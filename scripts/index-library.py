@@ -10,7 +10,8 @@ import os
 import sys
 from datetime import datetime, timezone
 
-LIBRARY_DIR = os.path.dirname(os.path.abspath(__file__))
+BRAIN_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LIBRARY_DIR = os.path.join(BRAIN_ROOT, "library")
 OUTPUT = os.path.join(LIBRARY_DIR, "index-library.md")
 
 def count_topics(domain_path):
