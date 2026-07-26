@@ -99,3 +99,99 @@
 - **Discovery score:** 7.7/10.0 (gap=9.0, compounding=7.0, timeliness=8.5, balance=4.0)
 - **Scope:** Quantum computing leverages superposition and entanglement to solve certain problems exponentially faster than classical computers. Covers qubits vs. bits, the major approaches (superconducting, trapped ions, topological), the key algorithms (Shor's for factoring, Grover's for search), and the error correction challenge that keeps practical quantum advantage just out of reach. Current state of the race between Google, IBM, and startups. What quantum computing would mean for cryptography, drug discovery, and optimization.
 - **Status:** proposed
+
+## Candidate: Propaganda and Misinformation: How Information Is Weaponized
+- **Domain:** communication
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.6/10.0 (gap=8.5, compounding=7.5, timeliness=9.0, balance=10.0)
+- **Scope:** The techniques and systems through which information is deliberately distorted to manipulate belief and behavior. Covers propaganda models (Bernays, Goebbels, Soviet agitprop), modern misinformation ecosystems (social media amplification, algorithmic radicalization, deepfakes), and the psychology of why false information spreads faster than truth. The distinction between misinformation (accidental), disinformation (deliberate), and malinformation (true but weaponized). Counter-strategies: prebunking, fact-checking, media literacy, and platform governance.
+- **Status:** proposed
+
+## Candidate: Rhetoric: The Art of Persuasion
+- **Domain:** communication
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.0, timeliness=6.0, balance=10.0)
+- **Scope:** The classical art of persuasion from Aristotle's ethos-pathos-logos framework through Cicero's five canons to modern applications in politics, law, advertising, and everyday argument. Covers the rhetorical triangle, figures of speech and rhetorical devices, the psychology of persuasion (Cialdini's principles as bridge), and why understanding rhetoric is essential armor against manipulation. How the greatest speeches in history deployed rhetorical structure to achieve their effects.
+- **Status:** proposed
+
+## Candidate: Bond Pricing and Fixed Income Markets
+- **Domain:** finance
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
+- **Scope:** How bonds are priced, traded, and analyzed in the world's largest securities market. Covers bond math fundamentals: present value, yield-to-maturity, duration and convexity, the inverse relationship between price and yield. Spread across government bonds, corporate bonds, and emerging market debt. How credit rating agencies, default risk, and recovery rates shape bond pricing. The role of fixed income in portfolio construction and why the bond market's signals often precede equity market moves.
+- **Status:** proposed
+
+## Candidate: Banking: The Business of Maturity Transformation
+- **Domain:** finance
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
+- **Scope:** How banks create value through the fundamental alchemy of borrowing short and lending long. Covers the banking business model (net interest margin, deposit franchise, loan origination), the asset-liability management challenge, capital adequacy requirements (Basel III), and why bank runs happen when confidence in maturity transformation collapses. The recent history of banking crises (2008, SVB 2023) and what they reveal about the inherent fragility of the model. Shadow banking, fintech challengers, and the future of intermediation.
+- **Status:** proposed
+
+## Candidate: Ancient Civilizations and Their Legacies
+- **Domain:** history
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.0, timeliness=6.0, balance=10.0)
+- **Scope:** The foundational civilizations -- Mesopotamia, Egypt, the Indus Valley, China, Mesoamerica, Greece, and Rome -- and the institutions they built that still shape modern life: writing, law codes, currency, bureaucracy, democracy, roads, and aqueducts. Why civilizations rise (geographic luck, agricultural surplus, institutional innovation) and why they collapse (environmental degradation, institutional decay, external shock). Jared Diamond's framework alongside Toynbee's challenge-and-response theory. What the arc of ancient civilizations tells us about the fragility of complex societies.
+- **Status:** proposed
+
+## Candidate: Colonialism and Decolonization
+- **Domain:** history
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=8.5, timeliness=7.5, balance=10.0)
+- **Scope:** The half-millennium project of European imperial expansion, its economic logic (extraction, mercantilism, the triangular trade), its ideological justifications (the civilizing mission, scientific racism), and its unraveling in the 20th century. Covers the Scramble for Africa, the British Raj, the Belgian Congo, and the varied paths to independence (negotiated vs. violent). The enduring legacies: arbitrary borders that still drive conflict, extractive institutions that still shape development outcomes, and the postcolonial debate over reparations, cultural restitution, and neocolonialism through economic dependency.
+- **Status:** proposed
+
+## Candidate: Modern Portfolio Theory
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.5, timeliness=6.5, balance=10.0)
+- **Scope:** Harry Markowitz's Nobel-winning framework that transformed investing from art to science by formalizing the relationship between risk and return. Covers the efficient frontier, mean-variance optimization, the separation theorem, and the Capital Asset Pricing Model (CAPM) that followed. The practical limitations: estimation error in expected returns makes naive optimization dangerous, correlations are unstable in crises, and the Gaussian assumptions break at the tails. Black-Litterman as a Bayesian improvement. Why MPT remains the intellectual foundation of portfolio management even when practitioners deviate from its strict prescriptions.
+- **Status:** proposed
+
+## Candidate: Diversification: The Mathematics of Not Putting All Eggs in One Basket
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=8.0, timeliness=6.0, balance=10.0)
+- **Scope:** Why and how spreading capital across imperfectly correlated assets reduces portfolio risk without necessarily reducing expected returns. Covers the mathematics of correlation and covariance, the diversification ratio, how many stocks it takes to eliminate idiosyncratic risk (the Statman 1987 study and its updates), and the limits of diversification in market crises when correlations converge to one. The concentration-vs-diversification debate: when does adding the 21st position destroy value? Bridge to value-investing's argument for focused portfolios.
+- **Status:** proposed
+
+## Candidate: Public Health and Epidemiology
+- **Domain:** health-medicine
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 7.8/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=5.0)
+- **Scope:** The science of disease in populations: how outbreaks are detected, modeled, and controlled. Covers the basic reproduction number (R0), epidemiological curves, herd immunity thresholds, and the SIR model framework. Landmark public health interventions: sanitation, vaccination, smoking cessation. The COVID-19 pandemic as a case study in real-time epidemiology, the tension between public health measures and economic/political constraints, and how pandemic preparedness has (and has not) changed since 2020. The role of public health agencies (CDC, WHO) and the challenge of communicating uncertainty during a crisis.
+- **Status:** proposed
+
+## Candidate: Drug Development: From Molecule to Medicine
+- **Domain:** health-medicine
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 7.4/10.0 (gap=8.5, compounding=7.0, timeliness=7.5, balance=5.0)
+- **Scope:** The decade-long, billion-dollar process of bringing a new drug from laboratory discovery through clinical trials to regulatory approval. Covers the phases: target identification, lead optimization, preclinical testing, Phase I (safety), Phase II (efficacy), Phase III (large-scale confirmation), and Phase IV (post-market surveillance). Why most drug candidates fail (the valley of death between Phase I and Phase II). The economics: blockbuster drugs, orphan drug incentives, patent cliffs, and the pricing debate. Accelerated pathways like FDA breakthrough designation and the mRNA platform's promise for faster development cycles.
+- **Status:** proposed
+
+## Candidate: Deliberate Practice: The Science of Expertise Development
+- **Domain:** education-learning
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 7.4/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=5.0)
+- **Scope:** Anders Ericsson's framework that expert performance is not about innate talent but about how you practice: focused, feedback-rich, at the edge of current ability, with specific improvement goals. The 10,000-hour rule (and why it is a misunderstanding of Ericsson's work). How deliberate practice differs from mere repetition and from "flow" states. Applications beyond music and chess: programming, investing, writing, and medical diagnosis. Why most people plateau: they stop practicing deliberately once they reach acceptable performance, trading improvement for comfort.
+- **Status:** proposed
+
+## Candidate: The Feynman Technique and Learning Heuristics
+- **Domain:** education-learning
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-26
+- **Discovery score:** 6.9/10.0 (gap=8.0, compounding=6.5, timeliness=6.5, balance=5.0)
+- **Scope:** A survey of practical techniques for learning faster and deeper: the Feynman Technique (teach to learn; identify gaps; simplify until the explanation is clear), the Leitner system for spaced flashcards, the Pomodoro method for sustained focus, SQ3R for reading comprehension, and mind mapping for knowledge organization. How these heuristics connect to underlying cognitive science (elaborative rehearsal, testing effect, chunking). The meta-skill of learning how to learn as the highest-leverage investment in a world where most specific knowledge decays rapidly.
+- **Status:** proposed

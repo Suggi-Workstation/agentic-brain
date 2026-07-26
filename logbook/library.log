@@ -415,3 +415,20 @@ Wrote topic Cognitive Load Theory to education-learning. Weighted score: 8.6/10.
 Similarity overlap: 15% (with spaced-repetition-and-retrieval-practice.md -- related learning science domain, distinct topics).
 Sources: 7 (5 high, 2 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-070] | 2026-07-26 17:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 12 candidates proposed, 0 skipped (queue at 23/25).
+Candidates:
+- Propaganda and Misinformation: How Information Is Weaponized (8.6): gap=8.5, compounding=7.5, timeliness=9.0, balance=10.0
+- Rhetoric: The Art of Persuasion (8.1): gap=9.0, compounding=7.0, timeliness=6.0, balance=10.0
+- Bond Pricing and Fixed Income Markets (8.6): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- Banking: The Business of Maturity Transformation (8.4): gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Ancient Civilizations and Their Legacies (8.3): gap=9.0, compounding=8.0, timeliness=6.0, balance=10.0
+- Colonialism and Decolonization (8.5): gap=8.5, compounding=8.5, timeliness=7.5, balance=10.0
+- Modern Portfolio Theory (8.5): gap=9.0, compounding=8.5, timeliness=6.5, balance=10.0
+- Diversification: The Mathematics of Not Putting All Eggs in One Basket (8.1): gap=8.5, compounding=8.0, timeliness=6.0, balance=10.0
+- Public Health and Epidemiology (7.8): gap=9.0, compounding=7.5, timeliness=8.0, balance=5.0
+- Drug Development: From Molecule to Medicine (7.4): gap=8.5, compounding=7.0, timeliness=7.5, balance=5.0
+- Deliberate Practice: The Science of Expertise Development (7.4): gap=8.5, compounding=7.5, timeliness=7.0, balance=5.0
+- The Feynman Technique and Learning Heuristics (6.9): gap=8.0, compounding=6.5, timeliness=6.5, balance=5.0
+Domain balance: communication (1 topics), finance (1 topics), history (1 topics), portfolio-risk-management (1 topics) to value-investing (3 topics), technology (3 topics), accounting-financial-shenanigans (3 topics).
