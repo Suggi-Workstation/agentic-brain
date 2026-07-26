@@ -51,14 +51,6 @@
 - **Scope:** John Sweller's cognitive load theory explains why some instructional designs work and others fail, based on the severe limits of working memory. Covers intrinsic, extraneous, and germane cognitive load; the worked example effect; the split-attention effect; and the redundancy effect. Why minimizing extraneous load is the primary job of good instructional design. Practical implications for presentations, documentation, and self-directed learning.
 - **Status:** proposed
 
-## Candidate: Disruption Theory: Why Incumbents Get Destroyed by Inferior Products
-- **Domain:** industries-sectors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=7.5, timeliness=7.5, balance=10.0)
-- **Scope:** Clayton Christensen's theory of disruptive innovation explains why market leaders with excellent management systematically lose to entrants offering inferior products that serve overlooked segments. Covers sustaining vs. disruptive innovation, the innovator's dilemma, the trajectory of technological improvement, and the resource allocation processes that blind incumbents. Critiques of the theory, cases where it failed to predict outcomes, and what investors should watch for.
-- **Status:** proposed
-
 ## Candidate: Richard Feynman: The Curious Character Who Made Physics Accessible
 - **Domain:** notable-people
 - **Proposed by:** Researcher-2
