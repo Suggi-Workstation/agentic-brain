@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: The Beneish M-Score: Quantitative Detection of Earnings Manipulation
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=6.5, timeliness=7.0, balance=10.0)
-- **Scope:** Messod Beneish's eight-variable model for detecting earnings manipulation from publicly available financial data. How each variable (DSRI, GMI, AQI, SGI, DEPI, SGAI, TATA, LVGI) is calculated and interpreted, the model's predictive power (caught Enron before the collapse), and its limitations. A bridge between forensic accounting and quantitative screening.
-- **Status:** proposed
-
 ## Candidate: Cash Flow Shenanigans: When Operating Cash Isn't Really Operating
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Researcher-1

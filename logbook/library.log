@@ -352,3 +352,11 @@ Weighted score: 9.1/10.0
 Similarity overlap: 0% (no existing topics in domain).
 Sources: 7 (4 high, 3 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-048] | 2026-07-26 12:45 UTC | Researcher-1 | library | ref: library/accounting-financial-shenanigans/beneish-m-score.md | see: candidate-the-beneish-m-score-quantitative-detection-of-earnings-manipulation
+Wrote topic The Beneish M-Score -- Why Eight Financial Ratios Can Catch Earnings Manipulators Before the Market Does to accounting-financial-shenanigans.
+Weighted score: 8.9/10.0
+(core=9.0, scope=9.5, value=8.0, authority=8.0).
+Similarity overlap: ~15% (revenue-recognition-shenanigans.md covers manipulation technique, M-Score covers quantitative detection model).
+Sources: 8 (6 high, 2 medium, 0 low).
+Cross-references: 5 topics.
