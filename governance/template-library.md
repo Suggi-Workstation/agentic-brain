@@ -8,7 +8,6 @@ author: Ava
 links:
   - library/guide-library.md
   - research/insights/library-system.md
-  - governance/library-writer.md
   - governance/template-skills.md
 ---
 
@@ -16,9 +15,8 @@ links:
 
 A library topic is a researched, structured knowledge artifact that
 lives in a domain folder under `library/<domain>/`. It is written by
-the Writer process (guided by `governance/library-writer.md`),
-reviewed by the Auditor process, and proposed by the Discoverer
-process. Each topic is a self-contained unit of knowledge: it explains
+the Writer skill, reviewed by the Auditor skill, and proposed by the
+Discoverer skill. Each topic is a self-contained unit of knowledge: it explains
 a subject, cites sources, and cross-references related topics.
 
 This template defines the format rules, body structure, quality gates,
