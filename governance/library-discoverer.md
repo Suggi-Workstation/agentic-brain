@@ -75,8 +75,6 @@ empty.
 Select a subset of domains (recommended: 4-6 per cycle). Prioritize:
 1. Domains with the fewest topics (balance-driven).
 2. Domains not visited in the last 3 cycles (coverage-driven).
-3. At least one domain from each major category (investing, science,
-   human/social, global, thinking) for breadth.
 
 ### 4. Read each selected domain anchor
 
@@ -222,7 +220,6 @@ failures only.
 
 - [ ] Topic count survey completed before selecting domains (PASS / HALT)
 - [ ] Underrepresented domains prioritized in domain selection (PASS / HALT)
-- [ ] At least one domain from each major category included (PASS / HALT)
 - [ ] Balance dimension score reflects actual topic counts, not assumed (PASS / HALT)
 
 ### Queue
