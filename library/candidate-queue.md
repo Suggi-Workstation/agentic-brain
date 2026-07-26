@@ -98,14 +98,6 @@
 - **Scope:** Benjamin Graham's quantitative screening methodology: the Graham Number (sqrt(22.5 x EPS x BVPS)), net-net working capital screens, and the defensive investor criteria. How modern value screens (low P/E, low P/B, high dividend yield) extend Graham's approach. The academic evidence on value factor performance (Fama-French), the value premium's persistence, and why mechanical screens produce false positives that require qualitative analysis.
 - **Status:** proposed
 
-## Candidate: Warren Buffett: The Evolution of the World's Greatest Capital Allocator
-- **Domain:** investors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
-- **Scope:** Buffett's intellectual evolution from Graham-style cigar-butt investing to Munger-influenced quality compounding. Key phases: the Buffett Partnership years (1956-1969), the See's Candies epiphany (1972), the GEICO and Washington Post investments, the Coca-Cola decade, and the massive capital allocation challenges of Berkshire Hathaway today. Analysis of his greatest hits and his acknowledged mistakes (Dexter Shoe, US Air, Tesco). How his philosophy adapted as his capital base grew from millions to hundreds of billions.
-- **Status:** proposed
-
 ## Candidate: The Industrial Revolution and Its Consequences
 - **Domain:** history
 - **Proposed by:** Researcher-2
