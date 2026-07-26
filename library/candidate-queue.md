@@ -135,14 +135,6 @@
 - **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.5, timeliness=6.0, balance=10.0)
 - **Scope:** The transformation from agrarian to industrial society (c.1760-1914): why it began in Britain, the role of coal, steam, and iron, the factory system and urbanization, and the second industrial revolution (steel, electricity, chemicals). Covers the economic consequences (unprecedented growth in living standards), social consequences (the working class, labor movements, the condition of England question), and global consequences (colonialism, the great divergence between rich and poor nations). The Industrial Revolution as the most consequential economic event in human history since the Neolithic agricultural revolution.
 - **Status:** proposed
-## Candidate: Nuclear Deterrence and the Logic of Mutually Assured Destruction
-- **Domain:** geopolitics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.4/10.0 (gap=9.5, compounding=7.0, timeliness=8.0, balance=8.0)
-- **Scope:** How nuclear weapons created an unprecedented strategic logic: the theory of deterrence, first-strike vs second-strike capability, the nuclear triad, and why MAD produced the "long peace" between superpowers despite intense hostility. Covers the history from Hiroshima to the Cuban Missile Crisis, arms control treaties (NPT, SALT, START, INF), and contemporary proliferation challenges with North Korea, Iran, and the erosion of arms control architecture. Why nuclear deterrence is stable but fragile.
-- **Status:** proposed
-
 ## Candidate: Black Swan Theory and Fat-Tailed Distributions
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Researcher-2
