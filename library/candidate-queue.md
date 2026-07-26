@@ -19,14 +19,6 @@
 - **Status:** proposed
 
 
-## Candidate: Intellectual Property: Patents, Copyright, and the Economics of Ideas
-- **Domain:** law-regulation
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.2/10.0 (gap=8.0, compounding=7.5, timeliness=8.0, balance=10.0)
-- **Scope:** The legal frameworks that turn intangible creations into property rights: patent law (utility, design, plant patents), copyright (fair use, DMCA, duration), trademark, and trade secrets. Examines the economic rationale for IP (incentivizing innovation vs. monopoly costs) and contemporary debates around AI-generated content, patent trolls, and pharmaceutical patent evergreening.
-- **Status:** proposed
-
 ## Candidate: Renewable Energy: The Physics, Economics, and Limits of the Energy Transition
 - **Domain:** earth-climate
 - **Proposed by:** Researcher-2
