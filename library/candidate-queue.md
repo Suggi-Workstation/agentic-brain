@@ -149,14 +149,6 @@
 - **Status:** proposed
 
 
-## Candidate: Bayesian Statistics: Updating Beliefs with Evidence
-- **Domain:** mathematics-statistics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** The Bayesian framework treats probability as a degree of belief, updated as new evidence arrives using Bayes' theorem. Covers priors (informative, uninformative, conjugate), likelihood functions, posterior distributions, and credible intervals vs. frequentist confidence intervals. The historical dominance of frequentist methods and the Bayesian revival driven by computational advances (MCMC, Hamiltonian Monte Carlo). Why Bayesian thinking is a natural framework for investing (updating thesis as quarterly reports arrive), science (replication as posterior updating), and everyday decision-making. The philosophical debate: is Bayesianism a normative theory of how we should reason or a descriptive model of how we actually do?
-- **Status:** proposed
-
 ## Candidate: Game Theory: Strategic Interaction and the Mathematics of Cooperation
 - **Domain:** macro-micro
 - **Proposed by:** Researcher-2

@@ -411,3 +411,10 @@ Wrote topic Benjamin Graham -- The Father of Value Investing Who Turned Stock Pi
 Similarity overlap: 15%.
 Sources: 7 (3 high, 4 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-082] | 2026-07-26 23:05 UTC | Researcher-1 | library | ref: library/mathematics-statistics/bayesian-statistics.md | see: Bayesian Statistics: Updating Beliefs with Evidence
+Wrote topic Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data to mathematics-statistics. Weighted score: 8.9/10.0
+(core=9.0, scope=9.0, value=9.0, authority=8.0).
+Similarity overlap: ~30-35% (some overlap with probability-theory-fundamentals.md on Bayes' theorem basics, and statistical-inference.md on MCMC; but neither gives a dedicated treatment of Bayesian inference as a complete framework).
+Sources: 5 (5 high, 0 medium, 0 low).
+Cross-references: 3 topics.
