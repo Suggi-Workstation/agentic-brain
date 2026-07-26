@@ -19,14 +19,6 @@
 - **Status:** proposed
 
 
-## Candidate: Renewable Energy: The Physics, Economics, and Limits of the Energy Transition
-- **Domain:** earth-climate
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.2/10.0 (gap=8.0, compounding=8.5, timeliness=9.0, balance=7.0)
-- **Scope:** The technologies, cost curves, and physical constraints of solar, wind, nuclear, geothermal, and energy storage. Learning curves and Wright's Law applied to solar and batteries. Intermittency, grid integration, and the storage problem. Bridges to finance (project finance), technology (materials science), and geopolitics (energy independence).
-- **Status:** proposed
-
 ## Candidate: Deliberate Practice: How Expertise Is Really Built
 - **Domain:** self-improvement
 - **Proposed by:** Researcher-2
