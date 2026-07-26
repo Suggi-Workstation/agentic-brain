@@ -166,14 +166,6 @@
 - **Status:** proposed
 
 
-## Candidate: The Intelligent Investor by Benjamin Graham -- A Summary
-- **Domain:** books
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-25
-- **Discovery score:** 8.6/10.0 (gap=9.5, compounding=8.0, timeliness=6.5, balance=10.0)
-- **Scope:** A summary of Benjamin Graham's foundational text that defined value investing as a discipline. Covers the book's core concepts: Mr. Market as an allegory for market volatility, margin of safety as the central principle of investing, the distinction between investment and speculation, and the defensive vs enterprising investor frameworks. Assessment of what has aged well, what has not, and why Buffett called it the best book on investing ever written.
-- **Status:** proposed
-
 ## Candidate: Evolution by Natural Selection
 - **Domain:** science
 - **Proposed by:** Researcher-2
