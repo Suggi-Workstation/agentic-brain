@@ -124,14 +124,6 @@
 - **Scope:** The foundational civilizations -- Mesopotamia, Egypt, the Indus Valley, China, Mesoamerica, Greece, and Rome -- and the institutions they built that still shape modern life: writing, law codes, currency, bureaucracy, democracy, roads, and aqueducts. Why civilizations rise (geographic luck, agricultural surplus, institutional innovation) and why they collapse (environmental degradation, institutional decay, external shock). Jared Diamond's framework alongside Toynbee's challenge-and-response theory. What the arc of ancient civilizations tells us about the fragility of complex societies.
 - **Status:** proposed
 
-## Candidate: Modern Portfolio Theory
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.5, timeliness=6.5, balance=10.0)
-- **Scope:** Harry Markowitz's Nobel-winning framework that transformed investing from art to science by formalizing the relationship between risk and return. Covers the efficient frontier, mean-variance optimization, the separation theorem, and the Capital Asset Pricing Model (CAPM) that followed. The practical limitations: estimation error in expected returns makes naive optimization dangerous, correlations are unstable in crises, and the Gaussian assumptions break at the tails. Black-Litterman as a Bayesian improvement. Why MPT remains the intellectual foundation of portfolio management even when practitioners deviate from its strict prescriptions.
-- **Status:** proposed
-
 ## Candidate: Diversification: The Mathematics of Not Putting All Eggs in One Basket
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Researcher-2
