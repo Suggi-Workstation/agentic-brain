@@ -51,13 +51,6 @@
 - **Scope:** John Sweller's cognitive load theory explains why some instructional designs work and others fail, based on the severe limits of working memory. Covers intrinsic, extraneous, and germane cognitive load; the worked example effect; the split-attention effect; and the redundancy effect. Why minimizing extraneous load is the primary job of good instructional design. Practical implications for presentations, documentation, and self-directed learning.
 - **Status:** proposed
 
-## Candidate: Richard Feynman: The Curious Character Who Made Physics Accessible
-- **Domain:** notable-people
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
-- **Scope:** Biography of the Nobel Prize-winning physicist known for quantum electrodynamics, the Feynman diagrams, and an extraordinary gift for explanation. Covers his Manhattan Project work, the Challenger disaster investigation, his philosophy of understanding through teaching (the Feynman Technique), and his insistence on intellectual honesty above all. The durable lessons: know the difference between knowing the name of something and knowing something, and never fool yourself.
-- **Status:** proposed
 
 ## Candidate: Marcus Aurelius: The Philosopher Emperor and the Practice of Stoic Leadership
 - **Domain:** notable-people
