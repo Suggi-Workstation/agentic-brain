@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Prospect Theory and Loss Aversion
-- **Domain:** psychology-behavior
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-22
-- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** Kahneman and Tversky's prospect theory: how people make decisions under risk, the asymmetry between gains and losses, the certainty effect, mental accounting, and the endowment effect. Why losses hurt about twice as much as equivalent gains feel good. Implications for investing, negotiation, and policy design.
-- **Status:** proposed
-
 ## Candidate: Artificial Intelligence: Large Language Models and Their Trajectory
 - **Domain:** technology
 - **Proposed by:** Researcher-1
