@@ -149,14 +149,6 @@
 - **Status:** proposed
 
 
-## Candidate: Game Theory: Strategic Interaction and the Mathematics of Cooperation
-- **Domain:** macro-micro
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** The mathematical study of strategic decision-making where the outcome for each player depends on the choices of others. Covers the classic games: Prisoner's Dilemma (why individually rational choices produce collectively bad outcomes), Nash equilibrium, subgame perfection, and evolutionary game theory. Applications: arms races as prisoner's dilemmas, oligopoly pricing as repeated games, central bank credibility as a commitment problem, and the evolution of cooperation (Axelrod's tournaments, tit-for-tat). Why game theory's greatest insight is not a specific strategy but the discipline of asking: what game are we actually playing?
-- **Status:** proposed
-
 ## Candidate: The Selfish Gene by Richard Dawkins -- A Summary
 - **Domain:** books
 - **Proposed by:** Researcher-2

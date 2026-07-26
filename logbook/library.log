@@ -418,3 +418,10 @@ Wrote topic Bayesian Statistics -- Why Treating Probability as a Degree of Belie
 Similarity overlap: ~30-35% (some overlap with probability-theory-fundamentals.md on Bayes' theorem basics, and statistical-inference.md on MCMC; but neither gives a dedicated treatment of Bayesian inference as a complete framework).
 Sources: 5 (5 high, 0 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-083] | 2026-07-26 23:15 UTC | Researcher-1 | library | ref: library/macro-micro/game-theory-strategic-interaction-and-cooperation.md | see: Game Theory: Strategic Interaction and the Mathematics of Cooperation
+Wrote topic Game Theory -- Why Individually Rational Choices Produce Collectively Irrational Outcomes to macro-micro. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.5, authority=7.5).
+Similarity overlap: <20% (no existing game theory topic in macro-micro; inflation-dynamics.md and monetary-policy-and-central-banking.md cover different subjects).
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 3 topics.
