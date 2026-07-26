@@ -60,7 +60,7 @@ in the published topic file.
 - [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. Contains substantive content -- at least 400 words. (G12) (PASS / HALT)
 - [ ] `## Implications` section present -- why the topic matters, practical application. Contains substantive content -- at least 400 words. (G12) (PASS / HALT)
 - [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Sources (PASS / HALT)
-- [ ] Body sections follow order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional) -> Sources -> See Also. No content after `## See Also`. (G11) (PASS / HALT)
+- [ ] Body sections follow order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional sections) -> Sources -> See Also. No content after `## See Also`. (G11) (PASS / HALT)
 - [ ] `## Sources` section present with 3+ sources. Each source annotated with authority rating (high/medium/low). At least 2 of 3+ sources are high or medium. (G4) (PASS / HALT)
 - [ ] `## See Also` section present with at least 1 cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
 - [ ] Cross-reference targets verified: each path in `## See Also` and `links:` frontmatter confirmed to exist in the brain clone via `ls <path>` before committing (G5) (PASS / HALT)
