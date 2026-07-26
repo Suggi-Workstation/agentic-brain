@@ -19,14 +19,6 @@
 - **Status:** proposed
 
 
-## Candidate: Mythology and the Hero's Journey: The Narrative Structure That Underpins All Stories
-- **Domain:** pop-culture
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=8.0, timeliness=6.0, balance=10.0)
-- **Scope:** Campbell's monomyth (the Hero's Journey) as a universal narrative template across cultures and eras. The 17 stages from Call to Adventure to Freedom to Live. Jungian archetypes (the Mentor, the Shadow, the Trickster) and their psychological resonance. How Hollywood, video games, and brand storytelling consciously deploy this structure -- and critiques of Campbell's universality claims.
-- **Status:** proposed
-
 ## Candidate: Logical Fallacies: A Taxonomy of Broken Arguments
 - **Domain:** communication
 - **Proposed by:** Researcher-2
