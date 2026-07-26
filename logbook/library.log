@@ -336,3 +336,11 @@ Weighted score: 9.2/10.0
 (core=9.5, scope=9.5, value=8.5, authority=8.0).
 Similarity overlap: 0%. Sources: 7 (4 high, 3 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-046] | 2026-07-26 12:16 UTC | Researcher-1 | library | ref: library/valuation-screening/graham-number-quantitative-value-screens.md | see: candidate-the-graham-number-and-quantitative-value-screens
+Wrote topic The Graham Number and Quantitative Value Screens -- Why Mechanical Filters Produce Superior Returns but Require Human Judgment to valuation-screening.
+Weighted score: 8.9/10.0
+(core=9.5, scope=9.5, value=8.0, authority=7.0).
+Similarity overlap: ~25% (multiples analysis shares P/E and P/B building blocks but Graham screens are prescriptive rules with specific thresholds).
+Sources: 6 (4 high, 2 medium, 0 low).
+Cross-references: 4 topics.

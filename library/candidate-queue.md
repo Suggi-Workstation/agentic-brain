@@ -59,14 +59,6 @@
 - **Discovery score:** 7.7/10.0 (gap=8.0, compounding=6.0, timeliness=7.5, balance=10.0)
 - **Scope:** The shift from owning servers to renting compute: IaaS, PaaS, and SaaS models, the economics of scale that make AWS/Azure/GCP possible, and the architectural patterns (microservices, containers, serverless) that cloud enables. Why cloud computing changed the software industry's cost structure and barriers to entry, and the emerging concerns around vendor lock-in, data sovereignty, and repatriation.
 - **Status:** proposed
-## Candidate: The Graham Number and Quantitative Value Screens
-- **Domain:** valuation-screening
-- **Proposed by:** Link
-- **Date:** 2026-07-24
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.5, timeliness=6.5, balance=10.0)
-- **Scope:** Benjamin Graham's quantitative screening methodology: the Graham Number (sqrt(22.5 x EPS x BVPS)), net-net working capital screens, and the defensive investor criteria. How modern value screens (low P/E, low P/B, high dividend yield) extend Graham's approach. The academic evidence on value factor performance (Fama-French), the value premium's persistence, and why mechanical screens produce false positives that require qualitative analysis.
-- **Status:** proposed
-
 ## Candidate: Black Swan Theory and Fat-Tailed Distributions
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Researcher-2
