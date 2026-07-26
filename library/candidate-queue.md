@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Revenue Recognition Shenanigans: How Companies Inflate the Top Line
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=6.0, timeliness=6.5, balance=10.0)
-- **Scope:** The most common form of financial statement fraud: premature revenue recognition, fictitious sales, bill-and-hold arrangements, and channel stuffing. How each technique works, the red flags to watch for in filings, and how to estimate the true revenue impact. Foundation for all accounting fraud detection.
-- **Status:** proposed
-
 ## Candidate: The Beneish M-Score: Quantitative Detection of Earnings Manipulation
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Researcher-1
