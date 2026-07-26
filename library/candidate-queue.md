@@ -19,14 +19,6 @@
 - **Status:** proposed
 
 
-## Candidate: Securities Regulation: The SEC, Disclosure, and the Rules That Protect Capital Markets
-- **Domain:** law-regulation
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** The legal framework governing public securities markets: the Securities Act of 1933, Securities Exchange Act of 1934, SEC enforcement powers, disclosure requirements (10-K, 10-Q, 8-K), insider trading rules, and the policy rationale behind market regulation. Bridges to finance and value-investing by explaining the legal infrastructure that makes public market investing possible.
-- **Status:** proposed
-
 ## Candidate: The Medium Is the Message: How Communication Technology Shapes Thought
 - **Domain:** communication
 - **Proposed by:** Researcher-2
