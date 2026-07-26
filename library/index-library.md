@@ -1,11 +1,11 @@
 # Library Master Index
 
-<!-- Regenerated 2026-07-26 12:40 UTC -->
+<!-- Regenerated 2026-07-26 14:00 UTC -->
 <!-- Source of truth: filesystem. This file is derived, never maintained by hand. -->
 <!-- To verify: ls library/<domain>/*.md -->
 
-- **accounting-financial-shenanigans**: 1 topics
-- **anthropology**: 1 topics
+- **accounting-financial-shenanigans**: 3 topics
+- **anthropology**: 2 topics
 - **books**: 2 topics
 - **case-studies**: 3 topics
 - **coding-agentic-ai**: 3 topics
@@ -25,13 +25,13 @@
 - **notable-people**: 0 topics
 - **pop-culture**: 0 topics
 - **portfolio-risk-management**: 1 topics
-- **probabilistic-thinking-forecasting**: 2 topics
+- **probabilistic-thinking-forecasting**: 3 topics
 - **psychology-behavior**: 2 topics
 - **science**: 2 topics
 - **self-improvement**: 0 topics
-- **technology**: 2 topics
+- **technology**: 3 topics
 - **valuation-screening**: 3 topics
 - **value-investing**: 3 topics
 
-**Total: 41 topics across 28 domains**
+**Total: 46 topics across 28 domains**
 
