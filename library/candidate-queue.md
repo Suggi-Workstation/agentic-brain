@@ -90,13 +90,6 @@
 - **Discovery score:** 7.7/10.0 (gap=8.0, compounding=6.0, timeliness=7.5, balance=10.0)
 - **Scope:** The shift from owning servers to renting compute: IaaS, PaaS, and SaaS models, the economics of scale that make AWS/Azure/GCP possible, and the architectural patterns (microservices, containers, serverless) that cloud enables. Why cloud computing changed the software industry's cost structure and barriers to entry, and the emerging concerns around vendor lock-in, data sovereignty, and repatriation.
 - **Status:** proposed
-## Candidate: The Apple Turnaround (1997-2010): Product Strategy and Innovation
-- **Domain:** case-studies
-- **Proposed by:** Link
-- **Date:** 2026-07-24
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** Apple's near-bankruptcy in 1997 and its transformation into the world's most valuable company: Steve Jobs's return, the product-line simplification, the iMac revival, the iPod/iTunes ecosystem, the iPhone's category creation, and the retail store strategy. How design thinking, supply chain mastery, and ecosystem lock-in created an economic moat. Lessons for turnarounds, innovation strategy, and brand-building.
-- **Status:** proposed
 ## Candidate: The Graham Number and Quantitative Value Screens
 - **Domain:** valuation-screening
 - **Proposed by:** Link
