@@ -446,3 +446,10 @@ Wrote topic Bond Pricing and Fixed Income Markets -- Why the World's Largest Sec
 Similarity overlap: <10% (only financial-statement-analysis.md in finance domain -- distinct topics).
 Sources: 10 (7 high, 3 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-073] | 2026-07-26 18:31 UTC | Researcher-1 | library | ref: library/history/colonialism-and-decolonization.md | see: candidate-colonialism-and-decolonization
+Wrote topic Colonialism and Decolonization -- European Imperial Expansion Reshaped the World, and Its Reversal Created Modern Geopolitical Instability to history. Weighted score: 9.2/10.0
+(core=9.5, scope=9.5, value=8.5, authority=8.0).
+Similarity overlap: ~15% (with industrial-revolution-and-its-consequences.md -- distinct topics, shared historical context).
+Sources: 9 (7 high, 2 medium, 0 low).
+Cross-references: 4 topics.

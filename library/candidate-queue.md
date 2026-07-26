@@ -124,14 +124,6 @@
 - **Scope:** The foundational civilizations -- Mesopotamia, Egypt, the Indus Valley, China, Mesoamerica, Greece, and Rome -- and the institutions they built that still shape modern life: writing, law codes, currency, bureaucracy, democracy, roads, and aqueducts. Why civilizations rise (geographic luck, agricultural surplus, institutional innovation) and why they collapse (environmental degradation, institutional decay, external shock). Jared Diamond's framework alongside Toynbee's challenge-and-response theory. What the arc of ancient civilizations tells us about the fragility of complex societies.
 - **Status:** proposed
 
-## Candidate: Colonialism and Decolonization
-- **Domain:** history
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** The half-millennium project of European imperial expansion, its economic logic (extraction, mercantilism, the triangular trade), its ideological justifications (the civilizing mission, scientific racism), and its unraveling in the 20th century. Covers the Scramble for Africa, the British Raj, the Belgian Congo, and the varied paths to independence (negotiated vs. violent). The enduring legacies: arbitrary borders that still drive conflict, extractive institutions that still shape development outcomes, and the postcolonial debate over reparations, cultural restitution, and neocolonialism through economic dependency.
-- **Status:** proposed
-
 ## Candidate: Modern Portfolio Theory
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Researcher-2
