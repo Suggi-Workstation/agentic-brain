@@ -149,10 +149,3 @@
 - **Status:** proposed
 
 
-## Candidate: The Selfish Gene by Richard Dawkins -- A Summary
-- **Domain:** books
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.5, timeliness=6.5, balance=10.0)
-- **Scope:** A summary and critical assessment of Richard Dawkins's 1976 masterpiece that reframed evolutionary biology around the gene-centered view. Covers the core argument: genes, not organisms or species, are the fundamental unit of natural selection. The organism is a survival machine built by genes to propagate themselves. Key concepts: replicators vs. vehicles, kin selection and Hamilton's rule, the concept of the extended phenotype, and the provocative final chapter on memes as cultural replicators (the origin of meme theory). Why the book remains controversial: its metaphors are easily misunderstood as genetic determinism, but its explanatory power for altruism, eusociality, and apparent self-sacrifice in nature is unmatched.
-- **Status:** proposed
