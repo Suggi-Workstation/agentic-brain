@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Ritual and Religion as Cultural Phenomena: How Societies Construct the Sacred
-- **Domain:** anthropology
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
-- **Scope:** How different societies construct and maintain systems of shared belief, ritual practice, and sacred meaning. Covers the anthropological study of religion from Durkheim (religion as society worshipping itself) to Geertz (religion as cultural system) and Turner (ritual as social drama). Major cross-cultural patterns: animism, ancestor worship, shamanism, polytheism, and monotheism. The functions of ritual -- marking transitions, reinforcing social bonds, managing anxiety, and legitimizing authority. Why religion is a human universal, what secularization theory got wrong, and the relationship between ritual and the emergence of large-scale cooperation.
-- **Status:** proposed
-
 ## Candidate: Kinship and Social Structures: The Universal Grammar of Human Relatedness
 - **Domain:** anthropology
 - **Proposed by:** Researcher-2
