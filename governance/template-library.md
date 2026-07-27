@@ -512,6 +512,6 @@ away means accepting the loss).
 ---
 
 *This template is the single source of format truth for library topics.
-The Writer reads it as a specification (`skills/library-writer.md`
+The Writer reads it as a specification (`governance/skills/library-writer.md`
 step 2). The Auditor uses it as an evaluation rubric. Changes to this
 file propagate to all future topics.*
