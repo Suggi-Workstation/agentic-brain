@@ -1,0 +1,113 @@
+<!-- library.log archive -- entries 7-114 (line range)
+     Moved from active log on 2026-07-27 02:25 UTC
+     Active log continues from ENT-044 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-029] | 2026-07-25 20:03 UTC | Researcher-1 | library | ref: library/books/thinking-fast-and-slow.md | see: candidate-thinking-fast-and-slow-summary
+Wrote topic Thinking, Fast and Slow -- How Daniel Kahneman's Dual-System Model Reveals the Predictable Irrationality of Human Judgment to books. Weighted score: 9.4/10.0
+(core=9.5, scope=10.0, value=9.0, authority=7.5).
+Similarity overlap: 0%. Sources: 5 (3 high, 2 medium, 0 low).
+Cross-references: 2 topics.
+
+## [ENT-030] | 2026-07-26 08:04 UTC | Researcher-1 | library | ref: library/portfolio-risk-management/kelly-criterion.md | see: candidate-kelly-criterion-optimal-position-sizing
+Wrote topic The Kelly Criterion -- Why Maximizing Geometric Growth Beats Maximizing Expected Value to portfolio-risk-management. Weighted score: 9.2/10.0
+(core=9.5, scope=9.5, value=9.0, authority=7.5).
+Similarity overlap: 0%. Sources: 7 (6 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-031] | 2026-07-26 08:15 UTC | Researcher-1 | library | ref: library/books/the-intelligent-investor.md | see: candidate-the-intelligent-investor-summary
+Wrote topic The Intelligent Investor -- Benjamin Graham's Framework for Disciplined, Risk-Averse Investing That Has Outlived Every Market Cycle to books.
+Weighted score: 9.2/10.0 (core=9.5, scope=10.0, value=8.5, authority=6.5).
+Similarity overlap: 0%. Sources: 6 (5 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-032] | 2026-07-26 08:30 UTC | Researcher-1 | library | ref: library/anthropology/rise-fall-civilizations.md | see: candidate-rise-fall-civilizations
+Wrote topic The Rise and Fall of Civilizations -- Complexity Is a Trap That Every Society Eventually Springs to anthropology.
+Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.5).
+Similarity overlap: 0%. Sources: 7 (6 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-033] | 2026-07-26 08:45 UTC | Researcher-1 | library | ref: library/value-investing/intrinsic-value-estimation-methods.md | see: candidate-intrinsic-value-estimation-methods
+Wrote topic Intrinsic Value Estimation Methods -- The Three Pillars of Valuation and Why You Need All of Them to value-investing. Weighted score: 9.3/10.0
+(core=9.5, scope=10.0, value=9.0, authority=7.0).
+Similarity overlap: 35% (with margin-of-safety.md -- complementary, not duplicative).
+Sources: 8 (6 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-034] | 2026-07-26 09:02 UTC | Researcher-1 | library | ref: library/science/evolution-by-natural-selection.md | see: candidate-evolution-by-natural-selection
+Wrote topic Evolution by Natural Selection -- How Random Variation Plus Non-Random Selection Produces Complex Adaptation Without Design to science.
+Weighted score: 9.0/10.0
+(core=9.5, scope=9.0, value=8.5, authority=8.5).
+Similarity overlap: 15% (with scientific-method-falsifiability.md -- minimal thematic overlap; complementary).
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 2 topics.
+
+## [ENT-035] | 2026-07-26 09:16 UTC | Researcher-1 | library | ref: library/health-medicine/immune-system.md | see: candidate-the-immune-system-how-the-body-defends-itself
+Wrote topic The Immune System -- How Distributed Detection, Amplification Cascades, and Memory Defend the Body from a World of Pathogens to health-medicine. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: <10% (with longevity-science-healthspan.md -- complementary, different topic).
+Sources: 7 (5 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-036] | 2026-07-26 09:30 UTC | Researcher-1 | library | ref: library/geopolitics/nuclear-deterrence-mad.md | see: candidate-nuclear-deterrence-mad
+Wrote topic Nuclear Deterrence -- How the Threat of Mutual Annihilation Produced the Long Peace to geopolitics. Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=8.0).
+Similarity overlap: 10% (with us-china-great-power-competition.md -- minimal thematic overlap).
+Sources: 7 (7 high, 0 medium, 0 low).
+Cross-references: 2 topics.
+
+## [ENT-037] | 2026-07-26 09:47 UTC | Researcher-1 | library | ref: library/ethics-philosophy/normative-ethics.md | see: candidate-normative-ethics-deontology-consequentialism-and-virtue-ethics
+Wrote topic Normative Ethics -- How Deontology, Consequentialism, and Virtue Ethics Give Radically Different Answers to "What Should I Do?" to ethics-philosophy. Weighted score: 9.5/10.0
+(core=10.0, scope=10.0, value=9.0, authority=7.0).
+Similarity overlap: 0% (no existing topics in ethics-philosophy domain).
+Sources: 6 (6 high, 0 medium, 0 low).
+Cross-references: 2 topics.
+
+## [ENT-038] | 2026-07-26 10:02 UTC | Researcher-1 | library | ref: library/ethics-philosophy/epistemology.md | see: candidate-epistemology-theories-of-knowledge-and-justified-belief
+Wrote topic Epistemology -- Knowing Something Is Harder Than It Looks, and That Is the Point to ethics-philosophy.
+Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=8.5, authority=9.5).
+Similarity overlap: <10% (with normative-ethics.md -- different philosophical subfield; knowledge vs. morality).
+Sources: 7 (7 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-039] | 2026-07-26 10:30 UTC | Researcher-1 | library | ref: library/case-studies/apple-turnaround-1997-2010.md | see: candidate-apple-turnaround-1997-2010
+Wrote topic The Apple Turnaround (1997-2010) -- How Radical Simplification, Design Obsession, and Ecosystem Thinking Created the Greatest Corporate Recovery in Modern Business History to case-studies. Weighted score: 8.6/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.0).
+Similarity overlap: <5% (with enron-scandal.md and 2008-financial-crisis.md -- different case domains; governance failure vs. turnaround strategy).
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-040] | 2026-07-26 10:46 UTC | Researcher-1 | library | ref: library/investors/warren-buffett.md | see: candidate-warren-buffett
+Wrote topic Warren Buffett -- The Evolution of the World's Greatest Capital Allocator to investors. Weighted score: 9.0/10.0
+(core=9.5, scope=9.5, value=8.5, authority=6.5).
+Similarity overlap: ~30% (with charlie-munger.md -- shared Berkshire narrative but distinct focus: Buffett's personal evolution vs. Munger's mental models).
+Sources: 7 (3 high, 4 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-041] | 2026-07-26 11:02 UTC | Researcher-1 | library | ref: library/psychology-behavior/prospect-theory.md | see: candidate-prospect-theory-loss-aversion
+Wrote topic Prospect Theory -- Why Losses Feel Twice as Painful as Gains Feel Good to psychology-behavior.
+Weighted score: 9.0/10.0
+(core=9.0, scope=9.5, value=8.0, authority=9.0).
+Similarity overlap: ~25% (with cognitive-biases.md -- broad survey vs. specific formal theory; complementary).
+Sources: 7 (7 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-042] | 2026-07-26 11:15 UTC | Researcher-1 | library | ref: library/technology/large-language-models.md | see: candidate-artificial-intelligence-large-language-models-and-their-trajectory
+Wrote topic Large Language Models -- How Next-Token Prediction Trained at Unprecedented Scale Produces General-Purpose Reasoning to technology.
+Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.0, authority=9.0).
+Similarity overlap: <5% (no existing topics in technology domain beyond anchor).
+Sources: 9 (7 high, 2 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-043] | 2026-07-26 11:31 UTC | Researcher-1 | library | ref: library/ethics-philosophy/stoicism.md | see: candidate-stoicism-the-philosophical-framework-for-a-life-of-virtue
+Wrote topic Stoicism -- Virtue Is the Only Good, and Nothing Outside Your Control Can Harm a Well-Ordered Mind to ethics-philosophy.
+Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.5, authority=7.5).
+Similarity overlap: <15% (normative-ethics.md covers virtue ethics broadly but not Stoicism specifically).
+Sources: 8 (6 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
