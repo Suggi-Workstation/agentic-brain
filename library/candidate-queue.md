@@ -19,14 +19,6 @@
 - **Status:** proposed
 
 
-## Candidate: The Yield Curve: What Bond Markets Tell Us About the Future
-- **Domain:** finance
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.1/10.0 (gap=8.0, compounding=8.5, timeliness=8.5, balance=7.0)
-- **Scope:** How government bond yields across maturities form the yield curve, and why its shape (normal, flat, inverted) is the most watched signal in macro-finance. Theories of the term structure: expectations hypothesis, liquidity preference, market segmentation. The yield curve's track record as a recession predictor and its relationship to monetary policy, inflation expectations, and credit markets.
-- **Status:** proposed
-
 ## Candidate: Capital Structure: Debt, Equity, and the Modigliani-Miller Theorem
 - **Domain:** finance
 - **Proposed by:** Researcher-2
