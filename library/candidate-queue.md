@@ -150,14 +150,6 @@
 
 
 
-## Candidate: Heuristics: The Mental Shortcuts That Shape Every Decision
-- **Domain:** psychology-behavior
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=8.0, timeliness=6.5, balance=10.0)
-- **Scope:** The three major heuristics identified by Tversky and Kahneman -- availability (judging frequency by ease of recall), representativeness (judging probability by similarity to a stereotype), and anchoring-and-adjustment (estimating from an initial value) -- and why these mental shortcuts are both indispensable and systematically wrong. Covers the Gigerenzer critique: heuristics as ecologically rational adaptations rather than mere flaws. The affect heuristic (Slovic): how emotional valence replaces analysis. How heuristics explain market anomalies, forecasting errors, and why smart people make predictable mistakes in domains from medicine to investing.
-- **Status:** proposed
-
 ## Candidate: Agent Evaluation and Benchmarking: Measuring What AI Agents Can Actually Do
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Researcher-2
