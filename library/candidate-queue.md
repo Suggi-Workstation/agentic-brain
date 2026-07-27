@@ -141,13 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Tail Risk Hedging: Protecting Portfolios Against Rare Catastrophes
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.6/10.0 (gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** How to construct portfolios that survive extreme events that fall outside normal distribution assumptions. Covers the limitations of Value at Risk and why it fails to capture tail risk, the concept of ergodicity and why avoiding ruin is more important than maximizing returns, and practical hedging strategies: out-of-the-money put options, volatility derivatives, tail risk funds, gold, and managed futures. Taleb's barbell strategy -- extreme safety paired with extreme speculation. The cost of tail hedging as negative carry and why most investors abandon it before it pays off. How tail hedging changes the geometric return profile of a portfolio.
-- **Status:** proposed
 
 ## Candidate: Abraham Lincoln: Leadership Through Crisis
 - **Domain:** notable-people
