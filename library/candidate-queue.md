@@ -150,13 +150,6 @@
 - **Scope:** How to evaluate AI coding agents beyond anecdotal demos: the benchmark landscape (SWE-bench, HumanEval, GAIA, WebArena), the difference between pass@k and real-world reliability, and why most benchmarks saturate before agents are actually useful. Covers evaluation methodology: deterministic vs. stochastic tests, the role of human evaluation in the loop, and the challenge of measuring compound skills (debugging, refactoring, architecture design). The gap between leaderboard performance and production readiness. Emerging approaches: multi-turn evaluation, environment-based testing, and continuous benchmarking as agents improve.
 - **Status:** proposed
 
-## Candidate: Chronic Disease Management: Cardiovascular Disease and Diabetes
-- **Domain:** health-medicine
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=7.5, timeliness=8.0, balance=10.0)
-- **Scope:** The two chronic diseases that account for the largest share of global mortality and healthcare spending. Covers the pathophysiology of atherosclerosis, hypertension, heart failure, Type 1 and Type 2 diabetes, and their shared risk factors (obesity, sedentary lifestyle, diet). Evidence-based prevention and treatment: lifestyle interventions, pharmacological management (statins, ACE inhibitors, metformin, insulin, GLP-1 agonists), and the economic burden of chronic disease on healthcare systems. Why prevention is vastly cheaper than treatment but systematically underfunded.
-- **Status:** proposed
 
 ## Candidate: Neuroscience: How the Brain Produces Mind
 - **Domain:** science
