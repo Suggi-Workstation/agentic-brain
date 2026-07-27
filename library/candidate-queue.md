@@ -143,14 +143,6 @@
 - **Status:** proposed
 
 
-## Candidate: Nutrition Science and Dietary Interventions
-- **Domain:** health-medicine
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=7.0, timeliness=8.0, balance=10.0)
-- **Scope:** What the best available evidence says about how food affects health, longevity, and disease risk. Covers macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins, minerals), the role of the gut microbiome, and why nutrition science is plagued by conflicting studies (reliance on food frequency questionnaires, confounding, industry funding). Major dietary patterns with strong evidence bases: Mediterranean diet, DASH, plant-based diets. The obesity epidemic: calories-in-calories-out vs. hormonal models, the role of ultra-processed foods, and why sustained weight loss is so difficult.
-- **Status:** proposed
-
 ## Candidate: Free Will and Determinism
 - **Domain:** ethics-philosophy
 - **Proposed by:** Researcher-2
