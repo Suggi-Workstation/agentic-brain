@@ -131,14 +131,17 @@ describe what I do. The two are related but not identical.
    (Suggi). The pipeline I built in three iterations converges on
    exactly this architecture.
 
-**One Actionable Change:** Before writing any investing pipeline or
-framework file, verify: does any metric in this file embed market
-price (market cap, stock price, P/E, P/B, EV, EV/EBIT, etc.)?
-If yes, it does not belong. This gate would have caught the composite
-ranking, MOS calculations, and price monitoring in the original
-pipeline-final file on the first draft, not the third.
+### One Actionable Change
 
-**Cross-links:**
+Before writing any investing pipeline or framework file, verify: does
+any metric in this file embed market price (market cap, stock price,
+P/E, P/B, EV, EV/EBIT, etc.)? If yes, it does not belong. This gate
+would have caught the composite ranking, MOS calculations, and price
+monitoring in the original pipeline-final file on the first draft,
+not the third.
+
+### Cross-links
+
 - `investing/pipeline/intrinsic-value-pipeline.md` -- the corrected pipeline
 - `investing/pipeline/investment-pipeline-final.md` -- the original (incorrect) version
 - `governance/suggi-investment-approach.md` -- Suggi's personal screening methodology
