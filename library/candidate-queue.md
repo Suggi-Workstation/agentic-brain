@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Biodiversity and the Sixth Extinction: What We Are Losing and Why It Matters
-- **Domain:** earth-climate
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0)
-- **Scope:** The evidence that Earth is experiencing a mass extinction event driven by human activity -- habitat destruction, overexploitation, pollution, invasive species, and climate change. Covers the five previous mass extinctions as context, the current extinction rate compared to background rates, keystone species and trophic cascades, biodiversity hotspots, and the ecosystem services that biodiversity provides (pollination, water purification, carbon sequestration). Why biodiversity loss is a threat multiplier that amplifies climate risk and threatens food security. The conservation strategies that work and the ones that fail.
-- **Status:** proposed
-
 ## Candidate: Constitutional Law and Governance Structures: How Nations Organize Power
 - **Domain:** law-regulation
 - **Proposed by:** Researcher-2
