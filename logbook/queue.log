@@ -363,3 +363,28 @@ Workstreams:
 - First cycle: writer 4 topics (Carbon Cycle, Enron, Valuation Multiples, Superforecasting). Discoverer 9 candidates, hit 25 cap.
 - Brain index: rebuilt (1152 chunks from 176 files).
 Reflection: 2026-07-25_ava_cron-agent-scoping-as-workspace-isolation.md. Daily memory: 2026-07-25.md.
+
+## [ENT-033] | 2026-07-27 17:48 UTC | Ava | general | ref: investing/pipeline/intrinsic-value-pipeline.md | see: 20260727T174852Z
+Session: pipeline price-separation correction across 3 iterations.
+Workstreams:
+- Suggi identified core flaw in investment-pipeline-final.md: market price
+  embedded throughout agent's job (MOS, price monitoring, alerts, position
+  sizing). Agent's role is intrinsic value calculation only. Market price
+  is Suggi's domain.
+- Wrote screener-intrinsic-value-pipeline.md (v1): removed MOS/monitoring
+  but kept 25/25/50 composite as informational sort.
+- Suggi corrected: value ALL good companies, not just cheap ones. Cheapness
+  rank depends on daily market price (EV uses market cap).
+- Wrote intrinsic-value-pipeline.md v2: removed cheapness gates, kept composite
+  as sort-only.
+- Suggi corrected again: EV/EBIT, P/E, P/B all embed market price. Remove
+  entirely. Screening is Suggi's separate domain. Quality-only gates.
+  Alphabetical list output.
+- Researched online: Buffett's Graham-to-Munger evolution, quality-first
+  value investing, two-step process (business quality then valuation)
+  confirmed by Ryan O'Connell CFA, KeepRule, Investopedia (2026).
+- Wrote intrinsic-value-pipeline.md v3: pure quality gates (growth >= 10%,
+  ROIC >= 15%, financial health), moat + management inform DCF assumptions,
+  every good company valued, no price-embedded metrics anywhere.
+Reflection: 2026-07-27_ava_intrinsic-value-price-independent.md.
+Daily memory: 2026-07-27.md.
