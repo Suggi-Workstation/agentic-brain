@@ -59,14 +59,6 @@
 - **Scope:** Quantum computing leverages superposition and entanglement to solve certain problems exponentially faster than classical computers. Covers qubits vs. bits, the major approaches (superconducting, trapped ions, topological), the key algorithms (Shor's for factoring, Grover's for search), and the error correction challenge that keeps practical quantum advantage just out of reach. Current state of the race between Google, IBM, and startups. What quantum computing would mean for cryptography, drug discovery, and optimization.
 - **Status:** proposed
 
-## Candidate: Rhetoric: The Art of Persuasion
-- **Domain:** communication
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.0, timeliness=6.0, balance=10.0)
-- **Scope:** The classical art of persuasion from Aristotle's ethos-pathos-logos framework through Cicero's five canons to modern applications in politics, law, advertising, and everyday argument. Covers the rhetorical triangle, figures of speech and rhetorical devices, the psychology of persuasion (Cialdini's principles as bridge), and why understanding rhetoric is essential armor against manipulation. How the greatest speeches in history deployed rhetorical structure to achieve their effects.
-- **Status:** proposed
-
 ## Candidate: Diversification: The Mathematics of Not Putting All Eggs in One Basket
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Researcher-2
