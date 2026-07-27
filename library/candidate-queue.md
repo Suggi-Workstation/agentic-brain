@@ -131,14 +131,6 @@
 - **Status:** proposed
 
 
-## Candidate: Criminal Law and Justice Systems: The Architecture of Punishment
-
-- **Domain:** pop-culture
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** Film as the dominant narrative medium of the 20th and 21st centuries -- how movies both mirror cultural anxieties and actively shape public consciousness. Covers the evolution of cinematic language (editing, cinematography, sound design), genre as a reflection of social concerns (horror and societal fear, westerns and American identity, sci-fi and technological anxiety), and landmark films that shifted cultural norms (Guess Who's Coming to Dinner, The Matrix, Parasite). The auteur theory vs. collaborative filmmaking. How streaming platforms are changing what stories get told and who gets to tell them. Why understanding film language is a form of media literacy essential to civic life.
-- **Status:** proposed
 
 
 
