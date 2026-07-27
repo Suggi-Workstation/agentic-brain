@@ -159,14 +159,6 @@
 - **Scope:** What the best available evidence says about how food affects health, longevity, and disease risk. Covers macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins, minerals), the role of the gut microbiome, and why nutrition science is plagued by conflicting studies (reliance on food frequency questionnaires, confounding, industry funding). Major dietary patterns with strong evidence bases: Mediterranean diet, DASH, plant-based diets. The obesity epidemic: calories-in-calories-out vs. hormonal models, the role of ultra-processed foods, and why sustained weight loss is so difficult.
 - **Status:** proposed
 
-## Candidate: Fiscal Policy and Government Spending
-- **Domain:** macro-micro
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=6.7)
-- **Scope:** How governments use taxation and spending to influence economic outcomes. Covers the Keynesian argument for countercyclical fiscal policy (stimulus during recessions, austerity during booms), the Ricardian equivalence critique, automatic stabilizers (unemployment insurance, progressive taxation), and the multiplier effect. The politics and economics of government debt: when does debt become unsustainable? Modern Monetary Theory (MMT) and the debate over whether currency-issuing nations can ever truly run out of money. Case studies: the New Deal, post-2008 stimulus, and COVID-era fiscal expansion.
-- **Status:** proposed
-
 ## Candidate: Free Will and Determinism
 - **Domain:** ethics-philosophy
 - **Proposed by:** Researcher-2
