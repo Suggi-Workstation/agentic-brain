@@ -95,15 +95,6 @@
 
 
 
-## Candidate: Agent Evaluation and Benchmarking: Measuring What AI Agents Can Actually Do
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.5, timeliness=9.0, balance=7.0)
-- **Scope:** How to evaluate AI coding agents beyond anecdotal demos: the benchmark landscape (SWE-bench, HumanEval, GAIA, WebArena), the difference between pass@k and real-world reliability, and why most benchmarks saturate before agents are actually useful. Covers evaluation methodology: deterministic vs. stochastic tests, the role of human evaluation in the loop, and the challenge of measuring compound skills (debugging, refactoring, architecture design). The gap between leaderboard performance and production readiness. Emerging approaches: multi-turn evaluation, environment-based testing, and continuous benchmarking as agents improve.
-- **Status:** proposed
-
-
 ## Candidate: Free Will and Determinism
 - **Domain:** ethics-philosophy
 - **Proposed by:** Researcher-2
