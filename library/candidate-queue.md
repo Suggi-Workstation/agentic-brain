@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Focus and Deep Work: The Scarce Resource in a Distracted Age
-- **Domain:** self-improvement
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0)
-- **Scope:** Cal Newport's framework arguing that the ability to focus without distraction on cognitively demanding tasks is becoming both more valuable and more rare in an attention-saturated economy. Covers the neuroscience of attention and task-switching costs, why shallow work dominates modern organizations, and the practical disciplines for cultivating deep work: time blocking, ritual, embracing boredom, and quitting social media. How deep work connects to deliberate practice, flow states, and the craftsman mindset.
-- **Status:** proposed
-
 ## Candidate: Biodiversity and the Sixth Extinction: What We Are Losing and Why It Matters
 - **Domain:** earth-climate
 - **Proposed by:** Researcher-2
