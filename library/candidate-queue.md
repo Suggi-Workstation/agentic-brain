@@ -18,13 +18,6 @@
 - **Scope:** The unifying theory of geology: continental drift, seafloor spreading, subduction zones, and the mechanisms that drive plate movement. How plate tectonics explains earthquakes, volcanoes, mountain building, and the distribution of natural resources. The history of the theory from Wegener's continental drift to modern GPS-confirmed plate motion.
 - **Status:** proposed
 
-## Candidate: Logical Fallacies: A Taxonomy of Broken Arguments
-- **Domain:** communication
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.1/10.0 (gap=8.0, compounding=7.5, timeliness=7.5, balance=10.0)
-- **Scope:** A systematic catalog of the most common logical fallacies -- formal (affirming the consequent, denying the antecedent) and informal (ad hominem, straw man, false dilemma, slippery slope, appeal to authority, etc.). Why humans are cognitively vulnerable to fallacies despite knowing them. The role of fallacy-spotting in critical thinking, debate, and evaluating information in the disinformation age.
-- **Status:** proposed
 
 ## Candidate: The Yield Curve: What Bond Markets Tell Us About the Future
 - **Domain:** finance
