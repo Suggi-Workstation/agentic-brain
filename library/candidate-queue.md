@@ -58,14 +58,6 @@
 - **Scope:** Leon Festinger's theory that when beliefs and actions conflict, humans change beliefs rather than admit error. Covers the classic experiments (boring task for $1 vs $20), the effort justification effect, post-decision dissonance, and how dissonance drives confirmation bias. Why cognitive dissonance is the psychological engine behind sunk cost fallacy, political rationalization, and the refusal to update beliefs in the face of contrary evidence.
 - **Status:** proposed
 
-## Candidate: World War II: The Defining Conflict of the 20th Century
-- **Domain:** history
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=8.0)
-- **Scope:** The deadliest conflict in human history reshaped the global order, birthed the nuclear age, and set the stage for the Cold War. Covers the war's origins in the Treaty of Versailles and the rise of fascism, the major theaters (European, Pacific, Eastern Front), the Holocaust, the development and use of atomic weapons, and the war's enduring institutional legacies: the United Nations, Bretton Woods, NATO, and the US as global hegemon.
-- **Status:** proposed
-
 ## Candidate: The Cold War: How Nuclear Superpowers Fought Without Fighting
 - **Domain:** history
 - **Proposed by:** Researcher-2
