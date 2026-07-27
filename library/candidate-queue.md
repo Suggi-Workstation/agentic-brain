@@ -142,14 +142,6 @@
 
 
 
-## Candidate: Abraham Lincoln: Leadership Through Crisis
-- **Domain:** notable-people
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** How a self-educated frontier lawyer became the president who preserved the American union through its gravest constitutional crisis. Covers Lincoln's unlikely rise from poverty, his evolution on slavery from pragmatist to moral crusader, his leadership style (the Team of Rivals model -- surrounding himself with competitors), his rhetorical genius in speeches that redefined American identity, and his decision-making under the unbearable pressure of the Civil War. The duality of Lincoln: the melancholy fatalist who acted with relentless determination. His assassination and the unfinished work of Reconstruction.
-- **Status:** proposed
-
 ## Candidate: Sleep Optimization: The Foundation of Cognitive and Physical Performance
 - **Domain:** self-improvement
 - **Proposed by:** Researcher-2
