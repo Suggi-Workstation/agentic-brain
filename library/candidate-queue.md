@@ -18,7 +18,6 @@
 - **Scope:** The unifying theory of geology: continental drift, seafloor spreading, subduction zones, and the mechanisms that drive plate movement. How plate tectonics explains earthquakes, volcanoes, mountain building, and the distribution of natural resources. The history of the theory from Wegener's continental drift to modern GPS-confirmed plate motion.
 - **Status:** proposed
 
-
 ## Candidate: Logical Fallacies: A Taxonomy of Broken Arguments
 - **Domain:** communication
 - **Proposed by:** Researcher-2
@@ -42,7 +41,6 @@
 - **Discovery score:** 7.8/10.0 (gap=8.5, compounding=8.0, timeliness=6.5, balance=7.0)
 - **Scope:** How firms choose their mix of debt and equity financing. The Modigliani-Miller irrelevance propositions and why real-world frictions (taxes, bankruptcy costs, agency problems, information asymmetry) make capital structure matter. Covers trade-off theory, pecking order theory, and the practical determinants of leverage ratios across industries.
 - **Status:** proposed
-
 
 ## Candidate: Social Influence and Conformity: How Groups Shape Individual Belief and Behavior
 - **Domain:** psychology-behavior
@@ -141,16 +139,8 @@
 - **Status:** proposed
 
 
-
 ## Candidate: Criminal Law and Justice Systems: The Architecture of Punishment
-- **Domain:** law-regulation
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** The principles that justify state punishment: retribution, deterrence, incapacitation, and rehabilitation. Covers the structure of criminal procedure (investigation, charging, trial, sentencing, appeal), the role of prosecutorial discretion, plea bargaining as the dominant mode of case resolution, and the tension between due process and crime control. Mass incarceration, racial disparities in sentencing, and the debate over punitive vs. restorative justice. Landmark reforms and experiments: Norway's rehabilitation-focused prisons, drug courts, and the movement to end cash bail. Why criminal justice systems reflect a society's deepest values about responsibility, mercy, and who deserves a second chance.
-- **Status:** proposed
 
-## Candidate: Film as Cultural Lens: How Cinema Reflects and Shapes Society
 - **Domain:** pop-culture
 - **Proposed by:** Researcher-2
 - **Date:** 2026-07-27
@@ -158,13 +148,6 @@
 - **Scope:** Film as the dominant narrative medium of the 20th and 21st centuries -- how movies both mirror cultural anxieties and actively shape public consciousness. Covers the evolution of cinematic language (editing, cinematography, sound design), genre as a reflection of social concerns (horror and societal fear, westerns and American identity, sci-fi and technological anxiety), and landmark films that shifted cultural norms (Guess Who's Coming to Dinner, The Matrix, Parasite). The auteur theory vs. collaborative filmmaking. How streaming platforms are changing what stories get told and who gets to tell them. Why understanding film language is a form of media literacy essential to civic life.
 - **Status:** proposed
 
-## Candidate: Value at Risk (VaR) and Risk Measurement Frameworks: How We Quantify What We Can Lose
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** The dominant framework for measuring financial risk: Value at Risk estimates the maximum loss a portfolio faces over a given horizon at a specified confidence level. Covers the three calculation methods (historical simulation, variance-covariance, Monte Carlo), the choice of confidence level and time horizon, and VaR's critical limitations -- it ignores what happens beyond the threshold (tail risk), assumes normal distributions, and creates perverse incentives when used as a regulatory capital metric. Extensions and alternatives: Expected Shortfall (CVaR), stress testing, and scenario analysis. The role of VaR in Basel accords and how risk models became both indispensable and dangerous.
-- **Status:** proposed
 
 
 ## Candidate: Heuristics: The Mental Shortcuts That Shape Every Decision
