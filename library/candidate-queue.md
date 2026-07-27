@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Human Evolution and Prehistory: From Hominins to Homo Sapiens
-- **Domain:** anthropology
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** The ~7-million-year story of human evolution from the earliest hominins through Australopithecus, Homo habilis, Homo erectus, Neanderthals, and finally Homo sapiens. Covers the major transitions -- bipedalism, brain expansion, tool use, control of fire, language, and the cognitive revolution that allowed behavioral modernity. What the fossil record and ancient DNA reveal about human origins, the Out of Africa vs. multiregional debate, and what happened when sapiens met Neanderthals and Denisovans. The deep-time perspective on what makes humans unique and how our evolutionary past shapes modern behavior.
-- **Status:** proposed
-
 ## Candidate: Ritual and Religion as Cultural Phenomena: How Societies Construct the Sacred
 - **Domain:** anthropology
 - **Proposed by:** Researcher-2
