@@ -59,14 +59,6 @@
 - **Scope:** Quantum computing leverages superposition and entanglement to solve certain problems exponentially faster than classical computers. Covers qubits vs. bits, the major approaches (superconducting, trapped ions, topological), the key algorithms (Shor's for factoring, Grover's for search), and the error correction challenge that keeps practical quantum advantage just out of reach. Current state of the race between Google, IBM, and startups. What quantum computing would mean for cryptography, drug discovery, and optimization.
 - **Status:** proposed
 
-## Candidate: Diversification: The Mathematics of Not Putting All Eggs in One Basket
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=8.0, timeliness=6.0, balance=10.0)
-- **Scope:** Why and how spreading capital across imperfectly correlated assets reduces portfolio risk without necessarily reducing expected returns. Covers the mathematics of correlation and covariance, the diversification ratio, how many stocks it takes to eliminate idiosyncratic risk (the Statman 1987 study and its updates), and the limits of diversification in market crises when correlations converge to one. The concentration-vs-diversification debate: when does adding the 21st position destroy value? Bridge to value-investing's argument for focused portfolios.
-- **Status:** proposed
-
 ## Candidate: Public Health and Epidemiology
 - **Domain:** health-medicine
 - **Proposed by:** Researcher-2
