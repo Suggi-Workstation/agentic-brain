@@ -177,13 +177,6 @@
 - **Scope:** The terminal value typically represents 60-80% of a DCF valuation, making it simultaneously the most important and most abused number in finance. Covers the two methods: perpetuity growth (Gordon Growth Model) and exit multiple, the assumptions that drive each (terminal growth rate must be below GDP growth in perpetuity, exit multiple must reflect mature-company economics), and how small changes in terminal assumptions produce enormous swings in intrinsic value. Why the terminal value is where valuation analysts hide their biases, and how to stress-test it: reverse DCF to back out implied growth rates, compare to industry norms, and use the "competitive fade" framework (high returns attract competition, pushing growth toward GDP over time). The terminal value as a test of whether you actually believe your own assumptions.
 - **Status:** proposed
 
-## Candidate: Cost of Capital: CAPM, WACC, and the Equity Risk Premium Debate
-- **Domain:** valuation-screening
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=6.7)
-- **Scope:** Every valuation model needs a discount rate, and that rate is built from the cost of capital framework. Covers the Capital Asset Pricing Model (CAPM): risk-free rate, beta, and the equity risk premium (ERP). How to estimate each component: which risk-free rate (10-year Treasury?), the instability of beta and why raw regression betas need adjustment, and the ERP as the most debated single number in finance (historical vs forward-looking vs survey-based estimates, currently around 4-6%). The Weighted Average Cost of Capital (WACC) and the iterative circularity problem when WACC depends on market value weights. Critiques of CAPM: the Fama-French factors (size, value, profitability, investment), the low-beta anomaly, and whether CAPM survives empirical testing at all. Why practitioners keep using CAPM despite its known flaws -- it is simple, standardized, and the alternatives are not clearly better.
-- **Status:** proposed
 
 ## Candidate: Mr. Market: The Most Powerful Metaphor in Investing
 - **Domain:** value-investing
