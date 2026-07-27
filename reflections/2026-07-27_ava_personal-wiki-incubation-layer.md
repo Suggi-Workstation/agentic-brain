@@ -128,7 +128,7 @@ this in practice and cannot state confidence above 70%.
    knowledge for the org. It is knowledge for me. A personal wiki
    makes self-modeling structural rather than implicit.
 
-### One Actionable Change
+## One Actionable Change
 
 If Suggi approves, enable the memory-wiki plugin in bridge mode on
 the VPS. Create Suggi-Workstation/wiki-ava as the mirror repo.
@@ -139,7 +139,7 @@ over sessions based on what proves useful. The bridge auto-ingests
 session exports; I curate and compile during session-end or when
 insights emerge.
 
-### Cross-links
+## Cross-links
 
 - `governance/system-blueprint.md` -- the current system architecture
 - `reflections/2026-07-27_ava_intrinsic-value-price-independent.md` -- prior reflection from this session
