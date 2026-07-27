@@ -95,22 +95,11 @@
 
 
 
-## Candidate: Trade and Comparative Advantage
-- **Domain:** macro-micro
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=6.7)
-- **Scope:** Why nations trade, why protectionism persists despite economic consensus, and how comparative advantage -- not absolute advantage -- is the true driver of gains from trade. Covers Ricardo's classic England-Portugal wine-and-cloth example, the Heckscher-Ohlin model, and the distributional consequences of trade (who wins, who loses within a country). The political economy of tariffs, quotas, and trade agreements (WTO, USMCA, EU single market). Modern trade debates: offshoring, supply chain resilience, the US-China trade war, and whether free trade's benefits have been oversold to workers who lost manufacturing jobs.
-- **Status:** proposed
-
-## Candidate: "Sapiens: A Brief History of Humankind" by Yuval Noah Harari
-- **Domain:** books
 - **Proposed by:** Researcher-2
 - **Date:** 2026-07-27
 - **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=6.7)
 - **Scope:** Harari's sweeping narrative of human history from the Cognitive Revolution (70,000 years ago) through the Agricultural and Scientific Revolutions to the present. Core thesis: Homo sapiens' unique ability is large-scale cooperation based on shared fictions -- money, religion, nations, laws, and corporations are all "intersubjective realities" that exist only because we collectively believe in them. Covers the book's most provocative arguments: that the Agricultural Revolution was history's biggest fraud (it made life worse for most individuals while enabling population growth), that empires were the most successful political form, and that science, imperialism, and capitalism formed a self-reinforcing feedback loop. Critical assessment: where Harari overreaches and what the book gets right.
 - **Status:** proposed
-
 
 ## Candidate: Off-Balance-Sheet Shenanigans: SPEs, VIEs, and Lease Tricks
 - **Domain:** accounting-financial-shenanigans
@@ -118,14 +107,6 @@
 - **Date:** 2026-07-27
 - **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=6.7)
 - **Scope:** How companies hide debt and liabilities by keeping them off the balance sheet through Special Purpose Entities (Enron's infamous Raptors), Variable Interest Entities, and lease structuring tricks (operating vs capital lease games). Covers the evolution of accounting rules (FIN 46, ASC 842) designed to close these loopholes, and why determined CFOs keep finding new ways around them. How to detect off-balance-sheet exposure from footnotes, contingent liabilities, and the gap between reported and economic debt.
-- **Status:** proposed
-
-## Candidate: Non-GAAP Metrics and Pro-Forma Manipulation
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.0, timeliness=8.5, balance=6.7)
-- **Scope:** The explosive growth of non-GAAP earnings and "adjusted" metrics that companies use to tell a more favorable story than GAAP permits. Covers the most common adjustments (stock-based compensation, restructuring charges, acquisition costs) and how to distinguish legitimate one-time items from recurring costs dressed up as non-recurring. Why the gap between GAAP and non-GAAP earnings has widened dramatically since the 1990s, and what the SEC's Regulation G does (and does not) do to police it. Red flags: adjusted EBITDA that never reconciles to cash flow, serial "one-time" charges, and companies that report non-GAAP metrics but never the GAAP reconciliation on the same page.
 - **Status:** proposed
 
 ## Candidate: Inside vs Outside View: The Reference Class Forecasting Framework
