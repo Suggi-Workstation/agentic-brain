@@ -225,3 +225,113 @@ Wrote topic Habit Formation -- Why Willpower Is Not the Answer and Structure Is 
 Similarity overlap: 0%. Sources: 9 (5 high, 4 medium, 0 low).
 Cross-references: 3 topics.
 
+
+<!-- Appended 2026-07-27 12:11 UTC -->
+
+## [ENT-058] | 2026-07-26 15:03 UTC | Researcher-1 | library | ref: library/law-regulation/intellectual-property.md | see: candidate-intellectual-property
+Wrote topic Intellectual Property -- The Legal Fiction That Turns Ideas Into Property and Shapes the Modern Economy to law-regulation. Weighted score: 8.5/10.0
+(core=9.0, scope=8.5, value=8.0, authority=8.0).
+Similarity overlap: 0%. Sources: 8 (6 high, 2 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-059] | 2026-07-26 15:16 UTC | Researcher-1 | library | ref: library/earth-climate/renewable-energy-cost-revolution.md | see: candidate-renewable-energy-physics-economics-limits
+Wrote topic Renewable Energy -- Why the Cost Revolution Makes the Energy Transition Inevitable but Not Easy to earth-climate. Weighted score: 8.6/10.0
+(core=9.0, scope=8.5, value=8.5, authority=7.5).
+Similarity overlap: 15%. Sources: 8 (7 high, 1 medium, 0 low).
+Cross-references: 1 topics.
+
+## [ENT-060] | 2026-07-26 15:30 UTC | Researcher-1 | library | ref: library/self-improvement/deliberate-practice.md | see: candidate-deliberate-practice
+Wrote topic Deliberate Practice -- Why Repeating What You Already Know Builds Nothing but Stagnation to self-improvement. Weighted score: 9.2/10.0
+(core=9.5, scope=9.5, value=8.5, authority=8.5).
+Similarity overlap: 15%. Sources: 8 (6 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-061] | 2026-07-26 15:45 UTC | Researcher-1 | library | ref: library/pop-culture/heros-journey-monomyth.md | see: candidate-heros-journey
+Wrote topic The Hero's Journey -- How One Narrative Structure Came to Underpin Nearly All Modern Storytelling to pop-culture. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: <10%. Sources: 6 (4 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-062] | 2026-07-26 15:56 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 14 candidates proposed, 0 skipped (21 slots available).
+Candidates:
+- Spaced Repetition and Retrieval Practice: The Two Most Robust Findings in Learning Science (8.8): gap=9.5, compounding=7.5, timeliness=8.0, balance=10.0
+- Cognitive Load Theory: Why Working Memory Is the Bottleneck for All Learning (8.2): gap=9.0, compounding=7.0, timeliness=6.5, balance=10.0
+- Porter's Five Forces: The Framework That Defined Industry Analysis (8.8): gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0
+- Network Effects and Platform Economics: Why Winner-Take-Most Markets Are Different (8.8): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
+- Disruption Theory: Why Incumbents Get Destroyed by Inferior Products (8.3): gap=8.5, compounding=7.5, timeliness=7.5, balance=10.0
+- Richard Feynman: The Curious Character Who Made Physics Accessible (8.3): gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0
+- Marcus Aurelius: The Philosopher Emperor and the Practice of Stoic Leadership (8.3): gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0
+- Social Influence and Conformity: How Groups Shape Individual Belief and Behavior (7.9): gap=9.0, compounding=7.5, timeliness=7.5, balance=6.0
+- Cognitive Dissonance: The Engine of Self-Justification (7.7): gap=9.0, compounding=7.0, timeliness=7.0, balance=6.0
+- Genetics and Heredity: From Mendel to CRISPR (8.2): gap=9.0, compounding=8.0, timeliness=8.5, balance=6.0
+- World War II: The Defining Conflict of the 20th Century (8.2): gap=9.0, compounding=8.0, timeliness=7.0, balance=8.0
+- The Cold War: How Nuclear Superpowers Fought Without Fighting (8.1): gap=8.5, compounding=8.0, timeliness=7.5, balance=8.0
+- Semiconductors: The Silicon Foundation of the Digital Age (7.9): gap=9.0, compounding=7.5, timeliness=9.0, balance=4.0
+- Quantum Computing: What It Promises and Why It Is So Hard (7.7): gap=9.0, compounding=7.0, timeliness=8.5, balance=4.0
+Domain balance: education-learning (0 topics), industries-sectors (0 topics), notable-people (0 topics) to technology (3 topics). All 5 major categories represented: investing (industries-sectors), science (science), human/social (education-learning, notable-people, psychology-behavior), global (history), thinking (technology).
+
+## [ENT-063] | 2026-07-26 16:13 UTC | Researcher-1 | library | ref: library/industries-sectors/porters-five-forces.md | see: candidate-porter-five-forces
+Wrote topic Porter's Five Forces to industries-sectors. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=9.0, authority=8.0).
+Similarity overlap: 0%. Sources: 6 (5 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-064] | 2026-07-26 16:30 UTC | Researcher-1 | library | ref: library/education-learning/spaced-repetition-and-retrieval-practice.md | see: candidate-spaced-repetition-retrieval-practice
+Wrote topic Spaced Repetition and Retrieval Practice to education-learning. Weighted score: 9.7/10.0
+(core=10.0, scope=10.0, value=9.0, authority=8.5).
+Similarity overlap: 0%. Sources: 8 (6 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-065] | 2026-07-26 16:48 UTC | Researcher-1 | library | ref: library/industries-sectors/network-effects-platform-economics.md | see: candidate-network-effects-platform-economics
+Wrote topic Network Effects and Platform Economics to industries-sectors. Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=8.0).
+Similarity overlap: 10% (with porters-five-forces.md, minimal structural overlap).
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 2 topics.
+
+## [ENT-066] | 2026-07-26 17:02 UTC | Researcher-1 | library | ref: library/industries-sectors/disruption-theory.md | see: candidate-disruption-theory
+Wrote topic Disruption Theory to industries-sectors. Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=8.0).
+Similarity overlap: 15% (with porters-five-forces.md and network-effects-platform-economics.md -- minimal structural overlap, shared domain context).
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-067] | 2026-07-26 17:15 UTC | Researcher-1 | library | ref: library/notable-people/richard-feynman.md | see: candidate-richard-feynman
+Wrote topic Richard Feynman to notable-people. Weighted score: 8.8/10.0
+(core=9.0, scope=9.5, value=7.5, authority=8.5).
+Similarity overlap: 0% (no existing topics in notable-people domain).
+Sources: 7 (4 high, 3 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-068] | 2026-07-26 17:31 UTC | Researcher-1 | library | ref: library/notable-people/marcus-aurelius.md | see: candidate-marcus-aurelius
+Wrote topic Marcus Aurelius to notable-people. Weighted score: 8.6/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.0).
+Similarity overlap: 5% (one existing topic in notable-people domain, different subject).
+Sources: 6 (4 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-069] | 2026-07-26 17:46 UTC | Researcher-1 | library | ref: library/education-learning/cognitive-load-theory.md | see: candidate-cognitive-load-theory
+Wrote topic Cognitive Load Theory to education-learning. Weighted score: 8.6/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.0).
+Similarity overlap: 15% (with spaced-repetition-and-retrieval-practice.md -- related learning science domain, distinct topics).
+Sources: 7 (5 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-070] | 2026-07-26 17:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 12 candidates proposed, 0 skipped (queue at 23/25).
+Candidates:
+- Propaganda and Misinformation: How Information Is Weaponized (8.6): gap=8.5, compounding=7.5, timeliness=9.0, balance=10.0
+- Rhetoric: The Art of Persuasion (8.1): gap=9.0, compounding=7.0, timeliness=6.0, balance=10.0
+- Bond Pricing and Fixed Income Markets (8.6): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- Banking: The Business of Maturity Transformation (8.4): gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Ancient Civilizations and Their Legacies (8.3): gap=9.0, compounding=8.0, timeliness=6.0, balance=10.0
+- Colonialism and Decolonization (8.5): gap=8.5, compounding=8.5, timeliness=7.5, balance=10.0
+- Modern Portfolio Theory (8.5): gap=9.0, compounding=8.5, timeliness=6.5, balance=10.0
+- Diversification: The Mathematics of Not Putting All Eggs in One Basket (8.1): gap=8.5, compounding=8.0, timeliness=6.0, balance=10.0
+- Public Health and Epidemiology (7.8): gap=9.0, compounding=7.5, timeliness=8.0, balance=5.0
+- Drug Development: From Molecule to Medicine (7.4): gap=8.5, compounding=7.0, timeliness=7.5, balance=5.0
+- Deliberate Practice: The Science of Expertise Development (7.4): gap=8.5, compounding=7.5, timeliness=7.0, balance=5.0
+- The Feynman Technique and Learning Heuristics (6.9): gap=8.0, compounding=6.5, timeliness=6.5, balance=5.0
+Domain balance: communication (1 topics), finance (1 topics), history (1 topics), portfolio-risk-management (1 topics) to value-investing (3 topics), technology (3 topics), accounting-financial-shenanigans (3 topics).
+
