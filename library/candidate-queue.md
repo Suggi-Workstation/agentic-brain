@@ -141,14 +141,6 @@
 - **Status:** proposed
 
 
-## Candidate: Constitutional Law and Governance Structures: How Nations Organize Power
-- **Domain:** law-regulation
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** How constitutions distribute and constrain governmental power through separation of powers, federalism, judicial review, and enumerated rights. Compares parliamentary vs. presidential systems, the role of constitutional courts, and the mechanisms for constitutional amendment. Covers landmark cases that defined constitutional interpretation (Marbury v. Madison, Brown v. Board) and the contemporary challenge of democratic backsliding -- how elected leaders use constitutional mechanisms to erode constitutional constraints. Why constitutional design choices made centuries ago shape modern political outcomes.
-- **Status:** proposed
-
 ## Candidate: Tail Risk Hedging: Protecting Portfolios Against Rare Catastrophes
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Researcher-2
