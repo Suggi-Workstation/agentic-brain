@@ -70,6 +70,13 @@ Read `/tmp/brain-writer/library/candidate-queue.md`. Select the
 highest-scored unaudited candidate (by discoverer score). Note the
 candidate ID, title, domain, and proposed scope.
 
+The candidate's domain and scope are binding. You MUST write to the
+exact domain specified in the candidate entry. You MUST NOT change
+the domain, redirect to a different domain, or substantially alter
+the scope. If you believe the candidate is filed under the wrong
+domain, HALT and log to errors.log with your reasoning -- do not
+silently redirect.
+
 ### 3a. Remove the candidate from the queue
 
 Remove the selected candidate entry from
@@ -238,7 +245,7 @@ committing.
 - [ ] G3 (Every Claim Sourced): PASS. Every factual claim traces to a source in Sources. Synthesized claims labeled as such. No orphan facts. (PASS / HALT)
 - [ ] G4 (Sources Have Authority Ratings): PASS. Every source has [high], [medium], or [low]. At least 2 of 3+ sources are high or medium. (PASS / HALT)
 - [ ] G5 (Cross-references Exist): PASS. At least 1 link to a related library topic or brain artifact. (PASS / HALT)
-- [ ] G6 (Domain Anchor Compliant): PASS. Topic stays within the domain anchor's In scope and avoids Out scope. Verified by reading anchor-<domain>.md. (PASS / HALT)
+- [ ] G6 (Domain Anchor Compliant): PASS. Topic stays within the domain anchor's In scope and avoids Out scope. Verified by reading anchor-<domain>.md. Written domain matches the candidate's Domain field exactly. A candidate for law-regulation MUST produce a file at library/law-regulation/<slug>.md, not any other domain. (PASS / HALT)
 - [ ] G7 (Topic Similarity Checked): PASS. Candidate checked against existing topics. Overlap < 80%. Estimate recorded. (PASS / HALT)
 - [ ] G8 (Frontmatter Complete): PASS. All 7 required fields present (name, id, tier, domain, author, tags, links). id from date command, not human-rounded. (PASS / HALT)
 - [ ] G9 (Formatting Rules): PASS. ASCII-only (zero non-ASCII characters), lowercase slugs/tags, hyphens not underscores. (PASS / HALT)
@@ -252,6 +259,7 @@ committing.
 - [ ] Written ONLY to /tmp/brain-writer/library/<domain>/ (NOT workspace, NOT any other path) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (G9) (PASS / HALT)
 - [ ] Candidate removed from candidate-queue.md (PASS / HALT)
+- [ ] Domain fidelity: written topic's domain matches the candidate's Domain field exactly. Verify: candidate-queue.md Domain field vs. actual output path. (PASS / HALT)
 - [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
 - [ ] Logbook entry properly separated: a blank line precedes this entry in library.log. Verify with: `tail -n +<last-ent-line> /tmp/brain-writer/logbook/library.log | head -2` -- the first line must be empty. No entries merged without spacing. (PASS / HALT)
 
