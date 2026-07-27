@@ -151,14 +151,6 @@
 - **Status:** proposed
 
 
-## Candidate: Neuroscience: How the Brain Produces Mind
-- **Domain:** science
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=6.7)
-- **Scope:** The biological basis of consciousness, cognition, and behavior. Covers neuron structure and function, synaptic transmission, neural circuits, brain anatomy and the functional specialization of regions (Broca's area, visual cortex, hippocampus, prefrontal cortex). Major techniques: fMRI, EEG, optogenetics, and connectomics. How neuroscience informs our understanding of memory, emotion, decision-making, language, and disorders like Alzheimer's, depression, and schizophrenia. The hard problem of consciousness and what remains unknown about how physical processes produce subjective experience.
-- **Status:** proposed
-
 ## Candidate: Nutrition Science and Dietary Interventions
 - **Domain:** health-medicine
 - **Proposed by:** Researcher-2
