@@ -142,12 +142,3 @@
 - **Scope:** Benjamin Graham's allegory of Mr. Market -- a manic-depressive business partner who offers to buy or sell shares at wildly different prices every day -- as the psychological foundation of value investing. Covers the full parable from The Intelligent Investor: Mr. Market's mood swings create opportunity, not risk, and the investor's job is to exploit his irrationality, not follow it. Why this metaphor encapsulates the distinction between price and intrinsic value, the market as a voting machine (short run) vs weighing machine (long run), and why temperament -- the ability to stay calm when Mr. Market panics -- matters more than intelligence. The behavioral economics that validates Graham's insight: volatility is not risk, and the best returns come from buying when Mr. Market is depressed. Why most investors, including professionals, fail to act on this principle in practice.
 - **Status:** proposed
 
-
-
-## Candidate: Agent Memory and Persistence: How Agents Remember Across Sessions
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=8.0, timeliness=8.5, balance=6.7)
-- **Scope:** The engineering challenge of giving AI agents persistent memory that survives session boundaries. Covers the memory hierarchy: working memory (context window), episodic memory (conversation history and summaries), semantic memory (structured knowledge bases, vector stores, RAG), and procedural memory (skills, prompts, stored plans). Trade-offs in memory architecture: retrieval quality vs latency, the recency-vs-relevance problem in vector search, and the challenge of memory staleness (facts change but stored memories do not). Practical patterns: MemGPT-style self-editing memory, reflection-based summarization, memory consolidation (periodically compressing and reindexing), and the tension between giving agents too little memory (they forget) and too much (they get confused by stale or contradictory information).
-- **Status:** proposed

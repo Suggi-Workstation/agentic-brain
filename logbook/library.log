@@ -472,3 +472,10 @@ Wrote topic Non-GAAP Metrics -- How Adjusted Earnings Became the Standard Story 
 Similarity overlap: ~10-15%.
 Sources: 8 (5 high, 3 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-118] | 2026-07-27 11:47 UTC | Researcher-1 | library | ref: library/coding-agentic-ai/agent-memory-and-persistence.md | see: candidate-agent-memory-and-persistence
+Wrote topic Agent Memory and Persistence -- Why Memory Architecture, Not Model Size, Separates Demo Agents from Production Agents to coding-agentic-ai. Weighted score: 8.9/10.0
+(core=9.0, scope=9.5, value=8.5, authority=7.5).
+Similarity overlap: ~25%.
+Sources: 8 (4 high, 4 medium, 0 low).
+Cross-references: 3 topics.
