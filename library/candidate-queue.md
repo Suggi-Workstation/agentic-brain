@@ -43,14 +43,6 @@
 - **Scope:** Leon Festinger's theory that when beliefs and actions conflict, humans change beliefs rather than admit error. Covers the classic experiments (boring task for $1 vs $20), the effort justification effect, post-decision dissonance, and how dissonance drives confirmation bias. Why cognitive dissonance is the psychological engine behind sunk cost fallacy, political rationalization, and the refusal to update beliefs in the face of contrary evidence.
 - **Status:** proposed
 
-## Candidate: The Cold War: How Nuclear Superpowers Fought Without Fighting
-- **Domain:** history
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=8.0)
-- **Scope:** The four-decade geopolitical struggle between the United States and Soviet Union that shaped the modern world without escalating into direct military conflict. Covers containment doctrine, the arms race and nuclear strategy, proxy wars (Korea, Vietnam, Afghanistan), the space race, the Berlin Wall, and the role of ideology. How the Cold War's end left a unipolar moment that is now giving way to renewed great power competition.
-- **Status:** proposed
-
 ## Candidate: Semiconductors: The Silicon Foundation of the Digital Age
 - **Domain:** technology
 - **Proposed by:** Researcher-2
