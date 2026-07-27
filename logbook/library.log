@@ -435,3 +435,16 @@ Wrote topic World War II -- The War That Forged the Modern World to history. Wei
 Similarity overlap: <10%.
 Sources: 6 (4 high, 2 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-099] | 2026-07-27 03:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 8 candidates proposed, 0 skipped (25/25 queue, 0 slots remaining).
+Candidates:
+- Vaccine Development and Immunology (8.4): gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Chronic Disease Management: Cardiovascular Disease and Diabetes (8.4): gap=8.5, compounding=7.5, timeliness=8.0, balance=10.0
+- Neuroscience: How the Brain Produces Mind (8.3): gap=9.0, compounding=8.0, timeliness=8.5, balance=6.7
+- Nutrition Science and Dietary Interventions (8.3): gap=8.5, compounding=7.0, timeliness=8.0, balance=10.0
+- Fiscal Policy and Government Spending (8.3): gap=9.0, compounding=8.0, timeliness=8.5, balance=6.7
+- Free Will and Determinism (8.1): gap=9.0, compounding=8.0, timeliness=7.5, balance=6.7
+- Trade and Comparative Advantage (8.1): gap=9.0, compounding=8.0, timeliness=7.5, balance=6.7
+- "Sapiens: A Brief History of Humankind" by Yuval Noah Harari (8.1): gap=9.0, compounding=7.5, timeliness=8.0, balance=6.7
+Domain balance: health-medicine (2 topics) to history (4), mathematics-statistics (4), geopolitics (4), portfolio-risk-management (4), psychology-behavior (4), self-improvement (4).

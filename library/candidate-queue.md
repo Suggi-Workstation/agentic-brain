@@ -149,3 +149,67 @@
 - **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.5, timeliness=9.0, balance=7.0)
 - **Scope:** How to evaluate AI coding agents beyond anecdotal demos: the benchmark landscape (SWE-bench, HumanEval, GAIA, WebArena), the difference between pass@k and real-world reliability, and why most benchmarks saturate before agents are actually useful. Covers evaluation methodology: deterministic vs. stochastic tests, the role of human evaluation in the loop, and the challenge of measuring compound skills (debugging, refactoring, architecture design). The gap between leaderboard performance and production readiness. Emerging approaches: multi-turn evaluation, environment-based testing, and continuous benchmarking as agents improve.
 - **Status:** proposed
+
+## Candidate: Vaccine Development and Immunology
+- **Domain:** health-medicine
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
+- **Scope:** How the immune system can be trained to recognize and neutralize pathogens before they cause disease. Covers the history of vaccination (Jenner, Pasteur, Salk), the major vaccine types (live-attenuated, inactivated, subunit, mRNA), herd immunity thresholds, and the immunology of vaccine response (antigen presentation, memory B and T cells). The modern vaccine development pipeline from antigen identification through clinical trials to regulatory approval. The COVID-19 mRNA vaccines as a case study in accelerated development, and why some diseases (HIV, malaria, tuberculosis) have resisted vaccine efforts for decades.
+- **Status:** proposed
+
+## Candidate: Chronic Disease Management: Cardiovascular Disease and Diabetes
+- **Domain:** health-medicine
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=7.5, timeliness=8.0, balance=10.0)
+- **Scope:** The two chronic diseases that account for the largest share of global mortality and healthcare spending. Covers the pathophysiology of atherosclerosis, hypertension, heart failure, Type 1 and Type 2 diabetes, and their shared risk factors (obesity, sedentary lifestyle, diet). Evidence-based prevention and treatment: lifestyle interventions, pharmacological management (statins, ACE inhibitors, metformin, insulin, GLP-1 agonists), and the economic burden of chronic disease on healthcare systems. Why prevention is vastly cheaper than treatment but systematically underfunded.
+- **Status:** proposed
+
+## Candidate: Neuroscience: How the Brain Produces Mind
+- **Domain:** science
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=6.7)
+- **Scope:** The biological basis of consciousness, cognition, and behavior. Covers neuron structure and function, synaptic transmission, neural circuits, brain anatomy and the functional specialization of regions (Broca's area, visual cortex, hippocampus, prefrontal cortex). Major techniques: fMRI, EEG, optogenetics, and connectomics. How neuroscience informs our understanding of memory, emotion, decision-making, language, and disorders like Alzheimer's, depression, and schizophrenia. The hard problem of consciousness and what remains unknown about how physical processes produce subjective experience.
+- **Status:** proposed
+
+## Candidate: Nutrition Science and Dietary Interventions
+- **Domain:** health-medicine
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=7.0, timeliness=8.0, balance=10.0)
+- **Scope:** What the best available evidence says about how food affects health, longevity, and disease risk. Covers macronutrients (carbohydrates, proteins, fats) and micronutrients (vitamins, minerals), the role of the gut microbiome, and why nutrition science is plagued by conflicting studies (reliance on food frequency questionnaires, confounding, industry funding). Major dietary patterns with strong evidence bases: Mediterranean diet, DASH, plant-based diets. The obesity epidemic: calories-in-calories-out vs. hormonal models, the role of ultra-processed foods, and why sustained weight loss is so difficult.
+- **Status:** proposed
+
+## Candidate: Fiscal Policy and Government Spending
+- **Domain:** macro-micro
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=6.7)
+- **Scope:** How governments use taxation and spending to influence economic outcomes. Covers the Keynesian argument for countercyclical fiscal policy (stimulus during recessions, austerity during booms), the Ricardian equivalence critique, automatic stabilizers (unemployment insurance, progressive taxation), and the multiplier effect. The politics and economics of government debt: when does debt become unsustainable? Modern Monetary Theory (MMT) and the debate over whether currency-issuing nations can ever truly run out of money. Case studies: the New Deal, post-2008 stimulus, and COVID-era fiscal expansion.
+- **Status:** proposed
+
+## Candidate: Free Will and Determinism
+- **Domain:** ethics-philosophy
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=6.7)
+- **Scope:** One of philosophy's oldest and most consequential debates: do humans have genuine freedom of choice, or are all decisions the inevitable result of prior causes? Covers the major positions: hard determinism (Laplace, Spinoza), libertarian free will (Kant, Reid), compatibilism (Hume, Dennett), and hard incompatibilism (Strawson, Pereboom). How neuroscience (Libet experiments, fMRI studies of decision-making) and physics (deterministic laws plus quantum indeterminacy) inform the debate. Practical implications: if free will is an illusion, what happens to moral responsibility, criminal justice, and our sense of self?
+- **Status:** proposed
+
+## Candidate: Trade and Comparative Advantage
+- **Domain:** macro-micro
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=6.7)
+- **Scope:** Why nations trade, why protectionism persists despite economic consensus, and how comparative advantage -- not absolute advantage -- is the true driver of gains from trade. Covers Ricardo's classic England-Portugal wine-and-cloth example, the Heckscher-Ohlin model, and the distributional consequences of trade (who wins, who loses within a country). The political economy of tariffs, quotas, and trade agreements (WTO, USMCA, EU single market). Modern trade debates: offshoring, supply chain resilience, the US-China trade war, and whether free trade's benefits have been oversold to workers who lost manufacturing jobs.
+- **Status:** proposed
+
+## Candidate: "Sapiens: A Brief History of Humankind" by Yuval Noah Harari
+- **Domain:** books
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=6.7)
+- **Scope:** Harari's sweeping narrative of human history from the Cognitive Revolution (70,000 years ago) through the Agricultural and Scientific Revolutions to the present. Core thesis: Homo sapiens' unique ability is large-scale cooperation based on shared fictions -- money, religion, nations, laws, and corporations are all "intersubjective realities" that exist only because we collectively believe in them. Covers the book's most provocative arguments: that the Agricultural Revolution was history's biggest fraud (it made life worse for most individuals while enabling population growth), that empires were the most successful political form, and that science, imperialism, and capitalism formed a self-reinforcing feedback loop. Critical assessment: where Harari overreaches and what the book gets right.
+- **Status:** proposed
