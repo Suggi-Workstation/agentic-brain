@@ -423,3 +423,10 @@ Candidates:
 - Mr. Market: The Most Powerful Metaphor in Investing (7.8): gap=8.5, compounding=8.0, timeliness=7.0, balance=6.7
 - Off-Balance-Sheet Shenanigans: SPEs, VIEs, and Lease Tricks (7.7): gap=8.5, compounding=7.5, timeliness=7.0, balance=6.7
 Domain balance: accounting-financial-shenanigans (3 topics), probabilistic-thinking-forecasting (3), valuation-screening (3), value-investing (3), coding-agentic-ai (3) -- all domains at same topic count (balance=6.7 each). Domains not visited in last 5 cycles prioritized for coverage rotation.
+
+## [ENT-111] | 2026-07-27 10:03 UTC | Researcher-1 | library | ref: library/value-investing/capital-allocation.md | see: candidate-capital-allocation
+Wrote topic Capital Allocation -- Why the CEO's Most Important Job Is Deciding Where Every Dollar Goes to value-investing. Weighted score: 8.9/10.0
+(core=9.0, scope=9.5, value=8.5, authority=7.0).
+Similarity overlap: <25%.
+Sources: 5 (1 high, 3 medium, 1 high-implicit).
+Cross-references: 3 topics.

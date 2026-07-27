@@ -193,14 +193,6 @@
 - **Scope:** Benjamin Graham's allegory of Mr. Market -- a manic-depressive business partner who offers to buy or sell shares at wildly different prices every day -- as the psychological foundation of value investing. Covers the full parable from The Intelligent Investor: Mr. Market's mood swings create opportunity, not risk, and the investor's job is to exploit his irrationality, not follow it. Why this metaphor encapsulates the distinction between price and intrinsic value, the market as a voting machine (short run) vs weighing machine (long run), and why temperament -- the ability to stay calm when Mr. Market panics -- matters more than intelligence. The behavioral economics that validates Graham's insight: volatility is not risk, and the best returns come from buying when Mr. Market is depressed. Why most investors, including professionals, fail to act on this principle in practice.
 - **Status:** proposed
 
-## Candidate: Capital Allocation: The CEO's Most Important Job
-- **Domain:** value-investing
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=6.7)
-- **Scope:** How companies deploy the cash they generate -- the five options (reinvest in the business, acquisitions, pay down debt, dividends, share buybacks) and the framework for choosing among them. Covers William Thorndike's The Outsiders and the counterintuitive finding that the best CEOs share one trait: exceptional capital allocation skill, not operational brilliance. Why most CEOs are terrible capital allocators (empire-building bias, herding, using acquisition premiums to buy growth, buying back shares at peaks and stopping at troughs). The Buffett framework: every dollar of retained earnings must create at least a dollar of market value, or it should be returned to shareholders. Buybacks: when they create value (shares below intrinsic value) vs destroy it (offsetting dilution, signaling overconfidence). Dividends vs buybacks as capital return mechanisms and their tax and signaling differences.
-- **Status:** proposed
-
 ## Candidate: Prompt Engineering for Agents: Progressive Disclosure and Instruction Design
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Researcher-2
