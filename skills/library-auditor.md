@@ -213,6 +213,6 @@ cd /tmp && rm -rf brain-audit
 - `governance/template-library.md` -- topic format specification the auditor verifies against
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format, index rules
 - `research/insights/library-system.md` -- full system blueprint, decorrelation rule
-- `governance/library-writer.md` -- writer skill (produces topics for audit)
-- `governance/library-discoverer.md` -- discoverer skill (proposes candidates)
+- `skills/library-writer.md` -- writer skill (produces topics for audit)
+- `skills/library-discoverer.md` -- discoverer skill (proposes candidates)
 - `logbook/protocol.md` -- logbook entry format

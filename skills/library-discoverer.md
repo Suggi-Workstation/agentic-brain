@@ -262,6 +262,6 @@ cd /tmp && rm -rf brain-discover
 
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
 - `research/insights/library-system.md` -- full system blueprint, anti-staleness design
-- `governance/library-writer.md` -- writer skill (picks candidates from queue)
-- `governance/library-auditor.md` -- auditor skill (reviews written topics)
+- `skills/library-writer.md` -- writer skill (picks candidates from queue)
+- `skills/library-auditor.md` -- auditor skill (reviews written topics)
 - `logbook/protocol.md` -- logbook entry format

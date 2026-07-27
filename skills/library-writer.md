@@ -277,8 +277,8 @@ cd /tmp && rm -rf brain-writer
 ## Related
 
 - `governance/template-library.md` -- full format specification, mandatory body sections, quality gates G1-G12, anti-patterns, complete example
-- `governance/library-auditor.md` -- auditor skill (reviews written topics)
-- `governance/library-discoverer.md` -- discoverer skill (proposes candidates)
+- `skills/library-auditor.md` -- auditor skill (reviews written topics)
+- `skills/library-discoverer.md` -- discoverer skill (proposes candidates)
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
 - `research/insights/library-system.md` -- full system blueprint, scoring rationale
 - `logbook/protocol.md` -- logbook entry format
