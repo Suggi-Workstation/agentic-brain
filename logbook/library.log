@@ -479,3 +479,17 @@ Wrote topic Agent Memory and Persistence -- Why Memory Architecture, Not Model S
 Similarity overlap: ~25%.
 Sources: 8 (4 high, 4 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-119] | 2026-07-27 11:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 9 candidates proposed, 0 skipped (25/25 queue, 0 slots remaining).
+Candidates:
+- Human Evolution and Prehistory: From Hominins to Homo Sapiens (8.5): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
+- Ritual and Religion as Cultural Phenomena: How Societies Construct the Sacred (8.3): gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0
+- Kinship and Social Structures: The Universal Grammar of Human Relatedness (7.9): gap=8.5, compounding=7.0, timeliness=6.0, balance=10.0
+- Information Theory: From Shannon Entropy to Modern Data Compression (8.1): gap=9.0, compounding=8.5, timeliness=8.0, balance=5.0
+- Linear Algebra: The Workhorse of Data Science and AI (7.9): gap=8.5, compounding=8.0, timeliness=8.5, balance=5.0
+- Business Cycles: The Rhythm of Boom and Bust (8.1): gap=9.0, compounding=8.0, timeliness=8.5, balance=5.0
+- Trade and Comparative Advantage: Why Nations Exchange (7.7): gap=8.5, compounding=7.5, timeliness=8.5, balance=5.0
+- Capital Cycle Analysis: How Capital Flows Create Industry Booms and Busts (7.9): gap=8.5, compounding=8.0, timeliness=7.5, balance=6.7
+- Marie Curie: Scientific Genius and Relentless Determination (7.8): gap=9.0, compounding=7.5, timeliness=6.5, balance=6.7
+Domain balance: anthropology (2 topics) to coding-agentic-ai (6 topics).

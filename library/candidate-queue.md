@@ -91,10 +91,8 @@
 - **Scope:** A survey of practical techniques for learning faster and deeper: the Feynman Technique (teach to learn; identify gaps; simplify until the explanation is clear), the Leitner system for spaced flashcards, the Pomodoro method for sustained focus, SQ3R for reading comprehension, and mind mapping for knowledge organization. How these heuristics connect to underlying cognitive science (elaborative rehearsal, testing effect, chunking). The meta-skill of learning how to learn as the highest-leverage investment in a world where most specific knowledge decays rapidly.
 - **Status:** proposed
 
-
-
-
-
+## Candidate: Sapiens: A Brief History of Humankind (Harari)
+- **Domain:** books
 - **Proposed by:** Researcher-2
 - **Date:** 2026-07-27
 - **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=6.7)
@@ -142,3 +140,75 @@
 - **Scope:** Benjamin Graham's allegory of Mr. Market -- a manic-depressive business partner who offers to buy or sell shares at wildly different prices every day -- as the psychological foundation of value investing. Covers the full parable from The Intelligent Investor: Mr. Market's mood swings create opportunity, not risk, and the investor's job is to exploit his irrationality, not follow it. Why this metaphor encapsulates the distinction between price and intrinsic value, the market as a voting machine (short run) vs weighing machine (long run), and why temperament -- the ability to stay calm when Mr. Market panics -- matters more than intelligence. The behavioral economics that validates Graham's insight: volatility is not risk, and the best returns come from buying when Mr. Market is depressed. Why most investors, including professionals, fail to act on this principle in practice.
 - **Status:** proposed
 
+
+## Candidate: Human Evolution and Prehistory: From Hominins to Homo Sapiens
+- **Domain:** anthropology
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0)
+- **Scope:** The ~7-million-year story of human evolution from the earliest hominins through Australopithecus, Homo habilis, Homo erectus, Neanderthals, and finally Homo sapiens. Covers the major transitions -- bipedalism, brain expansion, tool use, control of fire, language, and the cognitive revolution that allowed behavioral modernity. What the fossil record and ancient DNA reveal about human origins, the Out of Africa vs. multiregional debate, and what happened when sapiens met Neanderthals and Denisovans. The deep-time perspective on what makes humans unique and how our evolutionary past shapes modern behavior.
+- **Status:** proposed
+
+## Candidate: Ritual and Religion as Cultural Phenomena: How Societies Construct the Sacred
+- **Domain:** anthropology
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
+- **Scope:** How different societies construct and maintain systems of shared belief, ritual practice, and sacred meaning. Covers the anthropological study of religion from Durkheim (religion as society worshipping itself) to Geertz (religion as cultural system) and Turner (ritual as social drama). Major cross-cultural patterns: animism, ancestor worship, shamanism, polytheism, and monotheism. The functions of ritual -- marking transitions, reinforcing social bonds, managing anxiety, and legitimizing authority. Why religion is a human universal, what secularization theory got wrong, and the relationship between ritual and the emergence of large-scale cooperation.
+- **Status:** proposed
+
+## Candidate: Kinship and Social Structures: The Universal Grammar of Human Relatedness
+- **Domain:** anthropology
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=7.0, timeliness=6.0, balance=10.0)
+- **Scope:** How human societies organize the fundamental relationships of family, marriage, descent, and inheritance. Covers the classic anthropological frameworks: Morgan's kinship terminology types (Iroquois, Crow, Omaha, Hawaiian, Eskimo), Levi-Strauss's alliance theory and the incest taboo as the foundation of culture, and the distinction between matrilineal and patrilineal descent systems. Marriage across cultures: monogamy, polygyny, polyandry, bridewealth, dowry, and exogamy rules. How kinship structures shape political organization, economic exchange, and social hierarchy. Modern transformations: what happens to kinship systems under urbanization, individualism, and assisted reproduction.
+- **Status:** proposed
+
+## Candidate: Information Theory: From Shannon Entropy to Modern Data Compression
+- **Domain:** mathematics-statistics
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=5.0)
+- **Scope:** Claude Shannon's 1948 mathematical theory of communication, which defined information quantitatively and launched the digital age. Covers the core concepts: entropy as a measure of uncertainty, channel capacity, the source coding theorem (data compression limits), and the noisy channel coding theorem (error correction limits). Mutual information, KL divergence, and cross-entropy as foundational tools that reappear in machine learning (loss functions, VAEs), statistics (model selection), and cryptography. Why information theory matters beyond engineering: it provides a rigorous language for thinking about uncertainty, surprise, and the efficiency of representation -- concepts that echo in neuroscience (neural coding), biology (genetic information), and even philosophy.
+- **Status:** proposed
+
+## Candidate: Linear Algebra: The Workhorse of Data Science and AI
+- **Domain:** mathematics-statistics
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=8.0, timeliness=8.5, balance=5.0)
+- **Scope:** The mathematics of vectors, matrices, and linear transformations that underpins virtually all modern data science and machine learning. Covers the core operations: matrix multiplication, determinants, eigenvalues and eigenvectors, and the singular value decomposition (SVD). Why linear algebra is the computational engine behind principal component analysis (PCA), recommendation systems, neural network forward and backward passes, and 3D graphics rendering. The geometric intuition: matrices as transformations of space, eigenvectors as directions that stay fixed under transformation, SVD as the optimal low-rank approximation. Applications from PageRank to word embeddings to deep learning frameworks.
+- **Status:** proposed
+
+## Candidate: Business Cycles: The Rhythm of Boom and Bust
+- **Domain:** macro-micro
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=5.0)
+- **Scope:** The recurring pattern of economic expansion and contraction that has characterized market economies for centuries. Covers the major theories: Keynesian (demand shocks and sticky prices), monetarist (money supply and the Fed's role), real business cycle theory (technology shocks), and the financial accelerator (how credit amplifies cycles). The empirical regularities: yield curve inversion as a recession predictor, the behavior of leading/coincident/lagging indicators, and the typical sequence of events across a cycle. Why forecasting turning points is so hard: economies are complex adaptive systems with regime changes and nonlinearities. The role of automatic stabilizers and countercyclical policy. How investors should think about cycles: not as something to predict precisely but as something to position for probabilistically.
+- **Status:** proposed
+
+## Candidate: Trade and Comparative Advantage: Why Nations Exchange
+- **Domain:** macro-micro
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.5, timeliness=8.5, balance=5.0)
+- **Scope:** The economic theory of international trade from David Ricardo's comparative advantage (trade is mutually beneficial even when one country is better at everything) through the Heckscher-Ohlin model (trade patterns reflect factor endowments) to new trade theory (increasing returns, network effects, and the role of historical accident). The empirical evidence on trade's effects: gains from specialization, the distributional consequences (Stolper-Samuelson), and why the overall gains coexist with concentrated losses for specific workers and industries. The political economy of trade: why tariffs and protectionism persist despite the economic case for free trade, the strategic trade policy debate, and what the U.S.-China trade tensions reveal about the limits of comparative advantage in a world of national security concerns and supply chain resilience.
+- **Status:** proposed
+
+## Candidate: Capital Cycle Analysis: How Capital Flows Create Industry Booms and Busts
+- **Domain:** industries-sectors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=6.7)
+- **Scope:** Edward Chancellor and Marathon Asset Management's framework for understanding industry profitability through the lens of capital flows. The central insight: high returns attract capital, capital expansion destroys returns, low returns drive capital exit, and exit restores profitability. The cycle that confuses investors who extrapolate current conditions. Covers the empirical pattern: industries with high investment relative to assets tend to produce poor subsequent returns, while capital-starved industries often surprise. Application to semiconductors, energy, shipping, airlines, and venture capital. Why sell-side analysts miss the capital cycle: they forecast demand well but ignore supply-side responses. How to use the capital cycle to identify contrarian opportunities and avoid value traps.
+- **Status:** proposed
+
+## Candidate: Marie Curie: Scientific Genius and Relentless Determination
+- **Domain:** notable-people
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 7.8/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=6.7)
+- **Scope:** The life and work of Maria Sklodowska-Curie (1867-1934), the first woman to win a Nobel Prize and the only person to win Nobels in two different sciences (Physics 1903, Chemistry 1911). Covers her path from clandestine study in Russian-occupied Poland to the Sorbonne, her partnership with Pierre Curie, the grueling physical labor of isolating radium from tons of pitchblende, and her discoveries of polonium and radium that launched the field of radioactivity. Her character: relentless work ethic, indifference to fame and wealth, refusal to patent radium so the world could benefit freely, and continuing her research even as radiation poisoning destroyed her health. Her legacy: the Curie Institutes, mobile X-ray units in WWI, and the double-edged gift of nuclear science. How she navigated a scientific establishment that was openly hostile to women and emerged as the most celebrated scientist of her era.
+- **Status:** proposed
