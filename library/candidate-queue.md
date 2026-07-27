@@ -182,3 +182,27 @@
 - **Scope:** The dominant framework for measuring financial risk: Value at Risk estimates the maximum loss a portfolio faces over a given horizon at a specified confidence level. Covers the three calculation methods (historical simulation, variance-covariance, Monte Carlo), the choice of confidence level and time horizon, and VaR's critical limitations -- it ignores what happens beyond the threshold (tail risk), assumes normal distributions, and creates perverse incentives when used as a regulatory capital metric. Extensions and alternatives: Expected Shortfall (CVaR), stress testing, and scenario analysis. The role of VaR in Basel accords and how risk models became both indispensable and dangerous.
 - **Status:** proposed
 
+
+## Candidate: System 1 vs System 2 Thinking: Dual-Process Theory and the Architecture of Human Cognition
+- **Domain:** psychology-behavior
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0)
+- **Scope:** Kahneman and Tversky's dual-process framework: System 1 (fast, automatic, associative, emotional) and System 2 (slow, deliberate, analytical, effortful). How the two systems interact, why System 1 dominates despite its systematic errors, and what this architecture implies for decision-making, investing, and everyday judgment. Covers priming, cognitive ease, the law of small numbers, and why even experts are not immune. The evolutionary rationale: speed over accuracy. Practical implications: how to engage System 2 when it matters and build environments that make good decisions easier.
+- **Status:** proposed
+
+## Candidate: Heuristics: The Mental Shortcuts That Shape Every Decision
+- **Domain:** psychology-behavior
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=8.0, timeliness=6.5, balance=10.0)
+- **Scope:** The three major heuristics identified by Tversky and Kahneman -- availability (judging frequency by ease of recall), representativeness (judging probability by similarity to a stereotype), and anchoring-and-adjustment (estimating from an initial value) -- and why these mental shortcuts are both indispensable and systematically wrong. Covers the Gigerenzer critique: heuristics as ecologically rational adaptations rather than mere flaws. The affect heuristic (Slovic): how emotional valence replaces analysis. How heuristics explain market anomalies, forecasting errors, and why smart people make predictable mistakes in domains from medicine to investing.
+- **Status:** proposed
+
+## Candidate: Agent Evaluation and Benchmarking: Measuring What AI Agents Can Actually Do
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.5, timeliness=9.0, balance=7.0)
+- **Scope:** How to evaluate AI coding agents beyond anecdotal demos: the benchmark landscape (SWE-bench, HumanEval, GAIA, WebArena), the difference between pass@k and real-world reliability, and why most benchmarks saturate before agents are actually useful. Covers evaluation methodology: deterministic vs. stochastic tests, the role of human evaluation in the loop, and the challenge of measuring compound skills (debugging, refactoring, architecture design). The gap between leaderboard performance and production readiness. Emerging approaches: multi-turn evaluation, environment-based testing, and continuous benchmarking as agents improve.
+- **Status:** proposed

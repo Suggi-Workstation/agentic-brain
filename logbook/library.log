@@ -475,9 +475,28 @@ Similarity overlap: <10%.
 Sources: 10 (9 high, 1 medium, 0 low).
 Cross-references: 3 topics.
 
-## [ENT-090] | 2026-07-27 02:15 UTC | Researcher-1 | library | ref: library/portfolio-risk-management/tail-risk-hedging.md | see: candidate-tail-risk-hedging
+## [ENT-090] | 2026-07-27 01:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 3 candidates proposed, 0 skipped (22/25 queue, 3 slots available).
+Candidates:
+- System 1 vs System 2 Thinking: Dual-Process Theory and the Architecture of Human Cognition (8.6): gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0
+- Heuristics: The Mental Shortcuts That Shape Every Decision (8.2): gap=8.5, compounding=8.0, timeliness=6.5, balance=10.0
+- Agent Evaluation and Benchmarking: Measuring What AI Agents Can Actually Do (8.1): gap=8.5, compounding=7.5, timeliness=9.0, balance=7.0
+Domain balance: psychology-behavior (2 topics) to case-studies (3 topics).
+
+## [ENT-091] | 2026-07-27 02:15 UTC | Researcher-1 | library | ref: library/portfolio-risk-management/tail-risk-hedging.md | see: candidate-tail-risk-hedging
 Wrote topic Tail Risk Hedging -- Why the Best Portfolios Pay for Insurance They Hope to Never Use to portfolio-risk-management. Weighted score: 9.1/10.0
 (core=9.0, scope=9.5, value=9.0, authority=8.0).
 Similarity overlap: 20%.
 Sources: 6 (4 high, 2 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-092] | 2026-07-27 02:22 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 0 candidates proposed, 6 skipped (queue capped at 25).
+Candidates that would have been proposed:
+- Pedagogy and Teaching Methods: What the Science of Learning Says About How to Teach (8.6): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- Video Games as Cultural Artifacts: Interactive Media and What It Reveals About Us (8.5): gap=9.0, compounding=7.0, timeliness=8.0, balance=10.0
+- Human Evolution: From Hominins to Homo Sapiens (8.2): gap=9.0, compounding=7.0, timeliness=6.5, balance=10.0
+- Writing Craft: Clarity, Style, and the Architecture of Effective Prose (8.1): gap=8.5, compounding=8.0, timeliness=6.0, balance=10.0
+- Kinship Systems: The Universal Grammar of Human Social Organization (8.1): gap=9.0, compounding=8.0, timeliness=5.0, balance=10.0
+- Marie Curie: Scientific Genius and Relentless Determination (8.1): gap=9.0, compounding=7.5, timeliness=5.5, balance=10.0
+Domain balance: anthropology (2 topics), education-learning (2), notable-people (2), pop-culture (2), communication (2) to mathematics-statistics (4), geopolitics (4). All 5 scanned domains at minimum topic count.
