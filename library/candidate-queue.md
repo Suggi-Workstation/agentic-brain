@@ -142,14 +142,6 @@
 
 
 
-## Candidate: Sleep Optimization: The Foundation of Cognitive and Physical Performance
-- **Domain:** self-improvement
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=10.0)
-- **Scope:** Why sleep is not passive downtime but an active biological process essential for memory consolidation, emotional regulation, immune function, and metabolic health. Covers sleep architecture (NREM and REM cycles), circadian rhythms and chronotypes, the glymphatic system and brain cleaning during deep sleep, and the cumulative cognitive cost of sleep debt. Evidence-based practices for sleep optimization: light exposure timing, temperature, caffeine and alcohol effects, wind-down routines, and the limitations of sleep tracking wearables. Matthew Walker's research and why the global sleep-loss epidemic is a public health crisis hiding in plain sight.
-- **Status:** proposed
-
 ## Candidate: Criminal Law and Justice Systems: The Architecture of Punishment
 - **Domain:** law-regulation
 - **Proposed by:** Researcher-2
