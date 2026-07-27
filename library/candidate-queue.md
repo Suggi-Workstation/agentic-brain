@@ -183,14 +183,6 @@
 - **Status:** proposed
 
 
-## Candidate: System 1 vs System 2 Thinking: Dual-Process Theory and the Architecture of Human Cognition
-- **Domain:** psychology-behavior
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** Kahneman and Tversky's dual-process framework: System 1 (fast, automatic, associative, emotional) and System 2 (slow, deliberate, analytical, effortful). How the two systems interact, why System 1 dominates despite its systematic errors, and what this architecture implies for decision-making, investing, and everyday judgment. Covers priming, cognitive ease, the law of small numbers, and why even experts are not immune. The evolutionary rationale: speed over accuracy. Practical implications: how to engage System 2 when it matters and build environments that make good decisions easier.
-- **Status:** proposed
-
 ## Candidate: Heuristics: The Mental Shortcuts That Shape Every Decision
 - **Domain:** psychology-behavior
 - **Proposed by:** Researcher-2
