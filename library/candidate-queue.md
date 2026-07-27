@@ -150,14 +150,6 @@
 - **Scope:** How to evaluate AI coding agents beyond anecdotal demos: the benchmark landscape (SWE-bench, HumanEval, GAIA, WebArena), the difference between pass@k and real-world reliability, and why most benchmarks saturate before agents are actually useful. Covers evaluation methodology: deterministic vs. stochastic tests, the role of human evaluation in the loop, and the challenge of measuring compound skills (debugging, refactoring, architecture design). The gap between leaderboard performance and production readiness. Emerging approaches: multi-turn evaluation, environment-based testing, and continuous benchmarking as agents improve.
 - **Status:** proposed
 
-## Candidate: Vaccine Development and Immunology
-- **Domain:** health-medicine
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** How the immune system can be trained to recognize and neutralize pathogens before they cause disease. Covers the history of vaccination (Jenner, Pasteur, Salk), the major vaccine types (live-attenuated, inactivated, subunit, mRNA), herd immunity thresholds, and the immunology of vaccine response (antigen presentation, memory B and T cells). The modern vaccine development pipeline from antigen identification through clinical trials to regulatory approval. The COVID-19 mRNA vaccines as a case study in accelerated development, and why some diseases (HIV, malaria, tuberculosis) have resisted vaccine efforts for decades.
-- **Status:** proposed
-
 ## Candidate: Chronic Disease Management: Cardiovascular Disease and Diabetes
 - **Domain:** health-medicine
 - **Proposed by:** Researcher-2
