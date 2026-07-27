@@ -193,13 +193,7 @@
 - **Scope:** Benjamin Graham's allegory of Mr. Market -- a manic-depressive business partner who offers to buy or sell shares at wildly different prices every day -- as the psychological foundation of value investing. Covers the full parable from The Intelligent Investor: Mr. Market's mood swings create opportunity, not risk, and the investor's job is to exploit his irrationality, not follow it. Why this metaphor encapsulates the distinction between price and intrinsic value, the market as a voting machine (short run) vs weighing machine (long run), and why temperament -- the ability to stay calm when Mr. Market panics -- matters more than intelligence. The behavioral economics that validates Graham's insight: volatility is not risk, and the best returns come from buying when Mr. Market is depressed. Why most investors, including professionals, fail to act on this principle in practice.
 - **Status:** proposed
 
-## Candidate: Prompt Engineering for Agents: Progressive Disclosure and Instruction Design
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=9.0, balance=6.7)
-- **Scope:** The craft of writing instructions that reliably shape agent behavior: designing system prompts that agents actually follow rather than ignore, the progressive disclosure pattern (give agents just enough context for the current subtask, not everything at once), and the hard-learned lessons that longer prompts do not equal better prompts. Covers instruction hierarchy (constitutional rules > task instructions > context), the role of examples and few-shot patterns in agent prompts, managing prompt-drift across long conversations, and the tension between specificity (the agent follows instructions literally) and flexibility (the agent exercises judgment). Practical techniques: output format constraints, chain-of-thought directives, uncertainty signaling, and the "tell the agent what it IS and what it is NOT" pattern for scoping agent identity.
-- **Status:** proposed
+
 
 ## Candidate: Agent Memory and Persistence: How Agents Remember Across Sessions
 - **Domain:** coding-agentic-ai

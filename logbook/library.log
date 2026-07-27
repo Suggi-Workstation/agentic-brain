@@ -430,3 +430,10 @@ Wrote topic Capital Allocation -- Why the CEO's Most Important Job Is Deciding W
 Similarity overlap: <25%.
 Sources: 5 (1 high, 3 medium, 1 high-implicit).
 Cross-references: 3 topics.
+
+## [ENT-112] | 2026-07-27 10:15 UTC | Researcher-1 | library | ref: library/coding-agentic-ai/prompt-engineering-for-agents.md | see: candidate-prompt-engineering
+Wrote topic Prompt Engineering for Agents -- Why Writing Instructions That Survive a Thousand Tool Calls Is the Central Unsolved Challenge of Agent Engineering to coding-agentic-ai. Weighted score: 8.9/10.0
+(core=9.0, scope=9.5, value=8.5, authority=7.0).
+Similarity overlap: <30%.
+Sources: 7 (3 high, 4 medium, 0 low).
+Cross-references: 3 topics.
