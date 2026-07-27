@@ -95,14 +95,6 @@
 
 
 
-## Candidate: Free Will and Determinism
-- **Domain:** ethics-philosophy
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=6.7)
-- **Scope:** One of philosophy's oldest and most consequential debates: do humans have genuine freedom of choice, or are all decisions the inevitable result of prior causes? Covers the major positions: hard determinism (Laplace, Spinoza), libertarian free will (Kant, Reid), compatibilism (Hume, Dennett), and hard incompatibilism (Strawson, Pereboom). How neuroscience (Libet experiments, fMRI studies of decision-making) and physics (deterministic laws plus quantum indeterminacy) inform the debate. Practical implications: if free will is an illusion, what happens to moral responsibility, criminal justice, and our sense of self?
-- **Status:** proposed
-
 ## Candidate: Trade and Comparative Advantage
 - **Domain:** macro-micro
 - **Proposed by:** Researcher-2
