@@ -135,3 +135,84 @@
 - **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=6.7)
 - **Scope:** Harari's sweeping narrative of human history from the Cognitive Revolution (70,000 years ago) through the Agricultural and Scientific Revolutions to the present. Core thesis: Homo sapiens' unique ability is large-scale cooperation based on shared fictions -- money, religion, nations, laws, and corporations are all "intersubjective realities" that exist only because we collectively believe in them. Covers the book's most provocative arguments: that the Agricultural Revolution was history's biggest fraud (it made life worse for most individuals while enabling population growth), that empires were the most successful political form, and that science, imperialism, and capitalism formed a self-reinforcing feedback loop. Critical assessment: where Harari overreaches and what the book gets right.
 - **Status:** proposed
+
+
+## Candidate: Off-Balance-Sheet Shenanigans: SPEs, VIEs, and Lease Tricks
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=6.7)
+- **Scope:** How companies hide debt and liabilities by keeping them off the balance sheet through Special Purpose Entities (Enron's infamous Raptors), Variable Interest Entities, and lease structuring tricks (operating vs capital lease games). Covers the evolution of accounting rules (FIN 46, ASC 842) designed to close these loopholes, and why determined CFOs keep finding new ways around them. How to detect off-balance-sheet exposure from footnotes, contingent liabilities, and the gap between reported and economic debt.
+- **Status:** proposed
+
+## Candidate: Non-GAAP Metrics and Pro-Forma Manipulation
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.0, timeliness=8.5, balance=6.7)
+- **Scope:** The explosive growth of non-GAAP earnings and "adjusted" metrics that companies use to tell a more favorable story than GAAP permits. Covers the most common adjustments (stock-based compensation, restructuring charges, acquisition costs) and how to distinguish legitimate one-time items from recurring costs dressed up as non-recurring. Why the gap between GAAP and non-GAAP earnings has widened dramatically since the 1990s, and what the SEC's Regulation G does (and does not) do to police it. Red flags: adjusted EBITDA that never reconciles to cash flow, serial "one-time" charges, and companies that report non-GAAP metrics but never the GAAP reconciliation on the same page.
+- **Status:** proposed
+
+## Candidate: Inside vs Outside View: The Reference Class Forecasting Framework
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=6.7)
+- **Scope:** Daniel Kahneman's distinction between the inside view (forecasting by focusing on the specific case, its details, and unique circumstances) and the outside view (forecasting by looking at how similar cases turned out -- the reference class). Why the inside view is seductive, detail-rich, and almost always overoptimistic, while the outside view is crude but far more accurate. Covers Kahneman's own experience with the Israeli textbook project, Bent Flyvbjerg's work on megaproject cost overruns, and how to build a reference class forecast: identify the class, gather base rates, adjust for special features, and always anchor to the outside view first. The planning fallacy as a special case of inside-view thinking.
+- **Status:** proposed
+
+## Candidate: Expected Value Thinking and Decision Trees Under Uncertainty
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=6.7)
+- **Scope:** The expected value framework as the rational decision-maker's core tool: multiply each possible outcome by its probability, sum them, and pick the highest EV path. Covers the construction and interpretation of decision trees (decision nodes, chance nodes, terminal values), the difference between maximizing expected value and maximizing expected utility (the St. Petersburg paradox and Bernoulli's resolution), and why most people reject favorable EV bets (loss aversion, probability neglect). Practical applications: career decisions, investment sizing, medical treatment choices. Why "maximize expected value" is simple to state but hard to live by -- it requires being willing to lose individual bets you were right to take.
+- **Status:** proposed
+
+## Candidate: Terminal Value: Why Most of a DCF Is in the Last Number
+- **Domain:** valuation-screening
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.0/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=6.7)
+- **Scope:** The terminal value typically represents 60-80% of a DCF valuation, making it simultaneously the most important and most abused number in finance. Covers the two methods: perpetuity growth (Gordon Growth Model) and exit multiple, the assumptions that drive each (terminal growth rate must be below GDP growth in perpetuity, exit multiple must reflect mature-company economics), and how small changes in terminal assumptions produce enormous swings in intrinsic value. Why the terminal value is where valuation analysts hide their biases, and how to stress-test it: reverse DCF to back out implied growth rates, compare to industry norms, and use the "competitive fade" framework (high returns attract competition, pushing growth toward GDP over time). The terminal value as a test of whether you actually believe your own assumptions.
+- **Status:** proposed
+
+## Candidate: Cost of Capital: CAPM, WACC, and the Equity Risk Premium Debate
+- **Domain:** valuation-screening
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=6.7)
+- **Scope:** Every valuation model needs a discount rate, and that rate is built from the cost of capital framework. Covers the Capital Asset Pricing Model (CAPM): risk-free rate, beta, and the equity risk premium (ERP). How to estimate each component: which risk-free rate (10-year Treasury?), the instability of beta and why raw regression betas need adjustment, and the ERP as the most debated single number in finance (historical vs forward-looking vs survey-based estimates, currently around 4-6%). The Weighted Average Cost of Capital (WACC) and the iterative circularity problem when WACC depends on market value weights. Critiques of CAPM: the Fama-French factors (size, value, profitability, investment), the low-beta anomaly, and whether CAPM survives empirical testing at all. Why practitioners keep using CAPM despite its known flaws -- it is simple, standardized, and the alternatives are not clearly better.
+- **Status:** proposed
+
+## Candidate: Mr. Market: The Most Powerful Metaphor in Investing
+- **Domain:** value-investing
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 7.8/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=6.7)
+- **Scope:** Benjamin Graham's allegory of Mr. Market -- a manic-depressive business partner who offers to buy or sell shares at wildly different prices every day -- as the psychological foundation of value investing. Covers the full parable from The Intelligent Investor: Mr. Market's mood swings create opportunity, not risk, and the investor's job is to exploit his irrationality, not follow it. Why this metaphor encapsulates the distinction between price and intrinsic value, the market as a voting machine (short run) vs weighing machine (long run), and why temperament -- the ability to stay calm when Mr. Market panics -- matters more than intelligence. The behavioral economics that validates Graham's insight: volatility is not risk, and the best returns come from buying when Mr. Market is depressed. Why most investors, including professionals, fail to act on this principle in practice.
+- **Status:** proposed
+
+## Candidate: Capital Allocation: The CEO's Most Important Job
+- **Domain:** value-investing
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=6.7)
+- **Scope:** How companies deploy the cash they generate -- the five options (reinvest in the business, acquisitions, pay down debt, dividends, share buybacks) and the framework for choosing among them. Covers William Thorndike's The Outsiders and the counterintuitive finding that the best CEOs share one trait: exceptional capital allocation skill, not operational brilliance. Why most CEOs are terrible capital allocators (empire-building bias, herding, using acquisition premiums to buy growth, buying back shares at peaks and stopping at troughs). The Buffett framework: every dollar of retained earnings must create at least a dollar of market value, or it should be returned to shareholders. Buybacks: when they create value (shares below intrinsic value) vs destroy it (offsetting dilution, signaling overconfidence). Dividends vs buybacks as capital return mechanisms and their tax and signaling differences.
+- **Status:** proposed
+
+## Candidate: Prompt Engineering for Agents: Progressive Disclosure and Instruction Design
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=9.0, balance=6.7)
+- **Scope:** The craft of writing instructions that reliably shape agent behavior: designing system prompts that agents actually follow rather than ignore, the progressive disclosure pattern (give agents just enough context for the current subtask, not everything at once), and the hard-learned lessons that longer prompts do not equal better prompts. Covers instruction hierarchy (constitutional rules > task instructions > context), the role of examples and few-shot patterns in agent prompts, managing prompt-drift across long conversations, and the tension between specificity (the agent follows instructions literally) and flexibility (the agent exercises judgment). Practical techniques: output format constraints, chain-of-thought directives, uncertainty signaling, and the "tell the agent what it IS and what it is NOT" pattern for scoping agent identity.
+- **Status:** proposed
+
+## Candidate: Agent Memory and Persistence: How Agents Remember Across Sessions
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-27
+- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=8.0, timeliness=8.5, balance=6.7)
+- **Scope:** The engineering challenge of giving AI agents persistent memory that survives session boundaries. Covers the memory hierarchy: working memory (context window), episodic memory (conversation history and summaries), semantic memory (structured knowledge bases, vector stores, RAG), and procedural memory (skills, prompts, stored plans). Trade-offs in memory architecture: retrieval quality vs latency, the recency-vs-relevance problem in vector search, and the challenge of memory staleness (facts change but stored memories do not). Practical patterns: MemGPT-style self-editing memory, reflection-based summarization, memory consolidation (periodically compressing and reindexing), and the tension between giving agents too little memory (they forget) and too much (they get confused by stale or contradictory information).
+- **Status:** proposed
