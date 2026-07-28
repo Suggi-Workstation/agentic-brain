@@ -388,3 +388,23 @@ Workstreams:
   every good company valued, no price-embedded metrics anywhere.
 Reflection: 2026-07-27_ava_intrinsic-value-price-independent.md.
 Daily memory: 2026-07-27.md.
+
+## [ENT-034] | 2026-07-28 08:47 UTC | Ava | general | ref: skills/preflight/SKILL.md, skills/session-end/SKILL.md | see: 20260728T084810Z
+Session: memory-wiki plugin enablement, bridge-to-isolated migration, wiki skill gates.
+Workstreams:
+- Enabled memory-wiki plugin. Configured bridge mode. memory-core exported
+  11 artifacts successfully (builtin SQLite backend supports bridge SDK).
+- Researched architecture online. Confirmed three vault modes. Bridge mode
+  imports raw memory files as wiki sources -- does not synthesize.
+- Suggi identified the mirror problem: bridge wiki = duplicate of memory
+  folder. Questioned purpose. Switched to isolated mode (clean vault).
+- Designed wiki integration into preflight (Step 9: wiki health check)
+  and session-end (Step 7: wiki curation with entity updates + Schoen Loop
+  claim extraction). Implemented both skill edits, renumbered steps,
+  updated read-proof formats. Committed and pushed.
+- Wrote reflection on the bridge-mode mirror fallacy: "infrastructure
+  ready is not working." Pattern: assuming output completeness = correctness.
+  Same class as pipeline price-embedding error (2026-07-27).
+Reflection: 2026-07-28_ava_infrastructure-ready-is-not-working.md.
+Daily memory: 2026-07-28.md.
+Wiki: isolated mode, clean vault, curation step added to session-end.
