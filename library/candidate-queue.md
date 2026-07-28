@@ -91,14 +91,6 @@
 - **Scope:** A survey of practical techniques for learning faster and deeper: the Feynman Technique (teach to learn; identify gaps; simplify until the explanation is clear), the Leitner system for spaced flashcards, the Pomodoro method for sustained focus, SQ3R for reading comprehension, and mind mapping for knowledge organization. How these heuristics connect to underlying cognitive science (elaborative rehearsal, testing effect, chunking). The meta-skill of learning how to learn as the highest-leverage investment in a world where most specific knowledge decays rapidly.
 - **Status:** proposed
 
-## Candidate: Sapiens: A Brief History of Humankind (Harari)
-- **Domain:** books
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=6.7)
-- **Scope:** Harari's sweeping narrative of human history from the Cognitive Revolution (70,000 years ago) through the Agricultural and Scientific Revolutions to the present. Core thesis: Homo sapiens' unique ability is large-scale cooperation based on shared fictions -- money, religion, nations, laws, and corporations are all "intersubjective realities" that exist only because we collectively believe in them. Covers the book's most provocative arguments: that the Agricultural Revolution was history's biggest fraud (it made life worse for most individuals while enabling population growth), that empires were the most successful political form, and that science, imperialism, and capitalism formed a self-reinforcing feedback loop. Critical assessment: where Harari overreaches and what the book gets right.
-- **Status:** proposed
-
 ## Candidate: Off-Balance-Sheet Shenanigans: SPEs, VIEs, and Lease Tricks
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Researcher-2
