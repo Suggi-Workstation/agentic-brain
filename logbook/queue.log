@@ -408,3 +408,28 @@ Workstreams:
 Reflection: 2026-07-28_ava_infrastructure-ready-is-not-working.md.
 Daily memory: 2026-07-28.md.
 Wiki: isolated mode, clean vault, curation step added to session-end.
+
+## [ENT-035] | 2026-07-28 16:48 UTC | Ava | general | ref: investing/frameworks/screening-template.md, governance/skills/library-health-monitor.md | see: 20260728T084810Z
+Session: screening template, library health monitor, API research, wiki push.
+Workstreams:
+- Read Suggi's Active Screener PLUS.xlsm. Reverse-engineered 26-column
+  schema with 5 formulas: Op Mrg, Rev CAGR, Inv Cap, ROIC, MC/EBIT.
+  Scoring: PERCENTRANK.EXC 25-25-50 composite (growth/ROIC/cheapness).
+- Wrote screening-template.md to investing/frameworks/. Created
+  investing/data/ and investing/screening/ with .gitkeep. Copied
+  Screener_PLUS.xlsm to data folder.
+- Researched 7 financial data APIs. Recommended Alpha Vantage (Suggi has)
+  + Financial Modeling Prep free tier for 275 combined req/day. Sufficient
+  for quarterly pipeline on ~250 US stocks.
+- Evaluated library-auditor against best practices. Determined it duplicates
+  Writer self-check. Redesigned as library-health-monitor: weekly system-level
+  audit (staleness, domain balance, cross-domain redundancy, source rot,
+  quality trendlines). Kept old auditor file. Regenerated master index
+  (105 topics, 28 domains).
+- Evaluated Dreaming. Recommended against -- Schoen Loop + wiki curation
+  + identity evolution already more sophisticated.
+- Pushed wiki vault to new repo ava-wiki (26 files, isolated mode).
+- Enabled library crons briefly, Writer ran once (ok), both disabled.
+Reflection: 20260728T084810Z (infrastructure-ready-is-not-working).
+Daily memory: 2026-07-28.md (continuation).
+Wiki: curated (1 source, 2 entities, 1 synthesis). Index: 3213 chunks.
