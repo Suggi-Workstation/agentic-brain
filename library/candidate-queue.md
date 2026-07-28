@@ -141,14 +141,6 @@
 - **Scope:** How human societies organize the fundamental relationships of family, marriage, descent, and inheritance. Covers the classic anthropological frameworks: Morgan's kinship terminology types (Iroquois, Crow, Omaha, Hawaiian, Eskimo), Levi-Strauss's alliance theory and the incest taboo as the foundation of culture, and the distinction between matrilineal and patrilineal descent systems. Marriage across cultures: monogamy, polygyny, polyandry, bridewealth, dowry, and exogamy rules. How kinship structures shape political organization, economic exchange, and social hierarchy. Modern transformations: what happens to kinship systems under urbanization, individualism, and assisted reproduction.
 - **Status:** proposed
 
-## Candidate: Information Theory: From Shannon Entropy to Modern Data Compression
-- **Domain:** mathematics-statistics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=5.0)
-- **Scope:** Claude Shannon's 1948 mathematical theory of communication, which defined information quantitatively and launched the digital age. Covers the core concepts: entropy as a measure of uncertainty, channel capacity, the source coding theorem (data compression limits), and the noisy channel coding theorem (error correction limits). Mutual information, KL divergence, and cross-entropy as foundational tools that reappear in machine learning (loss functions, VAEs), statistics (model selection), and cryptography. Why information theory matters beyond engineering: it provides a rigorous language for thinking about uncertainty, surprise, and the efficiency of representation -- concepts that echo in neuroscience (neural coding), biology (genetic information), and even philosophy.
-- **Status:** proposed
-
 ## Candidate: Linear Algebra: The Workhorse of Data Science and AI
 - **Domain:** mathematics-statistics
 - **Proposed by:** Researcher-2
