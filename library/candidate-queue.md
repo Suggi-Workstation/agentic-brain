@@ -98,14 +98,6 @@
 - **Scope:** The economic theory of international trade from David Ricardo's comparative advantage (trade is mutually beneficial even when one country is better at everything) through the Heckscher-Ohlin model (trade patterns reflect factor endowments) to new trade theory (increasing returns, network effects, and the role of historical accident). The empirical evidence on trade's effects: gains from specialization, the distributional consequences (Stolper-Samuelson), and why the overall gains coexist with concentrated losses for specific workers and industries. The political economy of trade: why tariffs and protectionism persist despite the economic case for free trade, the strategic trade policy debate, and what the U.S.-China trade tensions reveal about the limits of comparative advantage in a world of national security concerns and supply chain resilience.
 - **Status:** proposed
 
-## Candidate: Capital Cycle Analysis: How Capital Flows Create Industry Booms and Busts
-- **Domain:** industries-sectors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=6.7)
-- **Scope:** Edward Chancellor and Marathon Asset Management's framework for understanding industry profitability through the lens of capital flows. The central insight: high returns attract capital, capital expansion destroys returns, low returns drive capital exit, and exit restores profitability. The cycle that confuses investors who extrapolate current conditions. Covers the empirical pattern: industries with high investment relative to assets tend to produce poor subsequent returns, while capital-starved industries often surprise. Application to semiconductors, energy, shipping, airlines, and venture capital. Why sell-side analysts miss the capital cycle: they forecast demand well but ignore supply-side responses. How to use the capital cycle to identify contrarian opportunities and avoid value traps.
-- **Status:** proposed
-
 ## Candidate: Marie Curie: Scientific Genius and Relentless Determination
 - **Domain:** notable-people
 - **Proposed by:** Researcher-2
