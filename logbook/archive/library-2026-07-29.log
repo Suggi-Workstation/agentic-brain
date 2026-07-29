@@ -1,0 +1,109 @@
+<!-- library.log archive -- entries 7-110 (line range)
+     Moved from active log on 2026-07-29 08:49 UTC
+     Active log continues from ENT-085 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-071] | 2026-07-26 18:02 UTC | Researcher-1 | library | ref: library/communication/propaganda-and-misinformation.md | see: Propaganda and Misinformation candidate
+Wrote topic Propaganda and Misinformation -- How Information Is Weaponized to Shape Belief and Behavior to communication. Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=8.0).
+Similarity overlap: 20% (with the-medium-is-the-message.md -- related media effects, distinct topics).
+Sources: 8 (8 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-072] | 2026-07-26 18:16 UTC | Researcher-1 | library | ref: library/finance/bond-pricing-and-fixed-income-markets.md | see: Bond Pricing and Fixed Income Markets candidate
+Wrote topic Bond Pricing and Fixed Income Markets -- Why the World's Largest Securities Market Runs on a Handful of Mathematical Relationships to finance. Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=8.0).
+Similarity overlap: <10% (only financial-statement-analysis.md in finance domain -- distinct topics).
+Sources: 10 (7 high, 3 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-073] | 2026-07-26 18:31 UTC | Researcher-1 | library | ref: library/history/colonialism-and-decolonization.md | see: candidate-colonialism-and-decolonization
+Wrote topic Colonialism and Decolonization -- European Imperial Expansion Reshaped the World, and Its Reversal Created Modern Geopolitical Instability to history. Weighted score: 9.2/10.0
+(core=9.5, scope=9.5, value=8.5, authority=8.0).
+Similarity overlap: ~15% (with industrial-revolution-and-its-consequences.md -- distinct topics, shared historical context).
+Sources: 9 (7 high, 2 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-074] | 2026-07-26 18:45 UTC | Researcher-1 | library | ref: library/portfolio-risk-management/modern-portfolio-theory.md | see: Modern Portfolio Theory candidate
+Wrote topic Modern Portfolio Theory -- How Markowitz Transformed Investing From Art to Science to portfolio-risk-management. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=9.0, authority=8.5).
+Similarity overlap: ~25% (with kelly-criterion.md -- related portfolio-allocation topic, distinct focus).
+Sources: 12 (9 high, 3 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-075] | 2026-07-26 21:31 UTC | Researcher-1 | library | ref: library/finance/banking-maturity-transformation.md | see: Banking: The Business of Maturity Transformation candidate
+Wrote topic Banking -- Why Borrowing Short and Lending Long Is Both the Business Model and the Fatal Flaw to finance. Weighted score: 9.0/10.0
+(core=9.5, scope=9.5, value=8.0, authority=7.5).
+Similarity overlap: <10%.
+Sources: 8 (5 high, 3 medium, 0 low).
+Cross-references: 2 topics.
+
+## [ENT-076] | 2026-07-26 21:45 UTC | Researcher-1 | library | ref: library/science/genetics-and-heredity.md | see: Genetics and Heredity: From Mendel to CRISPR
+Wrote topic Genetics and Heredity -- How Biological Information Is Encoded, Transmitted, and Modified Across Generations to science. Weighted score: 8.7/10.0
+(core=9.5, scope=8.0, value=8.5, authority=9.0).
+Similarity overlap: ~35% (with evolution-by-natural-selection.md -- genetics provides the mechanistic substrate for evolution, distinct focus).
+Sources: 8 (8 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-077] | 2026-07-26 21:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 7 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Causal Inference: Moving Beyond Correlation to Understand Why (9.2): gap=9.5, compounding=8.5, timeliness=9.0, balance=10.0
+- International Relations Theory: Realism, Liberalism, and Constructivism (9.0): gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Energy Geopolitics: How Oil, Gas, and Critical Minerals Shape Global Power (8.9): gap=9.0, compounding=8.0, timeliness=9.0, balance=10.0
+- Benjamin Graham: The Father of Value Investing (8.7): gap=9.5, compounding=8.5, timeliness=6.5, balance=10.0
+- Bayesian Statistics: Updating Beliefs with Evidence (8.7): gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0
+- Game Theory: Strategic Interaction and the Mathematics of Cooperation (8.6): gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0
+- The Selfish Gene by Richard Dawkins -- A Summary (8.5): gap=9.0, compounding=8.5, timeliness=6.5, balance=10.0
+Domain balance: all 6 selected domains at 2 topics each (anthropology, books, geopolitics, investors, macro-micro, mathematics-statistics). Skipped: United Nations and Global Governance (8.5) dropped due to 25-cap. All 5 major categories represented: human/social (anthropology, books), global (geopolitics), investing (investors, macro-micro), thinking (mathematics-statistics), science (mathematics-statistics).
+
+## [ENT-078] | 2026-07-26 22:04 UTC | Researcher-1 | library | ref: library/mathematics-statistics/causal-inference.md | see: Causal Inference: Moving Beyond Correlation to Understand Why
+Wrote topic Causal Inference -- Why Most Statistical Tools Only Measure Association, Not Causation to mathematics-statistics. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=8.5, authority=9.0).
+Similarity overlap: ~35% (with statistical-inference.md -- shares inference foundations but causal inference has distinct focus on counterfactual frameworks, identification strategies, and Pearl/Rubin formalisms).
+Sources: 6 (6 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-079] | 2026-07-26 22:15 UTC | Researcher-1 | library | ref: library/geopolitics/international-relations-theory.md | see: International Relations Theory: Realism, Liberalism, and Constructivism
+Wrote topic International Relations Theory -- Why the Three Grand Frameworks of Realism, Liberalism, and Constructivism Compete, Coexist, and Shape How We See the World to geopolitics. Weighted score: 9.3/10.0
+(core=9.5, scope=10.0, value=8.5, authority=7.5).
+Similarity overlap: ~15% (with nuclear-deterrence-mad.md and us-china-great-power-competition.md -- related application topics but distinct theoretical focus).
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-080] | 2026-07-26 22:31 UTC | Researcher-1 | library | ref: library/geopolitics/energy-geopolitics.md | see: Energy Geopolitics: How Oil, Gas, and Critical Minerals Shape Global Power
+Wrote topic Energy Geopolitics -- How Oil, Gas, and Critical Minerals Shape Global Power to geopolitics. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=9.0, authority=8.0).
+Similarity overlap: <20% (with us-china-great-power-competition.md -- touches energy dimension peripherally but focuses on broader strategic rivalry; international-relations-theory.md and nuclear-deterrence-mad.md have no overlap with energy resource geopolitics).
+Sources: 5 (2 high, 3 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-081] | 2026-07-26 22:45 UTC | Researcher-1 | library | ref: library/investors/benjamin-graham.md | see: candidate-benjamin-graham
+Wrote topic Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline to investors. Weighted score: 9.6/10.0
+(core=10.0, scope=10.0, value=9.5, authority=7.0).
+Similarity overlap: 15%.
+Sources: 7 (3 high, 4 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-082] | 2026-07-26 23:05 UTC | Researcher-1 | library | ref: library/mathematics-statistics/bayesian-statistics.md | see: Bayesian Statistics: Updating Beliefs with Evidence
+Wrote topic Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data to mathematics-statistics. Weighted score: 8.9/10.0
+(core=9.0, scope=9.0, value=9.0, authority=8.0).
+Similarity overlap: ~30-35% (some overlap with probability-theory-fundamentals.md on Bayes' theorem basics, and statistical-inference.md on MCMC; but neither gives a dedicated treatment of Bayesian inference as a complete framework).
+Sources: 5 (5 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-083] | 2026-07-26 23:15 UTC | Researcher-1 | library | ref: library/macro-micro/game-theory-strategic-interaction-and-cooperation.md | see: Game Theory: Strategic Interaction and the Mathematics of Cooperation
+Wrote topic Game Theory -- Why Individually Rational Choices Produce Collectively Irrational Outcomes to macro-micro. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.5, authority=7.5).
+Similarity overlap: <20% (no existing game theory topic in macro-micro; inflation-dynamics.md and monetary-policy-and-central-banking.md cover different subjects).
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-084] | 2026-07-26 23:32 UTC | Researcher-1 | library | ref: library/books/the-selfish-gene.md | see: candidate-the-selfish-gene
+Wrote topic The Selfish Gene -- How Dawkins Reframed Evolution Around the Gene as the True Unit of Selection to books. Weighted score: 8.6/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.0).
+Similarity overlap: <5% (only two other books in the domain -- the-intelligent-investor.md on value investing and thinking-fast-and-slow.md on cognitive psychology; neither overlaps with evolutionary biology).
+Sources: 6 (5 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
