@@ -195,6 +195,13 @@ Domain balance: <least-covered> (N topics) to <most-covered> (N topics).
 
 Increment ENT counter from the last entry in library.log.
 
+Before appending, check whether the file already ends with a blank
+line. If the last character is a newline (the file has a trailing
+blank line from the previous entry), append directly without adding
+another blank line. If it is not, add ONE blank line, then append
+your entry. Never add a second blank line -- double gaps between
+entries are a format violation.
+
 ### 11a. Log errors (if any)
 
 If any step failed or produced unexpected results (clone failed,
@@ -240,7 +247,7 @@ failures only.
 - [ ] No topic files created (discoverer proposes, does not write) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
 - [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
-- [ ] Logbook entry properly separated: a blank line precedes this entry in library.log. Verify with: `tail -n +<last-ent-line> /tmp/brain-discover/logbook/library.log | head -2` -- the first line must be empty. No entries merged without spacing. (PASS / HALT)
+- [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)
 - [ ] Safe push executed: push retried up to 3 times with pull --rebase on rejection. Final push succeeded or error logged to errors.log (PASS / HALT)
 
 ### 12. Commit and push
