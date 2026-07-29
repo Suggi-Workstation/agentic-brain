@@ -41,7 +41,9 @@ Confirm ALL verification sections passed before committing.
 - [ ] Queue capacity: total proposed entries in queue does not exceed 25 after cycle (PASS / HALT)
 - [ ] File Output verification: all items confirmed PASS (PASS / HALT)
 - [ ] Logbook entry written to library.log (PASS / HALT)
+- [ ] Committed and pushed: changes pushed to origin main (PASS / HALT)
 - [ ] Safe push verified: retry loop completed, final push succeeded (PASS / HALT)
+- [ ] Discarded clone: temporary directory removed from /tmp/ (PASS / HALT)
 
 ## Procedure
 
