@@ -146,14 +146,6 @@
 - **Scope:** The four laws of thermodynamics as the most fundamental constraints in all of physics -- and by extension, in all of science. Covers the Zeroth Law (temperature and thermal equilibrium), the First Law (energy is conserved -- you cannot win), the Second Law (entropy always increases in an isolated system -- you cannot break even), and the Third Law (absolute zero is unattainable). Why the Second Law is arguably the most profound scientific insight: it explains why time has a direction (the arrow of time), why perpetual motion machines are impossible, why organized systems require energy input to maintain, and why all complex structures in the universe -- from stars to life to civilizations -- are temporary local reversals of an inexorable trend. The statistical mechanics interpretation (Boltzmann) that entropy is not a mystical force but a statistical inevitability: there are vastly more ways to be disordered than ordered.
 - **Status:** proposed
 
-## Candidate: AI Ethics: The Moral Questions Posed by Machine Intelligence
-- **Domain:** ethics-philosophy
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=5.0)
-- **Scope:** The ethical frameworks needed to govern increasingly capable AI systems. Covers the central problems: alignment (how to ensure AI systems pursue human values, not just their programmed objectives), bias and fairness (how training data embeds societal prejudices into models), accountability (who is responsible when an autonomous system causes harm), transparency and explainability (the black-box problem), and the existential risk debate (could advanced AI pose a threat to humanity). The major ethical frameworks applied to AI: utilitarian approaches (maximizing net benefit), deontological constraints (rights and duties AI must respect), and virtue ethics (what kind of AI would a wise society build). Covers real-world cases: facial recognition bias, lethal autonomous weapons, algorithmic sentencing, and the debate over open-source vs. restricted AI models. A bridge topic connecting ethics-philosophy to coding-agentic-ai, technology, and law-regulation.
-- **Status:** proposed
-
 ## Candidate: Assessment and Testing: Measuring What People Actually Know
 - **Domain:** education-learning
 - **Proposed by:** Researcher-2
