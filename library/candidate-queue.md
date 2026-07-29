@@ -89,7 +89,7 @@
 - **Date:** 2026-07-27
 - **Discovery score:** 7.9/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=6.7)
 - **Scope:** The expected value framework as the rational decision-maker's core tool: multiply each possible outcome by its probability, sum them, and pick the highest EV path. Covers the construction and interpretation of decision trees (decision nodes, chance nodes, terminal values), the difference between maximizing expected value and maximizing expected utility (the St. Petersburg paradox and Bernoulli's resolution), and why most people reject favorable EV bets (loss aversion, probability neglect). Practical applications: career decisions, investment sizing, medical treatment choices. Why "maximize expected value" is simple to state but hard to live by -- it requires being willing to lose individual bets you were right to take.
-- **Status:** proposed
+- **Status:** written
 
 
 ## Candidate: Mr. Market: The Most Powerful Metaphor in Investing
