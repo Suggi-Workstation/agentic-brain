@@ -27,14 +27,6 @@
 - **Scope:** How firms choose their mix of debt and equity financing. The Modigliani-Miller irrelevance propositions and why real-world frictions (taxes, bankruptcy costs, agency problems, information asymmetry) make capital structure matter. Covers trade-off theory, pecking order theory, and the practical determinants of leverage ratios across industries.
 - **Status:** proposed
 
-## Candidate: Social Influence and Conformity: How Groups Shape Individual Belief and Behavior
-- **Domain:** psychology-behavior
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=6.0)
-- **Scope:** The classic social psychology experiments that revealed how powerfully groups shape individual judgment: Asch's conformity studies, Milgram's obedience experiments, and the Stanford prison experiment. Covers informational vs. normative social influence, groupthink, the bystander effect, and the diffusion of responsibility. Modern applications: social media dynamics, polarization and echo chambers, and why smart people in groups make decisions no individual member would endorse alone.
-- **Status:** proposed
-
 ## Candidate: Cognitive Dissonance: The Engine of Self-Justification
 - **Domain:** psychology-behavior
 - **Proposed by:** Researcher-2
