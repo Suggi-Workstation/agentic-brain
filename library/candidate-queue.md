@@ -142,15 +142,6 @@
 - **Status:** proposed
 
 
-## Candidate: Propaganda: How Media Shapes Perception and Manufactures Consent
-- **Domain:** pop-culture
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
-- **Scope:** The systematic study of how information is crafted, framed, and distributed to shape public perception and behavior. Covers the historical evolution from World War I poster campaigns and Nazi propaganda (Goebbels' principles) through Cold War radio broadcasting (Voice of America, Radio Free Europe) to modern computational propaganda (bots, algorithmic amplification, deepfakes). The psychological mechanisms that make propaganda work: repetition, emotional appeal, in-group/out-group framing, and the illusion of consensus. Chomsky and Herman's manufacturing consent model and why it remains debated. How to recognize propaganda in an information-saturated world: source analysis, framing detection, and the difference between persuasion, education, and manipulation. Why propaganda persists because it works -- and how the internet has made it both more targeted and more detectable.
-- **Status:** proposed
-
-
 ## Candidate: Ocean Acidification: The Other Carbon Problem
 - **Domain:** earth-climate
 - **Proposed by:** Researcher-2
