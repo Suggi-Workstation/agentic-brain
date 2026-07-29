@@ -136,3 +136,75 @@
 - **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=6.7)
 - **Scope:** The legal framework that defines crimes, assigns punishment, and structures the criminal justice process from investigation through sentencing. Covers the fundamental principles: actus reus (the guilty act) and mens rea (the guilty mind), the burden of proof beyond reasonable doubt, and the presumption of innocence. The major categories of crime: crimes against persons (homicide, assault), property crimes (theft, fraud), inchoate crimes (attempt, conspiracy), and regulatory offenses. Punishment theory: retribution, deterrence (specific and general), incapacitation, and rehabilitation -- and what the empirical evidence says about which approaches reduce recidivism. The criminal procedure pipeline: investigation, arrest, charging, plea bargaining (how 90%+ of cases are actually resolved), trial, sentencing, and appeals. Comparative perspective: adversarial systems (U.S., U.K.) vs. inquisitorial systems (continental Europe). Current debates: mass incarceration, mandatory minimums, the role of prosecutorial discretion, algorithmic risk assessment in bail and sentencing decisions, and restorative justice alternatives.
 - **Status:** proposed
+
+## Candidate: Regulatory Capture Theory: When the Regulated Control the Regulators
+- **Domain:** law-regulation
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0)
+- **Scope:** George Stigler's theory that regulatory agencies, created to protect the public, inevitably come to serve the industries they regulate. Covers the economic logic: concentrated industry benefits vs diffuse public costs, the revolving door between regulators and regulated firms, information asymmetry that makes agencies dependent on industry expertise, and the capture lifecycle from idealistic founding to industry-friendly maturity. Case studies: FAA and Boeing (delegated certification and the 737 MAX), SEC and Wall Street (regulatory revolving door), FDA and pharmaceutical companies (user fees and accelerated approval). Why regulatory capture is not corruption in the traditional sense -- it is a structural economic phenomenon that persists even when all actors are well-intentioned. Countermeasures: sunlight disclosure, competitive regulatory jurisdiction, and the role of crisis in breaking capture equilibria.
+- **Status:** proposed
+
+## Candidate: Ada Lovelace: The First Programmer and the Poetry of Computation
+- **Domain:** notable-people
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
+- **Scope:** The life of Augusta Ada King, Countess of Lovelace (1815-1852), daughter of Lord Byron, whose translation and expansion of Luigi Menabrea's paper on Charles Babbage's Analytical Engine made her the first person to envision what we now call computer programming. Lovelace saw that the Analytical Engine could manipulate symbols, not just numbers -- a conceptual leap from calculation to computation that Babbage himself had not fully made. Covers her unusual education in mathematics (deliberately steered away from poetry by her mother to suppress what she saw as Byron's dangerous romanticism), her intellectual partnership with Babbage, her prescient speculation about whether machines could originate thought (the "Lovelace Objection"), and her vision of computers as tools for composing music and creating art. How a woman in Victorian England, constrained by gender, class, and health (she died at 36 of uterine cancer), anticipated the central questions of artificial intelligence and the creative potential of computing a century before the first electronic computer was built.
+- **Status:** proposed
+
+## Candidate: Winston Churchill: Leadership, Rhetoric, and the Will to Prevail
+- **Domain:** notable-people
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=10.0)
+- **Scope:** Biography of Winston Churchill (1874-1965), covering his aristocratic birth, his early military adventures and war correspondence in India, Sudan, and South Africa (including his daring escape from a Boer POW camp), his controversial political career punctuated by catastrophic failures (the Gallipoli disaster, the return to the gold standard, the abdication crisis), and his wilderness years in the 1930s when he was the lone voice warning about Nazi Germany. The focus is on his wartime leadership: how his mastery of rhetoric, his profound sense of history, and his indomitable will rallied Britain in its darkest hour. Covers his decision-making style (late nights, relentless questioning, intuitive leaps), his key relationships (Roosevelt, Stalin, Beaverbrook), and his post-war legacy including the "Iron Curtain" speech that defined the Cold War. Critical assessment: his racism, his imperialism, his role in the Bengal famine, and whether his leadership was suited to peace as it was to war. Why Churchill remains the archetype of the leader who is summoned by history at precisely the right moment -- and who would have been remembered as a failure had that moment never come.
+- **Status:** proposed
+
+## Candidate: Global Supply Chain Dynamics: From Just-in-Time to Just-in-Case
+- **Domain:** industries-sectors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.1/10.0 (gap=7.5, compounding=7.0, timeliness=9.0, balance=10.0)
+- **Scope:** The evolution of global supply chain strategy from the lean, cost-optimized just-in-time (JIT) model pioneered by Toyota to the resilience-focused just-in-case approach emerging after COVID-19, semiconductor shortages, and geopolitical disruptions. Covers the economic logic of globalized supply chains (comparative advantage in component production, scale economies, lower inventory costs), the hidden vulnerabilities (single points of failure, bullwhip effect, concentration risk in critical nodes like Taiwan for semiconductors). The post-pandemic shift: reshoring, nearshoring, and friendshoring as firms reprice supply chain risk. How supply chain design affects industry structure: capital intensity, barriers to entry, and bargaining power with suppliers. The strategic implications for investors: which industries face the highest supply chain risk, which benefit from deglobalization, and how to identify companies with superior supply chain management as a competitive advantage.
+- **Status:** proposed
+
+## Candidate: Corporate Law and Governance: The Legal Architecture of the Modern Firm
+- **Domain:** law-regulation
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.0/10.0 (gap=8.0, compounding=7.5, timeliness=7.0, balance=10.0)
+- **Scope:** The corporation as a legal person: how law creates entities that can own property, enter contracts, sue and be sued, and exist perpetually beyond their founders. Covers the separation of ownership and control (Berle and Means), fiduciary duties of directors and officers (duty of care, duty of loyalty, the business judgment rule), shareholder rights and the mechanisms of shareholder democracy (proxy voting, shareholder proposals, derivative lawsuits), and the central role of Delaware corporate law in American capitalism. The debate between shareholder primacy and stakeholder governance. Key governance mechanisms: board composition, independent directors, dual-class share structures, executive compensation. Why corporate governance matters for investors: the empirical link between governance quality and long-term returns, governance red flags, and how activists use governance tools to force change.
+- **Status:** proposed
+
+## Candidate: Value Chain Analysis: Mapping How Value Moves from Raw Materials to End Consumers
+- **Domain:** industries-sectors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.0/10.0 (gap=8.5, compounding=7.0, timeliness=6.5, balance=10.0)
+- **Scope:** Porter's value chain framework as a tool for understanding where value is created and captured within an industry. Covers the distinction between primary activities (inbound logistics, operations, outbound logistics, marketing, service) and support activities (firm infrastructure, HR, technology, procurement). How margin analysis along the value chain reveals profit pools: why some links capture outsized returns while others are commoditized. The strategic implications: vertical integration decisions (when to own vs outsource), the smartphone value chain as a case study in profit pool concentration (Apple capturing the majority of industry profits while manufacturing is razor-thin), and how digital platforms disintermediate traditional value chains by inserting themselves between producers and consumers. For investors: using value chain analysis to identify companies with structural profit advantages and to anticipate where margin pressure will emerge next as industries evolve.
+- **Status:** proposed
+
+## Candidate: Circle of Competence: Knowing What You Don't Know Is the Investment Edge
+- **Domain:** value-investing
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=7.5)
+- **Scope:** Buffett and Munger's concept that investment success comes from operating strictly within the boundaries of what you understand deeply, not from being the smartest person in the room. How to define the boundary: what can you predict with reasonable confidence over 5-10 years? Why the best investors have smaller circles than novices think they have, because genuine expertise requires recognizing the limits of your knowledge. The paradox: overconfidence increases with surface-level information. The connection to the Dunning-Kruger effect and why reading an annual report does not put a company inside your circle. How to expand your circle deliberately: deep study of one industry at a time, learning from mistakes, and avoiding the temptation to mistake general intelligence for domain expertise. The practical test: can you write a thesis on why a business will look in 5 years and be right more often than wrong? If you cannot articulate the counter-thesis convincingly, the business is outside your circle.
+- **Status:** proposed
+
+## Candidate: Dividend Policy and Share Buybacks: The Theory and Practice of Returning Capital to Shareholders
+- **Domain:** finance
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=7.5, timeliness=7.5, balance=7.5)
+- **Scope:** Why do companies return capital to shareholders, and how should they choose between dividends and buybacks? Covers the Modigliani-Miller dividend irrelevance theorem (in a frictionless world, payout policy does not affect firm value) and the real-world reasons it does matter: signaling (dividend increases convey management confidence), agency costs (returning excess cash prevents empire-building), tax clienteles (investors sort into dividend-paying vs non-paying stocks based on tax status), and behavioral preferences (the "bird in hand" fallacy). The shift from dividends to buybacks: why buybacks have become the dominant form of capital return (tax efficiency, flexibility, EPS accretion), the criticism that buybacks starve investment and enrich executives whose compensation is tied to EPS, and the evidence on whether buybacks actually create long-term value. The lifecycle theory of payouts: young growth firms reinvest all earnings, mature firms initiate dividends, declining firms repurchase shares. How to evaluate a company's payout policy as an investor: dividend sustainability (payout ratio, free cash flow coverage), buyback quality (are shares actually retired, or is dilution offsetting repurchases?), and the signal sent by changes in payout policy.
+- **Status:** proposed
+
+## Candidate: Goodwill Impairment Games: The Billion-Dollar Write-Down That Was Years Late
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.0, timeliness=7.0, balance=7.5)
+- **Scope:** How companies use the discretion in goodwill impairment testing to delay acknowledging that acquisitions have destroyed value. Under ASC 350 (and IAS 36), goodwill is no longer amortized but must be tested annually for impairment. The problem: impairment testing requires estimating the fair value of reporting units, creating wide latitude for optimistic assumptions. Covers the techniques: aggressive cash flow projections, inflated terminal growth rates, low discount rates, and the strategic allocation of goodwill to reporting units that are unlikely to fail impairment tests. Famous cases: AOL Time Warner's $99 billion write-down (the largest in history, years after the merger was clearly a disaster), HP's Autonomy acquisition, and the pattern of new CEOs taking "big baths" shortly after appointment (blaming the predecessor for impairment that accumulated on their watch). The investor red flags: goodwill as a percentage of equity, serial acquirers with growing goodwill balances, and impairment tests that consistently show "headroom" despite deteriorating business performance.
+- **Status:** proposed
