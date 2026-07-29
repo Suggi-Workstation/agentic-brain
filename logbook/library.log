@@ -456,3 +456,18 @@ Wrote topic Expected Value Thinking -- Why Rational Decision-Makers Win by Embra
 Similarity overlap: <20%.
 Sources: 7 (3 high, 4 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-130] | 2026-07-29 07:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 10 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Propaganda: How Media Shapes Perception and Manufactures Consent (8.9): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Ocean Acidification: The Other Carbon Problem (8.8): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
+- The Cuban Missile Crisis: Decision-Making at the Brink of Nuclear War (8.7): gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0
+- Paleoclimatology: Reading Earth's Climate History (8.6): gap=9.0, compounding=7.5, timeliness=8.0, balance=10.0
+- Seth Klarman: Margin of Safety and the Discipline of the Reluctant Buyer (8.4): gap=8.5, compounding=8.0, timeliness=7.5, balance=10.0
+- Prestige Television: How The Sopranos, The Wire, and Breaking Bad Redefined Storytelling (8.4): gap=9.0, compounding=7.0, timeliness=7.5, balance=10.0
+- The Challenger Disaster: How Organizational Silence Caused a National Tragedy (8.3): gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0
+- Peter Lynch: One Up on Wall Street and the Art of Growth at a Reasonable Price (8.3): gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0
+- New Coke: The Greatest Marketing Disaster of the 20th Century (8.3): gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0
+- Thermodynamics: The Laws That Govern Energy, Entropy, and the Arrow of Time (8.1): gap=9.0, compounding=8.0, timeliness=7.0, balance=7.5
+Domain balance: case-studies (3 topics), investors (3), earth-climate (3), pop-culture (3) to science (4 topics).

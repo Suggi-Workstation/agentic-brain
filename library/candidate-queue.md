@@ -140,3 +140,93 @@
 - **Discovery score:** 7.8/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=6.7)
 - **Scope:** The life and work of Maria Sklodowska-Curie (1867-1934), the first woman to win a Nobel Prize and the only person to win Nobels in two different sciences (Physics 1903, Chemistry 1911). Covers her path from clandestine study in Russian-occupied Poland to the Sorbonne, her partnership with Pierre Curie, the grueling physical labor of isolating radium from tons of pitchblende, and her discoveries of polonium and radium that launched the field of radioactivity. Her character: relentless work ethic, indifference to fame and wealth, refusal to patent radium so the world could benefit freely, and continuing her research even as radiation poisoning destroyed her health. Her legacy: the Curie Institutes, mobile X-ray units in WWI, and the double-edged gift of nuclear science. How she navigated a scientific establishment that was openly hostile to women and emerged as the most celebrated scientist of her era.
 - **Status:** proposed
+
+
+## Candidate: Propaganda: How Media Shapes Perception and Manufactures Consent
+- **Domain:** pop-culture
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
+- **Scope:** The systematic study of how information is crafted, framed, and distributed to shape public perception and behavior. Covers the historical evolution from World War I poster campaigns and Nazi propaganda (Goebbels' principles) through Cold War radio broadcasting (Voice of America, Radio Free Europe) to modern computational propaganda (bots, algorithmic amplification, deepfakes). The psychological mechanisms that make propaganda work: repetition, emotional appeal, in-group/out-group framing, and the illusion of consensus. Chomsky and Herman's manufacturing consent model and why it remains debated. How to recognize propaganda in an information-saturated world: source analysis, framing detection, and the difference between persuasion, education, and manipulation. Why propaganda persists because it works -- and how the internet has made it both more targeted and more detectable.
+- **Status:** proposed
+
+
+## Candidate: Ocean Acidification: The Other Carbon Problem
+- **Domain:** earth-climate
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0)
+- **Scope:** When atmospheric CO2 dissolves in seawater, it forms carbonic acid, lowering ocean pH and threatening the entire marine food web. Covers the chemistry: how a 30% increase in ocean acidity since the Industrial Revolution disrupts calcification in corals, mollusks, and plankton -- the foundation of marine ecosystems. The biological cascade: coral bleaching, pteropod shell dissolution, and the threat to global fisheries that feed billions. Why ocean acidification is called the "evil twin" of climate change: same cause (CO2), less visible, harder to reverse. The geological precedent: the Paleocene-Eocene Thermal Maximum (PETM) as a natural analog for rapid acidification and the slow recovery that followed. What mitigation looks like and why reducing atmospheric CO2 is the only scalable solution.
+- **Status:** proposed
+
+
+## Candidate: The Cuban Missile Crisis: Decision-Making at the Brink of Nuclear War
+- **Domain:** case-studies
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
+- **Scope:** The thirteen days in October 1962 when the United States and Soviet Union came closer to nuclear war than at any other moment in history. A case study in crisis decision-making under existential stakes: how Kennedy's ExComm process (deliberate debate, red-team thinking, back-channel diplomacy) contrasts with the bureaucratic and psychological pressures that push toward escalation. Covers the discovery of Soviet missiles in Cuba via U-2 photography, the deliberative process that rejected immediate airstrikes in favor of a naval blockade, Khrushchev's calculus, and the secret deal to remove U.S. Jupiter missiles from Turkey. The lessons for modern crisis management: the value of giving your adversary an off-ramp, the danger of information vacuums, and why every nuclear crisis since has been measured against this one. Graham Allison's Essence of Decision as the classic analytical framework.
+- **Status:** proposed
+
+
+## Candidate: Paleoclimatology: Reading Earth's Climate History
+- **Domain:** earth-climate
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=10.0)
+- **Scope:** How scientists reconstruct Earth's climate history from natural archives: ice cores from Greenland and Antarctica (trapped gas bubbles, isotopic ratios, dust layers going back 800,000 years), deep-sea sediment cores (foraminifera shells, carbon isotope ratios across millions of years), tree rings (annual resolution across millennia), and speleothems (cave formations). Covers the key discoveries: the 100,000-year glacial-interglacial cycle driven by Milankovitch orbital variations, the Younger Dryas abrupt cooling event, and the tight coupling between CO2 and temperature throughout the ice core record. Why paleoclimatology matters now: it provides the baseline against which modern warming is measured and shows that current CO2 levels (420+ ppm) have no precedent in at least 3 million years. The methodology: proxies, dating techniques, and the challenge of stitching together records from different archives into a coherent global picture.
+- **Status:** proposed
+
+
+## Candidate: Seth Klarman: Margin of Safety and the Discipline of the Reluctant Buyer
+- **Domain:** investors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=10.0)
+- **Scope:** The investment philosophy and career of Seth Klarman, founder of the Baupost Group and author of Margin of Safety -- the out-of-print book that became a $2,500 collector's item and the most sought-after text in value investing since Graham's The Intelligent Investor. Covers Klarman's core principles: the margin of safety as the central concept in investing (buying assets well below conservative estimates of intrinsic value), his discipline in holding cash when bargains are scarce (Baupost often holds 30-40% cash), and his willingness to look where others don't (distressed debt, post-bankruptcy equities, litigation claims). How Klarman bridges Graham's quantitative value with a more flexible, opportunistic approach suited to modern markets. His annual letters as masterclasses in investment temperament, risk management, and the dangers of short-term thinking.
+- **Status:** proposed
+
+
+## Candidate: Prestige Television: How The Sopranos, The Wire, and Breaking Bad Redefined Storytelling
+- **Domain:** pop-culture
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.0, timeliness=7.5, balance=10.0)
+- **Scope:** The "Golden Age of Television" (roughly 1999-2013) as a cultural watershed: how HBO's The Sopranos demonstrated that serialized television could achieve the narrative depth and moral complexity of the best novels, opening the door for The Wire (institutional failure as epic tragedy), Breaking Bad (the slow corruption of an ordinary man), Mad Men (identity and consumerism in mid-century America), and Deadwood (language and civilization on the frontier). Covers what made this era distinct: the antihero protagonist, the long-form novelistic structure, the creative freedom of premium cable, and the economic model that subsidized artistic risk. How streaming has since changed the economics -- and whether the golden age continues or has fragmented into a thousand niches. The analytical lens: what these shows reveal about American anxiety (masculinity in crisis, institutional decay, the moral vacuum of late capitalism).
+- **Status:** proposed
+
+
+## Candidate: The Challenger Disaster: How Organizational Silence Caused a National Tragedy
+- **Domain:** case-studies
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
+- **Scope:** On January 28, 1986, the Space Shuttle Challenger broke apart 73 seconds after launch, killing all seven crew members. The proximate cause -- O-ring failure in cold weather -- was known to NASA and Morton Thiokol engineers before the launch. This case study examines why the warnings were ignored: the organizational dynamics that suppress dissent (groupthink, schedule pressure, normalization of deviance), the Rogers Commission findings, and Richard Feynman's famous ice-water demonstration that exposed the gap between engineering judgment and management probability. The durable lessons: how organizations drift into failure when "acceptable risk" creeps upward without a single catastrophic event to reset it, why the burden of proof should fall on demonstrating safety rather than demonstrating danger, and how the Challenger disaster reshaped engineering ethics, organizational safety culture, and the concept of "whistleblowing" in technical organizations.
+- **Status:** proposed
+
+
+## Candidate: Peter Lynch: One Up on Wall Street and the Art of Growth at a Reasonable Price
+- **Domain:** investors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
+- **Scope:** The career and investment philosophy of Peter Lynch, who managed Fidelity's Magellan Fund from 1977 to 1990, achieving a 29.2% average annual return -- the best mutual fund record of the era. Lynch's framework, popularized in One Up on Wall Street: individual investors have an edge over professionals by observing products and trends in their daily lives before Wall Street notices. His stock categorization system (slow growers, stalwarts, fast growers, cyclicals, turnarounds, asset plays) as a practical tool for matching strategy to opportunity type. The "buy what you know" principle and its common misinterpretation (it is a starting point for research, not a substitute for it). Why Lynch argued that the biggest risk in investing is not volatility but not being invested -- and how he maintained conviction through market declines. His legacy: democratizing investment research and showing that discipline, not genius, produces extraordinary long-term results.
+- **Status:** proposed
+
+
+## Candidate: New Coke: The Greatest Marketing Disaster of the 20th Century
+- **Domain:** case-studies
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
+- **Scope:** In April 1985, Coca-Cola replaced its 99-year-old secret formula with "New Coke," triggering a consumer revolt so intense that the company re-introduced "Coca-Cola Classic" just 79 days later. This case study examines why a market leader with dominant market share, backed by extensive blind taste-test data (200,000 consumers preferred the new formula), got it so catastrophically wrong. The analytical lessons: the difference between stated preference (taste tests) and revealed preference (brand loyalty), how Coca-Cola underestimated the symbolic and emotional dimension of consumption (Coke was not just a beverage but a piece of American identity), and the paradox that the fiasco ultimately strengthened the brand (the reintroduction of Classic Coke generated more loyalty than the status quo would have). Why listening to customers is not the same as doing what they say -- and when consumer research methodology fails to capture what people actually value.
+- **Status:** proposed
+
+
+## Candidate: Thermodynamics: The Laws That Govern Energy, Entropy, and the Arrow of Time
+- **Domain:** science
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=7.5)
+- **Scope:** The four laws of thermodynamics as the most fundamental constraints in all of physics -- and by extension, in all of science. Covers the Zeroth Law (temperature and thermal equilibrium), the First Law (energy is conserved -- you cannot win), the Second Law (entropy always increases in an isolated system -- you cannot break even), and the Third Law (absolute zero is unattainable). Why the Second Law is arguably the most profound scientific insight: it explains why time has a direction (the arrow of time), why perpetual motion machines are impossible, why organized systems require energy input to maintain, and why all complex structures in the universe -- from stars to life to civilizations -- are temporary local reversals of an inexorable trend. The statistical mechanics interpretation (Boltzmann) that entropy is not a mystical force but a statistical inevitability: there are vastly more ways to be disordered than ordered.
+- **Status:** proposed
