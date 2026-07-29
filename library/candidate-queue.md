@@ -134,15 +134,6 @@
 
 
 
-## Candidate: Prestige Television: How The Sopranos, The Wire, and Breaking Bad Redefined Storytelling
-- **Domain:** pop-culture
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.0, timeliness=7.5, balance=10.0)
-- **Scope:** The "Golden Age of Television" (roughly 1999-2013) as a cultural watershed: how HBO's The Sopranos demonstrated that serialized television could achieve the narrative depth and moral complexity of the best novels, opening the door for The Wire (institutional failure as epic tragedy), Breaking Bad (the slow corruption of an ordinary man), Mad Men (identity and consumerism in mid-century America), and Deadwood (language and civilization on the frontier). Covers what made this era distinct: the antihero protagonist, the long-form novelistic structure, the creative freedom of premium cable, and the economic model that subsidized artistic risk. How streaming has since changed the economics -- and whether the golden age continues or has fragmented into a thousand niches. The analytical lens: what these shows reveal about American anxiety (masculinity in crisis, institutional decay, the moral vacuum of late capitalism).
-- **Status:** proposed
-
-
 ## Candidate: The Challenger Disaster: How Organizational Silence Caused a National Tragedy
 - **Domain:** case-studies
 - **Proposed by:** Researcher-2
