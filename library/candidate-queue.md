@@ -149,14 +149,6 @@
 - **Scope:** The mathematics of vectors, matrices, and linear transformations that underpins virtually all modern data science and machine learning. Covers the core operations: matrix multiplication, determinants, eigenvalues and eigenvectors, and the singular value decomposition (SVD). Why linear algebra is the computational engine behind principal component analysis (PCA), recommendation systems, neural network forward and backward passes, and 3D graphics rendering. The geometric intuition: matrices as transformations of space, eigenvectors as directions that stay fixed under transformation, SVD as the optimal low-rank approximation. Applications from PageRank to word embeddings to deep learning frameworks.
 - **Status:** proposed
 
-## Candidate: Business Cycles: The Rhythm of Boom and Bust
-- **Domain:** macro-micro
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=5.0)
-- **Scope:** The recurring pattern of economic expansion and contraction that has characterized market economies for centuries. Covers the major theories: Keynesian (demand shocks and sticky prices), monetarist (money supply and the Fed's role), real business cycle theory (technology shocks), and the financial accelerator (how credit amplifies cycles). The empirical regularities: yield curve inversion as a recession predictor, the behavior of leading/coincident/lagging indicators, and the typical sequence of events across a cycle. Why forecasting turning points is so hard: economies are complex adaptive systems with regime changes and nonlinearities. The role of automatic stabilizers and countercyclical policy. How investors should think about cycles: not as something to predict precisely but as something to position for probabilistically.
-- **Status:** proposed
-
 ## Candidate: Trade and Comparative Advantage: Why Nations Exchange
 - **Domain:** macro-micro
 - **Proposed by:** Researcher-2
