@@ -182,14 +182,6 @@
 - **Scope:** How stories are constructed and why narrative is the most powerful form of human communication. Covers Joseph Campbell's monomyth (the Hero's Journey) and its 17 stages, Christopher Vogler's adaptation for screenwriting (the 12-stage writer's journey), and alternative structures: the three-act structure, Freytag's pyramid, in medias res, nonlinear narratives, and the Kishotenketsu structure from East Asian storytelling (contrast without conflict). The cognitive science of why stories persuade where data alone fails: narrative transportation theory, the identifiable victim effect, and how stories activate mirror neurons. For non-fiction writers: how to structure arguments as narratives, the ABT (And, But, Therefore) framework for compelling communication, and case studies of effective storytelling in business, journalism, and scientific communication. Why every great investor memo, startup pitch, and political movement is ultimately a story about the past, present, and future.
 - **Status:** proposed
 
-## Candidate: Interpersonal Communication and Negotiation: From Active Listening to Getting to Yes
-- **Domain:** communication
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=10.0)
-- **Scope:** The theory and practice of effective one-on-one and small-group communication, spanning everyday conversations, difficult discussions, and formal negotiations. Covers active listening (paraphrasing, reflecting feelings, asking open questions), nonviolent communication (observations vs evaluations, expressing needs without blame), and the Harvard Negotiation Project's principled negotiation framework from Getting to Yes: separate people from the problem, focus on interests not positions, invent options for mutual gain, and insist on objective criteria. The BATNA concept (Best Alternative to a Negotiated Agreement) as the foundation of negotiation power. Psychological barriers: reactive devaluation, the fundamental attribution error in conflict, and why the first person to name a number in a negotiation gains an anchoring advantage. Practical patterns: how to give feedback that is heard, how to disagree without destroying relationships, and why the best negotiators ask more questions and spend more time on preparation than average performers. The limits: when negotiation is inappropriate (moral non-negotiables) and when power asymmetry makes principled negotiation ineffective.
-- **Status:** proposed
-
 ## Candidate: Atmospheric Science and Weather Systems: How the Atmosphere Drives Climate
 - **Domain:** earth-climate
 - **Proposed by:** Researcher-2
