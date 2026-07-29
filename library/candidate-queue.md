@@ -146,7 +146,7 @@
 - **Date:** 2026-07-29
 - **Discovery score:** 8.0/10.0 (gap=8.5, compounding=7.0, timeliness=6.5, balance=10.0)
 - **Scope:** Porter's value chain framework as a tool for understanding where value is created and captured within an industry. Covers the distinction between primary activities (inbound logistics, operations, outbound logistics, marketing, service) and support activities (firm infrastructure, HR, technology, procurement). How margin analysis along the value chain reveals profit pools: why some links capture outsized returns while others are commoditized. The strategic implications: vertical integration decisions (when to own vs outsource), the smartphone value chain as a case study in profit pool concentration (Apple capturing the majority of industry profits while manufacturing is razor-thin), and how digital platforms disintermediate traditional value chains by inserting themselves between producers and consumers. For investors: using value chain analysis to identify companies with structural profit advantages and to anticipate where margin pressure will emerge next as industries evolve.
-- **Status:** proposed
+- **Status:** written
 
 ## Candidate: Circle of Competence: Knowing What You Don't Know Is the Investment Edge
 - **Domain:** value-investing
