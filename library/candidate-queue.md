@@ -89,13 +89,6 @@
 - **Scope:** Benjamin Graham's allegory of Mr. Market -- a manic-depressive business partner who offers to buy or sell shares at wildly different prices every day -- as the psychological foundation of value investing. Covers the full parable from The Intelligent Investor: Mr. Market's mood swings create opportunity, not risk, and the investor's job is to exploit his irrationality, not follow it. Why this metaphor encapsulates the distinction between price and intrinsic value, the market as a voting machine (short run) vs weighing machine (long run), and why temperament -- the ability to stay calm when Mr. Market panics -- matters more than intelligence. The behavioral economics that validates Graham's insight: volatility is not risk, and the best returns come from buying when Mr. Market is depressed. Why most investors, including professionals, fail to act on this principle in practice.
 - **Status:** proposed
 
-## Candidate: Linear Algebra: The Workhorse of Data Science and AI
-- **Domain:** mathematics-statistics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=8.0, timeliness=8.5, balance=5.0)
-- **Scope:** The mathematics of vectors, matrices, and linear transformations that underpins virtually all modern data science and machine learning. Covers the core operations: matrix multiplication, determinants, eigenvalues and eigenvectors, and the singular value decomposition (SVD). Why linear algebra is the computational engine behind principal component analysis (PCA), recommendation systems, neural network forward and backward passes, and 3D graphics rendering. The geometric intuition: matrices as transformations of space, eigenvectors as directions that stay fixed under transformation, SVD as the optimal low-rank approximation. Applications from PageRank to word embeddings to deep learning frameworks.
-- **Status:** proposed
 
 ## Candidate: Trade and Comparative Advantage: Why Nations Exchange
 - **Domain:** macro-micro
