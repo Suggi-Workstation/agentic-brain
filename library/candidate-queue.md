@@ -10,13 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Capital Structure: Debt, Equity, and the Modigliani-Miller Theorem
-- **Domain:** finance
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 7.8/10.0 (gap=8.5, compounding=8.0, timeliness=6.5, balance=7.0)
-- **Scope:** How firms choose their mix of debt and equity financing. The Modigliani-Miller irrelevance propositions and why real-world frictions (taxes, bankruptcy costs, agency problems, information asymmetry) make capital structure matter. Covers trade-off theory, pecking order theory, and the practical determinants of leverage ratios across industries.
-- **Status:** proposed
 
 ## Candidate: Cognitive Dissonance: The Engine of Self-Justification
 - **Domain:** psychology-behavior
