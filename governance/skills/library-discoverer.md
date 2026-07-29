@@ -41,6 +41,7 @@ Confirm ALL verification sections passed before committing.
 - [ ] Queue capacity: total proposed entries in queue does not exceed 25 after cycle (PASS / HALT)
 - [ ] File Output verification: all items confirmed PASS (PASS / HALT)
 - [ ] Logbook entry written to library.log (PASS / HALT)
+- [ ] Safe push verified: retry loop completed, final push succeeded (PASS / HALT)
 
 ## Procedure
 
@@ -238,6 +239,7 @@ failures only.
 - [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
 - [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
 - [ ] Logbook entry properly separated: a blank line precedes this entry in library.log. Verify with: `tail -n +<last-ent-line> /tmp/brain-discover/logbook/library.log | head -2` -- the first line must be empty. No entries merged without spacing. (PASS / HALT)
+- [ ] Safe push executed: push retried up to 3 times with pull --rebase on rejection. Final push succeeded or error logged to errors.log (PASS / HALT)
 
 ### 12. Commit and push
 
@@ -247,10 +249,24 @@ git add -A
 git diff --cached --stat
 git -c user.name="<agent-name>" -c user.email="<agent-email>" \
   commit -m "library: discovery cycle -- N candidates proposed across M domains"
-git push origin main
-```
 
-If the push fails, pull first, resolve, then push.
+# Safe push: retry with pull --rebase if another agent pushed first
+PUSHED=0
+for attempt in 1 2 3; do
+  if git push origin main; then
+    PUSHED=1
+    break
+  fi
+  echo "[safe-push] Attempt $attempt/3 failed. Pulling latest, retrying in ${attempt}s..."
+  git pull --rebase origin main
+  sleep $attempt
+done
+
+if [ "$PUSHED" -eq 0 ]; then
+  echo "[safe-push] FAILED after 3 attempts. Log to errors.log."
+  exit 1
+fi
+```
 
 ### 13. Discard the clone
 

@@ -45,6 +45,7 @@ Confirm ALL verification sections passed before committing.
 - [ ] Logbook entry written to library.log (PASS / HALT)
 - [ ] Errors logged to errors.log (if any) (PASS / HALT)
 - [ ] Committed and pushed: changes pushed to origin main (PASS / HALT)
+- [ ] Safe push verified: retry loop completed, final push succeeded (PASS / HALT)
 - [ ] Discarded clone: temporary directory removed from /tmp/ (PASS / HALT)
 
 ## Procedure
@@ -262,6 +263,7 @@ committing.
 - [ ] Domain fidelity: written topic's domain matches the candidate's Domain field exactly. Verify: candidate-queue.md Domain field vs. actual output path. (PASS / HALT)
 - [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
 - [ ] Logbook entry properly separated: a blank line precedes this entry in library.log. Verify with: `tail -n +<last-ent-line> /tmp/brain-writer/logbook/library.log | head -2` -- the first line must be empty. No entries merged without spacing. (PASS / HALT)
+- [ ] Safe push executed: push retried up to 3 times with pull --rebase on rejection. Final push succeeded or error logged to errors.log (PASS / HALT)
 
 ### 11. Commit and push
 
@@ -271,10 +273,24 @@ git add -A
 git diff --cached --stat
 git -c user.name="<agent-name>" -c user.email="<agent-email>" \
   commit -m "library: write <topic-slug> to <domain>"
-git push origin main
-```
 
-If the push fails, pull first, resolve, then push.
+# Safe push: retry with pull --rebase if another agent pushed first
+PUSHED=0
+for attempt in 1 2 3; do
+  if git push origin main; then
+    PUSHED=1
+    break
+  fi
+  echo "[safe-push] Attempt $attempt/3 failed. Pulling latest, retrying in ${attempt}s..."
+  git pull --rebase origin main
+  sleep $attempt
+done
+
+if [ "$PUSHED" -eq 0 ]; then
+  echo "[safe-push] FAILED after 3 attempts. Log to errors.log."
+  exit 1
+fi
+```
 
 ### 12. Discard the clone
 
