@@ -115,14 +115,6 @@
 - **Scope:** The expected value framework as the rational decision-maker's core tool: multiply each possible outcome by its probability, sum them, and pick the highest EV path. Covers the construction and interpretation of decision trees (decision nodes, chance nodes, terminal values), the difference between maximizing expected value and maximizing expected utility (the St. Petersburg paradox and Bernoulli's resolution), and why most people reject favorable EV bets (loss aversion, probability neglect). Practical applications: career decisions, investment sizing, medical treatment choices. Why "maximize expected value" is simple to state but hard to live by -- it requires being willing to lose individual bets you were right to take.
 - **Status:** proposed
 
-## Candidate: Terminal Value: Why Most of a DCF Is in the Last Number
-- **Domain:** valuation-screening
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 8.0/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=6.7)
-- **Scope:** The terminal value typically represents 60-80% of a DCF valuation, making it simultaneously the most important and most abused number in finance. Covers the two methods: perpetuity growth (Gordon Growth Model) and exit multiple, the assumptions that drive each (terminal growth rate must be below GDP growth in perpetuity, exit multiple must reflect mature-company economics), and how small changes in terminal assumptions produce enormous swings in intrinsic value. Why the terminal value is where valuation analysts hide their biases, and how to stress-test it: reverse DCF to back out implied growth rates, compare to industry norms, and use the "competitive fade" framework (high returns attract competition, pushing growth toward GDP over time). The terminal value as a test of whether you actually believe your own assumptions.
-- **Status:** proposed
-
 
 ## Candidate: Mr. Market: The Most Powerful Metaphor in Investing
 - **Domain:** value-investing
