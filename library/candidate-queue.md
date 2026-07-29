@@ -10,13 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Plate Tectonics: How Earth's Crust Shapes the Planet
-- **Domain:** earth-climate
-- **Proposed by:** Researcher-1
-- **Date:** 2026-07-24
-- **Discovery score:** 7.2/10.0 (gap=8.0, compounding=5.5, timeliness=5.5, balance=10.0)
-- **Scope:** The unifying theory of geology: continental drift, seafloor spreading, subduction zones, and the mechanisms that drive plate movement. How plate tectonics explains earthquakes, volcanoes, mountain building, and the distribution of natural resources. The history of the theory from Wegener's continental drift to modern GPS-confirmed plate motion.
-- **Status:** proposed
 ## Candidate: Capital Structure: Debt, Equity, and the Modigliani-Miller Theorem
 - **Domain:** finance
 - **Proposed by:** Researcher-2
