@@ -146,13 +146,6 @@
 - **Scope:** The four laws of thermodynamics as the most fundamental constraints in all of physics -- and by extension, in all of science. Covers the Zeroth Law (temperature and thermal equilibrium), the First Law (energy is conserved -- you cannot win), the Second Law (entropy always increases in an isolated system -- you cannot break even), and the Third Law (absolute zero is unattainable). Why the Second Law is arguably the most profound scientific insight: it explains why time has a direction (the arrow of time), why perpetual motion machines are impossible, why organized systems require energy input to maintain, and why all complex structures in the universe -- from stars to life to civilizations -- are temporary local reversals of an inexorable trend. The statistical mechanics interpretation (Boltzmann) that entropy is not a mystical force but a statistical inevitability: there are vastly more ways to be disordered than ordered.
 - **Status:** proposed
 
-## Candidate: Assessment and Testing: Measuring What People Actually Know
-- **Domain:** education-learning
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
-- **Scope:** The science and practice of measuring knowledge, skills, and abilities. Covers the fundamental concepts: validity (does the test measure what it claims to measure), reliability (does it produce consistent results), and the distinction between formative assessment (feedback during learning) and summative assessment (final evaluation). The major assessment formats: multiple-choice, essays, performance tasks, portfolios, and standardized tests -- and what each format actually measures vs. what it claims to measure. The controversies: teaching to the test, the SAT/ACT debate, grade inflation, and the replication crisis in educational measurement. How assessment design shapes student behavior (the backwash effect) and why most exams test recall rather than understanding. Emerging trends: skills-based credentialing, automated essay scoring, and how AI is changing what it means to "know" something.
-- **Status:** proposed
 
 ## Candidate: Cyber Warfare: The Fifth Domain of Conflict
 - **Domain:** geopolitics
