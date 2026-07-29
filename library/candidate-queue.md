@@ -155,14 +155,6 @@
 - **Scope:** The four laws of thermodynamics as the most fundamental constraints in all of physics -- and by extension, in all of science. Covers the Zeroth Law (temperature and thermal equilibrium), the First Law (energy is conserved -- you cannot win), the Second Law (entropy always increases in an isolated system -- you cannot break even), and the Third Law (absolute zero is unattainable). Why the Second Law is arguably the most profound scientific insight: it explains why time has a direction (the arrow of time), why perpetual motion machines are impossible, why organized systems require energy input to maintain, and why all complex structures in the universe -- from stars to life to civilizations -- are temporary local reversals of an inexorable trend. The statistical mechanics interpretation (Boltzmann) that entropy is not a mystical force but a statistical inevitability: there are vastly more ways to be disordered than ordered.
 - **Status:** proposed
 
-## Candidate: Pedagogy and Teaching Methods: What the Science of Learning Says About How to Teach
-- **Domain:** education-learning
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** The evidence-based frameworks for how to design and deliver effective instruction. Covers the major pedagogical approaches: direct instruction (explicit, structured, teacher-led), inquiry-based learning (student-driven exploration), Socratic method (questioning to surface understanding), project-based learning, and the "flipped classroom" model. What the cognitive science evidence says about which methods work best for which learning objectives -- and why popular approaches like "learning styles" fail empirical tests. The bridge between learning science (spaced repetition, retrieval practice, cognitive load theory) and classroom practice. How pedagogy is evolving with AI tutors, adaptive learning platforms, and the post-COVID re-evaluation of what teaching should look like.
-- **Status:** proposed
-
 ## Candidate: AI Ethics: The Moral Questions Posed by Machine Intelligence
 - **Domain:** ethics-philosophy
 - **Proposed by:** Researcher-2
