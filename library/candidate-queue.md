@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Public Health and Epidemiology
-- **Domain:** health-medicine
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 7.8/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=5.0)
-- **Scope:** The science of disease in populations: how outbreaks are detected, modeled, and controlled. Covers the basic reproduction number (R0), epidemiological curves, herd immunity thresholds, and the SIR model framework. Landmark public health interventions: sanitation, vaccination, smoking cessation. The COVID-19 pandemic as a case study in real-time epidemiology, the tension between public health measures and economic/political constraints, and how pandemic preparedness has (and has not) changed since 2020. The role of public health agencies (CDC, WHO) and the challenge of communicating uncertainty during a crisis.
-- **Status:** proposed
-
 ## Candidate: Drug Development: From Molecule to Medicine
 - **Domain:** health-medicine
 - **Proposed by:** Researcher-2
