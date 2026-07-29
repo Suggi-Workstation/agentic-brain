@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Cognitive Dissonance: The Engine of Self-Justification
-- **Domain:** psychology-behavior
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 7.7/10.0 (gap=9.0, compounding=7.0, timeliness=7.0, balance=6.0)
-- **Scope:** Leon Festinger's theory that when beliefs and actions conflict, humans change beliefs rather than admit error. Covers the classic experiments (boring task for $1 vs $20), the effort justification effect, post-decision dissonance, and how dissonance drives confirmation bias. Why cognitive dissonance is the psychological engine behind sunk cost fallacy, political rationalization, and the refusal to update beliefs in the face of contrary evidence.
-- **Status:** proposed
-
 ## Candidate: Quantum Computing: What It Promises and Why It Is So Hard
 - **Domain:** technology
 - **Proposed by:** Researcher-2
