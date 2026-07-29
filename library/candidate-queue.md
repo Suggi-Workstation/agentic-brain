@@ -91,14 +91,6 @@
 - **Scope:** How companies hide debt and liabilities by keeping them off the balance sheet through Special Purpose Entities (Enron's infamous Raptors), Variable Interest Entities, and lease structuring tricks (operating vs capital lease games). Covers the evolution of accounting rules (FIN 46, ASC 842) designed to close these loopholes, and why determined CFOs keep finding new ways around them. How to detect off-balance-sheet exposure from footnotes, contingent liabilities, and the gap between reported and economic debt.
 - **Status:** proposed
 
-## Candidate: Inside vs Outside View: The Reference Class Forecasting Framework
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=6.7)
-- **Scope:** Daniel Kahneman's distinction between the inside view (forecasting by focusing on the specific case, its details, and unique circumstances) and the outside view (forecasting by looking at how similar cases turned out -- the reference class). Why the inside view is seductive, detail-rich, and almost always overoptimistic, while the outside view is crude but far more accurate. Covers Kahneman's own experience with the Israeli textbook project, Bent Flyvbjerg's work on megaproject cost overruns, and how to build a reference class forecast: identify the class, gather base rates, adjust for special features, and always anchor to the outside view first. The planning fallacy as a special case of inside-view thinking.
-- **Status:** proposed
-
 ## Candidate: Expected Value Thinking and Decision Trees Under Uncertainty
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Researcher-2
