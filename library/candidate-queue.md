@@ -144,13 +144,6 @@
 - **Scope:** How companies use the discretion in goodwill impairment testing to delay acknowledging that acquisitions have destroyed value. Under ASC 350 (and IAS 36), goodwill is no longer amortized but must be tested annually for impairment. The problem: impairment testing requires estimating the fair value of reporting units, creating wide latitude for optimistic assumptions. Covers the techniques: aggressive cash flow projections, inflated terminal growth rates, low discount rates, and the strategic allocation of goodwill to reporting units that are unlikely to fail impairment tests. Famous cases: AOL Time Warner's $99 billion write-down (the largest in history, years after the merger was clearly a disaster), HP's Autonomy acquisition, and the pattern of new CEOs taking "big baths" shortly after appointment (blaming the predecessor for impairment that accumulated on their watch). The investor red flags: goodwill as a percentage of equity, serial acquirers with growing goodwill balances, and impairment tests that consistently show "headroom" despite deteriorating business performance.
 - **Status:** proposed
 
-## Candidate: Meditation and Mindfulness: Evidence-Based Benefits for Cognitive Performance
-- **Domain:** self-improvement
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=7.0, timeliness=8.0, balance=10.0)
-- **Scope:** A survey of the scientific evidence on how meditation and mindfulness practices improve cognitive function, emotional regulation, and physical health. Covers the major types (focused attention, open monitoring, loving-kindness) and their distinct effects, the neurological evidence from fMRI and EEG studies showing structural changes (increased cortical thickness, reduced amygdala reactivity), and the demonstrated benefits: improved attention and working memory, reduced stress and anxiety, enhanced emotional regulation, and slower cognitive decline with aging. Distinguishes evidence-supported claims from popular hype. Practical protocols: how much meditation produces measurable effects, the role of retreats vs daily practice, and how mindfulness integrates with cognitive behavioral techniques. What the MBSR (Mindfulness-Based Stress Reduction) research tells us about clinical applications. The limits of the evidence: publication bias, small sample sizes, and the difficulty of double-blinding meditation studies.
-- **Status:** proposed
 
 ## Candidate: Goal Setting Frameworks: From SMART Goals to OKRs and Beyond
 - **Domain:** self-improvement
