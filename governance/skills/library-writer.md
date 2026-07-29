@@ -68,8 +68,10 @@ naming -- the template is the single source of format truth.
 ### 3. Pick a candidate topic from the discovery queue
 
 Read `/tmp/brain-writer/library/candidate-queue.md`. Select the
-highest-scored unaudited candidate (by discoverer score). Note the
-candidate ID, title, domain, and proposed scope.
+FIRST candidate with status `proposed` (reading top-to-bottom,
+FIFO order). Do NOT skip older candidates to pick higher-scored
+ones further down -- the queue is ordered, respect it. Note the
+candidate title, domain, and proposed scope.
 
 The candidate's domain and scope are binding. You MUST write to the
 exact domain specified in the candidate entry. You MUST NOT change
@@ -267,6 +269,7 @@ committing.
 - [ ] Written ONLY to /tmp/brain-writer/library/<domain>/ (NOT workspace, NOT any other path) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (G9) (PASS / HALT)
 - [ ] Candidate removed from candidate-queue.md (PASS / HALT)
+- [ ] Candidate selected FIFO: first `proposed` entry from top of queue in order, not score-sorted (PASS / HALT)
 - [ ] Domain fidelity: written topic's domain matches the candidate's Domain field exactly. Verify: candidate-queue.md Domain field vs. actual output path. (PASS / HALT)
 - [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
 - [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)

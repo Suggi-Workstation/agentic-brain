@@ -156,7 +156,7 @@ from existing entries.
 - **Proposed by:** <agent-name>
 - **Date:** YYYY-MM-DD
 - **Discovery score:** X.X/10.0 (gap=X.X, compounding=X.X, timeliness=X.X, balance=X.X)
-- **Scope:** <2-3 sentence scope description for the writer>
+- **Scope:** <2-3 sentences, max 80 words total. A concise brief the writer can use as a starting point. Do NOT write a full outline or research plan -- that is the writer's job.>
 - **Status:** proposed
 ```
 
@@ -224,6 +224,7 @@ failures only.
 - [ ] Weighted score calculated correctly: (gap*0.40 + compounding*0.25 + timeliness*0.20 + balance*0.15) (PASS / HALT)
 - [ ] Gap assessment verified against existing topics (no false gaps) (PASS / HALT)
 - [ ] Domain balance score derived from topic count survey in step 2 (PASS / HALT)
+- [ ] Scope brevity: every candidate scope is 2-3 sentences, max 80 words. No multi-paragraph scopes. (PASS / HALT)
 - [ ] No candidate proposed for a domain without an anchor file (PASS / HALT)
 
 ### Domain Balance
