@@ -35,14 +35,6 @@
 - **Scope:** Leon Festinger's theory that when beliefs and actions conflict, humans change beliefs rather than admit error. Covers the classic experiments (boring task for $1 vs $20), the effort justification effect, post-decision dissonance, and how dissonance drives confirmation bias. Why cognitive dissonance is the psychological engine behind sunk cost fallacy, political rationalization, and the refusal to update beliefs in the face of contrary evidence.
 - **Status:** proposed
 
-## Candidate: Semiconductors: The Silicon Foundation of the Digital Age
-- **Domain:** technology
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=7.5, timeliness=9.0, balance=4.0)
-- **Scope:** How semiconductors work at the physics level (doping, transistors, logic gates), Moore's Law and its endurance, the fabrication process and why it is the most complex manufacturing in human history, and the extraordinary concentration of advanced chip production in Taiwan (TSMC) that makes semiconductors the most geopolitically sensitive technology. Covers the CHIPS Act, the AI chip boom, and why semiconductor dominance is now a national security priority.
-- **Status:** proposed
-
 ## Candidate: Quantum Computing: What It Promises and Why It Is So Hard
 - **Domain:** technology
 - **Proposed by:** Researcher-2
