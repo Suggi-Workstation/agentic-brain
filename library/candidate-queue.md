@@ -154,3 +154,59 @@
 - **Discovery score:** 8.1/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=7.5)
 - **Scope:** The four laws of thermodynamics as the most fundamental constraints in all of physics -- and by extension, in all of science. Covers the Zeroth Law (temperature and thermal equilibrium), the First Law (energy is conserved -- you cannot win), the Second Law (entropy always increases in an isolated system -- you cannot break even), and the Third Law (absolute zero is unattainable). Why the Second Law is arguably the most profound scientific insight: it explains why time has a direction (the arrow of time), why perpetual motion machines are impossible, why organized systems require energy input to maintain, and why all complex structures in the universe -- from stars to life to civilizations -- are temporary local reversals of an inexorable trend. The statistical mechanics interpretation (Boltzmann) that entropy is not a mystical force but a statistical inevitability: there are vastly more ways to be disordered than ordered.
 - **Status:** proposed
+
+## Candidate: Pedagogy and Teaching Methods: What the Science of Learning Says About How to Teach
+- **Domain:** education-learning
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
+- **Scope:** The evidence-based frameworks for how to design and deliver effective instruction. Covers the major pedagogical approaches: direct instruction (explicit, structured, teacher-led), inquiry-based learning (student-driven exploration), Socratic method (questioning to surface understanding), project-based learning, and the "flipped classroom" model. What the cognitive science evidence says about which methods work best for which learning objectives -- and why popular approaches like "learning styles" fail empirical tests. The bridge between learning science (spaced repetition, retrieval practice, cognitive load theory) and classroom practice. How pedagogy is evolving with AI tutors, adaptive learning platforms, and the post-COVID re-evaluation of what teaching should look like.
+- **Status:** proposed
+
+## Candidate: AI Ethics: The Moral Questions Posed by Machine Intelligence
+- **Domain:** ethics-philosophy
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=5.0)
+- **Scope:** The ethical frameworks needed to govern increasingly capable AI systems. Covers the central problems: alignment (how to ensure AI systems pursue human values, not just their programmed objectives), bias and fairness (how training data embeds societal prejudices into models), accountability (who is responsible when an autonomous system causes harm), transparency and explainability (the black-box problem), and the existential risk debate (could advanced AI pose a threat to humanity). The major ethical frameworks applied to AI: utilitarian approaches (maximizing net benefit), deontological constraints (rights and duties AI must respect), and virtue ethics (what kind of AI would a wise society build). Covers real-world cases: facial recognition bias, lethal autonomous weapons, algorithmic sentencing, and the debate over open-source vs. restricted AI models. A bridge topic connecting ethics-philosophy to coding-agentic-ai, technology, and law-regulation.
+- **Status:** proposed
+
+## Candidate: Assessment and Testing: Measuring What People Actually Know
+- **Domain:** education-learning
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
+- **Scope:** The science and practice of measuring knowledge, skills, and abilities. Covers the fundamental concepts: validity (does the test measure what it claims to measure), reliability (does it produce consistent results), and the distinction between formative assessment (feedback during learning) and summative assessment (final evaluation). The major assessment formats: multiple-choice, essays, performance tasks, portfolios, and standardized tests -- and what each format actually measures vs. what it claims to measure. The controversies: teaching to the test, the SAT/ACT debate, grade inflation, and the replication crisis in educational measurement. How assessment design shapes student behavior (the backwash effect) and why most exams test recall rather than understanding. Emerging trends: skills-based credentialing, automated essay scoring, and how AI is changing what it means to "know" something.
+- **Status:** proposed
+
+## Candidate: Cyber Warfare: The Fifth Domain of Conflict
+- **Domain:** geopolitics
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.0/10.0 (gap=9.0, compounding=7.5, timeliness=9.0, balance=5.0)
+- **Scope:** How nations wage conflict through digital means, from espionage and sabotage to information operations and attacks on critical infrastructure. Covers the defining characteristics of cyber conflict: the attribution problem (knowing who attacked you is surprisingly hard), the offense-defense asymmetry (offense is cheaper and faster than defense), and the blurred line between crime, espionage, and acts of war. Landmark cases: Stuxnet (the first known cyber weapon to cause physical destruction), Russian interference in the 2016 U.S. election (information warfare at scale), the SolarWinds supply chain attack, and North Korean cyber-enabled financial theft as state revenue. Why cyber deterrence is fundamentally different from nuclear deterrence (attribution uncertainty, non-lethality, proliferation to non-state actors). The Tallinn Manual and the attempt to apply international law to cyberspace. The race to secure critical infrastructure (power grids, water systems, hospitals) as the battlefield expands.
+- **Status:** proposed
+
+## Candidate: "Influence: The Psychology of Persuasion" by Robert Cialdini
+- **Domain:** books
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=5.0)
+- **Scope:** Summary and analysis of Robert Cialdini's landmark 1984 book on the psychology of compliance and persuasion, based on years of undercover research inside sales organizations, fundraisers, and marketing departments. Cialdini identifies seven universal principles of influence: Reciprocity (people feel obligated to return favors), Commitment and Consistency (people align with their past commitments), Social Proof (people follow what others do), Liking (people say yes to those they like), Authority (people defer to perceived experts), Scarcity (people want what is rare), and Unity (people are influenced by shared identity). Each principle is illustrated with controlled experiments and real-world examples from Cialdini's participant observation. The book's lasting contribution: it systematized persuasion into teachable principles, making it essential reading for marketers, negotiators, and anyone who wants to understand why they say yes when they meant to say no. Critical assessment of the book's methodology, its ethical implications, and how the principles have been amplified in the age of social media algorithms and A/B testing.
+- **Status:** proposed
+
+## Candidate: "The Black Swan: The Impact of the Highly Improbable" by Nassim Nicholas Taleb
+- **Domain:** books
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=5.0)
+- **Scope:** Summary and analysis of Nassim Nicholas Taleb's 2007 book that changed how the world thinks about risk, uncertainty, and prediction. A Black Swan is an event with three characteristics: it is an outlier (outside regular expectations), it carries extreme impact, and after it occurs, humans fabricate explanations that make it seem predictable in hindsight (the narrative fallacy). Taleb argues that most of history's consequential events -- wars, market crashes, technological breakthroughs -- are Black Swans, yet our statistical tools (Gaussian distributions, Value at Risk, economic forecasting) are built for a world of thin-tailed, predictable events. Covers the key concepts: Mediocristan vs. Extremistan (domains where outliers are negligible vs. domains where a single observation can dominate the average), the ludic fallacy (mistaking the simplified rules of games for the complexity of real life), and the turkey problem (a turkey fed for 1,000 days has no reason to expect day 1,001 will be different -- until Thanksgiving). The book's practical program: rather than trying to predict Black Swans, position yourself to be robust to negative ones and exposed to positive ones (the barbell strategy). Critical assessment: Taleb's abrasive style, the book's intellectual debts to Karl Popper and Benoit Mandelbrot, and how the 2008 financial crisis both validated the book's thesis and created its audience. Why The Black Swan remains essential reading for investors, policymakers, and anyone who makes decisions under uncertainty.
+- **Status:** proposed
+
+## Candidate: Criminal Law and Justice Systems: The Architecture of Punishment
+- **Domain:** law-regulation
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=6.7)
+- **Scope:** The legal framework that defines crimes, assigns punishment, and structures the criminal justice process from investigation through sentencing. Covers the fundamental principles: actus reus (the guilty act) and mens rea (the guilty mind), the burden of proof beyond reasonable doubt, and the presumption of innocence. The major categories of crime: crimes against persons (homicide, assault), property crimes (theft, fraud), inchoate crimes (attempt, conspiracy), and regulatory offenses. Punishment theory: retribution, deterrence (specific and general), incapacitation, and rehabilitation -- and what the empirical evidence says about which approaches reduce recidivism. The criminal procedure pipeline: investigation, arrest, charging, plea bargaining (how 90%+ of cases are actually resolved), trial, sentencing, and appeals. Comparative perspective: adversarial systems (U.S., U.K.) vs. inquisitorial systems (continental Europe). Current debates: mass incarceration, mandatory minimums, the role of prosecutorial discretion, algorithmic risk assessment in bail and sentencing decisions, and restorative justice alternatives.
+- **Status:** proposed

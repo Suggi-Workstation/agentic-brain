@@ -424,3 +424,15 @@ Wrote topic Peter Lynch -- How Everyday Observation and Disciplined Research Pro
 Similarity overlap: 0%.
 Sources: 5 (2 high, 3 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-139] | 2026-07-29 09:54 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 7 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Pedagogy and Teaching Methods: What the Science of Learning Says About How to Teach (8.6): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- AI Ethics: The Moral Questions Posed by Machine Intelligence (8.3): gap=9.0, compounding=8.5, timeliness=9.0, balance=5.0
+- Assessment and Testing: Measuring What People Actually Know (8.3): gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0
+- Cyber Warfare: The Fifth Domain of Conflict (8.0): gap=9.0, compounding=7.5, timeliness=9.0, balance=5.0
+- "Influence: The Psychology of Persuasion" by Robert Cialdini (7.9): gap=9.0, compounding=8.0, timeliness=7.5, balance=5.0
+- "The Black Swan: The Impact of the Highly Improbable" by Nassim Nicholas Taleb (7.9): gap=9.0, compounding=8.0, timeliness=7.5, balance=5.0
+- Criminal Law and Justice Systems: The Architecture of Punishment (7.7): gap=8.5, compounding=7.5, timeliness=7.0, balance=6.7
+Domain balance: education-learning (2 topics) to geopolitics (4 topics).
