@@ -142,15 +142,6 @@
 - **Status:** proposed
 
 
-## Candidate: Ocean Acidification: The Other Carbon Problem
-- **Domain:** earth-climate
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0)
-- **Scope:** When atmospheric CO2 dissolves in seawater, it forms carbonic acid, lowering ocean pH and threatening the entire marine food web. Covers the chemistry: how a 30% increase in ocean acidity since the Industrial Revolution disrupts calcification in corals, mollusks, and plankton -- the foundation of marine ecosystems. The biological cascade: coral bleaching, pteropod shell dissolution, and the threat to global fisheries that feed billions. Why ocean acidification is called the "evil twin" of climate change: same cause (CO2), less visible, harder to reverse. The geological precedent: the Paleocene-Eocene Thermal Maximum (PETM) as a natural analog for rapid acidification and the slow recovery that followed. What mitigation looks like and why reducing atmospheric CO2 is the only scalable solution.
-- **Status:** proposed
-
-
 ## Candidate: The Cuban Missile Crisis: Decision-Making at the Brink of Nuclear War
 - **Domain:** case-studies
 - **Proposed by:** Researcher-2
