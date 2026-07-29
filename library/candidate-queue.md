@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Quantum Computing: What It Promises and Why It Is So Hard
-- **Domain:** technology
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 7.7/10.0 (gap=9.0, compounding=7.0, timeliness=8.5, balance=4.0)
-- **Scope:** Quantum computing leverages superposition and entanglement to solve certain problems exponentially faster than classical computers. Covers qubits vs. bits, the major approaches (superconducting, trapped ions, topological), the key algorithms (Shor's for factoring, Grover's for search), and the error correction challenge that keeps practical quantum advantage just out of reach. Current state of the race between Google, IBM, and startups. What quantum computing would mean for cryptography, drug discovery, and optimization.
-- **Status:** proposed
-
 ## Candidate: Public Health and Epidemiology
 - **Domain:** health-medicine
 - **Proposed by:** Researcher-2
