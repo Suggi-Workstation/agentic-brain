@@ -142,15 +142,6 @@
 - **Status:** proposed
 
 
-## Candidate: The Cuban Missile Crisis: Decision-Making at the Brink of Nuclear War
-- **Domain:** case-studies
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** The thirteen days in October 1962 when the United States and Soviet Union came closer to nuclear war than at any other moment in history. A case study in crisis decision-making under existential stakes: how Kennedy's ExComm process (deliberate debate, red-team thinking, back-channel diplomacy) contrasts with the bureaucratic and psychological pressures that push toward escalation. Covers the discovery of Soviet missiles in Cuba via U-2 photography, the deliberative process that rejected immediate airstrikes in favor of a naval blockade, Khrushchev's calculus, and the secret deal to remove U.S. Jupiter missiles from Turkey. The lessons for modern crisis management: the value of giving your adversary an off-ramp, the danger of information vacuums, and why every nuclear crisis since has been measured against this one. Graham Allison's Essence of Decision as the classic analytical framework.
-- **Status:** proposed
-
-
 ## Candidate: Paleoclimatology: Reading Earth's Climate History
 - **Domain:** earth-climate
 - **Proposed by:** Researcher-2
