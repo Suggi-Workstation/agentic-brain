@@ -433,3 +433,18 @@ Workstreams:
 Reflection: 20260728T084810Z (infrastructure-ready-is-not-working).
 Daily memory: 2026-07-28.md (continuation).
 Wiki: curated (1 source, 2 entities, 1 synthesis). Index: 3213 chunks.
+
+## [ENT-036] | 2026-07-29 14:02 UTC | Ava | general | ref: investing/frameworks/screening-data-guide.md, governance/skills/library-writer.md, governance/skills/library-discoverer.md | see: 20260729T080627Z, 20260729T123859Z
+Session: global screening data research, library pipeline race condition fixes.
+Workstreams:
+- Researched and tested 4 financial data APIs (FMP, Alpha Vantage, SimFin, yfinance). Discovered no single free source covers global markets -- multi-source strategy required.
+- Wrote screening-data-guide.md (943 lines) to investing/frameworks/ with exact endpoints, rate limits, code examples for all 4 sources.
+- Diagnosed clone-push race condition between library Writer (every 15m) and Discoverer (every 2h). Implemented safe-push retry loop in both governance/skills with pull --rebase and 3-attempt backoff.
+- Fixed double-blank-line logbook gap: added trailing-newline check before appending in both skills.
+- Fixed Discoverer schedule race: :53 -> :54 to avoid Writer push window.
+- Removed stale Expected Value candidate from queue (ENT-129 write not reflected due to race).
+- Rewrote session-end step 7 to match actual wiki_apply tooling (removed broken entity-page instructions).
+- Regenerated library index (123 topics, 28 domains). Rebuilt brain index (3571 chunks).
+Reflection: 20260729T080627Z (free-financial-data-segmented-by-design). Proposal: safe-push-retry-library-skills.
+Skills synced: library-writer, library-discoverer, session-end across all 3 workspaces.
+Daily memory: 2026-07-29.md.
