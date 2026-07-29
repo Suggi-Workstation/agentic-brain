@@ -83,15 +83,6 @@
 - **Scope:** How companies hide debt and liabilities by keeping them off the balance sheet through Special Purpose Entities (Enron's infamous Raptors), Variable Interest Entities, and lease structuring tricks (operating vs capital lease games). Covers the evolution of accounting rules (FIN 46, ASC 842) designed to close these loopholes, and why determined CFOs keep finding new ways around them. How to detect off-balance-sheet exposure from footnotes, contingent liabilities, and the gap between reported and economic debt.
 - **Status:** proposed
 
-## Candidate: Expected Value Thinking and Decision Trees Under Uncertainty
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=6.7)
-- **Scope:** The expected value framework as the rational decision-maker's core tool: multiply each possible outcome by its probability, sum them, and pick the highest EV path. Covers the construction and interpretation of decision trees (decision nodes, chance nodes, terminal values), the difference between maximizing expected value and maximizing expected utility (the St. Petersburg paradox and Bernoulli's resolution), and why most people reject favorable EV bets (loss aversion, probability neglect). Practical applications: career decisions, investment sizing, medical treatment choices. Why "maximize expected value" is simple to state but hard to live by -- it requires being willing to lose individual bets you were right to take.
-- **Status:** written
-
-
 ## Candidate: Mr. Market: The Most Powerful Metaphor in Investing
 - **Domain:** value-investing
 - **Proposed by:** Researcher-2
