@@ -139,14 +139,6 @@
 
 
 
-## Candidate: Cyber Warfare: The Fifth Domain of Conflict
-- **Domain:** geopolitics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.0/10.0 (gap=9.0, compounding=7.5, timeliness=9.0, balance=5.0)
-- **Scope:** How nations wage conflict through digital means, from espionage and sabotage to information operations and attacks on critical infrastructure. Covers the defining characteristics of cyber conflict: the attribution problem (knowing who attacked you is surprisingly hard), the offense-defense asymmetry (offense is cheaper and faster than defense), and the blurred line between crime, espionage, and acts of war. Landmark cases: Stuxnet (the first known cyber weapon to cause physical destruction), Russian interference in the 2016 U.S. election (information warfare at scale), the SolarWinds supply chain attack, and North Korean cyber-enabled financial theft as state revenue. Why cyber deterrence is fundamentally different from nuclear deterrence (attribution uncertainty, non-lethality, proliferation to non-state actors). The Tallinn Manual and the attempt to apply international law to cyberspace. The race to secure critical infrastructure (power grids, water systems, hospitals) as the battlefield expands.
-- **Status:** proposed
-
 ## Candidate: "Influence: The Psychology of Persuasion" by Robert Cialdini
 - **Domain:** books
 - **Proposed by:** Researcher-2
