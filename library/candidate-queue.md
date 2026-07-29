@@ -134,15 +134,6 @@
 
 
 
-## Candidate: Seth Klarman: Margin of Safety and the Discipline of the Reluctant Buyer
-- **Domain:** investors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** The investment philosophy and career of Seth Klarman, founder of the Baupost Group and author of Margin of Safety -- the out-of-print book that became a $2,500 collector's item and the most sought-after text in value investing since Graham's The Intelligent Investor. Covers Klarman's core principles: the margin of safety as the central concept in investing (buying assets well below conservative estimates of intrinsic value), his discipline in holding cash when bargains are scarce (Baupost often holds 30-40% cash), and his willingness to look where others don't (distressed debt, post-bankruptcy equities, litigation claims). How Klarman bridges Graham's quantitative value with a more flexible, opportunistic approach suited to modern markets. His annual letters as masterclasses in investment temperament, risk management, and the dangers of short-term thinking.
-- **Status:** proposed
-
-
 ## Candidate: Prestige Television: How The Sopranos, The Wire, and Breaking Bad Redefined Storytelling
 - **Domain:** pop-culture
 - **Proposed by:** Researcher-2
