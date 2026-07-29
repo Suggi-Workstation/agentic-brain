@@ -139,13 +139,6 @@
 
 
 
-## Candidate: Global Supply Chain Dynamics: From Just-in-Time to Just-in-Case
-- **Domain:** industries-sectors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.1/10.0 (gap=7.5, compounding=7.0, timeliness=9.0, balance=10.0)
-- **Scope:** The evolution of global supply chain strategy from the lean, cost-optimized just-in-time (JIT) model pioneered by Toyota to the resilience-focused just-in-case approach emerging after COVID-19, semiconductor shortages, and geopolitical disruptions. Covers the economic logic of globalized supply chains (comparative advantage in component production, scale economies, lower inventory costs), the hidden vulnerabilities (single points of failure, bullwhip effect, concentration risk in critical nodes like Taiwan for semiconductors). The post-pandemic shift: reshoring, nearshoring, and friendshoring as firms reprice supply chain risk. How supply chain design affects industry structure: capital intensity, barriers to entry, and bargaining power with suppliers. The strategic implications for investors: which industries face the highest supply chain risk, which benefit from deglobalization, and how to identify companies with superior supply chain management as a competitive advantage.
-- **Status:** proposed
 
 ## Candidate: Corporate Law and Governance: The Legal Architecture of the Modern Firm
 - **Domain:** law-regulation
