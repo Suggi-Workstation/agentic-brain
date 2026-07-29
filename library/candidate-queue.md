@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Deliberate Practice: The Science of Expertise Development
-- **Domain:** education-learning
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 7.4/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=5.0)
-- **Scope:** Anders Ericsson's framework that expert performance is not about innate talent but about how you practice: focused, feedback-rich, at the edge of current ability, with specific improvement goals. The 10,000-hour rule (and why it is a misunderstanding of Ericsson's work). How deliberate practice differs from mere repetition and from "flow" states. Applications beyond music and chess: programming, investing, writing, and medical diagnosis. Why most people plateau: they stop practicing deliberately once they reach acceptable performance, trading improvement for comfort.
-- **Status:** proposed
-
 ## Candidate: The Feynman Technique and Learning Heuristics
 - **Domain:** education-learning
 - **Proposed by:** Researcher-2
