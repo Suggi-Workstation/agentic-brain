@@ -142,14 +142,6 @@
 - **Status:** proposed
 
 
-## Candidate: Paleoclimatology: Reading Earth's Climate History
-- **Domain:** earth-climate
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=10.0)
-- **Scope:** How scientists reconstruct Earth's climate history from natural archives: ice cores from Greenland and Antarctica (trapped gas bubbles, isotopic ratios, dust layers going back 800,000 years), deep-sea sediment cores (foraminifera shells, carbon isotope ratios across millions of years), tree rings (annual resolution across millennia), and speleothems (cave formations). Covers the key discoveries: the 100,000-year glacial-interglacial cycle driven by Milankovitch orbital variations, the Younger Dryas abrupt cooling event, and the tight coupling between CO2 and temperature throughout the ice core record. Why paleoclimatology matters now: it provides the baseline against which modern warming is measured and shows that current CO2 levels (420+ ppm) have no precedent in at least 3 million years. The methodology: proxies, dating techniques, and the challenge of stitching together records from different archives into a coherent global picture.
-- **Status:** proposed
-
 
 ## Candidate: Seth Klarman: Margin of Safety and the Discipline of the Reluctant Buyer
 - **Domain:** investors
