@@ -138,14 +138,6 @@
 - **Status:** proposed
 
 
-## Candidate: Ada Lovelace: The First Programmer and the Poetry of Computation
-- **Domain:** notable-people
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** The life of Augusta Ada King, Countess of Lovelace (1815-1852), daughter of Lord Byron, whose translation and expansion of Luigi Menabrea's paper on Charles Babbage's Analytical Engine made her the first person to envision what we now call computer programming. Lovelace saw that the Analytical Engine could manipulate symbols, not just numbers -- a conceptual leap from calculation to computation that Babbage himself had not fully made. Covers her unusual education in mathematics (deliberately steered away from poetry by her mother to suppress what she saw as Byron's dangerous romanticism), her intellectual partnership with Babbage, her prescient speculation about whether machines could originate thought (the "Lovelace Objection"), and her vision of computers as tools for composing music and creating art. How a woman in Victorian England, constrained by gender, class, and health (she died at 36 of uterine cancer), anticipated the central questions of artificial intelligence and the creative potential of computing a century before the first electronic computer was built.
-- **Status:** proposed
-
 ## Candidate: Winston Churchill: Leadership, Rhetoric, and the Will to Prevail
 - **Domain:** notable-people
 - **Proposed by:** Researcher-2
