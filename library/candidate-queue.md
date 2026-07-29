@@ -157,3 +157,67 @@
 - **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.0, timeliness=7.0, balance=7.5)
 - **Scope:** How companies use the discretion in goodwill impairment testing to delay acknowledging that acquisitions have destroyed value. Under ASC 350 (and IAS 36), goodwill is no longer amortized but must be tested annually for impairment. The problem: impairment testing requires estimating the fair value of reporting units, creating wide latitude for optimistic assumptions. Covers the techniques: aggressive cash flow projections, inflated terminal growth rates, low discount rates, and the strategic allocation of goodwill to reporting units that are unlikely to fail impairment tests. Famous cases: AOL Time Warner's $99 billion write-down (the largest in history, years after the merger was clearly a disaster), HP's Autonomy acquisition, and the pattern of new CEOs taking "big baths" shortly after appointment (blaming the predecessor for impairment that accumulated on their watch). The investor red flags: goodwill as a percentage of equity, serial acquirers with growing goodwill balances, and impairment tests that consistently show "headroom" despite deteriorating business performance.
 - **Status:** proposed
+
+## Candidate: Meditation and Mindfulness: Evidence-Based Benefits for Cognitive Performance
+- **Domain:** self-improvement
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=7.0, timeliness=8.0, balance=10.0)
+- **Scope:** A survey of the scientific evidence on how meditation and mindfulness practices improve cognitive function, emotional regulation, and physical health. Covers the major types (focused attention, open monitoring, loving-kindness) and their distinct effects, the neurological evidence from fMRI and EEG studies showing structural changes (increased cortical thickness, reduced amygdala reactivity), and the demonstrated benefits: improved attention and working memory, reduced stress and anxiety, enhanced emotional regulation, and slower cognitive decline with aging. Distinguishes evidence-supported claims from popular hype. Practical protocols: how much meditation produces measurable effects, the role of retreats vs daily practice, and how mindfulness integrates with cognitive behavioral techniques. What the MBSR (Mindfulness-Based Stress Reduction) research tells us about clinical applications. The limits of the evidence: publication bias, small sample sizes, and the difficulty of double-blinding meditation studies.
+- **Status:** proposed
+
+## Candidate: Goal Setting Frameworks: From SMART Goals to OKRs and Beyond
+- **Domain:** self-improvement
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.0, timeliness=7.0, balance=10.0)
+- **Scope:** A systematic comparison of the major goal-setting methodologies and what the evidence says about which ones actually improve outcomes. Covers SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) and their origins in management by objectives, OKRs (Objectives and Key Results) as popularized by Intel and Google, the WOOP framework (Wish, Outcome, Obstacle, Plan) rooted in Gabriele Oettingen's mental contrasting research, and backward goal setting. The psychology: why writing down goals increases achievement rates, the difference between approach goals (moving toward something) and avoidance goals (moving away), and when stretch goals motivate vs demoralize. The annual resolution problem: why most New Year's resolutions fail by February and what implementation intentions (if-then planning) can do about it. For knowledge workers and investors: why process goals (what you will do) outperform outcome goals (what you hope happens) when the outcome is not fully within your control.
+- **Status:** proposed
+
+## Candidate: Narrative Structure and Storytelling: The Hero's Journey and Beyond
+- **Domain:** communication
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
+- **Scope:** How stories are constructed and why narrative is the most powerful form of human communication. Covers Joseph Campbell's monomyth (the Hero's Journey) and its 17 stages, Christopher Vogler's adaptation for screenwriting (the 12-stage writer's journey), and alternative structures: the three-act structure, Freytag's pyramid, in medias res, nonlinear narratives, and the Kishotenketsu structure from East Asian storytelling (contrast without conflict). The cognitive science of why stories persuade where data alone fails: narrative transportation theory, the identifiable victim effect, and how stories activate mirror neurons. For non-fiction writers: how to structure arguments as narratives, the ABT (And, But, Therefore) framework for compelling communication, and case studies of effective storytelling in business, journalism, and scientific communication. Why every great investor memo, startup pitch, and political movement is ultimately a story about the past, present, and future.
+- **Status:** proposed
+
+## Candidate: Interpersonal Communication and Negotiation: From Active Listening to Getting to Yes
+- **Domain:** communication
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=10.0)
+- **Scope:** The theory and practice of effective one-on-one and small-group communication, spanning everyday conversations, difficult discussions, and formal negotiations. Covers active listening (paraphrasing, reflecting feelings, asking open questions), nonviolent communication (observations vs evaluations, expressing needs without blame), and the Harvard Negotiation Project's principled negotiation framework from Getting to Yes: separate people from the problem, focus on interests not positions, invent options for mutual gain, and insist on objective criteria. The BATNA concept (Best Alternative to a Negotiated Agreement) as the foundation of negotiation power. Psychological barriers: reactive devaluation, the fundamental attribution error in conflict, and why the first person to name a number in a negotiation gains an anchoring advantage. Practical patterns: how to give feedback that is heard, how to disagree without destroying relationships, and why the best negotiators ask more questions and spend more time on preparation than average performers. The limits: when negotiation is inappropriate (moral non-negotiables) and when power asymmetry makes principled negotiation ineffective.
+- **Status:** proposed
+
+## Candidate: Atmospheric Science and Weather Systems: How the Atmosphere Drives Climate
+- **Domain:** earth-climate
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.0, timeliness=8.0, balance=8.0)
+- **Scope:** The physical science of Earth's atmosphere: its composition, structure (troposphere through exosphere), and the forces that drive weather and climate. Covers atmospheric circulation cells (Hadley, Ferrel, Polar), the Coriolis effect, jet streams, and how the distribution of solar energy drives global wind patterns. Major weather phenomena: the water cycle and precipitation, storm systems (cyclones, anticyclones), monsoons, and the El Nino-Southern Oscillation (ENSO) as the dominant mode of interannual climate variability. How atmospheric science informs climate modeling: the difference between weather prediction (chaotic beyond ~2 weeks) and climate projection (statistically meaningful over decades). Current research frontiers: how a warming atmosphere holds more water vapor (the Clausius-Clapeyron relationship) supercharging extreme precipitation events, the possible weakening of the Atlantic Meridional Overturning Circulation (AMOC), and what cloud feedback remains the largest uncertainty in climate sensitivity estimates.
+- **Status:** proposed
+
+## Candidate: Resource Depletion and Sustainability Science: The Finite Planet Equation
+- **Domain:** earth-climate
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=8.0)
+- **Scope:** The science and economics of natural resource limits, from peak oil and mineral scarcity to freshwater depletion, topsoil loss, and fisheries collapse. Covers the framework of planetary boundaries (Rockstrom et al., 2009/2015) identifying nine Earth-system processes with quantified safe operating limits, including climate change, biodiversity loss, nitrogen and phosphorus cycles, freshwater use, and land-system change. The rebuttal from technological optimists: past predictions of resource exhaustion (Malthus, The Limits to Growth, peak oil) have been repeatedly wrong because they underestimated substitution, efficiency gains, and price-driven innovation. The nuanced synthesis: which resources are genuinely finite (phosphorus has no substitute for agriculture, helium escapes to space once used) vs which are "depletable but not exhaustible" at any plausible price. The circular economy as an operational response: designing out waste, keeping materials in use, and regenerating natural systems. For investors: which resource constraints create durable pricing power for producers and which are solved by a single technological breakthrough.
+- **Status:** proposed
+
+## Candidate: Material Culture and Archaeology: What Objects Reveal About Past Societies
+- **Domain:** anthropology
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 7.7/10.0 (gap=9.0, compounding=6.5, timeliness=6.5, balance=8.0)
+- **Scope:** The study of past human societies through their material remains: tools, pottery, buildings, art, garbage, and burials. Covers archaeological methods: stratigraphy (reading layers of occupation), radiocarbon dating and dendrochronology, paleoethnobotany (what ancient people ate), zooarchaeology (what they hunted and domesticated), and the revolution brought by LiDAR (revealing hidden cities under jungle canopy) and ancient DNA analysis. Key archaeological insights: how the transition from hunting-gathering to agriculture (the Neolithic Revolution) changed human health, social organization, and inequality; what the garbage middens of ancient cities reveal about daily life that written records omit; and how experimental archaeology (making stone tools, building and sailing replica vessels) tests hypotheses about past capabilities. The limits of the archaeological record: what preserves and what doesn't (wood, textiles, and most organic materials decay), the problem of equifinality (multiple processes can produce the same archaeological signature), and how modern biases shape interpretation of past societies. Why archaeology matters beyond academic interest: it provides the only record of 99% of human history (pre-writing) and constantly upends assumptions about what forms of social organization are "natural" or inevitable.
+- **Status:** proposed
+
+## Candidate: Political Anthropology: Tribal Governance, Chiefdoms, and the Origin of Hierarchy
+- **Domain:** anthropology
+- **Proposed by:** Researcher-2
+- **Date:** 2026-07-29
+- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=7.0, timeliness=6.5, balance=8.0)
+- **Scope:** How human societies have organized power, made collective decisions, and built (or resisted) hierarchy across 200,000 years of Homo sapiens existence. Covers Elman Service's classic typology of political organization: bands (small, egalitarian, kin-based, typical of hunter-gatherers), tribes (larger, segmentary, with achieved leadership through persuasion rather than coercion), chiefdoms (hereditary inequality, centralized redistribution, the first institutionalized rank), and states (bureaucratic, coercive, with monopoly on legitimate violence). The debate over the origin of inequality: did agriculture necessitate hierarchy (the standard model), or did hierarchy precede and drive agriculture (the revisionist view from Gobekli Tepe and other monumental pre-agricultural sites)? Ethnographic cases: the !Kung San as the archetypal egalitarian band with leveling mechanisms (insulting the meat, refusing to acknowledge leadership), the Melanesian Big Man system where authority must be continuously earned through generosity, and the Polynesian chiefdoms where rank became heritable and sacred. Why this matters for understanding the modern world: the institutions we take as natural (formal law, professional police, permanent leadership) are recent inventions. The state has existed for roughly 0.3% of human history. The anthropological perspective reveals that hierarchy is not our default setting -- it had to be invented, and it is continuously contested.
+- **Status:** proposed
