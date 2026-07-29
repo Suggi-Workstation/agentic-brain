@@ -136,13 +136,6 @@
 
 
 
-## Candidate: Peter Lynch: One Up on Wall Street and the Art of Growth at a Reasonable Price
-- **Domain:** investors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** The career and investment philosophy of Peter Lynch, who managed Fidelity's Magellan Fund from 1977 to 1990, achieving a 29.2% average annual return -- the best mutual fund record of the era. Lynch's framework, popularized in One Up on Wall Street: individual investors have an edge over professionals by observing products and trends in their daily lives before Wall Street notices. His stock categorization system (slow growers, stalwarts, fast growers, cyclicals, turnarounds, asset plays) as a practical tool for matching strategy to opportunity type. The "buy what you know" principle and its common misinterpretation (it is a starting point for research, not a substitute for it). Why Lynch argued that the biggest risk in investing is not volatility but not being invested -- and how he maintained conviction through market declines. His legacy: democratizing investment research and showing that discipline, not genius, produces extraordinary long-term results.
-- **Status:** proposed
 
 
 ## Candidate: New Coke: The Greatest Marketing Disaster of the 20th Century
