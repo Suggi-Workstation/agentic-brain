@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Mr. Market: The Most Powerful Metaphor in Investing
-- **Domain:** value-investing
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 7.8/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=6.7)
-- **Scope:** Benjamin Graham's allegory of Mr. Market -- a manic-depressive business partner who offers to buy or sell shares at wildly different prices every day -- as the psychological foundation of value investing. Covers the full parable from The Intelligent Investor: Mr. Market's mood swings create opportunity, not risk, and the investor's job is to exploit his irrationality, not follow it. Why this metaphor encapsulates the distinction between price and intrinsic value, the market as a voting machine (short run) vs weighing machine (long run), and why temperament -- the ability to stay calm when Mr. Market panics -- matters more than intelligence. The behavioral economics that validates Graham's insight: volatility is not risk, and the best returns come from buying when Mr. Market is depressed. Why most investors, including professionals, fail to act on this principle in practice.
-- **Status:** proposed
-
 ## Candidate: Trade and Comparative Advantage: Why Nations Exchange
 - **Domain:** macro-micro
 - **Proposed by:** Researcher-2
