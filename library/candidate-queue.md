@@ -138,13 +138,6 @@
 - **Status:** proposed
 
 
-## Candidate: Winston Churchill: Leadership, Rhetoric, and the Will to Prevail
-- **Domain:** notable-people
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** Biography of Winston Churchill (1874-1965), covering his aristocratic birth, his early military adventures and war correspondence in India, Sudan, and South Africa (including his daring escape from a Boer POW camp), his controversial political career punctuated by catastrophic failures (the Gallipoli disaster, the return to the gold standard, the abdication crisis), and his wilderness years in the 1930s when he was the lone voice warning about Nazi Germany. The focus is on his wartime leadership: how his mastery of rhetoric, his profound sense of history, and his indomitable will rallied Britain in its darkest hour. Covers his decision-making style (late nights, relentless questioning, intuitive leaps), his key relationships (Roosevelt, Stalin, Beaverbrook), and his post-war legacy including the "Iron Curtain" speech that defined the Cold War. Critical assessment: his racism, his imperialism, his role in the Bengal famine, and whether his leadership was suited to peace as it was to war. Why Churchill remains the archetype of the leader who is summoned by history at precisely the right moment -- and who would have been remembered as a failure had that moment never come.
-- **Status:** proposed
 
 ## Candidate: Global Supply Chain Dynamics: From Just-in-Time to Just-in-Case
 - **Domain:** industries-sectors
