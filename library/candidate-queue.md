@@ -89,7 +89,6 @@
 - **Scope:** Benjamin Graham's allegory of Mr. Market -- a manic-depressive business partner who offers to buy or sell shares at wildly different prices every day -- as the psychological foundation of value investing. Covers the full parable from The Intelligent Investor: Mr. Market's mood swings create opportunity, not risk, and the investor's job is to exploit his irrationality, not follow it. Why this metaphor encapsulates the distinction between price and intrinsic value, the market as a voting machine (short run) vs weighing machine (long run), and why temperament -- the ability to stay calm when Mr. Market panics -- matters more than intelligence. The behavioral economics that validates Graham's insight: volatility is not risk, and the best returns come from buying when Mr. Market is depressed. Why most investors, including professionals, fail to act on this principle in practice.
 - **Status:** proposed
 
-
 ## Candidate: Trade and Comparative Advantage: Why Nations Exchange
 - **Domain:** macro-micro
 - **Proposed by:** Researcher-2
@@ -128,19 +127,6 @@
 - **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=6.7)
 - **Scope:** The legal framework that defines crimes, assigns punishment, and structures the criminal justice process from investigation through sentencing. Covers the fundamental principles: actus reus (the guilty act) and mens rea (the guilty mind), the burden of proof beyond reasonable doubt, and the presumption of innocence. The major categories of crime: crimes against persons (homicide, assault), property crimes (theft, fraud), inchoate crimes (attempt, conspiracy), and regulatory offenses. Punishment theory: retribution, deterrence (specific and general), incapacitation, and rehabilitation -- and what the empirical evidence says about which approaches reduce recidivism. The criminal procedure pipeline: investigation, arrest, charging, plea bargaining (how 90%+ of cases are actually resolved), trial, sentencing, and appeals. Comparative perspective: adversarial systems (U.S., U.K.) vs. inquisitorial systems (continental Europe). Current debates: mass incarceration, mandatory minimums, the role of prosecutorial discretion, algorithmic risk assessment in bail and sentencing decisions, and restorative justice alternatives.
 - **Status:** proposed
-
-
-
-
-## Candidate: Value Chain Analysis: Mapping How Value Moves from Raw Materials to End Consumers
-- **Domain:** industries-sectors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.0/10.0 (gap=8.5, compounding=7.0, timeliness=6.5, balance=10.0)
-- **Scope:** Porter's value chain framework as a tool for understanding where value is created and captured within an industry. Covers the distinction between primary activities (inbound logistics, operations, outbound logistics, marketing, service) and support activities (firm infrastructure, HR, technology, procurement). How margin analysis along the value chain reveals profit pools: why some links capture outsized returns while others are commoditized. The strategic implications: vertical integration decisions (when to own vs outsource), the smartphone value chain as a case study in profit pool concentration (Apple capturing the majority of industry profits while manufacturing is razor-thin), and how digital platforms disintermediate traditional value chains by inserting themselves between producers and consumers. For investors: using value chain analysis to identify companies with structural profit advantages and to anticipate where margin pressure will emerge next as industries evolve.
-- **Status:** written
-
-
 
 ## Candidate: Dividend Policy and Share Buybacks: The Theory and Practice of Returning Capital to Shareholders
 - **Domain:** finance
