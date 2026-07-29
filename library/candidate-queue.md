@@ -137,13 +137,6 @@
 - **Scope:** The legal framework that defines crimes, assigns punishment, and structures the criminal justice process from investigation through sentencing. Covers the fundamental principles: actus reus (the guilty act) and mens rea (the guilty mind), the burden of proof beyond reasonable doubt, and the presumption of innocence. The major categories of crime: crimes against persons (homicide, assault), property crimes (theft, fraud), inchoate crimes (attempt, conspiracy), and regulatory offenses. Punishment theory: retribution, deterrence (specific and general), incapacitation, and rehabilitation -- and what the empirical evidence says about which approaches reduce recidivism. The criminal procedure pipeline: investigation, arrest, charging, plea bargaining (how 90%+ of cases are actually resolved), trial, sentencing, and appeals. Comparative perspective: adversarial systems (U.S., U.K.) vs. inquisitorial systems (continental Europe). Current debates: mass incarceration, mandatory minimums, the role of prosecutorial discretion, algorithmic risk assessment in bail and sentencing decisions, and restorative justice alternatives.
 - **Status:** proposed
 
-## Candidate: Regulatory Capture Theory: When the Regulated Control the Regulators
-- **Domain:** law-regulation
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0)
-- **Scope:** George Stigler's theory that regulatory agencies, created to protect the public, inevitably come to serve the industries they regulate. Covers the economic logic: concentrated industry benefits vs diffuse public costs, the revolving door between regulators and regulated firms, information asymmetry that makes agencies dependent on industry expertise, and the capture lifecycle from idealistic founding to industry-friendly maturity. Case studies: FAA and Boeing (delegated certification and the 737 MAX), SEC and Wall Street (regulatory revolving door), FDA and pharmaceutical companies (user fees and accelerated approval). Why regulatory capture is not corruption in the traditional sense -- it is a structural economic phenomenon that persists even when all actors are well-intentioned. Countermeasures: sunlight disclosure, competitive regulatory jurisdiction, and the role of crisis in breaking capture equilibria.
-- **Status:** proposed
 
 ## Candidate: Ada Lovelace: The First Programmer and the Poetry of Computation
 - **Domain:** notable-people
