@@ -138,15 +138,6 @@
 
 
 
-## Candidate: New Coke: The Greatest Marketing Disaster of the 20th Century
-- **Domain:** case-studies
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
-- **Scope:** In April 1985, Coca-Cola replaced its 99-year-old secret formula with "New Coke," triggering a consumer revolt so intense that the company re-introduced "Coca-Cola Classic" just 79 days later. This case study examines why a market leader with dominant market share, backed by extensive blind taste-test data (200,000 consumers preferred the new formula), got it so catastrophically wrong. The analytical lessons: the difference between stated preference (taste tests) and revealed preference (brand loyalty), how Coca-Cola underestimated the symbolic and emotional dimension of consumption (Coke was not just a beverage but a piece of American identity), and the paradox that the fiasco ultimately strengthened the brand (the reintroduction of Classic Coke generated more loyalty than the status quo would have). Why listening to customers is not the same as doing what they say -- and when consumer research methodology fails to capture what people actually value.
-- **Status:** proposed
-
-
 ## Candidate: Thermodynamics: The Laws That Govern Energy, Entropy, and the Arrow of Time
 - **Domain:** science
 - **Proposed by:** Researcher-2
