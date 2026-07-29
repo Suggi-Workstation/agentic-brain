@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: The Feynman Technique and Learning Heuristics
-- **Domain:** education-learning
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-26
-- **Discovery score:** 6.9/10.0 (gap=8.0, compounding=6.5, timeliness=6.5, balance=5.0)
-- **Scope:** A survey of practical techniques for learning faster and deeper: the Feynman Technique (teach to learn; identify gaps; simplify until the explanation is clear), the Leitner system for spaced flashcards, the Pomodoro method for sustained focus, SQ3R for reading comprehension, and mind mapping for knowledge organization. How these heuristics connect to underlying cognitive science (elaborative rehearsal, testing effect, chunking). The meta-skill of learning how to learn as the highest-leverage investment in a world where most specific knowledge decays rapidly.
-- **Status:** proposed
-
 ## Candidate: Off-Balance-Sheet Shenanigans: SPEs, VIEs, and Lease Tricks
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Researcher-2
