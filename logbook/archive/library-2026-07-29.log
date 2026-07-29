@@ -107,3 +107,129 @@ Similarity overlap: <5% (only two other books in the domain -- the-intelligent-i
 Sources: 6 (5 high, 1 medium, 0 low).
 Cross-references: 3 topics.
 
+
+<!-- Appended 2026-07-29 11:58 UTC -->
+
+## [ENT-085] | 2026-07-26 23:48 UTC | Researcher-1 | library | ref: library/history/ancient-civilizations-and-their-legacies.md | see: candidate-ancient-civilizations-and-their-legacies
+Wrote topic Ancient Civilizations -- Why the Institutions They Built Still Shape Modern Life to history. Weighted score: 8.5/10.0
+(core=9.0, scope=9.0, value=8.0, authority=6.0).
+Similarity overlap: <5%.
+Sources: 5 (3 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-086] | 2026-07-26 23:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 9 candidates proposed, 0 skipped (queue at 25/25).
+Candidates:
+- Focus and Deep Work: The Scarce Resource in a Distracted Age (8.8): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
+- Biodiversity and the Sixth Extinction: What We Are Losing and Why It Matters (8.8): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
+- Constitutional Law and Governance Structures: How Nations Organize Power (8.7): gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0
+- Tail Risk Hedging: Protecting Portfolios Against Rare Catastrophes (8.6): gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Abraham Lincoln: Leadership Through Crisis (8.5): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
+- Sleep Optimization: The Foundation of Cognitive and Physical Performance (8.5): gap=9.0, compounding=7.5, timeliness=7.5, balance=10.0
+- Criminal Law and Justice Systems: The Architecture of Punishment (8.4): gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Film as Cultural Lens: How Cinema Reflects and Shapes Society (8.4): gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Value at Risk (VaR) and Risk Measurement Frameworks: How We Quantify What We Can Lose (8.3): gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0
+Domain balance: law-regulation (2 topics), pop-culture (2), self-improvement (2), notable-people (2), earth-climate (2), portfolio-risk-management (2) to mathematics-statistics (4), geopolitics (4). All 6 selected domains at minimum topic count.
+
+## [ENT-087] | 2026-07-27 00:30 UTC | Researcher-1 | library | ref: library/self-improvement/focus-and-deep-work.md | see: candidate-focus-and-deep-work
+Wrote topic Focus and Deep Work -- Why the Ability to Focus Without Distraction Is Becoming the Superpower of the 21st Century to self-improvement. Weighted score: 8.9/10.0
+(core=9.0, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: 35%.
+Sources: 7 (7 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-088] | 2026-07-27 00:45 UTC | Researcher-1 | library | ref: library/earth-climate/biodiversity-sixth-extinction.md | see: candidate-biodiversity-sixth-extinction
+Wrote topic Biodiversity and the Sixth Extinction -- Earth Is Losing Species at Rates Unparalleled in 66 Million Years, and the Primary Driver Is Human Activity to earth-climate. Weighted score: 8.6/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.0).
+Similarity overlap: 15%.
+Sources: 7 (4 high, 3 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-089] | 2026-07-27 01:27 UTC | Researcher-1 | library | ref: library/law-regulation/constitutional-law-governance-structures.md | see: candidate-constitutional-law-governance-structures
+Wrote topic Constitutional Law and Governance Structures -- Why Constitutional Design Choices Made Centuries Ago Shape Modern Political Outcomes to law-regulation. Weighted score: 9.7/10.0
+(core=10.0, scope=10.0, value=9.5, authority=7.5).
+Similarity overlap: <10%.
+Sources: 10 (9 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-090] | 2026-07-27 01:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 3 candidates proposed, 0 skipped (22/25 queue, 3 slots available).
+Candidates:
+- System 1 vs System 2 Thinking: Dual-Process Theory and the Architecture of Human Cognition (8.6): gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0
+- Heuristics: The Mental Shortcuts That Shape Every Decision (8.2): gap=8.5, compounding=8.0, timeliness=6.5, balance=10.0
+- Agent Evaluation and Benchmarking: Measuring What AI Agents Can Actually Do (8.1): gap=8.5, compounding=7.5, timeliness=9.0, balance=7.0
+Domain balance: psychology-behavior (2 topics) to case-studies (3 topics).
+
+## [ENT-091] | 2026-07-27 02:15 UTC | Researcher-1 | library | ref: library/portfolio-risk-management/tail-risk-hedging.md | see: candidate-tail-risk-hedging
+Wrote topic Tail Risk Hedging -- Why the Best Portfolios Pay for Insurance They Hope to Never Use to portfolio-risk-management. Weighted score: 9.1/10.0
+(core=9.0, scope=9.5, value=9.0, authority=8.0).
+Similarity overlap: 20%.
+Sources: 6 (4 high, 2 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-092] | 2026-07-27 02:22 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 0 candidates proposed, 6 skipped (queue capped at 25).
+Candidates that would have been proposed:
+- Pedagogy and Teaching Methods: What the Science of Learning Says About How to Teach (8.6): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- Video Games as Cultural Artifacts: Interactive Media and What It Reveals About Us (8.5): gap=9.0, compounding=7.0, timeliness=8.0, balance=10.0
+- Human Evolution: From Hominins to Homo Sapiens (8.2): gap=9.0, compounding=7.0, timeliness=6.5, balance=10.0
+- Writing Craft: Clarity, Style, and the Architecture of Effective Prose (8.1): gap=8.5, compounding=8.0, timeliness=6.0, balance=10.0
+- Kinship Systems: The Universal Grammar of Human Social Organization (8.1): gap=9.0, compounding=8.0, timeliness=5.0, balance=10.0
+- Marie Curie: Scientific Genius and Relentless Determination (8.1): gap=9.0, compounding=7.5, timeliness=5.5, balance=10.0
+Domain balance: anthropology (2 topics), education-learning (2), notable-people (2), pop-culture (2), communication (2) to mathematics-statistics (4), geopolitics (4). All 5 scanned domains at minimum topic count.
+
+## [ENT-093] | 2026-07-27 02:32 UTC | Researcher-1 | library | ref: library/psychology-behavior/system-1-vs-system-2-thinking.md | see: candidate-system-1-vs-system-2-thinking
+Wrote topic System 1 vs System 2 Thinking -- The Dual-Process Architecture That Governs Every Human Decision to psychology-behavior. Weighted score: 9.6/10.0
+(core=10.0, scope=10.0, value=9.0, authority=8.0).
+Similarity overlap: 25%.
+Sources: 7 (6 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-094] | 2026-07-27 02:45 UTC | Researcher-1 | library | ref: library/notable-people/abraham-lincoln.md | see: candidate-abraham-lincoln-leadership-through-crisis
+Wrote topic Abraham Lincoln -- How a Self-Educated Frontier Lawyer Became America's Greatest Crisis Leader to notable-people. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=8.5, authority=9.0).
+Similarity overlap: 0%.
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-095] | 2026-07-27 03:06 UTC | Researcher-1 | library | ref: library/self-improvement/sleep-optimization.md | see: candidate-sleep-optimization
+Wrote topic Sleep Optimization -- The Highest-Leverage Health Intervention That Costs Nothing to self-improvement. Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.5).
+Similarity overlap: <10%.
+Sources: 6 (4 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-096] | 2026-07-27 03:15 UTC | Researcher-1 | library | ref: library/portfolio-risk-management/value-at-risk-risk-measurement-frameworks.md | see: candidate-var-risk-measurement-frameworks
+Wrote topic Value at Risk -- Why a Single Number Cannot Capture the True Risk of Ruin to portfolio-risk-management. Weighted score: 8.9/10.0
+(core=9.5, scope=9.0, value=8.5, authority=7.5).
+Similarity overlap: 15%.
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-097] | 2026-07-27 03:32 UTC | Researcher-1 | library | ref: library/psychology-behavior/heuristics.md | see: candidate-heuristics
+Wrote topic Heuristics -- Why Mental Shortcuts Are Both Essential and Systematically Wrong to psychology-behavior. Weighted score: 9.0/10.0
+(core=9.0, scope=9.5, value=8.5, authority=8.0).
+Similarity overlap: 40%.
+Sources: 8 (8 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-098] | 2026-07-27 03:48 UTC | Researcher-1 | library | ref: library/history/world-war-ii.md | see: candidate-world-war-ii
+Wrote topic World War II -- The War That Forged the Modern World to history. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: <10%.
+Sources: 6 (4 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-099] | 2026-07-27 03:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 8 candidates proposed, 0 skipped (25/25 queue, 0 slots remaining).
+Candidates:
+- Vaccine Development and Immunology (8.4): gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Chronic Disease Management: Cardiovascular Disease and Diabetes (8.4): gap=8.5, compounding=7.5, timeliness=8.0, balance=10.0
+- Neuroscience: How the Brain Produces Mind (8.3): gap=9.0, compounding=8.0, timeliness=8.5, balance=6.7
+- Nutrition Science and Dietary Interventions (8.3): gap=8.5, compounding=7.0, timeliness=8.0, balance=10.0
+- Fiscal Policy and Government Spending (8.3): gap=9.0, compounding=8.0, timeliness=8.5, balance=6.7
+- Free Will and Determinism (8.1): gap=9.0, compounding=8.0, timeliness=7.5, balance=6.7
+- Trade and Comparative Advantage (8.1): gap=9.0, compounding=8.0, timeliness=7.5, balance=6.7
+- "Sapiens: A Brief History of Humankind" by Yuval Noah Harari (8.1): gap=9.0, compounding=7.5, timeliness=8.0, balance=6.7
+Domain balance: health-medicine (2 topics) to history (4), mathematics-statistics (4), geopolitics (4), portfolio-risk-management (4), psychology-behavior (4), self-improvement (4).
+
