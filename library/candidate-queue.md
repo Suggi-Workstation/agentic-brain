@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Off-Balance-Sheet Shenanigans: SPEs, VIEs, and Lease Tricks
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=6.7)
-- **Scope:** How companies hide debt and liabilities by keeping them off the balance sheet through Special Purpose Entities (Enron's infamous Raptors), Variable Interest Entities, and lease structuring tricks (operating vs capital lease games). Covers the evolution of accounting rules (FIN 46, ASC 842) designed to close these loopholes, and why determined CFOs keep finding new ways around them. How to detect off-balance-sheet exposure from footnotes, contingent liabilities, and the gap between reported and economic debt.
-- **Status:** proposed
-
 ## Candidate: Mr. Market: The Most Powerful Metaphor in Investing
 - **Domain:** value-investing
 - **Proposed by:** Researcher-2
