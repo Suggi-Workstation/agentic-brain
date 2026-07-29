@@ -17,8 +17,6 @@
 - **Discovery score:** 7.2/10.0 (gap=8.0, compounding=5.5, timeliness=5.5, balance=10.0)
 - **Scope:** The unifying theory of geology: continental drift, seafloor spreading, subduction zones, and the mechanisms that drive plate movement. How plate tectonics explains earthquakes, volcanoes, mountain building, and the distribution of natural resources. The history of the theory from Wegener's continental drift to modern GPS-confirmed plate motion.
 - **Status:** proposed
-
-
 ## Candidate: Capital Structure: Debt, Equity, and the Modigliani-Miller Theorem
 - **Domain:** finance
 - **Proposed by:** Researcher-2
@@ -91,15 +89,6 @@
 - **Scope:** Benjamin Graham's allegory of Mr. Market -- a manic-depressive business partner who offers to buy or sell shares at wildly different prices every day -- as the psychological foundation of value investing. Covers the full parable from The Intelligent Investor: Mr. Market's mood swings create opportunity, not risk, and the investor's job is to exploit his irrationality, not follow it. Why this metaphor encapsulates the distinction between price and intrinsic value, the market as a voting machine (short run) vs weighing machine (long run), and why temperament -- the ability to stay calm when Mr. Market panics -- matters more than intelligence. The behavioral economics that validates Graham's insight: volatility is not risk, and the best returns come from buying when Mr. Market is depressed. Why most investors, including professionals, fail to act on this principle in practice.
 - **Status:** proposed
 
-
-## Candidate: Kinship and Social Structures: The Universal Grammar of Human Relatedness
-- **Domain:** anthropology
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=7.0, timeliness=6.0, balance=10.0)
-- **Scope:** How human societies organize the fundamental relationships of family, marriage, descent, and inheritance. Covers the classic anthropological frameworks: Morgan's kinship terminology types (Iroquois, Crow, Omaha, Hawaiian, Eskimo), Levi-Strauss's alliance theory and the incest taboo as the foundation of culture, and the distinction between matrilineal and patrilineal descent systems. Marriage across cultures: monogamy, polygyny, polyandry, bridewealth, dowry, and exogamy rules. How kinship structures shape political organization, economic exchange, and social hierarchy. Modern transformations: what happens to kinship systems under urbanization, individualism, and assisted reproduction.
-- **Status:** proposed
-
 ## Candidate: Linear Algebra: The Workhorse of Data Science and AI
 - **Domain:** mathematics-statistics
 - **Proposed by:** Researcher-2
@@ -131,14 +120,6 @@
 - **Discovery score:** 7.8/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=6.7)
 - **Scope:** The life and work of Maria Sklodowska-Curie (1867-1934), the first woman to win a Nobel Prize and the only person to win Nobels in two different sciences (Physics 1903, Chemistry 1911). Covers her path from clandestine study in Russian-occupied Poland to the Sorbonne, her partnership with Pierre Curie, the grueling physical labor of isolating radium from tons of pitchblende, and her discoveries of polonium and radium that launched the field of radioactivity. Her character: relentless work ethic, indifference to fame and wealth, refusal to patent radium so the world could benefit freely, and continuing her research even as radiation poisoning destroyed her health. Her legacy: the Curie Institutes, mobile X-ray units in WWI, and the double-edged gift of nuclear science. How she navigated a scientific establishment that was openly hostile to women and emerged as the most celebrated scientist of her era.
 - **Status:** proposed
-
-
-
-
-
-
-
-
 ## Candidate: "Influence: The Psychology of Persuasion" by Robert Cialdini
 - **Domain:** books
 - **Proposed by:** Researcher-2
