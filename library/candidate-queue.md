@@ -140,14 +140,6 @@
 
 
 
-## Candidate: Corporate Law and Governance: The Legal Architecture of the Modern Firm
-- **Domain:** law-regulation
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.0/10.0 (gap=8.0, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** The corporation as a legal person: how law creates entities that can own property, enter contracts, sue and be sued, and exist perpetually beyond their founders. Covers the separation of ownership and control (Berle and Means), fiduciary duties of directors and officers (duty of care, duty of loyalty, the business judgment rule), shareholder rights and the mechanisms of shareholder democracy (proxy voting, shareholder proposals, derivative lawsuits), and the central role of Delaware corporate law in American capitalism. The debate between shareholder primacy and stakeholder governance. Key governance mechanisms: board composition, independent directors, dual-class share structures, executive compensation. Why corporate governance matters for investors: the empirical link between governance quality and long-term returns, governance red flags, and how activists use governance tools to force change.
-- **Status:** proposed
-
 ## Candidate: Value Chain Analysis: Mapping How Value Moves from Raw Materials to End Consumers
 - **Domain:** industries-sectors
 - **Proposed by:** Researcher-2
