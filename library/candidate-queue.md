@@ -134,13 +134,6 @@
 
 
 
-## Candidate: The Challenger Disaster: How Organizational Silence Caused a National Tragedy
-- **Domain:** case-studies
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** On January 28, 1986, the Space Shuttle Challenger broke apart 73 seconds after launch, killing all seven crew members. The proximate cause -- O-ring failure in cold weather -- was known to NASA and Morton Thiokol engineers before the launch. This case study examines why the warnings were ignored: the organizational dynamics that suppress dissent (groupthink, schedule pressure, normalization of deviance), the Rogers Commission findings, and Richard Feynman's famous ice-water demonstration that exposed the gap between engineering judgment and management probability. The durable lessons: how organizations drift into failure when "acceptable risk" creeps upward without a single catastrophic event to reset it, why the burden of proof should fall on demonstrating safety rather than demonstrating danger, and how the Challenger disaster reshaped engineering ethics, organizational safety culture, and the concept of "whistleblowing" in technical organizations.
-- **Status:** proposed
 
 
 ## Candidate: Peter Lynch: One Up on Wall Street and the Art of Growth at a Reasonable Price
