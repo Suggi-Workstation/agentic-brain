@@ -1,37 +1,37 @@
 # Library Master Index
 
-<!-- Regenerated 2026-07-29 18:37 UTC -->
+<!-- Regenerated 2026-07-30 10:54 UTC -->
 <!-- Source of truth: filesystem. This file is derived, never maintained by hand. -->
 <!-- To verify: ls library/<domain>/*.md -->
 
-- **accounting-financial-shenanigans**: 4 topics
-- **anthropology**: 5 topics
-- **books**: 4 topics
+- **accounting-financial-shenanigans**: 6 topics
+- **anthropology**: 7 topics
+- **books**: 6 topics
 - **case-studies**: 6 topics
 - **coding-agentic-ai**: 6 topics
-- **communication**: 5 topics
-- **earth-climate**: 6 topics
-- **education-learning**: 5 topics
-- **ethics-philosophy**: 5 topics
-- **finance**: 5 topics
-- **geopolitics**: 5 topics
+- **communication**: 6 topics
+- **earth-climate**: 8 topics
+- **education-learning**: 6 topics
+- **ethics-philosophy**: 6 topics
+- **finance**: 6 topics
+- **geopolitics**: 7 topics
 - **health-medicine**: 7 topics
 - **history**: 5 topics
 - **industries-sectors**: 6 topics
-- **investors**: 5 topics
-- **law-regulation**: 5 topics
-- **macro-micro**: 5 topics
+- **investors**: 6 topics
+- **law-regulation**: 6 topics
+- **macro-micro**: 6 topics
 - **mathematics-statistics**: 6 topics
-- **notable-people**: 5 topics
+- **notable-people**: 6 topics
 - **pop-culture**: 5 topics
 - **portfolio-risk-management**: 5 topics
 - **probabilistic-thinking-forecasting**: 5 topics
 - **psychology-behavior**: 6 topics
-- **science**: 5 topics
-- **self-improvement**: 5 topics
-- **technology**: 5 topics
+- **science**: 6 topics
+- **self-improvement**: 6 topics
+- **technology**: 6 topics
 - **valuation-screening**: 5 topics
-- **value-investing**: 5 topics
+- **value-investing**: 6 topics
 
-**Total: 146 topics across 28 domains**
+**Total: 168 topics across 28 domains**
 
