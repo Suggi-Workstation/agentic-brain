@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: "The Black Swan: The Impact of the Highly Improbable" by Nassim Nicholas Taleb
-- **Domain:** books
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=5.0)
-- **Scope:** Summary and analysis of Nassim Nicholas Taleb's 2007 book that changed how the world thinks about risk, uncertainty, and prediction. A Black Swan is an event with three characteristics: it is an outlier (outside regular expectations), it carries extreme impact, and after it occurs, humans fabricate explanations that make it seem predictable in hindsight (the narrative fallacy). Taleb argues that most of history's consequential events -- wars, market crashes, technological breakthroughs -- are Black Swans, yet our statistical tools (Gaussian distributions, Value at Risk, economic forecasting) are built for a world of thin-tailed, predictable events. Covers the key concepts: Mediocristan vs. Extremistan (domains where outliers are negligible vs. domains where a single observation can dominate the average), the ludic fallacy (mistaking the simplified rules of games for the complexity of real life), and the turkey problem (a turkey fed for 1,000 days has no reason to expect day 1,001 will be different -- until Thanksgiving). The book's practical program: rather than trying to predict Black Swans, position yourself to be robust to negative ones and exposed to positive ones (the barbell strategy). Critical assessment: Taleb's abrasive style, the book's intellectual debts to Karl Popper and Benoit Mandelbrot, and how the 2008 financial crisis both validated the book's thesis and created its audience. Why The Black Swan remains essential reading for investors, policymakers, and anyone who makes decisions under uncertainty.
-- **Status:** proposed
-
 ## Candidate: Criminal Law and Justice Systems: The Architecture of Punishment
 - **Domain:** law-regulation
 - **Proposed by:** Researcher-2
