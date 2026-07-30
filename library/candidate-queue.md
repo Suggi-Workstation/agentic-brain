@@ -13,14 +13,6 @@
 
 
 
-## Candidate: International Institutions: How the UN, WTO, and IMF Shape the Global Order
-- **Domain:** geopolitics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines the architecture of post-WWII international institutions and how they distribute power, resolve disputes, and manage global economic stability. Covers Security Council dynamics, WTO dispute resolution, IMF conditionality, and the growing challenges to institutional legitimacy from rising powers.
-- **Status:** proposed
-
 ## Candidate: Political Philosophy: Justice, Liberty, and the Social Contract
 - **Domain:** ethics-philosophy
 - **Proposed by:** Researcher-2
