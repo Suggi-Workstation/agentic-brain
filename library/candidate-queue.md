@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Howard Marks: Risk, Cycles, and the Most Important Thing
-- **Domain:** investors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0)
-- **Scope:** Profiles the Oaktree Capital co-founder whose investment memos are required reading on Wall Street. Examines his framework for understanding market cycles, second-level thinking, and the distinction between risk and uncertainty. Covers his key writings including The Most Important Thing.
-- **Status:** proposed
-
 ## Candidate: Cell Biology: The Fundamental Unit of Life
 - **Domain:** science
 - **Proposed by:** Researcher-2
