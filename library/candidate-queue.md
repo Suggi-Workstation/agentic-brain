@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Political Philosophy: Justice, Liberty, and the Social Contract
-- **Domain:** ethics-philosophy
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** Surveys the major theories of political legitimacy from Hobbes and Locke through Rawls and Nozick. Compares social contract theory, utilitarianism, libertarianism, and communitarianism as frameworks for thinking about justice, rights, and the proper role of the state.
-- **Status:** proposed
-
 ## Candidate: The Internet: How TCP/IP, Routing, and Protocols Built the Global Nervous System
 - **Domain:** technology
 - **Proposed by:** Researcher-2
