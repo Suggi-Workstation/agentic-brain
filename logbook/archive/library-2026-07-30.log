@@ -1,0 +1,111 @@
+<!-- library.log archive -- entries 7-112 (line range)
+     Moved from active log on 2026-07-30 07:49 UTC
+     Active log continues from ENT-128 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-114] | 2026-07-27 10:45 UTC | Researcher-1 | library | ref: library/portfolio-risk-management/diversification-mathematics.md | see: candidate-diversification
+Wrote topic Diversification -- Why the Mathematics of Correlation Makes Risk Reduction Real (Until It Does Not) to portfolio-risk-management. Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.5).
+Similarity overlap: ~30-40%.
+Sources: 8 (6 high, 2 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-115] | 2026-07-27 11:04 UTC | Researcher-1 | library | ref: library/coding-agentic-ai/agent-evaluation-and-benchmarking.md | see: candidate-agent-evaluation-and-benchmarking
+Wrote topic Agent Evaluation and Benchmarking -- Why Measuring What AI Agents Can Actually Do Is the Hardest Problem in Agent Engineering to coding-agentic-ai. Weighted score: 8.9/10.0
+(core=9.0, scope=9.5, value=8.5, authority=7.5).
+Similarity overlap: < 10%.
+Sources: 7 (5 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-116] | 2026-07-27 11:16 UTC | Researcher-1 | library | ref: library/ethics-philosophy/free-will-determinism.md | see: candidate-free-will-determinism
+Wrote topic Free Will and Determinism -- Why the Debate About Whether We Choose Our Actions Remains Philosophy's Most Consequential Unresolved Question to ethics-philosophy. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.0, authority=9.0).
+Similarity overlap: < 10%.
+Sources: 11 (11 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-117] | 2026-07-27 11:33 UTC | Researcher-1 | library | ref: library/accounting-financial-shenanigans/non-gaap-metrics-and-pro-forma-manipulation.md | see: candidate-non-gaap-metrics
+Wrote topic Non-GAAP Metrics -- How Adjusted Earnings Became the Standard Story While GAAP Became the Footnote to accounting-financial-shenanigans. Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=8.0).
+Similarity overlap: ~10-15%.
+Sources: 8 (5 high, 3 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-118] | 2026-07-27 11:47 UTC | Researcher-1 | library | ref: library/coding-agentic-ai/agent-memory-and-persistence.md | see: candidate-agent-memory-and-persistence
+Wrote topic Agent Memory and Persistence -- Why Memory Architecture, Not Model Size, Separates Demo Agents from Production Agents to coding-agentic-ai. Weighted score: 8.9/10.0
+(core=9.0, scope=9.5, value=8.5, authority=7.5).
+Similarity overlap: ~25%.
+Sources: 8 (4 high, 4 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-119] | 2026-07-27 11:53 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 9 candidates proposed, 0 skipped (25/25 queue, 0 slots remaining).
+Candidates:
+- Human Evolution and Prehistory: From Hominins to Homo Sapiens (8.5): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
+- Ritual and Religion as Cultural Phenomena: How Societies Construct the Sacred (8.3): gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0
+- Kinship and Social Structures: The Universal Grammar of Human Relatedness (7.9): gap=8.5, compounding=7.0, timeliness=6.0, balance=10.0
+- Information Theory: From Shannon Entropy to Modern Data Compression (8.1): gap=9.0, compounding=8.5, timeliness=8.0, balance=5.0
+- Linear Algebra: The Workhorse of Data Science and AI (7.9): gap=8.5, compounding=8.0, timeliness=8.5, balance=5.0
+- Business Cycles: The Rhythm of Boom and Bust (8.1): gap=9.0, compounding=8.0, timeliness=8.5, balance=5.0
+- Trade and Comparative Advantage: Why Nations Exchange (7.7): gap=8.5, compounding=7.5, timeliness=8.5, balance=5.0
+- Capital Cycle Analysis: How Capital Flows Create Industry Booms and Busts (7.9): gap=8.5, compounding=8.0, timeliness=7.5, balance=6.7
+- Marie Curie: Scientific Genius and Relentless Determination (7.8): gap=9.0, compounding=7.5, timeliness=6.5, balance=6.7
+Domain balance: anthropology (2 topics) to coding-agentic-ai (6 topics).
+
+## [ENT-120] | 2026-07-27 12:11 UTC | Researcher-1 | library | ref: library/anthropology/human-evolution-and-prehistory.md | see: candidate-human-evolution-prehistory
+Wrote topic Human Evolution and Prehistory to anthropology. Weighted score: 9.0/10.0
+(core=9.5, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: <5%.
+Sources: 7 (7 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-121] | 2026-07-27 12:15 UTC | Researcher-1 | library | ref: library/anthropology/ritual-religion-cultural-phenomena.md | see: candidate-ritual-religion-cultural-phenomena
+Wrote topic Ritual and Religion -- How Every Human Society Constructs the Sacred to anthropology. Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.5).
+Similarity overlap: ~15%.
+Sources: 12 (11 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-122] | 2026-07-28 12:15 UTC | Researcher-1 | library | ref: library/books/sapiens-a-brief-history-of-humankind.md | see: candidate-sapiens-harari
+Wrote topic Sapiens: A Brief History of Humankind to books. Weighted score: 8.6/10.0
+(core=9.0, scope=9.0, value=8.0, authority=6.5).
+Similarity overlap: 0%.
+Sources: 5 (2 high, 3 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-123] | 2026-07-28 12:31 UTC | Researcher-1 | library | ref: library/mathematics-statistics/information-theory.md | see: candidate-information-theory
+Wrote topic Information Theory -- How Claude Shannon Made Information a Measurable Quantity to mathematics-statistics. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.0, authority=9.0).
+Similarity overlap: <20%.
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-124] | 2026-07-29 06:33 UTC | Researcher-1 | library | ref: library/macro-micro/business-cycles.md | see: candidate-business-cycles
+Wrote topic Business Cycles -- The Inescapable Rhythm of Boom and Bust That No Policy Can Abolish to macro-micro. Weighted score: 8.5/10.0
+(core=9.0, scope=8.5, value=8.0, authority=8.0).
+Similarity overlap: ~20%.
+Sources: 5 (4 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-125] | 2026-07-29 06:46 UTC | Researcher-1 | library | ref: library/valuation-screening/terminal-value-dcf-methods-and-biases.md | see: candidate-terminal-value
+Wrote topic Terminal Value: Why the Most Important Number in Valuation Is Also the Least Reliable to valuation-screening. Weighted score: 8.8/10.0
+(core=9.0, scope=9.5, value=8.0, authority=7.0).
+Similarity overlap: ~40%.
+Sources: 8 (5 high, 3 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-126] | 2026-07-29 07:05 UTC | Researcher-1 | library | ref: library/psychology-behavior/social-influence-and-conformity.md | see: proposal by Researcher-2 (2026-07-26)
+Wrote topic Social Influence and Conformity to psychology-behavior. Weighted score: 8.6/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.0).
+Similarity overlap: ~20%.
+Sources: 7 (6 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-127] | 2026-07-29 07:15 UTC | Researcher-1 | library | ref: library/probabilistic-thinking-forecasting/inside-outside-view.md | see: candidate-inside-outside-view
+Wrote topic The Inside View Is Seductive, Detail-Rich, and Almost Always Wrong -- Why the Outside View Wins to probabilistic-thinking-forecasting. Weighted score: 8.6/10.0
+(core=9.0, scope=9.0, value=7.5, authority=8.0).
+Similarity overlap: ~30% (with superforecasting.md -- shared forecasting methodology domain, distinct topics).
+Sources: 6 (5 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
