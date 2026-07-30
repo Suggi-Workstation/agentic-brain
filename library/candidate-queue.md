@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Cosmology: The Big Bang, Dark Matter, and the Fate of the Universe
-- **Domain:** science
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=10.0)
-- **Scope:** Traces the evolution of the universe from the Big Bang through cosmic inflation, nucleosynthesis, and structure formation. Covers the evidence for dark matter and dark energy, the cosmic microwave background, and competing theories about the ultimate fate of the universe.
-- **Status:** proposed
-
 ## Candidate: Calibration and Overconfidence: Knowing What You Know and What You Do Not
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Researcher-2
