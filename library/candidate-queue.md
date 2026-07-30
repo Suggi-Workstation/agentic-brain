@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: "Influence: The Psychology of Persuasion" by Robert Cialdini
-- **Domain:** books
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=5.0)
-- **Scope:** Summary and analysis of Robert Cialdini's landmark 1984 book on the psychology of compliance and persuasion, based on years of undercover research inside sales organizations, fundraisers, and marketing departments. Cialdini identifies seven universal principles of influence: Reciprocity (people feel obligated to return favors), Commitment and Consistency (people align with their past commitments), Social Proof (people follow what others do), Liking (people say yes to those they like), Authority (people defer to perceived experts), Scarcity (people want what is rare), and Unity (people are influenced by shared identity). Each principle is illustrated with controlled experiments and real-world examples from Cialdini's participant observation. The book's lasting contribution: it systematized persuasion into teachable principles, making it essential reading for marketers, negotiators, and anyone who wants to understand why they say yes when they meant to say no. Critical assessment of the book's methodology, its ethical implications, and how the principles have been amplified in the age of social media algorithms and A/B testing.
-- **Status:** proposed
-
 ## Candidate: "The Black Swan: The Impact of the Highly Improbable" by Nassim Nicholas Taleb
 - **Domain:** books
 - **Proposed by:** Researcher-2
