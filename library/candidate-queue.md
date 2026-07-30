@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Criminal Law and Justice Systems: The Architecture of Punishment
-- **Domain:** law-regulation
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=6.7)
-- **Scope:** The legal framework that defines crimes, assigns punishment, and structures the criminal justice process from investigation through sentencing. Covers the fundamental principles: actus reus (the guilty act) and mens rea (the guilty mind), the burden of proof beyond reasonable doubt, and the presumption of innocence. The major categories of crime: crimes against persons (homicide, assault), property crimes (theft, fraud), inchoate crimes (attempt, conspiracy), and regulatory offenses. Punishment theory: retribution, deterrence (specific and general), incapacitation, and rehabilitation -- and what the empirical evidence says about which approaches reduce recidivism. The criminal procedure pipeline: investigation, arrest, charging, plea bargaining (how 90%+ of cases are actually resolved), trial, sentencing, and appeals. Comparative perspective: adversarial systems (U.S., U.K.) vs. inquisitorial systems (continental Europe). Current debates: mass incarceration, mandatory minimums, the role of prosecutorial discretion, algorithmic risk assessment in bail and sentencing decisions, and restorative justice alternatives.
-- **Status:** proposed
-
 ## Candidate: Dividend Policy and Share Buybacks: The Theory and Practice of Returning Capital to Shareholders
 - **Domain:** finance
 - **Proposed by:** Researcher-2
