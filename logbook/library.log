@@ -404,3 +404,20 @@ Wrote topic Bioethics -- Medical Progress Has Made Us Powerful Enough to Play Go
 Similarity overlap: <30%.
 Sources: 6 (5 high, 1 medium, 0 low).
 Cross-references: 2 topics.
+## [ENT-194] | 2026-07-30 11:54 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 13 candidates proposed, 0 skipped (21/25 queue, 4 slots remaining).
+Candidates:
+- Concentration vs Diversification: The Value Investor's Dilemma (8.4): gap=8.5, compounding=9.0, timeliness=7.5, balance=8.3
+- Video Games as Cultural Artifacts: Narrative, Agency, and the New Storytelling Medium (8.4): gap=8.5, compounding=7.5, timeliness=8.0, balance=10.0
+- The History of Capitalism: From Merchant Trade to Global Markets (8.3): gap=8.0, compounding=8.5, timeliness=7.5, balance=10.0
+- The Renaissance and Enlightenment: The Birth of the Modern Mind (8.3): gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0
+- Earnings Power Value and Asset-Based Valuation: The Balance Sheet Approaches (8.3): gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0
+- Portfolio Rebalancing Strategies: Theory, Mechanics, and Behavioral Frictions (8.2): gap=8.0, compounding=8.5, timeliness=7.0, balance=10.0
+- Risk Parity and Factor-Based Portfolio Construction (8.2): gap=8.0, compounding=8.0, timeliness=7.5, balance=10.0
+- Greenblatt's Magic Formula: Combining Earnings Yield and Return on Capital (8.1): gap=8.0, compounding=8.0, timeliness=7.0, balance=10.0
+- Drawdown Analysis and Management: Surviving the Worst-Case Scenario (8.1): gap=8.0, compounding=7.5, timeliness=7.5, balance=10.0
+- Medieval History: The Thousand Years Between Rome and the Renaissance (8.1): gap=8.5, compounding=7.5, timeliness=6.5, balance=10.0
+- Music as Cultural Phenomenon: How Soundtracks Shape Generations (8.0): gap=8.5, compounding=7.0, timeliness=7.0, balance=10.0
+- Reverse DCF and Sensitivity Analysis: Stress-Testing Your Assumptions (8.0): gap=8.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Charlie Munger's Mental Models: The Latticework of Wisdom (7.9): gap=7.5, compounding=8.5, timeliness=7.5, balance=8.3
+Domain balance: history (5 topics), pop-culture (5), portfolio-risk-management (5), valuation-screening (5) to value-investing (6 topics).
