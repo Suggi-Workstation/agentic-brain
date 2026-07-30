@@ -13,14 +13,6 @@
 
 
 
-## Candidate: The Internet: How TCP/IP, Routing, and Protocols Built the Global Nervous System
-- **Domain:** technology
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.7/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** Explains the layered architecture of the internet from physical fiber to application protocols. Covers TCP/IP, DNS, BGP routing, CDNs, and the design principles that allowed the internet to scale from a research network to the backbone of modern civilization.
-- **Status:** proposed
-
 ## Candidate: Trade Wars and Economic Sanctions: The Weaponization of Interdependence
 - **Domain:** geopolitics
 - **Proposed by:** Researcher-2
