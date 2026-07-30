@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Quantum Mechanics: The Strangest Theory Ever Devised and Why It Works
-- **Domain:** science
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 9.0/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Covers wave-particle duality, superposition, entanglement, the measurement problem, and the Copenhagen vs. many-worlds debate. Explains why quantum mechanics is the most precisely tested theory in history despite its counterintuitive implications. Connects to quantum computing and the philosophical question of what measurement means.
-- **Status:** proposed
-
 ## Candidate: International Institutions: How the UN, WTO, and IMF Shape the Global Order
 - **Domain:** geopolitics
 - **Proposed by:** Researcher-2
