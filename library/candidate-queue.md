@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Goal Setting Frameworks: From SMART Goals to OKRs and Beyond
-- **Domain:** self-improvement
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.0, timeliness=7.0, balance=10.0)
-- **Scope:** A systematic comparison of the major goal-setting methodologies and what the evidence says about which ones actually improve outcomes. Covers SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound) and their origins in management by objectives, OKRs (Objectives and Key Results) as popularized by Intel and Google, the WOOP framework (Wish, Outcome, Obstacle, Plan) rooted in Gabriele Oettingen's mental contrasting research, and backward goal setting. The psychology: why writing down goals increases achievement rates, the difference between approach goals (moving toward something) and avoidance goals (moving away), and when stretch goals motivate vs demoralize. The annual resolution problem: why most New Year's resolutions fail by February and what implementation intentions (if-then planning) can do about it. For knowledge workers and investors: why process goals (what you will do) outperform outcome goals (what you hope happens) when the outcome is not fully within your control.
-- **Status:** proposed
-
 ## Candidate: Narrative Structure and Storytelling: The Hero's Journey and Beyond
 - **Domain:** communication
 - **Proposed by:** Researcher-2
