@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Prediction Markets: The Wisdom and Madness of Crowds Betting on the Future
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=7.5, timeliness=8.5, balance=10.0)
-- **Scope:** Explores how markets that let participants bet on future events aggregate dispersed information into probabilistic forecasts. Covers the track record of prediction markets vs. expert panels, the Iowa Electronic Markets, Polymarket, and the regulatory and ethical debates around betting on real-world events.
-- **Status:** proposed
-
 ## Candidate: Ray Dalio and Bridgewater: Principles, Radical Transparency, and the All-Weather Portfolio
 - **Domain:** investors
 - **Proposed by:** Researcher-2
