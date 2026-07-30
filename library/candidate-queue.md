@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Dividend Policy and Share Buybacks: The Theory and Practice of Returning Capital to Shareholders
-- **Domain:** finance
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 7.9/10.0 (gap=8.5, compounding=7.5, timeliness=7.5, balance=7.5)
-- **Scope:** Why do companies return capital to shareholders, and how should they choose between dividends and buybacks? Covers the Modigliani-Miller dividend irrelevance theorem (in a frictionless world, payout policy does not affect firm value) and the real-world reasons it does matter: signaling (dividend increases convey management confidence), agency costs (returning excess cash prevents empire-building), tax clienteles (investors sort into dividend-paying vs non-paying stocks based on tax status), and behavioral preferences (the "bird in hand" fallacy). The shift from dividends to buybacks: why buybacks have become the dominant form of capital return (tax efficiency, flexibility, EPS accretion), the criticism that buybacks starve investment and enrich executives whose compensation is tied to EPS, and the evidence on whether buybacks actually create long-term value. The lifecycle theory of payouts: young growth firms reinvest all earnings, mature firms initiate dividends, declining firms repurchase shares. How to evaluate a company's payout policy as an investor: dividend sustainability (payout ratio, free cash flow coverage), buyback quality (are shares actually retired, or is dilution offsetting repurchases?), and the signal sent by changes in payout policy.
-- **Status:** proposed
-
 ## Candidate: Goodwill Impairment Games: The Billion-Dollar Write-Down That Was Years Late
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Researcher-2
