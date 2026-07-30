@@ -11,16 +11,6 @@
 -->
 
 
-
-
-## Candidate: Trade Wars and Economic Sanctions: The Weaponization of Interdependence
-- **Domain:** geopolitics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.7/10.0 (gap=8.5, compounding=8.0, timeliness=9.0, balance=10.0)
-- **Scope:** Analyzes how nations use tariffs, export controls, and financial sanctions as instruments of coercion in an interdependent world. Covers the US-China trade war, sanctions on Russia and Iran, and the long-term consequences of weaponizing the dollar-based financial system.
-- **Status:** proposed
-
 ## Candidate: Howard Marks: Risk, Cycles, and the Most Important Thing
 - **Domain:** investors
 - **Proposed by:** Researcher-2
