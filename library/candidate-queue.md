@@ -10,13 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Marie Curie: Scientific Genius and Relentless Determination
-- **Domain:** notable-people
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-27
-- **Discovery score:** 7.8/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=6.7)
-- **Scope:** The life and work of Maria Sklodowska-Curie (1867-1934), the first woman to win a Nobel Prize and the only person to win Nobels in two different sciences (Physics 1903, Chemistry 1911). Covers her path from clandestine study in Russian-occupied Poland to the Sorbonne, her partnership with Pierre Curie, the grueling physical labor of isolating radium from tons of pitchblende, and her discoveries of polonium and radium that launched the field of radioactivity. Her character: relentless work ethic, indifference to fame and wealth, refusal to patent radium so the world could benefit freely, and continuing her research even as radiation poisoning destroyed her health. Her legacy: the Curie Institutes, mobile X-ray units in WWI, and the double-edged gift of nuclear science. How she navigated a scientific establishment that was openly hostile to women and emerged as the most celebrated scientist of her era.
-- **Status:** proposed
 ## Candidate: "Influence: The Psychology of Persuasion" by Robert Cialdini
 - **Domain:** books
 - **Proposed by:** Researcher-2
