@@ -4,3 +4,20 @@
      Category: research
      See: logbook/protocol.md for full spec
 -->
+
+
+## [ENT-001] | 2026-07-30 13:44 UTC | Ava | research | ref: research/reports/crewai-integration-assessment.md | see: 20260730T134244Z
+Researched CrewAI multi-agent orchestration framework for potential
+integration with Suggi-Workstation GitHub org. Key sources: CrewAI
+official docs, third-party pricing analyses (CostBench, ComparEdge,
+UsagePricing), architectural deep-dives (Codexpedite, PyShine).
+Wrote crewai-integration-assessment.md (351 lines) to research/reports/.
+Findings: CrewAI uses dual-abstraction model (Crews for collaboration,
+Flows for orchestration). GitHub integration exists but requires
+Enterprise AMP (free tier hard-capped at 50 execs/month unusable for
+automation). OSS self-hosted path (MIT, free) is viable on VPS.
+Ava and Link can be modeled as CrewAI Agents but cannot be imported --
+OpenClaw-native tooling (memory, wiki, browser, gates) would need
+reimplementation. Two-framework stack (Python CrewAI + Node.js OpenClaw)
+adds complexity without solving a clear current bottleneck.
+Recommendation: monitor, do not adopt now.
