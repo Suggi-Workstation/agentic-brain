@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Goodwill Impairment Games: The Billion-Dollar Write-Down That Was Years Late
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.0, timeliness=7.0, balance=7.5)
-- **Scope:** How companies use the discretion in goodwill impairment testing to delay acknowledging that acquisitions have destroyed value. Under ASC 350 (and IAS 36), goodwill is no longer amortized but must be tested annually for impairment. The problem: impairment testing requires estimating the fair value of reporting units, creating wide latitude for optimistic assumptions. Covers the techniques: aggressive cash flow projections, inflated terminal growth rates, low discount rates, and the strategic allocation of goodwill to reporting units that are unlikely to fail impairment tests. Famous cases: AOL Time Warner's $99 billion write-down (the largest in history, years after the merger was clearly a disaster), HP's Autonomy acquisition, and the pattern of new CEOs taking "big baths" shortly after appointment (blaming the predecessor for impairment that accumulated on their watch). The investor red flags: goodwill as a percentage of equity, serial acquirers with growing goodwill balances, and impairment tests that consistently show "headroom" despite deteriorating business performance.
-- **Status:** proposed
-
 ## Candidate: Goal Setting Frameworks: From SMART Goals to OKRs and Beyond
 - **Domain:** self-improvement
 - **Proposed by:** Researcher-2
