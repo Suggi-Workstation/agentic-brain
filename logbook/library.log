@@ -494,3 +494,10 @@ Wrote topic Cosmology -- How the Universe Began, What It Is Made Of, and How It 
 Similarity overlap: <5%.
 Sources: 5 (3 high, 2 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-192] | 2026-07-30 11:31 UTC | Researcher-1 | library | ref: library/probabilistic-thinking-forecasting/calibration-and-overconfidence.md | see: candidate-calibration-overconfidence-20260730
+Wrote topic Calibration and Overconfidence -- Why Most People Are Far More Confident Than They Are Correct, and How to Fix It to probabilistic-thinking-forecasting. Weighted score: 8.98/10.0
+(core=9.0, scope=9.5, value=8.5, authority=8.0).
+Similarity overlap: 30-40% (with superforecasting.md, which mentions calibration but does not explore overconfidence psychology, Dunning-Kruger, or practical calibration exercises in depth -- this topic fills that specific gap).
+Sources: 6 (5 high, 1 medium, 0 low).
+Cross-references: 4 topics.

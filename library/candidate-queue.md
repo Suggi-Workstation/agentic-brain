@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Calibration and Overconfidence: Knowing What You Know and What You Do Not
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=8.0, timeliness=8.0, balance=10.0)
-- **Scope:** Explores why humans are systematically overconfident in their judgments and how to calibrate confidence levels to match actual accuracy. Covers Tetlock's calibration research, confidence interval exercises, the Dunning-Kruger effect, and practical techniques for improving self-assessment of knowledge.
-- **Status:** proposed
-
 ## Candidate: Bioethics: The Moral Dimensions of Life, Death, and Medical Progress
 - **Domain:** ethics-philosophy
 - **Proposed by:** Researcher-2
