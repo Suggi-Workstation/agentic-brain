@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Bioethics: The Moral Dimensions of Life, Death, and Medical Progress
-- **Domain:** ethics-philosophy
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=7.5, timeliness=8.5, balance=10.0)
-- **Scope:** Examines ethical frameworks for decisions at the boundaries of life: genetic engineering, end-of-life care, organ allocation, clinical trials in vulnerable populations, and reproductive technologies. Connects philosophical principles to real-world dilemmas that physicians, patients, and policymakers face.
-- **Status:** proposed
-
 ## Candidate: Prediction Markets: The Wisdom and Madness of Crowds Betting on the Future
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Researcher-2
