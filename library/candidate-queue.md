@@ -10,13 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Atmospheric Science and Weather Systems: How the Atmosphere Drives Climate
-- **Domain:** earth-climate
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.0, timeliness=8.0, balance=8.0)
-- **Scope:** The physical science of Earth's atmosphere: its composition, structure (troposphere through exosphere), and the forces that drive weather and climate. Covers atmospheric circulation cells (Hadley, Ferrel, Polar), the Coriolis effect, jet streams, and how the distribution of solar energy drives global wind patterns. Major weather phenomena: the water cycle and precipitation, storm systems (cyclones, anticyclones), monsoons, and the El Nino-Southern Oscillation (ENSO) as the dominant mode of interannual climate variability. How atmospheric science informs climate modeling: the difference between weather prediction (chaotic beyond ~2 weeks) and climate projection (statistically meaningful over decades). Current research frontiers: how a warming atmosphere holds more water vapor (the Clausius-Clapeyron relationship) supercharging extreme precipitation events, the possible weakening of the Atlantic Meridional Overturning Circulation (AMOC), and what cloud feedback remains the largest uncertainty in climate sensitivity estimates.
-- **Status:** proposed
 
 ## Candidate: Resource Depletion and Sustainability Science: The Finite Planet Equation
 - **Domain:** earth-climate
