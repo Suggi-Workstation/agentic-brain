@@ -11,13 +11,6 @@
 -->
 
 
-## Candidate: Resource Depletion and Sustainability Science: The Finite Planet Equation
-- **Domain:** earth-climate
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=8.0)
-- **Scope:** The science and economics of natural resource limits, from peak oil and mineral scarcity to freshwater depletion, topsoil loss, and fisheries collapse. Covers the framework of planetary boundaries (Rockstrom et al., 2009/2015) identifying nine Earth-system processes with quantified safe operating limits, including climate change, biodiversity loss, nitrogen and phosphorus cycles, freshwater use, and land-system change. The rebuttal from technological optimists: past predictions of resource exhaustion (Malthus, The Limits to Growth, peak oil) have been repeatedly wrong because they underestimated substitution, efficiency gains, and price-driven innovation. The nuanced synthesis: which resources are genuinely finite (phosphorus has no substitute for agriculture, helium escapes to space once used) vs which are "depletable but not exhaustible" at any plausible price. The circular economy as an operational response: designing out waste, keeping materials in use, and regenerating natural systems. For investors: which resource constraints create durable pricing power for producers and which are solved by a single technological breakthrough.
-- **Status:** proposed
 
 ## Candidate: Material Culture and Archaeology: What Objects Reveal About Past Societies
 - **Domain:** anthropology
