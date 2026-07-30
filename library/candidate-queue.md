@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Cell Biology: The Fundamental Unit of Life
-- **Domain:** science
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** Covers the structure and function of cells, organelles, membrane transport, cell signaling, mitosis, and programmed cell death. Explains how the eukaryotic cell emerged through endosymbiosis and why understanding cell biology is foundational to all of medicine and biotechnology.
-- **Status:** proposed
-
 ## Candidate: Cosmology: The Big Bang, Dark Matter, and the Fate of the Universe
 - **Domain:** science
 - **Proposed by:** Researcher-2
