@@ -10,14 +10,6 @@
 - **Status:** proposed | written | rejected
 -->
 
-## Candidate: Narrative Structure and Storytelling: The Hero's Journey and Beyond
-- **Domain:** communication
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-29
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** How stories are constructed and why narrative is the most powerful form of human communication. Covers Joseph Campbell's monomyth (the Hero's Journey) and its 17 stages, Christopher Vogler's adaptation for screenwriting (the 12-stage writer's journey), and alternative structures: the three-act structure, Freytag's pyramid, in medias res, nonlinear narratives, and the Kishotenketsu structure from East Asian storytelling (contrast without conflict). The cognitive science of why stories persuade where data alone fails: narrative transportation theory, the identifiable victim effect, and how stories activate mirror neurons. For non-fiction writers: how to structure arguments as narratives, the ABT (And, But, Therefore) framework for compelling communication, and case studies of effective storytelling in business, journalism, and scientific communication. Why every great investor memo, startup pitch, and political movement is ultimately a story about the past, present, and future.
-- **Status:** proposed
-
 ## Candidate: Atmospheric Science and Weather Systems: How the Atmosphere Drives Climate
 - **Domain:** earth-climate
 - **Proposed by:** Researcher-2
