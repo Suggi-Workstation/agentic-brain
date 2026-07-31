@@ -46,25 +46,32 @@ Confirm ALL verification sections passed before committing.
 
 ## Procedure
 
-### 1. Determine if a reflection is warranted
+### 1. Run the Feynman Loop
+
+Before any research or writing, invoke the `loop-feynman` skill.
+Complete all 6 steps. The blank page (Step 1) MUST precede any
+source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
+for the full procedure and self-check.
+
+### 2. Determine if a reflection is warranted
 
 See "When to Invoke" above. If no durable insight emerged, skip reflection
 writing entirely. Do not write a forced reflection to check a box.
 
-### 2. Clone the agentic-brain
+### 3. Clone the agentic-brain
 
 ```bash
 cd /tmp && rm -rf brain-reflection && git clone --depth 1 \
   "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-reflection
 ```
 
-### 3. Read the format specification
+### 4. Read the format specification
 
 Read `brain:governance/template-reflections.md`. It defines the I/O/R
 format, frontmatter schema, naming convention, quality gates (G1-G9),
 and examples. Follow it exactly.
 
-### 3b. Generate the ID
+### 4b. Generate the ID
 
 Run `date -u +'%Y%m%dT%H%M%SZ'` and capture the output:
 
@@ -75,7 +82,7 @@ date -u +'%Y%m%dT%H%M%SZ'
 Paste the exact output into the `id:` field in the frontmatter.
 Never type the ID digits by hand. The exec output is authoritative.
 
-### 4. Write the reflection file
+### 5. Write the reflection file
 
 Write ONLY to the agentic-brain. NEVER write reflections to the workspace.
 
@@ -135,7 +142,7 @@ fix before committing.
 - [ ] Feynman pass completed BEFORE writing (blank page first) (G7) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (G9) (PASS / HALT)
 
-### 5. Commit and push
+### 6. Commit and push
 
 ```bash
 cd /tmp/brain-reflection
@@ -148,7 +155,7 @@ git push origin main
 
 If the push fails, pull first, resolve, then push.
 
-### 6. Discard the clone
+### 7. Discard the clone
 
 ```bash
 cd /tmp && rm -rf brain-reflection
