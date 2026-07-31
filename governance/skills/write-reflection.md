@@ -1,15 +1,15 @@
 ---
 name: write-reflection
-description: "Write a reflection (IOR): Idea-Opinion-Reflection format with quality gates G1-G9, one actionable change, and cross-links. Use when asked to write a reflection, write an IOR, reflect on a topic, or capture a durable insight."
+description: "Write a reflection (reflection): Idea-Opinion-Reflection format with quality gates G1-G9, one actionable change, and cross-links. Use when asked to write a reflection, write a reflection, reflect on a topic, or capture a durable insight."
 user-invocable: true
 disable-model-invocation: false
 ---
 
-# IOR Writing
+# Reflection Writing
 
 ## What This Skill Does
 
-Guides writing a reflection (IOR) to the agentic-brain. Procedure steps
+Guides writing a reflection (reflection) to the agentic-brain. Procedure steps
 cover the mechanics (clone, write, commit, discard). Format verification
 checkboxes cover correctness (frontmatter, body structure, quality gates, output). For the
 full format specification with examples and anti-patterns, read
@@ -17,7 +17,7 @@ full format specification with examples and anti-patterns, read
 
 ## When to Invoke
 
-Invoke when the task involves writing or updating an IOR. An IOR is
+Invoke when the task involves writing or updating a reflection. An reflection is
 warranted when a session produces a durable insight:
 
 - The Feynman Loop revealed a gap you did not know you had.
@@ -27,7 +27,7 @@ warranted when a session produces a durable insight:
 - A structural change was made that other agents should know about.
 
 Skip when the session produced only logs (memory/YYYY-MM-DD.md), status
-updates, or insights already captured in an existing IOR (update the
+updates, or insights already captured in an existing reflection (update the
 existing one instead -- see template versioning rules).
 
 ## Final Self-Check -- HARD GATE
@@ -40,22 +40,22 @@ Confirm ALL verification sections passed before committing.
 - [ ] Quality Gates Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
 - [ ] Version History Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
 - [ ] File Output Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
-- [ ] `template-reflections.md` Checklist: all items confirmed PASS (for new IORs)  (PASS / HALT)
+- [ ] `template-reflections.md` Checklist: all items confirmed PASS (for new reflections)  (PASS / HALT)
 - [ ] Committed and pushed: changes pushed to origin main (PASS / HALT)
 - [ ] Discarded clone: temporary directory removed from /tmp/ (PASS / HALT)
 
 ## Procedure
 
-### 1. Determine if an IOR is warranted
+### 1. Determine if a reflection is warranted
 
-See "When to Invoke" above. If no durable insight emerged, skip IOR
-writing entirely. Do not write a forced IOR to check a box.
+See "When to Invoke" above. If no durable insight emerged, skip reflection
+writing entirely. Do not write a forced reflection to check a box.
 
 ### 2. Clone the agentic-brain
 
 ```bash
-cd /tmp && rm -rf brain-ior && git clone --depth 1 \
-  "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-ior
+cd /tmp && rm -rf brain-reflection && git clone --depth 1 \
+  "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-reflection
 ```
 
 ### 3. Read the format specification
@@ -75,11 +75,11 @@ date -u +'%Y%m%dT%H%M%SZ'
 Paste the exact output into the `id:` field in the frontmatter.
 Never type the ID digits by hand. The exec output is authoritative.
 
-### 4. Write the IOR file
+### 4. Write the reflection file
 
-Write ONLY to the agentic-brain. NEVER write IORs to the workspace.
+Write ONLY to the agentic-brain. NEVER write reflections to the workspace.
 
-Path: `/tmp/brain-ior/reflections/YYYY-MM-DD_author_slug.md`
+Path: `/tmp/brain-reflection/reflections/YYYY-MM-DD_author_slug.md`
 
 - `YYYY-MM-DD`: local date of original publication. Never change on
   version updates.
@@ -110,7 +110,7 @@ fix before committing.
 - [ ] `## R -- Reflection` with `### Surprise (30%)`, `### Feel (30%)`, `### Learn (40%)` (G4) (PASS / HALT)
 - [ ] Surprise answers "I expected X, but Y happened" (PASS / HALT)
 - [ ] One actionable change: concrete, structural, another agent could execute (G5) (PASS / HALT)
-- [ ] Cross-links: at least 1 link to Library/insight/other IOR (G6) (PASS / HALT)
+- [ ] Cross-links: at least 1 link to Library/insight/other reflection (G6) (PASS / HALT)
 
 ### Quality Gates Sub-Checklist
 
@@ -119,7 +119,7 @@ fix before committing.
 - [ ] G3 (O Section Has a Spine): a clear position, not just description. Cites a confidence level (PASS / HALT)
 - [ ] G4 (R Section Has a Surprise): if nothing surprised you, the reflection is incomplete (PASS / HALT)
 - [ ] G5 (Actionable Change Is Concrete): not "be better" or "pay attention." Another agent could execute it from the description alone (PASS / HALT)
-- [ ] G6 (Cross-links Exist): at least one link to a Library topic, insight, or another IOR. (PASS / HALT)
+- [ ] G6 (Cross-links Exist): at least one link to a Library topic, insight, or another reflection. (PASS / HALT)
 - [ ] G7 (Feynman Pre-write): Feynman pass completed BEFORE writing (blank page first) (PASS / HALT)
 - [ ] G8 (Frontmatter Complete): all 7 fields present (name, id, tier, trigger, author, tags, links) (PASS / HALT)
 - [ ] G9 (Formatting Rules): ASCII-only, lowercase slugs/tags, hyphens not underscores (PASS / HALT)
@@ -131,14 +131,14 @@ fix before committing.
 ### File Output Sub-Checklist
 
 - [ ] File named: YYYY-MM-DD_author_slug.md (PASS / HALT)
-- [ ] Written ONLY to /tmp/brain-ior/reflections/ (NOT workspace) (PASS / HALT)
+- [ ] Written ONLY to /tmp/brain-reflection/reflections/ (NOT workspace) (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing (blank page first) (G7) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (G9) (PASS / HALT)
 
 ### 5. Commit and push
 
 ```bash
-cd /tmp/brain-ior
+cd /tmp/brain-reflection
 git add -A
 git diff --cached --stat
 git -c user.name="Ava" -c user.email="ava@suggi-workspace.dev" \
@@ -151,12 +151,12 @@ If the push fails, pull first, resolve, then push.
 ### 6. Discard the clone
 
 ```bash
-cd /tmp && rm -rf brain-ior
+cd /tmp && rm -rf brain-reflection
 ```
 
 ## Related
 
 - `brain:governance/template-reflections.md` -- full format, examples, anti-patterns, quality gates
-- `skills/loop-feynman/SKILL.md` -- Feynman Loop (produces material for IORs)
-- `skills/session-end/SKILL.md` -- session-end calls IOR writing when insight emerged
+- `skills/loop-feynman/SKILL.md` -- Feynman Loop (produces material for reflections)
+- `skills/session-end/SKILL.md` -- session-end calls reflection writing when insight emerged
 

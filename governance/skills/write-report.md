@@ -43,27 +43,34 @@ Confirm ALL verification sections passed before committing.
 
 ## Procedure
 
-### 1. Determine if a report is warranted
+### 1. Run the Feynman Loop
+
+Before any research or writing, invoke the `loop-feynman` skill.
+Complete all 6 steps. The blank page (Step 1) MUST precede any
+source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
+for the full procedure and self-check.
+
+### 2. Determine if a report is warranted
 
 A report is warranted when multi-step research produces structured
 findings that will be evaluated by another agent. The report must
 include methodology, negative results, and an evaluation history.
 
-### 2. Clone the agentic-brain
+### 3. Clone the agentic-brain
 
 ```bash
 cd /tmp && rm -rf brain-rpt && git clone --depth 1 \
   "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-rpt
 ```
 
-### 3. Read the format specification
+### 4. Read the format specification
 
 Read `brain:governance/template-reports.md`. It defines the
 Executive Summary-Research Question-Methodology-Findings-Discussion-
 Conclusion format, frontmatter schema (6 fields), quality gates
 (G1-G7), and examples. Follow it exactly.
 
-### 3b. Generate the ID
+### 4b. Generate the ID
 
 Run `date -u +'%Y%m%dT%H%M%SZ'` and capture the output:
 
@@ -74,7 +81,7 @@ date -u +'%Y%m%dT%H%M%SZ'
 Paste the exact output into the `id:` field in the frontmatter.
 Never type the ID digits by hand. The exec output is authoritative.
 
-### 4. Write the report file
+### 5. Write the report file
 
 Write ONLY to the agentic-brain. NEVER write reports to the workspace.
 
@@ -109,6 +116,7 @@ fix before committing.
 
 ### Quality Gates Sub-Checklist
 
+- [ ] Feynman Loop completed: blank page before research, all 6 steps confirmed (PASS / HALT)
 - [ ] G1 (Independently Evaluated): at least one independent evaluation, verdict APPROVE or APPROVE WITH CHANGES (PASS / HALT)
 - [ ] G2 (Executive Summary Stands Alone): a reader who only reads the executive summary gets the research question, the answer, the key evidence, and the confidence level (PASS / HALT)
 - [ ] G3 (Methodology Is Reproducible): another agent could reproduce the research approach from the methodology section alone. Sources have retrieval dates. Tools and parameters are named (PASS / HALT)
@@ -127,7 +135,7 @@ fix before committing.
 - [ ] Written ONLY to /tmp/brain-rpt/research/reports/ (NOT workspace) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (G7) (PASS / HALT)
 
-### 5. Commit and push
+### 6. Commit and push
 
 ```bash
 cd /tmp/brain-rpt
@@ -140,7 +148,7 @@ git push origin main
 If the push fails, pull first, resolve, then push.
 ```
 
-### 6. Discard the clone
+### 7. Discard the clone
 
 ```bash
 cd /tmp && rm -rf brain-rpt
@@ -150,4 +158,5 @@ cd /tmp && rm -rf brain-rpt
 
 - `brain:governance/template-reports.md` -- full format, examples, quality gates
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (reports require evaluation, G1)
+- `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
 - `skills/write-reflection/SKILL.md` -- reflection writing (research produces IORs)

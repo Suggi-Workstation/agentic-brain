@@ -43,26 +43,33 @@ Confirm ALL verification sections passed before committing.
 
 ## Procedure
 
-### 1. Determine if a proposal is warranted
+### 1. Run the Feynman Loop
+
+Before any research or writing, invoke the `loop-feynman` skill.
+Complete all 6 steps. The blank page (Step 1) MUST precede any
+source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
+for the full procedure and self-check.
+
+### 2. Determine if a proposal is warranted
 
 A proposal is warranted when a structural change needs approval before
 implementation: new gates, architecture changes, policy updates,
 process additions. The problem must be specific and evidence-backed.
 
-### 2. Clone the agentic-brain
+### 3. Clone the agentic-brain
 
 ```bash
 cd /tmp && rm -rf brain-prop && git clone --depth 1 \
   "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-prop
 ```
 
-### 3. Read the format specification
+### 4. Read the format specification
 
 Read `brain:governance/template-proposals.md`. It defines the
 Problem-Solution-Impact format with Approval Gate, frontmatter schema
 (6 fields), quality gates (G1-G7), and examples. Follow it exactly.
 
-### 3b. Generate the ID
+### 4b. Generate the ID
 
 Run `date -u +'%Y%m%dT%H%M%SZ'` and capture the output:
 
@@ -73,7 +80,7 @@ date -u +'%Y%m%dT%H%M%SZ'
 Paste the exact output into the `id:` field in the frontmatter.
 Never type the ID digits by hand. The exec output is authoritative.
 
-### 4. Write the proposal file
+### 5. Write the proposal file
 
 Write ONLY to the agentic-brain. NEVER write proposals to the workspace.
 
@@ -105,6 +112,7 @@ fix before committing.
 
 ### Quality Gates Sub-Checklist
 
+- [ ] Feynman Loop completed: blank page before research, all 6 steps confirmed (PASS / HALT)
 - [ ] G1 (Problem Is Specific): specific problem cited, so that a reader understand what is wrong and why it matters (PASS / HALT)
 - [ ] G2 (Solution Is Concrete): another agent could implement it from the description alone, no hand-waving (PASS / HALT)
 - [ ] G3 (Impact Is Estimated): positive impact, risk assessment, and cost estimate are all addressed. At minimum: one sentence each (PASS / HALT)
@@ -123,7 +131,7 @@ fix before committing.
 - [ ] Written ONLY to /tmp/brain-prop/research/proposals/ (NOT workspace) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (G7) (PASS / HALT)
 
-### 5. Commit and push
+### 6. Commit and push
 
 ```bash
 cd /tmp/brain-prop
@@ -136,7 +144,7 @@ git push origin main
 If the push fails, pull first, resolve, then push.
 ```
 
-### 6. Discard the clone
+### 7. Discard the clone
 
 ```bash
 cd /tmp && rm -rf brain-prop
@@ -146,4 +154,5 @@ cd /tmp && rm -rf brain-prop
 
 - `brain:governance/template-proposals.md` -- full format, examples, quality gates
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (proposals get evaluated)
+- `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
 - AGENTS.md approval flow -- proposals require Suggi approval

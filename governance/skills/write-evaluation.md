@@ -43,27 +43,34 @@ Confirm ALL verification sections passed before committing.
 
 ## Procedure
 
-### 1. Determine if an evaluation is warranted
+### 1. Run the Feynman Loop
+
+Before any research or writing, invoke the `loop-feynman` skill.
+Complete all 6 steps. The blank page (Step 1) MUST precede any
+source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
+for the full procedure and self-check.
+
+### 2. Determine if an evaluation is warranted
 
 An evaluation is warranted when another agent has produced a proposal,
 report, or insight that requires independent review. Confirm the
 decorrelation rule (G1): you are NOT the original author.
 
-### 2. Clone the agentic-brain
+### 3. Clone the agentic-brain
 
 ```bash
 cd /tmp && rm -rf brain-eval && git clone --depth 1 \
   "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-eval
 ```
 
-### 3. Read the format specification
+### 4. Read the format specification
 
 Read `brain:governance/template-evaluations.md`. It defines the
 Source-Criteria-Findings-Verdict format, frontmatter schema (7 fields
 including source), quality gates (G1-G8), and examples. Follow it
 exactly.
 
-### 3b. Generate the ID
+### 4b. Generate the ID
 
 Run `date -u +'%Y%m%dT%H%M%SZ'` and capture the output:
 
@@ -74,7 +81,7 @@ date -u +'%Y%m%dT%H%M%SZ'
 Paste the exact output into the `id:` field in the frontmatter.
 Never type the ID digits by hand. The exec output is authoritative.
 
-### 4. Write the evaluation file
+### 5. Write the evaluation file
 
 Write ONLY to the agentic-brain. NEVER write evaluations to the
 workspace.
@@ -110,6 +117,7 @@ fix before committing.
 
 ### Quality Gates Sub-Checklist
 
+- [ ] Feynman Loop completed: blank page before research, all 6 steps confirmed (PASS / HALT)
 - [ ] G1 (Different Agent): author != source author. Decorrelation rule must PASS (PASS / HALT)
 - [ ] G2 (Criteria Stated First): evaluation criteria are listed before findings begin (PASS / HALT)
 - [ ] G3 (Evidence Cited): every finding is backed by a specific reference. Quote the source, cite the line, link the file. No unsupported assertions about someone else's work (PASS / HALT)
@@ -129,7 +137,7 @@ fix before committing.
 - [ ] Written ONLY to /tmp/brain-eval/research/evaluations/ (NOT workspace) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (G8) (PASS / HALT)
 
-### 5. Commit and push
+### 6. Commit and push
 
 ```bash
 cd /tmp/brain-eval
@@ -142,7 +150,7 @@ git push origin main
 If the push fails, pull first, resolve, then push.
 ```
 
-### 6. Discard the clone
+### 7. Discard the clone
 
 ```bash
 cd /tmp && rm -rf brain-eval
@@ -151,5 +159,5 @@ cd /tmp && rm -rf brain-eval
 ## Related
 
 - `brain:governance/template-evaluations.md` -- full format, examples, quality gates
-- `skills/write-proposal/SKILL.md` -- proposal writing (proposals are evaluated)
+- `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
 - `skills/write-report/SKILL.md` -- report writing (reports require evaluation)

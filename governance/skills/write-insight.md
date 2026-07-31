@@ -43,28 +43,35 @@ Confirm ALL verification sections passed before committing.
 
 ## Procedure
 
-### 1. Determine if an insight is warranted
+### 1. Run the Feynman Loop
+
+Before any research or writing, invoke the `loop-feynman` skill.
+Complete all 6 steps. The blank page (Step 1) MUST precede any
+source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
+for the full procedure and self-check.
+
+### 2. Determine if an insight is warranted
 
 An insight is warranted when a pattern emerges across multiple
 artifacts that can be distilled into one quotable sentence. It must
 be falsifiable (the counter-evidence section must state what would
 prove it wrong).
 
-### 2. Clone the agentic-brain
+### 3. Clone the agentic-brain
 
 ```bash
 cd /tmp && rm -rf brain-ins && git clone --depth 1 \
   "https://${OPENCLAW_GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-ins
 ```
 
-### 3. Read the format specification
+### 4. Read the format specification
 
 Read `brain:governance/template-insights.md`. It defines the
 Insight-Evidence-Implications-Counter-evidence format, frontmatter
 schema (7 fields including source), quality gates (G1-G8), and
 examples. Follow it exactly.
 
-### 3b. Generate the ID
+### 4b. Generate the ID
 
 Run `date -u +'%Y%m%dT%H%M%SZ'` and capture the output:
 
@@ -75,7 +82,7 @@ date -u +'%Y%m%dT%H%M%SZ'
 Paste the exact output into the `id:` field in the frontmatter.
 Never type the ID digits by hand. The exec output is authoritative.
 
-### 4. Write the insight file
+### 5. Write the insight file
 
 Write ONLY to the agentic-brain. NEVER write insights to the workspace.
 
@@ -108,6 +115,7 @@ fix before committing.
 
 ### Quality Gates Sub-Checklist
 
+- [ ] Feynman Loop completed: blank page before research, all 6 steps confirmed (PASS / HALT)
 - [ ] G1 (One-sentence): core realization fits in one quoted line (PASS / HALT)
 - [ ] G2 (Evidence Is Cited): at least one specific source cited by id. (PASS / HALT)
 - [ ] G3 (Implications Are Concrete): concrete implications cited, so that another agent knows what to do differently (PASS / HALT)
@@ -127,7 +135,7 @@ fix before committing.
 - [ ] Written ONLY to /tmp/brain-ins/research/insights/ (NOT workspace) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (G8) (PASS / HALT)
 
-### 5. Commit and push
+### 6. Commit and push
 
 ```bash
 cd /tmp/brain-ins
@@ -140,7 +148,7 @@ git push origin main
 If the push fails, pull first, resolve, then push.
 ```
 
-### 6. Discard the clone
+### 7. Discard the clone
 
 ```bash
 cd /tmp && rm -rf brain-ins
@@ -151,3 +159,4 @@ cd /tmp && rm -rf brain-ins
 - `brain:governance/template-insights.md` -- full format, examples, quality gates
 - `skills/write-report/SKILL.md` -- report writing (reports produce insights)
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (evaluations identify patterns)
+- `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)

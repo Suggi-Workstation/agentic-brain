@@ -46,7 +46,14 @@ Confirm ALL verification sections passed before committing.
 
 ## Procedure
 
-### 1. Run the decision flow
+### 1. Run the Feynman Loop
+
+Before any research or writing, invoke the `loop-feynman` skill.
+Complete all 6 steps. The blank page (Step 1) MUST precede any
+source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
+for the full procedure and self-check.
+
+### 2. Run the decision flow
 
 Before building, confirm a skill is the right solution. HALT if any
 check says "no skill needed."
@@ -59,13 +66,13 @@ check says "no skill needed."
 - Governance template defines the format? -> reference it, do not
   duplicate (R8, G5).
 
-### 2. Read the skill specification
+### 3. Read the skill specification
 
 Read `brain:governance/template-skills.md`. It defines frontmatter
 schema, body structure, naming convention, quality gates (G1-G8), and
 the 14-item Skill Checklist.
 
-### 2b. Know the ID rule (for write-X skills)
+### 3b. Know the ID rule (for write-X skills)
 
 If the skill being built is a write-X skill, the builder MUST include
 both a procedure step AND a Format Verification item for ID generation.
@@ -75,7 +82,7 @@ human-rounded timestamps (ending in 000000Z). These are permanent,
 unfixable errors -- the verification gate must catch them.
 Never type an ID by hand.
 
-### 3. Create the directory and design the frontmatter
+### 4. Create the directory and design the frontmatter
 
 Create the skill directory:
 
@@ -100,7 +107,7 @@ the schema from `brain:governance/template-skills.md`:
 
 Output destination: `~/.openclaw/workspace/skills/<skill-name>/SKILL.md`.
 
-### 4. Build the SKILL.md body
+### 5. Build the SKILL.md body
 
 Write the body sections in `~/.openclaw/workspace/skills/<skill-name>/SKILL.md`
 following the hybrid pattern from template-skills.md. The standard
@@ -132,7 +139,7 @@ never inline format specifications (G5).
 
 Output destination: `~/.openclaw/workspace/skills/<skill-name>/SKILL.md`.
 
-### 5. Test the skill
+### 6. Test the skill
 
 Run these checks from the skill directory:
 
@@ -157,14 +164,14 @@ If the skill is a protocol skill (AGENTS.md triggered), also verify
 step 6 was completed -- the AGENTS.md gate instruction exists and
 references the skill by name.
 
-### 6. Update AGENTS.md (protocol skills only)
+### 7. Update AGENTS.md (protocol skills only)
 
 If the skill is auto-triggered by AGENTS.md, add a `-- HARD GATE`
 gate instruction referencing it. Without this, protocol skills are
 orphaned. Skip for user-invocable skills -- description matching or
 slash command is sufficient.
 
-### 7. Write an IOR if a durable insight emerged
+### 8. Write an IOR if a durable insight emerged
 
 If building this skill surfaced a new pattern not yet in template-skills.md,
 write an IOR. Propose updating the template if the insight is general.
@@ -206,6 +213,7 @@ fix before committing.
 
 - [ ] G5 (No Duplicate Governance): no format definitions, quality gates, or checklists duplicated from brain template. Uses `brain:` references (PASS / HALT)
 - [ ] Self-Check: `-- HARD GATE` header, confirms verification sections by name, does not duplicate individual items (PASS / HALT)
+- [ ] Feynman Loop completed: blank page before research, all 6 steps confirmed (PASS / HALT)
 - [ ] Related: links to brain governance template + related skills (PASS / HALT)
 - [ ] AGENTS.md updated with `-- HARD GATE` instruction (protocol skills only) (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
@@ -225,4 +233,5 @@ git push origin main
 
 - `brain:governance/template-skills.md` -- full skill specification, frontmatter schema, quality gates G1-G8, 14-item Skill Checklist
 - `skills/write-reflection/SKILL.md` -- example of hybrid format for write-X skills
+- `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
 - `skills/preflight/SKILL.md` -- example of a well-structured protocol skill
