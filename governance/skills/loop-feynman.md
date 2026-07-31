@@ -73,6 +73,9 @@ Fill every gap identified in Step 2. Use:
 - `memory_search` for prior work, decisions, and context in memory
 - Clone the agentic-brain and search for library topics, insights,
   and prior reflections that relate to this topic
+- `query-brain` skill for hybrid semantic + keyword search across
+  the indexed agentic-brain -- surface prior artifacts and
+  cross-reference them against your findings
 
 Cross-reference sources. Resolve contradictions -- if two sources
 disagree, investigate which one is correct and document why.
