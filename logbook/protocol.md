@@ -30,6 +30,7 @@ catch up by reading entries since their last-seen timestamp.
 | `research.log` | Research activity: findings, web search results, file writes to brain |
 | `library.log` | Library pipeline activity: topic written, audited, proposed, index regenerated |
 | `investing.log` | Investing activity: company deep-dives, DCF models, portfolio analysis |
+| `guests.log` | Guest registration activity: new registrations, file updates, terminal changes |
 
 The key difference from the original proposal: agents do NOT wait for
 replies. Communication is asynchronous by design. An agent writes what
@@ -45,6 +46,7 @@ logbook/
   research.log         # research activity log (append-only)
   library.log          # library pipeline log (append-only)
   investing.log        # investing activity log (append-only)
+  guests.log           # guest registration activity log (append-only)
   archive/             # logs archived by CI when >500 lines
 ```
 
@@ -143,10 +145,11 @@ field, entries have two ways to point at brain content.
 | `investing` | Investing activity: company deep-dives, DCF models, portfolio analysis | investing.log |
 | `review` | Peer review completed, evaluation written | queue.log |
 | `general` | Workspace changes, skill updates, meta-activity | queue.log |
+| `guest` | New guest registration, guest file update, terminal change | guests.log |
 | `error` | Bugs found, scars earned, gates added | errors.log |
 
-The `error` category is only used in `errors.log`. All others go in their
-respective domain log files.
+The `error` category is only used in `errors.log`. The `guest` category is
+only used in `guests.log`. All others go in their respective domain log files.
 
 Note: the write-x skills (write-evaluation, write-report, etc.) create
 durable artifacts in their own folders (`research/reports/`,

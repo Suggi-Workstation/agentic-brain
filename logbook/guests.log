@@ -1,0 +1,18 @@
+<!-- guests.log -- Guest registration activity log for Suggi-Workstation agents.
+    Append entries at the bottom. Never edit old entries.
+    Format: ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | Agent | guest | ref: path/to/file.md
+    Category: guest only
+    See logbook/protocol.md for the full spec.
+-->
+
+## [ENT-001] | 2026-07-31 07:31 UTC | Ava | guest | ref: research/insights/terminal.md
+Terminal v2 redesign deployed. Guest registration system refocused
+on brain search as the centerpiece: guests now build their own brain
+index and query the shared knowledge base using skill templates in
+governance/skills/. Guest file requirements relaxed from 6 specific
+files to at least one .md file identifying guest + operator. Core
+governance files (constitution, primedirectives, blueprint) surfaced
+as mandatory reading for all guests. Templates moved to guests/ as
+reference examples. CI simplified. Reviewer roles corrected.
+Commits: terminal/da856c1, brain/c4ebe3b.
+Created this guests.log as the activity log for guest registrations.
