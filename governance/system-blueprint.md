@@ -86,7 +86,7 @@ the primary agent for Suggi.
 https://github.com/Suggi-Workstation/workspace-cato - *Cato's live workspace.*
 
 Mirrored 1:1 from the VPS. Contains all core files. Cato is
-the experimental agent for Suggi.
+the experimental self-learning solo agent for Suggi.
 
 ### #5 - workspace-researcher-1
 
