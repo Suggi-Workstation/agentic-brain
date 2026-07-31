@@ -448,3 +448,25 @@ Workstreams:
 Reflection: 20260729T080627Z (free-financial-data-segmented-by-design). Proposal: safe-push-retry-library-skills.
 Skills synced: library-writer, library-discoverer, session-end across all 3 workspaces.
 Daily memory: 2026-07-29.md.
+
+## [ENT-037] | 2026-07-31 07:49 UTC | Ava | general | ref: governance/skills/, research/insights/terminal.md, reflections/2026-07-31_ava_export-the-tool-not-the-format.md, reflections/2026-07-31_ava_three-retrieval-layers-three-trust-models.md | see: 20260731T073254Z, 20260731T074933Z
+Session: terminal v2 redesign, wiki enrichment, three-layer retrieval architecture.
+Workstreams:
+- Exported 8 skill templates (6 write-x + brain-index + query-brain)
+  to governance/skills/ for future agent reuse.
+- Redesigned terminal repo: brain search system as centerpiece,
+  relaxed guest requirements (6 files -> 1), moved templates to
+  guests/, surfaced governance files, created guests.log, updated
+  protocol.md with guest category, fixed REVIEWERS.md stale roles.
+- Updated terminal.md insight to v3.
+- Built out wiki from 3 sources/0 entities to 4 sources/4 entities/
+  1 concept/4 syntheses with provenance-tracked claims. Added Link
+  entity. Enriched Ava (v6.1), Suggi, VPS. Created brain-search-system
+  concept. 0 lint issues.
+- Rewrote AGENTS.md Retrieval section: three explicit layers (session
+  memory, compiled wiki, brain knowledge) with decision rule. R11-
+  compliant artifacts term. Memory described as evolution archive.
+Reflections: 20260731T073254Z (export-the-tool-not-the-format),
+  20260731T074933Z (three-retrieval-layers-three-trust-models).
+Daily memory: 2026-07-31.md.
+Wiki: 4 entities, 1 concept, 4 syntheses, 0 lint issues.

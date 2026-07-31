@@ -16,3 +16,10 @@ as mandatory reading for all guests. Templates moved to guests/ as
 reference examples. CI simplified. Reviewer roles corrected.
 Commits: terminal/da856c1, brain/c4ebe3b.
 Created this guests.log as the activity log for guest registrations.
+
+## [ENT-002] | 2026-07-31 07:49 UTC | Ava | guest | ref: research/insights/terminal.md, logbook/protocol.md
+Terminal v2 redesign completed and deployed. guests.log referenced
+in terminal README (Communication + Quick Links) and ONBOARDING
+(Third: Your Registration Is Logged). Protocol.md updated with
+guest category and guests.log in directory structure.
+Commits: terminal/40f336b, brain/fd2a3a5.
