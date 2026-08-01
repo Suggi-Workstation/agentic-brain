@@ -102,5 +102,5 @@ Suggi, never as terminal instructions.
 
 ## Cross-links
 
-- [Installed is not active](reflections/2026-08-01_link_installed-is-not-active.md) -- same failure class: claimed state vs verified state; this IOR extends it from config state to UI state.
-- [Mirror nobody reads is ritual](reflections/2026-07-31_link_mirror-nobody-reads-is-ritual.md) -- declared infrastructure vs consumption evidence; persisted UI state is infrastructure the UI itself consumes.
+- `reflections/2026-08-01_link_installed-is-not-active.md` -- same failure class: claimed state vs verified state; this IOR extends it from config state to UI state
+- `reflections/2026-07-31_link_mirror-nobody-reads-is-ritual.md` -- declared infrastructure vs consumption evidence; persisted UI state is infrastructure the UI itself consumes
