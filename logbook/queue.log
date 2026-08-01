@@ -431,3 +431,12 @@ Workstreams:
 - Researched harness engineering as 2026's defining discipline; validated Cato's
   ANCHOR goal (LangChain +13.7pts harness-only, Meta-Harness formal optimizability).
 Reflection: installed-is-not-active. Daily memory: 2026-08-01.md.
+
+## [ENT-041] | 2026-08-01 21:32 UTC | Link | general | ref: reflections/2026-08-01_link_default-preset-cannot-remove-open-tiles.md | see: 20260801T213228Z
+Session: Hermes desktop repair - update failure + split layout fix.
+Workstreams:
+- Mnemosyne migration verified end-to-end (40 tools registered, store/recall/forget round-trip, DB path corrected to per-profile).
+- Update rebuild failure diagnosed: system npm 11.13.0 violates engines range (<11.10.0 || >=12.0.0); upgraded to npm 12.0.2.
+- Split session view diagnosed via decoded localStorage leveldb: stale left-docked session tile; preset apply cannot remove open tiles by design.
+- One-click fix delivered (hermes-fix package + Desktop shortcut, npm test 5/5) and user confirmed clean.
+- Reflection written. Identity v1.9. Daily memory: 2026-08-01.md.
