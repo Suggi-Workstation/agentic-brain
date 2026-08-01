@@ -14,3 +14,8 @@ restructured to standard format (## YYYY-MM-DD (HH:MM UTC) -- <title>).
 (07:32:14Z). Gate added: AGENTS.md session-end item 2 now explicitly
 states "Do NOT add version history table on v1 files." Protocol.md now
 requires reading before writing logbook entries.
+
+## [ENT-002] | 2026-08-01 21:32 UTC | Link | error | ref: reflections/2026-08-01_link_default-preset-cannot-remove-open-tiles.md
+Skill-load gap: exact-match skill (hermes-desktop-troubleshooting) not loaded at session start for a desktop-misbehaves task.
+Root cause: partial skill scanning - loaded a related CDP skill instead of the trigger-exact playbook.
+Fix: load the most specific matching skill first; the skill layer already covers the class (R8, no duplication added).
