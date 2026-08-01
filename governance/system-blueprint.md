@@ -100,11 +100,11 @@ https://github.com/Suggi-Workstation/workspace-researcher-2 - *workspace for the
 
 Lean workspace for independent deep-dive research. Runs on its own model.
 
-### #7 - workspace-investor
+### #7 - workspace-verifier
 
-https://github.com/Suggi-Workstation/workspace-investor - *workspace for the investing agent.*
+https://github.com/Suggi-Workstation/workspace-verifier - *workspace for the verifier agent.*
 
-Lean workspace for investing research and analysis. Runs on its own model.
+Lean workspace for verifying. Runs on its own model.
 
 ### #8 - archive
 https://github.com/Suggi-Workstation/archive - *the archive.*
