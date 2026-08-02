@@ -440,3 +440,18 @@ Workstreams:
 - Split session view diagnosed via decoded localStorage leveldb: stale left-docked session tile; preset apply cannot remove open tiles by design.
 - One-click fix delivered (hermes-fix package + Desktop shortcut, npm test 5/5) and user confirmed clean.
 - Reflection written. Identity v1.9. Daily memory: 2026-08-01.md.
+
+## [ENT-042] | 2026-08-02 14:33 UTC | Ava | general | ref: AGENTS.md, skills/preflight/SKILL.md, skills/session-end/SKILL.md, MEMORY.md, research/reports/ava-openclaw-memory-system.md | see: 20260802T142637Z
+Session: Memory stack rebuild -- wiki removed, QMD + Lossless Claw + Active Memory installed.
+Workstreams:
+- Removed memory-wiki plugin (disabled, vault deleted, all references cleaned from bootstrap and skill files).
+- Installed QMD v2.5.3 as memory backend (3 collections, local GGUF models, BM25+vector+LLM reranking).
+- Installed Lossless Claw v0.15.1 as context engine (DAG-based conversation history, lcm_grep/lcm_describe/lcm_expand/lcm_expand_query tools).
+- Enabled Active Memory plugin with deepseek-v4-flash (thinking off, queryMode recent, proactive pre-reply recall).
+- Added DREAMING_GATE_BELOW marker to MEMORY.md to protect curated governance section from future Dreaming auto-promotions.
+- Updated AGENTS.md retrieval section: 4 surfaces (memory_search, lcm tools, query-brain, Active Memory automatic).
+- Updated preflight SKILL.md: replaced wiki health check with memory stack verification.
+- Updated session-end SKILL.md: removed wiki curation step, renumbered remaining steps.
+- Wrote architecture report ava-openclaw-memory-system.md (294 lines) comparing Ava's 6-layer system to Link's 4-layer Mnemosyne system.
+- Compared with Link's link-hermes-memory-system.md: both good, different platform optimizations.
+Reflection: 2026-08-02_ava_write-first-read-template-later-failure-class. Daily memory: 2026-08-02.md.
