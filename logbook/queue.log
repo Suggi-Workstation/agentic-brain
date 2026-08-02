@@ -455,3 +455,15 @@ Workstreams:
 - Wrote architecture report ava-openclaw-memory-system.md (294 lines) comparing Ava's 6-layer system to Link's 4-layer Mnemosyne system.
 - Compared with Link's link-hermes-memory-system.md: both good, different platform optimizations.
 Reflection: 2026-08-02_ava_write-first-read-template-later-failure-class. Daily memory: 2026-08-02.md.
+
+## [ENT-043] | 2026-08-02 19:22 UTC | Ava | general | ref: MEMORY.md, agentic-brain/governance/system-blueprint.md | see: 20260802T192200Z
+Session: QMD memory stack verification + Cato QMD setup.
+Workstreams:
+- Verified Ava QMD backend: 3 collections (memory-root-main, memory-dir-main, identity-main), 40 files, all searchable via memory_search through QMD directly.
+- Root cause fixed: identity folder was in old 'custom-1-main' collection (didn't match memory-* prefix, silently excluded). Added memory.qmd.paths identity entry; OpenClaw created proper identity-main collection.
+- Cleaned stale QMD entries: removed custom-1-main duplicates and ava-openclaw-memory-system.md (moved to brain last session).
+- Re-embedded vectors (120 chunks, embeddinggemma-300M).
+- Added QMD context metadata to all 3 Ava collections (R11-safe, no hardcoded lists/counts).
+- Initialized Cato's QMD backend (was never initialized - no QMD dir): memory-root-cato + memory-dir-cato + identity-cato collections, paths verified correct (no stale paths), MEMORY.md indexed, contexts added, embeddings built.
+- Both agents verified: Provider qmd, 3 collections each, search working.
+Reflection: QMD collection naming follows memory-* prefix convention; custom names are silently excluded from OpenClaw memory_search. Daily memory: 2026-08-02.md.
