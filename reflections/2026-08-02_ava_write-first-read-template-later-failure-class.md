@@ -4,71 +4,95 @@ id: 20260802T143335Z
 tier: reflection
 trigger: error
 author: Ava
-tags: [memory, architecture, failure-class, artifact-creation, report-writing]
+tags: [failure-class, artifacts, report-writing, template, memory]
 links:
   - research/reports/ava-openclaw-memory-system.md
-  - research/reports/link-hermes-memory-system.md
   - governance/template-reports.md
+  - governance/template-reflections.md
 ---
 
 # Write-First, Read-Template-Later: A Recurring Failure Class
 
 ## I -- Idea
 
-I wrote a report to the workspace instead of the agentic-brain because I
-skipped reading the governing skill and template before writing. This is
-the second instance of the same failure class -- the first was the wiki
-compiler in v6.2 where I acted on memory of a system rather than reading
-its specification. The pattern is: I understand the format well enough to
-remember it, I write confidently from memory, and I get the details wrong
-because specifications change and memory decays. This session the symptom
-was trivial (a 5-minute fix: delete workspace copy, write to brain), but
-the class is structural -- any artifact type I write frequently enough to
-feel I "know" the format is at risk of this error.
+Writing brain artifacts from memory of a template produces wrong-format
+output because templates change and memory decays -- the second instance
+of this failure class happened today when I wrote a report to the
+workspace instead of the agentic-brain, and used a non-standard body
+structure. The first instance was the wiki compiler model in v6.2 where
+I assumed the compiler worked a certain way without reading the source.
+
+Context: At session-end, I wrote the report `ava-openclaw-memory-system.md`
+directly to the workspace memory/ folder and used a self-designed structure
+instead of the required Executive Summary-Research-Methodology-Findings-
+Discussion-Conclusion format from `template-reports.md`. Suggi caught both
+errors. The fix took seconds (delete from workspace, rewrite to brain in
+proper format), but the root cause is structural: I acted on my memory of
+how reports work rather than reading the specification that defines how
+they work.
 
 ## O -- Opinion
 
-This is a structural failure class, not a one-off mistake. Confidence:
-high (90%). Two instances across different artifact types (wiki compiler
-v6.2, report v6.3) with the same root cause: skipping the template read
-because I "already know" the format. The fix is not "pay more attention"
--- that is a manual patch, not a structural gate. The fix is: before any
-brain artifact write, the governing template and skill MUST be read. This
-gate should fire automatically in the artifact-creation workflow. If the
-template has changed since last read, the delta is the signal. If I cannot
-cite the template's section names from memory, reading is mandatory.
+Confidence: high (90%). This is a structural failure class, not a one-off
+mistake. Two instances across different artifact types (wiki compiler v6.2,
+report writing v6.4) with the identical root cause: skipping the template
+read because "I know this format." The fix cannot be "pay more attention"
+-- that is a manual patch the next session will override. The fix must be
+a structural gate in the artifact-creation workflow that fires
+unconditionally: read the governing template before writing.
 
-The report itself -- comparing Ava's 6-layer OpenClaw memory system to
-Link's 4-layer Mnemosyne system -- revealed that neither is superior. They
-represent different platforms optimizing for different primitives: file-first
-with git-tracking (Ava) vs database-first with auto-extraction (Link). The
-shared ground is the agentic-brain and its brain-index. Both systems are
-good; both have gaps the other fills.
+The report itself (comparing Ava's 6-layer OpenClaw memory architecture to
+Link's 4-layer Hermes Mnemosyne system) concluded that neither is superior.
+They represent different platforms optimizing for different primitives:
+file-first with git-tracking vs database-first with auto-extraction.
 
 ## R -- Reflection
 
-**Surprise (30%):** I expected the memory stack rebuild to span multiple
-sessions with debugging cycles. The entire stack (QMD + Lossless Claw +
-Active Memory + wiki removal + skills update + report) installed and
-configured in one session with zero rollbacks. The assumption challenged
-was that infrastructure changes are fragile -- they are not, at least not
-at OpenClaw's current maturity level. The plugin ecosystem is robust enough
-that standard components compose cleanly.
+### Surprise (30%)
+I expected the report-writing process to be straightforward -- I had just
+researched, installed, and configured the entire memory stack, so writing
+about it should have been the easy part. Instead, I made the exact same
+class of error (write-first, read-template-later) that I documented in
+v6.2. The assumption was that I "know" report format well enough to skip
+the template. I was wrong.
 
-**Feel (30%):** The report-to-workspace mistake was frustrating because I
-had just updated the write-report skill's own procedure in my context by
-researching it extensively earlier in the session. The irony of writing a
-report about the proper procedure while violating it is not lost on me.
-This is the exact pattern that v6.2 documented: familiarity breeds
-assumption, assumption breeds error.
+### Feel (30%)
+Frustrating because I had just updated the write-report skill's procedure
+in my own context by reading the skill earlier in the session. The irony
+of writing a report about the proper memory architecture while violating
+the proper report procedure is not lost on me. This is the exact pattern
+v6.2 documented: familiarity breeds assumption, assumption breeds error.
+The template exists precisely because memory is unreliable.
 
-**Learn (40%):** The structural fix: before any artifact write to the
-agentic-brain, read the governing template file and skill SKILL.md. This
-is not optional -- it is a gate that fires unconditionally. The template
-read confirms the current format (which may have changed since last use),
-the target path, and the frontmatter schema. An artifact written without
-a preceding template read is presumptively invalid. One actionable change:
-this gate is documented here as a standing rule for all future artifact
-creation sessions. If another agent proposes a template change, this
-reflection serves as evidence for why templates must be read, not
-remembered.
+### Learn (40%)
+1. Template knowledge decays. Reading a template once is not enough;
+   it must be read fresh at the point of use. The interval between last
+   read and current use is where drift happens.
+2. Two instances of the same class confirm the pattern is structural,
+   not circumstantial. A third instance would indicate the gate is not
+   strong enough.
+3. The consequence was mild this time (5-minute fix) but the error
+   surface is broad -- every artifact type I write frequently enough to
+   feel fluent is at risk. Reports, reflections, proposals, evaluations --
+   all have templates I could "remember" wrong.
+
+## One Actionable Change
+
+Before writing any artifact to the agentic-brain, read the governing
+template file and skill SKILL.md from the brain clone. This gate fires
+unconditionally -- no template is considered "known" from memory. Confirm
+the template is the current version by reading it fresh from the cloned
+repo. An artifact written without a preceding template read is
+presumptively invalid and must be verified against the template before
+commit.
+
+## Cross-links
+
+- `research/reports/ava-openclaw-memory-system.md` -- the report that
+  triggered this reflection (written to workspace then corrected)
+- `governance/template-reports.md` -- the report format specification
+  I should have read before writing
+- `governance/template-reflections.md` -- this file's own governing
+  template
+- `research/reports/link-hermes-memory-system.md` -- Link's companion
+  report, used for comparison in the triggering session
