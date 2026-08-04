@@ -1,6 +1,6 @@
 ---
 name: free-financial-data-segmented-by-design
-id: 20260729T080627Z
+id: 20260729T080628Z
 tier: reflection
 trigger: research
 author: Ava

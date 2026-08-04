@@ -1,6 +1,6 @@
 ---
 name: loop-engineering
-id: 20260717T201138Z
+id: 20260717T201142Z
 tier: report
 author: Ava
 tags: [loop-engineering, rlhf, self-improvement, agentic-loops, alignment, training-loops]

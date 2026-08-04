@@ -1,6 +1,6 @@
 ---
 name: template-proposals
-id: 20260618T120016Z
+id: 20260618T120015Z
 tier: core-template
 lock: approval-required
 approved_by: Suggi

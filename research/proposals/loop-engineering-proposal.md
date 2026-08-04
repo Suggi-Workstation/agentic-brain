@@ -1,6 +1,6 @@
 ---
 name: loop-engineering-proposal
-id: 20260717T201138Z
+id: 20260717T201141Z
 tier: proposal
 author: Ava
 tags: [loop-engineering, architecture, automation, quality-loops, alignment]
