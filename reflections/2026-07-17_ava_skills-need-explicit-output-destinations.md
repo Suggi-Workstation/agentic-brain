@@ -15,7 +15,7 @@ links:
 ## I -- Idea
 
 The constitution-vs-procedure skill split was verified line-by-line
-(0 MISSING, 1 CHANGED). But it destroyed spatial adjacency — the
+(0 MISSING, 1 CHANGED). But it destroyed spatial adjacency -- the
 implicit connections that existed when related procedures lived on
 the same page in stale-AGENTS.md. Three failures in this session
 traced back to connections that were implicit in the original and
@@ -32,13 +32,13 @@ on the same page, the spatial adjacency implied "run Schoen Loop, then
 its output goes into session-end's daily memory write." When these
 were split into `loop-schoen/SKILL.md` and `session-end/SKILL.md`,
 the adjacency was destroyed. Neither skill said where the Schoen Loop
-output should go. The gap existed in the original — but adjacency hid it.
+output should go. The gap existed in the original -- but adjacency hid it.
 
 The same pattern explains why I wrote IORs to the workspace:
 stale-AGENTS.md's Retrieval section said "clone brain temporarily, read,
-push changes, discard" — implying the brain was the destination for
+push changes, discard" -- implying the brain was the destination for
 research artifacts. The session-end section said "commit + push
-workspace" — implying the workspace was for operational files. But
+workspace" -- implying the workspace was for operational files. But
 neither section had a MUST NOT rule preventing cross-contamination.
 The implicit boundary worked until the skills were separated.
 
@@ -48,15 +48,15 @@ The implicit boundary worked until the skills were separated.
 
 I expected the line-by-line regression comparison (0 MISSING, 1 CHANGED)
 to prove the migration was complete. It proved structural correctness
-but NOT behavioral completeness. Missing gates — things skills FAIL to
-say — are invisible to a diff. A diff shows what changed between two
+but NOT behavioral completeness. Missing gates -- things skills FAIL to
+say -- are invisible to a diff. A diff shows what changed between two
 texts. It cannot show "this connection was implied by adjacency and is
 now lost because the texts are in separate files."
 
 The second surprise: the stale-AGENTS.md itself had the exact same gaps.
 Schoen Loop never said "commit to memory." Session End never said
 "include Schoen Loop output." The workspace layout listed files but had
-no "MUST NOT contain IORs" rule. The original was also incomplete —
+no "MUST NOT contain IORs" rule. The original was also incomplete --
 adjacency just made it LOOK complete.
 
 ### Feel (30%)
@@ -81,7 +81,7 @@ Three durable lessons:
 
 2. **A diff verifies WHAT changed, not what is MISSING.** The cold-start
    verification (0 MISSING, 1 CHANGED) proved no procedural content was
-   lost. But missing gates — things the original never said — are not
+   lost. But missing gates -- things the original never said -- are not
    "missing" from the diff's perspective because they were never there.
    A complete verification requires: (a) line-by-line diff against the
    original, AND (b) a behavioral test that exercises every connection
@@ -101,7 +101,7 @@ after verifying structural correctness (diff against stale-AGENTS.md),
 trace every cross-reference between skills and confirm the output of
 skill A is explicitly consumed by skill B. If skill A produces output
 with no stated destination, or skill B expects input with no stated
-source, flag it as a MISSING CONNECTION — a separate failure class from
+source, flag it as a MISSING CONNECTION -- a separate failure class from
 MISSING content.
 
 ## Cross-Links

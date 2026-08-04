@@ -84,9 +84,9 @@ knowing R11 and applying R11 are not the same operation.
 
 4. **The pattern for R11 compliance is always the same.** Replace
    the hardcoded value with a pointer to the authoritative source.
-   Count → "all" (derived live). Number → variable name (N). Item
-   reference → section name. Date → remove (git log has it).
-   Baseline → "run the eval for current."
+   Count -> "all" (derived live). Number -> variable name (N). Item
+   reference -> section name. Date -> remove (git log has it).
+   Baseline -> "run the eval for current."
 
 ## One Actionable Change
 

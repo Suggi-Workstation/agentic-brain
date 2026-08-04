@@ -143,11 +143,11 @@ scoring below this value.
 
   Re-read: `=1 - PERCENTRANK.EXC(universe_V, V)`. If MC/EBIT is
   very low (cheap), its PERCENTRANK is low (few companies below it).
-  1 - low_rank = HIGH score. So LOW MC/EBIT → HIGH cheapness score.
+  1 - low_rank = HIGH score. So LOW MC/EBIT -> HIGH cheapness score.
   Correct: the inversion makes "cheap" companies score higher.
 
   The 100,000 sentinel (unprofitable companies) gets a very high
-  percentile rank → `1 - near_1.0` = near-zero cheapness score.
+  percentile rank -> `1 - near_1.0` = near-zero cheapness score.
   Effectively excluded.
 
 **Total Score:** Weighted sum: 25% Growth + 25% ROIC + 50% Cheapness.

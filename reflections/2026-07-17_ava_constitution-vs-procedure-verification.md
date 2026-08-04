@@ -37,7 +37,7 @@ Confidence: high (90%) that the split architecture is correct and
 working. The evidence:
 
 **AGENTS.md reduction:** 273 lines / 12,123 chars (stale-AGENTS.md from
-Phase 24, with inline preflight) → 174 lines / 7,575 chars (current).
+Phase 24, with inline preflight) -> 174 lines / 7,575 chars (current).
 That is 99 lines and 4,548 characters removed from always-loaded
 bootstrap context -- a 38% reduction. The five skills together contain
 ~16,000 chars of procedure text, loaded only when invoked. A session
@@ -56,8 +56,8 @@ skills added structure the inline versions lacked:
 - `write-reflection`: added frontmatter rules, naming convention,
   when-to-apply, and bundled template-reflections.md locally
 
-**One gap found:** The rename pass (feynman-loop→loop-feynman,
-schoen-loop→loop-schoen, ior-write→write-reflection) used sed on file
+**One gap found:** The rename pass (feynman-loop->loop-feynman,
+schoen-loop->loop-schoen, ior-write->write-reflection) used sed on file
 paths but missed inline prose references in skill body text. Three
 stale references survived:
 1. `loop-feynman/SKILL.md` line 90: referenced `ior-write` (fixed)

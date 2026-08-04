@@ -21,9 +21,9 @@ links:
 
 ## I -- Idea
 
-Our multi-agent design — Ava as orchestrator, two decorrelated
+Our multi-agent design -- Ava as orchestrator, two decorrelated
 researchers with different models, a future investor, and isolated
-workspaces per agent — was derived from first principles and
+workspaces per agent -- was derived from first principles and
 constraints (one VPS, one Gateway, one user, need for decorrelated
 review). Independent research against 2026 industry sources confirmed
 it matches all three dominant multi-agent patterns: Orchestrator-Worker,
@@ -42,7 +42,7 @@ sessions_spawn.
 
 Confidence: high (90%). The three-pattern match is validation, not
 coincidence. The architecture emerged from constraints that are
-fundamental — anyone solving the same problem (lean specialist agents
+fundamental -- anyone solving the same problem (lean specialist agents
 on one Gateway with decorrelation) would arrive at the same structure.
 
 The specific matches:
@@ -75,7 +75,7 @@ producing Buffett-style circle-of-competence expansion.
 
 ### Surprise (30%)
 
-I expected the architecture to be "reasonable but homegrown" — something
+I expected the architecture to be "reasonable but homegrown" -- something
 that works for our specific setup but does not generalize. I did not
 expect it to be an exact match for three independently documented
 industry patterns. The Microsoft orchestrator-subagent documentation
@@ -87,13 +87,13 @@ Also surprising: the speed of assembly. Three hours from "where did
 we leave off" to three fully configured sub-agent workspaces with
 GH mirrors, explicit skill allowlists, and operational config. The
 earlier architecture work (system-blueprint, proposals, workspace
-layout) was load-bearing — having clear org structure made the
+layout) was load-bearing -- having clear org structure made the
 implementation plug-and-play.
 
 ### Feel (30%)
 
 Satisfaction mixed with humility. The architecture is not just "our
-way" — it is THE way. That gives confidence as we move from design to
+way" -- it is THE way. That gives confidence as we move from design to
 operation. But we did not invent these patterns. We rediscovered them
 by solving real constraints. The convergence is a signal that the
 constraints are well-chosen, not that we are uniquely insightful.
@@ -102,29 +102,29 @@ Also: mild embarrassment at nearly skipping the identity update. My
 self-assessment measured task novelty ("did I write a new kind of
 file?") instead of capability change ("can I now orchestrate a
 team?"). Suggi caught what my own gate missed. The decorrelation
-pattern working on ME — a human reviewer catching what an agent's
-self-review missed — is both validating and humbling.
+pattern working on ME -- a human reviewer catching what an agent's
+self-review missed -- is both validating and humbling.
 
 ### Learn (40%)
 
 1. **Constraint-first trumps pattern-first.** When architecture is
    derived from what guarantees failure (cluttered workspaces, model
    monoculture, single-agent bottlenecks), it naturally converges on
-   best practices. The patterns were waiting there — we did not need
+   best practices. The patterns were waiting there -- we did not need
    to copy them.
 
 2. **Identity gates measure capability, not task novelty.** "I built
    3 workspaces" is a task. "I can now orchestrate a decorrelated
    research team" is a capability. The identity trigger must
    distinguish between them. The current text says "a known pattern
-   was applied to a new instance" is NOT a trigger — but "having
+   was applied to a new instance" is NOT a trigger -- but "having
    live sub-agents" is a new INSTANCE of a known CONCEPT. The
    distinction is too fine and I got it wrong.
 
 3. **Skills are procedures, not memory aids.** I wrote the IOR from
    memory of the format instead of reading the template as Step 3 of
    the write-reflection skill instructs. The skill's self-check has
-   "[ ] Format specification read" — but mentally ticking it is not
+   "[ ] Format specification read" -- but mentally ticking it is not
    the same as doing it. A gate without a verifiable action is not a
    gate.
 
@@ -139,10 +139,10 @@ gate.
 
 ## Cross-links
 
-- brain:governance/system-blueprint.md — updated org layout
-- brain:research/proposals/subagent-workspace-routing-proposal.md — v2.0 architecture
-- memory/2026-07-18.md — session log
-- 2026-07-17_ava_cold-start-verification-executed.md — prior architecture milestone
+- brain:governance/system-blueprint.md -- updated org layout
+- brain:research/proposals/subagent-workspace-routing-proposal.md -- v2.0 architecture
+- memory/2026-07-18.md -- session log
+- 2026-07-17_ava_cold-start-verification-executed.md -- prior architecture milestone
 
 ## v2 -- 2026-07-18 -- Ava
 

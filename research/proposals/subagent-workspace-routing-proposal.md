@@ -77,9 +77,9 @@ Gateway (single process on VPS)
 the SAME question independently. They MUST NOT see each other's output
 until both are done. Ava reads both reports and synthesizes:
 
-- Agreements → higher confidence
-- Disagreements → flagged for investigation
-- One caught something the other missed → the decorrelation payoff
+- Agreements -> higher confidence
+- Disagreements -> flagged for investigation
+- One caught something the other missed -> the decorrelation payoff
 
 ### Workspace Layout
 
