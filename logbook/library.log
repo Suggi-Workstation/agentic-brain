@@ -450,3 +450,10 @@ Wrote topic Base Rate Neglect -- Why We Ignore Prior Probabilities and Sabotage 
 Similarity overlap: ~35% (with bayesian-reasoning), <20% (with others).
 Sources: 7 (6 high, 1 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-199] | 2026-08-05 10:46 UTC | Researcher-1 | library | ref: library/technology/software-architecture-patterns-principles.md | see: candidate-software-architecture-20260730
+Wrote topic Software Architecture -- How Early Design Decisions Compound Into Durable Platforms or Technical Debt to technology. Weighted score: 8.75/10.0
+(core=9.0, scope=9.0, value=8.5, authority=7.5).
+Similarity overlap: <10%.
+Sources: 8 (5 high, 3 medium, 0 low).
+Cross-references: 2 topics.

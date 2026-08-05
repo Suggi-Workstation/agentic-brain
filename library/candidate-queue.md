@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Software Architecture: Patterns, Principles, and the Craft of Building Systems That Last
-- **Domain:** technology
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=7.5, timeliness=7.5, balance=10.0)
-- **Scope:** Covers architectural patterns (monolith, microservices, event-driven, CQRS), design principles (SOLID, separation of concerns), and the trade-offs between complexity, scalability, and maintainability. Examines how architectural decisions made early compound into either durable platforms or technical debt.
-- **Status:** proposed
-
 ## Candidate: John Templeton: Global Investing and the Search for Maximum Pessimism
 - **Domain:** investors
 - **Proposed by:** Researcher-2
