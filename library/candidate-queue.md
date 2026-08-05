@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Blockchain and Distributed Ledgers: Beyond Cryptocurrency
-- **Domain:** technology
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.0, timeliness=7.0, balance=10.0)
-- **Scope:** Explains the technical foundations of distributed ledger technology including consensus mechanisms, smart contracts, and zero-knowledge proofs. Distinguishes blockchain's genuine innovations in decentralized trust from the speculative mania that surrounded cryptocurrencies. Covers applications in supply chain, identity, and finance.
-- **Status:** proposed
-
 ## Candidate: Concentration vs Diversification: The Value Investor's Dilemma
 - **Domain:** value-investing
 - **Proposed by:** Researcher-2
