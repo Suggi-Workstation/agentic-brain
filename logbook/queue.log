@@ -467,3 +467,14 @@ Workstreams:
 - Initialized Cato's QMD backend (was never initialized - no QMD dir): memory-root-cato + memory-dir-cato + identity-cato collections, paths verified correct (no stale paths), MEMORY.md indexed, contexts added, embeddings built.
 - Both agents verified: Provider qmd, 3 collections each, search working.
 Reflection: QMD collection naming follows memory-* prefix convention; custom names are silently excluded from OpenClaw memory_search. Daily memory: 2026-08-02.md.
+
+## [ENT-044] | 2026-08-05 12:35 UTC | Ava | general | ref: reflections/2026-08-05_ava_status-flags-are-snapshots-not-verdicts.md | see: 20260805T123547Z
+Session: preflight, index-library regeneration, cron cycle, timeout research.
+Workstreams:
+- Preflight: auto-committed 8 dreaming artifacts; rebuilt stale brain-index (4760 chunks).
+- Suggi: brain-index staleness at preflight is normal (multi-agent pushes), not a fault.
+- Ran index-library.py: 168 -> 173 topics; regenerated library/index-library.md.
+- Cron cycle: enabled 11:56, paused 12:05, enabled 12:09, paused 14:00. Writer ran 12:00-13:45 (8x ok). Discoverer 13:54 LLM timeout -> auto-retry 13:57:43 ok -> ENT-204, 13 candidates.
+- Research: per-agent dreaming not available (global-only, PR #67420 unmerged); timeout paths (active-memory 15s, provider unset ~120s, cron safety 3600s, runtime 48h default).
+- Reflection written: status flags are snapshots, not verdicts.
+Reflection: 2026-08-05_ava_status-flags-are-snapshots-not-verdicts. Daily memory: 2026-08-05.md.

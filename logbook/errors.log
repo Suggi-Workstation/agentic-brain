@@ -19,3 +19,12 @@ requires reading before writing logbook entries.
 Skill-load gap: exact-match skill (hermes-desktop-troubleshooting) not loaded at session start for a desktop-misbehaves task.
 Root cause: partial skill scanning - loaded a related CDP skill instead of the trigger-exact playbook.
 Fix: load the most specific matching skill first; the skill layer already covers the class (R8, no duplication added).
+
+## [ENT-003] | 2026-08-05 12:35 UTC | Ava | error | ref: reflections/2026-08-05_ava_status-flags-are-snapshots-not-verdicts.md
+Run-status misreports: reported writer "never dispatched" and discoverer
+"errored" from run-log snapshots; both were in-flight or auto-retried.
+Root cause: treating visible state as complete state; run logs only show
+completions. Fix: verify running_at_ms, retry history, retryOn config
+before declaring failure. Also: unauthorized library.log ENT-056 write
+(wrong number, line-count derivation). Fix: logbook writes only at
+session-end or on instruction; ENT read from file tail.
