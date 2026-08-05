@@ -485,3 +485,24 @@ Wrote topic Concentration vs Diversification -- Why Value Investors Cannot Agree
 Similarity overlap: <20%.
 Sources: 6 (3 high, 3 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-204] | 2026-08-05 12:15 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 13 candidates proposed, 2 skipped (13 slots available for 15 scored candidates, queue now at 25/25 capacity).
+Candidates:
+- Cyclical vs Secular Trends: Distinguishing Temporary Swings from Permanent Shifts (8.6): gap=8.5, compounding=9.0, timeliness=8.5, balance=8.3
+- Deepwater Horizon: Systemic Risk, Organizational Blind Spots, and the Anatomy of an Industrial Catastrophe (8.5): gap=9.0, compounding=9.0, timeliness=7.0, balance=8.3
+- Overconfidence: The Most Robust and Dangerous Cognitive Bias (8.5): gap=8.5, compounding=9.0, timeliness=8.0, balance=8.3
+- Incentives: How Reward Structures Shape Surprising Behavior (8.5): gap=8.5, compounding=9.0, timeliness=8.0, balance=8.3
+- Framing Effects: How the Same Information Produces Radically Different Decisions (8.5): gap=9.0, compounding=8.5, timeliness=7.5, balance=8.3
+- Exercise and Cognitive Performance: How Physical Training Upgrades the Brain (8.4): gap=9.0, compounding=8.0, timeliness=8.0, balance=8.3
+- The Volkswagen Emissions Scandal: Governance Failure, Institutional Deception, and the Cost of Cutting Corners (8.3): gap=8.5, compounding=8.5, timeliness=7.5, balance=8.3
+- Acquisition Accounting Tricks: How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality (8.2): gap=9.0, compounding=8.0, timeliness=7.0, balance=8.3
+- Industry Profit Pools: Mapping Where the Money Actually Flows (8.2): gap=9.0, compounding=8.0, timeliness=7.0, balance=8.3
+- Industry Consolidation: The Economics, Patterns, and Endgames of Market Concentration (8.2): gap=8.5, compounding=8.0, timeliness=8.0, balance=8.3
+- Spaced Repetition and Active Recall: The Evidence-Based Path to Durable Knowledge (8.1): gap=9.0, compounding=7.5, timeliness=7.0, balance=8.3
+- Decision Journals: Writing Down Your Reasoning Before You Know the Outcome (8.1): gap=8.5, compounding=8.0, timeliness=7.5, balance=8.3
+- Restatement Analysis: What Forced Corrections Reveal About Past Shenanigans (8.0): gap=8.5, compounding=8.0, timeliness=7.0, balance=8.3
+Skipped (below score threshold for available slots):
+- Cookie-Jar Reserves and Big Bath Accounting: The Art of Smoothing and Resetting (8.0): gap=8.5, compounding=7.5, timeliness=7.5, balance=8.3
+- The Netflix vs Blockbuster Disruption: How a DVD-by-Mail Startup Buried an Industry Giant (7.9): gap=8.0, compounding=8.0, timeliness=7.5, balance=8.3
+Domain balance: accounting-financial-shenanigans (6), case-studies (6), psychology-behavior (6), self-improvement (6), industries-sectors (6) to history (5), pop-culture (5), portfolio-risk-management (5), valuation-screening (5).

@@ -106,3 +106,107 @@
 - **Discovery score:** 7.9/10.0 (gap=7.5, compounding=8.5, timeliness=7.5, balance=8.3)
 - **Scope:** Explores Munger's concept of building a latticework of mental models drawn from multiple disciplines to improve decision-making. Covers key models Munger repeatedly cited -- inversion, compounding, incentives, margin of safety, psychology of misjudgment -- and how they interconnect across investing, business, and life. Examines why Munger believed worldly wisdom, not narrow expertise, was the foundation of superior judgment and how this framework complements but extends beyond pure value-investing principles.
 - **Status:** proposed
+
+## Candidate: Cyclical vs Secular Trends: Distinguishing Temporary Swings from Permanent Shifts
+- **Domain:** industries-sectors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.6/10.0 (gap=8.5, compounding=9.0, timeliness=8.5, balance=8.3)
+- **Scope:** Examines the analytical challenge of distinguishing cyclical fluctuations from irreversible structural changes -- a distinction with profound implications for capital allocation and strategy. Covers frameworks for telling them apart, including historical precedent analysis, leading indicators, and scenario planning. Explores why investors and executives systematically confuse the two and the costs of betting on mean reversion when the world has permanently shifted.
+- **Status:** proposed
+
+## Candidate: Deepwater Horizon: Systemic Risk, Organizational Blind Spots, and the Anatomy of an Industrial Catastrophe
+- **Domain:** case-studies
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=9.0, timeliness=7.0, balance=8.3)
+- **Scope:** Analyzes the 2010 Deepwater Horizon disaster as a case study in how complex systems fail when multiple layers of defense are compromised simultaneously. Covers the cascade of organizational, regulatory, and engineering failures across BP, Transocean, and Halliburton that led to the largest marine oil spill in history. Extracts durable lessons about normalization of deviance, cost-cutting's hidden risks, and why catastrophic failures rarely have a single cause.
+- **Status:** proposed
+
+## Candidate: Overconfidence: The Most Robust and Dangerous Cognitive Bias
+- **Domain:** psychology-behavior
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=9.0, timeliness=8.0, balance=8.3)
+- **Scope:** Explores the overconfidence effect -- the systematic human tendency to overestimate knowledge, underestimate risks, and hold unwarranted certainty in judgments. Covers its three manifestations: overestimation of ability, overplacement relative to others, and overprecision in beliefs. Examines the evolutionary origins of overconfidence, its documented role in market bubbles and entrepreneurial failure, and evidence-based debiasing techniques including reference class forecasting and premortems.
+- **Status:** proposed
+
+## Candidate: Incentives: How Reward Structures Shape Surprising Behavior
+- **Domain:** psychology-behavior
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=9.0, timeliness=8.0, balance=8.3)
+- **Scope:** Examines the iron law of incentives -- "show me the incentive and I will show you the outcome" -- as a foundational mental model for understanding behavior across domains. Covers the cobra effect and perverse incentives, intrinsic versus extrinsic motivation, principal-agent problems, and incentive design failures in business, policy, and organizations. Explores why well-intentioned incentive systems often produce the opposite of their intended effect and how to design better ones.
+- **Status:** proposed
+
+## Candidate: Framing Effects: How the Same Information Produces Radically Different Decisions
+- **Domain:** psychology-behavior
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=8.3)
+- **Scope:** Explores how the presentation format of identical information systematically alters human choices -- one of the most robust and practically important findings in behavioral economics. Covers the Asian disease problem, gain versus loss framing, default effects in policy design, and anchoring in negotiations. Connects framing to prospect theory and examines its applications in marketing, investing, medical decision-making, and public policy nudges.
+- **Status:** proposed
+
+## Candidate: Exercise and Cognitive Performance: How Physical Training Upgrades the Brain
+- **Domain:** self-improvement
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=8.3)
+- **Scope:** Examines the neurobiological mechanisms by which physical exercise enhances cognitive function -- increased BDNF production, hippocampal neurogenesis, improved executive function, and stress resilience. Covers the dose-response relationship between exercise intensity and cognitive benefits, the differential effects of aerobic versus resistance training, and practical protocols for integrating physical training with knowledge work. Positions exercise as one of the highest-leverage self-improvement interventions with robust evidence across multiple cognitive domains.
+- **Status:** proposed
+
+## Candidate: The Volkswagen Emissions Scandal: Governance Failure, Institutional Deception, and the Cost of Cutting Corners
+- **Domain:** case-studies
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.5, timeliness=7.5, balance=8.3)
+- **Scope:** Analyzes the Volkswagen diesel emissions scandal as a case study in institutionalized deception and governance failure. Covers the engineering constraints and corporate pressure that led to deliberate software-based cheating, how the fraud was eventually uncovered by a small research team, and the staggering financial and reputational costs. Extracts lessons about organizational culture, the dangers of stretch goals without ethical guardrails, and why technical fraud in complex systems is rarely the work of a few bad actors.
+- **Status:** proposed
+
+## Candidate: Acquisition Accounting Tricks: How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=8.3)
+- **Scope:** Explores the accounting games companies play through acquisitions -- purchase price allocation manipulation, earnout games, contingent consideration tricks, and how serial acquirers use deal accounting to obscure organic deterioration. Covers common red flags including persistent intangible asset growth without corresponding revenue increases, aggressive earnout liability estimates, and frequent goodwill impairment following acquisitions. Examines the gap between reported acquisition economics and post-deal reality.
+- **Status:** proposed
+
+## Candidate: Industry Profit Pools: Mapping Where the Money Actually Flows
+- **Domain:** industries-sectors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=8.3)
+- **Scope:** Explains the profit pool mapping methodology pioneered by Bain and Company -- a tool for visualizing how total industry profits distribute across value chain activities, often revealing counterintuitive concentrations. Covers how profit pools migrate over time due to technology, regulation, and competitive dynamics, with examples from automotive (where profits shifted from manufacturing to financing and aftermarket) and computing (where profits migrated from hardware to software and services). Examines the investment implications of identifying where value accrues versus where attention focuses.
+- **Status:** proposed
+
+## Candidate: Industry Consolidation: The Economics, Patterns, and Endgames of Market Concentration
+- **Domain:** industries-sectors
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=8.0, timeliness=8.0, balance=8.3)
+- **Scope:** Examines the predictable consolidation lifecycle that industries follow from fragmentation through scale-driven mergers to equilibrium oligopoly. Covers the strategic logic of roll-up strategies, the antitrust constraints that shape consolidation endgames, and how industry structure maturity affects profit margins and competitive behavior. Connects to current consolidation trends in technology, healthcare, and banking with implications for investors assessing industry attractiveness and regulatory risk.
+- **Status:** proposed
+
+## Candidate: Spaced Repetition and Active Recall: The Evidence-Based Path to Durable Knowledge
+- **Domain:** self-improvement
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=8.3)
+- **Scope:** Explains the cognitive science behind spaced repetition and active recall -- two learning techniques with among the strongest empirical support in educational psychology. Covers Ebbinghaus's forgetting curve, the testing effect, and modern spaced repetition algorithms. Provides practical guidance on implementation using tools like Anki, the Feynman technique, and self-quizzing protocols, contrasting these evidence-based approaches with widely used but ineffective techniques like re-reading and highlighting.
+- **Status:** proposed
+
+## Candidate: Decision Journals: Writing Down Your Reasoning Before You Know the Outcome
+- **Domain:** self-improvement
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=8.3)
+- **Scope:** Explores the practice of maintaining a decision journal -- recording predictions, reasoning, and expected outcomes before results are known -- as a tool for improving judgment and combating hindsight bias. Covers the methodology, what to record, how to review, and the calibration benefits documented by practitioners from investing to medicine. Explains why decision journaling is one of the highest-leverage self-improvement habits for anyone who makes consequential decisions under uncertainty.
+- **Status:** proposed
+
+## Candidate: Restatement Analysis: What Forced Corrections Reveal About Past Shenanigans
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Researcher-2
+- **Date:** 2026-08-05
+- **Discovery score:** 8.0/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=8.3)
+- **Scope:** Examines financial restatements as a forensic window into prior accounting manipulation. Covers the most common restatement triggers (revenue recognition errors, expense misclassification, tax provision corrections), the statistical evidence on what restatements predict about management integrity and future stock performance, and the distinction between technical GAAP corrections versus restatements that reveal deliberate deception. Connects to the Beneish M-Score and other red flag models as predictive tools for identifying companies likely to restate.
+- **Status:** proposed
