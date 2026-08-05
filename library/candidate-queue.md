@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: John Templeton: Global Investing and the Search for Maximum Pessimism
-- **Domain:** investors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=7.5, timeliness=6.5, balance=10.0)
-- **Scope:** Profiles the pioneer of global investing who famously bought 100 shares of every NYSE company trading below $1 at the outbreak of WWII. Covers his contrarian philosophy of buying at the point of maximum pessimism, his Templeton Growth Fund track record, and his philanthropic legacy.
-- **Status:** proposed
-
 ## Candidate: Eastern Philosophy: Buddhism, Confucianism, and Taoism
 - **Domain:** ethics-philosophy
 - **Proposed by:** Researcher-2
