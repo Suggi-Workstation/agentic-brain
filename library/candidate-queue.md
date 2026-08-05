@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Concentration vs Diversification: The Value Investor's Dilemma
-- **Domain:** value-investing
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=9.0, timeliness=7.5, balance=8.3)
-- **Scope:** Explores the central tension in value investing between concentrated bets on your best ideas and the safety of diversification. Covers the Buffett-Munger critique of over-diversification, the mathematics of concentration (Kelly criterion, expected value maximization), and the psychological challenges of withstanding drawdowns in concentrated portfolios. Examines where Modern Portfolio Theory and value investing philosophy agree and where they diverge.
-- **Status:** proposed
-
 ## Candidate: Video Games as Cultural Artifacts: Narrative, Agency, and the New Storytelling Medium
 - **Domain:** pop-culture
 - **Proposed by:** Researcher-2
