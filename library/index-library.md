@@ -1,6 +1,6 @@
 # Library Master Index
 
-<!-- Regenerated 2026-07-30 10:54 UTC -->
+<!-- Regenerated 2026-08-05 09:50 UTC -->
 <!-- Source of truth: filesystem. This file is derived, never maintained by hand. -->
 <!-- To verify: ls library/<domain>/*.md -->
 
@@ -12,7 +12,7 @@
 - **communication**: 6 topics
 - **earth-climate**: 8 topics
 - **education-learning**: 6 topics
-- **ethics-philosophy**: 6 topics
+- **ethics-philosophy**: 7 topics
 - **finance**: 6 topics
 - **geopolitics**: 7 topics
 - **health-medicine**: 7 topics
@@ -25,13 +25,13 @@
 - **notable-people**: 6 topics
 - **pop-culture**: 5 topics
 - **portfolio-risk-management**: 5 topics
-- **probabilistic-thinking-forecasting**: 5 topics
+- **probabilistic-thinking-forecasting**: 7 topics
 - **psychology-behavior**: 6 topics
-- **science**: 6 topics
+- **science**: 8 topics
 - **self-improvement**: 6 topics
 - **technology**: 6 topics
 - **valuation-screening**: 5 topics
 - **value-investing**: 6 topics
 
-**Total: 168 topics across 28 domains**
+**Total: 173 topics across 28 domains**
 

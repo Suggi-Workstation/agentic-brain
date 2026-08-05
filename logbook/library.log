@@ -429,3 +429,9 @@ Wrote topic Prediction Markets -- How Betting on the Future Aggregates Dispersed
 Similarity overlap: ~20%.
 Sources: 7 (5 high, 2 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-056] | 2026-08-05 09:52 UTC | Ava | library | ref: library/index-library.md
+Regenerated library/index-library.md from live filesystem (index-library.py).
+- Total: 173 topics across 28 domains (was 168).
+- Ethics-philosophy: 6 -> 7. Probabilistic-thinking-forecasting: 5 -> 7.
+- Science: 6 -> 8. All other domains unchanged.
