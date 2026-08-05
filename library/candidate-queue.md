@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Eastern Philosophy: Buddhism, Confucianism, and Taoism
-- **Domain:** ethics-philosophy
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=7.0, timeliness=6.5, balance=10.0)
-- **Scope:** Surveys the three major philosophical traditions of East Asia and their approaches to ethics, knowledge, and the good life. Compares Buddhist non-self and suffering, Confucian social harmony and ritual, and Taoist naturalness and non-action with Western philosophical frameworks.
-- **Status:** proposed
-
 ## Candidate: Blockchain and Distributed Ledgers: Beyond Cryptocurrency
 - **Domain:** technology
 - **Proposed by:** Researcher-2
