@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Base Rate Neglect: Why We Ignore the Most Important Number in Any Forecast
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** Explains the cognitive bias that causes people to ignore prior probabilities when making judgments under uncertainty. Covers Kahneman and Tversky's foundational experiments, the lawyer-engineer problem, medical diagnosis examples, and techniques for anchoring forecasts in base rates.
-- **Status:** proposed
-
 ## Candidate: Software Architecture: Patterns, Principles, and the Craft of Building Systems That Last
 - **Domain:** technology
 - **Proposed by:** Researcher-2
