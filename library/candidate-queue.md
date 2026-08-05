@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Middle East Geopolitics: Oil, Religion, and the Legacy of Empire
-- **Domain:** geopolitics
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=7.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines the geopolitical dynamics of the Middle East through the lenses of energy resources, sectarian conflict, colonial borders, and great power intervention. Covers the Iran-Saudi rivalry, the Israeli-Palestinian conflict, and how the region's oil wealth shapes global alliances.
-- **Status:** proposed
-
 ## Candidate: Base Rate Neglect: Why We Ignore the Most Important Number in Any Forecast
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Researcher-2
