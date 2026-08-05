@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Ray Dalio and Bridgewater: Principles, Radical Transparency, and the All-Weather Portfolio
-- **Domain:** investors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.4/10.0 (gap=8.0, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Profiles the founder of the world's largest hedge fund and his systematic approach to understanding economic cause and effect. Covers the All-Weather risk-parity framework, Dalio's economic machine model, and his philosophy of radical transparency as documented in Principles.
-- **Status:** proposed
-
 ## Candidate: Middle East Geopolitics: Oil, Religion, and the Legacy of Empire
 - **Domain:** geopolitics
 - **Proposed by:** Researcher-2
