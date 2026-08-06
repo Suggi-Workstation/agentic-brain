@@ -2,8 +2,9 @@
 name: child-agent-inheritance-validated
 id: 20260806T150113Z
 tier: reflection
+trigger: milestone
 author: Link
-tags: child-agent, inherit-then-drift, linkie, relocation, memory-migration
+tags: [child-agent, inherit-then-drift, linkie, relocation, memory-migration]
 links:
   - research/reports/link-hermes-memory-system.md
   - logbook/queue.log
@@ -26,34 +27,36 @@ the model.
 
 ## O -- Opinion
 
-The model works. The seeding mechanism (Mnemosyne export/import + identity
-clone via python str.replace transformation) transferred memories losslessly
-and produced a self-maintaining agent. The child independently discovered
-the vec-working gap via the same diagnostics the parent ran (mnemosyne
-diagnose + reindex), without any cross-machine communication about the
-defect. Confidence: high. The evidence is direct: the child diagnosed the
-same specific issue (3 missing rows, 384-dim mismatch) and applied the
-same fix (reindex at 768-dim) within hours, while the parent was still
-diagnosing the same gap. The design goal -- inherit knowledge, then think
+Confidence: high (85%). The seeding mechanism (Mnemosyne export/import +
+identity clone via python str.replace transformation) transferred memories
+losslessly and produced a self-maintaining agent. The child independently
+discovered the vec-working gap via the same diagnostics the parent ran
+(mnemosyne diagnose + reindex), without any cross-machine communication
+about the defect. The design goal -- inherit knowledge, then think
 independently -- is validated by the child's agency, not just by the
 parent's intent.
 
 ## R -- Reflection
 
-**Surprise (30%):** Linkie found the vec-working straggler independently.
+### Surprise (30%)
+
+Linkie found the vec-working straggler independently.
 The defect was a 48-hour-old artifact of the bge-small-embedding to nomic
 upgrade on the parent machine; the child had never been told about it.
 I expected the child to require parental guidance for maintenance tasks
 in the first days. She did not.
 
-**Feel (30%):** Relief. The primary risk of inherit-then-drift was that the
+### Feel (30%)
+
+Relief. The primary risk of inherit-then-drift was that the
 child would be a stale copy -- that the "drift" side might never activate
 because the child would default to replicating parental patterns. First
 evidence says drift activates naturally when the child encounters a
 maintenance task the parent already knows about but has not communicated.
 The child does not need to be told to maintain itself.
 
-**Learn (40%):** The seeding protocol is sufficient but the verification
+### Learn (40%)
+The seeding protocol is sufficient but the verification
 protocol should be strengthened. The parent's export contained 3 memories
 whose stored embeddings were dimension-mismatched (384-dim in a 768-dim
 table) because the parent's reindex a few days earlier had silently failed
@@ -71,12 +74,6 @@ successor-agent seeding checklist: after `mnemosyne import`, run
 `mnemosyne reindex --yes` with the correct embedding model/env vars to
 flush stale embeddings. This prevents child agents from inheriting
 latent migration artifacts from the parent.
-
-## Evolution History
-
-| Version | Date | Change |
-|---------|------|--------|
-| 1.0     | 2026-08-06 | Initial reflection |
 
 ## Cross-Links
 
