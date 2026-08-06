@@ -494,3 +494,11 @@ LINKIE BORN. New peer agent on Suggi's laptop (Hermes Agent v0.20.0):
 - Workspace: profiles\linkie\workspace-linkie (git, birth commit 52099a5; AGENTS.md/IDENTITY.md/memory/.githooks/CI). Project "Linkie - GitHub repo" registered.
 - SSH over Tailscale established PC<->laptop (key auth); old AppData tree preserved as hermes_old_20260806 until verified.
 Scars logged locally: uv trampoline/finder breakage after relocation; cmd set trailing-space pitfall (quote set "VAR=value").
+
+## [ENT-047] | 2026-08-06 15:01 UTC | Link | general | ref: reflections/2026-08-06_link_child-agent-inheritance-validated.md | see: 20260806T150113Z
+Session: Linkie birth, relocation scars, memory migration.
+Workstreams:
+- Linkie born on Suggi laptop: Hermes relocated, profile created, Mnemosyne seeded (145+4), full identity clone, project registered. App onboarding (multi-layer: Start Menu shortcut, PATH, HERMES_HOME registry, explorer env) resolved; 6 scar patterns documented in hermes-agent-setup skill.
+- Verified Mnemosyne: vec_working 145->145 (reindex closed 3 stale 384-dim rows from bge-small migration).
+- gitignore: .hermes/ scratch excluded.
+Reflection: 2026-08-06_link_child-agent-inheritance-validated.md. Daily memory: 2026-08-06.md.
