@@ -478,3 +478,6 @@ Workstreams:
 - Research: per-agent dreaming not available (global-only, PR #67420 unmerged); timeout paths (active-memory 15s, provider unset ~120s, cron safety 3600s, runtime 48h default).
 - Reflection written: status flags are snapshots, not verdicts.
 Reflection: 2026-08-05_ava_status-flags-are-snapshots-not-verdicts. Daily memory: 2026-08-05.md.
+
+## [ENT-045] | 2026-08-06 05:49 UTC | Link | research | ref: research/reports/link-hermes-memory-system.md | see: 20260802T124915Z
+Report revised to 5-layer memory system. (1) Mnemosyne embedding upgraded to nomic-embed-text-v1.5 (768-dim, all 101 working + 4 episodic reindexed; pitfall scarred: nomic missing from hardcoded dim table -> MNEMOSYNE_EMBEDDING_MODEL/DIM env vars in profile .env required; app restart needed after .env change). (2) Wiki layer added: LLM-wiki initialized in Obsidian vault (Vaults - Obsidian/link-brain; SCHEMA/index/log + concepts/memory-stack.md; WIKI_PATH+OBSIDIAN_VAULT_PATH in .env; R8 boundary: wiki=curated personal, brain=org artifacts). (3) First consolidation fired: 4 episodic memories (int8 vectors). (4) AGENTS.md Retrieval updated (Mnemosyne + wiki, legacy memory tool deprecated).
