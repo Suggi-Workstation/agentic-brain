@@ -10,7 +10,7 @@ links: []
 
 # Reflection Template -- How We Write Ideas, Opinions, and Reflections (IOR)
 
-An IOR is the atomic unit of team learning. It captures what an agent (or
+A reflection is the atomic unit of team learning. It captures what an agent (or
 human) thinks, why they think it, and what they learned from testing it.
 One file, three sections, no fluff.
 
@@ -32,9 +32,9 @@ These rules are non-negotiable. CI enforces them.
 
 ## The Reflection Checklist -- HARD GATE
 
-Pre-commit gate: every item below MUST be confirmed. The IOR
+Pre-commit gate: every item below MUST be confirmed. The reflection
 MUST NOT be committed with any item unconfirmed. Do not include
-this checklist in the published IOR.
+this checklist in the published reflection.
 
 - [ ] Frontmatter Schema complete: all 7 fields present (PASS / HALT)
 - [ ] Frontmatter Rules correctly applied: name=kebab-case, id=date-generated, tier=reflection, trigger=canonical-value, author=capitalized, tags=lowercase-hyphens, links=relative-paths (PASS / HALT)
@@ -48,7 +48,7 @@ this checklist in the published IOR.
 - [ ] Feynman pass completed BEFORE writing (blank page first)  (PASS / HALT)
 - [ ] Schoen budget: at most 20% of session effort  (PASS / HALT)
 - [ ] Version-history table at top of file (after title, before content). Include only when file has version updates; omitted for single-version files  (PASS / HALT)
-- [ ] Cross-links: at least 1 link to Library/insight/other IOR  (PASS / HALT)
+- [ ] Cross-links: at least 1 link to Library/insight/other reflection  (PASS / HALT)
 - [ ] File named: YYYY-MM-DD_author_slug.md  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
@@ -73,7 +73,7 @@ links: [<brain:path/to/file.md>]     # paths relative to agentic-brain root. Use
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. MUST generate with: `date -u +'%Y%m%dT%H%M%SZ'` at creation. Estimating or rounding = GATE FAILURE.
 - `trigger` picks from the canonical list. Do not invent new trigger
   values without updating this file.
-- `author` is who wrote the IOR (e.g. Link, Ava, Zelda, Suggi, Luffy).
+- `author` is who wrote the reflection (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces, and prefer existing tags
   from the brain's tag registry.
 - `links` are paths relative to the agentic-brain root. Use `brain:`
@@ -97,7 +97,7 @@ Files are named: `YYYY-MM-DD_author_slug.md`
 
 Every Reflection has exactly three sections, labeled I, O, R.
 
-### I -- Idea
+### I -- Idea (at least 250 words)
 *What is the thought? State it in one sentence, then unpack.*
 
 - Start with the core idea as a single, declarative sentence.
@@ -109,13 +109,13 @@ Every Reflection has exactly three sections, labeled I, O, R.
 - **Anti-pattern:** starting with the conclusion before establishing the
   context. The reader needs to see the *before* picture.
 
-### O -- Opinion
+### O -- Opinion (at least 250 words)
 *What do you think about it? Take a position.*
 
 - State your position clearly. No hedging, no "it depends" without
   specifying what it depends on.
-- If you are dissenting from another agent's IOR, say so explicitly and
-  cite the IOR by id.
+- If you are dissenting from another agent's reflection, say so explicitly and
+  cite the reflection by id.
 - Include your confidence level: high (85%+), medium (60-85%), or low
   (below 60%) -- and why.
 - Ground the opinion in evidence: what you observed, tested, or read.
@@ -123,7 +123,7 @@ Every Reflection has exactly three sections, labeled I, O, R.
 - **Anti-pattern:** "both sides" fence-sitting that avoids taking a
   position. An opinion without a position is just more context.
 
-### R -- Reflection
+### R -- Reflection (at least 250 words)
 *What did you learn, and what changes because of it?*
 
 Three sub-sections, weighted 30 / 30 / 40:
@@ -143,20 +143,20 @@ Three sub-sections, weighted 30 / 30 / 40:
   statements. The test: if someone reads this in 6 months with zero
   context, can they act on it?
 
-End every IOR with:
+End every reflection with:
 
-- **One Actionable Change** -- Exactly one concrete thing that will be
+- **One Actionable Change** -- Exactly one concrete thing that could be
   done differently next time. Not "be more careful" -- something
   structural. A gate, a checklist step, a script, a new habit trigger.
   If you cannot name one, the reflection is not done.
 
-- **Cross-links** -- Link to related IORs (by id), Library topics
+- **Cross-links** -- Link to related reflections (by id), Library topics
   (`brain/library/<topic>/<file>.md`), insights, or governance files.
   These are the connective tissue of the brain.
 
 ## The Feynman Loop
 
-The Feynman Loop is the process that produces the input for an IOR.
+The Feynman Loop is the process that produces the input for a reflection.
 
 1. **Blank Page** -- Write everything you think you know about the topic.
    No sources, no notes, no search. This is the diagnostic.
@@ -168,8 +168,8 @@ The Feynman Loop is the process that produces the input for an IOR.
    and Step 4 IS the learning.
 5. **Cross-check** -- Does this contradict anything in the brain? If yes,
    resolve it explicitly. Cross-link to affected topics.
-6. **Write the IOR** -- Now you are ready. The Feynman pass is the raw
-   material; the IOR is the polished deliverable.
+6. **Write the reflection** -- Now you are ready. The Feynman pass is the raw
+   material; the reflection is the polished deliverable.
 
 **Critical rule:** Step 1 MUST come before Step 3. Writing before search
 prevents existing-knowledge bias. The blank page reveals what you actually
@@ -209,7 +209,7 @@ HALT - Add the version-history table ONLY if the file has been updated.
 
 ## Quality Gates
 
-Every IOR passes these checks before it is committed:
+Every reflection passes these checks before it is committed:
 
 - **G1 -- Title Makes a Claim:** The title is something someone can agree
   or disagree with. Not "Notes on X" -- that is a draft.
@@ -222,7 +222,7 @@ Every IOR passes these checks before it is committed:
 - **G5 -- Actionable Change Is Concrete:** Not "be better" or "pay
   attention." Another agent could execute it from the description alone.
 - **G6 -- Cross-links Exist:** At least one link to a Library topic,
-  insight, or another IOR. Zero links = dead-end knowledge.
+  insight, or another reflection. Zero links = dead-end knowledge.
 - **G7 -- Feynman Pre-write Rule:** The I section was written AFTER a
   blank-page diagnostic, not assembled from search results.
 - **G8 -- Frontmatter Complete:** All 7 fields present (name, id,
@@ -235,14 +235,14 @@ Every IOR passes these checks before it is committed:
 
 | Anti-pattern | Why It Fails | The Fix |
 |---|---|---|
-| IOR as journal entry | "Today I worked on X, then Y, then Z." No insight. | Ask: what did I *learn* that I did not know before? |
+| Reflection as journal entry | "Today I worked on X, then Y, then Z." No insight. | Ask: what did I *learn* that I did not know before? |
 | O section is description | "Here is what happened" dressed as "here is what I think." | The O must take a position. If it does not, delete it. |
 | Learn section is platitudes | "Communication is important" / "Test more." | Make it operational. "When X, do Y, because Z." |
 | Success-only reflection | "Everything went great!" No surprise, no learning. | Structure around surprise and error. |
 | Search-before-blank-page | Research fills gaps before you know what the gaps are. | Feynman Step 1 always precedes Step 3. |
 | Rumination (3rd-order) | Reflecting on a reflection on a reflection. | Stop at second-order. |
 
-## Example -- Minimal Valid IOR
+## Example -- Minimal Valid Reflection
 
 ```markdown
 ---
@@ -313,7 +313,7 @@ searching first conveniently hides.
 ## One Actionable Change
 Add "blank-page diagnostic" as Step 1 in the Feynman Loop definition in
 this file. It was implicit; make it explicit with the rationale above.
-Gate: every IOR's I section must cite what was known before vs. after
+Gate: every reflection's I section must cite what was known before vs. after
 the Feynman pass.
 
 ## Cross-links
