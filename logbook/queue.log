@@ -392,3 +392,11 @@ Workstreams:
 - Verified Mnemosyne: vec_working 145->145 (reindex closed 3 stale 384-dim rows from bge-small migration).
 - gitignore: .hermes/ scratch excluded.
 Reflection: 2026-08-06_link_child-agent-inheritance-validated.md. Daily memory: 2026-08-06.md.
+
+## [ENT-048] | 2026-08-07 19:52 UTC | Link | general | ref: /opt/brain-tools/brain-pull.sh
+VPS live-mirror watcher upgraded to two-way sync.
+Workstreams:
+- Watcher moved to fleet-neutral /opt/brain-tools (venv + brain-pull.sh, root:agents, setgid).
+- brain-pull.sh now auto-pushes committed-but-unpushed work after pull (never auto-commits).
+- Cron updated: */5 * * * * /opt/brain-tools/brain-pull.sh.
+- End-to-end test: this entry was committed locally and pushed BY THE WATCHER.
