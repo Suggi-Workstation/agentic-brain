@@ -247,9 +247,9 @@ This architecture would be invalidated if:
 
 ## Cross-Links
 
-- research/insights/brain-search-system.md -- parent blueprint of
+- `research/insights/brain-search-system.md` -- parent blueprint of
   the search tool this infrastructure serves
-- research/insights/stale-index-problem.md -- the failure class this
+- `research/insights/stale-index-problem.md` -- the failure class this
   system prevents structurally
-- governance/template-insights.md -- the template this file follows
-- logbook/queue.log -- ENT-048, the watcher-pushed proof entry
+- `governance/template-insights.md` -- the template this file follows
+- `logbook/queue.log` -- ENT-048, the watcher-pushed proof entry
