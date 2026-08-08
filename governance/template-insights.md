@@ -1,5 +1,5 @@
 ---
-name: template-insights-new
+name: template-insights
 id: 20260808T151540Z
 tier: core-template
 lock: approval-required
