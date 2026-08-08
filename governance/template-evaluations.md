@@ -1,5 +1,5 @@
 ---
-name: template-evaluations-new
+name: template-evaluations
 id: 20260808T151324Z
 tier: core-template
 lock: approval-required
