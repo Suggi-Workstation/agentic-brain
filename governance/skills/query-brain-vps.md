@@ -28,7 +28,7 @@ trigger_keywords:
 
 Queries the shared brain index on the fleet VPS (suggi-vps). The live
 mirror at /srv/brain/agentic-brain is kept fresh by the watcher
-(/opt/brain-tools/brain-pull.sh, cron every 5 min); the index at
+(/opt/brain-tools/brain-pull.sh, cron every minute); the index at
 /srv/brain-index is reindexed automatically on any content change.
 NO cloning, NO local index, NO manual rebuilds. This skill replaces
 the clone-and-query ritual for every agent that has access to the VPS
@@ -52,7 +52,7 @@ The fleet depends on the watcher. Verify it ran recently:
 tail -3 /home/hermes/logs/brain-pull.log
 ```
 
-PASS: last entry within ~6 minutes. If older: the cron may be broken.
+PASS: last entry within ~2 minutes. If older: the cron may be broken.
 Check `crontab -l` and the system clock BEFORE querying. Results from
 a dead watcher are silently stale -- that is the new failure class
 this check guards.
@@ -122,7 +122,7 @@ If the key door or the tailnet is down:
 - Tailscale SSH check re-prompts when either node key rotates
   (client auto-updates). The key door (port 2222, tailnet-only,
   key ~/.ssh/id_ed25519_vps) never re-prompts -- prefer it.
-- Fresh results lag GitHub by at most 5 minutes (watcher window)
+- Fresh results lag GitHub by at most 1 minute (watcher window)
   plus seconds of reindex time. Coordination is minute-scale; do
   not treat seconds-late results as a bug.
 

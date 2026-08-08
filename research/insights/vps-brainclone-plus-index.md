@@ -24,6 +24,13 @@ links:
 
 # VPS Brain Clone Plus Index -- The Live-Mirror Blueprint
 
+## Version History
+
+| Version | Date | Author | Change |
+|:--|:--|:--|:--|
+| 1 | 2026-08-07 | Link | Initial insight. |
+| 2 | 2026-08-08 | Link | Watcher interval 5 min -> 1 min (idle cycle cost measured: 0.42 s, 17 MB). |
+
 This file is the finished-system reference for the fleet VPS live
 mirror: the persistent agentic-brain clone, the shared index, and the
 watcher that keeps both fresh. It extends brain-search-system.md (the
@@ -35,7 +42,7 @@ fleet VPS.
 ## The Insight
 
 A persistent live-mirror clone of the agentic-brain on the fleet VPS,
-synced with GitHub in both directions every five minutes by a cron
+synced with GitHub in both directions every minute by a cron
 watcher that reindexes on any content change, turns the brain from a
 per-agent clone-discard ritual into an always-fresh fleet-shared
 service.
@@ -49,7 +56,7 @@ before any server was ordered:
 
 - Persistent clone at /srv/brain/agentic-brain replaces the
   clone-discard ritual for VPS agents.
-- Cron git pull every 5 minutes (no webhooks, tailnet-only network).
+- Cron git pull every minute (no webhooks, tailnet-only network).
 - Cron incremental reindex on HEAD change.
 - NO auto-commit cron (secrets and junk risk; commits stay
   deliberate).
@@ -136,7 +143,7 @@ single user's lifecycle owns the fleet infrastructure.
 
 ### The watcher -- brain-pull.sh
 
-Every 5 minutes the cron fires and the watcher:
+Every minute the cron fires and the watcher:
 
 1. cd /srv/brain/agentic-brain, record before = HEAD, pushed = 0.
 2. git fetch origin.
@@ -156,12 +163,12 @@ always after content moved. It never runs standalone.
 
 | Direction | Mechanism | Max lag |
 |:--|:--|:--|
-| GitHub -> clone | cron fetch + ff-only (rebase if diverged) | 5 min |
-| clone -> GitHub | watcher auto-push of committed work | 5 min |
+| GitHub -> clone | cron fetch + ff-only (rebase if diverged) | 1 min |
+| clone -> GitHub | watcher auto-push of committed work | 1 min |
 | clone -> index | reindex on pushed OR pulled content change | seconds after pull/push |
 | GitHub -> Suggi's Obsidian | Obsidian Git auto-pull (PC) | 5 min |
 
-Eventual consistency with a 5-minute bound is the accepted standard
+Eventual consistency with a 1-minute bound is the accepted standard
 for git-sync systems; webhook real-time was explicitly rejected
 (GitHub cannot reach the tailnet, and the infra cost is unjustified
 for a small fleet).
@@ -181,7 +188,7 @@ next tick pushes. There is no silent loss and no auto-resolution.
 - VPS Hermes agents (Morpheus, Neo, subagents): read and write the
   clone directly at /srv/brain/agentic-brain; query the shared index
   through brain-index/query.py; their commits are pushed by the
-  watcher within 5 minutes.
+  watcher within 1 minute.
 - OpenClaw (Ava, when migrated): same access via the agents group;
   the layout is framework-neutral (files, not APIs).
 - Link (PC) and Linkie (laptop): keep the clone-discard ritual and
@@ -205,7 +212,7 @@ next tick pushes. There is no silent loss and no auto-resolution.
 1. VPS agents never clone-discard again. The live mirror is their
    checkout; writing an artifact means committing into
    /srv/brain/agentic-brain and letting the watcher push.
-2. Both directions converge within 5 minutes. Suggi's GitHub edits
+2. Both directions converge within 1 minute. Suggi's GitHub edits
    reach the fleet and the shared index automatically; fleet
    artifacts reach GitHub automatically.
 3. The stale-index failure class is structurally prevented: reindex
@@ -227,8 +234,8 @@ next tick pushes. There is no silent loss and no auto-resolution.
 
 This architecture would be invalidated if:
 
-- The 5-minute staleness window causes harmful coordination errors
-  (agents acting on a logbook or artifact up to 5 minutes stale).
+- The 1-minute staleness window causes harmful coordination errors
+  (agents acting on a logbook or artifact up to 1 minute stale).
   Not observed; all coordination is minute-scale. A real-time need
   would justify webhooks via Tailscale Funnel.
 - The rebase-on-divergence path silently loses or reorders
