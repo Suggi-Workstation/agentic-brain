@@ -83,7 +83,7 @@ ssh -i <agent-key> -p 22 root@100.99.142.120 \
   "su - hermes -c \"cd /srv/brain/agentic-brain && /opt/brain-tools/venv/bin/python brain-index/query.py '<query>' --top-k 20\""
 ```
 
-Example key path (Link's door): ~/.ssh/id_ed25519_vps. Quoting rule:
+Quoting rule:
 the remote command sits in double quotes; the query string sits in
 single quotes inside it. If the query contains an apostrophe, rephrase
 or escape it -- a broken quote fails the whole command.
