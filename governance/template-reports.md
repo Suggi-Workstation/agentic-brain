@@ -1,5 +1,5 @@
 ---
-name: template-reports-new
+name: template-reports
 id: 20260808T151846Z
 tier: core-template
 lock: approval-required
@@ -9,9 +9,6 @@ links: []
 ---
 
 # Report Template -- How We Write Reports
-
-> DRAFT REVISION (2026-08-08) -- proposed update to `template-reports.md`.
-> This file is for comparison only; NOT canonical until Suggi approves.
 
 A report is a finished piece of cross-examined research. Unlike a library
 topic (single-agent, single-pass), a report has been through at least one
@@ -281,6 +278,4 @@ volitional -- self-close must be impossible by design.
 
 ---
 
-*DRAFT revision drafted 2026-08-08 by Link, pending Suggi approval. On
-approval: rename to `template-reports.md`, restore `name:
-template-reports`, retire the old file.*
+*Last updated: 2026-08-08 by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
