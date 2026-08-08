@@ -1,6 +1,6 @@
 ---
 name: query-brain-vps
-description: "Query the shared agentic-brain index on the fleet VPS -- no cloning, watcher-maintained freshness. Use for all brain searches as Link or any VPS agent."
+description: "Query the shared agentic-brain index on the fleet VPS -- no cloning, watcher-maintained freshness. Use for all brain searches by any fleet agent."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -67,24 +67,26 @@ as hermes, and only after diagnosis.
 Query using any mode of the `brain-index` tool (hybrid, vector-only,
 or keyword-only). Default: `query.py "<query>" --top-k 20`.
 
-VPS agents (direct, no SSH):
+VPS agents (running on the server, no SSH):
 
 ```bash
 cd /srv/brain/agentic-brain
 /opt/brain-tools/venv/bin/python brain-index/query.py "<query>" --top-k 20
 ```
 
-Link (PC, via the key door):
+VPS-connected agents (remote machines, e.g. PC or laptop agents):
+connect over SSH with the agent's own key door, then run the same
+query inside the clone:
 
 ```bash
-ssh -i ~/.ssh/id_ed25519_vps -p 22 root@100.99.142.120 \
+ssh -i <agent-key> -p 22 root@100.99.142.120 \
   "su - hermes -c \"cd /srv/brain/agentic-brain && /opt/brain-tools/venv/bin/python brain-index/query.py '<query>' --top-k 20\""
 ```
 
-Quoting rule: the remote command sits in double quotes; the query
-string sits in single quotes inside it. If the query contains an
-apostrophe, rephrase or escape it -- a broken quote fails the whole
-command.
+Example key path (Link's door): ~/.ssh/id_ed25519_vps. Quoting rule:
+the remote command sits in double quotes; the query string sits in
+single quotes inside it. If the query contains an apostrophe, rephrase
+or escape it -- a broken quote fails the whole command.
 
 Results return file path, domain, title, relevance score, and a text
 snippet:
@@ -100,10 +102,10 @@ snippet:
 
 ### 4. Read top results
 
-Read the top 3-5 results for full context (VPS agents: `read_file`;
-Link: `cat` the paths via the key door). The snippet in the query
-output is ~200 chars -- enough to decide relevance, not enough for
-understanding.
+Read the top 3-5 results for full context. VPS agents use `read_file`
+on the server paths; remote agents read the paths over SSH (e.g.
+`cat`). The snippet in the query output is ~200 chars -- enough to
+decide relevance, not enough for understanding.
 
 ### 5. Cite
 
@@ -133,8 +135,8 @@ public door both down), fall back to the external query-brain skill
   Diagnose before querying.
 - **SSH quoting.** Remote command in double quotes, query in single
   quotes. Apostrophes inside the query break it -- rephrase.
-- **Tailscale SSH check re-prompts when node keys rotate.** The key
-  door (public :22, key ~/.ssh/id_ed25519_vps) never re-prompts.
+- **Tailscale SSH check re-prompts when node keys rotate.** The
+  key-based door on port 22 never re-prompts -- prefer it.
 - **Outdated results.** Fresh results lag GitHub by at most 1 minute
   (watcher window) plus seconds of reindex time. If the watcher is
   alive, results are current. Do not treat seconds-late results as a
