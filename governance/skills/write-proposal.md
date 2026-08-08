@@ -1,5 +1,5 @@
 ---
-name: write-proposal-new
+name: write-proposal
 description: "Write a proposal: Problem-Solution-Impact format with quality gates G1-G7, frontmatter schema, and cross-links. Use when asked to write a proposal, propose a change, suggest a fix, or design a solution."
 user-invocable: true
 disable-model-invocation: false
