@@ -1,27 +1,8 @@
 ---
 name: query-brain-vps
 description: "Query the shared agentic-brain index on the fleet VPS -- no cloning, watcher-maintained freshness. Use for all brain searches as Link or any VPS agent."
-version: 1.1
-author: Link
 user-invocable: true
 disable-model-invocation: false
-tags:
-  - brain-index
-  - vps
-  - query
-  - live-mirror
-  - semantic-search
-  - watcher
-  - freshness
-links:
-  - governance/skills/external/query-brain.md
-  - research/insights/vps-brainclone-plus-index.md
-  - research/insights/brain-search-system.md
-trigger_keywords:
-  - query brain
-  - search brain
-  - brain query
-  - find in brain
 ---
 
 # Query-Brain-VPS -- Search the Agentic-Brain (Shared VPS Index)
