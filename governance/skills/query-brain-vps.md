@@ -1,8 +1,10 @@
 ---
 name: query-brain-vps
 description: "Query the shared agentic-brain index on the fleet VPS -- no cloning, watcher-maintained freshness. Use for all brain searches as Link or any VPS agent."
-version: 1.0
+version: 1.1
 author: Link
+user-invocable: true
+disable-model-invocation: false
 tags:
   - brain-index
   - vps
@@ -22,42 +24,52 @@ trigger_keywords:
   - find in brain
 ---
 
-# Query-Brain-VPS -- Search the Shared Index
+# Query-Brain-VPS -- Search the Agentic-Brain (Shared VPS Index)
 
 ## What This Skill Does
 
-Queries the shared brain index on the fleet VPS (suggi-vps). The live
-mirror at /srv/brain/agentic-brain is kept fresh by the watcher
-(/opt/brain-tools/brain-pull.sh, cron every minute); the index at
-/srv/brain-index is reindexed automatically on any content change.
-NO cloning, NO local index, NO manual rebuilds. This skill replaces
-the clone-and-query ritual for every agent that has access to the VPS
-(Link via the key door, all VPS agents directly).
+Searches the agentic-brain knowledge base using the brain-index hybrid
+search tool (semantic vectors + BM25 keyword + RRF fusion) against the
+SHARED index on the fleet VPS. Returns ranked file paths with relevance
+scores and text snippets. The agent then reads the top results for
+deeper context. No cloning, no local index, no manual rebuilds -- the
+watcher keeps the live mirror and the index fresh automatically.
 
 ## When to Invoke
 
-- Any brain search: "search the brain for X", "query brain",
-  "find in brain".
-- Preflight and session-end brain-index checks (via those skills).
-- Before writing any artifact that cites brain knowledge
-  (retrieval-first discipline).
+- User asks a question that might be answered by brain content
+  (governance, research, reflections, library topics, insights)
+- Researching a topic before writing artifacts
+- Looking up prior agent work (reflections, proposals, evaluations)
+- Any query where `grep` alone is insufficient (conceptual questions
+  that don't share keywords with the target content)
+
+## Self-Check -- HARD GATE
+
+- [ ] Watcher healthy: /home/hermes/logs/brain-pull.log last entry
+      within ~2 minutes (PASS / HALT)
+- [ ] Index freshness checked (--check-freshness returned OK)
+      (PASS / HALT)
+- [ ] Query executed with relevant terms (PASS / HALT)
+- [ ] Top 3-5 results read for deep context (PASS / HALT)
+- [ ] No manual index rebuild performed (the watcher owns the index)
+      (PASS / HALT)
 
 ## Procedure
 
-### 1. Check the watcher is healthy
+### 1. Verify the watcher is healthy
 
-The fleet depends on the watcher. Verify it ran recently:
+The fleet depends on the watcher (cron every minute). If it stopped,
+results are silently stale. Check before querying:
 
 ```bash
 tail -3 /home/hermes/logs/brain-pull.log
 ```
 
-PASS: last entry within ~2 minutes. If older: the cron may be broken.
-Check `crontab -l` and the system clock BEFORE querying. Results from
-a dead watcher are silently stale -- that is the new failure class
-this check guards.
+PASS: last entry within ~2 minutes. If older: check `crontab -l` and
+the system clock BEFORE querying.
 
-### 2. Check index freshness
+### 2. Verify index freshness
 
 ```bash
 cd /srv/brain/agentic-brain && /opt/brain-tools/venv/bin/python brain-index/query.py --check-freshness
@@ -69,7 +81,10 @@ brain-index.log. NEVER rebuild manually: the watcher owns the index.
 A manual --force rebuild is reserved for corruption recovery, done
 as hermes, and only after diagnosis.
 
-### 3. Query
+### 3. Run the query
+
+Query using any mode of the `brain-index` tool (hybrid, vector-only,
+or keyword-only). Default: `query.py "<query>" --top-k 20`.
 
 VPS agents (direct, no SSH):
 
@@ -81,7 +96,7 @@ cd /srv/brain/agentic-brain
 Link (PC, via the key door):
 
 ```bash
-ssh -i ~/.ssh/id_ed25519_vps -p 2222 root@100.99.142.120 \
+ssh -i ~/.ssh/id_ed25519_vps -p 22 root@100.99.142.120 \
   "su - hermes -c \"cd /srv/brain/agentic-brain && /opt/brain-tools/venv/bin/python brain-index/query.py '<query>' --top-k 20\""
 ```
 
@@ -90,49 +105,69 @@ string sits in single quotes inside it. If the query contains an
 apostrophe, rephrase or escape it -- a broken quote fails the whole
 command.
 
-Results are ranked with scores, file paths, and snippets.
+Results return file path, domain, title, relevance score, and a text
+snippet:
 
-### 4. Read and cite
+```
+[1] research/insights/logbook.md [Research] -- logbook
+    score: 0.0325
+    The logbook is the shared append-only event log... (snippet)
+[2] governance/system-constitution.md [Governance] -- system-constitution
+    score: 0.0164
+    This file is the highest-precedence document... (snippet)
+```
 
-Read the top 3-5 results for context (read_file on the VPS paths, or
-cat via SSH). Cite exact paths in the artifact
-(research/insights/..., governance/..., library/...).
+### 4. Read top results
 
-### 5. Fallback -- VPS unreachable
+Read the top 3-5 results for full context (VPS agents: `read_file`;
+Link: `cat` the paths via the key door). The snippet in the query
+output is ~200 chars -- enough to decide relevance, not enough for
+understanding.
 
-If the key door or the tailnet is down:
+### 5. Cite
 
-1. grep fallback on a fresh clone (see
-   governance/skills/external/query-brain.md for the full
-   clone-and-query procedure).
-2. If the VPS is up but the index is broken: the external skill's
-   local rebuild path is the degraded mode. Report the watcher issue
-   to the operator -- do not silently accept a broken shared index.
+Cite exact paths in the artifact (research/insights/...,
+governance/..., library/...).
+
+## Fallback
+
+If the VPS or the shared index is unavailable:
+
+```bash
+grep -r "<search terms>" /srv/brain/agentic-brain/ --include="*.md"
+```
+
+Keyword-only search on the raw files of the live mirror. No semantic
+matching, no ranking. If the VPS itself is unreachable (tailnet and
+public door both down), fall back to the external query-brain skill
+(clone + local index). Report broken tooling to Suggi.
 
 ## Pitfalls
 
-- NEVER run index.py --force on the VPS index without a specific
-  corruption diagnosis. The watcher owns the index.
-- STALE freshness is a WATCHER problem, not a query problem.
+- **First query is slow (~2s).** The embedding model loads on first
+  query. Subsequent queries in the same process reuse the loaded model.
+- **NEVER run index.py --force on the VPS index without a specific
+  corruption diagnosis.** The watcher owns the index.
+- **STALE freshness is a WATCHER problem, not a query problem.**
   Diagnose before querying.
-- Do not clone the brain on the VPS for queries -- the live mirror
-  IS the checkout.
-- SSH quoting: remote command in double quotes, query in single
+- **SSH quoting.** Remote command in double quotes, query in single
   quotes. Apostrophes inside the query break it -- rephrase.
-- Tailscale SSH check re-prompts when either node key rotates
-  (client auto-updates). The key door (port 2222, tailnet-only,
-  key ~/.ssh/id_ed25519_vps) never re-prompts -- prefer it.
-- Fresh results lag GitHub by at most 1 minute (watcher window)
-  plus seconds of reindex time. Coordination is minute-scale; do
-  not treat seconds-late results as a bug.
+- **Tailscale SSH check re-prompts when node keys rotate.** The key
+  door (public :22, key ~/.ssh/id_ed25519_vps) never re-prompts.
+- **Outdated results.** Fresh results lag GitHub by at most 1 minute
+  (watcher window) plus seconds of reindex time. If the watcher is
+  alive, results are current. Do not treat seconds-late results as a
+  bug.
 
 ## Related
 
-- research/insights/vps-brainclone-plus-index.md -- the live-mirror
-  blueprint (authoritative system reference)
-- governance/skills/external/query-brain.md -- the clone-based query
-  skill for non-VPS agents and fallback
-- research/insights/brain-search-system.md -- the search-tool
-  blueprint (hybrid search, eval gate, technology choices)
-- brain-index/README.md -- tool usage documentation
+- `brain-index` skill -- the tool this skill queries (build and
+  maintain the index; non-VPS agents only)
 - AGENTS.md Retrieval section -- the gate that invokes this skill
+- `brain:research/insights/vps-brainclone-plus-index.md` -- the
+  live-mirror blueprint (authoritative system reference)
+- `brain:research/insights/brain-search-system.md` -- full system
+  blueprint (query modes, eval gate, technology choices)
+- `brain:governance/skills/external/query-brain.md` -- the
+  clone-based query skill for non-VPS agents and fallback
+- `brain-index/README.md` -- tool usage documentation
