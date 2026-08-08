@@ -135,6 +135,9 @@ public door both down), fall back to the external query-brain skill
   Diagnose before querying.
 - **SSH quoting.** Remote command in double quotes, query in single
   quotes. Apostrophes inside the query break it -- rephrase.
+- **Public repo opsec.** This skill lives in a public repo. Never add
+  key paths, the public IP, credentials, or tokens. The tailnet IP is
+  safe (unreachable outside the tailnet); everything else is not.
 - **Tailscale SSH check re-prompts when node keys rotate.** The
   key-based door on port 22 never re-prompts -- prefer it.
 - **Outdated results.** Fresh results lag GitHub by at most 1 minute
