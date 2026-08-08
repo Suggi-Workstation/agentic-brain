@@ -1,5 +1,5 @@
 ---
-name: write-evaluation-new
+name: write-evaluation
 description: "Write an evaluation: Source-Criteria-Findings-Verdict format with quality gates G1-G8, decorrelation rule, and cross-links. Use when asked to evaluate, review, scrutinize, or perform independent review of an agent's work."
 user-invocable: true
 disable-model-invocation: false
