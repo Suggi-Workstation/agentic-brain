@@ -1,5 +1,5 @@
 ---
-name: write-report-new
+name: write-report
 description: "Write a report: Executive Summary-Research-Methodology-Findings format with quality gates G1-G7, evaluation history, and cross-links. Use when asked to write a report, research a topic, investigate a question, or produce structured findings."
 user-invocable: true
 disable-model-invocation: false
