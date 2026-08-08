@@ -1,5 +1,5 @@
 ---
-name: template-proposals-new
+name: template-proposals
 id: 20260808T151716Z
 tier: core-template
 lock: approval-required
@@ -9,9 +9,6 @@ links: []
 ---
 
 # Proposal Template -- How We Write Proposals
-
-> DRAFT REVISION (2026-08-08) -- proposed update to `template-proposals.md`.
-> This file is for comparison only; NOT canonical until Suggi approves.
 
 A proposal is a structured request for approval. It describes a problem,
 proposes a solution, estimates impact, and surfaces open questions.
@@ -223,6 +220,4 @@ update the core-files proposal index, and notify Suggi.
 
 ---
 
-*DRAFT revision drafted 2026-08-08 by Link, pending Suggi approval. On
-approval: rename to `template-proposals.md`, restore `name:
-template-proposals`, retire the old file.*
+*Last updated: 2026-08-08 by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
