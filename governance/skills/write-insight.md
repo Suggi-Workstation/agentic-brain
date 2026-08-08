@@ -1,5 +1,5 @@
 ---
-name: write-insight-new
+name: write-insight
 description: "Write an insight: Insight-Evidence-Implications-Counter-evidence format with quality gates G1-G8, falsifiability, and cross-links. Use when asked to write an insight, capture a pattern, synthesize a finding, or distill a realization."
 user-invocable: true
 disable-model-invocation: false
