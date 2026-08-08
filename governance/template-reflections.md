@@ -10,11 +10,6 @@ links: []
 
 # Reflection Template -- How We Write Ideas, Opinions, and Reflections (IOR)
 
-> DRAFT REVISION (2026-08-08) -- proposed update to `template-reflections.md`.
-> This file is for comparison only; NOT canonical until Suggi approves.
-> Changes: single compliance checklist (no G# labels, no separate gate
-> list), all granular verification items from the skill consolidated here.
-
 A reflection is the atomic unit of team learning. It captures what an agent (or
 human) thinks, why they think it, and what they learned from testing it.
 One file, three sections, no fluff.
@@ -321,8 +316,4 @@ the Feynman pass.
 
 ---
 
-*DRAFT revision drafted 2026-08-08 by Link, pending Suggi approval. On
-approval: rename to `template-reflections.md`, restore `name:
-template-reflections`, retire the old file, and renumber cross-references.
-Rules are scar tissue -- each one should trace to a failure that proved
-it necessary.*
+*Last updated: 2026-08-08 by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
