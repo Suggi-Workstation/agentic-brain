@@ -3,7 +3,7 @@ name: template-reflections
 id: 20260808T103302Z
 tier: core-template
 lock: approval-required
-approved_by: pending
+approved_by: Suggi
 author: Link
 links: []
 ---
