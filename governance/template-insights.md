@@ -10,9 +10,6 @@ links: []
 
 # Insight Template -- How We Write Insights
 
-> DRAFT REVISION (2026-08-08) -- proposed update to `template-insights.md`.
-> This file is for comparison only; NOT canonical until Suggi approves.
-
 An insight is a durable, hard-won realization that changes how we operate.
 Unlike a reflection (which captures a specific session's learning), an
 insight is promoted from reflections, evaluations, or reports when the
@@ -234,6 +231,4 @@ This insight would be invalidated if:
 
 ---
 
-*DRAFT revision drafted 2026-08-08 by Link, pending Suggi approval. On
-approval: rename to `template-insights.md`, restore `name:
-template-insights`, retire the old file.*
+*Last updated: 2026-08-08 by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
