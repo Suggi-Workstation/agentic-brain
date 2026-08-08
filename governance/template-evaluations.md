@@ -10,9 +10,6 @@ links: []
 
 # Evaluation Template -- How We Write Evaluations
 
-> DRAFT REVISION (2026-08-08) -- proposed update to `template-evaluations.md`.
-> This file is for comparison only; NOT canonical until Suggi approves.
-
 An evaluation is a structured assessment of a proposal, report, insight,
 or system component. It answers: "Does this hold up under scrutiny?"
 Evaluations are written by a different agent than the original author
@@ -239,6 +236,4 @@ a precision error, not a factual error.
 
 ---
 
-*DRAFT revision drafted 2026-08-08 by Link, pending Suggi approval. On
-approval: rename to `template-evaluations.md`, restore `name:
-template-evaluations`, retire the old file.*
+*Last updated: 2026-08-08 by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
