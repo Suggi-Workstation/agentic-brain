@@ -3,7 +3,7 @@ name: template-insights
 id: 20260808T151540Z
 tier: core-template
 lock: approval-required
-approved_by: pending
+approved_by: Suggi
 author: Link
 links: []
 ---
