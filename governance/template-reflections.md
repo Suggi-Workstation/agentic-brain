@@ -1,5 +1,5 @@
 ---
-name: template-reflections-new
+name: template-reflections
 id: 20260808T103302Z
 tier: core-template
 lock: approval-required
