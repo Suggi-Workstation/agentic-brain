@@ -22,6 +22,18 @@ links:
 
 ## Known Agents
 
+| Agent | Location | GitHub Mirror | Role |
+|:--|:--|:--|:--|
+| Ava | VPS (OpenClaw) | `workspace-ava` | Suggi's personal assistant |
+| Cato | VPS (OpenClaw) | `workspace-cato` | Experimental self-learning solo agent |
+| Link | Hermes (local PC) | none (local only) | Suggi's personal assistant |
+| Linkie | Hermes (laptop) | none (local only) | Suggi's personal assistant |
+
+Ava, Link, and Linkie form a decorrelated agent team -- three independent
+perspectives cross-checking each other's work. Cato is an independent
+main agent pursuing autonomous research through a self-directed
+forge pipeline -- he operates solo, not as part of the review team.
+
 
 ## Repos
 
