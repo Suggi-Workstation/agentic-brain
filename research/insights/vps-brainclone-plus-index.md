@@ -30,6 +30,7 @@ links:
 |:--|:--|:--|:--|
 | 1 | 2026-08-07 | Link | Initial insight. |
 | 2 | 2026-08-08 | Link | Watcher interval 5 min -> 1 min (idle cycle cost measured: 0.42 s, 17 MB). |
+| 3 | 2026-08-09 | Link | Watcher logs moved to /srv/brain/logs (fleet-visible, root:agents) + logrotate (size 1M, rotate 5, compressed). |
 
 This file is the finished-system reference for the fleet VPS live
 mirror: the persistent agentic-brain clone, the shared index, and the
@@ -129,7 +130,7 @@ inspection alone.
                                 (root:agents, setgid 2775)
 /home/hermes/crontab            SCHEDULE: */5 * * * *
                                 /opt/brain-tools/brain-pull.sh
-/home/hermes/logs/              OBSERVABILITY: brain-pull.log,
+/srv/brain/logs/              OBSERVABILITY: brain-pull.log,
                                 brain-index.log
 ```
 

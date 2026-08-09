@@ -55,7 +55,7 @@ If content changed on GitHub recently, the matching reindex entry
 must exist in brain-index.log within ~2 minutes of the change:
 
 ```bash
-tail -3 /home/hermes/logs/brain-index.log
+tail -3 /srv/brain/logs/brain-index.log
 ```
 
 Final proof the door works end-to-end: run the watcher once manually
@@ -72,7 +72,7 @@ cd /srv/brain/agentic-brain && /opt/brain-tools/venv/bin/python brain-index/quer
 ```
 
 PASS: "OK -- N chunks, built <timestamp>". STALE means the watcher
-pulled but did not reindex -- investigate /home/hermes/logs/
+pulled but did not reindex -- investigate /srv/brain/logs/
 brain-index.log. NEVER rebuild manually: the watcher owns the index.
 A manual --force rebuild is reserved for corruption recovery, done
 as hermes, and only after diagnosis.
