@@ -400,6 +400,7 @@ Workstreams:
 - brain-pull.sh now auto-pushes committed-but-unpushed work after pull (never auto-commits).
 - Cron updated: */5 * * * * /opt/brain-tools/brain-pull.sh.
 - End-to-end test: this entry was committed locally and pushed BY THE WATCHER.
+
 ## [ENT-049] | 2026-08-09 11:15 UTC | Link | general | ref: /srv/brain/logs
 Watcher telemetry moved to /srv/brain/logs (root:agents 2775, fleet-readable).
 Logrotate installed: size 1M, rotate 5, compressed (su hermes agents).
