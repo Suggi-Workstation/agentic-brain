@@ -10,7 +10,7 @@ disable-model-invocation: false
 ## What This Skill Does
 
 Guides writing a reflection (IOR) to the agentic-brain. This skill holds
-the PROCEDURE (clone, Feynman loop, write, verify, commit, push, discard).
+the PROCEDURE (Feynman loop, read template, write, transfer, commit; the watcher pushes).
 The format SPECIFICATION and the compliance checklist live in
 `brain:governance/template-reflections.md` -- that file is the validator.
 This skill references its Reflection Checklist as the format gate and does
@@ -35,12 +35,11 @@ existing one instead -- see template versioning rules).
 
 Confirm ALL items before committing.
 
-- [ ] Procedure completed (clone, read template, write, verify, commit, push, discard) (PASS / HALT)
+- [ ] Procedure completed (read template, write, transfer, commit) (PASS / HALT)
 - [ ] Template read before writing: `template-reflections.md` opened in step 4 and followed (PASS / HALT)
-- [ ] File written ONLY to /tmp/brain-reflection/reflections/ (NOT the workspace) (PASS / HALT)
+- [ ] File written to the VPS clone (`reflections/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
 - [ ] Template validator gate: `template-reflections.md` Reflection Checklist -- all items confirmed PASS (PASS / HALT)
-- [ ] Committed and pushed: changes pushed to origin main (PASS / HALT)
-- [ ] Discarded clone: temporary directory removed from /tmp/ (PASS / HALT)
+- [ ] Committed on VPS clone as hermes; watcher pushes within 1 min (AHEAD: 0 verified) (PASS / HALT)
 
 ## Procedure
 
@@ -56,21 +55,14 @@ for the full procedure and self-check.
 See "When to Invoke" above. If no durable insight emerged, skip reflection
 writing entirely. Do not write a forced reflection to check a box.
 
-### 3. Clone the agentic-brain
-
-```bash
-cd /tmp && rm -rf brain-reflection && git clone --depth 1 \
-  "https://${GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-reflection
-```
-
-### 4. Read the format specification -- the validator
+### 3. Read the format specification -- the validator
 
 Read `brain:governance/template-reflections.md` BEFORE writing. It defines
 the I/O/R format, frontmatter schema, naming convention, and the complete
 Reflection Checklist. That checklist is the format gate for this skill.
 Follow it exactly.
 
-### 4b. Generate the ID
+### 4. Generate the ID
 
 Run `date -u +'%Y%m%dT%H%M%SZ'` and capture the output:
 
@@ -81,37 +73,40 @@ date -u +'%Y%m%dT%H%M%SZ'
 Paste the exact output into the `id:` field in the frontmatter.
 Never type the ID digits by hand. The exec output is authoritative.
 
-### 5. Write the reflection file
+### 5. Write the artifact
 
-Write ONLY to the agentic-brain. NEVER write reflections to the workspace.
+Write ONLY to the agentic-brain. NEVER leave artifacts in the workspace.
 
-Path: `/tmp/brain-reflection/reflections/YYYY-MM-DD_author_slug.md`
+VPS agents (running on the server, no SSH): write directly to
+`/srv/brain/agentic-brain/reflections/<short-slug>.md` (your filesystem).
 
-- `YYYY-MM-DD`: local date of original publication. Never change on
-  version updates.
-- `author`: lowercase agent name (ava, link, zelda, luffy, suggi).
-- `slug`: kebab-case title, max 60 chars.
-
-### 6. Commit and push
+VPS-connected agents (remote machines, e.g. PC or laptop agents): write
+locally (scratch), then transfer via the key door:
 
 ```bash
-cd /tmp/brain-reflection
-git add -A
-git diff --cached --stat
-git -c user.name="<AGENT>" -c user.email="<AGENT>@suggi-workspace.dev" \
-  commit -m "reflection: <short-slug>"
-git push origin main
+cat "<local-scratch>" | ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
+  'cat > /srv/brain/agentic-brain/reflections/<short-slug>.md'
 ```
 
-Replace `<AGENT>` with your agent name (e.g. Link, Ava). If the push
-fails, pull first, resolve, then push.
+`<short-slug>`: kebab-case, max 60 chars, unique.
+### 6. Commit on the VPS clone -- NO push
 
-### 7. Discard the clone
+The watcher pushes within 1 min and reindexes. Verify after ~1 min:
+`AHEAD: 0`, or a fresh push line in /srv/brain/logs/brain-pull.log.
+
+VPS agents:
 
 ```bash
-cd /tmp && rm -rf brain-reflection
+cd /srv/brain/agentic-brain && git add reflections/<short-slug>.md && \
+  git commit -m "reflection: <short-slug>" && echo COMMITTED
 ```
 
+VPS-connected agents:
+
+```bash
+ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
+  'su - hermes -c "cd /srv/brain/agentic-brain && git add reflections/<short-slug>.md && git commit -m \"reflection: <short-slug>\" && echo COMMITTED"'
+```
 ## Related
 
 - `brain:governance/template-reflections.md` -- format specification and compliance validator (Reflection Checklist, examples, anti-patterns)

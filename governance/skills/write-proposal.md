@@ -10,7 +10,7 @@ disable-model-invocation: false
 ## What This Skill Does
 
 Guides writing a proposal to the agentic-brain. This skill holds the
-PROCEDURE (clone, Feynman loop, write, verify, commit, push, discard).
+PROCEDURE (Feynman loop, read template, write, transfer, commit; the watcher pushes).
 The format SPECIFICATION and the compliance checklist live in
 `brain:governance/template-proposals.md` -- that file is the validator.
 This skill references its Proposal Checklist as the format gate and does
@@ -32,12 +32,11 @@ Skip for:
 
 Confirm ALL items before committing.
 
-- [ ] Procedure completed (clone, read template, write, verify, commit, push, discard) (PASS / HALT)
+- [ ] Procedure completed (read template, write, transfer, commit) (PASS / HALT)
 - [ ] Template read before writing: `template-proposals.md` opened in step 4 and followed (PASS / HALT)
-- [ ] File written ONLY to /tmp/brain-prop/research/proposals/ (NOT the workspace) (PASS / HALT)
+- [ ] File written to the VPS clone (`research/proposals/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
 - [ ] Template validator gate: `template-proposals.md` Proposal Checklist -- all items confirmed PASS (PASS / HALT)
-- [ ] Committed and pushed: changes pushed to origin main (PASS / HALT)
-- [ ] Discarded clone: temporary directory removed from /tmp/ (PASS / HALT)
+- [ ] Committed on VPS clone as hermes; watcher pushes within 1 min (AHEAD: 0 verified) (PASS / HALT)
 
 ## Procedure
 
@@ -54,21 +53,14 @@ A proposal is warranted when a structural change needs approval before
 implementation: new gates, architecture changes, policy updates,
 process additions. The problem must be specific and evidence-backed.
 
-### 3. Clone the agentic-brain
-
-```bash
-cd /tmp && rm -rf brain-prop && git clone --depth 1 \
-  "https://${GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-prop
-```
-
-### 4. Read the format specification -- the validator
+### 3. Read the format specification -- the validator
 
 Read `brain:governance/template-proposals.md` BEFORE writing. It defines
 the Problem-Solution-Impact format with Approval Gate, frontmatter schema,
 and the complete Proposal Checklist. That checklist is the format gate for
 this skill. Follow it exactly.
 
-### 4b. Generate the ID
+### 4. Generate the ID
 
 Run `date -u +'%Y%m%dT%H%M%SZ'` and capture the output:
 
@@ -79,34 +71,40 @@ date -u +'%Y%m%dT%H%M%SZ'
 Paste the exact output into the `id:` field in the frontmatter.
 Never type the ID digits by hand. The exec output is authoritative.
 
-### 5. Write the proposal file
+### 5. Write the artifact
 
-Write ONLY to the agentic-brain. NEVER write proposals to the workspace.
+Write ONLY to the agentic-brain. NEVER leave artifacts in the workspace.
 
-Path: `/tmp/brain-prop/research/proposals/<short-slug>.md`
+VPS agents (running on the server, no SSH): write directly to
+`/srv/brain/agentic-brain/research/proposals/<short-slug>.md` (your filesystem).
+
+VPS-connected agents (remote machines, e.g. PC or laptop agents): write
+locally (scratch), then transfer via the key door:
+
+```bash
+cat "<local-scratch>" | ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
+  'cat > /srv/brain/agentic-brain/research/proposals/<short-slug>.md'
+```
 
 `<short-slug>`: kebab-case, max 60 chars, unique.
+### 6. Commit on the VPS clone -- NO push
 
-### 6. Commit and push
+The watcher pushes within 1 min and reindexes. Verify after ~1 min:
+`AHEAD: 0`, or a fresh push line in /srv/brain/logs/brain-pull.log.
 
-```bash
-cd /tmp/brain-prop
-git add -A
-git diff --cached --stat
-git -c user.name="<AGENT>" -c user.email="<AGENT>@suggi-workspace.dev" \
-  commit -m "proposal: <short-slug>"
-git push origin main
-```
-
-Replace `<AGENT>` with your agent name (e.g. Link, Ava). If the push
-fails, pull first, resolve, then push.
-
-### 7. Discard the clone
+VPS agents:
 
 ```bash
-cd /tmp && rm -rf brain-prop
+cd /srv/brain/agentic-brain && git add research/proposals/<short-slug>.md && \
+  git commit -m "proposal: <short-slug>" && echo COMMITTED
 ```
 
+VPS-connected agents:
+
+```bash
+ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
+  'su - hermes -c "cd /srv/brain/agentic-brain && git add research/proposals/<short-slug>.md && git commit -m \"proposal: <short-slug>\" && echo COMMITTED"'
+```
 ## Related
 
 - `brain:governance/template-proposals.md` -- format specification and compliance validator (Proposal Checklist, examples)
