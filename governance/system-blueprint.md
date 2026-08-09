@@ -24,15 +24,17 @@ links:
 
 | Agent | Location | GitHub Mirror | Role |
 |:--|:--|:--|:--|
-| Ava | VPS (OpenClaw) | `workspace-ava` | Suggi's personal assistant |
-| Cato | VPS (OpenClaw) | `workspace-cato` | Experimental self-learning solo agent |
+| Ava | Openclaw (VPS) | `workspace-ava` | Manager of the VPS, personal assistant |
 | Link | Hermes (local PC) | none (local only) | Suggi's personal assistant |
 | Linkie | Hermes (laptop) | none (local only) | Suggi's personal assistant |
+| Morpheus | Hermes (VPS) | none (VPS only) | Manager of the VPS, personal assistant |
+| Neo | Hermes (VPS) | none (VPS only) | Experimental self-learning solo agent |
 
-Ava, Link, and Linkie form a decorrelated agent team -- three independent
-perspectives cross-checking each other's work. Cato is an independent
-main agent pursuing autonomous research through a self-directed
-forge pipeline -- he operates solo, not as part of the review team.
+Link and Linkie are local (PC, Laptop) assistants with Access to the VPS.
+Morpheus and Ava are independet managers of the VPS and help Suggi build and
+maintaing it.
+Neo is an independent solo main agent pursuing autonomous research through a 
+self-directed learning.
 
 
 ## Repos
