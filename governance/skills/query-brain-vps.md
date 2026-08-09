@@ -146,6 +146,11 @@ public door both down), fall back to the external query-brain skill
   query. Subsequent queries in the same process reuse the loaded model.
 - **NEVER run index.py --force on the VPS index without a specific
   corruption diagnosis.** The watcher owns the index.
+- **Bare `crontab` is EDIT mode.** `crontab` with no flag opens the
+  editor and can wipe the crontab in non-interactive contexts. Read:
+  `crontab -l` (own) or `crontab -u hermes -l` (root). Install:
+  `echo '<line>' | crontab -u hermes -`. (ENT-049: harness bug wiped
+  hermes crontab 2026-08-09; restored within 3 min.)
 - **STALE freshness is a WATCHER problem, not a query problem.**
   Diagnose before querying.
 - **SSH quoting.** Remote command in double quotes, query in single
