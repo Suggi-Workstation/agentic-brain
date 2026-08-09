@@ -20,6 +20,9 @@ links:
 - **URL:** https://github.com/Suggi-Workstation
 - **Access:** GitHub UI; `gh` CLI; `git` (pull/push)
 
+## Known Agents
+
+
 ## Repos
 
 ### #1 - terminal
