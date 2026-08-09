@@ -27,8 +27,8 @@ watcher keeps the live mirror and the index fresh automatically.
 
 ## Self-Check -- HARD GATE
 
-- [ ] Watcher healthy: /home/hermes/logs/brain-pull.log last entry
-      within ~2 minutes (PASS / HALT)
+- [ ] Watcher healthy: cron line present + manual run exits 0
+      (PASS / HALT)
 - [ ] Index freshness checked (--check-freshness returned OK)
       (PASS / HALT)
 - [ ] Query executed with relevant terms (PASS / HALT)
@@ -44,11 +44,26 @@ The fleet depends on the watcher (cron every minute). If it stopped,
 results are silently stale. Check before querying:
 
 ```bash
-tail -3 /home/hermes/logs/brain-pull.log
+crontab -l | grep brain-pull
 ```
 
-PASS: last entry within ~2 minutes. If older: check `crontab -l` and
-the system clock BEFORE querying.
+PASS: the cron line is present. The watcher logs are EVENT-DRIVEN:
+brain-pull.log records pushes only, brain-index.log records reindexes
+only. Quiet logs on a quiet system are normal, NOT a failure.
+
+If content changed on GitHub recently, the matching reindex entry
+must exist in brain-index.log within ~2 minutes of the change:
+
+```bash
+tail -3 /home/hermes/logs/brain-index.log
+```
+
+Final proof the door works end-to-end: run the watcher once manually
+(idempotent -- an idle run does nothing; exit 0 = healthy):
+
+```bash
+/opt/brain-tools/brain-pull.sh && echo WATCHER_OK
+```
 
 ### 2. Verify index freshness
 
