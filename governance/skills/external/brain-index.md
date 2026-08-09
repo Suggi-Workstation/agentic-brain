@@ -1,30 +1,8 @@
 ---
 name: brain-index
 description: "Build, evaluate, reindex, and maintain the agentic-brain, or brain, hybrid search index. Covers index.py (full + incremental), eval.py (recall@20, MRR, nDCG), gold queries, freshness heartbeat, index freshness, check freshness, and the eval-first build pattern."
-version: 1.0
-author: Link
-tags:
-  - brain-index
-  - hybrid-search
-  - semantic-search
-  - eval-gate
-  - freshness
-  - bm25
-  - vector-search
-  - bge-small
-links:
-  - agentic-brain:brain-index/
-  - agentic-brain:research/insights/brain-search-system.md
-  - agentic-brain:research/proposals/brain-index-search-proposal.md
-trigger_keywords:
-  - brain-index
-  - reindex
-  - rebuild index
-  - build the index
-  - eval the index
-  - gold queries
-  - index freshness
-  - check freshness
+user-invocable: true
+disable-model-invocation: false
 ---
 
 # Brain-Index -- Hybrid Search for the Agentic-Brain
