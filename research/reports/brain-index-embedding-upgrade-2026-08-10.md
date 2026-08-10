@@ -4,7 +4,7 @@ id: 20260810T161731Z
 tier: report
 author: Link
 tags: [brain-index, embedding, retrieval, eval, fleet-infrastructure]
-links: [research/insights/brain-search-system.md, research/evaluations/brain-index-upgrade-evaluation.md, governance/template-reports.md]
+links: [research/insights/brain-search-system.md, governance/template-reports.md]
 ---
 
 # Brain-Index Embedding Upgrade: EmbeddingGemma-300m, Reranker Removal, and Warm Daemon
@@ -85,18 +85,13 @@ The warm daemon resolves the latency question without resurrecting server comple
 
 ## Evaluation History
 
-- `research/evaluations/brain-index-upgrade-evaluation.md` -- independent evaluation of this report (APPROVE WITH CHANGES resolved) -- cross-referenced.
+| Evaluator | Date | Verdict | Changes Made |
+|:--|:--|:--|:--|
+| Pending | 2026-08-10 | NOT YET EVALUATED | No independent evaluation pass has been performed on this report yet |
 
 ## Cross-Links
 
 - `research/insights/brain-search-system.md` -- the system blueprint this report updates
-- `research/evaluations/brain-index-upgrade-evaluation.md` -- this report's evaluation
 - `research/insights/two-tier-fleet-memory-single-vector-space.md` -- related fleet memory architecture
 - `governance/template-reports.md` -- format validator used for this file
 - `brain-index/README.md` -- tool documentation
-
-## Version History
-
-| Date | Author | Change |
-|------|--------|--------|
-| 2026-08-10 | Link | Initial report of the brain-index embedding upgrade session |
