@@ -1,8 +1,11 @@
 # Gold queries for brain-index eval.
 # Each entry: query, expected file (must appear in top-20), and domain.
-# These are written against the CURRENT brain state (126 files, 2026-07-20).
+# Coverage: governance, research (insights/proposals/evaluations/reports),
+# reflections, investing, and all library domains.
+# Refresh cadence: quarterly (see futureagi RAG eval best practices).
 
 queries:
+  # --- Governance (existing, kept) ---
   - qid: g001
     question: "What is the stale index problem and how does it affect retrieval?"
     gold_file: "research/insights/stale-index-problem.md"
@@ -121,4 +124,186 @@ queries:
     question: "What is the deepseekv4pro insight and what does it say about the model?"
     gold_file: "research/insights/deepseekv4pro.md"
     gold_heading: "deepseekv4pro"
+    domain: "Research"
+
+  # --- New: investing (pipeline, frameworks, portfolios) ---
+  - qid: g021
+    question: "What does the final investment pipeline architecture look like?"
+    gold_file: "investing/pipeline/investment-pipeline-final.md"
+    gold_heading: ""
+    domain: "Investing"
+
+  - qid: g022
+    question: "How is intrinsic value calculated using discounted cash flow?"
+    gold_file: "investing/frameworks/dcf-intrinsic-value.md"
+    gold_heading: ""
+    domain: "Investing"
+
+  - qid: g023
+    question: "What is the deep moat scoring framework?"
+    gold_file: "investing/frameworks/deep-moat-scoring.md"
+    gold_heading: ""
+    domain: "Investing"
+
+  - qid: g024
+    question: "What is Suggi's investment approach as documented in governance?"
+    gold_file: "governance/suggi-investment-approach.md"
+    gold_heading: ""
+    domain: "Investing"
+
+  - qid: g025
+    question: "What stocks are in the current main investment portfolio?"
+    gold_file: "investing/main-portfolio.md"
+    gold_heading: ""
+    domain: "Investing"
+
+  - qid: g026
+    question: "What is the current main portfolio allocation?"
+    gold_file: "investing/main-portfolio.md"
+    gold_heading: ""
+    domain: "Investing"
+
+  - qid: g027
+    question: "How is the Beneish M-Score used to detect earnings manipulation?"
+    gold_file: "library/accounting-financial-shenanigans/beneish-m-score.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g028
+    question: "What are common revenue recognition shenanigans in financial reporting?"
+    gold_file: "library/accounting-financial-shenanigans/revenue-recognition-shenanigans.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g029
+    question: "How do non-GAAP metrics and pro-forma figures get manipulated?"
+    gold_file: "library/accounting-financial-shenanigans/non-gaap-metrics-and-pro-forma-manipulation.md"
+    gold_heading: ""
+    domain: "Library"
+
+  # --- New: library domains ---
+  - qid: g030
+    question: "What lessons come from the 2008 financial crisis case study?"
+    gold_file: "library/case-studies/2008-financial-crisis.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g031
+    question: "What went wrong in the Challenger disaster regarding organizational silence?"
+    gold_file: "library/case-studies/challenger-disaster-organizational-silence.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g032
+    question: "What does the intelligent investor book teach about value investing?"
+    gold_file: "library/books/the-intelligent-investor.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g033
+    question: "What are the main ideas in Thinking Fast and Slow?"
+    gold_file: "library/books/thinking-fast-and-slow.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g034
+    question: "What does the Black Swan book say about rare unpredictable events?"
+    gold_file: "library/books/the-black-swan-taleb.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g035
+    question: "How does the agency problem play out in the Enron scandal?"
+    gold_file: "library/case-studies/enron-scandal.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g036
+    question: "What are key techniques for agent memory and persistence in AI systems?"
+    gold_file: "library/coding-agentic-ai/agent-memory-and-persistence.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g037
+    question: "How does multi-agent orchestration work?"
+    gold_file: "library/coding-agentic-ai/multi-agent-orchestration.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g038
+    question: "What is cognitive load theory in education?"
+    gold_file: "library/education-learning/cognitive-load-theory.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g039
+    question: "How does spaced repetition improve learning and retrieval practice?"
+    gold_file: "library/education-learning/spaced-repetition-and-retrieval-practice.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g040
+    question: "What is the Feynman technique for learning?"
+    gold_file: "library/education-learning/feynman-technique-and-learning-heuristics.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g041
+    question: "What are common logical fallacies?"
+    gold_file: "library/communication/logical-fallacies.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g042
+    question: "How does propaganda and misinformation spread?"
+    gold_file: "library/communication/propaganda-and-misinformation.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g043
+    question: "What is the greenhouse effect and the carbon cycle?"
+    gold_file: "library/earth-climate/carbon-cycle-greenhouse-effect.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g044
+    question: "What are the ethics considerations for AI systems?"
+    gold_file: "library/ethics-philosophy/ai-ethics.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g045
+    question: "How do bond pricing and fixed income markets work?"
+    gold_file: "library/finance/bond-pricing-and-fixed-income-markets.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g046
+    question: "What is Bayesian reasoning and how is it used in forecasting?"
+    gold_file: "library/probabilistic-thinking-forecasting/bayesian-reasoning.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g047
+    question: "What is the psychology of persuasion according to influence?"
+    gold_file: "library/books/influence-psychology-of-persuasion.md"
+    gold_heading: ""
+    domain: "Library"
+
+  - qid: g048
+    question: "What is the consciousness checklist in governance?"
+    gold_file: "governance/consciousness-checklist.md"
+    gold_heading: ""
+    domain: "Governance"
+
+  - qid: g049
+    question: "What did the child agent inheritance design teach about building new agents?"
+    gold_file: "reflections/2026-08-06_link_child-agent-inheritance-validated.md"
+    gold_heading: ""
+    domain: "Reflections"
+
+  - qid: g050
+    question: "How does the two-tier fleet memory work in one vector space?"
+    gold_file: "research/insights/two-tier-fleet-memory-single-vector-space.md"
+    gold_heading: ""
     domain: "Research"
