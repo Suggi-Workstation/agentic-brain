@@ -175,6 +175,24 @@ def rrf_fusion(dense_results: list, sparse_results: list,
 
 
 
+# Module-level cache: the cross-encoder loads ONCE per process, not per
+# query. Loading a 278M/1.1GB model per call made eval (100 queries) take
+# 13+ minutes; with the cache the model loads once and every query reuses it.
+_RERANKER_CACHE = {}
+
+
+def _get_reranker(rc: dict):
+    """Load the cross-encoder once per process; return cached instance."""
+    key = (rc["model"], rc.get("max_length", 512))
+    if key not in _RERANKER_CACHE:
+        from sentence_transformers import CrossEncoder
+
+        _RERANKER_CACHE[key] = CrossEncoder(
+            rc["model"], max_length=rc.get("max_length", 512)
+        )
+    return _RERANKER_CACHE[key]
+
+
 def rerank(query: str, results: list, top_k: int = 20) -> list:
     """Cross-encoder rerank of fused candidates (stage 2, in-process)."""
     if not results or not cfg.get("reranker", {}).get("enabled", False):
@@ -186,7 +204,7 @@ def rerank(query: str, results: list, top_k: int = 20) -> list:
         return results
 
     rc = cfg["reranker"]
-    model = CrossEncoder(rc["model"], max_length=rc.get("max_length", 512))
+    model = _get_reranker(rc)
     pairs = [(query, r["snippet"]) for r in results]
     scores = model.predict(pairs, batch_size=rc.get("batch_size", 16),
                            show_progress_bar=False)

@@ -21,7 +21,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 
 # --- Import query functions from query.py ---
 sys.path.insert(0, str(SCRIPT_DIR))
-from query import load_index, load_embedder, dense_search, sparse_search, rrf_fusion
+from query import load_index, load_embedder, dense_search, sparse_search, rrf_fusion, rerank
 
 
 def load_gold_queries():
@@ -88,6 +88,9 @@ def run_eval(verbose: bool = False):
             results = dense[:20]
         else:
             results = sparse[:20]
+
+        # Stage 2: cross-encoder rerank (same path agents get in query.py)
+        results = rerank(q["question"], results, top_k=20)
 
         hit = recall_at_k(q["gold_file"], results, 20)
         rr = reciprocal_rank(q["gold_file"], results)

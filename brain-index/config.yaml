@@ -10,7 +10,7 @@ embedding:
 
 reranker:
   enabled: true
-  model: "BAAI/bge-reranker-v2-m3"
+  model: "BAAI/bge-reranker-base"
   max_length: 512
   batch_size: 16
   top_k: 20
