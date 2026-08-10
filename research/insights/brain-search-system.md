@@ -60,9 +60,11 @@ prototype of this system:
   Link batch1/2), each with expected file hits and heading targets
 - **Freshness:** `heartbeat.json` with `git rev-parse HEAD` comparison
 - **Fusion:** semantic (embeddinggemma-300m) + BM25 +
-  frontmatter-graph expansion, then cross-encoder rerank
-  (BAAI/bge-reranker-v2-m3, in-process) on the top-20
-  (three retrieval edges combined)
+  frontmatter-graph expansion (three retrieval edges combined).
+  Cross-encoder reranking was evaluated (bge-reranker-base) and
+  REMOVED: it added +15s/query (model reload per fresh process) and
+  measurably hurt ranking (MRR 0.817 with vs 0.955 without on the
+  100-query gold set). Embed + BM25 + RRF is the final pipeline.
 
 The prototype proved the architecture at scale. The only failure mode
 was data quality: the 1,348 library files had inconsistent frontmatter
@@ -121,8 +123,18 @@ brain-index/                  <-- tool CODE (in repo)
   config.yaml                 Embedding model, chunk size, RRF weights
   gold-queries.yaml           Test queries with expected file hits
   heartbeat.json              Freshness metadata (last_index_utc, git_head_sha)
-  requirements.txt            Python deps (sentence-transformers, rank-bm25, pyyaml, numpy)
+  requirements.txt            Python deps (sentence-transformers, pyyaml, numpy)
   README.md                   Setup and usage for every agent
+
+/opt/brain-tools/             <-- FLEET tools (NOT in repo)
+  brain-embed.py              Warm embedding daemon (embeddinggemma-300m,
+                              loaded once at boot; 127.0.0.1:8099)
+  brain-embed.service         systemd unit (enabled, auto-restart)
+
+query.py embeds queries via the warm daemon (sub-second); if the
+daemon is down it falls back to in-process model loading (~15s).
+Indexing (index.py) always embeds in-process -- the daemon is a
+query-time accelerator, not an indexing dependency.
 
 ~/.brain-index/               <-- index DATA (per-machine, NOT in repo)
   chunks.jsonl                Text chunks + frontmatter metadata
@@ -371,12 +383,12 @@ This architecture would be invalidated if:
   HEAD build identical indexes.
 
 - **Index build time exceeds the session budget.** At 50,000 files,
-  a full rebuild with embeddinggemma-300m on CPU takes ~5-10
-  minutes (300M params, 768-dim, batch 32). An agent
-  that needs to rebuild from scratch mid-session cannot afford the
-  wait. Mitigation: incremental indexing (only changed files) takes
-  seconds. Full rebuilds are a once-per-machine setup cost, not a
-  per-session cost.
+  a full rebuild with embeddinggemma-300m on CPU takes ~30-40
+  minutes for ~5,000 chunks on a 12-core EPYC (300M params, 768-dim,
+  batch 32; measured 2026-08-10). An agent that needs to rebuild from
+  scratch mid-session cannot afford the wait. Mitigation: incremental
+  indexing (only changed files) takes seconds. Full rebuilds are a
+  once-per-machine setup cost, not a per-session cost.
 
 - **The eval gate becomes the bottleneck.** Writing gold queries for
   every new library domain requires domain expertise (Suggi's
