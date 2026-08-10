@@ -408,3 +408,26 @@ Incident: verification harness ran BARE crontab (su ate the -l flag) -> edit
 mode wiped hermes crontab ~11:09Z. Restored 11:12Z. Scar encoded: never run
 crontab without an explicit flag (-l read, -e edit, -u user, - stdin install).
 Cron: * * * * * /opt/brain-tools/brain-pull.sh >> /srv/brain/logs/brain-pull.log 2>&1
+
+## [ENT-050] | 2026-08-10 11:58 UTC | Link | general | ref: research/insights/two-tier-fleet-memory-single-vector-space.md | see: 20260810T112709Z
+Shared Mnemosyne fleet memory COMPLETE (Phase A + B, all 3 agents).
+- Phase A: VPS blind relay /srv/mnemosyne-shared (systemd hermes-mnemosyne-sync,
+  tailnet HTTPS 8765, api-key HMAC + client-side encryption, encrypted events only).
+- Phase B: sync bridge on Link, Linkie, Morpheus -- per-agent local shared DB,
+  bidirectional 5-min sync through the relay. Stdlib-only protocol, zero tokens.
+- Fleet embedding upgrade: BAAI/bge-large-en-v1.5 (1024-dim, int8) on ALL personal
+  + shared DBs (was nomic-768). ONE model for the fleet -- never mixed per agent.
+  Scar: phantom-768 rows from old-model process writing into rebuilt DB; fixed by
+  coordinated reindex after app restarts. Model switches are fleet operations:
+  stop writers -> switch env -> reindex -> restart.
+- Cron: Hermes cron (no_agent Python script, every 5m) on all 3 machines.
+  Linkie: active_profile=linkie + app restart (no Windows task, no popup --
+  MnemosyneSync schtasks DELETED). Morpheus: hermes-gateway-morpheus systemd
+  (headless ticker; OS crontab mnemosyne line removed, brain watcher kept).
+- Auto-embedding verified 3/3 agents with live test writes (vec 1024 at store,
+  no manual reindex; test facts deleted).
+- AGENTS.md Retrieval split into personal + shared tiers on all 3 agents
+  (committed: Link 4f47982, Linkie dd9fb40, Morpheus 402e9f1).
+- Insight + reflection written to brain (watcher pushed 1b6e9de to GitHub).
+- Shared DBs currently EMPTY by design -- populated deliberately via
+  mnemosyne_shared_remember (kinds: meta | preference | correction | identity).
