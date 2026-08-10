@@ -65,7 +65,10 @@ def run_eval(verbose: bool = False):
         sys.exit(1)
 
     chunks, vectors = load_index()
-    model = load_embedder()
+    # dense_search embeds via the warm daemon when available; the in-process
+    # model is only needed as fallback, so we DON'T preload it here (saves
+    # the ~11s cold load when the daemon is up).
+    model = None
 
     recall_hits = 0
     mrr_sum = 0.0

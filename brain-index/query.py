@@ -47,17 +47,59 @@ def load_index():
 
 
 def load_embedder():
-    """Lazy-load the embedding model."""
+    """Lazy-load the embedding model (in-process fallback)."""
     from sentence_transformers import SentenceTransformer
     model = SentenceTransformer(cfg["embedding"]["model"],
                                 device=cfg["embedding"]["device"])
     return model
 
 
+# --- Warm daemon integration ---
+# The brain-embed daemon keeps the embedding model loaded (127.0.0.1:8099),
+# so queries skip the ~11s cold model load. If the daemon is down, we fall
+# back to in-process loading (same behavior as before). Daemon is only used
+# for QUERY embedding (encode_query); indexing uses in-process encode_document.
+_EMBED_DAEMON_URL = "http://127.0.0.1:8099/embed"
+_DAEMON_DEAD = False
+
+
+def _daemon_embed(texts, is_query):
+    """Try the warm daemon; returns list of vectors or None on failure."""
+    global _DAEMON_DEAD
+    if _DAEMON_DEAD:
+        return None
+    try:
+        import urllib.request
+
+        payload = json.dumps({"texts": texts, "query": is_query}).encode("utf-8")
+        req = urllib.request.Request(
+            _EMBED_DAEMON_URL, data=payload,
+            headers={"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        return data["embeddings"]
+    except Exception:
+        # Daemon unreachable once -> don't hammer it every query
+        _DAEMON_DEAD = True
+        return None
+
+
+def embed_query(query: str):
+    """Embed a query via the warm daemon, falling back to in-process."""
+    vecs = _daemon_embed([query], is_query=True)
+    if vecs is not None:
+        import numpy as _np
+        v = _np.array(vecs[0], dtype=_np.float32)
+        n = _np.linalg.norm(v)
+        return v / n if n > 0 else v
+    model = load_embedder()
+    return model.encode_query(query, normalize_embeddings=True)
+
+
 def dense_search(query: str, model, chunks: list, vectors: np.ndarray,
                  top_k: int) -> list:
     """Semantic (vector) search."""
-    q_vec = model.encode_query(query, normalize_embeddings=True)
+    q_vec = embed_query(query)
     scores = np.dot(vectors, q_vec)
     top_idx = np.argsort(scores)[-top_k:][::-1]
     results = []
@@ -270,8 +312,10 @@ if __name__ == "__main__":
     results_sparse = []
 
     if not args.no_dense:
-        model = load_embedder()
-        results_dense = dense_search(args.query, model, chunks, vectors,
+        # dense_search embeds via the warm daemon; the in-process model is
+        # only loaded lazily as fallback inside embed_query, so we do NOT
+        # preload it here (avoids the ~11s cold load when the daemon is up).
+        results_dense = dense_search(args.query, None, chunks, vectors,
                                      args.top_k)
 
     if not args.no_sparse:
