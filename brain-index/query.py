@@ -57,7 +57,7 @@ def load_embedder():
 def dense_search(query: str, model, chunks: list, vectors: np.ndarray,
                  top_k: int) -> list:
     """Semantic (vector) search."""
-    q_vec = model.encode([query], normalize_embeddings=True)[0]
+    q_vec = model.encode_query(query, normalize_embeddings=True)
     scores = np.dot(vectors, q_vec)
     top_idx = np.argsort(scores)[-top_k:][::-1]
     results = []
@@ -174,6 +174,27 @@ def rrf_fusion(dense_results: list, sparse_results: list,
     return list(seen_files.values())[:top_k]
 
 
+
+def rerank(query: str, results: list, top_k: int = 20) -> list:
+    """Cross-encoder rerank of fused candidates (stage 2, in-process)."""
+    if not results or not cfg.get("reranker", {}).get("enabled", False):
+        return results
+    try:
+        from sentence_transformers import CrossEncoder
+    except Exception:
+        print("reranker disabled: sentence-transformers unavailable")
+        return results
+
+    rc = cfg["reranker"]
+    model = CrossEncoder(rc["model"], max_length=rc.get("max_length", 512))
+    pairs = [(query, r["snippet"]) for r in results]
+    scores = model.predict(pairs, batch_size=rc.get("batch_size", 16),
+                           show_progress_bar=False)
+    for r, s in zip(results, scores):
+        r["rerank_score"] = float(s)
+    reranked = sorted(results, key=lambda x: x["rerank_score"], reverse=True)
+    return reranked[:top_k]
+
 def check_freshness():
     """Check if index is current against git HEAD."""
     import subprocess
@@ -245,6 +266,9 @@ if __name__ == "__main__":
         results = results_dense[:args.top_k]
     else:
         results = results_sparse[:args.top_k]
+
+    if cfg.get("reranker", {}).get("enabled", False):
+        results = rerank(args.query, results, top_k=args.top_k)
 
     if not results:
         print("No results found.")

@@ -3,10 +3,17 @@
 # (dense-only via sentence-transformers; BM25 provides the sparse half)
 
 embedding:
-  model: "BAAI/bge-m3"
-  dim: 1024
+  model: "unsloth/embeddinggemma-300m"
+  dim: 768
   batch_size: 32
   device: "cpu"
+
+reranker:
+  enabled: true
+  model: "BAAI/bge-reranker-v2-m3"
+  max_length: 512
+  batch_size: 16
+  top_k: 20
 
 chunking:
   max_chars: 1500

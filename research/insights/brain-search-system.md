@@ -51,14 +51,17 @@ The June 2026 hub-brain archive (`Suggi-Workstation/archive`, folder
 `hub-brain - github repo - 20.06.26`) contains a fully operational
 prototype of this system:
 
-- **Embedder:** `BAAI/bge-m3` (1024-dim), sentence-transformers
+- **Embedder:** `unsloth/embeddinggemma-300m` (768-dim,
+  public mirror of google/embeddinggemma-300m), sentence-transformers
 - **Index scale:** 24,592 chunks across 1,648 brain files, 36 domains
 - **Tools:** `build_semantic_index.py` (indexer), `query_brain.py`
   (query CLI), `eval_retrieval.py` (eval harness)
 - **Eval gate:** 230 gold queries across 4 batches (Ava batch1/2,
   Link batch1/2), each with expected file hits and heading targets
 - **Freshness:** `heartbeat.json` with `git rev-parse HEAD` comparison
-- **Fusion:** semantic (bge-m3) + BM25 + frontmatter-graph expansion
+- **Fusion:** semantic (embeddinggemma-300m) + BM25 +
+  frontmatter-graph expansion, then cross-encoder rerank
+  (BAAI/bge-reranker-v2-m3, in-process) on the top-20
   (three retrieval edges combined)
 
 The prototype proved the architecture at scale. The only failure mode
@@ -154,7 +157,7 @@ same eval gate.
 
 | Component | Choice | Why |
 |---|---|---|
-| Embedding model | `BAAI/bge-m3` (1024-dim) | Multilingual dense+sparse+ColBERT (dense-only via sentence-transformers). MTEB ~63. Zero API cost. Runs on CPU. Upgraded from bge-small-en-v1.5 on 2026-08-10. |
+| Embedding model | `unsloth/embeddinggemma-300m` (768-dim) | English-optimized, MTEB ~69 (Eng v2). Zero API cost. Runs on CPU. Public mirror of google/embeddinggemma-300m. Upgraded from bge-m3 on 2026-08-10. |
 | Keyword search | BM25 via `rank-bm25` | Python-native, no database. Same algorithm both old and new systems used. |
 | Rank fusion | Reciprocal Rank Fusion (k=60) | Balances semantic and keyword signals. Same formula the archive prototype used. |
 | Chunking | ~400 tokens, heading-aware, 80-token overlap | Respects markdown headings as natural boundaries. Matches the archive pattern. |
@@ -162,11 +165,13 @@ same eval gate.
 | Eval metric | recall@20, MRR, nDCG | Industry standard. Catches regression before deployment. |
 | Freshness | `heartbeat.json` vs `git rev-parse HEAD` | Dead-man's-switch: stale index = visible alarm to any agent. |
 
-### Embedding model -- why bge-m3
+### Embedding model -- why embeddinggemma-300m
 
 The archive prototype used bge-small-en-v1.5 (24,592 chunks at 384
 dimensions, ~38 MB of float16 vectors, CPU-only, ~2 minutes per full
-build). Upgraded to BAAI/bge-m3 (1024-dim, MTEB ~63) on 2026-08-10
+build). Upgraded to unsloth/embeddinggemma-300m (768-dim, MTEB ~69
+English v2, public mirror of google/embeddinggemma-300m) on
+2026-08-10 -- best English quality for its size, in-process
 for multilingual support and better retrieval quality; dense-only via
 sentence-transformers, with BM25 providing the sparse half. Full
 rebuild takes 10-30 minutes on the EPYC CPU (one-time cost; the
@@ -179,7 +184,9 @@ one of the most battle-tested small embedding models for English text.
 It was designed for retrieval tasks on documents like these -- markdown
 files with structured frontmatter and prose bodies.
 
-Alternative models (all-MiniLM-L6-v2, bge-m3, gte-modernbert-base)
+Alternative models (all-MiniLM-L6-v2, bge-m3, gte-modernbert-base
+  -- embeddinggemma-300m chosen: best English MTEB for its size,
+  public mirror, in-process)
 can be swapped via `config.yaml`. The eval gate catches any regression
 from model changes.
 
@@ -341,7 +348,7 @@ is an optimization, not a requirement -- each could build its own.
    the brain's HEAD.
 
 5. **Zero API cost, zero infrastructure.** The entire system runs on
-   commodity hardware with no external services. bge-m3
+   commodity hardware with no external services. embeddinggemma-300m
    runs on CPU (dense-only via sentence-transformers). No embedding API calls, no rate limits, no monthly
    bills. Embedding 50,000 files costs zero dollars beyond compute
    time.
@@ -364,7 +371,8 @@ This architecture would be invalidated if:
   HEAD build identical indexes.
 
 - **Index build time exceeds the session budget.** At 50,000 files,
-  a full rebuild with bge-m3 on CPU takes 10-30 minutes. An agent
+  a full rebuild with embeddinggemma-300m on CPU takes ~5-10
+  minutes (300M params, 768-dim, batch 32). An agent
   that needs to rebuild from scratch mid-session cannot afford the
   wait. Mitigation: incremental indexing (only changed files) takes
   seconds. Full rebuilds are a once-per-machine setup cost, not a

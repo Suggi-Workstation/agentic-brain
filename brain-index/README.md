@@ -25,7 +25,8 @@ python query.py "antitrust risk in digital platforms" --top-k 20
 
 Hybrid search combining two retrieval methods:
 
-- **Semantic (dense):** `BAAI/bge-m3` (1024-dim) converts
+- **Semantic (dense):** `unsloth/embeddinggemma-300m`
+  (768-dim, public mirror of google/embeddinggemma-300m) converts
   text to vectors. Finds conceptually similar content even when
   keywords differ.
 - **Keyword (sparse):** BM25 ranks by term frequency. Finds exact
@@ -102,7 +103,9 @@ files (JSON, YAML, images, etc.).
 ## Dependencies
 
 - Python 3.10+
-- sentence-transformers (for BAAI/bge-m3 embeddings)
+- sentence-transformers (for unsloth/embeddinggemma-300m
+  embeddings) + BAAI/bge-reranker-v2-m3 (cross-encoder rerank,
+  in-process, public)
 - pyyaml (config and gold query parsing)
 - numpy (vector operations)
 

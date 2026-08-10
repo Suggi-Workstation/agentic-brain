@@ -262,8 +262,8 @@ def build_index(force: bool = False):
         vectors = []
         for i in range(0, len(texts), batch_size):
             batch = texts[i:i + batch_size]
-            vecs = model.encode(batch, normalize_embeddings=True,
-                                show_progress_bar=False)
+            vecs = model.encode_document(batch, normalize_embeddings=True,
+                                        show_progress_bar=False)
             vectors.append(vecs)
             if (i + batch_size) % 100 == 0 or i + batch_size >= len(texts):
                 print(f"  Embedded {min(i + batch_size, len(texts))}/{len(texts)}",
