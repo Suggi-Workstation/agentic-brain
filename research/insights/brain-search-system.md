@@ -51,14 +51,14 @@ The June 2026 hub-brain archive (`Suggi-Workstation/archive`, folder
 `hub-brain - github repo - 20.06.26`) contains a fully operational
 prototype of this system:
 
-- **Embedder:** `BAAI/bge-small-en-v1.5` (384-dim), sentence-transformers
+- **Embedder:** `BAAI/bge-m3` (1024-dim), sentence-transformers
 - **Index scale:** 24,592 chunks across 1,648 brain files, 36 domains
 - **Tools:** `build_semantic_index.py` (indexer), `query_brain.py`
   (query CLI), `eval_retrieval.py` (eval harness)
 - **Eval gate:** 230 gold queries across 4 batches (Ava batch1/2,
   Link batch1/2), each with expected file hits and heading targets
 - **Freshness:** `heartbeat.json` with `git rev-parse HEAD` comparison
-- **Fusion:** semantic (bge-small) + BM25 + frontmatter-graph expansion
+- **Fusion:** semantic (bge-m3) + BM25 + frontmatter-graph expansion
   (three retrieval edges combined)
 
 The prototype proved the architecture at scale. The only failure mode
@@ -154,7 +154,7 @@ same eval gate.
 
 | Component | Choice | Why |
 |---|---|---|
-| Embedding model | `BAAI/bge-small-en-v1.5` (384-dim) | Proven on 24,592 chunks in the archive prototype. Zero API cost. Runs on CPU. Same model family the archive used successfully. |
+| Embedding model | `BAAI/bge-m3` (1024-dim) | Multilingual dense+sparse+ColBERT (dense-only via sentence-transformers). MTEB ~63. Zero API cost. Runs on CPU. Upgraded from bge-small-en-v1.5 on 2026-08-10. |
 | Keyword search | BM25 via `rank-bm25` | Python-native, no database. Same algorithm both old and new systems used. |
 | Rank fusion | Reciprocal Rank Fusion (k=60) | Balances semantic and keyword signals. Same formula the archive prototype used. |
 | Chunking | ~400 tokens, heading-aware, 80-token overlap | Respects markdown headings as natural boundaries. Matches the archive pattern. |
@@ -162,12 +162,16 @@ same eval gate.
 | Eval metric | recall@20, MRR, nDCG | Industry standard. Catches regression before deployment. |
 | Freshness | `heartbeat.json` vs `git rev-parse HEAD` | Dead-man's-switch: stale index = visible alarm to any agent. |
 
-### Embedding model -- why bge-small-en-v1.5
+### Embedding model -- why bge-m3
 
-The archive prototype used exactly this model. It produced 24,592
-chunks at 384 dimensions per chunk. At float16, that is ~38 MB of
-vectors. It runs on CPU -- no GPU needed. A full index build on 1,500
-files takes ~2 minutes. An incremental build (only changed files)
+The archive prototype used bge-small-en-v1.5 (24,592 chunks at 384
+dimensions, ~38 MB of float16 vectors, CPU-only, ~2 minutes per full
+build). Upgraded to BAAI/bge-m3 (1024-dim, MTEB ~63) on 2026-08-10
+for multilingual support and better retrieval quality; dense-only via
+sentence-transformers, with BM25 providing the sparse half. Full
+rebuild takes 10-30 minutes on the EPYC CPU (one-time cost; the
+watcher keeps it incremental afterward). An incremental build
+(only changed files)
 takes seconds.
 
 The model was released by BAAI (Beijing Academy of AI) in 2023 and is
@@ -337,8 +341,8 @@ is an optimization, not a requirement -- each could build its own.
    the brain's HEAD.
 
 5. **Zero API cost, zero infrastructure.** The entire system runs on
-   commodity hardware with no external services. bge-small-en-v1.5
-   runs on CPU. No embedding API calls, no rate limits, no monthly
+   commodity hardware with no external services. bge-m3
+   runs on CPU (dense-only via sentence-transformers). No embedding API calls, no rate limits, no monthly
    bills. Embedding 50,000 files costs zero dollars beyond compute
    time.
 
@@ -360,7 +364,7 @@ This architecture would be invalidated if:
   HEAD build identical indexes.
 
 - **Index build time exceeds the session budget.** At 50,000 files,
-  a full rebuild with bge-small on CPU takes 10-30 minutes. An agent
+  a full rebuild with bge-m3 on CPU takes 10-30 minutes. An agent
   that needs to rebuild from scratch mid-session cannot afford the
   wait. Mitigation: incremental indexing (only changed files) takes
   seconds. Full rebuilds are a once-per-machine setup cost, not a

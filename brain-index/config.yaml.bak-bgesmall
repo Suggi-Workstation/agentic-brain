@@ -1,10 +1,9 @@
 # brain-index config
-# Model: BAAI/bge-m3 (1024-dim) -- multilingual, hybrid dense+sparse+ColBERT
-# (dense-only via sentence-transformers; BM25 provides the sparse half)
+# Model: BAAI/bge-small-en-v1.5 (384-dim) -- proven on 24,592 chunks in archive prototype
 
 embedding:
-  model: "BAAI/bge-m3"
-  dim: 1024
+  model: "BAAI/bge-small-en-v1.5"
+  dim: 384
   batch_size: 32
   device: "cpu"
 

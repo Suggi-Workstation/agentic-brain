@@ -25,7 +25,7 @@ python query.py "antitrust risk in digital platforms" --top-k 20
 
 Hybrid search combining two retrieval methods:
 
-- **Semantic (dense):** `BAAI/bge-small-en-v1.5` (384-dim) converts
+- **Semantic (dense):** `BAAI/bge-m3` (1024-dim) converts
   text to vectors. Finds conceptually similar content even when
   keywords differ.
 - **Keyword (sparse):** BM25 ranks by term frequency. Finds exact
@@ -102,7 +102,7 @@ files (JSON, YAML, images, etc.).
 ## Dependencies
 
 - Python 3.10+
-- sentence-transformers (for bge-small-en-v1.5 embeddings)
+- sentence-transformers (for BAAI/bge-m3 embeddings)
 - pyyaml (config and gold query parsing)
 - numpy (vector operations)
 
