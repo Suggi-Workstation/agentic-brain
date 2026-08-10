@@ -9,7 +9,7 @@ embedding:
   device: "cpu"
 
 reranker:
-  enabled: true
+  enabled: false
   model: "BAAI/bge-reranker-base"
   max_length: 512
   batch_size: 16
