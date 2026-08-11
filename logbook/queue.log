@@ -431,3 +431,14 @@ Shared Mnemosyne fleet memory COMPLETE (Phase A + B, all 3 agents).
 - Insight + reflection written to brain (watcher pushed 1b6e9de to GitHub).
 - Shared DBs currently EMPTY by design -- populated deliberately via
   mnemosyne_shared_remember (kinds: meta | preference | correction | identity).
+
+## [ENT-051] | 2026-08-11 11:19 UTC | Ava | general | ref: skills/ | see: 20260811T111938Z
+Session: VPS-native brain ops + skill modernization.
+Workstreams:
+- Verified AGENTS.md + MEMORY.md + 3 skill updates; fixed openclaw brain access (~/.brain-index symlink, git safe.directory).
+- Updated preflight + session-end skills to VPS-native (direct /srv/brain reads, watcher-owned index, no push, recurring-failure scan).
+- Tested brain write round-trip end to end: write -> commit -> watcher push (~80s) -> GitHub -> delete -> watcher push -> cleanup. PASS.
+- Applied query-brain-vps fix (agents-group direct write, no su) to workspace + brain copies; fixed 644->664 permission.
+- Replaced 5 write-x skills in workspace with brain governance/skills canonical versions (VPS-native, leaner).
+- Reflection written: watcher-owned-brain-trust-the-pipeline.
+Reflection: 20260811T111938Z. Daily memory: 2026-08-11.md.
