@@ -155,7 +155,6 @@ public door both down), fall back to the external query-brain skill
   via hermes's `~/.brain-index` symlink (`/srv/brain-index`); root has
   no symlink and `query.py` reports "NO INDEX" (false alarm). The
   clone is `hermes:agents`; commits and the watcher run as hermes.
-  Use `su - hermes -c "..."` for anything in the clone.
 - **STALE freshness is a WATCHER problem, not a query problem.**
   Diagnose before querying.
 - **SSH quoting.** Remote command in double quotes, query in single
