@@ -39,12 +39,12 @@ self-directed learning.
 
 ## Repos
 
-### #1 - terminal
+### #1 - terminal (public)
 https://github.com/Suggi-Workstation/terminal - *the main terminal.*
 
 A Readme + Instructions for guests. And also a main hub with directions to the whole GitHub org. A navigation hub starting point.
 
-### #2 - agentic-brain
+### #2 - agentic-brain (public)
 https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 
 | Path | Holds |
@@ -91,16 +91,16 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 - library/technology
 - library/anthropology
 
-### #3 - agentic-forge
+### #3 - agentic-forge (public)
 https://github.com/Suggi-Workstation/agentic-forge - *The agentic forge. Research is being done here.*
 
-### #4 - workspace-ava
+### #4 - workspace-ava (private)
 https://github.com/Suggi-Workstation/workspace-ava - *Ava's live workspace.*
 
 Mirrored 1:1 from the VPS. Contains all core files. Ava is
 the primary agent for Suggi.
 
-### #5 - archive
+### #5 - archive (private)
 https://github.com/Suggi-Workstation/archive - *the archive.*
 
 Old, archived workspaces and repositories are stored here.
