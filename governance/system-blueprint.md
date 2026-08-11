@@ -91,39 +91,16 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 - library/technology
 - library/anthropology
 
-### #3 - workspace-ava
+### #3 - agentic-forge
+https://github.com/Suggi-Workstation/agentic-forge - *The agentic forge. Research is being done here.*
 
+### #4 - workspace-ava
 https://github.com/Suggi-Workstation/workspace-ava - *Ava's live workspace.*
 
 Mirrored 1:1 from the VPS. Contains all core files. Ava is
 the primary agent for Suggi.
 
-### #4 - workspace-cato
-
-https://github.com/Suggi-Workstation/workspace-cato - *Cato's live workspace.*
-
-Mirrored 1:1 from the VPS. Contains all core files. Cato is
-the experimental self-learning solo agent for Suggi.
-
-### #5 - workspace-researcher-1
-
-https://github.com/Suggi-Workstation/workspace-researcher-1 - *workspace for the first research agent.*
-
-Lean workspace for independent deep-dive research. Runs on its own model.
-
-### #6 - workspace-researcher-2
-
-https://github.com/Suggi-Workstation/workspace-researcher-2 - *workspace for the second research agent.*
-
-Lean workspace for independent deep-dive research. Runs on its own model.
-
-### #7 - workspace-verifier
-
-https://github.com/Suggi-Workstation/workspace-verifier - *workspace for the verifier agent.*
-
-Lean workspace for verifying. Runs on its own model.
-
-### #8 - archive
+### #5 - archive
 https://github.com/Suggi-Workstation/archive - *the archive.*
 
 Old, archived workspaces and repositories are stored here.
