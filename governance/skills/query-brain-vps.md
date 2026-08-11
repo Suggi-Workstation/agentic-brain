@@ -151,10 +151,15 @@ public door both down), fall back to the external query-brain skill
   `crontab -l` (own) or `crontab -u hermes -l` (root). Install:
   `echo '<line>' | crontab -u hermes -`. (ENT-049: harness bug wiped
   hermes crontab 2026-08-09; restored within 3 min.)
-- **Run brain commands as hermes, not root.** The index path resolves
-  via hermes's `~/.brain-index` symlink (`/srv/brain-index`); root has
-  no symlink and `query.py` reports "NO INDEX" (false alarm). The
-  clone is `hermes:agents`; commits and the watcher run as hermes.
+- **VPS agents: query and commit directly (agents group), no su.**
+  The clone is `root:agents` and the `agents` group is the access
+  mechanism. Never `su - hermes` for queries or commits -- hermes
+  only runs the watcher and index. The index path resolves via the
+  `~/.brain-index` symlink (`/srv/brain-index`); if `query.py`
+  reports "NO INDEX" for your user, the symlink is missing -- create
+  it (`ln -s /srv/brain-index ~/.brain-index`), not a false alarm.
+  Remote agents SSH as root and `su - hermes` (root has no symlink) --
+  that path is unchanged.
 - **STALE freshness is a WATCHER problem, not a query problem.**
   Diagnose before querying.
 - **SSH quoting.** Remote command in double quotes, query in single
