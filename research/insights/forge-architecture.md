@@ -59,8 +59,6 @@ agentic-forge/
   LEARNINGS.md
   forge/
     protocol.md
-    logs/
-      progress.log
     ideas/
     research/
     evaluations/
@@ -70,6 +68,11 @@ agentic-forge/
     graveyard/
     archive/
     builds/
+  logbook/
+    protocol.md
+    progress.log
+    errors.log
+    archive/
   governance/
     skills/
       forge-ideate/SKILL.md
@@ -79,6 +82,8 @@ agentic-forge/
       forge-validate/SKILL.md
       forge-insight/SKILL.md
       forge-verify/SKILL.md
+      forge-loop/SKILL.md
+      forge-loop-feynman/SKILL.md
       .../assets/template.md
   scripts/
   .githooks/
@@ -458,7 +463,7 @@ The finished architecture prevents the following failure classes:
 
 1. **Keep the repository.** `agentic-forge` is the canonical shared research office. Do not move the Forge into Neo's workspace and delete the repository. Neo's workspace points to and operates the repository; it does not replace it.
 
-2. **Put STATUS.md, JOURNAL.md, and LEARNINGS.md in the repository root beside ANCHOR.md.** This makes the complete loop state visible to GitHub, the verifier, Suggi, and a fresh Neo process. The stage artifacts remain under `forge/`; progress.log remains under `forge/logs/`.
+2. **Put STATUS.md, JOURNAL.md, and LEARNINGS.md in the repository root beside ANCHOR.md.** This makes the complete loop state visible to GitHub, the verifier, Suggi, and a fresh Neo process. The stage artifacts remain under `forge/`; progress.log and errors.log remain under `logbook/`.
 
 3. **Make the loop the only Neo session lifecycle.** Neo does not need the general fleet preflight and session-end skills if the loop reliably performs their necessary functions: read anchor and checkpoint, execute one bounded stage, verify, commit, publish, update state, and stop.
 
