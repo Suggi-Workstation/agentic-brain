@@ -5,7 +5,7 @@ user-invocable: false
 disable-model-invocation: false
 ---
 
-# Library Discoverer (v2)
+# Library Discoverer
 
 ## What This Skill Does
 
@@ -60,18 +60,37 @@ ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
 Quoting rule: the remote command sits in double quotes; inner quotes
 sit in single quotes. A broken quote fails the whole command.
 
-## Self-Check -- HARD GATE
+## Final Self-Check -- HARD GATE
 
-Confirm ALL verification sections passed before committing.
+Confirm ALL items before committing. One checklist -- no
+sub-checklists, no section summaries. Each item maps to a procedure
+step or a library guide rule. HALT on any failure; fix before
+committing.
 
-- [ ] Procedure completed (select domains, scan anchors, identify gaps, score all 4 dimensions, check capacity, propose, check duplicates, verify, log, commit) (PASS / HALT)
-- [ ] Discovery Scoring verification: all 4 dimensions scored, weighted sum calculated (PASS / HALT)
-- [ ] Domain Balance: underrepresented domains prioritized (PASS / HALT)
-- [ ] Queue verification: candidates appended, no duplicates created (PASS / HALT)
-- [ ] Queue capacity: total proposed entries in queue does not exceed 25 after cycle (PASS / HALT)
-- [ ] File Output verification: all items confirmed PASS (PASS / HALT)
+- [ ] Procedure completed: select domains, scan anchors, identify gaps, score all 4 dimensions, check capacity, propose, check duplicates, log, commit (PASS / HALT)
+- [ ] Each candidate scored across all four dimensions (PASS / HALT)
+- [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
+- [ ] Weighted score calculated correctly: (gap*0.40 + compounding*0.25 + timeliness*0.20 + balance*0.15) (PASS / HALT)
+- [ ] Gap assessment verified against existing topics (no false gaps) (PASS / HALT)
+- [ ] Domain balance score derived from topic count survey in step 2 (PASS / HALT)
+- [ ] Scope brevity: every candidate scope is 3-4 sentences, max 100 words. No multi-paragraph scopes. (PASS / HALT)
+- [ ] No candidate proposed for a domain without an anchor file (PASS / HALT)
+- [ ] Topic count survey completed before selecting domains (PASS / HALT)
+- [ ] Underrepresented domains prioritized in domain selection (PASS / HALT)
+- [ ] Balance dimension score reflects actual topic counts, not assumed (PASS / HALT)
+- [ ] Candidate queue format matches the specification (PASS / HALT)
+- [ ] No duplicate candidates in the queue (checked by title and scope) (PASS / HALT)
+- [ ] Each candidate has domain, score (all 4 dims), scope, and status fields (PASS / HALT)
+- [ ] Candidate queue created with header if it did not exist (PASS / HALT)
+- [ ] Blank line separates new candidates from existing queue entries when appending (PASS / HALT)
+- [ ] Queue capacity: total proposed entries in queue <= 25 after this cycle (PASS / HALT)
+- [ ] Candidate appended ONLY to library/candidate-queue.md (PASS / HALT)
+- [ ] No topic files created (discoverer proposes, does not write) (PASS / HALT)
+- [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
 - [ ] Logbook entry written to logbook/library.log (PASS / HALT)
-- [ ] Committed on the VPS clone (PASS / HALT)
+- [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
+- [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)
+- [ ] Committed on the VPS clone: only this cycle's paths staged. Never `git add -A` in the shared clone. (PASS / HALT)
 - [ ] Watcher push verified: AHEAD: 0 or fresh push line in /srv/brain/logs/brain-pull.log (PASS / HALT)
 
 ## Procedure
@@ -200,11 +219,6 @@ similar title or scope already exists and is still `proposed`, skip it.
 If a prior candidate was `rejected` by the auditor, note the rejection
 reason and explain why this re-proposal is different.
 
-## Format Verification -- HARD GATE (before commit)
-
-Verify every item below. Each maps to the library guide rules. HALT on
-any failure; fix before committing.
-
 ### 11. Write logbook entry
 
 Append to `logbook/library.log`. The logbook
@@ -246,41 +260,6 @@ commit rejection, or any crash), append to
 Only write to errors.log if something actually failed. Successful
 discovery cycles go to library.log. Errors.log is for unexpected
 failures only.
-
-### Discovery Scoring
-
-- [ ] Each candidate scored across all four dimensions (PASS / HALT)
-- [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
-- [ ] Weighted score calculated correctly: (gap*0.40 + compounding*0.25 + timeliness*0.20 + balance*0.15) (PASS / HALT)
-- [ ] Gap assessment verified against existing topics (no false gaps) (PASS / HALT)
-- [ ] Domain balance score derived from topic count survey in step 2 (PASS / HALT)
-- [ ] Scope brevity: every candidate scope is 3-4 sentences, max 100 words. No multi-paragraph scopes. (PASS / HALT)
-- [ ] No candidate proposed for a domain without an anchor file (PASS / HALT)
-
-### Domain Balance
-
-- [ ] Topic count survey completed before selecting domains (PASS / HALT)
-- [ ] Underrepresented domains prioritized in domain selection (PASS / HALT)
-- [ ] Balance dimension score reflects actual topic counts, not assumed (PASS / HALT)
-
-### Queue
-
-- [ ] Candidate queue format matches the specification (PASS / HALT)
-- [ ] No duplicate candidates in the queue (checked by title and scope) (PASS / HALT)
-- [ ] Each candidate has domain, score (all 4 dims), scope, and status fields (PASS / HALT)
-- [ ] Candidate queue created with header if it did not exist (PASS / HALT)
-- [ ] Blank line separates new candidates from existing queue entries when appending (PASS / HALT)
-- [ ] Queue capacity: total proposed entries in queue <= 25 after this cycle (PASS / HALT)
-
-### File Output
-
-- [ ] Candidate appended ONLY to library/candidate-queue.md (PASS / HALT)
-- [ ] No topic files created (discoverer proposes, does not write) (PASS / HALT)
-- [ ] ASCII-only: zero non-ASCII characters in the file (PASS / HALT)
-- [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
-- [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)
-- [ ] Committed on the VPS clone: only this cycle's paths staged. Never `git add -A` in the shared clone. (PASS / HALT)
-- [ ] Watcher push verified: AHEAD: 0 or fresh push line in /srv/brain/logs/brain-pull.log (PASS / HALT)
 
 ### 12. Commit on the VPS clone -- NO push
 

@@ -1,6 +1,6 @@
 ---
-name: library-writer-new
-description: "Research and write a library topic file to the agentic-brain (VPS-native dual-option: direct write for VPS agents, SSH transfer for VPS-connected agents -- no clone, no push, the watcher pushes). Procedure-only skill; the format specification and compliance checklist live in governance/template-library-new.md (the validator -- referenced, not restated, R8)."
+name: library-writer
+description: "Research and write a library topic file to the agentic-brain (VPS-native dual-option: direct write for VPS agents, SSH transfer for VPS-connected agents -- no clone, no push, the watcher pushes). Follows the write-X pattern with Final Self-Check plus Sub-Checklists for frontmatter, body structure, quality gates, scoring, and file output. Reads governance/template-library.md for the full format specification."
 user-invocable: false
 disable-model-invocation: false
 ---
@@ -9,16 +9,14 @@ disable-model-invocation: false
 
 ## What This Skill Does
 
-Guides the writing process of the library pipeline. This skill holds
-the PROCEDURE (locate brain, pick candidate, research, score, write,
-log, commit; the watcher pushes). The format SPECIFICATION and the
-compliance checklist live in
-`brain:governance/template-library-new.md` -- that file is the
-validator. This skill references its Library Topic Checklist as the
-format gate and does not restate its items (R8: reference, never
-duplicate). The writer receives a candidate topic title + domain
-anchor from the discovery queue, performs web search, synthesizes
-knowledge, and writes a markdown topic file to the domain folder.
+Guides the writing process of the library pipeline. Receives a candidate
+topic title + domain anchor from the discovery queue, performs web
+search, synthesizes knowledge, and writes a markdown topic file to the
+domain folder. Scores the candidate across 4 dimensions before writing.
+For the full format specification with frontmatter schema, body
+structure, mandatory sections, quality gates (G1-G12), anti-patterns,
+and a complete example, read `governance/template-library.md`. Follow
+it exactly.
 
 ## When to Invoke
 
@@ -66,19 +64,17 @@ sit in single quotes. A broken quote fails the whole command.
 
 ## Final Self-Check -- HARD GATE
 
-Confirm ALL items before committing.
+Confirm ALL verification sections passed before committing.
 
-- [ ] Procedure completed (locate brain, read template, pick candidate, read anchor, research, score all 4 dimensions, check similarity, write, verify cross-references, log, commit) (PASS / HALT)
-- [ ] Template read before writing: `template-library-new.md` opened in step 2 and followed (PASS / HALT)
-- [ ] Template validator gate: `template-library-new.md` Library Topic Checklist -- all items confirmed PASS (PASS / HALT)
-- [ ] Candidate selected FIFO: first `proposed` entry from top of queue in order, not score-sorted (PASS / HALT)
-- [ ] Candidate removed from candidate-queue.md (PASS / HALT)
-- [ ] Domain fidelity: written topic's domain matches the candidate's Domain field exactly (PASS / HALT)
+- [ ] Procedure completed (read template, pick candidate, read anchor, research, score all 4 dimensions, check similarity, write, log, commit) (PASS / HALT)
+- [ ] Frontmatter Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
+- [ ] Body Structure Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
+- [ ] Quality Gates Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
+- [ ] File Output Sub-Checklist verification: all items confirmed PASS (PASS / HALT)
+- [ ] `governance/template-library.md` Checklist: all items confirmed PASS (PASS / HALT)
 - [ ] Logbook entry written to logbook/library.log (PASS / HALT)
-- [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
-- [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)
 - [ ] Errors logged to logbook/errors.log (if any) (PASS / HALT)
-- [ ] Committed on the VPS clone: only this cycle's paths staged. Never `git add -A` in the shared clone. (PASS / HALT)
+- [ ] Committed on the VPS clone (PASS / HALT)
 - [ ] Watcher push verified: AHEAD: 0 or fresh push line in /srv/brain/logs/brain-pull.log (PASS / HALT)
 
 ## Procedure
@@ -91,15 +87,13 @@ clone fresh (<= 1 min behind GitHub). Trust your reads.
 VPS-connected agents: no local clone. Every read and write below goes
 through the Path Convention commands above.
 
-### 2. Read the format specification -- the validator
+### 2. Read the format specification
 
-Read `brain:governance/template-library-new.md` BEFORE writing. It
-defines the body structure (mandatory sections in order), frontmatter
-schema (7 fields + 2 optional auditor fields), quality gates (G1-G12),
-anti-patterns, the complete example, and the Library Topic Checklist.
-That checklist is the format gate for this skill. Follow the template
-exactly. Do not substitute your own section order or naming -- the
-template is the single source of format truth.
+Read `governance/template-library.md`. It defines the body structure
+(mandatory sections in order), frontmatter schema (7 fields + 2 optional
+auditor fields), quality gates (G1-G12), anti-patterns, and the complete
+example. Follow it exactly. Do not substitute your own section order or
+naming -- the template is the single source of format truth.
 
 ### 3. Pick a candidate topic from the discovery queue
 
@@ -141,7 +135,7 @@ Collect 3-5 sources. Evaluate source quality:
 - **Low authority (1-3):** personal blogs, forums, unattributed content.
 
 Synthesize into a coherent topic file following the body structure
-defined in `brain:governance/template-library-new.md`.
+defined in `governance/template-library.md`.
 
 ### 6. Score the candidate (4 dimensions, v2 weights)
 
@@ -186,7 +180,7 @@ Never type the ID digits by hand. The exec output is authoritative.
 
 Write ONLY to the agentic-brain. NEVER write topic files to the
 workspace. Follow the body structure and section order specified in
-`brain:governance/template-library-new.md` exactly.
+`governance/template-library.md` exactly.
 
 Path (relative to the brain root): `library/<domain>/<topic-slug>.md`
 
@@ -257,6 +251,66 @@ and normal pipeline outcomes (FLAG, REJECT, DUPLICATE) go to library.log.
 Errors.log is for unexpected failures: file write error, commit
 rejection, or any crash.
 
+## Sub-Checklists -- HARD GATE (before commit)
+
+Verify every Sub-Checklist item below. Each maps to a section of
+`governance/template-library.md`. HALT on any failure; fix before
+committing.
+
+### Frontmatter Sub-Checklist
+
+- [ ] name: lowercase kebab-case, matches filename slug. Unique within the domain. (PASS / HALT)
+- [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly. Does not end in 000000Z (human-rounded = reject). Never manually typed. (PASS / HALT)
+- [ ] tier: "library-topic" (PASS / HALT)
+- [ ] domain: `<domain-slug>` matching the folder name. Must match one of the 28 domain anchors exactly. (PASS / HALT)
+- [ ] author: agent name, capitalized (e.g. Ava, Link, Researcher-1) (PASS / HALT)
+- [ ] tags: lowercase, hyphen-delimited, domain-specific. At least 3 tags. (PASS / HALT)
+- [ ] links: relative paths from brain root to related library topics or brain artifacts. At least 1 link. (PASS / HALT)
+- [ ] audited + audit-score fields OMITTED (PASS / HALT)
+
+### Body Structure Sub-Checklist
+
+- [ ] Title is a level-1 heading making a claim about the topic (G1). Something a reader can agree or disagree with. (PASS / HALT)
+- [ ] Opening paragraph summarizes the topic in 2-3 sentences. A reader with no domain knowledge understands what this topic is and why it matters. (G2) (PASS / HALT)
+- [ ] `## Background` section present and contains substantive content (not a one-liner) (PASS / HALT)
+- [ ] `## Core Concepts` section present and contains the essential ideas. Title MAY vary by domain (e.g. `## Core Biases by Category`, `## Core Principles`) but the section MUST exist. Contains substantive content -- at least 600 words. (G12) (PASS / HALT)
+- [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. Contains substantive content -- at least 400 words. (G12) (PASS / HALT)
+- [ ] `## Implications` section present -- why the topic matters, practical application. Contains substantive content -- at least 400 words. (PASS / HALT)
+- [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence. Each must contain substantive, domain-relevant content. (PASS / HALT)
+- [ ] Optional supplementary sections (if any: Common Pitfalls, Criticism, Practical Frameworks, etc.) positioned correctly between Implications and Sources. Each must contain substantive content. (PASS / HALT)
+- [ ] `## Sources` section present with 3+ sources, each annotated with authority rating (high/medium/low) (G4) (PASS / HALT)
+- [ ] `## See Also` section present with 1+ cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
+- [ ] Section order enforced: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional) -> Sources -> See Also (G11) (PASS / HALT)
+- [ ] No content follows `## See Also` (G11) (PASS / HALT)
+
+### Quality Gates Sub-Checklist
+
+- [ ] G1 (Title Makes a Claim): PASS. Level-1 heading is something a reader can agree or disagree with. Not a label. (PASS / HALT)
+- [ ] G2 (Opening Paragraph Self-Contained): PASS. Reader with no domain knowledge understands the topic and why it matters from the opening alone. (PASS / HALT)
+- [ ] G3 (Every Claim Sourced): PASS. Every factual claim traces to a source in Sources. Synthesized claims labeled as such. No orphan facts. (PASS / HALT)
+- [ ] G4 (Sources Have Authority Ratings): PASS. Every source has [high], [medium], or [low]. At least 2 of 3+ sources are high or medium. (PASS / HALT)
+- [ ] G5 (Cross-references Exist): PASS. At least 1 link to a related library topic or brain artifact. (PASS / HALT)
+- [ ] G6 (Domain Anchor Compliant): PASS. Topic stays within the domain anchor's In scope and avoids Out scope. Verified by reading anchor-<domain>.md. Written domain matches the candidate's Domain field exactly. A candidate for law-regulation MUST produce a file at library/law-regulation/<slug>.md, not any other domain. (PASS / HALT)
+- [ ] G7 (Topic Similarity Checked): PASS. Candidate checked against existing topics. Overlap < 80%. Estimate recorded. (PASS / HALT)
+- [ ] G8 (Frontmatter Complete): PASS. All 7 required fields present (name, id, tier, domain, author, tags, links). id from date command, not human-rounded. (PASS / HALT)
+- [ ] G9 (Formatting Rules): PASS. ASCII-only (zero non-ASCII characters), lowercase slugs/tags, hyphens not underscores. (PASS / HALT)
+- [ ] G10 (Output Destination Correct): PASS. File written ONLY to library/<domain>/<topic-slug>.md. NOT the workspace. (PASS / HALT)
+- [ ] G11 (Section Order): PASS. Mandatory sections present and in correct sequence. No content after See Also. (PASS / HALT)
+- [ ] G12 (Mandatory Section Quality): PASS. Each mandatory section (Background, Core Concepts, Evidence, Implications) contains substantive content. Core Concepts >= 600 words; Evidence >= 400 words; Implications >= 400 words. Verified by word count on extracted section text. Not a single sentence, not a placeholder. (PASS / HALT)
+
+### File Output Sub-Checklist
+
+- [ ] File named: lowercase kebab-case slug, matching topic title. Max 80 chars, unique within domain. (PASS / HALT)
+- [ ] Written ONLY to library/<domain>/ (relative to brain root). (NOT workspace, NOT any other path) (PASS / HALT)
+- [ ] ASCII-only: zero non-ASCII characters in the file (G9) (PASS / HALT)
+- [ ] Candidate removed from candidate-queue.md (PASS / HALT)
+- [ ] Candidate selected FIFO: first `proposed` entry from top of queue in order, not score-sorted (PASS / HALT)
+- [ ] Domain fidelity: written topic's domain matches the candidate's Domain field exactly. Verify: candidate-queue.md Domain field vs. actual output path. (PASS / HALT)
+- [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
+- [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)
+- [ ] Committed on the VPS clone: only this cycle's paths staged. Never `git add -A` in the shared clone. (PASS / HALT)
+- [ ] Watcher push verified: AHEAD: 0 or fresh push line in /srv/brain/logs/brain-pull.log (PASS / HALT)
+
 ### 11. Commit on the VPS clone -- NO push
 
 The watcher pushes within 1 min and reindexes. Verify after ~1 min:
@@ -279,9 +333,9 @@ in-progress files. Stage only this cycle's paths.
 
 ## Related
 
-- `brain:governance/template-library-new.md` -- format specification and compliance validator (Library Topic Checklist, quality gates G1-G12, anti-patterns, examples)
+- `governance/template-library.md` -- full format specification, mandatory body sections, quality gates G1-G12, anti-patterns, complete example
 - `governance/skills/external/library-auditor.md` -- auditor skill (legacy clone-pattern version; reviews written topics)
-- `governance/skills/library-discoverer-new.md` -- discoverer skill (proposes candidates)
+- `governance/skills/library-discoverer.md` -- discoverer skill (proposes candidates)
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
 - `research/insights/library-system.md` -- full system blueprint, scoring rationale
 - `logbook/protocol.md` -- logbook entry format

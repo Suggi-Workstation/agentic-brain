@@ -8,7 +8,7 @@ links:
   - library/guide-library.md
   - research/insights/library-system.md
   - governance/template-skills.md
-  - governance/skills/library-writer-new.md
+  - governance/skills/library-writer.md
 ---
 
 # Library Topic Template -- How We Write Library Topic Files
@@ -29,7 +29,7 @@ of format truth for library topics.
 This file is the format specification AND the compliance validator. The
 production procedure (locate brain, pick candidate, research, score,
 write, log, commit -- no clone, no push; the watcher pushes) lives in
-`governance/skills/library-writer-new.md`; that skill references this
+`governance/skills/library-writer.md`; that skill references this
 file's Library Topic Checklist as its format gate (R8: reference, never
 duplicate). Keep the division: spec + checklist here, procedure there.
 
@@ -514,6 +514,6 @@ away means accepting the loss).
 ---
 
 *This template is the single source of format truth for library topics.
-The Writer reads it as a specification (`governance/skills/library-writer-new.md`
+The Writer reads it as a specification (`governance/skills/library-writer.md`
 step 2). The Auditor uses it as an evaluation rubric. Changes to this
 file propagate to all future topics.*
