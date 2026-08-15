@@ -1,6 +1,6 @@
 ---
 name: library-writer
-description: "Research and write a library topic file to the agentic-brain (VPS-native dual-option: direct write for VPS agents, SSH transfer for VPS-connected agents -- no clone, no push, the watcher pushes). Procedure-only skill; the format specification and compliance checklist live in governance/template-library-new.md (the validator -- referenced, not restated, R8)."
+description: "Research and write a library topic file to the agentic-brain (VPS-native dual-option: direct write for VPS agents, SSH transfer for VPS-connected agents -- no clone, no push, the watcher pushes). Procedure-only skill; the format specification and compliance checklist live in governance/template-library.md (the validator -- referenced, not restated, R8)."
 user-invocable: false
 disable-model-invocation: false
 ---
@@ -13,7 +13,7 @@ Guides the writing process of the library pipeline. This skill holds
 the PROCEDURE (locate brain, pick candidate, research, score, write,
 log, commit; the watcher pushes). The format SPECIFICATION and the
 compliance checklist live in
-`brain:governance/template-library-new.md` -- that file is the
+`brain:governance/template-library.md` -- that file is the
 validator. This skill references its Library Topic Checklist as the
 format gate and does not restate its items (R8: reference, never
 duplicate). The writer receives a candidate topic title + domain
@@ -69,8 +69,8 @@ sit in single quotes. A broken quote fails the whole command.
 Confirm ALL items before committing.
 
 - [ ] Procedure completed (locate brain, read template, pick candidate, read anchor, research, score all 4 dimensions, check similarity, write, verify cross-references, log, commit) (PASS / HALT)
-- [ ] Template read before writing: `template-library-new.md` opened in step 2 and followed (PASS / HALT)
-- [ ] Template validator gate: `template-library-new.md` Library Topic Checklist -- all items confirmed PASS (PASS / HALT)
+- [ ] Template read before writing: `template-library.md` opened in step 2 and followed (PASS / HALT)
+- [ ] Template validator gate: `template-library.md` Library Topic Checklist -- all items confirmed PASS (PASS / HALT)
 - [ ] Candidate selected FIFO: first `proposed` entry from top of queue in order, not score-sorted (PASS / HALT)
 - [ ] Candidate removed from candidate-queue.md (PASS / HALT)
 - [ ] Domain fidelity: written topic's domain matches the candidate's Domain field exactly (PASS / HALT)
@@ -93,7 +93,7 @@ through the Path Convention commands above.
 
 ### 2. Read the format specification -- the validator
 
-Read `brain:governance/template-library-new.md` BEFORE writing. It
+Read `brain:governance/template-library.md` BEFORE writing. It
 defines the body structure (mandatory sections in order), frontmatter
 schema (7 fields + 2 optional auditor fields), quality gates (G1-G12),
 anti-patterns, the complete example, and the Library Topic Checklist.
@@ -141,7 +141,7 @@ Collect 3-5 sources. Evaluate source quality:
 - **Low authority (1-3):** personal blogs, forums, unattributed content.
 
 Synthesize into a coherent topic file following the body structure
-defined in `brain:governance/template-library-new.md`.
+defined in `brain:governance/template-library.md`.
 
 ### 6. Score the candidate (4 dimensions, v2 weights)
 
@@ -186,7 +186,7 @@ Never type the ID digits by hand. The exec output is authoritative.
 
 Write ONLY to the agentic-brain. NEVER write topic files to the
 workspace. Follow the body structure and section order specified in
-`brain:governance/template-library-new.md` exactly.
+`brain:governance/template-library.md` exactly.
 
 Path (relative to the brain root): `library/<domain>/<topic-slug>.md`
 
@@ -279,7 +279,7 @@ in-progress files. Stage only this cycle's paths.
 
 ## Related
 
-- `brain:governance/template-library-new.md` -- format specification and compliance validator (Library Topic Checklist, quality gates G1-G12, anti-patterns, examples)
+- `brain:governance/template-library.md` -- format specification and compliance validator (Library Topic Checklist, quality gates G1-G12, anti-patterns, examples)
 - `governance/skills/external/library-auditor.md` -- auditor skill (legacy clone-pattern version; reviews written topics)
 - `governance/skills/library-discoverer.md` -- discoverer skill (proposes candidates)
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format

@@ -1,14 +1,14 @@
 ---
 name: template-library
-id: 20260724T072802Z
+id: 20260815T135923Z
 tier: core-template
 lock: approval-required
-approved_by: Suggi
-author: Ava
+author: Morpheus
 links:
   - library/guide-library.md
   - research/insights/library-system.md
   - governance/template-skills.md
+  - governance/skills/library-writer.md
 ---
 
 # Library Topic Template -- How We Write Library Topic Files
@@ -23,6 +23,15 @@ This template defines the format rules, body structure, quality gates,
 and anti-patterns. The writer reads it as a format specification; the
 auditor uses it as an evaluation rubric. This file is the single source
 of format truth for library topics.
+
+## Relationship to the library-writer Skill
+
+This file is the format specification AND the compliance validator. The
+production procedure (locate brain, pick candidate, research, score,
+write, log, commit -- no clone, no push; the watcher pushes) lives in
+`governance/skills/library-writer.md`; that skill references this
+file's Library Topic Checklist as its format gate (R8: reference, never
+duplicate). Keep the division: spec + checklist here, procedure there.
 
 ## Global Formatting Rules
 
@@ -500,14 +509,7 @@ away means accepting the loss).
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 1 | 2026-07-21 | Link | Initial template: 7-field frontmatter, 4 mandatory sections (standard pattern), G1-G11 quality gates, anti-patterns, example. |
-| 2 | 2026-07-23 | Ava | Hardened body structure: Background, Core Concepts, Evidence, Implications changed from "standard pattern at writer's discretion" to MUST sections. Added "Missing mandatory sections" anti-pattern. G11 expanded to cover mandatory section presence AND order. |
-| 3 | 2026-07-24 | Ava | Complete restructure to match write-X template pattern. Added template self-check checklist (The Library Topic Checklist -- HARD GATE). Added G12 (Mandatory Section Quality) and G13 (Writer Scoring Format) as custom library gates. Skill (library-writer.md) restructured with Final Self-Check + Sub-Checklists pattern matching write-evaluation SKILL.md. |
-| 4 | 2026-07-24 | Suggi/Ava | Removed `## Writer Scoring` section from topic file body structure. Writer Scoring moved entirely to logbook (library-writer.md step 10). G13 removed; gates renumbered G1-G12. All positional references ("before Writer Scoring", "after Writer Scoring") updated to adjacent sections (Sources, Implications). Removed 3 Writer Scoring anti-patterns. Updated example. |
-| 5 | 2026-07-24 | Ava | Hardened G5 (Cross-references) to require target file existence verification via `ls`. Added checklist item for cross-reference verification. Added "Cross-references to non-existent files" anti-pattern. Scar: us-china-great-power-competition.md cross-referenced international-relations-theory.md which researcher-1 hallucinated (file was deleted before the write cycle). |
-| 6 | 2026-07-24 | Ava | Added minimum word counts to mandatory sections: Core Concepts >= 750 words, Evidence >= 500 words, Implications >= 500 words. Updated Body Structure section descriptions, The Library Topic Checklist items, and G12 quality gate definition. Verified by word count on extracted section text. |
-| 7 | 2026-07-24 | Ava | Reduced word count thresholds to 600/400/400. Narrower topics (single-study evidence, specific techniques) struggle to reach 500-word Evidence/Implications sections without padding. 600/400/400 preserves structural gate quality while being achievable across all candidate topic scopes. |
-| 8 | 2026-07-26 | Ava | Clarified optional sections. Added explicit "ONLY mandatory body sections are..." statement after numbered list. Added optional section placeholder to example (between Implications and Sources). Split domain body sections and optional supplementary sections into separate checklist items in library-writer.md. |
+| 1 | 2026-08-15 | Morpheus | Library topic template with G1-G12 quality gates and the Library Topic Checklist as the writer's format gate (R8: referenced by the skill, never restated). Replaces the superseded template (archived as governance/archive/template-library-old.md). |
 
 ---
 
