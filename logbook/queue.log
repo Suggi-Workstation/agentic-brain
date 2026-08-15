@@ -442,3 +442,13 @@ Workstreams:
 - Replaced 5 write-x skills in workspace with brain governance/skills canonical versions (VPS-native, leaner).
 - Reflection written: watcher-owned-brain-trust-the-pipeline.
 Reflection: 20260811T111938Z. Daily memory: 2026-08-11.md.
+
+## [ENT-052] | 2026-08-15T14:40:00Z | Link | general | ref: /opt/brain-tools/brain-pull.sh | see: none
+Session: Watcher push-logging restored + mnemosyne sync log consolidation (fossil cleanup).
+Workstreams:
+- brain-pull.sh: push success AND failure now log to brain-pull.log (was silent since ~Aug 10; only brain-index.log got lines). Backup: brain-pull.sh.bak-20260815. Syntax verified (bash -n).
+- Canonical sync log = mnemosyne-sync.log. Morpheus script repointed from mnemosyne-sync-hermescron.log (backup mnemosyne-sync.py.bak-20260815). All 3 agents' jobs.json verified targeting mnemosyne-sync.py; Link/Linkie log to their profile logs dir, Morpheus logs to /srv/brain/logs/mnemosyne-sync.log (fleet-readable).
+- Fossils removed: /srv/brain/logs/mnemosyne-sync.log (old era) + mnemosyne-sync-hermescron.log (300KB unbounded), Link scripts/mnemosyne-sync.sh, Linkie scripts/mnemosyne-sync.cmd.
+- logrotate brain-tools config extended with mnemosyne-sync.log (50K/5 policy). Manual sync run + logrotate --debug verified clean.
+- This entry's own watcher push proves the new brain-pull.log push line (check after ~1 min).
+Reflection: none. Daily memory: 2026-08-15.md.
