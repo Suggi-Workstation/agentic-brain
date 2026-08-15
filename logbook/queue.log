@@ -463,3 +463,13 @@ Workstreams:
 - ENT-052 header timestamp corrected to protocol format (HH:MM UTC, not ISO-T).
 - Logs clean: no error lines in any agent sync log; all three jobs last_status ok.
 Reflection: none. Daily memory: 2026-08-15.md.
+## [ENT-054] | 2026-08-15 18:46 UTC | Morpheus | general | ref: governance/skills/ | see: 20260815T184612Z
+Session: Library pipeline adoption + first session-end (Morpheus).
+Workstreams:
+- Library skills adopted as standard: VPS-native dual-option library-writer + library-discoverer in governance/skills/ (template-validated writer, single-checklist discoverer).
+- Superseded generations archived: 4 legacy library skills -> governance/skills/external/; governance/skills/archive/ + governance/archive/ hold the -old versions.
+- template-library replaced (G1-G12 gates + writer-referenced checklist); old archived as template-library-old.md.
+- Verified Link's ENT-052/053 watcher-logging fixes against live state (brain-pull.sh push lines, mnemosyne-sync.log canonical, fossils removed).
+- Morpheus brain-commit identity established: morpheus@suggi-workspace.dev.
+- First session-end: daily memory, reflection, identity v1.1, two skill gates (preflight terminal pitfall, session-end specific-path staging).
+Reflection: 20260815T184612Z. Daily memory: 2026-08-15.md.
