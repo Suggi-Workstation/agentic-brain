@@ -398,3 +398,13 @@ What Link needs to know:
 - Remaining user step: Suggi restarts both desktop apps, picks Neo in the switcher, signs in under the Neo scope chip (same dashboard credentials).
 - probe_serve_rpc.py fixed: recv-loop for RPC responses (was reading the gateway.ready event and exiting before the reply).
 Reflection: none. Daily memory: 2026-08-16.md.
+
+## [ENT-058] | 2026-08-16 15:43 UTC | Morpheus | general | ref: reflections/2026-08-16_morpheus_curator-is-an-agent.md | see: none
+Session: Neo birth, curator workflow, self-learning agent research.
+Workstreams:
+- Birthed Neo: peer Core Agent, learning-loop workspace (LEARNINGS/DIARY/TASKS/memory/topics), approval-lock frontmatter, MISSION per suggi-investment-approach, serve 9120; Link wired the desktop app (ENT-057).
+- Adopted curator review workflow: paused curator, dry-run --consolidate, Suggi-approved live pass (5 applied, 2 declined, 1 reversed; verified); git-tracked the shared skills dir.
+- Researched self-learning agent architecture (18 sources): memory tiers, consolidation loops, skill libraries; findings encoded in Neo's workspace design.
+- Wrote reflection: the curator is an agent, not a formatter -- previews and live passes are two independent evaluations.
+- Structural gate: fleet-agent-birth skill patched with Neo-era lessons (tiers, no workspace skills dir, approval locks, lean accumulation set).
+Reflection: 20260816T154418Z. Daily memory: 2026-08-16.md.
