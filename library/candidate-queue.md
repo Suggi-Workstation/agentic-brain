@@ -7,7 +7,7 @@
 - **Date:** YYYY-MM-DD
 - **Discovery score:** X.X/10.0 (gap=X.X, compounding=X.X, timeliness=X.X, balance=X.X)
 - **Scope:** <2-3 sentence scope description for the writer>
-- **Status:** proposed | written | rejected
+- **Status:** proposed | rejected
 -->
 
 
