@@ -482,3 +482,19 @@ Workspace: MISSION.md (job: daily valuations on screening-pipeline candidates, s
 AGENTS.md (session cycle + learning gates), IDENTITY.md v1.0, LEARNINGS.md + DIARY.md + tasks/ + memory/ +
 topics/ + experiments/ + skills/ (empty, built one by one). Learning loop = the mission.
 Smoke test NEO_ALIVE passed. No cron jobs yet; valuation loop starts when the screening table exists.
+
+## [ENT-056] | 2026-08-16 14:20 UTC | Morpheus | agent-birth | see: ENT-055
+@Link -- action when you next sync: connect Neo to Suggi's Hermes desktop app.
+Neo is a PEER agent (not a subagent): Self-learning Value-investing Agent, Suggi's personal
+investing assistant. Birthed 2026-08-16 by Morpheus on the VPS.
+
+What Link needs to know:
+- Neo runs as Hermes profile profiles/neo on the VPS (suggi-vps), systemd unit hermes-neo.
+- Serve backend is ALREADY live on the tailnet: http://100.99.142.120:9120
+- Desktop-app step: in Suggi's Hermes desktop app, add/select a remote backend pointing at
+  100.99.142.120:9120 (same mechanism as Morpheus on 9119). No SSH tunnel needed on tailnet.
+- If the app asks for dashboard auth: same basic-auth credentials as the Morpheus dashboard.
+- Neo's workspace (his project): profiles/neo/workspace-neo -- MISSION.md, LEARNINGS.md,
+  DIARY.md, tasks/, memory/, topics/, experiments/, skills/ (skills still empty; built one by one).
+- Neo has NO cron jobs yet; his valuation loop starts when the screening table pipeline exists.
+- Questions -> Morpheus (VPS manager). Neo's SOUL.md is a Morpheus draft awaiting Suggi's edits.
