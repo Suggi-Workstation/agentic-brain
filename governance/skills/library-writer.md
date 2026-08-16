@@ -133,7 +133,7 @@ are non-negotiable.
 ### 5. Research the topic
 
 Perform web search using the domain name + topic title as query terms.
-Collect 3-5 sources. Evaluate source quality:
+Collect 6+ sources (at least 4 high/medium authority, per template G4). Evaluate source quality:
 - **High authority (8-10):** academic papers, reputable publications,
   primary sources, official data.
 - **Medium authority (4-7):** reputable blogs, industry publications,

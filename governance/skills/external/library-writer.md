@@ -97,7 +97,7 @@ are non-negotiable.
 ### 5. Research the topic
 
 Perform web search using the domain name + topic title as query terms.
-Collect 3-5 sources. Evaluate source quality:
+Collect 6+ sources (at least 4 high/medium authority, per template G4). Evaluate source quality:
 - **High authority (8-10):** academic papers, reputable publications,
   primary sources, official data.
 - **Medium authority (4-7):** reputable blogs, industry publications,
@@ -237,13 +237,13 @@ committing.
 
 - [ ] Title is a level-1 heading making a claim about the topic (G1). Something a reader can agree or disagree with. (PASS / HALT)
 - [ ] Opening paragraph summarizes the topic in 2-3 sentences. A reader with no domain knowledge understands what this topic is and why it matters. (G2) (PASS / HALT)
-- [ ] `## Background` section present and contains substantive content (not a one-liner) (PASS / HALT)
-- [ ] `## Core Concepts` section present and contains the essential ideas. Title MAY vary by domain (e.g. `## Core Biases by Category`, `## Core Principles`) but the section MUST exist. Contains substantive content -- at least 600 words. (G12) (PASS / HALT)
-- [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. Contains substantive content -- at least 400 words. (G12) (PASS / HALT)
-- [ ] `## Implications` section present -- why the topic matters, practical application. Contains substantive content -- at least 400 words. (PASS / HALT)
+- [ ] `## Background` section present and contains substantive content -- at least 500 words (G12) (PASS / HALT)
+- [ ] `## Core Concepts` section present and contains the essential ideas. Title MAY vary by domain (e.g. `## Core Biases by Category`, `## Core Principles`) but the section MUST exist. Contains substantive content -- at least 1000 words. (G12) (PASS / HALT)
+- [ ] `## Evidence` section present with empirical support, research findings, or case studies. Title MAY vary (e.g. `## Evidence and Research Foundation`) but MUST exist. Contains substantive content -- at least 750 words. (G12) (PASS / HALT)
+- [ ] `## Implications` section present -- why the topic matters, practical application. Contains substantive content -- at least 750 words. (PASS / HALT)
 - [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence. Each must contain substantive, domain-relevant content. (PASS / HALT)
 - [ ] Optional supplementary sections (if any: Common Pitfalls, Criticism, Practical Frameworks, etc.) positioned correctly between Implications and Sources. Each must contain substantive content. (PASS / HALT)
-- [ ] `## Sources` section present with 3+ sources, each annotated with authority rating (high/medium/low) (G4) (PASS / HALT)
+- [ ] `## Sources` section present with 6+ sources, each annotated with authority rating (high/medium/low). At least 4 of 6+ are high or medium. (G4) (PASS / HALT)
 - [ ] `## See Also` section present with 1+ cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
 - [ ] Section order enforced: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional) -> Sources -> See Also (G11) (PASS / HALT)
 - [ ] No content follows `## See Also` (G11) (PASS / HALT)
@@ -253,7 +253,7 @@ committing.
 - [ ] G1 (Title Makes a Claim): PASS. Level-1 heading is something a reader can agree or disagree with. Not a label. (PASS / HALT)
 - [ ] G2 (Opening Paragraph Self-Contained): PASS. Reader with no domain knowledge understands the topic and why it matters from the opening alone. (PASS / HALT)
 - [ ] G3 (Every Claim Sourced): PASS. Every factual claim traces to a source in Sources. Synthesized claims labeled as such. No orphan facts. (PASS / HALT)
-- [ ] G4 (Sources Have Authority Ratings): PASS. Every source has [high], [medium], or [low]. At least 2 of 3+ sources are high or medium. (PASS / HALT)
+- [ ] G4 (Sources Have Authority Ratings): PASS. Every source has [high], [medium], or [low]. At least 4 of 6+ sources are high or medium. (PASS / HALT)
 - [ ] G5 (Cross-references Exist): PASS. At least 1 link to a related library topic or brain artifact. (PASS / HALT)
 - [ ] G6 (Domain Anchor Compliant): PASS. Topic stays within the domain anchor's In scope and avoids Out scope. Verified by reading anchor-<domain>.md. Written domain matches the candidate's Domain field exactly. A candidate for law-regulation MUST produce a file at library/law-regulation/<slug>.md, not any other domain. (PASS / HALT)
 - [ ] G7 (Topic Similarity Checked): PASS. Candidate checked against existing topics. Overlap < 80%. Estimate recorded. (PASS / HALT)
@@ -261,7 +261,7 @@ committing.
 - [ ] G9 (Formatting Rules): PASS. ASCII-only (zero non-ASCII characters), lowercase slugs/tags, hyphens not underscores. (PASS / HALT)
 - [ ] G10 (Output Destination Correct): PASS. File written ONLY to library/<domain>/<topic-slug>.md. NOT the workspace. (PASS / HALT)
 - [ ] G11 (Section Order): PASS. Mandatory sections present and in correct sequence. No content after See Also. (PASS / HALT)
-- [ ] G12 (Mandatory Section Quality): PASS. Each mandatory section (Background, Core Concepts, Evidence, Implications) contains substantive content. Core Concepts >= 600 words; Evidence >= 400 words; Implications >= 400 words. Verified by word count on extracted section text. Not a single sentence, not a placeholder. (PASS / HALT)
+- [ ] G12 (Mandatory Section Quality): PASS. Each mandatory section (Background, Core Concepts, Evidence, Implications) contains substantive content. Background >= 500 words; Core Concepts >= 1000 words; Evidence >= 750 words; Implications >= 750 words. Verified by word count on extracted section text. Not a single sentence, not a placeholder. (PASS / HALT)
 
 ### File Output Sub-Checklist
 
