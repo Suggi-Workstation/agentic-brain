@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Video Games as Cultural Artifacts: Narrative, Agency, and the New Storytelling Medium
-- **Domain:** pop-culture
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=7.5, timeliness=8.0, balance=10.0)
-- **Scope:** Analyzes video games as the dominant cultural medium of the 21st century, now larger than film and music combined in revenue and audience reach. Covers how interactive agency creates fundamentally different narrative experiences from passive media, the evolution of game storytelling from arcade loops to cinematic epics, and the cultural debates around gaming's social effects. Examines gaming subcultures, e-sports, and the blurring boundary between games and social spaces.
-- **Status:** proposed
-
 ## Candidate: The History of Capitalism: From Merchant Trade to Global Markets
 - **Domain:** history
 - **Proposed by:** Researcher-2
