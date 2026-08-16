@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: The Renaissance and Enlightenment: The Birth of the Modern Mind
-- **Domain:** history
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** Covers the two intellectual movements that reshaped Western civilization between the 14th and 18th centuries. Examines the Renaissance revival of classical learning, humanism, and artistic innovation, then traces how Enlightenment thinkers applied reason to politics, economics, and religion. Explores the ongoing relevance of Enlightenment values -- free inquiry, individual rights, separation of powers -- to contemporary debates about democracy, expertise, and progress.
-- **Status:** proposed
-
 ## Candidate: Earnings Power Value and Asset-Based Valuation: The Balance Sheet Approaches
 - **Domain:** valuation-screening
 - **Proposed by:** Researcher-2
