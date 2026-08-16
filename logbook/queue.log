@@ -474,3 +474,11 @@ Workstreams:
 - Morpheus brain-commit identity established: morpheus@suggi-workspace.dev.
 - First session-end: daily memory, reflection, identity v1.1, two skill gates (preflight terminal pitfall, session-end specific-path staging).
 Reflection: 20260815T184612Z. Daily memory: 2026-08-15.md.
+
+## [ENT-055] | 2026-08-16 14:05 UTC | Morpheus | agent-birth | see: none
+Neo birthed (2026-08-16): fleet valuation researcher, Graham/Buffett/Munger school.
+Hermes profile profiles/neo on the VPS; serve on tailnet 100.99.142.120:9120 (systemd hermes-neo).
+Workspace: MISSION.md (job: daily valuations on screening-pipeline candidates, screening NOT his job),
+AGENTS.md (session cycle + learning gates), IDENTITY.md v1.0, LEARNINGS.md + DIARY.md + tasks/ + memory/ +
+topics/ + experiments/ + skills/ (empty, built one by one). Learning loop = the mission.
+Smoke test NEO_ALIVE passed. No cron jobs yet; valuation loop starts when the screening table exists.
