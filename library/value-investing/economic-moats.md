@@ -33,6 +33,22 @@ earns high returns on capital will attract competitors, and those
 competitors will erode returns unless something structural keeps them
 out.
 
+The intellectual lineage reaches further back. Benjamin Graham and
+David Dodd had already distinguished, in "Security Analysis" (1934),
+between a business and an "economic franchise" -- the exceptional
+company whose pricing power and market position could not be
+replicated by new capital -- a distinction that prefigured the moat
+concept by six decades. Philip Fisher's "Common Stocks and Uncommon
+Profits" (1958) then argued that the decisive investment variable is
+qualitative business strength -- the depth of a company's
+technological edge, its sales organization, its management's
+integrity -- which Fisher investigated through "scuttlebutt": field
+interviews with customers, suppliers, and competitors rather than
+financial statements alone. Buffett's moat language is best
+understood as the point where Graham's franchise concept, Fisher's
+qualitative method, and Munger's insistence on durability converged
+into a single memorable image.
+
 ### Morningstar's Systematization
 
 In 2002, Morningstar formalized the moat concept into a research
@@ -45,7 +61,30 @@ auditable process. Morningstar's methodology ties moat ratings
 directly to discounted cash flow models: the moat rating determines
 how long excess returns persist in the second stage of the valuation
 before returns on new invested capital (RONIC) revert to the cost of
-capital.
+capital. The framework also produced investable artifacts: Morningstar
+launched wide-moat indexes and funds that hold only companies rated
+wide, turning the concept into a screen that any investor can track
+-- and giving the research community a live, public data series on
+how moat-rated companies actually perform relative to the broad
+market, which the Evidence section examines.
+
+Parallel to the practitioner framework, academic and institutional
+research built the empirical case for moat thinking. Michael
+Mauboussin and his Counterpoint Global group quantified what moat
+investors had always believed: returns on invested capital are
+persistent but fading -- the best companies' excess returns compress
+over time as competition grinds, and the rate of fade, not the level
+of current profitability, is what separates durable businesses from
+temporary ones ("Measuring the Moat," 2022). The research matters
+because it turned moat analysis from a metaphor into a measurable
+hypothesis: if excess returns fade predictably, then the length of
+the fade is precisely what a moat is, and precisely what valuation
+must price.
+
+By 2026, the moat concept had completed its journey from metaphor to
+method: named by a practitioner, systematized by a research firm,
+validated by institutional data, and now applied as standard
+equipment in any serious business-quality analysis.
 
 ## Core Concepts
 
@@ -218,7 +257,14 @@ horizons, wide-moat stocks have demonstrated both higher returns and
 lower drawdowns than no-moat stocks. This pattern supports the
 theoretical prediction: companies with durable competitive advantages
 compound capital at superior rates and are less vulnerable to economic
-downturns.
+downturns. The index itself is a useful epistemic device: it is a
+pre-registered screen, not a backtest -- the ratings were assigned
+before the performance was observed -- so its record is evidence of
+moat quality in a sense a curated case study can never be. The
+pattern that emerges is the one moat theory predicts: the
+outperformance is not uniform year to year, but it compounds, and it
+is most visible precisely when it is most needed, during drawdowns
+(Morningstar, 2026).
 
 ### Academic Support: ROIC Persistence
 
@@ -230,7 +276,15 @@ sources are most applicable: consumer staples (brand moats), technology
 platforms (network effects, switching costs), and regulated
 infrastructure (efficient scale). In commodity industries without
 structural advantages, ROIC mean-reverts rapidly toward the cost of
-capital.
+capital. Mauboussin's work sharpens the finding into an actionable
+rule: the fade is not uniform. Companies whose excess returns rest on
+structural sources (network effects, switching costs, efficient
+scale) fade slowly; companies riding cyclical or transitory
+advantages fade quickly and often overshoot downward. The practical
+consequence is that a snapshot of today's ROIC is nearly worthless
+without an estimate of the fade rate -- which is exactly the
+information the moat framework is designed to supply ("Measuring the
+Moat," 2022).
 
 ### Case Studies in Moat Erosion
 
@@ -247,6 +301,17 @@ ROIC that dropped from above 25% to below 10% were the financial
 manifestations of moat erosion that qualitative analysis could have
 spotted years earlier.
 
+The Intel sequence is also a study in how moat erosion becomes
+visible in the financial statements before it becomes visible in the
+stock price. The early-warning chain ran in a predictable order:
+first, manufacturing-execution slips (delayed process nodes), then
+market-share loss in the highest-margin segment (data center), then
+gross-margin compression, and only then a sustained derating of the
+share price. An analyst monitoring moat-health indicators rather than
+earnings surprises would have seen each rung of the ladder as it
+appeared -- the same monitoring discipline the Practical Framework
+below formalizes.
+
 **Starbucks (SBUX):** Starbucks' moat historically came from brand
 intangible assets and location-based efficient scale (prime real
 estate capture). However, increased competition from specialty chains,
@@ -256,10 +321,33 @@ the mid-2010s to the low 20% range, and same-store sales growth has
 become more volatile -- potential signals that the brand moat is
 narrowing rather than widening.
 
+The Starbucks case carries a second lesson about moat maintenance.
+The company's mobile-ordering platform, intended to strengthen the
+customer relationship, at times degraded the in-store experience it
+was meant to serve -- a reminder that moat defenses interact: a
+channel innovation can simultaneously deepen convenience switching
+costs and erode the brand experience that powered the moat in the
+first place. Moat analysis therefore requires watching not only
+whether a moat source is weakening but whether one source is
+cannibalizing another.
+
 These cases illustrate that moats are not permanent endowments. They
 require active defense and can erode through competitive innovation
 (Intel), changing customer preferences (Starbucks), or regulatory and
 technological shifts (patent cliffs in pharmaceuticals).
+
+The instructive counter-case is a moat that held. Visa and
+Mastercard have absorbed two decades of fintech competition -- mobile
+wallets, buy-now-pay-later lenders, challenger banks -- without
+losing the core of their position. The duopoly's two-sided network
+effect kept compounding: merchants accept the cards because
+consumers carry them, and the payment rails' reliability and
+fraud-management infrastructure proved harder to replicate than the
+payment interface itself. The contrast with Intel is the lesson in
+one frame: a moat built on a fixed standard erodes when the standard
+is superseded; a moat built on a network deepens as the network
+grows -- until, and unless, the network's utility is itself
+substituted.
 
 ## Implications
 
@@ -274,6 +362,16 @@ warrant a 15-20 year excess return period; a narrow-moat company, 5-10
 years. The difference in intrinsic value between these two assumptions
 can be 50% or more.
 
+The sensitivity is worth internalizing: in a three-stage DCF, the
+terminal stage assumes RONIC equals the cost of capital -- excess
+returns have died. The moat assumption therefore does not live in the
+terminal value at all; it lives entirely in the length of stage two.
+An analyst who doubles the stage-two length without evidence has
+quietly doubled the company's intrinsic value. This is why moat
+analysis is not a qualitative garnish on valuation -- it is the
+single largest quantitative assumption in the model, and the one
+least often audited.
+
 ### For Required Margin of Safety
 
 The broader and more durable the moat, the smaller the required margin
@@ -283,6 +381,16 @@ discount to intrinsic value. A company with a single, unproven moat
 source requires a 30-40% margin. The margin of safety compensates for
 the risk that the moat is narrower or less durable than the analyst
 believes.
+
+The relationship runs both ways: moat quality sets the margin
+requirement, and the margin requirement is the market's price for
+the analyst's uncertainty about the moat. A wide moat bought with a
+wide margin is the rare double discount -- the market pricing both
+the business and the analyst's doubts -- and is the configuration
+where the asymmetry of value investing is largest: the downside is
+protected by the price, and the upside is protected by the moat.
+The linked topic on margin of safety treats the arithmetic of this
+buffer in depth; moat analysis supplies the variable that sizes it.
 
 ### For Holding Period
 
@@ -294,6 +402,15 @@ stock appears undervalued on current earnings -- the investment thesis
 is deteriorating. Selling a narrowing-moat business at a fair price is
 preferable to holding a business whose competitive position is eroding.
 
+The compounding logic makes the point arithmetically. A business
+earning 25% on reinvested capital for twenty years multiplies each
+dollar many times over; the same business fading to 10% after year
+seven produces a radically smaller terminal wealth. Buffett's
+"favorite holding period is forever" is not sentimentality but math:
+the entire edge of a great business over a good one is expressed in
+the exponent of time, and time only works for the investor if the
+moat survives it.
+
 ### For Avoiding Value Traps
 
 The most dangerous value traps are companies that appear cheap on
@@ -302,6 +419,46 @@ Nokia all appeared statistically cheap by value metrics in the years
 before their competitive positions collapsed. A value investor who
 ignores moat analysis will repeatedly buy stocks that are cheap for
 the correct reason: the business is deteriorating.
+
+The trap has a signature. Value traps cluster where the trailing
+metrics are still attractive -- low P/E, low P/B, high dividend
+yield -- while the leading indicators of the moat have already turned:
+gross margin trending down, market share slipping, customer
+acquisition costs rising. The cheapness is the market discounting the
+deterioration the trailing metrics have not yet recorded. Moat
+analysis is the filter that separates "cheap and deteriorating" from
+"cheap and durable" -- the two situations that trailing-valuation
+screens cannot distinguish and that produce opposite outcomes.
+
+### For Competitive-Strategy Analysis Beyond Investing
+
+The moat framework is a general business-quality lens, and its users
+have long outgrown equity analysis. Corporate strategists ask which
+of the five sources their business actually holds before allocating
+capital to defend or extend it; venture investors screen startups for
+the earliest evidence of a moat source forming, since a fast-growing
+company with no structural defense is a charity with revenue; and
+operators use the fade-rate logic to time competitive responses. The
+framework's portability is itself evidence of its soundness: a tool
+that survives translation from portfolio analysis to strategy, hiring,
+and M&A due diligence is capturing something structural about
+businesses, not something local to the stock market.
+
+### For the Investor's Own Process
+
+The final implication turns the lens inward. If competition erodes
+every unprotected advantage, the analyst's own edge must itself have
+moat-like properties: it must be structural (a repeatable process
+rather than a lucky call), durable (it survives being known -- which
+is why the exact framework matters less than the discipline of
+applying it), and inside a circle of competence where the analyst's
+information or judgment advantage is real. The author's assessment
+is that moat analysis is the rare edge that compounds: each business
+studied widens the analyst's library of patterns, and the pattern
+library is an asset competitors cannot copy. In that sense the moat
+framework is not only the subject of analysis but the analyst's own
+moat -- which is a fitting inversion for a framework built on
+Buffett's.
 
 ## Practical Moat Analysis Framework
 
