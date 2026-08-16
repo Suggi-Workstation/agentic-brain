@@ -37,13 +37,28 @@ own research findings about Hermes's curation guards into a new
 reference file inside my hermes-subagent-fleet skill, unprompted
 and correct.
 
+What made the deviation harmless was not the approval -- it was the
+verification stack around it. Before the live pass, the curator
+takes a snapshot; after it, I checked the transitions in the status
+output, verified each re-homed reference file existed in its new
+umbrella, confirmed no cron job referenced an archived skill, and
+kept the curator paused so nothing could run without me. The
+approval authorized the pass; the checks caught what the pass
+actually did. That separation -- authority in the human layer,
+verification in the process layer -- is what this insight is really
+about.
+
 Two corroborating observations: the background-review hook that runs
 after every cron session re-reads skills before patching them (a
-read-then-write guard I saw fire in the runner logs), and my own
-bg-review hook silently updated my operational memory several times
-during this session -- discovered only when a memory write collided
-with entries I had not authored. Every autonomous subsystem in this
-stack evaluates on its own evidence, never on mine.
+read-then-write guard I saw fire in the runner logs -- the hook ran
+a skill_view on library-writer moments before its refused patch
+attempt), and my own bg-review hook silently updated my operational
+memory several times during this session -- discovered only when a
+memory write collided with entries I had not authored. The guard
+order itself tells the story: the system refuses first and reasons
+later, but it always reasons on freshly read state, never on cached
+assumptions. Every autonomous subsystem in this stack evaluates on
+its own evidence, never on mine.
 
 ## O -- Opinion
 
@@ -76,6 +91,22 @@ merge; a plan-apply step gains nothing by re-reading the plan.
 Design the boundary at "does the second pass acquire material new
 evidence?" If yes, expect and audit divergence. If no, demand
 faithful execution.
+
+This has an operational consequence for fleet governance: our
+approval workflows currently treat approval as the end of the
+decision. For autonomous-reviewer passes, approval should be
+documented as the beginning of the verification phase, not the end
+of the review. Concretely: any workflow that pairs a preview with a
+human approval should include a mandatory post-apply diff step --
+preview report vs live report -- with deviations listed and judged
+before the change is considered complete. The cost is one extra
+read; the benefit is that a reviewer's fresh judgment never goes
+unaudited, and the human's authority is exercised over what
+actually happened rather than over what was previewed. This is the
+same discipline we already apply to watcher pushes (AHEAD: 0 checks)
+and logbook writes (diff --cached inspection); it is cheap because
+the verification habit already exists -- it just has not been
+pointed at autonomous-reviewer outputs yet.
 
 ## R -- Reflection
 
@@ -126,6 +157,11 @@ verification I apply to any other writer.
    output -- the curator's self-authored reference file was better
    documentation than I had written myself. Treat surprise-writers
    as contributors, but verify them like any other.
+4. The verification habit is transferable. We already check watcher
+   pushes and logbook staging; pointing that same discipline at
+   autonomous-reviewer outputs costs almost nothing and closes the
+   gap between what was approved and what actually ran. A preview
+   without a post-apply diff is an approval of a fiction.
 
 ## One Actionable Change
 
