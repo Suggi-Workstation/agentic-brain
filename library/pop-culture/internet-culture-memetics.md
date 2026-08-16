@@ -55,6 +55,17 @@ a precise unit of analysis -- what exactly constitutes one meme? --
 and because early proponents made overblown claims about cultural
 units replicating with gene-like fidelity.
 
+The framework's later trajectory split the difference. Reviewing the
+field for BioSystems, Kvyatkovsky and colleagues (2021) found that
+while memetics never resolved its unit-of-analysis problem, its
+vocabulary and its basic mechanism -- variation, selection, retention
+operating on cultural information -- were quietly absorbed into
+mainstream cultural-evolution research, which now models culture as
+an evolutionary process with or without the word "meme." The
+trajectory is instructive: the field's terminology was contested, but
+its core insight became background assumption for an entire research
+program.
+
 The internet changed everything. What began as a speculative
 theory about cultural transmission became a directly observable
 phenomenon on social media platforms. Every retweet, remix, and
@@ -62,6 +73,17 @@ reaction video is a replication event. Platform analytics provide
 empirical data on which memes spread, which mutate successfully,
 and which die out. The digital environment made memetic dynamics
 visible, measurable, and undeniable.
+
+Dawkins himself has acknowledged the term's drift. Where the gene is
+copied with fidelity and varies only by rare error, internet memes
+are, in his own later formulation, "deliberately altered by human
+creativity" -- each share is an act of authorship as much as of
+replication. The observation matters because it marks the precise
+difference between the two regimes: pre-internet memes evolved
+through imperfect copying; internet memes evolve through deliberate
+variation at industrial scale, which is mutation with intent. The
+evolutionary dynamics remain, but the mutation engine changed from
+noise to design.
 
 ## Core Concepts
 
@@ -75,7 +97,17 @@ reasonable accuracy), fecundity (it generates many copies), and
 longevity (copies persist over time). Dawkins argued that memes
 compete for limited resources -- human attention, memory, and
 communication bandwidth -- and that the memes best adapted to
-their cognitive environment proliferate.
+to their cognitive environment proliferate.
+
+Dennett's framing sharpens the claim. In "Darwin's Dangerous Idea"
+(1995) he argued that evolution's algorithm -- variation, selection,
+retention -- is substrate-neutral: it runs on DNA, but it also runs on
+anything that copies imperfectly and competes, including the
+information stored in nervous systems and, now, in servers. Cultural
+evolution is thus not an analogy to biological evolution but a second
+instance of the same algorithm, with humans as its newest replicator
+infrastructure. This is why memetics resists dismissal as mere
+metaphor: the mechanism does not care what it is made of.
 
 The difference between pre-internet and internet memes is one of
 degree, not kind. A catchy tune has always been a meme, carried
@@ -95,6 +127,16 @@ to share one more than the other, they are applying selection
 pressure. The mutation rate in internet culture is extraordinarily
 high because the cost of producing variants is near zero. A single
 meme can spawn thousands of variants within hours.
+
+The lifecycle of a successful internet meme follows a repeatable arc:
+birth (an image, phrase, or format finds an audience), spread (early
+adoption accelerates as sharing costs approach zero), normalization
+(the format becomes a recognized template with its own conventions),
+and decline or revival (saturation breeds fatigue until ironic or
+nostalgic reuse revives the format for a new cycle). The arc is not
+merely descriptive; it is the observable signature of selection at
+work -- the distribution of attention over a variant population
+shifting as novelty decays and familiarity builds.
 
 Three types of memes form the basis of technological cultural
 evolution: signal memes (conveying specific information or
@@ -125,6 +167,17 @@ for their own replication (rituals, institutions, communication
 channels), and evolve internal complexity over time. The
 relationship between individual memes and their memeplex is
 analogous to the relationship between genes and organisms.
+
+Dennett's account of religion illustrates the concept at scale: a
+religion is a memeplex that bundles cosmology, ethics, ritual, and
+identity into a mutually supporting package, where each element
+reinforces the others' survival -- the cosmology justifies the
+ethics, the rituals bind the community, the identity makes leaving
+costly. The same architecture appears in internet subcultures: a
+shared vocabulary of in-jokes plus a shared enemy plus a shared set
+of norms forms a package that is hard to adopt piecemeal and hard to
+exit wholesale, which is precisely what makes it a stable replicator
+rather than a loose collection of ideas.
 
 ### Participatory Culture as Memetic Infrastructure
 
@@ -170,6 +223,16 @@ creates selection pressure toward emotional intensity and away from
 nuance, a dynamic that shapes not just internet culture but
 increasingly the broader information environment.
 
+The design implication is direct: the "environment" is itself an
+artifact. A platform's engineers choose which signals feed the
+algorithm -- watch time, completion rate, shares, reactions -- and
+each choice is a decision about which memetic traits will be
+rewarded. Changing the metric changes the selection pressure, which
+is why nearly identical platforms can cultivate visibly different
+cultures. The memetic lens turns platform design questions into
+evolutionary ones: not "what content should we allow" but "what
+traits are we selecting for."
+
 ## Evidence
 
 The memetic framework has accumulated empirical support from
@@ -184,6 +247,16 @@ selection-retention pattern Dawkins described, confirming that
 digital memes are not merely metaphorically evolutionary -- they
 are literally undergoing evolutionary dynamics.
 
+The finding carries a methodological lesson as well. By anchoring
+"internet meme" in the dictionary's definition and tracing how
+variants arise, spread, and displace one another across platforms,
+the study showed that memetic claims are now empirically testable --
+something the pre-internet generation of memetics never achieved.
+The metaphor debate that stalled the field in the 1990s did not need
+to be won on paper; it was settled by making replication events
+observable at scale. Whatever theoretical objections remain, the
+phenomenon itself now comes with a data trail.
+
 The biological basis for memetic transmission is increasingly
 understood through neuroscience. Mirror neuron systems, discovered
 in the 1990s, provide a neural mechanism for imitation -- the
@@ -196,6 +269,15 @@ sufficient precision to sustain cumulative cultural evolution. The
 internet amplifies this capacity by providing external memory and
 near-perfect copying technology.
 
+The neuroscience framing also explains why some memes travel and
+others do not: the cognitive system is not a neutral copy machine but
+a biased filter. Brains preferentially encode surprising, emotional,
+and socially relevant information, so memes exploiting those biases
+-- outrage, incongruity, status -- start with a replication
+advantage before any platform algorithm touches them. The platform
+amplifies what the brain already prefers; it does not invent the
+preference.
+
 Studies of viral content psychology have identified specific
 emotional triggers that predict sharing behavior. Content that
 elicits high-arousal emotions -- whether positive (awe, amusement)
@@ -207,7 +289,12 @@ us look good), triggers (top-of-mind associations), emotion (high
 arousal), public visibility (observable behavior), practical value
 (useful information), and stories (narrative carriers). Each
 principle operates as a selection advantage in the memetic
-marketplace.
+marketplace. Berger's canonical example is the Blendtec blender,
+whose "Will It Blend?" videos turned a mundane appliance into
+shareable spectacle: the demonstration supplied practical value and
+social currency simultaneously, and each absurd blend (iPhones,
+golf balls) provided a fresh trigger for conversation -- an
+engineered meme built from the six principles like a recipe.
 
 Jenkins's participatory culture framework has been validated by
 longitudinal data. A 2005 Pew Internet study found that over half
@@ -221,6 +308,15 @@ undermined early internet stereotypes and demonstrated that
 participatory culture is a broad social phenomenon, not a niche
 subculture.
 
+The trend the Pew data caught early matured into measurable economic
+structure: by the 2020s, "creator economy" platforms reported
+millions of users earning income from content, and the boundary
+between audience member and producer became a permanent feature of
+the media landscape rather than a phase. The replication machinery
+Jenkins described as cultural is, in its mature form, also
+commercial: the same participatory infrastructure that spreads memes
+monetizes their spread.
+
 The algorithmic amplification thesis has been tested experimentally.
 Research on information cascades shows that early engagement signals
 (likes, shares, views) create path-dependent outcomes: two nearly
@@ -231,6 +327,15 @@ that amplify some variants while suppressing others, independent of
 content quality. The result is a memetic landscape shaped as much
 by the structure of the selection environment as by the inherent
 properties of the memes themselves.
+
+The cascade finding is the empirical heart of the whole topic:
+it demonstrates that quality and outcome decouple under strong
+social-information effects. When early signals determine later
+reach, two variants of equal merit diverge purely by the accident
+of their first few viewers. Luck, in other words, is not the
+residual explanation for viral success -- it is a structural
+feature of an environment where early engagement feeds the
+algorithm that decides who sees what next.
 
 ## Implications
 
@@ -243,7 +348,14 @@ of selection pressures that favor emotional resonance over factual
 correctness. A conspiracy theory that provokes outrage will spread
 faster than a nuanced correction, not because people prefer
 falsehoods, but because the outrage provokes sharing, and the
-sharing triggers algorithmic amplification.
+sharing triggers algorithmic amplification. The practical consequence
+is an asymmetry problem: corrections compete in the same memetic
+marketplace as the falsehoods they answer, but they lack the
+emotional payload that earns distribution, so they lose the
+competition they must win. Any strategy for dealing with
+misinformation that ignores this asymmetry -- that treats the problem
+as a supply of truth rather than a selection problem -- will keep
+losing.
 
 For investors and business strategists, memetics offers a framework
 for understanding brand value, narrative economics, and market
@@ -254,7 +366,13 @@ will change everything" -- can inflate asset prices independent of
 earnings. Understanding which narratives have memetic fitness --
 which are simple, emotionally resonant, easily transmitted, and
 reinforced by visible social proof -- provides an edge in
-anticipating market movements.
+anticipating market movements. Shiller's epidemiological framing is
+the tool's core: narratives spread like contagions, with infection
+curves, superspreaders, and herd immunity all having market analogs.
+A story that has infected enough market participants changes prices
+even when nothing fundamental has changed, which means the
+fundamental analyst who ignores narrative epidemiology is analyzing
+half the market.
 
 For politics and public discourse, memetics explains the asymmetric
 effectiveness of simple, emotionally charged messages over complex
@@ -276,7 +394,13 @@ vote for which memes survive -- encourages more intentional
 engagement with online content. The memetic perspective does not
 eliminate emotional responses to content, but it provides a
 framework for recognizing when those responses are being
-instrumentalized.
+instrumentalized. The practical discipline that follows is the
+pause: because sharing is a replication act, the decision to share
+is a decision about which memes survive, and a moment of
+deliberation before the share is the individual's one reliable
+lever in an environment engineered for reflex. Memetic literacy is
+not a belief system; it is a habit of noticing when content is
+built to be transmitted rather than to be true.
 
 For cultural analysis, memetics bridges the gap between
 humanities and sciences. It provides a vocabulary for discussing
@@ -301,6 +425,18 @@ shape the selective landscape. Understanding this tension --
 between bottom-up cultural evolution and top-down environmental
 design -- is essential for anyone who wants to think clearly about
 how the internet shapes what we believe, value, and become.
+
+There is also a reflexive lesson for this library's own domain.
+The value investor is a participant in the same memetic ecosystem:
+bull and bear narratives spread with the same dynamics as any other
+meme, and the crowd's conviction is itself a meme competing for
+attention. The author's assessment is that a disciplined investor
+cultivates a form of memetic immunity -- the habit of asking,
+before acting on any market story, whether the story's fitness
+comes from its truth or from its transmission advantage. The
+memetic lens is thus not only a tool for analyzing culture and
+markets; it is a tool for auditing one's own susceptibility to
+narrative contagion.
 
 ## Criticism and Limitations
 
