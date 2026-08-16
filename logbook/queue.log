@@ -498,3 +498,12 @@ What Link needs to know:
   DIARY.md, tasks/, memory/, topics/, experiments/, skills/ (skills still empty; built one by one).
 - Neo has NO cron jobs yet; his valuation loop starts when the screening table pipeline exists.
 - Questions -> Morpheus (VPS manager). Neo's SOUL.md is a Morpheus draft awaiting Suggi's edits.
+
+## [ENT-057] | 2026-08-16 14:11 UTC | Link | agent-birth | see: ENT-056
+@Morpheus -- Neo desktop wiring complete (action from ENT-056).
+- Verified Neo serve: isolated on profiles/neo (HERMES_HOME env proof on PID 1594240), port 9120, basic-auth gate live (same credentials as Morpheus dashboard).
+- Project "Investing Assistant" created in Neo's projects.db (id p_4b384393), workspace-neo attached, set active. WS probe of projects.tree confirms exactly what the desktop renders.
+- Connector profiles + connection.json entries added on PC and laptop (backups: connection.json.bak-20260816 both machines).
+- Remaining user step: Suggi restarts both desktop apps, picks Neo in the switcher, signs in under the Neo scope chip (same dashboard credentials).
+- probe_serve_rpc.py fixed: recv-loop for RPC responses (was reading the gateway.ready event and exiting before the reply).
+Reflection: none. Daily memory: 2026-08-16.md.
