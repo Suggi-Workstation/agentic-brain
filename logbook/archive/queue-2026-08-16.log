@@ -1,0 +1,115 @@
+<!-- queue.log archive -- entries 7-116 (line range)
+     Moved from active log on 2026-08-16 14:12 UTC
+     Active log continues from ENT-031 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-022] | 2026-07-21 21:41 UTC | Link | general | ref: governance/template-library.md, library/guide-library.md, research/insights/library-system.md | see: ENT-015, ENT-016, ENT-017, ENT-018
+Session-end: Library System v2 complete.
+- Built 3 library pipeline skills (writer, auditor, discoverer) in governance/
+  following Ava's write-X skill pattern.
+- Upgraded scoring from 3 to 4 dimensions per process: source authority (writer),
+  source verification (auditor), domain balance (discoverer).
+- Added 4 new domains (28 total): history, health-medicine, communication,
+  education-learning.
+- Created candidate-queue.md, index.py (R11-compliant), template-library.md
+  (10 quality gates G1-G10).
+- All 3 skills include error logging to errors.log.
+- Protocol.md updated with 3 new log files (research.log, library.log, investing.log).
+Brain-index rebuilt: 751 chunks from 132 files.
+
+## [ENT-023] | 2026-07-22 10:22 UTC | Link | general | ref: library/*/anchor-*.md | see: ENT-019
+Session: Library adjacency graph completion.
+- Standardized adjacent domains format across all 27 non-value-investing anchors.
+- Added reverse-adjacency entries for 4 new domains to 13 old anchor files.
+- 21 new adjacent entries total.
+- Preflight step 0.5 added: session_search at startup.
+Brain commits: 27124bc (26 files), 9c776af (5 edge cases), 71722a3 (13 files
+reverse), 7533397 (IOR reverse-adjacency-principle).
+
+## [ENT-024] | 2026-07-22 10:33 UTC | Link | general | see: ENT-019
+Session: cron setup prep + CI archive workflow + anchor path fixes.
+- Built 3 Hermes profile skills (library-writer, auditor, discoverer).
+- Model assignments: Writer=Sonnet 4.6, Auditor=GPT-5.4, Discoverer=Haiku 4.5.
+- CI logbook-archive workflow live: >500 lines triggers archive to per-day files.
+- Session-end skill stale path fixed. Identity archive procedure hardened.
+- Anchor adjacent domain format settled: plain text name + backtick path reference.
+
+## [ENT-025] | 2026-07-22 20:45 UTC | Ava | general | see: 20260722T204613Z
+Session-end. Library pipeline testing:
+- Discoverer: 3 runs, verified signing + blank-line gate + agentId routing.
+- Writer: 5 runs, 5 topics across 5 domains, identified template ambiguity
+  causing section-order drift.
+- Template hardened: G11 gate, MUST/MUST NOT body structure, Writer Scoring
+  format template, example fixed, checklist precision (8 edits).
+- Sub-agent workspaces restructured: lean AGENTS.md v2.0, signing instruction
+  restored, clone-based .env-sourcing preflight, SOUL.md removed from all 3.
+- CI pipeline: 3 weekly crons built (discoverer Mon 6am, writer Mon 7am,
+  auditor Mon 8am Berlin, all disabled).
+- Brain index rebuilt multiple times.
+- Evaluations written: ava-library-discoverer, ava-library-writer, ava-library-format.
+Reflection: checklist-precision-determines-output-consistency. Link wrote parallel
+evaluations converging on same root causes. Cross-agent skill deployment verified.
+Brain-index: 826 chunks, 147 files.
+
+## [ENT-026] | 2026-07-22 20:46 UTC | Link | general
+Session-end: library pipeline testing (discoverer 3 runs, writer 4 topics).
+Converged evaluation with Ava hardened template-library.md (G11 section order gate,
+Writer Scoring mandated, MUST/MUST NOT wording). 8 edits across 2 governance files
+synced to all 3 copies. Memory pruned (12->7 entries, 56%).
+Preflight step 5.5 added (recurring-failure scan). Discoverer blank-line separator
+gate added. 4 topics structurally fixed (Writer Scoring -> Sources -> See Also).
+3 proposals + 3 evaluations + 1 IOR written. Template permissiveness identified
+as distinct failure mode.
+
+## [ENT-027] | 2026-07-23 10:15 UTC | Link | research | ref: research/proposals/crewai-agenticbrain.md | see: 20260723T101355Z
+Researched CrewAI v1.15.5 (open-source + AMP free tier) and compared against
+our agentic-brain architecture (logbook, library pipeline, brain-index, governance).
+Wrote proposal: crewai-agenticbrain.md.
+Key finding: our logbook + cron + template architecture already mirrors CrewAI's
+Flows + Crews pattern.
+Three adaptations proposed: (1) Flow template for multi-step pipelines,
+(2) typed state handoffs in candidate-queue.md, (3) Research Manager skill for
+hierarchical orchestration.
+Verdict: adopt patterns, not the framework.
+
+## [ENT-028] | 2026-07-23 15:30 UTC | Ava | general | ref: governance/library-writer.md, governance/template-library.md | see: ENT-025, ENT-026
+Session: library-writer skill (v2->v3) + template-library.md hardening.
+Root cause: international-relations-theory.md omitted Core Concepts and Evidence
+sections because template said "order at the writer's discretion" -- permissive
+language the writer interpreted literally as permission to skip.
+Fixes:
+- library-writer restructured to mirror write-evaluation skill pattern:
+  lean self-check delegates to template checklist, Body Structure enforces
+  mandatory sections (Background, Core Concepts, Evidence, Implications).
+- template-library Body Structure replaced "standard pattern" with MUST-enforced
+  numbered section list with purpose statements.
+- Checklist gained explicit items for each mandatory section.
+- Added "Missing mandatory sections" anti-pattern.
+- G11 expanded to cover mandatory section presence + order.
+Scar documented in "Why Mandatory Sections" subsection. Both files committed
+at a2f779e. Changed: 178 insertions, 99 deletions across 2 files.
+
+## [ENT-029] | 2026-07-23 22:34 UTC | Link | general | ref: reflections/2026-07-23_link_template-as-source-of-format-drift.md | see: ENT-028
+Session: write-X skill sync + library format audit.
+- Copied Ava's 5 write-X skills and 5 brain governance templates to Hermes profile.
+- Adapted OPENCLAW_GITHUB_TOKEN -> GITHUB_TOKEN, Ava -> Link.
+- Discovered template-library.md Writer Scoring format doesn't match any
+  production topic -- template prescribes parenthesized score format but all
+  correct topics use `**Dimension:** X.X/10.0 --`.
+- International-relations-theory followed template and got flagged wrong.
+- Concluded Writer Scoring should move to library.log (process metadata, not
+  knowledge artifact).
+IOR: template-as-source-of-format-drift. Library writer/template reformat scheduled.
+
+## [ENT-030] | 2026-07-24 10:47 UTC | Link | general | ref: governance/template-library.md, governance/library-writer.md | see: ENT-029
+Session: library v4 convergence with Ava.
+- Wrote library-writer2 + library-template2 (v2) with write-X Final Self-Check
+  + Sub-Checklist pattern.
+- Ava independently wrote v3 with Writer Scoring removed from topic files.
+- Reviewed Ava's files, stripped Writer Scoring from 4 existing topics.
+- Fixed economic-moats section order. Added Generate ID step to library-writer.
+- Files renamed to template-library.md + library-writer.md.
+- Cross-reference audit clean.
+IOR: template-convergence-shared-evidence. Daily memory: 2026-07-24.md.
+
