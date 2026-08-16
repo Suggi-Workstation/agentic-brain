@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: The History of Capitalism: From Merchant Trade to Global Markets
-- **Domain:** history
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.3/10.0 (gap=8.0, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** Traces the evolution of capitalism from Mediterranean trade networks and Dutch joint-stock companies through the Industrial Revolution to modern global financial markets. Covers key inflection points: the rise of banking, the corporation as a legal innovation, the gold standard era, Bretton Woods, and financialization. Examines how capitalist institutions co-evolved with political systems and why understanding this history matters for investors navigating today's markets.
-- **Status:** proposed
-
 ## Candidate: The Renaissance and Enlightenment: The Birth of the Modern Mind
 - **Domain:** history
 - **Proposed by:** Researcher-2
