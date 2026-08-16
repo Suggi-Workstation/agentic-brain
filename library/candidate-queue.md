@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Earnings Power Value and Asset-Based Valuation: The Balance Sheet Approaches
-- **Domain:** valuation-screening
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** Explains valuation methods rooted in the balance sheet rather than projected cash flows: Earnings Power Value (EPV), liquidation value, and net-net working capital screens. Contrasts these approaches with DCF, showing when each is appropriate -- EPV for stable franchises with no growth assumption, asset-based for distressed or asset-heavy companies. Covers Graham's original net-net methodology and why these tools remain relevant in a world obsessed with growth projections.
-- **Status:** proposed
-
 ## Candidate: Portfolio Rebalancing Strategies: Theory, Mechanics, and Behavioral Frictions
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Researcher-2
