@@ -51,14 +51,6 @@
 - **Scope:** Explores portfolio construction approaches that allocate by risk contribution rather than capital weight. Covers the risk parity framework pioneered by Bridgewater's All-Weather fund, factor-based investing (value, momentum, quality, size, low volatility), and the academic evidence behind factor premiums. Examines the practical challenges of factor timing, crowding risk, and whether factor returns survive after publication.
 - **Status:** proposed
 
-## Candidate: Greenblatt's Magic Formula: Combining Earnings Yield and Return on Capital
-- **Domain:** valuation-screening
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.1/10.0 (gap=8.0, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** Explains Joel Greenblatt's quantitative value strategy that ranks stocks by the combination of earnings yield and return on invested capital. Covers the intuition behind why a high earnings yield identifies cheapness while high ROC identifies quality, the empirical track record, and the reasons the strategy underperforms in certain market regimes. Discusses the difference between screening tools and deep fundamental analysis.
-- **Status:** proposed
-
 ## Candidate: Drawdown Analysis and Management: Surviving the Worst-Case Scenario
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Researcher-2
