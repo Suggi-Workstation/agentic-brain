@@ -70,7 +70,7 @@ in the published topic file.
       `awk '/^## /{sec=$2; next} {c[sec]+=NF} END{for (s in c) print s, c[s]}' <topic-file>` (PASS / HALT)
 - [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Sources (PASS / HALT)
 - [ ] Body sections follow order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional sections) -> Sources -> See Also. No content after `## See Also`. (G11) (PASS / HALT)
-- [ ] `## Sources` section present with 3+ sources. Each source annotated with authority rating (high/medium/low). At least 2 of 3+ sources are high or medium. (G4) (PASS / HALT)
+- [ ] `## Sources` section present with 6+ sources. Each source annotated with authority rating (high/medium/low). At least 4 of 6+ sources are high or medium. (G4) (PASS / HALT)
 - [ ] `## See Also` section present with at least 1 cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
 - [ ] Cross-reference targets verified: each path in `## See Also` and `links:` frontmatter confirmed to exist in the brain clone via `ls <path>` before committing (G5) (PASS / HALT)
 - [ ] Every factual claim traceable to a source in Sources. Synthesized claims are labeled as such. (G3) (PASS / HALT)
@@ -272,7 +272,7 @@ Authority ratings:
 - `[low]` -- personal blogs, forums, unattributed content, sources
   with no identifiable author or institution.
 
-At least 3 sources required. At least 2 of 3+ sources must be `[high]`
+At least 6 sources required. At least 4 of 6+ sources must be `[high]`
 or `[medium]`. A topic sourced entirely from `[low]` authority sources
 fails G4.
 
@@ -316,7 +316,7 @@ Auditor re-verifies them during review.
   source in the Sources section. Synthesized claims are labeled as
   such. No orphan facts.
 - **G4 -- Sources Have Authority Ratings:** Every source entry includes
-  a `[high]`, `[medium]`, or `[low]` rating. At least 2 of the 3+
+  a `[high]`, `[medium]`, or `[low]` rating. At least 4 of the 6+
   sources must be `[high]` or `[medium]`. A topic sourced entirely
   from `[low]` authority sources fails this gate.
 - **G5 -- Cross-references Exist AND Are Valid:** At least one link to a
@@ -363,7 +363,7 @@ Auditor re-verifies them during review.
 |---|---|---|
 | Title as label | "Loss Aversion" -- nothing to agree or disagree with. | Make a claim: "Loss Aversion -- Why Losses Hurt Twice as Much as Gains" |
 | Sourceless claims | "Research shows that..." without a citation. | Every claim traces to a source in the Sources section. |
-| All low-authority sources | Every source is a blog or forum post. | At least 2 of 3+ sources must be high or medium authority. |
+| All low-authority sources | Every source is a blog or forum post. | At least 4 of 6+ sources must be high or medium authority. |
 | No cross-references | Topic floating in isolation. | Link to at least one related topic or brain artifact. |
 | Topic outside anchor scope | Writer did not read the domain anchor before writing. | Read anchor-<domain>.md before writing. Verify In/Out scope. |
 | Missing frontmatter fields | `domain` or `tags` omitted. | All 7 fields mandatory. `audited` and `audit-score` OMITTED (added later by Auditor). |
@@ -503,6 +503,13 @@ away means accepting the loss).
 4. Kahneman, D. (2011). "Thinking, Fast and Slow." Farrar, Straus and
    Giroux. Chapters 25-28 cover loss aversion and Prospect Theory in
    accessible form. [high]
+
+5. Rabin, M. (2000). "Risk Aversion and Expected-Utility Theory: A
+   Calibration Theorem." Econometrica, 68(5), 1281-1292. [high]
+
+6. Tom, S., Fox, C., Trepel, C., & Poldrack, R. (2007). "The Neural
+   Basis of Loss Aversion in Decision-Making Under Risk." Science,
+   315(5811), 515-518. [high]
 
 ## See Also
 
