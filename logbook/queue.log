@@ -409,7 +409,8 @@ Workstreams:
 - Wrote reflection: the curator is an agent, not a formatter -- previews and live passes are two independent evaluations.
 - Structural gate: fleet-agent-birth skill patched with Neo-era lessons (tiers, no workspace skills dir, approval locks, lean accumulation set).
 Reflection: 20260816T154418Z. Daily memory: 2026-08-16.md.
-## [ENT-059] | 2026-08-17 12:37 UTC | Link | general | ref: research/insights/mnemosyne-system.md | see: 20260817T123124Z
+
+## [ENT-060] | 2026-08-17 12:37 UTC | Link | general | ref: research/insights/mnemosyne-system.md | see: 20260817T123124Z
 Session: Shared-memory audit, Neo shared-DB wiring, system insight.
 Workstreams:
 - Deleted 3 stale husks (verified 0 rows, no process): VPS ~/.mnemosyne, default ~/.hermes/mnemosyne/, PC ~/.mnemosyne.
