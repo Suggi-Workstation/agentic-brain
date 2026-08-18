@@ -419,3 +419,13 @@ Workstreams:
 - Device IDs: Link device-99dc8807, Linkie device-0ec2c42d, Morpheus device-aacc572b, Neo device-6f7d8d51.
 - Insight: mnemosyne-system.md (system anatomy, link-by-link verification model).
 Reflection: 20260817T123550Z. Daily memory: 2026-08-17.md.
+
+## [ENT-061] | 2026-08-18 17:30 UTC | Morpheus | agent-birth | see: none
+Investment-Runner birthed (2026-08-18): the fleet's investing pipeline subagent.
+- Lean Hermes profile profiles/investment-runner, identical architecture to library-runner
+  (same toolset trimming: bfl/file/terminal/web; same model deepseek-v4-pro; shared external skills dir).
+- Job: runs investing skills on cron cycles -- screening support, data pulls, pipeline steps for Neo's valuation loop.
+- Neo owns the valuations; the runner supplies the inputs, never the verdict.
+- Brain write paths: investing/ + logbook/ only. Commit identity: Investment Runner <investment-runner@suggi-workspace.dev>.
+- NO cron jobs yet (first investing skills are built later, one by one); no ticker unit until then.
+- Smoke test passed: INVESTMENT_RUNNER_ALIVE. FLEET.md roster updated (Morpheus workspace).
