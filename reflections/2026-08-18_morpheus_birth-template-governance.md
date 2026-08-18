@@ -6,8 +6,8 @@ trigger: insight
 author: Morpheus
 tags: [governance, fleet, templates, subagents, self-improvement]
 links:
-  - governance/template-reflections.md -- the reflection format this file follows
-  - logbook/protocol.md -- the event log that carries birth announcements
+  - governance/template-reflections.md
+  - logbook/protocol.md
 ---
 
 # Birth-Template Governance
@@ -178,6 +178,6 @@ taxonomy PASS is a birth gate, equal to the liveness gate.
 
 ## Cross-links
 
-- governance/template-library.md -- the library content standard; the model case of standard-in-template propagation
-- logbook/protocol.md -- the event log where births and corrections are recorded fleet-wide
-- library/value-investing/anchor-value-investing.md -- the north-star discipline that the subagents ultimately serve
+- `governance/template-library.md` -- the library content standard; the model case of standard-in-template propagation
+- `logbook/protocol.md` -- the event log where births and corrections are recorded fleet-wide
+- `library/value-investing/anchor-value-investing.md` -- the north-star discipline that the subagents ultimately serve
