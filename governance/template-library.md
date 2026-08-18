@@ -167,24 +167,26 @@ the core claim or finding up front. Do not bury the lead.
 
 The following sections MUST appear in this sequence. Domain-specific
 titles are noted where permitted; the presence of each section is
-non-negotiable.
+non-negotiable. EACH section must also meet its word minimum:
+Background >= 500 words, Core Concepts >= 1000 words, Evidence >=
+750 words, Implications >= 750 words.
 
 ```
 1.  ## Background
     Historical or intellectual context. How did this knowledge develop?
     Who were the key contributors? What problems did it solve? MUST
-    appear after the opening paragraph. MUST contain at least 500
-    words. Depth: the intellectual lineage, key contributors, and
-    the problems the field evolved to solve.
+    appear after the opening paragraph. Depth: the intellectual
+    lineage, key contributors, and the problems the field evolved
+    to solve.
 
 2.  ## Core Concepts
     The essential ideas of the topic. What are the building blocks?
     What mental models, frameworks, or principles define this subject?
     Title MAY vary by domain: ## Core Biases by Category,
     ## Core Principles, ## Core Mechanisms. The section itself MUST
-    appear and MUST contain at least 1000 words. Depth: at least 6
-    distinct concepts, each developed with a concrete example or
-    application. Verified by word count on the extracted section text.
+    appear. Depth: at least 6 distinct concepts, each developed
+    with a concrete example or application. Verified by word count
+    on the extracted section text.
 
 3.  (domain body sections)
     Additional ## sections expanding on specific aspects. MAY appear
@@ -195,17 +197,16 @@ non-negotiable.
 4.  ## Evidence
     Empirical support, research findings, case studies. What data or
     observations back the claims? Title MAY vary: ## Evidence and
-    Research Foundation, ## Empirical Support. The section MUST appear
-    and MUST contain at least 750 words. Depth: at least 3 distinct
-    studies or cases, each summarized with its method and finding.
-    Verified by word count on the extracted section text.
+    Research Foundation, ## Empirical Support. The section MUST appear.
+    Depth: at least 3 distinct studies or cases, each summarized
+    with its method and finding. Verified by word count on the
+    extracted section text.
 
 5.  ## Implications
     Why this topic matters. Practical applications, consequences,
-    connections to other domains. MUST appear. MUST contain at least
-    750 words. Depth: applications across at least 2 distinct
-    audiences or contexts. Verified by word count on the extracted
-    section text.
+    connections to other domains. MUST appear. Depth: applications
+    across at least 2 distinct audiences or contexts. Verified by
+    word count on the extracted section text.
 
 6.  (optional sections)
     ## Common Pitfalls, ## Criticisms, ## Practical Frameworks.
