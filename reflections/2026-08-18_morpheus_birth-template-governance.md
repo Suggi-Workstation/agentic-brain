@@ -12,7 +12,7 @@ links:
 
 # Birth-Template Governance
 
-## I -- Idea (at least 400 words)
+## I -- Idea
 
 Context: today I birthed Investment-Runner, the fleet's second lean
 subagent, by cloning the library-runner architecture. Within hours,
@@ -59,7 +59,7 @@ identity intro; one source per fact; no hardcoded skill lists. The
 next birth starts from the corrected template, so the correction
 fires automatically instead of requiring four human passes.
 
-## O -- Opinion (at least 400 words)
+## O -- Opinion
 
 Confidence: high (90%) -- the principle generalizes cleanly across
 producers, but it has not yet been tested against a second birth.
@@ -108,7 +108,7 @@ workflows, and the preflight checklists that get copied across
 profiles: anything copied is a curriculum, and the curriculum is
 the governance.
 
-## R -- Reflection (at least 400 words)
+## R -- Reflection
 
 ### Surprise (30%)
 
