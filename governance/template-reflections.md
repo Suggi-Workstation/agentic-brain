@@ -116,6 +116,7 @@ sub-sections within R.
 
 ### I -- Idea
 (at least 400 words)
+
 *What is the thought? State it in one sentence, then unpack.*
 
 - Start with the core idea as a single, declarative sentence.
@@ -145,6 +146,7 @@ sub-sections within R.
 
 ### R -- Reflection
 (at least 400 words)
+
 *What did you learn, and what changes because of it?*
 
 Three sub-sections, weighted 30 / 30 / 40:
