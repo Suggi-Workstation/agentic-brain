@@ -108,10 +108,11 @@ inspection alone.
   fails, rebase replays Y on top of X, and the final linear history
   contains both writes. Nothing is lost.
 - Conflict case: both writes touching the same lines halt the
-  rebase; the watcher exits non-zero, the clone sits mid-rebase with
-  conflict markers, and an agent resolves manually. Never
-  auto-resolved, because auto-resolving knowledge conflicts risks
-  silently mangling content.
+  rebase; the watcher aborts the rebase back to a clean state, logs
+  loudly, and exits non-zero. An agent resolves manually; the next
+  tick resumes normal sync. Never auto-resolved, because
+  auto-resolving knowledge conflicts risks silently mangling
+  content.
 - Freshness check after the reindex-path exercise: OK, 4931 chunks,
   heartbeat updated to current HEAD.
 
@@ -128,7 +129,7 @@ inspection alone.
                                 ~/.brain-index is a symlink to it)
 /opt/brain-tools/               CODE: brain-pull.sh + venv/
                                 (root:agents, setgid 2775)
-/home/hermes/crontab            SCHEDULE: */5 * * * *
+/home/hermes/crontab            SCHEDULE: * * * * *
                                 /opt/brain-tools/brain-pull.sh
 /srv/brain/logs/              OBSERVABILITY: brain-pull.log,
                                 brain-index.log
@@ -154,8 +155,9 @@ Every minute the cron fires and the watcher:
 4. git merge --ff-only origin/main. If it fails (divergence),
    git rebase origin/main && git push.
 5. Record after = HEAD. If before != after (pulled) OR pushed = 1:
-   run the embedder (bge-small-en-v1.5 via sentence-transformers in
-   the isolated venv) for an incremental reindex, and log the event.
+   run the embedder (unsloth/embeddinggemma-300m, 768-dim, via the
+   isolated venv with the warm daemon brain-embed.service at
+   127.0.0.1:8099) for an incremental reindex, and log the event.
 
 The embedder runs together with the watcher, in both directions,
 always after content moved. It never runs standalone.
