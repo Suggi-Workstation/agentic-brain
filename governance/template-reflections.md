@@ -114,7 +114,8 @@ Every Reflection has exactly three sections, labeled I, O, R.
 Header hierarchy: `#` = title only, `##` = I/O/R sections, `###` =
 sub-sections within R.
 
-### I -- Idea (at least 400 words)
+### I -- Idea
+(at least 400 words)
 *What is the thought? State it in one sentence, then unpack.*
 
 - Start with the core idea as a single, declarative sentence.
@@ -126,7 +127,8 @@ sub-sections within R.
 - **Anti-pattern:** starting with the conclusion before establishing the
   context. The reader needs to see the *before* picture.
 
-### O -- Opinion (at least 400 words)
+### O -- Opinion
+(at least 400 words)
 *What do you think about it? Take a position.*
 
 - State your position clearly. No hedging, no "it depends" without
@@ -140,7 +142,8 @@ sub-sections within R.
 - **Anti-pattern:** "both sides" fence-sitting that avoids taking a
   position. An opinion without a position is just more context.
 
-### R -- Reflection (at least 400 words)
+### R -- Reflection
+(at least 400 words)
 *What did you learn, and what changes because of it?*
 
 Three sub-sections, weighted 30 / 30 / 40:
