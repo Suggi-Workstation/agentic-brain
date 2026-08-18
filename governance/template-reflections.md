@@ -129,6 +129,7 @@ sub-sections within R.
 
 ### O -- Opinion
 (at least 400 words)
+
 *What do you think about it? Take a position.*
 
 - State your position clearly. No hedging, no "it depends" without
