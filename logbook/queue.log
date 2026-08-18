@@ -437,3 +437,9 @@ Session: Investment-Runner birth, fleet API-key provisioning, subagent bootstrap
 - Four-pass Suggi correction on the 4 subagent bootstrap files: SOUL = Identity + Voice + Prime Directives only; AGENTS = procedure + rules + boundaries, no frontmatter, no identity intro.
 - Structural gate: fleet-agent-birth skill gains Bootstrap File Taxonomy section + no-shared-env note.
 Reflection: 20260818T180826Z. Daily memory: 2026-08-18.md.
+
+## [ENT-063] | 2026-08-18 19:07 UTC | Morpheus | infra | ref: research/insights/vps-brainclone-plus-index.md | see: none
+Watcher infra fixes (both tested in /tmp sandbox + production):
+- Divergence deadlock fixed: brain-pull.sh now rebases local commits onto origin/main on divergence and pushes (blueprint step 4, missing since birth). Conflict case aborts to clean state, logs loudly, exits 1 -- never auto-resolved.
+- brain-index/index.py wired to the warm embed daemon (brain-embed.service, 127.0.0.1:8099): daemon-first with in-process fallback, local normalization (daemon doc embeddings are unnormalized).
+- Tested: divergence self-heal (nothing lost, linear history), conflict abort (clean state), daemon vs in-process vector consistency (cosine 1.0), production reindex 12s -> 2.6s.
