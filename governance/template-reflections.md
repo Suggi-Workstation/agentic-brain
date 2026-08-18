@@ -112,11 +112,10 @@ Files are named: `YYYY-MM-DD_author_slug.md`
 
 Every Reflection has exactly three sections, labeled I, O, R.
 Header hierarchy: `#` = title only, `##` = I/O/R sections, `###` =
-sub-sections within R.
+sub-sections within R. EACH Section (I/O/R) must have at least 400 words.
+(I >= 400 words, O >= 400 words, R >= 400 words)
 
 ### I -- Idea
-(at least 400 words)
-
 *What is the thought? State it in one sentence, then unpack.*
 
 - Start with the core idea as a single, declarative sentence.
@@ -129,8 +128,6 @@ sub-sections within R.
   context. The reader needs to see the *before* picture.
 
 ### O -- Opinion
-(at least 400 words)
-
 *What do you think about it? Take a position.*
 
 - State your position clearly. No hedging, no "it depends" without
@@ -145,8 +142,6 @@ sub-sections within R.
   position. An opinion without a position is just more context.
 
 ### R -- Reflection
-(at least 400 words)
-
 *What did you learn, and what changes because of it?*
 
 Three sub-sections, weighted 30 / 30 / 40:
