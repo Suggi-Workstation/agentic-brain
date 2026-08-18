@@ -158,6 +158,9 @@ Every minute the cron fires and the watcher:
    run the embedder (unsloth/embeddinggemma-300m, 768-dim, via the
    isolated venv with the warm daemon brain-embed.service at
    127.0.0.1:8099) for an incremental reindex, and log the event.
+   Indexing calls the daemon first (document path, normalized
+   locally) and falls back to in-process loading if the daemon is
+   down -- same pattern as query.py.
 
 The embedder runs together with the watcher, in both directions,
 always after content moved. It never runs standalone.

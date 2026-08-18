@@ -57,8 +57,8 @@ def load_embedder():
 # --- Warm daemon integration ---
 # The brain-embed daemon keeps the embedding model loaded (127.0.0.1:8099),
 # so queries skip the ~11s cold model load. If the daemon is down, we fall
-# back to in-process loading (same behavior as before). Daemon is only used
-# for QUERY embedding (encode_query); indexing uses in-process encode_document.
+# back to in-process loading (same behavior as before). Indexing (index.py)
+# uses the daemon too, with its own in-process fallback.
 _EMBED_DAEMON_URL = "http://127.0.0.1:8099/embed"
 _DAEMON_DEAD = False
 

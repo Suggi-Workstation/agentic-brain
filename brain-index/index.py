@@ -35,6 +35,39 @@ CHUNKS_PATH = DATA_DIR / "chunks.jsonl"
 VECTORS_PATH = DATA_DIR / "vectors.npy"
 
 
+# --- Warm daemon integration ---
+# The brain-embed daemon keeps the embedding model loaded
+# (127.0.0.1:8099). Indexing tries the daemon first and falls back to
+# in-process loading when the daemon is down (same behavior as before).
+# The daemon's document embeddings are NOT normalized; we normalize
+# locally so stored vectors match the in-process path
+# (normalize_embeddings=True) -- otherwise cosine search silently breaks.
+_EMBED_DAEMON_URL = os.environ.get(
+    "BRAIN_EMBED_URL", "http://127.0.0.1:8099/embed"
+)
+_DAEMON_DEAD = False
+
+
+def _daemon_embed(texts):
+    """Try the warm daemon; returns unnormalized vectors or None."""
+    global _DAEMON_DEAD
+    if _DAEMON_DEAD:
+        return None
+    try:
+        import urllib.request
+        payload = json.dumps({"texts": texts, "query": False}).encode("utf-8")
+        req = urllib.request.Request(
+            _EMBED_DAEMON_URL, data=payload,
+            headers={"Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        return data["embeddings"]
+    except Exception:
+        # Daemon unreachable once -> fall back and don't hammer it per batch
+        _DAEMON_DEAD = True
+        return None
+
+
 def load_embedder():
     """Lazy-load sentence-transformers (heavy import, done once)."""
     from sentence_transformers import SentenceTransformer
@@ -195,8 +228,9 @@ def build_index(force: bool = False):
         print(f"New: {len(new_files)}, Changed: {len(changed_files)}, "
               f"Deleted: {len(deleted_files)}")
 
-    # Load embedder
-    model = load_embedder()
+    # Load embedder (lazy -- the embed loop below tries the warm daemon
+    # first and loads in-process only if the daemon is down)
+    model = None
 
     # Load existing chunks if incremental
     existing_chunks = []
@@ -255,16 +289,34 @@ def build_index(force: bool = False):
 
     print(f"  Chunks to embed: {len(new_chunks)}", flush=True)
 
-    # Embed new chunks
+    # Embed new chunks (warm daemon first, in-process fallback)
     if new_chunks:
         texts = [c["text"] for c in new_chunks]
         batch_size = cfg["embedding"]["batch_size"]
         vectors = []
+        use_daemon = True
         for i in range(0, len(texts), batch_size):
             batch = texts[i:i + batch_size]
-            vecs = model.encode_document(batch, normalize_embeddings=True,
-                                        show_progress_bar=False)
-            vectors.append(vecs)
+            if use_daemon:
+                vecs = _daemon_embed(batch)
+                if vecs is not None:
+                    arr = np.asarray(vecs, dtype=np.float32)
+                    norms = np.linalg.norm(arr, axis=1, keepdims=True)
+                    norms[norms == 0] = 1.0
+                    vectors.append((arr / norms).astype(np.float16))
+                else:
+                    use_daemon = False
+                    model = load_embedder()
+                    print("  daemon unavailable; in-process fallback",
+                          flush=True)
+                    vecs = model.encode_document(
+                        batch, normalize_embeddings=True,
+                        show_progress_bar=False)
+                    vectors.append(vecs.astype(np.float16))
+            else:
+                vecs = model.encode_document(batch, normalize_embeddings=True,
+                                             show_progress_bar=False)
+                vectors.append(vecs.astype(np.float16))
             if (i + batch_size) % 100 == 0 or i + batch_size >= len(texts):
                 print(f"  Embedded {min(i + batch_size, len(texts))}/{len(texts)}",
                       flush=True)
