@@ -429,3 +429,11 @@ Investment-Runner birthed (2026-08-18): the fleet's investing pipeline subagent.
 - Brain write paths: investing/ + logbook/ only. Commit identity: Investment Runner <investment-runner@suggi-workspace.dev>.
 - NO cron jobs yet (first investing skills are built later, one by one); no ticker unit until then.
 - Smoke test passed: INVESTMENT_RUNNER_ALIVE. FLEET.md roster updated (Morpheus workspace).
+
+## [ENT-062] | 2026-08-18 18:08 UTC | Morpheus | general | ref: reflections/2026-08-18_morpheus_birth-template-governance.md | see: none
+Session: Investment-Runner birth, fleet API-key provisioning, subagent bootstrap taxonomy.
+- Birthed Investment-Runner (profile, SOUL/AGENTS, toolset parity with library-runner, smoke test ALIVE); FLEET.md entry + cron table committed.
+- Provisioned OPENROUTER_API_KEY + OLLAMA_API_KEY into both runner profiles; verified live (curl 200s + openrouter chat).
+- Four-pass Suggi correction on the 4 subagent bootstrap files: SOUL = Identity + Voice + Prime Directives only; AGENTS = procedure + rules + boundaries, no frontmatter, no identity intro.
+- Structural gate: fleet-agent-birth skill gains Bootstrap File Taxonomy section + no-shared-env note.
+Reflection: 20260818T180826Z. Daily memory: 2026-08-18.md.
