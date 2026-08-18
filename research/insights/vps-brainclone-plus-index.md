@@ -115,6 +115,13 @@ inspection alone.
   content.
 - Freshness check after the reindex-path exercise: OK, 4931 chunks,
   heartbeat updated to current HEAD.
+- Daemon wiring (2026-08-18): index.py rebuilds verified in a /tmp
+  sandbox -- daemon path 1.2s vs in-process fallback 10.2s for the
+  same 6 chunks; row-wise cosine between daemon-normalized and
+  in-process vectors = 1.0 (identical). Production incremental
+  reindex 2.6s. Divergence self-heal (rebase + push, nothing lost,
+  linear history) and conflict abort (clean state, exit 1) both
+  verified in sandbox.
 
 ## The System -- How It Works
 
