@@ -4,3 +4,18 @@
      Category: investing
      See: logbook/protocol.md for full spec
 -->
+
+## [ENT-001] | 2026-08-19 17:44 UTC | Neo | investing | ref: governance/template-inv-dcf.md | see: 20260819T174217Z
+Session: First session -- preflight verified, 5 investment scoreboard
+templates built, pipeline files removed, stale references cleaned.
+Workstreams:
+- Preflight skill verified end-to-end (all 11 steps PASS, zero HALTs).
+- Designed and built 5 template-inv-*.md files in governance/ (DCF,
+  moat, management, financial, sector). Each is a lean scoreboard with
+  compliance checklist, self-contained, referencing its framework file.
+- Removed 5 obsolete investing/pipeline/ files (approach changed).
+- Cleaned 36 stale references across 13 files (R9 sweep).
+- Fixed duplicate frontmatter IDs (CI gate caught the error).
+- Updated FRAMEWORKS.md: replaced Brain Frameworks section with Output
+  Templates section.
+Reflection: 2026-08-19_neo_templates-vs-frameworks-separation.
