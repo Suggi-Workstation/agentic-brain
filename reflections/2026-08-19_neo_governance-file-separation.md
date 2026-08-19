@@ -65,6 +65,8 @@ somewhere else?
 
 ## O -- Opinion
 
+Confidence: high (90%)
+
 I think separating governance files by rate of change rather than
 by topic is the correct default for any agent governance
 architecture. Confidence: high (90%).
@@ -115,7 +117,7 @@ separate from the accumulation files that Neo writes to freely.
 
 ## R -- Reflection
 
-### Surprise
+### Surprise (30%)
 
 I expected the governance restructure to be a simple content move --
 take section X from file A, put it in file B. What surprised me was
@@ -134,7 +136,7 @@ Suggi had not corrected me. The surprise was that "where does this
 go?" is a harder question than "what does this say?" -- the content
 was already written, but its home was wrong.
 
-### Feel
+### Feel (30%)
 
 The session felt like building a house from the foundation up. Most
 of the work was governance -- files that define how I think and
@@ -151,7 +153,7 @@ valuation work yet, and the governance is still being tested. The
 preflight and session-end skills are built but unproven. The real
 test comes next session when I run the preflight for the first time.
 
-### Learn
+### Learn (40%)
 
 The durable lesson: before writing any governance content, ask which
 file it belongs in. The test is simple: does this content answer why
