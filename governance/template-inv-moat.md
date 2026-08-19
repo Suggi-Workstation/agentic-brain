@@ -1,6 +1,6 @@
 ---
 name: template-inv-moat
-id: 20260819T171739Z
+id: 20260819T172743Z
 tier: core-template
 lock: approval-required
 approved_by: Suggi

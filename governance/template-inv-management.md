@@ -1,6 +1,6 @@
 ---
 name: template-inv-management
-id: 20260819T171739Z
+id: 20260819T172744Z
 tier: core-template
 lock: approval-required
 approved_by: Suggi

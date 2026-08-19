@@ -1,6 +1,6 @@
 ---
 name: template-inv-financial
-id: 20260819T171739Z
+id: 20260819T172745Z
 tier: core-template
 lock: approval-required
 approved_by: Suggi
