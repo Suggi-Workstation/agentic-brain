@@ -23,7 +23,7 @@ combine growth, profitability, and cheapness.
 
 This is Suggi's domain -- the screening identifies candidates. My domain
 is intrinsic value calculation for the quality companies that emerge.
-See `intrinsic-value-pipeline.md` for the separation of concerns.
+See the framework files for the separation of concerns.
 
 ## Sheet Structure
 
@@ -190,7 +190,7 @@ For each company in the universe, the screener needs:
 ## Integration with Intrinsic Value Pipeline
 
 This screener identifies candidates. It does NOT calculate intrinsic
-value. The pipeline (`intrinsic-value-pipeline.md`) takes the quality
+value. The pipeline takes the quality
 companies from the screener output and:
 
 1. Applies moat scoring (`simple-moat-scoring.md`, `deep-moat-scoring.md`)

@@ -26,7 +26,7 @@ do.
 
 This insight emerged from rewriting the investment pipeline three
 times in one session. Suggi identified that the original
-`investment-pipeline-final.md` embedded market price at every stage:
+The original pipeline embedded market price at every stage:
 MOS calculations, price-based watchlist alerts, position sizing
 recommendations. The first correction removed those. But the second
 and third corrections were needed because I kept embedding price

@@ -22,12 +22,12 @@ proposal is stronger than either original, validating the decorrelated
 multi-agent design pattern.
 
 Suggi asked Link and me to compare our proposals. Link's
-`link-investment-pipeline.md` identified 10 specific philosophical gaps
+Link's pipeline proposal identified 10 specific philosophical gaps
 (G1-G10) in my original design -- the "too hard" pile, owner earnings
 normalization, moat durability scoring, management quality scoring, a
 post-mortem error loop, and five others, each anchored to a specific
 Buffett/Munger/Pabrai/Sleep/Greenblatt framework. My
-`investment-pipeline-architecture.md` v2 had broader operational scope --
+Ava's v2 architecture had broader operational scope --
 sector-specific metrics, data quality validation, sentiment analysis,
 thesis formulation, and continuous monitoring infrastructure.
 

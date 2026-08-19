@@ -21,7 +21,7 @@ links:
 An investment pipeline proposal describes WHAT to do. Without step-by-step
 frameworks explaining HOW to do each stage, the pipeline is a map with no
 compass. Writing six operational frameworks today transformed the
-`investment-pipeline-final.md` proposal from an architectural document
+the merged pipeline proposal from an architectural document
 into an executable methodology -- a playbook that any agent can follow
 to produce consistent, evidence-backed investment analyses.
 
