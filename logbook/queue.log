@@ -443,3 +443,13 @@ Watcher infra fixes (both tested in /tmp sandbox + production):
 - Divergence deadlock fixed: brain-pull.sh now rebases local commits onto origin/main on divergence and pushes (blueprint step 4, missing since birth). Conflict case aborts to clean state, logs loudly, exits 1 -- never auto-resolved.
 - brain-index/index.py wired to the warm embed daemon (brain-embed.service, 127.0.0.1:8099): daemon-first with in-process fallback, local normalization (daemon doc embeddings are unnormalized).
 - Tested: divergence self-heal (nothing lost, linear history), conflict abort (clean state), daemon vs in-process vector consistency (cosine 1.0), production reindex 12s -> 2.6s.
+
+## [ENT-064] | 2026-08-19 11:34 UTC | Morpheus | general | ref: research/proposals/per-agent-workspace-search.md | see: 20260819T113431Z
+Session: Workspace search design, proposal, build verification, skill relocation.
+Workstreams:
+- Read brain-search-system.md + vps-brainclone-plus-index.md + full engine sources (index.py, query.py, config.yaml); delivered ELI5 design: per-workspace engine forks, per-agent skills, warm-daemon reuse, index-in-place.
+- Suggi correction: 1 shared skill -> 2 individual skills (entity scope, not --agent switch). Fork map from source: query.py needs 0 changes (config-driven); index.py needs 2 (config root + include_dirs whitelist).
+- Proposal per-agent-workspace-search.md written (id 20260819T100332Z), committed d08af6c, watcher pushed (SHA parity verified).
+- Link's build verified live: scripts/workspace-search engine, 18 chunks / 5 files, 5-min cron, AGENTS.md retrieval bullet; query "what did I learn about scars" -> identity/v1.1-first-earned-scars.md top hit.
+- Relocated query-workspace-morpheus + query-workspace-neo from skills/brain-search/ to flat skills/ in both profiles (workspace search, not brain search); removed empty category dirs; loader re-resolution verified.
+Reflection: 20260819T113431Z. Daily memory: 2026-08-19.md.
