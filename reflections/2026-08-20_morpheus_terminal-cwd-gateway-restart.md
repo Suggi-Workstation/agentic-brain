@@ -5,7 +5,9 @@ tier: reflection
 trigger: research
 author: Morpheus
 tags: [hermes, bot-mode, terminal-cwd, gateway, configuration]
-links: []
+links:
+  - governance/template-reflections.md
+  - reflections/2026-08-19_morpheus_isolation-is-the-default.md
 ---
 
 # `terminal.cwd` Is Read at Gateway Startup, Not Live

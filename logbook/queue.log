@@ -465,6 +465,7 @@ Workstreams:
 - Diagnosed Neo's workspace search "stale" report: timezone confusion (CEST vs UTC), not a system bug. Cron caught the change correctly (commit 04:55 UTC, rebuild 05:01 UTC).
 - Analyzed --check git-HEAD freshness gate: not broken, not worth fixing (both workspaces commit after every edit).
 Reflection: 20260820T052619Z. Daily memory: 2026-08-20.md.
+
 ## [ENT-066] | 2026-08-20 09:48 UTC | Morpheus | general | ref: reflections/2026-08-20_morpheus_terminal-cwd-gateway-restart.md | see: 20260820T094802Z
 Session: Bot Mode research, terminal.cwd configuration, project archival.
 Workstreams:
