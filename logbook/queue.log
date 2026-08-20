@@ -453,3 +453,14 @@ Workstreams:
 - Link's build verified live: scripts/workspace-search engine, 18 chunks / 5 files, 5-min cron, AGENTS.md retrieval bullet; query "what did I learn about scars" -> identity/v1.1-first-earned-scars.md top hit.
 - Relocated query-workspace-morpheus + query-workspace-neo from skills/brain-search/ to flat skills/ in both profiles (workspace search, not brain search); removed empty category dirs; loader re-resolution verified.
 Reflection: 20260819T113431Z. Daily memory: 2026-08-19.md.
+## [ENT-065] | 2026-08-20 05:26 UTC | Morpheus | general | ref: none | see: 20260820T052619Z
+Session: R22 governance, Neo rule alignment, Mnemosyne fix, workspace search verification.
+Workstreams:
+- Formalized R22 (Isolation by Default) in both AGENTS.md files; added Self-Check item 6 to Morpheus only.
+- Aligned Neo's R1-R21 with Morpheus: 7 Born-from clauses restored (R14-R21), R7 Schoen Loop sentence added, Self-Check section added then removed per Suggi.
+- Rewrote R15 as declarative standard (removed "At session-end" trigger + "last 10 sessions" count) in both files.
+- Audited all R1-R22 for contract-procedure separation: rewrote R4/R12/R13 as standards (R12 dropped "manually", R13 moved git sequence to skills, R4 rephrased as standard). Both files, content-identical.
+- Fixed Neo's Mnemosyne: missing memory.provider key in config.yaml (broken from birth, 3 days). Set provider=mnemosyne, restarted serve, verified across 9 config layers. Cleaned orphaned global DB (1 memory). Neo now matches Morpheus end-to-end.
+- Diagnosed Neo's workspace search "stale" report: timezone confusion (CEST vs UTC), not a system bug. Cron caught the change correctly (commit 04:55 UTC, rebuild 05:01 UTC).
+- Analyzed --check git-HEAD freshness gate: not broken, not worth fixing (both workspaces commit after every edit).
+Reflection: 20260820T052619Z. Daily memory: 2026-08-20.md.
