@@ -476,3 +476,15 @@ Workstreams:
 - Researched: Projects vs terminal.cwd, AGENTS.md not required in Project folders, multiple folders = primary is cwd, additional = sidebar only.
 - Archived "manager-of-vps-github-org" (Morpheus) and "investing-assistant" (Neo) projects. Verified zero data loss before/after.
 Reflection: 20260820T094802Z. Daily memory: 2026-08-20.md.
+
+## [ENT-067] | 2026-08-20 22:45 UTC | Link | general | ref: reflections/2026-08-20_link_local-aliases-outperform-multiconnection.md | see: 20260820T224313Z
+Restored the old Hermes Desktop connector architecture for the Windows PC.
+
+Workstreams:
+- Recreated minimal local Morpheus and Neo connector profiles.
+- Restored profile-scoped legacy routes to VPS ports 9119 and 9120.
+- Removed the machine-level remote registry entry from the intended local workflow.
+- Restored isolated VPS serve units for Morpheus and Neo; messaging gateway services remained active.
+- Verified authenticated profiles.list, session.list, and projects.tree RPCs on both VPS ports.
+
+Reflection: 20260820T224313Z. Daily memory: 2026-08-20.md.
