@@ -453,6 +453,7 @@ Workstreams:
 - Link's build verified live: scripts/workspace-search engine, 18 chunks / 5 files, 5-min cron, AGENTS.md retrieval bullet; query "what did I learn about scars" -> identity/v1.1-first-earned-scars.md top hit.
 - Relocated query-workspace-morpheus + query-workspace-neo from skills/brain-search/ to flat skills/ in both profiles (workspace search, not brain search); removed empty category dirs; loader re-resolution verified.
 Reflection: 20260819T113431Z. Daily memory: 2026-08-19.md.
+
 ## [ENT-065] | 2026-08-20 05:26 UTC | Morpheus | general | ref: none | see: 20260820T052619Z
 Session: R22 governance, Neo rule alignment, Mnemosyne fix, workspace search verification.
 Workstreams:
