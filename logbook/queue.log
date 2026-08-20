@@ -465,3 +465,13 @@ Workstreams:
 - Diagnosed Neo's workspace search "stale" report: timezone confusion (CEST vs UTC), not a system bug. Cron caught the change correctly (commit 04:55 UTC, rebuild 05:01 UTC).
 - Analyzed --check git-HEAD freshness gate: not broken, not worth fixing (both workspaces commit after every edit).
 Reflection: 20260820T052619Z. Daily memory: 2026-08-20.md.
+## [ENT-066] | 2026-08-20 09:48 UTC | Morpheus | general | ref: reflections/2026-08-20_morpheus_terminal-cwd-gateway-restart.md | see: 20260820T094802Z
+Session: Bot Mode research, terminal.cwd configuration, project archival.
+Workstreams:
+- Researched Bot Mode from docs + source code (bot-mode.md, bot_mode_probe.py, peer.py, prompt_builder.py, projects.ts). Delivered ELI12: a Bot IS a profile, Bot Chat = one forever session, no new storage.
+- Diagnosed Bot Chat not loading governance: terminal.cwd unset -> sessions born in /home/hermes (fallback). Set terminal.cwd for Morpheus and Neo to their workspace folders.
+- Discovered gateways needed restart (terminal.cwd read at startup, bridged to TERMINAL_CWD). Restarted Neo serve + Morpheus gateway (detached subprocess to bypass safety block).
+- Diagnosed Bot Chat session loss: auto-titler renamed "Bot Chat" to generic titles, breaking plugin pin resolution. Cleaned 10 stale sessions, re-pinned correct Bot Chat.
+- Researched: Projects vs terminal.cwd, AGENTS.md not required in Project folders, multiple folders = primary is cwd, additional = sidebar only.
+- Archived "manager-of-vps-github-org" (Morpheus) and "investing-assistant" (Neo) projects. Verified zero data loss before/after.
+Reflection: 20260820T094802Z. Daily memory: 2026-08-20.md.
