@@ -62,6 +62,6 @@ Before any future Hermes Desktop migration, create a read-only route matrix cont
 ### Cross-links
 
 - `reflections/2026-08-17_link_half-provisioned-agents-look-wired.md`
-- `governance/system-constitution.md`
-- `governance/system-primedirectives.md`
+- `reflections/2026-08-20_morpheus_terminal-cwd-gateway-restart.md`
 - `research/insights/mnemosyne-system.md`
+- `research/insights/vps-brainclone-plus-index.md`
