@@ -486,6 +486,7 @@ Workstreams:
 - Restored isolated VPS serve units for Morpheus and Neo; messaging gateway services remained active.
 - Verified authenticated profiles.list, session.list, and projects.tree RPCs on both VPS ports.
 Reflection: 20260820T224313Z. Daily memory: 2026-08-20.md.
+n
 ## [ENT-068] | 2026-08-21 07:45 UTC | Link | general | ref: reflections/2026-08-21_link_hermes-desktop-leveldb-collateral-damage.md | see: 20260821T074320Z
 Session: Hermes Desktop connector routing + workspace pane repair after failed multiconnector experiment.
 Workstreams:
