@@ -106,6 +106,21 @@ the time to recreate state -- it is the risk that some keys are
 never recreated, leaving the app in a degraded state that is
 harder to diagnose than the original routing problem.
 
+A full wipe trades a known problem (stale routing keys) for an
+unknown problem (which UI keys will be missing after the wipe).
+The known problem is bounded: the routing keys are identified,
+the stale entries are enumerable, the fix is targeted. The
+unknown problem is unbounded: any of the dozens of keys in the
+LevelDB could be missing after the wipe, and each one manifests
+as a different UI symptom with a different diagnostic path. In
+this session, the missing `workspace-cwd` key manifested as
+"invisible files pane" and required reading the app source code
+to diagnose. The missing `paneStates` toggle required
+understanding the pane visibility model. Each missing key was
+its own diagnostic puzzle. A targeted deletion eliminates the
+known problem without creating unknown ones. The full wipe
+creates unknowns by design.
+
 ## R -- Reflection
 
 ### Surprise
