@@ -48,12 +48,24 @@ workspace pane restoration (workspace-cwd key + paneStates toggle).
 Each issue required its own diagnostic cycle, its own fix attempt,
 and its own verification. The root cause of the escalation was
 that the LevelDB wipe -- the fix for issue 1 -- created issues 2
-and 3.
+and 3. The simple goal became a three-front repair because the
+first fix was a blunt instrument that destroyed unrelated state.
+
+The pattern is general: any time we use a database wipe as a fix,
+we must enumerate what else lives in that database and decide
+whether each category should be preserved. The Hermes Desktop
+LevelDB is not a routing cache. It is a general-purpose Chromium
+localStorage database that the app uses for dozens of independent
+state keys, each with its own lifecycle, its own write path, and
+its own recreation semantics. Some keys are recreated from config
+files on launch. Others are only written by specific app actions
+(signing in, opening a terminal, toggling a pane). Wiping the
+database assumes all keys are in the first category. They are not.
 
 ## O -- Opinion
 
-I should have backed up the LevelDB before wiping it. Confidence:
-high (90%).
+I should have backed up the LevelDB before wiping it, then restored
+the non-routing keys after the wipe. Confidence: high (90%).
 
 The `hermes-desktop-troubleshooting` skill's `multi-connection-
 migration` reference documents the LevelDB wipe as a standard fix
@@ -63,24 +75,19 @@ followed the deletion step but skipped the backup. The backup is
 not just a safety net -- it is the mechanism for restoring
 non-routing state that the wipe destroys. The skill should say
 "back up, delete, RESTORE non-routing keys after restart" not
-just "back up, delete, restart."
+just "back up, delete, restart." The distinction matters because
+the app does not recreate all keys automatically. Routing keys
+come back from `connection.json` and `connections.json`. UI keys
+do not come back -- they require a specific app action (opening a
+terminal, toggling a pane) to be written again.
 
 The deeper error was treating LevelDB as a single-purpose routing
-cache. It is not. It is a general-purpose Chromium localStorage
-database that the app uses for dozens of independent state keys.
-The routing keys (`lastProfileByConnection`,
-`gateway-map-repair-v1`) are the ones that needed clearing. The UI
-keys (`workspace-cwd`, `layoutTree.v2`, `layoutPreset.active`,
-`paneStates.v1`) should have been preserved. A targeted deletion --
-removing only the routing keys -- would have fixed the routing
-problem without destroying the workspace pane, the theme, or the
-layout tree.
-
-The `hermes-fix/cleanup.cjs` script I wrote for the earlier layout
-fix session (2026-08-01) does exactly this: it targets only
-`sessionTiles.v2`, `layoutTree.v2`, `layoutPreset.active`, and
-`userPlacedPanes.v1` -- four specific keys, not the whole database.
-That script exists, it is installed, and I did not use it. Instead,
+cache. It is not. The `hermes-fix/cleanup.cjs` script I wrote for
+the earlier layout fix session (2026-08-01) does exactly this: it
+targets only `sessionTiles.v2`, `layoutTree.v2`,
+`layoutPreset.active`, and `userPlacedPanes.v1` -- four specific
+keys, not the whole database. That script exists, it is installed
+in `C:\Users\sugan\hermes-fix\`, and I did not use it. Instead,
 the `Hermes-Gateway-Fix.bat` I wrote deleted the entire leveldb
 directory. That was the mistake. The existing cleanup script's
 targeted approach is the correct pattern.
@@ -94,7 +101,10 @@ everything and hope the app recreates it." It is "enumerate the
 keys, identify the stale ones, delete only those." The
 `read-desktop-localstorage.cjs` script can list every key in the
 database. I should have run it first, identified the stale routing
-keys, and deleted only those.
+keys, and deleted only those. The cost of a full wipe is not just
+the time to recreate state -- it is the risk that some keys are
+never recreated, leaving the app in a degraded state that is
+harder to diagnose than the original routing problem.
 
 ## R -- Reflection
 
@@ -132,7 +142,11 @@ URL into the global `remote` block in `connection.json`, routing
 ALL profiles through Morpheus's backend. This is documented in
 the `fleet-agent-birth` skill and the `desktop-remote-gateway`
 reference, but Suggi hit it twice because the "All profiles"
-chip is the default selection in the UI.
+chip is the default selection in the UI. The sign-in flow does
+not warn that "All profiles" writes the global block. The user
+sees a chip labeled "All profiles" and assumes it means "sign in
+to all profiles." It means "write the global routing block,
+overriding all per-profile settings."
 
 ### Feel
 
