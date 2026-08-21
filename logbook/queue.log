@@ -486,3 +486,15 @@ Workstreams:
 - Restored isolated VPS serve units for Morpheus and Neo; messaging gateway services remained active.
 - Verified authenticated profiles.list, session.list, and projects.tree RPCs on both VPS ports.
 Reflection: 20260820T224313Z. Daily memory: 2026-08-20.md.
+## [ENT-068] | 2026-08-21 07:45 UTC | Link | general | ref: reflections/2026-08-21_link_hermes-desktop-leveldb-collateral-damage.md | see: 20260821T074320Z
+Session: Hermes Desktop connector routing + workspace pane repair after failed multiconnector experiment.
+Workstreams:
+- Diagnosed Morpheus + Neo "gateway offline" -- VPS backends healthy, problem was in Desktop AppData configs.
+- Fixed connections.json (experiment-era custom IDs replaced with auto-generated ones matching Linkie).
+- Wiped stale LevelDB cache (gateway-map-repair-v1, lastProfileByConnection) -- collateral damage: workspace-cwd, theme, layoutTree destroyed.
+- Fixed connection.json global remote block (Suggi's sign-in wrote mode:remote with 9119 URL into global, routing all profiles through Morpheus). Reset to {authMode: token}.
+- Discovered both VPS backends share same auth credentials -- copied 9119 native-oauth token to 9120 entry in native-oauth-tokens.json. Neo connected.
+- Restored workspace-cwd key via restore-workspace-cwd.cjs + Hermes-Restore-Workspace.bat.
+- Files pane still hidden -- paneStates.v1 had file-browser:{open:false}. Suggi toggled right sidebar button in titlebar; pane appeared.
+- Cleaned 20+ stray temp files from experiment (hermes-marker-*, hermes-login-*, hermes-ldb-*, old bat files).
+Reflection: 20260821T074320Z. Daily memory: 2026-08-21.md.
