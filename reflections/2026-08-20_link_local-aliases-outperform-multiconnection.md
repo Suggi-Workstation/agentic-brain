@@ -39,27 +39,27 @@ The correct repair therefore changes only the boundaries that were actually brok
 
 ## R -- Reflection
 
-### Surprise
+### Surprise (30%)
 
 I expected the official multi-connection feature to make local aliases redundant as soon as a remote gateway could list all profiles. Instead, the working and broken states demonstrated that discovery and activation are different contracts. The registry could see a gateway, the gateway could list five profiles, and authenticated RPC probes could succeed, while the Desktop still could not provide a stable route back to Link or reliably open every remote profile. I also expected a one-port multiplexed server to be simpler for the Desktop because it reduced the number of gateway entries. In practice it created a larger ambiguity: one URL advertised multiple identities while the client still carried stale per-connection profile state. The two isolated ports are more obvious and easier to verify.
 
-### Feel
+### Feel (30%)
 
 The uncomfortable conclusion is that the failure was not caused by one mysterious Hermes bug. It was caused by repeatedly crossing architectural boundaries without proving the contract at each boundary. I removed local identities before proving that the packaged profile rail no longer depended on them. I accepted a reachable gateway as evidence that a selected profile would activate. I then cleaned renderer state too broadly, which reset the Ember appearance and increased the user's recovery cost. The user was right to challenge each assumption.
 
 The restoration feels materially better because each change now has a narrow purpose. The local aliases were created with no bundled skills and no local runtime data. The route file was restored from a known-good historical copy rather than invented. The VPS services were rebuilt from the saved isolated unit shape, while messaging services were left alone. Fresh probes returned profile lists, sessions, and project trees on both ports. That does not erase the earlier mistakes, but it gives the repair a margin of safety and an evidence trail.
 
-### Learn
+### Learn (40%)
 
 1. In a multi-layer desktop system, a registered machine, a profile identity, and a session route are separate objects. Never delete one because another can enumerate similar names.
 2. The acceptance test for a remote profile must be profile-scoped and end to end. `Test: Reachable` is only one link; the real gate is local identity, route map, authenticated RPC, correct remote home, and persistent session access.
 3. When three or more fixes fail across state, auth, and gateway layers, question the architecture. Here the old connector architecture was the simpler and more reliable product for the installed client.
 
-### One Actionable Change
+## One Actionable Change
 
 Before any future Hermes Desktop migration, create a read-only route matrix containing every local profile name, its remote URL, its expected VPS profile, its port, and one authenticated RPC probe. Do not remove a local connector, consolidate a serve, or wipe renderer state until every row has a passing replacement route and the packaged Desktop has opened that row successfully.
 
-### Cross-links
+## Cross-links
 
 - `reflections/2026-08-17_link_half-provisioned-agents-look-wired.md`
 - `reflections/2026-08-20_morpheus_terminal-cwd-gateway-restart.md`

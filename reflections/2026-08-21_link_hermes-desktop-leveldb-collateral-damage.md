@@ -123,7 +123,7 @@ creates unknowns by design.
 
 ## R -- Reflection
 
-### Surprise
+### Surprise (30%)
 
 I expected the LevelDB wipe to be a clean reset -- the app
 recreates its state from config files on next launch. Instead,
@@ -163,7 +163,7 @@ sees a chip labeled "All profiles" and assumes it means "sign in
 to all profiles." It means "write the global routing block,
 overriding all per-profile settings."
 
-### Feel
+### Feel (30%)
 
 I felt the familiar spiral of "one fix creates two new problems."
 The LevelDB wipe fixed the routing but broke the workspace pane.
@@ -183,7 +183,7 @@ routing keys, and deleted only those. Instead, I nuked the
 entire database and spent three cycles restoring what the wipe
 destroyed.
 
-### Learn
+### Learn (40%)
 
 The actionable change: before any LevelDB wipe, run
 `read-desktop-localstorage.cjs` to enumerate all keys. Identify
@@ -200,3 +200,18 @@ This lesson applies to any Electron app that stores state in
 Chromium localStorage: the database is not single-purpose,
 and wiping it to fix one category of state destroys all
 others. The correct pattern is enumerate, classify, target.
+
+## One Actionable Change
+
+Before any LevelDB wipe, run `read-desktop-localstorage.cjs` to
+enumerate all keys. Classify each as routing (delete) or UI
+(preserve). Delete only routing keys. If a full wipe is
+unavoidable, back up the non-routing keys and restore them
+after the wipe. Never delete the entire leveldb directory when
+a targeted deletion will do.
+
+## Cross-links
+
+- `reflections/2026-08-20_link_local-aliases-outperform-multiconnection.md` -- previous session's connector routing reflection
+- `reflections/2026-08-20_morpheus_terminal-cwd-gateway-restart.md` -- Morpheus's terminal.cwd discovery (same config-vs-runtime asymmetry pattern)
+- `governance/skills/hermes-desktop-troubleshooting.md` -- troubleshooting skill with the read-desktop-localstorage.cjs script
