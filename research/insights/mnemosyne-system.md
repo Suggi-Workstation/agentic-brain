@@ -237,8 +237,10 @@ Morpheus's first shared write after a 7-day quiet period evicted 11 of
 Link's facts and the resulting tombstones propagated before the fleet
 was frozen. Recovery: the rows were restored from Neo's intact copy and
 re-created through the relay; all four agents reconverged. The
-trim-exemption patch was applied fleet-wide the same day, and an
-upstream issue was filed on the mnemosyne repository.
+trim-exemption patch was applied fleet-wide the same day; the upstream
+project remains unpatched (verified 2026-08-22), so any future package
+upgrade on a machine will silently re-introduce this bug and must be
+re-checked against this row before use.
 
 ## Implications
 
