@@ -225,11 +225,20 @@ a pull-only agent, which is correct: only pushes create relay events.
 | Duplicates: N, 0 accepted | Relay | Agent DB path points at the relay DB itself. |
 | Watchdog always errors | Cron script | Keyword-matching "conflict"/"error" against healthy CLI output. Regex for nonzero counts only. |
 | Backfill warnings every cycle | Vector space | A row embedded by an old-model process landed in a new-dim DB. Fleet-coordinated reindex + restart. |
+| Shared facts older than 7 days vanish fleet-wide after any shared write | Write path (personal TTL leaking into the surface) | `BeamMemory._trim_working_memory` (`WORKING_MEMORY_TTL_HOURS=168`) runs on every `remember()`, including `mnemosyne_shared_remember`. The surface session `hermes_shared_surface` reuses the same class, so the personal-memory TTL evicts surface rows; the sync recovery path then turns the eviction into fleet-wide tombstones. Fix (fleet patch 2026-08-22, Suggi-approved): early return exempting session `hermes_shared_surface`, applied to all three venvs (VPS hermes-agent venv, PC, laptop), backups kept as `beam.py.orig-20260822-morpheus`. Upstream main still unpatched as of 2026-08-22. |
 
 The phantom `~/.mnemosyne` husks and the install-era default-profile
 DB (`~/.hermes/mnemosyne/`, 0 rows, no process using default
 HERMES_HOME) were DELETED on 2026-08-17 after read-only verification
 -- they are historical failure artifacts, not part of the live system.
+
+2026-08-22 update: the TTL-trim row above was discovered live --
+Morpheus's first shared write after a 7-day quiet period evicted 11 of
+Link's facts and the resulting tombstones propagated before the fleet
+was frozen. Recovery: the rows were restored from Neo's intact copy and
+re-created through the relay; all four agents reconverged. The
+trim-exemption patch was applied fleet-wide the same day, and an
+upstream issue was filed on the mnemosyne repository.
 
 ## Implications
 
