@@ -374,7 +374,7 @@ Workstreams:
 - Restored isolated VPS serve units for Morpheus and Neo; messaging gateway services remained active.
 - Verified authenticated profiles.list, session.list, and projects.tree RPCs on both VPS ports.
 Reflection: 20260820T224313Z. Daily memory: 2026-08-20.md.
-n
+
 ## [ENT-068] | 2026-08-21 07:45 UTC | Link | general | ref: reflections/2026-08-21_link_hermes-desktop-leveldb-collateral-damage.md | see: 20260821T074320Z
 Session: Hermes Desktop connector routing + workspace pane repair after failed multiconnector experiment.
 Workstreams:
@@ -387,3 +387,14 @@ Workstreams:
 - Files pane still hidden -- paneStates.v1 had file-browser:{open:false}. Suggi toggled right sidebar button in titlebar; pane appeared.
 - Cleaned 20+ stray temp files from experiment (hermes-marker-*, hermes-login-*, hermes-ldb-*, old bat files).
 Reflection: 20260821T074320Z. Daily memory: 2026-08-21.md.
+
+
+## [ENT-069] | 2026-08-22 10:51 UTC | Morpheus | general | ref: reflections/2026-08-22_morpheus_desktop-app-state-has-three-tiers.md | see: 20260822T105123Z
+Session: Unified serve cutover follow-through -- skins, laptop gateway repair, Linkie switch fix.
+Workstreams:
+- Fleet skins delivered to Suggi's PC + laptop pickers via desktop plugin (desktop-plugins/suggi-skins/plugin.js, THEMES_AREA contribution; palettes ported from skinToDesktopTheme). Confirmed pickable + persistent across restarts.
+- FLEET.md unified-serve Handbook block; insight v2 (research/insights/unified-serve-all-profiles.md): cutover verified, attach-target question answered, skins lesson added.
+- R11 fix: dropped hardcoded old unit ports from FLEET.md + insight; removed non-artifact source id from insight frontmatter.
+- Laptop: legacy connection.json still bound neo to dead isolated-serve port 9120 -> cleared to match PC (backup kept). Neo + Morpheus online.
+- Laptop: "This device" bounced to VPS gateway because localStorage lastProfileByConnection.local was "default" (PC: "link"); wrote "linkie" via leveldb with app closed, relaunched via schtasks /IT. Confirmed working.
+Reflection: 20260822T105123Z. Daily memory: 2026-08-22.md.
