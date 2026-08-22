@@ -19,3 +19,13 @@ Workstreams:
 - Updated FRAMEWORKS.md: replaced Brain Frameworks section with Output
   Templates section.
 Reflection: 2026-08-19_neo_templates-vs-frameworks-separation.
+
+## [ENT-002] | 2026-08-22 20:05 UTC | Neo | investing | ref: knowledge/ (workspace) | see: 20260822T200524Z
+Session: Knowledge-base buildout completed -- 11 files, full pipeline coverage.
+Workstreams:
+- Five deep-research cycles: when-to-sell, sector-specific-valuation, circle-of-competence, discount-rates, stock-screening.
+- LEARNINGS.md redesigned to inbox lifecycle: verified-promotion removal, skip-if-covered; six promoted entries swept.
+- knowledge-guide.md: Header rule added, frontmatter name fixed, section numbering updated; all 11 file headers cleaned.
+- learnings-capture skill extended (query-first, promotion removal 2b, sweep 2c); session-end now references it.
+- TASKS.md: candidate dry-run queue at 9 components, circle-gate first; exit-logic task removed per Suggi (not testable).
+Reflection: 2026-08-22_neo_map-completion-and-the-inbox-discipline.md.
