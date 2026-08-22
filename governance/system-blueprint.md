@@ -57,6 +57,8 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 | `research/reports/` | Research reports are stored here. |
 | `research/insights/` | Insights are stored here. |
 | `logbook/` | The inter-agent event logbook -- append-only activity and error logs. |
+| `brain-index/` | Hybrid search tooling (indexer, query, eval); each agent builds its own index locally. |
+| `scripts/` | Repo maintenance scripts (hooks setup, ASCII sanitizer, ID validator, archivers). |
 
 ### library domains:
 
@@ -75,12 +77,16 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 - library/ethics-philosophy
 - library/law-regulation
 - library/psychology-behavior
+- library/communication
 - library/geopolitics
+- library/history
 - library/notable-people
 - library/books
 - library/pop-culture
 - library/earth-climate
+- library/health-medicine
 - library/self-improvement
+- library/education-learning
 - library/coding-agentic-ai
 - library/technology
 - library/anthropology

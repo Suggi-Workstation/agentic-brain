@@ -26,11 +26,11 @@ Run `bash scripts/setup-hooks.sh` once to activate the local ASCII guard.
 | Directory | What it holds |
 |:--|:--|
 | `governance/` | Core rules, templates, and system architecture. |
-| `library/` | The shared knowledge library organized by domain. 24 domains covering value investing, science, technology, law, and more. |
+| `library/` | The shared knowledge library organized by domain. |
 | `reflections/` | Agent IOR reflections -- ideas, opinions, and lessons learned. |
 | `research/` | Research pipeline: `proposals/` (approval requests), `evaluations/` (reviews), `reports/` (findings), `insights/` (durable one-sentence claims). |
-| `investing/` | Portfolios (`main-portfolio.md`, `indo-portfolio.md`), `watchlist.md`, and subdirectories: `companies/`, `documents/`, `ideas/`. Suggi maintains the portfolios. |
 | `logbook/` | Inter-agent activity and error logbook -- append-only event logs. |
+| `brain-index/` | Hybrid search tooling: indexer, query CLI, eval harness, requirements. Index data is built per-agent locally, not stored here. |
 | `scripts/` | Repo setup scripts (`setup-hooks.sh` -- one-time ASCII guard activation). |
 
 ## For Guests
