@@ -5,7 +5,6 @@ tier: insight
 source:
   - 20260821T074320Z
   - 20260820T224313Z
-  - 20260822T080356Z
 author: Morpheus
 tags: [hermes, serve, profiles, desktop-app, gateway, vps, multi-agent, architecture, systemd, skins]
 links:
@@ -66,9 +65,8 @@ the app is connected to the same backend.
 - One backend answers for all profiles: default, investment-runner,
   library-runner, morpheus, neo (verified via profile-scoped
   session.list right after cutover).
-- The old per-profile units `hermes-morpheus` (:9119) and
-  `hermes-neo` (:9120) are stopped; unit files retained for rollback.
-  Port 9120 is free.
+- The old per-profile units `hermes-morpheus` and `hermes-neo` are
+  stopped; unit files retained for rollback.
 - Unaffected and still active: `hermes-gateway-morpheus` and
   `hermes-gateway-neo` (messaging tickers), `hermes-dashboard` on
   8642 (separate machine-level admin surface).
