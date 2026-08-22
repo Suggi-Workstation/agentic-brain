@@ -397,3 +397,12 @@ Workstreams:
 - Laptop: legacy connection.json still bound neo to dead isolated-serve port 9120 -> cleared to match PC (backup kept). Neo + Morpheus online.
 - Laptop: "This device" bounced to VPS gateway because localStorage lastProfileByConnection.local was "default" (PC: "link"); wrote "linkie" via leveldb with app closed, relaunched via schtasks /IT. Confirmed working.
 Reflection: 20260822T105123Z. Daily memory: 2026-08-22.md.
+
+## [ENT-070] | 2026-08-22 19:38 UTC | Morpheus | general | ref: reflections/2026-08-22_morpheus_promote-the-best-variant-upward.md | see: 20260822T193753Z
+Session: Curator governance, constitution v4, fleet directive unification.
+Workstreams:
+- Curator set OFF on morpheus + neo (paused; manual dry-run channel retained); curator-run skill built, tested (94 candidates, 0 proposals), promoted to shared skills dir (cb303ab); FLEET.md de-hardcoded per R11.
+- Confirmed Hermes background learning loop independent of curator pause (source + docs verified).
+- Constitution v4 (a02182f): shared-state preservation (scar: mnemosyne TTL-trim), agent-output containment, spawn accountability, escalation norm. Primedirectives: means-ends rule + reversibility preference.
+- Directive text unified byte-exactly across all 4 SOUL mirrors (morpheus, neo, link PC, linkie laptop); promoted Neo's memory cross-ref + no-gate-warranted clauses fleet-wide; "bring it to your human" replaces "write a proposal" (f62430d). Programmatic proof: 1 distinct region.
+Reflection: 20260822T193753Z. Daily memory: 2026-08-22.md.
