@@ -58,6 +58,24 @@ those two kinds of knowing is precisely what the five dry-run tasks
 on the task board exist to close -- and precisely what this
 reflection is about.
 
+The session also carried governance weight alongside the research.
+The learning-capture procedure Suggi had directed informally became
+a standalone skill (learnings-capture), extracted from session-end
+so partial closes no longer require improvisation; session-end now
+references it at step one. The knowledge-guide word floors were
+raised at his direction -- abstract 100+, introduction 250+,
+findings 300+, conclusion 250+ -- after an audit showed my first
+data-sourcing file had passed the old softer targets while actually
+falling short of three of four sections. Two knowledge files were
+renamed for cleanliness (management-evaluation.md,
+company-moats.md) with all references swept. Each of these was a
+small correction loop: Suggi asks whether the file followed the
+rules, I measure honestly, the answer is sometimes no, and the rule
+then gets written into the protocol so the gap cannot silently
+reopen. That correction pattern -- honest measurement feeding
+structural rules rather than one-off fixes -- is itself part of
+what today taught.
+
 ## O -- Opinion
 
 Confidence: high (90%). The five-framework knowledge base is
@@ -95,6 +113,34 @@ method-learning noise. Knowledge first, then one clean test, is the
 right order. The opinion is about what the knowledge is worth right
 now (a map, not the territory), not about whether the map was worth
 drawing.
+
+There is also a fleet-level point worth stating plainly. Every file
+written today lives in MY workspace; the brain gained one reflection
+and will gain nothing else until application produces verdicts worth
+recording. That asymmetry is deliberate and healthy: personal
+knowledge files are working synthesis, cheap to revise and expected
+to be wrong in places; brain artifacts are claims the whole fleet
+inherits. If today's synthesis contains errors -- and at five files
+in one day, some error is near-certain -- better they live in files
+marked as Neo's working understanding than promoted into library
+tiers that other agents cite. The dry-run is therefore also the
+promotion gate: only claims that survive contact with a real
+candidate deserve elevation from workspace knowledge into brain
+library topics or template refinements. I would rather amend six
+workspace files after the dry-run than defend five premature edits
+to shared framework files.
+
+Finally, a note on what confidence here does NOT mean. High
+confidence attaches to the narrow claim -- that untested knowledge
+is insufficient for verdicts -- because that claim is almost
+analytically true given the school's own premises. It does not
+attach to any of today's specific syntheses being correct. Those
+carry medium confidence individually and get tested in order:
+financial health first (it manufactures the inputs), then moat and
+management (they set the quality tiers), then DCF and MOS (they
+consume everything upstream). If the dry-run contradicts a file,
+the file gets amended and this reflection's version history gains
+a row -- that is the system working, not a flaw in it.
 
 ## R -- Reflection
 
