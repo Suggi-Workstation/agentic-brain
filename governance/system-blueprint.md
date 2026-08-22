@@ -56,12 +56,6 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 | `research/evaluations/` | Research evaluations are stored here. |
 | `research/reports/` | Research reports are stored here. |
 | `research/insights/` | Insights are stored here. |
-| `investing/companies/` | The individual company files are stored here. |
-| `investing/documents/` | Investment documents are stored here. |
-| `investing/ideas/` | Investment ideas are stored here. |
-| `investing/main-portfolio.md` | The Main Portfolio. Only Suggi will keep it up to date. |
-| `investing/indo-portfolio.md` | The Indonesia Portfolio. Only Suggi will keep it up to date. |
-| `investing/watchlist.md` | The watchlist. Potential candidate companies for the portfolios are kept here. |
 | `logbook/` | The inter-agent event logbook -- append-only activity and error logs. |
 
 ### library domains:
@@ -94,13 +88,16 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 ### #3 - agentic-forge (public)
 https://github.com/Suggi-Workstation/agentic-forge - *The agentic forge. Research is being done here.*
 
-### #4 - workspace-ava (private)
+### #4 - investing-hub (public)
+https://github.com/Suggi-Workstation/investing-hub - *The investing hub. All investing research is being done here.*
+
+### #5 - workspace-ava (private)
 https://github.com/Suggi-Workstation/workspace-ava - *Ava's live workspace.*
 
 Mirrored 1:1 from the VPS. Contains all core files. Ava is
 the primary agent for Suggi.
 
-### #5 - archive (private)
+### #6 - archive (private)
 https://github.com/Suggi-Workstation/archive - *the archive.*
 
 Old, archived workspaces and repositories are stored here.
