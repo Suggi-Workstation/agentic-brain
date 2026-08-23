@@ -177,7 +177,7 @@ suggestions -- use what fits.*
 
 - Explicitly state: "If approved, I will [specific action]."
 - Scope the authorization: what approval covers, and what it does not.
-- List the immediate next steps in order, with who performs each.
+- List the immediate next steps in order, with who could performs each.
 - State the follow-up recording: which statuses update, which documents
   get written, when the result gets reported back.
 - Do not assume approval implies anything beyond what is written.
