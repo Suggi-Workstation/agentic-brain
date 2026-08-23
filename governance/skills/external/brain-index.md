@@ -273,11 +273,11 @@ failure class this pattern prevents.
 
 ## Cross-Links
 
-- `agentic-brain:research/insights/brain-search-system.md` -- complete
+- `research/insights/brain-search-system.md` -- complete
   finished-system blueprint
-- `agentic-brain:research/proposals/brain-index-search-proposal.md` --
+- `research/proposals/brain-index-search-proposal.md` --
   original proposal (v2, all open questions resolved)
-- `agentic-brain:research/insights/stale-index-problem.md` -- failure
+- `research/insights/stale-index-problem.md` -- failure
   class this system structurally prevents
 - `suggi-workstation` skill -- brain contribution workflow
 - Archive: `Suggi-Workstation/archive` > `hub-brain - github repo -

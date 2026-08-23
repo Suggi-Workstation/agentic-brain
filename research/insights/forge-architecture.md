@@ -17,8 +17,8 @@ links:
   - research/insights/agent-evolution.md
   - research/insights/context-engineering.md
   - research/insights/memory-search.md
-  - brain:governance/system-constitution.md
-  - brain:governance/skills/fleet-agent-birth/SKILL.md
+  - governance/system-constitution.md
+  - governance/skills/fleet-agent-birth/SKILL.md
 ---
 
 # Forge Architecture -- Complete Blueprint for a Self-Learning Research Agent
@@ -524,8 +524,8 @@ Confidence is high in the architecture as a design synthesis, but empirical conf
 - `research/insights/agent-evolution.md` -- identity and evolution records.
 - `research/insights/context-engineering.md` -- context limits and context rot.
 - `research/insights/memory-search.md` -- memory and retrieval architecture.
-- `brain:governance/system-constitution.md` -- governance constraints.
-- `brain:governance/skills/fleet-agent-birth/SKILL.md` -- future Neo profile birth procedure.
+- `governance/system-constitution.md` -- governance constraints.
+- `governance/skills/fleet-agent-birth/SKILL.md` -- future Neo profile birth procedure.
 - `https://www.anthropic.com/engineering/harness-design-long-running-apps` -- generator/evaluator separation and structured context handoffs.
 - `https://github.com/karpathy/autoresearch` -- measurable experiment loops and version-controlled accept/reject iterations.
 - `https://arxiv.org/html/2608.05179v1` -- auditability and verification gaps in autonomous research agents.

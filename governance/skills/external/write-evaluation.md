@@ -12,7 +12,7 @@ disable-model-invocation: false
 Guides writing an independent evaluation to the agentic-brain. This skill
 holds the PROCEDURE (clone, Feynman loop, write, verify, commit, push,
 discard). The format SPECIFICATION and the compliance checklist live in
-`brain:governance/template-evaluations.md` -- that file is the validator.
+`governance/template-evaluations.md` -- that file is the validator.
 This skill references its Evaluation Checklist as the format gate and does
 not restate its items (R8: reference, never duplicate).
 
@@ -63,7 +63,7 @@ cd /tmp && rm -rf brain-eval && git clone --depth 1 \
 
 ### 4. Read the format specification -- the validator
 
-Read `brain:governance/template-evaluations.md` BEFORE writing. It defines
+Read `governance/template-evaluations.md` BEFORE writing. It defines
 the Source-Criteria-Findings-Verdict format, frontmatter schema, and the
 complete Evaluation Checklist. That checklist is the format gate for this
 skill. Follow it exactly.
@@ -111,6 +111,6 @@ cd /tmp && rm -rf brain-eval
 
 ## Related
 
-- `brain:governance/template-evaluations.md` -- format specification and compliance validator (Evaluation Checklist, examples)
+- `governance/template-evaluations.md` -- format specification and compliance validator (Evaluation Checklist, examples)
 - `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
 - `skills/write-report/SKILL.md` -- report writing (reports require evaluation)

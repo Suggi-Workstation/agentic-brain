@@ -12,7 +12,7 @@ disable-model-invocation: false
 Guides writing a proposal to the agentic-brain. This skill holds the
 PROCEDURE (Feynman loop, read template, write, transfer, commit; the watcher pushes).
 The format SPECIFICATION and the compliance checklist live in
-`brain:governance/template-proposals.md` -- that file is the validator.
+`governance/template-proposals.md` -- that file is the validator.
 This skill references its Proposal Checklist as the format gate and does
 not restate its items (R8: reference, never duplicate).
 
@@ -55,7 +55,7 @@ process additions. The problem must be specific and evidence-backed.
 
 ### 3. Read the format specification -- the validator
 
-Read `brain:governance/template-proposals.md` BEFORE writing. It defines
+Read `governance/template-proposals.md` BEFORE writing. It defines
 the Problem-Solution-Impact format with Approval Gate, frontmatter schema,
 and the complete Proposal Checklist. That checklist is the format gate for
 this skill. Follow it exactly.
@@ -107,7 +107,7 @@ ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
 ```
 ## Related
 
-- `brain:governance/template-proposals.md` -- format specification and compliance validator (Proposal Checklist, examples)
+- `governance/template-proposals.md` -- format specification and compliance validator (Proposal Checklist, examples)
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (proposals get evaluated)
 - `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
 - AGENTS.md approval flow -- proposals require Suggi approval

@@ -77,7 +77,7 @@ trigger: <what prompted this>    # session-end | error | surprise | milestone |
                                  # decision | research | insight | self-knowledge
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<topic>, <topic>]         # lowercase, specific
-links: [<brain:path/to/file.md>]     # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
+links: [<path/to/file.md>]     # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
 ```
 
 ## Frontmatter Rules
@@ -92,7 +92,7 @@ links: [<brain:path/to/file.md>]     # paths relative to agentic-brain root. Use
 - `tags` use lowercase, hyphens for spaces, and prefer existing tags
   from the brain's tag registry.
 - `links` are paths relative to the agentic-brain root. Use `brain:`
-  prefix (e.g. `brain:governance/system-constitution.md`) for
+  prefix (e.g. `governance/system-constitution.md`) for
   cross-repo references. No prefix = same-repo link. Do not use
   absolute paths or file:// URIs.
 

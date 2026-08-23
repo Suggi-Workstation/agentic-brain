@@ -12,7 +12,7 @@ disable-model-invocation: false
 Guides writing an insight to the agentic-brain. This skill holds the
 PROCEDURE (clone, Feynman loop, write, verify, commit, push, discard).
 The format SPECIFICATION and the compliance checklist live in
-`brain:governance/template-insights.md` -- that file is the validator.
+`governance/template-insights.md` -- that file is the validator.
 This skill references its Insight Checklist as the format gate and does
 not restate its items (R8: reference, never duplicate).
 
@@ -64,7 +64,7 @@ cd /tmp && rm -rf brain-ins && git clone --depth 1 \
 
 ### 4. Read the format specification -- the validator
 
-Read `brain:governance/template-insights.md` BEFORE writing. It defines
+Read `governance/template-insights.md` BEFORE writing. It defines
 the Insight-Evidence-Implications-Counter-evidence format, frontmatter
 schema, and the complete Insight Checklist. That checklist is the format
 gate for this skill. Follow it exactly.
@@ -110,7 +110,7 @@ cd /tmp && rm -rf brain-ins
 
 ## Related
 
-- `brain:governance/template-insights.md` -- format specification and compliance validator (Insight Checklist, examples)
+- `governance/template-insights.md` -- format specification and compliance validator (Insight Checklist, examples)
 - `skills/write-report/SKILL.md` -- report writing (reports produce insights)
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (evaluations identify patterns)
 - `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)

@@ -111,6 +111,6 @@ Report the broken tooling to Suggi.
 
 - `brain-index` skill -- build and maintain the search index
 - AGENTS.md Retrieval section -- the gate that invokes this skill
-- `brain:research/insights/brain-search-system.md` -- full system blueprint
+- `research/insights/brain-search-system.md` -- full system blueprint
 - `brain-index/README.md` -- tool usage documentation (query modes,
   eval gate, technology choices)

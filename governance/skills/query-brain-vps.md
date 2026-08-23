@@ -179,10 +179,10 @@ public door both down), fall back to the external query-brain skill
 - `brain-index` skill -- the tool this skill queries (build and
   maintain the index; non-VPS agents only)
 - AGENTS.md Retrieval section -- the gate that invokes this skill
-- `brain:research/insights/vps-brainclone-plus-index.md` -- the
+- `research/insights/vps-brainclone-plus-index.md` -- the
   live-mirror blueprint (authoritative system reference)
-- `brain:research/insights/brain-search-system.md` -- full system
+- `research/insights/brain-search-system.md` -- full system
   blueprint (query modes, eval gate, technology choices)
-- `brain:governance/skills/external/query-brain.md` -- the
+- `governance/skills/external/query-brain.md` -- the
   clone-based query skill for non-VPS agents and fallback
 - `brain-index/README.md` -- tool usage documentation

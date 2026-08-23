@@ -13,7 +13,7 @@ Guides the writing process of the library pipeline. This skill holds
 the PROCEDURE (locate brain, pick candidate, research, score, write,
 log, commit; the watcher pushes). The format SPECIFICATION and the
 compliance checklist live in
-`brain:governance/template-library.md` -- that file is the
+`governance/template-library.md` -- that file is the
 validator. This skill references its Library Topic Checklist as the
 format gate and does not restate its items (R8: reference, never
 duplicate). The writer receives a candidate topic title + domain
@@ -93,7 +93,7 @@ through the Path Convention commands above.
 
 ### 2. Read the format specification -- the validator
 
-Read `brain:governance/template-library.md` BEFORE writing. It
+Read `governance/template-library.md` BEFORE writing. It
 defines the body structure (mandatory sections in order), frontmatter
 schema (7 fields + 2 optional auditor fields), quality gates (G1-G12),
 anti-patterns, the complete example, and the Library Topic Checklist.
@@ -141,7 +141,7 @@ Collect 6+ sources (at least 4 high/medium authority, per template G4). Evaluate
 - **Low authority (1-3):** personal blogs, forums, unattributed content.
 
 Synthesize into a coherent topic file following the body structure
-defined in `brain:governance/template-library.md`.
+defined in `governance/template-library.md`.
 
 ### 6. Score the candidate (4 dimensions, v2 weights)
 
@@ -186,7 +186,7 @@ Never type the ID digits by hand. The exec output is authoritative.
 
 Write ONLY to the agentic-brain. NEVER write topic files to the
 workspace. Follow the body structure and section order specified in
-`brain:governance/template-library.md` exactly.
+`governance/template-library.md` exactly.
 
 Path (relative to the brain root): `library/<domain>/<topic-slug>.md`
 
@@ -279,7 +279,7 @@ in-progress files. Stage only this cycle's paths.
 
 ## Related
 
-- `brain:governance/template-library.md` -- format specification and compliance validator (Library Topic Checklist, quality gates G1-G12, anti-patterns, examples)
+- `governance/template-library.md` -- format specification and compliance validator (Library Topic Checklist, quality gates G1-G12, anti-patterns, examples)
 - `governance/skills/external/library-auditor.md` -- auditor skill (legacy clone-pattern version; reviews written topics)
 - `governance/skills/library-discoverer.md` -- discoverer skill (proposes candidates)
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
