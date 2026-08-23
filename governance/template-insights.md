@@ -170,9 +170,9 @@ suggestions -- use what fits.*
   checklists -- existing now or proposed.
 - Give the day-one version: what a new agent should do differently after
   reading only this insight.
-- Name related insights this one affects: which earlier insights it
-  extends, sharpens, or partially supersedes -- update their `status`
-  fields in the same commit where warranted.
+- Name what this insight affects: what we thought we knew before, and
+  how this changes it -- which prior conclusions, plans, or practices
+  it strengthens, weakens, or overturns.
 - Mark implications already implemented vs still pending.
 - Note where this informs a decision not yet made.
 
