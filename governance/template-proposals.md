@@ -107,7 +107,9 @@ Files are named: `<short-slug>.md`
 
 ## Body Structure
 
-EACH Section, Problem, Proposed Solution, Impact, Open Questions, Approval Gate must have at least 200 words.
+The sections must have the following minimal word counts. Problem >= 150 words, 
+Proposed Solution >= 250 words, Impact >= 250 words, Open Questions >= 250 words,
+Approval Gate >= 150 words.
 
 ### Problem
 *What is broken, missing, or could be improved?*
