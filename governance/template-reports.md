@@ -206,7 +206,6 @@ None. Git history is the version record. Do not add version-history tables to th
 ## Cross-Links
 
 Link to:
-- The evaluations that reviewed this report.
 - Related reports, proposals, or insights.
 - Library topics referenced in the findings.
 - The IORs that triggered this research.
