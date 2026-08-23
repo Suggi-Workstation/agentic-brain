@@ -104,7 +104,7 @@ audit-score: <X.X>                 # added by Auditor on APPROVE (OMITED until a
   help the brain-index search tool find this topic. Prefer precise
   tags over generic ones. At least 3 tags required. Example: `[loss-aversion,
   prospect-theory, behavioral-economics, kahneman]`.
-- `links` are paths relative to the agentic-brain root. Use relative
+- `links` are paths relative to the repo root. Use relative
   paths (e.g. `library/psychology-behavior/cognitive-biases.md`,
   `reflections/2026-07-19_ava_verification-bottleneck.md`). Do not
   use the `brain:` prefix. Do not use absolute paths or file:// URIs.

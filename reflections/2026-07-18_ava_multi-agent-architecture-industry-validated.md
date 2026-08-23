@@ -139,8 +139,8 @@ gate.
 
 ## Cross-links
 
-- brain:governance/system-blueprint.md -- updated org layout
-- brain:research/proposals/subagent-workspace-routing-proposal.md -- v2.0 architecture
+- governance/system-blueprint.md -- updated org layout
+- research/proposals/subagent-workspace-routing-proposal.md -- v2.0 architecture
 - memory/2026-07-18.md -- session log
 - 2026-07-17_ava_cold-start-verification-executed.md -- prior architecture milestone
 

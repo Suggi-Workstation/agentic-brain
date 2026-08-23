@@ -51,7 +51,7 @@ this checklist in the published reflection.
 - [ ] trigger: one of {session-end, error, surprise, milestone, decision, research, insight, self-knowledge}  (PASS / HALT)
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
-- [ ] links: relative paths from brain root; `brain:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
+- [ ] links: relative paths from repo root; `repo:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
 - [ ] Section headers: `#` = title only, `##` = I/O/R sections, `###` = sub-sections within R  (PASS / HALT)
 - [ ] Title makes a claim: something someone can agree or disagree with. Not "Notes on X" -- that is a draft  (PASS / HALT)
 - [ ] I section: idea stated in one sentence + context; reader with no context understands what triggered this  (PASS / HALT)
@@ -77,7 +77,7 @@ trigger: <what prompted this>    # session-end | error | surprise | milestone |
                                  # decision | research | insight | self-knowledge
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<topic>, <topic>]         # lowercase, specific
-links: [<path/to/file.md>]     # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
+links: [<path/to/file.md>]     # paths relative to repo root. Cross-repo references use the `repo:` prefix; omit for same-repo links.
 ```
 
 ## Frontmatter Rules
@@ -91,9 +91,9 @@ links: [<path/to/file.md>]     # paths relative to agentic-brain root. Use `brai
 - `author` is who wrote the reflection (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces, and prefer existing tags
   from the brain's tag registry.
-- `links` are paths relative to the agentic-brain root. Use `brain:`
-  prefix (e.g. `governance/system-constitution.md`) for
-  cross-repo references. No prefix = same-repo link. Do not use
+- `links` are paths relative to the repo root. Cross-repo references use the `repo:` prefix -- the token before `:` is
+the exact GitHub repo name (see the Cross-Repo Link Convention in
+`governance/system-blueprint.md`). Same-repo links carry no prefix. Do not use
   absolute paths or file:// URIs.
 
 Example: `2026-07-16_link_feynman-loop-v2.md`

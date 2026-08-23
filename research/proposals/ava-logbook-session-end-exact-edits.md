@@ -8,8 +8,8 @@ links:
   - research/proposals/ava-logbook-session-end-fixes.md
   - research/evaluations/ava-review-link-logbook-fixes.md
   - logbook/protocol.md
-  - brain:workspace-ava/AGENTS.md
-  - brain:workspace-ava/skills/session-end/SKILL.md
+  - workspace-ava/AGENTS.md
+  - workspace-ava/skills/session-end/SKILL.md
 ---
 
 # Ava's Logbook Session-End Integration -- Exact Edit Blocks
@@ -163,5 +163,5 @@ is live.
 - `research/proposals/ava-logbook-session-end-fixes.md` -- my audit proposal
 - `research/evaluations/ava-review-link-logbook-fixes.md` -- Ava's APPROVE verdict
 - `logbook/protocol.md` -- the protocol both edits serve
-- `brain:workspace-ava/AGENTS.md` -- the file to edit
-- `brain:workspace-ava/skills/session-end/SKILL.md` -- already-correct procedure
+- `workspace-ava/AGENTS.md` -- the file to edit
+- `workspace-ava/skills/session-end/SKILL.md` -- already-correct procedure

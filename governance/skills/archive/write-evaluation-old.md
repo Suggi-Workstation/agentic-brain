@@ -13,7 +13,7 @@ Guides writing an independent evaluation to the agentic-brain. Procedure
 steps cover the mechanics (clone, write, commit, discard). Format
 verification checkboxes cover correctness (frontmatter, body structure,
 quality gates, output). For the full format specification with examples,
-read `brain:governance/template-evaluations.md`.
+read `governance/template-evaluations.md`.
 
 ## When to Invoke
 
@@ -65,7 +65,7 @@ cd /tmp && rm -rf brain-eval && git clone --depth 1 \
 
 ### 4. Read the format specification
 
-Read `brain:governance/template-evaluations.md`. It defines the
+Read `governance/template-evaluations.md`. It defines the
 Source-Criteria-Findings-Verdict format, frontmatter schema (7 fields
 including source), quality gates (G1-G8), and examples. Follow it
 exactly.
@@ -158,6 +158,6 @@ cd /tmp && rm -rf brain-eval
 
 ## Related
 
-- `brain:governance/template-evaluations.md` -- full format, examples, quality gates
+- `governance/template-evaluations.md` -- full format, examples, quality gates
 - `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
 - `skills/write-report/SKILL.md` -- report writing (reports require evaluation)

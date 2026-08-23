@@ -111,7 +111,7 @@ the SKILL.md was read or the evaluation is from a summary.
   building tools and governance in the same session. This reflection
   extends the pattern: evaluate tools and governance together, not from
   abstract description.
-- `brain:research/insights/brain-search-system.md` -- the brain-index
+- `research/insights/brain-search-system.md` -- the brain-index
   tool whose skill triggered this reflection.
 - `governance/template-reflections.md` -- the IOR format this file
   follows. G7 (Feynman pre-write) is the same error class: mental

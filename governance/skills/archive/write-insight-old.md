@@ -13,7 +13,7 @@ Guides writing an insight to the agentic-brain. Procedure steps cover
 the mechanics (clone, write, commit, discard). Format verification
 checkboxes cover correctness (frontmatter, body structure, quality
 gates, output). For the full format specification with examples, read
-`brain:governance/template-insights.md`.
+`governance/template-insights.md`.
 
 ## When to Invoke
 
@@ -66,7 +66,7 @@ cd /tmp && rm -rf brain-ins && git clone --depth 1 \
 
 ### 4. Read the format specification
 
-Read `brain:governance/template-insights.md`. It defines the
+Read `governance/template-insights.md`. It defines the
 Insight-Evidence-Implications-Counter-evidence format, frontmatter
 schema (7 fields including source), quality gates (G1-G8), and
 examples. Follow it exactly.
@@ -156,7 +156,7 @@ cd /tmp && rm -rf brain-ins
 
 ## Related
 
-- `brain:governance/template-insights.md` -- full format, examples, quality gates
+- `governance/template-insights.md` -- full format, examples, quality gates
 - `skills/write-report/SKILL.md` -- report writing (reports produce insights)
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (evaluations identify patterns)
 - `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)

@@ -6,8 +6,8 @@ author: Link
 tags: [logbook, session-end, agents-md, skill, r9, r8, gate-rules]
 links:
   - logbook/protocol.md
-  - brain:workspace-ava/AGENTS.md
-  - brain:workspace-ava/skills/session-end/SKILL.md
+  - workspace-ava/AGENTS.md
+  - workspace-ava/skills/session-end/SKILL.md
   - research/evaluations/hy3-evaluation-test.md
 ---
 
@@ -128,8 +128,8 @@ fix in her `workspace-ava/AGENTS.md`.
 ## Cross-Links
 
 - `logbook/protocol.md` -- the protocol Ava's integration follows
-- `brain:workspace-ava/AGENTS.md` -- the file containing both issues
-- `brain:workspace-ava/skills/session-end/SKILL.md` -- the skill that
+- `workspace-ava/AGENTS.md` -- the file containing both issues
+- `workspace-ava/skills/session-end/SKILL.md` -- the skill that
   already handles logbook push correctly
 - `research/evaluations/hy3-evaluation-test.md` -- related model
   capability benchmark, same session

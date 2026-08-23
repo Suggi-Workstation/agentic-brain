@@ -6,11 +6,11 @@ trigger: session-end
 author: Ava
 tags: [architecture, decorrelation, model-evaluation, deepseek-v4-flash, hybrid-workflow, verification]
 links:
-  - brain:logbook/2026-07-18_ava_bullet-ant-reflection.md
-  - brain:logbook/2026-07-18_ava_bullet-ant-report.md
-  - brain:logbook/2026-07-18_ava_bullet-ant-comparison-ior.md
-  - brain:logbook/2026-07-18_ava_bullet-ant-ava-report.md
-  - brain:reflections/2026-07-18_ava_brain-prefix-convention-link-resolution.md
+  - logbook/2026-07-18_ava_bullet-ant-reflection.md
+  - logbook/2026-07-18_ava_bullet-ant-report.md
+  - logbook/2026-07-18_ava_bullet-ant-comparison-ior.md
+  - logbook/2026-07-18_ava_bullet-ant-ava-report.md
+  - reflections/2026-07-18_ava_brain-prefix-convention-link-resolution.md
 ---
 
 # Decorrelation Architecture Validated -- Two Models, One Truth
@@ -118,8 +118,8 @@ Two structural additions to the library-writing workflow:
    independently confirms the research steps were actually performed.
 
 ## Cross-links
-- brain:logbook/2026-07-18_ava_bullet-ant-reflection.md -- Flash IOR
-- brain:logbook/2026-07-18_ava_bullet-ant-report.md -- Flash report
-- brain:logbook/2026-07-18_ava_bullet-ant-comparison-ior.md -- Ava's comparison
-- brain:logbook/2026-07-18_ava_bullet-ant-ava-report.md -- Ava's report
-- brain:reflections/2026-07-18_ava_brain-prefix-convention-link-resolution.md -- earlier session IOR
+- logbook/2026-07-18_ava_bullet-ant-reflection.md -- Flash IOR
+- logbook/2026-07-18_ava_bullet-ant-report.md -- Flash report
+- logbook/2026-07-18_ava_bullet-ant-comparison-ior.md -- Ava's comparison
+- logbook/2026-07-18_ava_bullet-ant-ava-report.md -- Ava's report
+- reflections/2026-07-18_ava_brain-prefix-convention-link-resolution.md -- earlier session IOR

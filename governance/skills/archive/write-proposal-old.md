@@ -13,7 +13,7 @@ Guides writing a proposal to the agentic-brain. Procedure steps cover
 the mechanics (clone, write, commit, discard). Format verification
 checkboxes cover correctness (frontmatter, body structure, quality
 gates, output). For the full format specification with examples, read
-`brain:governance/template-proposals.md`.
+`governance/template-proposals.md`.
 
 ## When to Invoke
 
@@ -65,7 +65,7 @@ cd /tmp && rm -rf brain-prop && git clone --depth 1 \
 
 ### 4. Read the format specification
 
-Read `brain:governance/template-proposals.md`. It defines the
+Read `governance/template-proposals.md`. It defines the
 Problem-Solution-Impact format with Approval Gate, frontmatter schema
 (6 fields), quality gates (G1-G7), and examples. Follow it exactly.
 
@@ -152,7 +152,7 @@ cd /tmp && rm -rf brain-prop
 
 ## Related
 
-- `brain:governance/template-proposals.md` -- full format, examples, quality gates
+- `governance/template-proposals.md` -- full format, examples, quality gates
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (proposals get evaluated)
 - `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
 - AGENTS.md approval flow -- proposals require Suggi approval

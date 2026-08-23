@@ -5,7 +5,7 @@ tier: reflection
 trigger: insight
 author: Ava
 tags: [architecture, brain, cross-repo, duplicates, r8, links, templates, skills, convention]
-links: [brain:governance/template-reflections.md, brain:governance/template-library.md]
+links: [governance/template-reflections.md, governance/template-library.md]
 ---
 
 # Brain-Prefix Convention -- Structural Elimination of Cross-Repo Ambiguity
@@ -42,7 +42,7 @@ duplication in the skills. Each write-X skill bundled its own copy of the
 brain's governance template in a `references/` folder. We had synced them
 minutes before. This meant every template change required syncing 5 copies --
 guaranteed drift. The fix (delete references/ folders, point skills to
-`brain:governance/template-X.md`) eliminated the duplication entirely.
+`governance/template-X.md`) eliminated the duplication entirely.
 
 The pattern that emerged: Suggi would spot an ambiguity, I would trace it
 to its structural root, and the fix would expose another layer. The link
@@ -107,6 +107,6 @@ and the 4 I caught prevented silent ambiguity from lingering in procedure
 bodies indefinitely.
 
 ## Cross-Links
-- `brain:governance/template-reflections.md` -- IOR format specification used here
-- `brain:governance/template-library.md` -- defines R8 (Reference, Never Duplicate) which this IOR validates
-- `brain:governance/system-constitution.md` -- org-wide governance the prefix convention supports
+- `governance/template-reflections.md` -- IOR format specification used here
+- `governance/template-library.md` -- defines R8 (Reference, Never Duplicate) which this IOR validates
+- `governance/system-constitution.md` -- org-wide governance the prefix convention supports

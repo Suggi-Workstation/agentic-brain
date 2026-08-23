@@ -98,7 +98,7 @@ The same fix applies here.
 **Finding 4: Ava's IOR Writing gate says "3 rules verified."**
 
 From Ava's AGENTS.md IOR Writing section:
-> 2. Format spec read from brain:governance/template-reflections.md
+> 2. Format spec read from governance/template-reflections.md
 >    + 3 rules verified
 
 Which 3 rules? The template has 8 quality gates, 15 checklist items,

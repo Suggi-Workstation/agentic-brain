@@ -52,7 +52,7 @@ this checklist in the published file.
 - [ ] source: links to every originating IOR, report, or evaluation by id  (PASS / HALT)
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
-- [ ] links: relative paths from brain root; `brain:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
+- [ ] links: relative paths from repo root; `repo:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
 - [ ] One-sentence insight: fits in one quotable line; if it takes a paragraph, it is not yet an insight  (PASS / HALT)
 - [ ] Evidence: at least one source cited by id, chain of evidence complete  (PASS / HALT)
 - [ ] Implications: concrete ("changes X" or "informs decision Y"), not platitudes  (PASS / HALT)
@@ -74,7 +74,7 @@ source: [<id>, <id>]              # IOR(s), report(s), or evaluation(s)
                                   # that produced this insight
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
-links: [<path/to/file.md>]   # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
+links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo references use the `repo:` prefix; omit for same-repo links.
 ---
 ```
 
@@ -89,9 +89,9 @@ links: [<path/to/file.md>]   # paths relative to agentic-brain root. Use `brain:
 - `author` is who wrote the insight (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
-- `links` are paths relative to the agentic-brain root. Use `brain:`
-  prefix (e.g. `governance/system-constitution.md`) for
-  cross-repo references. No prefix = same-repo link. Do not use
+- `links` are paths relative to the repo root. Cross-repo references use the `repo:` prefix -- the token before `:` is
+the exact GitHub repo name (see the Cross-Repo Link Convention in
+`governance/system-blueprint.md`). Same-repo links carry no prefix. Do not use
   absolute paths or file:// URIs.
 
 ## Naming Convention

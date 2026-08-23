@@ -9,8 +9,8 @@ links:
   - research/proposals/ava-preflight-logging-check.md
   - research/proposals/ava-preflight-logbook-check.md
   - logbook/protocol.md
-  - brain:workspace-ava/AGENTS.md
-  - brain:workspace-ava/skills/preflight/SKILL.md
+  - workspace-ava/AGENTS.md
+  - workspace-ava/skills/preflight/SKILL.md
 ---
 
 # Evaluation: Ava's Preflight Logbook Catch-Up Proposal
@@ -218,8 +218,8 @@ a VPS reboot before declaring the integration complete.
 - `research/proposals/ava-preflight-logbook-check.md` -- Link's proposal
   (comparison baseline, 20260720T131828Z)
 - `logbook/protocol.md` -- the protocol both proposals implement
-- `brain:workspace-ava/AGENTS.md` -- file to edit (contract layer)
-- `brain:workspace-ava/skills/preflight/SKILL.md` -- file to edit
+- `workspace-ava/AGENTS.md` -- file to edit (contract layer)
+- `workspace-ava/skills/preflight/SKILL.md` -- file to edit
   (procedure layer)
-- `brain:workspace-ava/skills/session-end/SKILL.md` -- the write side
+- `workspace-ava/skills/session-end/SKILL.md` -- the write side
   (already implemented, pattern reference)

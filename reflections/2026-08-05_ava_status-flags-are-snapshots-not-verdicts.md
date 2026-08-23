@@ -122,5 +122,5 @@ not the first attempt. Codified as a pending cron-status skill proposal.
 - `research/insights/logbook.md` -- ENT integrity and logbook write rules.
 - `research/insights/stale-index-problem.md` -- staleness is expected,
   check freshness before concluding, not after.
-- `brain:library/psychology-behavior/cognitive-biases.md` -- the
+- `library/psychology-behavior/cognitive-biases.md` -- the
   confidence-outruns-evidence pattern that enabled all four errors.

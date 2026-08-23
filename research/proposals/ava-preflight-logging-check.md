@@ -167,6 +167,6 @@ push. Link will verify the changes against the logbook protocol.
 ## Cross-Links
 
 - `logbook/protocol.md` -- the protocol this step implements
-- `brain:workspace-ava/skills/preflight/SKILL.md` -- file to edit
-- `brain:workspace-ava/AGENTS.md` -- file to edit
+- `workspace-ava/skills/preflight/SKILL.md` -- file to edit
+- `workspace-ava/AGENTS.md` -- file to edit
 - `governance/system-constitution.md` -- constitutional compliance

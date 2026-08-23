@@ -60,7 +60,7 @@ source: [<id>, <id>]              # IOR(s), report(s), or evaluation(s)
                                   # that produced this insight
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
-links: [<brain:path/to/file.md>]   # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
+links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo references use the `repo:` prefix; omit for same-repo links.
 ---
 ```
 
@@ -75,8 +75,8 @@ links: [<brain:path/to/file.md>]   # paths relative to agentic-brain root. Use `
 - `author` is who wrote the insight (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
-- `links` are paths relative to the agentic-brain root. Use `brain:`
-  prefix (e.g. `brain:governance/system-constitution.md`) for
+- `links` are paths relative to the repo root. Use `brain:`
+  prefix (e.g. `governance/system-constitution.md`) for
   cross-repo references. No prefix = same-repo link. Do not use
   absolute paths or file:// URIs.
 

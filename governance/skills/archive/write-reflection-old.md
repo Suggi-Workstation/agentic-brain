@@ -13,7 +13,7 @@ Guides writing a reflection (reflection) to the agentic-brain. Procedure steps
 cover the mechanics (clone, write, commit, discard). Format verification
 checkboxes cover correctness (frontmatter, body structure, quality gates, output). For the
 full format specification with examples and anti-patterns, read
-`brain:governance/template-reflections.md`.
+`governance/template-reflections.md`.
 
 ## When to Invoke
 
@@ -67,7 +67,7 @@ cd /tmp && rm -rf brain-reflection && git clone --depth 1 \
 
 ### 4. Read the format specification
 
-Read `brain:governance/template-reflections.md`. It defines the I/O/R
+Read `governance/template-reflections.md`. It defines the I/O/R
 format, frontmatter schema, naming convention, quality gates (G1-G9),
 and examples. Follow it exactly.
 
@@ -163,7 +163,7 @@ cd /tmp && rm -rf brain-reflection
 
 ## Related
 
-- `brain:governance/template-reflections.md` -- full format, examples, anti-patterns, quality gates
+- `governance/template-reflections.md` -- full format, examples, anti-patterns, quality gates
 - `skills/loop-feynman/SKILL.md` -- Feynman Loop (produces material for reflections)
 - `skills/session-end/SKILL.md` -- session-end calls reflection writing when insight emerged
 

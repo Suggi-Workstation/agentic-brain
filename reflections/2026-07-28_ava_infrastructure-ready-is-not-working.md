@@ -6,9 +6,9 @@ trigger: surprise
 author: Ava
 tags: [memory-wiki, bridge-mode, integration, quality-gates, self-deception]
 links:
-  - brain:plugins/memory-wiki
-  - brain:skills/preflight/SKILL.md
-  - brain:skills/session-end/SKILL.md
+  - plugins/memory-wiki
+  - skills/preflight/SKILL.md
+  - skills/session-end/SKILL.md
 ---
 
 # Infrastructure Ready Is Not Working -- The Bridge-Mode Mirror Fallacy
@@ -124,8 +124,8 @@ is no, declare "infrastructure ready, curation/follow-up needed" -- never
 pipeline price-embedding assumption.
 
 ## Cross-links
-- `brain:reflections/2026-07-27_ava_intrinsic-value-price-independent.md`
+- `reflections/2026-07-27_ava_intrinsic-value-price-independent.md`
   -- same class of error: assuming output completeness means correctness.
-- `brain:governance/system-constitution.md` -- decorrelation principle.
-- `brain:skills/session-end/SKILL.md` -- wiki curation step added as
+- `governance/system-constitution.md` -- decorrelation principle.
+- `skills/session-end/SKILL.md` -- wiki curation step added as
   structural fix.

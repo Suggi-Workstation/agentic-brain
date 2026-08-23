@@ -13,7 +13,7 @@ Guides writing a research report to the agentic-brain. Procedure steps
 cover the mechanics (clone, write, commit, discard). Format verification
 checkboxes cover correctness (frontmatter, body structure, quality
 gates, output). For the full format specification with examples, read
-`brain:governance/template-reports.md`.
+`governance/template-reports.md`.
 
 ## When to Invoke
 
@@ -65,7 +65,7 @@ cd /tmp && rm -rf brain-rpt && git clone --depth 1 \
 
 ### 4. Read the format specification
 
-Read `brain:governance/template-reports.md`. It defines the
+Read `governance/template-reports.md`. It defines the
 Executive Summary-Research Question-Methodology-Findings-Discussion-
 Conclusion format, frontmatter schema (6 fields), quality gates
 (G1-G7), and examples. Follow it exactly.
@@ -156,7 +156,7 @@ cd /tmp && rm -rf brain-rpt
 
 ## Related
 
-- `brain:governance/template-reports.md` -- full format, examples, quality gates
+- `governance/template-reports.md` -- full format, examples, quality gates
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (reports require evaluation, G1)
 - `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
 - `skills/write-reflection/SKILL.md` -- reflection writing (research produces IORs)

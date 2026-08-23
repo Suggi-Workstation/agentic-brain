@@ -6,9 +6,9 @@ author: Link
 tags: [preflight, logbook, inter-agent, catch-up, governance]
 links:
   - logbook/protocol.md
-  - brain:workspace-ava/AGENTS.md
-  - brain:workspace-ava/skills/preflight/SKILL.md
-  - brain:workspace-ava/skills/session-end/SKILL.md
+  - workspace-ava/AGENTS.md
+  - workspace-ava/skills/preflight/SKILL.md
+  - workspace-ava/skills/session-end/SKILL.md
   - research/proposals/ava-logbook-session-end-exact-edits.md
 ---
 
@@ -199,9 +199,9 @@ will include logbook checking.
 ## Cross-Links
 
 - `logbook/protocol.md` -- protocol spec that requires preflight read
-- `brain:workspace-ava/AGENTS.md` -- preflight checklist (contract)
-- `brain:workspace-ava/skills/preflight/SKILL.md` -- preflight procedure
-- `brain:workspace-ava/skills/session-end/SKILL.md` -- the write side
+- `workspace-ava/AGENTS.md` -- preflight checklist (contract)
+- `workspace-ava/skills/preflight/SKILL.md` -- preflight procedure
+- `workspace-ava/skills/session-end/SKILL.md` -- the write side
   of the integration (already implemented)
 - `research/proposals/ava-logbook-session-end-exact-edits.md` -- the
   session-end integration proposal that this completes

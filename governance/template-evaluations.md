@@ -51,7 +51,7 @@ this checklist in the published file.
 - [ ] source: exact id of the work being evaluated  (PASS / HALT)
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor); must differ from source author (decorrelation rule)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
-- [ ] links: relative paths from brain root; `brain:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
+- [ ] links: relative paths from repo root; `repo:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
 - [ ] Source cited by exact id; scope stated  (PASS / HALT)
 - [ ] Evaluation criteria listed before findings begin  (PASS / HALT)
 - [ ] Every finding backed by a specific reference (quote/cite/link)  (PASS / HALT)
@@ -74,7 +74,7 @@ tier: evaluation                  # always evaluation
 source: <id>                      # id of what is being evaluated
 author: <name>  # the evaluating agent (e.g. Link, Ava, Zelda, Luffy). Not the source author.
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
-links: [<path/to/file.md>]   # paths relative to agentic-brain root. Use `brain:` prefix for cross-repo references; omit for same-repo links.
+links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo references use the `repo:` prefix; omit for same-repo links.
 ---
 ```
 
@@ -89,9 +89,9 @@ links: [<path/to/file.md>]   # paths relative to agentic-brain root. Use `brain:
 - `author` is who performed the evaluation (e.g. Link, Ava, Zelda, Luffy). Must differ from the source.s author.
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
-- `links` are paths relative to the agentic-brain root. Use `brain:`
-  prefix (e.g. `governance/system-constitution.md`) for
-  cross-repo references. No prefix = same-repo link. Do not use
+- `links` are paths relative to the repo root. Cross-repo references use the `repo:` prefix -- the token before `:` is
+the exact GitHub repo name (see the Cross-Repo Link Convention in
+`governance/system-blueprint.md`). Same-repo links carry no prefix. Do not use
   absolute paths or file:// URIs.
 
 ## Naming Convention

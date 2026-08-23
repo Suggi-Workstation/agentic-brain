@@ -51,7 +51,7 @@ this checklist in the published file.
 - [ ] tier: "proposal"  (PASS / HALT)
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
-- [ ] links: relative paths from brain root; `brain:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
+- [ ] links: relative paths from repo root; `repo:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
 - [ ] Problem: specific, evidence-backed, one to three sentences  (PASS / HALT)
 - [ ] Proposed Solution: concrete steps, another agent could implement from the description alone  (PASS / HALT)
 - [ ] Impact: positive contribution + risk assessment + cost estimate, at least one sentence each  (PASS / HALT)
@@ -72,7 +72,7 @@ id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. MUST g
 tier: proposal               # always proposal
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
-links: [<path/to/file.md>]   # related governance, proposals, or IORs. Use `brain:` prefix for cross-repo references; omit for same-repo links.
+links: [<path/to/file.md>]   # related governance, proposals, or IORs. Cross-repo references use the `repo:` prefix; omit for same-repo links.
 ---
 ```
 
@@ -85,9 +85,9 @@ links: [<path/to/file.md>]   # related governance, proposals, or IORs. Use `brai
 - `author` is who wrote the proposal (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
-- `links` are paths relative to the agentic-brain root. Use `brain:`
-  prefix (e.g. `governance/system-constitution.md`) for
-  cross-repo references. No prefix = same-repo link. Link to related
+- `links` are paths relative to the repo root. Cross-repo references use the `repo:` prefix -- the token before `:` is
+the exact GitHub repo name (see the Cross-Repo Link Convention in
+`governance/system-blueprint.md`). Same-repo links carry no prefix. Link to related
   governance files, IORs, or prior proposals. Do not use absolute
   paths or file:// URIs.
 

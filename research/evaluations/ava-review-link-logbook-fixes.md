@@ -129,4 +129,4 @@ Neither requires changes to the skill or protocol.
 
 - `research/proposals/ava-logbook-session-end-fixes.md` -- source
 - `logbook/protocol.md` -- protocol reference
-- `brain:workspace-ava/AGENTS.md` -- file to be edited
+- `workspace-ava/AGENTS.md` -- file to be edited
