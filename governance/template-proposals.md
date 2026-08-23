@@ -58,6 +58,7 @@ this checklist in the published file.
 - [ ] Impact: positive contribution + risk assessment + cost estimate, at least one sentence each  (PASS / HALT)
 - [ ] Open Questions: all uncertainties written down, nothing implied  (PASS / HALT)
 - [ ] Approval Gate: explicit approval condition stated ("If approved, I will [specific action]")  (PASS / HALT)
+- [ ] Body word counts: Problem >= 150, Proposed Solution >= 250, Impact >= 250, Open Questions >= 250, Approval Gate >= 150  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: at least 1 link to triggering IOR/evaluation/governance file  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)

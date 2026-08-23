@@ -59,6 +59,7 @@ this checklist in the published file.
 - [ ] Evidence: at least one source cited by id, chain of evidence complete  (PASS / HALT)
 - [ ] Implications: concrete ("changes X" or "informs decision Y"), not platitudes  (PASS / HALT)
 - [ ] Counter-evidence: states what would prove the insight wrong; an insight that cannot be falsified is dogma  (PASS / HALT)
+- [ ] Body word counts: The Insight >= 150, Evidence >= 350, Implications >= 350, Counter-evidence >= 250  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: source artifacts + related insights + affected governance files  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)

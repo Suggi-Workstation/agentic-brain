@@ -59,6 +59,7 @@ this checklist in the published file.
 - [ ] Required changes listed concretely (if APPROVE WITH CHANGES)  (PASS / HALT)
 - [ ] Confidence: stated with reasoning, high 85%+ / medium 60-85% / low below 60%  (PASS / HALT)
 - [ ] Evaluated artifact's `status:` updated in the same commit (evaluated / final / revision loop)  (PASS / HALT)
+- [ ] Body word counts: Source >= 100, Evaluation Criteria >= 200, Findings >= 200, Verdict >= 100, Confidence >= 100  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: source + related evaluations/governance files  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
@@ -104,8 +105,8 @@ Example: `ava-review-link-verification-paper.md`
 
 ## Body Structure
 
-The sections must have the following minimal word counts. Source >= 100 worrds, 
-Evaluation Critera >= 200 words, Findings >= 200 words, Verdict >= 100 words,
+The sections must have the following minimal word counts. Source >= 100 words, 
+Evaluation Criteria >= 200 words, Findings >= 200 words, Verdict >= 100 words,
 Confidence >= 100 words.
 
 ### Source

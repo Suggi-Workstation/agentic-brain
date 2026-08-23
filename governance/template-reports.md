@@ -59,6 +59,7 @@ this checklist in the published file.
 - [ ] Negative results: what was searched for and NOT found is documented  (PASS / HALT)
 - [ ] Discussion: synthesizes findings, addresses contradictions and surprises  (PASS / HALT)
 - [ ] Conclusion: restates question + answer + one recommendation + open questions  (PASS / HALT)
+- [ ] Body word counts: Executive Summary >= 150, Research Question >= 150, Methodology >= 200, Findings >= 200, Discussion >= 200, Conclusion >= 150  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: evaluations + related reports + referenced library topics  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
