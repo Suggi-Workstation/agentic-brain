@@ -53,12 +53,12 @@ this checklist in the published file.
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
 - [ ] links: relative paths from repo root; `repo:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
-- [ ] Problem: specific, evidence-backed (evidence cited by id or path), one to three sentences  (PASS / HALT)
+- [ ] Problem: specific, evidence-backed (evidence cited by id or path), developed in one paragraph  (PASS / HALT)
 - [ ] Proposed Solution: concrete steps, another agent could implement from the description alone  (PASS / HALT)
 - [ ] Impact: positive contribution + risk assessment + cost estimate, at least one sentence each  (PASS / HALT)
 - [ ] Open Questions: all uncertainties written down, nothing implied  (PASS / HALT)
 - [ ] Approval Gate: explicit approval condition stated ("If approved, I will [specific action]")  (PASS / HALT)
-- [ ] Body word counts: Problem >= 150, Proposed Solution >= 250, Impact >= 250, Open Questions >= 250, Approval Gate >= 150  (PASS / HALT)
+- [ ] Body word counts: Problem >= 150, Proposed Solution >= 250, Impact >= 250, Open Questions >= 150, Approval Gate >= 150  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: at least 1 link to triggering IOR/evaluation/governance file  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
@@ -109,13 +109,14 @@ Files are named: `<short-slug>.md`
 ## Body Structure
 
 The sections must have the following minimal word counts. Problem >= 150 words, 
-Proposed Solution >= 250 words, Impact >= 250 words, Open Questions >= 250 words,
+Proposed Solution >= 250 words, Impact >= 250 words, Open Questions >= 150 words,
 Approval Gate >= 150 words.
 
 ### Problem
 *What is broken, missing, or could be improved?*
 
-- State the problem in one to three sentences.
+- State the problem as one paragraph: what is broken or missing, and
+  why it matters now.
 - Provide evidence: what was observed, what failure occurred, what
   constraint is being hit.
 - If this proposal is a response to an IOR or evaluation, cite it by id.

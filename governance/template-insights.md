@@ -55,7 +55,7 @@ this checklist in the published file.
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
 - [ ] links: relative paths from repo root; `repo:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
-- [ ] One-sentence insight: fits in one quotable line; if it takes a paragraph, it is not yet an insight  (PASS / HALT)
+- [ ] Insight headline: quotable in one sentence; the section then elaborates to the word floor  (PASS / HALT)
 - [ ] Evidence: at least one source cited by id, chain of evidence complete  (PASS / HALT)
 - [ ] Implications: concrete ("changes X" or "informs decision Y"), not platitudes  (PASS / HALT)
 - [ ] Counter-evidence: states what would prove the insight wrong; an insight that cannot be falsified is dogma  (PASS / HALT)
@@ -121,10 +121,12 @@ The sections must have the following minimal word counts. The Insight >= 150 wor
 Evidence >= 350 words, Implications >= 350 words, Counter-evidence >= 250 words.
 
 ### The Insight
-*What did we learn? State it in one paragraph.*
+*What did we learn?*
 
-- The core realization as a single, memorable sentence.
-- This is the headline. It should be quotable.
+- Lead with the core realization as one memorable, quotable
+  sentence -- the headline.
+- Then elaborate: context, nuance, and the boundary of the claim,
+  up to the word floor.
 
 ### Evidence
 *How do we know this is true?*
