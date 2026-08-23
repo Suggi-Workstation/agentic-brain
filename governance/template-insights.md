@@ -116,8 +116,11 @@ Example: `verification-is-the-bottleneck.md`
 
 ## Body Structure
 
+The sections must have the following minimal word counts. The Insight >= 150 words, 
+Evidence >= 350 words, Implications >= 350 words, Counter-evidence >= 250 words.
+
 ### The Insight
-*What did we learn? State it in one sentence.*
+*What did we learn? State it in one paragraph.*
 
 - The core realization as a single, memorable sentence.
 - This is the headline. It should be quotable.
