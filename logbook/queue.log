@@ -406,3 +406,13 @@ Workstreams:
 - Constitution v4 (a02182f): shared-state preservation (scar: mnemosyne TTL-trim), agent-output containment, spawn accountability, escalation norm. Primedirectives: means-ends rule + reversibility preference.
 - Directive text unified byte-exactly across all 4 SOUL mirrors (morpheus, neo, link PC, linkie laptop); promoted Neo's memory cross-ref + no-gate-warranted clauses fleet-wide; "bring it to your human" replaces "write a proposal" (f62430d). Programmatic proof: 1 distinct region.
 Reflection: 20260822T193753Z. Daily memory: 2026-08-22.md.
+
+## [ENT-071] | 2026-08-23 11:08 UTC | Morpheus | general | ref: reflections/2026-08-23_morpheus_one-to-many-migration-referential-integrity.md | see: 20260823T110812Z
+Session: multi-repo architecture completed -- agentic-brain + agentic-forge + investing-hub as peer clones.
+Workstreams:
+- investing-hub seeded (gates, README, portfolios/) and moved out of the brain; dead pipeline refs traced and conformed.
+- Cross-repo link convention adopted: <repo>:<path>; blueprint documents it; brain: prefixes migrated to agentic-brain: fleet-wide.
+- Watcher generalized: /opt/brain-tools/repo-pull.sh, three cron lines, brain-pull.sh kept as shim; end-to-end scratch-commit test passed.
+- Indexes built: forge 99, investing 180 chunks; query-forge-vps + query-investing-vps skills created and live-tested.
+- Contracts updated: AGENTS.md both agents; preflight + session-end verify all three indexes; read-proof prints three fields.
+Reflection: 2026-08-23_morpheus_one-to-many-migration-referential-integrity.md. Daily memory: 2026-08-23.md.
