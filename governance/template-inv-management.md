@@ -6,7 +6,7 @@ lock: approval-required
 approved_by: Suggi
 author: Neo
 links:
-  - investing/frameworks/simple-management-scoring.md
+  - investing-hub:frameworks/simple-management-scoring.md
   - library/value-investing/anchor-value-investing.md
 ---
 
@@ -17,7 +17,7 @@ The output format for a management quality assessment. Produces a
 allocation, acquisition track record, say-do gap (overpromising/
 underdelivering), and communication candor. Includes the integrity
 red flag catalog. The methodology lives in
-`investing/frameworks/simple-management-scoring.md`; this template
+`investing-hub:frameworks/simple-management-scoring.md`; this template
 defines what the completed analysis looks like.
 
 ## What This Template Is
@@ -62,8 +62,8 @@ tier: investment-management
 author: Neo
 tags: [management, capital-allocation, integrity, <ticker>]
 links:
-  - investing/frameworks/simple-management-scoring.md
-  - investing/companies/<ticker>.md
+  - investing-hub:frameworks/simple-management-scoring.md
+  - investing-hub:companies/<ticker>.md
 ---
 ```
 

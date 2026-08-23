@@ -6,7 +6,7 @@ lock: approval-required
 approved_by: Suggi
 author: Neo
 links:
-  - investing/frameworks/deep-financial-scoring.md
+  - investing-hub:frameworks/deep-financial-scoring.md
   - library/value-investing/anchor-value-investing.md
 ---
 
@@ -16,7 +16,7 @@ The output format for a financial health and red flag assessment.
 Produces normalized earnings, FCF conversion quality, debt structure
 analysis, ROIIC, Altman Z-Score, Beneish M-Score, and a structured
 red flag scan. The methodology lives in
-`investing/frameworks/deep-financial-scoring.md`; this template
+`investing-hub:frameworks/deep-financial-scoring.md`; this template
 defines what the completed analysis looks like.
 
 ## What This Template Is
@@ -62,8 +62,8 @@ tier: investment-financial
 author: Neo
 tags: [financial-health, earnings-quality, red-flags, <ticker>]
 links:
-  - investing/frameworks/deep-financial-scoring.md
-  - investing/companies/<ticker>.md
+  - investing-hub:frameworks/deep-financial-scoring.md
+  - investing-hub:companies/<ticker>.md
 ---
 ```
 

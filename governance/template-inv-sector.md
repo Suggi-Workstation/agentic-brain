@@ -6,8 +6,8 @@ lock: approval-required
 approved_by: Suggi
 author: Neo
 links:
-  - investing/frameworks/sector-specific-metrics.md
-  - investing/frameworks/dcf-intrinsic-value.md
+  - investing-hub:frameworks/sector-specific-metrics.md
+  - investing-hub:frameworks/dcf-intrinsic-value.md
 ---
 
 # Investment Template -- Sector Scoreboard
@@ -16,7 +16,7 @@ The output format for sector-specific metric selection and
 adjustments. Identifies the sector, selects the correct growth /
 quality / cheapness metrics, states what NOT to use, and lists
 sector-specific DCF adjustments. The methodology lives in
-`investing/frameworks/sector-specific-metrics.md`; this template
+`investing-hub:frameworks/sector-specific-metrics.md`; this template
 defines what the completed analysis looks like.
 
 ## What This Template Is
@@ -56,8 +56,8 @@ tier: investment-sector
 author: Neo
 tags: [sector-metrics, screening, <ticker>]
 links:
-  - investing/frameworks/sector-specific-metrics.md
-  - investing/companies/<ticker>.md
+  - investing-hub:frameworks/sector-specific-metrics.md
+  - investing-hub:companies/<ticker>.md
 ---
 ```
 

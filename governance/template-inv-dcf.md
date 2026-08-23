@@ -6,7 +6,7 @@ lock: approval-required
 approved_by: Suggi
 author: Neo
 links:
-  - investing/frameworks/dcf-intrinsic-value.md
+  - investing-hub:frameworks/dcf-intrinsic-value.md
   - library/value-investing/margin-of-safety.md
   - library/value-investing/intrinsic-value-estimation-methods.md
 ---
@@ -16,7 +16,7 @@ links:
 The output format for a discounted cash flow valuation. Produces a
 defensible intrinsic value RANGE with bull/base/bear scenarios, EPV
 cross-check, sensitivity matrix, and margin of safety verdict. The
-methodology lives in `investing/frameworks/dcf-intrinsic-value.md`;
+methodology lives in `investing-hub:frameworks/dcf-intrinsic-value.md`;
 this template defines what the completed analysis looks like.
 
 ## What This Template Is
@@ -65,8 +65,8 @@ tier: investment-dcf
 author: Neo
 tags: [dcf, valuation, intrinsic-value, <ticker>]
 links:
-  - investing/frameworks/dcf-intrinsic-value.md
-  - investing/companies/<ticker>.md
+  - investing-hub:frameworks/dcf-intrinsic-value.md
+  - investing-hub:companies/<ticker>.md
 ---
 ```
 

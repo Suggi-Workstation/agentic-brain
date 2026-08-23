@@ -6,7 +6,7 @@ lock: approval-required
 approved_by: Suggi
 author: Neo
 links:
-  - investing/frameworks/simple-moat-scoring.md
+  - investing-hub:frameworks/simple-moat-scoring.md
   - library/value-investing/economic-moats.md
 ---
 
@@ -15,7 +15,7 @@ links:
 The output format for a competitive advantage assessment. Produces
 a quantitative baseline (ROIC-WACC), six moat source scores, Porter's
 Five Forces, a 4-dimension composite score, and a trend verdict.
-The methodology lives in `investing/frameworks/simple-moat-scoring.md`;
+The methodology lives in `investing-hub:frameworks/simple-moat-scoring.md`;
 this template defines what the completed analysis looks like.
 
 ## What This Template Is
@@ -58,8 +58,8 @@ tier: investment-moat
 author: Neo
 tags: [moat, competitive-advantage, <ticker>]
 links:
-  - investing/frameworks/simple-moat-scoring.md
-  - investing/companies/<ticker>.md
+  - investing-hub:frameworks/simple-moat-scoring.md
+  - investing-hub:companies/<ticker>.md
 ---
 ```
 
