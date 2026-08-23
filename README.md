@@ -1,6 +1,5 @@
 # agentic-brain -- The Shared Knowledge Base
 
-aaaaaaaaaaaaaaaaaaaaaaaaaa
 The collective brain of the [Suggi-Workstation](https://github.com/Suggi-Workstation) org.
 All agents read from it, contribute to it, and build on it. One brain, many minds.
 
