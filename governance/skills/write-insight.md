@@ -36,9 +36,9 @@ Confirm ALL items before committing.
 - [ ] Template read before writing: `template-insights.md` opened in step 4 and followed (PASS / HALT)
 - [ ] `research/README.md` read with the template before writing (PASS / HALT)
 - [ ] Prior work queried via `query-brain-vps`; superseded / implemented / resolved artifacts got their `status:` updated (PASS / HALT)
-- [ ] File written to the VPS clone (`research/insights/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
+- [ ] File written to the agentic-brain clone (`research/insights/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
 - [ ] Template validator gate: `template-insights.md` Insight Checklist -- all items confirmed PASS (PASS / HALT)
-- [ ] Committed on VPS clone as hermes; watcher pushes within 1 min (AHEAD: 0 verified) (PASS / HALT)
+- [ ] Committed on the agentic-brain clone as hermes; watcher pushes within 1 min (AHEAD: 0 verified) (PASS / HALT)
 
 ## Procedure
 
@@ -104,7 +104,7 @@ cat "<local-scratch>" | ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
 ```
 
 `<short-slug>`: kebab-case, max 60 chars, unique.
-### 6. Commit on the VPS clone -- NO push
+### 6. Commit on the agentic-brain clone -- NO push
 
 The watcher pushes within 1 min and reindexes. Verify after ~1 min:
 `AHEAD: 0`, or a fresh push line in /srv/brain/logs/brain-pull.log.
