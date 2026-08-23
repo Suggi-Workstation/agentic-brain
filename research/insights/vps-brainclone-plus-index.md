@@ -31,6 +31,7 @@ links:
 | 1 | 2026-08-07 | Link | Initial insight. |
 | 2 | 2026-08-08 | Link | Watcher interval 5 min -> 1 min (idle cycle cost measured: 0.42 s, 17 MB). |
 | 3 | 2026-08-09 | Link | Watcher logs moved to /srv/brain/logs (fleet-visible, root:agents) + logrotate (size 1M, rotate 5, compressed). |
+| 4 | 2026-08-23 | Morpheus | Multi-repo generalization: index data moved to /srv/<domain>/index, watcher generalized to repo-pull.sh (one cron line per repo), forge + investing-hub onboarded. |
 
 This file is the finished-system reference for the fleet VPS live
 mirror: the persistent agentic-brain clone, the shared index, and the
@@ -73,7 +74,7 @@ The server was provisioned and the system built:
   1 TB NVMe, Ubuntu 24.04.4 UEFI Minimal, hostname suggi-vps.
 - Tailscale as root system daemon (the box is the tailnet node);
   Hermes v0.20.0 installed under user hermes.
-- agents group created; /srv/brain and /srv/brain-index owned
+- agents group created; /srv/brain and /srv/brain/index owned
   root:agents with setgid 2775 -- any agent user in the group can
   read and write (openclaw joins the group on migration).
 - Clone at /srv/brain/agentic-brain; token moved to
@@ -130,7 +131,7 @@ inspection alone.
 ```
 /srv/brain/agentic-brain/       KNOWLEDGE: the persistent clone
                                 (root:agents, setgid 2775)
-/srv/brain-index/               DATA: chunks.jsonl, vectors.npy,
+/srv/brain/index/               DATA: chunks.jsonl, vectors.npy,
                                 bm25/, meta.json, heartbeat.json
                                 (root:agents, setgid 2775;
                                 ~/.brain-index is a symlink to it)
@@ -146,7 +147,7 @@ The rule: knowledge goes in the repo, data goes in /srv, code goes
 in /opt, schedule goes in cron. No category is nested inside another.
 This differs from brain-search-system.md in two deliberate ways:
 (1) the index DATA moved from per-machine ~/.brain-index to the
-fleet-shared /srv/brain-index (the VPS is the shared index service),
+fleet-shared /srv/brain/index (the VPS is the shared index service),
 and (2) tooling moved from user homes to /opt/brain-tools so no
 single user's lifecycle owns the fleet infrastructure.
 
@@ -273,3 +274,32 @@ This architecture would be invalidated if:
   system prevents structurally
 - `governance/template-insights.md` -- the template this file follows
 - `logbook/queue.log` -- ENT-048, the watcher-pushed proof entry
+
+### Generalization -- three repos, one watcher (2026-08-23)
+
+The live-mirror pattern now covers every content repo in the org,
+grouped by domain under /srv:
+
+```
+/srv/brain/agentic-brain/       clone      /srv/brain/index/       data
+/srv/forge/agentic-forge/       clone      /srv/forge/index/       data
+/srv/investing/investing-hub/   clone      /srv/investing/index/   data
+```
+
+- Index DATA lives at `/srv/<domain>/index` (moved from
+  `/srv/brain-index` on 2026-08-23); `~/.<name>-index` symlinks
+  resolve it per repo (`~/.brain-index`, `~/.forge-index`,
+  `~/.investing-index`).
+- The search TOOL lives inside each repo (`<name>-index/` folders:
+  `brain-index/`, `forge-index/`, `investing-index/`) and indexes
+  whatever repo contains it (the SCRIPT_DIR.parent rule).
+- The watcher logic lives once in `/opt/brain-tools/repo-pull.sh`;
+  one hermes cron line per repo passes clone path, logs dir, tool
+  dir, and log prefix. `brain-pull.sh` remains as a compatibility
+  shim around it, so existing references stay valid.
+- Logs stay event-driven at `/srv/<domain>/logs/<prefix>-pull.log`
+  and `<prefix>-index.log`; logrotate covers all of them.
+- One warm embed daemon (127.0.0.1:8099) serves all three indexes --
+  same model, same dimensions. Cross-index contamination is
+  impossible by construction: each tool's config resolves to its own
+  data dir.

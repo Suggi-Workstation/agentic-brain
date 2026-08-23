@@ -155,9 +155,9 @@ public door both down), fall back to the external query-brain skill
   The clone is `root:agents` and the `agents` group is the access
   mechanism. Never `su - hermes` for queries or commits -- hermes
   only runs the watcher and index. The index path resolves via the
-  `~/.brain-index` symlink (`/srv/brain-index`); if `query.py`
+  `~/.brain-index` symlink (`/srv/brain/index`); if `query.py`
   reports "NO INDEX" for your user, the symlink is missing -- create
-  it (`ln -s /srv/brain-index ~/.brain-index`), not a false alarm.
+  it (`ln -s /srv/brain/index ~/.brain-index`), not a false alarm.
   Remote agents SSH as root and `su - hermes` (root has no symlink) --
   that path is unchanged.
 - **STALE freshness is a WATCHER problem, not a query problem.**
