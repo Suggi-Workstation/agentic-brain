@@ -107,6 +107,8 @@ Files are named: `<short-slug>.md`
 
 ## Body Structure
 
+EACH Section, Problem, Proposed Solution, Impact, Open Questions, Approval Gate must have at least 200 words.
+
 ### Problem
 *What is broken, missing, or could be improved?*
 
