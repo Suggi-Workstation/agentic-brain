@@ -107,6 +107,8 @@ Example: `inter-agent-cooperation-research-2026-06.md`
 
 ## Body Structure
 
+EACH Executive Summary, Research Question, Methodology, Findings,  Discussion and Conclusion must have at least 200 words.
+
 ### Executive Summary
 *What is the answer in one paragraph?*
 
