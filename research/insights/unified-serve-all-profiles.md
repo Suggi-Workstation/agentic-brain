@@ -225,6 +225,64 @@ This insight would be invalidated if:
   practice (it has not: the 9119 and 8642 listeners coexist
   stably, and the attach-target question from version 1 is settled).
 
+## Legacy units (archived 2026-08-23)
+
+The pre-cutover isolated-serve units were removed from
+`/etc/systemd/system/` on 2026-08-23 (Suggi-approved). They were
+still ENABLED until then -- a reboot would have raced them against
+this serve on port 9119 -- and `hermes-morpheus.service` hardcoded
+the obsolete embedding model (`nomic-ai/nomic-embed-text-v1.5`,
+768-dim), making any "rollback" a mixed-model corruption event.
+Archived verbatim here as the rollback reference:
+
+`hermes-morpheus.service`:
+
+```ini
+[Unit]
+Description=Hermes Agent - Morpheus profile (serve backend)
+After=network-online.target tailscaled.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=hermes
+Group=hermes
+Environment=HERMES_HOME=/home/hermes/.hermes/profiles/morpheus
+Environment=MNEMOSYNE_EMBEDDING_MODEL=nomic-ai/nomic-embed-text-v1.5
+Environment=MNEMOSYNE_EMBEDDING_DIM=768
+EnvironmentFile=/home/hermes/.hermes/profiles/morpheus/.env
+ExecStart=/home/hermes/.hermes/hermes-agent/venv/bin/python /home/hermes/.hermes/hermes-agent/hermes -p morpheus serve --isolated --host 100.99.142.120 --port 9119
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+```
+
+`hermes-neo.service`:
+
+```ini
+[Unit]
+Description=Hermes Agent - Neo profile (serve backend)
+After=network-online.target tailscaled.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=hermes
+Group=hermes
+Environment=HERMES_HOME=/home/hermes/.hermes/profiles/neo
+Environment=MNEMOSYNE_EMBEDDING_MODEL=BAAI/bge-large-en-v1.5
+Environment=MNEMOSYNE_EMBEDDING_DIM=1024
+EnvironmentFile=/home/hermes/.hermes/profiles/neo/.env
+ExecStart=/home/hermes/.hermes/hermes-agent/venv/bin/python /home/hermes/.hermes/hermes-agent/hermes -p neo serve --isolated --host 100.99.142.120 --port 9120
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+```
+
 ## Cross-Links
 
 - `reflections/2026-08-21_link_hermes-desktop-leveldb-collateral-damage.md` -- desktop-side repair history (source, implication 2)
