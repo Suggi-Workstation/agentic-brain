@@ -34,6 +34,8 @@ Confirm ALL items before committing.
 
 - [ ] Procedure completed (read template, write, transfer, commit) (PASS / HALT)
 - [ ] Template read before writing: `template-insights.md` opened in step 4 and followed (PASS / HALT)
+- [ ] `research/README.md` read with the template before writing (PASS / HALT)
+- [ ] Prior work queried via `query-brain-vps`; superseded / implemented / resolved artifacts got their `status:` updated (PASS / HALT)
 - [ ] File written to the VPS clone (`research/insights/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
 - [ ] Template validator gate: `template-insights.md` Insight Checklist -- all items confirmed PASS (PASS / HALT)
 - [ ] Committed on VPS clone as hermes; watcher pushes within 1 min (AHEAD: 0 verified) (PASS / HALT)
@@ -54,9 +56,18 @@ artifacts that can be distilled into one quotable sentence. It must
 be falsifiable (the counter-evidence section must state what would
 prove it wrong).
 
-### 3. Read the format specification -- the validator
+Before writing, query prior work with the `query-brain-vps`
+skill: existing proposals, reports, evaluations, and insights on
+the topic. If this artifact supersedes, implements, or resolves an
+earlier one, that artifact's `status:` field is updated in the same
+session (see `research/README.md`).
 
-Read `governance/template-insights.md` BEFORE writing. It defines
+### 3. Read the format specification and the pipeline map
+
+Read `governance/template-insights.md` BEFORE writing. ALSO read
+`agentic-brain:research/README.md` -- the pipeline map. It tells
+you where this artifact sits in the flow and which earlier
+artifacts' `status:` fields change when this one lands. It defines
 the Insight-Evidence-Implications-Counter-evidence format, frontmatter
 schema, and the complete Insight Checklist. That checklist is the format
 gate for this skill. Follow it exactly.
