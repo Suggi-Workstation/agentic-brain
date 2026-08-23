@@ -63,7 +63,6 @@ this checklist in the published reflection.
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Schoen budget: at most 20% of session effort  (PASS / HALT)
 - [ ] Cross-links: at least 1 link to Library/insight/other reflection. Zero links = dead-end knowledge  (PASS / HALT)
-- [ ] Version-history table: present (date + author + change rows) if file has version updates; omitted for single-version files; located at top of file, immediately after title, before content  (PASS / HALT)
 - [ ] File named: YYYY-MM-DD_author_slug.md  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
@@ -210,20 +209,8 @@ The Schoen Loop is reflection-on-action at session scope.
   rumination, not learning.
 
 ## Version History
-*Has this reflection evolved?*
 
-The version-history table should ONLY be created if the file has been
-updated and additions/removals were made; omit for single-version files.
-
-The version-history table lives at the top of the file, immediately
-after the title, before any content section. See "## Example" section.
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | YYYY-MM-DD | <Agent> | Initial reflection. |
-| 2 | YYYY-MM-DD | <Agent> | Updated reflection. |
-
-HALT - Add the version-history table ONLY if the file has been updated.
+None. Git history is the version record. Do not add version-history tables to these files.
 
 ## Anti-patterns
 
@@ -251,13 +238,6 @@ links:
 ---
 
 # Blank Page Before Search -- Order Is the Active Ingredient
-
-## Version History (only when file has version updates)
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-07-16 | Link | Initial reflection. |
-| 2 | 2026-07-17 | Ava | Missing explanations. |
 
 ## I -- Idea
 The Feynman Loop's step order is not cosmetic. Writing what you think you

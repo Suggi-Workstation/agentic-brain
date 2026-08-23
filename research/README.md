@@ -39,10 +39,13 @@ the pipeline moves:
 
 | Tier | Values |
 |:--|:--|
-| proposal | `open` -> `approved` -> `implemented`, or `rejected`, or `superseded by <slug>` |
+| proposal | `open` -> `approved` -> `implemented`, or `rejected`, or `superseded by <id>` |
 | report | `draft` -> `evaluated` -> `final` |
 | evaluation | (none -- the verdict IS the status) |
-| insight | `active`, or `superseded by <slug>` |
+| insight | `active`, or `superseded by <id>` |
+
+Supersede references always cite the artifact `id:` (never the
+filename slug) -- ids are permanent, slugs are not.
 
 Files written before this convention existed have no `status:` field;
 treat them as historical records and infer state from their content.

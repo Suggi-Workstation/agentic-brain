@@ -49,7 +49,7 @@ this checklist in the published file.
 - [ ] name: lowercase kebab-case, matches filename slug  (PASS / HALT)
 - [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly; does not end in 000000Z (human-rounded = reject); never manually typed  (PASS / HALT)
 - [ ] tier: "insight"  (PASS / HALT)
-- [ ] status: `active` at birth; `superseded by <slug>` with mutual link when replaced  (PASS / HALT)
+- [ ] status: `active` at birth; `superseded by <id>` with mutual link when replaced  (PASS / HALT)
 - [ ] source: links to every originating IOR, report, or evaluation by id  (PASS / HALT)
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
@@ -60,7 +60,6 @@ this checklist in the published file.
 - [ ] Counter-evidence: states what would prove the insight wrong; an insight that cannot be falsified is dogma  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: source artifacts + related insights + affected governance files  (PASS / HALT)
-- [ ] Version-history table: present (date + author + change rows) if file has version updates; omitted for single-version files; located at top of file, immediately after title, before content  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
@@ -71,7 +70,7 @@ this checklist in the published file.
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. MUST generate with: date -u +'%Y%m%dT%H%M%SZ' at creation. Estimating or rounding = GATE FAILURE.
 tier: insight                # always insight
-status: active               # active | superseded by <slug>
+status: active               # active | superseded by <id>
 source: [<id>, <id>]              # IOR(s), report(s), or evaluation(s)
                                   # that produced this insight
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
@@ -87,7 +86,7 @@ links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo reference
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. MUST generate with: `date -u +'%Y%m%dT%H%M%SZ'` at creation. Estimating or rounding = GATE FAILURE.
 - `tier` is always `insight`.
 - `status` is `active` at birth. When a newer insight replaces this
-  one, set `superseded by <replacement-slug>`, link the replacement
+  one, set `superseded by <id>`, link the replacement
   from here and this file from the replacement, and never delete
   the file. See `research/README.md`.
 - `source` lists the ids of the IORs, reports, or evaluations that
@@ -141,20 +140,8 @@ Example: `verification-is-the-bottleneck.md`
   becoming dogma.
 
 ## Version History
-*Has this insight evolved?*
 
-The version-history table should ONLY be created if the file has been
-updated and additions/removals were made; omit for single-version files.
-
-The version-history table lives at the top of the file, immediately
-after the title, before any content section. See "## Example" section.
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | YYYY-MM-DD | <Agent> | Initial insight. |
-| 2 | YYYY-MM-DD | <Agent> | Updated insight. |
-
-HALT - Add the version-history table ONLY if the file has been updated.
+None. Git history is the version record. Do not add version-history tables to these files.
 
 ## Cross-Links
 
@@ -181,13 +168,6 @@ links:
 ---
 
 # Verification Is the Bottleneck
-
-## Version History (only when file has version updates)
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-06-14 | Suggi | Initial insight from WO-1 through WO-8 findings. |
-| 2 | 2026-06-17 | Ava | Added extra explanations. |
 
 ## The Insight
 In multi-agent systems, verification capacity is the binding constraint

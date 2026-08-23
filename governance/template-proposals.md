@@ -60,7 +60,6 @@ this checklist in the published file.
 - [ ] Approval Gate: explicit approval condition stated ("If approved, I will [specific action]")  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: at least 1 link to triggering IOR/evaluation/governance file  (PASS / HALT)
-- [ ] Version-history table: present (date + author + change rows) if file has version updates; omitted for single-version files; located at top of file, immediately after title, before content  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
@@ -86,7 +85,7 @@ links: [<path/to/file.md>]   # related governance, proposals, or IORs. Cross-rep
 - `tier` is always `proposal`.
 - `status` moves the proposal through the pipeline (see
   `research/README.md`): `open` at birth, then `approved`,
-  `implemented`, `rejected`, or `superseded by <replacement-slug>`.
+  `implemented`, `rejected`, or `superseded by <id>`.
   When this proposal supersedes or implements an earlier artifact,
   update that artifact's `status` in the same commit and link both
   directions.
@@ -148,20 +147,8 @@ Files are named: `<short-slug>.md`
 - Do not assume approval implies anything beyond what is written.
 
 ## Version History
-*Has this proposal evolved?*
 
-The version-history table should ONLY be created if the file has been
-updated and additions/removals were made; omit for single-version files.
-
-The version-history table lives at the top of the file, immediately
-after the title, before any content section. See "## Example" section.
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | YYYY-MM-DD | <Agent> | Initial proposal. |
-| 2 | YYYY-MM-DD | <Agent> | Updated scope. |
-
-HALT - Add the version-history table ONLY if the file has been updated.
+None. Git history is the version record. Do not add version-history tables to these files.
 
 ## Cross-Links
 
@@ -186,13 +173,6 @@ links:
 ---
 
 # Add HEARTBEAT.md to Ava Core File Set
-
-## Version History (only when file has version updates)
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-06-14 | Suggi | Initial Proposal from WO-1 through WO-8 findings. |
-| 2 | 2026-06-17 | Ava | Added extra explanations. |
 
 ## Problem
 The proposed core file set for Ava (v1.1) includes 7 files but omits

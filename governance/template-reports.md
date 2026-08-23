@@ -62,7 +62,6 @@ this checklist in the published file.
 - [ ] Evaluation History: at least one independent evaluation linked (APPROVE or APPROVE WITH CHANGES resolved)  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: evaluations + related reports + referenced library topics  (PASS / HALT)
-- [ ] Version-history table: present (date + author + change rows) if file has version updates; omitted for single-version files; located at top of file, immediately after title, before content  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
@@ -163,20 +162,8 @@ Example: `inter-agent-cooperation-research-2026-06.md`
 - Link to the evaluation files.
 
 ## Version History
-*Has this report evolved?*
 
-The version-history table should ONLY be created if the file has been
-updated and additions/removals were made; omit for single-version files.
-
-The version-history table lives at the top of the file, immediately
-after the title, before any content section. See "## Example" section.
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | YYYY-MM-DD | <Agent> | Initial report. |
-| 2 | YYYY-MM-DD | <Agent> | Updated findings. |
-
-HALT - Add the version-history table ONLY if the file has been updated.
+None. Git history is the version record. Do not add version-history tables to these files.
 
 ## Cross-Links
 
@@ -201,13 +188,6 @@ links:
 ---
 
 # Inter-Agent Cooperation -- Research Findings
-
-## Version History (only when file has version updates)
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-06-14 | Suggi | Initial Research from WO-1 through WO-8 findings. |
-| 2 | 2026-06-17 | Ava | Added extra explanations. |
 
 ## Executive Summary
 Question: Can two agents on different model families cooperate

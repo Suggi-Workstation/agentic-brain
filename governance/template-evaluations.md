@@ -60,7 +60,6 @@ this checklist in the published file.
 - [ ] Confidence: stated with reasoning, high 85%+ / medium 60-85% / low below 60%  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: source + related evaluations/governance files  (PASS / HALT)
-- [ ] Version-history table: present (date + author + change rows) if file has version updates; omitted for single-version files; located at top of file, immediately after title, before content  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
@@ -145,20 +144,8 @@ One of:
 - State what would change your confidence level.
 
 ## Version History
-*Has this evaluation evolved?*
 
-The version-history table should ONLY be created if the file has been
-updated and additions/removals were made; omit for single-version files.
-
-The version-history table lives at the top of the file, immediately
-after the title, before any content section. See "## Example" section.
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | YYYY-MM-DD | <Agent> | Initial evaluation. |
-| 2 | YYYY-MM-DD | <Agent> | Updated criteria. |
-
-HALT - Add the version-history table ONLY if the file has been updated.
+None. Git history is the version record. Do not add version-history tables to these files.
 
 ## Cross-Links
 
@@ -183,13 +170,6 @@ links:
 ---
 
 # Independent Review: Link's Verification Gates Paper
-
-## Version History (only when file has version updates)
-
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-06-14 | Suggi | Initial insight from WO-1 through WO-8 findings. |
-| 2 | 2026-06-16 | Ava | Added extra explanations. |
 
 ## Source
 Evaluating `20260614T120000Z` -- "Verification Gates for Multi-Agent
