@@ -18,7 +18,7 @@ Evaluations are written by a different agent than the original author
 ## Relationship to the write-evaluation Skill
 
 This file is the format specification AND the compliance validator. The
-production procedure (clone, Feynman loop, write, commit, push, discard)
+production procedure (Feynman loop, read template and research README, write, transfer, commit)
 lives in `governance/skills/write-evaluation.md`; that skill references
 this file's Evaluation Checklist as its format gate (R8: reference, never
 duplicate). Keep the division: spec + checklist here, procedure there.
@@ -86,7 +86,7 @@ links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo reference
 - `tier` is always `evaluation`.
 - `source` is the id of the proposal, report, or insight being
   evaluated. Never evaluate your own work (the decorrelation rule).
-- `author` is who performed the evaluation (e.g. Link, Ava, Zelda, Luffy). Must differ from the source.s author.
+- `author` is who performed the evaluation (e.g. Link, Ava, Zelda, Luffy). Must differ from the source's author.
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
 - `links` are paths relative to the repo root. Cross-repo references use the `repo:` prefix -- the token before `:` is

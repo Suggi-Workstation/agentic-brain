@@ -19,7 +19,7 @@ system's permanent knowledge -- they are rarely deleted, only versioned.
 ## Relationship to the write-insight Skill
 
 This file is the format specification AND the compliance validator. The
-production procedure (clone, Feynman loop, write, commit, push, discard)
+production procedure (Feynman loop, read template and research README, write, transfer, commit)
 lives in `governance/skills/write-insight.md`; that skill references
 this file's Insight Checklist as its format gate (R8: reference, never
 duplicate). Keep the division: spec + checklist here, procedure there.
@@ -49,6 +49,7 @@ this checklist in the published file.
 - [ ] name: lowercase kebab-case, matches filename slug  (PASS / HALT)
 - [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly; does not end in 000000Z (human-rounded = reject); never manually typed  (PASS / HALT)
 - [ ] tier: "insight"  (PASS / HALT)
+- [ ] status: `active` at birth; `superseded by <slug>` with mutual link when replaced  (PASS / HALT)
 - [ ] source: links to every originating IOR, report, or evaluation by id  (PASS / HALT)
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
@@ -70,6 +71,7 @@ this checklist in the published file.
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. MUST generate with: date -u +'%Y%m%dT%H%M%SZ' at creation. Estimating or rounding = GATE FAILURE.
 tier: insight                # always insight
+status: active               # active | superseded by <slug>
 source: [<id>, <id>]              # IOR(s), report(s), or evaluation(s)
                                   # that produced this insight
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
@@ -84,6 +86,10 @@ links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo reference
   `verification-is-the-bottleneck`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. MUST generate with: `date -u +'%Y%m%dT%H%M%SZ'` at creation. Estimating or rounding = GATE FAILURE.
 - `tier` is always `insight`.
+- `status` is `active` at birth. When a newer insight replaces this
+  one, set `superseded by <replacement-slug>`, link the replacement
+  from here and this file from the replacement, and never delete
+  the file. See `research/README.md`.
 - `source` lists the ids of the IORs, reports, or evaluations that
   produced this insight. At least one source required.
 - `author` is who wrote the insight (e.g. Link, Ava, Zelda, Suggi, Luffy).
@@ -146,7 +152,7 @@ after the title, before any content section. See "## Example" section.
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
 | 1 | YYYY-MM-DD | <Agent> | Initial insight. |
-| 2 | YYYY-MM-DD | <Agent> | Initial insight. |
+| 2 | YYYY-MM-DD | <Agent> | Updated insight. |
 
 HALT - Add the version-history table ONLY if the file has been updated.
 

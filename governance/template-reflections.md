@@ -17,7 +17,7 @@ One file, three sections, no fluff.
 ## Relationship to the write-reflection Skill
 
 This file is the format specification AND the compliance validator. The
-production procedure (clone, Feynman loop, write, commit, push, discard)
+production procedure (Feynman loop, read template and research README, write, transfer, commit)
 lives in `governance/skills/write-reflection.md`; that skill references
 this file's Reflection Checklist as its format gate (R8: reference, never
 duplicate). Keep the division: spec + checklist here, procedure there.

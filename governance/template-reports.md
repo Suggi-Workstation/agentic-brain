@@ -18,7 +18,7 @@ research question at the time of writing.
 ## Relationship to the write-report Skill
 
 This file is the format specification AND the compliance validator. The
-production procedure (clone, Feynman loop, write, commit, push, discard)
+production procedure (Feynman loop, read template and research README, write, transfer, commit)
 lives in `governance/skills/write-report.md`; that skill references
 this file's Report Checklist as its format gate (R8: reference, never
 duplicate). Keep the division: spec + checklist here, procedure there.
@@ -48,6 +48,7 @@ this checklist in the published file.
 - [ ] name: lowercase kebab-case, matches filename slug  (PASS / HALT)
 - [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly; does not end in 000000Z (human-rounded = reject); never manually typed  (PASS / HALT)
 - [ ] tier: "report"  (PASS / HALT)
+- [ ] status: `draft` -> `evaluated` -> `final`, kept current with the Evaluation History  (PASS / HALT)
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
 - [ ] links: relative paths from repo root; `repo:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
@@ -72,6 +73,7 @@ this checklist in the published file.
 name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. MUST generate with: date -u +'%Y%m%dT%H%M%SZ' at creation. Estimating or rounding = GATE FAILURE.
 tier: report                     # always report
+status: draft                    # draft | evaluated | final
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
 links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo references use the `repo:` prefix; omit for same-repo links.
@@ -84,6 +86,10 @@ links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo reference
   `inter-agent-cooperation-findings`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. MUST generate with: `date -u +'%Y%m%dT%H%M%SZ'` at creation. Estimating or rounding = GATE FAILURE.
 - `tier` is always `report`.
+- `status` tracks evaluation progress (see `research/README.md`):
+  `draft` until an independent evaluation is linked, `evaluated`
+  once a verdict exists, `final` when APPROVE-class verdicts are
+  resolved into the text.
 - `author` is who wrote the report (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
