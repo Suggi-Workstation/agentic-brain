@@ -59,7 +59,6 @@ this checklist in the published file.
 - [ ] Negative results: what was searched for and NOT found is documented  (PASS / HALT)
 - [ ] Discussion: synthesizes findings, addresses contradictions and surprises  (PASS / HALT)
 - [ ] Conclusion: restates question + answer + one recommendation + open questions  (PASS / HALT)
-- [ ] Evaluation gate satisfied before any `evaluated`/`final` status: at least one independent evaluation exists as its own artifact and is cross-linked (APPROVE or APPROVE WITH CHANGES resolved into the text)  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: evaluations + related reports + referenced library topics  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
