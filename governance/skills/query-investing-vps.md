@@ -48,14 +48,14 @@ crontab -l | grep repo-pull
 ```
 
 PASS: the cron line is present. The watcher logs are EVENT-DRIVEN:
-brain-pull.log records pushes only, brain-index.log records reindexes
+investing-pull.log records pushes only, investing-index.log records reindexes
 only. Quiet logs on a quiet system are normal, NOT a failure.
 
 If content changed on GitHub recently, the matching reindex entry
-must exist in brain-index.log within ~2 minutes of the change:
+must exist in investing-index.log within ~2 minutes of the change:
 
 ```bash
-tail -3 /srv/investing/logs/brain-index.log
+tail -3 /srv/investing/logs/investing-index.log
 ```
 
 Final proof the door works end-to-end: run the watcher once manually
@@ -73,7 +73,7 @@ cd /srv/investing/investing-hub && /opt/brain-tools/venv/bin/python investing-in
 
 PASS: "OK -- N chunks, built <timestamp>". STALE means the watcher
 pulled but did not reindex -- investigate /srv/investing/logs/
-brain-index.log. NEVER rebuild manually: the watcher owns the index.
+investing-index.log. NEVER rebuild manually: the watcher owns the index.
 A manual --force rebuild is reserved for corruption recovery, done
 as hermes, and only after diagnosis.
 
