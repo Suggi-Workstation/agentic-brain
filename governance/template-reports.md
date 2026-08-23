@@ -59,7 +59,7 @@ this checklist in the published file.
 - [ ] Negative results: what was searched for and NOT found is documented  (PASS / HALT)
 - [ ] Discussion: synthesizes findings, addresses contradictions and surprises  (PASS / HALT)
 - [ ] Conclusion: restates question + answer + one recommendation + open questions  (PASS / HALT)
-- [ ] Body word counts: Executive Summary >= 150, Research Question >= 150, Methodology >= 200, Findings >= 200, Discussion >= 200, Conclusion >= 150  (PASS / HALT)
+- [ ] Body word counts: Executive Summary >= 250, Research Question >= 300, Methodology >= 300, Findings >= 300, Discussion >= 300, Conclusion >= 250  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: evaluations + related reports + referenced library topics  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
@@ -108,56 +108,96 @@ Example: `inter-agent-cooperation-research-2026-06.md`
 
 ## Body Structure
 
-The sections must have the following minimal word counts. Executive Summary >= 150 words, 
-Research Question >= 150 words, Methodology >= 200 words, Findings >= 200 words,
-Discussion >= 200 words, Conclusion >= 150 words.
+The sections must have the following minimal word counts. Executive Summary >= 250 words, 
+Research Question >= 300 words, Methodology >= 300 words, Findings >= 300 words,
+Discussion >= 300 words, Conclusion >= 250 words.
 
 ### Executive Summary
-*What is the answer in one paragraph?*
+*What is the answer, in one paragraph? The bullets below are suggestions
+-- use what fits.*
 
-- State the research question and the answer.
-- Summarize the key evidence (one to two sentences per major finding).
-- State the confidence level.
-- This section must stand alone. A busy reader should get the full
-  picture from this section only.
+- State the question and the answer back to back -- no buildup.
+- Summarize the key evidence in one to two sentences per major finding.
+- State overall confidence, and what bounds it.
+- Name the single most decision-relevant takeaway for a reader who
+  stops here.
+- Note where the subject sits in the pipeline if relevant: which
+  proposal this investigates, which artifact triggered it, what status
+  that work carries.
+- This section must stand alone: a busy reader should get the full
+  picture from these lines only.
 
 ### Research Question
-*What exactly were we trying to find out?*
+*What exactly were we trying to find out? The bullets below are
+suggestions -- use what fits.*
 
 - State the question as a falsifiable claim or an open question.
-- Define scope: what is in, what is out.
-- State why this question matters.
+- Define scope: what is in, and just as important, what is out.
+- State why the question matters now -- what decision or work hangs on
+  the answer.
+- If this investigates prior artifacts, name them by id and say what
+  remained open about them.
+- Say what a satisfying answer looks like: what evidence would settle
+  it.
 
 ### Methodology
-*How did we investigate this?*
+*How did we investigate? The bullets below are suggestions -- use what
+fits.*
 
-- Describe the approach: literature review, data analysis, model
-  comparison, experiment, expert consultation.
-- List sources consulted (with retrieval dates).
-- State limitations: what this methodology cannot tell us.
+- Describe the approach in reproducible terms: searches run, tools
+  used, commands executed, parameters chosen.
+- List sources consulted, each with a retrieval date.
+- Prefer primary sources; note wherever only secondary sources were
+  available.
+- Record the search's own negative results: queries that returned
+  nothing useful.
+- State limitations plainly: what this methodology cannot tell us.
+- Note verification steps: what was re-checked against a second source
+  or re-derived independently.
 
 ### Findings
-*What did we discover?*
+*What did we discover? The bullets below are suggestions -- use what
+fits.*
 
-- Structure findings by theme or by evidence source.
-- Each finding: claim, evidence, confidence.
-- Include negative results (what we looked for and did not find).
-- Use tables, charts (ASCII art), or structured lists for quantitative
-  findings.
+- Organize findings by theme, by source, or by criterion -- whichever
+  maps cleanest onto the evidence.
+- Each finding carries three parts: the claim, the supporting evidence,
+  and a confidence level.
+- Include negative results: what was searched for and genuinely not
+  found.
+- Use tables, ASCII charts, or structured lists for quantitative
+  material.
+- Flag any finding that rests on a single uncorroborated source.
+- Keep observation separate from interpretation -- interpretation
+  belongs in the Discussion.
 
 ### Discussion
-*What does it mean?*
+*What does it mean? The bullets below are suggestions -- use what
+fits.*
 
-- Synthesize findings into a coherent narrative.
-- Address contradictions or surprises.
-- Compare against prior knowledge in the brain.
+- Synthesize the findings into one coherent narrative, not a restated
+  list.
+- Address contradictions between findings, and surprises against
+  expectation.
+- Compare against prior knowledge in the brain: confirmations,
+  extensions, contradictions -- cite by id.
+- Acknowledge alternative interpretations where the evidence admits
+  them.
+- Trace implications forward: what follows if the findings hold, and
+  what changes if they do not.
+- Close the loop back to the motivation stated in the Research
+  Question.
 
 ### Conclusion
-*What is the final answer?*
+*What is the final answer? The bullets below are suggestions -- use
+what fits.*
 
-- Restate the research question and the answer.
-- One actionable recommendation.
-- Open questions for future research.
+- Restate the question and the answer in plain language.
+- Give one actionable recommendation, not a menu.
+- List open questions for future work, each concrete enough to act on.
+- Name the next pipeline step if one exists: evaluation pending,
+  insight candidate, decision awaited, implementation ready.
+- End clean: everything above already carries the detail.
 
 ## Version History
 
