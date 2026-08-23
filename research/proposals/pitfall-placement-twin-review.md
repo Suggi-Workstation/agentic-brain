@@ -202,3 +202,22 @@ follow later once you have watched a month of promotion behavior.
 Silence beyond your normal review rhythm I will treat as no
 objection to the defaults stated in Open Questions, but no edit
 happens until you say go.
+
+## Cross-Links
+
+- `research/insights/skill-bloat-and-pitfall-placement.md` -- the
+  triggering insight (id 20260823T225432Z); this proposal implements
+  its Implications item 7 and generalizes its item 3
+- `research/reflections/2026-08-10_link_shared-memory-is-an-operations-problem.md`
+  -- source reflection of the insight chain (id 20260810T112711Z)
+- `governance/template-proposals.md` -- format law for this artifact
+- Skills affected (outside git, referenced by profile path):
+  `/home/hermes/.hermes/profiles/morpheus/skills/github/preflight/SKILL.md`
+  and
+  `/home/hermes/.hermes/profiles/morpheus/skills/github/session-end/SKILL.md`
+  -- the two files this proposal's edits land in; their current
+  two-tier layout is documented in the linked insight
+- No prior proposals superseded or extended: a brain-wide search for
+  skill-bloat / pitfall-placement proposals returned none before this
+  one (`research/proposals/` has no related entry)
+
