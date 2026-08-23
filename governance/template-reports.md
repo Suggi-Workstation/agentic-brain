@@ -48,7 +48,7 @@ this checklist in the published file.
 - [ ] name: lowercase kebab-case, matches filename slug  (PASS / HALT)
 - [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly; does not end in 000000Z (human-rounded = reject); never manually typed  (PASS / HALT)
 - [ ] tier: "report"  (PASS / HALT)
-- [ ] status: `draft` -> `evaluated` -> `final`, kept current with the Evaluation History  (PASS / HALT)
+- [ ] status: `draft` -> `evaluated` -> `final`, kept current by the evaluator's same-commit duty  (PASS / HALT)
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
 - [ ] links: relative paths from repo root; `repo:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
@@ -59,7 +59,7 @@ this checklist in the published file.
 - [ ] Negative results: what was searched for and NOT found is documented  (PASS / HALT)
 - [ ] Discussion: synthesizes findings, addresses contradictions and surprises  (PASS / HALT)
 - [ ] Conclusion: restates question + answer + one recommendation + open questions  (PASS / HALT)
-- [ ] Evaluation History: at least one independent evaluation linked (APPROVE or APPROVE WITH CHANGES resolved)  (PASS / HALT)
+- [ ] Evaluation gate satisfied before any `evaluated`/`final` status: at least one independent evaluation exists as its own artifact and is cross-linked (APPROVE or APPROVE WITH CHANGES resolved into the text)  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: evaluations + related reports + referenced library topics  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
@@ -155,12 +155,6 @@ Example: `inter-agent-cooperation-research-2026-06.md`
 - One actionable recommendation.
 - Open questions for future research.
 
-### Evaluation History
-*Who reviewed this and what did they find?*
-
-- List each evaluation pass: evaluator, date, verdict, key changes made.
-- Link to the evaluation files.
-
 ## Version History
 
 None. Git history is the version record. Do not add version-history tables to these files.
@@ -250,11 +244,6 @@ file-based artifacts, independent evaluation, and an explicit handoff
 protocol. The decorrelation effect (different model family review)
 is the active ingredient. The protocol must be structural, not
 volitional -- self-close must be impossible by design.
-
-## Evaluation History
-| Evaluator | Date | Verdict | Changes Made |
-|:--|:--|:--|:--|
-| ava | 2026-06-14 | APPROVE WITH CHANGES | Corrected precision error in Finding 2 |
 
 ## Cross-Links
 - `research/evaluations/ava-review-cooperation-findings.md`

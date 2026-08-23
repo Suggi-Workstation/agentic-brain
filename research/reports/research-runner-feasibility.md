@@ -110,12 +110,6 @@ Open questions: who evaluates trigger 2 (demand), and whether
 unrecorded-demand risk justifies a lighter probe (e.g., logging research
 requests interactively for a month before deciding).
 
-## Evaluation History
-
-None yet. This report enters the pipeline as `draft`; it awaits an
-independent evaluation under the decorrelation rule (evaluator must
-not be Morpheus).
-
 ## Cross-Links
 
 - `research/proposals/research-runner-subagent.md` -- the proposal this

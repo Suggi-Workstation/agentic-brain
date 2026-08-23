@@ -1,6 +1,6 @@
 ---
 name: write-report
-description: "Write a report: Executive Summary-Research-Methodology-Findings format with quality gates G1-G7, evaluation history, and cross-links. Use when asked to write a report, research a topic, investigate a question, or produce structured findings."
+description: "Write a report: Executive Summary-Research-Methodology-Findings format with quality gates G1-G7, evaluation gate, and cross-links. Use when asked to write a report, research a topic, investigate a question, or produce structured findings."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -53,7 +53,9 @@ for the full procedure and self-check.
 
 A report is warranted when multi-step research produces structured
 findings that will be evaluated by another agent. The report must
-include methodology, negative results, and an evaluation history.
+include methodology and negative results. The report itself
+carries no evaluation section -- evaluations are separate
+artifacts that link back.
 
 Before writing, query prior work with the `query-brain-vps`
 skill: existing proposals, reports, evaluations, and insights on
