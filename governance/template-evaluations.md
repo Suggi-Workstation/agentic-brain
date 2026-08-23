@@ -59,7 +59,7 @@ this checklist in the published file.
 - [ ] Required changes listed concretely (if APPROVE WITH CHANGES)  (PASS / HALT)
 - [ ] Confidence: stated with reasoning, high 85%+ / medium 60-85% / low below 60%  (PASS / HALT)
 - [ ] Evaluated artifact's `status:` updated in the same commit (evaluated / final / revision loop)  (PASS / HALT)
-- [ ] Body word counts: Source >= 100, Evaluation Criteria >= 200, Findings >= 200, Verdict >= 100, Confidence >= 100  (PASS / HALT)
+- [ ] Body word counts: Source >= 150, Evaluation Criteria >= 250, Findings >= 250, Verdict >= 200, Confidence >= 200  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: source + related evaluations/governance files  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
@@ -105,53 +105,89 @@ Example: `ava-review-link-verification-paper.md`
 
 ## Body Structure
 
-The sections must have the following minimal word counts. Source >= 100 words, 
-Evaluation Criteria >= 200 words, Findings >= 200 words, Verdict >= 100 words,
-Confidence >= 100 words.
+The sections must have the following minimal word counts. Source >= 150 words, 
+Evaluation Criteria >= 250 words, Findings >= 250 words, Verdict >= 200 words,
+Confidence >= 200 words.
 
 ### Source
-*What is being evaluated?*
+*What is being evaluated, and under what authority? The bullets below
+are suggestions -- use what fits.*
 
-- Cite the exact id and name of the proposal, report, or insight.
-- State the scope: are you evaluating the whole thing or specific claims?
-- Confirm you are a different agent than the original author (the
-  decorrelation rule).
+- Cite the exact artifact by id and title, with its current status.
+- State the scope: whole artifact, specific claims, or specific
+  sections.
+- Confirm the decorrelation rule: who you are, who authored the source,
+  why you are entitled to evaluate it -- or disclose the waiver
+  explicitly if Suggi suspended the rule for this run.
+- Note anything that could bias the read: prior involvement with the
+  work, agreement or disagreement with its conclusion before starting.
+- Say what standard of proof you are applying: what would count as a
+  failure regardless of overall quality.
+- If evaluating a test-run or mechanics exercise rather than production
+  work, say so here.
 
 ### Evaluation Criteria
-*What standards are you applying?*
+*What standards are you applying? The bullets below are suggestions --
+use what fits.*
 
-- List the criteria before you begin. This prevents moving the goalposts.
-- Criteria should be drawn from governance files, templates, or explicit
-  quality gates where possible. If you add criteria, state why.
-- Example criteria: factual accuracy, logical consistency, completeness,
-  structural compliance, ASCIIness, cross-linking.
+- List the criteria before examining the evidence -- fixing them in
+  advance prevents moving goalposts after seeing answers.
+- Draw criteria from governance where possible: templates, checklists,
+  gate rules, constitution.
+- Give each criterion a one-line rationale for why it matters for this
+  artifact.
+- Order them by importance so a partial evaluation still covers what
+  matters most.
+- Add custom criteria only with a stated reason; do not pad the list.
+- Number them -- findings will reference these numbers.
 
 ### Findings
-*What did you find?*
+*What did the scrutiny surface? The bullets below are suggestions --
+use what fits.*
 
-For each criterion:
-- Finding: what you observed.
-- Evidence: quote the source, cite the line, link the file.
-- Judgment: PASS, FAIL, or FLAG (needs clarification).
+- Work through the criteria in order; one finding block per criterion.
+- Each finding carries three parts: observation, evidence (quote, cite,
+  or link), judgment (PASS / FAIL / FLAG).
+- Quote precisely when disputing wording -- paraphrase hides the defect
+  being flagged.
+- Re-execute checks where possible instead of trusting the artifact's
+  own claims about itself.
+- Distinguish severity: cosmetic imprecision vs misleading error vs
+  load-bearing falsehood.
+- Note explicitly which checks came back clean -- silence reads as not
+  examined.
 
 ### Verdict
-*What is your overall assessment?*
+*What is your overall assessment? The bullets below are suggestions --
+use what fits.*
 
-One of:
-- **APPROVE:** No issues or all issues are minor.
-- **APPROVE WITH CHANGES:** Specific changes required before acceptance.
-  List each required change with a concrete fix.
-- **REJECT:** Fundamental flaw. State the flaw explicitly.
-- In the SAME commit, set the evaluated artifact's `status:`:
-  `evaluated` after your verdict; `final` once APPROVE-class
-  changes are resolved into the text; on REJECT the source loops
-  back for revision.
+- Choose one: APPROVE / APPROVE WITH CHANGES / REJECT.
+- Justify the choice in one paragraph: why this verdict and not the
+  adjacent one.
+- For APPROVE WITH CHANGES: list each required change as a concrete,
+  executable instruction -- text to replace, number to correct, link
+  to fix.
+- For REJECT: state the fundamental flaw explicitly and whether
+  revision is possible at all.
+- In the SAME commit, set the evaluated artifact's `status:` per your
+  verdict (`evaluated`, or the revision loop on REJECT).
+- Keep the verdict proportional: verdict follows from the findings,
+  not from overall impression.
 
 ### Confidence
-*How sure are you?*
+*How sure are you, and where does that waver? The bullets below are
+suggestions -- use what fits.*
 
-- High (85%+), medium (60-85%), low (below 60%).
-- State what would change your confidence level.
+- State high (85%+), medium (60-85%), or low (below 60%).
+- Ground the level: what was verified directly vs taken on trust.
+- Name the residual gaps: what this evaluation could not check, and
+  why.
+- Say what would raise or lower the confidence: which discovery would
+  change the verdict.
+- Under a waived decorrelation rule, acknowledge what self-review
+  structurally cannot see.
+- End concrete: confidence is a claim about evidence coverage, not a
+  feeling.
 
 ## Version History
 
