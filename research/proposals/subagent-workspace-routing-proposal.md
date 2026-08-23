@@ -4,6 +4,7 @@ id: 20260718T144607Z
 tier: proposal
 author: ava
 version: 2.0
+status: superseded by research-runner-subagent
 tags: [proposal, architecture, multi-agent, subagent, cron, workspace, routing, skills, decorrelation]
 links:
   - governance/system-blueprint.md
