@@ -56,11 +56,11 @@ Each entry is a single block appended to the bottom of the file. No
 editing, no deletion. Most recent entries are at the bottom.
 
 ```
-## [ENT-001] | 2026-07-20 06:25 UTC | Ava | research | ref: investing/companies/coca-cola.md | see: 20260720T061304Z
+## [ENT-001] | 2026-07-20 06:25 UTC | Ava | research | ref: investing-hub:companies/coca-cola.md | see: 20260720T061304Z
 Completed DCF + EPV model for Coca-Cola. Intrinsic range $52-58.
 DCF assumptions: 8% WACC, 3% terminal growth. EPV: no-growth value
 $55. Margin of safety tight at current $63. Flagged pension liability
-footnote as risk factor. See `investing/companies/coca-cola.md` for
+footnote as risk factor. See `investing-hub:companies/coca-cola.md` for
 full model.
 ```
 

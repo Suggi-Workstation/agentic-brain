@@ -36,6 +36,26 @@ maintaing it.
 Neo is an independent solo main agent pursuing autonomous research through a 
 self-directed learning.
 
+## Cross-Repo Link Convention
+
+Every repo in this org is a namespace. The token before `:` is the GitHub
+repo name; everything after it is the path inside that repo.
+
+| Form | Meaning |
+|:--|:--|
+| `agentic-brain:governance/system-constitution.md` | File in the agentic-brain repo. |
+| `investing-hub:frameworks/dcf-intrinsic-value.md` | File in the investing-hub repo. |
+| `governance/system-blueprint.md` (bare path) | Same repo as the file containing the link. |
+| `https://...` | Literal URL. |
+
+Rules:
+
+- Cross-repo references MUST carry the `repo:` prefix -- bare relative
+  paths are ambiguous across repos and forbidden between them.
+- The prefix equals the repository name exactly as it appears in the org.
+  No aliases, no abbreviations.
+- Frontmatter `links:` follow the same convention.
+
 
 ## Repos
 

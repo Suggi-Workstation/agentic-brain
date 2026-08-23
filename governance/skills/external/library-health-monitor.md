@@ -117,8 +117,8 @@ qualitative assessment, not an automated computation:
 - Read domain anchors for adjacent domains (e.g., `anchor-economics.md`
   and `anchor-investing.md`).
 - Identify boundary topics: topics whose content spans both domains.
-  Example: "Capital Cycle Analysis" in investing/ may overlap with
-  "Business Cycles" in economics/.
+  Example: "Capital Cycle Analysis" in value-investing may overlap
+  with "Business Cycles" in macro-micro/.
 - For each boundary topic found, read both the topic and the adjacent
   domain's topics.
 - If overlap is significant (>50% shared concepts), flag for either:

@@ -5,8 +5,7 @@ tier: proposal
 author: Ava
 tags: [financial-data, data-infrastructure, sec-edgar, eodhd, mcp, openclaw, pipeline-data, bulk-screening]
 links:
-  - investing/pipeline/investment-pipeline-final.md
-  - investing/frameworks/sector-specific-metrics.md
+  - investing-hub:frameworks/sector-specific-metrics.md
   - reflections/2026-07-26_ava_decorrelation-convergence-pipeline.md
 ---
 
@@ -20,7 +19,7 @@ deep analysis (individual company deep dives). No single API or data
 source provides everything at the scale and depth required. The pipeline
 cannot function without solved data infrastructure.
 
-The 7 frameworks in `investing/frameworks/` catalog exactly what data is
+The 7 frameworks in `investing-hub:frameworks/` catalog exactly what data is
 needed: 10-year revenue history, EBIT, FCF, EV, ROIC, ROE, D/E, sector,
 market cap, owner earnings components, sector-specific metrics (FFO for
 REITs, combined ratio for insurers, Rule of 40 for SaaS), insider
@@ -155,18 +154,15 @@ req/day). Tools: `INCOME_STATEMENT`, `BALANCE_SHEET`, `CASH_FLOW`,
 
 ### Data Storage Architecture
 
-Quarterly CSV snapshots stored in the agentic-brain:
+Quarterly CSV snapshots stored in investing-hub:
 
 ```
-investing/
-  pipeline/
-  frameworks/
-  data/                    # NEW
-    us-q1-2026.csv         # US stocks, Q1 2026 data
-    us-q2-2026.csv         # US stocks, Q2 2026
-    eu-q1-2026.csv         # EU stocks
-    eu-q2-2026.csv
-    data-dictionary.md     # Column definitions and data sources
+data/
+  us-q1-2026.csv           # US stocks, Q1 2026 data
+  us-q2-2026.csv           # US stocks, Q2 2026
+  eu-q1-2026.csv           # EU stocks
+  eu-q2-2026.csv
+  data-dictionary.md       # Column definitions and data sources
 ```
 
 Each CSV file contains ALL screening fields for every company in that
@@ -217,8 +213,8 @@ composite_rank, broad_screen_pass, data_quality_flag
 3. Calculate all Stage 1-2 screening metrics
 4. Apply sector classification and populate sector-specific columns
 5. Run data quality validation (Stage 0.5 checks)
-6. Output: `investing/data/us-q2-2026.csv` (or current quarter)
-7. Commit to brain
+6. Output: `investing-hub:data/us-q2-2026.csv` (or current quarter)
+7. Commit to investing-hub
 
 Estimated effort: 8-12 hours for the Python script (XBRL tag mapping
 is the hardest part; there are ~15,000 US-GAAP tags, of which ~200 are
@@ -251,7 +247,7 @@ relevant for screening).
   directly with OpenClaw's MCP gateway. Agents can query financials,
   metrics, and SEC filings without leaving the tool ecosystem.
 - **Single source of truth.** The quarterly CSV files in
-  `investing/data/` are the ground truth for screening. Agents read from
+  `investing-hub:data/` are the ground truth for screening. Agents read from
   files, not APIs, for Stages 0-2. This is reproducible, auditable, and
   immune to API outages.
 - **Stale data is explicit.** Quarterly files are dated. A Q1 file used
@@ -309,9 +305,9 @@ relevant for screening).
    screening.
 
 3. **Data dictionary location:** Should `data-dictionary.md` live in
-   `investing/data/` (alongside the CSVs) or in `investing/frameworks/`
+   `investing-hub:data/` (alongside the CSVs) or in `investing-hub:frameworks/`
    (alongside the methodology documents)? Recommendation:
-   `investing/data/data-dictionary.md` -- closest to the data it
+   `investing-hub:data/data-dictionary.md` -- closest to the data it
    documents.
 
 4. **Quarter naming convention:** The proposal uses `us-q2-2026.csv`.
@@ -344,12 +340,12 @@ If approved, I will:
 
 1. Build Phase 1: Python script that downloads US company data from
    SEC EDGAR (via SECfinAPI or raw parsing), computes all Stage 0-2
-   screening metrics, and outputs `investing/data/us-2026-q3.csv` to
-   the brain.
+   screening metrics, and outputs `investing-hub:data/us-2026-q3.csv` to
+   investing-hub.
 
 2. Configure Financial Datasets MCP in OpenClaw for agent deep dives.
 
-3. Write `investing/data/data-dictionary.md` documenting every column,
+3. Write `investing-hub:data/data-dictionary.md` documenting every column,
    data source, and calculation method.
 
 4. Phase 2 (EU + EODHD) requires Suggi's subscription decision and
@@ -357,9 +353,7 @@ If approved, I will:
 
 ## Cross-Links
 
-- `investing/pipeline/investment-pipeline-final.md` -- the pipeline this
-  data infrastructure serves
-- `investing/frameworks/sector-specific-metrics.md` -- defines which
+- `investing-hub:frameworks/sector-specific-metrics.md` -- defines which
   fields are needed per sector
 - `reflections/2026-07-26_ava_decorrelation-convergence-pipeline.md` --
   the merged pipeline milestone that triggered this

@@ -286,10 +286,11 @@ file with frontmatter. The scope is "compounding knowledge":
 - `library/` -- all 23+ domain topic files
 - `research/` -- insights, proposals, evaluations, reports
 - `reflections/` -- agent session reflections
-- `investing/` -- companies, documents, ideas
 
 Excluded: `logbook/` (append-only logs, queried separately via tail),
 `scripts/` (executable code, not knowledge), `.github/` (CI config).
+Investing content moved to the investing-hub repo (see
+`governance/system-blueprint.md` for the org layout).
 
 Every indexed file gets its frontmatter extracted as metadata
 (domain, tags, status, author, links). Queries can filter by any
