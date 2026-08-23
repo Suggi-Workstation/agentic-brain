@@ -59,7 +59,7 @@ this checklist in the published file.
 - [ ] Evidence: at least one source cited by id, chain of evidence complete  (PASS / HALT)
 - [ ] Implications: concrete ("changes X" or "informs decision Y"), not platitudes  (PASS / HALT)
 - [ ] Counter-evidence: states what would prove the insight wrong; an insight that cannot be falsified is dogma  (PASS / HALT)
-- [ ] Body word counts: The Insight >= 150, Evidence >= 350, Implications >= 350, Counter-evidence >= 250  (PASS / HALT)
+- [ ] Body word counts: The Insight >= 250, Evidence >= 400, Implications >= 400, Counter-evidence >= 300  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: source artifacts + related insights + affected governance files  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
@@ -117,40 +117,81 @@ Example: `verification-is-the-bottleneck.md`
 
 ## Body Structure
 
-The sections must have the following minimal word counts. The Insight >= 150 words, 
-Evidence >= 350 words, Implications >= 350 words, Counter-evidence >= 250 words.
+The sections must have the following minimal word counts. The Insight >= 250 words, 
+Evidence >= 400 words, Implications >= 400 words, Counter-evidence >= 300 words.
 
 ### The Insight
-*What did we learn?*
+*What did we learn? What did we implement? What new feature or
+capability was gained? The bullets below are suggestions -- use what
+fits.*
 
-- Lead with the core realization as one memorable, quotable
-  sentence -- the headline.
-- Then elaborate: context, nuance, and the boundary of the claim,
-  up to the word floor.
+- Lead with the core realization as one memorable, quotable sentence --
+  the headline.
+- Then elaborate: context, nuance, and the boundary of the claim, up to
+  the word floor.
+- Say which kind this is: a lesson learned (knowledge), an
+  implementation completed (something now exists that did not before),
+  a new capability or feature gained, or a failure class now understood
+  and guarded.
+- State where it applies: which systems, agents, or situations it
+  covers.
+- Name what it replaces or corrects, if it contradicts an earlier
+  belief or insight.
+- Keep the headline stable under elaboration: if unpacking changes the
+  claim's meaning, sharpen the headline instead.
 
 ### Evidence
-*How do we know this is true?*
+*How do we know this is true? The bullets below are suggestions -- use
+what fits.*
 
-- What was observed that led to this insight.
-- Cite the specific IORs, evaluations, or reports that produced it.
-- If the insight was tested across multiple sessions or domains, note
-  the pattern.
+- Cite every originating artifact by id: reports, evaluations,
+  reflections, incidents.
+- Tell the evidence story in order: what was observed first, what
+  confirmed it, what almost disproved it.
+- Note how many independent situations the pattern held across -- one
+  incident is an anecdote, several are a pattern.
+- For implementations: link the thing built (files, repos, commits)
+  plus its proof of working -- tests, end-to-end runs, gates passed.
+- Distinguish direct evidence from inference: which conclusions were
+  measured, which were reasoned.
+- Include the strongest contrary observation encountered and why it did
+  not win.
+- If tested across sessions or domains, name them.
 
 ### Implications
-*What changes because we know this?*
+*What changes because we know or have this? The bullets below are
+suggestions -- use what fits.*
 
-- How does this alter our architecture, our processes, or our behavior?
-- What decisions does this insight inform?
-- What should new agents know about this on day one?
+- State concretely what changes: behavior, architecture, process, gate,
+  or decision -- never platitudes.
+- Name who must act differently: which agents, roles, or workflows --
+  and for a new feature, who uses it and when.
+- Point at the governance that encodes it: rules, skills, templates,
+  checklists -- existing now or proposed.
+- Give the day-one version: what a new agent should do differently after
+  reading only this insight.
+- Name related insights this one affects: which earlier insights it
+  extends, sharpens, or partially supersedes -- update their `status`
+  fields in the same commit where warranted.
+- Mark implications already implemented vs still pending.
+- Note where this informs a decision not yet made.
 
 ### Counter-evidence
-*What would prove this wrong?*
+*What would prove this wrong? The bullets below are suggestions -- use
+what fits.*
 
-- State the conditions under which this insight would be invalidated.
-- If those conditions have already been tested and the insight held,
-  note that.
-- This section makes the insight falsifiable and prevents it from
-  becoming dogma.
+- State the conditions under which the insight would be invalidated,
+  concretely enough to test.
+- Note whether those conditions have been tried already, and the
+  outcome.
+- Describe the cheapest experiment that could falsify the insight.
+- Name the edge cases where the insight might not hold even if
+  generally true.
+- An insight that cannot be falsified is dogma -- if no counter-evidence
+  is imaginable, the claim is stated too broadly; narrow it until it can
+  fail.
+- Record when counter-evidence later wins: supersede via status field
+  rather than silently editing the headline.
 
 ## Version History
 
