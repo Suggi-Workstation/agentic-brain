@@ -56,6 +56,11 @@ artifacts that can be distilled into one quotable sentence. It must
 be falsifiable (the counter-evidence section must state what would
 prove it wrong).
 
+As the chain-closer: sweep every proposal, report, and
+evaluation connected to this insight; artifacts still at an
+interim `status:` with an evident outcome are closed in the same
+commit (never invented decisions -- see `research/README.md`).
+
 Before writing, query prior work with the `query-brain-vps`
 skill: existing proposals, reports, evaluations, and insights on
 the topic. If this artifact supersedes, implements, or resolves an

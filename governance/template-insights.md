@@ -50,6 +50,7 @@ this checklist in the published file.
 - [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly; does not end in 000000Z (human-rounded = reject); never manually typed  (PASS / HALT)
 - [ ] tier: "insight"  (PASS / HALT)
 - [ ] status: `active` at birth; `superseded by <id>` with mutual link when replaced  (PASS / HALT)
+- [ ] Source chain swept; interim statuses closed in the same commit where outcomes are evident  (PASS / HALT)
 - [ ] source: links to every originating IOR, report, or evaluation by id  (PASS / HALT)
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
@@ -85,6 +86,12 @@ links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo reference
   `verification-is-the-bottleneck`.
 - `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. MUST generate with: `date -u +'%Y%m%dT%H%M%SZ'` at creation. Estimating or rounding = GATE FAILURE.
 - `tier` is always `insight`.
+- Chain closure: before writing, query the insight's `source:`
+  chain with `query-brain-vps`. Any proposal, report, or evaluation
+  still sitting at an interim status whose outcome is now evident
+  (approved, implemented, final) is moved in the SAME commit as the
+  insight. Never invent decisions: close a proposal only on
+  evidence that Suggi decided or the work landed.
 - `status` is `active` at birth. When a newer insight replaces this
   one, set `superseded by <id>`, link the replacement
   from here and this file from the replacement, and never delete

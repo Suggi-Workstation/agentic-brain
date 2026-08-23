@@ -58,6 +58,7 @@ this checklist in the published file.
 - [ ] Verdict: one of APPROVE / APPROVE WITH CHANGES / REJECT  (PASS / HALT)
 - [ ] Required changes listed concretely (if APPROVE WITH CHANGES)  (PASS / HALT)
 - [ ] Confidence: stated with reasoning, high 85%+ / medium 60-85% / low below 60%  (PASS / HALT)
+- [ ] Evaluated artifact's `status:` updated in the same commit (evaluated / final / revision loop)  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: source + related evaluations/governance files  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
@@ -136,6 +137,10 @@ One of:
 - **APPROVE WITH CHANGES:** Specific changes required before acceptance.
   List each required change with a concrete fix.
 - **REJECT:** Fundamental flaw. State the flaw explicitly.
+- In the SAME commit, set the evaluated artifact's `status:`:
+  `evaluated` after your verdict; `final` once APPROVE-class
+  changes are resolved into the text; on REJECT the source loops
+  back for revision.
 
 ### Confidence
 *How sure are you?*

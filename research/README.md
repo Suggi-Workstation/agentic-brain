@@ -47,6 +47,11 @@ the pipeline moves:
 Supersede references always cite the artifact `id:` (never the
 filename slug) -- ids are permanent, slugs are not.
 
+Only two events ever move a proposal's `status:`: Suggi's decision
+(to `approved` or `rejected`) and the approved work landing (to
+`implemented`). Reports, evaluations, and insights investigate or
+distill -- they never approve anything.
+
 Files written before this convention existed have no `status:` field;
 treat them as historical records and infer state from their content.
 
