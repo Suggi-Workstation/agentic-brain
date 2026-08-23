@@ -416,3 +416,13 @@ Workstreams:
 - Indexes built: forge 99, investing 180 chunks; query-forge-vps + query-investing-vps skills created and live-tested.
 - Contracts updated: AGENTS.md both agents; preflight + session-end verify all three indexes; read-proof prints three fields.
 Reflection: 2026-08-23_morpheus_one-to-many-migration-referential-integrity.md. Daily memory: 2026-08-23.md.
+
+## [ENT-072] | 2026-08-23 18:05 UTC | Morpheus | general | ref: reflections/2026-08-23_morpheus_gates-expose-what-prose-tolerates.md | see: 20260823T180541Z
+Session: research pipeline governance built, live-tested, and first runner birthed from it.
+Workstreams:
+- Research templates overhauled: status lifecycle fields, de-versioning, generalized multi-bullet sections, word floors (200/300/300/200/200 proposals; 250/300/300/300/300/250 reports; 150/250/250/200/200 evaluations; 250/400/400/300 insights).
+- research/README.md pipeline map + chain-closure rules: evaluator same-commit status duty, insight source-chain sweep, supersede-by-id convention.
+- write-x skills updated in all copies: README co-read step, query-brain-vps prior-work gate, agentic-brain clone named explicitly; library-writer logbook steps conformed.
+- Pipeline live-tested proposal -> report -> evaluation on a real question; artifacts later deleted at Suggi direction -- conclusions invalidated (demand invisible until capacity exists).
+- Research-runner birthed per domain-clone pattern (profile, bootstrap, config, keys, toolset mirror, FLEET.md entry; no crons, ticker deferred); investment-runner stale brain paths fixed to investing-hub.
+Reflection: 2026-08-23_morpheus_gates-expose-what-prose-tolerates.md. Daily memory: 2026-08-23.md.
