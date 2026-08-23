@@ -1,15 +1,15 @@
 ---
-name: query-brain-vps
-description: "Query the shared agentic-brain index on the fleet VPS -- no cloning, watcher-maintained freshness. Use for all brain searches by any fleet agent."
+name: query-investing-vps
+description: "Query the shared investing-hub index on the fleet VPS -- no cloning, watcher-maintained freshness. Use for all investing searches by any fleet agent."
 user-invocable: true
 disable-model-invocation: false
 ---
 
-# Query-Brain-VPS -- Search the Agentic-Brain (Shared VPS Index)
+# Query-Investing-VPS -- Search the Investing-Hub (Shared VPS Index)
 
 ## What This Skill Does
 
-Searches the agentic-brain knowledge base using the brain-index hybrid
+Searches the investing-hub knowledge base using the investing-index hybrid
 search tool (semantic vectors + BM25 keyword + RRF fusion) against the
 SHARED index on the fleet VPS. Returns ranked file paths with relevance
 scores and text snippets. The agent then reads the top results for
@@ -19,7 +19,7 @@ watcher keeps the live mirror and the index fresh automatically.
 ## When to Invoke
 
 - User asks a question that might be answered by brain content
-  (governance, research, reflections, library topics, insights)
+  (portfolios, watchlist, companies, frameworks, screening data)
 - Researching a topic before writing artifacts
 - Looking up prior agent work (reflections, proposals, evaluations)
 - Any query where `grep` alone is insufficient (conceptual questions
@@ -55,24 +55,24 @@ If content changed on GitHub recently, the matching reindex entry
 must exist in brain-index.log within ~2 minutes of the change:
 
 ```bash
-tail -3 /srv/brain/logs/brain-index.log
+tail -3 /srv/investing/logs/brain-index.log
 ```
 
 Final proof the door works end-to-end: run the watcher once manually
 (idempotent -- an idle run does nothing; exit 0 = healthy):
 
 ```bash
-/opt/brain-tools/repo-pull.sh /srv/brain/agentic-brain /srv/brain/logs /srv/brain/agentic-brain/brain-index brain && echo WATCHER_OK
+/opt/brain-tools/repo-pull.sh /srv/investing/investing-hub /srv/investing/logs /srv/investing/investing-hub/investing-index investing && echo WATCHER_OK
 ```
 
 ### 2. Verify index freshness
 
 ```bash
-cd /srv/brain/agentic-brain && /opt/brain-tools/venv/bin/python brain-index/query.py --check-freshness
+cd /srv/investing/investing-hub && /opt/brain-tools/venv/bin/python investing-index/query.py --check-freshness
 ```
 
 PASS: "OK -- N chunks, built <timestamp>". STALE means the watcher
-pulled but did not reindex -- investigate /srv/brain/logs/
+pulled but did not reindex -- investigate /srv/investing/logs/
 brain-index.log. NEVER rebuild manually: the watcher owns the index.
 A manual --force rebuild is reserved for corruption recovery, done
 as hermes, and only after diagnosis.
@@ -85,8 +85,8 @@ or keyword-only). Default: `query.py "<query>" --top-k 20`.
 VPS agents (running on the server, no SSH):
 
 ```bash
-cd /srv/brain/agentic-brain
-/opt/brain-tools/venv/bin/python brain-index/query.py "<query>" --top-k 20
+cd /srv/investing/investing-hub
+/opt/brain-tools/venv/bin/python investing-index/query.py "<query>" --top-k 20
 ```
 
 VPS-connected agents (remote machines, e.g. PC or laptop agents):
@@ -95,7 +95,7 @@ query inside the clone:
 
 ```bash
 ssh -i <agent-key> -p 22 root@100.99.142.120 \
-  "su - hermes -c \"cd /srv/brain/agentic-brain && /opt/brain-tools/venv/bin/python brain-index/query.py '<query>' --top-k 20\""
+  "su - hermes -c \"cd /srv/investing/investing-hub && /opt/brain-tools/venv/bin/python investing-index/query.py '<query>' --top-k 20\""
 ```
 
 Quoting rule:
@@ -132,7 +132,7 @@ governance/..., library/...).
 If the VPS or the shared index is unavailable:
 
 ```bash
-grep -r "<search terms>" /srv/brain/agentic-brain/ --include="*.md"
+grep -r "<search terms>" /srv/investing/investing-hub/ --include="*.md"
 ```
 
 Keyword-only search on the raw files of the live mirror. No semantic
@@ -142,24 +142,19 @@ public door both down), fall back to the external query-brain skill
 
 ## Pitfalls
 
-- **First query is slow (~2s).** The embedding model loads on first
-  query. Subsequent queries in the same process reuse the loaded model.
+- **First query ~1s (warm daemon).** `brain-embed.service`
+  (127.0.0.1:8099) keeps embeddinggemma-300m loaded; query.py uses it
+  and falls back to in-process load (~15s) if the daemon is down.
 - **NEVER run index.py --force on the VPS index without a specific
   corruption diagnosis.** The watcher owns the index.
 - **Bare `crontab` is EDIT mode.** `crontab` with no flag opens the
   editor and can wipe the crontab in non-interactive contexts. Read:
   `crontab -l` (own) or `crontab -u hermes -l` (root). Install:
-  `echo '<line>' | crontab -u hermes -`. (ENT-049: harness bug wiped
-  hermes crontab 2026-08-09; restored within 3 min.)
-- **VPS agents: query and commit directly (agents group), no su.**
-  The clone is `root:agents` and the `agents` group is the access
-  mechanism. Never `su - hermes` for queries or commits -- hermes
-  only runs the watcher and index. The index path resolves via the
-  `~/.brain-index` symlink (`/srv/brain/index`); if `query.py`
-  reports "NO INDEX" for your user, the symlink is missing -- create
-  it (`ln -s /srv/brain/index ~/.brain-index`), not a false alarm.
-  Remote agents SSH as root and `su - hermes` (root has no symlink) --
-  that path is unchanged.
+  `echo '<line>' | crontab -u hermes -`.
+- **Run brain commands as hermes, not root.** The index path resolves
+  via hermes's `~/.investing-index` symlink (`/srv/investing/index`); root has
+  no symlink and `query.py` reports "NO INDEX" (false alarm). The
+  clone is `hermes:agents`; commits and the watcher run as hermes.
 - **STALE freshness is a WATCHER problem, not a query problem.**
   Diagnose before querying.
 - **SSH quoting.** Remote command in double quotes, query in single
@@ -176,13 +171,12 @@ public door both down), fall back to the external query-brain skill
 
 ## Related
 
-- `brain-index` skill -- the tool this skill queries (build and
-  maintain the index; non-VPS agents only)
+- `query-brain-vps` -- the sibling skill for the agentic-brain index
 - AGENTS.md Retrieval section -- the gate that invokes this skill
-- `research/insights/vps-brainclone-plus-index.md` -- the
+- `agentic-brain:research/insights/vps-brainclone-plus-index.md` -- the
   live-mirror blueprint (authoritative system reference)
-- `research/insights/brain-search-system.md` -- full system
+- `agentic-brain:research/insights/brain-search-system.md` -- full system
   blueprint (query modes, eval gate, technology choices)
-- `governance/skills/external/query-brain.md` -- the
+- `agentic-brain:governance/skills/external/query-brain.md` -- the
   clone-based query skill for non-VPS agents and fallback
-- `brain-index/README.md` -- tool usage documentation
+- `investing-index/README.md` -- tool usage documentation
