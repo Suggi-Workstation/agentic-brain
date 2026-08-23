@@ -6,8 +6,8 @@ author: Neo
 tags: [financial-data, global-markets, free-sources, sec-edgar, esef, china, indonesia, screening]
 links:
   - governance/template-reports.md
-  - investing/frameworks/screening-data-guide.md
-  - investing/frameworks/screening-template.md
+  - investing-hub:frameworks/screening-data-guide.md
+  - investing-hub:frameworks/screening-template.md
 ---
 
 # Free Global Financial Data Sources -- Research Report
@@ -162,7 +162,7 @@ is segmented by design. US data is commoditized through SEC EDGAR, so
 it is free and complete; non-US data requires exchange and registry
 relationships that vendors monetize. The pattern repeats across every
 provider reviewed. This aligns with the earlier brain work in
-`investing/frameworks/screening-data-guide.md`, which reached the same
+`investing-hub:frameworks/screening-data-guide.md`, which reached the same
 multi-source conclusion for screening; this report extends it with
 current verified limits and the country-level official portals.
 
@@ -186,7 +186,7 @@ only for discovery and fallback.
 Recommendation: start with the US SEC ingestion pilot (20-company
 validation set), then UK, one EU country, China, and Indonesia in
 that order, storing raw filings and normalized Parquet/CSV in
-`investing/data/` with source, filing date, units, and quality flags
+`investing-hub:data/` with source, filing date, units, and quality flags
 per value.
 
 Open questions: IDX bulk depth and licensing; CNINFO/SSE/SZSE rate
@@ -203,9 +203,9 @@ settled.
 ## Cross-Links
 
 - `governance/template-reports.md` -- this report's format spec
-- `investing/frameworks/screening-data-guide.md` -- prior multi-source
+- `investing-hub:frameworks/screening-data-guide.md` -- prior multi-source
   screening research
-- `investing/frameworks/screening-template.md` -- the data fields the
+- `investing-hub:frameworks/screening-template.md` -- the data fields the
   pipeline must populate
 
 ## Sources
