@@ -58,7 +58,7 @@ this checklist in the published file.
 - [ ] Impact: positive contribution + risk assessment + cost estimate, at least one sentence each  (PASS / HALT)
 - [ ] Open Questions: all uncertainties written down, nothing implied  (PASS / HALT)
 - [ ] Approval Gate: explicit approval condition stated ("If approved, I will [specific action]")  (PASS / HALT)
-- [ ] Body word counts: Problem >= 150, Proposed Solution >= 250, Impact >= 250, Open Questions >= 150, Approval Gate >= 150  (PASS / HALT)
+- [ ] Body word counts: Problem >= 200, Proposed Solution >= 300, Impact >= 300, Open Questions >= 200, Approval Gate >= 200  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: at least 1 link to triggering IOR/evaluation/governance file  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
@@ -108,48 +108,78 @@ Files are named: `<short-slug>.md`
 
 ## Body Structure
 
-The sections must have the following minimal word counts. Problem >= 150 words, 
-Proposed Solution >= 250 words, Impact >= 250 words, Open Questions >= 150 words,
-Approval Gate >= 150 words.
+The sections must have the following minimal word counts. Problem >= 200 words, 
+Proposed Solution >= 300 words, Impact >= 300 words, Open Questions >= 200 words,
+Approval Gate >= 200 words.
 
 ### Problem
-*What is broken, missing, or could be improved?*
+*What is this about, and why does it matter now? The bullets below are
+suggestions -- use what fits.*
 
-- State the problem as one paragraph: what is broken or missing, and
-  why it matters now.
-- Provide evidence: what was observed, what failure occurred, what
-  constraint is being hit.
-- If this proposal is a response to an IOR or evaluation, cite it by id.
+- State the subject as one paragraph: what this proposal concerns, and
+  why it is worth raising now.
+- If it fixes something: what is broken, missing, or limited today.
+- If it adds something new: what capability, change, or idea is being
+  introduced, and where it came from.
+- Provide evidence for the motivation: what was observed, what failure
+  occurred, what constraint is hit, what opportunity was noticed.
+- Cite prior work that led here: related reports, evaluations,
+  discussions, or events, by id where they exist.
+- Name who or what is affected if nothing changes.
 
 ### Proposed Solution
-*What should we do about it?*
+*What exactly are you proposing? The bullets below are suggestions --
+use what fits.*
 
-- Describe the solution in concrete terms. What files change? What new
-  files are created? What processes are added or removed?
-- If the solution has multiple components, list them.
-- If there are alternatives considered and rejected, mention them briefly
-  with the rejection reason.
+- Describe the outcome in concrete terms: what exists afterwards that
+  does not exist today (or what stops existing).
+- Name the artifacts involved: files created or changed, agents or
+  services affected, processes added or removed.
+- If the solution has multiple components or phases, list them in order.
+- Say how it gets done: tools, skills, procedures, and the responsible
+  agent where relevant.
+- Briefly mention alternatives considered and rejected, with the
+  rejection reason.
+- Define "done": the observable end state that shows the solution
+  landed.
 
 ### Impact
-*What changes if this is approved?*
+*What changes if this is approved? The bullets below are suggestions --
+use what fits.*
 
 - Positive: what improves, what failure class is prevented, what new
   capability is enabled.
-- Risk: what could go wrong, what is the blast radius, what is the
-  rollback plan.
-- Cost: estimated effort (hours/days), token budget impact, maintenance
-  burden.
+- Risk: what could go wrong, the blast radius, whether it is reversible,
+  the rollback plan.
+- Cost: estimated effort (hours/days), token budget impact, ongoing
+  maintenance burden.
+- Side effects on existing systems: which workflows, documents, gates,
+  or agents are touched, and what references go stale as a consequence.
+- Second-order effects: what this enables or blocks later, and how it
+  interacts with known plans or pending work.
 
 ### Open Questions
-*What is still uncertain?*
+*What is still undecided? The bullets below are suggestions -- use what
+fits.*
 
-- List questions that need Suggi's judgment before approval.
-- If any part of the solution is speculative, label it clearly.
+- List questions that need the reviewer's judgment before approval.
+- Label speculation clearly: what is assumed rather than verified.
+- Name dependencies outside your control: other agents, approvals,
+  infrastructure, external services.
+- Surface known unknowns found while writing: what you could not check,
+  and why.
+- If there are genuinely none, say so explicitly and justify -- silence
+  reads as unexamined.
 
 ### Approval Gate
-*What does approval mean?*
+*What exactly does approval authorize? The bullets below are
+suggestions -- use what fits.*
 
 - Explicitly state: "If approved, I will [specific action]."
+- Scope the authorization: what approval covers, and what it does not.
+- List the immediate next steps in order, with who performs each.
+- State the follow-up recording: which statuses update, which documents
+  get written, when the result gets reported back.
 - Do not assume approval implies anything beyond what is written.
 
 ## Version History
