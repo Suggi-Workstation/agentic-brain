@@ -74,11 +74,11 @@ Confirm ALL items before committing.
 - [ ] Candidate selected FIFO: first `proposed` entry from top of queue in order, not score-sorted (PASS / HALT)
 - [ ] Candidate removed from candidate-queue.md (PASS / HALT)
 - [ ] Domain fidelity: written topic's domain matches the candidate's Domain field exactly (PASS / HALT)
-- [ ] Logbook entry written to logbook/library.log (PASS / HALT)
+- [ ] Logbook entry written to the agentic-brain clone's logbook/library.log (PASS / HALT)
 - [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
 - [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)
-- [ ] Errors logged to logbook/errors.log (if any) (PASS / HALT)
-- [ ] Committed on the VPS clone: only this cycle's paths staged. Never `git add -A` in the shared clone. (PASS / HALT)
+- [ ] Errors logged to the agentic-brain clone's logbook/errors.log (if any) (PASS / HALT)
+- [ ] Committed on the agentic-brain clone: only this cycle's paths staged. Never `git add -A` in the shared clone. (PASS / HALT)
 - [ ] Watcher push verified: AHEAD: 0 or fresh push line in /srv/brain/logs/brain-pull.log (PASS / HALT)
 
 ## Procedure
@@ -217,7 +217,8 @@ If any path fails, remove it from both `links:` frontmatter and
 
 ### 10. Write logbook entry
 
-Append to `logbook/library.log`. The logbook entry
+Append to the agentic-brain clone's `logbook/library.log`
+(`cd /srv/brain/agentic-brain` first). The logbook entry
 MUST follow this exact format. Each data field MUST be on its own line.
 Do NOT pack multiple fields onto a single line. The archiving system
 counts lines, not bytes -- single-line entries defeat line-based
@@ -245,7 +246,8 @@ entries are a format violation.
 
 If any step failed or produced unexpected results (score below threshold,
 duplicate topic detected, source authority too low, commit conflict),
-append to `logbook/errors.log`:
+append to the agentic-brain clone's
+`logbook/errors.log`:
 
 ```
 ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | error | ref: library/<domain>/<topic-slug>.md | see: <related-ent-id>
@@ -257,7 +259,7 @@ and normal pipeline outcomes (FLAG, REJECT, DUPLICATE) go to library.log.
 Errors.log is for unexpected failures: file write error, commit
 rejection, or any crash.
 
-### 11. Commit on the VPS clone -- NO push
+### 11. Commit on the agentic-brain clone -- NO push
 
 The watcher pushes within 1 min and reindexes. Verify after ~1 min:
 `AHEAD: 0`, or a fresh push line in /srv/brain/logs/brain-pull.log.
