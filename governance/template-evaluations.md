@@ -104,6 +104,10 @@ Example: `ava-review-link-verification-paper.md`
 
 ## Body Structure
 
+The sections must have the following minimal word counts. Source >= 100 worrds, 
+Evaluation Critera >= 200 words, Findings >= 200 words, Verdict >= 100 words,
+Confidence >= 100 words.
+
 ### Source
 *What is being evaluated?*
 
