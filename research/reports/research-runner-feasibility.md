@@ -2,7 +2,7 @@
 name: research-runner-feasibility
 id: 20260823T145406Z
 tier: report
-status: draft
+status: evaluated
 author: Morpheus
 tags: [subagent, fleet, research-pipeline, capacity, library]
 links:
@@ -54,8 +54,8 @@ invisible to this method.
 
 ### Finding 1: The Runner Pattern Works at Scale -- Claim CONFIRMED
 
-The library-runner produced 217 topic files across roughly twenty
-production days (July 19-30, August 5, August 16), with peak days
+The library-runner produced 217 topic files across roughly fourteen
+production days (July 19-30, August 5 and 16) (July 19-30, August 5, August 16), with peak days
 exceeding thirty commits. Evidence: git log of `library/`, file count
 217. This validates the discoverer-propose/writer-produce cycle shape
 that a research-runner would copy. Confidence: high (95%).
