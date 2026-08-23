@@ -107,7 +107,9 @@ Example: `inter-agent-cooperation-research-2026-06.md`
 
 ## Body Structure
 
-EACH Executive Summary, Research Question, Methodology, Findings,  Discussion and Conclusion must have at least 200 words.
+The sections must have the following minimal word counts. Executive Summary >= 150 words, 
+Research Question >= 150 words, Methodology >= 200 words, Findings >= 200 words,
+Discussion >= 200 words, Conclusion >= 150 words.
 
 ### Executive Summary
 *What is the answer in one paragraph?*
