@@ -32,6 +32,7 @@ links:
 | 2 | 2026-08-08 | Link | Watcher interval 5 min -> 1 min (idle cycle cost measured: 0.42 s, 17 MB). |
 | 3 | 2026-08-09 | Link | Watcher logs moved to /srv/brain/logs (fleet-visible, root:agents) + logrotate (size 1M, rotate 5, compressed). |
 | 4 | 2026-08-23 | Morpheus | Multi-repo generalization: index data moved to /srv/<domain>/index, watcher generalized to repo-pull.sh (one cron line per repo), forge + investing-hub onboarded. |
+| 5 | 2026-08-24 | Morpheus | Tools dir renamed to /opt/repo-tools; shim retired; watcher = repo-pull.sh with 4 args; security scans split out to /opt/security-tools. |
 
 This file is the finished-system reference for the fleet VPS live
 mirror: the persistent agentic-brain clone, the shared index, and the
@@ -79,7 +80,7 @@ The server was provisioned and the system built:
   read and write (openclaw joins the group on migration).
 - Clone at /srv/brain/agentic-brain; token moved to
   /home/hermes/.git-credentials (mode 600); remote URL clean.
-- Fleet-neutral tools at /opt/repo-tools: brain-pull.sh (the
+- Fleet-neutral tools at /opt/repo-tools: repo-pull.sh (the
   watcher) + venv/ (index python environment, root:agents, setgid).
 - Initial index build: 4931 chunks across 397 files -- identical to
   the PC index, proving the same embedder on the same source yields
@@ -135,10 +136,11 @@ inspection alone.
                                 bm25/, meta.json, heartbeat.json
                                 (root:agents, setgid 2775;
                                 ~/.brain-index is a symlink to it)
-/opt/repo-tools/               CODE: brain-pull.sh + venv/
+/opt/repo-tools/               CODE: repo-pull.sh + venv/
                                 (root:agents, setgid 2775)
 /home/hermes/crontab            SCHEDULE: * * * * *
-                                /opt/repo-tools/brain-pull.sh
+                                /opt/repo-tools/repo-pull.sh
+                                  <clone> <logs-dir> <tool-dir> <prefix>
 /srv/brain/logs/              OBSERVABILITY: brain-pull.log,
                                 brain-index.log
 ```
@@ -151,7 +153,7 @@ fleet-shared /srv/brain/index (the VPS is the shared index service),
 and (2) tooling moved from user homes to /opt/repo-tools so no
 single user's lifecycle owns the fleet infrastructure.
 
-### The watcher -- brain-pull.sh
+### The watcher -- repo-pull.sh
 
 Every minute the cron fires and the watcher:
 
@@ -295,8 +297,7 @@ grouped by domain under /srv:
   whatever repo contains it (the SCRIPT_DIR.parent rule).
 - The watcher logic lives once in `/opt/repo-tools/repo-pull.sh`;
   one hermes cron line per repo passes clone path, logs dir, tool
-  dir, and log prefix. `brain-pull.sh` remains as a compatibility
-  shim around it, so existing references stay valid.
+  dir, and log prefix.
 - Logs stay event-driven at `/srv/<domain>/logs/<prefix>-pull.log`
   and `<prefix>-index.log`; logrotate covers all of them.
 - One warm embed daemon (127.0.0.1:8099) serves all three indexes --
