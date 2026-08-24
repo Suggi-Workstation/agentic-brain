@@ -54,7 +54,7 @@ run-non-use is pure LRU thrashing against silent-failure rules;
 (v3, this proposal) asymmetric split: each half lives where its
 evidence naturally exists.
 
-Edit set A -- `profiles/morpheus/skills/github/preflight/SKILL.md`
+Edit set A -- `profiles/morpheus/skills/session-lifecycle/preflight/SKILL.md`
 (personal skill, no approval needed beyond this proposal):
 
 1. New step "10. Pitfall Promotion Check" before Emit Read-Proof:
@@ -218,9 +218,9 @@ happens until you say go.
   -- source reflection of the insight chain (id 20260810T112711Z)
 - `governance/template-proposals.md` -- format law for this artifact
 - Skills affected (outside git, referenced by profile path):
-  `/home/hermes/.hermes/profiles/morpheus/skills/github/preflight/SKILL.md`
+  `/home/hermes/.hermes/profiles/morpheus/skills/session-lifecycle/preflight/SKILL.md`
   and
-  `/home/hermes/.hermes/profiles/morpheus/skills/github/session-end/SKILL.md`
+  `/home/hermes/.hermes/profiles/morpheus/skills/session-lifecycle/session-end/SKILL.md`
   -- the two files this proposal's edits land in; their current
   two-tier layout is documented in the linked insight
 - No prior proposals superseded or extended: a brain-wide search for
