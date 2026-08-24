@@ -62,13 +62,13 @@ Final proof the door works end-to-end: run the watcher once manually
 (idempotent -- an idle run does nothing; exit 0 = healthy):
 
 ```bash
-/opt/brain-tools/repo-pull.sh /srv/brain/agentic-brain /srv/brain/logs /srv/brain/agentic-brain/brain-index brain && echo WATCHER_OK
+/opt/repo-tools/repo-pull.sh /srv/brain/agentic-brain /srv/brain/logs /srv/brain/agentic-brain/brain-index brain && echo WATCHER_OK
 ```
 
 ### 2. Verify index freshness
 
 ```bash
-cd /srv/brain/agentic-brain && /opt/brain-tools/venv/bin/python brain-index/query.py --check-freshness
+cd /srv/brain/agentic-brain && /opt/repo-tools/venv/bin/python brain-index/query.py --check-freshness
 ```
 
 PASS: "OK -- N chunks, built <timestamp>". STALE means the watcher
@@ -86,7 +86,7 @@ VPS agents (running on the server, no SSH):
 
 ```bash
 cd /srv/brain/agentic-brain
-/opt/brain-tools/venv/bin/python brain-index/query.py "<query>" --top-k 20
+/opt/repo-tools/venv/bin/python brain-index/query.py "<query>" --top-k 20
 ```
 
 VPS-connected agents (remote machines, e.g. PC or laptop agents):
@@ -95,7 +95,7 @@ query inside the clone:
 
 ```bash
 ssh -i <agent-key> -p 22 root@100.99.142.120 \
-  "su - hermes -c \"cd /srv/brain/agentic-brain && /opt/brain-tools/venv/bin/python brain-index/query.py '<query>' --top-k 20\""
+  "su - hermes -c \"cd /srv/brain/agentic-brain && /opt/repo-tools/venv/bin/python brain-index/query.py '<query>' --top-k 20\""
 ```
 
 Quoting rule:

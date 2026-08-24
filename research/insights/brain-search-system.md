@@ -126,7 +126,7 @@ brain-index/                  <-- tool CODE (in repo)
   requirements.txt            Python deps (sentence-transformers, pyyaml, numpy)
   README.md                   Setup and usage for every agent
 
-/opt/brain-tools/             <-- FLEET tools (NOT in repo)
+/opt/repo-tools/             <-- FLEET tools (NOT in repo)
   brain-embed.py              Warm embedding daemon (embeddinggemma-300m,
                               loaded once at boot; 127.0.0.1:8099)
   brain-embed.service         systemd unit (enabled, auto-restart)

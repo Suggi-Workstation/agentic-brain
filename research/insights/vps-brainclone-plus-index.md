@@ -79,7 +79,7 @@ The server was provisioned and the system built:
   read and write (openclaw joins the group on migration).
 - Clone at /srv/brain/agentic-brain; token moved to
   /home/hermes/.git-credentials (mode 600); remote URL clean.
-- Fleet-neutral tools at /opt/brain-tools: brain-pull.sh (the
+- Fleet-neutral tools at /opt/repo-tools: brain-pull.sh (the
   watcher) + venv/ (index python environment, root:agents, setgid).
 - Initial index build: 4931 chunks across 397 files -- identical to
   the PC index, proving the same embedder on the same source yields
@@ -135,10 +135,10 @@ inspection alone.
                                 bm25/, meta.json, heartbeat.json
                                 (root:agents, setgid 2775;
                                 ~/.brain-index is a symlink to it)
-/opt/brain-tools/               CODE: brain-pull.sh + venv/
+/opt/repo-tools/               CODE: brain-pull.sh + venv/
                                 (root:agents, setgid 2775)
 /home/hermes/crontab            SCHEDULE: * * * * *
-                                /opt/brain-tools/brain-pull.sh
+                                /opt/repo-tools/brain-pull.sh
 /srv/brain/logs/              OBSERVABILITY: brain-pull.log,
                                 brain-index.log
 ```
@@ -148,7 +148,7 @@ in /opt, schedule goes in cron. No category is nested inside another.
 This differs from brain-search-system.md in two deliberate ways:
 (1) the index DATA moved from per-machine ~/.brain-index to the
 fleet-shared /srv/brain/index (the VPS is the shared index service),
-and (2) tooling moved from user homes to /opt/brain-tools so no
+and (2) tooling moved from user homes to /opt/repo-tools so no
 single user's lifecycle owns the fleet infrastructure.
 
 ### The watcher -- brain-pull.sh
@@ -293,7 +293,7 @@ grouped by domain under /srv:
 - The search TOOL lives inside each repo (`<name>-index/` folders:
   `brain-index/`, `forge-index/`, `investing-index/`) and indexes
   whatever repo contains it (the SCRIPT_DIR.parent rule).
-- The watcher logic lives once in `/opt/brain-tools/repo-pull.sh`;
+- The watcher logic lives once in `/opt/repo-tools/repo-pull.sh`;
   one hermes cron line per repo passes clone path, logs dir, tool
   dir, and log prefix. `brain-pull.sh` remains as a compatibility
   shim around it, so existing references stay valid.
