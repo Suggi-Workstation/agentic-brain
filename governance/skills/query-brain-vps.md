@@ -142,24 +142,19 @@ public door both down), fall back to the external query-brain skill
 
 ## Pitfalls
 
-- **First query is slow (~2s).** The embedding model loads on first
-  query. Subsequent queries in the same process reuse the loaded model.
+- **First query ~1s (warm daemon).** `brain-embed.service`
+  (127.0.0.1:8099) keeps embeddinggemma-300m loaded; query.py uses it
+  and falls back to in-process load (~15s) if the daemon is down.
 - **NEVER run index.py --force on the VPS index without a specific
   corruption diagnosis.** The watcher owns the index.
 - **Bare `crontab` is EDIT mode.** `crontab` with no flag opens the
   editor and can wipe the crontab in non-interactive contexts. Read:
   `crontab -l` (own) or `crontab -u hermes -l` (root). Install:
-  `echo '<line>' | crontab -u hermes -`. (ENT-049: harness bug wiped
-  hermes crontab 2026-08-09; restored within 3 min.)
-- **VPS agents: query and commit directly (agents group), no su.**
-  The clone is `root:agents` and the `agents` group is the access
-  mechanism. Never `su - hermes` for queries or commits -- hermes
-  only runs the watcher and index. The index path resolves via the
-  `~/.brain-index` symlink (`/srv/brain/index`); if `query.py`
-  reports "NO INDEX" for your user, the symlink is missing -- create
-  it (`ln -s /srv/brain/index ~/.brain-index`), not a false alarm.
-  Remote agents SSH as root and `su - hermes` (root has no symlink) --
-  that path is unchanged.
+  `echo '<line>' | crontab -u hermes -`.
+- **Run brain commands as hermes, not root.** The index path resolves
+  via hermes's `~/.brain-index` symlink (`/srv/brain/index`); root has
+  no symlink and `query.py` reports "NO INDEX" (false alarm). The
+  clone is `hermes:agents`; commits and the watcher run as hermes.
 - **STALE freshness is a WATCHER problem, not a query problem.**
   Diagnose before querying.
 - **SSH quoting.** Remote command in double quotes, query in single
@@ -179,10 +174,10 @@ public door both down), fall back to the external query-brain skill
 - `brain-index` skill -- the tool this skill queries (build and
   maintain the index; non-VPS agents only)
 - AGENTS.md Retrieval section -- the gate that invokes this skill
-- `research/insights/vps-brainclone-plus-index.md` -- the
+- `agentic-brain:research/insights/vps-brainclone-plus-index.md` -- the
   live-mirror blueprint (authoritative system reference)
-- `research/insights/brain-search-system.md` -- full system
+- `agentic-brain:research/insights/brain-search-system.md` -- full system
   blueprint (query modes, eval gate, technology choices)
-- `governance/skills/external/query-brain.md` -- the
+- `agentic-brain:governance/skills/external/query-brain.md` -- the
   clone-based query skill for non-VPS agents and fallback
 - `brain-index/README.md` -- tool usage documentation
