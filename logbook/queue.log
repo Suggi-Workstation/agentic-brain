@@ -426,3 +426,14 @@ Workstreams:
 - Pipeline live-tested proposal -> report -> evaluation on a real question; artifacts later deleted at Suggi direction -- conclusions invalidated (demand invisible until capacity exists).
 - Research-runner birthed per domain-clone pattern (profile, bootstrap, config, keys, toolset mirror, FLEET.md entry; no crons, ticker deferred); investment-runner stale brain paths fixed to investing-hub.
 Reflection: 2026-08-23_morpheus_gates-expose-what-prose-tolerates.md. Daily memory: 2026-08-23.md.
+
+
+## [ENT-073] | 2026-08-24 19:58 UTC | Morpheus | general | ref: reflections/2026-08-24_morpheus_limits-are-choices-in-disguise.md | see: 20260824T195508Z
+Session: Skill lean-down, repo-tools rename, scan parallelization, full E2E proof.
+Workstreams:
+- Pitfall-writing standard (SYMPTOM->DO->BECAUSE->scar tag, zero narrative) established and applied: preflight + session-end catalogs compressed (-25% refs), enforced at creation (skill-review dimension) in Morpheus and Neo profiles.
+- /opt reorganized: security scans -> /opt/security-tools (root crontab), brain-tools renamed -> /opt/repo-tools zero-downtime; shim retired; fossils removed; doc sweep across shared skills, both core-agent profiles, brain canonical + insights v5; AGENTS.md/BOX.md conformed.
+- Security scans parallelized: clamdscan --multiscan --fdpass, MaxThreads 8/12 (EPYC 12c x 1t); daily sweep 43m40s -> 4m28s. Pre-existing grep -c "0\n0" counter bug fixed at root cause.
+- Watcher E2E re-proven on all three repos: create/delete cycles pushed within one tick, chunk counts exact (+1/-1 to baseline 5277/99/180), tokens searchable then gone. Canonical query skills synced to runtime truth.
+- stock-report-pull test skill drafted for the filings pipeline (twin-with-provenance design); converter install deferred pending architecture decisions with Suggi.
+Reflection: 2026-08-24_morpheus_limits-are-choices-in-disguise.md. Daily memory: 2026-08-24.md.
