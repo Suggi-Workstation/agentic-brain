@@ -85,8 +85,8 @@ Morpheus (workspace-morpheus/):
       meta.json                     build metadata (178B)
       manifest.json                 file hash manifest (419B)
       heartbeat.json                freshness marker (231B)
-  scripts/workspace-search-refresh.py   cron script (5-min, no_agent)
-  skills/brain-search/query-workspace-morpheus/SKILL.md
+  scripts/workspace-search-refresh.py            cron script (5-min, no_agent, profile-level: ~/.hermes/profiles/morpheus/scripts/)
+  skills/query-workspace-morpheus/SKILL.md
 
 Neo (workspace-neo/):
   knowledge/                       1 .md file (knowledge guide)
@@ -98,8 +98,8 @@ Neo (workspace-neo/):
       chunks.jsonl                 2 chunks (3.0KB)
       vectors.npy                   2 x 768-dim (3.2KB)
       meta.json, manifest.json, heartbeat.json
-  scripts/workspace-search-refresh.py
-  skills/brain-search/query-workspace-neo/SKILL.md
+  scripts/workspace-search-refresh.py            cron script (5-min, no_agent, profile-level: ~/.hermes/profiles/neo/scripts/)
+  skills/query-workspace-neo/SKILL.md
 ```
 
 ### 4. Shared infrastructure (zero new services)
