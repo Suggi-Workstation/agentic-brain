@@ -57,7 +57,7 @@ evidence naturally exists.
 Edit set A -- `profiles/morpheus/skills/github/preflight/SKILL.md`
 (personal skill, no approval needed beyond this proposal):
 
-1. New step "8. Pitfall Promotion Check" before Emit Read-Proof:
+1. New step "10. Pitfall Promotion Check" before Emit Read-Proof:
    if this run fetched `references/pitfalls.md` or hit a problem a
    referenced pitfall describes, move that entry verbatim into
    `## Pitfalls` (title byte-exact -- titles are cross-referenced
@@ -65,14 +65,20 @@ Edit set A -- `profiles/morpheus/skills/github/preflight/SKILL.md`
    the read-proof. Nothing fired = do nothing. Demotion explicitly
    forbidden here: single-run absence is not evidence.
 2. Matching Self-Check line (R14): "[ ] Pitfall placement reviewed:
-   anything eligible promoted in step 8; zero demotions performed
+   anything eligible promoted in step 10; zero demotions performed
    (PASS / HALT)".
 3. Reconcile the PROMOTION RULE pointer text in `## Pitfalls`
    (currently says fetched-3-runs; would conflict): gated-run
    evidence promotes immediately; 3 consecutive out-of-gate fetches
    promote or root-cause-fix.
-4. Renumber Emit Read-Proof to step 9 and sweep stale "step 8"
+4. Renumber Emit Read-Proof from 10 to 11 and sweep stale step-number
    cross-references (R9).
+5. Conformity note: preflight was renumbered 2026-08-24 to a clean
+   1-10 arc (0->1, 0.5->2, ..., logbook children now 8a/8b, Emit
+   Read-Proof currently 10); BOX.md's bootstrap reference was
+   conformed in workspace commit `e8f279f`. The numbers above already
+   reflect that state; the earlier draft of this proposal cited the
+   old numbering (insert as step 8, read-proof -> 9).
 
 Edit set B -- `.../session-end/SKILL.md`, one clause:
 
@@ -173,9 +179,9 @@ pair remains net-negative context cost even in the worst month.
 ## Approval Gate
 
 If approved, I will execute in this order: (1) apply edit set A to
-preflight -- new step 8 (Pitfall Promotion Check), matching
+preflight -- new step 10 (Pitfall Promotion Check), matching
 Self-Check line, PROMOTION RULE pointer reconciliation, and the
-step-9 renumber with a stale-reference sweep; (2) apply edit set B
+step-11 renumber with a stale-reference sweep; (2) apply edit set B
 to session-end -- the single R15 clause extension adding inline
 pitfalls to the staleness audit, scoped to the two owned skills,
 with the disk-evidence dormancy check (trailing ~4 weeks of
