@@ -356,3 +356,13 @@ is not enabled until a separate follow-up proposal after tuning.
 If not approved, no changes are made. The current security stack
 (ClamAV + fail2ban + rkhunter + chkrootkit) remains as documented in
 BOX.md sections 7-8.
+
+## Cross-Links
+
+- `governance/system-constitution.md` -- fleet governance; this proposal
+  strengthens the security posture the constitution assumes.
+- `research/insights/vps-brainclone-plus-index.md` -- the VPS layout
+  reference; OSSEC integrates into the existing `/opt` + `/srv` +
+  systemd + crontab pattern documented there.
+- `research/proposals/ossec-security-vps.md` -- this file (self-link for
+  the pipeline map).
