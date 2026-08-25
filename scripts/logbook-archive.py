@@ -99,10 +99,14 @@ def process_log(log_path):
     mode = "a" if os.path.exists(archive_path) else "w"
     with open(archive_path, mode, encoding="ascii") as f:
         if mode == "w":
-            # Extract first ENT number from the first kept boundary for the header
-            first_kept_line = lines[kept_boundaries[0][0]] if kept_boundaries else "ENT-???"
-            ent_match = first_kept_line.strip().split("[ENT-")[1].split("]")[0] if "[ENT-" in first_kept_line else "???"
-            f.write(f"<!-- {base}.log archive -- entries {archive_boundaries[0][0]}-{archive_boundaries[-1][1]} (line range)\n")
+            # Extract ENT IDs from first archived and first kept entries
+            first_archived_line = lines[archive_boundaries[0][0]]
+            last_archived_line = lines[archive_boundaries[-1][0]]
+            first_ent = first_archived_line.strip().split("[ENT-")[1].split("]")[0] if "[ENT-" in first_archived_line else "???"
+            last_ent = last_archived_line.strip().split("[ENT-")[1].split("]")[0] if "[ENT-" in last_archived_line else "???"
+            first_kept_line = lines[kept_boundaries[0][0]] if kept_boundaries else ""
+            ent_match = first_kept_line.strip().split("[ENT-")[1].split("]")[0] if kept_boundaries and "[ENT-" in first_kept_line else "???"
+            f.write(f"<!-- {base}.log archive -- ENT-{first_ent} to ENT-{last_ent}\n")
             f.write(f"     Moved from active log on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n")
             f.write(f"     Active log continues from ENT-{ent_match} onward.\n")
             f.write(f"     See logbook/protocol.md for full spec.\n")
