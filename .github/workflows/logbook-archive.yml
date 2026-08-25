@@ -9,7 +9,7 @@ name: logbook-archive
 # re-trigger this workflow (infinite loop guard).
 #
 # HOW TO INSTALL: put this file at
-# .github/workflows/logbook-archive.yml in the agentic-brain repo.
+# .github/workflows/logbook-archive.yml in the repo.
 
 on:
   push:
