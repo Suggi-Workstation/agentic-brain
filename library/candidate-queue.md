@@ -14,14 +14,6 @@
 
 
 
-## Candidate: Deepwater Horizon: Systemic Risk, Organizational Blind Spots, and the Anatomy of an Industrial Catastrophe
-- **Domain:** case-studies
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=9.0, timeliness=7.0, balance=8.3)
-- **Scope:** Analyzes the 2010 Deepwater Horizon disaster as a case study in how complex systems fail when multiple layers of defense are compromised simultaneously. Covers the cascade of organizational, regulatory, and engineering failures across BP, Transocean, and Halliburton that led to the largest marine oil spill in history. Extracts durable lessons about normalization of deviance, cost-cutting's hidden risks, and why catastrophic failures rarely have a single cause.
-- **Status:** proposed
-
 ## Candidate: Overconfidence: The Most Robust and Dangerous Cognitive Bias
 - **Domain:** psychology-behavior
 - **Proposed by:** Researcher-2
