@@ -27,7 +27,7 @@ a subset of domains and proposes 1-3 candidate topics per domain.
 Skip for:
 - Domains with no anchor file
 - Topics already in the candidate queue
-- Topics already covered by existing files (check filesystem)
+- Topics already covered by existing files (check per-domain index files)
 - Topics previously rejected by the auditor (check library.log)
 
 ## Path Convention -- Dual Platform
@@ -71,11 +71,11 @@ committing.
 - [ ] Each candidate scored across all four dimensions (PASS / HALT)
 - [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
 - [ ] Weighted score calculated correctly: (gap*0.40 + compounding*0.25 + timeliness*0.20 + balance*0.15) (PASS / HALT)
-- [ ] Gap assessment verified against existing topics (no false gaps) (PASS / HALT)
+- [ ] Gap assessment verified against existing topics via per-domain index files (no false gaps)  (PASS / HALT)
 - [ ] Domain balance score derived from topic count survey in step 2 (PASS / HALT)
 - [ ] Scope brevity: every candidate scope is 3-4 sentences, max 100 words. No multi-paragraph scopes. (PASS / HALT)
 - [ ] No candidate proposed for a domain without an anchor file (PASS / HALT)
-- [ ] Topic count survey completed before selecting domains (PASS / HALT)
+- [ ] Topic count survey completed before selecting domains (from index-library.md)  (PASS / HALT)
 - [ ] Underrepresented domains prioritized in domain selection (PASS / HALT)
 - [ ] Balance dimension score reflects actual topic counts, not assumed (PASS / HALT)
 - [ ] Candidate queue format matches the specification (PASS / HALT)
@@ -105,16 +105,9 @@ through the Path Convention commands above.
 
 ### 2. Survey domain coverage
 
-Count topics per domain to identify underrepresented domains:
-
-```bash
-cd /srv/brain/agentic-brain
-for domain in library/*/; do
-  name=$(basename "$domain")
-  count=$(ls "$domain"*.md 2>/dev/null | grep -v anchor | grep -v quarantine | wc -l)
-  echo "$name: $count"
-done
-```
+Read `library/index-library.md` -- the master index table lists every
+domain with its live topic count and anchor description. Use the topic
+counts to identify underrepresented domains.
 
 The domain balance dimension uses this survey. Domains with fewer
 topics receive higher balance scores, which increases their
@@ -139,12 +132,14 @@ For each selected domain, read
 
 ### 5. Scan existing topics in each domain
 
-```bash
-ls /srv/brain/agentic-brain/library/<domain>/*.md | grep -v anchor | grep -v quarantine
-```
+Read `library/<domain>/index-<domain>.md` for each selected domain.
+This file lists every existing topic with its title, filename, and a
+one-line teaser -- the full picture of what is already covered, in
+one read per domain.
 
-Build a mental map of what is already covered. Check the master index
-at `library/index-library.md` for cross-domain awareness.
+Build a mental map of what is already covered. Use the master index
+at `library/index-library.md` for cross-domain awareness (topic
+counts and descriptions across all 28 domains).
 
 ### 6. Identify knowledge gaps
 
