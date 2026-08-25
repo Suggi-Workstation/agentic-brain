@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Risk Parity and Factor-Based Portfolio Construction
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.2/10.0 (gap=8.0, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** Explores portfolio construction approaches that allocate by risk contribution rather than capital weight. Covers the risk parity framework pioneered by Bridgewater's All-Weather fund, factor-based investing (value, momentum, quality, size, low volatility), and the academic evidence behind factor premiums. Examines the practical challenges of factor timing, crowding risk, and whether factor returns survive after publication.
-- **Status:** proposed
-
 ## Candidate: Drawdown Analysis and Management: Surviving the Worst-Case Scenario
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Researcher-2
