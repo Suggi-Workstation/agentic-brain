@@ -13,13 +13,6 @@
 
 
 
-## Candidate: Music as Cultural Phenomenon: How Soundtracks Shape Generations
-- **Domain:** pop-culture
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.0/10.0 (gap=8.5, compounding=7.0, timeliness=7.0, balance=10.0)
-- **Scope:** Analyzes popular music not as entertainment but as a primary cultural document reflecting and shaping the values, anxieties, and aspirations of its time. Covers rock and roll's role in the 1960s counterculture, hip-hop's emergence as a voice of marginalized communities, and how streaming has transformed music from albums owned to playlists curated by algorithms. Examines music's unique capacity to encode collective memory and catalyze social movements.
-- **Status:** proposed
 
 ## Candidate: Reverse DCF and Sensitivity Analysis: Stress-Testing Your Assumptions
 - **Domain:** valuation-screening
