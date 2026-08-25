@@ -2,24 +2,24 @@
 
 7 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
 
-- [Capital Cycle Analysis -- Why High Returns Attract the Capital That Destroys Them](capital-cycle-analysis.md) -- reviewed: never
+- [Capital Cycle Analysis -- Why High Returns Attract the Capital That Destroys Them](capital-cycle-analysis.md) -- [reviewed: never]
   Capital cycle analysis is an industry-level investing framework developed by Marathon Asset Management and articulated by financial historian Edward Chancellor. Its central insight is deceptively simple: high profitability attracts a flood of capital investment, which creates overcapacity and destroys the very returns that attracted the capital in the first place.
 
-- [Cyclical vs Secular Trends -- Why Betting on Mean Reversion When the World Has Shifted Is the Costliest Mistake in Capital Allocation](cyclical-vs-secular-trends.md) -- reviewed: never
+- [Cyclical vs Secular Trends -- Why Betting on Mean Reversion When the World Has Shifted Is the Costliest Mistake in Capital Allocation](cyclical-vs-secular-trends.md) -- [reviewed: never]
   Distinguishing cyclical fluctuations from secular shifts is among the highest-stakes analytical challenges in industry analysis and capital allocation. A cyclical trend is a temporary swing driven by the business cycle that will reverse; a secular trend is a structural, often irreversible change in how an industry creates and captures value.
 
-- [Disruption Theory -- Why Excellent Management Systematically Destroys Market Leaders](disruption-theory.md) -- reviewed: never
+- [Disruption Theory -- Why Excellent Management Systematically Destroys Market Leaders](disruption-theory.md) -- [reviewed: never]
   Disruption theory explains one of the most counterintuitive patterns in business: the best-managed companies, with the best customers and the best financial discipline, are the most vulnerable to being destroyed by inferior products from upstart competitors. Clayton Christensen's research demonstrated that this is not a failure of management -- it is the rational outcome of the same managerial practices that make incumbent firms excel.
 
-- [Global Supply Chain Dynamics -- The Collapse of Just-in-Time and the Rise of Resilience as a Competitive Imperative](global-supply-chain-dynamics.md) -- reviewed: never
+- [Global Supply Chain Dynamics -- The Collapse of Just-in-Time and the Rise of Resilience as a Competitive Imperative](global-supply-chain-dynamics.md) -- [reviewed: never]
   Global supply chain strategy has undergone its most fundamental transformation since the containerization revolution of the 1960s. The lean, cost-optimized just-in-time (JIT) model that dominated global manufacturing for four decades -- pioneered by Toyota in the 1950s, perfected in the 1980s, and globalized in the 1990s and 2000s -- has been broken by a cascade of shocks: COVID-19, semiconductor shortages, the Russia-Ukraine war, US-China decoupling, and attacks on Red Sea shipping.
 
-- [Network Effects and Platform Economics -- Why Winner-Take-Most Markets Are Different](network-effects-platform-economics.md) -- reviewed: never
+- [Network Effects and Platform Economics -- Why Winner-Take-Most Markets Are Different](network-effects-platform-economics.md) -- [reviewed: never]
   Network effects are the single most powerful competitive force in the digital economy. When every additional user makes a product more valuable to every other user, markets stop behaving like traditional industries and start exhibiting winner-take-most dynamics that concentrate value in one or two dominant platforms.
 
-- [Porter's Five Forces -- Why Industry Structure, Not Management Skill, Determines Long-Run Profitability](porters-five-forces.md) -- reviewed: never
+- [Porter's Five Forces -- Why Industry Structure, Not Management Skill, Determines Long-Run Profitability](porters-five-forces.md) -- [reviewed: never]
   Porter's Five Forces is the foundational framework for understanding why some industries are persistently more profitable than others, regardless of who runs the companies within them. Introduced by Harvard Business School professor Michael E. Porter in 1979 and reaffirmed in his 2008 update, the framework demonstrates that the structure of an industry -- not luck, talent, or temporary conditions -- is the primary determinant of how economic value is created and distributed among participants.
 
-- [Value Chain Analysis -- Why Some Links in an Industry Capture Outsize Profits While Others Are Condemned to Commodity Returns](value-chain-analysis.md) -- reviewed: never
+- [Value Chain Analysis -- Why Some Links in an Industry Capture Outsize Profits While Others Are Condemned to Commodity Returns](value-chain-analysis.md) -- [reviewed: never]
   Value chain analysis is the strategic framework, introduced by Michael Porter in his 1985 book "Competitive Advantage," that disaggregates a firm into its strategically relevant activities to understand the sources of cost advantage and differentiation. More than an internal mapping exercise, the value chain reveals a deeper truth about industry economics: not all activities are equally capable of generating sustained profits.
 

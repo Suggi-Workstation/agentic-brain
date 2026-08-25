@@ -140,8 +140,8 @@ def generate_domain_index(domain, domain_path, topics):
     lines.append("")
 
     for topic_file, title, teaser, reviewed in topics:
-        review_tag = f" -- reviewed: {reviewed}" if reviewed else " -- reviewed: never"
-        lines.append(f"- [{title}]({topic_file}){review_tag}")
+        review_tag = f"[reviewed: {reviewed}]" if reviewed else "[reviewed: never]"
+        lines.append(f"- [{title}]({topic_file}) -- {review_tag}")
         if teaser:
             lines.append(f"  {teaser}")
         lines.append("")

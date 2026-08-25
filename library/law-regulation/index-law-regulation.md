@@ -2,21 +2,21 @@
 
 6 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
 
-- [Constitutional Law and Governance Structures -- Why Constitutional Design Choices Made Centuries Ago Shape Modern Political Outcomes](constitutional-law-governance-structures.md) -- reviewed: never
+- [Constitutional Law and Governance Structures -- Why Constitutional Design Choices Made Centuries Ago Shape Modern Political Outcomes](constitutional-law-governance-structures.md) -- [reviewed: never]
   Constitutional law is the architecture of state power: it defines how government authority is distributed, constrained, and legitimated through founding documents, judicial interpretation, and institutional norms. A nation's constitutional design -- whether it adopts a parliamentary or presidential system, a federal or unitary structure, a rigid or flexible amendment process -- determines not...
 
-- [Corporate Law and Governance -- The Legal Architecture That Separates Ownership From Control and Why It Determines Who Really Runs the Modern Firm](corporate-law-governance.md) -- reviewed: never
+- [Corporate Law and Governance -- The Legal Architecture That Separates Ownership From Control and Why It Determines Who Really Runs the Modern Firm](corporate-law-governance.md) -- [reviewed: never]
   Corporate law is the legal framework that creates the corporation as an artificial legal person -- an entity that can own property, enter contracts, sue and be sued, and exist perpetually beyond its founders. At the heart of this framework is a fundamental tension identified by Adolf Berle and Gardiner Means in 1932: the separation of ownership (shareholders) from control (managers) creates an agency problem where those who run the firm may not act in the interests of those who own it.
 
-- [Criminal Law and Justice Systems -- Why Most Cases Never See a Trial and What Punishment Actually Achieves](criminal-law-justice-systems.md) -- reviewed: never
+- [Criminal Law and Justice Systems -- Why Most Cases Never See a Trial and What Punishment Actually Achieves](criminal-law-justice-systems.md) -- [reviewed: never]
   Criminal law is the body of law that defines offenses against the state and prescribes the consequences. Beneath the familiar surface of trials and jury verdicts lies a system where over 90% of cases are resolved by plea bargain, where the theory of what punishment achieves is deeply contested, and where two fundamentally different procedural traditions -- adversarial and inquisitorial -- shape everything from how evidence is gathered to who controls the narrative in court.
 
-- [Intellectual Property -- The Legal Fiction That Turns Ideas Into Property and Shapes the Modern Economy](intellectual-property.md) -- reviewed: never
+- [Intellectual Property -- The Legal Fiction That Turns Ideas Into Property and Shapes the Modern Economy](intellectual-property.md) -- [reviewed: never]
   Intellectual property (IP) is the body of law that grants exclusive rights over intangible creations -- inventions, artistic works, brand identifiers, and trade secrets. By creating a temporary monopoly on ideas, IP law attempts to solve a fundamental economic problem: without protection, knowledge goods are non-rivalrous and non-excludable, meaning anyone can copy them at zero marginal cost, which would eliminate the incentive to create them in the first place.
 
-- [Regulatory Capture Theory -- Why the Regulated Inevitably Come to Control Their Regulators](regulatory-capture-theory.md) -- reviewed: never
+- [Regulatory Capture Theory -- Why the Regulated Inevitably Come to Control Their Regulators](regulatory-capture-theory.md) -- [reviewed: never]
   Regulatory capture theory holds that regulatory agencies, created to protect the public interest, inevitably come to serve the industries they were designed to oversee. First formalized by Nobel laureate George Stigler in his landmark 1971 paper "The Theory of Economic Regulation," the theory argues that regulation is not imposed on industry for the public good but is instead acquired by industry and operated primarily for its benefit.
 
-- [Securities Regulation -- The Disclosure Philosophy That Made Modern Capital Markets Possible](securities-regulation.md) -- reviewed: never
+- [Securities Regulation -- The Disclosure Philosophy That Made Modern Capital Markets Possible](securities-regulation.md) -- [reviewed: never]
   Securities regulation is the legal framework that governs how companies raise capital from the public and how securities are traded in secondary markets. Built on a disclosure philosophy rather than merit review, it does not guarantee a good investment -- it guarantees that investors receive truthful, complete information before they commit their money.
 
