@@ -15,13 +15,6 @@
 
 
 
-## Candidate: Incentives: How Reward Structures Shape Surprising Behavior
-- **Domain:** psychology-behavior
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=9.0, timeliness=8.0, balance=8.3)
-- **Scope:** Examines the iron law of incentives -- "show me the incentive and I will show you the outcome" -- as a foundational mental model for understanding behavior across domains. Covers the cobra effect and perverse incentives, intrinsic versus extrinsic motivation, principal-agent problems, and incentive design failures in business, policy, and organizations. Explores why well-intentioned incentive systems often produce the opposite of their intended effect and how to design better ones.
-- **Status:** proposed
 
 ## Candidate: Framing Effects: How the Same Information Produces Radically Different Decisions
 - **Domain:** psychology-behavior
