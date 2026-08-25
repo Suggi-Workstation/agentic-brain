@@ -17,13 +17,7 @@
 
 
 
-## Candidate: Exercise and Cognitive Performance: How Physical Training Upgrades the Brain
-- **Domain:** self-improvement
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.4/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=8.3)
-- **Scope:** Examines the neurobiological mechanisms by which physical exercise enhances cognitive function -- increased BDNF production, hippocampal neurogenesis, improved executive function, and stress resilience. Covers the dose-response relationship between exercise intensity and cognitive benefits, the differential effects of aerobic versus resistance training, and practical protocols for integrating physical training with knowledge work. Positions exercise as one of the highest-leverage self-improvement interventions with robust evidence across multiple cognitive domains.
-- **Status:** proposed
+
 
 ## Candidate: The Volkswagen Emissions Scandal: Governance Failure, Institutional Deception, and the Cost of Cutting Corners
 - **Domain:** case-studies
