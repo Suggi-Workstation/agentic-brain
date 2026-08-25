@@ -2,7 +2,7 @@
 
 6 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
 
-- [The Beneish M-Score -- Why Eight Financial Ratios Can Catch Earnings Manipulators Before the Market Does](beneish-m-score.md) -- reviewed: 2026-08-25
+- [The Beneish M-Score -- Why Eight Financial Ratios Can Catch Earnings Manipulators Before the Market Does](beneish-m-score.md) -- reviewed: never
   The Beneish M-Score is a probabilistic model that uses eight publicly available financial ratios to detect whether a company has manipulated its reported earnings. Developed by accounting professor Messod D. Beneish of Indiana University's Kelley School of Business and published in 1999, the model correctly identified 76% of earnings manipulators in out-of-sample tests and retrospectively flagged Enron years before its 2001 collapse.
 
 - [Cash Flow Shenanigans -- Why "Cash Is King" Does Not Mean Cash Flow Statements Are Immune to Manipulation](cash-flow-shenanigans.md) -- reviewed: never
