@@ -2,7 +2,7 @@
 name: ossec-security-vps
 id: 20260825T074507Z
 tier: proposal
-status: open
+status: implemented
 author: Morpheus
 tags: [security, siem, hids, ossec, intrusion-detection, file-integrity]
 links:
