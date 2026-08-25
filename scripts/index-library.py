@@ -141,9 +141,10 @@ def generate_domain_index(domain, domain_path, topics):
 
     for topic_file, title, teaser, reviewed in topics:
         review_tag = f"[reviewed: {reviewed}]" if reviewed else "[reviewed: never]"
-        lines.append(f"- [{title}]({topic_file}) -- {review_tag}")
         if teaser:
-            lines.append(f"  {teaser}")
+            lines.append(f"- [{title}]({topic_file}) -- {review_tag} -- {teaser}")
+        else:
+            lines.append(f"- [{title}]({topic_file}) -- {review_tag}")
         lines.append("")
 
     with open(index_file, "w", encoding="ascii") as f:
