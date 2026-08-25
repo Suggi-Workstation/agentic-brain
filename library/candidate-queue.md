@@ -14,14 +14,6 @@
 
 
 
-## Candidate: Cyclical vs Secular Trends: Distinguishing Temporary Swings from Permanent Shifts
-- **Domain:** industries-sectors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.6/10.0 (gap=8.5, compounding=9.0, timeliness=8.5, balance=8.3)
-- **Scope:** Examines the analytical challenge of distinguishing cyclical fluctuations from irreversible structural changes -- a distinction with profound implications for capital allocation and strategy. Covers frameworks for telling them apart, including historical precedent analysis, leading indicators, and scenario planning. Explores why investors and executives systematically confuse the two and the costs of betting on mean reversion when the world has permanently shifted.
-- **Status:** proposed
-
 ## Candidate: Deepwater Horizon: Systemic Risk, Organizational Blind Spots, and the Anatomy of an Industrial Catastrophe
 - **Domain:** case-studies
 - **Proposed by:** Researcher-2
