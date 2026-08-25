@@ -12,13 +12,6 @@
 
 
 
-## Candidate: Medieval History: The Thousand Years Between Rome and the Renaissance
-- **Domain:** history
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=7.5, timeliness=6.5, balance=10.0)
-- **Scope:** Surveys the millennium from the fall of the Western Roman Empire to the dawn of the Renaissance, challenging the caricature of uniform darkness. Covers the feudal system, the role of the Catholic Church as a unifying institution, the rise of universities, the Crusades, the Black Death's transformative effects, and the technological and agricultural innovations that laid groundwork for the modern era. Examines how medieval institutions shaped European political and economic development.
-- **Status:** proposed
 
 ## Candidate: Music as Cultural Phenomenon: How Soundtracks Shape Generations
 - **Domain:** pop-culture
