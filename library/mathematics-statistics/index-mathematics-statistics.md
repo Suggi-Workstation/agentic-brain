@@ -3,20 +3,20 @@
 6 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
 
 - [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md)
-  Bayesian statistics is a framework for inference in which probability represents a degree of belief rather than a limiting relative frequency. At its core is Bayes' theorem, which prescribes exactly...
+  Bayesian statistics is a framework for inference in which probability represents a degree of belief rather than a limiting relative frequency. At its core is Bayes' theorem, which prescribes exactly how prior knowledge should be combined with observed data to produce updated beliefs -- the posterior distribution.
 
 - [Causal Inference -- Why Most Statistical Tools Only Measure Association, Not Causation](causal-inference.md)
-  Causal inference is the subfield of statistics and methodology that asks the question standard statistics cannot answer: what would happen if we intervened in the world?
+  Causal inference is the subfield of statistics and methodology that asks the question standard statistics cannot answer: what would happen if we intervened in the world? Most statistical tools -- regression, correlation, machine learning -- measure association, not causation. They tell us that two things occur together, but not whether one causes the other.
 
 - [Information Theory -- How Claude Shannon Made Information a Measurable Quantity, Defined the Absolute Limits of Communication, and Built the Mathematical Foundation of the Digital Age](information-theory.md)
-  Information theory is the mathematical framework, created by Claude Shannon in 1948, for quantifying information, measuring uncertainty, and determining the fundamental limits of data compression and reliable communication.
+  Information theory is the mathematical framework, created by Claude Shannon in 1948, for quantifying information, measuring uncertainty, and determining the fundamental limits of data compression and reliable communication. Shannon's decisive move was to discard meaning entirely -- information became a property of probability distributions, and he proved that every communication channel has a fixed capacity below which error-free transmission is possible and above which it is impossible.
 
 - [Linear Algebra -- The Mathematics That Powers Modern Data Science and AI](linear-algebra.md)
-  Linear algebra is the branch of mathematics concerned with vectors, vector spaces, linear transformations, and systems of linear equations. It provides the computational language in which virtually...
+  Linear algebra is the branch of mathematics concerned with vectors, vector spaces, linear transformations, and systems of linear equations. It provides the computational language in which virtually all modern data science, machine learning, and artificial intelligence are expressed: every neural network layer is a matrix multiplication, every dataset is a matrix, and dimensionality reduction from PCA to word embeddings runs on eigenvalues and singular value decomposition.
 
 - [Probability Theory -- The Mathematical Language of Uncertainty](probability-theory-fundamentals.md)
-  Probability theory is the branch of mathematics that provides a rigorous framework for reasoning about uncertainty, randomness, and incomplete information.
+  Probability theory is the branch of mathematics that provides a rigorous framework for reasoning about uncertainty, randomness, and incomplete information. Built on Kolmogorov's three axioms (1933), it replaces intuitive notions of chance with a formal system of measure, sample spaces, and random variables that is as logically precise as arithmetic and as philosophically deep as any branch of epistemology.
 
 - [Statistical Inference -- Why Drawing Reliable Conclusions from Limited Data Is the Core Challenge of Science](statistical-inference.md)
-  Statistical inference is the mathematical framework for drawing conclusions about populations and processes from finite samples of data. It transforms the raw material of observation -- measurements,...
+  Statistical inference is the mathematical framework for drawing conclusions about populations and processes from finite samples of data. It transforms the raw material of observation -- measurements, counts, responses -- into statements about the world accompanied by quantified uncertainty. Without statistical inference, data is merely anecdote; with it, data becomes evidence.
 

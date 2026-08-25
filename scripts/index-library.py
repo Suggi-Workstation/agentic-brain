@@ -101,15 +101,15 @@ def extract_title_and_teaser(filepath):
 
     if para_lines:
         teaser = " ".join(para_lines)
-        # Truncate at first sentence boundary if reasonable, else ~200 chars
-        if len(teaser) > 200:
-            # Try to cut at a sentence boundary near 200 chars
-            for i in range(150, min(250, len(teaser))):
+        # Truncate at first sentence boundary if reasonable, else ~400 chars
+        if len(teaser) > 400:
+            # Try to cut at a sentence boundary near 400 chars
+            for i in range(300, min(500, len(teaser))):
                 if teaser[i] in ".!?":
                     teaser = teaser[:i + 1]
                     break
             else:
-                teaser = teaser[:200].rsplit(" ", 1)[0] + "..."
+                teaser = teaser[:400].rsplit(" ", 1)[0] + "..."
 
     return title, teaser
 
