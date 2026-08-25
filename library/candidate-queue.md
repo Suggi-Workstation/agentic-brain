@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Portfolio Rebalancing Strategies: Theory, Mechanics, and Behavioral Frictions
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.2/10.0 (gap=8.0, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** Examines why rebalancing matters, how frequently to do it, and why most investors fail to execute it consistently. Covers calendar-based vs threshold-based rebalancing, the tax and transaction cost trade-offs, and the behavioral reasons investors abandon their rebalancing discipline during market extremes. Connects to Modern Portfolio Theory, the Kelly criterion, and practical portfolio management for both institutional and individual investors.
-- **Status:** proposed
-
 ## Candidate: Risk Parity and Factor-Based Portfolio Construction
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Researcher-2
