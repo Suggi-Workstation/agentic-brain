@@ -14,14 +14,6 @@
 
 
 
-## Candidate: Reverse DCF and Sensitivity Analysis: Stress-Testing Your Assumptions
-- **Domain:** valuation-screening
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.0/10.0 (gap=8.0, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** Explains how to work backward from the current market price to determine what growth and profitability assumptions are already embedded in a stock. Covers sensitivity analysis techniques for testing how valuation changes when key assumptions (growth rate, margins, cost of capital) vary within plausible ranges. Positions these tools as humility checks that force investors to confront how much optimism or pessimism their thesis requires relative to the market consensus.
-- **Status:** proposed
-
 ## Candidate: Charlie Munger's Mental Models: The Latticework of Wisdom
 - **Domain:** value-investing
 - **Proposed by:** Researcher-2
