@@ -140,3 +140,75 @@
 - **Discovery score:** 8.0/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=8.3)
 - **Scope:** Examines financial restatements as a forensic window into prior accounting manipulation. Covers the most common restatement triggers (revenue recognition errors, expense misclassification, tax provision corrections), the statistical evidence on what restatements predict about management integrity and future stock performance, and the distinction between technical GAAP corrections versus restatements that reveal deliberate deception. Connects to the Beneish M-Score and other red flag models as predictive tools for identifying companies likely to restate.
 - **Status:** proposed
+
+## Candidate: Alan Turing: The Architect of the Information Age
+- **Domain:** notable-people
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 9.4/10.0 (gap=9.5, compounding=9.5, timeliness=8.5, balance=10.0)
+- **Scope:** Examines Alan Turing's life from his foundational work on computability and the Turing machine to his crucial role in breaking Enigma at Bletchley Park. Covers his contributions to early computing, artificial intelligence through the Turing Test, and mathematical biology. Explores how his tragic death shaped attitudes toward persecution, and why his theoretical framework remains the bedrock of computer science and AI today.
+- **Status:** proposed
+
+## Candidate: Regression Analysis: Modeling Relationships in Data
+- **Domain:** mathematics-statistics
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 9.2/10.0 (gap=9.5, compounding=9.0, timeliness=8.0, balance=10.0)
+- **Scope:** Explains regression analysis as the workhorse of statistical modeling -- how to quantify relationships between variables, estimate coefficients, and make predictions. Covers linear and logistic regression, model assumptions and diagnostics, multicollinearity, and the bias-variance tradeoff. Connects to causal inference, Bayesian methods, and machine learning, positioning regression as the foundational technique bridging classical statistics and modern data science.
+- **Status:** proposed
+
+## Candidate: Cost of Capital and WACC: The Price of Funding
+- **Domain:** finance
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 9.1/10.0 (gap=9.5, compounding=9.0, timeliness=7.5, balance=10.0)
+- **Scope:** Explains the cost of capital as the minimum return investors require for providing funds, and how WACC blends the cost of equity and debt into a single discount rate. Covers the capital asset pricing model for equity cost, after-tax debt cost, optimal capital structure, and common pitfalls in WACC estimation. Positions cost of capital as the bridge between corporate finance decisions and valuation, connecting to capital structure theory and financial statement analysis.
+- **Status:** proposed
+
+## Candidate: International Law and Treaties: The Framework of Global Order
+- **Domain:** law-regulation
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 9.1/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
+- **Scope:** Examines international law as the rules governing relations between states, covering treaties, customary law, sovereignty, and the role of institutions like the UN and ICJ. Explores enforcement challenges, the tension between state sovereignty and human rights, and how international trade law and dispute resolution shape global commerce. Connects to geopolitics, constitutional law, and the evolving framework of rules in an era of great-power competition.
+- **Status:** proposed
+
+## Candidate: Credit Analysis: Assessing Default Risk and Creditworthiness
+- **Domain:** finance
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 9.0/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** Explains credit analysis as the systematic assessment of a borrower's ability and willingness to repay debt. Covers the five C's of credit, financial ratio analysis for leverage and coverage, bond credit ratings, and the distinction between investment-grade and speculative-grade risk. Connects to bond pricing, financial statement analysis, and banking business models, positioning credit analysis as essential infrastructure for fixed-income markets.
+- **Status:** proposed
+
+## Candidate: Curriculum Design and Sequencing: The Architecture of Learning
+- **Domain:** education-learning
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 8.9/10.0 (gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0)
+- **Scope:** Explores how curriculum designers sequence content to build knowledge incrementally -- from spiral curricula to mastery learning to competency-based progressions. Covers the tension between breadth and depth, the role of prerequisites and cognitive load in sequencing decisions, and evidence from cognitive science on optimal learning progressions. Connects to cognitive load theory, assessment design, and pedagogy, bridging learning theory with practical educational architecture.
+- **Status:** proposed
+
+## Candidate: Contract Law: The Foundation of Commerce and Cooperation
+- **Domain:** law-regulation
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 8.9/10.0 (gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0)
+- **Scope:** Examines contract law as the legal foundation of all voluntary exchange -- how enforceable agreements are formed, interpreted, and remedied when breached. Covers offer and acceptance, consideration, the parol evidence rule, damages and specific performance, and the economic theory of efficient breach. Explores why contract law is the institutional infrastructure that makes markets possible, connecting to corporate law, securities regulation, and the broader architecture of commerce.
+- **Status:** proposed
+
+## Candidate: Experimental Design: The Architecture of Valid Inference
+- **Domain:** mathematics-statistics
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 8.9/10.0 (gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0)
+- **Scope:** Explains the principles of experimental design that make research findings valid and reproducible. Covers randomization, control groups, blinding, factorial designs, sample size determination, and threats to internal and external validity. Explores the replication crisis in science and how design choices like pre-registration address it. Connects to causal inference, statistical inference, and Bayesian methods, positioning experimental design as the architecture that separates evidence from anecdote.
+- **Status:** proposed
+
+## Candidate: Comparative Education Systems: How Different Nations Structure Learning
+- **Domain:** education-learning
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 8.9/10.0 (gap=9.5, compounding=8.0, timeliness=8.0, balance=10.0)
+- **Scope:** Examines how different nations structure their education systems and what outcomes those structures produce. Covers the models of Finland, Singapore, South Korea, Germany, and the US, analyzing differences in tracking, standardized testing, teacher preparation, and equity. Explores what comparative evidence reveals about the trade-offs between excellence and equality, and what lessons transfer across cultural and institutional contexts. Connects to pedagogy, assessment, and the economics of education.
+- **Status:** proposed

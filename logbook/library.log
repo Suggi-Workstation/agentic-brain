@@ -457,3 +457,21 @@ Wrote topic Medieval Europe -- A Dynamic Millennium of Transformation Between Ro
 Similarity overlap: ~20%.
 Sources: 13 (8 high, 5 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-214] | 2026-08-25 13:49 UTC | Library-Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 9 candidates proposed, 3 dropped (9 slots available for 12 scored candidates, queue now at 25/25 capacity).
+Candidates:
+- Alan Turing: The Architect of the Information Age (9.4): gap=9.5, compounding=9.5, timeliness=8.5, balance=10.0
+- Regression Analysis: Modeling Relationships in Data (9.2): gap=9.5, compounding=9.0, timeliness=8.0, balance=10.0
+- Cost of Capital and WACC: The Price of Funding (9.1): gap=9.5, compounding=9.0, timeliness=7.5, balance=10.0
+- International Law and Treaties: The Framework of Global Order (9.1): gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0
+- Credit Analysis: Assessing Default Risk and Creditworthiness (9.0): gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Curriculum Design and Sequencing: The Architecture of Learning (8.9): gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0
+- Contract Law: The Foundation of Commerce and Cooperation (8.9): gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0
+- Experimental Design: The Architecture of Valid Inference (8.9): gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0
+- Comparative Education Systems: How Different Nations Structure Learning (8.9): gap=9.5, compounding=8.0, timeliness=8.0, balance=10.0
+Dropped candidates (below cutoff):
+- Charles Darwin: The Reluctant Revolutionary (8.75): gap=9.0, compounding=9.0, timeliness=7.0, balance=10.0
+- Antifragile: Things That Gain from Disorder (8.75): gap=8.5, compounding=9.0, timeliness=8.0, balance=10.0
+- The Origin of Species: Darwin and the Book That Changed Biology (8.75): gap=9.0, compounding=9.0, timeliness=7.0, balance=10.0
+Domain balance: books, education-learning, finance, law-regulation, mathematics-statistics, notable-people (all at 6 topics, least-covered) to science, earth-climate, ethics-philosophy, geopolitics, history, investors, portfolio-risk-management, probabilistic-thinking-forecasting, technology (8 topics each).
