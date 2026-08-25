@@ -2,21 +2,21 @@
 
 6 topics. Anchor: [anchor-communication.md](anchor-communication.md)
 
-- [Interpersonal Communication and Negotiation -- Why Most Conversations Fail and What the Best Communicators Do Differently](interpersonal-communication-and-negotiation.md)
+- [Interpersonal Communication and Negotiation -- Why Most Conversations Fail and What the Best Communicators Do Differently](interpersonal-communication-and-negotiation.md) -- reviewed: never
   Interpersonal communication and negotiation are the twin pillars of effective human interaction: communication is how we convey meaning, and negotiation is how we resolve competing interests. The evidence from decades of research across psychology, conflict resolution, and organizational behavior converges on a single insight: most conversational breakdowns are not failures of intelligence or good intentions but failures of technique.
 
-- [Logical Fallacies -- A Taxonomy of Broken Arguments and Why They Persuade](logical-fallacies.md)
+- [Logical Fallacies -- A Taxonomy of Broken Arguments and Why They Persuade](logical-fallacies.md) -- reviewed: never
   Logical fallacies are patterns of reasoning that appear valid but contain structural flaws that render their conclusions unsupported by their premises. They are not merely mistakes in thinking -- they are systematic, classifiable errors that have been catalogued from Aristotle through modern argumentation theory, and they persist not because people are unintelligent but because the human mind is cognitively wired to find them persuasive.
 
-- [Narrative Structure -- Why Stories Are the Most Powerful Form of Human Communication](narrative-structure-and-storytelling.md)
+- [Narrative Structure -- Why Stories Are the Most Powerful Form of Human Communication](narrative-structure-and-storytelling.md) -- reviewed: never
   Narrative is not one communication tool among many; it is the fundamental architecture through which humans understand, remember, and are persuaded by information. From Joseph Campbell's monomyth to the East Asian kishotenketsu, every culture has developed distinct narrative structures that encode meaning into a beginning, middle, and end.
 
-- [Propaganda and Misinformation -- How Information Is Weaponized to Shape Belief and Behavior](propaganda-and-misinformation.md)
+- [Propaganda and Misinformation -- How Information Is Weaponized to Shape Belief and Behavior](propaganda-and-misinformation.md) -- reviewed: never
   Propaganda and misinformation are not accidents of the information age -- they are systematic techniques for shaping belief by distorting, suppressing, or fabricating information. Propaganda is the deliberate, orchestrated attempt to influence public opinion through mass communication, a practice industrialized in the twentieth century and digitally supercharged in the twenty-first.
 
-- [Rhetoric -- The 2,500-Year-Old Art of Persuasion That Shapes Every Argument, Speech, and Advertisement You Encounter](rhetoric.md)
+- [Rhetoric -- The 2,500-Year-Old Art of Persuasion That Shapes Every Argument, Speech, and Advertisement You Encounter](rhetoric.md) -- reviewed: never
   Rhetoric is the systematic study and practice of persuasion: how speakers and writers use language, structure, and appeals to influence beliefs, attitudes, and actions. Originating in ancient Greece as a discipline for training citizens to participate in democratic debate, rhetoric has evolved into a universal framework for understanding every act of communication designed to persuade, from Aristotle's courtroom speeches to modern political campaigns, advertising, and everyday argument.
 
-- [The Medium Is the Message -- Why Communication Technologies Shape Thought More Than Any Content They Carry](the-medium-is-the-message.md)
+- [The Medium Is the Message -- Why Communication Technologies Shape Thought More Than Any Content They Carry](the-medium-is-the-message.md) -- reviewed: never
   Marshall McLuhan's most famous and misunderstood insight -- "the medium is the message" -- asserts that the form of a communication medium shapes human cognition, social organization, and culture more profoundly than any individual message transmitted through it. Published in his 1964 book Understanding Media: The Extensions of Man, McLuhan's theory reframed communication not as a neutral conduit...
 

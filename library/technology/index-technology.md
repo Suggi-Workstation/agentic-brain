@@ -2,27 +2,27 @@
 
 8 topics. Anchor: [anchor-technology.md](anchor-technology.md)
 
-- [Blockchain and Distributed Ledgers -- How Trustless Consensus Creates Genuine Innovation Beyond Cryptocurrency Speculation](blockchain-distributed-ledgers.md)
+- [Blockchain and Distributed Ledgers -- How Trustless Consensus Creates Genuine Innovation Beyond Cryptocurrency Speculation](blockchain-distributed-ledgers.md) -- reviewed: never
   Blockchain technology is a distributed data structure that enables mutually distrusting parties to reach consensus on a shared, immutable ledger without relying on a central authority. Originally conceived as the backbone of Bitcoin, the technology has evolved into a general-purpose platform for decentralized applications, smart contracts, and verifiable computation.
 
-- [Cloud Computing -- How Renting Compute Transformed the Software Industry and Lowered the Barrier to Global Scale](cloud-computing.md)
+- [Cloud Computing -- How Renting Compute Transformed the Software Industry and Lowered the Barrier to Global Scale](cloud-computing.md) -- reviewed: never
   Cloud computing is the delivery of computing resources -- servers, storage, databases, networking, and software -- over the internet on a pay-as-you-go basis, replacing the capital-intensive model of owning and operating physical data centers. By turning computing into a utility, cloud computing reduced the upfront cost of launching a software company from millions of dollars to a credit card and an idea, fundamentally restructuring the economics of the entire software industry.
 
-- [Cybersecurity Is an Economic Problem Masquerading as a Technical One -- Why Defense in Depth and Zero Trust Are Not Optional](cybersecurity-principles-threats-and-defense-in-depth.md)
+- [Cybersecurity Is an Economic Problem Masquerading as a Technical One -- Why Defense in Depth and Zero Trust Are Not Optional](cybersecurity-principles-threats-and-defense-in-depth.md) -- reviewed: never
   Cybersecurity is the practice of protecting information systems from unauthorized access, disruption, and destruction through a combination of technical controls, architectural principles, and organizational processes. The global cost of cybercrime is projected to reach approximately $10.5 trillion annually in 2025, making it an economic force larger than the GDP of every country except the United States and China.
 
-- [The Internet -- Why TCP/IP, Decentralized Routing, and Layered Protocols Built the Most Scalable Communication System in History](internet-tcpip-protocols-routing.md)
+- [The Internet -- Why TCP/IP, Decentralized Routing, and Layered Protocols Built the Most Scalable Communication System in History](internet-tcpip-protocols-routing.md) -- reviewed: never
   The internet is not a single technology but a layered stack of protocols and physical infrastructure that together enable any device anywhere to communicate with any other device. Built on the TCP/IP protocol suite, a decentralized routing architecture, and a small set of enduring design principles -- including the end-to-end principle and packet switching -- the internet scaled from a four-node...
 
-- [Large Language Models -- How Next-Token Prediction Trained at Unprecedented Scale Produces General-Purpose Reasoning](large-language-models.md)
+- [Large Language Models -- How Next-Token Prediction Trained at Unprecedented Scale Produces General-Purpose Reasoning](large-language-models.md) -- reviewed: never
   Large language models (LLMs) are neural networks built on the transformer architecture that are trained on vast corpora of text to predict the next token in a sequence. When scaled to hundreds of billions of parameters and trained on trillions of tokens, this apparently simple objective produces models capable of translation, summarization, code generation, mathematical reasoning, and creative...
 
-- [Quantum Computing -- What It Promises and Why It Is So Hard](quantum-computing.md)
+- [Quantum Computing -- What It Promises and Why It Is So Hard](quantum-computing.md) -- reviewed: never
   Quantum computing harnesses the counterintuitive rules of quantum mechanics -- superposition and entanglement -- to perform calculations that are exponentially faster than what any classical computer can achieve for specific problem classes. Unlike classical bits that are either 0 or 1, quantum bits (qubits) can exist in a blend of both states simultaneously, enabling a single quantum processor to explore vast solution spaces in parallel.
 
-- [Semiconductors -- The Most Complex Manufacturing Achievement in Human History Underpins Everything Digital](semiconductors.md)
+- [Semiconductors -- The Most Complex Manufacturing Achievement in Human History Underpins Everything Digital](semiconductors.md) -- reviewed: never
   Semiconductors are materials with electrical conductivity between that of a conductor and an insulator, and they are the physical foundation of every digital device on Earth. By precisely controlling the flow of electricity through silicon doped with impurities, engineers build transistors -- tiny switches that form logic gates, the building blocks of all computation.
 
-- [Software Architecture -- How Early Design Decisions Compound Into Durable Platforms or Technical Debt](software-architecture-patterns-principles.md)
+- [Software Architecture -- How Early Design Decisions Compound Into Durable Platforms or Technical Debt](software-architecture-patterns-principles.md) -- reviewed: never
   Software architecture is the set of high-level structural decisions that determine how a software system is organized, how its components interact, and how it will evolve over time. These decisions -- made early in a project's life -- compound in the same way financial investments do: good architecture produces platforms that absorb change with decreasing marginal cost, while poor architecture produces technical debt that makes every subsequent change more expensive.
 

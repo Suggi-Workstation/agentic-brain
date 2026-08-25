@@ -57,17 +57,32 @@ def extract_anchor_description(domain, domain_path):
 
 
 def extract_title_and_teaser(filepath):
-    """Extract the H1 title and first sentence of body from a topic file."""
+    """Extract the H1 title, first sentence of body, and reviewed date
+    from a topic file."""
     try:
         with open(filepath, "r", encoding="ascii", errors="replace") as f:
             # Read first 2000 bytes -- title + teaser always in the first paragraph
             text = f.read(2000)
     except Exception:
-        return "", ""
+        return "", "", ""
 
     lines = text.split("\n")
 
-    # Skip frontmatter if present
+    # Extract reviewed: date from frontmatter if present
+    reviewed = ""
+    if lines and lines[0].strip() == "---":
+        fm_end = None
+        for i in range(1, len(lines)):
+            if lines[i].strip() == "---":
+                fm_end = i
+                break
+        if fm_end is not None:
+            for fm_line in lines[1:fm_end]:
+                if fm_line.strip().startswith("reviewed:"):
+                    reviewed = fm_line.strip().split("reviewed:", 1)[1].strip()
+                    break
+
+    # Skip frontmatter for title/teaser extraction
     if lines and lines[0].strip() == "---":
         fm_end = None
         for i in range(1, len(lines)):
@@ -111,7 +126,7 @@ def extract_title_and_teaser(filepath):
             else:
                 teaser = teaser[:400].rsplit(" ", 1)[0] + "..."
 
-    return title, teaser
+    return title, teaser, reviewed
 
 
 def generate_domain_index(domain, domain_path, topics):
@@ -124,8 +139,9 @@ def generate_domain_index(domain, domain_path, topics):
                  f" Anchor: [anchor-{domain}.md](anchor-{domain}.md)")
     lines.append("")
 
-    for topic_file, title, teaser in topics:
-        lines.append(f"- [{title}]({topic_file})")
+    for topic_file, title, teaser, reviewed in topics:
+        review_tag = f" -- reviewed: {reviewed}" if reviewed else " -- reviewed: never"
+        lines.append(f"- [{title}]({topic_file}){review_tag}")
         if teaser:
             lines.append(f"  {teaser}")
         lines.append("")
@@ -160,10 +176,10 @@ def main():
         topics = []
         for tf in topic_files:
             full_path = os.path.join(domain_path, tf)
-            title, teaser = extract_title_and_teaser(full_path)
+            title, teaser, reviewed = extract_title_and_teaser(full_path)
             if not title:
                 title = tf.replace(".md", "").replace("-", " ").title()
-            topics.append((tf, title, teaser))
+            topics.append((tf, title, teaser, reviewed))
 
         desc = extract_anchor_description(domain, domain_path)
         domain_data.append((domain, len(topics), desc, topics))

@@ -2,24 +2,24 @@
 
 7 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
 
-- [Criminal Justice in Pop Culture -- How Television and Film Shape What We Think About Law, Crime, and Punishment](criminal-justice-pop-culture.md)
+- [Criminal Justice in Pop Culture -- How Television and Film Shape What We Think About Law, Crime, and Punishment](criminal-justice-pop-culture.md) -- reviewed: never
   Popular culture is not a mirror of the justice system -- it is a funhouse mirror that distorts, dramatizes, and selectively amplifies. The portrayal of criminal law in film and television shapes public expectations of how justice works more powerfully than any civics textbook, creating a gap between the courtroom people expect and the courtroom that actually exists.
 
-- [The Hero's Journey -- How One Narrative Structure Came to Underpin Nearly All Modern Storytelling](heros-journey-monomyth.md)
+- [The Hero's Journey -- How One Narrative Structure Came to Underpin Nearly All Modern Storytelling](heros-journey-monomyth.md) -- reviewed: never
   The Hero's Journey, or monomyth, is the most influential narrative template in modern popular culture. First articulated by mythologist Joseph Campbell in "The Hero with a Thousand Faces" (1949), it proposes that myths, legends, and stories from every human culture share a universal underlying structure: a hero departs from the ordinary world, undergoes trials and transformation in a supernatural realm, and returns bearing a gift for the community.
 
-- [Internet Culture and Memetics -- How Ideas Spread, Mutate, and Compete in the Digital Ecosystem](internet-culture-memetics.md)
+- [Internet Culture and Memetics -- How Ideas Spread, Mutate, and Compete in the Digital Ecosystem](internet-culture-memetics.md) -- reviewed: never
   Internet culture is not merely a collection of jokes and viral videos but a novel evolutionary environment in which ideas -- memes -- replicate, mutate, and compete for attention at speeds and scales unimaginable before the digital age. Rooted in Richard Dawkins's 1976 concept of the meme as a unit of cultural transmission, internet memetics reveals that the same Darwinian dynamics governing biological evolution also shape what we share, believe, and amplify online.
 
-- [Music as Cultural Phenomenon -- How Soundtracks Encode the Values, Anxieties, and Aspirations of Generations](music-as-cultural-phenomenon.md)
+- [Music as Cultural Phenomenon -- How Soundtracks Encode the Values, Anxieties, and Aspirations of Generations](music-as-cultural-phenomenon.md) -- reviewed: never
   Music is not merely entertainment. It functions as a primary cultural document that records and shapes the values, anxieties, and aspirations of the society that produces and consumes it. From rock and roll's role in dismantling racial barriers during the 1960s civil rights era, to hip-hop's emergence as a voice for marginalized communities in the Bronx, to streaming platforms' algorithmic...
 
-- [Prestige Television -- How The Sopranos, The Wire, and Breaking Bad Elevated TV to the Signature Art Form of the 21st Century](prestige-television.md)
+- [Prestige Television -- How The Sopranos, The Wire, and Breaking Bad Elevated TV to the Signature Art Form of the 21st Century](prestige-television.md) -- reviewed: never
   The "Golden Age of Television" that began with HBO's The Sopranos in 1999 and crested through The Wire, Mad Men, Breaking Bad, and Deadwood was not merely a string of excellent shows -- it was a fundamental renegotiation of what television could be. For the first time, serialized television achieved the narrative depth, moral complexity, and cultural weight previously reserved for the novel and cinema.
 
-- [Propaganda -- How Information Is Weaponized to Shape Perception and Manufacture Consent](propaganda-manufacturing-consent.md)
+- [Propaganda -- How Information Is Weaponized to Shape Perception and Manufacture Consent](propaganda-manufacturing-consent.md) -- reviewed: never
   Propaganda is the systematic effort to manipulate beliefs, attitudes, and behavior through the selective use of information -- facts, half-truths, arguments, and outright lies -- disseminated via mass media. Far from being a relic of totalitarian regimes, propaganda is a permanent feature of all societies with concentrated power and mass communication channels.
 
-- [Video Games -- How Interactive Agency Turned Play into the 21st Century's Dominant Cultural Art Form](video-games-cultural-artifacts.md)
+- [Video Games -- How Interactive Agency Turned Play into the 21st Century's Dominant Cultural Art Form](video-games-cultural-artifacts.md) -- reviewed: never
   Video games have grown from arcade curiosities into the largest and most culturally influential entertainment medium of the 21st century, reaching billions of players across every demographic and, by some estimates, surpassing film and music combined in revenue. What distinguishes games from every earlier medium is agency -- the player's power to act within and shape the experience -- which...
 

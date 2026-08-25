@@ -2,21 +2,21 @@
 
 6 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
 
-- [Agent Evaluation and Benchmarking -- Why Measuring What AI Agents Can Actually Do Is the Hardest Problem in Agent Engineering](agent-evaluation-and-benchmarking.md)
+- [Agent Evaluation and Benchmarking -- Why Measuring What AI Agents Can Actually Do Is the Hardest Problem in Agent Engineering](agent-evaluation-and-benchmarking.md) -- reviewed: never
   Agent evaluation is the methodological discipline of measuring how well an AI agent performs on multi-step, tool-using tasks -- and the current benchmark landscape systematically overstates real-world capability because it was inherited from single-turn LLM evaluation and has not yet adapted to the multi-step, non-deterministic nature of agentic systems.
 
-- [Agent Memory and Persistence -- Why Memory Architecture, Not Model Size, Separates Demo Agents from Production Agents](agent-memory-and-persistence.md)
+- [Agent Memory and Persistence -- Why Memory Architecture, Not Model Size, Separates Demo Agents from Production Agents](agent-memory-and-persistence.md) -- reviewed: never
   Agent memory is the set of engineering patterns and storage systems that allow AI agents to remember across session boundaries. While model capability determines what an agent can reason about in a single turn, memory architecture determines whether that reasoning improves over time, adapts to user-specific context, and survives process restarts.
 
-- [Agent Skill Systems -- How to Give AI Agents Capabilities Without Breaking Them](agent-skill-systems.md)
+- [Agent Skill Systems -- How to Give AI Agents Capabilities Without Breaking Them](agent-skill-systems.md) -- reviewed: never
   An agent skill system is the mechanism by which an AI agent gains access to capabilities beyond text generation -- executing code, searching the web, reading files, calling APIs, and controlling applications. The skill system defines what the agent CAN do (tool catalog), how it decides WHAT to do (tool selection), and how those actions are executed safely (tool runtime).
 
-- [Context Window Management -- Why the Prompt Is the Scarce Resource in Agent Engineering](context-window-management.md)
+- [Context Window Management -- Why the Prompt Is the Scarce Resource in Agent Engineering](context-window-management.md) -- reviewed: never
   Context window management is the discipline of controlling what an AI agent "remembers" during a session to maximize task performance while minimizing token consumption, latency, and cost. Every turn an agent takes adds reasoning traces, tool outputs, and observations to the prompt; without management, context grows unbounded until it overflows the model's window or degrades performance through attention dilution.
 
-- [Multi-Agent Orchestration -- Why One Agent Is Rarely Enough for Complex Work](multi-agent-orchestration.md)
+- [Multi-Agent Orchestration -- Why One Agent Is Rarely Enough for Complex Work](multi-agent-orchestration.md) -- reviewed: never
   Multi-agent orchestration is the architectural discipline of coordinating multiple AI agents to accomplish tasks that exceed the capability, context window, or reliability of any single agent. Rather than building one monolithic agent that does everything, orchestration decomposes work across specialized agents -- each with its own prompt, tools, and scope -- and defines how they communicate, hand off tasks, and resolve conflicts.
 
-- [Prompt Engineering for Agents -- Why Writing Instructions That Survive a Thousand Tool Calls Is the Central Unsolved Challenge of Agent Engineering](prompt-engineering-for-agents.md)
+- [Prompt Engineering for Agents -- Why Writing Instructions That Survive a Thousand Tool Calls Is the Central Unsolved Challenge of Agent Engineering](prompt-engineering-for-agents.md) -- reviewed: never
   Prompt engineering for AI agents is a fundamentally different discipline from prompt engineering for chatbots. Where a chatbot prompt runs once and produces text, an agent prompt must guide behavior across dozens or hundreds of tool-calling loops -- persisting through accumulating context, surviving tool failures and error states, and producing consistent behavior even when the agent encounters situations the prompt author never anticipated.
 
