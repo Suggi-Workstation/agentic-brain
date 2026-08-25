@@ -1,9 +1,12 @@
 # Self Improvement -- Topics
 
-6 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
+7 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
 
 - [Deliberate Practice -- Why Repeating What You Already Know Builds Nothing but Stagnation](deliberate-practice.md)
   Deliberate practice is a specific, structured form of training designed to improve performance by targeting weaknesses at the edge of one's current ability, guided by clear goals and immediate feedback.
+
+- [Exercise and Cognitive Performance -- Why Physical Training Is the Most Evidence-Backed Brain Upgrade Available](exercise-and-cognitive-performance.md)
+  Physical exercise produces measurable, repeatable improvements in memory, executive function, attention, and processing speed across the entire human lifespan.
 
 - [Deep Work -- Why the Ability to Focus Without Distraction Is Becoming the Superpower of the 21st Century](focus-and-deep-work.md)
   Deep work is the ability to concentrate without distraction on cognitively demanding tasks, pushing cognitive capabilities to their limit to produce high-value output that is hard to replicate.
