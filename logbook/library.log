@@ -413,3 +413,15 @@ Wrote topic Incentives -- Why Reward Structures Shape Surprising Behavior and Of
 Similarity overlap: ~10%.
 Sources: 14 (9 high, 5 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-222] | 2026-08-25 15:46 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 7 candidates proposed, 0 skipped.
+Candidates:
+- Tool Use and Function Calling: How Agents Invoke External Capabilities (9.45): gap=9.5, compounding=9.0, timeliness=9.5, balance=10.0
+- Agent Observability and Debugging: Making Agent Behavior Transparent (9.02): gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0
+- Market Structures: From Monopoly to Perfect Competition (8.82): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Related-Party Transactions: Detecting Self-Dealing and Hidden Conflicts (8.70): gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0
+- Writing Craft and Style: The Principles of Clear and Effective Prose (8.62): gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0
+- Supply and Demand: The Mechanics of Price Discovery (8.60): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- Nutrition and Cognitive Function: How Diet Affects Brain Performance (8.57): gap=9.0, compounding=7.5, timeliness=8.0, balance=10.0
+Domain balance: accounting-financial-shenanigans, coding-agentic-ai, communication, macro-micro, self-improvement (all at 6 topics, least-covered) to science, earth-climate, ethics-philosophy, geopolitics, history, investors, portfolio-risk-management, probabilistic-thinking-forecasting, technology (8 topics each).

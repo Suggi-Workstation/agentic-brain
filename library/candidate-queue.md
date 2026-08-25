@@ -159,3 +159,59 @@
 - **Discovery score:** 8.9/10.0 (gap=9.5, compounding=8.0, timeliness=8.0, balance=10.0)
 - **Scope:** Examines how different nations structure their education systems and what outcomes those structures produce. Covers the models of Finland, Singapore, South Korea, Germany, and the US, analyzing differences in tracking, standardized testing, teacher preparation, and equity. Explores what comparative evidence reveals about the trade-offs between excellence and equality, and what lessons transfer across cultural and institutional contexts. Connects to pedagogy, assessment, and the economics of education.
 - **Status:** proposed
+
+## Candidate: Tool Use and Function Calling: How Agents Invoke External Capabilities
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 9.45/10.0 (gap=9.5, compounding=9.0, timeliness=9.5, balance=10.0)
+- **Scope:** Explains how AI agents use tools and function calling to interact with external systems -- the bridge between reasoning and action. Covers function calling schemas, tool selection strategies, error handling and retry logic, and the trade-offs between parallel and sequential tool invocation. Connects to agent architecture, context management, and multi-agent orchestration as the execution layer that makes agents useful.
+- **Status:** proposed
+
+## Candidate: Agent Observability and Debugging: Making Agent Behavior Transparent
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
+- **Scope:** Examines the challenge of observing, tracing, and debugging autonomous agent systems whose behavior emerges from multi-step reasoning chains. Covers trace logging, token-level inspection, replay debugging, evaluation harnesses for agent runs, and the tools and patterns for diagnosing why an agent failed. Connects to agent evaluation, context management, and harness design as the engineering discipline for reliable agent deployment.
+- **Status:** proposed
+
+## Candidate: Market Structures: From Monopoly to Perfect Competition
+- **Domain:** macro-micro
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 8.82/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** Examines the spectrum of market structures -- perfect competition, monopolistic competition, oligopoly, and monopoly -- and how each shapes pricing power, profit margins, and competitive behavior. Covers barriers to entry, the Herfindahl index, price discrimination, and the welfare implications of market power. Connects to game theory, industry analysis, and antitrust as the structural lens for understanding competitive dynamics.
+- **Status:** proposed
+
+## Candidate: Related-Party Transactions: Detecting Self-Dealing and Hidden Conflicts
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 8.70/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0)
+- **Scope:** Examines related-party transactions as a vector for financial statement manipulation -- when companies transact with entities controlled by insiders, creating opportunities to shift profits, hide losses, or extract value. Covers disclosure requirements, common structures (shell companies, family trusts, cross-guarantees), and forensic red flags like pricing deviations from market rates. Connects to off-balance-sheet shenanigans, revenue recognition, and governance analysis.
+- **Status:** proposed
+
+## Candidate: Writing Craft and Style: The Principles of Clear and Effective Prose
+- **Domain:** communication
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 8.62/10.0 (gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0)
+- **Scope:** Explores the principles of effective writing -- clarity, concision, rhythm, and structure -- that distinguish functional prose from compelling communication. Covers sentence-level craft, paragraph architecture, the active voice principle, and the editing process from rough draft to polish. Connects to rhetoric, technical writing, and the communication skills that every knowledge worker and agent depends on.
+- **Status:** proposed
+
+## Candidate: Supply and Demand: The Mechanics of Price Discovery
+- **Domain:** macro-micro
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 8.60/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
+- **Scope:** Explains the foundational microeconomic model of supply and demand -- how prices emerge from the interaction of buyers and sellers, and how elasticity determines the magnitude of market responses. Covers shifts versus movements along curves, price ceilings and floors, and the welfare analysis of market interventions. Connects to market structures, inflation dynamics, and trade as the bedrock of price theory.
+- **Status:** proposed
+
+## Candidate: Nutrition and Cognitive Function: How Diet Affects Brain Performance
+- **Domain:** self-improvement
+- **Proposed by:** Library-Runner
+- **Date:** 2026-08-25
+- **Discovery score:** 8.57/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=10.0)
+- **Scope:** Examines the evidence linking nutrition to cognitive performance -- how macronutrient balance, micronutrient status, meal timing, and specific dietary patterns affect attention, memory, and executive function. Covers the glucose-brain relationship, omega-3 fatty acids, the Mediterranean and MIND diets, and practical dietary protocols for sustained mental performance. Connects to exercise, sleep optimization, and focus as pillars of cognitive self-management.
+- **Status:** proposed
