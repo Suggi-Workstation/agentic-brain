@@ -14,14 +14,6 @@
 
 
 
-## Candidate: Charlie Munger's Mental Models: The Latticework of Wisdom
-- **Domain:** value-investing
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 7.9/10.0 (gap=7.5, compounding=8.5, timeliness=7.5, balance=8.3)
-- **Scope:** Explores Munger's concept of building a latticework of mental models drawn from multiple disciplines to improve decision-making. Covers key models Munger repeatedly cited -- inversion, compounding, incentives, margin of safety, psychology of misjudgment -- and how they interconnect across investing, business, and life. Examines why Munger believed worldly wisdom, not narrow expertise, was the foundation of superior judgment and how this framework complements but extends beyond pure value-investing principles.
-- **Status:** proposed
-
 ## Candidate: Cyclical vs Secular Trends: Distinguishing Temporary Swings from Permanent Shifts
 - **Domain:** industries-sectors
 - **Proposed by:** Researcher-2
