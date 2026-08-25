@@ -191,7 +191,7 @@ def main():
     master_lines.append("|:--|--:|:--|")
 
     for domain, count, desc, topics in domain_data:
-        short_desc = desc[:120] + "..." if len(desc) > 120 else desc
+        short_desc = desc
         if not short_desc:
             short_desc = "(no anchor description)"
         link = f"[{domain}]({domain}/index-{domain}.md)"
