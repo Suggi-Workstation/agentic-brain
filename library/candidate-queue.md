@@ -14,13 +14,6 @@
 
 
 
-## Candidate: Overconfidence: The Most Robust and Dangerous Cognitive Bias
-- **Domain:** psychology-behavior
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.5/10.0 (gap=8.5, compounding=9.0, timeliness=8.0, balance=8.3)
-- **Scope:** Explores the overconfidence effect -- the systematic human tendency to overestimate knowledge, underestimate risks, and hold unwarranted certainty in judgments. Covers its three manifestations: overestimation of ability, overplacement relative to others, and overprecision in beliefs. Examines the evolutionary origins of overconfidence, its documented role in market bubbles and entrepreneurial failure, and evidence-based debiasing techniques including reference class forecasting and premortems.
-- **Status:** proposed
 
 ## Candidate: Incentives: How Reward Structures Shape Surprising Behavior
 - **Domain:** psychology-behavior
