@@ -1,12 +1,15 @@
 # Psychology Behavior -- Topics
 
-8 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
+9 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
 
 - [Cognitive Biases -- Systematic Errors That Shape Every Human Decision](cognitive-biases.md)
   Cognitive biases are systematic patterns of deviation from rationality in human judgment and decision-making. First catalogued by psychologists Daniel Kahneman and Amos Tversky in their...
 
 - [Cognitive Dissonance -- Why Humans Change Beliefs Instead of Admitting Error](cognitive-dissonance.md)
   Cognitive dissonance is the psychological theory that when a person holds two contradictory beliefs, or when their behavior contradicts their beliefs, they experience an aversive mental state that they are motivated to resolve.
+
+- [Framing Effects -- Why the Same Information Produces Radically Different Decisions](framing-effects.md)
+  Framing effects are the systematic influence that the presentation of information -- rather than its objective content -- exerts on human decisions. When logically identical options are described...
 
 - [Heuristics -- Why Mental Shortcuts Are Both Essential and Systematically Wrong](heuristics.md)
   Heuristics are mental shortcuts that reduce the cognitive load of decision-making by substituting a complex question with a simpler one. Identified by Daniel Kahneman and Amos Tversky in their...
