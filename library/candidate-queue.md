@@ -16,13 +16,6 @@
 
 
 
-## Candidate: Framing Effects: How the Same Information Produces Radically Different Decisions
-- **Domain:** psychology-behavior
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.5/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=8.3)
-- **Scope:** Explores how the presentation format of identical information systematically alters human choices -- one of the most robust and practically important findings in behavioral economics. Covers the Asian disease problem, gain versus loss framing, default effects in policy design, and anchoring in negotiations. Connects framing to prospect theory and examines its applications in marketing, investing, medical decision-making, and public policy nudges.
-- **Status:** proposed
 
 ## Candidate: Exercise and Cognitive Performance: How Physical Training Upgrades the Brain
 - **Domain:** self-improvement
