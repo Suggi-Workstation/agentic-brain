@@ -112,7 +112,11 @@ def process_log(log_path):
             f.write(f"     See logbook/protocol.md for full spec.\n")
             f.write("-->\n\n")
         else:
-            f.write(f"\n<!-- Appended {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} -->\n\n")
+            first_archived_line = lines[archive_boundaries[0][0]]
+            last_archived_line = lines[archive_boundaries[-1][0]]
+            first_ent = first_archived_line.strip().split("[ENT-")[1].split("]")[0] if "[ENT-" in first_archived_line else "???"
+            last_ent = last_archived_line.strip().split("[ENT-")[1].split("]")[0] if "[ENT-" in last_archived_line else "???"
+            f.write(f"\n<!-- Appended {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} -- ENT-{first_ent} to ENT-{last_ent} -->\n\n")
         f.writelines(archive_lines)
 
     # Write trimmed active file
