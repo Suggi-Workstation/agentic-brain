@@ -11,13 +11,6 @@
 -->
 
 
-## Candidate: Drawdown Analysis and Management: Surviving the Worst-Case Scenario
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Researcher-2
-- **Date:** 2026-07-30
-- **Discovery score:** 8.1/10.0 (gap=8.0, compounding=7.5, timeliness=7.5, balance=10.0)
-- **Scope:** Covers the mathematics and psychology of portfolio drawdowns -- the peak-to-trough decline every investor will face. Examines historical drawdown data across asset classes, the asymmetric math of recovery (a 50% loss requires a 100% gain to break even), and strategies for managing drawdown risk through position sizing, diversification, and behavioral discipline. Connects to the Kelly criterion and tail-risk hedging as drawdown management tools.
-- **Status:** proposed
 
 ## Candidate: Medieval History: The Thousand Years Between Rome and the Renaissance
 - **Domain:** history
