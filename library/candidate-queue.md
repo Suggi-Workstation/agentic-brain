@@ -19,13 +19,6 @@
 
 
 
-## Candidate: The Volkswagen Emissions Scandal: Governance Failure, Institutional Deception, and the Cost of Cutting Corners
-- **Domain:** case-studies
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.3/10.0 (gap=8.5, compounding=8.5, timeliness=7.5, balance=8.3)
-- **Scope:** Analyzes the Volkswagen diesel emissions scandal as a case study in institutionalized deception and governance failure. Covers the engineering constraints and corporate pressure that led to deliberate software-based cheating, how the fraud was eventually uncovered by a small research team, and the staggering financial and reputational costs. Extracts lessons about organizational culture, the dangers of stretch goals without ethical guardrails, and why technical fraud in complex systems is rarely the work of a few bad actors.
-- **Status:** proposed
 
 ## Candidate: Acquisition Accounting Tricks: How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality
 - **Domain:** accounting-financial-shenanigans
