@@ -21,13 +21,6 @@
 
 
 
-## Candidate: Industry Consolidation: The Economics, Patterns, and Endgames of Market Concentration
-- **Domain:** industries-sectors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=8.0, timeliness=8.0, balance=8.3)
-- **Scope:** Examines the predictable consolidation lifecycle that industries follow from fragmentation through scale-driven mergers to equilibrium oligopoly. Covers the strategic logic of roll-up strategies, the antitrust constraints that shape consolidation endgames, and how industry structure maturity affects profit margins and competitive behavior. Connects to current consolidation trends in technology, healthcare, and banking with implications for investors assessing industry attractiveness and regulatory risk.
-- **Status:** proposed
 
 ## Candidate: Spaced Repetition and Active Recall: The Evidence-Based Path to Durable Knowledge
 - **Domain:** self-improvement
