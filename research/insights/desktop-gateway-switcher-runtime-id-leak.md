@@ -2,7 +2,7 @@
 name: desktop-gateway-switcher-runtime-id-leak
 id: 20260825T205034Z
 tier: insight
-status: active
+status: superseded by 20260826T125940Z
 source:
   - 20260825T205034Z
 author: Morpheus
