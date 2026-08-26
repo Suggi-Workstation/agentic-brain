@@ -22,14 +22,6 @@
 
 
 
-## Candidate: Restatement Analysis: What Forced Corrections Reveal About Past Shenanigans
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.0/10.0 (gap=8.5, compounding=8.0, timeliness=7.0, balance=8.3)
-- **Scope:** Examines financial restatements as a forensic window into prior accounting manipulation. Covers the most common restatement triggers (revenue recognition errors, expense misclassification, tax provision corrections), the statistical evidence on what restatements predict about management integrity and future stock performance, and the distinction between technical GAAP corrections versus restatements that reveal deliberate deception. Connects to the Beneish M-Score and other red flag models as predictive tools for identifying companies likely to restate.
-- **Status:** proposed
-
 ## Candidate: Alan Turing: The Architect of the Information Age
 - **Domain:** notable-people
 - **Proposed by:** Library-Runner
