@@ -1,10 +1,12 @@
 # Notable People -- Topics
 
-6 topics. Anchor: [anchor-notable-people.md](anchor-notable-people.md)
+7 topics. Anchor: [anchor-notable-people.md](anchor-notable-people.md)
 
 - [Abraham Lincoln -- How a Self-Educated Frontier Lawyer Became America's Greatest Crisis Leader](abraham-lincoln.md) -- [reviewed: never] -- Abraham Lincoln transformed himself from a poverty-stricken frontier boy with less than a year of formal schooling into the president who preserved the American union through its gravest constitutional crisis. His leadership during the Civil War -- characterized by the Team of Rivals cabinet model, an evolving moral stance on slavery that culminated in the Emancipation Proclamation, and...
 
 - [Ada Lovelace -- The First Programmer Saw Computing as More Than Calculation, a Century Before the Electronic Age](ada-lovelace.md) -- [reviewed: never] -- Ada Lovelace (1815-1852) was the first person to envision what we now call computer programming -- not merely as a method for calculating numbers, but as a universal symbolic operation capable of composing music, generating images, and manipulating any system reducible to rules. Working from Charles Babbage's unbuilt Analytical Engine, she produced an algorithm for computing Bernoulli numbers...
+
+- [Alan Turing -- The Architect of the Information Age](alan-turing.md) -- [reviewed: never] -- Alan Mathison Turing (1912-1954) was a British mathematician whose single life defined the theoretical foundations, the practical machinery, and the philosophical questions of the discipline now called computer science. He invented the abstract machine that bears his name, cracked the Nazi Enigma cipher that shortened World War II, wrote the paper that founded artificial intelligence, and devised a mathematical model of biological pattern formation that remains influential seven decades later.
 
 - [Marcus Aurelius -- How a Philosopher-Emperor Turned Private Reflection Into Timeless Leadership](marcus-aurelius.md) -- [reviewed: never] -- Marcus Aurelius (121-180 CE) was the last of Rome's Five Good Emperors and the author of Meditations, a private philosophical journal that became one of the most influential works of Stoic philosophy in history. Ruling during plague, war, and political crisis, he tested whether a person could wield absolute power without being corrupted by it -- and his answer, preserved in the notes he wrote only to himself, has shaped leadership thinking for nearly two millennia.
 
