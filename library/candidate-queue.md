@@ -20,14 +20,6 @@
 
 
 
-## Candidate: Acquisition Accounting Tricks: How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=8.3)
-- **Scope:** Explores the accounting games companies play through acquisitions -- purchase price allocation manipulation, earnout games, contingent consideration tricks, and how serial acquirers use deal accounting to obscure organic deterioration. Covers common red flags including persistent intangible asset growth without corresponding revenue increases, aggressive earnout liability estimates, and frequent goodwill impairment following acquisitions. Examines the gap between reported acquisition economics and post-deal reality.
-- **Status:** proposed
-
 ## Candidate: Industry Profit Pools: Mapping Where the Money Actually Flows
 - **Domain:** industries-sectors
 - **Proposed by:** Researcher-2
