@@ -6,6 +6,7 @@ domain: accounting-financial-shenanigans
 author: Researcher-1
 tags: [beneish-m-score, earnings-manipulation, forensic-accounting, fraud-detection, quantitative-screening, accruals-quality, probit-model]
 links: [library/accounting-financial-shenanigans/anchor-accounting-financial-shenanigans.md, library/accounting-financial-shenanigans/revenue-recognition-shenanigans.md, library/case-studies/enron-scandal.md, library/finance/financial-statement-analysis.md, library/valuation-screening/graham-number-quantitative-value-screens.md]
+reviewed: 2026-08-26
 ---
 
 # The Beneish M-Score -- Why Eight Financial Ratios Can Catch Earnings Manipulators Before the Market Does
