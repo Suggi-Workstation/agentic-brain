@@ -1,6 +1,6 @@
 # Case Studies -- Topics
 
-7 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
+8 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
 
 - [The 2008 Financial Crisis -- How a Housing Bubble Spawned the Worst Crisis Since the Great Depression](2008-financial-crisis.md) -- [reviewed: never] -- The 2008 financial crisis was not an unpredictable "black swan" -- it was the foreseeable and forewarned result of a housing bubble, a deregulated shadow banking system, and financial instruments so complex that their own creators did not fully understand them. Triggered by the collapse of the U.S. subprime mortgage market in 2007 and accelerating through the bankruptcy of Lehman Brothers in September 2008, the crisis destroyed over $11 trillion in U.
 
@@ -15,4 +15,6 @@
 - [The Enron Scandal Is the Canonical Case Study in Systemic Corporate Governance Failure -- and Every Investor Should Know Its Red Flags](enron-scandal.md) -- [reviewed: never] -- The Enron scandal (2001) was not a rogue fraud by a single bad actor. It was a SYSTEMIC collapse in which every layer of corporate governance -- the board, the auditors, the regulators, the gatekeepers, and the compensation system -- failed simultaneously. Enron's bankruptcy destroyed over $60 billion in market capitalization, wiped out the retirement savings of thousands of employees, and dissolved Arthur Andersen, one of the Big Five accounting firms.
 
 - [New Coke -- The 1985 Marketing Disaster That Proved Brand Loyalty Is Not About Taste](new-coke-marketing-disaster.md) -- [reviewed: never] -- The 1985 launch of New Coke is the canonical marketing failure: Coca-Cola spent four years and millions of dollars on the most rigorous taste tests in the history of packaged goods, got a clear result that consumers preferred the new formula, acted on it decisively -- and triggered a consumer revolt so intense that the company reintroduced the original formula as "Coca-Cola Classic" just 79 days later.
+
+- [Volkswagen's Dieselgate Scandal -- How Corporate Pressure and Institutional Deception Produced the Largest Fraud in Automotive History](vw-dieselgate-emissions-scandal.md) -- [reviewed: never] -- Between 2006 and 2015, Volkswagen Group intentionally programmed roughly 11 million diesel vehicles worldwide with software designed to cheat on emissions tests, allowing cars to pass laboratory certification while emitting up to 40 times the legal limit of nitrogen oxides during real-world driving. The deception, uncovered by a four-person research team at West Virginia University working on a...
 
