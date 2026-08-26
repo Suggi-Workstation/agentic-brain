@@ -395,3 +395,27 @@ Wrote topic Regression Analysis: Modeling Relationships in Data to mathematics-s
 Similarity overlap: ~20%.
 Sources: 12 (7 high, 5 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-234] | 2026-08-26 13:55 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 11 candidates proposed, 7 dropped (11 slots available for 18 scored candidates, queue now at 25/25 capacity).
+Candidates:
+- Journalism and Media Ethics: The Principles and Standards of Newsgathering (9.02): gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0
+- AI in Medicine and Diagnostics: How Machine Learning Is Transforming Clinical Practice (8.95): gap=9.0, compounding=8.5, timeliness=9.5, balance=8.8
+- Antifragile: Things That Gain from Disorder (8.85): gap=9.0, compounding=9.0, timeliness=7.5, balance=10.0
+- Guns, Germs, and Steel: How Geography Determined the Fate of Nations (8.75): gap=9.0, compounding=9.0, timeliness=7.0, balance=10.0
+- Man's Search for Meaning: Finding Purpose in Suffering (8.70): gap=9.5, compounding=8.0, timeliness=7.0, balance=10.0
+- Chemistry and the Periodic Table: The Architecture of Matter and Bonding (8.62): gap=9.5, compounding=9.0, timeliness=7.0, balance=7.8
+- Mental Health Treatment and Psychiatric Medicine: The Evidence Base for Psychological Care (8.62): gap=9.0, compounding=8.0, timeliness=8.5, balance=8.8
+- Food and Agriculture in Cultural Context: How Societies Feed Themselves (8.54): gap=9.0, compounding=8.5, timeliness=7.5, balance=8.8
+- Linguistics and Language Evolution: How Language Shapes Thought and Culture (8.50): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
+- Indigenous Knowledge Systems: What Traditional Societies Know That Modern Science Is Rediscovering (8.39): gap=9.0, compounding=7.5, timeliness=8.0, balance=8.8
+- Healthcare Systems and Insurance Models: How Nations Deliver and Pay for Care (8.32): gap=8.5, compounding=8.0, timeliness=8.0, balance=8.8
+Dropped candidates (below cutoff):
+- Ecology: How Organisms Interact with Their Environment (8.29): gap=8.5, compounding=8.5, timeliness=8.0, balance=7.8
+- Oceanography and Marine Systems: The Physics, Biology, and Chemistry of the World's Oceans (8.29): gap=8.5, compounding=8.5, timeliness=8.0, balance=7.8
+- Visual Communication and Information Design: How Images and Structure Convey Meaning (8.28): gap=8.5, compounding=7.5, timeliness=7.5, balance=10.0
+- Natural Disaster Mechanisms: The Science Behind Earthquakes, Hurricanes, and Volcanic Eruptions (8.27): gap=8.5, compounding=8.0, timeliness=8.5, balance=7.8
+- Urban Anthropology: How Cities Shape Culture and Social Organization (8.22): gap=8.5, compounding=8.0, timeliness=7.5, balance=8.8
+- Special and General Relativity: Einstein's Revolution in Understanding Space and Time (8.17): gap=9.0, compounding=8.0, timeliness=7.0, balance=7.8
+- Ecosystem Science: How Communities of Organisms Interact and Sustain Themselves (8.07): gap=8.5, compounding=8.0, timeliness=7.5, balance=7.8
+Domain balance: books (7 topics), communication (7) to earth-climate (9), science (9).
