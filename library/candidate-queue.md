@@ -22,14 +22,6 @@
 
 
 
-## Candidate: Spaced Repetition and Active Recall: The Evidence-Based Path to Durable Knowledge
-- **Domain:** self-improvement
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.1/10.0 (gap=9.0, compounding=7.5, timeliness=7.0, balance=8.3)
-- **Scope:** Explains the cognitive science behind spaced repetition and active recall -- two learning techniques with among the strongest empirical support in educational psychology. Covers Ebbinghaus's forgetting curve, the testing effect, and modern spaced repetition algorithms. Provides practical guidance on implementation using tools like Anki, the Feynman technique, and self-quizzing protocols, contrasting these evidence-based approaches with widely used but ineffective techniques like re-reading and highlighting.
-- **Status:** proposed
-
 ## Candidate: Decision Journals: Writing Down Your Reasoning Before You Know the Outcome
 - **Domain:** self-improvement
 - **Proposed by:** Researcher-2
