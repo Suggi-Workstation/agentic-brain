@@ -142,3 +142,114 @@ It simulates a real logbook entry with multi-line body content.
 Line 3 of entry 23. The archive script should cut at ## [ENT- boundaries.
 Line 4 of entry 23. Each entry is 5 lines plus the header.
 
+
+<!-- Appended 2026-08-26 14:08 UTC -- ENT-001 to ENT-018 -->
+
+## [ENT-001] | 2026-01-02 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 1. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 1.
+Line 4 of entry 1.
+
+## [ENT-002] | 2026-01-03 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 2. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 2.
+Line 4 of entry 2.
+
+## [ENT-003] | 2026-01-04 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 3. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 3.
+Line 4 of entry 3.
+
+## [ENT-004] | 2026-01-05 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 4. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 4.
+Line 4 of entry 4.
+
+## [ENT-005] | 2026-01-06 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 5. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 5.
+Line 4 of entry 5.
+
+## [ENT-006] | 2026-01-07 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 6. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 6.
+Line 4 of entry 6.
+
+## [ENT-007] | 2026-01-08 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 7. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 7.
+Line 4 of entry 7.
+
+## [ENT-008] | 2026-01-09 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 8. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 8.
+Line 4 of entry 8.
+
+## [ENT-009] | 2026-01-10 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 9. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 9.
+Line 4 of entry 9.
+
+## [ENT-010] | 2026-01-11 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 10. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 10.
+Line 4 of entry 10.
+
+## [ENT-011] | 2026-01-12 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 11. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 11.
+Line 4 of entry 11.
+
+## [ENT-012] | 2026-01-13 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 12. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 12.
+Line 4 of entry 12.
+
+## [ENT-013] | 2026-01-14 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 13. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 13.
+Line 4 of entry 13.
+
+## [ENT-014] | 2026-01-15 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 14. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 14.
+Line 4 of entry 14.
+
+## [ENT-015] | 2026-01-16 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 15. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 15.
+Line 4 of entry 15.
+
+## [ENT-016] | 2026-01-17 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 16. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 16.
+Line 4 of entry 16.
+
+## [ENT-017] | 2026-01-18 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 17. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 17.
+Line 4 of entry 17.
+
+## [ENT-018] | 2026-01-19 10:00 UTC | TestBot | test | ref: test.log
+Test entry number 18. Race condition test.
+Simulating concurrent push while Action runs.
+Line 3 of entry 18.
+Line 4 of entry 18.
+
