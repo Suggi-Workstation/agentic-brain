@@ -20,13 +20,6 @@
 
 
 
-## Candidate: Industry Profit Pools: Mapping Where the Money Actually Flows
-- **Domain:** industries-sectors
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.2/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=8.3)
-- **Scope:** Explains the profit pool mapping methodology pioneered by Bain and Company -- a tool for visualizing how total industry profits distribute across value chain activities, often revealing counterintuitive concentrations. Covers how profit pools migrate over time due to technology, regulation, and competitive dynamics, with examples from automotive (where profits shifted from manufacturing to financing and aftermarket) and computing (where profits migrated from hardware to software and services). Examines the investment implications of identifying where value accrues versus where attention focuses.
-- **Status:** proposed
 
 ## Candidate: Industry Consolidation: The Economics, Patterns, and Endgames of Market Concentration
 - **Domain:** industries-sectors
