@@ -1,6 +1,6 @@
 # Self Improvement -- Topics
 
-7 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
+8 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
 
 - [Deliberate Practice -- Why Repeating What You Already Know Builds Nothing but Stagnation](deliberate-practice.md) -- [reviewed: never] -- Deliberate practice is a specific, structured form of training designed to improve performance by targeting weaknesses at the edge of one's current ability, guided by clear goals and immediate feedback. First identified by K. Anders Ericsson in his landmark 1993 study of elite violinists, it is the mechanism that separates world-class performers from those who merely accumulate experience without improving.
 
@@ -15,4 +15,6 @@
 - [Meditation and Mindfulness -- The Evidence for Cognitive Benefits Is Stronger Than You Think, but Weaker Than Its Advocates Claim](meditation-and-mindfulness.md) -- [reviewed: never] -- Meditation and mindfulness practices produce measurable improvements in attention, emotional regulation, stress resilience, and even brain structure -- but the effect sizes are moderate, not transformative, and the research literature has real limitations that popular coverage routinely ignores. A systematic look at the evidence shows that 8-12 weeks of consistent practice (roughly 10-30 minutes...
 
 - [Sleep Optimization -- The Highest-Leverage Health Intervention That Costs Nothing](sleep-optimization.md) -- [reviewed: never] -- Sleep is not passive downtime but an active biological process during which the brain clears metabolic waste, consolidates memories, regulates emotions, and repairs the body. Decades of neuroscience research demonstrate that optimizing sleep -- through timing, environment, and behavioral routines -- produces larger and more reliable gains in cognitive performance, emotional stability, and physical health than any supplement, nootropic, or productivity system.
+
+- [Spaced Repetition and Active Recall -- The Evidence-Based Path to Durable Knowledge](spaced-repetition-active-recall.md) -- [reviewed: never] -- Spaced repetition and active recall are two learning techniques with among the strongest empirical support in all of educational psychology. Spaced repetition distributes review sessions across increasing time intervals to counteract the natural decay of memory, while active recall forces the learner to retrieve information from memory rather than passively re-reading it.
 
