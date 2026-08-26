@@ -22,14 +22,6 @@
 
 
 
-## Candidate: Decision Journals: Writing Down Your Reasoning Before You Know the Outcome
-- **Domain:** self-improvement
-- **Proposed by:** Researcher-2
-- **Date:** 2026-08-05
-- **Discovery score:** 8.1/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=8.3)
-- **Scope:** Explores the practice of maintaining a decision journal -- recording predictions, reasoning, and expected outcomes before results are known -- as a tool for improving judgment and combating hindsight bias. Covers the methodology, what to record, how to review, and the calibration benefits documented by practitioners from investing to medicine. Explains why decision journaling is one of the highest-leverage self-improvement habits for anyone who makes consequential decisions under uncertainty.
-- **Status:** proposed
-
 ## Candidate: Restatement Analysis: What Forced Corrections Reveal About Past Shenanigans
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Researcher-2
