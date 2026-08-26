@@ -1,6 +1,6 @@
 # Industries Sectors -- Topics
 
-7 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
+8 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
 
 - [Capital Cycle Analysis -- Why High Returns Attract the Capital That Destroys Them](capital-cycle-analysis.md) -- [reviewed: never] -- Capital cycle analysis is an industry-level investing framework developed by Marathon Asset Management and articulated by financial historian Edward Chancellor. Its central insight is deceptively simple: high profitability attracts a flood of capital investment, which creates overcapacity and destroys the very returns that attracted the capital in the first place.
 
@@ -9,6 +9,8 @@
 - [Disruption Theory -- Why Excellent Management Systematically Destroys Market Leaders](disruption-theory.md) -- [reviewed: never] -- Disruption theory explains one of the most counterintuitive patterns in business: the best-managed companies, with the best customers and the best financial discipline, are the most vulnerable to being destroyed by inferior products from upstart competitors. Clayton Christensen's research demonstrated that this is not a failure of management -- it is the rational outcome of the same managerial practices that make incumbent firms excel.
 
 - [Global Supply Chain Dynamics -- The Collapse of Just-in-Time and the Rise of Resilience as a Competitive Imperative](global-supply-chain-dynamics.md) -- [reviewed: never] -- Global supply chain strategy has undergone its most fundamental transformation since the containerization revolution of the 1960s. The lean, cost-optimized just-in-time (JIT) model that dominated global manufacturing for four decades -- pioneered by Toyota in the 1950s, perfected in the 1980s, and globalized in the 1990s and 2000s -- has been broken by a cascade of shocks: COVID-19, semiconductor shortages, the Russia-Ukraine war, US-China decoupling, and attacks on Red Sea shipping.
+
+- [Industry Profit Pools -- Why the Largest Revenue Streams Often Generate the Smallest Profits](industry-profit-pools.md) -- [reviewed: never] -- Industry profit pool analysis is a strategic framework that maps where total profits actually accrue across an industry's value chain, revealing that profit concentration rarely mirrors revenue concentration. Pioneered by Orit Gadiesh and James Gilbert of Bain and Company in a 1998 Harvard Business Review article, the concept arose from a simple but powerful observation: managers who chase...
 
 - [Network Effects and Platform Economics -- Why Winner-Take-Most Markets Are Different](network-effects-platform-economics.md) -- [reviewed: never] -- Network effects are the single most powerful competitive force in the digital economy. When every additional user makes a product more valuable to every other user, markets stop behaving like traditional industries and start exhibiting winner-take-most dynamics that concentrate value in one or two dominant platforms.
 
