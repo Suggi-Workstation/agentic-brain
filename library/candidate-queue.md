@@ -23,13 +23,6 @@
 
 
 
-## Candidate: Regression Analysis: Modeling Relationships in Data
-- **Domain:** mathematics-statistics
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 9.2/10.0 (gap=9.5, compounding=9.0, timeliness=8.0, balance=10.0)
-- **Scope:** Explains regression analysis as the workhorse of statistical modeling -- how to quantify relationships between variables, estimate coefficients, and make predictions. Covers linear and logistic regression, model assumptions and diagnostics, multicollinearity, and the bias-variance tradeoff. Connects to causal inference, Bayesian methods, and machine learning, positioning regression as the foundational technique bridging classical statistics and modern data science.
-- **Status:** proposed
 
 ## Candidate: Cost of Capital and WACC: The Price of Funding
 - **Domain:** finance
