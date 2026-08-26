@@ -1,6 +1,8 @@
 # Accounting Financial Shenanigans -- Topics
 
-6 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
+7 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
+
+- [Acquisition Accounting Tricks -- How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality](acquisition-accounting-tricks.md) -- [reviewed: never] -- Acquisitions are the most complex single event in corporate accounting, and that complexity is precisely what makes them the richest hunting ground for earnings manipulation. When a company buys another business, the purchase price must be allocated across identifiable assets and liabilities at fair value, with any residual recorded as goodwill.
 
 - [The Beneish M-Score -- Why Eight Financial Ratios Can Catch Earnings Manipulators Before the Market Does](beneish-m-score.md) -- [reviewed: never] -- The Beneish M-Score is a probabilistic model that uses eight publicly available financial ratios to detect whether a company has manipulated its reported earnings. Developed by accounting professor Messod D. Beneish of Indiana University's Kelley School of Business and published in 1999, the model correctly identified 76% of earnings manipulators in out-of-sample tests and retrospectively flagged Enron years before its 2001 collapse.
 

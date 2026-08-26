@@ -1,14 +1,14 @@
 # Library Master Index
 
-<!-- Regenerated 2026-08-26 06:04 UTC -->
+<!-- Regenerated 2026-08-26 06:19 UTC -->
 <!-- Source of truth: filesystem. This file is derived, never maintained by hand. -->
 <!-- To verify: ls library/<domain>/*.md -->
 
-**200 topics across 28 domains**
+**201 topics across 28 domains**
 
 | Domain | Topics | Description |
 |:--|--:|:--|
-| [accounting-financial-shenanigans](accounting-financial-shenanigans/index-accounting-financial-shenanigans.md) | 6 | The detection and analysis of earnings manipulation, accounting fraud, and financial statement deception. Named after Howard Schilit's "Financial Shenanigans," this domain covers the specific techniques companies use to distort financial reality -- revenue recognition tricks, expense capitalization games, cash flow misclassification, off-balance-sheet liabilities, and one-time charge manipulation. The focus is forensic: how to spot the manipulation, what red flags to look for, and what the corrected numbers would show. |
+| [accounting-financial-shenanigans](accounting-financial-shenanigans/index-accounting-financial-shenanigans.md) | 7 | The detection and analysis of earnings manipulation, accounting fraud, and financial statement deception. Named after Howard Schilit's "Financial Shenanigans," this domain covers the specific techniques companies use to distort financial reality -- revenue recognition tricks, expense capitalization games, cash flow misclassification, off-balance-sheet liabilities, and one-time charge manipulation. The focus is forensic: how to spot the manipulation, what red flags to look for, and what the corrected numbers would show. |
 | [anthropology](anthropology/index-anthropology.md) | 7 | The study of human societies, cultures, and their development across time and geography. Encompasses cultural anthropology (how people live, believe, and organize), archaeology (material remains of past societies), linguistic anthropology (how language shapes culture), and biological anthropology (human evolution and variation). This domain is about understanding the full spectrum of human experience -- how different societies have solved the problems of living together, what they believed, and what their material culture reveals. |
 | [books](books/index-books.md) | 6 | Summaries, analyses, and key takeaways from important books across all domains of knowledge. Each entry distills a book's core arguments, key evidence, and lasting insights into a concise, actionable format. This domain is a knowledge compression layer -- it captures what a book contributes to the brain's understanding without requiring the reader to have read the original. Books summarized here can be from any domain (investing, science, philosophy, history, etc.) but the entry focuses on the BOOK as an artifact -- what it argues, how well it argues it, and what the reader should take away. |
 | [case-studies](case-studies/index-case-studies.md) | 8 | In-depth analysis of specific events, decisions, failures, and successes drawn from history, business, investing, and other domains. Each case study examines what happened, why it happened, what the consequences were, and what durable lessons can be extracted. The focus is on the SPECIFIC instance as a window into broader principles -- the case is the vehicle, the lesson is the destination. Distinguished from history by its analytical structure: case studies explicitly extract transferable lessons. |
