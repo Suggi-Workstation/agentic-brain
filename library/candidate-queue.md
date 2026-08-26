@@ -22,13 +22,6 @@
 
 
 
-## Candidate: Alan Turing: The Architect of the Information Age
-- **Domain:** notable-people
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 9.4/10.0 (gap=9.5, compounding=9.5, timeliness=8.5, balance=10.0)
-- **Scope:** Examines Alan Turing's life from his foundational work on computability and the Turing machine to his crucial role in breaking Enigma at Bletchley Park. Covers his contributions to early computing, artificial intelligence through the Turing Test, and mathematical biology. Explores how his tragic death shaped attitudes toward persecution, and why his theoretical framework remains the bedrock of computer science and AI today.
-- **Status:** proposed
 
 ## Candidate: Regression Analysis: Modeling Relationships in Data
 - **Domain:** mathematics-statistics
