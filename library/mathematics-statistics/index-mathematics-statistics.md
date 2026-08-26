@@ -1,6 +1,6 @@
 # Mathematics Statistics -- Topics
 
-6 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
+7 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
 
 - [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md) -- [reviewed: never] -- Bayesian statistics is a framework for inference in which probability represents a degree of belief rather than a limiting relative frequency. At its core is Bayes' theorem, which prescribes exactly how prior knowledge should be combined with observed data to produce updated beliefs -- the posterior distribution.
 
@@ -11,6 +11,8 @@
 - [Linear Algebra -- The Mathematics That Powers Modern Data Science and AI](linear-algebra.md) -- [reviewed: never] -- Linear algebra is the branch of mathematics concerned with vectors, vector spaces, linear transformations, and systems of linear equations. It provides the computational language in which virtually all modern data science, machine learning, and artificial intelligence are expressed: every neural network layer is a matrix multiplication, every dataset is a matrix, and dimensionality reduction from PCA to word embeddings runs on eigenvalues and singular value decomposition.
 
 - [Probability Theory -- The Mathematical Language of Uncertainty](probability-theory-fundamentals.md) -- [reviewed: never] -- Probability theory is the branch of mathematics that provides a rigorous framework for reasoning about uncertainty, randomness, and incomplete information. Built on Kolmogorov's three axioms (1933), it replaces intuitive notions of chance with a formal system of measure, sample spaces, and random variables that is as logically precise as arithmetic and as philosophically deep as any branch of epistemology.
+
+- [Regression Analysis -- Why Modeling Relationships Between Variables Is the Backbone of Quantitative Reasoning](regression-analysis.md) -- [reviewed: never] -- Regression analysis is the statistical method for estimating how a dependent variable changes when one or more independent variables change, producing equations that quantify relationships, isolate effects, and generate predictions from data. From Francis Galton's 19th-century study of hereditary traits to the generalized linear models that underpin modern data science, regression has evolved into the most widely used family of statistical techniques in science, industry, and policy.
 
 - [Statistical Inference -- Why Drawing Reliable Conclusions from Limited Data Is the Core Challenge of Science](statistical-inference.md) -- [reviewed: never] -- Statistical inference is the mathematical framework for drawing conclusions about populations and processes from finite samples of data. It transforms the raw material of observation -- measurements, counts, responses -- into statements about the world accompanied by quantified uncertainty. Without statistical inference, data is merely anecdote; with it, data becomes evidence.
 
