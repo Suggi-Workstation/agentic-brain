@@ -78,7 +78,7 @@ Confirm ALL items before committing.
 - [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
 - [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)
 - [ ] Errors logged to the agentic-brain clone's logbook/errors.log (if any) (PASS / HALT)
-- [ ] Committed on the agentic-brain clone: only this cycle's paths staged. Never `git add -A` in the shared clone. (PASS / HALT)
+- [ ] Committed on the agentic-brain clone: split-commit pattern followed (topic file first, then pull --rebase + re-read shared files, then commit shared files). Never `git add -A` in the shared clone. (PASS / HALT)
 - [ ] Watcher push verified: AHEAD: 0 or fresh push line in /srv/brain/logs/brain-pull.log (PASS / HALT)
 
 ## Procedure
@@ -264,13 +264,38 @@ rejection, or any crash.
 The watcher pushes within 1 min and reindexes. Verify after ~1 min:
 `AHEAD: 0`, or a fresh push line in /srv/brain/logs/brain-pull.log.
 
-VPS agents:
+**Split-commit pattern (prevents shared-file race conditions):**
+
+The topic file is unique -- no other agent touches it. Shared files
+(candidate-queue.md, library.log) can be modified by other agents
+running simultaneously. To avoid overwriting their changes, commit
+the topic file first, then sync and re-read shared files before
+modifying them.
+
+**Phase 1 -- commit the topic file (no race possible):**
 
 ```bash
 cd /srv/brain/agentic-brain
-git add library/<domain>/<topic-slug>.md library/candidate-queue.md logbook/library.log
-git diff --cached --stat   # verify ONLY your paths are staged
+git add library/<domain>/<topic-slug>.md
 git commit -m "library: write <topic-slug> to <domain>"
+```
+
+**Phase 2 -- sync, re-read, then commit shared files:**
+
+```bash
+git pull --rebase origin main
+```
+
+Re-read `library/candidate-queue.md` and `logbook/library.log` from
+the filesystem -- they may have changed since you last read them at
+the start of this session. Apply your changes (remove the candidate
+entry, append the logbook entry) to the CURRENT version of these
+files, not the version you read earlier.
+
+```bash
+git add library/candidate-queue.md logbook/library.log
+git diff --cached --stat   # verify ONLY your paths are staged
+git commit -m "library: update queue + log for <topic-slug>"
 ```
 
 VPS-connected agents: run the same commands through the commit

@@ -90,7 +90,7 @@ committing.
 - [ ] Logbook entry written to logbook/library.log (PASS / HALT)
 - [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
 - [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)
-- [ ] Committed on the VPS clone: only this cycle's paths staged. Never `git add -A` in the shared clone. (PASS / HALT)
+- [ ] Committed on the VPS clone: split-commit pattern followed (pull --rebase + re-read shared files before applying changes). Never `git add -A` in the shared clone. (PASS / HALT)
 - [ ] Watcher push verified: AHEAD: 0 or fresh push line in /srv/brain/logs/brain-pull.log (PASS / HALT)
 
 ## Procedure
@@ -261,10 +261,29 @@ failures only.
 The watcher pushes within 1 min and reindexes. Verify after ~1 min:
 `AHEAD: 0`, or a fresh push line in /srv/brain/logs/brain-pull.log.
 
-VPS agents:
+**Split-commit pattern (prevents shared-file race conditions):**
+
+The candidate-queue.md and library.log are shared files that other
+agents (writer-even, writer-odd) can modify simultaneously. To avoid
+overwriting their changes, sync and re-read these files before
+applying your changes.
+
+**Phase 1 -- sync and re-read shared files:**
 
 ```bash
 cd /srv/brain/agentic-brain
+git pull --rebase origin main
+```
+
+Re-read `library/candidate-queue.md` and `logbook/library.log` from
+the filesystem -- they may have changed since you last read them at
+the start of this session. Apply your changes (append candidates,
+append logbook entry) to the CURRENT version of these files, not
+the version you read earlier.
+
+**Phase 2 -- commit shared files:**
+
+```bash
 git add library/candidate-queue.md logbook/library.log
 git diff --cached --stat   # verify ONLY your paths are staged
 git commit -m "library: discovery cycle -- N candidates proposed across M domains"

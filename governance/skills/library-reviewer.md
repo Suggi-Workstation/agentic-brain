@@ -116,7 +116,7 @@ committing.
 - [ ] Logbook entry written to logbook/library.log (PASS / HALT)
 - [ ] Logbook entry format: each data field on its own line, matching the step 9 example exactly (PASS / HALT)
 - [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous (PASS / HALT)
-- [ ] Committed on the VPS clone: only this cycle's paths staged. Never `git add -A` in the shared clone. (PASS / HALT)
+- [ ] Committed on the VPS clone: split-commit pattern followed (topic files first, then pull --rebase + re-read shared files, then commit shared files). Never `git add -A` in the shared clone. (PASS / HALT)
 - [ ] Watcher push verified: AHEAD: 0 or fresh push line in /srv/brain/logs/brain-pull.log (PASS / HALT)
 
 ## Procedure
@@ -299,11 +299,38 @@ failures only.
 The watcher pushes within 1 min and reindexes. Verify after ~1 min:
 `AHEAD: 0`, or a fresh push line in /srv/brain/logs/brain-pull.log.
 
-VPS agents:
+**Split-commit pattern (prevents shared-file race conditions):**
+
+The topic files you reviewed are unique -- no other agent touches the
+same topic file in the same cycle. But shared files (library.log,
+index files, candidate-queue.md) can be modified by other agents
+running simultaneously. To avoid overwriting their changes, commit
+the topic files first, then sync and re-read shared files before
+modifying them.
+
+**Phase 1 -- commit the reviewed topic files (no race possible):**
 
 ```bash
 cd /srv/brain/agentic-brain
-git add library/<domain>/<topic-slug>.md library/index-library.md library/*/index-*.md logbook/library.log
+git add library/<domain>/<topic-slug>.md
+git commit -m "library: review -- <topic-slug> reviewed + updated"
+```
+
+**Phase 2 -- sync, re-read, then commit shared files:**
+
+```bash
+git pull --rebase origin main
+```
+
+Re-read `logbook/library.log` from the filesystem -- it may have
+changed since you last read it. Append your logbook entry to the
+CURRENT version, not the version you read earlier. Re-run the index
+regeneration script if other agents wrote new topics during your
+session:
+
+```bash
+/opt/repo-tools/venv/bin/python scripts/index-library.py
+git add library/index-library.md library/*/index-*.md logbook/library.log
 git diff --cached --stat   # verify ONLY your paths are staged
 git commit -m "library: review cycle -- N topics reviewed (M current, K rewritten)"
 ```
