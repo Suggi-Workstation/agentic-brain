@@ -395,3 +395,10 @@ Dropped candidates (below cutoff):
 - IPOs and the Going-Public Process (8.54): gap=9.0, compounding=8.0, timeliness=8.0, balance=8.9
 - Market Microstructure: How Exchanges, Order Flow, and Liquidity Shape Prices (8.31): gap=9.0, compounding=7.5, timeliness=7.5, balance=8.9
 Domain balance: notable-people (8 topics), pop-culture (8) to case-studies (9), finance (9), history (9), technology (9).
+
+## [ENT-245] | 2026-08-27 20:02 UTC | Library Runner | library | ref: library/coding-agentic-ai/agent-observability-and-debugging.md | see: candidate-agent-observability-and-debugging-20260825
+Wrote topic Agent Observability and Debugging -- Why You Cannot Fix What You Cannot See Inside an Agent Run to coding-agentic-ai. Weighted score: 9.2/10.0
+(core=9.5, scope=9.5, value=8.5, authority=8.5).
+Similarity overlap: 30%.
+Sources: 12 (7 high, 4 medium, 1 low).
+Cross-references: 5 topics.

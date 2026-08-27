@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Agent Observability and Debugging: Making Agent Behavior Transparent
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
-- **Scope:** Examines the challenge of observing, tracing, and debugging autonomous agent systems whose behavior emerges from multi-step reasoning chains. Covers trace logging, token-level inspection, replay debugging, evaluation harnesses for agent runs, and the tools and patterns for diagnosing why an agent failed. Connects to agent evaluation, context management, and harness design as the engineering discipline for reliable agent deployment.
-- **Status:** proposed
-
 ## Candidate: Market Structures: From Monopoly to Perfect Competition
 - **Domain:** macro-micro
 - **Proposed by:** Library-Runner
