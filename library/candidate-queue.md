@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Comparative Education Systems: How Different Nations Structure Learning
-- **Domain:** education-learning
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 8.9/10.0 (gap=9.5, compounding=8.0, timeliness=8.0, balance=10.0)
-- **Scope:** Examines how different nations structure their education systems and what outcomes those structures produce. Covers the models of Finland, Singapore, South Korea, Germany, and the US, analyzing differences in tracking, standardized testing, teacher preparation, and equity. Explores what comparative evidence reveals about the trade-offs between excellence and equality, and what lessons transfer across cultural and institutional contexts. Connects to pedagogy, assessment, and the economics of education.
-- **Status:** proposed
-
 ## Candidate: Tool Use and Function Calling: How Agents Invoke External Capabilities
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Library-Runner
