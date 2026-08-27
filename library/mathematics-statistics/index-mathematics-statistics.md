@@ -1,10 +1,12 @@
 # Mathematics Statistics -- Topics
 
-7 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
+8 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
 
 - [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md) -- [reviewed: never] -- Bayesian statistics is a framework for inference in which probability represents a degree of belief rather than a limiting relative frequency. At its core is Bayes' theorem, which prescribes exactly how prior knowledge should be combined with observed data to produce updated beliefs -- the posterior distribution.
 
 - [Causal Inference -- Why Most Statistical Tools Only Measure Association, Not Causation](causal-inference.md) -- [reviewed: never] -- Causal inference is the subfield of statistics and methodology that asks the question standard statistics cannot answer: what would happen if we intervened in the world? Most statistical tools -- regression, correlation, machine learning -- measure association, not causation. They tell us that two things occur together, but not whether one causes the other.
+
+- [Experimental Design -- The Architecture That Separates Evidence from Anecdote](experimental-design.md) -- [reviewed: never] -- Experimental design is the discipline of structuring empirical studies so that their results support valid causal inference. It is not enough to collect data and run a statistical test -- the way data is collected determines whether a test can answer the question posed. Good experimental design controls confounding variables, quantifies random error, and produces results that other researchers can replicate.
 
 - [Information Theory -- How Claude Shannon Made Information a Measurable Quantity, Defined the Absolute Limits of Communication, and Built the Mathematical Foundation of the Digital Age](information-theory.md) -- [reviewed: never] -- Information theory is the mathematical framework, created by Claude Shannon in 1948, for quantifying information, measuring uncertainty, and determining the fundamental limits of data compression and reliable communication. Shannon's decisive move was to discard meaning entirely -- information became a property of probability distributions, and he proved that every communication channel has a fixed capacity below which error-free transmission is possible and above which it is impossible.
 
