@@ -25,14 +25,6 @@
 
 
 
-## Candidate: International Law and Treaties: The Framework of Global Order
-- **Domain:** law-regulation
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 9.1/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Examines international law as the rules governing relations between states, covering treaties, customary law, sovereignty, and the role of institutions like the UN and ICJ. Explores enforcement challenges, the tension between state sovereignty and human rights, and how international trade law and dispute resolution shape global commerce. Connects to geopolitics, constitutional law, and the evolving framework of rules in an era of great-power competition.
-- **Status:** proposed
-
 ## Candidate: Credit Analysis: Assessing Default Risk and Creditworthiness
 - **Domain:** finance
 - **Proposed by:** Library-Runner

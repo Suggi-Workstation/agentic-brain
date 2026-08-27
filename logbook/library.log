@@ -437,3 +437,10 @@ Candidates (held -- queue full):
 - Unemployment and Labor Markets: The Dynamics of Job Creation and Loss (8.82): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
 - Public Speaking and Presentation: The Art of Oral Persuasion (8.50): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
 Domain balance: books (7 topics), coding-agentic-ai (7), communication (7), education-learning (7), law-regulation (7), macro-micro (7) to industries-sectors (10), psychology-behavior (10), self-improvement (10).
+
+## [ENT-237] | 2026-08-27 06:02 UTC | Library Runner | library | ref: library/law-regulation/international-law-and-treaties.md | see: candidate-international-law-and-treaties-20260825
+Wrote topic International Law and Treaties to law-regulation. Weighted score: 9.0/10.0
+(core=9.0, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 9 (8 high, 1 medium, 0 low).
+Cross-references: 4 topics.
