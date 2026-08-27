@@ -26,13 +26,6 @@
 
 
 
-## Candidate: Curriculum Design and Sequencing: The Architecture of Learning
-- **Domain:** education-learning
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 8.9/10.0 (gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** Explores how curriculum designers sequence content to build knowledge incrementally -- from spiral curricula to mastery learning to competency-based progressions. Covers the tension between breadth and depth, the role of prerequisites and cognitive load in sequencing decisions, and evidence from cognitive science on optimal learning progressions. Connects to cognitive load theory, assessment design, and pedagogy, bridging learning theory with practical educational architecture.
-- **Status:** proposed
 
 ## Candidate: Contract Law: The Foundation of Commerce and Cooperation
 - **Domain:** law-regulation
