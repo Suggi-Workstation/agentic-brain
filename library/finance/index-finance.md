@@ -1,6 +1,6 @@
 # Finance -- Topics
 
-7 topics. Anchor: [anchor-finance.md](anchor-finance.md)
+8 topics. Anchor: [anchor-finance.md](anchor-finance.md)
 
 - [Banking -- Why Borrowing Short and Lending Long Is Both the Business Model and the Fatal Flaw](banking-maturity-transformation.md) -- [reviewed: never] -- Banking is the business of maturity transformation: taking in short-term deposits and using them to fund long-term loans. This structural mismatch between liquid liabilities and illiquid assets is the engine of bank profitability -- banks earn the spread between short-term deposit rates and long-term loan rates -- but it is also the source of their inherent fragility.
 
@@ -9,6 +9,8 @@
 - [Capital Structure -- Why Debt, Equity, and the Modigliani-Miller Theorem Define Corporate Finance](capital-structure-modigliani-miller.md) -- [reviewed: never] -- Capital structure -- the mix of debt and equity a firm uses to finance itself -- is one of the most studied and debated questions in finance. In 1958, Franco Modigliani and Merton Miller proved that in a perfect market, capital structure is irrelevant: a firm's value depends solely on its earnings power, not on how it is financed.
 
 - [Cost of Capital and WACC -- Why the Price of Funding Determines Every Investment Decision](cost-of-capital-and-wacc.md) -- [reviewed: never] -- The cost of capital is the minimum return a company must earn on its investments to satisfy the investors and lenders who provide its funding. The weighted average cost of capital (WACC) blends the cost of equity and the after-tax cost of debt into a single discount rate, weighted by how much of each source the company uses.
+
+- [Credit Analysis -- Why Assessing Default Risk Is the Discipline That Makes Lending Possible](credit-analysis-default-risk.md) -- [reviewed: never] -- Credit analysis is the systematic evaluation of a borrower's ability and willingness to repay debt, combining quantitative financial ratios, qualitative judgment, and structured risk frameworks into an assessment of default probability and loss severity. It is the foundational discipline of all lending -- from a community bank evaluating a small business loan to a global rating agency assigning a AAA grade to a sovereign bond issuer.
 
 - [Dividend Policy and Share Buybacks -- Why Returning Capital to Shareholders Is a Strategic Choice, Not Arithmetic](dividend-policy-and-share-buybacks.md) -- [reviewed: never] -- Dividend policy and share buybacks are the two primary mechanisms by which companies return capital to shareholders, and the choice between them -- and the decision to return capital at all -- is among the most consequential and debated in corporate finance. In a frictionless world, the Modigliani-Miller dividend irrelevance theorem proves that payout policy does not affect firm value.
 
