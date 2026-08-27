@@ -27,14 +27,6 @@
 
 
 
-## Candidate: Contract Law: The Foundation of Commerce and Cooperation
-- **Domain:** law-regulation
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 8.9/10.0 (gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** Examines contract law as the legal foundation of all voluntary exchange -- how enforceable agreements are formed, interpreted, and remedied when breached. Covers offer and acceptance, consideration, the parol evidence rule, damages and specific performance, and the economic theory of efficient breach. Explores why contract law is the institutional infrastructure that makes markets possible, connecting to corporate law, securities regulation, and the broader architecture of commerce.
-- **Status:** proposed
-
 ## Candidate: Experimental Design: The Architecture of Valid Inference
 - **Domain:** mathematics-statistics
 - **Proposed by:** Library-Runner
