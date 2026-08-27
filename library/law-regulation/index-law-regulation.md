@@ -1,6 +1,6 @@
 # Law Regulation -- Topics
 
-6 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+7 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
 
 - [Constitutional Law and Governance Structures -- Why Constitutional Design Choices Made Centuries Ago Shape Modern Political Outcomes](constitutional-law-governance-structures.md) -- [reviewed: never] -- Constitutional law is the architecture of state power: it defines how government authority is distributed, constrained, and legitimated through founding documents, judicial interpretation, and institutional norms. A nation's constitutional design -- whether it adopts a parliamentary or presidential system, a federal or unitary structure, a rigid or flexible amendment process -- determines not...
 
@@ -9,6 +9,8 @@
 - [Criminal Law and Justice Systems -- Why Most Cases Never See a Trial and What Punishment Actually Achieves](criminal-law-justice-systems.md) -- [reviewed: never] -- Criminal law is the body of law that defines offenses against the state and prescribes the consequences. Beneath the familiar surface of trials and jury verdicts lies a system where over 90% of cases are resolved by plea bargain, where the theory of what punishment achieves is deeply contested, and where two fundamentally different procedural traditions -- adversarial and inquisitorial -- shape everything from how evidence is gathered to who controls the narrative in court.
 
 - [Intellectual Property -- The Legal Fiction That Turns Ideas Into Property and Shapes the Modern Economy](intellectual-property.md) -- [reviewed: never] -- Intellectual property (IP) is the body of law that grants exclusive rights over intangible creations -- inventions, artistic works, brand identifiers, and trade secrets. By creating a temporary monopoly on ideas, IP law attempts to solve a fundamental economic problem: without protection, knowledge goods are non-rivalrous and non-excludable, meaning anyone can copy them at zero marginal cost, which would eliminate the incentive to create them in the first place.
+
+- [International Law and Treaties -- The Decentralized Framework of Global Order](international-law-and-treaties.md) -- [reviewed: never] -- International law is the body of rules that governs relations between sovereign states, created not by a single legislature but through the consent of the states it binds. Its primary instruments are treaties -- written agreements between states governed by international law -- supplemented by customary practice, general principles, and judicial decisions.
 
 - [Regulatory Capture Theory -- Why the Regulated Inevitably Come to Control Their Regulators](regulatory-capture-theory.md) -- [reviewed: never] -- Regulatory capture theory holds that regulatory agencies, created to protect the public interest, inevitably come to serve the industries they were designed to oversee. First formalized by Nobel laureate George Stigler in his landmark 1971 paper "The Theory of Economic Regulation," the theory argues that regulation is not imposed on industry for the public good but is instead acquired by industry and operated primarily for its benefit.
 
