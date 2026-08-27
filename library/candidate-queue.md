@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Tool Use and Function Calling: How Agents Invoke External Capabilities
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 9.45/10.0 (gap=9.5, compounding=9.0, timeliness=9.5, balance=10.0)
-- **Scope:** Explains how AI agents use tools and function calling to interact with external systems -- the bridge between reasoning and action. Covers function calling schemas, tool selection strategies, error handling and retry logic, and the trade-offs between parallel and sequential tool invocation. Connects to agent architecture, context management, and multi-agent orchestration as the execution layer that makes agents useful.
-- **Status:** proposed
-
 ## Candidate: Agent Observability and Debugging: Making Agent Behavior Transparent
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Library-Runner
