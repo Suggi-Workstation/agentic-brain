@@ -25,13 +25,6 @@
 
 
 
-## Candidate: Credit Analysis: Assessing Default Risk and Creditworthiness
-- **Domain:** finance
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 9.0/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Explains credit analysis as the systematic assessment of a borrower's ability and willingness to repay debt. Covers the five C's of credit, financial ratio analysis for leverage and coverage, bond credit ratings, and the distinction between investment-grade and speculative-grade risk. Connects to bond pricing, financial statement analysis, and banking business models, positioning credit analysis as essential infrastructure for fixed-income markets.
-- **Status:** proposed
 
 ## Candidate: Curriculum Design and Sequencing: The Architecture of Learning
 - **Domain:** education-learning
