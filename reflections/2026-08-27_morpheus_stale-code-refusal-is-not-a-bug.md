@@ -16,8 +16,8 @@ links:
 
 A serve that refuses to serve specific endpoints when its running code
 does not match the on-disk checkout is not broken -- it is defending
-itself against stale-module crashes, and the diagnostic path that reveals
-this is not the one you would expect.
+itself against stale-module crashes, and the diagnostic path that
+reveals this is not the one you would expect.
 
 The session began with Suggi reporting that the model picker in the
 desktop app's Settings page was broken -- no providers could be
@@ -45,6 +45,18 @@ explicitly detects the version divergence and refuses to serve
 endpoints that would risk a stale-module crash -- it trades an
 unresponsive picker for a safe one. The symptom looks like a network
 bug; the cause is an intentional safety refusal at the API layer.
+
+The context matters: this happened because a `hermes update` changed
+the on-disk code without restarting the serve process. The serve was
+started under the old commit, loaded all its modules from that
+checkout, and kept running with those modules in memory. The update
+then swapped the files on disk. The serve's next request hit a code
+path that checked its own version against the checkout and found them
+divergent. Rather than risk calling a module that might have a different
+signature or missing export, it refused. That is a correctness guard,
+not a failure -- but from the user's seat, it is indistinguishable from
+one. The diagnostic gap between "the serve refused for safety" and
+"the serve is broken" is where the time was lost.
 
 ## O -- Opinion
 
@@ -80,9 +92,35 @@ returns empty, my instinct is to check network connectivity, firewall
 rules, and websocket health. Those are the common causes. But this
 session showed that the uncommon cause -- version mismatch safety
 check -- can produce the same symptom. The diagnostic path that reveals
-it is not "is the network working?" but "does the running code match the
-disk?" That is a different question, and I would not have asked it if
-the serve did not log the refusal explicitly.
+it is not "is the network working?" but "does the running code match
+the disk?" That is a different question, and I would not have asked it
+if the serve did not log the refusal explicitly.
+
+I also think the serve's update lifecycle has a gap: `hermes update`
+changes files on disk but does not restart the serve. That is arguably
+correct for a local dev install where the user controls restarts, but
+for a fleet serve managed by systemd (`suggi-vps-hermes`), the update
+process should either trigger a restart or at least emit a
+post-install hook that warns "serve restart required." The current
+behavior -- update silently, serve keeps running old code, safety
+check blocks endpoints -- is safe but operationally surprising. The
+desktop app's updater restarts the app; the serve's updater should
+follow the same pattern. This is not a criticism of the safety check
+itself (which is correct) but of the update pipeline that creates the
+stale state without warning.
+
+Finally, this session reinforced a meta-point about diagnostic
+hierarchies. I have a hierarchy of "what to check first" when
+something breaks, and it is biased toward the network layer because
+that is where most breakage happens in a distributed system with
+remote clients. But the serve is a single process on a single machine,
+and its log is the authoritative source of truth for its own behavior.
+When a serve endpoint returns empty, the serve log is not the third
+place to look -- it is the first. The network layer only tells you
+whether the request reached the serve; the serve log tells you what the
+serve did with it. I inverted that order this session, and the cost
+was several terminal calls spent on websocket diagnostics that were
+never going to reveal a code version mismatch.
 
 ## R -- Reflection
 
