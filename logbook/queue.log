@@ -436,3 +436,15 @@ Workstreams:
 - Watcher E2E re-proven on all three repos: create/delete cycles pushed within one tick, chunk counts exact (+1/-1 to baseline 5277/99/180), tokens searchable then gone. Canonical query skills synced to runtime truth.
 - stock-report-pull test skill drafted for the filings pipeline (twin-with-provenance design); converter install deferred pending architecture decisions with Suggi.
 Reflection: 2026-08-24_morpheus_limits-are-choices-in-disguise.md. Daily memory: 2026-08-24.md.
+
+## [ENT-074] | 2026-08-27 13:49 UTC | Morpheus | general | ref: reflections/2026-08-27_morpheus_stale-code-refusal-is-not-a-bug.md | see: 20260827T134937Z
+Session: Atlas skin + serve fix + PC auto-launch cleanup.
+Workstreams:
+- Serve model picker broken: root cause was code version mismatch (running 6ce7ab8bfb vs disk 5fc308a707). Serve has stale-code safety check that refuses /api/model/options. Restart of suggi-vps-hermes fixed it.
+- PC auto-launch on reboot: found leftover Windows Scheduled Task "Hermes" (logon trigger, created 2026-08-25 22:04 by remote repair session). Deleted at Suggi direction. No Hermes code creates bare "Hermes" task -- only "Hermes_Gateway" tasks exist.
+- Atlas skin color changed from #000129 to #01232b across serve YAML, Atlas profile, and PC suggi-skins plugin.js. Laptop plugin updated.
+- Removed 7 Neo-remnant personal skills from Atlas profile (governance/preflight, session-end, learnings-capture, workspace-ops, query-workspace-neo, 2 investing skills).
+- Added workspace search retrieval section to Atlas AGENTS.md (commit ac98cbb).
+- Answered Claude/OpenAI subscription-as-API bridge ToS questions for Suggi.
+- Cleaned 10 scratch .ps1 scripts from PC home dir.
+Reflection: 2026-08-27_morpheus_stale-code-refusal-is-not-a-bug.md. Daily memory: 2026-08-27.md.
