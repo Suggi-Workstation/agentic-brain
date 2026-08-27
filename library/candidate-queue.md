@@ -27,13 +27,6 @@
 
 
 
-## Candidate: Experimental Design: The Architecture of Valid Inference
-- **Domain:** mathematics-statistics
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 8.9/10.0 (gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** Explains the principles of experimental design that make research findings valid and reproducible. Covers randomization, control groups, blinding, factorial designs, sample size determination, and threats to internal and external validity. Explores the replication crisis in science and how design choices like pre-registration address it. Connects to causal inference, statistical inference, and Bayesian methods, positioning experimental design as the architecture that separates evidence from anecdote.
-- **Status:** proposed
 
 ## Candidate: Comparative Education Systems: How Different Nations Structure Learning
 - **Domain:** education-learning
