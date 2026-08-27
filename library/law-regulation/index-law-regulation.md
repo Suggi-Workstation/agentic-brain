@@ -1,8 +1,10 @@
 # Law Regulation -- Topics
 
-7 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+8 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
 
 - [Constitutional Law and Governance Structures -- Why Constitutional Design Choices Made Centuries Ago Shape Modern Political Outcomes](constitutional-law-governance-structures.md) -- [reviewed: never] -- Constitutional law is the architecture of state power: it defines how government authority is distributed, constrained, and legitimated through founding documents, judicial interpretation, and institutional norms. A nation's constitutional design -- whether it adopts a parliamentary or presidential system, a federal or unitary structure, a rigid or flexible amendment process -- determines not...
+
+- [Contract Law -- The Legal Architecture That Makes Voluntary Exchange Enforceable and Markets Possible](contract-law-foundations.md) -- [reviewed: never] -- Contract law is the body of legal rules that governs the formation, interpretation, and enforcement of voluntary agreements between parties. It provides the institutional infrastructure that transforms promises into legally binding obligations, making commerce and economic cooperation possible at scale.
 
 - [Corporate Law and Governance -- The Legal Architecture That Separates Ownership From Control and Why It Determines Who Really Runs the Modern Firm](corporate-law-governance.md) -- [reviewed: never] -- Corporate law is the legal framework that creates the corporation as an artificial legal person -- an entity that can own property, enter contracts, sue and be sued, and exist perpetually beyond its founders. At the heart of this framework is a fundamental tension identified by Adolf Berle and Gardiner Means in 1932: the separation of ownership (shareholders) from control (managers) creates an agency problem where those who run the firm may not act in the interests of those who own it.
 
