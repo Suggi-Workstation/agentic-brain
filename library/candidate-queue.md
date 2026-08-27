@@ -24,13 +24,6 @@
 
 
 
-## Candidate: Cost of Capital and WACC: The Price of Funding
-- **Domain:** finance
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 9.1/10.0 (gap=9.5, compounding=9.0, timeliness=7.5, balance=10.0)
-- **Scope:** Explains the cost of capital as the minimum return investors require for providing funds, and how WACC blends the cost of equity and debt into a single discount rate. Covers the capital asset pricing model for equity cost, after-tax debt cost, optimal capital structure, and common pitfalls in WACC estimation. Positions cost of capital as the bridge between corporate finance decisions and valuation, connecting to capital structure theory and financial statement analysis.
-- **Status:** proposed
 
 ## Candidate: International Law and Treaties: The Framework of Global Order
 - **Domain:** law-regulation
