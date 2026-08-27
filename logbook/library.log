@@ -426,3 +426,14 @@ Wrote topic Cost of Capital and WACC: The Price of Funding to finance. Weighted 
 Similarity overlap: 35%.
 Sources: 8 (5 high, 3 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-236] | 2026-08-27 05:47 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 0 candidates proposed (queue at capacity, 25/25 proposed), 6 scored and held for next cycle.
+Candidates (held -- queue full):
+- Agent Sandboxing and Security: Isolating Autonomous Code Execution (9.23): gap=9.5, compounding=8.5, timeliness=9.0, balance=10.0
+- Environmental Law: Regulating the Commons (9.00): gap=9.5, compounding=8.0, timeliness=8.5, balance=10.0
+- The Signal and the Noise: Why So Many Predictions Fail (8.85): gap=9.0, compounding=9.0, timeliness=7.5, balance=10.0
+- Online Learning and MOOCs: How Digital Platforms Reshape Education (8.82): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Unemployment and Labor Markets: The Dynamics of Job Creation and Loss (8.82): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Public Speaking and Presentation: The Art of Oral Persuasion (8.50): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
+Domain balance: books (7 topics), coding-agentic-ai (7), communication (7), education-learning (7), law-regulation (7), macro-micro (7) to industries-sectors (10), psychology-behavior (10), self-improvement (10).
