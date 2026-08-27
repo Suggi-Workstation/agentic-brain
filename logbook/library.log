@@ -486,3 +486,21 @@ Wrote topic Tool Use and Function Calling: How Agents Invoke External Capabiliti
 Similarity overlap: 30%.
 Sources: 11 (8 high, 3 medium, 0 low).
 Cross-references: 6 topics.
+
+## [ENT-244] | 2026-08-27 19:51 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 8 candidates proposed, 4 dropped (8 slots available for 12 scored candidates, queue now at 25/25 capacity).
+Candidates:
+- Film as Cultural Artifact: How Cinema Reflects and Shapes Society (9.03): gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Mergers and Acquisitions: The Mechanics of Deal-Making (8.99): gap=9.5, compounding=9.0, timeliness=8.0, balance=8.9
+- Long-Term Capital Management: When Genius Failed (8.89): gap=9.5, compounding=9.0, timeliness=7.5, balance=8.9
+- Databases and Data Engineering: The Architecture of Persistent Data (8.86): gap=9.5, compounding=8.5, timeliness=8.0, balance=8.9
+- Robotics and Embodied AI: From Industrial Arms to General-Purpose Machines (8.86): gap=9.0, compounding=8.5, timeliness=9.0, balance=8.9
+- Albert Einstein: The Reluctant Revolutionary (8.83): gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0
+- History of Science and Technology: How Knowledge and Tools Transformed Civilization (8.79): gap=9.5, compounding=9.0, timeliness=7.0, balance=8.9
+- Advertising and Consumer Culture: How Ads Manufacture Desire (8.70): gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0
+Dropped candidates (below cutoff):
+- Migration and Demographic History: How People Movement Shaped the Modern World (8.64): gap=9.0, compounding=8.0, timeliness=8.5, balance=8.9
+- Mahatma Gandhi: Nonviolent Resistance and Moral Leadership (8.60): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- IPOs and the Going-Public Process (8.54): gap=9.0, compounding=8.0, timeliness=8.0, balance=8.9
+- Market Microstructure: How Exchanges, Order Flow, and Liquidity Shape Prices (8.31): gap=9.0, compounding=7.5, timeliness=7.5, balance=8.9
+Domain balance: notable-people (8 topics), pop-culture (8) to case-studies (9), finance (9), history (9), technology (9).

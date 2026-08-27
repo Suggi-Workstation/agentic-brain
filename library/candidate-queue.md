@@ -163,3 +163,67 @@
 - **Discovery score:** 8.32/10.0 (gap=8.5, compounding=8.0, timeliness=8.0, balance=8.8)
 - **Scope:** Compares how different nations structure healthcare delivery and financing -- from single-payer systems to insurance-based models to mixed public-private hybrids. Covers the Beveridge, Bismarck, and National Health Insurance models, cost control mechanisms, wait times, and the trade-offs between equity, quality, and innovation. Connects to public health, health economics, and policy as the system-level architecture of medical care.
 - **Status:** proposed
+
+## Candidate: Film as Cultural Artifact: How Cinema Reflects and Shapes Society
+- **Domain:** pop-culture
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-27
+- **Discovery score:** 9.03/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** Analyzes cinema as a primary source for understanding the societies that produce and consume it -- how films encode the cultural values, anxieties, and aspirations of their era. Covers narrative and visual language, genre evolution, national cinemas, and the studio system. Connects to prestige television, music as cultural phenomenon, and propaganda as the most influential storytelling medium of the 20th century.
+- **Status:** proposed
+
+## Candidate: Mergers and Acquisitions: The Mechanics of Deal-Making
+- **Domain:** finance
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-27
+- **Discovery score:** 8.99/10.0 (gap=9.5, compounding=9.0, timeliness=8.0, balance=8.9)
+- **Scope:** Examines the mechanics of mergers and acquisitions -- how deals are structured, financed, priced, and integrated. Covers synergy valuation, due diligence, leveraged buyouts, hostile takeovers, and the empirical evidence on why most acquisitions destroy value. Connects to capital structure, cost of capital, and acquisition accounting tricks as the deal-making layer of corporate finance.
+- **Status:** proposed
+
+## Candidate: Long-Term Capital Management: When Genius Failed
+- **Domain:** case-studies
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-27
+- **Discovery score:** 8.89/10.0 (gap=9.5, compounding=9.0, timeliness=7.5, balance=8.9)
+- **Scope:** Analyzes the 1998 collapse of Long-Term Capital Management -- how Nobel-laureate brainpower, extreme leverage, and crowded convergence trades produced a near-meltdown of the global financial system. Covers the arbitrage strategy, model risk, the Federal Reserve-orchestrated bailout, and the enduring lessons about leverage, liquidity, and hubris. Connects to tail-risk hedging, the 2008 financial crisis, and portfolio risk management.
+- **Status:** proposed
+
+## Candidate: Databases and Data Engineering: The Architecture of Persistent Data
+- **Domain:** technology
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-27
+- **Discovery score:** 8.86/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=8.9)
+- **Scope:** Explains how databases and data engineering store, organize, and serve the data behind every modern application. Covers the relational model and SQL, NoSQL and distributed systems, data modeling, indexing and query optimization, and the modern data pipeline from ingestion to warehouse. Connects to cloud computing, software architecture, and distributed systems as the persistence layer of the computing stack.
+- **Status:** proposed
+
+## Candidate: Robotics and Embodied AI: From Industrial Arms to General-Purpose Machines
+- **Domain:** technology
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-27
+- **Discovery score:** 8.86/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=8.9)
+- **Scope:** Surveys the evolution of robotics from fixed industrial arms to general-purpose humanoids and embodied AI agents. Covers sensing and perception, motion planning and control, reinforcement learning for manipulation, and the integration of large language models as robot reasoning layers. Connects to large language models, semiconductors, and automation economics as the physical frontier of artificial intelligence.
+- **Status:** proposed
+
+## Candidate: Albert Einstein: The Reluctant Revolutionary
+- **Domain:** notable-people
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-27
+- **Discovery score:** 8.83/10.0 (gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0)
+- **Scope:** Profiles Albert Einstein's life, work, and decision-making -- from the patent office years and the 1905 miracle year to relativity, his quantum skepticism, and his public role as a moral voice. Covers his intellectual evolution, his failures and refusals, his key relationships, and the durable lessons of his example for creative and independent thinking. Connects to science, history, and ethics-philosophy.
+- **Status:** proposed
+
+## Candidate: History of Science and Technology: How Knowledge and Tools Transformed Civilization
+- **Domain:** history
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-27
+- **Discovery score:** 8.79/10.0 (gap=9.5, compounding=9.0, timeliness=7.0, balance=8.9)
+- **Scope:** Traces how scientific knowledge and technological invention have transformed civilization -- from the scientific revolution and the age of instruments to industrialization, computing, and the modern research enterprise. Covers key turning points, the institutionalization of science, and how tools shape what is knowable. Connects to the industrial revolution, technology, and the history of capitalism as the arc of knowledge-driven change.
+- **Status:** proposed
+
+## Candidate: Advertising and Consumer Culture: How Ads Manufacture Desire
+- **Domain:** pop-culture
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-27
+- **Discovery score:** 8.70/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0)
+- **Scope:** Analyzes advertising as a system for manufacturing desire -- how commercial persuasion shapes identity, consumption norms, and cultural values. Covers the psychology of persuasion, brand-building, advertising's relationship with media business models, and the shift from mass broadcast to algorithmic targeting. Connects to propaganda, social influence, and consumer psychology as the commercial persuasion engine of modern culture.
+- **Status:** proposed
