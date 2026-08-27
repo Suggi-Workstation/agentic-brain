@@ -1,10 +1,12 @@
 # Education Learning -- Topics
 
-6 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
+7 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
 - [Assessment and Testing -- What We Measure Shapes What We Learn, and Most Tests Measure the Wrong Things](assessment-and-testing.md) -- [reviewed: never] -- Assessment is not a neutral measurement tool. It is the single most powerful lever for shaping student behavior, curriculum design, and institutional priorities in education. The backwash effect -- the principle that assessment drives learning more than any curriculum document -- means that what we choose to test determines what students choose to learn.
 
 - [Cognitive Load Theory -- Why Working Memory Is the Bottleneck That Determines Whether Instruction Works](cognitive-load-theory.md) -- [reviewed: never] -- Cognitive Load Theory (CLT), developed by John Sweller in the late 1980s, is the most powerful explanatory framework in instructional psychology for a simple reason: it starts from the hardware. Human working memory can hold roughly four to seven items at once, while long-term memory is effectively unlimited.
+
+- [Curriculum Design and Sequencing -- How the Architecture of Learning Progressions Determines What Students Actually Learn](curriculum-design-and-sequencing.md) -- [reviewed: never] -- Curriculum design is the engineering discipline of education: the decisions about what to teach, in what order, and at what depth determine whether learners build coherent knowledge structures or accumulate disconnected fragments. The sequencing of content is not a neutral administrative choice -- it is the primary mechanism by which cognitive load is managed, prerequisites are honored, and knowledge compounds across time.
 
 - [Deliberate Practice -- Why Expertise Is Not a Gift but a Method, and Why Most Practice Does Not Work](deliberate-practice.md) -- [reviewed: never] -- Deliberate practice is a specific, evidence-based method for developing expert performance, first identified by K. Anders Ericsson in his landmark 1993 study of elite violinists. The central finding is that expertise does not arise from innate talent or from the accumulation of experience alone -- it arises from a particular kind of practice: focused, effortful, designed to target specific weaknesses at the edge of current ability, and guided by immediate feedback.
 
