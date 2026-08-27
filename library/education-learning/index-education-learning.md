@@ -1,10 +1,12 @@
 # Education Learning -- Topics
 
-7 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
+8 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
 - [Assessment and Testing -- What We Measure Shapes What We Learn, and Most Tests Measure the Wrong Things](assessment-and-testing.md) -- [reviewed: never] -- Assessment is not a neutral measurement tool. It is the single most powerful lever for shaping student behavior, curriculum design, and institutional priorities in education. The backwash effect -- the principle that assessment drives learning more than any curriculum document -- means that what we choose to test determines what students choose to learn.
 
 - [Cognitive Load Theory -- Why Working Memory Is the Bottleneck That Determines Whether Instruction Works](cognitive-load-theory.md) -- [reviewed: never] -- Cognitive Load Theory (CLT), developed by John Sweller in the late 1980s, is the most powerful explanatory framework in instructional psychology for a simple reason: it starts from the hardware. Human working memory can hold roughly four to seven items at once, while long-term memory is effectively unlimited.
+
+- [Comparative Education Systems -- How National Structures Trade Excellence Against Equity](comparative-education-systems.md) -- [reviewed: never] -- Comparative education is the study of how nations structure schooling and what those structures produce. Five systems -- Finland, Singapore, South Korea, Germany, and the United States -- sit near the top of the world's achievement rankings on one dimension or another, yet their institutions could hardly differ more: a nearly test-free Nordic system, two exam-driven East Asian meritocracies, a vocationally tracked European one, and a locally governed American one.
 
 - [Curriculum Design and Sequencing -- How the Architecture of Learning Progressions Determines What Students Actually Learn](curriculum-design-and-sequencing.md) -- [reviewed: never] -- Curriculum design is the engineering discipline of education: the decisions about what to teach, in what order, and at what depth determine whether learners build coherent knowledge structures or accumulate disconnected fragments. The sequencing of content is not a neutral administrative choice -- it is the primary mechanism by which cognitive load is managed, prerequisites are honored, and knowledge compounds across time.
 
