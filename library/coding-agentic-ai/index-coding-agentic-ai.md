@@ -1,6 +1,6 @@
 # Coding Agentic Ai -- Topics
 
-6 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
+7 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
 
 - [Agent Evaluation and Benchmarking -- Why Measuring What AI Agents Can Actually Do Is the Hardest Problem in Agent Engineering](agent-evaluation-and-benchmarking.md) -- [reviewed: never] -- Agent evaluation is the methodological discipline of measuring how well an AI agent performs on multi-step, tool-using tasks -- and the current benchmark landscape systematically overstates real-world capability because it was inherited from single-turn LLM evaluation and has not yet adapted to the multi-step, non-deterministic nature of agentic systems.
 
@@ -13,4 +13,6 @@
 - [Multi-Agent Orchestration -- Why One Agent Is Rarely Enough for Complex Work](multi-agent-orchestration.md) -- [reviewed: never] -- Multi-agent orchestration is the architectural discipline of coordinating multiple AI agents to accomplish tasks that exceed the capability, context window, or reliability of any single agent. Rather than building one monolithic agent that does everything, orchestration decomposes work across specialized agents -- each with its own prompt, tools, and scope -- and defines how they communicate, hand off tasks, and resolve conflicts.
 
 - [Prompt Engineering for Agents -- Why Writing Instructions That Survive a Thousand Tool Calls Is the Central Unsolved Challenge of Agent Engineering](prompt-engineering-for-agents.md) -- [reviewed: never] -- Prompt engineering for AI agents is a fundamentally different discipline from prompt engineering for chatbots. Where a chatbot prompt runs once and produces text, an agent prompt must guide behavior across dozens or hundreds of tool-calling loops -- persisting through accumulating context, surviving tool failures and error states, and producing consistent behavior even when the agent encounters situations the prompt author never anticipated.
+
+- [Tool Use and Function Calling: How Agents Invoke External Capabilities](tool-use-and-function-calling.md) -- [reviewed: never] -- Tool use is the mechanism that turns a language model from a text generator into an agent: instead of producing only words, the model emits a structured request -- a function name and JSON arguments -- that application code executes against external systems, and the execution result is fed back into the model's context for the next turn.
 
