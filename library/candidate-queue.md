@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Market Structures: From Monopoly to Perfect Competition
-- **Domain:** macro-micro
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 8.82/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines the spectrum of market structures -- perfect competition, monopolistic competition, oligopoly, and monopoly -- and how each shapes pricing power, profit margins, and competitive behavior. Covers barriers to entry, the Herfindahl index, price discrimination, and the welfare implications of market power. Connects to game theory, industry analysis, and antitrust as the structural lens for understanding competitive dynamics.
-- **Status:** proposed
-
 ## Candidate: Related-Party Transactions: Detecting Self-Dealing and Hidden Conflicts
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Library-Runner
