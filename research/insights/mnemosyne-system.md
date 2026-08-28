@@ -7,7 +7,9 @@ source:
   - 20260810T112711Z
   - 20260802T124915Z
 author: Link
-tags: [mnemosyne, memory, fleet, shared-memory, architecture, cron, embeddings]
+updated_by: Morpheus
+updated: 20260828T053401Z
+tags: [mnemosyne, memory, fleet, shared-memory, architecture, cron, embeddings, canonical, persona, episodic-publish]
 links:
   - research/insights/two-tier-fleet-memory-single-vector-space.md
   - research/reports/link-hermes-memory-system.md
@@ -23,16 +25,20 @@ links:
 Fleet memory is one end-to-end loop -- every silent failure mode lives at
 exactly one link of the chain (write path, cron ticker, relay, or pull
 path), so the system is only trustworthy when verified link by link, never
-from a single "sync succeeded" report.
+from a single "sync succeeded" report. Since 2026-08-28 the personal tier
+is not just a store but a full cognitive stack (canonical identity, persona
+anchors, fact graph, validation), and the shared tier carries both fleet
+metadata and distilled cross-agent knowledge via the episodic publisher.
 
 ## Evidence
 
 This document is the operational anatomy of the fleet memory system as
-of 2026-08-17: every path, every component, the full data flow, the
+of 2026-08-28: every path, every component, the full data flow, the
 provisioning recipe, and the failure catalog. It complements
 `two-tier-fleet-memory-single-vector-space` (the realization of WHY the
 system is shaped this way) with the WHAT/HOW mechanics, verified live
-on all four fleet agents (Link, Linkie, Morpheus, Neo).
+on the fleet (Link, Linkie, Morpheus, Neo, Atlas, and the three
+runners).
 
 ### 1. Three memory scopes -- never mix them
 
@@ -40,35 +46,52 @@ Fleet knowledge lives in exactly three places. Each has one job.
 
 | Scope | What goes there | Writer | Sync | Reader |
 |:--|:--|:--|:--|:--|
-| Personal Mnemosyne | Private experience, session learnings | Automatic (`mnemosyne_*` tools) | Never leaves the machine | The agent alone |
-| Shared surface DB | Cross-agent stable facts (meta, preference, correction, identity) | Deliberate (`mnemosyne_shared_*` tools) | 5-min cron via blind relay | All fleet agents |
+| Personal Mnemosyne | Private experience, session learnings, extracted facts, identity slots, persona anchors | Automatic (`mnemosyne_*` tools) | Never leaves the machine (EXCEPT distilled episodes, see section 5b) | The agent alone |
+| Shared surface DB | Cross-agent stable facts (meta, preference, correction, identity) + distilled fleet knowledge | Deliberate (`mnemosyne_shared_*` tools) + episodic-publish cron | 5-min cron via blind relay | All fleet agents |
 | Agentic-brain | Governance, library, insights, proposals | Manual (write-* skills) | Git watcher on the VPS | Everyone, indexed |
 
-A personal fact never syncs. A shared fact is fleet-public by design.
-Governance knowledge never enters either DB. (Source: 20260810T112709Z.)
+A personal fact never syncs raw. A shared fact is fleet-public by
+design. Governance knowledge never enters either DB. (Source:
+20260810T112709Z.)
 
-### 2. Personal Mnemosyne (the private tier)
+### 2. Personal Mnemosyne (the private tier -- full stack since 2026-08-28)
 
 One SQLite DB per agent at
 `<profile>/mnemosyne/data/mnemosyne.db`. Hybrid retrieval: dense vectors
 (sqlite-vec) + FTS5 full-text + importance-weighted recall, all inside
-the BEAM model (working / episodic / fact triples). On top sit canonical
-single-source-of-truth slots (`mnemosyne_remember_canonical`) and the
-temporal knowledge graph (`mnemosyne_triple_*`). Consolidation
-(`mnemosyne_sleep`) compresses old working memories into episodic
-summaries. Relevant context is auto-injected into every turn.
+the BEAM model (working / episodic / fact triples). On top sit FIVE
+active layers:
 
-Current fleet sizes (2026-08-17): Link 560 working / 41 episodic,
-Morpheus 35 working / 3 episodic (post-cleanup), Neo/Linkie smaller.
-New memories embed automatically AT WRITE TIME -- no manual reindex
-exists for ordinary writes; reindex is only for model switches or
-corruption repair.
+| Layer | Tool | What it holds | Since |
+|:--|:--|:--|:--|
+| Working memory | `mnemosyne_remember` / `mnemosyne_recall` | Hot context, auto-injected each turn, TTL 168h | birth |
+| Episodic memory | `mnemosyne_sleep` (auto consolidation) | Compressed summaries of stale working memories | birth |
+| Facts + knowledge graph | `mnemosyne_remember(extract=True, extract_entities=True)` | LLM-extracted SPO facts, dates, entities; auto graph edges | 2026-08-28 (policy active) |
+| Canonical slots | `mnemosyne_remember_canonical` | One current value per (owner, category, name) -- identity cards that cannot self-contradict; restating = no-op, changing = supersede-with-history | 2026-08-28 (seeded all agents) |
+| Persona tier (L3) | `mnemosyne_persona_promote` (tier=permanent) | Always-injected anchors independent of recall ranking -- owner, ASCII rule, prime directives, agent-specific anchors; decay via reinforcement, max ~5-10 rows | 2026-08-28 (seeded all agents) |
+| Validation | `mnemosyne_validate` (attest/update/invalidate) | Collaborative fixes: contradiction -> fix or invalidate, never stack duplicates | 2026-08-28 (policy active) |
+
+Veracity discipline: `stated` (Suggi said it), `tool` (tool output),
+`inferred` (agent reasoning). Durable facts never `unknown`.
+
+Fleet sizes (2026-08-28): Morpheus 624 working / 75 episodic / 247
+facts / 6 canonical / 4 persona; Neo 83 / 10 / 31 / 10 / 4; Atlas 44 /
+0 / 16 / 5 / 4. Runners (library/investment/research) have private
+Mnemosyne (2026-08-28) with canonical-lite + persona-lite seeds; their
+crons stay paused unless activated.
 
 Embedding model is fleet-locked: `BAAI/bge-large-en-v1.5`, 1024
 dimensions, set in every profile `.env`
 (`MNEMOSYNE_EMBEDDING_MODEL` + `MNEMOSYNE_EMBEDDING_DIM=1024`) AND in
 the VPS systemd units. One vector space for the whole fleet; mixed
 dimensions are a corruption signal, not a retrieval nuance.
+
+KNOWN LIMIT (verified 2026-08-28): memory banks (per-domain isolation,
+`mnemosyne bank create`) are CLI/SDK-only. The Hermes plugin tools
+(remember/recall) expose no `bank` parameter -- creating banks would
+produce isolated DBs no Hermes tool can write to. Domain isolation is
+therefore NOT active; if ever needed, request bank exposure upstream
+or use `profile_isolation` (one bank per profile).
 
 ### 3. Shared surface DB (the public tier, per agent)
 
@@ -85,10 +108,14 @@ directly for reads or writes. Key internals:
   `configured_push_remote`, `last_pull_cursor_<remote>`, and
   `last_sync_at_<remote>`. This is the first table to read when
   debugging "is my agent in the loop".
-- Device IDs (verified 2026-08-17): Link = `device-99dc8807`,
-  Linkie = `device-0ec2c42d`, Morpheus = `device-aacc572b`,
-  Neo = `device-6f7d8d51`. The relay's `memory_events` table is
-  partitioned by these IDs.
+- Device IDs: Link = `device-99dc8807`, Linkie = `device-0ec2c42d`,
+  Morpheus = `device-aacc572b`, Neo = `device-6f7d8d51` (verified
+  2026-08-17). New agents get a device ID at first sync-init.
+- Content: fleet-stable metadata written deliberately (kinds: meta |
+  preference | correction | identity) PLUS distilled knowledge rows
+  published automatically by the episodic publisher (section 5b).
+  Fleet row counts converge identical on every agent (2026-08-28:
+  45 rows / 18 published episodes on Morpheus, Neo, Atlas alike).
 
 ### 4. The relay (blind conduit on the VPS)
 
@@ -108,17 +135,17 @@ ExecStart: mnemosyne sync-serve --db-path /srv/mnemosyne-shared/mnemosyne.db \
 - Content is end-to-end encrypted with a client-side key (file
   `/srv/mnemosyne-shared/.secrets/encryption-key`, mode 600). The
   relay CANNOT read any memory even if fully compromised.
-- The relay is a conduit, NOT a store. Verified 2026-08-17: 31 rows in
+- The relay is a conduit, NOT a store. Verified 2026-08-28: 91 rows in
   `memory_events` (ciphertext), ZERO rows in `working_memory` /
   `memories`. Its schema tables exist but are never populated.
 - COROLLARY (scar): never point an agent's shared-DB path at the
   relay DB. A DB that is both relay and client reports "Duplicates: N"
   and never materializes content.
-- STALENESS TRAP: the relay main DB's mtime (Aug 10) means nothing.
-  SQLite WAL mode writes live data to `mnemosyne.db-wal`; the main
-  file only advances at checkpoint. Always check `-wal` mtime before
-  calling a store "stale". (This trap drove the Aug 16-17 audit that
-  produced this document.)
+- STALENESS TRAP: the relay main DB's mtime means nothing. SQLite WAL
+  mode writes live data to `mnemosyne.db-wal`; the main file only
+  advances at checkpoint. Always check `-wal` mtime before calling a
+  store "stale". (This trap drove the Aug 16-17 audit that produced
+  this document.)
 
 ### 5. The data flow, end to end
 
@@ -146,8 +173,39 @@ ExecStart: mnemosyne sync-serve --db-path /srv/mnemosyne-shared/mnemosyne.db \
    zero LLM tokens (stdlib-only sync protocol, no model in the data
    path).
 
-Verified fleet-wide 2026-08-17: 18 working rows on Link, Morpheus,
-and Neo (Linkie lags only when his app is closed); 31 relay events.
+### 5b. The episodic publisher (distilled knowledge distribution, since 2026-08-28)
+
+The sync engine scopes to `working_memory` only -- upstream design.
+Episodic summaries do NOT travel by the native protocol. The fleet's
+solution is a publisher layer, not a sync-engine fork:
+
+- Script: `<profile>/scripts/episodic-publish.py` (identical copy per
+  core agent).
+- Reads the agent's PRIVATE `episodic_memory`, keeps only distilled
+  classes -- content starting with `[fact]`, `[insight]`,
+  `[correction]`, `[preference]`, `[lesson]`, `[decision]`. Raw
+  `[conversation]` compressions and `[builtin_memory_memory]`
+  operational rows are EXCLUDED (quality gate: the shared surface
+  carries stable knowledge, not session noise).
+- Writes each surviving episode into the agent's shared surface as
+  `Distilled (<agent>): <content>` with metadata
+  `{"episodic_id": ..., "source_agent": ..., "published_by":
+  "episodic-publish"}` -- scope global, importance preserved.
+- Dedup: rows whose `metadata_json.episodic_id` already exists on the
+  surface are skipped. Idempotent across reruns.
+- From there the NORMAL 5-min relay sync distributes the rows
+  fleet-wide. No fork, no protocol change, full auditability.
+- Cron: `episodic-publish` job, every 6h, no_agent, per core agent
+  (morpheus/neo/atlas). The script derives the profile from
+  HERMES_HOME, so one script file serves all.
+- First run (2026-08-28): published 15 Morpheus + 3 Neo distilled
+  episodes; every agent converged at 18 published rows each within
+  one sync cycle. Min-importance threshold 0.6 (matches what sleep
+  consolidation produces).
+
+The effect: each agent's private lessons become fleet-visible
+knowledge automatically, while the private tier keeps the raw
+experience. Personal stays personal; the DISTILLATE travels.
 
 ### 6. The cron and ticker layer (where schedules go to die)
 
@@ -161,8 +219,8 @@ ticker:
   own `--profile` launch flag does NOT reach the backend spawn.
   Scar: Linkie's ticker was dead Aug 11-15 simply because the app
   was closed -- config was perfect, sync was silently frozen.
-- Headless profiles (Morpheus, Neo on the VPS): `hermes serve` does
-  NOT tick. Each profile needs a gateway:
+- Headless profiles (Morpheus, Neo, Atlas on the VPS): `hermes serve`
+  does NOT tick. Each profile needs a gateway:
   `HERMES_HOME=<profile> hermes gateway install --system
   --run-as-user hermes --start-now` -> `hermes-gateway-<name>.service`,
   which runs InProcessCronScheduler even with zero messaging adapters.
@@ -180,13 +238,21 @@ ticker:
   "Scheduled" state is not proof.
 - VPS agents sync over loopback (`http://127.0.0.1:8765`); PC and
   laptop sync over tailnet HTTPS. Non-loopback remotes REQUIRE https.
+- SCAR (2026-08-28, Atlas): `hermes cron create` does NOT set
+  no_agent -- a script job created without the flag runs as a full
+  agent (token cost + wrong behavior). After create, run
+  `hermes cron edit <id> --no-agent` and confirm in jobs.json.
 
-### 7. Provisioning a new agent (recipe verified on Neo, 2026-08-17)
+### 7. Provisioning a new agent (recipe verified on Neo 2026-08-17, Atlas 2026-08-28)
 
 1. `mkdir -p <profile>/mnemosyne/data/shared` (owner = the agent user).
+   The directory alone is NOT a DB.
 2. `mnemosyne sync-init --db-path <shared-db> --yes` with
    `HERMES_HOME`, model, and dim env set -> creates the surface
-   marker + canonical session.
+   marker + canonical session. SCAR (Atlas 2026-08-28): skipping
+   this produces "surface DB is not initialized" on the first sync
+   tick, one tick after activation -- init at birth, verify manually
+   once before trusting the cron.
 3. Ensure `<profile>/.env` has the four sync vars
    (`MNEMOSYNE_SYNC_REMOTE`, `MNEMOSYNE_SYNC_ENCRYPT=1`,
    `MNEMOSYNE_SYNC_TOKEN`, `MNEMOSYNE_SYNC_KEY`; fleet-shared values).
@@ -199,19 +265,33 @@ ticker:
    `<profile>/scripts/mnemosyne-sync.py` (DB path adapted; key files
    and remote per machine class).
 6. Headless: install the gateway (section 6). Desktop: nothing extra.
-7. Register the job:
+7. Register the jobs:
    `hermes -p <name> cron create "every 5m" inert-no-agent-job
    --name mnemosyne-sync --script mnemosyne-sync.py --no-agent
    --deliver local` (prompt is a POSITIONAL arg on the CLI and
-   mandatory even for no_agent jobs; the value is inert).
-8. Verify link by link: run the script once manually (rc=0, silent),
-   confirm rows materialized in the new shared DB, confirm the relay
-   event count is unchanged by a pull-only sync, then wait one 5-min
-   window and confirm `last_run_at` + `last_status: ok` in jobs.json.
+   mandatory even for no_agent jobs; the value is inert), then
+   `hermes cron edit <id> --no-agent` (see scar, section 6).
+   Core agents ALSO get the episodic publisher: copy
+   `episodic-publish.py` into the profile scripts dir, cron create
+   "every 6h" ... --script episodic-publish.py, edit --no-agent.
+8. Seed the identity layers (2026-08-28 standard): canonical slots
+   (role / owner / platform / voice / domain scope) via
+   `CanonicalStore(db_path=...).remember(profile, category, name,
+   body)`; persona anchors (owner, ASCII rule, prime directives,
+   agent-specific) via `BeamMemory.remember(source="persona",
+   importance=0.95, scope="global")` then
+   `PersonaAdapter(beam).handle_tool_call("mnemosyne_persona_promote",
+   {"memory_id": ..., "tier": "permanent", ...})`. Runners get
+   canonical-lite (role + owner) + persona-lite (owner + ASCII).
+9. Verify link by link: run the sync script once manually (rc=0,
+   silent), confirm rows materialized in the new shared DB, confirm
+   the relay event count is unchanged by a pull-only sync, then wait
+   one 5-min window and confirm `last_run_at` + `last_status: ok`
+   in jobs.json.
 
-Neo went from zero to 18 working rows / full fleet knowledge in one
-cycle with this recipe (2026-08-17). No new relay writes appear for
-a pull-only agent, which is correct: only pushes create relay events.
+Neo went from zero to full fleet knowledge in one cycle with this
+recipe (2026-08-17). Atlas repeated it (2026-08-28) after the
+sync-init gap was found and fixed.
 
 ### 8. Silent failure catalog (each failure lives at ONE link)
 
@@ -226,6 +306,8 @@ a pull-only agent, which is correct: only pushes create relay events.
 | Watchdog always errors | Cron script | Keyword-matching "conflict"/"error" against healthy CLI output. Regex for nonzero counts only. |
 | Backfill warnings every cycle | Vector space | A row embedded by an old-model process landed in a new-dim DB. Fleet-coordinated reindex + restart. |
 | Shared facts older than 7 days vanish fleet-wide after any shared write | Write path (personal TTL leaking into the surface) | `BeamMemory._trim_working_memory` (`WORKING_MEMORY_TTL_HOURS=168`) runs on every `remember()`, including `mnemosyne_shared_remember`. The surface session `hermes_shared_surface` reuses the same class, so the personal-memory TTL evicts surface rows; the sync recovery path then turns the eviction into fleet-wide tombstones. Fix (fleet patch 2026-08-22, Suggi-approved): early return exempting session `hermes_shared_surface`, applied to all three venvs (VPS hermes-agent venv, PC, laptop), backups kept as `beam.py.orig-20260822-morpheus`. Upstream main still unpatched as of 2026-08-22. |
+| First sync tick fails "surface DB is not initialized" | Provisioning | Birth created the shared dir + config path but never ran `mnemosyne sync-init`. Fix: run sync-init, then one manual sync, then trust the cron (Atlas, 2026-08-28). |
+| Episodic publisher floods shared surface with conversation noise | Publisher | Raw `[conversation]` compressions and operational `[builtin_memory_memory]` rows are fleet-unworthy. Fix: prefix filter keeps only `[fact]/[insight]/[correction]/[preference]/[lesson]/[decision]` (2026-08-28). |
 
 The phantom `~/.mnemosyne` husks and the install-era default-profile
 DB (`~/.hermes/mnemosyne/`, 0 rows, no process using default
@@ -249,7 +331,7 @@ re-checked against this row before use.
    the right device_id?), pull path (rows materialized on every
    agent?). A single sync-log line proves one link, not the loop.
 2. Provisioning a fleet agent is a checklist (section 7), not a
-   judgment call. The recipe was proven end-to-end on Neo.
+   judgment call. The recipe was proven end-to-end on Neo and Atlas.
 3. Any "is this stale?" question about a SQLite store starts with
    the `-wal` mtime and the process list, never the main-file mtime.
 4. New agents get the fleet embedding model and the fleet relay --
@@ -259,6 +341,17 @@ re-checked against this row before use.
    `SELECT COUNT(*) FROM working_memory` on every shared DB;
    `SELECT COUNT(*) FROM memory_events` on the relay; `sync_meta`
    rows on any agent; `ticker_heartbeat` mtime in every cron dir.
+6. The personal tier is now an identity system, not just a store:
+   canonical slots prevent self-contradiction, persona anchors
+   guarantee always-on injection, and the fact graph compounds
+   structure automatically. Agents should prefer these layers over
+   raw remembers for stable facts (usage map: the
+   `mnemosyne-memory-override` skill, advanced features table).
+7. Knowledge distribution is layered: raw experience stays private,
+   the distillate travels. The episodic publisher is the only
+   sanctioned path from private to shared, and its quality gate
+   (prefix filter) is the boundary -- loosen it and the shared
+   surface becomes conversation noise.
 
 ## Counter-evidence
 
@@ -272,9 +365,15 @@ This anatomy would be invalidated if:
   with full retrieval quality (observed instead: persistent backfill
   warnings until reindex).
 - A pull-only agent's sync created relay events (observed: Neo's
-  pull-only syncs left the relay event count unchanged at 31).
+  pull-only syncs left the relay event count unchanged).
 - A tombstone failed to propagate to convergence (observed: 0/0/0
   across all agents in the 2026-08-15 delete test).
+- The episodic publisher pushed a `[conversation]` row to the shared
+  surface (observed instead: the prefix filter excluded them in the
+  2026-08-28 dry-run; 15+3 distilled rows published, zero noise).
+- Persona anchors failed to inject into a fresh session (verified
+  2026-08-28: persona rows present and injected on all seeded
+  profiles).
 
 ## Cross-Links
 
@@ -287,3 +386,5 @@ This anatomy would be invalidated if:
 - `logbook/queue.log` -- ENT-052, ENT-053 (sync + tombstone test),
   ENT-057 (Neo wiring): the event trail behind this anatomy.
 - `governance/system-blueprint.md` -- org architecture.
+- The `mnemosyne-memory-override` skill (per-profile) -- the usage
+  map for the advanced personal-tier layers.
