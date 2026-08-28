@@ -6,9 +6,7 @@ source:
   - 20260810T112709Z
   - 20260810T112711Z
   - 20260802T124915Z
-author: Link
-updated_by: Morpheus
-updated: 20260828T053401Z
+author: Morpheus
 tags: [mnemosyne, memory, fleet, shared-memory, architecture, cron, embeddings, canonical, persona, episodic-publish]
 links:
   - research/insights/two-tier-fleet-memory-single-vector-space.md
