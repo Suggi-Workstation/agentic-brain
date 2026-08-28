@@ -1,6 +1,6 @@
 # Macro Micro -- Topics
 
-6 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
+7 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
 
 - [Business Cycles -- The Inescapable Rhythm of Boom and Bust That No Policy Can Abolish](business-cycles.md) -- [reviewed: never] -- Business cycles are the recurring fluctuations in aggregate economic activity -- expansions, peaks, contractions, and recoveries -- that have characterized market economies since the Industrial Revolution. Despite decades of macroeconomic research and increasingly sophisticated policy tools, the boom-bust pattern persists, because cycles are driven by multiple interacting forces: demand shocks, monetary instability, productivity swings, and credit-market amplification mechanisms.
 
@@ -9,6 +9,8 @@
 - [Game Theory -- Why Individually Rational Choices Produce Collectively Irrational Outcomes](game-theory-strategic-interaction-and-cooperation.md) -- [reviewed: never] -- Game theory is the mathematical study of strategic interaction where each player's outcome depends not only on their own choices but on the choices of others. Its central insight is that individually rational decisions can produce outcomes that are worse for everyone involved -- a finding that reshaped economics, political science, evolutionary biology, and military strategy.
 
 - [Inflation Dynamics -- Why Prices Rise, Why Moderate Inflation Is Desirable, and When It Destroys Economies](inflation-dynamics.md) -- [reviewed: never] -- Inflation is a sustained increase in the general price level of goods and services in an economy over time. It is not a rise in a single price -- oil, wheat, or housing -- but a broad-based erosion of purchasing power that affects every transaction, every wage, and every savings account. Understanding inflation dynamics is essential because inflation is simultaneously the most feared enemy of...
+
+- [Market Structures -- How the Shape of Competition Determines Prices, Profits, and Power](market-structures.md) -- [reviewed: never] -- Market structure is the anatomy of competition: the number of sellers in a market, the degree to which their products are substitutes, and the barriers that keep outsiders from entering. These features together determine whether a firm is a price taker with no market power at all, or a price maker that can hold prices above marginal cost for decades.
 
 - [Monetary Policy and Central Banking -- How Central Banks Steer the Economy Through Interest Rates, Money Supply, and Financial Stability](monetary-policy-and-central-banking.md) -- [reviewed: never] -- Monetary policy is the process by which central banks manage the supply of money, the cost of credit, and the stability of the financial system to achieve macroeconomic goals -- primarily price stability and maximum employment. Central banks such as the Federal Reserve, the European Central Bank (ECB), and the Bank of Japan are not ordinary banks: they are public institutions with legal mandates,...
 
