@@ -114,6 +114,18 @@ directly for reads or writes. Key internals:
   published automatically by the episodic publisher (section 5b).
   Fleet row counts converge identical on every agent (2026-08-28:
   45 rows / 18 published episodes on Morpheus, Neo, Atlas alike).
+- MERGED RECALL (2026-08-28): `memory.mnemosyne.shared_surface_read:
+  true` in Hermes config.yaml (NOT the mnemosyne/config.yaml file --
+  the provider reads only the Hermes config key, via
+  `_read_config_key`). With it on, every regular `mnemosyne_recall`
+  also queries the shared surface and merges both ranked lists by
+  score; surface rows come back tagged `bank: "surface",
+  shared_surface: true`. Verified live on Morpheus: a plain recall
+  for "Suggi chemist value investor preferences" returned private
+  episodic rows AND the published distillate AND the fleet roster in
+  one ranked list. Config change requires a serve/gateway restart
+  (read at provider init). Runners (private-only Mnemosyne) keep it
+  unset.
 
 ### 4. The relay (blind conduit on the VPS)
 
@@ -306,6 +318,7 @@ sync-init gap was found and fixed.
 | Shared facts older than 7 days vanish fleet-wide after any shared write | Write path (personal TTL leaking into the surface) | `BeamMemory._trim_working_memory` (`WORKING_MEMORY_TTL_HOURS=168`) runs on every `remember()`, including `mnemosyne_shared_remember`. The surface session `hermes_shared_surface` reuses the same class, so the personal-memory TTL evicts surface rows; the sync recovery path then turns the eviction into fleet-wide tombstones. Fix (fleet patch 2026-08-22, Suggi-approved): early return exempting session `hermes_shared_surface`, applied to all three venvs (VPS hermes-agent venv, PC, laptop), backups kept as `beam.py.orig-20260822-morpheus`. Upstream main still unpatched as of 2026-08-22. |
 | First sync tick fails "surface DB is not initialized" | Provisioning | Birth created the shared dir + config path but never ran `mnemosyne sync-init`. Fix: run sync-init, then one manual sync, then trust the cron (Atlas, 2026-08-28). |
 | Episodic publisher floods shared surface with conversation noise | Publisher | Raw `[conversation]` compressions and operational `[builtin_memory_memory]` rows are fleet-unworthy. Fix: prefix filter keeps only `[fact]/[insight]/[correction]/[preference]/[lesson]/[decision]` (2026-08-28). |
+| Config key set in mnemosyne/config.yaml has no effect on provider behavior | Config | The Hermes provider reads ONLY `memory.mnemosyne.*` keys from Hermes config.yaml (`_read_config_key`); mnemosyne/config.yaml serves the standalone CLI. Scar 2026-08-28: shared_surface_read set in the wrong file, restart proved nothing changed. Fix: `hermes config set memory.mnemosyne.<key> <value>` + restart serve/gateway. |
 
 The phantom `~/.mnemosyne` husks and the install-era default-profile
 DB (`~/.hermes/mnemosyne/`, 0 rows, no process using default
