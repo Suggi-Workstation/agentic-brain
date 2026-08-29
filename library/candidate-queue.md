@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Antifragile: Things That Gain from Disorder
-- **Domain:** books
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 8.85/10.0 (gap=9.0, compounding=9.0, timeliness=7.5, balance=10.0)
-- **Scope:** Distills Nassim Nicholas Taleb's argument that some systems benefit from volatility and stress -- they are antifragile, not merely robust. Covers the triad of fragility, robustness, and antifragility, the role of optionality, skin in the game, and the critique of top-down intervention. Connects to the Black Swan, risk management, and evolutionary biology as a framework for thriving under uncertainty.
-- **Status:** proposed
-
 ## Candidate: Guns, Germs, and Steel: How Geography Determined the Fate of Nations
 - **Domain:** books
 - **Proposed by:** Library-Runner
