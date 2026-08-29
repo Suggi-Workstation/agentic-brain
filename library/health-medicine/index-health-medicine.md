@@ -1,6 +1,6 @@
 # Health Medicine -- Topics
 
-8 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
+9 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
 
 - [AI in Medicine and Diagnostics -- How Deep Learning Reached Clinician-Level Accuracy and Why Clinical Deployment Still Lags the Benchmarks](ai-in-medicine-and-diagnostics.md) -- [reviewed: never] -- AI in medicine and diagnostics is the application of machine learning to medical data -- most visibly images, but increasingly text and structured records -- for the detection, classification, and triage of disease. Deep learning systems now match or exceed clinicians on narrow image-interpretation tasks in controlled studies, and the US Food and Drug Administration (FDA) has authorized more than 1,400 AI-enabled medical devices, roughly three quarters of them in radiology.
 
@@ -11,6 +11,8 @@
 - [The Immune System -- How Distributed Detection, Amplification Cascades, and Memory Defend the Body from a World of Pathogens](immune-system.md) -- [reviewed: never] -- The immune system is a decentralized defense network that protects the body against infectious disease and malignant cells through a layered architecture of innate barriers, rapid-response cells, and adaptive lymphocytes that learn from every encounter. Unlike any other organ system, the immune system is not located in a single place -- it operates through billions of cells circulating in blood...
 
 - [Longevity Science -- Extending Healthspan, Not Just Lifespan, Through the Biology of Aging](longevity-science-healthspan.md) -- [reviewed: never] -- Longevity science is the evidence-based study of the biological mechanisms that drive aging, with the goal of extending healthspan -- the number of years a person lives in good health, free from serious disease or disability. The field has moved from fringe speculation into a rigorous, multi-billion-dollar research domain anchored by the 12 hallmarks of aging framework (Lopez-Otin et al.
+
+- [Mental Health Treatment -- The Evidence Shows Real Help Exists, but Real-World Delivery Falls Far Short](mental-health-treatment-psychiatric-medicine.md) -- [reviewed: never] -- Effective treatments exist for nearly every major mental disorder, from antidepressant and antipsychotic medication through structured psychotherapies to brain-stimulation methods, yet most people who need care never receive it. The evidence supporting these treatments is real but more modest and more contested than popular narratives suggest: selective publication has inflated apparent drug...
 
 - [Nutrition Science -- Why What We Eat Is the Most Powerful Determinant of Health We Control](nutrition-science-dietary-interventions.md) -- [reviewed: never] -- Nutrition science is the study of how food and its molecular components affect human health, from the subcellular level of nutrient metabolism to the population level of dietary patterns and disease epidemiology. It is simultaneously one of medicine's most powerful intervention tools -- capable of preventing more chronic disease than any pharmaceutical -- and one of its most contested fields,...
 
