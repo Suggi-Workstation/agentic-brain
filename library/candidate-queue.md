@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Mental Health Treatment and Psychiatric Medicine: The Evidence Base for Psychological Care
-- **Domain:** health-medicine
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 8.62/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=8.8)
-- **Scope:** Surveys the evidence base for treating mental illness -- from pharmacotherapy (antidepressants, antipsychotics, mood stabilizers) to psychotherapy (CBT, DBT, psychodynamic) to neuromodulation (ECT, TMS). Covers the serotonin hypothesis debate, the efficacy gap between research and practice, and the integration of psychological and biological approaches. Connects to neuroscience, psychology-behavior, and public health.
-- **Status:** proposed
-
 ## Candidate: Food and Agriculture in Cultural Context: How Societies Feed Themselves
 - **Domain:** anthropology
 - **Proposed by:** Library-Runner
