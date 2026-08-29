@@ -1,6 +1,6 @@
 # Self Improvement -- Topics
 
-9 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
+10 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
 
 - [Decision Journals -- Why Writing Down Your Reasoning Before You Know the Outcome Makes You Smarter](decision-journals.md) -- [reviewed: never] -- A decision journal is a timestamped record of what you believed, why you believed it, and how confident you were -- written at the moment you decide, before the outcome arrives. It exists to defeat hindsight bias, the brain's habit of rewriting what you knew once you see how things turned out, and to build a calibration dataset that shows exactly where your judgment is reliable and where it is systematically off.
 
@@ -15,6 +15,8 @@
 - [Habit Formation -- Why Willpower Is Not the Answer and Structure Is](habit-formation.md) -- [reviewed: never] -- Habit formation is the process by which repeated behaviors become automatic -- executed without conscious deliberation in response to environmental cues. Rooted in the basal ganglia's procedural memory systems, habits save cognitive energy but also make unwanted routines stubbornly persistent. The practical consequence is counterintuitive: lasting behavior change depends less on motivation and discipline than on deliberately engineering cues, routines, and rewards into self- reinforcing loops.
 
 - [Meditation and Mindfulness -- The Evidence for Cognitive Benefits Is Stronger Than You Think, but Weaker Than Its Advocates Claim](meditation-and-mindfulness.md) -- [reviewed: never] -- Meditation and mindfulness practices produce measurable improvements in attention, emotional regulation, stress resilience, and even brain structure -- but the effect sizes are moderate, not transformative, and the research literature has real limitations that popular coverage routinely ignores. A systematic look at the evidence shows that 8-12 weeks of consistent practice (roughly 10-30 minutes...
+
+- [Nutrition and Cognitive Function -- What You Eat Becomes the Machinery of Thought](nutrition-and-cognitive-function.md) -- [reviewed: never] -- The brain is the most metabolically expensive tissue in the body: it runs almost exclusively on glucose, cannot store meaningful fuel reserves, and demands on the order of a fifth of resting energy expenditure (Muth & Park, 2021; "Role of Dietary Carbohydrates," 2025). Because thinking is a chemical process, what a person eats -- and when -- measurably shifts attention, memory, and executive...
 
 - [Sleep Optimization -- The Highest-Leverage Health Intervention That Costs Nothing](sleep-optimization.md) -- [reviewed: never] -- Sleep is not passive downtime but an active biological process during which the brain clears metabolic waste, consolidates memories, regulates emotions, and repairs the body. Decades of neuroscience research demonstrate that optimizing sleep -- through timing, environment, and behavioral routines -- produces larger and more reliable gains in cognitive performance, emotional stability, and physical health than any supplement, nootropic, or productivity system.
 
