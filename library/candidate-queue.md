@@ -28,14 +28,6 @@
 
 
 
-## Candidate: AI in Medicine and Diagnostics: How Machine Learning Is Transforming Clinical Practice
-- **Domain:** health-medicine
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 8.95/10.0 (gap=9.0, compounding=8.5, timeliness=9.5, balance=8.8)
-- **Scope:** Surveys how machine learning and AI are transforming diagnostic medicine -- from radiology image interpretation to pathology screening to clinical decision support. Covers FDA-approved AI diagnostics, performance benchmarks vs. human clinicians, regulatory pathways, and the challenges of algorithmic bias and clinical integration. Connects to medical imaging, drug development, and healthcare systems as the computational frontier of evidence-based medicine.
-- **Status:** proposed
-
 ## Candidate: Antifragile: Things That Gain from Disorder
 - **Domain:** books
 - **Proposed by:** Library-Runner
