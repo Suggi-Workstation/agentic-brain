@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Nutrition and Cognitive Function: How Diet Affects Brain Performance
-- **Domain:** self-improvement
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 8.57/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines the evidence linking nutrition to cognitive performance -- how macronutrient balance, micronutrient status, meal timing, and specific dietary patterns affect attention, memory, and executive function. Covers the glucose-brain relationship, omega-3 fatty acids, the Mediterranean and MIND diets, and practical dietary protocols for sustained mental performance. Connects to exercise, sleep optimization, and focus as pillars of cognitive self-management.
-- **Status:** proposed
-
 ## Candidate: Journalism and Media Ethics: The Principles and Standards of Newsgathering
 - **Domain:** communication
 - **Proposed by:** Library-Runner
