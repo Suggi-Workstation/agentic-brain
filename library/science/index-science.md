@@ -1,8 +1,10 @@
 # Science -- Topics
 
-8 topics. Anchor: [anchor-science.md](anchor-science.md)
+9 topics. Anchor: [anchor-science.md](anchor-science.md)
 
 - [Cell Biology -- How the Fundamental Unit of Life Builds, Maintains, and Replicates Itself](cell-biology.md) -- [reviewed: never] -- Cell biology is the study of the cell -- the smallest structural and functional unit capable of independent life. It explains how eukaryotic cells organize their internal machinery across a network of membrane-bound organelles, process signals from their environment, faithfully divide through mitosis, and dismantle themselves through programmed cell death when they malfunction.
+
+- [The Periodic Table Is Chemistry's Prediction Engine -- Electron Structure Determines Bonding, Properties, and Reactivity](chemistry-periodic-table-bonding.md) -- [reviewed: never] -- The periodic table organizes all 118 known elements by a single physical quantity -- atomic number -- and in doing so encodes the rules that govern every chemical bond in the universe. Elements in the same column behave alike because their atoms share the same valence-electron architecture; where an element sits predicts how it will bond, what properties its compounds will have, and how it will react.
 
 - [Cosmology -- How the Universe Began, What It Is Made Of, and How It Will End](cosmology-big-bang-dark-energy.md) -- [reviewed: never] -- Modern cosmology describes a universe that began 13.8 billion years ago in an incredibly hot, dense state -- the Big Bang -- and has been expanding and cooling ever since. The Lambda-CDM model, the standard framework of cosmology, reveals that everything humans can see (stars, planets, gas) accounts for less than 5% of the universe's total energy budget; the remaining 95% consists of dark matter (27%) and dark energy (68%), neither of which has been directly detected.
 
