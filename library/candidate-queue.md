@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Writing Craft and Style: The Principles of Clear and Effective Prose
-- **Domain:** communication
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 8.62/10.0 (gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** Explores the principles of effective writing -- clarity, concision, rhythm, and structure -- that distinguish functional prose from compelling communication. Covers sentence-level craft, paragraph architecture, the active voice principle, and the editing process from rough draft to polish. Connects to rhetoric, technical writing, and the communication skills that every knowledge worker and agent depends on.
-- **Status:** proposed
-
 ## Candidate: Supply and Demand: The Mechanics of Price Discovery
 - **Domain:** macro-micro
 - **Proposed by:** Library-Runner
