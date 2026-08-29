@@ -1,12 +1,14 @@
 # Books -- Topics
 
-8 topics. Anchor: [anchor-books.md](anchor-books.md)
+9 topics. Anchor: [anchor-books.md](anchor-books.md)
 
 - [Antifragile -- Why Some Systems Get Stronger From Disorder and How to Put Yourself on That Side of the Triad](antifragile-things-that-gain-from-disorder.md) -- [reviewed: never] -- "Antifragile: Things That Gain from Disorder" (2012) is Nassim Nicholas Taleb's prescription for a world his earlier books diagnosed as structurally unpredictable. Its core claim: the opposite of fragile is not robust but antifragile -- a property of systems that actually gain from shocks, volatility, errors, and stressors.
 
 - [Guns, Germs, and Steel -- Geography, Not Biology, Explains the Unequal Fates of Human Societies](guns-germs-and-steel.md) -- [reviewed: never] -- Guns, Germs, and Steel (1997) is Jared Diamond's attempt to answer "Yali's question": why did the peoples of some continents come to conquer and displace the peoples of others, rather than the reverse? Diamond's answer is environmental: the uneven distribution of domesticable plants and animals, the differing shapes and orientations of continents, and their relative isolation determined which...
 
 - [Influence: The Psychology of Persuasion -- Robert Cialdini Systematized Compliance Into Six Principles That Explain Why You Say Yes When You Meant to Say No](influence-psychology-of-persuasion.md) -- [reviewed: never] -- "Influence: The Psychology of Persuasion" (1984, revised and expanded 2021) is the product of Robert Cialdini's three-year program of participant observation inside sales organizations, fund-raising operations, and marketing departments. Cialdini did not study persuasion from a university office -- he trained at used-car dealerships, telemarketing boiler rooms, and charity fund-raising drives to learn how compliance professionals actually operate.
+
+- [Man's Search for Meaning -- Why Purpose, Not Pleasure, Is What Keeps People Alive](mans-search-for-meaning.md) -- [reviewed: never] -- Viktor Frankl's Man's Search for Meaning (1946) argues that the primary human drive is not pleasure, as Freud held, nor power, as Adler held, but the will to meaning -- and that even in the worst circumstances a person retains the freedom to choose their attitude toward what happens to them. The book combines a firsthand account of Frankl's years in Nazi concentration camps with the outline of logotherapy, the meaning-centered school of psychotherapy he founded.
 
 - [Sapiens -- How Shared Fictions, Not Biology, Made Humans the Masters of the Planet](sapiens-a-brief-history-of-humankind.md) -- [reviewed: never] -- Yuval Noah Harari's "Sapiens: A Brief History of Humankind" (2014) argues that Homo sapiens conquered the world not through physical superiority or individual intelligence, but through a unique cognitive capacity: the ability to create and collectively believe in shared fictions. Money, nations, corporations, religions, and human rights are all "intersubjective realities" -- things that exist only because millions of people agree they exist.
 
