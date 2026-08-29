@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Man's Search for Meaning: Finding Purpose in Suffering
-- **Domain:** books
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 8.70/10.0 (gap=9.5, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** Distills Viktor Frankl's argument that the primary human drive is the pursuit of meaning, not pleasure or power. Covers logotherapy, the role of suffering in meaning-making, and the empirical evidence for purpose as a predictor of resilience and well-being. Connects to psychology, ethics-philosophy, and self-improvement as a foundational text on human motivation and psychological endurance.
-- **Status:** proposed
-
 ## Candidate: Chemistry and the Periodic Table: The Architecture of Matter and Bonding
 - **Domain:** science
 - **Proposed by:** Library-Runner
