@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Journalism and Media Ethics: The Principles and Standards of Newsgathering
-- **Domain:** communication
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
-- **Scope:** Examines the ethical principles and professional standards that govern newsgathering and reporting. Covers objectivity vs. transparency, source protection, verification protocols, the tension between speed and accuracy, and how digital platform pressures have reshaped journalistic ethics. Connects to propaganda analysis, rhetoric, and the media ecosystem as the institutional layer that determines what information reaches the public.
-- **Status:** proposed
-
 ## Candidate: AI in Medicine and Diagnostics: How Machine Learning Is Transforming Clinical Practice
 - **Domain:** health-medicine
 - **Proposed by:** Library-Runner
