@@ -1,6 +1,6 @@
 # Communication -- Topics
 
-6 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+7 topics. Anchor: [anchor-communication.md](anchor-communication.md)
 
 - [Interpersonal Communication and Negotiation -- Why Most Conversations Fail and What the Best Communicators Do Differently](interpersonal-communication-and-negotiation.md) -- [reviewed: never] -- Interpersonal communication and negotiation are the twin pillars of effective human interaction: communication is how we convey meaning, and negotiation is how we resolve competing interests. The evidence from decades of research across psychology, conflict resolution, and organizational behavior converges on a single insight: most conversational breakdowns are not failures of intelligence or good intentions but failures of technique.
 
@@ -13,4 +13,6 @@
 - [Rhetoric -- The 2,500-Year-Old Art of Persuasion That Shapes Every Argument, Speech, and Advertisement You Encounter](rhetoric.md) -- [reviewed: never] -- Rhetoric is the systematic study and practice of persuasion: how speakers and writers use language, structure, and appeals to influence beliefs, attitudes, and actions. Originating in ancient Greece as a discipline for training citizens to participate in democratic debate, rhetoric has evolved into a universal framework for understanding every act of communication designed to persuade, from Aristotle's courtroom speeches to modern political campaigns, advertising, and everyday argument.
 
 - [The Medium Is the Message -- Why Communication Technologies Shape Thought More Than Any Content They Carry](the-medium-is-the-message.md) -- [reviewed: never] -- Marshall McLuhan's most famous and misunderstood insight -- "the medium is the message" -- asserts that the form of a communication medium shapes human cognition, social organization, and culture more profoundly than any individual message transmitted through it. Published in his 1964 book Understanding Media: The Extensions of Man, McLuhan's theory reframed communication not as a neutral conduit...
+
+- [Writing Craft and Style -- Why Clear Prose Is a Thinking Technology, Not a Decoration](writing-craft-and-style.md) -- [reviewed: never] -- Writing craft is the set of repeatable techniques -- sentence structure, word choice, rhythm, cohesion, and revision -- that turn thought into prose a reader can understand on the first pass. The craft tradition, from Strunk and White's The Elements of Style to Steven Pinker's The Sense of Style, makes one recurring claim: clarity is not decoration but a cognitive technology, because prose that...
 
