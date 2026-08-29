@@ -1,6 +1,8 @@
 # Books -- Topics
 
-6 topics. Anchor: [anchor-books.md](anchor-books.md)
+7 topics. Anchor: [anchor-books.md](anchor-books.md)
+
+- [Antifragile -- Why Some Systems Get Stronger From Disorder and How to Put Yourself on That Side of the Triad](antifragile-things-that-gain-from-disorder.md) -- [reviewed: never] -- "Antifragile: Things That Gain from Disorder" (2012) is Nassim Nicholas Taleb's prescription for a world his earlier books diagnosed as structurally unpredictable. Its core claim: the opposite of fragile is not robust but antifragile -- a property of systems that actually gain from shocks, volatility, errors, and stressors.
 
 - [Influence: The Psychology of Persuasion -- Robert Cialdini Systematized Compliance Into Six Principles That Explain Why You Say Yes When You Meant to Say No](influence-psychology-of-persuasion.md) -- [reviewed: never] -- "Influence: The Psychology of Persuasion" (1984, revised and expanded 2021) is the product of Robert Cialdini's three-year program of participant observation inside sales organizations, fund-raising operations, and marketing departments. Cialdini did not study persuasion from a university office -- he trained at used-car dealerships, telemarketing boiler rooms, and charity fund-raising drives to learn how compliance professionals actually operate.
 
