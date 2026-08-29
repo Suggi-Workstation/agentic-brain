@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Related-Party Transactions: Detecting Self-Dealing and Hidden Conflicts
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 8.70/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0)
-- **Scope:** Examines related-party transactions as a vector for financial statement manipulation -- when companies transact with entities controlled by insiders, creating opportunities to shift profits, hide losses, or extract value. Covers disclosure requirements, common structures (shell companies, family trusts, cross-guarantees), and forensic red flags like pricing deviations from market rates. Connects to off-balance-sheet shenanigans, revenue recognition, and governance analysis.
-- **Status:** proposed
-
 ## Candidate: Writing Craft and Style: The Principles of Clear and Effective Prose
 - **Domain:** communication
 - **Proposed by:** Library-Runner
