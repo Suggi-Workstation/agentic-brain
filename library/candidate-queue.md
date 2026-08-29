@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Chemistry and the Periodic Table: The Architecture of Matter and Bonding
-- **Domain:** science
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 8.62/10.0 (gap=9.5, compounding=9.0, timeliness=7.0, balance=7.8)
-- **Scope:** Explains the periodic table as the organizing principle of matter -- how electron configurations determine chemical properties and bonding behavior. Covers atomic structure, periodic trends, the major bond types, and how molecular structure predicts reactivity. Connects to cell biology, thermodynamics, and drug development as the foundational science underlying all molecular processes.
-- **Status:** proposed
-
 ## Candidate: Mental Health Treatment and Psychiatric Medicine: The Evidence Base for Psychological Care
 - **Domain:** health-medicine
 - **Proposed by:** Library-Runner
