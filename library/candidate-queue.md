@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Supply and Demand: The Mechanics of Price Discovery
-- **Domain:** macro-micro
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-25
-- **Discovery score:** 8.60/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** Explains the foundational microeconomic model of supply and demand -- how prices emerge from the interaction of buyers and sellers, and how elasticity determines the magnitude of market responses. Covers shifts versus movements along curves, price ceilings and floors, and the welfare analysis of market interventions. Connects to market structures, inflation dynamics, and trade as the bedrock of price theory.
-- **Status:** proposed
-
 ## Candidate: Nutrition and Cognitive Function: How Diet Affects Brain Performance
 - **Domain:** self-improvement
 - **Proposed by:** Library-Runner
