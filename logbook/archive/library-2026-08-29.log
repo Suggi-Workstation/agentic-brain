@@ -1,0 +1,111 @@
+<!-- library.log archive -- ENT-198 to ENT-210
+     Moved from active log on 2026-08-29 20:44 UTC
+     Active log continues from ENT-211 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-198] | 2026-08-05 10:31 UTC | Researcher-1 | library | ref: library/probabilistic-thinking-forecasting/base-rate-neglect.md | see: candidate-base-rate-neglect-20260730
+Wrote topic Base Rate Neglect -- Why We Ignore Prior Probabilities and Sabotage Our Forecasts to probabilistic-thinking-forecasting. Weighted score: 8.8/10.0
+(core=9.0, scope=8.5, value=9.0, authority=8.5).
+Similarity overlap: ~35% (with bayesian-reasoning), <20% (with others).
+Sources: 7 (6 high, 1 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-199] | 2026-08-05 10:46 UTC | Researcher-1 | library | ref: library/technology/software-architecture-patterns-principles.md | see: candidate-software-architecture-20260730
+Wrote topic Software Architecture -- How Early Design Decisions Compound Into Durable Platforms or Technical Debt to technology. Weighted score: 8.75/10.0
+(core=9.0, scope=9.0, value=8.5, authority=7.5).
+Similarity overlap: <10%.
+Sources: 8 (5 high, 3 medium, 0 low).
+Cross-references: 2 topics.
+
+## [ENT-200] | 2026-08-05 11:05 UTC | Researcher-1 | library | ref: library/investors/john-templeton.md | see: candidate-john-templeton-20260730
+Wrote topic John Templeton -- The Global Contrarian Who Turned Maximum Pessimism into Maximum Returns to investors. Weighted score: 9.05/10.0
+(core=9.5, scope=9.5, value=8.5, authority=7.0).
+Similarity overlap: ~15%.
+Sources: 7 (3 high, 4 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-201] | 2026-08-05 11:17 UTC | Researcher-1 | library | ref: library/ethics-philosophy/eastern-philosophy-buddhism-confucianism-taoism.md | see: candidate-eastern-philosophy-20260730
+Wrote topic Eastern Philosophy: Buddhism, Confucianism, and Taoism to ethics-philosophy. Weighted score: 8.98/10.0
+(core=9.0, scope=9.5, value=9.0, authority=7.0).
+Similarity overlap: <10%.
+Sources: 7 (3 high, 4 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-202] | 2026-08-05 11:31 UTC | Researcher-1 | library | ref: library/technology/blockchain-distributed-ledgers.md | see: candidate-blockchain-distributed-ledgers-20260730
+Wrote topic Blockchain and Distributed Ledgers -- How Trustless Consensus Creates Genuine Innovation Beyond Cryptocurrency Speculation to technology. Weighted score: 8.60/10.0
+(core=9.0, scope=9.0, value=8.0, authority=7.0).
+Similarity overlap: 0%.
+Sources: 8 (5 high, 3 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-203] | 2026-08-05 11:45 UTC | Researcher-1 | library | ref: library/value-investing/concentration-vs-diversification.md | see: candidate-concentration-vs-diversification-20260730
+Wrote topic Concentration vs Diversification -- Why Value Investors Cannot Agree on How Many Stocks to Hold to value-investing. Weighted score: 8.88/10.0
+(core=9.0, scope=9.5, value=8.5, authority=7.0).
+Similarity overlap: <20%.
+Sources: 6 (3 high, 3 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-204] | 2026-08-05 12:15 UTC | Researcher-2 | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 13 candidates proposed, 2 skipped (13 slots available for 15 scored candidates, queue now at 25/25 capacity).
+Candidates:
+- Cyclical vs Secular Trends: Distinguishing Temporary Swings from Permanent Shifts (8.6): gap=8.5, compounding=9.0, timeliness=8.5, balance=8.3
+- Deepwater Horizon: Systemic Risk, Organizational Blind Spots, and the Anatomy of an Industrial Catastrophe (8.5): gap=9.0, compounding=9.0, timeliness=7.0, balance=8.3
+- Overconfidence: The Most Robust and Dangerous Cognitive Bias (8.5): gap=8.5, compounding=9.0, timeliness=8.0, balance=8.3
+- Incentives: How Reward Structures Shape Surprising Behavior (8.5): gap=8.5, compounding=9.0, timeliness=8.0, balance=8.3
+- Framing Effects: How the Same Information Produces Radically Different Decisions (8.5): gap=9.0, compounding=8.5, timeliness=7.5, balance=8.3
+- Exercise and Cognitive Performance: How Physical Training Upgrades the Brain (8.4): gap=9.0, compounding=8.0, timeliness=8.0, balance=8.3
+- The Volkswagen Emissions Scandal: Governance Failure, Institutional Deception, and the Cost of Cutting Corners (8.3): gap=8.5, compounding=8.5, timeliness=7.5, balance=8.3
+- Acquisition Accounting Tricks: How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality (8.2): gap=9.0, compounding=8.0, timeliness=7.0, balance=8.3
+- Industry Profit Pools: Mapping Where the Money Actually Flows (8.2): gap=9.0, compounding=8.0, timeliness=7.0, balance=8.3
+- Industry Consolidation: The Economics, Patterns, and Endgames of Market Concentration (8.2): gap=8.5, compounding=8.0, timeliness=8.0, balance=8.3
+- Spaced Repetition and Active Recall: The Evidence-Based Path to Durable Knowledge (8.1): gap=9.0, compounding=7.5, timeliness=7.0, balance=8.3
+- Decision Journals: Writing Down Your Reasoning Before You Know the Outcome (8.1): gap=8.5, compounding=8.0, timeliness=7.5, balance=8.3
+- Restatement Analysis: What Forced Corrections Reveal About Past Shenanigans (8.0): gap=8.5, compounding=8.0, timeliness=7.0, balance=8.3
+Skipped (below score threshold for available slots):
+- Cookie-Jar Reserves and Big Bath Accounting: The Art of Smoothing and Resetting (8.0): gap=8.5, compounding=7.5, timeliness=7.5, balance=8.3
+- The Netflix vs Blockbuster Disruption: How a DVD-by-Mail Startup Buried an Industry Giant (7.9): gap=8.0, compounding=8.0, timeliness=7.5, balance=8.3
+Domain balance: accounting-financial-shenanigans (6), case-studies (6), psychology-behavior (6), self-improvement (6), industries-sectors (6) to history (5), pop-culture (5), portfolio-risk-management (5), valuation-screening (5).
+
+## [ENT-205] | 2026-08-16 08:35 UTC | Library-Runner | library | ref: library/pop-culture/video-games-cultural-artifacts.md | see: candidate-video-games-cultural-artifacts-20260730
+Wrote topic Video Games -- How Interactive Agency Turned Play into the 21st Century's Dominant Cultural Art Form to pop-culture. Weighted score: 8.80/10.0
+(core=9.0, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: <20%.
+Sources: 8 (7 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-206] | 2026-08-16 10:25 UTC | Morpheus | library | ref: library/valuation-screening/magic-formula-screen.md | see: none (manual write)
+Wrote topic The Magic Formula to valuation-screening. Weighted score: 8.7/10.0
+(core=9.0, scope=9.0, value=8.0, authority=8.0).
+Similarity overlap: ~35% (vs graham-number-quantitative-value-screens).
+Sources: 7 (5 high, 2 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-207] | 2026-08-16 10:38 UTC | Library-Runner | library | ref: library/history/history-of-capitalism.md | see: candidate-history-of-capitalism-20260730
+Wrote topic The History of Capitalism to history. Weighted score: 9.25/10.0
+(core=9.5, scope=9.5, value=8.5, authority=9.0).
+Similarity overlap: ~30%.
+Sources: 9 (8 high, 1 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-208] | 2026-08-16 10:47 UTC | Library-Runner | library | ref: library/history/renaissance-and-enlightenment.md | see: candidate-renaissance-and-enlightenment-20260730
+Wrote topic The Renaissance and Enlightenment -- How the Revival of Classical Learning and the Cult of Reason Invented the Modern Mind to history. Weighted score: 9.08/10.0
+(core=9.5, scope=9.5, value=8.0, authority=8.5).
+Similarity overlap: <20%.
+Sources: 12 (11 high, 1 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-209] | 2026-08-16 11:23 UTC | Library-Runner | library | ref: library/valuation-screening/earnings-power-value-and-asset-based-valuation.md | see: candidate-earnings-power-value-and-asset-based-valuation-20260730
+Wrote topic Earnings Power Value and Asset-Based Valuation to valuation-screening. Weighted score: 8.85/10.0
+(core=9.0, scope=9.0, value=8.5, authority=8.5).
+Similarity overlap: ~30%.
+Sources: 8 (5 high, 3 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-210] | 2026-08-25 12:48 UTC | Library-Runner | library | ref: library/portfolio-risk-management/portfolio-rebalancing-strategies.md | see: candidate-portfolio-rebalancing-strategies-20260730
+Wrote topic Portfolio Rebalancing -- Why the Most Boring Discipline in Investing Is the Hardest to Maintain to portfolio-risk-management. Weighted score: 8.80/10.0
+(core=9.0, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: <20%.
+Sources: 8 (6 high, 2 medium, 0 low).
+Cross-references: 5 topics.
+
