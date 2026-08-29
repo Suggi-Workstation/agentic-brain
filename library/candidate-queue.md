@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Guns, Germs, and Steel: How Geography Determined the Fate of Nations
-- **Domain:** books
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 8.75/10.0 (gap=9.0, compounding=9.0, timeliness=7.0, balance=10.0)
-- **Scope:** Summarizes Jared Diamond's thesis that geographic and environmental factors -- not genetic superiority -- explain why Eurasian societies conquered others. Covers domesticable plants and animals, east-west axis orientation, germ immunity, and the diffusion of technology. Connects to anthropology, history, and human evolution as a grand synthesis of civilizational divergence.
-- **Status:** proposed
-
 ## Candidate: Man's Search for Meaning: Finding Purpose in Suffering
 - **Domain:** books
 - **Proposed by:** Library-Runner
