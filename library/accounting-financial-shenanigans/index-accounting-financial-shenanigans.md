@@ -1,6 +1,6 @@
 # Accounting Financial Shenanigans -- Topics
 
-8 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
+9 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
 
 - [Acquisition Accounting Tricks -- How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality](acquisition-accounting-tricks.md) -- [reviewed: never] -- Acquisitions are the most complex single event in corporate accounting, and that complexity is precisely what makes them the richest hunting ground for earnings manipulation. When a company buys another business, the purchase price must be allocated across identifiable assets and liabilities at fair value, with any residual recorded as goodwill.
 
@@ -13,6 +13,8 @@
 - [Non-GAAP Metrics -- How Adjusted Earnings Became the Standard Story While GAAP Became the Footnote](non-gaap-metrics-and-pro-forma-manipulation.md) -- [reviewed: never] -- Non-GAAP financial metrics -- "adjusted earnings," "pro-forma net income," "adjusted EBITDA" -- began as a legitimate supplement to help investors see through one-time distortions in GAAP accounting. Over the past two decades they have metastasized into the primary narrative companies use to present their performance, with the gap between GAAP and non-GAAP earnings widening dramatically.
 
 - [Off-Balance-Sheet Shenanigans -- How Companies Hide Billions in Plain Sight](off-balance-sheet-shenanigans.md) -- [reviewed: never] -- Off-balance-sheet shenanigans are the techniques companies use to keep liabilities, debt, and losses out of their consolidated financial statements by placing them in legally separate entities or structuring transactions to avoid recognition rules. These techniques do not make the obligations disappear -- they simply move them to footnotes, contingent disclosures, and related-party notes where casual readers never look.
+
+- [Related-Party Transactions -- How Insiders Hide Self-Dealing in Plain Sight](related-party-transactions.md) -- [reviewed: never] -- Related-party transactions (RPTs) are deals between a company and the people who control it -- its management, directors, controlling shareholders, and their families and affiliated entities. Because one party to the deal can influence both sides of the table, the arm's- length assumption that anchors fair-value logic and market pricing does not apply, and the accounting standards say so explicitly.
 
 - [Restatement Analysis -- Why Forced Corrections Expose the Shenanigans Hiding in Prior Periods](restatement-analysis.md) -- [reviewed: never] -- A financial restatement is a company's formal admission that previously issued financial statements contained material errors and must be corrected. For forensic analysts, a restatement is not merely an accounting housekeeping event -- it is a forced confession that strips away the manipulated numbers and reveals what management was actually doing during the periods now disowned.
 
