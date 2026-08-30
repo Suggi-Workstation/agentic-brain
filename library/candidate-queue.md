@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Linguistics and Language Evolution: How Language Shapes Thought and Culture
-- **Domain:** communication
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 8.50/10.0 (gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0)
-- **Scope:** Explores the structure, evolution, and cultural impact of human language -- from phonetics and syntax to the Sapir-Whorf hypothesis and language families. Covers how languages evolve, die, and shape cognition, and what linguistic diversity reveals about human thought. Connects to linguistic anthropology, semiotics, and narrative structure as the substrate of all communication.
-- **Status:** proposed
-
 ## Candidate: Indigenous Knowledge Systems: What Traditional Societies Know That Modern Science Is Rediscovering
 - **Domain:** anthropology
 - **Proposed by:** Library-Runner
