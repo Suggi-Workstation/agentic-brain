@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Food and Agriculture in Cultural Context: How Societies Feed Themselves
-- **Domain:** anthropology
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 8.54/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=8.8)
-- **Scope:** Examines how food production and consumption patterns shape and reflect cultural identity. Covers the transition from foraging to agriculture, the cultural significance of cuisine, food taboos and rituals, and how agricultural systems organize social structures. Connects to kinship, material culture, and the rise of civilizations as the subsistence foundation of every society.
-- **Status:** proposed
-
 ## Candidate: Linguistics and Language Evolution: How Language Shapes Thought and Culture
 - **Domain:** communication
 - **Proposed by:** Library-Runner
