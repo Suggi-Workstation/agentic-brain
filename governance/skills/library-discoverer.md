@@ -28,7 +28,7 @@ Skip for:
 - Domains with no anchor file
 - Topics already in the candidate queue
 - Topics already covered by existing files (check per-domain index files)
-- Topics previously rejected by the auditor (check library.log)
+- Topics previously rejected (check library.log)
 
 ## Path Convention -- Dual Platform
 
@@ -67,7 +67,7 @@ sub-checklists, no section summaries. Each item maps to a procedure
 step or a library guide rule. HALT on any failure; fix before
 committing.
 
-- [ ] Procedure completed: select domains, scan anchors, identify gaps, score all 4 dimensions, check capacity, propose, check duplicates, log, commit (PASS / HALT)
+- [ ] Procedure completed: select domains, scan anchors, identify gaps, score all 4 dimensions, check duplicates, check capacity, propose, log, commit (PASS / HALT)
 - [ ] Each candidate scored across all four dimensions (PASS / HALT)
 - [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
 - [ ] Weighted score calculated correctly: (gap*0.40 + compounding*0.25 + timeliness*0.20 + balance*0.15) (PASS / HALT)
@@ -117,9 +117,8 @@ empty.
 
 ### 3. Select domains for this cycle
 
-Select a subset of domains (recommended: 4-6 per cycle). Prioritize:
-1. Domains with the fewest topics (balance-driven).
-2. Domains not visited in the last 3 cycles (coverage-driven).
+Select a subset of domains (recommended: 4-6 per cycle). Prioritize
+domains with the fewest topics (balance-driven).
 
 ### 4. Read each selected domain anchor
 
@@ -149,7 +148,7 @@ A good gap topic:
 - Is clearly within the domain's In scope.
 - Does not overlap an existing topic (> 30% semantic overlap = skip).
 - Has not been proposed before (check candidate queue).
-- Has not been rejected by the auditor (check library.log).
+- Has not been rejected before (check library.log).
 
 ### 7. Score each candidate (discovery weight, v2: 4 dimensions)
 
@@ -170,28 +169,39 @@ balance 10. A domain with 50 topics next to one with 0 = balance 1-2.
 
 No minimum threshold for discovery -- score all candidates. The
 writer applies its own >= 7.0 threshold. The queue itself is capped
-at 25 proposed entries (see step 8).
+at 25 proposed entries (see step 9).
 
-### 8. Check queue capacity
+### 8. Check for duplicates in queue
 
-Read `library/candidate-queue.md`. Count every
-entry with `Status: proposed`. Calculate available slots:
+Read `library/candidate-queue.md`. Before calculating capacity or
+appending anything, compare every scored candidate against the
+existing queue by title and scope.
+
+If a candidate with a similar title or scope already exists and is
+still `proposed`, skip it. If a prior candidate was `rejected`, note
+the rejection reason and explain why this re-proposal is different.
+Only non-duplicate candidates proceed to the capacity check.
+
+### 9. Check queue capacity
+
+Count every entry with `Status: proposed`. Calculate available slots:
 `available = 25 - proposed_count`.
 
 - If available <= 0: log to library.log "Queue at capacity (25)."
   Note the candidates that would have been proposed (titles and
   scores) in the logbook entry. Skip to step 11 (logbook).
-- If available < number of scored candidates: sort by discovery
-  score descending, take only the top `available`. The rest are
-  dropped -- they may re-surface in future cycles.
-- If available >= number of scored candidates: proceed normally.
+- If available < number of non-duplicate scored candidates: sort by
+  discovery score descending, take only the top `available`. The rest
+  are dropped -- they may re-surface in future cycles.
+- If available >= number of non-duplicate scored candidates: proceed
+  normally.
 
-### 9. Propose candidates to the queue
+### 10. Propose candidates to the queue
 
-Propose up to `available` top-scored candidates. Append each to
-`library/candidate-queue.md` using this format. If the queue already has entries, add a blank line
-before the first `## Candidate:` block to separate the new candidates
-from existing entries.
+Propose up to `available` top-scored non-duplicate candidates. Append
+each to `library/candidate-queue.md` using this format. If the queue
+already has entries, add a blank line before the first `## Candidate:`
+block to separate the new candidates from existing entries.
 
 ```markdown
 
@@ -206,13 +216,6 @@ from existing entries.
 
 If `candidate-queue.md` does not exist, create it with a header:
 `# Library Candidate Queue -- topics proposed for the writing process`.
-
-### 10. Check for duplicates in queue
-
-Before appending, scan existing queue entries. If a candidate with
-similar title or scope already exists and is still `proposed`, skip it.
-If a prior candidate was `rejected` by the auditor, note the rejection
-reason and explain why this re-proposal is different.
 
 ### 11. Write logbook entry
 
@@ -300,5 +303,5 @@ in-progress files. Stage only this cycle's paths.
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
 - `research/insights/library-system.md` -- full system blueprint, anti-staleness design
 - `governance/skills/library-writer.md` -- writer skill (picks candidates from queue)
-- `governance/skills/external/library-auditor.md` -- auditor skill (legacy clone-pattern version; reviews written topics)
+- `governance/skills/library-reviewer.md` -- reviewer skill (refreshes existing topics)
 - `logbook/protocol.md` -- logbook entry format

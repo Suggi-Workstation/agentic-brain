@@ -95,7 +95,8 @@ through the Path Convention commands above.
 
 Read `governance/template-library.md` BEFORE writing. It
 defines the body structure (mandatory sections in order), frontmatter
-schema (7 fields + 2 optional auditor fields), quality gates (G1-G12),
+schema (7 required creation fields plus optional `reviewed` metadata
+added later by the Reviewer), quality gates (G1-G12),
 anti-patterns, the complete example, and the Library Topic Checklist.
 That checklist is the format gate for this skill. Follow the template
 exactly. Do not substitute your own section order or naming -- the
@@ -307,7 +308,7 @@ in-progress files. Stage only this cycle's paths.
 ## Related
 
 - `governance/template-library.md` -- format specification and compliance validator (Library Topic Checklist, quality gates G1-G12, anti-patterns, examples)
-- `governance/skills/external/library-auditor.md` -- auditor skill (legacy clone-pattern version; reviews written topics)
+- `governance/skills/library-reviewer.md` -- reviewer skill (refreshes existing topics)
 - `governance/skills/library-discoverer.md` -- discoverer skill (proposes candidates)
 - `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
 - `research/insights/library-system.md` -- full system blueprint, scoring rationale
