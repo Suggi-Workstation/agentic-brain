@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Advertising and Consumer Culture: How Ads Manufacture Desire
-- **Domain:** pop-culture
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-27
-- **Discovery score:** 8.70/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0)
-- **Scope:** Analyzes advertising as a system for manufacturing desire -- how commercial persuasion shapes identity, consumption norms, and cultural values. Covers the psychology of persuasion, brand-building, advertising's relationship with media business models, and the shift from mass broadcast to algorithmic targeting. Connects to propaganda, social influence, and consumer psychology as the commercial persuasion engine of modern culture.
-- **Status:** proposed
-
 ## Candidate: Intelligence and Espionage: The Invisible Hand of Statecraft
 - **Domain:** geopolitics
 - **Proposed by:** Library Runner
