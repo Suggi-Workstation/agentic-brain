@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Scenario Planning and Analysis: Structuring Uncertainty for Decision-Making
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.15/10.0 (gap=9.5, compounding=9.0, timeliness=8.0, balance=10.0)
-- **Scope:** Covers scenario planning as a structured method for reasoning about multiple plausible futures -- from Shell's pioneering use to Schwartz's framework and military wargaming. Examines how to identify driving forces, construct scenario narratives, and use them to test strategy under irreducible uncertainty. Distinguishes scenarios from forecasts and probability estimates, emphasizing robustness over precision. Connects to pre-mortem analysis, expected value frameworks, and inside-outside view as the strategic application of probabilistic thinking.
-- **Status:** proposed
-
 ## Candidate: Demographic Transition and Population Change: How Fertility, Mortality, and Aging Reshape Societies
 - **Domain:** sociology-demography
 - **Proposed by:** Library Runner
