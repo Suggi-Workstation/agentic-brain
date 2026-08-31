@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Unit Economics and Business Model Design: How Revenue Per Unit Drives Scalability
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.45/10.0 (gap=10.0, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Examines unit economics as the building blocks of business model viability: revenue and cost per unit, contribution margin, customer lifetime value, acquisition cost, payback period, and how these metrics determine whether a business can scale profitably. Covers pricing power, recurring revenue, and operating leverage as drivers of unit economics improvement over time. Analyzes how different business models produce different unit economics and what that implies for competitive advantage. Connects to industries-sectors, value-investing, and finance as the internal economic engine of the firm.
-- **Status:** proposed
-
 ## Candidate: Social Stratification and Mobility: Class, Status, and the Architecture of Opportunity
 - **Domain:** sociology-demography
 - **Proposed by:** Library Runner
