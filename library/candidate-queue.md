@@ -12,16 +12,6 @@
 
 
 
-
-
-## Candidate: Organizational Design and Decentralization: How Structure Follows Strategy
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 8.85/10.0 (gap=9.0, compounding=9.0, timeliness=7.5, balance=10.0)
-- **Scope:** Examines organizational design as how authority, information, and decision rights are distributed across a firm, and decentralization as the strategic choice to push those rights downward. Covers functional, divisional, matrix, and network structures, span of control, the locus of decision-making, the trade-offs between coordination and autonomy, and when centralization or decentralization produces better adaptation and execution. Analyzes the evidence from management research on how structure follows strategy and how mismatches between structure and environment degrade performance. Connects to business-management-strategy, psychology-behavior, and case-studies as the architectural logic of the firm.
-- **Status:** proposed
-
 ## Candidate: Hedge Fund Structures: Fee Arrangements, Lockups, and Leverage
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Library Runner
