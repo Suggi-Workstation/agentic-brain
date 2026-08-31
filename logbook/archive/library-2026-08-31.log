@@ -111,3 +111,118 @@ Similarity overlap: ~35%.
 Sources: 12 (10 high, 1 medium, 1 low).
 Cross-references: 3 topics.
 
+
+<!-- Appended 2026-08-31 12:51 UTC -- ENT-224 to ENT-236 -->
+
+## [ENT-224] | 2026-08-25 17:16 UTC | Library Runner | library | ref: library/self-improvement/exercise-and-cognitive-performance.md | see: candidate-exercise-cognitive-20260805
+Wrote topic Exercise and Cognitive Performance -- Why Physical Training Is the Most Evidence-Backed Brain Upgrade Available to self-improvement. Weighted score: 9.1/10.0
+(core=9.0, scope=9.5, value=8.5, authority=9.0).
+Similarity overlap: ~15%.
+Sources: 11 (10 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-225] | 2026-08-26 06:03 UTC | Library Runner | library | ref: library/case-studies/vw-dieselgate-emissions-scandal.md | see: candidate-vw-dieselgate-20260805
+Wrote topic Volkswagen's Dieselgate Scandal -- How Corporate Pressure and Institutional Deception Produced the Largest Fraud in Automotive History to case-studies. Weighted score: 8.9/10.0
+(core=9.0, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: ~20%.
+Sources: 11 (8 high, 3 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-226] | 2026-08-26 06:18 UTC | Library Runner | library | ref: library/accounting-financial-shenanigans/acquisition-accounting-tricks.md | see: candidate-acquisition-accounting-tricks-20260805
+Wrote topic Acquisition Accounting Tricks -- How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality to accounting-financial-shenanigans. Weighted score: 8.7/10.0
+(core=9.0, scope=8.5, value=9.0, authority=8.0).
+Similarity overlap: 35%.
+Sources: 12 (7 high, 5 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-227] | 2026-08-26 06:31 UTC | Library Runner | library | ref: library/industries-sectors/industry-profit-pools.md | see: candidate-industry-profit-pools-20260805
+Wrote topic Industry Profit Pools -- Why the Largest Revenue Streams Often Generate the Smallest Profits to industries-sectors. Weighted score: 9.2/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: ~35%.
+Sources: 12 (11 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-228] | 2026-08-26 06:46 UTC | Library Runner | library | ref: library/industries-sectors/industry-consolidation.md | see: candidate-industry-consolidation-20260805
+Wrote topic Industry Consolidation -- Why Markets Inevitably Concentrate and How the Endgame Shapes Every Industry Profitability to industries-sectors. Weighted score: 9.1/10.0
+(core=9.5, scope=9.0, value=9.0, authority=8.5).
+Similarity overlap: ~25%.
+Sources: 12 (9 high, 3 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-229] | 2026-08-26 07:01 UTC | Library Runner | library | ref: library/self-improvement/spaced-repetition-active-recall.md | see: candidate-spaced-repetition-20260805
+Wrote topic Spaced Repetition and Active Recall -- The Evidence-Based Path to Durable Knowledge to self-improvement. Weighted score: 9.25/10.0
+(core=9.5, scope=9.5, value=8.5, authority=9.0).
+Similarity overlap: ~10%.
+Sources: 12 (11 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-230] | 2026-08-26 07:16 UTC | Library Runner | library | ref: library/self-improvement/decision-journals.md | see: candidate-decision-journals-20260805
+Wrote topic Decision Journals: Writing Down Your Reasoning Before You Know the Outcome to self-improvement. Weighted score: 9.0/10.0
+(core=9.0, scope=9.5, value=8.5, authority=8.0).
+Similarity overlap: ~15%.
+Sources: 12 (10 high, 2 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-231] | 2026-08-26 07:32 UTC | Library Runner | library | ref: library/accounting-financial-shenanigans/restatement-analysis.md | see: candidate-restatement-analysis-20260805
+Wrote topic Restatement Analysis -- Why Forced Corrections Expose the Shenanigans Hiding in Prior Periods to accounting-financial-shenanigans. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: ~25%.
+Sources: 11 (7 high, 4 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-232] | 2026-08-26 13:16 UTC | Library Runner | library | ref: library/notable-people/alan-turing.md | see: candidate-alan-turing-20260825
+Wrote topic Alan Turing: The Architect of the Information Age to notable-people. Weighted score: 9.45/10.0
+(core=9.5, scope=9.5, value=9.5, authority=9.0).
+Similarity overlap: ~5%.
+Sources: 11 (9 high, 2 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-233] | 2026-08-26 13:31 UTC | Library Runner | library | ref: library/mathematics-statistics/regression-analysis.md | see: candidate-regression-analysis-20260825
+Wrote topic Regression Analysis: Modeling Relationships in Data to mathematics-statistics. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: ~20%.
+Sources: 12 (7 high, 5 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-234] | 2026-08-26 13:55 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 11 candidates proposed, 7 dropped (11 slots available for 18 scored candidates, queue now at 25/25 capacity).
+Candidates:
+- Journalism and Media Ethics: The Principles and Standards of Newsgathering (9.02): gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0
+- AI in Medicine and Diagnostics: How Machine Learning Is Transforming Clinical Practice (8.95): gap=9.0, compounding=8.5, timeliness=9.5, balance=8.8
+- Antifragile: Things That Gain from Disorder (8.85): gap=9.0, compounding=9.0, timeliness=7.5, balance=10.0
+- Guns, Germs, and Steel: How Geography Determined the Fate of Nations (8.75): gap=9.0, compounding=9.0, timeliness=7.0, balance=10.0
+- Man's Search for Meaning: Finding Purpose in Suffering (8.70): gap=9.5, compounding=8.0, timeliness=7.0, balance=10.0
+- Chemistry and the Periodic Table: The Architecture of Matter and Bonding (8.62): gap=9.5, compounding=9.0, timeliness=7.0, balance=7.8
+- Mental Health Treatment and Psychiatric Medicine: The Evidence Base for Psychological Care (8.62): gap=9.0, compounding=8.0, timeliness=8.5, balance=8.8
+- Food and Agriculture in Cultural Context: How Societies Feed Themselves (8.54): gap=9.0, compounding=8.5, timeliness=7.5, balance=8.8
+- Linguistics and Language Evolution: How Language Shapes Thought and Culture (8.50): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
+- Indigenous Knowledge Systems: What Traditional Societies Know That Modern Science Is Rediscovering (8.39): gap=9.0, compounding=7.5, timeliness=8.0, balance=8.8
+- Healthcare Systems and Insurance Models: How Nations Deliver and Pay for Care (8.32): gap=8.5, compounding=8.0, timeliness=8.0, balance=8.8
+Dropped candidates (below cutoff):
+- Ecology: How Organisms Interact with Their Environment (8.29): gap=8.5, compounding=8.5, timeliness=8.0, balance=7.8
+- Oceanography and Marine Systems: The Physics, Biology, and Chemistry of the World's Oceans (8.29): gap=8.5, compounding=8.5, timeliness=8.0, balance=7.8
+- Visual Communication and Information Design: How Images and Structure Convey Meaning (8.28): gap=8.5, compounding=7.5, timeliness=7.5, balance=10.0
+- Natural Disaster Mechanisms: The Science Behind Earthquakes, Hurricanes, and Volcanic Eruptions (8.27): gap=8.5, compounding=8.0, timeliness=8.5, balance=7.8
+- Urban Anthropology: How Cities Shape Culture and Social Organization (8.22): gap=8.5, compounding=8.0, timeliness=7.5, balance=8.8
+- Special and General Relativity: Einstein's Revolution in Understanding Space and Time (8.17): gap=9.0, compounding=8.0, timeliness=7.0, balance=7.8
+- Ecosystem Science: How Communities of Organisms Interact and Sustain Themselves (8.07): gap=8.5, compounding=8.0, timeliness=7.5, balance=7.8
+Domain balance: books (7 topics), communication (7) to earth-climate (9), science (9).
+
+## [ENT-235] | 2026-08-27 05:33 UTC | Library Runner | library | ref: library/finance/cost-of-capital-and-wacc.md | see: candidate-cost-of-capital-and-wacc-20260825
+Wrote topic Cost of Capital and WACC: The Price of Funding to finance. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=9.0, authority=8.0).
+Similarity overlap: 35%.
+Sources: 8 (5 high, 3 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-236] | 2026-08-27 05:47 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 0 candidates proposed (queue at capacity, 25/25 proposed), 6 scored and held for next cycle.
+Candidates (held -- queue full):
+- Agent Sandboxing and Security: Isolating Autonomous Code Execution (9.23): gap=9.5, compounding=8.5, timeliness=9.0, balance=10.0
+- Environmental Law: Regulating the Commons (9.00): gap=9.5, compounding=8.0, timeliness=8.5, balance=10.0
+- The Signal and the Noise: Why So Many Predictions Fail (8.85): gap=9.0, compounding=9.0, timeliness=7.5, balance=10.0
+- Online Learning and MOOCs: How Digital Platforms Reshape Education (8.82): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Unemployment and Labor Markets: The Dynamics of Job Creation and Loss (8.82): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Public Speaking and Presentation: The Art of Oral Persuasion (8.50): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
+Domain balance: books (7 topics), coding-agentic-ai (7), communication (7), education-learning (7), law-regulation (7), macro-micro (7) to industries-sectors (10), psychology-behavior (10), self-improvement (10).
+
