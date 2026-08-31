@@ -13,13 +13,6 @@
 
 
 
-## Candidate: A Random Walk Down Wall Street: The Efficient Market Hypothesis and Its Discontents
-- **Domain:** books
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-29
-- **Discovery score:** 8.63/10.0 (gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** Distills Burton Malkiel's argument that stock prices follow a random walk, making it nearly impossible for most investors to consistently beat the market. Covers the three forms of market efficiency, the evidence from mutual fund performance, and the case for passive indexing. Presents the value investing counterarguments from Buffett, Graham, and behavioral finance. Connects to modern portfolio theory, psychology-behavior, and value-investing as the central debate over whether markets can be beaten.
-- **Status:** proposed
 
 ## Candidate: The Signal and the Noise: Why So Many Predictions Fail
 - **Domain:** books
