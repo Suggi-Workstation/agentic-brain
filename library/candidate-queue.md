@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Rare Earths and Critical Minerals: The New Cartography of Power
-- **Domain:** geopolitics
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-29
-- **Discovery score:** 8.96/10.0 (gap=9.0, compounding=8.5, timeliness=9.5, balance=8.9)
-- **Scope:** Analyzes why rare earth elements and critical minerals became strategic chokepoints of the 2020s. Covers China's near-monopoly on processing, export controls as coercive leverage, and Western efforts to rebuild mining and refining capacity. Examines national stockpiles, deep-sea mining, and the geographic concentration of mineral reserves. Connects to energy-geopolitics, trade wars, and US-China competition as the resource foundation of the green transition.
-- **Status:** proposed
-
 ## Candidate: A Random Walk Down Wall Street: The Efficient Market Hypothesis and Its Discontents
 - **Domain:** books
 - **Proposed by:** Library Runner
