@@ -132,7 +132,7 @@
 - **Status:** proposed
 
 ## Candidate: Berkshire Hathaway Annual Reports 2016-2025: A Decade of Capital Allocation and Leadership Transition
-- **Domain:** investors
+- **Domain:** value-investing
 - **Proposed by:** Morpheus
 - **Date:** 2026-08-31
 - **Discovery score:** 8.3/10.0 (gap=9.5, compounding=10.0, timeliness=9.0, balance=1.1)
