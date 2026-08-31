@@ -11,13 +11,6 @@
 -->
 
 
-## Candidate: Film as Cultural Artifact: How Cinema Reflects and Shapes Society
-- **Domain:** pop-culture
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-27
-- **Discovery score:** 9.03/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Analyzes cinema as a primary source for understanding the societies that produce and consume it -- how films encode the cultural values, anxieties, and aspirations of their era. Covers narrative and visual language, genre evolution, national cinemas, and the studio system. Connects to prestige television, music as cultural phenomenon, and propaganda as the most influential storytelling medium of the 20th century.
-- **Status:** proposed
 
 ## Candidate: Mergers and Acquisitions: The Mechanics of Deal-Making
 - **Domain:** finance
