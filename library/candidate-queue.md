@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Social Networks and Social Capital: How Connections Shape Opportunity
-- **Domain:** sociology-demography
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.15/10.0 (gap=9.5, compounding=9.0, timeliness=8.0, balance=10.0)
-- **Scope:** Covers social networks as the structural patterns of relationships connecting individuals and groups, and social capital as the resources embedded in those connections. Examines strong and weak ties, structural holes, network density, brokerage, closure, and how network position affects information flow, trust, opportunity, and power. Analyzes the empirical evidence on how social capital shapes economic mobility, health, educational attainment, and community resilience, and the tension between bonding and bridging capital. Connects to psychology-behavior, business-management-strategy, and political-science-public-policy as the relational architecture underlying cooperation and collective action.
-- **Status:** proposed
-
 ## Candidate: Executive Compensation and Incentive Design: Pay as the Principal-Agent Lever
 - **Domain:** business-management-strategy
 - **Proposed by:** Library Runner
