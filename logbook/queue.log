@@ -459,3 +459,14 @@ Workstreams:
 - Restored the BOX-defined Tailscale Serve root path with narrow `127.0.0.1` proxy trust while retaining token auth; exact browser URL returned HTTP 200.
 - Added a personal OpenClaw 2.0 upgrade gate covering artifact audit, state ownership, plugin consent, memory migration, and full user-path verification.
 Reflection: 2026-08-31_morpheus_stateful-runtime-upgrade-is-a-data-migration.md. Daily memory: 2026-08-31.md.
+
+## [ENT-076] | 2026-08-31 14:55 UTC | Morpheus | general | ref: reflections/2026-08-31_morpheus_compression-test-is-a-state-mutation.md | see: 20260831T144722Z
+Session: Hermes compression recovery and Mnemosyne convergence.
+Workstreams:
+- Set root/default and all six named VPS profiles to legacy compression while preserving current-session model routing.
+- Restarted the unified serve and four active profile gateways on the updated checkout.
+- Proved one-call legacy compaction on the failed `Subagent adjusting` session; summary committed, timeout cleared, and no calls continued afterward.
+- Repaired two historical shared-memory embedding gaps and eleven orphan Morpheus vector rows without changing authoritative content or sync events.
+- Converged Morpheus, Neo, and Atlas shared stores at 49 working rows, embeddings, and vectors each; sync and SQLite checks passed.
+- Added a personal regression gate that treats the compression test harness as a state writer and verifies cleanup after exit.
+Reflection: 2026-08-31_morpheus_compression-test-is-a-state-mutation.md. Daily memory: 2026-08-31.md.

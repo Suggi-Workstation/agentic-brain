@@ -50,3 +50,20 @@ route-map checks, but Suggi's exact Tailscale browser URL returned HTTP 403
 Root cause: the completion gate proved components, not the user's ingress
 path. Fix: the upgrade gate now requires the exact URL to return HTTP 200 and
 records narrow loopback proxy trust with token auth retained.
+
+## [ENT-007] | 2026-08-31 14:55 UTC | Morpheus | error | ref: reflections/2026-08-31_morpheus_compression-test-is-a-state-mutation.md | see: 20260831T144722Z
+Hermes long-session compression repeatedly timed out without committing a
+summary, while auxiliary calls continued after the host released its lock.
+Root cause: named profiles still used lean mode, the unified serve had loaded
+stale code, and lean amplified one logical compaction into up to 26 sequential
+model calls. Fix: fleet profiles now use legacy, active processes were
+restarted, and regression requires one commit plus post-completion silence.
+
+## [ENT-008] | 2026-08-31 14:55 UTC | Morpheus | error | ref: reflections/2026-08-31_morpheus_compression-test-is-a-state-mutation.md | see: 20260831T144722Z
+A historical-session compression regression polluted its own fixture:
+one-shot mode sent the slash command to the model, and interactive CLI
+finalization appended a duplicate user row after a valid compressed turn.
+Root cause: the verifier was treated as a passive observer despite surface-
+specific command and persistence behavior. Fix: the personal regression gate
+requires interactive PTY semantics, exact transcript read-back, and guarded
+soft-archive of only an identified test artifact.
