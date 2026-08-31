@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Demographic Transition and Population Change: How Fertility, Mortality, and Aging Reshape Societies
-- **Domain:** sociology-demography
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.78/10.0 (gap=10.0, compounding=9.5, timeliness=9.5, balance=10.0)
-- **Scope:** Covers the demographic transition model: how societies move from high fertility and mortality to low rates as they develop, and the economic and social consequences of that shift. Examines population aging, declining birth rates in developed nations, the dependency ratio, and how migration and policy responses interact with these trends. Analyzes population projections and their implications for labor markets, pension systems, and healthcare. Connects to macro-micro, health-medicine, and political-science-public-policy as the population-level foundation for economic and policy analysis.
-- **Status:** proposed
-
 ## Candidate: State Capacity: How Governments Convert Authority into Outcomes
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
