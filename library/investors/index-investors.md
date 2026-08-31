@@ -1,6 +1,6 @@
 # Investors -- Topics
 
-8 topics. Anchor: [anchor-investors.md](anchor-investors.md)
+9 topics. Anchor: [anchor-investors.md](anchor-investors.md)
 
 - [Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline](benjamin-graham.md) -- [reviewed: never] -- Benjamin Graham transformed investing from speculation into a systematic discipline grounded in financial analysis. Before Graham, buying stocks was driven by tips, momentum, and insider information. After Graham's two foundational texts -- Security Analysis (1934) and The Intelligent Investor (1949) -- it became possible to value securities using financial statements, a margin of safety, and the concept of intrinsic value.
 
@@ -11,6 +11,8 @@
 - [John Templeton -- The Global Contrarian Who Turned Maximum Pessimism into Maximum Returns](john-templeton.md) -- [reviewed: never] -- Sir John Templeton (1912-2008) was the original global value investor, a contrarian who built one of the most successful mutual fund track records in history by systematically buying assets at their moments of deepest despair. His Templeton Growth Fund achieved roughly 15% annual returns over 38 years, a record that placed him among the greatest investors of the 20th century.
 
 - [Peter Lynch -- How Everyday Observation and Disciplined Research Produced the Greatest Mutual Fund Record of the 20th Century](peter-lynch.md) -- [reviewed: never] -- Peter Lynch managed the Fidelity Magellan Fund from 1977 to 1990, compounding capital at 29.2% annually -- the best 13-year record of any mutual fund in history. His central thesis, laid out in the bestselling "One Up on Wall Street" (1989), is that individual investors possess a genuine informational advantage over professional money managers: they can observe products, services, and trends in their daily lives before Wall Street analysts notice.
+
+- [Philip Fisher -- The Qualitative Growth Investor Who Taught Buffett to Hold](philip-fisher.md) -- [reviewed: never] -- Philip Arthur Fisher (1907-2004) was the pioneer of qualitative growth investing, a man who built his career on the conviction that the most important facts about a company cannot be found in its financial statements. Through his 1958 book Common Stocks and Uncommon Profits, his "scuttlebutt" research method, and his fifteen-point checklist for evaluating management quality, Fisher created a...
 
 - [Ray Dalio -- How a Near-Bankruptcy Forged the World's Largest Hedge Fund and a Philosophy of Radical Truth](ray-dalio.md) -- [reviewed: never] -- Ray Dalio built Bridgewater Associates from a two-bedroom New York apartment into the world's largest hedge fund, managing over $150 billion, by treating both markets and organizations as machines whose underlying principles can be discovered, codified, and systematically applied. His frameworks -- the Economic Machine model, risk parity and the All-Weather Portfolio, and a management philosophy...
 
