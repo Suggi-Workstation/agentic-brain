@@ -14,13 +14,6 @@
 
 
 
-## Candidate: The Signal and the Noise: Why So Many Predictions Fail
-- **Domain:** books
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-29
-- **Discovery score:** 8.53/10.0 (gap=8.5, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** Summarizes Nate Silver's analysis of prediction across weather forecasting, earthquakes, sports, poker, and politics. Covers the distinction between signal and noise, the failure modes of overconfident forecasters, and the power of probabilistic reasoning that states uncertainty honestly. Explains why some forecasting disciplines improve while others do not. Connects to superforecasting, Bayesian reasoning, and calibration as the book-length case for probabilistic humility.
-- **Status:** proposed
 
 ## Candidate: Philip Fisher: The Qualitative Growth Investor
 - **Domain:** investors
