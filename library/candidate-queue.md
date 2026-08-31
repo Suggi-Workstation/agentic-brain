@@ -12,13 +12,6 @@
 
 
 
-## Candidate: Mutual Funds and ETFs: The Architecture of Retail Capital Pooling
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.35/10.0 (gap=9.5, compounding=9.0, timeliness=9.0, balance=10.0)
-- **Scope:** Examines mutual funds and ETFs as the dominant vehicles for retail and institutional capital pooling: the open-end mutual fund structure, NAV pricing, creation-redemption mechanics for ETFs, passive index tracking versus active management, fee structures and expense ratios, and the regulatory framework governing pooled investment vehicles. Covers the structural differences between open-end funds, closed-end funds, and ETFs, and how tracking error, premium/discount dynamics, and tax efficiency differ across structures. Analyzes how passive investing's rise reshapes market efficiency, corporate governance, and price discovery. Connects to finance, value-investing, and portfolio-risk-management as the mass-market capital allocation infrastructure.
-- **Status:** proposed
 
 ## Candidate: Social Networks and Social Capital: How Connections Shape Opportunity
 - **Domain:** sociology-demography
