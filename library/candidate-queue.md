@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Federalism and Multi-Level Governance: Why the Distribution of Power Matters
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.03/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines federalism as the division of governmental authority between national and subnational levels, and how that division shapes policy outcomes, democratic accountability, and fiscal capacity. Covers the theories of federalism (dual, cooperative, competitive), the vertical and horizontal distribution of powers, fiscal federalism and intergovernmental transfers, and the trade-offs between uniformity and local autonomy. Analyzes comparative federal systems (US, Germany, India, EU quasi-federalism) and when centralization or decentralization produces better governance. Connects to political-science-public-policy, macro-micro, and law-regulation as the institutional architecture of multi-level governance.
-- **Status:** proposed
-
 ## Candidate: Manufacturing Systems and Industrial Engineering: Lean, Quality, and Throughput
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Library Runner
