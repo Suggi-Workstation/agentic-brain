@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Dividend Discount Models: Valuing Cash Returns to Shareholders
-- **Domain:** valuation-screening
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 8.83/10.0 (gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** Covers dividend discount models (DDM) as a valuation framework -- the Gordon growth model, multi-stage DDM, the H-model, and the assumptions about dividend growth and required return that drive outputs. Examines when DDM is appropriate (mature, stable dividend payers) and when it fails (growth companies, buybacks replacing dividends). Analyzes the relationship between dividend yield, growth, and total return, and how DDM connects to the equity risk premium and cost of capital. Connects to DCF methodology, earnings power value, and cost of capital estimation as the income-approach branch of valuation.
-- **Status:** proposed
-
 ## Candidate: Scenario Planning and Analysis: Structuring Uncertainty for Decision-Making
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Library Runner
