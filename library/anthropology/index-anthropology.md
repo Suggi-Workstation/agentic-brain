@@ -1,12 +1,14 @@
 # Anthropology -- Topics
 
-8 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
+9 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
 
 - [Food and Agriculture in Cultural Context -- How a Society Feeds Itself Shapes Everything Else About It](food-and-agriculture-in-cultural-context.md) -- [reviewed: never] -- Every society must solve the same problem -- turning environment into food -- and the way it solves it shapes its kinship, politics, religion, and identity. Anthropology studies food both as subsistence, the material system that produces calories, and as symbol, the meanings attached to what is edible, who eats with whom, and how it is prepared.
 
 - [Gift Economies and Reciprocity -- Why No Gift Is Ever Free and Every Exchange Creates a Social Bond](gift-economies-and-reciprocity.md) -- [reviewed: never] -- Gift economies are systems of exchange where goods and services are given without explicit agreement for immediate or future compensation, yet every gift creates an obligation to reciprocate. Identified as a universal human pattern by Marcel Mauss in his 1925 essay "The Gift," this dynamic reveals that exchange is never purely economic -- it is always social.
 
 - [Human Evolution and Prehistory -- How a Bipedal Ape Became the Planet's Dominant Species](human-evolution-and-prehistory.md) -- [reviewed: never] -- Human evolution is the ~7-million-year story of how a lineage of bipedal apes in Africa gave rise to Homo sapiens, a species whose unique capacity for cumulative culture, abstract language, and large-scale cooperation enabled it to colonize every continent and reshape the biosphere. The fossil and archaeological records reveal that this was not a linear march of progress but a branching bush of...
+
+- [Indigenous Knowledge Systems -- What Traditional Societies Know That Modern Science Is Rediscovering](indigenous-knowledge-systems.md) -- [reviewed: never] -- Indigenous knowledge systems are the cumulative bodies of knowledge, practice, and belief developed by traditional societies through long observation of and interaction with their environments. Far from being static folklore, these systems encode ecological management, medicinal pharmacology, astronomical observation, and oral transmission methods that have sustained human communities for millennia.
 
 - [Kinship and Social Structures -- The Universal Grammar of Human Relatedness](kinship-and-social-structures.md) -- [reviewed: never] -- Kinship is the closest thing human societies have to a universal grammar -- a set of deep structural rules that determine who counts as family, who can marry whom, where newlyweds live, and how property and identity flow between generations. While every culture produces its own vocabulary of relatedness, anthropologists have identified a limited set of underlying patterns that recur across continents and millennia.
 
