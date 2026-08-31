@@ -1,10 +1,12 @@
 # Valuation Screening -- Topics
 
-9 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
+10 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
 - [Cost of Capital -- Why the Discount Rate Is Both the Most Important and Most Uncertain Number in Valuation](cost-of-capital-capm-wacc-erp.md) -- [reviewed: never] -- Cost of capital is the minimum return a company must earn on its investments to satisfy its providers of capital -- both debt holders and equity investors. It serves as the discount rate in every discounted cash flow model, translating future cash flows into present value. The Capital Asset Pricing Model (CAPM) and the Weighted Average Cost of Capital (WACC) framework together form the standard...
 
 - [Discounted Cash Flow -- Why the Most Rigorous Valuation Method Is Also the Most Dangerous](discounted-cash-flow-dcf-methodology.md) -- [reviewed: never] -- Discounted Cash Flow (DCF) analysis is the foundational intrinsic valuation methodology: it estimates what a business is worth today by forecasting its future free cash flows and discounting them back to present value at the appropriate risk-adjusted rate. The DCF framework is intellectually rigorous -- it forces the analyst to think through every driver of business value, from revenue growth and margin trajectories to reinvestment needs and the cost of capital.
+
+- [Dividend Discount Models -- Why the Oldest Valuation Method Still Applies Where Others Fail](dividend-discount-models.md) -- [reviewed: never] -- Dividend discount models (DDM) value a stock as the present value of all expected future dividends paid to shareholders. Originating with John Burr Williams in 1938 and formalized as the Gordon Growth Model by Myron Gordon and Eli Shapiro in 1956, the DDM is the oldest and most intuitive branch of intrinsic valuation: a stock is worth what it returns to its owners in cash.
 
 - [Earnings Power Value and Asset-Based Valuation -- Anchoring Intrinsic Value in What a Company Already Earns and Owns](earnings-power-value-and-asset-based-valuation.md) -- [reviewed: never] -- Earnings Power Value (EPV) and asset-based valuation are two families of intrinsic-value methods that deliberately avoid the growth forecasts on which discounted cash flow (DCF) models depend. EPV, popularized by Bruce Greenwald, capitalizes a company's normalized current earnings at its cost of capital to estimate what the business is worth if it simply persists unchanged; asset-based valuation estimates what the underlying assets would fetch if reproduced from scratch or liquidated.
 
