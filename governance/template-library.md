@@ -170,6 +170,8 @@ titles are noted where permitted; the presence of each section is
 non-negotiable. EACH section must also meet its word minimum:
 Background >= 600 words, Core Concepts >= 1200 words, Evidence >=
 900 words, Implications >= 900 words.
+Optional Sections ## Common Pitfalls, ## Criticisms, ## Practical Frameworks 
+no minimal wordcount required.
 
 ```
 1.  ## Background
