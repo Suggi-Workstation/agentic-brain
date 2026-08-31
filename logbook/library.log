@@ -400,3 +400,17 @@ Wrote topic Rare Earths and Critical Minerals: The New Cartography of Power to g
 Similarity overlap: 30%.
 Sources: 14 (8 high, 6 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-274] | 2026-08-31 09:48 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 9 candidates proposed, 3 skipped (queue capped at 25).
+Candidates:
+- Human-in-the-Loop Agent Design: When to Hand Control Back to Humans (9.23): gap=9.5, compounding=8.5, timeliness=9.0, balance=10.0
+- Agent Sandboxing and Security: Isolating Autonomous Systems from Harm (9.20): gap=9.5, compounding=8.0, timeliness=9.5, balance=10.0
+- Monte Carlo Simulation in Valuation: Modeling Uncertainty in Intrinsic Value (9.12): gap=9.5, compounding=8.5, timeliness=8.5, balance=10.0
+- Labor Markets and Employment Dynamics: Wages, Unemployment, and Structural Shifts (9.02): gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0
+- Philosophy of Science: What Makes Knowledge Scientific (8.95): gap=9.5, compounding=9.0, timeliness=7.0, balance=10.0
+- Black-Litterman Model: Combining Views with Market Equilibrium (8.93): gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0
+- Dividend Discount Models: Valuing Cash Returns to Shareholders (8.83): gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0
+- Currency and Exchange Rates: The Mechanics of International Money (8.80): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
+- Existentialism: Freedom, Authenticity, and the Weight of Choice (8.70): gap=9.5, compounding=8.0, timeliness=7.0, balance=10.0
+Domain balance: coding-agentic-ai, ethics-philosophy, macro-micro, portfolio-risk-management, valuation-screening (9 topics) to anthropology (10 topics).

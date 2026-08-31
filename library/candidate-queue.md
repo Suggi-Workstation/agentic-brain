@@ -140,3 +140,75 @@
 - **Discovery score:** 8.31/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=8.9)
 - **Scope:** Examines Montessori, Waldorf, Reggio Emilia, and other alternative education models that challenge conventional schooling. Covers the philosophical foundations of each approach, the evidence for and against their outcomes, and the practical tensions between child-led learning and structured curriculum. Analyzes why alternative models persist despite dominant conventional systems and what they reveal about how children learn. Connects to pedagogy, cognitive load theory, and comparative education systems as the experimental frontier of educational philosophy.
 - **Status:** proposed
+
+## Candidate: Human-in-the-Loop Agent Design: When to Hand Control Back to Humans
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 9.23/10.0 (gap=9.5, compounding=8.5, timeliness=9.0, balance=10.0)
+- **Scope:** Examines the design patterns for human-in-the-loop AI agent systems -- when agents should pause for human approval, how to design escalation triggers, and the tradeoffs between autonomy and oversight. Covers confidence-based gating, high-stakes action confirmation, and the spectrum from fully autonomous to fully supervised agents. Analyzes real-world patterns from coding agents, autonomous vehicles, and medical AI where handoff design determines safety. Connects to agent observability, tool use, and multi-agent orchestration as the safety layer in agent architecture.
+- **Status:** proposed
+
+## Candidate: Agent Sandboxing and Security: Isolating Autonomous Systems from Harm
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 9.20/10.0 (gap=9.5, compounding=8.0, timeliness=9.5, balance=10.0)
+- **Scope:** Covers the security architecture for AI agents that execute code, access files, and make network calls -- sandboxing strategies, permission scoping, capability-based security, and blast-radius limitation. Examines container isolation, API key management, tool permission boundaries, and the failure modes of agents that escape their sandboxes. Analyzes lessons from agent security incidents and the design principle of least privilege applied to autonomous systems. Connects to tool use patterns, agent observability, and multi-agent orchestration as the security foundation of agentic engineering.
+- **Status:** proposed
+
+## Candidate: Monte Carlo Simulation in Valuation: Modeling Uncertainty in Intrinsic Value
+- **Domain:** valuation-screening
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 9.12/10.0 (gap=9.5, compounding=8.5, timeliness=8.5, balance=10.0)
+- **Scope:** Explains Monte Carlo simulation as applied to valuation -- replacing point estimates of growth, margins, and discount rates with probability distributions to produce a range of intrinsic values rather than a single number. Covers input distribution selection, correlation between variables, sensitivity analysis vs scenario analysis, and how to interpret the output distribution. Examines the advantages and pitfalls: avoiding false precision, the danger of garbage-in-garbage-out, and when simulation adds genuine insight versus computational theater. Connects to DCF methodology, reverse DCF, and sensitivity analysis as the uncertainty-quantification layer of valuation.
+- **Status:** proposed
+
+## Candidate: Labor Markets and Employment Dynamics: Wages, Unemployment, and Structural Shifts
+- **Domain:** macro-micro
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
+- **Scope:** Examines labor economics -- wage determination, unemployment types (frictional, structural, cyclical), the Phillips curve, labor force participation, and the impact of automation and AI on employment. Covers human capital theory, the gig economy, minimum wage debates, and the decline of unionization. Analyzes structural shifts from manufacturing to services to knowledge work and the policy responses to labor market disruptions. Connects to inflation dynamics, business cycles, and fiscal policy as the human dimension of macroeconomic performance.
+- **Status:** proposed
+
+## Candidate: Philosophy of Science: What Makes Knowledge Scientific
+- **Domain:** ethics-philosophy
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.95/10.0 (gap=9.5, compounding=9.0, timeliness=7.0, balance=10.0)
+- **Scope:** Examines the philosophy of science -- the demarcation problem separating science from pseudoscience, Popper's falsifiability criterion, Kuhn's paradigm shifts, Lakatos's research programmes, and Feyerabend's methodological anarchism. Covers the debate between scientific realism and instrumentalism, the underdetermination of theory by evidence, and the social dimensions of scientific knowledge. Analyzes how these frameworks apply to contemporary debates in climate science, evolutionary biology, and replication crises. Connects to epistemology, scientific method, and the history of science as the philosophical backbone of how we know what we know.
+- **Status:** proposed
+
+## Candidate: Black-Litterman Model: Combining Views with Market Equilibrium
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.93/10.0 (gap=9.5, compounding=8.5, timeliness=7.5, balance=10.0)
+- **Scope:** Explains the Black-Litterman portfolio optimization model, which combines investor views with the market equilibrium portfolio to produce stable, intuitive expected returns. Covers the problems with mean-variance optimization (sensitivity to input errors, corner portfolios), the Bayesian framework underlying Black-Litterman, and practical implementation including confidence levels and reverse optimization. Compares Black-Litterman with resampled efficiency and robust optimization alternatives. Connects to modern portfolio theory, Bayesian reasoning, and diversification mathematics as the bridge between theory and practical portfolio construction.
+- **Status:** proposed
+
+## Candidate: Dividend Discount Models: Valuing Cash Returns to Shareholders
+- **Domain:** valuation-screening
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.83/10.0 (gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0)
+- **Scope:** Covers dividend discount models (DDM) as a valuation framework -- the Gordon growth model, multi-stage DDM, the H-model, and the assumptions about dividend growth and required return that drive outputs. Examines when DDM is appropriate (mature, stable dividend payers) and when it fails (growth companies, buybacks replacing dividends). Analyzes the relationship between dividend yield, growth, and total return, and how DDM connects to the equity risk premium and cost of capital. Connects to DCF methodology, earnings power value, and cost of capital estimation as the income-approach branch of valuation.
+- **Status:** proposed
+
+## Candidate: Currency and Exchange Rates: The Mechanics of International Money
+- **Domain:** macro-micro
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.80/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0)
+- **Scope:** Covers the theory and mechanics of currency markets -- exchange rate regimes (fixed, floating, managed), purchasing power parity, interest rate parity, the balance of payments, and the role of central bank intervention. Examines currency crises, capital controls, the Triffin dilemma, and the geopolitics of reserve currencies including the dollar's dominance and de-dollarization trends. Analyzes how exchange rates affect trade balances, inflation, and investment flows. Connects to monetary policy, trade and comparative advantage, and geopolitics as the monetary plumbing of the global economy.
+- **Status:** proposed
+
+## Candidate: Existentialism: Freedom, Authenticity, and the Weight of Choice
+- **Domain:** ethics-philosophy
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.70/10.0 (gap=9.5, compounding=8.0, timeliness=7.0, balance=10.0)
+- **Scope:** Surveys existentialist philosophy from Kierkegaard and Nietzsche through Sartre, Camus, de Beauvoir, and Heidegger. Covers the core themes -- radical freedom, authentic existence, the absurd, angst, bad faith, and the rejection of essentialist human nature. Examines how existentialism responds to the problem of meaning in a secular age and its influence on literature, psychology, and political thought. Analyzes the tension between existentialist individualism and communitarian or structural critiques. Connects to free will and determinism, Stoicism, and political philosophy as the philosophical exploration of what it means to exist.
+- **Status:** proposed
