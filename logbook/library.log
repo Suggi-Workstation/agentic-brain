@@ -475,3 +475,18 @@ Domains:
 Architecture: system blueprint and living library docs updated to the 33-domain filesystem.
 Indexing: `index-library.py` confirmed dynamic; workflow path globs already cover new domains and its mutable count comment was removed.
 Shared skills: canonical discoverer and reviewer mutable count wording removed with Suggi approval.
+
+## [ENT-283] | 2026-08-31 12:21 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 10 candidates proposed, 0 skipped (queue at 14/25 capacity).
+Candidates:
+- Demographic Transition and Population Change: How Fertility, Mortality, and Aging Reshape Societies (9.78): gap=10.0, compounding=9.5, timeliness=9.5, balance=10.0
+- State Capacity: How Governments Convert Authority into Outcomes (9.68): gap=10.0, compounding=9.5, timeliness=9.0, balance=10.0
+- Power Grid Infrastructure: Generation, Transmission, and Distribution as Engineered Systems (9.65): gap=10.0, compounding=9.0, timeliness=9.5, balance=10.0
+- Private Equity and Venture Capital Fund Structures: LP-GP Architecture, Carried Interest, and the J-Curve (9.55): gap=10.0, compounding=9.0, timeliness=9.0, balance=10.0
+- Corporate Governance and Board Effectiveness: Stewardship, Oversight, and Principal-Agent Problems (9.47): gap=10.0, compounding=9.5, timeliness=8.0, balance=10.0
+- Unit Economics and Business Model Design: How Revenue Per Unit Drives Scalability (9.45): gap=10.0, compounding=9.0, timeliness=8.5, balance=10.0
+- Social Stratification and Mobility: Class, Status, and the Architecture of Opportunity (9.45): gap=10.0, compounding=9.0, timeliness=8.5, balance=10.0
+- Electoral Systems and Voting Mechanics: How Rules Shape Political Outcomes (9.43): gap=10.0, compounding=8.5, timeliness=9.0, balance=10.0
+- Insurance Float as Investment Capital: The Berkshire Model of Permanent Capital (9.38): gap=10.0, compounding=9.5, timeliness=7.5, balance=10.0
+- Reliability Engineering and Failure Analysis: Designing Systems That Do Not Fail (9.22): gap=10.0, compounding=8.5, timeliness=8.0, balance=10.0
+Domain balance: business-management-strategy, engineering-infrastructure, investment-vehicles-fund-structures, political-science-public-policy, sociology-demography (0 topics each) to anthropology, books, geopolitics, health-medicine, self-improvement, technology, value-investing (10+ topics each).
