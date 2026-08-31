@@ -89,14 +89,18 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 - library/macro-micro
 - library/investors
 - library/industries-sectors
+- library/business-management-strategy
 - library/portfolio-risk-management
 - library/valuation-screening
+- library/investment-vehicles-fund-structures
 - library/science
 - library/mathematics-statistics
 - library/probabilistic-thinking-forecasting
 - library/ethics-philosophy
 - library/law-regulation
+- library/political-science-public-policy
 - library/psychology-behavior
+- library/sociology-demography
 - library/communication
 - library/geopolitics
 - library/history
@@ -109,6 +113,7 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 - library/education-learning
 - library/coding-agentic-ai
 - library/technology
+- library/engineering-infrastructure
 - library/anthropology
 
 ### #3 - agentic-forge (public)

@@ -50,4 +50,12 @@ perspective.
 - history: broad historical analysis of periods and forces belongs there.
   Specific events analyzed for transferable lessons belong here.
   `library/history/anchor-history.md`
+- investment-vehicles-fund-structures: recurring comparisons of fund
+  and ownership architecture belong there. A specific fund collapse,
+  acquisition, or investment decision analyzed for lessons belongs here.
+  `library/investment-vehicles-fund-structures/anchor-investment-vehicles-fund-structures.md`
+- business-management-strategy: general frameworks for management,
+  operations, and strategy belong there. A specific turnaround,
+  failure, or strategic decision analyzed for lessons belongs here.
+  `library/business-management-strategy/anchor-business-management-strategy.md`
 

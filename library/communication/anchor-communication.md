@@ -40,7 +40,7 @@ summarized), media business models (industries-sectors), communication
 technology and infrastructure (technology), social media psychology
 (psychology-behavior), freedom of speech law (law-regulation),
 philosophy of language (ethics-philosophy), public relations as
-industry practice, marketing strategy (industries-sectors).
+industry practice, marketing strategy (business-management-strategy).
 
 ## Adjacent domains
 
@@ -65,3 +65,15 @@ industry practice, marketing strategy (industries-sectors).
 - law-regulation: media law, defamation, and free speech regulation belong there.
   Journalistic ethics and standards belong here.
   `library/law-regulation/anchor-law-regulation.md`
+- business-management-strategy: communication methods and negotiation
+  belong here. Their use in management, sales, marketing, and
+  organizational coordination belongs there.
+  `library/business-management-strategy/anchor-business-management-strategy.md`
+- political-science-public-policy: political rhetoric, journalism,
+  propaganda, and media systems belong here. Elections, parties, and
+  policy institutions using those systems belong there.
+  `library/political-science-public-policy/anchor-political-science-public-policy.md`
+- sociology-demography: language, media, rhetoric, and information
+  transfer belong here. Their effects on institutions, networks, and
+  collective behavior belong there.
+  `library/sociology-demography/anchor-sociology-demography.md`

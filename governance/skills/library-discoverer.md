@@ -139,7 +139,7 @@ one read per domain.
 
 Build a mental map of what is already covered. Use the master index
 at `library/index-library.md` for cross-domain awareness (topic
-counts and descriptions across all 28 domains).
+counts and descriptions across all current domains).
 
 ### 6. Identify knowledge gaps
 

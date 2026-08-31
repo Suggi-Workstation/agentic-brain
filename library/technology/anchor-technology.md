@@ -33,7 +33,8 @@ technology history and evolution, open source movements.
 ethics and regulation (ethics-philosophy and law-regulation),
 tech company business models (industries-sectors), tech investor
 analysis (investors), science fiction (pop-culture), coding
-agent design patterns (coding-agentic-ai).
+agent design patterns (coding-agentic-ai), physical infrastructure
+and engineering lifecycle methods (engineering-infrastructure).
 
 ## Adjacent domains
 
@@ -61,4 +62,12 @@ agent design patterns (coding-agentic-ai).
   technology effective belongs there. Educational technology
   platforms and tools belong here.
   `library/education-learning/anchor-education-learning.md`
+- business-management-strategy: technical artifacts and platforms
+  belong here. Technology adoption, product strategy, and operating
+  consequences belong there.
+  `library/business-management-strategy/anchor-business-management-strategy.md`
+- engineering-infrastructure: digital systems and discrete technical
+  artifacts belong here. Physical systems engineering, infrastructure,
+  reliability, and lifecycle performance belong there.
+  `library/engineering-infrastructure/anchor-engineering-infrastructure.md`
 

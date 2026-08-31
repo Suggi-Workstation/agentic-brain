@@ -33,7 +33,8 @@ sector rotation analysis.
 **Out:** individual company analysis (case-studies unless framed
 as industry exemplar), investment recommendations, stock picking,
 macroeconomic industry effects (macro-micro), general business
-strategy without industry context, industry fiction.
+strategy without industry context (business-management-strategy),
+industry fiction.
 
 ## Adjacent domains
 
@@ -53,4 +54,16 @@ strategy without industry context, industry fiction.
   belongs there. Healthcare industry economics and pharma business
   models belong here.
   `library/health-medicine/anchor-health-medicine.md`
+- investment-vehicles-fund-structures: asset management, insurance,
+  and financial services as industries belong here. Fund and ownership
+  structures as capital-compounding mechanisms belong there.
+  `library/investment-vehicles-fund-structures/anchor-investment-vehicles-fund-structures.md`
+- business-management-strategy: industry structure and the external
+  playing field belong here. The internal operating system of an
+  individual organization belongs there.
+  `library/business-management-strategy/anchor-business-management-strategy.md`
+- engineering-infrastructure: construction, utilities, transport, and
+  manufacturing as competitive industries belong here. Their physical
+  systems and engineering methods belong there.
+  `library/engineering-infrastructure/anchor-engineering-infrastructure.md`
 

@@ -56,4 +56,12 @@ macroeconomic theory (macro-micro), behavioral biases in markets
 - investors: specific investor strategies belong there. Financial
   market context they operated in belongs here.
   `library/investors/anchor-investors.md`
+- investment-vehicles-fund-structures: general financial institutions
+  and market mechanics belong here. Comparative fund and ownership
+  architecture belongs there.
+  `library/investment-vehicles-fund-structures/anchor-investment-vehicles-fund-structures.md`
+- business-management-strategy: financial reporting, financing, and
+  capital structure belong here. Business-model design, governance,
+  operations, and execution belong there.
+  `library/business-management-strategy/anchor-business-management-strategy.md`
 

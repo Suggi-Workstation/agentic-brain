@@ -41,15 +41,18 @@ library/
     quarantine/                # topics rejected by the auditor
 ```
 
-Currently 28 domains: accounting-financial-shenanigans, anthropology,
-books, case-studies, coding-agentic-ai, communication,
-earth-climate, education-learning, ethics-philosophy,
-finance, geopolitics, health-medicine, history,
-industries-sectors, investors, law-regulation,
-macro-micro, mathematics-statistics, notable-people, pop-culture,
+Currently 33 domains: accounting-financial-shenanigans, anthropology,
+books, business-management-strategy, case-studies, coding-agentic-ai,
+communication, earth-climate, education-learning,
+engineering-infrastructure, ethics-philosophy, finance, geopolitics,
+health-medicine, history, industries-sectors,
+investment-vehicles-fund-structures, investors, law-regulation,
+macro-micro, mathematics-statistics, notable-people,
+political-science-public-policy, pop-culture,
 portfolio-risk-management, probabilistic-thinking-forecasting,
-psychology-behavior, science, self-improvement, technology,
-valuation-screening, value-investing.
+psychology-behavior, science, self-improvement,
+sociology-demography, technology, valuation-screening,
+value-investing.
 
 ## The three-process pipeline
 

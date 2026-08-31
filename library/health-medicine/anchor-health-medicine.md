@@ -68,3 +68,11 @@ regulation (law-regulation), bioethics as philosophy
 - psychology-behavior: psychological mechanisms and behavioral science belong there.
   Clinical mental health treatment and psychiatric medicine belong here.
   `library/psychology-behavior/anchor-psychology-behavior.md`
+- sociology-demography: disease, treatment, and epidemiology belong
+  here. Population aging, health inequality, and healthcare institutions
+  as social systems belong there.
+  `library/sociology-demography/anchor-sociology-demography.md`
+- engineering-infrastructure: clinical evidence and treatment systems
+  belong here. Hospitals, medical facilities, sanitation, and physical
+  healthcare infrastructure belong there.
+  `library/engineering-infrastructure/anchor-engineering-infrastructure.md`

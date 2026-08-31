@@ -34,7 +34,7 @@ measurement, sovereign debt dynamics.
 **Out:** investment philosophy (value-investing), financial market
 mechanics (finance), portfolio strategy (portfolio-risk-management),
 government regulation specifics (law-regulation), business
-strategy (industries-sectors), economic history narratives
+strategy (business-management-strategy), economic history narratives
 (case-studies), personal finance.
 
 ## Adjacent domains
@@ -52,4 +52,16 @@ strategy (industries-sectors), economic history narratives
 - history: economic history of past systems and crises belongs
   there. Current economic theory and policy applications belong here.
   `library/history/anchor-history.md`
+- political-science-public-policy: economic theory and policy
+  transmission belong here. Political choice, institutional capacity,
+  and implementation of economic policy belong there.
+  `library/political-science-public-policy/anchor-political-science-public-policy.md`
+- sociology-demography: economic mechanisms and incentives belong
+  here. Social stratification, institutions, and population composition
+  belong there.
+  `library/sociology-demography/anchor-sociology-demography.md`
+- engineering-infrastructure: infrastructure's economy-wide effects,
+  public-goods theory, and productivity belong here. Physical project
+  design, reliability, and lifecycle cost belong there.
+  `library/engineering-infrastructure/anchor-engineering-infrastructure.md`
 

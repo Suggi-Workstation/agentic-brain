@@ -65,3 +65,11 @@ current investing (macro-micro), legal history of specific laws
   history as a force shaping current economic systems is a bridge topic.
   Current economic theory and policy belong there.
   `library/macro-micro/anchor-macro-micro.md`
+- political-science-public-policy: past political systems and long-run
+  institutional change belong here when chronology and context are
+  primary. Current comparative institutions and policy belong there.
+  `library/political-science-public-policy/anchor-political-science-public-policy.md`
+- sociology-demography: historical change through time belongs here.
+  General social mechanisms, institutions, and measured population
+  patterns belong there.
+  `library/sociology-demography/anchor-sociology-demography.md`

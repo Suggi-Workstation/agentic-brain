@@ -29,10 +29,11 @@ warfare and security, territorial disputes, resource competition,
 soft power and cultural influence, intelligence and espionage,
 decolonization and post-colonial dynamics.
 
-**Out:** domestic politics of specific countries, economic theory
-(macro-micro), military technology (technology), international
-law specifics (law-regulation), historical events without
-geopolitical analysis (case-studies), travel writing.
+**Out:** domestic politics and public administration
+(political-science-public-policy), economic theory (macro-micro),
+military technology (technology), international law specifics
+(law-regulation), historical events without geopolitical analysis
+(case-studies), travel writing.
 
 ## Adjacent domains
 
@@ -49,4 +50,8 @@ geopolitical analysis (case-studies), travel writing.
 - history: historical context for current geopolitical situations
   is a bridge topic. Contemporary international relations belong here.
   `library/history/anchor-history.md`
+- political-science-public-policy: domestic institutions, elections,
+  administration, and policy belong there. International power and
+  relations between states belong here.
+  `library/political-science-public-policy/anchor-political-science-public-policy.md`
 

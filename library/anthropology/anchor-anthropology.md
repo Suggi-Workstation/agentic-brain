@@ -31,8 +31,9 @@ ethnographic methods, cross-cultural comparison, civilization
 rise and fall, indigenous knowledge systems, food and agriculture
 in cultural context, urban anthropology.
 
-**Out:** modern political systems (geopolitics), contemporary
-sociology, psychology of culture (psychology-behavior), religious
+**Out:** modern political systems (political-science-public-policy),
+contemporary sociology (sociology-demography), psychology of culture
+(psychology-behavior), religious
 theology, travel writing, cultural criticism without ethnographic
 basis, historical events without anthropological analysis (case-
 studies).
@@ -55,4 +56,8 @@ studies).
   belong there. How different cultures transmit knowledge informally
   belongs here.
   `library/education-learning/anchor-education-learning.md`
+- sociology-demography: cross-cultural meaning, ethnography, kinship,
+  and premodern social forms belong here. Large-scale modern
+  institutions and population patterns belong there.
+  `library/sociology-demography/anchor-sociology-demography.md`
 

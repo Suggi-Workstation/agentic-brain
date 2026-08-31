@@ -67,4 +67,12 @@ sectors), tax optimization strategies, retirement planning.
   general belong there. The specific biases that value investors
   exploit (Mr. Market, loss aversion) are bridge topics.
   `library/psychology-behavior/anchor-psychology-behavior.md`
+- investment-vehicles-fund-structures: the structure and economics of
+  holding companies, funds, and permanent-capital vehicles belong
+  there. The investment philosophy they implement belongs here.
+  `library/investment-vehicles-fund-structures/anchor-investment-vehicles-fund-structures.md`
+- business-management-strategy: operating quality, business models,
+  governance, and execution belong there. Evaluating those qualities
+  through an owner-oriented investment philosophy belongs here.
+  `library/business-management-strategy/anchor-business-management-strategy.md`
 

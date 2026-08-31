@@ -35,8 +35,9 @@ literature (pop-culture), science policy and regulation (law-regulation),
 research funding and grants (finance), history of scientific
 institutions (case-studies), scientific ethics and philosophy of
 science (ethics-philosophy), biographies of scientists (notable-people),
-applied technology and engineering (technology), climate policy and
-activism (earth-climate), mathematical proofs and formal logic
+applied digital technology (technology), physical engineering and
+infrastructure (engineering-infrastructure), climate policy and activism
+(earth-climate), mathematical proofs and formal logic
 (mathematics-statistics).
 
 ## Adjacent domains
@@ -69,4 +70,8 @@ activism (earth-climate), mathematical proofs and formal logic
   to human health belongs there. The underlying biology,
   chemistry, and physiology belong here.
   `library/health-medicine/anchor-health-medicine.md`
+- engineering-infrastructure: natural laws and experimental findings
+  belong here. Applying those laws to designed physical systems and
+  infrastructure belongs there.
+  `library/engineering-infrastructure/anchor-engineering-infrastructure.md`
 

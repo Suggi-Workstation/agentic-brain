@@ -46,4 +46,8 @@ geopolitics of climate (geopolitics).
 - geopolitics: climate diplomacy and resource conflicts
   belong there.
   `library/geopolitics/anchor-geopolitics.md`
+- engineering-infrastructure: planetary systems, climate, geology, and
+  environmental mechanisms belong here. Infrastructure adaptation,
+  resilience, and engineered mitigation belong there.
+  `library/engineering-infrastructure/anchor-engineering-infrastructure.md`
 

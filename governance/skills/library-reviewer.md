@@ -249,8 +249,8 @@ cd /srv/brain/agentic-brain
 /opt/repo-tools/venv/bin/python scripts/index-library.py
 ```
 
-This updates `library/index-library.md` and all 28 per-domain
-`index-<domain>.md` files with the new `reviewed:` dates. The
+This updates `library/index-library.md` and every per-domain
+`index-<domain>.md` file with the new `reviewed:` dates. The
 GitHub Action will also regenerate on push, but running it locally
 ensures the index is current in the VPS clone before commit.
 

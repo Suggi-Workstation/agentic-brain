@@ -55,4 +55,8 @@ psychology (psychology-behavior).
   topics. If focused on the investor's decision process, here.
   If focused on the business outcome, there.
   `library/case-studies/anchor-case-studies.md`
+- investment-vehicles-fund-structures: the fund, partnership, holding
+  company, or permanent-capital structure belongs there. The people
+  who founded and managed it belong here.
+  `library/investment-vehicles-fund-structures/anchor-investment-vehicles-fund-structures.md`
 

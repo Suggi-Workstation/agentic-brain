@@ -61,4 +61,8 @@ ideology without philosophical foundation, motivational content.
 - education-learning: applied pedagogy and learning science belong
   there. Epistemology and philosophy of education belong here.
   `library/education-learning/anchor-education-learning.md`
+- political-science-public-policy: political philosophy and normative
+  legitimacy belong here. Empirical political institutions, public
+  administration, and policy performance belong there.
+  `library/political-science-public-policy/anchor-political-science-public-policy.md`
 

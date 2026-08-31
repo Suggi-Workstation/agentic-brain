@@ -50,4 +50,8 @@ as a business (finance), trading risk management (short-term).
 - macro-micro: macroeconomic risks belong there. How those
   risks affect portfolio construction belongs here.
   `library/macro-micro/anchor-macro-micro.md`
+- investment-vehicles-fund-structures: portfolio allocation and risk
+  mathematics belong here. Liquidity promises, leverage, redemption,
+  and governance risks created by the vehicle belong there.
+  `library/investment-vehicles-fund-structures/anchor-investment-vehicles-fund-structures.md`
 

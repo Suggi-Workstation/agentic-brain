@@ -33,7 +33,7 @@ psychology insights, cognitive dissonance, overconfidence.
 neuroscience and brain biology (science), philosophical theories
 of mind (ethics-philosophy), self-help without evidence base
 (self-improvement if actionable), organizational behavior
-(industries-sectors), specific investor biases as application
+(business-management-strategy), specific investor biases as application
 (value-investing).
 
 ## Adjacent domains
@@ -63,4 +63,12 @@ of mind (ethics-philosophy), self-help without evidence base
   belong there. Cognitive psychology of memory, attention,
   and learning mechanisms belongs here.
   `library/education-learning/anchor-education-learning.md`
+- business-management-strategy: psychological mechanisms of incentives,
+  leadership, and group behavior belong here. Their application to
+  organizational design, culture, and management belongs there.
+  `library/business-management-strategy/anchor-business-management-strategy.md`
+- sociology-demography: individual cognition and small-group mechanisms
+  belong here. Emergent institutions, social structure, and population
+  patterns belong there.
+  `library/sociology-demography/anchor-sociology-demography.md`
 

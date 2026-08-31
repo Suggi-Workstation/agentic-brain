@@ -32,7 +32,7 @@ comparative legal systems.
 **Out:** legal philosophy and jurisprudence (ethics-philosophy),
 law enforcement as institution (case-studies), corporate compliance
 programs (industries-sectors), financial regulation as it affects
-investing (finance), crime as social phenomenon (anthropology).
+investing (finance), crime as social phenomenon (sociology-demography).
 
 ## Adjacent domains
 
@@ -52,4 +52,20 @@ investing (finance), crime as social phenomenon (anthropology).
   there. Media law, defamation, and free speech regulation
   belong here.
   `library/communication/anchor-communication.md`
+- investment-vehicles-fund-structures: securities, fund, tax, and
+  corporate law belong here. Their consequences for investment vehicle
+  design belong there.
+  `library/investment-vehicles-fund-structures/anchor-investment-vehicles-fund-structures.md`
+- business-management-strategy: corporate law and fiduciary duties
+  belong here. Governance design, incentives, and managerial practice
+  belong there.
+  `library/business-management-strategy/anchor-business-management-strategy.md`
+- political-science-public-policy: legal rules and interpretation
+  belong here. The institutions and political processes that create
+  and administer policy belong there.
+  `library/political-science-public-policy/anchor-political-science-public-policy.md`
+- engineering-infrastructure: permitting, safety law, environmental
+  regulation, and legal standards belong here. Technical design and
+  application of engineering codes belong there.
+  `library/engineering-infrastructure/anchor-engineering-infrastructure.md`
 
