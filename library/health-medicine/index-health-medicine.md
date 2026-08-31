@@ -1,12 +1,14 @@
 # Health Medicine -- Topics
 
-9 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
+10 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
 
 - [AI in Medicine and Diagnostics -- How Deep Learning Reached Clinician-Level Accuracy and Why Clinical Deployment Still Lags the Benchmarks](ai-in-medicine-and-diagnostics.md) -- [reviewed: never] -- AI in medicine and diagnostics is the application of machine learning to medical data -- most visibly images, but increasingly text and structured records -- for the detection, classification, and triage of disease. Deep learning systems now match or exceed clinicians on narrow image-interpretation tasks in controlled studies, and the US Food and Drug Administration (FDA) has authorized more than 1,400 AI-enabled medical devices, roughly three quarters of them in radiology.
 
 - [Chronic Disease Management -- Why Cardiovascular Disease and Diabetes Require Systemic Prevention Over Reactive Treatment](chronic-disease-cvd-diabetes.md) -- [reviewed: never] -- Cardiovascular disease (CVD) and type 2 diabetes mellitus (T2DM) are the two chronic diseases that account for the largest share of global mortality, disability, and healthcare spending. Together they killed approximately 20 million people in 2023 and consume over 15 percent of total health expenditure in developed economies.
 
 - [Drug Development -- Why It Takes a Decade and Billions of Dollars to Bring a Single Medicine to Patients](drug-development-from-molecule-to-medicine.md) -- [reviewed: never] -- Drug development is the process of transforming a biological insight into an approved medicine, and it is one of the most demanding undertakings in modern science. From target identification to regulatory approval, the journey typically spans 10-15 years, costs an average of $2.6 billion per approved drug when accounting for failures, and succeeds only about 10% of the time for candidates entering clinical trials.
+
+- [Healthcare Systems and Insurance Models -- Why the Same Price of Care Buys Very Different Health](healthcare-systems-and-insurance-models.md) -- [reviewed: never] -- Every wealthy nation faces the same problem: how to pay for the care its citizens need without bankrupting them or the state. Yet the answers diverge sharply. A handful of structural archetypes -- the Beveridge model, the Bismarck model, national health insurance, and mixed or hybrid systems -- produce radically different outcomes in cost, access, and quality.
 
 - [The Immune System -- How Distributed Detection, Amplification Cascades, and Memory Defend the Body from a World of Pathogens](immune-system.md) -- [reviewed: never] -- The immune system is a decentralized defense network that protects the body against infectious disease and malignant cells through a layered architecture of innate barriers, rapid-response cells, and adaptive lymphocytes that learn from every encounter. Unlike any other organ system, the immune system is not located in a single place -- it operates through billions of cells circulating in blood...
 
