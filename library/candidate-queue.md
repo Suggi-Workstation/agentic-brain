@@ -12,14 +12,6 @@
 
 
 
-## Candidate: Reliability Engineering and Failure Analysis: Designing Systems That Do Not Fail
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.22/10.0 (gap=10.0, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Covers reliability engineering as the discipline of designing systems to function under stress and analyzing failures when they occur. Examines failure modes and effects analysis, redundancy and fault tolerance, the bathtub curve, mean time between failures, and the trade-offs between reliability, cost, and complexity. Analyzes case studies of catastrophic infrastructure failures and the engineering and organizational lessons derived from them. Connects to technology, science, and earth-climate as the engineering discipline that governs system performance under real-world conditions.
-- **Status:** proposed
-
 ## Candidate: Mutual Funds and ETFs: The Architecture of Retail Capital Pooling
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Library Runner
