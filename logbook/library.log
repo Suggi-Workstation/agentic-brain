@@ -464,18 +464,7 @@ Similarity overlap: 15%.
 Sources: 12 (8 high, 4 medium, 0 low).
 Cross-references: 3 topics.
 
-## [ENT-282] | 2026-08-31 11:45 UTC | Library Runner | library | ref: library/candidate-queue.md
-Discovery cycle: 6 domains scanned, 6 candidates proposed, 0 skipped.
-Candidates:
-- Sovereign Debt Dynamics: Fiscal Sustainability and Default Risk (9.23): gap=9.5, compounding=8.5, timeliness=9.0, balance=10.0
-- Scenario Planning and Analysis: Structuring Uncertainty for Decision-Making (9.15): gap=9.5, compounding=9.0, timeliness=8.0, balance=10.0
-- Volatility Targeting and Portfolio Insurance: Dynamic Risk Management Strategies (8.70): gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0
-- Ecology and Ecosystems: How Species Interact and Why It Matters (8.65): gap=9.5, compounding=8.0, timeliness=9.0, balance=7.0
-- Linguistic Anthropology: How Language Shapes Culture and Thought (8.48): gap=9.5, compounding=8.5, timeliness=7.5, balance=7.0
-- Habit Formation and Behavior Change: The Science of Making and Breaking Habits (8.28): gap=8.5, compounding=8.5, timeliness=8.5, balance=7.0
-Domain balance: macro-micro/portfolio-risk-management/probabilistic-thinking-forecasting (8 topics) to psychology-behavior/science/anthropology (9 topics).
-
-## [ENT-283] | 2026-08-31 12:11 UTC | Morpheus | library | ref: library/guide-library.md
+## [ENT-282] | 2026-08-31 12:11 UTC | Morpheus | library | ref: library/guide-library.md
 Domain expansion: 5 domains and anchors added; 38 forward adjacency edges verified reciprocal.
 Domains:
 - business-management-strategy
