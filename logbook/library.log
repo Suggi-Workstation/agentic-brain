@@ -441,3 +441,18 @@ Wrote topic Corporate Governance and Board Effectiveness: Stewardship, Oversight
 Similarity overlap: 0%.
 Sources: 10 (10 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-293] | 2026-08-31 15:47 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 10 candidates proposed, 0 skipped (queue at 15/25 capacity).
+Candidates:
+- Mutual Funds and ETFs: The Architecture of Retail Capital Pooling (9.35): gap=9.5, compounding=9.0, timeliness=9.0, balance=10.0
+- Social Networks and Social Capital: How Connections Shape Opportunity (9.15): gap=9.5, compounding=9.0, timeliness=8.0, balance=10.0
+- Executive Compensation and Incentive Design: Pay as the Principal-Agent Lever (9.03): gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Federalism and Multi-Level Governance: Why the Distribution of Power Matters (9.03): gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Manufacturing Systems and Industrial Engineering: Lean, Quality, and Throughput (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Organizational Design and Decentralization: How Structure Follows Strategy (8.85): gap=9.0, compounding=9.0, timeliness=7.5, balance=10.0
+- Hedge Fund Structures: Fee Arrangements, Lockups, and Leverage (8.82): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Water and Wastewater Systems: Engineered Public Health Infrastructure (8.80): gap=9.5, compounding=8.0, timeliness=7.5, balance=10.0
+- Bureaucracy and Public Administration: The Executive Machinery of Governance (8.72): gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0
+- Urbanization and City Life: The Sociology of the Urban Environment (8.70): gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0
+Domain balance: business-management-strategy, engineering-infrastructure, investment-vehicles-fund-structures, political-science-public-policy, sociology-demography (1 topic each) to books, geopolitics (11 topics each).

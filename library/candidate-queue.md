@@ -50,3 +50,83 @@
 - **Discovery score:** 9.22/10.0 (gap=10.0, compounding=8.5, timeliness=8.0, balance=10.0)
 - **Scope:** Covers reliability engineering as the discipline of designing systems to function under stress and analyzing failures when they occur. Examines failure modes and effects analysis, redundancy and fault tolerance, the bathtub curve, mean time between failures, and the trade-offs between reliability, cost, and complexity. Analyzes case studies of catastrophic infrastructure failures and the engineering and organizational lessons derived from them. Connects to technology, science, and earth-climate as the engineering discipline that governs system performance under real-world conditions.
 - **Status:** proposed
+
+## Candidate: Mutual Funds and ETFs: The Architecture of Retail Capital Pooling
+- **Domain:** investment-vehicles-fund-structures
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 9.35/10.0 (gap=9.5, compounding=9.0, timeliness=9.0, balance=10.0)
+- **Scope:** Examines mutual funds and ETFs as the dominant vehicles for retail and institutional capital pooling: the open-end mutual fund structure, NAV pricing, creation-redemption mechanics for ETFs, passive index tracking versus active management, fee structures and expense ratios, and the regulatory framework governing pooled investment vehicles. Covers the structural differences between open-end funds, closed-end funds, and ETFs, and how tracking error, premium/discount dynamics, and tax efficiency differ across structures. Analyzes how passive investing's rise reshapes market efficiency, corporate governance, and price discovery. Connects to finance, value-investing, and portfolio-risk-management as the mass-market capital allocation infrastructure.
+- **Status:** proposed
+
+## Candidate: Social Networks and Social Capital: How Connections Shape Opportunity
+- **Domain:** sociology-demography
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 9.15/10.0 (gap=9.5, compounding=9.0, timeliness=8.0, balance=10.0)
+- **Scope:** Covers social networks as the structural patterns of relationships connecting individuals and groups, and social capital as the resources embedded in those connections. Examines strong and weak ties, structural holes, network density, brokerage, closure, and how network position affects information flow, trust, opportunity, and power. Analyzes the empirical evidence on how social capital shapes economic mobility, health, educational attainment, and community resilience, and the tension between bonding and bridging capital. Connects to psychology-behavior, business-management-strategy, and political-science-public-policy as the relational architecture underlying cooperation and collective action.
+- **Status:** proposed
+
+## Candidate: Executive Compensation and Incentive Design: Pay as the Principal-Agent Lever
+- **Domain:** business-management-strategy
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 9.03/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** Covers executive compensation as the primary mechanism for aligning manager and shareholder interests: salary, bonus, stock options, restricted stock, performance shares, and the timing and metrics that structure pay. Examines the principal-agent logic behind equity-based pay, the design problems of risk-taking incentives, benchmarking, say-on-pay, and the unintended consequences of complex pay packages. Analyzes the empirical evidence on whether compensation actually drives performance or merely reflects it, and the governance structures that constrain pay design. Connects to finance, corporate governance, and value-investing as the incentive architecture of the public corporation.
+- **Status:** proposed
+
+## Candidate: Federalism and Multi-Level Governance: Why the Distribution of Power Matters
+- **Domain:** political-science-public-policy
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 9.03/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** Examines federalism as the division of governmental authority between national and subnational levels, and how that division shapes policy outcomes, democratic accountability, and fiscal capacity. Covers the theories of federalism (dual, cooperative, competitive), the vertical and horizontal distribution of powers, fiscal federalism and intergovernmental transfers, and the trade-offs between uniformity and local autonomy. Analyzes comparative federal systems (US, Germany, India, EU quasi-federalism) and when centralization or decentralization produces better governance. Connects to political-science-public-policy, macro-micro, and law-regulation as the institutional architecture of multi-level governance.
+- **Status:** proposed
+
+## Candidate: Manufacturing Systems and Industrial Engineering: Lean, Quality, and Throughput
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.93/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
+- **Scope:** Covers manufacturing systems as the organized production of goods and industrial engineering as the discipline that optimizes those systems. Examines lean production, the Toyota Production System, just-in-time, total quality management, Six Sigma, theory of constraints, and the design of production lines, cells, and supply chains. Analyzes the trade-offs between throughput, inventory, quality, and flexibility, and how manufacturing strategy connects to competitiveness, cost structure, and innovation. Connects to engineering-infrastructure, business-management-strategy, and industries-sectors as the engineered and managerial foundation of industrial production.
+- **Status:** proposed
+
+## Candidate: Organizational Design and Decentralization: How Structure Follows Strategy
+- **Domain:** business-management-strategy
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.85/10.0 (gap=9.0, compounding=9.0, timeliness=7.5, balance=10.0)
+- **Scope:** Examines organizational design as how authority, information, and decision rights are distributed across a firm, and decentralization as the strategic choice to push those rights downward. Covers functional, divisional, matrix, and network structures, span of control, the locus of decision-making, the trade-offs between coordination and autonomy, and when centralization or decentralization produces better adaptation and execution. Analyzes the evidence from management research on how structure follows strategy and how mismatches between structure and environment degrade performance. Connects to business-management-strategy, psychology-behavior, and case-studies as the architectural logic of the firm.
+- **Status:** proposed
+
+## Candidate: Hedge Fund Structures: Fee Arrangements, Lockups, and Leverage
+- **Domain:** investment-vehicles-fund-structures
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.82/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** Covers hedge fund structures as investment partnerships organized around performance-based fees, limited liquidity, and leveraged capital. Examines the 2-and-20 fee model, high-water marks, hurdle rates, lockup periods, gates, and side-pocketing, and how these structural features shape manager incentives, risk-taking, and investor protection. Analyzes the leverage and liquidity mismatch risks endemic to hedge funds, the systemic implications of the sector, and the evolution of the industry from hedge-to-absolute-return strategies. Connects to investment-vehicles-fund-structures, finance, and portfolio-risk-management as the alternative-vehicle counterpart to mutual funds and PE.
+- **Status:** proposed
+
+## Candidate: Water and Wastewater Systems: Engineered Public Health Infrastructure
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.80/10.0 (gap=9.5, compounding=8.0, timeliness=7.5, balance=10.0)
+- **Scope:** Examines water and wastewater systems as engineered infrastructure that protects public health and enables urban civilization. Covers water treatment, distribution networks, wastewater collection and treatment, the physics and chemistry of purification, and the lifecycle of pumping, storage, and reticulation systems. Analyzes the infrastructure finance models, regulatory standards, aging-asset management, and the resilience challenges of climate change, population growth, and contamination events. Connects to engineering-infrastructure, health-medicine, and earth-climate as the engineered public-health foundation that makes dense settlement possible.
+- **Status:** proposed
+
+## Candidate: Bureaucracy and Public Administration: The Executive Machinery of Governance
+- **Domain:** political-science-public-policy
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.72/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
+- **Scope:** Covers bureaucracy as the administrative apparatus that implements policy and public administration as the discipline that studies and improves it. Examines Weber's rational-legal model, the politics-administration dichotomy, bureaucratic autonomy, principal-agent problems in the executive branch, street-level discretion, and the tensions between efficiency, accountability, and responsiveness. Analyzes the empirical literature on bureaucratic performance, reform efforts (New Public Management, e-government), and why some agencies outperform others. Connects to political-science-public-policy, law-regulation, and business-management-strategy as the executive machinery that turns legislation into outcomes.
+- **Status:** proposed
+
+## Candidate: Urbanization and City Life: The Sociology of the Urban Environment
+- **Domain:** sociology-demography
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.70/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0)
+- **Scope:** Examines urbanization as the demographic concentration of populations in cities and urban sociology as the study of the social structures, institutions, and dynamics that emerge in dense settlements. Covers the rural-urban transition, the Chicago School's ecological model, segregation, suburbanization, gentrification, informality, and how the built environment shapes social interaction, inequality, and collective life. Analyzes the demographic drivers of urban growth, the sociology of space and place, and the governance challenges of megacities. Connects to sociology-demography, political-science-public-policy, and earth-climate as the population-level pattern of modern settlement.
+- **Status:** proposed
