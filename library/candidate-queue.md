@@ -11,13 +11,6 @@
 -->
 
 
-## Candidate: Albert Einstein: The Reluctant Revolutionary
-- **Domain:** notable-people
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-27
-- **Discovery score:** 8.83/10.0 (gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** Profiles Albert Einstein's life, work, and decision-making -- from the patent office years and the 1905 miracle year to relativity, his quantum skepticism, and his public role as a moral voice. Covers his intellectual evolution, his failures and refusals, his key relationships, and the durable lessons of his example for creative and independent thinking. Connects to science, history, and ethics-philosophy.
-- **Status:** proposed
 
 ## Candidate: History of Science and Technology: How Knowledge and Tools Transformed Civilization
 - **Domain:** history
