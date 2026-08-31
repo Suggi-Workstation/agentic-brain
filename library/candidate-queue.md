@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Monte Carlo Simulation in Valuation: Modeling Uncertainty in Intrinsic Value
-- **Domain:** valuation-screening
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.12/10.0 (gap=9.5, compounding=8.5, timeliness=8.5, balance=10.0)
-- **Scope:** Explains Monte Carlo simulation as applied to valuation -- replacing point estimates of growth, margins, and discount rates with probability distributions to produce a range of intrinsic values rather than a single number. Covers input distribution selection, correlation between variables, sensitivity analysis vs scenario analysis, and how to interpret the output distribution. Examines the advantages and pitfalls: avoiding false precision, the danger of garbage-in-garbage-out, and when simulation adds genuine insight versus computational theater. Connects to DCF methodology, reverse DCF, and sensitivity analysis as the uncertainty-quantification layer of valuation.
-- **Status:** proposed
-
 ## Candidate: Dividend Discount Models: Valuing Cash Returns to Shareholders
 - **Domain:** valuation-screening
 - **Proposed by:** Library Runner
