@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: State Capacity: How Governments Convert Authority into Outcomes
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.68/10.0 (gap=10.0, compounding=9.5, timeliness=9.0, balance=10.0)
-- **Scope:** Examines state capacity as the ability of governments to implement policy, deliver services, and enforce rules across their territory. Covers the distinction between despotic and infrastructural power, bureaucratic competence, tax collection as a capacity signal, and the role of institutional quality in development. Analyzes why some states can build infrastructure and regulate markets while others cannot, drawing on cases from East Asia and Sub-Saharan Africa. Connects to macro-micro, law-regulation, and sociology-demography as the institutional foundation linking political authority to economic and social outcomes.
-- **Status:** proposed
-
 ## Candidate: Power Grid Infrastructure: Generation, Transmission, and Distribution as Engineered Systems
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Library Runner
