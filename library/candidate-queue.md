@@ -10,13 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Charles Darwin: The Reluctant Revolutionary
-- **Domain:** notable-people
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 8.83/10.0 (gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0)
-- **Scope:** Profiles Charles Darwin's life, voyage on the Beagle, and the 20-year incubation of natural selection before publication. Covers his meticulous evidence-gathering, his anxiety about public and religious reaction, his priority dispute with Wallace, and the correspondence network that shaped his thinking. Examines how his cautious, evidence-saturated approach changed biology and the scientific method. Connects to history, science, and ethics-philosophy as a case study in intellectual courage and intellectual humility.
-- **Status:** proposed
 
 ## Candidate: Monte Carlo Simulation in Valuation: Modeling Uncertainty in Intrinsic Value
 - **Domain:** valuation-screening
