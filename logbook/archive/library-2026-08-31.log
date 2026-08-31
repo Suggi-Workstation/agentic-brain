@@ -226,3 +226,108 @@ Candidates (held -- queue full):
 - Public Speaking and Presentation: The Art of Oral Persuasion (8.50): gap=9.0, compounding=8.0, timeliness=7.0, balance=10.0
 Domain balance: books (7 topics), coding-agentic-ai (7), communication (7), education-learning (7), law-regulation (7), macro-micro (7) to industries-sectors (10), psychology-behavior (10), self-improvement (10).
 
+
+<!-- Appended 2026-08-31 17:36 UTC -- ENT-237 to ENT-249 -->
+
+## [ENT-237] | 2026-08-27 06:02 UTC | Library Runner | library | ref: library/law-regulation/international-law-and-treaties.md | see: candidate-international-law-and-treaties-20260825
+Wrote topic International Law and Treaties to law-regulation. Weighted score: 9.0/10.0
+(core=9.0, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 9 (8 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-238] | 2026-08-27 06:16 UTC | Library Runner | library | ref: library/finance/credit-analysis-default-risk.md | see: candidate-credit-analysis-20260825
+Wrote topic Credit Analysis: Assessing Default Risk and Creditworthiness to finance. Weighted score: 9.25/10.0
+(core=9.5, scope=9.5, value=9.0, authority=8.0).
+Similarity overlap: 30%.
+Sources: 11 (8 high, 3 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-239] | 2026-08-27 06:31 UTC | Library Runner | library | ref: library/education-learning/curriculum-design-and-sequencing.md | see: candidate-curriculum-design-and-sequencing-20260825
+Wrote topic Curriculum Design and Sequencing: The Architecture of Learning to education-learning. Weighted score: 9.25/10.0
+(core=9.5, scope=9.5, value=9.0, authority=8.0).
+Similarity overlap: 30%.
+Sources: 12 (10 high, 2 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-240] | 2026-08-27 06:46 UTC | Library Runner | library | ref: library/law-regulation/contract-law-foundations.md | see: candidate-contract-law-20260825
+Wrote topic Contract Law: The Foundation of Commerce and Cooperation to law-regulation. Weighted score: 9.2/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 12 (10 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-241] | 2026-08-27 07:01 UTC | Library Runner | library | ref: library/mathematics-statistics/experimental-design.md | see: candidate-experimental-design-20260825
+Wrote topic Experimental Design: The Architecture of Valid Inference to mathematics-statistics. Weighted score: 9.2/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 10 (9 high, 1 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-242] | 2026-08-27 19:17 UTC | Library Runner | library | ref: library/education-learning/comparative-education-systems.md | see: candidate-comparative-education-systems-20260825
+Wrote topic Comparative Education Systems: How Nations Structure Learning to education-learning. Weighted score: 8.75/10.0
+(core=9.0, scope=9.0, value=8.0, authority=8.5).
+Similarity overlap: 30%.
+Sources: 13 (10 high, 3 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-243] | 2026-08-27 19:31 UTC | Library Runner | library | ref: library/coding-agentic-ai/tool-use-and-function-calling.md | see: candidate-tool-use-and-function-calling-20260825
+Wrote topic Tool Use and Function Calling: How Agents Invoke External Capabilities to coding-agentic-ai. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 30%.
+Sources: 11 (8 high, 3 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-244] | 2026-08-27 19:51 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 8 candidates proposed, 4 dropped (8 slots available for 12 scored candidates, queue now at 25/25 capacity).
+Candidates:
+- Film as Cultural Artifact: How Cinema Reflects and Shapes Society (9.03): gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Mergers and Acquisitions: The Mechanics of Deal-Making (8.99): gap=9.5, compounding=9.0, timeliness=8.0, balance=8.9
+- Long-Term Capital Management: When Genius Failed (8.89): gap=9.5, compounding=9.0, timeliness=7.5, balance=8.9
+- Databases and Data Engineering: The Architecture of Persistent Data (8.86): gap=9.5, compounding=8.5, timeliness=8.0, balance=8.9
+- Robotics and Embodied AI: From Industrial Arms to General-Purpose Machines (8.86): gap=9.0, compounding=8.5, timeliness=9.0, balance=8.9
+- Albert Einstein: The Reluctant Revolutionary (8.83): gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0
+- History of Science and Technology: How Knowledge and Tools Transformed Civilization (8.79): gap=9.5, compounding=9.0, timeliness=7.0, balance=8.9
+- Advertising and Consumer Culture: How Ads Manufacture Desire (8.70): gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0
+Dropped candidates (below cutoff):
+- Migration and Demographic History: How People Movement Shaped the Modern World (8.64): gap=9.0, compounding=8.0, timeliness=8.5, balance=8.9
+- Mahatma Gandhi: Nonviolent Resistance and Moral Leadership (8.60): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- IPOs and the Going-Public Process (8.54): gap=9.0, compounding=8.0, timeliness=8.0, balance=8.9
+- Market Microstructure: How Exchanges, Order Flow, and Liquidity Shape Prices (8.31): gap=9.0, compounding=7.5, timeliness=7.5, balance=8.9
+Domain balance: notable-people (8 topics), pop-culture (8) to case-studies (9), finance (9), history (9), technology (9).
+
+## [ENT-245] | 2026-08-27 20:02 UTC | Library Runner | library | ref: library/coding-agentic-ai/agent-observability-and-debugging.md | see: candidate-agent-observability-and-debugging-20260825
+Wrote topic Agent Observability and Debugging -- Why You Cannot Fix What You Cannot See Inside an Agent Run to coding-agentic-ai. Weighted score: 9.2/10.0
+(core=9.5, scope=9.5, value=8.5, authority=8.5).
+Similarity overlap: 30%.
+Sources: 12 (7 high, 4 medium, 1 low).
+Cross-references: 5 topics.
+
+## [ENT-246] | 2026-08-28 09:10 UTC | Library Runner | library | ref: library/macro-micro/market-structures.md | see: candidate-market-structures-20260825
+Wrote topic Market Structures -- How the Shape of Competition Determines Prices, Profits, and Power to macro-micro. Weighted score: 9.2/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 30%.
+Sources: 18 (14 high, 4 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-247] | 2026-08-29 12:08 UTC | Library Runner | library | ref: library/accounting-financial-shenanigans/related-party-transactions.md | see: candidate-related-party-transactions-20260825
+Wrote topic Related-Party Transactions -- How Insiders Hide Self-Dealing in Plain Sight to accounting-financial-shenanigans. Weighted score: 8.9/10.0
+(core=9.0, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: 20%.
+Sources: 21 (10 high, 4 medium, 7 low).
+Cross-references: 5 topics.
+
+## [ENT-248] | 2026-08-29 12:25 UTC | Library Runner | library | ref: library/communication/writing-craft-and-style.md | see: candidate-writing-craft-and-style-20260825
+Wrote topic Writing Craft and Style -- Why Clear Prose Is a Thinking Technology, Not a Decoration to communication. Weighted score: 9.4/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.5).
+Similarity overlap: 25%.
+Sources: 12 (9 high, 3 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-249] | 2026-08-29 12:37 UTC | Library Runner | library | ref: library/macro-micro/supply-and-demand.md | see: candidate-supply-and-demand-20260825
+Wrote topic Supply and Demand -- The Mechanics of Price Discovery to macro-micro. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=8.5, authority=9.5).
+Similarity overlap: 25%.
+Sources: 17 (16 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
