@@ -12,14 +12,6 @@
 
 
 
-## Candidate: Insurance Float as Investment Capital: The Berkshire Model of Permanent Capital
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.38/10.0 (gap=10.0, compounding=9.5, timeliness=7.5, balance=10.0)
-- **Scope:** Covers insurance float as a structural source of low-cost investment capital: premiums collected upfront create a pool of funds investable until claims are paid. Examines how Berkshire Hathaway and similar structures use float as permanent capital, the economics of underwriting profit versus investment returns, and the risks of float volatility and catastrophe exposure. Analyzes why float compounds capital more efficiently than redeemable fund structures and the conditions under which the model works. Connects to value-investing, finance, and investors as the insurance-float architecture behind compound returns.
-- **Status:** proposed
-
 ## Candidate: Reliability Engineering and Failure Analysis: Designing Systems That Do Not Fail
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Library Runner
