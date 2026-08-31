@@ -1,6 +1,8 @@
 # Pop Culture -- Topics
 
-8 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
+9 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
+
+- [Advertising and Consumer Culture -- How Ads Manufacture Desire Instead of Informing Choice](advertising-manufacturing-desire.md) -- [reviewed: never] -- Advertising is not merely a commercial information service that connects products to willing buyers. It is a system for manufacturing desire -- a deliberate psychological apparatus that creates dissatisfaction, associates products with identity and aspiration, and transforms citizens into consumers. From Edward Bernays's application of Freudian psychoanalysis to commercial persuasion in the...
 
 - [Criminal Justice in Pop Culture -- How Television and Film Shape What We Think About Law, Crime, and Punishment](criminal-justice-pop-culture.md) -- [reviewed: never] -- Popular culture is not a mirror of the justice system -- it is a funhouse mirror that distorts, dramatizes, and selectively amplifies. The portrayal of criminal law in film and television shapes public expectations of how justice works more powerfully than any civics textbook, creating a gap between the courtroom people expect and the courtroom that actually exists.
 
