@@ -12,13 +12,6 @@
 
 
 
-## Candidate: History of Science and Technology: How Knowledge and Tools Transformed Civilization
-- **Domain:** history
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-27
-- **Discovery score:** 8.79/10.0 (gap=9.5, compounding=9.0, timeliness=7.0, balance=8.9)
-- **Scope:** Traces how scientific knowledge and technological invention have transformed civilization -- from the scientific revolution and the age of instruments to industrialization, computing, and the modern research enterprise. Covers key turning points, the institutionalization of science, and how tools shape what is knowable. Connects to the industrial revolution, technology, and the history of capitalism as the arc of knowledge-driven change.
-- **Status:** proposed
 
 ## Candidate: Advertising and Consumer Culture: How Ads Manufacture Desire
 - **Domain:** pop-culture
