@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Private Equity and Venture Capital Fund Structures: LP-GP Architecture, Carried Interest, and the J-Curve
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.55/10.0 (gap=10.0, compounding=9.0, timeliness=9.0, balance=10.0)
-- **Scope:** Examines the legal and economic structure of private equity and venture capital funds: the LP-GP partnership, carried interest, management fees, and fund lifecycle from raise through harvest. Covers the J-curve of returns, the impact of lock-up periods and illiquidity, fund vintage effects, and how incentive structures shape risk-taking and holding periods. Analyzes how PE and VC compare to permanent-capital and public-market vehicles in capital allocation efficiency. Connects to value-investing, finance, and portfolio-risk-management as the private-capital branch of investment vehicle architecture.
-- **Status:** proposed
-
 ## Candidate: Corporate Governance and Board Effectiveness: Stewardship, Oversight, and Principal-Agent Problems
 - **Domain:** business-management-strategy
 - **Proposed by:** Library Runner
