@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Indigenous Knowledge Systems: What Traditional Societies Know That Modern Science Is Rediscovering
-- **Domain:** anthropology
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 8.39/10.0 (gap=9.0, compounding=7.5, timeliness=8.0, balance=8.8)
-- **Scope:** Examines the knowledge systems developed by indigenous societies -- from ecological management and medicinal plant use to oral tradition and astronomical observation. Covers how traditional ecological knowledge complements scientific approaches, the ethics of bioprospecting, and the challenge of integrating indigenous knowledge with modern frameworks. Connects to material culture, food and agriculture, and science.
-- **Status:** proposed
-
 ## Candidate: Healthcare Systems and Insurance Models: How Nations Deliver and Pay for Care
 - **Domain:** health-medicine
 - **Proposed by:** Library-Runner
