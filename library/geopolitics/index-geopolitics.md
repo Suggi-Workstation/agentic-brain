@@ -1,10 +1,12 @@
 # Geopolitics -- Topics
 
-8 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
+9 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
 
 - [Cyber Warfare -- Why the Fifth Domain of Conflict Rewrites the Rules of International Security](cyber-warfare.md) -- [reviewed: never] -- Cyber warfare is the use of digital attacks by nation-states to compromise, disrupt, or destroy the computer systems of adversaries, and it represents the most fundamental transformation in the character of conflict since the advent of nuclear weapons -- not because of its destructive power, but because it erodes the foundations on which traditional deterrence, attribution, and the laws of war were built.
 
 - [Energy Geopolitics -- How Oil, Gas, and Critical Minerals Shape Global Power](energy-geopolitics.md) -- [reviewed: never] -- Energy is not just a commodity; it is the lifeblood of modern economies and the most powerful lever in international relations. Control over energy resources -- who has them, who needs them, and who controls the routes between them -- has been a central driver of alliance formation, military conflict, and economic leverage since the 20th century.
+
+- [Intelligence and Espionage -- The Invisible Hand of Statecraft](intelligence-and-espionage.md) -- [reviewed: never] -- Intelligence and espionage are the hidden layer beneath visible geopolitics: the collection, analysis, and covert use of secret information by states to gain advantage over rivals. From the spy rings of the Cold War to the cyber weapons of the twenty-first century, intelligence services have shaped wars, alliances, and diplomatic outcomes in ways that public records rarely capture.
 
 - [International Institutions -- Why the UN, WTO, and IMF Were Built to Prevent Another World War, and Why They Are Now Failing at Their Founding Mission](international-institutions-un-wto-imf.md) -- [reviewed: never] -- The United Nations, the World Trade Organization, and the International Monetary Fund are the three pillars of the post-World War II international order -- an order deliberately designed to prevent the return of great-power war by embedding sovereign states in a web of rules, norms, and mutual obligations.
 
