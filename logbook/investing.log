@@ -29,3 +29,16 @@ Workstreams:
 - learnings-capture skill extended (query-first, promotion removal 2b, sweep 2c); session-end now references it.
 - TASKS.md: candidate dry-run queue at 9 components, circle-gate first; exit-logic task removed per Suggi (not testable).
 Reflection: 2026-08-22_neo_map-completion-and-the-inbox-discipline.md.
+
+## [ENT-003] | 2026-08-31 08:35 UTC | Neo | investing | ref: reflections/2026-08-31_neo_verification-must-precede-the-claim.md | see: 20260831T083220Z
+Session: Filing-ingestion design and memory-system verification.
+Workstreams:
+- Verified watcher paths, live log roles, and the completed
+  `/opt/repo-tools` fleet migration; corrected stale durable memory.
+- Inspected the investing indexer: PDFs are silently skipped because
+  only Markdown is indexed; designed a PDF-plus-Markdown-twin flow.
+- Verified shared Mnemosyne direct retrieval and merged regular recall
+  against the updated AGENTS.md contract.
+- No investing learning or task-board change warranted; no listed task
+  was completed and Suggi directed that no new tasks be added.
+Reflection: 2026-08-31_neo_verification-must-precede-the-claim.md.
