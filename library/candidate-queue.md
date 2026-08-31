@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Power Grid Infrastructure: Generation, Transmission, and Distribution as Engineered Systems
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.65/10.0 (gap=10.0, compounding=9.0, timeliness=9.5, balance=10.0)
-- **Scope:** Covers the physical architecture of electrical power systems from generation through transmission and distribution to end users. Examines grid stability, load balancing, the integration of intermittent renewables, energy storage, and the engineering trade-offs between reliability and cost. Analyzes grid modernization, smart-grid technology, and infrastructure resilience against natural disasters and cyber threats. Connects to earth-climate, technology, and macro-micro as the engineered foundation of modern energy systems and their economic and environmental implications.
-- **Status:** proposed
-
 ## Candidate: Private Equity and Venture Capital Fund Structures: LP-GP Architecture, Carried Interest, and the J-Curve
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Library Runner
