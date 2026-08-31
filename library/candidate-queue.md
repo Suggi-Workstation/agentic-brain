@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Corporate Governance and Board Effectiveness: Stewardship, Oversight, and Principal-Agent Problems
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.47/10.0 (gap=10.0, compounding=9.5, timeliness=8.0, balance=10.0)
-- **Scope:** Covers corporate governance as the system by which companies are directed and controlled: board structure, fiduciary duties, executive compensation, shareholder rights, and the principal-agent problems that arise from the separation of ownership and control. Examines how governance design affects capital allocation, risk-taking, and long-term performance, drawing on agency theory and stewardship theory. Analyzes governance quality as a factor in investment decisions and the role of activism in correcting governance failures. Connects to value-investing, law-regulation, and finance as the governance layer between owners and operators.
-- **Status:** proposed
-
 ## Candidate: Unit Economics and Business Model Design: How Revenue Per Unit Drives Scalability
 - **Domain:** business-management-strategy
 - **Proposed by:** Library Runner
