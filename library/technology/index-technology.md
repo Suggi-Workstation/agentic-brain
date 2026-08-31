@@ -1,6 +1,6 @@
 # Technology -- Topics
 
-9 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+10 topics. Anchor: [anchor-technology.md](anchor-technology.md)
 
 - [Blockchain and Distributed Ledgers -- How Trustless Consensus Creates Genuine Innovation Beyond Cryptocurrency Speculation](blockchain-distributed-ledgers.md) -- [reviewed: never] -- Blockchain technology is a distributed data structure that enables mutually distrusting parties to reach consensus on a shared, immutable ledger without relying on a central authority. Originally conceived as the backbone of Bitcoin, the technology has evolved into a general-purpose platform for decentralized applications, smart contracts, and verifiable computation.
 
@@ -15,6 +15,8 @@
 - [Large Language Models -- How Next-Token Prediction Trained at Unprecedented Scale Produces General-Purpose Reasoning](large-language-models.md) -- [reviewed: never] -- Large language models (LLMs) are neural networks built on the transformer architecture that are trained on vast corpora of text to predict the next token in a sequence. When scaled to hundreds of billions of parameters and trained on trillions of tokens, this apparently simple objective produces models capable of translation, summarization, code generation, mathematical reasoning, and creative...
 
 - [Quantum Computing -- What It Promises and Why It Is So Hard](quantum-computing.md) -- [reviewed: never] -- Quantum computing harnesses the counterintuitive rules of quantum mechanics -- superposition and entanglement -- to perform calculations that are exponentially faster than what any classical computer can achieve for specific problem classes. Unlike classical bits that are either 0 or 1, quantum bits (qubits) can exist in a blend of both states simultaneously, enabling a single quantum processor to explore vast solution spaces in parallel.
+
+- [Robotics and Embodied AI -- How Machines Learned to Walk, Grasp, and Reason in the Physical World](robotics-embodied-ai.md) -- [reviewed: never] -- Robotics has evolved from fixed industrial arms performing repetitive tasks in caged environments to general-purpose humanoid machines that perceive, reason, and act in unstructured physical space. The convergence of deep reinforcement learning, large-scale simulation, and foundation models -- particularly vision-language-action models -- has created a new paradigm called embodied AI, in which the same neural network architectures that power chatbots now control motors, hands, and legs.
 
 - [Semiconductors -- The Most Complex Manufacturing Achievement in Human History Underpins Everything Digital](semiconductors.md) -- [reviewed: never] -- Semiconductors are materials with electrical conductivity between that of a conductor and an insulator, and they are the physical foundation of every digital device on Earth. By precisely controlling the flow of electricity through silicon doped with impurities, engineers build transistors -- tiny switches that form logic gates, the building blocks of all computation.
 
