@@ -167,9 +167,8 @@ Domain balance scoring: assign 10 to the domain with the fewest topics
 in this cycle, scale others proportionally. A domain with 0 topics =
 balance 10. A domain with 50 topics next to one with 0 = balance 1-2.
 
-No minimum threshold for discovery -- score all candidates. The
-writer applies its own >= 7.0 threshold. The queue itself is capped
-at 25 proposed entries (see step 9).
+No minimum threshold for discovery -- score all candidates. The queue
+is capped at 25 proposed entries (see step 9).
 
 ### 8. Check for duplicates in queue
 
@@ -210,7 +209,7 @@ block to separate the new candidates from existing entries.
 - **Proposed by:** <agent-name>
 - **Date:** YYYY-MM-DD
 - **Discovery score:** X.X/10.0 (gap=X.X, compounding=X.X, timeliness=X.X, balance=X.X)
-- **Scope:** <3-4 sentences, max 100 words total. A concise brief the writer can use as a starting point. Do NOT write a full outline or research plan -- that is the writer's job.>
+- **Scope:** <3-4 sentences, max 100 words total.>
 - **Status:** proposed
 ```
 
@@ -267,7 +266,7 @@ The watcher pushes within 1 min and reindexes. Verify after ~1 min:
 **Split-commit pattern (prevents shared-file race conditions):**
 
 The candidate-queue.md and library.log are shared files that other
-agents (writer-even, writer-odd) can modify simultaneously. To avoid
+processes can modify simultaneously. To avoid
 overwriting their changes, sync and re-read these files before
 applying your changes.
 
@@ -300,8 +299,8 @@ in-progress files. Stage only this cycle's paths.
 
 ## Related
 
-- `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
-- `research/insights/library-system.md` -- full system blueprint, anti-staleness design
-- `governance/skills/library-writer.md` -- writer skill (picks candidates from queue)
-- `governance/skills/library-reviewer.md` -- reviewer skill (refreshes existing topics)
-- `logbook/protocol.md` -- logbook entry format
+- `agentic-brain:library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
+- `agentic-brain:research/insights/library-system.md` -- full system blueprint, anti-staleness design
+- `agentic-brain:governance/skills/library-writer.md` -- writer skill (picks candidates from queue)
+- `agentic-brain:governance/skills/library-reviewer.md` -- reviewer skill (refreshes existing topics)
+- `agentic-brain:logbook/protocol.md` -- logbook entry format

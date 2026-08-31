@@ -343,9 +343,9 @@ in-progress files. Stage only this cycle's paths.
 
 ## Related
 
-- `governance/template-library.md` -- topic format specification (read before any rewrites)
-- `library/guide-library.md` -- pipeline architecture, weights, anchor format
-- `research/insights/library-system.md` -- full system blueprint, anti-staleness design
-- `governance/skills/library-writer.md` -- writer skill (produces new topics)
-- `governance/skills/library-discoverer.md` -- discoverer skill (proposes candidates)
-- `logbook/protocol.md` -- logbook entry format
+- `agentic-brain:governance/template-library.md` -- topic format specification (read before any rewrites)
+- `agentic-brain:library/guide-library.md` -- pipeline architecture, weights, anchor format
+- `agentic-brain:research/insights/library-system.md` -- full system blueprint, anti-staleness design
+- `agentic-brain:governance/skills/library-writer.md` -- writer skill (produces new topics)
+- `agentic-brain:governance/skills/library-discoverer.md` -- discoverer skill (proposes candidates)
+- `agentic-brain:logbook/protocol.md` -- logbook entry format

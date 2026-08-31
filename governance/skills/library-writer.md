@@ -307,9 +307,9 @@ in-progress files. Stage only this cycle's paths.
 
 ## Related
 
-- `governance/template-library.md` -- format specification and compliance validator (Library Topic Checklist, quality gates G1-G12, anti-patterns, examples)
-- `governance/skills/library-reviewer.md` -- reviewer skill (refreshes existing topics)
-- `governance/skills/library-discoverer.md` -- discoverer skill (proposes candidates)
-- `library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
-- `research/insights/library-system.md` -- full system blueprint, scoring rationale
-- `logbook/protocol.md` -- logbook entry format
+- `agentic-brain:governance/template-library.md` -- format specification and compliance validator (Library Topic Checklist, quality gates G1-G12, anti-patterns, examples)
+- `agentic-brain:governance/skills/library-reviewer.md` -- reviewer skill (refreshes existing topics)
+- `agentic-brain:governance/skills/library-discoverer.md` -- discoverer skill (proposes candidates)
+- `agentic-brain:library/guide-library.md` -- pipeline architecture, v2 weights, anchor format
+- `agentic-brain:research/insights/library-system.md` -- full system blueprint, scoring rationale
+- `agentic-brain:logbook/protocol.md` -- logbook entry format
