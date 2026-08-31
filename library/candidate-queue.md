@@ -19,14 +19,6 @@
 
 
 
-## Candidate: Environmental Law and Climate Treaties: From Kyoto to Paris and Beyond
-- **Domain:** law-regulation
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 8.96/10.0 (gap=9.0, compounding=8.5, timeliness=9.5, balance=8.9)
-- **Scope:** Traces the evolution of international climate law from the 1992 UNFCCC through Kyoto, Copenhagen, Paris, and Glasgow. Covers the legal mechanisms of treaty architecture -- nationally determined contributions, binding vs voluntary targets, carbon markets, and compliance enforcement. Examines the tension between national sovereignty and planetary necessity, and why climate treaties succeed or fail. Connects to international law, earth-climate science, and geopolitics as the legal bridge between scientific urgency and political reality.
-- **Status:** proposed
-
 ## Candidate: Charles Darwin: The Reluctant Revolutionary
 - **Domain:** notable-people
 - **Proposed by:** Library Runner
