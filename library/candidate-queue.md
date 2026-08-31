@@ -16,13 +16,6 @@
 
 
 
-## Candidate: Management Quality Evaluation: Trusting Stewards Before Numbers
-- **Domain:** value-investing
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-29
-- **Discovery score:** 8.46/10.0 (gap=9.0, compounding=8.5, timeliness=7.0, balance=8.9)
-- **Scope:** Explains how value investors evaluate the integrity, talent, and capital allocation skill of management before committing capital. Covers honest accounting as a proxy for character, skin in the game through insider ownership, shareholder communication quality, and red flags such as empire building and self-dealing. Uses examples of exceptional owner-operators and serial value destroyers. Connects to accounting shenanigans, Philip Fisher's fifteen points, and capital allocation as the human variable in intrinsic value.
-- **Status:** proposed
 
 ## Candidate: Value vs Growth: The False Dichotomy
 - **Domain:** value-investing
