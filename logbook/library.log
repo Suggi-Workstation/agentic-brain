@@ -450,3 +450,18 @@ Wrote topic Databases and Data Engineering: The Architecture of Persistent Data 
 Similarity overlap: 15%.
 Sources: 15 (8 high, 7 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-267] | 2026-08-31 07:48 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 10 candidates proposed, 0 skipped.
+Candidates:
+- Environmental Law and Climate Treaties: From Kyoto to Paris and Beyond (8.96): gap=9.0, compounding=8.5, timeliness=9.5, balance=8.9
+- Charles Darwin: The Reluctant Revolutionary (8.83): gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0
+- The Economics of Education: Credentialing, Signaling, and Returns (8.76): gap=9.0, compounding=8.5, timeliness=8.5, balance=8.9
+- Time Series Analysis: Modeling Data That Unfolds Over Time (8.76): gap=9.0, compounding=8.5, timeliness=8.5, balance=8.9
+- Oceanography and Marine Systems: The Science of the World's Oceans (8.66): gap=9.0, compounding=8.5, timeliness=8.0, balance=8.9
+- Natural Disasters: Earthquakes, Volcanoes, Hurricanes, and Their Mechanisms (8.63): gap=9.0, compounding=8.0, timeliness=8.5, balance=8.9
+- Landmark Court Cases and Their Impact on Society (8.54): gap=9.0, compounding=8.0, timeliness=8.0, balance=8.9
+- Calculus: The Mathematics of Change and Accumulation (8.44): gap=9.5, compounding=8.0, timeliness=6.5, balance=8.9
+- Leonardo da Vinci: The Original Polymath (8.40): gap=9.0, compounding=8.0, timeliness=6.5, balance=10.0
+- Montessori and Alternative Education Models: How Children Learn When Given Freedom (8.31): gap=9.0, compounding=7.5, timeliness=7.5, balance=8.9
+Domain balance: notable-people (7 topics) to health-medicine (10 topics).

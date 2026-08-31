@@ -106,3 +106,83 @@
 - **Discovery score:** 8.44/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=8.9)
 - **Scope:** Examines Joseph Nye's concept of soft power -- how states attract rather than coerce through culture, values, and institutions. Covers the machinery of cultural diplomacy, educational exchange, media exports, and the rise of Chinese soft power initiatives alongside American cultural dominance. Analyzes measurement debates and why soft power rarely substitutes for hard power but shapes the terrain of competition. Connects to pop-culture, propaganda, and communication as the cultural dimension of geopolitics.
 - **Status:** proposed
+
+## Candidate: Environmental Law and Climate Treaties: From Kyoto to Paris and Beyond
+- **Domain:** law-regulation
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.96/10.0 (gap=9.0, compounding=8.5, timeliness=9.5, balance=8.9)
+- **Scope:** Traces the evolution of international climate law from the 1992 UNFCCC through Kyoto, Copenhagen, Paris, and Glasgow. Covers the legal mechanisms of treaty architecture -- nationally determined contributions, binding vs voluntary targets, carbon markets, and compliance enforcement. Examines the tension between national sovereignty and planetary necessity, and why climate treaties succeed or fail. Connects to international law, earth-climate science, and geopolitics as the legal bridge between scientific urgency and political reality.
+- **Status:** proposed
+
+## Candidate: Charles Darwin: The Reluctant Revolutionary
+- **Domain:** notable-people
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.83/10.0 (gap=9.5, compounding=8.5, timeliness=7.0, balance=10.0)
+- **Scope:** Profiles Charles Darwin's life, voyage on the Beagle, and the 20-year incubation of natural selection before publication. Covers his meticulous evidence-gathering, his anxiety about public and religious reaction, his priority dispute with Wallace, and the correspondence network that shaped his thinking. Examines how his cautious, evidence-saturated approach changed biology and the scientific method. Connects to history, science, and ethics-philosophy as a case study in intellectual courage and intellectual humility.
+- **Status:** proposed
+
+## Candidate: The Economics of Education: Credentialing, Signaling, and Returns
+- **Domain:** education-learning
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.76/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=8.9)
+- **Scope:** Examines the economics of education -- how educational investment produces returns through human capital formation, credential signaling, and screening. Covers the signaling model (Spence), the human capital model (Becker), the college wage premium debate, and the student debt crisis. Analyzes credential inflation, the returns to different degrees, and the social vs private returns to education. Connects to macro-micro economics, industries-sectors, and comparative education systems as the economic engine beneath educational systems.
+- **Status:** proposed
+
+## Candidate: Time Series Analysis: Modeling Data That Unfolds Over Time
+- **Domain:** mathematics-statistics
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.76/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=8.9)
+- **Scope:** Covers the mathematical foundations of time series analysis -- stationarity, autocorrelation, ARIMA models, spectral analysis, and state-space methods. Examines the challenges of forecasting temporal data: trend decomposition, seasonality, structural breaks, and the perils of spurious regression in non-stationary series. Includes modern approaches from GARCH volatility modeling to machine-learning forecasting. Connects to probability theory, regression analysis, and finance as the quantitative backbone of any domain that models change over time.
+- **Status:** proposed
+
+## Candidate: Oceanography and Marine Systems: The Science of the World's Oceans
+- **Domain:** earth-climate
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.66/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=8.9)
+- **Scope:** Surveys oceanography as the study of the world's oceans -- physical oceanography (currents, thermohaline circulation, waves), chemical oceanography (salinity, nutrient cycles, dissolved gases), and biological oceanography (marine ecosystems, plankton, fisheries). Covers the ocean's role as Earth's primary heat sink and carbon reservoir, and how ocean dynamics drive weather and climate. Examines coral bleaching, sea-level rise, and ocean deoxygenation as climate change consequences. Connects to atmospheric science, carbon cycle, and biodiversity as the marine dimension of Earth systems.
+- **Status:** proposed
+
+## Candidate: Natural Disasters: Earthquakes, Volcanoes, Hurricanes, and Their Mechanisms
+- **Domain:** earth-climate
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.63/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=8.9)
+- **Scope:** Examines the physical mechanisms behind major natural disasters -- seismic waves and fault mechanics for earthquakes, magma dynamics and eruption types for volcanoes, thermodynamics and coriolis effects for hurricanes, and flood hydrology. Covers prediction challenges, the distinction between hazard and risk, and how climate change alters the frequency and intensity of extreme events. Uses historical disasters as case studies of Earth system interactions. Connects to plate tectonics, atmospheric science, and paleoclimatology as the catastrophic face of Earth processes.
+- **Status:** proposed
+
+## Candidate: Landmark Court Cases and Their Impact on Society
+- **Domain:** law-regulation
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.54/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=8.9)
+- **Scope:** Analyzes landmark court cases that reshaped law and society -- from Marbury v Madison and Dred Scott to Brown v Board, Miranda, Roe v Wade, and Citizens United. Covers the legal reasoning behind each decision, the social context that produced them, and the precedent cascades that followed. Examines how judicial review functions as a mechanism of societal change and why court decisions lag, lead, or clash with public opinion. Connects to constitutional law, history, and ethics-philosophy as the judicial engine of legal evolution.
+- **Status:** proposed
+
+## Candidate: Calculus: The Mathematics of Change and Accumulation
+- **Domain:** mathematics-statistics
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.44/10.0 (gap=9.5, compounding=8.0, timeliness=6.5, balance=8.9)
+- **Scope:** Covers the foundations of calculus -- limits, derivatives, integrals, and the fundamental theorem connecting differentiation and integration. Traces the development from Newton and Leibniz through rigorous epsilon-delta formalization and modern measure theory. Explains how calculus underpins physics, engineering, economics, and statistics as the mathematical language of continuous change. Connects to probability theory, optimization, and information theory as the mathematical bedrock of quantitative domains.
+- **Status:** proposed
+
+## Candidate: Leonardo da Vinci: The Original Polymath
+- **Domain:** notable-people
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.40/10.0 (gap=9.0, compounding=8.0, timeliness=6.5, balance=10.0)
+- **Scope:** Profiles Leonardo da Vinci as the archetype of the polymath -- painter, engineer, anatomist, inventor, and observer of nature. Covers his notebooks as a record of relentless curiosity, his unfinished projects and their reasons, his method of empirical observation before formal science existed, and his integration of art and engineering. Examines what his example teaches about cross-domain thinking and the limits of operating without institutional support. Connects to history, science, and education-learning as a case study in integrative genius.
+- **Status:** proposed
+
+## Candidate: Montessori and Alternative Education Models: How Children Learn When Given Freedom
+- **Domain:** education-learning
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.31/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=8.9)
+- **Scope:** Examines Montessori, Waldorf, Reggio Emilia, and other alternative education models that challenge conventional schooling. Covers the philosophical foundations of each approach, the evidence for and against their outcomes, and the practical tensions between child-led learning and structured curriculum. Analyzes why alternative models persist despite dominant conventional systems and what they reveal about how children learn. Connects to pedagogy, cognitive load theory, and comparative education systems as the experimental frontier of educational philosophy.
+- **Status:** proposed
