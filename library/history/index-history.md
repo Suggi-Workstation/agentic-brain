@@ -1,6 +1,6 @@
 # History -- Topics
 
-8 topics. Anchor: [anchor-history.md](anchor-history.md)
+9 topics. Anchor: [anchor-history.md](anchor-history.md)
 
 - [Ancient Civilizations -- Why the Institutions They Built Still Shape Modern Life](ancient-civilizations-and-their-legacies.md) -- [reviewed: never] -- Ancient civilizations were not merely collections of stone monuments and clay tablets. They were the first complex societies to solve the problems of governance, law, economic coordination, and knowledge transmission at scale -- and the institutional solutions they invented form the deep architecture of modern states, legal systems, and economies.
 
@@ -9,6 +9,8 @@
 - [Colonialism and Decolonization -- European Imperial Expansion Reshaped the World, and Its Reversal Created Modern Geopolitical Instability](colonialism-and-decolonization.md) -- [reviewed: never] -- Colonialism -- the half-millennium project of European imperial expansion across the Americas, Africa, Asia, and the Pacific -- was the most dramatic reorganization of human geography in recorded history. Its economic logic of extraction, its ideological justifications rooted in racial hierarchy, and its institutional architecture of indirect rule created the modern world's political map, its patterns of wealth and poverty, and its enduring ethnic conflicts.
 
 - [The History of Capitalism -- How Banking, the Corporation, and Fiat Money Turned Regional Trade into a Global System of Compounding Wealth](history-of-capitalism.md) -- [reviewed: never] -- Capitalism is not a natural state of human affairs but a specific set of institutions -- private property, credit, the joint-stock corporation, and managed money -- assembled piecemeal over roughly six centuries, from Italian merchant banking in the 1300s to the fiat-money global markets of today. Its history is the story of how these institutional inventions lowered the cost of trust between...
+
+- [History of Science and Technology -- How Knowledge and Tools Co-Evolved to Transform Civilization](history-of-science-and-technology.md) -- [reviewed: never] -- The history of science and technology is the story of how systematic inquiry into nature and the practical tools that inquiry produced transformed human civilization from a species of stone-tool users into a planetary force. Science and technology did not develop as separate streams -- they co-evolved, each driving the other, with instruments extending human perception, institutions preserving and accelerating knowledge, and paradigm shifts rewriting what was considered knowable.
 
 - [The Industrial Revolution -- How Fossil Fuels, Machines, and the Factory System Broke the Malthusian Trap and Created the Modern World](industrial-revolution-and-its-consequences.md) -- [reviewed: never] -- The Industrial Revolution was the transition from agrarian, craft-based economies to machine-driven, fossil-fueled industrial economies that began in Britain around 1760 and spread globally through 1914. For the first time in human history, sustained economic growth outpaced population growth, breaking the Malthusian cycle that had kept living standards near subsistence for millennia.
 
