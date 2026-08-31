@@ -11,15 +11,6 @@
 -->
 
 
-
-## Candidate: Mergers and Acquisitions: The Mechanics of Deal-Making
-- **Domain:** finance
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-27
-- **Discovery score:** 8.99/10.0 (gap=9.5, compounding=9.0, timeliness=8.0, balance=8.9)
-- **Scope:** Examines the mechanics of mergers and acquisitions -- how deals are structured, financed, priced, and integrated. Covers synergy valuation, due diligence, leveraged buyouts, hostile takeovers, and the empirical evidence on why most acquisitions destroy value. Connects to capital structure, cost of capital, and acquisition accounting tricks as the deal-making layer of corporate finance.
-- **Status:** proposed
-
 ## Candidate: Long-Term Capital Management: When Genius Failed
 - **Domain:** case-studies
 - **Proposed by:** Library Runner
