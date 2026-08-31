@@ -18,13 +18,6 @@
 
 
 
-## Candidate: Soft Power and Cultural Influence: Winning Without Coercion
-- **Domain:** geopolitics
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-29
-- **Discovery score:** 8.44/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=8.9)
-- **Scope:** Examines Joseph Nye's concept of soft power -- how states attract rather than coerce through culture, values, and institutions. Covers the machinery of cultural diplomacy, educational exchange, media exports, and the rise of Chinese soft power initiatives alongside American cultural dominance. Analyzes measurement debates and why soft power rarely substitutes for hard power but shapes the terrain of competition. Connects to pop-culture, propaganda, and communication as the cultural dimension of geopolitics.
-- **Status:** proposed
 
 ## Candidate: Environmental Law and Climate Treaties: From Kyoto to Paris and Beyond
 - **Domain:** law-regulation
