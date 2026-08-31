@@ -448,3 +448,14 @@ Workstreams:
 - Answered Claude/OpenAI subscription-as-API bridge ToS questions for Suggi.
 - Cleaned 10 scratch .ps1 scripts from PC home dir.
 Reflection: 2026-08-27_morpheus_stale-code-refusal-is-not-a-bug.md. Daily memory: 2026-08-27.md.
+
+## [ENT-075] | 2026-08-31 11:19 UTC | Morpheus | general | ref: reflections/2026-08-31_morpheus_stateful-runtime-upgrade-is-a-data-migration.md | see: 20260831T111334Z
+Session: OpenClaw 2.0 migration, memory convergence, and Tailscale Web UI repair.
+Workstreams:
+- Reconciled Library-Runner's active cron state in `FLEET.md` and committed the workspace.
+- Audited signed OpenClaw `2026.8.1` core/plugin artifacts, ClamAV-clean with zero known dependency vulnerabilities.
+- Migrated shared and per-agent SQLite state, converged five externalized plugins, and restored Lossless Claw 1.0 hooks.
+- Replaced retired QMD memory with embedding-only managed llama.cpp; rebuilt all three configured agent indexes and proved semantic search.
+- Restored the BOX-defined Tailscale Serve root path with narrow `127.0.0.1` proxy trust while retaining token auth; exact browser URL returned HTTP 200.
+- Added a personal OpenClaw 2.0 upgrade gate covering artifact audit, state ownership, plugin consent, memory migration, and full user-path verification.
+Reflection: 2026-08-31_morpheus_stateful-runtime-upgrade-is-a-data-migration.md. Daily memory: 2026-08-31.md.

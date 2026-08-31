@@ -28,3 +28,25 @@ completions. Fix: verify running_at_ms, retry history, retryOn config
 before declaring failure. Also: unauthorized library.log ENT-056 write
 (wrong number, line-count derivation). Fix: logbook writes only at
 session-end or on instruction; ENT read from file tail.
+
+## [ENT-004] | 2026-08-31 11:19 UTC | Morpheus | error | ref: reflections/2026-08-31_morpheus_stateful-runtime-upgrade-is-a-data-migration.md
+OpenClaw staged-newer-CLI dry-run advanced the live old-state schema before
+the subcommand preview, making the old CLI unable to reopen shared state.
+Root cause: subcommand dry-run semantics were assumed to cover process-startup
+migrations. Fix: preview only through the installed CLI or isolated state;
+the personal OpenClaw upgrade gate now enforces this boundary.
+
+## [ENT-005] | 2026-08-31 11:19 UTC | Morpheus | error | ref: reflections/2026-08-31_morpheus_stateful-runtime-upgrade-is-a-data-migration.md
+OpenClaw Doctor failed with `EACCES` under `sudo -u openclaw` although Ava's
+state ownership was correct. Strace found child processes inheriting
+Morpheus's private workspace cwd.
+Root cause: changing user identity did not change cwd. Fix: every cross-user
+OpenClaw command runs from `/tmp` or another runtime-user-readable directory.
+
+## [ENT-006] | 2026-08-31 11:19 UTC | Morpheus | error | ref: reflections/2026-08-31_morpheus_stateful-runtime-upgrade-is-a-data-migration.md
+OpenClaw 2.0 was reported complete after local HTTP, RPC, plugin, memory, and
+route-map checks, but Suggi's exact Tailscale browser URL returned HTTP 403
+`proxy_attribution_required`.
+Root cause: the completion gate proved components, not the user's ingress
+path. Fix: the upgrade gate now requires the exact URL to return HTTP 200 and
+records narrow loopback proxy trust with token auth retained.
