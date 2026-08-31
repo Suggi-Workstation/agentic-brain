@@ -1,8 +1,10 @@
 # Pop Culture -- Topics
 
-7 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
+8 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
 
 - [Criminal Justice in Pop Culture -- How Television and Film Shape What We Think About Law, Crime, and Punishment](criminal-justice-pop-culture.md) -- [reviewed: never] -- Popular culture is not a mirror of the justice system -- it is a funhouse mirror that distorts, dramatizes, and selectively amplifies. The portrayal of criminal law in film and television shapes public expectations of how justice works more powerfully than any civics textbook, creating a gap between the courtroom people expect and the courtroom that actually exists.
+
+- [Film as Cultural Artifact -- How Cinema Reflects and Shapes Society](film-as-cultural-artifact.md) -- [reviewed: never] -- Cinema is the most influential storytelling medium of the twentieth century, a mass-produced art form that simultaneously mirrors the values, anxieties, and aspirations of the society that produces it and actively shapes the collective imagination of the society that consumes it. From the Lumiere brothers' first public screenings in 1895 to the global streaming platforms of the 2020s, film has functioned as both a record of cultural conditions and an instrument of cultural construction.
 
 - [The Hero's Journey -- How One Narrative Structure Came to Underpin Nearly All Modern Storytelling](heros-journey-monomyth.md) -- [reviewed: never] -- The Hero's Journey, or monomyth, is the most influential narrative template in modern popular culture. First articulated by mythologist Joseph Campbell in "The Hero with a Thousand Faces" (1949), it proposes that myths, legends, and stories from every human culture share a universal underlying structure: a hero departs from the ordinary world, undergoes trials and transformation in a supernatural realm, and returns bearing a gift for the community.
 
