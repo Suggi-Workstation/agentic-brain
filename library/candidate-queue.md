@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Intelligence and Espionage: The Invisible Hand of Statecraft
-- **Domain:** geopolitics
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-29
-- **Discovery score:** 9.06/10.0 (gap=9.5, compounding=8.5, timeliness=9.0, balance=8.9)
-- **Scope:** Examines how states collect, analyze, and act on secret information to gain advantage. Covers HUMINT, SIGINT, and open-source tradecraft, counterintelligence and moles, covert action, and the intelligence-policy interface. Uses cases such as the Cambridge Five, Aldrich Ames, and Stuxnet to show how espionage successes and failures shaped major conflicts. Connects to cyber-warfare, nuclear deterrence, and Cold War history as the hidden layer beneath visible geopolitics.
-- **Status:** proposed
-
 ## Candidate: Rare Earths and Critical Minerals: The New Cartography of Power
 - **Domain:** geopolitics
 - **Proposed by:** Library Runner
