@@ -15,13 +15,6 @@
 
 
 
-## Candidate: Philip Fisher: The Qualitative Growth Investor
-- **Domain:** investors
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-29
-- **Discovery score:** 8.46/10.0 (gap=9.5, compounding=8.5, timeliness=6.0, balance=8.9)
-- **Scope:** Profiles Philip Fisher, author of Common Stocks and Uncommon Profits, whose qualitative approach reshaped growth investing. Covers the scuttlebutt method of investigating companies through employees, suppliers, and competitors, and his fifteen points for evaluating management quality. Traces his influence on Warren Buffett, who blended Fisher's quality lens with Graham's quantitative discipline. Connects to management quality evaluation, economic moats, and value-investing as the missing link between value and growth.
-- **Status:** proposed
 
 ## Candidate: Management Quality Evaluation: Trusting Stewards Before Numbers
 - **Domain:** value-investing
