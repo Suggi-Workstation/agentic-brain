@@ -1,6 +1,6 @@
 # Geopolitics -- Topics
 
-10 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
+11 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
 
 - [Cyber Warfare -- Why the Fifth Domain of Conflict Rewrites the Rules of International Security](cyber-warfare.md) -- [reviewed: never] -- Cyber warfare is the use of digital attacks by nation-states to compromise, disrupt, or destroy the computer systems of adversaries, and it represents the most fundamental transformation in the character of conflict since the advent of nuclear weapons -- not because of its destructive power, but because it erodes the foundations on which traditional deterrence, attribution, and the laws of war were built.
 
@@ -17,6 +17,8 @@
 - [Nuclear Deterrence -- How the Threat of Mutual Annihilation Produced the Long Peace](nuclear-deterrence-mad.md) -- [reviewed: never] -- Nuclear deterrence is the strategic doctrine that the threat of devastating nuclear retaliation prevents adversaries from launching a first strike, and it is the most consequential innovation in the history of warfare -- transforming conflict from a contest of military strength into a contest of credible threats.
 
 - [Rare Earths and Critical Minerals -- The New Cartography of Power](rare-earths-critical-minerals.md) -- [reviewed: never] -- Rare earth elements and critical minerals have become the strategic chokepoints of the 21st century, transforming from obscure industrial inputs into instruments of geopolitical leverage. China's near-monopoly on processing and refining -- approximately 90 percent of global capacity -- gives Beijing coercive power over the defense, clean energy, and semiconductor supply chains of virtually every industrialized nation.
+
+- [Soft Power -- Why Attraction Works When Coercion Cannot](soft-power-and-cultural-influence.md) -- [reviewed: never] -- Soft power is the ability of a state to obtain preferred outcomes through attraction and persuasion rather than coercion or payment. Coined by Joseph Nye in 1990, the concept identifies a dimension of international influence that military and economic power cannot reach: shaping what others want through the appeal of one's culture, political values, and foreign policies.
 
 - [Trade Wars and Economic Sanctions -- How Interdependence Became a Weapon and Why the Global Economic Order Is Fragmenting](trade-wars-economic-sanctions.md) -- [reviewed: never] -- Trade wars and economic sanctions are not new instruments of statecraft, but their scale, sophistication, and systemic consequences have transformed dramatically in the twenty-first century. The post-Cold War assumption that deepening economic interdependence would produce peace has given way to a world where the very networks of trade, finance, and technology that bind nations together are being repurposed as weapons of coercion.
 
