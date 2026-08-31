@@ -1,6 +1,6 @@
 # Case Studies -- Topics
 
-8 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
+9 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
 
 - [The 2008 Financial Crisis -- How a Housing Bubble Spawned the Worst Crisis Since the Great Depression](2008-financial-crisis.md) -- [reviewed: never] -- The 2008 financial crisis was not an unpredictable "black swan" -- it was the foreseeable and forewarned result of a housing bubble, a deregulated shadow banking system, and financial instruments so complex that their own creators did not fully understand them. Triggered by the collapse of the U.S. subprime mortgage market in 2007 and accelerating through the bankruptcy of Lehman Brothers in September 2008, the crisis destroyed over $11 trillion in U.
 
@@ -13,6 +13,8 @@
 - [Deepwater Horizon -- Why Eleven Deaths and the Worst Oil Spill in History Were Not an Accident but a Systemic Failure](deepwater-horizon-systemic-failure.md) -- [reviewed: never] -- The 2010 blowout of the Macondo well aboard the Deepwater Horizon drilling rig killed eleven workers, spilled an estimated 3.19 million barrels of oil into the Gulf of Mexico over eighty-seven days, and cost BP more than sixty-five billion dollars. Multiple government commissions concluded the disaster was not a freak occurrence but the culmination of systemic failures across BP, Transocean, and...
 
 - [The Enron Scandal Is the Canonical Case Study in Systemic Corporate Governance Failure -- and Every Investor Should Know Its Red Flags](enron-scandal.md) -- [reviewed: never] -- The Enron scandal (2001) was not a rogue fraud by a single bad actor. It was a SYSTEMIC collapse in which every layer of corporate governance -- the board, the auditors, the regulators, the gatekeepers, and the compensation system -- failed simultaneously. Enron's bankruptcy destroyed over $60 billion in market capitalization, wiped out the retirement savings of thousands of employees, and dissolved Arthur Andersen, one of the Big Five accounting firms.
+
+- [Long-Term Capital Management -- How the Smartest Minds in Finance Nearly Destroyed the Global System](long-term-capital-management-collapse.md) -- [reviewed: never] -- Long-Term Capital Management (LTCM) was a hedge fund founded in 1994 by former Salomon Brothers bond arbitrage chief John Meriwether and two Nobel Prize-winning economists, Robert Merton and Myron Scholes. The fund used mathematical models to exploit tiny price discrepancies in bond markets, amplifying them into spectacular returns through leverage exceeding 25-to-1.
 
 - [New Coke -- The 1985 Marketing Disaster That Proved Brand Loyalty Is Not About Taste](new-coke-marketing-disaster.md) -- [reviewed: never] -- The 1985 launch of New Coke is the canonical marketing failure: Coca-Cola spent four years and millions of dollars on the most rigorous taste tests in the history of packaged goods, got a clear result that consumers preferred the new formula, acted on it decisively -- and triggered a consumer revolt so intense that the company reintroduced the original formula as "Coca-Cola Classic" just 79 days later.
 
