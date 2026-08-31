@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Robotics and Embodied AI: From Industrial Arms to General-Purpose Machines
-- **Domain:** technology
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-27
-- **Discovery score:** 8.86/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=8.9)
-- **Scope:** Surveys the evolution of robotics from fixed industrial arms to general-purpose humanoids and embodied AI agents. Covers sensing and perception, motion planning and control, reinforcement learning for manipulation, and the integration of large language models as robot reasoning layers. Connects to large language models, semiconductors, and automation economics as the physical frontier of artificial intelligence.
-- **Status:** proposed
-
 ## Candidate: Albert Einstein: The Reluctant Revolutionary
 - **Domain:** notable-people
 - **Proposed by:** Library Runner
