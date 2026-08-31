@@ -11,31 +11,6 @@
 -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Candidate: Healthcare Systems and Insurance Models: How Nations Deliver and Pay for Care
-- **Domain:** health-medicine
-- **Proposed by:** Library-Runner
-- **Date:** 2026-08-26
-- **Discovery score:** 8.32/10.0 (gap=8.5, compounding=8.0, timeliness=8.0, balance=8.8)
-- **Scope:** Compares how different nations structure healthcare delivery and financing -- from single-payer systems to insurance-based models to mixed public-private hybrids. Covers the Beveridge, Bismarck, and National Health Insurance models, cost control mechanisms, wait times, and the trade-offs between equity, quality, and innovation. Connects to public health, health economics, and policy as the system-level architecture of medical care.
-- **Status:** proposed
-
 ## Candidate: Film as Cultural Artifact: How Cinema Reflects and Shapes Society
 - **Domain:** pop-culture
 - **Proposed by:** Library Runner
