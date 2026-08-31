@@ -1,6 +1,6 @@
 # Valuation Screening -- Topics
 
-8 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
+9 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
 - [Cost of Capital -- Why the Discount Rate Is Both the Most Important and Most Uncertain Number in Valuation](cost-of-capital-capm-wacc-erp.md) -- [reviewed: never] -- Cost of capital is the minimum return a company must earn on its investments to satisfy its providers of capital -- both debt holders and equity investors. It serves as the discount rate in every discounted cash flow model, translating future cash flows into present value. The Capital Asset Pricing Model (CAPM) and the Weighted Average Cost of Capital (WACC) framework together form the standard...
 
@@ -11,6 +11,8 @@
 - [The Graham Number and Quantitative Value Screens -- Why Mechanical Filters Produce Superior Returns but Require Human Judgment](graham-number-quantitative-value-screens.md) -- [reviewed: never] -- Quantitative value screens, epitomized by Benjamin Graham's Graham Number formula (sqrt(22.5 x EPS x BVPS)), are mechanical rules that filter the universe of stocks down to a manageable set of candidates trading below conservative estimates of intrinsic value. Research spanning nearly a century -- from Graham's own partnership returns through Fama and French's (1992) demonstration that high book-to-market stocks outperform -- confirms that systematic cheapness screens generate excess returns.
 
 - [The Magic Formula -- How a Simple Quality-and-Value Screen Beat the Market, and What Its Limits Teach](magic-formula-screen.md) -- [reviewed: never] -- The Magic Formula is a quantitative stock screen developed by investor and Gotham Capital founder Joel Greenblatt: rank every company on two metrics -- earnings yield (cheapness) and return on capital (quality) -- then buy the roughly thirty names with the best combined rank, repeat annually. Greenblatt's 2005 book claimed the screen returned 30.
+
+- [Monte Carlo Simulation in Valuation -- Why a Distribution of Values Beats a Single Point Estimate](monte-carlo-simulation-in-valuation.md) -- [reviewed: never] -- Monte Carlo simulation replaces the point estimates of a discounted cash flow model with probability distributions for each uncertain input, runs the model thousands of times with randomly sampled combinations, and produces a distribution of intrinsic values rather than a single number. The technique does not improve the accuracy of the central estimate -- the mean of the simulation typically...
 
 - [Reverse DCF and Sensitivity Analysis -- Why Stress-Testing Your Assumptions Beats Guessing Your Answer](reverse-dcf-and-sensitivity-analysis.md) -- [reviewed: never] -- Reverse DCF inverts the standard discounted cash flow model: instead of guessing a growth rate and solving for intrinsic value, it takes the observable market price as given and solves backward for the growth and profitability assumptions that price already implies. The result is a single, testable number -- the implied growth rate -- that strips away the analyst's optimism bias and forces a concrete question: is what the market has priced in actually achievable?
 
