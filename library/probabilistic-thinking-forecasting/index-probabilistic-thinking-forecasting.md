@@ -1,6 +1,6 @@
 # Probabilistic Thinking Forecasting -- Topics
 
-8 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
+9 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
 
 - [Base Rate Neglect -- Why We Ignore Prior Probabilities and Sabotage Our Forecasts](base-rate-neglect.md) -- [reviewed: never] -- Base rate neglect is the systematic cognitive bias that causes people to underweight or entirely ignore statistical prior probabilities (base rates) when making judgments under uncertainty, instead fixating on specific, vivid, or case-specific information. Identified by Kahneman and Tversky in the early 1970s as a consequence of the representativeness heuristic, base rate neglect is one of the most robust and consequential findings in the judgment and decision-making literature.
 
@@ -15,6 +15,8 @@
 - [The Inside View Is Seductive, Detail-Rich, and Almost Always Wrong -- Why the Outside View Wins](inside-outside-view.md) -- [reviewed: never] -- The inside view and outside view are two fundamentally different ways of making predictions about the future. The inside view builds a forecast by focusing on the specific case: its unique details, constraints, resources, and plan of action. The outside view ignores those specifics and instead asks a single question: how did similar cases turn out?
 
 - [Prediction Markets -- How Betting on the Future Aggregates Dispersed Knowledge into Probabilistic Forecasts](prediction-markets.md) -- [reviewed: never] -- Prediction markets are exchange-traded markets where participants buy and sell contracts whose payoffs depend on the outcomes of future events. By putting real money behind their beliefs, traders aggregate fragments of information dispersed across thousands of individuals into a single continuously updating probability -- a price.
+
+- [Scenario Planning -- Why Imagining Multiple Futures Beats Predicting One](scenario-planning-and-analysis.md) -- [reviewed: never] -- Scenario planning is a structured method for reasoning about multiple plausible futures under conditions of irreducible uncertainty. Pioneered by Pierre Wack at Royal Dutch/Shell in the early 1970s and codified by Peter Schwartz in the 1990s, it rejects the single-forecast habit in favor of constructing a small set of internally consistent narrative worlds, then stress-testing strategy against each.
 
 - [Superforecasting -- Why Some Ordinary People Are Dramatically Better at Predicting the Future Than Experts](superforecasting.md) -- [reviewed: never] -- Superforecasting is the empirically demonstrated capacity of a small subset of people -- roughly 2% of forecasters -- to predict geopolitical and economic events with accuracy that consistently surpasses professional intelligence analysts with access to classified information. Identified by Philip Tetlock and Barbara Mellers through the Good Judgment Project (2011-2015), a forecasting tournament sponsored by the U.
 
