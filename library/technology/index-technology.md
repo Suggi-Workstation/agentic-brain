@@ -1,12 +1,14 @@
 # Technology -- Topics
 
-8 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+9 topics. Anchor: [anchor-technology.md](anchor-technology.md)
 
 - [Blockchain and Distributed Ledgers -- How Trustless Consensus Creates Genuine Innovation Beyond Cryptocurrency Speculation](blockchain-distributed-ledgers.md) -- [reviewed: never] -- Blockchain technology is a distributed data structure that enables mutually distrusting parties to reach consensus on a shared, immutable ledger without relying on a central authority. Originally conceived as the backbone of Bitcoin, the technology has evolved into a general-purpose platform for decentralized applications, smart contracts, and verifiable computation.
 
 - [Cloud Computing -- How Renting Compute Transformed the Software Industry and Lowered the Barrier to Global Scale](cloud-computing.md) -- [reviewed: never] -- Cloud computing is the delivery of computing resources -- servers, storage, databases, networking, and software -- over the internet on a pay-as-you-go basis, replacing the capital-intensive model of owning and operating physical data centers. By turning computing into a utility, cloud computing reduced the upfront cost of launching a software company from millions of dollars to a credit card and an idea, fundamentally restructuring the economics of the entire software industry.
 
 - [Cybersecurity Is an Economic Problem Masquerading as a Technical One -- Why Defense in Depth and Zero Trust Are Not Optional](cybersecurity-principles-threats-and-defense-in-depth.md) -- [reviewed: never] -- Cybersecurity is the practice of protecting information systems from unauthorized access, disruption, and destruction through a combination of technical controls, architectural principles, and organizational processes. The global cost of cybercrime is projected to reach approximately $10.5 trillion annually in 2025, making it an economic force larger than the GDP of every country except the United States and China.
+
+- [Databases and Data Engineering -- The Architecture of Persistent Data](databases-and-data-engineering.md) -- [reviewed: never] -- Databases and data engineering form the persistence layer of the computing stack: the systems and practices that store, organize, transform, and serve the data behind every modern application. The relational model, introduced by E. F. Codd in 1970, established the abstraction that still encodes much of the world's business data more than five decades later.
 
 - [The Internet -- Why TCP/IP, Decentralized Routing, and Layered Protocols Built the Most Scalable Communication System in History](internet-tcpip-protocols-routing.md) -- [reviewed: never] -- The internet is not a single technology but a layered stack of protocols and physical infrastructure that together enable any device anywhere to communicate with any other device. Built on the TCP/IP protocol suite, a decentralized routing architecture, and a small set of enduring design principles -- including the end-to-end principle and packet switching -- the internet scaled from a four-node...
 
