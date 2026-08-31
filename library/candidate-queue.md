@@ -13,13 +13,6 @@
 
 
 
-## Candidate: Manufacturing Systems and Industrial Engineering: Lean, Quality, and Throughput
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 8.93/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
-- **Scope:** Covers manufacturing systems as the organized production of goods and industrial engineering as the discipline that optimizes those systems. Examines lean production, the Toyota Production System, just-in-time, total quality management, Six Sigma, theory of constraints, and the design of production lines, cells, and supply chains. Analyzes the trade-offs between throughput, inventory, quality, and flexibility, and how manufacturing strategy connects to competitiveness, cost structure, and innovation. Connects to engineering-infrastructure, business-management-strategy, and industries-sectors as the engineered and managerial foundation of industrial production.
-- **Status:** proposed
 
 ## Candidate: Organizational Design and Decentralization: How Structure Follows Strategy
 - **Domain:** business-management-strategy
