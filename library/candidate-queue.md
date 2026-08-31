@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Databases and Data Engineering: The Architecture of Persistent Data
-- **Domain:** technology
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-27
-- **Discovery score:** 8.86/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=8.9)
-- **Scope:** Explains how databases and data engineering store, organize, and serve the data behind every modern application. Covers the relational model and SQL, NoSQL and distributed systems, data modeling, indexing and query optimization, and the modern data pipeline from ingestion to warehouse. Connects to cloud computing, software architecture, and distributed systems as the persistence layer of the computing stack.
-- **Status:** proposed
-
 ## Candidate: Robotics and Embodied AI: From Industrial Arms to General-Purpose Machines
 - **Domain:** technology
 - **Proposed by:** Library Runner
