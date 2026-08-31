@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Executive Compensation and Incentive Design: Pay as the Principal-Agent Lever
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.03/10.0 (gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Covers executive compensation as the primary mechanism for aligning manager and shareholder interests: salary, bonus, stock options, restricted stock, performance shares, and the timing and metrics that structure pay. Examines the principal-agent logic behind equity-based pay, the design problems of risk-taking incentives, benchmarking, say-on-pay, and the unintended consequences of complex pay packages. Analyzes the empirical evidence on whether compensation actually drives performance or merely reflects it, and the governance structures that constrain pay design. Connects to finance, corporate governance, and value-investing as the incentive architecture of the public corporation.
-- **Status:** proposed
-
 ## Candidate: Federalism and Multi-Level Governance: Why the Distribution of Power Matters
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
