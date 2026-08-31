@@ -1,10 +1,10 @@
 # Library Master Index
 
-<!-- Regenerated 2026-08-31 10:53 UTC -->
+<!-- Regenerated 2026-08-31 11:08 UTC -->
 <!-- Source of truth: filesystem. This file is derived, never maintained by hand. -->
 <!-- To verify: ls library/<domain>/*.md -->
 
-**247 topics across 28 domains**
+**248 topics across 28 domains**
 
 | Domain | Topics | Description |
 |:--|--:|:--|
@@ -35,5 +35,5 @@
 | [self-improvement](self-improvement/index-self-improvement.md) | 10 | The systematic pursuit of becoming a better version of oneself through deliberate practice, habit formation, productivity systems, and continuous learning. Encompasses evidence-based methodologies for improving cognitive performance, emotional regulation, physical health, skill acquisition, and decision quality. The focus is on ACTIONABLE techniques -- what can a person DO to improve, supported by evidence of effectiveness. |
 | [technology](technology/index-technology.md) | 10 | The application of scientific knowledge for practical purposes, encompassing computing, software, hardware, engineering, artificial intelligence, and the tools and systems that extend human capability. This domain covers specific technologies, their design, their evolution, and their impact -- not the scientific principles that enable them (science) or the philosophical questions they raise (ethics-philosophy). |
 | [valuation-screening](valuation-screening/index-valuation-screening.md) | 8 | The quantitative methods and frameworks used to estimate the intrinsic value of assets and screen for investment candidates. Encompasses discounted cash flow (DCF) analysis, comparable company analysis, precedent transactions, asset-based valuation, earnings power value, dividend discount models, and screening criteria (P/E, P/B, EV/EBITDA, etc.). This domain is the toolbox -- the specific techniques for putting numbers on value. The philosophy of WHY valuation matters belongs in value-investing. |
-| [value-investing](value-investing/index-value-investing.md) | 9 | The discipline of purchasing assets at prices below their intrinsic value, with a margin of safety, and holding for the long term. Originated with Benjamin Graham and David Dodd, refined by Warren Buffett and Charlie Munger. Core concepts: intrinsic value estimation, margin of safety, Mr. Market metaphor, circle of competence, moat analysis, owner-earnings, and the distinction between price and value. Value investing is not a strategy -- it is a philosophy of capital allocation grounded in the belief that markets are voting machines in the short run and weighing machines in the long run. |
+| [value-investing](value-investing/index-value-investing.md) | 10 | The discipline of purchasing assets at prices below their intrinsic value, with a margin of safety, and holding for the long term. Originated with Benjamin Graham and David Dodd, refined by Warren Buffett and Charlie Munger. Core concepts: intrinsic value estimation, margin of safety, Mr. Market metaphor, circle of competence, moat analysis, owner-earnings, and the distinction between price and value. Value investing is not a strategy -- it is a philosophy of capital allocation grounded in the belief that markets are voting machines in the short run and weighing machines in the long run. |
 
