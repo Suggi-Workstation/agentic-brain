@@ -474,3 +474,15 @@ Candidates:
 - Linguistic Anthropology: How Language Shapes Culture and Thought (8.48): gap=9.5, compounding=8.5, timeliness=7.5, balance=7.0
 - Habit Formation and Behavior Change: The Science of Making and Breaking Habits (8.28): gap=8.5, compounding=8.5, timeliness=8.5, balance=7.0
 Domain balance: macro-micro/portfolio-risk-management/probabilistic-thinking-forecasting (8 topics) to psychology-behavior/science/anthropology (9 topics).
+
+## [ENT-283] | 2026-08-31 12:11 UTC | Morpheus | library | ref: library/guide-library.md
+Domain expansion: 5 domains and anchors added; 38 forward adjacency edges verified reciprocal.
+Domains:
+- business-management-strategy
+- engineering-infrastructure
+- investment-vehicles-fund-structures
+- political-science-public-policy
+- sociology-demography
+Architecture: system blueprint and living library docs updated to the 33-domain filesystem.
+Indexing: `index-library.py` confirmed dynamic; workflow path globs already cover new domains and its mutable count comment was removed.
+Shared skills: canonical discoverer and reviewer mutable count wording removed with Suggi approval.
