@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Long-Term Capital Management: When Genius Failed
-- **Domain:** case-studies
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-27
-- **Discovery score:** 8.89/10.0 (gap=9.5, compounding=9.0, timeliness=7.5, balance=8.9)
-- **Scope:** Analyzes the 1998 collapse of Long-Term Capital Management -- how Nobel-laureate brainpower, extreme leverage, and crowded convergence trades produced a near-meltdown of the global financial system. Covers the arbitrage strategy, model risk, the Federal Reserve-orchestrated bailout, and the enduring lessons about leverage, liquidity, and hubris. Connects to tail-risk hedging, the 2008 financial crisis, and portfolio risk management.
-- **Status:** proposed
-
 ## Candidate: Databases and Data Engineering: The Architecture of Persistent Data
 - **Domain:** technology
 - **Proposed by:** Library Runner
