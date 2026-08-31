@@ -11,13 +11,6 @@
 -->
 
 
-## Candidate: Electoral Systems and Voting Mechanics: How Rules Shape Political Outcomes
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.43/10.0 (gap=10.0, compounding=8.5, timeliness=9.0, balance=10.0)
-- **Scope:** Examines how different electoral systems -- plurality, proportional, mixed, and ranked-choice -- structure political competition and shape outcomes such as party systems, representation, and governability. Covers Duverger's law, strategic voting, gerrymandering, and the trade-offs between accountability and proportionality. Analyzes how electoral rules affect policy outcomes, coalition formation, and the stability of democratic systems. Connects to geopolitics, communication, and sociology-demography as the institutional mechanism translating public preferences into political power.
-- **Status:** proposed
 
 ## Candidate: Insurance Float as Investment Capital: The Berkshire Model of Permanent Capital
 - **Domain:** investment-vehicles-fund-structures
