@@ -17,13 +17,6 @@
 
 
 
-## Candidate: Value vs Growth: The False Dichotomy
-- **Domain:** value-investing
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-29
-- **Discovery score:** 8.44/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=8.9)
-- **Scope:** Argues that the split between value and growth investing is an artifact of index labels, not a real difference in philosophy. Covers Buffett's statement that growth and value are joined at the hip, the history of the Fama-French value factor, and why cheapness alone is not value. Explains how quality growth at reasonable prices sits inside the value framework. Connects to valuation multiples, economic moats, and intrinsic value estimation as a reconciliation of the two styles.
-- **Status:** proposed
 
 ## Candidate: Soft Power and Cultural Influence: Winning Without Coercion
 - **Domain:** geopolitics
