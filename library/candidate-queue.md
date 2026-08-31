@@ -162,3 +162,51 @@
 - **Discovery score:** 8.70/10.0 (gap=9.5, compounding=8.0, timeliness=7.0, balance=10.0)
 - **Scope:** Surveys existentialist philosophy from Kierkegaard and Nietzsche through Sartre, Camus, de Beauvoir, and Heidegger. Covers the core themes -- radical freedom, authentic existence, the absurd, angst, bad faith, and the rejection of essentialist human nature. Examines how existentialism responds to the problem of meaning in a secular age and its influence on literature, psychology, and political thought. Analyzes the tension between existentialist individualism and communitarian or structural critiques. Connects to free will and determinism, Stoicism, and political philosophy as the philosophical exploration of what it means to exist.
 - **Status:** proposed
+
+## Candidate: Sovereign Debt Dynamics: Fiscal Sustainability and Default Risk
+- **Domain:** macro-micro
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 9.23/10.0 (gap=9.5, compounding=8.5, timeliness=9.0, balance=10.0)
+- **Scope:** Examines sovereign debt -- how governments borrow, what determines fiscal sustainability, and when debt becomes unsustainable. Covers debt-to-GDP dynamics, the interplay of growth, interest rates, and primary balances, and the mechanics of sovereign default and restructuring. Analyzes debt crises from Latin America to the Eurozone and the policy tools of austerity, monetization, and financial repression. Connects to fiscal policy, monetary policy, and currency and exchange rates as the fiscal sustainability dimension of macroeconomic policy.
+- **Status:** proposed
+
+## Candidate: Scenario Planning and Analysis: Structuring Uncertainty for Decision-Making
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 9.15/10.0 (gap=9.5, compounding=9.0, timeliness=8.0, balance=10.0)
+- **Scope:** Covers scenario planning as a structured method for reasoning about multiple plausible futures -- from Shell's pioneering use to Schwartz's framework and military wargaming. Examines how to identify driving forces, construct scenario narratives, and use them to test strategy under irreducible uncertainty. Distinguishes scenarios from forecasts and probability estimates, emphasizing robustness over precision. Connects to pre-mortem analysis, expected value frameworks, and inside-outside view as the strategic application of probabilistic thinking.
+- **Status:** proposed
+
+## Candidate: Ecology and Ecosystems: How Species Interact and Why It Matters
+- **Domain:** science
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.65/10.0 (gap=9.5, compounding=8.0, timeliness=9.0, balance=7.0)
+- **Scope:** Covers the science of ecology -- population dynamics, community interactions (competition, predation, mutualism), energy flow through trophic levels, and biogeochemical cycles. Examines ecosystem stability, biodiversity, keystone species, and ecological succession. Analyzes current pressures from habitat loss, invasive species, and climate change on ecosystem resilience. Connects to evolution by natural selection, thermodynamics, and earth-climate systems as the biological fabric of the natural world.
+- **Status:** proposed
+
+## Candidate: Volatility Targeting and Portfolio Insurance: Dynamic Risk Management Strategies
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.70/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0)
+- **Scope:** Examines dynamic risk management strategies that adjust portfolio exposure based on market conditions -- volatility targeting, constant proportion portfolio insurance (CPPI), and option-based portfolio insurance (OBPI). Covers the mechanics of each approach, their performance in different market regimes, and the risks of mechanical strategies during regime shifts. Analyzes the tradeoff between protection cost and upside capture. Connects to modern portfolio theory, tail risk hedging, and drawdown management as the active-management layer of portfolio risk.
+- **Status:** proposed
+
+## Candidate: Linguistic Anthropology: How Language Shapes Culture and Thought
+- **Domain:** anthropology
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.48/10.0 (gap=9.5, compounding=8.5, timeliness=7.5, balance=7.0)
+- **Scope:** Examines linguistic anthropology -- how language use shapes and reflects cultural norms, social identity, and worldview. Covers the Sapir-Whorf hypothesis, ethnography of speaking, language and power, code-switching, and language endangerment and revitalization. Analyzes how linguistic practices encode social hierarchy, gender, and group membership. Connects to linguistics and language evolution, kinship and social structures, and indigenous knowledge systems as the linguistic dimension of cultural anthropology.
+- **Status:** proposed
+
+## Candidate: Habit Formation and Behavior Change: The Science of Making and Breaking Habits
+- **Domain:** psychology-behavior
+- **Proposed by:** Library Runner
+- **Date:** 2026-08-31
+- **Discovery score:** 8.28/10.0 (gap=8.5, compounding=8.5, timeliness=8.5, balance=7.0)
+- **Scope:** Covers the psychology of habit formation -- the habit loop (cue-routine-reward), basal ganglia neuroscience, and the distinction between goal-directed and habitual behavior. Examines evidence-based strategies for building new habits and breaking old ones, including implementation intentions, habit stacking, and environmental design. Analyzes why willpower-based approaches fail and how habit architecture shapes long-term behavior. Connects to System 1 vs System 2 thinking, incentives and reward structures, and cognitive load theory as the behavioral mechanics underlying self-improvement.
+- **Status:** proposed
