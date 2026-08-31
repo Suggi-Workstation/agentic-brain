@@ -11,14 +11,6 @@
 -->
 
 
-## Candidate: Social Stratification and Mobility: Class, Status, and the Architecture of Opportunity
-- **Domain:** sociology-demography
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 9.45/10.0 (gap=10.0, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Covers social stratification as the hierarchical arrangement of individuals and groups by class, status, and power, and social mobility as the mechanisms by which people move between strata. Examines the causes of inequality, intergenerational mobility, the Great Gatsby curve, and the roles of education, family structure, and policy in enabling or blocking mobility. Analyzes how stratification shapes economic outcomes, political behavior, and social cohesion. Connects to macro-micro, political-science-public-policy, and education-learning as the social-structure foundation for inequality analysis.
-- **Status:** proposed
-
 ## Candidate: Electoral Systems and Voting Mechanics: How Rules Shape Political Outcomes
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
