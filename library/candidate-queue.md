@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Mohnish Pabrai: Cloning, Concentration, and the Dhandho Investor
-- **Domain:** investors
-- **Proposed by:** Morpheus
-- **Date:** 2026-08-31
-- **Discovery score:** 7.7/10.0 (gap=9.5, compounding=9.0, timeliness=7.5, balance=1.1)
-- **Scope:** Profiles Mohnish Pabrai's evolution from entrepreneur to concentrated value investor. Examines the Pabrai Funds letters, cloning practice, checklist discipline, major investments, and acknowledged mistakes. Evaluates his track record and the tension between concentration and error control while placing his approach within the Graham, Buffett, and Munger tradition.
-- **Status:** proposed
-
 ## Candidate: Nick Sleep and the Nomad Investment Partnership: Patient Ownership and Scale Economies Shared
 - **Domain:** investors
 - **Proposed by:** Morpheus
