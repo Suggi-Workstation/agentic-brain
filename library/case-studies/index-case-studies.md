@@ -1,6 +1,6 @@
 # Case Studies -- Topics
 
-11 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
+12 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
 
 - [The 2008 Financial Crisis -- How a Housing Bubble Spawned the Worst Crisis Since the Great Depression](2008-financial-crisis.md) -- [reviewed: never] -- The 2008 financial crisis was not an unpredictable "black swan" -- it was the foreseeable and forewarned result of a housing bubble, a deregulated shadow banking system, and financial instruments so complex that their own creators did not fully understand them. Triggered by the collapse of the U.S. subprime mortgage market in 2007 and accelerating through the bankruptcy of Lehman Brothers in September 2008, the crisis destroyed over $11 trillion in U.
 
@@ -9,6 +9,8 @@
 - [Berkshire Hathaway's Apple Investment -- How Consumer Loyalty Reframed a Technology Company](berkshire-apple-investment-consumer-loyalty.md) -- [reviewed: never] -- Berkshire Hathaway began buying Apple in the first quarter of 2016 and built a position that, at its peak, approached 6 percent of Apple's outstanding stock and generated the largest realized and unrealized gain in Berkshire's history. The investment is notable because Warren Buffett had spent decades avoiding technology on the grounds that he could not predict which companies would endure.
 
 - [Berkshire Hathaway's GEICO Investment -- How a 1951 Train Ride Became a Permanent Insurance Engine](berkshire-geico-investment.md) -- [reviewed: never] -- Warren Buffett's relationship with GEICO (Government Employees Insurance Company) spans more than seven decades and traces a path from a twenty-year-old student's weekend train ride to Berkshire Hathaway's full ownership of one of the largest auto insurers in the United States. The case demonstrates how a structural cost advantage -- direct-to-consumer distribution that eliminates agent...
+
+- [Berkshire Hathaway's See's Candies Acquisition -- The Deal That Taught Buffett to Pay for Quality](berkshire-sees-candies-acquisition.md) -- [reviewed: never] -- In January 1972, Berkshire Hathaway -- acting through its affiliate Blue Chip Stamps -- purchased See's Candies, a California-based manufacturer and retailer of boxed chocolates, for $25 million. The deal was modest by any standard: the company had roughly $30 million in annual sales, $4.2 million in pre-tax earnings, and $8 million in net tangible assets.
 
 - [The Challenger Disaster -- How Organizational Silence Turned a Known Flaw Into a National Tragedy](challenger-disaster-organizational-silence.md) -- [reviewed: never] -- On January 28, 1986, the Space Shuttle Challenger broke apart 73 seconds after liftoff, killing all seven crew members on board. The immediate cause -- failure of a rubber O-ring seal in the right solid rocket booster -- was not a mystery on launch day; Morton Thiokol engineers had warned their management and NASA the night before that cold weather posed a catastrophic risk.
 
