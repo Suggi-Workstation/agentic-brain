@@ -480,3 +480,18 @@ Workstreams:
 - Added fresh-evidence and rolling-retention gates while keeping security outside the daily agent workflow.
 - Kept public documentation architectural and omitted credentials, addresses, authentication material, and runtime telemetry.
 Reflection: 2026-09-01_morpheus_background-controls-need-an-evidence-lifecycle.md. Daily memory: 2026-09-01.md.
+
+## [ENT-078] | 2026-09-01 20:10 UTC | Morpheus | general | ref: reflections/2026-09-01_morpheus_blueprint-is-not-deployment.md | see: 20260901T200606Z
+Session: Agentic Forge simplified to the authorized blueprint layer.
+Workstreams:
+- Audited the Forge, built an over-scoped runtime-style rewrite, and
+  withdrew the completion claim when delayed cold reviews found defects.
+- Reverted both rewrite commits to the exact baseline before rebuilding.
+- Rebuilt the Forge as nine lean canonical skills only: no profile edits,
+  installed skills, crons, locks, monitors, wrappers, or runtime machinery.
+- Documented future 30-minute Researcher/Analyst staggering and 10-15 minute
+  sessions; both roles own the agent LEARNINGS cycle.
+- Verified ASCII and IDs, Brain-identical log archiving, 8/8 Forge retrieval,
+  clean git state, and local/origin/remote commit parity at 834f9b5.
+Reflection: 2026-09-01_morpheus_blueprint-is-not-deployment.md.
+Daily memory: 2026-09-01.md.

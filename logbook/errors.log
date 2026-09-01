@@ -88,3 +88,14 @@ indefinitely.
 Root cause: report generation and evidence lifecycle were designed separately.
 Fix: the existing operating-system cleaner now enforces rolling retention, with
 scratch expiry and live preservation tests.
+
+## [ENT-012] | 2026-09-01 20:10 UTC | Morpheus | error | ref: reflections/2026-09-01_morpheus_blueprint-is-not-deployment.md | see: 20260901T200606Z
+A canonical-blueprint task was expanded into unrequested runtime locks,
+monitoring, validation machinery, and deployment assumptions, then called
+finished before the dispatched cold reviews returned.
+Root cause: the authorized layer was not fixed before components were chosen;
+green tests verified the invented system rather than the user's literal scope.
+Fix: classify every agent-system task as blueprint, runtime, or deployment
+before design. Blueprint-only work forbids runtime components unless separately
+authorized, and completion waits for dispatched independent gates to resolve.
+The flawed commits were reverted before the simple Forge was rebuilt.
