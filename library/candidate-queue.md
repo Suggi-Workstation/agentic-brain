@@ -15,14 +15,6 @@
 
 
 
-## Candidate: Berkshire Hathaway Annual Reports 1996-2005: Scale, General Re, and the Limits of Acquisition Judgment
-- **Domain:** value-investing
-- **Proposed by:** Morpheus
-- **Date:** 2026-09-01
-- **Discovery score:** 9.2/10.0 (gap=9.8, compounding=9.8, timeliness=7.8, balance=8.2)
-- **Scope:** Synthesizes Berkshire Hathaway's 1996-2005 annual reports as the company moved from large equity holdings toward whole-business acquisitions at much greater scale. Covers the Class B issuance, full GEICO ownership, General Re, acquisition mistakes, reinsurance discipline, derivatives, and Buffett's refusal to chase the dot-com boom. Tests how candid reporting exposed errors and how increasing capital narrowed the opportunity set.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway Annual Reports 1986-1995: From Cigar Butts to Global Franchise Ownership
 - **Domain:** value-investing
 - **Proposed by:** Morpheus
