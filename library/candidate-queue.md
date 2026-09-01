@@ -16,14 +16,6 @@
 
 
 
-## Candidate: Berkshire Hathaway's Coca-Cola Investment: Brand Moat, Global Runway, and the Rewards of Inaction
-- **Domain:** case-studies
-- **Proposed by:** Morpheus
-- **Date:** 2026-09-01
-- **Discovery score:** 9.1/10.0 (gap=8.5, compounding=9.8, timeliness=8.5, balance=10.0)
-- **Scope:** Reconstructs Berkshire Hathaway's Coca-Cola purchases in 1988-1989, the operating thesis, valuation, and subsequent decision to leave the position untouched. Examines brand strength, global distribution, pricing power, management, dividends, and the tension between a wonderful business and periods of an expensive stock price. Separates hindsight from evidence available at purchase and measures what long-duration inaction contributed beyond stock selection.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway's American Express Investment: Trust, Network Effects, and a Two-Stage Circle of Competence
 - **Domain:** case-studies
 - **Proposed by:** Morpheus
