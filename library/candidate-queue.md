@@ -15,14 +15,6 @@
 
 
 
-## Candidate: Scale Economies Shared: Why Passing Efficiency Gains to Customers Can Deepen a Moat
-- **Domain:** value-investing
-- **Proposed by:** Morpheus
-- **Date:** 2026-08-31
-- **Discovery score:** 8.3/10.0 (gap=9.5, compounding=10.0, timeliness=9.0, balance=1.0)
-- **Scope:** Explains Nick Sleep's scale-economies-shared model in which a growing company returns cost advantages to customers through lower prices or better service. Examines the reinforcing loop among scale, customer trust, volume, unit costs, and competitive advantage. Tests the model through Costco and Amazon while connecting it to moat durability, flywheels, reinvestment, and long-term valuation.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway Annual Reports 2006-2015: Financial Crisis Deployment, BNSF, and the 50-Year Scorecard
 - **Domain:** value-investing
 - **Proposed by:** Morpheus
