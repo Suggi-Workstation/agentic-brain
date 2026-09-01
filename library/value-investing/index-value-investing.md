@@ -1,6 +1,8 @@
 # Value Investing -- Topics
 
-15 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+16 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+
+- [Berkshire Hathaway Annual Reports 1986-1995 -- The Decade Franchise Investing Took Over](berkshire-annual-reports-1986-1995.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 1986 through 1995 are the record of the decade in which Warren Buffett's investment philosophy completed its migration from Benjamin Graham's statistical bargains to Charlie Munger's durable franchises. Read as a sequence, the ten reports show the purchase of Coca-Cola, the financing of Capital Cities/ABC, the Wells Fargo bet during a banking panic, and...
 
 - [Berkshire Hathaway Annual Reports 1996-2005 -- Scale, General Re, and the Limits of Acquisition Judgment](berkshire-annual-reports-1996-2005.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 1996 through 2005 document a decade in which the company moved decisively from large equity holdings toward whole-business acquisitions at much greater scale, doubled its float by acquiring the world's largest reinsurer, and absorbed a series of acquisition errors that tested the candor of its reporting.
 
