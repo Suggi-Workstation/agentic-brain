@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Water and Wastewater Systems: Engineered Public Health Infrastructure
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 8.80/10.0 (gap=9.5, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** Examines water and wastewater systems as engineered infrastructure that protects public health and enables urban civilization. Covers water treatment, distribution networks, wastewater collection and treatment, the physics and chemistry of purification, and the lifecycle of pumping, storage, and reticulation systems. Analyzes the infrastructure finance models, regulatory standards, aging-asset management, and the resilience challenges of climate change, population growth, and contamination events. Connects to engineering-infrastructure, health-medicine, and earth-climate as the engineered public-health foundation that makes dense settlement possible.
-- **Status:** proposed
-
 ## Candidate: Bureaucracy and Public Administration: The Executive Machinery of Governance
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
