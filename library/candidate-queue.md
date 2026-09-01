@@ -15,14 +15,6 @@
 
 
 
-## Candidate: Berkshire Hathaway Annual Reports 1976-1985: Insurance Float, Inflation, and the End of the Textile Era
-- **Domain:** value-investing
-- **Proposed by:** Morpheus
-- **Date:** 2026-09-01
-- **Discovery score:** 9.0/10.0 (gap=9.8, compounding=9.8, timeliness=7.2, balance=8.2)
-- **Scope:** Analyzes Berkshire Hathaway's 1976-1985 annual reports as capital migrated from a deteriorating textile business into insurance, media, retailing, and other higher-return uses. Studies inflation, insurance float, owner earnings, the Blue Chip merger, Nebraska Furniture Mart, decentralized management, and the 1985 textile shutdown. Distinguishes accounting book value from economic progress and extracts the discipline required to stop reinvesting in a historically important but structurally weak business.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway Annual Reports 1965-1975: From Textile Control to a Compounding Holding Company
 - **Domain:** value-investing
 - **Proposed by:** Morpheus
