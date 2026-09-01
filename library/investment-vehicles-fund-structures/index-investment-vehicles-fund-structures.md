@@ -1,8 +1,10 @@
 # Investment Vehicles Fund Structures -- Topics
 
-6 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+7 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: never] -- Berkshire Hathaway is a publicly traded conglomerate holding company that owns dozens of wholly owned operating subsidiaries alongside a portfolio of publicly traded equities, funded by permanent equity capital, insurance float, and retained earnings rather than by investor commitments or redeemable shares.
+
+- [Family Offices -- How Structure, Governance, and Permanent Capital Create the Ultimate Vehicle for Multi-Generational Wealth Compounding](family-offices-structure-governance-capital-allocation.md) -- [reviewed: never] -- A family office is a private organization that centralizes investment management, tax planning, estate administration, philanthropy, and often household operations for ultra-high-net-worth families. Unlike pooled investment vehicles that serve unrelated investors, the family office serves a single family or a small group of families, giving it permanent capital with no redemption pressure and an indefinite time horizon.
 
 - [Hedge Fund Structures -- How Fee Arrangements, Lockups, and Leverage Shape Manager Incentives and Systemic Risk](hedge-fund-structures-fee-arrangements-lockups-leverage.md) -- [reviewed: never] -- Hedge funds are privately organized investment partnerships that use performance-based fees, restricted liquidity, and leveraged capital to pursue absolute returns uncorrelated with market direction. Invented by Alfred Winslow Jones in 1949, the hedge fund structure has grown into a global industry managing over $5 trillion across thousands of funds.
 
