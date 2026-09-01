@@ -172,3 +172,51 @@
 - **Discovery score:** 8.00/10.0 (gap=8.5, compounding=9.0, timeliness=8.0, balance=5.0)
 - **Scope:** Analyzes education as an economic investment and signaling mechanism. Covers human capital theory, credential inflation, the sheepskin effect, returns to education, student debt, and the tension between vocational and liberal education. Connects comparative education systems, assessment, and labor economics through the market forces that shape educational demand and credential value.
 - **Status:** proposed
+
+## Candidate: Political Economy of Development
+- **Domain:** political-science-public-policy
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
+- **Scope:** Examines how political institutions shape economic growth and development outcomes. Covers the role of property rights, state capacity, corruption, and institutional quality in explaining why some nations prosper while others remain poor. Analyzes the Acemoglu-Robinson framework of extractive versus inclusive institutions, the resource curse, and the political foundations of sustained growth. Connects state capacity, corruption, and comparative regimes through the institutional architecture that determines whether development policy succeeds or fails.
+- **Status:** proposed
+
+## Candidate: Turnaround Management and Crisis Management
+- **Domain:** business-management-strategy
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
+- **Scope:** Analyzes how firms recover from financial distress and strategic crisis. Covers turnaround strategies including operational restructuring, asset divestiture, and financial reorganization, crisis management frameworks, early warning signals of decline, and the leadership challenges of executing under existential pressure. Examines the principal-agent dynamics of distress, the role of boards and creditors, and the empirical evidence on turnaround success rates. Connects corporate governance, resource allocation, and organizational design through the high-stakes environment where execution discipline matters most.
+- **Status:** proposed
+
+## Candidate: Sociology of Work and Labor Markets
+- **Domain:** sociology-demography
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
+- **Scope:** Examines work as a social institution and labor markets as sites of structural inequality. Covers the sociology of occupations and professions, labor market segmentation, the transformation of work under technology and globalization, and the rise of precarious and gig employment. Analyzes how class position, gender, and race shape labor market outcomes, and how changes in work organization reshape social stratification. Connects social stratification, demographic transition, and urbanization through the labor market as the link between individual life chances and structural change.
+- **Status:** proposed
+
+## Candidate: Race and Ethnicity as Social Systems
+- **Domain:** sociology-demography
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 8.93/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
+- **Scope:** Examines race and ethnicity as social constructs that structure inequality, identity, and group relations. Covers racial formation theory, ethnic boundary mechanisms, intersectionality, systemic discrimination, and the empirical measurement of racial disparities in education, employment, housing, and criminal justice. Analyzes how racial categories are produced and reproduced through institutions, and how they interact with class and gender in shaping life outcomes. Connects social stratification, social mobility, and sociology of work through categorical inequalities that determine access to opportunity.
+- **Status:** proposed
+
+## Candidate: Telecommunications Physical Infrastructure
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 8.90/10.0 (gap=9.0, compounding=8.0, timeliness=9.0, balance=10.0)
+- **Scope:** Examines the engineered physical systems that carry communications: fiber optic networks, cellular towers, data centers, satellite ground stations, and last-mile distribution architectures. Covers the engineering trade-offs of capacity, latency, reliability, and coverage, plus the lifecycle management of rapidly evolving physical plant under technological turnover. Analyzes the relationship between telecommunications infrastructure and power, transport, and urban systems as interdependent networks. Fills a core infrastructure gap alongside power grid, water, and transport topics in the engineering domain.
+- **Status:** proposed
+
+## Candidate: Innovation Management
+- **Domain:** business-management-strategy
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 8.68/10.0 (gap=9.0, compounding=7.5, timeliness=8.5, balance=10.0)
+- **Scope:** Examines how organizations manage the creation and commercialization of new products, services, and business models. Covers innovation typologies including sustaining versus disruptive innovation, open versus closed innovation, innovation portfolios, R and D organization, the innovator dilemma, and the structural barriers established firms face in adapting to technological change. Analyzes the tension between operational efficiency and exploratory innovation, and how resource allocation processes systematically underweight novel bets. Connects organizational design, resource allocation, and competitive strategy through the firm-level capability that determines long-term adaptation.
+- **Status:** proposed

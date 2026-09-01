@@ -397,3 +397,14 @@ Wrote topic Corruption, Accountability, and Institutional Quality to political-s
 Similarity overlap: 25%.
 Sources: 14 (12 high, 2 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-342] | 2026-09-01 21:47 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 6 candidates proposed, 10 dropped (queue capped at 25).
+Candidates:
+- Political Economy of Development (9.15): gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0
+- Turnaround Management and Crisis Management (9.05): gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0
+- Sociology of Work and Labor Markets (9.02): gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0
+- Race and Ethnicity as Social Systems (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Telecommunications Physical Infrastructure (8.90): gap=9.0, compounding=8.0, timeliness=9.0, balance=10.0
+- Innovation Management (8.68): gap=9.0, compounding=7.5, timeliness=8.5, balance=10.0
+Domain balance: business-management-strategy, engineering-infrastructure, investment-vehicles-fund-structures, political-science-public-policy, sociology-demography (6 topics each) to value-investing (18 topics).
