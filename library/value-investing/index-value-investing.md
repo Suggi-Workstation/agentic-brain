@@ -1,6 +1,6 @@
 # Value Investing -- Topics
 
-12 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+13 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
 
 - [Berkshire Hathaway Annual Reports 2016-2025 -- A Decade That Tested Capital Allocation Discipline and Completed a Succession](berkshire-annual-reports-2016-2025.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 2016 through 2025 document a decade in which the company made its largest acquisition, admitted its costliest mistake, executed roughly $78 billion in buybacks, built and then halved its largest equity position, and completed the leadership transition from Warren Buffett to Greg Abel.
 
@@ -23,6 +23,8 @@
 - [Mr. Market -- Why Benjamin Graham's Manic-Depressive Business Partner Is the Most Powerful Metaphor in Investing](mr-market.md) -- [reviewed: never] -- Mr. Market is Benjamin Graham's allegorical invention: an emotionally unstable business partner who appears at your door every day offering to buy your shares or sell you his at wildly different prices. The genius of the metaphor is that it recasts market volatility not as a threat but as an opportunity -- Mr.
 
 - [Munger's Latticework of Mental Models -- Why Worldly Wisdom Beats Narrow Expertise](munger-latticework-mental-models.md) -- [reviewed: never] -- Charlie Munger argued that the best decisions -- in investing and in life -- come not from a single discipline but from a "latticework of mental models" drawn from many fields at once. A mental model is a compact theory of how some part of the world works: compound interest from mathematics, margin of safety from engineering, incentive-caused bias from psychology, natural selection from biology.
+
+- [Scale Economies Shared -- Why Passing Efficiency Gains to Customers Can Deepen a Moat](scale-economies-shared.md) -- [reviewed: never] -- Scale economies shared is a business model in which a company deliberately returns its growing cost advantage to customers as lower prices, better service, or wider selection rather than retaining it as profit margin. The customer reciprocates with more business, which creates greater scale, which creates a larger cost advantage, which is returned again.
 
 - [Value vs Growth: The False Dichotomy -- Why the Style Split Is an Artifact of Labels, Not Philosophy](value-vs-growth-false-dichotomy.md) -- [reviewed: never] -- The division between "value" and "growth" investing is a classification invention of index providers and factor researchers, not a genuine philosophical split. Warren Buffett stated it plainly in his 1992 Berkshire Hathaway chairman's letter: the two approaches are "joined at the hip," and growth is always a component in the calculation of value.
 
