@@ -18,14 +18,6 @@
 
 
 
-## Candidate: Migration: Causes, Patterns, and Consequences
-- **Domain:** sociology-demography
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 9.3/10.0 (gap=9.0, compounding=9.0, timeliness=9.5, balance=10.0)
-- **Scope:** Analyzes migration as a demographic and social process: push and pull drivers, internal vs international flows, integration and assimilation, remittances, and the effects on sending and receiving societies. Covers theories from Ravenstein to contemporary economics of migration and connects to social networks, stratification, and political institutions. Addresses a topic with active policy debates and recent empirical developments.
-- **Status:** proposed
-
 ## Candidate: Infrastructure Resilience and Climate Adaptation
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Library Runner
