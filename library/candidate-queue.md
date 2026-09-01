@@ -205,3 +205,19 @@
 - **Discovery score:** 8.68/10.0 (gap=9.0, compounding=7.5, timeliness=8.5, balance=10.0)
 - **Scope:** Examines how organizations manage the creation and commercialization of new products, services, and business models. Covers innovation typologies including sustaining versus disruptive innovation, open versus closed innovation, innovation portfolios, R and D organization, the innovator dilemma, and the structural barriers established firms face in adapting to technological change. Analyzes the tension between operational efficiency and exploratory innovation, and how resource allocation processes systematically underweight novel bets. Connects organizational design, resource allocation, and competitive strategy through the firm-level capability that determines long-term adaptation.
 - **Status:** proposed
+
+## Candidate: Sovereign Debt Dynamics
+- **Domain:** macro-micro
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 8.88/10.0 (gap=9.5, compounding=8.5, timeliness=9.0, balance=7.5)
+- **Scope:** Examines how sovereign debt accumulation, sustainability, and restructuring shape national economies and global financial stability. Covers debt-to-GDP dynamics, debt sustainability analysis, sovereign spreads, the fiscal theory of the price level, and the mechanics of sovereign default and restructuring. Analyzes the interaction between fiscal policy, monetary policy, and debt dynamics, and how institutions like the IMF manage sovereign crises. Connects fiscal policy, monetary policy, and inflation dynamics through the sovereign balance sheet as the nexus of macroeconomic stability.
+- **Status:** proposed
+
+## Candidate: Regulatory Institutions and Independent Agencies
+- **Domain:** political-science-public-policy
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 8.63/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** Examines the design, independence, and accountability of regulatory agencies and independent administrative bodies. Covers the rationale for delegating authority to technocratic regulators, the trade-offs between independence and democratic accountability, agency capture, and institutional variations across sectors and countries. Analyzes how regulatory design affects policy outcomes in finance, utilities, telecommunications, and environmental protection. Connects bureaucracy, state capacity, and public policy design through the institutional architecture that operates between legislative mandate and implementation.
+- **Status:** proposed
