@@ -1,10 +1,12 @@
 # Case Studies -- Topics
 
-13 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
+14 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
 
 - [The 2008 Financial Crisis -- How a Housing Bubble Spawned the Worst Crisis Since the Great Depression](2008-financial-crisis.md) -- [reviewed: never] -- The 2008 financial crisis was not an unpredictable "black swan" -- it was the foreseeable and forewarned result of a housing bubble, a deregulated shadow banking system, and financial instruments so complex that their own creators did not fully understand them. Triggered by the collapse of the U.S. subprime mortgage market in 2007 and accelerating through the bankruptcy of Lehman Brothers in September 2008, the crisis destroyed over $11 trillion in U.
 
 - [The Apple Turnaround (1997-2010) -- How Radical Simplification, Design Obsession, and Ecosystem Thinking Created the Greatest Corporate Recovery in Modern Business History](apple-turnaround-1997-2010.md) -- [reviewed: never] -- Apple's turnaround from near-bankruptcy in 1997 to the world's most valuable company by 2011 is the definitive case study in corporate revival. When Steve Jobs returned as interim CEO in July 1997, Apple had less than 90 days of cash reserves, a sprawling product line of over 70 SKUs, and annual losses exceeding $1 billion.
+
+- [Berkshire Hathaway's American Express Investment -- Trust, Network Effects, and a Two-Stage Circle of Competence](berkshire-american-express-investment.md) -- [reviewed: never] -- Berkshire Hathaway's investment in American Express unfolded in two distinct stages separated by three decades: a 1964 purchase made during the salad oil scandal, and a much larger 1991-1998 building of a position that has since grown to roughly 20 percent of the company through share repurchases alone.
 
 - [Berkshire Hathaway's Apple Investment -- How Consumer Loyalty Reframed a Technology Company](berkshire-apple-investment-consumer-loyalty.md) -- [reviewed: never] -- Berkshire Hathaway began buying Apple in the first quarter of 2016 and built a position that, at its peak, approached 6 percent of Apple's outstanding stock and generated the largest realized and unrealized gain in Berkshire's history. The investment is notable because Warren Buffett had spent decades avoiding technology on the grounds that he could not predict which companies would endure.
 
