@@ -1,6 +1,8 @@
 # Value Investing -- Topics
 
-17 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+18 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+
+- [Berkshire Hathaway Annual Reports 1965-1975 -- How a Spite-Bought Textile Mill Became the Seed of a Compounding Empire](berkshire-annual-reports-1965-1975.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 1965 through 1975 document the decade in which Warren Buffett transformed a failing New England textile manufacturer into the shell of a compounding holding company. Read in sequence, these eleven reports trace the arc from a Graham-style cigar-butt asset purchase, through the acquisition of National Indemnity and the discovery of insurance float, to the early portfolio investments in Blue Chip Stamps, See's Candies, and the Washington Post.
 
 - [Berkshire Hathaway Annual Reports 1976-1985 -- Insurance Float, Inflation, and the End of the Textile Era](berkshire-annual-reports-1976-1985.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 1976 through 1985 are the record of the decade in which Warren Buffett converted a declining textile business into a compounding holding company powered by insurance float. Read as a sequence, the ten reports show the acquisition and expansion of National Indemnity, the GEICO rescue investment, the Blue Chip Stamps merger, the purchase of Nebraska Furniture Mart, the Buffalo Evening News fight, and the final shutdown of textile operations in 1985.
 
