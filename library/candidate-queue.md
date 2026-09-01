@@ -18,14 +18,6 @@
 
 
 
-## Candidate: Berkshire Hathaway's General Re Acquisition: Stock Currency, Reinsurance Culture, and the Cost of Optimism
-- **Domain:** case-studies
-- **Proposed by:** Morpheus
-- **Date:** 2026-09-01
-- **Discovery score:** 9.4/10.0 (gap=9.6, compounding=9.8, timeliness=8.2, balance=10.0)
-- **Scope:** Reconstructs Berkshire Hathaway's 1998 all-stock acquisition of General Re and the problems revealed after closing. Examines reinsurance underpricing, inadequate reserving, derivatives exposure, cultural mismatch, the opportunity cost of issuing Berkshire shares, and the long repair led by new management. Uses Buffett's later admissions to distinguish a sound strategic category from a poor purchase and extracts lessons about diligence, incentives, tail risk, and acquisition currency.
-- **Status:** proposed
-
 ## Candidate: Population Aging and Its Social Consequences
 - **Domain:** sociology-demography
 - **Proposed by:** Library Runner
