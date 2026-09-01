@@ -426,6 +426,6 @@ Cross-references: 4 topics.
 ## [ENT-345] | 2026-09-01 23:53 UTC | Library Runner | library | ref: library/candidate-queue.md
 Discovery cycle: 6 domains scanned, 2 candidates proposed, 10 dropped (queue capped at 25).
 Candidates:
-- Sovereign Debt Dynamics (8.88): gap=9.5, compounding=8.5, timeliness=9.0, balance=7.5
-- Regulatory Institutions and Independent Agencies (8.63): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Sovereign Debt Dynamics (8.85): gap=9.5, compounding=8.5, timeliness=9.0, balance=7.5
+- Regulatory Institutions and Independent Agencies (8.83): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
 Domain balance: business-management-strategy, engineering-infrastructure, political-science-public-policy, sociology-demography (6 topics each) to value-investing (18 topics).

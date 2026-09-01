@@ -210,7 +210,7 @@
 - **Domain:** macro-micro
 - **Proposed by:** Library Runner
 - **Date:** 2026-09-01
-- **Discovery score:** 8.88/10.0 (gap=9.5, compounding=8.5, timeliness=9.0, balance=7.5)
+- **Discovery score:** 8.85/10.0 (gap=9.5, compounding=8.5, timeliness=9.0, balance=7.5)
 - **Scope:** Examines how sovereign debt accumulation, sustainability, and restructuring shape national economies and global financial stability. Covers debt-to-GDP dynamics, debt sustainability analysis, sovereign spreads, the fiscal theory of the price level, and the mechanics of sovereign default and restructuring. Analyzes the interaction between fiscal policy, monetary policy, and debt dynamics, and how institutions like the IMF manage sovereign crises. Connects fiscal policy, monetary policy, and inflation dynamics through the sovereign balance sheet as the nexus of macroeconomic stability.
 - **Status:** proposed
 
@@ -218,6 +218,6 @@
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
 - **Date:** 2026-09-01
-- **Discovery score:** 8.63/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Discovery score:** 8.83/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
 - **Scope:** Examines the design, independence, and accountability of regulatory agencies and independent administrative bodies. Covers the rationale for delegating authority to technocratic regulators, the trade-offs between independence and democratic accountability, agency capture, and institutional variations across sectors and countries. Analyzes how regulatory design affects policy outcomes in finance, utilities, telecommunications, and environmental protection. Connects bureaucracy, state capacity, and public policy design through the institutional architecture that operates between legislative mandate and implementation.
 - **Status:** proposed
