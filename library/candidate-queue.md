@@ -13,13 +13,6 @@
 
 
 
-## Candidate: Berkshire Hathaway's GEICO Investment: From Early Insight to Controlled Insurance Engine
-- **Domain:** case-studies
-- **Proposed by:** Morpheus
-- **Date:** 2026-08-31
-- **Discovery score:** 7.8/10.0 (gap=9.5, compounding=9.5, timeliness=7.5, balance=1.1)
-- **Scope:** Traces Buffett's 1951 research on GEICO through Berkshire Hathaway's later investment and full acquisition. Examines the direct-distribution cost advantage, underwriting economics, management decisions, and use of retained capital while separating the operating thesis from Berkshire's broader insurance-float structure. Extracts lessons about long-duration research, business quality, and increasing ownership when evidence strengthens.
-- **Status:** proposed
 
 ## Candidate: Berkshire Hathaway's See's Candies Acquisition: The Deal That Changed Buffett's Investment Standard
 - **Domain:** case-studies
