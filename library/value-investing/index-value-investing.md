@@ -1,6 +1,6 @@
 # Value Investing -- Topics
 
-11 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+12 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
 
 - [Berkshire Hathaway Annual Reports 2016-2025 -- A Decade That Tested Capital Allocation Discipline and Completed a Succession](berkshire-annual-reports-2016-2025.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 2016 through 2025 document a decade in which the company made its largest acquisition, admitted its costliest mistake, executed roughly $78 billion in buybacks, built and then halved its largest equity position, and completed the leadership transition from Warren Buffett to Greg Abel.
 
@@ -9,6 +9,8 @@
 - [Circle of Competence -- Knowing What You Do Not Know Is the True Investment Edge](circle-of-competence.md) -- [reviewed: never] -- Circle of competence is the mental model, articulated by Warren Buffett and Charlie Munger, that an investor should only operate within the boundary of businesses and industries they understand deeply enough to evaluate with evidence. The size of the circle matters far less than knowing precisely where its boundary lies, because most investment mistakes come not from insufficient intelligence but from operating outside what one genuinely understands.
 
 - [Concentration vs Diversification -- Why Value Investors Cannot Agree on How Many Stocks to Hold](concentration-vs-diversification.md) -- [reviewed: never] -- Value investors face a fundamental tension: concentrated portfolios amplify the rewards of deep research and genuine insight, while diversification protects against analytical error and bad luck. Despite sharing the same intellectual tradition -- Graham, Dodd, and the search for undervalued securities -- the most celebrated practitioners of value investing have held radically different views on how many positions constitute a sound portfolio.
+
+- [The Dhandho Framework -- Why Low-Risk, High-Uncertainty Bets Produce Asymmetric Returns](dhandho-framework.md) -- [reviewed: never] -- The Dhandho framework, articulated by Mohnish Pabrai in "The Dhandho Investor: The Low-Risk Value Method to High Returns" (2007), is a value-investing methodology that seeks situations with limited downside and substantial upside. Its central maxim -- "Heads, I win; tails, I don't lose much" -- reframes investing as the repeated pursuit of asymmetric expected-value bets.
 
 - [Economic Moats -- Why Durable Competitive Advantage Is the Engine of Long-Term Compounding](economic-moats.md) -- [reviewed: never] -- An economic moat is a structural competitive advantage that allows a company to sustain returns on invested capital above its cost of capital for an extended period, protecting profits from competitors the way a castle moat protects against invaders. Coined by Warren Buffett and systematized by Morningstar into five distinct sources, moat analysis is the qualitative core of value investing: it...
 
