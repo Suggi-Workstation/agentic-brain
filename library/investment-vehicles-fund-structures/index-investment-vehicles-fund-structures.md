@@ -1,6 +1,8 @@
 # Investment Vehicles Fund Structures -- Topics
 
-4 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+5 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+
+- [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: never] -- Berkshire Hathaway is a publicly traded conglomerate holding company that owns dozens of wholly owned operating subsidiaries alongside a portfolio of publicly traded equities, funded by permanent equity capital, insurance float, and retained earnings rather than by investor commitments or redeemable shares.
 
 - [Hedge Fund Structures -- How Fee Arrangements, Lockups, and Leverage Shape Manager Incentives and Systemic Risk](hedge-fund-structures-fee-arrangements-lockups-leverage.md) -- [reviewed: never] -- Hedge funds are privately organized investment partnerships that use performance-based fees, restricted liquidity, and leveraged capital to pursue absolute returns uncorrelated with market direction. Invented by Alfred Winslow Jones in 1949, the hedge fund structure has grown into a global industry managing over $5 trillion across thousands of funds.
 
