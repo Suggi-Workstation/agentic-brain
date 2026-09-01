@@ -1,0 +1,117 @@
+<!-- library.log archive -- ENT-250 to ENT-264
+     Moved from active log on 2026-09-01 07:30 UTC
+     Active log continues from ENT-265 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-250] | 2026-08-29 12:47 UTC | Library Runner | library | ref: library/self-improvement/nutrition-and-cognitive-function.md | see: candidate-nutrition-cognitive-function-20260825
+Wrote topic Nutrition and Cognitive Function -- What You Eat Becomes the Machinery of Thought to self-improvement. Weighted score: 9.1/10.0
+(core=9.5, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: 20%.
+Sources: 19 (18 high, 1 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-251] | 2026-08-29 13:07 UTC | Library Runner | library | ref: library/communication/journalism-and-media-ethics.md | see: candidate-journalism-media-ethics-20260826
+Wrote topic Journalism and Media Ethics -- Why Verification and Transparency, Not Feigned Neutrality, Keep the Public's Trust to communication. Weighted score: 9.1/10.0
+(core=9.5, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: 25%.
+Sources: 13 (9 high, 4 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-252] | 2026-08-29 13:19 UTC | Library Runner | library | ref: library/health-medicine/ai-in-medicine-and-diagnostics.md | see: candidate-ai-in-medicine-and-diagnostics-20260826
+Wrote topic AI in Medicine and Diagnostics -- How Deep Learning Reached Clinician-Level Accuracy and Why Clinical Deployment Still Lags the Benchmarks to health-medicine. Weighted score: 9.2/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.5).
+Similarity overlap: 15%.
+Sources: 19 (15 high, 4 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-253] | 2026-08-29 13:37 UTC | Library Runner | library | ref: library/books/antifragile-things-that-gain-from-disorder.md | see: candidate-antifragile-things-that-gain-from-disorder-20260826
+Wrote topic Antifragile -- Why Some Systems Get Stronger From Disorder and How to Put Yourself on That Side of the Triad to books. Weighted score: 9.1/10.0
+(core=9.0, scope=9.5, value=9.0, authority=8.5).
+Similarity overlap: 35%.
+Sources: 12 (6 high, 6 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-254] | 2026-08-29 13:52 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 8 candidates proposed, 4 dropped (8 slots available for 12 scored candidates, queue now at 25/25 capacity).
+Candidates:
+- Intelligence and Espionage: The Invisible Hand of Statecraft (9.06): gap=9.5, compounding=8.5, timeliness=9.0, balance=8.9
+- Rare Earths and Critical Minerals: The New Cartography of Power (8.96): gap=9.0, compounding=8.5, timeliness=9.5, balance=8.9
+- A Random Walk Down Wall Street: The Efficient Market Hypothesis and Its Discontents (8.63): gap=9.0, compounding=8.5, timeliness=7.0, balance=10.0
+- The Signal and the Noise: Why So Many Predictions Fail (8.53): gap=8.5, compounding=8.5, timeliness=7.5, balance=10.0
+- Philip Fisher: The Qualitative Growth Investor (8.46): gap=9.5, compounding=8.5, timeliness=6.0, balance=8.9
+- Management Quality Evaluation: Trusting Stewards Before Numbers (8.46): gap=9.0, compounding=8.5, timeliness=7.0, balance=8.9
+- Value vs Growth: The False Dichotomy (8.44): gap=9.0, compounding=8.0, timeliness=7.5, balance=8.9
+- Soft Power and Cultural Influence: Winning Without Coercion (8.44): gap=9.0, compounding=8.0, timeliness=7.5, balance=8.9
+Domain balance: anthropology (8 topics), books (8 topics) to self-improvement (11 topics).
+
+## [ENT-255] | 2026-08-29 14:11 UTC | Library Runner | library | ref: library/books/guns-germs-and-steel.md | see: candidate-guns-germs-and-steel-how-geography-determined-the-fate-of-nations-20260826
+Wrote topic Guns, Germs, and Steel -- Geography, Not Biology, Explains the Unequal Fates of Human Societies to books. Weighted score: 8.9/10.0
+(core=9.0, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: 30%.
+Sources: 11 (8 high, 3 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-256] | 2026-08-29 19:15 UTC | Library Runner | library | ref: library/books/mans-search-for-meaning.md | see: candidate-mans-search-for-meaning-finding-purpose-in-suffering-20260826
+Wrote topic Man's Search for Meaning -- Why Purpose, Not Pleasure, Is What Keeps People Alive to books. Weighted score: 9.1/10.0
+(core=9.5, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: 10%.
+Sources: 23 (18 high, 5 medium, 0 low).
+Cross-references: 7 topics.
+
+## [ENT-257] | 2026-08-29 20:24 UTC | Library Runner | library | ref: library/science/chemistry-periodic-table-bonding.md | see: candidate-chemistry-and-the-periodic-table-the-architecture-of-matter-and-bonding-20260826
+Wrote topic Chemistry and the Periodic Table: The Architecture of Matter and Bonding to science. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=9.0, authority=8.5).
+Similarity overlap: 15%.
+Sources: 16 (3 high, 13 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-258] | 2026-08-29 20:33 UTC | Library Runner | library | ref: library/health-medicine/mental-health-treatment-psychiatric-medicine.md | see: candidate-mental-health-treatment-and-psychiatric-medicine-the-evidence-base-for-psychological-care-20260826
+Wrote topic Mental Health Treatment and Psychiatric Medicine: The Evidence Base for Psychological Care to health-medicine. Weighted score: 9.1/10.0
+(core=9.5, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: 15%.
+Sources: 23 (23 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-259] | 2026-08-30 06:38 UTC | Library Runner | library | ref: library/anthropology/food-and-agriculture-in-cultural-context.md | see: candidate-food-and-agriculture-in-cultural-context-how-societies-feed-themselves-20260826
+Wrote topic Food and Agriculture in Cultural Context: How Societies Feed Themselves to anthropology. Weighted score: 9.4/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.5).
+Similarity overlap: 20%.
+Sources: 13 (10 high, 3 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-260] | 2026-08-30 06:55 UTC | Library Runner | library | ref: library/communication/linguistics-and-language-evolution.md | see: candidate-linguistics-and-language-evolution-how-language-shapes-thought-and-culture-20260826
+Wrote topic Linguistics and Language Evolution: How Language Shapes Thought and Culture to communication. Weighted score: 8.8/10.0
+(core=9.0, scope=9.0, value=8.0, authority=9.0).
+Similarity overlap: 15%.
+Sources: 20 (14 high, 6 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-261] | 2026-08-31 06:19 UTC | Library Runner | library | ref: library/anthropology/indigenous-knowledge-systems.md | see: candidate-indigenous-knowledge-systems-20260826
+Wrote topic Indigenous Knowledge Systems: What Traditional Societies Know That Modern Science Is Rediscovering to anthropology. Weighted score: 8.85/10.0
+(core=9.0, scope=9.0, value=8.5, authority=8.5).
+Similarity overlap: 25%.
+Sources: 16 (14 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-262] | 2026-08-31 06:30 UTC | Library Runner | library | ref: library/health-medicine/healthcare-systems-and-insurance-models.md | see: candidate-healthcare-systems-and-insurance-models-how-nations-deliver-and-pay-for-care-20260826
+Wrote topic Healthcare Systems and Insurance Models: How Nations Deliver and Pay for Care to health-medicine. Weighted score: 8.90/10.0
+(core=9.0, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: 15%.
+Sources: 16 (12 high, 4 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-263] | 2026-08-31 06:45 UTC | Library Runner | library | ref: library/pop-culture/film-as-cultural-artifact.md | see: candidate-film-as-cultural-artifact-how-cinema-reflects-and-shapes-society-20260827
+Wrote topic Film as Cultural Artifact: How Cinema Reflects and Shapes Society to pop-culture. Weighted score: 9.45/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 12 (8 high, 4 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-264] | 2026-08-31 07:06 UTC | Library Runner | library | ref: library/finance/mergers-and-acquisitions-mechanics.md | see: candidate-mergers-and-acquisitions-the-mechanics-of-deal-making-20260827
+Wrote topic Mergers and Acquisitions: The Mechanics of Deal-Making to finance. Weighted score: 9.2/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 15%.
+Sources: 12 (9 high, 3 medium, 0 low).
+Cross-references: 5 topics.
+
