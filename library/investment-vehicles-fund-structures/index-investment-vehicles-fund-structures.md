@@ -1,8 +1,10 @@
 # Investment Vehicles Fund Structures -- Topics
 
-7 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+8 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: never] -- Berkshire Hathaway is a publicly traded conglomerate holding company that owns dozens of wholly owned operating subsidiaries alongside a portfolio of publicly traded equities, funded by permanent equity capital, insurance float, and retained earnings rather than by investor commitments or redeemable shares.
+
+- [Closed-End Funds and Investment Trusts -- Why a Fixed Share Count Creates Persistent Discounts, Activist Arbitrage, and a Distinct Capital-Permanence Trade-off](closed-end-funds-investment-trusts.md) -- [reviewed: never] -- Closed-end funds (CEFs) and investment trusts are pooled investment vehicles that issue a fixed number of shares at inception and then trade those shares on a secondary exchange, with no continuous creation or redemption at net asset value (NAV). This structural feature -- a closed capital base -- produces the field's defining phenomena: market prices that persistently deviate from NAV (the...
 
 - [Family Offices -- How Structure, Governance, and Permanent Capital Create the Ultimate Vehicle for Multi-Generational Wealth Compounding](family-offices-structure-governance-capital-allocation.md) -- [reviewed: never] -- A family office is a private organization that centralizes investment management, tax planning, estate administration, philanthropy, and often household operations for ultra-high-net-worth families. Unlike pooled investment vehicles that serve unrelated investors, the family office serves a single family or a small group of families, giving it permanent capital with no redemption pressure and an indefinite time horizon.
 
