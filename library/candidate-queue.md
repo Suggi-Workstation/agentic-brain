@@ -20,13 +20,6 @@
 
 
 
-## Candidate: Corruption, Accountability, and Institutional Quality
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.6/10.0 (gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines corruption as a governance failure: its causes, measurement, and consequences for economic development and institutional trust. Covers principal-agent frameworks for corruption, Transparency International metrics, anti-corruption reforms, and the relationship between accountability mechanisms and state capacity. Connects bureaucracy, state capacity, and political economy through the lens of institutional quality.
-- **Status:** proposed
 
 ## Candidate: Family Offices: Structure, Governance, and Capital Allocation
 - **Domain:** investment-vehicles-fund-structures
