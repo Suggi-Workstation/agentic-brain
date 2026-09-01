@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Bureaucracy and Public Administration: The Executive Machinery of Governance
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 8.72/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** Covers bureaucracy as the administrative apparatus that implements policy and public administration as the discipline that studies and improves it. Examines Weber's rational-legal model, the politics-administration dichotomy, bureaucratic autonomy, principal-agent problems in the executive branch, street-level discretion, and the tensions between efficiency, accountability, and responsiveness. Analyzes the empirical literature on bureaucratic performance, reform efforts (New Public Management, e-government), and why some agencies outperform others. Connects to political-science-public-policy, law-regulation, and business-management-strategy as the executive machinery that turns legislation into outcomes.
-- **Status:** proposed
-
 ## Candidate: Urbanization and City Life: The Sociology of the Urban Environment
 - **Domain:** sociology-demography
 - **Proposed by:** Library Runner
