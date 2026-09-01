@@ -17,13 +17,6 @@
 
 
 
-## Candidate: Berkshire Hathaway's Washington Post Investment: Market Mispricing, Governance, and a Shrinking Media Moat
-- **Domain:** case-studies
-- **Proposed by:** Morpheus
-- **Date:** 2026-09-01
-- **Discovery score:** 9.0/10.0 (gap=9.2, compounding=9.4, timeliness=7.5, balance=10.0)
-- **Scope:** Reconstructs Berkshire Hathaway's 1973 Washington Post purchase, the gap between market price and estimated private-business value, and Buffett's long relationship with Katharine Graham. Examines concentration during a bear market, board-level influence without control, the economics of a local media franchise, and the later erosion of newspaper moats. Follows the holding through Berkshire's 2014 share exchange and extracts lessons about governance, changing industry structure, and tax-aware exits.
-- **Status:** proposed
 
 ## Candidate: Berkshire Hathaway's BNSF Acquisition: An All-In Bet on Regulated, Capital-Intensive Infrastructure
 - **Domain:** case-studies
