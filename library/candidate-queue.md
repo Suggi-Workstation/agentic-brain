@@ -21,14 +21,6 @@
 
 
 
-## Candidate: Family Offices: Structure, Governance, and Capital Allocation
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.3/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=6.7)
-- **Scope:** Examines family offices as investment vehicles for ultra-high-net-worth families: single vs multi-family structures, governance frameworks, investment mandates, succession planning, and the tension between capital preservation and multi-generational compounding. Covers the structural advantages of permanent capital, tax treatment, and the comparison with fund and holding-company alternatives.
-- **Status:** proposed
-
 ## Candidate: Closed-End Funds and Investment Trusts
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Library Runner
