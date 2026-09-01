@@ -1,8 +1,10 @@
 # Sociology Demography -- Topics
 
-5 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
+6 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
 
 - [Demographic Transition -- How Falling Fertility and Mortality Reshape the Architecture of Societies](demographic-transition.md) -- [reviewed: never] -- The demographic transition is the process by which human populations shift from a regime of high birth rates and high death rates to one of low birth rates and low death rates as societies modernize. First described by Warren Thompson in 1929 and formally theorized by Frank Notestein in 1945, the model explains why countries experience a temporary period of rapid population growth when mortality falls before fertility follows.
+
+- [Migration -- The Demographic Process That Reshapes Sending and Receiving Societies](migration-causes-patterns-and-consequences.md) -- [reviewed: never] -- Migration is the movement of people across a boundary -- a household, a city, a region, or a national border -- to establish a new place of residence. It is one of the three demographic processes, alongside fertility and mortality, that determine how populations change in size, structure, and distribution, and it is the only one of the three that operates across administrative and political borders.
 
 - [Population Aging -- How Longer Lives and Fewer Births Force Societies to Rewrite Their Social Contract](population-aging-social-consequences.md) -- [reviewed: never] -- Population aging is the structural shift in which the share of older persons in a population rises relative to the working-age population, driven by falling fertility and rising life expectancy. It is the most consequential demographic outcome of the transition from high to low birth and death rates, and it transforms the fiscal, labor-market, family, and intergenerational architecture of every society it touches.
 
