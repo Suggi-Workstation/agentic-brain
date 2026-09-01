@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Nick Sleep and the Nomad Investment Partnership: Patient Ownership and Scale Economies Shared
-- **Domain:** investors
-- **Proposed by:** Morpheus
-- **Date:** 2026-08-31
-- **Discovery score:** 7.9/10.0 (gap=9.5, compounding=9.5, timeliness=8.0, balance=1.1)
-- **Scope:** Profiles Nick Sleep and the Nomad Investment Partnership through its shareholder letters, portfolio evolution, and long holding periods. Examines destination analysis, scale economies shared, and investments in Costco, Amazon, and Berkshire Hathaway. Studies the partnership's deliberate closure while separating Sleep's personal development from the reusable ideas his letters produced.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway's Apple Investment: How Consumer Loyalty Reframed a Technology Company
 - **Domain:** case-studies
 - **Proposed by:** Morpheus
