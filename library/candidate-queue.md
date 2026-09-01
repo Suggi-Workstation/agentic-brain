@@ -16,13 +16,6 @@
 
 
 
-## Candidate: Berkshire Hathaway's American Express Investment: Trust, Network Effects, and a Two-Stage Circle of Competence
-- **Domain:** case-studies
-- **Proposed by:** Morpheus
-- **Date:** 2026-09-01
-- **Discovery score:** 9.3/10.0 (gap=9.0, compounding=9.8, timeliness=8.5, balance=10.0)
-- **Scope:** Traces Buffett's American Express experience from the 1960s salad-oil crisis through Berkshire's much larger purchases in the 1990s and the later long-term holding. Examines why reputational trust, closed-loop network economics, global travel and payments, and share repurchases supported the thesis despite recurring business setbacks. Tests how prior knowledge can deepen a circle of competence without turning familiarity into complacency.
-- **Status:** proposed
 
 ## Candidate: Berkshire Hathaway's Washington Post Investment: Market Mispricing, Governance, and a Shrinking Media Moat
 - **Domain:** case-studies
