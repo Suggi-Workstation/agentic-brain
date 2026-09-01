@@ -1,6 +1,6 @@
 # Case Studies -- Topics
 
-16 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
+17 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
 
 - [The 2008 Financial Crisis -- How a Housing Bubble Spawned the Worst Crisis Since the Great Depression](2008-financial-crisis.md) -- [reviewed: never] -- The 2008 financial crisis was not an unpredictable "black swan" -- it was the foreseeable and forewarned result of a housing bubble, a deregulated shadow banking system, and financial instruments so complex that their own creators did not fully understand them. Triggered by the collapse of the U.S. subprime mortgage market in 2007 and accelerating through the bankruptcy of Lehman Brothers in September 2008, the crisis destroyed over $11 trillion in U.
 
@@ -15,6 +15,8 @@
 - [Berkshire Hathaway's Coca-Cola Investment -- Brand Moat, Global Runway, and the Rewards of Inaction](berkshire-coca-cola-investment.md) -- [reviewed: never] -- Between late 1988 and early 1989, Warren Buffett's Berkshire Hathaway invested over $1 billion in Coca-Cola stock, building a 6.3 percent stake in what was already the world's most ubiquitous consumer brand. Buffett paid roughly 15 times earnings for the shares -- a premium multiple by the standards of his cigar-butt training -- because he judged that the market was discounting Coca-Cola's international growth runway and undervaluing the durability of its brand moat.
 
 - [Berkshire Hathaway's GEICO Investment -- How a 1951 Train Ride Became a Permanent Insurance Engine](berkshire-geico-investment.md) -- [reviewed: never] -- Warren Buffett's relationship with GEICO (Government Employees Insurance Company) spans more than seven decades and traces a path from a twenty-year-old student's weekend train ride to Berkshire Hathaway's full ownership of one of the largest auto insurers in the United States. The case demonstrates how a structural cost advantage -- direct-to-consumer distribution that eliminates agent...
+
+- [Berkshire Hathaway's General Re Acquisition -- Why a Sound Strategic Category Produced a Costly Mistake and What It Reveals About Diligence, Incentives, and Tail Risk](berkshire-general-re-acquisition.md) -- [reviewed: never] -- In June 1998, Warren Buffett's Berkshire Hathaway agreed to acquire General Re Corporation, one of the world's largest reinsurance companies, in a stock-for-stock transaction valued at approximately $22 billion. The deal, which closed on December 21, 1998, was the largest in Berkshire's history at the time and was intended to dramatically expand Berkshire's insurance float and global reinsurance footprint.
 
 - [Berkshire Hathaway's See's Candies Acquisition -- The Deal That Taught Buffett to Pay for Quality](berkshire-sees-candies-acquisition.md) -- [reviewed: never] -- In January 1972, Berkshire Hathaway -- acting through its affiliate Blue Chip Stamps -- purchased See's Candies, a California-based manufacturer and retailer of boxed chocolates, for $25 million. The deal was modest by any standard: the company had roughly $30 million in annual sales, $4.2 million in pre-tax earnings, and $8 million in net tangible assets.
 
