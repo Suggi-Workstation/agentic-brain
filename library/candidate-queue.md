@@ -18,13 +18,6 @@
 
 
 
-## Candidate: Political Parties and Party Systems
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
-- **Scope:** Analyzes political parties as organizations that structure democratic competition, aggregate interests, recruit leaders, and form governments. Covers party system typologies (Duverger, Sartori), the relationship between electoral rules and party fragmentation, party organization models, and realignment. Connects electoral systems, federalism, and state capacity topics through the institutional infrastructure linking citizens to governance.
-- **Status:** proposed
 
 ## Candidate: Transport Infrastructure: Roads, Railways, Ports, and Airports
 - **Domain:** engineering-infrastructure
