@@ -1,12 +1,14 @@
 # Case Studies -- Topics
 
-12 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
+13 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
 
 - [The 2008 Financial Crisis -- How a Housing Bubble Spawned the Worst Crisis Since the Great Depression](2008-financial-crisis.md) -- [reviewed: never] -- The 2008 financial crisis was not an unpredictable "black swan" -- it was the foreseeable and forewarned result of a housing bubble, a deregulated shadow banking system, and financial instruments so complex that their own creators did not fully understand them. Triggered by the collapse of the U.S. subprime mortgage market in 2007 and accelerating through the bankruptcy of Lehman Brothers in September 2008, the crisis destroyed over $11 trillion in U.
 
 - [The Apple Turnaround (1997-2010) -- How Radical Simplification, Design Obsession, and Ecosystem Thinking Created the Greatest Corporate Recovery in Modern Business History](apple-turnaround-1997-2010.md) -- [reviewed: never] -- Apple's turnaround from near-bankruptcy in 1997 to the world's most valuable company by 2011 is the definitive case study in corporate revival. When Steve Jobs returned as interim CEO in July 1997, Apple had less than 90 days of cash reserves, a sprawling product line of over 70 SKUs, and annual losses exceeding $1 billion.
 
 - [Berkshire Hathaway's Apple Investment -- How Consumer Loyalty Reframed a Technology Company](berkshire-apple-investment-consumer-loyalty.md) -- [reviewed: never] -- Berkshire Hathaway began buying Apple in the first quarter of 2016 and built a position that, at its peak, approached 6 percent of Apple's outstanding stock and generated the largest realized and unrealized gain in Berkshire's history. The investment is notable because Warren Buffett had spent decades avoiding technology on the grounds that he could not predict which companies would endure.
+
+- [Berkshire Hathaway's Coca-Cola Investment -- Brand Moat, Global Runway, and the Rewards of Inaction](berkshire-coca-cola-investment.md) -- [reviewed: never] -- Between late 1988 and early 1989, Warren Buffett's Berkshire Hathaway invested over $1 billion in Coca-Cola stock, building a 6.3 percent stake in what was already the world's most ubiquitous consumer brand. Buffett paid roughly 15 times earnings for the shares -- a premium multiple by the standards of his cigar-butt training -- because he judged that the market was discounting Coca-Cola's international growth runway and undervaluing the durability of its brand moat.
 
 - [Berkshire Hathaway's GEICO Investment -- How a 1951 Train Ride Became a Permanent Insurance Engine](berkshire-geico-investment.md) -- [reviewed: never] -- Warren Buffett's relationship with GEICO (Government Employees Insurance Company) spans more than seven decades and traces a path from a twenty-year-old student's weekend train ride to Berkshire Hathaway's full ownership of one of the largest auto insurers in the United States. The case demonstrates how a structural cost advantage -- direct-to-consumer distribution that eliminates agent...
 
