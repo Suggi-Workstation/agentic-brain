@@ -1,6 +1,8 @@
 # Political Science Public Policy -- Topics
 
-3 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+4 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+
+- [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: never] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules across their territory. Public administration is the discipline and practice that studies, designs, and reforms that apparatus. The central proposition of the field is that the organizational structure of the executive branch -- how officials are recruited, how...
 
 - [Electoral Systems and Voting Mechanics -- How the Rules of the Game Shape Political Outcomes](electoral-systems-voting-mechanics.md) -- [reviewed: never] -- Electoral systems are the institutional rules that translate votes cast by citizens into seats held by representatives in legislatures. These rules are not neutral transmission belts; they actively shape party systems, the incentives facing voters and politicians, the accountability of governments, and the stability of democratic regimes.
 
