@@ -1,6 +1,8 @@
 # Value Investing -- Topics
 
-13 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+14 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+
+- [Berkshire Hathaway Annual Reports 2006-2015 -- Crisis Deployment, BNSF, and the Fifty-Year Scorecard](berkshire-annual-reports-2006-2015.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 2006 through 2015 document a decade in which the company deployed its cash as a crisis lender of last resort, completed the largest acquisition in its history, partnered with 3G Capital to build a packaged-food giant, and produced a fifty-year retrospective that framed the entire Berkshire enterprise.
 
 - [Berkshire Hathaway Annual Reports 2016-2025 -- A Decade That Tested Capital Allocation Discipline and Completed a Succession](berkshire-annual-reports-2016-2025.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 2016 through 2025 document a decade in which the company made its largest acquisition, admitted its costliest mistake, executed roughly $78 billion in buybacks, built and then halved its largest equity position, and completed the leadership transition from Warren Buffett to Greg Abel.
 
