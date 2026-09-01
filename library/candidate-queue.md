@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Berkshire Hathaway's Apple Investment: How Consumer Loyalty Reframed a Technology Company
-- **Domain:** case-studies
-- **Proposed by:** Morpheus
-- **Date:** 2026-08-31
-- **Discovery score:** 7.9/10.0 (gap=9.0, compounding=9.5, timeliness=9.0, balance=1.1)
-- **Scope:** Reconstructs Berkshire Hathaway's Apple purchases beginning in 2016, the thesis behind them, subsequent holding decisions, and later reductions. Examines how Buffett treated Apple as a consumer ecosystem rather than a conventional technology stock. Tests brand loyalty, buybacks, valuation, and concentration while extracting lessons about updating a circle of competence without abandoning it.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway's GEICO Investment: From Early Insight to Controlled Insurance Engine
 - **Domain:** case-studies
 - **Proposed by:** Morpheus
