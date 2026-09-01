@@ -18,14 +18,6 @@
 
 
 
-## Candidate: Population Aging and Its Social Consequences
-- **Domain:** sociology-demography
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 9.5/10.0 (gap=9.0, compounding=9.5, timeliness=10.0, balance=10.0)
-- **Scope:** Examines the demographic, economic, and social consequences of population aging as fertility falls and life expectancy rises. Covers dependency ratios, pension and healthcare system strain, labor force contraction, intergenerational transfers, and policy responses. Connects to the demographic transition, social stratification, and health inequality topics while addressing one of the most consequential structural shifts in developed economies.
-- **Status:** proposed
-
 ## Candidate: Migration: Causes, Patterns, and Consequences
 - **Domain:** sociology-demography
 - **Proposed by:** Library Runner
