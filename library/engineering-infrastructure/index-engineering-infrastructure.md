@@ -1,6 +1,8 @@
 # Engineering Infrastructure -- Topics
 
-4 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
+5 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
+
+- [Infrastructure Resilience and Climate Adaptation -- Engineering Systems for a Non-Stationary Climate](infrastructure-resilience-climate-adaptation.md) -- [reviewed: never] -- Infrastructure systems -- power grids, water networks, transport corridors, ports, buildings -- were designed under an assumption of climatic stationarity: that the future would resemble the past. That assumption is now obsolete. Rising seas, intensifying storms, extreme heat, and altered precipitation patterns are imposing loads that exceed historical design parameters, causing accelerated...
 
 - [Manufacturing Systems and Industrial Engineering -- How Lean Production, Quality Methods, and Constraint Analysis Transform the Making of Goods](manufacturing-systems-industrial-engineering.md) -- [reviewed: never] -- Manufacturing systems are the organized arrangements of people, machines, materials, and information that transform raw inputs into finished goods. Industrial engineering is the discipline that designs, measures, and improves those systems to maximize throughput, quality, and resource efficiency simultaneously.
 
