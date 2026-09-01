@@ -1,6 +1,6 @@
 # Investment Vehicles Fund Structures -- Topics
 
-5 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+6 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: never] -- Berkshire Hathaway is a publicly traded conglomerate holding company that owns dozens of wholly owned operating subsidiaries alongside a portfolio of publicly traded equities, funded by permanent equity capital, insurance float, and retained earnings rather than by investor commitments or redeemable shares.
 
@@ -9,6 +9,8 @@
 - [Insurance Float as Investment Capital -- Why the Collect-Now-Pay-Later Model Creates the Lowest-Cost Leverage in Finance](insurance-float-as-investment-capital.md) -- [reviewed: never] -- Insurance float is the pool of money an insurer holds between collecting premiums and paying claims -- money that belongs to policyholders but is physically in the insurer's hands and available for investment. When underwriting is disciplined, float functions as interest-free or negative-cost leverage: capital that costs nothing to hold, has no fixed maturity, cannot be redeemed, and compounds indefinitely for the insurer's benefit.
 
 - [Mutual Funds and ETFs -- How the Architecture of Pooled Vehicles Shapes Retail Capital Allocation and Market Structure](mutual-funds-etfs-retail-capital-pooling.md) -- [reviewed: never] -- Mutual funds and exchange-traded funds (ETFs) are the dominant legal and economic structures through which retail and institutional investors pool capital for collective investment in diversified portfolios. The structural differences between open-end mutual funds, closed-end funds, and ETFs -- in pricing mechanics, liquidity provision, tax treatment, fee architecture, and governance -- are not...
+
+- [The Nomad Investment Partnership -- How Fee Structure, Patient Capital, and Deliberate Closure Made a Vehicle That Compounded Differently Than Any Fund](nomad-investment-partnership-fee-structure-patient-capital-deliberate-closure.md) -- [reviewed: never] -- The Nomad Investment Partnership (2001-2014) was a London-based investment partnership that compounded investor capital at approximately 20.8 percent per year net of fees versus 6.5 percent for the MSCI World Index, a 921 percent total return against 117 percent for the index. Its structural design -- a cost-reimbursement management fee capped at 1 percent, a 20 percent performance fee charged...
 
 - [Private Equity and Venture Capital Fund Structures -- How the LP-GP Partnership, Carried Interest, and the J-Curve Shape Capital Allocation](pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md) -- [reviewed: never] -- Private equity and venture capital funds pool capital from passive limited partners under an active general partner, then deploy it into private companies over a decade-long closed-end lifecycle. The LP-GP partnership architecture, carried interest compensation, distribution waterfalls, and the J-curve return pattern are not incidental features -- they are the structural machinery that determines...
 
