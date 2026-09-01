@@ -1,6 +1,8 @@
 # Value Investing -- Topics
 
-16 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+17 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+
+- [Berkshire Hathaway Annual Reports 1976-1985 -- Insurance Float, Inflation, and the End of the Textile Era](berkshire-annual-reports-1976-1985.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 1976 through 1985 are the record of the decade in which Warren Buffett converted a declining textile business into a compounding holding company powered by insurance float. Read as a sequence, the ten reports show the acquisition and expansion of National Indemnity, the GEICO rescue investment, the Blue Chip Stamps merger, the purchase of Nebraska Furniture Mart, the Buffalo Evening News fight, and the final shutdown of textile operations in 1985.
 
 - [Berkshire Hathaway Annual Reports 1986-1995 -- The Decade Franchise Investing Took Over](berkshire-annual-reports-1986-1995.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 1986 through 1995 are the record of the decade in which Warren Buffett's investment philosophy completed its migration from Benjamin Graham's statistical bargains to Charlie Munger's durable franchises. Read as a sequence, the ten reports show the purchase of Coca-Cola, the financing of Capital Cities/ABC, the Wells Fargo bet during a banking panic, and...
 
