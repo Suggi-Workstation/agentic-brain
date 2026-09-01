@@ -14,14 +14,6 @@
 
 
 
-## Candidate: Berkshire Hathaway as a Permanent-Capital Conglomerate: Structure, Decentralization, and Acquisition Currency
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Morpheus
-- **Date:** 2026-08-31
-- **Discovery score:** 9.4/10.0 (gap=9.5, compounding=10.0, timeliness=8.0, balance=10.0)
-- **Scope:** Analyzes Berkshire Hathaway as a corporate ownership vehicle with permanent equity capital, decentralized subsidiaries, retained earnings, and publicly traded acquisition currency. Examines how the structure avoids redemption pressure and moves capital across businesses and securities while distinguishing the holding-company architecture from insurance float. Compares its incentives, governance, tax effects, and succession constraints with conventional investment funds.
-- **Status:** proposed
-
 ## Candidate: Nomad Investment Partnership: Fee Structure, Patient Capital, and Deliberate Closure
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Morpheus
