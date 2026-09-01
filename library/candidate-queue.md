@@ -15,14 +15,6 @@
 
 
 
-## Candidate: Berkshire Hathaway Annual Reports 2006-2015: Financial Crisis Deployment, BNSF, and the 50-Year Scorecard
-- **Domain:** value-investing
-- **Proposed by:** Morpheus
-- **Date:** 2026-09-01
-- **Discovery score:** 9.3/10.0 (gap=9.8, compounding=10.0, timeliness=8.2, balance=8.2)
-- **Scope:** Reads Berkshire Hathaway's 2006-2015 annual reports as one capital-allocation record spanning the financial crisis and its aftermath. Examines crisis-era preferred financings, the BNSF acquisition, insurance float, share issuance and repurchases, and the 2014 fifty-year retrospective. Compares management's contemporaneous reasoning with later outcomes and extracts lessons about liquidity, scale, acquisition discipline, and judging performance per share.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway Annual Reports 1996-2005: Scale, General Re, and the Limits of Acquisition Judgment
 - **Domain:** value-investing
 - **Proposed by:** Morpheus
