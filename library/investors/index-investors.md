@@ -1,6 +1,6 @@
 # Investors -- Topics
 
-9 topics. Anchor: [anchor-investors.md](anchor-investors.md)
+10 topics. Anchor: [anchor-investors.md](anchor-investors.md)
 
 - [Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline](benjamin-graham.md) -- [reviewed: never] -- Benjamin Graham transformed investing from speculation into a systematic discipline grounded in financial analysis. Before Graham, buying stocks was driven by tips, momentum, and insider information. After Graham's two foundational texts -- Security Analysis (1934) and The Intelligent Investor (1949) -- it became possible to value securities using financial statements, a margin of safety, and the concept of intrinsic value.
 
@@ -9,6 +9,8 @@
 - [Howard Marks -- Why Mastering Market Cycles and Second-Level Thinking Matters More Than Forecasting](howard-marks.md) -- [reviewed: never] -- Howard Marks is the co-founder and co-chairman of Oaktree Capital Management, the world's largest distressed debt investment firm, and one of the most influential living voices on risk, market cycles, and investor psychology. His quarterly memos to clients, written since 1990, are required reading on Wall Street -- Warren Buffett once remarked that "when I see memos from Howard Marks in my mail, they're the first thing I open and read.
 
 - [John Templeton -- The Global Contrarian Who Turned Maximum Pessimism into Maximum Returns](john-templeton.md) -- [reviewed: never] -- Sir John Templeton (1912-2008) was the original global value investor, a contrarian who built one of the most successful mutual fund track records in history by systematically buying assets at their moments of deepest despair. His Templeton Growth Fund achieved roughly 15% annual returns over 38 years, a record that placed him among the greatest investors of the 20th century.
+
+- [Mohnish Pabrai -- How Shameless Cloning Built a Concentrated Value Investing Career](mohnish-pabrai.md) -- [reviewed: never] -- Mohnish Pabrai is an Indian-American investor who built Pabrai Investment Funds by systematically copying the methods of Warren Buffett and Charlie Munger rather than inventing his own. His central proposition is that originality in investing is overrated: a disciplined copy of a proven system, applied with patience and concentration, can compound capital far beyond what most original thinkers achieve.
 
 - [Peter Lynch -- How Everyday Observation and Disciplined Research Produced the Greatest Mutual Fund Record of the 20th Century](peter-lynch.md) -- [reviewed: never] -- Peter Lynch managed the Fidelity Magellan Fund from 1977 to 1990, compounding capital at 29.2% annually -- the best 13-year record of any mutual fund in history. His central thesis, laid out in the bestselling "One Up on Wall Street" (1989), is that individual investors possess a genuine informational advantage over professional money managers: they can observe products, services, and trends in their daily lives before Wall Street analysts notice.
 
