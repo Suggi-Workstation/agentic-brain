@@ -20,14 +20,6 @@
 
 
 
-## Candidate: Resource Allocation and Capital Budgeting
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.7/10.0 (gap=8.5, compounding=9.5, timeliness=7.0, balance=10.0)
-- **Scope:** Analyzes how organizations decide where to deploy capital and resources: investment appraisal methods (NPV, IRR, real options), hurdle rates, internal capital markets, and the organizational politics of resource allocation. Covers the Buffett-Munger principle that capital allocation is the CEO's primary job and connects corporate governance, executive compensation, and unit economics through the allocation decision.
-- **Status:** proposed
-
 ## Candidate: Corruption, Accountability, and Institutional Quality
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
