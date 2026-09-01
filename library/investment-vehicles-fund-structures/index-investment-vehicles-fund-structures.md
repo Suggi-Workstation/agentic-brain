@@ -1,6 +1,8 @@
 # Investment Vehicles Fund Structures -- Topics
 
-3 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+4 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+
+- [Hedge Fund Structures -- How Fee Arrangements, Lockups, and Leverage Shape Manager Incentives and Systemic Risk](hedge-fund-structures-fee-arrangements-lockups-leverage.md) -- [reviewed: never] -- Hedge funds are privately organized investment partnerships that use performance-based fees, restricted liquidity, and leveraged capital to pursue absolute returns uncorrelated with market direction. Invented by Alfred Winslow Jones in 1949, the hedge fund structure has grown into a global industry managing over $5 trillion across thousands of funds.
 
 - [Insurance Float as Investment Capital -- Why the Collect-Now-Pay-Later Model Creates the Lowest-Cost Leverage in Finance](insurance-float-as-investment-capital.md) -- [reviewed: never] -- Insurance float is the pool of money an insurer holds between collecting premiums and paying claims -- money that belongs to policyholders but is physically in the insurer's hands and available for investment. When underwriting is disciplined, float functions as interest-free or negative-cost leverage: capital that costs nothing to hold, has no fixed maturity, cannot be redeemed, and compounds indefinitely for the insurer's benefit.
 
