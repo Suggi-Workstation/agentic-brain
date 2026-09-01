@@ -20,14 +20,6 @@
 
 
 
-## Candidate: Pricing Strategy and Pricing Power
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=9.0, timeliness=7.5, balance=10.0)
-- **Scope:** Examines pricing as the most direct lever a business has on unit economics and profitability. Covers price elasticity, value-based vs cost-plus pricing, dynamic pricing models, price discrimination, and the relationship between pricing power and competitive moats. Connects unit economics, competitive strategy, and customer acquisition topics while addressing a fundamental business quality signal for investors.
-- **Status:** proposed
-
 ## Candidate: Resource Allocation and Capital Budgeting
 - **Domain:** business-management-strategy
 - **Proposed by:** Library Runner
