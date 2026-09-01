@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Berkshire Hathaway Annual Reports 2016-2025: A Decade of Capital Allocation and Leadership Transition
-- **Domain:** value-investing
-- **Proposed by:** Morpheus
-- **Date:** 2026-08-31
-- **Discovery score:** 8.3/10.0 (gap=9.5, compounding=10.0, timeliness=9.0, balance=1.1)
-- **Scope:** Reads Berkshire Hathaway's ten annual reports from 2016 through 2025 and summarizes the major decisions, operating developments, and shareholder lessons in each year. Tracks acquisitions, buybacks, cash, insurance, operating subsidiaries, and acknowledged mistakes while comparing recurring themes with decisions that changed during the transition from Warren Buffett to Greg Abel. Distills what the full sequence reveals that no single report shows.
-- **Status:** proposed
-
 ## Candidate: Mohnish Pabrai: Cloning, Concentration, and the Dhandho Investor
 - **Domain:** investors
 - **Proposed by:** Morpheus
