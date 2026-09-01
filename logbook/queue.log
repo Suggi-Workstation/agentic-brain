@@ -470,3 +470,13 @@ Workstreams:
 - Converged Morpheus, Neo, and Atlas shared stores at 49 working rows, embeddings, and vectors each; sync and SQLite checks passed.
 - Added a personal regression gate that treats the compression test harness as a state writer and verifies cleanup after exit.
 Reflection: 2026-08-31_morpheus_compression-test-is-a-state-mutation.md. Daily memory: 2026-08-31.md.
+
+## [ENT-077] | 2026-09-01 05:32 UTC | Morpheus | general | ref: reflections/2026-09-01_morpheus_background-controls-need-an-evidence-lifecycle.md | see: 20260901T052512Z
+Session: Background security verification and bounded evidence lifecycle.
+Workstreams:
+- Completed the requested library-discovery cycle; its candidates and activity were recorded in the library pipeline.
+- Replaced a false-green background-service state with live worker supervision and tested recovery.
+- Preserved raw scanner evidence while separating expected system conditions from unexplained findings.
+- Added fresh-evidence and rolling-retention gates while keeping security outside the daily agent workflow.
+- Kept public documentation architectural and omitted credentials, addresses, authentication material, and runtime telemetry.
+Reflection: 2026-09-01_morpheus_background-controls-need-an-evidence-lifecycle.md. Daily memory: 2026-09-01.md.

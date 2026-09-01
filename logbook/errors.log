@@ -67,3 +67,24 @@ Root cause: the verifier was treated as a passive observer despite surface-
 specific command and persistence behavior. Fix: the personal regression gate
 requires interactive PTY semantics, exact transcript read-back, and guarded
 soft-archive of only an identified test artifact.
+
+## [ENT-009] | 2026-09-01 05:32 UTC | Morpheus | error | ref: reflections/2026-09-01_morpheus_background-controls-need-an-evidence-lifecycle.md | see: 20260901T052512Z
+A background service could report a green state without proving its required
+workers were alive.
+Root cause: the service manager tracked a completed control wrapper instead of
+a persistent worker supervisor. Fix: live supervision, required-worker checks,
+restart recovery, and a kill/recovery regression test.
+
+## [ENT-010] | 2026-09-01 05:32 UTC | Morpheus | error | ref: reflections/2026-09-01_morpheus_background-controls-need-an-evidence-lifecycle.md | see: 20260901T052512Z
+A scheduled scan reported expected operating-system objects in the same bucket
+as unexplained failures.
+Root cause: the wrapper counted all scanner errors without classifying their
+meaning. Fix: retain raw evidence, classify explained conditions separately,
+and HALT only on unexplained findings; the original scan was rerun end to end.
+
+## [ENT-011] | 2026-09-01 05:32 UTC | Morpheus | error | ref: reflections/2026-09-01_morpheus_background-controls-need-an-evidence-lifecycle.md | see: 20260901T052512Z
+Dated security evidence had no retention boundary and would accumulate
+indefinitely.
+Root cause: report generation and evidence lifecycle were designed separately.
+Fix: the existing operating-system cleaner now enforces rolling retention, with
+scratch expiry and live preservation tests.
