@@ -161,3 +161,59 @@
 - **Discovery score:** 8.0/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=6.7)
 - **Scope:** Examines business development companies as regulated investment vehicles that provide capital to mid-market companies with pass-through tax treatment and high distribution yields. Covers the BDC structure, regulated investment company status, credit risk concentration, external vs internal management, and the trade-offs between yield and NAV erosion. Analyzes how BDCs fit between private credit and public equity in the alternative-vehicle landscape.
 - **Status:** proposed
+
+## Candidate: Comparative Political Regimes: Democracies, Autocracies, and Hybrid Systems
+- **Domain:** political-science-public-policy
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
+- **Scope:** Examines how democracies and autocracies differ in institutional design, accountability mechanisms, and policy performance. Covers regime typologies (Lijphart, Linz), hybrid regimes, democratic backsliding, autocratic resilience, and the empirical relationship between regime type and economic outcomes. Connects electoral systems, state capacity, and federalism through the comparative lens that explains why political institutions produce different results.
+- **Status:** proposed
+
+## Candidate: Supply Chain and Procurement Strategy: Sourcing as a Competitive Weapon
+- **Domain:** business-management-strategy
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 9.12/10.0 (gap=9.0, compounding=8.5, timeliness=9.5, balance=10.0)
+- **Scope:** Analyzes how organizations design supply chains and procurement to balance cost, resilience, and strategic control. Covers supplier selection, vertical integration vs outsourcing, inventory strategies, lean vs buffer approaches, and supply chain risk management. Connects unit economics, operational excellence, and competitive strategy through the sourcing decisions that determine cost structure and vulnerability.
+- **Status:** proposed
+
+## Candidate: Public Policy Design and Implementation: From Legislative Intent to Observable Outcomes
+- **Domain:** political-science-public-policy
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 8.65/10.0 (gap=8.5, compounding=9.0, timeliness=7.5, balance=10.0)
+- **Scope:** Examines the policy process from agenda-setting through implementation to evaluation. Covers policy instrument design (regulation, nudges, subsidies), implementation theory (Pressman and Wildavsky), street-level bureaucracy, and evidence-based policy evaluation. Connects bureaucracy, state capacity, and legislatures through the pipeline that turns legislative intent into observable outcomes.
+- **Status:** proposed
+
+## Candidate: Interest Groups and Lobbying: Organized Influence on Policy
+- **Domain:** political-science-public-policy
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 8.62/10.0 (gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0)
+- **Scope:** Examines organized interests as intermediaries between citizens and the state. Covers pluralist vs neocorporatist models, lobbying techniques, revolving doors, campaign finance, and the empirical debate over whether interest groups enhance or distort representation. Connects electoral systems, legislatures, and bureaucracy through the pressure mechanisms that shape policy agendas.
+- **Status:** proposed
+
+## Candidate: Organizational Culture and Incentive Systems: The Behavioral Infrastructure of Execution
+- **Domain:** business-management-strategy
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 8.55/10.0 (gap=8.5, compounding=9.0, timeliness=7.0, balance=10.0)
+- **Scope:** Examines culture as the shared assumptions and incentives that drive organizational behavior. Covers culture typologies, the relationship between culture and strategy execution, how incentive systems shape norms, culture change vs selection, and the tension between alignment and diversity. Connects organizational design, executive compensation, and governance through the behavioral infrastructure that determines whether strategy translates into action.
+- **Status:** proposed
+
+## Candidate: Agent Sandboxing and Security: Isolating AI Agents That Execute Code and Call Tools
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 8.15/10.0 (gap=9.0, compounding=8.0, timeliness=9.0, balance=5.0)
+- **Scope:** Examines the security patterns for running AI agents that execute code and call tools against external systems. Covers sandbox isolation, permission models, tool output sanitization, prompt injection defenses, and the trade-offs between capability and containment. Connects skill systems, tool use, and observability through the safety layer that determines whether agents can be deployed in production.
+- **Status:** proposed
+
+## Candidate: Economics of Education and Credentialing: Human Capital, Signaling, and Returns
+- **Domain:** education-learning
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-01
+- **Discovery score:** 8.00/10.0 (gap=8.5, compounding=9.0, timeliness=8.0, balance=5.0)
+- **Scope:** Analyzes education as an economic investment and signaling mechanism. Covers human capital theory, credential inflation, the sheepskin effect, returns to education, student debt, and the tension between vocational and liberal education. Connects comparative education systems, assessment, and labor economics through the market forces that shape educational demand and credential value.
+- **Status:** proposed

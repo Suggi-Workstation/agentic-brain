@@ -442,3 +442,20 @@ Wrote topic Migration: The Demographic Process That Reshapes Sending and Receivi
 Similarity overlap: 15%.
 Sources: 12 (12 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-335] | 2026-09-01 19:46 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 7 candidates proposed, 4 dropped (queue capped at 25).
+Candidates:
+- Comparative Political Regimes: Democracies, Autocracies, and Hybrid Systems (9.15): gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0
+- Supply Chain and Procurement Strategy: Sourcing as a Competitive Weapon (9.12): gap=9.0, compounding=8.5, timeliness=9.5, balance=10.0
+- Public Policy Design and Implementation: From Legislative Intent to Observable Outcomes (8.65): gap=8.5, compounding=9.0, timeliness=7.5, balance=10.0
+- Interest Groups and Lobbying: Organized Influence on Policy (8.62): gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Organizational Culture and Incentive Systems: The Behavioral Infrastructure of Execution (8.55): gap=8.5, compounding=9.0, timeliness=7.0, balance=10.0
+- Agent Sandboxing and Security: Isolating AI Agents That Execute Code and Call Tools (8.15): gap=9.0, compounding=8.0, timeliness=9.0, balance=5.0
+- Economics of Education and Credentialing: Human Capital, Signaling, and Returns (8.00): gap=8.5, compounding=9.0, timeliness=8.0, balance=5.0
+Dropped (below cut):
+- Ocean Currents and Marine Systems (7.75): gap=8.5, compounding=8.0, timeliness=8.0, balance=5.0
+- Natural Disaster Mechanisms: Earthquakes, Volcanoes, and Storms (7.73): gap=8.5, compounding=7.5, timeliness=8.5, balance=5.0
+- Human-in-the-Loop Agent Design: When to Hand Control Back to People (7.62): gap=8.5, compounding=7.5, timeliness=8.0, balance=5.0
+- Online Learning and MOOCs: Scale, Access, and the Limits of Digital Pedagogy (7.43): gap=8.0, compounding=7.5, timeliness=8.0, balance=5.0
+Domain balance: political-science-public-policy, business-management-strategy (4 topics each) to value-investing, case-studies (18 and 17 topics).
