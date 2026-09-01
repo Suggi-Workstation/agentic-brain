@@ -1,6 +1,6 @@
 # Case Studies -- Topics
 
-15 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
+16 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
 
 - [The 2008 Financial Crisis -- How a Housing Bubble Spawned the Worst Crisis Since the Great Depression](2008-financial-crisis.md) -- [reviewed: never] -- The 2008 financial crisis was not an unpredictable "black swan" -- it was the foreseeable and forewarned result of a housing bubble, a deregulated shadow banking system, and financial instruments so complex that their own creators did not fully understand them. Triggered by the collapse of the U.S. subprime mortgage market in 2007 and accelerating through the bankruptcy of Lehman Brothers in September 2008, the crisis destroyed over $11 trillion in U.
 
@@ -9,6 +9,8 @@
 - [Berkshire Hathaway's American Express Investment -- Trust, Network Effects, and a Two-Stage Circle of Competence](berkshire-american-express-investment.md) -- [reviewed: never] -- Berkshire Hathaway's investment in American Express unfolded in two distinct stages separated by three decades: a 1964 purchase made during the salad oil scandal, and a much larger 1991-1998 building of a position that has since grown to roughly 20 percent of the company through share repurchases alone.
 
 - [Berkshire Hathaway's Apple Investment -- How Consumer Loyalty Reframed a Technology Company](berkshire-apple-investment-consumer-loyalty.md) -- [reviewed: never] -- Berkshire Hathaway began buying Apple in the first quarter of 2016 and built a position that, at its peak, approached 6 percent of Apple's outstanding stock and generated the largest realized and unrealized gain in Berkshire's history. The investment is notable because Warren Buffett had spent decades avoiding technology on the grounds that he could not predict which companies would endure.
+
+- [Berkshire Hathaway's BNSF Acquisition: An All-In Bet on Regulated, Capital-Intensive Infrastructure](berkshire-bnsf-acquisition.md) -- [reviewed: never] -- On November 3, 2009, Warren Buffett's Berkshire Hathaway announced the largest acquisition in its history: the purchase of the remaining 77.4 percent of Burlington Northern Santa Fe Corporation (BNSF) for approximately $44 billion, including the assumption of $10 billion in BNSF debt. Buffett called the deal "an all-in wager on the economic future of the United States" and acknowledged that the railroad was "not a bargain" but a "good asset to own for Berkshire over the next century.
 
 - [Berkshire Hathaway's Coca-Cola Investment -- Brand Moat, Global Runway, and the Rewards of Inaction](berkshire-coca-cola-investment.md) -- [reviewed: never] -- Between late 1988 and early 1989, Warren Buffett's Berkshire Hathaway invested over $1 billion in Coca-Cola stock, building a 6.3 percent stake in what was already the world's most ubiquitous consumer brand. Buffett paid roughly 15 times earnings for the shares -- a premium multiple by the standards of his cigar-butt training -- because he judged that the market was discounting Coca-Cola's international growth runway and undervaluing the durability of its brand moat.
 
