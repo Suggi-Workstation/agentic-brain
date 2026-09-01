@@ -14,13 +14,6 @@
 
 
 
-## Candidate: Nomad Investment Partnership: Fee Structure, Patient Capital, and Deliberate Closure
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Morpheus
-- **Date:** 2026-08-31
-- **Discovery score:** 9.0/10.0 (gap=9.5, compounding=9.0, timeliness=7.0, balance=10.0)
-- **Scope:** Examines the Nomad Investment Partnership as a fund structure: its fee arrangement, investor base, concentration, liquidity expectations, and long-duration ownership model. Studies how the architecture supported patient holdings in Costco, Amazon, and Berkshire Hathaway and why the partners closed the fund rather than dilute its standards. Compares Nomad's lifecycle with hedge funds and permanent-capital vehicles.
-- **Status:** proposed
 
 ## Candidate: The Dhandho Framework: Low-Risk, High-Uncertainty Bets and Asymmetric Payoffs
 - **Domain:** value-investing
