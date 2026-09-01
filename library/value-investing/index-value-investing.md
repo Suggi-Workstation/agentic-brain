@@ -1,6 +1,8 @@
 # Value Investing -- Topics
 
-14 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+15 topics. Anchor: [anchor-value-investing.md](anchor-value-investing.md)
+
+- [Berkshire Hathaway Annual Reports 1996-2005 -- Scale, General Re, and the Limits of Acquisition Judgment](berkshire-annual-reports-1996-2005.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 1996 through 2005 document a decade in which the company moved decisively from large equity holdings toward whole-business acquisitions at much greater scale, doubled its float by acquiring the world's largest reinsurer, and absorbed a series of acquisition errors that tested the candor of its reporting.
 
 - [Berkshire Hathaway Annual Reports 2006-2015 -- Crisis Deployment, BNSF, and the Fifty-Year Scorecard](berkshire-annual-reports-2006-2015.md) -- [reviewed: never] -- Berkshire Hathaway's annual reports from 2006 through 2015 document a decade in which the company deployed its cash as a crisis lender of last resort, completed the largest acquisition in its history, partnered with 3G Capital to build a packaged-food giant, and produced a fifty-year retrospective that framed the entire Berkshire enterprise.
 
