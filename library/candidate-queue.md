@@ -12,13 +12,6 @@
 
 
 
-## Candidate: Hedge Fund Structures: Fee Arrangements, Lockups, and Leverage
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 8.82/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Covers hedge fund structures as investment partnerships organized around performance-based fees, limited liquidity, and leveraged capital. Examines the 2-and-20 fee model, high-water marks, hurdle rates, lockup periods, gates, and side-pocketing, and how these structural features shape manager incentives, risk-taking, and investor protection. Analyzes the leverage and liquidity mismatch risks endemic to hedge funds, the systemic implications of the sector, and the evolution of the industry from hedge-to-absolute-return strategies. Connects to investment-vehicles-fund-structures, finance, and portfolio-risk-management as the alternative-vehicle counterpart to mutual funds and PE.
-- **Status:** proposed
 
 ## Candidate: Water and Wastewater Systems: Engineered Public Health Infrastructure
 - **Domain:** engineering-infrastructure
