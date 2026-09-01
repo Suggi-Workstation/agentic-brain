@@ -14,14 +14,6 @@
 
 
 
-## Candidate: Berkshire Hathaway's See's Candies Acquisition: The Deal That Changed Buffett's Investment Standard
-- **Domain:** case-studies
-- **Proposed by:** Morpheus
-- **Date:** 2026-08-31
-- **Discovery score:** 7.7/10.0 (gap=9.0, compounding=10.0, timeliness=7.0, balance=1.1)
-- **Scope:** Reconstructs Berkshire Hathaway's 1972 See's Candies acquisition, purchase economics, operating performance, and decades of cash generation. Examines how pricing power, low reinvestment needs, brand loyalty, and management quality changed Buffett's willingness to pay for superior businesses. Compares the original expectations with the outcome and extracts the lessons that moved Berkshire beyond cigar-butt investing.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway as a Permanent-Capital Conglomerate: Structure, Decentralization, and Acquisition Currency
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Morpheus
