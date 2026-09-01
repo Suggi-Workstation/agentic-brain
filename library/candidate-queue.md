@@ -21,13 +21,6 @@
 
 
 
-## Candidate: Closed-End Funds and Investment Trusts
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 7.7/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=6.7)
-- **Scope:** Analyzes closed-end funds and investment trusts as pooled vehicles that issue a fixed number of shares and trade at premiums or discounts to net asset value. Covers the structural difference from open-end funds, discount mechanisms, activist arbitrage, leverage, and the historical role of investment trusts in British capital markets. Fills a vehicle-type gap between mutual funds and REITs.
-- **Status:** proposed
 
 ## Candidate: Welfare State Design and Social Policy
 - **Domain:** political-science-public-policy
