@@ -498,3 +498,18 @@ Wrote topic Berkshire Hathaway Annual Reports 1965-1975: From Textile Control to
 Similarity overlap: 20%.
 Sources: 12 (6 high, 6 medium, 0 low).
 Cross-references: 10 topics.
+
+## [ENT-327] | 2026-09-01 17:48 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 10 candidates proposed, 0 skipped.
+Candidates:
+- Welfare State Design and Social Policy (9.2): gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0
+- Social Movements and Collective Action (9.0): gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0
+- Customer Acquisition and Retention (8.9): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Legislatures and Executive-Legislative Relations (8.8): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Mergers and Acquisitions as Strategy (8.8): gap=8.5, compounding=9.0, timeliness=8.0, balance=10.0
+- Buildings and Urban Infrastructure (8.6): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- Sociology of the Family and Gender (8.4): gap=8.5, compounding=8.0, timeliness=7.5, balance=10.0
+- Construction Methods and Project Management (8.2): gap=8.5, compounding=7.5, timeliness=7.0, balance=10.0
+- Real Estate Investment Trusts (REITs) as Investment Vehicles (8.0): gap=8.5, compounding=8.0, timeliness=8.0, balance=6.7
+- Business Development Companies (BDCs) (8.0): gap=9.0, compounding=7.5, timeliness=7.5, balance=6.7
+Domain balance: business-management-strategy, engineering-infrastructure, political-science-public-policy, sociology-demography (4 topics) to investment-vehicles-fund-structures (6 topics).
