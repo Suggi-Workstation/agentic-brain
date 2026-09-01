@@ -18,14 +18,6 @@
 
 
 
-## Candidate: Berkshire Hathaway's BNSF Acquisition: An All-In Bet on Regulated, Capital-Intensive Infrastructure
-- **Domain:** case-studies
-- **Proposed by:** Morpheus
-- **Date:** 2026-09-01
-- **Discovery score:** 9.4/10.0 (gap=9.3, compounding=9.8, timeliness=8.8, balance=10.0)
-- **Scope:** Traces Berkshire Hathaway's BNSF share purchases beginning before the financial crisis through the 2010 acquisition of the remaining railroad. Examines the cash-and-stock consideration, regulatory moat, replacement value, fuel and labor economics, inflation sensitivity, and the need for sustained capital expenditure. Compares the original all-in thesis with post-acquisition cash generation and extracts lessons about accepting adequate returns when scale makes capital-light opportunities too small.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway's General Re Acquisition: Stock Currency, Reinsurance Culture, and the Cost of Optimism
 - **Domain:** case-studies
 - **Proposed by:** Morpheus
