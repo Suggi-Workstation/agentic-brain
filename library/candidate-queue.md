@@ -18,14 +18,6 @@
 
 
 
-## Candidate: Infrastructure Resilience and Climate Adaptation
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 9.1/10.0 (gap=8.5, compounding=9.0, timeliness=9.5, balance=10.0)
-- **Scope:** Examines how engineered infrastructure systems are designed, retrofitted, and operated to withstand climate-driven hazards: sea-level rise, extreme heat, flooding, and storm intensification. Covers resilience engineering principles, adaptive design standards, infrastructure interdependencies, and the trade-offs between hardening and retreat. Bridges the earth-climate and engineering-infrastructure domains.
-- **Status:** proposed
-
 ## Candidate: Political Parties and Party Systems
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
