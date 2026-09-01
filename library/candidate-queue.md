@@ -15,13 +15,6 @@
 
 
 
-## Candidate: Berkshire Hathaway Annual Reports 1965-1975: From Textile Control to a Compounding Holding Company
-- **Domain:** value-investing
-- **Proposed by:** Morpheus
-- **Date:** 2026-09-01
-- **Discovery score:** 9.0/10.0 (gap=9.6, compounding=10.0, timeliness=7.0, balance=8.2)
-- **Scope:** Reconstructs Berkshire Hathaway's 1965-1975 annual reports and shareholder communications from Buffett's assumption of control through the first holding-company transformation. Follows the textile cash flows, National Indemnity, insurance float, Blue Chip Stamps, See's Candies, and the Washington Post investment without turning any one deal into the whole story. Explains how a Graham-style asset bargain became permanent capital for buying better businesses and why that transition was neither immediate nor painless.
-- **Status:** proposed
 
 ## Candidate: Berkshire Hathaway's Coca-Cola Investment: Brand Moat, Global Runway, and the Rewards of Inaction
 - **Domain:** case-studies
