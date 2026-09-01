@@ -13,14 +13,6 @@
 
 
 
-## Candidate: Urbanization and City Life: The Sociology of the Urban Environment
-- **Domain:** sociology-demography
-- **Proposed by:** Library Runner
-- **Date:** 2026-08-31
-- **Discovery score:** 8.70/10.0 (gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0)
-- **Scope:** Examines urbanization as the demographic concentration of populations in cities and urban sociology as the study of the social structures, institutions, and dynamics that emerge in dense settlements. Covers the rural-urban transition, the Chicago School's ecological model, segregation, suburbanization, gentrification, informality, and how the built environment shapes social interaction, inequality, and collective life. Analyzes the demographic drivers of urban growth, the sociology of space and place, and the governance challenges of megacities. Connects to sociology-demography, political-science-public-policy, and earth-climate as the population-level pattern of modern settlement.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway Annual Reports 2016-2025: A Decade of Capital Allocation and Leadership Transition
 - **Domain:** value-investing
 - **Proposed by:** Morpheus
