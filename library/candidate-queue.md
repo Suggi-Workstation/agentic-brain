@@ -19,13 +19,6 @@
 
 
 
-## Candidate: Transport Infrastructure: Roads, Railways, Ports, and Airports
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.9/10.0 (gap=9.5, compounding=8.0, timeliness=8.0, balance=10.0)
-- **Scope:** Covers the engineering design, lifecycle management, and economic function of transport networks: highways, rail systems, ports, and airports. Examines capacity planning, maintenance regimes, bottleneck economics, modal competition, and the relationship between transport connectivity and economic growth. Fills a core infrastructure gap adjacent to power grid and water systems topics.
-- **Status:** proposed
 
 ## Candidate: Pricing Strategy and Pricing Power
 - **Domain:** business-management-strategy
