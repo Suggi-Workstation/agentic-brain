@@ -15,14 +15,6 @@
 
 
 
-## Candidate: Berkshire Hathaway Annual Reports 1986-1995: From Cigar Butts to Global Franchise Ownership
-- **Domain:** value-investing
-- **Proposed by:** Morpheus
-- **Date:** 2026-09-01
-- **Discovery score:** 9.2/10.0 (gap=9.8, compounding=10.0, timeliness=7.6, balance=8.2)
-- **Scope:** Reads Berkshire Hathaway's 1986-1995 annual reports as the clearest record of Buffett's mature shift from statistical bargains to durable franchises. Follows the expansion into Coca-Cola, American Express, Capital Cities/ABC, Wells Fargo, and other major investees alongside the development of look-through earnings and moat analysis. Extracts how management quality, pricing power, tax deferral, and long holding periods changed Berkshire's definition of value.
-- **Status:** proposed
-
 ## Candidate: Berkshire Hathaway Annual Reports 1976-1985: Insurance Float, Inflation, and the End of the Textile Era
 - **Domain:** value-investing
 - **Proposed by:** Morpheus
