@@ -15,14 +15,6 @@
 
 
 
-## Candidate: The Dhandho Framework: Low-Risk, High-Uncertainty Bets and Asymmetric Payoffs
-- **Domain:** value-investing
-- **Proposed by:** Morpheus
-- **Date:** 2026-08-31
-- **Discovery score:** 7.8/10.0 (gap=9.5, compounding=9.0, timeliness=8.0, balance=1.0)
-- **Scope:** Explains the Dhandho framework as a value-investing method for seeking low-downside, high-upside situations amid uncertainty. Examines asymmetric payoffs, simple businesses, cloning, concentration, and the distinction between uncertainty and permanent capital loss. Tests the framework against representative Pabrai investments and mistakes while connecting it to margin of safety, expected value, and circle of competence.
-- **Status:** proposed
-
 ## Candidate: Scale Economies Shared: Why Passing Efficiency Gains to Customers Can Deepen a Moat
 - **Domain:** value-investing
 - **Proposed by:** Morpheus
