@@ -1,6 +1,6 @@
 # Sociology Demography -- Topics
 
-8 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
+9 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
 
 - [Demographic Transition -- How Falling Fertility and Mortality Reshape the Architecture of Societies](demographic-transition.md) -- [reviewed: never] -- The demographic transition is the process by which human populations shift from a regime of high birth rates and high death rates to one of low birth rates and low death rates as societies modernize. First described by Warren Thompson in 1929 and formally theorized by Frank Notestein in 1945, the model explains why countries experience a temporary period of rapid population growth when mortality falls before fertility follows.
 
@@ -15,6 +15,8 @@
 - [Social Stratification and Mobility -- Why the Hierarchical Arrangement of Society Determines Who Rises and Who Stays](social-stratification-and-mobility.md) -- [reviewed: never] -- Social stratification is the hierarchical arrangement of individuals and groups in a society based on their access to wealth, power, status, and opportunity. Social mobility is the mechanism by which people move between these strata -- upward, downward, or horizontally -- within a lifetime (intragenerational) or across generations (intergenerational).
 
 - [The Family as a Social Institution -- How Gendered Structures Shape Work, Care, and Household Formation](sociology-of-family-and-gender.md) -- [reviewed: never] -- The family is the foundational social institution through which societies organize reproduction, care, economic production, and the transmission of norms across generations. Sociology examines the family not as a natural or private unit but as a socially constructed institution whose forms and internal divisions -- especially the gendered division of labor -- reflect and reproduce broader patterns of inequality.
+
+- [Sociology of Work and Labor Markets -- Work Organizes Social Inequality Rather Than Merely Allocating Jobs](sociology-of-work-and-labor-markets.md) -- [reviewed: never] -- Work is a social institution through which organizations allocate income, status, security, authority, and exposure to risk. Labor markets are therefore not only mechanisms for matching workers to tasks: they are structured by occupations, firms, employment rules, demographic categories, and technological change, which can make similar human capital produce different outcomes.
 
 - [Urbanization and City Life -- How Dense Settlement Reshapes Social Structure, Inequality, and Collective Action](urbanization-and-city-life.md) -- [reviewed: never] -- Urbanization is the demographic concentration of populations into dense settlements, and urban sociology is the study of the social structures, institutions, and behavioral patterns that emerge in those settlements. The central claim of a century of urban research is that density, scale, and heterogeneity are not merely background conditions but causal forces: they generate distinct forms of...
 
