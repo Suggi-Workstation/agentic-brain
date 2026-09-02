@@ -23,14 +23,6 @@
 
 
 
-## Candidate: Customer Acquisition and Retention
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
-- **Scope:** Examines how businesses acquire and retain customers: the unit economics of customer acquisition cost (CAC) versus lifetime value (LTV), funnel design, retention mechanics, churn analysis, and the relationship between loyalty and profitability. Covers acquisition channels, conversion optimization, and the compounding effect of retention on unit economics. Connects unit economics, competitive strategy, and pricing power through the customer-level economics that determine whether a business model scales.
-- **Status:** proposed
-
 ## Candidate: Legislatures and Executive-Legislative Relations
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
