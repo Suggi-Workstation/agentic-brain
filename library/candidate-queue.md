@@ -23,14 +23,6 @@
 
 
 
-## Candidate: Legislatures and Executive-Legislative Relations
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.8/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines legislatures as the lawmaking institutions that aggregate preferences, oversee executives, and structure democratic accountability. Covers legislative organization, committee systems, party discipline, executive-legislative relations, and the veto and bargaining frameworks that determine policy outcomes. Connects electoral systems, political parties, and bureaucracy through the institutional pipeline that turns public demands into binding law.
-- **Status:** proposed
-
 ## Candidate: Mergers and Acquisitions as Strategy
 - **Domain:** business-management-strategy
 - **Proposed by:** Library Runner
