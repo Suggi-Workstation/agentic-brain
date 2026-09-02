@@ -1,8 +1,10 @@
 # Business Management Strategy -- Topics
 
-6 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
+7 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
 
 - [Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes](corporate-governance-board-effectiveness.md) -- [reviewed: never] -- Corporate governance is the system of rules, practices, and structures by which a company is directed and controlled. It addresses the fundamental problem that arises whenever ownership and management are separated: the people who own the firm (principals) are not the same people who run it (agents), and their interests diverge.
+
+- [Customer Acquisition and Retention -- Why the Economics of Keeping Customers Determine Whether a Business Scales](customer-acquisition-and-retention.md) -- [reviewed: never] -- Customer acquisition and retention are the two complementary processes that determine whether a business can grow profitably. Acquisition brings new customers into the funnel; retention keeps them. The empirical evidence is unambiguous: acquiring a new customer costs five to twenty-five times more than retaining an existing one, and a five-percent improvement in retention can increase profits by twenty-five to ninety-five percent.
 
 - [Executive Compensation and Incentive Design -- Why Pay Is the Primary Lever for Aligning Managers With Owners](executive-compensation-incentive-design.md) -- [reviewed: never] -- Executive compensation is the principal mechanism by which the owners of a corporation attempt to align the interests of the managers who run it with their own. When ownership and control are separated -- the defining condition of the modern public corporation -- the people who decide how capital is deployed are not the people who own it, and their interests diverge systematically.
 
