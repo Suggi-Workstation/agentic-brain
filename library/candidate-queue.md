@@ -25,14 +25,6 @@
 
 
 
-## Candidate: Sociology of Work and Labor Markets
-- **Domain:** sociology-demography
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
-- **Scope:** Examines work as a social institution and labor markets as sites of structural inequality. Covers the sociology of occupations and professions, labor market segmentation, the transformation of work under technology and globalization, and the rise of precarious and gig employment. Analyzes how class position, gender, and race shape labor market outcomes, and how changes in work organization reshape social stratification. Connects social stratification, demographic transition, and urbanization through the labor market as the link between individual life chances and structural change.
-- **Status:** proposed
-
 ## Candidate: Race and Ethnicity as Social Systems
 - **Domain:** sociology-demography
 - **Proposed by:** Library Runner
