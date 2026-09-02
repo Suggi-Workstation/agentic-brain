@@ -1,6 +1,6 @@
 # Political Science Public Policy -- Topics
 
-9 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+10 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
 
 - [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: never] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules across their territory. Public administration is the discipline and practice that studies, designs, and reforms that apparatus. The central proposition of the field is that the organizational structure of the executive branch -- how officials are recruited, how...
 
@@ -15,6 +15,8 @@
 - [Legislatures and Executive-Legislative Relations -- Why the Architecture of Lawmaking Determines Policy Outcomes](legislatures-executive-legislative-relations.md) -- [reviewed: never] -- Legislatures are the institutional arenas where collective preferences are aggregated into binding law, where executives are held accountable or given latitude, and where the structural rules of agenda control, committee jurisdiction, and veto power determine which policies emerge from the political process.
 
 - [Political Parties and Party Systems -- The Organizational Infrastructure of Democratic Competition](political-parties-party-systems.md) -- [reviewed: never] -- Political parties are the central intermediary institutions of modern democracy: they aggregate diffuse citizen preferences into coherent policy programs, recruit and select political leaders, structure legislative organization, and form or remove governments. Party systems -- the structured pattern of competition among parties -- are not mere aggregates of individual parties but interactive...
+
+- [Public Policy Design and Implementation -- Why Legislative Intent Rarely Survives Contact With the Implementation Pipeline](public-policy-design-implementation.md) -- [reviewed: never] -- Public policy design and implementation is the study of how legislative intent travels through a chain of administrative, organizational, and discretionary stages to produce observable outcomes. The field emerged from the discovery that policy adoption -- the passage of a law or issuance of a mandate -- is not the endpoint of the policy process but merely its midpoint.
 
 - [State Capacity -- Why Some Governments Can Deliver and Others Cannot](state-capacity.md) -- [reviewed: never] -- State capacity is the ability of a government to implement policy, deliver public services, and enforce rules across the entirety of its territory. It is not the same as state power in the sense of raw coercion: a state may wield enormous despotic authority over its citizens yet remain unable to collect taxes, build roads, or administer a census.
 
