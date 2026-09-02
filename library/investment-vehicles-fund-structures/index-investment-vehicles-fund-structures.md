@@ -1,8 +1,10 @@
 # Investment Vehicles Fund Structures -- Topics
 
-9 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+10 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: never] -- Berkshire Hathaway is a publicly traded conglomerate holding company that owns dozens of wholly owned operating subsidiaries alongside a portfolio of publicly traded equities, funded by permanent equity capital, insurance float, and retained earnings rather than by investor commitments or redeemable shares.
+
+- [Business Development Companies -- Why the Regulated Wrapper Determines Returns in Middle-Market Private Credit](business-development-companies.md) -- [reviewed: never] -- Business development companies (BDCs) are closed-end investment funds created by Congress in 1980 to channel public capital into private middle-market companies. They occupy a structural niche between private credit funds and public equity: they lend to companies too small for the syndicated loan market and too large for community banks, but unlike private credit funds, they trade on public exchanges and must distribute at least 90 percent of taxable income to shareholders.
 
 - [Closed-End Funds and Investment Trusts -- Why a Fixed Share Count Creates Persistent Discounts, Activist Arbitrage, and a Distinct Capital-Permanence Trade-off](closed-end-funds-investment-trusts.md) -- [reviewed: never] -- Closed-end funds (CEFs) and investment trusts are pooled investment vehicles that issue a fixed number of shares at inception and then trade those shares on a secondary exchange, with no continuous creation or redemption at net asset value (NAV). This structural feature -- a closed capital base -- produces the field's defining phenomena: market prices that persistently deviate from NAV (the...
 
