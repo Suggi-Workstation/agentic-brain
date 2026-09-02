@@ -23,14 +23,6 @@
 
 
 
-## Candidate: Sociology of the Family and Gender
-- **Domain:** sociology-demography
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.4/10.0 (gap=8.5, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** Analyzes the family as a social institution and the gendered structures that shape work, care, and household formation. Covers family structure change, the gendered division of labor, feminist sociology, intersectionality, and the demographic and economic forces reshaping marriage, parenthood, and household composition. Connects stratification, demographic transition, and labor through the household as the basic unit where social and economic patterns converge.
-- **Status:** proposed
-
 ## Candidate: Construction Methods and Project Management
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Library Runner
