@@ -23,14 +23,6 @@
 
 
 
-## Candidate: Mergers and Acquisitions as Strategy
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.8/10.0 (gap=8.5, compounding=9.0, timeliness=8.0, balance=10.0)
-- **Scope:** Analyzes mergers and acquisitions as a strategic tool for value creation or destruction. Covers deal rationale, synergy assessment, acquisition integration, cultural fit, and the empirical evidence on whether acquisitions create or destroy shareholder value. Examines the principal-agent dynamics of empire-building, the role of acquisition currency, and post-merger integration failures. Connects corporate governance, resource allocation, and capital budgeting through the firm-level decision to buy rather than build.
-- **Status:** proposed
-
 ## Candidate: Buildings and Urban Infrastructure
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Library Runner
