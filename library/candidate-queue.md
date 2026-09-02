@@ -23,14 +23,6 @@
 
 
 
-## Candidate: Buildings and Urban Infrastructure
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.6/10.0 (gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0)
-- **Scope:** Covers the engineering design, construction, and lifecycle management of buildings and urban infrastructure: structural systems, building codes, vertical construction, HVAC, and the integration of buildings into urban systems. Examines the relationship between building performance, energy efficiency, occupancy economics, and the infrastructure networks that connect buildings to power, water, and transport. Fills a core infrastructure gap alongside power grid, water, and transport topics.
-- **Status:** proposed
-
 ## Candidate: Sociology of the Family and Gender
 - **Domain:** sociology-demography
 - **Proposed by:** Library Runner
