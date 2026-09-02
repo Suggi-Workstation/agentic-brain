@@ -12,7 +12,7 @@ disable-model-invocation: false
 Guides writing an insight to the agentic-brain. This skill holds the
 PROCEDURE (Feynman loop, read template, write, transfer, commit; the watcher pushes).
 The format SPECIFICATION and the compliance checklist live in
-`governance/template-insights.md` -- that file is the validator.
+`agentic-brain:governance/template-insights.md` -- that file is the validator.
 This skill references its Insight Checklist as the format gate and does
 not restate its items (R8: reference, never duplicate).
 
@@ -69,7 +69,7 @@ session (see `research/README.md`).
 
 ### 3. Read the format specification and the pipeline map
 
-Read `governance/template-insights.md` BEFORE writing. ALSO read
+Read `agentic-brain:governance/template-insights.md` BEFORE writing. ALSO read
 `agentic-brain:research/README.md` -- the pipeline map. It tells
 you where this artifact sits in the flow and which earlier
 artifacts' `status:` fields change when this one lands. It defines
@@ -124,7 +124,7 @@ ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
 ```
 ## Related
 
-- `governance/template-insights.md` -- format specification and compliance validator (Insight Checklist, examples)
+- `agentic-brain:governance/template-insights.md` -- format specification and compliance validator (Insight Checklist, examples)
 - `skills/write-report/SKILL.md` -- report writing (reports produce insights)
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (evaluations identify patterns)
 - `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
