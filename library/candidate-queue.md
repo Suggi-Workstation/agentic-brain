@@ -25,14 +25,6 @@
 
 
 
-## Candidate: Comparative Political Regimes: Democracies, Autocracies, and Hybrid Systems
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
-- **Scope:** Examines how democracies and autocracies differ in institutional design, accountability mechanisms, and policy performance. Covers regime typologies (Lijphart, Linz), hybrid regimes, democratic backsliding, autocratic resilience, and the empirical relationship between regime type and economic outcomes. Connects electoral systems, state capacity, and federalism through the comparative lens that explains why political institutions produce different results.
-- **Status:** proposed
-
 ## Candidate: Supply Chain and Procurement Strategy: Sourcing as a Competitive Weapon
 - **Domain:** business-management-strategy
 - **Proposed by:** Library Runner
