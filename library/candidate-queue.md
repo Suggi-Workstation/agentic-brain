@@ -25,14 +25,6 @@
 
 
 
-## Candidate: Supply Chain and Procurement Strategy: Sourcing as a Competitive Weapon
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 9.12/10.0 (gap=9.0, compounding=8.5, timeliness=9.5, balance=10.0)
-- **Scope:** Analyzes how organizations design supply chains and procurement to balance cost, resilience, and strategic control. Covers supplier selection, vertical integration vs outsourcing, inventory strategies, lean vs buffer approaches, and supply chain risk management. Connects unit economics, operational excellence, and competitive strategy through the sourcing decisions that determine cost structure and vulnerability.
-- **Status:** proposed
-
 ## Candidate: Public Policy Design and Implementation: From Legislative Intent to Observable Outcomes
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
