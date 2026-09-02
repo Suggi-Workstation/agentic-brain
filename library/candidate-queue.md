@@ -25,14 +25,6 @@
 
 
 
-## Candidate: Public Policy Design and Implementation: From Legislative Intent to Observable Outcomes
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.65/10.0 (gap=8.5, compounding=9.0, timeliness=7.5, balance=10.0)
-- **Scope:** Examines the policy process from agenda-setting through implementation to evaluation. Covers policy instrument design (regulation, nudges, subsidies), implementation theory (Pressman and Wildavsky), street-level bureaucracy, and evidence-based policy evaluation. Connects bureaucracy, state capacity, and legislatures through the pipeline that turns legislative intent into observable outcomes.
-- **Status:** proposed
-
 ## Candidate: Interest Groups and Lobbying: Organized Influence on Policy
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
