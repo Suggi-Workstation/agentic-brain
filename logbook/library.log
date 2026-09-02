@@ -459,3 +459,19 @@ Wrote topic Organizational Culture and Incentive Systems: The Behavioral Infrast
 Similarity overlap: 25%.
 Sources: 19 (16 high, 2 medium, 1 low).
 Cross-references: 5 topics.
+
+## [ENT-363] | 2026-09-02 05:46 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 6 candidates proposed, 4 dropped (queue capped at 25).
+Candidates:
+- Currency and Exchange Rates (9.15): gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0
+- Educational Technology and Adaptive Learning (9.12): gap=9.0, compounding=8.5, timeliness=9.5, balance=10.0
+- Behavioral Aspects of Risk Tolerance (9.05): gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0
+- Human-in-the-Loop Patterns (9.02): gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0
+- Productivity Measurement and Economic Growth (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Agent Harness Design (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+Dropped (below cut):
+- Volatility Targeting and Portfolio Insurance (8.82): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Ecosystem Science and Ecology (8.82): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Natural Disaster Mechanisms (8.80): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
+- Learning Disabilities and Differentiated Instruction (8.70): gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0
+Domain balance: portfolio-risk-management, earth-climate, macro-micro, education-learning, coding-agentic-ai (8 topics each) to value-investing (18 topics).

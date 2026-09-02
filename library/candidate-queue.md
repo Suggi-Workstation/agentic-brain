@@ -177,3 +177,51 @@
 - **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
 - **Scope:** Examines the philosophical questions about the nature of mind, consciousness, and mental states. Covers the mind-body problem, dualism vs physicalism, functionalism, the hard problem of consciousness, intentionality, and the implications of AI for theories of mind. Connects epistemology, free will, and AI ethics through the question of what it means to have a first-person experience.
 - **Status:** proposed
+
+## Candidate: Currency and Exchange Rates -- How the Value of Money Itself Becomes a Macroeconomic Variable
+- **Domain:** macro-micro
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
+- **Scope:** Examines currency valuation and exchange rate determination as a core macroeconomic variable. Covers purchasing power parity, interest rate parity, the Mundell-Fleming model, fixed versus floating regimes, currency crises, and the role of the dollar as global reserve currency. Connects monetary policy, trade, and inflation dynamics through the exchange rate as the price that links domestic and international economies.
+- **Status:** proposed
+
+## Candidate: Educational Technology and Adaptive Learning -- When Technology Improves Learning and When It Does Not
+- **Domain:** education-learning
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 9.12/10.0 (gap=9.0, compounding=8.5, timeliness=9.5, balance=10.0)
+- **Scope:** Examines the evidence base for educational technology and adaptive learning systems. Covers intelligent tutoring systems, personalized learning platforms, the flipped classroom model, and the empirical evidence on when technology enhances versus distracts from learning outcomes. Analyzes the role of AI tutors and adaptive assessment. Connects cognitive load theory, spaced repetition, and assessment through the technology layer that mediates instruction.
+- **Status:** proposed
+
+## Candidate: Behavioral Aspects of Risk Tolerance -- Why Investor Psychology Determines Portfolio Success
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
+- **Scope:** Examines how psychological factors shape risk tolerance and portfolio decisions. Covers loss aversion in drawdowns, myopic loss aversion, the equity premium puzzle through a behavioral lens, overconfidence in position sizing, and the gap between stated and revealed risk tolerance. Connects portfolio construction, behavioral finance, and value-investing discipline through the human element that determines whether optimal portfolios are actually held.
+- **Status:** proposed
+
+## Candidate: Human-in-the-Loop Patterns -- When and How to Add Human Oversight to AI Agent Workflows
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
+- **Scope:** Examines the design patterns for incorporating human judgment into AI agent workflows. Covers approval gates, escalation triggers, review checkpoints, the latency-autonomy trade-off, and empirical evidence on when human oversight improves outcomes versus when it adds bottleneck and error. Connects multi-agent orchestration, skill systems, and observability through the control architecture that governs agent autonomy in production.
+- **Status:** proposed
+
+## Candidate: Productivity Measurement and Economic Growth -- Why Output per Worker Is the Ultimate Long-Run Variable
+- **Domain:** macro-micro
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 8.93/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
+- **Scope:** Examines productivity as the fundamental driver of long-run economic growth and living standards. Covers labor and total factor productivity measurement, the Solow residual, productivity slowdown debates, the role of technology and human capital, and the question of whether AI will reverse the slowdown. Connects business cycles, GDP measurement, and trade through the efficiency variable that determines sustainable prosperity.
+- **Status:** proposed
+
+## Candidate: Agent Harness Design -- The Runtime Environment That Wraps an LLM and Makes It an Agent
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 8.93/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
+- **Scope:** Examines the harness -- the runtime environment that turns a language model into a functional agent. Covers the agentic loop, tool dispatch, context assembly, error recovery, state management, and the architectural decisions that separate robust harnesses from fragile ones. Connects context window management, tool use, observability, and skill systems through the runtime layer that mediates every agent interaction.
+- **Status:** proposed
