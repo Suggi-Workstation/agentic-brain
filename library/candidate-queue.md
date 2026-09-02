@@ -25,14 +25,6 @@
 
 
 
-## Candidate: Organizational Culture and Incentive Systems: The Behavioral Infrastructure of Execution
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.55/10.0 (gap=8.5, compounding=9.0, timeliness=7.0, balance=10.0)
-- **Scope:** Examines culture as the shared assumptions and incentives that drive organizational behavior. Covers culture typologies, the relationship between culture and strategy execution, how incentive systems shape norms, culture change vs selection, and the tension between alignment and diversity. Connects organizational design, executive compensation, and governance through the behavioral infrastructure that determines whether strategy translates into action.
-- **Status:** proposed
-
 ## Candidate: Agent Sandboxing and Security: Isolating AI Agents That Execute Code and Call Tools
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Library Runner
