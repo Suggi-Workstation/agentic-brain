@@ -23,13 +23,6 @@
 
 
 
-## Candidate: Construction Methods and Project Management
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.2/10.0 (gap=8.5, compounding=7.5, timeliness=7.0, balance=10.0)
-- **Scope:** Examines construction methods and project management for large-scale infrastructure: scheduling, cost estimation, risk management, procurement models, and the engineered trade-offs between time, cost, and quality. Covers design-bid-build vs design-build, megaproject delivery, and the systemic causes of cost overruns and schedule slippage. Connects reliability engineering and lifecycle cost analysis through the project execution phase that determines whether infrastructure delivers on its design promise.
-- **Status:** proposed
 
 ## Candidate: Real Estate Investment Trusts (REITs) as Investment Vehicles
 - **Domain:** investment-vehicles-fund-structures
