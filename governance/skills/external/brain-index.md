@@ -1,6 +1,6 @@
 ---
 name: brain-index
-description: "Build, evaluate, reindex, and maintain the agentic-brain, or brain, hybrid search index. Covers index.py (full + incremental), eval.py (recall@20, MRR, nDCG), gold queries, freshness heartbeat, index freshness, check freshness, and the eval-first build pattern."
+description: "Build, query, eval, and maintain the agentic-brain hybrid search index. Covers index.py (full + incremental), query.py (dense + BM25 + RRF, optional rerank), eval.py (recall@20, MRR, nDCG), gold queries, freshness heartbeat."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -8,51 +8,27 @@ disable-model-invocation: false
 # Brain-Index -- Hybrid Search for the Agentic-Brain
 
 The brain-index tool lives at `brain-index/` in the agentic-brain repo.
-It provides hybrid dense+sparse search over all markdown files in the
-shared knowledge base. This skill covers building, evaluating, reindexing,
-and maintaining the index. For querying, see the query-brain skill.
-
-## When to Invoke
-
-- User says "reindex brain", "rebuild the brain index", or similar
-- Preflight: brain-index freshness check (via preflight skill)
-- Session-end: after pushing new brain content, rebuild so the next
-  session starts fresh
-- Mid-session: after other agents push new brain files, or when a
-  query-brain search returns stale results
-- Index corruption detected (counts mismatch between chunks and vectors)
-- First-time setup on a new machine (--force build)
-
-Do NOT invoke for querying the brain -- use the query-brain skill
-for search. The query-brain skill will route back to brain-index
-automatically when the index is stale.
-
-## Self-Check -- HARD GATE
-
-- [ ] Brain cloned to /tmp/brain-pf (or reuse existing clone) (PASS / HALT)
-- [ ] Dependencies installed (sentence-transformers, pyyaml, numpy) (PASS / HALT)
-- [ ] Index built or rebuilt successfully (PASS / HALT)
-- [ ] Freshness verified (--check-freshness returned OK) (PASS / HALT)
-- [ ] If corrupted (counts mismatch): --force rebuild validated (PASS / HALT)
-- [ ] Clone discarded (unless shared with other preflight steps) (PASS / HALT)
+It provides hybrid dense+sparse search over all markdown files
+in the shared knowledge base.
 
 ## Architecture
 
 ```
 agentic-brain/brain-index/          (tool code -- committed to repo)
   index.py            Build index: full (--force) or incremental
-  query.py            Query: hybrid (dense+BM25+RRF), --no-dense, --no-sparse
+  query.py            Query: hybrid (dense+BM25+RRF; optional rerank), --no-dense, --no-sparse
   eval.py             Eval: recall@20, MRR, nDCG against gold queries
-  config.yaml         Embedding model, chunking, RRF, freshness settings
+  config.yaml         Embedding model, chunking, RRF, reranker, freshness
   gold-queries.yaml   Test queries with expected file hits
   requirements.txt    sentence-transformers, pyyaml, numpy
   README.md           Usage docs for all agents
 
 ~/.brain-index/                   (index data -- per-machine, NOT in repo)
   chunks.jsonl        Text chunks + frontmatter metadata
-  vectors.npy         float16 embedding vectors (384-dim)
+  vectors.npy         float16 embedding vectors (768-dim)
   meta.json           Build metadata
   manifest.json       File hash manifest for change detection
+  heartbeat.json      Freshness metadata (built_at_head vs git HEAD)
 ```
 
 ## Quick Start
@@ -82,9 +58,12 @@ python eval.py --verbose
 python index.py --force
 ```
 
-Downloads `BAAI/bge-small-en-v1.5` (~130 MB, cached after first run).
-Builds chunks from all brain files. Subsequent incremental builds take
-seconds.
+Downloads `unsloth/embeddinggemma-300m` (~314 MB, cached after first
+run). First build is slow (~16-20 min for ~5,000 chunks on CPU,
+single process); CPU staying saturated means it is working, not hung.
+Incremental builds take seconds. A first build that takes 40+ min is
+usually TWO processes fighting (see watcher-concurrency pitfall), not
+a slow model.
 
 ### Incremental build (session start)
 
@@ -94,7 +73,7 @@ python brain-index/index.py
 ```
 
 Only rebuilds changed/new files. Detects changes via file hash
-manifest. A session with a few new library topics takes seconds.
+manifest.
 
 ### Check only (no rebuild)
 
@@ -104,36 +83,10 @@ python brain-index/index.py --check
 
 Reports whether index is current without embedding anything.
 
-### Corrupted index (counts mismatch)
-
-If queries fail with IndexError or results are empty, the chunks and
-vectors may be out of sync -- cumulative corruption from repeated
-incremental builds that concatenated mismatched old and new data.
-
-```bash
-python -c "
-import json, numpy as np
-with open('$HOME/.brain-index/meta.json') as f: m=json.load(f)
-with open('$HOME/.brain-index/chunks.jsonl') as f: c=sum(1 for l in f if l.strip())
-v=np.load('$HOME/.brain-index/vectors.npy').shape[0]
-print(f'chunks={c} vectors={v} meta={m[\"count\"]}')
-print('OK' if c==v==m['count'] else 'CORRUPTED -- run index.py --force')
-"
-```
-
-If CORRUPTED:
-
-```bash
-python brain-index/index.py --force
-```
-
-Full rebuild from scratch. Guarantees chunks == vectors. Use only when
-incremental builds produce errors -- this is the nuclear option.
-
 ## Query Modes
 
 ```bash
-# Hybrid (default) -- dense + BM25 + RRF fusion
+# Hybrid (default) -- dense + BM25 + RRF fusion (rerank optional, off)
 python query.py "your question" --top-k 20
 
 # Vector-only (semantic)
@@ -143,142 +96,165 @@ python query.py "your question" --no-sparse
 python query.py "your question" --no-dense
 ```
 
-Results show file path, domain, score, and snippet. Deduplicated
-by file (one result per file, highest scoring chunk).
+Results show file path, domain, score, and snippet. Deduplicated by
+file (one result per file, highest scoring chunk). When
+`reranker.enabled` is true in config.yaml, the fused top-20 are
+reranked by the in-process cross-encoder before output.
 
 ## Eval Gate
-
-The eval gate prevents silent search quality regression:
 
 ```bash
 python eval.py              # Summary only
 python eval.py --verbose    # Per-query results
 ```
 
-Metrics: recall@20 (did the gold file appear in top 20?), MRR
-(mean reciprocal rank), nDCG@20 (normalized discounted cumulative
-gain). Run `python eval.py` for current baseline against
-`gold-queries.yaml`.
-
-Gold queries live in `gold-queries.yaml`. Each entry: question,
-expected file path, domain. Add queries as the brain grows.
+Metrics: recall@20, MRR, nDCG@20. Run after every model or config
+change and compare against the recorded baseline. Gold queries live
+in `gold-queries.yaml`; add queries as the brain grows.
 
 ## Freshness
 
-- `heartbeat.json` lives in `~/.brain-index/` (NOT the clone dir).
-  The clone dir version was gitignored and lost on fresh clone.
-  Fixed: `index.py` writes to DATA_DIR, `query.py` reads
-  from DATA_DIR. Verify: `ls ~/.brain-index/heartbeat.json`.
+- `heartbeat.json` lives in `~/.brain-index/` (DATA_DIR), not the
+  clone dir. `index.py` writes it; `query.py` reads it.
 - `query.py --check-freshness` compares heartbeat `built_at_head`
   against live `git rev-parse HEAD`. STALE when they differ.
-- Incremental rebuilds update the heartbeat automatically. Even
-  when no content files changed (tool-only commits), `index.py`
-  refreshes the heartbeat to current HEAD so --check-freshness
-  stays accurate.
-- Stale index = visible warning. Agents surface this to their
-  operator. The index is never silently stale.
-
-## Preflight Integration
-
-The brain-index freshness check shares the brain clone at `/tmp/brain-pf`
-with governance verification and logbook read. The clone persists across
-these checks -- do NOT clone the brain separately for each one.
-
-1. Governance confirmed -- clone brain to /tmp/brain-pf, verify all
-   governance templates present and non-empty
-2. **Brain-index freshness** -- in same clone: invoke this skill to
-   check freshness. If STALE: incremental rebuild.
-3. Logbook queue -- in same clone: read queue.log + errors.log
-4. GitHub auth -- discard /tmp/brain-pf clone
-
-Read-proof line includes brain-index status:
-`brain-index: OK (N chunks)` or `brain-index: OK (N chunks, rebuilt)`.
-
-## Session-end Integration
-
-After pushing brain files at session-end, the local brain-index is
-stale. Invoke this skill to rebuild the index so the next session
-starts fresh. See AGENTS.md Session-End section for the exact item.
-
-The session-end + preflight pair provides defense-in-depth:
-
-- **Session-end:** rebuild after pushing brain files (offline indexing).
-  Triggered when session-end brain push produces new content.
-- **Preflight:** verify freshness, rebuild if another agent pushed
-  between sessions (online verification). Runs unconditionally.
-
-Two gates at two time points. A corruption that escapes one is caught
-by the other. See `research/insights/stale-index-problem.md` for the
-failure class this pattern prevents.
-
-## Technology
-
-| Component | Choice | Why |
-|---|---|---|
-| Embedding | `BAAI/bge-small-en-v1.5` (384-dim) | Proven at scale in the archive prototype; zero API cost; CPU-only |
-| Keyword | BM25 (inline implementation) | No external dependency; k1=1.5, b=0.75 |
-| Fusion | RRF (k=60) | Balances semantic + keyword signals |
-| Chunking | max 1500 chars, 200 overlap | Heading-aware paragraph splitting |
-| Storage | JSONL + NPY files | Portable, no database server |
+- Incremental rebuilds refresh the heartbeat to current HEAD even on
+  tool-only commits (no content change), so freshness stays accurate.
 
 ## Per-Machine Index
 
-- VPS agents (Ava, researcher-1/2, investor): share ONE index at
-  `~/.brain-index/` (same filesystem).
-- Link (Hermes, Suggi's PC): builds own index at `~/.brain-index/`.
-- Both built from same brain repo, verified by same eval gate.
+- VPS agents share ONE index at `/srv/brain/index/` (hermes reaches
+  it via the symlink `~/.brain-index`). On the VPS the WATCHER
+  maintains it (cron, `/opt/repo-tools/repo-pull.sh`): it reindexes
+  on content change in either direction (pulled OR pushed) and
+  refreshes the heartbeat. Do NOT build or rebuild manually there
+  except for model switches or corruption repair.
+- Non-VPS agents (Link PC, Linkie laptop): build their own index at
+  `~/.brain-index/` via the clone-discard pattern.
+- Both built from the same brain repo, verified by the same eval gate.
+
+## Technology
+
+| Component | Choice |
+|---|---|
+| Embedding | `unsloth/embeddinggemma-300m` (768-dim, in-process, public mirror of google/embeddinggemma-300m) |
+| Reranker | `BAAI/bge-reranker-base` (in-process CrossEncoder, config-gated, disabled by default) |
+| Keyword | BM25 (inline implementation; k1=1.5, b=0.75) |
+| Fusion | RRF (k=60) |
+| Chunking | max 1500 chars, 200 overlap, heading-aware |
+| Storage | JSONL + NPY files |
+
+## Model Switch Procedure
+
+1. Edit `config.yaml`: `embedding.model`, `embedding.dim`, and the
+   `reranker` block if needed.
+2. Run `index.py --force` manually as hermes on the VPS (the watcher
+   does NOT rebuild on config-only changes -- config.yaml is in
+   `exclude_patterns` and changes no indexed content).
+3. Verify `meta.json` shows the new model + dim.
+4. Run `eval.py` and compare against the pre-upgrade baseline.
+5. Update every file that names the model, in one pass: brain repo
+   (`config.yaml`, `brain-index/README.md`,
+   `research/insights/brain-search-system.md`), and ALL agent skill
+   copies (Link PC, Linkie laptop, Morpheus VPS) including frontmatter
+   tags. Grep every copy with fixed strings; query-brain-vps and
+   AGENTS.md are model-agnostic (no change needed).
 
 ## Pitfalls
 
-- **rank-bm25 incompatible with Python 3.14.** The `rank-bm25` package
-  fails to install on Python 3.14. `query.py` implements BM25 inline
-  (~60 lines) with the same IDF formula and k1/b parameters. No
-  external keyword-search dependency. See: `references/bm25-inline.md`.
-
-- **FutureWarning: get_sentence_embedding_dimension.** Sentence-
-  transformers 3.x renamed this to `get_embedding_dimension`. The
-  warning is cosmetic; `index.py` catches it silently. Fix by
-  updating the method name in a future patch.
-
-- **HF Hub symlink warning on Windows.** Windows without Developer
-  Mode cannot create symlinks in the HF cache. The warning is
-  cosmetic; the model downloads and works correctly (non-symlink
-  copy mode). Suppress with `HF_HUB_DISABLE_SYMLINKS_WARNING=1`.
-
-- **Stale index after brain push.** If another agent pushes new files
-  after your last index build, `query.py --check-freshness` will
-  report STALE. Run `git pull && python index.py` to catch up.
-  Incremental rebuild handles this in seconds for a few new files.
-
-- **Heartbeat desync on tool-only commits.** When git commits only
-  change brain-index/*.py (not markdown content), the incremental
-  rebuild detects no content changes. Fixed: `index.py`
-  now refreshes heartbeat.json to current HEAD even when zero
-  content files changed. No action needed -- this is automatic.
-
-- **ENT-ID collision in queue.log.** Two agents reading the same
-  last-seen state can derive the same ENT-ID and both write it.
-  The append-only design tolerates duplicates but numbering is
-  corrupted. At preflight logbook read, scan for duplicate ENT-IDs
-  and note them. See `logbook` skill for full mitigation.
-
+- **Reindex means incremental.** `--force` is only for first build on
+  a machine, model switches, or corruption repair (IndexError on
+  query, `--check` inconsistency). Check freshness + one test query
+  first; if healthy, run plain `index.py`.
+- **Model switches need explicit `--force`.** Without it, the
+  incremental path finds no content change and the index stays on the
+  old model; a later content change embeds at the new dim and the
+  concatenation raises a dimension-mismatch ValueError.
+- **Watcher concurrency (VPS).** The watcher reindexes on ANY content
+  change (pulled OR pushed). A manual `--force` that overlaps the
+  watcher's own rebuild = TWO processes embedding the same chunks,
+  each at half speed -- a 16-20 min build balloons past 40 min.
+  `repo-pull.sh` has a pgrep guard (skips if another index.py is
+  running), so overlap is prevented, but diagnose long builds as
+  concurrency FIRST: `ps aux | grep index.py`. If two are running,
+  kill both and start ONE clean `--force`. Note: the guard means a
+  manual rebuild owns the index and the watcher defers to it.
+- **eval.py must mirror the query pipeline.** eval.py imports
+  `rerank` from query.py so the gate scores what agents actually get
+  (post-rerank), not raw fusion. If query.py's pipeline changes,
+  eval.py must follow or the gate silently measures a different
+  system. When comparing eval runs, only compare same-set results:
+  MRR across different gold-query sets is not apples-to-apples (a
+  broader set covers harder queries and can look higher or lower for
+  reasons unrelated to model quality).
+- **Reranker economics: disable by default.** A cross-encoder
+  reranker in a fresh-process-per-query architecture reloads the
+  model EVERY query (+15-18s for bge-reranker-base on CPU; the
+  embedder alone is ~2s). At brain scale (415 files, recall already
+  100%, gold usually at rank 1-3 pre-rerank), eval showed NO
+  measurable gain (100-set + reranker: MRR 0.817 / nDCG 0.863 vs
+  50-set no reranker: 0.8185 / 0.8616). Keep `reranker.enabled:
+  false`; only enable with a persistent serving process or a corpus
+  where recall is genuinely weak. Model choice: bge-reranker-base
+  (278M, 512 ctx, nDCG 0.699, ~92ms) fits 375-token chunks exactly;
+  bge-reranker-v2-m3 (568M, 8192 ctx but fine-tuned at 1024) is
+  overkill for our chunk size.
+- **Model caching inside one process.** Cross-encoders load once per
+  process via a module-level cache (`_RERANKER_CACHE` keyed by
+  model+max_length); loading per call made a 100-query eval take
+  13+ min. Same pattern applies to any heavy model: cache at module
+  level, never instantiate per call.
+- **Killing the SSH wrapper does NOT kill the remote python.** A
+  backgrounded `ssh ... python index.py/eval.py` whose local session
+  is killed leaves the remote process running and burning CPU (hit
+  twice this arc: reindex double-run and eval orphan). After killing
+  any background SSH job, verify with `ps aux | grep <script>` on the
+  VPS and `pkill -f <script>` the remote python explicitly.
+- **EmbeddingGemma is asymmetric.** Use `encode_query` /
+  `encode_document`, not plain `encode`, or quality silently drops.
+- **HF gating.** Before committing a pipeline to any HF model, probe:
+  `curl -s -o /dev/null -w "%{http_code}" https://huggingface.co/api/models/<org>/<model>`
+  -- 401/307 means gated/redirect; 200 means public. Prefer public
+  mirrors (e.g. unsloth repacks) over gated originals. Verified
+  sub-300M model comparison + decision data:
+  `references/embedding-model-comparison.md`.
+- **Reranker lives in query.py.** Config-gated stage 2
+  (`reranker:` block in config.yaml), graceful fallback to fused
+  results if it fails to load.
+- **rank-bm25 incompatible with Python 3.14.** `query.py` implements
+  BM25 inline (~60 lines, same IDF formula, k1/b params). No external
+  keyword-search dependency.
+- **HF Hub symlink warning on Windows.** Cosmetic. Suppress with
+  `HF_HUB_DISABLE_SYMLINKS_WARNING=1`.
+- **Stale index after brain push.** If another agent pushed new files
+  after your last build, `--check-freshness` reports STALE. Run
+  `git pull && python index.py` to catch up.
+- **ENT-ID collision in queue.log.** Two agents can derive the same
+  ENT-ID and both write it. The append-only design tolerates
+  duplicates; scan for duplicate ENT-IDs at preflight logbook read.
 - **First query is slow (model load).** `query.py` lazy-loads the
-  embedding model on first query (~2s warm-up). Subsequent queries
-  in the same process reuse the loaded model. For batch eval,
-  `eval.py` loads once and reuses.
-
+  embedder on first query (~2s warm-up); subsequent queries in the
+  same process reuse it. `eval.py` loads once.
 - **Don't commit generated files.** `heartbeat.json` and
-  `eval-results.json` are gitignored. Generated, not source. CI
-  would fail on non-ASCII content anyway.
+  `eval-results.json` are gitignored.
+- **Post-Hermes-update dependency breakage.** Hermes updates can
+  downgrade `huggingface-hub`, breaking sentence-transformers load.
+  Fix: `python -m pip install huggingface-hub -U`.
+- **Gold query staleness.** When new files ship, check whether they
+  should be added as additional gold files for existing queries (a
+  query can have multiple valid gold files). Otherwise MRR decline is
+  uninterpretable. When ADDING gold queries: verify each gold_file
+  exists AND is non-empty (an empty file passes `os.path.exists` but
+  has no chunks and can never be retrieved -- watchlist.md was a 0-byte
+  gold target). Also verify file paths against the live repo before
+  committing the set; guessed paths are wrong ~10% of the time.
+- **Heartbeat count source.** `index.py` writes the heartbeat `count`
+  field from `meta.json` (chunk count), never from the manifest file
+  count. Preserve this when modifying index.py.
 
 ## Cross-Links
 
-- `research/insights/brain-search-system.md` -- complete
-  finished-system blueprint
-- `research/proposals/brain-index-search-proposal.md` --
-  original proposal (v2, all open questions resolved)
-- `research/insights/stale-index-problem.md` -- failure
-  class this system structurally prevents
-- `suggi-workstation` skill -- brain contribution workflow
-- Archive: `Suggi-Workstation/archive` > `hub-brain - github repo -
-  20.06.26/brain/_index/` -- proven prototype at scale (24,592 chunks)
+- `agentic-brain:research/insights/brain-search-system.md` -- finished-system blueprint
+- `agentic-brain:research/proposals/brain-index-search-proposal.md` -- original proposal
+- `agentic-brain:research/insights/stale-index-problem.md` -- staleness failure class
+- `brain-write` skills -- artifact writing workflow
