@@ -1,6 +1,6 @@
 # Education Learning -- Topics
 
-8 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
+9 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
 - [Assessment and Testing -- What We Measure Shapes What We Learn, and Most Tests Measure the Wrong Things](assessment-and-testing.md) -- [reviewed: never] -- Assessment is not a neutral measurement tool. It is the single most powerful lever for shaping student behavior, curriculum design, and institutional priorities in education. The backwash effect -- the principle that assessment drives learning more than any curriculum document -- means that what we choose to test determines what students choose to learn.
 
@@ -11,6 +11,8 @@
 - [Curriculum Design and Sequencing -- How the Architecture of Learning Progressions Determines What Students Actually Learn](curriculum-design-and-sequencing.md) -- [reviewed: never] -- Curriculum design is the engineering discipline of education: the decisions about what to teach, in what order, and at what depth determine whether learners build coherent knowledge structures or accumulate disconnected fragments. The sequencing of content is not a neutral administrative choice -- it is the primary mechanism by which cognitive load is managed, prerequisites are honored, and knowledge compounds across time.
 
 - [Deliberate Practice -- Why Expertise Is Not a Gift but a Method, and Why Most Practice Does Not Work](deliberate-practice.md) -- [reviewed: never] -- Deliberate practice is a specific, evidence-based method for developing expert performance, first identified by K. Anders Ericsson in his landmark 1993 study of elite violinists. The central finding is that expertise does not arise from innate talent or from the accumulation of experience alone -- it arises from a particular kind of practice: focused, effortful, designed to target specific weaknesses at the edge of current ability, and guided by immediate feedback.
+
+- [Economics of Education and Credentialing -- Education Creates Value Through Skills, Information, and Institutional Access](economics-of-education-and-credentialing.md) -- [reviewed: never] -- Education is an economic investment whose payoff cannot be reduced to a degree premium. It can develop productive knowledge, reveal information to employers who cannot directly observe productivity, and provide access to occupations and networks governed by formal qualifications. The economic value of a program therefore depends on completion, acquired capabilities, credential recognition, price,...
 
 - [The Feynman Technique and Learning Heuristics -- Why the Best Learning Methods Force You to Confront What You Do Not Know](feynman-technique-and-learning-heuristics.md) -- [reviewed: never] -- The most effective learning techniques share a single, uncomfortable property: they force the learner to confront the gap between what they think they know and what they can actually produce. The Feynman Technique (explain it simply, find the gaps, fill them, simplify further), the Leitner system (sort flashcards by difficulty, review what you are about to forget), the SQ3R method (survey,...
 
