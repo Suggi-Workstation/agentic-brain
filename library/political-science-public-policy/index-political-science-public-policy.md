@@ -1,6 +1,6 @@
 # Political Science Public Policy -- Topics
 
-11 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+12 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
 
 - [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: never] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules across their territory. Public administration is the discipline and practice that studies, designs, and reforms that apparatus. The central proposition of the field is that the organizational structure of the executive branch -- how officials are recruited, how...
 
@@ -15,6 +15,8 @@
 - [Interest Groups and Lobbying -- Organized Influence Systematically Biases Policy Toward Concentrated Interests](interest-groups-lobbying.md) -- [reviewed: never] -- Interest groups are organized associations that seek to influence public policy on behalf of shared constituencies. They are the primary mechanism through which societal interests are transmitted to government between elections, operating through direct lobbying, campaign finance, information provision, and public mobilization.
 
 - [Legislatures and Executive-Legislative Relations -- Why the Architecture of Lawmaking Determines Policy Outcomes](legislatures-executive-legislative-relations.md) -- [reviewed: never] -- Legislatures are the institutional arenas where collective preferences are aggregated into binding law, where executives are held accountable or given latitude, and where the structural rules of agenda control, committee jurisdiction, and veto power determine which policies emerge from the political process.
+
+- [Political Economy of Development -- Why Growth Depends on How Power Is Organized](political-economy-of-development.md) -- [reviewed: never] -- Political economy of development studies how the distribution of political power, the rules that constrain its use, and the capacity to implement those rules shape economic development. Its central claim is that development cannot be explained by policy technique alone: investments, public goods, and market exchange depend on political arrangements that determine who can make credible commitments, who can capture rents, and who can enforce collective decisions.
 
 - [Political Parties and Party Systems -- The Organizational Infrastructure of Democratic Competition](political-parties-party-systems.md) -- [reviewed: never] -- Political parties are the central intermediary institutions of modern democracy: they aggregate diffuse citizen preferences into coherent policy programs, recruit and select political leaders, structure legislative organization, and form or remove governments. Party systems -- the structured pattern of competition among parties -- are not mere aggregates of individual parties but interactive...
 
