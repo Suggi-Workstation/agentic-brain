@@ -22,13 +22,6 @@
 
 
 
-## Candidate: Social Movements and Collective Action
-- **Domain:** sociology-demography
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 9.0/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
-- **Scope:** Examines social movements and collective action as mechanisms of social and political change. Covers resource mobilization theory, political opportunity structures, framing processes, the free-rider problem, and the conditions under which diffuse grievances become organized movements. Analyzes the relationship between movements, institutions, and policy outcomes, from civil rights to labor to environmental activism. Connects sociology-demography and political-science through the collective dynamics that bridge social structure and formal politics.
-- **Status:** proposed
 
 ## Candidate: Customer Acquisition and Retention
 - **Domain:** business-management-strategy
