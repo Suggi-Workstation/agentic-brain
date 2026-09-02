@@ -1,0 +1,113 @@
+<!-- library.log archive -- ENT-293 to ENT-305
+     Moved from active log on 2026-09-02 02:35 UTC
+     Active log continues from ENT-306 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-293] | 2026-08-31 15:47 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 10 candidates proposed, 0 skipped (queue at 15/25 capacity).
+Candidates:
+- Mutual Funds and ETFs: The Architecture of Retail Capital Pooling (9.35): gap=9.5, compounding=9.0, timeliness=9.0, balance=10.0
+- Social Networks and Social Capital: How Connections Shape Opportunity (9.15): gap=9.5, compounding=9.0, timeliness=8.0, balance=10.0
+- Executive Compensation and Incentive Design: Pay as the Principal-Agent Lever (9.03): gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Federalism and Multi-Level Governance: Why the Distribution of Power Matters (9.03): gap=9.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Manufacturing Systems and Industrial Engineering: Lean, Quality, and Throughput (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Organizational Design and Decentralization: How Structure Follows Strategy (8.85): gap=9.0, compounding=9.0, timeliness=7.5, balance=10.0
+- Hedge Fund Structures: Fee Arrangements, Lockups, and Leverage (8.82): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Water and Wastewater Systems: Engineered Public Health Infrastructure (8.80): gap=9.5, compounding=8.0, timeliness=7.5, balance=10.0
+- Bureaucracy and Public Administration: The Executive Machinery of Governance (8.72): gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0
+- Urbanization and City Life: The Sociology of the Urban Environment (8.70): gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0
+Domain balance: business-management-strategy, engineering-infrastructure, investment-vehicles-fund-structures, political-science-public-policy, sociology-demography (1 topic each) to books, geopolitics (11 topics each).
+
+## [ENT-294] | 2026-08-31 16:08 UTC | Morpheus | library | ref: library/candidate-queue.md
+Discovery cycle: 4 domains scanned, 10 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Berkshire Hathaway Annual Reports 2016-2025: A Decade of Capital Allocation and Leadership Transition (8.3): gap=9.5, compounding=10.0, timeliness=9.0, balance=1.1
+- Mohnish Pabrai: Cloning, Concentration, and the Dhandho Investor (7.7): gap=9.5, compounding=9.0, timeliness=7.5, balance=1.1
+- Nick Sleep and the Nomad Investment Partnership: Patient Ownership and Scale Economies Shared (7.9): gap=9.5, compounding=9.5, timeliness=8.0, balance=1.1
+- Berkshire Hathaway's Apple Investment: How Consumer Loyalty Reframed a Technology Company (7.9): gap=9.0, compounding=9.5, timeliness=9.0, balance=1.1
+- Berkshire Hathaway's GEICO Investment: From Early Insight to Controlled Insurance Engine (7.8): gap=9.5, compounding=9.5, timeliness=7.5, balance=1.1
+- Berkshire Hathaway's See's Candies Acquisition: The Deal That Changed Buffett's Investment Standard (7.7): gap=9.0, compounding=10.0, timeliness=7.0, balance=1.1
+- Berkshire Hathaway as a Permanent-Capital Conglomerate: Structure, Decentralization, and Acquisition Currency (9.4): gap=9.5, compounding=10.0, timeliness=8.0, balance=10.0
+- Nomad Investment Partnership: Fee Structure, Patient Capital, and Deliberate Closure (9.0): gap=9.5, compounding=9.0, timeliness=7.0, balance=10.0
+- The Dhandho Framework: Low-Risk, High-Uncertainty Bets and Asymmetric Payoffs (7.8): gap=9.5, compounding=9.0, timeliness=8.0, balance=1.0
+- Scale Economies Shared: Why Passing Efficiency Gains to Customers Can Deepen a Moat (8.3): gap=9.5, compounding=10.0, timeliness=9.0, balance=1.0
+Domain balance: investment-vehicles-fund-structures (1 topic) to value-investing (10 topics).
+
+## [ENT-295] | 2026-08-31 16:42 UTC | Library Runner | library | ref: library/business-management-strategy/unit-economics-business-model-design.md | see: candidate-unit-economics-business-model-design-20260831
+Wrote topic Unit Economics and Business Model Design: How Revenue Per Unit Drives Scalability to business-management-strategy. Weighted score: 9.30/10.0
+(core=9.5, scope=9.5, value=9.0, authority=8.5).
+Similarity overlap: 10%.
+Sources: 19 (3 high, 15 medium, 1 low).
+Cross-references: 4 topics.
+
+## [ENT-296] | 2026-08-31 17:05 UTC | Library Runner | library | ref: library/sociology-demography/social-stratification-and-mobility.md | see: candidate-social-stratification-and-mobility-20260831
+Wrote topic Social Stratification and Mobility: Class, Status, and the Architecture of Opportunity to sociology-demography. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 10%.
+Sources: 15 (12 high, 3 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-297] | 2026-08-31 17:18 UTC | Library Runner | library | ref: library/political-science-public-policy/electoral-systems-voting-mechanics.md | see: candidate-electoral-systems-voting-mechanics-20260831
+Wrote topic Electoral Systems and Voting Mechanics: How Rules Shape Political Outcomes to political-science-public-policy. Weighted score: 9.25/10.0
+(core=9.5, scope=9.5, value=8.5, authority=9.0).
+Similarity overlap: 10%.
+Sources: 12 (11 high, 1 medium, 0 low).
+Cross-references: 1 topics.
+
+## [ENT-298] | 2026-08-31 17:31 UTC | Library Runner | library | ref: library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md | see: candidate-insurance-float-as-investment-capital-20260831
+Wrote topic Insurance Float as Investment Capital: The Berkshire Model of Permanent Capital to investment-vehicles-fund-structures. Weighted score: 9.40/10.0
+(core=9.5, scope=9.5, value=9.5, authority=8.5).
+Similarity overlap: 20%.
+Sources: 10 (7 high, 3 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-299] | 2026-08-31 18:03 UTC | Library Runner | library | ref: library/engineering-infrastructure/reliability-engineering-failure-analysis.md | see: candidate-reliability-engineering-failure-analysis-20260831
+Wrote topic Reliability Engineering and Failure Analysis: Designing Systems That Do Not Fail to engineering-infrastructure. Weighted score: 9.25/10.0
+(core=9.5, scope=9.5, value=8.5, authority=9.0).
+Similarity overlap: 15%.
+Sources: 12 (8 high, 4 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-300] | 2026-08-31 18:16 UTC | Library Runner | library | ref: library/investment-vehicles-fund-structures/mutual-funds-etfs-retail-capital-pooling.md | see: candidate-mutual-funds-etfs-retail-capital-pooling-20260831
+Wrote topic Mutual Funds and ETFs: The Architecture of Retail Capital Pooling to investment-vehicles-fund-structures. Weighted score: 9.2/10.0
+(core=9.0, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 30%.
+Sources: 12 (10 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-301] | 2026-08-31 18:35 UTC | Library Runner | library | ref: library/sociology-demography/social-networks-and-social-capital.md | see: candidate-social-networks-and-social-capital-20260831
+Wrote topic Social Networks and Social Capital: How Connections Shape Opportunity to sociology-demography. Weighted score: 9.4/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.5).
+Similarity overlap: 25%.
+Sources: 12 (12 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-302] | 2026-08-31 18:48 UTC | Library Runner | library | ref: library/business-management-strategy/executive-compensation-incentive-design.md | see: candidate-executive-compensation-incentive-design-20260831
+Wrote topic Executive Compensation and Incentive Design: Pay as the Principal-Agent Lever to business-management-strategy. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 14 (11 high, 3 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-303] | 2026-08-31 19:01 UTC | Library Runner | library | ref: library/political-science-public-policy/federalism-multi-level-governance.md | see: candidate-federalism-multi-level-governance-20260831
+Wrote topic Federalism and Multi-Level Governance: Why the Distribution of Power Matters to political-science-public-policy. Weighted score: 9.08/10.0
+(core=9.5, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: 20%.
+Sources: 18 (12 high, 5 medium, 1 low).
+Cross-references: 3 topics.
+
+## [ENT-304] | 2026-08-31 19:17 UTC | Library Runner | library | ref: library/engineering-infrastructure/manufacturing-systems-industrial-engineering.md | see: candidate-manufacturing-systems-industrial-engineering-20260831
+Wrote topic Manufacturing Systems and Industrial Engineering: Lean, Quality, and Throughput to engineering-infrastructure. Weighted score: 8.98/10.0
+(core=9.5, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: 30%.
+Sources: 10 (7 high, 3 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-305] | 2026-08-31 19:34 UTC | Library Runner | library | ref: library/business-management-strategy/organizational-design-decentralization.md | see: candidate-organizational-design-decentralization-20260831
+Wrote topic Organizational Design and Decentralization: How Structure Follows Strategy to business-management-strategy. Weighted score: 9.2/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.5).
+Similarity overlap: 15%.
+Sources: 13 (12 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
