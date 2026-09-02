@@ -1,6 +1,6 @@
 # Investment Vehicles Fund Structures -- Topics
 
-8 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+9 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: never] -- Berkshire Hathaway is a publicly traded conglomerate holding company that owns dozens of wholly owned operating subsidiaries alongside a portfolio of publicly traded equities, funded by permanent equity capital, insurance float, and retained earnings rather than by investor commitments or redeemable shares.
 
@@ -17,4 +17,6 @@
 - [The Nomad Investment Partnership -- How Fee Structure, Patient Capital, and Deliberate Closure Made a Vehicle That Compounded Differently Than Any Fund](nomad-investment-partnership-fee-structure-patient-capital-deliberate-closure.md) -- [reviewed: never] -- The Nomad Investment Partnership (2001-2014) was a London-based investment partnership that compounded investor capital at approximately 20.8 percent per year net of fees versus 6.5 percent for the MSCI World Index, a 921 percent total return against 117 percent for the index. Its structural design -- a cost-reimbursement management fee capped at 1 percent, a 20 percent performance fee charged...
 
 - [Private Equity and Venture Capital Fund Structures -- How the LP-GP Partnership, Carried Interest, and the J-Curve Shape Capital Allocation](pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md) -- [reviewed: never] -- Private equity and venture capital funds pool capital from passive limited partners under an active general partner, then deploy it into private companies over a decade-long closed-end lifecycle. The LP-GP partnership architecture, carried interest compensation, distribution waterfalls, and the J-curve return pattern are not incidental features -- they are the structural machinery that determines...
+
+- [REITs -- Why Mandatory Distribution and Pass-Through Taxation Create a Distinct Real Estate Vehicle With Structural Growth Constraints](reits-real-estate-investment-trusts.md) -- [reviewed: never] -- Real Estate Investment Trusts (REITs) are corporate entities that own, operate, or finance income-producing real estate and qualify for pass-through tax treatment under Subchapter M of the Internal Revenue Code. In exchange for distributing at least 90 percent of taxable income to shareholders as dividends, a REIT pays little or no corporate-level tax.
 
