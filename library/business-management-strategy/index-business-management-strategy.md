@@ -1,6 +1,6 @@
 # Business Management Strategy -- Topics
 
-9 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
+10 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
 
 - [Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes](corporate-governance-board-effectiveness.md) -- [reviewed: never] -- Corporate governance is the system of rules, practices, and structures by which a company is directed and controlled. It addresses the fundamental problem that arises whenever ownership and management are separated: the people who own the firm (principals) are not the same people who run it (agents), and their interests diverge.
 
@@ -9,6 +9,8 @@
 - [Executive Compensation and Incentive Design -- Why Pay Is the Primary Lever for Aligning Managers With Owners](executive-compensation-incentive-design.md) -- [reviewed: never] -- Executive compensation is the principal mechanism by which the owners of a corporation attempt to align the interests of the managers who run it with their own. When ownership and control are separated -- the defining condition of the modern public corporation -- the people who decide how capital is deployed are not the people who own it, and their interests diverge systematically.
 
 - [Mergers and Acquisitions as Strategy -- Why Buying Growth So Often Destroys Value](mergers-and-acquisitions-as-strategy.md) -- [reviewed: never] -- Mergers and acquisitions (M&A) are the most consequential and most destructive capital allocation decision a company can make. An acquisition is a capital budgeting decision executed at unprecedented scale and speed: a single transaction can redirect billions of dollars of shareholder capital, reshape a competitive landscape, and determine a firm's trajectory for decades.
+
+- [Organizational Culture and Incentive Systems -- Why the Behavioral Infrastructure Determines Whether Strategy Translates Into Action](organizational-culture-incentive-systems.md) -- [reviewed: never] -- Organizational culture is the system of shared assumptions, values, and norms that governs how people in an organization behave when formal rules are absent, ambiguous, or contradicted. Incentive systems are the deliberate mechanisms -- financial and non-financial, formal and informal -- through which an organization rewards, punishes, and signals what it actually values.
 
 - [Organizational Design and Decentralization -- Why the Distribution of Authority Determines Whether a Firm Can Execute Its Strategy](organizational-design-decentralization.md) -- [reviewed: never] -- Organizational design is the deliberate arrangement of a firm's structure -- its grouping of work, reporting lines, decision rights, and coordination mechanisms -- so that the organization can execute its strategy. Decentralization is the most consequential design choice within it: how far down the hierarchy authority and information are pushed, and how much autonomy local managers retain relative to a central headquarters.
 
