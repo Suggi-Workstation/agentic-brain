@@ -25,14 +25,6 @@
 
 
 
-## Candidate: Turnaround Management and Crisis Management
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Analyzes how firms recover from financial distress and strategic crisis. Covers turnaround strategies including operational restructuring, asset divestiture, and financial reorganization, crisis management frameworks, early warning signals of decline, and the leadership challenges of executing under existential pressure. Examines the principal-agent dynamics of distress, the role of boards and creditors, and the empirical evidence on turnaround success rates. Connects corporate governance, resource allocation, and organizational design through the high-stakes environment where execution discipline matters most.
-- **Status:** proposed
-
 ## Candidate: Sociology of Work and Labor Markets
 - **Domain:** sociology-demography
 - **Proposed by:** Library Runner
