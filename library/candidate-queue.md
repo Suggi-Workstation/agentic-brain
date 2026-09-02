@@ -25,14 +25,6 @@
 
 
 
-## Candidate: Economics of Education and Credentialing: Human Capital, Signaling, and Returns
-- **Domain:** education-learning
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.00/10.0 (gap=8.5, compounding=9.0, timeliness=8.0, balance=5.0)
-- **Scope:** Analyzes education as an economic investment and signaling mechanism. Covers human capital theory, credential inflation, the sheepskin effect, returns to education, student debt, and the tension between vocational and liberal education. Connects comparative education systems, assessment, and labor economics through the market forces that shape educational demand and credential value.
-- **Status:** proposed
-
 ## Candidate: Political Economy of Development
 - **Domain:** political-science-public-policy
 - **Proposed by:** Library Runner
