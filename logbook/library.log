@@ -408,3 +408,19 @@ Wrote topic Business Development Companies (BDCs) to investment-vehicles-fund-st
 Similarity overlap: 15%.
 Sources: 14 (9 high, 5 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-357] | 2026-09-02 03:47 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 4 candidates proposed, 6 dropped (queue capped at 25).
+Candidates:
+- Unemployment and Labor Markets (9.25): gap=9.0, compounding=9.0, timeliness=9.5, balance=10.0
+- Time Series Analysis (9.15): gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0
+- Optimization Theory (9.05): gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0
+- Philosophy of Mind (9.02): gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0
+Dropped (below cut):
+- Behavioral Aspects of Risk Tolerance (8.95): gap=9.0, compounding=9.0, timeliness=8.0, balance=10.0
+- Ecosystem Science and Ecology (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- GDP Measurement and Economic Growth (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Hedge Fund Risk Management (8.62): gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Logic and Critical Thinking (8.60): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- Natural Disaster Mechanisms (8.60): gap=8.5, compounding=8.0, timeliness=8.5, balance=10.0
+Domain balance: ethics-philosophy, mathematics-statistics, portfolio-risk-management, earth-climate, macro-micro (8 topics each) to value-investing (18 topics).

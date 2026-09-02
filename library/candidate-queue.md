@@ -185,3 +185,35 @@
 - **Discovery score:** 8.48/10.0 (gap=8.5, compounding=9.0, timeliness=8.5, balance=7.5)
 - **Scope:** Examines the ocean as a dynamic physical and biological system central to Earth's climate. Covers thermohaline circulation, the Meridional Overturning Circulation, ocean heat transport, marine biogeochemical cycles, and the response of marine ecosystems to warming and acidification. Connects the carbon cycle, atmospheric science, and biodiversity through the ocean as the planet's largest heat and carbon reservoir.
 - **Status:** proposed
+
+## Candidate: Unemployment and Labor Markets -- Why Joblessness Is the Single Most Contested Indicator in Macroeconomics
+- **Domain:** macro-micro
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 9.25/10.0 (gap=9.0, compounding=9.0, timeliness=9.5, balance=10.0)
+- **Scope:** Examines unemployment as both a macroeconomic indicator and a social condition. Covers unemployment typologies (frictional, structural, cyclical), the Phillips curve debate, NAIRU, hysteresis, labor force participation, and the mismatch between measured joblessness and actual labor slack. Connects business cycles, inflation dynamics, and fiscal policy through the labor market as the transmission mechanism between macroeconomic policy and human welfare.
+- **Status:** proposed
+
+## Candidate: Time Series Analysis -- Methods for Modeling Data That Changes Over Time
+- **Domain:** mathematics-statistics
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
+- **Scope:** Examines the statistical methods for analyzing data ordered by time. Covers ARIMA models, stationarity and differencing, autocorrelation and partial autocorrelation, seasonal decomposition, GARCH volatility models, and spectral analysis. Connects regression analysis, Bayesian statistics, and probability theory through the temporal dependence structure that standard cross-sectional methods cannot capture.
+- **Status:** proposed
+
+## Candidate: Optimization Theory -- The Mathematics of Finding the Best Solution Under Constraints
+- **Domain:** mathematics-statistics
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
+- **Scope:** Examines the mathematical frameworks for maximizing or minimizing objectives subject to constraints. Covers linear programming, convex optimization, Lagrange multipliers, gradient-based methods, duality theory, and combinatorial optimization. Connects linear algebra, calculus, and information theory through the optimization problems that underpin machine learning, portfolio construction, and operations research.
+- **Status:** proposed
+
+## Candidate: Philosophy of Mind -- The Hard Problem of Consciousness and Why It Remains Unresolved
+- **Domain:** ethics-philosophy
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
+- **Scope:** Examines the philosophical questions about the nature of mind, consciousness, and mental states. Covers the mind-body problem, dualism vs physicalism, functionalism, the hard problem of consciousness, intentionality, and the implications of AI for theories of mind. Connects epistemology, free will, and AI ethics through the question of what it means to have a first-person experience.
+- **Status:** proposed
