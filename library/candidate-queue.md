@@ -22,14 +22,6 @@
 
 
 
-## Candidate: Welfare State Design and Social Policy
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 9.2/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
-- **Scope:** Analyzes the welfare state as a set of institutional choices for redistributing resources and managing social risk. Covers social insurance, healthcare, pensions, unemployment benefits, welfare-state typologies (Esping-Andersen), the fiscal sustainability of entitlement programs, and the trade-offs between equality and efficiency. Connects state capacity, bureaucracy, and political economy through the policy instruments that define the modern social contract.
-- **Status:** proposed
-
 ## Candidate: Social Movements and Collective Action
 - **Domain:** sociology-demography
 - **Proposed by:** Library Runner

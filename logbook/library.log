@@ -429,3 +429,10 @@ Candidates:
 - Sovereign Debt Dynamics (8.85): gap=9.5, compounding=8.5, timeliness=9.0, balance=7.5
 - Regulatory Institutions and Independent Agencies (8.83): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
 Domain balance: business-management-strategy, engineering-infrastructure, political-science-public-policy, sociology-demography (6 topics each) to value-investing (18 topics).
+
+## [ENT-346] | 2026-09-02 00:31 UTC | Library Runner | library | ref: library/political-science-public-policy/welfare-state-design-and-social-policy.md | see: candidate-welfare-state-design-and-social-policy-20260901
+Wrote topic Welfare State Design and Social Policy to political-science-public-policy. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 14 (11 high, 3 medium, 0 low).
+Cross-references: 5 topics.
