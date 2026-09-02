@@ -25,15 +25,6 @@ and anti-patterns. The Writer reads it as a format specification; the
 Reviewer uses it as the format reference when refreshing content. This
 file is the single source of format truth for library topics.
 
-## Relationship to the library-writer Skill
-
-This file is the format specification AND the compliance validator. The
-production procedure (locate brain, pick candidate, research, score,
-write, log, commit -- no clone, no push; the watcher pushes) lives in
-`governance/skills/library-writer.md`; that skill references this
-file's Library Topic Checklist as its format gate (R8: reference, never
-duplicate). Keep the division: spec + checklist here, procedure there.
-
 ## Global Formatting Rules
 
 The entire GitHub org is plain 7-bit ASCII, lowercase, hyphen-delimited.
