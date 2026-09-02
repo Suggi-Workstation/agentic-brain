@@ -24,13 +24,6 @@
 
 
 
-## Candidate: Business Development Companies (BDCs)
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.0/10.0 (gap=9.0, compounding=7.5, timeliness=7.5, balance=6.7)
-- **Scope:** Examines business development companies as regulated investment vehicles that provide capital to mid-market companies with pass-through tax treatment and high distribution yields. Covers the BDC structure, regulated investment company status, credit risk concentration, external vs internal management, and the trade-offs between yield and NAV erosion. Analyzes how BDCs fit between private credit and public equity in the alternative-vehicle landscape.
-- **Status:** proposed
 
 ## Candidate: Comparative Political Regimes: Democracies, Autocracies, and Hybrid Systems
 - **Domain:** political-science-public-policy
