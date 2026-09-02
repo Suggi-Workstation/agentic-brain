@@ -144,7 +144,7 @@ Collect 6+ sources (at least 4 high/medium authority, per template G4). Evaluate
 Synthesize into a coherent topic file following the body structure
 defined in `governance/template-library.md`.
 
-### 6. Score the candidate (4 dimensions, v2 weights)
+### 6. Score the candidate (4 dimensions; writing weights)
 
 Before writing, score the candidate topic across four dimensions
 using a 0.0-10.0 scale:
