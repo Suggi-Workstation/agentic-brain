@@ -150,7 +150,7 @@ A good gap topic:
 - Has not been proposed before (check candidate queue).
 - Has not been rejected before (check library.log).
 
-### 7. Score each candidate (discovery weight, v2: 4 dimensions)
+### 7. Score each candidate (4 dimensions; discvoery weights)
 
 Score each candidate across four dimensions using a 0.0-10.0 scale:
 
