@@ -1,6 +1,6 @@
 # Political Science Public Policy -- Topics
 
-6 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+7 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
 
 - [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: never] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules across their territory. Public administration is the discipline and practice that studies, designs, and reforms that apparatus. The central proposition of the field is that the organizational structure of the executive branch -- how officials are recruited, how...
 
@@ -13,4 +13,6 @@
 - [Political Parties and Party Systems -- The Organizational Infrastructure of Democratic Competition](political-parties-party-systems.md) -- [reviewed: never] -- Political parties are the central intermediary institutions of modern democracy: they aggregate diffuse citizen preferences into coherent policy programs, recruit and select political leaders, structure legislative organization, and form or remove governments. Party systems -- the structured pattern of competition among parties -- are not mere aggregates of individual parties but interactive...
 
 - [State Capacity -- Why Some Governments Can Deliver and Others Cannot](state-capacity.md) -- [reviewed: never] -- State capacity is the ability of a government to implement policy, deliver public services, and enforce rules across the entirety of its territory. It is not the same as state power in the sense of raw coercion: a state may wield enormous despotic authority over its citizens yet remain unable to collect taxes, build roads, or administer a census.
+
+- [Welfare State Design and Social Policy -- Why Institutional Architecture Determines Whether Redistribution Succeeds](welfare-state-design-and-social-policy.md) -- [reviewed: never] -- The welfare state is the set of institutional choices through which governments redistribute resources, manage social risk, and structure the relationship between citizens, markets, and families. Its design is not a single variable of spending level but a multidimensional architecture of program type, financing mechanism, benefit structure, and eligibility rules that determines who is protected, how generously, and at whose cost.
 
