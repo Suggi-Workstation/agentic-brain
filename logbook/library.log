@@ -464,3 +464,19 @@ Wrote topic Mergers and Acquisitions as Strategy to business-management-strategy
 Similarity overlap: 25%.
 Sources: 14 (12 high, 2 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-351] | 2026-09-02 01:45 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 5 candidates proposed, 10 dropped (queue capped at 25).
+Candidates:
+- Agent Protocol Design: Standards for Agent Interoperability and Communication (8.75): gap=9.0, compounding=8.5, timeliness=9.5, balance=7.5
+- Systems Engineering: The Discipline of Designing Complex Systems Under Constraints (8.73): gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0
+- Self-Improving Agent Systems: Agents That Learn From Their Own Execution (8.65): gap=9.0, compounding=8.5, timeliness=9.0, balance=7.5
+- Crime and Deviance: Social Sources of Criminal Behavior and Institutional Response (8.62): gap=9.0, compounding=8.5, timeliness=8.0, balance=8.6
+- Oceanography and Marine Systems: Ocean Circulation, Thermohaline Dynamics, and Marine Ecosystems (8.48): gap=8.5, compounding=9.0, timeliness=8.5, balance=7.5
+Dropped (below cut):
+- Sociology of Religion: Religion as Social Institution and Source of Collective Meaning (8.39): gap=9.0, compounding=8.0, timeliness=7.5, balance=8.6
+- Materials Engineering: Properties, Selection, and Degradation of Engineering Materials (8.38): gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Operational Excellence and Process Design: Lean, Six Sigma, and Continuous Improvement (8.35): gap=9.0, compounding=8.5, timeliness=7.5, balance=7.5
+- Higher Education and University Systems: Economics, Credentials, and the Research Function (8.35): gap=8.5, compounding=8.5, timeliness=8.5, balance=7.5
+- Knowledge Organization and Taxonomies: How Structured Knowledge Enables Learning and Discovery (8.28): gap=8.5, compounding=9.0, timeliness=7.5, balance=7.5
+Domain balance: engineering-infrastructure (6 topics) to business-management-strategy, coding-agentic-ai, earth-climate, education-learning (8 topics each).

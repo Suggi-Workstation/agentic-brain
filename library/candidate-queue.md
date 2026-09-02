@@ -182,3 +182,44 @@
 - **Discovery score:** 8.83/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
 - **Scope:** Examines the design, independence, and accountability of regulatory agencies and independent administrative bodies. Covers the rationale for delegating authority to technocratic regulators, the trade-offs between independence and democratic accountability, agency capture, and institutional variations across sectors and countries. Analyzes how regulatory design affects policy outcomes in finance, utilities, telecommunications, and environmental protection. Connects bureaucracy, state capacity, and public policy design through the institutional architecture that operates between legislative mandate and implementation.
 - **Status:** proposed
+
+
+## Candidate: Agent Protocol Design -- Standards for Agent Interoperability and Communication
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 8.75/10.0 (gap=9.0, compounding=8.5, timeliness=9.5, balance=7.5)
+- **Scope:** Examines the protocols and standards that enable AI agents to communicate, interoperate, and coordinate across different frameworks and vendors. Covers emerging protocols (MCP, A2A, ACP), message-passing patterns, capability negotiation, context sharing, and the trade-offs between standardization and flexibility. Connects multi-agent orchestration, tool use, and skill systems through the communication layer that determines whether agents from different ecosystems can collaborate.
+- **Status:** proposed
+
+## Candidate: Systems Engineering -- The Discipline of Designing Complex Systems Under Constraints
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 8.73/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
+- **Scope:** Examines systems engineering as the discipline that integrates civil, mechanical, electrical, and other engineering domains into coherent complex systems. Covers requirements engineering, interface management, trade-off analysis, the V-model and iterative design, verification and validation, and the systems lifecycle from concept through decommissioning. Connects reliability engineering, manufacturing systems, and infrastructure lifecycle management through the integrating framework that governs how complex engineered systems are designed and delivered.
+- **Status:** proposed
+
+## Candidate: Self-Improving Agent Systems -- Agents That Learn From Their Own Execution
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 8.65/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=7.5)
+- **Scope:** Examines agent architectures that improve their own performance through execution feedback, self-reflection, and automated skill or prompt refinement. Covers reflexion patterns, automated prompt optimization, experience replay, skill synthesis from task traces, and the trade-offs between self-modification and stability. Connects agent memory, observability, and skill systems through the feedback loop that turns execution data into structural improvement.
+- **Status:** proposed
+
+## Candidate: Crime and Deviance -- Social Sources of Criminal Behavior and Institutional Response
+- **Domain:** sociology-demography
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 8.62/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=8.6)
+- **Scope:** Examines crime and deviance as social phenomena shaped by structural conditions, institutional responses, and collective norms. Covers strain theory, social disorganization, labeling theory, the incarceration-politics nexus, and the empirical debate over deterrence versus rehabilitation. Connects social stratification, urbanization, and social movements through the institutions that define and respond to deviant behavior.
+- **Status:** proposed
+
+## Candidate: Oceanography and Marine Systems -- Ocean Circulation, Thermohaline Dynamics, and Marine Ecosystems
+- **Domain:** earth-climate
+- **Proposed by:** Library Runner
+- **Date:** 2026-09-02
+- **Discovery score:** 8.48/10.0 (gap=8.5, compounding=9.0, timeliness=8.5, balance=7.5)
+- **Scope:** Examines the ocean as a dynamic physical and biological system central to Earth's climate. Covers thermohaline circulation, the Meridional Overturning Circulation, ocean heat transport, marine biogeochemical cycles, and the response of marine ecosystems to warming and acidification. Connects the carbon cycle, atmospheric science, and biodiversity through the ocean as the planet's largest heat and carbon reservoir.
+- **Status:** proposed
