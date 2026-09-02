@@ -1,8 +1,10 @@
 # Political Science Public Policy -- Topics
 
-8 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+9 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
 
 - [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: never] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules across their territory. Public administration is the discipline and practice that studies, designs, and reforms that apparatus. The central proposition of the field is that the organizational structure of the executive branch -- how officials are recruited, how...
+
+- [Comparative Political Regimes -- How Institutional Design Separates Democracies From Autocracies and Why the Boundary Is Blurring](comparative-political-regimes.md) -- [reviewed: never] -- Political regimes are the sets of formal and informal rules that determine who holds power, how power is exercised, and how rulers are held accountable. The comparative study of regimes classifies political systems into democracy, autocracy, and an increasingly prominent hybrid zone that combines elements of both.
 
 - [Corruption, Accountability, and Institutional Quality -- Why Governance Failures Persist and How Systems Resist Reform](corruption-accountability-institutional-quality.md) -- [reviewed: never] -- Corruption is the abuse of entrusted public power for private gain, and it constitutes one of the most persistent and consequential governance failures across political systems. It distorts resource allocation, erodes public trust, weakens state capacity, and creates poverty traps that lock countries into low-development equilibria.
 
