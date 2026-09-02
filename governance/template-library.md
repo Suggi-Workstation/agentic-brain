@@ -62,7 +62,7 @@ in the published topic file.
       `awk '/^## /{sec=$2; next} {c[sec]+=NF} END{for (s in c) print s, c[s]}' <topic-file>` (PASS / HALT)
 - [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Sources (PASS / HALT)
 - [ ] Body sections follow order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional sections) -> Sources -> See Also. No content after `## See Also`. (G11) (PASS / HALT)
-- [ ] `## Sources` section present with 6+ sources. Each source annotated with authority rating (high/medium/low). At least 4 of 6+ sources are high or medium. (G4) (PASS / HALT)
+- [ ] `## Sources` section present with 8+ sources. Each source annotated with authority rating (high/medium/low). At least 6 of 8+ sources are high. (G4) (PASS / HALT)
 - [ ] `## See Also` section present with at least 1 cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
 - [ ] Cross-reference targets verified: each path in `## See Also` and `links:` frontmatter confirmed to exist in the brain clone via `ls <path>` before committing (G5) (PASS / HALT)
 - [ ] Every factual claim traceable to a source in Sources. Synthesized claims are labeled as such. (G3) (PASS / HALT)
@@ -265,9 +265,8 @@ Authority ratings:
 - `[low]` -- personal blogs, forums, unattributed content, sources
   with no identifiable author or institution.
 
-At least 6 sources required. At least 4 of 6+ sources must be `[high]`
-or `[medium]`. A topic sourced entirely from `[low]` authority sources
-fails G4.
+At least 8 sources required. At least 6 of 8+ sources must be `[high]`.
+A topic with fewer than 6 `[high]` authority sources fails G4.
 
 ## See Also
 
@@ -308,9 +307,9 @@ and preserves the required structure during rewrites.
   source in the Sources section. Synthesized claims are labeled as
   such. No orphan facts.
 - **G4 -- Sources Have Authority Ratings:** Every source entry includes
-  a `[high]`, `[medium]`, or `[low]` rating. At least 4 of the 6+
-  sources must be `[high]` or `[medium]`. A topic sourced entirely
-  from `[low]` authority sources fails this gate.
+  a `[high]`, `[medium]`, or `[low]` rating. At least 6 of the 8+
+  sources must be `[high]`. A topic with fewer than 6 `[high]`
+  authority sources fails this gate.
 - **G5 -- Cross-references Exist AND Are Valid:** At least one link to a
   related library topic or brain artifact. Zero links = isolated knowledge
   that does not compound. Every cross-referenced path MUST point to a file
@@ -355,7 +354,7 @@ and preserves the required structure during rewrites.
 |---|---|---|
 | Title as label | "Loss Aversion" -- nothing to agree or disagree with. | Make a claim: "Loss Aversion -- Why Losses Hurt Twice as Much as Gains" |
 | Sourceless claims | "Research shows that..." without a citation. | Every claim traces to a source in the Sources section. |
-| All low-authority sources | Every source is a blog or forum post. | At least 4 of 6+ sources must be high or medium authority. |
+| All low-authority sources | Every source is a blog or forum post. | At least 6 of 8+ sources must be high authority. |
 | No cross-references | Topic floating in isolation. | Link to at least one related topic or brain artifact. |
 | Topic outside anchor scope | Writer did not read the domain anchor before writing. | Read anchor-<domain>.md before writing. Verify In/Out scope. |
 | Missing frontmatter fields | `domain` or `tags` omitted. | All 7 creation fields mandatory. `reviewed` OMITTED from the initial write (added later by Reviewer). |
@@ -501,6 +500,16 @@ away means accepting the loss).
    Basis of Loss Aversion in Decision-Making Under Risk." Science,
    315(5811), 515-518. [high]
 
+7. Tversky, A. & Kahneman, D. (1991). "Loss Aversion in Riskless
+   Choice: A Reference-Dependent Model." Quarterly Journal of
+   Economics, 106(4), 1039-1061.
+   https://doi.org/10.2307/2937956 [high]
+
+8. Kahneman, D., Knetsch, J. L., & Thaler, R. H. (1990).
+   "Experimental Tests of the Endowment Effect and the Coase Theorem."
+   Journal of Political Economy, 98(6), 1325-1348.
+   https://doi.org/10.1086/261737 [high]
+
 ## See Also
 
 - `library/psychology-behavior/cognitive-biases.md` -- broader category
@@ -515,7 +524,7 @@ away means accepting the loss).
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 2 | 2026-08-31 | Morpheus | Replaced obsolete Auditor metadata with Reviewer-owned `reviewed` dates, removed the mutable domain count, and aligned the template with the current three-skill pipeline. |
+| 3 | 2026-09-02 | Morpheus | Raised the source gate to 8+ sources with at least 6 high-authority sources. |
 
 ---
 

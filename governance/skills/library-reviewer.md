@@ -272,12 +272,9 @@ Domain coverage: reviewed across N domains.
 
 Increment ENT counter from the last entry in library.log.
 
-Before appending, check whether the file already ends with a blank
-line. If the last character is a newline (the file has a trailing
-blank line from the previous entry), append directly without adding
-another blank line. If it is not, add ONE blank line, then append
-your entry. Never add a second blank line -- double gaps between
-entries are a format violation.
+Before append: EOF MUST be `<previous final body line>\n`.
+Append `\n## [ENT-NNN]` followed by the entry body.
+After append: EOF MUST be `<new final body line>\n`.
 
 ### 9a. Log errors (if any)
 

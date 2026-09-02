@@ -134,7 +134,7 @@ are non-negotiable.
 ### 5. Research the topic
 
 Perform web search using the domain name + topic title as query terms.
-Collect 6+ sources (at least 4 high/medium authority, per template G4). Evaluate source quality:
+Collect 8+ sources (at least 6 high authority, per template G4). Evaluate source quality:
 - **High authority (8-10):** academic papers, reputable publications,
   primary sources, official data.
 - **Medium authority (4-7):** reputable blogs, industry publications,
@@ -236,12 +236,9 @@ Cross-references: N topics.
 
 Increment ENT counter from the last entry in library.log.
 
-Before appending, check whether the file already ends with a blank
-line. If the last character is a newline (the file has a trailing
-blank line from the previous entry), append directly without adding
-another blank line. If it is not, add ONE blank line, then append
-your entry. Never add a second blank line -- double gaps between
-entries are a format violation.
+Before append: EOF MUST be `<previous final body line>\n`.
+Append `\n## [ENT-NNN]` followed by the entry body.
+After append: EOF MUST be `<new final body line>\n`.
 
 ### 10a. Log errors (if any)
 
