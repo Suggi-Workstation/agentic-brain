@@ -25,14 +25,6 @@
 
 
 
-## Candidate: Agent Sandboxing and Security: Isolating AI Agents That Execute Code and Call Tools
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.15/10.0 (gap=9.0, compounding=8.0, timeliness=9.0, balance=5.0)
-- **Scope:** Examines the security patterns for running AI agents that execute code and call tools against external systems. Covers sandbox isolation, permission models, tool output sanitization, prompt injection defenses, and the trade-offs between capability and containment. Connects skill systems, tool use, and observability through the safety layer that determines whether agents can be deployed in production.
-- **Status:** proposed
-
 ## Candidate: Economics of Education and Credentialing: Human Capital, Signaling, and Returns
 - **Domain:** education-learning
 - **Proposed by:** Library Runner

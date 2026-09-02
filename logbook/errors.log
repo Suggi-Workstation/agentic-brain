@@ -99,3 +99,9 @@ Fix: classify every agent-system task as blueprint, runtime, or deployment
 before design. Blueprint-only work forbids runtime components unless separately
 authorized, and completion waits for dispatched independent gates to resolve.
 The flawed commits were reverted before the simple Forge was rebuilt.
+
+## [ENT-013] | 2026-09-02 10:12 UTC | Library Runner | error | ref: library/coding-agentic-ai/agent-sandboxing-and-security.md | see: ENT-364
+Read-only topic validation through execute_code was blocked by cron approval policy; a completed validation was expected. Normal terminal validation then passed the frontmatter, section, word-count, citation, and ASCII checks.
+
+## [ENT-014] | 2026-09-02 10:14 UTC | Library Runner | error | ref: library/coding-agentic-ai/agent-sandboxing-and-security.md | see: ENT-364
+Shared-log preflight reported a trailing blank line at EOF after append; the expected result was no whitespace errors. Removed the EOF blank while retaining exactly one blank line between log entries.

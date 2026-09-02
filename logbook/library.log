@@ -475,3 +475,10 @@ Dropped (below cut):
 - Natural Disaster Mechanisms (8.80): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
 - Learning Disabilities and Differentiated Instruction (8.70): gap=9.0, compounding=8.0, timeliness=8.0, balance=10.0
 Domain balance: portfolio-risk-management, earth-climate, macro-micro, education-learning, coding-agentic-ai (8 topics each) to value-investing (18 topics).
+
+## [ENT-364] | 2026-09-02 10:12 UTC | Library Runner | library | ref: library/coding-agentic-ai/agent-sandboxing-and-security.md | see: candidate-queue
+Wrote topic Agent Sandboxing and Security: Isolating AI Agents That Execute Code and Call Tools to coding-agentic-ai. Weighted score: 9.6/10.0
+(core=9.8, scope=9.8, value=9.4, authority=9.0).
+Similarity overlap: 35%.
+Sources: 8 (7 high, 1 medium, 0 low).
+Cross-references: 5 topics.
