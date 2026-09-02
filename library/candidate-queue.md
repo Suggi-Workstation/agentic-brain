@@ -25,13 +25,6 @@
 
 
 
-## Candidate: Race and Ethnicity as Social Systems
-- **Domain:** sociology-demography
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.93/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
-- **Scope:** Examines race and ethnicity as social constructs that structure inequality, identity, and group relations. Covers racial formation theory, ethnic boundary mechanisms, intersectionality, systemic discrimination, and the empirical measurement of racial disparities in education, employment, housing, and criminal justice. Analyzes how racial categories are produced and reproduced through institutions, and how they interact with class and gender in shaping life outcomes. Connects social stratification, social mobility, and sociology of work through categorical inequalities that determine access to opportunity.
-- **Status:** proposed
 
 ## Candidate: Telecommunications Physical Infrastructure
 - **Domain:** engineering-infrastructure

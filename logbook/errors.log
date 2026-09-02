@@ -105,3 +105,6 @@ Read-only topic validation through execute_code was blocked by cron approval pol
 
 ## [ENT-014] | 2026-09-02 10:14 UTC | Library Runner | error | ref: library/coding-agentic-ai/agent-sandboxing-and-security.md | see: ENT-364
 Shared-log preflight reported a trailing blank line at EOF after append; the expected result was no whitespace errors. Removed the EOF blank while retaining exactly one blank line between log entries.
+
+## [ENT-015] | 2026-09-02 15:25 UTC | Library Runner | error | ref: library/sociology-demography/race-and-ethnicity-as-social-systems.md | see: ENT-369
+Initial section-word-count command failed with a Python SyntaxError because an f-string expression contained a backslash; the expected section counts were not produced. Root cause: invalid inline formatting. A corrected count command completed and confirmed Background=740, Core Concepts=1820, Evidence=1206, and Implications=1314 words.
