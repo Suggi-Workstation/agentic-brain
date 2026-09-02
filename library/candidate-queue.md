@@ -25,14 +25,6 @@
 
 
 
-## Candidate: Interest Groups and Lobbying: Organized Influence on Policy
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.62/10.0 (gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines organized interests as intermediaries between citizens and the state. Covers pluralist vs neocorporatist models, lobbying techniques, revolving doors, campaign finance, and the empirical debate over whether interest groups enhance or distort representation. Connects electoral systems, legislatures, and bureaucracy through the pressure mechanisms that shape policy agendas.
-- **Status:** proposed
-
 ## Candidate: Organizational Culture and Incentive Systems: The Behavioral Infrastructure of Execution
 - **Domain:** business-management-strategy
 - **Proposed by:** Library Runner
