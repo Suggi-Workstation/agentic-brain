@@ -293,9 +293,7 @@ may follow.
 ## Quality Gates
 
 Every library topic passes these checks before the Writer commits.
-G1-G11 are the original gates from v2. G12 is a v3 addition
-(mandatory section quality). G13 (Writer Scoring Format) was removed in
-v4 when Writer Scoring was moved out of topic files into the logbook. The Writer verifies all 12 gates before committing; the
+The Writer verifies all 12 gates before committing; the
 Reviewer applies the relevant gates while refreshing existing content
 and preserves the required structure during rewrites.
 
