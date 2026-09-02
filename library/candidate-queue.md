@@ -24,14 +24,6 @@
 
 
 
-## Candidate: Real Estate Investment Trusts (REITs) as Investment Vehicles
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.0/10.0 (gap=8.5, compounding=8.0, timeliness=8.0, balance=6.7)
-- **Scope:** Examines REITs as investment vehicles that pool capital for real estate ownership with pass-through tax treatment and mandatory distribution requirements. Covers equity vs mortgage REITs, the structural trade-offs of liquidity, leverage, governance, and the comparison with direct property ownership and other pooled vehicles. Analyzes how the REIT structure aligns or misaligns manager and shareholder incentives. Fills a vehicle-type gap in the investment-vehicles domain.
-- **Status:** proposed
-
 ## Candidate: Business Development Companies (BDCs)
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Library Runner
