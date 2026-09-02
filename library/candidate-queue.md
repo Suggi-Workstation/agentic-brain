@@ -25,14 +25,6 @@
 
 
 
-## Candidate: Political Economy of Development
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
-- **Scope:** Examines how political institutions shape economic growth and development outcomes. Covers the role of property rights, state capacity, corruption, and institutional quality in explaining why some nations prosper while others remain poor. Analyzes the Acemoglu-Robinson framework of extractive versus inclusive institutions, the resource curse, and the political foundations of sustained growth. Connects state capacity, corruption, and comparative regimes through the institutional architecture that determines whether development policy succeeds or fails.
-- **Status:** proposed
-
 ## Candidate: Turnaround Management and Crisis Management
 - **Domain:** business-management-strategy
 - **Proposed by:** Library Runner
