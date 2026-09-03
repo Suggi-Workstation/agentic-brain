@@ -1,6 +1,6 @@
 # Engineering Infrastructure -- Topics
 
-8 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
+9 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
 
 - [Buildings and Urban Infrastructure -- Engineered Systems That Shape the Vertical City](buildings-and-urban-infrastructure.md) -- [reviewed: never] -- Buildings are the most numerous and most visible engineered structures in the built environment. Their design integrates structural engineering, mechanical systems, energy management, life safety, and connection to the urban infrastructure networks -- power, water, transport, and communications -- that sustain them.
 
@@ -13,6 +13,8 @@
 - [Power Grid Infrastructure -- The Engineered Architecture Connecting Generation to Demand](power-grid-infrastructure-generation-transmission-distribution.md) -- [reviewed: never] -- The electrical power grid is the largest interconnected engineered machine ever built by humans, a continent-spanning network that must balance supply and demand in real time with no buffer storage of the product itself. Electricity consumed the instant it is generated, the grid demands continuous synchronization of thousands of generators feeding millions of loads through hundreds of thousands of kilometers of transmission and distribution lines.
 
 - [Reliability Engineering and Failure Analysis -- Why Designed Systems Fail and How Engineers Keep Them Working](reliability-engineering-failure-analysis.md) -- [reviewed: never] -- Reliability engineering is the discipline that designs physical and engineered systems to perform their intended function without failure, for a specified period, under specified conditions. Failure analysis is its investigative counterpart: the systematic investigation of why a system failed, tracing the physical, procedural, and organizational causes so that the same class of failure does not recur.
+
+- [Telecommunications Physical Infrastructure -- Capacity Is Created by Coordinated Physical Layers, Not by a Single Network Asset](telecommunications-physical-infrastructure.md) -- [reviewed: never] -- Telecommunications physical infrastructure is the engineered plant that carries voice, data, video, and control traffic: optical fiber routes, cable landing and exchange facilities, cellular sites, data centers, satellite ground stations, and the power and access systems that keep them operating. Its performance is determined by the weakest capacity, latency, availability, or repair constraint...
 
 - [Transport Infrastructure -- How Engineered Networks of Roads, Railways, Ports, and Airports Shape Economic Capacity](transport-infrastructure-roads-railways-ports-airports.md) -- [reviewed: never] -- Transport infrastructure comprises the engineered physical systems -- roads, railways, ports, and airports -- that move people and goods between origins and destinations. Each mode is a distinct engineering domain with its own capacity physics, maintenance regimes, and failure modes, yet all are bound by common lifecycle constraints: design life, deterioration under load, and the economic trade-off between capital investment and operating cost.
 
