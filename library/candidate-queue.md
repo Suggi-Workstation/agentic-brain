@@ -26,13 +26,6 @@
 
 
 
-## Candidate: Telecommunications Physical Infrastructure
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.90/10.0 (gap=9.0, compounding=8.0, timeliness=9.0, balance=10.0)
-- **Scope:** Examines the engineered physical systems that carry communications: fiber optic networks, cellular towers, data centers, satellite ground stations, and last-mile distribution architectures. Covers the engineering trade-offs of capacity, latency, reliability, and coverage, plus the lifecycle management of rapidly evolving physical plant under technological turnover. Analyzes the relationship between telecommunications infrastructure and power, transport, and urban systems as interdependent networks. Fills a core infrastructure gap alongside power grid, water, and transport topics in the engineering domain.
-- **Status:** proposed
 
 ## Candidate: Innovation Management
 - **Domain:** business-management-strategy
