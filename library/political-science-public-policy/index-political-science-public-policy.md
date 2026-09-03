@@ -1,6 +1,6 @@
 # Political Science Public Policy -- Topics
 
-12 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+13 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
 
 - [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: never] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules across their territory. Public administration is the discipline and practice that studies, designs, and reforms that apparatus. The central proposition of the field is that the organizational structure of the executive branch -- how officials are recruited, how...
 
@@ -21,6 +21,8 @@
 - [Political Parties and Party Systems -- The Organizational Infrastructure of Democratic Competition](political-parties-party-systems.md) -- [reviewed: never] -- Political parties are the central intermediary institutions of modern democracy: they aggregate diffuse citizen preferences into coherent policy programs, recruit and select political leaders, structure legislative organization, and form or remove governments. Party systems -- the structured pattern of competition among parties -- are not mere aggregates of individual parties but interactive...
 
 - [Public Policy Design and Implementation -- Why Legislative Intent Rarely Survives Contact With the Implementation Pipeline](public-policy-design-implementation.md) -- [reviewed: never] -- Public policy design and implementation is the study of how legislative intent travels through a chain of administrative, organizational, and discretionary stages to produce observable outcomes. The field emerged from the discovery that policy adoption -- the passage of a law or issuance of a mandate -- is not the endpoint of the policy process but merely its midpoint.
+
+- [Regulatory Institutions and Independent Agencies -- Expertise Requires Independence, but Independence Requires Accountability](regulatory-institutions-independent-agencies.md) -- [reviewed: never] -- Regulatory institutions translate legislative mandates into continuing decisions about market access, prices, standards, information, and enforcement. Their effectiveness depends on a credible balance: enough operational independence to decide technical cases without improper pressure, and enough accountability, transparency, and review to keep delegated authority connected to law and public purpose ([1], [2], [7]).
 
 - [State Capacity -- Why Some Governments Can Deliver and Others Cannot](state-capacity.md) -- [reviewed: never] -- State capacity is the ability of a government to implement policy, deliver public services, and enforce rules across the entirety of its territory. It is not the same as state power in the sense of raw coercion: a state may wield enormous despotic authority over its citizens yet remain unable to collect taxes, build roads, or administer a census.
 
