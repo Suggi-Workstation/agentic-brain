@@ -28,15 +28,6 @@
 
 
 
-## Candidate: Regulatory Institutions and Independent Agencies
-- **Domain:** political-science-public-policy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.83/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines the design, independence, and accountability of regulatory agencies and independent administrative bodies. Covers the rationale for delegating authority to technocratic regulators, the trade-offs between independence and democratic accountability, agency capture, and institutional variations across sectors and countries. Analyzes how regulatory design affects policy outcomes in finance, utilities, telecommunications, and environmental protection. Connects bureaucracy, state capacity, and public policy design through the institutional architecture that operates between legislative mandate and implementation.
-- **Status:** proposed
-
-
 ## Candidate: Agent Protocol Design -- Standards for Agent Interoperability and Communication
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Library Runner

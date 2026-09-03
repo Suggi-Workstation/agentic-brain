@@ -111,3 +111,6 @@ Initial section-word-count command failed with a Python SyntaxError because an f
 
 ## [ENT-016] | 2026-09-03 14:24 UTC | Library Runner | error | ref: library/business-management-strategy/innovation-management.md | see: ENT-371
 Mnemosyne retrieval failed with a database embedding-dimension mismatch (expected 1024, received 384); expected a prior-work query. The required agentic-brain search completed through brain-index, and no memory-derived claim was used.
+
+## [ENT-017] | 2026-09-03 15:40 UTC | Library Runner | error | ref: library/political-science-public-policy/regulatory-institutions-independent-agencies.md | see: ENT-373
+git pull --rebase origin main failed because unrelated working-tree paths were already unstaged; a clean working tree was expected. Root cause: concurrent uncommitted work in shared brain-index and governance paths. Git fetch confirmed origin/main matched this topic commit's parent and that this cycle's topic file was the only committed difference, so the queue and logbook were reread before this update without stashing, restoring, or staging another agent's paths.
