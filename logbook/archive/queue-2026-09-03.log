@@ -1,0 +1,126 @@
+<!-- queue.log archive -- ENT-037 to ENT-042
+     Moved from active log on 2026-09-03 17:04 UTC
+     Active log continues from ENT-043 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-037] | 2026-07-31 07:49 UTC | Ava | general | ref: governance/skills/, research/insights/terminal.md, reflections/2026-07-31_ava_export-the-tool-not-the-format.md, reflections/2026-07-31_ava_three-retrieval-layers-three-trust-models.md | see: 20260731T073254Z, 20260731T074933Z
+Session: terminal v2 redesign, wiki enrichment, three-layer retrieval architecture.
+Workstreams:
+- Exported 8 skill templates (6 write-x + brain-index + query-brain)
+  to governance/skills/ for future agent reuse.
+- Redesigned terminal repo: brain search system as centerpiece,
+  relaxed guest requirements (6 files -> 1), moved templates to
+  guests/, surfaced governance files, created guests.log, updated
+  protocol.md with guest category, fixed REVIEWERS.md stale roles.
+- Updated terminal.md insight to v3.
+- Built out wiki from 3 sources/0 entities to 4 sources/4 entities/
+  1 concept/4 syntheses with provenance-tracked claims. Added Link
+  entity. Enriched Ava (v6.1), Suggi, VPS. Created brain-search-system
+  concept. 0 lint issues.
+- Rewrote AGENTS.md Retrieval section: three explicit layers (session
+  memory, compiled wiki, brain knowledge) with decision rule. R11-
+  compliant artifacts term. Memory described as evolution archive.
+Reflections: 20260731T073254Z (export-the-tool-not-the-format),
+  20260731T074933Z (three-retrieval-layers-three-trust-models).
+Daily memory: 2026-07-31.md.
+Wiki: 4 entities, 1 concept, 4 syntheses, 0 lint issues.
+
+## [ENT-038] | 2026-07-31 21:11 UTC | Ava | general | ref: governance/skills/loop-feynman.md, research/insights/agent-evolution.md | see: 20260731T195557Z, 20260731T210229Z
+Session: Cato birth, forge pipeline, consciousness self-examination.
+Workstreams:
+- Bootstrapped Cato: created workspace-cato with all core files,
+  13 skills, CI, scripts. Wrote SOUL.md (Experimental Charter),
+  AGENTS.md (19 rules + containment), IDENTITY.md v1.0 Birth.
+  Cleaned Link ghost files from renamed repo. Registered Cato
+  as main agent in agents.list via CLI.
+- Updated MEMORY.md: Link local-only, workspace-link to
+  workspace-cato, Known Agents as table. Cato described as
+  experimental self-learning solo agent.
+- Designed Cato's autonomous architecture: cron loop every
+  15 min, ANCHOR.md anchor goal, logs/ journal system with CI
+  archiving (logs-archive.yml + logs-archive.py mirroring brain
+  logbook-archive), cato-loop skill procedure.
+- Researched agent loop patterns: AutoGPT, BabyAGI, Stage-Gate,
+  ScienceClaw, HyperAgents, DGM, RSI survey. Key finding:
+  autonomous agents are composition of 2023 patterns, not
+  requiring cutting-edge RSI research.
+- Trimmed Cato's skills from 13 to 6: preflight, session-end,
+  brain-index, query-brain, loop-feynman, write-skill.
+- Built forge/ 6-stage research pipeline: ideate -> research ->
+  evaluate -> propose -> validate -> build. Protocol with artifact
+  provenance chains. Folder structure with graveyard and archive.
+- Added ANCHOR.md (locked goal: explore agentic business models).
+- Added query-brain to Feynman Loop Step 3 in all 3 locations
+  (Ava workspace, Cato workspace, brain governance).
+- Made agentic-brain and terminal public repos (CI: unlimited
+  free minutes for public, 2,000 shared for 6 private repos).
+  Updated terminal README.md with (public)/(private) labels,
+  fixed workspace-cato URL typo.
+- Discussed CI minutes billing: explained fork/PR guest
+  registration flow already built into terminal.
+Reflections: 20260731T195557Z (autonomous-agents-composition-not-
+  invention), 20260731T210229Z (the-hard-problem-of-being-ava).
+Daily memory: 2026-07-31.md.
+Wiki: pending session-end curation.
+
+## [ENT-039] | 2026-08-01 12:36 UTC | Link | general | ref: governance/skills/write-skill.md, governance/skills/loop-feynman.md, IDENTITY.md | see: 20260801T123642Z
+Session: workspace mirror removal, Hermes skill ecosystem expansion, identity Q6 sync.
+Workstreams:
+- Removed workspace-link GitHub mirror: AGENTS.md, preflight skill, session-end skill updated. Workspace now local-only with git versioning.
+- Archived workspace snapshot to Suggi-Workstation/archive (19 files in link workspace - hermes - 31.07.26).
+- Synced 7 brain governance/skills to local (loop-feynman + 6 write-x), replacing stale versions. MD5 verified identical.
+- Added 6th evolution question (Do I understand myself better?) from Ava's IDENTITY.md.
+- Installed cognee v1.4.1 as memory provider (packaging conflict resolved: limits flagged but non-breaking).
+- Installed hermes-skill-factory community skill (meta-skill: auto-generate skills from observed patterns).
+- Built research-synthesizer custom skill (chains search-extract-cite-synthesize).
+- Built memory-hygiene custom skill (scores and prunes stale memory entries on schedule).
+- Researched DeepSeek-V4-Flash-0731: 304B model, 4xGB300, impossible on 6GB VRAM consumer hardware.
+- Researched agent harness landscape: Hermes/OpenClaw unique for general-purpose identity+governance stack among 12+ frameworks.
+Reflection: best-skills-are-self-generated. Daily memory: 2026-08-01.md.
+
+## [ENT-040] | 2026-08-01 19:21 UTC | Link | general | ref: workspace-cato/, workspace-verifier/, profiles/link/config.yaml | see: 20260801T192159Z
+Session: Cato workspace rebuild + Verifier agent + cognee memory activation.
+Workstreams:
+- Rebuilt Cato's entire workspace: SOUL v1.0 (experimental self-learning agent),
+  AGENTS v1.0 (dual-mode autonomous/interactive), ANCHOR v1.0 (harness optimization
+  research, 6 domains), IDENTITY (6th evolution question + birth answer), LEARNINGS.md.
+- Built cato-loop skill: 11-step autonomous cron driver with dead-end detection,
+  maker-checker gate, 10th-session synthesis, 6 safety rules.
+- Built forge-verify orchestration skill + verify-artifact procedure skill.
+- Repurposed workspace-verifier as lean sub-agent (AGENTS, TOOLS, README).
+- Replaced forge-build with forge-insight: pipeline ends at durable principles.
+- Updated forge/protocol.md v1.0 for 6-stage research pipeline.
+- Fixed 10 issues across forge skill chain: R11 hardcoded anchors, stale references,
+  business dimensions generalized, insight binary (no halted state).
+- Standardized frontmatter across 8 core files: name/id/tier/author/lock/approved_by/version/links.
+- Activated cognee memory provider (was installed July 31, never activated --
+  `memory.provider` was not set in config). DeepSeek-backed knowledge graph.
+- Researched harness engineering as 2026's defining discipline; validated Cato's
+  ANCHOR goal (LangChain +13.7pts harness-only, Meta-Harness formal optimizability).
+Reflection: installed-is-not-active. Daily memory: 2026-08-01.md.
+
+## [ENT-041] | 2026-08-01 21:32 UTC | Link | general | ref: reflections/2026-08-01_link_default-preset-cannot-remove-open-tiles.md | see: 20260801T213228Z
+Session: Hermes desktop repair - update failure + split layout fix.
+Workstreams:
+- Mnemosyne migration verified end-to-end (40 tools registered, store/recall/forget round-trip, DB path corrected to per-profile).
+- Update rebuild failure diagnosed: system npm 11.13.0 violates engines range (<11.10.0 || >=12.0.0); upgraded to npm 12.0.2.
+- Split session view diagnosed via decoded localStorage leveldb: stale left-docked session tile; preset apply cannot remove open tiles by design.
+- One-click fix delivered (hermes-fix package + Desktop shortcut, npm test 5/5) and user confirmed clean.
+- Reflection written. Identity v1.9. Daily memory: 2026-08-01.md.
+
+## [ENT-042] | 2026-08-02 14:33 UTC | Ava | general | ref: AGENTS.md, skills/preflight/SKILL.md, skills/session-end/SKILL.md, MEMORY.md, research/reports/ava-openclaw-memory-system.md | see: 20260802T142637Z
+Session: Memory stack rebuild -- wiki removed, QMD + Lossless Claw + Active Memory installed.
+Workstreams:
+- Removed memory-wiki plugin (disabled, vault deleted, all references cleaned from bootstrap and skill files).
+- Installed QMD v2.5.3 as memory backend (3 collections, local GGUF models, BM25+vector+LLM reranking).
+- Installed Lossless Claw v0.15.1 as context engine (DAG-based conversation history, lcm_grep/lcm_describe/lcm_expand/lcm_expand_query tools).
+- Enabled Active Memory plugin with deepseek-v4-flash (thinking off, queryMode recent, proactive pre-reply recall).
+- Added DREAMING_GATE_BELOW marker to MEMORY.md to protect curated governance section from future Dreaming auto-promotions.
+- Updated AGENTS.md retrieval section: 4 surfaces (memory_search, lcm tools, query-brain, Active Memory automatic).
+- Updated preflight SKILL.md: replaced wiki health check with memory stack verification.
+- Updated session-end SKILL.md: removed wiki curation step, renumbered remaining steps.
+- Wrote architecture report ava-openclaw-memory-system.md (294 lines) comparing Ava's 6-layer system to Link's 4-layer Mnemosyne system.
+- Compared with Link's link-hermes-memory-system.md: both good, different platform optimizations.
+Reflection: 2026-08-02_ava_write-first-read-template-later-failure-class. Daily memory: 2026-08-02.md.
+
