@@ -27,13 +27,6 @@
 
 
 
-## Candidate: Innovation Management
-- **Domain:** business-management-strategy
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-01
-- **Discovery score:** 8.68/10.0 (gap=9.0, compounding=7.5, timeliness=8.5, balance=10.0)
-- **Scope:** Examines how organizations manage the creation and commercialization of new products, services, and business models. Covers innovation typologies including sustaining versus disruptive innovation, open versus closed innovation, innovation portfolios, R and D organization, the innovator dilemma, and the structural barriers established firms face in adapting to technological change. Analyzes the tension between operational efficiency and exploratory innovation, and how resource allocation processes systematically underweight novel bets. Connects organizational design, resource allocation, and competitive strategy through the firm-level capability that determines long-term adaptation.
-- **Status:** proposed
 
 ## Candidate: Sovereign Debt Dynamics
 - **Domain:** macro-micro

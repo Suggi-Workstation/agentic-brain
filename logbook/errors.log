@@ -108,3 +108,6 @@ Shared-log preflight reported a trailing blank line at EOF after append; the exp
 
 ## [ENT-015] | 2026-09-02 15:25 UTC | Library Runner | error | ref: library/sociology-demography/race-and-ethnicity-as-social-systems.md | see: ENT-369
 Initial section-word-count command failed with a Python SyntaxError because an f-string expression contained a backslash; the expected section counts were not produced. Root cause: invalid inline formatting. A corrected count command completed and confirmed Background=740, Core Concepts=1820, Evidence=1206, and Implications=1314 words.
+
+## [ENT-016] | 2026-09-03 14:24 UTC | Library Runner | error | ref: library/business-management-strategy/innovation-management.md | see: ENT-371
+Mnemosyne retrieval failed with a database embedding-dimension mismatch (expected 1024, received 384); expected a prior-work query. The required agentic-brain search completed through brain-index, and no memory-derived claim was used.
