@@ -1,182 +1,129 @@
 ---
 name: query-investing-vps
-description: "Query the shared investing-hub index on the fleet VPS -- no cloning, watcher-maintained freshness. Use for all investing searches by any fleet agent."
+description: "Use when searching the shared investing-hub index on the VPS."
 user-invocable: true
 disable-model-invocation: false
 ---
 
-# Query-Investing-VPS -- Search the Investing-Hub (Shared VPS Index)
+# Query-Investing-VPS -- Search the Investing-Hub
 
-## What This Skill Does
+## Purpose
 
-Searches the investing-hub knowledge base using the investing-index hybrid
-search tool (semantic vectors + BM25 keyword + RRF fusion) against the
-SHARED index on the fleet VPS. Returns ranked file paths with relevance
-scores and text snippets. The agent then reads the top results for
-deeper context. No cloning, no local index, no manual rebuilds -- the
-watcher keeps the live mirror and the index fresh automatically.
+Searches `investing-hub` with the watcher-maintained VPS index. The engine runs
+EmbeddingGemma semantic search and BM25 keyword search in parallel, combines
+them with Reciprocal Rank Fusion (RRF), and returns one ranked result per file.
+The agent reads the best files for full context.
 
-## When to Invoke
+Gold questions are an offline quality test. They never influence live ranking.
 
-- User asks a question that might be answered by brain content
-  (portfolios, watchlist, companies, frameworks, screening data)
-- Researching a topic before writing artifacts
-- Looking up prior agent work (reflections, proposals, evaluations)
-- Any query where `grep` alone is insufficient (conceptual questions
-  that don't share keywords with the target content)
+## Use When
 
-## Self-Check -- HARD GATE
+- The answer may exist in portfolios, companies, valuation frameworks, and screening data.
+- Conceptual retrieval is needed because exact keyword search is insufficient.
+- Prior repository work must be checked before writing or deciding.
 
-- [ ] Watcher healthy: cron line present + manual run exits 0
-      (PASS / HALT)
-- [ ] Index freshness checked (--check-freshness returned OK)
-      (PASS / HALT)
-- [ ] Query executed with relevant terms (PASS / HALT)
-- [ ] Top 3-5 results read for deep context (PASS / HALT)
-- [ ] No manual index rebuild performed (the watcher owns the index)
-      (PASS / HALT)
+## Paths
+
+| Item | Path |
+|:--|:--|
+| Repository | `/srv/investing/investing-hub` |
+| Search tool | `investing-index/` |
+| Index data | `~/.investing-index` (`/srv/investing/index`) |
+| Index log | `/srv/investing/logs/investing-index.log` |
+
+Run repository commands as `hermes`, never root. VPS-connected agents use their
+own established key door to run the same commands; this skill does not duplicate
+connection details or credentials.
 
 ## Procedure
 
-### 1. Verify the watcher is healthy
+### 1. Verify watcher ownership
 
-The fleet depends on the watcher (cron every minute). If it stopped,
-results are silently stale. Check before querying:
+Run `crontab -l` and confirm the exact `investing-hub` watcher line is present.
+Do not run the watcher or rebuild the index during a normal query.
 
-```bash
-crontab -l | grep repo-pull
-```
+PASS: watcher line present. HALT: missing line.
 
-PASS: the cron line is present. The watcher logs are EVENT-DRIVEN:
-investing-pull.log records pushes only, investing-index.log records reindexes
-only. Quiet logs on a quiet system are normal, NOT a failure.
-
-If content changed on GitHub recently, the matching reindex entry
-must exist in investing-index.log within ~2 minutes of the change:
-
-```bash
-tail -3 /srv/investing/logs/investing-index.log
-```
-
-Final proof the door works end-to-end: run the watcher once manually
-(idempotent -- an idle run does nothing; exit 0 = healthy):
-
-```bash
-/opt/repo-tools/repo-pull.sh /srv/investing/investing-hub /srv/investing/logs /srv/investing/investing-hub/investing-index investing && echo WATCHER_OK
-```
-
-### 2. Verify index freshness
-
-```bash
-cd /srv/investing/investing-hub && /opt/repo-tools/venv/bin/python investing-index/query.py --check-freshness
-```
-
-PASS: "OK -- N chunks, built <timestamp>". STALE means the watcher
-pulled but did not reindex -- investigate /srv/investing/logs/
-investing-index.log. NEVER rebuild manually: the watcher owns the index.
-A manual --force rebuild is reserved for corruption recovery, done
-as hermes, and only after diagnosis.
-
-### 3. Run the query
-
-Query using any mode of the `brain-index` tool (hybrid, vector-only,
-or keyword-only). Default: `query.py "<query>" --top-k 20`.
-
-VPS agents (running on the server, no SSH):
+### 2. Verify freshness
 
 ```bash
 cd /srv/investing/investing-hub
-/opt/repo-tools/venv/bin/python investing-index/query.py "<query>" --top-k 20
+/opt/repo-tools/venv/bin/python investing-index/query.py --check-freshness
 ```
 
-VPS-connected agents (remote machines, e.g. PC or laptop agents):
-connect over SSH with the agent's own key door, then run the same
-query inside the clone:
+PASS: exit code 0 and output begins `OK --`. HALT: nonzero, `STALE`,
+`NO INDEX`, or `UNVERIFIED`; inspect `/srv/investing/logs/investing-index.log` and report the fault.
+Never hide a freshness failure by rebuilding first.
+
+### 3. Query
 
 ```bash
-ssh -i <agent-key> -p 22 root@100.99.142.120 \
-  "su - hermes -c \"cd /srv/investing/investing-hub && /opt/repo-tools/venv/bin/python investing-index/query.py '<query>' --top-k 20\""
+cd /srv/investing/investing-hub
+/opt/repo-tools/venv/bin/python investing-index/query.py "<question>" --top-k 20
 ```
 
-Quoting rule:
-the remote command sits in double quotes; the query string sits in
-single quotes inside it. If the query contains an apostrophe, rephrase
-or escape it -- a broken quote fails the whole command.
+Use the default hybrid mode. Use `--no-dense` or `--no-sparse` only for a
+specific diagnostic comparison, not routine retrieval.
 
-Results return file path, domain, title, relevance score, and a text
-snippet:
+PASS: ranked repository paths and snippets returned. HALT: command failure.
 
-```
-[1] research/insights/logbook.md [Research] -- logbook
-    score: 0.0325
-    The logbook is the shared append-only event log... (snippet)
-[2] governance/system-constitution.md [Governance] -- system-constitution
-    score: 0.0164
-    This file is the highest-precedence document... (snippet)
-```
+### 4. Read results
 
-### 4. Read top results
+Read the top 3-5 relevant files from `/srv/investing/investing-hub/<returned-path>`. Snippets
+select candidates; they are not enough for understanding or citation.
 
-Read the top 3-5 results for full context. VPS agents use `read_file`
-on the server paths; remote agents read the paths over SSH (e.g.
-`cat`). The snippet in the query output is ~200 chars -- enough to
-decide relevance, not enough for understanding.
+PASS: full files read before using their claims. HALT: conclusions drawn from
+snippets alone.
 
-### 5. Cite
+### 5. Cite and stop
 
-Cite exact paths in the artifact (research/insights/...,
-governance/..., library/...).
+Cite exact repository-relative paths. A read-only query makes no repository,
+index, config, or runtime changes.
 
-## Fallback
+## Same-Repository Fallback
 
-If the VPS or the shared index is unavailable:
+If the index tool is unavailable but the repository is readable, use
+`search_files` against `/srv/investing/investing-hub` with an appropriate Markdown filter, then
+read the matching files. This is keyword-only and has no semantic ranking.
+
+If the repository itself is unavailable, HALT and report it. Never substitute
+another repository's query skill; that silently searches the wrong corpus.
+
+## Evaluation and Maintenance
+
+These commands are maintenance gates, not part of each query:
 
 ```bash
-grep -r "<search terms>" /srv/investing/investing-hub/ --include="*.md"
+cd /srv/investing/investing-hub
+/opt/repo-tools/venv/bin/python investing-index/index.py --check
+/opt/repo-tools/venv/bin/python investing-index/eval.py --validate-only
+/opt/repo-tools/venv/bin/python investing-index/eval.py --verbose
+/opt/repo-tools/venv/bin/python investing-index/self-test.py
 ```
 
-Keyword-only search on the raw files of the live mirror. No semantic
-matching, no ranking. If the VPS itself is unreachable (tailnet and
-public door both down), fall back to the external query-brain skill
-(clone + local index). Report broken tooling to Suggi.
+Run evaluation after model, chunking, fusion, or ranking changes and when the
+corpus grows materially. Relevance judgments may name multiple `gold_files`.
+
+## Hard Gate
+
+- [ ] Watcher line present (PASS / HALT)
+- [ ] Freshness command returned exit 0 and literal `OK --` (PASS / HALT)
+- [ ] Query returned ranked paths from `investing-hub` (PASS / HALT)
+- [ ] Top 3-5 relevant files read in full (PASS / HALT)
+- [ ] No manual rebuild or write occurred during retrieval (PASS / HALT)
 
 ## Pitfalls
 
-- **First query ~1s (warm daemon).** `brain-embed.service`
-  (127.0.0.1:8099) keeps embeddinggemma-300m loaded; query.py uses it
-  and falls back to in-process load (~15s) if the daemon is down.
-- **NEVER run index.py --force on the VPS index without a specific
-  corruption diagnosis.** The watcher owns the index.
-- **Bare `crontab` is EDIT mode.** `crontab` with no flag opens the
-  editor and can wipe the crontab in non-interactive contexts. Read:
-  `crontab -l` (own) or `crontab -u hermes -l` (root). Install:
-  `echo '<line>' | crontab -u hermes -`.
-- **Run brain commands as hermes, not root.** The index path resolves
-  via hermes's `~/.investing-index` symlink (`/srv/investing/index`); root has
-  no symlink and `query.py` reports "NO INDEX" (false alarm). The
-  clone is `hermes:agents`; commits and the watcher run as hermes.
-- **STALE freshness is a WATCHER problem, not a query problem.**
-  Diagnose before querying.
-- **SSH quoting.** Remote command in double quotes, query in single
-  quotes. Apostrophes inside the query break it -- rephrase.
-- **Public repo opsec.** This skill lives in a public repo. Never add
-  key paths, the public IP, credentials, or tokens. The tailnet IP is
-  safe (unreachable outside the tailnet); everything else is not.
-- **Tailscale SSH check re-prompts when node keys rotate.** The
-  key-based door on port 22 never re-prompts -- prefer it.
-- **Outdated results.** Fresh results lag GitHub by at most 1 minute
-  (watcher window) plus seconds of reindex time. If the watcher is
-  alive, results are current. Do not treat seconds-late results as a
-  bug.
+- `STALE` is a watcher/index problem, not permission to rebuild manually.
+- Root lacks the hermes user's index symlink and can report a false `NO INDEX`.
+- Gold questions test retrieval after ranking; they are not query expansion,
+  training data, or a runtime answer key.
+- The shared `brain-embed.service` name is historical; it serves all three
+  repository indexes.
+- A snippet is candidate evidence, never the complete source.
 
 ## Related
 
-- `query-brain-vps` -- the sibling skill for the agentic-brain index
-- AGENTS.md Retrieval section -- the gate that invokes this skill
-- `agentic-brain:research/insights/vps-brainclone-plus-index.md` -- the
-  live-mirror blueprint (authoritative system reference)
-- `agentic-brain:research/insights/brain-search-system.md` -- full system
-  blueprint (query modes, eval gate, technology choices)
-- `agentic-brain:governance/skills/external/query-brain.md` -- the
-  clone-based query skill for non-VPS agents and fallback
-- `investing-index/README.md` -- tool usage documentation
+- `investing-index/README.md` -- engine and evaluation commands
+- `agentic-brain:research/insights/brain-search-system.md` -- retrieval design
+- `agentic-brain:research/insights/vps-brainclone-plus-index.md` -- watcher design

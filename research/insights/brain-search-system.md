@@ -86,13 +86,13 @@ the failure class: index health checks that use threshold conditions
 filesystem_count`) allow silent drift. The brain-index system embeds
 this fix structurally:
 
-- **heartbeat.json** records `git_head_sha` at index time. Every query
-  compares current HEAD against the heartbeat. A mismatch triggers a
-  visible warning -- staleness cannot hide.
+- **heartbeat.json** records `built_at_head` at index time. Every health
+  check validates the heartbeat, index artifacts, metadata counts, live
+  Markdown hashes against the manifest, and current HEAD.
 - **eval.py** runs recall@20, MRR, and nDCG against gold queries. A
   regression in search quality fails the build -- silence is broken.
-- **index.py --check-freshness** returns OK or STALE with the exact
-  gap (commits behind). Agents surface this to their operator.
+- **index.py --check** returns OK, STALE, or UNVERIFIED with the detected
+  inconsistency. Agents surface this to their operator.
 
 ### Separation from session memory
 
@@ -121,8 +121,8 @@ brain-index/                  <-- tool CODE (in repo)
   query.py                    Query the index, return ranked results
   eval.py                     Run eval against gold queries (recall@20, MRR, nDCG)
   config.yaml                 Embedding model, chunk size, RRF weights
-  gold-queries.yaml           Test queries with expected file hits
-  heartbeat.json              Freshness metadata (last_index_utc, git_head_sha)
+  gold-queries.yaml           Test queries with one or more relevant files
+  self-test.py                Package contract and regression tests
   requirements.txt            Python deps (sentence-transformers, pyyaml, numpy)
   README.md                   Setup and usage for every agent
 
@@ -133,14 +133,15 @@ brain-index/                  <-- tool CODE (in repo)
 
 query.py embeds queries via the warm daemon (sub-second); if the
 daemon is down it falls back to in-process model loading (~15s).
-Indexing (index.py) always embeds in-process -- the daemon is a
-query-time accelerator, not an indexing dependency.
+Indexing uses the same daemon first and falls back to in-process model
+loading when the daemon is unavailable.
 
 ~/.brain-index/               <-- index DATA (per-machine, NOT in repo)
   chunks.jsonl                Text chunks + frontmatter metadata
-  vectors.npy                 Embedding vectors (float16, 384-dim)
-  bm25/                       Keyword index tables
+  vectors.npy                 Embedding vectors (float16, 768-dim)
   meta.json                   Build metadata (model, dim, count, built_at)
+  manifest.json               Indexed Markdown paths and content hashes
+  heartbeat.json              Freshness state (last_run_utc, built_at_head)
 ```
 
 **Why code in repo, data outside:** the tool scripts are small (~500
@@ -170,9 +171,9 @@ same eval gate.
 | Component | Choice | Why |
 |---|---|---|
 | Embedding model | `unsloth/embeddinggemma-300m` (768-dim) | English-optimized, MTEB ~69 (Eng v2). Zero API cost. Runs on CPU. Public mirror of google/embeddinggemma-300m. Upgraded from bge-m3 on 2026-08-10. |
-| Keyword search | BM25 via `rank-bm25` | Python-native, no database. Same algorithm both old and new systems used. |
+| Keyword search | Inline BM25 | Python-native, no database or stored keyword tables. |
 | Rank fusion | Reciprocal Rank Fusion (k=60) | Balances semantic and keyword signals. Same formula the archive prototype used. |
-| Chunking | ~400 tokens, heading-aware, 80-token overlap | Respects markdown headings as natural boundaries. Matches the archive pattern. |
+| Chunking | Paragraphs up to 1,500 characters; 200-character overlap when splitting an oversized paragraph | Keeps ordinary paragraphs intact and bounds oversized ones. |
 | Storage | `~/.brain-index/` with JSONL + NPY files | Simple, portable, no database server. Survives reboots. |
 | Eval metric | recall@20, MRR, nDCG | Industry standard. Catches regression before deployment. |
 | Freshness | `heartbeat.json` vs `git rev-parse HEAD` | Dead-man's-switch: stale index = visible alarm to any agent. |
@@ -183,9 +184,9 @@ The archive prototype used bge-small-en-v1.5 (24,592 chunks at 384
 dimensions, ~38 MB of float16 vectors, CPU-only, ~2 minutes per full
 build). Upgraded to unsloth/embeddinggemma-300m (768-dim, MTEB ~69
 English v2, public mirror of google/embeddinggemma-300m) on
-2026-08-10 -- best English quality for its size, in-process
-for multilingual support and better retrieval quality; dense-only via
-sentence-transformers, with BM25 providing the sparse half. Full
+2026-08-10 -- best English quality for its size. The warm daemon serves
+query/document embeddings with an in-process fallback; BM25 provides
+the sparse half. Full
 rebuild takes 10-30 minutes on the EPYC CPU (one-time cost; the
 watcher keeps it incremental afterward). An incremental build
 (only changed files)
@@ -249,7 +250,7 @@ The archive's highest-stakes lesson: start with the eval harness, not
 the indexer. The build order is:
 
 ```
-1. gold-queries.yaml    Define 20-30 queries with expected file hits
+1. gold-queries.yaml    Define representative queries and relevance sets
 2. eval.py              Harness that measures recall@20, MRR, nDCG
 3. eval.py (empty)      Run against empty query set -- verify it fails cleanly
 4. config.yaml          Chunking, model, RRF parameters
@@ -270,20 +271,24 @@ Gold queries are written against the current brain content. As the
 brain grows, queries are added. This is NOT a chicken-and-egg problem
 -- the eval gate works at any scale:
 
-| Brain size | Gold queries needed | What they cover |
-|---|---|---|
-| 125 files (now) | 20-30 queries | Governance, existing reflections, proposals, insights |
-| 500 files | 50 queries | Library topics begin populating |
-| 5,000 files | 150 queries | Coverage across all 23 library domains |
-| 50,000 files | 300+ queries | Multi-hop queries, cross-domain discovery |
+The live target count belongs in `gold-queries.yaml`; do not duplicate it
+here. Coverage, not a fixed ratio to chunks, governs set size:
+
+| Surface | Required coverage |
+|---|---|
+| Library | Every current domain plus cross-domain questions |
+| Governance | Stable rules, templates, and operating procedures |
+| Research | Proposals, reports, evaluations, and insights |
+| Reflections | Representative transferable themes |
 
 ### What the index covers
 
-The indexer scans the entire brain repo and indexes every markdown
-file with frontmatter. The scope is "compounding knowledge":
+The indexer scans the entire brain repo and indexes every nonexcluded
+Markdown file. Frontmatter is extracted when present. The scope is
+"compounding knowledge":
 
 - `governance/` -- system-constitution, primedirectives, templates
-- `library/` -- all 23+ domain topic files
+- `library/` -- all current domain topic files
 - `research/` -- insights, proposals, evaluations, reports
 - `reflections/` -- agent session reflections
 
@@ -292,9 +297,9 @@ Excluded: `logbook/` (append-only logs, queried separately via tail),
 Investing content moved to the investing-hub repo (see
 `governance/system-blueprint.md` for the org layout).
 
-Every indexed file gets its frontmatter extracted as metadata
-(domain, tags, status, author, links). Queries can filter by any
-of these fields.
+When present, frontmatter is retained as metadata (domain, tags,
+status, author, links) and displayed with results. The current CLI
+does not expose metadata filters.
 
 ### Frontmatter uniformity -- why it matters
 
@@ -391,13 +396,12 @@ This architecture would be invalidated if:
   indexing (only changed files) takes seconds. Full rebuilds are a
   once-per-machine setup cost, not a per-session cost.
 
-- **The eval gate becomes the bottleneck.** Writing gold queries for
-  every new library domain requires domain expertise (Suggi's
-  investing knowledge, Ava's coding knowledge). If gold query
-  production cannot keep pace with brain growth, the eval gate loses
-  coverage. Mitigation: the eval gate fails open (warns, does not
-  block) when coverage drops below threshold. An incomplete eval
-  set is better than no eval set.
+- **The eval gate becomes the bottleneck.** Writing and reviewing gold
+  queries for every new library domain requires domain expertise. If
+  relevance judgment cannot keep pace with brain growth, the eval gate
+  loses coverage. Mitigation: validate every target before scoring,
+  fail nonzero below the recall threshold, and reassess relevance sets
+  at corpus-growth milestones.
 
 - **A simpler tool makes this obsolete.** If GitHub adds semantic
   code search to private repos, or if a tool like `ripgrep-all`

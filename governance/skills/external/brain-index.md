@@ -19,7 +19,8 @@ agentic-brain/brain-index/          (tool code -- committed to repo)
   query.py            Query: hybrid (dense+BM25+RRF; optional rerank), --no-dense, --no-sparse
   eval.py             Eval: recall@20, MRR, nDCG against gold queries
   config.yaml         Embedding model, chunking, RRF, reranker, freshness
-  gold-queries.yaml   Test queries with expected file hits
+  gold-queries.yaml   Test queries with one or more relevant files
+  self-test.py        Package contract and regression tests
   requirements.txt    sentence-transformers, pyyaml, numpy
   README.md           Usage docs for all agents
 
@@ -47,6 +48,7 @@ python query.py "antitrust risk in digital platforms" --top-k 20
 python query.py --check-freshness
 
 # Run eval
+python eval.py --validate-only
 python eval.py --verbose
 ```
 
@@ -104,20 +106,25 @@ reranked by the in-process cross-encoder before output.
 ## Eval Gate
 
 ```bash
+python eval.py --validate-only  # Schema, path, existence, index membership
 python eval.py              # Summary only
 python eval.py --verbose    # Per-query results
 ```
 
 Metrics: recall@20, MRR, nDCG@20. Run after every model or config
 change and compare against the recorded baseline. Gold queries live
-in `gold-queries.yaml`; add queries as the brain grows.
+in `gold-queries.yaml`; each uses `gold_files` because several files
+may be relevant to one question. Validation fails before scoring when
+a target is unsafe, missing, empty, or absent from the index.
 
 ## Freshness
 
 - `heartbeat.json` lives in `~/.brain-index/` (DATA_DIR), not the
   clone dir. `index.py` writes it; `query.py` reads it.
 - `query.py --check-freshness` compares heartbeat `built_at_head`
-  against live `git rev-parse HEAD`. STALE when they differ.
+  against live `git rev-parse HEAD`. It also checks required index
+  files, heartbeat/metadata counts, and live Markdown hashes against
+  `manifest.json`. Any mismatch is STALE or UNVERIFIED.
 - Incremental rebuilds refresh the heartbeat to current HEAD even on
   tool-only commits (no content change), so freshness stays accurate.
 
@@ -141,7 +148,7 @@ in `gold-queries.yaml`; add queries as the brain grows.
 | Reranker | `BAAI/bge-reranker-base` (in-process CrossEncoder, config-gated, disabled by default) |
 | Keyword | BM25 (inline implementation; k1=1.5, b=0.75) |
 | Fusion | RRF (k=60) |
-| Chunking | max 1500 chars, 200 overlap, heading-aware |
+| Chunking | paragraphs up to 1500 chars; 200-char overlap for oversized paragraphs |
 | Storage | JSONL + NPY files |
 
 ## Model Switch Procedure
@@ -190,8 +197,8 @@ in `gold-queries.yaml`; add queries as the brain grows.
 - **Reranker economics: disable by default.** A cross-encoder
   reranker in a fresh-process-per-query architecture reloads the
   model EVERY query (+15-18s for bge-reranker-base on CPU; the
-  embedder alone is ~2s). At brain scale (415 files, recall already
-  100%, gold usually at rank 1-3 pre-rerank), eval showed NO
+  embedder alone is ~2s). In the 2026-08-10 same-set comparison,
+  reranking showed NO
   measurable gain (100-set + reranker: MRR 0.817 / nDCG 0.863 vs
   50-set no reranker: 0.8185 / 0.8616). Keep `reranker.enabled:
   false`; only enable with a persistent serving process or a corpus
@@ -243,11 +250,9 @@ in `gold-queries.yaml`; add queries as the brain grows.
 - **Gold query staleness.** When new files ship, check whether they
   should be added as additional gold files for existing queries (a
   query can have multiple valid gold files). Otherwise MRR decline is
-  uninterpretable. When ADDING gold queries: verify each gold_file
-  exists AND is non-empty (an empty file passes `os.path.exists` but
-  has no chunks and can never be retrieved -- watchlist.md was a 0-byte
-  gold target). Also verify file paths against the live repo before
-  committing the set; guessed paths are wrong ~10% of the time.
+  uninterpretable. When adding queries, use `gold_files` and run
+  `eval.py --validate-only`; it rejects unsafe, missing, empty, and
+  non-indexed targets before the scored evaluation.
 - **Heartbeat count source.** `index.py` writes the heartbeat `count`
   field from `meta.json` (chunk count), never from the manifest file
   count. Preserve this when modifying index.py.

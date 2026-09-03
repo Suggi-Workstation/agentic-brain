@@ -119,19 +119,11 @@ retrieve and verify the full text of:
 
 ## Implications
 
-### Gold Query Format Must Evolve
+### Gold Query Format Uses Relevance Sets
 
-The current format maps one query to one file:
-
-```yaml
-# Current (single-file)
-gold_file: "library/valuation-screening/discounted-cash-flow-dcf-methodology.md"
-```
-
-The standard format maps one query to a set of relevant files:
+The implemented format maps one query to a set of relevant files:
 
 ```yaml
-# Required (multi-file relevance set)
 gold_files:
   - "library/valuation-screening/discounted-cash-flow-dcf-methodology.md"
   - "library/valuation-screening/valuation-multiples-pe-ev-ebitda-pb-analysis.md"
@@ -148,8 +140,8 @@ metric drops proportionally rather than flipping from PASS to FAIL.
 
 | Corpus size | Action | Frequency |
 |---|---|---|
-| 184 files (now) | Add 5 library-topic gold queries. Single-file format acceptable for initial coverage. | Once |
-| ~500 files | Convert top-10 queries to multi-file gold_files format. Run first relevance assessment pass: for each gold query, read top-20 results, manually judge which are genuinely relevant, add to gold set. | Once |
+| Initial corpus | Cover every major domain and stable control surface with realistic questions. | Once |
+| Growing corpus | Reassess top-ranked results and add newly relevant files to each `gold_files` set. | At growth milestones |
 | Every +100 files thereafter | Re-assess: re-run top-20 for each gold query, judge new high-ranking files, add to gold set if relevant. Investigate gold files that no longer appear in top-20. | Per milestone |
 | 5,000+ files | Periodic sampling: judge a random sample of 50 query-document pairs rather than every pair. Track MRR trend across samples. Statistical significance survives with surprisingly small samples. | Monthly |
 
@@ -231,14 +223,12 @@ This insight would be invalidated if:
 ## Cross-links
 
 - `brain-index/eval.py` -- the eval script this insight diagnoses and
-  prescribes fixes for. The current single-file gold_file format is
-  defined here.
-- `brain-index/gold-queries.yaml` -- the current 20-question test
-  collection, all from governance and research artifacts. Zero library
-  topic coverage.
+  prescribes fixes for. It now validates multi-file relevance sets
+  before scoring.
+- `brain-index/gold-queries.yaml` -- the live test collection. Counts
+  and coverage are derived from this file rather than duplicated here.
 - `research/insights/brain-search-system.md` -- the original design
-  document that established the single-file eval format and the
-  PASS/FAIL recall@20 gate.
+  document that established the retrieval and evaluation gate.
 - `research/insights/stale-index-problem.md` -- the companion insight:
   stale indexes fail silently because no one checks freshness; stale
   gold queries also fail silently because recall@20 masks the pool
