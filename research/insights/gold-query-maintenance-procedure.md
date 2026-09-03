@@ -136,14 +136,31 @@ is more informative than binary PASS/FAIL on a single file, and it
 degrades gracefully: if one gold file drops out of the top 20, the
 metric drops proportionally rather than flipping from PASS to FAIL.
 
+### Implemented Evaluator Gate -- 2026-09-03
+
+The three repository evaluators now implement the same file-level gate:
+
+- Accept one `gold_file` or a `gold_files` relevance set.
+- Reject malformed IDs/questions, empty relevance sets, unsafe paths,
+  missing or empty targets, and targets absent from the live index
+  before scoring.
+- Run dense and BM25 retrieval independently and fail if either branch
+  is empty; a single-modality result cannot masquerade as hybrid health.
+- Fuse with the configured RRF value, deduplicate by file before the
+  final result limit, and compute Recall@20, MRR, and nDCG over file
+  relevance rather than duplicate chunks.
+
+Gold questions remain offline test data. They do not train, expand, or
+rank live queries.
+
 ### Maintenance Procedure by Scale
 
-| Corpus size | Action | Frequency |
+| Trigger | Action | Frequency |
 |---|---|---|
-| Initial corpus | Cover every major domain and stable control surface with realistic questions. | Once |
-| Growing corpus | Reassess top-ranked results and add newly relevant files to each `gold_files` set. | At growth milestones |
-| Every +100 files thereafter | Re-assess: re-run top-20 for each gold query, judge new high-ranking files, add to gold set if relevant. Investigate gold files that no longer appear in top-20. | Per milestone |
-| 5,000+ files | Periodic sampling: judge a random sample of 50 query-document pairs rather than every pair. Track MRR trend across samples. Statistical significance survives with surprisingly small samples. | Monthly |
+| Initial corpus | Cover each distinct information need and stable control surface with realistic questions. | Once |
+| Material corpus growth | Reassess top-ranked results, add newly relevant files to `gold_files`, and investigate relevant files that leave the result window. | At growth milestones |
+| Retrieval-pipeline change | Validate all targets and compare the complete scored set before and after the change. | Every change |
+| Review workload becomes material | Sample query-document judgments using a documented method rather than weakening target validation. | When justified by measured workload |
 
 ### Stable vs. Growing Content
 
@@ -153,11 +170,9 @@ and no competing documents address the same questions. Queries about
 library topics need more frequent refresh because the library IS growing
 and new topics should rank alongside existing ones.
 
-The gold queries file should be split by content type or each query
-should track a `last_assessed` date so the maintenance cadence can
-differ. A query about the system constitution (stable) assessed once
-per year is sufficient; a query about valuation methods (growing) needs
-assessment every 50 new topics.
+Maintenance cadence follows information-need stability and corpus
+churn, not a fixed ratio to file or chunk counts. No additional tracking
+schema is needed until missed reviews become an observed problem.
 
 ### Interpreting Eval Results
 
@@ -166,13 +181,13 @@ assessment every 50 new topics.
 | Recall@20 drops from 100% to 95% | One gold file dropped out of top 20 | Check: pushed out by genuinely relevant new content or by noise? |
 | MRR drops from 0.66 to 0.40 | Gold files ranking lower on average | Relevance assessment pass: judge new top-ranked documents |
 | Recall stays 100%, MRR drops slightly | New relevant files ranking above gold files (healthy growth) | Add new files to gold set; MRR recovers |
-| All metrics drop sharply after index rebuild | Index corruption or regression | Rebuild with --force; re-check chunk/vector alignment |
+| All metrics drop sharply after index rebuild | Index corruption, code regression, or relevance-set drift | Run state validation and self-tests; rebuild only when artifact/model/config integrity requires it |
 | All metrics drop gradually over months | Pool depth accumulating unjudged documents | Scheduled relevance assessment is overdue |
 
 ### For the Long-Term Architecture
 
-At 5,000+ topics, manual relevance assessment becomes impractical. The
-standard solution in production search systems is:
+If manual relevance assessment becomes impractical, candidate
+production responses include:
 
 - **Click-through rate as implicit relevance:** track which results
   users actually open. In our agent-only system, this maps to: which
@@ -189,11 +204,10 @@ standard solution in production search systems is:
   significance is surprisingly small, and random selection eliminates
   the bias of only checking queries that "feel wrong."
 
-None of these are needed at 184 files. But the architecture should
-anticipate them: the eval script should accept multi-file gold queries
-now, even if the YAML file still uses single-file entries for most
-queries. The format change costs nothing to support and prevents a
-flag-day migration later.
+These feedback mechanisms are not yet justified for the repository
+indexes: corrected relevance sets already satisfy the current retrieval
+gate. Multi-file gold queries are supported now, so richer judgments can
+be added incrementally without a future format migration.
 
 ## Counter-evidence
 

@@ -33,22 +33,21 @@ links:
 | 3 | 2026-08-09 | Link | Watcher logs moved to /srv/brain/logs (fleet-visible, root:agents) + logrotate (size 1M, rotate 5, compressed). |
 | 4 | 2026-08-23 | Morpheus | Multi-repo generalization: index data moved to /srv/<domain>/index, watcher generalized to repo-pull.sh (one cron line per repo), forge + investing-hub onboarded. |
 | 5 | 2026-08-24 | Morpheus | Tools dir renamed to /opt/repo-tools; shim retired; watcher = repo-pull.sh with 4 args; security scans split out to /opt/security-tools. |
+| 6 | 2026-09-03 | Morpheus | Three sibling index packages and query skills aligned; fail-closed integrity validation added; natural push/add and pull/delete paths verified end to end in all three repos. |
 
 This file is the finished-system reference for the fleet VPS live
-mirror: the persistent agentic-brain clone, the shared index, and the
-watcher that keeps both fresh. It extends brain-search-system.md (the
-search-tool blueprint) with the infrastructure layer that makes the
-index always fresh without per-session rituals. Every agent in the
-Suggi-Workstation org should read this file before operating on the
-fleet VPS.
+mirrors: the persistent agentic-brain, agentic-forge, and investing-hub
+clones; their separate indexes; and the generic watcher that keeps each
+pair synchronized. It extends brain-search-system.md (the search-tool
+blueprint) with the infrastructure layer that keeps repository indexes
+current without per-session sync rituals.
 
 ## The Insight
 
-A persistent live-mirror clone of the agentic-brain on the fleet VPS,
-synced with GitHub in both directions every minute by a cron
-watcher that reindexes on any content change, turns the brain from a
-per-agent clone-discard ritual into an always-fresh fleet-shared
-service.
+Three persistent live-mirror clones on the fleet VPS, each synchronized
+with GitHub in both directions every minute by the same parameterized
+watcher and each owning a separate repository index, turn repository
+knowledge into a fleet-shared service without cross-repository search.
 
 ## Evidence
 
@@ -75,9 +74,8 @@ The server was provisioned and the system built:
   1 TB NVMe, Ubuntu 24.04.4 UEFI Minimal, hostname suggi-vps.
 - Tailscale as root system daemon (the box is the tailnet node);
   Hermes v0.20.0 installed under user hermes.
-- agents group created; /srv/brain and /srv/brain/index owned
-  root:agents with setgid 2775 -- any agent user in the group can
-  read and write (openclaw joins the group on migration).
+- agents group created; the live clone is owned by hermes:agents and
+  the derived index by root:agents, both group-writable with setgid.
 - Clone at /srv/brain/agentic-brain; token moved to
   /home/hermes/.git-credentials (mode 600); remote URL clean.
 - Fleet-neutral tools at /opt/repo-tools: repo-pull.sh (the
@@ -124,25 +122,27 @@ inspection alone.
   reindex 2.6s. Divergence self-heal (rebase + push, nothing lost,
   linear history) and conflict abort (clean state, exit 1) both
   verified in sandbox.
+- Three-repository proof (2026-09-03): one unique Markdown artifact was
+  committed locally in each clone. The natural watcher tick pushed all
+  three commits and each index logged `New: 1`, embedded one chunk, and
+  returned the artifact at rank 1 through its matching query skill.
+  Each artifact was then deleted on GitHub. The next natural tick logged
+  `pulled=yes pushed=0` and `Deleted: 1` in all three repositories;
+  baseline file/chunk counts returned, Git SHAs matched origin, and no
+  artifact path remained in query output, manifests, chunks, or clones.
 
 ## The System -- How It Works
 
 ### Where everything lives -- three categories, never mixed
 
 ```
-/srv/brain/agentic-brain/       KNOWLEDGE: the persistent clone
-                                (root:agents, setgid 2775)
-/srv/brain/index/               DATA: chunks.jsonl, vectors.npy,
-                                bm25/, meta.json, heartbeat.json
-                                (root:agents, setgid 2775;
-                                ~/.brain-index is a symlink to it)
-/opt/repo-tools/               CODE: repo-pull.sh + venv/
-                                (root:agents, setgid 2775)
-/home/hermes/crontab            SCHEDULE: * * * * *
-                                /opt/repo-tools/repo-pull.sh
-                                  <clone> <logs-dir> <tool-dir> <prefix>
-/srv/brain/logs/              OBSERVABILITY: brain-pull.log,
-                                brain-index.log
+/srv/brain/agentic-brain/       CLONE     /srv/brain/index/       INDEX
+/srv/forge/agentic-forge/       CLONE     /srv/forge/index/       INDEX
+/srv/investing/investing-hub/   CLONE     /srv/investing/index/   INDEX
+
+/srv/<domain>/logs/             per-repo push and index logs
+/opt/repo-tools/                repo-pull.sh, shared venv, embed daemon
+/home/hermes/crontab            one parameterized watcher line per repo
 ```
 
 The rule: knowledge goes in the repo, data goes in /srv, code goes
@@ -155,25 +155,26 @@ single user's lifecycle owns the fleet infrastructure.
 
 ### The watcher -- repo-pull.sh
 
-Every minute the cron fires and the watcher:
+Every minute each cron line fires and the watcher:
 
-1. cd /srv/brain/agentic-brain, record before = HEAD, pushed = 0.
+1. Enters its configured clone, records before = HEAD, pushed = 0.
 2. git fetch origin.
 3. If the clone has committed-but-unpushed work (rev-list count of
    origin/main..HEAD > 0): git push. Never auto-commits -- only
    already-committed work moves.
 4. git merge --ff-only origin/main. If it fails (divergence),
    git rebase origin/main && git push.
-5. Record after = HEAD. If before != after (pulled) OR pushed = 1:
-   run the embedder (unsloth/embeddinggemma-300m, 768-dim, via the
-   isolated venv with the warm daemon brain-embed.service at
-   127.0.0.1:8099) for an incremental reindex, and log the event.
-   Indexing calls the daemon first (document path, normalized
-   locally) and falls back to in-process loading if the daemon is
-   down -- same pattern as query.py.
+5. Record after = HEAD. If before != after (pulled) OR pushed = 1,
+   run that repository's incremental indexer and log the event.
+6. Before reusing vectors, the indexer validates the existing artifact
+   schema, model, dimensions, chunking config, counts, vector shape, and
+   manifest. After building, normal health checks also compare every
+   live Markdown hash and current HEAD.
 
-The embedder runs together with the watcher, in both directions,
-always after content moved. It never runs standalone.
+Production incremental indexing is watcher-owned in both directions.
+The warm `brain-embed.service` is a separate shared process used by all
+three indexers and query tools. Manual full rebuilds are reserved for a
+first build, model/chunking changes, or verified corruption repair.
 
 ### Two-way sync semantics
 
@@ -196,52 +197,44 @@ convergence case: the push is rejected by GitHub (non-fast-forward
 guard), fast-forward fails, rebase replays local commits on top of
 remote commits, push succeeds. History stays linear and contains
 both writes. Only same-line conflicts halt the watcher; those are
-resolved deliberately by an agent (git rebase --continue) and the
-next tick pushes. There is no silent loss and no auto-resolution.
+aborted back to a clean state and resolved deliberately by an agent
+before retrying. There is no silent loss and no auto-resolution.
 
 ### Who uses it
 
-- VPS Hermes agents (Morpheus, Neo, subagents): read and write the
-  clone directly at /srv/brain/agentic-brain; query the shared index
-  through brain-index/query.py; their commits are pushed by the
-  watcher within 1 minute.
-- OpenClaw (Ava, when migrated): same access via the agents group;
-  the layout is framework-neutral (files, not APIs).
-- Link (PC) and Linkie (laptop): keep the clone-discard ritual and
-  their own local indexes per brain-search-system.md. They can
-  optionally query the VPS index over the tailnet.
-- Suggi: writes to GitHub directly; the watcher pulls and reindexes
-  automatically.
+- VPS Hermes profiles read the appropriate clone directly under
+  `/srv`, use that repository's query skill, and let the watcher push
+  committed work.
+- Agents on other machines may operate their own clone/index or invoke
+  the approved VPS query path; they do not share local index state.
+- GitHub-side writes are pulled and reindexed automatically.
 
 ### Security model
 
-- Ops access is tailnet-only: Tailscale SSH (passwordless for the
-  tailnet owner, one-time browser approval per device).
-- The GITHUB_TOKEN lives in /home/hermes/.git-credentials (mode
-  600), never in the repo config or remote URL.
+- Credentials remain outside repositories and clean remote URLs.
 - No auto-commits: the watcher can only push work an agent already
   committed deliberately.
-- No public exposure: no webhooks, no funnel, no open ports.
+- No public search endpoint or webhook is required.
 
 ## Implications
 
-1. VPS agents never clone-discard again. The live mirror is their
-   checkout; writing an artifact means committing into
-   /srv/brain/agentic-brain and letting the watcher push.
+1. VPS agents never clone-discard these repositories. Each live mirror
+   is its checkout; writing an artifact means committing in the
+   appropriate `/srv` clone and letting the watcher push.
 2. Both directions converge within 1 minute. Suggi's GitHub edits
    reach the fleet and the shared index automatically; fleet
    artifacts reach GitHub automatically.
-3. The stale-index failure class is structurally prevented: reindex
-   fires on any content change in either direction, and the
-   heartbeat dead-man's-switch makes a stale index visible to every
-   query (stale-index-problem.md).
+3. The stale-index failure class is fail-closed: reindex fires after
+   either push or pull, while one shared validator checks heartbeat,
+   artifacts, configuration, shapes/counts, manifest hashes, and HEAD
+   for both `index.py --check` and `query.py --check-freshness`.
 4. Fleet-neutral ownership survives any user's lifecycle: data and
    tools live outside agent homes; deleting a user never deletes the
    brain.
 5. Zero API cost: the watcher is git plus a local CPU embedder; no
    LLM tokens, no embedding API, no subscriptions.
-6. New VPS agents need zero setup to search: the index already
-   exists and is kept fresh by the watcher.
+6. New VPS profiles need no per-profile build: each repository index
+   already exists and is kept current by its watcher.
 7. The PC/laptop pattern (per-machine indexes, clone-discard) stays
    valid; the VPS pattern is the shared-service evolution for the
    fleet box.
@@ -257,10 +250,9 @@ This architecture would be invalidated if:
 - The rebase-on-divergence path silently loses or reorders
   knowledge. It cannot: same-line conflicts halt for manual
   resolution, and no auto-resolution exists.
-- The watcher fails silently and staleness goes unnoticed. It
-  cannot: every run is logged, pushes and reindexes are logged with
-  timestamps, and the heartbeat freshness check surfaces gaps to any
-  querying agent.
+- The watcher fails and staleness goes unnoticed. Mitigation: query
+  skills require the fail-closed freshness gate, while cron ownership
+  and event logs expose whether the producer remains wired.
 - GitHub adds first-class bidirectional sync that makes the watcher
   obsolete. Then the watcher is deleted and the pattern remains
   documented here.
@@ -279,8 +271,8 @@ This architecture would be invalidated if:
 
 ### Generalization -- three repos, one watcher (2026-08-23)
 
-The live-mirror pattern now covers every content repo in the org,
-grouped by domain under /srv:
+The live-mirror pattern covers all three persistent content clones on
+the VPS, grouped by domain under `/srv`:
 
 ```
 /srv/brain/agentic-brain/       clone      /srv/brain/index/       data
@@ -301,6 +293,9 @@ grouped by domain under /srv:
 - Logs stay event-driven at `/srv/<domain>/logs/<prefix>-pull.log`
   and `<prefix>-index.log`; logrotate covers all of them.
 - One warm embed daemon (127.0.0.1:8099) serves all three indexes --
-  same model, same dimensions. Cross-index contamination is
-  impossible by construction: each tool's config resolves to its own
-  data dir.
+  same model, same dimensions. Separate tool configs and data dirs,
+  plus sibling identity tests, prevent cross-index contamination.
+- The three index packages and three query skills are siblings. Their
+  procedure and engine logic match; only repository identity, scope,
+  paths, and commands differ. A failed repository index never falls
+  back to a different repository.

@@ -38,10 +38,9 @@ each piece lives, and WHAT each agent must do to use it.
 
 A self-contained hybrid search tool -- semantic vectors plus keyword
 BM25 fused with reciprocal rank fusion, gated by eval benchmarks and
-a freshness heartbeat -- transforms the agentic-brain from a pile of
-unsearchable markdown files into a queryable knowledge base that every
-agent can use independently, without servers, without API costs, and
-without drift between what is on disk and what is in the index.
+fail-closed state validation -- transforms the agentic-brain from a
+pile of unsearchable Markdown files into a queryable knowledge base.
+It uses local CPU infrastructure and no external embedding API.
 
 ## Evidence
 
@@ -86,11 +85,13 @@ the failure class: index health checks that use threshold conditions
 filesystem_count`) allow silent drift. The brain-index system embeds
 this fix structurally:
 
-- **heartbeat.json** records `built_at_head` at index time. Every health
-  check validates the heartbeat, index artifacts, metadata counts, live
-  Markdown hashes against the manifest, and current HEAD.
+- **heartbeat.json** records `built_at_head` at index time. One validator
+  serves both health commands and checks heartbeat schema/types/time,
+  required artifacts, model/dimension/chunking agreement, counts,
+  vector shape and dtype, manifest/live Markdown hashes, and current
+  HEAD.
 - **eval.py** runs recall@20, MRR, and nDCG against gold queries. A
-  regression in search quality fails the build -- silence is broken.
+  regression exits nonzero instead of being reported as healthy.
 - **index.py --check** returns OK, STALE, or UNVERIFIED with the detected
   inconsistency. Agents surface this to their operator.
 
@@ -136,35 +137,28 @@ daemon is down it falls back to in-process model loading (~15s).
 Indexing uses the same daemon first and falls back to in-process model
 loading when the daemon is unavailable.
 
-~/.brain-index/               <-- index DATA (per-machine, NOT in repo)
+~/.brain-index/               <-- index DATA path (NOT in repo)
   chunks.jsonl                Text chunks + frontmatter metadata
   vectors.npy                 Embedding vectors (float16, 768-dim)
-  meta.json                   Build metadata (model, dim, count, built_at)
+  meta.json                   Build metadata (model, dim, count, chunking)
   manifest.json               Indexed Markdown paths and content hashes
   heartbeat.json              Freshness state (last_run_utc, built_at_head)
 ```
 
-**Why code in repo, data outside:** the tool scripts are small (~500
-lines each), shared, and versioned. The index data is large (~38 MB
-for 25K chunks), rebuildable from source, and machine-specific. It
-goes in `~/.brain-index/` and is gitignored -- same pattern as
-`node_modules/` or `__pycache__/`.
+**Why code in repo, data outside:** the tool scripts are small,
+shared, and versioned. Index data is derived, rebuildable from source,
+and machine-local. It goes in `~/.brain-index/` and is gitignored --
+the same pattern as `node_modules/` or `__pycache__/`.
 
 ### Who needs what
 
-| Component | VPS agents (Ava, researcher-1/2, investor) | Link (Hermes, Suggi's PC) |
+| Environment | Repository and index | Normal operation |
 |---|---|---|
-| `brain-index/` tool code | From `git pull` of brain repo | From `git pull` of brain repo |
-| `~/.brain-index/` data | **Shared** -- one index at `~/.brain-index/` on VPS | **Separate** -- own index on Suggi's PC |
-| Python 3.10+ + pip | Already on VPS | Already on Windows |
-| `pip install -r requirements.txt` | Once | Once |
-| `python index.py --force` | Once (full build) | Once (full build) |
-| `python query.py` | All VPS agents share the same local index | Link queries his local index |
+| Fleet VPS | Persistent clone at `/srv/brain/agentic-brain`; shared index at `/srv/brain/index` through `~/.brain-index` | Watcher pushes/pulls and incrementally reindexes; profiles query the shared data |
+| Other machine | Its own clone and per-machine `~/.brain-index` | Pull source, maintain its local index, and run the same health/eval gates |
 
-Three VPS agents share ONE index because they run on the same machine.
-Link runs on a different machine and builds his own. Both indexes are
-built from the same source (the brain repo). Both are verified by the
-same eval gate.
+The source and package are shared through Git. Derived index data is
+shared only by profiles on the same filesystem.
 
 ### Technology choices
 
@@ -176,72 +170,55 @@ same eval gate.
 | Chunking | Paragraphs up to 1,500 characters; 200-character overlap when splitting an oversized paragraph | Keeps ordinary paragraphs intact and bounds oversized ones. |
 | Storage | `~/.brain-index/` with JSONL + NPY files | Simple, portable, no database server. Survives reboots. |
 | Eval metric | recall@20, MRR, nDCG | Industry standard. Catches regression before deployment. |
-| Freshness | `heartbeat.json` vs `git rev-parse HEAD` | Dead-man's-switch: stale index = visible alarm to any agent. |
+| Freshness | Heartbeat + artifact/config/shape/manifest/live-corpus/HEAD validation | Any unverifiable state fails closed before retrieval. |
 
 ### Embedding model -- why embeddinggemma-300m
 
-The archive prototype used bge-small-en-v1.5 (24,592 chunks at 384
-dimensions, ~38 MB of float16 vectors, CPU-only, ~2 minutes per full
-build). Upgraded to unsloth/embeddinggemma-300m (768-dim, MTEB ~69
-English v2, public mirror of google/embeddinggemma-300m) on
-2026-08-10 -- best English quality for its size. The warm daemon serves
-query/document embeddings with an in-process fallback; BM25 provides
-the sparse half. Full
-rebuild takes 10-30 minutes on the EPYC CPU (one-time cost; the
-watcher keeps it incremental afterward). An incremental build
-(only changed files)
-takes seconds.
+The live system uses `unsloth/embeddinggemma-300m`, a public mirror of
+Google's 768-dimensional EmbeddingGemma retrieval model. Query and
+document encoders are asymmetric and must remain distinct. The warm
+daemon serves both with an in-process fallback; BM25 supplies the
+sparse half. Routine builds embed only chunks from new or changed
+files. Model, dimension, or chunking changes invalidate incremental
+reuse and require a deliberate full rebuild followed by evaluation.
 
-The model was released by BAAI (Beijing Academy of AI) in 2023 and is
-one of the most battle-tested small embedding models for English text.
-It was designed for retrieval tasks on documents like these -- markdown
-files with structured frontmatter and prose bodies.
-
-Alternative models (all-MiniLM-L6-v2, bge-m3, gte-modernbert-base
-  -- embeddinggemma-300m chosen: best English MTEB for its size,
-  public mirror, in-process)
-can be swapped via `config.yaml`. The eval gate catches any regression
-from model changes.
-
-### Session flow -- how an agent uses it
+### VPS query flow -- how an agent uses it
 
 ```
-SESSION START
-=============
-1. cd /tmp && git clone --depth 1 <brain-repo> brain-pf
-2. cd brain-pf
+BEFORE QUERY
+============
+1. Confirm the agentic-brain watcher line exists in the hermes crontab.
+2. cd /srv/brain/agentic-brain
 3. python brain-index/query.py --check-freshness
-   -> OK:        "heartbeat matches HEAD, index is current"
-   -> STALE:     "3 commits behind, index built at 2026-07-19 14:00 UTC"
-4. If STALE: python brain-index/index.py
-   -> Incremental if possible, full rebuild if config changed
+   -> OK: continue.
+   -> STALE / UNVERIFIED / NO INDEX: HALT, inspect the index log, and
+      report the watcher/index fault. Do not hide it with a rebuild.
 
 DURING SESSION (as needed)
 ==========================
-5. python brain-index/query.py "antitrust risk in digital platforms" --top-k 20
+4. python brain-index/query.py "antitrust risk in digital platforms" --top-k 20
    -> Returns:
-      [1] library/law-regulation/antitrust-digital-platforms.md (score: 0.87)
+      [1] library/law-regulation/antitrust-digital-platforms.md
           "...market definition in two-sided platforms presents unique..."
-      [2] library/technology/platform-regulation-eu-dma.md (score: 0.82)
+      [2] library/technology/platform-regulation-eu-dma.md
           "...the Digital Markets Act establishes ex-ante obligations..."
-      [3] research/insights/network-effects-moat.md (score: 0.79)
+      [3] research/insights/network-effects-moat.md
           "...switching costs and data network effects create durable..."
       ...
 
-6. read_file on the top 3-5 results for deep context
-7. Cite sources in the session artifact
+5. read_file on the top 3-5 results for deep context
+6. Cite repository-relative source paths
 
 SESSION END
 ===========
-8. No action needed -- the index is read-only. The heartbeat records
-   when it was last built. The next session's freshness check will
-   catch any drift.
+7. No action needed -- querying is read-only. The watcher owns routine
+   synchronization and incremental indexing.
 
 FALLBACK (if index unavailable)
 ===============================
-9. grep -r "search term" /tmp/brain-pf/ --include="*.md"
-   -> Keyword-only search on the raw files. No semantic matching.
-   -> Agent reports the broken index to the operator.
+8. Use `search_files` only against `/srv/brain/agentic-brain`, then read
+   the full matching files. Report that this is keyword-only degraded
+   mode. Never substitute another repository's index.
 ```
 
 ### Build order -- eval first
@@ -261,9 +238,10 @@ the indexer. The build order is:
 9. README.md            Usage documentation for all agents
 ```
 
-No index is built until the eval harness exists and the gold query set
-has at least 5 queries. This inverts the old pattern (index first, eval
-retrofitted) and ensures quality is measurable from day one.
+No index design is accepted until the eval harness exists and the gold
+set contains validated, representative information needs. This inverts
+the old pattern (index first, eval retrofitted) and keeps quality
+measurable from day one.
 
 ### Gold queries grow with the brain
 
@@ -317,24 +295,21 @@ The current brain enforces uniform templates via write-x skills:
 - `template-proposals.md`, `template-evaluations.md`,
   `template-reflections.md`, `template-reports.md` -- analogously
 
-This uniformity means the indexer can trust that every file has an
-`id:`, a `tags:` list, and `links:` edges. The PPR graph traversal
-(opt-in) depends on these edges existing. The domain filter depends
-on the `domain:` field being present. Uniform templates make the
-search engine structurally reliable.
+Uniform frontmatter gives result labels and metadata predictable
+meaning. The current CLI displays available domain and title metadata;
+it does not perform graph expansion or expose metadata filters.
 
-### Why not a shared search server
+### Why not a network search server
 
-Three reasons the per-agent local index is the right architecture:
+Three reasons the filesystem-local index is the right architecture:
 
-1. **No server to maintain.** The brain-index has zero moving parts:
-   Python scripts + JSONL/NPY files on disk. No API to secure, no
-   process to keep alive, no database to migrate.
+1. **No search API to maintain.** Retrieval reads JSONL/NPY files on
+   the local filesystem. The only long-lived process is the local warm
+   embedding daemon, shared by all three repository indexes.
 
-2. **Agents run on different machines.** The VPS (Ava + sub-agents)
-   and Suggi's PC (Link) are physically separate. A shared server
-   would need network access, authentication, and uptime guarantees.
-   A local index works offline.
+2. **Machine boundaries stay explicit.** VPS profiles share filesystem
+   data. Other machines can maintain their own derived indexes without
+   adding a public service, authentication layer, or uptime dependency.
 
 3. **Rebuildable from source.** If `~/.brain-index/` is corrupted or
    lost, `python index.py --force` rebuilds it from the brain repo
@@ -350,51 +325,40 @@ is an optimization, not a requirement -- each could build its own.
    index and gets ranked results with snippets and scores. This is the
    difference between a library and a stack of paper.
 
-2. **Knowledge cannot be buried.** Every library topic, insight, and
-   reflection added to the brain is automatically discoverable. The
-   indexer picks up new files on the next build. No manual cataloging
+2. **Knowledge cannot be buried.** Every included Markdown artifact is
+   discoverable after the next watcher tick. No manual cataloging is
    needed.
 
-3. **Search quality is measurable.** The eval gate means regressions
-   are caught before deployment. A model change that hurts recall is
-   flagged, not shipped. This prevents the stale-index failure class
-   documented in `stale-index-problem.md`.
+3. **Search quality is measurable.** The eval gate validates relevance
+   targets and measures file-level Recall@20, MRR, and nDCG. It rejects
+   an empty dense or sparse branch instead of scoring a partial hybrid
+   pipeline as healthy.
 
-4. **Freshness is visible.** The heartbeat dead-man's-switch means a
-   stale index cannot silently serve bad results. Any agent querying
-   the index can see the last-build timestamp and compare it against
-   the brain's HEAD.
+4. **Freshness and integrity are visible.** Health checks compare the
+   heartbeat, metadata, vectors, chunks, manifest, live corpus, config,
+   and HEAD. A missing, malformed, stale, or incompatible component
+   fails before retrieval.
 
-5. **Zero API cost, zero infrastructure.** The entire system runs on
-   commodity hardware with no external services. embeddinggemma-300m
-   runs on CPU (dense-only via sentence-transformers). No embedding API calls, no rate limits, no monthly
-   bills. Embedding 50,000 files costs zero dollars beyond compute
-   time.
+5. **Zero external embedding cost.** EmbeddingGemma runs on local CPU;
+   there are no embedding API calls, rate limits, or usage bills.
 
-6. **New agents onboard instantly.** A new agent (Researcher-1,
-   Investor, etc.) runs `pip install -r requirements.txt`, then
-   `python index.py --force`, and can search the entire brain.
-   No other setup needed.
+6. **New VPS profiles reuse the shared index.** They need the query
+   skill and filesystem access, not a private dependency install or
+   full rebuild.
 
 ## Counter-evidence
 
 This architecture would be invalidated if:
 
-- **Per-agent index divergence causes conflicting search results.**
-  Two agents querying the same term get different top-10 lists because
-  their indexes were built at different times from different brain
-  states. Mitigation: the heartbeat.json makes freshness visible. An
-  agent with a stale index knows it is stale. In practice, divergence
-  is bounded by git pull frequency -- two agents who pull the same
-  HEAD build identical indexes.
+- **Machine-local indexes diverge.** All VPS profiles read one shared
+  index, so they cannot diverge from each other. An index on another
+  machine may differ until its clone and index catch up; the same
+  fail-closed health check makes that state visible.
 
-- **Index build time exceeds the session budget.** At 50,000 files,
-  a full rebuild with embeddinggemma-300m on CPU takes ~30-40
-  minutes for ~5,000 chunks on a 12-core EPYC (300M params, 768-dim,
-  batch 32; measured 2026-08-10). An agent that needs to rebuild from
-  scratch mid-session cannot afford the wait. Mitigation: incremental
-  indexing (only changed files) takes seconds. Full rebuilds are a
-  once-per-machine setup cost, not a per-session cost.
+- **A full build exceeds the session budget.** Mitigation: watcher-owned
+  incremental indexing is the normal path. Full builds are exceptional
+  operations for first setup, model/chunking changes, or corruption;
+  they are not a response to an unexplained health failure.
 
 - **The eval gate becomes the bottleneck.** Writing and reviewing gold
   queries for every new library domain requires domain expertise. If

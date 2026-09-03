@@ -26,6 +26,7 @@ links:
 | 1 | 2026-07-19 | Ava | Initial insight from 14/16 preflight index gap. |
 | 2 | 2026-07-19 | Ava | Principle validated through propagation to governance ingestion (step 5), R8 checklist duplication, and R11 hardcoded counts. All three followed the same threshold-vs-consistency failure class. Structural fixes deployed across 19 files. |
 | 3 | 2026-07-19 | Ava | Propagation from detection to prevention: session-end memory reindex gate added (defense-in-depth). Identity R11 clean extended to IDENTITY.md. Principle now covers write-time indexing, not just read-time verification. |
+| 4 | 2026-09-03 | Morpheus | Principle implemented in all three repository indexes with one fail-closed validator and verified through natural watcher add/delete tests. |
 
 ## The Insight
 A vector memory index that reports "healthy" by liveness metrics
@@ -131,11 +132,12 @@ The stale index problem manifests through five distinct mechanisms:
    whether unindexed files exist. Any system that uses incremental
    indexing without filesystem-aware discovery has this gap by design.
 
-3. **Preflight step 6 must be rewritten.** The current condition
+3. **Preflight step 6 must be rewritten.** The original condition
    `files > 0, chunks > 0, dirty: no` must become `indexed_file_count
    == filesystem_file_count`. The expected count must be derived live
    from the filesystem (R11: Zero Hardcoded Counts), not hardcoded.
-   A mismatch triggers HALT and forces a full reindex.
+   A mismatch triggers HALT; repair follows the component-specific
+   procedure rather than assuming a full rebuild.
 
 4. **This is a class of error, not a single instance.** Any gate that
    uses threshold conditions where consistency conditions are needed
@@ -144,6 +146,24 @@ The stale index problem manifests through five distinct mechanisms:
    sub-agent skill sync (are skills "present" or do they match?),
    mirror sync check (is HEAD "equal" or was it verified against the
    remote?).
+
+### Repository-index implementation -- 2026-09-03
+
+The agentic-brain, agentic-forge, and investing-hub indexes now apply
+this principle through one validator shared by `index.py --check` and
+`query.py --check-freshness`. It rejects malformed heartbeat fields,
+missing artifacts, model/dimension/chunking mismatch, chunk/vector
+shape or dtype mismatch, manifest/count inconsistency, changed or
+untracked Markdown, and HEAD divergence. Incremental indexing calls the
+same validator before reusing old vectors; unsafe state halts instead
+of mixing incompatible data.
+
+The natural watcher path was tested in both directions across all three
+repositories. A committed local artifact was pushed, indexed as one new
+file/chunk, and found at rank 1. A GitHub deletion was then pulled,
+reported as one deletion with no embedding work, and removed from the
+clone, manifest, chunks, and query results. This verifies completeness
+for additions and deletions, not merely liveness.
 
 ### For agent design
 
