@@ -1,6 +1,6 @@
 # Macro Micro -- Topics
 
-8 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
+9 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
 
 - [Business Cycles -- The Inescapable Rhythm of Boom and Bust That No Policy Can Abolish](business-cycles.md) -- [reviewed: never] -- Business cycles are the recurring fluctuations in aggregate economic activity -- expansions, peaks, contractions, and recoveries -- that have characterized market economies since the Industrial Revolution. Despite decades of macroeconomic research and increasingly sophisticated policy tools, the boom-bust pattern persists, because cycles are driven by multiple interacting forces: demand shocks, monetary instability, productivity swings, and credit-market amplification mechanisms.
 
@@ -13,6 +13,8 @@
 - [Market Structures -- How the Shape of Competition Determines Prices, Profits, and Power](market-structures.md) -- [reviewed: never] -- Market structure is the anatomy of competition: the number of sellers in a market, the degree to which their products are substitutes, and the barriers that keep outsiders from entering. These features together determine whether a firm is a price taker with no market power at all, or a price maker that can hold prices above marginal cost for decades.
 
 - [Monetary Policy and Central Banking -- How Central Banks Steer the Economy Through Interest Rates, Money Supply, and Financial Stability](monetary-policy-and-central-banking.md) -- [reviewed: never] -- Monetary policy is the process by which central banks manage the supply of money, the cost of credit, and the stability of the financial system to achieve macroeconomic goals -- primarily price stability and maximum employment. Central banks such as the Federal Reserve, the European Central Bank (ECB), and the Bank of Japan are not ordinary banks: they are public institutions with legal mandates,...
+
+- [Sovereign Debt Dynamics -- Debt Is Sustainable Only When Fiscal Capacity, Market Access, and Credibility Move Together](sovereign-debt-dynamics.md) -- [reviewed: never] -- Sovereign debt dynamics describe how a government's debt burden changes with the primary fiscal balance, the effective interest rate, nominal economic growth, and the terms on which lenders will refinance maturing claims. A debt ratio is therefore not a verdict by itself: sustainability depends on the joint path of fiscal capacity, debt structure, monetary arrangements, transparency, and market access.
 
 - [Supply and Demand -- The Invisible Auction That Turns Scarcity and Desire into Prices](supply-and-demand.md) -- [reviewed: never] -- Supply and demand is the mechanism by which the willingness of buyers to pay and the willingness of sellers to accept converge into a single market price. Prices are not set by anyone; they emerge from the interaction of scarcity on the supply side and desire on the demand side, and they carry information about both.
 
