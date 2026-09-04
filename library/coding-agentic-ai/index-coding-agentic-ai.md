@@ -1,12 +1,14 @@
 # Coding Agentic Ai -- Topics
 
-9 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
+10 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
 
 - [Agent Evaluation and Benchmarking -- Why Measuring What AI Agents Can Actually Do Is the Hardest Problem in Agent Engineering](agent-evaluation-and-benchmarking.md) -- [reviewed: never] -- Agent evaluation is the methodological discipline of measuring how well an AI agent performs on multi-step, tool-using tasks -- and the current benchmark landscape systematically overstates real-world capability because it was inherited from single-turn LLM evaluation and has not yet adapted to the multi-step, non-deterministic nature of agentic systems.
 
 - [Agent Memory and Persistence -- Why Memory Architecture, Not Model Size, Separates Demo Agents from Production Agents](agent-memory-and-persistence.md) -- [reviewed: never] -- Agent memory is the set of engineering patterns and storage systems that allow AI agents to remember across session boundaries. While model capability determines what an agent can reason about in a single turn, memory architecture determines whether that reasoning improves over time, adapts to user-specific context, and survives process restarts.
 
 - [Agent Observability and Debugging -- Why You Cannot Fix What You Cannot See Inside an Agent Run](agent-observability-and-debugging.md) -- [reviewed: never] -- Agent observability is the engineering discipline of capturing, storing, and inspecting the complete execution record of an AI agent -- every model call, tool invocation, retrieval step, guardrail check, and intermediate output -- so that a failed run can be understood, reproduced, and fixed. Traditional software observability assumes deterministic control flow, but agents are non-deterministic...
+
+- [Agent Protocol Design -- Interoperability Requires Explicit Contracts, Not Shared Assumptions](agent-protocol-design.md) -- [reviewed: never] -- Agent protocol design turns an otherwise private agent implementation into a system that another agent, client, tool server, or human-facing application can discover and use without sharing its internals. The central engineering claim is that interoperability comes from explicit contracts for identity, capabilities, message shape, lifecycle, authorization, and failure handling; a common model, framework, or natural-language convention is not a substitute for those contracts.
 
 - [Agent Sandboxing and Security -- Why Tool-Using Agents Need Hard Boundaries Outside the Model](agent-sandboxing-and-security.md) -- [reviewed: never] -- An AI agent that can execute code or call external tools needs enforceable runtime boundaries because prompt or tool-output manipulation can turn legitimate capabilities into unintended actions. Sandboxing, least-privilege authorization, data handling, deterministic policy gates, and observable approvals reduce the possible harm even when a model misreads or follows adversarial content. [1][5][6]
 
