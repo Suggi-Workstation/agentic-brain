@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Systems Engineering -- The Discipline of Designing Complex Systems Under Constraints
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-02
-- **Discovery score:** 8.73/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0)
-- **Scope:** Examines systems engineering as the discipline that integrates civil, mechanical, electrical, and other engineering domains into coherent complex systems. Covers requirements engineering, interface management, trade-off analysis, the V-model and iterative design, verification and validation, and the systems lifecycle from concept through decommissioning. Connects reliability engineering, manufacturing systems, and infrastructure lifecycle management through the integrating framework that governs how complex engineered systems are designed and delivered.
-- **Status:** proposed
-
 ## Candidate: Self-Improving Agent Systems -- Agents That Learn From Their Own Execution
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Library Runner

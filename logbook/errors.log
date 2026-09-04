@@ -117,3 +117,6 @@ git pull --rebase origin main failed because unrelated working-tree paths were a
 
 ## [ENT-018] | 2026-09-03 15:44 UTC | Library Runner | error | ref: library/political-science-public-policy/regulatory-institutions-independent-agencies.md | see: ENT-373
 Watcher push verification failed: after 65 seconds, main remained ahead 2 and local HEAD eed1391c77820ae9d1e96d9418a63be50bc37c10 differed from origin/main b31ab71cb10da1db5eed8c6b494869dc43d60928. The cron daemon was active, but brain-pull.log and brain-cron.log were last updated at 14:40 UTC; their last recorded run showed non-fast-forward push failures and a rebase. No watcher or governance change was made.
+
+## [ENT-019] | 2026-09-04 05:41 UTC | Library Runner | error | ref: library/engineering-infrastructure/systems-engineering-complex-systems-under-constraints.md | see: ENT-375
+The initial section-word-count validation command failed with a Python SyntaxError because literal newline escapes were passed as code; section counts were expected. A corrected single-line regex command passed and confirmed Background=642, Core Concepts=2030, Evidence=1174, and Implications=1318 words.
