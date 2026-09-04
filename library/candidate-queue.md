@@ -28,14 +28,6 @@
 
 
 
-## Candidate: Agent Protocol Design -- Standards for Agent Interoperability and Communication
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Library Runner
-- **Date:** 2026-09-02
-- **Discovery score:** 8.75/10.0 (gap=9.0, compounding=8.5, timeliness=9.5, balance=7.5)
-- **Scope:** Examines the protocols and standards that enable AI agents to communicate, interoperate, and coordinate across different frameworks and vendors. Covers emerging protocols (MCP, A2A, ACP), message-passing patterns, capability negotiation, context sharing, and the trade-offs between standardization and flexibility. Connects multi-agent orchestration, tool use, and skill systems through the communication layer that determines whether agents from different ecosystems can collaborate.
-- **Status:** proposed
-
 ## Candidate: Systems Engineering -- The Discipline of Designing Complex Systems Under Constraints
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Library Runner
