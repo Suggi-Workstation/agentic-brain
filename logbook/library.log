@@ -445,3 +445,20 @@ Wrote topic Systems Engineering -- The Discipline of Designing Complex Systems U
 Similarity overlap: 30%.
 Sources: 10 (10 high, 0 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-376] | 2026-09-04 05:47 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 12 candidates proposed, 0 skipped.
+Candidates:
+- Hypothesis Testing and the p-Value Debate (9.25): gap=9.0, compounding=9.0, timeliness=9.5, balance=10.0
+- Media Ecosystem and Platform Dynamics (9.10): gap=9.0, compounding=9.0, timeliness=9.5, balance=9.0
+- Ecosystem Science and Ecology (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Philosophy of Science (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Hedge Fund Risk Management (8.85): gap=8.5, compounding=9.0, timeliness=8.5, balance=10.0
+- Logic and Critical Thinking (8.83): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Volatility Targeting (8.83): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Natural Disaster Mechanisms (8.80): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
+- Monte Carlo Methods (8.75): gap=8.5, compounding=9.0, timeliness=8.0, balance=10.0
+- Forensic Accounting Methodology (8.70): gap=9.0, compounding=9.0, timeliness=7.5, balance=9.0
+- Cookie-Jar Reserves and Expense Manipulation (8.68): gap=9.0, compounding=8.5, timeliness=8.0, balance=9.0
+- Semiotics and Meaning-Making (8.58): gap=9.0, compounding=8.5, timeliness=7.5, balance=9.0
+Domain balance: earth-climate, ethics-philosophy, mathematics-statistics, portfolio-risk-management (8 topics) to value-investing (18 topics).
