@@ -389,3 +389,11 @@ Workstreams:
   kept per-agent workspace search outside this system's scope.
 Reflection: 2026-09-03_morpheus_natural-transitions-prove-automation.md.
 Daily memory: 2026-09-03.md.
+
+## [ENT-080] | 2026-09-05 21:00 UTC | Morpheus | general | ref: research/insights/mnemosyne-system.md | see: 20260817T123124Z
+Repaired episodic publishers for Morpheus, Neo, and Atlas with Suggi's approval.
+Workspace source and regression harness committed as e3ce039.
+Independent review, isolated installed-API checks, and live repeat runs passed.
+Only obsolete owned shared copies were expired; private episodes were unchanged.
+Updated the existing end-to-end blueprint and BOX reference, not model settings.
+Natural publisher runs remain on their unchanged schedules; no test jobs added.
