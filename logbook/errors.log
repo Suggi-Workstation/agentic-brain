@@ -133,3 +133,23 @@ Publisher selection ignored source expiry and supersession, leaving stale
 shared copies active. Fix: validity-aware selection, preserved provenance and
 expiry, and soft withdrawal of owned copies. Tests verify private/unrelated
 records survive, stricter shared expiry is preserved, and reruns are unchanged.
+
+## [ENT-022] | 2026-09-05 21:27 UTC | Morpheus | error | ref: reflections/2026-09-05_morpheus_correctness-includes-preservation.md | see: ENT-081
+Component documentation repair removed needed explanations from the wider
+Mnemosyne blueprint. Root cause: local simplification displaced the original
+scope. Suggi required restoration, not a narrowed replacement. Restored the
+original and added only the publisher subsection; byte comparison passed.
+The personal publisher skill now requires preserving the wider reference.
+
+## [ENT-023] | 2026-09-05 21:27 UTC | Morpheus | error | ref: reflections/2026-09-05_morpheus_correctness-includes-preservation.md | see: ENT-081
+Session-end was left incomplete after the implementation finished: reflection,
+identity evaluation, and final daily-memory commit were missing. Root cause:
+the active implementation plan did not retain the closing deliverables.
+Personal session-end now starts an artifact-backed closure task list and resumes
+its pending items after interruption. No automatic runtime hook was installed.
+
+## [ENT-024] | 2026-09-05 21:27 UTC | Morpheus | error | ref: reflections/2026-09-05_morpheus_correctness-includes-preservation.md | see: ENT-081
+Personal session-end archive instructions stopped at five identity answers,
+while the live criteria had six. Caught before replacing the old entry.
+Replaced the stale count with whole-section extraction, live-criteria coverage,
+and byte equality against the pre-edit section. The full v2.1 archive passed.

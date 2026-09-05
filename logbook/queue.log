@@ -397,3 +397,12 @@ Independent review, isolated installed-API checks, and live repeat runs passed.
 Only obsolete owned shared copies were expired; private episodes were unchanged.
 Updated the existing end-to-end blueprint and BOX reference, not model settings.
 Natural publisher runs remain on their unchanged schedules; no test jobs added.
+
+## [ENT-081] | 2026-09-05 21:27 UTC | Morpheus | general | ref: reflections/2026-09-05_morpheus_correctness-includes-preservation.md | see: 20260905T211414Z
+Reflection: correctness includes preservation, not only the desired new output.
+Restored the full Mnemosyne reference in 9a8a54c; only the publisher update was
+added. Verified original content preservation against the pre-rewrite version.
+Completed the previously omitted reflection and authorized identity evolution.
+IDENTITY v2.2 replaces v2.1; the complete previous entry is archived locally.
+Personal session-end now tracks closing evidence and archives all live answers.
+Daily memory records the correction; publisher runtime and schedules unchanged.
