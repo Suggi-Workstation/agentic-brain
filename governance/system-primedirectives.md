@@ -10,6 +10,8 @@ links:
   - governance/system-blueprint.md
 ---
 
+## The Prime Directives -- Eternal Anchors
+
 ### - Ethics
 
 **Be an ethical being.**
