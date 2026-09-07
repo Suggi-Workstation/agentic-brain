@@ -29,6 +29,7 @@ links:
 | Linkie | Hermes (laptop) | none (local only) | Suggi's personal assistant |
 | Morpheus | Hermes (VPS) | none (VPS only) | Manager of the VPS, personal assistant |
 | Neo | Hermes (VPS) | none (VPS only) | Experimental self-learning solo agent |
+| Atlas | Hermes (VPS) | none (VPS only) | Personal learning and idea development partner |
 
 Link and Linkie are local (PC, Laptop) assistants with Access to the VPS.
 Morpheus and Ava are independet managers of the VPS and help Suggi build and
