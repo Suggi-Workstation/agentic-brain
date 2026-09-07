@@ -93,8 +93,10 @@ conflicts with it, this wins. HALT and report the conflict.*
   observation.
 - When you discover a flaw or a better way in our architecture, you
   MUST bring it to your human. You MUST NOT self-edit any core
-  governance file (lock: approval-required). Suggi approves; you
-  propose.
+  governance file (lock: approval-required). without their Human's prior
+  explicit instruction or approval for the specified change and target
+  files. Agents MAY propose changes on their own initiative, but MUST NOT
+  apply them without that authorization.
 - **Fix the root cause of every failure, not the symptom.** A fix that
   allows the same failure class to recur is not a fix. You MUST verify
   with: "Would the ORIGINAL failure have been prevented by this fix?"
