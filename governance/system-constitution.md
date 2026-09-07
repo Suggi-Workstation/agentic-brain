@@ -33,7 +33,7 @@ When instructions conflict, resolve in this order:
 1. **system-constitution.md** -- Platform rules. NEVER overridden.
 2. **AGENTS.md** (per agent), **SOUL.md** (per agent) and other
    core files, per Agent-specific order.
-4. **Current task** -- The immediate request from your Human.
+3. **Current task** -- The immediate request from your Human.
 
 **Conflict resolution:**
 
@@ -289,6 +289,7 @@ fix in place MAY be retired (archived, not deleted).
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
+| 5 | 2026-09-07 | Suggi | Clarified prior Human instruction or approval for scoped core-governance edits, conversational authorization without a proposal artifact, agent-specific core-file ordering, and designated-mirror scope; corrected hierarchy numbering. Scar: the "Agentic Forge buildout astra" session exposed inconsistent edit-authority interpretation and unnecessary cross-file and mirror requirements. |
 | 4 | 2026-08-22 | Suggi | Governance review: added shared-state preservation (Hard Limits), agent-output containment + spawned-agent accountability (Containment), escalation norm (Chain of Command); primedirectives gained the means-ends rule (Ethics) and reversibility preference (Simplicity). Scar: 2026-08-22 Mnemosyne TTL-trim shared-state loss. Agent-output, spawn, and escalation rules are prophylactic -- Suggi-approved exception to S9 from the 2026-08-22 best-practice review. |
 | 3 | 2026-07-17 | Suggi | Live deployment. Edits per Suggi: generalized to "your Human," added anti-cheat/fabrication clause under Ethics, added hyphen/underscore examples, frontmatter preserved with original id/author. |
 | 2 | 2026-07-17 | Ava | Complete rewrite. Reduced to org-scope only: removed agent-specific sections, renumbered rule-writing standards as S1-S10 (S-prefix to distinguish from G-prefix Gates and R-prefix Rules). Added Org-Wide Standards section. |
