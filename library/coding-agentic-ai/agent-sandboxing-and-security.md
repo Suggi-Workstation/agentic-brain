@@ -3,7 +3,7 @@ name: agent-sandboxing-and-security
 id: 20260902T100507Z
 tier: library-topic
 domain: coding-agentic-ai
-author: Library Runner
+author: Librarian
 tags: [agent-sandboxing, agent-security, prompt-injection, least-privilege, tool-security, code-execution]
 links: [library/coding-agentic-ai/anchor-coding-agentic-ai.md, library/coding-agentic-ai/tool-use-and-function-calling.md, library/coding-agentic-ai/prompt-engineering-for-agents.md, library/coding-agentic-ai/agent-observability-and-debugging.md, library/coding-agentic-ai/agent-skill-systems.md]
 ---

@@ -3,7 +3,7 @@ name: healthcare-systems-and-insurance-models
 id: 20260831T063043Z
 tier: library-topic
 domain: health-medicine
-author: Library Runner
+author: Librarian
 tags: [healthcare-systems, health-insurance, health-economics, beveridge-model, bismarck-model, single-payer, universal-health-coverage, cost-control]
 links: [library/health-medicine/public-health-epidemiology.md, library/health-medicine/chronic-disease-cvd-diabetes.md, library/health-medicine/ai-in-medicine-and-diagnostics.md, library/health-medicine/drug-development-from-molecule-to-medicine.md]
 ---

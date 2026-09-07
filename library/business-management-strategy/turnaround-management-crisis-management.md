@@ -3,7 +3,7 @@ name: turnaround-management-crisis-management
 id: 20260902T144813Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [turnaround-management, crisis-management, corporate-restructuring, financial-distress, governance, stakeholder-management, operational-restructuring]
 links: [library/business-management-strategy/corporate-governance-board-effectiveness.md, library/business-management-strategy/organizational-design-decentralization.md, library/business-management-strategy/resource-allocation-and-capital-budgeting.md, library/case-studies/apple-turnaround-1997-2010.md]
 ---

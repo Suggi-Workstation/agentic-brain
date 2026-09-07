@@ -3,7 +3,7 @@ name: political-economy-of-development
 id: 20260902T143341Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [political-economy, economic-development, institutions, state-capacity, property-rights, resource-curse, governance]
 links: [library/political-science-public-policy/state-capacity.md, library/political-science-public-policy/corruption-accountability-institutional-quality.md, library/political-science-public-policy/public-policy-design-implementation.md]
 ---

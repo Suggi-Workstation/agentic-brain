@@ -3,7 +3,7 @@ name: related-party-transactions
 id: 20260829T120143Z
 tier: library-topic
 domain: accounting-financial-shenanigans
-author: Library Runner
+author: Librarian
 tags: [related-party-transactions, self-dealing, tunneling, asc-850, ias-24, forensic-accounting]
 links: [library/accounting-financial-shenanigans/off-balance-sheet-shenanigans.md, library/accounting-financial-shenanigans/revenue-recognition-shenanigans.md, library/accounting-financial-shenanigans/restatement-analysis.md, library/accounting-financial-shenanigans/beneish-m-score.md]
 ---

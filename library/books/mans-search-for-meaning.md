@@ -3,7 +3,7 @@ name: mans-search-for-meaning
 id: 20260829T191551Z
 tier: library-topic
 domain: books
-author: Library Runner
+author: Librarian
 tags: [logotherapy, viktor-frankl, meaning-in-life, purpose, existential-psychology, suffering, holocaust, resilience]
 links: [library/ethics-philosophy/stoicism.md, library/notable-people/marcus-aurelius.md, library/books/thinking-fast-and-slow.md, library/self-improvement/goal-setting-frameworks.md, library/self-improvement/meditation-and-mindfulness.md, library/psychology-behavior/cognitive-dissonance.md, library/value-investing/munger-latticework-mental-models.md]
 ---

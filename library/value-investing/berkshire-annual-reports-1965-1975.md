@@ -3,7 +3,7 @@ name: berkshire-annual-reports-1965-1975
 id: 20260901T173228Z
 tier: library-topic
 domain: value-investing
-author: Library Runner
+author: Librarian
 tags: [berkshire-hathaway, annual-reports, buffett, textile-era, national-indemnity, insurance-float, blue-chip-stamps, sees-candies, washington-post, illinois-national-bank, capital-allocation, cigar-butt, compounding, graham-dodd]
 links: [library/value-investing/berkshire-annual-reports-1976-1985.md, library/value-investing/capital-allocation.md, library/value-investing/circle-of-competence.md, library/value-investing/mr-market.md, library/value-investing/intrinsic-value-estimation-methods.md, library/value-investing/management-quality-evaluation.md, library/value-investing/economic-moats.md, library/investors/warren-buffett.md, library/case-studies/berkshire-sees-candies-acquisition.md, library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md]
 ---

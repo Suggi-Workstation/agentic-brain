@@ -3,7 +3,7 @@ name: state-capacity
 id: 20260831T144558Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [state-capacity, infrastructural-power, despotic-power, bureaucracy, fiscal-capacity, michael-mann, charles-tilly, developmental-state, institutional-quality, taxation]
 links: [library/macro-micro/fiscal-policy-and-government-spending.md, library/law-regulation/regulatory-capture-theory.md, library/value-investing/management-quality-evaluation.md]
 ---

@@ -3,7 +3,7 @@ name: interest-groups-lobbying
 id: 20260902T051630Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [interest-groups, lobbying, pluralism, collective-action, neocorporatism, revolving-door, campaign-finance, policy-influence]
 links: [library/political-science-public-policy/electoral-systems-voting-mechanics.md, library/political-science-public-policy/legislatures-executive-legislative-relations.md, library/political-science-public-policy/corruption-accountability-institutional-quality.md, library/political-science-public-policy/public-policy-design-implementation.md, library/political-science-public-policy/state-capacity.md]
 ---

@@ -3,7 +3,7 @@ name: history-of-capitalism
 id: 20260816T103323Z
 tier: library-topic
 domain: history
-author: Library-Runner
+author: Librarian
 tags: [history-of-capitalism, economic-history, capitalism, mercantilism, joint-stock-corporation, gold-standard, bretton-woods, financialization]
 links: [library/history/industrial-revolution-and-its-consequences.md, library/macro-micro/monetary-policy-and-central-banking.md]
 ---

@@ -3,7 +3,7 @@ name: resource-allocation-and-capital-budgeting
 id: 20260901T211535Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [capital-allocation, capital-budgeting, npv, irr, hurdle-rate, real-options, internal-capital-markets, resource-allocation]
 links: [library/finance/cost-of-capital-and-wacc.md, library/value-investing/capital-allocation.md, library/business-management-strategy/corporate-governance-board-effectiveness.md, library/business-management-strategy/executive-compensation-incentive-design.md, library/business-management-strategy/unit-economics-business-model-design.md]
 ---

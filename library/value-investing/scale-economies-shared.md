@@ -3,7 +3,7 @@ name: scale-economies-shared
 id: 20260901T161608Z
 tier: library-topic
 domain: value-investing
-author: Library Runner
+author: Librarian
 tags: [scale-economies-shared, nick-sleep, nomad-investment-partnership, costco, amazon, robustness-ratio, competitive-moat, flywheel, reinvestment-moat]
 links: [library/value-investing/economic-moats.md, library/value-investing/capital-allocation.md, library/investment-vehicles-fund-structures/nomad-investment-partnership-fee-structure-patient-capital-deliberate-closure.md]
 ---

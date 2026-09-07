@@ -3,7 +3,7 @@ name: reverse-dcf-and-sensitivity-analysis
 id: 20260825T141656Z
 tier: library-topic
 domain: valuation-screening
-author: Library-Runner
+author: Librarian
 tags: [reverse-dcf, implied-growth, sensitivity-analysis, scenario-analysis, valuation, expectations-investing, monte-carlo]
 links: [library/valuation-screening/discounted-cash-flow-dcf-methodology.md, library/valuation-screening/cost-of-capital-capm-wacc-erp.md, library/valuation-screening/terminal-value-dcf-methods-and-biases.md, library/value-investing/margin-of-safety.md]
 ---

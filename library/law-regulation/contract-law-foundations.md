@@ -3,7 +3,7 @@ name: contract-law-foundations
 id: 20260827T064622Z
 tier: library-topic
 domain: law-regulation
-author: Library Runner
+author: Librarian
 tags: [contract-law, offer-acceptance, consideration, efficient-breach, remedies, parol-evidence-rule, commercial-law]
 links: [library/law-regulation/corporate-law-governance.md, library/law-regulation/securities-regulation.md, library/macro-micro/trade-and-comparative-advantage.md]
 ---

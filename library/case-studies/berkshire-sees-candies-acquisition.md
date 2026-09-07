@@ -3,7 +3,7 @@ name: berkshire-sees-candies-acquisition
 id: 20260901T090257Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [sees-candies, berkshire-hathaway, pricing-power, warren-buffett, charlie-munger, economic-goodwill, brand-moat, acquisition]
 links: [library/investors/warren-buffett.md, library/investors/charlie-munger.md, library/value-investing/economic-moats.md, library/case-studies/berkshire-geico-investment.md, library/case-studies/berkshire-apple-investment-consumer-loyalty.md]
 ---

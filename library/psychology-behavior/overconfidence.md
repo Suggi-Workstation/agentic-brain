@@ -3,7 +3,7 @@ name: overconfidence
 id: 20260825T151611Z
 tier: library-topic
 domain: psychology-behavior
-author: Library Runner
+author: Librarian
 tags: [overconfidence, cognitive-bias, overestimation, overplacement, overprecision, debiasing, behavioral-economics]
 links: [library/psychology-behavior/cognitive-biases.md, library/psychology-behavior/heuristics.md, library/psychology-behavior/prospect-theory.md, library/psychology-behavior/system-1-vs-system-2-thinking.md]
 ---

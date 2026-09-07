@@ -3,7 +3,7 @@ name: ai-in-medicine-and-diagnostics
 id: 20260829T131915Z
 tier: library-topic
 domain: health-medicine
-author: Library Runner
+author: Librarian
 tags: [artificial-intelligence, machine-learning, deep-learning, medical-imaging, clinical-decision-support, radiology, diagnostic-ai, large-language-models, algorithmic-bias]
 links: [library/technology/large-language-models.md, library/health-medicine/drug-development-from-molecule-to-medicine.md, library/health-medicine/public-health-epidemiology.md]
 ---

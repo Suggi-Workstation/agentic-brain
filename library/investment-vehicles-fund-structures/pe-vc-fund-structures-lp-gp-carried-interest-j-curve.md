@@ -3,7 +3,7 @@ name: pe-vc-fund-structures-lp-gp-carried-interest-j-curve
 id: 20260831T151710Z
 tier: library-topic
 domain: investment-vehicles-fund-structures
-author: Library Runner
+author: Librarian
 tags: [private-equity, venture-capital, lp-gp-structure, carried-interest, j-curve, fund-lifecycle, distribution-waterfall, fund-economics]
 links: [library/value-investing/capital-allocation.md, library/finance/capital-structure-modigliani-miller.md, library/portfolio-risk-management/modern-portfolio-theory.md, library/finance/banking-maturity-transformation.md]
 ---

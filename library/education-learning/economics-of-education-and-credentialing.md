@@ -3,7 +3,7 @@ name: economics-of-education-and-credentialing
 id: 20260902T142004Z
 tier: library-topic
 domain: education-learning
-author: Library Runner
+author: Librarian
 tags: [economics-of-education, human-capital, credentialing, signaling, returns-to-education, student-debt, vocational-education]
 links: [library/education-learning/anchor-education-learning.md, library/education-learning/comparative-education-systems.md, library/education-learning/assessment-and-testing.md]
 ---

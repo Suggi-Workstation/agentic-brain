@@ -3,7 +3,7 @@ name: antifragile-things-that-gain-from-disorder
 id: 20260829T133059Z
 tier: library-topic
 domain: books
-author: Library Runner
+author: Librarian
 tags: [antifragile, taleb, uncertainty, risk, volatility, optionality, convexity, robustness, complexity]
 links: [library/books/the-black-swan-taleb.md, library/probabilistic-thinking-forecasting/black-swan-theory.md, library/portfolio-risk-management/tail-risk-hedging.md, library/portfolio-risk-management/kelly-criterion.md]
 ---

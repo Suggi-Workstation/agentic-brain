@@ -3,7 +3,7 @@ name: writing-craft-and-style
 id: 20260829T121608Z
 tier: library-topic
 domain: communication
-author: Library Runner
+author: Librarian
 tags: [writing-craft, writing-style, clarity, concision, editing, prose, plain-language]
 links: [library/communication/rhetoric.md, library/communication/narrative-structure-and-storytelling.md, library/communication/logical-fallacies.md, library/communication/the-medium-is-the-message.md]
 ---

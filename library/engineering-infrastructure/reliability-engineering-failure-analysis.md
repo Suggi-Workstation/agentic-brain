@@ -3,7 +3,7 @@ name: reliability-engineering-failure-analysis
 id: 20260831T180131Z
 tier: library-topic
 domain: engineering-infrastructure
-author: Library Runner
+author: Librarian
 tags: [reliability-engineering, failure-analysis, fmea, fault-tolerance, redundancy, mtbf, bathtub-curve, system-safety]
 links: [library/engineering-infrastructure/anchor-engineering-infrastructure.md, library/case-studies/challenger-disaster-organizational-silence.md, library/case-studies/deepwater-horizon-systemic-failure.md, library/engineering-infrastructure/power-grid-infrastructure-generation-transmission-distribution.md]
 ---

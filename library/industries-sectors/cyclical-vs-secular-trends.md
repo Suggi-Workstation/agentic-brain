@@ -3,7 +3,7 @@ name: cyclical-vs-secular-trends
 id: 20260825T144522Z
 tier: library-topic
 domain: industries-sectors
-author: Library Runner
+author: Librarian
 tags: [cyclical-trends, secular-trends, capital-allocation, mean-reversion, value-traps, value-migration, industry-analysis]
 links: [library/industries-sectors/capital-cycle-analysis.md, library/industries-sectors/disruption-theory.md, library/industries-sectors/porters-five-forces.md, library/macro-micro/business-cycles.md]
 ---

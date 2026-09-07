@@ -3,7 +3,7 @@ name: berkshire-annual-reports-2016-2025
 id: 20260901T064726Z
 tier: library-topic
 domain: value-investing
-author: Library Runner
+author: Librarian
 tags: [berkshire-hathaway, annual-reports, capital-allocation, buffett, greg-abel, succession, insurance-float, buybacks]
 links: [library/value-investing/capital-allocation.md, library/investors/warren-buffett.md, library/investors/charlie-munger.md]
 ---

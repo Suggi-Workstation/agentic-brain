@@ -3,7 +3,7 @@ name: business-development-companies
 id: 20260902T033130Z
 tier: library-topic
 domain: investment-vehicles-fund-structures
-author: Library Runner
+author: Librarian
 tags: [bdcs, business-development-companies, private-credit, regulated-investment-company, middle-market-lending, pass-through-taxation, leverage, credit-risk]
 links: [library/investment-vehicles-fund-structures/reits-real-estate-investment-trusts.md, library/investment-vehicles-fund-structures/pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md, library/investment-vehicles-fund-structures/closed-end-funds-investment-trusts.md, library/investment-vehicles-fund-structures/hedge-fund-structures-fee-arrangements-lockups-leverage.md, library/investment-vehicles-fund-structures/mutual-funds-etfs-retail-capital-pooling.md]
 ---

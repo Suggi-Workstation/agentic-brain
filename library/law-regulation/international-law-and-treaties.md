@@ -3,7 +3,7 @@ name: international-law-and-treaties
 id: 20260827T060057Z
 tier: library-topic
 domain: law-regulation
-author: Library Runner
+author: Librarian
 tags: [international-law, treaties, vienna-convention, sovereignty, icj, un-charter, jus-cogens, customary-law]
 links: [library/law-regulation/constitutional-law-governance-structures.md, library/law-regulation/securities-regulation.md, library/geopolitics/international-institutions-un-wto-imf.md]
 ---

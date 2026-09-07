@@ -3,7 +3,7 @@ name: the-signal-and-the-noise
 id: 20260831T101748Z
 tier: library-topic
 domain: books
-author: Library Runner
+author: Librarian
 tags: [nate-silver, signal-and-noise, prediction, forecasting, bayesian-reasoning, calibration, probability, uncertainty]
 links: [library/probabilistic-thinking-forecasting/bayesian-reasoning.md, library/probabilistic-thinking-forecasting/superforecasting.md, library/books/the-black-swan-taleb.md]
 ---

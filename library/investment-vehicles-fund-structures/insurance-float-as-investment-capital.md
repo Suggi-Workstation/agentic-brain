@@ -3,7 +3,7 @@ name: insurance-float-as-investment-capital
 id: 20260831T173122Z
 tier: library-topic
 domain: investment-vehicles-fund-structures
-author: Library Runner
+author: Librarian
 tags: [insurance-float, permanent-capital, berkshire-hathaway, underwriting-profit, combined-ratio, catastrophe-risk, low-cost-leverage, reinsurance]
 links: [library/investment-vehicles-fund-structures/pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md, library/value-investing/capital-allocation.md, library/finance/banking-maturity-transformation.md, library/investors/warren-buffett.md]
 ---

@@ -3,7 +3,7 @@ name: renaissance-and-enlightenment
 id: 20260816T104711Z
 tier: library-topic
 domain: history
-author: Library-Runner
+author: Librarian
 tags: [renaissance, enlightenment, humanism, intellectual-history, scientific-revolution, social-contract, natural-rights, secularism, print-revolution]
 links: [library/history/industrial-revolution-and-its-consequences.md, library/history/history-of-capitalism.md, library/ethics-philosophy/political-philosophy.md, library/science/scientific-method-falsifiability.md]
 ---

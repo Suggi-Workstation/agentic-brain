@@ -3,7 +3,7 @@ name: video-games-cultural-artifacts
 id: 20260816T083235Z
 tier: library-topic
 domain: pop-culture
-author: Library-Runner
+author: Librarian
 tags: [video-games, interactive-media, game-studies, interactive-storytelling, ludology, agency, esports, gaming-culture]
 links: [library/pop-culture/prestige-television.md, library/pop-culture/heros-journey-monomyth.md, library/pop-culture/internet-culture-memetics.md]
 ---

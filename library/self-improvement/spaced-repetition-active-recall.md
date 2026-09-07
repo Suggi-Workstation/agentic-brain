@@ -3,7 +3,7 @@ name: spaced-repetition-active-recall
 id: 20260826T070132Z
 tier: library-topic
 domain: self-improvement
-author: Library-Runner
+author: Librarian
 tags: [spaced-repetition, active-recall, testing-effect, forgetting-curve, retrieval-practice, learning-techniques, ebbinghaus]
 links: [library/self-improvement/deliberate-practice.md, library/self-improvement/focus-and-deep-work.md, library/self-improvement/exercise-and-cognitive-performance.md]
 ---

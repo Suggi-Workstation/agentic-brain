@@ -3,7 +3,7 @@ name: framing-effects
 id: 20260825T170115Z
 tier: library-topic
 domain: psychology-behavior
-author: Library-Runner
+author: Librarian
 tags: [framing-effects, prospect-theory, behavioral-economics, kahneman, tversky, decision-making, choice-architecture, nudge]
 links: [library/psychology-behavior/prospect-theory.md, library/psychology-behavior/cognitive-biases.md, library/psychology-behavior/system-1-vs-system-2-thinking.md]
 ---

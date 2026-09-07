@@ -3,7 +3,7 @@ name: buildings-and-urban-infrastructure
 id: 20260902T020053Z
 tier: library-topic
 domain: engineering-infrastructure
-author: Library Runner
+author: Librarian
 tags: [buildings, urban-infrastructure, structural-systems, building-codes, hvac, lifecycle-cost, green-building, faislur-khan]
 links:
   - library/engineering-infrastructure/reliability-engineering-failure-analysis.md

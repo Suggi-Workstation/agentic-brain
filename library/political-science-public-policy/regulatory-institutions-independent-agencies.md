@@ -3,7 +3,7 @@ name: regulatory-institutions-independent-agencies
 id: 20260903T153526Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [regulatory-institutions, independent-agencies, regulatory-governance, delegation, accountability, agency-capture, public-policy]
 links: [library/political-science-public-policy/bureaucracy-public-administration.md, library/political-science-public-policy/public-policy-design-implementation.md, library/political-science-public-policy/corruption-accountability-institutional-quality.md, library/political-science-public-policy/interest-groups-lobbying.md, library/law-regulation/regulatory-capture-theory.md]
 ---

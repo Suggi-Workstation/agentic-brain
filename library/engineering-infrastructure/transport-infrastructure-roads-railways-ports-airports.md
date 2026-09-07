@@ -3,7 +3,7 @@ name: transport-infrastructure-roads-railways-ports-airports
 id: 20260901T204616Z
 tier: library-topic
 domain: engineering-infrastructure
-author: Library Runner
+author: Librarian
 tags: [transport-infrastructure, highways, railways, ports, airports, capacity-planning, asset-management, modal-competition, lifecycle-cost]
 links: [library/engineering-infrastructure/infrastructure-resilience-climate-adaptation.md, library/engineering-infrastructure/reliability-engineering-failure-analysis.md, library/engineering-infrastructure/power-grid-infrastructure-generation-transmission-distribution.md, library/macro-micro/trade-and-comparative-advantage.md, library/industries-sectors/global-supply-chain-dynamics.md]
 ---

@@ -3,7 +3,7 @@ name: restatement-analysis
 id: 20260826T073134Z
 tier: library-topic
 domain: accounting-financial-shenanigans
-author: Library-Runner
+author: Librarian
 tags: [restatement-analysis, financial-restatements, forensic-accounting, earnings-manipulation, sec-enforcement, big-r-restatement, little-r-restatement, material-misstatement]
 links: [library/accounting-financial-shenanigans/anchor-accounting-financial-shenanigans.md, library/accounting-financial-shenanigans/revenue-recognition-shenanigans.md, library/accounting-financial-shenanigans/beneish-m-score.md, library/accounting-financial-shenanigans/cash-flow-shenanigans.md]
 ---

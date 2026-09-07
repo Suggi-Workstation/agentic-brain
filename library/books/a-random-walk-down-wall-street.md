@@ -3,7 +3,7 @@ name: a-random-walk-down-wall-street
 id: 20260831T100100Z
 tier: library-topic
 domain: books
-author: Library Runner
+author: Librarian
 tags: [random-walk, efficient-market-hypothesis, index-investing, malkiel, passive-investing, market-efficiency, behavioral-finance]
 links: [library/books/the-intelligent-investor.md, library/books/thinking-fast-and-slow.md, library/books/the-black-swan-taleb.md, library/value-investing/mr-market.md, library/portfolio-risk-management/modern-portfolio-theory.md, library/psychology-behavior/cognitive-biases.md]
 ---

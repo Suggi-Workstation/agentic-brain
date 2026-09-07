@@ -3,7 +3,7 @@ name: market-structures
 id: 20260828T090351Z
 tier: library-topic
 domain: macro-micro
-author: Library Runner
+author: Librarian
 tags: [market-structures, perfect-competition, monopoly, oligopoly, monopolistic-competition, market-power, herfindahl-hirschman-index, price-discrimination, barriers-to-entry, industrial-organization]
 links: [library/macro-micro/game-theory-strategic-interaction-and-cooperation.md, library/macro-micro/trade-and-comparative-advantage.md, library/macro-micro/inflation-dynamics.md, library/macro-micro/anchor-macro-micro.md]
 ---

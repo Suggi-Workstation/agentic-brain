@@ -3,7 +3,7 @@ name: hedge-fund-structures-fee-arrangements-lockups-leverage
 id: 20260901T051617Z
 tier: library-topic
 domain: investment-vehicles-fund-structures
-author: Library Runner
+author: Librarian
 tags: [hedge-funds, fee-structures, 2-and-20, high-water-mark, lockups, gates, side-pockets, leverage, prime-brokerage, liquidity-mismatch]
 links: [library/investment-vehicles-fund-structures/pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md, library/investment-vehicles-fund-structures/mutual-funds-etfs-retail-capital-pooling.md, library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md, library/case-studies/long-term-capital-management-collapse.md]
 ---

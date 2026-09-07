@@ -3,7 +3,7 @@ name: supply-and-demand
 id: 20260829T123326Z
 tier: library-topic
 domain: macro-micro
-author: Library Runner
+author: Librarian
 tags: [supply-and-demand, price-discovery, elasticity, price-controls, welfare-economics, microeconomics]
 links: [library/macro-micro/market-structures.md, library/macro-micro/inflation-dynamics.md, library/macro-micro/trade-and-comparative-advantage.md]
 ---

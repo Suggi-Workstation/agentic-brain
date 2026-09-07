@@ -3,7 +3,7 @@ name: guns-germs-and-steel
 id: 20260829T140445Z
 tier: library-topic
 domain: books
-author: Library Runner
+author: Librarian
 tags: [guns-germs-and-steel, jared-diamond, geography, environmental-determinism, world-history, agriculture]
 links: [library/books/sapiens-a-brief-history-of-humankind.md, library/anthropology/rise-fall-civilizations.md]
 ---

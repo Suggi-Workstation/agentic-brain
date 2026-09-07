@@ -3,7 +3,7 @@ name: manufacturing-systems-industrial-engineering
 id: 20260831T191513Z
 tier: library-topic
 domain: engineering-infrastructure
-author: Library Runner
+author: Librarian
 tags: [manufacturing-systems, industrial-engineering, lean-production, toyota-production-system, six-sigma, theory-of-constraints, quality-management, throughput]
 links:
   - library/engineering-infrastructure/reliability-engineering-failure-analysis.md

@@ -3,7 +3,7 @@ name: berkshire-apple-investment-consumer-loyalty
 id: 20260901T081553Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [berkshire-hathaway, apple, buffett, consumer-franchise, share-buybacks, ecosystem-moat, circle-of-competence, capital-allocation]
 links: [library/value-investing/circle-of-competence.md, library/value-investing/economic-moats.md, library/value-investing/concentration-vs-diversification.md, library/value-investing/capital-allocation.md, library/value-investing/berkshire-annual-reports-2016-2025.md, library/case-studies/apple-turnaround-1997-2010.md]
 ---

@@ -3,7 +3,7 @@ name: reits-real-estate-investment-trusts
 id: 20260902T030110Z
 tier: library-topic
 domain: investment-vehicles-fund-structures
-author: Library Runner
+author: Librarian
 tags: [reits, real-estate-investment-trusts, pass-through-taxation, mandatory-distribution, equity-reits, mortgage-reits, reit-leverage, nav, ffo-affo, external-management]
 links: [library/investment-vehicles-fund-structures/closed-end-funds-investment-trusts.md, library/investment-vehicles-fund-structures/mutual-funds-etfs-retail-capital-pooling.md, library/investment-vehicles-fund-structures/pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md, library/investment-vehicles-fund-structures/hedge-fund-structures-fee-arrangements-lockups-leverage.md, library/investment-vehicles-fund-structures/anchor-investment-vehicles-fund-structures.md]
 ---

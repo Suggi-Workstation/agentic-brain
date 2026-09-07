@@ -3,7 +3,7 @@ name: bureaucracy-public-administration
 id: 20260901T061658Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [bureaucracy, public-administration, weber, rational-legal-authority, politics-administration-dichotomy, bureaucratic-autonomy, street-level-bureaucracy, niskanen, new-public-management, civil-service-reform]
 links: [library/political-science-public-policy/state-capacity.md, library/political-science-public-policy/federalism-multi-level-governance.md, library/business-management-strategy/organizational-design-decentralization.md]
 ---

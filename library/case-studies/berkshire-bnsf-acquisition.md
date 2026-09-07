@@ -3,7 +3,7 @@ name: berkshire-bnsf-acquisition
 id: 20260901T184532Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [berkshire-hathaway, bnsf, railroad-acquisition, warren-buffett, infrastructure-investing, regulated-utility, capital-allocation]
 links: [library/case-studies/berkshire-sees-candies-acquisition.md, library/case-studies/2008-financial-crisis.md, library/case-studies/berkshire-geico-investment.md, library/value-investing/anchor-value-investing.md, library/engineering-infrastructure/anchor-engineering-infrastructure.md]
 ---

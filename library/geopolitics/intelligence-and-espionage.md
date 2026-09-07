@@ -3,7 +3,7 @@ name: intelligence-and-espionage
 id: 20260831T091644Z
 tier: library-topic
 domain: geopolitics
-author: Library Runner
+author: Librarian
 tags: [intelligence, espionage, humint, sigint, counterintelligence, covert-action, cold-war, stuxnet, cambridge-five]
 links: [library/geopolitics/cyber-warfare.md, library/history/cold-war.md, library/geopolitics/nuclear-deterrence-mad.md, library/geopolitics/us-china-great-power-competition.md]
 ---

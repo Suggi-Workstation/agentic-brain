@@ -3,7 +3,7 @@ name: family-offices-structure-governance-capital-allocation
 id: 20260901T230144Z
 tier: library-topic
 domain: investment-vehicles-fund-structures
-author: Library Runner
+author: Librarian
 tags: [family-offices, single-family-office, multi-family-office, permanent-capital, succession-planning, family-governance, wealth-management, investment-policy-statement]
 links: [library/investment-vehicles-fund-structures/berkshire-hathaway-permanent-capital-conglomerate.md, library/investment-vehicles-fund-structures/pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md, library/investment-vehicles-fund-structures/hedge-fund-structures-fee-arrangements-lockups-leverage.md, library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md, library/investment-vehicles-fund-structures/mutual-funds-etfs-retail-capital-pooling.md, library/value-investing/capital-allocation.md]
 ---

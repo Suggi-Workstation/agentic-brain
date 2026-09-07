@@ -3,7 +3,7 @@ name: sovereign-debt-dynamics
 id: 20260903T143442Z
 tier: library-topic
 domain: macro-micro
-author: Library Runner
+author: Librarian
 tags: [sovereign-debt, debt-sustainability, fiscal-policy, debt-restructuring, sovereign-default, fiscal-monetary-policy]
 links: [library/macro-micro/fiscal-policy-and-government-spending.md, library/macro-micro/monetary-policy-and-central-banking.md, library/macro-micro/inflation-dynamics.md]
 ---

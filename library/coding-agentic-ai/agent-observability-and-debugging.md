@@ -3,7 +3,7 @@ name: agent-observability-and-debugging
 id: 20260827T200233Z
 tier: library-topic
 domain: coding-agentic-ai
-author: Library Runner
+author: Librarian
 tags: [agent-observability, agent-debugging, tracing, spans, opentelemetry, replay-debugging, failure-taxonomy, langsmith]
 links: [library/coding-agentic-ai/agent-evaluation-and-benchmarking.md, library/coding-agentic-ai/multi-agent-orchestration.md, library/coding-agentic-ai/tool-use-and-function-calling.md, library/coding-agentic-ai/context-window-management.md]
 ---

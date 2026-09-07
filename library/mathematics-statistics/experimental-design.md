@@ -3,7 +3,7 @@ name: experimental-design
 id: 20260827T070125Z
 tier: library-topic
 domain: mathematics-statistics
-author: Library Runner
+author: Librarian
 tags: [experimental-design, randomization, blocking, replication, factorial-designs, control-groups, blinding, validity, replication-crisis, sample-size, power-analysis]
 links: [library/mathematics-statistics/causal-inference.md, library/mathematics-statistics/statistical-inference.md, library/mathematics-statistics/probability-theory-fundamentals.md, library/mathematics-statistics/regression-analysis.md, library/mathematics-statistics/bayesian-statistics.md]
 ---

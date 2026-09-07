@@ -3,7 +3,7 @@ name: risk-parity-and-factor-based-construction
 id: 20260825T130114Z
 tier: library-topic
 domain: portfolio-risk-management
-author: Library-Runner
+author: Librarian
 tags: [risk-parity, factor-investing, portfolio-construction, all-weather, smart-beta, fama-french, momentum, value-factor, quality-factor, leverage]
 links: [library/portfolio-risk-management/modern-portfolio-theory.md, library/portfolio-risk-management/diversification-mathematics.md, library/portfolio-risk-management/portfolio-rebalancing-strategies.md, library/portfolio-risk-management/kelly-criterion.md]
 ---

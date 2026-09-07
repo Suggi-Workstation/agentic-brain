@@ -3,7 +3,7 @@ name: soft-power-and-cultural-influence
 id: 20260831T111656Z
 tier: library-topic
 domain: geopolitics
-author: Library Runner
+author: Librarian
 tags: [soft-power, cultural-diplomacy, joseph-nye, public-diplomacy, smart-power, sharp-power, korean-wave, hallyu]
 links: [library/geopolitics/international-relations-theory.md, library/geopolitics/us-china-great-power-competition.md, library/communication/propaganda-and-misinformation.md, library/pop-culture/film-as-cultural-artifact.md]
 ---

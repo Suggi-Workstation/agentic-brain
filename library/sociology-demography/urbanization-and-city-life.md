@@ -3,7 +3,7 @@ name: urbanization-and-city-life
 id: 20260901T063052Z
 tier: library-topic
 domain: sociology-demography
-author: Library Runner
+author: Librarian
 tags: [urbanization, urban-sociology, chicago-school, wirth, segregation, gentrification, suburbanization, megacities, global-cities, informality, lefebvre, sassen, built-environment]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/sociology-demography/demographic-transition.md, library/sociology-demography/social-stratification-and-mobility.md, library/sociology-demography/social-networks-and-social-capital.md, library/political-science-public-policy/anchor-political-science-public-policy.md]
 ---

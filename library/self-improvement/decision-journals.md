@@ -3,7 +3,7 @@ name: decision-journals
 id: 20260826T071622Z
 tier: library-topic
 domain: self-improvement
-author: Library Runner
+author: Librarian
 tags: [decision-journals, hindsight-bias, calibration, decision-quality, prediction-tracking, feedback-loops, outcome-bias]
 links: [library/psychology-behavior/cognitive-biases.md, library/self-improvement/goal-setting-frameworks.md, library/psychology-behavior/overconfidence.md, library/self-improvement/habit-formation.md, library/psychology-behavior/system-1-vs-system-2-thinking.md]
 ---

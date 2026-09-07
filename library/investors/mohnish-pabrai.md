@@ -3,7 +3,7 @@ name: mohnish-pabrai
 id: 20260901T070132Z
 tier: library-topic
 domain: investors
-author: Library Runner
+author: Librarian
 tags: [mohnish-pabrai, dhandho, cloning, concentrated-investing, pabrai-funds, value-investing, checklist-investing]
 links: [library/investors/warren-buffett.md, library/investors/charlie-munger.md, library/investors/benjamin-graham.md, library/value-investing/concentration-vs-diversification.md, library/value-investing/margin-of-safety.md]
 ---

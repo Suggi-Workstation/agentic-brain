@@ -3,7 +3,7 @@ name: comparative-education-systems
 id: 20260827T191704Z
 tier: library-topic
 domain: education-learning
-author: Library Runner
+author: Librarian
 tags: [comparative-education, education-systems, tracking, pisa, equity, teacher-quality, vocational-training, shadow-education]
 links: [library/education-learning/assessment-and-testing.md, library/education-learning/pedagogy-and-teaching-methods.md, library/education-learning/curriculum-design-and-sequencing.md]
 ---

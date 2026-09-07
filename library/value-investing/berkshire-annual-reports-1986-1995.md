@@ -3,7 +3,7 @@ name: berkshire-annual-reports-1986-1995
 id: 20260901T170226Z
 tier: library-topic
 domain: value-investing
-author: Library Runner
+author: Librarian
 tags: [berkshire-hathaway, annual-reports, buffett, munger, coca-cola, franchise-investing, owner-earnings, look-through-earnings, economic-goodwill, wells-fargo]
 links: [library/value-investing/berkshire-annual-reports-1996-2005.md, library/value-investing/economic-moats.md, library/value-investing/capital-allocation.md, library/value-investing/management-quality-evaluation.md, library/value-investing/intrinsic-value-estimation-methods.md, library/value-investing/circle-of-competence.md, library/investors/warren-buffett.md, library/case-studies/berkshire-sees-candies-acquisition.md, library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md]
 ---

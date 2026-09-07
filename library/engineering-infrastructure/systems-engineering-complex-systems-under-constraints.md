@@ -3,7 +3,7 @@ name: systems-engineering-complex-systems-under-constraints
 id: 20260904T053449Z
 tier: library-topic
 domain: engineering-infrastructure
-author: Library Runner
+author: Librarian
 tags: [systems-engineering, requirements-engineering, interface-management, verification-validation, lifecycle-engineering, technical-tradeoffs, systems-architecture]
 links: [library/engineering-infrastructure/anchor-engineering-infrastructure.md, library/engineering-infrastructure/reliability-engineering-failure-analysis.md, library/engineering-infrastructure/construction-methods-project-management.md]
 ---

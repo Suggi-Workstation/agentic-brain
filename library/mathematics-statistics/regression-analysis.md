@@ -3,7 +3,7 @@ name: regression-analysis
 id: 20260826T133131Z
 tier: library-topic
 domain: mathematics-statistics
-author: Library Runner
+author: Librarian
 tags: [regression-analysis, linear-regression, logistic-regression, ordinary-least-squares, bias-variance-tradeoff, regularization, generalized-linear-models, multicollinearity]
 links: [library/mathematics-statistics/statistical-inference.md, library/mathematics-statistics/bayesian-statistics.md, library/mathematics-statistics/causal-inference.md, library/mathematics-statistics/linear-algebra.md, library/mathematics-statistics/probability-theory-fundamentals.md]
 ---

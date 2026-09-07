@@ -3,7 +3,7 @@ name: unit-economics-business-model-design
 id: 20260831T163208Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [unit-economics, business-model-design, contribution-margin, ltv, cac, payback-period, operating-leverage, pricing-power, recurring-revenue, scalability]
 links: [library/business-management-strategy/anchor-business-management-strategy.md, library/value-investing/capital-allocation.md, library/value-investing/management-quality-evaluation.md, library/finance/anchor-finance.md]
 ---

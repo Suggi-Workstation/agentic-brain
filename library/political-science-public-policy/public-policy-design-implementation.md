@@ -3,7 +3,7 @@ name: public-policy-design-implementation
 id: 20260902T044607Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [policy-implementation, policy-design, street-level-bureaucracy, agenda-setting, policy-instruments, evidence-based-policy, pressman-wildavsky, lipsky, policy-evaluation]
 links: [library/political-science-public-policy/bureaucracy-public-administration.md, library/political-science-public-policy/state-capacity.md, library/political-science-public-policy/legislatures-executive-legislative-relations.md, library/political-science-public-policy/federalism-multi-level-governance.md, library/political-science-public-policy/welfare-state-design-and-social-policy.md]
 ---

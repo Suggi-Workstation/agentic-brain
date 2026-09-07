@@ -3,7 +3,7 @@ name: industry-profit-pools
 id: 20260826T063106Z
 tier: library-topic
 domain: industries-sectors
-author: Library Runner
+author: Librarian
 tags: [profit-pools, value-chain, industry-analysis, profit-migration, bain, gadiesh, slywotzky, capital-allocation, competitive-dynamics]
 links: [library/industries-sectors/value-chain-analysis.md, library/industries-sectors/porters-five-forces.md, library/industries-sectors/capital-cycle-analysis.md, library/industries-sectors/disruption-theory.md]
 ---

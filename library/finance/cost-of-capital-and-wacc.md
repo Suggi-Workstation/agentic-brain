@@ -3,7 +3,7 @@ name: cost-of-capital-and-wacc
 id: 20260827T053149Z
 tier: library-topic
 domain: finance
-author: Library-Runner
+author: Librarian
 tags: [cost-of-capital, wacc, capm, capital-structure, corporate-finance, discount-rate, hurdle-rate]
 links: [library/finance/capital-structure-modigliani-miller.md, library/finance/financial-statement-analysis.md, library/finance/bond-pricing-and-fixed-income-markets.md, library/finance/dividend-policy-and-share-buybacks.md]
 ---

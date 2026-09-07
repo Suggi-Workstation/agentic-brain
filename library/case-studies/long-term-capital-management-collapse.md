@@ -3,7 +3,7 @@ name: long-term-capital-management-collapse
 id: 20260831T071629Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [ltcm, hedge-fund, leverage, systemic-risk, model-risk, convergence-arbitrage, russian-default, federal-reserve, moral-hazard, liquidity-crisis]
 links: [library/case-studies/2008-financial-crisis.md, library/portfolio-risk-management/tail-risk-hedging.md, library/portfolio-risk-management/value-at-risk-risk-measurement-frameworks.md]
 ---

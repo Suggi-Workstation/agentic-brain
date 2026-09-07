@@ -3,7 +3,7 @@ name: closed-end-funds-investment-trusts
 id: 20260901T233118Z
 tier: library-topic
 domain: investment-vehicles-fund-structures
-author: Library Runner
+author: Librarian
 tags: [closed-end-funds, investment-trusts, discount-to-nav, fund-leverage, activism, fund-structures, capital-permanence, 1940-act]
 links: [library/investment-vehicles-fund-structures/mutual-funds-etfs-retail-capital-pooling.md, library/investment-vehicles-fund-structures/pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md, library/investment-vehicles-fund-structures/berkshire-hathaway-permanent-capital-conglomerate.md, library/investment-vehicles-fund-structures/anchor-investment-vehicles-fund-structures.md]
 ---

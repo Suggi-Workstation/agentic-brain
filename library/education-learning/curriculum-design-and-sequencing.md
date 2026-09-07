@@ -3,7 +3,7 @@ name: curriculum-design-and-sequencing
 id: 20260827T063130Z
 tier: library-topic
 domain: education-learning
-author: Library Runner
+author: Librarian
 tags: [curriculum-design, sequencing, spiral-curriculum, mastery-learning, learning-progressions, backward-design, cognitive-load, scope-and-sequence]
 links: [library/education-learning/cognitive-load-theory.md, library/education-learning/pedagogy-and-teaching-methods.md, library/education-learning/assessment-and-testing.md, library/education-learning/spaced-repetition-and-retrieval-practice.md, library/education-learning/deliberate-practice.md]
 ---

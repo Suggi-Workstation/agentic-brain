@@ -3,7 +3,7 @@ name: sociology-of-work-and-labor-markets
 id: 20260902T150527Z
 tier: library-topic
 domain: sociology-demography
-author: Library Runner
+author: Librarian
 tags: [sociology-of-work, labor-markets, labor-market-segmentation, occupations, precarious-work, platform-work, labor-inequality]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/sociology-demography/social-stratification-and-mobility.md, library/sociology-demography/sociology-of-family-and-gender.md, library/sociology-demography/social-networks-and-social-capital.md, library/sociology-demography/urbanization-and-city-life.md]
 ---

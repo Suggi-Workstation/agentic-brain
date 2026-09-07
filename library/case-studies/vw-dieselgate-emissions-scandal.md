@@ -3,7 +3,7 @@ name: vw-dieselgate-emissions-scandal
 id: 20260826T060149Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [dieselgate, volkswagen, emissions-scandal, corporate-governance, defeat-device, organizational-culture, regulatory-enforcement, winterkorn]
 links: [library/case-studies/enron-scandal.md, library/case-studies/deepwater-horizon-systemic-failure.md, library/case-studies/challenger-disaster-organizational-silence.md]
 ---

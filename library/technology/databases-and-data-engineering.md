@@ -3,7 +3,7 @@ name: databases-and-data-engineering
 id: 20260831T073105Z
 tier: library-topic
 domain: technology
-author: Library Runner
+author: Librarian
 tags: [databases, data-engineering, relational-model, sql, nosql, data-warehouse, etl, distributed-systems]
 links: [library/technology/cloud-computing.md, library/technology/software-architecture-patterns-principles.md, library/technology/blockchain-distributed-ledgers.md, library/technology/internet-tcpip-protocols-routing.md]
 ---

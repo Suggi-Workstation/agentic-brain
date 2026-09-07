@@ -3,7 +3,7 @@ name: berkshire-geico-investment
 id: 20260901T083315Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [geico, berkshire-hathaway, insurance-float, direct-distribution, cost-advantage, warren-buffett, acquisition, moat]
 links: [library/value-investing/economic-moats.md, library/value-investing/circle-of-competence.md, library/value-investing/capital-allocation.md, library/case-studies/berkshire-apple-investment-consumer-loyalty.md]
 ---

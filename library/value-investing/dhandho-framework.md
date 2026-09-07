@@ -3,7 +3,7 @@ name: dhandho-framework
 id: 20260901T160432Z
 tier: library-topic
 domain: value-investing
-author: Library Runner
+author: Librarian
 tags: [dhandho, pabrai, asymmetric-payoffs, low-risk-high-uncertainty, kelly-criterion, concentration, cloning, margin-of-safety]
 links: [library/value-investing/margin-of-safety.md, library/value-investing/concentration-vs-diversification.md, library/value-investing/circle-of-competence.md, library/value-investing/capital-allocation.md, library/value-investing/economic-moats.md]
 ---

@@ -3,7 +3,7 @@ name: innovation-management
 id: 20260903T142020Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [innovation-management, organizational-ambidexterity, exploration-exploitation, open-innovation, dynamic-capabilities, resource-allocation, r-and-d]
 links: [library/business-management-strategy/anchor-business-management-strategy.md, library/business-management-strategy/organizational-design-decentralization.md, library/business-management-strategy/resource-allocation-and-capital-budgeting.md, library/industries-sectors/disruption-theory.md]
 ---

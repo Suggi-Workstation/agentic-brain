@@ -3,7 +3,7 @@ name: political-parties-party-systems
 id: 20260901T201521Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [political-parties, party-systems, duverger, sartori, cleavage-theory, electoral-systems, party-organization, comparative-politics]
 links: [library/political-science-public-policy/electoral-systems-voting-mechanics.md, library/political-science-public-policy/federalism-multi-level-governance.md, library/political-science-public-policy/state-capacity.md, library/political-science-public-policy/bureaucracy-public-administration.md]
 ---

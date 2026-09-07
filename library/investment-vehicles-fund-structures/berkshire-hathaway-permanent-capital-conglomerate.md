@@ -3,7 +3,7 @@ name: berkshire-hathaway-permanent-capital-conglomerate
 id: 20260901T093023Z
 tier: library-topic
 domain: investment-vehicles-fund-structures
-author: Library Runner
+author: Librarian
 tags: [berkshire-hathaway, permanent-capital, conglomerate, holding-company, capital-allocation, decentralized-management, acquisition-currency, retained-earnings]
 links: [library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md, library/investment-vehicles-fund-structures/hedge-fund-structures-fee-arrangements-lockups-leverage.md, library/investment-vehicles-fund-structures/mutual-funds-etfs-retail-capital-pooling.md, library/investment-vehicles-fund-structures/pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md, library/value-investing/capital-allocation.md, library/case-studies/berkshire-sees-candies-acquisition.md]
 ---

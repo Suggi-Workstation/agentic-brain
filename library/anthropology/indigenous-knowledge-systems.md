@@ -3,7 +3,7 @@ name: indigenous-knowledge-systems
 id: 20260831T061520Z
 tier: library-topic
 domain: anthropology
-author: Library Runner
+author: Librarian
 tags: [indigenous-knowledge, traditional-ecological-knowledge, ethnoscience, bioprospecting, oral-tradition, cultural-burning, ethnopharmacology]
 links: [library/anthropology/food-and-agriculture-in-cultural-context.md, library/anthropology/material-culture-and-archaeology.md, library/science/scientific-method-falsifiability.md]
 ---

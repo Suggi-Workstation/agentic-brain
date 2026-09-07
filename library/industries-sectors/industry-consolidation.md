@@ -3,7 +3,7 @@ name: industry-consolidation
 id: 20260826T064620Z
 tier: library-topic
 domain: industries-sectors
-author: Library Runner
+author: Librarian
 tags: [industry-consolidation, mergers-acquisitions, market-concentration, oligopoly, antitrust, roll-up-strategy, herfindahl-index]
 links: [library/industries-sectors/porters-five-forces.md, library/industries-sectors/capital-cycle-analysis.md, library/industries-sectors/industry-profit-pools.md, library/industries-sectors/network-effects-platform-economics.md, library/industries-sectors/disruption-theory.md, library/law-regulation/regulatory-capture-theory.md]
 ---

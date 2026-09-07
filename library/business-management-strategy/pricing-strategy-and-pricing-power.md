@@ -3,7 +3,7 @@ name: pricing-strategy-and-pricing-power
 id: 20260901T210206Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [pricing-strategy, pricing-power, value-based-pricing, price-elasticity, price-discrimination, competitive-moat, dynamic-pricing]
 links: [library/business-management-strategy/unit-economics-business-model-design.md, library/value-investing/economic-moats.md, library/value-investing/capital-allocation.md]
 ---

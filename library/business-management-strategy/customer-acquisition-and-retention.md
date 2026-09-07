@@ -3,7 +3,7 @@ name: customer-acquisition-and-retention
 id: 20260902T010132Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [customer-acquisition, customer-retention, cac, ltv, churn, loyalty, funnel-design, conversion-optimization, nrr, marketing-strategy]
 links: [library/business-management-strategy/unit-economics-business-model-design.md, library/business-management-strategy/pricing-strategy-and-pricing-power.md, library/business-management-strategy/corporate-governance-board-effectiveness.md, library/industries-sectors/anchor-industries-sectors.md]
 ---

@@ -3,7 +3,7 @@ name: power-grid-infrastructure-generation-transmission-distribution
 id: 20260831T150108Z
 tier: library-topic
 domain: engineering-infrastructure
-author: Library Runner
+author: Librarian
 tags: [power-grid, electrical-infrastructure, transmission, distribution, grid-stability, renewable-integration, energy-storage, grid-resilience]
 links: [library/engineering-infrastructure/anchor-engineering-infrastructure.md, library/earth-climate/renewable-energy-cost-revolution.md, library/technology/cybersecurity-principles-threats-and-defense-in-depth.md, library/earth-climate/carbon-cycle-greenhouse-effect.md]
 ---

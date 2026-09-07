@@ -3,7 +3,7 @@ name: agent-protocol-design
 id: 20260904T051832Z
 tier: library-topic
 domain: coding-agentic-ai
-author: Library Runner
+author: Librarian
 tags: [agent-protocols, interoperability, mcp, a2a, capability-negotiation, agent-communication]
 links: [library/coding-agentic-ai/anchor-coding-agentic-ai.md, library/coding-agentic-ai/multi-agent-orchestration.md, library/coding-agentic-ai/tool-use-and-function-calling.md, library/coding-agentic-ai/agent-sandboxing-and-security.md]
 ---

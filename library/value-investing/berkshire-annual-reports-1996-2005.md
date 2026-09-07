@@ -3,7 +3,7 @@ name: berkshire-annual-reports-1996-2005
 id: 20260901T164751Z
 tier: library-topic
 domain: value-investing
-author: Library Runner
+author: Librarian
 tags: [berkshire-hathaway, annual-reports, general-re, geico, class-b-shares, dot-com-bubble, derivatives, insurance-float, capital-allocation, buffett]
 links: [library/value-investing/berkshire-annual-reports-2006-2015.md, library/value-investing/berkshire-annual-reports-2016-2025.md, library/value-investing/capital-allocation.md, library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md, library/case-studies/berkshire-sees-candies-acquisition.md, library/value-investing/circle-of-competence.md, library/value-investing/economic-moats.md, library/investors/warren-buffett.md]
 ---

@@ -3,7 +3,7 @@ name: journalism-and-media-ethics
 id: 20260829T130342Z
 tier: library-topic
 domain: communication
-author: Library Runner
+author: Librarian
 tags: [journalism-ethics, media-ethics, newsgathering, verification, objectivity, source-protection, spj-code]
 links: [library/communication/anchor-communication.md, library/communication/propaganda-and-misinformation.md, library/communication/the-medium-is-the-message.md]
 ---

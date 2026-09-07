@@ -3,7 +3,7 @@ name: scenario-planning-and-analysis
 id: 20260831T141642Z
 tier: library-topic
 domain: probabilistic-thinking-forecasting
-author: Library Runner
+author: Librarian
 tags: [scenario-planning, scenario-analysis, uncertainty, strategic-foresight, pierre-wack, shell, robustness]
 links: [library/probabilistic-thinking-forecasting/black-swan-theory.md, library/probabilistic-thinking-forecasting/inside-outside-view.md, library/probabilistic-thinking-forecasting/expected-value-decision-trees.md, library/probabilistic-thinking-forecasting/superforecasting.md]
 ---

@@ -3,7 +3,7 @@ name: migration-causes-patterns-and-consequences
 id: 20260901T193020Z
 tier: library-topic
 domain: sociology-demography
-author: Library Runner
+author: Librarian
 tags: [migration, demography, push-pull, remittances, assimilation, diaspora, ravenstein, internal-migration, international-migration, brain-drain]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/sociology-demography/demographic-transition.md, library/sociology-demography/urbanization-and-city-life.md, library/sociology-demography/social-stratification-and-mobility.md]
 ---

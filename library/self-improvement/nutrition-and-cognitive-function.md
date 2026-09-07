@@ -3,7 +3,7 @@ name: nutrition-and-cognitive-function
 id: 20260829T124732Z
 tier: library-topic
 domain: self-improvement
-author: Library Runner
+author: Librarian
 tags: [nutrition, cognitive-function, brain-health, glucose-regulation, omega-3-fatty-acids, diet-protocols]
 links: [library/self-improvement/exercise-and-cognitive-performance.md, library/health-medicine/nutrition-science-dietary-interventions.md, library/science/neuroscience-brain-mind.md]
 ---

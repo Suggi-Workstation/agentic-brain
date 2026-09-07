@@ -3,7 +3,7 @@ name: supply-chain-procurement-strategy
 id: 20260902T043159Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [supply-chain, procurement, strategic-sourcing, make-or-buy, vertical-integration, supplier-relationships, kraljic-matrix, inventory-management, supply-chain-resilience, transaction-cost-economics]
 links: [library/business-management-strategy/unit-economics-business-model-design.md, library/business-management-strategy/resource-allocation-and-capital-budgeting.md, library/business-management-strategy/organizational-design-decentralization.md, library/business-management-strategy/mergers-and-acquisitions-as-strategy.md]
 ---

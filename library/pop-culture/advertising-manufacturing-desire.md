@@ -3,7 +3,7 @@ name: advertising-manufacturing-desire
 id: 20260831T090218Z
 tier: library-topic
 domain: pop-culture
-author: Library Runner
+author: Librarian
 tags: [advertising, consumer-culture, manufactured-desire, persuasion, propaganda, branding, surveillance-capitalism, motivational-research]
 links: [library/pop-culture/propaganda-manufacturing-consent.md, library/psychology-behavior/cognitive-biases.md, library/psychology-behavior/social-influence-and-conformity.md, library/pop-culture/internet-culture-memetics.md]
 ---

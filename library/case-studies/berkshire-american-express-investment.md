@@ -3,7 +3,7 @@ name: berkshire-american-express-investment
 id: 20260901T181729Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [american-express, berkshire-hathaway, warren-buffett, circle-of-competence, network-effects, closed-loop-payments, brand-trust, share-repurchases, salad-oil-crisis, long-term-holding]
 links: [library/value-investing/circle-of-competence.md, library/value-investing/economic-moats.md, library/value-investing/capital-allocation.md, library/case-studies/berkshire-coca-cola-investment.md, library/case-studies/berkshire-sees-candies-acquisition.md, library/case-studies/berkshire-geico-investment.md, library/case-studies/berkshire-apple-investment-consumer-loyalty.md, library/investors/warren-buffett.md]
 ---

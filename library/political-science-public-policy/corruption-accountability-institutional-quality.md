@@ -3,7 +3,7 @@ name: corruption-accountability-institutional-quality
 id: 20260901T213116Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [corruption, accountability, institutional-quality, principal-agent, governance, transparency-international, anti-corruption, state-capacity]
 links: [library/political-science-public-policy/state-capacity.md, library/political-science-public-policy/bureaucracy-public-administration.md, library/political-science-public-policy/political-parties-party-systems.md]
 ---

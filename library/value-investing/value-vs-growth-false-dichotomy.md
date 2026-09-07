@@ -3,7 +3,7 @@ name: value-vs-growth-false-dichotomy
 id: 20260831T110148Z
 tier: library-topic
 domain: value-investing
-author: Library Runner
+author: Librarian
 tags: [value-vs-growth, buffett, munger, fama-french, garp, intrinsic-value, value-factor, quality-compounding, cigar-butts, style-box]
 links: [library/value-investing/economic-moats.md, library/value-investing/intrinsic-value-estimation-methods.md, library/value-investing/munger-latticework-mental-models.md, library/value-investing/mr-market.md, library/value-investing/margin-of-safety.md]
 ---

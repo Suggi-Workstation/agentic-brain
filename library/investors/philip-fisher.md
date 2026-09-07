@@ -3,7 +3,7 @@ name: philip-fisher
 id: 20260831T103229Z
 tier: library-topic
 domain: investors
-author: Library Runner
+author: Librarian
 tags: [philip-fisher, growth-investing, scuttlebutt, qualitative-analysis, common-stocks-uncommon-profits, management-quality, motorola, texas-instruments]
 links: [library/investors/warren-buffett.md, library/investors/benjamin-graham.md, library/investors/charlie-munger.md, library/value-investing/economic-moats.md, library/value-investing/concentration-vs-diversification.md]
 ---

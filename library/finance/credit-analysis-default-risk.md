@@ -3,7 +3,7 @@ name: credit-analysis-default-risk
 id: 20260827T061637Z
 tier: library-topic
 domain: finance
-author: Library Runner
+author: Librarian
 tags: [credit-analysis, default-risk, creditworthiness, credit-ratings, five-cs-of-credit, leverage-ratios, coverage-ratios, altman-z-score, merton-model, basel-irb]
 links: [library/finance/bond-pricing-and-fixed-income-markets.md, library/finance/financial-statement-analysis.md, library/finance/capital-structure-modigliani-miller.md, library/finance/banking-maturity-transformation.md]
 ---

@@ -3,7 +3,7 @@ name: alan-turing
 id: 20260826T131602Z
 tier: library-topic
 domain: notable-people
-author: Library Runner
+author: Librarian
 tags: [alan-turing, computer-science, computability, enigma, bletchley-park, artificial-intelligence, turing-test, mathematical-biology]
 links:
   - library/notable-people/ada-lovelace.md

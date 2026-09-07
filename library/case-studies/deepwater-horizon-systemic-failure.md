@@ -3,7 +3,7 @@ name: deepwater-horizon-systemic-failure
 id: 20260825T150123Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [deepwater-horizon, macondo-blowout, systemic-failure, normalization-of-deviance, offshore-drilling, bp, corporate-governance, safety-culture]
 links: [library/case-studies/challenger-disaster-organizational-silence.md, library/case-studies/enron-scandal.md, library/case-studies/2008-financial-crisis.md]
 ---

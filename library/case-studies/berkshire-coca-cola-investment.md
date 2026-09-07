@@ -3,7 +3,7 @@ name: berkshire-coca-cola-investment
 id: 20260901T180324Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [coca-cola, berkshire-hathaway, warren-buffett, brand-moat, pricing-power, dividend-compounding, roberto-goizueta, long-term-holding, capital-allocation, international-expansion]
 links: [library/investors/warren-buffett.md, library/value-investing/economic-moats.md, library/value-investing/capital-allocation.md, library/case-studies/berkshire-sees-candies-acquisition.md, library/case-studies/berkshire-apple-investment-consumer-loyalty.md, library/value-investing/circle-of-competence.md]
 ---

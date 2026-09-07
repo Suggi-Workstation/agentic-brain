@@ -3,7 +3,7 @@ name: berkshire-general-re-acquisition
 id: 20260901T190136Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [berkshire-hathaway, general-re, reinsurance, acquisition-currency, derivatives, warren-buffett, stock-issuance, underwriting-discipline, finite-reinsurance, tail-risk]
 links: [library/case-studies/berkshire-geico-investment.md, library/case-studies/berkshire-sees-candies-acquisition.md, library/case-studies/long-term-capital-management-collapse.md, library/case-studies/berkshire-bnsf-acquisition.md, library/value-investing/anchor-value-investing.md]
 ---

@@ -3,7 +3,7 @@ name: drawdown-analysis-and-management
 id: 20260825T131627Z
 tier: library-topic
 domain: portfolio-risk-management
-author: Library-Runner
+author: Librarian
 tags: [drawdown, maximum-drawdown, recovery-math, position-sizing, volatility-drag, calmar-ratio, behavioral-discipline, capital-preservation]
 links: [library/portfolio-risk-management/tail-risk-hedging.md, library/portfolio-risk-management/kelly-criterion.md, library/portfolio-risk-management/modern-portfolio-theory.md, library/portfolio-risk-management/diversification-mathematics.md, library/portfolio-risk-management/value-at-risk-risk-measurement-frameworks.md, library/portfolio-risk-management/portfolio-rebalancing-strategies.md, library/probabilistic-thinking-forecasting/anchor-probabilistic-thinking-forecasting.md]
 ---

@@ -3,7 +3,7 @@ name: infrastructure-resilience-climate-adaptation
 id: 20260901T200143Z
 tier: library-topic
 domain: engineering-infrastructure
-author: Library Runner
+author: Librarian
 tags: [resilience, climate-adaptation, infrastructure, sea-level-rise, cascading-failures, adaptation-pathways, managed-retreat, nature-based-solutions]
 links: [library/engineering-infrastructure/reliability-engineering-failure-analysis.md, library/engineering-infrastructure/power-grid-infrastructure-generation-transmission-distribution.md, library/engineering-infrastructure/water-and-wastewater-systems.md, library/earth-climate/anchor-earth-climate.md]
 ---

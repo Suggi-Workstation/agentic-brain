@@ -3,7 +3,7 @@ name: exercise-and-cognitive-performance
 id: 20260825T171615Z
 tier: library-topic
 domain: self-improvement
-author: Library-Runner
+author: Librarian
 tags: [exercise, cognitive-performance, bdnf, neuroplasticity, hippocampal-volume, executive-function, aerobic-training, resistance-training, dose-response]
 links: [library/self-improvement/sleep-optimization.md, library/self-improvement/focus-and-deep-work.md, library/self-improvement/meditation-and-mindfulness.md]
 ---

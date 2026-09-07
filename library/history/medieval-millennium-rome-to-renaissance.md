@@ -3,7 +3,7 @@ name: medieval-millennium-rome-to-renaissance
 id: 20260825T133147Z
 tier: library-topic
 domain: history
-author: Library Runner
+author: Librarian
 tags: [medieval-history, feudalism, black-death, crusades, catholic-church, agricultural-revolution, universities, carolingian-renaissance]
 links: [library/history/ancient-civilizations-and-their-legacies.md, library/history/renaissance-and-enlightenment.md, library/history/history-of-capitalism.md]
 ---

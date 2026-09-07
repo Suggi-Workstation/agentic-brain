@@ -3,7 +3,7 @@ name: management-quality-evaluation
 id: 20260831T104609Z
 tier: library-topic
 domain: value-investing
-author: Library Runner
+author: Librarian
 tags: [management-quality, stewardship, insider-ownership, capital-allocation, shareholder-communication, fisher-fifteen-points, agency-problem, integrity]
 links: [library/value-investing/capital-allocation.md, library/value-investing/economic-moats.md, library/investors/philip-fisher.md]
 ---

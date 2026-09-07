@@ -3,7 +3,7 @@ name: organizational-culture-incentive-systems
 id: 20260902T053030Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [organizational-culture, incentive-systems, competing-values-framework, schein, culture-performance, adaptive-culture, normative-control, person-organization-fit, culture-change, crowding-out]
 links: [library/business-management-strategy/anchor-business-management-strategy.md, library/business-management-strategy/organizational-design-decentralization.md, library/business-management-strategy/executive-compensation-incentive-design.md, library/business-management-strategy/corporate-governance-board-effectiveness.md, library/guide-library.md]
 ---

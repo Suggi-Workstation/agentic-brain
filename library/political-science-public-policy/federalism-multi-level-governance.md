@@ -3,7 +3,7 @@ name: federalism-multi-level-governance
 id: 20260831T190149Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [federalism, multi-level-governance, fiscal-federalism, intergovernmental-relations, decentralization, comparative-politics, constitutional-design]
 links: [library/political-science-public-policy/state-capacity.md, library/political-science-public-policy/electoral-systems-voting-mechanics.md, library/political-science-public-policy/index-political-science-public-policy.md]
 ---

@@ -3,7 +3,7 @@ name: welfare-state-design-and-social-policy
 id: 20260902T003109Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [welfare-state, social-policy, social-insurance, pensions, healthcare, decommodification, esping-andersen, redistribution, fiscal-sustainability]
 links:
   - library/political-science-public-policy/state-capacity.md

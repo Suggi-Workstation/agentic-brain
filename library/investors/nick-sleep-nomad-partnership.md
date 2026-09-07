@@ -3,7 +3,7 @@ name: nick-sleep-nomad-partnership
 id: 20260901T080433Z
 tier: library-topic
 domain: investors
-author: Library Runner
+author: Librarian
 tags: [nick-sleep, nomad-investment-partnership, scale-economies-shared, destination-analysis, concentration, long-term-investing, qais-zakaria]
 links: [library/investors/warren-buffett.md, library/investors/charlie-munger.md, library/investors/mohnish-pabrai.md, library/value-investing/anchor-value-investing.md, library/investment-vehicles-fund-structures/anchor-investment-vehicles-fund-structures.md]
 ---

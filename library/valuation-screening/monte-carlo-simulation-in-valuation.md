@@ -3,7 +3,7 @@ name: monte-carlo-simulation-in-valuation
 id: 20260831T124703Z
 tier: library-topic
 domain: valuation-screening
-author: Library-Runner
+author: Librarian
 tags: [monte-carlo-simulation, probabilistic-valuation, dcf, uncertainty-quantification, sensitivity-analysis, probability-distributions, latin-hypercube-sampling]
 links: [library/valuation-screening/discounted-cash-flow-dcf-methodology.md, library/valuation-screening/reverse-dcf-and-sensitivity-analysis.md, library/valuation-screening/cost-of-capital-capm-wacc-erp.md, library/valuation-screening/terminal-value-dcf-methods-and-biases.md]
 ---

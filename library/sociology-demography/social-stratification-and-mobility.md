@@ -3,7 +3,7 @@ name: social-stratification-and-mobility
 id: 20260831T170125Z
 tier: library-topic
 domain: sociology-demography
-author: Library Runner
+author: Librarian
 tags: [social-stratification, social-mobility, class, inequality, weber, marx, intergenerational-mobility, great-gatsby-curve, bourdieu, status-attainment]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/sociology-demography/demographic-transition.md, library/political-science-public-policy/state-capacity.md, library/macro-micro/anchor-macro-micro.md, library/education-learning/anchor-education-learning.md]
 ---

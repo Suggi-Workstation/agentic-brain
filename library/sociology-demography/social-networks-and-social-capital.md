@@ -3,7 +3,7 @@ name: social-networks-and-social-capital
 id: 20260831T183204Z
 tier: library-topic
 domain: sociology-demography
-author: Library Runner
+author: Librarian
 tags: [social-capital, social-networks, weak-ties, structural-holes, bridging-capital, bonding-capital, granovetter, putnam, bourdieu, coleman, brokerage, civic-engagement]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/sociology-demography/social-stratification-and-mobility.md, library/sociology-demography/demographic-transition.md, library/political-science-public-policy/anchor-political-science-public-policy.md]
 ---

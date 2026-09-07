@@ -3,7 +3,7 @@ name: mergers-and-acquisitions-mechanics
 id: 20260831T070412Z
 tier: library-topic
 domain: finance
-author: Library Runner
+author: Librarian
 tags: [mergers-and-acquisitions, corporate-finance, deal-structuring, leveraged-buyouts, synergies, acquisition-accounting, hostile-takeovers]
 links: [library/finance/capital-structure-modigliani-miller.md, library/finance/cost-of-capital-and-wacc.md, library/finance/financial-statement-analysis.md, library/accounting-financial-shenanigans/acquisition-accounting-tricks.md, library/finance/dividend-policy-and-share-buybacks.md]
 ---

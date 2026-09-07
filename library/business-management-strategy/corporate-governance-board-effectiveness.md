@@ -3,7 +3,7 @@ name: corporate-governance-board-effectiveness
 id: 20260831T153104Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [corporate-governance, board-effectiveness, agency-theory, principal-agent, executive-compensation, stewardship-theory, shareholder-activism, fiduciary-duty]
 links: [library/business-management-strategy/anchor-business-management-strategy.md, library/value-investing/capital-allocation.md, library/value-investing/management-quality-evaluation.md]
 ---

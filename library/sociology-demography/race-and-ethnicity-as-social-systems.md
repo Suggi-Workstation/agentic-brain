@@ -3,7 +3,7 @@ name: race-and-ethnicity-as-social-systems
 id: 20260902T151946Z
 tier: library-topic
 domain: sociology-demography
-author: Library Runner
+author: Librarian
 tags: [race, ethnicity, racial-formation, racial-stratification, intersectionality, social-inequality, ethnic-boundaries]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/sociology-demography/social-stratification-and-mobility.md, library/sociology-demography/sociology-of-work-and-labor-markets.md, library/sociology-demography/sociology-of-family-and-gender.md]
 ---

@@ -3,7 +3,7 @@ name: population-aging-social-consequences
 id: 20260901T191620Z
 tier: library-topic
 domain: sociology-demography
-author: Library Runner
+author: Librarian
 tags: [population-aging, dependency-ratio, pensions, intergenerational-transfers, caregiving, demographic-transition, fiscal-sustainability, aging-society]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/sociology-demography/demographic-transition.md, library/sociology-demography/social-stratification-and-mobility.md, library/macro-micro/anchor-macro-micro.md]
 ---

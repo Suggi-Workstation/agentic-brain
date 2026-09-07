@@ -3,7 +3,7 @@ name: mergers-and-acquisitions-as-strategy
 id: 20260902T013037Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [mergers, acquisitions, m-and-a, synergy, integration, corporate-governance, capital-allocation, hubris, empire-building, post-merger-integration]
 links: [library/business-management-strategy/resource-allocation-and-capital-budgeting.md, library/business-management-strategy/corporate-governance-board-effectiveness.md, library/business-management-strategy/executive-compensation-incentive-design.md, library/business-management-strategy/organizational-design-decentralization.md, library/value-investing/capital-allocation.md]
 ---

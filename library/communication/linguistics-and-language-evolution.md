@@ -3,7 +3,7 @@ name: linguistics-and-language-evolution
 id: 20260830T064723Z
 tier: library-topic
 domain: communication
-author: Library Runner
+author: Librarian
 tags: [linguistics, language-evolution, linguistic-relativity, sapir-whorf, language-families, endangered-languages]
 links: [library/communication/rhetoric.md, library/communication/narrative-structure-and-storytelling.md, library/communication/the-medium-is-the-message.md, library/communication/propaganda-and-misinformation.md, library/communication/interpersonal-communication-and-negotiation.md, library/anthropology/human-evolution-and-prehistory.md]
 ---

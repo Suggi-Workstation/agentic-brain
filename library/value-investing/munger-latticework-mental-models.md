@@ -3,7 +3,7 @@ name: munger-latticework-mental-models
 id: 20260825T143139Z
 tier: library-topic
 domain: value-investing
-author: Library Runner
+author: Librarian
 tags: [munger, mental-models, latticework, worldly-wisdom, multidisciplinary-thinking, inversion, psychology-of-misjudgment, lollapalooza-effect]
 links: [library/value-investing/anchor-value-investing.md, library/investors/charlie-munger.md, library/psychology-behavior/cognitive-biases.md, library/value-investing/margin-of-safety.md]
 ---

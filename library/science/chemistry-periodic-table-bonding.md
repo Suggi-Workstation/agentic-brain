@@ -3,7 +3,7 @@ name: chemistry-periodic-table-bonding
 id: 20260829T201549Z
 tier: library-topic
 domain: science
-author: Library Runner
+author: Librarian
 tags: [chemistry, periodic-table, chemical-bonding, electron-configuration, electronegativity, atomic-structure, periodic-trends]
 links: [library/science/quantum-mechanics.md, library/science/thermodynamics-laws-energy-entropy.md, library/science/cell-biology.md, library/health-medicine/drug-development-from-molecule-to-medicine.md, library/technology/semiconductors.md]
 ---

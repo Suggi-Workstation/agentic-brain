@@ -3,7 +3,7 @@ name: nomad-investment-partnership-fee-structure-patient-capital-deliberate-clos
 id: 20260901T153309Z
 tier: library-topic
 domain: investment-vehicles-fund-structures
-author: Library Runner
+author: Librarian
 tags: [nomad-investment-partnership, fee-structure, patient-capital, fund-closure, concentration, investment-partnership, incentive-alignment, nick-sleep, qais-zakaria, permanent-capital]
 links: [library/investors/nick-sleep-nomad-partnership.md, library/investment-vehicles-fund-structures/hedge-fund-structures-fee-arrangements-lockups-leverage.md, library/investment-vehicles-fund-structures/pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md, library/investment-vehicles-fund-structures/berkshire-hathaway-permanent-capital-conglomerate.md, library/value-investing/concentration-vs-diversification.md, library/value-investing/economic-moats.md]
 ---

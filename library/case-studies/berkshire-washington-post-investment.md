@@ -3,7 +3,7 @@ name: berkshire-washington-post-investment
 id: 20260901T183423Z
 tier: library-topic
 domain: case-studies
-author: Library Runner
+author: Librarian
 tags: [berkshire-hathaway, washington-post, warren-buffett, katharine-graham, media-moat, intrinsic-value, market-mispricing, corporate-governance, newspaper-economics, capital-allocation]
 links: [library/case-studies/berkshire-coca-cola-investment.md, library/case-studies/berkshire-geico-investment.md, library/case-studies/berkshire-american-express-investment.md, library/case-studies/berkshire-sees-candies-acquisition.md, library/case-studies/berkshire-apple-investment-consumer-loyalty.md]
 ---

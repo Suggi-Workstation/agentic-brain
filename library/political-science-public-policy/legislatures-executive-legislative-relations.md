@@ -3,7 +3,7 @@ name: legislatures-executive-legislative-relations
 id: 20260902T011628Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [legislatures, executive-legislative-relations, veto-bargaining, committee-systems, party-discipline, legislative-organization, separation-of-powers, agenda-control, parliamentary-government, pivotal-politics]
 links: [library/political-science-public-policy/political-parties-party-systems.md, library/political-science-public-policy/electoral-systems-voting-mechanics.md, library/political-science-public-policy/bureaucracy-public-administration.md, library/political-science-public-policy/federalism-multi-level-governance.md, library/political-science-public-policy/state-capacity.md, library/political-science-public-policy/index-political-science-public-policy.md]
 ---

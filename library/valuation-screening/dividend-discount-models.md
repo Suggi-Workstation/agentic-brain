@@ -3,7 +3,7 @@ name: dividend-discount-models
 id: 20260831T133137Z
 tier: library-topic
 domain: valuation-screening
-author: Library Runner
+author: Librarian
 tags: [dividend-discount-model, gordon-growth-model, h-model, multi-stage-ddm, dividend-yield, intrinsic-valuation, cost-of-equity]
 links: [library/valuation-screening/discounted-cash-flow-dcf-methodology.md, library/valuation-screening/cost-of-capital-capm-wacc-erp.md]
 ---

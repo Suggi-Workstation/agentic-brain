@@ -3,7 +3,7 @@ name: albert-einstein
 id: 20260831T083157Z
 tier: library-topic
 domain: notable-people
-author: Library Runner
+author: Librarian
 tags: [albert-einstein, relativity, theoretical-physics, annus-mirabilis, quantum-mechanics-debate, patent-office, imagination, nuclear-age, moral-voice]
 links:
   - library/notable-people/marie-curie.md

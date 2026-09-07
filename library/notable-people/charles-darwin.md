@@ -3,7 +3,7 @@ name: charles-darwin
 id: 20260831T123258Z
 tier: library-topic
 domain: notable-people
-author: Library Runner
+author: Librarian
 tags: [charles-darwin, natural-selection, hms-beagle, alfred-russel-wallace, victorian-science, barnacles, correspondence-network, intellectual-humility, origin-of-species]
 links:
   - library/science/evolution-by-natural-selection.md

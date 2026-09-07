@@ -3,7 +3,7 @@ name: earnings-power-value-and-asset-based-valuation
 id: 20260816T111900Z
 tier: library-topic
 domain: valuation-screening
-author: Library-Runner
+author: Librarian
 tags: [earnings-power-value, asset-based-valuation, epv, liquidation-value, net-net, reproduction-value, greenwald, graham, intrinsic-value]
 links: [library/valuation-screening/discounted-cash-flow-dcf-methodology.md, library/valuation-screening/graham-number-quantitative-value-screens.md, library/value-investing/anchor-value-investing.md]
 ---

@@ -3,7 +3,7 @@ name: rare-earths-critical-minerals
 id: 20260831T093314Z
 tier: library-topic
 domain: geopolitics
-author: Library Runner
+author: Librarian
 tags: [rare-earths, critical-minerals, resource-competition, china-monopoly, export-controls, supply-chain-weaponization, green-transition, strategic-minerals, deep-sea-mining]
 links: [library/geopolitics/anchor-geopolitics.md, library/geopolitics/energy-geopolitics.md, library/geopolitics/us-china-great-power-competition.md, library/geopolitics/trade-wars-economic-sanctions.md]
 ---

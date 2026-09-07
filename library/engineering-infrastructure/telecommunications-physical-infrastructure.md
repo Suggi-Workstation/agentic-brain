@@ -3,7 +3,7 @@ name: telecommunications-physical-infrastructure
 id: 20260903T140437Z
 tier: library-topic
 domain: engineering-infrastructure
-author: Library Runner
+author: Librarian
 tags: [telecommunications, physical-infrastructure, fiber-optics, cellular-networks, data-centers, satellite-ground-stations, reliability]
 links: [library/engineering-infrastructure/reliability-engineering-failure-analysis.md, library/engineering-infrastructure/infrastructure-resilience-climate-adaptation.md, library/engineering-infrastructure/power-grid-infrastructure-generation-transmission-distribution.md, library/engineering-infrastructure/buildings-and-urban-infrastructure.md]
 ---

@@ -3,7 +3,7 @@ name: sociology-of-family-and-gender
 id: 20260902T021601Z
 tier: library-topic
 domain: sociology-demography
-author: Library Runner
+author: Librarian
 tags: [family-sociology, gender-division-of-labor, second-demographic-transition, unpaid-care-work, motherhood-penalty, intersectionality, stalled-gender-revolution, household-production]
 links: [library/sociology-demography/demographic-transition.md, library/sociology-demography/social-stratification-and-mobility.md, library/sociology-demography/population-aging-social-consequences.md, library/sociology-demography/anchor-sociology-demography.md]
 ---

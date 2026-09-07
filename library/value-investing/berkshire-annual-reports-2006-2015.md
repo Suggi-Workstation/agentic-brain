@@ -3,7 +3,7 @@ name: berkshire-annual-reports-2006-2015
 id: 20260901T163108Z
 tier: library-topic
 domain: value-investing
-author: Library Runner
+author: Librarian
 tags: [berkshire-hathaway, annual-reports, financial-crisis, bnsf, capital-allocation, buffett, munger, insurance-float, kraft-heinz, fifty-year-retrospective]
 links: [library/value-investing/berkshire-annual-reports-2016-2025.md, library/value-investing/capital-allocation.md, library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md, library/case-studies/berkshire-sees-candies-acquisition.md]
 ---

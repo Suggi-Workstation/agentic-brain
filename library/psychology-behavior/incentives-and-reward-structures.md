@@ -3,7 +3,7 @@ name: incentives-and-reward-structures
 id: 20260825T153101Z
 tier: library-topic
 domain: psychology-behavior
-author: Library Runner
+author: Librarian
 tags: [incentives, perverse-incentives, cobra-effect, goodharts-law, principal-agent, motivation, behavioral-economics]
 links: [library/psychology-behavior/cognitive-biases.md, library/psychology-behavior/overconfidence.md, library/psychology-behavior/system-1-vs-system-2-thinking.md, library/psychology-behavior/social-influence-and-conformity.md, library/psychology-behavior/heuristics.md]
 ---

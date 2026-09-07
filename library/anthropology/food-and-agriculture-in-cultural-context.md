@@ -3,7 +3,7 @@ name: food-and-agriculture-in-cultural-context
 id: 20260830T063116Z
 tier: library-topic
 domain: anthropology
-author: Library Runner
+author: Librarian
 tags: [food, agriculture, subsistence, cuisine, commensality, food-taboos, neolithic-revolution, cultural-ecology]
 links: [library/anthropology/gift-economies-and-reciprocity.md, library/anthropology/human-evolution-and-prehistory.md, library/anthropology/rise-fall-civilizations.md, library/anthropology/kinship-and-social-structures.md]
 ---

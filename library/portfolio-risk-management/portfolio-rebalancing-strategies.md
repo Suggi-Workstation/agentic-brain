@@ -3,7 +3,7 @@ name: portfolio-rebalancing-strategies
 id: 20260825T124645Z
 tier: library-topic
 domain: portfolio-risk-management
-author: Library-Runner
+author: Librarian
 tags: [portfolio-rebalancing, rebalancing-frequency, threshold-rebalancing, calendar-rebalancing, diversification-return, transaction-costs, behavioral-finance, rebalancing-premium]
 links: [library/portfolio-risk-management/modern-portfolio-theory.md, library/portfolio-risk-management/kelly-criterion.md, library/portfolio-risk-management/diversification-mathematics.md, library/psychology-behavior/prospect-theory.md, library/psychology-behavior/cognitive-biases.md]
 ---

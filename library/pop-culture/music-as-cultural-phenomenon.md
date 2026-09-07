@@ -3,7 +3,7 @@ name: music-as-cultural-phenomenon
 id: 20260825T140036Z
 tier: library-topic
 domain: pop-culture
-author: Library-Runner
+author: Librarian
 tags: [music, cultural-phenomenon, generational-identity, protest-music, hip-hop, streaming, collective-memory, counterculture]
 links: [library/pop-culture/internet-culture-memetics.md, library/anthropology/ritual-religion-cultural-phenomena.md, library/psychology-behavior/social-influence-and-conformity.md]
 ---

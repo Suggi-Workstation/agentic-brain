@@ -3,7 +3,7 @@ name: organizational-design-decentralization
 id: 20260831T193038Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [organizational-design, decentralization, centralization, structure-follows-strategy, span-of-control, decision-rights, multidivisional, matrix-structure, contingency-theory]
 links: [library/business-management-strategy/anchor-business-management-strategy.md, library/business-management-strategy/corporate-governance-board-effectiveness.md, library/business-management-strategy/executive-compensation-incentive-design.md, library/guide-library.md]
 ---

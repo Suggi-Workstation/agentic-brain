@@ -3,7 +3,7 @@ name: social-movements-and-collective-action
 id: 20260902T004603Z
 tier: library-topic
 domain: sociology-demography
-author: Library Runner
+author: Librarian
 tags: [social-movements, collective-action, resource-mobilization, political-process, framing, contentious-politics, free-rider-problem, civil-rights]
 links: [library/sociology-demography/social-networks-and-social-capital.md, library/sociology-demography/social-stratification-and-mobility.md, library/political-science-public-policy/political-parties-party-systems.md, library/political-science-public-policy/welfare-state-design-and-social-policy.md]
 ---

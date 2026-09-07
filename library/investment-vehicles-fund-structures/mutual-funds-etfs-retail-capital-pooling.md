@@ -3,7 +3,7 @@ name: mutual-funds-etfs-retail-capital-pooling
 id: 20260831T181609Z
 tier: library-topic
 domain: investment-vehicles-fund-structures
-author: Library Runner
+author: Librarian
 tags: [mutual-funds, etfs, passive-investing, index-funds, expense-ratios, creation-redemption, nav-pricing, tax-efficiency, fund-structures]
 links: [library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md, library/investment-vehicles-fund-structures/pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md, library/finance/anchor-finance.md]
 ---

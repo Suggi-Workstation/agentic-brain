@@ -3,7 +3,7 @@ name: tool-use-and-function-calling
 id: 20260827T193157Z
 tier: library-topic
 domain: coding-agentic-ai
-author: Library Runner
+author: Librarian
 tags: [tool-use, function-calling, agent-architecture, tool-selection, json-schema, error-handling, react]
 links: [library/coding-agentic-ai/anchor-coding-agentic-ai.md, library/coding-agentic-ai/agent-skill-systems.md, library/coding-agentic-ai/multi-agent-orchestration.md]
 ---

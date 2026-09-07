@@ -3,7 +3,7 @@ name: water-and-wastewater-systems
 id: 20260901T053143Z
 tier: library-topic
 domain: engineering-infrastructure
-author: Library Runner
+author: Librarian
 tags: [water-treatment, wastewater-treatment, public-health-infrastructure, drinking-water, sewage, hydraulic-engineering, distribution-networks]
 links: [library/engineering-infrastructure/power-grid-infrastructure-generation-transmission-distribution.md, library/engineering-infrastructure/reliability-engineering-failure-analysis.md, library/health-medicine/healthcare-systems-and-insurance-models.md, library/political-science-public-policy/state-capacity.md]
 ---

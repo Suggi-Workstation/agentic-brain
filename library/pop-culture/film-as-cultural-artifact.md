@@ -3,7 +3,7 @@ name: film-as-cultural-artifact
 id: 20260831T064541Z
 tier: library-topic
 domain: pop-culture
-author: Library Runner
+author: Librarian
 tags: [cinema, film-studies, cultural-analysis, national-cinema, film-genre, visual-language, propaganda, spectatorship]
 links: [library/pop-culture/propaganda-manufacturing-consent.md, library/pop-culture/heros-journey-monomyth.md, library/pop-culture/prestige-television.md, library/pop-culture/music-as-cultural-phenomenon.md]
 ---

@@ -3,7 +3,7 @@ name: history-of-science-and-technology
 id: 20260831T084644Z
 tier: library-topic
 domain: history
-author: Library Runner
+author: Librarian
 tags: [history-of-science, history-of-technology, scientific-revolution, instruments, institutionalization, kuhn, paradigm-shifts, big-science, industrial-revolution, computing]
 links: [library/history/industrial-revolution-and-its-consequences.md, library/history/renaissance-and-enlightenment.md, library/history/history-of-capitalism.md, library/history/medieval-millennium-rome-to-renaissance.md, library/notable-people/alan-turing.md, library/notable-people/albert-einstein.md, library/science/chemistry-periodic-table-bonding.md, library/history/ancient-civilizations-and-their-legacies.md]
 ---

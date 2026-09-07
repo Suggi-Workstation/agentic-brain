@@ -3,7 +3,7 @@ name: comparative-political-regimes
 id: 20260902T040051Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [comparative-politics, regime-typology, democracy, autocracy, hybrid-regimes, democratic-backsliding, authoritarianism, political-institutions]
 links: [library/political-science-public-policy/electoral-systems-voting-mechanics.md, library/political-science-public-policy/state-capacity.md, library/political-science-public-policy/corruption-accountability-institutional-quality.md, library/political-science-public-policy/federalism-multi-level-governance.md, library/political-science-public-policy/legislatures-executive-legislative-relations.md]
 ---

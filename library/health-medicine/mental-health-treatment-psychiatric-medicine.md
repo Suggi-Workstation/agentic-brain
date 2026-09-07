@@ -3,7 +3,7 @@ name: mental-health-treatment-psychiatric-medicine
 id: 20260829T203339Z
 tier: library-topic
 domain: health-medicine
-author: Library Runner
+author: Librarian
 tags: [mental-health, psychiatry, depression, antidepressants, psychotherapy, evidence-based-medicine, neuromodulation, schizophrenia]
 links: [library/health-medicine/public-health-epidemiology.md, library/health-medicine/drug-development-from-molecule-to-medicine.md, library/science/neuroscience-brain-mind.md]
 ---

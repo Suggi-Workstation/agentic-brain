@@ -3,7 +3,7 @@ name: electoral-systems-voting-mechanics
 id: 20260831T171609Z
 tier: library-topic
 domain: political-science-public-policy
-author: Library Runner
+author: Librarian
 tags: [electoral-systems, voting-mechanics, duvergers-law, proportional-representation, strategic-voting, party-systems, gerrymandering, ranked-choice-voting, mixed-member-proportional]
 links: [library/political-science-public-policy/state-capacity.md]
 ---

@@ -3,7 +3,7 @@ name: construction-methods-project-management
 id: 20260902T023058Z
 tier: library-topic
 domain: engineering-infrastructure
-author: Library Runner
+author: Librarian
 tags: [construction-methods, project-management, delivery-methods, cost-estimation, scheduling, risk-management, procurement, megaprojects]
 links: [library/engineering-infrastructure/reliability-engineering-failure-analysis.md, library/engineering-infrastructure/manufacturing-systems-industrial-engineering.md]
 ---

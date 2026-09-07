@@ -3,7 +3,7 @@ name: executive-compensation-incentive-design
 id: 20260831T184804Z
 tier: library-topic
 domain: business-management-strategy
-author: Library Runner
+author: Librarian
 tags: [executive-compensation, incentive-design, principal-agent, stock-options, restricted-stock, performance-shares, pay-performance-sensitivity, say-on-pay, managerial-power, agency-theory]
 links: [library/business-management-strategy/anchor-business-management-strategy.md, library/business-management-strategy/corporate-governance-board-effectiveness.md, library/value-investing/management-quality-evaluation.md, library/value-investing/capital-allocation.md, library/law-regulation/corporate-law-governance.md]
 ---

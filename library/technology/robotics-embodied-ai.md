@@ -3,7 +3,7 @@ name: robotics-embodied-ai
 id: 20260831T080123Z
 tier: library-topic
 domain: technology
-author: Library Runner
+author: Librarian
 tags: [robotics, embodied-ai, humanoid-robots, reinforcement-learning, manipulation, locomotion, foundation-models, sim-to-real, perception, motion-planning]
 links: [library/technology/large-language-models.md, library/technology/semiconductors.md, library/technology/cloud-computing.md]
 ---

@@ -3,7 +3,7 @@ name: environmental-law-climate-treaties
 id: 20260831T113147Z
 tier: library-topic
 domain: law-regulation
-author: Library Runner
+author: Librarian
 tags: [environmental-law, climate-treaties, paris-agreement, kyoto-protocol, unfccc, ndcs, carbon-markets, climate-litigation, international-law]
 links: [library/law-regulation/international-law-and-treaties.md, library/geopolitics/international-institutions-un-wto-imf.md, library/earth-climate/carbon-cycle-greenhouse-effect.md]
 ---

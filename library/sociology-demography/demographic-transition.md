@@ -3,7 +3,7 @@ name: demographic-transition
 id: 20260831T143233Z
 tier: library-topic
 domain: sociology-demography
-author: Library Runner
+author: Librarian
 tags: [demographic-transition, fertility, mortality, population-aging, dependency-ratio, population-projections, migration]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/macro-micro/anchor-macro-micro.md]
 ---
