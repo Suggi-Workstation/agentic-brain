@@ -115,11 +115,13 @@ Ethics, Ethics wins. No exceptions.
 
 ### Core-Governance Edit Gate
 
-- Before editing, identify the Human's instruction or approval in the
-  conversation and compare the intended changes with its scope.
-  PASS: the target files and changes are explicitly authorized.
-  HALT: authorization is missing, ambiguous, or insufficient.
-- After editing, inspect the actual diff.
+Human authorization may be given in conversation; no separate proposal artifact is required
+
+- Before editing, the agent MUST identify the Human's instruction
+  or approval in the conversation and compare the intended changes
+  with its scope. PASS: the target files and changes are explicitly
+  authorized. HALT: authorization is missing, ambiguous, or insufficient.
+- After editing, the agent MUST inspect the actual diff.
   PASS: only authorized changes were made.
   HALT: the diff exceeds the approved scope.
 
@@ -153,9 +155,10 @@ use `[MUST]` / `[MUST NOT]` per S2 (Rule Writing Standards below).
 
 ### Content Integrity
 
-- [MUST NOT] Duplicate rules, checklists, or governance content
-  across files. Reference the source; never copy it. Duplication
-  causes drift.
+- [MUST NOT] Maintain independently authored duplicates of rules,
+  checklists, or governance content. Reference the canonical source.
+  Explicitly designated mirrors MUST match their canonical source
+  except for documented, Human-approved role-specific exceptions.
 - [MUST NOT] Hardcode mutable counts. Derive live. A count typed
   once is stale the next time the source changes.
 - [MUST] Cross-reference propagation: when any value changes, fix
