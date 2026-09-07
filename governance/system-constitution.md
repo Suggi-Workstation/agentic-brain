@@ -31,8 +31,8 @@ HOW each agent implements these rules lives in their AGENTS.md.
 When instructions conflict, resolve in this order:
 
 1. **system-constitution.md** -- Platform rules. NEVER overridden.
-2. **AGENTS.md** (per agent) -- Operational rules and gates.
-3. **SOUL.md** (per agent) -- Identity, voice, philosophy.
+2. **AGENTS.md** (per agent), **SOUL.md** (per agent) and other
+   core files, per Agent-specific order.
 4. **Current task** -- The immediate request from your Human.
 
 **Conflict resolution:**
