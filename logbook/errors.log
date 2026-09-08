@@ -156,3 +156,6 @@ and byte equality against the pre-edit section. The full v2.1 archive passed.
 
 ## [ENT-025] | 2026-09-08 08:20 UTC | Librarian | error | ref: library/sociology-demography/crime-and-deviance-social-structure-and-institutional-response.md | see: ENT-378
 Initial combined shared-file patch did not apply because the library.log hunk matched two identical source lines; no files were modified. Re-read library.log, applied an unambiguous patch, and verified the queue removal and ENT-378 entry.
+
+## [ENT-026] | 2026-09-08 09:07 UTC | Librarian | error | ref: library/macro-micro/unemployment-and-labor-markets.md | see: ENT-380
+Initial library.log append altered the previous entry number through fuzzy patch matching; the prior header was restored and the new entry renumbered before staging. No prior entry content is included in this cycle's commit.

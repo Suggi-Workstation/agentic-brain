@@ -29,13 +29,6 @@
 
 
 
-## Candidate: Unemployment and Labor Markets -- Why Joblessness Is the Single Most Contested Indicator in Macroeconomics
-- **Domain:** macro-micro
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 9.25/10.0 (gap=9.0, compounding=9.0, timeliness=9.5, balance=10.0)
-- **Scope:** Examines unemployment as both a macroeconomic indicator and a social condition. Covers unemployment typologies (frictional, structural, cyclical), the Phillips curve debate, NAIRU, hysteresis, labor force participation, and the mismatch between measured joblessness and actual labor slack. Connects business cycles, inflation dynamics, and fiscal policy through the labor market as the transmission mechanism between macroeconomic policy and human welfare.
-- **Status:** proposed
 
 ## Candidate: Time Series Analysis -- Methods for Modeling Data That Changes Over Time
 - **Domain:** mathematics-statistics
