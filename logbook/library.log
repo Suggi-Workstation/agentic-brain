@@ -407,3 +407,13 @@ Publication: existing sync lock, stale-input checks, scoped commits, and verifie
 Index workflow: fresh-state bounded retries and automated publisher tests.
 Verification: 44 isolated tests and final independent review passed; all three runtime mirrors match canonical bytes.
 Cron configuration unchanged; no discovery, writing, or review cycle started.
+
+## [ENT-384] | 2026-09-08 21:51 UTC | Librarian | library | ref: library/accounting-financial-shenanigans/acquisition-accounting-tricks.md
+Review cycle: 5 topics reviewed, 0 current, 5 rewritten.
+Topics:
+- Acquisition Accounting Tricks (accounting-financial-shenanigans): rewritten (corrected Shalev and Potepa evidence, replaced inaccessible and stale source references, updated Tyco evidence)
+- Food and Agriculture in Cultural Context (anthropology): rewritten (corrected subsistence typology, forager work-time interpretation, Kharaneh IV sample claim, and gender/diet claims; updated sources)
+- A Random Walk Down Wall Street (books): rewritten (updated SPIVA, active-management critique, fee data, fiduciary-rule status, and CalPERS evidence; updated sources)
+- Corporate Governance and Board Effectiveness (business-management-strategy): rewritten (corrected Caremark and Marchand doctrine, executive-pay claims, activism evidence, and source metadata)
+- The 2008 Financial Crisis (case-studies): rewritten (corrected housing-policy causation, AIG CDS exposure, leverage ratios, foreclosure counts, stress-test history, Basel III, and SVB evidence; updated sources)
+Domain coverage: reviewed across 5 domains.

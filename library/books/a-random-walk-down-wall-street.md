@@ -6,6 +6,7 @@ domain: books
 author: Librarian
 tags: [random-walk, efficient-market-hypothesis, index-investing, malkiel, passive-investing, market-efficiency, behavioral-finance]
 links: [library/books/the-intelligent-investor.md, library/books/thinking-fast-and-slow.md, library/books/the-black-swan-taleb.md, library/value-investing/mr-market.md, library/portfolio-risk-management/modern-portfolio-theory.md, library/psychology-behavior/cognitive-biases.md]
+reviewed: 2026-09-08
 ---
 
 # A Random Walk Down Wall Street -- Why Most Investors Cannot Beat the Market and What to Do About It
@@ -92,11 +93,13 @@ remain the rational default for the overwhelming majority of investors.
 The book's lasting significance extends beyond its investment advice.
 It popularized a way of thinking about financial markets -- as
 competitive, information-processing systems where prices aggregate the
-collective wisdom of millions of participants. This framing influenced
-academic finance, regulatory policy, retirement plan design, and the
-structure of the asset management industry. The growth of passive
-investing from near-zero in 1973 to dominating global fund flows in the
-2020s traces a direct line through Malkiel's argument.
+collective judgments of many participants. This framing influenced
+academic finance, retirement plan design, and the structure of the asset
+management industry. In the United States, index mutual funds and index
+ETFs held 51 percent of long-term fund assets at year-end 2024, up from
+19 percent in 2010, according to the Investment Company Institute. That
+growth reflects many forces, including Malkiel's argument and the
+low-cost products built by firms such as Vanguard.
 
 ## Core Concepts
 
@@ -256,38 +259,31 @@ either.
 
 ### Mutual Fund Underperformance: The SPIVA Scorecards
 
-The most comprehensive empirical support for Malkiel's thesis comes
-from the S&P Indices Versus Active (SPIVA) scorecard, published
-annually by S&P Dow Jones Indices since 2002. The SPIVA methodology
-addresses two biases that inflate apparent active performance:
-survivorship bias (failed funds disappear from databases) and style
-inconsistency (managers drift from their stated mandate). The findings
-are stark and consistent. Over 20-year periods, approximately 90
-percent or more of U.S. large-cap active equity funds underperform the
-S&P 500 after fees. Underperformance rates climb as the time horizon
-lengthens: after 15 years, no fund category shows a majority of active
-managers outperforming. The pattern holds across geographies and asset
-classes, though with variation. International equity funds, mid-cap
-funds, and small-cap funds all show majority underperformance over long
-horizons. Bond funds fare no better, with cross-category
-underperformance rates around 70 percent. Critically, SPIVA tracks
-persistence: the funds that beat the index in one period are not the
-same ones that beat it in the next. This lack of serial correlation in
-outperformance means that selecting a past winner provides no edge in
-selecting a future winner. Malkiel cites this finding as the single
-most important piece of evidence for his prescription: it is not just
-that most active managers lose, but that there is no reliable way to
-identify the minority who will win.
+The most comprehensive recurring evidence for Malkiel's thesis comes
+from the S&P Indices Versus Active (SPIVA) scorecard, published by S&P
+Dow Jones Indices since 2002. The methodology is designed to address
+survivorship bias and style changes. In the Year-End 2025 scorecard,
+78.78 percent of U.S. large-cap funds underperformed the S&P 500 over
+one year and 92.89 percent underperformed over 20 years. S&P also
+reported that no category across domestic equity, international equity,
+and fixed income had majority outperformance over 15 years. The exact
+rate varies by category and horizon, so the large-cap figure should not
+be generalized to every active strategy. The companion persistence
+scorecards test whether past winners remain winners and repeatedly find
+weak persistence at longer horizons.
 
-A 2025 study commissioned by the Active Managers Council challenged
-the SPIVA methodology, arguing that asset-weighting and including
-liquidated funds' pre-exit performance reduced the 20-year
-underperformance rate from 92 percent to approximately 55 percent.
-This critique highlights that methodology choices affect headline
-numbers, but even the revised figure shows majority underperformance.
-The core finding -- that active management, in aggregate, cannot
-overcome its cost disadvantage -- remains robust across methodological
-variations.
+A 2026 working paper by Cremers, Fulkerson, and Riley, supported by the
+Investment Adviser Association's Active Managers Council, challenged
+several SPIVA choices. The authors count funds' performance before they
+exit rather than automatically treating exit as underperformance,
+weight results by assets, and compare active funds with passive funds
+rather than hypothetical indexes. For U.S. equity funds in 2024, their
+method found that 56 percent of active assets underperformed equivalent
+passive funds, versus SPIVA's report that 79 percent of funds
+underperformed the S&P Composite 1500. The comparison demonstrates that
+fund-count, asset-weighted, benchmark-index, and investable-fund
+questions are not interchangeable. It does not erase the cost arithmetic
+or establish that investors can identify future winners in advance.
 
 ### The Dartboard Experiments and Random Chart Generation
 
@@ -368,18 +364,16 @@ certain patterns.
 
 Malkiel's response is twofold. First, he argues that many anomalies
 are small, inconsistent, or disappear over time -- a point Fama made in
-his 1998 review, noting that anomalies appear as often as
-underreactions as overreactions and tend to vanish with improved
-methodology. Second, Malkiel argues that even if anomalies are real,
-exploiting them requires transaction costs, timing precision, and risk
-tolerance that most investors lack. Factor funds designed to capture
-the value and momentum premiums have themselves underperformed the
-broad market over extended periods, suggesting that the anomalies are
-either too small to exploit profitably after costs or have been
-arbitraged away by the very act of publishing them. The behavioral
-finance critique, in Malkiel's view, explains why markets are not
-perfectly efficient without overturning the practical conclusion that
-index funds remain the best default for most investors.
+his 1998 review, noting that apparent anomalies are sensitive to method
+and sample. Second, Malkiel argues that even if anomalies are real,
+exploiting them requires costs, discipline, and tolerance for long
+periods of underperformance. In a 2023 interview, he noted that factor
+funds had lagged the broad market over the preceding 15 years; that is a
+period-specific observation, not proof that value or momentum premiums
+can never recur. The behavioral finance critique, in Malkiel's view,
+explains why markets are not perfectly efficient without overturning
+the practical conclusion that index funds remain the best default for
+most investors.
 
 ### The Cost Arithmetic
 
@@ -389,12 +383,15 @@ market. Before costs, the average active investor must earn exactly
 the market return -- it is a zero-sum game relative to the index. After
 costs (management fees, trading costs, tax drag), the average active
 investor must underperform the index by the amount of those costs.
-Index funds, which charge 3-10 basis points versus 80-150 basis points
-for active funds, capture nearly the full market return. The cost
-differential compounds dramatically over time. A 1 percent annual fee
-consumes approximately 20 percent of total returns over a 30-year
-period at typical equity returns. This arithmetic does not depend on
-any assumption about market efficiency -- it is a mathematical identity.
+Fund costs vary widely, but current asset-weighted averages illustrate
+the structural gap. Investment Company Institute data for 2024 put the
+average expense ratio at 0.05 percent for index equity mutual funds and
+0.64 percent for actively managed equity mutual funds. The differential
+compounds over time. As a simple illustration, reducing a 7 percent
+gross annual return to 6 percent for 30 years leaves terminal wealth
+about 24.5 percent lower. The result depends on the assumed gross return
+and fee difference; the principle that costs reduce investor returns
+does not depend on market efficiency.
 Even if some active managers possess genuine skill, the aggregate
 cannot overcome the cost drag, and identifying the skilled minority in
 advance remains unsolved.
@@ -467,29 +464,30 @@ literature, not a settled conclusion.
 ### For Retirement Policy and Institutional Design
 
 Malkiel's thesis has influenced retirement plan design and public
-policy. The widespread adoption of target-date funds in 401(k) plans,
-which automatically shift from equity to bonds as the target retirement
-date approaches, implements the age-related allocation Malkiel
-advocates. The default enrollment of new employees into diversified
-target-date funds -- rather than requiring active fund selection --
-reflects the view that most participants are better served by a
-rules-based, low-cost strategy than by attempting to select among
-dozens of active funds. Regulatory changes, including the Department of
-Labor's fiduciary rule and disclosure requirements for 401(k) fees,
-partly reflect the policy implication that cost transparency and
-default indexing serve investor welfare better than choice
-proliferation.
+policy. The widespread adoption of target-date funds in 401(k) plans, which
+automatically adjust asset allocation as the target retirement date
+approaches, implements the life-cycle allocation Malkiel advocates.
+Default enrollment into diversified target-date funds can reduce the
+need for participants to select among many individual options, although
+target-date funds may themselves use active, index, or blended
+underlying strategies. Fee disclosure rules support cost comparison.
+The Department of Labor's 2024 Retirement Security Rule is not a current
+example: federal courts vacated it, and in March 2026 the Department
+restored the longstanding five-part test for determining investment-
+advice fiduciary status.
 
 For institutional investors -- pension funds, endowments, sovereign
 wealth funds -- the implication is more nuanced. Large institutions
 have the scale and expertise to pursue alternative strategies that may
-justify active management in certain segments. But the core equity
-allocation of most large pensions is indexed, and the empirical record
-of pension fund active management mirrors the mutual fund pattern:
-majority underperformance after costs. The California Public Employees'
-Retirement System (CalPERS), one of the largest U.S. pensions,
-eliminated most of its active equity management after years of
-underperformance, a decision consistent with Malkiel's prescription.
+justify active management in certain segments. But many large pensions combine indexed and active mandates rather than
+choosing only one. CalPERS illustrates the change over time. After
+reducing external active equity mandates in 2019, it reintroduced active
+risk beginning in 2022. Its June 2025 review reported a $215 billion
+global public equity program that was 68 percent passive and 32 percent
+active, with the active composite outperforming its benchmark over the
+one-, three-, five-, and ten-year periods shown. This does not refute
+SPIVA, which studies a different fund universe, but it makes the former
+claim that CalPERS had eliminated active equity management obsolete.
 
 ### For the Value Investing Counterargument
 
@@ -548,13 +546,14 @@ evidence has not definitively resolved.
    https://business.columbia.edu/insights/chazen-global-insights/superinvestors-graham-and-doddsville
    [high]
 
-6. S&P Dow Jones Indices. "SPIVA U.S. Scorecard." Annual report on
-   active versus passive fund performance.
-   https://marketsgroup.org/strategic-insights/spiva-u-s-scorecard [high]
+6. S&P Dow Jones Indices. "SPIVA U.S. Year-End 2025 Scorecard." Annual
+   report on active funds versus their benchmarks.
+   https://www.spglobal.com/spdji/en/spiva/article/spiva-us/ [high]
 
-7. Investopedia. "Exploring Random Walk Theory: Definition, Usage, and
-   Criticism." Overview of random walk theory and its relation to EMH.
-   https://www.investopedia.com/terms/r/randomwalktheory.asp [medium]
+7. S&P Dow Jones Indices. "U.S. Persistence Scorecard Year-End 2025."
+   Tests whether active funds that outperform in one period continue to
+   outperform in later periods.
+   https://www.spglobal.com/spdji/en/spiva/article/us-persistence-scorecard/ [high]
 
 8. CNBC (2023). "Burton Malkiel on why his classic investment book, A
    Random Walk Down Wall Street, is relevant 50 years later."
@@ -572,6 +571,33 @@ evidence has not definitively resolved.
     Scorecards." Summary of SPIVA findings on active fund
     underperformance over 15- and 20-year periods.
     https://www.ifa.com/articles/spiva-report-active-vs-passive [medium]
+
+11. Cremers, K. J. M., Fulkerson, J. A., & Riley, T. B. (2026). "How
+    the SPIVA U.S. Scorecard Understates the Performance of Actively
+    Managed Mutual Funds." SSRN working paper; research supported by
+    the Investment Adviser Association's Active Managers Council.
+    https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6710358 [high]
+
+12. Investment Company Institute. (2026). "Trends in the Expenses and
+    Fees of Funds, 2025." Current fee data and long-term index-fund
+    asset shares. https://www.ici.org/system/files/2026-03/per32-01.pdf
+    [high]
+
+13. U.S. Department of Labor. (2026). "US Department of Labor Restores
+    Long-Standing Investment Advice Rule After Pair of Court Decisions
+    Vacate 2024 Retirement Security Rule."
+    https://www.dol.gov/newsroom/releases/ebsa/ebsa20260318 [high]
+
+14. CalPERS. (2025). "Global Public Equity Annual Program Review."
+    Portfolio allocation and active-management performance through
+    June 30, 2025.
+    https://www.calpers.ca.gov/documents/202509-invest-agenda-item05e-01-a/download?inline=
+    [high]
+
+15. Investment Company Institute. (2025). "2025 Investment Company
+    Fact Book: Chapter 6 -- US Fund Expenses and Fees." Reports 2024
+    active-versus-index expense ratios and index-fund asset shares.
+    https://icifactbook.org/pdf/2025-factbook-ch6.pdf [high]
 
 ## See Also
 

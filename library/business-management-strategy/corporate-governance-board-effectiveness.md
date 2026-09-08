@@ -6,6 +6,7 @@ domain: business-management-strategy
 author: Librarian
 tags: [corporate-governance, board-effectiveness, agency-theory, principal-agent, executive-compensation, stewardship-theory, shareholder-activism, fiduciary-duty]
 links: [library/business-management-strategy/anchor-business-management-strategy.md, library/value-investing/capital-allocation.md, library/value-investing/management-quality-evaluation.md]
+reviewed: 2026-09-08
 ---
 
 # Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes
@@ -50,15 +51,15 @@ Board size is a second structural feature. Smaller boards are generally argued t
 
 Fiduciary duties are the legal backbone of board accountability. The duty of care requires directors to inform themselves adequately before making decisions, to deliberate in good faith, and to exercise the judgment that a reasonably prudent person in their position would exercise. The duty of loyalty requires directors to act in the best interest of the corporation and its shareholders, to avoid conflicts of interest, and to refrain from using their position for personal gain at the corporation's expense. Together these duties define the legal standard against which board conduct is measured.
 
-The business judgment rule is the legal doctrine that protects directors from liability for honest business decisions that turn out poorly, provided the directors acted on an informed basis, in good faith, and without a conflict of interest. The rule is essential to the functioning of boards because without it, directors would face personal liability for the ordinary risks of business and would be unwilling to serve or would be excessively cautious. The rule creates a presumption: courts will not second-guess a board's business decision unless the plaintiff can show that the directors breached their duty of care or loyalty. The trade-off is that the rule can also shield directors from accountability for decisions that reflect insufficient oversight, so long as the process of decision-making was superficially adequate.
+The business judgment rule is the legal doctrine that protects directors from liability for honest business decisions that turn out poorly, provided the directors acted on an informed basis, in good faith, and without a conflict of interest. The rule is essential to the functioning of boards because without it, directors would face personal liability for the ordinary risks of business and would be unwilling to serve or would be excessively cautious. The rule creates a presumption: courts generally will not second-guess a board's business decision unless the plaintiff rebuts that presumption by pleading a breach of fiduciary duty. Oversight claims are different from ordinary claims that a board made a bad decision: under Caremark and Stone v. Ritter, liability requires bad faith, such as an utter failure to establish a reporting system or a conscious failure to monitor it.
 
-Delaware law, under which most large U.S. public companies are incorporated, has developed these doctrines most fully. The Caremark doctrine (In re Caremark International Inc. Derivative Litigation, 1996) established that directors have a duty to implement and monitor reasonable information and reporting systems, and that failure to do so can constitute a breach of the duty of care. The 2019 Marchand v. Barnhill decision reinforced this by finding directors liable for failing to oversee a critical compliance risk -- the first time a Delaware court held directors personally liable for oversight failure. These cases define the minimum standard of board monitoring and illustrate that fiduciary duties are evolving: courts have moved from deference toward a requirement that boards actively oversee, not merely react.
+Delaware law, under which many large U.S. public companies are incorporated, has developed these doctrines most fully. In re Caremark International Inc. Derivative Litigation (1996) stated that directors must make a good-faith effort to establish reasonable information and reporting systems. Stone v. Ritter (2006) located bad-faith oversight failure in the duty of loyalty, not the duty of care. In Marchand v. Barnhill (2019), the Delaware Supreme Court reversed dismissal because the complaint adequately alleged that Blue Bell's board lacked a board-level system for monitoring its mission-critical food-safety risk. Marchand did not impose personal liability at trial; it held that the claim could proceed past the pleading stage. Together, the cases require a good-faith, context-specific oversight system while preserving a demanding liability standard.
 
 ### Executive Compensation and Alignment
 
 Executive compensation is the primary tool for aligning manager and shareholder interests. The agency-theoretic logic is straightforward: if managers are paid a flat salary, they bear no consequence for performance and have incentives to shirk. If managers are paid based on firm performance -- through stock, options, or performance bonuses -- their personal wealth rises and falls with shareholder value, reducing the incentive to deviate. The optimal contracting approach, dominant in finance, treats compensation design as a cost-minimization problem: the board chooses the compensation contract that provides sufficient incentives at the lowest cost to shareholders, trading off incentive intensity against the risk premium the manager demands for bearing performance risk.
 
-Equity-based pay -- restricted stock and stock options -- became the dominant form of executive compensation in the 1990s and 2000s, driven by both the agency-theoretic logic and tax and accounting changes. The intent is to make managers think like owners. Stock options, in particular, align managers with shareholders when the options are structured so that managers benefit only when the share price rises above a strike price, forcing them to create value rather than merely preserve it. The empirical evidence, surveyed by Edmans, Gabaix, and Jenter (2017), broadly supports the view that compensation conforms to the principal-agent model, but with significant caveats: the model's predictions depend on many unobservable parameters, and no single explanation accounts for all observed patterns in pay levels and structure.
+Equity-based pay -- restricted stock and stock options -- became a major component of executive compensation in the 1990s and 2000s, influenced by agency theory, tax rules, and accounting policy. The intent is to make managers' wealth move with shareholder wealth. Options provide upside above a strike price but limited downside below it, which can encourage effort and risk-taking while also rewarding market-wide price increases and potentially encouraging excessive risk. Restricted stock creates both upside and downside exposure but can still pay for market movements outside management's control. Edmans, Gabaix, and Jenter (2017) conclude that shareholder-value maximization, managerial rent extraction, and institutional factors each explain part of observed compensation; no single theory accounts for all pay levels, structures, and historical trends.
 
 The managerial power approach, developed by Bebchuk and Fried (2004), challenges the optimal contracting view. They argue that compensation is not merely a solution to the agency problem but is itself partly a product of it. Because boards do not bargain with executives at arm's length -- directors are often chosen by the CEO, rely on management for information, and face social and reputational costs from challenging the CEO -- executives can influence their own pay. The result is compensation arrangements that camouflage rent extraction: pay that is high in level, weakly linked to performance, and structured to hide its true cost. Bebchuk and Fried argue that the cost to shareholders is not just the excess pay but the distorted incentives that result -- managers whose pay is decoupled from performance have weaker incentives to create value, and managers whose pay is tied to short-term stock moves have incentives to manipulate timing and disclosures.
 
@@ -110,9 +111,9 @@ Bebchuk and Fried acknowledge that the optimal contracting view explains some co
 
 Shareholder activism, particularly by hedge funds, has emerged as an important external governance mechanism. Activist hedge funds take significant stakes in firms they believe are undervalued due to governance failures and push for changes: board seats, asset sales, capital returns, CEO replacement, or strategic redirection. Because hedge funds are highly incentivized (managers earn performance fees), relatively unconstrained by regulatory limits on activism, and willing to engage publicly, they can pressure boards more effectively than dispersed shareholders.
 
-Brav, Jiang, and Li, in a comprehensive survey of the hedge fund activism literature, report that the empirical evidence broadly supports a positive governance role. Targeted firms experience positive abnormal stock returns around the announcement of activism, improvements in operating performance, and increases in payouts and leverage. Long-term effects are more contested: some studies find persistent improvements in productivity, innovation, and governance; others find that the performance gains are concentrated in the short term and that long-term effects are neutral. Critics argue that activism encourages short-termism -- activists push for payouts and cost cuts that boost near-term metrics at the expense of long-term investment. The evidence, however, does not support the claim that activism systematically destroys long-term value; the weight of the evidence suggests that activism, on average, corrects governance failures and improves firm value.
+Brav, Jiang, and Li, in a comprehensive survey of the hedge fund activism literature, report that targeted firms experience positive stock-price reactions around activism announcements and that many studies find later changes in operating performance, payout, productivity, innovation, or governance. Long-term effects and stakeholder consequences remain contested, and the authors present both the value-improvement and short-termism arguments. Their assessment is that activist interventions improve target-firm performance on average, but the result is an average across heterogeneous campaigns rather than a guarantee for any target.
 
-A meta-analysis of shareholder activism by Bessler, Maas, and Seim (2024), published in Corporate Governance: An International Review, found that activism generates substantial shareholder value, with hedge funds particularly efficient in target selection. The magnitude of value creation depends on the regulatory framework, the transparency of governance processes, and market conditions. The study also found evidence of selective reporting bias in the published literature and adjusted for it, but the corrected estimates remained positive. This evidence positions activism as a market-driven corrective mechanism that reduces the agency costs associated with the separation of ownership and control -- a disciplinary force that complements the board and the market for corporate control.
+A 2025 meta-analysis by Bajzik, Havranek, Irsova, and Novak synthesized 1,973 estimates of stock-price responses from 67 studies. It found publication bias toward larger positive estimates; after adjustment, estimated announcement effects ranged from 0 to 1.5 percent. Effects varied with shareholder protections, market size, activist type, tactics, and campaign objective. The current evidence supports a modest positive average short-term response, not a universal or necessarily long-lived value gain.
 
 ## Implications
 
@@ -171,8 +172,9 @@ This synthesis connects corporate governance to the broader question of organiza
    Economics of Corporate Governance, 383-539. Elsevier.
    https://researchonline.lse.ac.uk/id/eprint/84045/ [high]
 
-7. Brav, A., Jiang, W. & Li, R. (2023). "Governance by Persuasion: Hedge Fund
-   Activism and Market-based Shareholder Influence." SSRN Working Paper 3955116.
+7. Brav, A., Jiang, W. & Li, R. (2022; revised 2024). "Governance by
+   Persuasion: Hedge Fund Activism and Market-based Shareholder Influence."
+   Oxford Research Encyclopedia of Economics and Finance.
    https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3955116 [high]
 
 8. Chrisman, J. J. (2019). "Stewardship Theory: Realism, Relevance, and Family Firm
@@ -184,6 +186,21 @@ This synthesis connects corporate governance to the broader question of organiza
 
 10. Berle, A. A. & Means, G. C. (1932). The Modern Corporation and Private Property.
     Macmillan. [high]
+
+11. Supreme Court of Delaware. (2019). Marchand v. Barnhill, 212 A.3d
+    805. Official opinion reversing dismissal and remanding the Caremark
+    claim. https://courts.delaware.gov/Opinions/Download.aspx?id=291200
+    [high]
+
+12. Bajzik, J., Havranek, T., Irsova, Z. & Novak, J. (2025). "Does
+    Shareholder Activism Create Value? A Meta-Analysis." Corporate
+    Governance: An International Review, 33(5), 1039-1061.
+    https://doi.org/10.1111/corg.12637 [high]
+
+13. Dalton, D. R., Daily, C. M., Ellstrand, A. E. & Johnson, J. L.
+    (1998). "Meta-Analytic Reviews of Board Composition, Leadership
+    Structure, and Financial Performance." Strategic Management Journal,
+    19(3), 269-290. https://doi.org/10.1002/%28SICI%291097-0266%28199803%2919%3A3%3C269%3A%3AAID-SMJ950%3E3.0.CO%3B2-K [high]
 
 ## See Also
 
