@@ -567,31 +567,7 @@ queries:
   gold_files:
   - governance/template-reflections.md
   domain: governance
-- qid: g129
-  question: What assumptions and sensitivity checks belong in an investment DCF?
-  gold_files:
-  - governance/template-inv-dcf.md
-  domain: governance
-- qid: g130
-  question: How should financial quality be scored in an investment analysis?
-  gold_files:
-  - governance/template-inv-financial.md
-  domain: governance
-- qid: g131
-  question: How should a company moat be evaluated in an investment analysis?
-  gold_files:
-  - governance/template-inv-moat.md
-  domain: governance
-- qid: g132
-  question: How should management quality be evaluated in an investment analysis?
-  gold_files:
-  - governance/template-inv-management.md
-  domain: governance
-- qid: g133
-  question: How should sector-specific investment evidence be evaluated?
-  gold_files:
-  - governance/template-inv-sector.md
-  domain: governance
+
 - qid: g134
   question: What procedure writes one verified Library topic?
   gold_files:

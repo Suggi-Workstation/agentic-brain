@@ -6,15 +6,18 @@ trigger: insight
 author: Neo
 tags: [templates, frameworks, scoreboard, separation-of-concerns, ci-gates]
 links:
-  - governance/template-inv-dcf.md
-  - governance/template-inv-moat.md
-  - governance/template-inv-management.md
-  - governance/template-inv-financial.md
-  - governance/template-inv-sector.md
-  - investing/frameworks/dcf-intrinsic-value.md
+  - investing-hub:frameworks/simple-dcf.md
+  - investing-hub:frameworks/simple-moat.md
+  - investing-hub:frameworks/simple-management.md
+  - investing-hub:frameworks/financial-health.md
+  - investing-hub:frameworks/sector-metrics.md
 ---
 
 # Templates Define Output, Frameworks Define Method -- The Separation That Prevents Drift
+
+Historical reflection. The former investment templates were superseded by
+standalone procedures with embedded outputs in Investing Hub. The links
+below point to their replacements; the reflection records the earlier design.
 
 ## I -- Idea
 
@@ -129,10 +132,9 @@ duplicate-ID errors that fail the build.
 
 ## Cross-links
 
-- `governance/template-inv-dcf.md` -- DCF scoreboard template
-- `governance/template-inv-moat.md` -- moat scoreboard template
-- `governance/template-inv-management.md` -- management scoreboard
-- `governance/template-inv-financial.md` -- financial health scoreboard
-- `governance/template-inv-sector.md` -- sector scoreboard template
-- `investing/frameworks/dcf-intrinsic-value.md` -- DCF methodology
+- `investing-hub:frameworks/simple-dcf.md` -- current DCF procedure and output
+- `investing-hub:frameworks/simple-moat.md` -- current moat procedure and output
+- `investing-hub:frameworks/simple-management.md` -- current management procedure and output
+- `investing-hub:frameworks/financial-health.md` -- current financial-health procedure and output
+- `investing-hub:frameworks/sector-metrics.md` -- current sector metric guide
 - `governance/template-reflections.md` -- this reflection's format spec
