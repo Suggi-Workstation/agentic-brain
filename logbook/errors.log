@@ -159,3 +159,6 @@ Initial combined shared-file patch did not apply because the library.log hunk ma
 
 ## [ENT-026] | 2026-09-08 09:07 UTC | Librarian | error | ref: library/macro-micro/unemployment-and-labor-markets.md | see: ENT-380
 Initial library.log append altered the previous entry number through fuzzy patch matching; the prior header was restored and the new entry renumbered before staging. No prior entry content is included in this cycle's commit.
+
+## [ENT-027] | 2026-09-08 09:24 UTC | Librarian | error | ref: library/mathematics-statistics/time-series-analysis.md | see: ENT-381
+The configured keyless web-search backend returned an unrecognized MCP response shape, and an initial Crossref metadata query used an unsupported route parameter. Direct authoritative-source metadata and all ten cited URLs were then verified with HTTP 200 responses.

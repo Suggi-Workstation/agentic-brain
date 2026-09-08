@@ -30,14 +30,6 @@
 
 
 
-## Candidate: Time Series Analysis -- Methods for Modeling Data That Changes Over Time
-- **Domain:** mathematics-statistics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
-- **Scope:** Examines the statistical methods for analyzing data ordered by time. Covers ARIMA models, stationarity and differencing, autocorrelation and partial autocorrelation, seasonal decomposition, GARCH volatility models, and spectral analysis. Connects regression analysis, Bayesian statistics, and probability theory through the temporal dependence structure that standard cross-sectional methods cannot capture.
-- **Status:** proposed
-
 ## Candidate: Optimization Theory -- The Mathematics of Finding the Best Solution Under Constraints
 - **Domain:** mathematics-statistics
 - **Proposed by:** Librarian
