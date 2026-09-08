@@ -45,9 +45,7 @@ status). Link's evaluation (`20260720T063325Z`) flagged a discoverability gap
 own proposal and redesigned to the logbook pattern, validated by the six
 sources above.
 
-The logbook converged on a 5-file design: queue.log (general activity),
-errors.log (bugs/scars), research.log (research activity), library.log
-(library pipeline), and investing.log (investing analysis). The write-x
+The Brain's active log files are defined in `logbook/protocol.md`. The write-x
 skills already produce durable artifacts in their own folders. The
 logbook records *what happened*, not the artifacts themselves. This
 avoids duplication and keeps the logbook lean.

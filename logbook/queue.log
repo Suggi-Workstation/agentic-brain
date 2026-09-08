@@ -406,3 +406,10 @@ Completed the previously omitted reflection and authorized identity evolution.
 IDENTITY v2.2 replaces v2.1; the complete previous entry is archived locally.
 Personal session-end now tracks closing evidence and archives all live answers.
 Daily memory records the correction; publisher runtime and schedules unchanged.
+
+## [ENT-082] | 2026-09-08 18:15 UTC | Morpheus | general | ref: logbook/protocol.md
+Removed the obsolete Brain investing activity log at Suggi's request.
+Removed its protocol entries and stale inventory in the logbook insight.
+Existing investing-hub log verified; old Brain entries remain in Git history.
+Unchanged archiver passed isolated retirement and archival checks.
+No workflow, investing-hub, or Neo profile/skill changes.
