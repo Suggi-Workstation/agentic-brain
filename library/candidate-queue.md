@@ -28,13 +28,6 @@
 
 
 
-## Candidate: Self-Improving Agent Systems -- Agents That Learn From Their Own Execution
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 8.65/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=7.5)
-- **Scope:** Examines agent architectures that improve their own performance through execution feedback, self-reflection, and automated skill or prompt refinement. Covers reflexion patterns, automated prompt optimization, experience replay, skill synthesis from task traces, and the trade-offs between self-modification and stability. Connects agent memory, observability, and skill systems through the feedback loop that turns execution data into structural improvement.
-- **Status:** proposed
 
 ## Candidate: Crime and Deviance -- Social Sources of Criminal Behavior and Institutional Response
 - **Domain:** sociology-demography
