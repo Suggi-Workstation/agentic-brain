@@ -30,14 +30,6 @@
 
 
 
-## Candidate: Optimization Theory -- The Mathematics of Finding the Best Solution Under Constraints
-- **Domain:** mathematics-statistics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Examines the mathematical frameworks for maximizing or minimizing objectives subject to constraints. Covers linear programming, convex optimization, Lagrange multipliers, gradient-based methods, duality theory, and combinatorial optimization. Connects linear algebra, calculus, and information theory through the optimization problems that underpin machine learning, portfolio construction, and operations research.
-- **Status:** proposed
-
 ## Candidate: Philosophy of Mind -- The Hard Problem of Consciousness and Why It Remains Unresolved
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
