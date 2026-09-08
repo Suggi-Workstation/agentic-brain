@@ -1,6 +1,6 @@
 # Macro Micro -- Topics
 
-9 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
+10 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
 
 - [Business Cycles -- The Inescapable Rhythm of Boom and Bust That No Policy Can Abolish](business-cycles.md) -- [reviewed: never] -- Business cycles are the recurring fluctuations in aggregate economic activity -- expansions, peaks, contractions, and recoveries -- that have characterized market economies since the Industrial Revolution. Despite decades of macroeconomic research and increasingly sophisticated policy tools, the boom-bust pattern persists, because cycles are driven by multiple interacting forces: demand shocks, monetary instability, productivity swings, and credit-market amplification mechanisms.
 
@@ -19,4 +19,6 @@
 - [Supply and Demand -- The Invisible Auction That Turns Scarcity and Desire into Prices](supply-and-demand.md) -- [reviewed: never] -- Supply and demand is the mechanism by which the willingness of buyers to pay and the willingness of sellers to accept converge into a single market price. Prices are not set by anyone; they emerge from the interaction of scarcity on the supply side and desire on the demand side, and they carry information about both.
 
 - [Trade and Comparative Advantage -- Why Nations Exchange and Why the Gains Are Real but Unevenly Distributed](trade-and-comparative-advantage.md) -- [reviewed: never] -- International trade is not a zero-sum contest -- it is a positive-sum game where both parties can gain, but those gains are distributed so unevenly that protectionism remains a permanent political temptation. The theory of comparative advantage, first articulated by David Ricardo in 1817, demonstrates that mutually beneficial trade is possible even when one country is better at producing everything, because what matters is not absolute productivity but opportunity cost.
+
+- [Unemployment and Labor Markets -- Why Joblessness Is the Single Most Contested Indicator in Macroeconomics](unemployment-and-labor-markets.md) -- [reviewed: never] -- Unemployment is not a direct count of every person without paid work; it is a rate produced by definitions, labor-force flows, and a denominator that changes as people enter or leave job search. Its importance to macroeconomics follows from its connection to output, wages, inflation, and policy, but those connections are conditional on the source of labor-market change rather than mechanical rules.
 
