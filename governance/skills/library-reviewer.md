@@ -1,6 +1,6 @@
 ---
 name: library-reviewer
-description: "Review and refresh existing library topics: find topics overdue for review via the per-domain index files, re-read each topic, web-search to verify accuracy, rewrite stale sections in-place, stamp reviewed date in frontmatter. VPS-native dual-option: direct read/write for VPS agents, SSH transfer for VPS-connected agents -- no clone, no push, the watcher pushes. Use when the review cron cycle fires."
+description: "Use when asked to review library topics. Verify existing topics, correct every identified mismatch, and record completed reviews."
 user-invocable: false
 disable-model-invocation: false
 ---
@@ -24,12 +24,12 @@ what is stale.
 
 ## When to Invoke
 
-Invoke when the cron scheduler triggers a review cycle. Each cycle
+Invoke when asked to review existing library topics. Each cycle
 picks up to 5 topics that are overdue for review and processes them
 sequentially.
 
 Skip for:
-- No topics overdue for review (all within their domain threshold)
+- No eligible topics (all have been reviewed within the last six months)
 - Topics in quarantine directory
 
 ## Path Convention -- Dual Platform
@@ -40,8 +40,9 @@ pushes commits. There is NO clone step and NO push step in this
 skill.
 
 - **VPS agents** (running on the server, no SSH): every path below is
-  a literal filesystem path under `/srv/brain/agentic-brain/`. Write
-  files directly and commit as yourself (agents group, no su).
+  a literal filesystem path under `/srv/brain/agentic-brain/`. Prepare
+  drafts in OS temporary storage; publish through `scripts/library-publish.py`
+  as yourself (agents group, no su).
 - **VPS-connected agents** (remote machines, e.g. PC or laptop
   agents): read and write through the key door, commit via su:
 
@@ -50,81 +51,73 @@ skill.
 ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
   'cat /srv/brain/agentic-brain/<path>'
 
-# write a brain file from local scratch
+# transfer a prepared draft to VPS temporary storage
 cat "<local-scratch>" | ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
-  'cat > /srv/brain/agentic-brain/<path>'
+  'cat > /tmp/<cycle>/<draft>'
 
-# commit (one or more paths)
+# publish the prepared request as the clone owner
 ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
-  'su - hermes -c "cd /srv/brain/agentic-brain && git add <path1> <path2> && git commit -m \"<msg>\" && echo COMMITTED"'
+  'su - hermes -c "python3 /srv/brain/agentic-brain/scripts/library-publish.py publish /tmp/<cycle>/request.json"'
 ```
 
 Quoting rule: the remote command sits in double quotes; inner quotes
 sit in single quotes. A broken quote fails the whole command.
 
-## Domain Review Thresholds
+## Review Eligibility
 
-Different domains age at different rates. The reviewer uses these
-thresholds to determine when a topic is overdue:
+Use one rule for every domain: a topic is eligible if it has no
+`reviewed:` field, or six calendar months have elapsed since that date.
+Use the current UTC date; include dates on or before the six-month cutoff.
+For a shorter cutoff month, use that month's final day. Do not substitute
+a fixed day count. Invalid or future review dates are ERROR outcomes, not
+permission to invent a replacement date.
 
-| Cadence | Months | Domains |
-|:--|:--|:--|
-| Fast-moving | 3 | coding-agentic-ai, technology |
-| Moderate | 6 | finance, geopolitics, health-medicine, industries-sectors, science, macro-micro |
-| Slow | 12 | history, anthropology, ethics-philosophy, pop-culture, books, communication, education-learning, law-regulation, psychology-behavior, case-studies, notable-people, self-improvement |
-| Timeless | 24 | mathematics-statistics, value-investing, investors, valuation-screening, portfolio-risk-management, probabilistic-thinking-forecasting, accounting-financial-shenanigans |
+## Accuracy Requirement
 
-A topic is overdue if:
-- It has no `reviewed:` field in frontmatter (never reviewed)
-- Its `reviewed:` date is older than the domain's threshold
-
-## Accuracy Threshold
-
-The reviewer verifies each topic against current web sources. After
-re-reading the topic and web-searching its key claims:
-
-- **85%+ of claims still accurate:** topic is current. Stamp
-  `reviewed: <today>`, no content changes needed.
-- **Below 85%:** topic is stale. Rewrite the inaccurate sections
-  in-place, update the Sources section with current URLs, then stamp
-  `reviewed: <today>`.
-
-The 85% threshold is the reviewer's judgment, not a mechanical word
-count. It means "most of the content is still correct; a few specific
-claims or sections need updating." If the topic's core thesis is
-wrong or the field has fundamentally changed, that is below 85% --
-rewrite the affected sections.
+Read the complete topic and verify its claims against current sources.
+Correct every identified factual mismatch, outdated claim, and broken source
+reference. There is no percentage allowance for leaving known errors in place.
+Preserve correct material and the topic's scope; do not make cosmetic rewrites.
+If evidence cannot resolve a discrepancy, record ERROR and do not stamp or
+publish that topic as reviewed. A completed review either found no mismatch
+or corrected every mismatch found.
 
 ## Final Self-Check -- HARD GATE
 
-Confirm ALL items before committing. One checklist -- no
+Confirm each item at its corresponding step; commit and push checks follow
+publication. One checklist -- no
 sub-checklists, no section summaries. Each item maps to a procedure
 step or a library guide rule. HALT on any failure; fix before
 committing.
 
 - [ ] Procedure completed: read index, select overdue topics, read template, review each topic, verify sources, rewrite if needed, stamp reviewed date, log, commit (PASS / HALT)
 - [ ] Template read before reviewing: `template-library.md` opened in step 4 and used as format reference for any rewrites (PASS / HALT)
-- [ ] Topics selected are genuinely overdue: no `reviewed:` field OR `reviewed:` date exceeds domain threshold (PASS / HALT)
+- [ ] Topics selected have no reviewed date or are at least six calendar months past review; actual frontmatter checked, not only index tags (PASS / HALT)
 - [ ] Each topic read in full before web-searching (PASS / HALT)
 - [ ] Web search conducted for each topic to verify key claims against current sources (PASS / HALT)
-- [ ] Accuracy assessment recorded: approximate percentage of claims still accurate (PASS / HALT)
+- [ ] Every identified mismatch corrected; unresolved topics logged and excluded from review stamps/publication (PASS / HALT)
 - [ ] If stale: rewritten sections preserve the template's body structure (Background, Core Concepts, Evidence, Implications, Sources, See Also) (PASS / HALT)
 - [ ] If stale: Sources section updated with current URLs; broken links replaced (PASS / HALT)
 - [ ] If stale: rewritten content is ASCII-only (PASS / HALT)
 - [ ] `reviewed: <YYYY-MM-DD>` added or updated in frontmatter of each reviewed topic (PASS / HALT)
 - [ ] No topic content changed beyond what was needed for accuracy (no cosmetic rewrites) (PASS / HALT)
 - [ ] Logbook entry written to logbook/library.log (PASS / HALT)
-- [ ] Logbook entry format: each data field on its own line, matching the step 9 example exactly (PASS / HALT)
+- [ ] Logbook entry format: each data field on its own line, matching the step 8 example (PASS / HALT)
 - [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous (PASS / HALT)
-- [ ] Committed on the VPS clone: split-commit pattern followed (topic files first, then pull --rebase + re-read shared files, then commit shared files). Never `git add -A` in the shared clone. (PASS / HALT)
-- [ ] Watcher push verified: AHEAD: 0 or fresh push line in /srv/brain/logs/brain-pull.log (PASS / HALT)
+- [ ] Shared publication used the Library Guide's Publication procedure and returned PASS; no direct topic/log writes or staging outside the helper (PASS / HALT)
+- [ ] No generated index files edited, regenerated, or staged by the reviewer (PASS / HALT)
+- [ ] Every outcome, including ERROR, recorded in library.log when safe publication was available; otherwise failure surfaced to the caller (PASS / HALT)
+- [ ] Exact committed work verified on the remote mirror; a fresh unrelated watcher log line alone is insufficient (PASS / HALT)
 
 ## Procedure
 
 ### 1. Locate the brain working copy
 
 VPS agents: `cd /srv/brain/agentic-brain`. The watcher keeps the
-clone fresh (<= 1 min behind GitHub). Trust your reads.
+clone synchronized with GitHub. Read the Publication section of
+`agentic-brain:library/guide-library.md`. Capture selected topics and their
+research inputs with the helper's snapshot command and read captured files
+in full. Do not modify the live clone while reviewing or preparing drafts.
 
 VPS-connected agents: no local clone. Every read and write below goes
 through the Path Convention commands above.
@@ -137,8 +130,9 @@ The master index gives the full domain coverage table.
 ### 3. Select overdue topics
 
 Read per-domain `index-<domain>.md` files to find topics with
-`[reviewed: never]` or `[reviewed: <date>]` where the date is older
-than the domain's threshold (see Domain Review Thresholds above).
+`[reviewed: never]` or `[reviewed: <date>]` at least six calendar months old.
+Use the indexes to shortlist, then verify each topic's actual frontmatter
+from its captured snapshot. Generated indexes may lag recent publications.
 
 Prioritize:
 1. Topics with `[reviewed: never]` (never reviewed -- highest
@@ -161,9 +155,9 @@ for d in library/*/; do
 done
 ```
 
-The index files show the reviewed date on every topic line. Use the
-domain thresholds to determine which are overdue. Pick the 5 most
-overdue across all domains.
+The index files show a reviewed tag on every topic line. Apply the uniform
+eligibility rule and actual source-date check. Pick up to 5 eligible topics
+across domains. If none qualify, publish a log-only no-op outcome and exit.
 
 ### 4. Read the library template
 
@@ -177,9 +171,10 @@ rules (ASCII-only, lowercase slugs, hyphens, authority-rated sources).
 
 For each selected topic, in order:
 
-**5a. Read the topic file.** Read
+**5a. Read the topic file.** Read the captured
 `library/<domain>/<topic-slug>.md` in full. Note the key claims,
-the Sources section, and the body structure.
+the Sources section, and the body structure. Read its full domain anchor
+before preparing corrections. Preserve the original topic identity/author.
 
 **5b. Web-search to verify.** Search for the topic's key claims to
 check if they are still accurate. Focus on:
@@ -189,13 +184,14 @@ check if they are still accurate. Focus on:
 - Any time-sensitive claims (current events, market data, technology
   specifics, regulatory references).
 
-**5c. Assess accuracy.** Estimate what percentage of the topic's
-claims are still accurate:
-- If 85%+ are still accurate: the topic is current. No content
-  changes needed. Proceed to step 6 (stamp the date).
-- If below 85%: the topic is stale. Proceed to step 5d (rewrite).
+**5c. Identify mismatches.** List the claims and references that do not
+match verified evidence. If none are found, proceed to step 6. Otherwise
+correct them in step 5d. Unresolved evidence, unavailable sources, or a
+required change outside the topic's scope prevents a completed review;
+record ERROR and leave that topic and its reviewed date unchanged.
 
-**5d. Rewrite stale sections (if needed).** When the topic is stale:
+**5d. Correct mismatches (if any).** Prepare corrections in a temporary
+draft, not the live topic file:
 - Rewrite only the sections that contain inaccurate or outdated
   claims. Do not rewrite the entire topic -- patch the stale parts.
 - Preserve the template's body structure. Do not add or remove
@@ -212,8 +208,10 @@ claims are still accurate:
 
 ### 6. Stamp the reviewed date
 
-For each reviewed topic, add or update the `reviewed:` field in the
-topic file's frontmatter. Use today's date in `YYYY-MM-DD` format.
+For each completed review, add or update `reviewed:` in the draft's
+frontmatter. Use today's UTC date in `YYYY-MM-DD` format. Do not stamp
+a topic with unresolved discrepancies. Keep id, name, domain, tier, and
+original author unchanged.
 
 ```bash
 date -u +'%Y-%m-%d'
@@ -239,25 +237,12 @@ point to files that exist. If a rewrite removed a reference to a
 topic that no longer exists in the text, update the cross-reference
 list. Verify with `ls <path>` before committing.
 
-### 8. Run the index regeneration script
+### 8. Write logbook entry
 
-After all topics are reviewed and stamped, regenerate the index so
-the `reviewed:` dates show up in the per-domain index files:
-
-```bash
-cd /srv/brain/agentic-brain
-/opt/repo-tools/venv/bin/python scripts/index-library.py
-```
-
-This updates `library/index-library.md` and every per-domain
-`index-<domain>.md` file with the new `reviewed:` dates. The
-GitHub Action will also regenerate on push, but running it locally
-ensures the index is current in the VPS clone before commit.
-
-### 9. Write logbook entry
-
-Append to `logbook/library.log`. The logbook entry MUST follow this
-exact format. Each data field MUST be on its own line. Topics MUST
+Prepare a body for `logbook/library.log`. The helper generates the ENT
+number, UTC timestamp, actor, and `library` category under its lock. Do not
+append directly or include the header in the request's log body.
+The resulting entry follows this format. Each data field is on its own line. Topics MUST
 be listed one per line using bullet points (`-`). Do NOT pack
 multiple fields onto a single line.
 
@@ -266,77 +251,33 @@ multiple fields onto a single line.
 Review cycle: N topics reviewed, M current, K rewritten.
 Topics:
 - <title> (<domain>): current, no changes
-- <title> (<domain>): rewritten (accuracy ~X%, updated sources, rewrote <sections>)
+- <title> (<domain>): rewritten (corrected <mismatches>, updated <sources/sections>)
 Domain coverage: reviewed across N domains.
 ```
 
-Increment ENT counter from the last entry in library.log.
+For unresolved topics or execution failures, prepare a log-only body
+beginning `ERROR:` with the topic, failed check, and unresolved evidence.
+Do not count unresolved topics as reviewed. If the helper cannot publish
+safely, surface its HALT result to the caller; never bypass the lock to
+write a failure entry.
 
-Before append: EOF MUST be `<previous final body line>\n`.
-Append `\n## [ENT-NNN]` followed by the entry body.
-After append: EOF MUST be `<new final body line>\n`.
+### 9. Commit on the VPS clone -- NO push
 
-### 9a. Log errors (if any)
+Follow `agentic-brain:library/guide-library.md#publication`.
+Use `kind: review` with only completed topic drafts, their captured expected
+hashes, and the log body. The helper rechecks topic bytes and six-month
+eligibility before saving the reviewed topics and log in one commit.
+If a topic changed during research, read and review the current version;
+do not apply corrections based on the stale copy.
 
-If any step failed or produced unexpected results (file write
-error, commit rejection, or any crash), append to
-`logbook/errors.log`:
+Use `kind: log` with no writes for no-op or ERROR outcomes. Do not modify
+the candidate queue or regenerate/stage index files. The `library-index.yml`
+workflow regenerates the Markdown indexes after publication.
 
-```
-## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | error | ref: library/<domain>/<topic-slug>.md | see: <related-ent-id>
-<description of what went wrong, what was expected, and any partial results>
-```
-
-Only write to errors.log if something actually failed. Successful
-review cycles go to library.log. Errors.log is for unexpected
-failures only.
-
-### 10. Commit on the VPS clone -- NO push
-
-The watcher pushes within 1 min and reindexes. Verify after ~1 min:
-`AHEAD: 0`, or a fresh push line in /srv/brain/logs/brain-pull.log.
-
-**Split-commit pattern (prevents shared-file race conditions):**
-
-The topic files you reviewed are unique -- no other agent touches the
-same topic file in the same cycle. But shared files (library.log,
-index files, candidate-queue.md) can be modified by other agents
-running simultaneously. To avoid overwriting their changes, commit
-the topic files first, then sync and re-read shared files before
-modifying them.
-
-**Phase 1 -- commit the reviewed topic files (no race possible):**
-
-```bash
-cd /srv/brain/agentic-brain
-git add library/<domain>/<topic-slug>.md
-git commit -m "library: review -- <topic-slug> reviewed + updated"
-```
-
-**Phase 2 -- sync, re-read, then commit shared files:**
-
-```bash
-git pull --rebase origin main
-```
-
-Re-read `logbook/library.log` from the filesystem -- it may have
-changed since you last read it. Append your logbook entry to the
-CURRENT version, not the version you read earlier. Re-run the index
-regeneration script if other agents wrote new topics during your
-session:
-
-```bash
-/opt/repo-tools/venv/bin/python scripts/index-library.py
-git add library/index-library.md library/*/index-*.md logbook/library.log
-git diff --cached --stat   # verify ONLY your paths are staged
-git commit -m "library: review cycle -- N topics reviewed (M current, K rewritten)"
-```
-
-VPS-connected agents: run the same commands through the commit
-command in the Path Convention.
-
-NEVER `git add -A` in the shared clone -- it stages other agents'
-in-progress files. Stage only this cycle's paths.
+No direct append, `git add`, commit, pull, or rebase belongs in this cycle.
+The existing `repo-pull.sh` watcher owns synchronization; its Brain log is
+`/srv/brain/logs/brain-pull.log`. Verify the specific publication reached
+GitHub after releasing the helper's lock.
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 name: library-discoverer
-description: "Discover knowledge gaps in the library: scan domain anchors, identify uncovered topics, score across 4 dimensions including domain balance. Propose candidates for the writing process. VPS-native dual-option: direct read/write for VPS agents, SSH transfer for VPS-connected agents -- no clone, no push, the watcher pushes. Use when the discovery cron cycle fires."
+description: "Use when asked to discover library topics. Find and score uncovered topics for the candidate queue."
 user-invocable: false
 disable-model-invocation: false
 ---
@@ -20,8 +20,7 @@ weight rules, read `library/guide-library.md` and
 
 ## When to Invoke
 
-Invoke when the cron scheduler triggers a discovery cycle. Runs before
-the writing process to populate the candidate queue. Each cycle picks
+Invoke when asked to discover candidate library topics. Each cycle picks
 a subset of domains and proposes 1-3 candidate topics per domain.
 
 Skip for:
@@ -38,8 +37,9 @@ pushes commits. There is NO clone step and NO push step in this
 skill.
 
 - **VPS agents** (running on the server, no SSH): every path below is
-  a literal filesystem path under `/srv/brain/agentic-brain/`. Write
-  files directly and commit as yourself (agents group, no su).
+  a literal filesystem path under `/srv/brain/agentic-brain/`. Prepare
+  drafts in OS temporary storage; publish through `scripts/library-publish.py`
+  as yourself (agents group, no su).
 - **VPS-connected agents** (remote machines, e.g. PC or laptop
   agents): read and write through the key door, commit via su:
 
@@ -48,13 +48,13 @@ skill.
 ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
   'cat /srv/brain/agentic-brain/<path>'
 
-# write a brain file from local scratch
+# transfer a prepared draft to VPS temporary storage
 cat "<local-scratch>" | ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
-  'cat > /srv/brain/agentic-brain/<path>'
+  'cat > /tmp/<cycle>/<draft>'
 
-# commit (one or more paths)
+# publish the prepared request as the clone owner
 ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
-  'su - hermes -c "cd /srv/brain/agentic-brain && git add <path1> <path2> && git commit -m \"<msg>\" && echo COMMITTED"'
+  'su - hermes -c "python3 /srv/brain/agentic-brain/scripts/library-publish.py publish /tmp/<cycle>/request.json"'
 ```
 
 Quoting rule: the remote command sits in double quotes; inner quotes
@@ -62,12 +62,13 @@ sit in single quotes. A broken quote fails the whole command.
 
 ## Final Self-Check -- HARD GATE
 
-Confirm ALL items before committing. One checklist -- no
+Confirm each item at its corresponding step; commit and push checks follow
+publication. One checklist -- no
 sub-checklists, no section summaries. Each item maps to a procedure
 step or a library guide rule. HALT on any failure; fix before
 committing.
 
-- [ ] Procedure completed: select domains, scan anchors, identify gaps, score all 4 dimensions, check duplicates, check capacity, propose, log, commit (PASS / HALT)
+- [ ] Procedure completed: select domains, read full anchors, identify gaps, score all 4 dimensions, check duplicates/capacity, prepare drafts and log body, publish (PASS / HALT)
 - [ ] Each candidate scored across all four dimensions (PASS / HALT)
 - [ ] Each dimension has a brief justification (1-2 sentences) (PASS / HALT)
 - [ ] Weighted score calculated correctly: (gap*0.40 + compounding*0.25 + timeliness*0.20 + balance*0.15) (PASS / HALT)
@@ -90,15 +91,20 @@ committing.
 - [ ] Logbook entry written to logbook/library.log (PASS / HALT)
 - [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
 - [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)
-- [ ] Committed on the VPS clone: split-commit pattern followed (pull --rebase + re-read shared files before applying changes). Never `git add -A` in the shared clone. (PASS / HALT)
-- [ ] Watcher push verified: AHEAD: 0 or fresh push line in /srv/brain/logs/brain-pull.log (PASS / HALT)
+- [ ] Shared publication used the Library Guide's Publication procedure and returned PASS; no direct queue/log writes or Git staging outside the helper (PASS / HALT)
+- [ ] Every outcome, including ERROR, recorded in library.log when safe publication was available; otherwise failure surfaced to the caller (PASS / HALT)
+- [ ] Exact committed work verified on the remote mirror; a fresh unrelated watcher log line alone is insufficient (PASS / HALT)
 
 ## Procedure
 
 ### 1. Locate the brain working copy
 
 VPS agents: `cd /srv/brain/agentic-brain`. The watcher keeps the
-clone fresh (<= 1 min behind GitHub). Trust your reads.
+clone synchronized with GitHub. Read the Publication section of
+`agentic-brain:library/guide-library.md` before preparing changes. Use the
+helper's snapshot command to capture the queue, selected anchors/indexes,
+and catalog fingerprint. Read each captured file in full. Do not modify
+the live clone while researching or preparing candidate drafts.
 
 VPS-connected agents: no local clone. Every read and write below goes
 through the Path Convention commands above.
@@ -172,7 +178,7 @@ is capped at 25 proposed entries (see step 9).
 
 ### 8. Check for duplicates in queue
 
-Read `library/candidate-queue.md`. Before calculating capacity or
+Read the captured `library/candidate-queue.md`. Before calculating capacity or
 appending anything, compare every scored candidate against the
 existing queue by title and scope.
 
@@ -197,8 +203,9 @@ Count every entry with `Status: proposed`. Calculate available slots:
 
 ### 10. Propose candidates to the queue
 
-Propose up to `available` top-scored non-duplicate candidates. Append
-each to `library/candidate-queue.md` using this format. If the queue
+Propose up to `available` top-scored non-duplicate candidates. Prepare a
+temporary draft of `library/candidate-queue.md`, preserving its captured
+content and appending each candidate using this format. If the queue
 already has entries, add a blank line before the first `## Candidate:`
 block to separate the new candidates from existing entries.
 
@@ -213,13 +220,15 @@ block to separate the new candidates from existing entries.
 - **Status:** proposed
 ```
 
-If `candidate-queue.md` does not exist, create it with a header:
+If `candidate-queue.md` does not exist, prepare its draft with a header:
 `# Library Candidate Queue -- topics proposed for the writing process`.
 
 ### 11. Write logbook entry
 
-Append to `logbook/library.log`. The logbook
-entry MUST follow this exact format. Each data field MUST be on its
+Prepare the body for a `logbook/library.log` entry. The helper generates
+the ENT number, UTC timestamp, actor, and `library` category under the lock;
+do not append directly or include the header in the request's log body.
+The resulting entry MUST follow this format. Each data field MUST be on its
 own line. Candidates MUST be listed one per line using bullet points
 (`-`). Do NOT pack multiple fields onto a single line. The archiving
 system counts lines, not bytes -- single-line entries defeat
@@ -234,65 +243,25 @@ Candidates:
 Domain balance: <least-covered> (N topics) to <most-covered> (N topics).
 ```
 
-Increment ENT counter from the last entry in library.log.
-
-Before append: EOF MUST be `<previous final body line>\n`.
-Append `\n## [ENT-NNN]` followed by the entry body.
-After append: EOF MUST be `<new final body line>\n`.
-
-### 11a. Log errors (if any)
-
-If any step failed or produced unexpected results (file write error,
-commit rejection, or any crash), append to
-`logbook/errors.log`:
-
-```
-## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | error | ref: library/candidate-queue.md | see: <related-ent-id>
-<description of what went wrong, what was expected, and any partial results>
-```
-
-Only write to errors.log if something actually failed. Successful
-discovery cycles go to library.log. Errors.log is for unexpected
-failures only.
+Capacity/no-op outcomes use a log-only request. Unexpected failures use a
+log-only body beginning `ERROR:` with the failed step and reason. If the
+helper cannot publish safely, surface its HALT result to the caller; never
+bypass the lock to write a failure entry. The helper preserves existing
+entries and inserts exactly one separator line.
 
 ### 12. Commit on the VPS clone -- NO push
 
-The watcher pushes within 1 min and reindexes. Verify after ~1 min:
-`AHEAD: 0`, or a fresh push line in /srv/brain/logs/brain-pull.log.
+Follow `agentic-brain:library/guide-library.md#publication`.
+Use `kind: discover` with the queue draft, captured expected hashes and
+catalog fingerprint, and prepared log body. The helper rechecks current
+state and publishes queue plus log in one commit. On a stale snapshot,
+read fresh state and repeat duplicate/capacity checks before redrafting.
+Use `kind: log` with no writes for capacity, no-op, or ERROR outcomes.
 
-**Split-commit pattern (prevents shared-file race conditions):**
-
-The candidate-queue.md and library.log are shared files that other
-processes can modify simultaneously. To avoid
-overwriting their changes, sync and re-read these files before
-applying your changes.
-
-**Phase 1 -- sync and re-read shared files:**
-
-```bash
-cd /srv/brain/agentic-brain
-git pull --rebase origin main
-```
-
-Re-read `library/candidate-queue.md` and `logbook/library.log` from
-the filesystem -- they may have changed since you last read them at
-the start of this session. Apply your changes (append candidates,
-append logbook entry) to the CURRENT version of these files, not
-the version you read earlier.
-
-**Phase 2 -- commit shared files:**
-
-```bash
-git add library/candidate-queue.md logbook/library.log
-git diff --cached --stat   # verify ONLY your paths are staged
-git commit -m "library: discovery cycle -- N candidates proposed across M domains"
-```
-
-VPS-connected agents: run the same commands through the commit
-command in the Path Convention.
-
-NEVER `git add -A` in the shared clone -- it stages other agents'
-in-progress files. Stage only this cycle's paths.
+No direct append, `git add`, commit, pull, or rebase belongs in this cycle.
+The existing `repo-pull.sh` watcher owns synchronization; its Brain log is
+`/srv/brain/logs/brain-pull.log`. Verify the specific publication reached
+GitHub after releasing the helper's lock.
 
 ## Related
 

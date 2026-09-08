@@ -1,24 +1,19 @@
 name: library-index
 
-# WHAT THIS DOES (plain English):
-# Every time a file inside library/ changes on main (new topic written,
-# topic modified, topic deleted), this regenerates the master index
-# and every per-domain index file from the live filesystem, commits
-# if anything changed, and pushes back. The index is always current.
-#
-# WHY: the old script only ran during audit cycles, so the index rotted
-# between audits (173 claimed vs 192 actual). This makes the index
-# self-healing -- any library change triggers a regeneration within
-# ~30 seconds of the push landing on GitHub.
-#
-# HOW TO INSTALL: put this file at
-# .github/workflows/library-index.yml in the agentic-brain repo.
+# Regenerate derived indexes from freshly fetched main. A rejected push
+# triggers a fresh fetch and regeneration, never replay of a stale patch.
+# Retries are bounded; an exhausted or otherwise failed run stays failed.
 
 on:
   push:
     branches: [main]
     paths:
       - 'library/**'
+      - 'scripts/index-library.py'
+      - 'scripts/library-index-publish.py'
+      - 'scripts/library-publish.py'
+      - 'scripts/tests/test_library*.py'
+      - '.github/workflows/library-index.yml'
   workflow_dispatch:
 
 concurrency:
@@ -37,26 +32,13 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
         with:
+          ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Regenerate library indexes
+      - name: Test library publishers
         shell: bash
-        run: |
-          set -uo pipefail
-          echo "library-index: regenerating indexes from filesystem..."
-          python3 scripts/index-library.py
+        run: python3 -B -m unittest discover -s scripts/tests -p 'test_library*.py'
 
-      - name: Commit and push if changed
+      - name: Regenerate and publish with bounded fresh-state retries
         shell: bash
-        run: |
-          set -uo pipefail
-          git config user.name "Library Index Bot"
-          git config user.email "library-index@suggi-workspace.dev"
-          git add library/index-library.md library/*/index-*.md
-          if git diff --cached --quiet; then
-            echo "No index changes to commit."
-            exit 0
-          fi
-          git commit -m "library: auto-regenerate indexes"
-          git push origin main
-          echo "library-index: pushed regenerated indexes."
+        run: python3 -B scripts/library-index-publish.py --repo "$GITHUB_WORKSPACE" --attempts 3
