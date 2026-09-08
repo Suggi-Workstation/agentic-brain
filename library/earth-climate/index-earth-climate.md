@@ -1,6 +1,6 @@
 # Earth Climate -- Topics
 
-8 topics. Anchor: [anchor-earth-climate.md](anchor-earth-climate.md)
+9 topics. Anchor: [anchor-earth-climate.md](anchor-earth-climate.md)
 
 - [Atmospheric Science and Weather Systems -- How the Atmosphere's Circulation Drives Earth's Climate](atmospheric-science-weather-systems.md) -- [reviewed: never] -- Earth's atmosphere is not a static blanket of gases but a turbulent, continuously churning heat engine that redistributes energy from the equator toward the poles. The global atmospheric circulation -- governed by the Hadley, Ferrel, and Polar cells, shaped by the Coriolis effect, and expressed through jet streams, trade winds, monsoons, and the El Nino-Southern Oscillation (ENSO) -- determines where deserts form, where rainforests thrive, and how weather patterns propagate across continents.
 
@@ -9,6 +9,8 @@
 - [The Carbon Cycle and the Greenhouse Effect -- How Earth's Thermostat Works and Why It Is Breaking](carbon-cycle-greenhouse-effect.md) -- [reviewed: never] -- The carbon cycle is the planetary-scale system through which carbon moves between the atmosphere, oceans, terrestrial biosphere, and geological reservoirs over timescales ranging from seconds to millions of years. The greenhouse effect is the physical mechanism by which certain atmospheric gases trap outgoing infrared radiation, keeping Earth's surface roughly 33 degrees Celsius warmer than it would otherwise be -- making the planet habitable.
 
 - [Ocean Acidification -- The Other Carbon Problem That Threatens the Marine Food Web](ocean-acidification.md) -- [reviewed: never] -- Ocean acidification is the ongoing decrease in ocean pH caused by the absorption of atmospheric carbon dioxide -- roughly one-third of all anthropogenic CO2 emissions dissolve into the sea. Since the Industrial Revolution, surface ocean pH has dropped from approximately 8.2 to 8.1, a seemingly small change that represents a 30% increase in acidity on a logarithmic scale.
+
+- [Oceanography and Marine Systems -- Ocean Circulation Couples Climate, Carbon, and Marine Ecosystems](oceanography-marine-systems.md) -- [reviewed: never] -- The ocean is a moving, stratified fluid system that redistributes heat, freshwater, carbon, oxygen, and nutrients between the atmosphere, surface waters, and deep sea. Its circulation determines how rapidly climate forcing enters the ocean interior and how physical changes propagate into marine ecosystems; therefore, ocean change cannot be understood as surface warming alone. [1, 2, 3]
 
 - [Paleoclimatology -- How Natural Archives Reveal Earth's Climate History and Why That History Makes Current Warming Unprecedented](paleoclimatology.md) -- [reviewed: never] -- Paleoclimatology is the science of reconstructing Earth's climate before instrumental records began. By reading natural archives -- ice cores, deep-sea sediments, tree rings, cave formations, and coral skeletons -- scientists can measure past temperature, atmospheric composition, precipitation, and ice volume across timescales ranging from seasons to hundreds of millions of years.
 
