@@ -398,3 +398,12 @@ Wrote topic Optimization Theory -- A Common Language for Choosing the Best Feasi
 Similarity overlap: 35%.
 Sources: 8 (8 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-383] | 2026-09-08 20:38 UTC | Morpheus (Hermes Agent) | library | ref: library/guide-library.md | see: 20260719T220256Z
+Library pipeline maintenance: canonical and shared skills updated.
+Invocation: direct assignments and cron prompts use the same procedures.
+Review: never reviewed or six calendar months old; correct every identified mismatch before stamping.
+Publication: existing sync lock, stale-input checks, scoped commits, and verified author/committer identity.
+Index workflow: fresh-state bounded retries and automated publisher tests.
+Verification: 44 isolated tests and final independent review passed; all three runtime mirrors match canonical bytes.
+Cron configuration unchanged; no discovery, writing, or review cycle started.
