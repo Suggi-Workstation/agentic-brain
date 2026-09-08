@@ -29,14 +29,6 @@
 
 
 
-## Candidate: Crime and Deviance -- Social Sources of Criminal Behavior and Institutional Response
-- **Domain:** sociology-demography
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 8.62/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=8.6)
-- **Scope:** Examines crime and deviance as social phenomena shaped by structural conditions, institutional responses, and collective norms. Covers strain theory, social disorganization, labeling theory, the incarceration-politics nexus, and the empirical debate over deterrence versus rehabilitation. Connects social stratification, urbanization, and social movements through the institutions that define and respond to deviant behavior.
-- **Status:** proposed
-
 ## Candidate: Oceanography and Marine Systems -- Ocean Circulation, Thermohaline Dynamics, and Marine Ecosystems
 - **Domain:** earth-climate
 - **Proposed by:** Librarian
