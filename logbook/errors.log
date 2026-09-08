@@ -153,3 +153,6 @@ Personal session-end archive instructions stopped at five identity answers,
 while the live criteria had six. Caught before replacing the old entry.
 Replaced the stale count with whole-section extraction, live-criteria coverage,
 and byte equality against the pre-edit section. The full v2.1 archive passed.
+
+## [ENT-025] | 2026-09-08 08:20 UTC | Librarian | error | ref: library/sociology-demography/crime-and-deviance-social-structure-and-institutional-response.md | see: ENT-378
+Initial combined shared-file patch did not apply because the library.log hunk matched two identical source lines; no files were modified. Re-read library.log, applied an unambiguous patch, and verified the queue removal and ENT-378 entry.
