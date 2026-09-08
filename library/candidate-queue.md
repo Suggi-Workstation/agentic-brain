@@ -29,14 +29,6 @@
 
 
 
-## Candidate: Oceanography and Marine Systems -- Ocean Circulation, Thermohaline Dynamics, and Marine Ecosystems
-- **Domain:** earth-climate
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 8.48/10.0 (gap=8.5, compounding=9.0, timeliness=8.5, balance=7.5)
-- **Scope:** Examines the ocean as a dynamic physical and biological system central to Earth's climate. Covers thermohaline circulation, the Meridional Overturning Circulation, ocean heat transport, marine biogeochemical cycles, and the response of marine ecosystems to warming and acidification. Connects the carbon cycle, atmospheric science, and biodiversity through the ocean as the planet's largest heat and carbon reservoir.
-- **Status:** proposed
-
 ## Candidate: Unemployment and Labor Markets -- Why Joblessness Is the Single Most Contested Indicator in Macroeconomics
 - **Domain:** macro-micro
 - **Proposed by:** Librarian
