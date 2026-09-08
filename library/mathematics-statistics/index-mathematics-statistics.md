@@ -1,6 +1,6 @@
 # Mathematics Statistics -- Topics
 
-8 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
+9 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
 
 - [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md) -- [reviewed: never] -- Bayesian statistics is a framework for inference in which probability represents a degree of belief rather than a limiting relative frequency. At its core is Bayes' theorem, which prescribes exactly how prior knowledge should be combined with observed data to produce updated beliefs -- the posterior distribution.
 
@@ -17,4 +17,6 @@
 - [Regression Analysis -- Why Modeling Relationships Between Variables Is the Backbone of Quantitative Reasoning](regression-analysis.md) -- [reviewed: never] -- Regression analysis is the statistical method for estimating how a dependent variable changes when one or more independent variables change, producing equations that quantify relationships, isolate effects, and generate predictions from data. From Francis Galton's 19th-century study of hereditary traits to the generalized linear models that underpin modern data science, regression has evolved into the most widely used family of statistical techniques in science, industry, and policy.
 
 - [Statistical Inference -- Why Drawing Reliable Conclusions from Limited Data Is the Core Challenge of Science](statistical-inference.md) -- [reviewed: never] -- Statistical inference is the mathematical framework for drawing conclusions about populations and processes from finite samples of data. It transforms the raw material of observation -- measurements, counts, responses -- into statements about the world accompanied by quantified uncertainty. Without statistical inference, data is merely anecdote; with it, data becomes evidence.
+
+- [Time Series Analysis -- Why Temporal Dependence Must Be Modeled Before Data Can Support a Forecast](time-series-analysis.md) -- [reviewed: never] -- Time series analysis studies observations indexed by time, treating their ordering and dependence as information rather than as an inconvenience. Its central claim is that a model which ignores autocorrelation, changing variance, seasonality, or structural change can produce misleading uncertainty estimates and unreliable forecasts even when it fits past observations well.
 
