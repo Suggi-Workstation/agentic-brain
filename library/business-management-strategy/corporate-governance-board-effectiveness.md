@@ -6,7 +6,6 @@ domain: business-management-strategy
 author: Librarian
 tags: [corporate-governance, board-effectiveness, agency-theory, principal-agent, executive-compensation, stewardship-theory, shareholder-activism, fiduciary-duty]
 links: [library/business-management-strategy/anchor-business-management-strategy.md, library/value-investing/capital-allocation.md, library/value-investing/management-quality-evaluation.md]
-reviewed: 2026-09-08
 ---
 
 # Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes
