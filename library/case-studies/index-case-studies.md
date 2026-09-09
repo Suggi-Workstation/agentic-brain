@@ -2,7 +2,7 @@
 
 17 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
 
-- [The 2008 Financial Crisis -- How a Housing Bubble Spawned the Worst Crisis Since the Great Depression](2008-financial-crisis.md) -- [reviewed: never] -- The 2008 financial crisis was not an unpredictable "black swan" -- it was the foreseeable and forewarned result of a housing bubble, a deregulated shadow banking system, and financial instruments so complex that their own creators did not fully understand them. Triggered by the collapse of the U.S. subprime mortgage market in 2007 and accelerating through the bankruptcy of Lehman Brothers in September 2008, the crisis destroyed over $11 trillion in U.
+- [The 2008 Financial Crisis -- How Housing Losses Became a Global Funding Emergency](2008-financial-crisis.md) -- [reviewed: 2026-09-09] -- The 2007-2009 financial crisis turned a downturn in U.S. housing into a global funding and credit emergency through weak underwriting, leveraged exposures, and fragile short-term financing. Lehman Brothers' bankruptcy and AIG's near-failure in September 2008 intensified an already developing crisis, with severe consequences for production, employment, and household wealth.
 
 - [The Apple Turnaround (1997-2010) -- How Radical Simplification, Design Obsession, and Ecosystem Thinking Created the Greatest Corporate Recovery in Modern Business History](apple-turnaround-1997-2010.md) -- [reviewed: never] -- Apple's turnaround from near-bankruptcy in 1997 to the world's most valuable company by 2011 is the definitive case study in corporate revival. When Steve Jobs returned as interim CEO in July 1997, Apple had less than 90 days of cash reserves, a sprawling product line of over 70 SKUs, and annual losses exceeding $1 billion.
 
