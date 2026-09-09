@@ -6,7 +6,6 @@ domain: accounting-financial-shenanigans
 author: Librarian
 tags: [acquisition-accounting, purchase-price-allocation, earnouts, contingent-consideration, serial-acquirers, goodwill, spring-loading, cookie-jar-reserves]
 links: [library/accounting-financial-shenanigans/goodwill-impairment-games.md, library/accounting-financial-shenanigans/revenue-recognition-shenanigans.md, library/accounting-financial-shenanigans/cash-flow-shenanigans.md, library/accounting-financial-shenanigans/off-balance-sheet-shenanigans.md, library/accounting-financial-shenanigans/beneish-m-score.md, library/accounting-financial-shenanigans/non-gaap-metrics-and-pro-forma-manipulation.md]
-reviewed: 2026-09-08
 ---
 
 # Acquisition Accounting Tricks -- How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality
