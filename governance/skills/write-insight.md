@@ -38,7 +38,7 @@ Confirm ALL items before committing.
 - [ ] Prior work queried via `query-brain-vps`; superseded / implemented / resolved artifacts got their `status:` updated (PASS / HALT)
 - [ ] File written to the agentic-brain clone (`research/insights/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
 - [ ] Template validator gate: `template-insights.md` Insight Checklist -- all items confirmed PASS (PASS / HALT)
-- [ ] Committed through `brain-write-vps`; exact author and committer match the executing agent/profile, and watcher push verified (PASS / HALT)
+- [ ] Only intended files committed; Git author and committer match your name/email; natural watcher publication verified (PASS / HALT)
 
 ## Procedure
 
@@ -106,15 +106,43 @@ cat "<local-scratch>" | ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
 `<short-slug>`: kebab-case, max 60 chars, unique.
 ### 6. Commit on the agentic-brain clone -- NO push
 
-Invoke `brain-write-vps` for scoped staging, command-local Git identity,
-commit, and watcher verification. Use the executing agent/profile's approved
-name and email, never the shared clone's defaults. VPS-connected agents
-perform the procedure on the VPS as the clone owner while retaining their
-own Git identity.
+Run on the VPS as the clone owner, directly or through your approved connection.
+Stage only your artifact paths and check the staged diff before committing:
+
+```bash
+cd /srv/brain/agentic-brain
+git add <artifact-paths>
+git diff --cached --stat
+```
+
+Commit with your own Git name and email. Do not change repository or global settings.
+
+```bash
+AGENT_NAME="<your Git name>"
+AGENT_EMAIL="<your Git email>"
+env GIT_AUTHOR_NAME="$AGENT_NAME" GIT_AUTHOR_EMAIL="$AGENT_EMAIL" \
+    GIT_COMMITTER_NAME="$AGENT_NAME" GIT_COMMITTER_EMAIL="$AGENT_EMAIL" \
+    git commit -m "insight: <short-slug>"
+```
+
+Use the returned commit hash to verify both identities. HALT on a mismatch.
+
+```bash
+git show -s --format='Author: %an <%ae>%nCommitter: %cn <%ce>' <commit-sha>
+```
+
+Let the existing watcher push naturally. Do not push manually or force a watcher run.
+Verify publication; if pending, wait for the next watcher tick and check again:
+
+```bash
+git fetch origin
+git merge-base --is-ancestor <commit-sha> origin/main
+```
+
+PASS: the exact commit is on origin/main. HALT on a publication error.
 
 ## Related
 
-- `brain-write-vps` -- profile-specific Git identity, commit, and publication verification.
 - `agentic-brain:governance/template-insights.md` -- format specification and compliance validator (Insight Checklist, examples)
 - `skills/write-report/SKILL.md` -- report writing (reports produce insights)
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (evaluations identify patterns)
