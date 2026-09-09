@@ -1,6 +1,6 @@
 # Library Master Index
 
-<!-- Regenerated 2026-09-09 05:47 UTC -->
+<!-- Regenerated 2026-09-09 06:31 UTC -->
 <!-- Source of truth: filesystem. This file is derived, never maintained by hand. -->
 <!-- To verify: ls library/<domain>/*.md -->
 
