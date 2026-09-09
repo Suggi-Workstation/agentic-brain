@@ -38,7 +38,7 @@ Confirm ALL items before committing.
 - [ ] Prior work queried via `query-brain-vps`; superseded / implemented / resolved artifacts got their `status:` updated (PASS / HALT)
 - [ ] File written to the agentic-brain clone (`research/reports/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
 - [ ] Template validator gate: `template-reports.md` Report Checklist -- all items confirmed PASS (PASS / HALT)
-- [ ] Committed on the agentic-brain clone as hermes; watcher pushes within 1 min (AHEAD: 0 verified) (PASS / HALT)
+- [ ] Committed through `brain-write-vps`; exact author and committer match the executing agent/profile, and watcher push verified (PASS / HALT)
 
 ## Procedure
 
@@ -100,24 +100,15 @@ cat "<local-scratch>" | ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
 `<short-slug>`: kebab-case, max 60 chars, unique.
 ### 6. Commit on the agentic-brain clone -- NO push
 
-The watcher pushes within 1 min and reindexes. Verify after ~1 min:
-`AHEAD: 0`, or a fresh push line in /srv/brain/logs/brain-pull.log.
+Invoke `brain-write-vps` for scoped staging, command-local Git identity,
+commit, and watcher verification. Use the executing agent/profile's approved
+name and email, never the shared clone's defaults. VPS-connected agents
+perform the procedure on the VPS as the clone owner while retaining their
+own Git identity.
 
-VPS agents:
-
-```bash
-cd /srv/brain/agentic-brain && git add research/reports/<short-slug>.md && \
-  git commit -m "report: <short-slug>" && echo COMMITTED
-```
-
-VPS-connected agents:
-
-```bash
-ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
-  'su - hermes -c "cd /srv/brain/agentic-brain && git add research/reports/<short-slug>.md && git commit -m \"report: <short-slug>\" && echo COMMITTED"'
-```
 ## Related
 
+- `brain-write-vps` -- profile-specific Git identity, commit, and publication verification.
 - `agentic-brain:governance/template-reports.md` -- format specification and compliance validator (Report Checklist, examples)
 - `skills/write-evaluation/SKILL.md` -- evaluation writing (reports require evaluation)
 - `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
