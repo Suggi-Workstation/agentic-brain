@@ -2,7 +2,7 @@
 
 9 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
 
-- [Food and Agriculture in Cultural Context -- How a Society Feeds Itself Shapes Everything Else About It](food-and-agriculture-in-cultural-context.md) -- [reviewed: never] -- Every society must solve the same problem -- turning environment into food -- and the way it solves it shapes its kinship, politics, religion, and identity. Anthropology studies food both as subsistence, the material system that produces calories, and as symbol, the meanings attached to what is edible, who eats with whom, and how it is prepared.
+- [Food and Agriculture in Cultural Context -- Food Systems Shape Social Life as Well as Subsistence](food-and-agriculture-in-cultural-context.md) -- [reviewed: 2026-09-09] -- Every society must solve the same problem -- turning environment into food -- and the way it solves it shapes its kinship, politics, religion, and identity. Anthropology studies food both as subsistence, the material system that produces calories, and as symbol, the meanings attached to what is edible, who eats with whom, and how it is prepared.
 
 - [Gift Economies and Reciprocity -- Why No Gift Is Ever Free and Every Exchange Creates a Social Bond](gift-economies-and-reciprocity.md) -- [reviewed: never] -- Gift economies are systems of exchange where goods and services are given without explicit agreement for immediate or future compensation, yet every gift creates an obligation to reciprocate. Identified as a universal human pattern by Marcel Mauss in his 1925 essay "The Gift," this dynamic reveals that exchange is never purely economic -- it is always social.
 
