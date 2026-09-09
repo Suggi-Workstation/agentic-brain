@@ -92,7 +92,7 @@ committing.
 - [ ] Template read in full before reviewing and re-read before final checklist verification (PASS / HALT)
 - [ ] Topics selected have no reviewed date or are at least six calendar months past review; actual frontmatter checked, not only index tags (PASS / HALT)
 - [ ] Each topic read in full before web-searching (PASS / HALT)
-- [ ] Independent web search conducted; existing sources and new findings checked against the topic's claims (PASS / HALT)
+- [ ] Independent web search conducted; existing sources and new findings checked against the topic's claims; inaccessible sources followed by alternative-source research (PASS / HALT)
 - [ ] Every identified mismatch and substantive gap resolved; incomplete topics logged and excluded from review stamps/publication (PASS / HALT)
 - [ ] Stale, superseded, incorrect, duplicate, or unused sources removed or replaced; affected citations reconciled throughout the topic (PASS / HALT)
 - [ ] Whole final topic passes the Library Topic Checklist, including measured section word counts; creation-only actions excluded as specified below (PASS / HALT)
@@ -171,7 +171,11 @@ before preparing corrections. Preserve the original topic identity/author.
 
 **5b. Research and verify.** Perform independent web searches for the
 topic. Read its existing sources and relevant new sources; compare their
-actual findings with the topic's claims. Check:
+actual findings with the topic's claims. If a source cannot be retrieved,
+find and read an accessible authoritative alternative. Use it to verify the
+claim or replace unsupported passages with verified material, preserving
+the topic's scope and depth. Update source attribution and affected citations
+in step 5d. A retrieval failure alone does not make a claim false. Check:
 - Core factual claims (numbers, dates, study results, named
   entities).
 - Sources -- do they support the attributed claims? Are they current,
@@ -183,8 +187,8 @@ actual findings with the topic's claims. Check:
 unsupported claims, missing concepts, examples, evidence, and applications
 within the topic's scope. Compare depth and completeness with the template.
 If none are found, still complete step 6. Otherwise correct them in step 5d.
-Unresolved evidence, unavailable sources, or a
-required change outside the topic's scope prevents a completed review;
+Evidence still unresolved after alternative-source research and corrections,
+or a required change outside the topic's scope, prevents a completed review;
 record ERROR and leave that topic and its reviewed date unchanged.
 
 **5d. Correct errors and fill gaps.** Prepare corrections in a temporary
