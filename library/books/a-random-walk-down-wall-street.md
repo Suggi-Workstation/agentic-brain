@@ -6,6 +6,7 @@ domain: books
 author: Librarian
 tags: [random-walk, efficient-market-hypothesis, index-investing, malkiel, passive-investing, market-efficiency, behavioral-finance]
 links: [library/books/the-intelligent-investor.md, library/books/thinking-fast-and-slow.md, library/books/the-black-swan-taleb.md, library/value-investing/mr-market.md, library/portfolio-risk-management/modern-portfolio-theory.md, library/psychology-behavior/cognitive-biases.md]
+reviewed: 2026-09-09
 ---
 
 # A Random Walk Down Wall Street -- Why Most Investors Cannot Beat the Market and What to Do About It
@@ -104,19 +105,7 @@ low-cost products built by firms such as Vanguard.
 
 ### The Random Walk Hypothesis
 
-The random walk hypothesis states that future stock price changes
-cannot be predicted from past price movements. The term comes from a
-statistical process where each step is independent of previous steps --
-like a drunkard's walk. Applied to markets, it means that tomorrow's
-price change bears no reliable relationship to today's, last week's, or
-last year's price movement. Malkiel is careful to note that the market
-is not a perfect random walk: some short-term momentum exists, and some
-predictable patterns appear in certain conditions. His argument is that
-these relationships are too small, too inconsistent, and too costly to
-exploit after transaction costs to be useful for ordinary investors.
-The key insight is that new information arrives randomly and
-unpredictably, and prices adjust so quickly that acting on information
-after it becomes public rarely produces excess returns.
+A literal random walk has independent increments, but market efficiency is not identical to that particular statistical model. In his 2023 interview, Malkiel acknowledges momentum and extended periods of factor underperformance while arguing that ordinary investors cannot reliably turn historical price patterns into superior net returns. The economically relevant question is whether a strategy earns abnormal returns after accounting for risk, implementation costs, and the information actually available when it was chosen. Predictable variation in expected returns can coexist with some efficient-market models. Conversely, prices that look approximately random can still contain mispricing, as Shiller's behavioral models illustrate. Malkiel's practical claim is therefore about the difficulty of exploitation, not proof that every price increment is independent or that every price is correct. This distinction prevents an observation of momentum from automatically settling the entire debate.
 
 ### The Three Forms of Market Efficiency
 
@@ -193,46 +182,11 @@ outperform the index after costs.
 
 ### The Mutual Fund Performance Record
 
-The empirical backbone of Malkiel's argument is the long-term
-performance of actively managed mutual funds relative to passive
-indexes. The pattern is consistent across decades: approximately
-two-thirds to over ninety percent of active fund managers underperform
-their benchmark indexes over meaningful time horizons, and the
-underperformance rate increases as the time horizon lengthens. In the
-book, Malkiel cites data showing that more than two-thirds of
-professional portfolio managers were outperformed by the unmanaged
-S&P 500 Index over 30-year periods. The SPIVA scorecards, published by
-S&P Dow Jones Indices since 2002, have confirmed and extended this
-finding: over 20-year periods, approximately 90 percent or more of
-active large-cap fund managers underperform the S&P 500 after fees.
-Critically, the funds that outperform in one period are not the same
-ones that outperform in the next. This lack of persistence means that
-past outperformance does not predict future outperformance, making it
-impossible for investors to identify winning managers in advance. The
-implication is that paying active management fees is, for most
-investors, paying for a service that delivers below-market returns.
+Malkiel uses the record of active mutual funds to argue that paying for stock selection is usually unattractive for ordinary investors. In his 2023 interview he described widespread underperformance and weak persistence, citing S&P comparisons; these are dated statements of his position, not a universal success-rate constant. The measured fraction depends on category, horizon, survival rules, weighting, and benchmark. Cremers, Fulkerson, and Riley's 2026 study of the 2024 SPIVA framework demonstrates how altering those choices changes the answer. Nor does weak persistence prove that no manager can ever be identified in advance. It shows why simply buying recent winners is a weak basis for selection. A useful application is to distinguish a claim about the average fund, the average dollar, and a specified investment process before treating one performance table as evidence for all three.
 
 ### The Index Fund Prescription
 
-Malkiel's practical recommendation is to buy and hold broad-based,
-low-cost index funds. The logic is direct: if active management
-underperforms the index after costs, then owning the index at minimal
-cost captures the market return -- which is, by definition, the
-average return before costs, and above-average after costs because
-index funds charge far less than active funds. Malkiel also
-emphasizes age-related asset allocation: a younger investor can
-tolerate more equity risk because they have time to recover from
-downturns and human capital (future earnings) to draw on. As investors
-age, they should shift toward bonds and less volatile assets. The book
-provides specific life-cycle investment guidelines, including the
-"Malkiel Step" -- a formula-based approach to age-related rebalancing.
-The prescription extends to tax efficiency (minimizing turnover to
-reduce tax drag), international diversification, and periodic
-rebalancing to maintain target allocations. Malkiel does not claim
-indexing is optimal for everyone in every circumstance, but he argues
-it is the best default strategy for investors who lack the time,
-skill, and resources to pursue active strategies -- which is nearly
-everyone.
+Malkiel recommends broad, low-cost index funds as the core of an ordinary investor's portfolio. His 2023 interview distinguishes such funds from specialized or leveraged ETFs, which do not become prudent long-term holdings merely because they use the ETF wrapper. Indexing minimizes the need to select individual securities but does not remove asset-allocation decisions, valuation risk, drawdowns, or the possibility of an unsuitable benchmark. The book's life-cycle approach considers the time available to bear risk and the changing need for stability; it should not be presented as a guaranteed age-only formula. A reader applying the prescription should consider cash needs, investment horizon, labor-income risk, and the ability to tolerate losses, alongside diversification, fees, and rebalancing. Costs are observable and controllable in a way that future returns are not. That asymmetry, rather than a promise of always beating every active manager, is the strongest practical foundation for the recommendation.
 
 ### The Firm-Foundation and Castle-in-the-Air Theories
 
@@ -254,22 +208,17 @@ foundation analysis cannot gain an edge; if psychological patterns are
 unreliable and self-defeating, castle-in-the-air speculation cannot
 either.
 
+### Benchmarks, Risk, and the Joint-Hypothesis Problem
+
+A test of market efficiency must specify what return would count as normal. Shiller's review illustrates the point by examining different assumptions about dividends and discount rates; Sharpe similarly insists that a manager be compared with a feasible passive alternative chosen in advance. A strategy exposed to smaller companies, distressed businesses, or leverage cannot be judged solely by whether it beat a broad large-company index. Conversely, assigning a convenient risk label to every successful strategy does not automatically demonstrate that its return was deserved compensation rather than skill or mispricing.
+
+For a reader assessing Malkiel's thesis, this creates two separate questions: did the investment earn a superior net return, and what explains that return? The first requires a fair measurement; the second requires an economic argument. An impressive backtest can fail either test if it uses hindsight, ignores funds that closed, omits trading costs, or changes its benchmark after observing the result. The practical application is to predefine the opportunity set, feasible alternative, horizon, and costs, then evaluate outcomes without moving those criteria. This makes the argument for indexing more rigorous while preserving room for well-supported active strategies.
+
 ## Evidence
 
 ### Mutual Fund Underperformance: The SPIVA Scorecards
 
-The most comprehensive recurring evidence for Malkiel's thesis comes
-from the S&P Indices Versus Active (SPIVA) scorecard, published by S&P
-Dow Jones Indices since 2002. The methodology is designed to address
-survivorship bias and style changes. In the Year-End 2025 scorecard,
-78.78 percent of U.S. large-cap funds underperformed the S&P 500 over
-one year and 92.89 percent underperformed over 20 years. S&P also
-reported that no category across domestic equity, international equity,
-and fixed income had majority outperformance over 15 years. The exact
-rate varies by category and horizon, so the large-cap figure should not
-be generalized to every active strategy. The companion persistence
-scorecards test whether past winners remain winners and repeatedly find
-weak persistence at longer horizons.
+SPIVA provides recurring comparisons between active funds and category benchmarks, but its results must be tied to a particular edition and method. Cremers, Fulkerson, and Riley's May 2026 working paper reconstructs the 2024 Year-End scorecard using the CRSP Survivor-Bias-Free U.S. Mutual Fund Database and benchmark data. In their replication, 94.05 percent of all U.S. equity funds underperformed over 2005-2024, close to the scorecard's reported 94.11 percent. This is a fund-count result for that universe and horizon, not the probability that every possible active process will fail. The replication also gives readers a way to examine the effect of methodological choices rather than relying on a headline alone. These figures refer to the 2024 scorecard as examined in the paper; they are not relabeled as 2025 observations.
 
 A 2026 working paper by Cremers, Fulkerson, and Riley, supported by the
 Investment Adviser Association's Active Managers Council, challenged
@@ -286,70 +235,17 @@ or establish that investors can identify future winners in advance.
 
 ### The Dartboard Experiments and Random Chart Generation
 
-Malkiel's most memorable evidence is experimental rather than
-statistical. He generated stock price charts using random coin flips
-and presented them to technical analysts, who confidently identified
-classic chart patterns -- head and shoulders, support and resistance,
-breakouts -- in data that contained no information. The demonstration
-shows that the human brain is wired to find patterns even where none
-exist, a finding consistent with the psychological research on
-pattern recognition and confirmation bias. The dartboard analogy
-extends this logic: if a randomly selected portfolio of stocks performs
-as well as an expertly selected one, then the expertise adds no value.
-While no formal long-term dartboard experiment has been published in a
-peer-reviewed journal, the SPIVA data provides the statistical
-equivalent. The unmanaged S&P 500 index -- a rules-based, not
-expert-selected, portfolio -- beats the majority of actively managed
-funds. The dartboard and the index fund are the same argument at
-different scales: rules-based or random selection outperforms expert
-selection after costs.
+The book's dartboard image is a challenge to the mystique of professional selection, not a demonstration that a randomly chosen handful of stocks is equivalent to a diversified index fund. In his 2023 interview, Malkiel emphasizes that apparent patterns can seduce investors even when they do not support dependable forecasts. As an analytical illustration, one can construct random price series and then search them for familiar shapes; noticing a shape after the fact does not establish an implementable predictive rule. A proper test specifies the rule in advance, uses data not employed in its construction, accounts for costs, and compares appropriately matched risk. SPIVA asks a different question about actual funds and benchmarks. Its results do not measure the performance of every possible dartboard portfolio. Keeping illustration, statistical testing, and real portfolio construction separate preserves Malkiel's educational point without overstating what the analogy proves.
 
 ### Buffett's "Superinvestors of Graham-and-Doddsville"
 
-The most prominent challenge to Malkiel's thesis came from Warren
-Buffett in his 1984 lecture at Columbia Business School, "The
-Superinvestors of Graham-and-Doddsville." Buffett presented the
-records of nine successful value investors who shared a common
-intellectual origin -- Benjamin Graham and David Dodd's value investing
-framework. He argued that the concentration of outperformers in this
-one "village" could not be explained by random chance. If
-outperformance were a coin flip, Buffett argued, the winners would be
-scattered randomly across all investment approaches, not clustered
-among Graham-and-Dodd disciples. The implication is that value
-investing constitutes a genuine edge that contradicts the semi-strong
-form of the efficient market hypothesis.
+Buffett's 1984 Superinvestors essay challenges the idea that all sustained outperformance is merely luck. He presents investors associated with the Graham-and-Dodd approach and emphasizes that they had been identified before the records under discussion, rather than selected retrospectively from thousands of winners. The method is a comparison of investment records linked to a common intellectual process, not a randomized experiment. Buffett's argument is that the clustering of successful practitioners warrants investigation of the process itself: buying businesses at prices meaningfully below conservatively assessed value. This is important counterevidence to an overly strong dismissal of active investing. Its interpretation still requires examining risk, selection, capacity, and whether a later investor can reproduce or access the process. The essay does not prove that every low-valuation stock or self-described value manager will outperform.
 
-Malkiel's response, articulated in both the book and his 2003 JEP
-paper, is measured. He does not deny that some investors have
-outperformed, nor that value investing has produced excess returns in
-certain periods. His argument is that the number of consistent
-outperformers is small relative to the total population of active
-managers, that their outperformance may partly reflect risk factors not
-captured by standard models (small-cap and value tilts carry
-systematic risk), and that identifying them in advance -- before their
-track records exist -- remains impossible for ordinary investors.
-Buffett himself has recommended index funds for most investors,
-acknowledging that the approach that works for him is not accessible
-to the majority. This partial convergence -- Buffett concedes indexing
-for most, Malkiel concedes that skilled value investors exist --
-defines the practical middle ground.
+Malkiel's published abstract for his 2003 review concludes that markets are more efficient and less predictable than many critics suggest; his 2023 interview also explicitly allows pricing errors while emphasizing how difficult they are to exploit. These positions need not deny every instance of skill. Buffett's own 2013 shareholder letter recommends low costs and describes instructions for his wife's trustee to use a low-cost S&P 500 fund alongside short-term government bonds. That recommendation is not a universal allocation for every household; it demonstrates a distinction between Buffett's own capabilities and a sensible policy for a different decision-maker. The analytical middle ground is to demand evidence for an active edge without assuming that the absence of such an edge for most investors proves it cannot exist for anyone.
 
 ### Behavioral Finance and Market Anomalies
 
-Robert Shiller's research, which earned him the 2013 Nobel Prize in
-Economics, provides the most substantive academic challenge to the
-efficient market hypothesis. In his 2003 paper "From Efficient Markets
-Theory to Behavioral Finance," Shiller documented the intellectual
-trajectory from efficient markets dominance in the 1970s to the
-behavioral finance revolution of the 1990s and 2000s. The key evidence
-is excess volatility: aggregate stock market prices fluctuate far more
-than can be explained by changes in underlying fundamentals (dividends
-and earnings). If markets were efficient, prices should move only when
-fundamentals change. Shiller showed that market-wide price swings are
-too large to be rational responses to new information, implying that
-psychological and social factors -- herd behavior, feedback loops,
-speculative bubbles -- drive a substantial component of price
-movement.
+Shiller's 2003 review presents excess-volatility research as a major challenge to standard efficient-market interpretations. The method compares observed prices with present values implied by dividend information under specified discount-rate models and examines alternative assumptions about dividends, interest rates, and consumption. He finds that these models have difficulty explaining the scale of aggregate stock-price movements and develops behavioral explanations involving feedback and limits to arbitrage. The conclusion is model-dependent: efficiency tests also test assumptions about expected returns and discounting. Rational changes in risk premiums can move prices even without an immediate change in reported dividends or earnings. It is therefore too strong to say that all volatility unexplained by current cash flows proves irrationality. The contribution is a structured empirical challenge, with responses and limitations, rather than a model-free theorem that psychology explains every market fluctuation.
 
 Shiller and other behavioral finance researchers documented specific
 anomalies that appear to contradict market efficiency: the January
@@ -376,24 +272,7 @@ most investors.
 
 ### The Cost Arithmetic
 
-A simple but powerful piece of evidence underlies Malkiel's argument:
-the mathematics of costs. All investors collectively own the entire
-market. Before costs, the average active investor must earn exactly
-the market return -- it is a zero-sum game relative to the index. After
-costs (management fees, trading costs, tax drag), the average active
-investor must underperform the index by the amount of those costs.
-Fund costs vary widely, but current asset-weighted averages illustrate
-the structural gap. Investment Company Institute data for 2024 put the
-average expense ratio at 0.05 percent for index equity mutual funds and
-0.64 percent for actively managed equity mutual funds. The differential
-compounds over time. As a simple illustration, reducing a 7 percent
-gross annual return to 6 percent for 30 years leaves terminal wealth
-about 24.5 percent lower. The result depends on the assumed gross return
-and fee difference; the principle that costs reduce investor returns
-does not depend on market efficiency.
-Even if some active managers possess genuine skill, the aggregate
-cannot overcome the cost drag, and identifying the skilled minority in
-advance remains unsolved.
+Sharpe's 1991 cost arithmetic supports the practical case for indexing independently of perfect market efficiency. First define a market and a passive portfolio holding that market in its capitalization weights. Before costs, the average actively managed dollar must then earn the same return as the passive dollar; if active management costs more, its aggregate net return is lower. This is asset-weighted arithmetic, not a claim about the median manager or every institutional subset. A subset can outperform other active participants, and a different benchmark can produce a different comparison. ICI's 2025 Fact Book reports 2024 asset-weighted expense ratios of 0.05 percent for index equity mutual funds and 0.64 percent for actively managed equity mutual funds. As a separate illustration, reducing a constant 7 percent annual return to 6 percent for 30 years leaves terminal wealth about 24.5 percent lower. That calculation assumes the stated fixed returns and is not a forecast. The cost principle remains valid without guaranteeing an index fund's absolute return.
 
 ## Implications
 
@@ -431,21 +310,7 @@ walk thesis.
 
 ### For the Asset Management Industry
 
-Malkiel's argument has reshaped the asset management industry. The
-growth of passive investing from negligible assets in 1973 to
-trillions of dollars in the 2020s represents one of the largest shifts
-in financial market structure in history. Active managers face
-sustained outflows, fee compression, and pressure to justify their cost
-structure. The industry has responded in several ways: launching
-"smart beta" and factor-based products that attempt to capture
-documented anomalies at lower cost than traditional active management,
-offering active ETFs with lower fees than mutual funds, and emphasizing
-niche strategies in less efficient market segments (small-cap,
-emerging markets, alternative assets). Malkiel himself notes that if
-any segment of the market might reward active management, it would be
-the least efficient -- but the evidence from emerging markets shows
-active managers underperforming there too, if anything more severely
-than in developed markets.
+ICI documents a substantial shift toward index funds and lower fund expenses, consistent with the practical influence of arguments such as Malkiel's. Nevertheless, the active/passive distinction does not by itself determine a product's costs or objectives. An active ETF can have a different fee structure from an active mutual fund, and a specialized index can carry risks unlike a broad market portfolio. The industry implication is to compare actual mandates, implementation, and charges rather than assume one label guarantees quality. Cremers and colleagues find particularly important benchmark and weighting effects in fixed-income comparisons, reinforcing the need to avoid generalizing U.S. equity statistics to every asset class. For the reader of Malkiel's book, the useful question is what additional service or demonstrable capability justifies the cost of departing from a suitable low-cost baseline. This preserves the burden of proof on active management without replacing analysis with a product label.
 
 The shift toward passive investing raises structural questions that
 Malkiel's book does not fully resolve. If a majority of market
@@ -471,9 +336,10 @@ need for participants to select among many individual options, although
 target-date funds may themselves use active, index, or blended
 underlying strategies. Fee disclosure rules support cost comparison.
 The Department of Labor's 2024 Retirement Security Rule is not a current
-example: federal courts vacated it, and in March 2026 the Department
-restored the longstanding five-part test for determining investment-
-advice fiduciary status.
+example: federal courts vacated it, and the Department published a notice of
+court vacatur on March 20, 2026, with its technical amendment effective
+April 20, 2026. The notice restores the longstanding five-part test
+rather than making the vacated rule an example of current policy.
 
 For institutional investors -- pension funds, endowments, sovereign
 wealth funds -- the implication is more nuanced. Large institutions
@@ -522,81 +388,18 @@ evidence has not definitively resolved.
 
 ## Sources
 
-1. Malkiel, B. G. (1973). "A Random Walk Down Wall Street: The
-   Time-Tested Strategy for Successful Investing." W.W. Norton &
-   Company. (13th edition, 2023). Primary source -- the book itself.
-   [high]
-
-2. Malkiel, B. G. (2003). "The Efficient Market Hypothesis and Its
-   Critics." Journal of Economic Perspectives, 17(1), 59-82.
-   https://pubs.aeaweb.org/doi/10.1257/089533003321164958 [high]
-
-3. Fama, E. F. (1970). "Efficient Capital Markets: A Review of Theory
-   and Empirical Work." Journal of Finance, 25(2), 383-417. The
-   foundational paper defining the three forms of market efficiency.
-   [high]
-
-4. Shiller, R. J. (2003). "From Efficient Markets Theory to
-   Behavioral Finance." Journal of Economic Perspectives, 17(1),
-   83-104. https://www.sfu.ca/~kkasa/shiller.pdf [high]
-
-5. Buffett, W. E. (1984). "The Superinvestors of Graham-and-Doddsville."
-   Lecture at Columbia Business School.
-   https://business.columbia.edu/insights/chazen-global-insights/superinvestors-graham-and-doddsville
-   [high]
-
-6. S&P Dow Jones Indices. "SPIVA U.S. Year-End 2025 Scorecard." Annual
-   report on active funds versus their benchmarks.
-   https://www.spglobal.com/spdji/en/spiva/article/spiva-us/ [high]
-
-7. S&P Dow Jones Indices. "U.S. Persistence Scorecard Year-End 2025."
-   Tests whether active funds that outperform in one period continue to
-   outperform in later periods.
-   https://www.spglobal.com/spdji/en/spiva/article/us-persistence-scorecard/ [high]
-
-8. CNBC (2023). "Burton Malkiel on why his classic investment book, A
-   Random Walk Down Wall Street, is relevant 50 years later."
-   Interview with Malkiel on the 50th anniversary edition.
-   https://www.cnbc.com/2023/01/06/malkiels-random-walk-down-wall-street-stays-relevant-50-years-later.html
-   [medium]
-
-9. Wealth Management (2023). "Random Walk's Malkiel Says Case for Index
-   Funds Is Stronger Than Ever." Interview on SPIVA data and the
-   growing case for passive investing.
-   https://wealthmanagement.com/etfs/random-walk-s-malkiel-says-case-index-funds-stronger-ever
-   [medium]
-
-10. IFA.com. "Active Fund Managers vs. Indexes: Analyzing SPIVA
-    Scorecards." Summary of SPIVA findings on active fund
-    underperformance over 15- and 20-year periods.
-    https://www.ifa.com/articles/spiva-report-active-vs-passive [medium]
-
-11. Cremers, K. J. M., Fulkerson, J. A., & Riley, T. B. (2026). "How
-    the SPIVA U.S. Scorecard Understates the Performance of Actively
-    Managed Mutual Funds." SSRN working paper; research supported by
-    the Investment Adviser Association's Active Managers Council.
-    https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6710358 [high]
-
-12. Investment Company Institute. (2026). "Trends in the Expenses and
-    Fees of Funds, 2025." Current fee data and long-term index-fund
-    asset shares. https://www.ici.org/system/files/2026-03/per32-01.pdf
-    [high]
-
-13. U.S. Department of Labor. (2026). "US Department of Labor Restores
-    Long-Standing Investment Advice Rule After Pair of Court Decisions
-    Vacate 2024 Retirement Security Rule."
-    https://www.dol.gov/newsroom/releases/ebsa/ebsa20260318 [high]
-
-14. CalPERS. (2025). "Global Public Equity Annual Program Review."
-    Portfolio allocation and active-management performance through
-    June 30, 2025.
-    https://www.calpers.ca.gov/documents/202509-invest-agenda-item05e-01-a/download?inline=
-    [high]
-
-15. Investment Company Institute. (2025). "2025 Investment Company
-    Fact Book: Chapter 6 -- US Fund Expenses and Fees." Reports 2024
-    active-versus-index expense ratios and index-fund asset shares.
-    https://icifactbook.org/pdf/2025-factbook-ch6.pdf [high]
+1. Malkiel, B. G. A Random Walk Down Wall Street. W.W. Norton & Company, first published 1973; 13th edition, 2023. Book discussed; the author's anniversary interview below supplies his direct explanation of its practical thesis. [high]
+2. Malkiel, B. G. (2003). "The Efficient Market Hypothesis and Its Critics." Journal of Economic Perspectives, 17(1), 59-82. Published abstract. https://www.aeaweb.org/articles?id=10.1257/089533003321164958 [high]
+3. Jones, S. L., & Netter, J. M. "Efficient Capital Markets." The Concise Encyclopedia of Economics. Theory, historical development, forms of efficiency, and critiques. https://www.econlib.org/library/Enc/EfficientCapitalMarkets.html [high]
+4. Shiller, R. J. (2003). "From Efficient Markets Theory to Behavioral Finance." Journal of Economic Perspectives, 17(1), 83-104. https://www.sfu.ca/~kkasa/shiller.pdf [high]
+5. Buffett, W. E. (1984). "The Superinvestors of Graham-and-Doddsville." Columbia Business School. https://business.columbia.edu/insights/chazen-global-insights/superinvestors-graham-and-doddsville [high]
+6. Sharpe, W. F. (1991). "The Arithmetic of Active Management." Financial Analysts Journal, 47(1), 7-9. Author-hosted text. https://web.stanford.edu/~wfsharpe/art/active/active.htm [high]
+7. Buffett, W. E. Berkshire Hathaway 2013 shareholder letter, investment discussion. https://www.berkshirehathaway.com/letters/2013ltr.pdf [high]
+8. Pisani, B. (2023). Interview with Burton Malkiel on the fiftieth anniversary of A Random Walk Down Wall Street. CNBC. https://www.cnbc.com/2023/01/06/malkiels-random-walk-down-wall-street-stays-relevant-50-years-later.html [high]
+9. Cremers, K. J. M., Fulkerson, J. A., & Riley, T. B. (2026). "How the SPIVA U.S. Scorecard Understates the Performance of Actively Managed Mutual Funds." May 4 working paper, supported by the Investment Adviser Association's Active Managers Council. https://www.investmentadviser.org/wp-content/uploads/2026/05/ssrn-6710358.pdf [high]
+10. U.S. Department of Labor. (2026). "Retirement Security Rule: Definition of an Investment Advice Fiduciary: Notice of Court Vacatur." Federal Register, March 20; technical amendment effective April 20. https://www.federalregister.gov/documents/2026/03/20/2026-05492/retirement-security-rule-definition-of-an-investment-advice-fiduciary-notice-of-court-vacatur [high]
+11. CalPERS. (2025). "Global Public Equity Annual Program Review." Portfolio allocation and performance through June 30, 2025. https://www.calpers.ca.gov/documents/202509-invest-agenda-item05e-01-a/download?inline= [high]
+12. Investment Company Institute. (2025). "2025 Investment Company Fact Book: Chapter 6 -- US Fund Expenses and Fees." 2024 expense ratios and index-fund asset shares. https://icifactbook.org/pdf/2025-factbook-ch6.pdf [high]
 
 ## See Also
 
