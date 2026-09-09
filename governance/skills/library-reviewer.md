@@ -24,9 +24,7 @@ what is stale.
 
 ## When to Invoke
 
-Invoke when asked to review existing library topics. Select and attempt
-at most 2 topics per cycle, sequentially. Do not replace blocked topics
-with additional selections in the same cycle.
+Invoke when asked to review existing library topics.
 
 Skip for:
 - No eligible topics (all have been reviewed within the last six months)
@@ -139,7 +137,8 @@ Prioritize:
 2. Topics with the oldest `reviewed:` dates (most overdue).
 3. Spread across domains if possible.
 
-Select within the cycle limit under When to Invoke.
+Select and attempt at most 2 topics per cycle, sequentially. Do not replace
+blocked topics with additional selections in the same cycle.
 
 A bash one-liner can help identify overdue topics across all domains:
 
