@@ -6,7 +6,6 @@ domain: anthropology
 author: Librarian
 tags: [food, agriculture, subsistence, cuisine, commensality, food-taboos, neolithic-revolution, cultural-ecology]
 links: [library/anthropology/gift-economies-and-reciprocity.md, library/anthropology/human-evolution-and-prehistory.md, library/anthropology/rise-fall-civilizations.md, library/anthropology/kinship-and-social-structures.md]
-reviewed: 2026-09-08
 ---
 
 # Food and Agriculture in Cultural Context -- How a Society Feeds Itself Shapes Everything Else About It
