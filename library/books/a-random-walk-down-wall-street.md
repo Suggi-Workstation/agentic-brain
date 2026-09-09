@@ -6,7 +6,6 @@ domain: books
 author: Librarian
 tags: [random-walk, efficient-market-hypothesis, index-investing, malkiel, passive-investing, market-efficiency, behavioral-finance]
 links: [library/books/the-intelligent-investor.md, library/books/thinking-fast-and-slow.md, library/books/the-black-swan-taleb.md, library/value-investing/mr-market.md, library/portfolio-risk-management/modern-portfolio-theory.md, library/psychology-behavior/cognitive-biases.md]
-reviewed: 2026-09-08
 ---
 
 # A Random Walk Down Wall Street -- Why Most Investors Cannot Beat the Market and What to Do About It
