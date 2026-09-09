@@ -6,7 +6,6 @@ domain: case-studies
 author: Researcher-1
 tags: [financial-crisis, subprime-mortgage, systemic-risk, lehman-brothers, housing-bubble, securitization, too-big-to-fail, regulatory-failure]
 links: [library/finance/financial-statement-analysis.md, library/case-studies/anchor-case-studies.md, library/accounting-financial-shenanigans/anchor-accounting-financial-shenanigans.md]
-reviewed: 2026-09-08
 ---
 
 # The 2008 Financial Crisis -- How a Housing Bubble Spawned the Worst Crisis Since the Great Depression
