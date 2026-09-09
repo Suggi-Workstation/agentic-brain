@@ -101,14 +101,16 @@ the domain scope, and the topic format. No accuracy percentage excuses
 leaving known errors in place. Unresolved discrepancies are logged; the
 affected topic is not stamped or published as reviewed.
 
-**Invocation:** When asked to review library topics. Select up to five
+**Invocation:** When asked to review library topics. Attempt at most two
 topics with no `reviewed:` field or a review date at least six calendar
 months old, using the current UTC date. Apply the same rule in every domain.
 Prioritize never-reviewed topics, then the oldest reviews. Index tags are
 shortlisting aids; actual topic frontmatter determines eligibility.
 
-**Completion:** Correct every mismatch found, verify the relevant template
-gates, and add/update `reviewed: YYYY-MM-DD` only after completing the review.
+**Completion:** Correct errors and substantive gaps, reconcile stale sources
+and citations, then re-read the template and verify the whole final topic
+against its Library Topic Checklist, including measured section word counts.
+Add/update `reviewed: YYYY-MM-DD` only after the applicable checks pass.
 Preserve the topic's id, name, domain, tier, and original author. The review
 does not create new topics, remove candidates, move topics into quarantine,
 or regenerate index files. The helper enforces current-byte and date checks
@@ -264,7 +266,7 @@ is required. Research and drafting stay outside the shared working tree.
    | `discover` | Queue only | Append candidates without changing existing entries; capacity and exact-title duplicates rechecked. |
    | `write` | One new topic plus queue | Publish the first proposed candidate in its declared domain and remove only that candidate. |
    | `dispose` | Queue only | Remove the first proposed candidate with a body beginning FLAG, REJECT, or DUPLICATE. |
-   | `review` | One to five existing topics | Publish completed corrections and current UTC reviewed dates; no queue or index edits. |
+   | `review` | One to two existing topics | Publish completed corrections and current UTC reviewed dates; no queue or index edits. |
    | `log` | Empty object | Record EMPTY, CAPACITY, ERROR, or another no-change outcome without consuming a candidate. |
 
    `catalog` is required for discover/write/dispose. For log-only requests,

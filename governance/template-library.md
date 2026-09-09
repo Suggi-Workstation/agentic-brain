@@ -364,7 +364,10 @@ and preserves the required structure during rewrites.
 | Content after See Also | Additional text, notes, or references appended after `## See Also`. | `## See Also` MUST be the final section. No content may follow. |
 | Cross-references to non-existent files | Linking to a file the agent assumed exists but never verified with `ls` in the clone. | Verify every cross-referenced path with `ls <path>` in the brain clone before committing. Do not assume a file exists because it is mentioned in a domain anchor or candidate description. |
 
-## Example -- Minimal Valid Topic
+## Example -- Abbreviated Structural Example
+
+Illustrates structure only; it does not meet the word minimums and is not
+a complete topic for publication.
 
 ```markdown
 ---

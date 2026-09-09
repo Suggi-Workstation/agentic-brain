@@ -296,6 +296,42 @@ class PublisherTests(unittest.TestCase):
         repeated = self.run_request(request)
         self.assertNotEqual(repeated.returncode, 0)
 
+    def test_review_batch_limit_rejects_three_and_accepts_two(self):
+        self.assertEqual(self.run_request(self.prepare_write()).returncode, 0)
+        base = (self.repo / "library/science/fixture-topic.md").read_text()
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        expected, writes, originals = {}, {}, {}
+        for index in range(3):
+            slug = f"review-fixture-{index}"
+            path = f"library/science/{slug}.md"
+            original = base.replace("name: fixture-topic", f"name: {slug}")
+            (self.repo / path).write_text(original, encoding="ascii")
+            originals[path] = original
+            expected[path] = hashlib.sha256(original.encode("ascii")).hexdigest()
+            draft = self.root / f"{slug}.md"
+            draft.write_text(original.replace("\n---\n", f"\nreviewed: {today}\n---\n", 1), encoding="ascii")
+            writes[path] = str(draft)
+        git(self.repo, "add", *originals)
+        git(self.repo, "commit", "-qm", "fixture review batch")
+        before = git(self.repo, "rev-parse", "HEAD")
+        old_log = (self.repo / "logbook/library.log").read_bytes()
+        request = self.request(kind="review", expected=expected, writes=writes,
+                               log={"ref": next(iter(writes)), "body": "Review cycle: fixture batch.\n"})
+        rejected = self.run_request(request)
+        self.assertNotEqual(rejected.returncode, 0)
+        self.assertIn("one to two", rejected.stderr)
+        self.assertEqual(git(self.repo, "rev-parse", "HEAD"), before)
+        self.assertEqual((self.repo / "logbook/library.log").read_bytes(), old_log)
+        self.assertEqual(git(self.repo, "status", "--porcelain"), "")
+        omitted = next(reversed(writes))
+        del writes[omitted]
+        del expected[omitted]
+        accepted = self.run_request(request)
+        self.assertEqual(accepted.returncode, 0, accepted.stderr)
+        self.assertEqual(set(git(self.repo, "show", "--format=", "--name-only", "HEAD").splitlines()),
+                         set(writes) | {"logbook/library.log"})
+        self.assertEqual((self.repo / omitted).read_text(), originals[omitted])
+
     def test_deliberate_duplicate_disposition_removes_only_candidate_and_logs(self):
         request = self.prepare_write()
         request.update(kind="dispose", writes={"library/candidate-queue.md": request["writes"]["library/candidate-queue.md"]},

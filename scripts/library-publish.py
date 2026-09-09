@@ -175,8 +175,8 @@ def review_due(text, today=None):
 
 def validate_topics(repo, request, updates):
     topics = set(updates) - {"library/candidate-queue.md"}
-    if request["kind"] == "review" and (not 1 <= len(topics) <= 5 or len(topics) != len(updates)):
-        raise PublicationError("Review changes only one to five existing topics")
+    if request["kind"] == "review" and (not 1 <= len(topics) <= 2 or len(topics) != len(updates)):
+        raise PublicationError("Review changes only one to two existing topics")
     for name in topics:
         meta = frontmatter(updates[name].decode("ascii"))
         required = {"name", "id", "tier", "domain", "author", "tags", "links"}

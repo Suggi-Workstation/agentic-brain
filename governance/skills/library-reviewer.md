@@ -24,9 +24,9 @@ what is stale.
 
 ## When to Invoke
 
-Invoke when asked to review existing library topics. Each cycle
-picks up to 5 topics that are overdue for review and processes them
-sequentially.
+Invoke when asked to review existing library topics. Select and attempt
+at most 2 topics per cycle, sequentially. Do not replace blocked topics
+with additional selections in the same cycle.
 
 Skip for:
 - No eligible topics (all have been reviewed within the last six months)
@@ -75,12 +75,12 @@ permission to invent a replacement date.
 ## Accuracy Requirement
 
 Read the complete topic and verify its claims against current sources.
-Correct every identified factual mismatch, outdated claim, and broken source
-reference. There is no percentage allowance for leaving known errors in place.
+Correct every identified factual mismatch, outdated claim, broken source
+reference, and substantive gap. There is no percentage allowance for leaving
+known errors in place.
 Preserve correct material and the topic's scope; do not make cosmetic rewrites.
 If evidence cannot resolve a discrepancy, record ERROR and do not stamp or
-publish that topic as reviewed. A completed review either found no mismatch
-or corrected every mismatch found.
+publish that topic as reviewed. Complete the template checklist before stamping.
 
 ## Final Self-Check -- HARD GATE
 
@@ -90,17 +90,16 @@ sub-checklists, no section summaries. Each item maps to a procedure
 step or a library guide rule. HALT on any failure; fix before
 committing.
 
-- [ ] Procedure completed: read index, select overdue topics, read template, review each topic, verify sources, rewrite if needed, stamp reviewed date, log, commit (PASS / HALT)
-- [ ] Template read before reviewing: `template-library.md` opened in step 4 and used as format reference for any rewrites (PASS / HALT)
+- [ ] Procedure completed: read index, select within cycle limit, read template, research each topic, correct errors and gaps, re-read template, verify checklist, stamp reviewed date, log, commit (PASS / HALT)
+- [ ] Template read in full before reviewing and re-read before final checklist verification (PASS / HALT)
 - [ ] Topics selected have no reviewed date or are at least six calendar months past review; actual frontmatter checked, not only index tags (PASS / HALT)
 - [ ] Each topic read in full before web-searching (PASS / HALT)
-- [ ] Web search conducted for each topic to verify key claims against current sources (PASS / HALT)
-- [ ] Every identified mismatch corrected; unresolved topics logged and excluded from review stamps/publication (PASS / HALT)
-- [ ] If stale: rewritten sections preserve the template's body structure (Background, Core Concepts, Evidence, Implications, Sources, See Also) (PASS / HALT)
-- [ ] If stale: Sources section updated with current URLs; broken links replaced (PASS / HALT)
-- [ ] If stale: rewritten content is ASCII-only (PASS / HALT)
+- [ ] Independent web search conducted; existing sources and new findings checked against the topic's claims (PASS / HALT)
+- [ ] Every identified mismatch and substantive gap resolved; incomplete topics logged and excluded from review stamps/publication (PASS / HALT)
+- [ ] Stale, superseded, incorrect, duplicate, or unused sources removed or replaced; affected citations reconciled throughout the topic (PASS / HALT)
+- [ ] Whole final topic passes the Library Topic Checklist, including measured section word counts; creation-only actions excluded as specified below (PASS / HALT)
 - [ ] `reviewed: <YYYY-MM-DD>` added or updated in frontmatter of each reviewed topic (PASS / HALT)
-- [ ] No topic content changed beyond what was needed for accuracy (no cosmetic rewrites) (PASS / HALT)
+- [ ] Changes limited to accuracy, substantive completeness, and template compliance; no padding or cosmetic rewrites (PASS / HALT)
 - [ ] Logbook entry written to logbook/library.log (PASS / HALT)
 - [ ] Logbook entry format: each data field on its own line, matching the step 8 example (PASS / HALT)
 - [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous (PASS / HALT)
@@ -138,11 +137,9 @@ Prioritize:
 1. Topics with `[reviewed: never]` (never reviewed -- highest
    priority).
 2. Topics with the oldest `reviewed:` dates (most overdue).
-3. Spread across domains if possible (do not review 5 topics from
-   the same domain in one cycle unless that domain has the most
-   overdue topics).
+3. Spread across domains if possible.
 
-Select up to 5 topics for this cycle.
+Select within the cycle limit under When to Invoke.
 
 A bash one-liner can help identify overdue topics across all domains:
 
@@ -156,16 +153,13 @@ done
 ```
 
 The index files show a reviewed tag on every topic line. Apply the uniform
-eligibility rule and actual source-date check. Pick up to 5 eligible topics
-across domains. If none qualify, publish a log-only no-op outcome and exit.
+eligibility rule and actual source-date check. If none qualify, publish a
+log-only no-op outcome and exit.
 
 ### 4. Read the library template
 
-Read `governance/template-library.md` before reviewing. This is the
-format specification for library topics. Any rewrites MUST preserve
-the template's body structure (Background, Core Concepts, Evidence,
-Implications, Sources, See Also) and follow the same formatting
-rules (ASCII-only, lowercase slugs, hyphens, authority-rated sources).
+Read `governance/template-library.md` in full before reviewing. Follow its
+format specification and Library Topic Checklist throughout the review.
 
 ### 5. Review each topic
 
@@ -176,37 +170,53 @@ For each selected topic, in order:
 the Sources section, and the body structure. Read its full domain anchor
 before preparing corrections. Preserve the original topic identity/author.
 
-**5b. Web-search to verify.** Search for the topic's key claims to
-check if they are still accurate. Focus on:
+**5b. Research and verify.** Perform independent web searches for the
+topic. Read its existing sources and relevant new sources; compare their
+actual findings with the topic's claims. Check:
 - Core factual claims (numbers, dates, study results, named
   entities).
-- Sources -- do the URLs still work? Has the source been updated?
+- Sources -- do they support the attributed claims? Are they current,
+  accessible, and correctly identified?
 - Any time-sensitive claims (current events, market data, technology
   specifics, regulatory references).
 
-**5c. Identify mismatches.** List the claims and references that do not
-match verified evidence. If none are found, proceed to step 6. Otherwise
-correct them in step 5d. Unresolved evidence, unavailable sources, or a
+**5c. Identify errors and gaps.** Check every section for factual errors,
+unsupported claims, missing concepts, examples, evidence, and applications
+within the topic's scope. Compare depth and completeness with the template.
+If none are found, still complete step 6. Otherwise correct them in step 5d.
+Unresolved evidence, unavailable sources, or a
 required change outside the topic's scope prevents a completed review;
 record ERROR and leave that topic and its reviewed date unchanged.
 
-**5d. Correct mismatches (if any).** Prepare corrections in a temporary
+**5d. Correct errors and fill gaps.** Prepare corrections in a temporary
 draft, not the live topic file:
-- Rewrite only the sections that contain inaccurate or outdated
-  claims. Do not rewrite the entire topic -- patch the stale parts.
+- Patch inaccurate, outdated, incomplete, or noncompliant sections.
+  Preserve correct material; add substantive detail, not padding.
 - Preserve the template's body structure. Do not add or remove
   `##` section headings unless the content requires a new section
   that did not exist before.
-- Update the Sources section: replace dead URLs with working ones,
-  add new sources if new evidence is available, keep sources that
-  are still valid.
+- Remove or replace stale, superseded, incorrect, duplicate, or unused
+  sources. Update or remove their citations throughout the text. Keep valid
+  sources that still support retained claims; age alone does not invalidate
+  a historical source. Add relevant verified sources for new material.
 - All rewritten content MUST be ASCII-only.
 - All new factual claims MUST trace to a source in the Sources
   section (G3 from the template).
 - New sources MUST include authority ratings [high], [medium], or
   [low] (G4 from the template).
 
-### 6. Stamp the reviewed date
+### 6. Re-read the template and verify its checklist
+
+Re-read `governance/template-library.md` in full. Verify the entire final
+draft, including unchanged sections, against its Library Topic Checklist.
+Run the section word-count check and verify every content, source, format,
+and cross-reference requirement. Keep the original ID and author; do not
+repeat creation-only actions (new ID, initial omission of `reviewed`, or
+candidate selection/scoring). Fix failures and recheck the final draft.
+If any applicable item remains unconfirmed, record ERROR and do not stamp
+or publish that topic as reviewed. Do not put the checklist in the topic.
+
+### 7. Stamp the reviewed date
 
 For each completed review, add or update `reviewed:` in the draft's
 frontmatter. Use today's UTC date in `YYYY-MM-DD` format. Do not stamp
@@ -228,14 +238,6 @@ reviewed: 2026-08-25
 
 If `reviewed:` already exists (from a prior review), update the date
 in place. Do not add a second `reviewed:` line.
-
-### 7. Verify cross-references (if content changed)
-
-If any content was rewritten in step 5d, verify that all
-cross-references in `## See Also` and `links:` frontmatter still
-point to files that exist. If a rewrite removed a reference to a
-topic that no longer exists in the text, update the cross-reference
-list. Verify with `ls <path>` before committing.
 
 ### 8. Write logbook entry
 

@@ -51,11 +51,14 @@ topic similarity, and source credibility before writing. 4 dimensions:
 core match (0.35) + scope fit (0.35) + knowledge value (0.20) + source
 authority (0.10). Minimum threshold: 7.0/10.0.
 
-**2. Review process.** Selects up to five topics that have never been
+**2. Review process.** Attempts at most two topics that have never been
 reviewed or whose last review is at least six calendar months old, uniformly
 across domains. Reads each topic and its domain anchor in full, verifies
-claims against current sources, and corrects every identified mismatch.
-Accurate content is preserved. A completed review stamps `reviewed:` with
+claims against existing and independently researched sources, corrects errors
+and substantive gaps, and reconciles stale sources and citations. Re-reads
+the template and verifies the whole final topic against its checklist,
+including measured section word counts. Accurate content is preserved.
+A completed review stamps `reviewed:` with
 the UTC date; unresolved discrepancies prevent that topic's publication
 and review stamp. No accuracy percentage permits known errors to remain.
 Review does not regenerate indexes or consume queue candidates.
