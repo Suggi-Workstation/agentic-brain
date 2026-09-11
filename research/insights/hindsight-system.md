@@ -152,6 +152,8 @@ The native personal configuration currently uses `local_external`, not `local_em
 
 Capture is enabled with `auto_retain: true`, `retain_async: true`, and `retain_every_n_turns: 1`. Current-question recall is enabled with `auto_recall: true`, `recall_sync: true`, `recall_prefetch_method: recall`, and `recall_types: observation,world,experience`. These last settings intentionally differ from the provider's previous-turn, observation-only defaults. They make newly extracted evidence eligible before it has become an observation.
 
+Use the native key `recall_prefetch_method`, not the stale `prefetch_method` spelling in the external integration guide. Automatic injection remains Recall; Reflect stays a deliberate personal or shared tool call. The native [provider reference](https://github.com/NousResearch/hermes-agent/blob/0b8daf30aae1d0b129ede9b857cac2158eb50324/plugins/memory/hindsight/README.md) governs these client settings.
+
 The inspected recall budget is `mid`; `recall_max_tokens` is 4096 and `recall_max_input_chars` is 800. The latter limits the *query sent to automatic recall*, not stored source text. A decisive topic late in a long user message may therefore need an explicit, focused recall. A fact-text budget is also not a guarantee that an MCP JSON envelope, provenance, or legacy metadata fits the same size.
 
 `observation_scopes: shared` allows consolidation across session tags inside a bank. Source facts still carry session provenance. A strict tag filter can intentionally exclude untagged global observations, so lack of a tagged observation is not necessarily failed storage. The setting must never be explained as an instruction to share personal content with `core-shared`.
@@ -183,7 +185,7 @@ There is a documentation qualification here. General Hermes prose advertises ful
 | Embedder | `BAAI/bge-small-en-v1.5`, local CPU provider | Converts queries and evidence to the same English-oriented vector space |
 | Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2`, local CPU provider | Scores query/candidate pairs after candidate retrieval |
 | Retain extraction | `openai-codex`, `gpt-5.6-luna`, `high` | Extracts structured facts and their framing from retained text |
-| Observation consolidation | `gpt-5.6-terra`, `medium` | Refines observations and adjudicates near-duplicate reconciliation |
+| Observation consolidation | `gpt-5.6-terra`, `high` | Refines observations and adjudicates near-duplicate reconciliation |
 | Reflect and generated-page/model synthesis | `gpt-5.6-terra`, `high` | Reasons across retrieved evidence and writes the requested answer/document |
 
 The embedder and reranker load in the long-lived Hindsight process and reuse disk caches and resident models. They are not reloaded for each ordinary Hermes turn. A separate embedding daemon was therefore unnecessary. The existing `brain-embed.service` continues to serve repository search; it is neither Hindsight's memory server nor a protocol-compatible substitute merely because it also produces embeddings.
