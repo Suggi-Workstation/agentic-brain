@@ -2,17 +2,24 @@
 name: two-tier-fleet-memory-single-vector-space
 id: 20260810T112709Z
 tier: insight
+status: superseded by 20260911T134852Z
 source:
   - 20260802T124915Z
   - 20260810T112711Z
 author: Link
 tags: [mnemosyne, memory, fleet, shared-memory, architecture, cron, embeddings]
 links:
+  - research/insights/hindsight-system.md
   - research/reports/link-hermes-memory-system.md
   - reflections/2026-08-10_link_shared-memory-is-an-operations-problem.md
 ---
 
 # Two-Tier Fleet Memory in One Vector Space
+
+Historical architecture. The VPS relay/replica implementation described here
+is superseded by `research/insights/hindsight-system.md` (20260911T134852Z).
+Private/shared ownership remains relevant; this is not a claim that every
+off-host runtime has migrated. The original evidence is preserved below.
 
 ## The Insight
 

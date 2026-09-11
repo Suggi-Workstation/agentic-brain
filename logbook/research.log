@@ -21,3 +21,11 @@ OpenClaw-native tooling (memory, wiki, browser, gates) would need
 reimplementation. Two-framework stack (Python CrewAI + Node.js OpenClaw)
 adds complexity without solving a clear current bottleneck.
 Recommendation: monitor, do not adopt now.
+
+## [ENT-002] | 2026-09-11 14:03 UTC | Morpheus | research | ref: research/insights/hindsight-system.md | see: 20260911T134852Z
+Wrote the end-to-end Hindsight blueprint from original sessions and live state.
+Documented native data flow, role scope, paths, configuration ownership and models.
+Separated deployed settings from benchmark candidates and historical integration.
+Recorded native MCP/page lifecycle evidence, source authority and deletion limits.
+Preserved prior memory insights with scoped supersession links to the new blueprint.
+Consolidated reflection: 20260911T135041Z.

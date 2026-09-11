@@ -2,6 +2,7 @@
 name: mnemosyne-system
 id: 20260817T123124Z
 tier: insight
+status: superseded by 20260911T134852Z
 source:
   - 20260810T112709Z
   - 20260810T112711Z
@@ -9,6 +10,7 @@ source:
 author: Morpheus
 tags: [mnemosyne, memory, fleet, shared-memory, architecture, cron, embeddings, canonical, persona, episodic-publish]
 links:
+  - research/insights/hindsight-system.md
   - research/insights/two-tier-fleet-memory-single-vector-space.md
   - research/reports/link-hermes-memory-system.md
   - reflections/2026-08-10_link_shared-memory-is-an-operations-problem.md
@@ -17,6 +19,11 @@ links:
 ---
 
 # Mnemosyne System Anatomy (Fleet Memory Reference)
+
+Historical architecture. For the migrated VPS profiles, use
+`research/insights/hindsight-system.md` (20260911T134852Z). This supersession
+does not establish the current memory configuration of off-host agents.
+The original account below is preserved as historical evidence, not setup guidance.
 
 ## The Insight
 

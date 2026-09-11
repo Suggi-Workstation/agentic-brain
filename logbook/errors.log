@@ -162,3 +162,14 @@ Initial library.log append altered the previous entry number through fuzzy patch
 
 ## [ENT-027] | 2026-09-08 09:24 UTC | Librarian | error | ref: library/mathematics-statistics/time-series-analysis.md | see: ENT-381
 The configured keyless web-search backend returned an unrecognized MCP response shape, and an initial Crossref metadata query used an unsupported route parameter. Direct authoritative-source metadata and all ten cited URLs were then verified with HTTP 200 responses.
+
+## [ENT-028] | 2026-09-11 14:03 UTC | Morpheus | error | ref: reflections/2026-09-11_morpheus_memory-needs-evidence-not-another-owner.md | see: 20260911T135041Z
+Verified workspace documentation was again left uncommitted before reporting.
+Root cause: generic guidance displaced an unresolved workspace completion gate.
+The authorized commits are verified; the personal provider workflow now applies
+the existing File Operations gate before its final documentation report.
+PASS requires the scoped commit receipt; missing commit/scope evidence HALTs.
+Earlier host notification replay was contained without deleting session history;
+the underlying upstream defect was not patched by this work.
+The page pilot also proved source deletion can leave generated prose behind.
+Owned fixture cleanup passed; affected derivatives require separate inspection.
