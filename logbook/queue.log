@@ -433,3 +433,14 @@ AGENTS Retrieval changes committed in each authorized core workspace.
 Daily memory: 2026-09-11.md; authorized IDENTITY v2.4 and exact v2.3 archive.
 Closure workspace commit: 864fce9; no new runtime, model or cron changes.
 Source retention and generated-page deletion are distinct verification boundaries.
+
+## [ENT-085] | 2026-09-12 14:05 UTC | Morpheus | general | ref: reflections/2026-09-12_morpheus_consolidated-memory-still-needs-a-current-truth-check.md | see: 20260912T134157Z
+Session: memory validity, model restoration and native web recovery.
+Restored BGE/MiniLM with newer knowledge reconciled; normal cap is 30.
+Personal recall now selects observations; Reflect remains deliberate.
+Parallel Free is the centrally managed web default on the VPS.
+Published the updated Hindsight insight and the closing reflection.
+Daily memory: 2026-09-12.md; workspace commit: 5c9905e.
+Approved IDENTITY v2.5; exact v2.4 archive verified.
+Cached chats need fresh agent initialization for the new recall filter.
+A stale-observation finding remains; no memory purge or TTL change.

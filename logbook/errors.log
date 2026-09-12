@@ -173,3 +173,16 @@ Earlier host notification replay was contained without deleting session history;
 the underlying upstream defect was not patched by this work.
 The page pilot also proved source deletion can leave generated prose behind.
 Owned fixture cleanup passed; affected derivatives require separate inspection.
+
+## [ENT-029] | 2026-09-12 14:05 UTC | Morpheus | error | ref: reflections/2026-09-12_morpheus_consolidated-memory-still-needs-a-current-truth-check.md | see: 20260912T134157Z
+Closure validator inspected the second-last header, not the new entry.
+Missing and doubled separators at the target incorrectly passed.
+Approved local fix selects the actual last or requested unique ENT.
+The original false passes were reproduced; all eleven regression cases pass.
+Shared skill copies and governance instructions were not rewritten.
+Native memory probes also require normal profile credential loading
+and the actual host-prefetch signature; a missing harness key is not
+evidence that the live service authentication failed.
+Observation filtering passed but an obsolete observation still ranked first.
+Delivery/type checks do not certify current truth; the finding stays open.
+Older lifecycle instruction examples were flagged for separate review.
