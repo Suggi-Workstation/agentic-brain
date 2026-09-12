@@ -28,7 +28,7 @@ links:
 | Link | Hermes (local PC) | none (local only) | Suggi's personal assistant |
 | Linkie | Hermes (laptop) | none (local only) | Suggi's personal assistant |
 | Morpheus | Hermes (VPS) | none (VPS only) | Manager of the VPS, personal assistant |
-| Neo | Hermes (VPS) | none (VPS only) | Experimental self-learning solo agent |
+| Neo | Hermes (VPS) | none (VPS only) | Suggi's personal Value Investing Partner and the fleet's Value-Investing Research Agent |
 | Atlas | Hermes (VPS) | none (VPS only) | Personal learning and idea development partner |
 
 Link and Linkie are local (PC, Laptop) assistants with Access to the VPS.
