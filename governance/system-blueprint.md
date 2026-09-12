@@ -34,8 +34,8 @@ links:
 Link and Linkie are local (PC, Laptop) assistants with Access to the VPS.
 Morpheus and Ava are independet managers of the VPS and help Suggi build and
 maintaing it.
-Neo is an independent solo main agent pursuing autonomous research through a 
-self-directed learning.
+Neo researches and values businesses under Suggi's direction; investment
+decisions and trade execution remain with Suggi.
 
 ## Cross-Repo Link Convention
 
@@ -78,7 +78,7 @@ https://github.com/Suggi-Workstation/agentic-brain - *the shared brain hub.*
 | `research/reports/` | Research reports are stored here. |
 | `research/insights/` | Insights are stored here. |
 | `logbook/` | The inter-agent event logbook -- append-only activity and error logs. |
-| `brain-index/` | Hybrid search tooling (indexer, query, eval); each agent builds its own index locally. |
+| `brain-index/` | Hybrid search tooling (indexer, query, eval); fleet profiles use the shared, watcher-maintained VPS index. |
 | `scripts/` | Repo maintenance scripts (hooks setup, ASCII sanitizer, ID validator, archivers). |
 
 ### library domains:
