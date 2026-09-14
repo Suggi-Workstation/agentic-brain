@@ -411,16 +411,13 @@ the opposite of what utility theory predicts.
 ### The Value Function
 
 Prospect Theory replaces the utility function with a value function
-that has three key properties:
-
-1. **Reference dependence:** Outcomes are evaluated as gains or losses
-   relative to a reference point, not in absolute terms.
-2. **Loss aversion:** The value function is steeper for losses than for
-   gains. A loss of $100 hurts roughly twice as much as a gain of $100
-   pleases.
-3. **Diminishing sensitivity:** Both gains and losses show diminishing
-   marginal impact. The difference between $0 and $100 feels larger
-   than the difference between $1,000 and $1,100.
+shaped by reference dependence, loss aversion, and diminishing
+sensitivity. Outcomes are evaluated as gains or losses relative to a
+reference point, not in absolute terms. The value function is steeper
+for losses than for gains: a loss of $100 hurts roughly twice as much
+as a gain of $100 pleases. Both gains and losses show diminishing
+marginal impact. The difference between $0 and $100 feels larger than
+the difference between $1,000 and $1,100.
 
 ### The Endowment Effect
 
