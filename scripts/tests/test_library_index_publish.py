@@ -4,6 +4,7 @@ import importlib.util
 import json
 import os
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -276,6 +277,25 @@ if {always!r} or attempt == 1:
         self.assertEqual(self.git(self.checkout, "status", "--porcelain"), "")
         self.assertEqual(len(self.git(self.checkout, "worktree", "list").splitlines()), 1)
 
+    def test_real_generator_clock_only_refresh_makes_no_commit(self):
+        subprocess.run([sys.executable, "-B", "scripts/index-library.py"],
+                       cwd=self.seed, env=self.env, check=True, capture_output=True)
+        master = self.seed / "library/index-library.md"
+        master.write_text(re.sub(r"^<!-- Regenerated [^\n]* -->$",
+                                 "<!-- Regenerated 2000-01-01 00:00 UTC -->",
+                                 master.read_text(), flags=re.M), encoding="ascii")
+        self.git(self.seed, "add", "library/index-library.md", "library/science/index-science.md")
+        self.git(self.seed, "commit", "-m", "current indexes with old generation timestamp")
+        self.git(self.seed, "push", "origin", "HEAD:main")
+        initial = self.git(self.remote, "rev-parse", "main")
+
+        result = self.cli(GITHUB_ACTIONS="true", GITHUB_WORKSPACE=str(self.checkout))
+
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("No index changes", result.stdout)
+        self.assertEqual(self.git(self.remote, "rev-parse", "main"), initial)
+        self.assertEqual(self.git(self.checkout, "status", "--porcelain"), "")
+
     def test_initial_dirty_checkout_is_refused_without_mutation(self):
         initial = self.git(self.remote, "rev-parse", "main")
         for kind in ("unstaged", "staged", "untracked"):
@@ -359,6 +379,15 @@ if {always!r} or attempt == 1:
 
 
 class IndexWorkflowTests(unittest.TestCase):
+    def test_daily_schedule_keeps_push_and_manual_triggers(self):
+        workflow = (SCRIPTS.parent / ".github/workflows/library-index.yml").read_text(encoding="ascii")
+        self.assertRegex(workflow, r"(?m)^  schedule:\n    - cron: '17 3 \* \* \*'$")
+        self.assertIn("  push:\n    branches: [main]", workflow)
+        self.assertIn("  workflow_dispatch:", workflow)
+        # A bot-authored HEAD must not suppress scheduled or manual runs.
+        self.assertIn("github.event_name != 'push' || !contains(github.event.head_commit.message, "
+                      "'auto-regenerate indexes')", workflow)
+
     def test_workflow_tests_before_guarded_publisher_and_keeps_loop_controls(self):
         workflow = (SCRIPTS.parent / ".github/workflows/library-index.yml").read_text(encoding="ascii")
         tests = "python3 -B -m unittest discover -s scripts/tests -p 'test_library*.py'"

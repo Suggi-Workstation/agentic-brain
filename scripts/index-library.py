@@ -2,18 +2,19 @@
 """Regenerate library/index-library.md + per-domain index-<domain>.md files.
 
 Two-level browsable index, derived from the live filesystem. Never
-hardcodes counts (R11). Run by the Auditor or a cron after library
-changes. Zero LLM tokens -- pure file parsing.
+hardcodes counts (R11). Run by the GitHub index workflow after library
+changes or on its daily schedule. Zero LLM tokens -- pure file parsing.
 
 Output:
   library/index-library.md            master: domain table + links
   library/<domain>/index-<domain>.md  per-domain: alphabetical topic list
 """
 
+import calendar
 import os
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
 BRAIN_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIBRARY_DIR = os.path.join(BRAIN_ROOT, "library")
@@ -59,38 +60,28 @@ def extract_anchor_description(domain, domain_path):
 def extract_title_and_teaser(filepath):
     """Extract the H1 title, first sentence of body, and reviewed date
     from a topic file."""
-    try:
-        with open(filepath, "r", encoding="ascii", errors="replace") as f:
-            # Read first 2000 bytes -- title + teaser always in the first paragraph
-            text = f.read(2000)
-    except Exception:
-        return "", "", ""
+    with open(filepath, "r", encoding="ascii", errors="replace") as f:
+        # Review metadata must not disappear behind a fixed-size read limit.
+        text = f.read()
 
     lines = text.split("\n")
 
     # Extract reviewed: date from frontmatter if present
-    reviewed = ""
+    reviewed = None
     if lines and lines[0].strip() == "---":
         fm_end = None
         for i in range(1, len(lines)):
             if lines[i].strip() == "---":
                 fm_end = i
                 break
-        if fm_end is not None:
-            for fm_line in lines[1:fm_end]:
-                if fm_line.strip().startswith("reviewed:"):
-                    reviewed = fm_line.strip().split("reviewed:", 1)[1].strip()
-                    break
-
-    # Skip frontmatter for title/teaser extraction
-    if lines and lines[0].strip() == "---":
-        fm_end = None
-        for i in range(1, len(lines)):
-            if lines[i].strip() == "---":
-                fm_end = i
-                break
-        if fm_end is not None:
-            lines = lines[fm_end + 1:]
+        if fm_end is None:
+            raise ValueError(f"{filepath}: unclosed topic frontmatter")
+        for fm_line in lines[1:fm_end]:
+            if fm_line.startswith("reviewed:"):
+                if reviewed is not None:
+                    raise ValueError(f"{filepath}: duplicate reviewed date")
+                reviewed = fm_line.split(":", 1)[1].strip()
+        lines = lines[fm_end + 1:]
 
     # Find H1 title
     title = ""
@@ -153,6 +144,32 @@ def generate_domain_index(domain, domain_path, topics):
     return index_file
 
 
+def count_reviews(topics, today):
+    """Count ever-reviewed topics and the overdue subset as of a UTC date."""
+    # Match library-publish.py:review_due; regression tests check parity.
+    year, month = divmod(today.year * 12 + today.month - 1 - 6, 12)
+    month += 1
+    cutoff = date(year, month, min(today.day, calendar.monthrange(year, month)[1]))
+    reviewed_count = overdue_count = 0
+    for topic_file, title, teaser, reviewed in topics:
+        if reviewed is None:
+            continue
+        value = reviewed
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            value = value[1:-1]
+        try:
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+                raise ValueError("format")
+            stamp = date.fromisoformat(value)
+        except ValueError:
+            raise ValueError(f"{topic_file}: invalid reviewed date {reviewed!r}") from None
+        if stamp > today:
+            raise ValueError(f"{topic_file}: reviewed date is in the future")
+        reviewed_count += 1
+        overdue_count += stamp <= cutoff
+    return reviewed_count, overdue_count
+
+
 def main():
     if not os.path.isdir(LIBRARY_DIR):
         print(f"ERROR: library dir not found: {LIBRARY_DIR}", file=sys.stderr)
@@ -165,6 +182,8 @@ def main():
 
     total_topics = 0
     domain_data = []
+    review_counts = {}
+    now = datetime.now(timezone.utc)
 
     for domain in domains:
         domain_path = os.path.join(LIBRARY_DIR, domain)
@@ -183,6 +202,7 @@ def main():
             topics.append((tf, title, teaser, reviewed))
 
         desc = extract_anchor_description(domain, domain_path)
+        review_counts[domain] = count_reviews(topics, now.date())
         domain_data.append((domain, len(topics), desc, topics))
         total_topics += len(topics)
 
@@ -195,7 +215,7 @@ def main():
     master_lines = []
     master_lines.append("# Library Master Index")
     master_lines.append("")
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    ts = now.strftime("%Y-%m-%d %H:%M UTC")
     master_lines.append(f"<!-- Regenerated {ts} -->")
     master_lines.append("<!-- Source of truth: filesystem."
                         " This file is derived, never maintained by hand. -->")
@@ -204,21 +224,35 @@ def main():
     master_lines.append(f"**{total_topics} topics across {len(domains)}"
                         f" domains**")
     master_lines.append("")
-    master_lines.append("| Domain | Topics | Description |")
-    master_lines.append("|:--|--:|:--|")
+    master_lines.append("Reviewed = topics reviewed at least once; overdue = the subset last reviewed")
+    master_lines.append("at least six calendar months ago, calculated in UTC when this index is generated.")
+    master_lines.append("Topics minus Reviewed gives the never-reviewed count.")
+    master_lines.append("")
+    master_lines.append("| Domain | Topics | Reviewed | Description |")
+    master_lines.append("|:--|--:|:--|:--|")
 
     for domain, count, desc, topics in domain_data:
         short_desc = desc
         if not short_desc:
             short_desc = "(no anchor description)"
         link = f"[{domain}]({domain}/index-{domain}.md)"
-        master_lines.append(f"| {link} | {count} | {short_desc} |")
+        reviewed_count, overdue_count = review_counts[domain]
+        master_lines.append(f"| {link} | {count} | {reviewed_count} ({overdue_count} overdue) | {short_desc} |")
 
     master_lines.append("")
 
     master_file = os.path.join(LIBRARY_DIR, "index-library.md")
-    with open(master_file, "w", encoding="ascii") as f:
-        f.write("\n".join(master_lines) + "\n")
+    content = "\n".join(master_lines) + "\n"
+    previous = ""
+    if os.path.exists(master_file):
+        with open(master_file, "r", encoding="ascii") as f:
+            previous = f.read()
+    # Preserve the last material regeneration date on clock-only refreshes.
+    stamp_line = r"^<!-- Regenerated [^\n]* -->\n"
+    if re.sub(stamp_line, "", previous, count=1, flags=re.M) != re.sub(
+            stamp_line, "", content, count=1, flags=re.M):
+        with open(master_file, "w", encoding="ascii") as f:
+            f.write(content)
 
     print(f"Index regenerated: {total_topics} topics across"
           f" {len(domains)} domains")
@@ -227,4 +261,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except (OSError, ValueError) as error:
+        print(f"ERROR: {error}", file=sys.stderr)
+        sys.exit(1)
