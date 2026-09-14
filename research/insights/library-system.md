@@ -10,6 +10,11 @@ tags: [library, knowledge-system, pipeline, weights, scoring, anchors, taxonomy]
 links:
   - library/guide-library.md
   - research/insights/stale-index-problem.md
+  - governance/skills/library-reviewer.md
+  - scripts/index-library.py
+  - scripts/library-publish.py
+  - scripts/library-index-publish.py
+  - .github/workflows/library-index.yml
 ---
 
 # The Library System -- How Knowledge Compounds
@@ -91,6 +96,44 @@ below 5.0 REJECT. Discovery scores prioritize proposals within queue
 capacity; they are not writer acceptance scores. Review has no weighted
 or percentage acceptance shortcut: every mismatch found must be resolved.
 
+### Browsable indexes and review coverage
+
+`scripts/index-library.py` reads topic files and domain anchors to generate
+both index levels in one pass. It reuses the parsed review dates rather than
+reading previously generated domain indexes back as authoritative data.
+Quarantined content is excluded from routine topic counts and review.
+
+The master table has four columns:
+
+| Column | Meaning |
+|:--|:--|
+| Domain | Domain name linked to its `index-<domain>.md`. |
+| Topics | Total topic count for the domain, derived from its files. |
+| Reviewed | Count reviewed at least once, followed by the overdue subset in parentheses. Overdue topics are included in Reviewed, not an additional group. |
+| Description | First paragraph under `## Anchor` in the domain anchor. |
+
+The never-reviewed backlog is `Topics - Reviewed`. The reviewer uses this
+absolute backlog to choose a domain before opening its domain index to
+select one topic. Equal domain backlogs are ordered by domain name; topic
+ties use repository-relative paths. The index exposes coverage; it does
+not select or execute reviews itself. Selection and stale-index handling
+remain defined by `governance/skills/library-reviewer.md`.
+
+Each domain index links its anchor and lists topics alphabetically, with
+their titles, opening-text teasers, and `[reviewed: YYYY-MM-DD]` or
+`[reviewed: never]` tags. The latter means the topic has no `reviewed:` field;
+`never` is a display label, not a date to put in frontmatter. The reviewer
+adds that field after a completed first review and updates it after a
+completed repeat review. A cron invocation alone changes no review date.
+
+Overdue means the last review date is on or before the cutoff obtained by
+subtracting six calendar months from the current UTC date, clamping the day
+to the cutoff month's final day when necessary. The generator and topic
+publisher use the same rule, with a regression test checking their agreement.
+It is a review-due label, not proof that the content is inaccurate. Invalid,
+future, or duplicate review dates stop index generation before index writes
+rather than being silently counted as current or never-reviewed.
+
 ### Anti-staleness design
 
 The filesystem is the authoritative source of truth. The master index
@@ -103,6 +146,27 @@ regenerates from that tree, commits only derived indexes, and pushes.
 If another actor advances GitHub first, a bounded retry refreshes and
 regenerates instead of replaying stale index changes. Exhaustion is a
 visible failure, never permission for a force-push.
+
+The workflow also watches the index and topic publisher scripts, library
+tests, and its own workflow file. It supports manual `workflow_dispatch` and
+a daily GitHub Actions schedule at 03:17 UTC (`17 3 * * *`). Push-triggered
+refreshes and the daily schedule coexist: published library changes refresh
+the indexes normally, while the daily check catches dates becoming overdue
+even when the library agents are paused. This is not a Hermes or VPS system
+cron and makes no LLM calls; it runs Python and Git on a GitHub-hosted runner.
+
+The CI-only publisher is `scripts/library-index-publish.py`, distinct from
+the topic publication helper. The workflow runs the library tests before
+calling it. Pushes marked `auto-regenerate indexes` skip the regeneration
+job to avoid a loop; scheduled and manual runs are not skipped merely because
+the latest commit is an index-bot commit. Runs share a per-ref concurrency
+group, with newer runs permitted to cancel earlier ones.
+
+If the generated index content is unchanged, the master index retains its
+previous regeneration comment and the publisher makes no commit. A changed
+clock alone creates no Git churn; crossing an overdue cutoff does change
+the counts and is published. The regeneration comment therefore records
+the last material change to the master index, not every successful check.
 
 The VPS watcher pulls the result on a later tick. Workflow queues and
 concurrent updates can delay convergence; no fixed latency is guaranteed.
@@ -118,6 +182,14 @@ drafts. The helper shares `.git/repo-pull.sync.lock` with the existing
 `repo-pull.sh` watcher and holds it from final recheck through file edits,
 log numbering, staging, commit, and read-back. Research and drafting stay
 outside the clone and outside that lock. There is no extra daemon or cron.
+
+This helper is a synchronous Python transaction, not another agent. It
+serializes publication, not entire Librarian runs: separate workers may
+research and prepare drafts concurrently. A `review` request must contain
+exactly one existing topic and cannot edit the candidate queue. The skill's
+one-topic-per-cycle limit additionally forbids replacement attempts or split
+requests. Mechanical publisher checks do not replace the agent's factual
+research and full template checklist.
 
 Captured file hashes reject stale drafts; a topic-path catalog fingerprint
 invalidates queue/write decisions after topic additions or deletions. The
@@ -145,6 +217,11 @@ for review. Failures use an ERROR body in the same library-category log.
 The publication helper allocates entry IDs and commits the log together with
 the relevant files. If safe logging itself is unavailable, the caller receives
 HALT instead of an unsafe fallback append.
+
+A runtime or provider abort can occur before an agent reaches publication
+or prepares its ERROR log body. Such a run may have only a scheduler failure
+record and unfinished temporary drafts. It is not a completed review: no
+topic or review stamp is published merely because the cron was invoked.
 
 ## Evidence -- Industry Validation
 
