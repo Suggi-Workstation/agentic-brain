@@ -9,10 +9,10 @@ disable-model-invocation: false
 
 ## What This Skill Does
 
-Guides the review and refresh process of the library pipeline. Scans
-per-domain index files for topics overdue for review, re-reads each
-topic, verifies accuracy against current web sources, rewrites stale
-sections in-place, and stamps the `reviewed:` date in frontmatter.
+Guides the review and refresh process of the library pipeline. Selects
+a domain from the master index, then one topic from its domain index.
+Verifies accuracy against current web sources, corrects the topic,
+and adds or updates the `reviewed:` date in frontmatter.
 Combines the old auditor and health-monitor roles into one pass: the
 reviewer both checks AND fixes, because the agent that discovers what
 is stale is the best positioned to fix it.
@@ -88,9 +88,10 @@ sub-checklists, no section summaries. Each item maps to a procedure
 step or a library guide rule. HALT on any failure; fix before
 committing.
 
-- [ ] Procedure completed: read index, select within cycle limit, read template, research each topic, correct errors and gaps, re-read template, verify checklist, stamp reviewed date, log, commit (PASS / HALT)
+- [ ] Procedure completed: select domains in step 2, select and attempt at most one topic in step 3 with no blocked-topic replacement, read template, research, correct errors and gaps, re-read template, verify checklist, stamp reviewed date, log, commit (PASS / HALT)
 - [ ] Template read in full before reviewing and re-read before final checklist verification (PASS / HALT)
 - [ ] Topics selected have no reviewed date or are at least six calendar months past review; actual frontmatter checked, not only index tags (PASS / HALT)
+- [ ] Domain selection follows descending never-reviewed backlog; no overdue topic selected while any never-reviewed topic remains in the reviewable library; overdue fallback selects the oldest eligible review (PASS / HALT)
 - [ ] Each topic read in full before web-searching (PASS / HALT)
 - [ ] Independent web search conducted; existing sources and new findings checked against the topic's claims; inaccessible sources followed by alternative-source research (PASS / HALT)
 - [ ] Every identified mismatch and substantive gap resolved; incomplete topics logged and excluded from review stamps/publication (PASS / HALT)
@@ -119,50 +120,53 @@ in full. Do not modify the live clone while reviewing or preparing drafts.
 VPS-connected agents: no local clone. Every read and write below goes
 through the Path Convention commands above.
 
-### 2. Read the master index
+### 2. Select domains from the master index
 
-Read `library/index-library.md`. Note the topic counts per domain.
-The master index gives the full domain coverage table.
+Read the complete `library/index-library.md` table. For every domain,
+calculate `never-reviewed = Topics - Reviewed`, using the ever-reviewed
+count before the parentheses. Overdue topics are already included in
+Reviewed; do not subtract them again.
 
-### 3. Select overdue topics
+If any domain has never-reviewed topics, select the domain with the largest
+absolute never-reviewed count. Break equal counts by domain name. Do not
+rank by percentage, table position, or overdue count. Only never-reviewed
+topics may be selected while any remain anywhere in the reviewable library.
 
-Read per-domain `index-<domain>.md` files to find topics with
-`[reviewed: never]` or `[reviewed: <date>]` at least six calendar months old.
-Use the indexes to shortlist, then verify each topic's actual frontmatter
-from its captured snapshot. Generated indexes may lag recent publications.
+Only when every domain has zero never-reviewed topics, shortlist the domains
+with a positive overdue count. Before entering this overdue phase, confirm
+from current topic frontmatter that no never-reviewed topics remain outside
+quarantine. If this cannot be confirmed, record ERROR rather than proceeding.
 
-Prioritize:
-1. Topics with `[reviewed: never]` (never reviewed -- highest
-   priority).
-2. Topics with the oldest `reviewed:` dates (most overdue).
-3. Spread across domains if possible.
-
-Select and attempt at most 2 topics per cycle, sequentially. Do not replace
-blocked topics with additional selections in the same cycle.
-
-A bash one-liner can help identify overdue topics across all domains:
-
-```bash
-cd /srv/brain/agentic-brain
-for d in library/*/; do
-  domain=$(basename "$d")
-  idx="${d}index-${domain}.md"
-  [ -f "$idx" ] && grep '\[reviewed: never\]\|\[reviewed: [0-9]' "$idx"
-done
-```
-
-The index files show a reviewed tag on every topic line. Apply the uniform
-eligibility rule and actual source-date check. If none qualify, publish a
+Generated counts are shortlisting aids. Resolve missing or stale counts
+from current topic frontmatter and repeat domain selection; never interpret
+missing data as zero. If neither phase has eligible topics, publish a
 log-only no-op outcome and exit.
+
+### 3. Select one topic from the domain indexes
+
+In the never-reviewed phase, open the selected domain's `index-<domain>.md`
+and choose one topic tagged `[reviewed: never]`. In the overdue phase, open
+the shortlisted domain indexes and choose the oldest eligible `reviewed:`
+date across them. Break topic ties by repository-relative topic path.
+
+Verify the selected topic's actual frontmatter from its captured snapshot.
+If index tags or counts disagree with the source, return to step 2 before
+starting the review. Apply the uniform six-calendar-month eligibility rule.
+
+Select and attempt at most one topic in the entire skill cycle. After
+starting that review, do not replace a blocked or incomplete topic, attempt
+another topic, or split publication requests to bypass the limit. Record
+ERROR and exit if the selected review cannot be completed. Never switch to
+an overdue topic because a never-reviewed topic is blocked.
 
 ### 4. Read the library template
 
 Read `governance/template-library.md` in full before reviewing. Follow its
 format specification and Library Topic Checklist throughout the review.
 
-### 5. Review each topic
+### 5. Review the selected topic
 
-For each selected topic, in order:
+For the selected topic:
 
 **5a. Read the topic file.** Read the captured
 `library/<domain>/<topic-slug>.md` in full. Note the key claims,
@@ -255,10 +259,12 @@ multiple fields onto a single line.
 ## [ENT-NNN] | YYYY-MM-DD HH:MM UTC | <agent-name> | library | ref: library/<domain>/<topic-slug>.md
 Review cycle: N topics reviewed, M current, K rewritten.
 Topics:
-- <title> (<domain>): current, no changes
-- <title> (<domain>): rewritten (corrected <mismatches>, updated <sources/sections>)
+- <title> (<domain>): <outcome and findings>
 Domain coverage: reviewed across N domains.
 ```
+
+Use one topic line. Its outcome is `current, no changes` or
+`rewritten (corrected <mismatches>, updated <sources/sections>)`.
 
 For unresolved topics or execution failures, prepare a log-only body
 beginning `ERROR:` with the topic, failed check, and unresolved evidence.
@@ -269,9 +275,9 @@ write a failure entry.
 ### 9. Commit on the VPS clone -- NO push
 
 Follow `agentic-brain:library/guide-library.md#publication`.
-Use `kind: review` with only completed topic drafts, their captured expected
-hashes, and the log body. The helper rechecks topic bytes and six-month
-eligibility before saving the reviewed topics and log in one commit.
+Use `kind: review` with the completed topic draft, its captured expected
+hash, and the log body. The helper rechecks topic bytes and six-month
+eligibility before saving the reviewed topic and log in one commit.
 If a topic changed during research, read and review the current version;
 do not apply corrections based on the stale copy.
 

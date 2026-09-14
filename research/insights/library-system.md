@@ -51,9 +51,11 @@ topic similarity, and source credibility before writing. 4 dimensions:
 core match (0.35) + scope fit (0.35) + knowledge value (0.20) + source
 authority (0.10). Minimum threshold: 7.0/10.0.
 
-**2. Review process.** Attempts at most two topics that have never been
-reviewed or whose last review is at least six calendar months old, uniformly
-across domains. Reads each topic and its domain anchor in full, verifies
+**2. Review process.** Attempts at most one topic per cycle, without replacing
+a blocked topic. Selects the domain with the largest never-reviewed backlog,
+then a never-reviewed topic from its index. Only when none remain anywhere
+in the reviewable library does it select the oldest review at least six
+calendar months old. Reads the topic and its domain anchor in full, verifies
 claims against existing and independently researched sources, corrects errors
 and substantive gaps, and reconciles stale sources and citations. Re-reads
 the template and verifies the whole final topic against its checklist,

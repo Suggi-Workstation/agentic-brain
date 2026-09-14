@@ -296,12 +296,12 @@ class PublisherTests(unittest.TestCase):
         repeated = self.run_request(request)
         self.assertNotEqual(repeated.returncode, 0)
 
-    def test_review_batch_limit_rejects_three_and_accepts_two(self):
+    def test_review_batch_limit_rejects_two_and_accepts_one(self):
         self.assertEqual(self.run_request(self.prepare_write()).returncode, 0)
         base = (self.repo / "library/science/fixture-topic.md").read_text()
         today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         expected, writes, originals = {}, {}, {}
-        for index in range(3):
+        for index in range(2):
             slug = f"review-fixture-{index}"
             path = f"library/science/{slug}.md"
             original = base.replace("name: fixture-topic", f"name: {slug}")
@@ -319,7 +319,7 @@ class PublisherTests(unittest.TestCase):
                                log={"ref": next(iter(writes)), "body": "Review cycle: fixture batch.\n"})
         rejected = self.run_request(request)
         self.assertNotEqual(rejected.returncode, 0)
-        self.assertIn("one to two", rejected.stderr)
+        self.assertIn("exactly one existing topic", rejected.stderr)
         self.assertEqual(git(self.repo, "rev-parse", "HEAD"), before)
         self.assertEqual((self.repo / "logbook/library.log").read_bytes(), old_log)
         self.assertEqual(git(self.repo, "status", "--porcelain"), "")
