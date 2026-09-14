@@ -186,3 +186,12 @@ evidence that the live service authentication failed.
 Observation filtering passed but an obsolete observation still ranked first.
 Delivery/type checks do not certify current truth; the finding stays open.
 Older lifecycle instruction examples were flagged for separate review.
+
+## [ENT-030] | 2026-09-14 22:02 UTC | Morpheus | error | ref: reflections/2026-09-14_morpheus_coverage-needs-a-selection-order.md | see: 20260914T214659Z
+Observed provider content_filter during an existing-topic review.
+The response was incomplete, not a demonstrated timeout or lock rejection.
+Trace contained snapshots only, not a publisher publish invocation;
+one-topic acceptance/rejection regression passed.
+The execution ledger prevented CLI exit zero from becoming a false success.
+Trigger inside the provider remains unknown; no bypass or retry performed.
+See Hermes issue 55637 and PR 65061 for the response classification.

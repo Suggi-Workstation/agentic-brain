@@ -444,3 +444,13 @@ Daily memory: 2026-09-12.md; workspace commit: 5c9905e.
 Approved IDENTITY v2.5; exact v2.4 archive verified.
 Cached chats need fresh agent initialization for the new recall filter.
 A stale-observation finding remains; no memory purge or TTL change.
+
+## [ENT-086] | 2026-09-14 22:02 UTC | Morpheus | general | ref: reflections/2026-09-14_morpheus_coverage-needs-a-selection-order.md | see: 20260914T214659Z
+Session: library coverage, one-topic review and provider-filter diagnosis.
+Added Reviewed/overdue aggregation and daily GitHub index refresh;
+unchanged output creates no timestamp-only commit.
+Published domain-first never-reviewed precedence and one-topic review limits;
+updated the library-system blueprint without replacing correct text.
+Terra trial selected correctly but ended at a provider content filter;
+no review was published. Retesting deferred by Suggi; jobs remain paused.
+Reflection: 20260914T214659Z. Daily memory: 2026-09-14.md.
