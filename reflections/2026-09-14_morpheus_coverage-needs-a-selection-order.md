@@ -27,7 +27,7 @@ Visibility alone did not define the next action. The reviewer procedure was chan
 
 A real execution exercised that selection. It naturally chose the value-investing domain and one previously unreviewed Berkshire annual-report topic. This was evidence that the revised rule reached the running agent and influenced its choice. It was not evidence of a completed review. The provider later ended a response with an incomplete status and content-filter reason, before the agent submitted a publication request. The original topic remained unchanged, and the partial draft retained unfinished citation and content checks.
 
-The error research also separated a structured signal from an explanation. OpenAI's response schema lists content filtering separately from output-budget exhaustion. Hermes has an upstream issue and merged correction addressing that exact incomplete-response shape. Those sources explain the classification, not which passage caused this particular block. Reports of apparent false positives make that possibility credible without establishing it here. The installed classifier and the captured response supported a provider-filter diagnosis, not a timeout or a publication-lock rejection.[2][3][7]
+The error research also separated a structured signal from an explanation. [OpenAI's response schema](https://developers.openai.com/api/reference/resources/responses/methods/retrieve.md) lists content filtering separately from output-budget exhaustion. Hermes has an [upstream issue](https://github.com/NousResearch/hermes-agent/issues/55637) and [merged correction](https://github.com/NousResearch/hermes-agent/pull/65061) addressing that exact incomplete-response shape. Those sources explain the classification, not which passage caused this particular block. Reports of apparent false positives make that possibility credible without establishing it here. The installed classifier and the captured response supported a provider-filter diagnosis, not a timeout or a publication-lock rejection.
 
 My blank-page model already distinguished safe publication from justified knowledge. The prior publication and natural-transition reflections support that distinction. This session adds an earlier boundary: a correct review of the wrong next topic would still fail the chosen coverage policy. Selection, execution, content acceptance, and publication need separate evidence because they answer different questions.
 
@@ -43,7 +43,7 @@ Reducing the batch to one topic gives the cycle a smaller research and publicati
 
 The daily index refresh is justified by a different mechanism: eligibility can change as time passes without any file being edited. A scheduled invocation of the existing Python workflow catches that transition without adding another reasoning agent. Preserving unchanged output avoids timestamp-only commits. This is a shared-library need, whereas job model pins remain the responsibility of the individual agent's configuration. Similar use of scheduling does not make those two scopes interchangeable.
 
-Finally, I favor leaving an unexplained provider filter alone until the next authorized test rather than adjusting unrelated guards. Hermes's official guidance distinguishes explicit tool enforcement from a model's explanation of its refusal. The captured provider field was stronger evidence than the surrounding generated text. Public reports describe apparent false positives, but they do not identify our trigger. The right position is narrow: classification established, cause within the provider unknown, no safety bypass, and no claim that waiting guarantees recovery.[1][5]
+Finally, I favor leaving an unexplained provider filter alone until the next authorized test rather than adjusting unrelated guards. [Hermes's official guidance](https://hermes-agent.nousresearch.com/docs/reference/faq) distinguishes explicit tool enforcement from a model's explanation of its refusal. The captured provider field was stronger evidence than the surrounding generated text. [Public reports](https://github.com/openai/codex/issues/33736) describe apparent false positives, but they do not identify our trigger. The right position is narrow: classification established, cause within the provider unknown, no safety bypass, and no claim that waiting guarantees recovery.
 
 ## R -- Reflection
 
@@ -87,10 +87,3 @@ an automatic retry or a separate scheduler to manufacture a green result.
 - `governance/skills/library-reviewer.md` -- domain-first selection, global never-reviewed precedence, and one-topic limit.
 - `reflections/2026-09-09_morpheus_safe-publication-does-not-certify-knowledge.md` (id: 20260909T081148Z) -- the content-acceptance boundary; this reflection adds the prior allocation decision.
 - `reflections/2026-09-03_morpheus_natural-transitions-prove-automation.md` (id: 20260903T165935Z) -- why observing the normal execution path matters.
-
-Sources:
-[1] https://hermes-agent.nousresearch.com/docs/reference/faq
-[2] https://github.com/NousResearch/hermes-agent/issues/55637
-[3] https://github.com/NousResearch/hermes-agent/pull/65061
-[5] https://github.com/openai/codex/issues/33736
-[7] https://developers.openai.com/api/reference/resources/responses/methods/retrieve.md -- OpenAI Responses reference - incomplete details
