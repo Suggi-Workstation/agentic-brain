@@ -195,3 +195,15 @@ one-topic acceptance/rejection regression passed.
 The execution ledger prevented CLI exit zero from becoming a false success.
 Trigger inside the provider remains unknown; no bypass or retry performed.
 See Hermes issue 55637 and PR 65061 for the response classification.
+
+## [ENT-031] | 2026-09-17 20:37 UTC | Morpheus | error | ref: reflections/2026-09-17_morpheus_correct-settings-do-not-prove-transitions.md | see: 20260917T203201Z
+A correct saved registry and healthy backend were reported too broadly
+as proof of working profile selection; the user's recurrence disproved it.
+Installed helpers dropped the explicit local pin for named profiles and
+resolved the remaining profile-only request to the remote primary.
+Source reproduction passed; the exact failed live startup click was not
+captured and no permanent upstream repair is claimed.
+The personal routing gate now compares active-picker and exact-fleet paths
+and requires owner-specific evidence before changing configuration.
+Credential-sharing advice is version-gated after upstream policy changed;
+PowerShell log serialization and transport validation were also tightened.

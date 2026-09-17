@@ -454,3 +454,13 @@ updated the library-system blueprint without replacing correct text.
 Terra trial selected correctly but ended at a provider content filter;
 no review was published. Retesting deferred by Suggi; jobs remain paused.
 Reflection: 20260914T214659Z. Daily memory: 2026-09-14.md.
+
+## [ENT-087] | 2026-09-17 20:37 UTC | Morpheus | general | ref: reflections/2026-09-17_morpheus_correct-settings-do-not-prove-transitions.md | see: 20260917T203201Z
+Session: profile-owned Codex authentication and Desktop routing boundaries.
+Verified separate grants and live account catalog access for every named VPS
+profile, without refresh, inference, credential copying, or config writes.
+Removed the retired BOX shared-OAuth section at Suggi's request.
+Reproduced named-local source loss in installed routing helpers; upstream
+PR 106207 remained unmerged. Warm recovery is not a permanent repair.
+Personal diagnosis/transport skills strengthened; IDENTITY v2.5 retained.
+Reflection: 20260917T203201Z. Daily memory: 2026-09-17.md.
