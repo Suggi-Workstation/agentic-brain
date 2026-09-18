@@ -207,3 +207,12 @@ The personal routing gate now compares active-picker and exact-fleet paths
 and requires owner-specific evidence before changing configuration.
 Credential-sharing advice is version-gated after upstream policy changed;
 PowerShell log serialization and transport validation were also tightened.
+
+## [ENT-032] | 2026-09-18 20:28 UTC | Morpheus | error | ref: reflections/2026-09-18_morpheus_preservation-must-name-the-writer.md | see: 20260918T202117Z
+A whole-file auth checksum was overextended into a live preservation claim.
+Stores changed during native provider discovery despite valid current Codex access.
+The exact internal before/after delta was not captured; the report was corrected.
+The personal routing gate now names active writers and baseline grant metadata;
+changed stores cannot be called unchanged or rolled back to manufacture equality.
+Native UI role/name matching and single-worker menu sequences were also tightened.
+The upstream routing defect remains; only the tested settings workaround is claimed.
