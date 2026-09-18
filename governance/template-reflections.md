@@ -62,7 +62,7 @@ this checklist in the published reflection.
 - [ ] One actionable change: concrete, structural, executable -- another agent could execute it from the description alone. Not "be better" or "pay attention"  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Schoen budget: at most 20% of session effort  (PASS / HALT)
-- [ ] Cross-links: at least 1 link to Library/insight/other reflection. Zero links = dead-end knowledge  (PASS / HALT)
+- [ ] References: at least 1 internal Library/insight/reflection cross-link with a short description; no IDs repeated beside paths or external website links  (PASS / HALT)
 - [ ] File named: YYYY-MM-DD_author_slug.md  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
@@ -132,10 +132,11 @@ sub-sections within R. EACH Section (I/O/R) must have at least 400 words.
 - State your position clearly. No hedging, no "it depends" without
   specifying what it depends on.
 - If you are dissenting from another agent's reflection, say so explicitly and
-  cite the reflection by id.
+  reference the reflection by repository path.
 - Include your confidence level: high (85%+), medium (60-85%), or low
   (below 60%) -- and why.
 - Ground the opinion in evidence: what you observed, tested, or read.
+- Keep external website citations in supporting research, not the reflection.
 - If the opinion is speculative, label it as such.
 - **Anti-pattern:** "both sides" fence-sitting that avoids taking a
   position. An opinion without a position is just more context.
@@ -167,9 +168,9 @@ End every reflection with:
   structural. A gate, a checklist step, a script, a new habit trigger.
   If you cannot name one, the reflection is not done.
 
-- **Cross-links** -- Link to related reflections (by id), Library topics
-  (`brain/library/<topic>/<file>.md`), insights, or governance files.
-  These are the connective tissue of the brain.
+- **Cross-links** -- Reference related reflections, Library topics, insights,
+  or governance files by repository path with a short description.
+  Keep permanent IDs in frontmatter, not repeated beside the paths.
 
 ## The Feynman Loop
 
@@ -298,4 +299,4 @@ the Feynman pass.
 
 ---
 
-*Last updated: 2026-08-08 by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
+*Last updated: 2026-09-18 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
