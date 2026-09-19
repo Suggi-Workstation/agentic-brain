@@ -6,6 +6,7 @@ domain: value-investing
 author: Librarian
 tags: [berkshire-hathaway, annual-reports, buffett, munger, insurance-float, inflation, textile-shutdown, economic-goodwill, blue-chip-stamps, nebraska-furniture-mart, geico, owner-earnings, decentralized-management]
 links: [library/value-investing/berkshire-annual-reports-1986-1995.md, library/value-investing/economic-moats.md, library/value-investing/capital-allocation.md, library/value-investing/intrinsic-value-estimation-methods.md, library/value-investing/circle-of-competence.md, library/value-investing/management-quality-evaluation.md, library/investors/warren-buffett.md, library/case-studies/berkshire-sees-candies-acquisition.md, library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md]
+reviewed: 2026-09-19
 ---
 
 # Berkshire Hathaway Annual Reports 1976-1985 -- Insurance Float, Inflation, and the End of the Textile Era
@@ -13,16 +14,16 @@ links: [library/value-investing/berkshire-annual-reports-1986-1995.md, library/v
 Berkshire Hathaway's annual reports from 1976 through 1985 are the
 record of the decade in which Warren Buffett converted a declining
 textile business into a compounding holding company powered by
-insurance float. Read as a sequence, the ten reports show the
-acquisition and expansion of National Indemnity, the GEICO rescue
-investment, the Blue Chip Stamps merger, the purchase of Nebraska
-Furniture Mart, the Buffalo Evening News fight, and the final
-shutdown of textile operations in 1985. They contain Buffett's most
-explicit published analysis of inflation's effect on equity returns,
-the distinction between economic and accounting goodwill, and the
-discipline required to stop reinvesting in a business that could not
-earn its cost of capital -- a decade that ended with Berkshire a
-fundamentally different enterprise from the one it began as.
+insurance float. Read as a sequence, the ten reports show the growth
+of Berkshire's insurance operations, the GEICO rescue investment, the
+Blue Chip Stamps merger, the purchase of Nebraska Furniture Mart, the
+Buffalo Evening News fight, and the final shutdown of textile
+operations in 1985. They contain Buffett's most explicit published
+analysis of inflation's effect on equity returns, the distinction
+between economic and accounting goodwill, and the discipline required
+to stop reinvesting in a business that could not earn its cost of
+capital -- a decade that ended with Berkshire a fundamentally
+different enterprise from the one it began as.
 
 ## Background
 
@@ -30,67 +31,58 @@ The decade 1976-1985 brackets the period in which Berkshire
 Hathaway ceased to be a textile company with an insurance sideline
 and became a holding company whose operating engine was insurance
 float and whose portfolio was concentrated in a small number of
-exceptional businesses. At the start of 1976, Berkshire's textile
-operations were still the nominal core of the enterprise, but they
-were generating negligible returns. The 1976 letter reported
-operating earnings of $16.1 million, a 17.3 percent return on
-equity, driven overwhelmingly by the recovery in insurance
-underwriting rather than by textiles. The insurance operation had
-entered the business in 1967 through the purchase of National
-Indemnity Company and National Fire and Marine Insurance Company
-for approximately $8.6 million, when their combined premium volume
-was $22 million. By 1977, aggregate insurance premium volume had
-reached $151 million -- an almost 600 percent increase achieved
-without issuing any additional Berkshire shares. The growth came
-through internal expansion (new home-state subsidiaries in
-Colorado, Iowa, Kansas, Minnesota, Nebraska, and Texas), external
-acquisitions (Home and Automobile Insurance Company in 1971,
-Kerkling Reinsurance in 1976, Cypress Insurance in 1977), and the
-addition of reinsurance within the National Indemnity corporate
-structure.
+exceptional businesses. Textiles remained a Berkshire operation at
+the start of the period, but insurance was the more promising source
+of capital. The 1977 letter reported operating earnings of $21.904
+million and a 19 percent return on beginning equity capital, with
+insurance operations led by National Indemnity providing results that
+were better than Buffett had expected. Berkshire had entered insurance
+in 1967 by purchasing National Indemnity Company and National Fire
+and Marine Insurance Company for approximately $8.6 million, when
+combined premium volume was $22 million. By 1977, aggregate insurance
+premium volume had reached $151 million -- an almost 600 percent
+increase achieved without issuing additional Berkshire shares. The
+1977 letter attributed this growth to gains in National Indemnity's
+traditional liability business, new subsidiaries, acquisitions, and
+additional products including reinsurance. It specifically identified
+Cornhusker Casualty (1970), Lakeland Fire and Casualty (1971), Texas
+United Insurance (1972), the Insurance Company of Iowa (1973), Kansas
+Fire and Casualty (1977), Central Fire and Casualty (acquired in
+1976), and Cypress Insurance (acquired at year-end 1977).
 
 The intellectual context of the decade is the maturation of
-Buffett's thinking about inflation, capital allocation, and
-business quality -- made explicit in the reports themselves. In
-May 1977, while the annual reports of this period were being
-written, Buffett published "How Inflation Swindles the Equity
-Investor" in Fortune magazine. The article argued that stocks are
-not a natural hedge against inflation because the return on equity
-capital -- what Buffett called the "equity coupon" -- is
-relatively fixed at around 12 percent, and inflation cannot raise
-it. When inflation runs at 7 percent, the investor who earns 12
-percent on equity and pays taxes on the nominal gain is worse off
-in real terms than he was with lower inflation and the same coupon.
-The 1977 annual letter, written in March 1978, made the same
-argument in compressed form: the insurance equity portfolio's
-performance depended on the ability of underlying companies to earn
-high returns on tangible capital and to reinvest retained earnings
-at those returns -- a capacity that inflation erodes for
-asset-heavy businesses but preserves for businesses with economic
-goodwill.
+Buffett's thinking about inflation, capital allocation, and business
+quality. In May 1977, Buffett published "How Inflation Swindles the
+Equity Investor" in Fortune. The article argued that aggregate returns
+on equity had tended to return to about 12 percent and did not rise
+materially with inflation; Buffett called that return an "equity
+coupon." It also distinguished perpetual equity from bonds that
+ultimately mature and can be repriced. The 1979-1981 annual letters
+made a related argument: inflation and taxes could erode owners'
+real returns, while asset-heavy businesses could require additional
+capital merely to maintain their physical volume. The 1983 goodwill
+appendix applied the same reasoning to See's Candies, contrasting its
+low tangible-capital requirements with those of a hypothetical mundane
+business.
 
 The decade's structural transformation is visible in the
 consolidation of affiliated entities. At the start of the period,
 Buffett and Munger controlled three separate companies: Berkshire
 Hathaway Inc., Diversified Retailing Company Inc., and Blue Chip
 Stamps. The Diversified Retailing merger into Berkshire was
-completed on December 30, 1978, requiring restatement of all
-prior-year financials as if the merger had always existed. Blue
-Chip Stamps, which owned See's Candies (acquired 1972), the Buffalo
-Evening News (acquired 1977), and Wesco Financial (80.1 percent
-controlled), was merged into Berkshire in July 1983 in a stock
-swap. Each outstanding Blue Chip share was exchanged for 0.077 of a
-Berkshire share. The combined assets of the new group totaled $1.6
-billion. The merger brought See's Candies, the Buffalo Evening
-News, and Wesco Financial fully onto Berkshire's balance sheet and
-eliminated the complex cross-holding structure that had
-characterized the prior decade. The 1984 letter described the
-pre-merger structure with characteristic candor: Charlie and Buffett
-had controlled three companies whose cornerstone businesses --
-textiles at Berkshire, department stores at Diversified, trading
-stamps at Blue Chip -- had respectively survived but earned almost
-nothing, shriveled while incurring large losses, and shrunk to
-about 5 percent of their size at entry.
+completed on December 30, 1978, requiring restatement of prior-year
+financials as if the merger had always existed. Blue Chip Stamps,
+which owned See's Candies, the Buffalo Evening News, and a controlling
+interest in Wesco Financial, merged into Berkshire in 1983. Berkshire
+owned about 60 percent of Blue Chip during the first six months of
+1983 and 100 percent thereafter. The combination simplified the
+prior cross-holding structure and brought the major Blue Chip
+businesses under Berkshire's direct ownership. The 1984 letter
+summarized the earlier structure with characteristic candor: the
+cornerstone businesses -- textiles at Berkshire, department stores
+at Diversified, and trading stamps at Blue Chip -- had respectively
+survived but earned almost nothing, shriveled while incurring large
+losses, and shrunk to about 5 percent of their entry size.
 
 The decade ends with the 1985 letter's account of the textile
 shutdown. In July 1985, Buffett decided to close the textile
@@ -105,12 +97,10 @@ their accounting value. During the previous nine years of merged
 Berkshire-Hathaway operations, aggregate sales of $530 million had
 produced an aggregate loss of $10 million. Profits had been reported
 from time to time, but the net effect was always one step forward,
-two steps back. The 1985 letter also contained Buffett's first
-published articulation of the owner-earnings concept, introduced
-through the Scott Fetzer acquisition (completed January 1986), and
-the observation that Berkshire's market price had risen from a
-discount to intrinsic value to a premium -- a transition that
-changed the math for existing and prospective shareholders alike.
+two steps back. The 1985 letter also explained that Berkshire's shares had moved
+from a historical discount to intrinsic value to an occasional
+premium, a change that altered the prospective return for a new
+shareholder even if business value continued to compound.
 
 ## Core Concepts
 
@@ -143,15 +133,15 @@ at a loss -- a practice Buffett called "asset maintenance"
 underwriting. Berkshire's strong net worth, even with bonds
 valued at market, gave it the staying power to shrink volume when
 prices were inadequate rather than chase premium to avoid realizing
-bond losses. The 1995 letter (looking back on the full history)
-published a float table showing that from 1967 through 1979, float
-grew from $17.3 million to $227.3 million at a compounded annual
-rate of 20.7 percent, with underwriting profits in most years
-making the cost of float less than zero. The concept that emerges
-across the decade is that float is only valuable if underwriting
-discipline is maintained and if the insurer has the capital
-strength to retain risk when prices are attractive and to shrink
-when they are not.
+bond losses. The 1995 letter, looking back on the earlier period, reported
+average float of $17.3 million in 1967, $102.6 million in 1976,
+and $227.3 million in 1979. It also reported that Berkshire's
+float grew at a 20.7 percent compound annual rate from 1967 through
+1995, with a cost below zero in more years than not. The concept
+that emerges across the decade is that float is valuable only if
+underwriting discipline is maintained and if the insurer has the
+capital strength to retain risk when prices are attractive and to
+shrink when they are not.
 
 ### Inflation and the Equity Coupon
 
@@ -246,157 +236,114 @@ and in 1985 he threw in the towel. The concept that emerges is
 distinct from the simpler idea of cutting losses. The textile
 business was not merely losing money -- it was consuming capital
 that could have been deployed in insurance, media, and consumer
-franchises at far higher returns. The 1985 letter's owner-earnings
-framework, introduced through the Scott Fetzer acquisition, made
-the point analytically: a business that reports earnings but
-requires continuous reinvestment to maintain its competitive
-position has lower owner earnings than its reported earnings
-suggest. The textile business, with its perpetual need for new
-looms and working capital, had owner earnings near zero or
-negative. The discipline of capital termination -- refusing to
-reinvest in a business that cannot earn its cost of capital,
-regardless of historical attachment or sunk cost -- is the
-concept the decade's reports develop most explicitly through the
-textile case.
+franchises at far higher returns. The 1985 letter explains why a conventional project-return test was
+inadequate. Each proposal for textile capital expenditure appeared
+to reduce costs and to pass standard return-on-investment tests, but
+competitors could make similar investments and turn lower costs into
+lower industry prices. The author's synthesis is that capital must be
+evaluated against industry structure and opportunity cost, not merely
+against a stand-alone project forecast. The discipline of capital
+termination -- refusing to reinvest in a business that cannot earn its
+cost of capital despite historical attachment or sunk cost -- is the
+central lesson of the textile case.
 
 ### Decentralized Management and the Operator Model
 
 The 1976-1985 reports develop the decentralized management model
-that became a permanent feature of Berkshire's operating
-philosophy. The 1977 letter described the structure: National
-Indemnity's traditional liability business was run by Phil Liesche
-with Roland Miller in underwriting and Bill Lyons in claims, and
-the operating philosophy of founder Jack Ringwalt remained etched
-upon the company. The 1983 letter, following the Blue Chip merger,
-formalized the principle: Berkshire's strategy was to delegate
-operating decisions to the managers of the individual businesses,
-retaining only capital allocation at the parent level. The model
-was empirical, not theoretical. The managers Buffett praised across
-the decade shared identifiable traits: they understood their
-businesses deeply, they operated with minimal oversight, and they
-generated surplus cash that Berkshire could reallocate. The 1983
+that became a permanent feature of Berkshire's operating philosophy.
+The 1977 letter described National Indemnity's traditional liability
+business as run by Phil Liesche, with Roland Miller in underwriting
+and Bill Lyons in claims; it also credited the enduring operating
+philosophy of founder Jack Ringwalt. The 1979 letter described the
+broader model as centralization of financial decisions at the top and
+extensive delegation of operating authority to managers of individual
+businesses. The managers Buffett praised across the decade understood
+their businesses deeply, operated with minimal oversight, and
+generated surplus cash that Berkshire could reallocate. The 1977
 letter's discussion of See's Candies under Chuck Huggins was
-representative: Huggins had been put in charge the day Berkshire
-took over, and his record was extraordinary. See's pre-tax earnings
-had grown from $4.2 million at acquisition in 1972 to $12.6
-million in 1977 with little additional capital investment, and
-the 1983 letter reported further growth to $27.4 million in
-pre-tax earnings. The concept is that decentralized management is
-not an absence of management but a specific form of it: the parent
-identifies operators with demonstrated skill, provides them with
-permanent capital, removes the pressure of quarterly earnings
-expectations, and reallocates the surplus cash they generate.
-Buffett's contribution at the parent level is capital allocation,
-not operating supervision. The 1985 letter's Scott Fetzer
-acquisition, which brought in Ralph Schey as manager, would test
-and validate the model in the following decade.
+representative: See's pre-tax earnings had grown from $4.2 million at
+acquisition in 1972 to $12.6 million in 1977 with little additional
+capital investment. The 1983 letter reported $27.4 million in See's
+pre-tax earnings. The concept is that decentralized management is not
+an absence of management but a specific division of labor: the parent
+selects operators, provides capital, and reallocates surplus cash.
+The 1985 letter described the early-1986 acquisition of Scott Fetzer,
+whose chief executive Ralph Schey would operate the new subsidiary.
 
 ### The Blue Chip Merger and Corporate Simplification
 
 The Blue Chip Stamps merger in 1983 is the decade's key structural
 event and its analytical significance extends beyond the
 simplification of the corporate structure. Before the merger,
-Buffett and Munger controlled a web of cross-holdings: Berkshire
-owned approximately 60 percent of Blue Chip, which owned 80.1
-percent of Wesco Financial and 100 percent of See's Candies and
-the Buffalo Evening News. The minority interests in Blue Chip
-meant that Berkshire's shareholders did not fully participate in
-the economics of See's, the Buffalo News, or Wesco. The 1983
-merger eliminated this structure. Each outstanding Blue Chip share
-was exchanged for 0.077 of a Berkshire share, and the combined
-assets totaled $1.6 billion. The accounting consequence was the
-creation of $51.7 million of new goodwill on Berkshire's balance
-sheet -- $28.4 million attributable to See's and $23.3 million to
-the Buffalo Evening News -- which became the occasion for the
-1983 appendix on economic versus accounting goodwill. The concept
-that emerges is that corporate simplification is not merely an
-accounting exercise but a capital-allocation decision: by
-eliminating minority interests, Berkshire ensured that 100 percent
-of the cash generated by See's, the Buffalo News, and Wesco was
-available for redeployment at the parent level. The Blue Chip
-merger also resolved the long-running question of how the trading
-stamp business -- which had shrunk to about 5 percent of its
-volume at entry -- would be managed in decline. The answer was
-that the declining business would continue to generate float and
-cash during its run-off, but the valuable assets it carried (See's,
-the Buffalo News, Wesco) would be fully consolidated into
-Berkshire's capital-allocation engine.
+Berkshire owned about 60 percent of Blue Chip, which owned a
+controlling interest in Wesco Financial and owned See's Candies and
+the Buffalo Evening News. The 1983 merger gave Berkshire full
+ownership of Blue Chip. The accounting consequence was $51.7 million
+of goodwill allocated to See's ($28.4 million) and the Buffalo Evening
+News ($23.3 million), prompting the 1983 appendix on economic versus
+accounting goodwill. The author's synthesis is that the merger was
+also a capital-allocation decision: it simplified a structure in
+which Berkshire's shareholders had shared the economics of Blue Chip
+assets with minority owners. The 1984 letter described the trading
+stamp business as having shrunk to about 5 percent of its entry size;
+the merger placed its remaining assets within Berkshire's direct
+corporate structure.
 
 ### GEICO: The Franchise Rescue Investment
 
-The GEICO investment, initiated in 1976 and built through 1980,
-is the decade's clearest case study in applying the franchise
-doctrine to a distressed business. GEICO had lost $126 million in
-1975, its first losing year in 36 years. Its stock had collapsed
-from a 1972 peak of $61 to roughly $2. The DC Insurance
-Superintendent had given the board until late June 1976 to produce
-a rescue plan or face liquidation. Buffett took approximately a
-quarter of the $76 million convertible preferred offering
-underwritten by Salomon Brothers -- roughly $19 million -- and
-also purchased common stock at around $2 per share. The 1979
-letter mentioned GEICO only in passing, noting that Berkshire had
-a very large indirect interest in two truly outstanding management
-groups through investments in SAFECO and GEICO. The 1980 letter,
-after adding another approximately $20 million of common stock,
-opened up the rationale in detail. Buffett's thesis was that
-GEICO's fundamental business advantage -- the ability to give the
-policyholder back in losses a greater percentage of the premium
-dollar than any other auto insurer, while still earning a profit
--- was still intact, submerged in a sea of financial and operating
-troubles. The troubles were not produced by any diminution of the
-essential economic advantage: GEICO was designed to be the low-cost
-operator in an enormous marketplace populated by companies whose
-marketing structures restricted adaptation. By year-end 1980,
-Berkshire had invested $45.7 million and owned 33.3 percent of
-GEICO's shares. GEICO's management, under Jack Byrne, was
-repurchasing stock aggressively, reducing shares outstanding from
-34.2 million to 21.6 million in just two years. The concept is
-that a franchise rescue investment works when the investor can
-distinguish between a damaged business model and a damaged balance
-sheet: if the competitive advantage is intact and the management
-can address the financial problems, the distress creates an
-entry price that a healthy company's stock price cannot offer.
-The 1981 letter summed it up: GEICO is a brilliantly run
-implementation of a very important business idea.
+The GEICO investment, initiated in 1976 and enlarged in 1980, is
+the decade's clearest case study in applying the franchise doctrine
+to a distressed business. The 1980 letter described GEICO as having
+been rescued from the edge of bankruptcy in 1976 by Jack Byrne, while
+its fundamental economic advantage remained intact. Berkshire's cost
+for its GEICO holdings was about $47 million by 1980, when it owned
+about one-third of the company. Buffett's thesis was that GEICO could
+return a greater share of each premium dollar to policyholders than
+other auto insurers while earning a profit because it was a low-cost
+operator. The 1980 letter reported that GEICO had reduced its share
+equivalents outstanding from 34.2 million to 21.6 million in two
+years. The author's synthesis is that a franchise rescue can work
+when an investor distinguishes a damaged balance sheet from a damaged
+competitive position. The 1981 letter described GEICO as a
+"brilliantly run implementation of a very important business idea."
 
 ## Evidence
 
 ### Insurance Float Growth and the 1977-1979 Underwriting Cycle
 
-The 1977-1979 letters provide the cleanest evidence of how
-insurance float functioned as Berkshire's capital engine during
-this decade. The 1977 letter reported that insurance investments at
-cost grew from $134.6 million to $252.8 million in two years, and
-that net investment income improved from $8.4 million pre-tax in
-1975 to $12.3 million pre-tax in 1977. The growth was driven by
-premium volume expansion: aggregate insurance premiums grew from
-$22 million at the 1967 entry to $151 million in 1977. The
-underwriting cycle is visible in the data. The 1976 letter reported
-that Berkshire's combined ratio improved from 115.4 in 1975 to
-98.7 in 1976, reflecting the large rate increases effected
-throughout the industry in 1976 to offset the disastrous
-underwriting results of 1974 and 1975. The 1978 letter reported
-that the number one contributor to Berkshire's results was Phil
-Liesche's segment of National Indemnity: approximately $11 million
-of underwriting profit on about $90 million of earned premiums.
-The 1978 letter also warned that the cycle was turning: auto
-rates overall were only 3 percent higher in January 1979 than a
-year earlier, while loss costs (auto repair and medical care) were
-up over 9 percent. The 1979 letter confirmed the prediction:
-operating earnings as a percentage of equity declined from 18.6
-percent in 1979, and Buffett forecast further decline. The
-evidence is that Berkshire's insurance operation generated float
-at negative cost during the favorable phase of the underwriting
-cycle (1976-1978) and maintained underwriting discipline during
-the unfavorable phase (1979-1981), shrinking volume when prices
-were inadequate. The 1995 letter's float table quantified the
-result: float grew from $102.6 million at year-end 1976 to $227.3
-million at year-end 1979, with underwriting profits in each year
-making the cost of float less than zero. The finding is that
-insurance float, when managed with underwriting discipline and
-supported by a strong capital base that allows volume contraction
-without distress, is a structural source of low-cost capital that
-compounds independently of the underwriting cycle.
+The 1977-1979 letters provide direct evidence of how insurance
+float functioned as Berkshire's capital engine. The 1977 letter
+reported that insurance investments at cost grew from $134.6 million
+to $252.8 million in two years and that net investment income improved
+from $8.4 million pre-tax in 1975 to $12.3 million pre-tax in 1977.
+Aggregate insurance premiums grew from $22 million at Berkshire's 1967
+entry to $151 million in 1977. The 1977 letter attributed its improved
+insurance results to the delayed effect of the large industry rate
+increases made during 1976 after the underwriting losses of 1974 and
+1975. The 1978 letter reported approximately $11 million of
+underwriting profit on about $90 million of earned premiums in Phil
+Liesche's National Indemnity segment. It also warned that the cycle was
+turning: auto rates in January 1979 were only 3 percent higher than a
+year earlier while auto-repair and medical costs were up more than 9
+percent. The 1979 letter reported operating earnings of 18.6 percent
+of beginning equity, down from 19.4 percent in 1978. The 1995 float
+table reported average float of $102.6 million in 1976 and $227.3
+million in 1979, with an underwriting profit in each of those years.
+The author's synthesis is that underwriting discipline and capital
+strength allowed Berkshire to treat reduced volume as an acceptable
+cost of avoiding underpriced business. The later letters also show that
+this discipline did not guarantee continuous underwriting profits. In
+1980, Buffett reported that National Indemnity's volume was flat while
+its margins relative to the industry were at an all-time high, and he
+expected volume to decline in 1981. The 1981 letter reported that
+Berkshire had sacrificed volume while retaining underwriting
+superiority relative to the industry. The 1983 letter reported a
+Berkshire combined ratio of 121, and the 1984 letter reported 134.
+The 1985 letter reported an improvement to 111 but stated that the
+result still reflected prior underwriting and reserving errors. The
+1995 float table records underwriting losses in 1982-1985 even as
+average float remained substantial. These observations distinguish a
+large float balance from a claim that float is permanently free.
 
 ### The 1983 Goodwill Appendix: See's Candies as the Inflation Proof
 
@@ -422,13 +369,12 @@ earnings), meaning $8 million of additional investment produced
 $25 million of incremental market value. The mundane business
 would be valued at $36 million (book value), meaning $18 million
 of additional investment produced $18 million of incremental
-market value. The evidence is that economic goodwill, not
-accounting goodwill, determines how a business performs under
-inflation, and that the gap between the two widens as inflation
-compounds. The appendix also warned of "No-Will" -- accounting
-goodwill created by overpaying -- which has no economic
-correspondence and is purely a balance sheet artifact of
-managerial overexcitement.
+market value. The author's synthesis is that economic goodwill, rather than the
+accounting goodwill balance, explains the difference in how the two
+businesses absorb inflation. The appendix also warned of "No-Will" --
+accounting goodwill created by overpaying -- which has no economic
+correspondence and is purely a balance sheet artifact of managerial
+overexcitement.
 
 ### The 1985 Textile Shutdown: The End of Reinvestment
 
@@ -450,27 +396,24 @@ immediate winner by standard return-on-investment criteria. But
 the proposals were based on projected business volume that was
 never achieved, because the industry's overcapacity meant that
 Berkshire's individual investment decisions could not change the
-competitive dynamics. The method of the evidence is the
-counterfactual: had the capital invested in textile reinvestment
-been deployed in insurance float or equity investments instead,
-the compounded return over the decade would have been
-substantially higher. The 1980 letter had already reported the
-termination of Waumbec Mills operations and the reduction of looms
-at New Bedford. The 1985 letter completed the exit. The finding
-is that the discipline of stopping capital reinvestment in a
-business that cannot earn its cost of capital, even when each
-individual reinvestment proposal appears profitable in isolation,
-is the most difficult and most important capital-allocation
-decision a holding-company manager faces. The 1984 letter had
-described the three cornerstone businesses (textiles, department
-stores, trading stamps) and noted that each had either survived
-but earned almost nothing, shriveled with large losses, or shrunk
-to a fraction of entry size. The textile shutdown was the
-explicit acknowledgment that a cornerstone business had failed and
-that continued reinvestment was a misallocation of capital
-generated by the successful businesses.
+competitive dynamics. The 1980 letter had already reported the termination of Waumbec
+Mills operations and a reduction in looms at New Bedford. The 1985
+letter completed the exit. The author's synthesis is that a holding-
+company manager must test a proposed reinvestment against industry
+structure and alternative uses of capital, even when the individual
+project appears profitable. The 1984 letter had described the three
+cornerstone businesses -- textiles, department stores, and trading
+stamps -- as a business that survived but earned almost nothing, a
+business that shriveled with large losses, and a business that shrunk
+to a fraction of entry size, respectively. The textile shutdown was
+the explicit acknowledgement that a cornerstone business had failed
+and that continued reinvestment would misallocate capital generated by
+successful businesses.
 
 ## Implications
+
+The following applications are the author's synthesis from the primary
+sources and are not additional historical findings.
 
 ### For Value Investors: Inflation Reframes the Investment Problem
 
@@ -517,9 +460,8 @@ individual reinvestment proposal in the textile operation looked
 like a winner by standard criteria, but the cumulative effect was
 the destruction of capital that could have compounded in insurance
 float and equity investments. The GEICO investment is the positive
-example: $45.7 million deployed over 1976-1980 in a business whose
-competitive advantage was intact, generating a position that
-compounded for decades without additional capital. The practical
+example: about $47 million deployed over 1976-1980 in a business
+whose competitive advantage Buffett judged intact. The practical
 implication is that the capital allocator must maintain the
 discipline to reinvest in the best opportunity, not the most
 familiar one, and to terminate reinvestment in businesses whose
@@ -596,72 +538,38 @@ textiles to protect operating jobs and managerial authority.
 
 ## Sources
 
-1. Berkshire Hathaway Inc. "Chairman's Letter -- 1976."
-   March 14, 1978. Insurance underwriting recovery; National
-   Indemnity; GEICO investment; Illinois National Bank.
-   https://www.berkshirehathaway.com/letters/1976.html [high]
+1. Berkshire Hathaway Inc. "Chairman's Letter - 1977." March 14,
+   1978. https://www.berkshirehathaway.com/letters/1977.html [high]
 
-2. Berkshire Hathaway Inc. "Chairman's Letter -- 1977."
-   March 14, 1978. Insurance investments growth to $252.8M;
-   See's Candies earnings growth; Blue Chip Stamps 36.5% stake.
-   https://www.berkshirehathaway.com/letters/1977.html [high]
+2. Berkshire Hathaway Inc. "Chairman's Letter - 1978." March 26,
+   1979. https://www.berkshirehathaway.com/letters/1978.html [high]
 
-3. Berkshire Hathaway Inc. "Chairman's Letter -- 1978."
-   March 26, 1979. Diversified Retailing merger; Phil Liesche;
-   insurance cycle turning; combined ratio analysis.
-   https://www.berkshirehathaway.com/letters/1978.html [high]
+3. Berkshire Hathaway Inc. "Chairman's Letter - 1979." March 3,
+   1980. https://www.berkshirehathaway.com/letters/1979.html [high]
 
-4. Berkshire Hathaway Inc. "Chairman's Letter -- 1979."
-   March 3, 1980. Book value growth to $335.85/share; return on
-   equity 18.6%; undistributed earnings of non-controlled
-   holdings; GEICO and SAFECO management groups.
-   https://www.berkshirehathaway.com/letters/1979.html [high]
+4. Berkshire Hathaway Inc. "Chairman's Letter - 1980." February 27,
+   1981. https://www.berkshirehathaway.com/letters/1980.html [high]
 
-5. Berkshire Hathaway Inc. "Chairman's Letter -- 1980."
-   February 27, 1981. Inflation and equity returns; bond
-   valuation at amortized cost; "asset maintenance" underwriting;
-   Waumbec Mills terminated; GEICO 33.3% stake for $45.7M.
-   https://www.berkshirehathaway.com/letters/1980.html [high]
+5. Berkshire Hathaway Inc. "Chairman's Letter - 1981." February 26,
+   1982. https://www.berkshirehathaway.com/letters/1981.html [high]
 
-6. Berkshire Hathaway Inc. "Chairman's Letter -- 1981."
-   February 26, 1982. Inflation and capital reinvestment;
-   undistributed earnings exceeding reported operating earnings;
-   GEICO as "brilliantly run implementation."
-   https://www.berkshirehathaway.com/letters/1981.html [high]
+6. Berkshire Hathaway Inc. "Chairman's Letter - 1982." March 3,
+   1983. https://www.berkshirehathaway.com/letters/1982.html [high]
 
-7. Berkshire Hathaway Inc. "Chairman's Letter -- 1983."
-   March 14, 1984. Blue Chip Stamps merger; Nebraska Furniture
-   Mart acquisition; Goodwill appendix: economic vs accounting
-   goodwill; See's Candies inflation proof; "gift that keeps
-   giving."
-   https://www.berkshirehathaway.com/letters/1983.html [high]
+7. Berkshire Hathaway Inc. "Chairman's Letter - 1983." March 14,
+   1984. https://www.berkshirehathaway.com/letters/1983.html [high]
 
-8. Berkshire Hathaway Inc. "Chairman's Letter -- 1985."
-   February 28, 1986. Textile shutdown; Scott Fetzer acquisition;
-   owner-earnings concept; Capital Cities/ABC investment;
-   General Foods sale; intrinsic value vs market premium.
-   https://www.berkshirehathaway.com/letters/1985.html [high]
+8. Berkshire Hathaway Inc. "Chairman's Letter - 1984." February 25,
+   1985. https://www.berkshirehathaway.com/letters/1984.html [high]
 
-9. Berkshire Hathaway Inc. "1995 Annual Report." Float table
-   1967-1995 showing 20.7% compounded growth; GEICO full
-   acquisition; cost of float analysis.
-   https://www.berkshirehathaway.com/1995ar/1995ar.html [high]
+9. Berkshire Hathaway Inc. "Chairman's Letter - 1985." March 4,
+   1986. https://www.berkshirehathaway.com/letters/1985.html [high]
 
-10. Buffett, Warren E. "How Inflation Swindles the Equity
-    Investor." Fortune, May 1977. The "equity coupon" framework;
-    inflation as a tax on equity returns; reinvestment at
-    fixed coupon rates.
-    https://fortune.com/article/buffett-how-inflation-swindles-the-equity-investor-fortune-classics-1977/ [high]
+10. Berkshire Hathaway Inc. "1995 Annual Report." Insurance float
+    table and discussion. https://www.berkshirehathaway.com/1995ar/1995ar.html [high]
 
-11. Wikipedia. "Blue Chip Stamps." Berkshire investment from
-    1970; 36.5% in 1977 to 60% in 1979; 1983 stock swap merger;
-    See's Candies and Wesco Financial as subsidiaries.
-    https://en.wikipedia.org/wiki/Blue_Chip_Stamps [medium]
-
-12. Gurufocus. "Berkshire's GEICO Investment in 1976 and 1980."
-    Purchase of convertible preferred and common; Byrne rescue;
-    GEICO share repurchases reducing outstanding shares.
-    https://www.gurufocus.com/news/349057/berkshires-geico-investment-in-1976-and-1980-lessons-in-business-and-investing [medium]
+11. Buffett, Warren E. "How Inflation Swindles the Equity Investor."
+    Fortune, May 1977. https://fortune.com/article/buffett-how-inflation-swindles-the-equity-investor-fortune-classics-1977/ [high]
 
 ## See Also
 
