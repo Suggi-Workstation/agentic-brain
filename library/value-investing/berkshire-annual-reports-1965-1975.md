@@ -6,6 +6,7 @@ domain: value-investing
 author: Librarian
 tags: [berkshire-hathaway, annual-reports, buffett, textile-era, national-indemnity, insurance-float, blue-chip-stamps, sees-candies, washington-post, illinois-national-bank, capital-allocation, cigar-butt, compounding, graham-dodd]
 links: [library/value-investing/berkshire-annual-reports-1976-1985.md, library/value-investing/capital-allocation.md, library/value-investing/circle-of-competence.md, library/value-investing/mr-market.md, library/value-investing/intrinsic-value-estimation-methods.md, library/value-investing/management-quality-evaluation.md, library/value-investing/economic-moats.md, library/investors/warren-buffett.md, library/case-studies/berkshire-sees-candies-acquisition.md, library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md]
+reviewed: 2026-09-19
 ---
 
 # Berkshire Hathaway Annual Reports 1965-1975 -- How a Spite-Bought Textile Mill Became the Seed of a Compounding Empire
@@ -159,17 +160,17 @@ and the American textile industry could not, structurally. Book value
 that cannot be deployed at adequate returns is not capital -- it is
 a liability with a positive number on the balance sheet.
 
-### Insurance Float as Permanent Capital
+### Insurance Float as Renewing Investment Capital
 
 The single most important concept that emerged from the 1965-1975
-period is insurance float as a source of permanent, low-cost
-investment capital. When an insurance company collects premiums, it
-holds the money for months or years before paying claims. During that
-interval, the money -- the float -- can be invested. If underwriting
-is profitable, the insurer is paid to hold the float, making its
-cost negative. If underwriting breaks even, the float is interest-free.
-Buffett recognized this at National Indemnity in 1967, and it became
-the engine of Berkshire's compounding.
+period is insurance float as a renewing, potentially low-cost source
+of investment capital. When an insurance company collects premiums,
+it holds the money for months or years before paying claims. During
+that interval, the money -- the float -- can be invested. If
+underwriting is profitable, the insurer is paid to hold the float,
+making its cost negative. If underwriting breaks even, the float is
+interest-free. Buffett recognized this at National Indemnity in 1967,
+and it became the engine of Berkshire's compounding.
 
 At the time of the National Indemnity acquisition, the company
 carried approximately $19.4 million in float. Berkshire paid $8.6
@@ -181,24 +182,25 @@ purchase price almost irrelevant if the float could be deployed at
 adequate returns. By 1970, Berkshire's insurance float had grown to
 $39 million. By 2024, it would exceed $170 billion.
 
-The key property of float that distinguishes it from debt is that it
-never matures. A conventional loan is repaid and disappears. Float
-behaves as a permanent, growing balance: as old claims are paid, new
-premiums flow in to replace them, and as the business grows, the pool
-grows with it. The principal never comes due all at once. It rolls
-forward, decade after decade, available to be invested the entire
-time. This is leverage that does not mature, does not charge interest
-in a good year, and grows organically as long as underwriting
-discipline is maintained.
+Float differs from a conventional loan because it does not have a
+single contractual maturity date. As old claims are paid, new premiums
+can replenish the balance, allowing an insurer with durable underwriting
+discipline to invest a renewing pool of policyholder funds. Float is
+not permanent capital, however: it can contract when claims, premiums,
+or underwriting results change. Its cost is determined by underwriting
+results, and its availability depends on disciplined reserving,
+liquidity, and solvency rather than on an assumption that the balance
+will grow indefinitely.
 
-Buffett's 2004 letter stated that if Berkshire had not acquired
-National Indemnity, "Berkshire would be lucky to be worth half of
-what it is today." The cost of float ran below zero in most years
-since 1967, meaning Berkshire was paid to borrow the money it then
-invested. This is the structural advantage that the textile business
-lacked: a textile mill requires capital infusions to maintain
-operations and generates poor returns; an insurance company receives
-capital from its customers and generates returns by investing it.
+By 2004, Berkshire reported that the approximately $20 million of
+float acquired in 1967 had grown to $46.1 billion through internal
+growth and acquisitions. Float is valuable only when its underwriting
+cost is acceptable; a profitable underwriting operation is paid to
+hold it, while underwriting losses make it a costly source of funds.
+This is the structural advantage the textile business lacked: a textile
+mill requires capital infusions to maintain operations and generates
+poor returns; an insurance company receives policyholder funds before
+claims are paid and can invest them subject to its liabilities.
 
 ### The Opportunity Cost of Trapped Capital
 
@@ -362,10 +364,10 @@ marketable securities portfolio. The annual reports from 1967
 through 1970 document National Indemnity's premium growth and
 underwriting results, showing consistent profitability that validated
 the float thesis. By 1970, Berkshire's total insurance float had
-grown to $39 million. The 2004 annual report confirmed that the $20
-million of float from 1967 had grown to $46.1 billion by year-end
-2004, and that without National Indemnity, "Berkshire would be lucky
-to be worth half of what it is today."
+grown to $39 million. The 2004 annual report reported that the
+approximately $20 million of float obtained in 1967 had grown to
+$46.1 billion by year-end 2004 through internal growth and
+acquisitions.
 
 ### The Illinois National Bank: 2% Return on Deposits
 
@@ -618,46 +620,43 @@ constraint on investment performance.
    https://berkshirehathaway.com/SpecialLetters/WEB%20past%20present%20future%202014.pdf [high]
 
 2. Berkshire Hathaway Inc. (1965). Annual Report, Fiscal Year Ended
-   October 2, 1965. Archive.org, Berkshire Hathaway Annual Reports
-   Collection.
+   October 2, 1965. Digitized primary report.
    https://archive.org/download/berkshirehathawayannualreports/berkshirehathaway1965_text.pdf [high]
 
-3. Buffett, W. (1969-1975). Letters to Berkshire Shareholders.
-   Redfield, Blonsky & Starinsky, LLC; stableboyselections.com;
-   rbcpa.com archives. [high]
+3. Berkshire Hathaway Inc. (1970). Annual Report to Stockholders,
+   52 Weeks Ended January 2, 1971. Digitized primary report.
+   https://dn790006.ca.archive.org/0/items/berkshirehathawayannualreports/berkshirehathaway1970_text.pdf [high]
 
-4. Buffett, W. (2004). Chairman's Letter, 2004 Annual Report.
-   Insurance Journal, March 8, 2005.
-   https://www.insurancejournal.com/news/national/2005/03/08/52382.htm [high]
+4. Buffett, W. (1975). Berkshire Hathaway Letter to Stockholders.
+   Primary letter reproduction, Redfield, Blonsky & Starinsky, LLC.
+   https://www.rbcpa.com/warren-e-buffett/buffett-letters-1959-present/1975-berkshire-letter [high]
 
-5. Buffett, W. (2006). Chairman's Letter, 2006 Annual Report
-   (Blue Chip Stamps commentary).
-   Berkshire Hathaway annual report archives. [high]
+5. Buffett, W. (2000). Chairman's Letter, 2000 Annual Report.
+   Berkshire Hathaway Inc.
+   https://www.berkshirehathaway.com/2000ar/2000letter.html [high]
 
-6. Buffett, W. (2017). Chairman's Letter, 2017 Annual Report
-   (float cost commentary).
-   Berkshire Hathaway annual report archives. [high]
+6. Buffett, W. (2006). Chairman's Letter, 2006 Annual Report.
+   Berkshire Hathaway Inc.
+   https://www.berkshirehathaway.com/letters/2006ltr.pdf [high]
 
-7. Wikipedia. "Berkshire Hathaway."
-   https://en.wikipedia.org/wiki/Berkshire_Hathaway [medium]
+7. Buffett, W. (2007). Chairman's Letter, 2007 Annual Report.
+   Berkshire Hathaway Inc.
+   https://www.berkshirehathaway.com/2007ar/2007ar.pdf [high]
 
-8. Wikipedia. "Seabury Stanton."
-   https://en.wikipedia.org/wiki/Seabury_Stanton [medium]
+8. Berkshire Hathaway Inc. (2013). 2013 Annual Report.
+   https://www.berkshirehathaway.com/2013ar/2013ar.pdf [high]
 
-9. Wikipedia. "See's Candies."
-   https://en.wikipedia.org/wiki/See%27s_Candies [medium]
+9. Buffett, W. (2017). Chairman's Letter, 2017 Annual Report.
+   Berkshire Hathaway Inc.
+   https://www.berkshirehathaway.com/letters/2017ltr.pdf [high]
 
-10. Wikipedia. "Blue Chip Stamps."
-    https://en.wikipedia.org/wiki/Blue_Chip_Stamps [medium]
+10. Berkshire Hathaway Inc. (2024). 2024 Annual Report.
+    https://www.berkshirehathaway.com/2024ar/2024ar.pdf [high]
 
-11. Enterprising Investor. "National Indemnity: How Buffett Acquired
-    His First Insurer." Analysis of the 1967 acquisition and its
-    financing.
-    https://enterprising-investor.com/national-indemnity-acquisition/ [medium]
-
-12. Olson, M. "Warren Buffett and the Washington Post." FutureBlind.
-    Analysis of the 1973 purchase and intrinsic value estimate.
-    https://futureblind.com/p/warren-buffett-washington-post [medium]
+11. Insurance Journal. (2005). "Berkshire Hathaway Chairman Warren
+    Buffett on Insurance Economics and 2004 Results." Reproduces the
+    2004 letter's discussion of National Indemnity and float growth.
+    https://www.insurancejournal.com/news/national/2005/03/08/52382.htm [medium]
 
 ## See Also
 
