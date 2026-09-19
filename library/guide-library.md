@@ -216,7 +216,11 @@ area. They use `scripts/library-publish.py` for local publication; the
 existing `repo-pull.sh` watcher owns push/pull. No additional service or cron
 is required. Research and drafting stay outside the shared working tree.
 
-1. Capture inputs with the helper's read-only snapshot command. Include the
+1. Create this run's directory with `mktemp -d /tmp/library-cycle.XXXXXX`.
+   Keep all cycle-created snapshots, drafts, downloads, and requests inside it.
+   Use the returned path; never invent or reuse a directory. `/tmp/<cycle>`
+   below means that exact path. Capture inputs with the helper's read-only
+   snapshot command. Include the
    queue when relevant, selected topic paths, anchors/indexes used for the
    decision, and a prospective new topic path to confirm its absence:
 
@@ -231,8 +235,8 @@ is required. Research and drafting stay outside the shared working tree.
    not a substitute for reading. Merge snapshots only while their catalog
    fingerprint remains consistent; changed inputs require renewed checks.
 
-2. Prepare complete ASCII drafts and a JSON request in a unique OS temporary
-   directory, readable by the clone owner. Never prepare live queue/topic/log
+2. Prepare complete ASCII drafts and a JSON request in that directory,
+   readable by the clone owner. Never prepare live queue/topic/log
    edits in the clone. The request has this shape:
 
    ```json
@@ -298,13 +302,26 @@ is required. Research and drafting stay outside the shared working tree.
    Ordinary pre-commit failures restore this request's files and staging.
    Forced termination or a post-commit verification failure requires inspection;
    do not blindly retry or reset committed history. Retain needed scratch for
-   diagnosis, and remove your own scratch after verified success.
+   diagnosis until the failure is resolved.
 
 5. After the lock is released, verify the particular commit reached the remote
    mirror. If watcher reconciliation changed its hash, verify the intended
    file content and log entry on the remote instead. AHEAD: 0 or an unrelated
    fresh line in `/srv/brain/logs/brain-pull.log` alone is insufficient. Never
    wait for the watcher while holding its sync lock.
+
+6. After remote verification, leave the cycle directory and remove only the
+   directory created for this run. Substitute its exact path below; issue
+   deletion and verification as separate tool calls. Do not use variables,
+   wildcards, extra deletion targets, or chained deletion commands.
+
+   ```bash
+   rm -rf -- /tmp/<cycle>
+   test ! -e /tmp/<cycle> && test ! -L /tmp/<cycle>
+   ```
+
+   PASS: deletion and absence check both exit zero. Otherwise HALT and report
+   the path and failure; do not retry a refusal through another execution method.
 
 The lock protects cooperating library processes and watcher synchronization.
 It does not protect against writers that bypass this procedure. It also does
