@@ -1,0 +1,111 @@
+<!-- library.log archive -- ENT-334 to ENT-346
+     Moved from active log on 2026-09-19 09:20 UTC
+     Active log continues from ENT-347 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-334] | 2026-09-01 19:33 UTC | Library Runner | library | ref: library/sociology-demography/migration-causes-patterns-and-consequences.md | see: candidate-migration-causes-patterns-and-consequences-20260901
+Wrote topic Migration: The Demographic Process That Reshapes Sending and Receiving Societies to sociology-demography. Weighted score: 9.45/10.0
+(core=9.5, scope=9.5, value=9.5, authority=9.0).
+Similarity overlap: 15%.
+Sources: 12 (12 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-335] | 2026-09-01 19:46 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 7 candidates proposed, 4 dropped (queue capped at 25).
+Candidates:
+- Comparative Political Regimes: Democracies, Autocracies, and Hybrid Systems (9.15): gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0
+- Supply Chain and Procurement Strategy: Sourcing as a Competitive Weapon (9.12): gap=9.0, compounding=8.5, timeliness=9.5, balance=10.0
+- Public Policy Design and Implementation: From Legislative Intent to Observable Outcomes (8.65): gap=8.5, compounding=9.0, timeliness=7.5, balance=10.0
+- Interest Groups and Lobbying: Organized Influence on Policy (8.62): gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Organizational Culture and Incentive Systems: The Behavioral Infrastructure of Execution (8.55): gap=8.5, compounding=9.0, timeliness=7.0, balance=10.0
+- Agent Sandboxing and Security: Isolating AI Agents That Execute Code and Call Tools (8.15): gap=9.0, compounding=8.0, timeliness=9.0, balance=5.0
+- Economics of Education and Credentialing: Human Capital, Signaling, and Returns (8.00): gap=8.5, compounding=9.0, timeliness=8.0, balance=5.0
+Dropped (below cut):
+- Ocean Currents and Marine Systems (7.75): gap=8.5, compounding=8.0, timeliness=8.0, balance=5.0
+- Natural Disaster Mechanisms: Earthquakes, Volcanoes, and Storms (7.73): gap=8.5, compounding=7.5, timeliness=8.5, balance=5.0
+- Human-in-the-Loop Agent Design: When to Hand Control Back to People (7.62): gap=8.5, compounding=7.5, timeliness=8.0, balance=5.0
+- Online Learning and MOOCs: Scale, Access, and the Limits of Digital Pedagogy (7.43): gap=8.0, compounding=7.5, timeliness=8.0, balance=5.0
+Domain balance: political-science-public-policy, business-management-strategy (4 topics each) to value-investing, case-studies (18 and 17 topics).
+
+## [ENT-336] | 2026-09-01 20:07 UTC | Library Runner | library | ref: library/engineering-infrastructure/infrastructure-resilience-climate-adaptation.md | see: candidate-infrastructure-resilience-climate-adaptation-20260901
+Wrote topic Infrastructure Resilience and Climate Adaptation to engineering-infrastructure. Weighted score: 9.18/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 15%.
+Sources: 14 (13 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-337] | 2026-09-01 20:19 UTC | Library Runner | library | ref: library/political-science-public-policy/political-parties-party-systems.md | see: candidate-political-parties-party-systems-20260901
+Wrote topic Political Parties and Party Systems to political-science-public-policy. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 15%.
+Sources: 8 (7 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-338] | 2026-09-01 20:46 UTC | Library Runner | library | ref: library/engineering-infrastructure/transport-infrastructure-roads-railways-ports-airports.md | see: candidate-transport-infrastructure-20260901
+Wrote topic Transport Infrastructure: Roads, Railways, Ports, and Airports to engineering-infrastructure. Weighted score: 9.08/10.0
+(core=9.5, scope=9.0, value=8.5, authority=9.0).
+Similarity overlap: 15%.
+Sources: 14 (13 high, 1 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-339] | 2026-09-01 21:02 UTC | Library Runner | library | ref: library/business-management-strategy/pricing-strategy-and-pricing-power.md | see: candidate-pricing-strategy-and-pricing-power-20260901
+Wrote topic Pricing Strategy and Pricing Power to business-management-strategy. Weighted score: 9.25/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 15%.
+Sources: 16 (11 high, 5 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-340] | 2026-09-01 21:19 UTC | Library Runner | library | ref: library/business-management-strategy/resource-allocation-and-capital-budgeting.md | see: candidate-resource-allocation-and-capital-budgeting-20260901
+Wrote topic Resource Allocation and Capital Budgeting to business-management-strategy. Weighted score: 9.175/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 20%.
+Sources: 16 (8 high, 8 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-341] | 2026-09-01 21:31 UTC | Library Runner | library | ref: library/political-science-public-policy/corruption-accountability-institutional-quality.md | see: candidate-corruption-accountability-institutional-quality-20260901
+Wrote topic Corruption, Accountability, and Institutional Quality to political-science-public-policy. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 14 (12 high, 2 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-342] | 2026-09-01 21:47 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 6 candidates proposed, 10 dropped (queue capped at 25).
+Candidates:
+- Political Economy of Development (9.15): gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0
+- Turnaround Management and Crisis Management (9.05): gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0
+- Sociology of Work and Labor Markets (9.02): gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0
+- Race and Ethnicity as Social Systems (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Telecommunications Physical Infrastructure (8.90): gap=9.0, compounding=8.0, timeliness=9.0, balance=10.0
+- Innovation Management (8.68): gap=9.0, compounding=7.5, timeliness=8.5, balance=10.0
+Domain balance: business-management-strategy, engineering-infrastructure, investment-vehicles-fund-structures, political-science-public-policy, sociology-demography (6 topics each) to value-investing (18 topics).
+
+## [ENT-343] | 2026-09-01 23:01 UTC | Library Runner | library | ref: library/investment-vehicles-fund-structures/family-offices-structure-governance-capital-allocation.md | see: candidate-family-offices-structure-governance-and-capital-allocation-20260901
+Wrote topic Family Offices: Structure, Governance, and Capital Allocation to investment-vehicles-fund-structures. Weighted score: 8.80/10.0
+(core=9.0, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: 15%.
+Sources: 12 (7 high, 5 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-344] | 2026-09-01 23:33 UTC | Library Runner | library | ref: library/investment-vehicles-fund-structures/closed-end-funds-investment-trusts.md | see: candidate-closed-end-funds-and-investment-trusts-20260901
+Wrote topic Closed-End Funds and Investment Trusts to investment-vehicles-fund-structures. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 12 (8 high, 4 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-345] | 2026-09-01 23:53 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 2 candidates proposed, 10 dropped (queue capped at 25).
+Candidates:
+- Sovereign Debt Dynamics (8.85): gap=9.5, compounding=8.5, timeliness=9.0, balance=7.5
+- Regulatory Institutions and Independent Agencies (8.83): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+Domain balance: business-management-strategy, engineering-infrastructure, political-science-public-policy, sociology-demography (6 topics each) to value-investing (18 topics).
+
+## [ENT-346] | 2026-09-02 00:31 UTC | Library Runner | library | ref: library/political-science-public-policy/welfare-state-design-and-social-policy.md | see: candidate-welfare-state-design-and-social-policy-20260901
+Wrote topic Welfare State Design and Social Policy to political-science-public-policy. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 14 (11 high, 3 medium, 0 low).
+Cross-references: 5 topics.
+
