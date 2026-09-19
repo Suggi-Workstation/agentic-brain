@@ -29,8 +29,8 @@ Berkshire Hathaway's corporate lineage stretches back to two New
 England textile manufacturers: the Hathaway Manufacturing Company,
 founded in 1888 in New Bedford, Massachusetts, and the Berkshire Fine
 Spinning Associates, founded in 1889 in Pittsfield, Massachusetts.
-The two merged in 1955 to form Berkshire Hathaway, a company with 15
-plants employing over 12,000 workers and over $120 million in revenue,
+The two merged in 1955 to form Berkshire Hathaway, a company with 14
+plants employing 10,000 workers and over $120 million in revenue,
 headquartered in New Bedford. Within five years of the merger, seven
 plants had been closed and the workforce reduced, as the American
 textile industry entered a long structural decline driven by low-cost
@@ -73,10 +73,11 @@ capital and a shrinking asset base.
 
 The 1965 fiscal year (ended October 2, 1965) showed a dramatic one-year
 improvement under Chace: net earnings of approximately $2.3 million
-versus $125,000 the prior year, largely from shutting down the
-least-productive plants. But Buffett recognized this as a one-time
-restructuring benefit, not evidence that textiles had become a good
-business. The structural disadvantage remained intact. The company's
+versus $125,000 the prior year. The report described overhead reductions
+and anticipated continued profitable operations. Buffett's 2014
+retrospective recalled two years of good operating conditions after
+the takeover, not merely a one-time restructuring benefit. Those
+conditions did not remove the structural disadvantage. The company's
 textile operations employed approximately 2,300 workers across seven
 mills, producing cotton and synthetic fabrics for apparel and
 industrial uses.
@@ -197,6 +198,9 @@ float acquired in 1967 had grown to $46.1 billion through internal
 growth and acquisitions. Float is valuable only when its underwriting
 cost is acceptable; a profitable underwriting operation is paid to
 hold it, while underwriting losses make it a costly source of funds.
+In his 2004 letter, reproduced by Insurance Journal, Buffett wrote:
+"Indeed, had we not made this acquisition, Berkshire would be lucky
+to be worth half of what it is today."
 This is the structural advantage the textile business lacked: a textile
 mill requires capital infusions to maintain operations and generates
 poor returns; an insurance company receives policyholder funds before
@@ -290,11 +294,11 @@ he "felt I had finally found a sure thing."
 The Blue Chip Stamps investment introduced a structural complexity:
 Buffett held stakes both personally and through Berkshire and
 Diversified Retailing, creating overlapping ownership interests that
-would attract SEC scrutiny in the mid-1970s. The resolution of that
-scrutiny -- merging Diversified Retailing and Blue Chip into Berkshire
-in 1983 -- simplified the structure and made Charlie Munger vice
-chairman, but it also illustrates that the 1965-1975 period was
-not a clean, linear progression. It was a tangle of cross-holdings,
+would attract SEC scrutiny in the mid-1970s. The structure was
+simplified in stages: Buffett's 1978 letter dates the Diversified
+Retailing merger to December 30, 1978; Blue Chip followed in 1983.
+These separate transactions illustrate that the 1965-1975 period
+was not a clean, linear progression. It was a tangle of cross-holdings,
 partnership interests, and regulatory entanglements that took a decade
 to unwind.
 
@@ -326,21 +330,21 @@ and that See's Candies would crystallize in 1972.
 
 ## Evidence
 
-### The 1965 Annual Report: One-Time Recovery, Structural Decline
+### The 1965 Annual Report: Cyclical Recovery, Structural Decline
 
 The 1965 annual report (fiscal year ended October 2, 1965) provides
 the financial baseline for the decade. Net earnings were $2,279,206,
 up from $125,086 the prior year. Working capital stood at $17,869,526
 ($17.56 per share), and stockholders' equity was $24,520,114 ($24.10
 per share). The share count had been reduced to 1,017,547 through
-retirements. The earnings recovery was attributable to plant
-closures and cost reductions, not to revenue growth or margin
-expansion in a viable business. Buffett's private assessment, as
-reconstructed from later commentary, was that 1965's results
-represented a one-time restructuring benefit, not a sustainable
-improvement. The textile industry's structural disadvantage -- high
-labor costs, aging machinery, capital intensity with no pricing
-power, and Southern/overseas competition -- remained intact.
+retirements. The report described plant closures and overhead
+reductions, but also substantial order backlogs and an expectation
+of continued profits. Buffett's 2014 retrospective describes two
+years of good operating conditions after the takeover, followed by
+poor performance over the longer term. The recovery did not resolve
+the textile industry's structural disadvantage: high labor costs,
+aging machinery, capital intensity with no pricing power, and
+Southern/overseas competition.
 
 ### The National Indemnity Acquisition: $8.6 Million for $19.4 Million of Float
 
@@ -360,12 +364,13 @@ Buffett funded the purchase from three sources: $4.6 million
 extracted from textile working capital (optimizing receivables,
 payables, inventory, and fixed assets), $2.6 million in 20-year
 debt at 7.5% interest, and $1.6 million from liquidating part of the
-marketable securities portfolio. The annual reports from 1967
-through 1970 document National Indemnity's premium growth and
-underwriting results, showing consistent profitability that validated
-the float thesis. By 1970, Berkshire's total insurance float had
-grown to $39 million. The 2004 annual report reported that the
-approximately $20 million of float obtained in 1967 had grown to
+marketable securities portfolio. Berkshire's 2007 retrospective table
+shows underwriting profits in 1967-1969 but a $0.4 million underwriting
+loss in 1970, when float reached $39.4 million. The 1975 letter also
+describes an extraordinarily bad underwriting year at National
+Indemnity. Investable float did not imply consistently profitable
+underwriting or a negative cost in every year. The 2004 annual report
+reported that the approximately $20 million of float obtained in 1967 had grown to
 $46.1 billion by year-end 2004 through internal growth and
 acquisitions.
 
@@ -408,13 +413,12 @@ The evidence that this was a float play, not a business-quality
 investment, is in the trajectory: the stamp business collapsed, but
 the float and the businesses acquired through Blue Chip -- See's
 Candies, the Buffalo News, Wesco Financial -- compounded
-spectacularly. By 1983, when Blue Chip was merged into Berkshire,
-the initial $24 million investment had become the vehicle for
-acquiring businesses worth billions. The 2006 annual report
-confirmed that the initial Blue Chip investment was worth
-approximately $60 billion in Berkshire shares after 50 years, all
-from a business whose core revenue declined by nearly 85% over 10
-years.
+spectacularly. Blue Chip became a vehicle for acquiring these
+businesses before its merger into Berkshire in 1983. In the 2006
+letter, Buffett recalled that about 60 billion Blue Chip stamps were
+licked by savers in 1970 and reported that annual stamp-business
+sales had fallen to $25,920 by 2006. The original business declined
+while capital allocated outside it remained productive.
 
 ### See's Candies: $25 Million for a 60% Pre-Tax Return on Tangible Capital
 
@@ -431,15 +435,16 @@ $25 million.
 
 The See's acquisition is the most studied deal in Berkshire's
 history because it marks Buffett's transition from cigar-butt
-investor to franchise investor. Every retrospective Buffett wrote
-about See's -- in 1983, 1991, 1999, 2007, 2011, and 2014 -- adds
-another layer to the same argument: the candy company generated
-roughly $2.8 billion in cumulative pre-tax earnings on approximately
-$65 million of total invested capital, a 43-fold return. The
-mechanism was pricing power: revenue grew at 13.1% annually while
-volume grew more slowly, meaning See's raised prices every year
-without losing customers. The 1965-1975 reports do not yet contain
-the full See's story, but the 1972 acquisition is the inflection
+investor to franchise investor. The 2007 annual report recorded
+$1.35 billion in cumulative pre-tax earnings and only $32 million
+of additional capital invested since acquisition. The 2014
+retrospective reported $1.9 billion in cumulative pre-tax earnings
+and $40 million of additional investment. These are dated cumulative
+earnings and incremental-capital figures, not a return calculated
+from the acquisition price. Pricing power and modest capital needs
+allowed See's to distribute substantial cash to its owners. The
+1965-1975 reports do not yet contain the full See's story, but the
+1972 acquisition is the inflection
 point visible within the decade.
 
 ### The Washington Post: $10.6 Million for a $400-500 Million Intrinsic Value
@@ -490,8 +495,8 @@ important decision a CEO makes: where to deploy capital. Buffett's
 capital allocation during this decade followed a clear hierarchy.
 First, he extracted capital from the declining textile business
 rather than reinvesting it. Second, he deployed that capital into
-insurance, where it purchased float at a negative cost. Third, he
-used the float to acquire operating businesses (Illinois National
+insurance, gaining float whose cost depended on underwriting results.
+Third, he used the float to acquire operating businesses (Illinois National
 Bank, Home and Automobile Insurance) and equity positions
 (Washington Post, Blue Chip Stamps) with favorable economics.
 
@@ -546,10 +551,10 @@ The 1965-1975 reports provide a comparative framework for
 distinguishing good businesses from bad ones, because Buffett was
 simultaneously running both. The textile business required capital
 infusions, generated poor returns, faced structural decline, and
-had no pricing power. National Indemnity generated float at a
-negative cost, required no capital infusions, and could grow by
-writing more premium. Illinois National Bank generated 2%+ returns
-on deposits with minimal loan losses and required no additional
+had no pricing power. National Indemnity supplied investable float,
+but underwriting losses could make that capital costly; premium
+growth alone did not establish value creation. Illinois National Bank
+generated 2%+ returns on deposits with minimal loan losses and required no additional
 capital. See's Candies generated 60% pre-tax returns on tangible
 capital and raised prices annually without losing customers.
 
@@ -573,10 +578,10 @@ Hathaway holding-company structure, and they offer lessons for
 investors evaluating any holding company or permanent-capital
 vehicle. The key question is whether the structure creates value
 beyond the sum of its parts. Berkshire's structure created value
-through insurance float (low-cost capital), decentralized
-management (founder-operators left in place), and tax-deferred
-compounding (no distributions, no realized gains). The textile
-business contributed nothing to this structure except the shell;
+through insurance float (potentially low-cost capital), decentralized
+management (founder-operators left in place), and the retention and
+reinvestment of earnings. The textile business contributed nothing
+to this structure except the shell;
 the value was in the redeployment of its capital and the corporate
 form that allowed the redeployment.
 
@@ -657,6 +662,10 @@ constraint on investment performance.
     Buffett on Insurance Economics and 2004 Results." Reproduces the
     2004 letter's discussion of National Indemnity and float growth.
     https://www.insurancejournal.com/news/national/2005/03/08/52382.htm [medium]
+
+12. Buffett, W. (1978). Chairman's Letter, 1978 Annual Report.
+    Berkshire Hathaway Inc. Dates the Diversified Retailing merger.
+    https://www.berkshirehathaway.com/letters/1978.html [high]
 
 ## See Also
 

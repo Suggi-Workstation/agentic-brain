@@ -93,7 +93,7 @@ committing.
 - [ ] Topics selected have no reviewed date or are at least six calendar months past review; actual frontmatter checked, not only index tags (PASS / HALT)
 - [ ] Domain selection follows descending never-reviewed backlog; no overdue topic selected while any never-reviewed topic remains in the reviewable library; overdue fallback selects the oldest eligible review (PASS / HALT)
 - [ ] Each topic read in full before web-searching (PASS / HALT)
-- [ ] Independent web search conducted; existing sources and new findings checked against the topic's claims; inaccessible sources followed by alternative-source research (PASS / HALT)
+- [ ] Independent web search conducted; factual claims, including unchanged text, checked against supporting source passages; missing passages recovered and derived figures recalculated (PASS / HALT)
 - [ ] Every identified mismatch and substantive gap resolved; incomplete topics logged and excluded from review stamps/publication (PASS / HALT)
 - [ ] Stale, superseded, incorrect, duplicate, or unused sources removed or replaced; affected citations reconciled throughout the topic (PASS / HALT)
 - [ ] Whole final topic passes the Library Topic Checklist, including measured section word counts; creation-only actions excluded as specified below (PASS / HALT)
@@ -174,18 +174,17 @@ the Sources section, and the body structure. Read its full domain anchor
 before preparing corrections. Preserve the original topic identity/author.
 
 **5b. Research and verify.** Perform independent web searches for the
-topic. Read its existing sources and relevant new sources; compare their
-actual findings with the topic's claims. If a source cannot be retrieved,
-find and read an accessible authoritative alternative. Use it to verify the
-claim or replace unsupported passages with verified material, preserving
-the topic's scope and depth. Update source attribution and affected citations
-in step 5d. A retrieval failure alone does not make a claim false. Check:
-- Core factual claims (numbers, dates, study results, named
-  entities).
-- Sources -- do they support the attributed claims? Are they current,
-  accessible, and correctly identified?
-- Any time-sensitive claims (current events, market data, technology
-  specifics, regulatory references).
+topic. Read existing and relevant new sources. Compare each factual
+claim, including unchanged text, with the source's supporting passage
+in context. Verify source identity, numbers, units, dates, denominators,
+quotation attribution, and study findings. Recalculate derived figures
+with a tool and distinguish source findings from interpretation.
+
+If an extract omits the needed passage, retrieve and read the complete
+source or an accessible authoritative alternative. HTTP success does
+not verify claim support. Do not remove a claim, quotation, or source
+solely because it is absent from an excerpt. Resolve discrepancies
+before correcting the draft; reconcile affected citations in step 5d.
 
 **5c. Identify errors and gaps.** Check every section for factual errors,
 unsupported claims, missing concepts, examples, evidence, and applications
@@ -220,6 +219,8 @@ Run the section word-count check and verify every content, source, format,
 and cross-reference requirement. Keep the original ID and author; do not
 repeat creation-only actions (new ID, initial omission of `reviewed`, or
 candidate selection/scoring). Fix failures and recheck the final draft.
+Recheck every occurrence of corrected facts and their citations against
+the sources. Confirm that unchanged claims remain supported.
 If any applicable item remains unconfirmed, record ERROR and do not stamp
 or publish that topic as reviewed. Do not put the checklist in the topic.
 
