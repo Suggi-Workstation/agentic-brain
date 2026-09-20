@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Philosophy of Science -- What Distinguishes Science From Non-Science and How Theories Are Justified
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 8.93/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
-- **Scope:** Examines the philosophical foundations of scientific inquiry -- what distinguishes science from non-science, how theories are confirmed or falsified, and what scientific progress means. Covers Popper's falsificationism, Kuhn's paradigms, Lakatos's research programmes, the Duhem-Quine thesis, and the realism-instrumentalism debate. Connects epistemology, AI ethics, and the science domain through the frameworks that evaluate whether scientific methods produce reliable knowledge.
-- **Status:** proposed
-
 ## Candidate: Hedge Fund Risk Management -- Leverage, Liquidity, and Failure Modes in Alternative Investment Vehicles
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Librarian
