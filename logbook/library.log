@@ -477,3 +477,11 @@ Wrote topic Human-in-the-Loop Patterns -- When and How to Add Human Oversight to
 Similarity overlap: 30%.
 Sources: 15 (14 high, 1 medium, 0 low).
 Cross-references: 6 topics.
+
+## [ENT-410] | 2026-09-20 14:08 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 3 candidates proposed, 3 skipped (queue capped at 25).
+Candidates:
+- Semiconductor Industry Structure and Economics -- Capital Intensity, Supply Chains, and the Economics of Modern Chips (9.38): gap=9.0, compounding=9.5, timeliness=9.5, balance=10.0
+- Financial Market Microstructure -- How Trading Rules, Liquidity, and Market Makers Determine Prices (9.15): gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0
+- Administrative Law and Agency Rulemaking -- How Regulators Make, Interpret, and Enforce Rules (9.15): gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0
+Domain balance: all selected domains (9 topics) to all selected domains (9 topics).

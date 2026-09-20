@@ -185,3 +185,27 @@
 - **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=8.9)
 - **Scope:** Examines the cryosphere as the system of glaciers, ice sheets, sea ice, snow cover, permafrost, and seasonal freeze-thaw processes that links climate, oceans, freshwater, and sea level. Covers ice mass balance, albedo feedback, glacier flow, ocean-ice interactions, permafrost carbon risks, measurement methods, and the difference between floating sea ice and land ice for sea-level change. Distinguishes physical mechanisms and observations from adaptation engineering and climate policy. Connects atmospheric warming, paleoclimate records, ocean circulation, and coastal exposure through the changing ice component of the Earth system.
 - **Status:** proposed
+
+## Candidate: Semiconductor Industry Structure and Economics -- Capital Intensity, Supply Chains, and the Economics of Modern Chips
+- **Domain:** industries-sectors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 9.38/10.0 (gap=9.0, compounding=9.5, timeliness=9.5, balance=10.0)
+- **Scope:** Examines semiconductor production as an industry shaped by fab capital intensity, foundry specialization, design-tool dependence, capacity cycles, and geopolitical supply concentration. Covers the value chain from chip design through fabrication, equipment, packaging, and distribution, together with industry metrics such as utilization, node-transition costs, and revenue concentration. Connects capital-cycle analysis, global supply chains, and technology disruption without analyzing a single company.
+- **Status:** proposed
+
+## Candidate: Financial Market Microstructure -- How Trading Rules, Liquidity, and Market Makers Determine Prices
+- **Domain:** finance
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
+- **Scope:** Examines financial market microstructure: how orders become trades and how market rules affect liquidity, transaction costs, and price discovery. Covers order types, bid-ask spreads, market makers, exchanges, dark pools, auctions, tick sizes, and the roles of high-frequency trading and clearing. Connects financial-market mechanics, securities regulation, and valuation inputs without becoming a trading strategy or portfolio-construction guide.
+- **Status:** proposed
+
+## Candidate: Administrative Law and Agency Rulemaking -- How Regulators Make, Interpret, and Enforce Rules
+- **Domain:** law-regulation
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
+- **Scope:** Examines administrative law as the framework governing how agencies receive authority, make rules, adjudicate disputes, conduct enforcement, and face judicial review. Covers delegations, notice-and-comment rulemaking, interpretive rules, due process, standards of review, and agency discretion. Connects securities, environmental, and health regulation through the legal process that turns statutes into enforceable rules, without treating political administration or market effects as the primary subject.
+- **Status:** proposed
