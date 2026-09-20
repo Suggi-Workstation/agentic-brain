@@ -2,7 +2,7 @@
 
 13 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
 
-- [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: never] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules across their territory. Public administration is the discipline and practice that studies, designs, and reforms that apparatus. The central proposition of the field is that the organizational structure of the executive branch -- how officials are recruited, how...
+- [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: 2026-09-20] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules, while public administration is the discipline and practice that studies, designs, and reforms that apparatus. The field examines how recruitment, authority, discretion, procedure, and performance systems affect the conversion of legal mandates into outcomes.
 
 - [Comparative Political Regimes -- How Institutional Design Separates Democracies From Autocracies and Why the Boundary Is Blurring](comparative-political-regimes.md) -- [reviewed: never] -- Political regimes are the sets of formal and informal rules that determine who holds power, how power is exercised, and how rulers are held accountable. The comparative study of regimes classifies political systems into democracy, autocracy, and an increasingly prominent hybrid zone that combines elements of both.
 
