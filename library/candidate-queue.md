@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Media Ecosystem and Platform Dynamics -- How Digital Platforms Structure Information Production and Distribution
-- **Domain:** communication
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 9.10/10.0 (gap=9.0, compounding=9.0, timeliness=9.5, balance=9.0)
-- **Scope:** Examines how digital platforms structure information production, distribution, and consumption. Covers algorithmic curation, attention economics, platform monopolies, content moderation, and the shift from broadcast to networked media. Connects propaganda analysis, McLuhan's medium theory, journalism ethics, and technology through the infrastructure that determines what information reaches whom and why.
-- **Status:** proposed
-
 ## Candidate: Ecosystem Science and Ecology -- How Organisms and Environment Form Functional Systems
 - **Domain:** earth-climate
 - **Proposed by:** Librarian
