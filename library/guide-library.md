@@ -216,9 +216,8 @@ area. They use `scripts/library-publish.py` for local publication; the
 existing `repo-pull.sh` watcher owns push/pull. No additional service or cron
 is required. Research and drafting stay outside the shared working tree.
 
-1. Create this run's directory with `mktemp -d <root>/library-cycle.XXXXXX`.
-   Replace `<root>` with either `/tmp` or the current profile's `cache/scratch`
-   directory.
+1. Create this run's directory in Hermes's scratch space with
+   `mktemp -d "$TMPDIR/library-cycle.XXXXXX"`.
    Keep all cycle-created snapshots, drafts, downloads, and requests inside it.
    Use the returned path; never invent or reuse a directory. `<cycle-dir>`
    below means that exact path. Capture inputs with the helper's read-only
@@ -323,8 +322,7 @@ is required. Research and drafting stay outside the shared working tree.
 
 6. After remote verification, confirm `<cycle-dir>` is the directory created
    for this run, is not a symlink, and is no longer in use. Preserve required
-   evidence and leave the directory before cleanup. Cron permissions cover
-   this run-directory format in either location from step 1.
+   evidence and leave the directory before cleanup.
    Substitute the exact absolute path returned by `mktemp`. Use one literal
    deletion target, without variables, wildcards, or chained commands:
 
