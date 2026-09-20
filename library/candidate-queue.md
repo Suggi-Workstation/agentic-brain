@@ -30,14 +30,6 @@
 
 
 
-## Candidate: Currency and Exchange Rates -- How the Value of Money Itself Becomes a Macroeconomic Variable
-- **Domain:** macro-micro
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
-- **Scope:** Examines currency valuation and exchange rate determination as a core macroeconomic variable. Covers purchasing power parity, interest rate parity, the Mundell-Fleming model, fixed versus floating regimes, currency crises, and the role of the dollar as global reserve currency. Connects monetary policy, trade, and inflation dynamics through the exchange rate as the price that links domestic and international economies.
-- **Status:** proposed
-
 ## Candidate: Educational Technology and Adaptive Learning -- When Technology Improves Learning and When It Does Not
 - **Domain:** education-learning
 - **Proposed by:** Librarian
@@ -221,3 +213,4 @@
 - **Discovery score:** 8.76/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=8.9)
 - **Scope:** Examines groundwater and aquifer systems as slow-moving freshwater reservoirs coupled to recharge, surface water, land use, and climate. Covers aquifer types, recharge and depletion, subsidence, contamination, saltwater intrusion, and monitoring limits. Connects water availability to resource depletion, ecosystems, drought, and climate variability without treating water policy or infrastructure design as the primary subject.
 - **Status:** proposed
+
