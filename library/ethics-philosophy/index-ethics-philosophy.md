@@ -1,6 +1,6 @@
 # Ethics Philosophy -- Topics
 
-10 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+11 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
 - [AI Ethics -- Moral Frameworks Are the Rate-Limiting Step for Machine Intelligence, Not Compute](ai-ethics.md) -- [reviewed: never] -- AI ethics is the systematic study of the moral principles that should govern the design, deployment, and regulation of artificial intelligence systems. Unlike adjacent technical disciplines that ask "can we build it," AI ethics asks "should we build it, under what constraints, and who bears responsibility when it causes harm.
 
@@ -11,6 +11,8 @@
 - [Epistemology -- Knowing Something Is Harder Than It Looks, and That Is the Point](epistemology.md) -- [reviewed: never] -- Epistemology is the branch of philosophy that asks what it means to know something, how knowledge differs from mere belief, and what justifies our claims to know. Far from an academic abstraction, epistemology is the operating system underneath every domain of human inquiry -- from science and law to investing and everyday reasoning -- because every field that claims to "know" anything inherits its standards of knowledge from epistemology, whether it acknowledges this or not.
 
 - [Free Will and Determinism -- Why the Debate About Whether We Choose Our Actions Remains Philosophy's Most Consequential Unresolved Question](free-will-determinism.md) -- [reviewed: never] -- The free will debate asks whether human beings genuinely choose their actions or whether every decision is the inevitable result of prior causes beyond our control. This is not an academic curiosity -- it is the foundation upon which moral responsibility, criminal justice, praise, blame, and our deepest sense of self all rest.
+
+- [Logic and Critical Thinking -- Formal and Informal Tools Make Arguments Testable](logic-and-critical-thinking.md) -- [reviewed: never] -- Logic identifies whether conclusions follow from reasons, while critical thinking tests whether those reasons are acceptable, relevant, sufficient, and responsive to alternatives. Used together, formal and informal methods turn persuasive language into claims that can be reconstructed, challenged, revised, and either warranted or rejected [1, 2, 4, 8].
 
 - [Normative Ethics -- How Deontology, Consequentialism, and Virtue Ethics Give Radically Different Answers to "What Should I Do?"](normative-ethics.md) -- [reviewed: never] -- Normative ethics is the branch of moral philosophy that asks the most practical question in all of ethics: what makes an action right or wrong? Three grand frameworks dominate the Western tradition -- deontology (duty-based ethics, associated with Immanuel Kant), consequentialism (outcome-based ethics, most famously utilitarianism), and virtue ethics (character-based ethics, rooted in Aristotle).
 
