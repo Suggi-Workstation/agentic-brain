@@ -1,6 +1,6 @@
 # Mathematics Statistics -- Topics
 
-11 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
+12 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
 
 - [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md) -- [reviewed: never] -- Bayesian statistics is a framework for inference in which probability represents a degree of belief rather than a limiting relative frequency. At its core is Bayes' theorem, which prescribes exactly how prior knowledge should be combined with observed data to produce updated beliefs -- the posterior distribution.
 
@@ -13,6 +13,8 @@
 - [Information Theory -- How Claude Shannon Made Information a Measurable Quantity, Defined the Absolute Limits of Communication, and Built the Mathematical Foundation of the Digital Age](information-theory.md) -- [reviewed: never] -- Information theory is the mathematical framework, created by Claude Shannon in 1948, for quantifying information, measuring uncertainty, and determining the fundamental limits of data compression and reliable communication. Shannon's decisive move was to discard meaning entirely -- information became a property of probability distributions, and he proved that every communication channel has a fixed capacity below which error-free transmission is possible and above which it is impossible.
 
 - [Linear Algebra -- The Mathematics That Powers Modern Data Science and AI](linear-algebra.md) -- [reviewed: never] -- Linear algebra is the branch of mathematics concerned with vectors, vector spaces, linear transformations, and systems of linear equations. It provides the computational language in which virtually all modern data science, machine learning, and artificial intelligence are expressed: every neural network layer is a matrix multiplication, every dataset is a matrix, and dimensionality reduction from PCA to word embeddings runs on eigenvalues and singular value decomposition.
+
+- [Monte Carlo Methods -- Random Sampling Turns Intractable Models into Quantified Estimates](monte-carlo-methods.md) -- [reviewed: never] -- Monte Carlo methods replace an analytically intractable calculation with repeated evaluations at sampled inputs, producing an estimate together with sampling uncertainty. Their power comes not from randomness alone but from constructing a valid estimator, reducing its variance, and diagnosing whether the realized computation explored the quantities that matter [3, 8].
 
 - [Optimization Theory -- A Common Language for Choosing the Best Feasible Action Under Constraints](optimization-theory.md) -- [reviewed: never] -- Optimization theory turns a stated goal, a set of controllable variables, and a set of limits into a mathematical problem whose feasible solutions can be compared. Its central value is not that every problem has an exact answer, but that it separates modeling assumptions, feasibility, optimality conditions, and computational limits so that a claimed solution can be examined rather than merely asserted.
 
