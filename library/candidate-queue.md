@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Ecosystem Science and Ecology -- How Organisms and Environment Form Functional Systems
-- **Domain:** earth-climate
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 8.93/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
-- **Scope:** Examines ecosystems as functional units where organisms interact with each other and their physical environment. Covers trophic dynamics, energy flow, biogeochemical cycles, succession, keystone species, and the stability-diversity debate. Connects the carbon cycle, biodiversity, ocean acidification, and resource depletion through the ecological systems that sustain life and respond to climate change.
-- **Status:** proposed
-
 ## Candidate: Philosophy of Science -- What Distinguishes Science From Non-Science and How Theories Are Justified
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
