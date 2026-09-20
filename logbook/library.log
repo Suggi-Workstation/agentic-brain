@@ -454,3 +454,10 @@ Review cycle: 0 topics reviewed, 0 current, 0 rewritten.
 Topics:
 - Berkshire Hathaway's Acquisition of BNSF: A Capital Allocation Case Study (case-studies): ERROR, required schema migration conflicts with the review preservation gate.
 Domain coverage: reviewed across 0 domains.
+
+## [ENT-422] | 2026-09-20 17:11 UTC | Librarian | library | ref: library/portfolio-risk-management/hedge-fund-risk-management.md | see: 20260920T170500Z
+Wrote topic Hedge Fund Risk Management -- Leverage, Liquidity, and Failure Modes in Alternative Investment Vehicles to portfolio-risk-management. Weighted score: 9.5/10.0
+(core=9.8, scope=9.2, value=9.4, authority=9.8).
+Similarity overlap: 60%.
+Sources: 14 (14 high, 0 medium, 0 low).
+Cross-references: 6 topics.

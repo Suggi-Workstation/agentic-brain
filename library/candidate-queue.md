@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Hedge Fund Risk Management -- Leverage, Liquidity, and Failure Modes in Alternative Investment Vehicles
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 8.85/10.0 (gap=8.5, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Examines the risk management practices specific to hedge funds and alternative investment vehicles. Covers leverage limits, liquidity gating, stress testing, prime broker counterparty risk, factor exposure decomposition, and the failure modes of Long-Term Capital Management and Archegos. Connects VaR, tail risk hedging, drawdown management, and investment vehicle structures through the risk framework that governs leveraged portfolios.
-- **Status:** proposed
-
 ## Candidate: Logic and Critical Thinking -- The Formal and Informal Tools for Evaluating Arguments
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
