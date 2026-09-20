@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Human-in-the-Loop Patterns -- When and How to Add Human Oversight to AI Agent Workflows
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
-- **Scope:** Examines the design patterns for incorporating human judgment into AI agent workflows. Covers approval gates, escalation triggers, review checkpoints, the latency-autonomy trade-off, and empirical evidence on when human oversight improves outcomes versus when it adds bottleneck and error. Connects multi-agent orchestration, skill systems, and observability through the control architecture that governs agent autonomy in production.
-- **Status:** proposed
-
 ## Candidate: Productivity Measurement and Economic Growth -- Why Output per Worker Is the Ultimate Long-Run Variable
 - **Domain:** macro-micro
 - **Proposed by:** Librarian
