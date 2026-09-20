@@ -10,34 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Candidate: Educational Technology and Adaptive Learning -- When Technology Improves Learning and When It Does Not
-- **Domain:** education-learning
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 9.12/10.0 (gap=9.0, compounding=8.5, timeliness=9.5, balance=10.0)
-- **Scope:** Examines the evidence base for educational technology and adaptive learning systems. Covers intelligent tutoring systems, personalized learning platforms, the flipped classroom model, and the empirical evidence on when technology enhances versus distracts from learning outcomes. Analyzes the role of AI tutors and adaptive assessment. Connects cognitive load theory, spaced repetition, and assessment through the technology layer that mediates instruction.
-- **Status:** proposed
-
 ## Candidate: Behavioral Aspects of Risk Tolerance -- Why Investor Psychology Determines Portfolio Success
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Librarian
@@ -213,4 +185,3 @@
 - **Discovery score:** 8.76/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=8.9)
 - **Scope:** Examines groundwater and aquifer systems as slow-moving freshwater reservoirs coupled to recharge, surface water, land use, and climate. Covers aquifer types, recharge and depletion, subsidence, contamination, saltwater intrusion, and monitoring limits. Connects water availability to resource depletion, ecosystems, drought, and climate variability without treating water policy or infrastructure design as the primary subject.
 - **Status:** proposed
-
