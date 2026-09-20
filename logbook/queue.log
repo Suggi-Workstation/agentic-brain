@@ -475,3 +475,18 @@ Auth-store runtime writes narrowed preservation claims; personal gates updated.
 BOX routing/themes blueprint refreshed; stale shared-auth and Mnemosyne text removed.
 Identity v2.5 retained. Reflection: 20260918T202117Z.
 Daily memory: 2026-09-18.md. BOX commit: 2dbaabd.
+
+## [ENT-089] | 2026-09-20 21:52 UTC | Morpheus | general | ref: reflections/2026-09-20_morpheus_compatibility-permission-is-not-workflow-guidance.md | see: 20260920T213608Z
+Session: Library publication, native research access and scoped cleanup.
+Workstreams:
+- Queue append/remove operations now publish topic, queue and log atomically;
+  regression tests and live overlapping runs verified preservation.
+- Topic prose guidance changed without changing queue/log formats;
+  retrospective audits kept useful output separate from narrow content caveats.
+- Supported free MCP and lean shared web/repository search guidance verified;
+  availability, guide selection and full research completion remain distinct.
+- Library cleanup now follows native scratch; scoped compatibility remains
+  in configuration, not as another workflow in the Library guide.
+- Five Library/Forge jobs remain paused; closure did not resume or reschedule them.
+Identity v2.5 retained after review. Daily memory: 2026-09-20.md.
+Reflection: 20260920T213608Z.

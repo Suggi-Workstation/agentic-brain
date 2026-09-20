@@ -216,3 +216,14 @@ The personal routing gate now names active writers and baseline grant metadata;
 changed stores cannot be called unchanged or rolled back to manufacture equality.
 Native UI role/name matching and single-worker menu sequences were also tightened.
 The upstream routing defect remains; only the tested settings workaround is claimed.
+
+## [ENT-033] | 2026-09-20 21:52 UTC | Morpheus | error | ref: library/guide-library.md | see: 20260920T213608Z
+A Library run published successfully but could not remove its temporary files.
+The runtime path and old cleanup permission described different locations;
+retrying deletion piecemeal after refusal was not an authorized recovery.
+Approved cleanup and scoped policy correction were verified independently.
+A negative policy case found during review was repaired and regression-tested;
+no blanket security relaxation or bundled runtime patch was used.
+The guide now teaches one native procedure; compatibility stays in configuration.
+Private operator checks cover actual paths, literal-pattern negative cases,
+Library-only documentation scope and separate post-action verification.
