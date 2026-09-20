@@ -1,8 +1,10 @@
 # Macro Micro -- Topics
 
-10 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
+11 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
 
 - [Business Cycles -- The Inescapable Rhythm of Boom and Bust That No Policy Can Abolish](business-cycles.md) -- [reviewed: never] -- Business cycles are the recurring fluctuations in aggregate economic activity -- expansions, peaks, contractions, and recoveries -- that have characterized market economies since the Industrial Revolution. Despite decades of macroeconomic research and increasingly sophisticated policy tools, the boom-bust pattern persists, because cycles are driven by multiple interacting forces: demand shocks, monetary instability, productivity swings, and credit-market amplification mechanisms.
+
+- [Currency and Exchange Rates -- The Price of Money Connects Domestic Policy to the World Economy](currency-and-exchange-rates.md) -- [reviewed: never] -- An exchange rate is the price that converts one national money into another, but its economic role is broader than conversion: it transmits monetary policy, inflation, trade prices, capital flows, and financial stress across borders. No single model reliably predicts short-run currency movements; useful analysis instead combines goods-market parity, asset-market returns, policy regimes, balance-sheet exposures, and the international functions of dominant currencies.
 
 - [Fiscal Policy and Government Spending -- Why the Government's Checkbook Is the Economy's Most Contested Instrument](fiscal-policy-and-government-spending.md) -- [reviewed: never] -- Fiscal policy -- the use of government taxation and spending to influence macroeconomic outcomes -- is the second great lever of economic management alongside monetary policy, and the one most directly accountable to voters. Unlike central banks, which operate with technocratic independence, fiscal decisions are made by elected legislatures, which means every spending bill and tax cut is simultaneously an economic intervention and a political act.
 
