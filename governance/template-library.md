@@ -176,9 +176,9 @@ The essential ideas of the topic. What are the building blocks?
 What mental models, frameworks, or principles define this subject?
 Title MAY vary by domain: ## Core Biases by Category,
 ## Core Principles, ## Core Mechanisms. The section itself MUST
-appear. Depth: at least 6 distinct concepts, each developed
-with a concrete example or application. Verified by word count
-on the extracted section text.
+appear. Depth: multiple concepts as the topic requires, each
+developed with a concrete example or application. Verified by
+word count on the extracted section text.
 
 (domain body sections)
 Additional ## sections expanding on specific aspects. MAY appear
