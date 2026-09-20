@@ -30,14 +30,6 @@
 
 
 
-## Candidate: Philosophy of Mind -- The Hard Problem of Consciousness and Why It Remains Unresolved
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 9.02/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0)
-- **Scope:** Examines the philosophical questions about the nature of mind, consciousness, and mental states. Covers the mind-body problem, dualism vs physicalism, functionalism, the hard problem of consciousness, intentionality, and the implications of AI for theories of mind. Connects epistemology, free will, and AI ethics through the question of what it means to have a first-person experience.
-- **Status:** proposed
-
 ## Candidate: Currency and Exchange Rates -- How the Value of Money Itself Becomes a Macroeconomic Variable
 - **Domain:** macro-micro
 - **Proposed by:** Librarian
@@ -181,3 +173,4 @@
 - **Discovery score:** 8.58/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=9.0)
 - **Scope:** Examines the study of signs and symbols as systems of meaning. Covers Peirce's triadic model, Saussure's signifier-signified distinction, denotation vs connotation, codes and myth (Barthes), and the application of semiotic analysis to media, advertising, and culture. Connects linguistics, narrative structure, visual communication, and philosophy of language through the framework for how meaning is produced and interpreted.
 - **Status:** proposed
+
