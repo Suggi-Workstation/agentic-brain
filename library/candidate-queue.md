@@ -185,3 +185,19 @@
 - **Discovery score:** 8.76/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=8.9)
 - **Scope:** Examines groundwater and aquifer systems as slow-moving freshwater reservoirs coupled to recharge, surface water, land use, and climate. Covers aquifer types, recharge and depletion, subsidence, contamination, saltwater intrusion, and monitoring limits. Connects water availability to resource depletion, ecosystems, drought, and climate variability without treating water policy or infrastructure design as the primary subject.
 - **Status:** proposed
+
+## Candidate: Information Architecture and Content Design -- Structuring Information for Findability and Comprehension
+- **Domain:** communication
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=8.9)
+- **Scope:** Examines information architecture and content design as the discipline of organizing, labeling, navigating, and governing information so users can find and understand it. Covers user tasks, content inventories, taxonomies, navigation systems, metadata, findability, accessibility, and evaluation through usability testing and search behavior. Distinguishes information design from software architecture and platform technology. Connects writing craft, technical documentation, journalism, and knowledge-system design through the structural choices that determine whether information remains usable.
+- **Status:** proposed
+
+## Candidate: Cryosphere and Sea-Level Change -- Ice, Feedbacks, and Global Coastal Consequences
+- **Domain:** earth-climate
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=8.9)
+- **Scope:** Examines the cryosphere as the system of glaciers, ice sheets, sea ice, snow cover, permafrost, and seasonal freeze-thaw processes that links climate, oceans, freshwater, and sea level. Covers ice mass balance, albedo feedback, glacier flow, ocean-ice interactions, permafrost carbon risks, measurement methods, and the difference between floating sea ice and land ice for sea-level change. Distinguishes physical mechanisms and observations from adaptation engineering and climate policy. Connects atmospheric warming, paleoclimate records, ocean circulation, and coastal exposure through the changing ice component of the Earth system.
+- **Status:** proposed
