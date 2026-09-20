@@ -1,12 +1,14 @@
 # Portfolio Risk Management -- Topics
 
-9 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
+10 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
 
 - [Behavioral Aspects of Risk Tolerance -- Why Investor Psychology Determines Portfolio Success](behavioral-aspects-of-risk-tolerance.md) -- [reviewed: never] -- A portfolio is successful only if its investor can keep holding and managing it through the conditions for which it was designed. Financial capacity, stated willingness, perceived risk, recent experience, loss aversion, and overconfidence jointly shape that behavior, so an allocation that is mathematically efficient but behaviorally intolerable is not an effective allocation (Sources 1, 9, and 10).
 
 - [Diversification -- Why the Mathematics of Correlation Makes Risk Reduction Real (Until It Does Not)](diversification-mathematics.md) -- [reviewed: never] -- Diversification is the reduction of portfolio risk achieved by combining assets whose returns are less than perfectly correlated. Unlike the common intuition -- "do not put all your eggs in one basket" -- its real power is mathematical: when asset returns do not move in lockstep, the volatility of the whole is less than the weighted average of the volatilities of its parts.
 
 - [Drawdown Analysis and Management -- Why the Math of Recovery Makes Avoiding Big Losses the Highest-Return Strategy](drawdown-analysis-and-management.md) -- [reviewed: never] -- A drawdown is the peak-to-trough decline in a portfolio's value -- the measure of how much an investor has lost from the highest point before a new high is reached. It is the single most consequential risk metric in portfolio management because the mathematics of recovery are asymmetric: a 50 percent loss requires a 100 percent gain to break even, and this asymmetry grows steeper as losses deepen.
+
+- [Hedge Fund Risk Management -- Survival Depends on Governing Leverage, Liquidity, and Concentrated Exposures Together](hedge-fund-risk-management.md) -- [reviewed: never] -- Hedge fund risk management is the integrated control of market exposure, leverage, liquidity, counterparties, concentration, and operations so that a fund can survive adverse conditions without forced liquidation. The central claim is that no risk metric is sufficient by itself: resilience comes from connecting portfolio losses to margin calls, financing withdrawals, investor redemptions, and the time required to exit positions (Sources 1, 2, 4, and 12).
 
 - [The Kelly Criterion -- Why Maximizing Geometric Growth Beats Maximizing Expected Value](kelly-criterion.md) -- [reviewed: never] -- The Kelly criterion is a mathematical formula that determines the optimal fraction of capital to allocate to a favorable bet or investment in order to maximize the long-run compound growth rate of wealth. Published by John L. Kelly Jr. at Bell Labs in 1956 as a result in information theory, it has become a foundational concept in quantitative trading, sports betting, and institutional portfolio management.
 
