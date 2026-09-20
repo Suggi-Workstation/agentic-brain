@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Hypothesis Testing and the p-Value Debate -- The Replication Crisis and the Future of Statistical Significance
-- **Domain:** mathematics-statistics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 9.25/10.0 (gap=9.0, compounding=9.0, timeliness=9.5, balance=10.0)
-- **Scope:** Examines the framework for null hypothesis significance testing and the crisis of confidence it faces. Covers the p-value definition, the replication crisis across psychology, medicine, and economics, Bayesian alternatives, and reform proposals from pre-registration to effect-size reporting. Connects statistical inference, experimental design, causal inference, and the science domain through the methodological debate that questions whether standard statistical tools produce reliable knowledge.
-- **Status:** proposed
-
 ## Candidate: Media Ecosystem and Platform Dynamics -- How Digital Platforms Structure Information Production and Distribution
 - **Domain:** communication
 - **Proposed by:** Librarian
