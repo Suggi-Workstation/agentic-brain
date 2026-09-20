@@ -6,580 +6,282 @@ domain: case-studies
 author: Librarian
 tags: [berkshire-hathaway, apple, buffett, consumer-franchise, share-buybacks, ecosystem-moat, circle-of-competence, capital-allocation]
 links: [library/value-investing/circle-of-competence.md, library/value-investing/economic-moats.md, library/value-investing/concentration-vs-diversification.md, library/value-investing/capital-allocation.md, library/value-investing/berkshire-annual-reports-2016-2025.md, library/case-studies/apple-turnaround-1997-2010.md]
+reviewed: 2026-09-20
 ---
 
-# Berkshire Hathaway's Apple Investment -- How Consumer Loyalty Reframed a Technology Company
+# Berkshire Hathaway's Apple Investment -- Consumer Loyalty Made a Technology Business Analyzable
 
-Berkshire Hathaway began buying Apple in the first quarter of 2016 and
-built a position that, at its peak, approached 6 percent of Apple's
-outstanding stock and generated the largest realized and unrealized
-gain in Berkshire's history. The investment is notable because Warren
-Buffett had spent decades avoiding technology on the grounds that he
-could not predict which companies would endure. The Apple purchase did
-not abandon that principle; it applied it to a company that had evolved
-into something Buffett could analyze with his existing tools -- a
-consumer franchise with a sticky ecosystem, extraordinary cash
-generation, and a management team returning capital through aggressive
-share repurchases. The case tests how brand loyalty, buybacks,
-valuation, and concentration interact when a value investor reclassifies
-a technology stock as a consumer business.
+Berkshire Hathaway began 2016 with a roughly USD 1.07 billion Apple position and later built a 5.2 percent ownership interest at a cost of USD 36 billion. The case was not a successful forecast of each product cycle: Berkshire's stated reasoning emphasized a sticky consumer ecosystem, recurring behavior, cash generation, and repurchases. By June 30, 2026, after reducing the position by about 75.1 percent from its September 2023 share-count peak, Berkshire still reported 227,917,808 Apple shares, making the full record a case in both moat recognition and concentration control. [1][6][7][10]
 
 ## Background
 
-Warren Buffett's avoidance of technology was a defining feature of his
-public persona for most of his career. He repeatedly stated that he
-avoided tech because he could not predict which companies would
-maintain an advantage over a long horizon. His well-known technology
-experiments were limited: a poorly performing IBM investment initiated
-in 2011 that he later regretted, and a general insistence that fast
-changing industries fell outside his circle of competence. As recently
-as 2012, Buffett vowed that he would not invest in companies like Apple
-or Google (Alphabet). The conventional explanation was that Buffett, a
-self described Luddite who did not use a smartphone, could not evaluate
-hardware or software cycles.
+Berkshire's Apple purchase challenged a familiar description of Warren Buffett's circle of competence. Buffett had long distinguished between knowing that an industry would matter and knowing which company would retain an economic advantage. Fast product cycles, technical obsolescence, and uncertain competitive leadership made many technology businesses difficult to forecast. Apple became investable when Berkshire's analysis shifted from predicting hardware specifications to evaluating consumer behavior, installed relationships, recurring services, and capital allocation. That shift did not make technology risk disappear. It changed which variables Berkshire considered sufficiently durable to analyze. [6][15]
 
-The shift began not with Buffett himself but with his investment
-lieutenants. Berkshire disclosed a position of approximately 9.8
-million Apple shares in its first quarter 2016 13F filing, a stake
-worth roughly USD 1.1 billion at quarter end. The filing revealed that
-the purchase was executed by one of Buffett's two deputies, Todd Combs
-or Ted Weschler, each of whom managed roughly USD 9 billion and
-typically made smaller wagers than Buffett's headline acquisitions.
-Reuters reported that Buffett's assistant confirmed the investment was
-made by one of the two deputies, not by Buffett personally. The stock
-rose 3.7 percent on the news.
+The first disclosed position appeared in Berkshire's Form 13F for the quarter ended March 31, 2016. The filing reported 9,811,747 pre-split Apple shares with a quarter-end value of USD 1,069,382,000. Reuters reported that Buffett's assistant identified the buyer only as one of Berkshire's two investment deputies, Todd Combs or Ted Weschler; the public record did not identify which deputy made that initial purchase. This distinction matters because later commentary often attributes the entire position to Buffett from inception. The evidence supports a deputy-initiated position that Buffett subsequently enlarged and publicly defended, not a Buffett purchase from the first share. [1][2]
 
-The timing is important. Apple had reported its first quarterly revenue
-decline in 13 years in April 2016, shortly after Berkshire's initial
-purchase. Market sentiment was negative: analysts focused on slowing
-iPhone upgrade cycles, a glass ceiling in China, the failure of Project
-Titan (Apple's car initiative), and the perception that Apple had lost
-its innovation edge under Tim Cook. Apple's price to earnings ratio had
-dropped under 13, and the earnings yield was approximately 8 to 9
-percent throughout 2016. The market cap at the end of 2015 was roughly
-USD 600 billion with an enterprise value near USD 460 billion, despite
-fiscal year 2015 net income of USD 53 billion. On an ex cash basis the
-trailing PE was approximately 8.8x. This is the valuation context in
-which Berkshire initiated.
+The operating and valuation setting was unusually favorable for a company of Apple's quality. Apple's fiscal 2015 Form 10-K reported USD 233.715 billion of revenue, USD 53.394 billion of net income, USD 81.266 billion of operating cash flow, and USD 11.247 billion of capital expenditure. It also reported USD 205.666 billion of cash, cash equivalents, and marketable securities against USD 64.462 billion of commercial paper and term debt. Subtracting capital expenditure from operating cash flow gives a simple, non-GAAP free-cash-flow estimate of about USD 70.019 billion; subtracting debt from cash and securities gives net cash of about USD 141.204 billion. [3]
 
-Buffett subsequently increased the position dramatically. By the end of
-2016, Berkshire held roughly 57 million shares worth about USD 6.6
-billion. Through 2017 and into 2018, Berkshire accumulated steadily,
-reaching approximately 252 million shares by the end of 2018 at a cost
-basis of roughly USD 36 billion. By mid 2018, Berkshire's general
-account owned slightly more than one billion shares (split adjusted),
-representing approximately 5.2 percent of Apple. Buffett himself took
-over the buying after the initial deputy purchase and became the
-position's most vocal advocate.
+The initial 13F value divided by the reported share count implies a March 31, 2016 price of about USD 108.99 per pre-split share. Against Apple's fiscal 2015 diluted earnings per share of USD 9.22, that was about 11.8 times trailing earnings. Applying the same price to Apple's September 2015 shares outstanding gives an approximate equity value of USD 608 billion; deducting the fiscal 2015 net-cash figure gives an approximate enterprise value of USD 467 billion, or about 8.7 times fiscal 2015 net income. These are review calculations from the filing data, not acquisition-cost disclosures, and they mix a March 2016 market price with September 2015 balance-sheet data. They nevertheless establish the relevant order of magnitude without treating a rough estimate as a reported fact. [1][3]
 
-The intellectual background also includes the failure that preceded
-the success. Buffett's IBM investment, initiated in 2011, was his prior
-attempt to engage a technology company within a value framework. He
-argued at the time that IBM's entrenched position in enterprise IT
-created a predictable annuity. The thesis did not hold: IBM's revenue
-and free cash flow deteriorated, and Buffett later admitted the
-investment was a mistake, exiting the position entirely by 2018. The
-IBM failure shaped the Apple purchase in two ways. It confirmed
-Buffett's skepticism toward technology companies whose advantages
-depend on maintaining technical leadership. And it sharpened the
-distinction he would draw with Apple: IBM's moat was enterprise
-switching cost in a shifting technology stack, while Apple's moat was
-consumer loyalty in a stable user ecosystem. Charlie Munger captured
-the cultural resistance in 2013, telling Reuters that the whole world
-admires Apple's achievements but "you could hardly think of another
-business that is more un-Berkshire-like than Apple." By 2016, Buffett
-and Munger would set that judgment aside.
+The market also had a concrete reason for caution. On April 26, 2016, Apple reported fiscal second-quarter revenue of USD 50.6 billion and net income of USD 10.5 billion, versus revenue of roughly USD 58.0 billion and net income of roughly USD 13.6 billion in the prior-year quarter. The decline showed the dependence of reported results on iPhone replacement cycles. Berkshire therefore was not buying a business with an uninterrupted current growth record. It was buying a highly profitable franchise at a low multiple while the durability of demand was under debate. [4]
 
-The intellectual lineage runs from See's Candies through Coca-Cola to
-Apple. In each case, the investment was made not because Buffett
-predicted the company's product roadmap but because he recognized a
-franchise whose customers would not leave. See's taught him that a
-brand with pricing power is worth a premium price. Coca-Cola taught him
-that a global consumer franchise with unit growth and capital-light
-distribution compounds for decades. Apple extended the pattern: a
-global consumer franchise with an installed base of over two billion
-devices, recurring services revenue, and a management team returning
-excess cash through buybacks at low multiples. The framework was
-constant; the company that fit it changed.
+Weschler supplied the clearest contemporaneous statement of the thesis in an October 2016 interview with Manager Magazin. He described a "subscription element" in Apple's model and argued that apps, cloud-stored photographs, learned device behavior, and ecosystem familiarity made consumers sticky. The source does not show that Berkshire expected literal subscription revenue from every device. It shows that Berkshire viewed repeat device purchases and ecosystem attachment as economically similar to recurring customer relationships. [6]
+
+Berkshire scaled the investment rapidly. Its 2016 shareholder letter listed 61,242,652 pre-split shares at year-end, with a USD 6.747 billion cost and USD 7.093 billion market value. Buffett's 2020 letter later summarized the broader accumulation: by early July 2018, Berkshire's general account owned slightly more than one billion split-adjusted shares, representing 5.2 percent of Apple, at a cost of USD 36 billion. The difference between the initial filing and the mature position is central to the case. A small deputy position created an opening; Berkshire then committed tens of billions after the consumer-franchise and capital-allocation thesis became part of Buffett's own analysis. [5][7]
+
+The later record prevents a one-sided success narrative. Berkshire's reported Apple share count reached 915,560,382 by September 30, 2023. It then declined to 905,560,000 at year-end 2023, 400,000,000 by June 2024, 300,000,000 by September 2024, and 227,917,808 by December 2025. The June 2026 Form 13F reported the same 227,917,808 shares. The business thesis remained influential, but position size was not permanent. Any useful case study must explain both why Berkshire accumulated and what the later sales do and do not prove. [8][9][10][16]
 
 ## Core Concepts
 
-### Reclassifying a Technology Company as a Consumer Franchise
+### Reclassification by Economic Behavior
 
-The central conceptual move was reframing Apple from a technology
-company subject to innovation cycle risk into a consumer products
-company with a durable brand moat. Buffett articulated this repeatedly.
-He said he viewed Apple not primarily as a technology company but as a
-consumer staple with an extraordinarily loyal customer base. The
-analytical distinction matters: a technology company's competitive
-position depends on maintaining technical superiority across product
-cycles, which Buffett considered unpredictable. A consumer franchise's
-position depends on habit, brand loyalty, and switching costs, which
-Buffett considered analyzable. By focusing on consumer behavior rather
-than semiconductor design or software engineering, Buffett placed Apple
-inside a framework he had used successfully for decades.
+The decisive analytical move was to classify Apple by customer economics rather than by its exchange sector. A conventional technology analysis asks whether a company will lead the next hardware or software cycle. Berkshire's consumer-franchise analysis asked whether users would remain attached, whether the company could earn attractive returns from that attachment, and whether management would distribute excess cash intelligently. The first question remained hard. The latter questions became increasingly observable through repeat purchases, ecosystem growth, services revenue, cash generation, and repurchases. [6][11][15]
 
-This reclassification was not spin. It reflected a genuine change in
-Apple's business model. Under Tim Cook, Apple had evolved from a
-computer manufacturer dependent on hit product launches into an
-ecosystem company generating recurring revenue through services. The
-installed base of devices, the App Store, iCloud, Apple Music, Apple
-Pay, and the broader integration across Mac, iPhone, iPad, Apple Watch,
-and AirPods created switching costs that traditional hardware companies
-could not replicate. A customer who buys an iPhone is more likely to
-buy an iPad, a Mac, AirPods, and subscribe to Apple services. Leaving
-the ecosystem means abandoning that integrated experience, which most
-consumers do not do.
+This was not a claim that Apple had ceased to be a technology company. Apple continued to face rapid innovation, aggressive competition, component dependence, and product-transition risk. Its 2025 Form 10-K describes markets characterized by aggressive pricing, continual performance improvement, and short product life cycles. The same filing says a majority of supplier facilities, including manufacturing and assembly sites, are outside the United States and identifies growing political, legal, and regulatory scrutiny. A sound reclassification therefore says that consumer attachment may make cash flows more durable than a hardware label implies; it does not say that technical and geopolitical risks no longer matter. [11]
 
-### The Ecosystem as a Moat
+The distinction is useful because a circle of competence concerns causal understanding, not an industry blacklist. Berkshire did not need to forecast every chip, camera, or interface. It needed evidence that Apple's integrated products and services made departure inconvenient enough, and continued use valuable enough, to support repeat economics. Weschler's 2016 description of cloud photographs, apps, familiar keystrokes, and functionality is an explicit causal account: accumulated user-specific assets and habits raise the practical cost of switching. [6]
 
-Buffett called Apple's ecosystem a moat -- one of his favorite terms
-for describing a durable competitive advantage. The moat has several
-reinforcing layers. First, the hardware ecosystem: Apple devices work
-together in ways that third party devices do not, creating integration
-value that increases with each additional Apple product a user owns.
-Second, the software and services layer: iMessage, FaceTime, iCloud
-photo sharing, and Apple's continuity features create social and
-practical lock in. Third, the App Store economy: purchased apps and
-subscriptions are tied to the Apple ID, and switching to Android means
-repurchasing or abandoning them. Fourth, the subscription model:
-Weschler explained in October 2016 that Apple has elements of a
-subscription model that protect it from competition and could keep
-margins elevated for the long term. The smartphone business had been
-transformed by the app economy and cloud services into something closer
-to a recurring revenue business than a hardware replacement cycle.
+### The Ecosystem Moat Has Several Layers
 
-The quantitative evidence for this moat is Apple's customer retention.
-According to Consumer Intelligence Research Partners, Apple benefits
-from approximately 94 percent customer loyalty, meaning roughly nine
-out of ten current US iPhone owners choose another iPhone when buying a
-new device. Buffett illustrated the loyalty with a vivid comparison:
-Apple customers pay roughly USD 1,500 for a phone, and if they had to
-give up their second car or their iPhone, they would give up the second
-car. This is the behavioral signature of a consumer franchise, not a
-commodity hardware business.
+Apple's moat is stronger when described as a system rather than as brand preference alone. Hardware integration lets devices exchange data and perform complementary tasks. Software continuity preserves user settings, messages, photographs, applications, and learned workflows. Services add storage, media, payments, support, and distribution relationships. Developers and accessory makers increase the utility of the installed base, while the installed base attracts additional complements. None of these layers makes switching impossible. Together they can make the competing offer insufficiently better to justify the disruption. [6][11][12]
 
-### Share Buybacks as Compounding Without Buying
+The business mix supplies evidence that this was more than rhetoric. Apple's fiscal 2025 Form 10-K reported USD 209.586 billion of iPhone revenue, about 50.4 percent of USD 416.161 billion in total net sales, and USD 109.158 billion of Services revenue, about 26.2 percent of total sales. Services gross margin was 75.4 percent, compared with 36.8 percent for Products. These figures do not prove that every service dollar is protected by switching costs, but they show that Apple had developed a large, high-margin economic layer around its devices. [11]
 
-A second core concept is the role of Apple's share repurchase program
-in compounding Berkshire's ownership without Berkshire spending
-additional capital. Buffett has long praised buybacks when executed at
-reasonable valuations, arguing they increase shareholder value without
-requiring additional effort from investors. Apple became the purest
-illustration of this principle in Berkshire's portfolio.
+Apple reported in January 2026 that its installed base exceeded 2.5 billion active devices. Company statements attribute repeated installed-base records to customer satisfaction and loyalty. Because those are management statements, they are evidence of scale and management's explanation, not independent proof of retention. Independent evidence cited by CNBC in 2024 included Consumer Intelligence Research Partners' estimate of roughly 94 percent U.S. iPhone loyalty, defined around buyers remaining with iPhone when replacing a device. The measure is market- and method-specific, so it should not be generalized into a universal global retention rate. [12][15]
 
-The mechanism is simple but powerful. Apple generates tens of billions
-of dollars in free cash flow annually and uses a substantial portion to
-repurchase its own shares, shrinking the total share count. Because
-Berkshire does not sell, its fixed share count represents a growing
-percentage of a shrinking total. Between 2019 and 2023, Berkshire's
-Apple share count remained roughly flat at approximately 895 million
-shares, while Apple's total share count declined from roughly 22
-billion to approximately 15.5 billion -- Apple bought back roughly 30
-percent of itself. Berkshire's percentage ownership of Apple rose from
-approximately 4.0 percent to approximately 5.8 percent without
-Berkshire buying a single additional share.
+The moat should therefore be tested through multiple observations: installed-base direction, retention studies, services growth, pricing and gross margins, developer participation, and the cost to users of transferring data and habits. No single statistic is sufficient. The strongest inference is that several mechanisms reinforce one another and reduce customer churn; the weaker, unjustified inference would be that loyalty guarantees permanent market leadership.
 
-Buffett explained this dynamic explicitly in his 2020 annual letter. He
-noted that Berkshire began buying Apple stock late in 2016 and by early
-July 2018 owned slightly more than one billion shares (split adjusted)
-at a cost of USD 36 billion, representing 5.2 percent of Apple. Despite
-selling a small portion in 2020 for roughly USD 11 billion, Berkshire's
-ownership had risen to 5.4 percent because Apple continuously
-repurchased its own shares. Buffett then added a second layer: because
-Berkshire itself repurchased its own shares during the same period,
-Berkshire shareholders indirectly owned a full 10 percent more of
-Apple's assets and future earnings than they did in July 2018. The
-compounding operated on two levels -- Apple's buybacks increased
-Berkshire's stake in Apple, and Berkshire's buybacks concentrated that
-stake further for continuing Berkshire shareholders.
+### Repurchases Increased Ownership Without New Berkshire Purchases
 
-### Valuation at Entry: The Cheap Stock Hiding in Plain Sight
+Apple's repurchases converted business cash flow into a larger claim for continuing owners. If a company retires shares while an investor holds its share count constant, that investor's percentage ownership rises. Buffett's 2020 letter gives the cleanest case-specific evidence. Berkshire's general account owned 5.2 percent of Apple after completing its main purchases in 2018. Berkshire sold a small portion in 2020 and received about USD 11 billion, yet its ownership rose to 5.4 percent because Apple repurchased shares. Buffett added that Berkshire's own repurchases meant that continuing Berkshire shareholders indirectly owned 10 percent more of Apple's assets and future earnings than they had in July 2018. [7]
 
-A third core concept is the valuation at which Berkshire initiated the
-position. Despite Apple's market cap of roughly USD 600 billion at the
-end of 2015, the company held roughly USD 160 billion in net cash and
-generated over USD 50 billion in free cash flow that year. On an ex
-cash basis, the trailing PE was approximately 8.8x, and the earnings
-yield was 8 to 9 percent. This placed Apple in the same valuation
-territory as the consumer staples Buffett had historically favored.
-Multiple analysts noted the parallel between Apple's financial profile
-in 2016 and Coca Cola's at the time of Buffett's 1988 purchase: high
-cash balances, a net cash position that exceeded total equity by
-fiscal year 2015, a one product moat (iPhone) with an outsized return on
-invested capital comparable to Coca Cola's, and an aggressive buyback
-program funded by free cash flow and modest debt.
+The long-run share-count record confirms the mechanism. Apple's September 2015 balance sheet reported 5.579 billion pre-split shares outstanding, equivalent to about 22.315 billion after the 2020 four-for-one split. Its 2025 Form 10-K reported 14.776 billion shares outstanding on October 17, 2025. On a split-adjusted point-in-time basis, the decline was about 33.8 percent. Corporate actions and dates require care, but the direction and scale are unambiguous: Apple's repurchases materially reduced the denominator against which Berkshire's ownership was measured. [3][11]
 
-The valuation thesis was not that Apple would compound at 30 percent
-annually. The more probable thesis, supported by the financial profile,
-was that there was no way to lose money at an 8.8x ex cash multiple on a
-business generating USD 50 billion in free cash flow with 94 percent
-customer loyalty. The upside from ecosystem growth and services revenue
-expansion was incremental. The downside was protected by the cash
-balance and the buyback. This is the classic value investing structure:
-a business with a durable moat purchased at a price that made permanent
-capital loss unlikely.
+Repurchases are not automatically valuable. The mechanical percentage increase occurs at any repurchase price, but economic value depends on what the company pays relative to the value of the retired claim and on the alternative uses of cash. Repurchasing materially overvalued shares transfers value away from continuing shareholders; repurchasing undervalued shares transfers value toward them. The Apple case combines the mechanical fact, which is certain, with a valuation judgment, which must be reassessed as price and business value change. [7]
 
-### Concentration and the Willingness to Be Wrong
+### Entry Valuation Created a Margin, Not a Guarantee
 
-Berkshire's willingness to let Apple grow to roughly 40 to 50 percent
-of its disclosed equity portfolio at peak is itself a concept worth
-isolating. Buffett has long argued that diversification is protection
-against ignorance, and that investors who understand a business should
-concentrate. The Apple position tested this principle at scale. At its
-peak, Apple represented a larger stake than any other public company in
-Berkshire's portfolio -- larger than American Express, Bank of America,
-or Coca Cola. Buffett defended the concentration by stating that Apple
-was simply a better business than any other Berkshire owned. "It just
-happens to be a better business than any we own," he said at the 2023
-annual meeting when asked how Berkshire could justify the concentration.
+The initial valuation was attractive because the market price embedded modest expectations relative to Apple's then-current earnings, cash, and cash generation. The review calculations above produce about 11.8 times fiscal 2015 diluted earnings and about 8.7 times fiscal 2015 net income after deducting net cash. A simple fiscal 2015 free-cash-flow estimate was about USD 70 billion. Those figures made Berkshire less dependent on heroic growth assumptions than a high-multiple purchase would have been. [1][3]
 
-The concentration also illustrates the interaction between conviction
-and valuation discipline. Buffett increased the position most
-aggressively when Apple traded at lower multiples -- buying heavily in
-2016 and 2018 when the market was skeptical -- and trimmed when the
-valuation rose. Bernstein analyst Toni Sacconaghi observed that
-despite Buffett's reputation as a buy and hold investor, he was
-remarkably disciplined at adding to Apple when it was relatively cheap
-and trimming when it was relatively expensive.
+They did not make loss impossible. The original topic's statement that there was "no way to lose money" at the entry multiple was too strong. A concentrated product franchise can lose value through technological displacement, regulation, supply interruption, brand damage, poor capital allocation, or a permanent decline in unit economics. Cash held overseas in 2015 also was not equivalent to freely distributable domestic cash without tax and financing considerations then in force. The correct conclusion is narrower: the low earnings multiple, net cash, and high cash generation provided a quantitative margin against ordinary disappointment, while the consumer thesis addressed durability. Neither component eliminated permanent-loss risk. [3][4][11]
 
-### The Deputy to Principal Transfer
+Valuation and moat were complements. A low multiple without durable customer economics could have been a value trap. A strong ecosystem at an excessive price could have produced a poor investment return despite business success. Berkshire's result depended on purchasing a durable franchise before the market assigned it the later valuation and on Apple's ability to convert cash flow into per-share value.
 
-The initial purchase by a deputy rather than Buffett himself is a
-conceptual point about how Berkshire's organizational structure
-enabled the investment. Combs and Weschler each managed roughly USD 9
-billion and had latitude to make purchases without Buffett's prior
-approval. This allowed Berkshire to initiate a position in a sector
-Buffett had historically avoided, with the initial risk borne at a
-smaller scale. Once the thesis was validated by the business's
-performance, Buffett took over and scaled the position to a size that
-only he could authorize. The structure allowed Berkshire to test an
-edge outside Buffett's core competence without requiring Buffett to
-bet his reputation on the first purchase. This is an organizational
-lesson about how to expand a circle of competence: start small through
-delegated authority, validate, then scale on conviction.
+### Concentration Is a Separate Decision From Business Quality
+
+By year-end 2023, Berkshire's Form 13F valued 905,560,000 Apple shares at USD 174.347 billion. Apple represented about half of Berkshire's reported U.S. public-equity value, although a 13F is not a complete balance sheet and excludes Berkshire's controlled businesses, cash, many foreign securities, and other assets. Saying Apple was about half of the disclosed 13F portfolio is accurate; saying half of Berkshire's total economic value would not be. [8][15]
+
+A large weight can arise from purchases, appreciation, repurchases by the investee, or all three. Each mechanism has a different decision implication. Deliberate purchases reveal active allocation. Appreciation increases exposure without a new cash decision. Investee repurchases increase percentage ownership even with a constant share count. Good portfolio analysis separates those pathways before judging whether concentration is intentional or merely tolerated.
+
+Business quality also does not settle position size. The expected return of the next dollar invested depends on price, while the acceptable total weight depends on downside severity, liquidity needs, tax consequences, alternative opportunities, and the investor's other exposures. Berkshire's later sales demonstrate that a company can remain admired while its portfolio weight falls sharply. The sales do not, by themselves, identify which of those variables dominated.
+
+### Public Filings Define the Evidence Boundary
+
+Form 13F supplies quarter-end shares and values, not trade dates, average execution prices, realized gains, decision makers, or reasons. It also reports a defined set of U.S.-listed securities and can aggregate positions held by multiple included managers. Therefore, quarter-to-quarter share differences establish net changes in reported holdings; they do not establish the path of trades within the quarter or the motivation for them. [1][10]
+
+This boundary corrects several common overstatements. Dividing a quarter's reduction by a guessed average market price does not produce a reported sale price. Calling all sales "tax management" extends Buffett's specific explanation for the first-quarter 2024 reduction to later quarters without evidence. Calling the reductions a repudiation of Apple makes the opposite error: Berkshire continued to own 227,917,808 shares through June 2026. The disciplined conclusion is that Berkshire reduced exposure materially, Buffett publicly connected the initial 2024 trim to tax considerations, and the filings do not resolve the full rationale for the subsequent sales. [10][13][16]
 
 ## Evidence
 
-### The 2016 Initiation and Accumulation
+### The Position Record
 
-Berkshire's first quarter 2016 13F filing, disclosed on May 16, 2016,
-revealed a 9.8 million share position in Apple worth approximately USD
-1.1 billion at quarter end. Reuters reported the purchase, noting that
-it was a rare foray into technology for Buffett and that the investment
-was made by one of his two stockpicking deputies, Todd Combs or Ted
-Weschler. The Wall Street Journal confirmed via Buffett's assistant that
-the buy was deputy executed. Apple shares rose 3.7 percent on the news,
-closing at USD 93.88. The purchase occurred before Apple reported its
-first quarterly revenue decline in 13 years in April 2016, meaning
-Berkshire bought into deteriorating sentiment.
+The primary filings show four phases: initiation, accumulation, concentration, and reduction. Values below are the reported quarter-end or year-end market values, not purchase costs or sale proceeds. Pre-2020 historical shares are identified as pre-split where relevant; later shares use the post-split basis. [1][5][7][8][9][10][16]
 
-Berkshire increased the position through the remainder of 2016. By year
-end, the holding had grown to approximately 57 million shares worth
-roughly USD 6.6 billion. The accumulation continued through 2017 and
-into 2018, with Berkshire entertaining purchases of 100 to 200 million
-shares per quarter by the fourth quarter of 2016. By the end of 2018,
-Berkshire held approximately 252 million shares at a cost basis of
-roughly USD 36 billion, owning approximately 5.2 percent of Apple. The
-SEC 13F filings on EDGAR (Berkshire CIK 1067983) document the
-quarter by quarter accumulation and provide the primary source for the
-timeline.
+| Date | Reported Apple shares | Reported value | Evidentiary meaning |
+|:--|--:|--:|:--|
+| 2016-03-31 | 9,811,747 pre-split | USD 1.069 billion | First disclosed position; Reuters attributed it to one unnamed Berkshire deputy. |
+| 2016-12-31 | 61,242,652 pre-split | USD 7.093 billion | Berkshire's letter reported USD 6.747 billion of cost and showed rapid accumulation. |
+| 2018-07, approximately | Slightly more than 1 billion split-adjusted | Not stated in the 2020 summary | Buffett later reported 5.2 percent ownership at USD 36 billion total cost. |
+| 2023-09-30 | 915,560,382 | USD 156.753 billion | Highest share count in the reviewed 2023-2026 filing sequence. |
+| 2023-12-31 | 905,560,000 | USD 174.347 billion | First reduction in the later sequence: 10,000,382 shares. |
+| 2024-03-31 | 789,368,450 | USD 135.361 billion | First-quarter reduction discussed by Buffett at the May 2024 meeting. |
+| 2024-06-30 | 400,000,000 | USD 84.248 billion | The largest quarterly share-count reduction in the sequence. |
+| 2024-09-30 | 300,000,000 | USD 69.900 billion | A further 100 million shares removed from the reported position. |
+| 2024-12-31 | 300,000,000 | USD 75.126 billion | Share count unchanged during the fourth quarter. |
+| 2025-06-30 | 280,000,000 | USD 57.448 billion | Selling resumed in the second quarter of 2025. |
+| 2025-09-30 | 238,212,764 | USD 60.656 billion | A further 41,787,236-share reduction. |
+| 2025-12-31 | 227,917,808 | USD 61.962 billion | Berkshire's annual report listed Apple at 1.6 percent ownership. |
+| 2026-06-30 | 227,917,808 | USD 65.950 billion | Latest reviewed 13F; share count unchanged from year-end 2025. |
 
-### The Buyback Compounding Mechanism in Practice
+From the September 2023 peak of 915,560,382 shares to June 2026, the reported share count fell by 687,642,574, or about 75.1 percent. The remaining position was about 24.9 percent of that peak share count. These percentages were recalculated from the SEC filings. They are not estimates of the fraction of original cost recovered, realized profit, or the percentage of all Apple shares ever purchased. [10]
 
-The most powerful evidence for the buyback thesis is the documented
-change in Berkshire's ownership percentage without additional purchases.
-In his 2020 annual letter, Buffett stated that Berkshire began buying
-Apple late in 2016 and by early July 2018 owned slightly more than one
-billion shares (split adjusted) at a cost of USD 36 billion,
-representing 5.2 percent of Apple. Despite selling a small portion for
-roughly USD 11 billion in 2020, Berkshire's ownership had risen to 5.4
-percent because Apple continuously repurchased its own shares. Buffett
-then noted that because Berkshire also repurchased its own shares
-during the same two and a half year period, Berkshire shareholders
-indirectly owned 10 percent more of Apple's assets and future earnings
-than in July 2018 -- compounding at two levels without Berkshire buying
-a single new Apple share.
+### Operating Evidence at Entry and After the Thesis Matured
 
-Data from the period confirm the share count mechanics. Between 2019
-and 2023, Berkshire's Apple share count remained roughly flat at
-approximately 895 million shares while Apple's total shares outstanding
-declined from roughly 22 billion to approximately 15.5 billion. Apple
-repurchased roughly 30 percent of itself. Berkshire's ownership
-percentage rose from approximately 4.0 percent to approximately 5.8
-percent. This is the buyback compounding mechanism operating exactly as
-Buffett described it.
+Apple's fiscal 2015 statements support the entry case with scale and cash generation: USD 53.394 billion of net income, USD 81.266 billion of operating cash flow, about USD 70.019 billion of operating cash flow less capital expenditure, and about USD 141.204 billion of net cash and marketable securities after commercial paper and term debt. The same report showed that iPhone drove a large part of the business, so the balance sheet and cash flow reduced financial risk but did not remove product risk. [3]
 
-### The Reductions: Discipline or Concern?
+The fiscal 2016 second-quarter decline was an immediate stress test. Revenue fell to USD 50.6 billion from about USD 58.0 billion, and net income fell to USD 10.5 billion from about USD 13.6 billion. Berkshire continued accumulating after that evidence. This supports the interpretation that the thesis was based on normalized customer economics and long-run cash generation rather than an expectation of uninterrupted quarterly growth. [4][5]
 
-Beginning in the fourth quarter of 2023, Berkshire began trimming its
-Apple position. The first reduction was modest -- approximately 10
-million shares (1.09 percent) in Q4 2023. The pace accelerated sharply
-in 2024. In Q1 2024, Berkshire sold 116.19 million shares (12.83
-percent reduction) at an average price of approximately USD 171.48. In
-Q2 2024, Berkshire sold approximately 389.37 million shares (49.33
-percent of the remaining position) at an average price of approximately
-USD 210.62, raising roughly USD 82 billion. Selling continued through
-Q3 2024 (approximately 100 million shares), through 2025 (20 million
-shares in Q2, 41.79 million in Q3, 10.29 million in Q4), reducing the
-position by approximately 75 percent from its peak. By year end 2025,
-Apple remained Berkshire's largest equity holding at approximately USD
-62 billion.
+By fiscal 2025, Apple reported USD 416.161 billion of revenue and USD 112.010 billion of net income. Services revenue had reached USD 109.158 billion, with a 75.4 percent gross margin, while iPhone still supplied just over half of total revenue. The business had become more diversified around the device base, but not independent of the iPhone. Greater China revenue was USD 64.377 billion, down 4 percent from 2024, and Apple's filing continued to identify global supply-chain, competition, product-transition, legal, and regulatory risks. The evidence therefore validates the growth of the ecosystem and cash engine while preserving important disconfirming facts. [11]
 
-Buffett framed the reductions as tax and concentration management rather
-than a loss of conviction in the business. The position had grown to
-represent roughly 40 to 50 percent of Berkshire's disclosed equity
-portfolio at peak, a concentration that created risk even for an
-investor comfortable with concentration. Buffett also noted that
-selling at the then current capital gains tax rate was preferable to
-selling later at potentially higher rates. The reductions illustrate a
-tension: even when the business thesis remains intact, valuation and
-portfolio risk can justify trimming a position that has become too
-large relative to the whole. Apple remained the top holding after the
-reductions, suggesting the sales were sizing adjustments rather than an
-exit.
+Apple's January 2026 report of more than 2.5 billion active devices provides a current scale measure. It does not disclose churn or prove willingness to pay, but it shows that the installed relationship base continued expanding after Berkshire began reducing its stake. That timing matters: declining Berkshire ownership and a growing Apple installed base can coexist, so the sales alone cannot be treated as evidence that the consumer ecosystem collapsed. [12]
 
-The scale of the reduction also reflects a practical constraint on
-Berkshire's size. By 2024, Berkshire's cash balance had risen to a
-record USD 277 billion, with cash and equivalents plus short-term
-government bonds representing roughly 25 percent of total assets, more
-than double the share two years earlier. The Apple sales were the
-largest single contributor to this cash build. Buffett's difficulty
-finding acquisitions large enough to move the needle at Berkshire's
-scale meant that selling Apple into a rising market and holding cash
-was a rational alternative to reinvesting at unattractive prices. The
-reduction is thus evidence not only of concentration discipline but of
-the structural narrowing of Berkshire's opportunity set as its cash
-base grew.
+### Direct Evidence for the Repurchase Thesis
 
-### The 2025 Shareholder Meeting Acknowledgment
+Buffett's 2020 letter is unusually precise. Berkshire completed its principal accumulation with 5.2 percent ownership and USD 36 billion of cost, sold a small portion for about USD 11 billion in 2020, received annual dividends averaging about USD 775 million, and nevertheless ended with 5.4 percent ownership because Apple retired shares. Berkshire's own repurchases then increased each continuing Berkshire shareholder's indirect Apple interest again. This is direct evidence of both layers of denominator reduction, not an inference from stock-price performance. [7]
 
-At Berkshire's 2025 annual shareholder meeting on May 3, 2025, Buffett
-offered a public acknowledgment of the investment's magnitude. He stated:
-"I'm somewhat embarrassed to say that Tim Cook has made Berkshire a lot
-more money than I've ever made Berkshire Hathaway." He referenced the
-approximately 680 percent surge in Apple's stock since Berkshire first
-began acquiring shares in early 2016. Buffett credited Steve Jobs for
-creating Apple and Tim Cook for developing it: "Nobody but Steve could
-have created Apple, but nobody but Tim could have developed it as he
-has." He noted that Apple's quarterly earnings call was the only one he
-tuned into regularly, underscoring the importance he placed on the
-company. The Motley Fool estimated that Apple generated approximately
-USD 150 billion in unrealized gains and USD 5 to 6 billion in dividend
-income for Berkshire, bringing the total contribution to approximately
-USD 155 billion, though noting that Buffett's own cumulative
-contribution to Berkshire's value remained larger.
+The later filings show why the mechanism must be separated from Berkshire's sale decisions. Once Berkshire sold hundreds of millions of Apple shares, Apple's repurchases could no longer keep Berkshire's percentage ownership rising. Berkshire's 2025 annual report listed 1.6 percent ownership at year-end, down from 5.4 percent in Buffett's 2020 account. Repurchases continued to benefit the value per remaining Apple share if conducted attractively, but they did not offset Berkshire's much larger numerator reduction. [7][16]
+
+### What the Reductions Establish
+
+At the May 2024 annual meeting, Buffett discussed Berkshire's first-quarter trim and the possibility that U.S. capital-gains tax rates could rise. He also said it was extremely likely Apple would remain Berkshire's largest common-stock holding at year-end. That explanation applies directly to the reduction known at the meeting. The far larger second-quarter 2024 reduction and subsequent sales were disclosed later. The reviewed primary filings state the holdings but do not give a complete motive. [10][13]
+
+The correct evidence statement is therefore limited. Taxes were part of Buffett's stated reasoning for the initial 2024 sale. Concentration, valuation, liquidity, and opportunity cost are analytically relevant possibilities, but attributing the later sales to any one of them would be interpretation rather than reported fact. The continued 227.9 million-share position through June 2026 is evidence against describing the action as a complete exit, but it does not prove that Berkshire considered the stock undervalued at then-current prices. [10][13][16]
+
+Buffett's 2025 shareholder-meeting praise supplies qualitative continuity. He said he was "somewhat embarrassed" that Tim Cook had made Berkshire more money than Buffett had, credited Steve Jobs with creating Apple and Cook with developing it, and thanked Cook on Berkshire's behalf. That acknowledgment confirms Buffett's assessment of the historical outcome and management. It is not a valuation opinion on the marginal Apple share in 2025. [14]
+
+### Evidence Against a Permanent-Moat Conclusion
+
+Apple's own 2025 risk disclosures identify the main tests that could falsify or weaken the original thesis. The company operates in intensely competitive markets with aggressive pricing and rapid product change. It depends on a complex international supply chain, has substantial exposure to non-U.S. demand, and faces increasing regulation and legal action affecting platform practices and services. Fiscal 2025 iPhone revenue still represented about half of total revenue, while Greater China revenue declined. [11]
+
+These facts do not refute the franchise. They define what must continue to be monitored. A durable ecosystem should show sustained installed-base engagement, retention, pricing power, services economics, developer participation, and cash conversion despite those pressures. If users remain numerous but monetization, margins, or willingness to stay deteriorate, installed-base scale alone would be insufficient. The Apple case is strongest as a record of evidence-based reclassification, not as proof that any moat is permanent.
 
 ## Implications
 
-### For Value Investors: Updating Without Abandoning
+### For Value Investors: Update the Model, Not the Standard
 
-The primary implication for value investors is that a circle of
-competence is not static. Buffett did not abandon his principles to buy
-Apple; he recognized that Apple had evolved into a business that fit
-his existing framework. The lesson is not that value investors should
-buy technology stocks. The lesson is that investors should watch for
-cases where a company's business model has changed such that it now
-fits an analytical framework the investor already commands. Apple's
-transition from a hardware company dependent on innovation cycles to
-an ecosystem company with recurring revenue and switching costs made it
-analyzable as a consumer franchise. Investors who rigidly maintain a
-sector exclusion regardless of how a business evolves will miss these
-transitions. Investors who abandon their framework to chase a sector
-narrative will make poor purchases. The discipline is to let the
-business's actual economics, not its sector label, determine
-analyzability.
+The case shows how a circle of competence can expand without becoming a license to chase unfamiliar sectors. Berkshire did not need to conclude that technology had become predictable. It identified a subset of Apple's economics that could be examined with established consumer-franchise tools: repeat behavior, switching costs, cash generation, balance-sheet capacity, and capital return. The transferable practice is to identify stable causal variables inside a changing industry and then test whether those variables, rather than the sector label, drive value.
 
-This case also illustrates how to update a circle of competence
-responsibly. Berkshire did not have Buffett make a large technology bet
-on conviction. A deputy initiated a small position. The thesis was
-validated by the business's financial performance and consumer behavior
-data. Buffett then scaled the position. The organizational structure --
-delegated authority for initial purchases, Buffett's approval for scale
--- enabled the expansion without requiring Buffett to bet his
-reputation on an unfamiliar sector before the evidence supported it.
-Investors managing capital through others can apply this structure:
-allow small experimental positions outside the core competence, then
-scale only when the evidence validates the thesis.
+That approach requires two independent judgments. The first is business durability: why should customers stay, and what evidence would show they are leaving? The second is valuation: what expectations are embedded in the price? Apple's low entry multiple reduced the amount of growth Berkshire needed, while ecosystem evidence reduced the chance that current earnings were fleeting. Neither judgment substitutes for the other.
 
-### For Capital Allocation: The Buyback as a Compounding Engine
+A practical review should also distinguish reported facts from narrative. The initial 13F proves the position and quarter-end value. Reuters supports the deputy attribution. Weschler's interview supports the subscription-like ecosystem thesis. Apple's filings support the financial base and risks. Berkshire's letter supports the repurchase mechanism. No source proves that Berkshire knew in 2016 exactly how large Services would become or how high Apple's later valuation would rise. A useful investment process preserves that uncertainty instead of rewriting the original decision as foresight about every later success.
 
-The Apple investment is the clearest modern demonstration of Buffett's
-long held view that share repurchases at reasonable prices compound
-shareholder value more reliably than almost any alternative use of
-capital. The mechanism -- a fixed ownership stake growing as a
-percentage of a shrinking share count -- is mathematically simple but
-operationally rare. It requires a business generating substantial free
-cash flow, a management team willing to repurchase aggressively, and a
-share price that does not overvalue the business. Apple met all three
-conditions for years. The result was that Berkshire's ownership of
-Apple's future earnings grew on autopilot.
+### For Capital Allocation: Analyze Both Numerator and Denominator
 
-For investors evaluating capital allocation, the implication is that the
-quality of a buyback program depends on the price at which shares are
-repurchased. Buybacks at low multiples of free cash flow are
-accretive; buybacks at high multiples destroy value. Apple's buybacks
-during 2016 to 2020 were executed at earnings yields of 8 to 10 percent,
-making them strongly accretive. The same program at a 40x multiple
-would have been value destructive. The lesson is to evaluate buybacks
-the way one evaluates any capital deployment: by the return on the
-capital deployed, not by the mere fact of repurchase.
+The case makes share-count analysis operational. An investor's ownership percentage equals shares owned divided by shares outstanding. Apple improved Berkshire's ownership percentage by reducing the denominator; Berkshire later reduced it by selling the numerator. Berkshire's own repurchases then changed how much Apple exposure each Berkshire share represented. All three actions must be tracked to understand per-share economics.
 
-For portfolio managers, the two level compounding Buffett described --
-Apple's buybacks increasing Berkshire's stake, and Berkshire's own
-buybacks concentrating that stake for continuing shareholders -- is a
-model for how a holding company structure can amplify returns from
-quality investees. The structure is not replicable by an investor who
-does not also repurchase their own vehicle, but the principle is
-general: every layer of buyback at a reasonable price compounds the
-stake of the continuing holder.
+This framework prevents a common analytical mistake: praising a buyback solely because shares outstanding declined. The next questions are the repurchase price, the value of the retired shares, the balance-sheet effect, and the foregone alternative uses of cash. A high-quality company can destroy value by overpaying for its own shares, just as it can destroy value through an overpriced acquisition. Conversely, a mature company with abundant cash and limited superior reinvestment opportunities can create substantial continuing-owner value by repurchasing below intrinsic value.
 
-### For Portfolio Construction: Concentration, Valuation, and Trimming
+For holding companies, the two-level structure deserves special attention. When an investee retires shares and the holding company also retires its own shares, the operating claim per continuing holding-company share can rise twice. Buffett quantified this effect in 2020. Analysts should calculate it explicitly rather than treating dividends and market appreciation as the only return channels. [7]
 
-The Apple position tests the relationship between conviction and
-concentration discipline. Berkshire let Apple grow to roughly 40 to 50
-percent of its disclosed equity portfolio at peak. This is extreme
-concentration by any standard, and Buffett defended it on the grounds
-that Apple was the best business in the portfolio. The implication is
-not that concentration is always justified -- it is that concentration
-is justified when the investor's understanding of the business is
-deep enough that the risk of being wrong is lower than the opportunity
-cost of diversifying into less understood businesses. Investors who
-concentrate without that depth of understanding are gambling, not
-investing.
+### For Portfolio Construction: Separate Admiration From Sizing
 
-The reductions beginning in late 2023 carry a separate implication:
-even a correct thesis does not justify holding a position of
-unrestricted size. The Apple position grew large partly because the
-stock appreciated, not because Berkshire kept buying. Concentration
-created by appreciation is involuntary -- the investor did not choose
-to concentrate further, the market did it for them. Trimming to manage
-concentration risk, even while maintaining the business thesis, is
-sound practice. The Apple reductions also illustrate valuation
-discipline: Berkshire trimmed most aggressively when the stock was
-expensive by historical standards, consistent with Buffett's pattern of
-adding when cheap and trimming when dear.
+Apple's rise to roughly half of Berkshire's disclosed U.S. public-equity portfolio and the later 75.1 percent share-count reduction show that business quality and position size are separate decisions. A wonderful business may deserve no position at an excessive price, a moderate position at a fair price, or a large position when price and downside protection are unusually favorable. The same business can move among those categories as price, tax basis, portfolio weight, and alternatives change.
 
-### For Business Analysis: The Consumer Franchise Test
+Investors should measure concentration against total economic exposure, not only a 13F subtotal. Berkshire also owned controlled operating businesses, Treasury bills, cash, foreign securities, and other assets. Apple at half of the 13F was not Apple at half of Berkshire. Nevertheless, the position was large enough that a severe Apple impairment would have materially affected Berkshire, making ongoing downside analysis necessary even after large gains.
 
-The Apple case offers a practical test for identifying consumer
-franchise characteristics in companies that are not traditionally
-classified as consumer businesses. The test has three components.
-First, customer loyalty measured by retention rates: Apple's
-approximately 94 percent iPhone retention is the kind of number
-Buffett looks for in a consumer franchise. Second, switching costs that
-make departure costly in time, money, or social friction: Apple's
-ecosystem integration creates costs that exceed the price difference
-between an iPhone and a competing device. Third, recurring revenue
-from the installed base rather than transaction revenue from individual
-sales: Apple's services revenue, tied to the installed device base,
-resembles a subscription model more than a hardware replacement cycle.
+Appreciation-created concentration deserves a fresh decision rather than automatic inaction. The relevant question is not whether the investor would repeat the original purchase at the original price. It is whether the current expected return and downside justify the current weight after taxes and transaction costs. Berkshire's filings show that it eventually chose a much smaller numerator. Because the complete motivation is not public, the lesson is procedural rather than predictive: periodically underwrite both the business and the size of the exposure.
 
-Investors can apply this test to other companies. A software company
-with high retention, ecosystem lock in, and recurring subscription
-revenue may be analyzable as a consumer franchise even if it sells to
-enterprises. A retailer with extreme customer loyalty and a membership
-model may fit the same framework. The classification question is not
-what sector the company is in but whether its economics exhibit the
-franchise characteristics: loyalty, stickiness, recurring revenue, and
-pricing power. Buffett's analytical contribution was not inventing
-this framework -- he has applied it for decades -- but recognizing that
-Apple had grown into it.
+### For Business Analysis: Turn "Loyalty" Into Testable Variables
 
-### For Evaluating Management: Tim Cook and the Operator Who Compounded
+Consumer loyalty can become an empty label unless it is decomposed. For Apple, testable variables include device retention, installed-base growth, services revenue per relationship, gross margins, price realization, ecosystem usage, developer economics, and the practical cost of moving data and habits. Weschler's explanation was valuable because it named mechanisms rather than merely praising the brand. [6]
 
-The Apple investment also carries implications for evaluating
-management. Buffett credited Tim Cook not with product vision -- he
-attributed that to Steve Jobs -- but with operational excellence and
-capital allocation. Cook's decision to return capital through
-dividends and aggressive buybacks, rather than pursuing large
-acquisitions, directly enabled the compounding mechanism that benefited
-Berkshire. Buffett noted that Cook had difficulty finding acquisitions
-in the USD 50 to 200 billion range that made sense, which made share
-repurchases the rational default. The implication for investors is that
-a manager who deploys capital conservatively into their own undervalued
-stock can compound shareholder value more reliably than a manager who
-pursues growth acquisitions at premium prices. The quality of capital
-allocation, not the quality of product launches, was the variable that
-made Apple a Berkshire quality holding.
+The same method applies outside consumer electronics. A payment network can be tested through acceptance, cardholder use, and merchant economics. Enterprise software can be tested through renewal, workflow integration, data migration cost, and expansion revenue. A membership retailer can be tested through renewal, traffic, and member economics. In each case, the analyst should ask what accumulated customer asset or habit makes departure unattractive and what evidence would reveal erosion.
+
+The Apple record also warns against equating an installed base with a moat. A large installed base can be inactive, weakly monetized, or vulnerable to regulation and substitution. Scale becomes economically valuable when it supports retention, complements, pricing, and returns on incremental capital. Apple's high Services gross margin and expanding active-device base support the thesis, while iPhone concentration, China exposure, competition, and regulation define its limits. [11][12]
+
+### For Evaluating Management: Capital Return Is Part of Operations
+
+Buffett's praise of Tim Cook focused attention on more than product invention. Under Cook, Apple paired an expanding ecosystem with enormous capital returns. Berkshire benefited from operating cash flow, dividends, and the retirement of Apple shares. This shows why management assessment should include the conversion of business advantage into per-share value, not only revenue growth or product launches. [7][11][14]
+
+The counterfactual matters. Excess cash could have funded low-return acquisitions, accumulated indefinitely, or been returned through dividends alone. Repurchases gave continuing owners a larger percentage claim, but their merit varied with price. Management evaluation therefore needs both an operating scorecard and a capital-allocation scorecard: reinvestment runway, acquisition discipline, repurchase valuation, balance-sheet resilience, and treatment of continuing versus selling shareholders.
+
+### Limits of the Case
+
+The outcome should not be reduced to "buy familiar brands" or "technology is really consumer staples." Apple combined brand, software, hardware, services, distribution, developer relationships, scale, and exceptional cash economics. Few companies share that full system. Copying the label without reconstructing the causal chain would convert a disciplined case into an analogy error.
+
+Nor does Berkshire's success prove that the later sales were wrong or right. The shares sold, taxes paid, cash retained, and alternatives available must be evaluated against outcomes after each decision date. A large historical gain can coexist with premature sales, prudent de-risking, or both across different tranches. The public data establish what Berkshire owned and when; they do not supply the full internal opportunity-cost calculation.
+
+The durable lesson is narrower and stronger. Reclassify a business only when its underlying economics justify the change; demand a price that does not require perfect execution; track per-share effects from both company and investor actions; and keep position sizing distinct from admiration. Berkshire's Apple investment worked because consumer behavior, valuation, cash generation, and capital allocation aligned. Its later reductions show that even a successful thesis remains subject to portfolio-level decisions.
 
 ## Sources
 
-1. Reuters (2016). "Warren Buffett's Berkshire takes $1 billion bite of
-   Apple." Reports the initial Q1 2016 13F disclosure, the 9.8 million
-   share position, and confirmation that the purchase was made by deputy
-   Todd Combs or Ted Weschler.
+1. U.S. Securities and Exchange Commission (2016). Berkshire Hathaway Form
+   13F information table for the quarter ended March 31, 2016. Reports
+   9,811,747 Apple shares and a value of USD 1,069,382,000.
+   https://www.sec.gov/Archives/edgar/data/1067983/000095012316017295/form13fInfoTable.xml [high]
+
+2. Reuters (2016). "Warren Buffett's Berkshire takes $1 billion bite of
+   Apple." Reports the initial disclosure and Berkshire's statement that
+   one of Buffett's two investment deputies made the purchase.
    https://www.reuters.com/article/business/warren-buffetts-berkshire-takes-1-billion-bite-of-apple-idUSKCN0Y71CS/ [high]
 
-2. CNBC (2016). "Buffett's Berkshire Hathaway takes new stake in Apple."
-   Confirms the 9.8 million share initial position and deputy execution
-   by Combs and Weschler.
-   https://www.cnbc.com/2016/05/16/buffetts-berkshire-hathaway-takes-new-stake-in-apple.html [high]
+3. Apple Inc. (2015). Form 10-K for the fiscal year ended September 26,
+   2015. Primary source for earnings, cash flow, capital expenditure,
+   cash and securities, debt, and shares outstanding used in the entry
+   valuation calculations.
+   https://www.sec.gov/Archives/edgar/data/320193/000119312515356351/d17062d10k.htm [high]
 
-3. Fortune (2016). "The Real Reason Warren Buffett Is Loading Up on
-   Apple Stock." Reports the valuation context, the PE under 13, and the
-   razor and blade comparison to Gillette.
-   https://fortune.com/2016/08/16/warren-buffett-apple-stock [high]
+4. Apple Inc. (2016). "Apple Reports Second Quarter Results." Primary
+   source for the fiscal second-quarter revenue and earnings decline.
+   https://www.apple.com/newsroom/2016/04/26Apple-Reports-Second-Quarter-Results/ [high]
 
-4. Buffett, W. (2020). Berkshire Hathaway Annual Letter. Documents the
-   cost basis of USD 36 billion, the 5.2 percent to 5.4 percent
-   ownership increase via Apple buybacks, and the 10 percent
-   compounding from Berkshire's own repurchases. Quoted via the
-   Acquirer's Multiple summary.
-   https://acquirersmultiple.com/2024/06/warren-buffett-increasing-shareholder-value-using-the-power-of-repurchases [medium]
+5. Berkshire Hathaway Inc. (2016). Chairman's letter and annual report.
+   Reports 61,242,652 Apple shares, USD 6.747 billion of cost, and USD
+   7.093 billion of year-end market value.
+   https://www.berkshirehathaway.com/letters/2016ltr.pdf [high]
 
-5. CNBC (2024). "Apple is Buffett's biggest stock, but his moat thesis
-   faces questions." Reports Buffett's consumer behavior framing, the
-   94 percent customer loyalty data from Consumer Intelligence Research
-   Partners, the second car comparison, and Bernstein analyst Toni
-   Sacconaghi's observation on buy low trim high discipline.
-   https://www.cnbc.com/2024/05/03/apple-is-buffetts-biggest-stock-but-moat-thesis-faces-questions.html [high]
+6. Manager Magazin (2016), reproduced by David Kass, University of
+   Maryland. "Ted Weschler Explains Berkshire Hathaway's Investment in
+   Apple to German Magazine." Source for Weschler's subscription-element
+   and sticky-ecosystem explanation.
+   https://blog.umd.edu/davidkass/2016/10/23/ted-weschler-explains-berkshire-hathaways-investment-in-apple-to-german-magazine/ [medium]
 
-6. MacRumors (2025). "Buffett Says Tim Cook Made Berkshire More Money
-   Than He Ever Did." Reports the 2025 annual meeting quote, the 680
-   percent stock surge reference, and the Jobs Cook succession
-   acknowledgment.
-   https://macrumors.com/2025/05/06/buffett-says-tim-cook-made-berkshire-more-cash [medium]
+7. Berkshire Hathaway Inc. (2020). Chairman's letter. Primary source for
+   the USD 36 billion cost, 5.2 percent initial ownership, 5.4 percent
+   post-sale ownership, dividends, and two-level repurchase explanation.
+   https://www.berkshirehathaway.com/letters/2020ltr.pdf [high]
 
-7. Fortune (2025). "Warren Buffett credits Apple CEO Tim Cook with
-   making a lot more money than I've ever made for Berkshire
-   Hathaway." Reports the 2025 meeting context, Munger's 2013
-   observation that Apple was un Berkshire like, and the timeline.
-   https://fortune.com/2025/05/05/warren-buffett-apple-tim-cook-steve-jobs-berkshire-hathaway-charlie-munger [high]
+8. Berkshire Hathaway Inc. (2023). Annual report. Primary year-end source
+   for Berkshire's Apple position and the scale of its public-equity
+   concentration.
+   https://www.berkshirehathaway.com/2023ar/2023ar.pdf [high]
 
-8. 13Radar (2025-2026). "End of an Era: Berkshire Hathaway Slashes
-   Apple Stake." Documents the quarterly reduction sequence from Q4 2023
-   through Q4 2025, share counts, average prices, and the approximately
-   75 percent total reduction.
-   https://www.13radar.com/insight/end-of-an-era-berkshire-hathaway-slashes-apple-stake [medium]
+9. Berkshire Hathaway Inc. (2024). Annual report. Primary year-end source
+   for the 300 million-share Apple position and USD 75.126 billion market
+   value.
+   https://www.berkshirehathaway.com/2024ar/2024ar.pdf [high]
 
-9. AppleInsider (2026). "Berkshire trims Apple stake but keeps it as
-   its $62 billion anchor." Reports the Q4 2025 4 percent trim and the
-   year end USD 62 billion remaining position.
-   https://appleinsider.com/articles/26/02/18/berkshire-trims-apple-stake-but-keeps-the-stock-as-a-62-billion-anchor [medium]
+10. U.S. Securities and Exchange Commission (2023-2026). Berkshire
+    Hathaway Forms 13F for quarters ended September 2023 through June
+    2026. Primary source sequence for reported Apple shares and
+    quarter-end values. The latest filing reports 227,917,808 shares at
+    June 30, 2026.
+    https://www.sec.gov/edgar/browse/?CIK=1067983&owner=exclude&action=getcompany&type=13F-HR [high]
 
-10. Gurufocus (2018-2019). "Warren Buffett and Apple." Reports Buffett's
-    extended comments on Apple as a consumer products business, the
-    installed base growth, subscription count growth to 420 million
-    paid subscriptions, and the buyback ownership compounding quote.
-    https://www.gurufocus.com/news/944888/warren-buffett-and-apple [medium]
+11. Apple Inc. (2025). Form 10-K for the fiscal year ended September 27,
+    2025. Primary source for product and Services revenue, margins, share
+    count, geographic results, competition, supply-chain exposure, and
+    regulatory risks.
+    https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm [high]
+
+12. Apple Inc. (2026). "Apple reports first quarter results." Primary
+    source for the statement that the active installed base exceeded 2.5
+    billion devices.
+    https://www.apple.com/newsroom/2026/01/apple-reports-first-quarter-results/ [high]
+
+13. CNBC Warren Buffett Archive (2024). Berkshire Hathaway annual meeting
+    coverage and video. Source for Buffett's explanation that expected
+    future tax rates contributed to the first-quarter 2024 Apple sale and
+    his expectation that Apple would remain Berkshire's largest holding.
+    https://buffett.cnbc.com/2024-berkshire-hathaway-annual-meeting [high]
+
+14. Fortune (2025). "Warren Buffett credits Apple CEO Tim Cook with making
+    'a lot more money than I've ever made' for Berkshire." Reports
+    Buffett's 2025 meeting remarks about Cook and Jobs.
+    https://fortune.com/2025/05/05/warren-buffett-apple-tim-cook-steve-jobs-berkshire-hathaway-charlie-munger [high]
+
+15. CNBC (2024). "Apple remains Buffett's biggest public stock holding,
+    but his thesis about its moat faces questions." Source for Buffett's
+    consumer-franchise framing, the reported CIRP U.S. iPhone loyalty
+    estimate, and concentration context.
+    https://www.cnbc.com/2024/05/03/apple-is-buffetts-biggest-stock-but-moat-thesis-faces-questions.html [high]
+
+16. Berkshire Hathaway Inc. (2025). Annual report. Primary source for the
+    227,917,808-share year-end position, USD 61.962 billion market value,
+    and 1.6 percent ownership.
+    https://www.berkshirehathaway.com/2025ar/2025ar.pdf [high]
 
 ## See Also
 
-- `library/value-investing/circle-of-competence.md` -- the principle
-  Buffett used to justify the technology sector entry: Apple had
-  evolved into a business he could analyze with existing tools.
-- `library/value-investing/economic-moats.md` -- the moat framework
-  applied to Apple's ecosystem, switching costs, and brand loyalty.
+- `library/value-investing/circle-of-competence.md` -- the framework for
+  deciding which business variables are sufficiently understandable.
+- `library/value-investing/economic-moats.md` -- the durable-advantage
+  framework applied to ecosystem switching costs and customer behavior.
 - `library/value-investing/concentration-vs-diversification.md` -- the
-  concentration decision that let Apple reach 40 to 50 percent of the
-  portfolio and the trimming discipline that followed.
-- `library/value-investing/capital-allocation.md` -- the buyback
-  compounding mechanism as a capital allocation decision by both Apple
-  and Berkshire.
-- `library/value-investing/berkshire-annual-reports-2016-2025.md` --
-  the contemporaneous annual report record of the Apple investment
-  during the holding period.
-- `library/case-studies/apple-turnaround-1997-2010.md` -- the earlier
-  Apple case covering the Jobs era turnaround that preceded Berkshire's
-  investment.
+  distinction between business conviction and acceptable portfolio size.
+- `library/value-investing/capital-allocation.md` -- the principles for
+  evaluating repurchases, dividends, reinvestment, and acquisitions.
+- `library/value-investing/berkshire-annual-reports-2016-2025.md` -- the
+  contemporaneous Berkshire record for the holding period.
+- `library/case-studies/apple-turnaround-1997-2010.md` -- the operating
+  transformation that preceded Berkshire's investment.
