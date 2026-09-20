@@ -1,6 +1,6 @@
 # Portfolio Risk Management -- Topics
 
-10 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
+11 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
 
 - [Behavioral Aspects of Risk Tolerance -- Why Investor Psychology Determines Portfolio Success](behavioral-aspects-of-risk-tolerance.md) -- [reviewed: never] -- A portfolio is successful only if its investor can keep holding and managing it through the conditions for which it was designed. Financial capacity, stated willingness, perceived risk, recent experience, loss aversion, and overconfidence jointly shape that behavior, so an allocation that is mathematically efficient but behaviorally intolerable is not an effective allocation (Sources 1, 9, and 10).
 
@@ -21,4 +21,6 @@
 - [Tail Risk Hedging -- Why the Best Portfolios Pay for Insurance They Hope to Never Use](tail-risk-hedging.md) -- [reviewed: never] -- Tail risk hedging is a portfolio construction discipline that sacrifices a small, steady amount of annual return -- typically 1-3% -- to purchase convex instruments that pay off massively during market crashes. The core insight is that avoiding catastrophic drawdowns improves geometric compounding more than the hedge costs in arithmetic terms, because a 50% loss requires a 100% gain to recover.
 
 - [Value at Risk -- Why a Single Number Cannot Capture the True Risk of Ruin](value-at-risk-risk-measurement-frameworks.md) -- [reviewed: never] -- Value at Risk (VaR) is the most widely used quantitative framework for measuring financial risk. It estimates the maximum loss a portfolio faces over a given time horizon at a specified confidence level -- a 99% one-day VaR of $10 million means there is a 1% chance of losing more than $10 million tomorrow.
+
+- [Volatility Targeting Stabilizes Portfolio Risk, but Its Return Advantage Is Conditional](volatility-targeting.md) -- [reviewed: never] -- Volatility targeting changes portfolio exposure so that forecast risk, rather than invested notional, stays near a chosen level. It can make risk more stable and reduce some tail losses, but the evidence does not support a universal promise of higher net returns: results depend on the asset, volatility estimator, leverage and turnover constraints, transaction costs, and whether the test is genuinely out of sample (Sources 4, 6, 7, 8, 9, and 10).
 
