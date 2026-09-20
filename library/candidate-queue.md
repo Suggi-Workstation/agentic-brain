@@ -174,3 +174,50 @@
 - **Scope:** Examines the study of signs and symbols as systems of meaning. Covers Peirce's triadic model, Saussure's signifier-signified distinction, denotation vs connotation, codes and myth (Barthes), and the application of semiotic analysis to media, advertising, and culture. Connects linguistics, narrative structure, visual communication, and philosophy of language through the framework for how meaning is produced and interpreted.
 - **Status:** proposed
 
+## Candidate: Moral Uncertainty and Decision-Making -- Acting When Ethical Theories Conflict
+- **Domain:** ethics-philosophy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.89/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=8.9)
+- **Scope:** Examines how an agent should act when credible ethical theories prescribe conflicting choices and no theory is known to be uniquely correct. Covers moral uncertainty frameworks, expected moral value, maximizing choice-worthiness, and the roles of reasonable disagreement and moral learning. Distinguishes normative decision rules from empirical moral psychology, and connects pluralism to AI ethics and public decisions.
+- **Status:** proposed
+
+## Candidate: Portfolio Stress Testing and Scenario Analysis -- Testing Portfolios Against Adverse Conditions
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.85/10.0 (gap=8.5, compounding=9.0, timeliness=8.5, balance=10.0)
+- **Scope:** Examines stress testing and scenario analysis as tools for testing a portfolio against specified adverse but plausible conditions. Covers historical and hypothetical scenarios, factor shocks, liquidity and correlation breakdowns, reverse stress tests, and the limits of model-based risk forecasts. Connects VaR, tail-risk hedging, drawdown control, and macro exposure through a pre-loss portfolio-governance process.
+- **Status:** proposed
+
+## Candidate: Round-Tripping and Reciprocal Transactions -- Detecting Circular Revenue Schemes
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.26/10.0 (gap=8.0, compounding=8.5, timeliness=8.0, balance=8.9)
+- **Scope:** Examines round-tripping and reciprocal transactions, where linked counterparties or circular flows can create the appearance of revenue without equivalent economic substance. Covers linked transactions, repurchase and side-agreement risks, cash-flow and counterparty tracing, and disclosure red flags. Distinguishes this specific fabricated-revenue mechanism from broader premature-recognition and channel-stuffing topics.
+- **Status:** proposed
+
+## Candidate: Ethnographic Methods and Participant Observation -- How Anthropology Produces Cultural Knowledge
+- **Domain:** anthropology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.56/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=8.9)
+- **Scope:** Examines ethnographic methods as the practice of producing cultural knowledge through participant observation, interviews, fieldnotes, reflexivity, and long-term field engagement. Covers sampling and access, informed consent, researcher positionality, interpretation, and limits on cross-cultural generalization. Connects the evidence methods behind anthropology's existing topics without turning the topic into a general social-science methods guide.
+- **Status:** proposed
+
+## Candidate: Source Verification and Fact-Checking -- Testing Claims Before Publication
+- **Domain:** communication
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.79/10.0 (gap=8.5, compounding=9.0, timeliness=9.0, balance=8.9)
+- **Scope:** Examines source verification and fact-checking as repeatable methods for testing a claim before it is published or shared. Covers source tracing, primary-versus-secondary evidence, corroboration, quote verification, image and document checks, correction practice, and uncertainty labels. Connects journalism ethics, misinformation analysis, logical fallacies, and writing standards through the operational discipline of accuracy.
+- **Status:** proposed
+
+## Candidate: Groundwater and Aquifer Systems -- Hidden Freshwater Stores Under Environmental Pressure
+- **Domain:** earth-climate
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.76/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=8.9)
+- **Scope:** Examines groundwater and aquifer systems as slow-moving freshwater reservoirs coupled to recharge, surface water, land use, and climate. Covers aquifer types, recharge and depletion, subsidence, contamination, saltwater intrusion, and monitoring limits. Connects water availability to resource depletion, ecosystems, drought, and climate variability without treating water policy or infrastructure design as the primary subject.
+- **Status:** proposed
