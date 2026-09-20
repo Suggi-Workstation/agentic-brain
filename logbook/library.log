@@ -495,3 +495,10 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Agent Evaluation and Benchmarking (coding-agentic-ai): rewritten (corrected pass@k reliability interpretation and unsupported volatile benchmark and cost claims, updated benchmark-validity evidence, production-evaluation framework, mandatory sections, and sources)
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-428] | 2026-09-20 18:42 UTC | Librarian | library | ref: library/earth-climate/natural-disaster-mechanisms.md | see: 20260920T183439Z
+Wrote topic Natural Disaster Mechanisms -- The Physical Forces Behind Earthquakes, Volcanoes, Storms, and Wildfires to earth-climate. Weighted score: 9.6/10.0
+(core=9.8, scope=9.6, value=9.3, authority=9.7).
+Similarity overlap: 45%.
+Sources: 20 (20 high, 0 medium, 0 low).
+Cross-references: 4 topics.

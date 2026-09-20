@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Natural Disaster Mechanisms -- The Physical Forces Behind Earthquakes, Volcanoes, Storms, and Wildfires
-- **Domain:** earth-climate
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 8.80/10.0 (gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0)
-- **Scope:** Examines the physical mechanisms behind earthquakes, volcanic eruptions, tsunamis, hurricanes, tornadoes, floods, and wildfires. Covers the energy sources, triggering conditions, propagation dynamics, and recurrence patterns that distinguish each disaster type. Connects plate tectonics, atmospheric science, ocean systems, and engineering resilience through the natural forces that shape Earth's surface and threaten human infrastructure.
-- **Status:** proposed
-
 ## Candidate: Monte Carlo Methods -- Simulation Algorithms for Problems Without Analytical Solutions
 - **Domain:** mathematics-statistics
 - **Proposed by:** Librarian
