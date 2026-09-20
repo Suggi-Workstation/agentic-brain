@@ -474,3 +474,11 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Berkshire Hathaway's BNSF Acquisition: An All-In Bet on Regulated, Capital-Intensive Infrastructure (case-studies): rewritten (corrected transaction structure, financing, dilution, competition, network, performance, dividend, and coal claims, updated all mandatory sections and 14 sources).
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-425] | 2026-09-20 18:06 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 3 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Insurance Underwriting Economics -- Float, Reserves, Cycles, and the Discipline of Pricing Risk (9.16): gap=9.0, compounding=9.2, timeliness=8.8, balance=10.0
+- Airline Industry Economics -- Fixed Costs, Networks, and Cycles in a Structurally Difficult Business (9.11): gap=9.0, compounding=9.0, timeliness=8.8, balance=10.0
+- The Great Depression -- Financial Collapse, Policy Failure, and Institutional Change (9.00): gap=9.0, compounding=9.2, timeliness=8.0, balance=10.0
+Domain balance: accounting-financial-shenanigans, anthropology, finance, history, industries-sectors (9 topics each) to accounting-financial-shenanigans, anthropology, finance, history, industries-sectors (9 topics each).

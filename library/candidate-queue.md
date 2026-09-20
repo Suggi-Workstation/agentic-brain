@@ -177,3 +177,27 @@
 - **Discovery score:** 8.90/10.0 (gap=9.0, compounding=8.8, timeliness=8.0, balance=10.0)
 - **Scope:** Profiles Florence Nightingale as a person whose clinical observation, statistical communication, and institutional reform reshaped nursing and hospital practice. Covers her decisions during the Crimean War, her use of mortality data, conflicts and limits in her reform program, and her long-term influence. Treats health and statistics as the context for her life rather than offering a general history of medicine or a technical account of data analysis.
 - **Status:** proposed
+
+## Candidate: Insurance Underwriting Economics -- Float, Reserves, Cycles, and the Discipline of Pricing Risk
+- **Domain:** finance
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 9.16/10.0 (gap=9.0, compounding=9.2, timeliness=8.8, balance=10.0)
+- **Scope:** Examines insurance underwriting as a financial business that prices contingent risk, builds float, recognizes loss reserves, and protects solvency through capital and reinsurance. Covers combined ratios, underwriting cycles, reserving uncertainty, duration of float, adverse selection, and the interaction between investment income and underwriting discipline. Distinguishes ordinary insurance-company operations from the ownership-vehicle structure of an insurance-float compounder, connecting credit analysis, capital structure, and financial statement analysis.
+- **Status:** proposed
+
+## Candidate: Airline Industry Economics -- Fixed Costs, Networks, and Cycles in a Structurally Difficult Business
+- **Domain:** industries-sectors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 9.11/10.0 (gap=9.0, compounding=9.0, timeliness=8.8, balance=10.0)
+- **Scope:** Examines airline industry economics as a competitive system shaped by fixed assets, hub networks, labor, fuel exposure, capacity discipline, loyalty programs, and regulation. Covers route economics, load factor, yield, RASM, CASM, and the causes of recurrent profitability volatility and consolidation. Relates capital cycles, supply chains, and customer switching costs without analyzing a particular carrier.
+- **Status:** proposed
+
+## Candidate: The Great Depression -- Financial Collapse, Policy Failure, and Institutional Change
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 9.00/10.0 (gap=9.0, compounding=9.2, timeliness=8.0, balance=10.0)
+- **Scope:** Examines the Great Depression as a global economic and institutional rupture, covering the interaction of financial fragility, monetary policy, trade contraction, unemployment, and political change. Compares major explanations and traces how policy responses differed across countries and shaped postwar institutions. Treats the period as broad historical causality rather than a case-study lesson or a current macroeconomic forecast.
+- **Status:** proposed
