@@ -447,3 +447,10 @@ Wrote topic Philosophy of Science -- What Distinguishes Science From Non-Science
 Similarity overlap: 45%.
 Sources: 10 (10 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-421] | 2026-09-20 17:04 UTC | Librarian | library | ref: library/case-studies/berkshire-bnsf-acquisition.md
+ERROR: Berkshire Hathaway's Acquisition of BNSF: A Capital Allocation Case Study - publication validation requires the current topic schema (name matching the path slug and tier library-topic), while reviewer step 7 requires the original name and tier to remain unchanged; the topic was not stamped or published.
+Review cycle: 0 topics reviewed, 0 current, 0 rewritten.
+Topics:
+- Berkshire Hathaway's Acquisition of BNSF: A Capital Allocation Case Study (case-studies): ERROR, required schema migration conflicts with the review preservation gate.
+Domain coverage: reviewed across 0 domains.
