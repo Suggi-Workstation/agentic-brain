@@ -2,7 +2,7 @@
 
 13 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
 
-- [Agent Evaluation and Benchmarking -- Why Measuring What AI Agents Can Actually Do Is the Hardest Problem in Agent Engineering](agent-evaluation-and-benchmarking.md) -- [reviewed: never] -- Agent evaluation is the methodological discipline of measuring how well an AI agent performs on multi-step, tool-using tasks -- and the current benchmark landscape systematically overstates real-world capability because it was inherited from single-turn LLM evaluation and has not yet adapted to the multi-step, non-deterministic nature of agentic systems.
+- [Agent Evaluation and Benchmarking -- Reliable Measurement Requires More Than a Leaderboard Score](agent-evaluation-and-benchmarking.md) -- [reviewed: 2026-09-20] -- Agent evaluation measures whether a model, harness, tools, and environment jointly complete multi-step work under stated constraints. Public benchmarks are useful comparison instruments, but production readiness requires a broader evaluation system that measures outcomes, trajectories, consistency, cost, safety, and failures on the deployment's own task distribution [1, 6, 11, 12].
 
 - [Agent Harness Design -- Reliability Comes From the Runtime Around the Model](agent-harness-design.md) -- [reviewed: never] -- An agent harness is the runtime layer that repeatedly assembles context, invokes a language model, dispatches requested actions, records state, and decides whether work should continue, pause, recover, or stop. A capable model becomes a dependable agent only when this surrounding system supplies explicit interfaces, bounded execution, durable evidence, and recovery paths; the model and harness therefore form the real unit of behavior.
 
