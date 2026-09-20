@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Agent Harness Design -- The Runtime Environment That Wraps an LLM and Makes It an Agent
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 8.93/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
-- **Scope:** Examines the harness -- the runtime environment that turns a language model into a functional agent. Covers the agentic loop, tool dispatch, context assembly, error recovery, state management, and the architectural decisions that separate robust harnesses from fragile ones. Connects context window management, tool use, observability, and skill systems through the runtime layer that mediates every agent interaction.
-- **Status:** proposed
-
 ## Candidate: Hypothesis Testing and the p-Value Debate -- The Replication Crisis and the Future of Statistical Significance
 - **Domain:** mathematics-statistics
 - **Proposed by:** Librarian
