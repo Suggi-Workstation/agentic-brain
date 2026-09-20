@@ -216,9 +216,11 @@ area. They use `scripts/library-publish.py` for local publication; the
 existing `repo-pull.sh` watcher owns push/pull. No additional service or cron
 is required. Research and drafting stay outside the shared working tree.
 
-1. Create this run's directory with `mktemp -d /tmp/library-cycle.XXXXXX`.
+1. Create this run's directory with `mktemp -d <root>/library-cycle.XXXXXX`.
+   Replace `<root>` with either `/tmp` or the current profile's `cache/scratch`
+   directory.
    Keep all cycle-created snapshots, drafts, downloads, and requests inside it.
-   Use the returned path; never invent or reuse a directory. `/tmp/<cycle>`
+   Use the returned path; never invent or reuse a directory. `<cycle-dir>`
    below means that exact path. Capture inputs with the helper's read-only
    snapshot command. Include the
    queue when relevant, selected topic paths, anchors/indexes used for the
@@ -252,7 +254,7 @@ is required. Research and drafting stay outside the shared working tree.
      },
      "queue": {"remove": "<candidate.sha256 from the selected snapshot>"},
      "writes": {
-       "library/<domain>/<topic-slug>.md": "/tmp/<cycle>/topic.md"
+       "library/<domain>/<topic-slug>.md": "<cycle-dir>/topic.md"
      },
      "log": {
        "ref": "library/<domain>/<topic-slug>.md",
@@ -270,7 +272,7 @@ is required. Research and drafting stay outside the shared working tree.
 
    | Kind | Writes | Queue operation | Outcome |
    |:--|:--|:--|:--|
-   | `discover` | Empty object | `{"append": "/tmp/<cycle>/candidates.md"}` | Append the whole candidate batch to the current queue; recheck capacity and exact-title duplicates. |
+   | `discover` | Empty object | `{"append": "<cycle-dir>/candidates.md"}` | Append the whole candidate batch to the current queue; recheck capacity and exact-title duplicates. |
    | `write` | One new topic | `{"remove": "<candidate.sha256>"}` | Publish the completed topic and remove only the unchanged, still-first proposed candidate in its declared domain. |
    | `dispose` | Empty object | `{"remove": "<candidate.sha256>"}` | Remove that exact candidate with a body beginning FLAG, REJECT, or DUPLICATE. |
    | `review` | One existing topic | Omit | Publish completed corrections and the current UTC reviewed date; no queue or index edits. |
@@ -293,7 +295,7 @@ is required. Research and drafting stay outside the shared working tree.
 
    ```bash
    python3 /srv/brain/agentic-brain/scripts/library-publish.py publish \
-     /tmp/<cycle>/request.json
+     <cycle-dir>/request.json
    ```
 
    The helper holds `.git/repo-pull.sync.lock` across its final source checks,
@@ -319,18 +321,26 @@ is required. Research and drafting stay outside the shared working tree.
    fresh line in `/srv/brain/logs/brain-pull.log` alone is insufficient. Never
    wait for the watcher while holding its sync lock.
 
-6. After remote verification, leave the cycle directory and remove only the
-   directory created for this run. Substitute its exact path below; issue
-   deletion and verification as separate tool calls. Do not use variables,
-   wildcards, extra deletion targets, or chained deletion commands.
+6. After remote verification, confirm `<cycle-dir>` is the directory created
+   for this run, is not a symlink, and is no longer in use. Preserve required
+   evidence and leave the directory before cleanup. Cron permissions cover
+   this run-directory format in either location from step 1.
+   Substitute the exact absolute path returned by `mktemp`. Use one literal
+   deletion target, without variables, wildcards, or chained commands:
 
    ```bash
-   rm -rf -- /tmp/<cycle>
-   test ! -e /tmp/<cycle> && test ! -L /tmp/<cycle>
+   rm -rf -- <cycle-dir>
+   ```
+
+   Then verify in a separate call:
+
+   ```bash
+   test ! -e <cycle-dir> && test ! -L <cycle-dir>
    ```
 
    PASS: deletion and absence check both exit zero. Otherwise HALT and report
-   the path and failure; do not retry a refusal through another execution method.
+   the path and failure; do not retry a refusal through another execution method,
+   split it into file-by-file deletion, or weaken cron security settings.
 
 The lock protects cooperating library processes and watcher synchronization.
 It does not protect against writers that bypass this procedure. It also does
