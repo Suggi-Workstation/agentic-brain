@@ -169,3 +169,35 @@
 - **Discovery score:** 9.00/10.0 (gap=9.0, compounding=9.2, timeliness=8.0, balance=10.0)
 - **Scope:** Examines the Great Depression as a global economic and institutional rupture, covering the interaction of financial fragility, monetary policy, trade contraction, unemployment, and political change. Compares major explanations and traces how policy responses differed across countries and shaped postwar institutions. Treats the period as broad historical causality rather than a case-study lesson or a current macroeconomic forecast.
 - **Status:** proposed
+
+## Candidate: Pharmaceutical Industry Economics -- Patents, R&D, Regulation, and Profit Pools
+- **Domain:** industries-sectors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 9.23/10.0 (gap=9.0, compounding=9.3, timeliness=9.0, balance=10.0)
+- **Scope:** Examines pharmaceutical industry economics as shaped by research productivity, patent exclusivity, regulation, distribution, and bargaining over drug prices. Covers discovery and development costs, clinical-trial risk, patent cliffs, generic and biosimilar competition, formulary access, and pricing power. Connects health evidence, intellectual-property law, capital allocation, and global supply chains while keeping the focus on industry structure rather than a single company or treatment.
+- **Status:** proposed
+
+## Candidate: Asset Management Economics -- Incentives, Scale, and Financial Intermediation
+- **Domain:** finance
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
+- **Scope:** Examines asset management as a financial intermediary business that earns fees for investing client capital under contractual, regulatory, and fiduciary constraints. Covers assets under management, fee models, active versus passive competition, distribution, performance, scale economies, liquidity, and conflicts of interest. Distinguishes the economics of managing money from the legal structure of a particular fund vehicle, while connecting portfolio construction, market structure, and institutional capital allocation.
+- **Status:** proposed
+
+## Candidate: Linguistic Anthropology -- Language, Power, and Cultural Worlds
+- **Domain:** anthropology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.98/10.0 (gap=9.0, compounding=8.7, timeliness=8.5, balance=10.0)
+- **Scope:** Examines linguistic anthropology as the study of how language, power, identity, and cultural norms shape one another in social life. Covers language ideologies, indexicality, speech communities, code-switching, language socialization, linguistic relativity, and language endangerment. Distinguishes cultural analysis of language use from general semiotics and formal linguistics, connecting communication to kinship, political authority, and cultural transmission.
+- **Status:** proposed
+
+## Candidate: The First World War -- Collapse of Empires and the Interwar Order
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.96/10.0 (gap=9.0, compounding=8.8, timeliness=8.3, balance=10.0)
+- **Scope:** Examines the First World War as a systemic rupture that transformed empires, states, finance, social order, and the international system. Covers the origins of the conflict, industrialized warfare, the collapse of the Russian, German, Austro-Hungarian, and Ottoman empires, the peace settlement, and the interwar legacy. Connects military, political, and economic history to the rise of revolutionary movements and the conditions that shaped the Second World War, without turning the topic into a narrow battle narrative.
+- **Status:** proposed

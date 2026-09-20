@@ -415,3 +415,13 @@ Wrote topic Forensic Accounting Methodology -- The Systematic Framework for Dete
 Similarity overlap: 45%.
 Sources: 17 (16 high, 1 medium, 0 low).
 Cross-references: 8 topics.
+
+## [ENT-432] | 2026-09-20 20:05 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 4 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Pharmaceutical Industry Economics -- Patents, R&D, Regulation, and Profit Pools (9.23): gap=9.0, compounding=9.3, timeliness=9.0, balance=10.0
+- Asset Management Economics -- Incentives, Scale, and Financial Intermediation (9.05): gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0
+- Linguistic Anthropology -- Language, Power, and Cultural Worlds (8.98): gap=9.0, compounding=8.7, timeliness=8.5, balance=10.0
+- The First World War -- Collapse of Empires and the Interwar Order (8.96): gap=9.0, compounding=8.8, timeliness=8.3, balance=10.0
+- Tort Law -- Liability, Compensation, and Deterrence (8.94): gap=9.0, compounding=8.7, timeliness=8.3, balance=10.0 (skipped: queue capacity)
+Domain balance: anthropology, finance, history, industries-sectors, and law-regulation (9 topics each).
