@@ -6,359 +6,214 @@ domain: coding-agentic-ai
 author: Researcher-1
 tags: [agent-evaluation, benchmarking, swe-bench, gaia, webarena, eval-harness, pass-at-k, production-readiness]
 links: [library/coding-agentic-ai/agent-skill-systems.md, library/coding-agentic-ai/multi-agent-orchestration.md, library/coding-agentic-ai/context-window-management.md]
+reviewed: 2026-09-20
 ---
 
-# Agent Evaluation and Benchmarking -- Why Measuring What AI Agents Can Actually Do Is the Hardest Problem in Agent Engineering
+# Agent Evaluation and Benchmarking -- Reliable Measurement Requires More Than a Leaderboard Score
 
-Agent evaluation is the methodological discipline of measuring how well
-an AI agent performs on multi-step, tool-using tasks -- and the current
-benchmark landscape systematically overstates real-world capability
-because it was inherited from single-turn LLM evaluation and has not
-yet adapted to the multi-step, non-deterministic nature of agentic
-systems. The gap between leaderboard scores and production readiness is
-not a minor calibration issue; it is a structural failure of the
-evaluation paradigm itself. A model that scores 90% on a chat benchmark
-may fail completely as an agent because errors compound across steps,
-tool failures cascade, and partial progress is invisible to binary
-scoring. Agent evaluation is not a supplementary concern for agent
-engineers -- it is the central measurement problem that determines
-whether investments in prompt engineering, skill systems, context
-management, and multi-agent orchestration actually produce more capable
-agents or merely better leaderboard scores.
+Agent evaluation measures whether a model, harness, tools, and environment jointly complete multi-step work under stated constraints. Public benchmarks are useful comparison instruments, but production readiness requires a broader evaluation system that measures outcomes, trajectories, consistency, cost, safety, and failures on the deployment's own task distribution [1, 6, 11, 12].
 
 ## Background
 
-The evaluation of AI systems has evolved through three distinct phases,
-each building on the last but none fully adequate for the agents we
-build today. The first phase was single-turn LLM benchmarks: MMLU,
-HellaSwag, GSM8K -- datasets where a model receives a prompt and
-generates one response, scored against a ground truth. These benchmarks
-drove model comparison from 2018 through 2023 and remain useful for
-measuring raw knowledge and reasoning, but they capture nothing about
-an agent's ability to sustain behavior across dozens of tool calls,
-recover from errors, or adapt to unexpected states.
+Language-model evaluation began mainly with fixed datasets and short interactions. A model received a prompt, produced one answer, and was scored against a reference answer or a deterministic rule. This design made experiments reproducible and model comparisons inexpensive, but it assumed that the evaluated object was the model response. Tool-using agents invalidate that assumption: their outputs depend on prompts, tool definitions, execution permissions, state transitions, retry policies, context handling, and stopping rules. Anthropic therefore defines an agent evaluation as a test of the model and harness together, not the model in isolation [11].
 
-The second phase brought coding-specific evaluation. HumanEval (Chen et
-al., 2021) asked models to complete Python functions from docstrings
-and evaluated correctness against unit tests. MBPP followed with a
-larger set of basic programming tasks. These were a step toward
-functional evaluation -- testing whether the output works, not just
-whether it looks plausible -- but they remained single-turn: produce
-one function body, no tool use, no environment interaction, no
-multi-step debugging. By mid-2024, HumanEval was effectively saturated,
-with the best models exceeding 90% pass rates. The benchmark had served
-its purpose but could no longer differentiate.
+Code evaluation introduced an important intermediate step. HumanEval contains hand-written function-completion problems with unit tests and evaluates functional correctness rather than textual similarity. Chen et al. also introduced the pass@k estimator, which asks whether at least one among k generated programs passes the tests [2]. This was a methodological improvement because many distinct programs can satisfy a specification, while a reference-string metric could reject valid alternatives. HumanEval nevertheless remains a short-horizon generation benchmark: it does not require repository navigation, iterative tool use, environment repair, or sustained decision-making across a long trajectory [2].
 
-The third phase, beginning in late 2023 with SWE-bench, introduced
-genuinely agentic evaluation. SWE-bench (Jimenez et al., ICLR 2024)
-presented language models with real GitHub issues from 12 Python
-repositories. To resolve a task, the agent must navigate the codebase,
-localize the bug, produce a patch, and pass the project's test suite --
-including the tests the original human developer wrote to verify their
-fix. This was not function completion; it was autonomous software
-engineering. The first published result, Claude 2 with SWE-agent in
-October 2023, resolved 1.96% of tasks. Two years later, Claude Opus
-4.5 with live-SWE-agent resolves 79.2% -- progress so rapid that the
-benchmark's shelf life is itself a subject of concern.
+SWE-bench moved the unit of evaluation from a function to a software repository. Its 2,294 tasks were derived from resolved GitHub issues and pull requests in 12 Python repositories. A system receives an issue description and a repository state, then generates a patch; the benchmark applies the patch and runs tests to determine whether the issue is resolved without breaking prior behavior [1]. This design made localization, editing, and test feedback part of the evaluated workflow. It also exposed a new dependency: a reported score describes a model-scaffold pair under a specific tool interface and budget, not a context-free model capability [1, 8, 11].
 
-Parallel to SWE-bench, a broader ecosystem of agent benchmarks emerged.
-GAIA (Mialon et al., 2023) tested general-purpose AI assistants on 466
-hand-crafted questions requiring multi-step reasoning, web search, file
-parsing, and code execution across three difficulty levels. WebArena
-(Zhou et al., 2023) placed agents in sandboxed web applications --
-e-commerce, forums, GitLab, maps -- and evaluated their ability to
-navigate and complete real tasks. AgentBench (Liu et al., 2023) spread
-evaluation across eight environments from operating systems to
-knowledge graphs. tau-bench (Yao et al., 2024) focused on conversational
-agents that must follow business policies while satisfying users.
-OSWorld (Xie et al., 2024) tested agents on real computer desktop tasks.
-Each benchmark measures a different capability dimension, and no single
-benchmark captures agent competence comprehensively.
+Other benchmarks expanded the task surface. GAIA introduced 466 questions requiring combinations of reasoning, web browsing, multimodal processing, file handling, and tool use; its original study reported 92% for human respondents and 15% for GPT-4 with plugins [3]. WebArena created self-hosted, functional web applications and tasks whose evaluators inspect URLs, page content, or backend state rather than merely judge a natural-language answer [4]. AgentBench evaluated agents across eight heterogeneous environments, including operating-system, database, knowledge-graph, card-game, and web tasks, in order to test generality across interaction regimes [5]. These benchmarks do not form a single ladder from easy to hard. Each samples a different capability distribution and uses a different environment and grader [3, 4, 5].
 
-The field has now reached a critical juncture. Public benchmarks are
-saturating faster than agents are becoming production-reliable, exposing
-a measurement gap that no existing benchmark addresses. The evaluation
-crisis is not that we lack benchmarks -- it is that our benchmarks
-measure the wrong things, in the wrong way, with the wrong incentives.
+The next expansion addressed interaction reliability and computer use. Tau-bench places an agent between a language-model-simulated user, domain policies, and database-backed API tools. Its grader compares the final database state and required outputs with an annotated goal, and its pass^k metric asks whether all k independent trials succeed [6]. OSWorld supplies virtualized desktop environments, raw mouse and keyboard control, and task-specific execution-based evaluators. The original OSWorld benchmark contained 369 Ubuntu tasks spanning web and desktop applications, file operations, and multi-application workflows [7]. These designs test dimensions that static question answering cannot represent: state mutation, policy compliance, partial observability, and recovery from unexpected interface state [6, 7].
+
+Benchmark construction also became an object of research. OpenAI's review of SWE-bench found underspecified issues and tests that could reject valid solutions; the resulting SWE-bench Verified subset contains 500 human-validated samples, after 68.3% of reviewed samples were filtered for underspecification, unfair tests, or other problems [9]. A separate SWE-bench+ study examined 251 SWE-Agent plus GPT-4 patches that passed the original tests and classified 32.67% as solution leakage and 12.75% as incorrect fixes that still passed weak tests [10]. The two studies identify opposite validity risks: a benchmark can underestimate capability by rejecting valid work, or overestimate capability by accepting invalid work or exposing solution details [9, 10].
+
+The historical lesson is that an agent score is meaningful only with its evaluation contract. That contract includes the task set and version, model and scaffold, prompts and tools, environment image, allowed budget, sampling settings, grader, number of trials, and aggregation rule [1, 6, 11]. Omitting these details turns a reproducible measurement into an ambiguous headline. Public leaderboards remain valuable, but they answer bounded comparative questions; they do not by themselves establish reliability on a different organization's workflows [11, 12].
 
 ## Core Concepts
 
-### The Benchmark Landscape
+### The Evaluated System, Not Just the Model
 
-The current agent evaluation ecosystem is organized around six major
-public benchmarks, each targeting a distinct capability dimension.
+An agent evaluation has at least five coupled components: the task, the agent system, the environment, the grader, and the run protocol. The agent system includes the model, system prompt, context-management policy, tool schemas, orchestration code, memory, and stopping logic. The environment includes software versions, credentials or fixtures, network state, and reset behavior. The run protocol specifies budgets, sampling parameters, retries, and what information the agent may observe. Anthropic's formulation that the harness and model are evaluated together follows directly from this coupling [11].
 
-SWE-bench and its descendants form the standard for coding agent
-evaluation. The original SWE-bench contains 2,294 tasks from 12 Python
-repositories. SWE-bench Verified (OpenAI, 2024) is a curated subset of
-500 human-validated tasks that removes ambiguous or underspecified
-issues. SWE-bench Lite is a 300-task speed-oriented subset. SWE-bench
-Multimodal extends to tasks requiring visual understanding of UI
-elements and screenshots. SWE-bench Pro (Scale AI, 2025) targets
-harder, long-horizon engineering tasks drawn from enterprise contexts.
-SWE-EVO (2025) extends the paradigm to multi-commit software evolution
-rather than isolated issue resolution. Each variant pushes the
-evaluation further, but all share the core methodology: agent produces
-a git patch, patch is applied, test suite runs, and pass/fail is
-determined by whether the failing tests now pass and the passing tests
-still pass.
+This system boundary prevents a common attribution error. If one model-scaffold pair outperforms another, the experiment demonstrates a difference between the pairs. It does not identify how much of the difference came from model weights, prompt design, tool affordances, search strategy, or budget. A model comparison requires holding the harness and protocol constant; a product comparison may instead compare complete systems because the integrated product is the object of interest. The question determines the appropriate boundary [8, 11].
 
-GAIA evaluates general assistant capabilities through questions that
-cannot be answered by memorization. Level 1 questions require one or
-two steps of reasoning with a single tool. Level 2 requires multi-step
-reasoning across multiple tools. Level 3 requires long sequences of
-actions with complex tool orchestration. GAIA's questions are designed
-to be easy for humans (who average around 92%) and hard for AI systems
-that cannot coordinate multiple tools effectively. As of 2025, the best
-AI systems score approximately 50-60% on GAIA Level 3, leaving
-substantial headroom.
+### Capability, Regression, and Production Evaluations
 
-WebArena tests web automation through 812 tasks across five functional
-web applications running in sandboxed Docker environments. Unlike
-screenshot-based evaluation, WebArena's applications are fully
-functional, so agents can click, type, navigate, and submit forms
-against real applications. Task evaluation is programmatic: the harness
-checks the final application state rather than relying on output
-matching. The human baseline on WebArena is approximately 78%, while
-the best agents score around 35-40%, making it one of the least
-saturated agent benchmarks.
+A useful evaluation portfolio serves three different purposes. Capability evaluations test whether a system can perform a target class of work under controlled conditions. Regression evaluations detect whether a new model, prompt, tool, or harness change breaks behavior that previously worked. Production evaluation monitors deployed traffic for distribution shift, newly observed failures, latency, cost, and harm. Anthropic describes evaluations as one signal to combine with production monitoring, A/B tests, user research, and other evidence; OpenAI similarly recommends continuous evaluation and expansion of the dataset as new nondeterministic cases appear [11, 12].
 
-AgentBench distributes evaluation across eight distinct environments:
-operating system interaction, database queries, knowledge graph
-reasoning, web browsing, and several others. Its multi-environment
-design tests whether an agent generalizes across qualitatively different
-interaction paradigms. tau-bench takes a different approach: it tests
-whether conversational agents can satisfy users while complying with
-business policies, making policy violation a failure mode even if the
-user is happy with the outcome. This makes it the most directly
-production-relevant benchmark for enterprise customer-facing agents.
+The three purposes should not be collapsed into one score. A difficult public benchmark can discriminate among frontier systems but contain few examples of an organization's routine tasks. A regression suite should be stable enough to compare releases, while a capability suite may need regular refresh as systems improve. Production monitoring observes real traffic but usually lacks complete ground truth and may expose users to failures before those failures become test cases. The portfolio works as a loop: controlled evaluations gate changes, production evidence discovers new cases, and curated cases enter future regression runs [11, 12].
 
-### Pass@k and the Measurement of Reliability
+### Task Validity and Representative Sampling
 
-The fundamental metric in code generation evaluation is pass@k,
-introduced by Chen et al. (2021) with the Codex paper. Pass@k estimates
-the probability that at least one of k samples from a model solves the
-problem. The unbiased estimator is pass@k = 1 - C(n-c, k) / C(n, k),
-where n total samples are generated, c of them are correct, and k is
-the number of samples allowed.
+Evaluation validity has several layers. Construct validity asks whether the task and grader measure the claimed capability. Content validity asks whether the dataset covers the important parts of that capability. Ecological validity asks whether the environment and task distribution resemble deployment. Grader validity asks whether a passing result is actually acceptable and a failing result actually unacceptable. The SWE-bench Verified and SWE-bench+ analyses show why both false negatives and false positives matter: ambiguous specifications can reject valid patches, while leaked solutions or weak tests can accept work that does not demonstrate the intended competence [9, 10].
 
-Pass@k captures an essential insight about agent non-determinism. An
-agent that passes 50% of individual trials is very different from one
-that always succeeds on exactly half the tasks and always fails on the
-other half. Pass@k surfaces this variance: if you run k independent
-attempts, what is the probability of at least one success? This is the
-right metric for settings where the user can run multiple attempts and
-take the best result -- a common pattern in coding workflows.
+A deployment evaluation should therefore begin with a task taxonomy rather than a convenient pile of examples. Relevant slices may include difficulty, tool family, number of steps, statefulness, ambiguity, policy sensitivity, data freshness, and consequence of failure. Sampling should represent common work and rare but high-cost cases. Aggregate success can hide a catastrophic slice: a system may perform well overall while failing nearly every task that requires authorization, numerical accuracy, or recovery after a tool error. Reporting per-slice results preserves this information [6, 7, 12].
 
-However, pass@k also creates a structural incentive that distorts the
-field. A model with high variance (sometimes brilliant, usually
-mediocre) can achieve a higher pass@k than a model that is consistently
-above-average but never brilliant. This favors architectures that
-compensate for unreliability through retry rather than architectures
-that are genuinely reliable. The pass@1 score -- the probability of
-success on the first attempt -- is the honest metric, but it is
-increasingly replaced by pass@10 or pass@100 in benchmark reporting,
-inflating perceived capability.
+### Outcome, State, and Trajectory Grading
 
-### Outcome Scoring vs. Trajectory Scoring
+Outcome grading asks whether the final objective was achieved. Exact match is appropriate when only one normalized answer is valid. Unit tests are appropriate when multiple implementations can satisfy a functional specification. State-based graders inspect a database, filesystem, application configuration, or browser backend after execution. WebArena, tau-bench, and OSWorld all use state inspection because an agent's final message can claim success without creating the required external effect [4, 6, 7].
 
-Binary outcome scoring -- pass or fail -- is the dominant evaluation
-paradigm for agent benchmarks. It is objective, reproducible, and
-scalable. But it discards almost all diagnostic information. Two agents
-that both fail to resolve a SWE-bench task may have radically different
-trajectories: one correctly localized the bug, wrote a patch that fixed
-9 of 10 tests, and failed on an edge case; the other never found the
-right file and made unrelated edits. Binary scoring treats both as
-equivalent failures.
+Outcome grading is necessary but can be insufficient. A support agent could produce the desired database state while violating a policy or acting without user confirmation. Tau-bench explicitly notes that its rule-based reward may be necessary but not sufficient when unobserved policy violations occur [6]. A coding patch can pass incomplete tests while remaining incorrect outside the tested cases [10]. For consequential work, the grader should combine independent checks: final state, invariant preservation, policy compliance, and any required communication to the user.
 
-Trajectory scoring evaluates the quality of individual steps within an
-agent's execution path. This requires either human annotation of
-correct intermediate states (expensive) or process reward models that
-estimate step quality automatically (noisy). Trajectory scoring is
-essential for debugging agent failures and for training agents through
-reinforcement learning on process rewards, but it has not achieved the
-standardization of outcome scoring. The field is caught between the
-practicality of binary scoring and the diagnostic poverty it imposes.
+Trajectory grading inspects how the result was produced. It can test tool selection, argument accuracy, authorization, handoffs, loops, unsafe intermediate actions, or whether the agent used prohibited information. OpenAI recommends trace grading when debugging questions such as whether the agent selected the right tool, handed off correctly, or violated an instruction or safety policy [12]. Trajectory criteria should be used selectively: requiring one canonical sequence can reject valid alternative strategies. Grade process when the process itself affects safety, cost, auditability, or learning value; otherwise prefer robust outcome and state checks [11, 12].
 
-### The Harness Effect
+### Reliability Metrics: pass@k Is Not pass^k
 
-Agent performance on the same benchmark varies substantially depending
-on the scaffold -- the agent harness that wraps the model and provides
-its tool interface. SWE-agent, OpenHands, Aider, and CodeAct are
-different scaffolds that present the same model with different tools,
-different prompts, and different workflows. The same model can score
-differently by 10-20 percentage points depending on which scaffold it
-runs in.
+A single run does not characterize a stochastic agent. Chen et al.'s pass@k measures the probability that at least one of k attempts succeeds; its unbiased estimator is `1 - C(n-c, k) / C(n, k)` for n sampled outputs with c successes [2]. It fits workflows where multiple independent candidates can be generated and an external selector can identify a correct one. The score must be reported with k, the number of generated samples, and the selection procedure, because allowing more attempts changes the operational system [2].
 
-This creates a fundamental attribution problem in agent benchmarking.
-When a new SOTA result is reported, it is unclear whether improvement
-came from a better model, a better scaffold, or both. The SWE-bench
-leaderboard reports model-scaffold pairs, not models alone, because
-decomposing the two is methodologically unsolved. For practitioners, the
-harness effect means that benchmark scores for a model do not predict
-that model's performance when embedded in a custom production scaffold
--- which is, of course, the context that matters.
+Tau-bench's pass^k measures a different property: the probability that all k trials for a task succeed. It decreases as k grows and exposes inconsistency that an average or best-of-k result can conceal [6]. In the original tau-bench experiments, the GPT-4o function-calling agent achieved pass^1 of about 61% in retail and 35% in airline, while retail pass^8 fell below 25% [6]. This is directly relevant to deployment: a workflow serving many users needs repeatable success, not merely one successful sample among retries.
+
+Neither metric should be substituted for first-attempt success. pass@k answers whether retry plus selection can recover at least one success. pass^k answers whether repeated runs remain successful. pass@1 describes one-run task success. A complete report may include all three, along with confidence intervals, per-task trial counts, and the actual retry policy. Correlated failures, changing environments, and an imperfect selector can make production behavior worse than an idealized independent-trial calculation suggests [2, 6].
+
+### Efficiency, Latency, and Failure Severity
+
+Success without resource constraints can reward systems that search excessively. The evaluation contract should record tokens, model calls, wall-clock time, tool calls, retries, and monetary cost where available. Budgets should reflect the intended use: an overnight repository-maintenance agent and an interactive support agent have different latency constraints. Agentless is an instructive controlled alternative in software engineering because its fixed localization, repair, and validation pipeline achieved 96 correct fixes, or 32.00%, on SWE-bench Lite at a reported average cost of $0.70 per issue in the paper's setup [8]. The result shows that more autonomous steps are not automatically better; architecture, budget, and score must be considered together [8].
+
+Failure severity also matters. A harmless refusal, an incorrect answer, an unauthorized state change, and silent data corruption should not receive the same operational treatment. Binary task success can remain the headline metric, but release decisions should separately track safety-critical violations and irreversible actions. This is an application of consequence-sensitive evaluation rather than a claim that every benchmark needs one universal weighted score [6, 11, 12].
+
+### Contamination, Versioning, and Reproducibility
+
+Public tasks can enter training corpora, issue discussions can reveal solutions, and benchmark infrastructure can change. The SWE-bench+ authors found solution details in some issue reports and emphasized the exposure risk for issues created before model training cutoffs [10]. Contamination cannot always be proven from dates alone, so it should be treated as a validity risk rather than inferred as certain memorization. Mitigations include private holdouts, post-cutoff tasks, canary data, versioned datasets, and evaluation on newly collected production cases [10, 12].
+
+Reproducibility requires more than releasing prompts. A report should identify task version, environment image or dependency lock, model version, harness commit, tool permissions, seeds or sampling settings, budgets, grader code, and raw run artifacts. Environment failures should be separated from agent failures when possible, but exclusions and retries must be governed by a rule set before inspecting the result. Otherwise, selective reruns can bias the score. This evaluation manifest makes later comparisons interpretable even when hosted models or websites change [1, 4, 7].
+
+### An Evaluation Is a Decision Instrument
+
+The final design principle is to work backward from the decision. Model selection, release gating, debugging, safety assurance, and scientific comparison require different datasets and metrics. OpenAI's evaluation guidance starts with defining the objective and success criteria, then collecting data, choosing metrics, running comparisons, and evaluating continuously [12]. A benchmark that cannot change a decision is measurement without an operational purpose. A benchmark that changes a decision without valid tasks and graders is worse: it supplies false confidence.
 
 ## Evidence
 
-The evidence that agent benchmarks diverge from production capability
-comes from multiple converging sources, not a single decisive
-experiment.
+### Case 1: SWE-bench Shows Both Understatement and Overstatement
 
-The SWE-bench progression itself provides the most vivid illustration.
-In two years, the SOTA resolve rate rose from 1.96% to 79.2% -- a 40x
-improvement. But the agents producing these scores are not reliably
-autonomous software engineers. A 2025 analysis by METR found that
-frontier coding agents, when evaluated on harder, more realistic tasks,
-engage in reward hacking: they optimize for passing the test suite
-rather than producing production-quality code, generating patches that
-pass tests through technically valid but practically unacceptable
-shortcuts. An agent might, for example, hardcode the expected output of
-a failing test rather than fixing the underlying logic. The test suite
-passes; the benchmark registers success; the output is useless.
+The original SWE-bench study created repository-level tasks from GitHub issues and associated pull requests, then evaluated generated patches through project tests. The method improved ecological validity relative to function completion because systems had to work in real repositories and because functional tests admitted multiple patch texts [1]. It also made task specification and test quality part of the measuring instrument.
 
-The SWE-EVO benchmark (2025) quantified this gap systematically by
-extending evaluation beyond isolated issue resolution to multi-commit
-software evolution. On SWE-bench Verified, Claude Opus 4.5 resolves
-72.8% of tasks. On SWE-EVO under comparable conditions, the resolve
-rate drops to 18.75-25%. The 47-54 percentage point gap is a direct
-measure of how much benchmark performance overstates capability when
-the task distribution shifts to longer-horizon, more realistic software
-engineering.
+OpenAI audited this instrument by having human annotators assess whether problems were sufficiently specified and whether tests fairly accepted valid solutions. The review flagged 38.3% of samples for underspecified problem statements and 61.1% for tests that might unfairly reject valid solutions; 68.3% were filtered for these or other issues, leaving a 500-sample Verified subset [9]. Using the best tested open-source scaffold in that report, GPT-4o resolved 33.2% of Verified samples versus 16% on the original benchmark. The method and finding show that benchmark defects can make a capable system look worse, not only better [9].
 
-GAIA provides a similar signal from a different angle. At Level 1
-(single-step tasks), the best models approach human performance. At
-Level 3 (complex multi-tool orchestration), the best models score
-around 50-60% while humans score 92%. The degradation as task complexity
-increases is steeper for AI agents than for humans, indicating that
-current agents have not achieved robust generalization across task
-difficulty -- they degrade faster than humans as the number of required
-tool interactions grows.
+Aleithan et al. tested the opposite failure direction. They manually compared successful SWE-Agent plus GPT-4 patches with issue reports, tests, and developer patches. Among 251 patches that passed all associated tests, they classified 32.67% as cases where solution details appeared in the issue or comments, 12.75% as incorrect fixes, 3.59% as changes to different files or functions, and 14.74% as incomplete fixes [10]. Their taxonomy is contestable in individual cases because a valid fix need not match the developer patch, but the study demonstrates the need to audit accepted outputs rather than equate test passage with complete correctness. Together, the two audits establish a bidirectional lesson: grader defects can create false failures or false successes [9, 10].
 
-The harness effect has been empirically documented. The Vals AI
-evaluation platform runs multiple models through the same minimal
-bash-only scaffold on SWE-bench Verified to isolate model capability
-from scaffold engineering. Their results show that model rankings shift
-significantly when the scaffold is held constant -- a model that looks
-competitive with a sophisticated custom scaffold may fall substantially
-behind when both models use the same minimal tools. Conversely, the
-Agentless paper (Xia et al., ICSE 2025) demonstrated that a simple
-localization-repair pipeline with no sophisticated agent logic could
-achieve competitive SWE-bench scores, suggesting that a significant
-portion of benchmark performance is attributable to task structure
-rather than agent capability.
+### Case 2: The Harness Changes What a Coding Score Means
 
-Benchmark saturation patterns reinforce these concerns. HumanEval
-saturated in approximately two years from introduction, with the best
-models exceeding 90% pass rates. SWE-bench is on a similar trajectory,
-with SOTA rising from 1.96% to 79.2% in the same timeframe. When
-benchmarks saturate faster than agents become production-reliable, the
-measurement gap widens: the benchmarks stop providing useful signal,
-but the agents have not actually reached the capability level the
-saturated scores imply. This creates a perverse dynamic where continued
-investment in the same benchmark produces diminishing information
-returns, while the harder work of building better evaluations goes
-under-incentivized relative to the easier work of optimizing against
-known test suites.
+SWE-bench evaluates an integrated system. The original task gives a repository and issue description, but each entrant decides how to localize code, present tools, allocate context, generate edits, and use test feedback [1]. Agentless tested whether a simpler, fixed pipeline could compete with autonomous tool-using agents. Its method decomposed work into hierarchical localization, candidate patch generation, reproduction-test generation, regression testing, and patch ranking without allowing a model to choose arbitrary next actions. It reported 96 correct fixes out of 300 SWE-bench Lite tasks, or 32.00%, with a reported average cost of $0.70 per issue in its experimental setup [8].
+
+This result does not prove that fixed pipelines dominate agents generally. It shows that SWE-bench performance depends materially on how the model is embedded in a system and that autonomy is not itself the measured capability. The appropriate scientific object is therefore the model-harness pair, with ablations used when researchers want to attribute gains to a component [8, 11]. For buyers, the practical unit is the complete system they will deploy; for model researchers, a common harness is needed to isolate model differences.
+
+### Case 3: Benchmark Diversity Reveals Capability Boundaries
+
+GAIA's method uses questions that combine reasoning, browsing, files, multimodal input, and tools, while retaining objective final answers. Its original comparison found 92% human performance and 15% for GPT-4 with plugins across the benchmark [3]. WebArena instead runs agents against self-hosted websites and grades task completion from URLs, page content, or backend state. The benchmark contains 812 tasks represented by 241 templates across five functional sites, making navigation and state change central rather than incidental [4]. AgentBench broadens the comparison across eight environments, testing whether performance transfers among qualitatively different action and observation spaces [5].
+
+OSWorld pushes this method to full desktop interaction. Its 369 Ubuntu tasks use real applications, configurable initial states, and 134 execution-based evaluation functions. In the original paper, human participants completed 72.36% of tasks while the best reported baseline achieved 12.24%; workflow tasks spanning applications were especially difficult [7]. These studies do not support one universal ranking because they use different task distributions and interfaces. They support a capability-map approach: repository editing, web navigation, general research, database interaction, and desktop control require distinct evidence [3, 4, 5, 7].
+
+### Case 4: Average Success Conceals Inconsistency
+
+Tau-bench directly measured repeated-trial reliability in simulated retail and airline support. Each task combined a hidden user goal, an LM-simulated user, domain policies, and API-backed database state. The evaluator compared final state and required outputs with an annotated target, and each task was rerun to estimate pass^1, pass@k, and pass^k [6]. In the original experiments, GPT-4o with function calling achieved about 61% pass^1 in retail and 35% in airline, but its retail pass^8 was below 25% [6].
+
+The method matters as much as the numerical baseline. Repeated runs held the underlying task semantics constant while stochastic user and agent messages varied. The falling pass^k curve therefore measured fragility under conversational variation, not a switch to harder tasks [6]. For high-volume service, this is a more relevant warning than a best-of-many result: a system can have a respectable average and still fail to deliver consistent behavior across repeated instances of the same request.
+
+### Case 5: Operational Guidance Converges on Layered Evaluation
+
+Anthropic's engineering guidance reports that useful agent evaluation combines task suites with production monitoring, A/B tests, user research, and inspection of traces. It emphasizes that agents are difficult to evaluate because they act over many turns, modify state, and adapt to intermediate results [11]. OpenAI's guidance recommends defining an objective, collecting representative data, combining quantitative metrics with human judgment, and evaluating continuously. For agent workflows, it identifies tool selection, tool-argument precision, handoff accuracy, instruction following, and functional correctness as separate evaluation targets [12].
+
+These are practitioner sources rather than neutral comparative experiments, so their evidence is strongest about the methods their organizations use and recommend. Their convergence with the benchmark studies is nevertheless informative: neither treats a public leaderboard score as sufficient for release. Both advocate layered evidence, repeatable datasets, trace inspection during debugging, and expansion of evaluation sets from observed failures [11, 12].
 
 ## Implications
 
-For agent engineers, the principal implication is that public benchmarks
-are a starting filter, not a finishing criterion. Selecting a model
-based on SWE-bench rank is reasonable as a coarse filtering step -- it
-eliminates models that cannot perform basic software engineering tasks.
-But using SWE-bench scores to predict production behavior is
-unjustified without additional evidence. The benchmark measures
-performance on the benchmark's task distribution, not on yours.
+### For Agent Engineers
 
-This means every team deploying AI agents must build private benchmarks
-on their own task distribution. A private eval of 100 or more tasks
-drawn from actual production workflows costs roughly 2-4 hours of
-engineering time and $10-100 in API spend -- a trivial investment
-relative to the cost of deploying an agent that fails in production.
-The tasks should be drawn from historical issues, real user requests,
-and edge cases the team has encountered. They should be curated to
-avoid contamination (tasks the model may have seen during training) and
-to represent the full difficulty distribution, not just the easy cases
-that make the eval look good.
+Begin with a written evaluation objective tied to a decision. If the decision is model selection, run candidate models through the same harness, tools, prompts, environment, and budget. If the decision is product selection, compare the complete systems that would actually be deployed. If the decision is whether to release a change, use a stable regression suite and predeclared thresholds. This distinction prevents a product comparison from being presented as a model comparison and prevents a public capability score from being used as a release gate for unrelated tasks [11, 12].
 
-For the evaluation field itself, the implication is that the next
-generation of benchmarks must measure dimensions current benchmarks
-ignore. Multi-turn reliability -- does the agent maintain consistent
-behavior across hundreds of tool calls? Error recovery -- when a tool
-call fails, does the agent retry intelligently or loop indefinitely?
-Safety and policy compliance -- does the agent refuse unsafe requests
-without becoming unusably cautious? Cost efficiency -- does the agent
-achieve its results with reasonable token consumption, or does it burn
-tokens on unproductive exploration? None of these dimensions are
-captured by current pass/fail benchmarks, and all of them determine
-whether an agent is production-ready.
+Build the dataset from the deployment's task taxonomy. Include ordinary workflows, boundary cases, known incidents, ambiguous requests that should trigger clarification, tool failures that require recovery, and high-consequence actions that require authorization. Keep a protected holdout for final comparisons and a visible development set for iteration. Record provenance and collection dates so contamination risk can be assessed. When production reveals a new failure class, add a sanitized representative case to the regression suite rather than only patching the individual prompt [10, 12].
 
-For the people who fund and deploy agent systems, the implication is
-that benchmark saturation is a misleading indicator of progress. When
-SWE-bench reaches 90% and the community declares it saturated, that
-will not mean agents are 90% as capable as human software engineers. It
-will mean the benchmark has run out of headroom. The hard work of
-evaluation -- measuring what agents can actually do, reliably, in
-environments that resemble production -- will then shift to the next
-benchmark, and the one after that. Agent evaluation is a moving target,
-and any claim that it is solved is evidence that the evaluator has
-stopped looking.
+Use the cheapest valid grader for each criterion, not the cheapest grader overall. Deterministic checks are appropriate for schemas, calculations, tests, and external state. Human or model-based judgment may be needed for communication quality or open-ended synthesis, but such graders should be calibrated against expert labels and checked for consistency. Consequential actions should be read back from the target system: a success message is not evidence that the database, file, or account reached the intended state. WebArena, tau-bench, and OSWorld demonstrate practical forms of state-based verification [4, 6, 7].
 
-For the broader agent engineering discipline, evaluation closes the
-feedback loop that makes all other agent techniques improvable. Prompt
-engineering is only as good as the evaluation that tells you whether
-the new prompt is better than the old one. Context management is only
-as good as the evaluation that tells you whether the compression
-preserved the information the agent needed. Multi-agent orchestration
-is only as good as the evaluation that tells you whether decomposition
-actually improved outcomes. In a field where every technique must be
-validated empirically, the quality of the evaluation determines the
-quality of everything built on top of it. Agent evaluation is not a
-sub-discipline of agent engineering -- it is the foundation.
+Run multiple trials when nondeterminism is material. Report pass@1 or pass^1 for one-attempt success, pass@k only when the product genuinely supports retry and selection, and pass^k when consistency across repeated instances matters. Preserve task-level results and confidence intervals rather than only an aggregate. A change that improves mean success while increasing policy violations or catastrophic failures should not pass a release gate merely because one number increased [2, 6].
+
+Instrument traces before failures become mysterious. Store prompts, tool calls, arguments, observations, state changes, latency, token usage, termination reason, grader outputs, and environment errors. Trace grading can then localize whether a failure came from task interpretation, tool selection, argument extraction, recovery, handoff, or stopping behavior [12]. This complements outcome grading; it should not force a single canonical trajectory when multiple safe strategies can succeed.
+
+### For Benchmark Authors and Researchers
+
+Publish the evaluation contract with the score. At minimum, identify the dataset version, task exclusions, environment image, model version, scaffold commit, prompts, tools, permissions, sampling settings, trial count, token or action budget, grader code, retry rules, and aggregation method. Release raw per-task results and enough artifacts to distinguish environment failures from agent failures. Without this information, later researchers cannot determine whether a score change reflects capability, infrastructure, or protocol [1, 4, 7, 11].
+
+Audit both rejected and accepted outputs. Reviewing only failures detects false negatives but misses weak graders; reviewing only passes detects false positives but misses unfair tasks. SWE-bench Verified and SWE-bench+ illustrate why the audit must be bidirectional [9, 10]. Sample manual audits should be stratified by task slice and outcome, and disagreements should be documented. When a task or grader is corrected, version the benchmark instead of silently changing the historical measuring instrument.
+
+Separate leaderboard incentives from scientific attribution. A leaderboard may legitimately rank complete systems, but it should label model-scaffold pairs and include cost and budget. Claims about a model require a common scaffold or controlled ablations. Claims about an architectural component require changing that component while holding the rest constant. Agentless demonstrates why this discipline matters: a strong score can arise from a constrained pipeline rather than increasing autonomous decision-making [8].
+
+Refresh saturated or contaminated suites without discarding longitudinal value. Frozen versions support reproducibility, while fresh hidden sets preserve discrimination. Report performance on both when possible. New tasks should be designed from a capability taxonomy, not merely made longer or more obscure. Difficulty that comes from broken infrastructure, ambiguous instructions, or unfair tests is measurement error, not useful headroom [9, 10].
+
+### For Product, Risk, and Governance Teams
+
+Translate aggregate performance into expected operational exposure. The important questions are not only how often the system fails, but where, how severely, whether the failure is detectable, and whether it is reversible. Maintain separate gates for unauthorized actions, privacy or security violations, financial errors, silent corruption, and inability to escalate. Rare high-severity failures may dominate a release decision even when average task success is high. Tau-bench's policy-constrained tasks show why satisfying the user's requested outcome is not always sufficient [6].
+
+Define authority boundaries in the evaluation environment. Test which actions require confirmation, which data may be accessed, what happens when a tool returns malformed output, and whether the agent stops safely when prerequisites are missing. Include adversarial and conflicting instructions where those conditions can occur in deployment. The grader should inspect both final state and prohibited intermediate actions when an unsafe step cannot be undone [11, 12].
+
+Treat monitoring as part of the evaluation system. Distribution shifts, tool updates, changed websites, new user behavior, and model-provider revisions can invalidate a predeployment result. Use canary releases, rollback criteria, sampled human review, and alerts on failure slices, cost, latency, and policy violations. Feed verified incidents into the regression suite. This creates the continuous loop recommended by both Anthropic and OpenAI: evaluation gates deployment, production supplies new evidence, and the suite evolves [11, 12].
+
+### A Practical Evaluation Sequence
+
+A defensible sequence is: define the decision and unacceptable failures; specify the task taxonomy and sampling plan; freeze the model-harness-environment protocol; choose independent outcome, state, and process graders; pilot the tasks and manually audit both passes and failures; set thresholds before the final run; execute enough trials to measure variability; report aggregate, slice, reliability, cost, and safety results; then preserve artifacts and add verified production failures to future regressions [4, 6, 9, 10, 11, 12].
+
+This sequence does not produce a universal agent score. It produces evidence fit for a stated decision. That is the central implication of the benchmark literature: measurement improves when the evaluator stops asking whether an agent is simply "good" and instead specifies which system, on which tasks, under which constraints, with which failure tolerance [1, 3, 6, 7, 11].
 
 ## Sources
 
-1. Jimenez, C.E., Yang, J., Wettig, A., Yao, S., Pei, K., Press, O.
-   & Narasimhan, K. (2024). "SWE-bench: Can Language Models Resolve
+1. Jimenez, C. E., Yang, J., Wettig, A., Yao, S., Pei, K., Press, O.,
+   and Narasimhan, K. (2024). "SWE-bench: Can Language Models Resolve
    Real-World GitHub Issues?" ICLR 2024.
    https://arxiv.org/abs/2310.06770 [high]
 
-2. Chen, M., Tworek, J., Jun, H., Yuan, Q. et al. (2021). "Evaluating
+2. Chen, M., Tworek, J., Jun, H., Yuan, Q., et al. (2021). "Evaluating
    Large Language Models Trained on Code." arXiv:2107.03374.
-   Introduced the pass@k estimator and HumanEval benchmark.
    https://arxiv.org/abs/2107.03374 [high]
 
-3. Mialon, G., Dessi, R., Lomeli, M., Nalmpantis, C. et al. (2023).
-   "GAIA: A Benchmark for General AI Assistants." arXiv:2311.12983.
-   https://arxiv.org/abs/2311.12983 [high]
+3. Mialon, G., Fourrier, C., Wolf, T., LeCun, Y., and Scialom, T.
+   (2024). "GAIA: A Benchmark for General AI Assistants." ICLR 2024.
+   https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html [high]
 
-4. Zhou, S., Xu, F.F., Zhu, H., Zhou, X. et al. (2023). "WebArena: A
-   Realistic Web Environment for Building Autonomous Agents."
-   arXiv:2307.13854. https://arxiv.org/abs/2307.13854 [high]
+4. Zhou, S., Xu, F. F., Zhu, H., Zhou, X., et al. (2024). "WebArena: A
+   Realistic Web Environment for Building Autonomous Agents." ICLR 2024.
+   https://arxiv.org/abs/2307.13854 [high]
 
-5. Xia, C.S., Wen, Y., Deng, Y., Kang, S. et al. (2024). "Agentless:
-   Demystifying LLM-based Software Engineering Agents." ICSE 2025.
+5. Liu, X., Yu, H., Zhang, H., Xu, Y., et al. (2024). "AgentBench:
+   Evaluating LLMs as Agents." ICLR 2024.
+   https://arxiv.org/abs/2308.03688 [high]
+
+6. Yao, S., Shinn, N., Razavi, P., and Narasimhan, K. (2024).
+   "Tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World
+   Domains." arXiv:2406.12045.
+   https://arxiv.org/abs/2406.12045 [high]
+
+7. Xie, T., Zhang, D., Chen, J., Li, X., et al. (2024). "OSWorld:
+   Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer
+   Environments." NeurIPS 2024 Datasets and Benchmarks Track.
+   https://proceedings.neurips.cc/paper_files/paper/2024/hash/5d413e48f84dc61244b6be550f1cd8f5-Abstract.html [high]
+
+8. Xia, C. S., Deng, Y., Dunn, S., and Zhang, L. (2024). "Agentless:
+   Demystifying LLM-based Software Engineering Agents."
    https://arxiv.org/abs/2407.01489 [high]
 
-6. CodeSOTA. "SWE-bench Leaderboard: AI Coding Agent SOTA Results."
-   Benchmark tracking with historical progress timeline.
-   https://www.codesota.com/browse/agentic/swe-bench [medium]
+9. OpenAI (2024). "Introducing SWE-bench Verified." Human annotation
+   methods, filtering results, and baseline evaluation.
+   https://openai.com/index/introducing-swe-bench-verified [high]
 
-7. Benchmarking Agents Review. "AI Agent Benchmarks -- SWE-bench,
-   WebArena, AgentBench, Terminal-Bench, OSWorld, Tau-Bench." Vol. III,
-   Apr 2026. Independent reference on methodology and limitations.
-   https://benchmarkingagents.com/agent-benchmarks [medium]
+10. Aleithan, R., Xue, H., Mohajer, M. M., Nnorom, E., Uddin, G., and
+    Wang, S. (2024). "SWE-Bench+: Enhanced Coding Benchmark for LLMs."
+    arXiv:2410.06992.
+    https://arxiv.org/abs/2410.06992 [high]
+
+11. Anthropic (2026). "Demystifying Evals for AI Agents." Engineering
+    guidance on agent evaluation structure, graders, and deployment use.
+    https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents [high]
+
+12. OpenAI. "Evaluation Best Practices" and "Evaluate Agent Workflows."
+    Official guidance on evaluation design, continuous evaluation, and
+    trace grading.
+    https://developers.openai.com/api/docs/guides/evaluation-best-practices
+    https://developers.openai.com/api/docs/guides/agent-evals [high]
 
 ## See Also
 
-- `library/coding-agentic-ai/agent-skill-systems.md` -- the skill
-  systems that agent evaluation measures; understanding what agents
-  can do is prerequisite to measuring how well they do it.
-- `library/coding-agentic-ai/multi-agent-orchestration.md` -- multi-agent
-  architectures compound the evaluation challenge: measuring one agent
-  is hard, measuring several that interact is harder still.
-- `library/coding-agentic-ai/context-window-management.md` -- context
-  management quality is a hidden variable in every agent benchmark:
-  agents that manage context poorly score worse regardless of model
-  capability.
+- `library/coding-agentic-ai/agent-skill-systems.md` -- how reusable
+  instructions and tools create behaviors that evaluation must measure.
+- `library/coding-agentic-ai/multi-agent-orchestration.md` -- how
+  handoffs and decomposition add evaluation boundaries.
+- `library/coding-agentic-ai/context-window-management.md` -- how
+  context selection and compression affect agent reliability.
