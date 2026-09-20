@@ -425,3 +425,6 @@ Candidates:
 - The First World War -- Collapse of Empires and the Interwar Order (8.96): gap=9.0, compounding=8.8, timeliness=8.3, balance=10.0
 - Tort Law -- Liability, Compensation, and Deterrence (8.94): gap=9.0, compounding=8.7, timeliness=8.3, balance=10.0 (skipped: queue capacity)
 Domain balance: anthropology, finance, history, industries-sectors, and law-regulation (9 topics each).
+
+## [ENT-433] | 2026-09-20 20:12 UTC | Librarian | library | ref: library/candidate-queue.md
+ERROR: step 12 cleanup failed. The cron security policy blocked removal of the cycle directory after successful discovery publication. Published candidate queue changes and ENT-432 were verified on origin/main before the cleanup failure.
