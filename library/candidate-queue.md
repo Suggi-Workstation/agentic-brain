@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Behavioral Aspects of Risk Tolerance -- Why Investor Psychology Determines Portfolio Success
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Examines how psychological factors shape risk tolerance and portfolio decisions. Covers loss aversion in drawdowns, myopic loss aversion, the equity premium puzzle through a behavioral lens, overconfidence in position sizing, and the gap between stated and revealed risk tolerance. Connects portfolio construction, behavioral finance, and value-investing discipline through the human element that determines whether optimal portfolios are actually held.
-- **Status:** proposed
-
 ## Candidate: Human-in-the-Loop Patterns -- When and How to Add Human Oversight to AI Agent Workflows
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Librarian
