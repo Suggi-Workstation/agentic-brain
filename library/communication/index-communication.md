@@ -1,6 +1,6 @@
 # Communication -- Topics
 
-9 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+10 topics. Anchor: [anchor-communication.md](anchor-communication.md)
 
 - [Interpersonal Communication and Negotiation -- Why Most Conversations Fail and What the Best Communicators Do Differently](interpersonal-communication-and-negotiation.md) -- [reviewed: never] -- Interpersonal communication and negotiation are the twin pillars of effective human interaction: communication is how we convey meaning, and negotiation is how we resolve competing interests. The evidence from decades of research across psychology, conflict resolution, and organizational behavior converges on a single insight: most conversational breakdowns are not failures of intelligence or good intentions but failures of technique.
 
@@ -9,6 +9,8 @@
 - [Linguistics and Language Evolution -- How Language Shapes Thought and Culture](linguistics-and-language-evolution.md) -- [reviewed: never] -- Linguistics is the scientific study of language: its structure, its history, and its role in human thought. Language is not a fixed code but an evolving system -- rebuilt by every generation of children, split into thousands of divergent families over millennia, and today disappearing at a rate of roughly one language every two weeks.
 
 - [Logical Fallacies -- A Taxonomy of Broken Arguments and Why They Persuade](logical-fallacies.md) -- [reviewed: never] -- Logical fallacies are patterns of reasoning that appear valid but contain structural flaws that render their conclusions unsupported by their premises. They are not merely mistakes in thinking -- they are systematic, classifiable errors that have been catalogued from Aristotle through modern argumentation theory, and they persist not because people are unintelligent but because the human mind is cognitively wired to find them persuasive.
+
+- [Media Ecosystem and Platform Dynamics -- How Digital Platforms Structure Information Production and Distribution](media-ecosystem-and-platform-dynamics.md) -- [reviewed: never] -- Digital platforms do not merely carry information; they set the interfaces, ranking rules, metrics, and moderation systems through which information becomes visible. This platformized media ecosystem expands who can publish while concentrating control over distribution in a small number of private infrastructures.
 
 - [Narrative Structure -- Why Stories Are the Most Powerful Form of Human Communication](narrative-structure-and-storytelling.md) -- [reviewed: never] -- Narrative is not one communication tool among many; it is the fundamental architecture through which humans understand, remember, and are persuaded by information. From Joseph Campbell's monomyth to the East Asian kishotenketsu, every culture has developed distinct narrative structures that encode meaning into a beginning, middle, and end.
 
