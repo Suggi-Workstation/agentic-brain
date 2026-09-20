@@ -1,6 +1,6 @@
 # Earth Climate -- Topics
 
-10 topics. Anchor: [anchor-earth-climate.md](anchor-earth-climate.md)
+11 topics. Anchor: [anchor-earth-climate.md](anchor-earth-climate.md)
 
 - [Atmospheric Science and Weather Systems -- How the Atmosphere's Circulation Drives Earth's Climate](atmospheric-science-weather-systems.md) -- [reviewed: never] -- Earth's atmosphere is not a static blanket of gases but a turbulent, continuously churning heat engine that redistributes energy from the equator toward the poles. The global atmospheric circulation -- governed by the Hadley, Ferrel, and Polar cells, shaped by the Coriolis effect, and expressed through jet streams, trade winds, monsoons, and the El Nino-Southern Oscillation (ENSO) -- determines where deserts form, where rainforests thrive, and how weather patterns propagate across continents.
 
@@ -9,6 +9,8 @@
 - [The Carbon Cycle and the Greenhouse Effect -- How Earth's Thermostat Works and Why It Is Breaking](carbon-cycle-greenhouse-effect.md) -- [reviewed: never] -- The carbon cycle is the planetary-scale system through which carbon moves between the atmosphere, oceans, terrestrial biosphere, and geological reservoirs over timescales ranging from seconds to millions of years. The greenhouse effect is the physical mechanism by which certain atmospheric gases trap outgoing infrared radiation, keeping Earth's surface roughly 33 degrees Celsius warmer than it would otherwise be -- making the planet habitable.
 
 - [Ecosystems Function Through Coupled Energy, Matter, and Interaction Networks](ecosystem-science-ecology-organisms-environment-functional-systems.md) -- [reviewed: never] -- An ecosystem is not merely a list of species in a place; it is a functional system in which organisms and the physical environment exchange energy and matter through interacting biological, chemical, and physical processes. Ecosystem science matters because disturbances to one process, such as primary production, predation, decomposition, or nutrient supply, can propagate through food webs and biogeochemical cycles, changing the stability and services of the whole system.
+
+- [Natural Disasters Follow Distinct Energy Pathways but Share a Common Hazard Chain](natural-disaster-mechanisms.md) -- [reviewed: never] -- Earthquakes, volcanic eruptions, tsunamis, tropical cyclones, tornadoes, floods, and wildfires arise from different reservoirs of energy, yet each becomes hazardous through a sequence of accumulation, triggering, propagation, and interaction with exposed systems. Understanding that sequence explains why some events permit days of warning while others begin without useful short-term prediction,...
 
 - [Ocean Acidification -- The Other Carbon Problem That Threatens the Marine Food Web](ocean-acidification.md) -- [reviewed: never] -- Ocean acidification is the ongoing decrease in ocean pH caused by the absorption of atmospheric carbon dioxide -- roughly one-third of all anthropogenic CO2 emissions dissolve into the sea. Since the Industrial Revolution, surface ocean pH has dropped from approximately 8.2 to 8.1, a seemingly small change that represents a 30% increase in acidity on a logarithmic scale.
 
