@@ -1,6 +1,6 @@
 # Coding Agentic Ai -- Topics
 
-11 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
+12 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
 
 - [Agent Evaluation and Benchmarking -- Why Measuring What AI Agents Can Actually Do Is the Hardest Problem in Agent Engineering](agent-evaluation-and-benchmarking.md) -- [reviewed: never] -- Agent evaluation is the methodological discipline of measuring how well an AI agent performs on multi-step, tool-using tasks -- and the current benchmark landscape systematically overstates real-world capability because it was inherited from single-turn LLM evaluation and has not yet adapted to the multi-step, non-deterministic nature of agentic systems.
 
@@ -15,6 +15,8 @@
 - [Agent Skill Systems -- How to Give AI Agents Capabilities Without Breaking Them](agent-skill-systems.md) -- [reviewed: never] -- An agent skill system is the mechanism by which an AI agent gains access to capabilities beyond text generation -- executing code, searching the web, reading files, calling APIs, and controlling applications. The skill system defines what the agent CAN do (tool catalog), how it decides WHAT to do (tool selection), and how those actions are executed safely (tool runtime).
 
 - [Context Window Management -- Why the Prompt Is the Scarce Resource in Agent Engineering](context-window-management.md) -- [reviewed: never] -- Context window management is the discipline of controlling what an AI agent "remembers" during a session to maximize task performance while minimizing token consumption, latency, and cost. Every turn an agent takes adds reasoning traces, tool outputs, and observations to the prompt; without management, context grows unbounded until it overflows the model's window or degrades performance through attention dilution.
+
+- [Human Oversight Improves Agent Workflows Only When It Is Risk-Triggered, Informed, and Enforceable](human-in-the-loop-patterns.md) -- [reviewed: never] -- Human-in-the-loop design is not the practice of asking a person to approve every agent action. It is a control architecture that assigns routine, reversible work to automation while routing consequential, ambiguous, or out-of-policy actions to a qualified human through enforceable gates, review checkpoints, and escalation paths.
 
 - [Multi-Agent Orchestration -- Why One Agent Is Rarely Enough for Complex Work](multi-agent-orchestration.md) -- [reviewed: never] -- Multi-agent orchestration is the architectural discipline of coordinating multiple AI agents to accomplish tasks that exceed the capability, context window, or reliability of any single agent. Rather than building one monolithic agent that does everything, orchestration decomposes work across specialized agents -- each with its own prompt, tools, and scope -- and defines how they communicate, hand off tasks, and resolve conflicts.
 
