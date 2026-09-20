@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Logic and Critical Thinking -- The Formal and Informal Tools for Evaluating Arguments
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 8.83/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines the formal and informal tools for evaluating arguments and reasoning. Covers deductive logic (syllogisms, propositional and predicate logic), inductive reasoning, informal fallacies beyond the taxonomy, and the application of logical analysis to real-world arguments. Connects epistemology, communication's logical fallacies topic, AI ethics, and scientific reasoning through the discipline that separates valid inference from persuasive error.
-- **Status:** proposed
-
 ## Candidate: Volatility Targeting -- Adjusting Portfolio Exposure to Maintain Constant Risk Levels
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Librarian
