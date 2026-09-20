@@ -428,3 +428,10 @@ Domain balance: anthropology, finance, history, industries-sectors, and law-regu
 
 ## [ENT-433] | 2026-09-20 20:12 UTC | Librarian | library | ref: library/candidate-queue.md
 ERROR: step 12 cleanup failed. The cron security policy blocked removal of the cycle directory after successful discovery publication. Published candidate queue changes and ENT-432 were verified on origin/main before the cleanup failure.
+
+## [ENT-434] | 2026-09-20 20:16 UTC | Librarian | library | ref: library/accounting-financial-shenanigans/cookie-jar-reserves-and-expense-manipulation.md | see: 20260920T200859Z
+Wrote topic Cookie-Jar Reserves and Expense Manipulation -- How Companies Smooth Earnings Through Reserve and Capitalization Games to accounting-financial-shenanigans. Weighted score: 9.7/10.0
+(core=9.8, scope=9.9, value=9.4, authority=9.7).
+Similarity overlap: 40%.
+Sources: 14 (14 high, 0 medium, 0 low).
+Cross-references: 5 topics.

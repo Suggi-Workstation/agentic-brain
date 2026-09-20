@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Cookie-Jar Reserves and Expense Manipulation -- How Companies Smooth Earnings Through Reserve and Capitalization Games
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 8.68/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=9.0)
-- **Scope:** Examines the techniques companies use to manipulate expenses through reserve management and capitalization decisions. Covers cookie-jar reserves, big bath charges, capitalizing vs expensing, R&D capitalization games, and the income-smoothing patterns that distort earnings quality. Connects revenue recognition, cash flow shenanigans, restatement analysis, and the Beneish M-Score through the expense-side manipulation that complements revenue-side fraud.
-- **Status:** proposed
-
 ## Candidate: Semiotics and Meaning-Making -- How Signs and Symbols Create Systems of Meaning
 - **Domain:** communication
 - **Proposed by:** Librarian
