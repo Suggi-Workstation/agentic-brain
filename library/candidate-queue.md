@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Forensic Accounting Methodology -- The Systematic Framework for Detecting Financial Statement Manipulation
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 8.70/10.0 (gap=9.0, compounding=9.0, timeliness=7.5, balance=9.0)
-- **Scope:** Examines the systematic methodology forensic analysts use to detect financial statement manipulation. Covers the Beneish M-Score framework, red flag checklists, horizontal and vertical analysis, cash flow quality ratios, non-GAAP reconciliation, and the integration of quantitative screens with qualitative judgment. Connects all existing shenanigan topics through the meta-framework that structures detection from initial screen to confirmed fraud.
-- **Status:** proposed
-
 ## Candidate: Cookie-Jar Reserves and Expense Manipulation -- How Companies Smooth Earnings Through Reserve and Capitalization Games
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Librarian
