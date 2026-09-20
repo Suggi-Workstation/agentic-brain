@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Monte Carlo Methods -- Simulation Algorithms for Problems Without Analytical Solutions
-- **Domain:** mathematics-statistics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 8.75/10.0 (gap=8.5, compounding=9.0, timeliness=8.0, balance=10.0)
-- **Scope:** Examines the computational algorithms that use repeated random sampling to estimate numerical results when analytical solutions are intractable. Covers variance reduction techniques, Markov Chain Monte Carlo, quasi-random sequences, and convergence diagnostics. Connects Bayesian statistics, probability theory, information theory, and portfolio risk measurement through the simulation methodology that powers modern computational finance and science.
-- **Status:** proposed
-
 ## Candidate: Forensic Accounting Methodology -- The Systematic Framework for Detecting Financial Statement Manipulation
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Librarian
