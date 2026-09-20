@@ -1,12 +1,14 @@
 # Accounting Financial Shenanigans -- Topics
 
-9 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
+10 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
 
 - [Acquisition Accounting Tricks -- How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality](acquisition-accounting-tricks.md) -- [reviewed: 2026-09-09] -- Acquisition accounting can obscure operating performance because purchase price allocation, contingent payments, and acquired liabilities affect reported earnings long after a deal closes. The forensic task is to distinguish legitimate estimates from unsupported valuations, reserve releases, and classifications that flatter results.
 
 - [The Beneish M-Score -- Why Eight Financial Ratios Can Catch Earnings Manipulators Before the Market Does](beneish-m-score.md) -- [reviewed: 2026-08-26] -- The Beneish M-Score is a probabilistic model that uses eight publicly available financial ratios to detect whether a company has manipulated its reported earnings. Developed by accounting professor Messod D. Beneish of Indiana University's Kelley School of Business and published in 1999, the model correctly identified 76% of earnings manipulators in out-of-sample tests and retrospectively flagged Enron years before its 2001 collapse.
 
 - [Cash Flow Shenanigans -- Real Cash Can Still Tell a Misleading Operating Story](cash-flow-shenanigans.md) -- [reviewed: 2026-09-14] -- A statement of cash flows reconciles genuine movements of cash, but reported operating cash flow can still be distorted by misclassification, financing structures, acquisition accounting, or temporary working-capital actions. The forensic task is therefore not to decide whether cash exists, but to determine its economic source, its accounting classification, and whether it is repeatable.
+
+- [Forensic Accounting Methodology -- Detection Requires Converging Evidence, Not a Single Red Flag](forensic-accounting-methodology.md) -- [reviewed: never] -- Forensic accounting methodology is a structured process for moving from an anomalous financial pattern to a testable explanation and then to corroborating evidence. No ratio, checklist item, or statistical score proves manipulation by itself; reliable detection combines incentives, time-series and common-size analysis, cross-statement reconciliation, transaction economics, disclosures, counterparties, and independent evidence.
 
 - [Goodwill Impairment Games -- How Companies Use Discretion in Impairment Testing to Delay Billion-Dollar Write-Downs](goodwill-impairment-games.md) -- [reviewed: never] -- Goodwill impairment testing is supposed to ensure that acquired assets are carried at no more than their recoverable value. In practice, the wide discretion embedded in ASC 350 and IAS 36 allows management to delay acknowledging that acquisitions have destroyed value -- sometimes for years. The result is that goodwill impairments, when they finally arrive, are not timely signals of value destruction but belated confessions that everyone already knew about.
 
