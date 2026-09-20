@@ -41,23 +41,15 @@ def library_path(repo, name, output=False):
     path = repo / name
     if "quarantine" in path.relative_to(repo).parts:
         raise PublicationError("Quarantine is outside publication scope")
-    if output and name != "library/candidate-queue.md":
+    if output:
         if len(path.relative_to(repo).parts) != 3 or path.name.startswith(("anchor-", "index-")):
-            raise PublicationError("Only topic files and the candidate queue are writable")
+            raise PublicationError("Only topic draft paths are writable; use a queue operation")
     return ordinary_path(repo, path)
-
-
-def catalog_hash(repo):
-    names = sorted(str(p.relative_to(repo)) for p in repo.glob("library/*/*.md")
-                   if not p.name.startswith(("anchor-", "index-")) and p.parent.name != "quarantine")
-    for name in names:
-        library_path(repo, name)
-    return hashlib.sha256("\n".join(names).encode("ascii")).hexdigest()
 
 
 def validate_request(repo, request):
     required = {"kind", "actor", "email", "message", "expected", "writes", "log"}
-    if not isinstance(request, dict) or not required <= request.keys() or request.keys() - required - {"catalog"}:
+    if not isinstance(request, dict) or not required <= request.keys() or request.keys() - required - {"queue"}:
         raise PublicationError("Invalid request fields")
     if not re.fullmatch(r"[A-Za-z][A-Za-z0-9 ()._-]{0,63}", request["actor"]):
         raise PublicationError("Invalid actor")
@@ -67,12 +59,16 @@ def validate_request(repo, request):
         raise PublicationError("Expected a one-line library commit message")
     if not isinstance(request["writes"], dict) or not isinstance(request["expected"], dict):
         raise PublicationError("Expected and writes must be objects")
+    if request["writes"].keys() != request["expected"].keys():
+        raise PublicationError("Expected keys must exactly match topic writes")
     for name, digest in request["expected"].items():
         library_path(repo, name)
         if digest is not None and not re.fullmatch(r"[0-9a-f]{64}", digest):
             raise PublicationError("Expected hashes must be SHA-256 or null")
     for name in request["writes"]:
         library_path(repo, name, output=True)
+    if "queue" in request and request["kind"] not in {"discover", "write", "dispose"}:
+        raise PublicationError("Only discover, write, and dispose may operate on the queue")
     log = request["log"]
     if not isinstance(log, dict) or not {"ref", "body"} <= log.keys() or log.keys() - {"ref", "body", "see"}:
         raise PublicationError("Invalid log fields")
@@ -107,28 +103,50 @@ def parse_queue(text):
 
 
 def validate_queue_change(repo, request, updates):
+    """Build the queue update from current state while holding the publication lock."""
     queue = "library/candidate-queue.md"
-    if queue not in updates:
-        raise PublicationError("This operation requires a candidate queue update")
-    old_text = (repo / queue).read_text(encoding="ascii") if (repo / queue).exists() else ""
-    new_text = updates[queue].decode("ascii")
+    path = library_path(repo, queue)
+    old_text = path.read_text(encoding="ascii") if path.exists() else ""
     old_header, old = parse_queue(old_text)
-    new_header, new = parse_queue(new_text)
+    if request["kind"] == "discover":
+        operation = request.get("queue")
+        if not isinstance(operation, dict) or set(operation) != {"append"}:
+            raise PublicationError("Discovery requires an append operation")
+        batch = Path(operation["append"]).read_text(encoding="ascii").strip()
+        header, additions = parse_queue(batch + "\n")
+        if header or not additions or "<!--" in batch or "-->" in batch:
+            raise PublicationError("Append payload must contain only new candidate blocks")
+        for entry in additions:
+            lines = entry["text"].splitlines()
+            if (entry["status"] != "proposed" or not entry["title"] or len(lines) != 7
+                    or any(not re.fullmatch(r"- \*\*[^*]+:\*\* .*\S.*", line) for line in lines[1:])):
+                raise PublicationError("Append payload must contain only valid proposed candidate blocks")
+        prefix = old_text if path.exists() else "# Library Candidate Queue -- topics proposed for the writing process\n"
+        updates[queue] = (prefix.rstrip() + "\n\n" + batch + "\n").encode("ascii")
+    else:
+        selected = next((entry for entry in old if entry["status"] == "proposed"), None)
+        operation = request.get("queue")
+        if (selected is None or not isinstance(operation, dict) or set(operation) != {"remove"}
+                or operation["remove"] != hashlib.sha256(selected["text"].encode("ascii")).hexdigest()):
+            raise PublicationError("Candidate changed or is no longer first proposed; read and prepare again")
+        parts = [old_header] + ["\n\n".join(re.findall(r"<!--.*?-->", entry["text"], re.S))
+                                if entry is selected else entry["text"] for entry in old]
+        updates[queue] = ("\n\n".join(part for part in parts if part) + "\n").encode("ascii")
+    new_text = updates[queue].decode("ascii")
+    _, new = parse_queue(new_text)
     proposed = [entry for entry in new if entry["status"] == "proposed"]
     titles = [" ".join(entry["title"].casefold().split()) for entry in proposed]
     if len(proposed) > 25 or len(titles) != len(set(titles)):
-        raise PublicationError("Candidate queue exceeds capacity or contains duplicate proposed titles")
+        raise PublicationError("Candidate queue exceeds capacity or contains duplicate titles")
     for entry in new:
         anchor = library_path(repo, f"library/{entry['domain']}/anchor-{entry['domain']}.md")
         if not anchor.is_file():
             raise PublicationError("Candidate domain has no anchor")
     if request["kind"] == "discover":
-        if set(updates) != {queue} or not new_text.startswith(old_text) or len(new) <= len(old):
+        if set(updates) != {queue}:
             raise PublicationError("Discovery must only append candidates to the current queue")
         return
-    selected = next((i for i, entry in enumerate(old) if entry["status"] == "proposed"), None)
-    if selected is None or new_header != old_header or new != old[:selected] + old[selected + 1:]:
-        raise PublicationError("Remove only the first proposed candidate, preserving all other entries")
+
     topics = set(updates) - {queue}
     if request["kind"] == "dispose":
         if topics or not re.match(r"^(FLAG|REJECT|DUPLICATE)\b", request["log"]["body"]):
@@ -137,7 +155,7 @@ def validate_queue_change(repo, request, updates):
     if len(topics) != 1:
         raise PublicationError("A write publishes exactly one topic with its queue disposition")
     topic = next(iter(topics))
-    if Path(topic).parent.as_posix() != "library/" + old[selected]["domain"] or request["expected"][topic] is not None:
+    if Path(topic).parent.as_posix() != "library/" + selected["domain"] or request["expected"][topic] is not None:
         raise PublicationError("The new topic must match the candidate domain and must not exist")
 
 
@@ -253,10 +271,17 @@ def snapshot(repo, names, timeout=30):
         for name in names:
             path = library_path(repo, name)
             data[name] = path.read_bytes() if path.exists() else None
-        return {"status": "PASS", "catalog": catalog_hash(repo),
-                "expected": {name: hashlib.sha256(raw).hexdigest() if raw is not None else None
-                             for name, raw in data.items()},
-                "files": {name: raw.decode("ascii") if raw is not None else None for name, raw in data.items()}}
+        result = {"status": "PASS",
+                  "expected": {name: hashlib.sha256(raw).hexdigest() if raw is not None else None
+                               for name, raw in data.items()},
+                  "files": {name: raw.decode("ascii") if raw is not None else None for name, raw in data.items()}}
+        if "library/candidate-queue.md" in data:
+            _, blocks = parse_queue(result["files"]["library/candidate-queue.md"] or "")
+            selected = next((entry for entry in blocks if entry["status"] == "proposed"), None)
+            result["candidate"] = ({"title": selected["title"], "domain": selected["domain"],
+                                    "sha256": hashlib.sha256(selected["text"].encode("ascii")).hexdigest()}
+                                   if selected else None)
+        return result
 
 
 def replace_file(path, data):
@@ -280,12 +305,8 @@ def publish_locked(repo, request):
     if request["kind"] not in {"log", "write", "discover", "dispose", "review"}:
         raise PublicationError("Unsupported publication kind")
     drafts = request["writes"]
-    if request["kind"] in {"write", "discover", "dispose"} and request.get("catalog") != catalog_hash(repo):
-        raise PublicationError("Topic catalog changed; recheck selection and duplicates")
     if request["kind"] == "log" and drafts:
         raise PublicationError("Log-only requests cannot change library files")
-    if not set(drafts).issubset(request["expected"]):
-        raise PublicationError("Every output needs an expected source hash")
     for name, expected in request["expected"].items():
         source = repo / name
         actual = hashlib.sha256(source.read_bytes()).hexdigest() if source.exists() else None

@@ -276,8 +276,9 @@ write a failure entry.
 ### 9. Commit on the VPS clone -- NO push
 
 Follow `agentic-brain:library/guide-library.md#publication`.
-Use `kind: review` with the completed topic draft, its captured expected
-hash, and the log body. The helper rechecks topic bytes and six-month
+Use `kind: review` with only the completed topic in `writes` and `expected`,
+its captured topic hash, and the log body. Omit queue operations and hashes
+of indexes or other read-only inputs. The helper rechecks topic bytes and six-month
 eligibility before saving the reviewed topic and log in one commit.
 If a topic changed during research, read and review the current version;
 do not apply corrections based on the stale copy.

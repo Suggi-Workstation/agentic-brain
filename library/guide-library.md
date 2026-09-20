@@ -230,14 +230,16 @@ is required. Research and drafting stay outside the shared working tree.
    ```
 
    Replace placeholders before execution. The JSON result contains exact
-   `files` text, matching SHA-256 values in `expected`, and a `catalog`
-   fingerprint of topic paths. Read each captured file in full; a hash is
-   not a substitute for reading. Merge snapshots only while their catalog
-   fingerprint remains consistent; changed inputs require renewed checks.
+   `files` text and matching SHA-256 values in `expected`. A queue snapshot
+   also returns `candidate`: the first proposed candidate's `title`, `domain`,
+   and `sha256`, or null when none exists. Read every captured file in full;
+   a fingerprint is not a substitute for reading. Keep the selected candidate's
+   fingerprint from the snapshot used for research.
 
-2. Prepare complete ASCII drafts and a JSON request in that directory,
+2. Prepare ASCII topic drafts or new candidate blocks and a JSON request in that directory,
    readable by the clone owner. Never prepare live queue/topic/log
-   edits in the clone. The request has this shape:
+   edits or a replacement queue draft. The publisher applies queue operations
+   to the current queue under its lock. A writer request has this shape:
 
    ```json
    {
@@ -246,12 +248,10 @@ is required. Research and drafting stay outside the shared working tree.
      "email": "<agent-email>",
      "message": "library: <specific outcome>",
      "expected": {
-       "library/candidate-queue.md": "<hash from snapshot>",
        "library/<domain>/<topic-slug>.md": null
      },
-     "catalog": "<catalog from snapshot>",
+     "queue": {"remove": "<candidate.sha256 from the selected snapshot>"},
      "writes": {
-       "library/candidate-queue.md": "/tmp/<cycle>/queue.md",
        "library/<domain>/<topic-slug>.md": "/tmp/<cycle>/topic.md"
      },
      "log": {
@@ -262,25 +262,32 @@ is required. Research and drafting stay outside the shared working tree.
    }
    ```
 
-   Copy hashes from the bytes actually reviewed, not from a later live read.
-   Every output needs an `expected` value; `null` means it must not exist.
-   Keep read-only input hashes too. Do not copy snapshot `files` or `status`
-   fields into the request. `log.see` is optional and must identify a real
-   artifact or entry, never an invented candidate ID.
+   `writes` contains only topic drafts. `expected` must contain exactly those
+   topic paths: null for a new topic, the captured topic hash for a review.
+   Do not include queue, index, or other read-only input hashes, or copy the
+   entire snapshot into the request. `log.see` is optional and must identify
+   a real artifact or entry, never an invented candidate ID.
 
-   | Kind | Writes | Outcome |
-   |:--|:--|:--|
-   | `discover` | Queue only | Append candidates without changing existing entries; capacity and exact-title duplicates rechecked. |
-   | `write` | One new topic plus queue | Publish the first proposed candidate in its declared domain and remove only that candidate. |
-   | `dispose` | Queue only | Remove the first proposed candidate with a body beginning FLAG, REJECT, or DUPLICATE. |
-   | `review` | One existing topic | Publish completed corrections and the current UTC reviewed date; no queue or index edits. |
-   | `log` | Empty object | Record EMPTY, CAPACITY, ERROR, or another no-change outcome without consuming a candidate. |
+   | Kind | Writes | Queue operation | Outcome |
+   |:--|:--|:--|:--|
+   | `discover` | Empty object | `{"append": "/tmp/<cycle>/candidates.md"}` | Append the whole candidate batch to the current queue; recheck capacity and exact-title duplicates. |
+   | `write` | One new topic | `{"remove": "<candidate.sha256>"}` | Publish the completed topic and remove only the unchanged, still-first proposed candidate in its declared domain. |
+   | `dispose` | Empty object | `{"remove": "<candidate.sha256>"}` | Remove that exact candidate with a body beginning FLAG, REJECT, or DUPLICATE. |
+   | `review` | One existing topic | Omit | Publish completed corrections and the current UTC reviewed date; no queue or index edits. |
+   | `log` | Empty object | Omit | Record EMPTY, CAPACITY, ERROR, or another no-change outcome without consuming a candidate. |
 
-   `catalog` is required for discover/write/dispose. For log-only requests,
-   use `expected: {}` and `writes: {}`. For reviews, use the captured topic
-   hashes and omit unresolved topics. The helper performs mechanical checks;
-   the agent remains responsible for research, semantic duplicates, scoring,
-   source quality, and the full skill/template checklists.
+   An append file contains only new proposed candidate blocks in the discoverer
+   format, separated by blank lines: no queue header, existing entries, or
+   comments. The helper creates the queue header if needed and rejects an
+   invalid, duplicate, or over-capacity batch without partial additions.
+   Discover/dispose/log requests use `expected: {}` and `writes: {}`.
+
+   This workflow has one discoverer at a time and no manual additions.
+   Discovery decisions and balance scores use the captured research snapshot;
+   a queued topic becoming written or an index refresh does not invalidate
+   them. The helper validates current queue operations and topic destinations,
+   not whole-library freshness. Agents still own semantic duplicate checks,
+   research, source quality, and the full skill/template checklists.
 
 3. Publish only after those checks pass:
 
@@ -296,9 +303,11 @@ is required. Research and drafting stay outside the shared working tree.
    default is 30 seconds (`--lock-timeout` accepts zero through 60 seconds).
 
 4. PASS is exit zero plus a JSON receipt containing `status: PASS`, commit,
-   and entry ID. HALT is any nonzero result. On stale inputs, capture fresh
-   state and repeat affected checks; never simply replace the expected hashes
-   to force acceptance. On a busy/dirty clone, leave others' work untouched.
+   and entry ID. HALT is any nonzero result. A changed/missing selected candidate
+   must not be replaced with the new head. A changed review topic requires
+   reading and reviewing its current version; never substitute a fresh hash
+   to force acceptance. A rejected append requires correcting the batch and
+   its log body. On a busy/dirty clone, leave others' work untouched.
    Ordinary pre-commit failures restore this request's files and staging.
    Forced termination or a post-commit verification failure requires inspection;
    do not blindly retry or reset committed history. Retain needed scratch for

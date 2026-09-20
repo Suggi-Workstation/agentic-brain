@@ -191,15 +191,18 @@ one-topic-per-cycle limit additionally forbids replacement attempts or split
 requests. Mechanical publisher checks do not replace the agent's factual
 research and full template checklist.
 
-Captured file hashes reject stale drafts; a topic-path catalog fingerprint
-invalidates queue/write decisions after topic additions or deletions. The
-helper checks queue capacity and exact-title duplicates, preserves other
-candidates, and removes the first proposed candidate only with a completed
-write or deliberate logged disposition. Two writers of the same candidate
-cannot both publish it through this procedure. The reviewer preserves topic
-identity and checks current eligibility before applying its draft.
+Jobs submit queue operations rather than replacement queue drafts. Discovery
+submits only new candidate blocks; the helper appends them to the current
+queue after capacity and exact-title duplicate checks. A writer identifies
+its selected candidate by the captured block fingerprint; the helper removes
+only that unchanged, still-first proposed candidate with a completed topic
+or deliberate logged disposition. Other candidate entries survive either
+publication order. Topic hashes still reject stale review drafts and enforce
+new-topic absence, but unrelated catalogue/index changes do not invalidate
+snapshot-based discovery decisions. The reviewer preserves topic identity
+and checks current eligibility before applying its draft.
 
-Unexpected dirty/staged work or changed inputs causes HALT, not a reset or
+Unexpected dirty/staged work or conflicting operations cause HALT, not a reset or
 stash of a peer's work. Ordinary pre-commit failures restore the request's
 own files/staging. Forced interruption or post-commit verification failure
 requires inspection. The lock covers participating library publishers and

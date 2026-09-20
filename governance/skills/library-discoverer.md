@@ -91,7 +91,7 @@ committing.
 - [ ] Logbook entry written to logbook/library.log (PASS / HALT)
 - [ ] Logbook entry format: each data field on its own line, candidates listed one per bullet, matching the step 11 example exactly (PASS / HALT)
 - [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous. Verify: the line before the new `## [ENT-` header is blank, and the line before that is NOT blank (it is the previous entry's last content line). No double gaps, no merged entries. (PASS / HALT)
-- [ ] Shared publication used the Library Guide's Publication procedure and returned PASS; no direct queue/log writes or Git staging outside the helper (PASS / HALT)
+- [ ] Shared publication returned PASS; additions used queue.append with only new candidate blocks; no direct queue/log writes or Git staging outside the helper (PASS / HALT)
 - [ ] Every outcome, including ERROR, recorded in library.log when safe publication was available; otherwise failure surfaced to the caller (PASS / HALT)
 - [ ] Exact committed work verified on the remote mirror; a fresh unrelated watcher log line alone is insufficient (PASS / HALT)
 
@@ -102,8 +102,8 @@ committing.
 VPS agents: `cd /srv/brain/agentic-brain`. The watcher keeps the
 clone synchronized with GitHub. Read the Publication section of
 `agentic-brain:library/guide-library.md` before preparing changes. Use the
-helper's snapshot command to capture the queue, selected anchors/indexes,
-and catalog fingerprint. Read each captured file in full. Do not modify
+helper's snapshot command to capture the queue and selected anchors/indexes
+used for the decision. Read each captured file in full. Do not modify
 the live clone while researching or preparing candidate drafts.
 
 VPS-connected agents: no local clone. Every read and write below goes
@@ -115,11 +115,10 @@ Read `library/index-library.md` -- the master index table lists every
 domain with its live topic count and anchor description. Use the topic
 counts to identify underrepresented domains.
 
-The domain balance dimension uses this survey. Domains with fewer
-topics receive higher balance scores, which increases their
-candidates' chance of being proposed. This prevents the library
-from skewing toward a few well-covered domains while others stay
-empty.
+The domain balance dimension uses this captured survey. Domains with fewer
+topics receive higher balance scores, which increases their candidates'
+chance of being proposed. Scores describe that research snapshot; do not
+restart discovery because a queued topic becomes written or indexes refresh.
 
 ### 3. Select domains for this cycle
 
@@ -204,10 +203,9 @@ Count every entry with `Status: proposed`. Calculate available slots:
 ### 10. Propose candidates to the queue
 
 Propose up to `available` top-scored non-duplicate candidates. Prepare a
-temporary draft of `library/candidate-queue.md`, preserving its captured
-content and appending each candidate using this format. If the queue
-already has entries, add a blank line before the first `## Candidate:`
-block to separate the new candidates from existing entries.
+temporary file containing only the new candidate blocks in this format,
+separated by blank lines. Do not copy the existing queue or include a header
+or comments; the publisher appends these blocks to the current queue.
 
 ```markdown
 
@@ -220,8 +218,7 @@ block to separate the new candidates from existing entries.
 - **Status:** proposed
 ```
 
-If `candidate-queue.md` does not exist, prepare its draft with a header:
-`# Library Candidate Queue -- topics proposed for the writing process`.
+If `candidate-queue.md` does not exist, the publisher creates its header.
 
 ### 11. Write logbook entry
 
@@ -252,11 +249,13 @@ entries and inserts exactly one separator line.
 ### 12. Commit on the VPS clone -- NO push
 
 Follow `agentic-brain:library/guide-library.md#publication`.
-Use `kind: discover` with the queue draft, captured expected hashes and
-catalog fingerprint, and prepared log body. The helper rechecks current
-state and publishes queue plus log in one commit. On a stale snapshot,
-read fresh state and repeat duplicate/capacity checks before redrafting.
-Use `kind: log` with no writes for capacity, no-op, or ERROR outcomes.
+Use `kind: discover`, empty `writes` and `expected`, `queue.append` pointing
+to the new-candidates file, and the prepared log body. The helper checks the
+current queue and appends the whole batch with its log in one commit. No
+whole-queue, catalogue, or index freshness condition is required. If current
+capacity or duplicate checks reject the batch, correct it and its log body;
+never claim partial additions. Use `kind: log` without a queue operation for
+capacity, no-op, or ERROR outcomes.
 
 No direct append, `git add`, commit, pull, or rebase belongs in this cycle.
 The existing `repo-pull.sh` watcher owns synchronization; its Brain log is

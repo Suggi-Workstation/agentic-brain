@@ -73,7 +73,7 @@ publication. HALT on failure.
 - [ ] Template read before writing: `template-library.md` opened in step 2 and followed (PASS / HALT)
 - [ ] Template validator gate: `template-library.md` Library Topic Checklist -- all items confirmed PASS (PASS / HALT)
 - [ ] Candidate selected FIFO: first `proposed` entry from top of queue in order, not score-sorted (PASS / HALT)
-- [ ] Candidate removed from candidate-queue.md (PASS / HALT)
+- [ ] Publisher removed only the selected candidate using its captured fingerprint; other queue entries preserved (PASS / HALT)
 - [ ] Domain fidelity: written topic's domain matches the candidate's Domain field exactly (PASS / HALT)
 - [ ] Logbook entry written to the agentic-brain clone's logbook/library.log (PASS / HALT)
 - [ ] Logbook entry format: each data field (score, similarity, sources, cross-references) on its own line, matching the step 10 example exactly (PASS / HALT)
@@ -125,10 +125,10 @@ the candidate in the queue; do not silently redirect.
 
 ### 3a. Prepare the candidate disposition
 
-Prepare a temporary queue draft with only the selected candidate removed.
-Do not remove it from the live queue yet. Publish the disposition together
-with a completed topic, or a deliberate FLAG, REJECT, or DUPLICATE outcome.
-Unexpected failures leave the candidate pending.
+Keep `candidate.sha256` from the queue snapshot used to select this topic.
+Do not prepare a replacement queue or remove the live candidate. Submit its
+fingerprint as `queue.remove` with the completed topic, or a deliberate
+FLAG, REJECT, or DUPLICATE outcome. Unexpected failures leave it pending.
 
 If the queue is empty, log to `logbook/library.log` and exit.
 
@@ -253,17 +253,17 @@ never bypass the lock to write a failure entry.
 ### 11. Commit on the agentic-brain clone -- NO push
 
 Follow `agentic-brain:library/guide-library.md#publication`.
-Use `kind: write` with the topic and queue drafts, captured expected hashes,
-catalog fingerprint, and log body. The helper rechecks the first proposed
-candidate, destination absence, and current files, then saves all outputs in
-one commit. Another writer completing the same candidate invalidates this
-request; do not overwrite its topic or substitute a different candidate.
+Use `kind: write` with the topic draft, destination absence in `expected`,
+the captured `queue.remove` fingerprint, and log body. The publisher removes
+that unchanged, still-first proposed candidate from the current queue and
+commits topic, queue, and log together. Concurrent appended candidates remain.
+If the selected candidate changed or disappeared, HALT; never substitute the
+new head or overwrite an existing topic.
 
-Use `kind: dispose` for FLAG, REJECT, or DUPLICATE, with only the queue draft
-and log body. Use `kind: log` with no writes for empty-queue or ERROR outcomes.
-On changed inputs, read fresh state and repeat the affected selection,
-similarity, and validation checks before redrafting. Do not blindly retry
-a stale request.
+Use `kind: dispose` for FLAG, REJECT, or DUPLICATE with the same `queue.remove`
+and log body, but empty `writes` and `expected`. Use `kind: log` with no queue
+operation for empty-queue or ERROR outcomes. Do not send whole-queue or index
+hashes; unrelated publications and index refreshes do not require redrafting.
 
 No direct append, `git add`, commit, pull, or rebase belongs in this cycle.
 The existing `repo-pull.sh` watcher owns synchronization; its Brain log is
