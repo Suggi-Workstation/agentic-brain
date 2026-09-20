@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Productivity Measurement and Economic Growth -- Why Output per Worker Is the Ultimate Long-Run Variable
-- **Domain:** macro-micro
-- **Proposed by:** Librarian
-- **Date:** 2026-09-02
-- **Discovery score:** 8.93/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0)
-- **Scope:** Examines productivity as the fundamental driver of long-run economic growth and living standards. Covers labor and total factor productivity measurement, the Solow residual, productivity slowdown debates, the role of technology and human capital, and the question of whether AI will reverse the slowdown. Connects business cycles, GDP measurement, and trade through the efficiency variable that determines sustainable prosperity.
-- **Status:** proposed
-
 ## Candidate: Agent Harness Design -- The Runtime Environment That Wraps an LLM and Makes It an Agent
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Librarian
