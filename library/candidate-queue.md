@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Volatility Targeting -- Adjusting Portfolio Exposure to Maintain Constant Risk Levels
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 8.83/10.0 (gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0)
-- **Scope:** Examines portfolio construction strategies that adjust exposure based on realized or implied volatility to maintain a constant risk level. Covers volatility scaling, the volatility-risk trade-off, regime-switching dynamics, and the empirical evidence on whether volatility targeting improves risk-adjusted returns. Connects VaR, tail risk hedging, portfolio rebalancing, and diversification through the risk-budgeting approach that dynamically adjusts position sizes.
-- **Status:** proposed
-
 ## Candidate: Natural Disaster Mechanisms -- The Physical Forces Behind Earthquakes, Volcanoes, Storms, and Wildfires
 - **Domain:** earth-climate
 - **Proposed by:** Librarian
