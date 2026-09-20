@@ -1,0 +1,115 @@
+<!-- library.log archive -- ENT-347 to ENT-359
+     Moved from active log on 2026-09-20 14:43 UTC
+     Active log continues from ENT-360 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-347] | 2026-09-02 00:48 UTC | Library Runner | library | ref: library/sociology-demography/social-movements-and-collective-action.md | see: candidate-social-movements-and-collective-action-20260901
+Wrote topic Social Movements and Collective Action to sociology-demography. Weighted score: 9.18/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 15%.
+Sources: 18 (16 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-348] | 2026-09-02 01:01 UTC | Library Runner | library | ref: library/business-management-strategy/customer-acquisition-and-retention.md | see: candidate-customer-acquisition-and-retention-20260901
+Wrote topic Customer Acquisition and Retention to business-management-strategy. Weighted score: 9.0/10.0
+(core=9.5, scope=9.0, value=8.5, authority=8.0).
+Similarity overlap: 45%.
+Sources: 18 (10 high, 7 medium, 1 low).
+Cross-references: 4 topics.
+
+## [ENT-349] | 2026-09-02 01:16 UTC | Library Runner | library | ref: library/political-science-public-policy/legislatures-executive-legislative-relations.md | see: candidate-legislatures-executive-legislative-relations-20260901
+Wrote topic Legislatures and Executive-Legislative Relations to political-science-public-policy. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 15%.
+Sources: 12 (11 high, 1 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-350] | 2026-09-02 01:31 UTC | Library Runner | library | ref: library/business-management-strategy/mergers-and-acquisitions-as-strategy.md | see: candidate-mergers-and-acquisitions-as-strategy-20260901
+Wrote topic Mergers and Acquisitions as Strategy to business-management-strategy. Weighted score: 9.0/10.0
+(core=9.0, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 14 (12 high, 2 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-351] | 2026-09-02 01:45 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 5 candidates proposed, 10 dropped (queue capped at 25).
+Candidates:
+- Agent Protocol Design: Standards for Agent Interoperability and Communication (8.75): gap=9.0, compounding=8.5, timeliness=9.5, balance=7.5
+- Systems Engineering: The Discipline of Designing Complex Systems Under Constraints (8.73): gap=9.0, compounding=8.5, timeliness=7.5, balance=10.0
+- Self-Improving Agent Systems: Agents That Learn From Their Own Execution (8.65): gap=9.0, compounding=8.5, timeliness=9.0, balance=7.5
+- Crime and Deviance: Social Sources of Criminal Behavior and Institutional Response (8.62): gap=9.0, compounding=8.5, timeliness=8.0, balance=8.6
+- Oceanography and Marine Systems: Ocean Circulation, Thermohaline Dynamics, and Marine Ecosystems (8.48): gap=8.5, compounding=9.0, timeliness=8.5, balance=7.5
+Dropped (below cut):
+- Sociology of Religion: Religion as Social Institution and Source of Collective Meaning (8.39): gap=9.0, compounding=8.0, timeliness=7.5, balance=8.6
+- Materials Engineering: Properties, Selection, and Degradation of Engineering Materials (8.38): gap=9.0, compounding=7.5, timeliness=7.0, balance=10.0
+- Operational Excellence and Process Design: Lean, Six Sigma, and Continuous Improvement (8.35): gap=9.0, compounding=8.5, timeliness=7.5, balance=7.5
+- Higher Education and University Systems: Economics, Credentials, and the Research Function (8.35): gap=8.5, compounding=8.5, timeliness=8.5, balance=7.5
+- Knowledge Organization and Taxonomies: How Structured Knowledge Enables Learning and Discovery (8.28): gap=8.5, compounding=9.0, timeliness=7.5, balance=7.5
+Domain balance: engineering-infrastructure (6 topics) to business-management-strategy, coding-agentic-ai, earth-climate, education-learning (8 topics each).
+
+## [ENT-352] | 2026-09-02 02:01 UTC | Library Runner | library | ref: library/engineering-infrastructure/buildings-and-urban-infrastructure.md | see: candidate-buildings-and-urban-infrastructure-20260901
+Wrote topic Buildings and Urban Infrastructure to engineering-infrastructure. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=8.5, authority=8.5).
+Similarity overlap: 15%.
+Sources: 14 (11 high, 3 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-353] | 2026-09-02 02:22 UTC | Library Runner | library | ref: library/sociology-demography/sociology-of-family-and-gender.md | see: candidate-sociology-of-family-and-gender-20260901
+Wrote topic Sociology of the Family and Gender to sociology-demography. Weighted score: 8.7/10.0
+(core=9.0, scope=8.5, value=8.5, authority=8.5).
+Similarity overlap: 20%.
+Sources: 12 (12 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-354] | 2026-09-02 02:34 UTC | Library Runner | library | ref: library/engineering-infrastructure/construction-methods-project-management.md | see: candidate-construction-methods-project-management-20260901
+Wrote topic Construction Methods and Project Management to engineering-infrastructure. Weighted score: 8.6/10.0
+(core=8.5, scope=9.0, value=8.0, authority=8.5).
+Similarity overlap: 20%.
+Sources: 12 (8 high, 4 medium, 0 low).
+Cross-references: 2 topics.
+
+## [ENT-355] | 2026-09-02 03:14 UTC | Library Runner | library | ref: library/investment-vehicles-fund-structures/reits-real-estate-investment-trusts.md | see: candidate-reits-real-estate-investment-trusts-20260901
+Wrote topic Real Estate Investment Trusts (REITs) as Investment Vehicles to investment-vehicles-fund-structures. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 15%.
+Sources: 23 (9 high, 13 medium, 1 low).
+Cross-references: 5 topics.
+
+## [ENT-356] | 2026-09-02 03:34 UTC | Library Runner | library | ref: library/investment-vehicles-fund-structures/business-development-companies.md | see: candidate-business-development-companies-20260901
+Wrote topic Business Development Companies (BDCs) to investment-vehicles-fund-structures. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=9.0, authority=8.5).
+Similarity overlap: 15%.
+Sources: 14 (9 high, 5 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-357] | 2026-09-02 03:47 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 4 candidates proposed, 6 dropped (queue capped at 25).
+Candidates:
+- Unemployment and Labor Markets (9.25): gap=9.0, compounding=9.0, timeliness=9.5, balance=10.0
+- Time Series Analysis (9.15): gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0
+- Optimization Theory (9.05): gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0
+- Philosophy of Mind (9.02): gap=9.0, compounding=8.5, timeliness=9.0, balance=10.0
+Dropped (below cut):
+- Behavioral Aspects of Risk Tolerance (8.95): gap=9.0, compounding=9.0, timeliness=8.0, balance=10.0
+- Ecosystem Science and Ecology (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- GDP Measurement and Economic Growth (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Hedge Fund Risk Management (8.62): gap=8.5, compounding=8.5, timeliness=8.0, balance=10.0
+- Logic and Critical Thinking (8.60): gap=9.0, compounding=8.0, timeliness=7.5, balance=10.0
+- Natural Disaster Mechanisms (8.60): gap=8.5, compounding=8.0, timeliness=8.5, balance=10.0
+Domain balance: ethics-philosophy, mathematics-statistics, portfolio-risk-management, earth-climate, macro-micro (8 topics each) to value-investing (18 topics).
+
+## [ENT-358] | 2026-09-02 04:15 UTC | Library Runner | library | ref: library/political-science-public-policy/comparative-political-regimes.md | see: candidate-comparative-political-regimes-20260901
+Wrote topic Comparative Political Regimes: Democracies, Autocracies, and Hybrid Systems to political-science-public-policy. Weighted score: 9.35/10.0
+(core=9.5, scope=9.5, value=9.0, authority=9.0).
+Similarity overlap: 25%.
+Sources: 24 (19 high, 5 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-359] | 2026-09-02 04:34 UTC | Library Runner | library | ref: library/business-management-strategy/supply-chain-procurement-strategy.md | see: candidate-supply-chain-procurement-strategy-20260901
+Wrote topic Supply Chain and Procurement Strategy: Sourcing as a Competitive Weapon to business-management-strategy. Weighted score: 9.2/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 20%.
+Sources: 21 (13 high, 8 medium, 0 low).
+Cross-references: 4 topics.
+
