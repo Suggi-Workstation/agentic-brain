@@ -1,6 +1,6 @@
 # Ethics Philosophy -- Topics
 
-8 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+9 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
 - [AI Ethics -- Moral Frameworks Are the Rate-Limiting Step for Machine Intelligence, Not Compute](ai-ethics.md) -- [reviewed: never] -- AI ethics is the systematic study of the moral principles that should govern the design, deployment, and regulation of artificial intelligence systems. Unlike adjacent technical disciplines that ask "can we build it," AI ethics asks "should we build it, under what constraints, and who bears responsibility when it causes harm.
 
@@ -13,6 +13,8 @@
 - [Free Will and Determinism -- Why the Debate About Whether We Choose Our Actions Remains Philosophy's Most Consequential Unresolved Question](free-will-determinism.md) -- [reviewed: never] -- The free will debate asks whether human beings genuinely choose their actions or whether every decision is the inevitable result of prior causes beyond our control. This is not an academic curiosity -- it is the foundation upon which moral responsibility, criminal justice, praise, blame, and our deepest sense of self all rest.
 
 - [Normative Ethics -- How Deontology, Consequentialism, and Virtue Ethics Give Radically Different Answers to "What Should I Do?"](normative-ethics.md) -- [reviewed: never] -- Normative ethics is the branch of moral philosophy that asks the most practical question in all of ethics: what makes an action right or wrong? Three grand frameworks dominate the Western tradition -- deontology (duty-based ethics, associated with Immanuel Kant), consequentialism (outcome-based ethics, most famously utilitarianism), and virtue ethics (character-based ethics, rooted in Aristotle).
+
+- [Philosophy of Mind -- Consciousness Remains the Test No Theory of Mind Has Yet Passed](philosophy-of-mind-hard-problem-of-consciousness.md) -- [reviewed: never] -- Philosophy of mind asks how thought, meaning, agency, and subjective experience fit into a physical world. Its hardest unresolved question is why any physical or functional process should be accompanied by a first-person point of view at all, a gap that persists even as neuroscience identifies increasingly precise mechanisms and correlates of conscious access [1, 7, 11, 13].
 
 - [Political Philosophy -- The Unresolved Tension Between Liberty, Equality, and Community That Defines Every Modern State](political-philosophy.md) -- [reviewed: never] -- Political philosophy is the branch of philosophy that asks what justifies the authority of the state, what rights individuals possess against it, and how social goods should be distributed among citizens. From Hobbes's Leviathan through Rawls's Theory of Justice to the communitarian critique of liberalism, the central question has never been settled: should the state maximize individual freedom, ensure equal outcomes, or embody the shared values of a particular community?
 
