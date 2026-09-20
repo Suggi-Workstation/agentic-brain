@@ -423,3 +423,14 @@ Wrote topic Ecosystem Science and Ecology -- How Organisms and Environment Form 
 Similarity overlap: 35%.
 Sources: 17 (16 high, 1 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-418] | 2026-09-20 16:11 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 4 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Ergodicity and Path-Dependent Decision-Making -- Why Average Outcomes Can Mislead Individual Decisions (9.12): gap=9.0, compounding=9.2, timeliness=8.6, balance=10.0
+- Measurement and Metrology -- How Science Defines, Calibrates, and Compares the Physical World (9.09): gap=9.0, compounding=9.0, timeliness=8.7, balance=10.0
+- Attention, Salience, and Cognitive Control -- Why What We Notice Shapes What We Decide (8.98): gap=9.0, compounding=8.7, timeliness=8.5, balance=10.0
+- Florence Nightingale -- Data, Institutions, and the Making of Modern Nursing (8.90): gap=9.0, compounding=8.8, timeliness=8.0, balance=10.0
+Dropped (below capacity cut):
+- Science Fiction as Cultural Foresight -- How Speculative Media Shapes Ideas About Technology and Society (8.80): gap=8.5, compounding=8.8, timeliness=8.5, balance=10.0
+Domain balance: all selected domains (9 topics) to all selected domains (9 topics).

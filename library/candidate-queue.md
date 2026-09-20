@@ -169,3 +169,35 @@
 - **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
 - **Scope:** Examines administrative law as the framework governing how agencies receive authority, make rules, adjudicate disputes, conduct enforcement, and face judicial review. Covers delegations, notice-and-comment rulemaking, interpretive rules, due process, standards of review, and agency discretion. Connects securities, environmental, and health regulation through the legal process that turns statutes into enforceable rules, without treating political administration or market effects as the primary subject.
 - **Status:** proposed
+
+## Candidate: Ergodicity and Path-Dependent Decision-Making -- Why Average Outcomes Can Mislead Individual Decisions
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 9.12/10.0 (gap=9.0, compounding=9.2, timeliness=8.6, balance=10.0)
+- **Scope:** Examines ergodicity as the distinction between outcomes averaged across many possible worlds and outcomes accumulated through time by one decision-maker. Covers multiplicative growth, ruin, path dependence, absorbing losses, and why a favorable expected value can still be unacceptable when survival or compounding is at stake. Connects expected-value thinking, black-swan exposure, scenario planning, and portfolio risk without becoming a mathematical treatment of stochastic processes.
+- **Status:** proposed
+
+## Candidate: Measurement and Metrology -- How Science Defines, Calibrates, and Compares the Physical World
+- **Domain:** science
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 9.09/10.0 (gap=9.0, compounding=9.0, timeliness=8.7, balance=10.0)
+- **Scope:** Examines measurement and metrology as the practices that make observations comparable across instruments, laboratories, and time. Covers units and standards, calibration, uncertainty, traceability, accuracy versus precision, and systematic error. Connects physics, chemistry, biology, climate observation, and experimental replication through the infrastructure that turns observations into evidence, without focusing on a particular engineered instrument or mathematical proof.
+- **Status:** proposed
+
+## Candidate: Attention, Salience, and Cognitive Control -- Why What We Notice Shapes What We Decide
+- **Domain:** psychology-behavior
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.98/10.0 (gap=9.0, compounding=8.7, timeliness=8.5, balance=10.0)
+- **Scope:** Examines attention, salience, and cognitive control as mechanisms that determine which information enters awareness and guides behavior. Covers selective attention, attentional capture, limited working resources, distraction, goal maintenance, and the difference between automatic and controlled processing. Distinguishes these mechanisms from educational techniques or digital-product design, connecting perception and choice to biases, framing, and self-regulation.
+- **Status:** proposed
+
+## Candidate: Florence Nightingale -- Data, Institutions, and the Making of Modern Nursing
+- **Domain:** notable-people
+- **Proposed by:** Librarian
+- **Date:** 2026-09-20
+- **Discovery score:** 8.90/10.0 (gap=9.0, compounding=8.8, timeliness=8.0, balance=10.0)
+- **Scope:** Profiles Florence Nightingale as a person whose clinical observation, statistical communication, and institutional reform reshaped nursing and hospital practice. Covers her decisions during the Crimean War, her use of mortality data, conflicts and limits in her reform program, and her long-term influence. Treats health and statistics as the context for her life rather than offering a general history of medicine or a technical account of data analysis.
+- **Status:** proposed
