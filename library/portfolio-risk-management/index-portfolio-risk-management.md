@@ -1,6 +1,8 @@
 # Portfolio Risk Management -- Topics
 
-8 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
+9 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
+
+- [Behavioral Aspects of Risk Tolerance -- Why Investor Psychology Determines Portfolio Success](behavioral-aspects-of-risk-tolerance.md) -- [reviewed: never] -- A portfolio is successful only if its investor can keep holding and managing it through the conditions for which it was designed. Financial capacity, stated willingness, perceived risk, recent experience, loss aversion, and overconfidence jointly shape that behavior, so an allocation that is mathematically efficient but behaviorally intolerable is not an effective allocation (Sources 1, 9, and 10).
 
 - [Diversification -- Why the Mathematics of Correlation Makes Risk Reduction Real (Until It Does Not)](diversification-mathematics.md) -- [reviewed: never] -- Diversification is the reduction of portfolio risk achieved by combining assets whose returns are less than perfectly correlated. Unlike the common intuition -- "do not put all your eggs in one basket" -- its real power is mathematical: when asset returns do not move in lockstep, the volatility of the whole is less than the weighted average of the volatilities of its parts.
 
