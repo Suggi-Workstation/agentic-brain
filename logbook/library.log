@@ -472,3 +472,12 @@ Wrote topic Moral Uncertainty and Decision-Making -- Acting When Ethical Theorie
 Similarity overlap: 20%.
 Sources: 15 (15 high, 0 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-440] | 2026-09-21 06:18 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 4 domains scanned, 2 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Origin of Life and Abiogenesis -- From Prebiotic Chemistry to the First Evolving Systems (9.16): gap=9.0, compounding=9.2, timeliness=8.8, balance=10.0
+- Legal Precedent and Stare Decisis -- How Courts Make Law Across Cases (9.05): gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0
+- Motivated Reasoning and Identity-Protective Cognition -- How Belief Can Defend Belonging (8.95): gap=8.5, compounding=9.0, timeliness=9.0, balance=10.0
+- Science Fiction as Cultural Foresight -- How Speculative Media Shapes Ideas About Technology and Society (8.80): gap=8.5, compounding=8.8, timeliness=8.5, balance=10.0
+Domain balance: law-regulation, pop-culture, psychology-behavior, science (9 topics) to law-regulation, pop-culture, psychology-behavior, science (9 topics).

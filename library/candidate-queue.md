@@ -185,3 +185,19 @@
 - **Discovery score:** 9.1/10.0 (gap=9.0, compounding=9.2, timeliness=8.5, balance=10.0)
 - **Scope:** Examines pre-mortems and post-mortems as paired probability-learning methods that expose failure modes before a decision and test causal assumptions after it. Covers prospective failure simulation, reference-class comparison, separating forecast error from outcome noise, updating confidence, and translating findings into revised decision rules. Distinguishes this framework from scenario planning, retrospective blame assignment, and personal decision-journal habits.
 - **Status:** proposed
+
+## Candidate: Origin of Life and Abiogenesis -- From Prebiotic Chemistry to the First Evolving Systems
+- **Domain:** science
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 9.16/10.0 (gap=9.0, compounding=9.2, timeliness=8.8, balance=10.0)
+- **Scope:** Examines abiogenesis as the scientific investigation of transitions from prebiotic chemistry to systems capable of metabolism, compartmentalization, inheritance, and evolution. Covers RNA-world, metabolism-first, lipid-world, and hybrid hypotheses; geological settings; experimental constraints; and the distinction between evidence, models, and unresolved steps. Connects chemistry, cell biology, evolution, and astrobiology while distinguishing the origin of life from later biological evolution and philosophical claims about meaning.
+- **Status:** proposed
+
+## Candidate: Legal Precedent and Stare Decisis -- How Courts Make Law Across Cases
+- **Domain:** law-regulation
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
+- **Scope:** Examines precedent and stare decisis as the mechanisms through which judicial decisions guide later cases within common-law and constitutional systems. Covers vertical and horizontal precedent, ratio decidendi and dicta, distinguishing and overruling decisions, retroactivity, and the tension between stability, legal change, and judicial legitimacy. Connects constitutional interpretation, administrative law, contract and corporate disputes, and rights adjudication without becoming a history of any one court or a political analysis of judicial appointments.
+- **Status:** proposed
