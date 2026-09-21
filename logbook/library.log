@@ -417,3 +417,12 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Business Cycles (macro-micro): rewritten (corrected stale NBER duration and revised GDP figures; qualified yield-curve, theory, financial-crisis, and policy claims; expanded mandatory sections to 684/1331/998/1168 words and sources from 5 to 23).
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-447] | 2026-09-21 08:09 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 4 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Derivatives and Risk Transfer -- How Financial Contracts Reshape Exposure (9.19): gap=9.0, compounding=9.3, timeliness=8.8, balance=10.0
+- Microbiology and the Microbial World -- How Microorganisms Shape Life (9.16): gap=9.0, compounding=9.2, timeliness=8.8, balance=10.0
+- Celebrity Culture and Parasocial Relationships -- Fame, Intimacy, and Social Meaning in Mass Media (9.10): gap=9.0, compounding=8.8, timeliness=9.0, balance=10.0
+- Tort Law and Civil Liability -- How Legal Systems Allocate Loss and Define Duty (8.94): gap=9.0, compounding=8.7, timeliness=8.3, balance=10.0
+Domain balance: finance, history, law-regulation, pop-culture, and science (9 topics each).

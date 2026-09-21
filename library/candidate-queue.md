@@ -177,3 +177,35 @@
 - **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
 - **Scope:** Examines precedent and stare decisis as the mechanisms through which judicial decisions guide later cases within common-law and constitutional systems. Covers vertical and horizontal precedent, ratio decidendi and dicta, distinguishing and overruling decisions, retroactivity, and the tension between stability, legal change, and judicial legitimacy. Connects constitutional interpretation, administrative law, contract and corporate disputes, and rights adjudication without becoming a history of any one court or a political analysis of judicial appointments.
 - **Status:** proposed
+
+## Candidate: Derivatives and Risk Transfer -- How Financial Contracts Reshape Exposure
+- **Domain:** finance
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 9.19/10.0 (gap=9.0, compounding=9.3, timeliness=8.8, balance=10.0)
+- **Scope:** Examines derivatives as contracts that transfer or reshape exposure to prices, rates, credit, and other financial risks. Covers forwards, futures, options, swaps, margin and collateral, counterparty exposure, clearing, valuation inputs, and the distinction between hedging and speculation. Connects corporate risk management, market liquidity, and financial regulation without becoming a portfolio hedging strategy or a mathematical valuation manual.
+- **Status:** proposed
+
+## Candidate: Microbiology and the Microbial World -- How Microorganisms Shape Life
+- **Domain:** science
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 9.16/10.0 (gap=9.0, compounding=9.2, timeliness=8.8, balance=10.0)
+- **Scope:** Examines microbiology as the study of bacteria, archaea, viruses, and microscopic eukaryotes that drive evolution, nutrient cycles, symbiosis, and disease. Covers cellular diversity, microbial metabolism, horizontal gene transfer, host-microbe interactions, viral replication, and methods used to observe and classify microorganisms. Distinguishes natural-science mechanisms from clinical treatment, public-health policy, and engineered water treatment while connecting genetics, ecology, and health.
+- **Status:** proposed
+
+## Candidate: Celebrity Culture and Parasocial Relationships -- Fame, Intimacy, and Social Meaning in Mass Media
+- **Domain:** pop-culture
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 9.10/10.0 (gap=9.0, compounding=8.8, timeliness=9.0, balance=10.0)
+- **Scope:** Examines celebrity culture and parasocial relationships as media-created forms of status, identity, and perceived intimacy between audiences and public figures. Covers the star system, publicity, authenticity performance, social media, celebrity branding, scandal, representation, and how perceived intimacy affects social norms. Distinguishes fame as a cultural institution from artist biography, entertainment gossip, fan-community ethnography, and influencer-business economics.
+- **Status:** proposed
+
+## Candidate: Tort Law and Civil Liability -- How Legal Systems Allocate Loss and Define Duty
+- **Domain:** law-regulation
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.94/10.0 (gap=9.0, compounding=8.7, timeliness=8.3, balance=10.0)
+- **Scope:** Examines tort law as the civil system for allocating loss when one party wrongfully harms another outside a contractual relationship. Covers negligence, duty, breach, causation, damages, intentional torts, strict liability, defenses, insurance, and the deterrence-compensation tradeoff. Distinguishes civil liability from criminal punishment, contract enforcement, and corporate fiduciary duties while connecting legal doctrine to the institutional costs of risk.
+- **Status:** proposed
