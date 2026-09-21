@@ -314,6 +314,12 @@ is required. Research and drafting stay outside the shared working tree.
    do not blindly retry or reset committed history. Retain needed scratch for
    diagnosis until the failure is resolved.
 
+   On a pre-commit validation rejection, compare the request and draft with
+   the captured source and reported requirement. Correct errors within the
+   task's scope, repeat validation, and retry the same operation. Do not
+   repeat an unchanged request, weaken validation, or substitute another
+   topic. If the cause remains unresolved, record ERROR and stop.
+
 5. After the lock is released, verify the particular commit reached the remote
    mirror. If watcher reconciliation changed its hash, verify the intended
    file content and log entry on the remote instead. AHEAD: 0 or an unrelated
