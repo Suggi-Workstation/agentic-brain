@@ -1,6 +1,6 @@
 # Anthropology -- Topics
 
-10 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
+11 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
 
 - [Ethnographic Methods Produce Cultural Knowledge Through Situated Participation, Not Detachment](ethnographic-methods-and-participant-observation.md) -- [reviewed: never] -- Ethnography produces cultural knowledge by combining sustained participation in social life with systematic observation, interviewing, fieldnotes, and iterative interpretation; it does not obtain a view from nowhere. Its strength is contextual explanation of what people do and mean, while its limits arise from access, researcher position, ethics, selective recording, and the bounded cases from which broader claims are made.
 
@@ -13,6 +13,8 @@
 - [Indigenous Knowledge Systems -- What Traditional Societies Know That Modern Science Is Rediscovering](indigenous-knowledge-systems.md) -- [reviewed: never] -- Indigenous knowledge systems are the cumulative bodies of knowledge, practice, and belief developed by traditional societies through long observation of and interaction with their environments. Far from being static folklore, these systems encode ecological management, medicinal pharmacology, astronomical observation, and oral transmission methods that have sustained human communities for millennia.
 
 - [Kinship and Social Structures -- The Universal Grammar of Human Relatedness](kinship-and-social-structures.md) -- [reviewed: never] -- Kinship is the closest thing human societies have to a universal grammar -- a set of deep structural rules that determine who counts as family, who can marry whom, where newlyweds live, and how property and identity flow between generations. While every culture produces its own vocabulary of relatedness, anthropologists have identified a limited set of underlying patterns that recur across continents and millennia.
+
+- [Linguistic Anthropology -- Language Does Not Merely Describe Cultural Worlds; It Helps Make Them](linguistic-anthropology-language-power-and-cultural-worlds.md) -- [reviewed: never] -- Linguistic anthropology studies language as a cultural resource, a form of social action, and a site where identities and unequal relations are made consequential. Its central claim is that speech does more than transmit propositions: through everyday interaction, people learn cultural expectations, position themselves and others, reproduce or challenge authority, and sustain or abandon ways of life ([1] [2]).
 
 - [Material Culture and Archaeology -- What Objects Reveal About Past Societies That Written Records Cannot](material-culture-and-archaeology.md) -- [reviewed: never] -- Archaeology is the systematic study of past human societies through their material remains -- the objects, structures, and landscapes that people made, used, modified, and discarded. Because writing emerged only about 5,000 years ago, the archaeological record is the sole source of evidence for more than 99% of human history.
 
