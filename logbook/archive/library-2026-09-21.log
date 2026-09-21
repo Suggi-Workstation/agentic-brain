@@ -1,0 +1,109 @@
+<!-- library.log archive -- ENT-374 to ENT-386
+     Moved from active log on 2026-09-21 07:00 UTC
+     Active log continues from ENT-387 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-374] | 2026-09-04 05:22 UTC | Library Runner | library | ref: library/coding-agentic-ai/agent-protocol-design.md | see: candidate-queue
+Wrote topic Agent Protocol Design -- Standards for Agent Interoperability and Communication to coding-agentic-ai. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=8.5, authority=9.0).
+Similarity overlap: 25%.
+Sources: 9 (9 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-375] | 2026-09-04 05:39 UTC | Library Runner | library | ref: library/engineering-infrastructure/systems-engineering-complex-systems-under-constraints.md | see: candidate-queue
+Wrote topic Systems Engineering -- The Discipline of Designing Complex Systems Under Constraints to engineering-infrastructure. Weighted score: 9.7/10.0
+(core=9.8, scope=10.0, value=9.2, authority=9.5).
+Similarity overlap: 30%.
+Sources: 10 (10 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-376] | 2026-09-04 05:47 UTC | Library Runner | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 12 candidates proposed, 0 skipped.
+Candidates:
+- Hypothesis Testing and the p-Value Debate (9.25): gap=9.0, compounding=9.0, timeliness=9.5, balance=10.0
+- Media Ecosystem and Platform Dynamics (9.10): gap=9.0, compounding=9.0, timeliness=9.5, balance=9.0
+- Ecosystem Science and Ecology (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Philosophy of Science (8.93): gap=9.0, compounding=8.5, timeliness=8.5, balance=10.0
+- Hedge Fund Risk Management (8.85): gap=8.5, compounding=9.0, timeliness=8.5, balance=10.0
+- Logic and Critical Thinking (8.83): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Volatility Targeting (8.83): gap=9.0, compounding=8.5, timeliness=8.0, balance=10.0
+- Natural Disaster Mechanisms (8.80): gap=9.0, compounding=8.0, timeliness=8.5, balance=10.0
+- Monte Carlo Methods (8.75): gap=8.5, compounding=9.0, timeliness=8.0, balance=10.0
+- Forensic Accounting Methodology (8.70): gap=9.0, compounding=9.0, timeliness=7.5, balance=9.0
+- Cookie-Jar Reserves and Expense Manipulation (8.68): gap=9.0, compounding=8.5, timeliness=8.0, balance=9.0
+- Semiotics and Meaning-Making (8.58): gap=9.0, compounding=8.5, timeliness=7.5, balance=9.0
+Domain balance: earth-climate, ethics-philosophy, mathematics-statistics, portfolio-risk-management (8 topics) to value-investing (18 topics).
+
+## [ENT-377] | 2026-09-08 07:39 UTC | Librarian | library | ref: library/coding-agentic-ai/self-improving-agent-systems.md | see: candidate-self-improving-agent-systems-20260902
+Wrote topic Self-Improving Agent Systems -- Agents That Learn From Their Own Execution to coding-agentic-ai. Weighted score: 9.7/10.0
+(core=9.7, scope=9.8, value=9.5, authority=9.5).
+Similarity overlap: 45%.
+Sources: 10 (10 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-378] | 2026-09-08 08:13 UTC | Librarian | library | ref: library/sociology-demography/crime-and-deviance-social-structure-and-institutional-response.md | see: candidate-queue
+Wrote topic Crime and Deviance -- Social Sources of Criminal Behavior and Institutional Response to sociology-demography. Weighted score: 9.33/10.0
+(core=9.5, scope=9.3, value=9.0, authority=9.5).
+Similarity overlap: 55%.
+Sources: 11 (11 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-379] | 2026-09-08 08:43 UTC | Librarian | library | ref: library/earth-climate/oceanography-marine-systems.md | see: candidate-queue
+Wrote topic Oceanography and Marine Systems -- Ocean Circulation, Thermohaline Dynamics, and Marine Ecosystems to earth-climate. Weighted score: 9.7/10.0
+(core=9.8, scope=9.8, value=9.5, authority=9.5).
+Similarity overlap: 55%.
+Sources: 11 (11 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-380] | 2026-09-08 09:07 UTC | Librarian | library | ref: library/macro-micro/unemployment-and-labor-markets.md | see: candidate-queue
+Wrote topic Unemployment and Labor Markets -- Why Joblessness Is the Single Most Contested Indicator in Macroeconomics to macro-micro. Weighted score: 9.9/10.0
+(core=10.0, scope=10.0, value=9.5, authority=9.8).
+Similarity overlap: 35%.
+Sources: 9 (9 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-381] | 2026-09-08 09:24 UTC | Librarian | library | ref: library/mathematics-statistics/time-series-analysis.md | see: candidate-queue
+Wrote topic Time Series Analysis -- Methods for Modeling Data That Changes Over Time to mathematics-statistics. Weighted score: 9.6/10.0
+(core=9.5, scope=10.0, value=9.0, authority=9.5).
+Similarity overlap: 15%.
+Sources: 10 (10 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-382] | 2026-09-08 09:40 UTC | Librarian | library | ref: library/mathematics-statistics/optimization-theory.md | see: candidate-queue
+Wrote topic Optimization Theory -- A Common Language for Choosing the Best Feasible Action Under Constraints to mathematics-statistics. Weighted score: 9.7/10.0
+(core=9.8, scope=9.8, value=9.4, authority=9.5).
+Similarity overlap: 35%.
+Sources: 8 (8 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-383] | 2026-09-08 20:38 UTC | Morpheus | library | ref: library/guide-library.md | see: 20260719T220256Z
+Library pipeline maintenance: canonical and shared skills updated.
+Invocation: direct assignments and cron prompts use the same procedures.
+Review: never reviewed or six calendar months old; correct every identified mismatch before stamping.
+Publication: existing sync lock, stale-input checks, scoped commits, and verified author/committer identity.
+Index workflow: fresh-state bounded retries and automated publisher tests.
+Verification: 44 isolated tests and final independent review passed; all three runtime mirrors match canonical bytes.
+Cron configuration unchanged; no discovery, writing, or review cycle started.
+
+## [ENT-384] | 2026-09-08 21:51 UTC | Librarian | library | ref: library/accounting-financial-shenanigans/acquisition-accounting-tricks.md
+Review cycle: 5 topics reviewed, 0 current, 5 rewritten.
+Topics:
+- Acquisition Accounting Tricks (accounting-financial-shenanigans): rewritten (corrected Shalev and Potepa evidence, replaced inaccessible and stale source references, updated Tyco evidence)
+- Food and Agriculture in Cultural Context (anthropology): rewritten (corrected subsistence typology, forager work-time interpretation, Kharaneh IV sample claim, and gender/diet claims; updated sources)
+- A Random Walk Down Wall Street (books): rewritten (updated SPIVA, active-management critique, fee data, fiduciary-rule status, and CalPERS evidence; updated sources)
+- Corporate Governance and Board Effectiveness (business-management-strategy): rewritten (corrected Caremark and Marchand doctrine, executive-pay claims, activism evidence, and source metadata)
+- The 2008 Financial Crisis (case-studies): rewritten (corrected housing-policy causation, AIG CDS exposure, leverage ratios, foreclosure counts, stress-test history, Basel III, and SVB evidence; updated sources)
+Domain coverage: reviewed across 5 domains.
+
+## [ENT-385] | 2026-09-09 06:10 UTC | Morpheus | library | ref: library/guide-library.md | see: ENT-384
+Reviewer procedure updated: at most two topics; independent research, source cleanup, and full template re-read/checklist verification before stamping.
+Template change: abbreviated example label only; existing checklist and word minimums unchanged.
+Correction to ENT-384: the five-topic run published successfully, but three topics failed word minimums; publication success was not full template compliance.
+Personal corrective topic review remains incomplete because source retrieval is blocked; no corrective topic changes or review stamps published.
+
+## [ENT-386] | 2026-09-09 06:29 UTC | Morpheus | library | ref: library/accounting-financial-shenanigans/acquisition-accounting-tricks.md | see: ENT-384
+Review stamp correction: removed reviewed: 2026-09-08 at Suggi's explicit request.
+Reason: the prior run did not establish full template compliance.
+Topic content and original identity preserved; corrective review pending.
+
