@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Ethnographic Methods and Participant Observation -- How Anthropology Produces Cultural Knowledge
-- **Domain:** anthropology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.56/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=8.9)
-- **Scope:** Examines ethnographic methods as the practice of producing cultural knowledge through participant observation, interviews, fieldnotes, reflexivity, and long-term field engagement. Covers sampling and access, informed consent, researcher positionality, interpretation, and limits on cross-cultural generalization. Connects the evidence methods behind anthropology's existing topics without turning the topic into a general social-science methods guide.
-- **Status:** proposed
-
 ## Candidate: Source Verification and Fact-Checking -- Testing Claims Before Publication
 - **Domain:** communication
 - **Proposed by:** Librarian
