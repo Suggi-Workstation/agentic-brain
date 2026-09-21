@@ -1,6 +1,6 @@
 # Ethics Philosophy -- Topics
 
-11 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+12 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
 - [AI Ethics -- Moral Frameworks Are the Rate-Limiting Step for Machine Intelligence, Not Compute](ai-ethics.md) -- [reviewed: never] -- AI ethics is the systematic study of the moral principles that should govern the design, deployment, and regulation of artificial intelligence systems. Unlike adjacent technical disciplines that ask "can we build it," AI ethics asks "should we build it, under what constraints, and who bears responsibility when it causes harm.
 
@@ -13,6 +13,8 @@
 - [Free Will and Determinism -- Why the Debate About Whether We Choose Our Actions Remains Philosophy's Most Consequential Unresolved Question](free-will-determinism.md) -- [reviewed: never] -- The free will debate asks whether human beings genuinely choose their actions or whether every decision is the inevitable result of prior causes beyond our control. This is not an academic curiosity -- it is the foundation upon which moral responsibility, criminal justice, praise, blame, and our deepest sense of self all rest.
 
 - [Logic and Critical Thinking -- Formal and Informal Tools Make Arguments Testable](logic-and-critical-thinking.md) -- [reviewed: never] -- Logic identifies whether conclusions follow from reasons, while critical thinking tests whether those reasons are acceptable, relevant, sufficient, and responsive to alternatives. Used together, formal and informal methods turn persuasive language into claims that can be reconstructed, challenged, revised, and either warranted or rejected [1, 2, 4, 8].
+
+- [Moral Uncertainty Requires Structured Decision-Making When Ethical Theories Conflict](moral-uncertainty-and-decision-making.md) -- [reviewed: never] -- Moral uncertainty arises when an agent must act without knowing which moral proposition, principle, or theory is correct. It matters because simply following the most credible theory can ignore morally serious possibilities, while combining theories requires defensible rules for credence, comparison, and learning [1, 2].
 
 - [Normative Ethics -- How Deontology, Consequentialism, and Virtue Ethics Give Radically Different Answers to "What Should I Do?"](normative-ethics.md) -- [reviewed: never] -- Normative ethics is the branch of moral philosophy that asks the most practical question in all of ethics: what makes an action right or wrong? Three grand frameworks dominate the Western tradition -- deontology (duty-based ethics, associated with Immanuel Kant), consequentialism (outcome-based ethics, most famously utilitarianism), and virtue ethics (character-based ethics, rooted in Aristotle).
 
