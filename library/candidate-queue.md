@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Moral Uncertainty and Decision-Making -- Acting When Ethical Theories Conflict
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.89/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=8.9)
-- **Scope:** Examines how an agent should act when credible ethical theories prescribe conflicting choices and no theory is known to be uniquely correct. Covers moral uncertainty frameworks, expected moral value, maximizing choice-worthiness, and the roles of reasonable disagreement and moral learning. Distinguishes normative decision rules from empirical moral psychology, and connects pluralism to AI ethics and public decisions.
-- **Status:** proposed
-
 ## Candidate: Portfolio Stress Testing and Scenario Analysis -- Testing Portfolios Against Adverse Conditions
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Librarian
