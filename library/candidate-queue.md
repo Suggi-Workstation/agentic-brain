@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Source Verification and Fact-Checking -- Testing Claims Before Publication
-- **Domain:** communication
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.79/10.0 (gap=8.5, compounding=9.0, timeliness=9.0, balance=8.9)
-- **Scope:** Examines source verification and fact-checking as repeatable methods for testing a claim before it is published or shared. Covers source tracing, primary-versus-secondary evidence, corroboration, quote verification, image and document checks, correction practice, and uncertainty labels. Connects journalism ethics, misinformation analysis, logical fallacies, and writing standards through the operational discipline of accuracy.
-- **Status:** proposed
-
 ## Candidate: Groundwater and Aquifer Systems -- Hidden Freshwater Stores Under Environmental Pressure
 - **Domain:** earth-climate
 - **Proposed by:** Librarian
