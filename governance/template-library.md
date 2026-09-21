@@ -65,7 +65,7 @@ in the published topic file.
 - [ ] `## Sources` section present with 8+ sources. Each source annotated with authority rating (high/medium/low). At least 6 of 8+ sources are high. (G4) (PASS / HALT)
 - [ ] `## See Also` section present with at least 1 cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
 - [ ] Cross-reference targets verified: each path in `## See Also` and `links:` frontmatter confirmed to exist in the brain clone via `ls <path>` before committing (G5) (PASS / HALT)
-- [ ] Every factual claim traceable to a source in Sources. Synthesized claims are labeled as such. (G3) (PASS / HALT)
+- [ ] Every factual claim traceable to a source in Sources. Synthesized claims are labeled as such. Citations follow the Inline citations rule; every cited number resolves to a numbered entry in `## Sources`. (G3) (PASS / HALT)
 - [ ] Domain anchor compliance verified: topic stays within anchor's In scope, avoids Out scope (G6) (PASS / HALT)
 - [ ] Topic similarity check completed: overlap < 80%. Estimate recorded. (G7) (PASS / HALT)
 - [ ] Weighted score >= 7.0 before writing (PASS / HALT)
@@ -232,6 +232,11 @@ Every factual claim must be traceable to a source in the Sources
 section. If a claim is the author's synthesis or interpretation, label
 it as such: "The author's assessment is..." or "This suggests that..."
 
+**Inline citations:** Cite sources in topic bodies using `([1])` for one
+source and `([1] [3])` for multiple sources. Each number refers to the
+corresponding numbered entry in `## Sources`. Use this format consistently;
+do not use labels such as `(Source 1)` or `(Sources 12 and 14)`.
+
 ## Sources
 
 A `## Sources` section at the end of the file (before See Also) listing
@@ -396,9 +401,9 @@ Before Kahneman and Tversky, the dominant model of decision-making was
 Expected Utility Theory -- the idea that people make rational choices
 by weighing outcomes by their probabilities. Kahneman and Tversky
 demonstrated that real human behavior systematically violates this
-model. People do not evaluate outcomes in absolute terms; they evaluate
+model ([1]). People do not evaluate outcomes in absolute terms; they evaluate
 them relative to a reference point, and they weight losses more heavily
-than gains.
+than gains ([1] [7]).
 
 The key insight came from a series of experiments in the 1970s where
 participants consistently rejected gambles with positive expected
