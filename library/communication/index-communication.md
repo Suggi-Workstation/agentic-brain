@@ -1,6 +1,8 @@
 # Communication -- Topics
 
-12 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+13 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+
+- [Information Architecture and Content Design -- Structure Determines Whether Information Can Be Found and Understood](information-architecture-and-content-design.md) -- [reviewed: never] -- Information architecture and content design make information usable by aligning organization, labels, navigation, search, and page structure with the tasks and language of the people who need it. Their central claim is that clear prose is not sufficient: information must also appear in an expected place, under a meaningful name, through more than one usable route, and in a form whose relationships remain perceptible to people and machines ([1] [8] [9] [10]).
 
 - [Interpersonal Communication and Negotiation -- Listening, Interests, and Alternatives Improve Difficult Conversations](interpersonal-communication-and-negotiation.md) -- [reviewed: 2026-09-21] -- Interpersonal communication and negotiation share a practical problem: participants must understand messages and interests while deciding what, if anything, to agree. Research supports links between high-quality listening and perceived understanding or relationship quality, while negotiation studies show that process, alternatives, social motives, and subjective outcomes all matter; no single script guarantees success.
 
