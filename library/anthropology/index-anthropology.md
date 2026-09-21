@@ -1,6 +1,8 @@
 # Anthropology -- Topics
 
-9 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
+10 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
+
+- [Ethnographic Methods Produce Cultural Knowledge Through Situated Participation, Not Detachment](ethnographic-methods-and-participant-observation.md) -- [reviewed: never] -- Ethnography produces cultural knowledge by combining sustained participation in social life with systematic observation, interviewing, fieldnotes, and iterative interpretation; it does not obtain a view from nowhere. Its strength is contextual explanation of what people do and mean, while its limits arise from access, researcher position, ethics, selective recording, and the bounded cases from which broader claims are made.
 
 - [Food and Agriculture in Cultural Context -- Food Systems Shape Social Life as Well as Subsistence](food-and-agriculture-in-cultural-context.md) -- [reviewed: 2026-09-09] -- Every society must solve the same problem -- turning environment into food -- and the way it solves it shapes its kinship, politics, religion, and identity. Anthropology studies food both as subsistence, the material system that produces calories, and as symbol, the meanings attached to what is edible, who eats with whom, and how it is prepared.
 
