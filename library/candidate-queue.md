@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Administrative Law and Agency Rulemaking -- How Regulators Make, Interpret, and Enforce Rules
-- **Domain:** law-regulation
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
-- **Scope:** Examines administrative law as the framework governing how agencies receive authority, make rules, adjudicate disputes, conduct enforcement, and face judicial review. Covers delegations, notice-and-comment rulemaking, interpretive rules, due process, standards of review, and agency discretion. Connects securities, environmental, and health regulation through the legal process that turns statutes into enforceable rules, without treating political administration or market effects as the primary subject.
-- **Status:** proposed
-
 ## Candidate: Ergodicity and Path-Dependent Decision-Making -- Why Average Outcomes Can Mislead Individual Decisions
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Librarian
