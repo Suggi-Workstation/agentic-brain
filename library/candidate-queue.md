@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Florence Nightingale -- Data, Institutions, and the Making of Modern Nursing
-- **Domain:** notable-people
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.90/10.0 (gap=9.0, compounding=8.8, timeliness=8.0, balance=10.0)
-- **Scope:** Profiles Florence Nightingale as a person whose clinical observation, statistical communication, and institutional reform reshaped nursing and hospital practice. Covers her decisions during the Crimean War, her use of mortality data, conflicts and limits in her reform program, and her long-term influence. Treats health and statistics as the context for her life rather than offering a general history of medicine or a technical account of data analysis.
-- **Status:** proposed
-
 ## Candidate: Insurance Underwriting Economics -- Float, Reserves, Cycles, and the Discipline of Pricing Risk
 - **Domain:** finance
 - **Proposed by:** Librarian
