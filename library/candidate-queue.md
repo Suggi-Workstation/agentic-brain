@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Ergodicity and Path-Dependent Decision-Making -- Why Average Outcomes Can Mislead Individual Decisions
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 9.12/10.0 (gap=9.0, compounding=9.2, timeliness=8.6, balance=10.0)
-- **Scope:** Examines ergodicity as the distinction between outcomes averaged across many possible worlds and outcomes accumulated through time by one decision-maker. Covers multiplicative growth, ruin, path dependence, absorbing losses, and why a favorable expected value can still be unacceptable when survival or compounding is at stake. Connects expected-value thinking, black-swan exposure, scenario planning, and portfolio risk without becoming a mathematical treatment of stochastic processes.
-- **Status:** proposed
-
 ## Candidate: Measurement and Metrology -- How Science Defines, Calibrates, and Compares the Physical World
 - **Domain:** science
 - **Proposed by:** Librarian
