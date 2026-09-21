@@ -1,6 +1,6 @@
 # Probabilistic Thinking Forecasting -- Topics
 
-9 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
+10 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
 
 - [Base Rate Neglect -- Why We Ignore Prior Probabilities and Sabotage Our Forecasts](base-rate-neglect.md) -- [reviewed: never] -- Base rate neglect is the systematic cognitive bias that causes people to underweight or entirely ignore statistical prior probabilities (base rates) when making judgments under uncertainty, instead fixating on specific, vivid, or case-specific information. Identified by Kahneman and Tversky in the early 1970s as a consequence of the representativeness heuristic, base rate neglect is one of the most robust and consequential findings in the judgment and decision-making literature.
 
@@ -9,6 +9,8 @@
 - [Black Swan Theory -- Why the Most Important Events Are the Ones No Model Predicts](black-swan-theory.md) -- [reviewed: never] -- Black Swan theory, developed by Nassim Nicholas Taleb across his Incerto series (2001-2018), argues that the most consequential events in history, finance, and technology are precisely those that fall outside the scope of statistical models built on normal distributions. A Black Swan has three attributes: it is an outlier (outside the realm of regular expectations), it carries extreme impact, and human nature retrospectively concocts explanations that make it appear predictable after the fact.
 
 - [Calibration and Overconfidence -- Why Most People Are Far More Confident Than They Are Correct, and How to Fix It](calibration-and-overconfidence.md) -- [reviewed: never] -- Calibration is the alignment between subjective confidence and objective accuracy: when you say you are 70% sure, you should be right roughly 70% of the time. Most people are catastrophically miscalibrated -- they claim 90% confidence on judgments that turn out correct barely 50% of the time. This systematic overconfidence is not a minor quirk; it is one of the most robust and consequential findings in the judgment-and-decision-making literature.
+
+- [Ergodicity Changes Rational Choice -- Average Outcomes Can Mislead a Path-Dependent Decision-Maker](ergodicity-and-path-dependent-decision-making.md) -- [reviewed: never] -- Ergodicity determines whether an average across many possible outcomes describes what one decision-maker is likely to experience through time. When wealth compounds, losses alter the base exposed to every later outcome, so a favorable expected value can coexist with declining typical wealth or ruin; sound decisions must therefore match the averaging rule to the process being lived ([1] [2]).
 
 - [Expected Value Thinking -- Why Rational Decision-Makers Win by Embracing Uncertainty](expected-value-decision-trees.md) -- [reviewed: never] -- Expected value (EV) thinking is the rational decision-maker's core operating system: multiply each possible outcome by its probability, sum across all outcomes, and select the path with the highest expected result. Simple in principle, EV thinking is notoriously difficult to live by because it demands being willing to lose individual bets you were right to take.
 
