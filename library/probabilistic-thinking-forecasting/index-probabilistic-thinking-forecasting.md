@@ -1,6 +1,6 @@
 # Probabilistic Thinking Forecasting -- Topics
 
-10 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
+11 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
 
 - [Base Rate Neglect -- Why We Ignore Prior Probabilities and Sabotage Our Forecasts](base-rate-neglect.md) -- [reviewed: never] -- Base rate neglect is the systematic cognitive bias that causes people to underweight or entirely ignore statistical prior probabilities (base rates) when making judgments under uncertainty, instead fixating on specific, vivid, or case-specific information. Identified by Kahneman and Tversky in the early 1970s as a consequence of the representativeness heuristic, base rate neglect is one of the most robust and consequential findings in the judgment and decision-making literature.
 
@@ -15,6 +15,8 @@
 - [Expected Value Thinking -- Why Rational Decision-Makers Win by Embracing Uncertainty](expected-value-decision-trees.md) -- [reviewed: never] -- Expected value (EV) thinking is the rational decision-maker's core operating system: multiply each possible outcome by its probability, sum across all outcomes, and select the path with the highest expected result. Simple in principle, EV thinking is notoriously difficult to live by because it demands being willing to lose individual bets you were right to take.
 
 - [The Inside View Is Seductive, Detail-Rich, and Almost Always Wrong -- Why the Outside View Wins](inside-outside-view.md) -- [reviewed: never] -- The inside view and outside view are two fundamentally different ways of making predictions about the future. The inside view builds a forecast by focusing on the specific case: its unique details, constraints, resources, and plan of action. The outside view ignores those specifics and instead asks a single question: how did similar cases turn out?
+
+- [Pre-Mortems and Post-Mortems Turn Uncertain Decisions Into Testable Learning Cycles](pre-mortems-and-post-mortems.md) -- [reviewed: never] -- A pre-mortem imagines that a proposed decision has failed and searches backward for plausible causes before commitment, while a post-mortem reconstructs what happened after execution and converts the comparison into revised rules. Used together, they make assumptions, probabilities, warning signals, and causal claims explicit enough to test rather than allowing the observed outcome to rewrite the original forecast ([1] [2] [3]).
 
 - [Prediction Markets -- How Betting on the Future Aggregates Dispersed Knowledge into Probabilistic Forecasts](prediction-markets.md) -- [reviewed: never] -- Prediction markets are exchange-traded markets where participants buy and sell contracts whose payoffs depend on the outcomes of future events. By putting real money behind their beliefs, traders aggregate fragments of information dispersed across thousands of individuals into a single continuously updating probability -- a price.
 
