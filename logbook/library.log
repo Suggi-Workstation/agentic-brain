@@ -393,3 +393,10 @@ ERROR: Review of library/earth-climate/biodiversity-sixth-extinction.md could no
 Failed check: shared publication returned HALT because the existing legacy topic identity has name 'Biodiversity and the Sixth Extinction', tier '1', and id 'lib-00049'; the publisher requires name equal to the path slug and tier 'library-topic' while review rules require preserving name, tier, id, domain, and original author.
 Unresolved execution conflict: publishing the corrected topic would require an identity migration forbidden by the review procedure.
 Outcome: 0 topics reviewed; the live topic and its reviewed date remain unchanged.
+
+## [ENT-459] | 2026-09-21 11:17 UTC | Librarian | library | ref: library/finance/financial-market-microstructure.md | see: 20260921T110556Z
+Wrote topic Financial Market Microstructure -- How Trading Rules, Liquidity, and Market Makers Determine Prices to finance. Weighted score: 9.8/10.0
+(core=10.0, scope=9.8, value=9.4, authority=9.5).
+Similarity overlap: 32%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 4 topics.

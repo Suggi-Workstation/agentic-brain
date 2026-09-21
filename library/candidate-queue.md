@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Financial Market Microstructure -- How Trading Rules, Liquidity, and Market Makers Determine Prices
-- **Domain:** finance
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 9.15/10.0 (gap=9.0, compounding=9.0, timeliness=9.0, balance=10.0)
-- **Scope:** Examines financial market microstructure: how orders become trades and how market rules affect liquidity, transaction costs, and price discovery. Covers order types, bid-ask spreads, market makers, exchanges, dark pools, auctions, tick sizes, and the roles of high-frequency trading and clearing. Connects financial-market mechanics, securities regulation, and valuation inputs without becoming a trading strategy or portfolio-construction guide.
-- **Status:** proposed
-
 ## Candidate: Administrative Law and Agency Rulemaking -- How Regulators Make, Interpret, and Enforce Rules
 - **Domain:** law-regulation
 - **Proposed by:** Librarian
