@@ -1,6 +1,6 @@
 # Communication -- Topics
 
-10 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+11 topics. Anchor: [anchor-communication.md](anchor-communication.md)
 
 - [Interpersonal Communication and Negotiation -- Why Most Conversations Fail and What the Best Communicators Do Differently](interpersonal-communication-and-negotiation.md) -- [reviewed: never] -- Interpersonal communication and negotiation are the twin pillars of effective human interaction: communication is how we convey meaning, and negotiation is how we resolve competing interests. The evidence from decades of research across psychology, conflict resolution, and organizational behavior converges on a single insight: most conversational breakdowns are not failures of intelligence or good intentions but failures of technique.
 
@@ -17,6 +17,8 @@
 - [Propaganda and Misinformation -- How Information Is Weaponized to Shape Belief and Behavior](propaganda-and-misinformation.md) -- [reviewed: never] -- Propaganda and misinformation are not accidents of the information age -- they are systematic techniques for shaping belief by distorting, suppressing, or fabricating information. Propaganda is the deliberate, orchestrated attempt to influence public opinion through mass communication, a practice industrialized in the twentieth century and digitally supercharged in the twenty-first.
 
 - [Rhetoric -- The 2,500-Year-Old Art of Persuasion That Shapes Every Argument, Speech, and Advertisement You Encounter](rhetoric.md) -- [reviewed: never] -- Rhetoric is the systematic study and practice of persuasion: how speakers and writers use language, structure, and appeals to influence beliefs, attitudes, and actions. Originating in ancient Greece as a discipline for training citizens to participate in democratic debate, rhetoric has evolved into a universal framework for understanding every act of communication designed to persuade, from Aristotle's courtroom speeches to modern political campaigns, advertising, and everyday argument.
+
+- [Semiotics and Meaning-Making -- How Signs and Symbols Create Systems of Meaning](semiotics-and-meaning-making.md) -- [reviewed: never] -- Semiotics explains communication as the production and interpretation of signs rather than the simple transfer of information. Its central claim is that words, images, gestures, objects, sounds, and layouts become meaningful through relations, conventions, contexts, and acts of interpretation, not through self-contained meanings embedded in the things themselves.
 
 - [The Medium Is the Message -- Why Communication Technologies Shape Thought More Than Any Content They Carry](the-medium-is-the-message.md) -- [reviewed: never] -- Marshall McLuhan's most famous and misunderstood insight -- "the medium is the message" -- asserts that the form of a communication medium shapes human cognition, social organization, and culture more profoundly than any individual message transmitted through it. Published in his 1964 book Understanding Media: The Extensions of Man, McLuhan's theory reframed communication not as a neutral conduit...
 
