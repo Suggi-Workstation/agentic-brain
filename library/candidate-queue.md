@@ -177,3 +177,27 @@
 - **Discovery score:** 8.78/10.0 (gap=8.7, compounding=9.0, timeliness=8.5, balance=9.0)
 - **Scope:** Examines initial public offerings and primary capital markets as the processes through which firms issue new equity and transition into public ownership. Covers underwriting, bookbuilding, pricing, allocation, disclosure, lockups, direct listings, special-purpose acquisition companies, and the trade-offs among issuers, investors, and intermediaries. Connects capital formation, market microstructure, corporate governance, and valuation inputs without becoming a stock-picking method or a legal guide to securities compliance.
 - **Status:** proposed
+
+## Candidate: Antimicrobial Resistance and Antibiotic Stewardship -- Preserving Effective Treatment
+- **Domain:** health-medicine
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 9.20/10.0 (gap=9.0, compounding=9.4, timeliness=9.5, balance=9.0)
+- **Scope:** Examines antimicrobial resistance as the loss of effective treatment when microbes evolve or acquire resistance, and antibiotic stewardship as the coordinated use of diagnostics, prescribing, infection prevention, surveillance, and access to preserve effective medicines. Covers the One Health relationship among clinical care, public health, agriculture, and environmental transmission, together with the limits of individual prescribing interventions. Distinguishes resistance management from vaccine development, general epidemiology, pharmaceutical industry economics, and drug-discovery workflows.
+- **Status:** proposed
+
+## Candidate: Transfer of Learning and Generalization -- When Knowledge Travels to New Problems
+- **Domain:** education-learning
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.96/10.0 (gap=8.8, compounding=9.4, timeliness=8.7, balance=9.0)
+- **Scope:** Examines learning transfer as the application of knowledge or skill acquired in one context to a novel problem, task, or setting. Covers near and far transfer, abstraction, analogical comparison, worked examples, practice variability, prior knowledge, and assessment of whether learning generalizes beyond recall. Distinguishes transfer mechanisms and instructional design from generic study techniques, cognitive psychology, or claims that a teaching method automatically improves all outcomes.
+- **Status:** proposed
+
+## Candidate: Process Safety Management and Hazard Analysis -- Preventing High-Consequence Failures Before They Occur
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.91/10.0 (gap=8.8, compounding=9.2, timeliness=8.7, balance=9.0)
+- **Scope:** Examines process safety management and hazard analysis as prospective engineering disciplines for preventing low-probability, high-consequence releases, fires, explosions, and other system failures. Covers process hazard analysis methods, layers of protection, inherently safer design, mechanical integrity, management of change, operating procedures, and learning from near misses. Distinguishes proactive control of hazardous processes from post-failure forensic analysis, occupational safety compliance summaries, and industry-economic analysis.
+- **Status:** proposed

@@ -417,3 +417,13 @@ Wrote topic Pharmaceutical Industry Economics -- Patents, R&D, Regulation, and P
 Similarity overlap: 35%.
 Sources: 14 (14 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-478] | 2026-09-21 16:06 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 4 domains scanned, 3 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Antimicrobial Resistance and Antibiotic Stewardship -- Preserving Effective Treatment (9.20): gap=9.0, compounding=9.4, timeliness=9.5, balance=9.0
+- Transfer of Learning and Generalization -- When Knowledge Travels to New Problems (8.96): gap=8.8, compounding=9.4, timeliness=8.7, balance=9.0
+- Process Safety Management and Hazard Analysis -- Preventing High-Consequence Failures Before They Occur (8.91): gap=8.8, compounding=9.2, timeliness=8.7, balance=9.0
+Skipped (queue capacity):
+- Horror as Cultural Anxiety -- Genre, Fear, and Social Change Across Media (8.86): gap=8.5, compounding=8.8, timeliness=8.8, balance=10.0
+Domain balance: pop-culture (9 topics) to education-learning, engineering-infrastructure, health-medicine (10 topics).
