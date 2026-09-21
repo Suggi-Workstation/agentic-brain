@@ -1,6 +1,6 @@
 # Finance -- Topics
 
-10 topics. Anchor: [anchor-finance.md](anchor-finance.md)
+11 topics. Anchor: [anchor-finance.md](anchor-finance.md)
 
 - [Banking -- Why Borrowing Short and Lending Long Is Both the Business Model and the Fatal Flaw](banking-maturity-transformation.md) -- [reviewed: never] -- Banking is the business of maturity transformation: taking in short-term deposits and using them to fund long-term loans. This structural mismatch between liquid liabilities and illiquid assets is the engine of bank profitability -- banks earn the spread between short-term deposit rates and long-term loan rates -- but it is also the source of their inherent fragility.
 
@@ -17,6 +17,8 @@
 - [Financial Market Microstructure -- Trading Rules Shape Liquidity, Costs, and Prices](financial-market-microstructure.md) -- [reviewed: never] -- Financial market microstructure explains how orders become trades and how the rules, intermediaries, and technologies of trading shape transaction costs, liquidity, and price discovery. Its central claim is that an observed market price is not produced by information alone: it is also produced by an institutional mechanism that determines who may trade, what they may submit, which orders receive priority, what information is displayed, and how trades are cleared and settled ([1] [2]).
 
 - [Financial Statement Analysis -- How to Read a Business Through Its Numbers](financial-statement-analysis.md) -- [reviewed: never] -- Financial statement analysis is the systematic examination of a company's balance sheet, income statement, and cash flow statement to assess its financial health, operating performance, and intrinsic value. It is the fundamental tool that converts raw accounting data into investable insight -- revealing not just what a company earned, but how it earned it, whether those earnings are sustainable, and what risks are embedded in its capital structure.
+
+- [Insurance Underwriting Economics -- Durable Float Depends on Pricing Risk Before Claims Are Known](insurance-underwriting-economics.md) -- [reviewed: never] -- Insurance underwriting is the financial discipline of accepting contingent obligations at a price set before their ultimate cost is known. Its central economic test is not premium growth or investment income, but whether pricing, selection, reserving, reinsurance, and capital together produce an adequate return after claims and expenses across a full loss-development period ([1] [2] [7]).
 
 - [Mergers and Acquisitions -- Why Most Deals Destroy Value and How the Few Succeed](mergers-and-acquisitions-mechanics.md) -- [reviewed: never] -- Mergers and acquisitions (M&A) are the mechanisms by which companies combine, restructure ownership, and reallocate corporate assets across the economy. They include mergers (two firms becoming one legal entity), acquisitions (one firm purchasing another), and leveraged buyouts (acquisitions financed primarily with debt against the target's own assets).
 
