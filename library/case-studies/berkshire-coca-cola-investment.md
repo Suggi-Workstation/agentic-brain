@@ -305,8 +305,8 @@ holding at year-end 1989. Coca-Cola earned $2.85 per common share in 1988;
 its 1988 year-end price of $44.63 was about 15.7 times that figure, and
 Berkshire's average cumulative cost through 1989 was about 15.4 times it.
 Coca-Cola's year-end 1988 common equity and shares outstanding equated to
-book value of approximately $9.43 per share, making Berkshire's cumulative
-average cost through 1989 about 4.65 times that historical book value.
+book value of approximately $8.58 per share, making Berkshire's cumulative
+average cost through 1989 about 5.11 times that historical common book value.
 (Sources 1, 2, 6)
 
 These ratios explain why the purchase differed from a net-asset bargain.
@@ -365,7 +365,9 @@ The balance-sheet definitions also change the interpretation. Coca-Cola
 reported $761.1 million of long-term debt at year-end 1988, but current
 borrowings raised total debt to $2.124 billion. Against that amount it held
 $1.231 billion of cash, cash equivalents, and marketable securities, while
-common shareholders' equity was $3.345 billion. Calling $761 million
+total shareholders' equity was $3.345 billion, including $300 million of
+preferred stock. Common shareholders' equity was therefore approximately
+$3.045 billion. Calling $761 million
 "total debt" and describing leverage as negligible understates the
 reported obligations. Likewise, the 1989 annual report gives 337.015
 million year-end shares outstanding. Dividing Berkshire's 23.35 million
@@ -437,8 +439,8 @@ metaphor, which would be incorrect for accounting and tax purposes.
 
 Interpretation: the case supports a distinction between statistical
 cheapness and economic value. Berkshire's average cost through 1989 was
-roughly 15.4 times Coca-Cola's 1988 earnings and about 4.65 times 1988
-book value. Those multiples demanded evidence that future cash economics
+roughly 15.4 times Coca-Cola's 1988 earnings and about 5.11 times 1988
+common book value. Those multiples demanded evidence that future cash economics
 would exceed what the balance sheet alone showed. The evidence was a
 strong trademark, a concentrate-led model, high return on common equity,
 international volume opportunity, and management willing to repurchase

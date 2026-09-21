@@ -296,8 +296,9 @@ director, and Howard G. Buffett became chairman. Greg Abel remained
 CEO. The first half of 2026 also supplied early allocation evidence:
 Berkshire completed the previously agreed OxyChem purchase,
 repurchased approximately $4.8 billion of its shares, and agreed to
-and completed the acquisition of Taylor
-Morrison for approximately $6.8 billion of equity value. The author's
+acquire Taylor Morrison for approximately $6.8 billion of equity value.
+The Taylor Morrison acquisition subsequently closed on July 24, 2026.
+The author's
 assessment is that these actions demonstrate deployment under Abel,
 but they do not yet establish how the new structure will perform
 across a full market or insurance cycle.
