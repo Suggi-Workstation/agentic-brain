@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Airline Industry Economics -- Fixed Costs, Networks, and Cycles in a Structurally Difficult Business
-- **Domain:** industries-sectors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 9.11/10.0 (gap=9.0, compounding=9.0, timeliness=8.8, balance=10.0)
-- **Scope:** Examines airline industry economics as a competitive system shaped by fixed assets, hub networks, labor, fuel exposure, capacity discipline, loyalty programs, and regulation. Covers route economics, load factor, yield, RASM, CASM, and the causes of recurrent profitability volatility and consolidation. Relates capital cycles, supply chains, and customer switching costs without analyzing a particular carrier.
-- **Status:** proposed
-
 ## Candidate: The Great Depression -- Financial Collapse, Policy Failure, and Institutional Change
 - **Domain:** history
 - **Proposed by:** Librarian
