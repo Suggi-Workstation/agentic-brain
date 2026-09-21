@@ -1,6 +1,8 @@
 # Industries Sectors -- Topics
 
-10 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
+11 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
+
+- [Airline Industry Economics -- Network Value Cannot Eliminate the Capacity Cycle](airline-industry-economics-fixed-costs-networks-and-cycles.md) -- [reviewed: never] -- Airlines create valuable connectivity by combining aircraft, airport access, schedules, and demand into networks, but their perishable inventory and committed capacity make that value difficult to retain as durable profit. Route density, hub scope, revenue management, loyalty, and disciplined capacity can improve economics; none removes exposure to price competition, fuel and labor costs, demand shocks, regulation, or the capital cycle ([1] [6] [7] [10]).
 
 - [Capital Cycle Analysis -- Why High Returns Attract the Capital That Destroys Them](capital-cycle-analysis.md) -- [reviewed: never] -- Capital cycle analysis is an industry-level investing framework developed by Marathon Asset Management and articulated by financial historian Edward Chancellor. Its central insight is deceptively simple: high profitability attracts a flood of capital investment, which creates overcapacity and destroys the very returns that attracted the capital in the first place.
 
