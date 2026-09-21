@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Semiconductor Industry Structure and Economics -- Capital Intensity, Supply Chains, and the Economics of Modern Chips
-- **Domain:** industries-sectors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 9.38/10.0 (gap=9.0, compounding=9.5, timeliness=9.5, balance=10.0)
-- **Scope:** Examines semiconductor production as an industry shaped by fab capital intensity, foundry specialization, design-tool dependence, capacity cycles, and geopolitical supply concentration. Covers the value chain from chip design through fabrication, equipment, packaging, and distribution, together with industry metrics such as utilization, node-transition costs, and revenue concentration. Connects capital-cycle analysis, global supply chains, and technology disruption without analyzing a single company.
-- **Status:** proposed
-
 ## Candidate: Financial Market Microstructure -- How Trading Rules, Liquidity, and Market Makers Determine Prices
 - **Domain:** finance
 - **Proposed by:** Librarian
