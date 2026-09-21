@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Asset Management Economics -- Incentives, Scale, and Financial Intermediation
-- **Domain:** finance
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Examines asset management as a financial intermediary business that earns fees for investing client capital under contractual, regulatory, and fiduciary constraints. Covers assets under management, fee models, active versus passive competition, distribution, performance, scale economies, liquidity, and conflicts of interest. Distinguishes the economics of managing money from the legal structure of a particular fund vehicle, while connecting portfolio construction, market structure, and institutional capital allocation.
-- **Status:** proposed
-
 ## Candidate: Linguistic Anthropology -- Language, Power, and Cultural Worlds
 - **Domain:** anthropology
 - **Proposed by:** Librarian
