@@ -193,3 +193,11 @@
 - **Discovery score:** 8.96/10.0 (gap=9.0, compounding=8.8, timeliness=8.3, balance=10.0)
 - **Scope:** Examines the First World War as a systemic rupture that transformed empires, states, finance, social order, and the international system. Covers the origins of the conflict, industrialized warfare, the collapse of the Russian, German, Austro-Hungarian, and Ottoman empires, the peace settlement, and the interwar legacy. Connects military, political, and economic history to the rise of revolutionary movements and the conditions that shaped the Second World War, without turning the topic into a narrow battle narrative.
 - **Status:** proposed
+
+## Candidate: Pre-Mortems and Post-Mortems -- Learning Before and After Decisions Under Uncertainty
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 9.1/10.0 (gap=9.0, compounding=9.2, timeliness=8.5, balance=10.0)
+- **Scope:** Examines pre-mortems and post-mortems as paired probability-learning methods that expose failure modes before a decision and test causal assumptions after it. Covers prospective failure simulation, reference-class comparison, separating forecast error from outcome noise, updating confidence, and translating findings into revised decision rules. Distinguishes this framework from scenario planning, retrospective blame assignment, and personal decision-journal habits.
+- **Status:** proposed
