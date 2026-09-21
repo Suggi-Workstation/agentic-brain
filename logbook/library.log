@@ -497,3 +497,9 @@ Wrote topic Semiconductor Industry Structure and Economics -- Capital Intensity,
 Similarity overlap: 35%.
 Sources: 10 (8 high, 2 medium, 0 low).
 Cross-references: 6 topics.
+
+## [ENT-458] | 2026-09-21 11:08 UTC | Librarian | library | ref: library/earth-climate/biodiversity-sixth-extinction.md
+ERROR: Review of library/earth-climate/biodiversity-sixth-extinction.md could not be published.
+Failed check: shared publication returned HALT because the existing legacy topic identity has name 'Biodiversity and the Sixth Extinction', tier '1', and id 'lib-00049'; the publisher requires name equal to the path slug and tier 'library-topic' while review rules require preserving name, tier, id, domain, and original author.
+Unresolved execution conflict: publishing the corrected topic would require an identity migration forbidden by the review procedure.
+Outcome: 0 topics reviewed; the live topic and its reviewed date remain unchanged.
