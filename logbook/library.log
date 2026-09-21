@@ -433,3 +433,10 @@ Wrote topic Source Verification and Fact-Checking -- Testing Claims Before Publi
 Similarity overlap: 35%.
 Sources: 18 (17 high, 1 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-449] | 2026-09-21 08:18 UTC | Librarian | library | ref: library/political-science-public-policy/comparative-political-regimes.md
+ERROR: library/political-science-public-policy/comparative-political-regimes.md was opened under an invalid domain selection. The master-index calculation produced a four-way maximum never-reviewed backlog of 12; the alphabetical tie-break required mathematics-statistics, not political-science-public-policy. The cycle halted after the topic read and before independent web research, correction, stamping, or topic publication; its evidence remains unverified, and replacing it would violate the one-topic limit.
+Review cycle: 0 topics reviewed, 0 current, 0 rewritten.
+Topics:
+- Comparative Political Regimes -- How Institutional Design Separates Democracies From Autocracies and Why the Boundary Is Blurring (political-science-public-policy): ERROR - failed the domain-selection tie-break; no review completed.
+Domain coverage: reviewed across 0 domains.
