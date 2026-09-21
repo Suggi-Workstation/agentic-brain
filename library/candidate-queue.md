@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Insurance Underwriting Economics -- Float, Reserves, Cycles, and the Discipline of Pricing Risk
-- **Domain:** finance
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 9.16/10.0 (gap=9.0, compounding=9.2, timeliness=8.8, balance=10.0)
-- **Scope:** Examines insurance underwriting as a financial business that prices contingent risk, builds float, recognizes loss reserves, and protects solvency through capital and reinsurance. Covers combined ratios, underwriting cycles, reserving uncertainty, duration of float, adverse selection, and the interaction between investment income and underwriting discipline. Distinguishes ordinary insurance-company operations from the ownership-vehicle structure of an insurance-float compounder, connecting credit analysis, capital structure, and financial statement analysis.
-- **Status:** proposed
-
 ## Candidate: Airline Industry Economics -- Fixed Costs, Networks, and Cycles in a Structurally Difficult Business
 - **Domain:** industries-sectors
 - **Proposed by:** Librarian
