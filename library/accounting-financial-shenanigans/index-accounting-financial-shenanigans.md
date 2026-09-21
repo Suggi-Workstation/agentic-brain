@@ -1,6 +1,6 @@
 # Accounting Financial Shenanigans -- Topics
 
-11 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
+12 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
 
 - [Acquisition Accounting Tricks -- How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality](acquisition-accounting-tricks.md) -- [reviewed: 2026-09-09] -- Acquisition accounting can obscure operating performance because purchase price allocation, contingent payments, and acquired liabilities affect reported earnings long after a deal closes. The forensic task is to distinguish legitimate estimates from unsupported valuations, reserve releases, and classifications that flatter results.
 
@@ -23,4 +23,6 @@
 - [Restatement Analysis -- Why Forced Corrections Expose the Shenanigans Hiding in Prior Periods](restatement-analysis.md) -- [reviewed: never] -- A financial restatement is a company's formal admission that previously issued financial statements contained material errors and must be corrected. For forensic analysts, a restatement is not merely an accounting housekeeping event -- it is a forced confession that strips away the manipulated numbers and reveals what management was actually doing during the periods now disowned.
 
 - [Revenue Recognition Shenanigans -- Why Inflating the Top Line Is the Most Common Form of Accounting Fraud](revenue-recognition-shenanigans.md) -- [reviewed: never] -- Revenue recognition manipulation is the single most pervasive form of financial statement fraud, appearing in over half of all SEC enforcement actions and accounting restatements. Companies inflate reported revenue through premature recognition (booking sales before they are earned), fictitious transactions (recording sales that never occurred), bill-and-hold arrangements (invoicing goods never shipped), and channel stuffing (flooding distributors with excess product to book immediate sales).
+
+- [Round-Tripping and Reciprocal Transactions -- Circular Cash Can Manufacture Revenue Without Creating Sales](round-tripping-and-reciprocal-transactions.md) -- [reviewed: never] -- Round-tripping turns a company's own cash, a reciprocal purchase, or an offsetting obligation into reported revenue even though the linked arrangement creates little or no new economic activity. Detecting it requires treating all connected contracts and cash movements as one transaction, tracing who ultimately funded the apparent customer, and testing whether independent demand, control transfer, and commercial risk existed.
 

@@ -1,10 +1,10 @@
 # Library Master Index
 
-<!-- Regenerated 2026-09-21 07:00 UTC -->
+<!-- Regenerated 2026-09-21 07:15 UTC -->
 <!-- Source of truth: filesystem. This file is derived, never maintained by hand. -->
 <!-- To verify: ls library/<domain>/*.md -->
 
-**358 topics across 33 domains**
+**359 topics across 33 domains**
 
 Reviewed = topics reviewed at least once; overdue = the subset last reviewed
 at least six calendar months ago, calculated in UTC when this index is generated.
@@ -12,7 +12,7 @@ Topics minus Reviewed gives the never-reviewed count.
 
 | Domain | Topics | Reviewed | Description |
 |:--|--:|:--|:--|
-| [accounting-financial-shenanigans](accounting-financial-shenanigans/index-accounting-financial-shenanigans.md) | 11 | 3 (0 overdue) | The detection and analysis of earnings manipulation, accounting fraud, and financial statement deception. Named after Howard Schilit's "Financial Shenanigans," this domain covers the specific techniques companies use to distort financial reality -- revenue recognition tricks, expense capitalization games, cash flow misclassification, off-balance-sheet liabilities, and one-time charge manipulation. The focus is forensic: how to spot the manipulation, what red flags to look for, and what the corrected numbers would show. |
+| [accounting-financial-shenanigans](accounting-financial-shenanigans/index-accounting-financial-shenanigans.md) | 12 | 3 (0 overdue) | The detection and analysis of earnings manipulation, accounting fraud, and financial statement deception. Named after Howard Schilit's "Financial Shenanigans," this domain covers the specific techniques companies use to distort financial reality -- revenue recognition tricks, expense capitalization games, cash flow misclassification, off-balance-sheet liabilities, and one-time charge manipulation. The focus is forensic: how to spot the manipulation, what red flags to look for, and what the corrected numbers would show. |
 | [anthropology](anthropology/index-anthropology.md) | 9 | 2 (0 overdue) | The study of human societies, cultures, and their development across time and geography. Encompasses cultural anthropology (how people live, believe, and organize), archaeology (material remains of past societies), linguistic anthropology (how language shapes culture), and biological anthropology (human evolution and variation). This domain is about understanding the full spectrum of human experience -- how different societies have solved the problems of living together, what they believed, and what their material culture reveals. |
 | [books](books/index-books.md) | 11 | 1 (0 overdue) | Summaries, analyses, and key takeaways from important books across all domains of knowledge. Each entry distills a book's core arguments, key evidence, and lasting insights into a concise, actionable format. This domain is a knowledge compression layer -- it captures what a book contributes to the brain's understanding without requiring the reader to have read the original. Books summarized here can be from any domain (investing, science, philosophy, history, etc.) but the entry focuses on the BOOK as an artifact -- what it argues, how well it argues it, and what the reader should take away. |
 | [business-management-strategy](business-management-strategy/index-business-management-strategy.md) | 12 | 1 (0 overdue) | The study of how an individual organization creates, captures, and compounds value through its business model, strategy, management, operations, governance, culture, and execution. This domain treats the company as an operating system: how resources become products and services, how customers are acquired and retained, how incentives and decisions flow through the organization, and why some firms improve while others decay. It bridges the external playing field of industry analysis with the internal reality an owner or manager must understand. |
