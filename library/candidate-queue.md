@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Round-Tripping and Reciprocal Transactions -- Detecting Circular Revenue Schemes
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.26/10.0 (gap=8.0, compounding=8.5, timeliness=8.0, balance=8.9)
-- **Scope:** Examines round-tripping and reciprocal transactions, where linked counterparties or circular flows can create the appearance of revenue without equivalent economic substance. Covers linked transactions, repurchase and side-agreement risks, cash-flow and counterparty tracing, and disclosure red flags. Distinguishes this specific fabricated-revenue mechanism from broader premature-recognition and channel-stuffing topics.
-- **Status:** proposed
-
 ## Candidate: Ethnographic Methods and Participant Observation -- How Anthropology Produces Cultural Knowledge
 - **Domain:** anthropology
 - **Proposed by:** Librarian
