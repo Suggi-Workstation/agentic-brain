@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Semiotics and Meaning-Making -- How Signs and Symbols Create Systems of Meaning
-- **Domain:** communication
-- **Proposed by:** Librarian
-- **Date:** 2026-09-04
-- **Discovery score:** 8.58/10.0 (gap=9.0, compounding=8.5, timeliness=7.5, balance=9.0)
-- **Scope:** Examines the study of signs and symbols as systems of meaning. Covers Peirce's triadic model, Saussure's signifier-signified distinction, denotation vs connotation, codes and myth (Barthes), and the application of semiotic analysis to media, advertising, and culture. Connects linguistics, narrative structure, visual communication, and philosophy of language through the framework for how meaning is produced and interpreted.
-- **Status:** proposed
-
 ## Candidate: Moral Uncertainty and Decision-Making -- Acting When Ethical Theories Conflict
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
