@@ -1,6 +1,8 @@
 # Law Regulation -- Topics
 
-9 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+10 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+
+- [Administrative Law Makes Agency Power Operational but Keeps It Legally Bounded](administrative-law-and-agency-rulemaking.md) -- [reviewed: never] -- Administrative law is the framework through which United States federal agencies turn congressional statutes into generally applicable rules, case-specific orders, licenses, sanctions, and other public actions. The Administrative Procedure Act supplies default procedures for rulemaking and adjudication, while organic statutes grant each agency its substantive authority and courts police the resulting boundaries.
 
 - [Constitutional Law and Governance Structures -- Why Constitutional Design Choices Made Centuries Ago Shape Modern Political Outcomes](constitutional-law-governance-structures.md) -- [reviewed: never] -- Constitutional law is the architecture of state power: it defines how government authority is distributed, constrained, and legitimated through founding documents, judicial interpretation, and institutional norms. A nation's constitutional design -- whether it adopts a parliamentary or presidential system, a federal or unitary structure, a rigid or flexible amendment process -- determines not...
 
