@@ -1,6 +1,6 @@
 # Finance -- Topics
 
-9 topics. Anchor: [anchor-finance.md](anchor-finance.md)
+10 topics. Anchor: [anchor-finance.md](anchor-finance.md)
 
 - [Banking -- Why Borrowing Short and Lending Long Is Both the Business Model and the Fatal Flaw](banking-maturity-transformation.md) -- [reviewed: never] -- Banking is the business of maturity transformation: taking in short-term deposits and using them to fund long-term loans. This structural mismatch between liquid liabilities and illiquid assets is the engine of bank profitability -- banks earn the spread between short-term deposit rates and long-term loan rates -- but it is also the source of their inherent fragility.
 
@@ -13,6 +13,8 @@
 - [Credit Analysis -- Why Assessing Default Risk Is the Discipline That Makes Lending Possible](credit-analysis-default-risk.md) -- [reviewed: never] -- Credit analysis is the systematic evaluation of a borrower's ability and willingness to repay debt, combining quantitative financial ratios, qualitative judgment, and structured risk frameworks into an assessment of default probability and loss severity. It is the foundational discipline of all lending -- from a community bank evaluating a small business loan to a global rating agency assigning a AAA grade to a sovereign bond issuer.
 
 - [Dividend Policy and Share Buybacks -- Why Returning Capital to Shareholders Is a Strategic Choice, Not Arithmetic](dividend-policy-and-share-buybacks.md) -- [reviewed: never] -- Dividend policy and share buybacks are the two primary mechanisms by which companies return capital to shareholders, and the choice between them -- and the decision to return capital at all -- is among the most consequential and debated in corporate finance. In a frictionless world, the Modigliani-Miller dividend irrelevance theorem proves that payout policy does not affect firm value.
+
+- [Financial Market Microstructure -- Trading Rules Shape Liquidity, Costs, and Prices](financial-market-microstructure.md) -- [reviewed: never] -- Financial market microstructure explains how orders become trades and how the rules, intermediaries, and technologies of trading shape transaction costs, liquidity, and price discovery. Its central claim is that an observed market price is not produced by information alone: it is also produced by an institutional mechanism that determines who may trade, what they may submit, which orders receive priority, what information is displayed, and how trades are cleared and settled ([1] [2]).
 
 - [Financial Statement Analysis -- How to Read a Business Through Its Numbers](financial-statement-analysis.md) -- [reviewed: never] -- Financial statement analysis is the systematic examination of a company's balance sheet, income statement, and cash flow statement to assess its financial health, operating performance, and intrinsic value. It is the fundamental tool that converts raw accounting data into investable insight -- revealing not just what a company earned, but how it earned it, whether those earnings are sustainable, and what risks are embedded in its capital structure.
 
