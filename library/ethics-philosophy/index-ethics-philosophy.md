@@ -2,7 +2,7 @@
 
 12 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
-- [AI Ethics -- Moral Frameworks Are the Rate-Limiting Step for Machine Intelligence, Not Compute](ai-ethics.md) -- [reviewed: never] -- AI ethics is the systematic study of the moral principles that should govern the design, deployment, and regulation of artificial intelligence systems. Unlike adjacent technical disciplines that ask "can we build it," AI ethics asks "should we build it, under what constraints, and who bears responsibility when it causes harm.
+- [AI Ethics -- Trustworthy Systems Require Governance Across the Full Lifecycle](ai-ethics.md) -- [reviewed: 2026-09-21] -- AI ethics studies the principles and institutions that should govern the design, development, deployment, use, and retirement of artificial intelligence systems. It asks not only whether a system performs its assigned task, but whether its purpose is legitimate, its benefits and harms are distributed fairly, affected people can understand and contest consequential decisions, and identifiable humans and organizations remain accountable.
 
 - [Bioethics -- Medical Progress Has Made Us Powerful Enough to Play God, and We Have No Consensus Rules for the Game](bioethics.md) -- [reviewed: never] -- Bioethics is the systematic study of the moral questions raised by medicine, biology, and the life sciences. It asks what we owe to patients, research subjects, future generations, and the dying in a world where technology increasingly allows us to extend life, edit genes, allocate scarce organs, and intervene at the beginning and end of human existence.
 
