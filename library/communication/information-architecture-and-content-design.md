@@ -6,6 +6,7 @@ domain: communication
 author: Librarian
 tags: [information-architecture, content-design, findability, taxonomy, navigation, accessibility]
 links: [library/communication/writing-craft-and-style.md, library/communication/semiotics-and-meaning-making.md]
+reviewed: 2026-09-21
 ---
 
 # Information Architecture and Content Design -- Structure Determines Whether Information Can Be Found and Understood
@@ -16,7 +17,7 @@ Information architecture and content design make information usable by aligning 
 
 Information architecture emerged as a response to a problem that grew with networked publishing: producing information became much easier than arranging it into a coherent environment. Rosenfeld, Morville, and Arango define the field broadly through systems for organizing, labeling, navigating, and searching information, and through the design of information spaces that help people complete tasks and understand where they are. The field draws on library classification, information retrieval, human-computer interaction, wayfinding, and communication design, but its practical object is not a discipline-specific theory. It is the experience of a person trying to locate, interpret, and act on information within a larger body of content ([1]).
 
-Content design developed around the related observation that a page should not begin with what an institution wants to publish. It should begin with evidence of what a person needs to know or do. GOV.UK expresses that position operationally: every piece of content and every architectural choice should meet a valid user need, and a need should describe a goal rather than justify a predetermined feature or document ([3]). Its current guidance adds that designers must decide the appropriate amount, format, and place for content, use clear and accessible language, and keep published information current ([11]). Content design therefore joins editorial judgment to structure. It asks not only how a sentence should be written, but whether the sentence belongs on this page, whether the page should exist, how it relates to other content, and what route should lead a user to it.
+Content design developed around the related observation that a page should not begin with what an institution wants to publish. It should begin with evidence of what a person needs to know or do. GOV.UK expresses that position operationally: every published content item should meet a valid user need, and user needs should be framed around a person's task or action rather than a predetermined document ([3]). Its current guidance adds that designers must decide the appropriate amount, format, and place for content, use clear and accessible language, and keep published information current ([11]). Content design therefore joins editorial judgment to structure. It asks not only how a sentence should be written, but whether the sentence belongs on this page, whether the page should exist, how it relates to other content, and what route should lead a user to it.
 
 Information architecture and content design overlap without being identical. Information architecture operates primarily at the level of systems and relationships: content types, taxonomies, hierarchies, labels, navigation, metadata, search, and cross-channel coherence. Content design operates primarily at the level of user needs, page purposes, sequences, formats, headings, links, and maintenance. The boundary is porous because a label is simultaneously a taxonomic decision and a piece of writing, while a page's purpose affects both its content and its location. The author's synthesis is that the two disciplines form a single causal chain: user needs determine content requirements; content requirements determine models and relationships; those relationships determine routes and labels; and page structure determines whether the information is understood after it is found ([1] [3] [11]).
 
@@ -72,7 +73,7 @@ Navigation exposes selected relationships at useful moments. Global navigation c
 
 WCAG's multiple-ways criterion gives this principle an accessibility basis. Search may be easier than traversing a large menu for a person using magnification or a screen reader, while a table of contents or sitemap may provide an overview that is more comprehensible for someone with cognitive limitations ([9]). Alternative routes are not redundant decoration. They allow people with different goals, knowledge, devices, and abilities to select a lower-cost strategy.
 
-Depth and breadth require balance rather than a universal numeric rule. Larson and Czerwinski tested three hierarchy shapes over a large, expertly categorized information space. Increased depth harmed search, but the broadest and shallowest structure did not perform best; a moderate 16-by-32 hierarchy outperformed both the deeper and the broadest condition ([5]). The practical inference is not to copy those dimensions. It is to minimize unnecessary decisions without confronting users with an undifferentiated wall of options. Label quality, grouping coherence, scanning cost, and task context mediate the tradeoff.
+Depth and breadth require balance rather than a universal numeric rule. Larson and Czerwinski tested three hierarchy shapes over a large, expertly categorized information space. The moderate 16-by-32 hierarchy produced the fastest average search time and the lowest lostness. It significantly outperformed the deeper 8-by-8-by-8 hierarchy, while its advantages over the broader 32-by-16 hierarchy were not statistically reliable ([5]). The practical inference is not to copy those dimensions. It is to minimize unnecessary decisions without confronting users with an undifferentiated wall of options. Label quality, grouping coherence, scanning cost, and task context mediate the tradeoff.
 
 Navigation must also communicate state. Users need to know where they are, what level they occupy, what choices are peers, what has been completed, and how to recover from a wrong turn. The author's synthesis is that orientation reduces the cost of testing a hypothesis about the structure. When a route fails, visible ancestry, descriptive headings, and stable navigation let the user revise the hypothesis without restarting ([1] [4]).
 
@@ -118,7 +119,7 @@ Their second experiment used eight participants, four experienced and four novic
 
 ### Hierarchy shape has a context-dependent optimum
 
-Larson and Czerwinski tested 19 participants searching expertly categorized encyclopedia content through three web hierarchy structures. The study measured reaction time and errors and also assessed visual scanning and memory. Search performance differed significantly across hierarchy conditions, with the moderate 16-by-32 structure outperforming a deeper 8-by-8-by-8 structure and a broad 32-by-16 structure. Increased depth imposed costs, but maximizing breadth also increased the visual search burden ([5]).
+Larson and Czerwinski tested 19 participants searching expertly categorized encyclopedia content through three web hierarchy structures. The study measured reaction time and lostness, collected subjective ratings, and assessed visual scanning and memory. Average search times were 36 seconds for the 16-by-32 structure, 46 seconds for 32-by-16, and 58 seconds for 8-by-8-by-8. The overall hierarchy effect was significant; post-hoc tests found 8-by-8-by-8 significantly slower than both two-level structures, but no significant reaction-time difference between 16-by-32 and 32-by-16. Lostness was lowest for 16-by-32, highest for 8-by-8-by-8, and intermediate for 32-by-16 ([5]).
 
 This study directly challenges simplistic rules such as "shallower is always better" or "menus should never exceed a fixed number." Its evidence supports a balancing model: each added level creates another categorical decision and interaction, while each additional option on a page creates scanning and discrimination work. The researchers used a single well-organized information space and a small sample, which limits generalization. The defensible design implication is therefore to test representative tasks and labels rather than to treat the reported hierarchy dimensions as a universal recipe ([5]).
 
@@ -205,8 +206,8 @@ Information architecture and content design ultimately convert a collection into
    Human-centred design for interactive systems."
    https://committee.iso.org/cms/live/live/en/sites/isoorg/contents/data/standard/07/75/77520.html [high]
 
-3. Government Digital Service. "Content design: User needs."
-   https://www.gov.uk/guidance/content-design/user-needs [high]
+3. Government Digital Service. "Identify user needs."
+   https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/plan-manage-content/identify-user-needs [high]
 
 4. Pirolli, P., Card, S. K., & Van Der Wege, M. M. (2000). "The Effect
    of Information Scent on Searching Information Visualizations of Large
@@ -265,3 +266,4 @@ Information architecture and content design ultimately convert a collection into
   paragraph choices that make structured content clear once it is found.
 - `library/communication/semiotics-and-meaning-making.md` -- how labels,
   signs, and symbolic relationships acquire meaning for interpreters.
+
