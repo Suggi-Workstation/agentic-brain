@@ -2,7 +2,7 @@
 
 12 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
 
-- [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md) -- [reviewed: never] -- Bayesian statistics is a framework for inference in which probability represents a degree of belief rather than a limiting relative frequency. At its core is Bayes' theorem, which prescribes exactly how prior knowledge should be combined with observed data to produce updated beliefs -- the posterior distribution.
+- [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md) -- [reviewed: 2026-09-21] -- Bayesian statistics represents uncertainty about unknown quantities with probability distributions and updates those distributions by combining a prior model with the likelihood of observed data. Its distinctive output is a posterior distribution conditional on the prior, likelihood, and data, not a guarantee that any one model is true.
 
 - [Causal Inference -- Why Most Statistical Tools Only Measure Association, Not Causation](causal-inference.md) -- [reviewed: never] -- Causal inference is the subfield of statistics and methodology that asks the question standard statistics cannot answer: what would happen if we intervened in the world? Most statistical tools -- regression, correlation, machine learning -- measure association, not causation. They tell us that two things occur together, but not whether one causes the other.
 
