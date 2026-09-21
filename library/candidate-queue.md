@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Pre-Mortems and Post-Mortems -- Learning Before and After Decisions Under Uncertainty
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 9.1/10.0 (gap=9.0, compounding=9.2, timeliness=8.5, balance=10.0)
-- **Scope:** Examines pre-mortems and post-mortems as paired probability-learning methods that expose failure modes before a decision and test causal assumptions after it. Covers prospective failure simulation, reference-class comparison, separating forecast error from outcome noise, updating confidence, and translating findings into revised decision rules. Distinguishes this framework from scenario planning, retrospective blame assignment, and personal decision-journal habits.
-- **Status:** proposed
-
 ## Candidate: Origin of Life and Abiogenesis -- From Prebiotic Chemistry to the First Evolving Systems
 - **Domain:** science
 - **Proposed by:** Librarian
