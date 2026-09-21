@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Cryosphere and Sea-Level Change -- Ice, Feedbacks, and Global Coastal Consequences
-- **Domain:** earth-climate
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.5, timeliness=9.0, balance=8.9)
-- **Scope:** Examines the cryosphere as the system of glaciers, ice sheets, sea ice, snow cover, permafrost, and seasonal freeze-thaw processes that links climate, oceans, freshwater, and sea level. Covers ice mass balance, albedo feedback, glacier flow, ocean-ice interactions, permafrost carbon risks, measurement methods, and the difference between floating sea ice and land ice for sea-level change. Distinguishes physical mechanisms and observations from adaptation engineering and climate policy. Connects atmospheric warming, paleoclimate records, ocean circulation, and coastal exposure through the changing ice component of the Earth system.
-- **Status:** proposed
-
 ## Candidate: Semiconductor Industry Structure and Economics -- Capital Intensity, Supply Chains, and the Economics of Modern Chips
 - **Domain:** industries-sectors
 - **Proposed by:** Librarian
