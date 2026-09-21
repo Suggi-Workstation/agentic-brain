@@ -1,12 +1,14 @@
 # History -- Topics
 
-9 topics. Anchor: [anchor-history.md](anchor-history.md)
+10 topics. Anchor: [anchor-history.md](anchor-history.md)
 
 - [Ancient Civilizations -- Why the Institutions They Built Still Shape Modern Life](ancient-civilizations-and-their-legacies.md) -- [reviewed: never] -- Ancient civilizations were not merely collections of stone monuments and clay tablets. They were the first complex societies to solve the problems of governance, law, economic coordination, and knowledge transmission at scale -- and the institutional solutions they invented form the deep architecture of modern states, legal systems, and economies.
 
 - [The Cold War -- How Nuclear Superpowers Fought Without Fighting and Shaped the Modern World](cold-war.md) -- [reviewed: never] -- The Cold War (1945-1991) was a four-decade geopolitical struggle between the United States and the Soviet Union that shaped the modern international order without ever escalating into direct military conflict between the two superpowers. Because both sides possessed nuclear weapons capable of annihilating civilization, the conflict remained "cold" -- fought through proxy wars, ideological...
 
 - [Colonialism and Decolonization -- European Imperial Expansion Reshaped the World, and Its Reversal Created Modern Geopolitical Instability](colonialism-and-decolonization.md) -- [reviewed: never] -- Colonialism -- the half-millennium project of European imperial expansion across the Americas, Africa, Asia, and the Pacific -- was the most dramatic reorganization of human geography in recorded history. Its economic logic of extraction, its ideological justifications rooted in racial hierarchy, and its institutional architecture of indirect rule created the modern world's political map, its patterns of wealth and poverty, and its enduring ethnic conflicts.
+
+- [The Great Depression Became a Global Rupture Because Fragile Institutions Turned Recession into Systemic Collapse](great-depression-financial-collapse-policy-failure-and-institutional-change.md) -- [reviewed: never] -- The Great Depression was not simply the stock-market crash of 1929 or a severe United States business cycle. It became a worldwide economic and political rupture because the interwar gold standard, vulnerable banking systems, debt deflation, trade barriers, and constrained policy responses transmitted and amplified the initial contraction.
 
 - [The History of Capitalism -- How Banking, the Corporation, and Fiat Money Turned Regional Trade into a Global System of Compounding Wealth](history-of-capitalism.md) -- [reviewed: never] -- Capitalism is not a natural state of human affairs but a specific set of institutions -- private property, credit, the joint-stock corporation, and managed money -- assembled piecemeal over roughly six centuries, from Italian merchant banking in the 1300s to the fiat-money global markets of today. Its history is the story of how these institutional inventions lowered the cost of trust between...
 
