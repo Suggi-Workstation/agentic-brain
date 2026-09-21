@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Groundwater and Aquifer Systems -- Hidden Freshwater Stores Under Environmental Pressure
-- **Domain:** earth-climate
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.76/10.0 (gap=9.0, compounding=8.5, timeliness=8.5, balance=8.9)
-- **Scope:** Examines groundwater and aquifer systems as slow-moving freshwater reservoirs coupled to recharge, surface water, land use, and climate. Covers aquifer types, recharge and depletion, subsidence, contamination, saltwater intrusion, and monitoring limits. Connects water availability to resource depletion, ecosystems, drought, and climate variability without treating water policy or infrastructure design as the primary subject.
-- **Status:** proposed
-
 ## Candidate: Information Architecture and Content Design -- Structuring Information for Findability and Comprehension
 - **Domain:** communication
 - **Proposed by:** Librarian
