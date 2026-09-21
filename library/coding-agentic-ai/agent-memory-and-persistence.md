@@ -6,429 +6,162 @@ domain: coding-agentic-ai
 author: Researcher-1
 tags: [agent-memory, memory-hierarchy, episodic-memory, semantic-memory, procedural-memory, memory-consolidation, rag, vector-stores, context-persistence]
 links: [library/coding-agentic-ai/context-window-management.md, library/coding-agentic-ai/agent-skill-systems.md, library/coding-agentic-ai/multi-agent-orchestration.md]
+reviewed: 2026-09-21
 ---
 
-# Agent Memory and Persistence -- Why Memory Architecture, Not Model Size, Separates Demo Agents from Production Agents
+# Agent Memory and Persistence -- Persistent Agents Need Lifecycle Design, Not Just Longer Context
 
-Agent memory is the set of engineering patterns and storage systems that
-allow AI agents to remember across session boundaries. While model
-capability determines what an agent can reason about in a single turn,
-memory architecture determines whether that reasoning improves over
-time, adapts to user-specific context, and survives process restarts.
-The core challenge is not storage capacity -- it is designing retrieval
-and consolidation policies that return the right information at the
-right time without overwhelming the agent's limited context window with
-stale, irrelevant, or contradictory facts. Memory architecture, not
-model size, is becoming the primary differentiator between demo agents
-that reset with every conversation and production agents that compound
-knowledge across thousands of interactions.
+Agent memory is the engineered state that lets an agent recover and revise useful information across turns, sessions, and process restarts. A longer model context can hold more working material for one inference, but persistence requires an explicit lifecycle for retention, representation, retrieval, evidence use, updating, deletion, scope, and evaluation ([1] [5] [6] [9]).
 
 ## Background
 
-The problem of agent memory emerged as soon as developers started
-building multi-turn AI applications. Early approaches were primitive:
-the entire conversation history was concatenated and stuffed into the
-prompt until the context window overflowed, at which point older
-messages were truncated. This "sliding window" approach had an obvious
-failure mode: the agent forgot everything that scrolled out of view.
+A language model call is not by itself a persistent agent. The model receives an input context and produces an output; information from an earlier call is available later only if the surrounding application supplies it again or the information has been incorporated into model parameters. CoALA therefore distinguishes the language model from the language agent around it: the agent can maintain a working-memory data structure across calls, read from long-term stores, write new information, and act in an environment. This boundary matters because context capacity, application state, and durable memory solve different problems ([1]).
 
-The first improvement was summarization. LangChain popularized
-ConversationSummaryMemory, which used an LLM call to compress the
-conversation history into a shorter summary before passing it to the
-model. This extended the effective memory horizon but introduced a new
-failure mode: summaries lose entity-level detail, conflate temporally
-distinct events, and grow stale as the conversation evolves. A summary
-written after turn 10 cannot reflect what the agent learned at turn 50
-unless it is rewritten, and rewriting at every turn becomes
-prohibitively expensive.
+The earliest conversational pattern was to replay prior messages. A bounded replay window preserves recent wording and requires little additional machinery, but older turns eventually fall outside the prompt. Recursive summaries reduce prompt length, yet compression can omit details that a later question needs. The underlying trade-off is recoverability: a short summary is inexpensive to inject, while a raw transcript preserves evidence but becomes expensive and difficult to search as it grows. MemGPT formalized this trade-off with an operating-system analogy. Its main context contains system instructions, editable working context, and a rolling message queue; external context contains recall and archival storage that the agent accesses through functions ([4]).
 
-The arrival of Retrieval-Augmented Generation (RAG) in 2023 introduced
-a more scalable approach. Instead of keeping all conversation history in
-the prompt, conversations were chunked, embedded into vectors, and
-stored in a vector database. At query time, the system retrieved the
-most semantically similar chunks and injected them as context. This
-decoupled storage from the context window and allowed agents to
-reference arbitrarily old conversations. But RAG-as-memory had its own
-limitations: it treated memory as a read-only knowledge base. The agent
-could retrieve facts but could not update them, consolidate repeated
-observations into higher-level knowledge, or forget information that had
-become incorrect.
+Retrieval-augmented generation predates the recent agent-memory systems. Lewis et al. introduced RAG in 2020 as a combination of parametric memory and a retrievable, non-parametric Wikipedia index. Their model retrieved passages and conditioned generation on them, making the external text inspectable and replaceable. That work established retrieval as a practical way to decouple stored knowledge from model parameters, but its corpus was an externally prepared knowledge source rather than an evolving record written by an agent during interaction ([2]).
 
-The field coalesced around a richer model starting around 2024. Letta
-(formerly MemGPT), released as a research project from UC Berkeley,
-introduced the idea of self-editing memory: the agent itself, through
-tool calls, manages its own memory blocks, deciding what to remember,
-what to update, and what to move between memory tiers. The CoALA
-(Cognitive Architecture for Language Agents) paper by Sumers et al.
-(2024) provided the academic foundation, mapping agent memory onto
-established categories from cognitive science: working memory,
-episodic memory, semantic memory, and procedural memory. By 2025-2026,
-this four-tier taxonomy had become the production consensus, adopted
-by frameworks from LangGraph to Mem0 to Mastra.
+Agent memory added a write path and a time dimension to retrieval. Generative Agents stored a natural-language stream of experiences, ranked memories by relevance, recency, and importance, generated higher-level reflections, and used both memories and reflections in planning. MemGPT let the model call functions to edit working context and search external storage. CoALA then supplied a broader conceptual vocabulary: working memory plus episodic, semantic, and procedural long-term memory, connected by retrieval, reasoning, learning, and external action. These systems did not establish one mandatory implementation, but they clarified that memory includes decisions about what to write and how to use it, not merely a vector search over transcripts ([1] [3] [4]).
 
-Two concurrent developments accelerated this maturation. First, context
-windows grew dramatically -- from 4,096 tokens in GPT-3.5 to 1 million
-in Gemini 2.5 Pro and Claude 3.5 -- but operational experience showed
-that larger windows are not a substitute for memory architecture. Long
-contexts suffer from attention dilution ("lost in the middle"), latency
-degradation, and quadratic cost scaling. The practical conclusion from
-2025 production deployments is that external memory is the right
-architectural choice for persistence, and larger context windows are
-best understood as expanded working memory for complex single-session
-tasks. Second, the Model Context Protocol (MCP), introduced by
-Anthropic in late 2024 and adopted broadly in 2025, standardized how
-agents connect to external memory stores, making it feasible to build
-memory layers that work across different agent frameworks and model
-providers.
+Long-context research also weakened the premise that capacity alone solves persistence. In controlled multi-document question answering and key-value retrieval, Liu et al. found that several models used information less reliably when it appeared in the middle of a long prompt than when it appeared near the beginning or end. Their open-domain question-answering case study also found that reader accuracy saturated before retriever recall: adding more documents increased input size faster than answer quality. These experiments concerned particular 2023-era models and should not be universalized to every later model, but they demonstrate why advertised context length is not equivalent to dependable recall ([5]).
+
+Evaluation subsequently moved from isolated retrieval toward sustained interaction. LongMemEval contains 500 questions testing information extraction, multi-session reasoning, temporal reasoning, knowledge updates, and abstention. Its standard histories include an approximately 115,000-token setting and a 500-session setting of roughly 1.5 million tokens. This design makes timestamp handling, contradictions, missing information, and cross-session synthesis visible as separate failure modes instead of collapsing memory into a single nearest-neighbor score ([6]).
+
+By 2025-2026, research systems increasingly treated memory as a managed lifecycle. Zep represented raw episodes, entities, relationships, communities, and validity intervals in a temporal knowledge graph. Mem0 extracted candidate facts and compared them with similar stored memories before choosing ADD, UPDATE, DELETE, or NOOP. Oracle Agent Memory separated an active layer for extraction, summarization, and search orchestration from a passive store for scoped persistence and retrieval. These are alternative designs rather than evidence of a settled production consensus. Their common contribution is to make selection, revision, temporal state, provenance, and scope explicit engineering concerns ([7] [8] [9]).
 
 ## Core Concepts
 
-### The Memory Hierarchy
+### Context, working state, and durable memory are different layers
 
-The production consensus organizes agent memory into four tiers, mapped
-from cognitive science categories established by Baddeley (working
-memory), Tulving (episodic/semantic split), and Squire
-(declarative/procedural distinction). This taxonomy was formalized for
-AI agents by the CoALA framework and is now used across LangGraph,
-Mem0, Letta, and most production systems.
+A context window is the set of tokens available to one model inference. It may contain instructions, recent messages, retrieved records, tool results, and temporary reasoning artifacts. Working memory is the agent-side state used to assemble that context and carry active goals or variables between calls. CoALA explicitly defines working memory more broadly than the model prompt: it is a data structure that can persist across calls, while each prompt is synthesized from a subset of it. Durable memory is state intended to remain available beyond the active thread or process lifetime ([1]).
 
-**Working memory** is the agent's active scratchpad: the current session's
-message buffer, tool call results, and reasoning traces. It lives
-entirely within the context window and is ephemeral -- cleared when the
-session ends. Working memory is not really "memory" in the persistence
-sense; it is the computational substrate on which all other memory
-operations run. The key design constraint is that working memory is
-scarce and expensive: every token in the context window costs latency
-and money, so what enters working memory must be carefully curated.
+Conflating these layers creates two common design errors. First, replaying a transcript is called persistence even though nothing has been selected, revised, or made searchable. Second, a database is called memory even though no policy determines which records should influence the next action. A useful architecture specifies movement between layers: events enter as raw records, selected records become durable artifacts, retrieval moves a bounded subset into working state, and prompt construction exposes only the subset needed for the current inference. This paragraph is an architectural synthesis of the lifecycle described by CoALA, MemGPT, LongMemEval, and Oracle Agent Memory ([1] [4] [6] [9]).
 
-**Episodic memory** stores what happened: past conversations, tool
-executions, and interaction histories. It is autobiographical and
-session-specific. A typical episodic memory entry might record that
-"on July 15, the user asked about deploying to staging and the agent
-detected an outdated Terraform state file." Episodic memory is the
-raw material from which higher-level knowledge is extracted. Its
-primary retrieval pattern is temporal and similarity-based: "what did
-the user say about deployment last week?" or "find interactions
-related to the billing system."
+### The cognitive taxonomy is a design lens, not a storage mandate
 
-**Semantic memory** stores what the agent knows: facts, entity
-relationships, user preferences, and domain knowledge extracted from
-episodic memory. Unlike episodic memory, semantic memory is
-decontextualized -- it strips away the specific conversation in which a
-fact was learned and stores the fact itself. "The user prefers Python
-over TypeScript for backend work" is a semantic memory, regardless of
-which conversation it was learned in. Semantic memory is typically
-stored across multiple database systems: vector databases for
-similarity-based retrieval, graph databases for relationship traversal,
-and relational databases for auditable, ACID-compliant fact storage. In
-regulated industries, the ability to explain why an agent believes a
-specific fact -- requiring an audit trail from a relational database --
-matters more than raw retrieval performance.
+CoALA organizes long-term memory into episodic, semantic, and procedural forms. Episodic memory records experiences from earlier decision cycles, such as conversations, tool outcomes, or task trajectories. Semantic memory stores knowledge about the world or the agent. Procedural memory includes implicit knowledge in model parameters and explicit procedures in agent code. Working memory holds current observations, active goals, retrieved knowledge, and intermediate state. The categories describe the role information plays; they do not require four databases or prescribe a particular vendor ([1]).
 
-**Procedural memory** stores how the agent acts: learned behaviors,
-workflows, skills, and decision heuristics. Unlike the other three
-tiers, procedural memory is not retrieved as facts to reason about --
-it is injected as instructions that shape behavior. "When a user
-mentions billing, check Stripe before asking clarifying questions" or
-"to deploy to staging, run the test suite first, then the Terraform
-plan" are procedural memories. In most frameworks, procedural memory
-lives in the system prompt as instructions and few-shot examples. More
-advanced implementations, such as Mastra's observational memory, derive
-procedural patterns from past successful interactions: if the agent
-solved a problem five times using the same three-step approach, a
-Reflector component compresses that pattern into a reusable procedure.
-Declarative procedural memory via markdown configuration files --
-CLAUDE.md, AGENTS.md, and .cursorrules -- has emerged as a lightweight,
-maintainable pattern for coding agents, where conventions and project
-context are injected at the start of every session.
+An individual record may move between categories. A failed deployment attempt begins as an episode containing commands, outputs, and timestamps. A consolidation process may derive a semantic fact such as a service dependency, and repeated outcomes may justify a procedural rule such as running a schema check before deployment. Preserving links back to the episode makes the derived fact or rule auditable. The transformation is lossy by design, so the raw record should not be discarded merely because a compact abstraction exists. Zep's episode-to-entity structure and Oracle's distinction among raw messages, summaries, facts, and procedural memory illustrate this need for both evidence and derived artifacts ([7] [9]).
 
-The four tiers interact through a consolidation pipeline: raw
-interactions enter episodic memory, a consolidation process extracts
-facts and patterns into semantic and procedural memory, and retrieval
-at query time draws from all tiers to assemble the context that enters
-working memory. The architecture of this pipeline -- what gets stored,
-how it gets consolidated, and what gets retrieved -- is the central
-design problem in agent memory.
+### Memory is a lifecycle with separate failure points
 
-### Retrieval Patterns: Recency, Relevance, and Hybrid Scoring
+A complete memory path contains at least six functions. Retention captures messages, documents, tool traces, and outcomes. Extraction converts selected input into candidate facts, events, preferences, or procedures. Consolidation compares candidates with existing state and may merge, update, invalidate, or reject them. Retrieval selects evidence for a query under a token and latency budget. Reading or reasoning uses the evidence to answer or act. Revision and removal correct stale state, honor deletion requirements, or retire records that should no longer influence behavior. LongMemEval describes indexing, retrieval, and reading as distinct stages; Oracle extends the operational view across ingestion, extraction, consolidation, summarization, revision, and removal ([6] [9]).
 
-Memory is only as good as what gets retrieved. The simplest approach is
-pure vector similarity search: embed the query, find the nearest
-neighbors in vector space, and return them. This works for semantic
-similarity ("find facts about deployment") but fails on two common
-patterns: temporal queries ("what did the user say last week?") and
-recency-biased retrieval where recent facts should rank higher than
-equally similar but stale ones.
+Separating the stages makes failures diagnosable. If a correct fact was never extracted, tuning the retriever cannot recover it. If retrieval returned the right evidence but the model ignored a timestamp, the defect is in reading or reasoning. If an old preference remains retrievable after a correction, the defect may be consolidation, temporal representation, ranking, or update policy. End-to-end answer accuracy alone cannot identify which component failed. Oracle therefore recommends measuring evidence retrieval, evidence use, final outcome, and operational efficiency separately ([9]).
 
-Production systems address this with multi-signal scoring. A typical
-retrieval pipeline combines three signals:
+Write policy is the first consequential gate. Persisting every utterance as a fact creates noise, duplicates, and privacy exposure; extracting too little produces repeated clarification and cold starts. Mem0 addresses this with an LLM extraction stage followed by comparison against semantically similar memories and a choice among ADD, UPDATE, DELETE, and NOOP. This makes the policy concrete but does not eliminate model error: extraction and update decisions can still be wrong. Systems should therefore retain provenance and make destructive operations reviewable or reversible where the risk warrants it ([8]).
 
-- **Relevance:** cosine similarity or dot product between query embedding
-  and memory embedding. This answers "how related is this memory to what
-  the agent is asking about right now?"
-- **Recency:** a decay function over time since the memory was created or
-  last accessed. This ensures the agent prioritizes current information
-  over equally relevant but outdated facts.
-- **Importance:** a score assigned at write time or updated during
-  consolidation. An LLM judge might rate observations on a 1-10 scale;
-  frequently accessed memories might have their importance boosted.
+### Retrieval requires more than semantic similarity
 
-The three signals are combined into a single score, typically as a
-weighted sum or learned ranking model. The open-source agent-memory
-project exemplifies this approach: "One score, three signals. Relevance
-alone recalls stale facts; recency alone recalls chatter; importance
-alone ignores the query. Combining them is what makes recall useful."
+Vector similarity is useful when the query and memory express related meaning in different words, but it does not by itself encode chronology, exact identifiers, negation, validity, or graph relationships. Generative Agents combined relevance, recency, and importance. Zep combined cosine similarity, BM25 full-text search, and graph traversal before reranking. LongMemEval found that expanding an index key with extracted user facts improved average recall@k by 9.4 percent and downstream accuracy by 5.4 percent in its reported configurations; time-aware indexing and query expansion improved temporal-reasoning recall by 6.8 to 11.3 percent when the stronger tested model generated the time range ([3] [6] [7]).
 
-The "recall vs. reflect" distinction has also emerged as an important
-pattern. Recall is pure retrieval -- a search engine for memory that
-returns ranked facts without LLM reasoning. It is sub-second and cheap.
-Reflect is an agentic loop that retrieves facts via recall, then uses
-an LLM to synthesize a conclusion. The distinction maps to the question:
-do you want the facts ("what did I say about X?"), or a conclusion
-drawn from the facts ("what should I do about X?")?
+A production retrieval plan should therefore match the questions the agent must answer. Exact names, error codes, and file paths benefit from lexical retrieval. Paraphrased preferences benefit from dense retrieval. Questions such as "what changed after the migration?" require event time and ordering. Questions connecting a user, project, and prior decision may benefit from entity links or graph traversal. Reciprocal rank fusion or a learned reranker can combine channels, but every additional channel adds latency and new failure modes. The appropriate design is empirical: measure recall, precision, downstream use, and cost on representative tasks ([6] [7] [9]).
 
-### Memory Consolidation: The Four Levers
+Retrieval granularity is equally important. Whole sessions preserve context but can bury the relevant turn. Isolated facts are easy to rank but may remove qualifications needed for correct reasoning. In LongMemEval, decomposing sessions into rounds improved question-answering performance in the reported setup, while compressing values into facts could harm overall performance through information loss even though fact representations helped some multi-session questions. The safer pattern is layered retrieval: use compact keys or summaries to locate candidates, then make source passages available when detail or provenance matters ([6]).
 
-Consolidation is the least discussed and most critical component of
-agent memory architecture. It is the pipeline that transforms raw
-episodic memories into structured semantic and procedural knowledge.
-The Hindsight framework identifies four levers of consolidation:
+### Time, contradiction, and provenance must be represented explicitly
 
-**Importance filtering** decides what is worth remembering at all.
-Not every user message or tool output deserves to become a persistent
-memory. Systems like Mem0 use an LLM at write time to judge importance;
-Zep extracts entities and facts as a structural filter. Without
-importance filtering, the memory store accumulates noise that degrades
-retrieval precision.
+A memory that says "the user works in Berlin" is incomplete if the statement was true only during an earlier period. Creation time records when the system stored a record; event time records when the underlying event occurred; valid time records the interval during which a fact held. These timestamps are not interchangeable. Zep uses a bi-temporal model and attaches valid and invalid times to relationship edges while also retaining transaction history. When new information conflicts with an existing relationship, it can invalidate the earlier edge without erasing the historical record ([7]).
 
-**Merge** handles the case where multiple episodic memories encode the
-same fact. "The user lives in Berlin" might appear in three different
-conversations. A good merge policy deduplicates these into a single
-semantic fact with a confidence score updated by each confirming
-observation. A naive append-only log creates N copies of the same fact
-competing for retrieval slots.
+Contradiction is not always error. "The user lives in Paris" after "the user lives in Berlin" may be a legitimate change, while two different birth dates may indicate extraction error or unresolved evidence. A consolidation policy needs rules for temporal succession, mutually exclusive facts, confidence, and source priority. It should preserve enough provenance to answer both "where does the user live now?" and "where did the user live before?" Deleting the old statement would answer the first question but destroy the second. LongMemEval's separate knowledge-update and temporal-reasoning categories expose this distinction ([6] [7]).
 
-**Decay** handles staleness. Facts change: a user moves, a project
-renames, an API deprecates. Without decay, the agent confidently
-retrieves facts that are no longer true. Zep addresses this with
-temporal validity intervals on every edge in its knowledge graph:
-valid_at, expired_at, and invalid_at timestamps. Recency-weighted
-scoring at retrieval time is a softer approach that deprioritizes
-stale facts without deleting them.
+Provenance also constrains trust. Derived summaries and semantic facts should link to raw messages, documents, or tool results. Without that link, an agent cannot quote the source, explain why it believes a fact, or distinguish an extraction error from a user correction. Zep connects semantic artifacts to source episodes; Oracle emphasizes attributable, scoped records and raw evidence alongside compact summaries. The design implication is that compression should add an index or abstraction, not silently replace the only recoverable evidence ([7] [9]).
 
-**Eviction** removes memories entirely. It is the most irreversible lever
-and, for most workloads, the least necessary. Good consolidation --
-importance filtering, merge, and recency-weighted retrieval -- makes
-stale facts effectively unretrievable without deleting them. The three
-cases where eviction is genuinely required are: GDPR/user-requested
-deletion, PII redaction, and archival tiering where cold data moves to
-cheaper storage. Summarize-then-drop, popularized by LangChain's
-ConversationSummaryMemory, is not consolidation -- it is lossy
-compaction that destroys entity-level detail. The practical rule:
-eviction is a compliance tool, not a performance tool.
+### Control, scope, and deletion are part of memory semantics
 
-### Production Frameworks
+Memory can be managed by the agent, by a deterministic pipeline, or by a hybrid. MemGPT gives the model functions to edit working context and search external storage, which makes memory management responsive to the current reasoning process but consumes model calls and depends on correct tool use. Mem0 places extraction and update logic in a surrounding pipeline, reducing the need for explicit agent-initiated housekeeping but making pipeline policy decisive. Neither control model is inherently superior; the risk depends on whether missed writes, mistaken edits, or additional latency are more costly for the application ([4] [8]).
 
-Three production-grade frameworks illustrate different architectural
-choices.
+Scope determines who can retrieve a memory and under which task. A record may belong to one thread, one user across threads, one agent, one team, or an organization. Oracle's architecture exposes thread, user, and agent scope in its storage and search model, while warning that retrieval filters are not substitutes for database authorization. The same principle applies to shared coding agents: filesystem visibility or a common vector index does not itself establish permission to read every record ([9]).
 
-**Letta** treats the agent as an operating system process. Core memory
-(working) sits in the context window as editable memory blocks. Recall
-memory (episodic) lives in a database, accessed via agent-initiated
-search calls. Archival memory (semantic and procedural) is cold storage
-the agent queries when it needs deep knowledge. The defining feature is
-self-editing memory: the agent autonomously rewrites its own core memory
-blocks as conversations evolve, using tool calls like
-core_memory_replace and archival_memory_insert. This "LLMs as Operating
-Systems" pattern gives the agent control over its own memory management
--- it decides what to remember, update, or forget -- at the cost of
-spending reasoning tokens on memory housekeeping.
-
-**Mem0** takes a different approach: it sits between the agent and the
-LLM as a dedicated memory layer. It automatically extracts,
-consolidates, and retrieves memories without requiring the agent to
-issue explicit memory management tool calls. Mem0's ADD/UPDATE/DELETE
-operations are LLM-driven at write time, with deduplication and
-vector-based semantic search at retrieval time. This offloads memory
-management from the agent's reasoning budget but cedes control -- the
-agent cannot decide to remember something the pipeline judged
-unimportant.
-
-**LangGraph** provides state management primitives with checkpoint
-persistence but leaves memory architecture to the developer. Its
-LongTermMemory API adopts the episodic/semantic/procedural taxonomy,
-and it integrates with external stores (PostgreSQL, Redis) through the
-LangChain ecosystem. The trade-off is flexibility: teams using LangGraph
-can wire in Zep for temporal reasoning, Mem0 for auto-extraction, or a
-custom store, but they must also design their own consolidation
-policies.
-
-The framework choice depends on the agent's autonomy requirements.
-Letta suits long-running autonomous agents that need to self-manage
-their memory. Mem0 suits teams that want memory without building
-infrastructure. LangGraph suits teams that need full control over their
-memory architecture. None of them is universally superior; the right
-choice depends on whether the agent or the developer should control
-what gets remembered.
+Deletion is not merely a ranking choice. A record that must be removed for user control, policy, or legal compliance should not remain recoverable through a raw transcript, vector index, graph edge, summary, backup, or cache. Conversely, low ranking is often preferable to irreversible deletion when the issue is relevance rather than authorization. The author's synthesis is that memory APIs need separate operations for suppression, invalidation, archival, and erasure because those actions have different evidentiary and governance consequences ([7] [9]).
 
 ## Evidence
 
-The evidence base for agent memory architecture comes from three
-sources: academic research on memory-augmented language agents,
-production benchmarks, and comparative framework analysis.
+The 2020 RAG study provides a baseline for understanding external memory. It paired a BART generator with a dense Wikipedia index and a DPR retriever, then evaluated open-domain question answering, abstractive question answering, Jeopardy question generation, and fact verification. The authors reported state-of-the-art results on three open-domain question-answering tasks in their comparison and showed that swapping a 2016 Wikipedia index for a 2018 index changed answers to questions about officeholders without retraining the generator. This demonstrated that non-parametric memory can be inspectable and replaceable, but the experiment did not test online consolidation of an agent's own experiences ([2]).
 
-The CoALA framework (Sumers et al., 2024) provided the foundational
-taxonomy. By mapping agent memory onto cognitive science categories --
-working, episodic, semantic, and procedural memory -- it gave
-practitioners a shared vocabulary and a design space. Before CoALA,
-every framework invented its own terminology; after CoALA, the field
-converged on a common language. The paper's influence is evident in
-LangGraph's LongTermMemory API, which explicitly cites CoALA as the
-source of its memory taxonomy, and in Letta's memory hierarchy, which
-maps directly onto the CoALA categories.
+Generative Agents tested whether observation, retrieval, reflection, and planning affected behavior in a 25-agent sandbox. The memory stream stored natural-language observations and retrieved them using relevance, recency, and importance. In a controlled interview study with 100 evaluators, the full architecture received a TrueSkill mean of 29.89, compared with 26.88 after removing reflection, 25.64 after removing both reflection and planning, and 21.21 after removing observation, reflection, and planning. The study therefore supplies ablation evidence that memory structure and reflection contributed to judged believability in that simulation. It does not establish general task accuracy, and the authors reported retrieval failures, embellished memories, high token cost, and only a two-day simulation as limitations ([3]).
 
-The MemGPT paper (Packer et al., 2023) demonstrated that self-editing
-memory enables agents to maintain coherent conversations far beyond
-the context window limit. In experiments with LLMs capped at 4,096
-tokens of context, MemGPT agents maintained consistent persona and
-retrieved relevant facts from conversations exceeding 100,000 tokens in
-length by managing their own memory through tool calls. The key finding
-was not that memory lets you go beyond the context window -- that was
-already obvious from RAG -- but that agent-controlled memory management
-produces more coherent behavior than pipeline-controlled retrieval,
-because the agent can decide what is worth remembering based on its
-current reasoning needs rather than on static similarity scores.
+MemGPT evaluated agent-controlled paging on multi-session conversation and document-analysis tasks. In its Deep Memory Retrieval task, the fixed-context GPT-4 baseline achieved 32.1 percent accuracy and GPT-4 with MemGPT achieved 92.5 percent; GPT-4 Turbo rose from 35.3 to 93.4 percent. The baseline received a lossy summary of five prior sessions, whereas MemGPT could search the full history, so the result supports hierarchical retrieval over that summary baseline rather than a universal claim that agent-controlled memory beats every pipeline. Its nested key-value experiment further showed that MemGPT with GPT-4 continued multi-hop lookups at depths where the tested fixed-context models fell to zero, while weaker tool-calling models also degraded ([4]).
 
-The LongMemEval benchmark (Wu et al., 2024) provides quantitative
-evidence on multi-session reasoning. On tasks requiring agents to
-track facts across sessions, handle contradictions, and reason about
-temporal claims, systems with consolidation pipelines -- deduplication,
-recency-weighted scoring, and importance filtering -- consistently
-outperform systems with append-only memory stores. The benchmark
-revealed that retrieval precision degrades by approximately 15-20
-percentage points when consolidation is absent, even when the raw
-facts exist in the store, because stale and duplicated facts crowd
-out the relevant ones in the retrieval ranking.
+The Lost in the Middle study isolated a different constraint: evidence use after information is already in the prompt. It used 2,655 NaturalQuestions-Open queries for multi-document question answering and controlled both document count and the answer passage's position. Performance commonly followed a U-shaped curve, with higher accuracy near the beginning or end and lower accuracy in the middle. In one setting GPT-3.5-Turbo fell more than 20 percentage points, and adding documents beyond 20 improved open-domain reader accuracy by only about 1 to 1.5 percentage points for the tested GPT-3.5-Turbo and Claude-1.3 models. The finding justifies testing evidence position and distractor load; it does not prove that every contemporary long-context model has the same curve ([5]).
 
-Oracle's 2026 technical report on enterprise agent memory provides
-production-scale evidence. Their Agent Memory system separates an
-active memory core (responsible for extraction, summarization, and
-search orchestration) from a passive memory store interface. In
-evaluations using the BEAM benchmark, they found that event ordering
-and temporal summarization remain difficult even when relevant evidence
-is retrieved -- the system finds the right facts but struggles to
-sequence them correctly. This finding underscores that retrieval
-quality is necessary but not sufficient; the agent's ability to reason
-over retrieved memories matters as much as the retrieval architecture.
+LongMemEval evaluates the full indexing-retrieval-reading chain with 500 manually curated questions. The benchmark's five abilities are information extraction, multi-session reasoning, knowledge updates, temporal reasoning, and abstention. In the approximately 115,000-token setting, the tested long-context models lost roughly 30 to 60 percent relative performance against an oracle-evidence condition. The paper's optimization experiments found that fact-expanded keys improved average recall@k by 9.4 percent and answer accuracy by 5.4 percent, time-aware query expansion improved temporal recall by 6.8 to 11.3 percent, and a structured Chain-of-Note reading strategy improved oracle-retrieval answer accuracy by as much as 10 absolute points. These results show that indexing, retrieval, and reading can each limit performance even when storage capacity is adequate ([6]).
 
-Comparative analysis by the Hindsight team (2026) mapped the four
-consolidation levers across five major memory systems. Their key
-finding is that no system covers all four levers well. Mem0 excels at
-importance filtering and merge (LLM-driven ADD/UPDATE/DELETE) but has
-no native decay. Zep has the strongest decay system (temporal validity
-intervals on graph edges) but limited importance filtering. Letta has
-the cleanest tier management (core-to-archival transitions) but depends
-on the agent to decide what to consolidate. LangChain's memory
-primitives handle none of the four levers -- they perform window
-eviction and summarize-and-drop, which are compaction, not
-consolidation.
+Zep tested a temporal graph design on Deep Memory Retrieval and LongMemEval. On LongMemEval's 115,000-token setting, its reported GPT-4o configuration scored 71.2 percent versus 60.2 percent for full-context GPT-4o while using an average 1,600 context tokens instead of 115,000; reported latency was 2.58 seconds versus 28.9 seconds. The category results are more informative than the aggregate: Zep improved multi-session, temporal, knowledge-update, preference, and user-fact questions, but fell from 94.6 to 80.4 percent on single-session assistant facts. The study was produced by Zep and did not hold every component constant across all external systems, so its results are evidence for the evaluated configuration, not a vendor-independent ranking ([7]).
+
+Mem0 evaluated extracted natural-language memories and a graph-enhanced variant on LoCoMo. Its update pipeline explicitly compared each new candidate with related memories before ADD, UPDATE, DELETE, or NOOP. The paper reported an overall LLM-judge score of 67.13 for Mem0 and 68.44 for the graph variant; full context scored about 73 but had a p95 response latency of 17.117 seconds, compared with 1.440 seconds for Mem0 and 2.590 seconds for the graph variant. The graph variant helped temporal questions but did not improve every category. Because the authors built the system and used an LLM judge, the result should be read as a measured quality-latency trade-off under their setup, not as proof that graph memory is categorically better ([8]).
+
+Oracle Agent Memory adds an enterprise-oriented evaluation and useful cautions about comparability. Its reported high-accuracy LongMemEval configuration answered 469 of 500 questions correctly, with multi-session reasoning the lowest category at 88.0 percent. On the stricter order-sensitive BEAM scoring convention, it scored 0.630 at one million tokens and 0.510 at ten million; event ordering, multi-session reasoning, summarization, and temporal reasoning remained difficult at the larger scale. The report explicitly warns that model, embedding, top-k, prompt, judge, dataset, and scoring choices must be held constant before scores from different systems are treated as directly comparable ([9]).
+
+Taken together, the evidence supports a bounded conclusion. External storage, structured extraction, hybrid retrieval, temporal metadata, and explicit reading strategies can outperform replay or summary baselines on particular long-horizon tasks. The studies do not establish that one taxonomy, database, graph, or control model is universally optimal. They also show that retrieval success can coexist with reasoning failure, that compression can improve cost while losing rare evidence, and that better aggregate accuracy may conceal weaker performance on a specific memory ability ([3] [5] [6] [7] [8] [9]).
 
 ## Implications
 
-For agent builders, the implication is clear: memory architecture must
-be designed from the start, not bolted on later. An agent that works
-for a single conversation is a prototype; an agent that works across
-weeks and months requires a consolidation pipeline. The specific
-choices -- whether to use Letta's self-editing model, Mem0's managed
-layer, or a custom LangGraph architecture -- matter less than the
-decision to invest in memory as a first-class engineering concern.
+For agent builders, the first implication is to specify memory requirements before choosing a framework. List the decisions that must survive a turn, a thread, a restart, and a user session. Classify the required artifacts as raw episodes, durable facts, relationships, preferences, procedures, or active task state. Then define retention duration, ownership, update semantics, provenance, and deletion behavior for each class. This prevents a vector database from becoming an undifferentiated sink and aligns storage with the episodic, semantic, procedural, and working roles described by CoALA ([1]).
 
-For evaluation, the implication is that agent benchmarks must test
-memory, not just single-turn capability. LongMemEval and the Agent
-Memory Benchmark represent a shift from "can the agent answer this
-question?" to "does the agent remember what it learned three sessions
-ago, and has it correctly updated its knowledge when the facts
-changed?" An agent that scores highly on reasoning benchmarks but
-cannot maintain state across sessions is not production-ready. Memory
-evaluation reveals a different quality dimension than capability
-evaluation, and teams that neglect it discover the gap in production.
+The second implication is to design backward from failure. The worst memory failure in a low-risk assistant may be an annoying repeated question; in deployment tooling it may be replaying an obsolete command; in a multi-user system it may be retrieving one user's private record for another. The controls should follow the severity: scoped identifiers and authorization, source links, confidence or validity state, reversible invalidation, confirmation before destructive procedural changes, and complete erasure paths for data that must be deleted. Oracle's warning that scope filters are not authorization boundaries is especially important: memory relevance and access control are separate checks ([9]).
 
-For the broader trajectory of agent engineering, memory represents the
-frontier between stateless tools and persistent assistants. The model
-provides reasoning capability; the memory architecture determines
-whether that reasoning improves over time or resets with every
-conversation. This has implications for agent economics: an agent that
-must relearn user preferences, project context, and past decisions in
-every session consumes more tokens, takes more turns, and makes more
-errors than an agent with persistent memory. The cost savings from good
-memory architecture compound across interactions, making it not just a
-quality investment but an economic one.
+For retrieval design, semantic search should be a baseline rather than the whole system. Build a representative test set containing paraphrases, exact identifiers, recent corrections, temporal questions, cross-session joins, and unanswerable queries. Compare lexical, dense, temporal, graph, and fused retrieval under a fixed token budget. Measure whether the evidence was retrieved and whether the downstream model used it correctly. LongMemEval and Zep show why this decomposition matters: time-aware and graph-aware methods can improve difficult categories while hurting another category, and correct retrieval does not guarantee correct reading ([6] [7]).
 
-The tension between giving agents too little memory (they forget
-critical context) and too much (they get confused by stale or
-contradictory information) is the central design trade-off. The
-resolution is not to maximize storage but to optimize retrieval and
-consolidation. A small set of well-consolidated, high-importance facts
-retrieved with recency-aware scoring produces better agent behavior
-than a massive append-only log. The engineering principle: it is better
-to remember a few things correctly than many things poorly.
+For consolidation, retain the evidence chain. A compact fact such as "the project uses PostgreSQL" should carry its source, observation time, applicable scope, and current validity. When a later statement changes the database choice, the system should distinguish an update from an extraction conflict and should preserve history when historical questions matter. Summaries can accelerate routine prompt assembly, but raw episodes should remain available under the applicable retention policy. The author's synthesis is to treat summaries, facts, graphs, and procedures as indexes over evidence rather than unquestionable replacements for it ([6] [7] [9]).
 
-For developers working within the OpenClaw/Gateway ecosystem, these
-patterns map directly onto existing infrastructure. Session history
-tools provide episodic memory; MEMORY.md and memory/*.md files provide
-semantic memory with file-system-level retrieval; skill files and
-AGENTS.md provide procedural memory via declarative injection. The
-cross-agent memory challenge -- how Agent A shares what it learned with
-Agent B -- is addressed through shared file systems (the agentic-brain
-repo) and logbook protocols, which are forms of structured episodic
-memory with explicit scoping. The lesson from the broader field is that
-these patterns are not ad-hoc workarounds -- they are instances of the
-same memory hierarchy principles that production frameworks like Letta
-and LangGraph implement, adapted to the specific constraints of
-file-system-based agent persistence.
+For coding agents, memory classes map to concrete artifacts. A checkpoint or thread state records the current task. Tool transcripts and test results are episodic evidence. Repository facts, user preferences, and architectural decisions are semantic memory. Versioned instructions, skills, and runbooks are procedural memory. This mapping does not mean every artifact should enter every prompt. Retrieval should be task-scoped, and procedural artifacts should be versioned and reviewed because an incorrect instruction can alter future actions rather than merely misstate a fact. CoALA explicitly notes that writes to procedural memory are riskier than writes to episodic or semantic memory because they can introduce bugs or subvert intended behavior ([1]).
+
+For multi-agent systems, sharing storage is not the same as sharing memory safely. Records need an owner, audience, provenance, and conflict policy. One agent's inference should not silently become another agent's fact without an evidence link and an authorized promotion step. Shared procedural memory deserves stronger controls because it can change the behavior of every consuming agent. A reversible publication workflow, immutable history, and scoped retrieval reduce the risk that one mistaken consolidation contaminates the fleet. This is an architectural synthesis based on CoALA's distinction among memory types and Oracle's explicit scope model ([1] [9]).
+
+Evaluation should cover four layers. First, test retention and extraction: was the needed evidence stored in a recoverable form? Second, test retrieval: was the correct record returned within the budget, with appropriate precision and temporal ordering? Third, test evidence use: did the model obey corrections, combine records, and abstain when evidence was absent? Fourth, test operations: latency, token use, ingestion delay, storage growth, deletion completeness, and authorization behavior. Aggregate answer accuracy remains necessary, but Oracle's analysis and LongMemEval's staged model show why it is insufficient for diagnosis ([6] [9]).
+
+Benchmark claims also need disciplined comparison. A score depends on the dataset version, memory ingestion method, model, embeddings, candidate count, reranker, prompt, judge, and scoring convention. Self-reported vendor experiments are useful primary evidence about a configuration, but cross-paper leaderboards can mislead when those variables differ. Report both the configuration and category-level results, disclose whether external baselines were reproduced, and separate estimated tokens from billed cost. Zep, Mem0, and Oracle each publish informative measurements while also illustrating how architectures and evaluation setups differ ([7] [8] [9]).
+
+Cost is a systems outcome, not simply a prompt-token count. Retrieval and consolidation add embedding, model-call, index, and storage costs; full-history prompting adds repeated input and latency; summaries can reduce tokens but disrupt provider cache locality or omit rare evidence. Oracle notes that regenerated memory near the front of a prompt may reduce exact-prefix cache hits even while shortening the prompt. The correct operating point therefore minimizes effective cost and latency subject to accuracy, recoverability, and policy constraints, rather than maximizing either context length or compression ([9]).
+
+Finally, persistent memory changes the trust relationship with users. A system that remembers preferences can reduce repetition and improve continuity, but the same persistence can retain sensitive data, propagate extraction errors, and produce unwarranted confidence from stale records. Users need visibility into what is stored, correction mechanisms, and meaningful deletion controls. Developers need audit trails that distinguish raw statements from derived conclusions. The central engineering principle is therefore not "remember more." It is to preserve the right evidence, derive cautiously, retrieve selectively, update explicitly, and forget completely when required ([7] [8] [9]).
 
 ## Sources
 
-1. Packer, C., Wooders, S., Lin, K., Fang, V., Patil, S.G., Stoica, I.,
-   & Gonzalez, J.E. (2023). "MemGPT: Towards LLMs as Operating Systems."
-   arXiv:2310.08560. https://arxiv.org/abs/2310.08560 [high]
+1. Sumers, T. R., Yao, S., Narasimhan, K., & Griffiths, T. L. (2024).
+   "Cognitive Architectures for Language Agents." Transactions on
+   Machine Learning Research. https://arxiv.org/abs/2309.02427 [high]
 
-2. Sumers, T., Yao, S., Narasimhan, K., & Griffiths, T.L. (2024).
-   "Cognitive Architectures for Language Agents" (CoALA). Transactions
-   on Machine Learning Research. https://arxiv.org/abs/2309.02427 [high]
+2. Lewis, P., Perez, E., Piktus, A., et al. (2020).
+   "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks."
+   Advances in Neural Information Processing Systems 33.
+   https://arxiv.org/abs/2005.11401 [high]
 
-3. Wu et al. (2024). "LongMemEval: Benchmarking Memory-Augmented
-   Language Agents for Long-Term Interactions." arXiv:2410.10813.
-   https://arxiv.org/abs/2410.10813 [high]
+3. Park, J. S., O'Brien, J. C., Cai, C. J., et al. (2023).
+   "Generative Agents: Interactive Simulacra of Human Behavior." UIST 2023.
+   https://doi.org/10.1145/3586183.3606763 [high]
 
-4. Paperclipped. (2026). "AI Agent Memory in 2026: From RAG to
-   Persistent Context Architecture."
-   https://www.paperclipped.de/en/blog/ai-agent-memory-persistent-context-architecture/ [medium]
+4. Packer, C., Fang, V., Patil, S. G., Lin, K., Wooders, S.,
+   Stoica, I., & Gonzalez, J. E. (2024). "MemGPT: Towards LLMs as
+   Operating Systems." https://arxiv.org/abs/2310.08560 [high]
 
-5. Hindsight (Vectorize). (2026). "The Consolidation Problem in Agent
-   Memory."
-   https://hindsight.vectorize.io/blog/2026/05/21/agent-memory-consolidation [medium]
+5. Liu, N. F., Lin, K., Hewitt, J., et al. (2024). "Lost in the Middle:
+   How Language Models Use Long Contexts." Transactions of the Association
+   for Computational Linguistics, 12, 157-173.
+   https://doi.org/10.1162/tacl_a_00638 [high]
 
-6. Zylos Research. (2026). "AI Agent Memory Architectures: From Context
-   Windows to Persistent Knowledge."
-   https://zylos.ai/research/2026-04-05-ai-agent-memory-architectures-persistent-knowledge [medium]
+6. Wu, D., Wang, H., Yu, W., Zhang, Y., Chang, K.-W., & Yu, D. (2025).
+   "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive
+   Memory." ICLR 2025. https://arxiv.org/abs/2410.10813 [high]
 
-7. AppScale Blog (Kumar, S.). (2026). "Agent Memory Architecture:
-   Episodic, Semantic, Procedural -- the Three-Tier Pattern."
-   https://appscale.blog/en/blog/agent-memory-architecture-episodic-semantic-procedural-the-three-tier-pattern-2026 [medium]
+7. Rasmussen, P., Paliychuk, P., Beauvais, T., Ryan, J., & Chalef, D.
+   (2025). "Zep: A Temporal Knowledge Graph Architecture for Agent
+   Memory." https://arxiv.org/abs/2501.13956 [high]
 
-8. Oracle. (2026). "Oracle Agent Memory as an Enterprise Memory
-   Substrate for Long-Horizon AI Agents." arXiv:2607.13157.
-   https://arxiv.org/html/2607.13157v1 [high]
+8. Chhikara, P., Khant, D., Aryan, S., Singh, T., & Yadav, D. (2025).
+   "Mem0: Building Production-Ready AI Agents with Scalable Long-Term
+   Memory." https://arxiv.org/abs/2504.19413 [high]
+
+9. Alake, R., Bernardis, C., Cayet, P., et al. (2026). "Oracle Agent
+   Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents."
+   https://arxiv.org/abs/2607.13157 [high]
 
 ## See Also
 
-- `library/coding-agentic-ai/context-window-management.md` -- how agents
-  manage in-session context; working memory is the bridge between
-  context management and persistent memory.
-- `library/coding-agentic-ai/agent-skill-systems.md` -- procedural
-  memory implemented as reusable skill modules; skills are the
-  executable form of learned agent behaviors.
-- `library/coding-agentic-ai/multi-agent-orchestration.md` -- how
-  multiple agents coordinate; shared memory is the foundation for
-  knowledge transfer between agents.
+- `library/coding-agentic-ai/context-window-management.md` -- management
+  of the working context into which retrieved memories are placed.
+- `library/coding-agentic-ai/agent-skill-systems.md` -- versioned skills
+  as a practical form of procedural memory for coding agents.
+- `library/coding-agentic-ai/multi-agent-orchestration.md` -- scope,
+  provenance, and coordination when several agents consume shared state.
