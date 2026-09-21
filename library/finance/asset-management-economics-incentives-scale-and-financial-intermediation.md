@@ -6,6 +6,7 @@ domain: finance
 author: Librarian
 tags: [asset-management, financial-intermediation, assets-under-management, fee-economics, active-management, passive-management, economies-of-scale, fund-flows, agency-conflicts]
 links: [library/investment-vehicles-fund-structures/mutual-funds-etfs-retail-capital-pooling.md, library/investment-vehicles-fund-structures/hedge-fund-structures-fee-arrangements-lockups-leverage.md, library/finance/financial-market-microstructure.md]
+reviewed: 2026-09-21
 ---
 
 # Asset Management Economics -- Scale Expands Fee Revenue Faster Than Investment Capacity
@@ -76,7 +77,7 @@ Fee compression has different effects across strategies. It can transfer scale e
 
 ### Liquidity converts client redemption rights into a management constraint
 
-Open-ended funds often offer redemption on a schedule that can be shorter than the time needed to sell portfolio assets without material market impact. The FSB identifies this mismatch as a structural vulnerability because redeeming investors can impose explicit and implicit liquidation costs on those who remain. Its revised recommendations call for redemption terms consistent with portfolio liquidity, stress testing, stronger disclosure, and anti-dilution tools that allocate transaction and market-impact costs to redeeming investors ([12]).
+Open-ended funds often offer redemption on a schedule that can be shorter than the time needed to sell portfolio assets without material market impact. The FSB identifies this mismatch as a structural vulnerability because redeeming investors can impose explicit and implicit liquidation costs on those who remain. Its revised recommendations call for redemption terms consistent with portfolio liquidity, stress testing, stronger disclosure, and anti-dilution tools that allocate transaction and market-impact costs to redeeming investors ([12]). In May 2025, IOSCO finalized revised liquidity-risk-management recommendations and companion implementation guidance for collective investment schemes, updating expectations for fund design, liquidity-management tools, day-to-day practices, stress testing, governance, and disclosure ([15]).
 
 The SEC's Rule 22e-4 requires covered open-end funds to maintain liquidity-risk-management programs, classify holdings by expected conversion time, determine a highly liquid investment minimum where applicable, and observe a 15 percent limit on illiquid investments. The rule defines liquidity in relation to sale time and material price impact, not merely whether a quoted price exists. Liquidity management can require cash buffers, more liquid holdings, anti-dilution tools, credit facilities, gates where lawful, or limits on strategy capacity ([12] [13]).
 
@@ -128,7 +129,7 @@ The BIS report supplies the institutional mechanism around these studies. AUM-ba
 
 ### Liquidity rules reveal a cost that ordinary fee comparisons omit
 
-The FSB's 2023 recommendations identify open-end fund liquidity mismatch as a structural vulnerability and call for redemption terms that reflect portfolio liquidity in both normal and stressed conditions. They also call for tools that charge redeeming investors the explicit and implicit cost, including material market impact, of meeting redemptions ([12]). The recommendations are policy judgments informed by stress experience; they do not establish that every open-end fund creates systemic risk.
+The FSB's 2023 recommendations identify open-end fund liquidity mismatch as a structural vulnerability and call for redemption terms that reflect portfolio liquidity in both normal and stressed conditions. They also call for tools that charge redeeming investors the explicit and implicit cost, including material market impact, of meeting redemptions ([12]). IOSCO's May 2025 final report translated this direction into revised recommendations and companion implementation guidance; together, the revised recommendations and guidance superseded IOSCO's earlier good-practice and anti-dilution guidance ([15]). These policy judgments are informed by stress experience; they do not establish that every open-end fund creates systemic risk.
 
 The SEC's Rule 22e-4 operationalizes the issue for covered U.S. funds. It requires liquidity classification, a risk-management program, board oversight, and a limit preventing additional illiquid purchases when illiquid assets exceed 15 percent of net assets. The definition asks whether an asset can be converted to cash in the relevant period without significantly changing market value ([13]). Together, the FSB and SEC sources show that promised liquidity is an economic service with governance, systems, portfolio, and dilution costs. A low stated expense ratio does not measure all of those costs.
 
@@ -221,6 +222,9 @@ The author's synthesis is that this framework explains the industry's central te
 
 14. U.S. Securities and Exchange Commission. (2019). "Commission Interpretation Regarding Standard of Conduct for Investment Advisers," Release No. IA-5248.
     https://www.sec.gov/files/rules/interp/2019/ia-5248.pdf [high]
+
+15. International Organization of Securities Commissions. (2025). "Revised Recommendations for Liquidity Risk Management for Collective Investment Schemes," FR/10/2025.
+    https://www.iosco.org/library/pubdocs/pdf/IOSCOPD798.pdf [high]
 
 ## See Also
 
