@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Pharmaceutical Industry Economics -- Patents, R&D, Regulation, and Profit Pools
-- **Domain:** industries-sectors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 9.23/10.0 (gap=9.0, compounding=9.3, timeliness=9.0, balance=10.0)
-- **Scope:** Examines pharmaceutical industry economics as shaped by research productivity, patent exclusivity, regulation, distribution, and bargaining over drug prices. Covers discovery and development costs, clinical-trial risk, patent cliffs, generic and biosimilar competition, formulary access, and pricing power. Connects health evidence, intellectual-property law, capital allocation, and global supply chains while keeping the focus on industry structure rather than a single company or treatment.
-- **Status:** proposed
-
 ## Candidate: Asset Management Economics -- Incentives, Scale, and Financial Intermediation
 - **Domain:** finance
 - **Proposed by:** Librarian
