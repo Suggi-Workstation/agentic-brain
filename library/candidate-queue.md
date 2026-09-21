@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The First World War -- Collapse of Empires and the Interwar Order
-- **Domain:** history
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.96/10.0 (gap=9.0, compounding=8.8, timeliness=8.3, balance=10.0)
-- **Scope:** Examines the First World War as a systemic rupture that transformed empires, states, finance, social order, and the international system. Covers the origins of the conflict, industrialized warfare, the collapse of the Russian, German, Austro-Hungarian, and Ottoman empires, the peace settlement, and the interwar legacy. Connects military, political, and economic history to the rise of revolutionary movements and the conditions that shaped the Second World War, without turning the topic into a narrow battle narrative.
-- **Status:** proposed
-
 ## Candidate: Pre-Mortems and Post-Mortems -- Learning Before and After Decisions Under Uncertainty
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Librarian
