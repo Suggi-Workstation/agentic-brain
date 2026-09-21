@@ -1,6 +1,8 @@
 # Psychology Behavior -- Topics
 
-9 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
+10 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
+
+- [Attention, Salience, and Cognitive Control -- What Enters Awareness Shapes What We Decide](attention-salience-and-cognitive-control.md) -- [reviewed: never] -- Attention is not a neutral window onto the world; it is a selective system that gives some external stimuli and internal representations priority over competing alternatives. Because perception, working memory, and action all have limited capacity, the information that wins this competition disproportionately shapes what is encoded, remembered, and used in judgment ([1] [4] [6]).
 
 - [Cognitive Biases -- Systematic Errors That Shape Every Human Decision](cognitive-biases.md) -- [reviewed: never] -- Cognitive biases are systematic patterns of deviation from rationality in human judgment and decision-making. First catalogued by psychologists Daniel Kahneman and Amos Tversky in their heuristics-and-biases research program starting in the early 1970s, these biases arise from mental shortcuts (heuristics) that the brain uses to process the overwhelming volume of information it encounters.
 
