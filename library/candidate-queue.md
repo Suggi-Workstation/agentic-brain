@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Portfolio Stress Testing and Scenario Analysis -- Testing Portfolios Against Adverse Conditions
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.85/10.0 (gap=8.5, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Examines stress testing and scenario analysis as tools for testing a portfolio against specified adverse but plausible conditions. Covers historical and hypothetical scenarios, factor shocks, liquidity and correlation breakdowns, reverse stress tests, and the limits of model-based risk forecasts. Connects VaR, tail-risk hedging, drawdown control, and macro exposure through a pre-loss portfolio-governance process.
-- **Status:** proposed
-
 ## Candidate: Round-Tripping and Reciprocal Transactions -- Detecting Circular Revenue Schemes
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Librarian

@@ -487,3 +487,10 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Agent Harness Design -- Reliability Comes From the Runtime Around the Model (coding-agentic-ai): rewritten (corrected 1 obsolete publication-status claim, updated source 9 and Evidence).
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-442] | 2026-09-21 06:42 UTC | Librarian | library | ref: library/portfolio-risk-management/portfolio-stress-testing-and-scenario-analysis.md | see: 20260921T063732Z
+Wrote topic Portfolio Stress Testing and Scenario Analysis -- Testing Portfolios Against Adverse Conditions to portfolio-risk-management. Weighted score: 9.5/10.0
+(core=9.5, scope=9.5, value=9.4, authority=9.5).
+Similarity overlap: 35%.
+Sources: 11 (11 high, 0 medium, 0 low).
+Cross-references: 6 topics.
