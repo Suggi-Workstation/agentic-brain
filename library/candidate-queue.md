@@ -177,3 +177,27 @@
 - **Discovery score:** 8.94/10.0 (gap=9.0, compounding=8.7, timeliness=8.3, balance=10.0)
 - **Scope:** Examines tort law as the civil system for allocating loss when one party wrongfully harms another outside a contractual relationship. Covers negligence, duty, breach, causation, damages, intentional torts, strict liability, defenses, insurance, and the deterrence-compensation tradeoff. Distinguishes civil liability from criminal punishment, contract enforcement, and corporate fiduciary duties while connecting legal doctrine to the institutional costs of risk.
 - **Status:** proposed
+
+## Candidate: The 1918 Influenza Pandemic -- War, Public Health, and Demographic Change
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 9.10/10.0 (gap=9.0, compounding=9.2, timeliness=8.5, balance=10.0)
+- **Scope:** Examines the 1918 influenza pandemic as a historical event shaped by wartime mobilization, civilian movement, public information systems, and unequal social conditions. Covers the pandemic's waves, mortality patterns, public-health responses, demographic effects, and effects on state capacity and labor markets. Distinguishes historical analysis from clinical epidemiology, pandemic preparedness, and current health-policy advice. Connects World War I, urbanization, public administration, and social memory through a documented global crisis.
+- **Status:** proposed
+
+## Candidate: Fermi Estimation and Decomposition -- Building Useful Estimates From Sparse Information
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 9.00/10.0 (gap=9.0, compounding=8.8, timeliness=8.5, balance=10.0)
+- **Scope:** Examines Fermi estimation as a method for producing order-of-magnitude judgments by decomposing an uncertain question into tractable quantities, using transparent assumptions and ranges. Covers factorization, base-rate checks, sensitivity analysis, error propagation, and revision when better evidence becomes available. Distinguishes estimation for decision-making from formal statistical inference, full forecasting systems, and engineering design calculations. Connects uncertainty calibration, expected value, research prioritization, and practical judgment when exact data are unavailable.
+- **Status:** proposed
+
+## Candidate: Motivated Reasoning and Identity-Protective Cognition -- How Belief Can Defend Belonging
+- **Domain:** psychology-behavior
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.95/10.0 (gap=8.5, compounding=9.0, timeliness=9.0, balance=10.0)
+- **Scope:** Examines motivated reasoning and identity-protective cognition as processes through which goals, group commitments, and self-concept shape the evidence people seek, remember, credit, or reject. Covers directional versus accuracy motivations, selective exposure, confirmation bias, cultural cognition, and conditions that reduce identity threat. Distinguishes these mechanisms from cognitive dissonance after behavior, propaganda as a communication system, and political forecasting. Connects individual belief maintenance to polarization, scientific disagreement, investment thesis revision, and organizational learning.
+- **Status:** proposed

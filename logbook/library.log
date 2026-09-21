@@ -473,3 +473,14 @@ Wrote topic Cryosphere and Sea-Level Change -- Ice, Feedbacks, and Global Coasta
 Similarity overlap: 25%.
 Sources: 14 (14 high, 0 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-455] | 2026-09-21 10:12 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 3 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- The 1918 Influenza Pandemic -- War, Public Health, and Demographic Change (9.10): gap=9.0, compounding=9.2, timeliness=8.5, balance=10.0
+- Fermi Estimation and Decomposition -- Building Useful Estimates From Sparse Information (9.00): gap=9.0, compounding=8.8, timeliness=8.5, balance=10.0
+- Motivated Reasoning and Identity-Protective Cognition -- How Belief Can Defend Belonging (8.95): gap=8.5, compounding=9.0, timeliness=9.0, balance=10.0
+Skipped (queue capacity):
+- Rachel Carson -- Evidence, Public Communication, and Environmental Reform (8.95): gap=9.0, compounding=9.0, timeliness=8.0, balance=10.0
+- Science Fiction as Cultural Foresight -- How Speculative Media Shapes Ideas About Technology and Society (8.80): gap=8.5, compounding=8.8, timeliness=8.5, balance=10.0
+Domain balance: history, notable-people, pop-culture, probabilistic-thinking-forecasting, psychology-behavior (9 topics) to history, notable-people, pop-culture, probabilistic-thinking-forecasting, psychology-behavior (9 topics).
