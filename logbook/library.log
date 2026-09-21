@@ -477,3 +477,13 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Capital Allocation -- Why the CEO's Most Important Job Is Deciding Where Every Dollar Goes (value-investing): rewritten (corrected 8 factual or framing mismatches; expanded all mandatory sections and reconciled 13 sources).
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-471] | 2026-09-21 14:05 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 4 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- The Meiji Restoration -- State Building, Industrialization, and Japan's Imperial Turn (8.99): gap=9.0, compounding=9.0, timeliness=8.2, balance=10.0
+- Metacognition and Self-Regulated Learning -- Planning, Monitoring, and Revising How One Learns (8.97): gap=8.8, compounding=9.2, timeliness=9.0, balance=9.0
+- Corrosion and Materials Degradation -- Protecting Assets Across Their Engineered Lifecycle (8.82): gap=8.8, compounding=9.0, timeliness=8.5, balance=9.0
+- Initial Public Offerings and Primary Capital Markets -- How Firms Raise Equity and Enter Public Markets (8.78): gap=8.7, compounding=9.0, timeliness=8.5, balance=9.0
+- Horror as Cultural Anxiety -- Genre, Fear, and Social Change Across Media (8.75): gap=8.5, compounding=8.6, timeliness=8.5, balance=10.0; skipped: queue capacity
+Domain balance: history and pop-culture (9 topics) to education-learning, engineering-infrastructure, and finance (10 topics).

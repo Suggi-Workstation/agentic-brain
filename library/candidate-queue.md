@@ -177,3 +177,35 @@
 - **Discovery score:** 8.8/10.0 (gap=8.5, compounding=8.8, timeliness=8.5, balance=10.0)
 - **Scope:** Examines science fiction as a cultural genre that stages contemporary anxieties and aspirations through imagined technologies, futures, and encounters with the nonhuman. Covers utopian and dystopian traditions, technological imagination, political allegory, environmental themes, adaptation across literature, film, television, and games, and the limits of treating fiction as prediction. Distinguishes cultural analysis of speculative works from technology forecasting, media-industry economics, and summaries of individual books or franchises.
 - **Status:** proposed
+
+## Candidate: The Meiji Restoration -- State Building, Industrialization, and Japan's Imperial Turn
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.99/10.0 (gap=9.0, compounding=9.0, timeliness=8.2, balance=10.0)
+- **Scope:** Examines the Meiji Restoration as Japan's rapid reorganization from Tokugawa rule into a centralized industrial and imperial state. Covers the fall of the shogunate, institutional reform, conscription, education, industrial policy, unequal treaties, and social disruption. Connects state-building, technology transfer, empire, and the altered East Asian order while distinguishing broad historical causation from biography or current geopolitical analysis.
+- **Status:** proposed
+
+## Candidate: Metacognition and Self-Regulated Learning -- Planning, Monitoring, and Revising How One Learns
+- **Domain:** education-learning
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.97/10.0 (gap=8.8, compounding=9.2, timeliness=9.0, balance=9.0)
+- **Scope:** Examines metacognition and self-regulated learning as the practices through which learners set goals, monitor understanding, choose strategies, and revise effort. Covers planning, monitoring, calibration, strategy selection, feedback, motivation, and the evidence limits of learner self-report. Connects retrieval practice, cognitive-load management, assessment, and adaptive learning while distinguishing applied learning design from general cognitive psychology or self-help advice.
+- **Status:** proposed
+
+## Candidate: Corrosion and Materials Degradation -- Protecting Assets Across Their Engineered Lifecycle
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.82/10.0 (gap=8.8, compounding=9.0, timeliness=8.5, balance=9.0)
+- **Scope:** Examines corrosion and materials degradation as lifecycle processes that weaken assets through chemical, electrochemical, thermal, mechanical, and environmental mechanisms. Covers corrosion forms, material selection, protective coatings, cathodic protection, inspection, monitoring, maintenance planning, and failure consequences. Connects reliability engineering, water systems, transport, energy assets, and lifecycle cost while keeping industrial competitive analysis and natural-science discovery outside scope.
+- **Status:** proposed
+
+## Candidate: Initial Public Offerings and Primary Capital Markets -- How Firms Raise Equity and Enter Public Markets
+- **Domain:** finance
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.78/10.0 (gap=8.7, compounding=9.0, timeliness=8.5, balance=9.0)
+- **Scope:** Examines initial public offerings and primary capital markets as the processes through which firms issue new equity and transition into public ownership. Covers underwriting, bookbuilding, pricing, allocation, disclosure, lockups, direct listings, special-purpose acquisition companies, and the trade-offs among issuers, investors, and intermediaries. Connects capital formation, market microstructure, corporate governance, and valuation inputs without becoming a stock-picking method or a legal guide to securities compliance.
+- **Status:** proposed
