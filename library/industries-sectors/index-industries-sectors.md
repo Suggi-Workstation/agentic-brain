@@ -1,6 +1,6 @@
 # Industries Sectors -- Topics
 
-9 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
+10 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
 
 - [Capital Cycle Analysis -- Why High Returns Attract the Capital That Destroys Them](capital-cycle-analysis.md) -- [reviewed: never] -- Capital cycle analysis is an industry-level investing framework developed by Marathon Asset Management and articulated by financial historian Edward Chancellor. Its central insight is deceptively simple: high profitability attracts a flood of capital investment, which creates overcapacity and destroys the very returns that attracted the capital in the first place.
 
@@ -17,6 +17,8 @@
 - [Network Effects and Platform Economics -- Why Winner-Take-Most Markets Are Different](network-effects-platform-economics.md) -- [reviewed: never] -- Network effects are the single most powerful competitive force in the digital economy. When every additional user makes a product more valuable to every other user, markets stop behaving like traditional industries and start exhibiting winner-take-most dynamics that concentrate value in one or two dominant platforms.
 
 - [Porter's Five Forces -- Why Industry Structure, Not Management Skill, Determines Long-Run Profitability](porters-five-forces.md) -- [reviewed: never] -- Porter's Five Forces is the foundational framework for understanding why some industries are persistently more profitable than others, regardless of who runs the companies within them. Introduced by Harvard Business School professor Michael E. Porter in 1979 and reaffirmed in his 2008 update, the framework demonstrates that the structure of an industry -- not luck, talent, or temporary conditions -- is the primary determinant of how economic value is created and distributed among participants.
+
+- [Semiconductor Economics -- Specialization Creates Both Extraordinary Productivity and Fragile Chokepoints](semiconductor-industry-structure-and-economics.md) -- [reviewed: never] -- The semiconductor industry converts sustained research, extreme capital intensity, and global specialization into steadily improving computing capability, but the same structure concentrates bargaining power and disruption risk in a few indispensable links. Understanding the industry therefore requires separate analysis of design, fabrication, equipment, materials, and packaging; a single aggregate view conceals radically different margins, competitive forces, and capacity cycles ([1] [3] [4]).
 
 - [Value Chain Analysis -- Why Some Links in an Industry Capture Outsize Profits While Others Are Condemned to Commodity Returns](value-chain-analysis.md) -- [reviewed: never] -- Value chain analysis is the strategic framework, introduced by Michael Porter in his 1985 book "Competitive Advantage," that disaggregates a firm into its strategically relevant activities to understand the sources of cost advantage and differentiation. More than an internal mapping exercise, the value chain reveals a deeper truth about industry economics: not all activities are equally capable of generating sustained profits.
 
