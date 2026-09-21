@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Information Architecture and Content Design -- Structuring Information for Findability and Comprehension
-- **Domain:** communication
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=8.9)
-- **Scope:** Examines information architecture and content design as the discipline of organizing, labeling, navigating, and governing information so users can find and understand it. Covers user tasks, content inventories, taxonomies, navigation systems, metadata, findability, accessibility, and evaluation through usability testing and search behavior. Distinguishes information design from software architecture and platform technology. Connects writing craft, technical documentation, journalism, and knowledge-system design through the structural choices that determine whether information remains usable.
-- **Status:** proposed
-
 ## Candidate: Cryosphere and Sea-Level Change -- Ice, Feedbacks, and Global Coastal Consequences
 - **Domain:** earth-climate
 - **Proposed by:** Librarian
