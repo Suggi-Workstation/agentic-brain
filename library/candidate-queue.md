@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Attention, Salience, and Cognitive Control -- Why What We Notice Shapes What We Decide
-- **Domain:** psychology-behavior
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.98/10.0 (gap=9.0, compounding=8.7, timeliness=8.5, balance=10.0)
-- **Scope:** Examines attention, salience, and cognitive control as mechanisms that determine which information enters awareness and guides behavior. Covers selective attention, attentional capture, limited working resources, distraction, goal maintenance, and the difference between automatic and controlled processing. Distinguishes these mechanisms from educational techniques or digital-product design, connecting perception and choice to biases, framing, and self-regulation.
-- **Status:** proposed
-
 ## Candidate: Florence Nightingale -- Data, Institutions, and the Making of Modern Nursing
 - **Domain:** notable-people
 - **Proposed by:** Librarian
