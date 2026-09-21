@@ -169,3 +169,35 @@
 - **Discovery score:** 8.95/10.0 (gap=8.5, compounding=9.0, timeliness=9.0, balance=10.0)
 - **Scope:** Examines motivated reasoning and identity-protective cognition as processes through which goals, group commitments, and self-concept shape the evidence people seek, remember, credit, or reject. Covers directional versus accuracy motivations, selective exposure, confirmation bias, cultural cognition, and conditions that reduce identity threat. Distinguishes these mechanisms from cognitive dissonance after behavior, propaganda as a communication system, and political forecasting. Connects individual belief maintenance to polarization, scientific disagreement, investment thesis revision, and organizational learning.
 - **Status:** proposed
+
+## Candidate: Rachel Carson -- Evidence, Public Communication, and Environmental Reform
+- **Domain:** notable-people
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 9.0/10.0 (gap=9.0, compounding=9.2, timeliness=8.0, balance=10.0)
+- **Scope:** Profiles Rachel Carson as a scientist and writer whose evidence-based public communication reshaped debate about pesticides, ecological risk, and environmental governance. Covers her scientific training, the research and publication of Silent Spring, criticism and uncertainty in the evidence she presented, congressional testimony, and the institutional effects attributed to her work. Treats earth science, toxicology, and environmental policy as the context for her decisions and legacy rather than as a general history of environmentalism.
+- **Status:** proposed
+
+## Candidate: The French Revolution -- Revolution, Rights, and the Remaking of Political Order
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.8, timeliness=8.0, balance=10.0)
+- **Scope:** Examines the French Revolution as a political and social rupture that transformed sovereignty, citizenship, property, and the relationship between state and society. Covers the fiscal and social crises of the ancien regime, the revolution's phases from 1789 through Napoleon, violence and counterrevolution, and its transnational effects. Treats revolutionary ideas and institutions as historical causes and legacies rather than as a current constitutional-law analysis or a biography of revolutionary figures.
+- **Status:** proposed
+
+## Candidate: The Law of Small Numbers -- Why Small Samples Produce False Certainty
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.9/10.0 (gap=8.5, compounding=9.0, timeliness=8.5, balance=10.0)
+- **Scope:** Examines the law of small numbers as the tendency to treat limited observations, streaks, and short records as if they revealed stable population patterns. Covers sample-size neglect, selection effects, regression to the mean, base rates, and practical checks for forecasts, business judgments, and investment claims. Distinguishes applied decision discipline from formal statistical inference and from the psychology of representativeness, connecting it to calibration, outside views, and decision review.
+- **Status:** proposed
+
+## Candidate: Science Fiction as Cultural Foresight -- How Speculative Media Shapes Ideas About Technology and Society
+- **Domain:** pop-culture
+- **Proposed by:** Librarian
+- **Date:** 2026-09-21
+- **Discovery score:** 8.8/10.0 (gap=8.5, compounding=8.8, timeliness=8.5, balance=10.0)
+- **Scope:** Examines science fiction as a cultural genre that stages contemporary anxieties and aspirations through imagined technologies, futures, and encounters with the nonhuman. Covers utopian and dystopian traditions, technological imagination, political allegory, environmental themes, adaptation across literature, film, television, and games, and the limits of treating fiction as prediction. Distinguishes cultural analysis of speculative works from technology forecasting, media-industry economics, and summaries of individual books or franchises.
+- **Status:** proposed
