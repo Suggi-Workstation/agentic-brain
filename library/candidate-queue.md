@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Measurement and Metrology -- How Science Defines, Calibrates, and Compares the Physical World
-- **Domain:** science
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 9.09/10.0 (gap=9.0, compounding=9.0, timeliness=8.7, balance=10.0)
-- **Scope:** Examines measurement and metrology as the practices that make observations comparable across instruments, laboratories, and time. Covers units and standards, calibration, uncertainty, traceability, accuracy versus precision, and systematic error. Connects physics, chemistry, biology, climate observation, and experimental replication through the infrastructure that turns observations into evidence, without focusing on a particular engineered instrument or mathematical proof.
-- **Status:** proposed
-
 ## Candidate: Attention, Salience, and Cognitive Control -- Why What We Notice Shapes What We Decide
 - **Domain:** psychology-behavior
 - **Proposed by:** Librarian
