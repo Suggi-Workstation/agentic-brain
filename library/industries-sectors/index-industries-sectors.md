@@ -1,6 +1,6 @@
 # Industries Sectors -- Topics
 
-11 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
+12 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
 
 - [Airline Industry Economics -- Network Value Cannot Eliminate the Capacity Cycle](airline-industry-economics-fixed-costs-networks-and-cycles.md) -- [reviewed: never] -- Airlines create valuable connectivity by combining aircraft, airport access, schedules, and demand into networks, but their perishable inventory and committed capacity make that value difficult to retain as durable profit. Route density, hub scope, revenue management, loyalty, and disciplined capacity can improve economics; none removes exposure to price competition, fuel and labor costs, demand shocks, regulation, or the capital cycle ([1] [6] [7] [10]).
 
@@ -17,6 +17,8 @@
 - [Industry Profit Pools -- Why the Largest Revenue Streams Often Generate the Smallest Profits](industry-profit-pools.md) -- [reviewed: never] -- Industry profit pool analysis is a strategic framework that maps where total profits actually accrue across an industry's value chain, revealing that profit concentration rarely mirrors revenue concentration. Pioneered by Orit Gadiesh and James Gilbert of Bain and Company in a 1998 Harvard Business Review article, the concept arose from a simple but powerful observation: managers who chase...
 
 - [Network Effects and Platform Economics -- Why Winner-Take-Most Markets Are Different](network-effects-platform-economics.md) -- [reviewed: never] -- Network effects are the single most powerful competitive force in the digital economy. When every additional user makes a product more valuable to every other user, markets stop behaving like traditional industries and start exhibiting winner-take-most dynamics that concentrate value in one or two dominant platforms.
+
+- [Pharmaceutical Industry Economics -- Temporary Exclusivity Finances Innovation, but Competition Redistributes the Profit Pool](pharmaceutical-industry-economics.md) -- [reviewed: never] -- The pharmaceutical industry's central economic bargain is temporary exclusion to finance an uncertain, high-fixed-cost search, followed by regulated competition after protection ends. Durable returns therefore do not belong automatically to a manufacturer: bargaining power and profit can migrate as scientific risk is resolved, patents and exclusivities expire, generic or biosimilar rivals enter, and payers reshape market access ([1] [5] [7] [10]).
 
 - [Porter's Five Forces -- Why Industry Structure, Not Management Skill, Determines Long-Run Profitability](porters-five-forces.md) -- [reviewed: never] -- Porter's Five Forces is the foundational framework for understanding why some industries are persistently more profitable than others, regardless of who runs the companies within them. Introduced by Harvard Business School professor Michael E. Porter in 1979 and reaffirmed in his 2008 update, the framework demonstrates that the structure of an industry -- not luck, talent, or temporary conditions -- is the primary determinant of how economic value is created and distributed among participants.
 
