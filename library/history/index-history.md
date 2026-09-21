@@ -1,6 +1,6 @@
 # History -- Topics
 
-10 topics. Anchor: [anchor-history.md](anchor-history.md)
+11 topics. Anchor: [anchor-history.md](anchor-history.md)
 
 - [Ancient Civilizations -- Why the Institutions They Built Still Shape Modern Life](ancient-civilizations-and-their-legacies.md) -- [reviewed: never] -- Ancient civilizations were not merely collections of stone monuments and clay tablets. They were the first complex societies to solve the problems of governance, law, economic coordination, and knowledge transmission at scale -- and the institutional solutions they invented form the deep architecture of modern states, legal systems, and economies.
 
@@ -19,6 +19,8 @@
 - [Medieval Europe -- A Dynamic Millennium of Transformation Between Rome and the Renaissance](medieval-millennium-rome-to-renaissance.md) -- [reviewed: never] -- The millennium between the fall of the Western Roman Empire and the dawn of the Renaissance is routinely caricatured as a thousand years of cultural darkness and stagnation. This characterization is wrong. The medieval period was instead an era of profound institutional innovation, demographic upheaval, and technological transformation that built the foundations of the modern world.
 
 - [The Renaissance and Enlightenment -- How the Revival of Classical Learning and the Cult of Reason Invented the Modern Mind](renaissance-and-enlightenment.md) -- [reviewed: never] -- The Renaissance and the Enlightenment were two linked intellectual movements, spanning roughly the fourteenth through the eighteenth centuries, that dismantled the medieval habit of deferring to inherited authority and replaced it with individual reason, empirical observation, and a belief in natural rights.
+
+- [The First World War Destroyed Europe's Imperial Order but Did Not Build a Stable Peace](the-first-world-war-collapse-of-empires-and-the-interwar-order.md) -- [reviewed: never] -- The First World War was a systemic rupture, not merely a four-year sequence of battles: industrial mobilization turned a Balkan crisis into a global conflict, destroyed four imperial regimes, and redistributed political and financial power. The settlement that followed created states and international institutions, but it left security, minority, debt, reparation, and legitimacy problems that destabilized the interwar order rather than resolving the causes of conflict.
 
 - [World War II -- The War That Forged the Modern World](world-war-ii.md) -- [reviewed: never] -- World War II (1939-1945) was not merely the deadliest conflict in human history -- it was the furnace in which the entire post-1945 international order was forged. With 60-80 million dead, civilian casualties outnumbering military losses for the first time, and the Holocaust as industrialised genocide, the war shattered any remaining illusion that modernity and civilisation were synonyms.
 
