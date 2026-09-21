@@ -6,6 +6,7 @@ domain: coding-agentic-ai
 author: Librarian
 tags: [agent-harness, agent-runtime, control-loop, context-assembly, tool-dispatch, state-management, error-recovery]
 links: [library/coding-agentic-ai/anchor-coding-agentic-ai.md, library/coding-agentic-ai/tool-use-and-function-calling.md, library/coding-agentic-ai/context-window-management.md, library/coding-agentic-ai/agent-memory-and-persistence.md, library/coding-agentic-ai/agent-observability-and-debugging.md, library/coding-agentic-ai/agent-sandboxing-and-security.md, library/coding-agentic-ai/agent-evaluation-and-benchmarking.md]
+reviewed: 2026-09-21
 ---
 
 # Agent Harness Design -- Reliability Comes From the Runtime Around the Model
@@ -104,7 +105,7 @@ The ablations found that a 100-line file view outperformed both a 30-line view a
 
 ### The Scaffold Effect: Harness Choice Changes Cost and Failure Shape
 
-Vats and Golev evaluated two models across three open-source coding harnesses -- Goose, OpenCode, and OpenHands-SDK -- on a stratified 50-task subset of Terminal-Bench Pro. Their controlled comparison measured pass rate, token consumption, turns, idle behavior, and failure categories. The work is a 2026 preprint under review, so its results should be treated as preliminary rather than as a settled benchmark standard. [9]
+Vats and Golev evaluated two models across three open-source coding harnesses -- Goose, OpenCode, and OpenHands-SDK -- on a stratified 50-task subset of Terminal-Bench Pro. Their controlled comparison measured pass rate, token consumption, turns, idle behavior, and failure categories. The work appears in the ICML 2026 virtual program, while the cited arXiv record remains version 1. Its 50-task sample is deliberately small, and the authors report that most paired pass-rate differences are not statistically distinguishable from zero at that sample size; the results are therefore bounded evidence rather than a universal harness ranking. [9]
 
 The authors report paired pass-rate differences of zero to eight percentage points within a model, but up to a 40-fold difference in tokens per solved task across harnesses. They also found harness-specific failure fingerprints that repeated across models: reasoning-dominated failures for Goose, verification or maximum-turn failures for OpenHands-SDK, and timeout or idle-loop behavior for OpenCode. This evidence supports evaluating the harness-model pair and recording resource and failure metrics alongside success rate. It does not prove that one harness is universally superior outside the sampled tasks. [9]
 
@@ -219,7 +220,8 @@ This checklist is the author's synthesis of the runtime responsibilities and fai
 8. Yang, J., Jimenez, C. E., Wettig, A., et al. (2024). "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering." arXiv:2405.15793.
    https://arxiv.org/html/2405.15793 [high]
 
-9. Vats, N., and Golev, O. (2026). "The Scaffold Effect in Coding Agents: Harness Choice as a Hidden Variable in Coding-Agent Evaluation." arXiv:2607.22585. Preliminary work under review.
+9. Vats, N., and Golev, O. (2026). "The Scaffold Effect in Coding Agents: Harness Choice as a Hidden Variable in Coding-Agent Evaluation." ICML 2026; arXiv:2607.22585, version 1.
+   https://icml.cc/virtual/2026/82739
    https://arxiv.org/abs/2607.22585v1 [high]
 
 10. OpenAI. "Integrations and Observability." Official Agents SDK documentation for MCP integration, runtime boundaries, and tracing of model calls, tools, handoffs, and guardrails.
