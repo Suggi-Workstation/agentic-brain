@@ -1,6 +1,6 @@
 # Communication -- Topics
 
-11 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+12 topics. Anchor: [anchor-communication.md](anchor-communication.md)
 
 - [Interpersonal Communication and Negotiation -- Why Most Conversations Fail and What the Best Communicators Do Differently](interpersonal-communication-and-negotiation.md) -- [reviewed: never] -- Interpersonal communication and negotiation are the twin pillars of effective human interaction: communication is how we convey meaning, and negotiation is how we resolve competing interests. The evidence from decades of research across psychology, conflict resolution, and organizational behavior converges on a single insight: most conversational breakdowns are not failures of intelligence or good intentions but failures of technique.
 
@@ -19,6 +19,8 @@
 - [Rhetoric -- The 2,500-Year-Old Art of Persuasion That Shapes Every Argument, Speech, and Advertisement You Encounter](rhetoric.md) -- [reviewed: never] -- Rhetoric is the systematic study and practice of persuasion: how speakers and writers use language, structure, and appeals to influence beliefs, attitudes, and actions. Originating in ancient Greece as a discipline for training citizens to participate in democratic debate, rhetoric has evolved into a universal framework for understanding every act of communication designed to persuade, from Aristotle's courtroom speeches to modern political campaigns, advertising, and everyday argument.
 
 - [Semiotics and Meaning-Making -- How Signs and Symbols Create Systems of Meaning](semiotics-and-meaning-making.md) -- [reviewed: never] -- Semiotics explains communication as the production and interpretation of signs rather than the simple transfer of information. Its central claim is that words, images, gestures, objects, sounds, and layouts become meaningful through relations, conventions, contexts, and acts of interpretation, not through self-contained meanings embedded in the things themselves.
+
+- [Source Verification and Fact-Checking -- Accuracy Requires a Traceable Method Before Publication](source-verification-and-fact-checking.md) -- [reviewed: never] -- Source verification is the disciplined process of testing whether each publishable claim is supported by identifiable, relevant, and sufficiently independent evidence. It cannot certify absolute truth, but a repeatable workflow can show what was checked, what the available evidence supports, what remains uncertain, and how errors will be corrected [4][5][6][7].
 
 - [The Medium Is the Message -- Why Communication Technologies Shape Thought More Than Any Content They Carry](the-medium-is-the-message.md) -- [reviewed: never] -- Marshall McLuhan's most famous and misunderstood insight -- "the medium is the message" -- asserts that the form of a communication medium shapes human cognition, social organization, and culture more profoundly than any individual message transmitted through it. Published in his 1964 book Understanding Media: The Extensions of Man, McLuhan's theory reframed communication not as a neutral conduit...
 
