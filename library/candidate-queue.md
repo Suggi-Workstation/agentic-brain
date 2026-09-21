@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The Great Depression -- Financial Collapse, Policy Failure, and Institutional Change
-- **Domain:** history
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 9.00/10.0 (gap=9.0, compounding=9.2, timeliness=8.0, balance=10.0)
-- **Scope:** Examines the Great Depression as a global economic and institutional rupture, covering the interaction of financial fragility, monetary policy, trade contraction, unemployment, and political change. Compares major explanations and traces how policy responses differed across countries and shaped postwar institutions. Treats the period as broad historical causality rather than a case-study lesson or a current macroeconomic forecast.
-- **Status:** proposed
-
 ## Candidate: Pharmaceutical Industry Economics -- Patents, R&D, Regulation, and Profit Pools
 - **Domain:** industries-sectors
 - **Proposed by:** Librarian
