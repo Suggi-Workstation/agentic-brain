@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Linguistic Anthropology -- Language, Power, and Cultural Worlds
-- **Domain:** anthropology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-20
-- **Discovery score:** 8.98/10.0 (gap=9.0, compounding=8.7, timeliness=8.5, balance=10.0)
-- **Scope:** Examines linguistic anthropology as the study of how language, power, identity, and cultural norms shape one another in social life. Covers language ideologies, indexicality, speech communities, code-switching, language socialization, linguistic relativity, and language endangerment. Distinguishes cultural analysis of language use from general semiotics and formal linguistics, connecting communication to kinship, political authority, and cultural transmission.
-- **Status:** proposed
-
 ## Candidate: The First World War -- Collapse of Empires and the Interwar Order
 - **Domain:** history
 - **Proposed by:** Librarian
