@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Fermi Estimation and Decomposition -- Building Useful Estimates From Sparse Information
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 9.00/10.0 (gap=9.0, compounding=8.8, timeliness=8.5, balance=10.0)
-- **Scope:** Examines Fermi estimation as a method for producing order-of-magnitude judgments by decomposing an uncertain question into tractable quantities, using transparent assumptions and ranges. Covers factorization, base-rate checks, sensitivity analysis, error propagation, and revision when better evidence becomes available. Distinguishes estimation for decision-making from formal statistical inference, full forecasting systems, and engineering design calculations. Connects uncertainty calibration, expected value, research prioritization, and practical judgment when exact data are unavailable.
-- **Status:** proposed
-
 ## Candidate: Motivated Reasoning and Identity-Protective Cognition -- How Belief Can Defend Belonging
 - **Domain:** psychology-behavior
 - **Proposed by:** Librarian
