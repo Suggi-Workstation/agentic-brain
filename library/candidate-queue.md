@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Metacognition and Self-Regulated Learning -- Planning, Monitoring, and Revising How One Learns
-- **Domain:** education-learning
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.97/10.0 (gap=8.8, compounding=9.2, timeliness=9.0, balance=9.0)
-- **Scope:** Examines metacognition and self-regulated learning as the practices through which learners set goals, monitor understanding, choose strategies, and revise effort. Covers planning, monitoring, calibration, strategy selection, feedback, motivation, and the evidence limits of learner self-report. Connects retrieval practice, cognitive-load management, assessment, and adaptive learning while distinguishing applied learning design from general cognitive psychology or self-help advice.
-- **Status:** proposed
-
 ## Candidate: Corrosion and Materials Degradation -- Protecting Assets Across Their Engineered Lifecycle
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Librarian
