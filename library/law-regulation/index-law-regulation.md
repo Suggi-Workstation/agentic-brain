@@ -1,6 +1,6 @@
 # Law Regulation -- Topics
 
-11 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+12 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
 
 - [Administrative Law Makes Agency Power Operational but Keeps It Legally Bounded](administrative-law-and-agency-rulemaking.md) -- [reviewed: never] -- Administrative law is the framework through which United States federal agencies turn congressional statutes into generally applicable rules, case-specific orders, licenses, sanctions, and other public actions. The Administrative Procedure Act supplies default procedures for rulemaking and adjudication, while organic statutes grant each agency its substantive authority and courts police the resulting boundaries.
 
@@ -23,4 +23,6 @@
 - [Regulatory Capture Theory -- Why the Regulated Inevitably Come to Control Their Regulators](regulatory-capture-theory.md) -- [reviewed: never] -- Regulatory capture theory holds that regulatory agencies, created to protect the public interest, inevitably come to serve the industries they were designed to oversee. First formalized by Nobel laureate George Stigler in his landmark 1971 paper "The Theory of Economic Regulation," the theory argues that regulation is not imposed on industry for the public good but is instead acquired by industry and operated primarily for its benefit.
 
 - [Securities Regulation -- The Disclosure Philosophy That Made Modern Capital Markets Possible](securities-regulation.md) -- [reviewed: never] -- Securities regulation is the legal framework that governs how companies raise capital from the public and how securities are traded in secondary markets. Built on a disclosure philosophy rather than merit review, it does not guarantee a good investment -- it guarantees that investors receive truthful, complete information before they commit their money.
+
+- [Tort Law Allocates Civil Loss by Linking Legal Duty to Attributable Harm](tort-law-and-civil-liability.md) -- [reviewed: never] -- Tort law decides when a person or institution must answer in civil law for harm imposed outside a voluntarily assumed contractual obligation. It does not make every injury compensable: liability normally requires a recognized basis such as intent, unreasonable conduct, or a defined strict-liability rule, together with legally attributable damage and an available remedy.
 
