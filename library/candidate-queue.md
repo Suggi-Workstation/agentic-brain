@@ -169,3 +169,43 @@
 - **Discovery score:** 9.0/10.0 (gap=8.7, compounding=9.2, timeliness=8.6, balance=10.0)
 - **Scope:** Examines vehicle-level governance and shareholder rights as mechanisms that allocate control, oversight, conflicts, and capital-allocation authority within funds, investment companies, and permanent-capital vehicles. Covers boards, voting rights, adviser incentives, related-party conflicts, disclosure, activist pressure, and protections for minority owners. Distinguishes recurring structural governance from securities-law doctrine, operating-company governance, and biographies of fund managers.
 - **Status:** proposed
+
+## Candidate: Digital Identity and Verifiable Credentials -- Portable Proofs, Interoperability, and Control
+- **Domain:** technology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.2/10.0 (gap=9.0, compounding=9.2, timeliness=9.0, balance=10.0)
+- **Scope:** Examines digital identity systems and verifiable credentials as technical infrastructure for representing, presenting, and verifying claims without centralizing every personal record. Covers decentralized identifiers, credential issuance, wallets, selective disclosure, trust registries, interoperability, revocation, security trade-offs, and deployment dependencies. Distinguishes engineering design and protocol choices from identity-law doctrine, corporate platform strategy, and philosophical privacy debates.
+- **Status:** proposed
+
+## Candidate: Engineering Standards, Codes, and Safety Margins -- Translating Risk into Design Constraints
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.0/10.0 (gap=8.8, compounding=9.1, timeliness=8.4, balance=10.0)
+- **Scope:** Examines standards, codes, and safety margins as engineering mechanisms that convert uncertain loads, material behavior, and failure consequences into design and verification requirements. Covers consensus standards, design loads, factors of safety, load combinations, testing, inspection, certification, documentation, and the limits of compliance. Connects structural, mechanical, electrical, process, and infrastructure systems while distinguishing technical application from legal doctrine, permitting, and industry economics.
+- **Status:** proposed
+
+## Candidate: Palliative Care and Serious-Illness Decision-Making -- Relieving Suffering While Aligning Care With Patient Goals
+- **Domain:** health-medicine
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 8.9/10.0 (gap=8.8, compounding=8.9, timeliness=8.5, balance=10.0)
+- **Scope:** Examines palliative care as evidence-based care for symptoms, communication, and quality of life during serious illness, including alongside disease-directed treatment. Covers pain and symptom management, goals-of-care conversations, advance care planning, caregiver support, care coordination, access disparities, and measurement of patient-centered outcomes. Distinguishes clinical care and healthcare delivery from bioethics theory, legal end-of-life rules, and wellness coaching.
+- **Status:** proposed
+
+## Candidate: Enterprise Value and Equity Value Reconciliation -- Connecting Operating Value, Financing, and Per-Share Worth
+- **Domain:** valuation-screening
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 8.9/10.0 (gap=8.7, compounding=9.2, timeliness=8.2, balance=10.0)
+- **Scope:** Examines the reconciliation from enterprise value to equity value when an analyst values operating assets separately from claims held by debt holders and other capital providers. Covers cash and debt adjustments, preferred stock, noncontrolling interests, pensions, leases, investments, diluted shares, option treatment, and per-share conversion. Distinguishes the capital-structure bridge from financial-statement preparation, portfolio construction, and generic multiple selection.
+- **Status:** proposed
+
+## Candidate: Interleaved Practice and Varied Practice -- Training Discrimination and Durable Skill
+- **Domain:** self-improvement
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 8.7/10.0 (gap=8.6, compounding=8.9, timeliness=7.6, balance=10.0)
+- **Scope:** Examines interleaved and varied practice as actionable methods for learning to distinguish problem types and apply skills across changing contexts. Covers task sequencing, contextual interference, comparison, feedback, difficulty calibration, scheduling, and when blocked practice remains useful for initial acquisition. Distinguishes self-directed practice design from formal education policy, generic motivation, and untested claims of universal transfer.
+- **Status:** proposed
