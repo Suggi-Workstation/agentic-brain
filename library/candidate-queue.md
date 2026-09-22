@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Transfer of Learning and Generalization -- When Knowledge Travels to New Problems
-- **Domain:** education-learning
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.96/10.0 (gap=8.8, compounding=9.4, timeliness=8.7, balance=9.0)
-- **Scope:** Examines learning transfer as the application of knowledge or skill acquired in one context to a novel problem, task, or setting. Covers near and far transfer, abstraction, analogical comparison, worked examples, practice variability, prior knowledge, and assessment of whether learning generalizes beyond recall. Distinguishes transfer mechanisms and instructional design from generic study techniques, cognitive psychology, or claims that a teaching method automatically improves all outcomes.
-- **Status:** proposed
-
 ## Candidate: Process Safety Management and Hazard Analysis -- Preventing High-Consequence Failures Before They Occur
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Librarian
