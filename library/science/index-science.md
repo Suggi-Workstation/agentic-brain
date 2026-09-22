@@ -1,6 +1,6 @@
 # Science -- Topics
 
-11 topics. Anchor: [anchor-science.md](anchor-science.md)
+12 topics. Anchor: [anchor-science.md](anchor-science.md)
 
 - [Cell Biology -- How the Fundamental Unit of Life Builds, Maintains, and Replicates Itself](cell-biology.md) -- [reviewed: never] -- Cell biology is the study of the cell -- the smallest structural and functional unit capable of independent life. It explains how eukaryotic cells organize their internal machinery across a network of membrane-bound organelles, process signals from their environment, faithfully divide through mitosis, and dismantle themselves through programmed cell death when they malfunction.
 
@@ -13,6 +13,8 @@
 - [Genetics and Heredity -- How Biological Information Is Encoded, Transmitted, and Modified Across Generations](genetics-and-heredity.md) -- [reviewed: never] -- Genetics is the branch of biology that studies how biological information is encoded in DNA, transmitted from parent to offspring through reproduction, expressed as functional molecules within cells, and modified over time by mutation, recombination, and -- increasingly -- deliberate human intervention.
 
 - [Measurement and Metrology -- Comparable Evidence Requires Units, Uncertainty, and Traceability](measurement-and-metrology.md) -- [reviewed: never] -- Measurement turns an observation into a result that can be compared across instruments, laboratories, places, and time, while metrology supplies the concepts and infrastructure that make the comparison defensible. A number alone is not a complete measurement result: it needs a defined measurand, a unit or reference, a documented procedure, and an uncertainty statement that describes the remaining dispersion of plausible values ([2] [4]).
+
+- [Microorganisms Are the Biosphere's Hidden Infrastructure -- Microbiology Explains Life at Its Smallest Scales](microbiology-and-the-microbial-world.md) -- [reviewed: never] -- Microbiology studies cellular organisms and acellular replicators too small to be understood adequately without specialized methods, including bacteria, archaea, microscopic eukaryotes, and viruses. Its central finding is that microbes are not a marginal collection of pathogens: they contain much of life's evolutionary and metabolic diversity, operate essential planetary cycles, form ecological...
 
 - [Neuroscience -- How the Brain Produces Mind Through Physical Processes That Are Increasingly Observable and Manipulable](neuroscience-brain-mind.md) -- [reviewed: never] -- Neuroscience is the scientific study of the nervous system -- its structure, function, development, and pathology -- and it rests on a single audacious premise: that every thought, memory, emotion, and decision is the product of physical processes in the brain that can be observed, measured, and understood.
 
