@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Origin of Life and Abiogenesis -- From Prebiotic Chemistry to the First Evolving Systems
-- **Domain:** science
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 9.16/10.0 (gap=9.0, compounding=9.2, timeliness=8.8, balance=10.0)
-- **Scope:** Examines abiogenesis as the scientific investigation of transitions from prebiotic chemistry to systems capable of metabolism, compartmentalization, inheritance, and evolution. Covers RNA-world, metabolism-first, lipid-world, and hybrid hypotheses; geological settings; experimental constraints; and the distinction between evidence, models, and unresolved steps. Connects chemistry, cell biology, evolution, and astrobiology while distinguishing the origin of life from later biological evolution and philosophical claims about meaning.
-- **Status:** proposed
-
 ## Candidate: Legal Precedent and Stare Decisis -- How Courts Make Law Across Cases
 - **Domain:** law-regulation
 - **Proposed by:** Librarian
