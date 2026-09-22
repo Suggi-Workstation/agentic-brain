@@ -153,3 +153,43 @@
 - **Discovery score:** 8.91/10.0 (gap=8.8, compounding=9.2, timeliness=8.7, balance=9.0)
 - **Scope:** Examines process safety management and hazard analysis as prospective engineering disciplines for preventing low-probability, high-consequence releases, fires, explosions, and other system failures. Covers process hazard analysis methods, layers of protection, inherently safer design, mechanical integrity, management of change, operating procedures, and learning from near misses. Distinguishes proactive control of hazardous processes from post-failure forensic analysis, occupational safety compliance summaries, and industry-economic analysis.
 - **Status:** proposed
+
+## Candidate: Preventive Screening and Overdiagnosis -- Balancing Earlier Detection Against Avoidable Harm
+- **Domain:** health-medicine
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.08/10.0 (gap=9.0, compounding=9.3, timeliness=9.0, balance=9.0)
+- **Scope:** Examines preventive screening as the use of tests in people without symptoms, and the trade-off between earlier detection and harms from false positives, overdiagnosis, and overtreatment. Covers disease prevalence, test accuracy, risk thresholds, lead time and length bias, shared decision-making, and population program design. Distinguishes screening evidence from treatment of symptomatic illness, AI model validation, and blanket lifestyle advice.
+- **Status:** proposed
+
+## Candidate: Open Source Software and Digital Commons -- Governance, Licensing, and Shared Infrastructure
+- **Domain:** technology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.04/10.0 (gap=9.0, compounding=9.3, timeliness=8.8, balance=9.0)
+- **Scope:** Examines open-source software as shared technical infrastructure governed through licenses, maintainers, foundations, contribution rules, and release processes. Covers copyleft and permissive licensing, project governance, maintenance, security dependencies, corporate participation, and sustainability of critical code. Distinguishes the technical and institutional design of software commons from general gift-economy theory, company business models, and coding-agent architecture.
+- **Status:** proposed
+
+## Candidate: Sum-of-the-Parts Valuation -- Estimating Businesses Whose Pieces Are Worth More Than the Whole
+- **Domain:** valuation-screening
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.00/10.0 (gap=9.0, compounding=9.3, timeliness=8.6, balance=9.0)
+- **Scope:** Examines sum-of-the-parts valuation for businesses whose operating segments, investments, or assets have different economics and appropriate valuation methods. Covers segment normalization, standalone multiples or cash-flow models, holding-company discounts, net debt allocation, tax and transaction frictions, and sensitivity analysis. Distinguishes estimating component value from M&A process analysis, portfolio construction, and a generic claim that every conglomerate deserves breakup value.
+- **Status:** proposed
+
+## Candidate: Fund Succession and Key-Person Risk -- How Leadership Transitions Test Investment Vehicle Durability
+- **Domain:** investment-vehicles-fund-structures
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 8.93/10.0 (gap=8.8, compounding=9.2, timeliness=8.8, balance=9.0)
+- **Scope:** Examines how leadership transitions, ownership succession, and loss of investment judgment affect the durability of investment vehicles. Covers key-person provisions, ownership and governance transition, institutionalization of investment processes, client redemption or capital-retention risk, and succession across permanent-capital companies, funds, and family offices. Distinguishes vehicle-level continuity from investor biography, a manager's stock selection record, and general corporate succession planning.
+- **Status:** proposed
+
+## Candidate: Horror as Cultural Anxiety -- Genre, Fear, and Social Change Across Media
+- **Domain:** pop-culture
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 8.81/10.0 (gap=8.5, compounding=8.6, timeliness=8.8, balance=10.0)
+- **Scope:** Examines horror as a genre that externalizes cultural anxieties about the body, family, technology, gender, race, class, and social disorder. Covers genre cycles, monsters and the uncanny, slasher and psychological forms, allegory, censorship, audience reception, and adaptation across film, television, literature, and games. Treats particular works as evidence of cultural change rather than entertainment reviews, plot summaries, or clinical psychology.
+- **Status:** proposed
