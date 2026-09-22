@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Microbiology and the Microbial World -- How Microorganisms Shape Life
-- **Domain:** science
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 9.16/10.0 (gap=9.0, compounding=9.2, timeliness=8.8, balance=10.0)
-- **Scope:** Examines microbiology as the study of bacteria, archaea, viruses, and microscopic eukaryotes that drive evolution, nutrient cycles, symbiosis, and disease. Covers cellular diversity, microbial metabolism, horizontal gene transfer, host-microbe interactions, viral replication, and methods used to observe and classify microorganisms. Distinguishes natural-science mechanisms from clinical treatment, public-health policy, and engineered water treatment while connecting genetics, ecology, and health.
-- **Status:** proposed
-
 ## Candidate: Celebrity Culture and Parasocial Relationships -- Fame, Intimacy, and Social Meaning in Mass Media
 - **Domain:** pop-culture
 - **Proposed by:** Librarian
