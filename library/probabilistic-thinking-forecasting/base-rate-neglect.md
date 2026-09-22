@@ -6,287 +6,579 @@ domain: probabilistic-thinking-forecasting
 author: Researcher-1
 tags: [base-rate-neglect, base-rate-fallacy, prior-probabilities, representativeness-heuristic, bayesian-reasoning, kahneman, tversky, forecasting]
 links: [library/probabilistic-thinking-forecasting/bayesian-reasoning.md, library/probabilistic-thinking-forecasting/inside-outside-view.md, library/psychology-behavior/cognitive-biases.md]
+reviewed: 2026-09-22
 ---
 
-# Base Rate Neglect -- Why We Ignore Prior Probabilities and Sabotage Our Forecasts
+# Base Rate Neglect -- Why Vivid Evidence Looks More Diagnostic Than It Is
 
-Base rate neglect is the systematic cognitive bias that causes people to
-underweight or entirely ignore statistical prior probabilities (base
-rates) when making judgments under uncertainty, instead fixating on
-specific, vivid, or case-specific information. Identified by Kahneman
-and Tversky in the early 1970s as a consequence of the representativeness
-heuristic, base rate neglect is one of the most robust and consequential
-findings in the judgment and decision-making literature. For forecasters,
-investors, and anyone who makes probability estimates, understanding base
-rate neglect is not optional -- it is the single most common reason that
-otherwise careful analyses produce wildly overconfident predictions.
+Base rate neglect is the underweighting of how common an outcome is before
+case-specific evidence arrives. It can distort posterior probabilities in
+forecasting, diagnosis, screening, and investment analysis, but the evidence
+does not support the stronger claim that people always ignore base rates;
+usage varies with task structure, representation, relevance, and the person
+making the judgment ([4] [8]).
 
 ## Background
 
-The phenomenon of base rate neglect was first documented by Meehl and
-Rosen (1955), who observed that clinical psychologists consistently
-overweighted diagnostic test results and underweighted the prevalence
-of conditions in the population. A test that is 95 percent accurate
-sounds decisive, but if the condition it tests for occurs in only 1 in
-1,000 people, a positive result still leaves the vast majority of
-positive tests as false positives. Meehl and Rosen found that even
-trained clinicians failed to make this adjustment intuitively.
+A base rate is the relative frequency of an event or attribute in a defined
+population. In Bayesian terms, a relevant and credible base rate can inform
+the prior probability assigned before new evidence is incorporated. The two
+ideas are related but not identical: a historical frequency is not
+mechanically the correct prior if the reference population differs from the
+case, the generating process has changed, or other prior information is
+already known ([4]). Base rate neglect therefore means insufficient use of a
+relevant prior, not blind obedience to every aggregate statistic.
 
-Kahneman and Tversky (1973) brought base rate neglect into the
-mainstream of cognitive psychology with a series of experiments that
-became classics of the field. In the "lawyer-engineer problem,"
-participants were told that a group consisted of either 70 engineers
-and 30 lawyers, or 30 engineers and 70 lawyers. They were then given a
-personality sketch of a randomly selected individual -- for example, a
-description emphasizing analytical thinking, a fondness for puzzles,
-and a disinterest in people. Despite being given explicit base rates,
-participants overwhelmingly judged the individual as likely to be an
-engineer regardless of whether engineers made up 70 or 30 percent of
-the group. The individuating description, rich with stereotype-fitting
-detail, swamped the statistical information entirely.
+The modern literature began before the phrase "base-rate fallacy" became
+standard. Meehl and Rosen's 1955 analysis examined antecedent probability in
+clinical classification. Their central point was operational: a diagnostic or
+psychometric device should be evaluated against decisions made from the base
+rate alone, and its predictive value changes when prevalence changes. A test
+that separates cases reasonably well in a balanced research sample may add
+little, or may create many false alarms, in a population where the target
+condition is rare ([2]). This was a mathematical and measurement argument,
+not evidence that clinicians universally ignored prevalence.
 
-A related demonstration was the "cab problem": a witness identifies a
-cab involved in a hit-and-run accident as Blue, and the witness is
-80 percent reliable in such identifications. But if 85 percent of cabs
-in the city are Green, the correct Bayesian probability that the cab
-was actually Blue is only about 41 percent. Most participants gave
-answers near 80 percent -- they matched the witness reliability while
-ignoring the base rate. These experiments established a finding that
-has been replicated across decades, cultures, and experimental formats.
+Kahneman and Tversky's 1973 experiments supplied the influential cognitive
+account. In the lawyer-engineer task, participants judged whether a randomly
+selected description belonged to an engineer or a lawyer. Different groups
+received opposite population compositions - 70 engineers and 30 lawyers, or
+30 engineers and 70 lawyers - but the same personality descriptions.
+Judgments followed how representative each description seemed of the
+occupational stereotype, while the base-rate manipulation moved estimates
+far less than a Bayesian analysis would require ([1]). Their broader article,
+based on studies with naive and statistically sophisticated university
+participants, linked insensitivity to prior probability, evidence reliability,
+and regression to the representativeness heuristic ([1]).
+
+The original result is important, but the simple slogan that descriptions
+made participants ignore base rates completely is too strong. Koehler's 1996
+review found a small statistically significant base-rate effect in the
+original lawyer-engineer data and larger effects in several later variants.
+Across comparable studies, the degree of base-rate use changed with the
+clarity of random sampling, whether rates varied within or between
+participants, the diagnosticity and credibility of the description, and how
+the task was framed ([4]). The durable finding is conditional
+underweighting, not a universal zero weight on priors.
+
+Bar-Hillel's cab problem made the arithmetic vivid. Suppose 15 percent of a
+city's cabs are Blue and 85 percent are Green. A witness says that a cab in a
+hit-and-run was Blue and, under matched visibility conditions with equal
+numbers of each color, identifies colors correctly 80 percent of the time.
+If the fleet shares are accepted as priors and the stated accuracy supplies
+the likelihoods, the posterior probability of Blue is
+`(0.15 x 0.80) / [(0.15 x 0.80) + (0.85 x 0.20)]`, or about 41 percent, not
+80 percent. Bar-Hillel reported that responses commonly followed the witness
+accuracy instead, and she proposed perceived relevance as a determinant of
+whether rates are integrated ([3]).
+
+That example also exposes a reference-class problem. "Cabs in the city" may
+not have the same color distribution as "cabs involved in accidents at
+night." Koehler argued that many laboratory tasks assume, rather than
+demonstrate, that the supplied base rate is the participant's prior and that
+the likelihood evidence is independent of it. He did not conclude that rates
+are useless; he concluded that a Bayesian error can be diagnosed only after
+the mapping from the stated task to priors and likelihoods is justified
+([4]). In real forecasts, selecting and defending the reference class is part
+of the analysis.
+
+Research after the early demonstrations shifted the question from "Do people
+ignore base rates?" to "Under what representations and conditions are base
+rates used?" Natural-frequency research showed that the same information can
+be easier to integrate when expressed as joint counts rather than normalized
+percentages ([5] [7]). Nested-set accounts emphasize that formats help when
+they make the subset relation among target cases, positive signals, and false
+positives transparent ([6]). More recent cognitive modeling found large
+individual differences: some participants behaved close to Bayesian
+integration, others strongly underweighted the base rate, and many were
+better described by linear-additive integration than by a single shortcut
+([8]).
+
+The resulting concept is narrower and more useful than the popular version.
+Base rate neglect is a measurable mismatch between the weight placed on a
+relevant prior and the weight warranted by a specified inference model. The
+mismatch can be large and consequential, but it is affected by data format,
+reference-class quality, task semantics, direct experience, and individual
+strategy ([4] [8]). This definition preserves the warning against vivid
+case evidence while avoiding the unsupported claim that human judgment is
+uniformly blind to statistical prevalence.
 
 ## Core Concepts
 
-### The Representativeness Heuristic as the Driving Mechanism
+### Priors, Likelihoods, and Posteriors
 
-Kahneman and Tversky proposed that base rate neglect arises from the
-representativeness heuristic: people assess the probability that A
-belongs to category B by how much A resembles the stereotype of B.
-When a personality sketch sounds like an engineer, that similarity
-(representativeness) feels so diagnostic that the base rate recedes
-into irrelevance. The heuristic is fast, intuitive, and often useful
-in everyday life, but it is normatively incorrect for probability
-judgments -- representativeness has no logical relationship to prior
-probability, sample size, or predictive validity, yet people treat it as
-if it does.
+For two exhaustive hypotheses, Bayes' theorem can be written as:
 
-This mechanism explains why base rate neglect is not simply laziness
-or innumeracy. The representativeness heuristic operates automatically
-and produces an internal sense of confidence that is hard to override.
-Kahneman describes this as System 1 generating an intuitive answer
-based on similarity, and System 2 -- the deliberative, rule-based
-reasoning system -- often failing to intervene because it endorses
-the intuitive answer without checking it. The result is not ignorance
-of base rates but neglect: people can recite the base rate if asked
-and still fail to use it in their judgment.
+```text
+P(H|E) = P(E|H) x P(H) /
+         [P(E|H) x P(H) + P(E|not H) x P(not H)]
+```
 
-### Weak Versus Strong Base Rate Neglect
+`P(H)` is the prior, `P(E|H)` is the hit rate or likelihood of the evidence
+when the hypothesis is true, `P(E|not H)` is the false-positive rate, and
+`P(H|E)` is the posterior. The prior and likelihood answer different
+questions. A strong signal can favor a hypothesis without making that
+hypothesis probable when it began very rare, because false positives are
+applied to the much larger non-target population ([2] [4]).
 
-The literature distinguishes two forms of the bias. Strong base rate
-neglect occurs when base rates are entirely ignored, as in the classic
-lawyer-engineer problem where identical sketches produced identical
-probability estimates regardless of the stated group composition. Weak
-base rate neglect occurs when base rates are underweighted -- people
-adjust their estimates slightly in the direction of the base rate but
-far less than Bayes' theorem would require. Most real-world
-manifestations fall into the weak category: people do not completely
-ignore prevalence information, but they weight it so lightly that the
-correction is trivial compared to what the mathematics demands.
+The odds form makes the roles still clearer: posterior odds equal prior odds
+times the likelihood ratio. In the cab example, prior odds for Blue are
+15:85, while the witness evidence has a likelihood ratio of 0.80:0.20, or
+4:1. Multiplying gives posterior odds of 60:85, which normalize to about
+41:59. The witness evidence increases the probability of Blue substantially,
+from 15 percent to about 41 percent, yet does not overcome the prior imbalance
+([3] [4]). Calling the result "neglect" should not obscure this point: a
+proper update can move strongly toward the case evidence and still remain
+below 50 percent.
 
-The distinction matters because the two forms call for different
-debiasing strategies. Strong neglect suggests that people simply do not
-understand that base rates are relevant, and education in Bayesian
-reasoning should help. Weak neglect suggests that people understand the
-relevance but cannot overcome the intuitive pull of individuating
-information, and structural interventions -- such as presenting
-information in natural frequencies rather than probabilities -- may be
-more effective.
+A common error is the inverse fallacy: treating `P(E|H)` as though it were
+`P(H|E)`. Test sensitivity is the probability of a positive result given
+disease; positive predictive value is the probability of disease given a
+positive result. The two are equal only under special combinations of
+prevalence and false-positive rate. Koehler reviewed evidence that wording
+and semantic confusion can produce responses that resemble base rate neglect,
+which means an analyst should distinguish failure to use a prior from failure
+to understand which conditional probability was requested ([4]).
 
-### Individuating Information and the Dilution Effect
+### Neglect Is a Continuum
 
-A key driver of base rate neglect is the presence of individuating
-information: specific details about the case at hand. When individuating
-information is absent, people readily use base rates. Nisbett and
-Borgida (1975) demonstrated this by giving participants statistical
-summaries of psychology experiments (e.g., "most participants in this
-study behaved altruistically") and then asking them to predict how a
-specific individual would behave. Despite the base rate information
-being directly applicable, participants consistently relied on their
-intuitions about the person rather than the group data. When no
-individuating information was provided, however, participants used the
-base rates appropriately.
+Strong base rate neglect means assigning the prior approximately zero weight.
+Weak neglect means using it, but less than the normative model requires.
+Complete neglect is easy to recognize, but partial weighting is more common
+and harder to diagnose because the correct benchmark depends on the
+participant's interpretation of the evidence. Koehler's review concluded
+that base rates affected judgments in most studied conditions, even where
+they were underweighted relative to a Bayesian benchmark ([4]).
 
-The dilution effect compounds the problem: when irrelevant or
-non-diagnostic information is added alongside base rates and
-individuating information, judgments become even less sensitive to
-base rates. Providing a personality sketch that is uninformative about
-the lawyer-engineer distinction still reduces the weight people give
-to base rates, simply because any case-specific detail makes the
-individual feel more concrete and the abstract base rate feel less
-relevant.
+This continuum prevents two opposite errors. The first is declaring every
+non-Bayesian answer proof that the prior was ignored. A person may use the
+prior but combine it additively rather than multiplicatively, misunderstand a
+false-alarm rate, distrust the supplied sample, or adopt a different
+reference class. The second is treating any detectable base-rate effect as
+adequate. In a well-specified screening problem, moving an estimate from 95
+to 80 percent can show sensitivity to prevalence while remaining far above a
+2 percent Bayesian posterior ([4] [8]).
 
-### The Role of Reference Classes
+Stengard and colleagues made this heterogeneity explicit by fitting several
+models to repeated judgments. In their task, some participants' responses
+were best captured by a Bayesian model with a prior, while participants with
+stronger neglect were generally better captured by a linear-additive model.
+The latter model used several cues but did not integrate them in the
+multiplicative form required by Bayes' theorem. The study found little support
+for the tested one-cue heuristic models as a general account ([8]). Thus,
+"used the base rate" and "integrated the information correctly" are separate
+questions.
 
-Base rate neglect is fundamentally a failure to identify and use the
-correct reference class. A reference class is the category of similar
-cases against which a probability should be assessed. The outside-view
-approach developed by Kahneman and Tversky -- and later popularized
-through Tetlock's superforecasting research -- is explicitly designed
-to counteract base rate neglect by forcing the forecaster to define a
-reference class and anchor on its base rate before considering
-case-specific details.
+### Representativeness and Individuating Evidence
 
-The most important reference class for any forecast is often the
-simplest: "How often do things like this happen?" When a startup
-founder estimates a 90 percent chance of success, the relevant base
-rate -- roughly 90 percent of startups fail within 10 years -- is
-ignored. When a project manager estimates six months to completion, the
-base rate of similar projects running over budget and behind schedule
-is neglected. The discipline of asking "what is the base rate?" before
-considering specific details is the single most effective debiasing
-technique, yet it is rarely practiced outside of structured forecasting
-environments.
+Representativeness is a judgment of resemblance: how much a case looks like a
+category prototype. Probability of category membership also depends on how
+frequent the category is and how diagnostic the observed features are. In the
+lawyer-engineer paradigm, a description that sounded methodical and
+technically oriented felt representative of an engineer. That resemblance
+was treated as highly diagnostic even when the supplied population contained
+many more lawyers ([1]).
 
-### Natural Frequencies: A Formatting Fix
+Case descriptions have an attentional advantage over aggregate frequencies.
+They provide concrete features that can be compared to a stereotype, whereas
+a base rate summarizes cases that are not individually visible. However,
+representativeness is not a sufficient explanation for every result. Base
+rates are sometimes underused when the evidence is statistical rather than a
+personality description, and base-rate use increases when reliability,
+sampling, and relevance are clearer. Bar-Hillel emphasized perceived
+relevance, while Koehler synthesized evidence for effects of task structure,
+frequentist representation, diagnosticity, and source credibility ([3] [4]).
 
-Gigerenzer and Hoffrage (1995) demonstrated a powerful finding: when
-probabilistic information is presented in natural frequency format
-rather than as percentages or single-event probabilities, base rate
-neglect largely disappears. Instead of saying "the disease affects
-1 percent of the population and the test is 95 percent accurate," one
-could say: "out of every 1,000 people, 10 have the disease; of those
-10, about 9 will test positive; of the 990 without the disease, about
-50 will also test positive." With natural frequencies, a majority of
-participants -- including those with no statistical training -- produce
-approximately Bayesian answers.
+The practical implication is not to suppress case evidence. It is to ask what
+likelihood ratio that evidence justifies. A vivid founder story, an alarming
+test result, or a polished project plan is not automatically useless; its
+weight depends on how often comparable evidence appears in successful and
+unsuccessful cases. If both classes often generate the same feature, the
+feature has a likelihood ratio near one and should barely move the prior. If
+the feature is much more common when the hypothesis is true, it should move
+the estimate materially ([4]).
 
-This finding has profound implications. It suggests that base rate
-neglect is not a fixed cognitive limitation but a format-dependent one.
-The human mind evolved to reason about frequencies of events
-encountered in the world, not about abstract probabilities. Presenting
-information in a format that matches this evolved capacity -- concrete
-counts rather than abstract percentages -- dramatically improves
-probabilistic reasoning. For forecasters, this means that translating
-probability expressions into frequency statements is a practical
-debiasing tool: "70 percent chance" becomes "in 7 out of 10 similar
-situations."
+### Reference Classes Are Model Choices
+
+A reference class defines the population from which a base rate is estimated.
+The same case can belong to many valid classes. A young software company is a
+new establishment, a venture-backed firm, a company in a particular industry,
+a firm founded in a particular financing environment, and a business with a
+particular revenue profile. Each class can produce a different rate. The
+analyst must choose a class that balances similarity to the target case
+against sample size, measurement quality, and stability over time ([4]).
+
+A narrow class is not automatically superior. Adding attributes can improve
+comparability but also shrink the sample, amplify noise, and select variables
+because they make the case look special. Koehler described this as the
+reference-class specificity problem and endorsed a pragmatic tradeoff: use a
+class specific enough to capture predictive differences but large and stable
+enough to estimate a rate ([4]). Multiple defensible classes can be shown as
+a range rather than concealed behind one precise number.
+
+A reported rate also needs provenance. The denominator, time horizon, outcome
+definition, sampling process, and date should be explicit. "Business failure"
+can mean legal bankruptcy, closure of an establishment, failure to return
+venture capital, or failure to meet a growth target. Those events have
+materially different frequencies. The U.S. Bureau of Labor Statistics reports
+survival of new establishments, not the investment return of venture-backed
+startups; its rates cannot be relabeled without changing the claim ([11]).
+
+### False Positives Dominate When Targets Are Rare
+
+The low-prevalence problem is a direct consequence of denominators. If one in
+1,000 people has a condition, a perfectly sensitive test detects one true
+case per 1,000. With a 5 percent false-positive rate, it also flags about 50
+of the 999 people without the condition. The positive predictive value is
+therefore about 1 out of 51, or 1.96 percent ([9] [10]). The test is useful -
+it changed the probability from 0.1 percent to about 2 percent - but a
+positive result is not a diagnosis.
+
+This arithmetic applies beyond medicine wherever a classifier searches for a
+rare target. Fraud alerts, equipment-failure warnings, cybersecurity alarms,
+and quality-control defects can have high sensitivity and specificity while
+most alerts are false positives. That is a derived implication of Bayes'
+theorem, not evidence that any named operational system has a particular
+error rate ([2] [4]). To evaluate such a system, report sensitivity,
+specificity, prevalence, and predictive value rather than the ambiguous label
+"accuracy."
+
+### Natural Frequencies and Nested Sets
+
+Natural frequencies express joint outcomes as counts generated from a common
+population. Instead of stating prevalence, sensitivity, and false-positive
+rate as separate percentages, the analyst can say: among 1,000 people, one
+has the condition and tests positive, while about 50 of the 999 without it
+also test positive. The posterior becomes the visible subset calculation
+`1 / (1 + 50)` ([5] [8]).
+
+Gigerenzer and Hoffrage reported that frequency formats increased the share
+of responses classified as Bayesian in their experiments: in the standard
+menu, from 16 percent with probability formats to 46 percent with natural
+frequencies, with performance reaching 50 percent in a shorter menu ([5]
+[8]). A later meta-analysis integrated 226 performance estimates from 35
+articles and found a general natural-frequency facilitation effect, while
+also showing that problem representation, visual aids, scoring, and study
+design moderated performance ([7]). Frequencies improve reasoning; they do
+not guarantee it.
+
+Barbey and Sloman argued that the operative feature is transparent nested-set
+structure rather than frequency wording alone. A useful display shows the
+whole population, the target and non-target subsets, and positive results
+inside each subset. Formats that preserve the same numbers but obscure those
+relations may not help. Their review therefore linked improved reasoning to
+representations that make elementary set operations available to deliberate
+reasoning ([6]). Stengard and colleagues likewise found a benefit from
+natural frequencies, but a smaller one than some early demonstrations and
+substantial differences among participants ([8]).
+
+### A Base-Rate-First Forecasting Procedure
+
+The author's synthesis of this literature is a five-step procedure. First,
+define the event, denominator, population, and time horizon. Second, identify
+one or more defensible reference classes and document their sample sizes and
+measurement limitations. Third, translate case evidence into a likelihood
+question: how often would this evidence appear if the outcome occurred, and
+how often if it did not? Fourth, combine the prior and evidence, preferably
+with explicit frequencies or odds. Fifth, record the forecast and score it
+when the outcome resolves, so that both reference-class selection and update
+size can be calibrated over time ([4] [5] [12] [13]).
+
+This procedure separates the outside and inside views without pretending that
+one always dominates. The base rate is the starting distribution, not the
+final answer. Case evidence earns an adjustment when it is reliable and
+diagnostic; a narrative earns no adjustment merely because it is detailed.
+Good Judgment's summary of superforecasting practice similarly recommends
+asking how often events of this sort occur and balancing the outside view
+with case-specific evidence rather than declaring a situation unique ([13]).
+The published summary is consistent with the fuller treatment in Tetlock and
+Gardner's book ([12] [13]).
 
 ## Evidence
 
-The empirical case for base rate neglect spans five decades and multiple
-experimental paradigms. Kahneman and Tversky (1973) established the
-phenomenon with the lawyer-engineer problem and the cab problem,
-demonstrating that even statistically sophisticated participants
-systematically violated Bayes' theorem when individuating information
-was present. The effect size was large: probability estimates often
-differed by less than 5 percentage points between conditions where base
-rates differed by 40 percentage points.
+### Foundational Category-Judgment Experiments
 
-The medical diagnosis task, introduced by Casscells, Schoenberger, and
-Graboys (1978), provided striking real-world evidence. When asked to
-estimate the probability that a patient with a positive test result
-actually had a disease -- given a disease prevalence of 0.1 percent and
-a test with 100 percent sensitivity but a 5 percent false positive rate
--- only 18 percent of physicians and medical students at Harvard
-answered correctly (approximately 2 percent). Nearly half gave answers
-around 95 percent, fixating on the test's apparent accuracy while
-ignoring the extreme rarity of the disease. The correct answer requires
-applying Bayes' theorem: with a population of 1,000 people, only
-1 person has the disease (and tests positive), while 50 people without
-the disease also test positive, yielding a posterior probability of
-1 in 51, or approximately 2 percent.
+Kahneman and Tversky's 1973 article tested the representativeness account
+across several prediction tasks. In the lawyer-engineer experiment,
+participants received the same descriptions under 70:30 and 30:70 base-rate
+conditions. The descriptions moved judgments strongly, while reversing the
+base rate moved them much less. The authors interpreted the pattern as
+insensitivity to prior probability produced by representativeness, and their
+article reported studies with both naive and sophisticated university
+participants ([1]).
 
-A ScienceDirect review (2022) examined the generality and cognitive
-basis of base rate neglect across a wide range of base rate, hit rate,
-and false alarm rate combinations. The study confirmed that base rate
-neglect is robust across parametric variations but found that the
-severity depends on the numerical format: natural frequency
-presentations dramatically reduced the bias. Approximately half of
-participant responses coincided with heuristic rules -- such as
-simply reporting the hit rate or averaging base rate and hit rate --
-rather than Bayesian integration. The review also identified a
-related phenomenon of "pseudo-diagnosticity": people are influenced
-by diagnostically irrelevant information and disregard relevant
-information, such as ignoring false alarm rates while being swayed by
-high hit rates.
+Later evidence qualified the rhetoric of complete neglect. Koehler compared
+eight lawyer-engineer experiments and found that diagnostic descriptions did
+not erase base-rate effects uniformly; observed high-versus-low-base-rate
+differences ranged from small to substantial across studies. Results with
+nondiagnostic descriptions were also inconsistent. He attributed variation
+to task structure, random-sampling credibility, within-participant
+comparisons, information reliability, and participants' construal of the
+problem ([4]). The replication record supports underweighting under some
+conditions, but not a single invariant effect size.
 
-Nisbett and Borgida (1975) extended the evidence into social psychology,
-showing that base rate neglect occurs even when the base rate
-information is vivid and personally relevant. Participants who watched
-a confederate behave altruistically or selfishly in a controlled
-situation were told that most people in the same situation behaved the
-opposite way. Despite having just witnessed a single data point against
-a known statistical distribution, participants' predictions about the
-confederate's future behavior were overwhelmingly driven by the single
-observation rather than the base rate.
+The cab problem isolated integration of a prior and a likelihood. Bar-Hillel
+presented variants in which a minority fleet share conflicted with a witness
+identification and used the 41 percent Bayesian result as the benchmark. Her
+experiments and review supported the idea that evidence judged more relevant
+can dominate a base rate judged remote, while manipulations that increase the
+rate's perceived relevance increase its use ([3]). Koehler later noted that
+the normative answer depends on accepting the fleet composition as the prior
+for accident-involved cabs and accepting the test of witness accuracy as the
+relevant likelihood model ([4]).
 
-Real-world manifestations are abundant. In finance, investors chase
-hot IPOs despite the base rate that the majority underperform the
-market over their first five years. In hiring, interviewers are swayed
-by a candidate's charm and specific anecdotes while neglecting the
-base rate that structured assessments and work-sample tests are far
-more predictive of job performance. In security screening, systems
-with 99.9 percent accuracy produce overwhelmingly false positives when
-the base rate of actual threats is one in ten million -- yet operators
-treat every alert as serious.
+### Clinical-Test Interpretation
+
+Casscells, Schoenberger, and Graboys asked 60 physicians and medical trainees
+to interpret a positive test for a condition with prevalence 1 in 1,000 and a
+5 percent false-positive rate. Eleven of 60, or 18 percent, gave the answer of
+about 2 percent; 27 of 60 gave 95 percent, the most common response ([9]
+[10]). The problem did not state sensitivity explicitly in the question as
+later reproduced; the intended calculation assumed that every diseased
+person tested positive. Under that assumption, Bayes' theorem yields
+`0.001 / [0.001 + (0.999 x 0.05)] = 0.0196`, or 1.96 percent.
+
+Manrai and colleagues repeated the same question decades later with a
+convenience sample of 61 physicians and trainees. Fourteen of 61, or 23
+percent, answered correctly, while 27 of 61 again answered 95 percent. The
+5-percentage-point difference from the original correct-response rate was not
+statistically significant in their comparison ([10]). This pair of studies is
+strong evidence that the specific positive-predictive-value problem remains
+difficult for many medically trained respondents, but each used one question
+and a convenience sample. It does not justify a claim that all clinicians or
+all clinical decisions neglect prevalence.
+
+### Representation Interventions
+
+Gigerenzer and Hoffrage analyzed several thousand solutions across Bayesian
+word problems. Their experiments contrasted normalized probability formats
+with natural frequencies. In the standard response menu, 16 percent of
+solutions in probability format were classified as Bayesian, compared with
+46 percent in frequency format; a shorter frequency menu reached 50 percent
+([5]). The intervention changed representation rather than teaching Bayes'
+theorem, showing that computational accessibility can alter observed
+performance.
+
+McDowell and Jacobs reviewed 20 years of natural-frequency research. Their
+meta-analysis covered 35 articles and 226 performance estimates and confirmed
+that naturally sampled joint frequencies generally improve solution rates
+relative to conditional probabilities. It also found important moderators:
+short menus and visual aids improved performance, and methodological choices
+such as exposure to both formats and scoring criteria affected estimates
+([7]). The evidence therefore supports frequency formats as a robust design
+tool, not a complete cure.
+
+Barbey and Sloman reviewed the competing ecological-rationality and
+nested-set explanations. They concluded that neglect is reduced when the
+representation makes set inclusion transparent and proposed a dual-process
+account in which an explicit nested representation enables rule-based
+reasoning ([6]). The theoretical mechanism remains contested - Gigerenzer and
+Hoffrage defend a computational account based on natural sampling - but both
+programs converge on a practical finding: represent the joint counts and
+subsets rather than leaving the reader to combine three detached percentages
+([5] [6]).
+
+### Broader Parameter Space and Individual Differences
+
+Stengard and colleagues tested whether the usual result generalizes beyond
+problems with an extremely rare target, near-perfect hit rate, and low
+false-alarm rate. Their control experiment gave 100 online participants the
+classic 0.1 percent prevalence, 100 percent hit-rate, and 5 percent
+false-alarm problem; 9 percent gave an answer within their correct interval,
+and about 20 percent gave the modal answer of 95 percent ([8]).
+
+Their main experiment varied five base rates, three hit rates, and three
+false-alarm rates, producing 45 trials per participant. The symbolic
+conditions retained 182 online participants, and pictorial conditions used
+40 laboratory participants. Average responses changed in the correct
+direction with all three cues, but not by the normative amount. Natural
+frequencies improved average accuracy relative to normalized formats, while
+pictorial versus symbolic presentation had little supported effect in that
+design ([8]).
+
+At the individual level, the distribution was heterogeneous. Some
+participants were highly sensitive to base rates and others nearly
+insensitive. Cross-validated model comparisons favored either a Bayesian
+model or a linear-additive model for about 80 percent of participants, with
+the tested heuristic models accounting best for the remainder. Participants
+with little neglect were generally better fit by the Bayesian model; those
+with strong neglect were generally better fit by the linear-additive model
+([8]). This evidence rejects a uniform story in which everyone uses the same
+representativeness shortcut.
+
+### What the Evidence Establishes
+
+Taken together, the evidence establishes four bounded conclusions. First,
+people can substantially underweight relevant prevalence when salient
+case-specific or test information is present ([1] [3] [9]). Second, complete
+neglect is not universal; base-rate use changes with task design, evidence
+quality, and individual strategy ([4] [8]). Third, natural frequencies and
+transparent set representations materially improve many Bayesian inferences,
+but sizable error rates remain ([5] [7]). Fourth, the label "base rate
+neglect" describes an output pattern, not one settled cognitive mechanism;
+representativeness, semantic confusion, additive integration, priors,
+relevance, and noisy or ambiguous reference classes can produce different
+parts of the observed record ([4] [6] [8]).
+
+These limits matter for application. A laboratory answer can be scored
+against Bayes' theorem when the prior, likelihoods, and requested posterior
+are unambiguous. A real forecast requires additional work: verify the source
+rate, choose the reference class, test whether the process is stable, and
+separate predictive accuracy from costs, fairness, and decision thresholds
+([4]). The evidence supports disciplined use of base rates, not automatic
+replacement of judgment by the first percentage found.
 
 ## Implications
 
-For forecasting, base rate neglect is the error that superforecasting
-techniques are most directly designed to counteract. Tetlock's research
-found that the best forecasters consistently anchored their estimates
-on base rates and adjusted from there, while poorer forecasters started
-from case-specific reasoning and adjusted toward base rates weakly if at
-all. The inside-view/outside-view framework is essentially a structured
-method for forcing base rate use: the outside view demands that the
-forecaster identify the reference class and its base rate before
-considering any details of the specific case.
+### Medicine and Diagnostic Communication
 
-The implications for investing are substantial. Value investors commit
-base rate neglect when they construct detailed DCF models projecting
-growth rates far above industry averages without asking how often
-companies in that industry actually sustain above-average growth.
-Venture capitalists commit it when they are captivated by a founding
-team's narrative and ignore the base rate that most venture-backed
-startups fail to return capital. The entire field of reference class
-forecasting in project management -- championed by Bent Flyvbjerg --
-exists to solve base rate neglect in cost and timeline estimation
-for large infrastructure projects, where the base rates of cost
-overruns and schedule delays are well-documented yet systematically
-ignored in planning.
+A diagnostic result should be communicated with prevalence and false-positive
+counts, not sensitivity alone. For a rare condition, the useful question is
+not "How accurate is the test?" but "Among people like this patient who test
+positive, how many have the condition?" The answer requires a prevalence
+appropriate to the tested population plus sensitivity and specificity under
+comparable conditions ([2] [9]). Screening a low-risk population and testing
+a symptomatic referral population can produce different predictive values
+from the same laboratory assay because their priors differ.
 
-For medical decision-making, base rate neglect has life-and-death
-consequences. The mammogram problem, the HIV test problem, and the
-COVID test problem all share the same structure: a test with seemingly
-high accuracy produces alarming false positive rates when the
-underlying condition is rare. Doctors who order a battery of tests
-without considering the prior probability of disease -- the "if you
-hear hoofbeats, think horses, not zebras" principle -- subject patients
-to unnecessary anxiety, invasive follow-up procedures, and iatrogenic
-harm. Gigerenzer's research on risk communication shows that presenting
-test results in natural frequency format dramatically improves both
-physicians' and patients' understanding, yet this format is rarely
-used in clinical practice.
+Natural frequencies provide a direct communication format. A clinician can
+state that, among 1,000 comparable people, one is expected to have the
+condition and test positive, while about 50 without it also test positive;
+therefore roughly one of 51 positive results is a true case. The calculation
+should be followed by the clinical action threshold, because a low posterior
+can still justify confirmatory testing when the harm of missing disease is
+large. Probability and decision are different: Bayes' theorem updates belief,
+while utilities and error costs determine action ([4] [5]).
 
-For policy and public communication, base rate neglect explains why
-people overestimate rare but vivid risks (terrorism, shark attacks,
-plane crashes) while underestimating common ones (heart disease, car
-accidents, diabetes). Media coverage amplifies individuating
-information -- the specific story of a victim is far more compelling
-than the statistical fact that the risk is orders of magnitude smaller
-than everyday hazards. Public health communication that fights base
-rate neglect with natural frequencies rather than percentages would
-produce better-calibrated risk perceptions.
+The same discipline prevents another mistake: using a population rate that
+does not match the patient. Age, symptoms, prior tests, exposure, and referral
+setting can shift the prior. The remedy is not to abandon rates but to state
+which class generated them and why it is comparable. When several classes are
+plausible, the analyst can show a sensitivity range. This makes the reference
+class visible instead of burying it in a precise but fragile posterior ([4]).
 
-Debiasing strategies that work include: anchoring every forecast on
-the outside-view base rate before adjusting for case specifics;
-presenting probabilistic information in natural frequency format;
-maintaining a personal calibration log that reveals how often
-high-confidence predictions were wrong; and asking "what is the base
-rate?" as a mandatory step in any decision process. The most reliable
-intervention, however, is structural: decision processes should be
-designed so that the base rate is computed and presented before any
-individuating information is considered, because once the individuating
-information is absorbed, the base rate's influence shrinks to near zero.
+### Forecasting and Organizational Decisions
+
+A forecast should begin by defining a resolvable event and a reference class.
+"Will the project succeed?" is not operational until success, horizon, and
+population are specified. A useful outside-view estimate might be the share
+of comparable projects delivered within a stated budget and date. The inside
+view then supplies evidence for adjustment: team history, design maturity,
+regulatory status, financing, or other features with demonstrated predictive
+value. Detail without a measured likelihood ratio is explanation, not yet
+probability ([4] [13]).
+
+The author's assessment is that organizations should record three numbers for
+important forecasts: the raw reference-class rate, the final adjusted
+probability, and the resolved outcome. The gap between the first two reveals
+how much confidence was placed in case-specific evidence. Repeated scoring
+then tests whether those adjustments improve accuracy or merely encode
+optimism. Good Judgment's published superforecasting guidance similarly asks
+forecasters to seek comparison classes, balance outside and inside views, and
+update without either overreacting or underreacting to evidence ([13]).
+
+Decision processes can make this sequence structural. Require the base-rate
+memo before reviewing a detailed plan; have an independent analyst select a
+reference class; express risk tables in counts; and separate probability
+estimation from approval advocacy. These controls do not assume that planners
+are irrational. They prevent a predictable information-order effect: once a
+coherent narrative becomes the anchor, an abstract historical distribution
+is easily demoted to a weak "sanity check" ([1] [4]).
+
+### Investing and Capital Allocation
+
+Investment analysis is vulnerable when a compelling company narrative is
+compared with no distribution of comparable outcomes. A base-rate-first
+analysis can ask how often firms with similar starting economics achieved the
+projected margins, retained customers, survived a financing cycle, or earned
+the assumed return on incremental capital. It should then identify which
+features of the specific business have evidence of shifting those rates. The
+author's assessment is that this procedure is compatible with concentrated
+value investing: it does not replace business understanding, but requires the
+investment thesis to explain why the company belongs above or below the
+reference-class distribution ([4]).
+
+Rates must be labeled precisely. The BLS Business Employment Dynamics series
+reports survival of new U.S. establishments. In the cohorts displayed for
+which ten-year observations are available, roughly 34.5 to 36.2 percent of
+establishments remained in operation after ten years ([11]). That evidence
+contradicts the unsourced slogan that 90 percent of all startups fail within
+ten years, but it also does not estimate venture-capital returns or the chance
+that a technology startup reaches a target valuation. The denominator and
+outcome determine whether a base rate is relevant.
+
+For valuation, the base rate should discipline rather than mechanically set
+inputs. If a model assumes ten years of above-industry growth, the analyst can
+identify the historical frequency of firms that sustained such growth and
+then state why the focal firm's economics justify an update. Competitive
+advantages, reinvestment runway, customer switching costs, and management
+capital allocation may be diagnostic, but each must be tested against
+successful and unsuccessful peers. A feature shared by both groups is vivid
+but non-diagnostic. This is an application of likelihood-ratio reasoning
+rather than a separate investing rule ([4]).
+
+### Rare-Event Detection and Alert Systems
+
+Alert systems should be evaluated with expected counts. Consider a
+hypothetical detector applied to 100,000 events where the target occurs in
+0.01 percent of events, sensitivity is 99 percent, and the false-positive
+rate is 0.1 percent. The model yields 9.9 true positives and 99.99 false
+positives, so only about 9.01 percent of alerts are true targets. These figures
+are derived from the stated assumptions; they are not measurements of a real
+security, fraud, or quality-control system. The example shows why a very small
+false-positive rate can dominate when non-target events vastly outnumber
+targets ([2] [4]).
+
+Operational reports should therefore include the event prevalence, true and
+false positive counts, positive predictive value, false-negative count, and
+the cost of reviewing alerts. A single "99.9 percent accurate" label can hide
+whether accuracy means sensitivity, specificity, or overall correct
+classification. Teams can improve the posterior by narrowing the screened
+population to a higher-risk class, adding a second independent signal, or
+using staged confirmation. Each intervention changes either the prior or the
+likelihood ratio and should be evaluated on held-out outcomes ([2] [4]).
+
+### Risk Communication and Public Reasoning
+
+Percentages often detach a result from its denominator. A communication that
+says "the test is 95 percent accurate" invites the inverse fallacy because it
+does not display how many positive results arise from each state. A table or
+frequency tree that begins with a common cohort makes the target, non-target,
+true-positive, and false-positive sets explicit. The meta-analytic evidence
+supports this as a practical improvement, especially when joint events and
+visual structure are made clear ([7]).
+
+The format should not be used rhetorically to force one conclusion. Reference
+classes can be selected strategically, rates can be stale, and a broad class
+can conceal predictive subgroups. Good communication presents the source,
+time period, denominator, uncertainty, and alternative plausible classes.
+This follows Koehler's warning that real-world rates are often ambiguous or
+unstable and that decision quality can depend on goals and costs beyond raw
+predictive accuracy ([4]).
+
+### A Practical Audit
+
+Before accepting a probability claim, ask the following questions. They are a
+synthesis of the empirical and normative literature reviewed above ([2]
+[4] [5] [8]):
+
+1. What event, population, denominator, and time horizon does the rate describe?
+2. Is that reference class comparable to the focal case, and is its sample large and current enough?
+3. What are the hit and false-positive rates of the case-specific evidence?
+4. Are sensitivity, specificity, and posterior probability being kept distinct?
+5. Can the problem be rewritten as joint counts from one common cohort?
+6. How large is the adjustment away from the base rate, and what measured evidence justifies it?
+7. Would another defensible reference class materially change the answer?
+8. What decision threshold follows once error costs and consequences are considered?
+9. Will the forecast be recorded and scored so future adjustments can be calibrated?
+
+The author's synthesis is that the worst failure is not merely forgetting a
+number. It is allowing a vivid case narrative to erase the comparison set
+while also hiding the assumptions that made the comparison set relevant. The
+prevention is equally structural: make the denominator visible, show the
+false positives, state the reference class, and require case evidence to earn
+its adjustment. That process treats base rates as disciplined starting
+information rather than as either an oracle or an obstacle ([4] [5]).
 
 ## Sources
 
@@ -296,42 +588,71 @@ information is absorbed, the base rate's influence shrinks to near zero.
 
 2. Meehl, P. E. & Rosen, A. (1955). "Antecedent Probability and the
    Efficiency of Psychometric Signs, Patterns, or Cutting Scores."
-   Psychological Bulletin, 52(3), 194-216. [high]
+   Psychological Bulletin, 52(3), 194-216.
+   https://doi.org/10.1037/h0048070 [high]
 
-3. Kahneman, D. (2011). "Thinking, Fast and Slow." Farrar, Straus and
-   Giroux. Chapters 10-15 cover heuristics and biases including base
-   rate neglect, the representativeness heuristic, and the
-   inside/outside view. [high]
+3. Bar-Hillel, M. (1980). "The Base-Rate Fallacy in Probability
+   Judgments." Acta Psychologica, 44(3), 211-233.
+   https://doi.org/10.1016/0001-6918(80)90046-3 [high]
 
-4. Gigerenzer, G. & Hoffrage, U. (1995). "How to Improve Bayesian
+4. Koehler, J. J. (1996). "The Base Rate Fallacy Reconsidered:
+   Descriptive, Normative, and Methodological Challenges." Behavioral
+   and Brain Sciences, 19(1), 1-17.
+   https://doi.org/10.1017/S0140525X00041157 [high]
+
+5. Gigerenzer, G. & Hoffrage, U. (1995). "How to Improve Bayesian
    Reasoning Without Instruction: Frequency Formats." Psychological
-   Review, 102(4), 684-704. [high]
+   Review, 102(4), 684-704.
+   https://doi.org/10.1037/0033-295X.102.4.684 [high]
 
-5. Nisbett, R. E. & Borgida, E. (1975). "Attribution and the Psychology
-   of Prediction." Journal of Personality and Social Psychology, 32(5),
-   932-943. [high]
+6. Barbey, A. K. & Sloman, S. A. (2007). "Base-Rate Respect: From
+   Ecological Rationality to Dual Processes." Behavioral and Brain
+   Sciences, 30(3), 241-254.
+   https://doi.org/10.1017/S0140525X07001653 [high]
 
-6. Tetlock, P. E. & Gardner, D. (2015). "Superforecasting: The Art and
-   Science of Prediction." Crown. Documents how the best forecasters
-   use base rates and the outside view, and how most people fail to do
-   so. [high]
+7. McDowell, M. & Jacobs, P. (2017). "Meta-Analysis of the Effect of
+   Natural Frequencies on Bayesian Reasoning." Psychological Bulletin,
+   143(12), 1273-1312.
+   https://doi.org/10.1037/bul0000126 [high]
 
-7. Hoffman, B. (2024). "The Base Rate Fallacy: What It Is And How To
-   Overcome It." Forbes.
-   https://www.forbes.com/sites/brycehoffman/2024/05/31/the-base-rate-fallacy-what-it-is-and-how-to-overcome-it [medium]
+8. Stengard, E., Juslin, P., Hahn, U., & van den Berg, R. (2022). "On
+   the Generality and Cognitive Basis of Base-Rate Neglect." Cognition,
+   226, 105160.
+   https://doi.org/10.1016/j.cognition.2022.105160 [high]
+
+9. Casscells, W., Schoenberger, A., & Graboys, T. B. (1978).
+   "Interpretation by Physicians of Clinical Laboratory Results."
+   New England Journal of Medicine, 299(18), 999-1001.
+   https://doi.org/10.1056/NEJM197811022991808 [high]
+
+10. Manrai, A. K., Bhatia, G., Strymish, J., Kohane, I. S., & Jain,
+    S. H. (2014). "Medicine's Uncomfortable Relationship With Math:
+    Calculating Positive Predictive Value." JAMA Internal Medicine,
+    174(6), 991-993.
+    https://doi.org/10.1001/jamainternmed.2014.1059 [high]
+
+11. U.S. Bureau of Labor Statistics. "Entrepreneurship and the U.S.
+    Economy: Survival Rates of Establishments by Year Started and Number
+    of Years Since Starting." Business Employment Dynamics.
+    https://www.bls.gov/bdm/entrepreneurship/bdm_chart3.htm [high]
+
+12. Tetlock, P. E. & Gardner, D. (2015). "Superforecasting: The Art and
+    Science of Prediction." Crown. [high]
+
+13. Good Judgment Inc. "Ten Commandments for Aspiring
+    Superforecasters." Summary of practices from Tetlock and Gardner.
+    https://goodjudgment.com/philip-tetlocks-10-commandments-of-superforecasting [medium]
 
 ## See Also
 
 - `library/probabilistic-thinking-forecasting/bayesian-reasoning.md` -- the
-  normative framework for integrating base rates with new evidence.
+  formal framework for combining prior probabilities with new evidence.
 - `library/probabilistic-thinking-forecasting/inside-outside-view.md` -- the
-  mental model explicitly designed to overcome base rate neglect in
-  forecasting and planning.
-- `library/probabilistic-thinking-forecasting/superforecasting.md` -- how the
-  best forecasters use base rate anchoring as a core technique.
+  forecasting practice of beginning with a reference class before adjusting
+  for case-specific information.
+- `library/probabilistic-thinking-forecasting/superforecasting.md` -- methods
+  for producing and scoring calibrated probability forecasts.
 - `library/probabilistic-thinking-forecasting/calibration-and-overconfidence.md` --
-  how base rate neglect contributes to systematic overconfidence in
-  probability judgments.
-- `library/psychology-behavior/cognitive-biases.md` -- the broader catalog of
-  cognitive biases, including the representativeness heuristic that
-  drives base rate neglect.
+  how forecast confidence is compared with observed frequency.
+- `library/psychology-behavior/cognitive-biases.md` -- the broader class of
+  systematic judgment errors that includes base rate underweighting.
