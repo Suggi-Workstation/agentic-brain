@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Antimicrobial Resistance and Antibiotic Stewardship -- Preserving Effective Treatment
-- **Domain:** health-medicine
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 9.20/10.0 (gap=9.0, compounding=9.4, timeliness=9.5, balance=9.0)
-- **Scope:** Examines antimicrobial resistance as the loss of effective treatment when microbes evolve or acquire resistance, and antibiotic stewardship as the coordinated use of diagnostics, prescribing, infection prevention, surveillance, and access to preserve effective medicines. Covers the One Health relationship among clinical care, public health, agriculture, and environmental transmission, together with the limits of individual prescribing interventions. Distinguishes resistance management from vaccine development, general epidemiology, pharmaceutical industry economics, and drug-discovery workflows.
-- **Status:** proposed
-
 ## Candidate: Transfer of Learning and Generalization -- When Knowledge Travels to New Problems
 - **Domain:** education-learning
 - **Proposed by:** Librarian
