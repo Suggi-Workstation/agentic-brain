@@ -1,6 +1,6 @@
 # History -- Topics
 
-13 topics. Anchor: [anchor-history.md](anchor-history.md)
+14 topics. Anchor: [anchor-history.md](anchor-history.md)
 
 - [The 1918 Influenza Pandemic Became a Global Catastrophe Through War Mobilization and Unequal State Capacity](1918-influenza-pandemic-war-public-health-and-demographic-change.md) -- [reviewed: 2026-09-22] -- The 1918-1920 influenza pandemic was not a biological event that merely coincided with the First World War: military mobilization, mass transport, and crowded institutions accelerated spread, while mortality varied with economic conditions and the local resources available for public health and care.
 
@@ -21,6 +21,8 @@
 - [The Industrial Revolution -- How Fossil Fuels, Machines, and the Factory System Broke the Malthusian Trap and Created the Modern World](industrial-revolution-and-its-consequences.md) -- [reviewed: never] -- The Industrial Revolution was the transition from agrarian, craft-based economies to machine-driven, fossil-fueled industrial economies that began in Britain around 1760 and spread globally through 1914. For the first time in human history, sustained economic growth outpaced population growth, breaking the Malthusian cycle that had kept living standards near subsistence for millennia.
 
 - [Medieval Europe -- A Dynamic Millennium of Transformation Between Rome and the Renaissance](medieval-millennium-rome-to-renaissance.md) -- [reviewed: never] -- The millennium between the fall of the Western Roman Empire and the dawn of the Renaissance is routinely caricatured as a thousand years of cultural darkness and stagnation. This characterization is wrong. The medieval period was instead an era of profound institutional innovation, demographic upheaval, and technological transformation that built the foundations of the modern world.
+
+- [The Meiji Restoration Built a Centralized Industrial State and Turned Japan Toward Empire](meiji-restoration-state-building-industrialization-and-imperial-turn.md) -- [reviewed: never] -- The Meiji Restoration was not a single transfer of power in 1868 but a sequence of civil conflict, centralization, social reform, constitutional construction, and industrial development that dismantled Tokugawa rule and created a new kind of Japanese state. Its leaders preserved the emperor as the source of political legitimacy while abolishing domains, taxing land, conscripting soldiers, organizing national education, importing technology, and eventually building a constitutional monarchy.
 
 - [The Renaissance and Enlightenment -- How the Revival of Classical Learning and the Cult of Reason Invented the Modern Mind](renaissance-and-enlightenment.md) -- [reviewed: never] -- The Renaissance and the Enlightenment were two linked intellectual movements, spanning roughly the fourteenth through the eighteenth centuries, that dismantled the medieval habit of deferring to inherited authority and replaced it with individual reason, empirical observation, and a belief in natural rights.
 
