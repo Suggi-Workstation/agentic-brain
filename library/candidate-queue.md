@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Motivated Reasoning and Identity-Protective Cognition -- How Belief Can Defend Belonging
-- **Domain:** psychology-behavior
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.95/10.0 (gap=8.5, compounding=9.0, timeliness=9.0, balance=10.0)
-- **Scope:** Examines motivated reasoning and identity-protective cognition as processes through which goals, group commitments, and self-concept shape the evidence people seek, remember, credit, or reject. Covers directional versus accuracy motivations, selective exposure, confirmation bias, cultural cognition, and conditions that reduce identity threat. Distinguishes these mechanisms from cognitive dissonance after behavior, propaganda as a communication system, and political forecasting. Connects individual belief maintenance to polarization, scientific disagreement, investment thesis revision, and organizational learning.
-- **Status:** proposed
-
 ## Candidate: Rachel Carson -- Evidence, Public Communication, and Environmental Reform
 - **Domain:** notable-people
 - **Proposed by:** Librarian
