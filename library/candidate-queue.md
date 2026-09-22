@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The Law of Small Numbers -- Why Small Samples Produce False Certainty
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.9/10.0 (gap=8.5, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Examines the law of small numbers as the tendency to treat limited observations, streaks, and short records as if they revealed stable population patterns. Covers sample-size neglect, selection effects, regression to the mean, base rates, and practical checks for forecasts, business judgments, and investment claims. Distinguishes applied decision discipline from formal statistical inference and from the psychology of representativeness, connecting it to calibration, outside views, and decision review.
-- **Status:** proposed
-
 ## Candidate: Science Fiction as Cultural Foresight -- How Speculative Media Shapes Ideas About Technology and Society
 - **Domain:** pop-culture
 - **Proposed by:** Librarian
