@@ -1,8 +1,10 @@
 # Health Medicine -- Topics
 
-10 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
+11 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
 
 - [AI in Medicine and Diagnostics -- How Deep Learning Reached Clinician-Level Accuracy and Why Clinical Deployment Still Lags the Benchmarks](ai-in-medicine-and-diagnostics.md) -- [reviewed: never] -- AI in medicine and diagnostics is the application of machine learning to medical data -- most visibly images, but increasingly text and structured records -- for the detection, classification, and triage of disease. Deep learning systems now match or exceed clinicians on narrow image-interpretation tasks in controlled studies, and the US Food and Drug Administration (FDA) has authorized more than 1,400 AI-enabled medical devices, roughly three quarters of them in radiology.
+
+- [Antibiotic Stewardship Preserves Effective Treatment by Reducing Selection Without Withholding Necessary Care](antimicrobial-resistance-antibiotic-stewardship.md) -- [reviewed: never] -- Antibiotic resistance turns treatable bacterial infections into harder, costlier, and sometimes untreatable disease, but antibiotics remain indispensable when bacterial infection is likely or proven. Antibiotic stewardship therefore means delivering effective therapy while continually narrowing the drug, dose, route, and duration to what the patient actually needs; it is not indiscriminate restriction.
 
 - [Chronic Disease Management -- Why Cardiovascular Disease and Diabetes Require Systemic Prevention Over Reactive Treatment](chronic-disease-cvd-diabetes.md) -- [reviewed: never] -- Cardiovascular disease (CVD) and type 2 diabetes mellitus (T2DM) are the two chronic diseases that account for the largest share of global mortality, disability, and healthcare spending. Together they killed approximately 20 million people in 2023 and consume over 15 percent of total health expenditure in developed economies.
 
