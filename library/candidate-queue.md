@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Rachel Carson -- Evidence, Public Communication, and Environmental Reform
-- **Domain:** notable-people
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 9.0/10.0 (gap=9.0, compounding=9.2, timeliness=8.0, balance=10.0)
-- **Scope:** Profiles Rachel Carson as a scientist and writer whose evidence-based public communication reshaped debate about pesticides, ecological risk, and environmental governance. Covers her scientific training, the research and publication of Silent Spring, criticism and uncertainty in the evidence she presented, congressional testimony, and the institutional effects attributed to her work. Treats earth science, toxicology, and environmental policy as the context for her decisions and legacy rather than as a general history of environmentalism.
-- **Status:** proposed
-
 ## Candidate: The French Revolution -- Revolution, Rights, and the Remaking of Political Order
 - **Domain:** history
 - **Proposed by:** Librarian
