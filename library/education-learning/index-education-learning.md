@@ -1,6 +1,6 @@
 # Education Learning -- Topics
 
-10 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
+11 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
 - [Assessment and Testing -- What We Measure Shapes What We Learn, and Most Tests Measure the Wrong Things](assessment-and-testing.md) -- [reviewed: never] -- Assessment is not a neutral measurement tool. It is the single most powerful lever for shaping student behavior, curriculum design, and institutional priorities in education. The backwash effect -- the principle that assessment drives learning more than any curriculum document -- means that what we choose to test determines what students choose to learn.
 
@@ -17,6 +17,8 @@
 - [Educational Technology Improves Learning Only When Pedagogy, Feedback, and Implementation Improve With It](educational-technology-and-adaptive-learning.md) -- [reviewed: never] -- Educational technology does not improve learning merely by placing a device, platform, or artificial intelligence system between a teacher and a student. It improves learning when it diagnoses what a learner knows, selects an appropriate next task, elicits active thinking, supplies useful feedback, and fits a workable instructional system; the same technology can distract, automate answer production, or widen inequity when those conditions are absent [1, 9, 11].
 
 - [The Feynman Technique and Learning Heuristics -- Why the Best Learning Methods Force You to Confront What You Do Not Know](feynman-technique-and-learning-heuristics.md) -- [reviewed: never] -- The most effective learning techniques share a single, uncomfortable property: they force the learner to confront the gap between what they think they know and what they can actually produce. The Feynman Technique (explain it simply, find the gaps, fill them, simplify further), the Leitner system (sort flashcards by difficulty, review what you are about to forget), the SQ3R method (survey,...
+
+- [Metacognition and Self-Regulated Learning Work Only When Monitoring Changes What the Learner Does Next](metacognition-and-self-regulated-learning.md) -- [reviewed: never] -- Metacognition makes a learner's knowledge, task, and strategy choices available for inspection, while self-regulated learning turns that inspection into a cycle of goals, action, feedback, and revision ([1] [2] [4]). The central claim is that awareness alone is insufficient: monitoring has educational value only when it changes strategy, effort, help seeking, task choice, or the decision to continue ([3] [9]).
 
 - [Pedagogy and Teaching Methods -- How Evidence-Based Instruction Shapes What Students Actually Learn](pedagogy-and-teaching-methods.md) -- [reviewed: never] -- The choice of teaching method is not merely a matter of teacher preference or institutional tradition. Decades of cognitive science research and large-scale meta-analyses show that how content is delivered -- whether through explicit direct instruction, structured inquiry, project-based exploration, or Socratic questioning -- produces substantially different learning outcomes depending on the learner's prior knowledge, the nature of the material, and the specific learning objective.
 
