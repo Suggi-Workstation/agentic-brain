@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Legal Precedent and Stare Decisis -- How Courts Make Law Across Cases
-- **Domain:** law-regulation
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 9.05/10.0 (gap=9.0, compounding=9.0, timeliness=8.5, balance=10.0)
-- **Scope:** Examines precedent and stare decisis as the mechanisms through which judicial decisions guide later cases within common-law and constitutional systems. Covers vertical and horizontal precedent, ratio decidendi and dicta, distinguishing and overruling decisions, retroactivity, and the tension between stability, legal change, and judicial legitimacy. Connects constitutional interpretation, administrative law, contract and corporate disputes, and rights adjudication without becoming a history of any one court or a political analysis of judicial appointments.
-- **Status:** proposed
-
 ## Candidate: Derivatives and Risk Transfer -- How Financial Contracts Reshape Exposure
 - **Domain:** finance
 - **Proposed by:** Librarian
