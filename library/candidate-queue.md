@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Celebrity Culture and Parasocial Relationships -- Fame, Intimacy, and Social Meaning in Mass Media
-- **Domain:** pop-culture
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 9.10/10.0 (gap=9.0, compounding=8.8, timeliness=9.0, balance=10.0)
-- **Scope:** Examines celebrity culture and parasocial relationships as media-created forms of status, identity, and perceived intimacy between audiences and public figures. Covers the star system, publicity, authenticity performance, social media, celebrity branding, scandal, representation, and how perceived intimacy affects social norms. Distinguishes fame as a cultural institution from artist biography, entertainment gossip, fan-community ethnography, and influencer-business economics.
-- **Status:** proposed
-
 ## Candidate: Tort Law and Civil Liability -- How Legal Systems Allocate Loss and Define Duty
 - **Domain:** law-regulation
 - **Proposed by:** Librarian
