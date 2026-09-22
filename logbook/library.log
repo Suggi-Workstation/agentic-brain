@@ -466,3 +466,13 @@ Wrote topic The 1918 Influenza Pandemic -- War, Public Health, and Demographic C
 Similarity overlap: 43%.
 Sources: 21 (21 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-500] | 2026-09-22 18:02 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 3 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Valuing Financial Institutions -- Banks, Insurers, and Other Balance-Sheet Businesses (9.25): gap=9.0, compounding=9.4, timeliness=9.0, balance=10.0
+- Fund Liquidity Design -- Redemption Terms, Asset Liquidity, and Forced-Selling Risk (9.00): gap=8.5, compounding=9.2, timeliness=9.0, balance=10.0
+- Structural Health Monitoring and Condition-Based Maintenance -- Detecting Deterioration Before Physical Assets Fail (8.94): gap=8.5, compounding=9.1, timeliness=8.8, balance=10.0
+Skipped (queue capacity):
+- Peer Learning and Collaborative Education -- Designing Productive Learning Through Interaction (8.76): gap=8.4, compounding=8.9, timeliness=8.4, balance=10.0
+Domain balance: education-learning, engineering-infrastructure, investment-vehicles-fund-structures, technology, and valuation-screening (10 topics) to education-learning, engineering-infrastructure, investment-vehicles-fund-structures, technology, and valuation-screening (10 topics).

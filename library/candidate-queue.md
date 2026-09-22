@@ -185,3 +185,27 @@
 - **Discovery score:** 8.99/10.0 (gap=8.8, compounding=8.9, timeliness=8.7, balance=10.0)
 - **Scope:** Examines reality television as a cultural form that turns claims of authenticity, ordinary life, competition, intimacy, and transformation into edited media performances. Covers production conventions, casting, confessionals, surveillance, class and gender representation, audience participation, social-media extensions, and the tension between reality claims and constructed narrative. Distinguishes cultural analysis from entertainment reviews, celebrity gossip, individual-program recaps, and television-industry economics.
 - **Status:** proposed
+
+## Candidate: Valuing Financial Institutions -- Banks, Insurers, and Other Balance-Sheet Businesses
+- **Domain:** valuation-screening
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.25/10.0 (gap=9.0, compounding=9.4, timeliness=9.0, balance=10.0)
+- **Scope:** Examines valuation methods for banks, insurers, and other financial institutions whose value depends on balance-sheet quality, capital requirements, funding costs, and risk-bearing capacity. Covers price-to-book and earnings multiples, normalized return on equity, excess-return models, credit losses, reserves, regulatory capital, and interest-rate sensitivity. Explains how asset and liability duration, liquidity, and accounting choices change the meaning of common valuation inputs. Distinguishes security valuation from bank regulation, portfolio construction, and generic macroeconomic forecasts.
+- **Status:** proposed
+
+## Candidate: Fund Liquidity Design -- Redemption Terms, Asset Liquidity, and Forced-Selling Risk
+- **Domain:** investment-vehicles-fund-structures
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.00/10.0 (gap=8.5, compounding=9.2, timeliness=9.0, balance=10.0)
+- **Scope:** Examines how investment-vehicle liquidity design aligns redemption terms, asset liquidity, financing, and cash buffers to limit forced selling and dilution. Covers dealing frequency, notice periods, gates, lockups, side pockets, swing pricing, liquidity stress testing, and mismatches between portfolio assets and investor claims. Compares how open-end funds, hedge funds, private vehicles, and permanent-capital structures allocate liquidity risk. Distinguishes vehicle architecture from market microstructure, portfolio-level asset allocation, and detailed securities regulation.
+- **Status:** proposed
+
+## Candidate: Structural Health Monitoring and Condition-Based Maintenance -- Detecting Deterioration Before Physical Assets Fail
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 8.94/10.0 (gap=8.5, compounding=9.1, timeliness=8.8, balance=10.0)
+- **Scope:** Examines structural health monitoring and condition-based maintenance as methods for detecting deterioration in physical assets before failure. Covers sensors, inspections, nondestructive testing, data interpretation, deterioration models, thresholds, maintenance prioritization, and uncertainty in intervention decisions. Connects bridges, rail, water, energy, and industrial assets to reliability, lifecycle cost, and risk-based asset management. Distinguishes monitoring and preventative action from post-failure forensic analysis, general construction management, and industrial-sector economics.
+- **Status:** proposed
