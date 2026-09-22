@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Corrosion and Materials Degradation -- Protecting Assets Across Their Engineered Lifecycle
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.82/10.0 (gap=8.8, compounding=9.0, timeliness=8.5, balance=9.0)
-- **Scope:** Examines corrosion and materials degradation as lifecycle processes that weaken assets through chemical, electrochemical, thermal, mechanical, and environmental mechanisms. Covers corrosion forms, material selection, protective coatings, cathodic protection, inspection, monitoring, maintenance planning, and failure consequences. Connects reliability engineering, water systems, transport, energy assets, and lifecycle cost while keeping industrial competitive analysis and natural-science discovery outside scope.
-- **Status:** proposed
-
 ## Candidate: Initial Public Offerings and Primary Capital Markets -- How Firms Raise Equity and Enter Public Markets
 - **Domain:** finance
 - **Proposed by:** Librarian
