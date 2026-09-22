@@ -1,6 +1,6 @@
 # History -- Topics
 
-12 topics. Anchor: [anchor-history.md](anchor-history.md)
+13 topics. Anchor: [anchor-history.md](anchor-history.md)
 
 - [The 1918 Influenza Pandemic Became a Global Catastrophe Through War Mobilization and Unequal State Capacity](1918-influenza-pandemic-war-public-health-and-demographic-change.md) -- [reviewed: 2026-09-22] -- The 1918-1920 influenza pandemic was not a biological event that merely coincided with the First World War: military mobilization, mass transport, and crowded institutions accelerated spread, while mortality varied with economic conditions and the local resources available for public health and care.
 
@@ -9,6 +9,8 @@
 - [The Cold War -- How Nuclear Superpowers Fought Without Fighting and Shaped the Modern World](cold-war.md) -- [reviewed: never] -- The Cold War (1945-1991) was a four-decade geopolitical struggle between the United States and the Soviet Union that shaped the modern international order without ever escalating into direct military conflict between the two superpowers. Because both sides possessed nuclear weapons capable of annihilating civilization, the conflict remained "cold" -- fought through proxy wars, ideological...
 
 - [Colonialism and Decolonization -- European Imperial Expansion Reshaped the World, and Its Reversal Created Modern Geopolitical Instability](colonialism-and-decolonization.md) -- [reviewed: never] -- Colonialism -- the half-millennium project of European imperial expansion across the Americas, Africa, Asia, and the Pacific -- was the most dramatic reorganization of human geography in recorded history. Its economic logic of extraction, its ideological justifications rooted in racial hierarchy, and its institutional architecture of indirect rule created the modern world's political map, its patterns of wealth and poverty, and its enduring ethnic conflicts.
+
+- [The French Revolution Remade Political Order by Turning Subjects into Citizens While Exposing the Limits of Universal Rights](french-revolution-revolution-rights-and-remaking-political-order.md) -- [reviewed: never] -- The French Revolution transformed a fiscal and constitutional crisis into a struggle over sovereignty, citizenship, property, religion, and social rank, replacing the corporate order of the ancien regime with the claim that political authority came from the nation ([1] [2] [3]). Its institutions changed repeatedly between 1789 and 1799, but the abolition of legal privilege, the language of...
 
 - [The Great Depression Became a Global Rupture Because Fragile Institutions Turned Recession into Systemic Collapse](great-depression-financial-collapse-policy-failure-and-institutional-change.md) -- [reviewed: never] -- The Great Depression was not simply the stock-market crash of 1929 or a severe United States business cycle. It became a worldwide economic and political rupture because the interwar gold standard, vulnerable banking systems, debt deflation, trade barriers, and constrained policy responses transmitted and amplified the initial contraction.
 
