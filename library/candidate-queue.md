@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The Meiji Restoration -- State Building, Industrialization, and Japan's Imperial Turn
-- **Domain:** history
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.99/10.0 (gap=9.0, compounding=9.0, timeliness=8.2, balance=10.0)
-- **Scope:** Examines the Meiji Restoration as Japan's rapid reorganization from Tokugawa rule into a centralized industrial and imperial state. Covers the fall of the shogunate, institutional reform, conscription, education, industrial policy, unequal treaties, and social disruption. Connects state-building, technology transfer, empire, and the altered East Asian order while distinguishing broad historical causation from biography or current geopolitical analysis.
-- **Status:** proposed
-
 ## Candidate: Metacognition and Self-Regulated Learning -- Planning, Monitoring, and Revising How One Learns
 - **Domain:** education-learning
 - **Proposed by:** Librarian
