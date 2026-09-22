@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Derivatives and Risk Transfer -- How Financial Contracts Reshape Exposure
-- **Domain:** finance
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 9.19/10.0 (gap=9.0, compounding=9.3, timeliness=8.8, balance=10.0)
-- **Scope:** Examines derivatives as contracts that transfer or reshape exposure to prices, rates, credit, and other financial risks. Covers forwards, futures, options, swaps, margin and collateral, counterparty exposure, clearing, valuation inputs, and the distinction between hedging and speculation. Connects corporate risk management, market liquidity, and financial regulation without becoming a portfolio hedging strategy or a mathematical valuation manual.
-- **Status:** proposed
-
 ## Candidate: Microbiology and the Microbial World -- How Microorganisms Shape Life
 - **Domain:** science
 - **Proposed by:** Librarian
