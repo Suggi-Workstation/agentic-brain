@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The French Revolution -- Revolution, Rights, and the Remaking of Political Order
-- **Domain:** history
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.9/10.0 (gap=9.0, compounding=8.8, timeliness=8.0, balance=10.0)
-- **Scope:** Examines the French Revolution as a political and social rupture that transformed sovereignty, citizenship, property, and the relationship between state and society. Covers the fiscal and social crises of the ancien regime, the revolution's phases from 1789 through Napoleon, violence and counterrevolution, and its transnational effects. Treats revolutionary ideas and institutions as historical causes and legacies rather than as a current constitutional-law analysis or a biography of revolutionary figures.
-- **Status:** proposed
-
 ## Candidate: The Law of Small Numbers -- Why Small Samples Produce False Certainty
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Librarian
