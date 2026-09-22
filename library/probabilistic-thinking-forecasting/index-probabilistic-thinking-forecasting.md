@@ -1,6 +1,6 @@
 # Probabilistic Thinking Forecasting -- Topics
 
-12 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
+13 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
 
 - [Base Rate Neglect -- Why Vivid Evidence Looks More Diagnostic Than It Is](base-rate-neglect.md) -- [reviewed: 2026-09-22] -- Base rate neglect is the underweighting of how common an outcome is before case-specific evidence arrives. It can distort posterior probabilities in forecasting, diagnosis, screening, and investment analysis, but the evidence does not support the stronger claim that people always ignore base rates; usage varies with task structure, representation, relevance, and the person making the judgment ([4] [8]).
 
@@ -17,6 +17,8 @@
 - [Fermi Estimation Makes Sparse Information Actionable by Exposing Assumptions](fermi-estimation-and-decomposition.md) -- [reviewed: never] -- Fermi estimation turns an apparently unanswerable quantitative question into a transparent model built from quantities that can be bounded, estimated, or researched. Its value is not a magically accurate point answer but a defensible order of magnitude, an explicit uncertainty range, and a map of which assumptions can change the decision ([2] [3] [5]).
 
 - [The Inside View Is Seductive, Detail-Rich, and Almost Always Wrong -- Why the Outside View Wins](inside-outside-view.md) -- [reviewed: never] -- The inside view and outside view are two fundamentally different ways of making predictions about the future. The inside view builds a forecast by focusing on the specific case: its unique details, constraints, resources, and plan of action. The outside view ignores those specifics and instead asks a single question: how did similar cases turn out?
+
+- [The Law of Small Numbers -- Why Small Samples Produce False Certainty](law-of-small-numbers.md) -- [reviewed: never] -- The law of small numbers is the mistaken expectation that a short record will display the stable proportions, alternation, and regularity of the process that generated it. Small samples can contain real information, but they fluctuate more than intuition expects, so streaks, extreme averages, apparent winners, and early reversals often justify less confidence than their vividness suggests ([1] [2]).
 
 - [Pre-Mortems and Post-Mortems Turn Uncertain Decisions Into Testable Learning Cycles](pre-mortems-and-post-mortems.md) -- [reviewed: never] -- A pre-mortem imagines that a proposed decision has failed and searches backward for plausible causes before commitment, while a post-mortem reconstructs what happened after execution and converts the comparison into revised rules. Used together, they make assumptions, probabilities, warning signals, and causal claims explicit enough to test rather than allowing the observed outcome to rewrite the original forecast ([1] [2] [3]).
 
