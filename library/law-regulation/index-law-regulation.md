@@ -1,6 +1,6 @@
 # Law Regulation -- Topics
 
-10 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+11 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
 
 - [Administrative Law Makes Agency Power Operational but Keeps It Legally Bounded](administrative-law-and-agency-rulemaking.md) -- [reviewed: never] -- Administrative law is the framework through which United States federal agencies turn congressional statutes into generally applicable rules, case-specific orders, licenses, sanctions, and other public actions. The Administrative Procedure Act supplies default procedures for rulemaking and adjudication, while organic statutes grant each agency its substantive authority and courts police the resulting boundaries.
 
@@ -17,6 +17,8 @@
 - [Intellectual Property -- The Legal Fiction That Turns Ideas Into Property and Shapes the Modern Economy](intellectual-property.md) -- [reviewed: never] -- Intellectual property (IP) is the body of law that grants exclusive rights over intangible creations -- inventions, artistic works, brand identifiers, and trade secrets. By creating a temporary monopoly on ideas, IP law attempts to solve a fundamental economic problem: without protection, knowledge goods are non-rivalrous and non-excludable, meaning anyone can copy them at zero marginal cost, which would eliminate the incentive to create them in the first place.
 
 - [International Law and Treaties -- The Decentralized Framework of Global Order](international-law-and-treaties.md) -- [reviewed: never] -- International law is the body of rules that governs relations between sovereign states, created not by a single legislature but through the consent of the states it binds. Its primary instruments are treaties -- written agreements between states governed by international law -- supplemented by customary practice, general principles, and judicial decisions.
+
+- [Legal Precedent and Stare Decisis -- Courts Make Law Across Cases by Constraining Change](legal-precedent-and-stare-decisis-how-courts-make-law-across-cases.md) -- [reviewed: never] -- Legal precedent turns an earlier judicial decision into a reason for deciding a later case in a similar way, while stare decisis supplies the institutional rule that gives some precedents controlling force. The system makes law more stable, equal, and predictable without freezing it: courts can distinguish materially different cases, narrow broad language, or overrule a rule through procedures that demand stronger justification than an ordinary first-instance choice.
 
 - [Regulatory Capture Theory -- Why the Regulated Inevitably Come to Control Their Regulators](regulatory-capture-theory.md) -- [reviewed: never] -- Regulatory capture theory holds that regulatory agencies, created to protect the public interest, inevitably come to serve the industries they were designed to oversee. First formalized by Nobel laureate George Stigler in his landmark 1971 paper "The Theory of Economic Regulation," the theory argues that regulation is not imposed on industry for the public good but is instead acquired by industry and operated primarily for its benefit.
 
