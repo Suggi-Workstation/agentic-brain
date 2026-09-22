@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Science Fiction as Cultural Foresight -- How Speculative Media Shapes Ideas About Technology and Society
-- **Domain:** pop-culture
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.8/10.0 (gap=8.5, compounding=8.8, timeliness=8.5, balance=10.0)
-- **Scope:** Examines science fiction as a cultural genre that stages contemporary anxieties and aspirations through imagined technologies, futures, and encounters with the nonhuman. Covers utopian and dystopian traditions, technological imagination, political allegory, environmental themes, adaptation across literature, film, television, and games, and the limits of treating fiction as prediction. Distinguishes cultural analysis of speculative works from technology forecasting, media-industry economics, and summaries of individual books or franchises.
-- **Status:** proposed
-
 ## Candidate: The Meiji Restoration -- State Building, Industrialization, and Japan's Imperial Turn
 - **Domain:** history
 - **Proposed by:** Librarian
