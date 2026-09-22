@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Tort Law and Civil Liability -- How Legal Systems Allocate Loss and Define Duty
-- **Domain:** law-regulation
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.94/10.0 (gap=9.0, compounding=8.7, timeliness=8.3, balance=10.0)
-- **Scope:** Examines tort law as the civil system for allocating loss when one party wrongfully harms another outside a contractual relationship. Covers negligence, duty, breach, causation, damages, intentional torts, strict liability, defenses, insurance, and the deterrence-compensation tradeoff. Distinguishes civil liability from criminal punishment, contract enforcement, and corporate fiduciary duties while connecting legal doctrine to the institutional costs of risk.
-- **Status:** proposed
-
 ## Candidate: The 1918 Influenza Pandemic -- War, Public Health, and Demographic Change
 - **Domain:** history
 - **Proposed by:** Librarian
