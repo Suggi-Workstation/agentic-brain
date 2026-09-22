@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Initial Public Offerings and Primary Capital Markets -- How Firms Raise Equity and Enter Public Markets
-- **Domain:** finance
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.78/10.0 (gap=8.7, compounding=9.0, timeliness=8.5, balance=9.0)
-- **Scope:** Examines initial public offerings and primary capital markets as the processes through which firms issue new equity and transition into public ownership. Covers underwriting, bookbuilding, pricing, allocation, disclosure, lockups, direct listings, special-purpose acquisition companies, and the trade-offs among issuers, investors, and intermediaries. Connects capital formation, market microstructure, corporate governance, and valuation inputs without becoming a stock-picking method or a legal guide to securities compliance.
-- **Status:** proposed
-
 ## Candidate: Antimicrobial Resistance and Antibiotic Stewardship -- Preserving Effective Treatment
 - **Domain:** health-medicine
 - **Proposed by:** Librarian
