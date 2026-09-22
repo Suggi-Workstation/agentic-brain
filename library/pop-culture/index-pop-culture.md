@@ -1,6 +1,6 @@
 # Pop Culture -- Topics
 
-10 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
+11 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
 
 - [Advertising and Consumer Culture -- How Ads Manufacture Desire Instead of Informing Choice](advertising-manufacturing-desire.md) -- [reviewed: never] -- Advertising is not merely a commercial information service that connects products to willing buyers. It is a system for manufacturing desire -- a deliberate psychological apparatus that creates dissatisfaction, associates products with identity and aspiration, and transforms citizens into consumers. From Edward Bernays's application of Freudian psychoanalysis to commercial persuasion in the...
 
@@ -19,6 +19,8 @@
 - [Prestige Television -- How The Sopranos, The Wire, and Breaking Bad Elevated TV to the Signature Art Form of the 21st Century](prestige-television.md) -- [reviewed: never] -- The "Golden Age of Television" that began with HBO's The Sopranos in 1999 and crested through The Wire, Mad Men, Breaking Bad, and Deadwood was not merely a string of excellent shows -- it was a fundamental renegotiation of what television could be. For the first time, serialized television achieved the narrative depth, moral complexity, and cultural weight previously reserved for the novel and cinema.
 
 - [Propaganda -- How Information Is Weaponized to Shape Perception and Manufacture Consent](propaganda-manufacturing-consent.md) -- [reviewed: never] -- Propaganda is the systematic effort to manipulate beliefs, attitudes, and behavior through the selective use of information -- facts, half-truths, arguments, and outright lies -- disseminated via mass media. Far from being a relic of totalitarian regimes, propaganda is a permanent feature of all societies with concentrated power and mass communication channels.
+
+- [Science Fiction Makes the Present Strange So Societies Can Rehearse Possible Futures](science-fiction-as-cultural-foresight.md) -- [reviewed: never] -- Science fiction matters less as a record of predictions that later came true than as a cultural practice for making present assumptions visible: it places a plausible novelty inside an imagined world, follows the social consequences, and lets audiences compare that world with their own ([1] [2] [4]).
 
 - [Video Games -- How Interactive Agency Turned Play into the 21st Century's Dominant Cultural Art Form](video-games-cultural-artifacts.md) -- [reviewed: never] -- Video games have grown from arcade curiosities into the largest and most culturally influential entertainment medium of the 21st century, reaching billions of players across every demographic and, by some estimates, surpassing film and music combined in revenue. What distinguishes games from every earlier medium is agency -- the player's power to act within and shape the experience -- which...
 
