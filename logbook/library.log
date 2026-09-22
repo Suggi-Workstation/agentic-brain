@@ -415,3 +415,15 @@ Wrote topic Microbiology and the Microbial World -- How Microorganisms Shape Lif
 Similarity overlap: 35%.
 Sources: 16 (16 high, 0 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-493] | 2026-09-22 16:01 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 4 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Precision Medicine and Pharmacogenomics -- Matching Prevention and Treatment to Patient Characteristics (9.08): gap=9.0, compounding=9.3, timeliness=9.0, balance=9.0
+- Learning Disabilities and Differentiated Instruction -- Adapting Teaching Without Lowering Learning Goals (9.04): gap=9.0, compounding=9.3, timeliness=8.8, balance=9.0
+- Elinor Ostrom -- Governing Commons Through Institutions and Collective Action (9.00): gap=9.0, compounding=9.4, timeliness=8.5, balance=9.0
+- Reality Television and the Performance of Authenticity -- How Edited Media Turns Ordinary Life Into Cultural Narrative (8.99): gap=8.8, compounding=8.9, timeliness=8.7, balance=10.0
+Skipped (queue capacity):
+- Fund Liquidity Design -- Redemption Terms, Asset Liquidity, and Forced-Selling Risk (8.85): gap=8.5, compounding=9.2, timeliness=9.0, balance=9.0
+- Structural Health Monitoring and Condition-Based Maintenance -- Detecting Deterioration Before Physical Assets Fail (8.83): gap=8.5, compounding=9.1, timeliness=9.0, balance=9.0
+Domain balance: pop-culture (9 topics) to education-learning, engineering-infrastructure, health-medicine, investment-vehicles-fund-structures, and notable-people (10 topics).

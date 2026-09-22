@@ -177,3 +177,35 @@
 - **Discovery score:** 8.81/10.0 (gap=8.5, compounding=8.6, timeliness=8.8, balance=10.0)
 - **Scope:** Examines horror as a genre that externalizes cultural anxieties about the body, family, technology, gender, race, class, and social disorder. Covers genre cycles, monsters and the uncanny, slasher and psychological forms, allegory, censorship, audience reception, and adaptation across film, television, literature, and games. Treats particular works as evidence of cultural change rather than entertainment reviews, plot summaries, or clinical psychology.
 - **Status:** proposed
+
+## Candidate: Precision Medicine and Pharmacogenomics -- Matching Prevention and Treatment to Patient Characteristics
+- **Domain:** health-medicine
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.08/10.0 (gap=9.0, compounding=9.3, timeliness=9.0, balance=9.0)
+- **Scope:** Examines precision medicine and pharmacogenomics as approaches that use genomic and other patient-level characteristics to inform disease prevention, diagnosis, and treatment. Covers test validity, gene-drug interactions, biomarker-guided therapies, evidence standards, clinical utility, equity, and the limits of translating association into treatment benefit. Distinguishes evidence-based clinical use from direct-to-consumer testing, general genetics, AI system engineering, and pharmaceutical business analysis.
+- **Status:** proposed
+
+## Candidate: Learning Disabilities and Differentiated Instruction -- Adapting Teaching Without Lowering Learning Goals
+- **Domain:** education-learning
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.04/10.0 (gap=9.0, compounding=9.3, timeliness=8.8, balance=9.0)
+- **Scope:** Examines learning disabilities and differentiated instruction as evidence-based methods for identifying barriers to learning and adapting teaching while preserving ambitious curriculum goals. Covers dyslexia, dyscalculia, assessment, accommodations, targeted instruction, universal design for learning, progress monitoring, and the difference between equality and appropriate support. Distinguishes educational intervention from clinical diagnosis, childhood-development theory, and unsupported individualized-learning claims.
+- **Status:** proposed
+
+## Candidate: Elinor Ostrom -- Governing Commons Through Institutions and Collective Action
+- **Domain:** notable-people
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.00/10.0 (gap=9.0, compounding=9.4, timeliness=8.5, balance=9.0)
+- **Scope:** Profiles Elinor Ostrom as a political scientist whose field research on shared resources challenged the claim that commons must be privatized or centrally controlled. Covers her intellectual development, the Institutional Analysis and Development framework, design principles, empirical cases, scholarly disputes, and the Nobel Prize's context. Treats commons governance, public policy, and economic theory as contexts for her choices and legacy rather than as a general institutional-design survey.
+- **Status:** proposed
+
+## Candidate: Reality Television and the Performance of Authenticity -- How Edited Media Turns Ordinary Life Into Cultural Narrative
+- **Domain:** pop-culture
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 8.99/10.0 (gap=8.8, compounding=8.9, timeliness=8.7, balance=10.0)
+- **Scope:** Examines reality television as a cultural form that turns claims of authenticity, ordinary life, competition, intimacy, and transformation into edited media performances. Covers production conventions, casting, confessionals, surveillance, class and gender representation, audience participation, social-media extensions, and the tension between reality claims and constructed narrative. Distinguishes cultural analysis from entertainment reviews, celebrity gossip, individual-program recaps, and television-industry economics.
+- **Status:** proposed
