@@ -2,7 +2,7 @@
 
 12 topics. Anchor: [anchor-history.md](anchor-history.md)
 
-- [The 1918 Influenza Pandemic Became a Global Catastrophe Through War Mobilization and Unequal State Capacity](1918-influenza-pandemic-war-public-health-and-demographic-change.md) -- [reviewed: never] -- The 1918-1920 influenza pandemic was not a biological event that merely coincided with the First World War: military mobilization, mass transport, crowded institutions, uneven public-health authority, and unequal access to care shaped how a novel H1N1 virus became a worldwide demographic disaster. Its history shows that pandemic severity emerges from interaction among pathogen, population,...
+- [The 1918 Influenza Pandemic Became a Global Catastrophe Through War Mobilization and Unequal State Capacity](1918-influenza-pandemic-war-public-health-and-demographic-change.md) -- [reviewed: 2026-09-22] -- The 1918-1920 influenza pandemic was not a biological event that merely coincided with the First World War: military mobilization, mass transport, and crowded institutions accelerated spread, while mortality varied with economic conditions and the local resources available for public health and care.
 
 - [Ancient Civilizations -- Why the Institutions They Built Still Shape Modern Life](ancient-civilizations-and-their-legacies.md) -- [reviewed: never] -- Ancient civilizations were not merely collections of stone monuments and clay tablets. They were the first complex societies to solve the problems of governance, law, economic coordination, and knowledge transmission at scale -- and the institutional solutions they invented form the deep architecture of modern states, legal systems, and economies.
 
