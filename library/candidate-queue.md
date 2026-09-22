@@ -177,3 +177,27 @@
 - **Discovery score:** 8.94/10.0 (gap=8.5, compounding=9.1, timeliness=8.8, balance=10.0)
 - **Scope:** Examines structural health monitoring and condition-based maintenance as methods for detecting deterioration in physical assets before failure. Covers sensors, inspections, nondestructive testing, data interpretation, deterioration models, thresholds, maintenance prioritization, and uncertainty in intervention decisions. Connects bridges, rail, water, energy, and industrial assets to reliability, lifecycle cost, and risk-based asset management. Distinguishes monitoring and preventative action from post-failure forensic analysis, general construction management, and industrial-sector economics.
 - **Status:** proposed
+
+## Candidate: Post-Quantum Cryptography Migration -- Implementing Standards Before Quantum Risk
+- **Domain:** technology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.4/10.0 (gap=9.0, compounding=9.2, timeliness=9.8, balance=10.0)
+- **Scope:** Examines the migration of software, networks, and public-key infrastructure from quantum-vulnerable cryptography to standardized post-quantum algorithms. Covers cryptographic inventory, algorithm selection, hybrid deployment, certificate and protocol dependencies, performance constraints, and staged testing. Distinguishes implementation and migration engineering from quantum-computing science, general cybersecurity governance, and cryptographic regulation.
+- **Status:** proposed
+
+## Candidate: Regenerative Medicine and Stem-Cell Therapies -- Evidence, Clinical Translation, and Limits
+- **Domain:** health-medicine
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.3/10.0 (gap=9.0, compounding=9.2, timeliness=9.3, balance=10.0)
+- **Scope:** Examines regenerative medicine and stem-cell therapies as clinical interventions intended to repair, replace, or restore damaged cells and tissues. Covers cell sources, manufacturing, delivery, clinical-trial design, safety monitoring, evidence standards, approved uses, and the risks of unapproved products. Distinguishes clinical translation from basic cell biology, device engineering, and pharmaceutical business analysis.
+- **Status:** proposed
+
+## Candidate: Investment Vehicle Governance and Shareholder Rights -- Control, Oversight, and Minority Protections
+- **Domain:** investment-vehicles-fund-structures
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.0/10.0 (gap=8.7, compounding=9.2, timeliness=8.6, balance=10.0)
+- **Scope:** Examines vehicle-level governance and shareholder rights as mechanisms that allocate control, oversight, conflicts, and capital-allocation authority within funds, investment companies, and permanent-capital vehicles. Covers boards, voting rights, adviser incentives, related-party conflicts, disclosure, activist pressure, and protections for minority owners. Distinguishes recurring structural governance from securities-law doctrine, operating-company governance, and biographies of fund managers.
+- **Status:** proposed

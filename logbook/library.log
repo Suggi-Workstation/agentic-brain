@@ -414,3 +414,14 @@ Wrote topic The French Revolution -- Revolution, Rights, and the Remaking of Pol
 Similarity overlap: 18%.
 Sources: 18 (17 high, 1 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-508] | 2026-09-22 20:02 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 3 candidates proposed, 3 skipped (queue capped at 25).
+Candidates:
+- Post-Quantum Cryptography Migration -- Implementing Standards Before Quantum Risk (9.4): gap=9.0, compounding=9.2, timeliness=9.8, balance=10.0
+- Regenerative Medicine and Stem-Cell Therapies -- Evidence, Clinical Translation, and Limits (9.3): gap=9.0, compounding=9.2, timeliness=9.3, balance=10.0
+- Investment Vehicle Governance and Shareholder Rights -- Control, Oversight, and Minority Protections (9.0): gap=8.7, compounding=9.2, timeliness=8.6, balance=10.0
+- Engineering Standards, Codes, and Safety Margins -- Translating Risk into Design Constraints (8.9): gap=8.5, compounding=9.1, timeliness=8.4, balance=10.0
+- Private Company Valuation -- Estimating Value Without a Quoted Market Price (8.8): gap=8.2, compounding=9.4, timeliness=8.4, balance=10.0
+- Motivation and Engagement in Learning -- Conditions That Sustain Effort and Productive Participation (8.7): gap=8.4, compounding=9.0, timeliness=8.0, balance=10.0
+Domain balance: education-learning (10 topics) to valuation-screening (10 topics); all six selected domains tied.
