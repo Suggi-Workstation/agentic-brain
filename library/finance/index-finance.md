@@ -1,6 +1,6 @@
 # Finance -- Topics
 
-12 topics. Anchor: [anchor-finance.md](anchor-finance.md)
+13 topics. Anchor: [anchor-finance.md](anchor-finance.md)
 
 - [Asset Management Economics -- Scale Expands Fee Revenue Faster Than Investment Capacity](asset-management-economics-incentives-scale-and-financial-intermediation.md) -- [reviewed: 2026-09-21] -- Asset managers are financial intermediaries that convert client mandates into portfolios while charging for selection, implementation, risk control, administration, and access. Their central economic tension is that revenue usually rises with assets under management, while investment capacity, client outcomes, and the ability to outperform do not necessarily scale at the same rate; incentives...
 
@@ -13,6 +13,8 @@
 - [Cost of Capital and WACC -- Why the Price of Funding Determines Every Investment Decision](cost-of-capital-and-wacc.md) -- [reviewed: never] -- The cost of capital is the minimum return a company must earn on its investments to satisfy the investors and lenders who provide its funding. The weighted average cost of capital (WACC) blends the cost of equity and the after-tax cost of debt into a single discount rate, weighted by how much of each source the company uses.
 
 - [Credit Analysis -- Why Assessing Default Risk Is the Discipline That Makes Lending Possible](credit-analysis-default-risk.md) -- [reviewed: never] -- Credit analysis is the systematic evaluation of a borrower's ability and willingness to repay debt, combining quantitative financial ratios, qualitative judgment, and structured risk frameworks into an assessment of default probability and loss severity. It is the foundational discipline of all lending -- from a community bank evaluating a small business loan to a global rating agency assigning a AAA grade to a sovereign bond issuer.
+
+- [Derivatives and Risk Transfer -- Contracts Reshape Exposure but Do Not Make Risk Disappear](derivatives-and-risk-transfer.md) -- [reviewed: never] -- A derivative is a contract whose value depends on an underlying price, rate, index, credit event, or other specified variable. It can separate that exposure from ownership of the underlying asset and assign it to parties with different objectives, information, and risk-bearing capacity. The central claim is that derivatives reshape the amount, timing, and location of risk; they do not erase the economic loss that occurs when the underlying state moves adversely ([1] [2]).
 
 - [Dividend Policy and Share Buybacks -- Why Returning Capital to Shareholders Is a Strategic Choice, Not Arithmetic](dividend-policy-and-share-buybacks.md) -- [reviewed: never] -- Dividend policy and share buybacks are the two primary mechanisms by which companies return capital to shareholders, and the choice between them -- and the decision to return capital at all -- is among the most consequential and debated in corporate finance. In a frictionless world, the Modigliani-Miller dividend irrelevance theorem proves that payout policy does not affect firm value.
 
