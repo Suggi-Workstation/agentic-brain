@@ -1,6 +1,6 @@
 # Probabilistic Thinking Forecasting -- Topics
 
-11 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
+12 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
 
 - [Base Rate Neglect -- Why We Ignore Prior Probabilities and Sabotage Our Forecasts](base-rate-neglect.md) -- [reviewed: never] -- Base rate neglect is the systematic cognitive bias that causes people to underweight or entirely ignore statistical prior probabilities (base rates) when making judgments under uncertainty, instead fixating on specific, vivid, or case-specific information. Identified by Kahneman and Tversky in the early 1970s as a consequence of the representativeness heuristic, base rate neglect is one of the most robust and consequential findings in the judgment and decision-making literature.
 
@@ -13,6 +13,8 @@
 - [Ergodicity Changes Rational Choice -- Average Outcomes Can Mislead a Path-Dependent Decision-Maker](ergodicity-and-path-dependent-decision-making.md) -- [reviewed: never] -- Ergodicity determines whether an average across many possible outcomes describes what one decision-maker is likely to experience through time. When wealth compounds, losses alter the base exposed to every later outcome, so a favorable expected value can coexist with declining typical wealth or ruin; sound decisions must therefore match the averaging rule to the process being lived ([1] [2]).
 
 - [Expected Value Thinking -- Why Rational Decision-Makers Win by Embracing Uncertainty](expected-value-decision-trees.md) -- [reviewed: never] -- Expected value (EV) thinking is the rational decision-maker's core operating system: multiply each possible outcome by its probability, sum across all outcomes, and select the path with the highest expected result. Simple in principle, EV thinking is notoriously difficult to live by because it demands being willing to lose individual bets you were right to take.
+
+- [Fermi Estimation Makes Sparse Information Actionable by Exposing Assumptions](fermi-estimation-and-decomposition.md) -- [reviewed: never] -- Fermi estimation turns an apparently unanswerable quantitative question into a transparent model built from quantities that can be bounded, estimated, or researched. Its value is not a magically accurate point answer but a defensible order of magnitude, an explicit uncertainty range, and a map of which assumptions can change the decision ([2] [3] [5]).
 
 - [The Inside View Is Seductive, Detail-Rich, and Almost Always Wrong -- Why the Outside View Wins](inside-outside-view.md) -- [reviewed: never] -- The inside view and outside view are two fundamentally different ways of making predictions about the future. The inside view builds a forecast by focusing on the specific case: its unique details, constraints, resources, and plan of action. The outside view ignores those specifics and instead asks a single question: how did similar cases turn out?
 
