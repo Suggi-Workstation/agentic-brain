@@ -1,6 +1,6 @@
 # Education Learning -- Topics
 
-11 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
+12 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
 - [Assessment and Testing -- What We Measure Shapes What We Learn, and Most Tests Measure the Wrong Things](assessment-and-testing.md) -- [reviewed: never] -- Assessment is not a neutral measurement tool. It is the single most powerful lever for shaping student behavior, curriculum design, and institutional priorities in education. The backwash effect -- the principle that assessment drives learning more than any curriculum document -- means that what we choose to test determines what students choose to learn.
 
@@ -23,4 +23,6 @@
 - [Pedagogy and Teaching Methods -- How Evidence-Based Instruction Shapes What Students Actually Learn](pedagogy-and-teaching-methods.md) -- [reviewed: never] -- The choice of teaching method is not merely a matter of teacher preference or institutional tradition. Decades of cognitive science research and large-scale meta-analyses show that how content is delivered -- whether through explicit direct instruction, structured inquiry, project-based exploration, or Socratic questioning -- produces substantially different learning outcomes depending on the learner's prior knowledge, the nature of the material, and the specific learning objective.
 
 - [Spaced Repetition and Retrieval Practice -- The Two Most Robust Findings in Learning Science Are Also the Most Underused](spaced-repetition-and-retrieval-practice.md) -- [reviewed: never] -- Spaced repetition -- reviewing material at expanding intervals rather than in a single massed session -- and retrieval practice -- actively recalling information from memory rather than passively rereading it -- are the two most replicated and powerful findings in the cognitive science of learning. Together they can double or triple long-term retention compared to standard study methods, yet most students and educational institutions do not use them.
+
+- [Learning Transfers Only When Knowledge Is Built for Recognition, Adaptation, and Use Beyond the Lesson](transfer-of-learning-and-generalization.md) -- [reviewed: never] -- Transfer of learning occurs when prior learning changes performance or further learning in a different task, problem, setting, or time. It is not an automatic dividend from instruction: usable generalization depends on what was learned, how knowledge was represented and practiced, whether the learner recognizes a relevant relationship, and whether assessment actually samples the intended distance from the lesson ([1] [2] [3]).
 
