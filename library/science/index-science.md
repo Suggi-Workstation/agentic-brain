@@ -2,7 +2,7 @@
 
 12 topics. Anchor: [anchor-science.md](anchor-science.md)
 
-- [Cell Biology -- How the Fundamental Unit of Life Builds, Maintains, and Replicates Itself](cell-biology.md) -- [reviewed: never] -- Cell biology is the study of the cell -- the smallest structural and functional unit capable of independent life. It explains how eukaryotic cells organize their internal machinery across a network of membrane-bound organelles, process signals from their environment, faithfully divide through mitosis, and dismantle themselves through programmed cell death when they malfunction.
+- [Cell Biology -- Compartmentalized, Dynamic Cells Sustain Life Through Coordinated Transport, Signaling, Division, and Death](cell-biology.md) -- [reviewed: 2026-09-22] -- Cell biology explains how cells organize chemical reactions, exchange matter and information, reproduce, and sometimes execute regulated death. The cell is the basic structural and functional unit of cellular life, but no single cell plan is universal: bacterial, archaeal, and eukaryotic cells solve the same functional problems with different degrees and kinds of compartmentalization ([1] [2] [4]).
 
 - [The Periodic Table Is Chemistry's Prediction Engine -- Electron Structure Determines Bonding, Properties, and Reactivity](chemistry-periodic-table-bonding.md) -- [reviewed: never] -- The periodic table organizes all 118 known elements by a single physical quantity -- atomic number -- and in doing so encodes the rules that govern every chemical bond in the universe. Elements in the same column behave alike because their atoms share the same valence-electron architecture; where an element sits predicts how it will bond, what properties its compounds will have, and how it will react.
 
