@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Post-Quantum Cryptography Migration -- Implementing Standards Before Quantum Risk
-- **Domain:** technology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.4/10.0 (gap=9.0, compounding=9.2, timeliness=9.8, balance=10.0)
-- **Scope:** Examines the migration of software, networks, and public-key infrastructure from quantum-vulnerable cryptography to standardized post-quantum algorithms. Covers cryptographic inventory, algorithm selection, hybrid deployment, certificate and protocol dependencies, performance constraints, and staged testing. Distinguishes implementation and migration engineering from quantum-computing science, general cybersecurity governance, and cryptographic regulation.
-- **Status:** proposed
-
 ## Candidate: Regenerative Medicine and Stem-Cell Therapies -- Evidence, Clinical Translation, and Limits
 - **Domain:** health-medicine
 - **Proposed by:** Librarian
