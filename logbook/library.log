@@ -450,3 +450,12 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Antibiotic Stewardship Preserves Effective Treatment by Reducing Selection Without Withholding Necessary Care (health-medicine): rewritten (corrected unsupported historical attribution and CDC source date, replaced inaccessible mechanism source URL, added outpatient and discharge evidence and three sources).
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-543] | 2026-09-23 06:01 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 4 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Programming-Language Memory Safety -- How Ownership and Type Systems Prevent Vulnerability Classes (9.2): gap=9.2, compounding=9.2, timeliness=9.3, balance=9.1
+- Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture (9.0): gap=8.9, compounding=9.0, timeliness=9.3, balance=9.1
+- Time Blocking and Task Batching -- Scheduling Focused Work Around Interruptions (9.0): gap=8.8, compounding=9.2, timeliness=8.5, balance=10.0
+- Population Projections -- Cohort-Component Methods and Uncertainty (9.0): gap=9.2, compounding=9.1, timeliness=8.5, balance=9.1
+Domain balance: self-improvement (10 topics) to investment-vehicles-fund-structures, psychology-behavior, sociology-demography, technology, geopolitics (11 topics each).

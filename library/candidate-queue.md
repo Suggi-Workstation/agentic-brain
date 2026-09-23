@@ -177,3 +177,35 @@
 - **Discovery score:** 8.95/10.0 (gap=9.0, compounding=9.2, timeliness=8.4, balance=9.1)
 - **Scope:** Examines cultural transmission and social learning as processes through which knowledge, norms, skills, and practices persist and change across generations and groups. Covers vertical, horizontal, and oblique transmission, teaching, imitation, prestige, conformity, innovation, and the conditions for cumulative culture. Uses cross-cultural and ethnographic evidence to distinguish patterns of transmission from individual cognition alone. Distinguishes cultural-level analysis from clinical learning theory, formal education policy, and generic claims of cultural determinism.
 - **Status:** proposed
+
+## Candidate: Programming-Language Memory Safety -- How Ownership and Type Systems Prevent Vulnerability Classes
+- **Domain:** technology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 9.2/10.0 (gap=9.2, compounding=9.2, timeliness=9.3, balance=9.1)
+- **Scope:** Examines how programming-language memory-safety mechanisms prevent classes of use-after-free, out-of-bounds, and lifetime errors. Covers type systems, ownership and borrowing, managed runtimes, foreign-function boundaries, and migration of legacy components. Compares safeguards, performance and interoperability trade-offs, and residual vulnerabilities that memory safety does not eliminate. Distinguishes language-level engineering from broad cybersecurity governance, supply-chain inventories, and physical hardware protection.
+- **Status:** proposed
+
+## Candidate: Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture
+- **Domain:** geopolitics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 9.0/10.0 (gap=8.9, compounding=9.0, timeliness=9.3, balance=9.1)
+- **Scope:** Examines why states enter security alliances and when mutual-defense commitments are believed by members and adversaries. Covers treaty commitments, capability and deployment signals, consultation, burden sharing, entrapment and abandonment risks, and strategic disagreements among allies. Compares conventional and nuclear assurance without turning extended nuclear deterrence into the whole subject. Distinguishes alliance-level power and credibility from domestic defence budgets, military hardware, and treaty-law doctrine.
+- **Status:** proposed
+
+## Candidate: Time Blocking and Task Batching -- Scheduling Focused Work Around Interruptions
+- **Domain:** self-improvement
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 9.0/10.0 (gap=8.8, compounding=9.2, timeliness=8.5, balance=10.0)
+- **Scope:** Examines time blocking and task batching as practical methods for matching work to available attention and reducing costly switches between tasks. Covers calendar design, buffer time, grouping similar tasks, interruption plans, daily review, and adaptation when schedules change. Evaluates what evidence supports these practices and when rigid scheduling may fail or increase pressure. Distinguishes personal scheduling technique from the broader theory of deep work, general goal setting, and organizational workflow design.
+- **Status:** proposed
+
+## Candidate: Population Projections -- Cohort-Component Methods and Uncertainty
+- **Domain:** sociology-demography
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 9.0/10.0 (gap=9.2, compounding=9.1, timeliness=8.5, balance=9.1)
+- **Scope:** Explains how demographers project population size and age structure by advancing cohorts through assumptions about fertility, mortality, and migration. Covers baseline census quality, cohort-component calculations, variant scenarios, probabilistic intervals, and sensitivity to changing assumptions. Connects projections to social institutions and population aging while explaining why long horizons widen uncertainty. Distinguishes projection methods from demographic-transition theory, economic forecasts, and advocacy for a particular population policy.
+- **Status:** proposed
