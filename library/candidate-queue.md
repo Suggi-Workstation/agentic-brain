@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Precision Medicine and Pharmacogenomics -- Matching Prevention and Treatment to Patient Characteristics
-- **Domain:** health-medicine
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.08/10.0 (gap=9.0, compounding=9.3, timeliness=9.0, balance=9.0)
-- **Scope:** Examines precision medicine and pharmacogenomics as approaches that use genomic and other patient-level characteristics to inform disease prevention, diagnosis, and treatment. Covers test validity, gene-drug interactions, biomarker-guided therapies, evidence standards, clinical utility, equity, and the limits of translating association into treatment benefit. Distinguishes evidence-based clinical use from direct-to-consumer testing, general genetics, AI system engineering, and pharmaceutical business analysis.
-- **Status:** proposed
-
 ## Candidate: Learning Disabilities and Differentiated Instruction -- Adapting Teaching Without Lowering Learning Goals
 - **Domain:** education-learning
 - **Proposed by:** Librarian
