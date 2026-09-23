@@ -1,6 +1,6 @@
 # Education Learning -- Topics
 
-12 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
+13 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
 - [Assessment and Testing -- Score Meaning Depends on What a Test Samples and How Its Results Are Used](assessment-and-testing.md) -- [reviewed: 2026-09-23] -- Assessment shapes what learners practice, but a score is not a direct reading of knowledge. Its meaning depends on a coordinated model of learning, tasks that elicit relevant evidence, a defensible interpretation process, and evidence that the proposed use is valid, reliable, and fair ([1] [2]). The practical objective is therefore not to choose one universally superior format, but to build an...
 
@@ -17,6 +17,8 @@
 - [Educational Technology Improves Learning Only When Pedagogy, Feedback, and Implementation Improve With It](educational-technology-and-adaptive-learning.md) -- [reviewed: never] -- Educational technology does not improve learning merely by placing a device, platform, or artificial intelligence system between a teacher and a student. It improves learning when it diagnoses what a learner knows, selects an appropriate next task, elicits active thinking, supplies useful feedback, and fits a workable instructional system; the same technology can distract, automate answer production, or widen inequity when those conditions are absent [1, 9, 11].
 
 - [The Feynman Technique and Learning Heuristics -- Why the Best Learning Methods Force You to Confront What You Do Not Know](feynman-technique-and-learning-heuristics.md) -- [reviewed: never] -- The most effective learning techniques share a single, uncomfortable property: they force the learner to confront the gap between what they think they know and what they can actually produce. The Feynman Technique (explain it simply, find the gaps, fill them, simplify further), the Leitner system (sort flashcards by difficulty, review what you are about to forget), the SQ3R method (survey,...
+
+- [Differentiated Instruction Works When It Removes Learning Barriers Without Lowering the Goal](learning-disabilities-and-differentiated-instruction.md) -- [reviewed: never] -- Learning disabilities can make particular academic processes persistently difficult without defining a learner's overall capacity or justifying a less ambitious curriculum. Effective differentiation therefore preserves the intended learning goal, identifies the barrier between the learner and that goal, applies an evidence-based support, and uses progress data to decide whether the support should continue, change, or intensify ([1] [2] [3] [12]).
 
 - [Metacognition and Self-Regulated Learning Work Only When Monitoring Changes What the Learner Does Next](metacognition-and-self-regulated-learning.md) -- [reviewed: never] -- Metacognition makes a learner's knowledge, task, and strategy choices available for inspection, while self-regulated learning turns that inspection into a cycle of goals, action, feedback, and revision ([1] [2] [4]). The central claim is that awareness alone is insufficient: monitoring has educational value only when it changes strategy, effort, help seeking, task choice, or the decision to continue ([3] [9]).
 
