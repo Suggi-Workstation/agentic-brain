@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Fund Liquidity Design -- Redemption Terms, Asset Liquidity, and Forced-Selling Risk
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.00/10.0 (gap=8.5, compounding=9.2, timeliness=9.0, balance=10.0)
-- **Scope:** Examines how investment-vehicle liquidity design aligns redemption terms, asset liquidity, financing, and cash buffers to limit forced selling and dilution. Covers dealing frequency, notice periods, gates, lockups, side pockets, swing pricing, liquidity stress testing, and mismatches between portfolio assets and investor claims. Compares how open-end funds, hedge funds, private vehicles, and permanent-capital structures allocate liquidity risk. Distinguishes vehicle architecture from market microstructure, portfolio-level asset allocation, and detailed securities regulation.
-- **Status:** proposed
-
 ## Candidate: Structural Health Monitoring and Condition-Based Maintenance -- Detecting Deterioration Before Physical Assets Fail
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Librarian
