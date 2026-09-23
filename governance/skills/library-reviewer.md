@@ -91,7 +91,7 @@ committing.
 - [ ] Procedure completed: select domains in step 2, select and attempt at most one topic in step 3 with no blocked-topic replacement, read template, research, correct errors and gaps, re-read template, verify checklist, stamp reviewed date, log, commit (PASS / HALT)
 - [ ] Template read in full before reviewing and re-read before final checklist verification (PASS / HALT)
 - [ ] Topics selected have no reviewed date or are at least six calendar months past review; actual frontmatter checked, not only index tags (PASS / HALT)
-- [ ] Domain selection follows descending never-reviewed backlog; no overdue topic selected while any never-reviewed topic remains in the reviewable library; overdue fallback selects the oldest eligible review (PASS / HALT)
+- [ ] Domain selection follows descending never-reviewed backlog; never-reviewed selection uses the first `[reviewed: never]` entry from the top of that domain's index; overdue fallback applies only when no never-reviewed topics remain and selects the oldest eligible review (PASS / HALT)
 - [ ] Each topic read in full before web-searching (PASS / HALT)
 - [ ] Independent web search conducted; factual claims, including unchanged text, checked against supporting source passages; missing passages recovered and derived figures recalculated (PASS / HALT)
 - [ ] Every identified mismatch and substantive gap resolved; incomplete topics logged and excluded from review stamps/publication (PASS / HALT)
@@ -145,9 +145,11 @@ log-only no-op outcome and exit.
 ### 3. Select one topic from the domain indexes
 
 In the never-reviewed phase, open the selected domain's `index-<domain>.md`
-and choose one topic tagged `[reviewed: never]`. In the overdue phase, open
-the shortlisted domain indexes and choose the oldest eligible `reviewed:`
-date across them. Break topic ties by repository-relative topic path.
+and scan from top to bottom. Select the first topic tagged `[reviewed: never]`.
+
+In the overdue phase, open the shortlisted domain indexes and choose the
+oldest eligible `reviewed:` date across them. Break ties by repository-relative
+topic path.
 
 Verify the selected topic's actual frontmatter from its captured snapshot.
 If index tags or counts disagree with the source, return to step 2 before
