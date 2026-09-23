@@ -1,6 +1,6 @@
 # Valuation Screening -- Topics
 
-11 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
+12 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
 - [Cost of Capital -- Why the Discount Rate Is Both the Most Important and Most Uncertain Number in Valuation](cost-of-capital-capm-wacc-erp.md) -- [reviewed: never] -- Cost of capital is the minimum return a company must earn on its investments to satisfy its providers of capital -- both debt holders and equity investors. It serves as the discount rate in every discounted cash flow model, translating future cash flows into present value. The Capital Asset Pricing Model (CAPM) and the Weighted Average Cost of Capital (WACC) framework together form the standard...
 
@@ -23,4 +23,6 @@
 - [Terminal Value -- Why the Most Important Number in Valuation Is Also the Least Reliable](terminal-value-dcf-methods-and-biases.md) -- [reviewed: never] -- Terminal value is the estimated worth of a business beyond the explicit forecast period in a discounted cash flow model, and it routinely accounts for 60-80% of the final valuation. This dominance is not a modeling flaw -- it reflects the economic reality that most of a going concern's value lies in its long-term cash-generating capacity beyond any reasonable forecast window.
 
 - [Valuation Multiples -- Why the Most Common Valuation Tools Are Also the Most Misused](valuation-multiples-pe-ev-ebitda-pb-analysis.md) -- [reviewed: never] -- Valuation multiples -- price-to-earnings (P/E), EV/EBITDA, price-to-book (P/B), and price-to-sales (P/S) -- are the most widely used tools in equity valuation because they offer speed, simplicity, and direct comparability to market prices. But this convenience masks a dangerous trap: every multiple has a specific set of conditions under which it produces meaningful results, and using the wrong multiple for the wrong company type produces not just noise but systematically misleading conclusions.
+
+- [Valuing Financial Institutions -- Capital and Liability Quality Determine What Book Value Is Worth](valuing-financial-institutions-banks-insurers-balance-sheet-businesses.md) -- [reviewed: never] -- A bank or insurer cannot be valued reliably by treating its funding liabilities as incidental debt and its accounting equity as automatically realizable cash. The valuation task is to connect credible book equity and sustainable returns on that equity to required capital, credit or claim losses, funding behavior, and the price paid for the common claim ([1] [2] [3] [4]).
 
