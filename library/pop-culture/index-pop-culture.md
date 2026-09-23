@@ -1,6 +1,6 @@
 # Pop Culture -- Topics
 
-11 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
+12 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
 
 - [Advertising and Consumer Culture -- How Ads Manufacture Desire Instead of Informing Choice](advertising-manufacturing-desire.md) -- [reviewed: never] -- Advertising is not merely a commercial information service that connects products to willing buyers. It is a system for manufacturing desire -- a deliberate psychological apparatus that creates dissatisfaction, associates products with identity and aspiration, and transforms citizens into consumers. From Edward Bernays's application of Freudian psychoanalysis to commercial persuasion in the...
 
@@ -11,6 +11,8 @@
 - [Film as Cultural Artifact -- How Cinema Reflects and Shapes Society](film-as-cultural-artifact.md) -- [reviewed: never] -- Cinema is the most influential storytelling medium of the twentieth century, a mass-produced art form that simultaneously mirrors the values, anxieties, and aspirations of the society that produces it and actively shapes the collective imagination of the society that consumes it. From the Lumiere brothers' first public screenings in 1895 to the global streaming platforms of the 2020s, film has functioned as both a record of cultural conditions and an instrument of cultural construction.
 
 - [The Hero's Journey -- How One Narrative Structure Came to Underpin Nearly All Modern Storytelling](heros-journey-monomyth.md) -- [reviewed: never] -- The Hero's Journey, or monomyth, is the most influential narrative template in modern popular culture. First articulated by mythologist Joseph Campbell in "The Hero with a Thousand Faces" (1949), it proposes that myths, legends, and stories from every human culture share a universal underlying structure: a hero departs from the ordinary world, undergoes trials and transformation in a supernatural realm, and returns bearing a gift for the community.
+
+- [Horror Turns Cultural Anxiety Into Monsters, Rules, and Rehearsals Across Media](horror-as-cultural-anxiety-genre-fear-and-social-change-across-media.md) -- [reviewed: never] -- Horror converts fears about bodies, families, technologies, identities, institutions, and social disorder into monsters, threatened spaces, and encounters that audiences can experience at a distance. Its cultural value does not lie in a simple claim that every monster equals one social problem; it lies in the genre's repeated testing of what a society calls normal, what it excludes, and how those boundaries change across literature, film, television, and games ([1] [3] [5] [9]).
 
 - [Internet Culture and Memetics -- How Ideas Spread, Mutate, and Compete in the Digital Ecosystem](internet-culture-memetics.md) -- [reviewed: never] -- Internet culture is not merely a collection of jokes and viral videos but a novel evolutionary environment in which ideas -- memes -- replicate, mutate, and compete for attention at speeds and scales unimaginable before the digital age. Rooted in Richard Dawkins's 1976 concept of the meme as a unit of cultural transmission, internet memetics reveals that the same Darwinian dynamics governing biological evolution also shape what we share, believe, and amplify online.
 
