@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Elinor Ostrom -- Governing Commons Through Institutions and Collective Action
-- **Domain:** notable-people
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.00/10.0 (gap=9.0, compounding=9.4, timeliness=8.5, balance=9.0)
-- **Scope:** Profiles Elinor Ostrom as a political scientist whose field research on shared resources challenged the claim that commons must be privatized or centrally controlled. Covers her intellectual development, the Institutional Analysis and Development framework, design principles, empirical cases, scholarly disputes, and the Nobel Prize's context. Treats commons governance, public policy, and economic theory as contexts for her choices and legacy rather than as a general institutional-design survey.
-- **Status:** proposed
-
 ## Candidate: Reality Television and the Performance of Authenticity -- How Edited Media Turns Ordinary Life Into Cultural Narrative
 - **Domain:** pop-culture
 - **Proposed by:** Librarian
