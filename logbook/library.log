@@ -417,3 +417,10 @@ Candidates:
 Skipped (queue capacity):
 - Fund-of-Funds Structures and Fee Layering -- Diversification, Access, and the Cost of Intermediation (8.87): gap=8.7, compounding=9.0, timeliness=8.2, balance=10.0
 Domain balance: investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics) to investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics).
+
+## [ENT-523] | 2026-09-23 00:04 UTC | Librarian | library | ref: library/candidate-queue.md
+ERROR: Step 9 capacity count for ENT-522 included the queue format example. The actual queue held 21 proposed entries before publication, not 22.
+Correction: Appended Fund-of-Funds Structures and Fee Layering under the remaining slot; proposed capacity is now 25.
+Candidates:
+- Fund-of-Funds Structures and Fee Layering -- Diversification, Access, and the Cost of Intermediation (8.87): gap=8.7, compounding=9.0, timeliness=8.2, balance=10.0
+Domain balance: investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics) to investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics).

@@ -201,3 +201,11 @@
 - **Discovery score:** 8.97/10.0 (gap=8.8, compounding=9.1, timeliness=8.4, balance=10.0)
 - **Scope:** Examines personal N-of-1 experiments as disciplined, low-risk tests of self-improvement practices rather than self-tracking for its own sake. Covers defining an intervention and outcome, baseline observation, simple comparison periods, confounders, adherence, interpretation, and decision rules for continuing or stopping a practice. Explains limits from small samples, measurement error, placebo effects, and unsafe experimentation. Distinguishes personal learning and habit experiments from clinical treatment, population-level medical claims, and formal research trials.
 - **Status:** proposed
+
+## Candidate: Fund-of-Funds Structures and Fee Layering -- Diversification, Access, and the Cost of Intermediation
+- **Domain:** investment-vehicles-fund-structures
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 8.87/10.0 (gap=8.7, compounding=9.0, timeliness=8.2, balance=10.0)
+- **Scope:** Examines fund-of-funds structures as pooled vehicles that allocate capital to multiple external private funds while adding manager selection, portfolio construction, liquidity planning, and a second layer of fees. Covers diversification across managers and vintages, access to constrained funds, fee offsets, reporting, valuation lag, secondary liquidity, and governance. Evaluates when the structure's manager-selection and access benefits may or may not exceed its cost and complexity. Distinguishes vehicle architecture from a recommendation to invest in a particular fund, private-market performance forecasting, and detailed securities regulation.
+- **Status:** proposed
