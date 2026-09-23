@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Valuing Financial Institutions -- Banks, Insurers, and Other Balance-Sheet Businesses
-- **Domain:** valuation-screening
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.25/10.0 (gap=9.0, compounding=9.4, timeliness=9.0, balance=10.0)
-- **Scope:** Examines valuation methods for banks, insurers, and other financial institutions whose value depends on balance-sheet quality, capital requirements, funding costs, and risk-bearing capacity. Covers price-to-book and earnings multiples, normalized return on equity, excess-return models, credit losses, reserves, regulatory capital, and interest-rate sensitivity. Explains how asset and liability duration, liquidity, and accounting choices change the meaning of common valuation inputs. Distinguishes security valuation from bank regulation, portfolio construction, and generic macroeconomic forecasts.
-- **Status:** proposed
-
 ## Candidate: Fund Liquidity Design -- Redemption Terms, Asset Liquidity, and Forced-Selling Risk
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Librarian
