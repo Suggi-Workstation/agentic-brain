@@ -1,6 +1,6 @@
 # Health Medicine -- Topics
 
-12 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
+13 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
 
 - [AI in Medicine and Diagnostics -- How Deep Learning Reached Clinician-Level Accuracy and Why Clinical Deployment Still Lags the Benchmarks](ai-in-medicine-and-diagnostics.md) -- [reviewed: 2026-09-23] -- AI in medicine and diagnostics applies machine learning to images, text, and structured records to detect, classify, or triage disease. On narrow imaging tasks, controlled studies have shown performance comparable with specialists, and a direct count of unique submission identifiers in the US Food and Drug Administration's (FDA's) September 4, 2026 public list yields 1,614 authorized AI-enabled devices ([1] [2] [5]).
 
@@ -19,6 +19,8 @@
 - [Mental Health Treatment -- The Evidence Shows Real Help Exists, but Real-World Delivery Falls Far Short](mental-health-treatment-psychiatric-medicine.md) -- [reviewed: never] -- Effective treatments exist for nearly every major mental disorder, from antidepressant and antipsychotic medication through structured psychotherapies to brain-stimulation methods, yet most people who need care never receive it. The evidence supporting these treatments is real but more modest and more contested than popular narratives suggest: selective publication has inflated apparent drug...
 
 - [Nutrition Science -- Why What We Eat Is the Most Powerful Determinant of Health We Control](nutrition-science-dietary-interventions.md) -- [reviewed: never] -- Nutrition science is the study of how food and its molecular components affect human health, from the subcellular level of nutrient metabolism to the population level of dietary patterns and disease epidemiology. It is simultaneously one of medicine's most powerful intervention tools -- capable of preventing more chronic disease than any pharmaceutical -- and one of its most contested fields,...
+
+- [Precision Medicine and Pharmacogenomics Improve Care Only When Patient Differences Change a Validated Clinical Decision](precision-medicine-and-pharmacogenomics.md) -- [reviewed: never] -- Precision medicine uses genomic, clinical, environmental, and behavioral differences to choose prevention, diagnosis, or treatment for a defined patient rather than an imaginary average patient. Pharmacogenomics is its medication-focused branch: it asks whether inherited or acquired genomic variation should change drug selection, dose, or monitoring.
 
 - [Preventive Screening Helps Only When Earlier Detection Improves Outcomes More Than It Causes Harm](preventive-screening-and-overdiagnosis.md) -- [reviewed: never] -- Preventive screening applies tests to people without relevant symptoms in order to identify a higher-risk group early enough for an effective intervention to improve health outcomes. A screening result is not a diagnosis, and finding more abnormalities or improving survival measured from diagnosis does not by itself show that screening saves lives ([1] [3] [6]).
 
