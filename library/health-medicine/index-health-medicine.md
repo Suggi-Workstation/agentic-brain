@@ -1,6 +1,6 @@
 # Health Medicine -- Topics
 
-13 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
+14 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
 
 - [AI in Medicine and Diagnostics -- How Deep Learning Reached Clinician-Level Accuracy and Why Clinical Deployment Still Lags the Benchmarks](ai-in-medicine-and-diagnostics.md) -- [reviewed: 2026-09-23] -- AI in medicine and diagnostics applies machine learning to images, text, and structured records to detect, classify, or triage disease. On narrow imaging tasks, controlled studies have shown performance comparable with specialists, and a direct count of unique submission identifiers in the US Food and Drug Administration's (FDA's) September 4, 2026 public list yields 1,614 authorized AI-enabled devices ([1] [2] [5]).
 
@@ -25,6 +25,8 @@
 - [Preventive Screening Helps Only When Earlier Detection Improves Outcomes More Than It Causes Harm](preventive-screening-and-overdiagnosis.md) -- [reviewed: never] -- Preventive screening applies tests to people without relevant symptoms in order to identify a higher-risk group early enough for an effective intervention to improve health outcomes. A screening result is not a diagnosis, and finding more abnormalities or improving survival measured from diagnosis does not by itself show that screening saves lives ([1] [3] [6]).
 
 - [Public Health and Epidemiology -- Why Disease in Populations Demands Different Thinking Than Disease in Patients](public-health-epidemiology.md) -- [reviewed: never] -- Public health and epidemiology form the science of disease at population scale: how outbreaks are detected, modeled, and controlled, and why some populations stay healthy while others do not. Unlike clinical medicine, which treats one patient at a time, epidemiology seeks patterns across thousands or millions -- who gets sick, where, when, and why -- and uses that knowledge to design interventions that prevent illness before it occurs.
+
+- [Regenerative Medicine Delivers Clinical Benefit Only When a Defined Cell Product Solves a Defined Disease Problem](regenerative-medicine-and-stem-cell-therapies.md) -- [reviewed: never] -- Regenerative medicine uses cells or their derivatives to replace, restore, or support damaged human tissues, but a cell's ability to differentiate in a laboratory does not establish a therapeutic benefit in a patient. Hematopoietic transplantation and selected licensed products demonstrate that cell-based interventions can work for specific indications; most proposed uses still require controlled outcome evidence, manufacturing safeguards, and long-term monitoring.
 
 - [Vaccine Development and Immunology -- How Deliberate Immune Training Has Saved More Lives Than Any Other Medical Intervention](vaccine-development-immunology.md) -- [reviewed: never] -- Vaccination is the deliberate exposure of the immune system to pathogen antigens in a controlled, non-disease-causing form to generate immunological memory. It is the single most effective public health intervention in human history: smallpox was eradicated, polio has been eliminated from all but two countries, and childhood mortality from vaccine-preventable diseases has been reduced by more than half since the establishment of the WHO Expanded Programme on Immunization in 1974.
 
