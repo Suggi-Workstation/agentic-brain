@@ -2,7 +2,7 @@
 
 12 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
 
-- [Buildings and Urban Infrastructure -- Engineered Systems That Shape the Vertical City](buildings-and-urban-infrastructure.md) -- [reviewed: never] -- Buildings are the most numerous and most visible engineered structures in the built environment. Their design integrates structural engineering, mechanical systems, energy management, life safety, and connection to the urban infrastructure networks -- power, water, transport, and communications -- that sustain them.
+- [Buildings and Urban Infrastructure -- Engineered Systems That Shape the Vertical City](buildings-and-urban-infrastructure.md) -- [reviewed: 2026-09-23] -- A building is simultaneously a structure, an environmental-control system, a long-lived asset, and a node in urban infrastructure. Its performance depends on coordinated decisions about loads, materials, mechanical services, energy, information, maintenance, and connections to power, water, transport, waste, and communications networks.
 
 - [Construction Methods and Project Management -- Why the Delivery Method Determines Whether Infrastructure Delivers on Its Design Promise](construction-methods-project-management.md) -- [reviewed: never] -- Construction project management is the discipline that translates engineering design into built reality through structured coordination of time, cost, quality, and risk. The choice of project delivery method -- how contracts are structured, how design and construction phases overlap, and how risk is allocated among parties -- fundamentally shapes project outcomes.
 
