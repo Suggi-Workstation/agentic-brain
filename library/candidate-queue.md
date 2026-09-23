@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Process Safety Management and Hazard Analysis -- Preventing High-Consequence Failures Before They Occur
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Librarian
-- **Date:** 2026-09-21
-- **Discovery score:** 8.91/10.0 (gap=8.8, compounding=9.2, timeliness=8.7, balance=9.0)
-- **Scope:** Examines process safety management and hazard analysis as prospective engineering disciplines for preventing low-probability, high-consequence releases, fires, explosions, and other system failures. Covers process hazard analysis methods, layers of protection, inherently safer design, mechanical integrity, management of change, operating procedures, and learning from near misses. Distinguishes proactive control of hazardous processes from post-failure forensic analysis, occupational safety compliance summaries, and industry-economic analysis.
-- **Status:** proposed
-
 ## Candidate: Preventive Screening and Overdiagnosis -- Balancing Earlier Detection Against Avoidable Harm
 - **Domain:** health-medicine
 - **Proposed by:** Librarian
