@@ -1,6 +1,6 @@
 # Valuation Screening -- Topics
 
-10 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
+11 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
 - [Cost of Capital -- Why the Discount Rate Is Both the Most Important and Most Uncertain Number in Valuation](cost-of-capital-capm-wacc-erp.md) -- [reviewed: never] -- Cost of capital is the minimum return a company must earn on its investments to satisfy its providers of capital -- both debt holders and equity investors. It serves as the discount rate in every discounted cash flow model, translating future cash flows into present value. The Capital Asset Pricing Model (CAPM) and the Weighted Average Cost of Capital (WACC) framework together form the standard...
 
@@ -17,6 +17,8 @@
 - [Monte Carlo Simulation in Valuation -- Why a Distribution of Values Beats a Single Point Estimate](monte-carlo-simulation-in-valuation.md) -- [reviewed: never] -- Monte Carlo simulation replaces the point estimates of a discounted cash flow model with probability distributions for each uncertain input, runs the model thousands of times with randomly sampled combinations, and produces a distribution of intrinsic values rather than a single number. The technique does not improve the accuracy of the central estimate -- the mean of the simulation typically...
 
 - [Reverse DCF and Sensitivity Analysis -- Why Stress-Testing Your Assumptions Beats Guessing Your Answer](reverse-dcf-and-sensitivity-analysis.md) -- [reviewed: never] -- Reverse DCF inverts the standard discounted cash flow model: instead of guessing a growth rate and solving for intrinsic value, it takes the observable market price as given and solves backward for the growth and profitability assumptions that price already implies. The result is a single, testable number -- the implied growth rate -- that strips away the analyst's optimism bias and forces a concrete question: is what the market has priced in actually achievable?
+
+- [Sum-of-the-Parts Valuation -- Estimating Businesses Whose Pieces Are Worth More Than the Whole](sum-of-the-parts-valuation.md) -- [reviewed: never] -- Sum-of-the-parts (SOTP) valuation estimates a multi-business company's equity value by valuing economically distinct components with methods suited to each component, then reconciling those values through the parent balance sheet. Its apparent precision is justified only when segment earnings are normalized, standalone costs and shared liabilities are recognized, and taxes, dis-synergies, and separation costs are not mistaken for free value.
 
 - [Terminal Value -- Why the Most Important Number in Valuation Is Also the Least Reliable](terminal-value-dcf-methods-and-biases.md) -- [reviewed: never] -- Terminal value is the estimated worth of a business beyond the explicit forecast period in a discounted cash flow model, and it routinely accounts for 60-80% of the final valuation. This dominance is not a modeling flaw -- it reflects the economic reality that most of a going concern's value lies in its long-term cash-generating capacity beyond any reasonable forecast window.
 
