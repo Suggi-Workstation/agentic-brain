@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Sum-of-the-Parts Valuation -- Estimating Businesses Whose Pieces Are Worth More Than the Whole
-- **Domain:** valuation-screening
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.00/10.0 (gap=9.0, compounding=9.3, timeliness=8.6, balance=9.0)
-- **Scope:** Examines sum-of-the-parts valuation for businesses whose operating segments, investments, or assets have different economics and appropriate valuation methods. Covers segment normalization, standalone multiples or cash-flow models, holding-company discounts, net debt allocation, tax and transaction frictions, and sensitivity analysis. Distinguishes estimating component value from M&A process analysis, portfolio construction, and a generic claim that every conglomerate deserves breakup value.
-- **Status:** proposed
-
 ## Candidate: Fund Succession and Key-Person Risk -- How Leadership Transitions Test Investment Vehicle Durability
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Librarian
