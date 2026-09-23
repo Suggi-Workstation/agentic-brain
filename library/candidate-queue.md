@@ -169,3 +169,43 @@
 - **Discovery score:** 9.07/10.0 (gap=8.8, compounding=9.4, timeliness=8.5, balance=10.0)
 - **Scope:** Examines valuation of cyclical businesses by estimating sustainable mid-cycle earnings rather than capitalizing temporary peaks or troughs. Covers cycle identification, volume and price drivers, normalized margins, maintenance versus growth capital expenditure, working capital, tax, leverage, and scenario ranges. Connects earnings-power, multiple, and DCF methods to commodity, industrial, and other cyclical businesses without treating a single historical average as a sufficient forecast. Distinguishes security valuation from macroeconomic prediction, sector recommendation, and routine financial-statement preparation.
 - **Status:** proposed
+
+## Candidate: Maritime Chokepoints and Sea-Lane Security -- Geography, Trade, and Coercive Leverage
+- **Domain:** geopolitics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 9.19/10.0 (gap=9.0, compounding=9.3, timeliness=9.5, balance=9.1)
+- **Scope:** Examines maritime chokepoints and sea-lane security as geographic constraints through which trade routes, energy flows, naval power, insurance costs, and coercive leverage interact. Covers the Suez Canal, Bab el-Mandeb, Strait of Hormuz, Malacca Strait, Panama Canal, Arctic routes, rerouting, convoy and naval protection, and infrastructure vulnerability. Connects recent disruption to durable strategic geography without treating a single conflict as the whole subject. Distinguishes geopolitical power relations from maritime engineering, trade theory, or detailed international-law doctrine.
+- **Status:** proposed
+
+## Candidate: Personal Knowledge Management and Note-Taking Systems -- Capturing, Connecting, and Retrieving Ideas
+- **Domain:** self-improvement
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 9.19/10.0 (gap=9.0, compounding=9.3, timeliness=8.8, balance=10.0)
+- **Scope:** Examines personal knowledge management and note-taking systems as deliberate practices for capturing, organizing, connecting, reviewing, and retrieving information for later work. Covers note granularity, tagging and linking, source attribution, search, spaced review, workflow integration, and the trade-off between capture volume and retrieval quality. Connects actionable personal systems to learning and decision quality without treating a particular app or AI product as the method. Distinguishes self-directed knowledge practice from enterprise information management, formal curriculum design, and agent architecture.
+- **Status:** proposed
+
+## Candidate: Michael Mauboussin -- Expectations, Competitive Advantage, and the Craft of Valuation
+- **Domain:** investors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 9.18/10.0 (gap=9.0, compounding=9.5, timeliness=9.2, balance=9.1)
+- **Scope:** Profiles Michael Mauboussin as an investor, strategist, author, and teacher whose work connects expectations, competitive advantage, valuation, probability, and capital allocation. Covers his career, published work, analytical frameworks, intellectual influences, use of empirical research, and evolution of his thinking. Examines controversies and limits without turning the profile into a general valuation manual. Distinguishes the person and decision process from abstract valuation techniques and investment-vehicle structures.
+- **Status:** proposed
+
+## Candidate: Donella Meadows -- Systems Thinking, Public Communication, and Ecological Limits
+- **Domain:** notable-people
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 9.01/10.0 (gap=9.0, compounding=9.3, timeliness=8.6, balance=9.1)
+- **Scope:** Profiles Donella Meadows as a systems scientist, writer, educator, and public communicator whose work linked system dynamics, ecological limits, leverage points, and institutional change. Covers her education, MIT and Dartmouth work, Limits to Growth, Systems Thinking, public writing, the Sustainability Institute, critiques, and legacy. Analyzes her choices and influence rather than treating systems theory or environmental science as the primary subject. Distinguishes biography from a general review of climate models, sustainability policy, or ecological economics.
+- **Status:** proposed
+
+## Candidate: Cultural Transmission and Social Learning -- How Knowledge, Norms, and Skills Persist
+- **Domain:** anthropology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 8.95/10.0 (gap=9.0, compounding=9.2, timeliness=8.4, balance=9.1)
+- **Scope:** Examines cultural transmission and social learning as processes through which knowledge, norms, skills, and practices persist and change across generations and groups. Covers vertical, horizontal, and oblique transmission, teaching, imitation, prestige, conformity, innovation, and the conditions for cumulative culture. Uses cross-cultural and ethnographic evidence to distinguish patterns of transmission from individual cognition alone. Distinguishes cultural-level analysis from clinical learning theory, formal education policy, and generic claims of cultural determinism.
+- **Status:** proposed

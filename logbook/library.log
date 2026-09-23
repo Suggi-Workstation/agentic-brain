@@ -398,3 +398,15 @@ Wrote topic Precision Medicine and Pharmacogenomics -- Matching Prevention and T
 Similarity overlap: 25%.
 Sources: 19 (19 high, 0 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-536] | 2026-09-23 04:06 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 5 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Maritime Chokepoints and Sea-Lane Security -- Geography, Trade, and Coercive Leverage (9.19): gap=9.0, compounding=9.3, timeliness=9.5, balance=9.1
+- Personal Knowledge Management and Note-Taking Systems -- Capturing, Connecting, and Retrieving Ideas (9.19): gap=9.0, compounding=9.3, timeliness=8.8, balance=10.0
+- Michael Mauboussin -- Expectations, Competitive Advantage, and the Craft of Valuation (9.18): gap=9.0, compounding=9.5, timeliness=9.2, balance=9.1
+- Donella Meadows -- Systems Thinking, Public Communication, and Ecological Limits (9.01): gap=9.0, compounding=9.3, timeliness=8.6, balance=9.1
+- Cultural Transmission and Social Learning -- How Knowledge, Norms, and Skills Persist (8.95): gap=9.0, compounding=9.2, timeliness=8.4, balance=9.1
+Skipped (queue capacity):
+- The Structure of Scientific Revolutions -- Kuhn's Book on Paradigms, Crises, and Scientific Change (8.55): gap=8.7, compounding=8.8, timeliness=7.5, balance=9.1
+Domain balance: self-improvement (10 topics) to anthropology, books, geopolitics, investors, and notable-people (11 topics).
