@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Learning Disabilities and Differentiated Instruction -- Adapting Teaching Without Lowering Learning Goals
-- **Domain:** education-learning
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.04/10.0 (gap=9.0, compounding=9.3, timeliness=8.8, balance=9.0)
-- **Scope:** Examines learning disabilities and differentiated instruction as evidence-based methods for identifying barriers to learning and adapting teaching while preserving ambitious curriculum goals. Covers dyslexia, dyscalculia, assessment, accommodations, targeted instruction, universal design for learning, progress monitoring, and the difference between equality and appropriate support. Distinguishes educational intervention from clinical diagnosis, childhood-development theory, and unsupported individualized-learning claims.
-- **Status:** proposed
-
 ## Candidate: Elinor Ostrom -- Governing Commons Through Institutions and Collective Action
 - **Domain:** notable-people
 - **Proposed by:** Librarian
