@@ -1,6 +1,6 @@
 # Technology -- Topics
 
-11 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+12 topics. Anchor: [anchor-technology.md](anchor-technology.md)
 
 - [Blockchain and Distributed Ledgers -- How Trustless Consensus Creates Genuine Innovation Beyond Cryptocurrency Speculation](blockchain-distributed-ledgers.md) -- [reviewed: never] -- Blockchain technology is a distributed data structure that enables mutually distrusting parties to reach consensus on a shared, immutable ledger without relying on a central authority. Originally conceived as the backbone of Bitcoin, the technology has evolved into a general-purpose platform for decentralized applications, smart contracts, and verifiable computation.
 
@@ -15,6 +15,8 @@
 - [Large Language Models -- How Next-Token Prediction Trained at Unprecedented Scale Produces General-Purpose Reasoning](large-language-models.md) -- [reviewed: never] -- Large language models (LLMs) are neural networks built on the transformer architecture that are trained on vast corpora of text to predict the next token in a sequence. When scaled to hundreds of billions of parameters and trained on trillions of tokens, this apparently simple objective produces models capable of translation, summarization, code generation, mathematical reasoning, and creative...
 
 - [Open Source Software Becomes Durable Infrastructure Only When Licenses, Governance, and Maintenance Align](open-source-software-digital-commons.md) -- [reviewed: never] -- Open source software turns code into reusable shared infrastructure, but public source code alone does not create a functioning commons. Durable projects combine enforceable permissions, legitimate decision rights, disciplined contribution and release processes, security work, and resources for maintainers; when one layer is missing, openness can coexist with fragile or captured infrastructure.
+
+- [Post-Quantum Cryptography Migration Requires Changing Protocols, Not Just Algorithms](post-quantum-cryptography-migration.md) -- [reviewed: never] -- Post-quantum cryptography migration replaces quantum-vulnerable public-key mechanisms in actual software, network handshakes, certificates, and signing workflows with deployable alternatives. The three finalized NIST standards supply a key-encapsulation mechanism and two signature families, but protecting a connection or artifact also requires compatible protocols, trust infrastructure, vendors,...
 
 - [Quantum Computing -- What It Promises and Why It Is So Hard](quantum-computing.md) -- [reviewed: never] -- Quantum computing harnesses the counterintuitive rules of quantum mechanics -- superposition and entanglement -- to perform calculations that are exponentially faster than what any classical computer can achieve for specific problem classes. Unlike classical bits that are either 0 or 1, quantum bits (qubits) can exist in a blend of both states simultaneously, enabling a single quantum processor to explore vast solution spaces in parallel.
 
