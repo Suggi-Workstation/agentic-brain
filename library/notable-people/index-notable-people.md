@@ -1,6 +1,6 @@
 # Notable People -- Topics
 
-11 topics. Anchor: [anchor-notable-people.md](anchor-notable-people.md)
+12 topics. Anchor: [anchor-notable-people.md](anchor-notable-people.md)
 
 - [Abraham Lincoln -- How a Self-Educated Frontier Lawyer Became America's Greatest Crisis Leader](abraham-lincoln.md) -- [reviewed: never] -- Abraham Lincoln transformed himself from a poverty-stricken frontier boy with less than a year of formal schooling into the president who preserved the American union through its gravest constitutional crisis. His leadership during the Civil War -- characterized by the Team of Rivals cabinet model, an evolving moral stance on slavery that culminated in the Emancipation Proclamation, and...
 
@@ -11,6 +11,8 @@
 - [Albert Einstein -- Why the Reluctant Revolutionary Redefined How We Understand Space, Time, and the Responsibility of the Scientist](albert-einstein.md) -- [reviewed: never] -- Albert Einstein (1879-1955) was a German-born theoretical physicist who overthrew Newton's absolute space and time, introduced mass-energy equivalence (E=mc2), and reshaped gravity as the curvature of spacetime. He was also a man who refused marriage to the quantum theory he helped create, who spent his last decades isolated in a quest for a unified field theory that never came, and who signed...
 
 - [Charles Darwin -- Why the Reluctant Revolutionary Redefined How We Understand Life Through Twenty Years of Cautious Evidence](charles-darwin.md) -- [reviewed: never] -- Charles Darwin (1809-1882) was an English naturalist who formulated the theory of evolution by natural selection, the single most unifying idea in biology. He gathered the core of his theory during a five-year voyage on HMS Beagle (1831-1836), then spent more than two decades gathering evidence, testing his hypothesis against the hardest cases he could find, and refining his argument before publishing On the Origin of Species in 1859.
+
+- [Elinor Ostrom -- Field Evidence Changed the Terms of the Commons Debate](elinor-ostrom-governing-commons-through-institutions-and-collective-action.md) -- [reviewed: never] -- Elinor Ostrom (1933-2012) was a political scientist who showed that users of shared resources can sometimes build durable rules without choosing between privatization and centralized administration ([1] [2] [3]). Her achievement was also methodological: she joined local fieldwork, comparative cases, experiments, and collaborators across disciplines to ask which institutions work under which conditions, rather than treating community management as a universal cure ([1] [3] [10]).
 
 - [Florence Nightingale -- Data, Institution Building, and Discipline Made Nursing a Modern Profession](florence-nightingale-data-institutions-modern-nursing.md) -- [reviewed: never] -- Florence Nightingale (1820-1910) turned wartime nursing authority into a sustained program of hospital, military, statistical, and educational reform. Her durable achievement was not a single fall in mortality or the image of a woman carrying a lamp, but a method: observe conditions, standardize records, make preventable harm visible, build a political coalition, and create institutions that could preserve improved practice after the reformer withdrew ([2] [3] [6]).
 
