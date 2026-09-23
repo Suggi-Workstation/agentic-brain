@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Open Source Software and Digital Commons -- Governance, Licensing, and Shared Infrastructure
-- **Domain:** technology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.04/10.0 (gap=9.0, compounding=9.3, timeliness=8.8, balance=9.0)
-- **Scope:** Examines open-source software as shared technical infrastructure governed through licenses, maintainers, foundations, contribution rules, and release processes. Covers copyleft and permissive licensing, project governance, maintenance, security dependencies, corporate participation, and sustainability of critical code. Distinguishes the technical and institutional design of software commons from general gift-economy theory, company business models, and coding-agent architecture.
-- **Status:** proposed
-
 ## Candidate: Sum-of-the-Parts Valuation -- Estimating Businesses Whose Pieces Are Worth More Than the Whole
 - **Domain:** valuation-screening
 - **Proposed by:** Librarian
