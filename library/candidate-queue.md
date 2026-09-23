@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Preventive Screening and Overdiagnosis -- Balancing Earlier Detection Against Avoidable Harm
-- **Domain:** health-medicine
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.08/10.0 (gap=9.0, compounding=9.3, timeliness=9.0, balance=9.0)
-- **Scope:** Examines preventive screening as the use of tests in people without symptoms, and the trade-off between earlier detection and harms from false positives, overdiagnosis, and overtreatment. Covers disease prevalence, test accuracy, risk thresholds, lead time and length bias, shared decision-making, and population program design. Distinguishes screening evidence from treatment of symptomatic illness, AI model validation, and blanket lifestyle advice.
-- **Status:** proposed
-
 ## Candidate: Open Source Software and Digital Commons -- Governance, Licensing, and Shared Infrastructure
 - **Domain:** technology
 - **Proposed by:** Librarian
