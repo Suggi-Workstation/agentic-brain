@@ -407,3 +407,13 @@ Wrote topic Transfer of Learning and Generalization -- When Knowledge Travels to
 Similarity overlap: 35%.
 Sources: 12 (12 high, 0 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-522] | 2026-09-23 00:03 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 4 domains scanned, 3 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Software Supply-Chain Security and SBOMs -- Making Dependencies, Provenance, and Remediation Actionable (9.26): gap=8.8, compounding=9.3, timeliness=9.6, balance=10.0
+- Valuing High-Growth Companies With Negative Earnings -- Modeling the Path From Revenue to Durable Cash Flow (9.00): gap=8.6, compounding=9.2, timeliness=8.8, balance=10.0
+- Personal N-of-1 Experiments -- Testing Self-Improvement Practices With Simple, Decision-Useful Evidence (8.97): gap=8.8, compounding=9.1, timeliness=8.4, balance=10.0
+Skipped (queue capacity):
+- Fund-of-Funds Structures and Fee Layering -- Diversification, Access, and the Cost of Intermediation (8.87): gap=8.7, compounding=9.0, timeliness=8.2, balance=10.0
+Domain balance: investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics) to investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics).

@@ -177,3 +177,27 @@
 - **Discovery score:** 8.7/10.0 (gap=8.6, compounding=8.9, timeliness=7.6, balance=10.0)
 - **Scope:** Examines interleaved and varied practice as actionable methods for learning to distinguish problem types and apply skills across changing contexts. Covers task sequencing, contextual interference, comparison, feedback, difficulty calibration, scheduling, and when blocked practice remains useful for initial acquisition. Distinguishes self-directed practice design from formal education policy, generic motivation, and untested claims of universal transfer.
 - **Status:** proposed
+
+## Candidate: Software Supply-Chain Security and SBOMs -- Making Dependencies, Provenance, and Remediation Actionable
+- **Domain:** technology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.26/10.0 (gap=8.8, compounding=9.3, timeliness=9.6, balance=10.0)
+- **Scope:** Examines software supply-chain security and software bills of materials as technical practices for identifying, tracing, and managing dependencies across build, release, and deployment systems. Covers component inventory, provenance, vulnerability correlation, machine-readable formats, release integrity, supplier attestations, and integration with secure-development workflows. Explains the limits of an inventory that is incomplete, stale, or disconnected from remediation. Distinguishes software supply-chain engineering from general cybersecurity strategy, open-source governance, and procurement law.
+- **Status:** proposed
+
+## Candidate: Valuing High-Growth Companies With Negative Earnings -- Modeling the Path From Revenue to Durable Cash Flow
+- **Domain:** valuation-screening
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 9.00/10.0 (gap=8.6, compounding=9.2, timeliness=8.8, balance=10.0)
+- **Scope:** Examines valuation of high-growth businesses that lack current earnings or free cash flow, where standard P/E and mature-company DCF models can mislead. Covers revenue quality, unit economics, gross-margin trajectories, reinvestment, dilution, scenario-based paths to sustainable profitability, and appropriate use of revenue-based valuation methods. Tests assumptions against comparable companies and the conditions required to reach a steady state. Distinguishes valuation methodology from venture-capital fund structures, operating strategy, and a forecast of which companies will win.
+- **Status:** proposed
+
+## Candidate: Personal N-of-1 Experiments -- Testing Self-Improvement Practices With Simple, Decision-Useful Evidence
+- **Domain:** self-improvement
+- **Proposed by:** Librarian
+- **Date:** 2026-09-22
+- **Discovery score:** 8.97/10.0 (gap=8.8, compounding=9.1, timeliness=8.4, balance=10.0)
+- **Scope:** Examines personal N-of-1 experiments as disciplined, low-risk tests of self-improvement practices rather than self-tracking for its own sake. Covers defining an intervention and outcome, baseline observation, simple comparison periods, confounders, adherence, interpretation, and decision rules for continuing or stopping a practice. Explains limits from small samples, measurement error, placebo effects, and unsafe experimentation. Distinguishes personal learning and habit experiments from clinical treatment, population-level medical claims, and formal research trials.
+- **Status:** proposed
