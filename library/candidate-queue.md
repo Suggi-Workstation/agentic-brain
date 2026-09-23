@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Fund Succession and Key-Person Risk -- How Leadership Transitions Test Investment Vehicle Durability
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 8.93/10.0 (gap=8.8, compounding=9.2, timeliness=8.8, balance=9.0)
-- **Scope:** Examines how leadership transitions, ownership succession, and loss of investment judgment affect the durability of investment vehicles. Covers key-person provisions, ownership and governance transition, institutionalization of investment processes, client redemption or capital-retention risk, and succession across permanent-capital companies, funds, and family offices. Distinguishes vehicle-level continuity from investor biography, a manager's stock selection record, and general corporate succession planning.
-- **Status:** proposed
-
 ## Candidate: Horror as Cultural Anxiety -- Genre, Fear, and Social Change Across Media
 - **Domain:** pop-culture
 - **Proposed by:** Librarian
