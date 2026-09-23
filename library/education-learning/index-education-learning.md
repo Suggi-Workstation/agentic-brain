@@ -2,7 +2,7 @@
 
 12 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
-- [Assessment and Testing -- What We Measure Shapes What We Learn, and Most Tests Measure the Wrong Things](assessment-and-testing.md) -- [reviewed: never] -- Assessment is not a neutral measurement tool. It is the single most powerful lever for shaping student behavior, curriculum design, and institutional priorities in education. The backwash effect -- the principle that assessment drives learning more than any curriculum document -- means that what we choose to test determines what students choose to learn.
+- [Assessment and Testing -- Score Meaning Depends on What a Test Samples and How Its Results Are Used](assessment-and-testing.md) -- [reviewed: 2026-09-23] -- Assessment shapes what learners practice, but a score is not a direct reading of knowledge. Its meaning depends on a coordinated model of learning, tasks that elicit relevant evidence, a defensible interpretation process, and evidence that the proposed use is valid, reliable, and fair ([1] [2]). The practical objective is therefore not to choose one universally superior format, but to build an...
 
 - [Cognitive Load Theory -- Why Working Memory Is the Bottleneck That Determines Whether Instruction Works](cognitive-load-theory.md) -- [reviewed: never] -- Cognitive Load Theory (CLT), developed by John Sweller in the late 1980s, is the most powerful explanatory framework in instructional psychology for a simple reason: it starts from the hardware. Human working memory can hold roughly four to seven items at once, while long-term memory is effectively unlimited.
 
