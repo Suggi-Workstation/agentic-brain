@@ -1,6 +1,6 @@
 # Investment Vehicles Fund Structures -- Topics
 
-11 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+12 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: never] -- Berkshire Hathaway is a publicly traded conglomerate holding company that owns dozens of wholly owned operating subsidiaries alongside a portfolio of publicly traded equities, funded by permanent equity capital, insurance float, and retained earnings rather than by investor commitments or redeemable shares.
 
@@ -9,6 +9,8 @@
 - [Closed-End Funds and Investment Trusts -- Why a Fixed Share Count Creates Persistent Discounts, Activist Arbitrage, and a Distinct Capital-Permanence Trade-off](closed-end-funds-investment-trusts.md) -- [reviewed: never] -- Closed-end funds (CEFs) and investment trusts are pooled investment vehicles that issue a fixed number of shares at inception and then trade those shares on a secondary exchange, with no continuous creation or redemption at net asset value (NAV). This structural feature -- a closed capital base -- produces the field's defining phenomena: market prices that persistently deviate from NAV (the...
 
 - [Family Offices -- How Structure, Governance, and Permanent Capital Create the Ultimate Vehicle for Multi-Generational Wealth Compounding](family-offices-structure-governance-capital-allocation.md) -- [reviewed: never] -- A family office is a private organization that centralizes investment management, tax planning, estate administration, philanthropy, and often household operations for ultra-high-net-worth families. Unlike pooled investment vehicles that serve unrelated investors, the family office serves a single family or a small group of families, giving it permanent capital with no redemption pressure and an indefinite time horizon.
+
+- [Fund Liquidity Design Determines Whether Investor Exits Become Forced Asset Sales](fund-liquidity-design-redemption-terms-asset-liquidity-and-forced-selling-risk.md) -- [reviewed: never] -- Fund liquidity design connects an investor's contractual exit right to the time and cost of converting portfolio assets into cash. If redemptions can arrive faster than assets can be sold without material loss, a fund may transfer exit costs to remaining investors, sell attractive holdings under pressure, or restrict withdrawals; matching terms, reserves, financing, and pricing tools changes who bears those costs rather than making illiquidity disappear ([1] [2] [6]).
 
 - [Fund Succession and Key-Person Risk -- Durable Vehicles Must Outlive the Judgment That Built Them](fund-succession-and-key-person-risk.md) -- [reviewed: never] -- This topic argues that an investment vehicle is durable only if it can preserve decision quality, aligned control, and service continuity when an important leader leaves. Key-person clauses can pause new commitments, while regulatory and manager-selection frameworks show that broader resilience also depends on authority, ownership, investment knowledge, client trust, and operating responsibility ([1] [2] [3] [9]).
 
