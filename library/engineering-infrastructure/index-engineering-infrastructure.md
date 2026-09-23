@@ -1,6 +1,6 @@
 # Engineering Infrastructure -- Topics
 
-11 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
+12 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
 
 - [Buildings and Urban Infrastructure -- Engineered Systems That Shape the Vertical City](buildings-and-urban-infrastructure.md) -- [reviewed: never] -- Buildings are the most numerous and most visible engineered structures in the built environment. Their design integrates structural engineering, mechanical systems, energy management, life safety, and connection to the urban infrastructure networks -- power, water, transport, and communications -- that sustain them.
 
@@ -13,6 +13,8 @@
 - [Manufacturing Systems and Industrial Engineering -- How Lean Production, Quality Methods, and Constraint Analysis Transform the Making of Goods](manufacturing-systems-industrial-engineering.md) -- [reviewed: never] -- Manufacturing systems are the organized arrangements of people, machines, materials, and information that transform raw inputs into finished goods. Industrial engineering is the discipline that designs, measures, and improves those systems to maximize throughput, quality, and resource efficiency simultaneously.
 
 - [Power Grid Infrastructure -- The Engineered Architecture Connecting Generation to Demand](power-grid-infrastructure-generation-transmission-distribution.md) -- [reviewed: never] -- The electrical power grid is the largest interconnected engineered machine ever built by humans, a continent-spanning network that must balance supply and demand in real time with no buffer storage of the product itself. Electricity consumed the instant it is generated, the grid demands continuous synchronization of thousands of generators feeding millions of loads through hundreds of thousands of kilometers of transmission and distribution lines.
+
+- [Process Safety Management Prevents Catastrophe by Governing Barriers Before Failure](process-safety-management-and-hazard-analysis.md) -- [reviewed: never] -- Process safety management is a lifecycle engineering system for preventing and limiting catastrophic releases, fires, explosions, and other major accidents in hazardous processes. Its central claim is prospective: organizations reduce high-consequence risk when they identify credible scenarios, choose inherently safer designs where feasible, install independent protective layers, and continuously verify that technical and organizational barriers remain effective ([1] [5] [11]).
 
 - [Reliability Engineering and Failure Analysis -- Why Designed Systems Fail and How Engineers Keep Them Working](reliability-engineering-failure-analysis.md) -- [reviewed: never] -- Reliability engineering is the discipline that designs physical and engineered systems to perform their intended function without failure, for a specified period, under specified conditions. Failure analysis is its investigative counterpart: the systematic investigation of why a system failed, tracing the physical, procedural, and organizational causes so that the same class of failure does not recur.
 
