@@ -1,0 +1,113 @@
+<!-- queue.log archive -- ENT-043 to ENT-052
+     Moved from active log on 2026-09-23 06:38 UTC
+     Active log continues from ENT-053 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-043] | 2026-08-02 19:22 UTC | Ava | general | ref: MEMORY.md, agentic-brain/governance/system-blueprint.md | see: 20260802T192200Z
+Session: QMD memory stack verification + Cato QMD setup.
+Workstreams:
+- Verified Ava QMD backend: 3 collections (memory-root-main, memory-dir-main, identity-main), 40 files, all searchable via memory_search through QMD directly.
+- Root cause fixed: identity folder was in old 'custom-1-main' collection (didn't match memory-* prefix, silently excluded). Added memory.qmd.paths identity entry; OpenClaw created proper identity-main collection.
+- Cleaned stale QMD entries: removed custom-1-main duplicates and ava-openclaw-memory-system.md (moved to brain last session).
+- Re-embedded vectors (120 chunks, embeddinggemma-300M).
+- Added QMD context metadata to all 3 Ava collections (R11-safe, no hardcoded lists/counts).
+- Initialized Cato's QMD backend (was never initialized - no QMD dir): memory-root-cato + memory-dir-cato + identity-cato collections, paths verified correct (no stale paths), MEMORY.md indexed, contexts added, embeddings built.
+- Both agents verified: Provider qmd, 3 collections each, search working.
+Reflection: QMD collection naming follows memory-* prefix convention; custom names are silently excluded from OpenClaw memory_search. Daily memory: 2026-08-02.md.
+
+## [ENT-044] | 2026-08-05 12:35 UTC | Ava | general | ref: reflections/2026-08-05_ava_status-flags-are-snapshots-not-verdicts.md | see: 20260805T123547Z
+Session: preflight, index-library regeneration, cron cycle, timeout research.
+Workstreams:
+- Preflight: auto-committed 8 dreaming artifacts; rebuilt stale brain-index (4760 chunks).
+- Suggi: brain-index staleness at preflight is normal (multi-agent pushes), not a fault.
+- Ran index-library.py: 168 -> 173 topics; regenerated library/index-library.md.
+- Cron cycle: enabled 11:56, paused 12:05, enabled 12:09, paused 14:00. Writer ran 12:00-13:45 (8x ok). Discoverer 13:54 LLM timeout -> auto-retry 13:57:43 ok -> ENT-204, 13 candidates.
+- Research: per-agent dreaming not available (global-only, PR #67420 unmerged); timeout paths (active-memory 15s, provider unset ~120s, cron safety 3600s, runtime 48h default).
+- Reflection written: status flags are snapshots, not verdicts.
+Reflection: 2026-08-05_ava_status-flags-are-snapshots-not-verdicts. Daily memory: 2026-08-05.md.
+
+## [ENT-045] | 2026-08-06 05:49 UTC | Link | research | ref: research/reports/link-hermes-memory-system.md | see: 20260802T124915Z
+Report revised to 5-layer memory system. (1) Mnemosyne embedding upgraded to nomic-embed-text-v1.5 (768-dim, all 101 working + 4 episodic reindexed; 
+pitfall scarred: nomic missing from hardcoded dim table -> MNEMOSYNE_EMBEDDING_MODEL/DIM env vars in profile .env required; app restart needed after .env change). 
+(2) Wiki layer added: LLM-wiki initialized in Obsidian vault (Vaults - Obsidian/link-brain; SCHEMA/index/log + concepts/memory-stack.md; 
+WIKI_PATH+OBSIDIAN_VAULT_PATH in .env; R8 boundary: wiki=curated personal, brain=org artifacts). (3) First consolidation fired: 4 episodic memories (int8 vectors). 
+(4) AGENTS.md Retrieval updated (Mnemosyne + wiki, legacy memory tool deprecated).
+
+## [ENT-046] | 2026-08-06 13:30 UTC | Link | general | ref: none (laptop infra) | see: none
+LINKIE BORN. New peer agent on Suggi's laptop (Hermes Agent v0.20.0):
+- Hermes relocated AppData\Local\hermes -> C:\AI Stuff\Hermes Agent (robocopy 127k files; editable-install finder regenerated via pip install --ignore-installed -e .; portable git at <root>\git used for CLI ops).
+- profile linkie created; main-assistant profile retired (proper deregistration).
+- Mnemosyne-memory 3.15.1 installed in laptop venv; nomic-embed-text-v1.5 768-dim configured; seeded from Link export (132 working, 4 episodic) -- inherit then drift, NO sync after birth.
+- Workspace: profiles\linkie\workspace-linkie (git, birth commit 52099a5; AGENTS.md/IDENTITY.md/memory/.githooks/CI). Project "Linkie - GitHub repo" registered.
+- SSH over Tailscale established PC<->laptop (key auth); old AppData tree preserved as hermes_old_20260806 until verified.
+Scars logged locally: uv trampoline/finder breakage after relocation; cmd set trailing-space pitfall (quote set "VAR=value").
+
+## [ENT-047] | 2026-08-06 15:01 UTC | Link | general | ref: reflections/2026-08-06_link_child-agent-inheritance-validated.md | see: 20260806T150113Z
+Session: Linkie birth, relocation scars, memory migration.
+Workstreams:
+- Linkie born on Suggi laptop: Hermes relocated, profile created, Mnemosyne seeded (145+4), full identity clone, project registered. App onboarding (multi-layer: Start Menu shortcut, PATH, HERMES_HOME registry, explorer env) resolved; 6 scar patterns documented in hermes-agent-setup skill.
+- Verified Mnemosyne: vec_working 145->145 (reindex closed 3 stale 384-dim rows from bge-small migration).
+- gitignore: .hermes/ scratch excluded.
+Reflection: 2026-08-06_link_child-agent-inheritance-validated.md. Daily memory: 2026-08-06.md.
+
+## [ENT-048] | 2026-08-07 19:52 UTC | Link | general | ref: /opt/brain-tools/brain-pull.sh
+VPS live-mirror watcher upgraded to two-way sync.
+Workstreams:
+- Watcher moved to fleet-neutral /opt/brain-tools (venv + brain-pull.sh, root:agents, setgid).
+- brain-pull.sh now auto-pushes committed-but-unpushed work after pull (never auto-commits).
+- Cron updated: */5 * * * * /opt/brain-tools/brain-pull.sh.
+- End-to-end test: this entry was committed locally and pushed BY THE WATCHER.
+
+## [ENT-049] | 2026-08-09 11:15 UTC | Link | general | ref: /srv/brain/logs
+Watcher telemetry moved to /srv/brain/logs (root:agents 2775, fleet-readable).
+Logrotate installed: size 1M, rotate 5, compressed (su hermes agents).
+Incident: verification harness ran BARE crontab (su ate the -l flag) -> edit
+mode wiped hermes crontab ~11:09Z. Restored 11:12Z. Scar encoded: never run
+crontab without an explicit flag (-l read, -e edit, -u user, - stdin install).
+Cron: * * * * * /opt/brain-tools/brain-pull.sh >> /srv/brain/logs/brain-pull.log 2>&1
+
+## [ENT-050] | 2026-08-10 11:58 UTC | Link | general | ref: research/insights/two-tier-fleet-memory-single-vector-space.md | see: 20260810T112709Z
+Shared Mnemosyne fleet memory COMPLETE (Phase A + B, all 3 agents).
+- Phase A: VPS blind relay /srv/mnemosyne-shared (systemd hermes-mnemosyne-sync,
+  tailnet HTTPS 8765, api-key HMAC + client-side encryption, encrypted events only).
+- Phase B: sync bridge on Link, Linkie, Morpheus -- per-agent local shared DB,
+  bidirectional 5-min sync through the relay. Stdlib-only protocol, zero tokens.
+- Fleet embedding upgrade: BAAI/bge-large-en-v1.5 (1024-dim, int8) on ALL personal
+  + shared DBs (was nomic-768). ONE model for the fleet -- never mixed per agent.
+  Scar: phantom-768 rows from old-model process writing into rebuilt DB; fixed by
+  coordinated reindex after app restarts. Model switches are fleet operations:
+  stop writers -> switch env -> reindex -> restart.
+- Cron: Hermes cron (no_agent Python script, every 5m) on all 3 machines.
+  Linkie: active_profile=linkie + app restart (no Windows task, no popup --
+  MnemosyneSync schtasks DELETED). Morpheus: hermes-gateway-morpheus systemd
+  (headless ticker; OS crontab mnemosyne line removed, brain watcher kept).
+- Auto-embedding verified 3/3 agents with live test writes (vec 1024 at store,
+  no manual reindex; test facts deleted).
+- AGENTS.md Retrieval split into personal + shared tiers on all 3 agents
+  (committed: Link 4f47982, Linkie dd9fb40, Morpheus 402e9f1).
+- Insight + reflection written to brain (watcher pushed 1b6e9de to GitHub).
+- Shared DBs currently EMPTY by design -- populated deliberately via
+  mnemosyne_shared_remember (kinds: meta | preference | correction | identity).
+
+## [ENT-051] | 2026-08-11 11:19 UTC | Ava | general | ref: skills/ | see: 20260811T111938Z
+Session: VPS-native brain ops + skill modernization.
+Workstreams:
+- Verified AGENTS.md + MEMORY.md + 3 skill updates; fixed openclaw brain access (~/.brain-index symlink, git safe.directory).
+- Updated preflight + session-end skills to VPS-native (direct /srv/brain reads, watcher-owned index, no push, recurring-failure scan).
+- Tested brain write round-trip end to end: write -> commit -> watcher push (~80s) -> GitHub -> delete -> watcher push -> cleanup. PASS.
+- Applied query-brain-vps fix (agents-group direct write, no su) to workspace + brain copies; fixed 644->664 permission.
+- Replaced 5 write-x skills in workspace with brain governance/skills canonical versions (VPS-native, leaner).
+- Reflection written: watcher-owned-brain-trust-the-pipeline.
+Reflection: 20260811T111938Z. Daily memory: 2026-08-11.md.
+
+## [ENT-052] | 2026-08-15 14:40 UTC | Link | general | ref: /opt/brain-tools/brain-pull.sh | see: none
+Session: Watcher push-logging restored + mnemosyne sync log consolidation (fossil cleanup).
+Workstreams:
+- brain-pull.sh: push success AND failure now log to brain-pull.log (was silent since ~Aug 10; only brain-index.log got lines). Backup: brain-pull.sh.bak-20260815. Syntax verified (bash -n).
+- Canonical sync log = mnemosyne-sync.log. Morpheus script repointed from mnemosyne-sync-hermescron.log (backup mnemosyne-sync.py.bak-20260815). All 3 agents' jobs.json verified targeting mnemosyne-sync.py; Link/Linkie log to their profile logs dir, Morpheus logs to /srv/brain/logs/mnemosyne-sync.log (fleet-readable).
+- Fossils removed: /srv/brain/logs/mnemosyne-sync.log (old era) + mnemosyne-sync-hermescron.log (300KB unbounded), Link scripts/mnemosyne-sync.sh, Linkie scripts/mnemosyne-sync.cmd.
+- logrotate brain-tools config extended with mnemosyne-sync.log (50K/5 policy). Manual sync run + logrotate --debug verified clean.
+- This entry's own watcher push proves the new brain-pull.log push line (check after ~1 min).
+Reflection: none. Daily memory: 2026-08-15.md.
+
