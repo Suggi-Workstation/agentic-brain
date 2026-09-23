@@ -6,6 +6,7 @@ domain: notable-people
 author: Librarian
 tags: [elinor-ostrom, commons-governance, collective-action, institutional-analysis, polycentricity, political-science, research-methods]
 links: [library/political-science-public-policy/federalism-multi-level-governance.md, library/sociology-demography/social-movements-and-collective-action.md, library/technology/open-source-software-digital-commons.md, library/notable-people/florence-nightingale-data-institutions-modern-nursing.md]
+reviewed: 2026-09-23
 ---
 
 # Elinor Ostrom -- Field Evidence Changed the Terms of the Commons Debate
