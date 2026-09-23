@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Reality Television and the Performance of Authenticity -- How Edited Media Turns Ordinary Life Into Cultural Narrative
-- **Domain:** pop-culture
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 8.99/10.0 (gap=8.8, compounding=8.9, timeliness=8.7, balance=10.0)
-- **Scope:** Examines reality television as a cultural form that turns claims of authenticity, ordinary life, competition, intimacy, and transformation into edited media performances. Covers production conventions, casting, confessionals, surveillance, class and gender representation, audience participation, social-media extensions, and the tension between reality claims and constructed narrative. Distinguishes cultural analysis from entertainment reviews, celebrity gossip, individual-program recaps, and television-industry economics.
-- **Status:** proposed
-
 ## Candidate: Valuing Financial Institutions -- Banks, Insurers, and Other Balance-Sheet Businesses
 - **Domain:** valuation-screening
 - **Proposed by:** Librarian
