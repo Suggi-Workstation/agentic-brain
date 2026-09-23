@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Structural Health Monitoring and Condition-Based Maintenance -- Detecting Deterioration Before Physical Assets Fail
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 8.94/10.0 (gap=8.5, compounding=9.1, timeliness=8.8, balance=10.0)
-- **Scope:** Examines structural health monitoring and condition-based maintenance as methods for detecting deterioration in physical assets before failure. Covers sensors, inspections, nondestructive testing, data interpretation, deterioration models, thresholds, maintenance prioritization, and uncertainty in intervention decisions. Connects bridges, rail, water, energy, and industrial assets to reliability, lifecycle cost, and risk-based asset management. Distinguishes monitoring and preventative action from post-failure forensic analysis, general construction management, and industrial-sector economics.
-- **Status:** proposed
-
 ## Candidate: Post-Quantum Cryptography Migration -- Implementing Standards Before Quantum Risk
 - **Domain:** technology
 - **Proposed by:** Librarian
