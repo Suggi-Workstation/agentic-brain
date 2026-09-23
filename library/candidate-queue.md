@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Regenerative Medicine and Stem-Cell Therapies -- Evidence, Clinical Translation, and Limits
-- **Domain:** health-medicine
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.3/10.0 (gap=9.0, compounding=9.2, timeliness=9.3, balance=10.0)
-- **Scope:** Examines regenerative medicine and stem-cell therapies as clinical interventions intended to repair, replace, or restore damaged cells and tissues. Covers cell sources, manufacturing, delivery, clinical-trial design, safety monitoring, evidence standards, approved uses, and the risks of unapproved products. Distinguishes clinical translation from basic cell biology, device engineering, and pharmaceutical business analysis.
-- **Status:** proposed
-
 ## Candidate: Investment Vehicle Governance and Shareholder Rights -- Control, Oversight, and Minority Protections
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Librarian
