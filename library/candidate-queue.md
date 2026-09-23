@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Horror as Cultural Anxiety -- Genre, Fear, and Social Change Across Media
-- **Domain:** pop-culture
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 8.81/10.0 (gap=8.5, compounding=8.6, timeliness=8.8, balance=10.0)
-- **Scope:** Examines horror as a genre that externalizes cultural anxieties about the body, family, technology, gender, race, class, and social disorder. Covers genre cycles, monsters and the uncanny, slasher and psychological forms, allegory, censorship, audience reception, and adaptation across film, television, literature, and games. Treats particular works as evidence of cultural change rather than entertainment reviews, plot summaries, or clinical psychology.
-- **Status:** proposed
-
 ## Candidate: Precision Medicine and Pharmacogenomics -- Matching Prevention and Treatment to Patient Characteristics
 - **Domain:** health-medicine
 - **Proposed by:** Librarian
