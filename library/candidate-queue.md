@@ -185,3 +185,19 @@
 - **Discovery score:** 8.87/10.0 (gap=8.7, compounding=9.0, timeliness=8.2, balance=10.0)
 - **Scope:** Examines fund-of-funds structures as pooled vehicles that allocate capital to multiple external private funds while adding manager selection, portfolio construction, liquidity planning, and a second layer of fees. Covers diversification across managers and vintages, access to constrained funds, fee offsets, reporting, valuation lag, secondary liquidity, and governance. Evaluates when the structure's manager-selection and access benefits may or may not exceed its cost and complexity. Distinguishes vehicle architecture from a recommendation to invest in a particular fund, private-market performance forecasting, and detailed securities regulation.
 - **Status:** proposed
+
+## Candidate: Sovereign Wealth Funds -- Public Capital, Governance, and Intergenerational Allocation
+- **Domain:** investment-vehicles-fund-structures
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 9.11/10.0 (gap=8.9, compounding=9.3, timeliness=8.6, balance=10.0)
+- **Scope:** Examines sovereign wealth funds as state-owned investment vehicles that convert resource, reserve, or fiscal surpluses into long-duration financial assets. Covers funding sources, mandates, governance, transparency, political insulation, strategic investment, withdrawals, and intergenerational objectives. Compares stabilization, savings, pension-reserve, and strategic-development models while assessing how vehicle design constrains capital allocation. Distinguishes fund architecture from country forecasting, geopolitical advocacy, individual-manager biography, and valuation of portfolio securities.
+- **Status:** proposed
+
+## Candidate: Valuation of Cyclical Companies -- Normalizing Earnings Across the Business Cycle
+- **Domain:** valuation-screening
+- **Proposed by:** Librarian
+- **Date:** 2026-09-23
+- **Discovery score:** 9.07/10.0 (gap=8.8, compounding=9.4, timeliness=8.5, balance=10.0)
+- **Scope:** Examines valuation of cyclical businesses by estimating sustainable mid-cycle earnings rather than capitalizing temporary peaks or troughs. Covers cycle identification, volume and price drivers, normalized margins, maintenance versus growth capital expenditure, working capital, tax, leverage, and scenario ranges. Connects earnings-power, multiple, and DCF methods to commodity, industrial, and other cyclical businesses without treating a single historical average as a sufficient forecast. Distinguishes security valuation from macroeconomic prediction, sector recommendation, and routine financial-statement preparation.
+- **Status:** proposed
