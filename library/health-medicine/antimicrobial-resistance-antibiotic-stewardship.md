@@ -6,6 +6,7 @@ domain: health-medicine
 author: Librarian
 tags: [antimicrobial-resistance, antibiotic-stewardship, one-health, infection-prevention, surveillance, diagnostics, antibiotic-use]
 links: [library/health-medicine/public-health-epidemiology.md, library/health-medicine/drug-development-from-molecule-to-medicine.md, library/science/microbiology-and-the-microbial-world.md]
+reviewed: 2026-09-23
 ---
 
 # Antibiotic Stewardship Preserves Effective Treatment by Reducing Selection Without Withholding Necessary Care
@@ -60,6 +61,8 @@ Two hospital interventions have the strongest implementation support. Preauthori
 
 Measurement closes the loop. Useful process measures include antibiotic days of therapy, standardized consumption, proportion of treatment that follows local guidance, culture collection before therapy, time to active treatment, de-escalation, intravenous-to-oral conversion, and duration by syndrome. Outcome measures include mortality, readmission, treatment failure, adverse drug events, C. difficile infection, length of stay, and selected resistance patterns. Balancing measures are essential: a fall in antibiotic use is not success if delayed therapy, undertreatment, or mortality rises. Resistance rates should be interpreted over suitable time horizons and with infection-control and case-mix data because they are affected by importation, outbreaks, testing, and transmission as well as prescribing ([5] [6] [7]).
 
+Outpatient care requires a related but different loop. CDC's US antibiotic-use summary cites a community-dispensing study estimating that 85-95 percent of human antibiotic use occurs outside hospitals, and estimates that at least 28 percent of US outpatient prescriptions are unnecessary. The former is an estimate from a particular setting, not a measured global outpatient share. Its updated outpatient core elements call for accountable leadership, prescribing expertise, condition-specific actions, tracking, feedback, and patient education. For selected uncomplicated illnesses that may resolve without treatment, guideline-concordant watchful waiting or delayed prescribing needs a clear follow-up plan; suspected serious bacterial disease still requires timely assessment and effective treatment. An inpatient-only dashboard therefore misses much of the prescribing opportunity ([16] [17]).
+
 ### Diagnostics reduce uncertainty only when connected to action
 
 Conventional cultures and antimicrobial susceptibility testing remain the foundation of targeted treatment, but their value depends on specimen quality, timing, laboratory capacity, and clinical interpretation. A contaminated specimen can provoke unnecessary therapy; failure to sample before antibiotics can erase the evidence needed to narrow treatment. Local antibiograms aggregate susceptibility results to guide empirical choices, but hospital-wide averages may conceal important differences among intensive-care units, wards, specimen types, and patient groups. Diagnostic stewardship therefore includes deciding when to test, how to collect and transport samples, how laboratories report results, and how clinicians act on them ([5] [6]).
@@ -108,6 +111,8 @@ A separate systematic review and meta-analysis by Baur and colleagues examined 3
 
 Those estimates should not be generalized as a universal effect size. The review found significant heterogeneity and no detected effect for several other resistance outcomes, including vancomycin-resistant enterococci and some quinolone- or aminoglycoside-resistant Gram-negative organisms. Most included evidence was not randomized at the level needed to isolate stewardship from contemporaneous infection-control, outbreak, laboratory, or case-mix changes. The reliable inference is directional and conditional: stewardship can reduce important resistant infections, and integration with infection prevention is stronger than prescription control in isolation ([8]).
 
+A later stepped-wedge cluster-randomized trial by Livorsi and colleagues tested discharge-focused prospective audit and feedback in 10 hospitals. The intervention did not significantly reduce the frequency of postdischarge antibiotic prescriptions (21.9 percent at baseline versus 21.8 percent during intervention; odds ratio 0.94, 95 percent confidence interval 0.84-1.05) or adjusted postdischarge duration. In a subset with common uncomplicated diagnoses, chart review found more optimal prescriptions. This is a distinct test of a transition-of-care intervention, not proof that inpatient audit never works or that discharge review should be abandoned. It cautions against inferring population-level reductions merely from introducing a feedback workflow ([18]).
+
 ### Diagnostics work best as part of a response pathway
 
 Peri and colleagues' 2024 systematic review and network meta-analysis evaluated 88 papers and 25,682 bloodstream-infection encounters. Rapid diagnostic testing combined with stewardship was associated with lower mortality than conventional blood culture alone (odds ratio 0.72, 95 percent confidence interval 0.59-0.87) and lower mortality than conventional blood culture plus stewardship (odds ratio 0.78, 0.63-0.96). It also shortened time to optimal therapy by an estimated 29 hours versus conventional culture alone, 18 hours versus conventional culture plus stewardship, and 12 hours versus rapid testing alone. Rapid testing alone did not show the same survival benefit ([9]).
@@ -140,9 +145,15 @@ Local treatment guidance should combine syndrome evidence with current local sus
 
 Hospital metrics should form a causal chain. Measure antibiotic exposure, appropriateness, and diagnostic turnaround; then assess adverse drug events, C. difficile, length of stay, readmission, mortality, and selected resistance outcomes. Stratify by syndrome, service, acuity, and agent so that a hospital-wide average does not hide intensive-care or specialty problems. Compare rates over enough time to separate signal from outbreaks and changes in culturing. The author's synthesis is that the safest dashboard pairs conservation measures with timely-active-treatment and patient-harm measures, preventing the optimization of one side of the trade-off ([5] [7] [8]).
 
+### For outpatient teams and discharge planners: measure the treatment beyond the ward
+
+Outpatient stewardship needs syndrome-specific diagnostic criteria, decisions about whether an antibiotic is indicated, a justified agent and duration, and a return plan when observation is safe. Clinics and health systems can use peer feedback and decision support, but should monitor missed or delayed necessary treatment as well as avoidable prescriptions. CDC's updated guidance gives networks, independent clinics, and individual prescribers distinct roles; the CDC use summary shows why a hospital-only program misses substantial outpatient prescribing ([16] [17]).
+
+The same boundary problem arises when an inpatient completes treatment at home. Discharge orders should carry a total course duration that includes inpatient days, an indication, and a clear follow-up and review plan. Livorsi and colleagues' trial did not reduce overall discharge use with audit and feedback alone, even though appropriateness improved in a selected subgroup. Programs should therefore test whether discharge recommendations reach prescribers and change total days and patient outcomes before claiming that a workflow conserves antibiotics ([18]).
+
 ### For public health: prevent infections before optimizing prescriptions
 
-Vaccination, safe water, sanitation, hand hygiene, environmental cleaning, device safety, maternal and neonatal infection prevention, and outbreak control reduce antibiotic demand without forcing a treatment trade-off. They also protect people for whom antibiotics are least accessible. The GBD analysis estimated that improvements in infection prevention, healthcare quality, and sepsis management prevented millions of AMR-associated deaths over past decades, while the Baur meta-analysis found stronger effects when stewardship and infection control were combined ([3] [8]).
+Vaccination, safe water, sanitation, hand hygiene, environmental cleaning, device safety, maternal and neonatal infection prevention, and outbreak control reduce antibiotic demand without forcing a treatment trade-off. They also protect people for whom antibiotics are least accessible. The GBD analysis documented a decline of more than 50 percent in AMR deaths among children younger than five between 1990 and 2021; it did not assign a historical number of deaths prevented to any specific intervention. Its better-care scenario projects future deaths averted under improved treatment and access, whereas the Baur meta-analysis found stronger associations when stewardship and infection control were combined. These distinct historical, modeled, and intervention findings should not be combined into a retrospective causal estimate ([3] [8]).
 
 Surveillance must connect laboratory resistance, antibiotic use, patient outcomes, and population denominators. GLASS expansion shows that participation can grow, but incomplete and selectively sampled data limit interpretation. Investments in specimen transport, laboratory quality assurance, susceptibility testing, data linkage, and trained epidemiology are interventions, not administrative overhead. Public reporting should display uncertainty and coverage, because a low measured resistance rate from sparse testing can be less reassuring than a higher rate from representative surveillance ([2]).
 
@@ -182,7 +193,7 @@ The most useful public mental model is option preservation. An antibiotic is val
 
 4. World Health Organization. (2015). "Global action plan on antimicrobial resistance." https://www.who.int/publications/i/item/9789241509763 [high]
 
-5. Centers for Disease Control and Prevention. (2019). "The Core Elements of Hospital Antibiotic Stewardship Programs." Updated program page September 15, 2025. https://www.cdc.gov/antibiotic-use/media/pdfs/hospital-core-elements-508.pdf [high]
+5. Centers for Disease Control and Prevention. (2019). "The Core Elements of Hospital Antibiotic Stewardship Programs." https://www.cdc.gov/antibiotic-use/media/pdfs/hospital-core-elements-508.pdf [high]
 
 6. Barlam, T. F. et al. (2016). "Implementing an Antibiotic Stewardship Program: Guidelines by the Infectious Diseases Society of America and the Society for Healthcare Epidemiology of America." Clinical Infectious Diseases, 62(10), e51-e77. https://doi.org/10.1093/cid/ciw118 [high]
 
@@ -200,9 +211,15 @@ The most useful public mental model is option preservation. An antibiotic is val
 
 13. World Organisation for Animal Health. "Antimicrobial resistance." One Health guidance and global initiative. https://www.woah.org/en/what-we-do/global-initiatives/antimicrobial-resistance [high]
 
-14. Munita, J. M. and Arias, C. A. (2016). "Mechanisms of Antibiotic Resistance." Microbiology Spectrum, 4(2). https://doi.org/10.1128/microbiolspec.VMBF-0016-2015 [high]
+14. Munita, J. M. and Arias, C. A. (2016). "Mechanisms of Antibiotic Resistance." Microbiology Spectrum, 4(2). https://pmc.ncbi.nlm.nih.gov/articles/PMC4888801/ [high]
 
 15. World Health Organization, Food and Agriculture Organization of the United Nations, United Nations Environment Programme, and World Organisation for Animal Health. (2024). "World leaders commit to decisive action on antimicrobial resistance." https://www.who.int/news/item/26-09-2024-world-leaders-commit-to-decisive-action-on-antimicrobial-resistance [high]
+
+16. Centers for Disease Control and Prevention. (2026). "Core Elements of Outpatient Antibiotic Stewardship." https://www.cdc.gov/antibiotic-use/hcp/core-elements/outpatient-antibiotic-stewardship.html [high]
+
+17. Centers for Disease Control and Prevention. "Antibiotic Use in the United States." https://www.cdc.gov/antibiotic-use/hcp/data-research/antibiotic-prescribing.html [high]
+
+18. Livorsi, D. J. et al. (2026). "Prospective Audit and Feedback by Antibiotic Stewardship Teams to Reduce Antibiotic Overuse at Hospital Discharge: A Stepped-Wedge Cluster-Randomized Clinical Trial." JAMA Network Open, 9(1), e2549655. https://pmc.ncbi.nlm.nih.gov/articles/PMC12789953 [high]
 
 ## See Also
 
