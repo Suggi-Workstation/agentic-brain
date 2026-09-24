@@ -1,6 +1,6 @@
 # Self Improvement -- Topics
 
-12 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
+13 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
 
 - [Decision Journals -- Why Writing Down Your Reasoning Before You Know the Outcome Makes You Smarter](decision-journals.md) -- [reviewed: never] -- A decision journal is a timestamped record of what you believed, why you believed it, and how confident you were -- written at the moment you decide, before the outcome arrives. It exists to defeat hindsight bias, the brain's habit of rewriting what you knew once you see how things turned out, and to build a calibration dataset that shows exactly where your judgment is reliable and where it is systematically off.
 
@@ -19,6 +19,8 @@
 - [Meditation and Mindfulness -- The Evidence for Cognitive Benefits Is Stronger Than You Think, but Weaker Than Its Advocates Claim](meditation-and-mindfulness.md) -- [reviewed: never] -- Meditation and mindfulness practices produce measurable improvements in attention, emotional regulation, stress resilience, and even brain structure -- but the effect sizes are moderate, not transformative, and the research literature has real limitations that popular coverage routinely ignores. A systematic look at the evidence shows that 8-12 weeks of consistent practice (roughly 10-30 minutes...
 
 - [Nutrition and Cognitive Function -- What You Eat Becomes the Machinery of Thought](nutrition-and-cognitive-function.md) -- [reviewed: never] -- The brain is the most metabolically expensive tissue in the body: it runs almost exclusively on glucose, cannot store meaningful fuel reserves, and demands on the order of a fifth of resting energy expenditure (Muth & Park, 2021; "Role of Dietary Carbohydrates," 2025). Because thinking is a chemical process, what a person eats -- and when -- measurably shifts attention, memory, and executive...
+
+- [Personal Knowledge Systems Create Value Only When Captured Ideas Return to Use](personal-knowledge-management-and-note-taking-systems.md) -- [reviewed: never] -- Personal knowledge management is the deliberate practice of capturing, processing, connecting, maintaining, retrieving, and applying information for one's own work and learning. A note collection becomes a knowledge system only when it reduces future search, supports accurate recall, or helps produce a decision, explanation, or artifact; accumulation alone can increase clutter without increasing usable knowledge [1][2][3].
 
 - [Personal N-of-1 Experiments Turn Self-Improvement Into Bounded Learning, Not Personal Proof](personal-n-of-1-experiments.md) -- [reviewed: never] -- A personal N-of-1 experiment is a planned comparison in which one person changes a low-risk practice, measures a relevant outcome repeatedly, and uses the result to make a decision for that same person. Its value comes from replacing impressionistic trial and error with a prewritten question, comparator, measurement plan, and decision rule; it does not establish what will work for other people or excuse unsafe self-experimentation [1][2][11][12].
 
