@@ -1,6 +1,6 @@
 # Investors -- Topics
 
-11 topics. Anchor: [anchor-investors.md](anchor-investors.md)
+12 topics. Anchor: [anchor-investors.md](anchor-investors.md)
 
 - [Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline](benjamin-graham.md) -- [reviewed: never] -- Benjamin Graham transformed investing from speculation into a systematic discipline grounded in financial analysis. Before Graham, buying stocks was driven by tips, momentum, and insider information. After Graham's two foundational texts -- Security Analysis (1934) and The Intelligent Investor (1949) -- it became possible to value securities using financial statements, a margin of safety, and the concept of intrinsic value.
 
@@ -9,6 +9,8 @@
 - [Howard Marks -- Why Mastering Market Cycles and Second-Level Thinking Matters More Than Forecasting](howard-marks.md) -- [reviewed: never] -- Howard Marks is the co-founder and co-chairman of Oaktree Capital Management, the world's largest distressed debt investment firm, and one of the most influential living voices on risk, market cycles, and investor psychology. His quarterly memos to clients, written since 1990, are required reading on Wall Street -- Warren Buffett once remarked that "when I see memos from Howard Marks in my mail, they're the first thing I open and read.
 
 - [John Templeton -- The Global Contrarian Who Turned Maximum Pessimism into Maximum Returns](john-templeton.md) -- [reviewed: never] -- Sir John Templeton (1912-2008) was the original global value investor, a contrarian who built one of the most successful mutual fund track records in history by systematically buying assets at their moments of deepest despair. His Templeton Growth Fund achieved roughly 15% annual returns over 38 years, a record that placed him among the greatest investors of the 20th century.
+
+- [Michael Mauboussin -- Better Investing Starts with Expectations, Base Rates, and Process](michael-mauboussin-expectations-competitive-advantage-craft-valuation.md) -- [reviewed: never] -- Michael J. Mauboussin has spent his career connecting security analysis with competitive strategy, probability, behavioral science, and complex-systems research. His central contribution is a decision process: infer what a price already assumes, test those assumptions against business economics and base rates, and judge the quality of the reasoning separately from the realized outcome [1][5][7][9][12].
 
 - [Mohnish Pabrai -- How Shameless Cloning Built a Concentrated Value Investing Career](mohnish-pabrai.md) -- [reviewed: never] -- Mohnish Pabrai is an Indian-American investor who built Pabrai Investment Funds by systematically copying the methods of Warren Buffett and Charlie Munger rather than inventing his own. His central proposition is that originality in investing is overrated: a disciplined copy of a proven system, applied with patience and concentration, can compound capital far beyond what most original thinkers achieve.
 
