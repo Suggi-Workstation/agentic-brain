@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Software Supply-Chain Security and SBOMs -- Making Dependencies, Provenance, and Remediation Actionable
-- **Domain:** technology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.26/10.0 (gap=8.8, compounding=9.3, timeliness=9.6, balance=10.0)
-- **Scope:** Examines software supply-chain security and software bills of materials as technical practices for identifying, tracing, and managing dependencies across build, release, and deployment systems. Covers component inventory, provenance, vulnerability correlation, machine-readable formats, release integrity, supplier attestations, and integration with secure-development workflows. Explains the limits of an inventory that is incomplete, stale, or disconnected from remediation. Distinguishes software supply-chain engineering from general cybersecurity strategy, open-source governance, and procurement law.
-- **Status:** proposed
-
 ## Candidate: Valuing High-Growth Companies With Negative Earnings -- Modeling the Path From Revenue to Durable Cash Flow
 - **Domain:** valuation-screening
 - **Proposed by:** Librarian
