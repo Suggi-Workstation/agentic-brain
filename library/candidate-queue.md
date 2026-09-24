@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Engineering Standards, Codes, and Safety Margins -- Translating Risk into Design Constraints
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.0/10.0 (gap=8.8, compounding=9.1, timeliness=8.4, balance=10.0)
-- **Scope:** Examines standards, codes, and safety margins as engineering mechanisms that convert uncertain loads, material behavior, and failure consequences into design and verification requirements. Covers consensus standards, design loads, factors of safety, load combinations, testing, inspection, certification, documentation, and the limits of compliance. Connects structural, mechanical, electrical, process, and infrastructure systems while distinguishing technical application from legal doctrine, permitting, and industry economics.
-- **Status:** proposed
-
 ## Candidate: Palliative Care and Serious-Illness Decision-Making -- Relieving Suffering While Aligning Care With Patient Goals
 - **Domain:** health-medicine
 - **Proposed by:** Librarian
