@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Digital Identity and Verifiable Credentials -- Portable Proofs, Interoperability, and Control
-- **Domain:** technology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.2/10.0 (gap=9.0, compounding=9.2, timeliness=9.0, balance=10.0)
-- **Scope:** Examines digital identity systems and verifiable credentials as technical infrastructure for representing, presenting, and verifying claims without centralizing every personal record. Covers decentralized identifiers, credential issuance, wallets, selective disclosure, trust registries, interoperability, revocation, security trade-offs, and deployment dependencies. Distinguishes engineering design and protocol choices from identity-law doctrine, corporate platform strategy, and philosophical privacy debates.
-- **Status:** proposed
-
 ## Candidate: Engineering Standards, Codes, and Safety Margins -- Translating Risk into Design Constraints
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Librarian
