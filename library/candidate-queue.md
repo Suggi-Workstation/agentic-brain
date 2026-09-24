@@ -177,3 +177,27 @@
 - **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.5, timeliness=9.2, balance=10.0)
 - **Scope:** Examines illness and healing as cultural and social experiences as well as biological events. Covers explanatory models, plural medical systems, ritual and care, embodiment, stigma, practitioner-patient interpretation, colonial histories, structural violence, and ethnographic study of health institutions across societies. Connects indigenous knowledge and kinship to public-health delivery while testing romantic or universal claims against comparative evidence. Distinguishes anthropological analysis from clinical treatment guidance, epidemiology, and health-policy prescription.
 - **Status:** proposed
+
+## Candidate: Fertility Decline and Family Formation -- Demographic Mechanisms, Constraints, and Social Change
+- **Domain:** sociology-demography
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.7, timeliness=9.9, balance=10.0)
+- **Scope:** Examines fertility decline and family formation as population-level outcomes of partnership patterns, reproductive intentions, health, housing, work, care, gender relations, and institutional constraints. Covers period and cohort fertility, tempo effects, delayed childbearing, childlessness, marriage and cohabitation, unequal constraints, and cross-national variation. Connects family decisions to population aging and household change without reducing them to preference or a single economic cause. Distinguishes demographic explanation from clinical fertility treatment, economic forecasting, and advocacy for coercive population policy.
+- **Status:** proposed
+
+## Candidate: Emotion and Decision-Making -- How Affect Guides Risk, Attention, and Judgment
+- **Domain:** psychology-behavior
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.6/10.0 (gap=9.3, compounding=9.7, timeliness=9.6, balance=10.0)
+- **Scope:** Examines how emotions shape judgment by changing attention, perceived value, probability weighting, memory, and action readiness. Covers integral and incidental affect, somatic-marker and appraisal accounts, anticipated regret, fear, anger, mood, emotion regulation, and behavioral and neurophysiological evidence. Tests the false opposition between emotion and reason by asking when affect supplies useful information and when it biases choice. Distinguishes psychological mechanisms from clinical treatment, generic self-help, and communication tactics.
+- **Status:** proposed
+
+## Candidate: Territorial Disputes and Irredentism -- Borders, Nationalism, and Escalation Risk
+- **Domain:** geopolitics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.5/10.0 (gap=9.2, compounding=9.5, timeliness=9.8, balance=10.0)
+- **Scope:** Examines territorial disputes and irredentism as contests over borders, sovereignty, identity, resources, and strategic depth. Covers inherited boundaries, historical claims, maps and legal narratives, faits accomplis, militarized bargaining, nationalism, external guarantees, and pathways from dispute to settlement or escalation. Compares land and maritime claims without treating any single conflict as the model for all cases. Distinguishes international power competition from domestic border administration, military hardware, and detailed international-law doctrine.
+- **Status:** proposed
