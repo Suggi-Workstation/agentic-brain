@@ -177,3 +177,35 @@
 - **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.3, timeliness=10.0, balance=9.1)
 - **Scope:** Examines pastoralism and nomadic lifeways as adaptive social systems for using variable rangelands through mobility, herd management, reciprocity, and shared access. Covers transhumance, common-property institutions, kinship, labor, markets, land tenure, indigenous ecological knowledge, conflict, sedentarization, and climate adaptation across regions. Uses ethnographic and historical comparison to test stereotypes that mobility is disorder or that pastoralism is environmentally uniform. Distinguishes cultural organization and lived experience from livestock production technique, land-restoration policy, and general climate science.
 - **Status:** proposed
+
+## Candidate: Gray-Zone Competition -- Coercion Below the Threshold of War
+- **Domain:** geopolitics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.6/10.0 (gap=9.3, compounding=9.6, timeliness=9.8, balance=10.0)
+- **Scope:** Examines gray-zone competition as state coercion calibrated to change facts without triggering conventional war. Covers proxy forces, maritime pressure, cyber operations, disinformation, economic coercion, legal narratives, deniable action, escalation management, attribution, and alliance response. Compares how cumulative small moves exploit ambiguity and fragmented decision-making while still creating strategic risk. Distinguishes interstate gray-zone strategy from domestic politics, criminal activity, military hardware, and detailed international-law doctrine.
+- **Status:** proposed
+
+## Candidate: Mortality and Life Expectancy -- Demographic Measurement, Inequality, and Population Change
+- **Domain:** sociology-demography
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.5, timeliness=9.4, balance=10.0)
+- **Scope:** Examines mortality as a demographic process measured through death rates, life tables, life expectancy, survival, and cause-specific patterns. Covers age standardization, infant and maternal mortality, cohort versus period measures, data quality, mortality compression, shocks, and persistent differences across class, place, sex, and race. Connects changing survival to population aging, migration, household structure, and institutions while explaining why life expectancy is not an individual forecast. Distinguishes population-level demography from clinical treatment, disease epidemiology, and actuarial product design.
+- **Status:** proposed
+
+## Candidate: Habit Formation and Automaticity -- How Cues, Repetition, and Context Shape Behavior
+- **Domain:** psychology-behavior
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.5/10.0 (gap=9.4, compounding=9.5, timeliness=9.2, balance=10.0)
+- **Scope:** Examines the psychological mechanisms by which repeated actions become cue-dependent and less reliant on deliberate control. Covers context stability, reinforcement, repetition, automaticity measurement, reward prediction, habit discontinuity, extinction, relapse, and the interaction between goals and habits. Evaluates competing models and evidence rather than treating a fixed number of days or willpower as a universal law. Distinguishes mechanism from self-help programs, clinical treatment, and organizational behavior design.
+- **Status:** proposed
+
+## Candidate: Medical Anthropology -- How Culture, Institutions, and Power Shape Illness and Healing
+- **Domain:** anthropology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.5, timeliness=9.2, balance=10.0)
+- **Scope:** Examines illness and healing as cultural and social experiences as well as biological events. Covers explanatory models, plural medical systems, ritual and care, embodiment, stigma, practitioner-patient interpretation, colonial histories, structural violence, and ethnographic study of health institutions across societies. Connects indigenous knowledge and kinship to public-health delivery while testing romantic or universal claims against comparative evidence. Distinguishes anthropological analysis from clinical treatment guidance, epidemiology, and health-policy prescription.
+- **Status:** proposed
