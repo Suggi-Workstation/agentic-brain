@@ -1,6 +1,6 @@
 # Geopolitics -- Topics
 
-13 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
+14 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
 
 - [Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture](alliance-credibility-and-burden-sharing.md) -- [reviewed: 2026-09-24] -- A security alliance is a contingent promise: members agree to consult, prepare, or assist under specified circumstances, but the treaty cannot mechanically determine what each government will do in a future crisis.[1][7][10] Alliance credibility therefore depends on the alignment of declared obligations, usable military capability, political resolve, and shared exposure to the costs of failure;...
 
@@ -19,6 +19,8 @@
 - [Middle East Geopolitics -- How Oil, Religion, and Colonial Borders Created the World's Most Volatile Region](middle-east-geopolitics.md) -- [reviewed: never] -- The Middle East is the world's most geopolitically contested region not because of ancient hatreds or religious inevitability, but because three structural forces -- hydrocarbon wealth, sectarian identity politics, and borders drawn by departing empires -- interact to produce persistent instability that draws in every major global power.
 
 - [Nuclear Deterrence -- How the Threat of Mutual Annihilation Produced the Long Peace](nuclear-deterrence-mad.md) -- [reviewed: never] -- Nuclear deterrence is the strategic doctrine that the threat of devastating nuclear retaliation prevents adversaries from launching a first strike, and it is the most consequential innovation in the history of warfare -- transforming conflict from a contest of military strength into a contest of credible threats.
+
+- [Nuclear Proliferation and Nonproliferation -- Weapons Spread When Security and Institutions Fail Together](nuclear-proliferation-and-nonproliferation.md) -- [reviewed: never] -- Nuclear proliferation is not the automatic result of technical capability: states seek weapons when leaders judge them valuable and feasible, while many capable states stop short because alliances, norms, verification, domestic coalitions, and expected costs make restraint preferable [6][7][8]. The nonproliferation regime works by reinforcing those reasons for restraint, but it becomes fragile...
 
 - [Rare Earths and Critical Minerals -- The New Cartography of Power](rare-earths-critical-minerals.md) -- [reviewed: never] -- Rare earth elements and critical minerals have become the strategic chokepoints of the 21st century, transforming from obscure industrial inputs into instruments of geopolitical leverage. China's near-monopoly on processing and refining -- approximately 90 percent of global capacity -- gives Beijing coercive power over the defense, clean energy, and semiconductor supply chains of virtually every industrialized nation.
 
