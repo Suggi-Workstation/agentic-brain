@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Michael Mauboussin -- Expectations, Competitive Advantage, and the Craft of Valuation
-- **Domain:** investors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 9.18/10.0 (gap=9.0, compounding=9.5, timeliness=9.2, balance=9.1)
-- **Scope:** Profiles Michael Mauboussin as an investor, strategist, author, and teacher whose work connects expectations, competitive advantage, valuation, probability, and capital allocation. Covers his career, published work, analytical frameworks, intellectual influences, use of empirical research, and evolution of his thinking. Examines controversies and limits without turning the profile into a general valuation manual. Distinguishes the person and decision process from abstract valuation techniques and investment-vehicle structures.
-- **Status:** proposed
-
 ## Candidate: Donella Meadows -- Systems Thinking, Public Communication, and Ecological Limits
 - **Domain:** notable-people
 - **Proposed by:** Librarian
