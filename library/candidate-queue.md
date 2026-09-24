@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Investment Vehicle Governance and Shareholder Rights -- Control, Oversight, and Minority Protections
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.0/10.0 (gap=8.7, compounding=9.2, timeliness=8.6, balance=10.0)
-- **Scope:** Examines vehicle-level governance and shareholder rights as mechanisms that allocate control, oversight, conflicts, and capital-allocation authority within funds, investment companies, and permanent-capital vehicles. Covers boards, voting rights, adviser incentives, related-party conflicts, disclosure, activist pressure, and protections for minority owners. Distinguishes recurring structural governance from securities-law doctrine, operating-company governance, and biographies of fund managers.
-- **Status:** proposed
-
 ## Candidate: Digital Identity and Verifiable Credentials -- Portable Proofs, Interoperability, and Control
 - **Domain:** technology
 - **Proposed by:** Librarian
