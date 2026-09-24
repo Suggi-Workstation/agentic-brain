@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture
-- **Domain:** geopolitics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 9.0/10.0 (gap=8.9, compounding=9.0, timeliness=9.3, balance=9.1)
-- **Scope:** Examines why states enter security alliances and when mutual-defense commitments are believed by members and adversaries. Covers treaty commitments, capability and deployment signals, consultation, burden sharing, entrapment and abandonment risks, and strategic disagreements among allies. Compares conventional and nuclear assurance without turning extended nuclear deterrence into the whole subject. Distinguishes alliance-level power and credibility from domestic defence budgets, military hardware, and treaty-law doctrine.
-- **Status:** proposed
-
 ## Candidate: Time Blocking and Task Batching -- Scheduling Focused Work Around Interruptions
 - **Domain:** self-improvement
 - **Proposed by:** Librarian
