@@ -2,7 +2,7 @@
 
 13 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
 
-- [Decision Journals -- Why Writing Down Your Reasoning Before You Know the Outcome Makes You Smarter](decision-journals.md) -- [reviewed: never] -- A decision journal is a timestamped record of what you believed, why you believed it, and how confident you were -- written at the moment you decide, before the outcome arrives. It exists to defeat hindsight bias, the brain's habit of rewriting what you knew once you see how things turned out, and to build a calibration dataset that shows exactly where your judgment is reliable and where it is systematically off.
+- [Decision Journals -- Writing Before the Outcome Preserves Evidence for Better Review](decision-journals.md) -- [reviewed: 2026-09-24] -- A decision journal is a contemporaneous record of a choice, the information available when it was made, and any forecast that can later be resolved. Such a record preserves evidence that memory and outcome knowledge can otherwise reshape, but the journal is not itself proven to improve every kind of decision [1][2][4].
 
 - [Deliberate Practice -- Why Repeating What You Already Know Builds Nothing but Stagnation](deliberate-practice.md) -- [reviewed: never] -- Deliberate practice is a specific, structured form of training designed to improve performance by targeting weaknesses at the edge of one's current ability, guided by clear goals and immediate feedback. First identified by K. Anders Ericsson in his landmark 1993 study of elite violinists, it is the mechanism that separates world-class performers from those who merely accumulate experience without improving.
 
