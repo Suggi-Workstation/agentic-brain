@@ -1,6 +1,6 @@
 # Sociology Demography -- Topics
 
-11 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
+12 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
 
 - [Crime and Deviance -- Why Social Conditions and Institutional Responses Must Be Analyzed Together](crime-and-deviance-social-structure-and-institutional-response.md) -- [reviewed: never] -- Crime is conduct defined as an offense by law, while deviance is conduct, identity, or condition treated as violating a group's norms; the two overlap but are not identical. Sociological research shows that crime and deviance cannot be explained only as individual choices because their distribution, definition, detection, and consequences are shaped by neighborhood organization, inequality, institutions, and social reactions.
 
@@ -9,6 +9,8 @@
 - [Migration -- The Demographic Process That Reshapes Sending and Receiving Societies](migration-causes-patterns-and-consequences.md) -- [reviewed: never] -- Migration is the movement of people across a boundary -- a household, a city, a region, or a national border -- to establish a new place of residence. It is one of the three demographic processes, alongside fertility and mortality, that determine how populations change in size, structure, and distribution, and it is the only one of the three that operates across administrative and political borders.
 
 - [Population Aging -- How Longer Lives and Fewer Births Force Societies to Rewrite Their Social Contract](population-aging-social-consequences.md) -- [reviewed: never] -- Population aging is the structural shift in which the share of older persons in a population rises relative to the working-age population, driven by falling fertility and rising life expectancy. It is the most consequential demographic outcome of the transition from high to low birth and death rates, and it transforms the fiscal, labor-market, family, and intergenerational architecture of every society it touches.
+
+- [Population Projections -- Demographic Accounting Is Exact, but Its Future Inputs Are Uncertain](population-projections-cohort-component-methods-and-uncertainty.md) -- [reviewed: never] -- Population projections advance age and sex cohorts through assumed paths of fertility, mortality, and migration, preserving the accounting identities that connect one population to the next. The method can calculate the consequences of stated assumptions exactly, but it cannot make those assumptions certain; responsible use therefore requires attention to baseline data, scenarios, prediction intervals, and the widening range of plausible outcomes over time.
 
 - [Race and Ethnicity as Social Systems -- How Institutions Turn Social Categories Into Unequal Life Chances](race-and-ethnicity-as-social-systems.md) -- [reviewed: never] -- Race and ethnicity operate as social systems when classifications, group boundaries, institutional decisions, and unequal access to resources become connected over time. In the United States, federal statistical agencies explicitly treat race as a social definition rather than a biological, anthropological, or genetic definition, while research documents that racialized treatment can affect hiring, housing, and intergenerational economic outcomes.
 
