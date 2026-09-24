@@ -1,6 +1,6 @@
 # Valuation Screening -- Topics
 
-14 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
+15 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
 - [Cost of Capital -- Why the Discount Rate Is Both the Most Important and Most Uncertain Number in Valuation](cost-of-capital-capm-wacc-erp.md) -- [reviewed: 2026-09-24] -- Cost of capital is the opportunity return required by providers of debt and equity for bearing risks comparable to those of the cash flows being valued. In a discounted cash flow model, free cash flow to the firm is ordinarily discounted at a weighted average cost of capital, while dividends or free cash flow to equity are discounted at a cost of equity; matching the cash-flow claim, currency, and risk to the rate is more important than reporting the rate to extra decimal places [13].
 
@@ -25,6 +25,8 @@
 - [Terminal Value -- Why the Most Important Number in Valuation Is Also the Least Reliable](terminal-value-dcf-methods-and-biases.md) -- [reviewed: never] -- Terminal value is the estimated worth of a business beyond the explicit forecast period in a discounted cash flow model, and it routinely accounts for 60-80% of the final valuation. This dominance is not a modeling flaw -- it reflects the economic reality that most of a going concern's value lies in its long-term cash-generating capacity beyond any reasonable forecast window.
 
 - [Valuation Multiples -- Why the Most Common Valuation Tools Are Also the Most Misused](valuation-multiples-pe-ev-ebitda-pb-analysis.md) -- [reviewed: never] -- Valuation multiples -- price-to-earnings (P/E), EV/EBITDA, price-to-book (P/B), and price-to-sales (P/S) -- are the most widely used tools in equity valuation because they offer speed, simplicity, and direct comparability to market prices. But this convenience masks a dangerous trap: every multiple has a specific set of conditions under which it produces meaningful results, and using the wrong multiple for the wrong company type produces not just noise but systematically misleading conclusions.
+
+- [Cyclical Companies Are Valued by Sustainable Mid-Cycle Economics, Not Current Earnings](valuation-of-cyclical-companies-normalizing-earnings-across-the-business-cycle.md) -- [reviewed: never] -- A cyclical company's current profit can be a poor guide to value because volume, price, utilization, margins, working capital, and financing conditions move together across the cycle [1][2]. A defensible valuation reconstructs sustainable mid-cycle earnings and cash flow, tests more than one cycle path, and applies DCF or multiples to operating and capital-structure assumptions that describe the same economic state [1][2][3][4].
 
 - [Valuing Financial Institutions -- Capital and Liability Quality Determine What Book Value Is Worth](valuing-financial-institutions-banks-insurers-balance-sheet-businesses.md) -- [reviewed: never] -- A bank or insurer cannot be valued reliably by treating its funding liabilities as incidental debt and its accounting equity as automatically realizable cash. The valuation task is to connect credible book equity and sustainable returns on that equity to required capital, credit or claim losses, funding behavior, and the price paid for the common claim ([1] [2] [3] [4]).
 
