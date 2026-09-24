@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Nuclear Proliferation and Nonproliferation -- Why Weapons Spread and Restraint Regimes Fray
-- **Domain:** geopolitics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.4, timeliness=9.8, balance=9.1)
-- **Scope:** Examines why states acquire nuclear weapons and why others stop short, treating proliferation as a strategic, technological, institutional, and alliance problem. Covers security motives, prestige, domestic politics, weapons pathways, safeguards, export controls, the NPT, extended deterrence, rollback, and enforcement limits. Tests how vertical modernization and horizontal spread interact without assuming that deterrence alone explains restraint. Distinguishes proliferation dynamics from nuclear-deterrence doctrine, military hardware, and detailed treaty-law interpretation.
-- **Status:** proposed
-
 ## Candidate: Census and Survey Measurement -- Coverage, Nonresponse, and the Social Construction of Population Data
 - **Domain:** sociology-demography
 - **Proposed by:** Librarian
