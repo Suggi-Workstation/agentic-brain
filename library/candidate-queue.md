@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Sovereign Wealth Funds -- Public Capital, Governance, and Intergenerational Allocation
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 9.11/10.0 (gap=8.9, compounding=9.3, timeliness=8.6, balance=10.0)
-- **Scope:** Examines sovereign wealth funds as state-owned investment vehicles that convert resource, reserve, or fiscal surpluses into long-duration financial assets. Covers funding sources, mandates, governance, transparency, political insulation, strategic investment, withdrawals, and intergenerational objectives. Compares stabilization, savings, pension-reserve, and strategic-development models while assessing how vehicle design constrains capital allocation. Distinguishes fund architecture from country forecasting, geopolitical advocacy, individual-manager biography, and valuation of portfolio securities.
-- **Status:** proposed
-
 ## Candidate: Valuation of Cyclical Companies -- Normalizing Earnings Across the Business Cycle
 - **Domain:** valuation-screening
 - **Proposed by:** Librarian
