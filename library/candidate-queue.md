@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Maritime Chokepoints and Sea-Lane Security -- Geography, Trade, and Coercive Leverage
-- **Domain:** geopolitics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 9.19/10.0 (gap=9.0, compounding=9.3, timeliness=9.5, balance=9.1)
-- **Scope:** Examines maritime chokepoints and sea-lane security as geographic constraints through which trade routes, energy flows, naval power, insurance costs, and coercive leverage interact. Covers the Suez Canal, Bab el-Mandeb, Strait of Hormuz, Malacca Strait, Panama Canal, Arctic routes, rerouting, convoy and naval protection, and infrastructure vulnerability. Connects recent disruption to durable strategic geography without treating a single conflict as the whole subject. Distinguishes geopolitical power relations from maritime engineering, trade theory, or detailed international-law doctrine.
-- **Status:** proposed
-
 ## Candidate: Personal Knowledge Management and Note-Taking Systems -- Capturing, Connecting, and Retrieving Ideas
 - **Domain:** self-improvement
 - **Proposed by:** Librarian
