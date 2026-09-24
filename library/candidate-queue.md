@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Enterprise Value and Equity Value Reconciliation -- Connecting Operating Value, Financing, and Per-Share Worth
-- **Domain:** valuation-screening
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 8.9/10.0 (gap=8.7, compounding=9.2, timeliness=8.2, balance=10.0)
-- **Scope:** Examines the reconciliation from enterprise value to equity value when an analyst values operating assets separately from claims held by debt holders and other capital providers. Covers cash and debt adjustments, preferred stock, noncontrolling interests, pensions, leases, investments, diluted shares, option treatment, and per-share conversion. Distinguishes the capital-structure bridge from financial-statement preparation, portfolio construction, and generic multiple selection.
-- **Status:** proposed
-
 ## Candidate: Interleaved Practice and Varied Practice -- Training Discrimination and Durable Skill
 - **Domain:** self-improvement
 - **Proposed by:** Librarian
