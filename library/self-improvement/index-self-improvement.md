@@ -1,6 +1,6 @@
 # Self Improvement -- Topics
 
-13 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
+14 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
 
 - [Decision Journals -- Writing Before the Outcome Preserves Evidence for Better Review](decision-journals.md) -- [reviewed: 2026-09-24] -- A decision journal is a contemporaneous record of a choice, the information available when it was made, and any forecast that can later be resolved. Such a record preserves evidence that memory and outcome knowledge can otherwise reshape, but the journal is not itself proven to improve every kind of decision [1][2][4].
 
@@ -27,4 +27,6 @@
 - [Sleep Optimization -- The Highest-Leverage Health Intervention That Costs Nothing](sleep-optimization.md) -- [reviewed: never] -- Sleep is not passive downtime but an active biological process during which the brain clears metabolic waste, consolidates memories, regulates emotions, and repairs the body. Decades of neuroscience research demonstrate that optimizing sleep -- through timing, environment, and behavioral routines -- produces larger and more reliable gains in cognitive performance, emotional stability, and physical health than any supplement, nootropic, or productivity system.
 
 - [Spaced Repetition and Active Recall -- The Evidence-Based Path to Durable Knowledge](spaced-repetition-active-recall.md) -- [reviewed: never] -- Spaced repetition and active recall are two learning techniques with among the strongest empirical support in all of educational psychology. Spaced repetition distributes review sessions across increasing time intervals to counteract the natural decay of memory, while active recall forces the learner to retrieve information from memory rather than passively re-reading it.
+
+- [Time Blocking and Task Batching Work Best When Plans Expect Interruptions](time-blocking-and-task-batching.md) -- [reviewed: never] -- Time blocking assigns intended work to bounded calendar intervals, while task batching groups activities that can share a setup, tool, place, cognitive mode, or response window. The evidence supports several components of these practices - planning, protected focus, fewer unnecessary switches, and explicit interruption recovery - more strongly than it supports either branded method as a complete productivity package [1][2][4][8][9][12][16].
 
