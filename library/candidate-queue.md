@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Programming-Language Memory Safety -- How Ownership and Type Systems Prevent Vulnerability Classes
-- **Domain:** technology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 9.2/10.0 (gap=9.2, compounding=9.2, timeliness=9.3, balance=9.1)
-- **Scope:** Examines how programming-language memory-safety mechanisms prevent classes of use-after-free, out-of-bounds, and lifetime errors. Covers type systems, ownership and borrowing, managed runtimes, foreign-function boundaries, and migration of legacy components. Compares safeguards, performance and interoperability trade-offs, and residual vulnerabilities that memory safety does not eliminate. Distinguishes language-level engineering from broad cybersecurity governance, supply-chain inventories, and physical hardware protection.
-- **Status:** proposed
-
 ## Candidate: Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture
 - **Domain:** geopolitics
 - **Proposed by:** Librarian
