@@ -1,6 +1,8 @@
 # Anthropology -- Topics
 
-11 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
+12 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
+
+- [Cultural Transmission Persists Through Diverse Learning Networks, Not Copying Alone](cultural-transmission-and-social-learning.md) -- [reviewed: never] -- Cultural continuity does not depend on a single channel or a passive transfer of complete traditions. Knowledge, norms, and skills persist because learners observe, participate, imitate, practice, receive feedback, and selectively attend to different models across the life course; the same distributed system also creates opportunities for innovation and cultural change [1][2][7][10].
 
 - [Ethnographic Methods Produce Cultural Knowledge Through Situated Participation, Not Detachment](ethnographic-methods-and-participant-observation.md) -- [reviewed: never] -- Ethnography produces cultural knowledge by combining sustained participation in social life with systematic observation, interviewing, fieldnotes, and iterative interpretation; it does not obtain a view from nowhere. Its strength is contextual explanation of what people do and mean, while its limits arise from access, researcher position, ethics, selective recording, and the bounded cases from which broader claims are made.
 
