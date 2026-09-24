@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Population Projections -- Cohort-Component Methods and Uncertainty
-- **Domain:** sociology-demography
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 9.0/10.0 (gap=9.2, compounding=9.1, timeliness=8.5, balance=9.1)
-- **Scope:** Explains how demographers project population size and age structure by advancing cohorts through assumptions about fertility, mortality, and migration. Covers baseline census quality, cohort-component calculations, variant scenarios, probabilistic intervals, and sensitivity to changing assumptions. Connects projections to social institutions and population aging while explaining why long horizons widen uncertainty. Distinguishes projection methods from demographic-transition theory, economic forecasts, and advocacy for a particular population policy.
-- **Status:** proposed
-
 ## Candidate: Nuclear Proliferation and Nonproliferation -- Why Weapons Spread and Restraint Regimes Fray
 - **Domain:** geopolitics
 - **Proposed by:** Librarian
