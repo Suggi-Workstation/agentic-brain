@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Donella Meadows -- Systems Thinking, Public Communication, and Ecological Limits
-- **Domain:** notable-people
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 9.01/10.0 (gap=9.0, compounding=9.3, timeliness=8.6, balance=9.1)
-- **Scope:** Profiles Donella Meadows as a systems scientist, writer, educator, and public communicator whose work linked system dynamics, ecological limits, leverage points, and institutional change. Covers her education, MIT and Dartmouth work, Limits to Growth, Systems Thinking, public writing, the Sustainability Institute, critiques, and legacy. Analyzes her choices and influence rather than treating systems theory or environmental science as the primary subject. Distinguishes biography from a general review of climate models, sustainability policy, or ecological economics.
-- **Status:** proposed
-
 ## Candidate: Cultural Transmission and Social Learning -- How Knowledge, Norms, and Skills Persist
 - **Domain:** anthropology
 - **Proposed by:** Librarian
