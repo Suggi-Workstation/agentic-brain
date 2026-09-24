@@ -1,6 +1,6 @@
 # Valuation Screening -- Topics
 
-13 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
+14 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
 - [Cost of Capital -- Why the Discount Rate Is Both the Most Important and Most Uncertain Number in Valuation](cost-of-capital-capm-wacc-erp.md) -- [reviewed: 2026-09-24] -- Cost of capital is the opportunity return required by providers of debt and equity for bearing risks comparable to those of the cash flows being valued. In a discounted cash flow model, free cash flow to the firm is ordinarily discounted at a weighted average cost of capital, while dividends or free cash flow to equity are discounted at a cost of equity; matching the cash-flow claim, currency, and risk to the rate is more important than reporting the rate to extra decimal places [13].
 
@@ -27,4 +27,6 @@
 - [Valuation Multiples -- Why the Most Common Valuation Tools Are Also the Most Misused](valuation-multiples-pe-ev-ebitda-pb-analysis.md) -- [reviewed: never] -- Valuation multiples -- price-to-earnings (P/E), EV/EBITDA, price-to-book (P/B), and price-to-sales (P/S) -- are the most widely used tools in equity valuation because they offer speed, simplicity, and direct comparability to market prices. But this convenience masks a dangerous trap: every multiple has a specific set of conditions under which it produces meaningful results, and using the wrong multiple for the wrong company type produces not just noise but systematically misleading conclusions.
 
 - [Valuing Financial Institutions -- Capital and Liability Quality Determine What Book Value Is Worth](valuing-financial-institutions-banks-insurers-balance-sheet-businesses.md) -- [reviewed: never] -- A bank or insurer cannot be valued reliably by treating its funding liabilities as incidental debt and its accounting equity as automatically realizable cash. The valuation task is to connect credible book equity and sustainable returns on that equity to required capital, credit or claim losses, funding behavior, and the price paid for the common claim ([1] [2] [3] [4]).
+
+- [High-Growth Companies With Negative Earnings Are Valued by the Credibility of Their Path to Durable Cash Flow](valuing-high-growth-companies-with-negative-earnings.md) -- [reviewed: never] -- A high-growth company with negative earnings has value only if its revenue can mature into cash flow after paying for customer acquisition, operations, reinvestment, financing, and dilution. The valuation task is therefore not to excuse current losses or capitalize revenue mechanically, but to model a testable transition from present operating economics to a competitive steady state and to expose how much of that transition the market price already assumes.
 
