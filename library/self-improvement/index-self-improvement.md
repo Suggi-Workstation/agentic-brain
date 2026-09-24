@@ -1,6 +1,6 @@
 # Self Improvement -- Topics
 
-10 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
+11 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
 
 - [Decision Journals -- Why Writing Down Your Reasoning Before You Know the Outcome Makes You Smarter](decision-journals.md) -- [reviewed: never] -- A decision journal is a timestamped record of what you believed, why you believed it, and how confident you were -- written at the moment you decide, before the outcome arrives. It exists to defeat hindsight bias, the brain's habit of rewriting what you knew once you see how things turned out, and to build a calibration dataset that shows exactly where your judgment is reliable and where it is systematically off.
 
@@ -13,6 +13,8 @@
 - [Goal Setting Frameworks -- Why Structured Goals Outperform Vague Intentions by a Factor of Three](goal-setting-frameworks.md) -- [reviewed: never] -- Systematic goal setting is not a soft skill or a motivational ritual. It is one of the most robustly validated interventions in organizational psychology, with effect sizes large enough to matter in practice. People who set specific, written goals with concrete implementation plans achieve their intended outcomes at roughly three times the rate of those who hold the same intentions but stop at "I want to.
 
 - [Habit Formation -- Why Willpower Is Not the Answer and Structure Is](habit-formation.md) -- [reviewed: never] -- Habit formation is the process by which repeated behaviors become automatic -- executed without conscious deliberation in response to environmental cues. Rooted in the basal ganglia's procedural memory systems, habits save cognitive energy but also make unwanted routines stubbornly persistent. The practical consequence is counterintuitive: lasting behavior change depends less on motivation and discipline than on deliberately engineering cues, routines, and rewards into self- reinforcing loops.
+
+- [Interleaved and Varied Practice Build Selection Skills That Repetition Hides](interleaved-and-varied-practice.md) -- [reviewed: never] -- Interleaved practice mixes tasks that require different responses, while varied practice changes the conditions or examples under which a skill is used. These methods often make practice look worse in the moment but can improve delayed retention, discrimination, and transfer when the variations match the decisions required outside practice [1][2][9].
 
 - [Meditation and Mindfulness -- The Evidence for Cognitive Benefits Is Stronger Than You Think, but Weaker Than Its Advocates Claim](meditation-and-mindfulness.md) -- [reviewed: never] -- Meditation and mindfulness practices produce measurable improvements in attention, emotional regulation, stress resilience, and even brain structure -- but the effect sizes are moderate, not transformative, and the research literature has real limitations that popular coverage routinely ignores. A systematic look at the evidence shows that 8-12 weeks of consistent practice (roughly 10-30 minutes...
 
