@@ -1,6 +1,6 @@
 # Technology -- Topics
 
-12 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+13 topics. Anchor: [anchor-technology.md](anchor-technology.md)
 
 - [Blockchain and Distributed Ledgers -- How Trustless Consensus Creates Genuine Innovation Beyond Cryptocurrency Speculation](blockchain-distributed-ledgers.md) -- [reviewed: never] -- Blockchain technology is a distributed data structure that enables mutually distrusting parties to reach consensus on a shared, immutable ledger without relying on a central authority. Originally conceived as the backbone of Bitcoin, the technology has evolved into a general-purpose platform for decentralized applications, smart contracts, and verifiable computation.
 
@@ -9,6 +9,8 @@
 - [Cybersecurity Is an Economic Problem Masquerading as a Technical One -- Why Defense in Depth and Zero Trust Are Not Optional](cybersecurity-principles-threats-and-defense-in-depth.md) -- [reviewed: never] -- Cybersecurity is the practice of protecting information systems from unauthorized access, disruption, and destruction through a combination of technical controls, architectural principles, and organizational processes. The global cost of cybercrime is projected to reach approximately $10.5 trillion annually in 2025, making it an economic force larger than the GDP of every country except the United States and China.
 
 - [Databases and Data Engineering -- The Architecture of Persistent Data](databases-and-data-engineering.md) -- [reviewed: never] -- Databases and data engineering form the persistence layer of the computing stack: the systems and practices that store, organize, transform, and serve the data behind every modern application. The relational model, introduced by E. F. Codd in 1970, established the abstraction that still encodes much of the world's business data more than five decades later.
+
+- [Digital Identity and Verifiable Credentials -- Portability Requires Aligned Cryptography, Trust, and Lifecycle Controls](digital-identity-and-verifiable-credentials.md) -- [reviewed: never] -- Verifiable credentials let an issuer give a holder tamper-evident claims that a verifier can check without contacting the issuer during every transaction, but a valid signature proves neither that a claim is true nor that its issuer is authoritative. Portable digital identity therefore depends on an entire system: interoperable formats and exchange protocols, trustworthy issuers and verifiers,...
 
 - [The Internet -- Why TCP/IP, Decentralized Routing, and Layered Protocols Built the Most Scalable Communication System in History](internet-tcpip-protocols-routing.md) -- [reviewed: never] -- The internet is not a single technology but a layered stack of protocols and physical infrastructure that together enable any device anywhere to communicate with any other device. Built on the TCP/IP protocol suite, a decentralized routing architecture, and a small set of enduring design principles -- including the end-to-end principle and packet switching -- the internet scaled from a four-node...
 
