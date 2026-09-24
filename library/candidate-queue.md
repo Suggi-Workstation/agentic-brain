@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Personal Knowledge Management and Note-Taking Systems -- Capturing, Connecting, and Retrieving Ideas
-- **Domain:** self-improvement
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 9.19/10.0 (gap=9.0, compounding=9.3, timeliness=8.8, balance=10.0)
-- **Scope:** Examines personal knowledge management and note-taking systems as deliberate practices for capturing, organizing, connecting, reviewing, and retrieving information for later work. Covers note granularity, tagging and linking, source attribution, search, spaced review, workflow integration, and the trade-off between capture volume and retrieval quality. Connects actionable personal systems to learning and decision quality without treating a particular app or AI product as the method. Distinguishes self-directed knowledge practice from enterprise information management, formal curriculum design, and agent architecture.
-- **Status:** proposed
-
 ## Candidate: Michael Mauboussin -- Expectations, Competitive Advantage, and the Craft of Valuation
 - **Domain:** investors
 - **Proposed by:** Librarian
