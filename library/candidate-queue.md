@@ -177,3 +177,35 @@
 - **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.4, timeliness=9.5, balance=10.0)
 - **Scope:** Examines religion as a social institution that organizes belonging, authority, norms, networks, welfare, conflict, and collective meaning in modern societies. Covers secularization and its alternatives, congregations, religious switching, pluralism, civil religion, social capital, inequality, organizational change, and cross-national variation in affiliation and practice. Uses institutional and demographic evidence to explain how religion both shapes and responds to family, migration, politics, and social change. Distinguishes sociological analysis from theology, individual belief psychology, cross-cultural ritual ethnography, and policy advocacy.
 - **Status:** proposed
+
+## Candidate: Education as a Social Institution -- Credentialing, Reproduction, and Mobility
+- **Domain:** sociology-demography
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.6/10.0 (gap=9.4, compounding=9.7, timeliness=9.5, balance=10.0)
+- **Scope:** Examines education as a social institution that allocates credentials, status, opportunity, and cultural knowledge rather than only transmitting skills. Covers schooling expansion, tracking, credentialism, social reproduction, peer and network effects, unequal resources, mobility, and variation across class, race, gender, and place. Compares human-capital, signaling, conflict, and institutional explanations while separating measured association from causal evidence. Distinguishes social structure and population outcomes from classroom pedagogy, learning mechanisms, and education-policy design.
+- **Status:** proposed
+
+## Candidate: Metaethics -- Moral Realism, Anti-Realism, and the Meaning of Moral Claims
+- **Domain:** ethics-philosophy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.5/10.0 (gap=9.5, compounding=9.8, timeliness=9.2, balance=9.2)
+- **Scope:** Examines what moral claims mean, whether any are objectively true, and how moral knowledge and motivation are possible. Covers moral realism, naturalism, non-naturalism, error theory, expressivism, constructivism, reasons internalism and externalism, and the is-ought problem. Shows how metaethical commitments alter disagreement, uncertainty, and the authority claimed by normative theories without choosing a doctrine by assertion. Distinguishes second-order questions about morality from normative rules, empirical moral psychology, theology, and legal doctrine.
+- **Status:** proposed
+
+## Candidate: The Beginning of Infinity -- Deutsch on Explanations, Progress, and Fallibilism
+- **Domain:** books
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.7, timeliness=8.8, balance=10.0)
+- **Scope:** Analyzes David Deutsch's The Beginning of Infinity as a book: its case for explanatory knowledge, fallibilism, universal reach, and open-ended progress. Reconstructs its use of computation, physics, epistemology, biological evolution, politics, aesthetics, and the distinction between good and bad explanations. Evaluates the book's strongest objections, evidentiary limits, and relationship to Popper without treating optimism as self-help. Distinguishes analysis of Deutsch's artifact from a general primer on philosophy of science, technology, or human progress.
+- **Status:** proposed
+
+## Candidate: Succession Planning and Leadership Transitions -- Preserving Capability Beyond the Incumbent
+- **Domain:** business-management-strategy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.4/10.0 (gap=9.3, compounding=9.5, timeliness=9.4, balance=9.2)
+- **Scope:** Examines succession planning as an organizational capability for preserving decision quality, culture, relationships, and execution when leaders depart. Covers role criticality, internal pipelines, board oversight, emergency succession, candidate development, knowledge transfer, transition authority, incentive alignment, and post-handoff evaluation. Compares planned and sudden transitions, founder-led and professionally managed firms, and the trade-offs between continuity and renewal. Distinguishes company-level succession systems from executive biography, fund key-person clauses, corporate-law doctrine, and generic leadership psychology.
+- **Status:** proposed
