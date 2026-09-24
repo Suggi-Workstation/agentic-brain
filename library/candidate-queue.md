@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Valuation of Cyclical Companies -- Normalizing Earnings Across the Business Cycle
-- **Domain:** valuation-screening
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 9.07/10.0 (gap=8.8, compounding=9.4, timeliness=8.5, balance=10.0)
-- **Scope:** Examines valuation of cyclical businesses by estimating sustainable mid-cycle earnings rather than capitalizing temporary peaks or troughs. Covers cycle identification, volume and price drivers, normalized margins, maintenance versus growth capital expenditure, working capital, tax, leverage, and scenario ranges. Connects earnings-power, multiple, and DCF methods to commodity, industrial, and other cyclical businesses without treating a single historical average as a sufficient forecast. Distinguishes security valuation from macroeconomic prediction, sector recommendation, and routine financial-statement preparation.
-- **Status:** proposed
-
 ## Candidate: Maritime Chokepoints and Sea-Lane Security -- Geography, Trade, and Coercive Leverage
 - **Domain:** geopolitics
 - **Proposed by:** Librarian
