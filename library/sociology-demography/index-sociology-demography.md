@@ -1,6 +1,8 @@
 # Sociology Demography -- Topics
 
-12 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
+13 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
+
+- [Census and Survey Measurement -- Official Population Data Are Produced, Not Simply Found](census-and-survey-measurement.md) -- [reviewed: never] -- Censuses and surveys do not passively copy a population into a table; institutions define a target population, build a frame, ask questions, pursue responses, adjust incomplete records, and protect confidentiality before publishing statistics.[1][2] Those operations can produce indispensable evidence while also creating coverage, sampling, nonresponse, measurement, processing, and disclosure-avoidance errors.
 
 - [Crime and Deviance -- Why Social Conditions and Institutional Responses Must Be Analyzed Together](crime-and-deviance-social-structure-and-institutional-response.md) -- [reviewed: never] -- Crime is conduct defined as an offense by law, while deviance is conduct, identity, or condition treated as violating a group's norms; the two overlap but are not identical. Sociological research shows that crime and deviance cannot be explained only as individual choices because their distribution, definition, detection, and consequences are shaped by neighborhood organization, inequality, institutions, and social reactions.
 
