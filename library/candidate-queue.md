@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Census and Survey Measurement -- Coverage, Nonresponse, and the Social Construction of Population Data
-- **Domain:** sociology-demography
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.3/10.0 (gap=9.3, compounding=9.5, timeliness=9.3, balance=9.1)
-- **Scope:** Examines censuses and social surveys as institutions that turn populations into official data while inevitably making choices about categories, coverage, privacy, and uncertainty. Covers enumeration, sampling, nonresponse, undercount, questionnaire design, weighting, administrative records, disclosure protection, comparability, and measurement error. Connects demographic evidence to social stratification and institutional decision-making while showing how data systems can render groups visible or invisible. Distinguishes population measurement as a social institution from general statistical inference, election administration, and advocacy over particular policy outcomes.
-- **Status:** proposed
-
 ## Candidate: Decision Fatigue and Ego Depletion -- What Survived the Replication Crisis
 - **Domain:** psychology-behavior
 - **Proposed by:** Librarian
