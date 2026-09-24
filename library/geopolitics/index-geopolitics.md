@@ -2,7 +2,7 @@
 
 12 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
 
-- [Cyber Warfare -- Why the Fifth Domain of Conflict Rewrites the Rules of International Security](cyber-warfare.md) -- [reviewed: never] -- Cyber warfare is the use of digital attacks by nation-states to compromise, disrupt, or destroy the computer systems of adversaries, and it represents the most fundamental transformation in the character of conflict since the advent of nuclear weapons -- not because of its destructive power, but because it erodes the foundations on which traditional deterrence, attribution, and the laws of war were built.
+- [Cyber Warfare -- Why the Fifth Domain of Conflict Rewrites the Rules of International Security](cyber-warfare.md) -- [reviewed: 2026-09-24] -- In this topic, cyber warfare denotes the use of digital access, code, and networked systems to create strategic effects, including activities as different as espionage, coercion, disruption, sabotage, and operations supporting armed conflict. Its geopolitical importance comes less from a single decisive cyber weapon than from persistent competition below the threshold of conventional war, where attribution, legal classification, and escalation are contested [8][10].
 
 - [Energy Geopolitics -- How Oil, Gas, and Critical Minerals Shape Global Power](energy-geopolitics.md) -- [reviewed: never] -- Energy is not just a commodity; it is the lifeblood of modern economies and the most powerful lever in international relations. Control over energy resources -- who has them, who needs them, and who controls the routes between them -- has been a central driver of alliance formation, military conflict, and economic leverage since the 20th century.
 
