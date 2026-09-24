@@ -1,6 +1,6 @@
 # Geopolitics -- Topics
 
-11 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
+12 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
 
 - [Cyber Warfare -- Why the Fifth Domain of Conflict Rewrites the Rules of International Security](cyber-warfare.md) -- [reviewed: never] -- Cyber warfare is the use of digital attacks by nation-states to compromise, disrupt, or destroy the computer systems of adversaries, and it represents the most fundamental transformation in the character of conflict since the advent of nuclear weapons -- not because of its destructive power, but because it erodes the foundations on which traditional deterrence, attribution, and the laws of war were built.
 
@@ -11,6 +11,8 @@
 - [International Institutions -- Why the UN, WTO, and IMF Were Built to Prevent Another World War, and Why They Are Now Failing at Their Founding Mission](international-institutions-un-wto-imf.md) -- [reviewed: never] -- The United Nations, the World Trade Organization, and the International Monetary Fund are the three pillars of the post-World War II international order -- an order deliberately designed to prevent the return of great-power war by embedding sovereign states in a web of rules, norms, and mutual obligations.
 
 - [International Relations Theory -- Why the Three Grand Frameworks of Realism, Liberalism, and Constructivism Compete, Coexist, and Shape How We See the World](international-relations-theory.md) -- [reviewed: never] -- International relations theory is the intellectual toolkit that scholars and policymakers use to explain why states go to war, cooperate, compete, and build institutions -- and the three dominant frameworks of realism, liberalism, and constructivism offer radically different answers to these questions.
+
+- [Maritime Chokepoints Convert Geography into Strategic Leverage](maritime-chokepoints-and-sea-lane-security.md) -- [reviewed: never] -- Maritime chokepoints convert narrow waterways and engineered canals into points where physical geography can reshape trade, prices, and state power. Their leverage does not require permanent closure: attacks, drought, accidents, or credible threats can cause insurers and operators to reroute vessels, absorb delays, and reprice risk long before passage becomes physically impossible.
 
 - [Middle East Geopolitics -- How Oil, Religion, and Colonial Borders Created the World's Most Volatile Region](middle-east-geopolitics.md) -- [reviewed: never] -- The Middle East is the world's most geopolitically contested region not because of ancient hatreds or religious inevitability, but because three structural forces -- hydrocarbon wealth, sectarian identity politics, and borders drawn by departing empires -- interact to produce persistent instability that draws in every major global power.
 
