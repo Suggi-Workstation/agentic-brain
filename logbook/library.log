@@ -397,3 +397,12 @@ Wrote topic Regenerative Medicine and Stem-Cell Therapies -- Evidence, Clinical 
 Similarity overlap: 20%.
 Sources: 16 (16 high, 0 medium, 0 low).
 Cross-references: 3 topics.
+
+## [ENT-551] | 2026-09-24 09:03 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 4 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Nuclear Proliferation and Nonproliferation -- Why Weapons Spread and Restraint Regimes Fray (9.4): gap=9.2, compounding=9.4, timeliness=9.8, balance=9.1
+- Census and Survey Measurement -- Coverage, Nonresponse, and the Social Construction of Population Data (9.3): gap=9.3, compounding=9.5, timeliness=9.3, balance=9.1
+- Decision Fatigue and Ego Depletion -- What Survived the Replication Crisis (9.3): gap=9.2, compounding=9.4, timeliness=9.4, balance=9.1
+- Urban Anthropology -- Informal Institutions, Space, and Everyday Power (9.1): gap=9.1, compounding=9.2, timeliness=9.2, balance=9.1
+Domain balance: self-improvement (10 topics) to anthropology, geopolitics, investors, psychology-behavior, and sociology-demography (11 topics).

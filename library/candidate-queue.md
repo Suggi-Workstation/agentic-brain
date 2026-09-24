@@ -177,3 +177,35 @@
 - **Discovery score:** 9.0/10.0 (gap=9.2, compounding=9.1, timeliness=8.5, balance=9.1)
 - **Scope:** Explains how demographers project population size and age structure by advancing cohorts through assumptions about fertility, mortality, and migration. Covers baseline census quality, cohort-component calculations, variant scenarios, probabilistic intervals, and sensitivity to changing assumptions. Connects projections to social institutions and population aging while explaining why long horizons widen uncertainty. Distinguishes projection methods from demographic-transition theory, economic forecasts, and advocacy for a particular population policy.
 - **Status:** proposed
+
+## Candidate: Nuclear Proliferation and Nonproliferation -- Why Weapons Spread and Restraint Regimes Fray
+- **Domain:** geopolitics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.4, timeliness=9.8, balance=9.1)
+- **Scope:** Examines why states acquire nuclear weapons and why others stop short, treating proliferation as a strategic, technological, institutional, and alliance problem. Covers security motives, prestige, domestic politics, weapons pathways, safeguards, export controls, the NPT, extended deterrence, rollback, and enforcement limits. Tests how vertical modernization and horizontal spread interact without assuming that deterrence alone explains restraint. Distinguishes proliferation dynamics from nuclear-deterrence doctrine, military hardware, and detailed treaty-law interpretation.
+- **Status:** proposed
+
+## Candidate: Census and Survey Measurement -- Coverage, Nonresponse, and the Social Construction of Population Data
+- **Domain:** sociology-demography
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.3/10.0 (gap=9.3, compounding=9.5, timeliness=9.3, balance=9.1)
+- **Scope:** Examines censuses and social surveys as institutions that turn populations into official data while inevitably making choices about categories, coverage, privacy, and uncertainty. Covers enumeration, sampling, nonresponse, undercount, questionnaire design, weighting, administrative records, disclosure protection, comparability, and measurement error. Connects demographic evidence to social stratification and institutional decision-making while showing how data systems can render groups visible or invisible. Distinguishes population measurement as a social institution from general statistical inference, election administration, and advocacy over particular policy outcomes.
+- **Status:** proposed
+
+## Candidate: Decision Fatigue and Ego Depletion -- What Survived the Replication Crisis
+- **Domain:** psychology-behavior
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.3/10.0 (gap=9.2, compounding=9.4, timeliness=9.4, balance=9.1)
+- **Scope:** Examines decision fatigue and ego depletion as related but contested accounts of how sustained choice and self-control affect later judgment. Covers original resource models, task paradigms, preregistered replications, meta-analytic disputes, motivation and fatigue alternatives, boundary conditions, and field evidence. Separates subjective tiredness, cognitive control, and observed decision quality so that practical claims track the evidence. Distinguishes psychological mechanisms from productivity advice, clinical impairment, and organizational scheduling.
+- **Status:** proposed
+
+## Candidate: Urban Anthropology -- Informal Institutions, Space, and Everyday Power
+- **Domain:** anthropology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.1/10.0 (gap=9.1, compounding=9.2, timeliness=9.2, balance=9.1)
+- **Scope:** Examines cities ethnographically as lived systems of meaning, exchange, identity, and power rather than only as demographic concentrations or engineered places. Covers informality, housing and land tenure, migration, neighborhoods, public space, infrastructure in everyday life, belonging, exclusion, and resident adaptation. Uses cross-cultural comparison to show how formal and informal institutions coexist and how urban change is experienced from below. Distinguishes ethnographic interpretation from urban demography, municipal policy design, and infrastructure engineering.
+- **Status:** proposed
