@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Palliative Care and Serious-Illness Decision-Making -- Relieving Suffering While Aligning Care With Patient Goals
-- **Domain:** health-medicine
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 8.9/10.0 (gap=8.8, compounding=8.9, timeliness=8.5, balance=10.0)
-- **Scope:** Examines palliative care as evidence-based care for symptoms, communication, and quality of life during serious illness, including alongside disease-directed treatment. Covers pain and symptom management, goals-of-care conversations, advance care planning, caregiver support, care coordination, access disparities, and measurement of patient-centered outcomes. Distinguishes clinical care and healthcare delivery from bioethics theory, legal end-of-life rules, and wellness coaching.
-- **Status:** proposed
-
 ## Candidate: Enterprise Value and Equity Value Reconciliation -- Connecting Operating Value, Financing, and Per-Share Worth
 - **Domain:** valuation-screening
 - **Proposed by:** Librarian
