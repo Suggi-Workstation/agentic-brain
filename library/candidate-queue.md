@@ -177,3 +177,35 @@
 - **Discovery score:** 9.5/10.0 (gap=9.2, compounding=9.5, timeliness=9.8, balance=10.0)
 - **Scope:** Examines territorial disputes and irredentism as contests over borders, sovereignty, identity, resources, and strategic depth. Covers inherited boundaries, historical claims, maps and legal narratives, faits accomplis, militarized bargaining, nationalism, external guarantees, and pathways from dispute to settlement or escalation. Compares land and maritime claims without treating any single conflict as the model for all cases. Distinguishes international power competition from domestic border administration, military hardware, and detailed international-law doctrine.
 - **Status:** proposed
+
+## Candidate: Human Biological Variation -- Population History, Adaptation, and the Limits of Racial Typologies
+- **Domain:** anthropology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.6/10.0 (gap=9.5, compounding=9.6, timeliness=9.3, balance=10.0)
+- **Scope:** Examines human biological variation through population history, migration, gene flow, drift, selection, and adaptation without treating racial labels as stable biological types. Covers clinal and overlapping variation, ancestry inference, local adaptation, phenotype-environment interaction, sampling bias, and the ethical use of population descriptors. Connects biological anthropology to human evolution, genetics, medicine, and the sociology of race while preserving differences in their levels of analysis. Distinguishes anthropological synthesis from clinical risk prediction, racial classification policy, and a general genetics primer.
+- **Status:** proposed
+
+## Candidate: The Structure of Scientific Revolutions -- Kuhn's Book on Paradigms, Crises, and Scientific Change
+- **Domain:** books
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.5/10.0 (gap=9.2, compounding=9.8, timeliness=9.2, balance=10.0)
+- **Scope:** Analyzes Thomas Kuhn's The Structure of Scientific Revolutions as a book: its argument about normal science, paradigms, anomalies, crises, revolutions, and incommensurability. Reconstructs the historical examples and evidence Kuhn used, the changes between editions, and the strongest philosophical and historical criticisms. Assesses how the book altered philosophy, history, and sociology of science and how later scholarship has revised its claims. Distinguishes analysis of Kuhn's artifact from general accounts of scientific method, paradigm change, or Kuhn's biography.
+- **Status:** proposed
+
+## Candidate: Sunk Cost and Escalation of Commitment -- When Prior Investment Distorts the Next Decision
+- **Domain:** psychology-behavior
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.5/10.0 (gap=9.2, compounding=9.7, timeliness=9.4, balance=10.0)
+- **Scope:** Examines the sunk-cost effect and escalation of commitment: why prior investments of money, time, effort, reputation, or identity can distort choices about future costs and benefits. Covers waste aversion, loss framing, mental accounting, self-justification, responsibility, completion effects, individual-versus-group decisions, field evidence, and measurement problems. Compares when persistence is irrational with cases where learning, option value, or switching costs make continued investment defensible. Distinguishes the psychological mechanism from accounting definitions of sunk cost, project-management advice, and organizational governance.
+- **Status:** proposed
+
+## Candidate: Sociology of Religion -- Institutions, Secularization, and Collective Life
+- **Domain:** sociology-demography
+- **Proposed by:** Librarian
+- **Date:** 2026-09-24
+- **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.4, timeliness=9.5, balance=10.0)
+- **Scope:** Examines religion as a social institution that organizes belonging, authority, norms, networks, welfare, conflict, and collective meaning in modern societies. Covers secularization and its alternatives, congregations, religious switching, pluralism, civil religion, social capital, inequality, organizational change, and cross-national variation in affiliation and practice. Uses institutional and demographic evidence to explain how religion both shapes and responds to family, migration, politics, and social change. Distinguishes sociological analysis from theology, individual belief psychology, cross-cultural ritual ethnography, and policy advocacy.
+- **Status:** proposed
