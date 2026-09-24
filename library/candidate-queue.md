@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Personal N-of-1 Experiments -- Testing Self-Improvement Practices With Simple, Decision-Useful Evidence
-- **Domain:** self-improvement
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 8.97/10.0 (gap=8.8, compounding=9.1, timeliness=8.4, balance=10.0)
-- **Scope:** Examines personal N-of-1 experiments as disciplined, low-risk tests of self-improvement practices rather than self-tracking for its own sake. Covers defining an intervention and outcome, baseline observation, simple comparison periods, confounders, adherence, interpretation, and decision rules for continuing or stopping a practice. Explains limits from small samples, measurement error, placebo effects, and unsafe experimentation. Distinguishes personal learning and habit experiments from clinical treatment, population-level medical claims, and formal research trials.
-- **Status:** proposed
-
 ## Candidate: Fund-of-Funds Structures and Fee Layering -- Diversification, Access, and the Cost of Intermediation
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Librarian
