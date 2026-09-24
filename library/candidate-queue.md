@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Valuing High-Growth Companies With Negative Earnings -- Modeling the Path From Revenue to Durable Cash Flow
-- **Domain:** valuation-screening
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 9.00/10.0 (gap=8.6, compounding=9.2, timeliness=8.8, balance=10.0)
-- **Scope:** Examines valuation of high-growth businesses that lack current earnings or free cash flow, where standard P/E and mature-company DCF models can mislead. Covers revenue quality, unit economics, gross-margin trajectories, reinvestment, dilution, scenario-based paths to sustainable profitability, and appropriate use of revenue-based valuation methods. Tests assumptions against comparable companies and the conditions required to reach a steady state. Distinguishes valuation methodology from venture-capital fund structures, operating strategy, and a forecast of which companies will win.
-- **Status:** proposed
-
 ## Candidate: Personal N-of-1 Experiments -- Testing Self-Improvement Practices With Simple, Decision-Useful Evidence
 - **Domain:** self-improvement
 - **Proposed by:** Librarian
