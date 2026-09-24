@@ -110,3 +110,112 @@ Similarity overlap: 40%.
 Sources: 11 (11 high, 0 medium, 0 low).
 Cross-references: 5 topics.
 
+
+<!-- Appended 2026-09-24 16:05 UTC -- ENT-510 to ENT-524 -->
+
+## [ENT-510] | 2026-09-22 20:18 UTC | Librarian | library | ref: library/history/ancient-civilizations-and-their-legacies.md | see: 20260726T234526Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Ancient Institutions Endure Through Adaptation, Not Unbroken Descent (history): rewritten (corrected origin, chronology, governance, and collapse mismatches; updated all mandatory sections and 19 high-authority sources; maximum similarity 4.7%).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-511] | 2026-09-22 20:46 UTC | Librarian | library | ref: library/pop-culture/science-fiction-as-cultural-foresight.md | see: 20260922T203816Z
+Wrote topic Science Fiction as Cultural Foresight -- How Speculative Media Shapes Ideas About Technology and Society to pop-culture. Weighted score: 9.4/10.0
+(core=9.5, scope=9.5, value=9.2, authority=9.4).
+Similarity overlap: 28%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-512] | 2026-09-22 21:04 UTC | Librarian | library | ref: library/probabilistic-thinking-forecasting/bayesian-reasoning.md | see: 20260724T162528Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Bayesian Reasoning Updates Uncertainty Coherently but Only Within an Explicit Model (probabilistic-thinking-forecasting): rewritten (corrected historical, normative, diagnostic, forecasting, and Bayesian-brain claims; replaced weak or unused sources and expanded model-checking and application sections).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-513] | 2026-09-22 21:17 UTC | Librarian | library | ref: library/history/meiji-restoration-state-building-industrialization-and-imperial-turn.md | see: 20260922T211023Z
+Wrote topic The Meiji Restoration -- State Building, Industrialization, and Japan's Imperial Turn to history. Weighted score: 9.5/10.0
+(core=9.5, scope=9.5, value=9.3, authority=9.5).
+Similarity overlap: 25%.
+Sources: 14 (13 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-514] | 2026-09-22 21:47 UTC | Librarian | library | ref: library/education-learning/metacognition-and-self-regulated-learning.md | see: 20260922T213639Z
+Wrote topic Metacognition and Self-Regulated Learning -- Planning, Monitoring, and Revising How One Learns to education-learning. Weighted score: 9.8/10.0
+(core=9.8, scope=9.9, value=9.6, authority=9.8).
+Similarity overlap: 35%.
+Sources: 14 (14 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-515] | 2026-09-22 21:53 UTC | Librarian | library | ref: library/finance/bond-pricing-and-fixed-income-markets.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Bond Pricing and Fixed Income Markets (finance): rewritten (corrected unsupported market statistics, rating chronology and attribution, and overbroad convexity and credit-spread claims; updated pricing, yield, duration, convexity, credit, liquidity, evidence, implications, limitations, and sources)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-516] | 2026-09-22 22:03 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 5 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Digital Identity and Verifiable Credentials -- Portable Proofs, Interoperability, and Control (9.2): gap=9.0, compounding=9.2, timeliness=9.0, balance=10.0
+- Engineering Standards, Codes, and Safety Margins -- Translating Risk into Design Constraints (9.0): gap=8.8, compounding=9.1, timeliness=8.4, balance=10.0
+- Palliative Care and Serious-Illness Decision-Making -- Relieving Suffering While Aligning Care With Patient Goals (8.9): gap=8.8, compounding=8.9, timeliness=8.5, balance=10.0
+- Enterprise Value and Equity Value Reconciliation -- Connecting Operating Value, Financing, and Per-Share Worth (8.9): gap=8.7, compounding=9.2, timeliness=8.2, balance=10.0
+- Interleaved Practice and Varied Practice -- Training Discrimination and Durable Skill (8.7): gap=8.6, compounding=8.9, timeliness=7.6, balance=10.0
+Domain balance: engineering-infrastructure, health-medicine, investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics) to engineering-infrastructure, health-medicine, investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics).
+
+## [ENT-517] | 2026-09-22 22:17 UTC | Librarian | library | ref: library/engineering-infrastructure/corrosion-and-materials-degradation.md | see: 20260922T220713Z
+Wrote topic Corrosion and Materials Degradation -- Protecting Assets Across Their Engineered Lifecycle to engineering-infrastructure. Weighted score: 9.6/10.0
+(core=9.7, scope=9.8, value=9.3, authority=9.6).
+Similarity overlap: 30%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-518] | 2026-09-22 22:42 UTC | Librarian | library | ref: library/history/cold-war.md | see: 20260727T093121Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- The Cold War (history): rewritten (corrected the nuclear-stockpile peak, NSC-68 spending claim, Non-Aligned Movement chronology, proxy-war agency, Afghan lineage overclaim, casualty aggregation, and single-cause Soviet-collapse claims; updated all mandatory sections and replaced the 5-source list with 24 verified sources)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-519] | 2026-09-22 22:50 UTC | Librarian | library | ref: library/finance/initial-public-offerings-and-primary-capital-markets.md | see: 20260922T224111Z
+Wrote topic Initial Public Offerings and Primary Capital Markets -- How Firms Raise Equity and Enter Public Markets to finance. Weighted score: 9.4/10.0
+(core=9.5, scope=9.4, value=9.2, authority=9.6).
+Similarity overlap: 25%.
+Sources: 14 (14 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-520] | 2026-09-22 23:16 UTC | Librarian | library | ref: library/health-medicine/antimicrobial-resistance-antibiotic-stewardship.md | see: 20260922T230812Z
+Wrote topic Antimicrobial Resistance and Antibiotic Stewardship -- Preserving Effective Treatment to health-medicine. Weighted score: 9.7/10.0
+(core=9.8, scope=9.7, value=9.6, authority=9.8).
+Similarity overlap: 25%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-521] | 2026-09-22 23:45 UTC | Librarian | library | ref: library/education-learning/transfer-of-learning-and-generalization.md | see: 20260922T233748Z
+Wrote topic Transfer of Learning and Generalization -- When Knowledge Travels to New Problems to education-learning. Weighted score: 9.8/10.0
+(core=10.0, scope=9.8, value=9.5, authority=9.8).
+Similarity overlap: 35%.
+Sources: 12 (12 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-522] | 2026-09-23 00:03 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 4 domains scanned, 3 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Software Supply-Chain Security and SBOMs -- Making Dependencies, Provenance, and Remediation Actionable (9.26): gap=8.8, compounding=9.3, timeliness=9.6, balance=10.0
+- Valuing High-Growth Companies With Negative Earnings -- Modeling the Path From Revenue to Durable Cash Flow (9.00): gap=8.6, compounding=9.2, timeliness=8.8, balance=10.0
+- Personal N-of-1 Experiments -- Testing Self-Improvement Practices With Simple, Decision-Useful Evidence (8.97): gap=8.8, compounding=9.1, timeliness=8.4, balance=10.0
+Skipped (queue capacity):
+- Fund-of-Funds Structures and Fee Layering -- Diversification, Access, and the Cost of Intermediation (8.87): gap=8.7, compounding=9.0, timeliness=8.2, balance=10.0
+Domain balance: investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics) to investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics).
+
+## [ENT-523] | 2026-09-23 00:04 UTC | Librarian | library | ref: library/candidate-queue.md
+ERROR: Step 9 capacity count for ENT-522 included the queue format example. The actual queue held 21 proposed entries before publication, not 22.
+Correction: Appended Fund-of-Funds Structures and Fee Layering under the remaining slot; proposed capacity is now 25.
+Candidates:
+- Fund-of-Funds Structures and Fee Layering -- Diversification, Access, and the Cost of Intermediation (8.87): gap=8.7, compounding=9.0, timeliness=8.2, balance=10.0
+Domain balance: investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics) to investment-vehicles-fund-structures, self-improvement, technology, and valuation-screening (10 topics).
+
+## [ENT-524] | 2026-09-23 00:06 UTC | Librarian | library | ref: library/education-learning/assessment-and-testing.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Assessment and Testing (education-learning): rewritten (corrected validity, reliability, formative-effect, accountability, admissions, and automated-scoring claims; updated all mandatory sections and source list)
+Domain coverage: reviewed across 1 domains.
+
