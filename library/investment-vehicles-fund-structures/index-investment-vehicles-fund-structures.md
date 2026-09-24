@@ -1,6 +1,6 @@
 # Investment Vehicles Fund Structures -- Topics
 
-12 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+13 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: never] -- Berkshire Hathaway is a publicly traded conglomerate holding company that owns dozens of wholly owned operating subsidiaries alongside a portfolio of publicly traded equities, funded by permanent equity capital, insurance float, and retained earnings rather than by investor commitments or redeemable shares.
 
@@ -17,6 +17,8 @@
 - [Hedge Fund Structures -- How Fee Arrangements, Lockups, and Leverage Shape Manager Incentives and Systemic Risk](hedge-fund-structures-fee-arrangements-lockups-leverage.md) -- [reviewed: never] -- Hedge funds are privately organized investment partnerships that use performance-based fees, restricted liquidity, and leveraged capital to pursue absolute returns uncorrelated with market direction. Invented by Alfred Winslow Jones in 1949, the hedge fund structure has grown into a global industry managing over $5 trillion across thousands of funds.
 
 - [Insurance Float as Investment Capital -- Why the Collect-Now-Pay-Later Model Creates the Lowest-Cost Leverage in Finance](insurance-float-as-investment-capital.md) -- [reviewed: never] -- Insurance float is the pool of money an insurer holds between collecting premiums and paying claims -- money that belongs to policyholders but is physically in the insurer's hands and available for investment. When underwriting is disciplined, float functions as interest-free or negative-cost leverage: capital that costs nothing to hold, has no fixed maturity, cannot be redeemed, and compounds indefinitely for the insurer's benefit.
+
+- [Investment Vehicle Governance -- Control Rights Matter Most When Capital Cannot Leave at Par](investment-vehicle-governance-and-shareholder-rights.md) -- [reviewed: never] -- Investment-vehicle governance determines who may direct, monitor, replace, or constrain the people managing pooled capital. The central claim is that governance becomes economically important when investors cannot promptly exit at a fair asset value: boards, votes, conflict approvals, disclosure, and removal rights then substitute for redemption, while weak rights can convert permanent or locked capital into manager entrenchment [7][8][9][11].
 
 - [Mutual Funds and ETFs -- How the Architecture of Pooled Vehicles Shapes Retail Capital Allocation and Market Structure](mutual-funds-etfs-retail-capital-pooling.md) -- [reviewed: never] -- Mutual funds and exchange-traded funds (ETFs) are the dominant legal and economic structures through which retail and institutional investors pool capital for collective investment in diversified portfolios. The structural differences between open-end mutual funds, closed-end funds, and ETFs -- in pricing mechanics, liquidity provision, tax treatment, fee architecture, and governance -- are not...
 
