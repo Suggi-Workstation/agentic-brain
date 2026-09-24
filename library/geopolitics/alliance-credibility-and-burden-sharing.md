@@ -6,6 +6,7 @@ domain: geopolitics
 author: Librarian
 tags: [alliances, extended-deterrence, burden-sharing, collective-defence, credibility, abandonment, entrapment]
 links: [library/geopolitics/international-relations-theory.md, library/geopolitics/nuclear-deterrence-mad.md, library/geopolitics/maritime-chokepoints-and-sea-lane-security.md, library/history/cold-war.md]
+reviewed: 2026-09-24
 ---
 
 # Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture
@@ -64,7 +65,7 @@ The dilemma is managed rather than eliminated. Treaty limits, consultation requi
 
 ### Burden Sharing Has Inputs, Outputs, Risks, and Benefits
 
-Defence spending as a share of gross domestic product is an input measure. It indicates national fiscal effort under a common definition, but it does not show whether the money produces ready brigades, air defence, sealift, intelligence, munitions, resilient infrastructure, or forces assigned to alliance plans. NATO's annual expenditure report standardizes what qualifies as defence expenditure and publishes national comparisons, which makes it useful for tracking effort.[5] It still cannot by itself measure operational value, geographic exposure, host-nation support, nuclear risk, casualties, industrial capacity, or political restrictions on force use.
+Defence spending as a share of gross domestic product is an input measure. It indicates national fiscal effort under a common definition, but it does not show whether the money produces ready brigades, air defence, sealift, intelligence, munitions, resilient infrastructure, or forces assigned to alliance plans. The 2025 Hague commitment distinguishes at least 3.5 percent of GDP for core defence requirements from up to 1.5 percent for broader defence- and security-related investment by 2035, and NATO's latest report presents the categories separately.[5] The author's assessment is that this distinction broadens the burden debate while increasing the need to separate spending that produces deployable military capability from spending on infrastructure, resilience, or the industrial base. Even within the core category, a GDP ratio cannot by itself measure operational value, geographic exposure, host-nation support, nuclear risk, casualties, industrial capacity, or political restrictions on force use.
 
 Output measures ask what capability the alliance can employ. Risk measures ask who exposes territory, personnel, bases, or escalation authority. Benefit measures ask which members receive deterrence, access, intelligence, stability, or influence. RAND's 2024 Burdensharing Index combined spending with personnel, ground, air, naval, intelligence, and other contributions and estimated that the United States carried about 47 percent of the collective-defence burden in the examined NATO and Asian alliances, a large but smaller share than spending-only rhetoric often implies.[15] No index is neutral, because weights embody judgments about missions and quality. A defensible assessment therefore reports several dimensions rather than collapsing fairness into one number.
 
@@ -112,7 +113,7 @@ Olson and Zeckhauser developed a public-goods model and compared it with NATO an
 
 RAND's 2024 study responded to the measurement problem by constructing a multidimensional Burdensharing Index rather than relying solely on military spending as a share of GDP. It incorporated preparedness and outputs across personnel, land, air, naval, intelligence, and other categories, then compared contributions with ability to pay. The study estimated a US share of about 47 percent of the burden in the examined alliance system and emphasized that NATO and Asian allies supplied relatively larger shares of some personnel and ground-force categories while the United States supplied larger shares of high-end air, naval, and intelligence assets.[15] The method makes assumptions about quality and weights, but it demonstrates why a spending ratio is an incomplete proxy for military value.
 
-NATO's own expenditure series provides the complementary fiscal evidence. It applies an agreed definition, reports national submissions, distinguishes estimates, and includes categories such as armed forces, eligible operations, research and development, and net common-infrastructure contributions while excluding civil defence.[5] The series shows substantial growth in European and Canadian expenditure after 2014, but its notes also explain why NATO figures can differ from national budgets and why spending data require definitional discipline.[5] Together, the official series and the RAND index support a two-stage assessment: measure comparable effort, then ask what readiness, capability, access, resilience, and shared risk that effort produces.
+NATO's 2026 defence-expenditure report provides the complementary fiscal evidence. It applies an agreed definition to core defence expenditure and separately identifies broader defence- and security-related investment under the 2025 commitment.[5] NATO reported that European Allies and Canada increased defence expenditure in 2025 by more than USD 90 billion at 2021 prices, close to USD 139 billion nominal, or nearly 20 percent from 2024; the report labels 2025 and 2026 figures as estimates.[5] The definitions and estimate labels explain why NATO figures can differ from national budgets and why spending data require definitional discipline.[5] Together, the official report and the RAND index support a two-stage assessment: measure comparable effort, then ask what readiness, capability, access, resilience, and shared risk that effort produces.
 
 ### Cases Show How Posture Makes Commitments More or Less Executable
 
@@ -140,7 +141,7 @@ The practical test is whether plans remain credible after initial disruption. Pr
 
 ### Measure Burden Sharing as a Portfolio
 
-For governments and legislatures, GDP share remains useful because it compares fiscal effort across economies and is difficult to replace with an equally simple public benchmark. It should be reported as one panel in a wider dashboard. Additional measures should include forces assigned to plans, readiness, deployable and sustainable capability, munitions depth, strategic lift, command contributions, intelligence, host-nation support, resilient infrastructure, industrial surge capacity, and exposure to operational risk.[5][15] Each measure should specify whether it is an input, output, outcome, or risk.
+For governments and legislatures, GDP share remains useful because it compares fiscal effort across economies and is difficult to replace with an equally simple public benchmark. It should be reported as one panel in a wider dashboard. Under the 2025 Hague commitment, the 3.5 percent core requirement and the up-to-1.5 percent broader investment category should remain separate rather than being collapsed into one headline total.[5] Additional measures should include forces assigned to plans, readiness, deployable and sustainable capability, munitions depth, strategic lift, command contributions, intelligence, host-nation support, resilient infrastructure, industrial surge capacity, and exposure to operational risk.[5][15] Each measure should specify whether it is an input, output, outcome, or risk.
 
 Fairness also requires mission agreement. A capability valuable for territorial defence may contribute little to maritime security or nuclear assurance; a geographically exposed member may provide bases and immediate forces while a distant member provides reinforcement and high-end enablers. Contributions should be valued against agreed plans rather than generic lists.[15][17] The author's synthesis is that the correct question is not whether every member spends the same percentage, but whether the combined portfolio closes the alliance's prioritized failure modes and distributes recurring costs in a politically sustainable way.
 
@@ -189,8 +190,8 @@ Conflicting estimates should be surfaced rather than averaged away. The 74.5 per
    https://www.nato.int/content/dam/nato/legacy-wcm/media_pdf/2022/2/pdf/220204-factsheet-nuclear-sharing-arrangements_en.pdf [high]
 
 5. North Atlantic Treaty Organization. "Defence Expenditure of NATO
-   Countries (2014-2025)." August 28, 2025.
-   https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2025-en.pdf [high]
+   Countries (2014-2026)." July 7, 2026.
+   https://www.nato.int/content/dam/nato/webready/documents/finance/def-exp-2026-en.pdf [high]
 
 6. Olson, M., and Zeckhauser, R. "An Economic Theory of Alliances."
    RAND Corporation, RM-4297-ISA, 1966.
