@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Time Blocking and Task Batching -- Scheduling Focused Work Around Interruptions
-- **Domain:** self-improvement
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 9.0/10.0 (gap=8.8, compounding=9.2, timeliness=8.5, balance=10.0)
-- **Scope:** Examines time blocking and task batching as practical methods for matching work to available attention and reducing costly switches between tasks. Covers calendar design, buffer time, grouping similar tasks, interruption plans, daily review, and adaptation when schedules change. Evaluates what evidence supports these practices and when rigid scheduling may fail or increase pressure. Distinguishes personal scheduling technique from the broader theory of deep work, general goal setting, and organizational workflow design.
-- **Status:** proposed
-
 ## Candidate: Population Projections -- Cohort-Component Methods and Uncertainty
 - **Domain:** sociology-demography
 - **Proposed by:** Librarian
