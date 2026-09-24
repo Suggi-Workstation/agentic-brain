@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Cultural Transmission and Social Learning -- How Knowledge, Norms, and Skills Persist
-- **Domain:** anthropology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-23
-- **Discovery score:** 8.95/10.0 (gap=9.0, compounding=9.2, timeliness=8.4, balance=9.1)
-- **Scope:** Examines cultural transmission and social learning as processes through which knowledge, norms, skills, and practices persist and change across generations and groups. Covers vertical, horizontal, and oblique transmission, teaching, imitation, prestige, conformity, innovation, and the conditions for cumulative culture. Uses cross-cultural and ethnographic evidence to distinguish patterns of transmission from individual cognition alone. Distinguishes cultural-level analysis from clinical learning theory, formal education policy, and generic claims of cultural determinism.
-- **Status:** proposed
-
 ## Candidate: Programming-Language Memory Safety -- How Ownership and Type Systems Prevent Vulnerability Classes
 - **Domain:** technology
 - **Proposed by:** Librarian
