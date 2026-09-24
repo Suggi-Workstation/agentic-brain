@@ -1,6 +1,6 @@
 # Investment Vehicles Fund Structures -- Topics
 
-14 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+15 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: 2026-09-24] -- Berkshire Hathaway is a publicly traded holding company that owns decentralized operating businesses and a concentrated equity portfolio; its chief executive controls major capital-allocation decisions, while shareholders normally exit by trading their shares rather than redeeming capital from Berkshire [1].
 
@@ -29,4 +29,6 @@
 - [Private Equity and Venture Capital Fund Structures -- How the LP-GP Partnership, Carried Interest, and the J-Curve Shape Capital Allocation](pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md) -- [reviewed: never] -- Private equity and venture capital funds pool capital from passive limited partners under an active general partner, then deploy it into private companies over a decade-long closed-end lifecycle. The LP-GP partnership architecture, carried interest compensation, distribution waterfalls, and the J-curve return pattern are not incidental features -- they are the structural machinery that determines...
 
 - [REITs -- Why Mandatory Distribution and Pass-Through Taxation Create a Distinct Real Estate Vehicle With Structural Growth Constraints](reits-real-estate-investment-trusts.md) -- [reviewed: never] -- Real Estate Investment Trusts (REITs) are corporate entities that own, operate, or finance income-producing real estate and qualify for pass-through tax treatment under Subchapter M of the Internal Revenue Code. In exchange for distributing at least 90 percent of taxable income to shareholders as dividends, a REIT pays little or no corporate-level tax.
+
+- [Sovereign Wealth Funds Preserve Public Wealth Only When Their Mandates Constrain Political Discretion](sovereign-wealth-funds.md) -- [reviewed: never] -- A sovereign wealth fund converts public surpluses, resource receipts, or reserve assets into an investment vehicle serving a stated public purpose. Its long horizon can support stabilization, intergenerational saving, pension reserves, or development, but permanence alone is not an advantage: durable public capital requires explicit funding and withdrawal rules, separated governing roles, professional investment authority, and public accountability [1][2].
 
