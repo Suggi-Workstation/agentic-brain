@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Fund-of-Funds Structures and Fee Layering -- Diversification, Access, and the Cost of Intermediation
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 8.87/10.0 (gap=8.7, compounding=9.0, timeliness=8.2, balance=10.0)
-- **Scope:** Examines fund-of-funds structures as pooled vehicles that allocate capital to multiple external private funds while adding manager selection, portfolio construction, liquidity planning, and a second layer of fees. Covers diversification across managers and vintages, access to constrained funds, fee offsets, reporting, valuation lag, secondary liquidity, and governance. Evaluates when the structure's manager-selection and access benefits may or may not exceed its cost and complexity. Distinguishes vehicle architecture from a recommendation to invest in a particular fund, private-market performance forecasting, and detailed securities regulation.
-- **Status:** proposed
-
 ## Candidate: Sovereign Wealth Funds -- Public Capital, Governance, and Intergenerational Allocation
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Librarian

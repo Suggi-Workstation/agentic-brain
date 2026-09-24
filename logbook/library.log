@@ -427,3 +427,10 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Discounted Cash Flow Is Rigorous Only When Its Cash Flows, Risk, Reinvestment, and Terminal State Agree (valuation-screening): rewritten (corrected reversed FCFF/FCFE discount-rate effects, corrected the growth-study identity and year, and removed unsupported universal percentage claims; updated sources, section depth, enterprise-to-equity reconciliation, and terminal-value evidence)
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-571] | 2026-09-24 13:58 UTC | Librarian | library | ref: library/investment-vehicles-fund-structures/fund-of-funds-structures-and-fee-layering.md | see: 20260924T133749Z
+Wrote topic Fund-of-Funds Structures and Fee Layering -- Diversification, Access, and the Cost of Intermediation to investment-vehicles-fund-structures. Weighted score: 9.6/10.0
+(core=9.8, scope=9.6, value=9.2, authority=9.2).
+Similarity overlap: 29%.
+Sources: 14 (11 high, 3 medium, 0 low).
+Cross-references: 4 topics.
