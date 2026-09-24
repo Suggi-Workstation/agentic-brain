@@ -1,6 +1,6 @@
 # Technology -- Topics
 
-13 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+14 topics. Anchor: [anchor-technology.md](anchor-technology.md)
 
 - [Blockchain and Distributed Ledgers Change Where Trust Resides, Not Whether Trust Exists](blockchain-distributed-ledgers.md) -- [reviewed: 2026-09-24] -- Blockchains are replicated, cryptographically linked ledgers whose participants use a consensus process to decide which updates are accepted. Permissionless designs can reduce dependence on a central operator, but no ledger eliminates trust: users still rely on cryptography, software, network assumptions, governance, key custody, and the accuracy of data supplied from outside the ledger [6].
 
@@ -27,4 +27,6 @@
 - [Semiconductors -- The Most Complex Manufacturing Achievement in Human History Underpins Everything Digital](semiconductors.md) -- [reviewed: never] -- Semiconductors are materials with electrical conductivity between that of a conductor and an insulator, and they are the physical foundation of every digital device on Earth. By precisely controlling the flow of electricity through silicon doped with impurities, engineers build transistors -- tiny switches that form logic gates, the building blocks of all computation.
 
 - [Software Architecture -- How Early Design Decisions Compound Into Durable Platforms or Technical Debt](software-architecture-patterns-principles.md) -- [reviewed: never] -- Software architecture is the set of high-level structural decisions that determine how a software system is organized, how its components interact, and how it will evolve over time. These decisions -- made early in a project's life -- compound in the same way financial investments do: good architecture produces platforms that absorb change with decreasing marginal cost, while poor architecture produces technical debt that makes every subsequent change more expensive.
+
+- [Software Supply-Chain Security Requires Inventory, Verifiable Provenance, and Operational Remediation](software-supply-chain-security-and-sboms.md) -- [reviewed: never] -- Software supply-chain security fails when an organization treats a component list as proof that released software is trustworthy. An actionable system joins a current software bill of materials (SBOM) to verified build provenance, protected release processes, vulnerability context, and an operating loop that can identify, prioritize, and remediate affected deployments [1][2][4].
 
