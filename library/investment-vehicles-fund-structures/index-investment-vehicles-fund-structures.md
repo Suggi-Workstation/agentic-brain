@@ -1,6 +1,6 @@
 # Investment Vehicles Fund Structures -- Topics
 
-13 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+14 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: 2026-09-24] -- Berkshire Hathaway is a publicly traded holding company that owns decentralized operating businesses and a concentrated equity portfolio; its chief executive controls major capital-allocation decisions, while shareholders normally exit by trading their shares rather than redeeming capital from Berkshire [1].
 
@@ -11,6 +11,8 @@
 - [Family Offices -- How Structure, Governance, and Permanent Capital Create the Ultimate Vehicle for Multi-Generational Wealth Compounding](family-offices-structure-governance-capital-allocation.md) -- [reviewed: never] -- A family office is a private organization that centralizes investment management, tax planning, estate administration, philanthropy, and often household operations for ultra-high-net-worth families. Unlike pooled investment vehicles that serve unrelated investors, the family office serves a single family or a small group of families, giving it permanent capital with no redemption pressure and an indefinite time horizon.
 
 - [Fund Liquidity Design Determines Whether Investor Exits Become Forced Asset Sales](fund-liquidity-design-redemption-terms-asset-liquidity-and-forced-selling-risk.md) -- [reviewed: 2026-09-23] -- Fund liquidity design connects an investor's contractual exit right to the time and cost of converting portfolio assets into cash. If redemptions can arrive faster than assets can be sold without material loss, a fund may transfer exit costs to remaining investors, sell attractive holdings under pressure, or restrict withdrawals; matching terms, reserves, financing, and pricing tools changes who bears those costs rather than making illiquidity disappear ([1] [2] [6]).
+
+- [Fund-of-Funds Structures Add Diversification and Access Only When Their Second Cost Layer Earns Its Keep](fund-of-funds-structures-and-fee-layering.md) -- [reviewed: never] -- A private-market fund of funds pools investor capital and commits it to multiple external funds, replacing a set of direct limited-partner relationships with one delegated portfolio. The structure can broaden manager and vintage exposure, consolidate diligence and reporting, and improve access, but it also adds fees, governance dependencies, valuation layers, and another institution whose judgment must be evaluated [1][10][11].
 
 - [Fund Succession and Key-Person Risk -- Durable Vehicles Must Outlive the Judgment That Built Them](fund-succession-and-key-person-risk.md) -- [reviewed: never] -- This topic argues that an investment vehicle is durable only if it can preserve decision quality, aligned control, and service continuity when an important leader leaves. Key-person clauses can pause new commitments, while regulatory and manager-selection frameworks show that broader resilience also depends on authority, ownership, investment knowledge, client trust, and operating responsibility ([1] [2] [3] [9]).
 
