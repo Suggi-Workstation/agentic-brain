@@ -6,630 +6,596 @@ domain: self-improvement
 author: Librarian
 tags: [decision-journals, hindsight-bias, calibration, decision-quality, prediction-tracking, feedback-loops, outcome-bias]
 links: [library/psychology-behavior/cognitive-biases.md, library/self-improvement/goal-setting-frameworks.md, library/psychology-behavior/overconfidence.md, library/self-improvement/habit-formation.md, library/psychology-behavior/system-1-vs-system-2-thinking.md]
+reviewed: 2026-09-24
 ---
 
-# Decision Journals -- Why Writing Down Your Reasoning Before You Know the Outcome Makes You Smarter
+# Decision Journals -- Writing Before the Outcome Preserves Evidence for Better Review
 
-A decision journal is a timestamped record of what you believed, why you
-believed it, and how confident you were -- written at the moment you decide,
-before the outcome arrives. It exists to defeat hindsight bias, the brain's
-habit of rewriting what you knew once you see how things turned out, and to
-build a calibration dataset that shows exactly where your judgment is reliable
-and where it is systematically off. The practice is simple, almost
-embarrassingly so, and it works precisely because it sidesteps a bias you
-cannot willpower your way out of. Decision journaling is one of the highest-
-leverage self-improvement habits available to anyone who makes consequential
-decisions under uncertainty.
+A decision journal is a contemporaneous record of a choice, the information
+available when it was made, and any forecast that can later be resolved. Such a
+record preserves evidence that memory and outcome knowledge can otherwise
+reshape, but the journal is not itself proven to improve every kind of decision
+[1][2][4]. Its value depends on disciplined review, comparable observations,
+and a clear separation between what was known before the outcome and what was
+learned afterward [7][8][9].
 
 ## Background
 
-The intellectual lineage of decision journaling runs through three
-interconnected strands of research: the discovery of hindsight bias, the
-study of calibration in forecasting, and the practical movement to turn
-behavioral economics insights into actionable decision tools.
+Decision journaling joins two distinct traditions: research on retrospective
+bias and research on probabilistic forecasting. The first explains why an
+external record can be useful. The second shows how explicit forecasts can be
+scored and improved. Neither tradition, by itself, establishes that keeping a
+journal improves all consequential choices. The evidence supports the component
+mechanisms more strongly than the complete practice.
 
-The first strand begins in the early 1970s. Baruch Fischhoff, then a
-doctoral student at the Hebrew University of Jerusalem, encountered an
-observation by Paul Meehl that clinicians often claimed they "knew it all
-along" after an outcome became known. Fischhoff saw a research opportunity.
-In his landmark 1975 study, he presented participants with background
-information about a historical event and then told different groups that
-different outcomes had occurred. Participants who knew the actual outcome
-assigned it a higher probability than participants who did not know the
-outcome -- even though both groups had identical background information.
-Fischhoff called this "creeping determinism": the tendency to view known
-outcomes as progressively more inevitable as causal analysis proceeds. The
-effect persisted even when participants were paid for accuracy and
-explicitly instructed to ignore outcome knowledge. This was not a minor
-glitch. It was a systematic distortion of memory and judgment that made
-learning from experience nearly impossible without external records.
+Baruch Fischhoff's 1975 experiments supplied the central problem. Participants
+read descriptions of historical or clinical events and estimated the
+probability of several possible outcomes. When an outcome was reported as having
+occurred, participants assigned it a higher probability than participants who
+did not receive outcome information. They also changed which facts in the
+preceding description seemed relevant. Instructions to answer as though the
+outcome were unknown did not restore the foresight judgments [1]. Outcome
+knowledge therefore changed not only a conclusion but also the apparent meaning
+of the evidence used to reach it.
 
-Fischhoff and Ruth Beyth followed up in 1975 with a study using Nixon's
-trips to China and the Soviet Union. Israeli students estimated the
-probability of 15 different outcomes before the trips occurred. After the
-trips, they were asked to recall their original estimates. Their remembered
-predictions had drifted toward whatever actually happened. The known
-outcome reached backward and rewrote the forecast. This was the memory-based
-form of hindsight bias, and it was the specific mechanism that a decision
-journal defeats: if you write down your prediction before the outcome, your
-future self cannot revise it.
+Fischhoff and Ruth Beyth tested memory more directly around President Richard
+Nixon's 1972 trips to China and the Soviet Union. Participants estimated the
+probabilities of possible trip outcomes before the trips, then tried to recall
+or reconstruct those estimates after the outcomes were known. Remembered
+probabilities generally moved upward for events believed to have occurred and
+downward for events believed not to have occurred [2]. A later recollection was
+not a neutral retrieval of the earlier forecast. It incorporated knowledge
+acquired after the forecast.
 
-Daniel Kahneman and Amos Tversky's broader heuristics-and-biases program
-provided the theoretical framework. Their work on reference-class
-forecasting, detailed in Kahneman's 2011 book "Thinking, Fast and Slow,"
-showed that using an outside view -- base rates from similar situations --
-improves prediction accuracy over the inside view, the story you tell
-yourself about the specific case. The inside view is seductive, feels
-rigorous, and is almost always overconfident. The outside view is boring
-and asks a simple question: what happens in situations like this one? That
-question is the heart of any useful decision journal.
+Subsequent work distinguished related forms of hindsight bias. A review by
+Roese and Vohs separates memory distortion ("I said it would happen"),
+inevitability ("it had to happen"), and foreseeability ("I knew it would
+happen"). The review links these forms to selective recollection, knowledge
+updating, sensemaking, metacognitive fluency, and motives to see events as
+orderly or oneself as competent [4]. The distinctions matter because a dated
+record directly protects only against revision of the recorded content. It does
+not automatically prevent a reviewer from constructing an overly tidy causal
+story after the event.
 
-The second strand is Philip Tetlock's forecasting research. Beginning in
-the 1980s with his study of expert political judgment, Tetlock found that
-experts were poor forecasters -- often worse than simple extrapolation
-models. But his later work, the Good Judgment Project (2011-2015),
-demonstrated that calibration is trainable. Ordinary volunteers who tracked
-their predictions, scored them, and adjusted became "superforecasters"
-who, by the project's reporting, outperformed trained intelligence analysts
-with access to classified material. What made them good was not expertise
-or access. It was the discipline of putting a number on a belief, checking
-it against reality, and updating. Tetlock's work provided the empirical
-foundation for the claim that decision journaling works: tracking
-predictions and reviewing them against outcomes measurably improves
-judgment over time.
+The basic effect is not confined to the original experiments. Guilbault and
+colleagues synthesized 95 studies and 252 independent effect sizes; their
+reported overall mean effect was d = 0.39, with variation by task and measure.
+They also found that attempted bias-reduction manipulations in that literature
+did not, on average, produce lower effects [5]. Chen and colleagues later ran
+close replications. Their retrospective study included 890 participants and
+reported a mean effect of d = 0.60; their prospective study included 608 and
+reported d = 0.40. A third study found hindsight effects in judgments about the
+replicability of hindsight-bias research, while extensions involving surprise,
+confidence, and task difficulty produced mixed or weak evidence [6]. These
+results support a real and replicable bias, but they do not imply that every
+person or every decision is distorted by the same amount.
 
-The third strand is the practical movement. Annie Duke, a cognitive
-psychology PhD candidate turned professional poker player, published
-"Thinking in Bets" in 2018. Her central argument was that every decision
-is a bet on an uncertain future, and the biggest obstacle to improvement is
-"resulting" -- the habit of judging a decision by its outcome rather than
-by the quality of the reasoning behind it. A good decision can produce a
-bad result (bad luck), and a bad decision can produce a good result (dumb
-luck). Duke advocated decision journals as the tool to separate the two.
-Shane Parrish, through his Farnam Street blog and 2023 book "Clear
-Thinking," popularized a specific template that includes the situation,
-alternatives considered, the decision, expected outcome, confidence
-level, and a post-mortem review. Michael Mauboussin's "The Success
-Equation" (2012) added the theoretical argument that decision quality is
-best measured by process, not outcomes, and that a journal is the tool
-for that separation.
+Outcome bias is a second reason to preserve the ex ante record. Baron and
+Hershey gave participants descriptions of decisions under uncertainty in
+medical and monetary settings. Across five studies, evaluations of decision
+quality shifted with outcomes even when the information relevant at the time of
+the decision was held constant. Participants often endorsed the principle that
+outcomes should not determine the evaluation, yet their ratings still reflected
+outcome information [3]. A decision journal can preserve the original odds,
+options, and rationale so that later reviewers can evaluate process without
+silently substituting the result for the information that was available.
 
-These three strands converge on the same conclusion. Record your
-decisions before you know the outcome. Update your beliefs when the outcome
-arrives. That is the whole practice. The mechanism is not complicated. It
-is just rare, because it requires the discipline to write something down
-before you know whether you are right -- which feels unnecessary when your
-brain is busy telling you that you already know the answer.
+Probabilistic forecasting research adds a different contribution. The Good
+Judgment Project embedded experiments in a multiyear geopolitical forecasting
+tournament. In its first two years, probability training, collaborative teams,
+and tracking high performers all reduced forecast error; the interventions
+improved calibration, resolution, or both [8]. Follow-up research found that
+selected superforecasters retained an accuracy advantage in later tournament
+years and differed from comparison groups in several cognitive, motivational,
+and work-pattern measures [9]. The project tested repeated, resolvable
+forecasts with explicit scoring and frequent updating. It did not test a
+general-purpose decision journal, and its results should not be represented as
+direct proof that journaling improves hiring, investing, strategy, or personal
+life.
 
-The practice has a longer history than these modern formulations suggest.
-Benjamin Franklin kept decision records, using his "moral algebra" method
-of listing pros and cons before committing to a consequential choice. Ray
-Dalio built Bridgewater's culture around documenting reasoning and
-creating decision cards that could be reviewed later. Daniel Kahneman
-himself recommended decision journaling as one of the few practical
-defenses against the cognitive biases he spent a career studying. The
-idea is the same in every case: capture the reasoning while the
-uncertainty is still real, before the outcome simplifies the story.
+The named practice was popularized through practitioner work. Annie Duke uses
+"resulting" for judging a decision mainly by the outcome and argues for
+separating process from luck [10]. Shane Parrish publishes a decision-journal
+template that records the situation, variables, expected result, confidence,
+and later review [11]. These sources provide practical designs, not controlled
+tests of the complete intervention. The most defensible rationale for a
+decision journal is therefore modest: it preserves contemporaneous evidence,
+enables explicit scoring when outcomes are resolvable, and creates a structured
+occasion to compare expectations with reality.
 
 ## Core Concepts
 
-### The Process-Outcome Distinction
+### A contemporaneous record, not a retrospective essay
 
-The foundational concept of decision journaling is that decision quality
-and outcome quality are not the same thing. This distinction, articulated
-most clearly by Annie Duke in "Thinking in Bets" (2018), holds that every
-outcome is the product of two factors: the quality of the decision and
-luck. You control exactly one of them. A good decision can produce a bad
-result because the luck component broke against you. A bad decision can
-produce a good result because luck bailed you out. Confusing the two is the
-error Duke calls "resulting" -- the habit of reading backward from an
-outcome to a verdict on the choice that produced it.
+The load-bearing property of a decision journal is timing. The initial entry is
+completed before the outcome is known and is not rewritten afterward. Fischhoff
+showed that outcome knowledge changes probability judgments and perceived
+relevance even when people are told to ignore that knowledge [1]. Fischhoff and
+Beyth showed that remembered forecasts drift toward known outcomes [2]. A record
+made after resolution is useful as an after-action review, but it cannot serve
+as independent evidence of what the decision maker believed beforehand.
 
-Consider the 2x2 matrix this framework produces: a good decision with a
-good outcome is a deserved win -- replicate the process. A good decision
-with a bad outcome is bad luck -- do not change a thing, examine the
-context. A bad decision with a good outcome is dumb luck -- the most
-dangerous quadrant, because it teaches the wrong lesson and reinforces a
-flawed process. A bad decision with a bad outcome is a deserved failure --
-diagnose and change. The diagonal cells -- good decision/bad outcome and
-bad decision/good outcome -- are where outcome-based feedback fails
-entirely. Without a record of what you believed at the time, you cannot
-identify which quadrant you are in. The decision journal creates that
-record.
+A journal should therefore distinguish three times. The decision time records
+what was known, inferred, and chosen. Update times record genuinely new
+information and any resulting probability change. The resolution time records
+what happened and how the earlier process should be evaluated. Dated additions
+preserve the sequence; editing the initial entry destroys it. This design is a
+practical synthesis of the memory findings rather than a claim that an
+immutable document eliminates hindsight bias [1][2][4].
 
-The practical consequence is profound. If you judge decisions only by
-outcomes, you reward recklessness that paid off and punish careful calls
-that did not. Over time, you develop false confidence from lucky wins and
-abandon sound processes that had unlucky losses. A surgeon who runs a
-medically sound but risky procedure and loses the patient made a good
-decision. A gambler who bets blind and wins made a bad one. Track only
-outcomes and you literally cannot tell those two apart.
+The record also needs provenance. "Demand looks strong" is too vague to audit.
+A useful entry states what observation, dataset, interview, filing, or prior
+experience produced the belief and marks which statements are observations and
+which are interpretations. The aim is not exhaustive documentation. It is to
+preserve enough of the original information state that a later reviewer can ask
+whether the conclusion was reasonable without importing facts learned later.
 
-### Hindsight Bias and the Knew-It-All-Along Effect
+### Process quality and outcome quality are different variables
 
-Hindsight bias is the cognitive distortion that decision journals exist to
-defeat. Fischhoff's original 1975 study demonstrated that people who know
-an outcome has occurred assign it a higher probability than people who do
-not know the outcome, even when both groups have identical background
-information. The effect has been replicated consistently for nearly five
-decades. A 2022 replication effort by Gilad et al. found consistent
-evidence across multiple studies with medium to large effect sizes,
-confirming that hindsight bias remains robust after almost fifty years of
-research.
+A decision is made from a set of options, beliefs about consequences, and
+preferences over those consequences. The eventual result supplies evidence, but
+it does not reveal the quality of the earlier process by itself. Baron and
+Hershey demonstrated outcome-biased evaluations under conditions designed to
+hold the decision-relevant information constant [3]. Duke's practitioner term
+"resulting" gives the same error a memorable label [10].
 
-The bias operates through two mechanisms. The first is memory distortion:
-your remembered predictions drift toward whatever actually happened. You
-genuinely cannot recall what you originally believed because the memory
-has been overwritten. The second is sense-making: once you know the
-outcome, your brain builds a tidy causal story in which the outcome was
-inevitable. The uncertainty you actually felt at the time vanishes from
-the record. The surprise gets edited out. This is not a deliberate
-deception. Your memory was built to produce a coherent narrative, not an
-accurate archive. Those are different jobs, and the narrative wins.
+A common 2-by-2 table distinguishes sound or unsound process from favorable or
+unfavorable outcome. Its purpose is diagnostic, not celebratory. Sound process
+with a favorable outcome may deserve repetition, but one success does not prove
+the process is sound. Sound process with an unfavorable outcome may reflect
+ordinary uncertainty, a bad model, an implementation failure, or information
+that was unknowable at the time. Unsound process with a favorable outcome is
+especially dangerous because success can reinforce a faulty method. Unsound
+process with an unfavorable outcome provides a clear reason to revise the
+method, but the reviewer still needs to identify the failed step [10].
 
-The consequences for learning are severe. Outcome bias -- judging a
-decision by its result instead of by the reasoning behind it -- makes it
-impossible to distinguish skill from luck in your own history. The
-narrative fallacy -- the tendency to build a causal story after the fact --
-convinces you that the outcome was predictable, which means you learn
-nothing about how to handle uncertainty next time. Without an external
-record of what you actually believed, you are trapped in a loop where every
-past decision looks like it was obviously right or obviously wrong, and
-neither judgment is accurate.
+The journal makes this table usable by preserving ex ante criteria for process
+quality. Those criteria can include whether relevant alternatives were
+considered, whether base rates were used, whether assumptions were explicit,
+whether incentives and conflicts were disclosed, and whether the action was
+proportionate to uncertainty and reversibility. Without such criteria, a
+reviewer can label any winning process "good" and any losing process "bad,"
+which simply recreates outcome bias in a more formal layout.
 
-### Calibration: Matching Confidence to Reality
+### The decision unit must be resolvable
 
-Calibration is the skill of attaching honest probabilities to your beliefs.
-A well-calibrated forecaster who says they are 70 percent confident in a
-prediction is right about 70 percent of the time. A poorly calibrated
-forecaster who says they are 70 percent confident is right significantly
-more or less often. Most people are systematically overconfident: their 90
-percent predictions are right perhaps 70 percent of the time. This is the
-calibration gap, and it is invisible without a tracking system.
+A journal entry is easier to learn from when it defines a bounded decision unit.
+At minimum, the unit identifies the decision, the available alternatives, the
+chosen action, the reason for choosing it, and the date on which the entry will
+be reviewed. If the entry includes a forecast, it also states the event,
+probability, resolution criterion, and resolution date. "This project will go
+well" cannot be scored. "There is a 70 percent probability that the release
+passes its named acceptance tests by 30 June" can be scored if the tests and
+deadline are fixed in advance.
 
-The Brier score, developed by Glenn Brier in 1950, provides a proper
-scoring rule for measuring calibration. A Brier score of 0 means perfect
-calibration (you said 100 percent and were always right). A score of 0.25
-means your forecasts are no better than a coin flip. Most people start
-around 0.20-0.25 and improve to 0.15-0.18 with practice. The score rewards
-honest probability estimates: if you say 70 percent and the outcome occurs
-70 percent of the time, you get a better score than if you say 90 percent
-and the outcome occurs 70 percent of the time. This incentivizes stating
-confidence accurately rather than maximizing apparent certainty.
+The choice and the forecast are related but not identical. A person may choose
+an action because it has the best expected value even when its probability of
+success is below 50 percent. Conversely, a highly probable outcome may not
+justify an action if the downside is severe or the alternative is better. The
+journal should record both the belief about outcomes and the decision rule that
+turns those beliefs into action. Otherwise a later reviewer cannot tell whether
+an error came from forecasting, valuation, risk tolerance, or execution.
 
-Tetlock's Good Judgment Project demonstrated that calibration is
-trainable. The mechanism is a feedback loop: record your prediction and
-confidence, wait for the outcome, compare, and adjust. Over time, you
-learn where your confidence is systematically inflated and where it is
-calibrated. Maybe you are chronically overconfident on anything involving
-other people. Maybe your gut is excellent on small calls and terrible on
-big irreversible ones. Maybe you decide worst when you are rushed, and you
-can learn to simply wait when a choice does not need answering today.
-These patterns are invisible without a dataset. A decision journal turns
-single decisions into a dataset about your own judgment.
+Reference classes improve the entry by placing the focal case beside similar
+cases. The Good Judgment Project's probability training explicitly encouraged
+forecasters to use reference classes and other debiasing heuristics [8]. A
+reference class should be chosen before the outcome and defined so that its
+membership cannot be changed merely to make the result look expected. If no
+credible comparison set exists, the entry should say so. Inventing a base rate
+is worse than acknowledging its absence.
 
-### The Temporal Gap: Write Before You Know
+The entry should also state disconfirming evidence and update triggers. A
+prediction that cannot be changed in response to new information is not a model
+of learning. A thesis that changes after every price movement is not testable.
+A useful trigger is specific enough to identify when an assumption has failed,
+but not so sensitive that ordinary noise causes constant reversal. Updates are
+appended with their dates, new evidence, and revised probabilities. This
+creates an audit trail of learning rather than a frozen assertion.
 
-The structural innovation of a decision journal is the temporal gap. You
-fill the first half of the entry -- the decision, alternatives considered,
-probabilities assigned, expected outcome, reasoning -- before the outcome
-is known. You fill the second half -- what actually happened, what you
-learned, what you would do differently -- after the outcome arrives. That
-gap enforces the separation between process and outcome. You cannot
-retroactively adjust your probability because you already wrote it down.
-You cannot rewrite your reasoning because the original entry is
-preserved.
+### Calibration requires a series, not a memorable anecdote
 
-This timing constraint is the load-bearing element of the entire practice.
-A journal entry written after the result is known is not a decision
-journal entry -- it is an after-action review that back-fits the
-prediction, which is the exact distortion the method exists to prevent.
-The contemporaneous record is the one reliable defense against hindsight
-bias. It freezes your reasoning in place so that your future self can read
-it without the distortion of knowing what happened next.
+Calibration asks whether stated probabilities match observed frequencies. If a
+large set of comparable forecasts assigned 70 percent probability resolves
+positively about 70 percent of the time, that set is calibrated at that level.
+A single 70 percent forecast cannot establish calibration, because either
+outcome was compatible with the stated uncertainty. Mellers and colleagues
+assessed repeated forecasts with the Brier scoring rule and separately examined
+calibration and resolution [8][9].
 
-The discipline required is modest but rare. You must write the entry at
-the moment you commit to the decision, while the uncertainty is still real
-and the reasoning is still uncontaminated by the result. This feels
-unnecessary when you are confident. It feels redundant when the decision
-seems obvious. It is precisely in those moments -- when the need for a
-record is least apparent -- that the record is most valuable, because
-those are the decisions where hindsight bias will hit hardest later.
+For a binary event under the common single-event convention, the Brier score is
+`(p - o)^2`, where `p` is the predicted probability and `o` is 1 when the event
+occurs and 0 when it does not [7][9]. A 70 percent forecast scores 0.09 if the event
+occurs and 0.49 if it does not. Lower is better. A constant 50 percent forecast
+scores 0.25 for every binary outcome, but 0.25 is not a universal "coin-flip"
+standard: the appropriate benchmark depends on the event base rate and the
+forecast set. Some forecasting studies use a multicategory form that sums the
+squared error over all mutually exclusive outcomes, so its numerical range
+differs. The scoring convention must be recorded before scores are compared
+[7][9].
 
-### The Six-Field Minimum Structure
+A raw Brier score combines more than calibration. A forecaster can be well
+calibrated but uninformative by staying near the base rate. Resolution measures
+whether forecasts meaningfully distinguish situations with different outcome
+rates. The Good Judgment research reports improvements in both calibration and
+resolution, which is more informative than reporting only a single aggregate
+score [8][9]. A journal used for self-improvement should therefore inspect both:
+were probability bins empirically reliable, and did the forecaster move away
+from the base rate when evidence justified doing so?
 
-Every useful decision journal contains six core fields, drawn from the
-convergence of Duke's, Parrish's, and Kahneman's approaches:
+Small samples constrain every conclusion. Ten forecasts at 70 percent can
+resolve seven times without proving stable calibration, and unusual decisions
+may never generate a comparable series. The author's assessment is that a
+journal should not manufacture precision where repeated observations are
+absent. For one-off choices, the durable benefit is the preserved reasoning
+record, not a personal calibration curve.
 
-1. Situation: What is the context? What decision are you making? What
-   makes this a hard call?
-2. Alternatives: What options did you seriously consider? List at least
-   two. What is the rejected alternative, and why was it set aside?
-3. Probabilities: What are the odds of each possible outcome? Assign a
-   number. "70 percent" is a prediction; "probably" is a feeling.
-4. Expected outcome: What do you expect to happen? Be specific. State the
-   date by which you expect it.
-5. Base rate: What happens in situations like this one? What is the
-   reference class? This is Kahneman's outside view, and it is the single
-   most powerful correction for overconfidence.
-6. Result: What actually happened? Fill this in later, at the review.
+### Review is the learning operation
 
-Additional fields that practitioners find valuable include the
-disconfirming evidence (what would prove you wrong), the emotional and
-physical state at decision time (are you tired, rushed, anxious), the
-time of day, and the confidence level expressed as a percentage. The
-confidence percentage is critical: over time, it enables calibration
-tracking. Without a stated confidence, a prediction cannot be calibrated.
+Recording without reviewing produces an archive, not a feedback system. The
+review date should follow the decision's evidence horizon: the earliest point
+at which the named outcome can be judged without changing its definition.
+Reviewing too early treats an unresolved forecast as a failure or success.
+Reviewing indefinitely late allows entries to disappear from attention.
 
-### The Review Cycle: Where Learning Happens
+A disciplined review compares the original entry with the outcome and asks
+separate questions. Did the event resolve under the stated rule? Was the
+forecast accurate relative to the available evidence and reference class? Were
+important alternatives omitted? Which assumption failed? Did execution depart
+from the chosen action? What new information was genuinely unavailable at the
+time? Which lesson would have been stated if the outcome had gone the other
+way? That final counterfactual question helps test whether the claimed lesson
+is merely a reaction to the observed result [3][4].
 
-The journal entries are half the practice. The other half is the review,
-where the real learning occurs. Practitioners recommend blocking time on a
-regular schedule -- quarterly, every six months, or at the evidence
-horizon specified in each entry -- to pull up past decisions and compare
-predictions to reality. For each entry, the review asks four questions:
-what did I expect, what actually happened, why was there a gap, and what
-would I do differently?
+The author's assessment is that review should preserve ambiguity where it
+exists. Many strategic outcomes
+have multiple causes, weak counterfactuals, and long lags. A sale followed by a
+price increase does not prove the sale was irrational; a successful product
+does not prove every assumption in its approval memo was sound. Outcome data
+may update a belief without uniquely identifying a cause. The record should
+separate direct evidence, plausible interpretation, and unresolved uncertainty.
 
-The review classifies each decision along two axes: was the outcome right
-or wrong, and was the underlying reasoning sound or flawed? That four-way
-classification matters because a decision can succeed through luck and
-fail despite rigor. Confusing the two is how leaders develop false
-confidence or corrosive self-doubt. The review is also where patterns
-emerge: you may notice that your Monday decisions are systematically worse
-(overconfidence after a weekend of reading news), that high-stress
-decisions fail more often, or that long-horizon calls go unreviewed
-because the review date is too far out.
+### The journal is a bounded instrument
 
-The review must preserve the original entry. Never rewrite the original
-thesis after the outcome is known. If the situation changes, append dated
-updates rather than replacing history. The original entry is the evidence
-that your future self cannot revise. Once you start editing past entries
-to match current understanding, you have recreated hindsight bias inside
-your own record system.
+A decision journal is best suited to consequential choices made under
+uncertainty when later evidence can inform at least part of the original model.
+It is less useful for trivial recurring choices, matters with no meaningful
+resolution criterion, or decisions whose review would create disproportionate
+privacy or legal risk. It should not become a surveillance system, a substitute
+for professional records, or a device for assigning blame.
+
+The practice also cannot guarantee better choices. Hindsight bias can persist
+despite warnings and debiasing instructions [1][5][12]. A record may show what
+was believed without showing that the belief was justified. Repeated forecasts
+can improve while the values used to choose actions remain incoherent. A team
+can document a decision meticulously and still omit a critical alternative.
+The journal improves the evidence available for review; the quality of the
+review still depends on honest criteria, relevant expertise, and willingness to
+change.
 
 ## Evidence
 
-### Fischhoff (1975): The Original Hindsight Bias Study
+### Direct evidence for the memory problem
 
-Baruch Fischhoff's 1975 study, published in the Journal of Experimental
-Psychology: Human Perception and Performance, established the empirical
-foundation for hindsight bias. In the key experiment, participants read
-background information about a historical conflict between British and
-Nepalese soldiers from 1814. Four groups were told different outcomes had
-occurred (British victory, Nepalese victory, military stalemate, or no
-outcome given). Participants who were told a specific outcome had occurred
-assigned it a higher probability than those who were not told the outcome,
-despite having identical background information. The effect persisted
-even when participants were explicitly instructed to ignore outcome
-knowledge and when they were paid for accuracy. Fischhoff called this
-"creeping determinism" -- the tendency for known outcomes to appear
-increasingly inevitable as causal analysis proceeds.
+Fischhoff's 1975 paper reported three experiments using historical and clinical
+vignettes. In the first, reporting an outcome increased its judged probability
+in all 24 outcome comparisons and changed the perceived relevance of facts in
+the vignette. In the second, participants asked to answer as if they did not
+know the outcome remained closer to hindsight judgments than to the judgments
+of participants who lacked outcome knowledge. In the third, participants also
+failed to reconstruct accurately what outcome-ignorant peers would have judged
+[1]. The studies support the claim that outcome knowledge can alter a person's
+reconstruction of an earlier information state.
 
-A companion study by Fischhoff and Beyth (1975) used Nixon's trips to
-China and the Soviet Union. Israeli students estimated probabilities for
-15 possible outcomes before the trips. Afterward, they were asked to
-recall their original estimates. Their remembered probabilities had
-systematically shifted toward what actually happened. This demonstrated
-the memory-distortion mechanism: it is not just that people think the
-outcome was predictable, it is that they genuinely cannot remember
-predicting otherwise. This is the specific mechanism a decision journal
-defeats. If the prediction is written down and timestamped, memory
-distortion cannot reach it.
+Fischhoff and Beyth used a within-person memory design. Participants made
+probability judgments before Nixon's trips and were unexpectedly asked, from
+two weeks to six months later, to reproduce those judgments. For events
+believed to have happened, three quarters of participants generally recalled or
+reconstructed probabilities that were higher than their original values. The
+downward shift for events believed not to have happened was weaker [2]. The
+asymmetry cautions against reducing the study to the slogan that every memory
+moves uniformly toward the result.
 
-### Tetlock's Good Judgment Project (2011-2015)
+The later evidence supports the phenomenon while refining its magnitude.
+Guilbault and colleagues' meta-analysis reported a mean effect of d = 0.39
+across its coded studies, not a universal large effect. Effect sizes varied with
+the probability measure, event type, outcome valence, and experimental
+manipulations [5]. Chen and colleagues' close replications supported
+retrospective and prospective hindsight bias, with mean effects of 0.60 and
+0.40 in the replicated studies; their additional measures did not all move
+reliably [6]. Fischhoff's 2025 retrospective summarizes evidence across
+experimental and real-world settings and reports that warnings alone have no
+discernible effect, while reconstructing past perspectives may be more
+promising [12].
 
-Philip Tetlock's Good Judgment Project, run from 2011 to 2015 as part of
-a government-sponsored forecasting tournament, demonstrated that
-calibration is trainable through prediction tracking. The project
-recruited thousands of volunteers to make probabilistic forecasts on
-geopolitical questions. Their accuracy was measured using the Brier score.
-The key finding: a subset of participants, dubbed "superforecasters,"
-consistently outperformed not only other volunteers but also trained
-intelligence analysts with access to classified information.
+These findings justify preserving an ex ante record. They do not show that a
+particular six-field or ten-field journal template is optimal. The causal chain
+has two stages: outcome knowledge can distort reconstruction, and a dated record
+can preserve the original text. Whether consulting that record improves future
+decisions is a further empirical question.
 
-What separated superforecasters from everyone else was not expertise,
-inside information, or innate talent. It was the discipline of recording
-predictions with explicit confidence levels, checking them against
-outcomes, and updating beliefs in response. Tetlock described this as a
-three-part cycle: record, verify, correct. Without all three, the
-cycle does not turn. Recording alone produces a log. Verifying alone
-produces a score. Only the full cycle -- record, verify, and then
-correct your calibration -- produces improvement.
+### Direct evidence for outcome-biased evaluation
 
-A replication study by Katsagounos et al. (2020), published in PMC,
-examined the superforecasting phenomenon from a small pool of forecasters
-and found that the best forecasters maintained well-calibrated forecasts
-over time without significant regression to the mean. This suggests the
-skill is durable, not a statistical artifact of large numbers. The
-implication for decision journaling is direct: the practice is not a
-one-time intervention. It is a compounding skill that gets better the
-longer you maintain it.
+Baron and Hershey's five studies separated information available at decision
+time from information learned afterward. Participants evaluated decisions in
+medical cases and monetary gambles. Favorable outcomes raised evaluations even
+when paired cases held the relevant ex ante facts constant. The bias persisted
+in designs intended to test whether participants treated outcomes as relevant
+despite recognizing that they should not [3]. This supports the process-outcome
+distinction as more than practitioner terminology.
 
-### The 2022 Replication of Hindsight Bias
+The experiments do not imply that outcomes should be ignored. Outcomes can be
+evidence about a decision maker's model, skill, or execution, especially across
+a repeated series. The specific error is allowing an outcome to change the
+judgment of process beyond what the outcome legitimately reveals. A journal
+helps by displaying the original information and criteria next to the result;
+it does not dictate how much the result should update the evaluation.
 
-Gilad et al. (2022), published in the Journal of Experimental Social
-Psychology, conducted two close replications of Fischhoff (1975) and one
-novel study. In Study 1, participants who knew an outcome had occurred
-estimated its probability as significantly higher than participants who
-did not know the outcome, replicating the original finding with medium
-to large effect sizes (Cohen's d approximately 0.5 to 1.1). The
-replications were rated as "mostly successful," and the authors concluded
-that after almost five decades, hindsight bias remains robust.
+### Forecasting evidence and its limits
 
-This replication is significant for two reasons. First, it confirms that
-the bias the decision journal is designed to counter is not a historical
-artifact of 1970s experimental methodology. It persists in modern
-populations with modern experimental standards. Second, it confirms that
-the bias is difficult to eliminate through debiasing interventions alone.
-The review literature notes that debiasing interventions show limited
-success. This is precisely why a structural intervention -- the written,
-timestamped, pre-outcome record -- is necessary. You cannot debias your
-memory by trying harder to remember accurately. You can only create an
-external record that memory distortion cannot reach.
+Mellers and colleagues studied thousands of repeated geopolitical forecasts in
+a competitive setting. Forecasters assigned probabilities to questions with
+specified resolution criteria and could update those probabilities over time.
+Random assignment was used for training and work-environment interventions.
+Probability training, collaborative teams, and performance tracking improved
+accuracy, and the reported analyses decomposed performance into calibration and
+resolution [8]. This is strong evidence that structured feedback, probabilistic
+reasoning, and repeated scoring can improve forecasting in that environment.
 
-### Meta-Analytic Evidence on Hindsight Bias
+The superforecaster study adds evidence of persistence. People selected from
+the best first-year forecasters continued to outperform comparison groups in
+years two and three, including on quickly submitted forecasts. They showed
+better Brier scores, calibration, and resolution, and differed in cognitive
+reflection, open-mindedness, motivation, and effort [9]. Because selection into
+the elite group followed earlier performance and the group also received a
+supportive environment, the study does not isolate journaling or prove that any
+person can reproduce the result by keeping records.
 
-A meta-analysis referenced in the bias-detection literature reports a
-robust though modest effect size for hindsight bias (r approximately 0.17
-to 0.25). While this is modest in magnitude, it is consistent across
-domains and populations. The effect appears in medical decision-making
-(where physicians with known adverse outcomes conclude the outcome was
-foreseeable), legal judgment (where expert witnesses show outcome-biased
-retrospective assessment), and investment (where investors underestimate
-volatility because they believe they predicted the present correctly in
-the past).
+The forecasting findings transfer to a decision journal only under defined
+conditions. The journal must contain genuinely resolvable probability
+forecasts, use a fixed scoring convention, preserve updates, and accumulate
+comparable cases. Entries about identity, values, or unique strategic choices
+may still benefit from a contemporaneous record, but they cannot inherit the
+calibration claims of a forecasting tournament.
 
-The medical context is particularly instructive. A 2002 study found that
-experts reviewing cases with known adverse outcomes frequently concluded
-that the adverse outcome was foreseeable and that treatment fell below
-the standard of care. Their judgments were tainted by knowledge of the
-outcome. In one case, Simpson v Diamond [2001], a birth injury case,
-liability was admitted partly due to outcome-biased retrospective
-assessment. This demonstrates that hindsight bias is not just a
-laboratory curiosity. It affects real-world decisions with real
-consequences, and the people most vulnerable to it -- experts who
-evaluate their own past judgments -- are precisely the people who would
-benefit most from a decision journal.
+### Evidence for the complete practice remains limited
 
-### The Investment Journal Evidence
+The academic sources reviewed here test hindsight bias, outcome bias,
+probability scoring, and forecasting interventions [1][2][3][4][5][6][7][8][9][12]. Duke and
+Parrish describe practical journaling methods [10][11]. None of these sources is
+a controlled comparison showing that a general decision-journal package
+improves consequential outcomes across domains. The original topic's broader
+claim that decision journaling "measurably improves judgment over time" therefore
+exceeded the inspected evidence.
 
-Practitioner evidence from the investing world provides convergent
-support for decision journaling. The Farnam Street blog's Shane Parrish
-documents the practice among investors who maintain decision journals
-to record their thesis, evidence, confidence, and expected outcome
-before executing trades. The Rational Walk newsletter documents a
-fourteen-year practice of investment journaling, in which the author
-discovered that maintaining records of reasoning led to fewer, better
-decisions over time. The author found that the journal revealed when he
-was "trying to do far too much" and that "less is often more when it comes
-to long term investing."
+This gap does not make the practice irrational. The cost of a bounded entry can
+be low, and the mechanism of preserving ex ante evidence is direct. It does
+change the strength of the conclusion. Decision journaling is an evidence-based
+response to documented reconstruction and evaluation problems, combined with a
+plausible feedback design. It is not a universally validated intervention with
+a known effect size.
 
-The author's assessment is that this practitioner evidence, while
-convergent and compelling, lacks controlled experimental validation. The
-practice itself, popularized by practitioners like Duke (2018) and
-Parrish (2023), has limited controlled evidence that journaling directly
-improves decision outcomes. What exists is strong evidence for the
-mechanism (hindsight bias is real and hard to suppress by willpower;
-recorded probabilistic predictions plus feedback improve calibration over
-time) and convergent practitioner testimony. The gap between mechanism
-evidence and outcome evidence is a limitation, but the mechanism is strong
-enough that the practice is well-justified on theoretical grounds alone.
-
-### Outcome Bias in Strategic Decision-Making
-
-A 2025 integrative review published in the Journal of Management
-examined cognitive biases in strategic decision-making across empirical
-research from 2000 to 2023. The review found strong empirical support
-for overconfidence as a systematic bias affecting strategic decisions,
-with negative effects on forecasting, performance, and corporate social
-responsibility. It also found that the quality of strategic decisions is
-often hard to evaluate: what would have happened without the decision is
-unknown, a clear correct answer does not exist, and decision makers often
-have incentives to manipulate performance evaluations to convince others
-they did a good job.
-
-This finding underscores why decision journaling matters in
-organizational settings. Without an ex ante record of reasoning, ex post
-evaluation is contaminated by outcome knowledge, political incentives, and
-retrospective sense-making. The journal creates an audit trail that
-separates the quality of the reasoning at decision time from the quality
-of the outcome. In organizations where decision makers are evaluated by
-results, this separation is the difference between a learning
-organization and one that punishes good decisions that had bad luck.
+The distinction also clarifies what should be measured. A useful evaluation
+would compare pre-specified groups using the same decision domain, entry
+protocol, review schedule, and outcome criteria. It would measure not only
+outcomes but also forecast calibration, omission of alternatives, consistency
+between stated rules and actions, and changes in later process. Until such
+evidence exists, improvements observed in one person's journal remain
+informative for that person but weak evidence for general causal claims.
 
 ## Implications
 
-### For Individual Decision-Makers
+### For an individual practice
 
-The most direct application of decision journaling is for individuals who
-make consequential, uncertain decisions and want to improve their judgment
-over time. This includes investors, founders, executives, hiring managers,
-project leaders, and anyone whose decisions have meaningful consequences
-and feedback cycles long enough for hindsight bias to corrupt memory.
+The author's assessment, synthesized from the bias studies, forecasting
+research, and practitioner templates, is that the smallest useful entry has ten
+fields [1][2][3][4][8][10][11]:
 
-For investors, the decision journal addresses a specific failure mode:
-the disposition effect (selling winners too early, holding losers too
-long) is partly driven by loss aversion and partly by the absence of an
-honest record of the original thesis. Without a record, the investor who
-bought a stock at 50, watched it drop to 30, and sees it recover to 45
-will remember a thesis that accommodates the current price rather than the
-thesis they actually held. The journal forces the investor to state the
-thesis, the expected outcome, the confidence level, and the review date
-before executing the trade. When the review date arrives, the comparison
-is between the original thesis and reality, not between the current
-rationalization and reality.
+1. Decision and timestamp: state exactly what is being decided and when the
+   commitment becomes effective.
+2. Objective and constraints: state what the decision is intended to achieve
+   and which limits cannot be violated.
+3. Alternatives: list the options seriously considered, including continued
+   observation or no action where those are genuine choices.
+4. Evidence available now: distinguish observations and sources from
+   interpretation.
+5. Reference class: state what happened in comparable cases or state that no
+   defensible class is available.
+6. Forecasts: define each event, probability, resolution rule, and resolution
+   date.
+7. Decision rule: explain how probabilities, payoffs, values, and downside risk
+   produced the chosen action.
+8. Disconfirming evidence: state what would show that a central assumption is
+   wrong.
+9. Update triggers: define which new facts would change the action or forecast.
+10. Review date and owner: assign responsibility for resolving and reviewing
+    the entry.
 
-For founders and executives, the decision journal addresses the feedback
-loop problem. Senior roles have longer feedback cycles and higher stakes.
-A CTO making architecture decisions may not know for six to twelve months
-whether a technical choice was sound. By that time, the CTO's memory of
-the reasoning has been overwritten by what actually happened. A
-practitioner who maintains a decision journal as a CTO tool reports
-blocking two hours every quarter to review decisions from six to twelve
-months prior, comparing predictions to outcomes and classifying each
-result along the process-outcome axes. The practice surfaces patterns
-that are invisible in the flow of daily work: Monday overconfidence,
-high-stress failures, unreviewed long-horizon calls.
+This template is a design recommendation, not a validated universal minimum.
+The entry should be shorter when additional detail would not change a later
+review. It should be longer when the stakes, irreversibility, uncertainty, or
+number of affected people make a thin record irresponsible. The worst failure
+is not brevity; it is producing a polished document that conceals the actual
+reasoning.
 
-For hiring managers, the decision journal addresses the problem that
-hiring decisions are high-stakes, infrequent, and have long feedback
-cycles. A manager who makes ten hires a year cannot build a calibration
-dataset from outcomes alone because each hire is unique and the feedback
-is slow. But the manager can record the decision, the predicted
-performance, the confidence level, and the reasoning before the hire. Two
-years later, the comparison reveals whether the manager's 90 percent
-confidence predictions are right 90 percent of the time or 60 percent of
-the time. That is actionable information that memory alone can never
-provide.
+Review should occur by evidence horizon rather than an arbitrary calendar.
+Binary forecasts are scored under the convention chosen in advance. Process is
+then evaluated against the original information and rules, not against a story
+constructed from the result. Lessons are written as bounded changes: "For
+projects with dependency X, require evidence Y before approval" is testable;
+"trust intuition less" is not.
 
-### For Teams and Organizations
+### For investing and capital allocation
 
-Decision journaling scales from individual practice to organizational
-discipline. Teams that maintain shared decision records create an
-institutional memory that survives personnel turnover and retrospective
-sense-making. The practice addresses two organizational pathologies: the
-first is that teams without records cannot learn from their own decisions
-because no one can remember what was believed before the outcome. The
-second is that teams with political incentives to appear competent will
-retroactively rewrite the decision history to make the outcome look
-predictable and the reasoning look sound, regardless of what actually
-happened.
+An investment decision journal can separate thesis, valuation, portfolio
+construction, and later price movement. The initial entry should record the
+business facts relied on, normalized economics, valuation range, major
+assumptions, expected catalysts or compounding path, disconfirming evidence,
+position-size rule, and conditions for adding, holding, or exiting. Market price
+is an outcome variable, not a complete verdict on intrinsic value.
 
-A shared decision journal counters both. It creates a timestamped record
-that cannot be revised after the fact. It separates the quality of the
-decision process from the quality of the outcome, which protects decision
-makers who made sound calls that had bad luck from being penalized and
-exposes decision makers who made poor calls that got lucky from being
-rewarded. Annie Duke's 2x2 matrix becomes an organizational tool, not just
-an individual one: the good decision/bad outcome cell is where most
-organizational learning fails, and the journal is what makes that cell
-visible.
+The process-outcome distinction is especially important over short horizons. A
+sound purchase can decline before business evidence changes, while a weak
+thesis can benefit from multiple expansion or favorable noise. The review
+should therefore compare each forecast with the variable it actually concerned:
+revenue retention with retention data, balance-sheet risk with financing facts,
+capital allocation with subsequent uses of cash, and valuation assumptions
+with realized owner economics. Price performance belongs in the record but
+must not replace operating evidence.
 
-The organizational application requires a culture that values process
-over outcomes and psychological safety over blame. A decision journal in a
-blame-oriented culture becomes a weapon: the record of what you believed
-is used against you when you are wrong. The practice only works when the
-organization treats the journal as a learning tool, not an accountability
-mechanism. Bridgewater's culture, built around radical transparency and
-decision records, is the extreme example. Most organizations need a more
-moderate version: record the reasoning, review honestly, and use the
-patterns to improve the process, not to punish the individual.
+Calibration requires repeated, consistently defined forecasts. An investor can
+track ranges for revenue growth, margins, capital intensity, or named thesis
+breaks and group comparable forecasts after resolution. A small collection of
+highly heterogeneous investments cannot support a precise personal hit rate.
+Where sample size is limited, the journal remains useful for detecting repeated
+process errors such as omitted alternatives, unjustified certainty, thesis
+creep, or changes in position size that were never tied to a stated rule.
 
-### For Domains with Long Feedback Cycles
+### For teams and organizations
 
-Decision journaling is most valuable in domains where feedback cycles are
-long, uncertainty is high, and the stakes are consequential. These are
-precisely the domains where hindsight bias is most damaging because the
-gap between decision and outcome is large enough for memory to corrupt
-completely. Investing, strategic planning, hiring, product development,
-medical diagnosis, and policy-making all share these characteristics.
+A shared decision record can preserve institutional memory when people change
+roles. It can also become a weapon. If managers use ex ante uncertainty against
+employees after every adverse outcome, contributors will hide uncertainty,
+round probabilities toward safety, or avoid documenting dissent. The resulting
+archive will be less honest and less useful.
 
-In medicine, the decision journal addresses a documented problem:
-physicians with known adverse outcomes conclude the outcome was
-foreseeable, which is hindsight bias, not medical insight. A physician
-who records the diagnosis, the confidence level, the differential, and
-the reasoning before the outcome is known creates a record that protects
-against the "I knew it all along" distortion. This is not just about
-self-improvement. In medical malpractice litigation, outcome-biased
-retrospective assessment by expert witnesses has been documented as a
-systematic problem. A decision journal provides the physician with an
-evidence base that can distinguish a sound decision with a bad outcome
-from an unsound decision with a bad outcome.
+Teams should define access, retention, and review rules before collecting
+entries. Personal medical information, personnel judgments, legal advice,
+security-sensitive data, and confidential counterpart information require
+appropriate controls. A learning record should not be described as anonymous
+or private unless the system actually enforces those properties. In regulated
+settings, the journal supplements rather than replaces required records and
+professional standards.
 
-In policy-making and strategic planning, the decision journal addresses
-the problem that the quality of a strategic decision is often impossible
-to evaluate after the fact because the counterfactual -- what would have
-happened without the decision -- is unknown. By recording the reasoning,
-the assumptions, and the predicted outcomes before the decision is made,
-the policy-maker creates a benchmark against which the actual outcome can
-be compared. This does not solve the counterfactual problem, but it does
-create a record of what was expected, which is the best available proxy
-for what would have happened under different assumptions.
+The review meeting should separate resolution from blame. First establish what
+the entry said and what outcome rule applies. Then identify new evidence,
+execution variance, model error, and luck. Only afterward should the team decide
+what process or accountability change is justified. Baron and Hershey's results
+show why this order matters: once the outcome is salient, evaluators can rate an
+otherwise identical process differently [3].
 
-### The Honest Limitation
+### For hiring, product, medicine, and policy
 
-The evidence for decision journaling, while strong on mechanism, has an
-honest limitation. Calibration is cleanest when you make many comparable
-decisions with feedback that arrives reasonably soon: hiring, pricing,
-project estimates, short-horizon forecasts. It is far weaker for rare,
-one-off, long-horizon strategic bets where you may get only one outcome,
-years later, and never see the worlds that did not happen. A founder who
-makes one go/no-go decision on a company sale cannot build a calibration
-curve from a single data point. The journal still has value as a
-reasoning record and a post-mortem tool, but the calibration benefits
-diminish when the sample size is one.
+Hiring and product decisions often provide delayed and noisy feedback. A
+journal can force the decision maker to define expected performance, comparison
+options, and a review date. It cannot make candidates or products comparable
+when roles, markets, and implementation differ. The review should account for
+changes in resources, management, and environment rather than assigning the
+entire outcome to the original choice.
 
-The practice also requires a baseline of metacognitive honesty. A
-decision journal filled with entries that were written to make the
-decision look good rather than to capture the actual reasoning is worse
-than useless because it creates a false calibration dataset. The entries
-must be honest, specific, and willing to state confidence as a number
-rather than a hedge. "I think this will probably work" is not a
-prediction. "I think there is a 75 percent chance this succeeds within 12
-months" is a prediction that can be evaluated. The discipline of forcing
-yourself to state a number is part of what makes the practice work: it
-exposes overconfidence at the moment it is most treatable, before the
-outcome arrives to confirm or deny it.
+Medical and policy applications require stronger limits. A personal
+self-improvement journal is not a substitute for a clinical record, diagnosis,
+informed consent, legal process, or public accountability. Outcomes can be
+rare, ethically sensitive, and causally ambiguous. The appropriate use is to
+preserve reasoning under established professional procedures, not to conduct
+unsafe self-experiments or reduce a person's welfare to a score.
+
+For one-off strategic choices, the record's main value is epistemic hygiene.
+It shows which assumptions were explicit, which risks were accepted, and which
+alternatives were rejected. It cannot create the missing counterfactual world.
+A reviewer should resist assigning a calibration label to one acquisition, one
+career move, or one policy intervention.
+
+### Common failure modes
+
+The first failure is retrospective entry. Writing after the result produces an
+explanation, not an ex ante record. The second is vague resolution. If the event
+or date can be redefined after the fact, the forecast cannot discipline belief.
+The third is false precision: probabilities are useful when they express a
+real comparison, but decimal detail unsupported by evidence adds appearance,
+not information.
+
+The fourth failure is selective recording. Journaling only dramatic or
+successful decisions creates a biased dataset. The fifth is review avoidance:
+entries with no owner or horizon accumulate without feedback. The sixth is
+score worship. A low Brier score can reflect easy questions or conservative
+base-rate forecasts; it must be interpreted with the question set, benchmark,
+calibration, and resolution [7][8][9].
+
+The seventh failure is lesson overfitting. One bad outcome can provoke an
+unnecessary rule, while one good outcome can entrench an unsound process. The
+review should ask whether the proposed lesson would still make sense under the
+opposite result and whether it applies to a defined reference class. The eighth
+failure is surveillance. When entries are collected without clear consent,
+access rules, or purpose, the system can damage candor and trust even if its
+analytic design is sound.
+
+A decision journal succeeds when it preserves what was actually believed,
+makes forecasts and decision rules inspectable, and produces bounded changes
+through review. It fails when it becomes a performance ritual, a hindsight
+narrative, or a database of confident claims that are never resolved.
 
 ## Sources
 
 1. Fischhoff, B. (1975). "Hindsight is Not Equal to Foresight: The Effect
    of Outcome Knowledge on Judgment under Uncertainty." Journal of
    Experimental Psychology: Human Perception and Performance, 1(3),
-   288-299. doi:10.1037/0096-1523.1.3.288 [high]
+   288-299. https://doi.org/10.1037/0096-1523.1.3.288 [high]
 
-2. Fischhoff, B. & Beyth, R. (1975). "I Knew It Would Happen: Remembered
-   Probabilities of Once-Future Things." Organizational Behavior and
-   Human Performance, 13(1), 1-15. [high]
+2. Fischhoff, B., & Beyth, R. (1975). "I Knew It Would Happen: Remembered
+   Probabilities of Once-Future Things." Organizational Behavior and Human
+   Performance, 13(1), 1-16.
+   https://doi.org/10.1016/0030-5073(75)90002-1 [high]
 
-3. Tetlock, P. & Gardner, D. (2015). "Superforecasting: The Art and
-   Science of Prediction." Crown Publishing. [high]
+3. Baron, J., & Hershey, J. C. (1988). "Outcome Bias in Decision
+   Evaluation." Journal of Personality and Social Psychology, 54(4),
+   569-579. https://doi.org/10.1037/0022-3514.54.4.569 [high]
 
-4. Duke, A. (2018). "Thinking in Bets: Making Smarter Decisions When You
-   Don't Have All the Facts." Portfolio. [high]
+4. Roese, N. J., & Vohs, K. D. (2012). "Hindsight Bias." Perspectives on
+   Psychological Science, 7(5), 411-426.
+   https://doi.org/10.1177/1745691612454303 [high]
 
-5. Kahneman, D. (2011). "Thinking, Fast and Slow." Farrar, Straus and
-   Giroux. Chapters on hindsight bias, the outside view, and
-   overconfidence. [high]
+5. Guilbault, R. L., Bryant, F. B., Brockway, J. H., & Posavac, E. J.
+   (2004). "A Meta-Analysis of Research on Hindsight Bias." Basic and
+   Applied Social Psychology, 26(2-3), 103-117.
+   https://doi.org/10.1080/01973533.2004.9646399 [high]
 
-6. Parrish, S. (2023). "Clear Thinking: Turning Ordinary Moments into
-   Extraordinary Results."opt. Decision journal template at
-   https://fs.blog/decision-journal/ [medium]
+6. Chen, J., Kwan, L. C., Ma, L. Y., Choi, H. Y., Lo, Y. C., Au, S. Y.,
+   Tsang, C. H., Cheng, B. L., & Feldman, G. (2021). "Retrospective and
+   Prospective Hindsight Bias: Replications and Extensions of Fischhoff
+   (1975) and Slovic and Fischhoff (1977)." Journal of Experimental Social
+   Psychology, 96, 104154.
+   https://doi.org/10.1016/j.jesp.2021.104154 [high]
 
-7. Mauboussin, M. (2012). "The Success Equation: Untangling Skill and
-   Luck in Business, Sports, and Investing." Harvard Business Review
-   Press. [high]
-
-8. Gilad, B. et al. (2022). "Retrospective and Prospective Hindsight
-   Bias: Replications and Extensions of Fischhoff (1975) and Slovic and
-   Fischhoff (1977)." Journal of Experimental Social Psychology.
-   https://www.sciencedirect.com/science/article/abs/pii/S0022103121000573
+7. Brier, G. W. (1950). "Verification of Forecasts Expressed in Terms of
+   Probability." Monthly Weather Review, 78(1), 1-3.
+   https://doi.org/10.1175/1520-0493(1950)078%3C0001:VOFEIT%3E2.0.CO;2
    [high]
 
-9. Katsagounos, I. et al. (2020). "Superforecasting Reality Check:
-   Evidence from a Small Pool of Forecasters." PMC.
-   https://pmc.ncbi.nlm.nih.gov/articles/PMC7333631/ [high]
+8. Mellers, B., Ungar, L., Baron, J., Ramos, J., Gurcay, B., Fincher, K.,
+   Scott, S. E., Moore, D., Atanasov, P., Swift, S. A., Murray, T., Stone,
+   E., & Tetlock, P. E. (2014). "Psychological Strategies for Winning a
+   Geopolitical Forecasting Tournament." Psychological Science, 25(5),
+   1106-1115. https://doi.org/10.1177/0956797614524255 [high]
 
-10. Roese, N. & Vohs, K. (2012). "Hindsight Bias." Perspectives on
-    Psychological Science, 7(5), 411-426. [high]
+9. Mellers, B., Stone, E., Murray, T., Minster, A., Rohrbaugh, N., Bishop,
+   M., Chen, E., Baker, J., Hou, Y., Horowitz, M., Ungar, L., & Tetlock,
+   P. E. (2015). "Identifying and Cultivating Superforecasters as a Method
+   of Improving Probabilistic Predictions." Perspectives on Psychological
+   Science, 10(3), 267-281.
+   https://doi.org/10.1177/1745691615577794 [high]
 
-11. Brier, G. (1950). "Verification of Forecasts Expressed in Terms of
-    Probability." Monthly Weather Review, 78(1), 1-3. [high]
+10. Duke, A. (2018). "Thinking in Bets: Making Smarter Decisions When You
+    Don't Have All the Facts." Portfolio.
+    https://www.annieduke.com/books/thinking-in-bets/ [medium]
 
-12. Arkes, H. (2013). "The Consequences of the Hindsight Bias in
-    Medical Decision Making." [medium]
+11. Parrish, S. (2014; updated 2025). "Decision Journal: Template and
+    Example Included." Farnam Street. https://fs.blog/decision-journal/
+    [medium]
+
+12. Fischhoff, B. (2025). "Fifty Years of Hindsight Bias Research --
+    Reflection on Fischhoff (1975)." Journal of Experimental Psychology:
+    Human Perception and Performance, 51(2), 143-150.
+    https://doi.org/10.1037/xhp0001232 [high]
 
 ## See Also
 
-- `library/psychology-behavior/cognitive-biases.md` -- the broader
-  category of systematic thinking errors that decision journals counter.
-- `library/psychology-behavior/overconfidence.md` -- the bias that
-  calibration tracking is designed to expose and correct.
-- `library/self-improvement/goal-setting-frameworks.md` -- how structured
-  goals complement decision journals for improving decision quality.
-- `library/self-improvement/habit-formation.md` -- the behavioral
-  mechanics of maintaining a journaling practice consistently.
-- `library/psychology-behavior/system-1-vs-system-2-thinking.md` -- the
-  two-system framework that explains why System 1 rewriting defeats
-  System 2 records.
+- `library/psychology-behavior/cognitive-biases.md` -- the broader category
+  of systematic judgment errors that decision records can expose.
+- `library/psychology-behavior/overconfidence.md` -- why confidence requires
+  repeated calibration rather than recollection.
+- `library/self-improvement/goal-setting-frameworks.md` -- how precommitted
+  criteria make later evaluation less ambiguous.
+- `library/self-improvement/habit-formation.md` -- the behavioral mechanics
+  of maintaining a recording and review routine.
+- `library/psychology-behavior/system-1-vs-system-2-thinking.md` -- a related
+  framework for automatic and deliberative judgment.
