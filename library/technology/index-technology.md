@@ -1,6 +1,6 @@
 # Technology -- Topics
 
-14 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+15 topics. Anchor: [anchor-technology.md](anchor-technology.md)
 
 - [Blockchain and Distributed Ledgers Change Where Trust Resides, Not Whether Trust Exists](blockchain-distributed-ledgers.md) -- [reviewed: 2026-09-24] -- Blockchains are replicated, cryptographically linked ledgers whose participants use a consensus process to decide which updates are accepted. Permissionless designs can reduce dependence on a central operator, but no ledger eliminates trust: users still rely on cryptography, software, network assumptions, governance, key custody, and the accuracy of data supplied from outside the ledger [6].
 
@@ -19,6 +19,8 @@
 - [Open Source Software Becomes Durable Infrastructure Only When Licenses, Governance, and Maintenance Align](open-source-software-digital-commons.md) -- [reviewed: never] -- Open source software turns code into reusable shared infrastructure, but public source code alone does not create a functioning commons. Durable projects combine enforceable permissions, legitimate decision rights, disciplined contribution and release processes, security work, and resources for maintainers; when one layer is missing, openness can coexist with fragile or captured infrastructure.
 
 - [Post-Quantum Cryptography Migration Requires Changing Protocols, Not Just Algorithms](post-quantum-cryptography-migration.md) -- [reviewed: never] -- Post-quantum cryptography migration replaces quantum-vulnerable public-key mechanisms in actual software, network handshakes, certificates, and signing workflows with deployable alternatives. The three finalized NIST standards supply a key-encapsulation mechanism and two signature families, but protecting a connection or artifact also requires compatible protocols, trust infrastructure, vendors,...
+
+- [Programming-Language Memory Safety Prevents Whole Bug Classes but Does Not Remove Software Risk](programming-language-memory-safety.md) -- [reviewed: never] -- Programming-language memory safety prevents programs from accessing memory outside permitted bounds or after its valid lifetime by enforcing invariants in the language, compiler, runtime, or a combination of them [1][3][5]. Ownership and borrowing, managed runtimes, bounds checks, and type systems can therefore prevent broad classes of buffer, lifetime, and data-race defects, but unsafe escape...
 
 - [Quantum Computing -- What It Promises and Why It Is So Hard](quantum-computing.md) -- [reviewed: never] -- Quantum computing harnesses the counterintuitive rules of quantum mechanics -- superposition and entanglement -- to perform calculations that are exponentially faster than what any classical computer can achieve for specific problem classes. Unlike classical bits that are either 0 or 1, quantum bits (qubits) can exist in a blend of both states simultaneously, enabling a single quantum processor to explore vast solution spaces in parallel.
 
