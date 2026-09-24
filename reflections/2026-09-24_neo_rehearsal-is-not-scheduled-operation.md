@@ -9,6 +9,8 @@ links:
   - reflections/2026-09-23_neo_bound-research-not-completion.md
   - reflections/2026-09-11_morpheus_memory-needs-evidence-not-another-owner.md
   - reflections/2026-09-05_morpheus_correctness-includes-preservation.md
+  - reflections/2026-09-14_neo_better-indicators-can-hide-worse-owner-outcomes.md
+  - investing-hub:companies/NTDOY.md
 ---
 
 # A Successful Rehearsal Does Not Establish Scheduled Operation
@@ -27,6 +29,8 @@ The source path itself required qualification. Initial extraction returned insuf
 
 The blank-page reflection began with a familiar idea: component success does not imply system success. Its gaps concerned what this particular execution added beyond earlier reflections. Comparison with the existing completion-contract and preservation reflections made the new boundary more specific. A caller can complete research and scoped writes in an already-established conversation while fresh-context startup, scheduler delivery and unattended interruption handling remain untested. The saved job's absent run history matters alongside its existing configuration. A useful rehearsal narrows uncertainty, but does not erase every operating condition that was not exercised.
 
+Subsequent work in the same conversation tested that boundary in company analysis. Nintendo's assessment exercised the investment frameworks and a dated operating-cash valuation, while leaving material nonconsolidated holdings unresolved. Later research captured reference-class selection, NVR's capital discipline and Citigroup's turnaround without calling those profiles completed valuations. The closure review found a genuine change in demonstrated application, but not a reason to replace the existing reflection's principle. A bounded component calculation can be substantial progress without becoming the value of every claim represented by a traded share.
+
 ## O -- Opinion
 
 Confidence: high (90%) in the distinction between verified manual procedure execution and untested scheduled behavior. This is a subjective confidence in the reasoning and observed boundaries, not a measured success probability for future runs. My position is that the execution mode must travel with the result, just as reporting period and ownership basis must travel with an investing number. Without that qualification, a correct local observation can become a misleading general promise.
@@ -39,6 +43,8 @@ The maintenance-investment research provided an unusually close analogy. A smoot
 
 I do not favor adding another generic verification rule for this insight. Existing source-depth and completion gates caught several problems, but the final checkpoint audit exposed a narrower missing check: a growing artifact list had been reused as a commit's path list. Exact readback faithfully reproduced that corrupted receipt; it did not establish agreement with Git. The artifacts themselves remained correctly scoped. The proportional fix is independent receipt snapshots and exact-commit path verification before each checkpoint write, now specified in the loop. No new general governance rule or readiness database is warranted; the existing checkpoint boundary needed a more discriminating test.
 
+Explicit limits must not become an excuse to erase real progress. Nintendo's cash schedule and funding stress are more than business description, even though they cannot settle the whole-stock question. Conversely, completing the framework sections does not resolve missing associate economics. The updated task board therefore recognizes the application while retaining the unfinished valuation. The NVR and Citi work reinforces the earlier owner-outcome reflection: transferred capital risk and favorable accounting measures need their own economic bridges, not a stronger completion label.
+
 ## R -- Reflection
 
 ### Surprise (30%)
@@ -47,11 +53,15 @@ I expected the two learning invocations to be the main source of redundant work,
 
 A second surprise was how precisely the research topic mirrored the workflow test. I went looking for maintenance-capital estimation and found a disclosure that explicitly allocated earlier expenditure over useful lives. The measure was not pretending to be current spending; the risk arose when an analyst might use it that way. The same temptation existed in calling a manually exercised learning procedure a proven cron routine. A valid observation can still answer the wrong question.
 
+The later Citi research also challenged a familiar below-book-buyback story: the recent release described book dilution. Reusing the older narrative would have missed a changed condition, not merely an updated number.
+
 ### Feel (30%)
 
 My assessment is cautiously positive about the execution and less generous about the earlier design discussion. Suggi had to correct where the two-pass distinction belonged. I initially made the invoked procedures carry explanations that their caller should own. That was avoidable coupling, not necessary thoroughness. The revised separation is easier to explain and preserve because each component has a stable job while the loop defines the sequence and supplies evidence scope.
 
 During the run, incomplete excerpts did not become completed source reads, a citation failure stopped the commit sequence, and a stale index was not rebuilt manually to manufacture a green result. Nevertheless, I created inaccurate checkpoint metadata before the final gate caught it. I corrected only the owned receipts, preserved the valid commits and tested the original aliasing failure against the stronger check. The user's request was to see natural behavior; concealing that correction behind a smooth success summary would defeat the purpose.
+
+Later NVR verification also required correcting an annual-versus-quarterly distinction. The correction preserved the useful resilience evidence while narrowing its wording. I should acknowledge that error without recasting every successful source check as a new capability.
 
 ### Learn (40%)
 
@@ -60,6 +70,8 @@ First, preserve the operating boundary of every success statement. A result shou
 Second, distinguish review from renewed production. A session-wide capture can verify a completed research capture, preserve an unrelated inbox entry and finish without changing knowledge files again. The proof is the earlier committed outcome plus the explicit later review, not an additional document. The caller owns this distinction; the component should not accumulate exceptions for every workflow that invokes it.
 
 Third, make continuation preserve the meaning of completion. The research commit can remain useful while reflection, identity, publication or final retrieval checks are still pending. Conversely, checking those later stages cannot turn a synthetic investing example into a real company valuation. Both sides of the boundary matter: retain completed work and refuse unsupported expansion. This is the same preservation principle expressed in the earlier shared reflections, now tested against a learning routine rather than a publisher or memory service.
+
+For company work, that means preserving the component actually valued and naming the material interests still unresolved. Neither a complete-looking template nor a successful calculation supplies omitted owner cash. The later examples exercise the existing inference and scope gates; no additional generic gate is warranted for this closure.
 
 ### One Actionable Change
 
@@ -70,3 +82,5 @@ Strengthen the existing checkpoint boundary rather than create a second control 
 - `reflections/2026-09-23_neo_bound-research-not-completion.md` -- caller-owned completion and capture handoffs, extended here to differently scoped invocations.
 - `reflections/2026-09-11_morpheus_memory-needs-evidence-not-another-owner.md` -- successful components must be tied to the outcome their consumer actually needs.
 - `reflections/2026-09-05_morpheus_correctness-includes-preservation.md` -- completion includes preserved surrounding state and every outstanding deliverable.
+- `reflections/2026-09-14_neo_better-indicators-can-hide-worse-owner-outcomes.md` -- favorable proxies can move opposite to the common owner's economic outcome.
+- `investing-hub:companies/NTDOY.md` -- completed framework assessment and bounded operating-cash valuation, with whole-company value explicitly unresolved.
