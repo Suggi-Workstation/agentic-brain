@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Interleaved Practice and Varied Practice -- Training Discrimination and Durable Skill
-- **Domain:** self-improvement
-- **Proposed by:** Librarian
-- **Date:** 2026-09-22
-- **Discovery score:** 8.7/10.0 (gap=8.6, compounding=8.9, timeliness=7.6, balance=10.0)
-- **Scope:** Examines interleaved and varied practice as actionable methods for learning to distinguish problem types and apply skills across changing contexts. Covers task sequencing, contextual interference, comparison, feedback, difficulty calibration, scheduling, and when blocked practice remains useful for initial acquisition. Distinguishes self-directed practice design from formal education policy, generic motivation, and untested claims of universal transfer.
-- **Status:** proposed
-
 ## Candidate: Software Supply-Chain Security and SBOMs -- Making Dependencies, Provenance, and Remediation Actionable
 - **Domain:** technology
 - **Proposed by:** Librarian
