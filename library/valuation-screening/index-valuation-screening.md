@@ -1,6 +1,6 @@
 # Valuation Screening -- Topics
 
-12 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
+13 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
 - [Cost of Capital -- Why the Discount Rate Is Both the Most Important and Most Uncertain Number in Valuation](cost-of-capital-capm-wacc-erp.md) -- [reviewed: never] -- Cost of capital is the minimum return a company must earn on its investments to satisfy its providers of capital -- both debt holders and equity investors. It serves as the discount rate in every discounted cash flow model, translating future cash flows into present value. The Capital Asset Pricing Model (CAPM) and the Weighted Average Cost of Capital (WACC) framework together form the standard...
 
@@ -9,6 +9,8 @@
 - [Dividend Discount Models -- Why the Oldest Valuation Method Still Applies Where Others Fail](dividend-discount-models.md) -- [reviewed: never] -- Dividend discount models (DDM) value a stock as the present value of all expected future dividends paid to shareholders. Originating with John Burr Williams in 1938 and formalized as the Gordon Growth Model by Myron Gordon and Eli Shapiro in 1956, the DDM is the oldest and most intuitive branch of intrinsic valuation: a stock is worth what it returns to its owners in cash.
 
 - [Earnings Power Value and Asset-Based Valuation -- Anchoring Intrinsic Value in What a Company Already Earns and Owns](earnings-power-value-and-asset-based-valuation.md) -- [reviewed: never] -- Earnings Power Value (EPV) and asset-based valuation are two families of intrinsic-value methods that deliberately avoid the growth forecasts on which discounted cash flow (DCF) models depend. EPV, popularized by Bruce Greenwald, capitalizes a company's normalized current earnings at its cost of capital to estimate what the business is worth if it simply persists unchanged; asset-based valuation estimates what the underlying assets would fetch if reproduced from scratch or liquidated.
+
+- [Enterprise Value Must Be Reconciled Claim by Claim Before It Becomes Per-Share Equity Value](enterprise-value-equity-value-reconciliation.md) -- [reviewed: never] -- Enterprise value is not common-share value: it measures an operating business or the capital committed to it before the analyst assigns value among cash, lenders, preferred holders, noncontrolling owners, and common shareholders. A defensible per-share estimate therefore requires a line-by-line reconciliation whose asset perimeter, claim definitions, and dilution treatment match the operating value being bridged.
 
 - [The Graham Number and Quantitative Value Screens -- Why Mechanical Filters Produce Superior Returns but Require Human Judgment](graham-number-quantitative-value-screens.md) -- [reviewed: never] -- Quantitative value screens, epitomized by Benjamin Graham's Graham Number formula (sqrt(22.5 x EPS x BVPS)), are mechanical rules that filter the universe of stocks down to a manageable set of candidates trading below conservative estimates of intrinsic value. Research spanning nearly a century -- from Graham's own partnership returns through Fama and French's (1992) demonstration that high book-to-market stocks outperform -- confirms that systematic cheapness screens generate excess returns.
 
