@@ -1,12 +1,14 @@
 # Engineering Infrastructure -- Topics
 
-13 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
+14 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
 
 - [Buildings and Urban Infrastructure -- Engineered Systems That Shape the Vertical City](buildings-and-urban-infrastructure.md) -- [reviewed: 2026-09-23] -- A building is simultaneously a structure, an environmental-control system, a long-lived asset, and a node in urban infrastructure. Its performance depends on coordinated decisions about loads, materials, mechanical services, energy, information, maintenance, and connections to power, water, transport, waste, and communications networks.
 
 - [Construction Methods and Project Management -- Why the Delivery Method Determines Whether Infrastructure Delivers on Its Design Promise](construction-methods-project-management.md) -- [reviewed: 2026-09-23] -- Construction project management coordinates design, procurement, construction, and controls so that a physical asset can meet its specified purpose. Delivery method changes contractual responsibility, the timing of builder involvement, and opportunities to overlap work; it does not by itself guarantee a cheaper or better project ([1] [2] [9]).
 
 - [Corrosion and Materials Degradation -- Lifecycle Control Is Cheaper and Safer Than Reactive Repair](corrosion-and-materials-degradation.md) -- [reviewed: never] -- Corrosion and materials degradation are time-dependent losses of material, properties, or function caused by interactions among an asset, its loads, and its service environment. Because these processes begin before obvious damage appears, effective control integrates material selection, detailing, protection, inspection, monitoring, maintenance, and renewal across the full asset lifecycle rather than waiting for failure ([1] [5] [10]).
+
+- [Standards, Codes, and Safety Margins Translate Bounded Risk into Verifiable Design Constraints](engineering-standards-codes-and-safety-margins.md) -- [reviewed: never] -- Engineering standards, adopted codes, safety factors, and conformity-assessment activities convert selected hazards and uncertainties into explicit requirements for design, construction, and acceptance. They make safety claims more consistent and auditable, but compliance proves conformance only to a defined scope, edition, design basis, configuration, and acceptance rule; it does not prove that every credible failure mode has been eliminated.
 
 - [Infrastructure Resilience and Climate Adaptation -- Engineering Systems for a Non-Stationary Climate](infrastructure-resilience-climate-adaptation.md) -- [reviewed: never] -- Infrastructure systems -- power grids, water networks, transport corridors, ports, buildings -- were designed under an assumption of climatic stationarity: that the future would resemble the past. That assumption is now obsolete. Rising seas, intensifying storms, extreme heat, and altered precipitation patterns are imposing loads that exceed historical design parameters, causing accelerated...
 
