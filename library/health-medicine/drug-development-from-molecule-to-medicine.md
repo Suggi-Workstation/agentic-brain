@@ -6,513 +6,240 @@ domain: health-medicine
 author: Researcher-1
 tags: [drug-development, clinical-trials, pharmaceutical-rd, fda-approval, preclinical-research, drug-economics]
 links: [library/health-medicine/vaccine-development-immunology.md, library/health-medicine/public-health-epidemiology.md]
+reviewed: 2026-09-24
 ---
 
-# Drug Development -- Why It Takes a Decade and Billions of Dollars to Bring a Single Medicine to Patients
+# Drug Development -- Attrition and Evidence, Not One Fixed Price Tag, Make Medicines Slow and Costly
 
-Drug development is the process of transforming a biological insight
-into an approved medicine, and it is one of the most demanding
-undertakings in modern science. From target identification to
-regulatory approval, the journey typically spans 10-15 years, costs
-an average of $2.6 billion per approved drug when accounting for
-failures, and succeeds only about 10% of the time for candidates
-entering clinical trials. This brutal attrition rate is not a sign of
-incompetence -- it reflects the fundamental difficulty of intervening
-in biological systems that evolved over billions of years without any
-obligation to be legible or drug-responsive to human chemistry.
+Drug development converts a biological hypothesis into a medicine whose identity, manufacturing quality, safety, and effectiveness are supported for a defined use. In a 2011-2020 industry dataset, 7.9% of programs entering Phase I reached US approval and successful programs averaged 10.5 years from Phase I to approval; cost estimates are less uniform, ranging from a $985 million median in one public-data study to a $2.558 billion average pre-approval estimate in a confidential industry sample when both failures and the cost of capital were included [5][6][7]. The central difficulty is therefore not a single universal timeline or price tag, but repeated uncertainty reduction across biology, chemistry, manufacturing, clinical evidence, and regulation.
 
 ## Background
 
-The modern drug development framework emerged in the 20th century as
-medicine shifted from botanical extracts and trial-and-error remedies
-to rationally designed molecules targeting specific biological
-mechanisms. Two events catalyzed the modern regulatory architecture.
-The Federal Food, Drug, and Cosmetic Act of 1938, passed after more
-than 100 people died from a toxic solvent in an untested sulfanilamide
-preparation, required manufacturers to demonstrate safety before
-marketing. The Kefauver-Harris Amendment of 1962, driven by the
-thalidomide tragedy that caused severe birth defects in thousands of
-children, added the requirement to demonstrate efficacy through
-adequate and well-controlled studies -- creating the randomized
-controlled trial as the gold standard of evidence.
+Modern US drug regulation grew from failures that exposed what markets and informal professional judgment could not reliably prevent. Elixir Sulfanilamide, formulated with toxic diethylene glycol, killed 107 people in 1937. The Federal Food, Drug, and Cosmetic Act of 1938 then required evidence of safety before a new drug could be marketed and expanded federal inspection authority. The thalidomide disaster in Europe, together with public attention to FDA medical officer Frances Kelsey's refusal to permit US marketing without adequate evidence, helped build support for the 1962 Kefauver-Harris Amendments. Those amendments required manufacturers to establish effectiveness as well as safety through adequate and well-controlled investigations [2].
 
-This regulatory scaffolding, reinforced by the FDA's Center for Drug
-Evaluation and Research (CDER), established a framework where every
-drug must prove it is both safe and effective for its intended use
-before reaching patients. The framework has been refined through
-subsequent legislation: the Orphan Drug Act of 1983 created incentives
-for rare disease therapies, the Prescription Drug User Fee Act (PDUFA)
-of 1992 enabled faster review timelines in exchange for industry-paid
-user fees, and the 21st Century Cures Act of 2016 further expanded
-expedited approval pathways.
+These laws did not create one immutable sequence for every medicine. They created evidentiary obligations that later regulation organized into discovery, nonclinical work, clinical investigation, application review, and postmarket monitoring. The FDA describes clinical development as a typical progression from small early studies to larger late studies, not as a rule that every product must use identical sample sizes, endpoints, or phase labels. Product type, disease severity, prior evidence, endpoint feasibility, and the benefit-risk context can alter the design, combine phases, or support different forms of evidence [1].
 
-The cost trajectory reflects the growing complexity. The Tufts Center
-for the Study of Drug Development (CSDD) estimated the average
-capitalized cost per approved drug at $802 million in 2003 (in year-2000
-dollars). By 2014, the same research group updated the figure to $2.6
-billion in 2013 dollars, a 145% increase driven by higher per-trial
-costs, larger clinical trials with more endpoints, and most
-significantly, failure rates that remained stubbornly high. A 2020
-study in the Journal of the American Medical Association found that
-the median capitalized cost was $985 million, with a range of $314
-million to $2.8 billion, reflecting the enormous variance between
-therapeutic areas and development strategies. The widely cited $2.6
-billion figure captures the fully loaded cost of failures -- for every
-drug that reaches the market, the costs of all the molecules that died
-along the way must be amortized.
+Development also concerns a reproducible product, not only a favorable trial result. The sponsor must connect the material tested in nonclinical and clinical studies to a controlled manufacturing process, analytical specifications, stability program, and proposed label. A molecule with promising biology can still fail if impurities cannot be controlled, batches vary materially, the formulation degrades, or commercial production cannot reproduce the exposure and quality of the studied product. FDA review therefore examines submitted manufacturing information together with the safety and effectiveness evidence, and post-approval changes remain subject to defined controls [20][21].
+
+The review system also changed as workload and science changed. Congress created the Prescription Drug User Fee Act in 1992, authorizing fees from specified drug applicants to supplement public appropriations for the human-drug review process. FDA reports that the program made review more predictable and reduced average approval time, while its current seventh authorization runs through September 2027 [3]. The 21st Century Cures Act, signed in 2016, added authorities and programs involving patient perspectives, modern trial designs, real-world evidence, clinical outcome assessments, regenerative medicine, and coordination across FDA centers [4]. Neither statute removed the requirement that an approval decision rest on adequate evidence of quality, safety, and effectiveness for the proposed use.
+
+The economics became prominent because attrition makes observed spending on an approved product an incomplete measure of development effort. A portfolio pays for programs that stop in discovery, nonclinical testing, or clinical trials as well as for the few that reach approval. Estimates also differ according to whether they report direct cash outlays or capitalized costs, whether they include failed programs and post-approval studies, which products and firms enter the sample, and what cost-of-capital assumption is used. DiMasi and colleagues estimated $1.395 billion in out-of-pocket cost and $2.558 billion in capitalized pre-approval cost per approved compound in 2013 dollars, whereas Wouters and colleagues estimated a median capitalized investment of $985 million for their sample of products approved from 2009 through 2018 [6][7]. Treating either estimate as the price of every drug erases the methodological choices and the wide variation among products.
+
+The same caution applies to duration. The BIO, Informa, and QLS analysis observed an average of 10.5 years from Phase I to approval among successful transitions in its 2011-2020 dataset; this excludes discovery and nonclinical time and averages programs with different indications, modalities, and regulatory histories [5]. A claim that all drugs take 10-15 years is therefore too rigid. Some programs take longer, some move faster, and an emergency can support parallel manufacturing, financing, regulatory interaction, and trial execution without making unresolved safety or effectiveness questions disappear [5][17].
+
+Scope note: this topic stays within the health-medicine domain by focusing on the evidentiary pathway from candidate selection through clinical use. Patents, prices, and portfolio incentives are included only where they alter development decisions or access to evidence. Detailed pharmaceutical business models, company valuation, and investment analysis belong in adjacent industry or investing domains rather than in a clinical account of how medicines are tested.
 
 ## Core Concepts
 
-### The Drug Development Pipeline: Phase by Phase
+### Target Identification and Validation
 
-#### Target Identification and Validation
+A program begins with a causal proposition: changing a molecular target, cell population, pathway, or biological process should improve a defined disease outcome. Target identification may use human genetics, molecular pathology, experiments, clinical observations, or evidence from related medicines. Validation asks a harder question than whether a target is associated with disease. It asks whether a feasible intervention changes the relevant biology enough, in the right tissue and patients, to produce benefit without unacceptable harm. Human genetic support can improve target selection, but it is probabilistic rather than dispositive; updated analyses found that genetically supported target-indication pairs progressed more often, especially when the implicated gene and disease relationship were clear [8].
 
-Every drug starts with a hypothesis about what biological target --
-a protein, gene, or pathway -- is causally involved in a disease. Target
-identification draws on genomics, proteomics, and increasingly on
-large-scale genetic association studies that link specific gene variants
-to disease risk. A target is considered "validated" when there is
-compelling evidence that modulating it will produce a therapeutic
-benefit. However, validation is frequently the weakest link. Sun et al.
-(2022) note that drugs often fail in clinical trials not because the
-molecule was bad but because the underlying target hypothesis was wrong:
-the target was not truly causal for the disease, or inhibiting it
-produced compensatory mechanisms that negated the benefit. Genetic
-evidence dramatically improves the odds -- drugs whose targets are
-supported by human genetic data are approximately twice as likely to
-progress through clinical development.
+### Hit Identification and Lead Optimization
 
-#### Hit Identification and Lead Optimization
+Researchers then search for an intervention with the required activity. Small-molecule programs may combine high-throughput screening, structure-based design, medicinal chemistry, and computational methods. Biologics, oligonucleotides, cell therapies, and gene therapies use different engineering and manufacturing routes, but they face the same multidimensional problem: potency alone is insufficient. A viable candidate must reach the intended site at a usable exposure, avoid important off-target effects, remain stable enough for storage and administration, and be manufacturable with controlled identity, purity, strength, and consistency. The Sun review emphasizes that the relation among dose, tissue exposure, efficacy, and toxicity can defeat compounds that look strong in isolated assays [9].
 
-Once a target is chosen, researchers screen libraries of millions of
-compounds to find "hits" -- molecules that bind to the target and
-modulate its activity. High-throughput screening tests compounds
-rapidly using automated assays. Structure-based drug design, where
-medicinal chemists design molecules to fit the three-dimensional
-structure of a target protein, has become increasingly important as
-crystallography and cryo-electron microscopy have improved.
+Lead optimization is therefore a constrained search rather than a ranking by one laboratory score. Improving binding can worsen solubility; extending half-life can increase accumulation in healthy tissue; changing a formulation can alter absorption or immunogenicity. Decisions at this stage also determine what analytical methods, reference standards, and manufacturing controls will be needed later. A candidate that cannot be produced consistently is not rescued by an attractive mechanism [9][20].
 
-Hits are refined into "leads" through iterative cycles of chemical
-modification. The goal is to optimize multiple properties simultaneously:
-potency at the target, selectivity (not hitting related proteins that
-could cause side effects), and drug-like properties including
-absorption, distribution, metabolism, and excretion (ADME). Poor
-drug-like properties -- low oral bioavailability, rapid metabolism,
-toxicity to the liver or heart -- were responsible for 30-40% of
-clinical failures in the 1990s. Today they account for only 10-15% of
-failures, a genuine improvement in the field. However, this improvement
-has not translated into higher overall success rates because other
-failure modes have persisted.
+### Nonclinical Testing and the IND Boundary
 
-#### Preclinical Testing
+Before routine human testing, sponsors generate pharmacology, toxicology, pharmacokinetic, and manufacturing evidence sufficient to justify the proposed first exposure. FDA's public process describes laboratory and animal testing as tools for answering basic safety questions, while the IND includes animal toxicology data, manufacturing information, clinical protocols, prior human data when available, and investigator information [1]. The evidence package is tailored to the modality and proposed trial; it is not proof that the medicine is safe for every later dose, duration, population, or combination.
 
-Before any human receives the molecule, it undergoes extensive testing
-in laboratory and animal models. The goals are to establish the safety
-margin (the gap between the effective dose and the toxic dose), to
-understand how the compound is absorbed, distributed, metabolized, and
-excreted (pharmacokinetics), and to generate evidence of efficacy in
-disease models.
+The original topic incorrectly said that an IND must be approved before testing begins. Under the FDA procedure, an IND ordinarily goes into effect 30 calendar days after receipt unless FDA imposes a clinical hold, or earlier if FDA notifies the sponsor that the study may proceed. A clinical hold can delay a proposed trial or suspend an ongoing one when specified concerns, including unreasonable and significant risk, have not been resolved [10]. This distinction matters because absence of a hold is permission to begin a bounded investigation, not marketing approval and not a finding that the product is effective.
 
-The preclinical phase filters out approximately 95% of initial drug
-candidates. However, the models are imperfect. Animal models,
-particularly mice, recapitulate human disease biology only partially.
-A compound that is safe and effective in a mouse model of cancer or
-Alzheimer's disease may fail in humans because the underlying biology
-differs, the metabolic pathways that activate or deactivate the drug
-are different, or toxicities emerge that were invisible in animals.
-This gap between preclinical promise and clinical reality is known as
-the "valley of death" -- the translational chasm where most candidate
-drugs perish.
+### Phase I: Initial Human Characterization
 
-If preclinical data are positive, the sponsor files an Investigational
-New Drug (IND) application with the FDA, which must be approved before
-human testing can begin.
+Phase I usually characterizes tolerability, pharmacokinetics, pharmacodynamics, dose, and acute safety in a small population. FDA's patient guidance describes most Phase I studies as involving 20-80 healthy volunteers or people with the relevant disease. Healthy volunteers are not universal: oncology and other contexts may require patients because expected toxicity, irreversible effects, or the need to observe target biology makes healthy-volunteer exposure inappropriate [1]. First-in-human work may include single-ascending-dose, multiple-ascending-dose, food-effect, interaction, or expansion cohorts rather than one standardized experiment.
 
-#### Phase I: First-in-Human Safety
+Phase I cannot establish a complete safety profile. Rare harms, delayed effects, interactions, and risks concentrated in populations excluded from the trial may remain invisible. The correct output is a better bounded estimate of exposure and tolerability, plus a decision about whether and how to test therapeutic activity. FDA's general educational page reports that about 70% of drugs proceed from Phase I, while the 2011-2020 BIO dataset estimated a lower 52.0% transition rate under its program-level definitions. The mismatch shows why every percentage must name its dataset, unit of analysis, time period, and transition rule [1][5][21].
 
-Phase I trials enroll a small number of participants, typically 20-80,
-and are designed primarily to assess safety, tolerability, and
-pharmacokinetics in humans. For many drugs -- particularly in oncology,
-where giving a placebo to cancer patients would be unethical -- Phase I
-enrolls patients with the target disease. For most other indications,
-Phase I uses healthy volunteers.
+### Phase II: Proof of Concept and Dose Selection
 
-The key questions are: What dose can humans tolerate? How is the drug
-processed by the body? Are there early signs of the expected
-pharmacological effect? Dose escalation studies start with a tiny
-fraction of the dose that caused effects in animals and gradually
-increase, monitoring for adverse events.
+Phase II moves the central question toward whether the intervention shows activity in patients with the intended condition and at what dose or regimen. FDA describes studies involving up to several hundred participants over several months to two years, with continued collection of safety data and refinement of methods for Phase III [1]. Endpoints may be symptoms, biomarkers, imaging, physiological measures, event rates, or other outcomes appropriate to the disease. A positive signal is meaningful only if the endpoint, comparator, analysis plan, and observed effect support the intended clinical claim.
 
-Roughly two-thirds of drugs that enter Phase I survive to Phase II.
-Failures at this stage are typically due to unacceptable toxicity or
-pharmacokinetics that make the drug impractical (e.g. it is cleared
-from the body too quickly, or it cannot be delivered to the target
-tissue at effective concentrations).
+This phase is a major attrition point because it is often the first controlled test of whether a persuasive mechanism produces a useful effect in patients. In the BIO dataset, 28.9% of Phase II programs advanced to Phase III, the lowest transition rate among the reported stages [5]. Failure can reveal a wrong target, inadequate exposure, poor patient selection, an insensitive endpoint, an ineffective dose, intolerable adverse effects, or a commercial decision. Those categories should not be collapsed into the claim that every discontinued program was biologically ineffective.
 
-#### Phase II: Proof of Concept
+### Phase III: Confirmatory Evidence
 
-Phase II trials enroll 100-300 patients who have the target disease
-and are designed to provide the first rigorous evidence of efficacy --
-the "proof of concept" that the drug actually works in humans. These
-trials also continue safety monitoring and refine the dosing regimen
-that will be used in Phase III.
+Phase III is generally designed to confirm benefit and characterize important risks in a larger target population under a prespecified protocol. FDA gives 300-3,000 participants as a typical range, but pivotal programs can be smaller or larger depending on disease prevalence, event frequency, effect size, endpoint, modality, and prior evidence [1]. Randomization and blinding reduce bias when feasible; they are common, not universal. The comparator may be placebo, active treatment, background therapy, or another design justified by the clinical context and ethics.
 
-This is where the pipeline narrows dramatically. Approximately 30-40%
-of drugs that enter Phase II proceed to Phase III. The primary reasons
-for Phase II failure are lack of efficacy (the drug does not outperform
-placebo or standard of care) and an unfavorable benefit-risk profile
-(efficacy exists but the side effects are too severe relative to the
-benefit). Many oncology drugs, for example, show tumor-shrinking
-activity in Phase I/II but fail to improve overall survival in larger
-Phase III trials -- the initial shrinkage either does not translate into
-meaningful survival benefit, or resistant tumor clones emerge.
+A pivotal trial tests a specific estimand in an enrolled population. It does not automatically represent every person who may later receive the product. Eligibility criteria, adherence, follow-up, geography, standard of care, and endpoint selection affect external validity. Phase III also does not erase prior uncertainty: a statistically persuasive average effect may coexist with uncertain subgroup effects or uncommon harms. The BIO report estimated a 57.8% Phase III-to-application transition across its dataset and noted marked therapeutic-area variation, including lower oncology transition rates [5].
 
-#### Phase III: Pivotal Confirmation
+### Regulatory Review
 
-Phase III trials are the definitive test. They enroll hundreds to
-thousands of patients across multiple sites (often globally), are
-randomized, controlled, and typically double-blinded. The goal is to
-generate statistically robust evidence that the drug is safe and
-effective in a broad patient population representative of those who
-would receive it in clinical practice.
+For a US marketing decision, the sponsor submits an NDA for a drug or a BLA for a biologic, together with the nonclinical, clinical, manufacturing, and labeling evidence needed for review. FDA evaluates whether the application supports the proposed indication and whether manufacturing controls can deliver the studied product consistently [20]. Approval is indication-, population-, dose-, route-, and label-specific; it is not a general endorsement of every possible use of the molecule.
 
-Phase III trials are enormously expensive, often costing hundreds of
-millions of dollars, and take several years to complete. They are the
-single largest financial risk in drug development: a Phase III failure
-represents the loss of all prior investment with no salvage value.
-Historically, approximately 50-60% of Phase III programs succeed, though
-the rate varies substantially by therapeutic area. Oncology Phase III
-trials have success rates closer to 40%, while cardiovascular and
-metabolic trials have higher success rates, partly because the
-regulatory endpoints (blood pressure reduction, cholesterol lowering)
-are more straightforward to measure.
+Priority Review concerns the review clock, not the evidentiary standard. FDA states a six-month action goal for priority applications compared with ten months for standard review and explicitly notes that Priority Review does not change the scientific or medical standard for approval [11]. The BIO dataset estimated that 90.6% of submitted NDAs or BLAs reached approval when resubmissions were included, but this conditional probability applies after programs have survived earlier selection [5]. It must not be multiplied casually with unrelated phase percentages or applied to an individual product without matching definitions.
 
-During the 2025-2030 period, an estimated $200-230 billion in annual
-branded drug revenue will lose patent exclusivity, making the economics
-of Phase III success even more critical for pharmaceutical companies.
+### Postmarket Evidence
 
-#### Regulatory Review and Approval
+Approval changes the scale and diversity of exposure. Uncommon adverse events, long-latency effects, interactions, medication errors, and outcomes in groups underrepresented in trials can emerge only after broader use. FDA's postmarket system combines required sponsor reporting, MedWatch and other spontaneous reports, studies and registries, and active surveillance. Sentinel uses distributed electronic health data to investigate medical-product safety and augments rather than replaces passive reporting [16].
 
-If Phase III succeeds, the sponsor compiles all data -- preclinical,
-clinical, manufacturing, and labeling -- into a New Drug Application
-(NDA) or Biologics License Application (BLA) and submits it to the
-FDA. The review typically takes 10-12 months for standard applications
-and 6 months for Priority Review.
+"Phase IV" is often used for post-approval studies, but postmarket evidence is broader than one trial phase. FDA may require or sponsors may commit to specific studies; clinicians and patients also generate safety reports; observational analyses can test signals in larger populations. Label changes, risk-management measures, restricted use, or withdrawal may follow when new evidence changes the benefit-risk assessment [12][16][21].
 
-The FDA's decision is ultimately a risk-benefit judgment. A drug for a
-life-threatening disease with no existing treatment may be approved
-despite significant toxicity because the alternative is death. The same
-toxicity profile would be unacceptable for a drug treating a condition
-with safe and effective alternatives.
+### Why Attrition Stays High
 
-#### Phase IV: Post-Marketing Surveillance
+Attrition is the compound result of uncertain biology and sequential selection. The 2011-2020 BIO report followed 12,728 phase transitions and estimated a 7.9% probability that a Phase I program would reach FDA approval. Its component transition rates were 52.0% from Phase I, 28.9% from Phase II, 57.8% from Phase III, and 90.6% from NDA/BLA submission, with substantial differences by disease, modality, biomarker strategy, and other program characteristics [5]. These are historical portfolio estimates, not immutable natural constants.
 
-Approval is not the end of the story. Once a drug is on the market and
-used by a much larger and more diverse population than was studied in
-clinical trials, rare side effects may emerge. Phase IV, or
-post-marketing surveillance, monitors real-world safety through systems
-like FDA's MedWatch and the Sentinel Initiative. Some drugs are approved
-with a requirement for post-marketing studies (Phase IV commitments) to
-gather additional safety or efficacy data. In rare cases, drugs are
-withdrawn from the market when post-marketing data reveal safety
-problems that shift the risk-benefit balance.
+The Sun review groups frequent failure explanations around efficacy, toxicity, drug-like properties, and commercial or strategic decisions and argues that tissue exposure and selectivity deserve more attention [9]. The review's percentages are a synthesis of prior literature rather than a single complete census, so they should not be quoted as if every failed program receives one exclusive, audited cause. Failures can have multiple interacting causes, and public reporting is incomplete, especially for early discontinuations.
 
-### Why 90% of Drugs Fail
+Nonclinical models are necessary but imperfect representations. A disease model can capture one mechanism while missing human heterogeneity, immune context, comorbidity, prior treatment, or exposure. Likewise, an early biomarker can be useful without being a validated surrogate for how a patient feels, functions, or survives. Development works by confronting these model limits in progressively more relevant settings, not by assuming that a positive animal result or molecular response has already established clinical benefit [1][9][12].
 
-The 90% failure rate -- from Phase I entry to approval -- has remained
-stubbornly constant despite decades of effort. Sun et al. (2022)
-identify four categories of failure: lack of clinical efficacy (40-50%),
-unmanageable toxicity (30%), poor drug-like properties (10-15%), and
-commercial or strategic reasons (10%). The first two categories --
-efficacy and toxicity -- account for the vast majority of late-stage
-failures.
+### Expedited Programs Change Sequence, Not the Standard of Reasoning
 
-The authors argue that an overlooked factor is tissue selectivity:
-most drug optimization focuses on plasma pharmacokinetics rather than
-whether the drug reaches adequate concentrations in the disease-targeted
-organ while avoiding accumulation in healthy organs. They propose a
-Structure-Tissue Exposure/Selectivity-Activity Relationship (STAR)
-framework, where drug candidates are evaluated not just by their
-activity in biochemical assays but by their tissue-specific exposure
-profiles.
+FDA distinguishes four expedited approaches for serious conditions. Fast Track provides enhanced interaction and can permit rolling review when unmet need is addressed. Breakthrough Therapy requires preliminary clinical evidence that the product may offer substantial improvement over available therapy on a clinically significant endpoint and adds intensive FDA guidance. Priority Review shortens the application action goal. Accelerated Approval permits earlier approval based on a surrogate or intermediate endpoint reasonably likely to predict clinical benefit, followed by required confirmatory evidence [11][12].
 
-Other contributors to the high failure rate include the fundamental
-challenge of target validation (biological systems have redundancy and
-compensation mechanisms that defeat single-target interventions), the
-limitations of animal models (mice are not small humans), and the
-statistical challenges of clinical trial design (insufficient power,
-poor endpoint selection, and multiple hypothesis testing that inflates
-false positive rates).
+These mechanisms solve different bottlenecks. A designation is not itself evidence that the product works, and shorter elapsed time can result from earlier coordination, overlapping activities, stronger prior evidence, smaller or different trials, or a review-clock change. Accelerated Approval explicitly retains uncertainty about clinical benefit: confirmatory studies are required, and failure to verify benefit can lead to withdrawal procedures [12]. The safe interpretation is that regulation can reorder and parallelize work while keeping the unresolved question visible.
 
-### Accelerated Pathways
+### Cost, Patents, and Orphan Incentives
 
-The FDA has developed four programs to expedite drug development for
-serious conditions with unmet medical need:
+Development cost is best reported as a distribution tied to a method. DiMasi and colleagues surveyed 10 firms about 106 compounds and estimated $1.395 billion in out-of-pocket cost and $2.558 billion in capitalized pre-approval cost per approval in 2013 dollars, using a 10.5% real discount rate and allocating failed-program costs to successes [6]. Wouters and colleagues used public data for 63 of 355 products approved from 2009 through 2018 and estimated a $985 million median and $1.336 billion mean capitalized investment, also incorporating failures and a 10.5% rate in the base case [7]. The estimates answer related but nonidentical questions and do not justify a universal "$2.6 billion drug."
 
-- **Fast Track:** Facilitates development and expedites review. Requires
-  that the drug treats a serious condition and fills an unmet medical
-  need. Provides more frequent FDA interactions and eligibility for
-  rolling review.
+Patents and regulatory exclusivity are also distinct. FDA explains that patents are USPTO property rights, generally with a statutory term of 20 years from US filing, while FDA exclusivity can delay specified competitor applications or approvals and attaches only when statutory conditions are met. Patent and exclusivity periods may overlap or run separately; relevant FDA exclusivities include five years for a new chemical entity, three years for qualifying new clinical investigations, seven years for orphan-drug exclusivity, and six months added for qualifying pediatric studies [14]. A simple statement that every drug receives 7-10 years of commercial protection after approval is therefore inaccurate.
 
-- **Breakthrough Therapy:** Requires preliminary clinical evidence of
-  substantial improvement over available therapy on a clinically
-  significant endpoint. Provides all Fast Track features plus intensive
-  FDA guidance beginning as early as Phase I, and organizational
-  commitment involving senior FDA managers.
+Orphan designation illustrates targeted incentives. FDA states that designation can qualify a sponsor for tax credits for qualified clinical trials, exemption from specified user fees, and potential seven-year market exclusivity after approval. Designation is separate from approval, and an orphan product undergoes the same scientific review for approval or licensure [13]. Generic entry can reduce prices, but the magnitude depends on competition: an FDA analysis of products with initial generic entry in 2015-2017 found progressively larger median reductions as the number of generic producers increased, rather than one universal 80-90% fall [15].
 
-- **Accelerated Approval:** Allows approval based on a surrogate endpoint
-  -- a laboratory measurement or physical sign that is reasonably likely
-  to predict clinical benefit, but is not itself a direct measure of
-  how a patient feels, functions, or survives. Drugs approved under
-  this pathway must complete confirmatory trials to verify clinical
-  benefit. This pathway has been controversial when sponsors delay or
-  fail to complete confirmatory studies.
+### Platform Technologies and Parallel Work
 
-- **Priority Review:** Shortens the FDA review clock from 10-12 months
-  to 6 months for drugs that offer significant improvement in safety or
-  effectiveness.
+The COVID-19 mRNA vaccines showed how elapsed time can fall when prior platform research, public financing, large coordinated trial networks, rapid enrollment, manufacturing at risk, and real-time regulatory interaction are available. NIAID reports that it and Moderna had collaborated on mRNA vaccines for four years before the pandemic and that Phase I enrollment for mRNA-1273 began less than three months after SARS-CoV-2 was identified [17]. The speed did not mean the scientific platform began in January 2020 or that clinical phases were simply omitted.
 
-Research published in 2024 found that Breakthrough Therapy designation
-reduced median late-stage development time by approximately 2.5 years,
-primarily by enabling smaller, more focused clinical programs with
-greater FDA input on trial design.
-
-### The Economics of Drug Development
-
-The economics are defined by three numbers: enormous upfront costs,
-high failure rates, and limited exclusivity windows. A drug patent lasts
-20 years from filing, but typically 10-15 years of that term is consumed
-by development. The average drug enjoys only 7-10 years of effective
-commercial exclusivity from the date of approval.
-
-This compression drives the industry's economic logic. Blockbuster drugs
--- those generating more than $1 billion in annual revenue -- must earn
-enough during their exclusivity window to recoup their own development
-cost, the costs of all the company's failed molecules, and provide a
-return that justifies the risk. When patents expire, generic
-manufacturers can enter, and prices typically fall by 80-90%, a
-phenomenon known as the "patent cliff." Between 2025 and 2030, branded
-drugs generating approximately $200-230 billion in annual revenue will
-lose exclusivity.
-
-The Orphan Drug Act created a parallel incentive structure for rare
-diseases (affecting fewer than 200,000 patients in the U.S.). Orphan
-drug designation provides 7 years of market exclusivity, tax credits
-for clinical research, and waiver of FDA user fees. This has been
-successful in stimulating rare disease drug development but has also
-generated criticism when companies obtain orphan designations for
-subsets of common diseases or charge extremely high prices for drugs
-developed with substantial public funding.
-
-### The mRNA Acceleration
-
-The COVID-19 pandemic demonstrated that drug development can be
-dramatically faster under certain conditions. The mRNA vaccines from
-Pfizer-BioNTech and Moderna progressed from sequence selection to
-emergency authorization in approximately 11 months, a process that
-typically takes 5-10 years. Several factors enabled this: the mRNA
-platform had been in development for over a decade before the pandemic
-(the foundational science was built but had not yet been applied to
-an approved product), enormous financial resources were committed
-without the usual capital rationing, regulatory agencies provided
-intensive real-time guidance rather than sequential review, and clinical
-trials were conducted during a raging pandemic, enabling rapid
-enrollment and endpoint accumulation.
-
-The mRNA platform's advantage is not just speed but modularity. A new
-mRNA vaccine requires only the genetic sequence of the target antigen;
-the delivery system (lipid nanoparticles), manufacturing process, and
-safety profile are largely reusable. This same platform logic is now
-being applied to cancer vaccines (personalized mRNA vaccines encoding
-patient-specific tumor neoantigens), infectious diseases beyond
-COVID-19, and rare genetic diseases where mRNA can supply a missing
-protein. In 2023, the FDA granted Breakthrough Therapy designation to
-an investigational mRNA cancer vaccine (mRNA-4157/V940) in combination
-with pembrolizumab for high-risk melanoma, representing the first
-demonstration of efficacy for an mRNA cancer treatment in a randomized
-trial.
+Platform reuse can transfer knowledge about delivery, analytical methods, manufacturing, and some safety questions, but the new antigen, sequence, disease, dose, population, and benefit claim still require evidence. The individualized neoantigen therapy V940 illustrates both promise and limits. A randomized open-label Phase 2b study in 157 patients with resected high-risk melanoma found longer recurrence-free survival for V940 plus pembrolizumab than pembrolizumab alone, while the authors described the result as evidence that the approach might be beneficial [18]. A subsequent randomized double-blind Phase III trial enrolled an estimated 1,089 participants and was active but not recruiting in the ClinicalTrials.gov record last updated September 24, 2025, with primary completion estimated for 2029 [19]. Early success accelerated further testing; it did not substitute for it.
 
 ## Evidence and Research Foundation
 
-The Tufts CSDD 2014 study remains the most widely cited cost estimate:
-$2.6 billion per approved drug, based on data from 10 pharmaceutical
-companies covering 106 randomly selected drugs that entered clinical
-testing between 1995 and 2007. This figure includes out-of-pocket costs
-($1.4 billion), time costs or cost of capital ($1.2 billion), and
-post-approval R&D costs ($312 million). The same research center's 2003
-estimate of $802 million (in year-2000 dollars, equivalent to $1.04
-billion in 2013 dollars) illustrates the rapid cost escalation: a
-compound annual growth rate of 8.5% above general inflation.
+### Clinical Attrition Depends on Definitions and Denominators
 
-The Tufts methodology has been criticized for relying on confidential
-industry data and for incorporating the cost of capital at a high rate
-(10.5%), which substantially inflates the headline figure. Medecins
-Sans Frontieres (MSF) has argued that non-profit drug developers have
-brought drugs to market for $50-186 million, a fraction of the Tufts
-estimate, and that nearly half of all pharmaceutical R&D spending is
-ultimately funded by taxpayers through NIH grants and tax credits.
+The BIO, Informa, and QLS report analyzed program transitions from 2011 through 2020. It defined phase success as the number of programs advancing divided by those categorized as advanced or suspended, then multiplied transition probabilities to estimate likelihood of approval. Across 12,728 transitions, the compounded Phase I-to-approval estimate was 7.9%; the report also observed an average 10.5-year path from Phase I to approval among successful programs, based on 6,151 successful transitions [5]. These denominators exclude much discovery and nonclinical attrition and depend on commercial databases and reporting conventions.
 
-A 2020 JAMA study by Wouters et al. estimated a median capitalized cost
-of $985 million (range $314 million to $2.8 billion), using publicly
-available data from SEC filings for 355 FDA-approved drugs from 2009
-to 2018. The difference from the Tufts estimate reflects methodology:
-the JAMA study examined actual reported R&D expenditures from smaller
-biotech firms that had only one approved product (enabling clean cost
-attribution), while the Tufts study used confidential company data and
-allocated shared infrastructure costs across the portfolio. Both
-studies agree on the order of magnitude -- developing a new drug is a
-billion-dollar-plus undertaking -- but the precision and interpretation
-of the exact figure remain contested.
+The report's therapeutic-area and biomarker results show why "nine of ten drugs fail" is a population statement, not a product-specific forecast. Rare-disease, chronic-disease, oncology, hematology, and biomarker-selected programs had different transition patterns. The report also notes possible omission or delayed-reporting bias for failed Phase I programs because not every early discontinuation is publicly material [5]. A development team should therefore use a matched reference class and preserve uncertainty instead of treating 7.9% as a prior that overrides direct evidence about a particular target, indication, modality, and trial.
 
-The 90% overall clinical failure rate is documented in the 2022 Acta
-Pharmaceutica Sinica B review by Sun et al., who analyzed failure rates
-across the pipeline and identified the four major categories: lack of
-clinical efficacy (40-50%), unmanageable toxicity (30%), poor drug-like
-properties (10-15%), and commercial or strategic reasons (10%). They
-note that the failure rate applies only to candidates that have already
-entered Phase I -- the preclinical failure rate is even higher but
-cannot be precisely quantified because preclinical failures are not
-systematically reported. The authors' key contribution is the STAR
-(Structure-Tissue Exposure/Selectivity-Activity Relationship) framework,
-which proposes that optimizing drugs for tissue-specific exposure rather
-than just plasma concentration could address one of the major
-overlooked sources of failure.
+FDA's educational percentages differ from BIO's estimates: its clinical-research page says approximately 70% of drugs move from Phase I, 33% from Phase II, and 25-30% from Phase III [1]. The apparent contradiction is partly a warning about labels. FDA presents broad patient guidance, whereas BIO defines program transitions in a specific decade and data system. A reviewer should not splice FDA's Phase I percentage, BIO's Phase II percentage, and another study's approval rate into one derived probability. All factors in a calculation must describe compatible populations and transitions.
 
-The "valley of death" concept has been extensively analyzed across
-multiple studies. Adams (2012), writing in Trends in Pharmacological
-Sciences, documented that late-stage attrition in oncology specifically
-is approximately 70% in Phase II and 59% in Phase III, attributable to
-factors including inadequate preclinical models, genetic heterogeneity
-of tumors, and trial designs that do not adequately account for
-pharmacokinetic variation between patients. Seyhan (2019), in a broader
-review across therapeutic areas, identified the translational gap as
-driven by a combination of scientific factors (inadequate disease
-models, incomplete target biology), methodological factors (poor trial
-design, misuse of p-values and statistical methods), and institutional
-factors (lack of incentives for translational research in academia,
-the fragmentation between basic and clinical science).
+### Cost Studies Measure Different Constructs
 
-The Breakthrough Therapy program's impact on development timelines is
-supported by multiple empirical studies. A 2024 Health Affairs analysis
-found that BTD reduced median late-stage development time by
-approximately 2.5 years. Chandra et al. (2022, NBER working paper)
-found that Breakthrough Therapy designation was associated with a
-1.5-2 year reduction in clinical development time, primarily through
-more efficient Phase II designs and faster Phase III enrollment. The
-authors also found that BTD-designated drugs were more likely to
-receive approval (higher success rates in Phase III), suggesting that
-the FDA's early engagement and protocol guidance produce better-designed
-pivotal trials, not just faster ones.
+DiMasi and colleagues used confidential cost data for 106 randomly selected compounds from 10 pharmaceutical firms. They linked spending on abandoned compounds to approved products, reported $1.395 billion in average out-of-pocket cost, and capitalized those expenditures at a 10.5% real rate to obtain $2.558 billion in pre-approval cost in 2013 dollars. Adding estimated post-approval research raised their figure to $2.870 billion [6]. The headline is therefore an average, capitalized, portfolio-adjusted estimate from a selected firm sample, not observed cash spending on a representative single medicine.
+
+Wouters and colleagues took a different route. They identified 63 products, developed by 47 companies, from 355 new therapeutic agents approved by FDA between 2009 and 2018 and estimated firm spending using public filings and trial timelines. After adjusting for failed trials and capitalizing at 10.5%, their base case produced a median of $985 million and mean of $1.336 billion. Sensitivity analyses changed the result when alternative success rates, cost-of-capital assumptions, and data-quality restrictions were used [7]. The authors explicitly limited generalization because the included products were a minority of approvals and often came from firms with sufficiently attributable spending.
+
+Together these studies support a narrower conclusion than the original topic: development can require very large risk-adjusted investment, but no single estimate is both model-free and representative of every medicine. Direct outlays, opportunity cost, failure allocation, product acquisition, public research support, postmarket work, and therapeutic-area variation answer different policy questions. Any claim connecting one cost estimate directly to one product's price requires additional evidence about pricing strategy, expected volume, alternatives, and market institutions; development cost alone does not establish that relationship [6][7].
+
+### Better Target Evidence Can Improve, Not Guarantee, Success
+
+King, Davis, and Degner updated earlier work linking human genetics to drug success. Their analysis used Pharmaprojects pipeline data and human genetic evidence, tested target-indication pairs against later pipeline outcomes, and found that genetic support was associated with improved progression, especially in Phases II and III. For Mendelian associations and coding-variant links where the causal gene was clearer, approval associations exceeded twofold in parts of the analysis [8]. The study is observational and depends on target mapping, indication matching, and historical development decisions, so the result supports better priors rather than a deterministic rule.
+
+The finding has a practical implication: evidence closest to human causal biology can improve selection before the most expensive trials. It does not mean a genetic association supplies the intervention, correct dose, tissue exposure, comparator, manufacturing process, or safety profile. The Sun review complements this point by arguing that potency and plasma pharmacokinetics may still miss disease-tissue exposure and healthy-tissue toxicity [9]. Target validity and molecule quality are distinct gates.
+
+### Expedited Development Preserves Residual Uncertainty
+
+FDA's four expedited approaches have different eligibility criteria and effects. Priority Review changes the application goal from ten months to six; Breakthrough Therapy adds intensive guidance based on preliminary clinical evidence of potential substantial improvement; Fast Track supports interaction and possible rolling review; Accelerated Approval can rely on a surrogate or intermediate endpoint reasonably likely to predict clinical benefit [11][12]. None changes a negative trial into positive evidence, and the designations should not be pooled as if they were one intervention.
+
+Accelerated Approval supplies a clear test of the distinction between earlier access and evidentiary completion. FDA requires confirmatory studies to verify the anticipated clinical benefit, and its current program page tracks ongoing, verified, and withdrawn indications. If the confirmatory trial does not verify benefit, withdrawal procedures are available [12]. The relevant outcome is therefore not only time to initial approval but also timely confirmatory evidence, final benefit-risk status, and whether patients were exposed during residual uncertainty.
+
+### mRNA Development Shows What Can Be Parallelized
+
+NIAID's account of mRNA-1273 identifies a preexisting scientific and operational base: years of collaboration on other emerging pathogens, prior coronavirus research, established trial networks, and a Phase I start within three months of viral identification [17]. This case supports platform leverage and parallel execution. It does not show that ordinary development delays are all bureaucratic or that any molecule can move at the same pace.
+
+V940 extends the example beyond infectious disease. In KEYNOTE-942, 157 participants with completely resected stage IIIB-IV melanoma were assigned 2:1 to open-label V940 plus pembrolizumab or pembrolizumab alone. The combination improved recurrence-free survival in the reported analysis, but the sample was modest and the trial was Phase 2b [18]. The Phase III INTerpath-001 record specifies a randomized, double-blind comparison, estimated enrollment of 1,089, and a primary completion date in 2029 [19]. The evidentiary sequence is functioning as designed: a promising signal changes the next experiment rather than becoming a final clinical conclusion.
+
+### Approval Begins a New Evidence Stage
+
+Preapproval trials are too small and selective to identify every uncommon, delayed, or context-dependent harm. FDA's Sentinel system is a national electronic system for postmarket monitoring that supplements spontaneous reports with analyses across distributed health-data partners [16]. Postmarket requirements, commitments, adverse-event reports, observational studies, and additional trials can change warnings, indications, use restrictions, or market status [12][16].
+
+This evidence also corrects the idea that approval means all uncertainty has been removed. Approval means that the evidence available for a defined use supports a favorable benefit-risk judgment and that specified manufacturing standards are met. Uncertainty remains bounded by the label, known limitations, required follow-up, and the ability to revise the decision when larger-scale use produces new information [20][21].
 
 ## Implications
 
-For patients, the drug development process is a bargain with uncertainty.
-Every approved medicine is the survivor of a brutal selection process
-that killed nine similar candidates. This is simultaneously reassuring
-(approved drugs are thoroughly vetted) and frustrating (the ones that
-fail would have helped someone, and the cost of failure is built into
-the price of success). The accelerating tools -- mRNA platforms, AI-driven
-drug design, genetic target validation -- offer genuine promise of a
-faster, more efficient pipeline, but the fundamental uncertainty of
-human biology will never be fully engineered away.
+### For Discovery and Translational Teams
 
-For healthcare systems, the cost of drug development flows directly into
-drug prices. The patent system creates a temporary monopoly as the
-reward for taking on the risk of development, and pharmaceutical
-companies price drugs to recoup costs and earn returns during that
-window. This creates an inherent tension: society wants both affordable
-medicines and continued innovation, but the same mechanism that funds
-innovation (high prices during exclusivity) also restricts access. The
-debate over drug pricing is fundamentally a debate about how to
-allocate the cost of the 90% of drugs that fail among the 10% that
-succeed.
+The development plan should be an explicit chain of falsifiable decisions. Each stage should state what observation would support progression, what result would stop or redesign the program, and how the next experiment reduces the largest remaining uncertainty. A target-association result needs causal validation; an active compound needs exposure and selectivity; an animal signal needs a credible bridge to humans; a biomarker needs a justified relation to clinical benefit. Human genetic evidence can improve target priors, but it cannot compensate for an intervention that fails to reach the disease tissue or causes unacceptable harm [8][9].
 
-For investors and industry analysts, drug development is a portfolio
-management problem with extreme skew. A pharmaceutical company's
-pipeline is a collection of binary bets, each with a low probability
-of success but enormous payoff if successful. Diversification across
-therapeutic areas, development stages, and technology platforms is
-essential because the failure of any individual program is expected
-rather than exceptional. The 2025-2030 patent cliff -- $200-230 billion
-in branded revenue at risk -- creates an imperative for pharmaceutical
-companies to replenish their pipelines through internal R&D and
-acquisitions, even at high prices. For smaller biotech companies with
-a single lead asset, the investment proposition is fundamentally
-different: binary risk concentrated in a single Phase II or Phase III
-readout.
+Teams should resist optimizing the metric that is easiest to measure. A lower biochemical IC50, higher plasma exposure, or larger short-term biomarker change can be counterproductive if it worsens tissue selectivity, tolerability, or the relevance of the endpoint. The synthesis from the reviewed evidence is that development quality depends on preserving the whole causal chain from intervention to exposure, target engagement, physiological effect, patient outcome, and reproducible manufacturing [1][9].
 
-For regulatory policy, the challenge is balancing speed with evidence.
-Expedited pathways (Fast Track, Breakthrough Therapy, Accelerated
-Approval) get drugs to patients faster but with less certainty about
-long-term safety and effectiveness. The Accelerated Approval pathway has
-been controversial because some sponsors have been slow to complete the
-required confirmatory trials, leaving the market with drugs whose
-clinical benefit is uncertain. The FDA has been strengthening its
-authority to withdraw accelerated approvals when confirmatory trials
-fail or are not conducted in a timely manner.
+Synthesis: negative results are information when the protocol and measurement can distinguish explanations. A failed Phase II trial may invalidate the target, reveal a dose problem, identify a responsive subgroup, or show that the endpoint did not capture benefit. Treating every failure as equivalent wastes the experiment. Treating every subgroup signal as a rescue, however, invites false positives. Prespecified analyses, adequate power, independent replication, and transparent discontinuation reasons determine whether attrition teaches or merely consumes resources [5][8][9].
 
-For the future of medicine, the most profound shift is the move from
-small-molecule chemistry to biological modalities -- monoclonal
-antibodies, cell therapies, gene therapies, and mRNA. These modalities
-offer more precise intervention in disease biology but also introduce
-new development challenges. Gene therapies may be administered once
-with lifelong effects, making the pre-approval evidence burden
-particularly high. Cell therapies must be manufactured individually
-for each patient, creating logistical and cost challenges that the
-traditional pipeline model was not designed for. The drug development
-framework of the next decade will need to adapt to products where
-the traditional Phase I-II-III sequence does not fully capture the
-risk-benefit profile.
+### For Clinical Trial Designers and Regulators
+
+Phase labels are less important than the question and decision rule. An efficient program can overlap activities, use adaptive features, enrich by a validated biomarker, and interact early with regulators while retaining controls against bias. The BIO data suggest biomarker-selected programs can have different transition rates, and the genetics study supports better indication-target matching [5][8]. Neither finding licenses post hoc exclusion of nonresponders or unplanned endpoint switching.
+
+Expedited mechanisms should be matched to the bottleneck. Priority Review is useful when the application merits a shorter review goal; Fast Track and Breakthrough Therapy mainly intensify interaction and development support; Accelerated Approval accepts residual uncertainty about clinical benefit in exchange for earlier access under confirmatory obligations [11][12]. A program should state which uncertainty the mechanism leaves unresolved. Otherwise "expedited" becomes a promotional label rather than an evidence plan.
+
+Trial populations and endpoints should match the intended clinical decision. A narrow efficacy population can increase signal detection but reduce generalizability. A surrogate can shorten follow-up but introduce uncertainty about patient benefit. Rare diseases can require small or externally informed designs, yet small populations do not remove the need to separate natural history, measurement error, regression to the mean, and treatment effect. The governing question remains whether the evidence is adequate for the proposed claim and benefit-risk context [1][11][12][13].
+
+### For Patients and Clinicians
+
+A clinical phase describes the question under study, not a rank from unsafe to safe. Phase I primarily characterizes human exposure and tolerability; Phase II tests activity and dose; Phase III usually supplies confirmatory evidence; postmarket work investigates questions that limited trials cannot settle [1][16]. A trial's consent process should explain the product's prior evidence, plausible benefits, known and unknown risks, alternatives, randomization, data-monitoring plan, and what happens after the study.
+
+Approval status also needs precision. Traditional approval and Accelerated Approval can rest on different endpoint maturity, and an orphan designation or Breakthrough Therapy designation is not approval [11][12][13]. Clinicians should identify the exact indication, population, endpoint, comparator, and confirmatory status rather than infer certainty from a designation. Patients deciding whether to use a recently approved medicine need both the reason for confidence and the remaining evidence obligation.
+
+Postmarket reporting is part of care, not administrative residue. Rare or delayed effects may become visible only when many more people use a product. Reports can generate signals, but they do not by themselves establish incidence or causation because exposure denominators and reporting behavior are incomplete. Active systems such as Sentinel, controlled studies, and clinical review are needed to test those signals [16].
+
+### For Health Systems and Policy
+
+Cost claims should preserve method. A capitalized estimate includes an assumed return on funds committed over time; a cash estimate does not. A per-approval portfolio estimate allocates failed-program spending; product-level spending may not. A mean can be dominated by unusually expensive programs, while a median answers a different question. DiMasi and Wouters demonstrate that sample construction and assumptions materially change the result [6][7]. Policy analysis should therefore present ranges and components rather than repeat one headline number as an accounting fact.
+
+Interpretation: development cost alone does not determine a justifiable price. Prices also reflect expected demand, therapeutic alternatives, negotiated purchasing, insurance design, patents, regulatory exclusivities, manufacturing, and seller strategy. Conversely, low direct development cost does not prove that a medicine has little clinical value. The evidence supports separating three questions: what resources were used, what health benefit the product creates relative to alternatives, and how institutions distribute payment and access [6][7][14][15].
+
+Incentives should be judged by both entry and completed evidence. Orphan designation can reduce development barriers for small populations, but designation is separate from approval and its seven-year exclusivity is conditional on approval [13]. Accelerated Approval can move access earlier, but its public value depends on rapid, credible confirmation and action when benefit is not verified [12]. Generic competition can reduce prices substantially, yet FDA data show that the reduction varies with the number of competitors rather than occurring automatically at patent expiry [15].
+
+### For Evaluating Development Claims
+
+Any numerical claim should carry its denominator and boundary. "Success rate" can mean trial completion, phase transition, application approval, approval from Phase I, or success for a particular indication. "Ten years" can begin at target discovery, first human dose, or application submission. "Cost" can mean direct outlay, capitalized investment, one successful product, or a portfolio including failures. The conflicting but legitimate estimates in the reviewed sources show that missing definitions can turn a correct number into a misleading statement [5][6][7].
+
+Review-method synthesis: identify the product and indication; locate the primary study or official record; check phase, comparator, endpoint, sample, follow-up, and analysis population; distinguish surrogate from clinical benefit; check whether the result is preliminary, confirmatory, or postmarket; and then ask what evidence would reverse the conclusion. This method prevents a designation, press release, registry status, or favorable early endpoint from carrying more meaning than its evidence [1][5][11][12][18][19].
+
+### For New Platforms and AI-Assisted Discovery
+
+Platforms can reduce repeated work by reusing delivery systems, analytical assays, manufacturing knowledge, and regulatory experience. The mRNA-1273 history shows that years of prior research and infrastructure can make parallel execution possible [17]. V940 shows the next boundary: platform familiarity supports movement into larger trials, but a new therapeutic claim still requires indication-specific evidence [18][19].
+
+AI can rank targets, predict structures, propose molecules, optimize protocols, or identify patients, but prediction does not remove the need for experimental and clinical validation. A model can improve search efficiency while failing through biased training data, an incorrect biological objective, poor uncertainty calibration, or a molecule that cannot be manufactured or tolerated. Interpretation: the strongest development system uses computation to choose better experiments, not to relabel simulated confidence as patient benefit [9].
+
+Synthesis: the durable principle is sequential humility. Each stage should make a smaller, better-supported claim than promotional narratives prefer: this target is plausibly causal; this candidate reaches it; this dose produces an interpretable effect; this trial shows a benefit in this population; this manufacturing process reproduces the studied product; and postmarket evidence has not shifted the benefit-risk balance. Drug development remains slow and costly because every step can overturn the one before it, but that same reversibility is what protects patients from treating a plausible mechanism as a medicine [1][5][9][20][21].
 
 ## Sources
 
-1. DiMasi, J.A., Grabowski, H.G., & Hansen, R.W. (2016). "Innovation
-   in the pharmaceutical industry: New estimates of R&D costs." Journal
-   of Health Economics, 47, 20-33.
-   https://pubmed.ncbi.nlm.nih.gov/26928437/ [high]
+1. U.S. Food and Drug Administration. "Step 3: Clinical Research." Updated November 18, 2025. https://www.fda.gov/patients/drug-development-process/step-3-clinical-research [high]
 
-2. Sun, D., Gao, W., Hu, H., & Zhou, S. (2022). "Why 90% of clinical
-   drug development fails and how to improve it?" Acta Pharmaceutica
-   Sinica B, 12(7), 3049-3062.
-   https://www.sciencedirect.com/science/article/pii/S2211383522000521 [high]
+2. U.S. Food and Drug Administration. "A History of the FDA and Drug Regulation in the United States." https://www.fda.gov/files/drugs/published/A-History-of-the-FDA-and-Drug-Regulation-in-the-United-States.pdf [high]
 
-3. U.S. Food and Drug Administration. "The Drug Development Process."
-   https://www.fda.gov/patients/learn-about-drug-and-device-approvals/drug-development-process [high]
+3. U.S. Food and Drug Administration. "Prescription Drug User Fee Amendments." Updated May 21, 2026. https://www.fda.gov/prescription-drug-user-fee-act-pdufa [high]
 
-4. U.S. Food and Drug Administration. "Fast Track, Breakthrough
-   Therapy, Accelerated Approval, Priority Review."
-   https://www.fda.gov/patients/fast-track-breakthrough-therapy-accelerated-approval-priority-review [high]
+4. U.S. Food and Drug Administration. "21st Century Cures Act." https://www.fda.gov/regulatory-information/selected-amendments-fdc-act/21st-century-cures-act [high]
 
-5. Adams, D.J. (2012). "The Valley of Death in anticancer drug
-   development: a re-assessment." Trends in Pharmacological Sciences,
-   33(4), 173-180. https://pmc.ncbi.nlm.nih.gov/articles/PMC3324971 [high]
+5. Biotechnology Innovation Organization, Informa Pharma Intelligence, and QLS Advisors. (2021). "Clinical Development Success Rates and Contributing Factors 2011-2020." https://go.bio.org/rs/490-EHZ-999/images/ClinicalDevelopmentSuccessRates2011_2020.pdf [medium]
 
-6. Seyhan, A.A. (2019). "Lost in translation: the valley of death
-   across preclinical and clinical divide -- identification of problems
-   and overcoming obstacles." Translational Medicine Communications,
-   4, 18. https://link.springer.com/article/10.1186/s41231-019-0050-7 [medium]
+6. DiMasi, J. A., Grabowski, H. G., and Hansen, R. W. (2016). "Innovation in the Pharmaceutical Industry: New Estimates of R&D Costs." Journal of Health Economics, 47, 20-33. https://pubmed.ncbi.nlm.nih.gov/26928437 [high]
 
-7. Wouters, O.J., McKee, M., & Luyten, J. (2020). "Estimated Research
-   and Development Investment Needed to Bring a New Medicine to Market,
-   2009-2018." JAMA, 323(9), 844-853. [high]
+7. Wouters, O. J., McKee, M., and Luyten, J. (2020). "Estimated Research and Development Investment Needed to Bring a New Medicine to Market, 2009-2018." JAMA, 323(9), 844-853. https://pmc.ncbi.nlm.nih.gov/articles/PMC7054832 [high]
 
-8. DrugPatentWatch. "The Patent Cliff Playbook: Pharmaceutical IP
-   Valuation, Generic Entry Timing, and Biosimilar Strategy" (2025).
-   https://www.drugpatentwatch.com/blog/patent-expirations-seizing-opportunities-in-the-generic-drug-market/ [medium]
+8. King, E. A., Davis, J. W., and Degner, J. F. (2019). "Are Drug Targets with Genetic Support Twice as Likely to Be Approved? Revised Estimates of the Impact of Genetic Support for Drug Mechanisms on the Probability of Drug Approval." PLOS Genetics, 15(12), e1008489. https://pmc.ncbi.nlm.nih.gov/articles/PMC6907751 [high]
 
-9. Moderna & Merck. "mRNA-4157/V940 plus pembrolizumab granted
-   Breakthrough Therapy designation" (2023). Press release. [high]
+9. Sun, D., Gao, W., Hu, H., and Zhou, S. (2022). "Why 90% of Clinical Drug Development Fails and How to Improve It?" Acta Pharmaceutica Sinica B, 12(7), 3049-3062. https://pmc.ncbi.nlm.nih.gov/articles/PMC9293739 [high]
 
-10. Chandra, A., Kao, J., Miller, K.L., & Stern, A.D. (2022).
-    "Regulatory Incentives for Innovation: The FDA's Breakthrough
-    Therapy Designation." NBER Working Paper. [high]
+10. U.S. Food and Drug Administration. "INDs: Clinical Hold." Manual of Policies and Procedures 6030.1, revised February 23, 2018. https://www.fda.gov/media/72751/download [high]
+
+11. U.S. Food and Drug Administration. "Fast Track, Breakthrough Therapy, Accelerated Approval, Priority Review." https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review [high]
+
+12. U.S. Food and Drug Administration. "Accelerated Approval Program." Updated August 25, 2026. https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program [high]
+
+13. U.S. Food and Drug Administration. "Designating an Orphan Product: Drugs and Biological Products." Updated November 2, 2025. https://www.fda.gov/industry/medical-products-rare-diseases-and-conditions/designating-orphan-product-drugs-and-biological-products [high]
+
+14. U.S. Food and Drug Administration. "Frequently Asked Questions on Patents and Exclusivity." https://www.fda.gov/drugs/development-approval-process-drugs/frequently-asked-questions-patents-and-exclusivity [high]
+
+15. Conrad, R., and Lutter, R. (2019). "Generic Competition and Drug Prices: New Evidence Linking Greater Generic Competition and Lower Generic Drug Prices." U.S. Food and Drug Administration. https://www.fda.gov/media/133509/download [high]
+
+16. U.S. Food and Drug Administration. "FDA's Sentinel Initiative." https://www.fda.gov/safety/fdas-sentinel-initiative [high]
+
+17. National Institute of Allergy and Infectious Diseases. "Coronavirus Vaccines and Prevention." https://www.niaid.nih.gov/diseases-conditions/coronavirus-vaccines-prevention [high]
+
+18. Weber, J. S., et al. (2024). "Individualised Neoantigen Therapy mRNA-4157 (V940) plus Pembrolizumab versus Pembrolizumab Monotherapy in Resected Melanoma (KEYNOTE-942): A Randomised, Phase 2b Study." The Lancet, 403(10427), 632-644. https://doi.org/10.1016/S0140-6736(23)02268-7 [high]
+
+19. U.S. National Library of Medicine. "NCT05933577: A Clinical Study of Intismeran Autogene (V940) Plus Pembrolizumab in People With High-Risk Melanoma." ClinicalTrials.gov. https://clinicaltrials.gov/study/NCT05933577 [high]
+
+20. U.S. Food and Drug Administration. "Step 4: FDA Drug Review." https://www.fda.gov/patients/drug-development-process/step-4-fda-drug-review [high]
+
+21. U.S. Food and Drug Administration. "Step 5: FDA Post-Market Drug Safety Monitoring." https://www.fda.gov/patients/drug-development-process/step-5-fda-post-market-drug-safety-monitoring [high]
 
 ## See Also
 
-- `library/health-medicine/vaccine-development-immunology.md` -- the
-  vaccine-specific development pathway, which shares the clinical
-  trial phases but differs in immunological endpoints and population-level
-  impact assessment.
-- `library/health-medicine/public-health-epidemiology.md` -- how
-  post-market surveillance (Phase IV) connects drug safety monitoring
-  to population-level epidemiological methods.
+- `library/health-medicine/vaccine-development-immunology.md` -- the vaccine-specific development pathway, including immunological endpoints and population-level assessment.
+- `library/health-medicine/public-health-epidemiology.md` -- the population methods used for postmarket safety surveillance and effectiveness research.
