@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Memory Reconstruction and the Misinformation Effect -- How Later Information Rewrites Event Recall
-- **Domain:** psychology-behavior
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.4/10.0 (gap=9.3, compounding=9.4, timeliness=9.8, balance=9.1)
-- **Scope:** Examines reconstructive memory and the misinformation effect: how later suggestions, questions, social accounts, and repeated claims can alter recall of an event. Covers encoding, consolidation, retrieval, source monitoring, post-event information, confidence-accuracy dissociations, individual and contextual moderators, and contemporary replication evidence. Evaluates warnings, active scrutiny, interviewing practices, and correction without treating memory as a literal recording or every disagreement as false memory. Distinguishes cognitive mechanisms from propaganda systems, legal rules for evidence, clinical memory disorders, and general media literacy.
-- **Status:** proposed
-
 ## Candidate: Pastoralism and Nomadic Lifeways -- Mobility, Commons, and Adaptation in Variable Environments
 - **Domain:** anthropology
 - **Proposed by:** Librarian
