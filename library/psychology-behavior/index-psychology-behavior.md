@@ -1,6 +1,6 @@
 # Psychology Behavior -- Topics
 
-12 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
+13 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
 
 - [Attention, Salience, and Cognitive Control -- What Enters Awareness Shapes What We Decide](attention-salience-and-cognitive-control.md) -- [reviewed: never] -- Attention is not a neutral window onto the world; it is a selective system that gives some external stimuli and internal representations priority over competing alternatives. Because perception, working memory, and action all have limited capacity, the information that wins this competition disproportionately shapes what is encoded, remembered, and used in judgment ([1] [4] [6]).
 
@@ -15,6 +15,8 @@
 - [Heuristics -- Why Mental Shortcuts Are Both Essential and Systematically Wrong](heuristics.md) -- [reviewed: never] -- Heuristics are mental shortcuts that reduce the cognitive load of decision-making by substituting a complex question with a simpler one. Identified by Daniel Kahneman and Amos Tversky in their heuristics-and- biases research program starting in the early 1970s, the three primary heuristics -- availability, representativeness, and anchoring -- explain how humans navigate uncertainty without computing probabilities.
 
 - [Incentives -- Why Reward Structures Shape Surprising Behavior and Often Backfire](incentives-and-reward-structures.md) -- [reviewed: never] -- Incentives are the most powerful predictor of human behavior, yet they are also the most systematically underestimated force in human affairs. Charlie Munger's dictum -- "show me the incentive and I will show you the outcome" -- captures a truth that economics, psychology, and organizational theory have independently converged on: people respond to reward structures with remarkable, often surprising, and frequently counterproductive creativity.
+
+- [Memory Is Reconstructed -- Later Information Can Rewrite Event Recall](memory-reconstruction-and-the-misinformation-effect.md) -- [reviewed: never] -- Remembering an event is a reconstruction from encoded details, retrieval cues, prior knowledge, and information acquired afterward, not a literal replay of a fixed record [3][5][11]. The misinformation effect occurs when misleading post-event information lowers accuracy for the original event or is later reported as part of that event [2][5][15].
 
 - [Motivated Reasoning and Identity-Protective Cognition -- Belonging Can Recruit Reason Against Evidence](motivated-reasoning-and-identity-protective-cognition.md) -- [reviewed: never] -- Motivated reasoning occurs when a goal changes how a person searches for, recalls, interprets, or evaluates evidence, while identity-protective cognition is the narrower case in which the protected conclusion signals loyalty to a valued group or self-concept ([1] [2] [6] [17]). The central danger is not an inability to reason: reasoning skill can supply better arguments for a preferred conclusion when belonging, status, or self-integrity is at stake ([4] [8] [9]).
 
