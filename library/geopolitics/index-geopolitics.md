@@ -1,12 +1,14 @@
 # Geopolitics -- Topics
 
-14 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
+15 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
 
 - [Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture](alliance-credibility-and-burden-sharing.md) -- [reviewed: 2026-09-24] -- A security alliance is a contingent promise: members agree to consult, prepare, or assist under specified circumstances, but the treaty cannot mechanically determine what each government will do in a future crisis.[1][7][10] Alliance credibility therefore depends on the alignment of declared obligations, usable military capability, political resolve, and shared exposure to the costs of failure;...
 
 - [Cyber Warfare -- Why the Fifth Domain of Conflict Rewrites the Rules of International Security](cyber-warfare.md) -- [reviewed: 2026-09-24] -- In this topic, cyber warfare denotes the use of digital access, code, and networked systems to create strategic effects, including activities as different as espionage, coercion, disruption, sabotage, and operations supporting armed conflict. Its geopolitical importance comes less from a single decisive cyber weapon than from persistent competition below the threshold of conventional war, where attribution, legal classification, and escalation are contested [8][10].
 
 - [Energy Geopolitics -- How Oil, Gas, and Critical Minerals Shape Global Power](energy-geopolitics.md) -- [reviewed: never] -- Energy is not just a commodity; it is the lifeblood of modern economies and the most powerful lever in international relations. Control over energy resources -- who has them, who needs them, and who controls the routes between them -- has been a central driver of alliance formation, military conflict, and economic leverage since the 20th century.
+
+- [Gray-Zone Competition -- Coercion Below the Threshold of War Accumulates Strategic Advantage](gray-zone-competition-coercion-below-threshold-of-war.md) -- [reviewed: never] -- Gray-zone competition uses coordinated coercion above ordinary diplomacy but below the level likely to trigger conventional war, allowing states to change facts, impose costs, and test resistance in increments. Its effectiveness comes from combining gradualism, ambiguity, asymmetric interests, and several instruments of power so that each move appears too limited for a decisive response even when the campaign is strategically consequential.
 
 - [Intelligence and Espionage -- The Invisible Hand of Statecraft](intelligence-and-espionage.md) -- [reviewed: never] -- Intelligence and espionage are the hidden layer beneath visible geopolitics: the collection, analysis, and covert use of secret information by states to gain advantage over rivals. From the spy rings of the Cold War to the cyber weapons of the twenty-first century, intelligence services have shaped wars, alliances, and diplomatic outcomes in ways that public records rarely capture.
 
