@@ -21,6 +21,8 @@ The revision addresses the first report's actionable instruction gaps. Its outpu
 
 A separate fixed-control lane reused hash-identical first-run fixtures. Nintendo's default Markdown text, the four-page scan's extracted OCR text, and the successful cropped Nintendo OCR text were unchanged. The old currency-cell merge, partial chart recovery and exit-zero failure cases were reproduced. The installed tool versions also matched. Consequently, neither better accuracy nor faster engines can be attributed to the prose update.
 
+The precision problem has distinct layers: image quality, character recognition, and table/meaning reconstruction. Blur is a possible contributor, not an established cause of the observed mistakes. Higher resolution and targeted OCR settings are candidates for testing, not demonstrated fixes; sharper images cannot by themselves resolve footnote or column assignments.
+
 **Recommendation: retain the updated skill for supervised research and preserve these cases as regression evidence; do not add a mandatory conversion chain.** Confidence is high in the observed command and output comparisons, moderate in general usability, and insufficient for a numerical reliability estimate. The same informed operator conducted both rounds; this was not a blinded agent A/B experiment. The shared skill, system packages and company research files were not modified.
 
 ## Research Question
@@ -63,6 +65,8 @@ The initial Rio page 26 was a contents page, not its income statement. Inspectio
 Poppler `pdftotext -layout` processed all originals. PyMuPDF4LLM used the skill's selected-page API with `page_chunks=True` and `use_ocr=False`; returned chunks were mapped by `metadata.page_number`. Four pages also used `table_output="html"`. Whole-document CLI conversion covered both Toyota and both Rio documents with one worker, OCR disabled, headers/footers and page separators enabled. Logs and sequential markers were checked. Docling used the local offline standard pipeline, CPU, two threads, accurate tables, Markdown plus JSON, and one-page ranges. Additional cases addressed the corrected Rio statement and its presentation table. Default pdfplumber was exercised on four selected pages as a diagnostic, not as a required stage.
 
 The fixed controls copied original PDFs, the original synthetic scan and the original successful Nintendo crop without changing their bytes. A fresh three-page scan control used 200-DPI renders of the new Berkshire, Toyota and JPMorgan principal pages. These are deliberately rasterized controls, not naturally scanned company originals. Scripts retain argument vectors, stdout, stderr, elapsed times and process RSS. The read-only audit script regenerates counts, hash checks and exact baseline comparisons. Manual semantic findings are separately recorded: no token-retention percentage is presented as financial correctness.
+
+At Suggi's request, the precision explanation below was added after testing, using Tesseract's image-quality guidance and model repository, and Docling's model catalog, retrieved September 25, 2026.[12][13][14] This documentation review did not add extraction runs, establish which Tesseract model variant is installed, or benchmark replacement engines. The original test counts and measurements remain unchanged.
 
 ## Findings
 
@@ -165,6 +169,32 @@ Limitations remain important. Neo knew the first run's failures and proposed fix
 
 The combined evidence therefore reinforces the original deployment insight rather than superseding it: recover characters, preserve structure where possible, and independently check the meaning needed for the task. Improved instructions strengthen that separation. The remaining risk is silently reducing verification to an exit code, a digit search or the presence of a JSON cell.
 
+### Why "precision" is not one setting
+
+**Interpretation: high confidence in the failure classes; exact image-level causes remain unisolated.** Imagine a photographer, a reader and a bookkeeper copying a financial report:
+
+| Stage | Plain-language job | Failure and appropriate response |
+|---|---|---|
+| Image preparation | The photographer supplies a clear picture | Small text, shading, tilt or blur can hinder recognition; test rendering and preprocessing. |
+| Character recognition | The reader turns pixels into characters | The proxy salary became `4,000,000` instead of `1,000,000`; test OCR settings or another recognition model. |
+| Structure and meaning | The bookkeeper assigns characters to rows, columns and definitions | Rio's `0.9` plus note `2` became `0.92`; preserve coordinates and separate footnotes rather than merely increasing DPI. |
+
+Tesseract documents both image-quality interventions and difficulty with tables without additional segmentation/layout analysis.[12] The analogy also explains why a converter can execute correctly while its contents are wrong. The skill selects the route and checks the result; the recognition and layout engines do the reading. Rewording instructions does not change their learned models. However, instructions can select materially different inputs, settings or engines, which may change accuracy and therefore require a new test.
+
+**Avoid unnecessary OCR first.** Clean digital PDFs already contain characters; scans contain pictures of characters, while mixed pages may contain both. Native extraction avoids guessing characters that already exist. In the proxy test, native extraction retained the correct Barnum values while the synthetic scan did not (F5). Native extraction can still misassign table cells (F3-F4), so bypassing OCR is not bypassing verification.
+
+**Higher resolution is a candidate, not a diagnosis.** Tesseract recommends images of at least 300 DPI; our new synthetic scan used 200 DPI.[12] Re-rendering a digital original more finely can expose clearer character shapes. Enlarging an already blurred raster can aid processing but cannot restore missing source detail. Merely changing a DPI label without changing the pixels adds no detail. This run did not isolate insufficient resolution, shading, segmentation or recognition-model behavior as the cause of Barnum's errors. Nintendo's successful retry changed source rendering, crop and segmentation together; it does not prove that DPI alone fixed the omissions.
+
+### Improve the existing route before choosing replacements
+
+The following are **proposed experiments, not completed fixes**:
+
+1. **Improve the input and region selection.** Compare the same physical page at 200, 300 and 400 DPI with other settings fixed. Separately test a crop retaining enough row/header context and a small border, an appropriate page-segmentation mode, and justified deskewing or background treatment. Tesseract documents these controls; no one combination is universally best.[12]
+2. **Separate recognition from table repair.** Use word coordinates and explicit cell boundaries for misplaced notes or columns. Docling separates OCR, layout and table-structure models.[14] Its accurate table mode was already used here, so simply enabling that mode is not an untried remedy.
+3. **Compare models selectively.** Tesseract offers `tessdata_best`, an accuracy-oriented model set; first identify the installed model before proposing a replacement.[13] Docling lists alternative OCR engines including RapidOCR and SuryaOCR.[14] These are candidates, not proven superior or confirmed installed. Our tested OCRmyPDF and Docling routes both used Tesseract: switching wrappers is not necessarily switching readers. Any alternative needs local compatibility, licensing, resource and accuracy checks.
+
+For a controlled follow-up, keep source pages and a source-verified answer set fixed; vary resolution, preprocessing, segmentation and model separately before testing combinations. Check every cell in the selected tables, including labels, years, units, signs, decimals and notes; retain previously correct cases to detect regressions and use held-out pages to test generalization. Record time and memory alongside errors. Flag disagreements for source review instead of automatically voting or "repairing" a number to make a total fit. This is a proposed evaluation design, not an implemented gate or a guarantee against recurrence.
+
 ## Conclusion
 
 The updated shared skill works better as an operational guide: its corrected output paths, explicit metadata mapping, clearer HTML fallback and stronger context checks were exercised successfully. It remains a lean set of alternatives rather than an unnecessary sequence of converters. The fresh official corpus extended the first test beyond its original companies and included a historical report and proxy-specific compensation problem. The useful result is greater confidence in the procedure's applicability, accompanied by concrete examples of where its existing verification gate must still stop an automated correctness claim.
@@ -173,6 +203,8 @@ The fixed controls do not support an improvement in raw recognition. Several out
 
 **The single recommendation is to keep the updated skill for supervised use and retain this compact set of positive and negative cases as regression evidence.** There is no demonstrated need for another installed converter or a mandatory multi-tool chain. An optional short clarification could mention HTML's usefulness for fragmented in-cell text as well as spanning headers, while retaining its existing requirement to verify the result. The new Toyota and proxy counterexamples should accompany Nintendo's positive HTML case if Morpheus adopts fixtures.
 
+If Morpheus pursues greater precision, the next step is the controlled comparison above, not an assumption that all failures are blur or that a new package must be better. Tune the relevant stage, measure gains and regressions, then adapt the skill to evidence-backed choices; no tuning or replacement was performed in this report amendment.
+
 No new general governance gate is warranted: the current rule already rejects missing content and ambiguous columns. The structural improvement supplied by this task is reproducible evidence and explicit semantic counterexamples, not duplicated rules. Natural degraded scans, non-English documents and blinded testing with independent agents remain concrete future extensions. This report leaves the shared skill and the first report unchanged for Morpheus's review; it neither certifies unattended ingestion nor changes any investment conclusion.
 
 ## Reproduction and Evidence
@@ -180,6 +212,8 @@ No new general governance gate is warranted: the current rule already rejects mi
 ### Evidence bundle and commands
 
 The retained evidence root is `/home/hermes/.local/share/Trash/files/pdf-extraction-retest-20260925T100452Z/`. Downloads, outputs and task-only scripts were moved there together from Neo's scratch after the processes finished. This recoverable review hold is outside the 24-hour scratch pruner but remains subject to eventual manual Trash cleanup; it is not a permanent research repository. A complete file-hash inventory was checked across the move. Historical absolute paths in run logs describe the original execution location. The first-run root remains `/home/hermes/.local/share/Trash/files/pdf-extraction-review-20260925T083628Z/` and was read, not modified.
+
+The precision amendment's upstream-text snapshots and extended citation ledger are retained separately at `/home/hermes/.local/share/Trash/files/pdf-retest-precision-smbx2gia/`, under the same recoverable-hold limitation. They do not modify either test bundle. `working-sources.json` is the full appendable ledger; `verified-cited-sources.json` is its cited-only verification view.
 
 - `state.json`: retrieved URLs, hashes, sizes, page counts, acquisition failures and revision identity.
 - `skill-under-test.md`, `versions.json`, `control-provenance.json`: pinned instructions, exact version comparisons and copied-fixture hashes.
@@ -212,6 +246,8 @@ A separate-context, same-model-family evidence reviewer under `deleg_7780766f` r
 
 The material corrections are incorporated: no measured causal reliability improvement; no general accuracy claim from the new scan; precise mixed-component SCT timing; narrow Toyota/JPMorgan/Rio structure claims; and explicit fresh-path replay and coverage limits. Neo verified the added Barnum year/salary/stock-award errors against a source-image crop, the saved OCR row and native extraction. The read-only audit script was exercised again after evidence preservation. Review transcript: `/home/hermes/.hermes/profiles/neo/cache/delegation/live/deleg_7780766f/task-0.log`. The verdict and substantive findings are preserved here rather than depending solely on that runtime-managed transcript. The report remains `draft` in the formal pipeline pending Morpheus's owner review, not because test execution is incomplete.
 
+The later, documentation-backed precision explanation was not part of that review. It distinguishes observed failures from possible causes and proposed experiments; the earlier review verdict must not be read as approval of an unperformed tuning benchmark.
+
 ## Cross-Links
 
 - [First field-test report](pdf-extraction-company-field-test.md): historical baseline, preserved unchanged.
@@ -229,3 +265,6 @@ The material corrections are incorporated: no measured causal reliability improv
 [9] https://cdn-rio.dataweavers.io/-/media/content/documents/invest/financial-news-and-performance/results/2025/2025-annual-results-slides.pdf?rev=fb3fded98fe74c3e928b2744b0f2fcec -- Rio Tinto 2025 annual results slides
 [10] https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/annualreport-2025.pdf -- JPMorgan Chase 2025 annual report
 [11] https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/proxy-statement2026.pdf -- JPMorgan Chase 2026 proxy statement
+[12] https://raw.githubusercontent.com/tesseract-ocr/tessdoc/main/ImproveQuality.md -- Tesseract: improving image and OCR quality
+[13] https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/main/README.md -- Tesseract: accuracy-oriented trained models
+[14] https://raw.githubusercontent.com/docling-project/docling/main/docs/usage/model_catalog.md -- Docling: models by processing stage
