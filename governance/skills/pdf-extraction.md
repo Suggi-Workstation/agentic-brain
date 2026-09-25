@@ -1,18 +1,34 @@
 ---
 name: pdf-extraction
-description: "Use when reading PDFs, scans, layouts or tables locally."
+description: "Use when reading, scraping or extracting PDFs and scans."
 user-invocable: true
 disable-model-invocation: false
 ---
 
 # PDF Extraction and OCR
 
-## When to Use
+## When to Invoke
 
-Read local PDFs or images, recover scanned text, convert PDFs to Markdown or
-JSON, extract tables, or inspect pages when text extraction is incomplete.
-These are alternative tools, not a mandatory sequence. Use native HTML or
-spreadsheet cells instead when they already provide the required source data.
+- Read, summarize, search, analyze or extract information from a PDF, whether
+  it is a local file, attachment, download or public URL.
+- Encounter PDF links or PDF responses while researching, scraping a website,
+  following citations or retrieving documents; load before choosing how to read
+  the PDF, not only after extraction fails.
+- Read filings, annual reports, proxies, papers, manuals or other PDF documents,
+  including when using `read_file` or web extraction to access their content.
+- OCR scanned PDFs, screenshots or page images; repair unreadable text layers.
+- Extract PDF tables, figures or layout; convert to Markdown, JSON or searchable
+  PDF; verify page references and values against rendered pages.
+- Investigate empty, partial, garbled or badly ordered PDF extraction, missing
+  pages, lost footnotes or misaligned table columns.
+
+Loading this skill does not require local conversion. If web extraction already
+provides the required PDF content, verify coverage and use it. The local routes
+below handle downloads and cases needing OCR, layout, tables or visual checks.
+These tools are alternatives, not a mandatory sequence. Prefer native HTML or
+spreadsheet cells when they already provide the required source data. Fetching
+a PDF and extracting its contents are separate operations; these tools do not
+bypass website access controls or replace general web-source discovery.
 
 ## Installed Tools
 
