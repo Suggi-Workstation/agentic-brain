@@ -1,6 +1,6 @@
 # Anthropology -- Topics
 
-13 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
+14 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
 
 - [Cultural Transmission Persists Through Diverse Learning Networks, Not Copying Alone](cultural-transmission-and-social-learning.md) -- [reviewed: never] -- Cultural continuity does not depend on a single channel or a passive transfer of complete traditions. Knowledge, norms, and skills persist because learners observe, participate, imitate, practice, receive feedback, and selectively attend to different models across the life course; the same distributed system also creates opportunities for innovation and cultural change [1][2][7][10].
 
@@ -19,6 +19,8 @@
 - [Linguistic Anthropology -- Language Does Not Merely Describe Cultural Worlds; It Helps Make Them](linguistic-anthropology-language-power-and-cultural-worlds.md) -- [reviewed: never] -- Linguistic anthropology studies language as a cultural resource, a form of social action, and a site where identities and unequal relations are made consequential. Its central claim is that speech does more than transmit propositions: through everyday interaction, people learn cultural expectations, position themselves and others, reproduce or challenge authority, and sustain or abandon ways of life ([1] [2]).
 
 - [Material Culture and Archaeology -- What Objects Reveal About Past Societies That Written Records Cannot](material-culture-and-archaeology.md) -- [reviewed: never] -- Archaeology is the systematic study of past human societies through their material remains -- the objects, structures, and landscapes that people made, used, modified, and discarded. Because writing emerged only about 5,000 years ago, the archaeological record is the sole source of evidence for more than 99% of human history.
+
+- [Pastoralism and Nomadic Lifeways -- Mobility Is Productive Infrastructure, Not Social Disorder](pastoralism-and-nomadic-lifeways.md) -- [reviewed: never] -- Pastoralism converts dispersed and variable vegetation into food, income, relationships, and cultural continuity by coordinating animals, people, knowledge, and access across space. Nomadic and transhumant lifeways are not aimless movement: mobility is a skilled production strategy whose performance depends on flexible tenure, negotiated institutions, household labor, social networks, and the political freedom to reach changing resources [1][2][7].
 
 - [Political Anthropology -- Hierarchy Is Not Our Default Setting, It Had to Be Invented](political-anthropology-tribal-governance-and-hierarchy.md) -- [reviewed: never] -- Political anthropology examines how human societies organize power, make collective decisions, and build or resist hierarchy. The central finding of the field is that the institutions modern people take as natural -- formal law, professional police, permanent leadership, inherited wealth -- are recent inventions.
 
