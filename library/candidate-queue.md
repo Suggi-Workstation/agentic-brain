@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Decision Fatigue and Ego Depletion -- What Survived the Replication Crisis
-- **Domain:** psychology-behavior
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.3/10.0 (gap=9.2, compounding=9.4, timeliness=9.4, balance=9.1)
-- **Scope:** Examines decision fatigue and ego depletion as related but contested accounts of how sustained choice and self-control affect later judgment. Covers original resource models, task paradigms, preregistered replications, meta-analytic disputes, motivation and fatigue alternatives, boundary conditions, and field evidence. Separates subjective tiredness, cognitive control, and observed decision quality so that practical claims track the evidence. Distinguishes psychological mechanisms from productivity advice, clinical impairment, and organizational scheduling.
-- **Status:** proposed
-
 ## Candidate: Urban Anthropology -- Informal Institutions, Space, and Everyday Power
 - **Domain:** anthropology
 - **Proposed by:** Librarian
