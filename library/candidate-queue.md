@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Pastoralism and Nomadic Lifeways -- Mobility, Commons, and Adaptation in Variable Environments
-- **Domain:** anthropology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.3, timeliness=10.0, balance=9.1)
-- **Scope:** Examines pastoralism and nomadic lifeways as adaptive social systems for using variable rangelands through mobility, herd management, reciprocity, and shared access. Covers transhumance, common-property institutions, kinship, labor, markets, land tenure, indigenous ecological knowledge, conflict, sedentarization, and climate adaptation across regions. Uses ethnographic and historical comparison to test stereotypes that mobility is disorder or that pastoralism is environmentally uniform. Distinguishes cultural organization and lived experience from livestock production technique, land-restoration policy, and general climate science.
-- **Status:** proposed
-
 ## Candidate: Gray-Zone Competition -- Coercion Below the Threshold of War
 - **Domain:** geopolitics
 - **Proposed by:** Librarian
