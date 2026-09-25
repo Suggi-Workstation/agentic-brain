@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Urban Anthropology -- Informal Institutions, Space, and Everyday Power
-- **Domain:** anthropology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.1/10.0 (gap=9.1, compounding=9.2, timeliness=9.2, balance=9.1)
-- **Scope:** Examines cities ethnographically as lived systems of meaning, exchange, identity, and power rather than only as demographic concentrations or engineered places. Covers informality, housing and land tenure, migration, neighborhoods, public space, infrastructure in everyday life, belonging, exclusion, and resident adaptation. Uses cross-cultural comparison to show how formal and informal institutions coexist and how urban change is experienced from below. Distinguishes ethnographic interpretation from urban demography, municipal policy design, and infrastructure engineering.
-- **Status:** proposed
-
 ## Candidate: Memory Reconstruction and the Misinformation Effect -- How Later Information Rewrites Event Recall
 - **Domain:** psychology-behavior
 - **Proposed by:** Librarian
