@@ -59,6 +59,7 @@ and script, not a text language. Docling's layout and table models are local at
 | Read image-only PDF pages or create a searchable PDF | OCRmyPDF | Adds OCR text while retaining the visible document. |
 | Recover image text on pages that also contain native text | OCRmyPDF `--redo-ocr`, or Docling | `--skip-text` skips the whole page, including unread image regions. |
 | Read ordinary digital PDFs as Markdown with page markers | PyMuPDF4LLM | Reconstructs reading order and tables from the text/layout. |
+| Preserve spanning table headers or merged cells | PyMuPDF4LLM HTML tables | Retains detected row/column spans without switching parsers. |
 | Recover complex tables, columns or structure | Docling | Uses layout and table models; returns structured provenance. |
 | Extract selected table cells or diagnose column boundaries | pdfplumber | Exposes coordinates, crops and configurable table detection. |
 
@@ -74,10 +75,11 @@ and script, not a text language. Docling's layout and table models are local at
 3. Read the generated output with `read_file`; locate passages with
    `search_files`. Check tool warnings and actual content, not exit status alone.
    If coverage or structure fails, change route and compare with rendered pages.
-4. Before using extracted figures, verify their row/column labels, signs,
-   decimals, units, periods and footnotes against the source. Markdown is a
-   reading format, not a verified financial dataset. Keep the source page with
-   each material figure; PDF page position can differ from the printed label.
+4. Verify each material figure's labels, signs, decimals, units, periods and
+   footnotes against the source. Follow referenced notes and continuations onto
+   their pages. Check table columns and chart series, not just matching digits.
+   Neither Markdown nor JSON is verified data. Keep the source page with each
+   figure; PDF page position can differ from the printed label.
 
 ## Commands
 
@@ -118,6 +120,9 @@ word boxes and confidence to `page-5-words.tsv`; confidence is not proof of
 numeric correctness. Replace `tsv` with `hocr` for positioned HTML or `pdf` for
 a searchable image PDF. Multiple installed languages use `-l eng+deu`.
 
+For missed regions, crop/re-render the best available source at 300 DPI and retry
+the isolated block with `--psm 6`; verify row associations, not only word presence.
+
 ### OCRmyPDF: searchable PDFs
 
 For image-only pages, including files interleaving digital and scanned pages:
@@ -155,14 +160,16 @@ For a digital PDF or an OCRmyPDF result with a usable text layer:
   --header --footer --opt page_separators=true
 ```
 
-For `report.pdf`, output is `$OUT/report/report.md`, with `run-log.txt` in the
-same subdirectory. Inspect that log: a batch can finish despite individual
-conversion failures. Headers and footers are explicitly retained.
+For `report.pdf`, output is normally `$OUT/report/report.md`. If the output
+directory's basename is already `report`, it is `$OUT/report.md` instead.
+`run-log.txt` sits beside the output: require `Status: success` and the requested
+content, not just batch completion. Headers and footers are explicitly retained.
 
 - Use `--backend json` for page numbers, boxes and table structure, or
   `--backend txt` for plain text. JSON uses `pages[].page_number` (1-based).
-- For tables needing merged cells, add `--opt table_output=html` to Markdown
-  output, then check header associations against the source.
+- For merged/spanning table headers, add `--opt table_output=html` to Markdown
+  output; in `to_markdown(...)`, add `table_output="html"`. Inspect the retained
+  spans and each value's column/unit before deciding whether another tool helps.
 - Optional selective OCR: replace `--ocr-mode never` with
   `--ocr-mode select-keep --ocr-func tesseract --ocr-lang eng --opt ocr_dpi=300`.
   Direct OCR can omit scanned table rows. Prefer OCRmyPDF or Docling for scanned
@@ -180,8 +187,9 @@ print(json.dumps(chunks, indent=2))
 ```
 
 Arguments are 1-based; the API list is 0-based. Each returned chunk has `text`,
-`page_boxes` and `metadata.page_number` (1-based). CLI `--opt` does not parse
-list values; a string such as `pages=[4,5,6]` fails inside the batch.
+`page_boxes` and `metadata.page_number` (1-based). Match chunks by this number,
+not request order. CLI `--opt` does not parse list values; a string such as
+`pages=[4,5,6]` fails inside the batch.
 
 ### Docling: complex layout and tables
 
@@ -200,10 +208,11 @@ clean digital pages. If selective OCR misses image text, use
 `--ocr-mode full_page` on the affected page range and recheck it.
 
 JSON carries `tables[].data.table_cells`, their row/column offsets and
-`prov[].page_no`/bounding boxes. Markdown can omit headers or table-attached
-footnotes even when JSON contains them. Inspect JSON `texts` for `footnote`,
-`page_header` and `page_footer` labels; follow table `footnotes` references and
-verify against the page. A successful conversion is not proof of complete text.
+`prov[].page_no`/bounding boxes; cells can still merge unrelated columns.
+Markdown can omit headers, table footnotes and picture-contained text present
+in JSON. Inspect `texts` and follow table `footnotes` and picture `children`
+references. Use their provenance to check the source; recovered chart words
+alone do not establish label/value associations or complete chart coverage.
 Keep the standard pipeline; VLM, remote services and additional enrichment
 models are not part of this installed route.
 
@@ -221,7 +230,8 @@ with pdfplumber.open(sys.argv[1]) as doc:
 ```
 
 The Python page list is 0-based; the command argument and `page.page_number` are
-1-based. `extract_tables()` returns all detected tables, not just the largest.
+1-based. `extract_tables()` returns all detected tables, not just the largest;
+nonempty arrays can still contain fragmented rows or collapsed columns.
 
 - For unruled aligned text, try `page.extract_tables({"vertical_strategy":
   "text", "horizontal_strategy": "text"})`; inspect for false columns.
