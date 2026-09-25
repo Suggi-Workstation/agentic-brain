@@ -1,6 +1,6 @@
 # Anthropology -- Topics
 
-12 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
+13 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
 
 - [Cultural Transmission Persists Through Diverse Learning Networks, Not Copying Alone](cultural-transmission-and-social-learning.md) -- [reviewed: never] -- Cultural continuity does not depend on a single channel or a passive transfer of complete traditions. Knowledge, norms, and skills persist because learners observe, participate, imitate, practice, receive feedback, and selectively attend to different models across the life course; the same distributed system also creates opportunities for innovation and cultural change [1][2][7][10].
 
@@ -25,4 +25,6 @@
 - [The Rise and Fall of Civilizations -- Complexity Is a Trap That Every Society Eventually Springs](rise-fall-civilizations.md) -- [reviewed: never] -- Civilizations do not die of old age. They collapse because the very structures that enable their success -- centralized government, specialized labor, infrastructure, and social hierarchy -- become progressively more expensive to maintain while delivering progressively fewer benefits. The patterns are consistent across continents and millennia: rising complexity requires rising energy and...
 
 - [Ritual and Religion -- How Every Human Society Constructs the Sacred](ritual-religion-cultural-phenomena.md) -- [reviewed: never] -- Religion is not a cultural luxury or an optional accessory to human social life; it is a human universal. Every known society, past and present, has developed systems of shared belief, ritual practice, and sacred meaning that structure community life, provide frameworks for understanding existence, and bind individuals into moral communities.
+
+- [Urban Anthropology Shows That Cities Are Made Through Everyday Negotiation, Not Formal Plans Alone](urban-anthropology-informal-institutions-space-and-everyday-power.md) -- [reviewed: never] -- Urban anthropology studies cities as lived cultural worlds in which residents, officials, objects, and institutions continually negotiate space, livelihood, recognition, and belonging. Its central finding is that a city is produced not only through demographic growth, markets, plans, and engineered systems, but also through everyday practices that connect formal rules with informal arrangements and make urban life possible or exclusionary [1][3][5][11].
 
