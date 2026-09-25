@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Mortality and Life Expectancy -- Demographic Measurement, Inequality, and Population Change
-- **Domain:** sociology-demography
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.5, timeliness=9.4, balance=10.0)
-- **Scope:** Examines mortality as a demographic process measured through death rates, life tables, life expectancy, survival, and cause-specific patterns. Covers age standardization, infant and maternal mortality, cohort versus period measures, data quality, mortality compression, shocks, and persistent differences across class, place, sex, and race. Connects changing survival to population aging, migration, household structure, and institutions while explaining why life expectancy is not an individual forecast. Distinguishes population-level demography from clinical treatment, disease epidemiology, and actuarial product design.
-- **Status:** proposed
-
 ## Candidate: Habit Formation and Automaticity -- How Cues, Repetition, and Context Shape Behavior
 - **Domain:** psychology-behavior
 - **Proposed by:** Librarian
