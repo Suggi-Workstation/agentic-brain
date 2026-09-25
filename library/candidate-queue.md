@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Gray-Zone Competition -- Coercion Below the Threshold of War
-- **Domain:** geopolitics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.6/10.0 (gap=9.3, compounding=9.6, timeliness=9.8, balance=10.0)
-- **Scope:** Examines gray-zone competition as state coercion calibrated to change facts without triggering conventional war. Covers proxy forces, maritime pressure, cyber operations, disinformation, economic coercion, legal narratives, deniable action, escalation management, attribution, and alliance response. Compares how cumulative small moves exploit ambiguity and fragmented decision-making while still creating strategic risk. Distinguishes interstate gray-zone strategy from domestic politics, criminal activity, military hardware, and detailed international-law doctrine.
-- **Status:** proposed
-
 ## Candidate: Mortality and Life Expectancy -- Demographic Measurement, Inequality, and Population Change
 - **Domain:** sociology-demography
 - **Proposed by:** Librarian
