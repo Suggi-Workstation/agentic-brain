@@ -1,6 +1,6 @@
 # Books -- Topics
 
-12 topics. Anchor: [anchor-books.md](anchor-books.md)
+13 topics. Anchor: [anchor-books.md](anchor-books.md)
 
 - [A Random Walk Down Wall Street -- Why Most Investors Cannot Beat the Market and What to Do About It](a-random-walk-down-wall-street.md) -- [reviewed: 2026-09-09] -- A Random Walk Down Wall Street, first published by Burton G. Malkiel in 1973 and updated through thirteen editions, argues that stock prices follow a random walk -- future price changes cannot be predicted from past price movements -- making it nearly impossible for most investors to consistently outperform broad market indexes.
 
@@ -13,6 +13,8 @@
 - [Man's Search for Meaning -- Why Purpose, Not Pleasure, Is What Keeps People Alive](mans-search-for-meaning.md) -- [reviewed: never] -- Viktor Frankl's Man's Search for Meaning (1946) argues that the primary human drive is not pleasure, as Freud held, nor power, as Adler held, but the will to meaning -- and that even in the worst circumstances a person retains the freedom to choose their attitude toward what happens to them. The book combines a firsthand account of Frankl's years in Nazi concentration camps with the outline of logotherapy, the meaning-centered school of psychotherapy he founded.
 
 - [Sapiens -- How Shared Fictions, Not Biology, Made Humans the Masters of the Planet](sapiens-a-brief-history-of-humankind.md) -- [reviewed: never] -- Yuval Noah Harari's "Sapiens: A Brief History of Humankind" (2014) argues that Homo sapiens conquered the world not through physical superiority or individual intelligence, but through a unique cognitive capacity: the ability to create and collectively believe in shared fictions. Money, nations, corporations, religions, and human rights are all "intersubjective realities" -- things that exist only because millions of people agree they exist.
+
+- [The Beginning of Infinity -- Deutsch Makes Error Correction, Not Prediction, the Engine of Open-Ended Progress](the-beginning-of-infinity-deutsch-explanations-progress-fallibilism.md) -- [reviewed: never] -- David Deutsch's *The Beginning of Infinity* argues that people make progress by creating explanations, exposing them to criticism, and replacing errors rather than by deriving knowledge from authority or repeated observations. Its bold synthesis connects Popperian fallibilism to computation, physics, biological and cultural evolution, political institutions, aesthetics, and a conditional case for progress without a final limit [1][2][3].
 
 - [The Black Swan -- Why We Are Blind to the Events That Shape History](the-black-swan-taleb.md) -- [reviewed: never] -- "The Black Swan: The Impact of the Highly Improbable" (2007) is Nassim Nicholas Taleb's argument that rare, high-impact, retrospectively explainable events drive history, markets, and science -- yet human cognition is structurally incapable of anticipating them. A Black Swan has three properties: it is an outlier beyond regular expectations, it carries extreme impact, and after it occurs we construct narratives that make it seem predictable in hindsight.
 
