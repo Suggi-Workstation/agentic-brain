@@ -1,6 +1,6 @@
 # Ethics Philosophy -- Topics
 
-12 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+13 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
 - [AI Ethics -- Trustworthy Systems Require Governance Across the Full Lifecycle](ai-ethics.md) -- [reviewed: 2026-09-21] -- AI ethics studies the principles and institutions that should govern the design, development, deployment, use, and retirement of artificial intelligence systems. It asks not only whether a system performs its assigned task, but whether its purpose is legitimate, its benefits and harms are distributed fairly, affected people can understand and contest consequential decisions, and identifiable humans and organizations remain accountable.
 
@@ -13,6 +13,8 @@
 - [Free Will and Determinism -- Why the Debate About Whether We Choose Our Actions Remains Philosophy's Most Consequential Unresolved Question](free-will-determinism.md) -- [reviewed: never] -- The free will debate asks whether human beings genuinely choose their actions or whether every decision is the inevitable result of prior causes beyond our control. This is not an academic curiosity -- it is the foundation upon which moral responsibility, criminal justice, praise, blame, and our deepest sense of self all rest.
 
 - [Logic and Critical Thinking -- Formal and Informal Tools Make Arguments Testable](logic-and-critical-thinking.md) -- [reviewed: never] -- Logic identifies whether conclusions follow from reasons, while critical thinking tests whether those reasons are acceptable, relevant, sufficient, and responsive to alternatives. Used together, formal and informal methods turn persuasive language into claims that can be reconstructed, challenged, revised, and either warranted or rejected [1, 2, 4, 8].
+
+- [Metaethics Determines What Moral Claims Mean Before Normative Theories Can Guide Action](metaethics.md) -- [reviewed: never] -- Metaethics investigates what moral judgments mean, whether any are true, what could make them true, how they could be known, and why they appear to guide action. It does not decide whether deontology, consequentialism, or virtue ethics gives the best first-order rules; it examines the semantic, metaphysical, epistemological, and psychological commitments that make any such rules intelligible and authoritative [1].
 
 - [Moral Uncertainty Requires Structured Decision-Making When Ethical Theories Conflict](moral-uncertainty-and-decision-making.md) -- [reviewed: never] -- Moral uncertainty arises when an agent must act without knowing which moral proposition, principle, or theory is correct. It matters because simply following the most credible theory can ignore morally serious possibilities, while combining theories requires defensible rules for credence, comparison, and learning [1, 2].
 
