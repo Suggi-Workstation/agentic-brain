@@ -1,6 +1,6 @@
 # Psychology Behavior -- Topics
 
-14 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
+15 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
 
 - [Attention, Salience, and Cognitive Control -- What Enters Awareness Shapes What We Decide](attention-salience-and-cognitive-control.md) -- [reviewed: never] -- Attention is not a neutral window onto the world; it is a selective system that gives some external stimuli and internal representations priority over competing alternatives. Because perception, working memory, and action all have limited capacity, the information that wins this competition disproportionately shapes what is encoded, remembered, and used in judgment ([1] [4] [6]).
 
@@ -9,6 +9,8 @@
 - [Cognitive Dissonance -- Why Humans Change Beliefs Instead of Admitting Error](cognitive-dissonance.md) -- [reviewed: never] -- Cognitive dissonance is the psychological theory that when a person holds two contradictory beliefs, or when their behavior contradicts their beliefs, they experience an aversive mental state that they are motivated to resolve. The theory's central and most unsettling prediction is that people usually resolve this discomfort not by changing their behavior to match their stated values, but by changing their beliefs to justify the behavior.
 
 - [Decision Fatigue and Ego Depletion -- Fatigue Is Real, but a Universal Depletable Resource Is Not Established](decision-fatigue-and-ego-depletion.md) -- [reviewed: never] -- Decision fatigue and ego depletion describe plausible changes after sustained choice or self-control, but they do not identify one proven, domain-general resource that predictably runs down with use. The strongest post-replication conclusion is narrower: effort and subjective fatigue can change, small performance effects sometimes occur under particular tasks, and field decisions sometimes vary...
+
+- [Emotion and Decision-Making -- Affect Guides Risk, Attention, and Judgment](emotion-and-decision-making.md) -- [reviewed: never] -- Emotion is not an interruption of otherwise rational choice; it is part of the machinery that assigns value, directs attention, anticipates consequences, and prepares action. Affect can improve a decision when it carries relevant information, but it can bias judgment when an incidental feeling is mistaken for evidence, when arousal overwhelms probability information, or when a discrete emotion imports the wrong appraisal into a new problem [1][2][4].
 
 - [Framing Effects -- Why the Same Information Produces Radically Different Decisions](framing-effects.md) -- [reviewed: never] -- Framing effects are the systematic influence that the presentation of information -- rather than its objective content -- exerts on human decisions. When logically identical options are described differently, people reliably reverse their preferences: they become risk-averse when outcomes are framed as gains and risk-seeking when the same outcomes are framed as losses.
 
