@@ -1,0 +1,115 @@
+<!-- library.log archive -- ENT-540 to ENT-555
+     Moved from active log on 2026-09-26 02:14 UTC
+     Active log continues from ENT-556 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-540] | 2026-09-23 05:14 UTC | Librarian | library | ref: library/pop-culture/advertising-manufacturing-desire.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Advertising and Consumer Culture (pop-culture): rewritten (corrected historical attribution and chronology, qualified causal claims, updated persuasion and digital-advertising evidence, and replaced weak sources).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-541] | 2026-09-23 05:37 UTC | Librarian | library | ref: library/valuation-screening/valuing-financial-institutions-banks-insurers-balance-sheet-businesses.md | see: 20260923T053245Z
+Wrote topic Valuing Financial Institutions -- Banks, Insurers, and Other Balance-Sheet Businesses to valuation-screening. Weighted score: 9.5/10.0
+(core=9.5, scope=9.6, value=9.3, authority=9.5).
+Similarity overlap: 30%.
+Sources: 11 (11 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-542] | 2026-09-23 05:52 UTC | Librarian | library | ref: library/health-medicine/antimicrobial-resistance-antibiotic-stewardship.md | see: 20260922T230812Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Antibiotic Stewardship Preserves Effective Treatment by Reducing Selection Without Withholding Necessary Care (health-medicine): rewritten (corrected unsupported historical attribution and CDC source date, replaced inaccessible mechanism source URL, added outpatient and discharge evidence and three sources).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-543] | 2026-09-23 06:01 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 4 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Programming-Language Memory Safety -- How Ownership and Type Systems Prevent Vulnerability Classes (9.2): gap=9.2, compounding=9.2, timeliness=9.3, balance=9.1
+- Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture (9.0): gap=8.9, compounding=9.0, timeliness=9.3, balance=9.1
+- Time Blocking and Task Batching -- Scheduling Focused Work Around Interruptions (9.0): gap=8.8, compounding=9.2, timeliness=8.5, balance=10.0
+- Population Projections -- Cohort-Component Methods and Uncertainty (9.0): gap=9.2, compounding=9.1, timeliness=8.5, balance=9.1
+Domain balance: self-improvement (10 topics) to investment-vehicles-fund-structures, psychology-behavior, sociology-demography, technology, geopolitics (11 topics each).
+
+## [ENT-544] | 2026-09-23 06:07 UTC | Librarian | library | ref: library/investment-vehicles-fund-structures/fund-liquidity-design-redemption-terms-asset-liquidity-and-forced-selling-risk.md | see: 20260923T060236Z
+Wrote topic Fund Liquidity Design -- Redemption Terms, Asset Liquidity, and Forced-Selling Risk to investment-vehicles-fund-structures. Weighted score: 9.3/10.0
+(core=9.5, scope=9.5, value=8.7, authority=9.0).
+Similarity overlap: 55%.
+Sources: 15 (14 high, 1 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-545] | 2026-09-23 06:25 UTC | Librarian | library | ref: library/investment-vehicles-fund-structures/fund-liquidity-design-redemption-terms-asset-liquidity-and-forced-selling-risk.md | see: 20260923T060236Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Fund Liquidity Design Determines Whether Investor Exits Become Forced Asset Sales (investment-vehicles-fund-structures): rewritten (corrected 2 mismatches, updated 2 sections).
+Domain coverage: reviewed across 1 domain.
+
+## [ENT-546] | 2026-09-23 06:37 UTC | Librarian | library | ref: library/engineering-infrastructure/structural-health-monitoring-and-condition-based-maintenance.md | see: 20260923T063344Z
+Wrote topic Structural Health Monitoring and Condition-Based Maintenance -- Detecting Deterioration Before Physical Assets Fail to engineering-infrastructure. Weighted score: 9.3/10.0
+(core=9.3, scope=9.4, value=9.0, authority=9.4).
+Similarity overlap: 35%.
+Sources: 11 (11 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-547] | 2026-09-23 06:54 UTC | Librarian | library | ref: library/engineering-infrastructure/construction-methods-project-management.md | see: 20260902T023058Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Construction Methods and Project Management (engineering-infrastructure): rewritten (corrected unsupported megaproject rates, process-industry estimate-class generalization, delivery-cost claims, and IPD causal claims; updated sources, citations, and all four body sections).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-548] | 2026-09-23 07:09 UTC | Librarian | library | ref: library/technology/post-quantum-cryptography-migration.md | see: 20260923T070442Z
+Wrote topic Post-Quantum Cryptography Migration -- Implementing Standards Before Quantum Risk to technology. Weighted score: 9.4/10.0
+(core=9.4, scope=9.6, value=9.0, authority=9.5).
+Similarity overlap: 15%.
+Sources: 14 (14 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-549] | 2026-09-23 07:22 UTC | Librarian | library | ref: library/notable-people/elinor-ostrom-governing-commons-through-institutions-and-collective-action.md | see: 20260923T043330Z
+Review cycle: 1 topics reviewed, 1 current, 0 rewritten.
+Topics:
+- Elinor Ostrom -- Field Evidence Changed the Terms of the Commons Debate (notable-people): current, no changes
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-550] | 2026-09-23 07:37 UTC | Librarian | library | ref: library/health-medicine/regenerative-medicine-and-stem-cell-therapies.md | see: 20260923T073238Z
+Wrote topic Regenerative Medicine and Stem-Cell Therapies -- Evidence, Clinical Translation, and Limits to health-medicine. Weighted score: 9.6/10.0
+(core=9.6, scope=9.7, value=9.3, authority=9.5).
+Similarity overlap: 20%.
+Sources: 16 (16 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-551] | 2026-09-24 09:03 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 4 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Nuclear Proliferation and Nonproliferation -- Why Weapons Spread and Restraint Regimes Fray (9.4): gap=9.2, compounding=9.4, timeliness=9.8, balance=9.1
+- Census and Survey Measurement -- Coverage, Nonresponse, and the Social Construction of Population Data (9.3): gap=9.3, compounding=9.5, timeliness=9.3, balance=9.1
+- Decision Fatigue and Ego Depletion -- What Survived the Replication Crisis (9.3): gap=9.2, compounding=9.4, timeliness=9.4, balance=9.1
+- Urban Anthropology -- Informal Institutions, Space, and Everyday Power (9.1): gap=9.1, compounding=9.2, timeliness=9.2, balance=9.1
+Domain balance: self-improvement (10 topics) to anthropology, geopolitics, investors, psychology-behavior, and sociology-demography (11 topics).
+
+## [ENT-552] | 2026-09-24 09:04 UTC | Librarian | library | ref: library/health-medicine/chronic-disease-cvd-diabetes.md | see: 20260727T041521Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Chronic Disease Management -- Why Cardiovascular Disease and Diabetes Require Systemic Prevention Over Reactive Treatment (health-medicine): rewritten (corrected six mismatch classes covering burden denominators, prevention scope, pathophysiology, drug classification, trial applicability, and unsupported care-delivery claims; updated all mandatory sections and sources).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-553] | 2026-09-24 09:05 UTC | Librarian | library | ref: library/investment-vehicles-fund-structures/investment-vehicle-governance-and-shareholder-rights.md | see: 20260924T090028Z
+Wrote topic Investment Vehicle Governance and Shareholder Rights -- Control, Oversight, and Minority Protections to investment-vehicles-fund-structures. Weighted score: 9.7/10.0
+(core=9.8, scope=9.9, value=9.4, authority=9.5).
+Similarity overlap: 35%.
+Sources: 13 (12 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-554] | 2026-09-24 09:32 UTC | Librarian | library | ref: library/investment-vehicles-fund-structures/berkshire-hathaway-permanent-capital-conglomerate.md | see: 20260901T093023Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Berkshire Hathaway as a Permanent-Capital Conglomerate (investment-vehicles-fund-structures): rewritten (corrected stale succession, ETF-redemption, insurance-float, leverage, Investment Company Act, tax, and current-metric claims; updated all four body sections and 17 sources)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-555] | 2026-09-24 09:46 UTC | Librarian | library | ref: library/technology/digital-identity-and-verifiable-credentials.md | see: 20260924T093941Z
+Wrote topic Digital Identity and Verifiable Credentials -- Portable Proofs, Interoperability, and Control to technology. Weighted score: 9.5/10.0
+(core=9.6, scope=9.5, value=9.4, authority=9.8).
+Similarity overlap: 25%.
+Sources: 20 (20 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
