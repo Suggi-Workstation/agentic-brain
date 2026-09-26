@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Abundance -- Klein and Thompson on Building Capacity, Supply, and Progress
-- **Domain:** books
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.6/10.0 (gap=9.2, compounding=9.7, timeliness=9.9, balance=10.0)
-- **Scope:** Analyzes Ezra Klein and Derek Thompson's Abundance as a book: its argument that housing, infrastructure, energy, research, and public capacity are constrained by institutions that protect more readily than they build. Reconstructs the authors' supply-side framework, evidence, policy examples, and account of liberal governance. Tests critiques about trade-offs, distribution, state power, environmental protection, and causal inference. Distinguishes analysis of the 2025 book from a general policy blueprint or advocacy for its program.
-- **Status:** proposed
-
 ## Candidate: Data Center Industry Economics -- Power, Capacity, and the AI Infrastructure Cycle
 - **Domain:** industries-sectors
 - **Proposed by:** Librarian
