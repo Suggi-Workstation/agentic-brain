@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Sunk Cost and Escalation of Commitment -- When Prior Investment Distorts the Next Decision
-- **Domain:** psychology-behavior
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.5/10.0 (gap=9.2, compounding=9.7, timeliness=9.4, balance=10.0)
-- **Scope:** Examines the sunk-cost effect and escalation of commitment: why prior investments of money, time, effort, reputation, or identity can distort choices about future costs and benefits. Covers waste aversion, loss framing, mental accounting, self-justification, responsibility, completion effects, individual-versus-group decisions, field evidence, and measurement problems. Compares when persistence is irrational with cases where learning, option value, or switching costs make continued investment defensible. Distinguishes the psychological mechanism from accounting definitions of sunk cost, project-management advice, and organizational governance.
-- **Status:** proposed
-
 ## Candidate: Sociology of Religion -- Institutions, Secularization, and Collective Life
 - **Domain:** sociology-demography
 - **Proposed by:** Librarian
