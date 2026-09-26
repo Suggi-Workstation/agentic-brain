@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The Structure of Scientific Revolutions -- Kuhn's Book on Paradigms, Crises, and Scientific Change
-- **Domain:** books
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.5/10.0 (gap=9.2, compounding=9.8, timeliness=9.2, balance=10.0)
-- **Scope:** Analyzes Thomas Kuhn's The Structure of Scientific Revolutions as a book: its argument about normal science, paradigms, anomalies, crises, revolutions, and incommensurability. Reconstructs the historical examples and evidence Kuhn used, the changes between editions, and the strongest philosophical and historical criticisms. Assesses how the book altered philosophy, history, and sociology of science and how later scholarship has revised its claims. Distinguishes analysis of Kuhn's artifact from general accounts of scientific method, paradigm change, or Kuhn's biography.
-- **Status:** proposed
-
 ## Candidate: Sunk Cost and Escalation of Commitment -- When Prior Investment Distorts the Next Decision
 - **Domain:** psychology-behavior
 - **Proposed by:** Librarian
