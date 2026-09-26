@@ -1,8 +1,10 @@
 # Books -- Topics
 
-13 topics. Anchor: [anchor-books.md](anchor-books.md)
+14 topics. Anchor: [anchor-books.md](anchor-books.md)
 
 - [A Random Walk Down Wall Street -- Why Most Investors Cannot Beat the Market and What to Do About It](a-random-walk-down-wall-street.md) -- [reviewed: 2026-09-09] -- A Random Walk Down Wall Street, first published by Burton G. Malkiel in 1973 and updated through thirteen editions, argues that stock prices follow a random walk -- future price changes cannot be predicted from past price movements -- making it nearly impossible for most investors to consistently outperform broad market indexes.
+
+- [Abundance -- Klein and Thompson Make Supply and State Capacity the Test of Progressive Government](abundance-klein-thompson-building-capacity-supply-progress.md) -- [reviewed: never] -- Ezra Klein and Derek Thompson's *Abundance* argues that the United States cannot solve shortages in housing, clean energy, infrastructure, and useful innovation through redistribution or spending alone; it must recover the ability to build and invent at scale [1][2]. The book reframes liberal governance around outcomes rather than accumulated procedure, while its critics question whether that...
 
 - [Antifragile -- Why Some Systems Get Stronger From Disorder and How to Put Yourself on That Side of the Triad](antifragile-things-that-gain-from-disorder.md) -- [reviewed: never] -- "Antifragile: Things That Gain from Disorder" (2012) is Nassim Nicholas Taleb's prescription for a world his earlier books diagnosed as structurally unpredictable. Its core claim: the opposite of fragile is not robust but antifragile -- a property of systems that actually gain from shocks, volatility, errors, and stressors.
 
