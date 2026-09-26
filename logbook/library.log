@@ -486,3 +486,6 @@ EMPTY: No proposed candidate was available in library/candidate-queue.md.
 ## [ENT-654] | 2026-09-26 23:02 UTC | Librarian | library | ref: library/candidate-queue.md
 EMPTY: Queue snapshot contained no proposed candidates.
 No topic was selected, researched, scored, written, or removed.
+
+## [ENT-655] | 2026-09-26 23:31 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: No proposed candidates were present in library/candidate-queue.md; writer cycle produced no topic.
