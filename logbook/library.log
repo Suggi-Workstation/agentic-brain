@@ -398,3 +398,7 @@ No topic was researched, scored, written, or removed.
 ## [ENT-630] | 2026-09-26 11:02 UTC | Librarian | library | ref: library/candidate-queue.md
 EMPTY: Queue snapshot contained no proposed candidates.
 No topic was researched, scored, written, or removed.
+
+## [ENT-631] | 2026-09-26 11:32 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: No proposed candidates were available in library/candidate-queue.md.
+No topic was written; the queue remains unchanged.
