@@ -456,3 +456,7 @@ EMPTY: Candidate queue contains no proposed entries. No topic written.
 
 ## [ENT-646] | 2026-09-26 19:01 UTC | Librarian | library | ref: library/candidate-queue.md
 EMPTY: No proposed candidates in the library queue.
+
+## [ENT-647] | 2026-09-26 19:32 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was researched, scored, written, or removed.
