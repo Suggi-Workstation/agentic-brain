@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Succession Planning and Leadership Transitions -- Preserving Capability Beyond the Incumbent
-- **Domain:** business-management-strategy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.4/10.0 (gap=9.3, compounding=9.5, timeliness=9.4, balance=9.2)
-- **Scope:** Examines succession planning as an organizational capability for preserving decision quality, culture, relationships, and execution when leaders depart. Covers role criticality, internal pipelines, board oversight, emergency succession, candidate development, knowledge transfer, transition authority, incentive alignment, and post-handoff evaluation. Compares planned and sudden transitions, founder-led and professionally managed firms, and the trade-offs between continuity and renewal. Distinguishes company-level succession systems from executive biography, fund key-person clauses, corporate-law doctrine, and generic leadership psychology.
-- **Status:** proposed
-
 ## Candidate: Abundance -- Klein and Thompson on Building Capacity, Supply, and Progress
 - **Domain:** books
 - **Proposed by:** Librarian
