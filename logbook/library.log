@@ -417,3 +417,7 @@ No topic was researched, scored, written, or removed.
 ## [ENT-635] | 2026-09-26 13:31 UTC | Librarian | library | ref: library/candidate-queue.md
 EMPTY: No proposed candidate was available in library/candidate-queue.md.
 Writer cycle completed without a topic, candidate disposition, or queue change.
+
+## [ENT-636] | 2026-09-26 14:02 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was researched, scored, written, or removed.
