@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Territorial Disputes and Irredentism -- Borders, Nationalism, and Escalation Risk
-- **Domain:** geopolitics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.5/10.0 (gap=9.2, compounding=9.5, timeliness=9.8, balance=10.0)
-- **Scope:** Examines territorial disputes and irredentism as contests over borders, sovereignty, identity, resources, and strategic depth. Covers inherited boundaries, historical claims, maps and legal narratives, faits accomplis, militarized bargaining, nationalism, external guarantees, and pathways from dispute to settlement or escalation. Compares land and maritime claims without treating any single conflict as the model for all cases. Distinguishes international power competition from domestic border administration, military hardware, and detailed international-law doctrine.
-- **Status:** proposed
-
 ## Candidate: Human Biological Variation -- Population History, Adaptation, and the Limits of Racial Typologies
 - **Domain:** anthropology
 - **Proposed by:** Librarian
