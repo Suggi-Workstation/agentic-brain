@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Emotion and Decision-Making -- How Affect Guides Risk, Attention, and Judgment
-- **Domain:** psychology-behavior
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.6/10.0 (gap=9.3, compounding=9.7, timeliness=9.6, balance=10.0)
-- **Scope:** Examines how emotions shape judgment by changing attention, perceived value, probability weighting, memory, and action readiness. Covers integral and incidental affect, somatic-marker and appraisal accounts, anticipated regret, fear, anger, mood, emotion regulation, and behavioral and neurophysiological evidence. Tests the false opposition between emotion and reason by asking when affect supplies useful information and when it biases choice. Distinguishes psychological mechanisms from clinical treatment, generic self-help, and communication tactics.
-- **Status:** proposed
-
 ## Candidate: Territorial Disputes and Irredentism -- Borders, Nationalism, and Escalation Risk
 - **Domain:** geopolitics
 - **Proposed by:** Librarian
