@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Sociology of Religion -- Institutions, Secularization, and Collective Life
-- **Domain:** sociology-demography
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.4, timeliness=9.5, balance=10.0)
-- **Scope:** Examines religion as a social institution that organizes belonging, authority, norms, networks, welfare, conflict, and collective meaning in modern societies. Covers secularization and its alternatives, congregations, religious switching, pluralism, civil religion, social capital, inequality, organizational change, and cross-national variation in affiliation and practice. Uses institutional and demographic evidence to explain how religion both shapes and responds to family, migration, politics, and social change. Distinguishes sociological analysis from theology, individual belief psychology, cross-cultural ritual ethnography, and policy advocacy.
-- **Status:** proposed
-
 ## Candidate: Education as a Social Institution -- Credentialing, Reproduction, and Mobility
 - **Domain:** sociology-demography
 - **Proposed by:** Librarian
