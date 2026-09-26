@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The Beginning of Infinity -- Deutsch on Explanations, Progress, and Fallibilism
-- **Domain:** books
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.7, timeliness=8.8, balance=10.0)
-- **Scope:** Analyzes David Deutsch's The Beginning of Infinity as a book: its case for explanatory knowledge, fallibilism, universal reach, and open-ended progress. Reconstructs its use of computation, physics, epistemology, biological evolution, politics, aesthetics, and the distinction between good and bad explanations. Evaluates the book's strongest objections, evidentiary limits, and relationship to Popper without treating optimism as self-help. Distinguishes analysis of Deutsch's artifact from a general primer on philosophy of science, technology, or human progress.
-- **Status:** proposed
-
 ## Candidate: Succession Planning and Leadership Transitions -- Preserving Capability Beyond the Incumbent
 - **Domain:** business-management-strategy
 - **Proposed by:** Librarian
