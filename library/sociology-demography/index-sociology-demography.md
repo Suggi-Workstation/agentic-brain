@@ -1,12 +1,14 @@
 # Sociology Demography -- Topics
 
-14 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
+15 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
 
 - [Census and Survey Measurement -- Official Population Data Are Produced, Not Simply Found](census-and-survey-measurement.md) -- [reviewed: never] -- Censuses and surveys do not passively copy a population into a table; institutions define a target population, build a frame, ask questions, pursue responses, adjust incomplete records, and protect confidentiality before publishing statistics.[1][2] Those operations can produce indispensable evidence while also creating coverage, sampling, nonresponse, measurement, processing, and disclosure-avoidance errors.
 
 - [Crime and Deviance -- Why Social Conditions and Institutional Responses Must Be Analyzed Together](crime-and-deviance-social-structure-and-institutional-response.md) -- [reviewed: 2026-09-24] -- Crime is conduct defined as an offense by law, while deviance is conduct, identity, or condition treated as violating a group's norms; the two overlap but are not identical. Sociological research shows that their distribution, definition, detection, and consequences are shaped by neighborhood organization, inequality, institutions, and social reactions.
 
 - [Demographic Transition -- How Falling Fertility and Mortality Reshape the Architecture of Societies](demographic-transition.md) -- [reviewed: never] -- The demographic transition is the process by which human populations shift from a regime of high birth rates and high death rates to one of low birth rates and low death rates as societies modernize. First described by Warren Thompson in 1929 and formally theorized by Frank Notestein in 1945, the model explains why countries experience a temporary period of rapid population growth when mortality falls before fertility follows.
+
+- [Fertility Decline and Family Formation -- Births Fall Through Interacting Changes in Timing, Partnership, Intentions, and Institutions](fertility-decline-and-family-formation.md) -- [reviewed: never] -- Fertility decline is a population-level outcome produced by the interaction of childbearing timing, completed family size, partnership formation, reproductive intentions, health, work, housing, care, gender relations, and institutions. No single preference or cost explains the same observed rate everywhere: period measures can fall when births are delayed, while persistent constraints can also turn postponement into fewer lifetime births and reshape population age structure.
 
 - [Migration -- The Demographic Process That Reshapes Sending and Receiving Societies](migration-causes-patterns-and-consequences.md) -- [reviewed: never] -- Migration is the movement of people across a boundary -- a household, a city, a region, or a national border -- to establish a new place of residence. It is one of the three demographic processes, alongside fertility and mortality, that determine how populations change in size, structure, and distribution, and it is the only one of the three that operates across administrative and political borders.
 
