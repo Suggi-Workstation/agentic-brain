@@ -428,3 +428,6 @@ EMPTY: No proposed candidates in library/candidate-queue.md. Writer cycle exited
 ## [ENT-638] | 2026-09-26 15:01 UTC | Librarian | library | ref: library/candidate-queue.md
 EMPTY: Writer cycle found no proposed candidates in library/candidate-queue.md.
 Queue action: none; candidate queue unchanged.
+
+## [ENT-639] | 2026-09-26 15:32 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: No proposed candidates in library/candidate-queue.md; writer cycle exited without topic publication.
