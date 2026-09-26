@@ -1,6 +1,6 @@
 # Anthropology -- Topics
 
-15 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
+16 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
 
 - [Cultural Transmission Persists Through Diverse Learning Networks, Not Copying Alone](cultural-transmission-and-social-learning.md) -- [reviewed: never] -- Cultural continuity does not depend on a single channel or a passive transfer of complete traditions. Knowledge, norms, and skills persist because learners observe, participate, imitate, practice, receive feedback, and selectively attend to different models across the life course; the same distributed system also creates opportunities for innovation and cultural change [1][2][7][10].
 
@@ -9,6 +9,8 @@
 - [Food and Agriculture in Cultural Context -- Food Systems Shape Social Life as Well as Subsistence](food-and-agriculture-in-cultural-context.md) -- [reviewed: 2026-09-09] -- Every society must solve the same problem -- turning environment into food -- and the way it solves it shapes its kinship, politics, religion, and identity. Anthropology studies food both as subsistence, the material system that produces calories, and as symbol, the meanings attached to what is edible, who eats with whom, and how it is prepared.
 
 - [Gift Economies and Reciprocity -- Gifts Create Relationships, but Returns Are Culturally Contingent](gift-economies-and-reciprocity.md) -- [reviewed: 2026-09-14] -- Gift exchange transfers goods, services, or rights while also expressing relationships, status, identity, or moral claims. Marcel Mauss made obligation central to its analysis, but later ethnography shows that not every gift demands a return and that reciprocity takes culturally specific forms. "Gift economy" is therefore an analytical lens for particular transactions and institutions, not a claim that an entire society lacks markets, self-interest, hierarchy, or calculation.
+
+- [Human Biological Variation Records Population History and Adaptation, Not Discrete Racial Types](human-biological-variation.md) -- [reviewed: never] -- Human biological variation consists of overlapping differences among individuals and populations produced by shared ancestry, migration, gene flow, drift, selection, development, and environment. Geographic structure is real and can support carefully bounded ancestry inference, but neither genetic nor phenotypic variation divides living humans into internally uniform, sharply separated racial types [1][2][3].
 
 - [Human Evolution and Prehistory -- How a Bipedal Ape Became the Planet's Dominant Species](human-evolution-and-prehistory.md) -- [reviewed: never] -- Human evolution is the ~7-million-year story of how a lineage of bipedal apes in Africa gave rise to Homo sapiens, a species whose unique capacity for cumulative culture, abstract language, and large-scale cooperation enabled it to colonize every continent and reshape the biosphere. The fossil and archaeological records reveal that this was not a linear march of progress but a branching bush of...
 
