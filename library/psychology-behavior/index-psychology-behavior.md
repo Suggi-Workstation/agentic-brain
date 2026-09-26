@@ -1,6 +1,6 @@
 # Psychology Behavior -- Topics
 
-15 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
+16 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
 
 - [Attention, Salience, and Cognitive Control -- What Enters Awareness Shapes What We Decide](attention-salience-and-cognitive-control.md) -- [reviewed: never] -- Attention is not a neutral window onto the world; it is a selective system that gives some external stimuli and internal representations priority over competing alternatives. Because perception, working memory, and action all have limited capacity, the information that wins this competition disproportionately shapes what is encoded, remembered, and used in judgment ([1] [4] [6]).
 
@@ -29,6 +29,8 @@
 - [Prospect Theory -- Why Losses Feel Twice as Painful as Gains Feel Good](prospect-theory.md) -- [reviewed: never] -- Prospect theory, developed by Daniel Kahneman and Amos Tversky in 1979, is the most influential descriptive theory of how people actually make decisions under risk. It replaced expected utility theory -- the long-dominant normative model of rational choice -- with an empirically grounded alternative that accounts for systematic human deviations from rationality: people evaluate outcomes as gains...
 
 - [Social Influence and Conformity -- Why Groups Quietly Rewrite Individual Judgment](social-influence-and-conformity.md) -- [reviewed: never] -- Social influence is the process by which individuals change their beliefs, attitudes, and behaviors to align with the real or imagined presence of others. It is not a peripheral curiosity -- it is the primary mechanism by which culture transmits, norms stabilize, and groups coordinate, but also the mechanism by which dissent is suppressed, bad decisions amplify, and individuals do things in groups they would never do alone.
+
+- [Sunk Costs Distort the Next Decision When the Past Becomes a Reason to Continue](sunk-cost-and-escalation-of-commitment.md) -- [reviewed: never] -- A sunk cost is an investment of money, time, effort, or identity that cannot be recovered, while the sunk-cost effect is the increased tendency to continue because that investment has already been made [1][8]. Escalation of commitment is the broader process in which negative feedback is followed by further commitment to a chosen course; it can include sunk-cost sensitivity, but also...
 
 - [System 1 vs System 2 Thinking -- The Dual-Process Architecture That Governs Every Human Decision](system-1-vs-system-2-thinking.md) -- [reviewed: never] -- Human cognition operates through two qualitatively distinct modes: a fast, automatic, intuitive system that runs continuously and an effortful, deliberate system that intervenes only when called upon. Popularized by Daniel Kahneman in "Thinking, Fast and Slow" (2011) but rooted in decades of dual-process research by Keith Stanovich, Jonathan Evans, and others, this architecture explains why the same mind can solve complex equations and yet fall for the same cognitive trap repeatedly.
 
