@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Human Biological Variation -- Population History, Adaptation, and the Limits of Racial Typologies
-- **Domain:** anthropology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.6/10.0 (gap=9.5, compounding=9.6, timeliness=9.3, balance=10.0)
-- **Scope:** Examines human biological variation through population history, migration, gene flow, drift, selection, and adaptation without treating racial labels as stable biological types. Covers clinal and overlapping variation, ancestry inference, local adaptation, phenotype-environment interaction, sampling bias, and the ethical use of population descriptors. Connects biological anthropology to human evolution, genetics, medicine, and the sociology of race while preserving differences in their levels of analysis. Distinguishes anthropological synthesis from clinical risk prediction, racial classification policy, and a general genetics primer.
-- **Status:** proposed
-
 ## Candidate: The Structure of Scientific Revolutions -- Kuhn's Book on Paradigms, Crises, and Scientific Change
 - **Domain:** books
 - **Proposed by:** Librarian
