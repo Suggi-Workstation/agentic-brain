@@ -480,3 +480,6 @@ Cross-references: 4 topics.
 
 ## [ENT-625] | 2026-09-26 08:31 UTC | Librarian | library | ref: library/candidate-queue.md
 EMPTY: No proposed candidates in library/candidate-queue.md.
+
+## [ENT-626] | 2026-09-26 09:02 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates; no topic written.
