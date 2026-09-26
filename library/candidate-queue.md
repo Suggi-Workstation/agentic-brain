@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Habit Formation and Automaticity -- How Cues, Repetition, and Context Shape Behavior
-- **Domain:** psychology-behavior
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.5/10.0 (gap=9.4, compounding=9.5, timeliness=9.2, balance=10.0)
-- **Scope:** Examines the psychological mechanisms by which repeated actions become cue-dependent and less reliant on deliberate control. Covers context stability, reinforcement, repetition, automaticity measurement, reward prediction, habit discontinuity, extinction, relapse, and the interaction between goals and habits. Evaluates competing models and evidence rather than treating a fixed number of days or willpower as a universal law. Distinguishes mechanism from self-help programs, clinical treatment, and organizational behavior design.
-- **Status:** proposed
-
 ## Candidate: Medical Anthropology -- How Culture, Institutions, and Power Shape Illness and Healing
 - **Domain:** anthropology
 - **Proposed by:** Librarian
