@@ -1,6 +1,6 @@
 # Sociology Demography -- Topics
 
-15 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
+16 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
 
 - [Census and Survey Measurement -- Official Population Data Are Produced, Not Simply Found](census-and-survey-measurement.md) -- [reviewed: never] -- Censuses and surveys do not passively copy a population into a table; institutions define a target population, build a frame, ask questions, pursue responses, adjust incomplete records, and protect confidentiality before publishing statistics.[1][2] Those operations can produce indispensable evidence while also creating coverage, sampling, nonresponse, measurement, processing, and disclosure-avoidance errors.
 
@@ -27,6 +27,8 @@
 - [Social Stratification and Mobility -- Why the Hierarchical Arrangement of Society Determines Who Rises and Who Stays](social-stratification-and-mobility.md) -- [reviewed: never] -- Social stratification is the hierarchical arrangement of individuals and groups in a society based on their access to wealth, power, status, and opportunity. Social mobility is the mechanism by which people move between these strata -- upward, downward, or horizontally -- within a lifetime (intragenerational) or across generations (intergenerational).
 
 - [The Family as a Social Institution -- How Gendered Structures Shape Work, Care, and Household Formation](sociology-of-family-and-gender.md) -- [reviewed: never] -- The family is the foundational social institution through which societies organize reproduction, care, economic production, and the transmission of norms across generations. Sociology examines the family not as a natural or private unit but as a socially constructed institution whose forms and internal divisions -- especially the gendered division of labor -- reflect and reproduce broader patterns of inequality.
+
+- [Religion Persists by Changing Its Institutions, Networks, and Population Base](sociology-of-religion.md) -- [reviewed: never] -- The sociology of religion treats religion as a social institution, not only as private belief: organizations distribute authority, congregations build networks, families transmit identities, and demographic processes change the composition of religious populations. Its central finding is that modernization does not produce one uniform outcome called religious decline; affiliation, practice,...
 
 - [Sociology of Work and Labor Markets -- Work Organizes Social Inequality Rather Than Merely Allocating Jobs](sociology-of-work-and-labor-markets.md) -- [reviewed: never] -- Work is a social institution through which organizations allocate income, status, security, authority, and exposure to risk. Labor markets are therefore not only mechanisms for matching workers to tasks: they are structured by occupations, firms, employment rules, demographic categories, and technological change, which can make similar human capital produce different outcomes.
 
