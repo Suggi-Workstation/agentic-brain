@@ -1,8 +1,10 @@
 # Psychology Behavior -- Topics
 
-16 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
+17 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
 
 - [Attention, Salience, and Cognitive Control -- What Enters Awareness Shapes What We Decide](attention-salience-and-cognitive-control.md) -- [reviewed: never] -- Attention is not a neutral window onto the world; it is a selective system that gives some external stimuli and internal representations priority over competing alternatives. Because perception, working memory, and action all have limited capacity, the information that wins this competition disproportionately shapes what is encoded, remembered, and used in judgment ([1] [4] [6]).
+
+- [Choice Overload Is Conditional -- More Options Can Improve Matching or Increase Deferral and Regret](choice-overload.md) -- [reviewed: never] -- Choice overload is not a universal rule that more options make people worse off; it is a family of adverse outcomes that sometimes appears when a larger set makes comparison, preference construction, or commitment harder [2][3]. Larger assortments can instead attract attention, improve the chance of finding a close preference match, and increase satisfaction when options are organized and the chooser knows what matters [1][4][8].
 
 - [Cognitive Biases -- Systematic Errors That Shape Every Human Decision](cognitive-biases.md) -- [reviewed: never] -- Cognitive biases are systematic patterns of deviation from rationality in human judgment and decision-making. First catalogued by psychologists Daniel Kahneman and Amos Tversky in their heuristics-and-biases research program starting in the early 1970s, these biases arise from mental shortcuts (heuristics) that the brain uses to process the overwhelming volume of information it encounters.
 
