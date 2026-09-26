@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Education as a Social Institution -- Credentialing, Reproduction, and Mobility
-- **Domain:** sociology-demography
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.6/10.0 (gap=9.4, compounding=9.7, timeliness=9.5, balance=10.0)
-- **Scope:** Examines education as a social institution that allocates credentials, status, opportunity, and cultural knowledge rather than only transmitting skills. Covers schooling expansion, tracking, credentialism, social reproduction, peer and network effects, unequal resources, mobility, and variation across class, race, gender, and place. Compares human-capital, signaling, conflict, and institutional explanations while separating measured association from causal evidence. Distinguishes social structure and population outcomes from classroom pedagogy, learning mechanisms, and education-policy design.
-- **Status:** proposed
-
 ## Candidate: Metaethics -- Moral Realism, Anti-Realism, and the Meaning of Moral Claims
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
