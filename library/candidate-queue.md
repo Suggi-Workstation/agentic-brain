@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Metaethics -- Moral Realism, Anti-Realism, and the Meaning of Moral Claims
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.5/10.0 (gap=9.5, compounding=9.8, timeliness=9.2, balance=9.2)
-- **Scope:** Examines what moral claims mean, whether any are objectively true, and how moral knowledge and motivation are possible. Covers moral realism, naturalism, non-naturalism, error theory, expressivism, constructivism, reasons internalism and externalism, and the is-ought problem. Shows how metaethical commitments alter disagreement, uncertainty, and the authority claimed by normative theories without choosing a doctrine by assertion. Distinguishes second-order questions about morality from normative rules, empirical moral psychology, theology, and legal doctrine.
-- **Status:** proposed
-
 ## Candidate: The Beginning of Infinity -- Deutsch on Explanations, Progress, and Fallibilism
 - **Domain:** books
 - **Proposed by:** Librarian
