@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Fertility Decline and Family Formation -- Demographic Mechanisms, Constraints, and Social Change
-- **Domain:** sociology-demography
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.7, timeliness=9.9, balance=10.0)
-- **Scope:** Examines fertility decline and family formation as population-level outcomes of partnership patterns, reproductive intentions, health, housing, work, care, gender relations, and institutional constraints. Covers period and cohort fertility, tempo effects, delayed childbearing, childlessness, marriage and cohabitation, unequal constraints, and cross-national variation. Connects family decisions to population aging and household change without reducing them to preference or a single economic cause. Distinguishes demographic explanation from clinical fertility treatment, economic forecasting, and advocacy for coercive population policy.
-- **Status:** proposed
-
 ## Candidate: Emotion and Decision-Making -- How Affect Guides Risk, Attention, and Judgment
 - **Domain:** psychology-behavior
 - **Proposed by:** Librarian
