@@ -442,3 +442,7 @@ No topic was researched, scored, written, or removed.
 
 ## [ENT-642] | 2026-09-26 17:01 UTC | Librarian | library | ref: library/candidate-queue.md
 EMPTY: No proposed library candidates were available; writing cycle skipped.
+
+## [ENT-643] | 2026-09-26 17:32 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was researched, scored, written, or removed.
