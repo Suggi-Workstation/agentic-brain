@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Antitrust Law and Digital Markets -- Market Power, Platforms, and Remedies
-- **Domain:** law-regulation
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.6/10.0 (gap=9.4, compounding=9.8, timeliness=10.0, balance=9.2)
-- **Scope:** Examines how antitrust law evaluates market power, exclusion, mergers, vertical integration, self-preferencing, and remedies in digital markets. Covers market definition, two-sided platforms, network effects, data advantages, interoperability, switching costs, nascent competition, conduct versus structural relief, and comparative enforcement frameworks. Uses current platform cases to show where established doctrine fits poorly or remains adaptable without treating concentration alone as illegality. Distinguishes legal rules and adjudication from industry strategy, platform economics, and general technology policy.
-- **Status:** proposed
-
 ## Candidate: Choice Overload -- When More Options Help, Harm, or Defer Decisions
 - **Domain:** psychology-behavior
 - **Proposed by:** Librarian
