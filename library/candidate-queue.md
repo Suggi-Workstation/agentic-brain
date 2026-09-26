@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Medical Anthropology -- How Culture, Institutions, and Power Shape Illness and Healing
-- **Domain:** anthropology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.5, timeliness=9.2, balance=10.0)
-- **Scope:** Examines illness and healing as cultural and social experiences as well as biological events. Covers explanatory models, plural medical systems, ritual and care, embodiment, stigma, practitioner-patient interpretation, colonial histories, structural violence, and ethnographic study of health institutions across societies. Connects indigenous knowledge and kinship to public-health delivery while testing romantic or universal claims against comparative evidence. Distinguishes anthropological analysis from clinical treatment guidance, epidemiology, and health-policy prescription.
-- **Status:** proposed
-
 ## Candidate: Fertility Decline and Family Formation -- Demographic Mechanisms, Constraints, and Social Change
 - **Domain:** sociology-demography
 - **Proposed by:** Librarian
