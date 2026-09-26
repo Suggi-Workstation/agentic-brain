@@ -1,6 +1,6 @@
 # Geopolitics -- Topics
 
-15 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
+16 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
 
 - [Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture](alliance-credibility-and-burden-sharing.md) -- [reviewed: 2026-09-24] -- A security alliance is a contingent promise: members agree to consult, prepare, or assist under specified circumstances, but the treaty cannot mechanically determine what each government will do in a future crisis.[1][7][10] Alliance credibility therefore depends on the alignment of declared obligations, usable military capability, political resolve, and shared exposure to the costs of failure;...
 
@@ -27,6 +27,8 @@
 - [Rare Earths and Critical Minerals -- The New Cartography of Power](rare-earths-critical-minerals.md) -- [reviewed: never] -- Rare earth elements and critical minerals have become the strategic chokepoints of the 21st century, transforming from obscure industrial inputs into instruments of geopolitical leverage. China's near-monopoly on processing and refining -- approximately 90 percent of global capacity -- gives Beijing coercive power over the defense, clean energy, and semiconductor supply chains of virtually every industrialized nation.
 
 - [Soft Power -- Why Attraction Works When Coercion Cannot](soft-power-and-cultural-influence.md) -- [reviewed: never] -- Soft power is the ability of a state to obtain preferred outcomes through attraction and persuasion rather than coercion or payment. Coined by Joseph Nye in 1990, the concept identifies a dimension of international influence that military and economic power cannot reach: shaping what others want through the appeal of one's culture, political values, and foreign policies.
+
+- [Territorial Disputes Escalate When Borders Become Tests of Nationhood, Power, and Resolve](territorial-disputes-and-irredentism.md) -- [reviewed: never] -- Territorial disputes are contests over who may exercise sovereignty in a specified place, but their danger depends less on area alone than on the strategic, economic, historical, and identity claims attached to it. Irredentism is a narrower form in which a state seeks territory associated with ethnic kin outside its borders; it is politically potent but empirically uncommon relative to the number of possible cross-border kin claims.
 
 - [Trade Wars and Economic Sanctions -- How Interdependence Became a Weapon and Why the Global Economic Order Is Fragmenting](trade-wars-economic-sanctions.md) -- [reviewed: never] -- Trade wars and economic sanctions are not new instruments of statecraft, but their scale, sophistication, and systemic consequences have transformed dramatically in the twenty-first century. The post-Cold War assumption that deepening economic interdependence would produce peace has given way to a world where the very networks of trade, finance, and technology that bind nations together are being repurposed as weapons of coercion.
 
