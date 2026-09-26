@@ -1,12 +1,14 @@
 # Industries Sectors -- Topics
 
-12 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
+13 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
 
 - [Airline Industry Economics -- Network Value Cannot Eliminate the Capacity Cycle](airline-industry-economics-fixed-costs-networks-and-cycles.md) -- [reviewed: 2026-09-21] -- Airlines create valuable connectivity by combining aircraft, airport access, schedules, and demand into networks, but their perishable inventory and committed capacity make that value difficult to retain as durable profit. Route density, hub scope, revenue management, loyalty, and disciplined capacity can improve economics; none removes exposure to price competition, fuel and labor costs, demand shocks, regulation, or the capital cycle ([1] [6] [7] [10]).
 
 - [Capital Cycle Analysis -- Why High Returns Attract the Capital That Destroys Them](capital-cycle-analysis.md) -- [reviewed: never] -- Capital cycle analysis is an industry-level investing framework developed by Marathon Asset Management and articulated by financial historian Edward Chancellor. Its central insight is deceptively simple: high profitability attracts a flood of capital investment, which creates overcapacity and destroys the very returns that attracted the capital in the first place.
 
 - [Cyclical vs Secular Trends -- Why Betting on Mean Reversion When the World Has Shifted Is the Costliest Mistake in Capital Allocation](cyclical-vs-secular-trends.md) -- [reviewed: never] -- Distinguishing cyclical fluctuations from secular shifts is among the highest-stakes analytical challenges in industry analysis and capital allocation. A cyclical trend is a temporary swing driven by the business cycle that will reverse; a secular trend is a structural, often irreversible change in how an industry creates and captures value.
+
+- [Data Center Industry Economics -- Power Rights and Utilization Determine Returns Before Compute Demand Does](data-center-industry-economics.md) -- [reviewed: never] -- Data centers turn demand for computing into a location-bound business built from power, land, connectivity, equipment, and long-lived capital. AI is increasing prospective demand, but industry returns depend first on whether an operator can secure deliverable power, contract customers, fill capacity, and recover both operating cost and continuing investment without accepting excessive concentration or financing risk [1][6][7].
 
 - [Disruption Theory -- Why Excellent Management Systematically Destroys Market Leaders](disruption-theory.md) -- [reviewed: never] -- Disruption theory explains one of the most counterintuitive patterns in business: the best-managed companies, with the best customers and the best financial discipline, are the most vulnerable to being destroyed by inferior products from upstart competitors. Clayton Christensen's research demonstrated that this is not a failure of management -- it is the rational outcome of the same managerial practices that make incumbent firms excel.
 
