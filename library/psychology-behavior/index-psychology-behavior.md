@@ -1,6 +1,6 @@
 # Psychology Behavior -- Topics
 
-13 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
+14 topics. Anchor: [anchor-psychology-behavior.md](anchor-psychology-behavior.md)
 
 - [Attention, Salience, and Cognitive Control -- What Enters Awareness Shapes What We Decide](attention-salience-and-cognitive-control.md) -- [reviewed: never] -- Attention is not a neutral window onto the world; it is a selective system that gives some external stimuli and internal representations priority over competing alternatives. Because perception, working memory, and action all have limited capacity, the information that wins this competition disproportionately shapes what is encoded, remembered, and used in judgment ([1] [4] [6]).
 
@@ -11,6 +11,8 @@
 - [Decision Fatigue and Ego Depletion -- Fatigue Is Real, but a Universal Depletable Resource Is Not Established](decision-fatigue-and-ego-depletion.md) -- [reviewed: never] -- Decision fatigue and ego depletion describe plausible changes after sustained choice or self-control, but they do not identify one proven, domain-general resource that predictably runs down with use. The strongest post-replication conclusion is narrower: effort and subjective fatigue can change, small performance effects sometimes occur under particular tasks, and field decisions sometimes vary...
 
 - [Framing Effects -- Why the Same Information Produces Radically Different Decisions](framing-effects.md) -- [reviewed: never] -- Framing effects are the systematic influence that the presentation of information -- rather than its objective content -- exerts on human decisions. When logically identical options are described differently, people reliably reverse their preferences: they become risk-averse when outcomes are framed as gains and risk-seeking when the same outcomes are framed as losses.
+
+- [Habit Formation and Automaticity -- Stable Cues Turn Repeated Actions into Defaults, Not Immutable Commands](habit-formation-and-automaticity.md) -- [reviewed: never] -- A habit is a learned process in which a contextual cue automatically activates an impulse toward a response, so repeated behavior can become less dependent on moment-to-moment deliberation [1][13]. Repetition matters because it builds a cue-response association, but repetition is not a universal clock: context stability, reward, behavioral complexity, measurement choice, competing goals, and individual variation all affect what forms and what is later expressed [3][8][15][16].
 
 - [Heuristics -- Why Mental Shortcuts Are Both Essential and Systematically Wrong](heuristics.md) -- [reviewed: never] -- Heuristics are mental shortcuts that reduce the cognitive load of decision-making by substituting a complex question with a simpler one. Identified by Daniel Kahneman and Amos Tversky in their heuristics-and- biases research program starting in the early 1970s, the three primary heuristics -- availability, representativeness, and anchoring -- explain how humans navigate uncertainty without computing probabilities.
 
