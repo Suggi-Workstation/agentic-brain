@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Data Center Industry Economics -- Power, Capacity, and the AI Infrastructure Cycle
-- **Domain:** industries-sectors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-24
-- **Discovery score:** 9.6/10.0 (gap=9.5, compounding=9.8, timeliness=10.0, balance=9.2)
-- **Scope:** Examines data centers as an industry whose economics turn compute demand into land, power, cooling, network, chip, and construction bottlenecks. Covers hyperscale, colocation, and enterprise models; utilization, contracting, capital intensity, interconnection queues, location, depreciation, financing, and profit-pool allocation. Tests how AI demand, efficiency gains, customer concentration, and grid constraints shape capacity cycles and bargaining power. Distinguishes industry economics from cloud-computing architecture, semiconductor design, facility engineering, and energy policy.
-- **Status:** proposed
-
 ## Candidate: Antitrust Law and Digital Markets -- Market Power, Platforms, and Remedies
 - **Domain:** law-regulation
 - **Proposed by:** Librarian
