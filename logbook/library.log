@@ -468,3 +468,6 @@ The writer cycle published no topic and removed no candidate.
 ## [ENT-649] | 2026-09-26 20:31 UTC | Librarian | library | ref: library/candidate-queue.md
 EMPTY: Candidate queue contains no proposed entries.
 No topic was selected or written.
+
+## [ENT-650] | 2026-09-26 21:01 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: No proposed candidates in library/candidate-queue.md.
