@@ -402,3 +402,7 @@ EMPTY: No proposed candidates in library/candidate-queue.md; writer cycle exited
 ## [ENT-659] | 2026-09-27 01:31 UTC | Librarian | library | ref: library/candidate-queue.md
 EMPTY: No proposed candidates in library/candidate-queue.md.
 Writer cycle exited without selecting or writing a topic.
+
+## [ENT-660] | 2026-09-27 02:01 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was researched, scored, written, or removed.
