@@ -11,6 +11,9 @@ import sys
 import tempfile
 import unittest
 
+# Test imports must not leave untracked bytecode in the shared source tree.
+sys.dont_write_bytecode = True
+
 SCRIPT = Path(__file__).resolve().parents[1] / "library-publish.py"
 
 
@@ -37,6 +40,22 @@ class PublisherTests(unittest.TestCase):
         git(self.repo, "add", ".")
         git(self.repo, "commit", "-qm", "fixture baseline")
         self.baseline = git(self.repo, "rev-parse", "HEAD")
+
+    def test_direct_test_run_does_not_leave_source_bytecode(self):
+        source = self.root / "source/scripts"
+        tests = source / "tests"
+        tests.mkdir(parents=True)
+        (source / SCRIPT.name).write_bytes(SCRIPT.read_bytes())
+        test_script = tests / Path(__file__).name
+        test_script.write_bytes(Path(__file__).read_bytes())
+        env = {key: value for key, value in os.environ.items()
+               if key not in {"PYTHONDONTWRITEBYTECODE", "PYTHONPYCACHEPREFIX"}}
+        result = subprocess.run(
+            [sys.executable, str(test_script),
+             "PublisherTests.test_review_due_uses_six_calendar_months_and_rejects_invalid_dates"],
+            env=env, capture_output=True, text=True, timeout=30)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(list(source.rglob("*.pyc")), [], "Tests dirtied the source tree")
 
     def request(self, **updates):
         data = {
