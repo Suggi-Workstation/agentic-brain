@@ -49,6 +49,9 @@ Use `tesseract --list-langs` before selecting a language; `osd` detects orientat
 and script, not a text language. Docling's layout and table models are local at
 `/opt/document-tools/models/docling/`. Commands below process documents locally.
 
+OCRmyPDF and the documented Docling route both use Tesseract; switching wrappers
+does not provide an independent OCR engine.
+
 ## Choose the Route
 
 | Need | Use | Why |
@@ -59,7 +62,7 @@ and script, not a text language. Docling's layout and table models are local at
 | Read image-only PDF pages or create a searchable PDF | OCRmyPDF | Adds OCR text while retaining the visible document. |
 | Recover image text on pages that also contain native text | OCRmyPDF `--redo-ocr`, or Docling | `--skip-text` skips the whole page, including unread image regions. |
 | Read ordinary digital PDFs as Markdown with page markers | PyMuPDF4LLM | Reconstructs reading order and tables from the text/layout. |
-| Preserve spanning table headers or merged cells | PyMuPDF4LLM HTML tables | Retains detected row/column spans without switching parsers. |
+| Recover fragmented table text or spanning headers | PyMuPDF4LLM HTML tables | Can retain text and detected spans without switching parsers; not a guaranteed repair. |
 | Recover complex tables, columns or structure | Docling | Uses layout and table models; returns structured provenance. |
 | Extract selected table cells or diagnose column boundaries | pdfplumber | Exposes coordinates, crops and configurable table detection. |
 
@@ -74,7 +77,10 @@ and script, not a text language. Docling's layout and table models are local at
    needed. Do not run OCR over clean text merely to obtain Markdown.
 3. Read the generated output with `read_file`; locate passages with
    `search_files`. Check tool warnings and actual content, not exit status alone.
-   If coverage or structure fails, change route and compare with rendered pages.
+   For wrong/missing characters, adjust rendering, crop or OCR segmentation.
+   For wrong columns, units or notes, inspect native coordinates and structure.
+   Change one setting at a time; keep only source-checked improvements, not the
+   output with the highest confidence or most text.
 4. Verify each material figure's labels, signs, decimals, units, periods and
    footnotes against the source. Follow referenced notes and continuations onto
    their pages. Check table columns and chart series, not just matching digits.
@@ -97,15 +103,20 @@ mkdir -p "$OUT"
 ```bash
 /usr/bin/pdfinfo "$PDF"
 /usr/bin/pdftotext -layout -f 5 -l 7 "$PDF" "$OUT/pages-5-7.txt"
-/usr/bin/pdftoppm -f 5 -l 5 -singlefile -r 200 -png "$PDF" "$OUT/page-5"
+/usr/bin/pdftoppm -f 5 -l 5 -singlefile -r 300 -png "$PDF" "$OUT/page-5"
 ```
 
 Page selection is 1-based and inclusive. `-layout` approximates physical text
 spacing; it does not reconstruct table cells. Omit `-f` and `-l` for all pages.
-The render creates `page-5.png`; open it with `vision_analyze`. Increase rendering
-resolution for small text. An empty extraction may be a scan or a blank page;
-render it before deciding. `pdfimages -list "$PDF"` lists embedded images, not
-proof that those images contain unread text.
+The render creates `page-5.png`; open it with `vision_analyze`, then use its
+`region` crop for small text rather than judging a downscaled whole-page view.
+Use 300 DPI for OCR; compare 400 DPI on difficult pages/regions. Re-render from
+the best original: changing a DPI label adds no pixels, and enlarging a scan
+cannot restore missing detail. Higher DPI can regress recognition; check it.
+Poppler crop options `-x X -y Y -W WIDTH -H HEIGHT` use pixels at the chosen DPI.
+Retain a small margin and the needed labels/headers. An empty text extraction
+may be a scan or a blank page; render it before deciding.
+`pdfimages -list "$PDF"` lists images, not proof that they contain unread text.
 
 ### Tesseract: image OCR
 
@@ -114,14 +125,17 @@ OMP_THREAD_LIMIT=2 /usr/bin/tesseract "$OUT/page-5.png" stdout -l eng --psm 3
 OMP_THREAD_LIMIT=2 /usr/bin/tesseract "$OUT/page-5.png" "$OUT/page-5-words" -l eng --psm 3 tsv
 ```
 
-Input is an image, not a PDF. `--psm 3` detects page layout; use `--psm 6` for an
-already-cropped uniform text block, not an entire multi-column page. `tsv` writes
-word boxes and confidence to `page-5-words.tsv`; confidence is not proof of
+Input is an image, not a PDF. Choose segmentation for the region: `--psm 3` for
+automatic page layout, `6` for a cropped uniform block, `7` for one line, or `11`
+for sparse chart/slide labels. Mode 11 does not preserve reading order; use boxes
+and the source to associate values. Do not apply block mode to a multi-column page.
+`tsv` writes word boxes and confidence to `page-5-words.tsv`; confidence is not proof of
 numeric correctness. Replace `tsv` with `hocr` for positioned HTML or `pdf` for
 a searchable image PDF. Multiple installed languages use `-l eng+deu`.
 
-For missed regions, crop/re-render the best available source at 300 DPI and retry
-the isolated block with `--psm 6`; verify row associations, not only word presence.
+For missed regions, crop/re-render at 300-400 DPI and choose the matching mode
+above. Verify row associations as well as characters. Compare preprocessing only
+when the image warrants it; thresholding or background removal can erase detail.
 
 ### OCRmyPDF: searchable PDFs
 
@@ -130,13 +144,17 @@ For image-only pages, including files interleaving digital and scanned pages:
 ```bash
 OMP_THREAD_LIMIT=2 /opt/document-tools/ocr/bin/ocrmypdf \
   --no-overwrite --skip-text --output-type pdf --optimize 0 \
-  --jobs 2 --tesseract-timeout 120 -l eng \
+  --jobs 2 --oversample 300 --tesseract-timeout 120 -l eng \
   "$PDF" "$OUT/searchable.pdf"
 ```
 
 Use a different output path from the input. This uses local PDFium rendering;
 Ghostscript is not required for this ordinary-PDF route. Read the result with
 Poppler or convert it with PyMuPDF4LLM using `--ocr-mode never`.
+
+`--oversample 300` sets a minimum rasterization resolution, not an accuracy
+guarantee. Compare `--oversample 400` only on affected pages; prefer a fresh
+render from a digital original to enlarging an already rasterized copy.
 
 - Replace `--skip-text` with `--redo-ocr` to replace old invisible OCR and recover
   text in images while preserving visible native text on the same page.
@@ -167,7 +185,7 @@ content, not just batch completion. Headers and footers are explicitly retained.
 
 - Use `--backend json` for page numbers, boxes and table structure, or
   `--backend txt` for plain text. JSON uses `pages[].page_number` (1-based).
-- For merged/spanning table headers, add `--opt table_output=html` to Markdown
+- For fragmented cell text or spanning headers, add `--opt table_output=html` to Markdown
   output; in `to_markdown(...)`, add `table_output="html"`. Inspect the retained
   spans and each value's column/unit before deciding whether another tool helps.
 - Optional selective OCR: replace `--ocr-mode never` with
@@ -190,6 +208,11 @@ Arguments are 1-based; the API list is 0-based. Each returned chunk has `text`,
 `page_boxes` and `metadata.page_number` (1-based). Match chunks by this number,
 not request order. CLI `--opt` does not parse list values; a string such as
 `pages=[4,5,6]` fails inside the batch.
+
+If conversion fragments a needed row, `import pymupdf` in the same environment,
+open `doc = pymupdf.open(...)`, select `page = doc[page_number - 1]`, then call
+`page.get_text("text", clip=pymupdf.Rect(x0, y0, x1, y1), sort=True)`. Bounds are
+PDF points. Read the corresponding header/unit region too; a row is not a schema.
 
 ### Docling: complex layout and tables
 
@@ -237,8 +260,16 @@ nonempty arrays can still contain fragmented rows or collapsed columns.
   "text", "horizontal_strategy": "text"})`; inspect for false columns.
 - Isolate a table with `page.crop((x0, top, x1, bottom))`, then extract from the
   cropped page. Coordinates are PDF points measured from the top-left.
+- If columns remain merged, read spanning headers/units separately from the body.
+  Set `boundaries` to this source's measured column-edge x positions, then try
+  `page.extract_tables({"vertical_strategy": "explicit",
+  "explicit_vertical_lines": boundaries, "horizontal_strategy": "text"})`
+  on the cropped body; never reuse another document's coordinates blindly.
+- For footnote digits joined to amounts, use `page.extract_words(extra_attrs=["size"])`
+  and inspect `page.chars` (`size`, `x0`, `x1`, `top`, `bottom`). Size/baseline and
+  column position can separate markers; do not blindly strip trailing digits.
 - Inspect `page.extract_words()` for word boxes. To see detected lines/cells,
-  use `page.to_image(resolution=150).debug_tablefinder().save("table-debug.png")`
+  use `page.to_image(resolution=300).debug_tablefinder().save("table-debug.png")`
   inside the same Python context, with a chosen absolute output path.
 - pdfplumber does not perform OCR. Use an OCRmyPDF result if the source is a
   scan, and expect OCR-positioned tables to need additional inspection.
