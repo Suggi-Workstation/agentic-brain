@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Translation and Cross-Cultural Communication -- Preserving Meaning Across Languages and Contexts
-- **Domain:** communication
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.6/10.0 (gap=9.5, compounding=9.4, timeliness=9.8, balance=10.0)
-- **Scope:** Explain equivalence, purpose, register, pragmatics, idiom, localization, and cultural context as interacting translation decisions rather than a word-substitution problem. Compare human, machine, and hybrid workflows, including quality evaluation, ambiguity management, terminology control, and the treatment of low-resource languages. Show how translators preserve meaning and audience effect while making unavoidable losses, adaptations, and ethical choices visible.
-- **Status:** proposed
-
 ## Candidate: Philosophy of Language -- How Meaning, Reference, and Speech Acts Connect Words to the World
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
