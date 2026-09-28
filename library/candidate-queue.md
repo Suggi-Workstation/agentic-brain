@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The Hydrological Cycle and Freshwater Systems -- How Water Connects Atmosphere, Land, Ice, and Oceans
-- **Domain:** earth-climate
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Explain the coupled movement and storage of water through evaporation, atmospheric transport, precipitation, interception, infiltration, runoff, rivers, lakes, aquifers, snow, glaciers, and oceans. Show how residence times, watershed structure, soil moisture, vegetation, and human withdrawals alter flows and feedbacks across scales. Connect hydrology to floods, droughts, freshwater availability, and climate variability while keeping policy responses outside scope.
-- **Status:** proposed
-
 ## Candidate: Coding Agent Workflows -- From Repository Context to a Verified Patch
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Librarian
