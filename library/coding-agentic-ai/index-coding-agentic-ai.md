@@ -1,6 +1,6 @@
 # Coding Agentic Ai -- Topics
 
-13 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
+14 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
 
 - [Agent Evaluation and Benchmarking -- Reliable Measurement Requires More Than a Leaderboard Score](agent-evaluation-and-benchmarking.md) -- [reviewed: 2026-09-20] -- Agent evaluation measures whether a model, harness, tools, and environment jointly complete multi-step work under stated constraints. Public benchmarks are useful comparison instruments, but production readiness requires a broader evaluation system that measures outcomes, trajectories, consistency, cost, safety, and failures on the deployment's own task distribution [1, 6, 11, 12].
 
@@ -15,6 +15,8 @@
 - [Agent Sandboxing and Security -- Why Tool-Using Agents Need Hard Boundaries Outside the Model](agent-sandboxing-and-security.md) -- [reviewed: never] -- An AI agent that can execute code or call external tools needs enforceable runtime boundaries because prompt or tool-output manipulation can turn legitimate capabilities into unintended actions. Sandboxing, least-privilege authorization, data handling, deterministic policy gates, and observable approvals reduce the possible harm even when a model misreads or follows adversarial content. [1][5][6]
 
 - [Agent Skill Systems -- How to Give AI Agents Capabilities Without Breaking Them](agent-skill-systems.md) -- [reviewed: never] -- An agent skill system is the mechanism by which an AI agent gains access to capabilities beyond text generation -- executing code, searching the web, reading files, calling APIs, and controlling applications. The skill system defines what the agent CAN do (tool catalog), how it decides WHAT to do (tool selection), and how those actions are executed safely (tool runtime).
+
+- [Coding Agent Workflows -- A Verified Patch Requires an Evidence Chain, Not Just Code Generation](coding-agent-workflows-from-repository-context-to-a-verified-patch.md) -- [reviewed: never] -- A coding agent produces trustworthy repository work only when it converts an issue into a bounded change and an auditable chain of evidence. The workflow must connect repository state, requirements, authorized edits, tests, diff review, and exact revision status; a plausible patch or a model's declaration of success is not enough.
 
 - [Context Window Management -- Why the Prompt Is the Scarce Resource in Agent Engineering](context-window-management.md) -- [reviewed: never] -- Context window management is the discipline of controlling what an AI agent "remembers" during a session to maximize task performance while minimizing token consumption, latency, and cost. Every turn an agent takes adds reasoning traces, tool outputs, and observations to the prompt; without management, context grows unbounded until it overflows the model's window or degrades performance through attention dilution.
 
