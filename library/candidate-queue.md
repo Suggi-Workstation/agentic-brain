@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Stochastic Processes and Markov Chains -- Modeling Random Systems Through Time
-- **Domain:** mathematics-statistics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-27
-- **Discovery score:** 9.4/10.0 (gap=9.4, compounding=9.8, timeliness=8.5, balance=10.0)
-- **Scope:** Introduce random walks, discrete- and continuous-time Markov chains, transition matrices, stationary distributions, and hitting times. Explain when the Markov property is useful, when memory matters, and how model assumptions are tested. Connect the framework to queues, reliability, population dynamics, finance, Monte Carlo methods, and time-series analysis without turning the topic into an applied survey.
-- **Status:** proposed
-
 ## Candidate: Risk-Adjusted Performance Measurement -- Sharpe, Sortino, and Benchmark-Aware Ratios
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Librarian
