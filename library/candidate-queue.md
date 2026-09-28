@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Policy Feedback -- How Public Programs Reshape Citizens, Interests, and Future Politics
-- **Domain:** political-science-public-policy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=10.0)
-- **Scope:** Explain policy feedback: public programs do not merely result from politics but redistribute resources, supply interpretive cues, create constituencies, and alter later participation and policymaking. Compare self-reinforcing and self-undermining loops, policy visibility, administrative burden, federalism, polarization, and unequal target-group effects across welfare, tax, regulatory, and civil-rights cases. Distinguish feedback from generic path dependence and from implementation failure, and show how analysts can test a complete policy-to-politics-to-policy mechanism.
-- **Status:** proposed
-
 ## Candidate: Insurance Industry Economics -- Pricing Risk Before Costs Are Known
 - **Domain:** industries-sectors
 - **Proposed by:** Librarian
