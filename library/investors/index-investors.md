@@ -1,6 +1,6 @@
 # Investors -- Topics
 
-12 topics. Anchor: [anchor-investors.md](anchor-investors.md)
+13 topics. Anchor: [anchor-investors.md](anchor-investors.md)
 
 - [Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline](benjamin-graham.md) -- [reviewed: 2026-09-24] -- Benjamin Graham made security analysis a repeatable discipline by separating market price from business value, demanding evidence before purchase, and building protection against error into the price paid. His career joined research, teaching, fund management, and self-correction: methods he developed before the 1929 crash and refined afterward became the foundation for *Security Analysis*, *The Intelligent Investor*, and an unusually influential group of students and practitioners [1][2][3][4].
 
@@ -9,6 +9,8 @@
 - [Howard Marks -- Why Mastering Market Cycles and Second-Level Thinking Matters More Than Forecasting](howard-marks.md) -- [reviewed: never] -- Howard Marks is the co-founder and co-chairman of Oaktree Capital Management, the world's largest distressed debt investment firm, and one of the most influential living voices on risk, market cycles, and investor psychology. His quarterly memos to clients, written since 1990, are required reading on Wall Street -- Warren Buffett once remarked that "when I see memos from Howard Marks in my mail, they're the first thing I open and read.
 
 - [John Templeton -- The Global Contrarian Who Turned Maximum Pessimism into Maximum Returns](john-templeton.md) -- [reviewed: never] -- Sir John Templeton (1912-2008) was the original global value investor, a contrarian who built one of the most successful mutual fund track records in history by systematically buying assets at their moments of deepest despair. His Templeton Growth Fund achieved roughly 15% annual returns over 38 years, a record that placed him among the greatest investors of the 20th century.
+
+- [Li Lu -- Patient Ownership Turned Deep Research into a Global Value-Investing Practice](li-lu-concentration-fundamental-research-and-patient-global-value-investing.md) -- [reviewed: never] -- Li Lu built Himalaya Capital around concentrated ownership, intensive business research, and the willingness to wait through severe market volatility rather than trade around it [1][3][4]. His path from a Tiananmen Square student leader to a Columbia graduate and then a trusted investment partner of Charlie Munger made his career unusually visible, but his durable significance lies in a process...
 
 - [Michael Mauboussin -- Better Investing Starts with Expectations, Base Rates, and Process](michael-mauboussin-expectations-competitive-advantage-craft-valuation.md) -- [reviewed: never] -- Michael J. Mauboussin has spent his career connecting security analysis with competitive strategy, probability, behavioral science, and complex-systems research. His central contribution is a decision process: infer what a price already assumes, test those assumptions against business economics and base rates, and judge the quality of the reasoning separately from the realized outcome [1][5][7][9][12].
 
