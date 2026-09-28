@@ -482,3 +482,10 @@ Candidates:
 - Risk-Adjusted Performance Measurement -- Sharpe, Sortino, and Benchmark-Aware Ratios (9.5): gap=9.3, compounding=9.8, timeliness=9.2, balance=10.0
 - General Relativity -- How Spacetime Geometry Produces Gravity (9.6): gap=9.4, compounding=9.6, timeliness=9.8, balance=10.0
 Domain balance: accounting-financial-shenanigans, investors, macro-micro, mathematics-statistics, portfolio-risk-management, and science (12 topics each) to the same six domains (12 topics each).
+
+## [ENT-679] | 2026-09-28 07:01 UTC | Librarian | library | ref: library/accounting-financial-shenanigans/inventory-manipulation-and-cost-capitalization.md | see: 20260928T065722Z
+Wrote topic Inventory Manipulation and Cost Capitalization -- Detecting Overstated Assets and Distorted Cost of Goods Sold to accounting-financial-shenanigans. Weighted score: 9.6/10.0
+(core=9.8, scope=9.7, value=9.3, authority=9.6).
+Similarity overlap: 47%.
+Sources: 11 (11 high, 0 medium, 0 low).
+Cross-references: 4 topics.

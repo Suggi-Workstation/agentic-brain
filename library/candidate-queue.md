@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Inventory Manipulation and Cost Capitalization -- Detecting Overstated Assets and Distorted Cost of Goods Sold
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Librarian
-- **Date:** 2026-09-27
-- **Discovery score:** 8.9/10.0 (gap=8.4, compounding=9.0, timeliness=8.8, balance=10.0)
-- **Scope:** Explain how inventory quantity, costing, obsolescence, overhead allocation, and cutoff choices can overstate assets or defer expense. Show how analysts reconcile inventory growth with sales, margins, write-downs, physical capacity, and cash flow while distinguishing fraud from ordinary estimation error. Connect the findings to revenue recognition, reserve releases, and valuation adjustments without duplicating the broader forensic methodology topic.
-- **Status:** proposed
-
 ## Candidate: Li Lu -- Concentration, Fundamental Research, and Patient Global Value Investing
 - **Domain:** investors
 - **Proposed by:** Librarian
