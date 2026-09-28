@@ -1,6 +1,6 @@
 # Pop Culture -- Topics
 
-13 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
+14 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
 
 - [Advertising and Consumer Culture -- Advertising Shapes Desire Beyond Informing Choice](advertising-manufacturing-desire.md) -- [reviewed: 2026-09-23] -- Advertising can inform people about products, prices, and availability, but much of its cultural power comes from doing more: attaching goods to identities, emotions, relationships, and imagined futures. "Manufacturing desire" is therefore best treated as a critical interpretation of how advertising shapes the settings in which preferences develop, not as a claim that audiences have no agency or that every purchase is caused by an advertisement ([5] [6] [17]).
 
@@ -23,6 +23,8 @@
 - [Propaganda -- How Information Is Weaponized to Shape Perception and Manufacture Consent](propaganda-manufacturing-consent.md) -- [reviewed: never] -- Propaganda is the systematic effort to manipulate beliefs, attitudes, and behavior through the selective use of information -- facts, half-truths, arguments, and outright lies -- disseminated via mass media. Far from being a relic of totalitarian regimes, propaganda is a permanent feature of all societies with concentrated power and mass communication channels.
 
 - [Reality Television Makes Ordinary Life Legible by Producing Authenticity as a Story](reality-television-and-the-performance-of-authenticity.md) -- [reviewed: never] -- Reality television presents actual people and consequential interactions through formats that cast participants, design situations, select footage, and invite audiences to judge what feels real. Its cultural significance lies neither in unmediated access to ordinary life nor in the claim that every interaction is fake: the negotiated boundary between observation and performance turns intimacy, competition, class, gender, and self-improvement into public narratives ([1] [2] [3] [4]).
+
+- [Satire and Comedy Test Cultural Boundaries, but Laughter Does Not Prove Liberation](satire-and-comedy-as-cultural-critique.md) -- [reviewed: never] -- Satire and comedy make norms visible by violating, exaggerating, reversing, or ridiculing them, so humorous artifacts can reveal who may speak, which subjects remain taboo, and whose status an audience permits a joke to lower [1][4][5]. Yet laughter alone does not show that humor challenged power: the same performance can support solidarity, invite incompatible readings, license prejudice, or register dissent without changing institutions [7][10][13].
 
 - [Science Fiction Makes the Present Strange So Societies Can Rehearse Possible Futures](science-fiction-as-cultural-foresight.md) -- [reviewed: never] -- Science fiction matters less as a record of predictions that later came true than as a cultural practice for making present assumptions visible: it places a plausible novelty inside an imagined world, follows the social consequences, and lets audiences compare that world with their own ([1] [2] [4]).
 
