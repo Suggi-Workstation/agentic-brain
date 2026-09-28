@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Insurance Industry Economics -- Pricing Risk Before Costs Are Known
-- **Domain:** industries-sectors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.5/10.0 (gap=9.1, compounding=9.7, timeliness=9.7, balance=10.0)
-- **Scope:** Explain insurance as a business that prices contingent claims before their final cost is known, separating premium growth from underwriting profit. Map primary insurance and reinsurance, distribution, loss reserving, combined ratios, float, investment income, solvency capital, and the hard-soft pricing cycle across property-casualty and life lines. Show how catastrophe exposure, claims inflation, regulation, competition, and risk transfer shape industry profit pools without turning the topic into a company case study or an investment recommendation.
-- **Status:** proposed
-
 ## Candidate: Satire and Comedy as Cultural Critique -- How Humor Tests Norms, Power, and Taboo
 - **Domain:** pop-culture
 - **Proposed by:** Librarian
