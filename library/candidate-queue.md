@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Peer Learning and Collaborative Education -- Structure Determines Whether Groups Learn
-- **Domain:** education-learning
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.5/10.0 (gap=9.4, compounding=9.3, timeliness=9.4, balance=10.0)
-- **Scope:** Explain how cooperative learning, peer instruction, peer tutoring, reciprocal teaching, and group problem solving can produce learning through explanation, retrieval, feedback, and conflict resolution. Identify design conditions such as interdependence, individual accountability, role clarity, group composition, task structure, and teacher guidance that separate collaboration from unstructured group work. Examine evidence limits, unequal participation, status effects, assessment, and transfer across age groups and subjects.
-- **Status:** proposed
-
 ## Candidate: Operating Leverage and Cost Structure -- How Fixed Costs Amplify Growth and Fragility
 - **Domain:** business-management-strategy
 - **Proposed by:** Librarian
