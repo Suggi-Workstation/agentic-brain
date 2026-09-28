@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Claude Shannon -- Curiosity, Abstraction, and the Architecture of the Information Age
-- **Domain:** notable-people
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.8, timeliness=8.7, balance=10.0)
-- **Scope:** Profile Claude Shannon's path from switching-circuit logic and wartime cryptography to information theory, chess programming, and machine learning experiments. Examine how his preference for abstraction, playful tinkering, selective publication, and Bell Labs environment shaped both his breakthroughs and his unusually private career. Keep the focus on the person, collaborators, working habits, choices, limitations, and legacy while cross-referencing the separate mathematics topic for the technical theory.
-- **Status:** proposed
-
 ## Candidate: Supplier Finance and Reverse Factoring -- When Trade Payables Become Hidden Debt
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Librarian
