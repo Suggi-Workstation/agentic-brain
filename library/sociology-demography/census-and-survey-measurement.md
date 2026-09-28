@@ -6,6 +6,7 @@ domain: sociology-demography
 author: Librarian
 tags: [census, survey-methods, population-measurement, coverage-error, nonresponse, weighting, administrative-records, disclosure-avoidance]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/sociology-demography/race-and-ethnicity-as-social-systems.md, library/sociology-demography/population-projections-cohort-component-methods-and-uncertainty.md, library/sociology-demography/social-stratification-and-mobility.md]
+reviewed: 2026-09-28
 ---
 
 # Census and Survey Measurement -- Official Population Data Are Produced, Not Simply Found
@@ -14,9 +15,9 @@ Censuses and surveys do not passively copy a population into a table; institutio
 
 ## Background
 
-Population measurement became a central institution of modern states because decisions about representation, administration, services, and social conditions require comparable counts. The United Nations describes the population and housing census as a foundation of a national statistical system and as a benchmark for other surveys and administrative statistics.[1] A census aims at universal coverage of a defined territory and reference time, whereas a sample survey observes selected units and uses a design to infer characteristics of a larger target population.[1][2] The practical distinction is important, but neither method eliminates the need to define who belongs, how units will be found, what concepts will be measured, and how incomplete or inconsistent records will be handled.
+Population measurement became a central institution of modern states because decisions about representation, administration, services, and social conditions require comparable counts. The current United Nations standard describes the population and housing census as a cornerstone of a national statistical system and identifies individual enumeration, universality within a defined territory, simultaneity, defined periodicity, and the capacity to produce small-area statistics as its key features.[1] A sample survey instead observes selected units and uses a design to infer characteristics of a larger target population.[2] The practical distinction is important, but neither method eliminates the need to define who belongs, how units will be found, what concepts will be measured, and how incomplete or inconsistent records will be handled.
 
-The early ideal of census taking was direct enumeration: identify each person or household and collect a standardized set of facts. Contemporary census systems use several architectures. Some still rely mainly on field or self-response enumeration; others combine questionnaires with administrative records; register-based systems derive much of the count from linked official sources.[1][7] These designs shift where errors can enter. A traditional census depends heavily on address lists, contact, response, field follow-up, and questionnaire interpretation. A register-based census depends more heavily on source relevance, legal and operational access, record linkage, timeliness, duplicate resolution, and the conversion of administrative units into statistical units.[7] A combined design inherits both sets of dependencies.
+The early ideal of census taking was direct enumeration: identify each person or household and collect a standardized set of facts. The current United Nations standard distinguishes three basic architectures: full-field enumeration, register-based census, and a combined approach using administrative records together with field-collected data.[1] These designs shift where errors can enter. A field-enumeration census depends heavily on address lists, contact, response, field follow-up, and questionnaire interpretation. A register-based census depends more heavily on source relevance, legal and operational access, record linkage, timeliness, duplicate resolution, and the conversion of administrative units into statistical units.[7] A combined design inherits both sets of dependencies.
 
 Sample surveys expanded the range and frequency of social measurement because they can collect detailed information without contacting every member of a population. Their inferential power comes from a relationship among the target population, the sampling frame, the selection design, the responding sample, and the estimator.[2] Probability sampling gives selected units known nonzero selection probabilities, which supports design-based estimates of sampling variability. Yet sampling error is only one part of quality. A precisely estimated result can still be biased if the frame excludes part of the population, respondents differ systematically from nonrespondents, questions are interpreted differently from their intended constructs, or processing rules alter records in a patterned way.[2]
 
@@ -126,7 +127,7 @@ This evidence changes evaluation practice. Response rates remain necessary opera
 
 ### American Community Survey Weighting Makes Adjustment Assumptions Visible
 
-The 2022 American Community Survey methodology provides an operational case of multi-stage weighting.[6] Base weights reflect selection. Subsequent factors address field subsampling and monthly response patterns. For noninterview adjustment, housing units are grouped into cells based on characteristics such as building type and census tract; small cells are collapsed, and the weights of interviewed occupied units are increased to represent eligible noninterviews in the cell.[6]
+The 2024 American Community Survey design and methodology report documents an operational case of multi-stage weighting, with Chapter 11 describing the method as implemented for the 2022 data year.[6] Base weights reflect selection. Subsequent factors address field subsampling, late mail or internet returns, and monthly response patterns. For noninterview adjustment, housing units are grouped into cells based on building type and census tract; cells with fewer than 10 interviewed housing units are collapsed as specified, and the weights of interviewed occupied or temporarily occupied units are increased to represent eligible noninterviews in the cell.[6]
 
 Later housing and person adjustments align estimates with official controls through post-stratification and raking procedures.[6] This system is more informative than a generic statement that the data were "weighted to match the population." It identifies which controls, cells, and transformations connect the sample to the estimates. It also shows why survey-aware variance estimation is needed: final estimates use unequal weights generated by selection and adjustment, not interchangeable records.[2][6]
 
@@ -208,8 +209,8 @@ The final implication is epistemic and institutional. Population data become tru
 
 ## Sources
 
-1. United Nations, Department of Economic and Social Affairs, Statistics Division (2017). "Principles and Recommendations for Population and Housing Censuses, Revision 3." Statistical Papers, Series M No. 67/Rev.3. Official international guidance on census purposes, methods, evaluation, questionnaires, administrative records, and comparability.
-   https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/files/Principles_and_Recommendations/Population-and-Housing-Censuses/Series_M67rev3-E.pdf [high]
+1. United Nations, Department of Economic and Social Affairs, Statistics Division (2025). "Principles and Recommendations for Population and Housing Censuses, Revision 4." Current international standard for census purposes, key features, methodologies, operations, quality evaluation, administrative data, and comparability.
+   https://unstats.un.org/unsd/publication/SeriesM/Series_M67Rev4en.pdf [high]
 
 2. American Association for Public Opinion Research (2016). "Evaluating Survey Quality in Today's Complex Environment." Professional report organized around total survey error, including sampling, coverage, nonresponse, measurement, weighting, and transparency.
    https://aapor.org/wp-content/uploads/2022/11/AAPOR_Reassessing_Survey_Methods_Report_Final.pdf [high]
@@ -223,8 +224,8 @@ The final implication is epistemic and institutional. Population data become tru
 5. Martin, E. (2006). "Survey Questionnaire Construction." U.S. Census Bureau Research Report Series, Survey Methodology 2006-13. Review of cognitive, linguistic, design, pretesting, and experimental methods for questionnaire quality.
    https://www.census.gov/content/dam/Census/library/working-papers/2006/adrm/rsm2006-13.pdf [high]
 
-6. U.S. Census Bureau (2022). "American Community Survey and Puerto Rico Community Survey Design and Methodology: Chapter 11, Weighting and Estimation." Official documentation of base weights, operational adjustments, noninterview adjustment, population controls, and raking.
-   https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/2022/acs_design_methodology_ch11_2022.pdf [high]
+6. U.S. Census Bureau (2024). "American Community Survey and Puerto Rico Community Survey Design and Methodology," Version 4.0. Official report covering the survey design through 2024; Chapter 11 documents base weights, operational adjustments, noninterview adjustment, population controls, and raking as implemented for the 2022 data year.
+   https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/2024/acs_design_methodology_report_2024.pdf [high]
 
 7. United Nations Economic Commission for Europe (2021). "Guidelines for Assessing the Quality of Administrative Sources for Use in Censuses." Official international framework covering source, data, process, and output quality.
    https://unece.org/sites/default/files/2021-10/ECECESSTAT20214_WEB.pdf [high]
