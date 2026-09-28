@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Philosophy of Language -- How Meaning, Reference, and Speech Acts Connect Words to the World
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.6/10.0 (gap=9.5, compounding=9.8, timeliness=9.0, balance=10.0)
-- **Scope:** Introduce the central questions of meaning, reference, truth conditions, speaker intention, pragmatics, and speech acts. Compare major approaches from Frege, Russell, Wittgenstein, Austin, Searle, Grice, and later externalist or use-based theories without turning the topic into intellectual biography. Show how assertions, promises, names, descriptions, implicatures, and translation expose the relationship between linguistic symbols, minds, social conventions, and the world.
-- **Status:** proposed
-
 ## Candidate: Peer Learning and Collaborative Education -- Structure Determines Whether Groups Learn
 - **Domain:** education-learning
 - **Proposed by:** Librarian
