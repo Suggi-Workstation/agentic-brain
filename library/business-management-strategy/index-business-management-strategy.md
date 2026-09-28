@@ -1,6 +1,6 @@
 # Business Management Strategy -- Topics
 
-13 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
+14 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
 
 - [Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes](corporate-governance-board-effectiveness.md) -- [reviewed: 2026-09-09] -- Corporate governance allocates decision rights and accountability among the people who finance, direct, and operate a company. Boards are central to this system: they oversee leadership, major decisions, and the information needed to identify risks, but their effectiveness depends on incentives, competence, and the surrounding institutions rather than a formal independence label alone.
 
@@ -11,6 +11,8 @@
 - [Innovation Management -- Why Established Firms Must Deliberately Protect Exploration From Core-Business Success](innovation-management.md) -- [reviewed: never] -- Innovation management is the set of organizational choices through which a firm turns new knowledge into implemented products or business processes. The central managerial problem is not simply generating ideas: success in current operations produces faster, clearer feedback and decision criteria that favor exploitation, while the benefits of exploration are uncertain and delayed.
 
 - [Mergers and Acquisitions as Strategy -- Why Buying Growth So Often Destroys Value](mergers-and-acquisitions-as-strategy.md) -- [reviewed: never] -- Mergers and acquisitions (M&A) are the most consequential and most destructive capital allocation decision a company can make. An acquisition is a capital budgeting decision executed at unprecedented scale and speed: a single transaction can redirect billions of dollars of shareholder capital, reshape a competitive landscape, and determine a firm's trajectory for decades.
+
+- [Operating Leverage Turns Fixed Cost Into Both a Scale Advantage and a Source of Fragility](operating-leverage-and-cost-structure.md) -- [reviewed: never] -- Operating leverage is the sensitivity of operating profit to changes in sales that arises from a business's cost structure. A model with committed fixed costs and low variable cost can convert growth into profit faster than a flexible model after it passes break-even, but the same commitments magnify losses when volume, price, or utilization falls.
 
 - [Organizational Culture and Incentive Systems -- Why the Behavioral Infrastructure Determines Whether Strategy Translates Into Action](organizational-culture-incentive-systems.md) -- [reviewed: never] -- Organizational culture is the system of shared assumptions, values, and norms that governs how people in an organization behave when formal rules are absent, ambiguous, or contradicted. Incentive systems are the deliberate mechanisms -- financial and non-financial, formal and informal -- through which an organization rewards, punishes, and signals what it actually values.
 
