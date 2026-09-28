@@ -6,760 +6,208 @@ domain: sociology-demography
 author: Librarian
 tags: [demographic-transition, fertility, mortality, population-aging, dependency-ratio, population-projections, migration]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/macro-micro/anchor-macro-micro.md]
+reviewed: 2026-09-28
 ---
 
 # Demographic Transition -- How Falling Fertility and Mortality Reshape the Architecture of Societies
 
-The demographic transition is the process by which human populations
-shift from a regime of high birth rates and high death rates to one of
-low birth rates and low death rates as societies modernize. First
-described by Warren Thompson in 1929 and formally theorized by Frank
-Notestein in 1945, the model explains why countries experience a
-temporary period of rapid population growth when mortality falls
-before fertility follows. The transition is not merely a
-demographic curiosity: it reshapes the age structure, dependency
-burden, labor force, fiscal balance, and social contract of every
-society it touches, producing consequences that unfold over
-centuries.
+The demographic transition is the long shift from high mortality and high fertility to low mortality and low fertility. In the classic sequence, mortality falls first, fertility follows later, population growth accelerates and then slows, and the age structure moves from young toward old; the sequence is a strong empirical generalization, not a law that fixes every country's timing or endpoint [1][4][5]. The transition matters because it changes family size, cohort size, labor-force growth, demand for schools and care, and the institutional balance between generations [1][2].
 
 ## Background
 
-The intellectual roots of demographic transition theory reach back
-to the early twentieth century, when demographers first noticed that
-European populations were undergoing a systematic transformation.
-Before the transition, human populations lived in a Malthusian
-equilibrium: high fertility balanced high mortality, and population
-growth was slow or stagnant. Life expectancy at birth rarely
-exceeded 30 to 35 years in pre-industrial Europe, and total
-fertility rates averaged four to five births per woman, with much
-of this concentrated within marriage (Livi-Bacci, 2000). Population
-was held in check by what Malthus called the "positive check"
-(famine, war, disease raising mortality) and the "preventive
-check" (delayed marriage, contraception reducing fertility).
+Before the transition, population growth was usually slow even though births were numerous because mortality, especially in infancy and childhood, was also high. Ronald Lee's reconstruction of western Europe before 1800 places life expectancy at birth broadly between 25 and 35 years and total fertility around four to five births per woman, while emphasizing that both measures varied across places and that life expectancy at birth was depressed by early deaths [1]. Malthus explained the slow growth through a feedback between population, wages, mortality, and marriage. Later evidence supports a weaker and more historically bounded version of that account for preindustrial Europe rather than a universal timeless equilibrium [1].
 
-The first scholar to describe the transition pattern was Warren
-Thompson, who in 1929 published an article grouping countries into
-three categories based on their mortality and fertility trends.
-Thompson observed that some countries had already completed a shift
-from high to low rates, others were in the middle of it, and still
-others had not yet begun. He described a historical sequence in which
-societies moved from high birth and death rates, through declining
-mortality that spurred temporary population growth, to eventual
-convergence at low rates (Thompson, 1929). Working independently,
-the French demographer Adolphe Landry published a similar
-formulation in 1934, terming it the "demographic revolution"
-(Landry, 1934). Neither Thompson nor Landry was aware of the
-other's work at the time.
+The idea of a transition emerged from observed changes in Europe. Tomas Frejka's historical review identifies an early formulation by Adolphe Landry in 1909, expanded in 1934, and Warren Thompson's independent 1929 classification of countries by fertility and mortality trends. Frank Notestein's 1945 essay is conventionally treated as the classic formulation. Notestein distinguished populations with high growth potential, populations in transitional growth, and populations approaching incipient decline; he also stressed that technology, public health, economic organization, education, urban life, family functions, and women's roles interacted rather than supplying one sufficient cause [3]. The modern five-stage diagram is a later teaching device, not Notestein's original model [3][5].
 
-The theory was consolidated and given its classic formulation by
-Frank W. Notestein, who in 1945 published "Population -- The Long
-View" as a chapter in *Food for the World*, edited by Theodore
-Schultz. Notestein, working at the Princeton Office of Population
-Research, had access to a wealth of European population data
-compiled by Alexander Carr-Saunders and by the Princeton group's
-own research during World War II. He defined three stages: (1)
-populations with "high growth potential" -- high mortality and
-high fertility that have not yet declined; (2) populations
-experiencing "transitional growth" -- mortality declining but
-fertility lagging behind; and (3) populations approaching "incipient
-decline" -- mortality low and fertility at or below replacement
-(Notestein, 1945). Notestein argued that the reduction of mortality
-was a universally acceptable goal facing no substantial social
-obstacles, but that the reduction of fertility required a shift in
-social goals from the survival of the group to the welfare and
-development of the individual -- a much harder cultural
-transformation.
+The historical sequence is clearest when mortality and fertility are separated. In northwestern Europe, sustained mortality decline began around 1800, while marital fertility in most European provinces began its large decline later, mainly from the late nineteenth into the early twentieth century [1]. England and Wales show a widening gap between birth and death rates after about 1750 and a narrowing gap after birth rates began falling around the 1870s. Sweden's long vital-registration series similarly shows death rates falling around 1800 while birth rates remained near their earlier level until the 1860s [5]. France and the United States demonstrate that fertility can decline unusually early, so the familiar ordering is common without being exceptionless [1].
 
-Kingsley Davis used the term "demographic transition" in the title
-of a 1945 essay, and C. P. Blacker subdivided the transitional
-phases into finer stages in 1949, producing the five-stage model
-that is now most commonly taught. Dudley Kirk later noted that while
-Notestein was "by no means the first to state the essentials of the
-theory," his 1945 formulation is "conventionally accepted as
-classic" (Kirk, 1996). The Princeton group's formulation emphasized
-modernization and its economic aspects, seeing population trends
-mainly as a function of progress. Countries were viewed as on a
-"single continuum of development" (Kirk, 1944).
+The original theory joined this sequence to modernization, but research has made the causal account more plural. Mortality decline can reflect nutrition, sanitation, vaccination, medical treatment, public order, transport, and disease control. Fertility decline can reflect child survival, education, the rising cost of investing in each child, women's economic opportunities, access to contraception, urbanization, changing family functions, and the diffusion of new norms [1][3][4]. These forces do not appear with the same weights everywhere. A demographic transition is therefore better understood as a patterned outcome produced through several mechanisms than as a single modernization switch [3][4].
 
-The model's predictive power was tested globally as the transition
-spread beyond Europe after 1950. The global fertility rate fell from
-approximately 5 children per woman in 1950 to 2.3 in 2023. In all
-countries studied, the pattern held: first a decline in mortality
-that started the population boom, then a decline in fertility that
-brought the boom to an end (Our World in Data). The population boom
-proved to be a temporary event -- in the past, population was
-stagnant because of high mortality; increasingly, it is stagnant
-because of low fertility.
+The global record has strengthened the descriptive generalization while weakening any claim of one path. Delventhal, Fernandez-Villaverde, and Guner assembled crude birth and death rates for 186 countries over more than 250 years. Their fitted transitions found that 175 countries had completed the mortality transition and 80 had completed the fertility transition; they detected a mortality transition in every country in the sample and did not detect a fertility-transition start in only one country, Chad, while noting that Chad's birth rate had already been falling [4]. The result supports near-global diffusion, but the study also documents faster later transitions, different initial levels, and regional variation in timing and shape [4].
 
-By the 1980s, however, the original model faced a challenge:
-fertility in many developed countries had fallen below replacement
-and showed no sign of stabilizing, as the classical model predicted.
-This led Ron Lesthaeghe and Dirk van de Kaa to formulate the
-"second demographic transition" (SDT) in 1986, arguing that the
-developments from the 1970s onward -- sustained sub-replacement
-fertility, a proliferation of living arrangements beyond marriage,
-the disconnection of marriage from procreation -- represented a
-new and distinct phase, not a continuation of the first transition
-(Lesthaeghe and van de Kaa, 1986; van de Kaa, 1987). The SDT
-framework sees no equilibrium as the endpoint: populations face
-declining sizes unless complemented by migration.
+Current United Nations estimates show how far the process has moved. World Population Prospects 2024 reports a global total fertility rate of 2.25 live births per woman, down from 3.31 in 1990. More than half of countries and areas are below the approximate replacement level of 2.1, and nearly one fifth have fertility below 1.4 [2]. The same report classifies 63 countries and areas, containing 28 percent of the 2024 world population, as having peaked by 2024, while another 48 are projected to peak between 2025 and 2054 [2]. These figures are estimates and projections, not a claim that every society has reached the same endpoint.
 
-The transition has thus evolved from a descriptive model of
-European population change into a global framework for
-understanding how mortality and fertility declines reshape the
-fundamental structure of societies. It has been refined, criticized,
-and extended, but its core insight -- that mortality falls before
-fertility, producing a temporary population surge that then gives
-way to aging and potential decline -- remains one of the most
-robust empirical generalizations in the social sciences.
+Post-transition experience forced a revision of the expected endpoint. Early versions anticipated low mortality, fertility near replacement, and an approximately stationary population. Instead, many high-income societies developed persistent sub-replacement fertility, later marriage and parenthood, more cohabitation, more nonmarital childbearing, and more varied living arrangements. Lesthaeghe and van de Kaa named this cluster the second demographic transition in 1986 [6]. Lesthaeghe treats ideational change and greater individual autonomy as central, whereas Zaidi and Morgan's review finds substantial variation and argues that evidence does not support one inevitable, unilinear path or one sufficient cultural mechanism [6][7]. The second-transition framework is therefore useful as a contested account of post-transition family change, not as a settled fifth stage that all populations must reproduce.
 
 ## Core Concepts
 
-### The Stages of the Demographic Transition
+### Rates, Stocks, and the Accounting Identity
 
-The demographic transition model (DTM) conceptualizes population
-dynamics as a sequence of stages driven by socioeconomic
-modernization. The five-stage version, derived from Blacker's 1949
-subdivision and widely taught, proceeds as follows:
+The transition concerns flows of births, deaths, and migration, but its consequences appear in the stock and age composition of the population. A crude birth rate and crude death rate count annual events per population; because both are affected by age structure, they are not interchangeable with age-specific fertility, total fertility, or life expectancy. Total fertility is a synthetic measure of births per woman under a period's age-specific rates, while life expectancy is a life-table summary of a mortality schedule [1]. Period total fertility can fall when births are postponed even if completed cohort fertility falls less, so period and cohort measures answer different questions [1][6].
 
-**Stage 1 -- Pre-transition (high equilibrium):** Both mortality and
-fertility are high. Mortality is volatile, driven by infectious
-disease, famine, and warfare, but averages high. Fertility is also
-high, maintained by religious doctrines, community customs, marriage
-norms, and family structures organized to ensure enough offspring
-survive to adulthood. Population growth is slow or stagnant because
-births and deaths roughly balance. Pre-industrial Europe, and most
-of the world before 1800, occupied this stage. Global life
-expectancy was approximately 27 years around 1700, and the global
-fertility rate was about 6 children per woman (Cambridge
-University Press).
+Population change over an interval is births minus deaths plus net migration. That identity is exact, but each future input is uncertain. A country can have fertility below replacement and still grow because of a youthful age structure or immigration; it can have fertility at replacement and continue growing because large cohorts are moving through childbearing ages. Conversely, a population can continue shrinking after fertility rises because the cohorts entering reproductive ages are small [2]. Replacement fertility is therefore a long-run conditional concept, not an instant zero-growth threshold.
 
-**Stage 2 -- Early transition (mortality decline):** Mortality
-begins to fall, driven by improvements in sanitation, nutrition,
-vaccination, and medical care. Fertility remains high because the
-cultural and economic incentives that sustained large families have
-not yet changed. The gap between declining deaths and persistently
-high births produces rapid population growth. This stage began in
-Europe around 1800-1850 with the agricultural and industrial
-revolutions and the public health movement. In England, crude death
-rates fell from approximately 22 to 12 per 1,000 by 1901, while
-birth rates remained near 35 per 1,000 for decades (Our World in
-Data). In the developing world, mortality decline began later but
-proceeded faster, compressed into decades rather than centuries
-because medical technologies were already available.
+### The Stage Model as a Map
 
-**Stage 3 -- Late transition (fertility decline):** Fertility begins
-to fall as the economic and social incentives that sustained high
-birth rates erode. Urbanization reduces the economic value of child
-labor; education becomes costly; women gain access to employment
-outside the home; contraception spreads; and the cultural emphasis
-shifts from the quantity of children to their quality. Population
-growth slows but remains positive as fertility converges toward
-mortality. In Europe, this stage unfolded over the late nineteenth
-and early twentieth centuries; in many developing countries, it
-occurred far more rapidly after 1960. The lag between mortality and
-fertility decline is the engine of the temporary population boom,
-and its duration determines how large that boom becomes.
+The familiar five-stage model compresses a continuous and uneven process into a map [5]. In stage 1, high fertility and high mortality yield low average growth and a young age structure. In stage 2, mortality falls while fertility remains high, widening the gap between births and deaths and accelerating growth. In stage 3, fertility declines, so the growth rate slows even though population size may continue to rise. In stage 4, both rates are low and the birth-death gap is small. A proposed stage 5 covers sustained sub-replacement fertility and possible population decline, but its long-run endpoint remains uncertain [2][5].
 
-**Stage 4 -- Post-transition (low equilibrium):** Both mortality and
-fertility are low and roughly in balance. Population growth is near
-zero or slightly negative. Life expectancy at birth exceeds 70-80
-years, and the total fertility rate approaches replacement level
-(approximately 2.1 children per woman). Most Western European
-countries, Japan, and North America reached this stage by the late
-twentieth century. The population is older, with a higher median age
-and a larger share of elderly than in any previous stage. The
-demographic structure has been fundamentally transformed from the
-youthful pyramid of pre-transition societies to a more columnar
-or even top-heavy shape.
-
-**Stage 5 -- Decline (sub-replacement):** Fertility falls below
-replacement and stays there. Population begins to shrink absent
-offsetting immigration. This stage, not anticipated by the original
-model, characterizes many advanced economies today. Nearly a fifth
-of all countries and areas, including China, Italy, the Republic of
-Korea, and Spain, now have "ultra-low fertility" with fewer than
-1.4 live births per woman (UN World Population Prospects, 2024). As
-of 2024, population size had already peaked in 63 countries and
-areas, including China, Germany, Japan, and the Russian Federation,
-with their combined population projected to decline by 14 percent
-over the next thirty years.
+The stages describe rate combinations, not a development ranking or a fixed policy sequence. Countries can pause, reverse temporarily, or move through different paths. Epidemics, wars, economic crises, migration, family policy, and data revisions can alter observed rates. France's early fertility decline, postwar baby booms, fertility stalls, and very low fertility in East Asia all resist a single timetable [1][3][4]. Stage labels are most useful when they direct attention to the birth-death gap and age structure; they become misleading when treated as destiny.
 
 ### The Timing Gap and Population Momentum
 
-The central mechanism of the transition is the lag between mortality
-decline and fertility decline. Mortality falls first because it is
-a universally desired goal: reducing death from disease and famine
-faces no cultural opposition. Fertility falls later and more slowly
-because it requires a fundamental reorientation of values, family
-structures, and economic incentives. Notestein observed that
-mortality reduction "is a universally acceptable goal and faces no
-substantial social obstacles. But the reduction of fertility
-requires a shift in social goals from those directed toward the
-survival of the group to those directed toward the welfare and the
-development of the individual" (Notestein, 1945).
+The demographic transition generates rapid growth because mortality and fertility do not usually decline simultaneously. Mortality reduction increases survival, especially early in a transition when gains are concentrated among infants and children. If fertility remains high, more children survive and cohorts become larger. When fertility later falls, births eventually narrow the gap with deaths and growth decelerates [1][5]. The duration and size of the gap help determine the scale of the temporary population surge.
 
-This timing gap produces a period of rapid population growth that
-can last for decades. The longer the gap, the larger the temporary
-population surge. In Europe, the gap was long -- mortality began
-falling around 1800, but fertility did not begin its sustained
-decline until the late nineteenth century, producing a population
-boom that lasted over a century and fueled emigration to the Americas
-and Australasia. In the developing world after 1950, the gap was
-shorter in absolute time but the growth rates were higher because
-mortality fell faster with imported medical technology, producing
-population growth rates exceeding 3 percent per year in some
-countries.
+Population momentum explains why the growth response lags behind the rate response. A youthful population contains many future parents. World Population Prospects 2024 estimates that momentum embedded in the current global age structure will contribute 79 percent of population increase through 2054, about 1.4 billion people, even as fertility falls [2]. The reverse also occurs: after long sub-replacement fertility, small cohorts replace larger ones and decline can continue even if fertility recovers. Momentum is not an additional birth, death, or migration term; it is the consequence of applying those rates to an inherited age structure [2].
 
-Population momentum is a related but distinct concept: even after
-fertility falls to replacement level, the population continues to
-grow for a generation because the large cohorts born during the boom
-are entering their reproductive years. A population with a young age
-structure has built-in growth momentum that persists for decades
-even under replacement fertility. Conversely, a population with low
-fertility for many years acquires negative momentum -- it would
-continue to shrink for a generation even if fertility rose to
-replacement, because the small cohorts of the low-fertility era
-produce fewer parents for the next generation.
+### Why Mortality Falls
+
+Mortality decline has no single universal cause. Lee's historical synthesis assigns roles to improved food supply and transport, rising incomes and nutrition, vaccination, sanitation, hygiene, public health, germ theory, and later biomedical treatment. The mix changes over the transition: early gains often come from fewer infectious-disease deaths at young ages, while later gains in high-income populations increasingly come from reductions in chronic and degenerative mortality at older ages [1]. Low-income countries in the twentieth century could adopt existing medical and public-health knowledge more quickly than Europe developed it, helping later mortality transitions proceed faster [1][4].
+
+A fall in mortality does not immediately age a population. When survival improves mainly among children while fertility remains high, the child share can rise and the population can become younger. Aging accelerates later, after fertility has reduced the size of incoming cohorts and mortality improvement shifts toward older ages [1][9]. This timing is why individual longevity and population aging must be distinguished: longer lives contribute to aging, but the age distribution also depends strongly on fertility history and the starting population structure.
+
+### Why Fertility Falls
+
+Fertility decline is also multi-causal. Better child survival can reduce the births required to achieve a desired number of surviving children, but survival change does not by itself explain every transition's timing. Structural change can reduce children's contribution to household production, increase schooling costs and returns, and raise the opportunity cost of parental time. Female education and employment can change bargaining power and the timing and cost of childbearing. Contraception and family-planning services affect the ability to implement preferences, while diffusion through social networks changes which family sizes are acceptable or imaginable [1][3][4].
+
+No one mechanism fits all cases. The European Fertility Project found that fertility decline crossed provinces at different income and urbanization levels and gave greater weight to cultural and linguistic diffusion than a simple income threshold. Later economic models emphasize child survival, human-capital demand, and quantity-quality tradeoffs, while other evidence emphasizes contraception and policy [3][4][7]. A careful explanation therefore separates conditions that make smaller families advantageous, acceptable, and feasible rather than treating modernization as a single independent variable.
+
+### Age Structure and Dependency Ratios
+
+Age structure is the transition's durable state variable. Early mortality decline can enlarge child cohorts and raise child dependency. Fertility decline later reduces the child share and increases the working-age share. Still later, small entering cohorts and improved survival at older ages raise the share of older people [1]. World Population Prospects 2024 projects that people aged 65 or older will outnumber children under 18 globally by the late 2070s, while people aged 80 or older will outnumber infants by the mid-2030s [2].
+
+A child dependency ratio commonly divides the population under 15 by the population aged 15-64; an old-age dependency ratio divides those aged 65 or older by ages 15-64 [1]. These are demographic ratios, not direct counts of consumers and producers. Students can work, adults can be unemployed, and many older people remain employed or finance consumption from assets. Boundary ages are conventional. The ratios are useful for exposing age-composition change, but fiscal interpretation also requires labor-force participation, productivity, health, retirement rules, taxes, benefits, household transfers, and asset ownership [1].
 
 ### The Demographic Dividend
 
-The demographic dividend is the economic growth potential that
-arises when the working-age share of the population (ages 15-64)
-grows faster than the dependent share (under 15 and over 64).
-During the transition, as fertility falls, the large youth cohorts
-born during the boom enter working age while the next generation of
-children is smaller. This produces a period when the ratio of
-producers to consumers is unusually favorable -- a "window of
-opportunity" for accelerated economic growth. The Berlin Institute
-for Population and Development identifies the window as opening
-when the working-age to dependent ratio reaches 1.7 to 1.
+As fertility declines, the working-age share can rise while the child share falls. This creates a time-limited opportunity for faster growth in output per person, often called the first demographic dividend. The arithmetic channel is favorable because potential workers grow faster than dependents, but the economic gain is not automatic. Employment, education, health, savings, governance, and access to productive capital determine whether the age structure becomes a dividend or a concentration of unemployment and unmet expectations [2][8].
 
-The dividend is not automatic. It requires that the growing
-working-age population be educated, healthy, and employed
-productively. Countries that fail to absorb the youth bulge into
-formal employment may experience the opposite: high unemployment,
-social instability, and wasted human capital. East Asian economies
-(South Korea, Taiwan, Singapore) captured the dividend by investing
-heavily in education and creating labor-intensive export industries
-that absorbed the expanding workforce. The window is also
-temporary: as fertility stays low and the boom cohorts age, the
-ratio reverses and the dividend turns into a "demographic drag" as
-the dependent elderly population grows relative to the working-age
-population (CEPR, 2025).
+Bloom and Williamson estimated the effect for East Asia from 1965 to 1990 using cross-country growth regressions that separated growth of the economically active and dependent populations. They attributed 1.4 to 1.9 percentage points of annual per-capita growth to population dynamics; depending on how the economic "miracle" is defined, this was about one third or nearly one half of the excess growth [8]. Their article explicitly states that institutions and policy enabled the region to capture the potential. The result is an estimate for a specified region and period, not a universal coefficient that can be transferred to every youthful population.
 
-The demographic dividend concept has become central to development
-policy. Sub-Saharan Africa, with the world's youngest population, is
-positioned to experience a significant demographic dividend,
-potentially boosting annual GDP per capita growth. However, realizing
-this dividend requires overcoming structural constraints: expanding
-education and health systems, building human capital, mobilizing
-domestic savings, and creating formal employment for a rapidly
-growing workforce (CEPR, 2025).
+### Aging, Low Fertility, and Post-Transition Change
 
-### Population Aging and the Dependency Ratio
+Population aging combines initial age structure, later fertility, mortality, and migration. Murphy tested counterfactual projections for 11 European countries using base years from 1850 to 1950. The study found that conclusions about whether fertility or mortality was the dominant driver can be sensitive to the base year and aging measure; it also showed why initial structure and migration should not be folded silently into a fertility-versus-mortality comparison [9]. The robust lesson is not that one component always dominates. It is that fertility decline usually initiates a major shift, mortality improvement at older ages becomes more important later, and decomposition results depend on definitions and period.
 
-Population aging is the most consequential structural outcome of the
-demographic transition. As fertility falls and life expectancy rises,
-the proportion of the population at older ages increases. The
-old-age dependency ratio -- the number of persons aged 65 and over
-per 100 persons of working age (15-64) -- captures this pressure.
-In pre-transition societies, the ratio is low because few survive to
-old age; in post-transition societies, it rises steadily.
+The second demographic transition adds union and family change to this post-transition picture. Its core claims concern sustained sub-replacement fertility, postponement of partnership and parenthood, rising cohabitation and nonmarital fertility, and more heterogeneous households [6]. Evidence supports many of these trends in Europe and parts of the Americas, but their combinations differ. East Asian societies, for example, can have very low fertility and delayed marriage without the same prevalence of cohabitation or nonmarital births found in parts of Europe or Latin America [6][7]. That heterogeneity contradicts any simple claim that one cultural sequence is universal.
 
-Aging is closely linked to the transition but occurs with a
-considerable lag. In the pre-transition phase, populations do not age
-because high fertility produces a young age structure. When
-fertility declines, populations begin to age, but this is initially
-offset by mortality improvement concentrated at younger ages, which
-makes the population younger rather than older. At a later stage,
-mortality improvement shifts to older ages and reinforces aging,
-becoming dominant when life expectancy at birth exceeds about 70
-years, which occurred around the 1950s in Europe (Lee, 1994, cited
-in Murphy, 2017). In the extended post-transition period in
-high-income countries, fertility is relatively constant and
-mortality improvement at older ages drives aging.
+### Migration as Adjustment, Not Completion
 
-By 2080, the UN projects that persons aged 65 and older will
-outnumber children under 18 globally. By the mid-2030s, those aged 80
-and over will outnumber infants. By the late 2050s, more than half of
-all global deaths will occur at age 80 or higher, a substantial
-increase from 17 percent in 1995 (UN World Population Prospects,
-2024). These shifts transform the fiscal and social architecture of
-societies: pension systems designed for a world with many workers
-and few retirees face structural insolvency; healthcare systems
-must shift from acute infectious disease to chronic disease
-management; and labor markets must adapt to a shrinking workforce.
+Migration changes population size and age composition immediately because migrants are concentrated at particular ages. It can slow decline, add workers, connect labor-surplus and labor-shortage regions, and change family and community institutions. World Population Prospects 2024 projects immigration to attenuate low-fertility decline in 50 countries and areas and to be the main driver of growth in 52 through 2054 [2]. These are material effects.
 
-### The Second Demographic Transition
-
-The second demographic transition (SDT), formulated by Lesthaeghe
-and van de Kaa in 1986, extends the model to account for developments
-in advanced economies from the 1970s onward that the original model
-did not predict. The SDT is characterized by: sustained
-sub-replacement fertility; a proliferation of living arrangements
-beyond marriage (cohabitation, living alone, same-sex partnerships);
-a disconnection between marriage and procreation; and no stationary
-population (Lesthaeghe, 2014). Underlying the SDT is a shift in
-values from altruistic, family-centered orientations to
-individualistic, self-actualization orientations.
-
-The most prominent demographic feature of the SDT is the decline of
-the total fertility rate to below replacement level (2.1 children per
-woman), facilitated by the spread of modern contraception and driven
-by the postponement of first parenthood, rising mean ages at
-childbearing, higher rates of childlessness, and the decline of
-higher-parity births (Lesthaeghe, 2020). The SDT viewpoint sees no
-equilibrium as the endpoint: populations face declining sizes unless
-complemented by migration. This contrasts with the first transition
-model, which assumed convergence at low but stable rates near
-replacement.
-
-The SDT has proven to be a global phenomenon. Lesthaeghe's 2020
-update found that sub-replacement fertility and rising cohabitation
-have spread well beyond Europe to Latin America, East Asia, and
-parts of South and Southeast Asia. However, the cultural specificities
-vary: in East Asia, the SDT manifests as extremely low fertility
-without the cohabitation and non-marital fertility seen in Europe,
-because the cultural shift toward individualism occurs without a
-parallel shift toward acceptance of non-marital unions. South Korea's
-total fertility rate fell below 0.9 in the early 2020s -- the lowest
-in the world -- driven by economic pressures on young adults, gender
-inequality in household labor, and the high cost of education for
-children.
-
-### Migration as a Demographic Variable
-
-Migration interacts with the demographic transition in multiple
-ways. Rural-to-urban migration accelerates early fertility decline
-by exposing people to urban norms, smaller family ideals, and the
-opportunity costs of childbearing in cities. International migration
-can temporarily slow population aging in destination regions by
-adding younger working-age migrants while exporting demographic
-pressure to origin areas. In post-transition societies facing
-population decline, immigration becomes the only demographic lever
-short of fertility increase that can offset shrinkage.
-
-However, migration is not a complete solution. The scale of
-migration needed to offset population decline in countries like
-Japan or South Korea would be politically and socially
-unprecedented. Moreover, migrants themselves age, and their
-fertility typically converges toward the host-country level within
-a generation or two. The UN's concept of "replacement migration"
-captures the idea that immigration can compensate for sub-replacement
-fertility, but the required levels are often far above what receiving
-societies are willing to accept (Lesthaeghe, 2014, referencing the
-concept).
+Migration does not permanently stop aging under ordinary assumptions. Migrants age, and their fertility often moves toward receiving-country patterns. United Nations replacement-migration scenarios showed that migration sufficient to maintain total population or working-age population is much smaller than migration sufficient to hold the old-age support ratio constant; the latter can imply extraordinarily large and socially consequential inflows [10]. Migration is therefore one adjustable component of demographic adaptation, not a mechanical substitute for fertility, productivity, retirement, care, and integration policy [1][10].
 
 ## Evidence
 
-### Global Fertility Decline: From 5 to 2.3
+### Long Historical Series Establish the Sequence, Not a Single Cause
 
-The most comprehensive evidence for the demographic transition comes
-from the long-run decline in global fertility. In 1950, the global
-total fertility rate (TFR) was approximately 5 children per woman.
-By 2023, it had fallen to 2.3 -- approaching the replacement level
-of 2.1. This decline has occurred in every region of the world,
-though at different speeds and starting points. In more than half of
-all countries and areas, the TFR is now below 2.1. Nearly a fifth of
-all countries have "ultra-low fertility" below 1.4, including China,
-Italy, the Republic of Korea, and Spain (UN World Population
-Prospects, 2024).
+Lee's 2003 synthesis combines reconstructed European series, twentieth-century national data, stable-population models, and United Nations projections. The evidence shows mortality decline beginning in northwestern Europe around 1800, later fertility decline, an interval of faster growth, and a subsequent shift toward older age structures. The paper also identifies exceptions, including early fertility decline in France and the United States, and warns that fertility and mortality mechanisms remain contested [1]. Its strength is the integrated long view; its limitation for present numbers is that its projections use early-2000s data, so current levels must be taken from later revisions such as World Population Prospects 2024 [2].
 
-The mechanism is consistent with transition theory: mortality fell
-first, creating the conditions for population growth, and fertility
-followed with a lag. Our World in Data documents that in all
-countries studied, the pattern was the same -- first a decline in
-mortality that started the population boom, then a decline in
-fertility that brought the boom to an end. The population boom was
-in each case a temporary event. The universality of the pattern
-across diverse cultures, economies, and political systems is
-strong evidence that the transition reflects a fundamental
-relationship between modernization and demographic behavior, not a
-purely European phenomenon.
+Our World in Data presents long vital-registration series for England and Wales and Sweden and a comparison of Germany, Sweden, Chile, Mauritius, and China. In the five-country comparison, death rates fall before birth rates and the birth-death gap later closes. The page describes the five-stage model as a schematic and states that the fifth-stage outcome is uncertain [5]. This source supports the observed timing pattern and a pedagogical diagram, but a five-country chart cannot prove that every causal mechanism or endpoint is universal.
 
-### The European Historical Record
+### The Cross-Country Record Shows Diffusion and Heterogeneity
 
-The European transition provides the longest and best-documented
-case. England's vital statistics from 1871-1931 show the classic
-pattern: crude death rates dropped from 22 to 12 per 1,000 by 1901,
-and birth rates fell from 35 to 28 per 1,000 only later, with a
-lag of roughly three decades (Our World in Data). The Princeton
-European Fertility Project, led by Ansley Coale in the 1960s and
-1970s, compiled detailed data on the decline of marital fertility
-across hundreds of European provinces and found that fertility
-decline began once three preconditions were met: fertility must be
-within the realm of conscious choice (calculated), it must be
-advantageous to limit fertility (economic), and the means of
-control must be known and available (technological). This "ready,
-willing, and able" framework, formalized by Lesthaeghe and
-Vanderhoeft (2001), remains influential.
+Delventhal, Fernandez-Villaverde, and Guner fit a three-segment model to birth and death rates for 186 countries, estimating pre-transition levels, start and end dates of decline, and post-transition levels. Their reported counts show mortality transition much further advanced than fertility transition: 175 countries had completed mortality decline and 80 had completed fertility decline under their classification [4]. They also find that later transitions tended to be faster and that initial conditions and timing vary. Because the paper uses crude rates and an econometric stage-fitting rule, its dates are model-based classifications rather than directly observed social turning points [4].
 
-The European record also reveals variation that challenges a
-purely economic reading. The decline of fertility did not always
-begin in the richest or most urbanized provinces; in France,
-fertility began falling in the late eighteenth century, well before
-the industrial revolution, suggesting that cultural and ideational
-factors -- the secularization associated with the French Revolution,
-the spread of Enlightenment individualism -- played a role
-independent of economic development. This finding motivated the
-ideational turn in transition theory that culminated in the SDT
-framework.
+Frejka analyzes cohort fertility for 36 populations and identifies four broad pathways: Western, Central and Eastern European, Southern European, and East and Southeast Asian. The pathways differ in fluctuation, timing, and depth, and the youngest completed cohorts in all four groups were generally below replacement [3]. Cohort measures avoid distortions caused by postponing births across calendar years, but they become available only after cohorts have largely completed childbearing. The study therefore strengthens the case against a single post-transition equilibrium while illustrating the tradeoff between cohort accuracy and timeliness [3].
 
-### The Accelerated Transition in the Developing World
+### Current Official Estimates Show Divergent Positions
 
-After 1950, the transition spread to the developing world at
-unprecedented speed. Mortality fell rapidly because medical
-technologies -- antibiotics, vaccines, DDT for malaria control --
-were already available and could be deployed without the long
-process of economic development that preceded mortality decline in
-Europe. Fertility decline followed, in many cases with a shorter lag
-than in Europe, though with substantial regional variation. In East
-Asia, fertility fell from over 6 to below 2.1 within a single
-generation, driven by rapid economic growth, universal education
-(including for girls), urbanization, and in China's case, the
-one-child policy. In sub-Saharan Africa, fertility decline has
-been slower and more uneven, with some countries experiencing
-"stalled" transitions or even fertility stalls (Bongaarts, 2006).
-The CEPR analysis (2025) projects that sub-Saharan Africa is
-positioned for a significant demographic dividend between 2024 and
-2050, but only if structural constraints -- education, health, formal
-employment -- are addressed. Central Asia and SEMED (Southern and
-Eastern Mediterranean) are projected to enjoy a modest dividend of
-about 0.1 percentage points per year through 2050, but face
-demographic drag averaging 0.15 percentage points annually in the
-second half of the century as their fertility falls rapidly.
+World Population Prospects 2024 is based on data from 1,910 censuses, 3,189 sample surveys, and civil-registration and vital-statistics systems [2]. Its medium projection places world population at 8.2 billion in 2024, rising to about 10.3 billion in the mid-2080s and then easing to about 10.2 billion in 2100. The report gives an 80 percent probability that global population peaks within the century and states that the 2100 estimate is about 700 million lower than the United Nations anticipated a decade earlier [2]. Those revisions demonstrate why projections are conditional and why fertility uncertainty matters.
 
-### Population Aging: The UN Projections
+The same report separates countries by the timing of population peak rather than assigning a moral or developmental rank. Sixty-three had peaked by 2024, 48 are projected to peak between 2025 and 2054, and 126 are likely to keep growing through 2054 [2]. In nine of the last group, population is projected to double between 2024 and 2054, while the combined population of the already-peaked group is projected to decline by 14 percent over thirty years [2]. The transition is global, but simultaneous growth and decline across regions are part of the same global process.
 
-The UN World Population Prospects 2024 provides the most
-authoritative population projections, based on 1,910 national
-censuses (1950-2023), vital registration systems, and 3,189
-nationally representative surveys. Key findings:
+### Age Structure Can Affect Growth, but Estimates Are Conditional
 
-- The world's population is expected to peak at around 10.3 billion
-  in the mid-2080s, up from 8.2 billion in 2024, then decline to
-  10.2 billion by 2100.
-- As of 2024, population has peaked in 63 countries and areas
-  (including China, Germany, Japan, Russia), projected to decline by
-  14 percent over the next 30 years.
-- Another 48 countries (including Brazil, Iran, Turkey, Vietnam) are
-  projected to peak between 2025 and 2054.
-- By the late 2070s, persons aged 65 and older will outnumber
-  children under 18 globally.
-- By the mid-2030s, those aged 80 and over will outnumber infants.
-- By the late 2050s, more than half of all global deaths will occur
-  at age 80 or higher.
+Bloom and Williamson's East Asian analysis tests whether growth of the economically active population relative to total and dependent population helped explain growth from 1965 to 1990. Their regressions find a substantial positive contribution and use instrumental-variable specifications to address reverse causality [8]. The authors also stress that demographic effects are transitional and operate when working-age and dependent populations grow at different rates. The study does not show that population growth alone raises income or that age structure overrides institutions; its claim is conditional on a region's ability to employ and educate the larger working-age population [8].
 
-The projected 2100 population is 700 million lower than anticipated
-a decade ago, reflecting downward revisions in fertility trends. The
-report notes that "all populations are moving towards longer lives
-and smaller families," and that because the transition unfolds in
-sequential stages, policy recommendations for countries that have
-already peaked are relevant also for those still growing, "albeit
-with a potential time lag of several decades" (UN DESA Policy Brief
-167, 2024).
+World Population Prospects 2024 independently frames the dividend as a limited window. It states that sound economic and social policies are required and points to education, health care, infrastructure, decent work, and capable government as conditions for capturing the opportunity [2]. This convergence between an econometric regional study and an official demographic synthesis supports a narrow conclusion: favorable age composition can amplify growth capacity, but policy and institutions determine realization.
 
-### The Demographic Determinants of Aging
+### Aging Decompositions Require Methodological Caution
 
-A 2017 study by Murphy, extending the Preston, Himes, and Eggers
-model, estimated the relative contribution of fertility, mortality,
-and net migration to population aging across 11 European countries
-over the entire twentieth century. The study confirmed that
-fertility decline has been the primary driver of population aging,
-with mortality improvement at older ages becoming increasingly
-important in the post-transition period. The NCBI/PMC study on
-counterfactual population projections (2021) found that population
-aging is closely linked to the demographic transition, though it
-occurs with a considerable lag. In the pre-transition phase, fertility
-and mortality are broadly constant and populations do not age. When
-fertility declines, populations begin to age, but this is initially
-offset by mortality improvement concentrated at younger ages, which
-makes populations younger. At a later stage, mortality improvement
-shifts to older ages and reinforces aging, becoming dominant when
-life expectancy at birth exceeds about 70 years.
+Murphy's 2021 study uses cohort-component counterfactual projections for 11 European countries with long-run data. It varies the base year, fixes either fertility or mortality, considers migration, and compares alternative age-structure indicators. The paper finds that the apparent contribution of fertility versus mortality can change materially with the base year; the method is not transitive across adjacent periods, and quantitative results vary across aging measures [9]. The result rejects a categorical claim that fertility is always the primary driver. Fertility decline, mortality improvement, inherited age structure, and migration all matter, and the decomposition question must specify population, period, baseline, and measure [9].
 
-A 2025 study published in PMC introduced a structural framework
-based on the "Stationary Population Identity," classifying 195
-countries into a binary typology of aging based on three
-demographic pillars: age structure, population momentum, and
-"survival offset." The study identified a novel endpoint termed the
-"Demographic Vortex" -- populations caught in a feedback loop of
-low fertility and persistent aging, culminating in a "Twilight
-Society" where traditional support systems and policy levers become
-unsustainable. This reframing shifts the concept of aging from a
-numerical threshold to a structural property, and from a static
-descriptor to a dynamic evolutionary process.
+### Family Change Supports a Framework but Not One Universal Path
 
-### The Lee and Carter Mortality Forecast
+Lesthaeghe's PNAS overview sets out the second demographic transition and reviews evidence from Europe, the United States, East Asia, and Latin America. It identifies widespread postponement, sub-replacement fertility, cohabitation, and separation of marriage from childbearing, but also describes distinct regional patterns [6]. Zaidi and Morgan review the same literature and find that the proposed link from postmaterial values to family behavior is not consistently supported, while economic insecurity, gender institutions, and path dependence offer competing or complementary explanations [7]. Together the sources support using the SDT as a research framework with testable components, not as an inevitable stage.
 
-Ronald Lee and Lawrence Carter (1992) developed a method for
-forecasting mortality that became the standard in demographic
-projection. Their model decomposed the age-specific death rate into
-an age-specific component (the general shape of mortality by age), a
-time-varying index of the general level of mortality, and an
-age-specific component representing the sensitivity of each age
-group to changes in the general level. The Lee-Carter method showed
-that mortality decline has been remarkably regular over the long run
-and can be projected forward with reasonable confidence, which is
-essential for projecting the aging trajectory of transitioning
-populations. Lee (2003), in a paper for the Journal of Economic
-Perspectives, surveyed three centuries of demographic change and
-confirmed that the determinants of population aging are primarily
-fertility decline (the dominant force in the first half of the
-transition) and mortality improvement at older ages (the dominant
-force in the post-transition phase).
+### Migration Simulations Expose Scale and Tradeoffs
+
+The United Nations replacement-migration report uses cohort-component scenarios for eight countries and two regions over 1995-2050. It separately estimates migration needed to maintain total population, working-age population, and the potential support ratio [10]. The scenarios show that requirements escalate sharply across those objectives. They are based on the UN's 1998 Revision and should not be reused as current forecasts, but their accounting result remains instructive: maintaining an age ratio is much more demanding than slowing population decline because immigrants themselves enter the age structure and later age [10]. Lee reaches the same qualitative conclusion from demographic simulations and evidence of migrant fertility convergence [1].
 
 ## Implications
 
-### For Economic Growth and the Labor Market
+### For Demographic Measurement and Forecasting
 
-The demographic transition reshapes the fundamental supply of labor
-and the structure of economic demand. During the transition's middle
-stages, the falling dependency ratio (fewer children per worker)
-creates a window of opportunity -- the demographic dividend -- that
-can accelerate per capita income growth. The East Asian "miracle"
-economies captured this dividend: between 1965 and 1990, the working-age
-population grew roughly four times faster than the dependent
-population, and per capita income grew at rates that would have been
-impossible without the favorable demographic structure. The World
-Bank estimated that demographic factors accounted for roughly one-third
-to one-half of East Asia's economic growth during this period.
+Analysts should begin by asking which measure is changing. A falling crude birth rate can reflect lower age-specific fertility, fewer women in reproductive ages, delayed births, or all three. A rising old-age share can reflect fewer children, more survival at older ages, or the passage of a large cohort through the age distribution. Total fertility, completed cohort fertility, life expectancy, crude rates, median age, and dependency ratios cannot be substituted without changing the question [1][3][9].
 
-In the post-transition stage, the dividend reverses. As the
-working-age population shrinks and the elderly population grows, the
-old-age dependency ratio rises, and economic growth faces what the
-CEPR terms "demographic headwinds." Simulations show that aging
-reduces potential GDP growth by 0.5 to 1.0 percentage points annually
-in advanced economies without countermeasures (Grokipedia,
-summarizing OECD projections). The labor force shrinks, reducing
-potential output unless offset by productivity growth, automation,
-immigration, or later retirement. Japan, the first major economy to
-experience post-transition aging on a large scale, has seen its
-working-age population fall by more than 10 million since 1995,
-contributing to decades of low growth despite high productivity per
-worker.
+Projection claims should name their baseline, scenario, horizon, and uncertainty. The United Nations medium projection is a conditional model informed by historical evidence, not a promise that 10.3 billion people will be present at one exact date. The 700-million downward revision in the 2100 estimate over one decade shows that modest fertility changes compound over generations [2]. Scenario comparison is therefore more useful than false precision: institutions should test what different fertility, mortality, migration, labor-participation, and productivity paths imply for schools, housing, transport, pensions, and care.
 
-For investors and business strategists, the transition signals a
-structural shift in the growth trajectory of economies. Countries
-in the dividend window offer expanding labor forces and consumer
-markets; countries in the post-transition phase face shrinking
-domestic markets, rising labor costs, and fiscal pressure. The
-demographic structure of a country is a leading indicator of its
-long-term economic trajectory, operating on a time scale of decades
-rather than business cycles.
+### For Countries with Youthful Populations
 
-### For Pension and Healthcare Systems
+A youthful age structure creates both obligations and options. Early mortality decline can increase the number of surviving children before fertility falls, raising demand for maternal care, vaccination, schools, teachers, housing, and later jobs [1]. When fertility declines, the child share falls and the working-age share rises. Capturing the resulting dividend requires that cohorts reach adulthood healthy and educated and can enter productive employment; without those conditions, the same age concentration can yield unemployment, informality, migration pressure, and political strain [2][8].
 
-The fiscal implications of the transition are among the most pressing
-policy challenges of the twenty-first century. Pay-as-you-go pension
-systems, designed when age structures were young and the ratio of
-workers to retirees was high, face structural insolvency as the
-ratio inverts. In many OECD countries, the old-age dependency ratio
-is projected to roughly double by 2050, meaning each worker must
-support twice as many retirees as today. Public spending on pensions
-and healthcare is projected to rise by several percentage points of
-GDP in most advanced economies, with the OECD projecting increases
-of 3-7 percentage points of GDP for age-related spending by 2060.
+Policy should not reduce the transition to fertility targets. Voluntary reproductive health services expand people's ability to implement preferences, while girls' education, delayed early marriage and childbearing, child survival, and women's economic participation affect both welfare and demographic behavior [1][2]. Interpretation: the durable objective is capability -- lower preventable mortality, informed reproductive choice, education, and institutions able to convert age-structure change into broad gains.
 
-The policy responses are constrained and politically difficult:
-raising the retirement age (which extends the working-age
-population and reduces the retirement period), reducing benefit
-levels (which breaks the social contract), increasing immigration
-(which is politically contentious and insufficient at the required
-scale), raising fertility (which takes a generation to affect the
-labor force and has a poor track record in countries that have
-tried it), and increasing productivity and labor force participation
-(particularly among women and older workers). The Pew Charitable
-Trusts (2026) documents that the aging population is already changing
-state revenue, spending, and service demand in the United States, and
-that "understanding and preparing for these ongoing changes will be
-critical to states' future fiscal sustainability."
+### For Aging and Low-Fertility Societies
 
-Healthcare systems face a parallel shift. In pre-transition societies,
-the disease burden is dominated by infectious diseases of the young;
-in post-transition societies, it shifts to chronic diseases of the
-old -- cardiovascular disease, cancer, dementia, and musculoskeletal
-conditions. The cost of care rises disproportionately in the last
-years of life, and the growing elderly share means more people are
-in these high-cost years simultaneously. Systems designed for acute
-episodic care must be restructured for chronic disease management,
-long-term care, and end-of-life care.
+Aging changes the ratio of age groups, but it does not mechanically determine fiscal crisis. Pension and health systems are affected by the number of contributors and beneficiaries, contribution rates, benefits, retirement ages, health at older ages, productivity, savings, and migration. A demographic dependency ratio is one input, not a budget model [1]. Policy options include later and more flexible retirement, higher labor-force participation, lifelong learning, productivity-enhancing technology, prefunding, benefit or tax reform, and better organization of health and long-term care [1][2]. Each shifts costs and risks differently.
 
-### For Developing Countries and Development Policy
+Fertility policy also has limits. A new birth does not affect working-age population for many years, and a temporary rise can create a new cohort wave rather than a stable age structure [1]. World Population Prospects 2024 notes that prolonged ultra-low fertility reduces the number of women in reproductive ages, making population decline difficult to reverse quickly even under higher future fertility [2]. Interpretation: family policy can reduce avoidable barriers to wanted births through housing, childcare, leave, work flexibility, and gender equality, but evidence does not justify treating a return to replacement fertility as a controllable short-run output [2][7].
 
-For countries still in the early or middle stages of the transition,
-the policy imperative is to capture the demographic dividend before
-the window closes. This requires investment in three areas: education
-(particularly for girls and young women, which both builds human
-capital and accelerates fertility decline), health (to consolidate
-mortality gains and ensure a healthy workforce), and economic
-opportunity (to absorb the growing workforce into productive
-employment). Countries that fail to make these investments may see
-the dividend become a liability -- a large youth bulge with no
-productive outlet, producing unemployment, social instability, and in
-extreme cases, conflict.
+### For Migration and Social Institutions
 
-The demographic transition also has implications for development
-strategy. If fertility falls because of economic development, and
-economic development is faster when fertility has fallen, there is a
-potential virtuous cycle (or vicious cycle, in reverse). The World
-Population Conference in Bucharest (1974) crystallized the debate
-between those who argued that "the most effective contraceptive is
-development" (implying that family planning programs were secondary)
-and neo-Malthusians who argued for direct fertility reduction through
-family planning programs. The subsequent evidence suggests both
-matter: development creates the conditions for fertility decline,
-but family planning programs can accelerate it by providing the
-"means" that the "ready, willing, and able" framework requires
-(Lesthaeghe and Vanderhoeft, 2001).
+Migration can add workers, slow decline, and alter the pace of aging [2][10]. Interpretation: using that adjustment sustainably also requires housing, credential recognition, language access, schools, anti-discrimination enforcement, and credible pathways to membership. Treating migrants only as units in a support ratio ignores the social institutions through which demographic change operates [6][10]. The scale needed to hold an old-age support ratio fixed can be far larger than the scale needed to maintain population, so governments should state which objective they are pursuing [10].
 
-### For Migration and Geopolitics
+Interpretation: origin-country effects depend on who moves, whether migration is temporary or permanent, and whether domestic institutions create opportunities for return. Demographic divergence between younger and older regions will keep migration central, but its economic and social consequences cannot be inferred from age structure alone [2][10].
 
-As populations diverge -- some aging and shrinking, others still
-growing -- migration becomes a defining geopolitical issue. Countries
-with labor shortages and aging populations have an economic incentive
-to accept immigrants; countries with surplus young labor have an
-economic incentive to export it. The resulting flows reshape the
-demographic, cultural, and political landscape of both sending and
-receiving countries.
+### For Families, Care, and Inequality
 
-The divergence is stark: by 2050, sub-Saharan Africa's population is
-projected to roughly double, while Europe's and East Asia's shrink.
-This divergence will intensify migration pressure, and the political
-capacity to manage it will be a defining test of governance in the
-twenty-first century. Countries that develop effective integration
-policies and maintain social cohesion while accepting migration may
-partially offset their demographic decline; those that do not face
-the difficult choice between economic stagnation from labor shortage
-and political instability from rapid demographic change.
+Smaller families and longer lives create vertically extended but horizontally narrower kin networks: more generations may overlap, while each person has fewer siblings, aunts, uncles, or adult children with whom to share care [1]. Later partnership and childbearing, greater household diversity, and nonmarital unions can separate legal, residential, and caregiving ties [6][7]. Care systems designed around an assumed married daughter or large sibling group may therefore fail even before national population begins to decline.
 
-### For Social Structure and the Family
+Interpretation: policy should measure care time, health, wealth, household structure, and regional migration alongside age counts rather than assume that age groups have uniform resources or obligations. The transition is not only a change in population pyramids; it changes who can provide time, money, and care across households, markets, and the state [1][6][7].
 
-The transition transforms the family. In pre-transition societies,
-the family is the primary economic unit: children are labor and old-age
-security, large families are an economic strategy, and extended kin
-networks provide mutual support. As the transition proceeds, the
-family shrinks, nuclearizes, and loses many of its economic
-functions to the market and the state. The second demographic
-transition goes further: marriage is delayed or forgone, cohabitation
-rises, childbearing is postponed, and a growing share of adults live
-alone or in non-traditional households.
+### For Business, Investment, and Public Planning
 
-These changes have feedback effects on the transition itself. Delayed
-and reduced childbearing accelerates fertility decline; smaller
-families mean fewer siblings to share eldercare, shifting the burden
-to the state; and the rise of dual-earner households changes the
-demand for childcare, parental leave, and flexible work arrangements.
-The social infrastructure of post-transition societies must be
-rebuilt around smaller, later-forming, more fragile families and a
-larger elderly population -- a fundamental reorganization of social
-life that is still underway.
+Age structure changes slowly enough to inform capacity planning but not accurately enough to support demographic determinism. School enrollment, household formation, housing demand, labor supply, and some health and care needs have cohort foundations. Firms and governments can use cohort sizes and migration scenarios to stress-test long-lived assets, staffing, and market assumptions [1][2]. Yet population counts do not determine productivity, income, prices, regulation, competition, or returns.
+
+Interpretation: for an investor or strategist, demographics are a constraint set and demand map, not a standalone forecast of GDP or asset performance. A shrinking working-age population may raise wages and encourage automation; it may also be offset by higher participation, later retirement, immigration, or productivity. A growing young population may expand a market only if income, infrastructure, institutions, and employment develop with it [2][8]. The correct question is not "Is this country young or old?" but "Which cohort-driven exposures remain after realistic adaptation?"
+
+### For Governance Across Long Horizons
+
+Interpretation: demographic policy spans generations, while political budgets are annual. Pension promises, urban form, school capacity, and care systems can remain apparently adequate until a cohort crosses a threshold. Governments need regularly updated projections, transparent assumptions, and automatic review rules rather than one permanent forecast [2]. A rigid institution built around one fertility, mortality, or migration path is exposed to avoidable forecast error.
+
+Reversibility is uneven. A retirement-age formula can be revised, a temporary visa quota can change, and school capacity can be repurposed; an age structure created over decades cannot be changed on an annual budget cycle. Interpretation: policy should reserve flexibility where projections are uncertain and concentrate irreversible commitments on robust needs such as child survival, education, health, and administrative capacity [1][2][9].
 
 ## Common Pitfalls
 
-A common error is to treat the demographic transition as a law of
-nature that all countries must follow in lockstep. The model is a
-generalization from observed patterns, not a deterministic law.
-Variations are substantial: some countries experience "premature"
-fertility declines before economic development has advanced; others
-experience "stalls" in which fertility decline halts at an
-intermediate level. HIV prevalence, conflict, and failed states can
-disrupt the transition. The model describes a tendency, not a
-destiny, and policy choices matter at every stage.
+**Treating stages as laws.** The stage model summarizes rate combinations. It does not establish one causal mechanism, speed, or endpoint. Historical exceptions and regional pathways are part of the evidence, not noise to be forced into the diagram [1][3][4].
 
-Another pitfall is conflating the first and second transitions. The
-first transition describes the movement from high to low mortality and
-fertility; the second describes the post-replacement developments
-(sub-replacement fertility, changing family forms) that the first
-model did not anticipate. They are related but distinct, and using
-the framework of one to analyze the other produces confusion.
+**Equating replacement fertility with immediate stability.** Replacement fertility is approximately the level needed for long-run generational replacement under specified mortality and no migration. Momentum can sustain growth or decline for decades after the rate crosses that threshold [2].
 
-A third pitfall is assuming that population aging is driven solely by
-rising life expectancy. While longer life expectancy contributes,
-the primary driver of the shift in age structure is fertility
-decline. A population with replacement fertility and rising life
-expectancy ages slowly and moderately; a population with
-sub-replacement fertility ages rapidly and severely, regardless of
-life expectancy. The policy implications differ: if aging is driven
-by longevity, the response is to extend working lives and manage
-healthcare costs; if it is driven by low fertility, the response must
-also address the structural causes of sub-replacement childbearing.
+**Calling every projection a prediction.** Projections show the consequences of assumptions. Fertility revisions have already changed the projected timing and height of the global peak, so horizon and uncertainty must accompany every quoted number [2].
+
+**Assuming longevity alone causes aging.** Early mortality improvement can make a population younger by increasing child survival. Fertility decline, later old-age survival, inherited age structure, and migration interact; decomposition results depend on baseline and measure [1][9].
+
+**Reading dependency ratios as fiscal accounts.** Age boundaries are conventions, and people within the same age band differ in work, health, taxes, benefits, savings, and care. Use demographic ratios as exposure indicators, then model institutions [1].
+
+**Treating the dividend as automatic.** A larger working-age share creates potential. East Asia's estimated dividend depended on education, employment, economic policy, and institutions capable of using that labor [2][8].
+
+**Treating immigration as either a complete cure or irrelevant.** Migration can materially affect population and labor supply, but ordinary flows cannot freeze age structure indefinitely. Objectives and required scales must be separated [2][10].
+
+**Treating the second demographic transition as universal.** Sub-replacement fertility, cohabitation, delayed marriage, and nonmarital births do not travel as one package. Regional institutions and gender systems produce different combinations [6][7].
 
 ## Sources
 
-1. Notestein, F. W. (1945). "Population -- The Long View." In T. W.
-   Schultz (Ed.), *Food for the World*, pp. 36-57. Chicago:
-   University of Chicago Press. The classic formulation of
-   demographic transition theory.
-   https://www.scribd.com/document/691346282/notestein-1945-pop-long-view-1 [high]
+1. Lee, R. (2003). "The Demographic Transition: Three Centuries of Fundamental Change." Journal of Economic Perspectives, 17(4), 167-190. https://pubs.aeaweb.org/doi/pdfplus/10.1257/089533003772034943 [high]
 
-2. Lee, R. (2003). "The Demographic Transition: Three Centuries of
-   Fundamental Change." *Journal of Economic Perspectives*, 17(4),
-   167-190. A survey of three centuries of demographic change and the
-   determinants of population aging.
-   https://pubs.aeaweb.org/doi/10.1257/089533003772034943 [high]
+2. United Nations, Department of Economic and Social Affairs, Population Division. (2024). World Population Prospects 2024: Summary of Results. https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/wpp2024_summary_of_results_final_web.pdf [high]
 
-3. Lesthaeghe, R. (2014). "The Second Demographic Transition: A
-   Concise Overview of Its Development." *Proceedings of the National
-   Academy of Sciences*, 111(51), 18112-18115.
-   https://www.pnas.org/doi/10.1073/pnas.1420441111 [high]
+3. Frejka, T. (2016). "The Demographic Transition Revisited: A Cohort Perspective." MPIDR Working Paper WP-2016-012 and Human Fertility Database Research Report HFD RR-2016-001. https://www.demogr.mpg.de/papers/working/wp-2016-012.pdf [medium]
 
-4. Lesthaeghe, R. (2020). "The second demographic transition,
-   1986-2020: sub-replacement fertility and rising cohabitation --
-   a global update." *Genus*, 76, 10.
-   https://link.springer.com/article/10.1186/s41118-020-00077-4 [high]
+4. Delventhal, M. J., Fernandez-Villaverde, J., and Guner, N. (2021). "Demographic Transitions Across Time and Space." NBER Working Paper 29480. https://www.nber.org/system/files/working_papers/w29480/w29480.pdf [high]
 
-5. United Nations, Department of Economic and Social Affairs,
-   Population Division (2024). *World Population Prospects 2024:
-   Summary of Results*. The 28th edition of official UN population
-   estimates and projections, based on 1,910 national censuses.
-   https://reliefweb.int/report/world/world-population-prospects-2024-summary-results [high]
+5. Roser, M. (2023). "Demographic Transition: Why Is Rapid Population Growth a Temporary Phenomenon?" Our World in Data. https://ourworldindata.org/demographic-transition [medium]
 
-6. United Nations, Department of Economic and Social Affairs,
-   Population Division (2024). "All Populations Are Moving Towards
-   Longer Lives and Smaller Families." *DESA Policy Brief 167*.
-   https://un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2024_pb_wpp24.pdf [high]
+6. Lesthaeghe, R. (2014). "The Second Demographic Transition: A Concise Overview of Its Development." Proceedings of the National Academy of Sciences, 111(51), 18112-18115. https://pmc.ncbi.nlm.nih.gov/articles/PMC4280616/ [high]
 
-7. Max Roser and Hannah Ritchie (2023). "Demographic Transition: Why
-   Is Rapid Population Growth a Temporary Phenomenon?" *Our World in
-   Data*. Documents the universal pattern of mortality decline
-   preceding fertility decline across all countries.
-   https://ourworldindata.org/demographic-transition [high]
+7. Zaidi, B., and Morgan, S. P. (2017). "The Second Demographic Transition Theory: A Review and Appraisal." Annual Review of Sociology, 43, 473-492. https://pmc.ncbi.nlm.nih.gov/articles/PMC5548437/ [high]
 
-8. Murphy, M. (2017). "Use of Counterfactual Population Projections
-   for Assessing the Demographic Determinants of Population Ageing."
-   *European Journal of Population*, 33, 1-31. Extends the Preston,
-   Himes, and Eggers model to estimate the relative contribution of
-   fertility, mortality, and migration to aging across 11 European
-   countries.
-   https://ncbi.nlm.nih.gov/pmc/articles/PMC7865030 [high]
+8. Bloom, D. E., and Williamson, J. G. (1998). "Demographic Transitions and Economic Miracles in Emerging Asia." World Bank Economic Review, 12(3), 419-455. https://documents1.worldbank.org/curated/en/934291468206034843/pdf/772740JRN0WBER0Box0377301B00PUBLIC0.pdf [high]
 
-9. Lee, R. and Carter, L. (1992). "Modeling and Forecasting U.S.
-   Mortality." *Journal of the American Statistical Association*,
-   87(419), 659-671. The standard method for mortality forecasting,
-   essential for projecting aging trajectories. [high]
+9. Murphy, M. (2021). "Use of Counterfactual Population Projections for Assessing the Demographic Determinants of Population Ageing." European Journal of Population, 37, 211-242. https://pmc.ncbi.nlm.nih.gov/articles/PMC7865030/ [high]
 
-10. Cambridge University Press (2021). "The Demographic Transition
-    Model." Chapter 1 in *Demography and the Making of the Modern
-    World*. Historical data on global life expectancy and fertility.
-    https://cambridge.org/core/books/demography-and-the-making-of-the-modern-world/demographic-transition-model/9DC6767989229B9F90A72725457F76BF [medium]
-
-11. CEPR/VoxEU (2025). "Demographic Change: Headwinds for Economic
-    Growth." Analysis of demographic dividend and drag across EBRD
-    economies, including projections for sub-Saharan Africa and
-    Central Asia.
-    https://cepr.org/voxeu/columns/demographic-change-headwinds-economic-growth [medium]
-
-12. Berlin Institute for Population and Development. "Demographic
-    Dividend." Defines the demographic window of opportunity and its
-    prerequisites.
-    https://www.berlin-institut.org/en/focus-areas/demographic-dividend [medium]
+10. United Nations, Department of Economic and Social Affairs, Population Division. (2001). Replacement Migration: Is It a Solution to Declining and Ageing Populations? https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/unpd-egm_200010_un_2001_replacementmigration.pdf [high]
 
 ## See Also
 
-- `library/sociology-demography/anchor-sociology-demography.md` --
-  the domain anchor defining the scope within which this topic sits.
-- `library/macro-micro/anchor-macro-micro.md` -- the economic domain
-  to which the demographic transition connects as the population-level
-  foundation for labor supply, savings, and growth analysis.
+- `library/sociology-demography/anchor-sociology-demography.md` -- defines the domain scope for population change and social institutions.
+- `library/macro-micro/anchor-macro-micro.md` -- separates demographic structure from the economic mechanisms that turn it into growth, fiscal, and market outcomes.
