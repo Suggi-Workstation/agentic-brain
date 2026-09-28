@@ -1,6 +1,6 @@
 # Mathematics Statistics -- Topics
 
-12 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
+13 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
 
 - [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md) -- [reviewed: 2026-09-21] -- Bayesian statistics represents uncertainty about unknown quantities with probability distributions and updates those distributions by combining a prior model with the likelihood of observed data. Its distinctive output is a posterior distribution conditional on the prior, likelihood, and data, not a guarantee that any one model is true.
 
@@ -23,6 +23,8 @@
 - [Regression Analysis -- Why Modeling Relationships Between Variables Is the Backbone of Quantitative Reasoning](regression-analysis.md) -- [reviewed: never] -- Regression analysis is the statistical method for estimating how a dependent variable changes when one or more independent variables change, producing equations that quantify relationships, isolate effects, and generate predictions from data. From Francis Galton's 19th-century study of hereditary traits to the generalized linear models that underpin modern data science, regression has evolved into the most widely used family of statistical techniques in science, industry, and policy.
 
 - [Statistical Inference -- Why Drawing Reliable Conclusions from Limited Data Is the Core Challenge of Science](statistical-inference.md) -- [reviewed: never] -- Statistical inference is the mathematical framework for drawing conclusions about populations and processes from finite samples of data. It transforms the raw material of observation -- measurements, counts, responses -- into statements about the world accompanied by quantified uncertainty. Without statistical inference, data is merely anecdote; with it, data becomes evidence.
+
+- [Stochastic Processes and Markov Chains -- The Right State Makes Random Evolution Calculable](stochastic-processes-and-markov-chains.md) -- [reviewed: never] -- A stochastic process describes uncertain evolution by assigning a joint probability law to observations indexed by time, while a Markov model compresses the relevant past into a present state. When that state is well chosen, transition rules make future distributions, hitting events, and long-run occupancy calculable; when it is poorly chosen, the same machinery can hide memory, nonstationarity, or omitted variables behind precise-looking matrices [1][2][4].
 
 - [Time Series Analysis -- Why Temporal Dependence Must Be Modeled Before Data Can Support a Forecast](time-series-analysis.md) -- [reviewed: never] -- Time series analysis studies observations indexed by time, treating their ordering and dependence as information rather than as an inconvenience. Its central claim is that a model which ignores autocorrelation, changing variance, seasonality, or structural change can produce misleading uncertainty estimates and unreliable forecasts even when it fits past observations well.
 
