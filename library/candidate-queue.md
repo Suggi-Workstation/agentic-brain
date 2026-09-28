@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Operating Leverage and Cost Structure -- How Fixed Costs Amplify Growth and Fragility
-- **Domain:** business-management-strategy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.4/10.0 (gap=9.3, compounding=9.4, timeliness=9.1, balance=10.0)
-- **Scope:** Explain how fixed and variable cost structures create operating leverage, changing the sensitivity of margins, cash flow, and break-even points to revenue volume. Show how capacity utilization, contribution margin, pricing, automation, outsourcing, and cyclicality can turn the same cost base into either a scale advantage or financial fragility. Provide a framework for comparing business models without confusing operating leverage with financial debt leverage.
-- **Status:** proposed
-
 ## Candidate: The EU AI Act -- Risk Tiers, General-Purpose Models, Compliance, and Enforcement
 - **Domain:** law-regulation
 - **Proposed by:** Librarian
