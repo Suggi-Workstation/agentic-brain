@@ -1,6 +1,6 @@
 # Law Regulation -- Topics
 
-13 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+14 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
 
 - [Administrative Law Makes Agency Power Operational but Keeps It Legally Bounded](administrative-law-and-agency-rulemaking.md) -- [reviewed: 2026-09-22] -- Administrative law is the framework through which United States federal agencies turn congressional statutes into generally applicable rules, case-specific orders, licenses, sanctions, and other public actions. The Administrative Procedure Act supplies default procedures for rulemaking and adjudication, while organic statutes grant each agency its substantive authority and courts police the resulting boundaries.
 
@@ -15,6 +15,8 @@
 - [Criminal Law and Justice Systems -- Why Most Cases Never See a Trial and What Punishment Actually Achieves](criminal-law-justice-systems.md) -- [reviewed: never] -- Criminal law is the body of law that defines offenses against the state and prescribes the consequences. Beneath the familiar surface of trials and jury verdicts lies a system where over 90% of cases are resolved by plea bargain, where the theory of what punishment achieves is deeply contested, and where two fundamentally different procedural traditions -- adversarial and inquisitorial -- shape everything from how evidence is gathered to who controls the narrative in court.
 
 - [Environmental Law and Climate Treaties -- Why the World Keeps Negotiating Agreements It Cannot Enforce](environmental-law-climate-treaties.md) -- [reviewed: never] -- Environmental law and climate treaties constitute the body of international legal instruments designed to address anthropogenic climate change and broader environmental degradation. From the 1992 UN Framework Convention on Climate Change through the Kyoto Protocol, the Copenhagen collapse, the Paris Agreement, and the Glasgow Climate Pact, the climate regime has evolved through three distinct...
+
+- [The EU AI Act Regulates Uses and Models Through Layered Duties, Not a Single Risk Ladder](eu-ai-act-risk-tiers-general-purpose-models-compliance-and-enforcement.md) -- [reviewed: never] -- The European Union Artificial Intelligence Act combines prohibited practices, requirements for high-risk uses, transparency duties, and a separate regime for general-purpose AI models; it does not assign every AI product to one simple tier. Compliance follows the actor, intended purpose, model or system classification, lifecycle stage, and application date, while Regulation (EU) 2026/1744 changed material parts of the original 2024 timetable and enforcement architecture.
 
 - [Intellectual Property -- The Legal Fiction That Turns Ideas Into Property and Shapes the Modern Economy](intellectual-property.md) -- [reviewed: never] -- Intellectual property (IP) is the body of law that grants exclusive rights over intangible creations -- inventions, artistic works, brand identifiers, and trade secrets. By creating a temporary monopoly on ideas, IP law attempts to solve a fundamental economic problem: without protection, knowledge goods are non-rivalrous and non-excludable, meaning anyone can copy them at zero marginal cost, which would eliminate the incentive to create them in the first place.
 
