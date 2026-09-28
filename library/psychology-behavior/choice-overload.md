@@ -6,6 +6,7 @@ domain: psychology-behavior
 author: Librarian
 tags: [choice-overload, assortment-size, decision-deferral, preference-uncertainty, choice-architecture, behavioral-economics]
 links: [library/psychology-behavior/decision-fatigue-and-ego-depletion.md, library/psychology-behavior/framing-effects.md, library/psychology-behavior/attention-salience-and-cognitive-control.md, library/psychology-behavior/heuristics.md]
+reviewed: 2026-09-28
 ---
 
 # Choice Overload Is Conditional -- More Options Can Improve Matching or Increase Deferral and Regret
@@ -120,6 +121,8 @@ Greifeneder, Scheibehenne, and Kleber used two experiments that independently ma
 
 Chernev used four experiments to test whether articulated attribute preferences changed responses to assortment size. Participants with an available ideal point were more likely to prefer larger sets and used selective processing, whereas participants without articulated preferences compared more broadly and were relatively more favorable toward smaller sets [4]. The studies support preference uncertainty as a boundary condition and explain why domain expertise can reverse the effect of assortment size.
 
+Huang and Xu later tested set size together with the overall preference level of the available options in a two-stage choice task, combining behavior with hierarchical drift diffusion modeling and electroencephalography. High-preference sets helped participants identify satisfactory options and accelerated final selection, especially in large sets, whereas low-preference sets amplified the adverse effect of larger sets [14]. This controlled value-based task supports preference strength as a moderator; it does not establish that the same neural or behavioral pattern generalizes to unfamiliar real-world catalogs.
+
 Gourville and Soman tested assortment type across three studies. Alignable assortments varied along common dimensions and benefited from expansion; non-alignable assortments required between-attribute trade-offs and could lose brand share as they expanded. Their process tests implicated cognitive effort and regret [6]. The result makes a concrete design prediction: adding another size of the same product is psychologically different from adding a variant with a unique feature that must be traded against all others.
 
 ### Composition, Categorization, and Expectations Change Outcomes
@@ -142,7 +145,9 @@ Dean, Ravindran, and Stoye recruited 2,000 online participants and retained 1,83
 
 Tests using the full pattern rejected the hypothesis that the grand-set default rate was the lowest and also rejected the random utility model. The authors interpret this as evidence that richer choice-set variation can detect overload hidden by conventional comparisons [11]. Because the paper is an academic working paper and studies structured monetary lotteries rather than ordinary retail assortments, its substantive generality remains to be established. Its methodological lesson is nevertheless clear: apparent replication failure can arise from a test that observes too little of the chooser's preference structure.
 
-The evidence as a whole supports neither a universal paradox nor dismissal. The mean effect can be near zero across heterogeneous tasks [2], theory-based moderators can organize part of that heterogeneity [3], and targeted experiments show both beneficial and adverse effects depending on structure and knowledge [4][5][6][7][8][9]. The author's assessment is that choice overload is established as a conditional possibility with identifiable risk factors, while its prevalence and magnitude in any new domain require direct measurement.
+Musial addressed a different measurement problem by reviewing existing choice-overload scales and finding that they drew on heterogeneous constructs such as confusion and information overload. Across seven studies, the paper developed an eight-item Choice Overload Scale intended to measure the subjective burden of choosing [15]. The instrument may improve consistency when overload is the outcome of interest, but subjective burden remains distinct from deferral, choice quality, satisfaction, and welfare; a scale score cannot replace those outcome-specific measures.
+
+The evidence as a whole supports neither a universal paradox nor dismissal. The mean effect can be near zero across heterogeneous tasks [2], theory-based moderators can organize part of that heterogeneity [3], and targeted experiments show both beneficial and adverse effects depending on structure, knowledge, and preference strength [4][5][6][7][8][9][14]. The author's assessment is that choice overload is established as a conditional possibility with identifiable risk factors, while its prevalence and magnitude in any new domain require direct measurement with outcomes matched to the claim [11][15].
 
 ## Implications
 
@@ -245,9 +250,9 @@ For readers of behavioral science, the practical rule is calibration. The jam st
     83-96. https://business.columbia.edu/faculty/research/how-much-choice-too-much-contributions-401k-retirement-plans
     [high]
 
-11. Dean, M., Ravindran, D., and Stoye, J. (2024). "A Better Test of
-    Choice Overload." Becker Friedman Institute Working Paper.
-    https://bfi.uchicago.edu/wp-content/uploads/2024/08/Dean.A-Better-Test-of-Choice-Overload80.pdf
+11. Dean, M., Ravindran, D., and Stoye, J. (2026). "A Better Test of
+    Choice Overload." Working paper, July 31, 2026.
+    https://www.columbia.edu/~md3405/Working_Paper_24.pdf
     [high]
 
 12. Misuraca, R., Nixon, A. E., Miceli, S., Di Stefano, G., and Scaffidi
@@ -260,6 +265,16 @@ For readers of behavioral science, the practical rule is calibration. The jam st
     of Parametric Variation of Number of Choices." Psychological
     Science, 18(5), 369-370.
     https://doi.org/10.1111/j.1467-9280.2007.01906.x [high]
+
+14. Huang, X., and Xu, S. (2025). "Mitigating Choice Overload: The
+    Interactive Effects of Set Size and Overall Preference Revealed by
+    Hierarchical Drift Diffusion Modeling and Electroencephalography."
+    NeuroImage, 321, 121542.
+    https://doi.org/10.1016/j.neuroimage.2025.121542 [high]
+
+15. Musial, J. (2026). "Measuring the Burden of Choice: Development and
+    Validation of a Choice Overload Scale." Journal of Consumer
+    Behaviour. https://doi.org/10.1002/cb.70194 [high]
 
 ## See Also
 
