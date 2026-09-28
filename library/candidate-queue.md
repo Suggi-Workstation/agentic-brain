@@ -73,3 +73,51 @@
 - **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.8, timeliness=8.7, balance=10.0)
 - **Scope:** Profile Claude Shannon's path from switching-circuit logic and wartime cryptography to information theory, chess programming, and machine learning experiments. Examine how his preference for abstraction, playful tinkering, selective publication, and Bell Labs environment shaped both his breakthroughs and his unusually private career. Keep the focus on the person, collaborators, working habits, choices, limitations, and legacy while cross-referencing the separate mathematics topic for the technical theory.
 - **Status:** proposed
+
+## Candidate: Supplier Finance and Reverse Factoring -- When Trade Payables Become Hidden Debt
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.5/10.0 (gap=9.5, compounding=9.6, timeliness=9.2, balance=10.0)
+- **Scope:** Explain how supplier-finance and reverse-factoring arrangements change who pays suppliers, when buyers settle, and how obligations may remain presented as trade payables despite financing-like economics. Show how payment-term extensions, classification choices, working-capital movements, concentration, and facility withdrawal can alter leverage, operating cash flow, and liquidity risk. Compare FASB and IASB disclosure requirements and provide a forensic reconciliation from footnotes and cash flows to an analyst's debt-like adjustment.
+- **Status:** proposed
+
+## Candidate: Joel Greenblatt -- From Special Situations to Systematic Value Investing
+- **Domain:** investors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.3/10.0 (gap=9.2, compounding=9.3, timeliness=9.0, balance=10.0)
+- **Scope:** Profile Joel Greenblatt's path from Gotham Capital's concentrated special-situation investments to teaching, writing, and systematic quality-value strategies. Examine his research process, capacity constraints, portfolio concentration, public track-record claims, mistakes, and the tension between case-specific judgment and the Magic Formula. Keep the focus on Greenblatt's career and evolution while cross-referencing separate topics on the screen, special situations, and value-investing principles.
+- **Status:** proposed
+
+## Candidate: Externalities and Public Goods -- When Market Prices Miss Social Costs and Benefits
+- **Domain:** macro-micro
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.7, timeliness=9.6, balance=10.0)
+- **Scope:** Explain how externalities create wedges between private and social costs or benefits, and how non-rivalry and non-excludability generate public-good and free-rider problems. Compare taxes, subsidies, regulation, property rights, bargaining, public provision, and cap-and-trade while stating the assumptions and distributional trade-offs behind each remedy. Apply the framework to pollution, research, vaccination, infrastructure, and digital networks without turning the topic into a policy catalogue.
+- **Status:** proposed
+
+## Candidate: Graph Theory and Network Science -- Turning Relationships Into Quantifiable Structure
+- **Domain:** mathematics-statistics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=10.0)
+- **Scope:** Develop graph theory from vertices, edges, paths, cycles, trees, connectivity, centrality, and adjacency representations, then show how these abstractions support network science. Explain random graphs, small-world and scale-free claims, community structure, diffusion, robustness, and the limits of inferring causality from network patterns. Connect the mathematical foundations to biology, infrastructure, social systems, algorithms, and machine learning while keeping applications secondary to the formal tools.
+- **Status:** proposed
+
+## Candidate: Liability-Driven Investing -- Matching Portfolio Assets to Future Obligations
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.6/10.0 (gap=9.3, compounding=9.5, timeliness=9.8, balance=10.0)
+- **Scope:** Explain liability-driven investing as portfolio construction organized around the timing, duration, inflation sensitivity, and uncertainty of future obligations rather than around an asset-only benchmark. Show how bonds, derivatives, collateral, leverage, liquidity buffers, and return-seeking assets interact in pension and insurance portfolios. Analyze basis risk, model risk, margin calls, governance, and the 2022 UK gilt episode without equating LDI itself with leveraged pooled funds.
+- **Status:** proposed
+
+## Candidate: Protein Folding and Proteostasis -- How Cells Turn Amino Acid Sequences Into Functional Structures
+- **Domain:** science
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.8, timeliness=10.0, balance=10.0)
+- **Scope:** Explain why amino-acid sequence constrains three-dimensional protein structure through thermodynamics, kinetics, energy landscapes, and the cellular environment. Show how molecular chaperones, quality-control pathways, aggregation, degradation, and intrinsically disordered regions complicate the simple sequence-to-structure story. Connect folding to biological function, misfolding disease, experimental structure determination, and modern prediction methods while distinguishing prediction from the physical process itself.
+- **Status:** proposed
