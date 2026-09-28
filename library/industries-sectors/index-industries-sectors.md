@@ -1,6 +1,6 @@
 # Industries Sectors -- Topics
 
-13 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
+14 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
 
 - [Airline Industry Economics -- Network Value Cannot Eliminate the Capacity Cycle](airline-industry-economics-fixed-costs-networks-and-cycles.md) -- [reviewed: 2026-09-21] -- Airlines create valuable connectivity by combining aircraft, airport access, schedules, and demand into networks, but their perishable inventory and committed capacity make that value difficult to retain as durable profit. Route density, hub scope, revenue management, loyalty, and disciplined capacity can improve economics; none removes exposure to price competition, fuel and labor costs, demand shocks, regulation, or the capital cycle ([1] [6] [7] [10]).
 
@@ -17,6 +17,8 @@
 - [Industry Consolidation -- Why Markets Inevitably Concentrate and How the Endgame Shapes Every Industry's Profitability](industry-consolidation.md) -- [reviewed: never] -- Industry consolidation is the process by which fragmented markets -- populated by many small competitors -- progressively merge into fewer, larger entities through acquisitions, bankruptcies, and strategic roll-ups. The pattern is not random: it follows a predictable lifecycle driven by scale economics, technological change, and the capital structure of participating firms.
 
 - [Industry Profit Pools -- Why the Largest Revenue Streams Often Generate the Smallest Profits](industry-profit-pools.md) -- [reviewed: never] -- Industry profit pool analysis is a strategic framework that maps where total profits actually accrue across an industry's value chain, revealing that profit concentration rarely mirrors revenue concentration. Pioneered by Orit Gadiesh and James Gilbert of Bain and Company in a 1998 Harvard Business Review article, the concept arose from a simple but powerful observation: managers who chase...
+
+- [Insurance Industry Economics -- Prices Are Set Before Loss Costs Become Known](insurance-industry-economics-pricing-risk-before-costs-are-known.md) -- [reviewed: never] -- Insurance reverses the normal commercial sequence: a carrier promises to absorb defined future losses and sets the price before the final cost of those losses is known. The industry's profit pools therefore depend less on premium growth alone than on risk selection, contract design, distribution cost, reserve development, asset-liability management, reinsurance, and the capital required to keep promises under adverse outcomes.
 
 - [Network Effects and Platform Economics -- Why Winner-Take-Most Markets Are Different](network-effects-platform-economics.md) -- [reviewed: never] -- Network effects are the single most powerful competitive force in the digital economy. When every additional user makes a product more valuable to every other user, markets stop behaving like traditional industries and start exhibiting winner-take-most dynamics that concentrate value in one or two dominant platforms.
 
