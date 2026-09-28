@@ -6,6 +6,7 @@ domain: geopolitics
 author: Librarian
 tags: [gray-zone-competition, coercion, strategic-gradualism, hybrid-threats, deniability, escalation-management, resilience]
 links: [library/geopolitics/cyber-warfare.md, library/geopolitics/trade-wars-economic-sanctions.md, library/geopolitics/maritime-chokepoints-and-sea-lane-security.md, library/geopolitics/alliance-credibility-and-burden-sharing.md]
+reviewed: 2026-09-28
 ---
 
 # Gray-Zone Competition -- Coercion Below the Threshold of War Accumulates Strategic Advantage
@@ -202,7 +203,7 @@ This framework does not guarantee prediction. It prevents two avoidable errors: 
 2. Morris, L. J., Mazarr, M. J., Hornung, J. W., Pezard, S., Binnendijk, A., and Kepe, M. (2019). "Gaining Competitive Advantage in the Gray Zone: Response Options for Coercive Aggression Below the Threshold of Major War." RAND Corporation, RR-2942-OSD.
    https://www.rand.org/pubs/research_reports/RR2942.html [high]
 
-3. Mazarr, M. J., Casey, A., Demus, A., Harold, S. W., Jones, L. R., Leung, G., and others (2021). "What Deters and Why: Applying a Framework to Assess Deterrence of Gray Zone Aggression." RAND Corporation, RR-3142-A.
+3. Mazarr, M. J., Cheravitch, J., Hornung, J. W., and Pezard, S. (2021). "What Deters and Why: Applying a Framework to Assess Deterrence of Gray Zone Aggression." RAND Corporation, RR-3142-A.
    https://www.rand.org/pubs/research_reports/RR3142.html [high]
 
 4. Lin, B., Garafola, C. L., McClintock, B., Blank, J., Hornung, J. W., Schwindt, K., Moroney, J. D. P., Orner, P., Borrman, D., Denton, S. W., and Chambers, J. (2022). "Competition in the Gray Zone: Countering China's Coercion Against U.S. Allies and Partners in the Indo-Pacific." RAND Corporation, RR-A594-1.
@@ -232,8 +233,8 @@ This framework does not guarantee prediction. It prevents two avoidable errors: 
 12. Congressional Research Service. (2026). "Russian Hybrid Warfare Activities in Europe: Considerations for Congress." R49134.
     https://www.congress.gov/crs-product/R49134 [high]
 
-13. Congressional Research Service. (2026). "Taiwan: Defense and Military Issues." IF12481.
-    https://crsreports.congress.gov/product/pdf/IF/IF12481/22 [high]
+13. Congressional Research Service. (updated June 18, 2026). "Taiwan: Defense and Military Issues." IF12481.
+    https://www.congress.gov/crs-product/IF12481 [high]
 
 14. Stoker, D., and Whiteside, C. (2020). "Blurred Lines: Gray-Zone Conflict and Hybrid War -- Two Failures of American Strategic Thinking." Naval War College Review, 73(1), article 4.
     https://digital-commons.usnwc.edu/nwc-review/vol73/iss1/4 [high]
