@@ -6,6 +6,7 @@ domain: books
 author: Librarian
 tags: [abundance, supply-side-progressivism, state-capacity, housing, infrastructure, innovation, liberal-governance]
 links: [library/political-science-public-policy/state-capacity.md, library/political-science-public-policy/political-economy-of-development.md, library/political-science-public-policy/public-policy-design-implementation.md, library/engineering-infrastructure/power-grid-infrastructure-generation-transmission-distribution.md]
+reviewed: 2026-09-28
 ---
 
 # Abundance -- Klein and Thompson Make Supply and State Capacity the Test of Progressive Government
@@ -92,7 +93,7 @@ The case supports the claim that institutional process affects delivery, but it 
 
 ### Interstate 95 as a demonstration of latent capacity
 
-The 2023 reconstruction of a collapsed section of Interstate 95 in Pennsylvania serves as a positive case. Governor Josh Shapiro's administration used emergency authority, accelerated contracting and approvals, and coordinated agencies and firms to reopen the roadway in twelve days [1][13]. The case functions as a demonstration of possibility: an American public institution faced a visible outcome, concentrated responsibility, and completed an urgent task much faster than ordinary procedures would suggest [1].
+The 2023 response to a collapsed section of Interstate 95 in Pennsylvania serves as a positive case. Governor Josh Shapiro's administration used emergency authority, accelerated contracting and approvals, and coordinated agencies and firms to open an interim six-lane roadway over the gap twelve days after the collapse [1][13][16]. The permanent bridge was still to be built, so the twelve-day result was restoration of traffic rather than completion of the permanent repair [16]. The case functions as a demonstration of possibility: an American public institution faced a visible outcome, concentrated responsibility, and completed an urgent task much faster than ordinary procedures would suggest [1].
 
 Its evidentiary limitation is external validity. Emergency reconstruction of an existing transport link with broad agreement about the desired outcome is not equivalent to siting a new line through contested communities or choosing among competing long-term projects. The case shows that procedural flexibility and focused leadership can accelerate delivery. It does not by itself determine which routine safeguards are redundant or how emergency-style authority should be constrained when interests are less aligned. Robert Whaples identifies this risk directly: empowering government to do useful things is attractive until political opponents control the same authority and define usefulness differently [13].
 
@@ -104,19 +105,19 @@ This case is well suited to the book's claim because it directly contradicts a s
 
 ### Operation Warp Speed as coordinated invention and deployment
 
-Operation Warp Speed is the book's strongest contemporary example of mission-oriented capacity. Federal action financed several vaccine candidates, accelerated parts of development and regulatory coordination, arranged advance purchases, and worked with private logistics and retail organizations to distribute doses [1][8]. The method was portfolio funding under uncertainty combined with advance market commitments and parallel preparation for manufacturing and delivery. Its result was not merely a successful laboratory product but a compressed path from research to large-scale availability [1][8].
+Operation Warp Speed is the book's strongest contemporary example of mission-oriented capacity. Federal action supported a six-candidate portfolio using different vaccine platforms, overlapped development activities where permitted, began large-scale manufacturing during clinical trials, and funded development, manufacturing, or advance purchases in different combinations [1][8][17]. Federal agencies also helped companies address manufacturing capacity, equipment, and supply-chain bottlenecks [17]. The method was portfolio funding under uncertainty combined with advance market commitments and parallel preparation for manufacturing and delivery. Its result was not merely a successful laboratory product but a compressed path from research to large-scale availability [1][8].
 
 The case supports three propositions: government can absorb risk that individual firms may avoid; funding multiple candidates can preserve options; and deployment infrastructure must be planned before scientific uncertainty is fully resolved [1][8]. It does not show that every mission can be managed similarly. Vaccine development had a measurable objective, massive demand, intense political attention, and existing biomedical and logistics systems. A mission with contested goals, diffuse benefits, or no clear technical endpoint may be harder to govern. The book's general principle survives that qualification, but the expected performance of mission agencies should be calibrated to the structure of the problem.
 
 ### Research selection and the bias against novelty
 
-Klein and Thompson cite evidence that peer reviewers can score highly novel biomedical proposals less favorably than familiar ones and that scientists devote substantial time to grant applications and administration [1][8]. The EESI account identifies a Harvard study in which medical reviewers gave the lowest scores to highly novel experiments and reports the book's estimate that researchers may spend about 40 percent of their time on grant-related administration [8]. The mechanism is incentive-compatible conservatism: when approval depends on persuading a committee and failure is reputationally costly, applicants favor projects that appear feasible and legible.
+Klein and Thompson cite evidence that peer reviewers can score highly novel biomedical proposals less favorably than familiar ones and that grant requirements consume substantial research time [1][8]. In a field experiment, 142 medical researchers evaluated 150 proposals, producing 2,130 randomly assigned proposal-evaluator pairs. Evaluators systematically assigned lower scores to highly novel proposals, with novelty measured through combinations of Medical Subject Headings that had not appeared together in the prior literature [14]. Separately, the 2012 Federal Demonstration Partnership survey of 13,453 principal investigators reported that 42 percent of time associated with federally funded projects went to proposal preparation, pre-award and post-award requirements, and reporting rather than active research [15]. That figure concerns federal-project research time, not researchers' total working time.
 
 These findings support experimentation with funding mechanisms that tolerate uncertainty, but they do not prove that novelty is always valuable. Most novel ideas will fail, and reviewers may sometimes detect genuine weaknesses. A credible reform must compare portfolios over time, distinguish scientific learning from mere variance, and measure whether alternative selection systems generate more consequential results per unit of resource. The book's evidence justifies concern about excessive risk aversion; it does not eliminate the need for selection, replication, or audit.
 
 ### Solar manufacturing and the power of scale
 
-The book uses China's solar manufacturing expansion to illustrate deployment-driven cost decline. EESI's account reports the book's claim that China moved from negligible solar production in 2000 to making 70 percent of the world's photovoltaic panels by 2020, while panel costs fell about 90 percent over fifteen years [8]. The case demonstrates the interaction of industrial scale, process learning, supply chains, and global diffusion. It supports the book's argument that invention and production should not be treated as separate worlds.
+The book uses China's solar manufacturing expansion to illustrate deployment-driven cost decline. EESI's account reports the book's claim that China moved from negligible solar production in 2000 to making 70 percent of the world's photovoltaic panels by 2020, while panel costs fell about 90 percent over fifteen years [8]. Independent sources support the magnitudes while clarifying the cost measure: the Oxford Institute for Energy Studies reports that China produced 70 percent of global photovoltaic panels in 2020, and the International Renewable Energy Agency reports that solar module prices fell around 90 percent after 2009 while the global levelized cost of utility-scale solar electricity fell 85 percent from 2010 through 2020 [18][19]. The case demonstrates the interaction of industrial scale, process learning, supply chains, and global diffusion. It supports the book's argument that invention and production should not be treated as separate worlds.
 
 The causal interpretation requires caution. Cost declines can reflect research, cumulative production, competition, input prices, subsidies, trade, and learning across countries. The before-and-after pattern does not identify the exact contribution of any single Chinese policy. The case also raises questions the abundance frame must incorporate: concentrated production can create geopolitical dependence, trade conflict, labor concerns, and incentives for incumbents to shape markets. The author's assessment is that the evidence strongly supports scale as part of technological progress, while leaving the optimal distribution and governance of that scale unsettled.
 
@@ -288,6 +289,35 @@ The evidence does not establish that procedural reform is the dominant solution 
 13. Whaples, R. M. (2025). "Book Review: Abundance, Ezra Klein and Derek
     Thompson." *The Independent Review*, Fall 2025 web exclusive.
     https://www.independent.org/tir/2025-fall/abundance [medium]
+
+14. Boudreau, K. J., Guinan, E. C., Lakhani, K. R., and Riedl, C. (2016).
+    "Looking Across and Looking Beyond the Knowledge Frontier: Intellectual
+    Distance, Novelty, and Resource Allocation in Science." *Management
+    Science*, 62(10), 2765-2783. https://doi.org/10.1287/mnsc.2015.2285 [high]
+
+15. Federal Demonstration Partnership. (2014). "2012 Faculty Workload Survey:
+    Executive Summary." https://thefdp.org/wp-content/uploads/fws_2012_exec_summary.pdf
+    [high]
+
+16. Commonwealth of Pennsylvania. (2023). "Governor Shapiro Reopens I-95 in
+    Philadelphia Twelve Days After Collapse."
+    https://www.pa.gov/governor/newsroom/2023-press-releases/governor-shapiro-reopens-i-95-in-philadelphia-twelve-days-after-
+    [high]
+
+17. U.S. Government Accountability Office. (2021). "Operation Warp Speed:
+    Accelerated COVID-19 Vaccine Development Status and Efforts to Address
+    Manufacturing Challenges." GAO-21-319.
+    https://www.gao.gov/products/gao-21-319 [high]
+
+18. Sandalow, D., Meidan, M., Andrews-Speed, P., Hove, A., Qiu, S., and
+    Downie, E. (2022). "Guide to Chinese Climate Policy 2022: Solar Power."
+    Oxford Institute for Energy Studies.
+    https://chineseclimatepolicy.oxfordenergy.org/book-content/domestic-policies/renewable-power/solar-power
+    [high]
+
+19. International Renewable Energy Agency. (2021). "Renewable Power Generation
+    Costs in 2020." https://www.irena.org/publications/2021/Jun/Renewable-Power-Costs-in-2020
+    [high]
 
 ## See Also
 
