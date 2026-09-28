@@ -1,6 +1,6 @@
 # Ethics Philosophy -- Topics
 
-13 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+14 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
 - [AI Ethics -- Trustworthy Systems Require Governance Across the Full Lifecycle](ai-ethics.md) -- [reviewed: 2026-09-21] -- AI ethics studies the principles and institutions that should govern the design, development, deployment, use, and retirement of artificial intelligence systems. It asks not only whether a system performs its assigned task, but whether its purpose is legitimate, its benefits and harms are distributed fairly, affected people can understand and contest consequential decisions, and identifiable humans and organizations remain accountable.
 
@@ -19,6 +19,8 @@
 - [Moral Uncertainty Requires Structured Decision-Making When Ethical Theories Conflict](moral-uncertainty-and-decision-making.md) -- [reviewed: never] -- Moral uncertainty arises when an agent must act without knowing which moral proposition, principle, or theory is correct. It matters because simply following the most credible theory can ignore morally serious possibilities, while combining theories requires defensible rules for credence, comparison, and learning [1, 2].
 
 - [Normative Ethics -- How Deontology, Consequentialism, and Virtue Ethics Give Radically Different Answers to "What Should I Do?"](normative-ethics.md) -- [reviewed: never] -- Normative ethics is the branch of moral philosophy that asks the most practical question in all of ethics: what makes an action right or wrong? Three grand frameworks dominate the Western tradition -- deontology (duty-based ethics, associated with Immanuel Kant), consequentialism (outcome-based ethics, most famously utilitarianism), and virtue ethics (character-based ethics, rooted in Aristotle).
+
+- [Philosophy of Language -- Meaning Depends on Reference, Use, Intention, and Social Practice](philosophy-of-language.md) -- [reviewed: never] -- Philosophy of language asks how sounds and marks become meaningful, how words refer to objects, how sentences can be true or false, and how utterances perform actions. Its central finding is that no single relation explains all of language: truth conditions, modes of presentation, rules of use, speaker intentions, conversational expectations, and public conventions solve different parts of the problem [1][3][6][7].
 
 - [Philosophy of Mind -- Consciousness Remains the Test No Theory of Mind Has Yet Passed](philosophy-of-mind-hard-problem-of-consciousness.md) -- [reviewed: never] -- Philosophy of mind asks how thought, meaning, agency, and subjective experience fit into a physical world. Its hardest unresolved question is why any physical or functional process should be accompanied by a first-person point of view at all, a gap that persists even as neuroscience identifies increasingly precise mechanisms and correlates of conscious access [1, 7, 11, 13].
 
