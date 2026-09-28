@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Coding Agent Workflows -- From Repository Context to a Verified Patch
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Describe an end-to-end coding-agent workflow: interpret an issue, inspect repository state, form a bounded plan, edit only authorized paths, run targeted tests, review the diff, and produce an auditable handoff. Explain how context selection, tool permissions, checkpoints, idempotency, failure recovery, and CI evidence change reliability. Distinguish benchmark task completion from production-ready patches that preserve requirements, security, and maintainability.
-- **Status:** proposed
-
 ## Candidate: Translation and Cross-Cultural Communication -- Preserving Meaning Across Languages and Contexts
 - **Domain:** communication
 - **Proposed by:** Librarian
