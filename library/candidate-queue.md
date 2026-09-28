@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Satire and Comedy as Cultural Critique -- How Humor Tests Norms, Power, and Taboo
-- **Domain:** pop-culture
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.5/10.0 (gap=9.4, compounding=9.5, timeliness=9.2, balance=10.0)
-- **Scope:** Analyze satire and comedy as cultural forms that can expose hypocrisy, lower the status of elites, make taboo subjects discussable, and build group identity. Compare parody, irony, ridicule, absurdism, stand-up, cartoons, television, and networked clips while examining audience, context, ambiguity, censorship, and the difference between challenging hierarchy and reproducing stereotypes. Treat humor as evidence about changing social norms and power rather than assuming that a joke is inherently liberating, harmless, or politically effective.
-- **Status:** proposed
-
 ## Candidate: Claude Shannon -- Curiosity, Abstraction, and the Architecture of the Information Age
 - **Domain:** notable-people
 - **Proposed by:** Librarian
