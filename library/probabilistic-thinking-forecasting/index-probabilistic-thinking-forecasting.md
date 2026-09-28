@@ -1,6 +1,6 @@
 # Probabilistic Thinking Forecasting -- Topics
 
-13 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
+14 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
 
 - [Base Rate Neglect -- Why Vivid Evidence Looks More Diagnostic Than It Is](base-rate-neglect.md) -- [reviewed: 2026-09-22] -- Base rate neglect is the underweighting of how common an outcome is before case-specific evidence arrives. It can distort posterior probabilities in forecasting, diagnosis, screening, and investment analysis, but the evidence does not support the stronger claim that people always ignore base rates; usage varies with task structure, representation, relevance, and the person making the judgment ([4] [8]).
 
@@ -15,6 +15,8 @@
 - [Expected Value Thinking -- Why Rational Decision-Makers Win by Embracing Uncertainty](expected-value-decision-trees.md) -- [reviewed: never] -- Expected value (EV) thinking is the rational decision-maker's core operating system: multiply each possible outcome by its probability, sum across all outcomes, and select the path with the highest expected result. Simple in principle, EV thinking is notoriously difficult to live by because it demands being willing to lose individual bets you were right to take.
 
 - [Fermi Estimation Makes Sparse Information Actionable by Exposing Assumptions](fermi-estimation-and-decomposition.md) -- [reviewed: never] -- Fermi estimation turns an apparently unanswerable quantitative question into a transparent model built from quantities that can be bounded, estimated, or researched. Its value is not a magically accurate point answer but a defensible order of magnitude, an explicit uncertainty range, and a map of which assumptions can change the decision ([2] [3] [5]).
+
+- [Forecast Question Design Makes Uncertainty Measurable Only When Resolution Is Specified in Advance](forecast-question-design.md) -- [reviewed: never] -- A forecast question converts a concern about the future into a defined event, outcome space, time horizon, and resolution procedure that can support probabilistic judgment and later scoring [1][4][6]. The wording is not administrative packaging: it determines what forecasters research, when they may update, which evidence counts, and whether two forecasts can be compared fairly [2][3][8][9].
 
 - [The Inside View Is Seductive, Detail-Rich, and Almost Always Wrong -- Why the Outside View Wins](inside-outside-view.md) -- [reviewed: never] -- The inside view and outside view are two fundamentally different ways of making predictions about the future. The inside view builds a forecast by focusing on the specific case: its unique details, constraints, resources, and plan of action. The outside view ignores those specifics and instead asks a single question: how did similar cases turn out?
 
