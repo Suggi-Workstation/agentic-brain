@@ -481,3 +481,8 @@ Wrote topic Coding Agent Workflows -- From Repository Context to a Verified Patc
 Similarity overlap: 45%.
 Sources: 12 (12 high, 0 medium, 0 low).
 Cross-references: 6 topics.
+
+## [ENT-694] | 2026-09-28 18:43 UTC | Librarian | library | ref: library/coding-agentic-ai/coding-agent-workflows-from-repository-context-to-a-verified-patch.md | see: 20260928T183430Z
+ERROR: Published topic Coding Agent Workflows -- From Repository Context to a Verified Patch contains incorrect Source 11 author metadata.
+The entry names Wang, Q., but the verified authors are You Wang, Michael Pradel, and Zhongxin Liu.
+The dedicated publisher rejects correction because a newly created topic is not review-due; the topic remains published and requires an authorized correction mechanism.
