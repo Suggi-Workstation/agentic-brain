@@ -1,6 +1,6 @@
 # Portfolio Risk Management -- Topics
 
-12 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
+13 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
 
 - [Behavioral Aspects of Risk Tolerance -- Why Investor Psychology Determines Portfolio Success](behavioral-aspects-of-risk-tolerance.md) -- [reviewed: 2026-09-21] -- A portfolio is successful only if its investor can keep holding and managing it through the conditions for which it was designed. Financial capacity, stated willingness, perceived risk, recent experience, loss aversion, and overconfidence jointly shape that behavior, so an allocation that is mathematically efficient but behaviorally intolerable is not an effective allocation ([1] [9] [10]).
 
@@ -17,6 +17,8 @@
 - [Portfolio Rebalancing -- Why the Most Boring Discipline in Investing Is the Hardest to Maintain](portfolio-rebalancing-strategies.md) -- [reviewed: never] -- Portfolio rebalancing is the periodic reallocation of assets back to a target weight after market movements have pushed them adrift. It is mechanically simple -- sell what has grown, buy what has shrunk -- yet it sits at the intersection of portfolio theory, tax efficiency, and behavioral psychology.
 
 - [Portfolio Stress Testing Makes Hidden Fragility Actionable Before Losses Occur](portfolio-stress-testing-and-scenario-analysis.md) -- [reviewed: never] -- Portfolio stress testing asks how current holdings would behave under specified adverse conditions, while scenario analysis connects simultaneous shocks to an economically coherent state of the world. Used together, they complement statistical risk forecasts by exposing concentrations, nonlinear losses, correlation failure, and funding needs that an ordinary volatility or Value at Risk estimate can conceal (Sources 1, 2, and 6).
+
+- [Risk-Adjusted Performance Measurement -- No Single Ratio Proves Investment Skill](risk-adjusted-performance-measurement.md) -- [reviewed: never] -- Risk-adjusted performance measures compare return with a specified definition of risk, but each ratio answers a different question and inherits the weaknesses of its data, benchmark, and model [2][6][7]. A defensible evaluation therefore uses several compatible measures, tests the return history for sampling and smoothing problems, and connects the statistics to drawdowns, attribution, leverage, liquidity, costs, and qualitative evidence about the investment process [8][9][11][12].
 
 - [Risk Parity and Factor-Based Portfolio Construction -- Why Allocating by Risk Beats Allocating by Capital](risk-parity-and-factor-based-construction.md) -- [reviewed: never] -- Risk parity is a portfolio construction approach that allocates capital based on each asset's risk contribution rather than its dollar weight, ensuring no single asset class dominates the portfolio's risk profile. Factor-based construction extends this logic by targeting systematic return drivers -- value, momentum, quality, size, and low volatility -- that academic research has identified as persistent sources of excess returns across markets and decades.
 
