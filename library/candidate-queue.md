@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: General Relativity -- How Spacetime Geometry Produces Gravity
-- **Domain:** science
-- **Proposed by:** Librarian
-- **Date:** 2026-09-27
-- **Discovery score:** 9.6/10.0 (gap=9.4, compounding=9.6, timeliness=9.8, balance=10.0)
-- **Scope:** Explain the equivalence principle, curved spacetime, geodesics, Einstein field equations, and the relationship between matter, energy, and geometry. Trace the theory's empirical tests from orbital precession and gravitational redshift to lensing, black holes, and gravitational waves. Distinguish established predictions from open questions and connect relativity to cosmology without duplicating the Einstein biography.
-- **Status:** proposed
-
 ## Candidate: The Hydrological Cycle and Freshwater Systems -- How Water Connects Atmosphere, Land, Ice, and Oceans
 - **Domain:** earth-climate
 - **Proposed by:** Librarian
