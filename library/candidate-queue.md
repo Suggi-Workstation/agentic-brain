@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Forecast Question Design -- Turning Vague Uncertainty Into Resolvable Probabilities
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how a forecastable question converts a vague concern into a time-bounded event, defined outcome space, admissible evidence, close date, and unambiguous resolution rule. Show how base rates, decomposition, incentives, updates, scoring, source availability, edge cases, and annulment policies affect both forecaster behavior and the validity of comparisons. Connect human tournaments, prediction markets, and AI benchmarks while keeping the focus on question construction and resolution rather than on general forecasting technique.
-- **Status:** proposed
-
 ## Candidate: Policy Feedback -- How Public Programs Reshape Citizens, Interests, and Future Politics
 - **Domain:** political-science-public-policy
 - **Proposed by:** Librarian
