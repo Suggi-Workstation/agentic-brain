@@ -1,6 +1,6 @@
 # Communication -- Topics
 
-13 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+14 topics. Anchor: [anchor-communication.md](anchor-communication.md)
 
 - [Information Architecture and Content Design -- Structure Determines Whether Information Can Be Found and Understood](information-architecture-and-content-design.md) -- [reviewed: 2026-09-21] -- Information architecture and content design make information usable by aligning organization, labels, navigation, search, and page structure with the tasks and language of the people who need it. Their central claim is that clear prose is not sufficient: information must also appear in an expected place, under a meaningful name, through more than one usable route, and in a form whose relationships remain perceptible to people and machines ([1] [8] [9] [10]).
 
@@ -25,6 +25,8 @@
 - [Source Verification and Fact-Checking -- Accuracy Requires a Traceable Method Before Publication](source-verification-and-fact-checking.md) -- [reviewed: never] -- Source verification is the disciplined process of testing whether each publishable claim is supported by identifiable, relevant, and sufficiently independent evidence. It cannot certify absolute truth, but a repeatable workflow can show what was checked, what the available evidence supports, what remains uncertain, and how errors will be corrected [4][5][6][7].
 
 - [The Medium Is the Message -- Why Communication Technologies Shape Thought More Than Any Content They Carry](the-medium-is-the-message.md) -- [reviewed: never] -- Marshall McLuhan's most famous and misunderstood insight -- "the medium is the message" -- asserts that the form of a communication medium shapes human cognition, social organization, and culture more profoundly than any individual message transmitted through it. Published in his 1964 book Understanding Media: The Extensions of Man, McLuhan's theory reframed communication not as a neutral conduit...
+
+- [Translation Preserves Meaning by Rebuilding Purpose, Context, and Audience Effect](translation-and-cross-cultural-communication.md) -- [reviewed: never] -- Translation is not word substitution between stable codes. It is a constrained act of cross-cultural communication in which a translator reconstructs meaning, purpose, register, pragmatic force, and usable form for a new audience while documenting losses and adaptations that cannot be avoided [1][2][3][4].
 
 - [Writing Craft and Style -- Why Clear Prose Is a Thinking Technology, Not a Decoration](writing-craft-and-style.md) -- [reviewed: never] -- Writing craft is the set of repeatable techniques -- sentence structure, word choice, rhythm, cohesion, and revision -- that turn thought into prose a reader can understand on the first pass. The craft tradition, from Strunk and White's The Elements of Style to Steven Pinker's The Sense of Style, makes one recurring claim: clarity is not decoration but a cognitive technology, because prose that...
 
