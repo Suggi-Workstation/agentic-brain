@@ -1,6 +1,6 @@
 # Accounting Financial Shenanigans -- Topics
 
-12 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
+13 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
 
 - [Acquisition Accounting Tricks -- How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality](acquisition-accounting-tricks.md) -- [reviewed: 2026-09-09] -- Acquisition accounting can obscure operating performance because purchase price allocation, contingent payments, and acquired liabilities affect reported earnings long after a deal closes. The forensic task is to distinguish legitimate estimates from unsupported valuations, reserve releases, and classifications that flatter results.
 
@@ -13,6 +13,8 @@
 - [Forensic Accounting Methodology -- Detection Requires Converging Evidence, Not a Single Red Flag](forensic-accounting-methodology.md) -- [reviewed: never] -- Forensic accounting methodology is a structured process for moving from an anomalous financial pattern to a testable explanation and then to corroborating evidence. No ratio, checklist item, or statistical score proves manipulation by itself; reliable detection combines incentives, time-series and common-size analysis, cross-statement reconciliation, transaction economics, disclosures, counterparties, and independent evidence.
 
 - [Goodwill Impairment Games -- How Companies Use Discretion in Impairment Testing to Delay Billion-Dollar Write-Downs](goodwill-impairment-games.md) -- [reviewed: never] -- Goodwill impairment testing is supposed to ensure that acquired assets are carried at no more than their recoverable value. In practice, the wide discretion embedded in ASC 350 and IAS 36 allows management to delay acknowledging that acquisitions have destroyed value -- sometimes for years. The result is that goodwill impairments, when they finally arrive, are not timely signals of value destruction but belated confessions that everyone already knew about.
+
+- [Inventory Manipulation Converts Costing Judgments into False Assets and Deferred Expense](inventory-manipulation-and-cost-capitalization.md) -- [reviewed: never] -- Inventory manipulation can overstate assets and profit by inventing quantities, retaining costs that should leave the balance sheet, capitalizing costs that should be expensed, or delaying write-downs. The decisive forensic question is not whether inventory rose, but whether recorded quantities, unit costs, ownership, condition, and period cutoff can be reconciled with sales, production, physical capacity, cash flow, and later reversals [1][4][5].
 
 - [Non-GAAP Metrics -- How Adjusted Earnings Became the Standard Story While GAAP Became the Footnote](non-gaap-metrics-and-pro-forma-manipulation.md) -- [reviewed: never] -- Non-GAAP financial metrics -- "adjusted earnings," "pro-forma net income," "adjusted EBITDA" -- began as a legitimate supplement to help investors see through one-time distortions in GAAP accounting. Over the past two decades they have metastasized into the primary narrative companies use to present their performance, with the gap between GAAP and non-GAAP earnings widening dramatically.
 
