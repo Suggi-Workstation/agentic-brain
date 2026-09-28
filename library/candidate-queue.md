@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Li Lu -- Concentration, Fundamental Research, and Patient Global Value Investing
-- **Domain:** investors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-27
-- **Discovery score:** 9.2/10.0 (gap=9.2, compounding=9.5, timeliness=8.0, balance=10.0)
-- **Scope:** Profile Li Lu's development from his early life in China and Columbia education to founding Himalaya Capital. Examine how his long-horizon ownership, concentrated positions, research process, and intellectual relationship with Charlie Munger shaped his investing practice. Evaluate major decisions, mistakes, writings, and influence as an investor biography rather than a general exposition of value-investing principles.
-- **Status:** proposed
-
 ## Candidate: GDP and National Accounts -- Measuring Output, Income, and Living Standards
 - **Domain:** macro-micro
 - **Proposed by:** Librarian
