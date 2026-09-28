@@ -1,6 +1,6 @@
 # Science -- Topics
 
-12 topics. Anchor: [anchor-science.md](anchor-science.md)
+13 topics. Anchor: [anchor-science.md](anchor-science.md)
 
 - [Cell Biology -- Compartmentalized, Dynamic Cells Sustain Life Through Coordinated Transport, Signaling, Division, and Death](cell-biology.md) -- [reviewed: 2026-09-22] -- Cell biology explains how cells organize chemical reactions, exchange matter and information, reproduce, and sometimes execute regulated death. The cell is the basic structural and functional unit of cellular life, but no single cell plan is universal: bacterial, archaeal, and eukaryotic cells solve the same functional problems with different degrees and kinds of compartmentalization ([1] [2] [4]).
 
@@ -9,6 +9,8 @@
 - [Cosmology -- How the Universe Began, What It Is Made Of, and How It Will End](cosmology-big-bang-dark-energy.md) -- [reviewed: never] -- Modern cosmology describes a universe that began 13.8 billion years ago in an incredibly hot, dense state -- the Big Bang -- and has been expanding and cooling ever since. The Lambda-CDM model, the standard framework of cosmology, reveals that everything humans can see (stars, planets, gas) accounts for less than 5% of the universe's total energy budget; the remaining 95% consists of dark matter (27%) and dark energy (68%), neither of which has been directly detected.
 
 - [Evolution by Natural Selection -- How Random Variation Plus Non-Random Selection Produces Complex Adaptation Without Design](evolution-by-natural-selection.md) -- [reviewed: never] -- Evolution by natural selection is the process by which heritable traits that improve an organism's chances of survival and reproduction become more common in a population over successive generations, while disadvantageous traits become rarer. First articulated by Charles Darwin in On the Origin of Species (1859) and later unified with Mendelian genetics in the Modern Synthesis of the 1930s-1940s, it remains the single most powerful explanatory framework in biology.
+
+- [General Relativity -- Gravity Emerges from Dynamical Spacetime Geometry](general-relativity-how-spacetime-geometry-produces-gravity.md) -- [reviewed: never] -- General relativity replaces Newton's gravitational force with a dynamical geometry: matter and energy shape spacetime, while freely moving bodies and light follow the resulting geometry [1][2][3]. Its central predictions have survived tests ranging from laboratory free fall and Solar System timing to binary pulsars, black-hole mergers, and horizon-scale imaging, although the theory still lacks an accepted quantum foundation [5][6][9][11][12][14][15].
 
 - [Genetics and Heredity -- How Biological Information Is Encoded, Transmitted, and Modified Across Generations](genetics-and-heredity.md) -- [reviewed: never] -- Genetics is the branch of biology that studies how biological information is encoded in DNA, transmitted from parent to offspring through reproduction, expressed as functional molecules within cells, and modified over time by mutation, recombination, and -- increasingly -- deliberate human intervention.
 
