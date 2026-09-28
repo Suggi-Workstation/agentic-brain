@@ -1,6 +1,6 @@
 # Earth Climate -- Topics
 
-13 topics. Anchor: [anchor-earth-climate.md](anchor-earth-climate.md)
+14 topics. Anchor: [anchor-earth-climate.md](anchor-earth-climate.md)
 
 - [Atmospheric Science and Weather Systems -- How Circulation Organizes Earth's Weather and Climate](atmospheric-science-weather-systems.md) -- [reviewed: 2026-09-21] -- Earth's atmosphere is a rotating, stratified fluid that redistributes energy and moisture while producing weather from local storms to planetary circulation. Its zonal-mean circulation includes thermally direct Hadley cells, an eddy-driven midlatitude circulation, polar cells, and jet streams, but the real atmosphere is less regular than the familiar three-cell diagram ([1] [2] [21]).
 
@@ -13,6 +13,8 @@
 - [Ecosystems Function Through Coupled Energy, Matter, and Interaction Networks](ecosystem-science-ecology-organisms-environment-functional-systems.md) -- [reviewed: never] -- An ecosystem is not merely a list of species in a place; it is a functional system in which organisms and the physical environment exchange energy and matter through interacting biological, chemical, and physical processes. Ecosystem science matters because disturbances to one process, such as primary production, predation, decomposition, or nutrient supply, can propagate through food webs and biogeochemical cycles, changing the stability and services of the whole system.
 
 - [Groundwater and Aquifer Systems -- Hidden Freshwater Stores Are Coupled, Finite, and Slow to Recover](groundwater-and-aquifer-systems.md) -- [reviewed: never] -- Groundwater is not an isolated underground reservoir but a set of geological flow systems connected to precipitation, rivers, wetlands, coasts, ecosystems, and human withdrawals. Aquifers can buffer seasonal drought and supply large volumes of water, yet pumping, contamination, sediment compaction, and salinization can create effects that emerge slowly and persist long after the original stress.
+
+- [The Hydrological Cycle Connects Earth's Water Stores but Does Not Make Freshwater Uniformly Renewable](hydrological-cycle-freshwater-systems.md) -- [reviewed: never] -- The hydrological cycle continuously transfers water among oceans, atmosphere, land, ice, soils, rivers, lakes, aquifers, and living organisms, but those transfers occur at radically different rates and do not make every store equally accessible or renewable. Freshwater availability is therefore a property of connected stocks, fluxes, timing, quality, and location rather than a fixed fraction of the planet's water inventory [1][3][14].
 
 - [Natural Disasters Follow Distinct Energy Pathways but Share a Common Hazard Chain](natural-disaster-mechanisms.md) -- [reviewed: never] -- Earthquakes, volcanic eruptions, tsunamis, tropical cyclones, tornadoes, floods, and wildfires arise from different reservoirs of energy, yet each becomes hazardous through a sequence of accumulation, triggering, propagation, and interaction with exposed systems. Understanding that sequence explains why some events permit days of warning while others begin without useful short-term prediction,...
 
