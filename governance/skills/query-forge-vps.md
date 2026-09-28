@@ -35,6 +35,11 @@ Run repository commands as `hermes`, never root. VPS-connected agents use their
 own established key door to run the same commands; this skill does not duplicate
 connection details or credentials.
 
+Every Python invocation below MUST clear `PYTHONPATH` only for that child
+process, keeping Hermes packages out of the watcher's own environment.
+Do not unset it globally, change the watcher interpreter, or reinstall packages
+to mask an inherited-package mismatch.
+
 ## Procedure
 
 ### 1. Verify watcher ownership
@@ -48,7 +53,7 @@ PASS: watcher line present. HALT: missing line.
 
 ```bash
 cd /srv/forge/agentic-forge
-/opt/repo-tools/venv/bin/python forge-index/query.py --check-freshness
+env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/query.py --check-freshness
 ```
 
 PASS: exit code 0 and output begins `OK --`. HALT: nonzero, `STALE`,
@@ -59,7 +64,7 @@ Never hide a freshness failure by rebuilding first.
 
 ```bash
 cd /srv/forge/agentic-forge
-/opt/repo-tools/venv/bin/python forge-index/query.py "<question>" --top-k 20
+env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/query.py "<question>" --top-k 20
 ```
 
 Use the default hybrid mode. Use `--no-dense` or `--no-sparse` only for a
@@ -95,10 +100,10 @@ These commands are maintenance gates, not part of each query:
 
 ```bash
 cd /srv/forge/agentic-forge
-/opt/repo-tools/venv/bin/python forge-index/index.py --check
-/opt/repo-tools/venv/bin/python forge-index/eval.py --validate-only
-/opt/repo-tools/venv/bin/python forge-index/eval.py --verbose
-/opt/repo-tools/venv/bin/python forge-index/self-test.py
+env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/index.py --check
+env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/eval.py --validate-only
+env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/eval.py --verbose
+env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/self-test.py
 ```
 
 Run evaluation after model, chunking, fusion, or ranking changes and when the
@@ -107,6 +112,7 @@ corpus grows materially. Relevance judgments may name multiple `gold_files`.
 ## Hard Gate
 
 - [ ] Watcher line present (PASS / HALT)
+- [ ] Python commands use the watcher venv with child-only `PYTHONPATH` removal; HALT unisolated invocations (PASS / HALT)
 - [ ] Freshness command returned exit 0 and literal `OK --` (PASS / HALT)
 - [ ] Query returned ranked paths from `agentic-forge` (PASS / HALT)
 - [ ] Top 3-5 relevant files read in full (PASS / HALT)
