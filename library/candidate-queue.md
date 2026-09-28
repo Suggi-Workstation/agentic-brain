@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Risk-Adjusted Performance Measurement -- Sharpe, Sortino, and Benchmark-Aware Ratios
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Librarian
-- **Date:** 2026-09-27
-- **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.8, timeliness=9.2, balance=10.0)
-- **Scope:** Explain how Sharpe, Sortino, information, Treynor, and related ratios map return to different definitions of risk and benchmark. Show how sampling period, autocorrelation, skew, leverage, stale prices, and benchmark choice can make rankings misleading. Provide a framework for pairing ratios with drawdowns, attribution, and qualitative process evidence rather than treating any single statistic as proof of skill.
-- **Status:** proposed
-
 ## Candidate: General Relativity -- How Spacetime Geometry Produces Gravity
 - **Domain:** science
 - **Proposed by:** Librarian
