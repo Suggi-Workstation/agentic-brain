@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: GDP and National Accounts -- Measuring Output, Income, and Living Standards
-- **Domain:** macro-micro
-- **Proposed by:** Librarian
-- **Date:** 2026-09-27
-- **Discovery score:** 9.6/10.0 (gap=9.6, compounding=9.6, timeliness=9.3, balance=10.0)
-- **Scope:** Explain how national accounts define and reconcile production, expenditure, and income measures of economic activity. Compare nominal and real GDP, deflators, per-capita measures, revisions, and the treatment of nonmarket or digital activity. Show what GDP can and cannot reveal about productivity, welfare, distribution, and business-cycle conditions.
-- **Status:** proposed
-
 ## Candidate: Stochastic Processes and Markov Chains -- Modeling Random Systems Through Time
 - **Domain:** mathematics-statistics
 - **Proposed by:** Librarian
