@@ -6,6 +6,7 @@ domain: sociology-demography
 author: Librarian
 tags: [sociology-of-education, credentialing, social-reproduction, mobility, tracking, inequality]
 links: [library/sociology-demography/anchor-sociology-demography.md, library/sociology-demography/social-stratification-and-mobility.md, library/sociology-demography/social-networks-and-social-capital.md, library/sociology-demography/sociology-of-work-and-labor-markets.md, library/education-learning/economics-of-education-and-credentialing.md]
+reviewed: 2026-09-28
 ---
 
 # Education as a Social Institution -- Schooling Produces Opportunity and Reproduces Hierarchy
@@ -57,6 +58,10 @@ Signaling becomes plausible when employers face uncertainty and use completion, 
 Allocation occurs whenever an institution assigns people to differentiated positions. Admissions, grade retention, ability groups, academic and vocational tracks, disciplinary labels, course prerequisites, financial-aid rules, and completion decisions all allocate opportunity. Even a reversible placement can become consequential when it changes later prerequisites, peer groups, teacher expectations, or access to advanced courses.[3][7][8]
 
 Tracking is a clear institutional example because it couples classification with different curricula and peers. Lucas showed that social-background effects remain important within nearly universal transitions when students move through a stratified curriculum.[7] Hanushek and Woessmann compared achievement changes between primary and secondary school across tracked and non-tracked national systems. Their differences-in-differences results indicated that early tracking increased achievement inequality, while evidence for higher mean performance was weak.[8] The institutional issue is therefore not simply whether students are grouped; it is when grouping occurs, how permeable the boundaries are, which resources follow each group, and whether labels become durable identities.[7][8]
+
+A later meta-analysis broadened the evidence beyond that single cross-national design. Terrin and Triventi synthesized 53 analyses published from 2000 through 2021, covering both between-school and within-school tracking. The pooled mean effect on average achievement was not statistically significant, while the pooled effect on inequality was positive.[16] The result supports concern about distributional consequences without supporting a general claim that tracking raises or lowers mean achievement in every system.[16]
+
+Allocation can also enter through professional recommendations before formal placement. A 2026 NBER working paper combined administrative records, randomized student-profile vignettes, direct belief elicitation, and a field experiment. Holding stated performance and interests constant, teachers were less likely to recommend demanding tracks for profiles with disadvantaged socioeconomic backgrounds; personalized information about prior recommendation gaps and later student outcomes reduced some of those gaps.[17] Because the study is a working paper from one institutional setting and its experimental effects were concentrated among particular students and teachers, it supplies mechanism evidence rather than a universal effect estimate.[17]
 
 Educational careers are cumulative. A family resource can affect early preparation; early scores can affect placement; placement can affect later courses and peers; courses affect eligibility; credentials affect occupational entry. This sequence means that a modest difference at one transition can alter exposure at later transitions. It also means that an outcome measured at graduation cannot be attributed to the final institution alone.[3][6][7] The author's synthesis is to analyze educational careers as path-dependent but not predetermined: previous allocation changes the set and cost of later options without making every later outcome inevitable.
 
@@ -124,6 +129,14 @@ Hanushek and Woessmann exploited differences in the timing of tracking across na
 
 The results suggested that early tracking increased achievement inequality. Evidence that it raised mean performance was absent; if anything, average performance tended to fall, although that result was less clear.[8] The design does not identify every mechanism. Track curricula, peer composition, teacher assignment, expectations, and mobility rules can move together. Its contribution is institutional: the timing and structure of allocation were associated with distributional change beyond inequality already visible in primary school.[8]
 
+Terrin and Triventi's 2023 meta-analysis examined 53 analyses conducted from 2000 through 2021, yielding 213 estimates of system efficiency and 230 estimates of inequality.[16] The pooled effect of tracking on mean achievement was not statistically significant (Hedges' g = -0.063), whereas the pooled effect on inequality was positive and statistically significant (Hedges' g = 0.117).[16] The authors examined variation by policy design, variable definitions, research design, controls, study quality, publication year, and publication status. The synthesis updates the earlier cross-country result by showing that the inequality finding persists across a broader literature while average-performance effects remain unresolved.[16]
+
+### Teacher Recommendations Can Add Socioeconomic Inequality Before Placement
+
+Carlana, Miserocchi, and Patacchini combined nationwide administrative data, randomized vignettes, belief elicitation, and a field experiment involving 1,104 teachers in 221 schools.[17] In otherwise identical hypothetical profiles, low-socioeconomic-status cues reduced recommendations to demanding academic tracks and increased recommendations to technical or vocational tracks. Teachers also overestimated the risk that high-achieving disadvantaged students would fail in demanding schools.[17]
+
+The field experiment supplied teachers with personalized evidence about their prior recommendations and the later performance of disadvantaged students. The more complete information treatment reduced socioeconomic gaps in recommendations for high-achieving students, with effects concentrated among boys assigned to teachers with the largest prior gaps and most inaccurate beliefs. For the most affected group, demanding-track enrollment rose without detectable short-run performance harm.[17] The authors label the study an NBER working paper rather than a peer-reviewed article, and the concentration of effects limits broad generalization. Its value here is narrower: it directly identifies professional judgment and miscalibrated expectations as mechanisms through which allocation rules can reproduce inequality.[17]
+
 ### Finance Reforms Supplied Causal Evidence That Resources Matter
 
 Jackson, Johnson, and Persico linked U.S. school-finance reforms, spending records, and nationally representative longitudinal data for children born from 1955 through 1985 and followed into adulthood through 2011. They used the timing and formula of court-mandated reforms as exogenous shifts in spending and compared cohorts with different exposure by place and birth year.[10]
@@ -134,7 +147,7 @@ This evidence matters for institutional theory because unequal outcomes cannot b
 
 ### Colleges Combine Mobility Outcomes With Unequal Access
 
-Chetty, Friedman, Saez, Turner, and Yagan linked deidentified federal tax data for more than 30 million U.S. college students from 1999 through 2013 to characterize parent income and adult earnings by college.[11] They found large differences in access by family income: children from the top 1 percent were 77 times more likely than children from the bottom income quintile to attend an Ivy League college. Conditional on college, students from low- and high-income families had similar earnings outcomes, while upward-mobility rates differed substantially across institutions because low-income access varied.[11]
+Chetty, Friedman, Saez, Turner, and Yagan linked deidentified federal tax data for more than 30 million U.S. college students from 1999 through 2013 to characterize parent income and adult earnings by college.[11] They found large differences in access by family income: children from the top 1 percent were 77 times more likely than children from the bottom income quintile to attend an Ivy-Plus college, their category for the eight Ivy League institutions plus the University of Chicago, Stanford, MIT, and Duke. Conditional on college, students from low- and high-income families had similar earnings outcomes, while upward-mobility rates differed substantially across institutions because low-income access varied.[11]
 
 Mid-tier public institutions often combined comparatively high low-income access with strong earnings outcomes, producing high bottom-to-top-quintile mobility rates. Elite colleges had high rates of movement from the bottom quintile to the top 1 percent but enrolled relatively few low-income students.[11] The authors explicitly cautioned that their descriptive analysis did not identify each college's causal effect. The data demonstrate institutional sorting and outcome distributions, not what would happen to every student if reassigned.[11]
 
@@ -173,6 +186,8 @@ Institutional analysis directs attention to rules that connect stages. Placement
 Resource analysis must also go beyond totals. School-finance reforms produced long-run effects in the cohorts studied by Jackson and colleagues, with associated changes in staffing, salaries, and school-year length.[10] The World Bank's review emphasizes that resources produce learning through prepared learners, effective teaching, learning-focused inputs, and management, all embedded in systems whose actors may be misaligned.[14] The author's synthesis is that finance sets feasible capacity while organization converts capacity into exposure; neither variable should be treated as a complete substitute for the other.
 
 Tracking evidence adds a worst-case test. The worst institutional outcome is an early, weakly justified classification that becomes difficult to reverse, carries unequal resources and peers, and is later mistaken for proof of original ability.[7][8] Preventing that outcome requires measurement of movement between tracks, not only the average result within each track. An apparently effective pathway may partly reflect who was selected into it.
+
+The newer evidence separates two intervention targets. The tracking meta-analysis indicates that systems should measure inequality as well as average achievement because a near-zero pooled mean effect can coexist with a positive inequality effect.[16] The teacher-recommendation experiment suggests that decision makers can also be shown their prior gaps and the realized outcomes of disadvantaged students, but its concentrated and setting-specific effects make replication and longer follow-up necessary before treating feedback as a general remedy.[17]
 
 ### For Employers and Professions
 
@@ -284,6 +299,15 @@ The most important practical consequence is diagnostic restraint. If outcomes di
     Student Population Has Significantly Diversified, but Many Schools
     Remain Divided Along Racial, Ethnic, and Economic Lines."
     GAO-22-104737. https://www.gao.gov/products/gao-22-104737 [high]
+
+16. Terrin, E. and Triventi, M. (2023). "The Effect of School Tracking
+    on Student Achievement and Inequality: A Meta-Analysis." Review of
+    Educational Research, 93(2), 236-274.
+    https://doi.org/10.3102/00346543221100850 [high]
+
+17. Carlana, M., Miserocchi, F., and Patacchini, E. (2026). "Tracking
+    Inequality: Teachers and the Allocation of Educational Opportunities."
+    NBER Working Paper 35701. https://doi.org/10.3386/w35701 [medium]
 
 ## See Also
 
