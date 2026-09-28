@@ -1,6 +1,6 @@
 # Education Learning -- Topics
 
-13 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
+14 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
 - [Assessment and Testing -- Score Meaning Depends on What a Test Samples and How Its Results Are Used](assessment-and-testing.md) -- [reviewed: 2026-09-23] -- Assessment shapes what learners practice, but a score is not a direct reading of knowledge. Its meaning depends on a coordinated model of learning, tasks that elicit relevant evidence, a defensible interpretation process, and evidence that the proposed use is valid, reliable, and fair ([1] [2]). The practical objective is therefore not to choose one universally superior format, but to build an...
 
@@ -23,6 +23,8 @@
 - [Metacognition and Self-Regulated Learning Work Only When Monitoring Changes What the Learner Does Next](metacognition-and-self-regulated-learning.md) -- [reviewed: never] -- Metacognition makes a learner's knowledge, task, and strategy choices available for inspection, while self-regulated learning turns that inspection into a cycle of goals, action, feedback, and revision ([1] [2] [4]). The central claim is that awareness alone is insufficient: monitoring has educational value only when it changes strategy, effort, help seeking, task choice, or the decision to continue ([3] [9]).
 
 - [Pedagogy and Teaching Methods -- How Evidence-Based Instruction Shapes What Students Actually Learn](pedagogy-and-teaching-methods.md) -- [reviewed: never] -- The choice of teaching method is not merely a matter of teacher preference or institutional tradition. Decades of cognitive science research and large-scale meta-analyses show that how content is delivered -- whether through explicit direct instruction, structured inquiry, project-based exploration, or Socratic questioning -- produces substantially different learning outcomes depending on the learner's prior knowledge, the nature of the material, and the specific learning objective.
+
+- [Peer Learning Works When Group Structure Makes Every Learner Think and Contribute](peer-learning-and-collaborative-education.md) -- [reviewed: never] -- Peer learning improves education when interaction requires learners to explain, retrieve, question, compare, and revise ideas while preserving individual responsibility for learning. Merely seating students together does not create those conditions: shared goals, accountable contributions, suitable tasks, equitable participation, teacher guidance, and independent assessment determine whether a group becomes a learning system or a division-of-labor shortcut [1][2][11][12].
 
 - [Spaced Repetition and Retrieval Practice -- The Two Most Robust Findings in Learning Science Are Also the Most Underused](spaced-repetition-and-retrieval-practice.md) -- [reviewed: never] -- Spaced repetition -- reviewing material at expanding intervals rather than in a single massed session -- and retrieval practice -- actively recalling information from memory rather than passively rereading it -- are the two most replicated and powerful findings in the cognitive science of learning. Together they can double or triple long-term retention compared to standard study methods, yet most students and educational institutions do not use them.
 
