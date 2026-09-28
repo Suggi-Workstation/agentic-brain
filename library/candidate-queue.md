@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The EU AI Act -- Risk Tiers, General-Purpose Models, Compliance, and Enforcement
-- **Domain:** law-regulation
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.8/10.0 (gap=9.5, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Explain the EU AI Act's risk-based architecture, including prohibited practices, transparency duties, high-risk systems, general-purpose AI models, and systemic-risk obligations. Trace how responsibility is allocated among providers, deployers, importers, the AI Office, and national authorities, and how documentation, testing, monitoring, incident reporting, and penalties make the framework operational. Distinguish the original 2024 regulation from the 2026 Digital Omnibus changes and date each application phase so the topic does not freeze a moving legal regime.
-- **Status:** proposed
-
 ## Candidate: Forecast Question Design -- Turning Vague Uncertainty Into Resolvable Probabilities
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Librarian
