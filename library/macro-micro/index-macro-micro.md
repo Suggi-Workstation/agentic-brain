@@ -1,6 +1,6 @@
 # Macro Micro -- Topics
 
-12 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
+13 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
 
 - [Business Cycles Persist Because Shocks and Propagation Mechanisms Interact](business-cycles.md) -- [reviewed: 2026-09-21] -- Business cycles are alternating expansions and contractions in broad economic activity, not a fixed rhythm with a standard duration. They persist because demand, supply, policy, and financial shocks interact with mechanisms that spread and amplify their effects. Business-cycle analysis therefore supports conditional diagnosis and scenario planning, not precise turning-point forecasts. [1] [7] [8]
 
@@ -9,6 +9,8 @@
 - [Fiscal Policy and Government Spending -- Why the Government's Checkbook Is the Economy's Most Contested Instrument](fiscal-policy-and-government-spending.md) -- [reviewed: never] -- Fiscal policy -- the use of government taxation and spending to influence macroeconomic outcomes -- is the second great lever of economic management alongside monetary policy, and the one most directly accountable to voters. Unlike central banks, which operate with technocratic independence, fiscal decisions are made by elected legislatures, which means every spending bill and tax cut is simultaneously an economic intervention and a political act.
 
 - [Game Theory -- Why Individually Rational Choices Produce Collectively Irrational Outcomes](game-theory-strategic-interaction-and-cooperation.md) -- [reviewed: never] -- Game theory is the mathematical study of strategic interaction where each player's outcome depends not only on their own choices but on the choices of others. Its central insight is that individually rational decisions can produce outcomes that are worse for everyone involved -- a finding that reshaped economics, political science, evolutionary biology, and military strategy.
+
+- [GDP Measures Production Coherently but Cannot Alone Measure Living Standards](gdp-and-national-accounts-measuring-output-income-and-living-standards.md) -- [reviewed: never] -- Gross domestic product is the national accounts' internally consistent measure of production within an economy, constructed from output, final expenditure, or income and designed so that the three views describe the same activity. Real GDP, GDP per capita, and related aggregates are indispensable for analyzing growth and business cycles, but GDP is not a complete measure of household welfare, distribution, unpaid work, environmental sustainability, or consumer surplus from free goods.
 
 - [Inflation Dynamics -- Why Prices Rise, Why Moderate Inflation Is Desirable, and When It Destroys Economies](inflation-dynamics.md) -- [reviewed: never] -- Inflation is a sustained increase in the general price level of goods and services in an economy over time. It is not a rise in a single price -- oil, wheat, or housing -- but a broad-based erosion of purchasing power that affects every transaction, every wage, and every savings account. Understanding inflation dynamics is essential because inflation is simultaneously the most feared enemy of...
 
