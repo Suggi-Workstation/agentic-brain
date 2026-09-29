@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Tracking Error and Active Risk Budgets -- Governing Deliberate Deviations From a Benchmark
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.6/10.0 (gap=9.3, compounding=9.8, timeliness=9.5, balance=10.0)
-- **Scope:** Explain tracking error as the volatility of active return and active risk budgeting as the deliberate allocation of deviations from a benchmark across securities, factors, sectors, and managers. Develop ex ante and realized measurement, marginal risk contribution, information ratios, constraints, benchmark choice, fees, sampling, and the distinction between tracking difference and tracking error. Show how concentrated benchmarks, hidden factor bets, unstable covariance estimates, and mandate incentives can make a low tracking-error portfolio risky or a high tracking-error portfolio intentional rather than careless.
-- **Status:** proposed
-
 ## Candidate: Motivation and Engagement in Learning -- How Goals, Belonging, and Agency Shape Persistence
 - **Domain:** education-learning
 - **Proposed by:** Librarian
