@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Nostalgia, Reboots, and Franchise Culture -- How Familiar Stories Negotiate Memory and Change
-- **Domain:** pop-culture
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.6/10.0 (gap=9.4, compounding=9.4, timeliness=9.8, balance=10.0)
-- **Scope:** Analyze nostalgia, remakes, reboots, revivals, and legacy sequels as cultural negotiations between remembered audiences, inherited intellectual property, and changed social norms. Compare restorative nostalgia that recreates an imagined past with reflective or critical reuse that revises representation, genre conventions, and generational identity across film, television, music, games, and online culture. Examine familiarity, risk aversion, canon, audience memory, irony, cultural amnesia, and backlash while keeping business economics secondary to what repeated stories reveal about the present.
-- **Status:** proposed
-
 ## Candidate: Communicating Forecast Uncertainty -- Probabilities, Ranges, and Decision Thresholds Without False Precision
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Librarian
