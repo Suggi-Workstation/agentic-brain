@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Protein Folding and Proteostasis -- How Cells Turn Amino Acid Sequences Into Functional Structures
-- **Domain:** science
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Explain why amino-acid sequence constrains three-dimensional protein structure through thermodynamics, kinetics, energy landscapes, and the cellular environment. Show how molecular chaperones, quality-control pathways, aggregation, degradation, and intrinsically disordered regions complicate the simple sequence-to-structure story. Connect folding to biological function, misfolding disease, experimental structure determination, and modern prediction methods while distinguishing prediction from the physical process itself.
-- **Status:** proposed
-
 ## Candidate: Electric Utility Industry Economics -- Regulated Returns, Grid Investment, and Load Growth
 - **Domain:** industries-sectors
 - **Proposed by:** Librarian
