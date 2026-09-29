@@ -1,6 +1,6 @@
 # Investors -- Topics
 
-15 topics. Anchor: [anchor-investors.md](anchor-investors.md)
+16 topics. Anchor: [anchor-investors.md](anchor-investors.md)
 
 - [Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline](benjamin-graham.md) -- [reviewed: 2026-09-24] -- Benjamin Graham made security analysis a repeatable discipline by separating market price from business value, demanding evidence before purchase, and building protection against error into the price paid. His career joined research, teaching, fund management, and self-correction: methods he developed before the 1929 crash and refined afterward became the foundation for *Security Analysis*, *The Intelligent Investor*, and an unusually influential group of students and practitioners [1][2][3][4].
 
@@ -13,6 +13,8 @@
 - [John Templeton -- The Global Contrarian Who Turned Maximum Pessimism into Maximum Returns](john-templeton.md) -- [reviewed: never] -- Sir John Templeton (1912-2008) was the original global value investor, a contrarian who built one of the most successful mutual fund track records in history by systematically buying assets at their moments of deepest despair. His Templeton Growth Fund achieved roughly 15% annual returns over 38 years, a record that placed him among the greatest investors of the 20th century.
 
 - [Li Lu -- Patient Ownership Turned Deep Research into a Global Value-Investing Practice](li-lu-concentration-fundamental-research-and-patient-global-value-investing.md) -- [reviewed: never] -- Li Lu built Himalaya Capital around concentrated ownership, intensive business research, and the willingness to wait through severe market volatility rather than trade around it [1][3][4]. His path from a Tiananmen Square student leader to a Columbia graduate and then a trusted investment partner of Charlie Munger made his career unusually visible, but his durable significance lies in a process...
+
+- [Lou Simpson -- Independent Concentration Turned GEICO's Float into a Distinct Investment Record](lou-simpson-concentrated-quality-investing.md) -- [reviewed: never] -- Lou Simpson built an unusually strong investment record inside GEICO by combining independent research, a small number of large equity positions, low turnover, and explicit attention to business quality, management integrity, and price [3][4][7][8]. The author's assessment is that his career shows concentration can be a disciplined process rather than a display of confidence, but only when selection, governance, incentives, and the capacity to endure error are designed together [5][7][8].
 
 - [Michael Mauboussin -- Better Investing Starts with Expectations, Base Rates, and Process](michael-mauboussin-expectations-competitive-advantage-craft-valuation.md) -- [reviewed: never] -- Michael J. Mauboussin has spent his career connecting security analysis with competitive strategy, probability, behavioral science, and complex-systems research. His central contribution is a decision process: infer what a price already assumes, test those assumptions against business economics and base rates, and judge the quality of the reasoning separately from the realized outcome [1][5][7][9][12].
 
