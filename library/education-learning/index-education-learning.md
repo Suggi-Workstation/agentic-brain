@@ -1,6 +1,6 @@
 # Education Learning -- Topics
 
-14 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
+15 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
 - [Assessment and Testing -- Score Meaning Depends on What a Test Samples and How Its Results Are Used](assessment-and-testing.md) -- [reviewed: 2026-09-23] -- Assessment shapes what learners practice, but a score is not a direct reading of knowledge. Its meaning depends on a coordinated model of learning, tasks that elicit relevant evidence, a defensible interpretation process, and evidence that the proposed use is valid, reliable, and fair ([1] [2]). The practical objective is therefore not to choose one universally superior format, but to build an...
 
@@ -25,6 +25,8 @@
 - [Pedagogy and Teaching Methods -- How Evidence-Based Instruction Shapes What Students Actually Learn](pedagogy-and-teaching-methods.md) -- [reviewed: never] -- The choice of teaching method is not merely a matter of teacher preference or institutional tradition. Decades of cognitive science research and large-scale meta-analyses show that how content is delivered -- whether through explicit direct instruction, structured inquiry, project-based exploration, or Socratic questioning -- produces substantially different learning outcomes depending on the learner's prior knowledge, the nature of the material, and the specific learning objective.
 
 - [Peer Learning Works When Group Structure Makes Every Learner Think and Contribute](peer-learning-and-collaborative-education.md) -- [reviewed: never] -- Peer learning improves education when interaction requires learners to explain, retrieve, question, compare, and revise ideas while preserving individual responsibility for learning. Merely seating students together does not create those conditions: shared goals, accountable contributions, suitable tasks, equitable participation, teacher guidance, and independent assessment determine whether a group becomes a learning system or a division-of-labor shortcut [1][2][11][12].
+
+- [Reading Acquisition Requires Explicit Code Instruction and Deliberate Growth of Language, Knowledge, and Meaning](reading-acquisition-and-literacy-instruction.md) -- [reviewed: never] -- Learning to read requires learners to connect a writing system to spoken language, make word recognition increasingly accurate and automatic, and construct meaning from vocabulary, syntax, discourse, and relevant knowledge. Effective literacy instruction therefore teaches the alphabetic code explicitly while also building oral language, fluent text reading, comprehension processes, and knowledge;...
 
 - [Spaced Repetition and Retrieval Practice -- The Two Most Robust Findings in Learning Science Are Also the Most Underused](spaced-repetition-and-retrieval-practice.md) -- [reviewed: never] -- Spaced repetition -- reviewing material at expanding intervals rather than in a single massed session -- and retrieval practice -- actively recalling information from memory rather than passively rereading it -- are the two most replicated and powerful findings in the cognitive science of learning. Together they can double or triple long-term retention compared to standard study methods, yet most students and educational institutions do not use them.
 
