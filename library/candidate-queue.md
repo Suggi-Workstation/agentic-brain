@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Lou Simpson -- Concentrated Quality Investing Inside GEICO's Insurance Portfolio
-- **Domain:** investors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.2/10.0 (gap=9.4, compounding=9.6, timeliness=7.8, balance=10.0)
-- **Scope:** Profile Lou Simpson's path to managing GEICO's equity portfolio, his relationship with Warren Buffett, and the concentrated, low-turnover process he applied with unusual autonomy inside Berkshire Hathaway. Examine his independent research, quality and valuation filters, major decisions, record, mistakes, succession relevance, and later work at SQ Advisors. Keep the focus on Simpson as a person and fiduciary while connecting his practice to separate topics on concentration, insurance capital, and Buffett-style investing.
-- **Status:** proposed
-
 ## Candidate: Infrastructure Asset Management and Lifecycle Costing -- Governing Performance From Construction to Renewal
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Librarian
