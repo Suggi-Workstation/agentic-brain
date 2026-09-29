@@ -6,758 +6,243 @@ domain: business-management-strategy
 author: Librarian
 tags: [executive-compensation, incentive-design, principal-agent, stock-options, restricted-stock, performance-shares, pay-performance-sensitivity, say-on-pay, managerial-power, agency-theory]
 links: [library/business-management-strategy/anchor-business-management-strategy.md, library/business-management-strategy/corporate-governance-board-effectiveness.md, library/value-investing/management-quality-evaluation.md, library/value-investing/capital-allocation.md, library/law-regulation/corporate-law-governance.md]
+reviewed: 2026-09-29
 ---
 
-# Executive Compensation and Incentive Design -- Why Pay Is the Primary Lever for Aligning Managers With Owners
+# Executive Compensation and Incentive Design -- Alignment Depends on Contract Structure and Governance
 
-Executive compensation is the principal mechanism by which the
-owners of a corporation attempt to align the interests of the
-managers who run it with their own. When ownership and control are
-separated -- the defining condition of the modern public corporation
--- the people who decide how capital is deployed are not the people
-who own it, and their interests diverge systematically. Compensation
-design is the tool that links the manager's personal wealth to
-shareholder outcomes: through salary, annual bonus, stock options,
-restricted stock, performance shares, and the vesting schedules and
-performance metrics that govern each. The evidence on whether pay
-design actually drives performance or merely reflects it is mixed,
-and the debate between optimal contracting and managerial power
-views defines the field. Executive compensation is not a human
-resources exercise. It is the incentive architecture of the public
-corporation, and its design determines whether dispersed ownership
-translates into accountable management or into managerial rent
-extraction.
+Executive compensation links managerial wealth, decision rights, and measured performance, but pay is only one part of the governance system that aligns managers with owners. Contract design must balance incentives, risk, retention, measurement error, and the possibility that executives influence the process that sets their own pay [1][5][6]. The evidence therefore supports no universal instrument or pay level: the quality of a package depends on its metrics, horizon, settlement rules, governance process, and the decisions it is meant to influence [5].
 
 ## Background
 
-The problem that executive compensation attempts to solve is as old
-as the joint-stock company. Adam Smith, in The Wealth of Nations
-(1776), observed that the managers of joint-stock companies, "being
-the managers rather of other people's money than of their own,"
-could not be expected to watch over it "with the same anxious
-vigilance" as private partners. Smith identified the core tension --
-the separation of ownership and control -- nearly two centuries
-before academic economists formalized it. The principal-agent
-problem, as it came to be known, arises whenever the interests of
-the principal (the owner) and the agent (the manager) diverge, and
-the principal cannot perfectly observe the agent's effort or
-decisions. The agent then has incentives to act in ways that serve
-the agent rather than the principal -- shirking, consuming perquisites,
-empire-building, or avoiding risk that would benefit shareholders
-but expose the manager to personal loss.
+The modern analysis begins with the agency relationship between shareholders and managers. Jensen and Meckling defined agency costs as the sum of monitoring expenditures by the principal, bonding expenditures by the agent, and residual loss from decisions that still diverge from the principal's welfare [1]. Incentive compensation is one monitoring and bonding mechanism within that larger system; it does not replace board oversight, ownership, dismissal, disclosure, or other controls. In the standard executive-pay model, the board acts on behalf of shareholders as the principal and offers a contract to the chief executive as the agent. The contract must satisfy participation and incentive-compatibility constraints while recognizing that stronger exposure to performance can impose risk on an executive whose employment, human capital, and equity holdings are already concentrated in the firm [5].
 
-The modern academic treatment began with Adolf Berle and Gardiner
-Means in The Modern Corporation and Private Property (1932). Berle
-and Means documented the rise of the diffuse-ownership corporation
-in the United States, where shareholding had become so widely
-dispersed that no single shareholder had the incentive or power to
-monitor management effectively. They argued that this separation of
-ownership and control represented a fundamental institutional
-challenge: how could absentee owners ensure that professional
-managers acted in their interest? Their framing established the
-question that executive compensation design has since attempted to
-answer.
+This framework changed how researchers measured pay. Jensen and Murphy studied executives at large US public firms over 1974-1986 and estimated that an all-inclusive measure of CEO wealth changed by $3.25 for every $1,000 change in shareholder wealth. That measure included compensation, options, stockholdings, and the effect of dismissal; it was not a salary-and-bonus statistic or a pay elasticity [2]. Hall and Liebman later analyzed a 1980-1994 panel and emphasized the economic magnitude of stock and option revaluations. In their sample, moving the median CEO from median stock-price performance to the seventieth percentile increased CEO wealth by about $1.8 million, and most sensitivity came from accumulated stock and option holdings rather than annual cash pay [3]. These studies did not establish one uniquely correct incentive measure. Effective percentage ownership is suited to actions with a roughly fixed dollar effect, while effective dollar ownership is suited to actions whose effect scales with firm size; executives perform both kinds of actions [5].
 
-The formal economic theory of agency was developed by Michael
-Jensen and William Meckling in "Theory of the Firm: Managerial
-Behavior, Agency Costs and Ownership Structure" (1976). Jensen and
-Meckling defined agency costs as the sum of the principal's
-monitoring expenditures, the agent's bonding expenditures, and the
-residual loss -- the value lost because the agent does not act
-perfectly in the principal's interest. They showed that the optimal
-contract minimizes total agency costs by trading off the benefits of
-incentive alignment against the risk premium the agent demands for
-bearing performance risk. This framework, refined by Sanford
-Grossman and Oliver Hart (1983) and Bengt Holmstrom and Paul Milgrom
-(1987), established the theoretical foundation for optimal
-contracting: the board designs the compensation contract that
-provides sufficient incentives at the lowest cost to shareholders.
+The composition of pay changed markedly. A broad survey of S&P 500 compensation data reports that option grants rose through the 1990s, then fell from 49 percent of annual pay in 2000 to 16 percent in 2014, while restricted-stock grants rose from 7 percent to 44 percent [5]. The stock category increasingly included performance-based awards, but performance-vesting stock and performance shares are not the same. A performance-vesting award delivers a fixed quantity if conditions are met, whereas a performance-share award varies the quantity delivered with measured performance [5]. Nor are restricted stock and restricted stock units interchangeable. Restricted stock transfers stock subject to forfeiture or transfer restrictions; an RSU is an unsecured promise to deliver stock or cash after specified conditions are met [14]. These distinctions affect ownership, settlement, and tax timing [14].
 
-The practice of executive compensation evolved alongside the theory.
-Through the 1950s and 1960s, executive pay in the United States was
-dominated by salary and cash bonus, with modest equity components.
-The shift toward equity-based pay began in the 1970s and accelerated
-dramatically in the 1990s. Several forces drove this shift. First,
-the academic and shareholder-activist consensus, exemplified by
-Jensen and Murphy's (1990) influential paper, argued that pay-
-performance sensitivity was far too low and that CEOs were "paid
-like bureaucrats." Second, tax and accounting rules favored stock
-options: before 2006, options granted at-the-money required no
-expense recognition on the income statement under APB Opinion 25,
-making them appear virtually free from an accounting perspective.
-Third, the bull market of the 1990s made option-rich packages
-enormously valuable, reinforcing their adoption. By the peak of the
-stock option boom in 2000, options accounted for over 60 percent of
-the total value of compensation awarded to top executives at S&P 500
-firms, while restricted stock contributed about 10 percent (Murphy,
-various surveys; Edmans, Gabaix, and Jenter, 2017).
+Accounting rules contributed to the change in instruments. Before FASB Statement 123(R), fixed at- or out-of-the-money options could receive favorable treatment under APB Opinion 25 because their grant-date intrinsic value was zero. FASB issued Statement 123(R) in December 2004, superseding APB Opinion 25 and requiring fair-value-based recognition of employee share-based compensation. The rule became effective for larger public entities for reporting periods beginning after June 15, 2005 and for small-business issuers after December 15, 2005 [13]. Brown and Lee found that firms more exposed to the former option-accounting benefit cut options more and were more likely to substitute restricted stock after Statement 123(R), though the substitution was less than dollar for dollar [12]. Accounting was therefore a material driver, not proof that the resulting contracts were economically optimal.
 
-The landscape shifted again after the accounting scandals of the
-early 2000s (Enron, WorldCom) and the subsequent Sarbanes-Oxley Act
-of 2002, which tightened reporting requirements for option grants.
-The decisive change came with FAS 123R, adopted in 2006, which
-mandated the expensing of stock options at fair value on the income
-statement. This eliminated the accounting advantage that options had
-enjoyed and triggered a structural shift away from options and
-toward restricted stock and performance shares. By 2013, options
-accounted for only 17 percent of senior executive pay at S&P 500
-firms, while stock grants contributed 42 percent (Edmans, Gabaix,
-and Jenter, 2017; Brown and Lee, 2007). The void left by options
-was filled not by traditional time-vested restricted stock but by
-performance-vested equity -- awards whose vesting depends on meeting
-specific performance targets. By 2012, the majority of CEO grant-
-date pay at large US firms was performance-based, a threshold
-Institutional Shareholder Services described as a "seminal year" in
-executive compensation (ISS, 2013; Murphy, 2013).
+Regulation also changed the setting. The SEC's 2006 disclosure rules introduced Compensation Discussion and Analysis and required disclosure of compensation benchmarking when it is material; the rule did not require every issuer to use or identify a peer group [15]. Dodd-Frank later produced advisory say-on-pay and frequency votes, pay-ratio disclosure, compensation-committee rules, pay-versus-performance disclosure, hedging disclosure, and exchange-based recovery rules for erroneously awarded incentive compensation [16][17][18]. These provisions differ in coverage and purpose. Say-on-pay is non-binding and must occur at least once every three years for covered issuers, while the frequency vote occurs at least once every six years [16]. Pay-ratio disclosure excludes emerging growth companies, smaller reporting companies, and foreign private issuers [17]. Rule 10D-1 recovery is tied to accounting restatements and erroneously awarded incentive compensation; it is not a general power to recover pay after any business failure [18].
 
-The 2008 financial crisis brought a new dimension to the
-compensation debate. Policy makers and academics identified flawed
-incentive structures in financial firms as a contributing factor to
-the crisis. Executives at Bear Stearns and Lehman Brothers, as
-documented by Bebchuk, Cohen, and Spamann (2010), had cashed out
-hundreds of millions in the years before the collapse, while
-long-term shareholders were largely wiped out. The crisis led to
-the Dodd-Frank Act of 2010, which mandated say-on-pay votes, pay
-ratio disclosure, clawback provisions, and heightened oversight of
-financial-industry compensation. The regulatory architecture that
-emerged after the crisis extended the government's role in
-compensation design beyond anything previously seen in the United
-States.
+The regulatory perimeter remains unsettled. The SEC's implementation table listed ten Dodd-Frank executive-compensation rulemaking provisions as adopted but Section 956's joint rules for covered financial institutions only as proposed. GAO reported that the six agencies had not jointly finalized Section 956 and still showed open recommendations for most agencies after 2026 updates [18]. Separately, a May 2026 SEC proposal would extend major disclosure and voting accommodations to a proposed non-accelerated-filer class estimated to include about 81 percent of reporting companies but 6.5 percent of public float. The proposal would affect CD&A, pay ratio, pay-versus-performance, and say-on-pay obligations for those issuers; it is a proposal, not current law [19]. Any current assessment must distinguish enacted rules, implemented rules, and pending changes.
 
 ## Core Concepts
 
-### The Principal-Agent Framework and Optimal Contracting
+### The contract, not the instrument label
 
-The principal-agent framework treats executive compensation as a
-contracting problem. The board of directors, acting as the agent of
-shareholders, designs a compensation contract for the CEO and other
-top executives. The contract must satisfy two constraints. The
-participation constraint requires that the expected utility of the
-compensation package meets the executive's reservation utility --
-what the executive could earn elsewhere. The incentive-compatibility
-constraint requires that the compensation structure makes it in the
-executive's own interest to take actions that maximize shareholder
-value rather than to shirk or pursue private benefits. The optimal
-contract is the one that minimizes total agency costs -- the cost of
-providing incentives plus the residual loss from imperfect
-alignment.
+A compensation package is a portfolio of fixed salary, annual incentive pay, long-term cash awards, stock, options, performance-based equity, pensions, perquisites, and severance. Each component changes a different margin [5]. Salary supplies relatively low-risk compensation and has no direct marginal pay slope during the current period, but poor performance can still affect dismissal, future salary, bargaining power, and outside opportunities [5]. Annual bonuses can focus attention on near-term accounting or operating targets, yet floors, caps, and discrete thresholds can also encourage timing, classification, or investment changes that improve the metric without improving long-term value. The correct conclusion is conditional: bonus design can create manipulation or short-termism incentives; it does not make every bonus manipulative [5].
 
-The optimal contracting approach, dominant in finance, treats
-compensation design as a cost-minimization problem. The board
-chooses the compensation contract that provides sufficient
-incentives at the lowest cost to shareholders, trading off incentive
-intensity against the risk premium the manager demands for bearing
-performance risk. A manager who is risk-averse -- as most executives
-are, given that they cannot diversify their human capital -- will
-demand higher expected pay to accept a contract whose value swings
-with firm performance. The optimal contract balances the benefit of
-stronger incentives (more effort, better decisions) against the cost
-of the risk premium (Edmans and Gabaix, 2016; Edmans, Gabaix, and
-Jenter, 2017).
+Options provide a convex monetary payoff above the exercise price. That shape can increase some forms of risk-taking, but the net effect for a risk-averse, undiversified executive depends on existing stock and option holdings, leverage, the available actions, and the option's delta and vega. A comprehensive survey concludes that options do not unconditionally increase managerial risk-taking [5]. Hall and Murphy's exercise-price model likewise makes a conditional claim. Holding the company's option-grant cost fixed and using their assumptions about executive risk aversion and undiversified wealth, incentive-maximizing exercise-price ranges typically included the grant-date market price. Their evidence also showed that 94 percent of S&P 500 CEO option grants in 1998 were at the money [4]. This helps explain a prevalent design but does not prove that an at-the-money option is always optimal.
 
-### Pay-Performance Sensitivity
+Stock and RSUs provide more nearly linear exposure to share price than options, while performance-based awards add vesting or quantity conditions. These instruments can reduce the option's one-sided payoff, but they introduce metric selection, target setting, peer selection, valuation, and disclosure problems. Among the 750 largest US public firms, the fraction using performance-based equity rose from about 20 percent in 1998 to about 70 percent in 2012; this is a prevalence statistic, not evidence that such awards constituted most CEO pay [5]. The complexity of multiple market and accounting conditions also makes grant-date value and incentives difficult to estimate. Complexity can create scope for rent extraction, but complexity alone does not prove rent extraction [5][6].
 
-Pay-performance sensitivity (PPS) is the central empirical measure
-of incentive alignment. It captures how much an executive's wealth
-changes for a given change in shareholder wealth. Jensen and Murphy
-(1990) defined PPS as the dollar change in CEO wealth associated
-with a one-dollar change in shareholder wealth, and estimated it at
-$3.25 per $1,000 increase in shareholder wealth -- an effective
-ownership of only 0.325 percent. They concluded that US CEOs were
-"paid like bureaucrats" and that the sensitivity was far too low to
-provide meaningful incentives. Their estimate became the most widely
-cited statistic in the executive compensation literature and
-triggered the push toward equity-based pay that defined the 1990s.
+### Incentive intensity and measurement
 
-Hall and Liebman (1998) challenged the Jensen-Murphy conclusion by
-broadening the measure of compensation to include changes in the
-value of stock and option holdings, not just annual cash pay. They
-found that CEO wealth often changed by millions of dollars for
-typical changes in firm value, and that virtually all of the pay-
-performance sensitivity was attributable to revaluations of existing
-equity holdings, not to annual changes in salary or bonus. Their
-finding reframed the debate: the issue was not that CEOs lacked
-incentives, but that the incentives came from accumulated equity
-holdings rather than from the structure of annual pay. The dollar
-change in wealth for a percentage change in firm value, rather than
-for a dollar change, became the preferred measure of incentive
-intensity (Edmans, Gabaix, and Jenter, 2017).
+Pay-performance sensitivity asks how executive wealth changes with firm value. Jensen and Murphy's effective percentage ownership divides the executive's dollar wealth change by the shareholder-wealth change. Hall and Liebman's effective dollar ownership asks how many dollars the executive gains from a percentage increase in firm value. These measures answer different questions. A manager deciding whether to waste a fixed dollar amount is disciplined by percentage ownership; a manager considering a restructuring whose benefit scales with firm size is disciplined by dollar ownership [5]. Calling one measure universally preferred confuses the production problem with the statistic.
 
-The level of PPS varies systematically across firms. It is lower for
-larger firms, because the same percentage ownership represents a
-larger dollar exposure and thus a larger risk burden for the CEO.
-Baker and Hall (2004) showed that PPS appears approximately
-inversely proportional to the square root of firm size. It is also
-lower when the variance of firm performance is greater, because the
-risk-averse CEO demands a higher premium to bear the additional
-risk. Garen (1994) found evidence consistent with the principal-
-agent model: pay-performance sensitivity tends to be lower and
-salaries higher when the variability of the firm's own income is
-greater, though statistical significance was weak for some effects.
+Annual grant values are also not the whole incentive position. Hall and Liebman showed that revaluation of previously accumulated stock and options dominated changes in annual salary and bonus in their sample [3]. For boards and investors, this means that a new award must be evaluated together with existing holdings, hedging, permitted sales, vesting, post-vesting retention, retirement, and termination provisions. The same grant can create very different incentives for two executives with different portfolios and horizons. It also means that apparent pay-performance alignment in one year may be created by legacy holdings rather than the design of that year's package [3][5].
 
-### The Composition of Executive Pay
+Risk changes the price of incentives. Under standard risk-averse-agent models, sharper performance exposure can require greater expected pay as compensation for bearing noise that the executive cannot control. Yet the survey literature shows that this result depends on the model's action, utility, and production assumptions; alternative specifications can produce different predictions about how incentives should vary with risk [5]. A board should therefore identify which decisions it wants to influence, which outcomes the executive can affect, and which observable measures contain information about those decisions. Relative performance evaluation can filter common shocks when peer results are informative, but indexing can also reduce option delta, require more equity, or create peer-selection disputes [5]. Informativeness, not a slogan about rewarding only controllable outcomes, is the governing principle.
 
-Executive compensation is not a single instrument but a portfolio of
-components, each with different incentive properties. The main
-components are salary, annual bonus, stock options, restricted stock
-(restricted stock units, or RSUs), and performance shares. Each
-component serves a different purpose and creates different incentive
-effects.
+### Three non-exclusive explanations for observed pay
 
-Salary is fixed compensation that provides no performance incentive
-but satisfies the participation constraint by guaranteeing a base
-level of income. It is the component most insulated from performance
-risk and thus the cheapest way to deliver a dollar of expected
-compensation to a risk-averse executive. However, salary provides
-zero incentive alignment: a CEO paid entirely in salary bears no
-wealth consequence for poor performance and has no upside
-participation in good performance.
+The shareholder-value or optimal-contracting view treats pay as a contract chosen to attract talent, induce useful action, allocate risk, and maximize value net of compensation cost. The managerial-power view argues that the compensation-setting process is itself affected by agency problems. Bebchuk, Fried, and Walker contend that boards may not bargain at arm's length, that executives can influence their own pay, and that the desire to avoid outside outrage can camouflage rents in complex or weakly performance-linked arrangements [6]. A third perspective emphasizes institutions: accounting, taxation, securities rules, labor markets, social norms, and disclosure requirements can change the relative cost and use of instruments [5][12][13].
 
-Annual bonus is short-term incentive pay tied to performance metrics
--- typically revenue, earnings per share (EPS), operating income, or
-non-financial measures such as market share or customer satisfaction.
-Bonus plans create short-term incentives but are vulnerable to
-manipulation: executives can shift revenue or expenses across periods
-to hit bonus targets, a practice documented in the earnings-
-management literature. Bonus plans also encourage short-termism when
-the metrics reward near-term results at the expense of long-term
-value creation (Bebchuk and Fried, 2004; Edmans, Gabaix, and Jenter,
-2017).
+These explanations are complements as well as competitors. Edmans, Gabaix, and Jenter conclude that shareholder-value maximization is consistent with many practices that initially appear inefficient, but no single explanation accounts for all facts and historical trends [5]. The same observed award may reflect market competition, a deliberate incentive choice, favorable accounting, shareholder pressure, executive influence, or several forces together. An analysis that infers capture from high pay or optimality from board approval alone is therefore incomplete.
 
-Stock options give the executive the right to purchase shares at a
-fixed exercise (strike) price, typically set at the grant-date
-market price. Options provide a convex payoff: the executive
-participates fully in the upside above the strike price but loses
-nothing (from the option itself) on the downside. This convexity
-creates risk-taking incentives, which can be beneficial when
-managers are excessively risk-averse but dangerous when managers are
-undercapitalized or when the firm has significant downside
-externalities, as in banking. Hall and Murphy (2000) showed that
-for risk-averse, undiversified executives, pay-to-performance
-incentives are typically maximized by setting exercise prices at or
-near the grant-date market price -- explaining the near-universal
-practice of granting at-the-money options. Options became the
-dominant form of executive compensation in the 1990s, driven by
-their favorable accounting treatment (no expense recognition under
-APB 25), their tax advantages, and the agency-theoretic argument for
-linking pay to stock price performance.
+Bertrand and Mullainathan's pay-for-luck evidence illustrates the point. They used oil-price changes, exchange-rate movements, and mean industry performance as shocks outside an individual CEO's control. CEO pay responded about as much to a lucky dollar as to a general dollar, and firms with stronger governance measures generally displayed less pay for luck [7]. But the authors explicitly warned that pay for luck does not by itself identify skimming, because more elaborate contracting models can produce similar patterns. Their governance comparisons were suggestive cross-sectional evidence and did not isolate a policy mechanism; they stated that stronger policy claims would require exogenous governance variation [7].
 
-Restricted stock (RSUs) is equity that vests -- becomes owned outright
-by the executive -- upon the passage of time, typically three to four
-years, without any performance condition. Restricted stock provides
-linear incentive alignment: the executive gains or loses dollar-for-
-dollar with shareholders. It is less risky than options for the
-executive (the stock retains value even if the price falls below the
-grant-date level), which means the board can deliver the same
-incentive intensity at a lower risk premium. However, restricted
-stock provides weaker risk-taking incentives than options because
-the executive shares in the downside as well as the upside. The
-shift from options to restricted stock after FAS 123R reflected both
-the elimination of the accounting advantage of options and a
-recognition that the convex payoff of options may have encouraged
-excessive risk-taking, particularly in financial firms (Brown and
-Lee, 2007; Fedinprint, regulation and composition of CEO pay).
+### Benchmarking and assignment
 
-Performance shares (performance-vested equity) are awards whose
-vesting depends on achieving specific performance targets over a
-multi-year period, typically three years. Common metrics include
-total shareholder return (TSR) relative to a peer group, return on
-invested capital (ROIC), revenue growth, or EPS growth. Performance
-shares are intended to combine the alignment benefits of equity
-with the accountability of performance conditions. They have become
-the dominant form of equity compensation since the late 2000s,
-replacing both traditional options and time-vested restricted stock.
-By 2012, the majority of CEO grant-date pay at large US firms was
-performance-based (ISS, 2013). However, performance shares introduce
-their own design problems: the selection of metrics, the setting of
-targets, the choice of peer group, and the complexity of the
-instruments make it difficult for shareholders to evaluate whether
-the performance conditions are meaningful or merely camouflaged rent
-extraction (Murphy, 2013; Edmans, Gabaix, and Jenter, 2017).
+Benchmarking compares an executive's pay with a disclosed set of peers. The SEC's 2006 rule requires a company to discuss benchmarking and identify the benchmark and component firms when that information is material; the rule is principles-based rather than a mandate that every company maintain a peer group [15]. Faulkender and Yang studied newly disclosed peer groups and found that, after controlling for industry, size, visibility, CEO responsibility, and talent flows, highly paid potential peers were more likely to be selected. The association was stronger with smaller peer groups and in several settings associated with greater CEO influence [10]. This supports scrutiny of peer construction, not an automatic conclusion that every high-paid peer is illegitimate.
 
-### The Managerial Power Approach
+DiPrete, Eirich, and Pittinsky examined how repeated benchmarking could ratchet the distribution. Because actual historical peer groups were unavailable for much of their period, they imputed peer groups and ran counterfactual simulations. Under their assumptions, only about 5 percent of CEOs were capped in a given year under the least restrictive criterion, 26 percent would have been capped at least once, and controlling leapfrogging removed up to half of simulated mean-pay growth over 1993-2005 [9]. The authors cautioned that magnitudes depended on simulation assumptions. Their work supports a network mechanism by which a minority of awards can influence later benchmarks; it is not a direct causal estimate of every firm's pay growth.
 
-The managerial power approach, developed by Lucian Bebchuk and Jesse
-Fried in "Managerial Power and Rent Extraction in the Design of
-Executive Compensation" (2002) and the book Pay without Performance
-(2004), challenges the optimal contracting view. They argue that
-compensation is not merely a solution to the agency problem but is
-itself partly a product of it. Because boards do not bargain with
-executives at arm's length -- directors are often chosen by the CEO,
-rely on management for information, face social and reputational
-costs from challenging the CEO, and are themselves compensated by
-the firm -- executives have power to influence their own pay. The
-result is compensation arrangements that camouflage rent extraction:
-pay that is high in level, weakly linked to performance, and
-structured to hide its true cost.
-
-Bebchuk and Fried identify several features of compensation practice
-that are difficult to explain under optimal contracting but
-consistent with managerial power. First, the widespread use of
-non-indexed options -- options whose payoff depends on absolute stock
-price appreciation rather than performance relative to a market or
-industry benchmark -- means that executives are rewarded for general
-market movements they did not cause (the "pay-for-luck" problem
-documented by Bertrand and Mullainathan, 2001). Second, the
-complexity and opacity of pay arrangements -- deferred compensation,
-pension benefits, post-retirement perquisites, golden parachutes --
-obscure the total value transferred to executives. Third, the
-freedom of executives to unload options and shares quickly after
-vesting undermines the long-term alignment that equity compensation
-is supposed to provide. Bebchuk and Fried argue that the cost to
-shareholders is not just the excess pay but the distorted
-incentives: managers whose pay is decoupled from performance have
-weaker incentives to create value, and managers whose pay is tied
-to short-term stock movements have incentives to manipulate timing
-and disclosures (Bebchuk, Fried, and Walker, 2002; Bebchuk and
-Fried, 2004).
-
-The tension between the optimal contracting and managerial power
-views defines the current academic debate. Edmans, Gabaix, and Jenter
-(2017) conclude in their comprehensive survey that "shareholder value
-maximization appears consistent with much of the evidence, but no
-single explanation can account for all current practices and
-historical trends." Both views acknowledge that compensation matters
-for governance; they disagree on whether the board is an effective
-agent of shareholders in designing it.
-
-### Benchmarking and the Ratcheting of Pay
-
-Compensation benchmarking is the practice of comparing an executive's
-pay to that of executives at a selected group of peer firms. The
-rationale is that competitive labor markets require paying the market
-rate for executive talent. The SEC made disclosure of compensation
-peer groups mandatory in 2006, on the theory that transparency would
-enable boards and shareholders to evaluate pay levels objectively.
-
-The benchmarking process has been criticized for systematically
-ratcheting pay upward. DiPrete, Eirich, and Pittinsky (2010) and
-Faulkender and Yang (2010) found that firms tend to select larger and
-better-paid firms as peers, which biases the peer group upward and
-allows the focal CEO to command more pay because the comparison makes
-it appear appropriate. The mechanism is structural: when compensation
-peer groups are dynamic and shifting, a small fraction of CEOs can
-"leapfrog" their benchmarks by moving to the right tail of the
-distribution, and subsequent benchmarking by other firms propagates
-these increases through the corporate network. DiPrete et al. (2010)
-showed that this "leapfrog" effect can explain an important fraction
-of the overall upward movement in executive pay, and that firm-level
-governance is inherently insufficient to contain it because the
-linkages among firms produced by the benchmarking process guarantee
-that governance failures at individual firms raise the compensation
-environment for all firms. The Center on Executive Compensation and
-Glass Lewis have both acknowledged that aspirational peer selection
-and targeting pay above the peer median contribute to a cyclical
-compensation "arms race" (Glass Lewis, peer group methodology;
-Korn Ferry, Board of Directors' Guide to CEO Compensation
-Benchmarking).
-
-### Say-on-Pay and Regulatory Intervention
-
-Say-on-pay is the requirement, mandated by the Dodd-Frank Act of
-2010, that large US public companies provide shareholders with a
-non-binding advisory vote on executive compensation at least once
-every three years. The vote is advisory -- it does not bind the board
-to change pay -- but the SEC requires companies to disclose how they
-considered the results. The UK introduced say-on-pay in 2003; the US
-followed in 2011. Additional Dodd-Frank provisions include say-on-
-frequency (shareholders vote on how often say-on-pay votes should
-occur), say-on-parachutes (votes on golden parachute arrangements in
-mergers), and the CEO pay ratio disclosure (the ratio of CEO total
-compensation to the median compensation of all other employees).
-
-The evidence on say-on-pay's effectiveness is mixed. The passage of
-say-on-pay led some firms to adjust compensation in advance of the
-initial vote, particularly by reducing pay levels and increasing the
-performance-based component (Carter and Zamora, 2009; Alissa, 2015).
-Firms that received negative votes or low support subsequently
-reduced excess compensation and improved the pay-performance link
-(Ertimur et al., 2011). However, say-on-pay votes pass overwhelmingly
-in most firms -- over 90 percent support is typical -- and the
-advisory nature of the vote limits its enforcement power. The SEC's
-2025 roundtable on executive compensation disclosure noted that
-say-on-pay was the least criticized of the Dodd-Frank compensation
-rules and had led to more engagement between issuers and investors,
-but raised questions about its continuing effectiveness given the
-increasing complexity of executive compensation disclosures (Carlton
-Fields, 2025; Fisch, Palia, and Solomon, 2018).
-
-### The Assignment Model and the Level of Pay
-
-The dramatic increase in CEO pay over the past four decades --
-roughly sixfold in real terms between 1980 and 2003 -- has generated
-competing explanations. The rent extraction view attributes it to
-managerial power and governance failures. The competitive assignment
-model, developed by Xavier Gabaix and Augustin Landier in "Why Has
-CEO Pay Increased So Much?" (2008), offers an alternative: the
-increase is an efficient equilibrium response to the increase in
-firm size. In their model, CEOs with different talent levels are
-matched to firms of different sizes in a competitive market. The
-marginal impact of CEO talent increases with the value of the firm
-under the CEO's control, so as firms grow larger, the value of
-incremental CEO talent rises, and equilibrium pay for the best CEOs
-increases proportionally. Gabaix and Landier show that the sixfold
-increase in US CEO pay between 1980 and 2003 can be fully attributed
-to the sixfold increase in the market capitalization of large US
-companies during the same period. The model also explains cross-
-country differences: countries with lower growth in firm value
-experienced lower executive compensation growth, consistent with
-European evidence.
-
-A striking calibration finding is that the dispersion of CEO talent
-at the top is extremely small: replacing CEO number 1 with CEO
-number 250 would decrease firm value by only 0.016 percent. However,
-these tiny talent differences translate into large pay differentials
-because they are magnified by firm size -- CEO number 1 is paid over
-500 percent more than CEO number 250. The model's central prediction
-is that a CEO's equilibrium pay is increasing in both the size of
-the CEO's own firm and the size of the average firm in the economy,
-with an elasticity of pay to firm size of approximately one-third
-(Roberts's law). This "shareholder value" explanation does not
-require rent extraction to explain the level of pay, though it does
-not rule out rent extraction as a contributing factor (Gabaix and
-Landier, 2008; Edmans and Gabaix, 2016).
+Competitive assignment models offer a different account of pay levels. Gabaix and Landier modeled heterogeneous executives matched to heterogeneous firms and predicted that aggregate CEO pay changes one for one with aggregate firm size in their benchmark calibration, while cross-sectional pay changes much less with the size of the executive's own firm. The model's baseline attributed the sixfold real increase in US CEO pay from 1980 to 2003 to the sixfold increase in the size of large firms [8]. The exact calibration implied that replacing the top-ranked CEO with CEO 250 at the top firm would reduce modeled value by 0.016 percent while CEO 1's modeled pay exceeded CEO 250's by about 530 percent [8]. These are model-implied quantities, not direct measurements of individual talent or causal CEO effects. The model is a benchmark for the scale of stakes; it does not eliminate governance, institutional, or identification questions [5][8].
 
 ## Evidence
 
-### Jensen and Murphy (1990): Are CEOs Paid Like Bureaucrats?
+### Jensen and Murphy: a broad but small dollar sensitivity
 
-Michael Jensen and Kevin Murphy's 1990 paper, "CEO Compensation:
-How Much Is Enough?" (published as a working paper and widely
-circulated), estimated pay-performance sensitivity for CEOs of large
-US publicly traded firms from 1974 to 1986. They defined PPS as the
-change in CEO wealth -- including salary, bonus, stock options,
-insider stock holdings, and the change in the probability of
-dismissal -- associated with a $1,000 increase in shareholder wealth.
-Their central finding was that CEO wealth increased by only $3.25
-per $1,000 of shareholder wealth gained, an effective ownership of
-0.325 percent. By the narrowest measure (salary plus bonus only), the
-sensitivity was 1.35 cents per $1,000. Jensen and Murphy argued that
-this sensitivity was far too low to provide meaningful incentives
-and that public corporation governance was inferior to leveraged
-buyout (LBO) associations, where executive salaries were
-approximately 20 times more sensitive to performance. Their
-estimates became the benchmark for all subsequent research on pay-
-performance sensitivity and triggered the shift toward equity-based
-compensation in the 1990s (Jensen and Murphy, 1990; Federal Reserve
-Bank of Cleveland Working Paper 91-18).
+Jensen and Murphy estimated the relation between CEO wealth and shareholder wealth for large US public firms over 1974-1986. Their all-inclusive estimate was $3.25 of CEO wealth for each $1,000 change in shareholder wealth, of which about $2.50 came from the median CEO's stockholding. Salary and bonus changes contributed only about two cents per $1,000 [2]. The method combined annual pay, option effects, stockholdings, and dismissal rather than treating salary as total incentives. The result established that the denominator matters: a small ownership fraction can still imply a large dollar exposure when the firm is large. It did not show that CEOs had no meaningful wealth at risk.
 
-### Hall and Liebman (1998): CEOs Are Not Paid Like Bureaucrats
+### Hall and Liebman: accumulated equity changed the conclusion
 
-Brian Hall and Jeffrey Liebman, in "Are CEOs Really Paid Like
-Bureaucrats?" (1998), challenged the Jensen-Murphy conclusion by
-broadening the measure of compensation to include changes in the
-value of stock and option holdings. They found a strong link between
-CEO wealth and firm performance, with virtually all of the pay-
-performance sensitivity attributable to revaluations of existing
-equity holdings rather than to annual changes in cash pay. For a
-given change in firm value, changes in CEO wealth due to stock and
-option revaluations were more than 50 times larger than wealth
-increases due to salary and bonus changes. Hall and Liebman's
-finding reframed the debate: the issue was not that CEOs lacked
-incentives, but that the incentives came from accumulated equity
-holdings, not from the annual structure of pay. Their work also
-showed that the increase in option compensation in the 1980s and
-1990s had substantially strengthened the link between CEO wealth and
-firm performance. Rosen (1992) surveyed the broader literature and
-concluded that the elasticity of CEO pay to firm stock returns was
-in the 0.10 to 0.15 range, consistent with meaningful but not
-overwhelming sensitivity.
+Hall and Liebman used a later fifteen-year panel of CEOs in large US firms from 1980 through 1994. They included changes in the value of stock and option holdings and reported that a move from median to seventieth-percentile stock performance raised median CEO wealth by about $1.8 million. They found that the relation was generated almost entirely by changes in accumulated stock and option holdings and that several sensitivity measures rose substantially as option grants expanded [3]. The study did not merely add equity to a Jensen-Murphy measure that lacked it; Jensen and Murphy had also used a broad measure. Its contribution was the later sample, the scale of accumulated equity, and alternative ways of expressing sensitivity.
 
-### Bertrand and Mullainathan (2001): Pay for Luck
+### Pay for luck: evidence with an identification warning
 
-Marianne Bertrand and Sendhil Mullainathan, in "Are CEOs Rewarded
-for Luck? The Ones Without Principals Are" (2001), tested a core
-prediction of the contracting view: that pay should not be tied to
-observable luck, defined as shocks to performance beyond the CEO's
-control. Using three measures of luck -- changes in oil prices for
-the oil industry, industry-specific exchange rate changes, and year-
-to-year differences in mean industry performance -- they found that
-CEO pay responded significantly to luck. In fact, CEO pay was about
-as sensitive to a "lucky dollar" as to a general dollar. This
-finding is inconsistent with the simple contracting view, which
-predicts that lucky dollars should be filtered out because they
-provide no incentive value and only add risk. Bertrand and
-Mullainathan then tested whether governance quality moderates pay
-for luck. They found that better-governed firms paid their CEOs less
-for luck, while poorly governed firms exhibited substantial pay for
-luck. In poorly governed firms, the "skimming" view (analogous to
-managerial power) fit the data better; in well-governed firms, the
-contracting view fit better. This finding established that
-governance quality is a key moderator of compensation outcomes and
-that the same pay structure can reflect either efficient contracting
-or rent extraction depending on the governance context (Bertrand and
-Mullainathan, 2001).
+Bertrand and Mullainathan used three observable shocks -- oil prices for oil firms, industry-linked exchange rates, and mean industry performance -- to test whether pay moved with results outside the CEO's control. They found that pay was about as sensitive to a lucky dollar as to a general dollar and that the result extended to discretionary salary and bonus as well as option grants [7]. An additional large shareholder on the board was associated with 23 to 33 percent less pay for luck in their specifications. The authors nevertheless described the governance evidence as suggestive and cautioned that it did not show that changing a particular governance variable would cause skimming to fall [7]. The evidence rejects a simple contract that perfectly filters observable luck; it does not by itself prove executive capture.
 
-### Bebchuk, Cohen, and Spamann (2010): The Wages of Failure at Bear Stearns and Lehman
+### Bear Stearns and Lehman: cash-out horizon mattered
 
-Lucian Bebchuk, Alma Cohen, and Holger Spamann, in "The Wages of
-Failure: Executive Compensation at Bear Stearns and Lehman
-Brothers, 2000-2008" (2010), provided a case study of compensation
-at two financial firms that collapsed in the 2008 crisis. They
-documented that, notwithstanding the 2008 meltdown, the top five
-executives at Bear Stearns and Lehman Brothers had positive and
-substantial bottom lines for the period 2000-2008. The executives
-regularly unloaded shares and options, cashing out large amounts of
-equity before the stock prices of their firms collapsed. The
-executives' payoffs were further increased by large bonus
-compensation during 2000-2007, while the earnings providing the
-basis for these bonuses evaporated in 2008. The firms' pay
-arrangements contained no clawback provisions that would have
-enabled recouping the bonuses already paid. Altogether, while long-
-term shareholders were largely decimated, the executives'
-performance-based compensation kept them in decidedly positive
-territory. This case study demonstrated how compensation structures
-that allowed rapid vesting and cashing out could decouple executive
-outcomes from shareholder outcomes, and how the absence of clawback
-and hold-through-retirement provisions created incentives for
-short-term risk-taking at the expense of long-term solvency.
+Bebchuk, Cohen, and Spamann reconstructed compensation for the top-five executive teams at Bear Stearns and Lehman Brothers using compensation disclosures and executive trading filings for 2000-2008. They estimated cash flows of about $1.4 billion for the Bear Stearns team and $1.0 billion for the Lehman team from bonuses and equity sales, amounts that exceeded the teams' initial holdings and left their period payoffs positive despite the collapses [11]. The authors concluded that incentive effects could not be ruled out; they did not demonstrate that compensation caused the failures. The case shows why grant-date awards and end-of-period holdings are insufficient. A review must include the timing of vesting, sales, bonus payment, and recovery provisions.
 
-### The Shift from Options to Restricted Stock and Performance Shares
+### Accounting changed the instrument mix
 
-The structural shift in the composition of executive pay after FAS
-123R (2006) is one of the most well-documented changes in
-compensation practice. Brown and Lee (2007) found that firms were
-more likely to replace employee stock options (ESOs) with restricted
-stock after the adoption of FAS 123R, and that the substitution was
-far less than dollar-for-dollar, resulting in reduced abnormal
-compensation. The Federal Reserve Board's research (Fedinprint,
-2018) documented that the fraction of firms granting options to
-their CEO declined from approximately 67 percent before 2002 to 55
-percent after 2006, while the fraction using exclusively stock
-grants increased from 4 percent to 26 percent over the same period.
-Murphy (2013) and ISS (2013) documented that the void left by
-options was filled primarily by performance-vested stock, not
-traditional time-vested restricted stock. By 2012, the majority of
-CEO grant-date pay at large US firms was performance-based. However,
-as Murphy (2013) and Edmans, Gabaix, and Jenter (2017) note, the
-shift to performance shares introduced its own problems: the
-complexity of performance-vesting provisions makes it difficult for
-shareholders to evaluate the value transferred to executives at the
-time of grant, and the selection of performance metrics and targets
-is itself a design choice that can be influenced by managerial
-power.
+FASB Statement 123(R) replaced APB Opinion 25 and required recognition of share-based compensation using fair-value-based measurement [13]. Brown and Lee compared firms around the rule change and found larger option reductions where firms had made greater use of the former favorable accounting treatment. Firms were more likely to replace employee stock options with restricted stock after the rule, but substitution was less than dollar for dollar and abnormal compensation fell [12]. The broad time series is consistent: Edmans, Gabaix, and Jenter report a sharp decline in options and rise in restricted stock between 2000 and 2014 [5]. These studies support accounting as one causal channel in instrument choice. They do not establish that accounting was the only cause or that restricted stock was always superior.
+
+### Shareholder voting changed engagement, not necessarily value
+
+Ertimur, Ferri, and Oesch studied 2011 mandatory US say-on-pay, including proxy-adviser reports and a response sample of 269 Russell 3000 firms that received an adverse ISS recommendation. Fifty-five percent of the response sample disclosed compensation changes after the vote, and proxy-adviser recommendations were strongly associated with voting outcomes. The authors found no market reaction to announcements of those changes, even when the next year's recommendation and vote improved [20]. This is evidence that advisory voting can stimulate engagement and plan changes; it is not evidence that each change improved firm value. Consistent with the advisory character of the rule, recent voting remains overwhelmingly favorable: ISS reported median support of 94.5 percent and a 1.2 percent failure rate in 2025 [22].
+
+### Firm size and assignment: a calibrated benchmark
+
+Gabaix and Landier combined a competitive assignment model with US firm-size and compensation data. Their baseline calibration matched the sixfold rise in real CEO pay from 1980 to 2003 to a sixfold rise in the size of large firms and produced a cross-sectional pay-size elasticity near one-third [8]. The model separately predicts one-for-one movement between aggregate firm size and aggregate CEO pay under its benchmark constant-returns assumptions. Its 0.016 percent value effect and roughly 530 percent pay gap for CEO 1 versus CEO 250 are implications of the calibrated distributions, not direct observations of CEO talent [8]. The study provides a quantitative market-assignment benchmark. It cannot by itself identify whether the historical firm-size correlation was causal, and the later survey treats assignment, rent extraction, and institutional forces as jointly relevant possibilities [5].
+
+### What the evidence does not settle
+
+Most compensation contracts are endogenous: boards choose them in response to firm risk, strategy, talent markets, governance, taxation, and accounting. Correlations between incentives and performance can therefore reflect contract effects, selection, omitted variables, or reverse causality [5]. Model calibrations, event studies, cross-sectional governance comparisons, and case studies answer different questions. The evidence establishes that accumulated equity matters, luck is not fully filtered, governance correlates with contract outcomes, accounting rules affect instrument choice, and horizon can separate executive and shareholder outcomes [3][7][11][12]. It does not establish a universal pay level, instrument, peer group, or regulatory formula.
 
 ## Implications
 
-### For Investors: Compensation as a Signal of Management Quality
+### For investors
 
-For value investors following the Buffett and Munger school,
-executive compensation is a diagnostic tool for assessing management
-quality. The structure of pay reveals whether the board has designed
-incentives that align the CEO with long-term owners or whether the
-CEO's interests are decoupled from shareholder outcomes. Several
-features of compensation design serve as red flags. Short vesting
-periods that allow executives to cash out quickly suggest a board
-that is not prioritizing long-term alignment. Non-indexed options
-that reward executives for market-wide gains they did not cause
-indicate either poor contract design or managerial influence over
-the pay-setting process. Benchmarking against aspirational peer
-groups that systematically targets pay above the median signals a
-board captured by management. Complex performance-share plans with
-opaque metrics and easily achieved targets suggest camouflaged rent
-extraction rather than genuine performance incentives.
+Investors should reconstruct the executive's full economic exposure rather than stop at the summary compensation table. That means combining annual awards with existing stock and options, exercise prices, vesting, performance conditions, permitted sales, hedging, retirement treatment, severance, and recovery rules [3][5]. A high grant-date value may coexist with weak incentives if targets are easy or early sales are permitted; a modest annual grant may coexist with strong incentives if accumulated holdings are large. Because percentage and dollar ownership discipline different decisions, investors should examine both instead of labeling a single sensitivity statistic adequate or inadequate [5].
 
-Warren Buffett's critique of stock option accounting -- that options
-are a real economic cost and that failing to expense them is
-accounting fraud -- reflects the value-investing view that
-compensation design must be evaluated on its economic substance, not
-its accounting presentation. Buffett has also argued that the
-widespread use of options that vest on a time schedule rather than
-on performance relative to peers rewards executives for the general
-rise in stock prices, which is a function of retained earnings and
-market conditions rather than managerial skill. The value investor's
-assessment of management quality includes reading the proxy
-statement's Compensation Discussion and Analysis (CD&A) to
-understand what metrics drive pay, how targets are set, and whether
-the board has resisted the benchmarking arms race.
+Peer benchmarking is a second review point. The question is not whether a peer has higher pay, but why that firm is comparable in industry, size, complexity, labor-market relevance, and executive responsibility. Faulkender and Yang's evidence that highly paid potential peers were more likely to be selected after controls justifies skepticism, while DiPrete and colleagues show how benchmarking can transmit increases through a network [9][10]. Interpretation: an aspirational or above-median target is a reason to inspect board process and performance standards, not sufficient evidence of board capture.
 
-### For Boards: Designing Compensation That Works
+Investors should also separate accounting cost from economic cost. Buffett's primary-source critique is that options are compensation and compensation is an expense; his separate incentive critique is that a fixed strike price can reward the value created by retained earnings even when management merely maintains operating performance [21]. Those points support expensing options and adjusting analysis for retained capital. They do not establish that every option award is abusive or that relative TSR is always the correct alternative [4][5].
 
-For boards and compensation committees, the evidence points to
-several principles for effective compensation design. First, equity
-holdings should be substantial and long-duration. The evidence from
-Hall and Liebman (1998) and Edmans, Gabaix, and Jenter (2017) shows
-that the primary source of incentive alignment is not the annual
-structure of pay but the accumulated equity stake, whose value
-fluctuates with firm performance. Holding periods that extend beyond
-the CEO's tenure -- through post-vesting holding requirements or
-hold-through-retirement provisions -- prevent the decoupling of
-executive outcomes from shareholder outcomes that Bebchuk, Cohen,
-and Spamann (2010) documented at Bear Stearns and Lehman.
+### For boards and compensation committees
 
-Second, performance metrics should be chosen to measure what the
-executive can actually control. The pay-for-luck finding of Bertrand
-and Mullainathan (2001) implies that performance conditions should
-filter out market and industry-wide shocks -- either through
-indexing (adjusting the strike price or performance target for peer
-or market performance) or through relative performance evaluation.
-The absence of relative performance evaluation in most US
-compensation plans is a persistent puzzle: Holmstrom (1979, 1982)
-showed that incorporating additional informative signals about
-performance improves the risk-sharing properties of the contract,
-and peer performance is precisely such a signal. Yet relatively few
-firms use indexed options or relative TSR as the sole performance
-metric, perhaps because indexing raises the performance threshold
-and reduces the probability of payout, making the contract less
-attractive to risk-averse executives (Hall and Murphy, 2000).
+A board should begin with the decisions that need to improve, then choose measures and horizons that are informative about those decisions. Revenue, EPS, ROIC, cash flow, safety, customer, and relative-return measures each expose different behavior and measurement error. A multi-metric plan can reduce dependence on one noisy measure, but additional metrics can also create complexity and hidden discretion [5]. The board should document why each measure is informative, how targets were set, what happens below and above the target range, and which valuable actions the metric may discourage.
 
-Third, the benchmarking process should be disciplined. The evidence
-on leapfrogging and aspirational peer selection (DiPrete et al.,
-2010; Faulkender and Yang, 2010) suggests that boards should use
-objective, size-adjusted peer groups and resist the tendency to
-select larger or better-paid firms. Glass Lewis and other proxy
-advisors have developed "proven peer" methodologies that construct
-independent peer groups to reduce the benchmarking echo-chamber
-effect.
+The executive's complete portfolio should guide new grants. Options can supply convex exposure, stock can supply linear exposure, and performance conditions can link delivery to specified outcomes, but each conclusion depends on existing holdings and risk [4][5]. Holding requirements may lengthen the horizon, yet the Bear Stearns and Lehman evidence does not prove that one fixed holding rule prevents decoupling [11]. A defensible design controls the pace of unwinding, considers post-vesting exposure, limits undisclosed hedging, and tests how the contract behaves under failure as well as success. Interpretation: the worst design is one that pays on a short-horizon signal and permits irreversible cash-out before the consequences of the underlying decision become observable.
 
-### For Policy: The Limits of Regulation
+Compensation committees should treat peer selection and consultants as governance processes, not neutral machinery. Material benchmarking should disclose the benchmark and component firms under the SEC's principles-based rule [15]. The committee should record inclusion and exclusion criteria before observing the desired pay percentile, test sensitivity to alternative peer sets, and explain any target above the median. Independent process cannot guarantee an optimal contract, but it reduces opportunities to choose a comparison group after deciding the desired outcome [6][10].
 
-The Dodd-Frank Act's compensation provisions -- say-on-pay, pay ratio
-disclosure, clawbacks, and financial-industry oversight -- represent
-the most extensive regulatory intervention in executive compensation
-in US history. The evidence on their effectiveness is mixed. Say-
-on-pay has increased engagement between boards and shareholders and
-has led to some adjustments in pay design, particularly at firms
-receiving low vote support. But the advisory nature of the vote and
-the overwhelming pass rate limit its enforcement power. Pay ratio
-disclosure has drawn significant criticism for the difficulty of
-computing a meaningful median employee compensation figure and for
-the limited informational value of the resulting ratio. The CD&A
-disclosure, intended to provide plain-English explanation of
-compensation design, has swelled over its nearly 20-year history to
-become, in the view of the SEC's own 2025 roundtable participants,
-"unwieldy, lengthy, and complicated disclosure of diminished
-utility" (Carlton Fields, 2025).
+### For policy
 
-The lesson from two decades of regulatory intervention is that
-disclosure mandates alone do not fix the underlying governance
-problem. The optimal contracting and managerial power views agree
-that the effectiveness of compensation design depends on whether the
-board is independent and informed. Regulation can mandate disclosure
-and provide shareholders with a voice, but it cannot substitute for
-board engagement and independence. Bebchuk and Fried (2004) argue
-that the root cause is the insulation of boards from shareholders --
-directors are not sufficiently dependent on shareholders for their
-positions -- and that fixing compensation requires changing the
-legal arrangements that insulate boards, not merely adding
-disclosure requirements.
+Policy should be evaluated provision by provision. Say-on-pay supplies an advisory feedback channel and is associated with engagement and plan changes, but the evidence does not show that every induced change creates value [16][20]. Pay-ratio disclosure supplies a company-specific ratio under a rule that permits estimates and sampling and excludes several issuer categories [17]. Rule 10D-1 creates mandatory recovery for specified restatement-related incentive compensation, not a general clawback for strategic failure [18]. Section 956 remains unfinished joint rulemaking, so it should not be described as an implemented federal compensation regime for financial institutions [18].
 
-### For Management Research: The Unresolved Questions
+Current analysis must also preserve legal status. The 2026 filer-status release proposes broad accommodations affecting compensation disclosure and voting for a class estimated to cover most reporting companies by count, but not by public float [19]. Until a final rule changes the law, analysts should apply existing requirements while identifying the proposal as a possible future change. Boards and investors should record which issuer category, compliance date, and rule version govern each disclosure before comparing firms or evaluating an apparent omission [16][17][18][19]. This distinction prevents a pending policy debate from being reported as current compliance.
 
-The executive compensation literature, as surveyed by Edmans, Gabaix,
-and Jenter (2017), remains marked by significant unresolved
-questions. The relative importance of the three competing
-explanations -- shareholder value maximization, rent extraction, and
-institutional factors (regulation, taxation, accounting) -- has not
-been definitively established. The Gabaix-Landier (2008) assignment
-model explains the level of pay without reference to rent
-extraction, but the cross-sectional variation in pay that cannot be
-explained by firm size may reflect governance quality and
-managerial power. The shift from options to performance shares was
-driven partly by accounting regulation (FAS 123R) and partly by
-shareholder pressure, illustrating how institutional factors shape
-compensation practice in ways that neither pure contracting nor pure
-rent extraction can fully explain.
+### For management research
 
-The methodological challenges are substantial. Pay-performance
-sensitivity is sensitive to the choice of measure (dollar-for-dollar
-versus percentage, flow pay versus stock-and-option wealth), and
-different measures can lead to opposite conclusions about whether
-incentives are adequate. Endogeneity pervades the literature:
-compensation structure is chosen by the board in response to the
-firm's circumstances, making it difficult to identify the causal
-effect of pay design on performance. Recent work using natural
-experiments and instrumental variables has improved identification,
-but the fundamental tension -- that compensation is both a cause and
-a consequence of firm performance -- remains.
+Research should distinguish pay level, annual flow pay, accumulated wealth exposure, risk-taking incentives, and realized cash-outs. It should also distinguish additive and multiplicative actions, market-wide shocks and firm-specific outcomes, and grant-date value from executive utility [5]. Studies using peer groups, governance variables, or regulation need credible counterfactuals because firms select contracts and institutions in response to expected conditions. The strongest conclusion from the literature is plural rather than binary: market assignment, incentive contracting, managerial power, accounting, taxation, and regulation all help explain observed compensation [5].
+
+The practical synthesis is therefore conditional. Compensation can align managers with owners when the contract makes valuable long-horizon decisions privately worthwhile, but it can also reward luck, short-horizon metrics, retained-capital accumulation, or benchmark inflation [7][9][21]. Governance quality determines who chooses the measures, who validates the peers, how exceptions are handled, and whether executives can cash out before outcomes mature [6][11]. A sound review asks what behavior the package rewards in success, failure, and uncertainty, then checks whether that behavior matches the firm's durable value-creation process.
 
 ## Sources
 
-1. Jensen, M. & Murphy, K. (1990). "CEO Compensation: How Much Is
-   Enough?" Harvard Business Review, 68(3), 138-153. Also circulated
-   as "Performance Pay and Top-Management Incentives," Journal of
-   Political Economy, 98(2), 225-264.
-   https://www.jstor.org/stable/2136174 [high]
+1. Jensen, M. C., and Meckling, W. H. (1976). "Theory of the Firm:
+   Managerial Behavior, Agency Costs and Ownership Structure." Journal
+   of Financial Economics, 3(4), 305-360.
+   https://doi.org/10.1016/0304-405X(76)90026-X [high]
 
-2. Jensen, M. & Meckling, W. (1976). "Theory of the Firm: Managerial
-   Behavior, Agency Costs and Ownership Structure." Journal of
-   Financial Economics, 3(4), 305-360. [high]
+2. Jensen, M. C., and Murphy, K. J. (1990). "Performance Pay and
+   Top-Management Incentives." Journal of Political Economy, 98(2),
+   225-264. https://doi.org/10.1086/261677 [high]
 
-3. Hall, B. & Liebman, J. (1998). "Are CEOs Really Paid Like
-   Bureaucrats?" Quarterly Journal of Economics, 112(3), 653-691.
+3. Hall, B. J., and Liebman, J. B. (1998). "Are CEOs Really Paid Like
+   Bureaucrats?" Quarterly Journal of Economics, 113(3), 653-691.
    https://doi.org/10.1162/003355398555702 [high]
 
-4. Hall, B. & Murphy, K. (2000). "Optimal Exercise Prices for
+4. Hall, B. J., and Murphy, K. J. (2000). "Optimal Exercise Prices for
    Executive Stock Options." American Economic Review, 90(2), 209-214.
    https://www.nber.org/papers/w7548 [high]
 
-5. Bebchuk, L., Fried, J., & Walker, D. (2002). "Managerial Power
-   and Rent Extraction in the Design of Executive Compensation."
+5. Edmans, A., Gabaix, X., and Jenter, D. (2017). "Executive
+   Compensation: A Survey of Theory and Evidence." NBER Working Paper
+   23596. https://www.nber.org/papers/w23596 [high]
+
+6. Bebchuk, L. A., Fried, J. M., and Walker, D. I. (2002). "Managerial
+   Power and Rent Extraction in the Design of Executive Compensation."
    University of Chicago Law Review, 69(3), 751-846.
-   https://www.jstor.org/stable/1600632 [high]
+   https://www.nber.org/papers/w9068 [high]
 
-6. Bebchuk, L. & Fried, J. (2004). Pay without Performance: The
-   Unfulfilled Promise of Executive Compensation. Harvard University
-   Press.
-   https://papers.ssrn.com/sol3/papers.cfm?abstract_id=537783 [high]
-
-7. Bertrand, M. & Mullainathan, S. (2001). "Are CEOs Rewarded for
+7. Bertrand, M., and Mullainathan, S. (2001). "Are CEOs Rewarded for
    Luck? The Ones Without Principals Are." Quarterly Journal of
    Economics, 116(3), 901-932.
-   https://inequality.stanford.edu/sites/default/files/media/_media/pdf/Reference%20Media/Bertrand%20and%20Mullainathan_2001_Elites.pdf
-   [high]
+   https://doi.org/10.1162/00335530152466269 [high]
 
-8. Gabaix, X. & Landier, A. (2008). "Why Has CEO Pay Increased So
+8. Gabaix, X., and Landier, A. (2008). "Why Has CEO Pay Increased So
    Much?" Quarterly Journal of Economics, 123(1), 49-100.
-   https://doi.org/10.1162/qjec.2008.123.1.49 [high]
+   https://www.nber.org/papers/w12365 [high]
 
-9. Edmans, A., Gabaix, X., & Jenter, D. (2017). "Executive
-   Compensation: A Survey of Theory and Evidence." Handbook of the
-   Economics of Corporate Governance, Chapter 9, pp. 383-539. NBER
-   Working Paper 23596.
-   https://www.nber.org/papers/w23596 [high]
+9. DiPrete, T. A., Eirich, G. M., and Pittinsky, M. (2010).
+   "Compensation Benchmarking, Leapfrogs, and the Surge in Executive
+   Pay." American Journal of Sociology, 115(6), 1671-1712.
+   https://doi.org/10.1086/652297 [high]
 
-10. Bebchuk, L., Cohen, A., & Spamann, H. (2010). "The Wages of
+10. Faulkender, M., and Yang, J. (2010). "Inside the Black Box: The Role
+    and Composition of Compensation Peer Groups." Journal of Financial
+    Economics, 96(2), 257-270.
+    https://doi.org/10.1016/j.jfineco.2010.01.006 [high]
+
+11. Bebchuk, L. A., Cohen, A., and Spamann, H. (2010). "The Wages of
     Failure: Executive Compensation at Bear Stearns and Lehman
-    Brothers, 2000-2008." Journal of Corporation Law, 35, 255-310.
+    2000-2008." Yale Journal on Regulation, 27(2), 257-282.
+    https://dash.harvard.edu/entities/publication/73120378-b999-6bd4-e053-0100007fdf3b
     [high]
 
-11. Brown, L. & Lee, Y. (2007). "The Impact of SFAS 123R on Changes
-    in Option-Based Compensation." SSRN Working Paper.
-    https://papers.ssrn.com/sol3/papers.cfm?abstract_id=930818 [high]
+12. Brown, L. D., and Lee, Y.-J. (2011). "Changes in Option-Based
+    Compensation Around the Issuance of SFAS 123R." Journal of Business
+    Finance and Accounting, 38(9-10), 1053-1095.
+    https://doi.org/10.1111/j.1468-5957.2011.02247.x [high]
 
-12. DiPrete, T., Eirich, G., & Pittinsky, M. (2010). "Compensation
-    Benchmarking, Leapfrogs, and the Surge in Executive Pay."
-    American Journal of Sociology, 115(5), 1675-1712.
-    https://doi.org/10.1086/652297 [high]
+13. Financial Accounting Standards Board. "Summary of Statement No. 123
+    (revised 2004): Share-Based Payment."
+    https://www.fasb.org/page/PageContent?pageId=%2Freference-library%2Fsuperseded-standards%2Fsummary-of-statement-no-123-revised-2004.html
+    [high]
 
-13. Garen, J. (1994). "Executive Compensation and Principal-Agent
-    Theory." Journal of Political Economy, 102(6), 1175-1199.
-    https://doi.org/10.1086/261967 [high]
+14. Internal Revenue Service. (2024). Information Letter 2024-0010,
+    distinctions between restricted stock and restricted stock units.
+    https://www.irs.gov/pub/irs-wd/24-0010.pdf [high]
 
-14. Glass Lewis. "Avoiding Pitfalls in Peer Group Selection and
-    Executive Pay Benchmarking." Glass Lewis Proxy Paper
-    Methodology.
-    https://glasslewis.com/article/avoiding-pitfalls-in-peer-group-selection-and-executive-pay-benchmarking
+15. US Securities and Exchange Commission. (2006). "Executive
+    Compensation and Related Person Disclosure," Release 33-8732A.
+    https://www.sec.gov/files/rules/final/2006/33-8732afr.pdf [high]
+
+16. US Securities and Exchange Commission. (2011). "Shareholder
+    Approval of Executive Compensation and Golden Parachute
+    Compensation," Release 33-9178.
+    https://www.sec.gov/files/rules/final/2011/33-9178.pdf [high]
+
+17. US Securities and Exchange Commission. (2015). "Pay Ratio
+    Disclosure," Release 33-9877.
+    https://www.sec.gov/rules-regulations/2015/08/pay-ratio-disclosure
+    [high]
+
+18. US Securities and Exchange Commission and US Government
+    Accountability Office. Current Dodd-Frank implementation and
+    incentive-compensation rule status, including Rule 10D-1 and Section
+    956.
+    https://www.sec.gov/rules-regulations/implementing-dodd-frank-wall-street-reform-consumer-protection-act
+    https://www.sec.gov/resources-small-businesses/small-business-compliance-guides/listing-standards-recovery-erroneously-awarded-compensation
+    https://www.gao.gov/products/gao-25-107032 [high]
+
+19. US Securities and Exchange Commission. (2026). "Enhancement of
+    Emerging Growth Company Accommodations and Simplification of Filer
+    Status for Reporting Companies," proposed Release 33-11419.
+    https://www.sec.gov/files/rules/proposed/2026/33-11419.pdf [high]
+
+20. Ertimur, Y., Ferri, F., and Oesch, D. (2013). "Shareholder Votes and
+    Proxy Advisors: Evidence from Say on Pay." Journal of Accounting
+    Research, 51(5), 951-996.
+    https://doi.org/10.1111/1475-679X.12024 [high]
+
+21. Berkshire Hathaway. (1992, 1994). Chairman's Letters on option
+    accounting and incentive alignment.
+    https://www.berkshirehathaway.com/letters/1992.html
+    https://www.berkshirehathaway.com/letters/1994.html [high]
+
+22. Institutional Shareholder Services. (2025). "2025 Proxy Season
+    Review: United States - Executive Compensation."
+    https://insights.issgovernance.com/posts/2025-proxy-season-review-united-states-executive-compensation
     [medium]
 
 ## See Also
 
 - `library/business-management-strategy/corporate-governance-board-effectiveness.md`
-  -- the broader governance architecture within which compensation
-  design operates; covers the principal-agent problem, board
-  monitoring, fiduciary duties, and the optimal contracting vs.
-  managerial power debate.
+  -- the board architecture within which compensation is designed and monitored.
 - `library/business-management-strategy/anchor-business-management-strategy.md`
-  -- the domain anchor defining the scope of business-management-
-  strategy topics, including executive compensation within In scope.
-- `library/value-investing/management-quality-evaluation.md` -- how
-  investors assess management quality, including compensation as a
-  signal of alignment.
-- `library/value-investing/capital-allocation.md` -- capital
-  allocation decisions by management, which compensation incentives
-  are designed to influence.
-- `library/law-regulation/corporate-law-governance.md` -- the legal
-  framework of fiduciary duties and corporate governance rules that
-  constrain compensation design.
+  -- the domain scope covering governance, incentives, and executive compensation.
+- `library/value-investing/management-quality-evaluation.md` -- how investors
+  assess management incentives and stewardship.
+- `library/value-investing/capital-allocation.md` -- decisions that compensation
+  contracts are intended to influence.
+- `library/law-regulation/corporate-law-governance.md` -- the legal rules that
+  constrain boards, disclosure, and shareholder voting.
