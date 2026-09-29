@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Stock-Based Compensation Shenanigans -- When Non-Cash Adjustments Hide Dilution and Recurring Labor Cost
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.4/10.0 (gap=9.0, compounding=9.4, timeliness=9.7, balance=10.0)
-- **Scope:** Explain how employee equity awards become a recurring labor cost, a dilution claim, and a source of gaps between GAAP and adjusted earnings. Trace grant-date valuation, vesting, forfeitures, capitalization, cash-flow presentation, buyback offsets, per-share dilution, and unrecognized compensation through financial statements and footnotes. Build forensic tests that reconcile share count, award activity, expense, tax effects, and repurchases, distinguishing transparent incentive design from exclusions or presentation choices that understate economic cost.
-- **Status:** proposed
-
 ## Candidate: Lou Simpson -- Concentrated Quality Investing Inside GEICO's Insurance Portfolio
 - **Domain:** investors
 - **Proposed by:** Librarian
