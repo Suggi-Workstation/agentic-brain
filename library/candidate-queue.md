@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Securitization and Structured Finance -- Pooling Cash Flows, Tranching Risk, and Building Fragile Intermediation
-- **Domain:** finance
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.8, timeliness=9.7, balance=10.0)
-- **Scope:** Explain how loans and other receivables are transferred to special-purpose vehicles, pooled, serviced, enhanced, tranched, rated, and sold as asset-backed securities. Trace cash-flow waterfalls, prepayment, default, correlation, credit enhancement, liquidity support, retention, accounting treatment, and conflicts among originators, arrangers, servicers, rating agencies, and investors. Compare mortgages, consumer credit, corporate loans, and other collateral, showing when securitization broadens funding and risk transfer and when opacity, leverage, maturity mismatch, or model error concentrates systemic fragility.
-- **Status:** proposed
-
 ## Candidate: The Transatlantic Slave Trade and Abolition -- Coercion, Capital, Resistance, and the Making of the Atlantic World
 - **Domain:** history
 - **Proposed by:** Librarian
