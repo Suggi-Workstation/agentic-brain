@@ -1,6 +1,6 @@
 # Business Management Strategy -- Topics
 
-14 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
+15 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
 
 - [Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes](corporate-governance-board-effectiveness.md) -- [reviewed: 2026-09-09] -- Corporate governance allocates decision rights and accountability among the people who finance, direct, and operate a company. Boards are central to this system: they oversee leadership, major decisions, and the information needed to identify risks, but their effectiveness depends on incentives, competence, and the surrounding institutions rather than a formal independence label alone.
 
@@ -9,6 +9,8 @@
 - [Executive Compensation and Incentive Design -- Why Pay Is the Primary Lever for Aligning Managers With Owners](executive-compensation-incentive-design.md) -- [reviewed: never] -- Executive compensation is the principal mechanism by which the owners of a corporation attempt to align the interests of the managers who run it with their own. When ownership and control are separated -- the defining condition of the modern public corporation -- the people who decide how capital is deployed are not the people who own it, and their interests diverge systematically.
 
 - [Innovation Management -- Why Established Firms Must Deliberately Protect Exploration From Core-Business Success](innovation-management.md) -- [reviewed: never] -- Innovation management is the set of organizational choices through which a firm turns new knowledge into implemented products or business processes. The central managerial problem is not simply generating ideas: success in current operations produces faster, clearer feedback and decision criteria that favor exploitation, while the benefits of exploration are uncertain and delayed.
+
+- [Management Control Systems Translate Strategy Into Coordinated Action Only When Measures, Authority, and Feedback Fit](management-control-systems.md) -- [reviewed: never] -- Management control systems translate an organization's strategy into objectives, decision rights, plans, measures, review conversations, rewards, and corrective action [3][4][5]. They do not control people mechanically: they shape which facts become visible, which deviations receive attention, who may respond, and whether the organization learns or merely enforces a target [1][2][12].
 
 - [Mergers and Acquisitions as Strategy -- Why Buying Growth So Often Destroys Value](mergers-and-acquisitions-as-strategy.md) -- [reviewed: never] -- Mergers and acquisitions (M&A) are the most consequential and most destructive capital allocation decision a company can make. An acquisition is a capital budgeting decision executed at unprecedented scale and speed: a single transaction can redirect billions of dollars of shareholder capital, reshape a competitive landscape, and determine a firm's trajectory for decades.
 
