@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Management Control Systems -- Translating Strategy Into Measures, Feedback, and Corrective Action
-- **Domain:** business-management-strategy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.6/10.0 (gap=9.6, compounding=9.8, timeliness=8.8, balance=10.0)
-- **Scope:** Explain how management control systems turn strategy into objectives, budgets, measures, review cadences, decision rights, and corrective action. Compare diagnostic and interactive controls, balanced scorecards, responsibility centers, transfer pricing, variance analysis, and rolling forecasts, showing how targets can coordinate work or distort behavior through gaming and short-termism. Distinguish control from surveillance and accounting compliance, and connect measurement design to incentives, organizational learning, risk, and decentralized execution.
-- **Status:** proposed
-
 ## Candidate: Public Speaking and Presentation Design -- Turning Spoken Ideas Into Audience Understanding and Action
 - **Domain:** communication
 - **Proposed by:** Librarian
