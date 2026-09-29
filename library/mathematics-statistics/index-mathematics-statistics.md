@@ -1,6 +1,6 @@
 # Mathematics Statistics -- Topics
 
-16 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
+17 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
 
 - [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md) -- [reviewed: 2026-09-21] -- Bayesian statistics represents uncertainty about unknown quantities with probability distributions and updates those distributions by combining a prior model with the likelihood of observed data. Its distinctive output is a posterior distribution conditional on the prior, likelihood, and data, not a guarantee that any one model is true.
 
@@ -19,6 +19,8 @@
 - [Linear Algebra -- The Mathematics That Powers Modern Data Science and AI](linear-algebra.md) -- [reviewed: never] -- Linear algebra is the branch of mathematics concerned with vectors, vector spaces, linear transformations, and systems of linear equations. It provides the computational language in which virtually all modern data science, machine learning, and artificial intelligence are expressed: every neural network layer is a matrix multiplication, every dataset is a matrix, and dimensionality reduction from PCA to word embeddings runs on eigenvalues and singular value decomposition.
 
 - [Monte Carlo Methods -- Random Sampling Turns Intractable Models into Quantified Estimates](monte-carlo-methods.md) -- [reviewed: never] -- Monte Carlo methods replace an analytically intractable calculation with repeated evaluations at sampled inputs, producing an estimate together with sampling uncertainty. Their power comes not from randomness alone but from constructing a valid estimator, reducing its variance, and diagnosing whether the realized computation explored the quantities that matter [3, 8].
+
+- [Number Theory -- Divisibility and Congruence Reveal the Hidden Structure of Integer Arithmetic](number-theory-primes-congruences-and-the-arithmetic-of-integers.md) -- [reviewed: never] -- Number theory studies the integers through divisibility, primes, congruences, and equations whose solutions are required to be integral. Its central claim is that arithmetic which looks irregular at the level of individual numbers becomes structured when integers are classified by factors, residues, and algebraic relations [1][2].
 
 - [Numerical Analysis -- Reliable Computation Requires Error Models, Not Just Algorithms](numerical-analysis-approximation-stability-and-error-in-computation.md) -- [reviewed: never] -- Numerical analysis turns mathematical problems into finite computations while explaining how approximation, uncertain inputs, and finite arithmetic affect the answer. Its central discipline is to separate the sensitivity of the problem from the stability of the algorithm and to connect residuals, error bounds, convergence, and computational cost rather than treating a printed decimal as self-validating [1][2].
 
