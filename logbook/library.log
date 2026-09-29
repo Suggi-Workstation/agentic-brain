@@ -492,3 +492,12 @@ Wrote topic Nostalgia, Reboots, and Franchise Culture -- How Familiar Stories Ne
 Similarity overlap: 32%.
 Sources: 17 (16 high, 1 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-740] | 2026-09-29 06:02 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 4 domains scanned, 4 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Geotechnical Engineering -- Soil, Foundations, Slopes, and the Risks Hidden Underground (9.8): gap=9.8, compounding=9.8, timeliness=9.5, balance=10.0
+- Creative Practice -- Generating, Testing, and Refining Ideas Under Constraints (9.7): gap=9.7, compounding=9.5, timeliness=9.5, balance=10.0
+- Agent Cost, Latency, and Resource Governance -- Budgeting Reliable Tool-Using Systems (9.6): gap=9.2, compounding=9.8, timeliness=10.0, balance=10.0
+- Poor Charlie's Almanack -- How a Curated Speech Collection Turns Munger's Practical Wisdom Into a Decision System (9.3): gap=9.0, compounding=9.8, timeliness=8.8, balance=10.0
+Domain balance: books, coding-agentic-ai, engineering-infrastructure, and self-improvement (14 topics each) to the same four domains (14 topics each).

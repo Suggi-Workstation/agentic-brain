@@ -177,3 +177,35 @@
 - **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.9, timeliness=9.2, balance=10.0)
 - **Scope:** Trace the transatlantic system from African capture and coastal commerce through the Middle Passage, plantation slavery, commodity chains, finance, demographic change, resistance, and abolition. Compare regional and chronological variation across Africa, Europe, the Caribbean, and the Americas while centering enslaved people's experiences and agency rather than treating them as cargo or labor inputs. Explain how law, racial ideology, war, revolt, religion, political economy, and abolitionist mobilization dismantled formal trade and slavery unevenly, leaving contested institutional, economic, and cultural legacies.
 - **Status:** proposed
+
+## Candidate: Geotechnical Engineering -- Soil, Foundations, Slopes, and the Risks Hidden Underground
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.8, timeliness=9.5, balance=10.0)
+- **Scope:** Explain how geotechnical engineering converts uncertain subsurface conditions into decisions about foundations, excavations, retaining structures, embankments, slopes, tunnels, and ground improvement. Cover site investigation, soil and rock behavior, groundwater, bearing capacity, settlement, liquefaction, stability, instrumentation, observational methods, and reliability under spatial variability. Connect hidden ground risk to design, construction, lifecycle maintenance, and natural hazards while distinguishing engineered response from geology as natural science.
+- **Status:** proposed
+
+## Candidate: Creative Practice -- Generating, Testing, and Refining Ideas Under Constraints
+- **Domain:** self-improvement
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.5, timeliness=9.5, balance=10.0)
+- **Scope:** Explain creative practice as a trainable cycle for generating, selecting, testing, and refining ideas rather than as a fixed trait or demand for constant novelty. Compare divergent and convergent thinking, problem framing, analogy, recombination, constraints, incubation, prototyping, feedback, idea logs, and deliberate variation, noting where evidence is task- and domain-dependent. Provide practical routines for individual knowledge work while distinguishing actionable practice from creativity theory, therapeutic intervention, and organizational innovation management.
+- **Status:** proposed
+
+## Candidate: Agent Cost, Latency, and Resource Governance -- Budgeting Reliable Tool-Using Systems
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.6/10.0 (gap=9.2, compounding=9.8, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how agent systems should specify and enforce budgets for tokens, model calls, tool calls, wall time, memory, network use, and monetary cost while preserving task reliability. Cover cost attribution, latency distributions, iteration caps, concurrency, caching, model routing, early stopping, graceful degradation, circuit breakers, and per-run observability. Show how resource constraints belong in evaluation and service-level objectives, and distinguish efficient planning from arbitrary truncation or benchmark scores obtained through unconstrained search.
+- **Status:** proposed
+
+## Candidate: Poor Charlie's Almanack -- How a Curated Speech Collection Turns Munger's Practical Wisdom Into a Decision System
+- **Domain:** books
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.3/10.0 (gap=9.0, compounding=9.8, timeliness=8.8, balance=10.0)
+- **Scope:** Analyze Poor Charlie's Almanack as a curated collection of Charles T. Munger's speeches, talks, and commentary rather than as a biography or a standalone theory of investing. Distill its treatment of multidisciplinary mental models, incentives, inversion, lollapalooza effects, reading, and business judgment, while showing how the book's editorial structure and examples carry the argument. Compare major editions and assess the strength and limits of practitioner anecdotes as evidence, cross-referencing separate topics on Munger and his latticework without duplicating them.
+- **Status:** proposed
