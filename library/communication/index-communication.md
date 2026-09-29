@@ -1,6 +1,6 @@
 # Communication -- Topics
 
-14 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+15 topics. Anchor: [anchor-communication.md](anchor-communication.md)
 
 - [Information Architecture and Content Design -- Structure Determines Whether Information Can Be Found and Understood](information-architecture-and-content-design.md) -- [reviewed: 2026-09-21] -- Information architecture and content design make information usable by aligning organization, labels, navigation, search, and page structure with the tasks and language of the people who need it. Their central claim is that clear prose is not sufficient: information must also appear in an expected place, under a meaningful name, through more than one usable route, and in a form whose relationships remain perceptible to people and machines ([1] [8] [9] [10]).
 
@@ -17,6 +17,8 @@
 - [Narrative Structure -- Why Stories Are the Most Powerful Form of Human Communication](narrative-structure-and-storytelling.md) -- [reviewed: never] -- Narrative is not one communication tool among many; it is the fundamental architecture through which humans understand, remember, and are persuaded by information. From Joseph Campbell's monomyth to the East Asian kishotenketsu, every culture has developed distinct narrative structures that encode meaning into a beginning, middle, and end.
 
 - [Propaganda and Misinformation -- How Information Is Weaponized to Shape Belief and Behavior](propaganda-and-misinformation.md) -- [reviewed: never] -- Propaganda and misinformation are not accidents of the information age -- they are systematic techniques for shaping belief by distorting, suppressing, or fabricating information. Propaganda is the deliberate, orchestrated attempt to influence public opinion through mass communication, a practice industrialized in the twentieth century and digitally supercharged in the twenty-first.
+
+- [Public Speaking Works When Design and Delivery Serve Audience Understanding and Action](public-speaking-and-presentation-design.md) -- [reviewed: never] -- Public speaking is the deliberate design and live delivery of a spoken message for a particular audience, purpose, setting, and time limit. Its quality is therefore better judged by what the audience can understand, remember, trust, question, and appropriately do than by the speaker's charisma or the sophistication of the presentation software [1][3][12].
 
 - [Rhetoric -- The 2,500-Year-Old Art of Persuasion That Shapes Every Argument, Speech, and Advertisement You Encounter](rhetoric.md) -- [reviewed: never] -- Rhetoric is the systematic study and practice of persuasion: how speakers and writers use language, structure, and appeals to influence beliefs, attitudes, and actions. Originating in ancient Greece as a discipline for training citizens to participate in democratic debate, rhetoric has evolved into a universal framework for understanding every act of communication designed to persuade, from Aristotle's courtroom speeches to modern political campaigns, advertising, and everyday argument.
 
