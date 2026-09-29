@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Agent Cost, Latency, and Resource Governance -- Budgeting Reliable Tool-Using Systems
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.6/10.0 (gap=9.2, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how agent systems should specify and enforce budgets for tokens, model calls, tool calls, wall time, memory, network use, and monetary cost while preserving task reliability. Cover cost attribution, latency distributions, iteration caps, concurrency, caching, model routing, early stopping, graceful degradation, circuit breakers, and per-run observability. Show how resource constraints belong in evaluation and service-level objectives, and distinguish efficient planning from arbitrary truncation or benchmark scores obtained through unconstrained search.
-- **Status:** proposed
-
 ## Candidate: Poor Charlie's Almanack -- How a Curated Speech Collection Turns Munger's Practical Wisdom Into a Decision System
 - **Domain:** books
 - **Proposed by:** Librarian

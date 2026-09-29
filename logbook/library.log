@@ -487,3 +487,10 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Graph Theory and Network Science (mathematics-statistics): rewritten (corrected incidence-matrix, diameter, threshold, centrality, community-detection, diffusion-model, causal-inference, source-attribution, and citation mismatches; updated Core Concepts, Evidence, Implications, and Sources)
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-786] | 2026-09-29 19:38 UTC | Librarian | library | ref: library/coding-agentic-ai/agent-cost-latency-and-resource-governance.md | see: 20260929T193356Z
+Wrote topic Agent Cost, Latency, and Resource Governance -- Budgeting Reliable Tool-Using Systems to coding-agentic-ai. Weighted score: 9.7/10.0
+(core=9.8, scope=9.8, value=9.4, authority=9.4).
+Similarity overlap: 42%.
+Sources: 15 (13 high, 2 medium, 0 low).
+Cross-references: 6 topics.
