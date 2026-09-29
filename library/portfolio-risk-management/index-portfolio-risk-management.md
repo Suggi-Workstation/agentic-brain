@@ -1,6 +1,6 @@
 # Portfolio Risk Management -- Topics
 
-13 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
+14 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
 
 - [Behavioral Aspects of Risk Tolerance -- Why Investor Psychology Determines Portfolio Success](behavioral-aspects-of-risk-tolerance.md) -- [reviewed: 2026-09-21] -- A portfolio is successful only if its investor can keep holding and managing it through the conditions for which it was designed. Financial capacity, stated willingness, perceived risk, recent experience, loss aversion, and overconfidence jointly shape that behavior, so an allocation that is mathematically efficient but behaviorally intolerable is not an effective allocation ([1] [9] [10]).
 
@@ -11,6 +11,8 @@
 - [Hedge Fund Risk Management -- Survival Depends on Governing Leverage, Liquidity, and Concentrated Exposures Together](hedge-fund-risk-management.md) -- [reviewed: never] -- Hedge fund risk management is the integrated control of market exposure, leverage, liquidity, counterparties, concentration, and operations so that a fund can survive adverse conditions without forced liquidation. The central claim is that no risk metric is sufficient by itself: resilience comes from connecting portfolio losses to margin calls, financing withdrawals, investor redemptions, and the time required to exit positions (Sources 1, 2, 4, and 12).
 
 - [The Kelly Criterion -- Why Maximizing Geometric Growth Beats Maximizing Expected Value](kelly-criterion.md) -- [reviewed: never] -- The Kelly criterion is a mathematical formula that determines the optimal fraction of capital to allocate to a favorable bet or investment in order to maximize the long-run compound growth rate of wealth. Published by John L. Kelly Jr. at Bell Labs in 1956 as a result in information theory, it has become a foundational concept in quantitative trading, sports betting, and institutional portfolio management.
+
+- [Liability-Driven Investing Makes Obligations the Portfolio Benchmark, but Leverage Turns Hedging Into Liquidity Risk](liability-driven-investing.md) -- [reviewed: never] -- Liability-driven investing, or LDI, constructs a portfolio around the timing, sensitivity, and uncertainty of future obligations rather than judging assets against an asset-only benchmark. This change can make pension and insurance funding more stable, but derivatives and borrowing can convert an effective long-horizon hedge into an immediate collateral and liquidity problem unless leverage, cash, and governance are designed as one system [1][3][6][7].
 
 - [Modern Portfolio Theory -- How Markowitz Transformed Investing From Art to Science](modern-portfolio-theory.md) -- [reviewed: never] -- Modern Portfolio Theory (MPT) is the mathematical framework, introduced by Harry Markowitz in 1952, that formalized the relationship between risk and return in portfolio construction. Its core insight is that an asset should not be evaluated in isolation but by how it contributes to a portfolio's overall risk-and-return profile.
 
