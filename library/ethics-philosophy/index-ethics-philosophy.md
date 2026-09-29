@@ -1,10 +1,12 @@
 # Ethics Philosophy -- Topics
 
-14 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+15 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
 - [AI Ethics -- Trustworthy Systems Require Governance Across the Full Lifecycle](ai-ethics.md) -- [reviewed: 2026-09-21] -- AI ethics studies the principles and institutions that should govern the design, development, deployment, use, and retirement of artificial intelligence systems. It asks not only whether a system performs its assigned task, but whether its purpose is legitimate, its benefits and harms are distributed fairly, affected people can understand and contest consequential decisions, and identifiable humans and organizations remain accountable.
 
 - [Bioethics -- Medical Power Requires Justifiable Rules, Not Technology Alone](bioethics.md) -- [reviewed: 2026-09-22] -- Bioethics examines how medicine and the life sciences should use powers that can heal, harm, select research participants, allocate scarce resources, alter genomes, and define the limits of treatment. Its central problem is not whether technology can produce an outcome, but whether the purpose, process, distribution of benefits and burdens, and treatment of affected persons can be ethically justified.
+
+- [Business Ethics -- Corporate Power Creates Duties That Profit and Compliance Cannot Exhaust](business-ethics-corporate-moral-responsibility.md) -- [reviewed: never] -- Business ethics asks how corporations and the people who govern them should use organized economic power when their choices affect workers, customers, suppliers, communities, political institutions, and the natural environment. Its central claim is that lawful profit is a necessary condition of a durable business, but neither legality nor profitability alone determines whether conduct respects rights, distributes risk fairly, avoids complicity, and provides remedy when harm occurs [1][5][6].
 
 - [Eastern Philosophy -- Why Buddhism, Confucianism, and Taoism Offer Radically Different Answers to Ethics, Knowledge, and the Good Life Than the West](eastern-philosophy-buddhism-confucianism-taoism.md) -- [reviewed: never] -- Buddhism, Confucianism, and Taoism are not merely Asian religions or esoteric spiritual practices. They are comprehensive philosophical systems that developed independent answers to the same fundamental questions that occupied Socrates, Aristotle, and Kant: What constitutes a good life? How should we treat each other?
 
