@@ -6,6 +6,7 @@ domain: macro-micro
 author: Librarian
 tags: [exchange-rates, currencies, purchasing-power-parity, interest-rate-parity, mundell-fleming, exchange-rate-regimes, currency-crises, reserve-currency]
 links: [library/macro-micro/monetary-policy-and-central-banking.md, library/macro-micro/trade-and-comparative-advantage.md, library/macro-micro/inflation-dynamics.md, library/macro-micro/sovereign-debt-dynamics.md]
+reviewed: 2026-09-29
 ---
 
 # Currency and Exchange Rates -- The Price of Money Connects Domestic Policy to the World Economy
@@ -28,7 +29,7 @@ Actual exchange-rate systems are more complicated than the labels "fixed" and "f
 
 Currency crises exposed the fragility of inconsistent or politically costly regimes. Krugman's first-generation model explains how a fixed rate can collapse when continuing domestic credit creation depletes reserves and makes the peg incompatible with the eventual monetary equilibrium; a speculative attack brings the discrete reserve loss forward rather than waiting for the final reserve unit to disappear. Obstfeld's later models add self-fulfilling mechanisms: if defending a peg raises interest rates, unemployment, banking stress, or fiscal costs, expectations of abandonment can increase the government's incentive to abandon it. Fundamentals still matter, but the interaction between market expectations and the authorities' response can create multiple possible outcomes. [6][13]
 
-The modern system also has a hierarchy of currencies. Federal Reserve data show that the U.S. dollar accounted for 57.8 percent of disclosed global foreign-exchange reserves in 2024, compared with 19.8 percent for the euro; the dollar's share had declined from its 1999 peak but remained much larger than any alternative. The BIS reported that over-the-counter foreign-exchange turnover reached $9.6 trillion per day in April 2025 and that the dollar was on one side of 89.2 percent of trades. These roles reinforce one another: a currency used for reserves, trade invoicing, funding, and market intermediation becomes cheaper and more convenient to use again. The resulting network effects are central to exchange-rate transmission and explain why the currency of the invoiced price can matter as much as the nationality of the buyer or seller. [11][12]
+The modern system also has a hierarchy of currencies. The IMF's latest COFER release records the U.S. dollar at 57.13 percent of global foreign-exchange reserves in 2026Q1, compared with 20.03 percent for the euro. The dollar share rose from a revised 56.42 percent in 2025Q4, with exchange-rate valuation accounting for about half of the quarterly increase; the Federal Reserve's longer-run compilation places the dollar's reserve-share peak at 72 percent in 2001. The BIS reported that over-the-counter foreign-exchange turnover reached $9.6 trillion per day in April 2025 and that the dollar was on one side of 89.2 percent of trades. These roles reinforce one another: a currency used for reserves, trade invoicing, funding, and market intermediation becomes cheaper and more convenient to use again. The resulting network effects are central to exchange-rate transmission and explain why the currency of the invoiced price can matter as much as the nationality of the buyer or seller. [11][12][14]
 
 ## Core Concepts
 
@@ -110,7 +111,7 @@ Obstfeld studies a different mechanism in which the authorities choose whether t
 
 Gopinath and coauthors test the dominant currency paradigm with bilateral indices covering 91 percent of world trade and with detailed Colombian firm-product-country data. They report that the dollar exchange rate has greater explanatory power for pass-through and trade quantities when transactions are invoiced in dollars, and that a 1 percent broad dollar appreciation predicts a 0.6 percent decline within a year in trade volume among non-U.S. countries after controlling for the global business cycle. The method links invoice currency to observed prices and quantities rather than assuming that producer or destination currency sets transmission. [9]
 
-Official data establish the scale of the network in which that mechanism operates. The Federal Reserve's 2025 compilation, drawing on IMF COFER and other official datasets, records the dollar at 57.8 percent of disclosed official reserves in 2024. The BIS 2025 survey, based on reports from more than 1,100 dealers in 52 jurisdictions, measures $9.6 trillion in average daily OTC FX turnover and places the dollar on one side of 89.2 percent of all trades. Reserve holdings and transaction use are different measures, but both show a system centered on the same currency. The evidence supports persistence through liquidity and network effects while also showing that dominance is not equivalent to an unchanging reserve share. [11][12]
+Official data establish the scale of the network in which that mechanism operates. The IMF's 2026Q1 COFER release measures $13.10 trillion in global foreign-exchange reserves and places the dollar share at 57.13 percent, while explaining that valuation effects and active reserve management can both change quarterly currency shares. The BIS 2025 survey, based on reports from more than 1,100 dealers in 52 jurisdictions, measures $9.6 trillion in average daily OTC FX turnover and places the dollar on one side of 89.2 percent of all trades. Reserve holdings and transaction use are different measures, but both show a system centered on the same currency. The evidence supports persistence through liquidity and network effects while also showing that dominance is not equivalent to an unchanging reserve share. [12][14]
 
 ## Implications
 
@@ -195,9 +196,13 @@ The final implication is humility with structure. Exchange rates are asset price
 13. Krugman, P. (1979). "A Model of Balance-of-Payments Crises." Journal of Money, Credit and Banking, 11(3), 311-325.
     https://www.mit.edu/~14.54/handouts/krugman%20BPO%20crisis.pdf [high]
 
+14. International Monetary Fund. (2026). "IMF Data Brief: Currency Composition of Official Foreign Exchange Reserves -- First Quarter of 2026." COFER, July 1.
+    https://data.imf.org/en/news/imf-data-brief-july%201 [high]
+
 ## See Also
 
 - `library/macro-micro/monetary-policy-and-central-banking.md` -- the policy-rate and intervention channels that exchange-rate regimes redirect.
 - `library/macro-micro/trade-and-comparative-advantage.md` -- how relative prices and external adjustment connect currencies to trade flows.
 - `library/macro-micro/inflation-dynamics.md` -- how depreciation passes into import prices, expectations, and domestic inflation.
 - `library/macro-micro/sovereign-debt-dynamics.md` -- how currency denomination and depreciation alter public-debt sustainability.
+
