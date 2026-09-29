@@ -1,6 +1,6 @@
 # Earth Climate -- Topics
 
-15 topics. Anchor: [anchor-earth-climate.md](anchor-earth-climate.md)
+16 topics. Anchor: [anchor-earth-climate.md](anchor-earth-climate.md)
 
 - [Atmospheric Science and Weather Systems -- How Circulation Organizes Earth's Weather and Climate](atmospheric-science-weather-systems.md) -- [reviewed: 2026-09-21] -- Earth's atmosphere is a rotating, stratified fluid that redistributes energy and moisture while producing weather from local storms to planetary circulation. Its zonal-mean circulation includes thermally direct Hadley cells, an eddy-driven midlatitude circulation, polar cells, and jet streams, but the real atmosphere is less regular than the familiar three-cell diagram ([1] [2] [21]).
 
@@ -31,4 +31,6 @@
 - [Resource Depletion and Sustainability Science -- The Finite Planet Is Not Just About Running Out](resource-depletion-sustainability-science.md) -- [reviewed: never] -- Resource depletion is the systematic consumption of Earth's finite natural resources at rates faster than they can be regenerated or substituted. The core insight of sustainability science is not a simple "we are running out" -- it is that different resources face genuinely different constraints: some are truly finite with no substitute (phosphorus for agriculture, helium for certain...
 
 - [Volcanology -- Eruption Outcomes Emerge from a Transcrustal Magma System, Not a Single Chamber](volcanology-magma-eruptions-monitoring-and-cascading-hazards.md) -- [reviewed: never] -- Volcanology explains how melt is generated, modified, transported, stored, degassed, and erupted, and how those processes produce hazards whose footprints range from a vent to the global atmosphere. The central finding is that a volcano is the surface expression of a vertically extensive and changing magmatic system, so neither its shape nor one monitoring signal can determine what it will do next.
+
+- [Wildfire Science -- Fire Behavior Emerges from Coupled Fuel, Weather, Terrain, and Time](wildfire-science-fuels-weather-terrain-and-climate-fire-regimes.md) -- [reviewed: never] -- Wildfire is not controlled by one master variable: an ignition becomes a spreading fire only where burnable fuel, sufficiently dry conditions, and a propagation pathway coincide, while wind, terrain, and fire-atmosphere feedbacks can reorganize that spread within minutes [1][2][3]. Fire is also an ecological process whose effects depend on its regime and context, so the same physical phenomenon...
 
