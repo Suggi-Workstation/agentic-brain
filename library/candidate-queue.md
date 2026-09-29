@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Electromagnetism -- Fields, Waves, and the Unification of Electricity, Magnetism, and Light
-- **Domain:** science
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.6/10.0 (gap=9.7, compounding=9.7, timeliness=8.8, balance=10.0)
-- **Scope:** Develop classical electromagnetism from electric charge and fields through circuits, magnetism, induction, Maxwell's equations, and electromagnetic waves. Explain how local field laws unify electricity, magnetism, and light, including energy flow, boundary conditions, materials, radiation, and the limits of the classical theory. Connect the framework to optics, communications, electronics, motors, power systems, and measurement while keeping engineering designs secondary to the physical laws.
-- **Status:** proposed
-
 ## Candidate: Calculus -- Limits, Derivatives, Integrals, and the Mathematics of Change
 - **Domain:** mathematics-statistics
 - **Proposed by:** Librarian
