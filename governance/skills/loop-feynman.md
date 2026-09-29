@@ -71,11 +71,9 @@ List every gap explicitly. These are your search targets for Step 3.
 Fill every gap identified in Step 2. Use:
 - `web_search` for current information, market data, news
 - `memory_search` for prior work, decisions, and context in memory
-- Clone the agentic-brain and search for library topics, insights,
-  and prior reflections that relate to this topic
-- `query-brain` skill for hybrid semantic + keyword search across
-  the indexed agentic-brain -- surface prior artifacts and
-  cross-reference them against your findings
+- `repo-search` skill for library topics, insights, prior reflections
+  and other prior artifacts in the shared repositories -- cross-reference
+  them against your findings
 
 Cross-reference sources. Resolve contradictions -- if two sources
 disagree, investigate which one is correct and document why.
