@@ -1,12 +1,14 @@
 # Science -- Topics
 
-14 topics. Anchor: [anchor-science.md](anchor-science.md)
+15 topics. Anchor: [anchor-science.md](anchor-science.md)
 
 - [Cell Biology -- Compartmentalized, Dynamic Cells Sustain Life Through Coordinated Transport, Signaling, Division, and Death](cell-biology.md) -- [reviewed: 2026-09-22] -- Cell biology explains how cells organize chemical reactions, exchange matter and information, reproduce, and sometimes execute regulated death. The cell is the basic structural and functional unit of cellular life, but no single cell plan is universal: bacterial, archaeal, and eukaryotic cells solve the same functional problems with different degrees and kinds of compartmentalization ([1] [2] [4]).
 
 - [The Periodic Table Is Chemistry's Prediction Engine -- Electron Structure Determines Bonding, Properties, and Reactivity](chemistry-periodic-table-bonding.md) -- [reviewed: never] -- The periodic table organizes all 118 known elements by a single physical quantity -- atomic number -- and in doing so encodes the rules that govern every chemical bond in the universe. Elements in the same column behave alike because their atoms share the same valence-electron architecture; where an element sits predicts how it will bond, what properties its compounds will have, and how it will react.
 
 - [Cosmology -- How the Universe Began, What It Is Made Of, and How It Will End](cosmology-big-bang-dark-energy.md) -- [reviewed: never] -- Modern cosmology describes a universe that began 13.8 billion years ago in an incredibly hot, dense state -- the Big Bang -- and has been expanding and cooling ever since. The Lambda-CDM model, the standard framework of cosmology, reveals that everything humans can see (stars, planets, gas) accounts for less than 5% of the universe's total energy budget; the remaining 95% consists of dark matter (27%) and dark energy (68%), neither of which has been directly detected.
+
+- [Classical Electromagnetism Unifies Electricity, Magnetism, and Light Through Local Fields](electromagnetism-fields-waves-and-unification.md) -- [reviewed: never] -- Classical electromagnetism describes how charge and current source electric and magnetic fields, how changing fields propagate, and how those fields transfer energy and momentum to matter. Its central achievement is unification: electrostatics, circuits, magnets, induction, radio waves, and visible light are different regimes of one local field theory governed by Maxwell's equations and the Lorentz force [2][6][7].
 
 - [Evolution by Natural Selection -- How Random Variation Plus Non-Random Selection Produces Complex Adaptation Without Design](evolution-by-natural-selection.md) -- [reviewed: never] -- Evolution by natural selection is the process by which heritable traits that improve an organism's chances of survival and reproduction become more common in a population over successive generations, while disadvantageous traits become rarer. First articulated by Charles Darwin in On the Origin of Species (1859) and later unified with Mendelian genetics in the Modern Synthesis of the 1930s-1940s, it remains the single most powerful explanatory framework in biology.
 
