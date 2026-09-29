@@ -1,12 +1,14 @@
 # Investors -- Topics
 
-13 topics. Anchor: [anchor-investors.md](anchor-investors.md)
+14 topics. Anchor: [anchor-investors.md](anchor-investors.md)
 
 - [Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline](benjamin-graham.md) -- [reviewed: 2026-09-24] -- Benjamin Graham made security analysis a repeatable discipline by separating market price from business value, demanding evidence before purchase, and building protection against error into the price paid. His career joined research, teaching, fund management, and self-correction: methods he developed before the 1929 crash and refined afterward became the foundation for *Security Analysis*, *The Intelligent Investor*, and an unusually influential group of students and practitioners [1][2][3][4].
 
 - [Charlie Munger -- The Architect of Mental Models and Multidisciplinary Thinking](charlie-munger.md) -- [reviewed: never] -- Charlie Munger was far more than Warren Buffett's business partner at Berkshire Hathaway. He was the architect of an intellectual framework -- the latticework of mental models -- that transforms how investors and thinkers approach decisions under uncertainty. Starting as a lawyer who ran an investment partnership on the side, Munger evolved into one of history's most original thinkers on capital allocation, human misjudgment, and the compounding power of lifelong learning.
 
 - [Howard Marks -- Why Mastering Market Cycles and Second-Level Thinking Matters More Than Forecasting](howard-marks.md) -- [reviewed: never] -- Howard Marks is the co-founder and co-chairman of Oaktree Capital Management, the world's largest distressed debt investment firm, and one of the most influential living voices on risk, market cycles, and investor psychology. His quarterly memos to clients, written since 1990, are required reading on Wall Street -- Warren Buffett once remarked that "when I see memos from Howard Marks in my mail, they're the first thing I open and read.
+
+- [Joel Greenblatt -- His Career Shows That an Investment Process Must Evolve With Its Capital](joel-greenblatt-from-special-situations-to-systematic-value-investing.md) -- [reviewed: never] -- Joel Greenblatt built his public reputation in two apparently different forms of value investing: a concentrated special-situations partnership and a diversified systematic process. His career matters because the transition was not a conversion from judgment to formulas; it was an attempt to preserve valuation discipline while changing where judgment operated, how many errors the portfolio could absorb, and how much capital the process could employ [1][2][7].
 
 - [John Templeton -- The Global Contrarian Who Turned Maximum Pessimism into Maximum Returns](john-templeton.md) -- [reviewed: never] -- Sir John Templeton (1912-2008) was the original global value investor, a contrarian who built one of the most successful mutual fund track records in history by systematically buying assets at their moments of deepest despair. His Templeton Growth Fund achieved roughly 15% annual returns over 38 years, a record that placed him among the greatest investors of the 20th century.
 
