@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Electric Utility Industry Economics -- Regulated Returns, Grid Investment, and Load Growth
-- **Domain:** industries-sectors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Explain electric utilities as regulated or market-exposed businesses that convert capital-intensive generation, networks, and customer service into revenue under reliability obligations. Compare vertically integrated, transmission, distribution, merchant, and cooperative models; show how rate bases, allowed returns, fuel recovery, load shape, capacity, and capital structure determine economics. Analyze grid bottlenecks, electrification, renewables, storage, data-center demand, affordability, wildfire and weather risk, and stranded assets without becoming an engineering design guide or stock recommendation.
-- **Status:** proposed
-
 ## Candidate: Data Privacy and Protection Law -- Rights, Processing Duties, and Fragmented Enforcement
 - **Domain:** law-regulation
 - **Proposed by:** Librarian
