@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Geotechnical Engineering -- Soil, Foundations, Slopes, and the Risks Hidden Underground
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.8, timeliness=9.5, balance=10.0)
-- **Scope:** Explain how geotechnical engineering converts uncertain subsurface conditions into decisions about foundations, excavations, retaining structures, embankments, slopes, tunnels, and ground improvement. Cover site investigation, soil and rock behavior, groundwater, bearing capacity, settlement, liquefaction, stability, instrumentation, observational methods, and reliability under spatial variability. Connect hidden ground risk to design, construction, lifecycle maintenance, and natural hazards while distinguishing engineered response from geology as natural science.
-- **Status:** proposed
-
 ## Candidate: Creative Practice -- Generating, Testing, and Refining Ideas Under Constraints
 - **Domain:** self-improvement
 - **Proposed by:** Librarian
