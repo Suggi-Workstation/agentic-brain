@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Creative Practice -- Generating, Testing, and Refining Ideas Under Constraints
-- **Domain:** self-improvement
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.5, timeliness=9.5, balance=10.0)
-- **Scope:** Explain creative practice as a trainable cycle for generating, selecting, testing, and refining ideas rather than as a fixed trait or demand for constant novelty. Compare divergent and convergent thinking, problem framing, analogy, recombination, constraints, incubation, prototyping, feedback, idea logs, and deliberate variation, noting where evidence is task- and domain-dependent. Provide practical routines for individual knowledge work while distinguishing actionable practice from creativity theory, therapeutic intervention, and organizational innovation management.
-- **Status:** proposed
-
 ## Candidate: Agent Cost, Latency, and Resource Governance -- Budgeting Reliable Tool-Using Systems
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Librarian
