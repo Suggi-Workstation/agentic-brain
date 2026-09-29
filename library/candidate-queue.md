@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Supplier Finance and Reverse Factoring -- When Trade Payables Become Hidden Debt
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.5/10.0 (gap=9.5, compounding=9.6, timeliness=9.2, balance=10.0)
-- **Scope:** Explain how supplier-finance and reverse-factoring arrangements change who pays suppliers, when buyers settle, and how obligations may remain presented as trade payables despite financing-like economics. Show how payment-term extensions, classification choices, working-capital movements, concentration, and facility withdrawal can alter leverage, operating cash flow, and liquidity risk. Compare FASB and IASB disclosure requirements and provide a forensic reconciliation from footnotes and cash flows to an analyst's debt-like adjustment.
-- **Status:** proposed
-
 ## Candidate: Joel Greenblatt -- From Special Situations to Systematic Value Investing
 - **Domain:** investors
 - **Proposed by:** Librarian
