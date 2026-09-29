@@ -1,6 +1,6 @@
 # Pop Culture -- Topics
 
-14 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
+15 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
 
 - [Advertising and Consumer Culture -- Advertising Shapes Desire Beyond Informing Choice](advertising-manufacturing-desire.md) -- [reviewed: 2026-09-23] -- Advertising can inform people about products, prices, and availability, but much of its cultural power comes from doing more: attaching goods to identities, emotions, relationships, and imagined futures. "Manufacturing desire" is therefore best treated as a critical interpretation of how advertising shapes the settings in which preferences develop, not as a claim that audiences have no agency or that every purchase is caused by an advertisement ([5] [6] [17]).
 
@@ -17,6 +17,8 @@
 - [Internet Culture and Memetics -- How Ideas Spread, Mutate, and Compete in the Digital Ecosystem](internet-culture-memetics.md) -- [reviewed: never] -- Internet culture is not merely a collection of jokes and viral videos but a novel evolutionary environment in which ideas -- memes -- replicate, mutate, and compete for attention at speeds and scales unimaginable before the digital age. Rooted in Richard Dawkins's 1976 concept of the meme as a unit of cultural transmission, internet memetics reveals that the same Darwinian dynamics governing biological evolution also shape what we share, believe, and amplify online.
 
 - [Music as Cultural Phenomenon -- How Soundtracks Encode the Values, Anxieties, and Aspirations of Generations](music-as-cultural-phenomenon.md) -- [reviewed: never] -- Music is not merely entertainment. It functions as a primary cultural document that records and shapes the values, anxieties, and aspirations of the society that produces and consumes it. From rock and roll's role in dismantling racial barriers during the 1960s civil rights era, to hip-hop's emergence as a voice for marginalized communities in the Bronx, to streaming platforms' algorithmic...
+
+- [Familiar Stories Survive by Renegotiating Memory, Not by Repeating the Past](nostalgia-reboots-and-franchise-culture.md) -- [reviewed: never] -- Remakes, reboots, revivals, and legacy sequels do more than reuse intellectual property: they place inherited stories inside a contest between remembered experience and present conditions [3][4]. Their cultural importance lies in what the new version preserves, revises, or suppresses, because every return makes a claim about whose past matters and what that past can mean now [1][3][8].
 
 - [Prestige Television -- How The Sopranos, The Wire, and Breaking Bad Elevated TV to the Signature Art Form of the 21st Century](prestige-television.md) -- [reviewed: never] -- The "Golden Age of Television" that began with HBO's The Sopranos in 1999 and crested through The Wire, Mad Men, Breaking Bad, and Deadwood was not merely a string of excellent shows -- it was a fundamental renegotiation of what television could be. For the first time, serialized television achieved the narrative depth, moral complexity, and cultural weight previously reserved for the novel and cinema.
 
