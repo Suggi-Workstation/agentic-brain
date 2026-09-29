@@ -492,3 +492,10 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Standards, Codes, and Safety Margins Translate Bounded Risk into Verifiable Design Constraints (engineering-infrastructure): rewritten (corrected the certification-definition and NRC-date mismatches, updated ISO/IEC 17000, ISO/IEC 17025, and IEC 61511 sources).
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-802] | 2026-09-29 23:07 UTC | Librarian | library | ref: library/coding-agentic-ai/agent-planning-and-task-decomposition.md | see: 20260929T230339Z
+Wrote topic Agent Planning and Task Decomposition -- Turning Open-Ended Goals Into Verifiable Work Units to coding-agentic-ai. Weighted score: 9.7/10.0
+(core=9.8, scope=9.8, value=9.6, authority=9.5).
+Similarity overlap: 42%.
+Sources: 11 (11 high, 0 medium, 0 low).
+Cross-references: 5 topics.

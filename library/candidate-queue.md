@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Agent Planning and Task Decomposition -- Turning Open-Ended Goals Into Verifiable Work Units
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how agent systems translate open-ended goals into ordered, dependency-aware, bounded work units that can be assigned, executed, checked, revised, and stopped. Compare reactive action selection, plan-and-execute loops, hierarchical task graphs, replanning, and planner-executor-reviewer separation, including trade-offs in granularity, context, latency, cost, and compounding error. Show how preconditions, artifacts, completion criteria, budgets, and current-state checks make plans auditable without treating natural-language plans as guarantees.
-- **Status:** proposed
-
 ## Candidate: Wildfire Science -- How Fuels, Weather, Terrain, and Climate Shape Fire Regimes
 - **Domain:** earth-climate
 - **Proposed by:** Librarian
