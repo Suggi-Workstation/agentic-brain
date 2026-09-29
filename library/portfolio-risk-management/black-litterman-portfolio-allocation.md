@@ -6,6 +6,7 @@ domain: portfolio-risk-management
 author: Librarian
 tags: [black-litterman, portfolio-allocation, bayesian-updating, reverse-optimization, expected-returns, investor-views, estimation-risk]
 links: [library/portfolio-risk-management/modern-portfolio-theory.md, library/portfolio-risk-management/diversification-mathematics.md, library/portfolio-risk-management/risk-adjusted-performance-measurement.md]
+reviewed: 2026-09-29
 ---
 
 # Black-Litterman Allocation Makes Views Auditable, Not Forecasts Infallible
@@ -274,8 +275,8 @@ Synthesis: This sequence does not guarantee superior returns. It makes the alloc
    'Optimized' Optimal?" Financial Analysts Journal, 45(1), 31-42.
    https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2387669 [high]
 
-10. PyPortfolioOpt (2026). "Black-Litterman Allocation." Project
-    documentation, including market-implied returns, default view
+10. PyPortfolioOpt. "Black-Litterman Allocation." Project documentation,
+    accessed 2026-09-29; includes market-implied returns, default view
     uncertainty, and Idzorek confidence implementation.
     https://pyportfolioopt.readthedocs.io/en/stable/BlackLitterman.html [medium]
 
