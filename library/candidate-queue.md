@@ -129,3 +129,67 @@
 - **Discovery score:** 9.0/10.0 (gap=9.3, compounding=9.0, timeliness=7.8, balance=10.0)
 - **Scope:** Profile Walter Schloss's path from Benjamin Graham's classes and Graham-Newman to a small, low-overhead partnership built around statistically cheap securities and wide diversification. Examine his research habits, aversion to leverage, fee structure, portfolio turnover, treatment of management quality, public record, mistakes, and evolution alongside his son Edwin. Keep the focus on Schloss as a person and fiduciary while cross-referencing separate topics on net-nets, margin of safety, and diversification.
 - **Status:** proposed
+
+## Candidate: Numerical Analysis -- Approximation, Stability, and Error in Computation
+- **Domain:** mathematics-statistics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=10.0)
+- **Scope:** Explain how numerical analysis turns continuous mathematical problems into finite computations while tracking approximation, truncation, rounding, conditioning, stability, and convergence. Compare root finding, interpolation, numerical differentiation and integration, linear-system solvers, and methods for differential equations, showing why a small residual need not imply a small error. Connect reliable computation to scientific simulation, optimization, data analysis, and machine learning without turning the topic into a software tutorial.
+- **Status:** proposed
+
+## Candidate: Currency Hedging in Global Portfolios -- Managing Exchange-Rate Risk Without Erasing Diversification
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.5, compounding=9.7, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how foreign-currency movements alter home-currency portfolio returns and why the appropriate hedge can differ between bonds, equities, liabilities, and horizons. Compare forwards, futures, swaps, and options; analyze hedge ratios, carry, basis, collateral, roll costs, liquidity, and interactions with asset returns. Show how full, partial, and dynamic hedges change volatility and diversification while separating portfolio-level currency management from directional foreign-exchange speculation.
+- **Status:** proposed
+
+## Candidate: Reading Acquisition and Literacy Instruction -- How Learners Turn Print Into Language and Meaning
+- **Domain:** education-learning
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.6, timeliness=9.9, balance=9.3)
+- **Scope:** Explain reading acquisition as the coordination of oral language, phonological awareness, decoding, fluency, vocabulary, syntax, comprehension, and knowledge. Compare systematic instruction, developmental progression, assessment, intervention, multilingual learning, and debates over how evidence should guide literacy teaching without reducing reading to phonics alone. Distinguish instructional methods from disability diagnosis and education policy, and show how practice and text selection support transfer from print recognition to independent meaning-making.
+- **Status:** proposed
+
+## Candidate: Number Theory -- Primes, Congruences, and the Arithmetic of Integers
+- **Domain:** mathematics-statistics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.5/10.0 (gap=9.7, compounding=9.6, timeliness=8.8, balance=10.0)
+- **Scope:** Develop number theory from divisibility, primes, greatest common divisors, congruences, Diophantine equations, and modular arithmetic. Explain proof techniques, prime distribution, factorization, residues, and the boundary between elementary results and unresolved problems. Connect the foundations to coding and cryptography, including why modern post-quantum systems often rely on structures beyond classical prime-factorization problems, while keeping applications secondary to the mathematics.
+- **Status:** proposed
+
+## Candidate: Sequence-of-Returns Risk and Withdrawal Portfolios -- Why Return Order Determines Decumulation Outcomes
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.5/10.0 (gap=9.2, compounding=9.5, timeliness=9.5, balance=10.0)
+- **Scope:** Explain sequence-of-returns risk as the path dependence created when withdrawals occur while portfolio values fluctuate, so identical average returns can produce different survival outcomes. Analyze accumulation versus decumulation, withdrawal timing, inflation, longevity, asset allocation, rebalancing, cash buffers, flexible spending rules, and failure probabilities. Distinguish sequence risk from ordinary volatility and from liability-driven investing, and show how historical backtests, Monte Carlo models, fees, taxes, and regime assumptions can misstate safety.
+- **Status:** proposed
+
+## Candidate: Chemical Kinetics and Reaction Mechanisms -- How Molecular Pathways Determine Reaction Rates
+- **Domain:** science
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.5/10.0 (gap=9.6, compounding=9.7, timeliness=8.8, balance=10.0)
+- **Scope:** Explain how chemical kinetics links reaction rates to molecular collisions, activation barriers, temperature, concentration, catalysts, and multistep mechanisms. Develop rate laws, reaction order, Arrhenius behavior, transition-state ideas, steady-state and pre-equilibrium approximations, competing pathways, and the use of experiments to infer mechanisms without treating a fitted rate law as direct proof. Connect kinetics to combustion, atmospheric chemistry, catalysis, biochemistry, and materials while distinguishing rate from thermodynamic favorability.
+- **Status:** proposed
+
+## Candidate: Classical Mechanics -- Motion, Forces, Conservation Laws, and the Limits of Newtonian Models
+- **Domain:** science
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.5/10.0 (gap=9.7, compounding=9.8, timeliness=8.5, balance=10.0)
+- **Scope:** Develop classical mechanics from kinematics and Newton's laws through work, energy, momentum, rotation, gravitation, oscillation, and variational formulations. Explain reference frames, conservation laws, constraints, idealizations, deterministic prediction, chaos, and the difference between exact laws and approximate models. Show where classical mechanics succeeds and where relativity, quantum mechanics, continuum models, or engineering-specific analysis become necessary.
+- **Status:** proposed
+
+## Candidate: Numeracy Development and Number Sense -- Building Quantitative Meaning Before Procedures
+- **Domain:** education-learning
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.5/10.0 (gap=9.6, compounding=9.5, timeliness=9.6, balance=9.3)
+- **Scope:** Explain how learners build number sense by connecting quantities, symbols, place value, operations, magnitude, fractions, proportional reasoning, and estimation. Examine developmental progressions, representations, worked examples, practice, mathematical language, formative assessment, misconceptions, anxiety, and targeted intervention. Show how fluency and conceptual understanding reinforce each other while separating numeracy instruction from formal mathematical theory and from general test preparation.
+- **Status:** proposed
