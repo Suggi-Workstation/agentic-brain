@@ -115,7 +115,6 @@ The service root is `/srv/hindsight/`. Profile connection settings remain in Her
 | `/srv/hindsight/secrets/postgres.env` | PostgreSQL initialization/access secrets | Local-only; never print or commit values |
 | `/srv/hindsight/secrets/` | Other approved client/service credential material | Use through the authorized credential path, not by copying secrets into instructions |
 | `/srv/hindsight/tools/claude-token-setup.sh` | Creates or renews the Claude token through Claude Code's browser sign-in | Run as `hermes`, then recreate the API service |
-| `/srv/hindsight/backups/` | PostgreSQL dumps taken before upgrades | Point-in-time rollback media on the same host, not disaster recovery |
 | `/srv/hindsight/auth/codex/`, `/srv/hindsight/tools/codex/` | Retired Codex sign-in route | Unused since 2026-09-29; kept only for rollback |
 | `/srv/hindsight/README.md` | Lean deployment entry point | Orientation; effective Compose/profile/bank settings still need inspection |
 | `/srv/hindsight/migration-result.json` | Receipt for the historical native import | Historical outcome, not a live inventory counter |
