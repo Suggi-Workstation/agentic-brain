@@ -177,3 +177,35 @@
 - **Discovery score:** 9.6/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=9.3)
 - **Scope:** Explain how an investment manager differs economically from the funds it sponsors, separating management fees, performance fees and carried interest, balance-sheet investments, compensation, fundraising capacity, and operating costs. Examine minority GP-stakes transactions, governance and information rights, founder liquidity, succession, cross-fund conflicts, valuation, leverage, and exit routes across alternative-asset managers. Show how recurring-fee durability depends on investment performance, client concentration, fee compression, key people, and product cycles, and distinguish ownership of the management company from limited-partner interests in its funds.
 - **Status:** proposed
+
+## Candidate: Operating Systems -- Coordinating Processes, Memory, Devices, and Isolation
+- **Domain:** technology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.9/10.0 (gap=10.0, compounding=10.0, timeliness=9.6, balance=10.0)
+- **Scope:** Explain how operating systems arbitrate processors, memory, storage, devices, and permissions so many programs can use one machine safely and efficiently. Cover processes and threads, scheduling, virtual memory, filesystems, device drivers, system calls, concurrency, isolation, virtualization, observability, and failure recovery across desktop, server, mobile, and embedded systems. Show how OS design choices shape performance, security, portability, and reliability while distinguishing the operating system from application architecture, hardware design, and cloud service management.
+- **Status:** proposed
+
+## Candidate: Public Program Evaluation -- Determining Whether Policy Caused Better Outcomes
+- **Domain:** political-science-public-policy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=9.9, balance=10.0)
+- **Scope:** Explain how governments determine whether a program caused its intended outcomes rather than merely accompanying them. Compare theories of change, administrative data, performance measures, randomized evaluations, quasi-experiments, cost-effectiveness, distributional effects, external validity, implementation fidelity, and evidence synthesis. Show how ethics, political incentives, measurement choices, and institutional learning affect whether findings change policy, while distinguishing causal evaluation from legislative design, routine auditing, and statistical technique in isolation.
+- **Status:** proposed
+
+## Candidate: Forecast Evaluation and Scoring Rules -- Measuring Accuracy Without Rewarding Vagueness
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how scoring rules turn resolved forecasts into evidence about accuracy, calibration, discrimination, and information value. Compare Brier, logarithmic, ranked probability, and interval scores; cover properness, baselines, decomposition, aggregation, rare events, missing resolutions, incentives, and the difference between evaluating forecasters and evaluating forecasting systems. Show how question design, updating, and decision relevance determine what a score means, and why vague predictions or selectively reported successes cannot support cumulative learning.
+- **Status:** proposed
+
+## Candidate: Adaptation Across Media -- What Changes When Stories Move Between Novels, Film, Television, and Games
+- **Domain:** pop-culture
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.8, timeliness=9.6, balance=10.0)
+- **Scope:** Explain how stories change when they move among novels, comics, film, television, games, theater, and other media with different affordances, audiences, and production constraints. Examine fidelity debates, compression and expansion, point of view, seriality, embodiment, interactivity, cultural translation, authorship, and reception using comparative examples rather than reviews. Show how adaptations renegotiate values and collective memory while distinguishing cultural analysis from book summaries, production advice, and entertainment ranking.
+- **Status:** proposed

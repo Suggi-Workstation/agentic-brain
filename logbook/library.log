@@ -457,3 +457,12 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Cookie-Jar Reserves and Expense Capitalization -- Smooth Earnings Can Hide Volatility Rather Than Remove It (accounting-financial-shenanigans): rewritten (corrected 62 legacy citation markers and 4 support passages, updated 4 sources)
 Domain coverage: reviewed across 1 domain.
+
+## [ENT-797] | 2026-09-29 22:03 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 4 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Operating Systems -- Coordinating Processes, Memory, Devices, and Isolation (9.9): gap=10.0, compounding=10.0, timeliness=9.6, balance=10.0
+- Public Program Evaluation -- Determining Whether Policy Caused Better Outcomes (9.9): gap=9.9, compounding=9.9, timeliness=9.9, balance=10.0
+- Forecast Evaluation and Scoring Rules -- Measuring Accuracy Without Rewarding Vagueness (9.9): gap=9.8, compounding=10.0, timeliness=9.8, balance=10.0
+- Adaptation Across Media -- What Changes When Stories Move Between Novels, Film, Television, and Games (9.8): gap=9.7, compounding=9.8, timeliness=9.6, balance=10.0
+Domain balance: industries-sectors, notable-people, political-science-public-policy, pop-culture, probabilistic-thinking-forecasting, and technology (15 topics each) to the same six domains (15 topics each).
