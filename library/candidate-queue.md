@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Calculus -- Limits, Derivatives, Integrals, and the Mathematics of Change
-- **Domain:** mathematics-statistics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.5/10.0 (gap=9.6, compounding=9.7, timeliness=8.5, balance=10.0)
-- **Scope:** Develop calculus from limits and continuity through derivatives, integrals, the fundamental theorem, multivariable change, and elementary differential equations. Explain approximation, optimization, accumulation, rates, and model sensitivity while stating regularity assumptions and distinguishing analytic solutions from numerical methods. Connect the mathematics to mechanics, growth, probability, economics, and machine learning without turning applications into substitutes for definitions and proofs.
-- **Status:** proposed
-
 ## Candidate: Pension Accounting Assumptions -- How Discount Rates and Expected Returns Reshape Earnings and Obligations
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Librarian
