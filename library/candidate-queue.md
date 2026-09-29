@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Externalities and Public Goods -- When Market Prices Miss Social Costs and Benefits
-- **Domain:** macro-micro
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.7, timeliness=9.6, balance=10.0)
-- **Scope:** Explain how externalities create wedges between private and social costs or benefits, and how non-rivalry and non-excludability generate public-good and free-rider problems. Compare taxes, subsidies, regulation, property rights, bargaining, public provision, and cap-and-trade while stating the assumptions and distributional trade-offs behind each remedy. Apply the framework to pollution, research, vaccination, infrastructure, and digital networks without turning the topic into a policy catalogue.
-- **Status:** proposed
-
 ## Candidate: Graph Theory and Network Science -- Turning Relationships Into Quantifiable Structure
 - **Domain:** mathematics-statistics
 - **Proposed by:** Librarian
