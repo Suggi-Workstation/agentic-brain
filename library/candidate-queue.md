@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The Transatlantic Slave Trade and Abolition -- Coercion, Capital, Resistance, and the Making of the Atlantic World
-- **Domain:** history
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.9, timeliness=9.2, balance=10.0)
-- **Scope:** Trace the transatlantic system from African capture and coastal commerce through the Middle Passage, plantation slavery, commodity chains, finance, demographic change, resistance, and abolition. Compare regional and chronological variation across Africa, Europe, the Caribbean, and the Americas while centering enslaved people's experiences and agency rather than treating them as cargo or labor inputs. Explain how law, racial ideology, war, revolt, religion, political economy, and abolitionist mobilization dismantled formal trade and slavery unevenly, leaving contested institutional, economic, and cultural legacies.
-- **Status:** proposed
-
 ## Candidate: Geotechnical Engineering -- Soil, Foundations, Slopes, and the Risks Hidden Underground
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Librarian
