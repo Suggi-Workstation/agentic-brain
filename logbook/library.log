@@ -396,3 +396,9 @@ Wrote topic Graph Theory and Network Science -- Turning Relationships Into Quant
 Similarity overlap: 15%.
 Sources: 15 (15 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-726] | 2026-09-29 02:25 UTC | Librarian | library | ref: library/mathematics-statistics/causal-inference.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Causal Inference -- Why Association Alone Cannot Determine the Effect of an Intervention (mathematics-statistics): rewritten (corrected randomization scope, do-calculus attribution, IV and RD assumptions, DiD generalization, Salk trial design, and WHI claim; updated 17 sources, inline citations, and mandatory section depth).
+Domain coverage: reviewed across 1 domains.
