@@ -1,12 +1,14 @@
 # Science -- Topics
 
-16 topics. Anchor: [anchor-science.md](anchor-science.md)
+17 topics. Anchor: [anchor-science.md](anchor-science.md)
 
 - [Cell Biology -- Compartmentalized, Dynamic Cells Sustain Life Through Coordinated Transport, Signaling, Division, and Death](cell-biology.md) -- [reviewed: 2026-09-22] -- Cell biology explains how cells organize chemical reactions, exchange matter and information, reproduce, and sometimes execute regulated death. The cell is the basic structural and functional unit of cellular life, but no single cell plan is universal: bacterial, archaeal, and eukaryotic cells solve the same functional problems with different degrees and kinds of compartmentalization ([1] [2] [4]).
 
 - [Chemical Kinetics Makes Mechanisms Testable -- Reaction Rates Constrain but Do Not Uniquely Reveal Molecular Pathways](chemical-kinetics-and-reaction-mechanisms.md) -- [reviewed: never] -- Chemical kinetics connects measured changes in composition to models of the molecular steps by which reactions occur. Its central discipline is inferential: a rate law, time course, or activation parameter can exclude mechanisms and support others, but a mechanism becomes credible only when several independent observations survive tests across conditions [1][2][3][6].
 
 - [The Periodic Table Is Chemistry's Prediction Engine -- Electron Structure Organizes Bonding, Properties, and Reactivity](chemistry-periodic-table-bonding.md) -- [reviewed: 2026-09-29] -- The periodic table orders 118 recognized elements by atomic number and exposes recurring patterns in their electron configurations, making broad trends in bonding, size, ion formation, and reactivity predictable rather than merely catalogued [3][4][5][6][7][8]. Those trends are powerful but conditional: they describe regularities, not exceptionless rules, and accurate predictions also require molecular geometry, energetic data, and quantum-mechanical bonding models [8][11][12][13][14].
+
+- [Classical Mechanics Predicts Motion by Combining Laws, Initial Conditions, and Controlled Idealizations](classical-mechanics.md) -- [reviewed: never] -- Classical mechanics relates forces, energy, momentum, geometry, and initial conditions to the motion of bodies from laboratory masses to planets. Its equations can be deterministic without making every future state practically predictable: model error, uncertain initial conditions, nonlinear instability, and the breakdown of classical approximations set distinct limits on what a calculation can establish [1][2][3][7].
 
 - [Cosmology -- How the Universe Began, What It Is Made Of, and How It Will End](cosmology-big-bang-dark-energy.md) -- [reviewed: never] -- Modern cosmology describes a universe that began 13.8 billion years ago in an incredibly hot, dense state -- the Big Bang -- and has been expanding and cooling ever since. The Lambda-CDM model, the standard framework of cosmology, reveals that everything humans can see (stars, planets, gas) accounts for less than 5% of the universe's total energy budget; the remaining 95% consists of dark matter (27%) and dark energy (68%), neither of which has been directly detected.
 
