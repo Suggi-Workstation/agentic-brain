@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Reading Acquisition and Literacy Instruction -- How Learners Turn Print Into Language and Meaning
-- **Domain:** education-learning
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.6, timeliness=9.9, balance=9.3)
-- **Scope:** Explain reading acquisition as the coordination of oral language, phonological awareness, decoding, fluency, vocabulary, syntax, comprehension, and knowledge. Compare systematic instruction, developmental progression, assessment, intervention, multilingual learning, and debates over how evidence should guide literacy teaching without reducing reading to phonics alone. Distinguish instructional methods from disability diagnosis and education policy, and show how practice and text selection support transfer from print recognition to independent meaning-making.
-- **Status:** proposed
-
 ## Candidate: Number Theory -- Primes, Congruences, and the Arithmetic of Integers
 - **Domain:** mathematics-statistics
 - **Proposed by:** Librarian
