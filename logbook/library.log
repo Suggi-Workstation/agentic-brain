@@ -487,3 +487,11 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Howard Marks (investors): rewritten (corrected 6 factual and conceptual mismatches; expanded 7 sources to 17 and updated all mandatory sections).
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-755] | 2026-09-29 10:03 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 3 candidates proposed, 3 skipped (queue capped at 25).
+Candidates:
+- Infrastructure Asset Management and Lifecycle Costing -- Governing Performance From Construction to Renewal (9.8): gap=9.6, compounding=9.8, timeliness=9.8, balance=10.0
+- Agent Planning and Task Decomposition -- Turning Open-Ended Goals Into Verifiable Work Units (9.7): gap=9.4, compounding=9.9, timeliness=10.0, balance=10.0
+- Wildfire Science -- How Fuels, Weather, Terrain, and Climate Shape Fire Regimes (9.7): gap=9.4, compounding=9.8, timeliness=9.9, balance=10.0
+Domain balance: books, coding-agentic-ai, communication, earth-climate, engineering-infrastructure, and self-improvement (14 topics each) to the same six domains (14 topics each).

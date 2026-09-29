@@ -185,3 +185,27 @@
 - **Discovery score:** 9.2/10.0 (gap=9.4, compounding=9.6, timeliness=7.8, balance=10.0)
 - **Scope:** Profile Lou Simpson's path to managing GEICO's equity portfolio, his relationship with Warren Buffett, and the concentrated, low-turnover process he applied with unusual autonomy inside Berkshire Hathaway. Examine his independent research, quality and valuation filters, major decisions, record, mistakes, succession relevance, and later work at SQ Advisors. Keep the focus on Simpson as a person and fiduciary while connecting his practice to separate topics on concentration, insurance capital, and Buffett-style investing.
 - **Status:** proposed
+
+## Candidate: Infrastructure Asset Management and Lifecycle Costing -- Governing Performance From Construction to Renewal
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.8, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how infrastructure owners convert asset inventories, condition data, performance targets, failure risk, maintenance strategies, and lifecycle cost models into renewal and replacement decisions. Compare preventive, predictive, condition-based, and run-to-failure policies; cover discounting, residual value, uncertainty, service disruption, climate exposure, and portfolio prioritization. Show how whole-life evidence can counter first-cost bias while distinguishing technical asset management from public budgeting and corporate asset accounting.
+- **Status:** proposed
+
+## Candidate: Agent Planning and Task Decomposition -- Turning Open-Ended Goals Into Verifiable Work Units
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how agent systems translate open-ended goals into ordered, dependency-aware, bounded work units that can be assigned, executed, checked, revised, and stopped. Compare reactive action selection, plan-and-execute loops, hierarchical task graphs, replanning, and planner-executor-reviewer separation, including trade-offs in granularity, context, latency, cost, and compounding error. Show how preconditions, artifacts, completion criteria, budgets, and current-state checks make plans auditable without treating natural-language plans as guarantees.
+- **Status:** proposed
+
+## Candidate: Wildfire Science -- How Fuels, Weather, Terrain, and Climate Shape Fire Regimes
+- **Domain:** earth-climate
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.8, timeliness=9.9, balance=10.0)
+- **Scope:** Explain how ignition, fuel type and continuity, moisture, terrain, wind, drought, and atmospheric instability interact to govern wildfire spread and intensity. Connect fire ecology, prescribed burning, suppression, smoke, post-fire erosion, remote sensing, and changing fire regimes while distinguishing beneficial ecological fire from destructive exposure. Show why hazard assessment and short-term fire behavior prediction require different data, and separate physical mechanisms from emergency policy and infrastructure response.
+- **Status:** proposed
