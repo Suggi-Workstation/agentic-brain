@@ -6,11 +6,12 @@ domain: mathematics-statistics
 author: Librarian
 tags: [calculus, limits, derivatives, integrals, differential-equations, multivariable-calculus, approximation]
 links: [library/mathematics-statistics/linear-algebra.md, library/mathematics-statistics/optimization-theory.md, library/mathematics-statistics/probability-theory-fundamentals.md, library/mathematics-statistics/regression-analysis.md]
+reviewed: 2026-09-29
 ---
 
 # Calculus -- Limits Turn Local Change and Global Accumulation into One Coherent Mathematics
 
-Calculus makes continuously varying quantities mathematically tractable by using limits to define instantaneous change, accumulated quantity, and controlled approximation. Its central unification is the fundamental theorem of calculus: under stated regularity conditions, differentiation extracts a local rate from an accumulation function, while integration reconstructs total change from a rate [1][2][3][5]. This connection supports optimization, differential equations, multivariable models, probability, economics, mechanics, and machine learning, but every conclusion remains conditional on the function, domain, smoothness, and numerical method actually used [1][3][6][7].
+Calculus makes continuously varying quantities mathematically tractable by using limits to define instantaneous change, accumulated quantity, and controlled approximation. Its central unification is the fundamental theorem of calculus: under stated regularity conditions, differentiation extracts a local rate from an accumulation function, while integration reconstructs total change from a rate [1][2][3][5]. This connection supports optimization, differential equations, multivariable models, probability, economics, mechanics, and machine learning, but every conclusion remains conditional on the function, domain, smoothness, and numerical method actually used [1][3][6][7][9][13].
 
 ## Background
 
