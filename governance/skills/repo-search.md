@@ -10,7 +10,7 @@ disable-model-invocation: false
 Entry point for knowledge in the shared repositories: choose the repository,
 then load and follow its query skill.
 
-## When to Invoke
+## When to Use
 
 - Before writing, deciding or answering from memory, to check for prior work,
   research, decisions or reflections.
