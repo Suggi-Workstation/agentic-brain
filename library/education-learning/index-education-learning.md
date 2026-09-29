@@ -1,6 +1,6 @@
 # Education Learning -- Topics
 
-15 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
+16 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
 - [Assessment and Testing -- Score Meaning Depends on What a Test Samples and How Its Results Are Used](assessment-and-testing.md) -- [reviewed: 2026-09-23] -- Assessment shapes what learners practice, but a score is not a direct reading of knowledge. Its meaning depends on a coordinated model of learning, tasks that elicit relevant evidence, a defensible interpretation process, and evidence that the proposed use is valid, reliable, and fair ([1] [2]). The practical objective is therefore not to choose one universally superior format, but to build an...
 
@@ -21,6 +21,8 @@
 - [Differentiated Instruction Works When It Removes Learning Barriers Without Lowering the Goal](learning-disabilities-and-differentiated-instruction.md) -- [reviewed: never] -- Learning disabilities can make particular academic processes persistently difficult without defining a learner's overall capacity or justifying a less ambitious curriculum. Effective differentiation therefore preserves the intended learning goal, identifies the barrier between the learner and that goal, applies an evidence-based support, and uses progress data to decide whether the support should continue, change, or intensify ([1] [2] [3] [12]).
 
 - [Metacognition and Self-Regulated Learning Work Only When Monitoring Changes What the Learner Does Next](metacognition-and-self-regulated-learning.md) -- [reviewed: never] -- Metacognition makes a learner's knowledge, task, and strategy choices available for inspection, while self-regulated learning turns that inspection into a cycle of goals, action, feedback, and revision ([1] [2] [4]). The central claim is that awareness alone is insufficient: monitoring has educational value only when it changes strategy, effort, help seeking, task choice, or the decision to continue ([3] [9]).
+
+- [Numeracy Develops When Quantities, Symbols, and Procedures Stay Connected](numeracy-development-and-number-sense.md) -- [reviewed: never] -- Numeracy develops when learners connect quantities, number words, written symbols, representations, operations, and estimates instead of treating calculation as the execution of detached rules. Effective instruction builds conceptual understanding and procedural fluency together, because each can create opportunities for the other to grow, while assessment and intervention identify which connection has broken down for a particular learner [1][2][10].
 
 - [Pedagogy and Teaching Methods -- How Evidence-Based Instruction Shapes What Students Actually Learn](pedagogy-and-teaching-methods.md) -- [reviewed: never] -- The choice of teaching method is not merely a matter of teacher preference or institutional tradition. Decades of cognitive science research and large-scale meta-analyses show that how content is delivered -- whether through explicit direct instruction, structured inquiry, project-based exploration, or Socratic questioning -- produces substantially different learning outcomes depending on the learner's prior knowledge, the nature of the material, and the specific learning objective.
 
