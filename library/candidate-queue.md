@@ -177,3 +177,35 @@
 - **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.8, timeliness=9.3, balance=10.0)
 - **Scope:** Explain how an integrated financial model links operating assumptions, revenue and cost schedules, working capital, taxes, capital expenditure, financing, and the income statement, balance sheet, and cash flow statement. Cover historical normalization, drivers, circularity, scenarios, sensitivities, checks, error controls, documentation, versioning, and interpretation without presenting a forecast as certainty. Distinguish corporate-finance modeling from valuation methodology and accounting manipulation, and show how purpose, auditability, and model governance determine whether a spreadsheet supports or distorts decisions.
 - **Status:** proposed
+
+## Candidate: Data Visualization and Statistical Graphics -- Encoding Evidence for Accurate Interpretation
+- **Domain:** communication
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.8, timeliness=9.7, balance=10.0)
+- **Scope:** Explain how charts, maps, tables, dashboards, and annotations encode quantities, relationships, uncertainty, and change for a defined audience and decision. Compare visual channels, scales, normalization, color, layout, interaction, accessibility, and narrative sequencing, showing how design can reveal patterns or introduce distortion. Distinguish statistical graphics as communication from statistical analysis itself, and connect truthful design to source verification, cognitive load, reproducibility, and alternatives for readers who cannot use a visual display.
+- **Status:** proposed
+
+## Candidate: Agent Uncertainty, Verification, and Abstention -- Knowing When to Check, Ask, or Stop
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.3, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how an agent can detect insufficient evidence, tool ambiguity, out-of-distribution tasks, conflicting results, and diminishing prospects of success across a multi-step trajectory. Compare verbal confidence, calibrated predictors, independent verifiers, deterministic checks, information gathering, human escalation, and abstention policies, emphasizing that model self-confidence is not a safety boundary. Show how costs, consequences, reversibility, and remaining options should govern whether the system verifies, asks for input, continues, or stops, and distinguish operational control from general model uncertainty research.
+- **Status:** proposed
+
+## Candidate: Commitment Devices and Accountability Systems -- Designing Follow-Through Without Coercion
+- **Domain:** self-improvement
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.6, timeliness=9.2, balance=10.0)
+- **Scope:** Explain how people can make future goal-directed behavior easier to sustain through implementation intentions, precommitment, stakes, social accountability, reminders, progress visibility, and structured review. Compare private and public commitments, financial and nonfinancial consequences, accountability partners, contracts, and digital tools, including evidence that poorly designed pressure can suppress commitment or invite gaming. Provide a reversible design process that matches the device to the goal and failure mode while protecting autonomy, privacy, safety, and exit rights, and distinguish applied self-management from clinical treatment or motivational rhetoric.
+- **Status:** proposed
+
+## Candidate: The Outsiders -- How Eight CEOs Made Capital Allocation the Core of Corporate Leadership
+- **Domain:** books
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.3/10.0 (gap=9.2, compounding=9.7, timeliness=8.7, balance=10.0)
+- **Scope:** Analyze William Thorndike's The Outsiders as a comparative study of eight chief executives whose decentralized operations and unconventional capital-allocation decisions produced exceptional long-term shareholder returns. Distill the book's emphasis on per-share value, cash flow, opportunistic repurchases, acquisitions, divestitures, leverage, and independent judgment while testing survivorship bias, benchmark choice, and the transferability of its cases. Treat the book as an artifact and assess its evidence and enduring influence, cross-referencing separate topics on capital allocation and management quality without duplicating them.
+- **Status:** proposed
