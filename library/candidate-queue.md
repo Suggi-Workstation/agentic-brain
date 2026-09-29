@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Volcanology -- Magma, Eruptions, Monitoring, and Cascading Hazards
-- **Domain:** earth-climate
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.6/10.0 (gap=9.7, compounding=9.5, timeliness=9.2, balance=10.0)
-- **Scope:** Explain how magma forms, differentiates, rises, stores, releases gas, and produces effusive or explosive eruptions across tectonic settings. Connect volcano morphology, eruption products, calderas, lava, ash, pyroclastic flows, lahars, gases, and climate effects to monitoring through seismicity, deformation, geochemistry, satellites, and geological records. Distinguish long-term hazard assessment from short-term eruption forecasting, and show why uncertainty, cascading impacts, and local exposure determine risk.
-- **Status:** proposed
-
 ## Candidate: Business Ethics and Corporate Moral Responsibility -- Profit, Stakeholders, and Duties Beyond Compliance
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
