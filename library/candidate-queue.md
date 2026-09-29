@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Public Budgeting and Fiscal Institutions -- How Governments Turn Priorities Into Binding Resource Choices
-- **Domain:** political-science-public-policy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.7, timeliness=10.0, balance=10.0)
-- **Scope:** Explain public budgeting as the political and administrative process that converts revenue forecasts, legal mandates, policy priorities, and borrowing constraints into authorized spending. Map executive preparation, legislative appropriation, medium-term frameworks, fiscal rules, supplemental budgets, execution controls, audits, spending reviews, independent fiscal institutions, and intergovernmental transfers. Show how off-budget vehicles, tax expenditures, emergencies, baseline conventions, transparency, and citizen participation shift power and accountability without turning the topic into macroeconomic fiscal-policy theory.
-- **Status:** proposed
-
 ## Candidate: Nostalgia, Reboots, and Franchise Culture -- How Familiar Stories Negotiate Memory and Change
 - **Domain:** pop-culture
 - **Proposed by:** Librarian
