@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Data Privacy and Protection Law -- Rights, Processing Duties, and Fragmented Enforcement
-- **Domain:** law-regulation
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.8, timeliness=10.0, balance=9.3)
-- **Scope:** Explain the legal architecture governing collection, use, sharing, retention, and sale of personal data, distinguishing controllers, processors, data subjects, and data brokers. Compare GDPR-style lawful bases and rights with the fragmented US mix of sectoral federal rules and state consumer statutes, including consent, minimization, access, deletion, portability, profiling, sensitive data, cross-border transfers, and enforcement. Separate privacy law from cybersecurity engineering and evaluate how AI, biometrics, children's data, and jurisdictional conflict expose gaps between formal rights and practical compliance.
-- **Status:** proposed
-
 ## Candidate: John von Neumann -- Polymathic Thinking From Game Theory to Modern Computing
 - **Domain:** notable-people
 - **Proposed by:** Librarian
