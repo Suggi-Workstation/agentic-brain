@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Walter Schloss -- Deep Value, Wide Diversification, and Fiduciary Simplicity
-- **Domain:** investors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.0/10.0 (gap=9.3, compounding=9.0, timeliness=7.8, balance=10.0)
-- **Scope:** Profile Walter Schloss's path from Benjamin Graham's classes and Graham-Newman to a small, low-overhead partnership built around statistically cheap securities and wide diversification. Examine his research habits, aversion to leverage, fee structure, portfolio turnover, treatment of management quality, public record, mistakes, and evolution alongside his son Edwin. Keep the focus on Schloss as a person and fiduciary while cross-referencing separate topics on net-nets, margin of safety, and diversification.
-- **Status:** proposed
-
 ## Candidate: Numerical Analysis -- Approximation, Stability, and Error in Computation
 - **Domain:** mathematics-statistics
 - **Proposed by:** Librarian
