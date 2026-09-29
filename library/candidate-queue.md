@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Joel Greenblatt -- From Special Situations to Systematic Value Investing
-- **Domain:** investors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.3/10.0 (gap=9.2, compounding=9.3, timeliness=9.0, balance=10.0)
-- **Scope:** Profile Joel Greenblatt's path from Gotham Capital's concentrated special-situation investments to teaching, writing, and systematic quality-value strategies. Examine his research process, capacity constraints, portfolio concentration, public track-record claims, mistakes, and the tension between case-specific judgment and the Magic Formula. Keep the focus on Greenblatt's career and evolution while cross-referencing separate topics on the screen, special situations, and value-investing principles.
-- **Status:** proposed
-
 ## Candidate: Externalities and Public Goods -- When Market Prices Miss Social Costs and Benefits
 - **Domain:** macro-micro
 - **Proposed by:** Librarian
