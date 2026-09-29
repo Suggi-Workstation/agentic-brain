@@ -1,10 +1,12 @@
 # Macro Micro -- Topics
 
-13 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
+14 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
 
 - [Business Cycles Persist Because Shocks and Propagation Mechanisms Interact](business-cycles.md) -- [reviewed: 2026-09-21] -- Business cycles are alternating expansions and contractions in broad economic activity, not a fixed rhythm with a standard duration. They persist because demand, supply, policy, and financial shocks interact with mechanisms that spread and amplify their effects. Business-cycle analysis therefore supports conditional diagnosis and scenario planning, not precise turning-point forecasts. [1] [7] [8]
 
 - [Currency and Exchange Rates -- The Price of Money Connects Domestic Policy to the World Economy](currency-and-exchange-rates.md) -- [reviewed: never] -- An exchange rate is the price that converts one national money into another, but its economic role is broader than conversion: it transmits monetary policy, inflation, trade prices, capital flows, and financial stress across borders. No single model reliably predicts short-run currency movements; useful analysis instead combines goods-market parity, asset-market returns, policy regimes, balance-sheet exposures, and the international functions of dominant currencies.
+
+- [Externalities and Public Goods -- Market Prices Miss Social Costs and Benefits](externalities-and-public-goods.md) -- [reviewed: never] -- Externalities arise when an action changes other people's welfare without an equivalent price entering the decision, while public goods combine shared consumption with weak or impossible exclusion. In both cases, observed market prices omit part of the relevant social value, so efficient analysis must identify the missing cost or benefit, the information and transaction costs of correcting it, and who gains or loses under each remedy.
 
 - [Fiscal Policy and Government Spending -- Why the Government's Checkbook Is the Economy's Most Contested Instrument](fiscal-policy-and-government-spending.md) -- [reviewed: never] -- Fiscal policy -- the use of government taxation and spending to influence macroeconomic outcomes -- is the second great lever of economic management alongside monetary policy, and the one most directly accountable to voters. Unlike central banks, which operate with technocratic independence, fiscal decisions are made by elected legislatures, which means every spending bill and tax cut is simultaneously an economic intervention and a political act.
 
