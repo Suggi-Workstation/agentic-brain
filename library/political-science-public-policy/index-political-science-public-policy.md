@@ -1,6 +1,6 @@
 # Political Science Public Policy -- Topics
 
-14 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+15 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
 
 - [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: 2026-09-20] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules, while public administration is the discipline and practice that studies, designs, and reforms that apparatus. The field examines how recruitment, authority, discretion, procedure, and performance systems affect the conversion of legal mandates into outcomes.
 
@@ -21,6 +21,8 @@
 - [Political Economy of Development -- Why Growth Depends on How Power Is Organized](political-economy-of-development.md) -- [reviewed: never] -- Political economy of development studies how the distribution of political power, the rules that constrain its use, and the capacity to implement those rules shape economic development. Its central claim is that development cannot be explained by policy technique alone: investments, public goods, and market exchange depend on political arrangements that determine who can make credible commitments, who can capture rents, and who can enforce collective decisions.
 
 - [Political Parties and Party Systems -- The Organizational Infrastructure of Democratic Competition](political-parties-party-systems.md) -- [reviewed: never] -- Political parties are the central intermediary institutions of modern democracy: they aggregate diffuse citizen preferences into coherent policy programs, recruit and select political leaders, structure legislative organization, and form or remove governments. Party systems -- the structured pattern of competition among parties -- are not mere aggregates of individual parties but interactive...
+
+- [Public Budgeting Makes Political Priorities Binding Only When Fiscal Institutions Constrain Discretion](public-budgeting-and-fiscal-institutions.md) -- [reviewed: never] -- Public budgeting converts forecasts, laws, political priorities, and financing constraints into authority to collect revenue and spend public money [1][2]. An announced priority becomes operational only when the budget assigns resources, the legislature authorizes them, administrators can execute them, and reporting and audit make departures visible [1][3].
 
 - [Public Policy Design and Implementation -- Why Legislative Intent Rarely Survives Contact With the Implementation Pipeline](public-policy-design-implementation.md) -- [reviewed: never] -- Public policy design and implementation is the study of how legislative intent travels through a chain of administrative, organizational, and discretionary stages to produce observable outcomes. The field emerged from the discovery that policy adoption -- the passage of a law or issuance of a mandate -- is not the endpoint of the policy process but merely its midpoint.
 
