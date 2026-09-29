@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Motivation and Engagement in Learning -- How Goals, Belonging, and Agency Shape Persistence
-- **Domain:** education-learning
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.6/10.0 (gap=9.2, compounding=9.6, timeliness=9.9, balance=10.0)
-- **Scope:** Explain how intrinsic and extrinsic motivation, expectancy, value, self-efficacy, goals, belonging, autonomy, feedback, and task design influence attention, persistence, and learning. Compare short-term compliance with durable engagement across age groups, subjects, and formal or self-directed settings, separating correlational signals from causal evidence. Show how teachers and systems can diagnose disengagement, adjust challenge and support, and measure participation without turning rewards, surveillance, or entertainment into substitutes for learning.
-- **Status:** proposed
-
 ## Candidate: Stock-Based Compensation Shenanigans -- When Non-Cash Adjustments Hide Dilution and Recurring Labor Cost
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Librarian
