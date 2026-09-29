@@ -161,3 +161,51 @@
 - **Discovery score:** 9.5/10.0 (gap=9.6, compounding=9.5, timeliness=9.6, balance=9.3)
 - **Scope:** Explain how learners build number sense by connecting quantities, symbols, place value, operations, magnitude, fractions, proportional reasoning, and estimation. Examine developmental progressions, representations, worked examples, practice, mathematical language, formative assessment, misconceptions, anxiety, and targeted intervention. Show how fluency and conceptual understanding reinforce each other while separating numeracy instruction from formal mathematical theory and from general test preparation.
 - **Status:** proposed
+
+## Candidate: Management Control Systems -- Translating Strategy Into Measures, Feedback, and Corrective Action
+- **Domain:** business-management-strategy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.6/10.0 (gap=9.6, compounding=9.8, timeliness=8.8, balance=10.0)
+- **Scope:** Explain how management control systems turn strategy into objectives, budgets, measures, review cadences, decision rights, and corrective action. Compare diagnostic and interactive controls, balanced scorecards, responsibility centers, transfer pricing, variance analysis, and rolling forecasts, showing how targets can coordinate work or distort behavior through gaming and short-termism. Distinguish control from surveillance and accounting compliance, and connect measurement design to incentives, organizational learning, risk, and decentralized execution.
+- **Status:** proposed
+
+## Candidate: Public Speaking and Presentation Design -- Turning Spoken Ideas Into Audience Understanding and Action
+- **Domain:** communication
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.5/10.0 (gap=9.8, compounding=9.3, timeliness=9.0, balance=10.0)
+- **Scope:** Explain public speaking as the design and delivery of spoken communication for a particular audience, purpose, setting, and time limit. Integrate argument structure, openings, signposting, examples, vocal and nonverbal delivery, rehearsal, anxiety management, slides, demonstrations, accessibility, questions, and remote or hybrid formats. Distinguish presentation craft from rhetoric as general persuasive theory, and evaluate success through audience comprehension, recall, trust, and appropriate action rather than speaker charisma alone.
+- **Status:** proposed
+
+## Candidate: Volcanology -- Magma, Eruptions, Monitoring, and Cascading Hazards
+- **Domain:** earth-climate
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.6/10.0 (gap=9.7, compounding=9.5, timeliness=9.2, balance=10.0)
+- **Scope:** Explain how magma forms, differentiates, rises, stores, releases gas, and produces effusive or explosive eruptions across tectonic settings. Connect volcano morphology, eruption products, calderas, lava, ash, pyroclastic flows, lahars, gases, and climate effects to monitoring through seismicity, deformation, geochemistry, satellites, and geological records. Distinguish long-term hazard assessment from short-term eruption forecasting, and show why uncertainty, cascading impacts, and local exposure determine risk.
+- **Status:** proposed
+
+## Candidate: Business Ethics and Corporate Moral Responsibility -- Profit, Stakeholders, and Duties Beyond Compliance
+- **Domain:** ethics-philosophy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.8, timeliness=9.8, balance=10.0)
+- **Scope:** Examine whether corporations have moral responsibilities beyond lawful profit and how those duties attach to managers, boards, owners, employees, suppliers, and institutional systems. Compare shareholder primacy, stakeholder theory, rights, duties, consequences, virtue, legitimacy, complicity, whistleblowing, and risk-based due diligence across labor, human rights, corruption, consumers, technology, and environmental harm. Separate normative justification from corporate law and public relations, and test when voluntary commitments, governance, remedy, or regulation can make responsibility accountable.
+- **Status:** proposed
+
+## Candidate: Securitization and Structured Finance -- Pooling Cash Flows, Tranching Risk, and Building Fragile Intermediation
+- **Domain:** finance
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.8, timeliness=9.7, balance=10.0)
+- **Scope:** Explain how loans and other receivables are transferred to special-purpose vehicles, pooled, serviced, enhanced, tranched, rated, and sold as asset-backed securities. Trace cash-flow waterfalls, prepayment, default, correlation, credit enhancement, liquidity support, retention, accounting treatment, and conflicts among originators, arrangers, servicers, rating agencies, and investors. Compare mortgages, consumer credit, corporate loans, and other collateral, showing when securitization broadens funding and risk transfer and when opacity, leverage, maturity mismatch, or model error concentrates systemic fragility.
+- **Status:** proposed
+
+## Candidate: The Transatlantic Slave Trade and Abolition -- Coercion, Capital, Resistance, and the Making of the Atlantic World
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.9, timeliness=9.2, balance=10.0)
+- **Scope:** Trace the transatlantic system from African capture and coastal commerce through the Middle Passage, plantation slavery, commodity chains, finance, demographic change, resistance, and abolition. Compare regional and chronological variation across Africa, Europe, the Caribbean, and the Americas while centering enslaved people's experiences and agency rather than treating them as cargo or labor inputs. Explain how law, racial ideology, war, revolt, religion, political economy, and abolitionist mobilization dismantled formal trade and slavery unevenly, leaving contested institutional, economic, and cultural legacies.
+- **Status:** proposed
