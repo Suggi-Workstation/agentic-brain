@@ -1,6 +1,6 @@
 # Coding Agentic Ai -- Topics
 
-15 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
+16 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
 
 - [Agent Resource Governance -- Reliability Requires Budgets for Cost, Latency, and Work](agent-cost-latency-and-resource-governance.md) -- [reviewed: never] -- A tool-using agent is reliable only when it can achieve a defined task outcome inside an explicit resource envelope. Tokens, model calls, tool calls, wall time, memory, network traffic, concurrency, and money therefore need enforceable budgets, trace-level attribution, and degradation rules; unconstrained search or arbitrary truncation does not establish efficient performance. [1][2]
 
@@ -11,6 +11,8 @@
 - [Agent Memory and Persistence -- Persistent Agents Need Lifecycle Design, Not Just Longer Context](agent-memory-and-persistence.md) -- [reviewed: 2026-09-21] -- Agent memory is the engineered state that lets an agent recover and revise useful information across turns, sessions, and process restarts. A longer model context can hold more working material for one inference, but persistence requires an explicit lifecycle for retention, representation, retrieval, evidence use, updating, deletion, scope, and evaluation ([1] [5] [6] [9]).
 
 - [Agent Observability and Debugging -- Why You Cannot Fix What You Cannot See Inside an Agent Run](agent-observability-and-debugging.md) -- [reviewed: never] -- Agent observability is the engineering discipline of capturing, storing, and inspecting the complete execution record of an AI agent -- every model call, tool invocation, retrieval step, guardrail check, and intermediate output -- so that a failed run can be understood, reproduced, and fixed. Traditional software observability assumes deterministic control flow, but agents are non-deterministic...
+
+- [Agent Planning and Task Decomposition -- Reliable Autonomy Requires Executable Work Units and Replanning](agent-planning-and-task-decomposition.md) -- [reviewed: never] -- Agent planning converts an open-ended goal into bounded work units whose dependencies, inputs, outputs, and completion conditions can be inspected before the system claims success. Research distinguishes reactive action selection, plan-first execution, search over alternative plans, external-planner assistance, and adaptive decomposition; no one pattern is reliable for every task or environment.
 
 - [Agent Protocol Design -- Interoperability Requires Explicit Contracts, Not Shared Assumptions](agent-protocol-design.md) -- [reviewed: never] -- Agent protocol design turns an otherwise private agent implementation into a system that another agent, client, tool server, or human-facing application can discover and use without sharing its internals. The central engineering claim is that interoperability comes from explicit contracts for identity, capabilities, message shape, lifecycle, authorization, and failure handling; a common model, framework, or natural-language convention is not a substitute for those contracts.
 
