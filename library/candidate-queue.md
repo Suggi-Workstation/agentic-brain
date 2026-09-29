@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Graph Theory and Network Science -- Turning Relationships Into Quantifiable Structure
-- **Domain:** mathematics-statistics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=10.0)
-- **Scope:** Develop graph theory from vertices, edges, paths, cycles, trees, connectivity, centrality, and adjacency representations, then show how these abstractions support network science. Explain random graphs, small-world and scale-free claims, community structure, diffusion, robustness, and the limits of inferring causality from network patterns. Connect the mathematical foundations to biology, infrastructure, social systems, algorithms, and machine learning while keeping applications secondary to the formal tools.
-- **Status:** proposed
-
 ## Candidate: Liability-Driven Investing -- Matching Portfolio Assets to Future Obligations
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Librarian
