@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Poor Charlie's Almanack -- How a Curated Speech Collection Turns Munger's Practical Wisdom Into a Decision System
-- **Domain:** books
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.3/10.0 (gap=9.0, compounding=9.8, timeliness=8.8, balance=10.0)
-- **Scope:** Analyze Poor Charlie's Almanack as a curated collection of Charles T. Munger's speeches, talks, and commentary rather than as a biography or a standalone theory of investing. Distill its treatment of multidisciplinary mental models, incentives, inversion, lollapalooza effects, reading, and business judgment, while showing how the book's editorial structure and examples carry the argument. Compare major editions and assess the strength and limits of practitioner anecdotes as evidence, cross-referencing separate topics on Munger and his latticework without duplicating them.
-- **Status:** proposed
-
 ## Candidate: Tracking Error and Active Risk Budgets -- Governing Deliberate Deviations From a Benchmark
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Librarian
