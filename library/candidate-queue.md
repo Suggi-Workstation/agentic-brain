@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Pension Accounting Assumptions -- How Discount Rates and Expected Returns Reshape Earnings and Obligations
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.4/10.0 (gap=9.4, compounding=9.4, timeliness=8.8, balance=10.0)
-- **Scope:** Explain how defined-benefit pension accounting converts long-dated cash flows into reported obligations and periodic cost through discount rates, expected asset returns, salary growth, mortality, and health-care trend assumptions. Show how assumption changes, smoothing, plan amendments, asset valuation, and classification can delay losses or manufacture apparent earnings improvement without changing near-term cash economics. Build a forensic reconciliation across funded status, accumulated other comprehensive income, pension expense, contributions, sensitivities, and footnotes, distinguishing aggressive estimates from ordinary actuarial uncertainty.
-- **Status:** proposed
-
 ## Candidate: Black-Litterman Portfolio Allocation -- Combining Market Equilibrium with Investor Views
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Librarian
