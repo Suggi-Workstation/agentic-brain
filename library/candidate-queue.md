@@ -105,3 +105,51 @@
 - **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.8, timeliness=9.8, balance=9.3)
 - **Scope:** Explain how probabilistic forecasts should be translated into decisions through explicit events, horizons, conditioning assumptions, ranges, scenarios, and action thresholds. Compare numerical probabilities, verbal likelihood scales, fan charts, prediction intervals, ensembles, and alternative scenarios, showing how framing, base rates, asymmetric losses, and user numeracy affect interpretation. Distinguish honest uncertainty from vagueness or false precision, and provide a workflow for matching the communication format to the decision while preserving revisions, dependencies, and unresolved unknowns.
 - **Status:** proposed
+
+## Candidate: Information Economics -- How Hidden Information Reshapes Markets and Contracts
+- **Domain:** macro-micro
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.7/10.0 (gap=9.5, compounding=9.8, timeliness=9.6, balance=10.0)
+- **Scope:** Explain how unequal information changes market outcomes through adverse selection, moral hazard, signaling, screening, and principal-agent problems. Derive the mechanisms and conditions behind market unraveling, credit rationing, insurance contracts, warranties, credentials, reputation, and disclosure, separating pre-contract hidden types from post-contract hidden actions. Compare institutional remedies and their costs across labor, insurance, lending, digital platforms, and product markets without turning the topic into a catalog of sector regulation.
+- **Status:** proposed
+
+## Candidate: Electromagnetism -- Fields, Waves, and the Unification of Electricity, Magnetism, and Light
+- **Domain:** science
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.6/10.0 (gap=9.7, compounding=9.7, timeliness=8.8, balance=10.0)
+- **Scope:** Develop classical electromagnetism from electric charge and fields through circuits, magnetism, induction, Maxwell's equations, and electromagnetic waves. Explain how local field laws unify electricity, magnetism, and light, including energy flow, boundary conditions, materials, radiation, and the limits of the classical theory. Connect the framework to optics, communications, electronics, motors, power systems, and measurement while keeping engineering designs secondary to the physical laws.
+- **Status:** proposed
+
+## Candidate: Calculus -- Limits, Derivatives, Integrals, and the Mathematics of Change
+- **Domain:** mathematics-statistics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.5/10.0 (gap=9.6, compounding=9.7, timeliness=8.5, balance=10.0)
+- **Scope:** Develop calculus from limits and continuity through derivatives, integrals, the fundamental theorem, multivariable change, and elementary differential equations. Explain approximation, optimization, accumulation, rates, and model sensitivity while stating regularity assumptions and distinguishing analytic solutions from numerical methods. Connect the mathematics to mechanics, growth, probability, economics, and machine learning without turning applications into substitutes for definitions and proofs.
+- **Status:** proposed
+
+## Candidate: Pension Accounting Assumptions -- How Discount Rates and Expected Returns Reshape Earnings and Obligations
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.4/10.0 (gap=9.4, compounding=9.4, timeliness=8.8, balance=10.0)
+- **Scope:** Explain how defined-benefit pension accounting converts long-dated cash flows into reported obligations and periodic cost through discount rates, expected asset returns, salary growth, mortality, and health-care trend assumptions. Show how assumption changes, smoothing, plan amendments, asset valuation, and classification can delay losses or manufacture apparent earnings improvement without changing near-term cash economics. Build a forensic reconciliation across funded status, accumulated other comprehensive income, pension expense, contributions, sensitivities, and footnotes, distinguishing aggressive estimates from ordinary actuarial uncertainty.
+- **Status:** proposed
+
+## Candidate: Black-Litterman Portfolio Allocation -- Combining Market Equilibrium with Investor Views
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.0/10.0 (gap=8.8, compounding=9.5, timeliness=8.2, balance=10.0)
+- **Scope:** Explain the Black-Litterman model as a portfolio-allocation framework that starts from market-implied equilibrium returns and updates them with uncertain investor views. Derive reverse optimization, confidence weighting, covariance inputs, posterior expected returns, constraints, and resulting weights, then compare the model with unconstrained mean-variance optimization. Stress-test sensitivity, estimation error, benchmark dependence, inconsistent views, and implementation costs so the method is treated as a disciplined assumption-combiner rather than a machine for producing stable optimal portfolios.
+- **Status:** proposed
+
+## Candidate: Walter Schloss -- Deep Value, Wide Diversification, and Fiduciary Simplicity
+- **Domain:** investors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-28
+- **Discovery score:** 9.0/10.0 (gap=9.3, compounding=9.0, timeliness=7.8, balance=10.0)
+- **Scope:** Profile Walter Schloss's path from Benjamin Graham's classes and Graham-Newman to a small, low-overhead partnership built around statistically cheap securities and wide diversification. Examine his research habits, aversion to leverage, fee structure, portfolio turnover, treatment of management quality, public record, mistakes, and evolution alongside his son Edwin. Keep the focus on Schloss as a person and fiduciary while cross-referencing separate topics on net-nets, margin of safety, and diversification.
+- **Status:** proposed

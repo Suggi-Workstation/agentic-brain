@@ -417,3 +417,14 @@ Wrote topic Claude Shannon -- Curiosity, Abstraction, and the Architecture of th
 Similarity overlap: 25%.
 Sources: 15 (15 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-715] | 2026-09-29 00:03 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 6 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Information Economics -- How Hidden Information Reshapes Markets and Contracts (9.7): gap=9.5, compounding=9.8, timeliness=9.6, balance=10.0
+- Electromagnetism -- Fields, Waves, and the Unification of Electricity, Magnetism, and Light (9.6): gap=9.7, compounding=9.7, timeliness=8.8, balance=10.0
+- Calculus -- Limits, Derivatives, Integrals, and the Mathematics of Change (9.5): gap=9.6, compounding=9.7, timeliness=8.5, balance=10.0
+- Pension Accounting Assumptions -- How Discount Rates and Expected Returns Reshape Earnings and Obligations (9.4): gap=9.4, compounding=9.4, timeliness=8.8, balance=10.0
+- Black-Litterman Portfolio Allocation -- Combining Market Equilibrium with Investor Views (9.0): gap=8.8, compounding=9.5, timeliness=8.2, balance=10.0
+- Walter Schloss -- Deep Value, Wide Diversification, and Fiduciary Simplicity (9.0): gap=9.3, compounding=9.0, timeliness=7.8, balance=10.0
+Domain balance: accounting-financial-shenanigans (13 topics) to science (13 topics).
