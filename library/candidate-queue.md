@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Black-Litterman Portfolio Allocation -- Combining Market Equilibrium with Investor Views
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.0/10.0 (gap=8.8, compounding=9.5, timeliness=8.2, balance=10.0)
-- **Scope:** Explain the Black-Litterman model as a portfolio-allocation framework that starts from market-implied equilibrium returns and updates them with uncertain investor views. Derive reverse optimization, confidence weighting, covariance inputs, posterior expected returns, constraints, and resulting weights, then compare the model with unconstrained mean-variance optimization. Stress-test sensitivity, estimation error, benchmark dependence, inconsistent views, and implementation costs so the method is treated as a disciplined assumption-combiner rather than a machine for producing stable optimal portfolios.
-- **Status:** proposed
-
 ## Candidate: Walter Schloss -- Deep Value, Wide Diversification, and Fiduciary Simplicity
 - **Domain:** investors
 - **Proposed by:** Librarian
