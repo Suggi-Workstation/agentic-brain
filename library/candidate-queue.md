@@ -177,3 +177,35 @@
 - **Discovery score:** 9.3/10.0 (gap=9.0, compounding=9.8, timeliness=8.8, balance=10.0)
 - **Scope:** Analyze Poor Charlie's Almanack as a curated collection of Charles T. Munger's speeches, talks, and commentary rather than as a biography or a standalone theory of investing. Distill its treatment of multidisciplinary mental models, incentives, inversion, lollapalooza effects, reading, and business judgment, while showing how the book's editorial structure and examples carry the argument. Compare major editions and assess the strength and limits of practitioner anecdotes as evidence, cross-referencing separate topics on Munger and his latticework without duplicating them.
 - **Status:** proposed
+
+## Candidate: Tracking Error and Active Risk Budgets -- Governing Deliberate Deviations From a Benchmark
+- **Domain:** portfolio-risk-management
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.6/10.0 (gap=9.3, compounding=9.8, timeliness=9.5, balance=10.0)
+- **Scope:** Explain tracking error as the volatility of active return and active risk budgeting as the deliberate allocation of deviations from a benchmark across securities, factors, sectors, and managers. Develop ex ante and realized measurement, marginal risk contribution, information ratios, constraints, benchmark choice, fees, sampling, and the distinction between tracking difference and tracking error. Show how concentrated benchmarks, hidden factor bets, unstable covariance estimates, and mandate incentives can make a low tracking-error portfolio risky or a high tracking-error portfolio intentional rather than careless.
+- **Status:** proposed
+
+## Candidate: Motivation and Engagement in Learning -- How Goals, Belonging, and Agency Shape Persistence
+- **Domain:** education-learning
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.6/10.0 (gap=9.2, compounding=9.6, timeliness=9.9, balance=10.0)
+- **Scope:** Explain how intrinsic and extrinsic motivation, expectancy, value, self-efficacy, goals, belonging, autonomy, feedback, and task design influence attention, persistence, and learning. Compare short-term compliance with durable engagement across age groups, subjects, and formal or self-directed settings, separating correlational signals from causal evidence. Show how teachers and systems can diagnose disengagement, adjust challenge and support, and measure participation without turning rewards, surveillance, or entertainment into substitutes for learning.
+- **Status:** proposed
+
+## Candidate: Stock-Based Compensation Shenanigans -- When Non-Cash Adjustments Hide Dilution and Recurring Labor Cost
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.4/10.0 (gap=9.0, compounding=9.4, timeliness=9.7, balance=10.0)
+- **Scope:** Explain how employee equity awards become a recurring labor cost, a dilution claim, and a source of gaps between GAAP and adjusted earnings. Trace grant-date valuation, vesting, forfeitures, capitalization, cash-flow presentation, buyback offsets, per-share dilution, and unrecognized compensation through financial statements and footnotes. Build forensic tests that reconcile share count, award activity, expense, tax effects, and repurchases, distinguishing transparent incentive design from exclusions or presentation choices that understate economic cost.
+- **Status:** proposed
+
+## Candidate: Lou Simpson -- Concentrated Quality Investing Inside GEICO's Insurance Portfolio
+- **Domain:** investors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.2/10.0 (gap=9.4, compounding=9.6, timeliness=7.8, balance=10.0)
+- **Scope:** Profile Lou Simpson's path to managing GEICO's equity portfolio, his relationship with Warren Buffett, and the concentrated, low-turnover process he applied with unusual autonomy inside Berkshire Hathaway. Examine his independent research, quality and valuation filters, major decisions, record, mistakes, succession relevance, and later work at SQ Advisors. Keep the focus on Simpson as a person and fiduciary while connecting his practice to separate topics on concentration, insurance capital, and Buffett-style investing.
+- **Status:** proposed
