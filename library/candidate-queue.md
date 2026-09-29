@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Number Theory -- Primes, Congruences, and the Arithmetic of Integers
-- **Domain:** mathematics-statistics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.5/10.0 (gap=9.7, compounding=9.6, timeliness=8.8, balance=10.0)
-- **Scope:** Develop number theory from divisibility, primes, greatest common divisors, congruences, Diophantine equations, and modular arithmetic. Explain proof techniques, prime distribution, factorization, residues, and the boundary between elementary results and unresolved problems. Connect the foundations to coding and cryptography, including why modern post-quantum systems often rely on structures beyond classical prime-factorization problems, while keeping applications secondary to the mathematics.
-- **Status:** proposed
-
 ## Candidate: Sequence-of-Returns Risk and Withdrawal Portfolios -- Why Return Order Determines Decumulation Outcomes
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Librarian
