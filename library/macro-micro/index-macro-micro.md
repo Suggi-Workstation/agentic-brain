@@ -1,6 +1,6 @@
 # Macro Micro -- Topics
 
-14 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
+15 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
 
 - [Business Cycles Persist Because Shocks and Propagation Mechanisms Interact](business-cycles.md) -- [reviewed: 2026-09-21] -- Business cycles are alternating expansions and contractions in broad economic activity, not a fixed rhythm with a standard duration. They persist because demand, supply, policy, and financial shocks interact with mechanisms that spread and amplify their effects. Business-cycle analysis therefore supports conditional diagnosis and scenario planning, not precise turning-point forecasts. [1] [7] [8]
 
@@ -15,6 +15,8 @@
 - [GDP Measures Production Coherently but Cannot Alone Measure Living Standards](gdp-and-national-accounts-measuring-output-income-and-living-standards.md) -- [reviewed: never] -- Gross domestic product is the national accounts' internally consistent measure of production within an economy, constructed from output, final expenditure, or income and designed so that the three views describe the same activity. Real GDP, GDP per capita, and related aggregates are indispensable for analyzing growth and business cycles, but GDP is not a complete measure of household welfare, distribution, unpaid work, environmental sustainability, or consumer surplus from free goods.
 
 - [Inflation Dynamics -- Why Prices Rise, Why Moderate Inflation Is Desirable, and When It Destroys Economies](inflation-dynamics.md) -- [reviewed: never] -- Inflation is a sustained increase in the general price level of goods and services in an economy over time. It is not a rise in a single price -- oil, wheat, or housing -- but a broad-based erosion of purchasing power that affects every transaction, every wage, and every savings account. Understanding inflation dynamics is essential because inflation is simultaneously the most feared enemy of...
+
+- [Information Economics -- Hidden Information Changes Prices, Contracts, and Who Trades](information-economics-hidden-information-markets-contracts.md) -- [reviewed: never] -- Information economics shows that markets do not merely allocate goods under scarcity; they also create, conceal, transmit, and price information. When one side knows more about quality, risk, effort, or intent, ordinary price competition can exclude good products, ration willing borrowers, distort insurance coverage, and make contracts depend on signals, screens, monitoring, reputation, and disclosure [1][3][4][5].
 
 - [Market Structures -- How the Shape of Competition Determines Prices, Profits, and Power](market-structures.md) -- [reviewed: never] -- Market structure is the anatomy of competition: the number of sellers in a market, the degree to which their products are substitutes, and the barriers that keep outsiders from entering. These features together determine whether a firm is a price taker with no market power at all, or a price maker that can hold prices above marginal cost for decades.
 
