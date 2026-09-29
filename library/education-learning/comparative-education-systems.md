@@ -6,556 +6,247 @@ domain: education-learning
 author: Librarian
 tags: [comparative-education, education-systems, tracking, pisa, equity, teacher-quality, vocational-training, shadow-education]
 links: [library/education-learning/assessment-and-testing.md, library/education-learning/pedagogy-and-teaching-methods.md, library/education-learning/curriculum-design-and-sequencing.md]
+reviewed: 2026-09-29
 ---
 
-# Comparative Education Systems -- How National Structures Trade Excellence Against Equity
+# Comparative Education Systems -- Institutional Choices Shape Both Achievement and Its Distribution
 
-Comparative education is the study of how nations structure schooling
-and what those structures produce. Five systems -- Finland, Singapore,
-South Korea, Germany, and the United States -- sit near the top of the
-world's achievement rankings on one dimension or another, yet their
-institutions could hardly differ more: a nearly test-free Nordic
-system, two exam-driven East Asian meritocracies, a vocationally
-tracked European one, and a locally governed American one. The
-comparative record converges on an uncomfortable claim: no structure
-wins both excellence and equity cheaply, and every high-performing
-model exacts a visible cost -- inequality, burnout, or narrowed
-pathways -- that travels poorly across borders.
+Comparative education examines how institutions shape what learners achieve, how outcomes are distributed, and how students move from school into further education or work. Evidence from Finland, Singapore, South Korea, Germany, and the United States shows no universally superior model: tracking, assessment, teacher preparation, financing, and vocational pathways create different combinations of performance, equity, well-being, and transition outcomes [1][12][17][19][25]. Cross-system evidence can identify constraints and test claims, but it does not turn one country's institutional package into a portable blueprint [3][4][16].
 
 ## Background
 
-Comparative education is an old field with a young evidence base.
-Marc-Antoine Jullien de Paris proposed systematic comparative tables
-of national school systems as early as 1817, and travelers' reports on
-foreign schooling fed nineteenth-century reform debates across Europe
-and America. But the discipline's modern, policy-shaping form is
-inseparable from the rise of international large-scale assessments.
-The International Association for the Evaluation of Educational
-Achievement (IEA), founded in 1958, launched comparative mathematics
-studies in the 1960s and later the Trends in International Mathematics
-and Science Study (TIMSS, from 1995) and PIRLS (reading, from 2001).
-The decisive instrument, however, is the OECD's Programme for
-International Student Assessment (PISA), first administered in 2000 to
-fifteen-year-olds and, by its 2022 cycle, covering roughly 690,000
-students in 81 countries and economies (OECD, 2023). PISA turned
-comparative education from an academic pursuit into a governance
-technology: scores are published, ranked, and politically
-consequential.
+Modern comparative education depends on common measures but cannot be reduced to a ranking table. The OECD's Programme for International Student Assessment (PISA) assesses representative samples of 15-year-olds in participating school systems. PISA 2022 involved about 690,000 students in 81 countries and economies, representing about 29 million 15-year-olds. Mathematics was the major domain; reading, science, and creative thinking were minor or innovative domains. Testing lasted two hours per student and was computer-based in most, but not all, participating systems. Students received different combinations of domains rather than every student taking one identical test of all subjects [1]. These design facts matter because a national mean is an estimate from a sampled population, not a census or a direct measure of every purpose schools serve.
 
-The consequences are most visible in Germany. When the 2001 results
-showed German fifteen-year-olds performing at or below the OECD
-average with one of the steepest social-background gradients among
-participants, the country experienced a genuine crisis -- the "PISA
-shock" -- followed by national educational standards, an expansion of
-early childhood provision, and new school-monitoring institutions. The
-DFG-funded five-country study of this reform era (Muench et al., 2022)
-later found that the monitoring-and-accountability model itself
-produced no visible achievement gains, a finding detailed in the
-Evidence section. The point here is simpler: measurement changed
-behavior before it changed outcomes.
+Two concepts organize much of the comparison. Excellence refers here to the level and breadth of demonstrated learning, commonly summarized by mean performance and the shares of students reaching different proficiency levels. Equity refers to how learning opportunities and outcomes vary by socioeconomic background and other circumstances that students do not choose. PISA analyzes both performance and fairness, including the relationship between its economic, social, and cultural status index and achievement [1]. Neither concept is one number. A system can have a high mean and large internal gaps, a modest mean and narrow gaps, or different patterns across mathematics, reading, science, well-being, and later transitions.
 
-Why do national systems differ so radically? Because each crystallized
-under different historical pressures. Finland's system is the product
-of an egalitarian reform: the 1968 comprehensive-school reform
-(peruskoulu) abolished a tracked parallel system and merged all
-children into nine years of common schooling, a structure later paired
-with university-based teacher education requiring master's degrees for
-all teachers (Sahlberg, 2011). Singapore's system grew from a survival
-logic: after independence in 1965, a city-state with no natural
-resources bet everything on human capital, building a centralized,
-meritocratic Ministry of Education machine that has reformed itself
-continuously for six decades (NCEE, 2024). South Korea's system
-modernized a millennium-old Confucian examination culture -- the
-Joseon dynasty selected officials by examination -- into the Suneung
-college-entrance test, producing a society in which public schooling
-is formally egalitarian but private investment in exam preparation is
-ferocious (The Diplomat, 2025). Germany's system preserves the
-stratified Gymnasium tradition alongside a guild-descended dual
-vocational training system, assigning children to different school
-types from around age ten (OECD, 2023a). The United States is the
-governance outlier: education is a state and local function organized
-through thousands of locally governed school districts, financed
-substantially through local property taxes, with a federal role that
-is small but targeted -- the ESSER pandemic funds, roughly $190
-billion, were described by the White House Council of Economic
-Advisers as a historic though temporary federal intervention, layered
-on a system where state and local governments supply the bulk of
-school revenue (CEA, 2023).
+The five systems considered here reached their present forms through different sequences of reform. Finland's 1968 School System Act initiated a transition that was implemented regionally from 1972 through 1977. It replaced the former parallel tracks with a uniform nine-year comprehensive school, although some subject-level differentiation remained until the mid-1980s [5]. The present system combines national legislation and core curricula with extensive municipal and teacher responsibility. Finland has no national examinations determining individual progression in primary and lower-secondary school; teachers assess pupils, while the Finnish Education Evaluation Centre conducts sample-based national learning-outcome evaluations for system monitoring [7][8].
 
-Comparative scholarship evaluates these systems on two outcome
-dimensions. Excellence is the average level of performance. Equity is
-the distribution -- specifically, how strongly a student's performance
-depends on family background rather than on the school system's
-design. The OECD frames its flagship report exactly this way: PISA
-2022 Volume I is subtitled "The State of Learning and Equity in
-Education" (OECD, 2023). A comparative "system," in practice, is a
-bundle of institutional levers: when selection happens (tracking),
-what is tested and with what stakes (assessment), who teaches and how
-they are prepared (the teaching force), and how school connects to
-work (vocational pathways). The field's central empirical debate is
-whether excellence and equity must trade off against each other. The
-Core Concepts that follow show that the trade-off is real but not
-universal: it is a property of specific institutional choices, not a
-law of nature, and the most valuable thing comparative analysis can do
-is identify which choices produce it and which do not.
+Singapore linked educational expansion after independence in 1965 to workforce development, economic survival, and national integration [29]. Its system remains centrally steered, but its differentiation rules have changed. Secondary streaming was introduced in 1980 [35]. Full Subject-Based Banding began as a 28-school pilot in 2020, rolled out progressively during 2022-2024, and removed the Express, Normal (Academic), and Normal (Technical) stream labels for the 2024 Secondary 1 cohort in schools that had used them. Students still enter PSLE-based Posting Groups and can study subjects at different G1, G2, or G3 levels; the first common Singapore-Cambridge Secondary Education Certificate examination is scheduled for 2027 [9]. The reform therefore changes the form of differentiation rather than abolishing selection.
+
+Germany combines differentiated lower-secondary pathways with a large dual vocational system. Most Laender move pupils from the common Grundschule into differentiated pathways after grade 4, around age ten, while Berlin and Brandenburg retain primary school through grade 6. The system contains Hauptschule, Realschule, and Gymnasium courses, but the Laender organize them in varied school forms, and standalone Hauptschule and Realschule schools are no longer equally common everywhere [31]. Its vocational institutions link firms, vocational schools, competent bodies such as chambers, social partners, federal law, and Land responsibility [12][14].
+
+The United States is governed primarily through state and local institutions, with federal aid supplementing state and local finance and attaching conditions to participating programs [19]. In fiscal year 2024, state and local governments provided 88.3 percent of public elementary and secondary school revenue and the federal government provided 11.7 percent [20]. This decentralization produces substantial institutional variation inside the country, so a single national description can hide differences in curriculum, certification, finance, and assessment.
+
+South Korea combines high academic performance with a large market for education outside school [1][25]. The College Scholastic Ability Test is a nationally administered examination with an important role in university admissions, but it is not the sole admissions route or criterion; the government's 2028 reform materials address both CSAT design and school-record grading [26]. The official 2024 survey reported that 80.0 percent of elementary, middle, and high school students participated in private education, with total expenditure of KRW 29.2 trillion and average weekly participation of 7.6 hours per student [25]. These figures concern school-age students and should not be generalized to preschool children without separate evidence.
+
+Comparison must therefore separate description, association, and causation. International assessments are repeated cross-sections, not experiments in which countries are randomly assigned tracking ages, teacher systems, or examinations. Institutional variables also travel in bundles: early tracking may coexist with different labor markets, curricula, welfare policies, and school-composition patterns. A defensible comparison states the population, period, unit, and outcome; tests whether sources use the same definitions; and avoids treating a correlation across a small number of systems as a universal law [1][3][4]. The purpose is not to identify a winner. It is to understand which mechanisms appear robust, which findings remain conditional, and which policies depend on institutions that are difficult to reproduce.
 
 ## Core Concepts
 
-### The Excellence-Equity Trade-Off, and Where It Breaks Down
+### Measurement Is a Model of Education, Not Education Itself
 
-The classic assumption in the economics of education was that systems
-must choose: schools can push the average up or spread outcomes
-fairly, but not both. The comparative record falsifies the strong
-version of this claim. In the 2000s Finland combined top-decile
-performance with the smallest background gradients in the OECD
-(Sahlberg, 2011). Conversely, Hanushek and Woessmann (2006) found that
-early-tracking systems such as Germany's produce neither higher
-averages nor fairer distributions -- they raise inequality with no
-measurable efficiency gain. What the record supports instead is a
-weaker, more useful claim: specific institutional choices (the timing
-of tracking, the design of testing, the quality of the teaching force)
-move both dimensions, and some choices dominate others. Excellence and
-equity trade off only under particular designs. The task of
-comparative analysis is to identify which designs they are -- and the
-next five concepts are exactly those designs.
+PISA is designed to assess how 15-year-olds apply knowledge and skills, not whether they mastered every national curriculum. It supports comparisons because participating systems use common frameworks, sampling rules, scaling procedures, and quality controls [1]. That comparability is valuable but bounded. Estimates carry sampling and measurement uncertainty, some systems fail one or more sampling standards, and a score cannot directly measure democratic participation, occupational competence, creativity outside the tested framework, or the distribution of unmeasured opportunities.
 
-### Tracking and Selection Timing
+A sound comparison therefore reads means together with distributions and context. Singapore's 575 mathematics points in PISA 2022 indicate exceptionally high assessed performance, but the same table cannot explain which institutional feature caused that result [1]. Finland's lower 2022 mathematics mean than in its earlier PISA cycles does not by itself show that comprehensive schooling or teacher autonomy failed; many conditions changed across cohorts and years [1]. Likewise, the United States' 465 mathematics points should be read with the OECD's sampling caution and with its stronger reading and science results, not converted into a one-dimensional verdict on a heterogeneous national system [1].
 
-Tracking is the placement of students into hierarchically structured
-school types. Germany tracks earliest, around age ten, into Gymnasium,
-Realschule, and Hauptschule, while Finland keeps all students in one
-comprehensive school to age sixteen and the United States keeps
-comprehensive high schools but differentiates internally through
-honors and Advanced Placement tracks. Singapore is the instructive
-reform case: it streamed students after the Primary School Leaving
-Examination (PSLE) at age twelve into Express and Normal bands from
-the early 1980s, then began dismantling school-level streaming in
-favor of full subject-based banding from 2020 -- keeping
-differentiation at the subject level while removing the school-level
-hierarchy (NCEE, 2024). The empirical stakes were established by
-Hanushek and Woessmann (2006) and are detailed under Evidence: early
-tracking raises the dispersion of outcomes by roughly a quarter of a
-cross-country standard deviation and shows no offsetting gain in
-average performance. Selection timing, in other words, is a pure
-equity lever with no efficiency cost -- the single most robust finding
-in comparative education.
+Trend comparisons require similar care. Between 2018 and 2022, the OECD average across 35 countries with comparable data fell by almost 15 points in mathematics and 10 points in reading, while science did not change significantly. The OECD relates about 20 PISA points around age 15 to a typical year of learning, making the declines descriptively equivalent to roughly three-quarters of a school year in mathematics and half a year in reading [1]. This conversion is not a causal estimate of pandemic learning loss. PISA Volume II found no statistically significant system-level relationship between shorter closure duration and adjusted performance trends, although systems with fewer students reporting closures longer than three months had higher 2022 mathematics performance. Closure duration was reported retrospectively, and the comparison was observational [2].
 
-### High-Stakes Testing and the Backwash Effect
+### Tracking Must Be Defined Before Its Effects Are Compared
 
-Testing regimes differ not only in frequency but in stakes. South
-Korea's Suneung (College Scholastic Ability Test) is the archetype of
-the high-stakes single examination: one day, one score, and admission
-to the country's elite universities -- Seoul National, Korea, and
-Yonsei -- hinges on it (The Diplomat, 2025). Finland sits at the
-opposite pole: there is no standardized external testing before the
-optional matriculation examination at the end of upper secondary
-school, around age eighteen; assessment is continuous, teacher-
-designed, and unranked (Sahlberg, 2011). The United States mixes
-low-stakes state assessments with college-admissions tests (SAT/ACT),
-while Singapore's PSLE remains a consequential gate at age twelve.
-The comparative lesson is the backwash effect examined in the
-library's assessment topic (see See Also): what a system tests
-determines what teachers teach and students learn, and the stakes
-determine how much of a child's life reorganizes around the test. The
-same exam culture that produces top-decile mathematics in Singapore
-produces a childhood crisis in Korea -- the test itself is not the
-difference; the surrounding stakes and supports are.
+In the main international tracking literature, tracking means systematic placement into hierarchically structured school types, not every form of ability grouping, Advanced Placement, or subject choice [4]. Germany is an early between-school tracker in most Laender; Finland keeps pupils in a common basic-school structure longer; the United States usually differentiates within comprehensive schools; and Singapore now combines PSLE-based Posting Groups with subject-level G1, G2, and G3 levels [5][9][12]. Treating these arrangements as one binary variable discards important differences in reversibility, curriculum, school composition, and the consequences attached to placement.
 
-### Teacher Selection, Preparation, and Professional Trust
+Hanushek and Woessmann use differences-in-differences comparisons between primary- and secondary-school international assessments. Their eight subject-specific contrasts contain 18 to 26 countries each and 45 distinct countries across all samples. In the 18-country PISA 2003/PIRLS 2001 reading comparison, the estimated early-tracking coefficient on national score dispersion was 0.248 cross-country-standard-deviation units. Across all eight contrasts, seven coefficients were positive, four were statistically significant at the 10 percent level or better, and the pooled estimate was 0.101 [3]. The approximately one-quarter estimate therefore describes one comparison, not the pooled effect.
 
-Every high-performing system examined here treats teacher quality as
-the core policy variable, but through different mechanisms. Finland
-requires a master's degree for all teachers, admits roughly one
-applicant in ten to primary teacher education, and grants teachers
-wide classroom autonomy with no national inspection regime -- trust
-purchased through selection and preparation rather than assumed
-(Sahlberg, 2011). Singapore recruits teaching candidates from the top
-third of each academic cohort into a single National Institute of
-Education pathway, pays competitively, and ran public campaigns to
-raise the profession's status (NCEE, 2024). South Korea selects
-teachers through competitive examinations and pays well, but subjects
-them to the same exam-driven culture as their students. The United
-States, by contrast, has wide certification variance, alternative
-routes, and comparatively lower pay and prestige relative to other
-graduate professions -- a structural gap, not a cultural accident
-(CEA, 2023, on the federal role in teacher pipelines). NCEE's
-comparative conclusion is blunt: the quality of a system cannot exceed
-the quality of its teaching force, and teacher quality is bought
-deliberately over decades, not found.
+The mean-performance findings are less uniform. Reading estimates were negative, mathematics estimates were negative but usually imprecise, and science estimates included positive results. The pooled estimate was negative and marginally significant [3]. The paper's defensible conclusion is that early tracking increases inequality and offers very little evidence of an average-performance gain. It does not prove that the mean effect is exactly zero, that every tracked system performs worse, or that delaying tracking is a costless intervention in every context.
 
-### Vocational Pathways and the School-to-Work Transition
+Woessmann's later review reaches a related but carefully bounded conclusion. International and selected national studies consistently associate earlier tracking with a larger effect of family background on educational success. Average-performance estimates are generally statistically insignificant and do not indicate that later tracking lowers performance [4]. This supports a statement of no detected equity-efficiency trade-off in the reviewed evidence. It does not support calling tracking a pure equity lever or ranking it as the single strongest finding in all comparative education.
 
-Germany's dual system is the reference model for connecting school to
-work. Roughly 32 percent of German fifteen-to-nineteen-year-olds in
-upper secondary are in vocational programs, and about 88 percent of
-those are in dual apprenticeships combining part-time vocational
-school with in-company training across more than 320 recognized
-occupations; chambers of industry and craft administer examinations
-through boards that include employers, employee representatives, and
-vocational teachers, and apprentices earn a training allowance
-averaging about 1,057 euros per month (OECD, 2023a). The contrast
-cases are instructive. The United States maintains a college-for-all
-norm with a thin apprenticeship infrastructure, and American employers
-co-invest comparatively little in training. South Korea has vocational
-schools, but they carry a stigma: vocational training is widely seen
-as a fallback for those who failed to win admission to more
-prestigious academic tracks (Euler/Bertelsmann Stiftung, 2013, citing
-Bosch and Charest). Singapore fought the same stigma by rebuilding its
-Institute of Technical Education into a high-status applied pathway --
-evidence that vocational prestige is a policy variable, not a fixed
-preference (NCEE, 2024).
+### Assessment Stakes Operate Through Institutions Around the Test
 
-### Shadow Education as a System External Cost
+Tests differ in purpose, timing, and consequences. Finland has no national examinations for individual pupils in basic education. Teachers assess learning under national and local curriculum criteria, while FINEEC uses samples to evaluate system-level learning outcomes. Students completing the general upper-secondary route take the national matriculation examination, which currently requires the mother-tongue test and at least four additional tests [6][7][8][34]. It is therefore accurate to say that Finland avoids national pupil-level examinations in grades 1-9, but inaccurate to say that it has no external standardized assessment or that the matriculation examination is simply optional within the general upper-secondary route.
 
-Shadow education -- private tutoring outside school hours -- is where
-comparative systems most clearly reveal their true cost structure.
-South Korea's hagwon (cram-school) economy is the extreme case:
-according to The Diplomat's 2025 report, nearly half of South Korean
-children under age six are enrolled in private academies, and the
-National Assembly Research Service documented declining sleep among
-elementary students (from 56.68 percent getting sufficient sleep in
-2019 to 51.95 percent in 2023) and rising suicide attempts among
-middle schoolers (from 3.66 percent to 5.99 percent over three years).
-Shadow education converts family wealth directly into test
-performance, undercutting the equity achieved by a formally equal
-public system, and it flourishes precisely where stakes are
-concentrated in a few examinations. Finland's near-total absence of
-shadow education is the mirror image: without high-stakes gates,
-private supplementation has little to sell (Sahlberg, 2011). The
-author's assessment: shadow education is the best single indicator of
-where a system's incentives actually point, because families reveal
-through private spending what the public system rewards.
+Singapore's PSLE still affects initial secondary-school posting under Full Subject-Based Banding. The reform removes the former course labels, permits subject-level flexibility, and leads to a common certificate from 2027, but Posting Groups and G1-G3 subject levels remain [9]. South Korea's CSAT remains consequential, yet university admissions also use school records and institution-specific criteria [26]. In the United States, federal law requires state reading/language-arts and mathematics assessments in grades 3-8 and once in high school, plus science assessments once in each of three grade spans. Results feed school-accountability and improvement systems, so calling them uniformly low-stakes is wrong; individual-student consequences depend on state and local policy. SAT or ACT tests may also serve as approved high-school accountability assessments as well as admissions instruments [21].
 
-### Institutions Are Embedded, Not Portable
+The general mechanism is backwash: high-consequence assessment changes what institutions, teachers, families, and students allocate time toward. The size and direction of that effect depend on what is tested, whether results govern progression or access, whether alternatives remain credible, and whether schools can teach beyond the measured domain. Interpretation: a test cannot be evaluated in isolation from the admissions, accountability, and labor-market systems that give its score value.
 
-The most sobering comparative finding concerns transfer. When
-Germany's dual system was promoted as an export model, careful
-evaluations concluded it is "suitable as a model but not as a
-blueprint" (Euler/Bertelsmann Stiftung, 2013): it presupposes chambers
-of commerce, employer associations, occupational labor markets, and a
-legal training framework that most importing countries lack. South
-Korea's experiment with a German-style training levy collapsed when
-the levy was reduced and training positions vanished with it --
-institutions transplanted without their supporting ecology die
-(Euler/Bertelsmann Stiftung, 2013). The Finnish model is equally
-embedded: teacher autonomy works because the selection and preparation
-pipeline guarantees a professional floor, and importing the autonomy
-without the pipeline has failed repeatedly in other countries
-(Sahlberg, 2011). Comparative education therefore offers components,
-not packages: late tracking, teacher investment, and vocational
-co-governance can be adapted, but each must be rebuilt inside the
-importing country's institutions and culture.
+### Teacher Policy Combines Qualification, Selection, Work Design, and Pay
+
+Finland's teacher system is often summarized too broadly. Official material says that most teachers require a master's degree. Class and subject teachers in basic and general upper-secondary education normally complete 300 ECTS qualifications, while ECEC and vocational-teacher routes have different requirements [6]. Teacher education remains selective, but the historical claim that only one applicant in ten is admitted is no longer a safe current generalization. The official 2025 presentation reported a 20 percent intake rate for class-teacher education and subject-teacher rates ranging from 15 to 50 percent [6]. Teachers have substantial autonomy over methods and materials, but that autonomy operates inside legislation, national core curricula, local curricula, and national evaluation. Finland has no school-inspection system, not an absence of external quality assurance [7].
+
+Singapore concentrates national teacher education at the National Institute of Education, an autonomous institute within Nanyang Technological University, but it does not use one route for every entrant [10][11]. Current Ministry of Education materials describe BA/BSc education programs, diploma routes, and postgraduate diploma routes, with applicants selected according to academic merit, teaching aptitude, and subject manpower needs [10]. Historical OECD language that Singapore sought candidates from the top third of a graduating cohort should not be converted into a verified current rule that every teacher comes from that group.
+
+The United States has state-determined certification systems and traditional as well as alternative preparation routes [33]. The stronger comparative claim concerns pay, not a universal ranking of professional prestige. OECD's 2025 country note reports that actual salaries of US primary teachers in 2024 were 37 percent below the earnings of tertiary-educated, full-time, full-year workers, compared with an OECD average gap of 17 percent [22]. This does not prove that pay alone causes recruitment or retention outcomes, but it defines a measurable institutional difference more precisely than claims about culture or status.
+
+### Vocational Pathways Depend on Shared Standards and Employer Participation
+
+Germany's dual system combines paid company training with vocational-school instruction. The OECD's 2025 report states that, in 2021, 32 percent of German 15-19-year-old upper-secondary students were enrolled in vocational programs and about 88 percent of upper-secondary VET learners were in dual programs [12]. The denominators matter: 32 percent is not the share of all German 15-19-year-olds, and 88 percent is not the share of all upper-secondary students.
+
+BIBB's 2026 register lists 324 occupations recognized under the Vocational Training Act or Crafts and Trades Regulation Code [13]. For each occupation, the competent body, usually a chamber, establishes an independent examination committee containing equal numbers of competent employer and employee representatives and at least one vocational-school teacher [14]. Nationally consistent training regulations and examinations support recognition across Germany. The German and European qualifications frameworks make levels easier to compare, but do not themselves grant automatic recognition or progression rights [32].
+
+Compensation is also measurable. Destatis reported that trainees earned average gross monthly pay of EUR 1,238 in April 2024 across all training years, excluding special payments; the corresponding April 2022 figure was EUR 1,057 [15]. OECD reported that 94 percent of German vocational upper-secondary or post-secondary non-tertiary graduates were employed within two years of graduation, with only Iceland higher in that comparison [30]. These figures support a strong school-to-work transition claim, while still leaving variation by occupation, region, employer, and learner.
+
+The contrast with the United States is institutional, not a claim that apprenticeship barely exists. OECD reports that US upper-secondary vocational learning is usually integrated into optional high-school courses rather than organized as a separate national VET program [23]. Registered Apprenticeship is a separate employer- and sponsor-led system combining paid on-the-job learning with related instruction; CRS reported 679,960 active apprentices in fiscal year 2024 [24].
+
+### Shadow Education Reveals the Incentives Families Face
+
+Shadow education includes fee-paid tutoring, academies, and preparatory courses outside ordinary school provision. South Korea's official 2024 survey recorded an 80.0 percent participation rate among elementary, middle, and high school students, KRW 29.2 trillion in total expenditure, and large spending differences by household income [25]. Those data show that private supplementation is a major part of the effective education system, not a peripheral consumer choice. They do not by themselves establish that tutoring causes higher scores or poorer mental health.
+
+Finland provides a useful correction to a common stereotype. Private tutoring has historically been modest in northern Europe, but research documents a growing market around the matriculation examination and selective higher-education admissions [28]. Finland therefore cannot be described as having a near-total absence of shadow education. A more defensible comparison is that prevalence, purpose, and stakes differ: the market is much larger and more routine in South Korea, while Finnish demand is more concentrated around upper-secondary and admissions transitions.
+
+Well-being evidence also requires separation from rhetoric. Kim, Shin, and Park analyzed 2,384 seventh-grade participants from the 2018 Korean Children and Youth Panel Survey. In their structural model, academic helplessness was positively associated with depression, depression was negatively associated with life satisfaction, and the indirect association was weaker among students participating in leisure-time physical activity [27]. This is observational panel-survey analysis and does not show that examination pressure alone caused depression or that exercise is a sufficient treatment. It does support the narrower claim that academic experience, depression, life satisfaction, and physical activity are related in the measured cohort.
+
+### Institutions Travel as Functions, Not as Copies
+
+Euler's study of the German dual system treats policy transfer as selection and adaptation, not reproduction. Countries may borrow functions such as alternating learning sites, occupational standards, employer participation, assessment, and shared financing, but they must fit those functions to local institutions, culture, curricula, pedagogy, and labor markets. The report explicitly notes that a complex chamber system need not be copied if another arrangement can perform assessment and certification [16].
+
+The same principle applies beyond vocational education. Finnish teacher autonomy rests inside a qualification, curriculum, municipal, and evaluation system [6][7]. Singapore's subject banding remains connected to PSLE posting, national curricula, and common certification [9]. US decentralization rests on state constitutions, local agencies, federal program conditions, and a distinctive revenue structure [19][20]. Interpretation: comparative education offers tested mechanisms and boundary conditions, not complete national packages ready for installation.
 
 ## Evidence
 
-### PISA 2022: The State of Learning and Equity
+### PISA 2022: Performance, Trends, and Limits
 
-Method: a two-hour computer-based assessment of mathematics, reading,
-and science administered to fifteen-year-olds; roughly 690,000
-students in 81 countries and economies; two-stage stratified sampling
-designed for cross-system comparability; the first cycle to measure
-performance, well-being, and equity both before and after the
-pandemic (OECD, 2023). Findings: Singapore led the OECD in mathematics
-at 575 points; South Korea scored 527 in mathematics, 515 in reading,
-and 528 in science; Finland scored 484 in mathematics, 490 in reading,
-and 511 in science; Germany scored 475 in mathematics; the United
-States scored 465 in mathematics against an OECD average of 472 (OECD,
-2023). The cycle also recorded the largest decline in the program's
-history: mean OECD performance fell ten points in reading and nearly
-fifteen in mathematics -- roughly three-quarters of a year of
-learning, with the mathematics drop three times larger than any
-previous consecutive change (OECD, 2024). Strikingly, the length of
-pandemic school closures showed no clear relationship to performance
-trends across systems, complicating the popular narrative that
-closures alone explain the decline (OECD, 2024). Thirty-one systems,
-including South Korea and Singapore, maintained or improved
-mathematics performance despite the disruption (OECD, 2023).
+PISA 2022 assessed about 690,000 students in 81 countries and economies through nationally representative samples of enrolled 15-year-olds. Singapore scored 575 in mathematics, significantly above every other participant. Korea scored 527 in mathematics, 515 in reading, and 528 in science; Finland scored 484, 490, and 511; Germany scored 475 in mathematics; and the United States scored 465 in mathematics against an OECD average of 472 [1]. Korea was one of six East Asian systems that outperformed all other participating systems in mathematics, not a top-three system in the ordered mean-score list [1].
 
-### Hanushek and Woessmann (2006): Early Tracking Raises Inequality
+The United States did not meet one or more PISA 2022 sampling standards, and its mathematics score was not statistically different from the OECD average, so both rank language and small point differences require caution [1]. Between 2018 and 2022, mean performance across 35 OECD countries with comparable data fell by almost 15 points in mathematics and 10 in reading, while science did not change significantly. The mathematics decline was about three times larger than any previous consecutive change in the OECD average. Of 72 systems with comparable mathematics trend data, seven improved significantly and 24 showed no statistically significant change; Korea and Singapore were in the stable group [1].
 
-Method: an international differences-in-differences design across 18
-to 26 countries, comparing how achievement inequality changes between
-primary and secondary school in systems that track before age fifteen
-versus those that do not, using eight pairs of test contrasts drawn
-from six international assessments (PISA, PIRLS, and TIMSS variants).
-Findings: systems that track before age fifteen show secondary-school
-achievement dispersion about one quarter of a cross-country standard
-deviation larger than non-tracking systems, once primary-school
-inequality is controlled; the top four countries in inequality growth
-between primary and secondary school are all early trackers; and there
-is no evidence that tracking raises mean performance. Germany's PISA
-2003 score dispersion was the largest among participants (standard
-deviation 4.5 versus 3.5 in Hong Kong and the Netherlands), with early
-tracking accounting for roughly a quarter of the gap between the most
-and least equitable systems (Hanushek & Woessmann, 2006).
+PISA Volume II complicates a single-cause account of the decline. The system-level relationship between shorter reported school closures and adjusted short-term performance trends was positive but not statistically significant, while systems with fewer long closures had higher 2022 mathematics performance. Students reported closure duration retrospectively, and the comparison could not identify the causal effect of closures [2]. The evidence therefore supports neither "closures explain everything" nor "closures had no effect." It supports a bounded conclusion: national trends reflected multiple conditions, and the available cross-system data do not isolate one cause.
 
-### Woessmann et al. (2009): Later Tracking Weakens the Background Gradient
+### Early Tracking: Consistent Equity Direction, Uncertain Mean Effect
 
-Method: microdata on about 180,000 students in 27 countries from PISA
-2003, using the PISA index of economic, social, and cultural status to
-measure the background-performance gradient, as reviewed by Woessmann
-(2009). Findings: the association between family background and test
-scores is significantly smaller the later tracking begins;
-postponing tracking by four years reduces the background impact by
-about one quarter of the OECD-average total effect. Across all
-reviewed studies, later tracking consistently improves equality of
-opportunity without lowering average performance -- again, no
-equity-efficiency trade-off (Woessmann, 2009).
+Hanushek and Woessmann compare changes in national performance distributions from primary to secondary school across early-tracking and non-early-tracking systems. Six assessment administrations produce eight subject-specific contrasts, each with 18 to 26 countries; the pooled dataset contains 176 country-test-pair observations [3]. In the PISA 2003/PIRLS 2001 reading comparison, early tracking is associated with a 0.248 cross-country-standard-deviation increase in national dispersion. Seven of eight dispersion coefficients are positive, four meet the authors' 10 percent significance threshold, and the pooled coefficient is 0.101 [3].
 
-### Muench et al. (2022): Governance Reform Is a Null Result
+Mean-performance results are heterogeneous. Reading estimates are negative, mathematics estimates are negative but usually not statistically significant, and science estimates include positive effects. The pooled estimate is negative and marginally significant [3]. The design improves on a simple one-year cross-section by controlling for prior national distributions, but it still uses small country samples, recurring countries, and institutional bundles. The strongest supported statement is that early between-school tracking increases inequality and has little evidence of an offsetting average-performance benefit.
 
-Method: a literature review plus multilevel linear regression analyses
-of PISA waves 2000, 2009, and 2015 covering the United Kingdom,
-Germany, Sweden, Finland, the United States, Canada, South Korea, and
-Singapore (DFG project 461386736). Findings: three decades of reform
-built on school autonomy, free school choice, competition, managerial
-leadership, and test-based accountability produced no visible
-achievement gains -- market-based reforms in the UK and Sweden,
-school-monitoring reforms in Germany, and decentralization in Finland
-all failed to move measured performance; student and school
-socioeconomic status, and to a smaller extent school discipline,
-dominate the explanation of outcomes. This is comparative education's
-most important null result: governance fashion is not a lever
-(Muench et al., 2022).
+Woessmann's 2009 review adds student-level and reform evidence. In a PISA 2003 analysis of 181,469 students in 27 OECD countries for mathematics, earlier tracking is associated with a steeper socioeconomic achievement gradient; country-level institutional effects are still identified from only 27 systems [4]. A separate TIMSS analysis estimated that postponing first tracking by four years corresponded to about a one-quarter reduction in the OECD-average family-background effect [4]. The review reports no statistically detected average-performance penalty from later tracking, but that is not proof of an exactly zero effect. The evidence supports later selection as an equity-favorable design choice, subject to context and implementation.
 
-### South Korea's Well-Being Evidence: The Cost Side of the Ledger
+### Governance Reform: A Negative Result About Specific Tools
 
-Three sources triangulate. A secondary analysis of PISA 2015 and
-Korean Children and Youth Well-being Index 2018 data found Korean
-students simultaneously among the most motivated and highest-
-performing and among the most anxious, with test anxiety associated
-with lower self-esteem and, in some cases, suicidal ideation (Oxford
-Brookes RADAR study). A structural-equation analysis of the 2018
-Korean Children and Youth Panel Survey (2,384 middle schoolers) found
-academic helplessness raised depression (path coefficient 0.834) and
-depression lowered life satisfaction (-0.322), with a significant
-negative mediation effect (-0.269) that participation in leisure-time
-physical activity partially offset (PMC9914214). The Diplomat (2025),
-citing the National Assembly Research Service, reports that South
-Korea ranks 27th of 36 OECD countries in child well-being and has the
-highest age-standardized suicide rate in the OECD (24.8 per 100,000
-against an OECD average of 10.7). The excellence side of the ledger is
-real -- top-three PISA rankings in mathematics among all
-participating economies -- but the cost side is measured in childhood,
-and it is structural rather than anecdotal.
+The DFG project titled "Effective School Governance" retained its original five-country title but its final summary describes an expanded eight-country investigation. The United Kingdom, Germany, Sweden, and Finland were analyzed with PISA waves from 2000, 2009, and 2015; the United States, Canada, South Korea, and Singapore were analyzed with 2009 and 2015 data. The related studies used repeated cross-sectional multilevel regressions, not longitudinal tracking of the same students or schools [17][18].
 
-### Germany's Dual System: The Transition Outcome
+The authors report no evidence that market-based reforms in the United Kingdom and Sweden, school-monitoring reforms in Germany, or decentralization reforms in Finland produced visible improvements in quality or equity in their literature review and observational models. Student and especially school socioeconomic status were the strongest predictors. Governance indicators were usually nonexistent or non-robust after controls, although isolated 2009 associations appeared for educational leadership in Singapore and accountability in South Korea [17][18].
 
-Method: institutional description with administrative statistics from
-BIBB, Destatis, and the Standing Conference of the Ministers of
-Education (KMK) (OECD, 2023a). Findings: 32 percent of German
-fifteen-to-nineteen-year-olds in upper secondary are in vocational
-programs; 88 percent of vocational learners are in dual
-apprenticeships; more than 320 occupations are recognized; final
-examinations are administered by chamber boards composed of employers,
-employee representatives, and vocational teachers; apprentices earn a
-training allowance (averaging 1,057 euros monthly in 2022, per
-Destatis); and qualifications are portable through the German and
-European Qualifications Frameworks. The system's signal achievement is
-a smooth school-to-work transition -- one of the motives behind the
-European Commission's call to make work-based learning "a central
-pillar" of vocational education across Europe -- even though, as the
-export literature shows, the model does not transplant wholesale
-(Euler/Bertelsmann Stiftung, 2013).
+These findings justify skepticism about the tested package of autonomy, choice, managerial leadership, monitoring, and accountability. They do not show that governance is always neutral, that every reform effect is exactly zero, or that teacher policy and tracking necessarily dominate every governance question. The studies' own limitation is important: other datasets, test years, countries, structural variables, and governance measures could change the result [18]. The evidence is a substantive null for a specified agenda and outcome set, not a general law that institutional governance never matters.
+
+### Germany's Dual System: Institutions and Transition Outcomes
+
+The OECD's 2025 Germany chapter describes a system in which firms, vocational schools, federal and Land authorities, social partners, and competent bodies share responsibilities. In 2021, 32 percent of 15-19-year-old upper-secondary students were enrolled in vocational programs, and about 88 percent of upper-secondary VET learners were in dual programs [12]. BIBB's 2026 register lists 324 recognized training occupations [13]. Examination committees established by competent bodies contain balanced employer and employee representation and at least one vocational-school teacher [14].
+
+The transition result is concrete: OECD reported that 94 percent of German vocational upper-secondary or post-secondary non-tertiary graduates were employed within two years of graduation [30]. Compensation is also current and bounded: average trainee gross monthly pay was EUR 1,238 in April 2024 across all training years, excluding special payments [15]. These statistics do not prove that the German institutional package can be copied elsewhere. Euler's transfer analysis instead identifies functions that require local equivalents, and its Korean financing example shows context sensitivity: training positions rose under a levy on large firms that supplied too few places and fell after the levy was reduced [16]. The report does not describe a German levy transplanted to Korea or a system-wide collapse.
+
+### Korean Panel Evidence: Academic Experience and Well-Being
+
+Kim, Shin, and Park used 2018 Korean Children and Youth Panel Survey data from 2,384 seventh-grade students. Structural-equation estimates associated academic helplessness with higher depression (unstandardized coefficient 0.834), depression with lower life satisfaction (-0.322), and academic helplessness with lower life satisfaction both directly and indirectly. The mediated association through depression was -0.269. The indirect association was weaker in the group participating in leisure-time physical activity, with a statistically significant moderated-mediation difference [27].
+
+The study supplies measured relationships, not a national causal estimate of examinations or tutoring. It cannot justify claims that one test caused a mental-health crisis, that physical activity eliminates the problem, or that the estimates apply unchanged to all ages. Read together with the official 80.0 percent private-education participation rate, it supports a narrower institutional concern: Korean learners operate in a high-supplementation environment, and academic helplessness is materially associated with depression and life satisfaction in a national panel cohort [25][27].
 
 ## Implications
 
-### For Policymakers
+### For Policymakers: Choose Mechanisms, State Trade-Offs, and Measure Outcomes
 
-The comparative record supports a short list of high-confidence
-levers. First, delay tracking: the strongest and most replicated
-finding in the field is that later selection improves equality of
-opportunity without sacrificing average performance (Hanushek &
-Woessmann, 2006; Woessmann, 2009), and Singapore's shift from
-school-level streaming to subject-based banding is a live natural
-experiment in exactly this direction (NCEE, 2024). Second, buy
-teacher quality deliberately: selection, preparation, and pay are
-policy instruments, and the Finnish and Singaporean pipelines show
-that investments compound over decades (Sahlberg, 2011; NCEE, 2024).
-Third, treat governance structure as close to neutral: the DFG study's
-null results across accountability, choice, and decentralization
-reforms (Muench et al., 2022) imply that rearranging who controls
-schools does less than its advocates claim, and that effort is better
-spent on the classroom pipeline and on selection timing. Fourth,
-respect embedding: importing the German dual system or the Finnish
-trust model wholesale fails (Euler/Bertelsmann Stiftung, 2013);
-policy transfer works when components are adapted to local
-institutional ecologies, not when packages are copied.
+The tracking evidence supports delaying irreversible between-school selection when the objective is to weaken the relationship between family background and achievement. The conclusion should remain proportional to the evidence: early tracking is consistently associated with larger inequality, while average-performance estimates provide little evidence of an offsetting gain [3][4]. Reform design should therefore specify the age of selection, whether movement between pathways is possible, how curricula differ, and whether subject-level differentiation can replace school-level hierarchy. Singapore's Full Subject-Based Banding illustrates both possibility and limit: former stream labels were removed, but Posting Groups and subject levels still structure initial placement [9].
 
-Two cautions temper this list. The first is political economy: the
-levers are well known, yet most systems do not pull them, because
-reform costs incumbent interests -- exam industries, selective school
-constituencies, and credential gatekeepers -- before it pays anyone
-back. South Korea's levy episode shows the deeper version of the
-problem: even an adopted instrument dies without its supporting
-institutions (Euler/Bertelsmann Stiftung, 2013). The second caution is
-against single-cause narratives of decline or recovery. The OECD's own
-finding that pandemic closure length did not clearly track performance
-trends (OECD, 2024) should discipline any policymaker tempted to
-explain the 2022 collapse with one variable -- and Finland's own
-scores, far below their 2000s peak (OECD, 2023), show that no
-high-performing equilibrium is permanent. Systems must be maintained,
-not just designed.
+Assessment reform should begin with consequences, not the number of tests. Finland combines teacher-led pupil assessment with sample-based national evaluation and a later national school-leaving examination [7][8]. The United States attaches state test results to school accountability, while student-level consequences vary [21]. South Korea is revising both CSAT design and school-record grading [26]. A useful policy audit asks what decisions a score controls, what untested outcomes are displaced, whether alternatives remain credible, and how much private expenditure the stakes induce. A nominally similar examination can create different behavior when linked to different admissions or accountability systems.
 
-### For Educators and School Leaders
+Teacher policy should be decomposed into qualification, selection, preparation, compensation, professional discretion, and support. Finland's evidence does not reduce to a master's-degree slogan: qualification rules differ by teacher category, intake rates vary by program, and autonomy operates within national and local curricula [6][7]. Singapore's NIE is a national institution with multiple entry routes rather than one homogeneous pipeline [10][11]. In the United States, state certification variation coexists with a measurable relative-pay gap [19][22]. Policymakers should identify which component is expected to change instruction and how that mechanism will be observed.
 
-Three lessons matter at school level. The first is that professional
-trust is engineered, not granted: Finnish teachers enjoy autonomy
-because a rigorous selection and master's-level preparation pipeline
-guarantees a professional floor (Sahlberg, 2011); schools that want
-autonomy must first build the pipeline that justifies it. The second
-is that assessment design is curriculum design: the backwash effect
-means every test choice -- stakes, timing, format -- reshapes what
-gets taught (see assessment-and-testing). The Korean and Singaporean
-cases show the same exam culture through two different ethical lenses:
-identical stakes that produce top-decile mathematics in one system
-produce a childhood mental-health crisis in the other (The Diplomat,
-2025). The difference is not the test; it is the surrounding supports,
-stakes, and available alternatives.
+Vocational reform requires employers and institutions to share more than a curriculum document. Germany's dual system depends on paid training places, occupational standards, vocational schools, competent examination bodies, social-partner participation, and recognized qualifications [12][14]. Euler's conclusion is operational: import functions only after identifying local institutions capable of performing them [16]. Creating a chamber by name is unnecessary if another credible body can assess and certify; creating a qualification without employers, training capacity, or labor-market recognition is insufficient.
 
-The third lesson concerns the limits of school-level heroics. A
-school leader who improves teaching inside a system built on early
-tracking, exam backwash, or a thin teacher pipeline is fighting
-structure with tactics. The comparative record suggests the honest
-strategy is two-level: run the best school possible within the given
-structure (method matters -- see pedagogy-and-teaching-methods) while
-treating the structure itself as the larger unit of improvement.
-Teacher pipelines, tracking age, and assessment stakes are not
-variables a principal controls, but they are variables a profession
-can organize around -- and every successful national reform in the
-record was carried by the teaching profession's capacity, not by
-decree (Sahlberg, 2011; NCEE, 2024).
+Governance reform deserves the same discipline. The DFG studies provide a serious negative result for selected marketization, monitoring, decentralization, leadership, and accountability measures on PISA outcomes [17][18]. The correct implication is not to treat governance as irrelevant. It is to avoid assuming that formal autonomy, choice, or accountability will overcome socioeconomic composition without an explicit mechanism and supporting institutions. New reforms should pre-register intended outcomes where feasible, preserve comparable baselines, and examine distribution as well as means.
 
-### For Learners and Parents
+### For Educators and School Leaders: Distinguish Classroom Levers From System Constraints
 
-Comparative education is, at bottom, a consumer report on incentive
-structures. Where stakes concentrate in a few exams, families face a
-shadow-education arms race whose returns accrue to the system and
-whose costs accrue to the child -- the Korean evidence on sleep,
-anxiety, and suicide attempts is the extreme warning (The Diplomat,
-2025; Oxford Brookes RADAR study). Where vocational tracks carry
-stigma, capable students are pushed into academic routes that serve
-them poorly; the stigma is institutional and revisable, as Singapore's
-rebuilding of its technical institute demonstrates (NCEE, 2024). And
-Finland shows that a system can produce both learning and well-being
--- but it did so by structural redesign (late selection, minimal
-high-stakes testing, professional teachers), not by individual effort
-(Sahlberg, 2011).
+School leaders control instruction, scheduling, feedback, professional learning, and local climate more directly than tracking age, national examinations, or revenue law. Comparative evidence helps separate these levels. A principal can improve teaching within a tracked or test-intensive system, but cannot independently change the pathway into which students were placed or the admissions value attached to an examination. This distinction prevents local staff from being held solely responsible for outcomes created partly by system design.
 
-For the individual, four strategies follow directly from the record.
-Play to the system's incentive design: in exam-driven systems, mastery
-of the tested curriculum is non-negotiable, but so is knowing what the
-test does not measure (see assessment-and-testing on validity).
-Manage the backwash: where stakes are high, schedule retrieval
-practice against the real exam format rather than drifting into
-low-yield study rituals. Protect the fundamentals: sleep is the
-first-order variable in the Korean data (The Diplomat, 2025), and
-leisure-time physical activity is the one well-established individual
-buffer against academic helplessness in the panel evidence
-(PMC9914214). Finally, remember that the largest levers sit at the
-institutional level: individual effort cannot relocate a tracking
-age or de-stigmatize a vocational track, and no amount of private
-tutoring purchases the Finnish pipeline's floor of teacher quality.
+Assessment practice remains a local lever even when tests are national. Teachers can clarify the construct a task measures, use multiple forms of evidence, protect time for untested but intended outcomes, and separate formative feedback from high-stakes judgment. Finland shows that teacher-led assessment can coexist with national curricula and system-level sampling [7][8]. The US example shows that an assessment may have low direct stakes for a pupil while carrying high institutional stakes for a school [21]. Educators should therefore explain both the score's meaning and the decisions attached to it.
 
-### For the Library and the Fleet
+Pathway guidance should present vocational and academic options through verified outcomes rather than inherited status. Germany's dual system offers nationally recognized qualifications, paid training, and strong early employment, but its success depends on institutions beyond the school [12][14][15]. In systems where vocational learning is a set of optional courses rather than a separate program, counselors should not imply equivalence to a German apprenticeship without employer training, related instruction, and recognized certification [23][24]. Accurate comparison protects students from both stigma and false promises.
 
-This topic is meta to the library's mission. National education
-systems are knowledge-transfer mechanisms at population scale, and the
-comparative record validates the design principles the library itself
-encodes: sequencing matters (curriculum-design-and-sequencing),
-retrieval and assessment drive retention (assessment-and-testing), and
-teaching method interacts with prior knowledge (pedagogy-and-teaching-
-methods). The transfer finding is the deepest one: what travels
-between systems -- and between the library and its readers -- is
-principle, not package. Knowledge moves when it is rebuilt inside the
-learner's existing structures, exactly as an imported school reform
-survives only by adapting to local institutions.
+Well-being interventions should also match evidence strength. The Korean panel study supports attention to academic helplessness, depression, life satisfaction, and physical activity, but it does not establish a single cause or treatment [27]. Schools can monitor helplessness and depression, provide routes to professional support, design recoverable learning tasks, and protect access to physical activity. They should not present exercise as a substitute for mental-health care or attribute distress to one examination without individual assessment.
 
-Two of the findings double as warnings for the library's own
-operation. The DFG null result (Muench et al., 2022) is a caution
-against mistaking structural rearrangement for improvement:
-re-organizing categories, indexes, or governance without improving
-the substance inside them is the educational-reform equivalent of
-churning a knowledge base's layout while the content stagnates. And
-the shadow-education finding is a reminder that private effort routes
-around weak public design: if the library's core artifacts are not
-the highest-value objects in their own ecosystem, users will build
-unofficial supplements around them, exactly as families built hagwons
-around a formal system. A library that internalizes comparative
-education writes for compounding, not for copying -- and builds the
-core so well that supplements are redundant.
+### For Learners and Families: Read the Incentive System and the Denominator
+
+Families often respond rationally to the incentives institutions create. South Korea's 80.0 percent private-education participation rate shows how widespread supplementation became among school-age students in 2024 [25]. That figure does not say every course is academically necessary or beneficial. Families should ask which decision a course is meant to influence, whether the course duplicates school instruction, what opportunity cost it imposes, and whether the same goal can be met through lower-cost or school-based support.
+
+Statistics should be read with their populations attached. Germany's 32 percent figure concerns 15-19-year-old upper-secondary students, not all people in that age group; its 88 percent figure concerns VET learners, not all upper-secondary learners [12]. PISA scores estimate performance among enrolled 15-year-olds under specified sampling rules, not the competence of every young person or the quality of every school [1]. Teacher-admission percentages refer to specific programs and years, not the permanent selectivity of a profession [6]. Keeping the denominator prevents a striking number from becoming a misleading system label.
+
+Families should also distinguish credentials from pathways. Finland's matriculation examination belongs to the general upper-secondary route, while vocational upper-secondary education follows another route [6]. Singapore's Posting Groups guide initial subject levels but do not recreate the former streams exactly [9]. US SAT and ACT use varies by state, institution, and admissions policy [21]. South Korean admissions use CSAT and school-record information in different combinations [26]. Practical planning requires the current rule for the relevant cohort and institution, not a national stereotype.
+
+### For Researchers, Journalists, and the Library: Compare With an Evidence Ledger
+
+Comparative claims should be decomposed into a system, cohort, period, mechanism, outcome, and counterfactual. "Germany has strong vocational education" becomes testable when separated into participation, program type, recognized occupations, examination governance, trainee pay, and employment after graduation [12][13][14][15]. "Finland does not test" becomes accurate only after distinguishing pupil-level national examinations, teacher assessment, sample-based system evaluation, and the upper-secondary matriculation examination [6][7][8]. "Korea is exam driven" requires separate evidence about CSAT rules, admissions routes, and private education [25][26].
+
+Source identity and date are part of the claim. The German VET report previously cited in this topic is an OECD 2025 publication, not an OECD 2023 publication [12]. The general PISA declines belong to Volume I, while the closure analysis belongs to Volume II; the former financial-literacy Volume IV citation did not support either claim [1][2]. The DFG project summary and the related 2022 articles are distinct sources, and the project's original five-country title does not describe the final eight-country scope [17][18]. Correct bibliography is not cosmetic because a wrong version can change the population, method, and result.
+
+Derived figures should be recalculated and labeled. Fifteen PISA points divided by the OECD's approximately 20-point annual-learning benchmark yields about three-quarters of a school year, while ten points yields about one-half. Those ratios describe scale; they do not estimate causal time lost [1]. The tracking literature's approximately 0.25 dispersion estimate belongs to one 18-country comparison, while the pooled coefficient is 0.101 [3]. A transparent calculation prevents a memorable figure from silently acquiring a broader denominator.
+
+Interpretation should be marked as interpretation. The evidence supports the assessment that institutions are embedded: Euler explicitly recommends adapting functions rather than copying a full VET system, and the national cases show how rules depend on surrounding curricula, finance, employers, and admissions [16]. The author's assessment is that comparative education is most useful as a boundary-finding discipline. It can show that a promised mechanism did not appear under specified conditions, that an equity gain lacked a detected mean-performance cost, or that a national label concealed multiple pathways. It cannot make one country's history into another country's implementation plan.
+
+For the library, the operational rule is simple: preserve the unit, denominator, date, and uncertainty beside every comparative claim. Use primary official statistics for current institutional facts, peer-reviewed work for empirical associations, and explicit synthesis labels for cross-source conclusions. Recheck links and versions because current policy can change faster than historical evidence. This method turns national comparisons from prestige rankings into a structured account of mechanisms, trade-offs, and limits.
 
 ## Sources
 
-1. OECD (2023). "PISA 2022 Results (Volume I): The State of Learning
-   and Equity in Education." OECD Publishing, Paris.
-   https://doi.org/10.1787/53f23881-en [high]
+1. OECD (2023). "PISA 2022 Results (Volume I): The State of Learning and Equity in Education." OECD Publishing. https://doi.org/10.1787/53f23881-en [high]
 
-2. OECD (2024). "PISA 2022 Results (Volume IV): How Financially Smart
-   Are Students." OECD Publishing, Paris.
-   https://www.oecd.org/en/publications/pisa-2022-results-volume-iv_125a58b3-en.html [high]
+2. OECD (2023). "PISA 2022 Results (Volume II): Learning During - and From - Disruption." OECD Publishing. https://doi.org/10.1787/a97db61c-en [high]
 
-3. Hanushek, E. A. & Woessmann, L. (2006). "Does Educational Tracking
-   Affect Performance and Inequality? Differences-in-Differences
-   Evidence Across Countries." The Economic Journal, 116(510),
-   C63-C76. https://doi.org/10.1111/j.1468-0297.2006.01076.x [high]
+3. Hanushek, E. A., and Woessmann, L. (2006). "Does Educational Tracking Affect Performance and Inequality? Differences-in-Differences Evidence Across Countries." The Economic Journal, 116(510), C63-C76. https://hanushek.stanford.edu/sites/default/files/publications/Hanushek+Woessmann%202006%20EJ%20116(510).pdf [high]
 
-4. Woessmann, L. (2009). "International Evidence on School Tracking:
-   A Review." CESifo DICE Report, 7(1), 26-34.
-   https://www.ifo.de/DocDL/dicereport109-rr1.pdf [high]
+4. Woessmann, L. (2009). "International Evidence on School Tracking: A Review." CESifo DICE Report, 7(1), 26-34. https://www.ifo.de/DocDL/dicereport109-rr1.pdf [high]
 
-5. OECD (2023). "Vocational Education and Training Systems in Nine
-   Countries: Vocational Education and Training in Germany." OECD
-   Publishing, Paris.
-   https://www.oecd.org/en/publications/vocational-education-and-training-systems-in-nine-countries_1a86eb6c-en/full-report/vocational-education-and-training-in-germany_dae78944.html [high]
+5. Aho, E., Pitkanen, K., and Sahlberg, P. (2006). "Policy Development and Reform Principles of Basic and Secondary Education in Finland since 1968." World Bank. https://documents1.worldbank.org/curated/en/124381468038093074/pdf/368710FI0Educa1es0May0200601PUBLIC1.pdf [high]
 
-6. Euler, D. / Bertelsmann Stiftung (2013). "Germany's Dual Vocational
-   Training System: A Model for Other Countries?" Bertelsmann
-   Stiftung, Guetersloh.
-   http://rsm-bst-live.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/GP_Germanys_dual_vocational_training_system.pdf [high]
+6. Finnish National Agency for Education (2026). "Education in Finland." https://www.oph.fi/sites/default/files/documents/7.6.23%20Education%20in%20Finland%202023.pdf [high]
 
-7. Sahlberg, P. (2011). "Finnish Lessons: What Can the World Learn
-   from Educational Change in Finland?" Teachers College Press,
-   New York. https://pasisahlberg.com/ [high]
+7. Finnish National Agency for Education. "Basic Information About Primary and Lower Secondary Education" and "Quality Management in Finland." https://www.oph.fi/en/education-and-qualifications/bacic-information-about-primary-and-lower-secondary-education and https://www.oph.fi/en/education-and-qualifications/quality-management-finland [high]
 
-8. NCEE (2024). "Excellence at Scale: What the World's Best Systems
-   Get Right." National Center on Education and the Economy.
-   https://ncee.org/beyond-test-scores-what-the-worlds-best-systems-get-right [medium]
+8. Finnish Education Evaluation Centre. "Learning Outcomes Evaluations." https://www.karvi.fi/en/evaluations/pre-primary-primary-and-lower-secondary-education/learning-outcomes-evaluations [high]
 
-9. Muench, R. et al. (2022). "Effective School Governance: Improving
-   Performance and Reducing Achievement Gaps in Education? A Five
-   Country Comparative and Longitudinal Analysis." DFG Project
-   461386736, Final Report.
-   https://gepris.dfg.de/gepris/projekt/461386736?language=en&selectedSubTab=2 [high]
+9. Singapore Ministry of Education. "Full Subject-Based Banding." https://www.moe.gov.sg/psle-fsbb/full-subject-based-banding/main [high]
 
-10. The Diplomat (2025). "South Korea's Education Obsession Is a
-    National Emergency."
-    https://thediplomat.com/2025/06/south-koreas-education-obsession-is-a-national-emergency/ [medium]
+10. Singapore Ministry of Education (2026). "NIE's Bachelor Programmes Acceptance Rate and Safeguarding Subject-Specific Teacher Supply Shortages." https://www.moe.gov.sg/news/parliamentary-replies/20260226-nies-bachelor-programmes-acceptance-rate-and-safeguarding-subject-specific-teacher-supply-shortages [high]
 
-11. "The Relationship Between Confucian-Based Education Fever and
-    Private Tutoring and Its Impact on Children's Mental Health in
-    South Korea: A Secondary Analysis of PISA 2015 and KCWI 2018
-    Data." Oxford Brookes University RADAR repository.
-    https://radar.brookes.ac.uk/radar/items/aed8f0c2-cfd9-4e95-ba82-3f9e42a3ec3d/1 [medium]
+11. Nanyang Technological University. "National Institute of Education." https://www.ntu.edu.sg/nie [high]
 
-12. "Academic Helplessness and Life Satisfaction in Korean Middle
-    School Students: Depression as a Mediator." PMC open-access
-    article PMC9914214 (2023).
-    https://pmc.ncbi.nlm.nih.gov/articles/PMC9914214/ [high]
+12. OECD (2025). "Vocational Education and Training Systems in Nine Countries: Vocational Education and Training in Germany." https://doi.org/10.1787/1a86eb6c-en [high]
 
-13. White House Council of Economic Advisers (2023). "Weathering the
-    Storm: Federal Efforts Helped Bolster U.S. Education Standing
-    Among Peer Nations."
-    https://bidenwhitehouse.archives.gov/cea/written-materials/2023/12/05/weathering-the-storm-federal-efforts-helped-bolster-u-s-education-standing-among-peer-nations [high]
+13. Federal Institute for Vocational Education and Training (BIBB) (2026). "Verzeichnis der anerkannten Ausbildungsberufe 2026." https://www.bibb.de/dienst/publikationen/de/21008 [high]
+
+14. Federal Institute for Vocational Education and Training (BIBB). "Examination and Certification in Germany." https://www.bibb.de/en/146905.php [high]
+
+15. Federal Statistical Office of Germany (Destatis) (2025). "Trainees Earned an Average Gross EUR 1,238 in April 2024." https://www.destatis.de/DE/Presse/Pressemitteilungen/Zahl-der-Woche/2025/PD25_35_p002.html [high]
+
+16. Euler, D. (2013). "Germany's Dual Vocational Training System: A Model for Other Countries?" Bertelsmann Stiftung. https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/GP_Germanys_dual_vocational_training_system.pdf [high]
+
+17. German Research Foundation (DFG). "Effective School Governance," Project 461386736, project term 2021-2025 and final-report summary. https://gepris.dfg.de/project/461386736 [high]
+
+18. Muench, R., and Wieczorek, O. (2022). "Improving Schooling Through Effective Governance? The United States, Canada, South Korea, and Singapore in the Struggle for PISA Scores." Comparative Education, 59(1), 59-76. https://doi.org/10.1080/03050068.2022.2138176 [high]
+
+19. Congressional Research Service (2024). "A Summary of Federal Education Laws Administered by the U.S. Department of Education." https://www.congress.gov/crs-product/IF10551 [high]
+
+20. National Center for Education Statistics (2026). "Revenues and Expenditures for Public Elementary and Secondary Education: School Year 2023-24 (Fiscal Year 2024)." NCES 2026-008. https://nces.ed.gov/sites/default/files/nces/document/2026/05/2026008_FY24NPEFS_FirstLook.pdf [high]
+
+21. Congressional Research Service (2020). "ESEA: Title I-A Standards, Assessments, Accountability, Report Cards, and Frequently Asked Questions." https://www.congress.gov/crs-product/R46245 [high]
+
+22. OECD (2025). "Education at a Glance 2025: United States." https://www.oecd.org/en/publications/education-at-a-glance-2025_1a3543e2-en/united-states_784df67f-en.html [high]
+
+23. OECD (2023). "Spotlight on Vocational Education and Training." https://doi.org/10.1787/acff263d-en [high]
+
+24. Congressional Research Service (2025). "Registered Apprenticeship: Federal Role and Recent Federal Efforts." https://www.congress.gov/crs-product/R45171 [high]
+
+25. Statistics Korea and Ministry of Education (2025). "Private Education Expenditures Survey of Elementary, Middle and High School Students in 2024." https://www.kostat.go.kr/board.es?act=view&bid=11758&list_no=436035&mid=a20101000000 [high]
+
+26. Republic of Korea Ministry of Education (2023). "2028 College Entrance System Reform Initiative to Transform the Current CSAT." https://english.moe.go.kr/boardCnts/viewRenewal.do?boardID=265&boardSeq=96649&lev=0&m=0201&opType=N&page=1&s=english [high]
+
+27. Kim, M., Shin, K., and Park, S. (2023). "Academic Helplessness and Life Satisfaction in Korean Adolescents: The Moderated Mediation Effects of Leisure Time Physical Activity." Healthcare, 11(3), 356. https://pmc.ncbi.nlm.nih.gov/articles/PMC9914214 [high]
+
+28. Bray, M. (2021). "Shadow Education in Europe: Growing Prevalence, Underlying Forces, and Policy Implications." ECNU Review of Education, 4(3), 442-475. https://files.eric.ed.gov/fulltext/EJ1315066.pdf [high]
+
+29. Singapore Ministry of Education (2025). "From Foundations to Frontiers: Our Education Journey." https://www.moe.gov.sg/news/speeches/20250211-speech-by-minister-chan-chun-sing-at-the-moe-x-nie-x-ips-lecture-from-foundations-to-frontiers-our-education-journey [high]
+
+30. OECD (2023). "Education at a Glance 2023: Germany." https://gpseducation.oecd.org/Content/EAGCountryNotes/EAG2023_CN_DEU_pdf.pdf [high]
+
+31. Standing Conference of the Ministers of Education and Cultural Affairs of the Laender (KMK) (2026). "The Education System in the Federal Republic of Germany 2024/2025." https://www.kmk.org/fileadmin/Dateien/pdf/Eurydice/EN/dossier_en_ebook.pdf [high]
+
+32. German Qualifications Framework. "The DQR." https://www.dqr.de/dqr/en/the-dqr/deutscher-qualifikationsrahmen-the-dqr.html [high]
+
+33. U.S. Government Accountability Office (2022). "K-12 Education: Education Should Assess Its Efforts to Address Teacher Shortages." GAO-23-105180. https://www.gao.gov/assets/gao-23-105180.pdf [high]
+
+34. Finnish Matriculation Examination Board. "Structure of the Examination." https://www.ylioppilastutkinto.fi/en/matriculation-examination/structure-examination [high]
+
+35. Singapore Ministry of Education. "Supporting Our Students Through the Years - Evolution of Streaming in Secondary Schools." https://www.moe.gov.sg/media/files/microsite/d7937190-26db-4a28-8bc0-0e47a21648dd.pdf [high]
 
 ## See Also
 
-- `library/education-learning/assessment-and-testing.md` -- the
-  backwash effect and testing design, the micro-mechanism behind
-  national testing regimes.
-- `library/education-learning/pedagogy-and-teaching-methods.md` --
-  evidence-based instruction, the classroom layer beneath teacher
-  preparation policy.
-- `library/education-learning/curriculum-design-and-sequencing.md` --
-  curriculum architecture, the sequencing layer that national systems
-  set through tracking and standards.
+- `library/education-learning/assessment-and-testing.md` -- explains how score meaning depends on the construct, sample, interpretation, and intended use.
+- `library/education-learning/pedagogy-and-teaching-methods.md` -- separates classroom instructional methods from system-level governance and selection.
+- `library/education-learning/curriculum-design-and-sequencing.md` -- connects national standards and pathways to the order in which learners encounter knowledge.
