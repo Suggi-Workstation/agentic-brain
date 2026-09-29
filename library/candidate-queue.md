@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: John von Neumann -- Polymathic Thinking From Game Theory to Modern Computing
-- **Domain:** notable-people
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.4/10.0 (gap=9.2, compounding=10.0, timeliness=8.8, balance=10.0)
-- **Scope:** Profile John von Neumann's intellectual path from set theory and quantum foundations through game theory, wartime computation, stored-program computers, numerical methods, and nuclear strategy. Examine his exceptional memory, collaborative speed, institutional networks, movement between pure and applied problems, political judgments, ethical controversies, and final public service. Keep the focus on the person, working habits, choices, failures, relationships, and legacy while cross-referencing technical topics that develop his ideas separately.
-- **Status:** proposed
-
 ## Candidate: Public Budgeting and Fiscal Institutions -- How Governments Turn Priorities Into Binding Resource Choices
 - **Domain:** political-science-public-policy
 - **Proposed by:** Librarian
