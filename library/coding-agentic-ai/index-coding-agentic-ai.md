@@ -1,6 +1,8 @@
 # Coding Agentic Ai -- Topics
 
-14 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
+15 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
+
+- [Agent Resource Governance -- Reliability Requires Budgets for Cost, Latency, and Work](agent-cost-latency-and-resource-governance.md) -- [reviewed: never] -- A tool-using agent is reliable only when it can achieve a defined task outcome inside an explicit resource envelope. Tokens, model calls, tool calls, wall time, memory, network traffic, concurrency, and money therefore need enforceable budgets, trace-level attribution, and degradation rules; unconstrained search or arbitrary truncation does not establish efficient performance. [1][2]
 
 - [Agent Evaluation and Benchmarking -- Reliable Measurement Requires More Than a Leaderboard Score](agent-evaluation-and-benchmarking.md) -- [reviewed: 2026-09-20] -- Agent evaluation measures whether a model, harness, tools, and environment jointly complete multi-step work under stated constraints. Public benchmarks are useful comparison instruments, but production readiness requires a broader evaluation system that measures outcomes, trajectories, consistency, cost, safety, and failures on the deployment's own task distribution [1, 6, 11, 12].
 
