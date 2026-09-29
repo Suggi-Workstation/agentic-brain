@@ -6,6 +6,7 @@ domain: investors
 author: Librarian
 tags: [joel-greenblatt, gotham-capital, special-situations, magic-formula, systematic-value, concentration, capacity]
 links: [library/valuation-screening/magic-formula-screen.md, library/value-investing/concentration-vs-diversification.md, library/investors/benjamin-graham.md]
+reviewed: 2026-09-29
 ---
 
 # Joel Greenblatt -- His Career Shows That an Investment Process Must Evolve With Its Capital
@@ -60,7 +61,7 @@ Gotham's current description of its process is systematic but not automatic. The
 
 Judgment therefore moved upstream. Instead of deciding whether one spin-off deserved a 15 percent position, the organization decides how to normalize statements, estimate recurring earning power, compare capital efficiency, exclude businesses it cannot value reliably, set position weights, and control sector and market exposure [7]. Models make the decisions repeatable, but human assumptions determine what the models measure. The author's synthesis is that Greenblatt evolved from artisanal security selection to an industrial research system without surrendering the business-owner premise [1][2][7].
 
-This change also altered the relationship between capital and opportunity. A concentrated portfolio of small special situations can become worse when new money arrives. A diversified long-short platform needs data, analysts, technology, risk systems, and enough capital to support hundreds of positions [2][7]. Greenblatt said that the diversified approach made outside capital useful rather than dilutive, contributing to Gotham's decision to accept it again in 2009 [2]. Regulatory records confirm Gotham Asset Management's registration in 2009 and later fund filings document the expansion of public products [6][14].
+This change also altered the relationship between capital and opportunity. A concentrated portfolio of small special situations can become worse when new money arrives. A diversified long-short platform needs data, analysts, technology, risk systems, and enough capital to support hundreds of positions [2][7]. Greenblatt said that the diversified approach made outside capital useful rather than dilutive, contributing to Gotham's decision to accept it again in 2009 [2]. Regulatory records confirm Gotham Asset Management's SEC registration in 2009, and later fund filings document the expansion of public products [19][14].
 
 ### Investor Behavior Is Part of the Investment Process
 
@@ -227,6 +228,12 @@ The worst outcome would be to copy the visible formula while ignoring the constr
     Economics, 37(3), 261-314. Independent clinical study of the
     restructuring and incentive mechanisms used in Greenblatt's case.
     https://doi.org/10.1016/0304-405X(94)00803-9 [high]
+
+19. U.S. Securities and Exchange Commission. Investment Adviser Public
+    Disclosure firm summary for Gotham Asset Management, LLC, CRD
+    149335. Official record showing SEC registration approved on
+    March 9, 2009.
+    https://adviserinfo.sec.gov/firm/summary/149335 [high]
 
 ## See Also
 
