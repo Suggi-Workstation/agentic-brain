@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Wildfire Science -- How Fuels, Weather, Terrain, and Climate Shape Fire Regimes
-- **Domain:** earth-climate
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.8, timeliness=9.9, balance=10.0)
-- **Scope:** Explain how ignition, fuel type and continuity, moisture, terrain, wind, drought, and atmospheric instability interact to govern wildfire spread and intensity. Connect fire ecology, prescribed burning, suppression, smoke, post-fire erosion, remote sensing, and changing fire regimes while distinguishing beneficial ecological fire from destructive exposure. Show why hazard assessment and short-term fire behavior prediction require different data, and separate physical mechanisms from emergency policy and infrastructure response.
-- **Status:** proposed
-
 ## Candidate: Climate Ethics and Intergenerational Justice -- Sharing Duties Across Time, Borders, and Unequal Contributions
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
