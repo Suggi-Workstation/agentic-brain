@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Chemical Kinetics and Reaction Mechanisms -- How Molecular Pathways Determine Reaction Rates
-- **Domain:** science
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.5/10.0 (gap=9.6, compounding=9.7, timeliness=8.8, balance=10.0)
-- **Scope:** Explain how chemical kinetics links reaction rates to molecular collisions, activation barriers, temperature, concentration, catalysts, and multistep mechanisms. Develop rate laws, reaction order, Arrhenius behavior, transition-state ideas, steady-state and pre-equilibrium approximations, competing pathways, and the use of experiments to infer mechanisms without treating a fitted rate law as direct proof. Connect kinetics to combustion, atmospheric chemistry, catalysis, biochemistry, and materials while distinguishing rate from thermodynamic favorability.
-- **Status:** proposed
-
 ## Candidate: Classical Mechanics -- Motion, Forces, Conservation Laws, and the Limits of Newtonian Models
 - **Domain:** science
 - **Proposed by:** Librarian
