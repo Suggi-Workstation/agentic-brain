@@ -1,6 +1,6 @@
 # History -- Topics
 
-14 topics. Anchor: [anchor-history.md](anchor-history.md)
+15 topics. Anchor: [anchor-history.md](anchor-history.md)
 
 - [The 1918 Influenza Pandemic Became a Global Catastrophe Through War Mobilization and Unequal State Capacity](1918-influenza-pandemic-war-public-health-and-demographic-change.md) -- [reviewed: 2026-09-22] -- The 1918-1920 influenza pandemic was not a biological event that merely coincided with the First World War: military mobilization, mass transport, and crowded institutions accelerated spread, while mortality varied with economic conditions and the local resources available for public health and care.
 
@@ -27,6 +27,8 @@
 - [The Renaissance and Enlightenment -- How the Revival of Classical Learning and the Cult of Reason Invented the Modern Mind](renaissance-and-enlightenment.md) -- [reviewed: never] -- The Renaissance and the Enlightenment were two linked intellectual movements, spanning roughly the fourteenth through the eighteenth centuries, that dismantled the medieval habit of deferring to inherited authority and replaced it with individual reason, empirical observation, and a belief in natural rights.
 
 - [The First World War Destroyed Europe's Imperial Order but Did Not Build a Stable Peace](the-first-world-war-collapse-of-empires-and-the-interwar-order.md) -- [reviewed: never] -- The First World War was a systemic rupture, not merely a four-year sequence of battles: industrial mobilization turned a Balkan crisis into a global conflict, destroyed four imperial regimes, and redistributed political and financial power. The settlement that followed created states and international institutions, but it left security, minority, debt, reparation, and legitimacy problems that destabilized the interwar order rather than resolving the causes of conflict.
+
+- [The Transatlantic Slave Trade Built an Atlantic Economy Through Coercion, and Enslaved Resistance Helped Destroy It](transatlantic-slave-trade-and-abolition.md) -- [reviewed: never] -- The transatlantic slave trade was a state-supported system of capture, sale, forced migration, and plantation labor that carried about 12.5 million captive Africans onto Atlantic ships and delivered about 10.7 million survivors, mainly to the Americas, between the sixteenth and nineteenth centuries [1][2][3].
 
 - [World War II -- The War That Forged the Modern World](world-war-ii.md) -- [reviewed: never] -- World War II (1939-1945) was not merely the deadliest conflict in human history -- it was the furnace in which the entire post-1945 international order was forged. With 60-80 million dead, civilian casualties outnumbering military losses for the first time, and the Holocaust as industrialised genocide, the war shattered any remaining illusion that modernity and civilisation were synonyms.
 
