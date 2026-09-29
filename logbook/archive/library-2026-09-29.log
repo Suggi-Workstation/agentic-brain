@@ -218,3 +218,111 @@ Similarity overlap: 25%.
 Sources: 14 (14 high, 0 medium, 0 low).
 Cross-references: 4 topics.
 
+
+<!-- Appended 2026-09-29 10:10 UTC -- ENT-686 to ENT-700 -->
+
+## [ENT-686] | 2026-09-28 16:56 UTC | Librarian | library | ref: library/sociology-demography/census-and-survey-measurement.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Census and Survey Measurement -- Official Population Data Are Produced, Not Simply Found (sociology-demography): rewritten (corrected 2 outdated-source mismatches, updated 2 sources and 2 sections).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-687] | 2026-09-28 17:09 UTC | Librarian | library | ref: library/portfolio-risk-management/risk-adjusted-performance-measurement.md | see: 20260928T170400Z
+Wrote topic Risk-Adjusted Performance Measurement -- Sharpe, Sortino, and Benchmark-Aware Ratios to portfolio-risk-management. Weighted score: 9.8/10.0
+(core=9.8, scope=9.9, value=9.6, authority=9.8).
+Similarity overlap: 30%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-688] | 2026-09-28 17:28 UTC | Librarian | library | ref: library/psychology-behavior/cognitive-biases.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Cognitive Biases -- Systematic Patterns Distort Judgment Without Making Every Intuition Wrong (psychology-behavior): rewritten (corrected overgeneralized mechanism and evidence claims, updated 10 sources and all mandatory sections).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-689] | 2026-09-28 17:38 UTC | Librarian | library | ref: library/science/general-relativity-how-spacetime-geometry-produces-gravity.md | see: 20260928T173340Z
+Wrote topic General Relativity -- How Spacetime Geometry Produces Gravity to science. Weighted score: 9.7/10.0
+(core=9.8, scope=9.6, value=9.7, authority=9.8).
+Similarity overlap: 25%.
+Sources: 17 (17 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-690] | 2026-09-28 17:57 UTC | Librarian | library | ref: library/sociology-demography/demographic-transition.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Demographic Transition -- How Falling Fertility and Mortality Reshape the Architecture of Societies (sociology-demography): rewritten (corrected outdated global fertility and population-peak figures, deterministic stage and aging claims, unsupported fiscal and migration claims; updated all four mandatory sections and 10 sources).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-691] | 2026-09-28 18:04 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 6 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- The EU AI Act -- Risk Tiers, General-Purpose Models, Compliance, and Enforcement (9.8): gap=9.5, compounding=9.8, timeliness=10.0, balance=10.0
+- Forecast Question Design -- Turning Vague Uncertainty Into Resolvable Probabilities (9.8): gap=9.6, compounding=9.8, timeliness=10.0, balance=10.0
+- Policy Feedback -- How Public Programs Reshape Citizens, Interests, and Future Politics (9.7): gap=9.6, compounding=9.8, timeliness=9.5, balance=10.0
+- Insurance Industry Economics -- Pricing Risk Before Costs Are Known (9.5): gap=9.1, compounding=9.7, timeliness=9.7, balance=10.0
+- Satire and Comedy as Cultural Critique -- How Humor Tests Norms, Power, and Taboo (9.5): gap=9.4, compounding=9.5, timeliness=9.2, balance=10.0
+- Claude Shannon -- Curiosity, Abstraction, and the Architecture of the Information Age (9.4): gap=9.2, compounding=9.8, timeliness=8.7, balance=10.0
+Domain balance: industries-sectors, law-regulation, notable-people, political-science-public-policy, pop-culture, and probabilistic-thinking-forecasting (13 topics each) to the same six domains (13 topics each).
+
+## [ENT-692] | 2026-09-28 18:09 UTC | Librarian | library | ref: library/earth-climate/hydrological-cycle-freshwater-systems.md | see: 20260928T180451Z
+Wrote topic The Hydrological Cycle and Freshwater Systems -- How Water Connects Atmosphere, Land, Ice, and Oceans to earth-climate. Weighted score: 9.8/10.0
+(core=9.8, scope=9.8, value=9.6, authority=9.8).
+Similarity overlap: 35%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-693] | 2026-09-28 18:39 UTC | Librarian | library | ref: library/coding-agentic-ai/coding-agent-workflows-from-repository-context-to-a-verified-patch.md | see: 20260928T183430Z
+Wrote topic Coding Agent Workflows -- From Repository Context to a Verified Patch to coding-agentic-ai. Weighted score: 9.8/10.0
+(core=10.0, scope=9.8, value=9.4, authority=9.5).
+Similarity overlap: 45%.
+Sources: 12 (12 high, 0 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-694] | 2026-09-28 18:43 UTC | Librarian | library | ref: library/coding-agentic-ai/coding-agent-workflows-from-repository-context-to-a-verified-patch.md | see: 20260928T183430Z
+ERROR: Published topic Coding Agent Workflows -- From Repository Context to a Verified Patch contains incorrect Source 11 author metadata.
+The entry names Wang, Q., but the verified authors are You Wang, Michael Pradel, and Zhongxin Liu.
+The dedicated publisher rejects correction because a newly created topic is not review-due; the topic remains published and requires an authorized correction mechanism.
+
+## [ENT-695] | 2026-09-28 18:44 UTC | Librarian | library | ref: library/anthropology/cultural-transmission-and-social-learning.md | see: 20260924T173329Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Cultural Transmission Persists Through Diverse Learning Networks, Not Copying Alone (anthropology): rewritten (corrected source attribution, author and site counts, sample and method descriptions, denominators, statistical qualifications, and bibliography; updated Background, Core Concepts, Evidence, Implications, and Sources with 3 verified studies).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-696] | 2026-09-28 19:11 UTC | Librarian | library | ref: library/communication/translation-and-cross-cultural-communication.md | see: 20260928T190545Z
+Wrote topic Translation and Cross-Cultural Communication -- Preserving Meaning Across Languages and Contexts to communication. Weighted score: 9.8/10.0
+(core=10.0, scope=9.8, value=9.6, authority=9.8).
+Similarity overlap: 25%.
+Sources: 22 (22 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-697] | 2026-09-28 19:30 UTC | Librarian | library | ref: library/geopolitics/energy-geopolitics.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Energy Geopolitics -- Oil, Gas, Minerals, and Infrastructure Convert Dependence into Power (geopolitics): rewritten (corrected OAPEC attribution, SPR timing, petrodollar overstatement, U.S. energy-independence wording, and stale EU gas and critical-mineral figures; updated all mandatory sections and replaced five sources with 22 verified high-authority sources).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-698] | 2026-09-28 19:40 UTC | Librarian | library | ref: library/ethics-philosophy/philosophy-of-language.md | see: 20260928T193412Z
+Wrote topic Philosophy of Language -- How Meaning, Reference, and Speech Acts Connect Words to the World to ethics-philosophy. Weighted score: 9.6/10.0
+(core=9.5, scope=9.7, value=9.4, authority=9.8).
+Similarity overlap: 18%.
+Sources: 10 (10 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-699] | 2026-09-28 19:59 UTC | Librarian | library | ref: library/psychology-behavior/cognitive-dissonance.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Cognitive Dissonance -- Inconsistency Can Motivate Belief or Behavior Change (psychology-behavior): rewritten (corrected 16 factual and evidentiary mismatches, updated 21 sources and all 4 mandatory sections).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-700] | 2026-09-28 20:02 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 6 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Supplier Finance and Reverse Factoring -- When Trade Payables Become Hidden Debt (9.5): gap=9.5, compounding=9.6, timeliness=9.2, balance=10.0
+- Joel Greenblatt -- From Special Situations to Systematic Value Investing (9.3): gap=9.2, compounding=9.3, timeliness=9.0, balance=10.0
+- Externalities and Public Goods -- When Market Prices Miss Social Costs and Benefits (9.7): gap=9.6, compounding=9.7, timeliness=9.6, balance=10.0
+- Graph Theory and Network Science -- Turning Relationships Into Quantifiable Structure (9.7): gap=9.6, compounding=9.8, timeliness=9.5, balance=10.0
+- Liability-Driven Investing -- Matching Portfolio Assets to Future Obligations (9.6): gap=9.3, compounding=9.5, timeliness=9.8, balance=10.0
+- Protein Folding and Proteostasis -- How Cells Turn Amino Acid Sequences Into Functional Structures (9.8): gap=9.6, compounding=9.8, timeliness=10.0, balance=10.0
+Domain balance: accounting-financial-shenanigans (13 topics) to science (13 topics).
+
