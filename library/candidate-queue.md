@@ -177,3 +177,35 @@
 - **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.8, timeliness=10.0, balance=10.0)
 - **Scope:** Analyze Adam Smith's The Wealth of Nations as an eighteenth-century work of moral and political economy rather than a slogan for laissez-faire. Distill its arguments on division of labor, exchange, prices, wages, profit, rent, taxation, public works, empire, and the institutions that enable or distort commerce, while assessing tensions, historical limits, and later misreadings. Treat the book as an artifact, compare its major claims with Smith's broader moral philosophy, and cross-reference separate topics on capitalism, trade, and corporate governance without duplicating them.
 - **Status:** proposed
+
+## Candidate: Auction Design and Mechanism Design -- Building Rules That Make Private Information Actionable
+- **Domain:** macro-micro
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.9, timeliness=9.8, balance=9.3)
+- **Scope:** Explain how mechanism design works backward from desired outcomes to rules that induce participants to reveal information and act within stated incentives. Compare English, Dutch, first-price, second-price, multi-unit, combinatorial, and matching mechanisms, covering incentive compatibility, individual rationality, revenue, efficiency, collusion, winner's curse, reserve prices, and market thickness. Use spectrum, procurement, electricity, advertising, and allocation examples to show why format and information structure matter, while distinguishing general economic design principles from domain-specific regulation or platform engineering.
+- **Status:** proposed
+
+## Candidate: Clinical Trials and Evidence-Based Medicine -- Designing Trustworthy Tests of Treatment Benefits and Harms
+- **Domain:** health-medicine
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.8, timeliness=9.8, balance=9.3)
+- **Scope:** Explain how randomized and nonrandomized clinical studies turn treatment questions into estimates that can guide care, covering eligibility, controls, allocation, blinding, endpoints, sample size, protocol deviations, missing data, adverse events, and prespecified analysis. Show how effect size, uncertainty, multiplicity, external validity, registration, reporting, replication, and systematic review determine whether a statistically positive result is clinically credible. Distinguish trial design and evidence appraisal from drug-development operations, general experimental design, and regulatory approval, while addressing pragmatic, decentralized, adaptive, and real-world-data approaches.
+- **Status:** proposed
+
+## Candidate: Bankruptcy and Restructuring Law -- How Priority, Stays, and Reorganization Allocate Financial Distress
+- **Domain:** law-regulation
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.8, timeliness=9.6, balance=9.3)
+- **Scope:** Explain how insolvency systems convert an inability to pay into collective rules for preserving value, ranking claims, supervising control, and distributing losses. Cover liquidation and reorganization, the automatic stay, executory contracts, secured credit, debtor-in-possession finance, avoidance actions, creditor classes, plan confirmation, discharge, cross-border cases, and out-of-court restructuring. Compare major legal approaches without treating bankruptcy as a single US procedure, and show how priority, valuation disputes, forum choice, and bargaining power shape recoveries while distinguishing doctrine from distressed-investing strategy.
+- **Status:** proposed
+
+## Candidate: Investment Management Companies and GP Stakes -- Valuing the Firm Behind the Funds
+- **Domain:** investment-vehicles-fund-structures
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.6/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=9.3)
+- **Scope:** Explain how an investment manager differs economically from the funds it sponsors, separating management fees, performance fees and carried interest, balance-sheet investments, compensation, fundraising capacity, and operating costs. Examine minority GP-stakes transactions, governance and information rights, founder liquidity, succession, cross-fund conflicts, valuation, leverage, and exit routes across alternative-asset managers. Show how recurring-fee durability depends on investment performance, client concentration, fee compression, key people, and product cycles, and distinguish ownership of the management company from limited-partner interests in its funds.
+- **Status:** proposed
