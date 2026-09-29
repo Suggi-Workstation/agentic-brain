@@ -177,3 +177,35 @@
 - **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.8, timeliness=9.9, balance=10.0)
 - **Scope:** Explain how ignition, fuel type and continuity, moisture, terrain, wind, drought, and atmospheric instability interact to govern wildfire spread and intensity. Connect fire ecology, prescribed burning, suppression, smoke, post-fire erosion, remote sensing, and changing fire regimes while distinguishing beneficial ecological fire from destructive exposure. Show why hazard assessment and short-term fire behavior prediction require different data, and separate physical mechanisms from emergency policy and infrastructure response.
 - **Status:** proposed
+
+## Candidate: Climate Ethics and Intergenerational Justice -- Sharing Duties Across Time, Borders, and Unequal Contributions
+- **Domain:** ethics-philosophy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Examine how climate change tests theories of justice when harms, benefits, capabilities, and responsibility are distributed across nations, classes, species, and generations. Compare polluter-pays, beneficiary-pays, ability-to-pay, rights, sufficiency, prioritarian, precautionary, and intergenerational approaches to mitigation, adaptation, loss and damage, carbon budgets, and just transition. Distinguish normative justification from climate science and positive law, and test how uncertainty, historical emissions, non-identity, discounting, and representation of future people complicate fair collective action.
+- **Status:** proposed
+
+## Candidate: Historiography and Historical Method -- How Sources, Archives, and Narrative Support Claims About the Past
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.8, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how historians turn incomplete and contested traces into warranted accounts through source criticism, contextualization, corroboration, chronology, comparison, causal argument, and engagement with prior scholarship. Examine archives, silences, oral history, material evidence, quantitative records, periodization, counterfactuals, schools of interpretation, public history, and the ethical treatment of subjects and communities. Show how digitization and generative AI change access and verification without removing uncertainty, and distinguish disciplined historical interpretation from memory, propaganda, antiquarian collection, or fictional reconstruction.
+- **Status:** proposed
+
+## Candidate: Digital Transformation and Technology Adoption -- Turning New Tools Into Organizational Capability
+- **Domain:** business-management-strategy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.8/10.0 (gap=9.5, compounding=9.8, timeliness=10.0, balance=10.0)
+- **Scope:** Explain why technology adoption creates value only when firms redesign processes, skills, decision rights, data practices, incentives, and business models around the tool. Compare pilot selection, portfolio governance, build-buy-partner choices, legacy integration, workforce adoption, cybersecurity, measurement, scaling, and retirement, showing how local successes can fail at enterprise scale. Distinguish technology strategy as organizational execution from the technical design of the technology itself, and connect adoption to innovation management, organizational design, resource allocation, and operational learning.
+- **Status:** proposed
+
+## Candidate: Integrated Financial Modeling -- Linking Statements, Operating Drivers, Scenarios, and Model Risk
+- **Domain:** finance
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.8, timeliness=9.3, balance=10.0)
+- **Scope:** Explain how an integrated financial model links operating assumptions, revenue and cost schedules, working capital, taxes, capital expenditure, financing, and the income statement, balance sheet, and cash flow statement. Cover historical normalization, drivers, circularity, scenarios, sensitivities, checks, error controls, documentation, versioning, and interpretation without presenting a forecast as certainty. Distinguish corporate-finance modeling from valuation methodology and accounting manipulation, and show how purpose, auditability, and model governance determine whether a spreadsheet supports or distorts decisions.
+- **Status:** proposed
