@@ -23,7 +23,7 @@ links:
 
 **A fleet memory system becomes simpler and more trustworthy when one native engine owns evidence and its derivatives, personal capture stays automatic, and sharing remains a deliberate act rather than an invisible replication pipeline.**
 
-This is an implementation blueprint and a lesson about ownership. It describes the deployed Hindsight memory system for VPS-hosted Hermes profiles, with observation-only recall and the configuration-only cross-session scope workaround verified on 2026-09-12. It is organized by agent role, not by a roster or a hand-maintained bank count. Profile membership can change without changing the design. An agent on another machine, an unconfigured profile, and a temporary delegated worker are not implicitly enrolled merely because they belong to the wider fleet.
+This is an implementation blueprint and a lesson about ownership. It describes the deployed Hindsight memory system for VPS-hosted Hermes profiles, with observation-only recall and the configuration-only cross-session scope workaround verified on 2026-09-12. The server upgrade to Hindsight 0.10.2 and the move of its memory LLMs to the Claude subscription were verified on 2026-09-29. It is organized by agent role, not by a roster or a hand-maintained bank count. Profile membership can change without changing the design. An agent on another machine, an unconfigured profile, and a temporary delegated worker are not implicitly enrolled merely because they belong to the wider fleet.
 
 Hindsight is the external durable-memory engine. Hermes is its client and the agent runtime. PostgreSQL holds the memory data. Dedicated embedding and reranking models support retrieval; separately configured generative models extract facts, consolidate observations, and reason over evidence. The repositories remain the authoritative home for governance and authored research. These are complementary responsibilities, not interchangeable databases.
 
@@ -44,6 +44,8 @@ The initial local checks included Compose image references and mounts; the runni
 The observation-only revision was checked against installed Hermes commit `0b8daf30aae1d0b129ede9b857cac2158eb50324`. Fresh native providers for every enrolled VPS profile requested only observations and returned context through `MemoryManager.prefetch_all` within its eight-second deadline in the sampled checks. Other profile fields were verified unchanged. This establishes the configured retrieval path, not hot activation in an already-open Desktop session or universal semantic accuracy.
 
 The subsequent scope audit on the same installed commit corrected an earlier claim in this blueprint. Although every enrolled personal profile requested `observation_scopes: shared`, the Hermes normalizer returned `None`, omitted the field from actual retain payloads, and produced session-tagged observations. The server was consolidating successfully with no reported backlog; the defect was request shaping, not scheduling. The authorized configuration-only workaround below passed fresh initialization and request-shape checks for every enrolled profile. In a disposable bank, two separate native provider sessions retained the same synthetic project policy and produced one observation with two supporting source facts, one from each session. Native observation-only recall returned that policy. The fixture bank was deleted and its absence verified; production sources and old observations were not rewritten.
+
+The 2026-09-29 revision upgraded the server from 0.9.2 to 0.10.2 in place after a readable PostgreSQL dump; the schema migrated on startup and only the API container was recreated. The official 0.10.2 image still bundles Claude Code 2.1.150, which cannot run current Claude models, so the deployed image adds exactly one layer raising `claude-agent-sdk` to 0.2.161 (bundled Claude Code 2.1.284). Verification covered the provider's startup check, a structured-output call and a tool-calling call through Hindsight's own `claude-code` provider, a native reflect, and a real retain whose extraction, consolidation and recall completed on the new route. The catalog Hermes plugin 1.0.1 was re-checked: it still drops `"shared"` and `[[]]` and still preserves the named-scope workaround below.
 
 This extends the earlier reflection `20260810T112711Z`, **Shared Memory Is an Operations Problem**: configuring a feature is not proof that the consumer receives it. The earlier Mnemosyne insights correctly emphasized end-to-end verification, but their relay, local-replica, publishing-job, and vector-distribution anatomy is historical for migrated VPS profiles.
 
@@ -107,11 +109,14 @@ The service root is `/srv/hindsight/`. Profile connection settings remain in Her
 | `/srv/hindsight/compose.yaml` | Defines the database and Hindsight API services, pinned images, mounts, nonsecret model settings, and resource controls | Deployment configuration; inspect before changing the service |
 | `/srv/hindsight/data/postgres/` | PostgreSQL data, including documents, facts, entities, vectors, observations, model/page records, and native operation state | Authoritative mutable memory store; not a Git folder or disposable cache |
 | `/srv/hindsight/cache/` | Hindsight model-download/cache files | Reusable disk cache; distinct from models already loaded in RAM |
-| `/srv/hindsight/auth/codex/` | Dedicated Hindsight Codex authentication state | Private, writable credential state; never publish its contents |
+| `/srv/hindsight/build/Dockerfile` | Recipe for the deployed image: official Hindsight release plus a newer Claude Agent SDK | The only local image change; bump either version and rebuild |
+| `/srv/hindsight/secrets/claude.env` | Hindsight's own one-year Claude subscription token (`CLAUDE_CODE_OAUTH_TOKEN`) | Local-only; created and renewed by the setup script, never printed or committed |
 | `/srv/hindsight/secrets/service.env` | Hindsight service secrets | Local-only; not blueprint content or a shared artifact |
 | `/srv/hindsight/secrets/postgres.env` | PostgreSQL initialization/access secrets | Local-only; never print or commit values |
 | `/srv/hindsight/secrets/` | Other approved client/service credential material | Use through the authorized credential path, not by copying secrets into instructions |
-| `/srv/hindsight/tools/codex/` | Local Codex CLI installation used for the service's sign-in workflow | Authentication utility, not the memory database or a custom memory worker |
+| `/srv/hindsight/tools/claude-token-setup.sh` | Creates or renews the Claude token through Claude Code's browser sign-in | Run as `hermes`, then recreate the API service |
+| `/srv/hindsight/backups/` | PostgreSQL dumps taken before upgrades | Point-in-time rollback media on the same host, not disaster recovery |
+| `/srv/hindsight/auth/codex/`, `/srv/hindsight/tools/codex/` | Retired Codex sign-in route | Unused since 2026-09-29; kept only for rollback |
 | `/srv/hindsight/README.md` | Lean deployment entry point | Orientation; effective Compose/profile/bank settings still need inspection |
 | `/srv/hindsight/migration-result.json` | Receipt for the historical native import | Historical outcome, not a live inventory counter |
 | `/srv/hindsight/deployment-result.json` | Cutover and retirement receipts | Historical deployment evidence; earlier intermediate failure fields require chronology |
@@ -119,7 +124,7 @@ The service root is `/srv/hindsight/`. Profile connection settings remain in Her
 | `/srv/hindsight/retirement-jobs.json` | Retired-job record | Not an active scheduler or authorization to restore old jobs |
 | `/srv/hindsight/.gitignore` | Exclusion intent for sensitive/generated material | Does not by itself establish that this service directory is versioned |
 
-The Compose bind mappings are significant: host `data/postgres/` is mounted at `/var/lib/postgresql/18/docker`; host `cache/` at `/home/hindsight/.cache`; host `auth/codex/` at `/home/hindsight/.codex`. These are the actual deployed mappings, not the earlier proposed mount paths. Docker image layers, container runtime metadata, and container logs remain under Docker's own management. No separate knowledge-page filesystem mirror is installed by this blueprint.
+The Compose bind mappings are significant: host `data/postgres/` is mounted at `/var/lib/postgresql/18/docker`; host `cache/` at `/home/hindsight/.cache`. Credentials enter through Compose env files, not mounts. These are the actual deployed mappings, not the earlier proposed mount paths. Docker image layers, container runtime metadata, and container logs remain under Docker's own management. No separate knowledge-page filesystem mirror is installed by this blueprint.
 
 For a named profile, define `P=/home/hermes/.hermes/profiles/<profile>`:
 
@@ -135,7 +140,7 @@ For a named profile, define `P=/home/hermes/.hermes/profiles/<profile>`:
 | Configured workspace `memory/` and `identity/` | Authored session learning and identity history under Git |
 | `P/skills/` | Profile-specific operational procedures and learned verification workflows |
 
-The source implementation is in the Hermes installation's `plugins/memory/hindsight/`; the inspected entry point is `/home/hermes/.hermes/hermes-agent/plugins/memory/hindsight/__init__.py`. `agent/memory_manager.py` owns the host's provider lifecycle. Native MCP discovery and dispatch live in `tools/mcp_tool_discovery.py` and `tools/mcp_tool_handlers.py`. These are reference locations, not invitations to patch installed core code.
+The client implementation is the catalog `hindsight` plugin, installed per profile at `P/plugins/hindsight/` (it moved out of the Hermes tree); its entry point is `__init__.py`, with setting normalization in `settings.py`. `agent/memory_manager.py` owns the host's provider lifecycle. Native MCP discovery and dispatch live in `tools/mcp_tool_discovery.py` and `tools/mcp_tool_handlers.py`. These are reference locations, not invitations to patch installed core code.
 
 ### Configuration ownership and precedence
 
@@ -192,22 +197,24 @@ Consolidation is event-driven after retention and relevant source changes, not a
 
 | Component | Deployed setting | Work performed |
 |:--|:--|:--|
-| Hindsight server | `ghcr.io/vectorize-io/hindsight:0.9.2`, digest pinned in Compose | Native API, MCP, memory processing and worker lifecycle |
+| Hindsight server | Official `ghcr.io/vectorize-io/hindsight:0.10.2` (digest pinned in `build/Dockerfile`) plus `claude-agent-sdk` 0.2.161 | Native API, MCP, memory processing and worker lifecycle |
 | Database | `pgvector/pgvector:pg18`, digest pinned in Compose | Durable relational, full-text and vector-backed memory state |
 | Embedder | `BAAI/bge-small-en-v1.5`, local CPU provider | Converts queries and evidence to the same English-oriented vector space |
 | Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2`, local CPU provider | Scores query/candidate pairs after candidate retrieval |
 | Normal recall candidate cap | `HINDSIGHT_API_RERANKER_MAX_CANDIDATES_MID=30` | Bounds reranking work for `mid` recall, not stored memory or context-token capacity |
-| Retain extraction | `openai-codex`, `gpt-5.6-luna`, `high` | Extracts structured facts and their framing from retained text |
-| Observation consolidation | `gpt-5.6-terra`, `high` | Refines observations and adjudicates near-duplicate reconciliation |
-| Reflect and generated-page/model synthesis | `gpt-5.6-terra`, `high` | Reasons across retrieved evidence and writes the requested answer/document |
+| Retain extraction | `claude-code`, `claude-sonnet-5-5`, effort `high` | Extracts structured facts and their framing from retained text |
+| Observation consolidation | `claude-code`, `claude-sonnet-5-5`, effort `high` | Refines observations and adjudicates near-duplicate reconciliation |
+| Reflect and generated-page/model synthesis | `claude-code`, `claude-sonnet-5-5`, effort `high` | Reasons across retrieved evidence and writes the requested answer/document |
+
+The `claude-code` provider runs the bundled Claude Code client once per call, in a fresh temporary configuration directory, and authenticates it with the service's own `CLAUDE_CODE_OAUTH_TOKEN` from `claude setup-token`. It therefore does not share the host's interactive Claude Code login. It has no per-operation reasoning-effort setting (Hindsight logs and ignores one), so effort is set once for all three operations through Claude Code's `CLAUDE_CODE_EFFORT_LEVEL`. Usage draws from the same Claude Max allowance as interactive Claude chats. The token expires after about a year and is renewed with the setup script.
 
 The embedder and reranker load in the long-lived Hindsight process and reuse disk caches and resident models. They are not reloaded for each ordinary Hermes turn. A separate embedding daemon was therefore unnecessary. The existing `brain-embed.service` continues to serve repository search; it is neither Hindsight's memory server nor a protocol-compatible substitute merely because it also produces embeddings.
 
-A chat-model change does not change these memory routes. Hermes conversation compression is another auxiliary operation, separately configured in Hermes; it is not Hindsight consolidation. Fixing a compaction timeout does not repair memory retrieval, and changing a memory model does not repair conversation compression. Dedicated Codex sign-in supplies Hindsight's remote inference route. Self-hosted storage and local embeddings do not make extraction or reflection local, free of usage, or independent of provider availability.
+A chat-model change does not change these memory routes. Hermes conversation compression is another auxiliary operation, separately configured in Hermes; it is not Hindsight consolidation. Fixing a compaction timeout does not repair memory retrieval, and changing a memory model does not repair conversation compression. Hindsight's dedicated Claude token supplies its remote inference route. Self-hosted storage and local embeddings do not make extraction or reflection local, free of usage, or independent of provider availability.
 
 The measured recommendation was to keep the deployed retrieval pair. Larger English embeddings and EmbeddingGemma were evaluated, but stronger model-stage scores did not establish a better complete retrieval path. MiniLM-L12 was a plausible quality-first alternative, not an automatic upgrade: the small native fixture showed a modest ranking gain and greater latency. Removing neural reranking was faster but materially worse on that fixture.
 
-For LLM work, Luna-low extraction and Luna-high consolidation were promising alternatives; Terra-high reflection remained the recommendation. Those extraction/consolidation changes were **not deployed**, and their newly combined configuration was not tested as one complete production pipeline. The retained live settings above are the blueprint. Small, non-blinded fixtures do not establish a universal ranking, and more reasoning did not monotonically improve fidelity: schema-valid outputs could still lose a condition or reverse polarity.
+The earlier GPT comparisons (Luna, Terra, Sol) informed the Codex-era settings; they do not rank Claude models. The move to Sonnet 5.5 for all three operations was an operator choice to consolidate on one subscription, verified for correct operation, not benchmarked for memory quality against the previous route. The live settings above are the blueprint. Small, non-blinded fixtures do not establish a universal ranking, and more reasoning did not monotonically improve fidelity: schema-valid outputs could still lose a condition or reverse polarity.
 
 ### Native shared MCP
 
@@ -271,7 +278,7 @@ Choose a mental model when a recurring standing question deserves a compact brie
 
 A new persistent profile needs an explicitly owned bank, native provider selection, and reviewed personal capture/recall settings. For cross-session personal consolidation on the inspected adapter, provision the stable retain tag and explicit named scope above; do not copy the ineffective `"shared"` keyword from an older configuration. Re-evaluate this workaround against released Hermes support before replacing it. Core-role membership additionally justifies a bank-bound shared MCP connection and a reviewed allowlist; task-runner membership does not. Verify the effective profile home rather than using the default profile by accident. Temporary delegation needs a separate scope check, not automatic inheritance of this provisioning recipe.
 
-Installation or reconstruction starts from official Hermes and Hindsight releases, the Compose storage mappings, the local authentication workflow, and native bank configuration. Establish durable storage and service access before attaching profiles. Then verify a personal write-to-consumer round trip and, for a core role, a deliberate shared round trip. Do not reinstate the retired custom plugin, replica stores, publisher cron, or migration directory. These are reconstruction responsibilities, not authorization to deploy from reading this document.
+Installation or reconstruction starts from official Hermes and Hindsight releases (plus the one-layer `build/Dockerfile` while the official image bundles an outdated Claude Code), the Compose storage mappings, the Claude token setup script, and native bank configuration. Establish durable storage and service access before attaching profiles. Then verify a personal write-to-consumer round trip and, for a core role, a deliberate shared round trip. Do not reinstate the retired custom plugin, replica stores, publisher cron, or migration directory. These are reconstruction responsibilities, not authorization to deploy from reading this document.
 
 Operationally, service health, client activation, data migration, and model-consumer delivery remain separate claims. Inspect `compose.yaml`, profile files, exact bank overrides and runtime attachment in that order when their relationship is unclear. Use Hermes's supported configuration CLI for approved `config.yaml` changes; keep credentials local. Configuration readback should project only necessary nonsecret fields instead of dumping credential-bearing files into shared logs.
 
@@ -333,6 +340,8 @@ The cheapest ongoing falsification is a focused, authorized check at the boundar
 - [Hermes memory-provider documentation](https://hermes-agent.nousresearch.com/docs/user-guide/features/memory-providers) -- provider selection and host integration; interpret broad prose against the inspected implementation.
 - [Hermes native MCP documentation](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp) -- discovery, filtering, reload and sampling.
 - [Hindsight v0.9.2 configuration](https://github.com/vectorize-io/hindsight/blob/v0.9.2/hindsight-api-slim/hindsight_api/config.py) -- operation-specific settings and defaults; live bank overrides remain authoritative.
+- [Hindsight models: Claude Code setup](https://hindsight.vectorize.io/developer/models) -- `claude-code` provider for Claude Pro/Max; personal-use caveat.
+- [Hindsight v0.10.2 Claude Code provider](https://github.com/vectorize-io/hindsight/blob/v0.10.2/hindsight-api-slim/hindsight_api/engine/providers/claude_code_llm.py) -- per-call client, isolated config directory, no effort setting.
 - [Hindsight v0.9.2 observations](https://raw.githubusercontent.com/vectorize-io/hindsight/v0.9.2/hindsight-docs/docs/developer/observations.mdx) -- consolidation, scopes, source lifecycle and reconciliation.
 - [Hindsight v0.9.2 retain scopes](https://raw.githubusercontent.com/vectorize-io/hindsight/v0.9.2/hindsight-docs/docs/developer/api/retain.mdx) -- named custom scopes, `shared`, and the distinction between `[[]]` and `[]`.
 - [Merged Hindsight scope implementation #2202](https://github.com/vectorize-io/hindsight/pull/2202) -- supported request-level solution; explicitly no new global environment flag.
