@@ -1,17 +1,32 @@
 ---
 name: repo-search
-description: "Use when finding knowledge in our shared repositories."
+description: "Use when searching brain, forge or investing-hub knowledge."
 user-invocable: true
 disable-model-invocation: false
 ---
 
 # Repository Search
 
-Use for prior knowledge, research, decisions, reflections or artifacts in the
-shared repositories. Choose by the question's subject and requested provenance,
-not by the agent's identity or current working directory.
+Entry point for knowledge in the shared repositories: choose the repository,
+then load and follow its query skill.
+
+## When to Invoke
+
+- Before writing, deciding or answering from memory, to check for prior work,
+  research, decisions or reflections.
+- The task names or implies the brain, Library, governance, forge,
+  investing-hub, a proposal, insight, evaluation or reflection, a company
+  thesis, portfolio or watchlist.
+- The right repository is unclear, or the answer may span repositories.
+
+Not for public-web research (`web-search`), personal workspace files or
+conversation history. When the repository is already clear, loading its query
+skill directly is equivalent.
 
 ## Choose the repository
+
+Choose by the question's subject and requested provenance, not by the agent's
+identity or current working directory.
 
 | Need | Repository and skill to load |
 |---|---|
@@ -35,10 +50,9 @@ not prove a proposed system is installed or running.
    first or ask when choosing would materially change the answer. An empty
    result is not permission to substitute another repository silently.
 
-Personal workspace knowledge and conversation history need their own retrieval
-routes. Public-web research uses `web-search`; do not send private repository
-content to an external search service. Searching does not authorize edits,
-index rebuilds, implementation, or deployment.
+Do not send private repository content to an external search service.
+Searching does not authorize edits, index rebuilds, implementation, or
+deployment.
 
 ## Verification
 
