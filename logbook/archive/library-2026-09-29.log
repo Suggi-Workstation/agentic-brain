@@ -107,3 +107,114 @@ No topic was selected, researched, written, or removed in this cycle.
 EMPTY: Queue snapshot contained no proposed candidates.
 No topic was researched, scored, written, or removed.
 
+
+<!-- Appended 2026-09-29 06:03 UTC -- ENT-666 to ENT-685 -->
+
+## [ENT-666] | 2026-09-27 05:01 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was selected, researched, scored, written, or removed.
+
+## [ENT-667] | 2026-09-27 05:31 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Candidate queue contains no proposed entries.
+No topic was selected, scored, researched, written, or removed.
+
+## [ENT-668] | 2026-09-27 06:02 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was researched, scored, written, or removed.
+
+## [ENT-669] | 2026-09-27 06:31 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: No proposed candidates were available in library/candidate-queue.md; no topic was selected or written.
+
+## [ENT-670] | 2026-09-27 07:01 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was researched, scored, written, or removed.
+
+## [ENT-671] | 2026-09-27 07:31 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Candidate queue contains no proposed entries.
+Writer cycle: no candidate selected; no topic researched or published.
+
+## [ENT-672] | 2026-09-27 08:02 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was selected, researched, scored, written, or removed.
+
+## [ENT-673] | 2026-09-27 08:31 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: No proposed candidates in library/candidate-queue.md; writer cycle exited without topic publication.
+
+## [ENT-674] | 2026-09-27 09:02 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was selected, researched, scored, written, or removed.
+
+## [ENT-675] | 2026-09-27 09:32 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was selected, researched, scored, written, or removed.
+
+## [ENT-676] | 2026-09-27 10:02 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was selected, researched, scored, written, or removed.
+
+## [ENT-677] | 2026-09-27 10:32 UTC | Librarian | library | ref: library/candidate-queue.md
+EMPTY: Queue snapshot contained no proposed candidates.
+No topic was researched, scored, written, or removed.
+
+## [ENT-678] | 2026-09-27 13:01 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 6 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Inventory Manipulation and Cost Capitalization -- Detecting Overstated Assets and Distorted Cost of Goods Sold (8.9): gap=8.4, compounding=9.0, timeliness=8.8, balance=10.0
+- Li Lu -- Concentration, Fundamental Research, and Patient Global Value Investing (9.2): gap=9.2, compounding=9.5, timeliness=8.0, balance=10.0
+- GDP and National Accounts -- Measuring Output, Income, and Living Standards (9.6): gap=9.6, compounding=9.6, timeliness=9.3, balance=10.0
+- Stochastic Processes and Markov Chains -- Modeling Random Systems Through Time (9.4): gap=9.4, compounding=9.8, timeliness=8.5, balance=10.0
+- Risk-Adjusted Performance Measurement -- Sharpe, Sortino, and Benchmark-Aware Ratios (9.5): gap=9.3, compounding=9.8, timeliness=9.2, balance=10.0
+- General Relativity -- How Spacetime Geometry Produces Gravity (9.6): gap=9.4, compounding=9.6, timeliness=9.8, balance=10.0
+Domain balance: accounting-financial-shenanigans, investors, macro-micro, mathematics-statistics, portfolio-risk-management, and science (12 topics each) to the same six domains (12 topics each).
+
+## [ENT-679] | 2026-09-28 07:01 UTC | Librarian | library | ref: library/accounting-financial-shenanigans/inventory-manipulation-and-cost-capitalization.md | see: 20260928T065722Z
+Wrote topic Inventory Manipulation and Cost Capitalization -- Detecting Overstated Assets and Distorted Cost of Goods Sold to accounting-financial-shenanigans. Weighted score: 9.6/10.0
+(core=9.8, scope=9.7, value=9.3, authority=9.6).
+Similarity overlap: 47%.
+Sources: 11 (11 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-680] | 2026-09-28 15:43 UTC | Librarian | library | ref: library/investors/li-lu-concentration-fundamental-research-and-patient-global-value-investing.md | see: 20260928T153831Z
+Wrote topic Li Lu -- Concentration, Fundamental Research, and Patient Global Value Investing to investors. Weighted score: 9.7/10.0
+(core=9.8, scope=9.8, value=9.2, authority=9.5).
+Similarity overlap: 35%.
+Sources: 11 (11 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-681] | 2026-09-28 15:46 UTC | Librarian | library | ref: library/psychology-behavior/attention-salience-and-cognitive-control.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Attention, Salience, and Cognitive Control -- What Enters Awareness Shapes What We Decide (psychology-behavior): rewritten (corrected citation formatting, load-theory scope, rTMS and CDA limitations, attentional-capture consensus, salience-network evidence, and applied-inference boundaries; updated sources and Evidence/Implications sections)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-682] | 2026-09-28 16:05 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 6 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- The Hydrological Cycle and Freshwater Systems -- How Water Connects Atmosphere, Land, Ice, and Oceans (9.7): gap=9.4, compounding=9.8, timeliness=10.0, balance=10.0
+- Coding Agent Workflows -- From Repository Context to a Verified Patch (9.7): gap=9.4, compounding=9.8, timeliness=10.0, balance=10.0
+- Translation and Cross-Cultural Communication -- Preserving Meaning Across Languages and Contexts (9.6): gap=9.5, compounding=9.4, timeliness=9.8, balance=10.0
+- Philosophy of Language -- How Meaning, Reference, and Speech Acts Connect Words to the World (9.6): gap=9.5, compounding=9.8, timeliness=9.0, balance=10.0
+- Peer Learning and Collaborative Education -- Structure Determines Whether Groups Learn (9.5): gap=9.4, compounding=9.3, timeliness=9.4, balance=10.0
+- Operating Leverage and Cost Structure -- How Fixed Costs Amplify Growth and Fragility (9.4): gap=9.3, compounding=9.4, timeliness=9.1, balance=10.0
+Domain balance: business-management-strategy, coding-agentic-ai, communication, earth-climate, education-learning, and ethics-philosophy (13 topics each) to the same six domains (13 topics each).
+
+## [ENT-683] | 2026-09-28 16:09 UTC | Librarian | library | ref: library/macro-micro/gdp-and-national-accounts-measuring-output-income-and-living-standards.md | see: 20260928T160407Z
+Wrote topic GDP and National Accounts -- Measuring Output, Income, and Living Standards to macro-micro. Weighted score: 9.9/10.0
+(core=10.0, scope=10.0, value=9.4, authority=9.8).
+Similarity overlap: 30%.
+Sources: 12 (12 high, 0 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-684] | 2026-09-28 16:30 UTC | Librarian | library | ref: library/psychology-behavior/choice-overload.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Choice Overload Is Conditional -- More Options Can Improve Matching or Increase Deferral and Regret (psychology-behavior): rewritten (corrected 1 outdated working-paper reference, updated Evidence and Sources with 2 current studies).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-685] | 2026-09-28 16:54 UTC | Librarian | library | ref: library/mathematics-statistics/stochastic-processes-and-markov-chains.md | see: 20260928T163625Z
+Wrote topic Stochastic Processes and Markov Chains -- Modeling Random Systems Through Time to mathematics-statistics. Weighted score: 9.9/10.0
+(core=10.0, scope=10.0, value=9.5, authority=9.8).
+Similarity overlap: 25%.
+Sources: 14 (14 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
