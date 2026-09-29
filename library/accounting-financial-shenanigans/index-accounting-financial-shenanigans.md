@@ -1,6 +1,6 @@
 # Accounting Financial Shenanigans -- Topics
 
-14 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
+15 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
 
 - [Acquisition Accounting Tricks -- How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality](acquisition-accounting-tricks.md) -- [reviewed: 2026-09-09] -- Acquisition accounting can obscure operating performance because purchase price allocation, contingent payments, and acquired liabilities affect reported earnings long after a deal closes. The forensic task is to distinguish legitimate estimates from unsupported valuations, reserve releases, and classifications that flatter results.
 
@@ -19,6 +19,8 @@
 - [Non-GAAP Metrics -- How Adjusted Earnings Became the Standard Story While GAAP Became the Footnote](non-gaap-metrics-and-pro-forma-manipulation.md) -- [reviewed: never] -- Non-GAAP financial metrics -- "adjusted earnings," "pro-forma net income," "adjusted EBITDA" -- began as a legitimate supplement to help investors see through one-time distortions in GAAP accounting. Over the past two decades they have metastasized into the primary narrative companies use to present their performance, with the gap between GAAP and non-GAAP earnings widening dramatically.
 
 - [Off-Balance-Sheet Shenanigans -- How Companies Hide Billions in Plain Sight](off-balance-sheet-shenanigans.md) -- [reviewed: never] -- Off-balance-sheet shenanigans are the techniques companies use to keep liabilities, debt, and losses out of their consolidated financial statements by placing them in legally separate entities or structuring transactions to avoid recognition rules. These techniques do not make the obligations disappear -- they simply move them to footnotes, contingent disclosures, and related-party notes where casual readers never look.
+
+- [Pension Accounting Assumptions -- How Discount Rates and Expected Returns Reshape Earnings and Obligations](pension-accounting-assumptions.md) -- [reviewed: never] -- Defined-benefit accounting converts a long stream of contingent payments into a present obligation, a funded-status asset or liability, and periodic cost. Discount rates, expected asset returns, salary growth, mortality, and health-care trends can move those reported amounts without producing the same-period cash movement, so the forensic task is to reconcile assumptions, roll-forwards,...
 
 - [Related-Party Transactions -- How Insiders Hide Self-Dealing in Plain Sight](related-party-transactions.md) -- [reviewed: never] -- Related-party transactions (RPTs) are deals between a company and the people who control it -- its management, directors, controlling shareholders, and their families and affiliated entities. Because one party to the deal can influence both sides of the table, the arm's- length assumption that anchors fair-value logic and market pricing does not apply, and the accounting standards say so explicitly.
 
