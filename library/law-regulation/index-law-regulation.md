@@ -1,6 +1,6 @@
 # Law Regulation -- Topics
 
-14 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+15 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
 
 - [Administrative Law Makes Agency Power Operational but Keeps It Legally Bounded](administrative-law-and-agency-rulemaking.md) -- [reviewed: 2026-09-22] -- Administrative law is the framework through which United States federal agencies turn congressional statutes into generally applicable rules, case-specific orders, licenses, sanctions, and other public actions. The Administrative Procedure Act supplies default procedures for rulemaking and adjudication, while organic statutes grant each agency its substantive authority and courts police the resulting boundaries.
 
@@ -13,6 +13,8 @@
 - [Corporate Law and Governance -- The Legal Architecture That Separates Ownership From Control and Why It Determines Who Really Runs the Modern Firm](corporate-law-governance.md) -- [reviewed: never] -- Corporate law is the legal framework that creates the corporation as an artificial legal person -- an entity that can own property, enter contracts, sue and be sued, and exist perpetually beyond its founders. At the heart of this framework is a fundamental tension identified by Adolf Berle and Gardiner Means in 1932: the separation of ownership (shareholders) from control (managers) creates an agency problem where those who run the firm may not act in the interests of those who own it.
 
 - [Criminal Law and Justice Systems -- Why Most Cases Never See a Trial and What Punishment Actually Achieves](criminal-law-justice-systems.md) -- [reviewed: never] -- Criminal law is the body of law that defines offenses against the state and prescribes the consequences. Beneath the familiar surface of trials and jury verdicts lies a system where over 90% of cases are resolved by plea bargain, where the theory of what punishment achieves is deeply contested, and where two fundamentally different procedural traditions -- adversarial and inquisitorial -- shape everything from how evidence is gathered to who controls the narrative in court.
+
+- [Data Privacy Law Allocates Processing Power Through Duties, Rights, and Overlapping Enforcement](data-privacy-and-protection-law.md) -- [reviewed: never] -- Data privacy law does not create one universal rule of secrecy or make consent the answer to every use of personal information. It allocates power over collection, use, disclosure, retention, profiling, and transfer through purpose limits, lawful grounds, organizational duties, individual rights, and remedies that differ materially across jurisdictions.
 
 - [Environmental Law and Climate Treaties -- Why the World Keeps Negotiating Agreements It Cannot Enforce](environmental-law-climate-treaties.md) -- [reviewed: never] -- Environmental law and climate treaties constitute the body of international legal instruments designed to address anthropogenic climate change and broader environmental degradation. From the 1992 UN Framework Convention on Climate Change through the Kyoto Protocol, the Copenhagen collapse, the Paris Agreement, and the Glasgow Climate Pact, the climate regime has evolved through three distinct...
 
