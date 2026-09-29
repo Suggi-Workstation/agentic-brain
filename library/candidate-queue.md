@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Currency Hedging in Global Portfolios -- Managing Exchange-Rate Risk Without Erasing Diversification
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.5, compounding=9.7, timeliness=9.8, balance=10.0)
-- **Scope:** Explain how foreign-currency movements alter home-currency portfolio returns and why the appropriate hedge can differ between bonds, equities, liabilities, and horizons. Compare forwards, futures, swaps, and options; analyze hedge ratios, carry, basis, collateral, roll costs, liquidity, and interactions with asset returns. Show how full, partial, and dynamic hedges change volatility and diversification while separating portfolio-level currency management from directional foreign-exchange speculation.
-- **Status:** proposed
-
 ## Candidate: Reading Acquisition and Literacy Instruction -- How Learners Turn Print Into Language and Meaning
 - **Domain:** education-learning
 - **Proposed by:** Librarian
