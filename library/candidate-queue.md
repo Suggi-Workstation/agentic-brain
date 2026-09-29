@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Public Speaking and Presentation Design -- Turning Spoken Ideas Into Audience Understanding and Action
-- **Domain:** communication
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.5/10.0 (gap=9.8, compounding=9.3, timeliness=9.0, balance=10.0)
-- **Scope:** Explain public speaking as the design and delivery of spoken communication for a particular audience, purpose, setting, and time limit. Integrate argument structure, openings, signposting, examples, vocal and nonverbal delivery, rehearsal, anxiety management, slides, demonstrations, accessibility, questions, and remote or hybrid formats. Distinguish presentation craft from rhetoric as general persuasive theory, and evaluate success through audience comprehension, recall, trust, and appropriate action rather than speaker charisma alone.
-- **Status:** proposed
-
 ## Candidate: Volcanology -- Magma, Eruptions, Monitoring, and Cascading Hazards
 - **Domain:** earth-climate
 - **Proposed by:** Librarian
