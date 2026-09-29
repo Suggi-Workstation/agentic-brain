@@ -185,3 +185,27 @@
 - **Discovery score:** 9.3/10.0 (gap=9.2, compounding=9.7, timeliness=8.7, balance=10.0)
 - **Scope:** Analyze William Thorndike's The Outsiders as a comparative study of eight chief executives whose decentralized operations and unconventional capital-allocation decisions produced exceptional long-term shareholder returns. Distill the book's emphasis on per-share value, cash flow, opportunistic repurchases, acquisitions, divestitures, leverage, and independent judgment while testing survivorship bias, benchmark choice, and the transferability of its cases. Treat the book as an artifact and assess its evidence and enduring influence, cross-referencing separate topics on capital allocation and management quality without duplicating them.
 - **Status:** proposed
+
+## Candidate: Human Factors Engineering and Ergonomics -- Designing Physical Systems for Human Capabilities and Limits
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.8, timeliness=9.7, balance=10.0)
+- **Scope:** Explain how human factors engineering and ergonomics translate human physical, cognitive, and organizational capabilities into requirements for equipment, controls, workplaces, procedures, and maintenance. Cover anthropometry, biomechanics, workload, situational awareness, alarm and interface design, usability, fatigue, error-tolerant design, task analysis, testing, and feedback from operations. Connect human-system fit to safety, reliability, accessibility, and lifecycle performance while distinguishing engineering controls from psychology research, software-only design, and blaming operators for system failures.
+- **Status:** proposed
+
+## Candidate: Working Capital Management and the Cash Conversion Cycle -- Financing Operations Without Hiding Liquidity Risk
+- **Domain:** finance
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.5, compounding=9.8, timeliness=9.5, balance=10.0)
+- **Scope:** Explain how receivables, inventory, payables, cash buffers, and short-term funding determine the amount and timing of capital tied up in operations. Develop the cash conversion cycle, seasonal and structural working-capital needs, liquidity policies, supplier and customer terms, financing instruments, stress tests, and trade-offs among growth, resilience, profitability, and counterparty relationships. Distinguish legitimate operating-cycle management from accounting manipulation, one-period window dressing, and valuation adjustments, connecting reported balances to cash-flow evidence and financing decisions.
+- **Status:** proposed
+
+## Candidate: The Protestant Reformation and Wars of Religion -- Print, Confession, and State Power in Early Modern Europe
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.6/10.0 (gap=9.8, compounding=9.7, timeliness=9.0, balance=10.0)
+- **Scope:** Trace how late medieval reform movements, printing, theology, princely politics, urban institutions, and popular mobilization fractured Latin Christianity in the sixteenth century. Compare Lutheran, Reformed, Anglican, Radical, and Catholic reform, then examine confessionalization, persecution, civil conflict, diplomacy, and the wars of religion through the Peace of Westphalia. Explain how religious change reshaped literacy, state formation, family life, political legitimacy, and toleration while avoiding a simple linear story from Reformation to secular modernity.
+- **Status:** proposed
