@@ -185,3 +185,19 @@
 - **Discovery score:** 9.6/10.0 (gap=9.8, compounding=9.7, timeliness=9.0, balance=10.0)
 - **Scope:** Trace how late medieval reform movements, printing, theology, princely politics, urban institutions, and popular mobilization fractured Latin Christianity in the sixteenth century. Compare Lutheran, Reformed, Anglican, Radical, and Catholic reform, then examine confessionalization, persecution, civil conflict, diplomacy, and the wars of religion through the Peace of Westphalia. Explain how religious change reshaped literacy, state formation, family life, political legitimacy, and toleration while avoiding a simple linear story from Reformation to secular modernity.
 - **Status:** proposed
+
+## Candidate: Durable Agent Execution -- Checkpointing, Idempotency, and Recovery Across Failures
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how long-running agent workflows preserve state, resume after crashes or timeouts, and retry work without losing progress or repeating external side effects. Cover checkpoints, event histories, deterministic replay, idempotency keys, leases, compensating actions, outbox patterns, human waits, cancellation, versioning, and recovery tests across model and tool calls. Distinguish durable execution from conversational memory, generic observability, and blind retry loops, showing how failure semantics make autonomous work safe enough for production.
+- **Status:** proposed
+
+## Candidate: The Wealth of Nations -- How Adam Smith Linked Specialization, Exchange, Institutions, and Prosperity
+- **Domain:** books
+- **Proposed by:** Librarian
+- **Date:** 2026-09-29
+- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.8, timeliness=10.0, balance=10.0)
+- **Scope:** Analyze Adam Smith's The Wealth of Nations as an eighteenth-century work of moral and political economy rather than a slogan for laissez-faire. Distill its arguments on division of labor, exchange, prices, wages, profit, rent, taxation, public works, empire, and the institutions that enable or distort commerce, while assessing tensions, historical limits, and later misreadings. Treat the book as an artifact, compare its major claims with Smith's broader moral philosophy, and cross-reference separate topics on capitalism, trade, and corporate governance without duplicating them.
+- **Status:** proposed
