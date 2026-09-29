@@ -1,6 +1,6 @@
 # Books -- Topics
 
-14 topics. Anchor: [anchor-books.md](anchor-books.md)
+15 topics. Anchor: [anchor-books.md](anchor-books.md)
 
 - [A Random Walk Down Wall Street -- Why Most Investors Cannot Beat the Market and What to Do About It](a-random-walk-down-wall-street.md) -- [reviewed: 2026-09-09] -- A Random Walk Down Wall Street, first published by Burton G. Malkiel in 1973 and updated through thirteen editions, argues that stock prices follow a random walk -- future price changes cannot be predicted from past price movements -- making it nearly impossible for most investors to consistently outperform broad market indexes.
 
@@ -13,6 +13,8 @@
 - [Influence: The Psychology of Persuasion -- Robert Cialdini Systematized Compliance Into Six Principles That Explain Why You Say Yes When You Meant to Say No](influence-psychology-of-persuasion.md) -- [reviewed: never] -- "Influence: The Psychology of Persuasion" (1984, revised and expanded 2021) is the product of Robert Cialdini's three-year program of participant observation inside sales organizations, fund-raising operations, and marketing departments. Cialdini did not study persuasion from a university office -- he trained at used-car dealerships, telemarketing boiler rooms, and charity fund-raising drives to learn how compliance professionals actually operate.
 
 - [Man's Search for Meaning -- Why Purpose, Not Pleasure, Is What Keeps People Alive](mans-search-for-meaning.md) -- [reviewed: never] -- Viktor Frankl's Man's Search for Meaning (1946) argues that the primary human drive is not pleasure, as Freud held, nor power, as Adler held, but the will to meaning -- and that even in the worst circumstances a person retains the freedom to choose their attitude toward what happens to them. The book combines a firsthand account of Frankl's years in Nazi concentration camps with the outline of logotherapy, the meaning-centered school of psychotherapy he founded.
+
+- [Poor Charlie's Almanack -- Editorial Design Turns Speeches Into a Practical Decision System](poor-charlies-almanack.md) -- [reviewed: never] -- Poor Charlie's Almanack is most useful not as a biography or an investment formula, but as Peter D. Kaufman's designed collection of Charlie Munger's speeches, commentary, examples, and retrospective notes. Its repeated mental models, cases, sidebars, and cross-disciplinary references turn dispersed practitioner wisdom into a memorable decision system, while the same editorial method leaves...
 
 - [Sapiens -- How Shared Fictions, Not Biology, Made Humans the Masters of the Planet](sapiens-a-brief-history-of-humankind.md) -- [reviewed: never] -- Yuval Noah Harari's "Sapiens: A Brief History of Humankind" (2014) argues that Homo sapiens conquered the world not through physical superiority or individual intelligence, but through a unique cognitive capacity: the ability to create and collectively believe in shared fictions. Money, nations, corporations, religions, and human rights are all "intersubjective realities" -- things that exist only because millions of people agree they exist.
 
