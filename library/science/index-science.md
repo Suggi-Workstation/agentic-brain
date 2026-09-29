@@ -1,6 +1,6 @@
 # Science -- Topics
 
-13 topics. Anchor: [anchor-science.md](anchor-science.md)
+14 topics. Anchor: [anchor-science.md](anchor-science.md)
 
 - [Cell Biology -- Compartmentalized, Dynamic Cells Sustain Life Through Coordinated Transport, Signaling, Division, and Death](cell-biology.md) -- [reviewed: 2026-09-22] -- Cell biology explains how cells organize chemical reactions, exchange matter and information, reproduce, and sometimes execute regulated death. The cell is the basic structural and functional unit of cellular life, but no single cell plan is universal: bacterial, archaeal, and eukaryotic cells solve the same functional problems with different degrees and kinds of compartmentalization ([1] [2] [4]).
 
@@ -21,6 +21,8 @@
 - [Neuroscience -- How the Brain Produces Mind Through Physical Processes That Are Increasingly Observable and Manipulable](neuroscience-brain-mind.md) -- [reviewed: never] -- Neuroscience is the scientific study of the nervous system -- its structure, function, development, and pathology -- and it rests on a single audacious premise: that every thought, memory, emotion, and decision is the product of physical processes in the brain that can be observed, measured, and understood.
 
 - [Abiogenesis Is a Systems Transition -- Chemistry Becomes Life Only When It Can Sustain Evolution](origin-of-life-and-abiogenesis.md) -- [reviewed: never] -- Abiogenesis investigates how nonliving chemistry could have produced bounded systems that maintain themselves, transmit heritable differences, and undergo Darwinian evolution. Experiments have established plausible modules -- organic synthesis, catalytic RNA, membrane self-assembly, and chemical selection -- but no accepted experiment or geological record yet supplies one continuous historical pathway from early-Earth feedstocks to autonomous evolving cells ([2] [6] [12]).
+
+- [Protein Folding and Proteostasis -- Sequence Constrains Structure, but Cells Must Manage the Entire Conformational Life Cycle](protein-folding-proteostasis.md) -- [reviewed: never] -- A protein's amino acid sequence constrains the conformations it can adopt, but sequence alone does not make cellular folding automatic, instantaneous, or permanently stable. Folding is a physical process on a many-state energy landscape, while proteostasis is the cellular system that coordinates synthesis, folding, trafficking, repair, sequestration, and degradation so that a changing proteome remains functional [1][2][3][4].
 
 - [Quantum Mechanics -- The Strangest Theory Ever Devised, and the Most Precisely Tested in History](quantum-mechanics.md) -- [reviewed: never] -- Quantum mechanics is the fundamental theory of nature at atomic and subatomic scales, describing a world where particles exist in multiple states simultaneously, observation changes what is observed, and entangled particles influence each other instantly across arbitrary distances. Despite predictions so counterintuitive that even Einstein resisted them, quantum mechanics has survived every...
 
