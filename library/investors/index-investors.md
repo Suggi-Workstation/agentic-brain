@@ -1,6 +1,6 @@
 # Investors -- Topics
 
-14 topics. Anchor: [anchor-investors.md](anchor-investors.md)
+15 topics. Anchor: [anchor-investors.md](anchor-investors.md)
 
 - [Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline](benjamin-graham.md) -- [reviewed: 2026-09-24] -- Benjamin Graham made security analysis a repeatable discipline by separating market price from business value, demanding evidence before purchase, and building protection against error into the price paid. His career joined research, teaching, fund management, and self-correction: methods he developed before the 1929 crash and refined afterward became the foundation for *Security Analysis*, *The Intelligent Investor*, and an unusually influential group of students and practitioners [1][2][3][4].
 
@@ -27,6 +27,8 @@
 - [Ray Dalio -- How a Near-Bankruptcy Forged the World's Largest Hedge Fund and a Philosophy of Radical Truth](ray-dalio.md) -- [reviewed: never] -- Ray Dalio built Bridgewater Associates from a two-bedroom New York apartment into the world's largest hedge fund, managing over $150 billion, by treating both markets and organizations as machines whose underlying principles can be discovered, codified, and systematically applied. His frameworks -- the Economic Machine model, risk parity and the All-Weather Portfolio, and a management philosophy...
 
 - [Seth Klarman -- The Reluctant Buyer Who Turned Risk Aversion Into a Four-Decade Compound Machine](seth-klarman.md) -- [reviewed: never] -- Seth Klarman built one of the most extraordinary track records in hedge fund history not by chasing returns but by obsessing over losses. As founder of the Baupost Group, he compounded capital at approximately 20% annually over four decades while frequently holding 30-50% of assets in cash -- a combination that implies his deployed capital earned substantially more.
+
+- [Walter Schloss -- Deep Value, Wide Diversification, and Fiduciary Simplicity Reinforced One Another](walter-schloss-deep-value-wide-diversification-and-fiduciary-simplicity.md) -- [reviewed: never] -- Walter Schloss built a long investment career by matching a deliberately limited research method to a deliberately wide portfolio: he bought unpopular securities at large discounts to conservatively interpreted assets, accepted that some selections would fail, and relied on diversification, patience, and price discipline to make the group work.
 
 - [Warren Buffett -- The Evolution of the World's Greatest Capital Allocator](warren-buffett.md) -- [reviewed: never] -- Warren Buffett did not start out as the investor who buys Coca-Cola and holds it forever. He started as a Benjamin Graham disciple who picked up discarded cigar butts -- companies trading below liquidation value with one last puff of profit left in them. His transformation from pure quantitative bargain hunter to qualitative seeker of durable competitive advantage is the central story of modern value investing, and it produced the greatest long-term compounding record in financial history: a 20.
 
