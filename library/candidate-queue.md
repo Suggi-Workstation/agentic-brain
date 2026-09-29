@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Information Economics -- How Hidden Information Reshapes Markets and Contracts
-- **Domain:** macro-micro
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.7/10.0 (gap=9.5, compounding=9.8, timeliness=9.6, balance=10.0)
-- **Scope:** Explain how unequal information changes market outcomes through adverse selection, moral hazard, signaling, screening, and principal-agent problems. Derive the mechanisms and conditions behind market unraveling, credit rationing, insurance contracts, warranties, credentials, reputation, and disclosure, separating pre-contract hidden types from post-contract hidden actions. Compare institutional remedies and their costs across labor, insurance, lending, digital platforms, and product markets without turning the topic into a catalog of sector regulation.
-- **Status:** proposed
-
 ## Candidate: Electromagnetism -- Fields, Waves, and the Unification of Electricity, Magnetism, and Light
 - **Domain:** science
 - **Proposed by:** Librarian
