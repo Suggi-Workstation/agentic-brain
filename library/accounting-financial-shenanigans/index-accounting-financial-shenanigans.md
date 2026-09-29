@@ -1,6 +1,6 @@
 # Accounting Financial Shenanigans -- Topics
 
-13 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
+14 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
 
 - [Acquisition Accounting Tricks -- How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality](acquisition-accounting-tricks.md) -- [reviewed: 2026-09-09] -- Acquisition accounting can obscure operating performance because purchase price allocation, contingent payments, and acquired liabilities affect reported earnings long after a deal closes. The forensic task is to distinguish legitimate estimates from unsupported valuations, reserve releases, and classifications that flatter results.
 
@@ -27,4 +27,6 @@
 - [Revenue Recognition Shenanigans -- Why Inflating the Top Line Is the Most Common Form of Accounting Fraud](revenue-recognition-shenanigans.md) -- [reviewed: never] -- Revenue recognition manipulation is the single most pervasive form of financial statement fraud, appearing in over half of all SEC enforcement actions and accounting restatements. Companies inflate reported revenue through premature recognition (booking sales before they are earned), fictitious transactions (recording sales that never occurred), bill-and-hold arrangements (invoicing goods never shipped), and channel stuffing (flooding distributors with excess product to book immediate sales).
 
 - [Round-Tripping and Reciprocal Transactions -- Circular Cash Can Manufacture Revenue Without Creating Sales](round-tripping-and-reciprocal-transactions.md) -- [reviewed: never] -- Round-tripping turns a company's own cash, a reciprocal purchase, or an offsetting obligation into reported revenue even though the linked arrangement creates little or no new economic activity. Detecting it requires treating all connected contracts and cash movements as one transaction, tracing who ultimately funded the apparent customer, and testing whether independent demand, control transfer, and commercial risk existed.
+
+- [Supplier Finance Can Turn Ordinary Trade Payables Into Hidden Debt](supplier-finance-and-reverse-factoring.md) -- [reviewed: never] -- Supplier finance can give suppliers earlier access to cash without changing a buyer's original payment date, but it can also extend that date and make bank funding look like ordinary trade credit. The forensic question is therefore not whether a program is called reverse factoring, but whether its terms, presentation, cash-flow effects, and withdrawal risk make the buyer's obligation economically closer to financing than to a normal payable.
 
