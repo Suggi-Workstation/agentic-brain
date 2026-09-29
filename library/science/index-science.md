@@ -1,8 +1,10 @@
 # Science -- Topics
 
-15 topics. Anchor: [anchor-science.md](anchor-science.md)
+16 topics. Anchor: [anchor-science.md](anchor-science.md)
 
 - [Cell Biology -- Compartmentalized, Dynamic Cells Sustain Life Through Coordinated Transport, Signaling, Division, and Death](cell-biology.md) -- [reviewed: 2026-09-22] -- Cell biology explains how cells organize chemical reactions, exchange matter and information, reproduce, and sometimes execute regulated death. The cell is the basic structural and functional unit of cellular life, but no single cell plan is universal: bacterial, archaeal, and eukaryotic cells solve the same functional problems with different degrees and kinds of compartmentalization ([1] [2] [4]).
+
+- [Chemical Kinetics Makes Mechanisms Testable -- Reaction Rates Constrain but Do Not Uniquely Reveal Molecular Pathways](chemical-kinetics-and-reaction-mechanisms.md) -- [reviewed: never] -- Chemical kinetics connects measured changes in composition to models of the molecular steps by which reactions occur. Its central discipline is inferential: a rate law, time course, or activation parameter can exclude mechanisms and support others, but a mechanism becomes credible only when several independent observations survive tests across conditions [1][2][3][6].
 
 - [The Periodic Table Is Chemistry's Prediction Engine -- Electron Structure Organizes Bonding, Properties, and Reactivity](chemistry-periodic-table-bonding.md) -- [reviewed: 2026-09-29] -- The periodic table orders 118 recognized elements by atomic number and exposes recurring patterns in their electron configurations, making broad trends in bonding, size, ion formation, and reactivity predictable rather than merely catalogued [3][4][5][6][7][8]. Those trends are powerful but conditional: they describe regularities, not exceptionless rules, and accurate predictions also require molecular geometry, energetic data, and quantum-mechanical bonding models [8][11][12][13][14].
 
