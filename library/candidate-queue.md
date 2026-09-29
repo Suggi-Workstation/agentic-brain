@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Business Ethics and Corporate Moral Responsibility -- Profit, Stakeholders, and Duties Beyond Compliance
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.8, timeliness=9.8, balance=10.0)
-- **Scope:** Examine whether corporations have moral responsibilities beyond lawful profit and how those duties attach to managers, boards, owners, employees, suppliers, and institutional systems. Compare shareholder primacy, stakeholder theory, rights, duties, consequences, virtue, legitimacy, complicity, whistleblowing, and risk-based due diligence across labor, human rights, corruption, consumers, technology, and environmental harm. Separate normative justification from corporate law and public relations, and test when voluntary commitments, governance, remedy, or regulation can make responsibility accountable.
-- **Status:** proposed
-
 ## Candidate: Securitization and Structured Finance -- Pooling Cash Flows, Tranching Risk, and Building Fragile Intermediation
 - **Domain:** finance
 - **Proposed by:** Librarian
