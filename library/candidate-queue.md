@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Numeracy Development and Number Sense -- Building Quantitative Meaning Before Procedures
-- **Domain:** education-learning
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.5/10.0 (gap=9.6, compounding=9.5, timeliness=9.6, balance=9.3)
-- **Scope:** Explain how learners build number sense by connecting quantities, symbols, place value, operations, magnitude, fractions, proportional reasoning, and estimation. Examine developmental progressions, representations, worked examples, practice, mathematical language, formative assessment, misconceptions, anxiety, and targeted intervention. Show how fluency and conceptual understanding reinforce each other while separating numeracy instruction from formal mathematical theory and from general test preparation.
-- **Status:** proposed
-
 ## Candidate: Management Control Systems -- Translating Strategy Into Measures, Feedback, and Corrective Action
 - **Domain:** business-management-strategy
 - **Proposed by:** Librarian
