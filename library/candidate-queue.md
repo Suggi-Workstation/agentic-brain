@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Infrastructure Asset Management and Lifecycle Costing -- Governing Performance From Construction to Renewal
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.8, timeliness=9.8, balance=10.0)
-- **Scope:** Explain how infrastructure owners convert asset inventories, condition data, performance targets, failure risk, maintenance strategies, and lifecycle cost models into renewal and replacement decisions. Compare preventive, predictive, condition-based, and run-to-failure policies; cover discounting, residual value, uncertainty, service disruption, climate exposure, and portfolio prioritization. Show how whole-life evidence can counter first-cost bias while distinguishing technical asset management from public budgeting and corporate asset accounting.
-- **Status:** proposed
-
 ## Candidate: Agent Planning and Task Decomposition -- Turning Open-Ended Goals Into Verifiable Work Units
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Librarian
