@@ -6,11 +6,12 @@ domain: ethics-philosophy
 author: Librarian
 tags: [business-ethics, corporate-responsibility, stakeholder-theory, shareholder-primacy, human-rights-due-diligence, organizational-integrity, whistleblowing]
 links: [library/ethics-philosophy/normative-ethics.md, library/ethics-philosophy/metaethics.md, library/ethics-philosophy/moral-uncertainty-and-decision-making.md, library/law-regulation/corporate-law-governance.md, library/business-management-strategy/corporate-governance-board-effectiveness.md, library/political-science-public-policy/corruption-accountability-institutional-quality.md, library/case-studies/vw-dieselgate-emissions-scandal.md]
+reviewed: 2026-09-29
 ---
 
 # Business Ethics -- Corporate Power Creates Duties That Profit and Compliance Cannot Exhaust
 
-Business ethics asks how corporations and the people who govern them should use organized economic power when their choices affect workers, customers, suppliers, communities, political institutions, and the natural environment. Its central claim is that lawful profit is a necessary condition of a durable business, but neither legality nor profitability alone determines whether conduct respects rights, distributes risk fairly, avoids complicity, and provides remedy when harm occurs [1][5][6]. The practical task is therefore to connect moral justification to decision rights, incentives, information, voice, oversight, and enforceable correction rather than treat ethics as philanthropy or public relations.
+Business ethics asks how corporations and the people who govern them should use organized economic power when their choices affect workers, customers, suppliers, communities, political institutions, and the natural environment. Its central claim is that economic viability matters to a durable business, but neither legality nor profitability alone determines whether conduct respects rights, distributes risk fairly, avoids complicity, and provides remedy when harm occurs [1][5][6]. The practical task is therefore to connect moral justification to decision rights, incentives, information, voice, oversight, and enforceable correction rather than treat ethics as philanthropy or public relations.
 
 ## Background
 
@@ -34,7 +35,7 @@ The history of the debate has therefore moved from a binary slogan toward an acc
 
 ### Corporate Responsibility Is Layered, Not Displaced
 
-A corporation can produce intentions and actions through budgets, policies, reporting lines, incentives, software, contracts, and board resolutions even when its members change. This organizational continuity makes it reasonable to assign duties to the firm: stop harmful conduct, preserve evidence, compensate affected people, reform systems, and disclose material failures [1][5]. Entity-level responsibility is especially important when harm results from an interaction among departments rather than one rogue actor.
+A corporation can coordinate actions through budgets, policies, reporting lines, incentives, software, contracts, and board resolutions even when its members change. Whether those processes amount to a corporate intention and independent moral agency remains disputed [1]. This organizational continuity nevertheless makes it reasonable to assign duties to the firm: stop harmful conduct, preserve evidence, compensate affected people, reform systems, and disclose material failures [1][5]. Entity-level responsibility is especially important when harm results from an interaction among departments rather than one rogue actor.
 
 Institutional responsibility does not absorb individual responsibility. Directors authorize purpose, risk appetite, executive selection, incentives, and oversight. Executives allocate resources and establish operational priorities. Managers translate those priorities into targets and tolerated shortcuts. Professionals possess domain-specific duties when technical knowledge reveals danger. Employees retain ordinary duties not to deceive or knowingly harm, although coercion, information limits, and retaliation risk can reduce culpability. Owners and investors influence governance through capital, votes, engagement, and exit. Suppliers and contractors bear duties for their own conduct while buyers bear responsibility for the pressure, specifications, monitoring, and purchasing terms they create [5][6].
 
@@ -42,7 +43,7 @@ The author's synthesis is a control-contribution-remedy test. Ask what each acto
 
 ### Shareholder Primacy Defines an Objective but Not a Moral Exemption
 
-The strongest shareholder argument is not that shareholders are the only people who matter. It is that executives exercise delegated power over assets they do not personally own, and a clear objective permits owners and boards to evaluate that power [2][4]. Profit also performs indispensable functions: it signals that customers value output above input cost, finances investment, absorbs risk, pays obligations, and permits the enterprise to continue. A business that cannot create economic value cannot discharge responsibilities indefinitely.
+The strongest shareholder argument is not that shareholders are the only people who matter. It is that executives exercise delegated power over assets they do not personally own, and a clear objective permits owners and boards to evaluate that power [2][4]. In a viable for-profit enterprise, profit can signal that customers value output above priced input cost, help finance investment, absorb risk, pay obligations, and permit the enterprise to continue [2][4]. A business that cannot create economic value cannot discharge responsibilities indefinitely.
 
 The moral limit is that ownership does not normally authorize every value-increasing use of other people or shared resources. Contracts can be incomplete, bargaining power unequal, information hidden, and harms imposed on parties who never consented. Law can lag technology, vary by jurisdiction, be weakly enforced, or omit harms that remain foreseeable. Friedman's own formulation includes law and ethical custom, while contemporary business ethics treats shareholder and stakeholder ends as constrained by morality [1][2]. "Legal" and "profitable" are therefore inputs to moral analysis, not complete verdicts.
 
@@ -100,7 +101,7 @@ The method supports a bounded instrumental finding: some marginal CSR proposals 
 
 ### Employee-Reported Integrity Differs From Advertised Values
 
-Guiso, Sapienza, and Zingales combined corporate value statements with confidential Great Place to Work employee surveys covering more than 1,000 applicant firms and more than 400,000 full-time employee observations from 2007 through 2011 [10]. Their design compared values advertised on company websites with employees' experienced perceptions of managerial trustworthiness and ethics. They found that advertised values appeared unrelated to performance, while perceived managerial integrity was positively associated with measures including productivity, profitability, and firm value [10].
+Guiso, Sapienza, and Zingales conducted two related analyses. They coded advertised values for S&P 500 firms, then separately examined confidential Great Place to Work data for U.S. applicants from 2007 through 2011. In the survey dataset, 1,072 organizations completed the Culture Audit; after exclusions, the final for-profit sample comprised 679 companies, 1,367 firm-year observations, and 410,521 full-time employee observations [10]. Advertised values showed little relation to financial performance, while perceived managerial integrity was positively associated with Tobin's q and, less consistently, return on sales [10].
 
 The study is observational and cannot eliminate every selection, halo, or reverse-causality explanation. Its contribution is therefore diagnostic rather than dispositive. It measures the difference between saying integrity and being experienced as acting with integrity. That difference supports a governance rule: culture evidence should come from protected employee experience, observed decisions, promotion patterns, and responses to bad news, not only from codes and public statements.
 
@@ -122,11 +123,11 @@ In 2019, the Business Roundtable announced a statement signed by 181 chief execu
 
 The study is a document analysis centered on U.S. public companies and does not prove that no operating practice changed anywhere. It does provide a demanding test of institutionalization: if a stated purpose is meant to govern, one should expect evidence in board-approved policy, decision rights, executive incentives, disclosure, stakeholder voice, or remedy. The gap between pledge and governance supports the author's accountability principle that voluntary language is weak evidence until it changes who can demand what from whom.
 
-### Bangladesh Factory Safety Shows the Value of Binding Architecture
+### Bangladesh Factory Safety Shows the Value of Multi-Party Enforcement
 
-After the Rana Plaza collapse, public and private initiatives inspected thousands of export-oriented ready-made-garment factories in Bangladesh for structural, fire, and electrical hazards. An ILO progress report stated that 3,780 export-oriented factories had been inspected by December 2015 and reported remediation progress of 84 percent for Accord factories and 91 percent for Alliance factories by 2018, while also identifying the need to transfer capacity and responsibility to national institutions [15]. The Accord combined independent inspection, disclosed reports and corrective plans, worker participation, brand obligations, and follow-up remediation rather than relying only on supplier promises [15].
+After the Rana Plaza collapse, public and private initiatives inspected thousands of export-oriented ready-made-garment factories in Bangladesh for structural, fire, and electrical hazards. An ILO progress report stated that 3,780 export-oriented factories had been inspected by December 2015 and reported remediation progress of 84 percent for Accord factories and 91 percent for Alliance factories by 2018, while also identifying the need to transfer capacity and responsibility to national institutions [15]. The initiatives combined harmonized inspections, public summary reporting, corrective plans, brand participation, repeated follow-up, and worker-reporting channels rather than relying only on supplier promises [15].
 
-These figures are program reports, not a randomized estimate of prevented deaths, and completion percentages depend on definitions and reporting systems. The case nevertheless illustrates an institutional mechanism: global buyers can convert leverage into inspection, finance, transparency, worker voice, and time-bound correction. It also exposes limits. Private initiatives cannot permanently substitute for capable public enforcement, and responsibility is incomplete if remediation depends on purchasing practices that continue to reward unsafe cost cutting.
+These figures are program reports, not a randomized estimate of prevented deaths, and completion percentages depend on definitions and reporting systems. The author's synthesis is that the case illustrates an institutional mechanism: global buyers can convert leverage into inspection, finance, transparency, worker voice, and time-bound correction. It also exposes limits. Private initiatives cannot permanently substitute for capable public enforcement, and responsibility is incomplete if remediation depends on purchasing practices that continue to reward unsafe cost cutting.
 
 ### Evidence Supports Systems, Not Moral Automation
 
@@ -164,7 +165,7 @@ Buyer codes should be matched by commercial terms that make compliant performanc
 
 Risk-based due diligence should prioritize severity rather than inspect every supplier identically [5][6]. High-risk operations require worker-informed assessment, independent verification, transparent corrective plans, financing or pricing support where the buyer helped create the constraint, and escalation tied to outcomes. Termination is appropriate when the supplier refuses correction or continued connection cannot be justified, but abrupt exit can also remove income and leverage. Responsible disengagement plans for affected workers and communities rather than treating contract termination as the end of responsibility.
 
-The Bangladesh factory-safety experience illustrates both the power and limit of coordinated buyer leverage [15]. Binding commitments, independent inspection, disclosure, worker participation, and remediation can change conditions that voluntary audits failed to correct. Durable responsibility still requires capable local institutions, lawful worker organization, and purchasing practices consistent with safe production. The ethical unit is the system that produces the garment, not only the legal boundary of the brand.
+The Bangladesh factory-safety experience illustrates both the power and limit of coordinated buyer leverage [15]. Coordinated commitments, standardized inspection, disclosure, worker reporting, and repeated remediation can improve conditions that supplier assurances alone do not test. Durable responsibility still requires capable local institutions, lawful worker organization, and purchasing practices consistent with safe production. The ethical unit is the system that produces the garment, not only the legal boundary of the brand.
 
 ### For Customers, Communities, and Technology
 
@@ -188,7 +189,7 @@ The author's synthesis is an eight-part standard for corporate moral responsibil
 
 This standard does not promise one formula for every conflict. It makes disagreement auditable. A shareholder advocate can ask whether managers have a determinate objective; a stakeholder advocate can ask whether affected interests have standing; a rights theorist can test constraints; a consequentialist can test outcomes and distribution; a virtue ethicist can test culture; and a legitimacy theorist can test voice and authority. The decision is strongest when it can answer all six without changing the facts or hiding the burden in a slogan.
 
-The final implication is that corporate responsibility is neither unlimited benevolence nor profit subject only to law. It is disciplined answerability for how organized power creates value, allocates risk, shapes other actors' choices, and responds when those choices harm people. Profit proves that an enterprise can continue; compliance proves that it met an applicable public rule; ethical responsibility asks the remaining question: whether the way it continued can be justified to those who bore its consequences.
+The final implication is that corporate responsibility is neither unlimited benevolence nor profit subject only to law. It is disciplined answerability for how organized power creates value, allocates risk, shapes other actors' choices, and responds when those choices harm people. Economic viability bears on whether an enterprise can continue; legal compliance addresses whether it met an applicable public rule; ethical responsibility asks the remaining question: whether the way it continued can be justified to those who bore its consequences.
 
 ## Sources
 
@@ -210,7 +211,7 @@ The final implication is that corporate responsibility is neither unlimited bene
 6. Organisation for Economic Co-operation and Development. (2023). "OECD Guidelines for Multinational Enterprises on Responsible Business Conduct."
    https://doi.org/10.1787/81f92357-en [high]
 
-7. International Labour Organization. (2023). "Tripartite Declaration of Principles concerning Multinational Enterprises and Social Policy," sixth edition incorporating the 2022 amendments.
+7. International Labour Organization. (2022). "Tripartite Declaration of Principles concerning Multinational Enterprises and Social Policy," sixth edition, incorporating the 2022 amendments.
    https://www.ilo.org/publications/tripartite-declaration-principles-concerning-multinational-enterprises-and-3 [high]
 
 8. Carroll, A. B. (1991). "The Pyramid of Corporate Social Responsibility: Toward the Moral Management of Organizational Stakeholders." Business Horizons, 34(4), 39-48.
@@ -231,7 +232,7 @@ The final implication is that corporate responsibility is neither unlimited bene
 13. Business Roundtable. (2019). "Statement on the Purpose of a Corporation."
     https://www.businessroundtable.org/business-roundtable-redefines-the-purpose-of-a-corporation-to-promote-an-economy-that-serves-all-americans [high]
 
-14. Bebchuk, L. A., and Tallarita, R. (2022). "Will Corporations Deliver Value to All Stakeholders?" Vanderbilt Law Review, 75(4), 1031-1091.
+14. Bebchuk, L. A., and Tallarita, R. (2022). "Will Corporations Deliver Value to All Stakeholders?" Vanderbilt Law Review, 75(4), 1031-1092.
     https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3899421 [high]
 
 15. International Labour Organization. (2018). "Implementation of the Bangladesh Compact: Technical Status Report."
