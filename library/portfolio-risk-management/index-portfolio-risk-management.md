@@ -1,6 +1,6 @@
 # Portfolio Risk Management -- Topics
 
-17 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
+18 topics. Anchor: [anchor-portfolio-risk-management.md](anchor-portfolio-risk-management.md)
 
 - [Behavioral Aspects of Risk Tolerance -- Why Investor Psychology Determines Portfolio Success](behavioral-aspects-of-risk-tolerance.md) -- [reviewed: 2026-09-21] -- A portfolio is successful only if its investor can keep holding and managing it through the conditions for which it was designed. Financial capacity, stated willingness, perceived risk, recent experience, loss aversion, and overconfidence jointly shape that behavior, so an allocation that is mathematically efficient but behaviorally intolerable is not an effective allocation ([1] [9] [10]).
 
@@ -31,6 +31,8 @@
 - [Sequence Risk Makes Withdrawal Portfolios Depend on Return Order, Not Average Return Alone](sequence-of-returns-risk-and-withdrawal-portfolios.md) -- [reviewed: never] -- Sequence-of-returns risk arises when contributions or withdrawals make otherwise identical return sets produce different wealth paths. In retirement decumulation, a large early loss can combine with continuing withdrawals to deplete capital before later gains arrive, so portfolio survival depends on the order of returns, spending policy, inflation, longevity, allocation, costs, and model assumptions rather than on average return alone [1][7].
 
 - [Tail Risk Hedging -- Why the Best Portfolios Pay for Insurance They Hope to Never Use](tail-risk-hedging.md) -- [reviewed: never] -- Tail risk hedging is a portfolio construction discipline that sacrifices a small, steady amount of annual return -- typically 1-3% -- to purchase convex instruments that pay off massively during market crashes. The core insight is that avoiding catastrophic drawdowns improves geometric compounding more than the hedge costs in arithmetic terms, because a 50% loss requires a 100% gain to recover.
+
+- [Tracking Error and Active Risk Budgets -- Relative Discipline Does Not Guarantee Total Portfolio Safety](tracking-error-and-active-risk-budgets.md) -- [reviewed: never] -- Tracking error measures the volatility of return relative to a benchmark, while an active risk budget decides how much of that relative risk may be taken and where it may be spent [1][3][9]. These tools make deliberate benchmark deviations measurable, but they do not show whether the benchmark is suitable, whether the total portfolio is safe, or whether realized deviations earned enough return to justify their cost [4][10][13].
 
 - [Value at Risk -- Why a Single Number Cannot Capture the True Risk of Ruin](value-at-risk-risk-measurement-frameworks.md) -- [reviewed: never] -- Value at Risk (VaR) is the most widely used quantitative framework for measuring financial risk. It estimates the maximum loss a portfolio faces over a given time horizon at a specified confidence level -- a 99% one-day VaR of $10 million means there is a 1% chance of losing more than $10 million tomorrow.
 
