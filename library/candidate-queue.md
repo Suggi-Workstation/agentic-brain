@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Classical Mechanics -- Motion, Forces, Conservation Laws, and the Limits of Newtonian Models
-- **Domain:** science
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.5/10.0 (gap=9.7, compounding=9.8, timeliness=8.5, balance=10.0)
-- **Scope:** Develop classical mechanics from kinematics and Newton's laws through work, energy, momentum, rotation, gravitation, oscillation, and variational formulations. Explain reference frames, conservation laws, constraints, idealizations, deterministic prediction, chaos, and the difference between exact laws and approximate models. Show where classical mechanics succeeds and where relativity, quantum mechanics, continuum models, or engineering-specific analysis become necessary.
-- **Status:** proposed
-
 ## Candidate: Numeracy Development and Number Sense -- Building Quantitative Meaning Before Procedures
 - **Domain:** education-learning
 - **Proposed by:** Librarian
