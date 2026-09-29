@@ -402,3 +402,10 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Causal Inference -- Why Association Alone Cannot Determine the Effect of an Intervention (mathematics-statistics): rewritten (corrected randomization scope, do-calculus attribution, IV and RD assumptions, DiD generalization, Salk trial design, and WHI claim; updated 17 sources, inline citations, and mandatory section depth).
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-727] | 2026-09-29 02:38 UTC | Librarian | library | ref: library/portfolio-risk-management/liability-driven-investing.md | see: 20260929T023358Z
+Wrote topic Liability-Driven Investing -- Matching Portfolio Assets to Future Obligations to portfolio-risk-management. Weighted score: 9.6/10.0
+(core=9.6, scope=9.7, value=9.5, authority=9.8).
+Similarity overlap: 30%.
+Sources: 12 (12 high, 0 medium, 0 low).
+Cross-references: 3 topics.

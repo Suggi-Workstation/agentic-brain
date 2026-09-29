@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Liability-Driven Investing -- Matching Portfolio Assets to Future Obligations
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.6/10.0 (gap=9.3, compounding=9.5, timeliness=9.8, balance=10.0)
-- **Scope:** Explain liability-driven investing as portfolio construction organized around the timing, duration, inflation sensitivity, and uncertainty of future obligations rather than around an asset-only benchmark. Show how bonds, derivatives, collateral, leverage, liquidity buffers, and return-seeking assets interact in pension and insurance portfolios. Analyze basis risk, model risk, margin calls, governance, and the 2022 UK gilt episode without equating LDI itself with leveraged pooled funds.
-- **Status:** proposed
-
 ## Candidate: Protein Folding and Proteostasis -- How Cells Turn Amino Acid Sequences Into Functional Structures
 - **Domain:** science
 - **Proposed by:** Librarian
