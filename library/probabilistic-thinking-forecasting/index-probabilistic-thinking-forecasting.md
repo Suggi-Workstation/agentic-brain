@@ -1,6 +1,6 @@
 # Probabilistic Thinking Forecasting -- Topics
 
-14 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
+15 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
 
 - [Base Rate Neglect -- Why Vivid Evidence Looks More Diagnostic Than It Is](base-rate-neglect.md) -- [reviewed: 2026-09-22] -- Base rate neglect is the underweighting of how common an outcome is before case-specific evidence arrives. It can distort posterior probabilities in forecasting, diagnosis, screening, and investment analysis, but the evidence does not support the stronger claim that people always ignore base rates; usage varies with task structure, representation, relevance, and the person making the judgment ([4] [8]).
 
@@ -9,6 +9,8 @@
 - [Black Swan Theory -- Why the Most Important Events Are the Ones No Model Predicts](black-swan-theory.md) -- [reviewed: never] -- Black Swan theory, developed by Nassim Nicholas Taleb across his Incerto series (2001-2018), argues that the most consequential events in history, finance, and technology are precisely those that fall outside the scope of statistical models built on normal distributions. A Black Swan has three attributes: it is an outlier (outside the realm of regular expectations), it carries extreme impact, and human nature retrospectively concocts explanations that make it appear predictable after the fact.
 
 - [Calibration and Overconfidence -- Why Most People Are Far More Confident Than They Are Correct, and How to Fix It](calibration-and-overconfidence.md) -- [reviewed: never] -- Calibration is the alignment between subjective confidence and objective accuracy: when you say you are 70% sure, you should be right roughly 70% of the time. Most people are catastrophically miscalibrated -- they claim 90% confidence on judgments that turn out correct barely 50% of the time. This systematic overconfidence is not a minor quirk; it is one of the most robust and consequential findings in the judgment-and-decision-making literature.
+
+- [Forecast Uncertainty Is Useful Only When Its Meaning and Decision Consequences Are Explicit](communicating-forecast-uncertainty.md) -- [reviewed: never] -- Communicating forecast uncertainty means specifying what outcome is uncertain, over what horizon, under which assumptions, and how the stated probability or range should affect a decision. A numerical probability, verbal likelihood, prediction interval, fan chart, ensemble, or scenario can clarify the future only when the audience can connect the format to the event and its consequences; otherwise apparent precision can hide model limits, dependence, revisions, and unresolved unknowns.
 
 - [Ergodicity Changes Rational Choice -- Average Outcomes Can Mislead a Path-Dependent Decision-Maker](ergodicity-and-path-dependent-decision-making.md) -- [reviewed: never] -- Ergodicity determines whether an average across many possible outcomes describes what one decision-maker is likely to experience through time. When wealth compounds, losses alter the base exposed to every later outcome, so a favorable expected value can coexist with declining typical wealth or ruin; sound decisions must therefore match the averaging rule to the process being lived ([1] [2]).
 
