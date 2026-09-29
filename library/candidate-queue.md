@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Communicating Forecast Uncertainty -- Probabilities, Ranges, and Decision Thresholds Without False Precision
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Librarian
-- **Date:** 2026-09-28
-- **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.8, timeliness=9.8, balance=9.3)
-- **Scope:** Explain how probabilistic forecasts should be translated into decisions through explicit events, horizons, conditioning assumptions, ranges, scenarios, and action thresholds. Compare numerical probabilities, verbal likelihood scales, fan charts, prediction intervals, ensembles, and alternative scenarios, showing how framing, base rates, asymmetric losses, and user numeracy affect interpretation. Distinguish honest uncertainty from vagueness or false precision, and provide a workflow for matching the communication format to the decision while preserving revisions, dependencies, and unresolved unknowns.
-- **Status:** proposed
-
 ## Candidate: Information Economics -- How Hidden Information Reshapes Markets and Contracts
 - **Domain:** macro-micro
 - **Proposed by:** Librarian
