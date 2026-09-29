@@ -6,6 +6,7 @@ domain: macro-micro
 author: Librarian
 tags: [externalities, public-goods, pigouvian-taxes, coase-theorem, cap-and-trade, free-rider-problem, welfare-economics]
 links: [library/macro-micro/supply-and-demand.md, library/macro-micro/market-structures.md, library/macro-micro/game-theory-strategic-interaction-and-cooperation.md, library/political-science-public-policy/federalism-multi-level-governance.md]
+reviewed: 2026-09-29
 ---
 
 # Externalities and Public Goods -- Market Prices Miss Social Costs and Benefits
@@ -108,9 +109,9 @@ Digital networks often exhibit positive adoption effects: a user's value rises w
 
 The U.S. Acid Rain Program is a large-scale test of quantity regulation with transferable rights. The Environmental Protection Agency reports that the program, together with later power-sector rules and changes in the energy sector, helped deliver annual sulfur dioxide reductions exceeding 95 percent and nitrogen oxide reductions exceeding 89 percent. Wet sulfate deposition fell by more than 70 percent between the 1989-1991 and 2020-2022 periods. The attribution is deliberately qualified because the official source identifies the program alongside subsequent regulation and sector change rather than assigning every reduction to allowance trading alone. [6]
 
-Chan, Chupp, Cropper, and Muller compare 2002 compliance under the program with a uniform performance standard designed to achieve the same aggregate sulfur dioxide emissions. Using plant-level compliance costs for non-New Source Performance Standards coal units, they estimate annual savings of approximately $240 million in 1995 dollars. The method holds aggregate emissions constant and asks whether trading reallocated abatement toward cheaper sources, which directly tests cost-effectiveness rather than comparing the program with uncontrolled emissions. [7]
+Chan, Chupp, Cropper, and Muller compare 2002 compliance under the program with a uniform performance standard designed to achieve the same aggregate sulfur dioxide emissions. Using plant-level compliance costs for non-New Source Performance Standards coal units, they estimate annual savings of approximately $200 million in 1995 dollars. The method holds aggregate emissions constant and asks whether trading reallocated abatement toward cheaper sources, which directly tests cost-effectiveness rather than comparing the program with uncontrolled emissions. [7]
 
-The same study models health damage from the observed geographic emissions pattern and compares it with a no-trade counterfactual based on each unit's allowance allocation and bank drawdown. It estimates that observed trading produced $2.4 billion more health damage in 2000 dollars than the no-trade pattern because allowances moved from plants west of the Mississippi toward eastern plants with larger exposed populations. The finding does not show that the program's total benefits were negative; it shows that equal tons were not equal in damage and that a national cap optimized aggregate quantity and compliance cost without automatically optimizing location. [7]
+The same study models health damage from the observed geographic emissions pattern and compares it with a no-trade counterfactual based on each unit's allowance allocation and bank drawdown. It estimates that observed trading produced $2.1 billion more health damage in 1995 dollars than the no-trade pattern because allowances moved from plants west of the Mississippi toward eastern plants with larger exposed populations. The finding does not show that the program's total benefits were negative; it shows that equal tons were not equal in damage and that a national cap optimized aggregate quantity and compliance cost without automatically optimizing location. [7]
 
 This case supports three bounded conclusions. Tradable allowances can reveal heterogeneous abatement costs and reduce the cost of a fixed aggregate target. Continuous emissions measurement and enforceable allowance surrender preserve cap integrity. A uniform trading ratio can nevertheless create spatial distribution and health consequences when damages vary by source. The author's synthesis is that a cap-and-trade design should test both the cost market and the damage geography before treating one allowance as socially identical everywhere. [6][7]
 
@@ -228,11 +229,10 @@ The durable conclusion is narrow but powerful. Market prices coordinate private 
    Official emissions, deposition, and ecosystem monitoring summary.
    https://www.epa.gov/acidrain/acid-rain-program-results [high]
 
-7. Chan, H. R., Chupp, B. A., Cropper, M. L., and Muller, N. Z. (2017).
+7. Chan, H. R., Chupp, B. A., Cropper, M. L., and Muller, N. Z. (2018).
    "The Impact of Trading on the Costs and Benefits of the Acid Rain
-   Program." Journal of Environmental Economics and Management; NBER
-   Working Paper 21383.
-   https://www.nber.org/papers/w21383 [high]
+   Program." Journal of Environmental Economics and Management, 88,
+   180-209. https://doi.org/10.1016/j.jeem.2017.11.004 [high]
 
 8. Knittel, C. R., and Sandler, R. (2013). "The Welfare Impact of Indirect
    Pigouvian Taxation: Evidence from Transportation." NBER Working Paper
