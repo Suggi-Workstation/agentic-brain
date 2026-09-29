@@ -6,712 +6,340 @@ domain: mathematics-statistics
 author: Librarian
 tags: [experimental-design, randomization, blocking, replication, factorial-designs, control-groups, blinding, validity, replication-crisis, sample-size, power-analysis]
 links: [library/mathematics-statistics/causal-inference.md, library/mathematics-statistics/statistical-inference.md, library/mathematics-statistics/probability-theory-fundamentals.md, library/mathematics-statistics/regression-analysis.md, library/mathematics-statistics/bayesian-statistics.md]
+reviewed: 2026-09-29
 ---
 
 # Experimental Design -- The Architecture That Separates Evidence from Anecdote
 
-Experimental design is the discipline of structuring empirical studies
-so that their results support valid causal inference. It is not
-enough to collect data and run a statistical test -- the way data is
-collected determines whether a test can answer the question posed.
-Good experimental design controls confounding variables, quantifies
-random error, and produces results that other researchers can
-replicate. Without it, statistical analysis becomes sophisticated
-arithmetic applied to biased data, yielding precise answers to the
-wrong question. Experimental design is the architecture upon which
-all empirical science stands: it is what separates evidence from
-anecdote.
+Experimental design specifies how treatments, experimental units, measurements, and analyses will be arranged so that an empirical comparison can answer a defined question. It creates the assignment-based basis for causal inference, controls avoidable variation, and exposes the assumptions that analysis alone cannot repair. Its central lesson is that a precise calculation is not reliable evidence when the data-generating process does not identify the claimed effect [1][4][5].
 
 ## Background
 
-The intellectual history of experimental design is the story of how
-agricultural statistics became the foundation of modern science. The
-discipline was not born in a laboratory or a medical center but in the
-fields of Rothamsted Experimental Station in England, where a
-statistician named Ronald Aylmer Fisher (1890-1962) was hired in 1919
-to analyze decades of crop yield data. Fisher found himself
-confronted with a problem that had no existing solution: how do you
-isolate the effect of a fertilizer treatment when soil quality,
-rainfall, pest activity, and dozens of other variables vary across
-every plot of land? The answer he developed over the next fifteen
-years would reshape not only agriculture but medicine, psychology,
-manufacturing, and every field that relies on empirical evidence.
+The modern mathematical theory of experimental design grew largely from agricultural work at Rothamsted Experimental Station. Ronald A. Fisher joined Rothamsted in 1919 to analyze long-running crop experiments whose yields varied with soil, weather, treatment, and field position. The setting forced a separation between treatment effects and background heterogeneity: a fertilizer comparison could not be interpreted merely by applying treatments in convenient rows and analyzing the resulting means. Fisher's work at Rothamsted connected analysis of variance with replication, blocking, factorial arrangements, and deliberate randomization [2][3].
 
-Before Fisher, agricultural experiments were conducted using
-systematic designs -- treatments were applied in orderly rows or
-alternating strips. This approach had a fatal flaw: any systematic
-arrangement creates a correlation between treatment assignment and
-uncontrolled environmental variables. If the north end of a field
-happens to be wetter, and the fertilizer is always applied to the
-north rows, the experiment confounds fertilizer effect with moisture
-effect. The results are uninterpretable. Fisher recognized that the
-solution was not better measurement of confounders but a design that
-makes confounding statistically ignorable. That solution was
-randomization.
+Fisher and Winifred Mackenzie's 1923 potato study examined manurial responses across varieties and helped establish analysis of variance for field experiments. The paper's correct identifier is DOI 10.1017/S0021859600003592; the DOI 10.2307/2682986 belongs instead to Joan Fisher Box's 1980 historical analysis of Fisher's design work. Box describes the 1922-1926 development as an interaction between analysis and design: randomization justified the probability analysis, blocking separated known heterogeneity, replication supplied information about variation, and factorial arrangements made several questions answerable in one coordinated experiment [2][3].
 
-Fisher's first major publication on experimental design was the 1923
-paper with Winifred Mackenzie on crop variation, which introduced the
-analysis of variance (ANOVA) for field experiments. His 1925 book
-"Statistical Methods for Research Workers" laid down the key
-principles of replication, randomization, and local control (blocking)
-for a broader audience. The pivotal work was his 1935 book "The Design
-of Experiments," which codified these principles and introduced
-concepts that remain central today: the null hypothesis, the
-randomized controlled trial, factorial designs, and the Latin square.
-The book's opening example -- the Lady tasting tea experiment -- is
-still the canonical illustration of how a randomized design produces a
-valid significance test. Fisher asked: can a woman distinguish whether
-milk or tea was poured first into a cup? He designed an experiment
-with eight cups, four of each preparation, presented in random order.
-Under the null hypothesis that she cannot distinguish, the probability
-of guessing all eight correctly is 1/70. The design made the test
-valid: randomization ensured that any correct ordering beyond chance
-could be attributed to a real ability, not to a biased presentation.
+Fisher's 1925 *Statistical Methods for Research Workers* spread statistical methods among scientists, while his 1935 *The Design of Experiments* treated design as a subject in its own right. The latter opened its operational discussion with the Lady tasting tea problem: eight cups, four prepared milk-first and four tea-first, are presented in randomized order, and the subject must classify four as each type. Fisher used the physical randomization to define the reference set against which the observed classification would be judged. His argument was not that randomization makes every realized group identical; it was that the known assignment procedure supplies a reasoned probability basis for a test and protects it from deliberate or systematic allocation [1][3].
 
-Fisher's innovation was radical because it shifted the statistician's
-responsibility. Before Fisher, statisticians assumed their job was to
-analyze whatever data they were given. Fisher recognized that the
-quality of data depended on how it was produced, and that a
-statistician "had no responsibility for the value or the worthlessness
-of his estimates" if the data collection process was flawed. The
-weight of responsibility, he argued, must be "thrown back on to the
-processes by which the data had come into existence." This insight
-elevated experimental design from a practical concern to a
-mathematical discipline with its own principles, models, and
-optimization criteria.
+This design-based view changed the statistician's role. Analysis could no longer be treated as a rescue operation performed after uncontrolled data collection. The experimental unit, treatment assignment, timing, measurement process, and comparison had to be planned together. Fisher's framework did not originate every idea associated with experimentation, and randomized procedures existed before him, but his synthesis made randomization, replication, local control, and factorial structure a coherent statistical program [1][3].
 
-The second major stream in the history of experimental design came
-from the social sciences. In the 1950s and 1960s, Donald Campbell and
-Julian Stanley developed the framework of internal and external
-validity, published in their influential 1963 monograph "Experimental
-and Quasi-Experimental Designs for Research." Campbell and Stanley
-cataloged the threats to valid inference -- history, maturation,
-testing, instrumentation, regression to the mean, selection bias,
-attrition, and interaction effects -- and showed how different
-experimental designs address or fail to address each threat. Their
-work extended Fisher's agricultural framework to educational and
-social research, where randomization was often impractical, giving
-rise to quasi-experimental designs that approximate randomized
-experiments through matching, interrupted time series, and regression
-discontinuity.
+The social sciences extended the framework to settings in which full random assignment was often infeasible. Campbell and Stanley's 1963 monograph examined 16 experimental and quasi-experimental designs against 12 threats to valid inference. They distinguished internal validity, whether the treatment caused the observed difference in the studied setting, from external validity, whether the result generalizes across populations, settings, treatments, and measurements. Their catalogue made clear that a comparison can be numerically exact yet remain compatible with history, maturation, testing, instrumentation, regression to the mean, selection, attrition, or interactions between treatment and setting [4].
 
-The third stream emerged in clinical medicine. The randomized
-controlled trial (RCT), first used in a 1948 streptomycin trial for
-tuberculosis conducted by the British Medical Research Council,
-applied Fisher's agricultural principles to human subjects. The
-double-blind placebo-controlled RCT became the gold standard for
-medical evidence, institutionalized by the FDA drug approval process
-and the CONSORT reporting guidelines. The placebo control, formalized
-by Henry Beecher's 1955 paper "The Powerful Placebo," ensured that
-observed treatment effects were not artifacts of expectation, natural
-disease progression, or the act of receiving care itself.
+Clinical research supplied a second major application. The British Medical Research Council's 1948 streptomycin investigation used centrally prepared allocations based on random sampling numbers, concealed in sequential envelopes for each center and sex. Fifty-five patients were assigned streptomycin plus bed rest and 52 bed rest alone. The trial is a landmark in the adoption of concealed random allocation, but later historical work cautions against calling it the first controlled trial or treating its methods as wholly unprecedented. Participants were not told that they were in a trial, but active treatment involved streptomycin injections while the control involved bed rest alone, so treatment delivery itself was not masked; radiographic assessors and bacteriologists were kept unaware of treatment assignment [8][9][10].
 
-The most recent chapter in this history is the replication crisis.
-Beginning in the early 2010s, large-scale replication projects
-revealed that many published findings across psychology, medicine, and
-other fields could not be reproduced. The crisis was not primarily a
-failure of statistics but a failure of experimental design: small
-samples, selective reporting, flexibility in analysis, and inadequate
-controls produced a literature of false positives. The response --
-pre-registration, registered reports, open data, and larger sample
-sizes -- is a return to Fisher's core insight: the validity of a
-conclusion depends on the process by which the data came into
-existence.
+Industrial design of experiments developed the same logic for processes rather than patients. Full factorial designs run every combination of factor levels, allowing main effects and interactions to be estimated within one plan. Blocking protects comparisons from known batch, operator, or time shifts. Fractional factorial designs reduce the number of runs by deliberately aliasing effects according to a defining relation, so efficiency is purchased with explicit assumptions about which interactions can be neglected. The NIST/SEMATECH handbook presents these designs as choices governed by objectives, nuisance factors, resources, and the effects that must remain separately estimable [5].
+
+Late twentieth- and early twenty-first-century concerns about selective analysis and replication renewed attention to design. Simmons, Nelson, and Simonsohn demonstrated that optional stopping, outcome choice, covariate choice, and selective comparison can make a nominal 5% test operate very differently when the successful analysis alone is reported. The Open Science Collaboration later repeated 100 studies from three psychology journals and found weaker effects under new data despite high planned power and methodological review. These results do not prove that one defect explains every discrepancy; they show why assignment, sample-size planning, analysis specification, transparent reporting, and replication belong to one evidence architecture [11][12].
+
+The current framework is therefore broader than the classical list of randomization, replication, and blocking. A complete design identifies the estimand, experimental unit, assignment mechanism, treatment versions, outcome, measurement schedule, stopping rule, missing-data risks, analysis plan, and target population. It also anticipates interference, nonadherence, multiplicity, attrition, and transport beyond the sample. Modern reporting and preregistration standards make these commitments visible, but visibility does not substitute for a design capable of answering the question [6][14][15][17].
 
 ## Core Concepts
 
-### Randomization
+### The Question, Estimand, and Experimental Unit
 
-Randomization is the cornerstone of experimental design. It is the
-process of assigning experimental units to treatment groups using a
-mechanism that gives each unit a known, non-zero probability of
-receiving each treatment -- typically equal probability, implemented
-through a random number generator, coin flip, or shuffled cards.
-Fisher insisted that randomization be a "physical experimental
-process," not a systematic or purposive assignment. The reason is
-mathematical: randomization breaks the statistical link between
-treatment assignment and all confounding variables, both measured and
-unmeasured. It does not eliminate confounding in any single
-experiment -- by chance, one group may still differ from another --
-but it makes confounding a random variable whose expected value is
-zero and whose magnitude can be estimated from the data.
+Design begins with the contrast to be learned. The researcher must specify the units, treatments or interventions, comparison condition, outcome, time horizon, and target population. "Does the treatment work?" is incomplete when dose, delivery, adherence, outcome definition, and follow-up are unspecified. A design can estimate the effect of assignment, the effect of receiving treatment, a dose-response contrast, an interaction, or a local effect for a particular population; these are not interchangeable targets [4][8][14].
 
-Randomization provides three guarantees. First, it eliminates
-systematic bias: no confounder, known or unknown, is over-represented
-in one treatment group by design. Second, it provides a valid
-probabilistic basis for significance testing: the null hypothesis
-distribution of the test statistic is generated by the randomization
-process itself, a concept Fisher called the "physical basis of the
-validity of the test." Third, it justifies the assumption that
-observations are independent, which underlies nearly all standard
-statistical tests.
+The experimental unit is the smallest unit independently assigned to a treatment under the design. If classrooms are assigned but pupils are measured, the classroom is the unit of assignment even though pupils provide observations. If one mouse supplies several tissue wells, the mouse may be the independent biological unit while the wells are technical measurements. Treating measurements nested within one assigned unit as independent treatment replications understates uncertainty and changes the question being tested [7].
 
-A common misconception is that randomization guarantees balanced
-groups. It does not -- by chance, randomization can produce
-imbalanced groups, especially in small samples. What it guarantees is
-that any imbalance is due to chance, not design, and can be accounted
-for by the probability model. This is why Fisher advocated
-randomization even in experiments where a balanced systematic design
-might seem more efficient: the systematic design's balance is
-illusory if it correlates with an unmeasured confounder.
+Outcome definitions also belong in the design. A clinical symptom scale, radiographic assessment, mortality endpoint, manufacturing yield, and user-click rate answer different questions and have different vulnerability to expectation, measurement error, censoring, and competing outcomes. Timing can alter the estimand: an early response need not imply durable benefit, and a long follow-up can introduce treatment changes or attrition. Campbell and Stanley's validity framework and CONSORT's reporting requirements both treat measurement and follow-up as design features rather than clerical details [4][15].
 
-### Replication
+### Random Assignment and Allocation Concealment
 
-Replication means applying each treatment to multiple experimental
-units, not measuring the same unit multiple times (which is
-repetition). Replication serves two purposes: it provides an estimate
-of experimental error (the variance against which treatment effects
-are judged), and it increases the precision of effect estimates by
-reducing the standard error of the mean.
+Random assignment uses a known chance mechanism to allocate treatments. Under the design, assignment is independent of fixed potential outcomes, so treatment groups are comparable in expectation and randomization-based probabilities can be calculated from the assignments that could have occurred. Randomization does not guarantee identical baseline groups in one realized experiment; chance imbalance remains possible, especially with small samples. Its protection is against systematic assignment bias and its provision of a known reference distribution, not automatic numerical balance [1][5].
 
-Without replication, there is no error variance, and no significance
-test is possible. An experiment with one observation per treatment
-can estimate differences but cannot assess whether those differences
-are larger than what chance would produce. The number of replicates
-determines statistical power -- the probability of detecting a true
-effect of a given size. Power analysis, developed by Neyman and
-Pearson and formalized by Cohen, uses the expected effect size, the
-desired significance level, and the target power to calculate the
-required sample size before the experiment begins.
+Allocation concealment is distinct from random sequence generation. A valid random sequence can be subverted if the person enrolling units can foresee the next assignment and alter eligibility or timing. Central assignment or properly controlled sequential opaque containers protect the sequence until a unit is irrevocably entered. The MRC streptomycin trial is historically important in part because the random-number series was centrally controlled and unavailable to investigators before allocation [9][10].
 
-A critical distinction is between biological replication (independent
-subjects receiving the same treatment) and technical replication
-(repeated measurements on the same subject). Biological replication
-generalizes to a population; technical replication only improves the
-precision of measurement for that subject. Many flawed experiments
-confuse the two, using technical replicates as if they were
-independent observations, which inflates the apparent sample size and
-produces false-positive results.
+Randomization also does not make observations independent or eliminate interference. Outcomes can be correlated within households, schools, batches, or repeated measurements. One unit's treatment can affect another unit through contagion, competition, communication, or shared resources. Rosenbaum defines interference precisely as treatment applied to one unit affecting other units; when it is plausible, the unit of randomization, exposure definition, and analysis must represent it rather than relying on an ordinary independent-observation model [6].
+
+### Replication, Repeated Measurement, and Precision
+
+Replication applies each treatment to multiple independent experimental units. It provides information about unit-to-unit variation and improves precision. Repeatedly measuring the same unit can reduce measurement error for that unit, but it does not create additional independent treatment assignments. The relevant replication count follows the assignment and inference structure, not the number of rows in a data table [5][7].
+
+Classical residual variance cannot be estimated from a one-factor fixed-effects model with one observation at every treatment level and no other source of error information. That statement is narrower than saying no test is ever possible without conventional replication: some randomization tests or structured designs use other information. The general design lesson is that a claim about variation across units needs independent units or defensible external structure, while repeated technical readings answer only a measurement question [1][5][7].
+
+Precision depends on more than the raw number of observations. Outcome variance, allocation ratio, clustering, repeated measures, attrition, multiplicity, covariate adjustment, effect size, and the chosen test all affect the sampling distribution. Power is the probability that a prespecified procedure rejects the null under a specified alternative and design. A target such as 80% is a convention, not a universal scientific standard, and the calculation is only as meaningful as its effect-size and variance assumptions [12][13][15].
 
 ### Blocking and Local Control
 
-Blocking is the technique of grouping experimental units into
-homogeneous blocks before randomizing treatments within blocks. It
-addresses a problem that randomization alone cannot solve: if a known
-nuisance factor (soil type, patient age, time of day, operator
-identity) affects the response, randomization will distribute it
-across groups but will not remove its contribution to error variance.
-Blocking removes that contribution by making comparisons within
-homogeneous groups, so the nuisance factor's variability does not
-enter the error term.
+Blocking groups units that are similar on an important nuisance factor and randomizes treatments within each block. In a field trial, blocks may represent soil zones; in a multicenter trial, they may represent sites or prognostic strata; in manufacturing, they may represent material lots or shifts. The purpose is not to make nuisance variation disappear from reality but to keep it from obscuring the treatment comparison and to ensure that treatment contrasts are made within comparable sets [3][5].
 
-The guiding principle, attributed to Fisher, is: "Block what you can,
-randomize what you cannot." Use blocking for a few primary nuisance
-factors that are known and measurable. Use randomization for the
-remainder -- the unmeasured and unknown confounders that no design can
-explicitly control.
+Blocking has costs. Blocks must be defined before outcomes are known, very small blocks can make assignment predictable when concealment is weak, and analysis must respect the blocked assignment. Blocking on many weak factors can complicate implementation without improving precision. The design question is which few nuisance variables are strongly related to the outcome and operationally available before treatment assignment [5][15].
 
-The randomized complete block design (RCBD) controls for one nuisance
-factor. The Latin square design controls for two nuisance factors
-simultaneously by arranging treatments in a square grid where each
-treatment appears exactly once in each row and once in each column.
-Latin squares require that the number of treatments equal the number
-of levels of each blocking factor, and they assume no interaction
-between the treatment and the blocking factors -- an assumption that
-must be validated, not assumed.
+A randomized complete block design places every treatment in every block. A Latin square controls two blocking factors by placing each treatment exactly once in every row and column. The standard additive Latin-square analysis requires the number of levels of each blocking factor to equal the number of treatment levels and assumes away treatment-by-block and block-by-block interactions. Those restrictions are not minor formatting details; when important interactions exist, the design cannot separate them from the terms it was built to estimate [5].
 
-### Factorial Designs
+### Factorial and Fractional Factorial Designs
 
-A factorial design tests multiple factors simultaneously, running
-every combination of factor levels. A 2x2 factorial tests two factors
-each at two levels, producing four treatment groups; a 2x3 design
-produces six. The advantage over one-at-a-time experimentation is
-efficiency: a single factorial experiment estimates all main effects
-and all interactions, while sequential single-factor experiments
-would require more runs and still miss interactions.
+A factorial design varies two or more factors together. A full two-level design with k factors has 2^k treatment combinations, so five factors require 32 combinations before replication or center points. Main effects summarize average changes across the levels of other factors, while interactions ask whether one factor's effect changes with another factor. This ability to estimate interactions is the main conceptual advantage over changing one factor at a time [5].
 
-A main effect is the average change in response when a factor moves
-from its low to high level, averaged across all levels of the other
-factors. An interaction effect exists when the effect of one factor
-depends on the level of another. Interactions are where factorial
-designs earn their keep: if factor A has a positive effect only when
-factor B is at its high level, a one-at-a-time design would never
-discover this. The factorial design reveals it because every level of
-A is tested under every level of B.
+A main effect can be misleading when interactions are strong. If a treatment helps under one operating condition and harms under another, the average can be near zero even though both conditional effects matter. Factorial analysis therefore begins with the estimable interaction structure and scientific hierarchy rather than interpreting main effects mechanically. The design should also distinguish fixed factor levels chosen for comparison from broader populations of possible levels [5].
 
-Fractional factorial designs sacrifice the ability to estimate all
-interactions in exchange for fewer runs. A 2^(k-1) half-fraction runs
-half the combinations of a full 2^k design, at the cost of aliasing
-(confounding) certain effects with each other. The choice of which
-effects to alias is an editorial decision: the researcher decides
-which interactions are least likely to be important and aliases them
-with main effects or lower-order interactions. The defining relation
-of the design (e.g., I = ABCD for a 2^(4-1) design) determines the
-complete alias structure.
+Fractional factorial designs run a selected fraction of all combinations. Their defining relation determines the alias structure: in a resolution III design, main effects can be aliased with two-factor interactions; in resolution IV, main effects are clear of two-factor interactions but two-factor interactions may be aliased with one another. A fraction does not discover which aliased effect caused an observed contrast. It is efficient only when the assumed sparsity or hierarchy of effects is scientifically defensible and follow-up runs can resolve important ambiguities [5].
 
-### Control Groups and Blinding
+### Controls, Blinding, and Comparable Treatment
 
-A control group receives either no treatment, a placebo, or a standard
-treatment, providing the baseline against which the experimental
-treatment is compared. Without a control group, any observed change
-could be due to natural progression, regression to the mean, placebo
-effects, or environmental shifts. The control group isolates the
-treatment effect by holding all other conditions constant.
+A control condition supplies the counterfactual benchmark built into the study. Depending on the question and ethics, it may be placebo, no treatment, usual care, an active treatment, another dose, or an external historical comparison. A control group does not literally hold every other condition constant. Comparable treatment, follow-up, and measurement must be maintained, and differential adherence, co-intervention, attrition, or observation can reintroduce bias after random assignment [13][14].
 
-Blinding prevents bias from entering through the expectations of
-participants or experimenters. In a single-blind study, participants
-do not know which treatment they receive. In a double-blind study,
-neither participants nor experimenters know the assignment until the
-data are analyzed. Blinding is necessary because expectations affect
-behavior and even physiological responses: the placebo effect in
-patients and the experimenter expectancy effect in researchers can
-produce real differences in measured outcomes that have nothing to do
-with the treatment itself. Beecher's 1955 analysis estimated that up
-to 35 percent of therapeutic effects in clinical trials could be
-attributed to placebo responses, though later reanalyses suggested
-this figure was inflated by failing to control for natural disease
-fluctuation.
+Blinding withholds assignment information from people whose behavior or assessments could be influenced by it. Participants, care providers, outcome assessors, adjudicators, and data analysts are distinct roles. Terms such as "single blind" and "double blind" are ambiguous because different reports use them for different combinations. CONSORT 2025 therefore asks authors to state who was blinded, how blinding was achieved, and how similar the interventions appeared [15].
 
-### Threats to Validity
+Blinding is not always feasible. Surgical procedures, behavior programs, workplace policies, and obvious side effects can reveal assignment. The response is not to call an open study blinded, but to use feasible safeguards: concealed allocation, blinded outcome assessment, objective endpoints where appropriate, standardized co-interventions, prespecified decision rules, and transparent reporting. The MRC streptomycin trial illustrates this separation: treatment was apparent, yet radiographic and bacteriological assessment was blinded [8][10].
 
-Donald Campbell and Julian Stanley formalized the concept of validity
-threats -- alternative explanations that can account for observed
-results independently of the treatment. They distinguished internal
-validity (did the treatment cause the observed effect in this specific
-study?) from external validity (can the effect be generalized to other
-populations, settings, and times?).
+### Internal, Construct, External, and Statistical Conclusion Validity
 
-Threats to internal validity include: history (events between pretest
-and posttest that affect the outcome), maturation (natural changes in
-subjects over time), testing (the pretest itself changes the
-response), instrumentation (changes in measurement tools),
-statistical regression to the mean (extreme scores tend toward the
-average on retesting), selection bias (groups differ before the
-treatment), and attrition (differential dropout between groups).
+Internal validity asks whether the observed contrast can be attributed to the treatment rather than a rival process in the study. Selection, history, maturation, testing effects, instrumentation changes, regression to the mean, and differential attrition are classic rivals. Random assignment addresses baseline selection under correct implementation, but it does not automatically prevent missing outcomes, treatment crossover, biased measurement, or post-randomization selection [4][15].
 
-Threats to external validity include: interaction of testing and
-treatment (pretesting sensitizes subjects to the treatment),
-interaction of selection and treatment (the selected sample is not
-representative), and reactive arrangements (the experimental setting
-itself alters behavior -- the Hawthorne effect).
+Construct validity asks whether the operational treatment and measurement represent the intended concepts. External validity asks where the result transports: other units, settings, treatment versions, outcomes, and times. Statistical conclusion validity concerns whether the data and analysis support the asserted covariation with appropriate control of error and adequate precision. Cook and Campbell's 1979 framework assessed designs against these four validity types, extending Campbell and Stanley's earlier emphasis on internal and external validity and concrete threats [4][18].
 
-Cook and Campbell later expanded the typology to four types:
-statistical conclusion validity (is the covariation real?),
-internal validity (is the covariation causal?), construct validity
-(do the operations capture the intended constructs?), and external
-validity (do the results generalize?). Each type has its own set of
-threats, and a well-designed experiment must address all four.
+These validities can conflict but should not be reduced to a slogan that control always sacrifices realism. A tightly standardized study can fail to represent ordinary implementation, while a broad field study can preserve strong internal validity through random assignment and careful measurement. Generalization requires a model of effect modifiers and implementation, not merely a larger or more diverse sample. The design should say which validity threats it addresses and which remain [4][14].
 
-### Power Analysis and Sample Size Determination
+### Analysis Plans, Multiplicity, and Transparency
 
-Statistical power is the probability that a test will detect a true
-effect of a specified size at a given significance level. Power is
-determined by four quantities: the significance level (alpha, usually
-0.05), the effect size (the magnitude of the true difference), the
-sample size, and the population variance. Given any three, the fourth
-is determined. Power analysis runs this calculation before data
-collection to determine the sample size needed to achieve a target
-power (conventionally 0.80 or higher).
+A design includes the analysis choices that determine its operating characteristics. Primary outcomes, exclusions, transformations, covariates, subgroup analyses, stopping rules, and multiplicity procedures should be specified before outcome patterns can influence them when the analysis is intended to be confirmatory. Simmons and colleagues showed in simulations that individually plausible freedoms can combine to produce a false-positive rate far above the nominal level when only the favorable result is disclosed [12].
 
-Underpowered experiments are a leading cause of the replication
-crisis. A study with 30 percent power has a high probability of
-missing true effects and, when it does find significance, a high
-probability that the finding is a false positive inflated by
-sampling error (the "winner's curse"). Power analysis forces
-researchers to confront the question: if my hypothesis is true, how
-many subjects do I need to detect it? Answering this question before
-collecting data prevents the most common form of wasted research --
-experiments that cannot answer the question they pose.
+Preregistration timestamps hypotheses and methods before results are known. It separates planned tests from exploratory analyses but does not make a weak measure valid, force investigators to follow a mistaken plan, or guarantee honest implementation. Deviations can be scientifically necessary; they must be disclosed and labeled. Registered reports add review and in-principle publication decisions before outcomes, further reducing selection on whether results are striking [17].
+
+Transparent reporting is not identical to sound design. CONSORT can reveal how a trial was conducted, but complete reporting of biased allocation does not remove the bias. Conversely, an excellent design reported incompletely cannot be critically appraised or replicated. Design, conduct, analysis, and reporting are separate links whose failures require different corrections [14][15].
 
 ## Evidence
 
-### The Lady Tasting Tea (Fisher, 1935)
+### Fisher's Tea Experiment Shows How Assignment Creates a Test
 
-The most famous illustration of experimental design principles is
-Fisher's Lady tasting tea experiment, described in the opening chapter
-of "The Design of Experiments" (1935). A colleague, Dr. Muriel Bristol,
-claimed she could tell whether milk or tea was poured first into a
-cup. Fisher designed an experiment to test this claim: eight cups
-were prepared, four with milk first and four with tea first, presented
-to Bristol in random order. She was told there were four of each type
-but not which was which.
+In Fisher's eight-cup design, the subject knows that exactly four cups are milk-first and must identify four. There are C(8,4) = 70 possible four-cup selections under the null assignment logic, and only one is entirely correct, so the probability of a perfect classification by chance is 1/70, approximately 0.0143. If three of each type are correctly classified, the forced four-and-four response entails one swap in each direction; 16 such selections plus the perfect one give an upper-tail probability of 17/70, approximately 0.243. The calculation is exact because the randomized design and response rule define the reference set [1].
 
-Under the null hypothesis that Bristol could not distinguish the
-preparations, her answers would be due to chance. The number of ways
-to choose 4 cups out of 8 (labeling them as "milk first") is C(8,4) =
-70. Only one of these 70 orderings is entirely correct. So the
-probability of a perfect score by chance alone is 1/70, approximately
-0.014. If Bristol got all eight cups right, Fisher would reject the
-null hypothesis at a significance level below 0.05. If she got one
-wrong, the probability would be (1 + 16)/70 = 17/70, approximately
-0.243 -- not significant.
+The case also exposes what randomization does not protect. If all milk-first cups differed systematically in sugar, temperature, cup texture, or another feature, the subject could classify the preparation without detecting pour order. Fisher explicitly used such examples to show that randomization cannot excuse the experimenter from avoiding treatment-linked differences introduced during preparation or measurement. Assignment protects against uncontrolled allocation of other causes; it does not erase a second intervention confounded with the treatment [1].
 
-This experiment demonstrates several principles simultaneously:
-randomization (cups presented in random order), control (equal numbers
-of each type, subject told the design), a well-defined null
-hypothesis, and a test whose validity rests on the randomization
-process. The design is so simple that it requires no parametric
-assumptions -- the significance level is exact, derived from the
-combinatorial structure of the randomization. Bristol reportedly
-identified all eight cups correctly, and Fisher had his demonstration
-that a rigorous design can test even an implausible-sounding claim.
+The published book explains the hypothetical design and inferential logic but does not establish the later folklore that Muriel Bristol completed this exact formal experiment and classified all eight cups correctly. That anecdote should not be used as the evidentiary result of Fisher's text. The durable evidence is methodological: a small experiment can have a transparent exact test when its assignments, response space, and decision rule are specified before the result [1].
 
-### The Streptomycin Trial (MRC, 1948)
+### Rothamsted Linked Heterogeneity, Blocking, and Factorial Structure
 
-The first modern randomized controlled trial in medicine was the 1948
-British Medical Research Council trial of streptomycin for pulmonary
-tuberculosis. The trial randomized 107 patients to either streptomycin
-plus bed rest or bed rest alone. Randomization was conducted using
-sealed envelopes containing random number assignments, and neither
-patients nor treating physicians knew which group a patient was in.
+Fisher and Mackenzie's potato study analyzed variety and manure response in field data using an analysis that separated sources of variation. Box's historical reconstruction explains how this work and related Rothamsted problems led Fisher to connect analysis of variance with randomized blocks, replication, factorial arrangements, and confounding. The contribution was not a general finding that blocking always produces a particular percentage reduction in variance; it was a method for allocating known heterogeneity to design terms so treatment comparisons could be made against an appropriate error structure [2][3].
 
-The results were dramatic: 51 percent of streptomycin patients showed
-significant improvement at six months, compared to 8 percent of
-controls. Seven streptomycin patients died versus 27 controls. The
-trial established not only the efficacy of streptomycin but the
-methodology of the RCT as the standard for medical evidence. The
-design incorporated randomization (to eliminate selection bias),
-blinding (to eliminate expectation bias), a control group (to
-isolate the treatment effect from natural disease progression), and
-predefined outcome criteria (to prevent post-hoc cherry-picking of
-results).
+This history corrects two errors in the prior topic. The 1923 Fisher-Mackenzie paper and Box's 1980 article do not share a DOI: their identifiers are 10.1017/S0021859600003592 and 10.2307/2682986, respectively. The potato study also should not be described as simple evidence from six varieties in a generic randomized complete block unless the exact layout and estimand are established from the paper. The verified claim is narrower: it examined manurial responses of potato varieties and helped develop factorial ANOVA for field experimentation [2][3].
 
-The streptomycin trial also illustrates the ethical dimension of
-experimental design. Streptomycin was in short supply; randomization
-was not only methodologically superior but also a fair way to
-distribute a scarce resource. The tension between scientific rigor
-and ethical obligation -- randomizing patients to potentially inferior
-treatment -- remains a central challenge in clinical trial design,
-addressed through equipoise (genuine uncertainty about which treatment
-is better), stopping rules (predefined criteria for ending a trial if
-one treatment proves clearly superior), and informed consent.
+### The MRC Streptomycin Trial Separates Allocation, Masking, and Outcome
 
-### The Reproducibility Project (Open Science Collaboration, 2015)
+The primary 1948 report's six-month radiographic-outcome table records four deaths among 55 patients assigned streptomycin plus bed rest and 14 deaths among 52 assigned bed rest alone, approximately 7.3% and 26.9%. Crofton's later first-person retrospective reports 15 control deaths for the same interval; because the contemporaneous table and the retrospective disagree, the primary table governs the counts used here and the discrepancy remains explicit. The trial used a centrally controlled random-number sequence concealed until allocation, and radiographic assessors and bacteriologists were blinded even though treatment delivery itself was not masked [8][9][10].
 
-The most consequential evidence for the importance of experimental
-design comes from the replication crisis itself. In 2015, the Open
-Science Collaboration published the results of a massive replication
-effort in Science. The project attempted to replicate 100 experimental
-and correlational studies published in three top psychology journals,
-using high-powered designs and original materials whenever possible.
+The study therefore demonstrates several separable design protections. Concealed random allocation limited enrollment and assignment bias. A concurrent control represented the disease course under bed rest. Blinded assessment reduced knowledge-of-treatment bias in radiographic and bacteriological judgments. Defined eligibility, follow-up, and outcomes made the comparison interpretable. Scarcity of streptomycin also gave random allocation an allocation-fairness role, but methodological merit does not remove the ethical need for uncertainty, consent standards, monitoring, and justified control conditions [8][9][10].
 
-The findings were sobering. While 97 percent of the original studies
-reported statistically significant results, only 36 percent of the
-replications achieved significance. The mean effect size of the
-replication studies was approximately half the mean effect size of the
-originals. Only 47 percent of original effect sizes fell within the 95
-percent confidence interval of the replication effect size. Subjective
-assessments by the replication teams judged that 39 percent of effects
-had replicated the original result.
+Historical precision matters. The trial is commonly described as inaugurating the modern randomized clinical trial, but earlier controlled and chance-based allocations existed. Yoshioka concludes that it deserves recognition for careful design and implementation while being less novel than popular accounts imply. The defensible claim is that its clearly documented central randomization and masked outcome assessment became an influential model, not that random treatment allocation first appeared in medicine in 1948 [9][10].
 
-The project identified several design failures that contributed to the
-discrepancy. Many original studies were underpowered -- small samples
-that inflated effect sizes through sampling error. Publication bias
-meant that significant results were more likely to be published,
-creating a literature skewed toward false positives. Flexibility in
-analysis -- the researcher's freedom to choose among many statistical
-tests and reporting only those that yielded significance -- inflated
-the false positive rate far beyond the nominal 5 percent. The
-replication studies addressed these problems through pre-registration
-(committing to hypotheses and analyses before data collection), larger
-samples (higher power), and transparent reporting of all analyses.
+### Campbell and Stanley Made Rival Explanations Auditable
 
-This study transformed the debate from a theoretical concern into
-documented evidence. It demonstrated that design choices --
-randomization, blinding, sample size, pre-registration, analysis
-transparency -- are not mere methodological niceties but the
-determinants of whether scientific findings are true. A finding
-produced by a flawed design is not merely imprecise; it can be
-systematically wrong, and no amount of statistical sophistication can
-repair data collected under a design that permits confounding or
-selective reporting.
+Campbell and Stanley assessed 16 designs against 12 threats, including three pre-experimental designs, three true experiments, and multiple quasi-experimental arrangements. Their one-group pretest-posttest design could not isolate treatment from history, maturation, testing, instrumentation, or regression. Randomized control-group designs blocked many internal-validity rivals, while interrupted time series, nonequivalent controls, and regression discontinuity addressed specific settings with remaining assumptions [4].
 
-### Blocking in Agricultural Trials (Fisher and Mackenzie, 1923)
+The catalogue is evidence about logical control, not a trial showing that every randomized design generalizes or every quasi-experiment fails. Its value lies in forcing a design-specific question: which rival explanations can produce this exact observed pattern, and which features rule them out? The tables are not a mechanical scorecard detached from context; Campbell and Stanley themselves warned that the design notation must be interpreted with the underlying psychological and institutional processes [4].
 
-Fisher's 1923 paper with Winifred Mackenzie on crop variation at
-Rothamsted provides the foundational evidence for blocking. They
-analyzed data from a trial comparing six varieties of potatoes
-arranged in a randomized block design. The field was divided into
-blocks (rows) and plots (columns within rows), with varieties
-randomly assigned within each block. The analysis of variance
-partitioned the total variation into components: variation between
-blocks (due to soil heterogeneity), variation between varieties (the
-treatment effect), and residual error.
+### Researcher Flexibility Changes the Actual Error Process
 
-The key finding was methodological, not agricultural. By blocking on
-the known nuisance factor (soil heterogeneity across the field) and
-randomizing within blocks, Fisher and Mackenzie obtained a treatment
-comparison with substantially smaller error variance than a
-completely randomized design would have produced. The blocking
-removed the between-block variation from the error term, increasing
-the precision of the variety comparison. This demonstration
-established the randomized block design as the default for
-agricultural research and, by extension, for any experiment where a
-known nuisance factor can be identified and controlled.
+Simmons, Nelson, and Simonsohn simulated four researcher freedoms: choosing among outcomes, adding observations after an interim result, choosing covariate specifications, and selecting comparisons among conditions. In their specified simulation, using all four while reporting the favorable analysis produced a 61% false-positive rate rather than the nominal 5%. Individual freedoms also raised the rate, such as outcome choice to 9.5% and flexible covariate handling to 11.7% under their settings [12].
 
-### Campbell and Stanley's Validity Catalog (1963)
+The 61% figure is not an estimate of the proportion of published science that is false. It is a causal demonstration that an unreported search process changes the probability attached to the reported result. Prespecification, full disclosure, multiplicity adjustment, and independent confirmation address different parts of that problem. A preregistered plan can still be wrong, while an exploratory result can be useful when it is labeled and tested with new data [12][17].
 
-Campbell and Stanley's 1963 monograph provided systematic evidence for
-how design choices affect validity. They analyzed sixteen experimental
-and quasi-experimental designs, evaluating each against twelve
-threats to valid inference. The result was a catalog showing
-precisely which threats each design can and cannot rule out.
+### The Reproducibility Project Bounds Claims About Replication
 
-The pre-experimental designs -- the one-shot case study (X O), the
-one-group pretest-posttest design (O X O), and the
-nonequivalent-control-group design -- were shown to be vulnerable to
-most or all threats. The true experimental designs -- the
-posttest-only control group design (R X O, R O), the pretest-posttest
-control group design (R O X O, R O O), and the Solomon four-group
-design -- were shown to rule out most internal validity threats
-through randomization. The quasi-experimental designs -- the
-interrupted time series and the nonequivalent control group time
-series -- were shown to address specific threats while remaining
-vulnerable to others.
+The Open Science Collaboration completed replications of 100 experimental and correlational studies drawn from three psychology journals. Ninety-seven percent of original studies had statistically significant results, compared with 36% of replications. Mean replication effect size was about half the mean original effect size; 47% of original effect estimates fell within the replication estimate's 95% confidence interval, and 39% were subjectively rated as replicated. The teams planned high power to detect the original effect sizes and obtained original materials where available [11].
 
-This catalog converted experimental design from an art into a
-decision framework. A researcher could select a design by identifying
-which threats are most pressing for their context and choosing the
-design that best addresses them. The framework also made explicit the
-trade-off between internal and external validity: the most tightly
-controlled laboratory experiments maximize internal validity at the
-cost of generalizability, while field experiments sacrifice some
-control for ecological validity.
+No single percentage is a universal replication rate. The project used several criteria because threshold crossing, interval compatibility, effect-size change, meta-analysis, and expert assessment answer different questions. Its sample covered selected journals and a defined period; incomplete access to materials, contextual differences, original selection, sampling variation, and genuine heterogeneity can all contribute. The published conclusion is appropriately bounded: many replications produced weaker evidence despite methodological review and high power for the original effect size [11].
+
+### Low Power Distorts More Than the Chance of Detection
+
+Button and colleagues reviewed neuroscience evidence and argued that low power reduces the chance of detecting a true effect and, in a literature selected for positive results, contributes to effect-size exaggeration and poor reproducibility. The mechanism is selection: among noisy estimates, those that cross a threshold tend to be unusually large. This does not mean lowering sample size changes a valid test's conditional Type I error from 5% under a true null when all assumptions are met. It means that power, prior prevalence of real effects, bias, and publication selection jointly affect how credible and how exaggerated published positives are [13].
+
+Power analysis therefore belongs before data collection and must name the alternative, variance, test, allocation, and losses it assumes. CONSORT 2025 requires reporting how sample size was determined and all supporting assumptions. After results are observed, uncertainty intervals and sensitivity analyses are more informative than treating power recomputed from the observed effect as new evidence [13][15].
+
+### Placebo History Shows Why a Control Response Is Not a Placebo Effect
+
+Beecher's 1955 paper reviewed 15 studies involving 1,082 patients and attributed improvement in about 35% to a powerful placebo response. Kienle and Kiene's later reanalysis argued that the cited studies did not isolate a causal placebo effect because improvement could reflect spontaneous recovery, symptom fluctuation, regression to the mean, additional treatment, or measurement processes. The historical claim should therefore be reported as Beecher's estimate, not as a settled fraction of therapeutic effects caused by suggestion [16].
+
+This distinction is a compact lesson in control design. Change from baseline in a placebo group is not itself the placebo effect; identifying a causal effect of receiving placebo generally requires a suitable no-treatment comparison and protection against other differences. A placebo-controlled drug trial can identify the drug's effect relative to the placebo condition without separately identifying every component of the placebo response [14][16].
 
 ## Implications
 
 ### For Scientific Research
 
-The most direct implication of experimental design is for the practice
-of science itself. Every empirical discipline -- medicine, psychology,
-economics, education, biology, engineering -- depends on experimental
-design to produce credible evidence. The replication crisis has made
-this dependence explicit: the fields that experienced the worst
-replication failures were those that tolerated the weakest design
-practices. The reforms that followed -- pre-registration, registered
-reports, mandatory sample size justification, open data, and
-standardized reporting guidelines like CONSORT for clinical trials and
-PRE-ANALYSIS PLANS for economics -- are all design reforms, not
-statistical reforms. They change how data is collected, not how it is
-analyzed.
+The first implication is to design backward from the claim. Define the experimental unit, treatment contrast, primary outcome, timing, and target population; then choose assignment, blocking, replication, and measurement procedures that identify that contrast. Analysis should respect the assignment mechanism and clustering. A sophisticated model cannot turn repeated measurements into independent assignments, reconstruct an outcome never measured, or distinguish a treatment from a factor perfectly confounded with it [5][7].
 
-For individual researchers, experimental design is a planning
-discipline, not an afterthought. The design is specified before data
-collection begins: the hypothesis, the treatment and control
-conditions, the randomization scheme, the sample size (justified by
-power analysis), the outcome measures, and the analysis plan. This
-specification is the substance of pre-registration. It forces
-researchers to confront design questions while they can still change
-them -- before the data reveals which design choices would have been
-convenient. The shift from exploratory to confirmatory research --
-from fishing for patterns to testing pre-specified hypotheses -- is
-the most important methodological reform of the past decade.
+Confirmatory and exploratory work should be separated without devaluing either. Preregistered hypotheses, outcomes, exclusions, stopping rules, and models make the intended error process auditable. Exploratory patterns can generate new hypotheses, but the same data that revealed a pattern do not provide an independent test of it. The author's synthesis is that the reversible design is to preserve exploratory findings, label them, and allocate new data to confirmation rather than suppress exploration or relabel it after the fact [12][17].
 
-For fields that cannot randomize -- observational epidemiology, labor
-economics, education policy -- experimental design provides the
-framework for evaluating quasi-experimental alternatives. The Campbell
-tradition's validity threat catalog lets researchers identify which
-threats their design cannot rule out and triangulate with additional
-evidence. Difference-in-differences, regression discontinuity, and
-instrumental variables are all attempts to approximate the properties
-of a randomized experiment when randomization is impossible. Their
-credibility is judged by how closely they approach the design
-standards that randomization achieves directly.
+Replication should target the scientific claim rather than reproduce only a threshold label. A direct replication tests a closely matched procedure; a conceptual replication changes operations while preserving a proposed construct; a multisite study tests variation across settings. Effect estimates, uncertainty, protocol fidelity, and heterogeneity are needed to interpret discrepancies. The Open Science Collaboration demonstrates why several indicators are preferable to declaring success solely from whether both studies have p below 0.05 [11].
 
-### For Clinical Medicine and Drug Development
+### For Clinical Trials and Regulation
 
-Experimental design is the regulatory foundation of evidence-based
-medicine. The FDA requires randomized, double-blind,
-placebo-controlled trials for drug approval because these designs
-rule out the threats -- selection bias, expectation bias, placebo
-effects, regression to the mean -- that have historically produced
-ineffective or harmful treatments. The phases of clinical development
-(phase I safety, phase II efficacy, phase III confirmatory, phase IV
-post-market) are a design sequence, each phase addressing a different
-question with a different design.
+Clinical design must align the control with the question and ethical setting. FDA regulation recognizes placebo, dose-comparison, no-treatment, active-treatment, and historical controls rather than requiring every approval trial to be randomized, double-blind, and placebo-controlled. Concurrent controls ordinarily use randomization to minimize bias, while historical controls are reserved for special circumstances because patient comparability is harder to establish. Blinding is one bias-reduction method, not a universal legal design formula [14].
 
-The implications extend to comparative effectiveness research, where
-the question is not whether a treatment works but which of several
-treatments works best. Pragmatic trials -- large, simple trials
-conducted in real-world clinical settings -- sacrifice some internal
-validity for external validity, enrolling broader populations and
-using clinically relevant outcomes. The tension between explanatory
-trials (tightly controlled, homogeneous populations, surrogate
-endpoints) and pragmatic trials (loosely controlled, diverse
-populations, clinical endpoints) is a design choice with no
-universally correct answer. The right design depends on the question:
-does this treatment work under ideal conditions, or does it work in
-the patients I actually treat?
+Reports should state the random sequence, restrictions such as stratification or blocks, concealment mechanism, access to the sequence, roles blinded, intervention similarity, outcomes, harms, sample-size assumptions, analysis populations, attrition, and protocol changes. CONSORT 2025 is a reporting minimum, not a certificate that every choice was valid. Its practical value is that readers need not guess whether allocation was concealed, who assessed outcomes, or how the analysis population was defined [15].
 
-Adaptive trial designs -- basket trials, umbrella trials, and
-sequential designs that modify enrollment based on interim results --
-represent the frontier of clinical experimental design. They use
-Bayesian methods and pre-specified adaptation rules to answer more
-questions with fewer patients, but they introduce new validity
-threats (inflated false positive rates, complexity-driven opacity)
-that traditional fixed designs avoid. The trade-off between efficiency
-and rigor is the central design tension in modern clinical research.
+Adaptive and sequential designs can modify enrollment, allocation, sample size, or stopping under prespecified rules. Their validity depends on accounting for those rules in inference and protecting interim information. An unplanned stop after a favorable look is not equivalent to a planned group-sequential design. The general principle is unchanged: flexibility can be valid when its probability consequences are designed in advance, and misleading when hidden after results are known [12][15].
 
-### For Industry and Engineering
+### For Engineering and Industrial Experimentation
 
-Experimental design originated in agriculture but found its most
-extensive industrial application in manufacturing, through the work of
-George Box and the quality movement. Design of experiments (DOE) is a
-core methodology in Six Sigma and quality engineering: factorial
-designs identify the factors that affect a process, response surface
-methodology optimizes the factor settings, and robust design (Taguchi
-methods) makes products insensitive to environmental variation.
+Engineers should use factorial designs when interactions are plausible and several controllable factors must be studied together. A five-factor, two-level full factorial requires 32 combinations, not 160 one-factor-at-a-time runs. One-factor-at-a-time testing uses a different and often smaller run set, but it cannot estimate interactions efficiently and can miss settings whose performance depends on combinations. The comparison should therefore concern information per run, not an invented universal run multiplier [5].
 
-The implications for product development are direct. A factorial
-experiment can test five factors at two levels in 32 runs, replacing
-what would require 160 runs if each factor were tested one at a time.
-The interaction effects that factorials reveal -- a factor that
-matters only in combination with another -- are often the most
-actionable findings, because real processes are multivariate and
-interdependent. Industries that adopted DOE systematically (Japanese
-manufacturing in the 1980s, semiconductor fabrication, pharmaceutical
-process development) achieved quality and efficiency gains that
-competitors using trial-and-error could not match.
+Fractional designs require an alias audit before data collection. The researcher should list which main effects and interactions are confounded, choose a resolution appropriate to the scientific hierarchy, randomize run order within operational constraints, block predictable shifts, and reserve follow-up runs for de-aliasing. A software-generated design is not self-interpreting; its defining relation states exactly which explanations the data cannot distinguish [5].
 
-### For Technology and AI Evaluation
+Robust process improvement also needs confirmation. Screening experiments identify a small set of candidate factors; response-surface or follow-up designs refine settings; confirmation runs test performance under new conditions. The author's synthesis is that this sequence prevents an optimization algorithm from exploiting noise in the same runs used to discover the setting. It is the industrial analogue of separating exploration from confirmation [5][12].
 
-The most recent frontier for experimental design is the evaluation of
-AI systems. As machine learning models become more capable, the
-question of whether a model improvement is real or an artifact of
-benchmark selection, prompt engineering, or sampling variance has
-become pressing. A/B testing -- the online controlled experiment --
-is experimental design applied at scale, with millions of users
-randomized to treatment and control conditions to measure the effect
-of a change in a product or algorithm.
+### For Digital Products and AI Evaluation
 
-The design challenges in AI evaluation mirror those in other fields:
-selection bias (benchmarks may not represent real use), multiple
-comparisons (testing many configurations inflates false positives),
-and the interaction between model and evaluator (an evaluator who
-knows which model generated which output introduces expectation
-bias). The solution is the same: randomization, blinding,
-pre-registration of evaluation protocols, and adequate sample sizes.
+Online controlled experiments inherit ordinary design requirements and add interference, rapid iteration, and large multiplicity. User-level randomization may fail when one user's treatment affects another through a network, marketplace, ranking system, or shared capacity. Cluster randomization, geographic or temporal designs, or explicit interference models can be appropriate, but each changes the estimand and effective sample size. Large numbers of users do not correct a wrong unit of randomization [6].
 
-The implications extend to the design of the AI systems themselves.
-Reinforcement learning from human feedback, the training method
-behind modern language models, is an experimental design problem: the
-reward model is trained on comparisons, and the quality of those
-comparisons depends on whether the human raters were blinded to the
-model identity, whether the prompts were sampled representatively,
-and whether the comparison protocol was pre-specified. A model
-trained on biased comparisons will optimize for the bias, not for
-genuine quality. The same design principles that protect clinical
-trials and agricultural experiments -- randomization, blinding,
-pre-registration, adequate sampling -- protect the integrity of the
-training signal that shapes AI behavior. Experimental design is not
-a historical artifact but a living discipline whose principles apply
-wherever empirical evidence is sought, and the frontier of that
-application is now computational.
+Benchmark evaluation of AI systems similarly needs prespecified prompts or tasks, sampling rules, model versions, decoding settings, blinded or otherwise protected assessment, and uncertainty across items and raters. Repeated outputs from the same prompt are not automatically independent evidence about population performance. Testing many prompts, metrics, evaluators, and checkpoints and publishing only the most favorable comparison recreates the researcher-flexibility problem at computational scale [7][12].
+
+The author's synthesis is to separate development and evaluation data. Development sets can guide prompt, model, and metric choices; locked evaluations or prospectively sampled tasks test the resulting system. When deployment changes user behavior or the data distribution, a static benchmark answers a narrower question than a randomized field evaluation. The scope of the claim should follow the design actually used [6][12].
+
+### For Policy and Quasi-Experiments
+
+When random assignment is infeasible, the experimental-design framework still clarifies the missing comparison. Interrupted time series, regression discontinuity, matched comparison groups, and natural experiments each rule out some rivals while requiring assumptions about trends, thresholds, selection, or concurrent events. Calling a study quasi-experimental is not itself an identification argument; the institutional assignment process and specific threats must be stated [4].
+
+Policy trials also face treatment variation across sites, spillovers, implementation failure, and outcomes measured through administrative systems. Blocking or stratification can protect balance on key site characteristics, cluster designs can align assignment with delivery, and process measures can distinguish a failed program theory from failed implementation. External validity requires describing which institutions and populations implemented which version of the policy [4][6].
+
+### For Business and Investing
+
+Business experiments should define the unit that can be changed and the metric that represents value rather than convenience. A price test can affect customer mix and competitor response; a retention intervention can spill over through referrals; a store-level treatment analyzed as customer-level independence can overstate precision. The same design logic that distinguishes experimental units from measurements prevents a large transaction table from masquerading as a large number of independent tests [6][7].
+
+For investors, the author's synthesis is that reported experimental evidence should be audited as a data-generating process. Ask who or what was assigned, which outcome was primary, whether attrition differed, how many analyses were available, whether effect sizes are economically material, and whether the studied treatment and population match the business decision. A statistically precise lift in a proxy metric may not identify durable cash-flow impact, and a failed threshold test may still leave economically important effects compatible with the data [12][13].
+
+### For Ethics and Governance
+
+Design quality is an ethical issue because weak studies expose participants or consume resources without a realistic chance of answering the stated question. Underpowered or pseudoreplicated studies can waste scarce samples, while concealed multiplicity can produce confident but unstable claims. Adequate planning should balance precision and information against burden rather than treating the largest feasible sample or most measurements as automatically best [7][13].
+
+Random allocation can be fair when scarce treatment cannot be given to all eligible participants, as in the streptomycin setting, but fairness is context-dependent. Equipoise, consent, monitoring, stopping rules, access after the trial, and protection of vulnerable groups remain separate obligations. A statistically valid randomization does not by itself make an experiment ethically justified [8][10].
+
+Governance should favor auditable stages: protocol approval, registered hypotheses and analyses, controlled access to allocation sequences, monitored deviations, complete outcome reporting, and independent verification for consequential claims. The single worst failure is a design whose hidden choices allow a desired conclusion to determine which data and analysis become visible. Preregistration and reporting standards reduce that risk only when institutions enforce disclosure and preserve unfavorable results [12][15][17].
+
+### A Practical Design Audit
+
+A practical audit begins with ten questions. What is the estimand? What is the experimental unit? How were units assigned, and was allocation concealed? Which nuisance variables were blocked or stratified? What outcomes and times were primary? Which roles were blinded? How were sample size and stopping determined? Which exclusions and analyses were prespecified? Could interference, attrition, or nonadherence alter the contrast? To which population and treatment version can the result generalize? [4][6][14][15].
+
+The answers should be connected rather than checked as isolated boxes. Cluster assignment changes the effective sample size; blinding may change measurement validity; attrition can break the initial comparability; multiple outcomes change the error process; and transport may fail even when internal validity is strong. The author's synthesis is that experimental design is best understood as a dependency graph: each conclusion depends on an estimand, an assignment, a measurement, and an analysis that remain mutually consistent.
 
 ## Common Pitfalls
 
-### Confusing Technical and Biological Replication
+### Treating Randomization as Guaranteed Balance
 
-A pervasive error in preclinical research is treating repeated
-measurements on the same subject as independent replicates. If five
-wells of cells from the same mouse are treated and measured, the
-sample size for generalizing to mice is one, not five. Pseudoreplication
-inflates the apparent degrees of freedom, underestimates standard
-errors, and produces false positives. The fix is to design the
-experiment around the unit of inference: if the claim is about mice,
-each mouse is one replicate.
+Randomization balances fixed characteristics in expectation, not exactly in each sample. Baseline imbalances can occur without proving failure, while suspicious assignment patterns can arise from implementation defects. Report the actual assignment procedure, examine baseline data descriptively, and improve precision through prespecified adjustment or blocking rather than using significance tests to certify that randomization worked [1][5][15].
 
-### P-Hacking and Researcher Degrees of Freedom
+### Counting Measurements Instead of Experimental Units
 
-When researchers have flexibility in how they analyze data -- which
-variables to include, which outliers to exclude, which transformation
-to apply, which covariate to adjust for -- the probability of finding
-a significant result by chance alone far exceeds the nominal alpha.
-Simulations show that with enough researcher degrees of freedom, a
-researcher can produce statistically significant results from pure
-noise. Pre-registration and pre-analysis plans eliminate this
-flexibility by committing to the analysis before seeing the data.
+Ten measurements from one assigned unit do not equal ten independent assignments. Identify the level at which treatment could have differed, model nested dependence, and state the population of units to which the claim applies. Pseudoreplication is a design error because the denominator of inference does not match the treatment replication [7].
 
-### Ignoring Interactions in Factorial Designs
+### Calling Every Controlled Trial Double-Blind
 
-A main effect in a factorial design is the average effect across all
-levels of other factors. If an interaction exists, the main effect may
-be misleading or meaningless: a drug that helps men but harms women
-has a main effect near zero, but concluding "the drug has no effect"
-is wrong. Always examine interaction plots and interaction terms
-before interpreting main effects. The principle extends to
-subgroup analyses in clinical trials, where treatment effects may
-differ by sex, age, or genotype.
+Blinding labels conceal role-specific information. State separately whether participants, care providers, outcome assessors, adjudicators, and analysts knew assignment. When a role cannot be blinded, explain the protection used instead. The streptomycin trial's masked assessors did not make its visible injections double-blind for all roles [8][10][15].
+
+### Confusing Placebo-Group Change with a Placebo Effect
+
+Improvement in a placebo group includes natural history, regression to the mean, co-intervention, measurement, and context. A causal placebo effect needs a design that separates those components, often through an appropriate no-treatment comparison. Beecher's historical 35% estimate did not achieve that isolation and should not be repeated as a universal therapeutic constant [16].
+
+### Ignoring Interactions
+
+A main effect averages over other factor levels. If conditional effects differ, the average can obscure the operational result. Inspect interactions that the design can estimate, and do not claim to resolve effects that the fractional design aliases. One-factor-at-a-time testing avoids neither confounding nor interaction; it mainly leaves interactions unmeasured [5].
+
+### Planning Power from an Inflated Published Effect
+
+A replication powered only for an original selected estimate may be too small for the true effect if the original was exaggerated. Plan around a scientifically meaningful effect and plausible variance, report sensitivity across assumptions, and distinguish precision goals from a ritual 80% target. Low power plus outcome selection can exaggerate the estimates that enter later planning [11][13].
+
+### Treating Preregistration as Infallibility
+
+A timestamped plan can contain a bad measure, implausible model, or coding error. Follow justified corrections, disclose deviations, preserve the original plan, and label new analyses. The value of preregistration is provenance: readers can distinguish prediction from post hoc accommodation [17].
+
+### Interpreting Non-Replication as One Unique Diagnosis
+
+A weaker replication can reflect an original false positive, an exaggerated original effect, a replication false negative, implementation differences, measurement error, or effect heterogeneity. Compare protocols, effects, intervals, fidelity, and target populations before attributing cause. Multiple indicators in the Reproducibility Project were designed precisely because no single binary criterion settles the diagnosis [11].
 
 ## Sources
 
-1. Fisher, R.A. (1935). "The Design of Experiments." Oliver and Boyd,
-   Edinburgh. The foundational text that established randomization,
-   replication, and blocking as principles of experimental design,
-   illustrated by the Lady tasting tea experiment.
-   https://en.wikipedia.org/wiki/The_Design_of_Experiments [high]
+1. Fisher, R. A. (1935; 8th ed. 1966). "The Design of Experiments."
+   Oliver and Boyd. Primary treatment of randomization and the Lady
+   tasting tea design.
+   https://archive.org/details/in.ernet.dli.2015.502684 [high]
 
-2. Fisher, R.A. & Mackenzie, W.A. (1923). "Studies in Crop Variation.
-   II. The Manurial Response of Different Potato Varieties." Journal
-   of Agricultural Science, 13(3), 311-320. The first application of
-   ANOVA to a randomized block design in field experiments.
+2. Fisher, R. A. and Mackenzie, W. A. (1923). "Studies in Crop
+   Variation. II. The Manurial Response of Different Potato Varieties."
+   Journal of Agricultural Science, 13(3), 311-320.
+   https://doi.org/10.1017/S0021859600003592 [high]
+
+3. Box, J. F. (1980). "R. A. Fisher and the Design of Experiments,
+   1922-1926." The American Statistician, 34(1), 1-7.
    https://doi.org/10.2307/2682986 [high]
 
-3. Box, J.F. (1980). "R.A. Fisher and the Design of Experiments,
-   1922-1926." The American Statistician, 34(1), 1-7. Historical
-   analysis of how Fisher developed the principles of experimental
-   design at Rothamsted.
-   https://doi.org/10.2307/2682986 [high]
-
-4. Campbell, D.T. & Stanley, J.C. (1963). "Experimental and
-   Quasi-Experimental Designs for Research." Rand McNally. The
-   monograph that introduced the internal/external validity framework
-   and the catalog of validity threats.
-   https://onlinelibrary.wiley.com/doi/10.1002/ev.1433 [high]
-
-5. Cook, T.D. & Campbell, D.T. (1979). "Quasi-Experimentation: Design
-   and Analysis Issues for Field Settings." Houghton Mifflin. Expanded
-   the validity typology to four types: statistical conclusion,
-   internal, construct, and external validity.
-   https://onlinelibrary.wiley.com/doi/10.1002/ev.1433 [high]
-
-6. Open Science Collaboration. (2015). "Estimating the
-   reproducibility of psychological science." Science, 349(6251),
-   aac4716. The large-scale replication project that documented the
-   replication crisis and demonstrated the consequences of weak
-   experimental design.
-   https://www.science.org/doi/10.1126/science.aac4716 [high]
-
-7. Beecher, H.K. (1955). "The Powerful Placebo." Journal of the
-   American Medical Association, 159(17), 1602-1606. The paper that
-   established the placebo effect as a measurable phenomenon and
-   formalized placebo controls in clinical trials.
-   https://pmc.ncbi.nlm.nih.gov/articles/PMC11944128/ [high]
-
-8. Montgomery, D.C. (2017). "Design and Analysis of Experiments," 9th
-   edition. Wiley. The standard modern textbook covering factorial
-   designs, blocking, response surface methodology, and fractional
-   factorials.
-   https://www.wiley.com/en-us/Design+and+Analysis+of+Experiments
+4. Campbell, D. T. and Stanley, J. C. (1963). "Experimental and
+   Quasi-Experimental Designs for Research." Houghton Mifflin.
+   https://jwilson.coe.uga.edu/EMAT7050/articles/CampbellStanley.pdf
    [high]
 
-9. NIST/SEMATECH. "e-Handbook of Statistical Methods: Randomized Block
-   Designs." The online reference covering blocking, Latin squares,
-   and nuisance factor control with worked examples.
-   https://www.itl.nist.gov/div898/handbook/pri/section3/pri332.htm
-   [high]
+5. NIST/SEMATECH. "e-Handbook of Statistical Methods," sections on
+   completely randomized, block, Latin-square, full-factorial, and
+   fractional-factorial designs. NIST Handbook 151.
+   https://doi.org/10.18434/M32189 [high]
 
-10. Senn, S. (2006). "Transferability of randomised trials and
-    naturalistic studies." Statistical Methods in Medical Research,
-    15(4), 299-308. Discusses the tension between explanatory and
-    pragmatic trial designs and the internal-external validity
-    trade-off.
-    https://pmc.ncbi.nlm.nih.gov/articles/PMC7144753 [medium]
+6. Rosenbaum, P. R. (2007). "Interference Between Units in Randomized
+   Experiments." Journal of the American Statistical Association,
+   102(477), 191-200.
+   https://doi.org/10.1198/016214506000001112 [high]
+
+7. Hurlbert, S. H. (1984). "Pseudoreplication and the Design of
+   Ecological Field Experiments." Ecological Monographs, 54(2),
+   187-211. https://doi.org/10.2307/1942661 [high]
+
+8. Medical Research Council. (1948). "Streptomycin Treatment of
+   Pulmonary Tuberculosis: A Medical Research Council Investigation."
+   British Medical Journal, 2(4582), 769-782.
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC2091872/ [high]
+
+9. Yoshioka, A. (1998). "Use of Randomisation in the Medical Research
+   Council's Clinical Trial of Streptomycin in Pulmonary Tuberculosis in
+   the 1940s." BMJ, 317, 1220-1223.
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC1114162/ [high]
+
+10. Crofton, J. (2006). "The MRC Randomized Trial of Streptomycin and
+    Its Legacy: A View from the Clinical Front Line." Journal of the
+    Royal Society of Medicine, 99(10), 531-534.
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC1592068/ [high]
+
+11. Open Science Collaboration. (2015). "Estimating the Reproducibility
+    of Psychological Science." Science, 349(6251), aac4716.
+    https://doi.org/10.1126/science.aac4716 [high]
+
+12. Simmons, J. P., Nelson, L. D., and Simonsohn, U. (2011).
+    "False-Positive Psychology: Undisclosed Flexibility in Data
+    Collection and Analysis Allows Presenting Anything as Significant."
+    Psychological Science, 22(11), 1359-1366.
+    https://doi.org/10.1177/0956797611417632 [high]
+
+13. Button, K. S., Ioannidis, J. P. A., Mokrysz, C., Nosek, B. A.,
+    Flint, J., Robinson, E. S. J., and Munafo, M. R. (2013). "Power
+    Failure: Why Small Sample Size Undermines the Reliability of
+    Neuroscience." Nature Reviews Neuroscience, 14, 365-376.
+    https://doi.org/10.1038/nrn3475 [high]
+
+14. U.S. Food and Drug Administration. "21 CFR 314.126 -- Adequate and
+    Well-Controlled Studies." Electronic Code of Federal Regulations.
+    https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-314/subpart-D/section-314.126
+    [high]
+
+15. Hopewell, S., Chan, A.-W., Collins, G. S., et al. (2025). "CONSORT
+    2025 Statement: Updated Guideline for Reporting Randomised Trials."
+    BMJ, 389, e081123.
+    https://doi.org/10.1136/bmj-2024-081123 [high]
+
+16. Kienle, G. S. and Kiene, H. (1997). "The Powerful Placebo Effect:
+    Fact or Fiction?" Journal of Clinical Epidemiology, 50(12),
+    1311-1318. https://doi.org/10.1016/S0895-4356(97)00203-5 [high]
+
+17. Nosek, B. A., Ebersole, C. R., DeHaven, A. C., and Mellor, D. T.
+    (2018). "The Preregistration Revolution." Proceedings of the
+    National Academy of Sciences, 115(11), 2600-2606.
+    https://doi.org/10.1073/pnas.1708274114 [high]
+
+18. Cook, T. D. and Campbell, D. T. (1979). "Quasi-Experimentation:
+    Design and Analysis Issues for Field Settings." Houghton Mifflin.
+    https://archive.org/details/quasiexperimenta00cook [high]
 
 ## See Also
 
-- `library/mathematics-statistics/causal-inference.md` -- the
-  framework for moving from association to causation that experimental
-  design enables.
-- `library/mathematics-statistics/statistical-inference.md` -- the
-  mathematical tools for drawing conclusions from experimental data,
-  including hypothesis testing and confidence intervals.
-- `library/mathematics-statistics/probability-theory-fundamentals.md`
-  -- the probabilistic foundations underlying randomization and
-  significance testing.
-- `library/mathematics-statistics/regression-analysis.md` -- the
-  analytical methods used to estimate treatment effects in
-  experimental and observational data.
-- `library/mathematics-statistics/bayesian-statistics.md` -- the
-  alternative inferential framework used in adaptive trial designs and
-  sequential analysis.
+- `library/mathematics-statistics/causal-inference.md` -- the estimands and assumptions that connect assignment mechanisms to causal effects.
+- `library/mathematics-statistics/statistical-inference.md` -- estimation and uncertainty after the design defines a valid comparison.
+- `library/mathematics-statistics/probability-theory-fundamentals.md` -- the probability structures underlying random assignment and sampling.
+- `library/mathematics-statistics/regression-analysis.md` -- analytical models that must preserve the assignment, blocking, and dependence structure.
+- `library/mathematics-statistics/bayesian-statistics.md` -- model-based updating and adaptive analysis that still depend on sound design.
