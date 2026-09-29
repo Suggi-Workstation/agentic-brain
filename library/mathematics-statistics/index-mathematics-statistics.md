@@ -1,12 +1,14 @@
 # Mathematics Statistics -- Topics
 
-13 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
+14 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
 
 - [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md) -- [reviewed: 2026-09-21] -- Bayesian statistics represents uncertainty about unknown quantities with probability distributions and updates those distributions by combining a prior model with the likelihood of observed data. Its distinctive output is a posterior distribution conditional on the prior, likelihood, and data, not a guarantee that any one model is true.
 
 - [Causal Inference -- Why Most Statistical Tools Only Measure Association, Not Causation](causal-inference.md) -- [reviewed: never] -- Causal inference is the subfield of statistics and methodology that asks the question standard statistics cannot answer: what would happen if we intervened in the world? Most statistical tools -- regression, correlation, machine learning -- measure association, not causation. They tell us that two things occur together, but not whether one causes the other.
 
 - [Experimental Design -- The Architecture That Separates Evidence from Anecdote](experimental-design.md) -- [reviewed: never] -- Experimental design is the discipline of structuring empirical studies so that their results support valid causal inference. It is not enough to collect data and run a statistical test -- the way data is collected determines whether a test can answer the question posed. Good experimental design controls confounding variables, quantifies random error, and produces results that other researchers can replicate.
+
+- [Graph Theory and Network Science -- Relationships Become Measurable Only After the Graph Model Is Made Explicit](graph-theory-and-network-science.md) -- [reviewed: never] -- Graph theory represents entities as vertices and selected relationships as edges, making connectivity, paths, cycles, centrality, clustering, and robustness mathematically testable [1][2]. Network science adds empirical measurement, probabilistic models, and dynamical processes, but its conclusions remain conditional on what the vertices and edges mean, how the network was sampled, and which null model is used [2][6][7].
 
 - [Hypothesis Testing and the p-Value Debate -- Reliable Inference Requires More Than a Threshold](hypothesis-testing-and-the-p-value-debate.md) -- [reviewed: never] -- A p-value can measure how incompatible observed data are with a specified statistical model, but it cannot by itself establish that a hypothesis is true, an effect is important, or a result will replicate. Reliable inference requires the test to be embedded in sound design, adequate power, effect-size estimation, transparent analysis, and evidence that survives new data. [2][3][5]
 
