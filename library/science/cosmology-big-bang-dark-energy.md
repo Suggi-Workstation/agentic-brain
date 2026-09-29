@@ -6,382 +6,211 @@ domain: science
 author: Researcher-1
 tags: [cosmology, big-bang, dark-matter, dark-energy, cosmic-microwave-background, inflation, lambda-cdm]
 links: [library/science/quantum-mechanics.md, library/science/thermodynamics-laws-energy-entropy.md, library/science/scientific-method-falsifiability.md]
+reviewed: 2026-09-29
 ---
 
-# Cosmology -- How the Universe Began, What It Is Made Of, and How It Will End
+# Cosmology Tests an Expanding Hot Universe Through a Precise but Incomplete Lambda-CDM Model
 
-Modern cosmology describes a universe that began 13.8 billion years ago
-in an incredibly hot, dense state -- the Big Bang -- and has been
-expanding and cooling ever since. The Lambda-CDM model, the standard
-framework of cosmology, reveals that everything humans can see (stars,
-planets, gas) accounts for less than 5% of the universe's total energy
-budget; the remaining 95% consists of dark matter (27%) and dark energy
-(68%), neither of which has been directly detected. Understanding the
-origin, composition, and ultimate fate of the cosmos is not only one of
-science's greatest intellectual achievements but also an ongoing
-challenge, as the Hubble tension and the nature of the dark sector
-suggest the standard model may be incomplete.
+Modern cosmology explains a large body of observations with a universe that has expanded and cooled from an early hot, dense state and whose large-scale evolution is described well by the Lambda-CDM model. The model fits cosmic microwave background, light-element, supernova, lensing, and galaxy-clustering evidence with a small parameter set, but its dominant dark components have not been identified in the laboratory and several tensions remain unsettled [1][2][3][4]. The evidence therefore supports a powerful working model, not a complete account of the universe's origin, contents, or future.
 
 ## Background
 
-The scientific study of the universe as a whole traces its origins to
-Einstein's general theory of relativity (1915), which provided the
-mathematical framework for describing space, time, and gravity on cosmic
-scales. Einstein initially inserted a "cosmological constant" (Lambda)
-into his field equations to produce a static universe, which he later
-called his "greatest blunder" after Edwin Hubble's 1929 discovery that
-galaxies are receding from one another -- direct evidence that the
-universe is expanding.
+Scientific cosmology became possible when gravity could be applied to the universe as a whole. Einstein's 1915 general theory of relativity supplied the field equations, and Alexander Friedmann and Georges Lemaitre subsequently found non-static cosmological solutions. Lemaitre connected an expanding relativistic model to the observed relation between galaxy distance and recession velocity before Edwin Hubble published improved observational evidence in 1929. The International Astronomical Union now recommends the name Hubble-Lemaitre law to recognize both contributions. The law is approximately linear at sufficiently small cosmological redshift, but it describes metric expansion rather than galaxies simply flying through pre-existing static space from a common center [1][7].
 
-Hubble's Law, which states that a galaxy's recession velocity is
-proportional to its distance (v = H_0 * d), became the first pillar of
-Big Bang cosmology. If the universe is expanding now, running the clock
-backward implies a beginning: a state of infinite density and temperature
-from which space itself emerged. The term "Big Bang" was coined
-dismissively by Fred Hoyle, a proponent of the rival steady-state theory,
-during a 1949 BBC radio broadcast. Despite the mockery, evidence
-accumulated decisively in favor of the Big Bang.
+The early evidence did not by itself determine a unique cosmic history. Expansion could be extrapolated backward to a hotter and denser state, but rival steady-state models also existed. A decisive discriminator arrived with the 1965 detection by Arno Penzias and Robert Wilson of nearly isotropic microwave radiation. A thermal cosmic microwave background, or CMB, had been predicted as relic radiation from a hot early universe. Its spectrum and small anisotropies later became quantitative records of conditions when the universe became transparent. Primordial nucleosynthesis supplied an independent test: Standard Model nuclear reactions in the first minutes predict light-element abundances, especially deuterium and helium-4, that broadly agree with inferred primordial values [1][9].
 
-The second pillar arrived in 1965 when Arno Penzias and Robert Wilson,
-working at Bell Labs, accidentally detected a faint, uniform microwave
-signal coming from all directions in the sky. They had discovered the
-Cosmic Microwave Background (CMB) -- the afterglow of the Big Bang,
-predicting that an expanding universe must have been hot and dense enough
-in its early stages to produce a thermal radiation field. The CMB's
-near-perfect black-body spectrum at 2.725 Kelvin was a smoking gun that
-eliminated the steady-state model and established Big Bang cosmology as
-the consensus framework.
+The CMB records the universe long after the earliest stages often called the Big Bang. Around 380,000 years after the hot early phase, falling temperature allowed nuclei and electrons to form neutral atoms efficiently; photon scattering then decreased enough for radiation to travel over cosmological distances. Expansion stretched those photons into today's microwave band. Tiny temperature and polarization variations trace acoustic processes in the earlier plasma and the initial inhomogeneities from which later structure grew. NASA's cosmic-history summary and the Particle Data Group both distinguish this observationally accessible thermal history from unknown physics at still earlier energies [1][6].
 
-The third pillar emerged in 1998 when two independent teams studying
-distant Type Ia supernovae discovered that the expansion of the universe
-is not slowing down due to gravity, as everyone expected, but is instead
-accelerating. This discovery, which earned the 2011 Nobel Prize in
-Physics for Saul Perlmutter, Brian Schmidt, and Adam Riess, implied the
-existence of dark energy -- a repulsive force permeating all space. The
-accelerating expansion revived Einstein's cosmological constant but in a
-radically different context: not to hold the universe static, but to
-explain why it is flying apart at an ever-increasing rate.
+A second transformation came from observations of distant Type Ia supernovae in the late 1990s. Two teams found that the expansion was accelerating rather than decelerating as a matter-only model would predict, work recognized by the 2011 Nobel Prize in Physics. General relativity can produce accelerated expansion if the cosmic stress-energy contains a component with sufficiently negative pressure. The simplest representation is Einstein's cosmological constant, denoted Lambda; the broader empirical label for the cause of acceleration is dark energy [2][8].
 
-Since 2000, satellite missions including COBE, WMAP, and the Planck
-spacecraft have mapped the CMB with extraordinary precision, measuring
-the universe's age (13.8 billion years), its composition (dark energy,
-dark matter, ordinary matter), its geometry (flat to within 0.4%), and
-the seeds of cosmic structure. These observations transformed cosmology
-from a data-starved field of theoretical speculation into a
-precision-measurement science.
+By the early twenty-first century, CMB satellites, supernova programs, gravitational-lensing surveys, and galaxy-redshift surveys had turned cosmology into a parameter-inference science. The standard model is called Lambda-CDM because it combines a cosmological constant with cold dark matter. In a spatially flat base model it also assumes general relativity on cosmic scales, ordinary baryonic matter and radiation, nearly scale-invariant adiabatic initial perturbations, and a specified neutrino sector. Planck's final CMB analysis found strong internal consistency for this six-parameter base model and inferred an expansion rate H0 of 67.4 +/- 0.5 km/s/Mpc and a total matter density parameter of 0.315 +/- 0.007 under those assumptions [3].
+
+Precision did not make the model complete. Cold dark matter is inferred from gravitational phenomena but has no confirmed particle identification. Dark energy is measured through the expansion and growth histories, but a cosmological constant has no accepted explanation at the observed scale. Inflation provides a successful framework for the origin of nearly scale-invariant primordial fluctuations, yet its physical driver is unknown and a distinctive primordial gravitational-wave signal has not been detected. The local distance ladder and early-universe inference also yield different values of H0, while DESI's second data release has strengthened model-dependent hints that dark energy may evolve [2][4][5][13].
+
+These limits change how the historical phrase "the Big Bang" should be used. The well-tested claim is that the observable universe passed through a hot, dense, expanding state. Extrapolating classical general relativity to a zero-size singularity signals that the classical theory has reached a domain where quantum gravity is required; it does not provide an experimentally verified description of an absolute beginning. Cosmology can reconstruct successive physical regimes with increasing uncertainty toward earlier times, but present evidence does not establish what preceded inflation, what initiated it, or whether "before" is meaningful in the relevant theory [1][6].
 
 ## Core Concepts
 
-### The Big Bang and the Planck Epoch
+### Expansion, Scale Factor, and Redshift
 
-The Big Bang was not an explosion in space but an explosion of space.
-At t = 0, all matter, energy, space, and time were compressed into a
-singularity where the known laws of physics break down. The period from
-t = 0 to t = 10^-43 seconds (Planck time) is the Planck Epoch, during
-which all four fundamental forces -- gravity, electromagnetism, the
-strong nuclear force, and the weak nuclear force -- are theorized to
-have been unified into a single force. Understanding this epoch requires
-a theory of quantum gravity, which does not yet exist. The subsequent
-history of the universe is a story of symmetry breaking as the universe
-cooled and the forces separated.
+On large scales, standard cosmology approximates the universe as homogeneous and isotropic. Its geometry is described by a time-dependent scale factor, conventionally written a(t), which relates fixed comoving coordinates to changing physical distances. The Hubble parameter H(t) is the fractional rate of change of that scale factor; H0 is its present value. Light traveling through an expanding universe is redshifted because its wavelength grows with the scale factor. At low redshift the Hubble-Lemaitre relation connects recession rate and distance, while at larger redshift the full expansion history and spacetime geometry are needed [1][2].
 
-### Cosmic Inflation
+Expansion is not an explosion from one point into an external void. Every comoving observer in an exactly homogeneous model sees distant comoving regions recede, and no privileged spatial center is defined within that model. Bound systems do not simply expand in proportion to the cosmic scale factor: electromagnetic and gravitational binding dominate locally. The statement that space expands is shorthand for evolution of the cosmological metric, not a new force acting uniformly on every object [1][2].
 
-Between 10^-36 and 10^-32 seconds after the Big Bang, the universe
-underwent an exponential expansion by a factor of at least 10^26.
-Proposed by Alan Guth in 1980, inflation solved three major puzzles in
-the standard Big Bang model. The horizon problem: the CMB has nearly
-uniform temperature across the entire sky, yet opposite sides of the
-observable universe were never in causal contact -- unless they were once
-extremely close together before being pushed apart by inflation. The
-flatness problem: the universe appears geometrically flat, which requires
-the initial density to have been fine-tuned to an extraordinary degree;
-inflation naturally drives the universe toward flatness regardless of its
-initial curvature. The monopole problem: grand unified theories predict
-the production of magnetic monopoles that should be abundant and easy to
-detect, yet none have been found; inflation dilutes their density to
-undetectable levels.
+The Friedmann equations connect expansion to energy density, pressure, spatial curvature, and Lambda. Matter density falls approximately as the inverse cube of the scale factor because a fixed number of nonrelativistic particles occupies a growing volume. Radiation density falls faster because expansion also redshifts each photon's energy. A true cosmological constant has constant energy density and pressure equal to minus that density. As matter dilutes, a constant Lambda eventually becomes dynamically dominant and produces accelerated expansion [1][2].
 
-Crucially, inflation also provided the mechanism for structure formation.
-Quantum fluctuations during the inflationary epoch were stretched from
-subatomic scales to cosmic scales, creating the tiny density variations
-that would later seed galaxies and galaxy clusters. While direct evidence
-for inflation (such as primordial gravitational waves imprinted on CMB
-polarization, the target of BICEP and other experiments) remains elusive,
-inflationary theory is deeply embedded in the standard cosmological
-model because no other mechanism explains the observed homogeneity and
-flatness as economically.
+### The Hot Thermal History
 
-### Big Bang Nucleosynthesis
+Running the measured expansion backward raises the mean temperature and density. At early times, radiation and particles interacted in a hot plasma. As cooling proceeded, reaction rates fell below the expansion rate and different species ceased to remain in thermal equilibrium. This freeze-out logic connects microphysics to relic abundances and permits cosmological observations to constrain particle properties. The standard chronology is therefore a sequence of testable thermal transitions rather than a direct observation of a mathematical instant at t = 0 [1][2].
 
-Between roughly 3 minutes and 20 minutes after the Big Bang, the
-universe cooled to about one billion Kelvin -- cool enough for protons
-and neutrons to fuse into atomic nuclei without being immediately torn
-apart by high-energy photons. This brief period of primordial
-nucleosynthesis produced the light elements that dominate the cosmos:
-approximately 75% hydrogen-1 (single protons), 25% helium-4, and trace
-amounts of deuterium, helium-3, and lithium-7. The predicted abundances
-of these light elements match observations to within a few percent,
-providing one of the strongest confirmations of the Big Bang model.
-Heavier elements such as carbon, oxygen, and iron were not produced
-during the Big Bang; they were forged later in the cores of stars and
-dispersed by supernovae.
+Big Bang nucleosynthesis occurred during the first minutes, when protons and neutrons could assemble into light nuclei. Standard calculations predict deuterium, helium-3, helium-4, and lithium-7 as functions mainly of the baryon-to-photon ratio, nuclear reaction rates, neutron properties, and the expansion rate. Nearly all available neutrons ended in helium-4, while the low density and absence of stable nuclei at mass numbers five and eight inhibited production of much heavier elements. Deuterium and helium broadly agree with observations and with the baryon density inferred independently from the CMB; lithium-7 remains discrepant, so "agreement" is not uniform across every isotope [3][9].
 
-### The Cosmic Microwave Background
+At about 380,000 years, recombination sharply reduced the free-electron abundance and photons began to stream over long distances. The observed CMB is close to a blackbody and contains temperature variations of roughly one part in 100,000. Their angular power spectrum shows acoustic peaks generated by gravity, radiation pressure, baryon loading, and photon diffusion in the pre-recombination plasma. Peak positions, relative heights, and damping behavior constrain combinations of spatial geometry, baryon and dark-matter densities, the primordial spectrum, and other parameters [1][3][6].
 
-For the first 380,000 years, the universe was an opaque plasma of atomic
-nuclei and free electrons. Photons could not travel freely because they
-constantly scattered off charged particles. When the temperature dropped
-to approximately 3,000 Kelvin, electrons combined with protons to form
-neutral hydrogen atoms -- an event called recombination. With free
-electrons removed, photons decoupled from matter and streamed freely
-through the universe for the first time. This "first light" is the CMB,
-now redshifted by the expansion of the universe to microwave wavelengths
-with a temperature of 2.725 Kelvin.
+### Inflation as a Framework, Not a Directly Observed Event
 
-The CMB is not perfectly uniform. It contains tiny temperature
-fluctuations -- anisotropies -- of about one part in 100,000. These
-fluctuations encode a wealth of cosmological information: the total
-density of the universe, the proportions of ordinary matter, dark matter,
-and dark energy, the Hubble constant, the age of the universe, and the
-geometry of space. The power spectrum of these fluctuations, measured by
-Planck, shows a characteristic series of peaks that are exquisitely
-sensitive to these parameters. The positions and amplitudes of the peaks
-confirmed that the universe is flat and dominated by cold dark matter and
-a cosmological constant.
+Inflation denotes an early period of accelerated expansion proposed to explain why the observable universe is so nearly homogeneous and spatially flat and why causally generated relics can be diluted. In many models, quantum fluctuations of one or more fields are stretched to cosmological scales and become the nearly adiabatic, approximately scale-invariant perturbations later measured in the CMB and large-scale structure. This mechanism links microscopic quantum fluctuations to galaxies without requiring that every detailed inflation model be correct [1][6][13].
+
+Several observations are consistent with broad inflationary predictions, including near spatial flatness and a scalar spectral index that differs from exact scale invariance. Consistency is not a unique confirmation because multiple models can yield similar observables, and alternative early-universe mechanisms can be constructed. A major target is primordial tensor perturbations, which would produce a characteristic CMB B-mode polarization pattern. A joint BICEP/Keck and Planck analysis found results consistent with no tensor signal and placed a 95% upper limit r < 0.032 when combined with baryon acoustic oscillation data. The physical field, energy scale, and duration of inflation therefore remain model-dependent [3][13].
+
+### Structure Growth and Baryon Acoustic Oscillations
+
+Small primordial density contrasts grew by gravity after radiation ceased to dominate. Dark matter began clustering without photon pressure, while ordinary baryons remained tightly coupled to radiation until recombination. After decoupling, baryons fell into existing gravitational potentials, and nonlinear evolution eventually produced the cosmic web of galaxies, groups, clusters, filaments, and voids. Numerical calculations connect the initial spectrum inferred from the CMB to later distributions measured by redshift surveys and lensing [1][2][3].
+
+Sound waves in the pre-recombination plasma left a preferred comoving separation in the later distribution of matter. This baryon acoustic oscillation, or BAO, scale functions as a standard ruler after calibration by early-universe physics. Surveys measure it across redshift to infer transverse distances and the line-of-sight expansion rate. DESI DR2 used more than 14 million galaxies and quasars plus Lyman-alpha forest information; its BAO distances are well described by flat Lambda-CDM, while combinations with CMB and supernova data also generate the current hint of evolving dark energy [4].
 
 ### Dark Matter
 
-The existence of dark matter was first inferred by Fritz Zwicky in 1933,
-who observed that galaxies in the Coma Cluster were moving too fast to be
-gravitationally bound by the visible mass alone. The evidence became
-compelling in the 1970s when Vera Rubin measured the rotation curves of
-spiral galaxies: stars at the edges of galaxies orbit just as fast as
-stars near the center, contrary to what Newtonian gravity predicts from
-the distribution of visible matter. There must be a vast halo of
-invisible mass extending far beyond the visible disk of each galaxy.
+Dark matter is an inference from gravitational effects, not a synonym for any one proposed particle. Galaxy rotation curves remain high at radii where the observed luminous mass alone would predict a decline under Newtonian dynamics. Cluster motions, gravitational lensing, CMB acoustic structure, and the growth of large-scale structure add independent evidence. In Lambda-CDM, the dominant component is "cold" because its primordial velocities are small enough for structure to grow from small scales upward [2][3][10].
 
-Dark matter does not interact with electromagnetic radiation -- it does
-not emit, absorb, or reflect light. It interacts only through gravity
-and possibly through the weak nuclear force. Multiple independent lines
-of evidence converge: galaxy rotation curves, gravitational lensing of
-background galaxies by foreground clusters, the Bullet Cluster (where
-gravitational mass is clearly separated from hot gas during a cluster
-collision), and the CMB power spectrum all require dark matter to explain
-the observations. The leading particle candidates are Weakly Interacting
-Massive Particles (WIMPs) and axions, but decades of direct-detection
-experiments (XENON, LUX-ZEPLIN) and collider searches at the Large Hadron
-Collider have produced no confirmed detections. Other candidates include
-sterile neutrinos, primordial black holes, and macroscopic compact halo
-objects (MACHOs), though microlensing surveys have largely ruled out
-MACHOs as the dominant component.
+The Bullet Cluster illustrates why spatial information is powerful. In this merging system, ram pressure displaced the hot X-ray plasma, which contains most of the directly observed baryonic mass, from the approximately collisionless galaxies. Weak-lensing maps placed most of the gravitating mass nearer the galaxies than the plasma. That offset is difficult to explain by assigning all gravity to the visible baryons and supplies evidence for an additional, effectively collisionless mass component, although any complete theory must explain the wider set of cosmological and galactic data rather than one cluster alone [11].
 
-### Dark Energy and the Accelerating Universe
+Candidate identities include axions, weakly interacting massive particles, sterile-neutrino-like species, primordial black holes in allowed mass windows, and other particles or compact objects. Each candidate predicts different production histories and interactions. Direct-detection experiments search for rare scattering or absorption in terrestrial targets, colliders search for missing momentum and related states, and indirect searches look for annihilation or decay products. LZ's 2024 combined 280-day exposure found no evidence of WIMP interactions and set stronger limits within its tested parameter space; this excludes models, not the gravitational evidence for dark matter as a category [2][12].
 
-In 1998, the Supernova Cosmology Project and the High-Z Supernova Search
-Team independently discovered that distant Type Ia supernovae were
-systematically dimmer than expected in a decelerating universe. The
-simplest explanation: the expansion of the universe is accelerating,
-meaning the supernovae are farther away -- and therefore have been
-receding longer -- than a matter-dominated universe would predict.
+### Dark Energy
 
-Dark energy is the name given to whatever is causing this acceleration.
-In the standard Lambda-CDM model, dark energy is identified with the
-cosmological constant: an energy density inherent to empty space that
-remains constant as the universe expands. Unlike matter and radiation,
-whose densities dilute as the universe grows, the density of dark energy
-stays the same. As a result, dark energy eventually dominates the energy
-budget of the universe, and its repulsive gravitational effect -- in
-general relativity, pressure contributes to gravity, and dark energy has
-negative pressure -- drives accelerated expansion.
+Dark energy names the unknown cause represented by the observed late-time acceleration. In the simplest Lambda-CDM interpretation it is a cosmological constant with equation-of-state parameter w = p/rho = -1. A component with w below -1/3 can drive acceleration in general relativity, while evolving scalar fields, modified-gravity models, and interactions within the dark sector can imitate or replace a constant Lambda. Distance measurements primarily constrain the integrated expansion history, so combining supernovae, BAO, CMB, lensing, and structure growth is necessary to separate models [2][3][4][8].
 
-The nature of dark energy remains the deepest mystery in cosmology. The
-observed value of the cosmological constant is approximately 10^120
-times smaller than the naive prediction from quantum field theory -- a
-discrepancy known as the cosmological constant problem, sometimes called
-the "worst prediction in the history of physics." Alternative theories,
-such as quintessence (a dynamical scalar field that evolves over time),
-have been proposed but are not favored by current data.
+The cosmological constant is mathematically economical but theoretically puzzling. Quantum field contributions to vacuum energy do not naturally explain the very small gravitating value inferred from cosmology; the size of the mismatch depends on the cutoff and how it is expressed. The Particle Data Group emphasizes that even conservative high-energy scales leave an enormous unresolved hierarchy. The problem is therefore not that Lambda fails as a fit parameter, but that no accepted fundamental account predicts its observed magnitude and near coincidence with the present matter density [1][2].
 
-### The Fate of the Universe
+DESI DR2 sharpened the empirical question. Its BAO results alone remain well described by flat Lambda-CDM. In the two-parameter w0-wa extension, however, DESI BAO plus CMB preferred an evolving form over Lambda-CDM at 3.1 sigma, and adding different supernova compilations produced preferences ranging from 2.8 to 4.2 sigma. These values are conditional on the chosen model, data combination, and treatment of systematics; they are evidence of a tension to investigate, not a discovery that dark energy evolves. The 2026 Particle Data Group review accordingly states that neither evolving dark energy nor the Hubble tension is securely established and that no alternative model has achieved consensus [2][4].
 
-The ultimate destiny of the cosmos depends on the properties of dark
-energy, which remain uncertain. Three scenarios dominate theoretical
-discussion, ranked by their likelihood given current data:
+### Geometry, Horizons, and Cosmic Fate
 
-**The Big Freeze (Heat Death)** is the most likely outcome. If dark
-energy is a true cosmological constant, the universe will expand forever
-at an accelerating rate. Galaxies beyond the Local Group will eventually
-recede beyond the cosmic horizon and become unobservable. Star formation
-will cease as gas supplies are exhausted over hundreds of trillions of
-years. Existing stars will burn out, leaving white dwarfs, neutron stars,
-and black holes. On timescales of 10^100 years and beyond, even black
-holes will evaporate via Hawking radiation. The universe will approach
-maximum entropy, with its temperature asymptotically approaching absolute
-zero. Nothing happens, and it keeps not happening, forever.
+Spatial curvature describes the geometry of constant-time slices, while expansion history describes how their scale changes. Planck combined with BAO found the curvature parameter consistent with zero, Omega_K = 0.001 +/- 0.002, under the analyzed model extensions. "Flat" therefore means consistent with Euclidean spatial geometry within observational uncertainty; it does not mean spacetime is uncurved or that the universe is proven infinite [3].
 
-**The Big Rip** occurs if dark energy grows stronger over time -- a
-scenario called "phantom dark energy." The expansion rate would
-accelerate without bound. First, galaxy clusters would be torn apart,
-then individual galaxies, then solar systems, then planets and stars, and
-finally atoms and atomic nuclei themselves. Spacetime would be ripped
-apart at the Planck scale. Current constraints from Planck and DESI do
-not support a phantom dark energy equation of state, but the data cannot
-rule it out entirely.
+The future depends on dark energy's properties, not on matter density alone. If Lambda is truly constant and positive, expansion continues and accelerates, increasingly distant unbound regions cross the observer's event horizon, star formation eventually ends, stellar remnants dominate, and the accessible universe trends toward a dilute state. If dark energy evolves toward sufficiently negative density or pressure behavior that reverses expansion, recollapse can occur. If an effective component has persistent w < -1 and grows with expansion, a "Big Rip" class of futures can disrupt progressively smaller bound systems. These are conditional model outcomes, not three equally supported forecasts [1][14].
 
-**The Big Crunch** was the default prediction before 1998. If the density
-of matter were high enough to eventually reverse the expansion, the
-universe would collapse back to a hot, dense state -- a singularity
-mirroring the Big Bang. Some cyclic models propose that this collapse
-could trigger a "Big Bounce" birthing a new universe. The discovery of
-accelerating expansion makes the Big Crunch highly unlikely under the
-standard model, though it remains possible if dark energy decays or
-reverses sign in the far future.
+### Parameters Are Inferences Under a Model
+
+Cosmological quantities are rarely read directly from one instrument. A CMB map records angular fluctuations; a redshift survey records positions and spectra; a supernova survey records calibrated light curves; a lensing survey records correlated shape distortions. Parameters such as H0, matter density, curvature, and w emerge after a likelihood analysis connects those observables to a physical model, foreground treatment, calibration, selection function, and covariance estimate [2][3][4][5].
+
+This distinction explains how two precise estimates can disagree without either instrument measuring the same object incorrectly. Planck's H0 value is an inference from early-universe data under base Lambda-CDM, whereas SH0ES builds a local distance ladder from geometric anchors, Cepheid variables, and Type Ia supernovae. Comparing them is a test of the entire inference chains and the connecting cosmological model. The disagreement can arise from unrecognized systematics, model incompleteness, or both; current evidence does not select one explanation conclusively [2][3][5].
 
 ## Evidence
 
-The Lambda-CDM model rests on multiple independent observational pillars
-that converge on a consistent set of cosmological parameters.
-Discrepancies among these measurements are actively studied and may point
-to new physics.
+### Planck Tested a Six-Parameter Model Against the CMB
 
-**Cosmic Microwave Background.** The Planck satellite (2013-2018)
-measured the CMB temperature and polarization anisotropies with
-unprecedented precision, determining the universe's age at 13.787 +/-
-0.020 billion years, its composition (4.9% ordinary matter, 26.8% dark
-matter, 68.3% dark energy), and its geometry as flat to within 0.4%. The
-CMB power spectrum shows a series of acoustic peaks whose positions and
-heights are predicted by the Lambda-CDM model with only six free
-parameters. The agreement between model and data across a wide range of
-angular scales is a striking confirmation of the framework.
+The Planck Collaboration analyzed full-mission temperature and polarization anisotropy maps together with a CMB lensing reconstruction. Rather than reading a composition directly from an image, the analysis fitted a physical model to power spectra while accounting for instrumental response and astrophysical foregrounds. In base Lambda-CDM it obtained physical baryon density Omega_b h^2 = 0.0224 +/- 0.0001, cold-dark-matter density Omega_c h^2 = 0.120 +/- 0.001, scalar spectral index n_s = 0.965 +/- 0.004, and model-dependent late-time values H0 = 67.4 +/- 0.5 km/s/Mpc and Omega_m = 0.315 +/- 0.007 [3].
 
-**Type Ia Supernovae.** The accelerating expansion was discovered using
-Type Ia supernovae as "standard candles" -- their known intrinsic
-brightness allows distance to be inferred from apparent brightness. The
-Pantheon+ compilation (2022) includes over 1,500 supernovae and confirms
-acceleration at high statistical significance. The supernova data,
-combined with CMB and baryon acoustic oscillation data, constrain the
-dark energy equation-of-state parameter w to be consistent with -1 (the
-value for a cosmological constant) to within a few percent.
+The same analysis checked extensions rather than only reporting a best fit. Planck plus BAO constrained Omega_K = 0.001 +/- 0.002, and Planck plus BAO and supernova data found w0 = -1.03 +/- 0.03, both consistent with flat Lambda-CDM and a cosmological constant. Agreement across peak positions, peak heights, polarization, and lensing is substantive because these features respond differently to baryons, dark matter, primordial perturbations, and geometry. The result remains conditional: changing the model or combining different data can shift derived late-time parameters [3].
 
-**Baryon Acoustic Oscillations (BAO).** Before recombination, sound waves
-propagated through the primordial plasma, creating a characteristic
-scale -- approximately 150 megaparsecs -- imprinted on the distribution
-of galaxies. This "standard ruler" can be measured at different cosmic
-epochs using galaxy surveys such as the Dark Energy Spectroscopic
-Instrument (DESI). DESI's 2024-2025 data releases have tightened
-constraints on the expansion history and provided precision measurements
-of the Hubble constant, though the tension with local measurements
-persists.
+### Light Elements Test the Thermal History Independently
 
-**Hubble Tension.** The most significant challenge to the standard model
-is the Hubble tension: a 5-sigma discrepancy between the Hubble constant
-measured from the CMB (Planck+DESI: H_0 approximately 67 km/s/Mpc) and
-the value measured locally using Cepheid-calibrated Type Ia supernovae
-(SHoES: H_0 approximately 73 km/s/Mpc). This discrepancy is too large to
-be explained by known systematics and has persisted through improved data
-from both methods. Possible resolutions include early dark energy (an
-additional radiation-like component present around recombination), new
-relativistic species, or modifications to the standard model. As of
-2026, no proposed resolution has gained consensus, and the Hubble tension
-remains the most compelling hint that the Lambda-CDM model may be
-incomplete.
+Big Bang nucleosynthesis uses measured nuclear physics and an early-universe expansion model to predict primordial light-element abundances. The 2023 Particle Data Group review treats the baryon-to-photon ratio as the principal free parameter in standard BBN and compares predictions with deuterium, helium, and lithium observations. The baryon density inferred from Planck, Omega_b h^2 = 0.02237 +/- 0.00015 in the review's quoted combination, corresponds to a baryon-to-photon ratio consistent with the BBN route. This agreement tests the conservation of that ratio between nucleosynthesis and recombination across an enormous span in time and temperature [9].
 
-**Dark Matter Evidence.** Galaxy rotation curves show flat velocity
-profiles at large radii, inconsistent with the declining rotation curves
-predicted by visible mass alone. Gravitational lensing maps the total
-mass distribution of galaxy clusters and reveals far more mass than can
-be accounted for by luminous matter. The Bullet Cluster (1E 0657-558)
-provides particularly striking evidence: the hot X-ray-emitting gas
-(luminous ordinary matter) is displaced from the gravitational mass
-peaks (mapped via lensing), precisely as expected if dark matter
-particles pass through one another without interacting while gas clouds
-collide and slow down. Modified gravity theories such as MOND struggle to
-explain this observation without invoking dark matter.
+The test is not perfect. Deuterium is especially sensitive to baryon density and is destroyed rather than produced substantially in ordinary stellar processing, making low-metallicity absorption systems useful probes. Helium-4 estimates require extrapolation in environments that have experienced stellar enrichment. Lithium-7 inferred from old metal-poor stars remains below the standard prediction, a discrepancy that may reflect stellar depletion, nuclear inputs, or new physics. Cosmology should therefore report BBN as broad concordance with a specific lithium problem, not as agreement "within a few percent" for every light element [9].
+
+### Supernovae Established Acceleration and Expanded Into Pantheon+
+
+The original late-1990s supernova programs compared standardized Type Ia supernova brightnesses across redshift and found distant events fainter than expected in a decelerating matter-only universe. Two independent teams reached the accelerating-expansion conclusion, and the 2011 Nobel Prize specifically recognized that observational discovery. Supernovae constrain relative luminosity distance as a function of redshift; they do not by themselves identify the physical cause as a cosmological constant [8].
+
+Pantheon+ later assembled 1701 light curves from 1550 spectroscopically confirmed Type Ia supernovae across 18 surveys. The compilation applies common light-curve standardization and carries statistical and systematic covariance into cosmological analysis. Its value is not merely sample size: overlapping observations, low-redshift coverage, calibration, selection effects, peculiar velocities, dust, intrinsic scatter, and host correlations are explicit parts of the inference chain. Supernova distances combined with CMB and BAO help constrain dark energy because the three probes have different parameter degeneracies [15].
+
+### DESI Measured BAO Across Cosmic Time
+
+DESI DR2 measured BAO using more than 14 million galaxies and quasars from three years of observations and combined those results with a companion Lyman-alpha forest analysis. BAO provides a standard ruler in the transverse direction and along the line of sight, so measurements across redshift reconstruct aspects of the distance-redshift and expansion-rate histories. The DR2 distances are consistent with earlier BAO results and can be described by flat Lambda-CDM [4].
+
+The tension appears in combinations and extensions. DESI BAO parameters are in mild 2.3-sigma tension with CMB-preferred values in the paper's comparison. Allowing w(a) to vary as w0 + wa(1-a) improves fits, with a 3.1-sigma preference over Lambda-CDM for DESI plus CMB and 2.8-4.2 sigma when different supernova samples are added. The dependence on supernova compilation and parameterization is evidence that the issue is not settled. A robust discovery would require persistence across calibrations, probes, model choices, and additional data rather than the largest number from one combination [2][4].
+
+### Dark Matter Is Supported by Converging Gravitational Tests
+
+Galaxy rotation curves map orbital speed against radius and therefore constrain the radial mass distribution. A broad review by Sofue and Rubin found that spiral-galaxy curves commonly remain flat beyond the bright optical disk, implying mass continues to increase where light declines if standard gravity applies. Rotation curves alone leave degeneracies among stellar mass, gas, halo profile, and possible changes to gravity, so their force comes from agreement with other scales and methods [10].
+
+Clowe and colleagues used weak gravitational lensing to reconstruct mass in the merging Bullet Cluster and compared it with X-ray plasma and galaxy positions. The lensing potential approximately followed the collisionless galaxies instead of the plasma that dominates the visible baryonic mass. This spatial separation tests more than a total mass discrepancy: the gravitating component behaved differently from collisional gas during the merger. Line-of-sight structure and lensing reconstruction are relevant limitations, but the authors tested for additional structures capable of producing the observed peaks [11].
+
+CMB acoustic structure and later large-scale structure add a cosmological line of evidence. Planck measured distinct baryon and cold-dark-matter densities, while the Particle Data Group notes that the observed matter budget greatly exceeds the baryonic budget inferred from BBN and CMB. Direct searches then test candidate microphysics rather than re-establishing the gravitational mass discrepancy. LZ's 2024 non-detection narrowed WIMP interaction parameter space but did not test every mass, interaction, or non-WIMP candidate; "dark matter has not been directly detected" must therefore be paired with the scope of each search [2][3][9][12].
+
+### Inflation Passes Broad Tests but Lacks a Unique Signature
+
+Planck measured n_s = 0.965 +/- 0.004, excluding exact scale invariance within base Lambda-CDM and matching a broad class of inflationary perturbation spectra. The CMB is also close to spatially flat and predominantly adiabatic. Those findings support core inflationary expectations but do not identify an inflaton or select one potential, because many inflationary and some non-inflationary models can reproduce similar scalar observables [1][3].
+
+Tensor perturbations would provide a more distinctive test. Tristram and colleagues combined BICEP/Keck 2018 polarization data, Planck PR4, and BAO and obtained r < 0.032 at 95% confidence, consistent with r = 0. This is a null detection that excludes inflation models predicting larger tensor amplitudes; it is not evidence that inflation did not occur. Foregrounds, lensing B modes, sky coverage, and the mapping from r to an inflationary energy scale remain parts of the inference [13].
+
+### The Hubble Tension Compares Two Inference Chains
+
+Under base Lambda-CDM, Planck inferred H0 = 67.4 +/- 0.5 km/s/Mpc from the CMB. The SH0ES team calibrated Cepheids with geometric anchors, used them to calibrate Type Ia supernovae in 42 host galaxies, and obtained H0 = 73.04 +/- 1.04 km/s/Mpc. SH0ES reported a 5-sigma difference from the Planck-based prediction and tested nearly 70 analysis variants; its paper concluded that the source of the discrepancy remained unknown [3][5].
+
+The tension is not a comparison of two identical measurements. Planck projects early-universe observables forward through Lambda-CDM, while SH0ES constructs a local ladder with its own calibration and population assumptions. Other methods can fall between or on either side, and correlated systematics must not be counted as independent confirmations. The 2026 Particle Data Group assessment is appropriately narrower than claims of established new physics: the Hubble tension is a leading challenge, but it is not securely resolved in favor of either hidden systematics or a specific extension [2].
 
 ## Implications
 
-Cosmology is not merely an abstract pursuit of distant phenomena. It
-shapes how humanity understands its place in the universe and drives
-advances in fundamental physics with practical consequences.
+### For Physical Understanding: Separate the Thermal History From the Origin Question
 
-**For physics.** Cosmology is the only laboratory where gravity,
-particle physics, and quantum mechanics operate simultaneously at energy
-scales unreachable in terrestrial accelerators. The early universe
-probed energies up to 10^19 GeV -- a trillion times higher than the
-Large Hadron Collider. Understanding dark matter may lead to discovering
-new particles beyond the Standard Model. Resolving the cosmological
-constant problem may require a theory of quantum gravity, the holy grail
-of theoretical physics. The Hubble tension may force revisions to
-well-established physics.
+The strongest cosmological knowledge concerns relations among observable epochs. Expansion connects redshift to scale-factor history; BBN connects nuclear physics to light elements; recombination connects atomic physics to the CMB; gravitational growth connects primordial perturbations to later structure. Agreement among these stages supports a hot early universe over a wide temporal range. It does not provide a verified description of an absolute first instant, because extrapolation reaches energies where quantum gravity is required and current observations lose direct leverage [1][6][9].
 
-**For technology.** The instrumentation developed for cosmology has
-spawned transformative technologies. CCD detectors, now ubiquitous in
-digital cameras and smartphones, were developed for astronomical imaging.
-The algorithms for processing CMB data have advanced signal processing
-and machine learning. Precision optics and mirror fabrication techniques developed for
-space telescopes now serve medical imaging and semiconductor
-manufacturing. The need to distribute and analyze petabyte-scale
-cosmological datasets has driven innovations in cloud computing and
-distributed data processing.
+This separation prevents two opposite errors. Calling the Big Bang merely speculative ignores quantitative successes such as CMB acoustic structure and BBN-CMB baryon concordance. Calling a classical singularity an observed creation event converts the breakdown of a theory into a physical measurement. A precise statement is that the observable universe evolved from a hot, dense state and that earlier regimes, including inflation and any quantum-gravity phase, remain increasingly model-dependent [1][3][6].
 
-**For the human perspective.** The Copernican principle -- that Earth
-occupies no privileged position in the universe -- has been repeatedly
-confirmed and extended by cosmology. Not only is Earth not the center of
-the solar system, and the Sun not the center of the galaxy, but ordinary
-matter -- the stuff of stars, planets, and life -- is a trace contaminant
-in a universe dominated by dark matter and dark energy whose fundamental
-nature remains unknown. The heat death scenario implies that, on cosmic
-timescales, structure and complexity are temporary; the universe has a
-finite window for life and computation. These insights, while not ethics
-or philosophy per se, inform the empirical foundation on which
-philosophical reflection about human significance is built.
+### For Model Evaluation: Demand Cross-Probe Agreement
 
-**For future research.** Current and upcoming instruments will test the
-limits of Lambda-CDM. The Euclid space telescope and the Nancy Grace
-Roman Space Telescope will map dark energy and dark matter with
-unprecedented precision across billions of galaxies. The Simons
-Observatory and CMB-S4 will search for primordial gravitational waves
-from inflation. Next-generation dark matter detectors will push
-sensitivity thresholds further into unexplored parameter space. The Vera
-C. Rubin Observatory's Legacy Survey of Space and Time (LSST) will
-produce the deepest, widest map of the universe ever made, potentially
-revealing systematic effects or new phenomena that resolve the Hubble
-tension.
+Lambda-CDM is valuable because one compact framework jointly fits observables generated by different physics. CMB peaks, BAO distances, supernova luminosity distances, lensing maps, light elements, and structure growth do not share all the same calibrations or degeneracies. A proposed replacement must improve the discrepant evidence without degrading the many successful fits or adding parameters whose flexibility merely absorbs noise [2][3][4].
+
+Tensions should therefore be treated as structured tests. For the Hubble tension, the relevant comparison includes anchor geometry, stellar population and photometric calibration, supernova standardization, CMB foregrounds, recombination physics, and the assumed expansion model. For evolving dark energy, the relevant comparison includes BAO reconstruction, CMB calibration of the sound horizon, supernova compilation, weak lensing, parameterization, and statistical penalties for extra freedom. The worst failure would be to select the most dramatic significance while ignoring its dependence on a particular combination [2][4][5].
+
+### For Dark-Matter Research: Distinguish Existence Evidence From Identity Tests
+
+The case for additional gravitating matter combines galaxy dynamics, cluster lensing, CMB structure, and cosmic growth. Particle searches ask a narrower question: whether dark matter belongs to a tested class with a tested mass and interaction strength. A null WIMP search can eliminate part of WIMP parameter space without erasing the gravitational evidence, while a candidate event cannot identify the cosmic component without repetition and consistency with astrophysical abundance and structure constraints [2][3][10][11][12].
+
+This distinction guides experiment portfolios. Direct detection tests scattering or absorption, colliders test production in controlled high-energy interactions, indirect searches test decay or annihilation products, and astronomical observations test distribution and gravitational behavior. Results compound when translated into the same candidate model, but they should not be merged as though every method measured the same quantity. The practical objective is not simply "find dark matter"; it is to connect a reproducible microscopic signal to the component required by cosmology [2][12].
+
+### For Dark-Energy Research: Treat the Cosmological Constant as Both Benchmark and Problem
+
+A constant Lambda remains the minimum successful description of acceleration and is consistent with Planck-era combined constraints. Its simplicity makes it the baseline against which more flexible models should earn their additional parameters. At the same time, its unexplained magnitude and the DESI DR2 hints justify continued tests of expansion and structure growth. Benchmark status is not a claim of fundamental understanding [1][2][3][4].
+
+Future discrimination requires observables with different responses to geometry and growth. BAO and supernovae primarily constrain distances; weak lensing, redshift-space distortions, and cluster abundance probe how structure grows; CMB supplies early conditions and the sound-horizon calibration. A modification of gravity can reproduce a distance history while predicting different growth, whereas a new energy component can affect both according to its clustering and pressure. Combining those channels is more informative than increasing one distance sample alone [2][4].
+
+### For Forecasts of the Cosmic Future: State the Condition Before the Scenario
+
+A long-term "heat death" is not an unconditional observation. It follows if accelerated expansion continues in a form close to a positive cosmological constant and if known thermodynamic and gravitational processes govern the remote future. A Big Rip requires a persistently phantom-like component whose density grows, while recollapse requires future dynamics that halt and reverse expansion. Present data favor continued expansion as the standard forecast, but uncertainty about dark energy means a rigorous account must attach each fate to its assumptions [1][14].
+
+The same rule applies to timescales. Statements about star formation ending, black holes evaporating, or structures crossing horizons depend on astrophysical evolution and fundamental physics extrapolated far beyond tested durations. Such calculations are useful conditional consequences, not direct empirical forecasts with ordinary error bars. Cosmology is strongest when it distinguishes what the equations imply under a model from what observations have already established [1][14].
+
+### For Scientific Reasoning: Precision Does Not Remove Model Dependence
+
+Cosmology demonstrates why a small numerical uncertainty can coexist with a large conceptual uncertainty. Planck's H0 uncertainty is narrow within base Lambda-CDM, but the Hubble tension concerns whether that model connects early and late data correctly. DESI's significance values are quantitative, but the answer changes with supernova sample and model extension. LZ's exclusion limits are precise, but they cover bounded interaction models. The uncertainty attached to a parameter is not the uncertainty that the whole framework is correct [2][3][4][5][12].
+
+A defensible reading habit asks four questions. What observable was recorded? What calibration and selection produced it? Which model translated it into the quoted parameter? Which independent probe could falsify that translation? Applying those questions prevents common category errors: treating a fitted density as a directly weighed substance, treating a null candidate search as absence of gravitating dark matter, treating a tension as a discovery, or treating a successful background model as an origin theory [2][3][4][5].
+
+### For the Research Program: Preserve Both Success and Anomaly
+
+The rational response to Lambda-CDM's status is neither complacency nor premature replacement. Its successes are constraints that every alternative must preserve: the CMB spectrum, BBN concordance, BAO scale, supernova acceleration, lensing mass, and observed structure. Its open problems are equally real: dark-matter identity, dark-energy physics, the cosmological constant hierarchy, inflation's mechanism, the Hubble tension, and the DESI-era hint of evolving dark energy [1][2][3][4][9][11][13].
+
+Progress will come from measurements that close degeneracies and from theories that make discriminating predictions. Better calibration can turn an apparent anomaly into a systematic diagnosis; persistent disagreement across independent methods can expose missing physics. Either outcome improves knowledge. The central lesson of modern cosmology is therefore methodological as well as physical: confidence should rise when distinct observables survive a shared model, and it should fall when the model's assumptions carry more of the conclusion than the data do [2][3][4].
 
 ## Sources
 
-1. Planck Collaboration (2020). "Planck 2018 results. VI. Cosmological
-   parameters." Astronomy & Astrophysics, 641, A6.
-   https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html
-   [high]
+1. Particle Data Group. (2025 update). "Big-Bang Cosmology." Review of Particle Physics. https://pdg.lbl.gov/2025/reviews/rpp2025-rev-bbang-cosmology.pdf [high]
 
-2. Riess, A. G. et al. (2022). "A Comprehensive Measurement of the Local
-   Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the
-   Hubble Space Telescope and the SH0ES Team." The Astrophysical Journal
-   Letters, 934(1), L7.
-   https://iopscience.iop.org/article/10.3847/2041-8213/ac5c5b [high]
+2. Cortes, M., Lahav, O., and Liddle, A. R. (2026). "The Cosmological Parameters (2025)." Review of Particle Physics, chapter 25. https://pdgaws.lbl.gov/2026/reviews/rpp2026-rev-cosmological-parameters.pdf [high]
 
-3. New Space Economy (2025). "Introduction to Cosmology: From the Big
-   Bang to the Fate of the Universe."
-   https://newspaceeconomy.ca/2025/12/12/introduction-to-cosmology-from-the-big-bang-to-the-fate-of-the-universe/
-   [medium]
+3. Planck Collaboration. (2020). "Planck 2018 Results. VI. Cosmological Parameters." Astronomy & Astrophysics, 641, A6. https://www.aanda.org/articles/aa/abs/2020/09/aa33910-18/aa33910-18.html [high]
 
-4. Efstathiou, G. et al. (2025). "Prospects for disentangling dark
-   matter with weak lensing." arXiv:2505.02233.
-   https://arxiv.org/html/2505.02233 [high]
+4. DESI Collaboration. (2025). "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints." Physical Review D, 112, 083515. https://link.aps.org/doi/10.1103/tr6y-kpc6 [high]
 
-5. Astrobites (2025). "Guide to Lambda-CDM."
-   https://astrobites.org/2025/01/06/lambda_cdm [medium]
+5. Riess, A. G., et al. (2022). "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES Team." Astrophysical Journal Letters, 934, L7. https://doi.org/10.3847/2041-8213/ac5c5b [high]
+
+6. NASA Science. (updated 2026). "Cosmic History." https://science.nasa.gov/universe/overview [high]
+
+7. International Astronomical Union. (2018). "IAU Members Vote to Recommend Renaming the Hubble Law as the Hubble-Lemaitre Law." https://iauarchive.eso.org/news/pressreleases/detail/iau1812 [high]
+
+8. Royal Swedish Academy of Sciences. (2011). "The 2011 Nobel Prize in Physics - Press Release." https://www.nobelprize.org/prizes/physics/2011/press-release/ [high]
+
+9. Particle Data Group. (2023 update). "Big Bang Nucleosynthesis." Review of Particle Physics. https://pdg.lbl.gov/2023/reviews/rpp2023-rev-bbang-nucleosynthesis.pdf [high]
+
+10. Sofue, Y., and Rubin, V. (2001). "Rotation Curves of Spiral Galaxies." Annual Review of Astronomy and Astrophysics, 39, 137-174. https://doi.org/10.1146/annurev.astro.39.1.137 [high]
+
+11. Clowe, D., Bradac, M., Gonzalez, A. H., Markevitch, M., Randall, S. W., Jones, C., and Zaritsky, D. (2006). "A Direct Empirical Proof of the Existence of Dark Matter." Astrophysical Journal Letters, 648, L109-L113. https://doi.org/10.1086/508162 [high]
+
+12. LUX-ZEPLIN Collaboration. (2024). "LZ Releases Results from a Combined 280-Day Exposure." https://lz.lbl.gov/press [high]
+
+13. Tristram, M., et al. (2022). "Improved Limits on the Tensor-to-Scalar Ratio Using BICEP and Planck Data." Physical Review D, 105, 083524. https://doi.org/10.1103/PhysRevD.105.083524 [high]
+
+14. NASA Science. (updated 2025). "Possible Fates of the Universe." https://science.nasa.gov/asset/hubble/possible-fates-of-the-universe [high]
+
+15. Scolnic, D., et al. (2022). "The Pantheon+ Analysis: The Full Data Set and Light-Curve Release." Astrophysical Journal, 938, 113. https://doi.org/10.3847/1538-4357/ac8b7a [high]
 
 ## See Also
 
-- `library/science/quantum-mechanics.md` -- quantum physics underpins
-  the behavior of the early universe during the Planck epoch and
-  inflation.
-- `library/science/thermodynamics-laws-energy-entropy.md` -- the second
-  law of thermodynamics and entropy directly relate to the heat death
-  scenario and the arrow of time in cosmology.
-- `library/science/scientific-method-falsifiability.md` -- cosmology
-  demonstrates the scientific method at extreme scales: multiple
-  independent lines of evidence converging on a single model.
+- `library/science/quantum-mechanics.md` -- supplies the quantum framework needed for primordial fluctuations and exposes the missing quantum theory of gravity.
+- `library/science/thermodynamics-laws-energy-entropy.md` -- explains entropy, equilibrium, and the conditional thermodynamic reasoning behind heat-death scenarios.
+- `library/science/scientific-method-falsifiability.md` -- connects cosmological model comparison, cross-probe testing, and anomaly resolution to scientific inference.
