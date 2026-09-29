@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Numerical Analysis -- Approximation, Stability, and Error in Computation
-- **Domain:** mathematics-statistics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=10.0)
-- **Scope:** Explain how numerical analysis turns continuous mathematical problems into finite computations while tracking approximation, truncation, rounding, conditioning, stability, and convergence. Compare root finding, interpolation, numerical differentiation and integration, linear-system solvers, and methods for differential equations, showing why a small residual need not imply a small error. Connect reliable computation to scientific simulation, optimization, data analysis, and machine learning without turning the topic into a software tutorial.
-- **Status:** proposed
-
 ## Candidate: Currency Hedging in Global Portfolios -- Managing Exchange-Rate Risk Without Erasing Diversification
 - **Domain:** portfolio-risk-management
 - **Proposed by:** Librarian
