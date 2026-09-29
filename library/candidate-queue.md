@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Sequence-of-Returns Risk and Withdrawal Portfolios -- Why Return Order Determines Decumulation Outcomes
-- **Domain:** portfolio-risk-management
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.5/10.0 (gap=9.2, compounding=9.5, timeliness=9.5, balance=10.0)
-- **Scope:** Explain sequence-of-returns risk as the path dependence created when withdrawals occur while portfolio values fluctuate, so identical average returns can produce different survival outcomes. Analyze accumulation versus decumulation, withdrawal timing, inflation, longevity, asset allocation, rebalancing, cash buffers, flexible spending rules, and failure probabilities. Distinguish sequence risk from ordinary volatility and from liability-driven investing, and show how historical backtests, Monte Carlo models, fees, taxes, and regime assumptions can misstate safety.
-- **Status:** proposed
-
 ## Candidate: Chemical Kinetics and Reaction Mechanisms -- How Molecular Pathways Determine Reaction Rates
 - **Domain:** science
 - **Proposed by:** Librarian
