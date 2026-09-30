@@ -1,6 +1,6 @@
 # Finance -- Topics
 
-15 topics. Anchor: [anchor-finance.md](anchor-finance.md)
+16 topics. Anchor: [anchor-finance.md](anchor-finance.md)
 
 - [Asset Management Economics -- Scale Expands Fee Revenue Faster Than Investment Capacity](asset-management-economics-incentives-scale-and-financial-intermediation.md) -- [reviewed: 2026-09-21] -- Asset managers are financial intermediaries that convert client mandates into portfolios while charging for selection, implementation, risk control, administration, and access. Their central economic tension is that revenue usually rises with assets under management, while investment capacity, client outcomes, and the ability to outperform do not necessarily scale at the same rate; incentives...
 
@@ -25,6 +25,8 @@
 - [IPOs Are Negotiated Capital-Formation Mechanisms, Not Opening-Day Trades](initial-public-offerings-and-primary-capital-markets.md) -- [reviewed: never] -- An initial public offering converts a privately held issuer into a publicly traded company while distributing shares, and often raising new equity, through a primary-market transaction. Its economic result is determined not only by the first trading price but by the mix of new and existing shares, underwriting and disclosure process, offer price, allocation, dilution, investor base, and continuing obligations that connect corporate finance to the secondary market ([1] [3]).
 
 - [Insurance Underwriting Economics -- Durable Float Depends on Pricing Risk Before Claims Are Known](insurance-underwriting-economics.md) -- [reviewed: never] -- Insurance underwriting is the financial discipline of accepting contingent obligations at a price set before their ultimate cost is known. Its central economic test is not premium growth or investment income, but whether pricing, selection, reserving, reinsurance, and capital together produce an adequate return after claims and expenses across a full loss-development period ([1] [2] [7]).
+
+- [Integrated Financial Models Support Decisions Only When Statements, Drivers, and Controls Reconcile](integrated-financial-modeling.md) -- [reviewed: never] -- An integrated financial model converts operating assumptions into mutually consistent income statements, balance sheets, cash flow statements, and financing schedules; its value comes from making those relationships testable rather than from producing a precise-looking forecast.[1][3] A model supports decisions only when its purpose, inputs, statement links, scenarios, controls, and limitations are visible enough for another informed person to challenge them.
 
 - [Mergers and Acquisitions -- Why Most Deals Destroy Value and How the Few Succeed](mergers-and-acquisitions-mechanics.md) -- [reviewed: never] -- Mergers and acquisitions (M&A) are the mechanisms by which companies combine, restructure ownership, and reallocate corporate assets across the economy. They include mergers (two firms becoming one legal entity), acquisitions (one firm purchasing another), and leveraged buyouts (acquisitions financed primarily with debt against the target's own assets).
 
