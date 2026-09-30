@@ -1,6 +1,6 @@
 # Probabilistic Thinking Forecasting -- Topics
 
-16 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
+17 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
 
 - [Base Rate Neglect -- Why Vivid Evidence Looks More Diagnostic Than It Is](base-rate-neglect.md) -- [reviewed: 2026-09-22] -- Base rate neglect is the underweighting of how common an outcome is before case-specific evidence arrives. It can distort posterior probabilities in forecasting, diagnosis, screening, and investment analysis, but the evidence does not support the stronger claim that people always ignore base rates; usage varies with task structure, representation, relevance, and the person making the judgment ([4] [8]).
 
@@ -17,6 +17,8 @@
 - [Expected Value Thinking -- Why Rational Decision-Makers Win by Embracing Uncertainty](expected-value-decision-trees.md) -- [reviewed: never] -- Expected value (EV) thinking is the rational decision-maker's core operating system: multiply each possible outcome by its probability, sum across all outcomes, and select the path with the highest expected result. Simple in principle, EV thinking is notoriously difficult to live by because it demands being willing to lose individual bets you were right to take.
 
 - [Fermi Estimation Makes Sparse Information Actionable by Exposing Assumptions](fermi-estimation-and-decomposition.md) -- [reviewed: never] -- Fermi estimation turns an apparently unanswerable quantitative question into a transparent model built from quantities that can be bounded, estimated, or researched. Its value is not a magically accurate point answer but a defensible order of magnitude, an explicit uncertainty range, and a map of which assumptions can change the decision ([2] [3] [5]).
+
+- [Forecast Aggregation Improves Robustness Only When Dependence and Incentives Are Modeled](forecast-aggregation-and-ensembles.md) -- [reviewed: never] -- Forecast aggregation combines multiple model outputs or human judgments into one point forecast, probability, predictive distribution, or ordered decision input. The research record shows that combinations often reduce model-selection risk and idiosyncratic error, but the gain is conditional on component quality, informational diversity, stable evaluation, and honest elicitation.
 
 - [Forecast Scores Measure Defined Forecasting Systems, Not Vague Predictive Reputation](forecast-evaluation-and-scoring-rules.md) -- [reviewed: never] -- A forecast score converts a stated probability distribution and a resolved outcome into evidence only when the target, scoring rule, baseline, cases, timestamps, and aggregation policy are fixed in advance. Proper scores discourage vagueness and strategic probability reports, but no single score can by itself establish calibration, discrimination, decision value, or the skill of a person, model, team, or complete forecasting system.
 
