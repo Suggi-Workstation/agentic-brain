@@ -1,6 +1,6 @@
 # Technology -- Topics
 
-15 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+16 topics. Anchor: [anchor-technology.md](anchor-technology.md)
 
 - [Blockchain and Distributed Ledgers Change Where Trust Resides, Not Whether Trust Exists](blockchain-distributed-ledgers.md) -- [reviewed: 2026-09-24] -- Blockchains are replicated, cryptographically linked ledgers whose participants use a consensus process to decide which updates are accepted. Permissionless designs can reduce dependence on a central operator, but no ledger eliminates trust: users still rely on cryptography, software, network assumptions, governance, key custody, and the accuracy of data supplied from outside the ledger [6].
 
@@ -17,6 +17,8 @@
 - [Large Language Models -- How Next-Token Prediction Trained at Unprecedented Scale Produces General-Purpose Reasoning](large-language-models.md) -- [reviewed: never] -- Large language models (LLMs) are neural networks built on the transformer architecture that are trained on vast corpora of text to predict the next token in a sequence. When scaled to hundreds of billions of parameters and trained on trillions of tokens, this apparently simple objective produces models capable of translation, summarization, code generation, mathematical reasoning, and creative...
 
 - [Open Source Software Becomes Durable Infrastructure Only When Licenses, Governance, and Maintenance Align](open-source-software-digital-commons.md) -- [reviewed: never] -- Open source software turns code into reusable shared infrastructure, but public source code alone does not create a functioning commons. Durable projects combine enforceable permissions, legitimate decision rights, disciplined contribution and release processes, security work, and resources for maintainers; when one layer is missing, openness can coexist with fragile or captured infrastructure.
+
+- [Operating Systems Make Shared Hardware Usable by Enforcing Abstractions, Allocation, and Isolation](operating-systems-coordinating-processes-memory-devices-and-isolation.md) -- [reviewed: never] -- An operating system turns processors, memory, storage, and devices into controlled abstractions that many programs can use without coordinating directly with one another. Its central engineering task is not merely to start applications: it must allocate scarce resources, preserve protection boundaries, define durable interfaces, expose failures, and recover enough state for useful work to continue [1][2][6].
 
 - [Post-Quantum Cryptography Migration Requires Changing Protocols, Not Just Algorithms](post-quantum-cryptography-migration.md) -- [reviewed: never] -- Post-quantum cryptography migration replaces quantum-vulnerable public-key mechanisms in actual software, network handshakes, certificates, and signing workflows with deployable alternatives. The three finalized NIST standards supply a key-encapsulation mechanism and two signature families, but protecting a connection or artifact also requires compatible protocols, trust infrastructure, vendors,...
 
