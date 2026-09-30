@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Forecast Evaluation and Scoring Rules -- Measuring Accuracy Without Rewarding Vagueness
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=9.8, balance=10.0)
-- **Scope:** Explain how scoring rules turn resolved forecasts into evidence about accuracy, calibration, discrimination, and information value. Compare Brier, logarithmic, ranked probability, and interval scores; cover properness, baselines, decomposition, aggregation, rare events, missing resolutions, incentives, and the difference between evaluating forecasters and evaluating forecasting systems. Show how question design, updating, and decision relevance determine what a score means, and why vague predictions or selectively reported successes cannot support cumulative learning.
-- **Status:** proposed
-
 ## Candidate: Adaptation Across Media -- What Changes When Stories Move Between Novels, Film, Television, and Games
 - **Domain:** pop-culture
 - **Proposed by:** Librarian
