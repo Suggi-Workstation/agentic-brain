@@ -6,539 +6,257 @@ domain: finance
 author: Librarian
 tags: [cost-of-capital, wacc, capm, capital-structure, corporate-finance, discount-rate, hurdle-rate]
 links: [library/finance/capital-structure-modigliani-miller.md, library/finance/financial-statement-analysis.md, library/finance/bond-pricing-and-fixed-income-markets.md, library/finance/dividend-policy-and-share-buybacks.md]
+reviewed: 2026-09-30
 ---
 
-# Cost of Capital and WACC -- Why the Price of Funding Determines Every Investment Decision
+# Cost of Capital and WACC -- A Discount Rate Is Valid Only When Claims, Risk, and Financing Match
 
-The cost of capital is the minimum return a company must earn on its
-investments to satisfy the investors and lenders who provide its
-funding. The weighted average cost of capital (WACC) blends the cost
-of equity and the after-tax cost of debt into a single discount rate,
-weighted by how much of each source the company uses. WACC is the
-hurdle rate for capital budgeting, the discount rate in discounted
-cash flow valuation, and the dial that tunes a firm's optimal mix of
-debt and equity -- making it, as Aswath Damodaran puts it, the "Swiss
-Army knife of finance."
+The cost of capital is the opportunity return required by the providers of funds for bearing risks comparable to those of the cash flows being evaluated [7][9]. Weighted average cost of capital (WACC) combines the required returns on debt, equity, and any other material financing claims in proportions consistent with their economic values [7][8]. Its central limitation is also its governing rule: WACC is not a universal hurdle rate, and it is valid only when the cash-flow claim, currency, risk, tax treatment, and financing policy match the rate [6][7][9].
 
 ## Background
 
-The concept of a cost of capital emerged from a deceptively simple
-question: what discount rate should a company use when evaluating
-whether a new project is worth pursuing? Before the 1950s, the
-answer was ad hoc. Companies used rules of thumb, historical
-averages, or whatever rate their banker quoted. There was no
-unifying theory that connected the cost of debt, the cost of equity,
-and the mix between them into a single coherent framework.
+The modern cost-of-capital problem joined investment policy to security valuation. Modigliani and Miller began their 1958 paper by asking what capital costs when assets produce uncertain returns and a firm can issue claims ranging from fixed debt to residual equity. They replaced an ad hoc comparison with the interest rate on debt by a market-value test: an investment is worthwhile if it increases the market value of the firm. Under their idealized assumptions, including perfect capital markets, homogeneous risk classes, and the ability of investors to reproduce corporate leverage, Proposition I states that the value of a firm is independent of its financing mix. Proposition II states that the required return on equity rises with leverage because equity becomes a riskier residual claim [1].
 
-The intellectual foundation was laid by Franco Modigliani and Merton
-Miller in their landmark 1958 paper, "The Cost of Capital,
-Corporation Finance, and the Theory of Investment," published in the
-American Economic Review. Their central insight was that in a
-frictionless world with no taxes, no bankruptcy costs, and no
-information asymmetry, the value of a firm is independent of how it
-finances itself. Capital structure -- the mix of debt and equity --
-is irrelevant to firm value. This proposition, now known as the
-Modigliani-Miller theorem, earned both authors Nobel Prizes and
-fundamentally changed how finance was taught and practiced.
+The 1958 result did not say that real financing choices never matter. It established a benchmark: if changing the labels on claims leaves total cash flows unchanged and investors can reproduce the same payoffs, financing alone cannot create value. The useful questions therefore concern departures from that benchmark, including taxes, distress costs, contracting frictions, information differences, and agency conflicts. Modigliani and Miller also connected the benchmark to investment policy. Their Proposition III says that, within the model, a project should be accepted when its expected return reaches the capitalization rate for investments in the same risk class; the project's financing instrument does not by itself determine the cutoff [1].
 
-The implication was profound: if capital structure does not matter
-in a perfect world, then the things that make it matter in the real
-world -- taxes, bankruptcy costs, agency costs, asymmetric
-information -- are precisely what finance theory must study. The
-Modigliani-Miller theorem was not the end of the debate but the
-beginning. It told the field exactly which frictions to model.
+Corporate taxes created the best-known departure. Modigliani and Miller's 1963 correction showed that an interest deduction can add value because it raises after-tax cash available to capital providers under the paper's assumptions [2]. The familiar after-tax debt term in WACC descends from that logic, but it is not an unconditional subsidy. A deduction has value only when applicable law permits it and the firm can use it. Current U.S. rules illustrate the qualification: Internal Revenue Code section 163(j) can limit deductible business interest to business interest income plus 30 percent of adjusted taxable income plus floor-plan financing interest, subject to exceptions and further rules [10]. The tax factor in a model must therefore represent the expected usable marginal benefit, not a statutory rate copied without analysis.
 
-The other pillar of cost of capital theory arrived in 1964 when
-William Sharpe published "Capital Asset Prices: A Theory of Market
-Equilibrium under Conditions of Risk" in the Journal of Finance.
-Building on Harry Markowitz's portfolio theory from 1952, Sharpe
-developed the Capital Asset Pricing Model (CAPM), which provided a
-formula for the cost of equity: the risk-free rate plus beta times the
-equity risk premium. Sharpe, Markowitz, and Merton Miller jointly
-received the 1990 Nobel Prize in Economic Sciences for this body of
-work. Jack Treynor, John Lintner, and Jan Mossin independently
-developed similar models around the same time, but Sharpe was the
-first to publish.
+A second lineage addressed the required return on equity. Sharpe's 1964 equilibrium model built on portfolio selection and related expected return to systematic risk. His model assumes, among other restrictions, a common pure interest rate at which investors can borrow or lend and homogeneous investor expectations. Under those assumptions, prices adjust so that expected return is linearly related to exposure that cannot be diversified away; the regression response later expressed as beta is the quantity of that systematic exposure [3]. The standard CAPM equation, `Re = Rf + beta x ERP`, became a compact way to estimate an otherwise unquoted cost of equity.
 
-The CAPM answered a question that had vexed corporate finance since
-before Modigliani and Miller: how do you estimate the cost of equity?
-Unlike debt, equity has no contractual interest rate. Shareholders do
-not hand you a bill. The cost of equity is an opportunity cost -- the
-return shareholders could earn on an investment of equivalent risk
-elsewhere. CAPM made that abstract concept computable: you need a
-risk-free rate (typically the 10-year Treasury yield), a measure of
-the stock's sensitivity to market risk (beta), and an estimate of the
-equity risk premium (the extra return the market delivers over the
-risk-free rate).
+The compact equation did not make its inputs observable constants. A risk-free proxy depends on currency, horizon, and default assumptions. Beta depends on the market proxy, estimation period, return frequency, business mix, and leverage. The equity risk premium is an expected return above the risk-free rate and must be estimated from historical or forward-looking evidence. Damodaran therefore treats cost of capital as a framework with multiple uses and multiple estimation choices, not as a directly quoted market price [7]. CFA Institute guidance likewise emphasizes that there is no single right method for every component and that target capital structure and the marginal tax rate require judgment [9].
 
-The WACC formula itself was derived by Modigliani and Miller in their
-original 1958 paper. It combines the cost of equity and the cost of
-debt, weighted by their proportions in the capital structure, with
-the cost of debt adjusted for the tax deductibility of interest
-payments. The formula is simple to state but notoriously difficult to
-apply correctly, because each input requires estimation choices that
-can swing the final number by several percentage points -- and a
-one-percentage-point change in WACC can shift a DCF valuation by 15
-to 25 percent, as practitioners have observed.
+Practice adopted the framework even as research documented its limits. Graham and Harvey surveyed 392 chief financial officers and found that 73.5 percent of respondents always or almost always used CAPM to estimate cost of equity. The same survey found that many firms used a company-wide discount rate for a project whose risk likely differed from the firm's existing assets [6]. Adoption therefore demonstrates institutional usefulness, not empirical truth or correct application.
 
-Damodaran, in his 2016 paper "The Cost of Capital: The Swiss Army
-Knife of Finance," argued that the cost of capital is the single most
-used and most misunderstood number in all of finance. It serves as
-the hurdle rate for investment decisions, the discount rate for
-valuation, the optimizing variable for capital structure decisions,
-and the signal for whether to return cash to shareholders via
-dividends or buybacks. No other number in finance plays so many
-roles simultaneously.
+The empirical record makes that distinction necessary. Fama and French's review concluded that the observed relation between beta and average return is flatter than the Sharpe-Lintner CAPM predicts and that other variables capture return differences left unexplained by beta. They described the model's empirical record as poor enough to invalidate many literal applications [4]. In a separate study of 48 U.S. industries, they found cost-of-equity estimates to be highly imprecise under both CAPM and a three-factor model, with typical annual standard errors above 3 percentage points even before moving from industries to individual firms or projects [5].
+
+The resulting discipline is neither to discard WACC nor to treat it as measured fact. WACC remains a useful bridge between operating cash flows and the required returns of the claims financing those operations. Its value comes from forcing the analyst to state assumptions about risk, debt cost, tax capacity, and capital weights in a common framework. Its danger comes from allowing those assumptions to disappear behind one percentage. A defensible cost of capital is therefore an auditable estimate tied to a stated use, valuation date, and risk class [5][7][9].
 
 ## Core Concepts
 
-### The WACC Formula
+### Start with the cash-flow claim
 
-The weighted average cost of capital blends the cost of each capital
-source by its share of total capital:
+The discount-rate decision begins with the cash flow, not with a formula. Free cash flow to the firm is measured before distributions to debt and common equity and is ordinarily discounted at WACC, producing the value of operations available to all financing claims. Free cash flow to equity and dividends are residual cash flows after debt obligations and are discounted at a cost of equity. Applying WACC to an equity cash flow mixes a pre-debt rate with an after-debt claim; applying cost of equity to firm cash flow omits the required return of debt providers [7][8].
 
-    WACC = (E/V) * Re + (D/V) * Rd * (1 - T)
+Units must also match. Nominal cash flows require nominal rates, while real cash flows require real rates. Cash flows and discount rates must use the same currency because expected inflation and currency-specific risk-free inputs affect both sides of the valuation. The issuer's domicile does not by itself choose the rate: a dollar forecast requires a dollar-consistent rate, and a euro forecast requires a euro-consistent rate. A long-lived stream also spans a term structure, so using one government yield is a modeling convention that must be disclosed rather than proof of a perfect maturity match [7].
 
-Where E is the market value of equity, D is the market value of
-debt, V equals E plus D (total capital), Re is the cost of equity, Rd
-is the pre-tax cost of debt, and T is the marginal corporate tax rate.
-The equity weight E/V and debt weight D/V must always use market
-values, not book values. A company with 30 billion in book equity but
-a 200 billion market capitalization is overwhelmingly equity-financed
-on a market basis, and its WACC must reflect that. Using book values
-inflates the debt weight, understates WACC, and produces inflated
-valuations -- this is the single most common error in practical WACC
-calculation, as identified by practitioners and academic reviewers
-alike.
+Risk must be attached once. Diversifiable or event-specific risks that can be represented through scenarios may belong in expected cash flows, while market-wide exposure may belong in the discount rate. Charging the same downside through both a probability-weighted cash-flow reduction and an added discount-rate premium double counts it. The analyst should identify where each material risk enters and label any synthesis or judgment explicitly [7].
 
-The tax adjustment on the debt component -- multiplying Rd by (1 - T)
--- reflects the interest tax shield. Interest payments are
-tax-deductible in the United States and most developed economies.
-The government effectively subsidizes corporate debt by allowing
-interest to reduce taxable income. If a company borrows at 6 percent
-pre-tax and faces a 25 percent tax rate, the after-tax cost of debt
-is 6 percent times 0.75, or 4.5 percent. This tax shield is what makes
-debt cheaper than equity on an after-tax basis and is the reason the
-Modigliani-Miller theorem with taxes (1963) concludes that, in the
-absence of bankruptcy costs, a firm should borrow as much as possible.
+### The WACC equation and its scope
 
-### The Cost of Equity and CAPM
+For a simple structure containing only interest-bearing debt and common equity, the standard equation is:
 
-The cost of equity is the return shareholders require for bearing the
-risk of holding the company's stock. Unlike debt, equity has no
-contractual yield. The most widely used method to estimate it is the
-Capital Asset Pricing Model:
+```
+WACC = (E / V) x Re + (D / V) x Rd x (1 - T)
+V = D + E
+```
 
-    Re = Rf + beta * (Rm - Rf)
+`E` and `D` are economic or market values, `Re` is the required return on common equity, `Rd` is the current pre-tax cost of debt, and `T` is the expected usable marginal tax rate on interest. The equation weights required returns according to the values of the claims that share the operating cash flows [7][8]. It is a compact representation of assumptions, not a rule that every firm has only two kinds of capital.
 
-Where Rf is the risk-free rate (typically the 10-year Treasury
-yield), beta measures the stock's sensitivity to market movements,
-and (Rm - Rf) is the equity risk premium -- the extra return investors
-demand for holding the market portfolio rather than a risk-free
-asset.
+Material preferred stock, convertible securities, noncontrolling interests, or other hybrid claims require separate treatment or a defensible decomposition. Damodaran recommends separating a convertible bond into a debt component and an equity option when the distinction is material, while preferred stock may warrant a separate component because its fixed distribution resembles debt but its legal and tax treatment can resemble equity [7]. The objective is not to force every claim into two labels; it is to make the cash-flow rights and required returns consistent.
 
-Each input carries estimation challenges. The risk-free rate must
-match the duration of the cash flows being discounted. For a DCF with
-a 10-year horizon, the 10-year Treasury is appropriate. Using the
-3-month T-bill rate inflates the equity risk premium and produces a
-structurally inconsistent WACC. The equity risk premium can be
-estimated historically (the S&P 500's average excess return over
-Treasuries, roughly 5 to 7 percent over long periods) or as an
-implied premium (Damodaran publishes monthly implied ERP estimates,
-currently around 5 percent as of 2026).
+Lease obligations require the same consistency. IFRS 16 requires a lessee to recognize a lease liability for leases within its scope and subsequently increases that liability for interest while reducing it for payments; the discount rate is the implicit rate when readily determinable or otherwise the lessee's incremental borrowing rate [11]. The author's assessment is that a valuation decision to classify a lease liability as debt must be coordinated across enterprise cash flow, debt value, operating profit, and the cost-of-debt weight. Under that treatment, adding the liability to debt while leaving lease-related cash flows and earnings definitions unchanged would create a mismatch [7][11].
 
-Beta itself requires careful estimation. A raw regression of the
-stock's returns against the market index is noisy. Practitioners
-adjust raw beta using the Blume adjustment (which shrinks beta toward
-1.0, reflecting the empirical observation that extreme betas tend to
-revert) or the Vasicek method (a Bayesian shrinkage weighted by
-estimation uncertainty). When valuing a private company or a division
-with no traded equity, analysts use the bottom-up beta approach:
-calculate unlevered betas for a peer group, average them, then relever
-to the target company's capital structure using the Hamada equation.
+### Cost of equity is an estimate, not an invoice
 
-### The Cost of Debt
+Equity has no contractual coupon, so its cost is the return investors require for bearing the equity claim's risk. The standard CAPM estimate is:
 
-The cost of debt is the yield to maturity on the company's
-outstanding debt, adjusted for taxes. For a company with publicly
-traded bonds, this yield is directly observable in the market. For a
-private company, analysts add a credit spread to the risk-free rate
-based on the company's credit rating or the rating of comparable
-borrowers.
+```
+Re = Rf + beta x ERP
+```
 
-A critical decision is whether to use the rate on existing debt or
-the rate on new debt. WACC measures the marginal cost of capital --
-what it would cost to raise new financing today. A company that
-locked in low rates years ago should not use those rates for WACC
-purposes, because they reflect a sunk cost, not the current cost of
-capital. The relevant question for a new investment is: what would we
-pay to borrow today?
+`Rf` is a risk-free rate consistent with the cash-flow currency and nominal or real treatment. `Beta` estimates the equity's exposure to movements in a chosen market portfolio. `ERP` is the expected return on that market above the risk-free rate. Sharpe's theory supplies the systematic-risk logic, while Fama and French document why the empirical estimate should not be confused with a law of nature [3][4].
 
-Post-IFRS 16 and ASC 842, operating leases appear on the balance
-sheet as right-of-use assets and corresponding liabilities. These are
-interest-bearing obligations and must be included in total debt for a
-complete WACC calculation. Excluding them understates the debt weight
-and overstates WACC.
+Each input requires provenance. The risk-free source, observation date, currency, and maturity convention should be recorded. Historical ERP estimates depend on the sample period, the return average, and the risk-free comparator; implied estimates depend on current prices, expected distributions, and growth assumptions. A beta estimate depends on the market index, frequency, window, and corporate events during the sample. Reporting the resulting cost of equity to several decimal places cannot recover information that the inputs do not contain [5][7].
 
-### Capital Structure Weights
+A bottom-up beta can reduce noise and align the estimate with the business being valued. The analyst identifies comparable operating businesses, removes the effect of their leverage from equity betas under a stated model, averages or otherwise synthesizes the business-risk estimates, and then applies the target's financing policy. The process can be more transparent than accepting a vendor's single-company regression beta, but it remains sensitive to peer selection, business mix, debt treatment, and the relevering equation [7].
 
-The weights in the WACC formula -- E/V and D/V -- reflect the
-proportions of equity and debt financing. These should be based on
-target capital structure, not the current spot mix. If a company
-plans to shift its debt-to-equity ratio over time, the WACC should
-reflect the long-term target, not a transient snapshot. The
-Modigliani-Miller framework tells us that in a world with taxes but
-no bankruptcy costs, the optimal capital structure is 100 percent
-debt, because every additional dollar of debt generates a tax shield
-without raising the cost of equity enough to offset it. In the real
-world, bankruptcy costs, agency costs, and financial distress create
-a U-shaped WACC curve: WACC falls as debt increases (due to the tax
-shield), reaches a minimum, then rises as financial distress costs
-overwhelm the tax benefit. The optimal capital structure is the point
-where WACC is minimized, which maximizes firm value.
+CAPM is not the only possible model. Multifactor models can represent size, value, profitability, investment, or other return patterns, while build-up approaches make extra premiums explicit. More factors do not automatically produce a more reliable company rate because every factor requires an exposure and an expected premium. Fama and French's industry evidence shows that uncertainty about factor premiums can dominate the apparent precision of estimated sensitivities [5]. Any added premium should therefore identify a distinct risk, explain why that risk is priced, and show that it is not already captured in beta or expected cash flows.
 
-### The Hurdle Rate and Investment Decisions
+### Cost of debt and the usable tax benefit
 
-WACC serves as the hurdle rate for capital budgeting. A project must
-generate returns above WACC to create value. If a company's WACC is
-8.5 percent, any new project funded with the same mix of equity and
-debt must earn more than 8.5 percent to justify the capital it
-consumes. Projects earning below WACC destroy value, even if they are
-profitable in absolute terms.
+The cost of debt is the return lenders currently require on claims of comparable currency, seniority, maturity, security, and default risk. It is not necessarily the coupon on an old bond or interest expense divided by book debt. A company may have issued low-coupon debt when rates and credit quality differed from conditions at the valuation date. A current borrowing cost can be estimated from traded debt, a current credit spread over a same-currency risk-free rate, or comparable borrowers when direct observations are unavailable [7].
 
-Damodaran identifies a common mistake: using a single company-wide
-WACC for all projects, even when divisions have very different risk
-profiles. A mature utility division and a speculative biotech venture
-inside the same holding company have radically different risk
-characteristics. Applying the parent company's blended WACC to both
-overstates the utility's hurdle (rejecting good safe projects) and
-understates the venture's hurdle (accepting bad risky projects). Over
-time, the company gets riskier because it systematically rejects its
-safest investments and accepts its riskiest ones. The fix is to
-estimate division-specific costs of capital using division-specific
-betas and capital structures.
+The after-tax debt term must follow expected law and taxable capacity. In the simple formula, multiplying `Rd` by `(1 - T)` assumes that interest creates a contemporaneous tax saving at rate `T`. That assumption can fail when the firm has losses, when deductions are deferred, or when law caps deductible interest. Section 163(j) is a current U.S. example of a limit that can make the usable benefit differ from the statutory rate and shift it across periods [10]. A detailed model can forecast actual tax savings by period rather than burying a delayed or uncertain shield inside one constant factor [8][10].
 
-### The Tax Shield and Its Limits
+Debt risk changes with leverage. Replacing equity with debt does not leave `Re` and `Rd` fixed: additional fixed claims make common equity more exposed to operating outcomes and can raise lender spreads as default risk increases. Tax benefits can also become less usable. A spreadsheet that increases the debt weight while holding the costs of debt and equity constant will mechanically push WACC down and manufacture an optimum that the assumptions themselves created [1][2][7].
 
-The tax deductibility of interest is the primary reason debt lowers
-WACC on an after-tax basis. But the tax shield has limits. If a
-company generates net operating losses, it pays no taxes and cannot
-immediately use the interest deduction. In that case, the effective
-tax rate is zero, and the after-tax cost of debt equals the pre-tax
-cost. Tax exhaustion -- the point at which a company has more
-interest deductions than taxable income -- removes the tax advantage
-of debt entirely. The marginal tax rate, not the average or statutory
-rate, is the correct input for WACC, because WACC measures the cost
-of the next dollar of capital raised.
+### Capital weights, target policy, and circularity
 
-### WACC as Opportunity Cost
+WACC uses economic weights because it represents current required returns on the claims financing operating assets. Book equity records historical transactions and accounting adjustments; it is not a current price for the equity claim. For a listed firm, observed market capitalization and a defensible estimate of debt value can provide a starting point. For a private company, a division, or a transaction that changes financing, a supportable target capital structure based on policy and comparable businesses may be more relevant than the current mix [7][9].
 
-For investors, the cost of capital is an opportunity cost: the return
-they could earn on an investment of equivalent risk elsewhere. For
-the company, it is a cost of financing: the company must deliver
-returns that beat or match the cost of capital to keep investors
-satisfied. This dual nature is what makes WACC simultaneously a
-valuation input (the discount rate) and a performance benchmark (the
-hurdle rate). When a company earns a return on invested capital above
-its WACC, it creates economic value. When it earns below WACC, it
-destroys value, regardless of whether it is profitable in accounting
-terms.
+Target weights do not eliminate judgment. They should describe a financing policy that can be maintained with the forecast's cash flows, credit risk, and maturity structure. If leverage is expected to change materially, one constant WACC can hide the transition. Period-specific WACCs, adjusted present value, or capital cash flow methods can expose changing debt balances and tax effects more clearly [7][8].
+
+Market weights can create circularity because equity value is needed to calculate WACC while WACC is used to calculate equity value. Velez-Pareja and Tham show that this simultaneous relationship can be solved by iteration and that the weights belong to the relevant period's market values [8]. An adjusted present value method can instead value unlevered operations and financing effects separately. Neither method removes assumptions; the choice should make material assumptions more visible and produce internally consistent values.
+
+### WACC is a risk-matched hurdle, not a company-wide commandment
+
+A project creates value when its expected incremental cash flows have positive net present value after discounting at a rate appropriate to their risk. Company WACC is a suitable starting point only when the project has risk and financing exposure comparable to the assets represented by that WACC. A regulated utility project and a speculative biotechnology project inside one group should not inherit the same rate merely because they share a parent [6][7].
+
+Using one company-wide rate systematically favors projects riskier than the existing business because their cash flows are discounted too lightly, while penalizing safer projects because they are discounted too heavily. Graham and Harvey's survey documents that this mismatch occurs in practice, and Damodaran explains how it can make a firm progressively riskier by accepting high-risk projects and rejecting low-risk ones [6][7]. A division or project rate should therefore be built from comparable operating risk and a financing policy appropriate to that risk class.
+
+The author's assessment is that a hurdle rate may include a decision reserve for forecast optimism or scarce managerial capacity, but that reserve should not be mislabeled as the market cost of capital. Combining risk adjustment, strategic ranking, and organizational bias in one opaque percentage prevents reviewers from knowing why a project failed. Governance improves when the market-required rate, any policy buffer, and any capital-rationing rule are shown separately.
+
+### A transparent calculation
+
+Consider a hypothetical firm financed at target market weights of 80 percent common equity and 20 percent debt. Assume a 10.00 percent required return on equity, a 6.00 percent current pre-tax debt cost, and a 25 percent usable marginal tax rate. The after-tax debt cost is 4.50 percent, and tool-recalculated WACC is 8.90 percent:
+
+```
+WACC = 0.80 x 10.00% + 0.20 x 6.00% x (1 - 0.25)
+     = 8.90%
+```
+
+The arithmetic follows the standard formula [8]. The 8.90 percent result is not evidence that the assumptions are correct. A defensible model would attach a date and source to the risk-free rate, ERP, beta, debt spread, tax usage, and target weights; test alternative estimates; and use the rate only for cash flows matching those assumptions [5][7][9].
 
 ## Evidence
 
-### The Modigliani-Miller Propositions
+### The Modigliani-Miller benchmark and its early tests
 
-The empirical foundation of cost of capital theory rests on the
-Modigliani-Miller propositions. Their 1958 paper proved that in a
-world without taxes, WACC is constant at all levels of gearing. As a
-company adds debt, the decrease in WACC from cheaper debt is exactly
-offset by the increase in the cost of equity due to higher financial
-risk. No optimal capital structure exists.
+Modigliani and Miller's 1958 paper is a theoretical benchmark supported by an arbitrage argument, not a general empirical proof. Proposition I states that firms in the same risk class should have the same average cost of capital regardless of leverage under the model's conditions. Proposition II derives a higher expected equity return as debt-to-equity rises. Proposition III then ties the investment cutoff to the risk-class capitalization rate rather than to the interest rate on the particular financing instrument [1]. These propositions establish consistency conditions: cheaper debt cannot lower total capital cost for free because risk is transferred to equity.
 
-Their 1963 follow-up, "Corporate Income Taxes and the Cost of
-Capital: A Correction," admitted corporate taxes into the analysis.
-With taxes, the tax shield makes debt cheaper on an after-tax basis,
-and WACC falls monotonically as gearing increases. The optimal
-capital structure becomes 100 percent debt -- an extreme result that
-no real company follows, because the model omits bankruptcy costs.
+The paper also reported preliminary tests using data assembled for 43 electric utilities in 1947-1948 and 42 oil companies in 1953. The authors regressed an approximation of after-tax return divided by market value on leverage. They reported correlation coefficients of 0.12 for utilities and 0.04 for oil companies, neither statistically significant, and found no evidence of the declining or U-shaped relation expected by the traditional view in those samples [1]. The method had serious limits that the authors acknowledged: tiny and old samples, crude risk-class definitions, actual earnings used as a proxy for expected earnings, and potentially biased ratio regressions. The result is historically informative but cannot establish a timeless capital-structure law.
 
-The trade-off theory of capital structure reconciles the MM
-propositions with observed behavior. It posits a U-shaped WACC curve:
-WACC falls as debt increases (the tax shield dominates), reaches a
-minimum, then rises as expected bankruptcy costs -- legal fees,
-distress-sale discounts, lost customers, and damaged supplier
-relationships -- outweigh the tax benefit. The optimal capital
-structure is the debt level that minimizes WACC. Empirical studies
-confirm that companies with stable, tangible cash flows (utilities,
-real estate) carry more debt than companies with volatile, intangible
-assets (technology, biotech), consistent with the trade-off model's
-predictions about bankruptcy costs.
+The 1963 correction isolated corporate interest tax deductibility as a financing effect that can add value under specified assumptions [2]. Later practice often compresses that result into the `(1 - T)` term. Current tax rules show why the compression needs qualification. The IRS states that section 163(j), when applicable, limits deductible business interest to business interest income, 30 percent of adjusted taxable income, and floor-plan financing interest; disallowed amounts can be carried forward under the applicable rules [10]. The evidence therefore supports modeling an expected tax benefit, not assuming that every dollar of interest immediately earns the full statutory shield.
 
-### CAPM Empirical Performance
+### CAPM gives a clear hypothesis that the data do not fully support
 
-The CAPM has been tested extensively since its introduction. Fama and
-French (2004) surveyed the evidence in "The CAPM: Theory and
-Evidence," published in the Journal of Economic Perspectives. They
-found that while the CAPM's core intuition -- that higher beta should
-command higher expected returns -- is directionally correct, the
-model's quantitative predictions are poor. The security market line
-(the relationship between beta and expected return) is too flat:
-low-beta stocks earn more than CAPM predicts, and high-beta stocks
-earn less. This empirical failure motivated the Fama-French
-three-factor model, which adds size and book-to-market factors, and
-subsequent multifactor models (Carhart's four-factor, Fama-French
-five-factor).
+Sharpe's model derives a relationship between expected return and systematic exposure under restrictive equilibrium assumptions. It distinguishes total variability from the part associated with movements in an efficient market combination and argues that only the nondiversifiable component should be priced [3]. This is a testable organizing hypothesis and explains why beta, rather than standalone volatility, enters the standard cost-of-equity equation.
 
-Despite these empirical shortcomings, CAPM remains the dominant model
-for estimating the cost of equity in practice. Its simplicity,
-transparency, and wide acceptance in the CFA curriculum and corporate
-finance textbooks sustain its dominance. Damodaran, who uses CAPM in
-his own valuations, acknowledges its limitations but argues that the
-alternatives (dividend discount model, build-up method) introduce
-their own estimation errors without clearly improving accuracy.
+Fama and French's 2004 review compared that prediction with decades of tests. For ten beta-sorted portfolios using 1928-2003 data, they reported a beta-return relation much flatter than the Sharpe-Lintner line: the lowest-beta portfolio had a predicted annual return of 8.3 percent and an actual return of 11.1 percent, while the highest-beta portfolio had a predicted 16.8 percent and an actual 13.7 percent [4]. They also reviewed evidence that size and valuation ratios explain average-return differences not captured by beta. Their conclusion was not that required return is unnecessary; it was that CAPM's simple beta relation is an empirically weak literal description and that market-proxy problems affect both tests and applications [4].
 
-### WACC Estimation Errors in Practice
+The implication for WACC is model risk. CAPM remains transparent and widely understood, but a calculated cost of equity should be treated as a model-based estimate. A reviewer should ask whether the chosen beta, market proxy, and ERP are appropriate and whether alternative specifications change the decision. Familiarity with the equation is evidence of coordination value, not evidence that the estimate is exact [4][6].
 
-Velez-Pareja (2013), in "WACC Calculations in Practice: Incorrect
-Results due to Inconsistent Assumptions," published in Accounting and
-Finance Research, documented systematic errors in how practitioners
-compute WACC. The most common errors include: using book values
-instead of market values for capital structure weights; assuming a
-debt beta of zero while setting the pre-tax cost of debt above the
-risk-free rate (an internally inconsistent assumption that biases
-WACC upward); using the effective tax rate instead of the marginal
-tax rate; and failing to include operating lease liabilities in total
-debt. Velez-Pareja showed that these errors compound: a WACC computed
-with book weights, a stale risk-free rate, and the wrong tax rate can
-differ from a correctly computed WACC by 200 to 300 basis points --
-enough to change a valuation by 30 to 50 percent.
+### Cost-of-equity estimates are statistically imprecise
 
-Practitioner sources (Corporate Finance Institute, Wall Street Prep,
-Damodaran's teaching materials) consistently identify the same five
-errors as the most common WACC mistakes: (1) using book value instead
-of market value for equity, (2) using a short-term risk-free rate for
-long-horizon valuations, (3) blending the effective and marginal tax
-rates, (4) ignoring operating lease debt, and (5) using a single
-company-wide WACC for divisions with different risk profiles. A
-company with 30 billion in book equity and a 200 billion market
-capitalization is overwhelmingly equity-financed on a market basis.
-Using book value inflates the debt weight, understates WACC, and
-produces inflated DCF valuations. Similarly, a company that locked
-in debt at 3 percent during 2021 should not use that rate in a 2026
-WACC calculation when current market rates are 5 to 6 percent. WACC
-measures the marginal cost of capital -- what it would cost to raise
-new financing today -- not the historical cost of existing funding.
+Fama and French's 1997 study examined monthly returns for 48 U.S. industry groups from 1963 through 1994 using CAPM and a three-factor model. They evaluated uncertainty from both factor sensitivities and the expected factor premiums used to convert those sensitivities into required returns [5]. The industry level is important: pooling companies should be easier than estimating one firm or one project, so large uncertainty there is a warning against company-specific precision.
 
-### The Pecking Order as Competing Evidence
+The study reported that typical annual standard errors exceeded 3 percentage points for cost-of-equity estimates under both models. Uncertainty about market and factor premiums contributed more than the apparent precision of full-period regression slopes suggested. The authors described industry cost-of-equity estimates as distressingly imprecise and stated that firm and project estimates would be less precise still [5]. This evidence directly contradicts presentation of WACC to the nearest basis point without a sensitivity range.
 
-The pecking order theory, proposed by Stewart Myers and Nicolas
-Majluf in 1984, offers an alternative to the trade-off model. They
-argued that information asymmetry between managers and outside
-investors makes external equity issuance signal overvaluation. As a
-result, companies prefer internal funds first, then debt, and only
-issue equity as a last resort. This prediction is empirically
-supported: companies announce equity offerings and their stock prices
-typically drop 2 to 3 percent on average, consistent with the signaling
-interpretation. The pecking order implies that observed capital
-structures are not the result of optimizing WACC but of cumulative
-financing decisions driven by information costs. Companies with
-strong cash generation tend to have low debt not because they have
-reached an optimal WACC, but because they rarely need external
-financing.
+### Corporate practice combines adoption with inconsistent risk matching
 
-### The Equity Premium Puzzle and WACC Sensitivity
+Graham and Harvey sent a broad corporate-finance survey to approximately 4,440 firms and received 392 completed responses, a response rate near 9 percent. The survey measured reported practices and beliefs rather than audited decisions, and the authors explicitly identified that limitation [6]. Within that design, 74.9 percent of CFOs reported always or almost always using net present value, 75.7 percent reported the same for internal rate of return, and 73.5 percent of firms that estimated cost of equity reported always or almost always using CAPM [6].
 
-The equity risk premium is the single most consequential input in
-WACC, because it is multiplied by beta and affects the cost of equity,
-which typically carries the largest weight in the capital structure.
-Historical estimates of the ERP range from 3 percent (forward-looking
-implied estimates) to 7 percent (long-run historical averages). A
-2-percentage-point difference in ERP translates directly into a
-2-percentage-point change in cost of equity for a company with beta
-of 1.0, which can swing WACC by 1.5 to 2 percentage points and a
-10-year DCF valuation by 20 to 30 percent.
+The project-risk questions expose the gap between method and application. For a hypothetical overseas project, 58.8 percent of respondents said they would always or almost always use the company-wide discount rate, while 51.0 percent said they would always or almost always use a risk-matched rate considering country and industry; the responses were not mutually exclusive [6]. More than half using the firm rate for a project likely to have different risk is evidence that a theoretically standard WACC can be applied inconsistently. The survey also found greater use of risk-matched rates among larger firms, but it did not verify realized project choices or outcomes [6].
 
-Damodaran publishes monthly implied ERP estimates derived from
-current market prices and expected cash flows, arguing that
-forward-looking implied premiums are more relevant than backward-
-looking historical averages. As of 2026, his implied ERP for the
-United States is approximately 5 percent, while the long-run
-historical average (1928 to present) is closer to 6 percent. The
-choice between these two approaches is not academic: it directly
-determines whether a company's hurdle rate is set at 8 percent or 10
-percent, which determines whether marginal projects are accepted or
-rejected.
+### Financial statements changed, but economic consistency remains necessary
+
+IFRS 16 requires a lessee to recognize lease liabilities for leases within its scope and to recognize interest on the remaining liability [11]. The author's assessment is that this improves visibility but does not settle every valuation classification. A WACC model that treats the liability as debt should use cash flows and operating measures that treat the related financing consistently. The standard is evidence about recognized claims; the valuation model remains responsible for matching those claims to its numerator and denominator.
+
+Taken together, the evidence supports a limited conclusion. Cost-of-capital frameworks organize the relationship among operating risk, financing claims, taxes, and valuation. The evidence does not support a universally correct CAPM beta, a basis-point-precise WACC, one rate for all projects, or an automatic tax shield. The strongest use of WACC is as an explicit, testable set of assumptions whose alternatives are shown, not as a single authoritative number [4][5][6][7].
 
 ## Implications
 
-### For Corporate Investment Decisions
+### For capital budgeting
 
-WACC is the threshold that separates value creation from value
-destruction. A company that consistently invests in projects earning
-below its cost of capital will destroy shareholder value, even if
-those projects are profitable in accounting terms. This is why
-return on invested capital (ROIC) relative to WACC is the single best
-measure of whether a company is creating or destroying economic value.
-ROIC above WACC means the company earns more than its capital costs;
-ROIC below WACC means it earns less. A company can grow earnings
-every year and still destroy value if it grows by deploying capital
-at returns below its cost of capital.
+A capital-budgeting committee should build the hurdle rate backward from the proposed cash flows. It should first identify whether the forecast is a firm or equity claim, then specify currency and nominal or real treatment, then classify the project's operating risk using relevant comparables, and only then apply a financing policy and tax treatment. This sequence prevents a project sponsor from starting with the parent company's WACC and adjusting it until a preferred decision appears acceptable [6][7].
 
-The discipline of hurdle rates prevents the most common form of
-value destruction: empire building. Managers who want to increase
-revenue, headcount, or market share have a natural incentive to lower
-the hurdle rate to justify marginal acquisitions or expansions. A
-rigorous WACC estimate, defended with market-value weights and a
-current risk-free rate, is the institutional defense against this
-bias. Companies that use a round-number WACC ("we use 10 percent for
-everything") without re-examining it as rates change are likely using
-a stale number that no longer reflects their actual cost of capital.
-As rates rose from 2021 to 2024, a company that kept its 2021 WACC of
-7 percent was understating its true cost of capital by 200 to 300
-basis points, potentially accepting projects that destroy value.
+The committee should show three layers separately. The first is the market-required rate for the project's risk. The second is any explicit scenario adjustment to expected cash flows. The third is any policy buffer for optimism, capital scarcity, or execution capacity. A project can fail because market value is negative, because the organization lacks resources, or because management distrusts the forecast; those are different findings. The author's assessment is that combining them in one undisclosed premium weakens both accountability and learning.
 
-### For Valuation
+The review should also compare project return and rate on consistent bases. Accounting ROIC can be a useful operating diagnostic, but it must use an invested-capital definition aligned with the after-tax operating profit being measured. Project NPV is more direct because it values incremental cash flows at a matching rate. A positive accounting profit does not establish value creation if the capital committed could earn more at comparable risk elsewhere [1][7].
 
-WACC is the discount rate in a free cash flow to firm (FCFF) DCF
-model. The present value of a company's future cash flows, discounted
-at WACC, minus net debt, equals equity value. Because DCF valuations
-discount 10 or more years of cash flows, small WACC errors compound
-dramatically. A 1 percentage point change in WACC can shift a
-company's implied enterprise value by 15 to 25 percent, depending on
-the duration and growth profile of the cash flows. Long-duration
-growth stocks (high beta, most of the value in terminal value) are
-most sensitive; mature, cash-generative businesses with most of their
-value in near-term cash flows are less sensitive.
+Post-investment review should preserve the original rate bridge and forecast. Actual outcomes can then be separated into operating forecast error, financing changes, tax changes, and market-rate changes. Without that record, a company cannot tell whether a failed project reflected a bad business forecast or a discount rate that never matched the project. Graham and Harvey's evidence of company-wide rate use makes this control especially important [6].
 
-This sensitivity is why practitioners run WACC as a range, not a point
-estimate. If two reasonable analysts would estimate cost of equity
-between 9 and 11 percent, a valuation that only works at exactly 9.0
-percent is not robust. Sensitivity analysis -- varying WACC by plus
-or minus 100 basis points and observing the effect on fair value --
-is standard practice in equity research and M&A modeling.
+### For valuation
 
-### For Capital Structure Decisions
+An enterprise DCF should reconcile the operating cash flow, WACC, and claims bridge. Free cash flow to the firm discounted at WACC produces operating enterprise value; debt, lease obligations treated as financing, preferred claims, noncontrolling interests, excess cash, and other nonoperating items must then be handled consistently to reach common equity value. An equity DCF instead discounts residual equity cash flow at cost of equity. The two approaches should tell compatible economic stories when assumptions are aligned [7][8][11].
 
-WACC is the optimizing variable for capital structure. The search for
-the optimal mix of debt and equity is the search for the lowest WACC,
-because minimizing WACC maximizes firm value (firm value equals future
-cash flows divided by WACC). The trade-off theory predicts an
-interior optimum where the marginal tax benefit of debt equals the
-marginal expected cost of financial distress. The pecking order
-theory offers a competing view: companies prefer internal funds
-first, then debt, then equity, because external financing signals
-adverse information about valuation.
+Sensitivity analysis is not optional when the discount rate is uncertain. Consider a tool-recalculated hypothetical perpetuity with next-period cash flow of 100 and constant growth of 3 percent. Using `Value = FCF1 / (WACC - g)`, value is 2,000.00 at an 8 percent rate, 1,666.67 at 9 percent, and 1,428.57 at 10 percent. Moving from 8 to 10 percent reduces the illustrated value by 28.57 percent even though cash flow and growth are unchanged. The calculation illustrates denominator sensitivity; it is not an estimate for any company [7].
 
-In practice, most companies target a debt-to-equity ratio well below
-the theoretical optimum implied by the trade-off model, a phenomenon
-known as the debt conservatism puzzle. Possible explanations include
-the desire for financial flexibility (keeping dry powder for
-acquisitions), the agency costs of debt (covenants restrict
-management discretion), and the fact that financial distress costs
-are difficult to quantify and managers are loss-averse. The cost of
-capital framework provides the analytical lens for evaluating these
-trade-offs: each increment of debt lowers WACC through the tax shield
-but raises it through higher expected distress costs.
+A two-way WACC and terminal-growth table is useful for local sensitivity, but scenarios should also vary assumptions that share an economic cause. Inflation, nominal growth, risk-free rates, credit spreads, margins, and refinancing costs may move together. Holding every other input fixed while moving WACC can identify mathematical exposure, but it is not a complete economic scenario. The author's assessment is that both a local grid and coherent scenarios are needed when terminal value is material.
 
-### For Dividend and Buyback Policy
+Rate provenance should be reproducible. A valuation file should record the date and source of the risk-free rate, the ERP method and vintage, beta or comparable set, current debt spread, tax limitation assumptions, lease treatment, and market or target capital weights. Fama and French's uncertainty estimates and the time-varying inputs described by Damodaran explain why an unlabeled percentage becomes stale or irreproducible [5][7].
 
-The cost of capital determines whether a company should return cash to
-shareholders or reinvest it. If a company's ROIC exceeds its WACC, it
-should reinvest earnings because the return on new investment exceeds
-the cost of capital. If ROIC is below WACC, the company destroys value
-with every dollar it invests, and it should return cash to
-shareholders via dividends or buybacks. This is the economic logic
-behind the dividend policy decision: the cost of capital is the
-benchmark against which investment opportunities are measured.
+### For capital-structure policy
 
-A company with a 12 percent ROIC and an 8 percent WACC should invest
-as much as it profitably can, because every dollar deployed creates
-4 cents of economic value. A company with a 6 percent ROIC and an 8
-percent WACC should return all excess cash to shareholders, because
-reinvesting it destroys 2 cents per dollar. The cost of capital is
-thus inseparable from dividend policy -- it is the threshold that
-determines whether reinvestment or distribution is the value-maximizing
-choice. Warren Buffett's test for whether retained earnings are
-justified -- does the company earn above its cost of capital on those
-retained earnings? -- is a direct application of this principle.
+Management should not search for an optimal debt ratio by mechanically increasing the debt weight in a fixed WACC formula. As leverage rises, common equity becomes riskier, debt spreads can rise, tax deductions can become less usable, and distress can reduce operating cash flows. All material components must respond. Modigliani and Miller's benchmark shows why merely replacing a higher quoted equity return with a lower quoted debt return cannot create value without changing total cash flows or exploiting a real friction [1][2][7].
 
-### For Cross-Domain Connections
+A target capital structure should be an economic policy rather than a copied peer median. It should be consistent with cash-flow volatility, asset durability, covenant headroom, refinancing needs, and the ability to use tax deductions. CFA Institute guidance identifies long-term target structure and marginal tax rate as central assumptions, while U.S. interest limitations demonstrate that statutory tax rates do not guarantee contemporaneous shields [9][10].
 
-Cost of capital connects corporate finance to valuation, accounting,
-and market microstructure. Financial statement analysis provides the
-inputs (debt levels, tax rates, capital structure) that feed into
-WACC. Bond pricing determines the cost of debt through yield to
-maturity. Capital structure theory (the Modigliani-Miller framework)
-explains why the mix matters and when it does not. Dividend policy is
-the decision about what to do with cash once the hurdle rate has been
-cleared. The yield curve provides the risk-free rate. Each of these
-topics is a component of the cost of capital calculation, and WACC is
-the synthesis that brings them together into a single actionable
-number.
+When leverage is expected to change materially, period-specific WACC or adjusted present value can be clearer than one constant rate. Adjusted present value separates the value of unlevered operations from financing effects, while a period-specific WACC incorporates the changing claim weights and costs directly. Velez-Pareja and Tham show that consistent methods can reconcile when cash flows, tax savings, values, and timing assumptions are aligned [8]. The preferred method is the one that exposes rather than conceals the financing forecast.
 
-The cost of capital also connects to macroeconomics through the
-risk-free rate. When central banks raise rates, the risk-free rate
-rises, which raises the cost of equity through CAPM and raises the
-cost of debt directly. The entire WACC curve shifts upward. This is
-why rising-rate environments are generally negative for equity
-valuations: the discount rate increases, reducing the present value
-of future cash flows. Conversely, when rates fall, WACC falls and
-valuations rise -- the mechanism behind the "TINA" (there is no
-alternative) argument for equity allocation during periods of
-ultra-low rates. The cost of capital is the transmission channel
-through which monetary policy affects corporate investment and
-asset pricing.
+### For boards, investors, and lenders
+
+Boards should treat WACC as a governed assumption. Approval materials should state who owns each input, when it was updated, what source supports it, how project risk differs from firm risk, and how the decision changes across a defensible range. A round-number hurdle rate can be a policy choice, but it should not be represented as a current market estimate unless its construction supports that claim [5][6][9].
+
+Investors can use the spread between return on invested capital and WACC as a diagnostic, not a standalone verdict. Both sides contain measurement choices: acquisitions, leases, goodwill, excess cash, capitalization policy, and tax treatment affect invested capital and operating return, while risk models and financing assumptions affect WACC. A sustained positive spread under consistent definitions suggests that operations earn more than the modeled opportunity cost, but it does not prove that every incremental investment creates value [7].
+
+A simple illustration shows the unit discipline. If one additional unit of capital produces a one-period after-tax operating return of 12 percent and its matching capital charge is 8 percent, tool-recalculated economic profit for that period is 0.04 unit. The 4-percentage-point spread does not mean that any firm with reported 12 percent ROIC creates four cents forever; duration, reinvestment, fade, and risk still determine value. The example is interpretation, not a company finding.
+
+Lenders and credit analysts should focus on the pre-tax debt cost and repayment capacity before treating debt as a cheap WACC input. A low coupon can reflect an old issuance, collateral, or seniority rather than the current marginal borrowing cost. Increasing leverage can raise both default spreads and equity risk, while interest limitations can defer the assumed tax benefit [7][10]. The debt term should therefore be read as a market-required return on a specified claim, not as evidence that more borrowing necessarily lowers total capital cost.
+
+### A practical decision rule
+
+A cost of capital is defensible when another informed reviewer can reconstruct it and when every component answers the same economic question. The cash flow and rate must match by claimant, currency, nominal or real treatment, horizon, and risk. Financing weights must be economic or target values appropriate to the forecast. Debt cost must be current, the tax shield must be legally and economically usable, and material hybrids or lease claims must be treated consistently [7][8][9][10][11].
+
+The output should normally be a range or scenario set when the decision is sensitive to disputed inputs. CAPM can remain the transparent baseline because its equation and evidence are widely understood, while alternative betas, ERPs, or factor models reveal model risk. Fama and French's findings justify humility, not arbitrary premiums [4][5]. The final question is not whether the spreadsheet calculates WACC. It is whether the investment or valuation conclusion survives the set of assumptions that the available evidence can support.
 
 ## Sources
 
-1. Modigliani, F. & Miller, M. (1958). "The Cost of Capital,
-   Corporation Finance, and the Theory of Investment." American
-   Economic Review, 48(3), 261-297.
-   https://www.jstor.org/stable/1809766 [high]
+1. Modigliani, F. & Miller, M. H. (1958). "The Cost of Capital,
+   Corporation Finance and the Theory of Investment." American Economic
+   Review, 48(3), 261-297.
+   https://www.aeaweb.org/aer/top20/48.3.261-297.pdf [high]
 
-2. Modigliani, F. & Miller, M. (1963). "Corporate Income Taxes and
-   the Cost of Capital: A Correction." American Economic Review,
-   53(3), 433-443. [high]
+2. Modigliani, F. & Miller, M. H. (1963). "Corporate Income Taxes and
+   the Cost of Capital: A Correction." American Economic Review, 53(3),
+   433-443. https://www.jstor.org/stable/1809167 [high]
 
-3. Sharpe, W.F. (1964). "Capital Asset Prices: A Theory of Market
+3. Sharpe, W. F. (1964). "Capital Asset Prices: A Theory of Market
    Equilibrium under Conditions of Risk." Journal of Finance, 19(3),
    425-442. https://doi.org/10.1111/j.1540-6261.1964.tb02865.x [high]
 
-4. Damodaran, A. (2016). "The Cost of Capital: The Swiss Army Knife
-   of Finance." NYU Stern School of Business.
+4. Fama, E. F. & French, K. R. (2004). "The Capital Asset Pricing
+   Model: Theory and Evidence." Journal of Economic Perspectives, 18(3),
+   25-46. https://doi.org/10.1257/0895330042162430 [high]
+
+5. Fama, E. F. & French, K. R. (1997). "Industry Costs of Equity."
+   Journal of Financial Economics, 43(2), 153-193.
+   https://doi.org/10.1016/S0304-405X(96)00896-3 [high]
+
+6. Graham, J. R. & Harvey, C. R. (2001). "The Theory and Practice of
+   Corporate Finance: Evidence from the Field." Journal of Financial
+   Economics, 60(2-3), 187-243.
+   https://people.duke.edu/~jgraham/website/SurveyPaper.PDF [high]
+
+7. Damodaran, A. (2016). "The Cost of Capital: The Swiss Army Knife of
+   Finance." New York University Stern School of Business.
    https://pages.stern.nyu.edu/adamodar/pdfiles/papers/costofcapital.pdf
    [high]
 
-5. Fama, E. & French, K. (2004). "The CAPM: Theory and Evidence."
-   Journal of Economic Perspectives, 18, 25-46.
-   https://doi.org/10.1257/0895330042162421 [high]
+8. Velez-Pareja, I. & Tham, J. (2009). "Market Value Calculation and
+   the Solution of Circularity Between Value and the Weighted Average
+   Cost of Capital WACC." RAM - Revista de Administracao Mackenzie,
+   10(6), 101-131.
+   https://www.redalyc.org/pdf/1954/195415661007.pdf [high]
 
-6. Velez-Pareja, I. (2013). "WACC Calculations in Practice: Incorrect
-   Results due to Inconsistent Assumptions." Accounting and Finance
-   Research, 2(2), 36-47. https://doi.org/10.5430/afr.v2n2p36 [high]
+9. CFA Institute (2025). "Cost of Capital: Advanced Topics."
+   CFA Program Level II Corporate Issuers refresher reading.
+   https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2025/cost-capital-advanced-topics
+   [high]
 
-7. Corporate Finance Institute. "WACC Formula, Definition and Uses
-   -- Guide to Cost of Capital."
-   https://corporatefinanceinstitute.com/resources/valuation/what-is-wacc-formula
-   [medium]
+10. Internal Revenue Service (2026). "Questions and Answers About the
+    Limitation on the Deduction for Business Interest Expense." Updated
+    August 19, 2026.
+    https://www.irs.gov/newsroom/questions-and-answers-about-the-limitation-on-the-deduction-for-business-interest-expense
+    [high]
 
-8. ACCA Global. "Optimum Capital Structure." F9 Financial Management
-   Technical Article.
-   https://www.accaglobal.com/gb/en/student/exam-support-resources/fundamentals-exams-study-resources/f9/technical-articles/optimum-capital-structure.html
-   [medium]
+11. IFRS Foundation (2024). "International Financial Reporting Standard
+    16 Leases." Issued Standards.
+    https://www.ifrs.org/content/dam/ifrs/publications/html-standards/english/2024/issued/ifrs16.html
+    [high]
 
 ## See Also
 
 - `library/finance/capital-structure-modigliani-miller.md` -- the
-  theory of how the mix of debt and equity affects firm value, which
-  WACC measures.
-- `library/finance/financial-statement-analysis.md` -- the source of
-  the debt levels, tax rates, and capital structure data that feed
-  into WACC.
-- `library/finance/bond-pricing-and-fixed-income-markets.md` -- bond
-  yields to maturity provide the cost of debt input to WACC.
-- `library/finance/dividend-policy-and-share-buybacks.md` -- the
-  decision of whether to reinvest at the hurdle rate or return cash to
-  shareholders.
-- `library/finance/yield-curve.md` -- the risk-free rate input to
-  CAPM comes from the government bond yield curve.
+  benchmark showing when financing claims do and do not change total
+  value.
+- `library/finance/financial-statement-analysis.md` -- the accounting
+  inputs that must be reconciled before debt, tax, and invested-capital
+  measures can enter a WACC model.
+- `library/finance/bond-pricing-and-fixed-income-markets.md` -- the
+  yield, spread, maturity, and credit concepts used to estimate current
+  debt cost.
+- `library/finance/dividend-policy-and-share-buybacks.md` -- the payout
+  decision after investment opportunities have been compared with a
+  risk-matched capital cost.
+- `library/finance/yield-curve.md` -- the term-structure context for
+  selecting a risk-free input.
