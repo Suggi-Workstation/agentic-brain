@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Precedent Transaction Analysis -- Pricing Control, Synergies, and Market Cycles
-- **Domain:** valuation-screening
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.7/10.0 (gap=9.9, compounding=9.6, timeliness=9.4, balance=10.0)
-- **Scope:** Explain how precedent transaction analysis converts prices paid for comparable control transactions into valuation ranges while separating enterprise value, equity value, assumed liabilities, and deal-specific consideration. Cover transaction selection, announcement dates, unaffected metrics, control premiums, synergies, market cycles, financing conditions, earnouts, tax structure, normalization, and sensitivity to sparse or stale samples. Show why observed deal multiples reflect bargaining, strategic fit, and capital-market conditions rather than pure intrinsic value, and connect the method to trading comparables, DCF, SOTP, and fairness-opinion practice.
-- **Status:** proposed
-
 ## Candidate: Museum Repatriation and Cultural Heritage -- Provenance, Power, and Living Community Claims
 - **Domain:** anthropology
 - **Proposed by:** Librarian
