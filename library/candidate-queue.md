@@ -185,3 +185,19 @@
 - **Discovery score:** 9.9/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=9.4)
 - **Scope:** Explain how states and commercial actors convert satellites, launch access, orbital positions, ground infrastructure, data links, and cislunar reach into geopolitical power and vulnerability. Cover dual-use dependence, counterspace capabilities, attribution, escalation, debris, resilience, alliances, norms, and competition over governance as activity expands beyond Earth orbit. Distinguish international security analysis from spacecraft engineering, commercial space-industry economics, and the detailed law of outer space.
 - **Status:** proposed
+
+## Candidate: Financial Crises and Macroprudential Policy -- Detecting Systemic Risk and Building Buffers Before Contagion
+- **Domain:** macro-micro
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how leverage, maturity and currency mismatch, asset-price feedback, runs, fire sales, and interconnected balance sheets turn local losses into systemic crises. Compare early-warning indicators, stress tests, lender-of-last-resort and resolution tools, capital and liquidity buffers, borrower-based measures, countercyclical policy, and cross-border coordination across banking and nonbank finance. Show how macroprudential policy differs from monetary policy, microprudential supervision, and crisis cleanup, while connecting the framework to business cycles, sovereign debt, and financial-market structure.
+- **Status:** proposed
+
+## Candidate: Risk and Crisis Communication -- Turning Uncertainty Into Protective Action Under Pressure
+- **Domain:** communication
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how institutions communicate hazards, uncertainty, changing evidence, and protective actions before, during, and after emergencies. Cover audience research, trusted messengers, message design, warnings, accessibility, multilingual delivery, rumor control, media coordination, prebunking, feedback, correction, and evaluation across public-health, disaster, organizational, and technological crises. Show how speed, empathy, transparency, consistency, and local context affect whether information produces appropriate action, while distinguishing communication practice from emergency operations, propaganda, and legal compliance.
+- **Status:** proposed
