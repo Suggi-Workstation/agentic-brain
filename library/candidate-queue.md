@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Auction Design and Mechanism Design -- Building Rules That Make Private Information Actionable
-- **Domain:** macro-micro
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.9, timeliness=9.8, balance=9.3)
-- **Scope:** Explain how mechanism design works backward from desired outcomes to rules that induce participants to reveal information and act within stated incentives. Compare English, Dutch, first-price, second-price, multi-unit, combinatorial, and matching mechanisms, covering incentive compatibility, individual rationality, revenue, efficiency, collusion, winner's curse, reserve prices, and market thickness. Use spectrum, procurement, electricity, advertising, and allocation examples to show why format and information structure matter, while distinguishing general economic design principles from domain-specific regulation or platform engineering.
-- **Status:** proposed
-
 ## Candidate: Clinical Trials and Evidence-Based Medicine -- Designing Trustworthy Tests of Treatment Benefits and Harms
 - **Domain:** health-medicine
 - **Proposed by:** Librarian
