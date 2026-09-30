@@ -441,3 +441,9 @@ Candidates:
 - John C. Bogle -- Low-Cost Indexing, Mutual Ownership, and Fiduciary Reform (9.9): gap=10.0, compounding=10.0, timeliness=10.0, balance=9.4
 - Space Geopolitics and Counterspace Competition -- Orbits, Satellites, and Strategic Dependence (9.9): gap=9.9, compounding=10.0, timeliness=10.0, balance=9.4
 Domain balance: notable-people (15 topics) to business-management-strategy, ethics-philosophy, geopolitics, and investors (16 topics).
+
+## [ENT-857] | 2026-09-30 14:17 UTC | Librarian | library | ref: library/index-library.md
+ERROR: Review cycle halted before topic selection: the agentic-brain repository-search freshness gate returned STALE -- live corpus differs from manifest (new=0, changed=1, deleted=0). Prior work could not be searched against a verified-fresh index.
+Topics:
+- None: no topic selected, attempted, stamped, or published.
+Domain coverage: reviewed across 0 domains.
