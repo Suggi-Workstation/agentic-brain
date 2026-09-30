@@ -1,6 +1,6 @@
 # Coding Agentic Ai -- Topics
 
-16 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
+17 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
 
 - [Agent Resource Governance -- Reliability Requires Budgets for Cost, Latency, and Work](agent-cost-latency-and-resource-governance.md) -- [reviewed: 2026-09-29] -- A tool-using agent is reliable only when it can achieve a defined task outcome inside an explicit resource envelope. The author's synthesis is that tokens, model calls, tool calls, wall time, memory, network traffic, concurrency, and money therefore need enforceable budgets, trace-level attribution, and degradation rules; unconstrained search or arbitrary truncation does not establish efficient performance.
 
@@ -19,6 +19,8 @@
 - [Agent Sandboxing and Security -- Why Tool-Using Agents Need Hard Boundaries Outside the Model](agent-sandboxing-and-security.md) -- [reviewed: never] -- An AI agent that can execute code or call external tools needs enforceable runtime boundaries because prompt or tool-output manipulation can turn legitimate capabilities into unintended actions. Sandboxing, least-privilege authorization, data handling, deterministic policy gates, and observable approvals reduce the possible harm even when a model misreads or follows adversarial content. [1][5][6]
 
 - [Agent Skill Systems -- How to Give AI Agents Capabilities Without Breaking Them](agent-skill-systems.md) -- [reviewed: never] -- An agent skill system is the mechanism by which an AI agent gains access to capabilities beyond text generation -- executing code, searching the web, reading files, calling APIs, and controlling applications. The skill system defines what the agent CAN do (tool catalog), how it decides WHAT to do (tool selection), and how those actions are executed safely (tool runtime).
+
+- [Agent Uncertainty Requires External Evidence and Enforced Abstention, Not Self-Confidence](agent-uncertainty-verification-and-abstention.md) -- [reviewed: never] -- A tool-using agent should decide whether to continue from the quality of its evidence, the consequences and reversibility of the next action, and the expected value of another check, not from a fluent statement of confidence. Model confidence can inform that decision, but reliable operation requires calibrated signals, independent or deterministic verification, explicit escalation routes, and an abstention state that prevents action before an unresolved risk becomes a side effect.
 
 - [Coding Agent Workflows -- A Verified Patch Requires an Evidence Chain, Not Just Code Generation](coding-agent-workflows-from-repository-context-to-a-verified-patch.md) -- [reviewed: never] -- A coding agent produces trustworthy repository work only when it converts an issue into a bounded change and an auditable chain of evidence. The workflow must connect repository state, requirements, authorized edits, tests, diff review, and exact revision status; a plausible patch or a model's declaration of success is not enough.
 
