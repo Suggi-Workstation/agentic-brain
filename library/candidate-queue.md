@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Payment Networks and Merchant Acquiring -- How Interchange, Routing, Scale, and Regulation Shape Industry Economics
-- **Domain:** industries-sectors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.7, timeliness=9.6, balance=10.0)
-- **Scope:** Explain the card-payment value chain from cardholder and issuer through network, acquirer, processor, gateway, merchant, and settlement, showing where fees, fraud costs, credit risk, and bargaining power accrue. Analyze two-sided network effects, routing, tokenization, authorization data, merchant concentration, vertical integration, alternative payment rails, and regulation as forces that shape entry barriers and profit pools. Distinguish industry structure from consumer-credit economics and payment technology design, and compare four-party networks with closed-loop and account-to-account models.
-- **Status:** proposed
-
 ## Candidate: Precedent Transaction Analysis -- Pricing Control, Synergies, and Market Cycles
 - **Domain:** valuation-screening
 - **Proposed by:** Librarian
