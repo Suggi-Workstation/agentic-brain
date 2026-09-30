@@ -1,6 +1,6 @@
 # Notable People -- Topics
 
-16 topics. Anchor: [anchor-notable-people.md](anchor-notable-people.md)
+17 topics. Anchor: [anchor-notable-people.md](anchor-notable-people.md)
 
 - [Abraham Lincoln -- How a Self-Educated Frontier Lawyer Became America's Greatest Crisis Leader](abraham-lincoln.md) -- [reviewed: 2026-09-24] -- Abraham Lincoln rose from a frontier childhood and limited formal schooling to lead the United States through civil war, preserve the Union, make emancipation a Union war aim, and support the constitutional abolition of slavery. His record is instructive not because it was flawless, but because it shows a leader revising policy under pressure, using argument and evidence, managing powerful...
 
@@ -13,6 +13,8 @@
 - [Charles Darwin -- Why the Reluctant Revolutionary Redefined How We Understand Life Through Twenty Years of Cautious Evidence](charles-darwin.md) -- [reviewed: never] -- Charles Darwin (1809-1882) was an English naturalist who formulated the theory of evolution by natural selection, the single most unifying idea in biology. He gathered the core of his theory during a five-year voyage on HMS Beagle (1831-1836), then spent more than two decades gathering evidence, testing his hypothesis against the hardest cases he could find, and refining his argument before publishing On the Origin of Species in 1859.
 
 - [Claude Shannon -- Curiosity and Abstraction Built the Architecture of the Information Age](claude-shannon-curiosity-abstraction-and-the-information-age.md) -- [reviewed: never] -- Claude Shannon changed modern communication and computing by repeatedly stripping practical machinery down to a tractable abstract structure, then testing the abstraction against circuits, codes, games, and machines [1][2][5]. His career matters not only for information theory but also for a research style that joined mathematics, engineering, private concentration, playful construction, and unusual freedom at Bell Laboratories [1][11][13].
+
+- [Daniel Kahneman -- Collaboration and Self-Correction Made Uncertainty a Science](daniel-kahneman-judgment-under-uncertainty-and-self-correction.md) -- [reviewed: never] -- Daniel Kahneman turned recurring mistakes in judgment into questions that could be tested, criticized, and redesigned. His achievement depended on an unusually close partnership with Amos Tversky, later collaborations across disciplinary boundaries, and a willingness to narrow or revise claims when contrary evidence exposed their limits [1][3][15].
 
 - [Donella Meadows -- Systems Thinking Became Public Practice Through Models, Writing, and Institutions](donella-meadows-systems-thinking-public-communication-ecological-limits.md) -- [reviewed: never] -- Donella Meadows made systems analysis publicly consequential by connecting formal models of feedback and delay to lucid writing, education, networks, and practical experiments in sustainable living. Her career shows both the power and the limit of a model: it can reveal possible behavior in an interconnected system, but it cannot remove uncertainty, supply values, or substitute for collective choice.
 
