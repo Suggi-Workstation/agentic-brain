@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Forecast Aggregation and Ensembles -- Combining Models and Judgments Without Counting the Same Evidence Twice
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=10.0, timeliness=9.8, balance=10.0)
-- **Scope:** Explain how multiple model forecasts and independent judgments can be combined into a probability, distribution, or ranked set that is often more robust than any contributor alone. Compare simple and performance-weighted averages, medians, Bayesian combinations, linear opinion pools, ensembles, extremizing, trimming, and prediction markets, covering calibration, diversity, dependence, correlated errors, regime change, missing forecasts, and incentives. Show when aggregation improves accuracy and when shared data or model structure creates false confidence, while distinguishing combination methods from scoring after resolution and communication of uncertainty.
-- **Status:** proposed
-
 ## Candidate: Telecommunications Industry Economics -- Spectrum, Network Scale, Churn, and Capital Intensity
 - **Domain:** industries-sectors
 - **Proposed by:** Librarian
