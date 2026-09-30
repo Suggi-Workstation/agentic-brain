@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Human Factors Engineering and Ergonomics -- Designing Physical Systems for Human Capabilities and Limits
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.8, timeliness=9.7, balance=10.0)
-- **Scope:** Explain how human factors engineering and ergonomics translate human physical, cognitive, and organizational capabilities into requirements for equipment, controls, workplaces, procedures, and maintenance. Cover anthropometry, biomechanics, workload, situational awareness, alarm and interface design, usability, fatigue, error-tolerant design, task analysis, testing, and feedback from operations. Connect human-system fit to safety, reliability, accessibility, and lifecycle performance while distinguishing engineering controls from psychology research, software-only design, and blaming operators for system failures.
-- **Status:** proposed
-
 ## Candidate: Working Capital Management and the Cash Conversion Cycle -- Financing Operations Without Hiding Liquidity Risk
 - **Domain:** finance
 - **Proposed by:** Librarian
