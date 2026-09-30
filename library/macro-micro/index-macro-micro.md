@@ -2,7 +2,7 @@
 
 16 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
 
-- [Auction Design Makes Private Information Usable Only When Rules Align Incentives](auction-design-and-mechanism-design.md) -- [reviewed: never] -- Mechanism design works backward from a desired allocation to rules under which self-interested participants reveal enough information for that allocation to emerge. Auction design is its most visible application: the bidding language, sequence, information policy, winner rule, and payment rule jointly determine participation, strategy, efficiency, revenue, and vulnerability to collusion [1][5][6].
+- [Auction Design Makes Private Information Usable Only When Rules Align Incentives](auction-design-and-mechanism-design.md) -- [reviewed: 2026-09-30] -- Mechanism design works backward from a desired allocation to rules under which self-interested participants reveal enough information for that allocation to emerge. Auction design is its most visible application: the bidding language, sequence, information policy, winner rule, and payment rule jointly determine participation, strategy, efficiency, revenue, and vulnerability to collusion [1][5][6].
 
 - [Business Cycles Persist Because Shocks and Propagation Mechanisms Interact](business-cycles.md) -- [reviewed: 2026-09-21] -- Business cycles are alternating expansions and contractions in broad economic activity, not a fixed rhythm with a standard duration. They persist because demand, supply, policy, and financial shocks interact with mechanisms that spread and amplify their effects. Business-cycle analysis therefore supports conditional diagnosis and scenario planning, not precise turning-point forecasts. [1] [7] [8]
 
