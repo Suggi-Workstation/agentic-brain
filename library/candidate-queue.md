@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Digital Transformation and Technology Adoption -- Turning New Tools Into Organizational Capability
-- **Domain:** business-management-strategy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.8/10.0 (gap=9.5, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Explain why technology adoption creates value only when firms redesign processes, skills, decision rights, data practices, incentives, and business models around the tool. Compare pilot selection, portfolio governance, build-buy-partner choices, legacy integration, workforce adoption, cybersecurity, measurement, scaling, and retirement, showing how local successes can fail at enterprise scale. Distinguish technology strategy as organizational execution from the technical design of the technology itself, and connect adoption to innovation management, organizational design, resource allocation, and operational learning.
-- **Status:** proposed
-
 ## Candidate: Integrated Financial Modeling -- Linking Statements, Operating Drivers, Scenarios, and Model Risk
 - **Domain:** finance
 - **Proposed by:** Librarian
