@@ -1,6 +1,6 @@
 # Books -- Topics
 
-15 topics. Anchor: [anchor-books.md](anchor-books.md)
+16 topics. Anchor: [anchor-books.md](anchor-books.md)
 
 - [A Random Walk Down Wall Street -- Why Most Investors Cannot Beat the Market and What to Do About It](a-random-walk-down-wall-street.md) -- [reviewed: 2026-09-09] -- A Random Walk Down Wall Street, first published by Burton G. Malkiel in 1973 and updated through thirteen editions, argues that stock prices follow a random walk -- future price changes cannot be predicted from past price movements -- making it nearly impossible for most investors to consistently outperform broad market indexes.
 
@@ -23,6 +23,8 @@
 - [The Black Swan -- Why We Are Blind to the Events That Shape History](the-black-swan-taleb.md) -- [reviewed: never] -- "The Black Swan: The Impact of the Highly Improbable" (2007) is Nassim Nicholas Taleb's argument that rare, high-impact, retrospectively explainable events drive history, markets, and science -- yet human cognition is structurally incapable of anticipating them. A Black Swan has three properties: it is an outlier beyond regular expectations, it carries extreme impact, and after it occurs we construct narratives that make it seem predictable in hindsight.
 
 - [The Intelligent Investor -- Benjamin Graham's Framework for Disciplined, Risk-Averse Investing That Has Outlived Every Market Cycle](the-intelligent-investor.md) -- [reviewed: never] -- Benjamin Graham's "The Intelligent Investor" (1949, revised through 2003 with Jason Zweig's commentary) is the foundational text of value investing -- a discipline built not on forecasting but on buying securities below their intrinsic value with a margin of safety. Warren Buffett calls it "by far the best book on investing ever written" and credits Chapters 8 ("Mr.
+
+- [The Outsiders -- How Eight CEOs Made Capital Allocation the Core of Corporate Leadership](the-outsiders-capital-allocation-and-corporate-leadership.md) -- [reviewed: never] -- William Thorndike's *The Outsiders* argues that a chief executive's decisive long-term work is not corporate promotion or growth for its own sake, but the allocation of cash and securities in ways that increase value per share [1][2]. Its eight retrospective case studies form a powerful pattern library for managers and investors, but the selected winners generate hypotheses rather than a causal formula that can identify the next exceptional CEO in advance [1][9].
 
 - [The Selfish Gene -- How Dawkins Reframed Evolution Around the Gene as the True Unit of Selection](the-selfish-gene.md) -- [reviewed: never] -- Richard Dawkins's The Selfish Gene (1976) reframed evolutionary biology by arguing that genes, not organisms or species, are the fundamental unit of natural selection. Organisms are temporary "survival machines" built by genes to propagate themselves into the next generation, and behaviors that appear altruistic -- from a mother risking her life for her child to sterile worker ants -- are explained as strategies that maximize the replication of shared genetic material.
 
