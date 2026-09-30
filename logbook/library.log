@@ -434,3 +434,9 @@ Wrote topic Evidence Law and Standards of Proof -- Governing What Factfinders Ma
 Similarity overlap: 30%.
 Sources: 16 (16 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-871] | 2026-09-30 18:45 UTC | Librarian | library | ref: library/technology/applied-cryptography-primitives-protocols-key-management.md | see: 20260930T173801Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Applied Cryptography Is Secure Only When Primitives, Protocols, and Key Lifecycles Align (technology): rewritten (corrected stale TLS, standards-status, denominator, and source-scope claims; updated sources and all mandatory sections)
+Domain coverage: reviewed across 1 domain.
