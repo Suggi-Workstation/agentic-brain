@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Investment Management Companies and GP Stakes -- Valuing the Firm Behind the Funds
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.6/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=9.3)
-- **Scope:** Explain how an investment manager differs economically from the funds it sponsors, separating management fees, performance fees and carried interest, balance-sheet investments, compensation, fundraising capacity, and operating costs. Examine minority GP-stakes transactions, governance and information rights, founder liquidity, succession, cross-fund conflicts, valuation, leverage, and exit routes across alternative-asset managers. Show how recurring-fee durability depends on investment performance, client concentration, fee compression, key people, and product cycles, and distinguish ownership of the management company from limited-partner interests in its funds.
-- **Status:** proposed
-
 ## Candidate: Operating Systems -- Coordinating Processes, Memory, Devices, and Isolation
 - **Domain:** technology
 - **Proposed by:** Librarian
