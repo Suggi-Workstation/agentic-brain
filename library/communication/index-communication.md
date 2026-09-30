@@ -1,6 +1,6 @@
 # Communication -- Topics
 
-16 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+17 topics. Anchor: [anchor-communication.md](anchor-communication.md)
 
 - [Data Visualizations Communicate Evidence Only When Encoding, Context, and Access Remain Verifiable](data-visualization-and-statistical-graphics.md) -- [reviewed: 2026-09-30] -- Data visualization turns values and relationships into spatial, visual, and interactive forms so an audience can compare evidence, detect structure, and make a decision. A chart is not truthful merely because its plotted numbers are correct: its encodings, scales, transformations, labels, uncertainty, narrative emphasis, accessibility, and provenance must preserve the meaning and limits of the underlying evidence [2][3][5][6].
 
@@ -27,6 +27,8 @@
 - [Semiotics and Meaning-Making -- How Signs and Symbols Create Systems of Meaning](semiotics-and-meaning-making.md) -- [reviewed: never] -- Semiotics explains communication as the production and interpretation of signs rather than the simple transfer of information. Its central claim is that words, images, gestures, objects, sounds, and layouts become meaningful through relations, conventions, contexts, and acts of interpretation, not through self-contained meanings embedded in the things themselves.
 
 - [Source Verification and Fact-Checking -- Accuracy Requires a Traceable Method Before Publication](source-verification-and-fact-checking.md) -- [reviewed: never] -- Source verification is the disciplined process of testing whether each publishable claim is supported by identifiable, relevant, and sufficiently independent evidence. It cannot certify absolute truth, but a repeatable workflow can show what was checked, what the available evidence supports, what remains uncertain, and how errors will be corrected [4][5][6][7].
+
+- [Technical Documentation Turns Complex Systems Into Reliable Action](technical-documentation-and-procedural-writing.md) -- [reviewed: never] -- Technical documentation succeeds when a defined user can find the right information, perform the intended task, recognize the result, and recover safely when reality diverges from the expected path. It is therefore an operational communication discipline: prose quality matters, but it is subordinate to task accuracy, usable structure, evidence, and lifecycle control.[1][2][9]
 
 - [The Medium Is the Message -- Why Communication Technologies Shape Thought More Than Any Content They Carry](the-medium-is-the-message.md) -- [reviewed: never] -- Marshall McLuhan's most famous and misunderstood insight -- "the medium is the message" -- asserts that the form of a communication medium shapes human cognition, social organization, and culture more profoundly than any individual message transmitted through it. Published in his 1964 book Understanding Media: The Extensions of Man, McLuhan's theory reframed communication not as a neutral conduit...
 
