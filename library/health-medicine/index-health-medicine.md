@@ -1,6 +1,6 @@
 # Health Medicine -- Topics
 
-16 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
+17 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
 
 - [AI in Medicine and Diagnostics -- How Deep Learning Reached Clinician-Level Accuracy and Why Clinical Deployment Still Lags the Benchmarks](ai-in-medicine-and-diagnostics.md) -- [reviewed: 2026-09-23] -- AI in medicine and diagnostics applies machine learning to images, text, and structured records to detect, classify, or triage disease. On narrow imaging tasks, controlled studies have shown performance comparable with specialists, and a direct count of unique submission identifiers in the US Food and Drug Administration's (FDA's) September 4, 2026 public list yields 1,614 authorized AI-enabled devices ([1] [2] [5]).
 
@@ -9,6 +9,8 @@
 - [Chronic Disease Management -- Why Cardiovascular Disease and Diabetes Require Systemic Prevention Over Reactive Treatment](chronic-disease-cvd-diabetes.md) -- [reviewed: 2026-09-24] -- Cardiovascular disease (CVD) and diabetes are overlapping but distinct chronic-disease burdens: CVD caused an estimated 19.8 million deaths in 2022, while the International Diabetes Federation estimated that 589 million adults aged 20-79 were living with diabetes in 2024 [1][2]. Their intersection matters because hyperglycaemia, hypertension, abnormal lipids, obesity, smoking, kidney disease, and...
 
 - [Clinical Trials and Evidence-Based Medicine -- Trust Depends on Alignment From Question to Cumulative Review](clinical-trials-and-evidence-based-medicine.md) -- [reviewed: never] -- Clinical trials do not become trustworthy through randomization, large enrollment, or statistical significance alone. A credible estimate aligns a defined treatment question with eligible participants, a control, protected allocation, outcomes, follow-up, analysis, harms surveillance, and transparent reporting, then asks whether the estimate applies beyond the study [1][2][3][6].
+
+- [Diagnostic Reasoning Works When Tests Update Decisions Rather Than Replace Judgment](diagnostic-reasoning-and-medical-testing.md) -- [reviewed: never] -- Diagnostic reasoning is the iterative process of turning a patient's history, examination, prior risk, and test results into a working explanation and a safe next action. A test adds value only when its possible results can change a consequential decision; indiscriminate testing can instead create false reassurance, false alarms, incidental findings, harmful cascades, and neglected follow-up [2][3][10][11].
 
 - [Drug Development -- Attrition and Evidence, Not One Fixed Price Tag, Make Medicines Slow and Costly](drug-development-from-molecule-to-medicine.md) -- [reviewed: 2026-09-24] -- Drug development converts a biological hypothesis into a medicine whose identity, manufacturing quality, safety, and effectiveness are supported for a defined use. In a 2011-2020 industry dataset, 7.9% of programs entering Phase I reached US approval and successful programs averaged 10.5 years from Phase I to approval; cost estimates are less uniform, ranging from a $985 million median in one public-data study to a $2.
 
