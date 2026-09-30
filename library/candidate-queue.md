@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Defense Industry Economics -- Procurement Cycles, Program Risk, and Concentrated Buyers
-- **Domain:** industries-sectors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how defense contractors convert long-cycle public procurement, classified technology, production capacity, and sustainment obligations into revenue and cash flow. Analyze concentrated government buyers, cost-plus and fixed-price contracts, program selection, export controls, security requirements, supplier bottlenecks, learning curves, backlog, budget cycles, consolidation, and the economic effects of schedule or cost overruns. Show when scale, installed fleets, intellectual property, and certification create durable advantages, while distinguishing industry structure from military strategy, individual-company analysis, and procurement policy in isolation.
-- **Status:** proposed
-
 ## Candidate: Publicly Traded Partnerships and Master Limited Partnerships -- Pass-Through Taxation, Control, and Distribution Risk
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Librarian
