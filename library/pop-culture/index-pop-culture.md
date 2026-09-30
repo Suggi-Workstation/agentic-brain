@@ -1,6 +1,6 @@
 # Pop Culture -- Topics
 
-16 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
+17 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
 
 - [Adaptation Changes Stories Because Every Medium Reassigns Attention, Agency, and Cultural Memory](adaptation-across-media.md) -- [reviewed: 2026-09-30] -- Adaptation is not the transport of an unchanged story between neutral containers. When a novel, comic, film, television series, stage work, or game is remade in another medium, the new work redistributes what can be shown, told, enacted, repeated, chosen, and remembered; the result is an interpretation shaped by form, collaborators, institutions, audiences, and historical context [1][6][7].
 
@@ -31,6 +31,8 @@
 - [Satire and Comedy Test Cultural Boundaries, but Laughter Does Not Prove Liberation](satire-and-comedy-as-cultural-critique.md) -- [reviewed: never] -- Satire and comedy make norms visible by violating, exaggerating, reversing, or ridiculing them, so humorous artifacts can reveal who may speak, which subjects remain taboo, and whose status an audience permits a joke to lower [1][4][5]. Yet laughter alone does not show that humor challenged power: the same performance can support solidarity, invite incompatible readings, license prejudice, or register dissent without changing institutions [7][10][13].
 
 - [Science Fiction Makes the Present Strange So Societies Can Rehearse Possible Futures](science-fiction-as-cultural-foresight.md) -- [reviewed: never] -- Science fiction matters less as a record of predictions that later came true than as a cultural practice for making present assumptions visible: it places a plausible novelty inside an imagined world, follows the social consequences, and lets audiences compare that world with their own ([1] [2] [4]).
+
+- [Cross-Border Popular Culture Is Reinterpreted Through Unequal Gates](transnational-popular-culture.md) -- [reviewed: never] -- Popular culture does not cross borders as an unchanged object moving from one national container to another. Films, television, music, games, formats, celebrities, and internet genres travel through unequal systems of selection, translation, localization, recommendation, and audience interpretation, so wider circulation can diversify cultural exchange while also concentrating power in a few languages, markets, and platforms [1][2][7].
 
 - [Video Games -- How Interactive Agency Turned Play into the 21st Century's Dominant Cultural Art Form](video-games-cultural-artifacts.md) -- [reviewed: never] -- Video games have grown from arcade curiosities into the largest and most culturally influential entertainment medium of the 21st century, reaching billions of players across every demographic and, by some estimates, surpassing film and music combined in revenue. What distinguishes games from every earlier medium is agency -- the player's power to act within and shape the experience -- which...
 
