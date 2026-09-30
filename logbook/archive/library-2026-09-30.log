@@ -113,3 +113,112 @@ Similarity overlap: 18%.
 Sources: 11 (11 high, 0 medium, 0 low).
 Cross-references: 3 topics.
 
+
+<!-- Appended 2026-09-30 07:19 UTC -- ENT-762 to ENT-776 -->
+
+## [ENT-762] | 2026-09-29 12:01 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 4 domains scanned, 4 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Climate Ethics and Intergenerational Justice -- Sharing Duties Across Time, Borders, and Unequal Contributions (9.9): gap=9.8, compounding=9.9, timeliness=10.0, balance=10.0
+- Historiography and Historical Method -- How Sources, Archives, and Narrative Support Claims About the Past (9.9): gap=9.9, compounding=9.8, timeliness=9.8, balance=10.0
+- Digital Transformation and Technology Adoption -- Turning New Tools Into Organizational Capability (9.8): gap=9.5, compounding=9.8, timeliness=10.0, balance=10.0
+- Integrated Financial Modeling -- Linking Statements, Operating Drivers, Scenarios, and Model Risk (9.7): gap=9.7, compounding=9.8, timeliness=9.3, balance=10.0
+Domain balance: business-management-strategy, ethics-philosophy, finance, and history (14 topics each) to the same four domains (14 topics each).
+
+## [ENT-763] | 2026-09-29 12:19 UTC | Librarian | library | ref: library/education-learning/comparative-education-systems.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Comparative Education Systems -- Institutional Choices Shape Both Achievement and Its Distribution (education-learning): rewritten (corrected PISA, tracking, assessment, teacher, VET, governance, and well-being claims; reconciled citations and updated all mandatory sections and sources).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-764] | 2026-09-29 12:21 UTC | Librarian | library | ref: library/portfolio-risk-management/sequence-of-returns-risk-and-withdrawal-portfolios.md | see: 20260929T121312Z
+Wrote topic Sequence-of-Returns Risk and Withdrawal Portfolios -- Why Return Order Determines Decumulation Outcomes to portfolio-risk-management. Weighted score: 9.8/10.0
+(core=9.8, scope=9.7, value=9.8, authority=9.7).
+Similarity overlap: 45%.
+Sources: 18 (18 high, 0 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-765] | 2026-09-29 12:42 UTC | Librarian | library | ref: library/science/chemical-kinetics-and-reaction-mechanisms.md | see: 20260929T123631Z
+Wrote topic Chemical Kinetics and Reaction Mechanisms -- How Molecular Pathways Determine Reaction Rates to science. Weighted score: 9.8/10.0
+(core=9.8, scope=9.8, value=9.7, authority=9.6).
+Similarity overlap: 24%.
+Sources: 18 (17 high, 1 medium, 0 low).
+Cross-references: 3 topics.
+
+## [ENT-766] | 2026-09-29 13:10 UTC | Librarian | library | ref: library/science/classical-mechanics.md | see: 20260929T130434Z
+Wrote topic Classical Mechanics -- Motion, Forces, Conservation Laws, and the Limits of Newtonian Models to science. Weighted score: 9.7/10.0
+(core=9.7, scope=9.6, value=9.8, authority=9.8).
+Similarity overlap: 28%.
+Sources: 12 (12 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-767] | 2026-09-29 13:19 UTC | Librarian | library | ref: library/portfolio-risk-management/currency-hedging-in-global-portfolios.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Currency Hedging in Global Portfolios -- The Right Hedge Preserves the Asset Diversification an Investor Actually Wants (portfolio-risk-management): rewritten (corrected source identity, sample, scope, denominator, formula, unit, and attribution mismatches; updated Background, Core Concepts, Evidence, Implications, Common Pitfalls, and Sources).
+Domain coverage: reviewed across 1 domain.
+
+## [ENT-768] | 2026-09-29 13:48 UTC | Librarian | library | ref: library/education-learning/numeracy-development-and-number-sense.md | see: 20260929T134356Z
+Wrote topic Numeracy Development and Number Sense -- Building Quantitative Meaning Before Procedures to education-learning. Weighted score: 9.8/10.0
+(core=9.8, scope=9.8, value=9.7, authority=9.8).
+Similarity overlap: 31%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-769] | 2026-09-29 14:01 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 4 domains scanned, 4 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Data Visualization and Statistical Graphics -- Encoding Evidence for Accurate Interpretation (9.8): gap=9.8, compounding=9.8, timeliness=9.7, balance=10.0
+- Agent Uncertainty, Verification, and Abstention -- Knowing When to Check, Ask, or Stop (9.7): gap=9.3, compounding=9.9, timeliness=10.0, balance=10.0
+- Commitment Devices and Accountability Systems -- Designing Follow-Through Without Coercion (9.5): gap=9.3, compounding=9.6, timeliness=9.2, balance=10.0
+- The Outsiders -- How Eight CEOs Made Capital Allocation the Core of Corporate Leadership (9.3): gap=9.2, compounding=9.7, timeliness=8.7, balance=10.0
+Domain balance: books, coding-agentic-ai, communication, and self-improvement (14 topics) to the same four domains (14 topics).
+
+## [ENT-770] | 2026-09-29 14:41 UTC | Librarian | library | ref: library/business-management-strategy/management-control-systems.md | see: 20260929T143638Z
+Wrote topic Management Control Systems -- Translating Strategy Into Measures, Feedback, and Corrective Action to business-management-strategy. Weighted score: 9.9/10.0
+(core=9.9, scope=9.9, value=9.7, authority=9.9).
+Similarity overlap: 38%.
+Sources: 19 (19 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-771] | 2026-09-29 14:55 UTC | Librarian | library | ref: library/science/chemical-kinetics-and-reaction-mechanisms.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Chemical Kinetics Makes Mechanisms Testable -- Reaction Rates Constrain but Do Not Uniquely Reveal Molecular Pathways (science): rewritten (corrected rate and order terminology, Arrhenius-Eyring conventions, mechanism-inference methods, enzyme and atmospheric evidence, combustion scope, transport, identifiability, and citation scope; updated IUPAC, NIST, NASA JPL, sources, evidence, implications, and cross-reference).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-772] | 2026-09-29 15:09 UTC | Librarian | library | ref: library/communication/public-speaking-and-presentation-design.md | see: 20260929T150545Z
+Wrote topic Public Speaking and Presentation Design -- Turning Spoken Ideas Into Audience Understanding and Action to communication. Weighted score: 9.8/10.0
+(core=9.8, scope=10.0, value=9.4, authority=9.5).
+Similarity overlap: 35%.
+Sources: 12 (12 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-773] | 2026-09-29 15:31 UTC | Librarian | library | ref: library/science/classical-mechanics.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Classical Mechanics Predicts Motion by Combining Laws, Initial Conditions, and Controlled Idealizations (science): rewritten (corrected 3 factual/source mismatches, updated 5 claims and 6 sources).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-774] | 2026-09-29 15:40 UTC | Librarian | library | ref: library/earth-climate/volcanology-magma-eruptions-monitoring-and-cascading-hazards.md | see: 20260929T153521Z
+Wrote topic Volcanology -- Magma, Eruptions, Monitoring, and Cascading Hazards to earth-climate. Weighted score: 9.9/10.0
+(core=10.0, scope=10.0, value=9.4, authority=9.8).
+Similarity overlap: 30%.
+Sources: 14 (14 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-775] | 2026-09-29 16:02 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 3 candidates proposed, 3 skipped (queue capped at 25).
+Candidates:
+- Human Factors Engineering and Ergonomics -- Designing Physical Systems for Human Capabilities and Limits (9.8): gap=9.7, compounding=9.8, timeliness=9.7, balance=10.0
+- Working Capital Management and the Cash Conversion Cycle -- Financing Operations Without Hiding Liquidity Risk (9.7): gap=9.5, compounding=9.8, timeliness=9.5, balance=10.0
+- The Protestant Reformation and Wars of Religion -- Print, Confession, and State Power in Early Modern Europe (9.6): gap=9.8, compounding=9.7, timeliness=9.0, balance=10.0
+Domain balance: books, engineering-infrastructure, ethics-philosophy, finance, history, and self-improvement (14 topics each) to the same six domains (14 topics each).
+
+## [ENT-776] | 2026-09-29 16:12 UTC | Librarian | library | ref: library/ethics-philosophy/business-ethics-corporate-moral-responsibility.md | see: 20260929T160550Z
+Wrote topic Business Ethics and Corporate Moral Responsibility -- Profit, Stakeholders, and Duties Beyond Compliance to ethics-philosophy. Weighted score: 9.7/10.0
+(core=9.8, scope=9.7, value=9.6, authority=9.6).
+Similarity overlap: 32%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 7 topics.
+
