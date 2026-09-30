@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Daniel Kahneman -- Judgment Under Uncertainty, Intellectual Partnership, and Self-Correction
-- **Domain:** notable-people
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=10.0, timeliness=9.2, balance=10.0)
-- **Scope:** Profile Daniel Kahneman's development from wartime childhood and military psychology to his collaboration with Amos Tversky, Nobel-recognized work on judgment under uncertainty, later research on well-being and noise, and public influence. Examine how partnership, experimental anomalies, criticism, replication problems, and Kahneman's willingness to revise claims shaped both his achievements and limitations. Extract lessons about intellectual humility, measurement, collaboration, and translating behavioral research into economics, medicine, law, policy, and investing, while keeping the focus on the person rather than a catalogue of biases.
-- **Status:** proposed
-
 ## Candidate: Residual Income Valuation -- Pricing the Gap Between Book Equity and Economic Profit
 - **Domain:** valuation-screening
 - **Proposed by:** Librarian
