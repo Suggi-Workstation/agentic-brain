@@ -6,410 +6,253 @@ domain: probabilistic-thinking-forecasting
 author: Researcher-1
 tags: [calibration, overconfidence, dunning-kruger, tetlock, metacognition, confidence-intervals, brier-score]
 links: [library/probabilistic-thinking-forecasting/superforecasting.md, library/probabilistic-thinking-forecasting/bayesian-reasoning.md, library/probabilistic-thinking-forecasting/inside-outside-view.md, library/psychology-behavior/cognitive-biases.md]
+reviewed: 2026-09-30
 ---
 
-# Calibration and Overconfidence -- Why Most People Are Far More Confident Than They Are Correct, and How to Fix It
+# Calibration and Overconfidence -- Confidence Becomes Useful Only When It Is Scored Across Comparable Cases
 
-Calibration is the alignment between subjective confidence and
-objective accuracy: when you say you are 70% sure, you should be right
-roughly 70% of the time. Most people are catastrophically miscalibrated
--- they claim 90% confidence on judgments that turn out correct barely
-50% of the time. This systematic overconfidence is not a minor quirk;
-it is one of the most robust and consequential findings in the
-judgment-and-decision-making literature. The good news, established
-by decades of research from Philip Tetlock, the Good Judgment Project,
-and the metacognition literature, is that calibration is a trainable
-skill. Anyone willing to track predictions, sit with uncertainty, and
-confront their own error can learn to match confidence to reality.
+Calibration asks whether stated probabilities match observed frequencies across a defined set of comparable forecasts. It is not the same as confidence, accuracy, discrimination, sharpness, or a low aggregate score, and a single outcome cannot establish it [1][5][13]. Overconfidence is likewise not one universal tendency: overestimation, overplacement, and overprecision are distinct and can move in different directions across tasks [7].
 
 ## Background
 
-The study of calibration began in earnest in the 1970s, when
-psychologists Sarah Lichtenstein and Baruch Fischhoff asked a
-deceptively simple question: when people say they are certain, are
-they actually right? In a series of experiments, they asked
-participants to answer general knowledge questions and then state
-their confidence in each answer as a probability. The results were
-striking. When participants said they were 100% certain, they were
-correct only about 80% of the time. At the 90% confidence level,
-accuracy hovered around 65%. The pattern was consistent:
-overconfidence was pervasive, and it grew worse as certainty
-increased.
+Probability language becomes testable only when a forecast is connected to a later observation. A claim that an event has a 70 percent chance cannot be judged from one resolution: occurrence and nonoccurrence are both compatible with the claim. Calibration instead concerns a series. Among sufficiently comparable cases assigned about 70 percent, a calibrated forecasting process should see the event occur about 70 percent of the time. Lichtenstein and Fischhoff formalized this frequency-matching definition for subjective judgments and separated it from resolution, the ability to assign meaningfully different probabilities to cases with different outcome frequencies [1]. Modern reliability-diagram research uses the same definition for probabilistic classifiers [13].
 
-Lichtenstein and Fischhoff (1977) demonstrated that this was not a
-failure of intelligence or education. Graduate students, doctors, and
-experts all showed the same pattern. What made their work foundational
-was the demonstration that calibration could be improved through
-feedback: when participants received immediate information about
-whether their answers were correct, their calibration improved
-substantially. The implication was that overconfidence was not a fixed
-personality trait but a skill deficit -- one that could be corrected
-with practice and honest feedback.
+The formal scoring tradition came from weather forecasting. Brier proposed a quadratic probability score in 1950 for mutually exclusive and exhaustive weather outcomes [3]. Murphy later partitioned the probability score into terms associated with uncertainty, reliability, and resolution, making clear that one mean error can arise from different combinations of environment and forecast behavior [4]. Proper-scoring-rule theory generalized the incentive principle: a strictly proper rule makes an assessor's believed distribution the unique report that optimizes expected score, under the rule's assumptions [5]. Properness disciplines reporting; it does not prove that the underlying belief is well informed, that the question is useful, or that the resulting forecast has decision value [5].
 
-The calibration research took a dramatic turn in the 1990s and 2000s
-with the work of Philip Tetlock. His twenty-year study of expert
-political judgment (1984-2005) revealed that professional forecasters
--- political scientists, economists, and intelligence analysts -- were
-barely more accurate than random guessing on long-range predictions.
-More importantly, the experts who appeared most confident on television
-were systematically the least accurate. Tetlock's "foxes" -- thinkers
-who held multiple frameworks, updated their views, and expressed
-appropriate uncertainty -- consistently outperformed "hedgehogs," who
-doubled down on a single big theory with high confidence.
+The psychology of confidence developed beside this measurement work. Lichtenstein and Fischhoff's 1977 experiments examined confidence in answers to knowledge and recognition tasks. Their abstract reports moderate overall calibration, systematic biases that varied with item difficulty, and overconfidence as the most common bias in those tasks; it also distinguished calibration from resolution [1]. Their later training experiments used repeated probability assessments and comprehensive feedback. Performance improved substantially, much of the change followed the first feedback, and transfer was modest to some related tasks and absent on two others [2]. Those findings support the possibility of learned calibration under feedback, but not the stronger claim that one generic exercise transfers to every domain.
 
-The calibration paradigm reached its fullest expression in the Good
-Judgment Project (2011-2015), an IARPA-sponsored forecasting tournament
-in which Tetlock and Barbara Mellers demonstrated that ordinary
-volunteers, when selected for cognitive style and trained in
-probabilistic reasoning, could outperform intelligence analysts with
-access to classified information. The very best performers --
-superforecasters, roughly 2% of participants -- achieved near-perfect
-calibration: their 70% predictions came true 70% of the time, their
-90% predictions came true 90% of the time. Calibration was not an
-abstract ideal; it was an achievable standard.
+The word overconfidence accumulated several incompatible meanings. Moore and Healy separated three: overestimation of one's absolute performance, overplacement of oneself relative to others, and overprecision in the width or concentration of one's beliefs [7]. In their experiment, 82 participants completed repeated easy, medium, and hard trivia quizzes and reported probability distributions for their own and another participant's scores. Participants underestimated absolute performance on easy quizzes, overestimated it on hard quizzes, overplaced themselves on easy quizzes, and underplaced themselves on hard quizzes; their distributions nevertheless showed overprecision [7]. A statement that "people are overconfident" is therefore incomplete unless it names the target, comparator, elicitation method, task, and form of error.
 
-A parallel discovery emerged from social psychology. In 1999, Justin
-Kruger and David Dunning published "Unskilled and Unaware of It," a
-paper that demonstrated a compounding tragedy: the people who perform
-worst on a task are also the least able to assess their own
-performance. Incompetence deprives people of the metacognitive skill
-needed to recognize their incompetence. Conversely, top performers tend
-to underestimate their relative standing -- not because they lack
-confidence, but because they assume tasks that are easy for them are
-easy for everyone. The Dunning-Kruger effect is not a statement about
-"stupid people thinking they are smart." It is a statement about
-calibration: skill and the ability to self-assess that skill are the
-same underlying capacity, and when the former is absent, so is the
-latter.
+Forecasting tournaments moved calibration from short laboratory tasks into repeated geopolitical questions. The Good Judgment Project used explicit probabilities, defined resolutions, repeated updating, and Brier scores. The original tournament analysis reported that probability training, team collaboration, and tracking high performers improved calibration and resolution [10]. A follow-up selected top performers into elite teams and found that their accuracy, calibration, and resolution advantages persisted over later tournament years, while also warning that selection, cognitive ability, motivation, updating effort, and enriched environments were entangled [11]. A later item-response reanalysis reported that controlling extraneous method variation substantially reduced, eliminated, or sometimes reversed estimated training and teaming effects on latent forecasting ability [12]. The responsible conclusion is narrower than the original topic: structured forecasting systems can produce measurable improvements, but causal attribution to any single ingredient remains contested.
+
+The Dunning-Kruger literature provides a second warning against slogans. Kruger and Dunning's four studies found that bottom-quartile participants on humor, grammar, and logic tasks substantially overestimated their percentile standing; in one logical-reasoning study, participants at the 12th percentile estimated their test performance at the 62nd percentile [8]. The authors proposed a "dual burden" in which weak task skill also impaired recognition of error. A preregistered 2022 study used separate baseline and test blocks, trial-level confidence, signal-detection measures, and path analysis. It reproduced the familiar negative relation between skill and global estimation error, but found no lower metacognitive efficiency among poor performers, found that poor performers were less rather than more confident, and attributed the pattern mainly to performance and regression effects rather than to the proposed dual burden [9]. The classic result and its mechanism must therefore be reported separately.
+
+Calibration is best understood as a measurement contract. The forecaster must state a probability before resolution; the event, horizon, information cutoff, and outcome rule must be fixed; and evaluation must preserve the full eligible set rather than memorable wins or losses. The evaluator then needs enough comparable cases to estimate conditional frequencies, a declared scoring convention, and uncertainty around the diagnostics. Without those elements, "well calibrated" is a reputation claim rather than an empirical result [5][13].
 
 ## Core Concepts
 
-### The Calibration Curve
+### Calibration is conditional frequency agreement
 
-The calibration curve is the graphical representation of the
-relationship between stated confidence and actual accuracy. On the
-x-axis is the forecaster's expressed probability (0% to 100%). On the
-y-axis is the observed relative frequency of correctness at each
-confidence level. A perfectly calibrated forecaster traces the 45-degree
-identity line: 60% confidence = 60% accuracy. Most people trace a curve
-that sits below the identity line, reflecting overconfidence. The
-further the curve is from the diagonal, the worse the calibration.
+For binary events, let `p` be the issued probability and `o` the later outcome, coded 1 if the event occurs and 0 otherwise. Calibration asks whether the conditional event frequency agrees with the issued probability: cases assigned near `p` should resolve positively at a frequency near `p`. A reliability diagram displays observed event frequency against forecast probability; perfect calibration lies on the diagonal [1][13]. The claim belongs to a forecasting process on a case set, not to one isolated forecast.
 
-A rarer pattern is underconfidence, where the curve sits above the
-diagonal -- people are correct more often than their confidence
-suggests. Underconfidence is most commonly observed at very low
-confidence levels (below 30%) and among highly trained experts in
-domains with clear performance feedback. Expert bridge players, weather
-forecasters, and some specialized physicians show excellent calibration,
-often with slight underconfidence because they are acutely aware of
-what they do not know.
+Grouping matters. Forecasts may be discrete, such as a platform restricted to multiples of 5 percent, or nearly continuous, with most values unique. Classical reliability diagrams group values into bins, but the number and boundaries of those bins can change the apparent curve. Dimitriadis, Gneiting, and Jordan demonstrated that diagrams using 9, 10, and 11 equally spaced bins could look substantially different on the same forecast data. They developed the CORP method to automate monotone binning and add consistency or confidence bands [13]. The general lesson does not require adopting one estimator: publish the grouping method, sample sizes, and uncertainty, and do not treat an unstable visual deviation as a discovered psychological bias.
 
-The calibration curve reveals a second dimension beyond simple
-overconfidence: discrimination, or resolution. Discrimination measures
-whether a forecaster assigns systematically higher probabilities to
-events that occur and lower probabilities to events that do not. You
-can be well-calibrated (your 50% predictions come true half the time)
-but have zero discrimination (you assign 50% to everything). The ideal
-forecaster maximizes both calibration and discrimination.
+Calibration can also be assessed at different levels. Calibration-in-the-large asks whether the average forecast matches the overall event rate. Local or conditional calibration asks whether observed frequencies track issued probabilities across the scale or relevant subgroups. A forecaster may look calibrated in aggregate while failing within horizons, topics, or regimes. Conversely, a small subgroup can appear miscalibrated through sampling noise. The author's synthesis is that any calibration statement should name the forecast set, period, probability range, grouping or smoothing rule, and dependence assumptions [5][6][13].
 
-### The Brier Score: Measuring Calibration Quantitatively
+### Calibration does not equal resolution, discrimination, or sharpness
 
-The Brier score, introduced by meteorologist Glenn Brier in 1950, is
-the standard metric for evaluating probabilistic forecasts. For a
-single forecast with stated probability p and outcome o (1 if the event
-occurs, 0 if it does not), the Brier score is (p - o)^2. For a set of
-N forecasts, it is the mean of these squared errors.
+A process that always predicts the unconditional base rate can be calibrated while contributing little case-specific information. Resolution asks whether the forecast sorts cases into groups with different outcome frequencies. Discrimination asks whether forecast values separate events from nonevents. Sharpness describes the concentration of predictive distributions without using outcomes and is desirable only subject to calibration [4][6]. These properties answer different questions.
 
-The Brier score ranges from 0 (perfect forecasting) to 1 (worst
-possible). A forecaster who always says 50% achieves a Brier score of
-0.25 regardless of outcomes -- this is the baseline of maximum
-uncertainty. A forecaster who says 100% on everything and gets half
-wrong achieves 0.5. Superforecasters in the Good Judgment Project
-achieved Brier scores around 0.10 to 0.15 over thousands of forecasts.
+Consider a balanced set in which half the events occur. A constant 50 percent forecast is calibrated at the aggregate level and has no resolution. A second forecaster may issue values near 20 and 80 percent that reliably separate cases; if the corresponding outcome frequencies match, that forecaster has both calibration and resolution. A third may issue the same sharp values without frequency agreement and be overconfident. Evaluating only the calibration diagonal rewards the first process for caution while ignoring that it does not distinguish cases. Evaluating only extremity rewards the third for unsupported confidence. Proper scores and decompositions help keep the properties separate [4][5][13].
 
-The power of the Brier score lies in its decomposition. Statistically,
-the Brier score can be split into three terms: calibration (reliability),
-resolution (discrimination), and uncertainty (the inherent
-unpredictability of the events). This decomposition lets you diagnose
-exactly why a forecaster is underperforming: are they miscalibrated
-(overconfident or underconfident), or do they simply lack
-discrimination (all forecasts cluster around the same probability)?
+For continuous outcomes, calibration also has multiple definitions. Gneiting, Balabdaoui, and Raftery distinguished probabilistic, exceedance, and marginal calibration and proposed the principle of maximizing sharpness subject to calibration [6]. A predictive interval can obtain high coverage by being extremely wide, just as a binary forecaster can remain near the base rate. Informative uncertainty requires both empirical consistency and useful concentration.
 
-A forecaster who is always 90% confident and correct only 70% of the
-time has a large calibration error. A forecaster who is always 50%
-confident on everything eliminates calibration error entirely but has
-zero resolution -- they provide no information. The Brier score
-penalizes both failures, but it penalizes miscalibration more heavily
-at extreme probabilities: being 99% sure and wrong is far more costly
-than being 55% sure and wrong, because the squared error (0.99)^2 vs.
-(0.55)^2 is vastly larger.
+### The Brier score measures overall probability error
 
-### The Overconfidence Effect: Why It Happens
+Under the common event-only convention for a binary forecast, the Brier loss is:
 
-Overconfidence is not a single phenomenon but a cluster of related
-effects, each with distinct mechanisms. Understanding which type of
-overconfidence is operating is essential for correcting it.
+`BS = (p - o)^2`
 
-**Overprecision** is the tendency to be too certain that one's
-judgments are accurate. It is most commonly measured through confidence
-interval exercises: participants are asked to provide a 90% confidence
-interval for an unknown quantity (e.g., the length of the Nile River),
-and the interval captures the true value far less than 90% of the time.
-Typical hit rates are 40-60% even when participants are explicitly
-instructed to aim for 90%. Overprecision is the most robust form of
-overconfidence and is highly resistant to debiasing.
+A 70 percent forecast scores 0.09 if the event occurs and 0.49 if it does not; lower is better. Averaging across resolved forecasts produces a mean loss between 0 and 1 under this convention [3][5]. Brier's original multicategory form sums the squared errors for every mutually exclusive outcome. For a two-outcome event, that full-vector convention is twice the event-only value and ranges from 0 to 2. Published scores are not comparable until the outcome representation, scale, weighting, and orientation are stated [3][5].
 
-**Overestimation** is the tendency to believe one performs better than
-one actually does. Students consistently overestimate their exam scores.
-Entrepreneurs overestimate their chances of success (roughly 80% of
-founders believe they will succeed; roughly 80% fail). Drivers rate
-themselves as above-average. Overestimation is partly driven by
-motivated cognition -- people want to believe they are competent -- and
-partly by the difficulty of acquiring accurate comparative data about
-oneself.
+A constant 50 percent binary forecast has event-only loss 0.25 on every case, but 0.25 is not a universal benchmark. If the event rate is 10 percent, a constant forecast equal to that base rate has expected loss 0.09. Skill must therefore be assessed against an appropriate reference forecast on the same cases, not against a context-free number. The reference may be an unconditional base rate, a conditional climatology, a simple model, or an existing operational forecast; the choice changes the claim [4][5].
 
-**Overplacement** is the tendency to believe one ranks higher than
-others on some dimension. The classic "better-than-average effect" --
-93% of American drivers rate themselves above the median, a
-mathematical impossibility -- is overplacement. Unlike overprecision
-and overestimation, overplacement can sometimes be reversed: on tasks
-perceived as difficult (e.g., juggling, computer programming among
-novices), people rate themselves below average. This "worse-than-average
-effect" suggests that placement judgments are sensitive to perceived
-task difficulty.
+The Brier score is strictly proper for the stated binary probability, but it combines several properties. In the lower-is-better convention, Murphy's familiar decomposition can be written conceptually as:
 
-### The Dunning-Kruger Effect: When Incompetence Blinds Itself
+`Brier loss = uncertainty - resolution + reliability penalty`
 
-The Dunning-Kruger effect describes a specific calibration failure: the
-least competent individuals in a domain dramatically overestimate their
-ability, while the most competent slightly underestimate theirs. In the
-original 1999 experiments, Kruger and Dunning tested participants on
-humor, logical reasoning, and English grammar. Across all three domains,
-participants in the bottom quartile of performance estimated they had
-performed above the 60th percentile. Their actual performance was at
-the 12th percentile. The gap was enormous.
+Uncertainty reflects outcome variability in the evaluated set. Resolution rewards useful separation among cases. Reliability penalizes mismatch between forecast probabilities and observed frequencies [4]. Empirical estimates depend on grouping, weighting, and sample size; modern decompositions such as CORP address some instability, but do not remove the need to disclose the evaluation design [13][15]. A lower score can result from better calibration, better resolution, an easier question set, different participation, or different time weighting [10][15].
 
-The mechanism is elegant and troubling. The skills needed to perform
-well in a domain -- knowledge of grammar rules, logical principles,
-what makes a joke funny -- are the same skills needed to evaluate
-whether one's own performance in that domain is any good. If you do not
-know what a valid syllogism looks like, you cannot tell whether your
-own attempted syllogism is valid. Incompetence is a double curse: it
-produces poor performance and simultaneously disables the metacognitive
-machinery needed to detect that poor performance.
+### Proper scoring does not make a forecast true
 
-Crucially, the Dunning-Kruger effect is not about intelligence or
-character. When Kruger and Dunning gave the bottom-quartile
-participants a brief training session in logical reasoning, two things
-happened. Their performance improved, and -- more importantly -- their
-self-assessments became dramatically more accurate. Training did not
-just teach logic; it taught the metacognitive skill of recognizing bad
-arguments, including one's own. The effect is not a statement that some
-people are hopelessly deluded. It is a statement that calibration is a
-learned skill that rides on top of domain competence.
+A strictly proper score makes honest reporting optimal in expectation for the forecaster's own belief [5]. That incentive property is narrower than epistemic quality. A person can report a sincere but poorly modeled probability, omit a live outcome, use a biased reference class, or forecast a badly defined event. The score can evaluate only the distribution and outcome supplied to it. It cannot repair a vague resolution rule or infer whether the research process was competent.
 
-### Metacognition and the Feeling of Knowing
+Scores also do not directly measure decision value. An action depends on probabilities plus consequences, costs, constraints, thresholds, and reversibility. Two forecast systems can have similar average Brier loss but differ near the probability threshold that triggers evacuation, investment, treatment, or inspection. Conversely, a statistically improved score may leave every action unchanged. The author's synthesis is to evaluate probability quality with a proper score and diagnostics, then evaluate decisions with an explicit consequence model; neither layer should substitute for the other [5].
 
-Metacognition -- thinking about thinking, knowing about knowing -- is
-the cognitive infrastructure on which calibration rests. Asher Koriat's
-cue-utilization framework (1997) explained that when people assess how
-well they know something, they do not directly inspect the strength of
-their memory. Instead, they rely on cues: how easily information comes
-to mind (fluency), how familiar the subject feels, how coherent the
-retrieved narrative is. These cues are informative but fallible. A
-well-rehearsed false narrative can feel more fluent than a fragmented
-true memory.
+### Overconfidence has three distinct targets
 
-The illusion of knowing arises when these cues are misleading. You
-re-read a chapter and it feels familiar, so you conclude you know it --
-but familiarity during reading is a poor predictor of recall during a
-test. Retrieval practice -- closing the book and trying to recall the
-material -- produces more accurate calibration because it forces you to
-experience the gap between recognition and recall. Desirable
-difficulties, a concept introduced by Robert Bjork, are learning
-conditions that feel harder in the moment (spaced practice,
-interleaving, testing) but produce more durable learning and more
-accurate self-assessment.
+Overestimation concerns an absolute quantity: predicted performance minus actual performance. Overplacement concerns relative standing: believed rank minus actual rank. Overprecision concerns excessive concentration: intervals, probability distributions, or confidence judgments that are narrower or more extreme than the evidence warrants [7]. The distinction prevents several errors.
 
-Calibration training in educational settings follows a simple formula:
-predict, test, compare, reflect. Before a quiz, students predict their
-score item by item. After the quiz, they compare predictions to
-outcomes. The gap is the calibration error. Repeating this cycle over
-weeks systematically narrows the gap, and the students who improve
-their calibration most also improve their performance most. Accurate
-self-assessment drives effective self-regulation: if you know you do
-not know the Krebs cycle, you study it. If you mistakenly believe you
-do, you skip it.
+First, overestimation and overplacement can reverse with task difficulty. Moore and Healy found underestimation paired with overplacement on easy tasks and overestimation paired with underplacement on hard tasks [7]. Second, confidence in one selected answer can combine overestimation and overprecision, so the elicitation method may not distinguish mechanisms. Third, a majority can be above an arithmetic average in a skewed distribution, although a majority cannot be above the median; "better than average" claims must identify the comparator [7]. Fourth, justified high confidence is not overconfidence. The empirical question is whether confidence exceeds the accuracy or precision warranted by a defined benchmark.
+
+### Calibration and metacognition are related but not identical
+
+Calibration is an external relation between forecasts and outcomes. Metacognition concerns information about one's own cognitive processing. A person may have trial-level sensitivity to which answers are likely correct yet give poor global estimates of total performance; conversely, a lucky global estimate need not demonstrate trial-level insight [9]. This distinction matters when interpreting the Dunning-Kruger pattern.
+
+Kruger and Dunning's original studies supplied evidence for large global self-estimation errors among low performers and for improvement after brief logic training [8]. McIntosh and colleagues later separated metacognitive sensitivity, metacognitive efficiency, and confidence bias. Their poor performers had lower metacognitive sensitivity because their first-order information was weaker, but not lower efficiency after accounting for available information. Their path models attributed the familiar relation between low skill and high estimation error mainly to performance scores and noisy global estimates [9]. This does not prove that low competence is never paired with unjustified confidence. It shows that quartile plots and global self-ratings do not, by themselves, identify a dual-burden mechanism.
+
+### Training is a feedback system, not a motivational slogan
+
+Calibration training requires resolvable questions, explicit probabilities, outcome feedback, and repeated comparison. Lichtenstein and Fischhoff's intensive experiments found substantial learning but limited transfer [2]. The Good Judgment Project combined probability training with teams, repeated updates, score feedback, selection, and aggregation; its original analysis found improvements in calibration and resolution [10]. Because these interventions and participant characteristics interacted, the later superforecaster study described high performers as partly discovered and partly created rather than as products of one drill [11]. The 2025 reanalysis further cautions that Brier-score improvements need not map cleanly to a latent ability effect once method variance is modeled [12].
+
+The author's synthesis is that feedback can improve measured performance on structured tasks and that some forecasting systems have sustained high calibration and resolution. Transfer across domains, persistence without continued feedback, and the causal contribution of each component require separate evidence. A prediction log without resolution is an archive; score feedback without comparable cases can reward noise; and confident use of more decimal places is not training unless the distinctions improve out-of-sample forecasts [2][10][11].
 
 ## Evidence
 
-Lichtenstein and Fischhoff (1977) provided the foundational
-demonstration that calibration is simultaneously terrible and
-improvable. In their experiments, participants' overconfidence was
-robust across knowledge domains, but a single session of outcome
-feedback -- telling participants whether their answer was correct after
-each question -- produced significant improvement. A subsequent study
-by Sharp, Cutler, and Penrod (1988) replicated the effect with
-extended feedback cycles: calibration continued to improve across
-multiple sessions, suggesting that the skill compounds with practice.
+### Early calibration experiments established the measurement problem
 
-Tetlock's Expert Political Judgment study (1984-2005) remains the
-largest longitudinal calibration study ever conducted. Tracking 284
-experts and roughly 28,000 predictions over two decades, Tetlock found
-that expert predictions were barely distinguishable from random chance
-on the hardest questions. When experts assigned probabilities of 80%
-or higher, the events they predicted occurred less than 60% of the
-time. The calibration curves for most experts were dramatically below
-the identity line. But the sub-group of experts who thought like foxes
--- probabilistic, self-critical, updating -- showed significantly
-better calibration than the hedgehogs. The cognitive style predicted
-accuracy independent of domain expertise, IQ, or political ideology.
+Lichtenstein and Fischhoff asked participants to answer tasks and attach probabilities to their judgments. Their 1977 paper defined perfect calibration as equality between an assigned probability and the true proportion among propositions receiving that probability. It separately defined resolution as successful discrimination among degrees of certainty. Across their experiments, participants were moderately calibrated, but the most common systematic direction was overconfidence, and calibration changed with item difficulty [1]. The method and findings reject two claims in the original topic: there is no source-supported universal ratio such as "90 percent confidence means 50 percent accuracy," and miscalibration is not invariant across tasks.
 
-The Good Judgment Project (2011-2015) demonstrated that calibration
-can be systematically trained at scale. Thousands of volunteer
-forecasters were randomly assigned to training conditions: some
-received instruction in probabilistic reasoning (base rates, Bayesian
-updating, avoiding cognitive biases), some were placed in teams, and
-some received both. The trained forecasters, especially those in teams,
-achieved Brier scores 30-40% better than the untrained control group.
-The top 2% -- superforecasters -- maintained near-perfect calibration
-across four years and hundreds of forecasts. Mellers, Stone, Atanasov,
-et al. (2015) documented that superforecaster performance was not a
-fluke: their calibration improved over time, suggesting deliberate
-practice effects, and they continued to outperform controls years after
-the formal tournament ended.
+Their 1980 training paper tested whether feedback could improve probability assessment. One experiment used 11 sessions of 200 assessments followed by comprehensive feedback; a second reduced training to three sessions. Considerable learning occurred, much of it after the first feedback, but generalization was modest to some related tasks and absent on two others [2]. This is direct evidence that calibration behavior can change. It is also direct evidence against promising automatic, domain-general transfer from one training format.
 
-Kruger and Dunning (1999) provided the evidence that calibration
-failure is most severe among the least competent. Across four studies
-with tasks ranging from logical reasoning to grammar to humor
-assessment, participants in the bottom quartile of performance
-overestimated their ability by an average of 40-50 percentile points.
-The effect was replicated with Cornell University undergraduates --
-not a population lacking confidence -- and has been reproduced across
-dozens of domains including financial literacy, medical
-self-diagnosis, political knowledge, and chess skill. A 2020
-meta-analysis confirmed the general pattern but noted that the effect
-size varies substantially by domain and that the asymmetry (bottom
-quartile overestimates, top quartile underestimates) is especially
-pronounced on tasks where performance feedback is absent or ambiguous.
+### Overconfidence taxonomy explains apparently contradictory results
 
-Field evidence for calibration training comes from intelligence and
-business settings. The U.S. intelligence community, stung by the Iraq
-WMD failure (a catastrophic calibration error in which analysts
-assigned near-certainty to incorrect assessments), adopted
-probabilistic training programs modeled on the Good Judgment Project.
-A 2016 study by Mellers, Tetlock, and colleagues published in
-Management Science tracked multi-year calibration improvements among
-professional intelligence analysts who received structured forecasting
-training. The analysts who participated showed sustained improvements
-in Brier scores and calibration curves compared to controls who
-received no training. In business, companies that adopted
-calibration-based forecasting -- requiring managers to assign explicit
-probabilities to revenue and project timelines and then score those
-predictions against outcomes -- reported reduced planning errors and
-more realistic capital allocation.
+Moore and Healy reviewed the literature and then measured overestimation, overplacement, and overprecision within one repeated-task experiment. Eighty-two participants completed 18 ten-item trivia quizzes covering six topics, with easy, medium, and hard versions. Participants reported full probability distributions for their own score and for a randomly selected earlier participant's score [7]. This design allowed the three constructs to be observed separately rather than inferred from different studies.
+
+Absolute estimates were regressive toward expected performance: participants underestimated easy-quiz scores by 0.22 points on average, were approximately accurate on medium quizzes, and overestimated hard-quiz scores by 0.79 points. Relative judgments moved oppositely: participants overplaced themselves on easy quizzes and underplaced themselves on hard quizzes. Their nominal 90.5 percent score intervals contained the realized score 73.1 percent of the time, showing overprecision under that elicitation [7]. The result supports a conditional claim: task difficulty and the information structure can reverse overestimation and overplacement even while overprecision remains.
+
+### Forecasting tournaments show improvement and attribution limits
+
+The Good Judgment Project evaluated geopolitical probabilities under defined resolutions and repeated updates. The 2014 tournament paper reports that probability training, collaborative teams, and tracking top performers improved both calibration and resolution [10]. The 2015 superforecaster study selected 60 top performers into elite teams after Year 1 and compared their later performance with high-performing regular-team members and other forecasters. The selected group retained better standardized Brier scores, calibration, resolution, and discrimination in Years 2 and 3 [11].
+
+The same paper states important limits. Selection was based on earlier accuracy; superforecasters differed in cognitive measures, political knowledge, effort, update frequency, information use, and team environment; and the elite-team comparison was not a pure experimental estimate of team assignment [11]. Hauenstein and colleagues later reanalyzed the first two tournament years with item-response models. Their abstract reports that extraneous method variables substantially reduced, removed, or sometimes reversed estimated training and teaming effects on latent ability [12]. The combined evidence supports measured forecasting-system performance and persistent individual differences. It does not isolate a universal training effect or prove that ordinary forecasters become superforecasters through one component.
+
+### Dunning-Kruger findings do not settle their own mechanism
+
+Kruger and Dunning ran four studies involving humor, logic, and grammar. Bottom-quartile participants substantially overestimated their performance; the frequently cited 12th-versus-62nd percentile result came from one logical-reasoning study with 45 undergraduates, 11 in the bottom quartile [8]. A later experiment in the paper randomly gave 70 of 140 participants brief logic training. Among the initially lowest performers, training improved monitoring of correct and incorrect answers and reduced self-estimation error [8]. These studies established a pattern and supplied evidence consistent with a metacognitive explanation.
+
+McIntosh and colleagues preregistered a more direct test with 151 valid participants. They used separate baseline trials to measure skill, test trials to measure performance, trial-level confidence ratings, signal-detection measures of metacognitive sensitivity and efficiency, and global relative and absolute self-estimates [9]. The familiar negative relation between skill and estimation error reappeared. However, poorer performers were less confident, not more; metacognitive efficiency was not lower; and performance-only path models fit better than models assigning the pattern to metacognitive variables. The authors concluded that their data refuted the dual-burden account for this task and were compatible with noisy, regressive self-estimates plus general optimism or pessimism [9]. The broader evidence is contested, so neither the original mechanism nor the later refutation should be generalized beyond their designs without qualification.
+
+### Calibration diagrams require statistical discipline
+
+Dimitriadis, Gneiting, and Jordan studied reliability diagrams for binary probability forecasts. They showed that traditional bin-and-count plots could change sharply under small changes in bin number, with associated calibration measures inheriting the instability. Their CORP method used isotonic regression to select bins automatically, supplied uncertainty bands, and yielded an exact score decomposition under stated conditions [13]. The paper's practical contribution is not that every evaluator must use CORP. It demonstrates that visual calibration judgments are estimates with design choices and sampling uncertainty, not direct pictures of a forecaster's internal honesty or skill.
+
+Together these studies replace the original topic's dramatic generalizations with bounded findings. Miscalibration occurs, feedback can improve it, selected forecasters can sustain strong measured performance, and self-estimation can be seriously wrong. Yet magnitudes, directions, transfer, and mechanisms depend on the task, elicitation, case set, scoring convention, comparison group, and statistical method [1][2][7][9][10][11][12][13].
 
 ## Implications
 
-For individual decision-makers, the most actionable implication is that
-calibration is a trainable skill, not a fixed trait. The playbook is
-simple and backed by evidence: make explicit probabilistic predictions
-in a log, score them against outcomes using Brier scores, and review
-the calibration curve periodically. The mere act of keeping a
-prediction log reduces overconfidence because it forces you to confront
-the difference between what you thought would happen and what actually
-happened. Most people never do this, which is why their overconfidence
-persists indefinitely. A prediction log is a calibration gym -- the
-feedback loop that turns vague confidence into measurable accuracy.
+### For an individual forecaster
 
-Confidence interval exercises provide a fast, practical way to diagnose
-and reduce overprecision. Pick ten factual questions with verifiable
-answers. For each, provide a range where you are 90% confident the true
-value lies. If you are well-calibrated, nine of ten answers should fall
-within your ranges. Most people hit four to six on their first attempt
--- severe overprecision. Repeating the exercise weekly with different
-question sets typically narrows the gap within two to three months.
-This is not intelligence training; it is calibration training. The
-knowledge being tested (trivia) is less important than the skill being
-built (matching confidence to knowledge).
+The author's synthesis from the scoring, training, and reliability-diagram evidence is a prospective calibration protocol [2][5][10][13]:
 
-For organizations, calibration has profound implications for hiring,
-performance evaluation, and strategic planning. The Dunning-Kruger
-effect implies that the least competent candidates will be the most
-confident in interviews -- confidence is a weak signal of competence.
-Structured assessments with objective scoring outperform unstructured
-interviews precisely because they reduce the opportunity for
-miscalibrated confidence to masquerade as expertise. In performance
-evaluation, requiring employees to self-assess against objective metrics
-before receiving manager feedback -- the predict-receive-compare cycle
--- improves both self-awareness and subsequent performance.
+1. Define the event before forecasting. State mutually exclusive outcomes, the resolution date, the authoritative outcome source, and rules for ambiguity or cancellation.
+2. Record one probability distribution and timestamp. For a binary event, record `p` for the event and preserve the information cutoff.
+3. Preserve every eligible forecast. Do not select only memorable successes, extreme calls, or cases that resolved quickly.
+4. Resolve under the original rule. Keep pending, annulled, and disputed cases separate from scored cases.
+5. Declare the score convention. For Brier loss, state whether the event-only or full-vector form is used, which forecast version is scored, and how cases and time are weighted.
+6. Inspect more than one diagnostic. Report mean proper score, a baseline on the same cases, calibration with uncertainty, and resolution or discrimination.
+7. Stratify only with enough data and predeclared reasons. Horizon, topic, and probability range may expose local failures, but small cells should be labeled uncertain rather than turned into reputations.
+8. Change one practice at a time when possible. If question design, research access, team process, updating cadence, and aggregation all change together, the system may improve without revealing which component caused it.
 
-For forecasting and risk assessment, calibration is the difference
-between informed probability and dangerous certainty. A risk manager
-who says "this investment has a 95% chance of success" but whose 95%
-predictions actually succeed 70% of the time -- a common calibration
-gap -- is systematically underestimating risk. The expected value
-calculation built on that miscalibrated probability is wrong. In
-high-stakes domains -- intelligence, medicine, finance, nuclear safety
--- miscalibration is not an academic concern. It kills people and
-destroys capital. The solution is not to eliminate confidence but to
-calibrate it: to build systems that track predictions, score them
-honestly, and feed the results back to the decision-makers.
+A single failed 90 percent forecast is not proof of overconfidence; such events should occur about one time in ten under calibration. A single success at 10 percent is not proof of foresight. The learning unit is a defined series, and the review question is whether probability groups match frequencies while still separating cases. This discipline prevents outcome knowledge from converting every surprise into a story that the original forecast was irrational [1][13].
 
-A deeper philosophical implication concerns the relationship between
-confidence and competence in a society that rewards the former more
-visibly than the latter. The most confident voices in any public debate
--- the pundits who speak in certainties, the commentators who never
-admit error -- are statistically the least likely to be correct. The
-experts worth listening to express their views in probabilities,
-acknowledge uncertainty, and update when evidence changes. Calibration
-is not just a forecasting skill. It is an intellectual virtue: the
-disciplined alignment between what you believe and how strongly you
-believe it, maintained by the habit of checking.
+Calibration practice should also distinguish belief revision from score management. A forecaster should update when new evidence arrives, but preserve the earlier version and timestamp. Scoring only the final forecast measures near-resolution accuracy; scoring every day gives longer-lived questions more weight; scoring fixed horizons measures a different ability. None is automatically correct. The evaluation policy must follow the use case and be fixed before seeing outcomes [5][10][15].
+
+### For organizations
+
+Organizations should design a forecasting system rather than exhort employees to "be less confident." The system needs resolvable questions, protected dissent, independent initial estimates, a declared aggregation rule, feedback, and records that survive staff turnover. Training can teach probability language and reference-class use, but the evidence does not justify treating one workshop as permanent or domain-general calibration [2][10][12]. Periodic evaluation should test transfer on the organization's actual question types.
+
+Incentives require care. A strictly proper scoring rule aligns expected score with honest belief when rewards follow the score, but surrounding promotion, winner-take-all prizes, or blame can create different objectives [5][14]. If managers punish every low-probability event that occurs, forecasters will avoid honest tail probabilities. If they reward only bold correct calls, participants can gain status through selective extremity. The author's synthesis is to reward complete records, clear resolution contracts, justified updates, and long-run scoring rather than rhetorical certainty or individual anecdotes [5][14].
+
+Calibration reports should identify their unit of analysis. An individual forecast, team median, statistical aggregate, question-selection process, and complete research platform are different objects. The Good Judgment evidence shows that selection, motivation, updating, teamwork, and aggregation can coexist [10][11]; the later reanalysis shows why measured score improvements should not automatically be relabeled as latent individual ability [12]. Governance should attribute performance only to components tested by an appropriate comparison.
+
+### For investors and capital allocators
+
+The author's synthesis is to use calibration for bounded thesis variables rather than for the vague question "Was the investment right?" A purchase decision combines business quality, valuation, financing, downside, opportunity cost, portfolio construction, and time horizon. These can be separated into resolvable forecasts: revenue retention above a stated threshold, debt refinancing by a date, normalized margin within a range, or a named thesis break. Each forecast should preserve its source data, base rate, probability, update triggers, and resolution rule. Market price alone cannot identify which component of the original analysis was sound.
+
+A calibration record is most informative when definitions are stable across cases. Ten heterogeneous investments do not support a precise personal 10 percent bin, and a manager can appear calibrated by staying near broad base rates without identifying exceptional businesses. Review should therefore pair frequency agreement with resolution: did higher-conviction cases actually resolve more favorably than lower-conviction cases under the same definitions? The Brier score can summarize probability error, but comparisons require the same horizons, case eligibility, and benchmark [4][5][13][15].
+
+Decision value remains separate. The author's synthesis is that a 30 percent probability of permanent capital loss may dominate a 70 percent probability of gain if the loss is ruinous, while a 30 percent chance of a small reversible setback may be acceptable. Position size and margin of safety require payoffs and downside constraints, not calibration alone. Calibration improves one input to capital allocation; it does not replace valuation, incentives, balance-sheet analysis, or judgment about irreversibility.
+
+### For education and professional expertise
+
+Feedback should be tied to the exact skill being trained. The early calibration experiments found learning with limited transfer [2]. The original Dunning-Kruger training result improved recognition after participants learned relevant logical rules [8], while the later registered report challenged the general claim that poor performers possess inferior metacognitive efficiency [9]. A defensible educational design asks learners to predict performance before a test, records item-level confidence, returns outcome feedback, and checks whether gains persist on new material. It does not label low performers as constitutionally blind to their errors.
+
+Experts also need bounded claims. High confidence may be warranted in stable environments with repeated, timely feedback; low confidence may reflect difficult questions rather than virtue. Credentials alone do not establish calibration, and calibration in one domain does not transfer automatically to another [1][2]. Professional evaluation should compare forecasts with outcomes inside a defined domain and should report both successful discrimination and failures.
+
+### Common failure modes and stopping rule
+
+The first failure is retrospective reconstruction: assigning a probability after learning the result. The second is an undefined event that can be reworded at resolution. The third is selective inclusion of dramatic cases. The fourth is comparing Brier scores computed under different conventions or case weights. The fifth is reading a smooth calibration curve from sparse bins without uncertainty. The sixth is treating calibration as the whole of forecast quality. The seventh is treating any self-estimation error as proof of a specific cognitive mechanism. Each failure breaks a different part of the measurement contract [5][9][13].
+
+The author's stopping rule is that evaluation is adequate when an independent reviewer can reproduce the eligible cases, forecast versions, outcomes, formula, weights, baseline, calibration diagnostic, uncertainty, and resolution measure. If those elements are unavailable, another decimal place does not create evidence. The correct conclusion is "not yet measurable," not "well calibrated" or "overconfident."
 
 ## Sources
 
-1. Lichtenstein, S. & Fischhoff, B. (1977). "Do those who know more
-   also know more about how much they know?" Organizational Behavior
-   and Human Performance, 20(2), 159-183.
+1. Lichtenstein, S., & Fischhoff, B. (1977). "Do Those Who Know More Also
+   Know More About How Much They Know?" Organizational Behavior and
+   Human Performance, 20(2), 159-183.
    https://doi.org/10.1016/0030-5073(77)90001-0 [high]
 
-2. Kruger, J. & Dunning, D. (1999). "Unskilled and unaware of it: How
-   difficulties in recognizing one's own incompetence lead to inflated
-   self-assessments." Journal of Personality and Social Psychology,
-   77(6), 1121-1134. https://doi.org/10.1037/0022-3514.77.6.1121 [high]
+2. Lichtenstein, S., & Fischhoff, B. (1980). "Training for Calibration."
+   Organizational Behavior and Human Performance, 26(2), 149-171.
+   https://doi.org/10.1016/0030-5073(80)90052-5 [high]
 
-3. Tetlock, P. E. & Gardner, D. (2015). "Superforecasting: The Art and
-   Science of Prediction." Crown Publishing Group. Chapters on
-   calibration, Brier scores, and the Good Judgment Project results.
+3. Brier, G. W. (1950). "Verification of Forecasts Expressed in Terms of
+   Probability." Monthly Weather Review, 78(1), 1-3.
+   https://doi.org/10.1175/1520-0493(1950)078%3C0001:VOFEIT%3E2.0.CO;2
    [high]
 
-4. Mellers, B., Stone, E., Atanasov, P., et al. (2015). "The
-   psychology of intelligence analysis: Drivers of prediction accuracy
-   in world politics." Journal of Experimental Psychology: Applied,
-   21(1), 1-14. https://doi.org/10.1037/xap0000040 [high]
+4. Murphy, A. H. (1973). "A New Vector Partition of the Probability
+   Score." Journal of Applied Meteorology, 12(4), 595-600.
+   https://doi.org/10.1175/1520-0450(1973)012%3C0595:ANVPOT%3E2.0.CO;2
+   [high]
 
-5. Griffiths, R. (2026). "Probability Calibration: Predict Like a
-   Superforecaster." Expected Value Blog.
-   https://expectedvalue.co.uk/blog/probability-calibration-training/
-   [medium]
+5. Gneiting, T., & Raftery, A. E. (2007). "Strictly Proper Scoring Rules,
+   Prediction, and Estimation." Journal of the American Statistical
+   Association, 102(477), 359-378.
+   https://doi.org/10.1198/016214506000001437 [high]
 
-6. Moore, D. A. & Healy, P. J. (2008). "The trouble with
-   overconfidence." Psychological Review, 115(2), 502-517.
+6. Gneiting, T., Balabdaoui, F., & Raftery, A. E. (2007).
+   "Probabilistic Forecasts, Calibration and Sharpness." Journal of the
+   Royal Statistical Society: Series B, 69(2), 243-268.
+   https://doi.org/10.1111/j.1467-9868.2007.00587.x [high]
+
+7. Moore, D. A., & Healy, P. J. (2008). "The Trouble With
+   Overconfidence." Psychological Review, 115(2), 502-517.
    https://doi.org/10.1037/0033-295X.115.2.502 [high]
+
+8. Kruger, J., & Dunning, D. (1999). "Unskilled and Unaware of It: How
+   Difficulties in Recognizing One's Own Incompetence Lead to Inflated
+   Self-Assessments." Journal of Personality and Social Psychology,
+   77(6), 1121-1134. https://doi.org/10.1037/0022-3514.77.6.1121 [high]
+
+9. McIntosh, R. D., Moore, A. B., Liu, Y., & Della Sala, S. (2022).
+   "Skill and Self-Knowledge: Empirical Refutation of the Dual-Burden
+   Account of the Dunning-Kruger Effect." Royal Society Open Science,
+   9(12), 191727. https://doi.org/10.1098/rsos.191727 [high]
+
+10. Mellers, B., Ungar, L., Baron, J., et al. (2014). "Psychological
+    Strategies for Winning a Geopolitical Forecasting Tournament."
+    Psychological Science, 25(5), 1106-1115.
+    https://doi.org/10.1177/0956797614524255 [high]
+
+11. Mellers, B., Stone, E., Murray, T., et al. (2015). "Identifying and
+    Cultivating Superforecasters as a Method of Improving Probabilistic
+    Predictions." Perspectives on Psychological Science, 10(3), 267-281.
+    https://doi.org/10.1177/1745691615577794 [high]
+
+12. Hauenstein, C. E., Thomas, R. P., Illingworth, D. A., & Dougherty,
+    M. R. (2025). "Rethinking the Role of Teams and Training in
+    Geopolitical Forecasting: The Effect of Uncontrolled Method Variance
+    on Statistical Conclusions." Psychological Science, 36(1), 3-18.
+    https://doi.org/10.1177/09567976241266481 [high]
+
+13. Dimitriadis, T., Gneiting, T., & Jordan, A. I. (2021). "Stable
+    Reliability Diagrams for Probabilistic Classifiers." Proceedings of
+    the National Academy of Sciences, 118(8), e2016191118.
+    https://doi.org/10.1073/pnas.2016191118 [high]
+
+14. Witkowski, J., Freeman, R., Vaughan, J., Pennock, D., & Krause, A.
+    (2018). "Incentive-Compatible Forecasting Competitions."
+    Proceedings of the AAAI Conference on Artificial Intelligence, 32(1).
+    https://doi.org/10.1609/aaai.v32i1.11471 [high]
+
+15. Merkle, E. C., & Hartman, R. (2018). "Weighted Brier Score
+    Decompositions for Topically Heterogenous Forecasting Tournaments."
+    Judgment and Decision Making, 13(2), 185-201.
+    https://doi.org/10.1017/S1930297500007099 [high]
 
 ## See Also
 
 - `library/probabilistic-thinking-forecasting/superforecasting.md` --
-  the full superforecasting framework from which calibration training
-  emerged, including the Good Judgment Project methods.
+  the tournament setting in which calibration, resolution, updating, and
+  forecaster selection are evaluated together.
+- `library/probabilistic-thinking-forecasting/forecast-evaluation-and-scoring-rules.md`
+  -- the wider framework for scoring conventions, baselines, weighting,
+  uncertainty, and decision value.
 - `library/probabilistic-thinking-forecasting/bayesian-reasoning.md` --
-  Bayesian updating is the mathematical framework that disciplined
-  calibration supports: you cannot update correctly if your priors are
-  miscalibrated.
+  the formal framework for updating probabilities within a stated model.
 - `library/probabilistic-thinking-forecasting/inside-outside-view.md` --
-  the outside view is a calibration technique: it anchors subjective
-  confidence to objective base rates, reducing overprecision.
-- `library/psychology-behavior/cognitive-biases.md` -- overconfidence
-  is one of the most pervasive cognitive biases; this file covers the
-  broader bias landscape.
+  reference-class reasoning as an input to probability judgment.
+- `library/psychology-behavior/overconfidence.md` -- the broader psychology
+  of overestimation, overplacement, and overprecision.
