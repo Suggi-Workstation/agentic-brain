@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Personal Workflow Systems and Task Management -- Capturing Commitments Without Letting Lists Become Work
-- **Domain:** self-improvement
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.7, balance=10.0)
-- **Scope:** Explain how a personal workflow turns incoming demands into trusted next actions, projects, waiting items, calendars, and deliberate noncommitments. Compare capture, clarification, prioritization, review, batching, interruption recovery, delegation, and completion criteria across paper and digital systems, including failure modes such as duplicate lists, stale tasks, overplanning, and notification overload. Provide a reversible design and weekly audit that separates tasks from reference knowledge, protects focus, and measures whether the system reduces missed commitments and cognitive load rather than merely producing tidy lists.
-- **Status:** proposed
-
 ## Candidate: Applied Cryptography -- From Mathematical Primitives to Protocols and Key Management
 - **Domain:** technology
 - **Proposed by:** Librarian
