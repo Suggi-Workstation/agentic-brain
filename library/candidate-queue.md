@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Operating Systems -- Coordinating Processes, Memory, Devices, and Isolation
-- **Domain:** technology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.9/10.0 (gap=10.0, compounding=10.0, timeliness=9.6, balance=10.0)
-- **Scope:** Explain how operating systems arbitrate processors, memory, storage, devices, and permissions so many programs can use one machine safely and efficiently. Cover processes and threads, scheduling, virtual memory, filesystems, device drivers, system calls, concurrency, isolation, virtualization, observability, and failure recovery across desktop, server, mobile, and embedded systems. Show how OS design choices shape performance, security, portability, and reliability while distinguishing the operating system from application architecture, hardware design, and cloud service management.
-- **Status:** proposed
-
 ## Candidate: Public Program Evaluation -- Determining Whether Policy Caused Better Outcomes
 - **Domain:** political-science-public-policy
 - **Proposed by:** Librarian
