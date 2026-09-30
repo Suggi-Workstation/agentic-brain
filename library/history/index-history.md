@@ -1,6 +1,6 @@
 # History -- Topics
 
-16 topics. Anchor: [anchor-history.md](anchor-history.md)
+17 topics. Anchor: [anchor-history.md](anchor-history.md)
 
 - [The 1918 Influenza Pandemic Became a Global Catastrophe Through War Mobilization and Unequal State Capacity](1918-influenza-pandemic-war-public-health-and-demographic-change.md) -- [reviewed: 2026-09-22] -- The 1918-1920 influenza pandemic was not a biological event that merely coincided with the First World War: military mobilization, mass transport, and crowded institutions accelerated spread, while mortality varied with economic conditions and the local resources available for public health and care.
 
@@ -25,6 +25,8 @@
 - [Medieval Europe -- A Dynamic Millennium of Transformation Between Rome and the Renaissance](medieval-millennium-rome-to-renaissance.md) -- [reviewed: never] -- The millennium between the fall of the Western Roman Empire and the dawn of the Renaissance is routinely caricatured as a thousand years of cultural darkness and stagnation. This characterization is wrong. The medieval period was instead an era of profound institutional innovation, demographic upheaval, and technological transformation that built the foundations of the modern world.
 
 - [The Meiji Restoration Built a Centralized Industrial State and Turned Japan Toward Empire](meiji-restoration-state-building-industrialization-and-imperial-turn.md) -- [reviewed: never] -- The Meiji Restoration was not a single transfer of power in 1868 but a sequence of civil conflict, centralization, social reform, constitutional construction, and industrial development that dismantled Tokugawa rule and created a new kind of Japanese state. Its leaders preserved the emperor as the source of political legitimacy while abolishing domains, taxing land, conscripting soldiers, organizing national education, importing technology, and eventually building a constitutional monarchy.
+
+- [The Protestant Reformation Fractured Latin Christianity and Bound Confession to State Power](protestant-reformation-and-wars-of-religion.md) -- [reviewed: never] -- The Reformation was not a single protest that automatically liberated belief; it was a set of Lutheran, Reformed, Anglican, Radical, and Catholic reforms that divided western Christianity while creating new churches, disciplines, and political bargains [1][10][15]. Print accelerated those changes, but urban institutions, personal networks, princely choices, popular mobilization, and war determined which reforms survived [3][4][5][12].
 
 - [The Renaissance and Enlightenment -- How the Revival of Classical Learning and the Cult of Reason Invented the Modern Mind](renaissance-and-enlightenment.md) -- [reviewed: never] -- The Renaissance and the Enlightenment were two linked intellectual movements, spanning roughly the fourteenth through the eighteenth centuries, that dismantled the medieval habit of deferring to inherited authority and replaced it with individual reason, empirical observation, and a belief in natural rights.
 
