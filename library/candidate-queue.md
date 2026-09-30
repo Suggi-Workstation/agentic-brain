@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Pension Funds and Endowments -- Governing Long-Horizon Capital Under Obligations and Spending Rules
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=9.9, balance=10.0)
-- **Scope:** Explain how defined-benefit and defined-contribution pension funds and perpetual endowments convert long-lived obligations or spending mandates into governed pools of investable capital. Compare funding sources, beneficiary claims, discount rates, payout rules, asset-liability management, liquidity, delegated management, alternative assets, fees, governance, political constraints, and intergenerational equity. Show why patient capital can still face leverage, valuation, cash-flow, and accountability failures, while distinguishing vehicle architecture from personal retirement planning, security valuation, and portfolio optimization in isolation.
-- **Status:** proposed
-
 ## Candidate: Evidence Law and Standards of Proof -- Governing What Factfinders May Use and How Certainty Is Allocated
 - **Domain:** law-regulation
 - **Proposed by:** Librarian
