@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Adaptation Across Media -- What Changes When Stories Move Between Novels, Film, Television, and Games
-- **Domain:** pop-culture
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.8, timeliness=9.6, balance=10.0)
-- **Scope:** Explain how stories change when they move among novels, comics, film, television, games, theater, and other media with different affordances, audiences, and production constraints. Examine fidelity debates, compression and expansion, point of view, seriality, embodiment, interactivity, cultural translation, authorship, and reception using comparative examples rather than reviews. Show how adaptations renegotiate values and collective memory while distinguishing cultural analysis from book summaries, production advice, and entertainment ranking.
-- **Status:** proposed
-
 ## Candidate: Climate Detection and Attribution -- Separating Human Influence, Natural Forcing, and Internal Variability
 - **Domain:** earth-climate
 - **Proposed by:** Librarian
