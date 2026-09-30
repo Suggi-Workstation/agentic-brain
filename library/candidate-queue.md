@@ -177,3 +177,35 @@
 - **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.8, timeliness=9.6, balance=10.0)
 - **Scope:** Explain how stories change when they move among novels, comics, film, television, games, theater, and other media with different affordances, audiences, and production constraints. Examine fidelity debates, compression and expansion, point of view, seriality, embodiment, interactivity, cultural translation, authorship, and reception using comparative examples rather than reviews. Show how adaptations renegotiate values and collective memory while distinguishing cultural analysis from book summaries, production advice, and entertainment ranking.
 - **Status:** proposed
+
+## Candidate: Climate Detection and Attribution -- Separating Human Influence, Natural Forcing, and Internal Variability
+- **Domain:** earth-climate
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=9.4)
+- **Scope:** Explain how detection and attribution studies distinguish observed change from internal variability and estimate the contributions of greenhouse gases, aerosols, land use, and natural forcing. Cover fingerprints, counterfactual climate ensembles, event attribution, risk ratios, return periods, observational limits, model evaluation, compound extremes, and communication of uncertainty. Show what attribution can and cannot infer about a specific heatwave, flood, drought, wildfire environment, or storm, while separating physical causal evidence from liability, policy, and disaster-response judgments.
+- **Status:** proposed
+
+## Candidate: Payment Networks and Merchant Acquiring -- How Interchange, Routing, Scale, and Regulation Shape Industry Economics
+- **Domain:** industries-sectors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.7, timeliness=9.6, balance=10.0)
+- **Scope:** Explain the card-payment value chain from cardholder and issuer through network, acquirer, processor, gateway, merchant, and settlement, showing where fees, fraud costs, credit risk, and bargaining power accrue. Analyze two-sided network effects, routing, tokenization, authorization data, merchant concentration, vertical integration, alternative payment rails, and regulation as forces that shape entry barriers and profit pools. Distinguish industry structure from consumer-credit economics and payment technology design, and compare four-party networks with closed-loop and account-to-account models.
+- **Status:** proposed
+
+## Candidate: Precedent Transaction Analysis -- Pricing Control, Synergies, and Market Cycles
+- **Domain:** valuation-screening
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.7/10.0 (gap=9.9, compounding=9.6, timeliness=9.4, balance=10.0)
+- **Scope:** Explain how precedent transaction analysis converts prices paid for comparable control transactions into valuation ranges while separating enterprise value, equity value, assumed liabilities, and deal-specific consideration. Cover transaction selection, announcement dates, unaffected metrics, control premiums, synergies, market cycles, financing conditions, earnouts, tax structure, normalization, and sensitivity to sparse or stale samples. Show why observed deal multiples reflect bargaining, strategic fit, and capital-market conditions rather than pure intrinsic value, and connect the method to trading comparables, DCF, SOTP, and fairness-opinion practice.
+- **Status:** proposed
+
+## Candidate: Museum Repatriation and Cultural Heritage -- Provenance, Power, and Living Community Claims
+- **Domain:** anthropology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.7, timeliness=9.9, balance=9.4)
+- **Scope:** Examine how museums, source communities, archaeologists, states, and markets contest the ownership, care, interpretation, return, and future use of cultural objects and human remains. Cover provenance research, colonial collection histories, illicit excavation and trafficking, legal title, ethical claims, community authority, conservation, digital records, restitution, repatriation, and long-term loans through comparative cases. Treat objects as parts of living cultural relationships rather than isolated art assets, while distinguishing anthropological analysis from legal doctrine, art-market advice, or advocacy without evidence.
+- **Status:** proposed
