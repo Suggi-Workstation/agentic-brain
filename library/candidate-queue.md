@@ -185,3 +185,27 @@
 - **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=10.0)
 - **Scope:** Explain classification shifting as moving recurring operating costs into special items, discontinued operations, acquisition charges, or other lines to inflate core performance without necessarily changing GAAP net income. Cover restructuring charges, impairment labels, acquisition-related expenses, cost allocation, recurring exclusions, disclosure changes, and forensic tests using reconciliations, footnotes, cash flow, margins, and subsequent reversals. Distinguish manipulation from legitimate unusual items and from outright revenue fabrication, connecting the analysis to non-GAAP abuse, restatements, and valuation normalization.
 - **Status:** proposed
+
+## Candidate: Undersea Cable Geopolitics -- Connectivity, Chokepoints, Sabotage, and Strategic Resilience
+- **Domain:** geopolitics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how submarine telecommunications and power cables convert seabed routes, landing stations, repair fleets, ownership, and redundancy into strategic dependence and leverage. Analyze route concentration, state and private control, surveillance, sabotage attribution, gray-zone coercion, cyber-physical attacks, repair capacity, insurance, alliance coordination, cable diplomacy, and competition over new corridors. Use recent European and Indo-Pacific cases to distinguish geopolitical power and resilience from cable engineering, telecom-industry economics, maritime law, and incident-specific speculation.
+- **Status:** proposed
+
+## Candidate: Valuing Intangible-Asset-Intensive Businesses -- R&D, Software, Brands, Data, and Organizational Capital
+- **Domain:** valuation-screening
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how analysts value businesses whose economic assets are created through research, software, brands, data, customer relationships, and organizational capability but are partly expensed or absent from the balance sheet. Cover R&D capitalization, useful lives, maintenance versus growth investment, amortization, acquired versus internally generated intangibles, unit economics, reinvestment, obsolescence, disclosure limits, adjusted returns on capital, and DCF or multiple reconciliation. Show how to avoid both understating investment and inventing unverifiable assets, distinguishing valuation adjustments from accounting-rule design and competitive-advantage analysis.
+- **Status:** proposed
+
+## Candidate: Just War Theory and the Ethics of Armed Conflict -- Authority, Necessity, Discrimination, and Responsibility
+- **Domain:** ethics-philosophy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=10.0, balance=10.0)
+- **Scope:** Explain the moral frameworks used to judge when war may be initiated, how force may be conducted, and what justice requires after conflict. Compare just cause, legitimate authority, proportionality, necessity, discrimination, double effect, civilian protection, surrender, occupation, peace settlement, and competing realist, pacifist, consequentialist, deontological, and virtue-ethical critiques. Test these principles against contemporary proxy war, urban warfare, cyber operations, autonomous weapons, and asymmetric conflict while distinguishing normative judgment from international-law doctrine and geopolitical strategy.
+- **Status:** proposed
