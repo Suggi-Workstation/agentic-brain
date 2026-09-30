@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Diagnostic Reasoning and Medical Testing -- Updating Probabilities Without Overtesting
-- **Domain:** health-medicine
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how clinicians move from symptoms and signs to differential diagnoses, pretest probabilities, test choices, posterior probabilities, and follow-up decisions. Cover history and examination, likelihood ratios, thresholds, incidental findings, false positives and negatives, cognitive and system errors, consultation, safety-netting, feedback, and shared decisions. Show why more testing can increase harm when prevalence, test performance, downstream consequences, or patient preferences are ignored, while distinguishing diagnosis from preventive screening, treatment trials, and AI tool engineering.
-- **Status:** proposed
-
 ## Candidate: Technical Documentation and Procedural Writing -- Turning Complex Systems Into Reliable Action
 - **Domain:** communication
 - **Proposed by:** Librarian
