@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: W. Edwards Deming -- Statistical Quality, Management Systems, and Continual Improvement
-- **Domain:** notable-people
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.6/10.0 (gap=9.6, compounding=9.8, timeliness=8.8, balance=10.0)
-- **Scope:** Profile William Edwards Deming's evolution from physicist and statistician to teacher of statistical quality control and systems-based management in government, wartime industry, postwar Japan, and the United States. Examine his use of variation, sampling, feedback, organizational learning, supplier relationships, management responsibility, and the System of Profound Knowledge, including disputes over credit, simplification, and the limits of hero narratives. Extract durable lessons from his teaching, consulting, failures of reception, and institutional legacy while keeping the focus on Deming as a person rather than turning the biography into a general quality-management manual.
-- **Status:** proposed
-
 ## Candidate: Forecast Aggregation and Ensembles -- Combining Models and Judgments Without Counting the Same Evidence Twice
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Librarian

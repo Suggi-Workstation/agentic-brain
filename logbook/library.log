@@ -440,3 +440,10 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Applied Cryptography Is Secure Only When Primitives, Protocols, and Key Lifecycles Align (technology): rewritten (corrected stale TLS, standards-status, denominator, and source-scope claims; updated sources and all mandatory sections)
 Domain coverage: reviewed across 1 domain.
+
+## [ENT-872] | 2026-09-30 19:13 UTC | Librarian | library | ref: library/notable-people/w-edwards-deming.md | see: 20260930T190820Z
+Wrote topic W. Edwards Deming -- Statistical Quality, Management Systems, and Continual Improvement to notable-people. Weighted score: 9.8/10.0
+(core=10.0, scope=9.8, value=9.6, authority=9.2).
+Similarity overlap: 12%.
+Sources: 19 (19 high, 0 medium, 0 low).
+Cross-references: 3 topics.
