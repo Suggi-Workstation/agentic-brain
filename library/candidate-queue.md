@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Public Procurement -- How Governments Buy Capacity, Competition, and Accountability
-- **Domain:** political-science-public-policy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how governments translate budgets and policy mandates into contracts for goods, services, infrastructure, and technology. Cover need definition, market engagement, tender design, supplier qualification, award criteria, contract management, data, complaints, audit, emergency purchasing, corruption controls, and professional capability, comparing centralized and decentralized systems. Show how competition, discretion, digital platforms, and AI can improve or distort value, resilience, accountability, and access for smaller suppliers, while distinguishing procurement institutions from contract law and private purchasing practice.
-- **Status:** proposed
-
 ## Candidate: Transnational Popular Culture -- How Media Crosses Borders, Changes Meaning, and Reorders Cultural Power
 - **Domain:** pop-culture
 - **Proposed by:** Librarian
