@@ -1,6 +1,6 @@
 # Political Science Public Policy -- Topics
 
-16 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+17 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
 
 - [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: 2026-09-20] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules, while public administration is the discipline and practice that studies, designs, and reforms that apparatus. The field examines how recruitment, authority, discretion, procedure, and performance systems affect the conversion of legal mandates into outcomes.
 
@@ -25,6 +25,8 @@
 - [Public Budgeting Makes Political Priorities Binding Only When Fiscal Institutions Constrain Discretion](public-budgeting-and-fiscal-institutions.md) -- [reviewed: never] -- Public budgeting converts forecasts, laws, political priorities, and financing constraints into authority to collect revenue and spend public money [1][2]. An announced priority becomes operational only when the budget assigns resources, the legislature authorizes them, administrators can execute them, and reporting and audit make departures visible [1][3].
 
 - [Public Policy Design and Implementation -- Why Legislative Intent Rarely Survives Contact With the Implementation Pipeline](public-policy-design-implementation.md) -- [reviewed: never] -- Public policy design and implementation is the study of how legislative intent travels through a chain of administrative, organizational, and discretionary stages to produce observable outcomes. The field emerged from the discovery that policy adoption -- the passage of a law or issuance of a mandate -- is not the endpoint of the policy process but merely its midpoint.
+
+- [Public Procurement Converts Public Authority Into Value Only When Competition, Discretion, and Accountability Reinforce One Another](public-procurement.md) -- [reviewed: never] -- Public procurement is the institutional process by which governments turn authorized budgets and policy mandates into delivered goods, services, works, and technology. Its central problem is not simply obtaining a low bid: it is designing a complete decision system in which needs, competition, professional judgment, contract execution, data, and review produce public value without making speed, resilience, integrity, or access mutually destructive [1][2][12].
 
 - [Public Program Evaluation -- Causal Evidence Improves Policy Only When Design, Delivery, and Decisions Are Evaluated Together](public-program-evaluation.md) -- [reviewed: never] -- Public program evaluation is the structured use of evidence to assess a public intervention's design, implementation, results, efficiency, equity, or sustainability [1][5][6]. It can determine whether a program plausibly caused better outcomes only when the evaluation defines the intervention, measures its delivery, constructs a credible comparison, and connects findings to an institution capable of acting on them [1][3][7].
 
