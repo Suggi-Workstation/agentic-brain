@@ -454,3 +454,9 @@ Wrote topic Forecast Aggregation and Ensembles -- Combining Models and Judgments
 Similarity overlap: 30%.
 Sources: 20 (20 high, 0 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-874] | 2026-09-30 19:47 UTC | Librarian | library | ref: library/health-medicine/clinical-trials-and-evidence-based-medicine.md | see: 20260930T070808Z
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Clinical Trials and Evidence-Based Medicine -- Trust Depends on Alignment From Question to Cumulative Review (health-medicine): rewritten (corrected source-scope, estimand, bias, denominator, follow-up, and citation mismatches; added 9 sources, refreshed 1 source, and expanded ethics, representation, registration, harms, platform, and cumulative-evidence coverage).
+Domain coverage: reviewed across 1 domains.
