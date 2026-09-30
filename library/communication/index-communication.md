@@ -1,6 +1,8 @@
 # Communication -- Topics
 
-15 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+16 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+
+- [Data Visualizations Communicate Evidence Only When Encoding, Context, and Access Remain Verifiable](data-visualization-and-statistical-graphics.md) -- [reviewed: never] -- Data visualization turns values and relationships into spatial, visual, and interactive forms so an audience can compare evidence, detect structure, and make a decision. A chart is not truthful merely because its plotted numbers are correct: its encodings, scales, transformations, labels, uncertainty, narrative emphasis, accessibility, and provenance must preserve the meaning and limits of the underlying evidence [2][3][5][6].
 
 - [Information Architecture and Content Design -- Structure Determines Whether Information Can Be Found and Understood](information-architecture-and-content-design.md) -- [reviewed: 2026-09-21] -- Information architecture and content design make information usable by aligning organization, labels, navigation, search, and page structure with the tasks and language of the people who need it. Their central claim is that clear prose is not sufficient: information must also appear in an expected place, under a meaningful name, through more than one usable route, and in a form whose relationships remain perceptible to people and machines ([1] [8] [9] [10]).
 
