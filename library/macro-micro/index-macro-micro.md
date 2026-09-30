@@ -1,12 +1,14 @@
 # Macro Micro -- Topics
 
-16 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
+17 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
 
 - [Auction Design Makes Private Information Usable Only When Rules Align Incentives](auction-design-and-mechanism-design.md) -- [reviewed: 2026-09-30] -- Mechanism design works backward from a desired allocation to rules under which self-interested participants reveal enough information for that allocation to emerge. Auction design is its most visible application: the bidding language, sequence, information policy, winner rule, and payment rule jointly determine participation, strategy, efficiency, revenue, and vulnerability to collusion [1][5][6].
 
 - [Business Cycles Persist Because Shocks and Propagation Mechanisms Interact](business-cycles.md) -- [reviewed: 2026-09-21] -- Business cycles are alternating expansions and contractions in broad economic activity, not a fixed rhythm with a standard duration. They persist because demand, supply, policy, and financial shocks interact with mechanisms that spread and amplify their effects. Business-cycle analysis therefore supports conditional diagnosis and scenario planning, not precise turning-point forecasts. [1] [7] [8]
 
 - [Currency and Exchange Rates -- The Price of Money Connects Domestic Policy to the World Economy](currency-and-exchange-rates.md) -- [reviewed: 2026-09-29] -- An exchange rate is the price that converts one national money into another, but its economic role is broader than conversion: it transmits monetary policy, inflation, trade prices, capital flows, and financial stress across borders. No single model reliably predicts short-run currency movements; useful analysis instead combines goods-market parity, asset-market returns, policy regimes, balance-sheet exposures, and the international functions of dominant currencies.
+
+- [Elasticity Determines Incidence Only After Market Structure and Adjustment Are Made Explicit](elasticity-and-tax-incidence.md) -- [reviewed: never] -- Elasticity measures how strongly quantities respond to prices, while incidence traces who ultimately gains or loses when a tax, tariff, subsidy, wage mandate, or price control changes an equilibrium. In a competitive benchmark, the less elastic side of a market bears more of a tax and captures more of a subsidy, but that rule is local and conditional: market power, demand curvature, evasion,...
 
 - [Externalities and Public Goods -- Market Prices Miss Social Costs and Benefits](externalities-and-public-goods.md) -- [reviewed: 2026-09-29] -- Externalities arise when an action changes other people's welfare without an equivalent price entering the decision, while public goods combine shared consumption with weak or impossible exclusion. In both cases, observed market prices omit part of the relevant social value, so efficient analysis must identify the missing cost or benefit, the information and transaction costs of correcting it, and who gains or loses under each remedy.
 
