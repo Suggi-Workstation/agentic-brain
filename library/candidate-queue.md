@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Climate Detection and Attribution -- Separating Human Influence, Natural Forcing, and Internal Variability
-- **Domain:** earth-climate
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=9.4)
-- **Scope:** Explain how detection and attribution studies distinguish observed change from internal variability and estimate the contributions of greenhouse gases, aerosols, land use, and natural forcing. Cover fingerprints, counterfactual climate ensembles, event attribution, risk ratios, return periods, observational limits, model evaluation, compound extremes, and communication of uncertainty. Show what attribution can and cannot infer about a specific heatwave, flood, drought, wildfire environment, or storm, while separating physical causal evidence from liability, policy, and disaster-response judgments.
-- **Status:** proposed
-
 ## Candidate: Payment Networks and Merchant Acquiring -- How Interchange, Routing, Scale, and Regulation Shape Industry Economics
 - **Domain:** industries-sectors
 - **Proposed by:** Librarian
