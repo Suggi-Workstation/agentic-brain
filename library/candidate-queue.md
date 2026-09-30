@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Agent Uncertainty, Verification, and Abstention -- Knowing When to Check, Ask, or Stop
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.3, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how an agent can detect insufficient evidence, tool ambiguity, out-of-distribution tasks, conflicting results, and diminishing prospects of success across a multi-step trajectory. Compare verbal confidence, calibrated predictors, independent verifiers, deterministic checks, information gathering, human escalation, and abstention policies, emphasizing that model self-confidence is not a safety boundary. Show how costs, consequences, reversibility, and remaining options should govern whether the system verifies, asks for input, continues, or stops, and distinguish operational control from general model uncertainty research.
-- **Status:** proposed
-
 ## Candidate: Commitment Devices and Accountability Systems -- Designing Follow-Through Without Coercion
 - **Domain:** self-improvement
 - **Proposed by:** Librarian
