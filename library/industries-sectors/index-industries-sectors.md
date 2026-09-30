@@ -1,6 +1,6 @@
 # Industries Sectors -- Topics
 
-17 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
+18 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
 
 - [Airline Industry Economics -- Network Value Cannot Eliminate the Capacity Cycle](airline-industry-economics-fixed-costs-networks-and-cycles.md) -- [reviewed: 2026-09-21] -- Airlines create valuable connectivity by combining aircraft, airport access, schedules, and demand into networks, but their perishable inventory and committed capacity make that value difficult to retain as durable profit. Route density, hub scope, revenue management, loyalty, and disciplined capacity can improve economics; none removes exposure to price competition, fuel and labor costs, demand shocks, regulation, or the capital cycle ([1] [6] [7] [10]).
 
@@ -9,6 +9,8 @@
 - [Cyclical vs Secular Trends -- Structural Change Breaks Simple Mean-Reversion Forecasts](cyclical-vs-secular-trends.md) -- [reviewed: 2026-09-29] -- A cyclical movement is a reversible fluctuation around an industry's evolving path, while a secular movement changes that path for long enough to alter capacity, competition, or customer behavior. The distinction is not directly observable in real time: analysts must test rival explanations against multiple indicators and update them as evidence accumulates.
 
 - [Data Center Industry Economics -- Power Rights and Utilization Determine Returns Before Compute Demand Does](data-center-industry-economics.md) -- [reviewed: 2026-09-30] -- Data centers turn demand for computing into a location-bound business built from power, land, connectivity, equipment, and long-lived capital. AI is increasing prospective demand, but industry returns depend first on whether an operator can secure deliverable power, contract customers, fill capacity, and recover both operating cost and continuing investment without accepting excessive concentration or financing risk [1][6][7].
+
+- [Defense Industry Economics -- Program Duration Converts Scarcity Into Both Advantage and Risk](defense-industry-economics.md) -- [reviewed: never] -- Defense contractors operate in a market where a few public buyers select long-lived programs, allocate technical and cost risk through contracts, and regulate who may build, maintain, or export the resulting systems. That structure can create durable revenue, installed-base advantages, and high barriers to entry, but backlog becomes cash only through funded, compliant, on-schedule execution across fragile production and sustainment networks [1][2][3][9].
 
 - [Disruption Theory -- A Foothold and Asymmetric Incentives Can Unseat Incumbents](disruption-theory.md) -- [reviewed: 2026-09-30] -- Disruption theory is a conditional account of how an entrant can begin in an overlooked market, improve without losing the advantages of its business model, and eventually challenge established firms whose incentives point elsewhere. It does not mean that every important technology, successful startup, or declining incumbent is disruptive, and the evidence supports using it as one lens rather than as a universal law of competition [3][4][5][8].
 
