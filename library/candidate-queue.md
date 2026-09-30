@@ -177,3 +177,35 @@
 - **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.8, timeliness=10.0, balance=8.8)
 - **Scope:** Explain how spot, forward, swap, option, and cross-currency markets connect payments and funding across currencies. Cover exchange-rate quotations, parity conditions, dealer intermediation, liquidity, settlement risk, carry, basis, capital flows, central-bank intervention, corporate exposure, translation and transaction risk, and hedging choices. Show why a hedge can reduce one currency exposure while creating liquidity, counterparty, accounting, or rollover risk, while distinguishing FX market mechanics from macroeconomic exchange-rate theory, speculation, and portfolio allocation.
 - **Status:** proposed
+
+## Candidate: Arctic Geopolitics -- Shipping Routes, Resources, Security, and Indigenous Sovereignty
+- **Domain:** geopolitics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how retreating sea ice, shipping routes, hydrocarbons, critical minerals, fisheries, military access, and sparse infrastructure reshape power across the Arctic. Compare the Northern Sea Route, Northwest Passage, Greenland, the Barents region, and the Bering Strait, covering sovereignty claims, alliances, Russian and Chinese activity, Indigenous participation, environmental risk, and governance institutions. Show where competition and cooperation coexist, while distinguishing geopolitical analysis from climate science, maritime engineering, domestic Indigenous policy, and detailed international law.
+- **Status:** proposed
+
+## Candidate: Operational Excellence and Continuous Improvement -- Building Learning Systems That Improve Cost, Quality, and Flow
+- **Domain:** business-management-strategy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.7, balance=10.0)
+- **Scope:** Explain operational excellence as a management system for improving flow, quality, cost, reliability, and safety through standardized work, visual management, and structured problem solving. Compare lean, the Toyota Production System, Six Sigma, the Theory of Constraints, total quality management, PDCA, and continuous improvement, covering bottlenecks, variation, frontline authority, incentives, metrics, and organizational learning. Show when local efficiency damages whole-system performance and how leaders sustain gains, while distinguishing management practice from technical engineering, digital tools, and supply-chain strategy.
+- **Status:** proposed
+
+## Candidate: Edward O. Thorp -- Probability, Arbitrage, and the Birth of Quantitative Investing
+- **Domain:** investors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.8/10.0 (gap=10.0, compounding=10.0, timeliness=8.8, balance=10.0)
+- **Scope:** Profile Edward O. Thorp's path from mathematics and card counting to option pricing, convertible arbitrage, Princeton Newport Partners, and systematic risk control. Examine how experiments with Claude Shannon, the Kelly criterion, empirical testing, market-neutral portfolio design, fraud detection, and institutional pressure shaped his decisions, record, mistakes, and influence. Extract lessons about evidence, leverage, model risk, and intellectual independence while keeping the focus on Thorp as an investor rather than turning the biography into a general quantitative-finance manual.
+- **Status:** proposed
+
+## Candidate: Classification Shifting and Special-Item Abuse -- Making Core Earnings Look Better Without Changing Net Income
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=10.0)
+- **Scope:** Explain classification shifting as moving recurring operating costs into special items, discontinued operations, acquisition charges, or other lines to inflate core performance without necessarily changing GAAP net income. Cover restructuring charges, impairment labels, acquisition-related expenses, cost allocation, recurring exclusions, disclosure changes, and forensic tests using reconciliations, footnotes, cash flow, margins, and subsequent reversals. Distinguish manipulation from legitimate unusual items and from outright revenue fabrication, connecting the analysis to non-GAAP abuse, restatements, and valuation normalization.
+- **Status:** proposed
