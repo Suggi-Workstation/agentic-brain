@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The Outsiders -- How Eight CEOs Made Capital Allocation the Core of Corporate Leadership
-- **Domain:** books
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.3/10.0 (gap=9.2, compounding=9.7, timeliness=8.7, balance=10.0)
-- **Scope:** Analyze William Thorndike's The Outsiders as a comparative study of eight chief executives whose decentralized operations and unconventional capital-allocation decisions produced exceptional long-term shareholder returns. Distill the book's emphasis on per-share value, cash flow, opportunistic repurchases, acquisitions, divestitures, leverage, and independent judgment while testing survivorship bias, benchmark choice, and the transferability of its cases. Treat the book as an artifact and assess its evidence and enduring influence, cross-referencing separate topics on capital allocation and management quality without duplicating them.
-- **Status:** proposed
-
 ## Candidate: Human Factors Engineering and Ergonomics -- Designing Physical Systems for Human Capabilities and Limits
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Librarian
