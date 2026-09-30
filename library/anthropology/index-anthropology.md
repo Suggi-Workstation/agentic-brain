@@ -1,6 +1,6 @@
 # Anthropology -- Topics
 
-16 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
+17 topics. Anchor: [anchor-anthropology.md](anchor-anthropology.md)
 
 - [Cultural Transmission Persists Through Diverse Learning Networks, Not Copying Alone](cultural-transmission-and-social-learning.md) -- [reviewed: 2026-09-28] -- Cultural continuity does not depend on a single channel or a passive transfer of complete traditions. Knowledge, norms, and skills persist because learners observe, participate, imitate, practice, receive feedback, and selectively attend to different models across the life course [2][7][17]. Distributed learning networks also create opportunities for retention, recombination, innovation, and cultural change [11][12].
 
@@ -23,6 +23,8 @@
 - [Material Culture and Archaeology -- What Objects Reveal About Past Societies That Written Records Cannot](material-culture-and-archaeology.md) -- [reviewed: never] -- Archaeology is the systematic study of past human societies through their material remains -- the objects, structures, and landscapes that people made, used, modified, and discarded. Because writing emerged only about 5,000 years ago, the archaeological record is the sole source of evidence for more than 99% of human history.
 
 - [Medical Anthropology Shows That Illness and Healing Are Biosocial, Not Merely Biological](medical-anthropology-culture-institutions-power-illness-and-healing.md) -- [reviewed: never] -- Medical anthropology studies how people experience, explain, and respond to sickness within cultural, historical, institutional, and political worlds. Its central claim is not that biology is unimportant, but that a pathogen, injury, or physiological disorder becomes a lived illness and an object of care through meanings, relationships, resources, and unequal power [1][2][3][9].
+
+- [Museum Repatriation Reconnects Cultural Heritage With Living Communities, Not Only Legal Owners](museum-repatriation-cultural-heritage.md) -- [reviewed: never] -- Museum repatriation returns ancestors, cultural belongings, or control over heritage to people and institutions with a substantiated relationship to them. Its central anthropological lesson is that an item can be legally held yet remain embedded in living obligations, knowledge, authority, and memory that a property record alone does not capture [1][4][13].
 
 - [Pastoralism and Nomadic Lifeways -- Mobility Is Productive Infrastructure, Not Social Disorder](pastoralism-and-nomadic-lifeways.md) -- [reviewed: never] -- Pastoralism converts dispersed and variable vegetation into food, income, relationships, and cultural continuity by coordinating animals, people, knowledge, and access across space. Nomadic and transhumant lifeways are not aimless movement: mobility is a skilled production strategy whose performance depends on flexible tenure, negotiated institutions, household labor, social networks, and the political freedom to reach changing resources [1][2][7].
 
