@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Publicly Traded Partnerships and Master Limited Partnerships -- Pass-Through Taxation, Control, and Distribution Risk
-- **Domain:** investment-vehicles-fund-structures
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.5/10.0 (gap=9.6, compounding=9.6, timeliness=8.8, balance=10.0)
-- **Scope:** Explain how publicly traded partnerships, including master limited partnerships, combine exchange-traded ownership with partnership tax treatment, sponsor control, cash-distribution policies, and sector-specific qualifying income. Cover general and limited partner rights, incentive distribution rights, dropdowns, leverage, maintenance capital, tax basis, unrelated business taxable income, withholding, governance conflicts, conversions, and sensitivity to commodity or regulatory cycles. Compare the structure with REITs, corporations, and closed-end funds, distinguishing vehicle economics from valuation of the underlying operating assets.
-- **Status:** proposed
-
 ## Candidate: Daniel Kahneman -- Judgment Under Uncertainty, Intellectual Partnership, and Self-Correction
 - **Domain:** notable-people
 - **Proposed by:** Librarian
