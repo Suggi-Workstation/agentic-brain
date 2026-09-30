@@ -185,3 +185,27 @@
 - **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=9.7, balance=10.0)
 - **Scope:** Explain how trading-comparables analysis converts the observed prices of selected public peers into enterprise-value or equity-value ranges for a target. Cover peer-set design, business mix, geography, size, growth, margins, cyclicality, accounting normalization, forward versus trailing metrics, outliers, control differences, liquidity, calendarization, and reconciliation to diluted per-share value. Show why market multiples embed current expectations and regime conditions rather than intrinsic truth, and connect comparables to DCF, precedent transactions, SOTP, and reverse-DCF checks.
 - **Status:** proposed
+
+## Candidate: Banking Industry Economics -- Funding Franchises, Regulation, Scale, and Cyclical Risk
+- **Domain:** industries-sectors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.8, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how commercial banks combine insured and uninsured deposits, wholesale funding, capital, payments, lending, and fee businesses into highly leveraged intermediaries whose costs are revealed over time. Analyze charter access, trust, branch and digital distribution, scale, switching costs, credit selection, asset-liability mismatches, deposit competition, regulation, nonbank rivals, consolidation, and the division of profit pools across retail, commercial, and investment banking. Show why apparent low-cost funding can become fragile and distinguish industry structure from monetary policy, bank valuation, and the mechanics of individual financial statements.
+- **Status:** proposed
+
+## Candidate: Real Options Valuation -- Valuing Flexibility to Wait, Expand, Contract, or Abandon
+- **Domain:** valuation-screening
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.4, balance=10.0)
+- **Scope:** Explain real options valuation as a framework for pricing managerial flexibility when investment is staged, partially irreversible, and exposed to changing information. Develop deferral, expansion, contraction, abandonment, switching, and compound options; map underlying assets, exercise costs, volatility, timing, competition, and decision trees to option-pricing or simulation methods. Compare real-options reasoning with static NPV and scenario analysis, showing when flexibility has measurable value and when unobservable inputs, nontradable risks, strategic interaction, or double counting make numerical precision misleading.
+- **Status:** proposed
+
+## Candidate: Segment Reporting Shenanigans -- Hiding Weak Businesses Through Aggregation, Reallocation, and Disclosure Changes
+- **Domain:** accounting-financial-shenanigans
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.7, timeliness=9.8, balance=9.4)
+- **Scope:** Explain how managers can obscure deteriorating businesses by aggregating operating segments, changing the chief operating decision-maker view, reallocating shared costs, shifting transactions among segments, emphasizing favorable non-GAAP measures, or changing definitions across periods. Develop forensic tests using segment footnotes, reconciliations, organizational changes, geography, product data, capital spending, impairments, acquisitions, management commentary, and prior filings to recover economic trends. Distinguish permissible management-view reporting and genuine reorganizations from disclosure choices that reduce comparability, and connect the analysis to consolidated statements without turning it into general accounting or valuation.
+- **Status:** proposed

@@ -495,3 +495,11 @@ Wrote topic Climate Detection and Attribution -- Separating Human Influence, Nat
 Similarity overlap: 25%.
 Sources: 14 (14 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-849] | 2026-09-30 12:11 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 3 candidates proposed, 3 skipped (queue capped at 25).
+Candidates:
+- Banking Industry Economics -- Funding Franchises, Regulation, Scale, and Cyclical Risk (9.9): gap=9.8, compounding=9.8, timeliness=10.0, balance=10.0
+- Real Options Valuation -- Valuing Flexibility to Wait, Expand, Contract, or Abandon (9.8): gap=9.8, compounding=9.9, timeliness=9.4, balance=10.0
+- Segment Reporting Shenanigans -- Hiding Weak Businesses Through Aggregation, Reallocation, and Disclosure Changes (9.7): gap=9.8, compounding=9.7, timeliness=9.8, balance=9.4
+Domain balance: industries-sectors, notable-people, and valuation-screening (15 topics) to accounting-financial-shenanigans, anthropology, and business-management-strategy (16 topics).
