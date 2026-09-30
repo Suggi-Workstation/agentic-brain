@@ -1,6 +1,6 @@
 # Engineering Infrastructure -- Topics
 
-16 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
+17 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
 
 - [Buildings and Urban Infrastructure -- Engineered Systems That Shape the Vertical City](buildings-and-urban-infrastructure.md) -- [reviewed: 2026-09-23] -- A building is simultaneously a structure, an environmental-control system, a long-lived asset, and a node in urban infrastructure. Its performance depends on coordinated decisions about loads, materials, mechanical services, energy, information, maintenance, and connections to power, water, transport, waste, and communications networks.
 
@@ -11,6 +11,8 @@
 - [Standards, Codes, and Safety Margins Translate Bounded Risk into Verifiable Design Constraints](engineering-standards-codes-and-safety-margins.md) -- [reviewed: 2026-09-29] -- Engineering standards, adopted codes, safety factors, and conformity-assessment activities convert selected hazards and uncertainties into explicit requirements for design, construction, and acceptance. They make safety claims more consistent and auditable, but compliance proves conformance only to a defined scope, edition, design basis, configuration, and acceptance rule; it does not prove that every credible failure mode has been eliminated.
 
 - [Geotechnical Engineering -- Safe Infrastructure Begins by Treating the Ground as an Uncertain Part of the Structure](geotechnical-engineering.md) -- [reviewed: never] -- Geotechnical engineering converts incomplete evidence about soil, rock, and groundwater into decisions about foundations, excavations, retaining systems, slopes, embankments, tunnels, and ground improvement. Its central discipline is not selecting a calculation after the ground has been defined, but building and testing a ground model, identifying failure and deformation mechanisms, and...
+
+- [Human Factors Engineering -- Physical Systems Work Reliably Only When Designed for Human Capabilities and Limits](human-factors-engineering-and-ergonomics.md) -- [reviewed: never] -- Human factors engineering and ergonomics apply evidence about people to the design of equipment, workplaces, controls, procedures, and organizations so that the whole system can perform safely and effectively. The central claim is that human performance is not a fixed input: geometry, information, workload, fatigue, maintenance access, organizational conditions, and feedback can either support reliable action or systematically create error and injury [1][2][3].
 
 - [Infrastructure Asset Management and Lifecycle Costing -- Whole-Life Evidence Beats First-Cost Decisions](infrastructure-asset-management-and-lifecycle-costing.md) -- [reviewed: never] -- Infrastructure asset management converts inventories, condition evidence, service requirements, failure risk, and cost forecasts into decisions about operation, maintenance, renewal, replacement, and disposal. Its central claim is that an owner protects long-run service more effectively by comparing whole-life consequences than by choosing the lowest initial price or repairing whichever asset looks worst today [1][2][3].
 
