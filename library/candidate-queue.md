@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Bankruptcy and Restructuring Law -- How Priority, Stays, and Reorganization Allocate Financial Distress
-- **Domain:** law-regulation
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.8, timeliness=9.6, balance=9.3)
-- **Scope:** Explain how insolvency systems convert an inability to pay into collective rules for preserving value, ranking claims, supervising control, and distributing losses. Cover liquidation and reorganization, the automatic stay, executory contracts, secured credit, debtor-in-possession finance, avoidance actions, creditor classes, plan confirmation, discharge, cross-border cases, and out-of-court restructuring. Compare major legal approaches without treating bankruptcy as a single US procedure, and show how priority, valuation disputes, forum choice, and bargaining power shape recoveries while distinguishing doctrine from distressed-investing strategy.
-- **Status:** proposed
-
 ## Candidate: Investment Management Companies and GP Stakes -- Valuing the Firm Behind the Funds
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Librarian
