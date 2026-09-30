@@ -1,6 +1,8 @@
 # Technology -- Topics
 
-16 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+17 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+
+- [Applied Cryptography Is Secure Only When Primitives, Protocols, and Key Lifecycles Align](applied-cryptography-primitives-protocols-key-management.md) -- [reviewed: never] -- Applied cryptography turns mathematical mechanisms into systems that protect confidentiality, integrity, authenticity, and selected forms of freshness, but a secure primitive does not make an application secure by itself. Security emerges only when randomness, keys, algorithms, protocol state, identity, implementation behavior, and operational change are composed under one explicit threat model and verified at their real boundaries [8][9][10][14].
 
 - [Blockchain and Distributed Ledgers Change Where Trust Resides, Not Whether Trust Exists](blockchain-distributed-ledgers.md) -- [reviewed: 2026-09-24] -- Blockchains are replicated, cryptographically linked ledgers whose participants use a consensus process to decide which updates are accepted. Permissionless designs can reduce dependence on a central operator, but no ledger eliminates trust: users still rely on cryptography, software, network assumptions, governance, key custody, and the accuracy of data supplied from outside the ledger [6].
 
