@@ -1,10 +1,12 @@
 # Law Regulation -- Topics
 
-15 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+16 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
 
 - [Administrative Law Makes Agency Power Operational but Keeps It Legally Bounded](administrative-law-and-agency-rulemaking.md) -- [reviewed: 2026-09-22] -- Administrative law is the framework through which United States federal agencies turn congressional statutes into generally applicable rules, case-specific orders, licenses, sanctions, and other public actions. The Administrative Procedure Act supplies default procedures for rulemaking and adjudication, while organic statutes grant each agency its substantive authority and courts police the resulting boundaries.
 
 - [Antitrust Law in Digital Markets Must Distinguish Durable Power From Lawful Scale](antitrust-law-and-digital-markets.md) -- [reviewed: 2026-09-29] -- Digital platforms can become large because they coordinate users efficiently, yet the same network effects, defaults, data advantages, and ecosystem controls can make competitive displacement unusually difficult. Monopolization and abuse-of-dominance law therefore distinguish lawful scale from legally cognizable power and ask whether a firm has acquired, maintained, extended, or abused that power through conduct that harms the competitive process.
+
+- [Bankruptcy Law Preserves Value by Replacing Individual Collection With Collective Choice](bankruptcy-and-restructuring-law.md) -- [reviewed: never] -- Bankruptcy and restructuring law does not merely cancel debt or close failed firms. It replaces a destructive race for assets with a collective process that preserves options, tests whether a business is worth more operating or liquidated, ranks claims, supervises bargaining, and distributes unavoidable losses under stated rules.
 
 - [Constitutional Law and Governance Structures -- Why Constitutional Design Choices Made Centuries Ago Shape Modern Political Outcomes](constitutional-law-governance-structures.md) -- [reviewed: 2026-09-29] -- Constitutional law allocates public power, specifies how it may be exercised, and supplies rules for challenging its abuse. The practical constitutional order includes not only a written charter, where one exists, but also courts, legislatures, executives, elections, parties, conventions, and citizens capable of enforcing its limits [1][3].
 
