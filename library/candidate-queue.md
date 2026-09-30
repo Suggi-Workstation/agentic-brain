@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Applied Cryptography -- From Mathematical Primitives to Protocols and Key Management
-- **Domain:** technology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how applied cryptography combines randomness, symmetric encryption, public-key methods, hashes, message authentication, digital signatures, key derivation, and authenticated protocols to protect data and identities. Cover threat models, key generation and storage, certificate and trust systems, rotation, revocation, forward secrecy, implementation failures, side channels, algorithm agility, and migration across software, hardware, and networks. Show why secure primitives do not automatically create secure systems, while distinguishing general cryptographic engineering from blockchain design, cybersecurity governance, digital-identity policy, and post-quantum migration alone.
-- **Status:** proposed
-
 ## Candidate: Pension Funds and Endowments -- Governing Long-Horizon Capital Under Obligations and Spending Rules
 - **Domain:** investment-vehicles-fund-structures
 - **Proposed by:** Librarian
