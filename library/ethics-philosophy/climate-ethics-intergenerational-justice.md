@@ -6,6 +6,7 @@ domain: ethics-philosophy
 author: Librarian
 tags: [climate-ethics, climate-justice, intergenerational-justice, burden-sharing, historical-emissions, human-rights, just-transition, loss-and-damage]
 links: [library/ethics-philosophy/normative-ethics.md, library/ethics-philosophy/moral-uncertainty-and-decision-making.md, library/ethics-philosophy/political-philosophy.md, library/macro-micro/externalities-and-public-goods.md, library/law-regulation/environmental-law-climate-treaties.md, library/engineering-infrastructure/infrastructure-resilience-climate-adaptation.md, library/earth-climate/carbon-cycle-greenhouse-effect.md]
+reviewed: 2026-09-30
 ---
 
 # Climate Justice Requires Duties Proportional to Harm, Capacity, Benefit, and Vulnerability
@@ -114,7 +115,7 @@ The IPCC Sixth Assessment Synthesis Report is an assessment rather than a single
 
 The report also documents a distributional pattern. Between 2010 and 2020, mortality from floods, droughts, and storms was 15 times higher in highly vulnerable regions than in regions with very low vulnerability. It attributes vulnerability differences partly to poverty, marginalization, governance, and historical and ongoing inequality. This finding does not prove one burden-sharing principle, because exposure and adaptive capacity have multiple causes. It does show that allocating resources only by the market value of exposed assets would ignore large differences in human vulnerability [8].
 
-The carbon-budget evidence creates an intergenerational constraint. The IPCC estimates historical cumulative net carbon dioxide emissions from 1850 through 2019 at about 2,400 +/- 240 gigatonnes of carbon dioxide, approximately four-fifths of the central total budget associated with a 50 percent probability of limiting warming to 1.5 degrees C. It also states that every additional tonne of carbon dioxide adds to warming [8]. The ethical implication is not a scientifically determined allocation, but a scarcity fact: greater use now leaves less room for later development and raises future risk.
+The carbon-budget evidence creates an intergenerational constraint. The IPCC estimates historical cumulative net carbon dioxide emissions from 1850 through 2019 at about 2,400 +/- 240 gigatonnes of carbon dioxide, about 83 percent of the central total budget associated with a 50 percent probability of limiting warming to 1.5 degrees C. It also states that every additional tonne of carbon dioxide adds to warming [8]. The ethical implication is not a scientifically determined allocation, but a scarcity fact: greater use now leaves less room for later development and raises future risk.
 
 ### National Warming Contributions Can Be Estimated, but Metric Choices Matter
 
@@ -212,11 +213,11 @@ A policy passes only if its answers are mutually coherent. High aggregate benefi
 
 ## Sources
 
-1. Stanford Encyclopedia of Philosophy. (2020, updated). "Climate Justice."
+1. Stanford Encyclopedia of Philosophy. (2020). "Climate Justice."
    https://plato.stanford.edu/entries/justice-climate [high]
 
-2. Stanford Encyclopedia of Philosophy. (2003, substantive revision 2026).
-   "Intergenerational Justice."
+2. Stanford Encyclopedia of Philosophy. (2003; substantive revision July 17,
+   2026). "Intergenerational Justice."
    https://plato.stanford.edu/entries/justice-intergenerational [high]
 
 3. Gardiner, S. M. (2006). "A Perfect Moral Storm: Climate Change,
@@ -236,8 +237,8 @@ A policy passes only if its answers are mutually coherent. High aggregate benefi
    Climate Change," especially Article 3.
    https://unfccc.int/files/essential_background/background_publications_htmlpdf/application/pdf/conveng.pdf [high]
 
-7. United Nations. (2015). "Paris Agreement."
-   https://unfccc.int/sites/default/files/resource/Paris_agreement-English.pdf [high]
+7. United Nations. (2015). "Paris Agreement and Decision 1/CP.21."
+   https://unfccc.int/sites/default/files/resource/parisagreement_publication.pdf [high]
 
 8. Intergovernmental Panel on Climate Change. (2023). "Climate Change
    2023: Synthesis Report," Longer Report.
