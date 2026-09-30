@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Residual Income Valuation -- Pricing the Gap Between Book Equity and Economic Profit
-- **Domain:** valuation-screening
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.3, balance=10.0)
-- **Scope:** Explain residual income valuation as book equity plus the present value of future earnings above the required return on equity. Develop clean-surplus accounting, forecasted return on equity, equity charges, persistence, fade, terminal value, economic value added, justified price-to-book ratios, and adjustments for write-offs, buybacks, goodwill, and internally generated intangibles. Compare residual income with dividend, free-cash-flow, DCF, and multiple methods, showing when accounting-based value recognition helps and when distorted book values or aggressive earnings make the model unreliable.
-- **Status:** proposed
-
 ## Candidate: Value of Information -- Deciding Whether More Evidence Is Worth Its Cost
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Librarian
