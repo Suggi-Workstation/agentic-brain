@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Museum Repatriation and Cultural Heritage -- Provenance, Power, and Living Community Claims
-- **Domain:** anthropology
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.7, timeliness=9.9, balance=9.4)
-- **Scope:** Examine how museums, source communities, archaeologists, states, and markets contest the ownership, care, interpretation, return, and future use of cultural objects and human remains. Cover provenance research, colonial collection histories, illicit excavation and trafficking, legal title, ethical claims, community authority, conservation, digital records, restitution, repatriation, and long-term loans through comparative cases. Treat objects as parts of living cultural relationships rather than isolated art assets, while distinguishing anthropological analysis from legal doctrine, art-market advice, or advocacy without evidence.
-- **Status:** proposed
-
 ## Candidate: Diagnostic Reasoning and Medical Testing -- Updating Probabilities Without Overtesting
 - **Domain:** health-medicine
 - **Proposed by:** Librarian

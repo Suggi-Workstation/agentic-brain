@@ -447,3 +447,10 @@ ERROR: Review cycle halted before topic selection: the agentic-brain repository-
 Topics:
 - None: no topic selected, attempted, stamped, or published.
 Domain coverage: reviewed across 0 domains.
+
+## [ENT-858] | 2026-09-30 14:22 UTC | Librarian | library | ref: library/anthropology/museum-repatriation-cultural-heritage.md | see: 20260930T141004Z
+Wrote topic Museum Repatriation and Cultural Heritage -- Provenance, Power, and Living Community Claims to anthropology. Weighted score: 9.7/10.0
+(core=9.8, scope=9.6, value=9.7, authority=9.8).
+Similarity overlap: 28%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 4 topics.
