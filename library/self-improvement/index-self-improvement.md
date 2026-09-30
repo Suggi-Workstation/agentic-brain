@@ -1,6 +1,6 @@
 # Self Improvement -- Topics
 
-16 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
+17 topics. Anchor: [anchor-self-improvement.md](anchor-self-improvement.md)
 
 - [Commitment Devices Work Best When Accountability Preserves Autonomy and Failure Remains Reversible](commitment-devices-and-accountability-systems.md) -- [reviewed: never] -- A commitment system makes a chosen future action easier to execute by specifying cues, exposing progress, or attaching consequences before temptation and inattention arrive. Evidence supports implementation intentions, recorded progress, reminders, and some voluntary contracts, but it also shows that public pressure and financial penalties can suppress enrollment, mis-target users, or make failure needlessly costly [1][2][3][9][11][12].
 
@@ -27,6 +27,8 @@
 - [Personal Knowledge Systems Create Value Only When Captured Ideas Return to Use](personal-knowledge-management-and-note-taking-systems.md) -- [reviewed: never] -- Personal knowledge management is the deliberate practice of capturing, processing, connecting, maintaining, retrieving, and applying information for one's own work and learning. A note collection becomes a knowledge system only when it reduces future search, supports accurate recall, or helps produce a decision, explanation, or artifact; accumulation alone can increase clutter without increasing usable knowledge [1][2][3].
 
 - [Personal N-of-1 Experiments Turn Self-Improvement Into Bounded Learning, Not Personal Proof](personal-n-of-1-experiments.md) -- [reviewed: never] -- A personal N-of-1 experiment is a planned comparison in which one person changes a low-risk practice, measures a relevant outcome repeatedly, and uses the result to make a decision for that same person. Its value comes from replacing impressionistic trial and error with a prewritten question, comparator, measurement plan, and decision rule; it does not establish what will work for other people or excuse unsafe self-experimentation [1][2][11][12].
+
+- [A Personal Workflow Works Only When It Converts Commitments Into Reviewable Action](personal-workflow-systems-and-task-management.md) -- [reviewed: never] -- A personal workflow is a control system for deciding what a person has committed to, what state each commitment is in, and what evidence will show completion. External capture, specific plans, and regular review can reduce memory demands and improve follow-through, but a larger or more elaborate task list is not inherently better [2][4][5].
 
 - [Sleep Optimization -- The Highest-Leverage Health Intervention That Costs Nothing](sleep-optimization.md) -- [reviewed: never] -- Sleep is not passive downtime but an active biological process during which the brain clears metabolic waste, consolidates memories, regulates emotions, and repairs the body. Decades of neuroscience research demonstrate that optimizing sleep -- through timing, environment, and behavioral routines -- produces larger and more reliable gains in cognitive performance, emotional stability, and physical health than any supplement, nootropic, or productivity system.
 
