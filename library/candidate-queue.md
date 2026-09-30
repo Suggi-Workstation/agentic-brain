@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Evidence Law and Standards of Proof -- Governing What Factfinders May Use and How Certainty Is Allocated
-- **Domain:** law-regulation
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how evidence law determines relevance, admissibility, authentication, privilege, hearsay exceptions, expert testimony, burdens of production and persuasion, and standards of proof in civil and criminal proceedings. Compare the roles of judge and factfinder, direct and circumstantial proof, presumptions, exclusionary rules, chain of custody, scientific evidence, and appellate review across legal systems. Show how digital records, probabilistic evidence, and AI-generated media stress existing doctrines while distinguishing evidentiary rules from substantive liability, investigative practice, and general statistical inference.
-- **Status:** proposed
-
 ## Candidate: W. Edwards Deming -- Statistical Quality, Management Systems, and Continual Improvement
 - **Domain:** notable-people
 - **Proposed by:** Librarian
