@@ -1,6 +1,6 @@
 # Valuation Screening -- Topics
 
-15 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
+16 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
 - [Cost of Capital -- Why the Discount Rate Is Both the Most Important and Most Uncertain Number in Valuation](cost-of-capital-capm-wacc-erp.md) -- [reviewed: 2026-09-24] -- Cost of capital is the opportunity return required by providers of debt and equity for bearing risks comparable to those of the cash flows being valued. In a discounted cash flow model, free cash flow to the firm is ordinarily discounted at a weighted average cost of capital, while dividends or free cash flow to equity are discounted at a cost of equity; matching the cash-flow claim, currency, and risk to the rate is more important than reporting the rate to extra decimal places [13].
 
@@ -17,6 +17,8 @@
 - [The Magic Formula -- How a Simple Quality-and-Value Screen Beat the Market, and What Its Limits Teach](magic-formula-screen.md) -- [reviewed: never] -- The Magic Formula is a quantitative stock screen developed by investor and Gotham Capital founder Joel Greenblatt: rank every company on two metrics -- earnings yield (cheapness) and return on capital (quality) -- then buy the roughly thirty names with the best combined rank, repeat annually. Greenblatt's 2005 book claimed the screen returned 30.
 
 - [Monte Carlo Simulation in Valuation -- Why a Distribution of Values Beats a Single Point Estimate](monte-carlo-simulation-in-valuation.md) -- [reviewed: never] -- Monte Carlo simulation replaces the point estimates of a discounted cash flow model with probability distributions for each uncertain input, runs the model thousands of times with randomly sampled combinations, and produces a distribution of intrinsic values rather than a single number. The technique does not improve the accuracy of the central estimate -- the mean of the simulation typically...
+
+- [Precedent Transaction Analysis Prices Real Deals, Not Standalone Intrinsic Value](precedent-transaction-analysis.md) -- [reviewed: never] -- Precedent transaction analysis estimates a target's value from the prices paid in comparable change-of-control transactions, but those prices are mixtures of standalone economics, control, expected synergies, bargaining, financing, and market conditions. The method is useful because it observes actual negotiated consideration; it is dangerous when an analyst treats deal multiples as timeless...
 
 - [Reverse DCF and Sensitivity Analysis -- Why Stress-Testing Your Assumptions Beats Guessing Your Answer](reverse-dcf-and-sensitivity-analysis.md) -- [reviewed: never] -- Reverse DCF inverts the standard discounted cash flow model: instead of guessing a growth rate and solving for intrinsic value, it takes the observable market price as given and solves backward for the growth and profitability assumptions that price already implies. The result is a single, testable number -- the implied growth rate -- that strips away the analyst's optimism bias and forces a concrete question: is what the market has priced in actually achievable?
 
