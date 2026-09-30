@@ -6,6 +6,7 @@ domain: coding-agentic-ai
 author: Librarian
 tags: [agent-planning, task-decomposition, plan-and-execute, dependency-graphs, replanning, completion-criteria, agent-reliability]
 links: [library/coding-agentic-ai/agent-harness-design.md, library/coding-agentic-ai/multi-agent-orchestration.md, library/coding-agentic-ai/agent-cost-latency-and-resource-governance.md, library/coding-agentic-ai/coding-agent-workflows-from-repository-context-to-a-verified-patch.md, library/coding-agentic-ai/agent-evaluation-and-benchmarking.md]
+reviewed: 2026-09-30
 ---
 
 # Agent Planning and Task Decomposition -- Reliable Autonomy Requires Executable Work Units and Replanning
@@ -136,6 +137,12 @@ The studies do not identify one dominant planner. Reactive execution gains fresh
 
 The author's synthesis is that planning quality should be evaluated at three levels: plan validity before execution, trajectory quality during execution, and verified outcome after execution. Metrics should include task success, invalid or skipped preconditions, dependency errors, replans, repeated actions, tool and model calls, token and monetary cost, latency, reviewer rejection, and failure severity. The cited evidence shows that success rate alone cannot explain whether a system improved through better decomposition, more search, greater spend, or a stronger verifier. [5][6][7][8]
 
+### Planning-specific diagnostics separate planning errors from execution outcomes
+
+Sun et al.'s 2026 Agent Planning Benchmark (APB) provides planning-specific diagnostic evidence that complements end-to-end agent results. APB contains 4,209 multimodal cases across 22 domains and five settings. It evaluates complete long-horizon plans, feedback-conditioned step-wise plans, and robustness when the tool set contains irrelevant tools, broken tools, or tasks that cannot be solved from the available information. Across 12 multimodal language models, the authors report systematic weaknesses in long-horizon planning, tool-noise robustness, calibrated refusal, and inference-time refinement. [12]
+
+The authors also tested whether the diagnostic signal transferred to execution. On 200 ToolSandbox tasks and 200 tau^2-bench tasks, APB-guided refinement improved plan correctness, plan grade, and downstream execution metrics across three representative models. [12] This supports evaluating planning separately before asking whether a full agent succeeded, but it does not make planning scores substitutes for deployment evidence. The paper states that its cases cannot exhaust real task diversity, that planning diagnostics should complement rather than replace end-to-end benchmarks, and that parts of the data and judging pipeline rely on proprietary foundation models despite human verification. [12]
+
 ## Implications
 
 ### For agent architects
@@ -172,7 +179,7 @@ Protect context from plan sprawl. Store full artifacts and receipts durably, the
 
 ### For evaluators and reviewers
 
-Evaluate the plan independently from the final answer. A plan-validity review asks whether steps are executable, dependencies are complete, preconditions are plausible, and terminal criteria cover the goal. A trajectory review asks whether the system followed authorized transitions, incorporated observations, avoided loops, and revised invalid assumptions. An outcome review asks whether the environment and artifacts satisfy acceptance criteria. Valmeekam et al. show why executable-plan checks matter, while ReAct and ADaPT show why trajectory adaptation also matters. [2][5][7]
+Evaluate the plan independently from the final answer. A plan-validity review asks whether steps are executable, dependencies are complete, preconditions are plausible, and terminal criteria cover the goal. A trajectory review asks whether the system followed authorized transitions, incorporated observations, avoided loops, and revised invalid assumptions. An outcome review asks whether the environment and artifacts satisfy acceptance criteria. Valmeekam et al. show why executable-plan checks matter, ReAct and ADaPT show why trajectory adaptation matters, and APB provides a planning-specific diagnostic layer that its authors validate against controlled execution tasks. [2][5][7][12]
 
 Use adversarial state changes to test replanning. Remove a dependency, change an input after planning, make one branch fail, return a partial tool result, exhaust a child budget, and make an external side effect time out after uncertain completion. The expected result is not always success; it is a bounded, accurate terminal status with valid work preserved. The author's synthesis is that a planner is reliable when failure remains diagnosable and contained, not when a benchmark contains no surprises.
 
@@ -223,6 +230,9 @@ A dependable agent can still fail to complete a difficult goal. The engineering 
 11. Erdogan, L. E., Lee, N., Kim, S., Moon, S., Furuta, H., Anumanchipalli, G., Keutzer, K., and Gholami, A. (2025). "Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks." ICML 2025, PMLR 267, pages 15419-15462.
     https://proceedings.mlr.press/v267/erdogan25a.html [high]
 
+12. Sun, H., Wang, W., Song, M., He, J., Zhang, W., Liu, Y., Yang, Y., and Cheng, Y. (2026). "Agent Planning Benchmark: A Diagnostic Framework for Planning Capabilities in LLM Agents." arXiv:2606.04874v2.
+    https://arxiv.org/abs/2606.04874v2 [high]
+
 ## See Also
 
 - `library/coding-agentic-ai/agent-harness-design.md` -- runtime state, dispatch, recovery, verification, and stopping around the plan.
@@ -230,3 +240,4 @@ A dependable agent can still fail to complete a difficult goal. The engineering 
 - `library/coding-agentic-ai/agent-cost-latency-and-resource-governance.md` -- budgets, concurrency, critical paths, and terminal states for planned runs.
 - `library/coding-agentic-ai/coding-agent-workflows-from-repository-context-to-a-verified-patch.md` -- a domain-specific evidence chain from task contract through planning, execution, and handoff.
 - `library/coding-agentic-ai/agent-evaluation-and-benchmarking.md` -- outcome, trajectory, cost, and reliability evaluation for agent systems.
+
