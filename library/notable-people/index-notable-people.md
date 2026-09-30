@@ -1,6 +1,6 @@
 # Notable People -- Topics
 
-15 topics. Anchor: [anchor-notable-people.md](anchor-notable-people.md)
+16 topics. Anchor: [anchor-notable-people.md](anchor-notable-people.md)
 
 - [Abraham Lincoln -- How a Self-Educated Frontier Lawyer Became America's Greatest Crisis Leader](abraham-lincoln.md) -- [reviewed: 2026-09-24] -- Abraham Lincoln rose from a frontier childhood and limited formal schooling to lead the United States through civil war, preserve the Union, make emancipation a Union war aim, and support the constitutional abolition of slavery. His record is instructive not because it was flawless, but because it shows a leader revising policy under pressure, using argument and evidence, managing powerful...
 
@@ -29,6 +29,8 @@
 - [Rachel Carson -- Evidence Became Reform When Scientific Synthesis Reached the Public](rachel-carson-evidence-public-communication-and-environmental-reform.md) -- [reviewed: never] -- Rachel Carson changed environmental governance not by producing one decisive experiment, but by assembling dispersed evidence about pesticides into an ecological argument that citizens and officials could evaluate. Her achievement joined scientific training, literary discipline, and institutional knowledge; its durable lesson is that public communication can make uncertainty actionable without pretending that uncertainty has disappeared ([1] [3] [5] [6]).
 
 - [Richard Feynman -- The Physicist Who Refused to Fool Himself](richard-feynman.md) -- [reviewed: never] -- Richard Feynman (1918-1988) was an American theoretical physicist who won the Nobel Prize for quantum electrodynamics, played a central role in the Manhattan Project, and uncovered the cause of the Challenger disaster -- but his most enduring legacy may be his philosophy of knowledge itself. Feynman insisted that understanding something meant being able to explain it in plain language, that the...
+
+- [W. Edwards Deming -- Statistical Discipline Became Management Reform When He Made Leaders Responsible for the System](w-edwards-deming.md) -- [reviewed: never] -- W. Edwards Deming joined sampling, statistical process control, organizational learning, and respect for people into a management philosophy that assigned leaders responsibility for the conditions under which work is done. His influence was substantial in postwar Japan and later in the United States, but the evidence supports a collaborative history: Deming extended and taught ideas rooted in...
 
 - [Winston Churchill -- Why Leadership, Rhetoric, and the Will to Prevail Define History's Most Summoned Leader](winston-churchill.md) -- [reviewed: never] -- Winston Churchill (1874-1965) was the British statesman, orator, and writer who led the United Kingdom through the Second World War and whose mastery of language, profound sense of history, and indomitable will rallied a nation at its darkest hour. His life spanned the last cavalry charge of the British Army to the dawn of the atomic age, and his career encompassed catastrophic public failures --...
 
