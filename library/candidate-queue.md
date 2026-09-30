@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Data Visualization and Statistical Graphics -- Encoding Evidence for Accurate Interpretation
-- **Domain:** communication
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.8, timeliness=9.7, balance=10.0)
-- **Scope:** Explain how charts, maps, tables, dashboards, and annotations encode quantities, relationships, uncertainty, and change for a defined audience and decision. Compare visual channels, scales, normalization, color, layout, interaction, accessibility, and narrative sequencing, showing how design can reveal patterns or introduce distortion. Distinguish statistical graphics as communication from statistical analysis itself, and connect truthful design to source verification, cognitive load, reproducibility, and alternatives for readers who cannot use a visual display.
-- **Status:** proposed
-
 ## Candidate: Agent Uncertainty, Verification, and Abstention -- Knowing When to Check, Ask, or Stop
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Librarian
