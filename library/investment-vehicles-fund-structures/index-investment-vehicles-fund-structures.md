@@ -1,6 +1,6 @@
 # Investment Vehicles Fund Structures -- Topics
 
-16 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+17 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: 2026-09-24] -- Berkshire Hathaway is a publicly traded holding company that owns decentralized operating businesses and a concentrated equity portfolio; its chief executive controls major capital-allocation decisions, while shareholders normally exit by trading their shares rather than redeeming capital from Berkshire [1].
 
@@ -29,6 +29,8 @@
 - [The Nomad Investment Partnership -- How Fee Structure, Patient Capital, and Deliberate Closure Made a Vehicle That Compounded Differently Than Any Fund](nomad-investment-partnership-fee-structure-patient-capital-deliberate-closure.md) -- [reviewed: never] -- The Nomad Investment Partnership (2001-2014) was a London-based investment partnership that compounded investor capital at approximately 20.8 percent per year net of fees versus 6.5 percent for the MSCI World Index, a 921 percent total return against 117 percent for the index. Its structural design -- a cost-reimbursement management fee capped at 1 percent, a 20 percent performance fee charged...
 
 - [Private Equity and Venture Capital Fund Structures -- How the LP-GP Partnership, Carried Interest, and the J-Curve Shape Capital Allocation](pe-vc-fund-structures-lp-gp-carried-interest-j-curve.md) -- [reviewed: never] -- Private equity and venture capital funds pool capital from passive limited partners under an active general partner, then deploy it into private companies over a decade-long closed-end lifecycle. The LP-GP partnership architecture, carried interest compensation, distribution waterfalls, and the J-curve return pattern are not incidental features -- they are the structural machinery that determines...
+
+- [Pension Funds and Endowments Turn Long Horizons Into Advantage Only When Claims, Spending, and Governance Are Explicit](pension-funds-and-endowments.md) -- [reviewed: never] -- Pension funds and endowments both pool capital for obligations that can extend across generations, but they do not owe the same thing: pension assets finance retirement claims, while endowment assets support an institutional mission under donor restrictions and board-approved spending rules [1][3][7][8].
 
 - [REITs -- Why Mandatory Distribution and Pass-Through Taxation Create a Distinct Real Estate Vehicle With Structural Growth Constraints](reits-real-estate-investment-trusts.md) -- [reviewed: never] -- Real Estate Investment Trusts (REITs) are corporate entities that own, operate, or finance income-producing real estate and qualify for pass-through tax treatment under Subchapter M of the Internal Revenue Code. In exchange for distributing at least 90 percent of taxable income to shareholders as dividends, a REIT pays little or no corporate-level tax.
 
