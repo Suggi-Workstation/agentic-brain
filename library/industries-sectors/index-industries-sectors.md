@@ -1,6 +1,6 @@
 # Industries Sectors -- Topics
 
-15 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
+16 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
 
 - [Airline Industry Economics -- Network Value Cannot Eliminate the Capacity Cycle](airline-industry-economics-fixed-costs-networks-and-cycles.md) -- [reviewed: 2026-09-21] -- Airlines create valuable connectivity by combining aircraft, airport access, schedules, and demand into networks, but their perishable inventory and committed capacity make that value difficult to retain as durable profit. Route density, hub scope, revenue management, loyalty, and disciplined capacity can improve economics; none removes exposure to price competition, fuel and labor costs, demand shocks, regulation, or the capital cycle ([1] [6] [7] [10]).
 
@@ -23,6 +23,8 @@
 - [Insurance Industry Economics -- Prices Are Set Before Loss Costs Become Known](insurance-industry-economics-pricing-risk-before-costs-are-known.md) -- [reviewed: never] -- Insurance reverses the normal commercial sequence: a carrier promises to absorb defined future losses and sets the price before the final cost of those losses is known. The industry's profit pools therefore depend less on premium growth alone than on risk selection, contract design, distribution cost, reserve development, asset-liability management, reinsurance, and the capital required to keep promises under adverse outcomes.
 
 - [Network Effects and Platform Economics -- Why Winner-Take-Most Markets Are Different](network-effects-platform-economics.md) -- [reviewed: never] -- Network effects are the single most powerful competitive force in the digital economy. When every additional user makes a product more valuable to every other user, markets stop behaving like traditional industries and start exhibiting winner-take-most dynamics that concentrate value in one or two dominant platforms.
+
+- [Payment Network Economics -- Acceptance Scale Creates Value, but Routing and Regulation Decide Who Captures It](payment-networks-and-merchant-acquiring.md) -- [reviewed: never] -- A card payment turns a brief checkout into coordinated authorization, clearing, settlement, fraud control, and dispute management across merchants, acquirers, networks, and issuers [3][14]. The industry's profits are not distributed in proportion to visible transaction volume: networks supply rules and connectivity, issuers usually receive interchange, and acquirers combine merchant access with processing and risk services while passing through much of the fee stack [6][7][13].
 
 - [Pharmaceutical Industry Economics -- Temporary Exclusivity Finances Innovation, but Competition Redistributes the Profit Pool](pharmaceutical-industry-economics.md) -- [reviewed: never] -- The pharmaceutical industry's central economic bargain is temporary exclusion to finance an uncertain, high-fixed-cost search, followed by regulated competition after protection ends. Durable returns therefore do not belong automatically to a manufacturer: bargaining power and profit can migrate as scientific risk is resolved, patents and exclusivities expire, generic or biosimilar rivals enter, and payers reshape market access ([1] [5] [7] [10]).
 
