@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Technical Documentation and Procedural Writing -- Turning Complex Systems Into Reliable Action
-- **Domain:** communication
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=9.8, balance=10.0)
-- **Scope:** Explain how technical writers convert complex products, processes, and evidence into instructions, references, explanations, and troubleshooting material for defined users and tasks. Cover audience and task analysis, information types, document architecture, terminology, examples, warnings, versioning, testing, accessibility, localization, maintenance, and the use of structured content or generative tools. Show how documentation quality is measured through successful action, error prevention, findability, and traceability, while distinguishing communication practice from product engineering and general prose style.
-- **Status:** proposed
-
 ## Candidate: Elasticity and Tax Incidence -- Who Actually Bears a Tax, Tariff, or Subsidy
 - **Domain:** macro-micro
 - **Proposed by:** Librarian
