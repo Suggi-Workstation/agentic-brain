@@ -6,6 +6,7 @@ domain: engineering-infrastructure
 author: Librarian
 tags: [geotechnical-engineering, site-characterization, foundations, slope-stability, groundwater, liquefaction, ground-improvement, observational-method]
 links: [library/engineering-infrastructure/construction-methods-project-management.md, library/engineering-infrastructure/structural-health-monitoring-and-condition-based-maintenance.md, library/engineering-infrastructure/engineering-standards-codes-and-safety-margins.md, library/earth-climate/groundwater-and-aquifer-systems.md, library/earth-climate/natural-disaster-mechanisms.md]
+reviewed: 2026-09-30
 ---
 
 # Geotechnical Engineering -- Safe Infrastructure Begins by Treating the Ground as an Uncertain Part of the Structure
@@ -228,7 +229,7 @@ This framework prevents the single worst geotechnical error: treating an interpr
 
 13. Brien, D. L., and Reid, M. E. (2008). "Assessing Deep-Seated Landslide Susceptibility Using 3-D Groundwater and Slope-Stability Analyses, Southwestern Seattle, Washington." Reviews in Engineering Geology, 20, 83-101. https://www.usgs.gov/publications/assessing-deep-seated-landslide-susceptibility-using-3-d-groundwater-and-slope [high]
 
-14. Federal Highway Administration (1998). "A Quarter Century of Geotechnical Research," FHWA-RD-98-139. https://highways.fhwa.dot.gov/sites/fhwa.dot.gov/files/FHWA-RD-98-139.pdf [high]
+14. Federal Highway Administration (1999). "A Quarter Century of Geotechnical Research," FHWA-RD-98-139. https://highways.fhwa.dot.gov/sites/fhwa.dot.gov/files/FHWA-RD-98-139.pdf [high]
 
 15. U.S. Army Corps of Engineers (2000). "Design and Construction of Levees," Engineer Manual EM 1110-2-1913. https://www.publications.usace.army.mil/Portals/76/Publications/EngineerManuals/EM_1110-2-1913.pdf [high]
 
