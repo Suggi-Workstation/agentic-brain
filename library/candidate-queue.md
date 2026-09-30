@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The Protestant Reformation and Wars of Religion -- Print, Confession, and State Power in Early Modern Europe
-- **Domain:** history
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.6/10.0 (gap=9.8, compounding=9.7, timeliness=9.0, balance=10.0)
-- **Scope:** Trace how late medieval reform movements, printing, theology, princely politics, urban institutions, and popular mobilization fractured Latin Christianity in the sixteenth century. Compare Lutheran, Reformed, Anglican, Radical, and Catholic reform, then examine confessionalization, persecution, civil conflict, diplomacy, and the wars of religion through the Peace of Westphalia. Explain how religious change reshaped literacy, state formation, family life, political legitimacy, and toleration while avoiding a simple linear story from Reformation to secular modernity.
-- **Status:** proposed
-
 ## Candidate: Durable Agent Execution -- Checkpointing, Idempotency, and Recovery Across Failures
 - **Domain:** coding-agentic-ai
 - **Proposed by:** Librarian
