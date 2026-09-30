@@ -1,6 +1,6 @@
 # Law Regulation -- Topics
 
-16 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+17 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
 
 - [Administrative Law Makes Agency Power Operational but Keeps It Legally Bounded](administrative-law-and-agency-rulemaking.md) -- [reviewed: 2026-09-22] -- Administrative law is the framework through which United States federal agencies turn congressional statutes into generally applicable rules, case-specific orders, licenses, sanctions, and other public actions. The Administrative Procedure Act supplies default procedures for rulemaking and adjudication, while organic statutes grant each agency its substantive authority and courts police the resulting boundaries.
 
@@ -21,6 +21,8 @@
 - [Environmental Law and Climate Treaties -- Why the World Keeps Negotiating Agreements It Cannot Enforce](environmental-law-climate-treaties.md) -- [reviewed: never] -- Environmental law and climate treaties constitute the body of international legal instruments designed to address anthropogenic climate change and broader environmental degradation. From the 1992 UN Framework Convention on Climate Change through the Kyoto Protocol, the Copenhagen collapse, the Paris Agreement, and the Glasgow Climate Pact, the climate regime has evolved through three distinct...
 
 - [The EU AI Act Regulates Uses and Models Through Layered Duties, Not a Single Risk Ladder](eu-ai-act-risk-tiers-general-purpose-models-compliance-and-enforcement.md) -- [reviewed: never] -- The European Union Artificial Intelligence Act combines prohibited practices, requirements for high-risk uses, transparency duties, and a separate regime for general-purpose AI models; it does not assign every AI product to one simple tier. Compliance follows the actor, intended purpose, model or system classification, lifecycle stage, and application date, while Regulation (EU) 2026/1744 changed material parts of the original 2024 timetable and enforcement architecture.
+
+- [Evidence Law Separates What May Be Considered From What Must Be Proved](evidence-law-and-standards-of-proof.md) -- [reviewed: never] -- Evidence law governs which information may enter a legal decision, for which purpose, and through what foundation; standards of proof govern how certain the factfinder must be before the law authorizes a finding. These functions are related but not interchangeable: evidence can be authentic and admissible yet weak, persuasive yet excluded for an independent legal reason, or individually inconclusive yet sufficient when combined with the whole record.
 
 - [Intellectual Property -- The Legal Fiction That Turns Ideas Into Property and Shapes the Modern Economy](intellectual-property.md) -- [reviewed: never] -- Intellectual property (IP) is the body of law that grants exclusive rights over intangible creations -- inventions, artistic works, brand identifiers, and trade secrets. By creating a temporary monopoly on ideas, IP law attempts to solve a fundamental economic problem: without protection, knowledge goods are non-rivalrous and non-excludable, meaning anyone can copy them at zero marginal cost, which would eliminate the incentive to create them in the first place.
 
