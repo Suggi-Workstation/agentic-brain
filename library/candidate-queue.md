@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Public Program Evaluation -- Determining Whether Policy Caused Better Outcomes
-- **Domain:** political-science-public-policy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=9.9, balance=10.0)
-- **Scope:** Explain how governments determine whether a program caused its intended outcomes rather than merely accompanying them. Compare theories of change, administrative data, performance measures, randomized evaluations, quasi-experiments, cost-effectiveness, distributional effects, external validity, implementation fidelity, and evidence synthesis. Show how ethics, political incentives, measurement choices, and institutional learning affect whether findings change policy, while distinguishing causal evaluation from legislative design, routine auditing, and statistical technique in isolation.
-- **Status:** proposed
-
 ## Candidate: Forecast Evaluation and Scoring Rules -- Measuring Accuracy Without Rewarding Vagueness
 - **Domain:** probabilistic-thinking-forecasting
 - **Proposed by:** Librarian
