@@ -6,6 +6,7 @@ domain: earth-climate
 author: Librarian
 tags: [climate-attribution, detection, event-attribution, fingerprints, internal-variability, counterfactuals, extreme-events]
 links: [library/earth-climate/carbon-cycle-greenhouse-effect.md, library/earth-climate/atmospheric-science-weather-systems.md, library/earth-climate/natural-disaster-mechanisms.md, library/earth-climate/wildfire-science-fuels-weather-terrain-and-climate-fire-regimes.md]
+reviewed: 2026-09-30
 ---
 
 # Climate Attribution Separates Forced Signals from Natural Variability but Does Not Turn Probability into Blame
@@ -28,7 +29,7 @@ Attribution later expanded from long-term mean change to extremes. A specific he
 
 The 2003 European summer heatwave became a landmark application. Stott, Stone, and Allen compared the risk of exceeding the observed seasonal-temperature threshold in simulations with human and natural influences against a counterfactual without human influence. They estimated with greater than 90% confidence that human influence had at least doubled the risk of exceeding that threshold [6]. The conclusion was probabilistic: anthropogenic forcing changed the odds of an event class. It did not claim that natural circulation made no contribution or that every consequence of the heatwave followed from greenhouse-gas forcing alone.
 
-By 2016, the National Academies assessed event attribution as a rapidly advancing field whose capability differed by event type. Events closely connected to a thermodynamic shift and supported by long observations, such as many heat extremes, were generally more tractable than small-scale convective storms or events whose behavior depends strongly on uncertain circulation changes. The report emphasized framing, model evaluation, observations, natural variability, multiple methods, and explicit uncertainty [4]. Later protocols formalized a sequence from event selection and definition through observational analysis, model evaluation, multi-model synthesis, vulnerability and exposure analysis, and communication [9].
+The National Academies' 2016 assessment described event attribution as a rapidly advancing field whose capability differed by event type. Its 2026 update found that expanded observations, large ensembles, and methodological advances had increased confidence for some event types, while capability remained highest for temperature extremes and lowest for severe convective storms. The update also identified compounding, cascading, and record-breaking events as continuing methodological challenges [4][15]. Protocols developed between those assessments formalized a sequence from event selection and definition through observational analysis, model evaluation, multi-model synthesis, vulnerability and exposure analysis, and communication [9].
 
 This history yields the central boundary. Climate attribution is neither a slogan that every event is caused by climate change nor a rule that no individual event can be linked to a changed climate. It is a family of testable comparisons between observed evidence and alternative causal worlds. Its strength depends on how well the analysis defines the question, represents the relevant process, samples variability, and exposes assumptions [4][7][8].
 
@@ -100,7 +101,7 @@ The field also contains active methodological criticism. Sherman, Huybers, and T
 
 A compound event combines variables or sequences whose joint occurrence matters, such as heat plus drought, surge plus rainfall plus river flow, or wildfire followed by intense rain on a burn scar. Attribution must define the joint hazard and preserve dependence among components. Multiplying marginal probabilities as though variables were independent can misstate risk, while a one-dimensional impact index can conceal which component changed [2][10].
 
-Physical event attribution should also stop at its evidence boundary. A fire-weather index concerns meteorological conditions favorable to fire, not ignition, fuel treatment, suppression, building exposure, or mortality. Rainfall attribution does not automatically attribute flood depth where drainage, soil moisture, dams, river geometry, and land cover mediate the response. Impact attribution requires those additional causal links and data [4][9][12].
+Physical event attribution should also stop at its evidence boundary. A fire-weather index concerns meteorological conditions favorable to fire, not ignition, fuel treatment, suppression, building exposure, or mortality. Rainfall attribution does not automatically attribute flood depth where drainage, soil moisture, dams, river geometry, and land cover mediate the response. Impact attribution requires those additional causal links and data [4][9][12]. The 2026 National Academies assessment treats extreme-event impact attribution as a distinct, emerging field. For an individual event, it finds intensity-based methods more defensible than assuming that a fraction of attributable hazard probability is the same fraction of realized impact: the attributed change in temperature, wind, or rainfall must instead pass through a location-specific impact-response function or process model, with uncertainty propagated across the chain [15].
 
 ## Evidence
 
@@ -138,9 +139,15 @@ Philip and colleagues documented a probabilistic rapid-attribution protocol buil
 
 The protocol also permits a null or inconclusive result. The paper's examples include analyses whose confidence intervals spanned both a decrease and an increase in probability, preventing a quantitative attribution claim. That outcome is evidence about current resolution rather than a reason to remove uncertainty from communication [9]. Reproducible rapid analysis can therefore be scientifically useful, but speed does not exempt the event definition, model evaluation, or uncertainty gates.
 
+### The 2026 National Academies update separates event attribution from impact attribution
+
+The National Academies' 2026 consensus report reviewed the decade of progress since its 2016 assessment. It found increased confidence for some event types because of expanded observations, larger ensembles, and improved methods, but retained a marked hierarchy: confidence is highest for temperature extremes and lowest for severe convective storms. It also concluded that compound, cascading, and record-breaking events remain difficult because cross-scale interactions, distribution tails, and relevant dynamics are incompletely represented [15].
+
+The report separately assessed extreme-event impact attribution. It rejected the shortcut of treating a hazard's fraction of attributable risk as the fraction of mortality, economic loss, or another realized impact. Its preferred individual-event approach uses the attributed change in hazard intensity as input to an impact-response function or process model appropriate to the location and impact, then carries uncertainty from the physical attribution through that second model [15]. This distinction updates the evidentiary boundary: physical hazard attribution can be mature even when impact attribution is data-limited, and neither result by itself assigns legal or moral responsibility [8][15].
+
 ### Method challenges are observable and testable
 
-The National Academies identified low-frequency internal variability, short observations, model deficiencies, event definition, counterfactual sea-surface-temperature construction, and uncertainty quantification as recurring challenges. It recommended multiple methods and sensitivity analyses where a single formal interval could not represent every structural choice [4]. These recommendations are testable: analysts can vary definitions, compare observation products, evaluate control simulations, reject unfit models, and disclose how results change.
+The National Academies identified low-frequency internal variability, short observations, model deficiencies, event definition, counterfactual construction, and uncertainty quantification as recurring challenges in 2016; its 2026 update added persistent limitations for fine-scale dynamics and compound, cascading, and record-breaking events [4][15]. Multiple methods and sensitivity analyses remain necessary where a single formal interval cannot represent every structural choice. These recommendations are testable: analysts can vary definitions, compare observation products, evaluate control simulations, reject unfit models, and disclose how results change.
 
 Van Oldenborgh and colleagues further showed that selection and framing can bias collections of studies even when each individual estimate is unbiased for its own question. Impactful events are preferentially analyzed, events made less extreme may be underrepresented, and changing event definitions can change the result. A catalogue of published event studies is therefore not an unbiased sample from all weather [10].
 
@@ -150,7 +157,7 @@ Sherman and colleagues supplied a direct stress test for one empirical fitting a
 
 ### Match the claim to the method
 
-For researchers, the first requirement is to state the estimand before selecting data. A fingerprint study may estimate the contribution of forcing categories to a multi-decadal trend. A probabilistic event study may estimate RR or FAR for a threshold-defined event class. A storyline may estimate the thermodynamic change in a particular event conditional on its circulation. An impact study may propagate a hazard difference through hydrological, ecological, health, or economic models. These outputs answer related but nonidentical questions [1][4][8].
+For researchers, the first requirement is to state the estimand before selecting data. A fingerprint study may estimate the contribution of forcing categories to a multi-decadal trend. A probabilistic event study may estimate RR or FAR for a threshold-defined event class. A storyline may estimate the thermodynamic change in a particular event conditional on its circulation. An impact study may propagate an attributed hazard-intensity difference through hydrological, ecological, health, or economic response models. These outputs answer related but nonidentical questions [1][4][8][15].
 
 The practical test is whether another analyst could reconstruct the factual population, counterfactual population, threshold, conditioning, and uncertainty. If not, the attribution statement is underspecified. Reporting only that climate change made an event "more likely" omits the event definition, comparison climate, magnitude, interval, and model scope needed to interpret the claim [4][9].
 
@@ -206,9 +213,9 @@ Communication should also distinguish central estimates, ranges, and lower bound
 
 ### Keep physical attribution separate from liability and policy
 
-Physical attribution can inform risk assessment by estimating how human influence changed a climate hazard. It does not alone assign emissions to actors, establish legal duty or causation standards, value damages, choose adaptation, or distribute responsibility. Those steps require emissions attribution, exposure and vulnerability evidence, legal rules, ethics, economics, and policy judgment outside the earth-climate domain [4][8].
+Physical attribution can inform risk assessment by estimating how human influence changed a climate hazard. Impact attribution can extend that estimate through exposure, vulnerability, and response models, but neither result alone assigns emissions to actors, establishes legal duty or causation standards, values damages, chooses adaptation, or distributes responsibility. Those steps require emissions attribution, local impact evidence, legal rules, ethics, economics, and policy judgment outside the earth-climate domain [8][15].
 
-The boundary works in both directions. Legal or political controversy does not alter the physical evidence, and a strong physical attribution does not predetermine a legal verdict. The scientifically durable output is a conditional causal estimate with transparent assumptions. Keeping that output distinct from downstream judgment makes it more usable, not less relevant [4][8].
+The boundary works in both directions. Legal or political controversy does not alter the physical evidence, and a strong physical or impact attribution does not predetermine a legal verdict. The scientifically durable output is a conditional causal estimate with transparent assumptions. Keeping that output distinct from downstream judgment makes it more usable, not less relevant [8][15].
 
 ### The durable workflow is a sequence of falsifiable gates
 
@@ -259,6 +266,9 @@ Applied carefully, detection and attribution convert the vague question "Was thi
 
 14. NOAA Climate.gov (2016). "Extreme event attribution: the climate versus weather blame game."
     https://www.climate.gov/news-features/understanding-climate/extreme-event-attribution-climate-versus-weather-blame-game [high]
+
+15. National Research Council (2026). Attribution of Extreme Weather and Climate Events and Their Impacts. National Academies Press.
+    https://doi.org/10.17226/28590 [high]
 
 ## See Also
 
