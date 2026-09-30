@@ -1,6 +1,6 @@
 # Political Science Public Policy -- Topics
 
-15 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+16 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
 
 - [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: 2026-09-20] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules, while public administration is the discipline and practice that studies, designs, and reforms that apparatus. The field examines how recruitment, authority, discretion, procedure, and performance systems affect the conversion of legal mandates into outcomes.
 
@@ -25,6 +25,8 @@
 - [Public Budgeting Makes Political Priorities Binding Only When Fiscal Institutions Constrain Discretion](public-budgeting-and-fiscal-institutions.md) -- [reviewed: never] -- Public budgeting converts forecasts, laws, political priorities, and financing constraints into authority to collect revenue and spend public money [1][2]. An announced priority becomes operational only when the budget assigns resources, the legislature authorizes them, administrators can execute them, and reporting and audit make departures visible [1][3].
 
 - [Public Policy Design and Implementation -- Why Legislative Intent Rarely Survives Contact With the Implementation Pipeline](public-policy-design-implementation.md) -- [reviewed: never] -- Public policy design and implementation is the study of how legislative intent travels through a chain of administrative, organizational, and discretionary stages to produce observable outcomes. The field emerged from the discovery that policy adoption -- the passage of a law or issuance of a mandate -- is not the endpoint of the policy process but merely its midpoint.
+
+- [Public Program Evaluation -- Causal Evidence Improves Policy Only When Design, Delivery, and Decisions Are Evaluated Together](public-program-evaluation.md) -- [reviewed: never] -- Public program evaluation is the structured use of evidence to assess a public intervention's design, implementation, results, efficiency, equity, or sustainability [1][5][6]. It can determine whether a program plausibly caused better outcomes only when the evaluation defines the intervention, measures its delivery, constructs a credible comparison, and connects findings to an institution capable of acting on them [1][3][7].
 
 - [Regulatory Institutions and Independent Agencies -- Expertise Requires Independence, but Independence Requires Accountability](regulatory-institutions-independent-agencies.md) -- [reviewed: never] -- Regulatory institutions translate legislative mandates into continuing decisions about market access, prices, standards, information, and enforcement. Their effectiveness depends on a credible balance: enough operational independence to decide technical cases without improper pressure, and enough accountability, transparency, and review to keep delegated authority connected to law and public purpose ([1], [2], [7]).
 
