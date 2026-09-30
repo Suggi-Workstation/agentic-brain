@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Historiography and Historical Method -- How Sources, Archives, and Narrative Support Claims About the Past
-- **Domain:** history
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.8, timeliness=9.8, balance=10.0)
-- **Scope:** Explain how historians turn incomplete and contested traces into warranted accounts through source criticism, contextualization, corroboration, chronology, comparison, causal argument, and engagement with prior scholarship. Examine archives, silences, oral history, material evidence, quantitative records, periodization, counterfactuals, schools of interpretation, public history, and the ethical treatment of subjects and communities. Show how digitization and generative AI change access and verification without removing uncertainty, and distinguish disciplined historical interpretation from memory, propaganda, antiquarian collection, or fictional reconstruction.
-- **Status:** proposed
-
 ## Candidate: Digital Transformation and Technology Adoption -- Turning New Tools Into Organizational Capability
 - **Domain:** business-management-strategy
 - **Proposed by:** Librarian
