@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Durable Agent Execution -- Checkpointing, Idempotency, and Recovery Across Failures
-- **Domain:** coding-agentic-ai
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how long-running agent workflows preserve state, resume after crashes or timeouts, and retry work without losing progress or repeating external side effects. Cover checkpoints, event histories, deterministic replay, idempotency keys, leases, compensating actions, outbox patterns, human waits, cancellation, versioning, and recovery tests across model and tool calls. Distinguish durable execution from conversational memory, generic observability, and blind retry loops, showing how failure semantics make autonomous work safe enough for production.
-- **Status:** proposed
-
 ## Candidate: The Wealth of Nations -- How Adam Smith Linked Specialization, Exchange, Institutions, and Prosperity
 - **Domain:** books
 - **Proposed by:** Librarian
