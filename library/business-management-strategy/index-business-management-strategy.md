@@ -1,10 +1,12 @@
 # Business Management Strategy -- Topics
 
-15 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
+16 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
 
 - [Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes](corporate-governance-board-effectiveness.md) -- [reviewed: 2026-09-09] -- Corporate governance allocates decision rights and accountability among the people who finance, direct, and operate a company. Boards are central to this system: they oversee leadership, major decisions, and the information needed to identify risks, but their effectiveness depends on incentives, competence, and the surrounding institutions rather than a formal independence label alone.
 
 - [Customer Acquisition and Retention -- Why Growth Quality Depends on Cohort Economics, Not a Universal Retention Rule](customer-acquisition-and-retention.md) -- [reviewed: 2026-09-21] -- Customer acquisition and retention are linked investment decisions: how a firm wins a customer affects that customer's subsequent behavior, while expected retention determines how much the firm can rationally spend to acquire the customer ([4] [5]). The relevant objective is not to maximize either new customers or tenure in isolation, but to maximize risk-adjusted contribution from customer cohorts after acquisition, service, retention, and capital costs ([3] [6]).
+
+- [Digital Transformation Creates Value Only When Technology Becomes Organizational Capability](digital-transformation-and-technology-adoption.md) -- [reviewed: never] -- Digital transformation is not the purchase of a new tool; it is the coordinated redesign of value creation, processes, decision rights, skills, data, incentives, and controls around digital technology [1][2]. A technology investment becomes organizational capability only when people can use it repeatedly in normal operations, management can govern and improve it, and the resulting changes produce measured outcomes that survive beyond a pilot [3][4][6].
 
 - [Executive Compensation and Incentive Design -- Alignment Depends on Contract Structure and Governance](executive-compensation-incentive-design.md) -- [reviewed: 2026-09-29] -- Executive compensation links managerial wealth, decision rights, and measured performance, but pay is only one part of the governance system that aligns managers with owners. Contract design must balance incentives, risk, retention, measurement error, and the possibility that executives influence the process that sets their own pay [1][5][6].
 
