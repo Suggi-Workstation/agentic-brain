@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Clinical Trials and Evidence-Based Medicine -- Designing Trustworthy Tests of Treatment Benefits and Harms
-- **Domain:** health-medicine
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.8, timeliness=9.8, balance=9.3)
-- **Scope:** Explain how randomized and nonrandomized clinical studies turn treatment questions into estimates that can guide care, covering eligibility, controls, allocation, blinding, endpoints, sample size, protocol deviations, missing data, adverse events, and prespecified analysis. Show how effect size, uncertainty, multiplicity, external validity, registration, reporting, replication, and systematic review determine whether a statistically positive result is clinically credible. Distinguish trial design and evidence appraisal from drug-development operations, general experimental design, and regulatory approval, while addressing pragmatic, decentralized, adaptive, and real-world-data approaches.
-- **Status:** proposed
-
 ## Candidate: Bankruptcy and Restructuring Law -- How Priority, Stays, and Reorganization Allocate Financial Distress
 - **Domain:** law-regulation
 - **Proposed by:** Librarian
