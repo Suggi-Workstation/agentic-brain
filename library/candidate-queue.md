@@ -177,3 +177,35 @@
 - **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.7, balance=10.0)
 - **Scope:** Explain how a personal workflow turns incoming demands into trusted next actions, projects, waiting items, calendars, and deliberate noncommitments. Compare capture, clarification, prioritization, review, batching, interruption recovery, delegation, and completion criteria across paper and digital systems, including failure modes such as duplicate lists, stale tasks, overplanning, and notification overload. Provide a reversible design and weekly audit that separates tasks from reference knowledge, protects focus, and measures whether the system reduces missed commitments and cognitive load rather than merely producing tidy lists.
 - **Status:** proposed
+
+## Candidate: Applied Cryptography -- From Mathematical Primitives to Protocols and Key Management
+- **Domain:** technology
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how applied cryptography combines randomness, symmetric encryption, public-key methods, hashes, message authentication, digital signatures, key derivation, and authenticated protocols to protect data and identities. Cover threat models, key generation and storage, certificate and trust systems, rotation, revocation, forward secrecy, implementation failures, side channels, algorithm agility, and migration across software, hardware, and networks. Show why secure primitives do not automatically create secure systems, while distinguishing general cryptographic engineering from blockchain design, cybersecurity governance, digital-identity policy, and post-quantum migration alone.
+- **Status:** proposed
+
+## Candidate: Pension Funds and Endowments -- Governing Long-Horizon Capital Under Obligations and Spending Rules
+- **Domain:** investment-vehicles-fund-structures
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=9.9, balance=10.0)
+- **Scope:** Explain how defined-benefit and defined-contribution pension funds and perpetual endowments convert long-lived obligations or spending mandates into governed pools of investable capital. Compare funding sources, beneficiary claims, discount rates, payout rules, asset-liability management, liquidity, delegated management, alternative assets, fees, governance, political constraints, and intergenerational equity. Show why patient capital can still face leverage, valuation, cash-flow, and accountability failures, while distinguishing vehicle architecture from personal retirement planning, security valuation, and portfolio optimization in isolation.
+- **Status:** proposed
+
+## Candidate: Evidence Law and Standards of Proof -- Governing What Factfinders May Use and How Certainty Is Allocated
+- **Domain:** law-regulation
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.8, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how evidence law determines relevance, admissibility, authentication, privilege, hearsay exceptions, expert testimony, burdens of production and persuasion, and standards of proof in civil and criminal proceedings. Compare the roles of judge and factfinder, direct and circumstantial proof, presumptions, exclusionary rules, chain of custody, scientific evidence, and appellate review across legal systems. Show how digital records, probabilistic evidence, and AI-generated media stress existing doctrines while distinguishing evidentiary rules from substantive liability, investigative practice, and general statistical inference.
+- **Status:** proposed
+
+## Candidate: W. Edwards Deming -- Statistical Quality, Management Systems, and Continual Improvement
+- **Domain:** notable-people
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.6/10.0 (gap=9.6, compounding=9.8, timeliness=8.8, balance=10.0)
+- **Scope:** Profile William Edwards Deming's evolution from physicist and statistician to teacher of statistical quality control and systems-based management in government, wartime industry, postwar Japan, and the United States. Examine his use of variation, sampling, feedback, organizational learning, supplier relationships, management responsibility, and the System of Profound Knowledge, including disputes over credit, simplification, and the limits of hero narratives. Extract durable lessons from his teaching, consulting, failures of reception, and institutional legacy while keeping the focus on Deming as a person rather than turning the biography into a general quality-management manual.
+- **Status:** proposed
