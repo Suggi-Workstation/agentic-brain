@@ -177,3 +177,35 @@
 - **Discovery score:** 9.6/10.0 (gap=9.6, compounding=9.8, timeliness=8.8, balance=10.0)
 - **Scope:** Profile William Edwards Deming's evolution from physicist and statistician to teacher of statistical quality control and systems-based management in government, wartime industry, postwar Japan, and the United States. Examine his use of variation, sampling, feedback, organizational learning, supplier relationships, management responsibility, and the System of Profound Knowledge, including disputes over credit, simplification, and the limits of hero narratives. Extract durable lessons from his teaching, consulting, failures of reception, and institutional legacy while keeping the focus on Deming as a person rather than turning the biography into a general quality-management manual.
 - **Status:** proposed
+
+## Candidate: Forecast Aggregation and Ensembles -- Combining Models and Judgments Without Counting the Same Evidence Twice
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=10.0, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how multiple model forecasts and independent judgments can be combined into a probability, distribution, or ranked set that is often more robust than any contributor alone. Compare simple and performance-weighted averages, medians, Bayesian combinations, linear opinion pools, ensembles, extremizing, trimming, and prediction markets, covering calibration, diversity, dependence, correlated errors, regime change, missing forecasts, and incentives. Show when aggregation improves accuracy and when shared data or model structure creates false confidence, while distinguishing combination methods from scoring after resolution and communication of uncertainty.
+- **Status:** proposed
+
+## Candidate: Telecommunications Industry Economics -- Spectrum, Network Scale, Churn, and Capital Intensity
+- **Domain:** industries-sectors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.8, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how telecommunications operators convert spectrum, towers, fiber, satellites, switching systems, and customer relationships into fixed-cost networks whose economics depend on coverage, capacity, utilization, and churn. Compare mobile, fixed-line, cable, wholesale fiber, and satellite models, covering spectrum rights, interconnection, roaming, network sharing, pricing, regulation, capital cycles, convergence, and consolidation. Show where scale and density create durable advantages and where technological substitution or heavy reinvestment erodes returns, while distinguishing industry structure from communications engineering and individual-company analysis.
+- **Status:** proposed
+
+## Candidate: Public Procurement -- How Governments Buy Capacity, Competition, and Accountability
+- **Domain:** political-science-public-policy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how governments translate budgets and policy mandates into contracts for goods, services, infrastructure, and technology. Cover need definition, market engagement, tender design, supplier qualification, award criteria, contract management, data, complaints, audit, emergency purchasing, corruption controls, and professional capability, comparing centralized and decentralized systems. Show how competition, discretion, digital platforms, and AI can improve or distort value, resilience, accountability, and access for smaller suppliers, while distinguishing procurement institutions from contract law and private purchasing practice.
+- **Status:** proposed
+
+## Candidate: Transnational Popular Culture -- How Media Crosses Borders, Changes Meaning, and Reorders Cultural Power
+- **Domain:** pop-culture
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.7, timeliness=9.9, balance=10.0)
+- **Scope:** Examine how films, television, music, games, formats, celebrities, and internet genres move across borders and are translated, localized, remade, hybridized, or resisted. Analyze how language, diaspora, platform discoverability, cultural intermediaries, state policy, and uneven production power shape which works travel and how audiences reinterpret them. Use comparative cases to show when circulation broadens cultural exchange or produces homogenization and asymmetry, while distinguishing cultural analysis from media-industry valuation, foreign policy, and adaptation between media.
+- **Status:** proposed
