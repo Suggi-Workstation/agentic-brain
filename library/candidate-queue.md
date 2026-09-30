@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Working Capital Management and the Cash Conversion Cycle -- Financing Operations Without Hiding Liquidity Risk
-- **Domain:** finance
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.5, compounding=9.8, timeliness=9.5, balance=10.0)
-- **Scope:** Explain how receivables, inventory, payables, cash buffers, and short-term funding determine the amount and timing of capital tied up in operations. Develop the cash conversion cycle, seasonal and structural working-capital needs, liquidity policies, supplier and customer terms, financing instruments, stress tests, and trade-offs among growth, resilience, profitability, and counterparty relationships. Distinguish legitimate operating-cycle management from accounting manipulation, one-period window dressing, and valuation adjustments, connecting reported balances to cash-flow evidence and financing decisions.
-- **Status:** proposed
-
 ## Candidate: The Protestant Reformation and Wars of Religion -- Print, Confession, and State Power in Early Modern Europe
 - **Domain:** history
 - **Proposed by:** Librarian
