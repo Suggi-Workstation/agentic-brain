@@ -1,6 +1,6 @@
 # History -- Topics
 
-15 topics. Anchor: [anchor-history.md](anchor-history.md)
+16 topics. Anchor: [anchor-history.md](anchor-history.md)
 
 - [The 1918 Influenza Pandemic Became a Global Catastrophe Through War Mobilization and Unequal State Capacity](1918-influenza-pandemic-war-public-health-and-demographic-change.md) -- [reviewed: 2026-09-22] -- The 1918-1920 influenza pandemic was not a biological event that merely coincided with the First World War: military mobilization, mass transport, and crowded institutions accelerated spread, while mortality varied with economic conditions and the local resources available for public health and care.
 
@@ -13,6 +13,8 @@
 - [The French Revolution Remade Political Order by Turning Subjects into Citizens While Exposing the Limits of Universal Rights](french-revolution-revolution-rights-and-remaking-political-order.md) -- [reviewed: never] -- The French Revolution transformed a fiscal and constitutional crisis into a struggle over sovereignty, citizenship, property, religion, and social rank, replacing the corporate order of the ancien regime with the claim that political authority came from the nation ([1] [2] [3]). Its institutions changed repeatedly between 1789 and 1799, but the abolition of legal privilege, the language of...
 
 - [The Great Depression Became a Global Rupture Because Fragile Institutions Turned Recession into Systemic Collapse](great-depression-financial-collapse-policy-failure-and-institutional-change.md) -- [reviewed: never] -- The Great Depression was not simply the stock-market crash of 1929 or a severe United States business cycle. It became a worldwide economic and political rupture because the interwar gold standard, vulnerable banking systems, debt deflation, trade barriers, and constrained policy responses transmitted and amplified the initial contraction.
+
+- [Historiography and Historical Method -- Warranted Accounts Come From Criticized Evidence, Explicit Inference, and Revisable Narrative](historiography-and-historical-method.md) -- [reviewed: never] -- Historians do not recover the past intact; they construct warranted accounts from traces that survived selective creation, preservation, description, and access. Historical method makes that construction answerable to evidence through source criticism, contextualization, corroboration, chronology, comparison, and explicit causal reasoning, while historiography tests how earlier questions and narrative choices shaped what could be seen [1][2][3][4].
 
 - [The History of Capitalism -- How Banking, the Corporation, and Fiat Money Turned Regional Trade into a Global System of Compounding Wealth](history-of-capitalism.md) -- [reviewed: never] -- Capitalism is not a natural state of human affairs but a specific set of institutions -- private property, credit, the joint-stock corporation, and managed money -- assembled piecemeal over roughly six centuries, from Italian merchant banking in the 1300s to the fiat-money global markets of today. Its history is the story of how these institutional inventions lowered the cost of trust between...
 
