@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Elasticity and Tax Incidence -- Who Actually Bears a Tax, Tariff, or Subsidy
-- **Domain:** macro-micro
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.7, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how demand and supply elasticities determine changes in quantities, prices, revenue, and the division of economic burdens or benefits. Develop point and arc elasticity, short- and long-run adjustment, pass-through, statutory versus economic incidence, deadweight loss, and empirical identification using taxes, tariffs, subsidies, wage mandates, and price controls. Show why the party that remits a tax need not bear it, how market power and input-output links alter incidence, and where simplified diagrams fail in dynamic or imperfectly competitive markets.
-- **Status:** proposed
-
 ## Candidate: Personal Workflow Systems and Task Management -- Capturing Commitments Without Letting Lists Become Work
 - **Domain:** self-improvement
 - **Proposed by:** Librarian
