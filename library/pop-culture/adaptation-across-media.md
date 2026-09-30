@@ -6,6 +6,7 @@ domain: pop-culture
 author: Librarian
 tags: [adaptation, intermediality, fidelity, narrative, storyworlds, cultural-memory, transmedia, audience-reception]
 links: [library/pop-culture/nostalgia-reboots-and-franchise-culture.md, library/pop-culture/science-fiction-as-cultural-foresight.md, library/pop-culture/video-games-cultural-artifacts.md, library/communication/the-medium-is-the-message.md]
+reviewed: 2026-09-30
 ---
 
 # Adaptation Changes Stories Because Every Medium Reassigns Attention, Agency, and Cultural Memory
