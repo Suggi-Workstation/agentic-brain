@@ -177,3 +177,35 @@
 - **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.7, timeliness=9.9, balance=9.4)
 - **Scope:** Examine how museums, source communities, archaeologists, states, and markets contest the ownership, care, interpretation, return, and future use of cultural objects and human remains. Cover provenance research, colonial collection histories, illicit excavation and trafficking, legal title, ethical claims, community authority, conservation, digital records, restitution, repatriation, and long-term loans through comparative cases. Treat objects as parts of living cultural relationships rather than isolated art assets, while distinguishing anthropological analysis from legal doctrine, art-market advice, or advocacy without evidence.
 - **Status:** proposed
+
+## Candidate: Diagnostic Reasoning and Medical Testing -- Updating Probabilities Without Overtesting
+- **Domain:** health-medicine
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how clinicians move from symptoms and signs to differential diagnoses, pretest probabilities, test choices, posterior probabilities, and follow-up decisions. Cover history and examination, likelihood ratios, thresholds, incidental findings, false positives and negatives, cognitive and system errors, consultation, safety-netting, feedback, and shared decisions. Show why more testing can increase harm when prevalence, test performance, downstream consequences, or patient preferences are ignored, while distinguishing diagnosis from preventive screening, treatment trials, and AI tool engineering.
+- **Status:** proposed
+
+## Candidate: Technical Documentation and Procedural Writing -- Turning Complex Systems Into Reliable Action
+- **Domain:** communication
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how technical writers convert complex products, processes, and evidence into instructions, references, explanations, and troubleshooting material for defined users and tasks. Cover audience and task analysis, information types, document architecture, terminology, examples, warnings, versioning, testing, accessibility, localization, maintenance, and the use of structured content or generative tools. Show how documentation quality is measured through successful action, error prevention, findability, and traceability, while distinguishing communication practice from product engineering and general prose style.
+- **Status:** proposed
+
+## Candidate: Elasticity and Tax Incidence -- Who Actually Bears a Tax, Tariff, or Subsidy
+- **Domain:** macro-micro
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.7, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how demand and supply elasticities determine changes in quantities, prices, revenue, and the division of economic burdens or benefits. Develop point and arc elasticity, short- and long-run adjustment, pass-through, statutory versus economic incidence, deadweight loss, and empirical identification using taxes, tariffs, subsidies, wage mandates, and price controls. Show why the party that remits a tax need not bear it, how market power and input-output links alter incidence, and where simplified diagrams fail in dynamic or imperfectly competitive markets.
+- **Status:** proposed
+
+## Candidate: Personal Workflow Systems and Task Management -- Capturing Commitments Without Letting Lists Become Work
+- **Domain:** self-improvement
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.7, balance=10.0)
+- **Scope:** Explain how a personal workflow turns incoming demands into trusted next actions, projects, waiting items, calendars, and deliberate noncommitments. Compare capture, clarification, prioritization, review, batching, interruption recovery, delegation, and completion criteria across paper and digital systems, including failure modes such as duplicate lists, stale tasks, overplanning, and notification overload. Provide a reversible design and weekly audit that separates tasks from reference knowledge, protects focus, and measures whether the system reduces missed commitments and cognitive load rather than merely producing tidy lists.
+- **Status:** proposed
