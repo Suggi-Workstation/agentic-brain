@@ -6,6 +6,7 @@ domain: law-regulation
 author: Librarian
 tags: [bankruptcy-law, insolvency-law, restructuring, creditor-priority, automatic-stay, reorganization, cross-border-insolvency]
 links: [library/law-regulation/contract-law-foundations.md, library/law-regulation/corporate-law-governance.md, library/business-management-strategy/turnaround-management-crisis-management.md, library/macro-micro/sovereign-debt-dynamics.md]
+reviewed: 2026-09-30
 ---
 
 # Bankruptcy Law Preserves Value by Replacing Individual Collection With Collective Choice
@@ -21,6 +22,8 @@ Insolvency and illiquidity must be separated. A firm can have assets whose expec
 Liquidation and reorganization are therefore alternative methods, not moral opposites. Liquidation can sell assets piecemeal, sell a business or division as a going concern, or combine both methods. Reorganization keeps some business activity and reallocates claims through a plan, often exchanging debt for cash, new debt, equity, or contingent rights. Both methods can preserve going-concern value; a court-supervised going-concern sale may be economically closer to a reorganization than to a shutdown. The relevant comparison is the value and risk of feasible alternatives after costs, delay, and financing needs, not the label attached to the proceeding.[1][2][12] A legal system fails if it liquidates viable enterprises too quickly, but it also fails if it protects nonviable enterprises until administrative expense, asset deterioration, or new borrowing consumes the remaining estate.[1][13]
 
 Modern systems differ in who controls the debtor while that comparison is made. United States chapter 11 usually leaves management in possession, gives the debtor in possession many powers and duties of a trustee, permits ordinary business operations, and allows court-approved post-petition borrowing.[3][4] Other systems more readily appoint an administrator, insolvency practitioner, receiver, or liquidator, either displacing management or supervising it. The United Kingdom's 2020 framework added a free-standing moratorium supervised by a monitor and a restructuring plan capable of binding dissenting classes, while the European Union requires Member States to provide preventive frameworks in which debtors can restructure early and may remain wholly or partly in possession.[5][7] These are not simply debtor-friendly and creditor-friendly labels. Each allocation of control creates a different combination of information, speed, accountability, and risk of self-dealing.[1][11]
+
+The EU framework changed again in 2026. Directive (EU) 2026/799 entered into force on April 21, 2026 and establishes minimum rules for avoidance actions, asset tracing, pre-pack proceedings, directors' duties to request insolvency proceedings, creditors' committees, and national information factsheets.[15] Most provisions require national transposition by January 22, 2029, with a later deadline where specified bank-account-register connections are concerned.[15] The Directive is therefore a binding harmonization measure but not proof that every required tool already operates uniformly in every Member State. Current legal analysis must distinguish the Directive's rules from the national law that applies before and after transposition.[15]
 
 Priority supplies the ex ante architecture around which this process operates. Secured creditors expect recourse to specified collateral; administrative expenses and authorized rescue finance may receive priority for preserving the estate; employees, tax authorities, consumers, or other groups may receive statutory preferences; ordinary unsecured creditors share the residual available at their rank; subordinated claims and equity stand behind senior claims. The World Bank Principles recommend clear and predictable rankings and caution against proliferating priorities that dilute the recovery expected by ordinary creditors.[2] Reorganization adds a valuation problem because the reorganized business is not sold for an observable cash price. The court and parties must estimate enterprise value to decide whether a class is impaired, whether dissenting creditors receive at least their liquidation or next-best-alternative entitlement, and whether a junior class can retain value over a senior class's objection.[3][5][14]
 
@@ -82,6 +85,8 @@ A debtor approaching insolvency may repay an affiliate, grant late security, tra
 
 Avoidance law must distinguish improper depletion from ordinary commerce. Rules that are too narrow invite insiders and informed creditors to extract value before filing. Rules that are too broad make suppliers and rescue lenders fear that normal transactions will later be unwound, accelerating refusal to trade with a distressed debtor.[1][5] Look-back periods, intent tests, insolvency presumptions, ordinary-course defenses, new-value defenses, related-party rules, and protection for good-faith financing determine the balance.[1][3][5]
 
+Directive (EU) 2026/799 adds minimum EU rules to that balance. It distinguishes congruent and incongruent coverage, addresses acts for no or manifestly inadequate consideration and acts intentionally detrimental to creditors, protects qualifying interim and new financing, and permits national rules that are more favorable to the general body of creditors.[15] It does not harmonize the definition of inability to pay debts as they fall due and leaves Member States important choices about the legal effect of a successful avoidance action.[15] Until transposition, those common rules should be treated as forthcoming national-law requirements rather than silently substituted for the law already governing a transaction.[15]
+
 ### Claims, classes, voting, and confirmation convert bargaining into law
 
 The claims process determines who may share, vote, object, or receive notice. Claims can be allowed, disputed, contingent, secured, priority, unsecured, subordinated, or held against different group entities. Classification places claims or interests with sufficiently similar legal rights into voting groups.[1][3] Economic interests can differ within one nominal rank because of guarantees, collateral, credit hedges, debt purchases, litigation positions, or ownership in another entity, so disclosure and conflicts matter even when formal rights appear similar.
@@ -101,6 +106,8 @@ EU Regulation 2015/848 uses the centre of main interests, or COMI, to allocate j
 A pure out-of-court workout depends on consent and existing contract terms. Creditors may agree to a standstill, share information, appoint a coordinating committee, commission an independent business review, amend debt, provide new money, exchange debt for equity, or sell assets.[9] The process can preserve confidentiality and reduce court cost, but a single holdout, enforcement action, unavailable priority, or non-consenting contract party can defeat it. A distressed-debt purchaser can also change the bargaining coalition after negotiations begin.[9]
 
 Hybrid and preventive procedures add selected legal effects. A court may impose a temporary stay, confirm a majority-approved plan, protect new money, or bind dissenters while leaving most negotiation outside court.[5][7][9] A pre-pack goes further by negotiating the restructuring or sale before filing and using the case to transfer assets or bind claims quickly. Speed can preserve value; inadequate marketing, disclosure, or conflict controls can transfer value to insiders or a favored buyer. The author's assessment is that the form should match the coordination problem: use private agreement where consent is attainable, add limited coercion where holdout is the obstacle, and use full proceedings where investigation, disputed priority, broad contract treatment, or compulsory distribution is necessary.[1][9]
+
+Directive (EU) 2026/799 requires Member States to make pre-pack proceedings available at least to debtors that are likely to become insolvent under national law.[15] Its preparation phase leaves the debtor wholly or partly in possession, uses an independent monitor, structures the sale process, and connects the preparation phase to a liquidation proceeding in which the selected sale can be authorized or approved.[15] The Directive also regulates stays, closely related bidders, executory contracts, interim financing, credit bidding, and protection of creditor interests.[15] These safeguards confirm why pre-pack is not merely a private sale negotiated before filing; its legitimacy depends on market testing, independence, disclosure, and the statutory treatment of the later transfer.
 
 ## Evidence
 
@@ -134,7 +141,7 @@ The sample measures an older era of U.S. public-company chapter 11 and does not 
 
 UNCITRAL and the World Bank identify recurring tools across effective systems: a stay, clear commencement, creditor participation, post-commencement finance, contract treatment, avoidance, predictable priority, reorganization, liquidation, discharge, and cross-border cooperation.[1][2] The United States combines a broad automatic stay, debtor-in-possession control, statutory rescue-finance priority, contract assumption or rejection, avoidance, class voting, and judicial cram-down.[3][4] The EU preventive directive requires access before insolvency, a bounded stay, plan voting and confirmation safeguards, protection for interim and new financing, and entrepreneur discharge, while leaving important definitions and design choices to Member States.[5]
 
-The UK framework adds a monitor-supervised moratorium and a court-sanctioned restructuring plan with cross-class cram-down.[7] EU Regulation 2015/848 and the UNCITRAL Model Law coordinate cross-border cases through different legal architectures: the Regulation directly governs participating Member States, while the Model Law depends on national enactment and focuses on access, recognition, relief, and cooperation.[6][8] This evidence supports convergence in functional problems, not uniformity in answers. Control, priorities, employee treatment, public claims, court discretion, and available finance still differ materially.
+The UK framework adds a monitor-supervised moratorium and a court-sanctioned restructuring plan with cross-class cram-down.[7] EU Regulation 2015/848 and the UNCITRAL Model Law coordinate cross-border cases through different legal architectures: the Regulation directly governs participating Member States, while the Model Law depends on national enactment and focuses on access, recognition, relief, and cooperation.[6][8] Directive (EU) 2026/799 now adds targeted minimum harmonization of substantive and procedural fields that Regulation 2015/848 did not unify: avoidance, asset tracing, pre-packs, directors' filing duties, creditors' committees, and public factsheets.[15] Because Member States generally have until January 22, 2029 to transpose it, its enactment is evidence of legal convergence in progress, not current uniformity of national outcomes.[15] This evidence supports convergence in functional problems, not uniformity in answers. Control, priorities, employee treatment, public claims, court discretion, available finance, and implementation still differ materially.
 
 ### Workouts show why a credible formal alternative matters outside court
 
@@ -215,8 +222,8 @@ The central conclusion is structural. Bankruptcy law works when it prevents unil
 5. European Parliament and Council. Directive (EU) 2019/1023 on preventive restructuring frameworks, discharge of debt, and efficiency of restructuring and insolvency procedures. Official Journal of the European Union, June 20, 2019.
    https://eur-lex.europa.eu/eli/dir/2019/1023/oj [high]
 
-6. European Parliament and Council. Regulation (EU) 2015/848 on insolvency proceedings (recast), consolidated version current May 1, 2025.
-   https://eur-lex.europa.eu/eli/reg/2015/848/2025-05-01/eng [high]
+6. European Parliament and Council. Regulation (EU) 2015/848 on insolvency proceedings (recast), consolidated version current November 6, 2025.
+   https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02015R0848-20251106 [high]
 
 7. Parliament of the United Kingdom. "Corporate Insolvency and Governance Act 2020," explanatory notes on the moratorium and Part 26A restructuring plan.
    https://www.legislation.gov.uk/ukpga/2020/12/notes/division/3/index.htm [high]
@@ -241,6 +248,9 @@ The central conclusion is structural. Bankruptcy law works when it prevents unil
 
 14. Bebchuk, L. A. (1998). "Chapter 11." NBER Working Paper 6473. Survey of corporate reorganization objectives, valuation, priority, bargaining, and alternative procedures.
     https://www.nber.org/papers/w6473 [high]
+
+15. European Parliament and Council. Directive (EU) 2026/799 harmonising certain aspects of insolvency law. Official Journal of the European Union, April 1, 2026.
+    https://eur-lex.europa.eu/eli/dir/2026/799/oj/eng [high]
 
 ## See Also
 
