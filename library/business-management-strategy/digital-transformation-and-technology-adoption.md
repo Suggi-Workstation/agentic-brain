@@ -6,6 +6,7 @@ domain: business-management-strategy
 author: Librarian
 tags: [digital-transformation, technology-adoption, organizational-capability, operating-model, change-management, legacy-modernization, digital-governance]
 links: [library/business-management-strategy/innovation-management.md, library/business-management-strategy/organizational-design-decentralization.md, library/business-management-strategy/management-control-systems.md, library/business-management-strategy/resource-allocation-and-capital-budgeting.md]
+reviewed: 2026-09-30
 ---
 
 # Digital Transformation Creates Value Only When Technology Becomes Organizational Capability
@@ -144,7 +145,11 @@ McKinsey's global survey of organizational change asked respondents about digita
 
 GAO asked 24 U.S. federal agencies to identify legacy systems most in need of modernization, obtained 69 systems, scored them using 16 attributes, and evaluated plans for the highest-risk systems [9]. Among the 11 systems GAO identified as most critical, outdated languages, unsupported components, and known cybersecurity vulnerabilities were common. GAO also assessed whether modernization plans contained milestones, descriptions of the required work, and intended disposition of the legacy system [9]. Federal systems are not representative of every commercial enterprise, but the review supplies a concrete lifecycle case. It shows that critical old systems can combine high risk with high mission dependence, making sequencing, capability preservation, and retirement planning inseparable from the new technology decision [9].
 
-Taken together, the evidence supports a bounded conclusion. Digital tools can be associated with productivity and value, but returns depend on complementary organizational investment, skills, decision rights, incentives, and the ability to manage transition [3][4][5][6]. Reviews and qualitative studies describe transformation as continuing changes to structure, processes, collaboration, business models, and culture [1][2]. Survey and case evidence further indicate that pilot, scale, operation, risk, and retirement require different management disciplines [9][10]. The evidence does not establish one universal transformation playbook or guarantee that a coordinated program will earn an adequate return. It establishes that a tool-only explanation is incomplete.
+### Cloud-use data show that productive adoption requires prolonged learning
+
+Brand, Demirer, Finucane, and Kreps analyzed high-frequency CPU-utilization data from nearly 100,000 firms to estimate how efficiently organizations used cloud-computing resources [11]. Firms improved measured cloud productivity by 33 percent in the first year after adoption and reached a stable level only after four years [11]. Faster learning among initially less efficient firms reduced productivity dispersion by 60 percent over time, although substantial differences remained after ten years [11]. The authors' decomposition found that improvements occurred mainly within individual divisions, with minimal knowledge transfer across divisions [11]. The measure concerns computing-resource efficiency rather than total business performance, and the provider data exclude firms with very low use, so the results do not estimate the financial return from cloud adoption [11]. This suggests that installation can be followed by a multi-year learning process and that experience may remain local unless management deliberately transfers operating knowledge.
+
+Taken together, the evidence supports a bounded conclusion. Digital tools can be associated with productivity and value, but returns depend on complementary organizational investment, skills, decision rights, incentives, and the ability to manage transition [3][4][5][6]. Reviews and qualitative studies describe transformation as continuing changes to structure, processes, collaboration, business models, and culture [1][2]. Survey, administrative, and operational evidence further indicate that pilot, scale, learning, operation, risk, and retirement require different management disciplines [9][10][11]. The evidence does not establish one universal transformation playbook or guarantee that a coordinated program will earn an adequate return. It establishes that a tool-only explanation is incomplete.
 
 ## Implications
 
@@ -230,9 +235,13 @@ The author's final synthesis is a nine-decision operating model. Define the busi
 10. McKinsey & Company (2018). "How the Implementation of Organizational Change Is Evolving." Global survey evidence on setup, piloting, scaling, training, measurement, and sustainment in digital change.
     https://www.mckinsey.com/capabilities/implementation/our-insights/how-the-implementation-of-organizational-change-is-evolving [medium]
 
+11. Brand, James M., Mert Demirer, Connor Finucane, and Avner A. Kreps (2024, revised 2025). "Firm Productivity and Learning with Digital Technologies: Evidence from Cloud Computing." NBER Working Paper 32938. High-frequency CPU-utilization evidence from nearly 100,000 firms.
+    https://doi.org/10.3386/w32938 [high]
+
 ## See Also
 
 - `library/business-management-strategy/innovation-management.md` -- explains exploration, staged learning, organizational ambidexterity, and the resource-allocation problem around emerging technologies.
 - `library/business-management-strategy/organizational-design-decentralization.md` -- develops the decision-rights and coordination choices required to move digital authority between central platforms and local operating teams.
 - `library/business-management-strategy/management-control-systems.md` -- connects strategy, measures, review, authority, feedback, and corrective action during adoption and scale.
 - `library/business-management-strategy/resource-allocation-and-capital-budgeting.md` -- provides the capital-allocation framework for comparing transformation initiatives and their complementary investments.
+
