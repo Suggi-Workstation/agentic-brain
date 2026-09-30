@@ -1,6 +1,6 @@
 # Investment Vehicles Fund Structures -- Topics
 
-15 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
+16 topics. Anchor: [anchor-investment-vehicles-fund-structures.md](anchor-investment-vehicles-fund-structures.md)
 
 - [Berkshire Hathaway as a Permanent-Capital Conglomerate -- Why a Public Holding Company Compounds Differently Than Any Fund](berkshire-hathaway-permanent-capital-conglomerate.md) -- [reviewed: 2026-09-24] -- Berkshire Hathaway is a publicly traded holding company that owns decentralized operating businesses and a concentrated equity portfolio; its chief executive controls major capital-allocation decisions, while shareholders normally exit by trading their shares rather than redeeming capital from Berkshire [1].
 
@@ -19,6 +19,8 @@
 - [Hedge Fund Structures -- How Fee Arrangements, Lockups, and Leverage Shape Manager Incentives and Systemic Risk](hedge-fund-structures-fee-arrangements-lockups-leverage.md) -- [reviewed: never] -- Hedge funds are privately organized investment partnerships that use performance-based fees, restricted liquidity, and leveraged capital to pursue absolute returns uncorrelated with market direction. Invented by Alfred Winslow Jones in 1949, the hedge fund structure has grown into a global industry managing over $5 trillion across thousands of funds.
 
 - [Insurance Float as Investment Capital -- Why the Collect-Now-Pay-Later Model Creates the Lowest-Cost Leverage in Finance](insurance-float-as-investment-capital.md) -- [reviewed: never] -- Insurance float is the pool of money an insurer holds between collecting premiums and paying claims -- money that belongs to policyholders but is physically in the insurer's hands and available for investment. When underwriting is disciplined, float functions as interest-free or negative-cost leverage: capital that costs nothing to hold, has no fixed maturity, cannot be redeemed, and compounds indefinitely for the insurer's benefit.
+
+- [Investment Management Companies and GP Stakes -- The Firm Behind the Funds Is a Separate, Durable but People-Dependent Asset](investment-management-companies-and-gp-stakes.md) -- [reviewed: never] -- An investment fund owns a defined pool of assets, while the investment management company operates the franchise that raises and manages successive funds. A GP-stakes investor buys an interest in that franchise and its contractual or allocated economics -- management-fee profits, performance-related earnings, and sometimes balance-sheet investments -- rather than a limited-partner interest in one fund.
 
 - [Investment Vehicle Governance -- Control Rights Matter Most When Capital Cannot Leave at Par](investment-vehicle-governance-and-shareholder-rights.md) -- [reviewed: never] -- Investment-vehicle governance determines who may direct, monitor, replace, or constrain the people managing pooled capital. The central claim is that governance becomes economically important when investors cannot promptly exit at a fair asset value: boards, votes, conflict approvals, disclosure, and removal rights then substitute for redemption, while weak rights can convert permanent or locked capital into manager entrenchment [7][8][9][11].
 
