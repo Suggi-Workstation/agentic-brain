@@ -185,3 +185,27 @@
 - **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.3, balance=10.0)
 - **Scope:** Explain residual income valuation as book equity plus the present value of future earnings above the required return on equity. Develop clean-surplus accounting, forecasted return on equity, equity charges, persistence, fade, terminal value, economic value added, justified price-to-book ratios, and adjustments for write-offs, buybacks, goodwill, and internally generated intangibles. Compare residual income with dividend, free-cash-flow, DCF, and multiple methods, showing when accounting-based value recognition helps and when distorted book values or aggressive earnings make the model unreliable.
 - **Status:** proposed
+
+## Candidate: Value of Information -- Deciding Whether More Evidence Is Worth Its Cost
+- **Domain:** probabilistic-thinking-forecasting
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how value-of-information analysis compares the expected payoff of acting now with the payoff obtainable after buying, collecting, or waiting for additional evidence. Cover perfect and sample information, Bayesian updating, decision trees, sensitivity to priors and utilities, experiment and test selection, stopping rules, delay, irreversibility, and the difference between information quantity and decision relevance. Show applications in medicine, forecasting, operations, investing, and human-AI workflows while distinguishing decision analysis from pure information theory and statistical power calculations.
+- **Status:** proposed
+
+## Candidate: Algorithmic Recommendation and Cultural Gatekeeping -- How Feeds Shape Attention, Taste, and Visibility
+- **Domain:** pop-culture
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Examine how ranking, recommendation, search, autoplay, and personalization systems mediate which music, film, television, games, news-adjacent entertainment, and creator content become visible. Analyze feedback loops among audience behavior, platform objectives, creators, advertisers, moderators, popularity signals, filter bubbles, cultural diversity, and strategic gaming without treating algorithms as autonomous causes. Use comparative platform cases and current transparency research to distinguish cultural gatekeeping from recommender-system engineering, content-moderation law, media-industry valuation, and individual psychological effects.
+- **Status:** proposed
+
+## Candidate: Comparable Company Analysis -- Peer Selection, Normalization, and Market-Implied Value
+- **Domain:** valuation-screening
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=9.7, balance=10.0)
+- **Scope:** Explain how trading-comparables analysis converts the observed prices of selected public peers into enterprise-value or equity-value ranges for a target. Cover peer-set design, business mix, geography, size, growth, margins, cyclicality, accounting normalization, forward versus trailing metrics, outliers, control differences, liquidity, calendarization, and reconciliation to diluted per-share value. Show why market multiples embed current expectations and regime conditions rather than intrinsic truth, and connect comparables to DCF, precedent transactions, SOTP, and reverse-DCF checks.
+- **Status:** proposed
