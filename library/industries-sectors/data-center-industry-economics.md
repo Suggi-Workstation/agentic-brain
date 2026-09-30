@@ -6,6 +6,7 @@ domain: industries-sectors
 author: Librarian
 tags: [data-centers, industry-economics, artificial-intelligence, colocation, power-capacity, capital-cycle, profit-pools]
 links: [library/industries-sectors/capital-cycle-analysis.md, library/industries-sectors/industry-profit-pools.md, library/industries-sectors/semiconductor-industry-structure-and-economics.md, library/technology/cloud-computing.md, library/engineering-infrastructure/telecommunications-physical-infrastructure.md]
+reviewed: 2026-09-30
 ---
 
 # Data Center Industry Economics -- Power Rights and Utilization Determine Returns Before Compute Demand Does
@@ -32,7 +33,7 @@ The author's synthesis is that a data center is best understood as a portfolio o
 
 ### Business models allocate ownership and demand risk
 
-Enterprise, hyperscale, retail colocation, and wholesale colocation models allocate the same underlying risks differently. An enterprise facility gives its owner direct control and can fit specialized operational or regulatory needs, but the enterprise must forecast future load, finance the entire build, and absorb unused capacity. Uptime Institute's 2025 survey continued to find on-premises facilities central to hybrid information technology strategies, showing that enterprise ownership has not disappeared even as outsourcing has expanded [10]. The economic test is not whether ownership is modern or old-fashioned; it is whether the organization can use enough of the facility, for long enough, to justify the capital and operational specialization.
+Enterprise, hyperscale, retail colocation, and wholesale colocation models allocate the same underlying risks differently. An enterprise-owned facility gives its owner direct control and can fit specialized operational or regulatory needs, but the enterprise must forecast future load, finance the entire build, and absorb unused capacity. Uptime Institute's 2026 survey found that third-party data center facilities and services hosted 46 percent of respondents' IT workloads, compared with 44 percent in enterprise-owned corporate data centers; the report nevertheless characterized corporate facilities as central to hybrid strategies [10]. The economic test is not whether ownership is modern or old-fashioned; it is whether the organization can use enough of the facility, for long enough, to justify the capital and operational specialization.
 
 A hyperscaler combines the facility with a higher-layer service business. The building is an input into cloud, advertising, commerce, social media, or AI products, so the return on the facility may not be visible as stand-alone rent. Scale supports custom design, standardized procurement, broad workload pooling, and high equipment utilization, but it also exposes the owner to a very large, continuing capital program [1][5]. A hyperscaler can self-build when demand is predictable and time permits, lease from wholesale providers to accelerate deployment or enter constrained markets, and combine both routes across regions.
 
@@ -48,7 +49,7 @@ Confusing these stages creates false precision. A signed lease can precede deliv
 
 Utilization creates operating leverage because many facility costs are committed before the final customer arrives. Construction, utility infrastructure, property cost, baseline staffing, security, and much maintenance do not vary proportionately with near-term load [6][7]. Lease-up can therefore improve unit economics materially, while slow absorption can leave capital earning below its hurdle rate. The strongest development model links construction phases to credible demand and preserves the ability to stop, resize, or repurpose later phases.
 
-Power usage effectiveness, or PUE, measures total facility energy divided by energy delivered to information technology equipment [2][10][11]. It helps identify facility overhead, but it does not measure useful computation, revenue, utilization, carbon intensity, water use, or return on capital. Google reported a 2025 fleet-wide PUE of 1.09 for stabilized large-scale centers, while Uptime's 2025 survey reported a respondent average of 1.54 [10][11]. The figures demonstrate operating dispersion, not a universal cost advantage, because fleets, climates, workloads, measurement boundaries, and maturity differ.
+Power usage effectiveness, or PUE, measures total facility energy divided by energy delivered to information technology equipment [2][10][11]. It helps identify facility overhead, but it does not measure useful computation, revenue, utilization, carbon intensity, water use, or return on capital. Google reported a 2025 fleet-wide PUE of 1.09 for stabilized large-scale centers, while Uptime's 2026 survey reported a respondent average of 1.52 [10][11]. The figures demonstrate operating dispersion, not a universal cost advantage, because fleets, climates, workloads, measurement boundaries, and maturity differ.
 
 ### Contracts redistribute construction, power, and volume risk
 
@@ -58,13 +59,13 @@ Retail contracts tend to diversify revenue across customers and products. Interc
 
 Power pricing terms determine who bears utility volatility. Digital Realty states that it negotiates operating-expense pass-through provisions, including power costs and certain capital expenditure [7]. Such clauses can protect nominal margins, but they do not remove demand risk: a customer still evaluates its total delivered cost, and high power prices can weaken the attractiveness of a location. Service-level commitments transfer reliability risk back to the operator through credits, damages, termination rights, and reputation exposure [7].
 
-Preleasing transfers part of volume risk before construction finishes. CBRE reported that 74.3 percent of capacity under construction in major North American markets was committed in the first half of 2025 [9]. This supported financing and reduced initial vacancy risk, but it also showed customers competing for future rather than current supply. The author's synthesis is that a backlog must be graded by counterparty, cancellation terms, commencement conditions, pricing, pass-throughs, and remaining construction obligations; a signed megawatt is not automatically an earned return.
+Preleasing transfers part of volume risk before construction finishes. CBRE reported that 80.4 percent of capacity under construction in major North American markets was committed in the first half of 2026, up from 74.3 percent a year earlier [9]. This supported financing and reduced initial vacancy risk, but it also showed customers competing for future rather than current supply. The author's synthesis is that a backlog must be graded by counterparty, cancellation terms, commencement conditions, pricing, pass-throughs, and remaining construction obligations; a signed megawatt is not automatically an earned return.
 
 ### Location is a bundle of bottlenecks and network effects
 
 Data centers cluster because location affects electricity, fiber, latency, customer access, land, construction, taxes, permitting, regulation, and workforce [4][8]. Northern Virginia illustrates cumulative advantage: JLARC identified fiber, reliable and comparatively inexpensive energy, available land, proximity to major customers, and tax incentives as contributors to the region's scale [4]. Once networks and customers cluster, additional participants can value proximity because direct connections reduce latency and operational complexity [6][7].
 
-Clustering also concentrates constraints. A region can have abundant prospective demand but insufficient near-term generation, substations, transmission, transformers, switchgear, or public acceptance [1][3][4]. CBRE reported that power availability and infrastructure delivery timelines were decisive site-selection factors across major US markets in the first half of 2025, while constrained supply supported low vacancy, preleasing, and higher pricing [9]. Scarcity shifts bargaining power toward holders of deliverable power, but only while customers cannot obtain adequate substitutes elsewhere.
+Clustering also concentrates constraints. A region can have abundant prospective demand but insufficient near-term generation, substations, transmission, transformers, switchgear, or public acceptance [1][3][4]. CBRE reported in the first half of 2026 that power availability and infrastructure delivery timelines remained decisive across major North American markets, while community resistance and zoning delay had become comparably important development constraints [9]. Scarcity shifts bargaining power toward holders of deliverable power, but only while customers cannot obtain adequate substitutes elsewhere.
 
 Network density can create a separate moat from power capacity. A carrier-rich facility lets tenants connect to multiple networks, cloud on-ramps, exchanges, and counterparties without rebuilding external routes [6][7]. This can support switching costs and interconnection revenue even when basic space becomes more available. By contrast, a remote AI training campus may place greater value on large power blocks and construction speed than on a dense local customer ecosystem. The industry's profit pools therefore differ by workload and location rather than following one universal ranking.
 
@@ -122,7 +123,7 @@ These filings are primary company disclosures, not controlled comparisons. Produ
 
 ### Market evidence shows scarcity can persist despite rapid construction
 
-CBRE's first-half 2025 survey of primary North American wholesale markets reported 8,155 MW of supply, up 43.4 percent year over year, while vacancy fell to 1.6 percent and 74.3 percent of under-construction capacity was already committed [9]. It also reported higher pricing for large requirements in constrained markets and identified power availability and delivery timelines as decisive site-selection factors [9]. The method is a commercial real-estate market survey, and its coverage does not represent every enterprise or hyperscale-owned facility.
+CBRE's first-half 2026 survey of primary North American wholesale markets reported 10,903 MW of supply, up 33.7 percent year over year, while vacancy fell from 1.6 percent to a record-low 1.4 percent [9]. Capacity under construction reached 7,481.1 MW, and 80.4 percent of it was committed [9]. CBRE also identified power availability and infrastructure delivery as the most decisive site-selection factors and reported price gains across every requirement size [9]. The method is a commercial real-estate market survey, and its coverage does not represent every enterprise or hyperscale-owned facility.
 
 The case demonstrates that rapid supply growth and tightening availability can coexist when demand grows faster and customers prelease future capacity. It does not prove permanent shortage. High preleasing can encourage more construction, and a market measured during exceptional demand may not describe the stabilized economics of projects delivered several years later.
 
@@ -168,7 +169,7 @@ Cost allocation should follow causation and risk. If a project triggers dedicate
 
 Public incentives should distinguish economic activity from durable net benefit. Construction can create a large temporary effect while operations use fewer direct workers; tax exemptions can influence location while reducing public revenue; and local tax gains can coexist with transmission, generation, land, water, noise, or environmental costs [4]. Evaluation should state the geographic boundary, time period, counterfactual location, infrastructure cost, and who bears each cost. Gross investment is not a complete welfare measure.
 
-Transparency improves planning. Facility-level PUE alone is insufficient, but standardized reporting of electricity, water, capacity, utilization, emissions, and flexibility can make forecasts and comparisons less speculative [2][8][10]. Confidential customer data can be protected while aggregate operating evidence is disclosed. Better evidence lowers the risk that policy is set by either exaggerated demand projections or outdated efficiency assumptions.
+Transparency improves planning. Facility-level PUE alone is insufficient, but standardized site-level reporting of electricity, water, PUE, server utilization, renewable-energy use, and emissions can make forecasts and comparisons less speculative [2][8][10]. Confidential customer data can be protected while aggregate operating evidence is disclosed. Better evidence lowers the risk that policy is set by either exaggerated demand projections or outdated efficiency assumptions.
 
 ### For strategists: map the profit pool as bottlenecks move
 
@@ -208,11 +209,11 @@ The central implication is simple: compute demand is necessary but not sufficien
 8. National Academies of Sciences, Engineering, and Medicine. (2025). "Implications of Artificial Intelligence-Related Data Center Electricity Use and Emissions: Proceedings of a Workshop." National Academies Press. DOI 10.17226/29101.
    https://www.nationalacademies.org/read/29101/chapter/4 [high]
 
-9. CBRE. "North America Data Center Trends H1 2025." September 8, 2025. Commercial market survey of supply, vacancy, preleasing, pricing, and site constraints.
-   https://www.cbre.com/insights/reports/north-america-data-center-trends-h1-2025 [medium]
+9. CBRE. "North America Data Center Trends H1 2026." September 8, 2026. Commercial market survey of supply, vacancy, construction, preleasing, pricing, and site constraints.
+   https://www.cbre.com/insights/books/north-america-data-center-trends-h1-2026 [medium]
 
-10. Uptime Institute. "Global Data Center Survey 2025." Operator survey covering PUE, density, capacity planning, outages, hybrid deployment, and staffing.
-    https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf?version [medium]
+10. Uptime Institute. "Global Data Center Survey 2026." Operator survey covering PUE, density, capacity planning, sustainability metrics, outages, workload placement, and staffing.
+    https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/UptimeInstitute.GlobalDataCenterSurvey.2026.pdf?version [medium]
 
 11. Google. "Power Usage Effectiveness." Fleet-level PUE and compute-efficiency disclosures for 2025.
     https://www.google.com/about/datacenters/efficiency [high]
