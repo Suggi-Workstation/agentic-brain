@@ -1,6 +1,6 @@
 # Finance -- Topics
 
-16 topics. Anchor: [anchor-finance.md](anchor-finance.md)
+17 topics. Anchor: [anchor-finance.md](anchor-finance.md)
 
 - [Asset Management Economics -- Scale Expands Fee Revenue Faster Than Investment Capacity](asset-management-economics-incentives-scale-and-financial-intermediation.md) -- [reviewed: 2026-09-21] -- Asset managers are financial intermediaries that convert client mandates into portfolios while charging for selection, implementation, risk control, administration, and access. Their central economic tension is that revenue usually rises with assets under management, while investment capacity, client outcomes, and the ability to outperform do not necessarily scale at the same rate; incentives...
 
@@ -31,6 +31,8 @@
 - [Mergers and Acquisitions -- Why Most Deals Destroy Value and How the Few Succeed](mergers-and-acquisitions-mechanics.md) -- [reviewed: never] -- Mergers and acquisitions (M&A) are the mechanisms by which companies combine, restructure ownership, and reallocate corporate assets across the economy. They include mergers (two firms becoming one legal entity), acquisitions (one firm purchasing another), and leveraged buyouts (acquisitions financed primarily with debt against the target's own assets).
 
 - [Securitization Broadens Funding by Reordering Cash Flows but Can Concentrate Hidden Tail Risk](securitization-and-structured-finance.md) -- [reviewed: never] -- Securitization converts pools of loans or receivables into marketable claims, while structured finance uses priorities, reserves, triggers, and other contractual rules to divide the same pool into securities with different exposures. The mechanism can widen credit supply and place risks with investors willing to bear them, but it becomes fragile when legal separation is mistaken for economic...
+
+- [Working Capital Funds Growth Only When the Cash Conversion Cycle Preserves Liquidity](working-capital-management-cash-conversion-cycle.md) -- [reviewed: never] -- Working capital management coordinates receivables, inventory, payables, cash, and short-term funding so that an operating business can grow without missing obligations or transferring intolerable risk to customers and suppliers. The cash conversion cycle is a useful map of that system, but shortening the headline number is not an objective by itself: durable improvement must preserve sales, service, supply continuity, financing access, and transparent reporting.
 
 - [The Yield Curve -- The Single Most Watched Signal in Macro-Finance and Why It Predicts Recessions](yield-curve.md) -- [reviewed: never] -- The yield curve -- the relationship between interest rates on bonds of different maturities -- is the closest thing finance has to a crystal ball. Its shape encodes the collective expectations of bond investors about future growth, inflation, and monetary policy into a single observable line. When short-term yields rise above long-term yields -- a condition called an inversion -- the curve has preceded every U.
 
