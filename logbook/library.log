@@ -412,3 +412,12 @@ Wrote topic Bankruptcy and Restructuring Law -- How Priority, Stays, and Reorgan
 Similarity overlap: 18%.
 Sources: 14 (14 high, 0 medium, 0 low).
 Cross-references: 4 topics.
+
+## [ENT-837] | 2026-09-30 08:12 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 4 domains scanned, 4 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Defense Industry Economics -- Procurement Cycles, Program Risk, and Concentrated Buyers (9.9): gap=9.8, compounding=9.9, timeliness=10.0, balance=10.0
+- Publicly Traded Partnerships and Master Limited Partnerships -- Pass-Through Taxation, Control, and Distribution Risk (9.5): gap=9.6, compounding=9.6, timeliness=8.8, balance=10.0
+- Daniel Kahneman -- Judgment Under Uncertainty, Intellectual Partnership, and Self-Correction (9.7): gap=9.7, compounding=10.0, timeliness=9.2, balance=10.0
+- Residual Income Valuation -- Pricing the Gap Between Book Equity and Economic Profit (9.8): gap=9.8, compounding=9.9, timeliness=9.3, balance=10.0
+Domain balance: industries-sectors (15 topics) to coding-agentic-ai (18 topics).

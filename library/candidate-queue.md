@@ -177,3 +177,35 @@
 - **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.7, timeliness=9.9, balance=10.0)
 - **Scope:** Examine how films, television, music, games, formats, celebrities, and internet genres move across borders and are translated, localized, remade, hybridized, or resisted. Analyze how language, diaspora, platform discoverability, cultural intermediaries, state policy, and uneven production power shape which works travel and how audiences reinterpret them. Use comparative cases to show when circulation broadens cultural exchange or produces homogenization and asymmetry, while distinguishing cultural analysis from media-industry valuation, foreign policy, and adaptation between media.
 - **Status:** proposed
+
+## Candidate: Defense Industry Economics -- Procurement Cycles, Program Risk, and Concentrated Buyers
+- **Domain:** industries-sectors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how defense contractors convert long-cycle public procurement, classified technology, production capacity, and sustainment obligations into revenue and cash flow. Analyze concentrated government buyers, cost-plus and fixed-price contracts, program selection, export controls, security requirements, supplier bottlenecks, learning curves, backlog, budget cycles, consolidation, and the economic effects of schedule or cost overruns. Show when scale, installed fleets, intellectual property, and certification create durable advantages, while distinguishing industry structure from military strategy, individual-company analysis, and procurement policy in isolation.
+- **Status:** proposed
+
+## Candidate: Publicly Traded Partnerships and Master Limited Partnerships -- Pass-Through Taxation, Control, and Distribution Risk
+- **Domain:** investment-vehicles-fund-structures
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.5/10.0 (gap=9.6, compounding=9.6, timeliness=8.8, balance=10.0)
+- **Scope:** Explain how publicly traded partnerships, including master limited partnerships, combine exchange-traded ownership with partnership tax treatment, sponsor control, cash-distribution policies, and sector-specific qualifying income. Cover general and limited partner rights, incentive distribution rights, dropdowns, leverage, maintenance capital, tax basis, unrelated business taxable income, withholding, governance conflicts, conversions, and sensitivity to commodity or regulatory cycles. Compare the structure with REITs, corporations, and closed-end funds, distinguishing vehicle economics from valuation of the underlying operating assets.
+- **Status:** proposed
+
+## Candidate: Daniel Kahneman -- Judgment Under Uncertainty, Intellectual Partnership, and Self-Correction
+- **Domain:** notable-people
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=10.0, timeliness=9.2, balance=10.0)
+- **Scope:** Profile Daniel Kahneman's development from wartime childhood and military psychology to his collaboration with Amos Tversky, Nobel-recognized work on judgment under uncertainty, later research on well-being and noise, and public influence. Examine how partnership, experimental anomalies, criticism, replication problems, and Kahneman's willingness to revise claims shaped both his achievements and limitations. Extract lessons about intellectual humility, measurement, collaboration, and translating behavioral research into economics, medicine, law, policy, and investing, while keeping the focus on the person rather than a catalogue of biases.
+- **Status:** proposed
+
+## Candidate: Residual Income Valuation -- Pricing the Gap Between Book Equity and Economic Profit
+- **Domain:** valuation-screening
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.3, balance=10.0)
+- **Scope:** Explain residual income valuation as book equity plus the present value of future earnings above the required return on equity. Develop clean-surplus accounting, forecasted return on equity, equity charges, persistence, fade, terminal value, economic value added, justified price-to-book ratios, and adjustments for write-offs, buybacks, goodwill, and internally generated intangibles. Compare residual income with dividend, free-cash-flow, DCF, and multiple methods, showing when accounting-based value recognition helps and when distorted book values or aggressive earnings make the model unreliable.
+- **Status:** proposed
