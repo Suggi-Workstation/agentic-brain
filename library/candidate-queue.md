@@ -193,3 +193,19 @@
 - **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.7, timeliness=9.8, balance=9.4)
 - **Scope:** Explain how managers can obscure deteriorating businesses by aggregating operating segments, changing the chief operating decision-maker view, reallocating shared costs, shifting transactions among segments, emphasizing favorable non-GAAP measures, or changing definitions across periods. Develop forensic tests using segment footnotes, reconciliations, organizational changes, geography, product data, capital spending, impairments, acquisitions, management commentary, and prior filings to recover economic trends. Distinguish permissible management-view reporting and genuine reorganizations from disclosure choices that reduce comparability, and connect the analysis to consolidated statements without turning it into general accounting or valuation.
 - **Status:** proposed
+
+## Candidate: John C. Bogle -- Low-Cost Indexing, Mutual Ownership, and Fiduciary Reform
+- **Domain:** investors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=10.0, compounding=10.0, timeliness=10.0, balance=9.4)
+- **Scope:** Profile John C. Bogle's path from mutual-fund analyst and failed merger architect to Vanguard founder and sponsor of the first index fund for individual investors. Examine how low costs, broad diversification, mutual ownership, fiduciary duty, and skepticism of speculation developed through his decisions, setbacks, writings, and governance conflicts. Assess his track record, institutional legacy, and later warnings about industry concentration while keeping the focus on Bogle as an investor-builder rather than turning the biography into general index-investing advice.
+- **Status:** proposed
+
+## Candidate: Space Geopolitics and Counterspace Competition -- Orbits, Satellites, and Strategic Dependence
+- **Domain:** geopolitics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=9.4)
+- **Scope:** Explain how states and commercial actors convert satellites, launch access, orbital positions, ground infrastructure, data links, and cislunar reach into geopolitical power and vulnerability. Cover dual-use dependence, counterspace capabilities, attribution, escalation, debris, resilience, alliances, norms, and competition over governance as activity expands beyond Earth orbit. Distinguish international security analysis from spacecraft engineering, commercial space-industry economics, and the detailed law of outer space.
+- **Status:** proposed
