@@ -1,6 +1,6 @@
 # Books -- Topics
 
-16 topics. Anchor: [anchor-books.md](anchor-books.md)
+17 topics. Anchor: [anchor-books.md](anchor-books.md)
 
 - [A Random Walk Down Wall Street -- Why Most Investors Cannot Beat the Market and What to Do About It](a-random-walk-down-wall-street.md) -- [reviewed: 2026-09-09] -- A Random Walk Down Wall Street, first published by Burton G. Malkiel in 1973 and updated through thirteen editions, argues that stock prices follow a random walk -- future price changes cannot be predicted from past price movements -- making it nearly impossible for most investors to consistently outperform broad market indexes.
 
@@ -31,6 +31,8 @@
 - [The Signal and the Noise -- Why So Many Predictions Fail but Some Do Not](the-signal-and-the-noise.md) -- [reviewed: never] -- "The Signal and the Noise: Why So Many Predictions Fail -- but Some Don't" (2012) is Nate Silver's argument that most predictions fail because forecasters mistake noise for signal, overestimate their certainty, and refuse to update their beliefs when new evidence arrives. Drawing on case studies from weather forecasting, earthquake prediction, baseball, poker, elections, economics, climate...
 
 - [The Structure of Scientific Revolutions -- Kuhn Showed That Scientific Progress Depends on Both Tradition and Rupture](the-structure-of-scientific-revolutions.md) -- [reviewed: never] -- Thomas S. Kuhn's *The Structure of Scientific Revolutions* argues that mature science advances through two interdependent modes: disciplined puzzle-solving within a shared framework and occasional reconstruction of that framework when persistent problems make the old research tradition unstable [1][3].
+
+- [The Wealth of Nations -- Smith Made Prosperity a System of Specialization, Exchange, and Public Institutions](the-wealth-of-nations.md) -- [reviewed: never] -- Adam Smith's The Wealth of Nations argues that national prosperity comes from productive labor organized through specialization, exchange, capital accumulation, competition, and institutions that secure justice, rather than from hoarded money or protected merchants [1][4][5]. The book is therefore not a slogan for selfishness or a complete case for laissez-faire: it is a five-part inquiry into...
 
 - [Thinking, Fast and Slow -- How Daniel Kahneman's Dual-System Model Reveals the Predictable Irrationality of Human Judgment](thinking-fast-and-slow.md) -- [reviewed: never] -- Daniel Kahneman's "Thinking, Fast and Slow" (2011) synthesizes decades of research in cognitive psychology and behavioral economics into a single, accessible framework: the mind operates through two systems -- one fast, automatic, and intuitive (System 1), the other slow, deliberate, and analytical (System 2).
 
