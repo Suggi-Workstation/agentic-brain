@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Telecommunications Industry Economics -- Spectrum, Network Scale, Churn, and Capital Intensity
-- **Domain:** industries-sectors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.8, timeliness=9.8, balance=10.0)
-- **Scope:** Explain how telecommunications operators convert spectrum, towers, fiber, satellites, switching systems, and customer relationships into fixed-cost networks whose economics depend on coverage, capacity, utilization, and churn. Compare mobile, fixed-line, cable, wholesale fiber, and satellite models, covering spectrum rights, interconnection, roaming, network sharing, pricing, regulation, capital cycles, convergence, and consolidation. Show where scale and density create durable advantages and where technological substitution or heavy reinvestment erodes returns, while distinguishing industry structure from communications engineering and individual-company analysis.
-- **Status:** proposed
-
 ## Candidate: Public Procurement -- How Governments Buy Capacity, Competition, and Accountability
 - **Domain:** political-science-public-policy
 - **Proposed by:** Librarian
