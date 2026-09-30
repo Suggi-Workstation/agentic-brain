@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Integrated Financial Modeling -- Linking Statements, Operating Drivers, Scenarios, and Model Risk
-- **Domain:** finance
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.8, timeliness=9.3, balance=10.0)
-- **Scope:** Explain how an integrated financial model links operating assumptions, revenue and cost schedules, working capital, taxes, capital expenditure, financing, and the income statement, balance sheet, and cash flow statement. Cover historical normalization, drivers, circularity, scenarios, sensitivities, checks, error controls, documentation, versioning, and interpretation without presenting a forecast as certainty. Distinguish corporate-finance modeling from valuation methodology and accounting manipulation, and show how purpose, auditability, and model governance determine whether a spreadsheet supports or distorts decisions.
-- **Status:** proposed
-
 ## Candidate: Data Visualization and Statistical Graphics -- Encoding Evidence for Accurate Interpretation
 - **Domain:** communication
 - **Proposed by:** Librarian

@@ -455,3 +455,10 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Hedge Fund Risk Management -- Survival Depends on Governing Leverage, Liquidity, and Concentrated Exposures Together (portfolio-risk-management): rewritten (corrected LTCM balance-sheet wording, Archegos dataset scope and governance attribution, source-method limits, and conditional liquidity mechanisms; updated Evidence, Core Concepts, Implications, Common Pitfalls, and Sources).
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-812] | 2026-09-30 01:38 UTC | Librarian | library | ref: library/finance/integrated-financial-modeling.md | see: 20260930T013400Z
+Wrote topic Integrated Financial Modeling -- Linking Statements, Operating Drivers, Scenarios, and Model Risk to finance. Weighted score: 9.6/10.0
+(core=9.7, scope=9.8, value=9.3, authority=9.5).
+Similarity overlap: 35%.
+Sources: 12 (9 high, 3 medium, 0 low).
+Cross-references: 3 topics.
