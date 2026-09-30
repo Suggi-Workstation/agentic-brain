@@ -411,3 +411,12 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Commitment Devices Work Best When Accountability Preserves Autonomy and Failure Remains Reversible (self-improvement): rewritten (corrected 1 broken retraction DOI, updated implementation-intention evidence and field-experiment coverage with 2 high-authority sources)
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-868] | 2026-09-30 18:07 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 4 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Herbert Simon -- Bounded Rationality, Administrative Decision-Making, and the Birth of AI (9.8): gap=9.8, compounding=10.0, timeliness=9.3, balance=10.0
+- Aesthetics and Artistic Value -- How Interpretation, Form, Experience, and Institutions Make Art Matter (9.8): gap=9.8, compounding=9.7, timeliness=10.0, balance=9.4
+- Health Technology Assessment and Cost-Effectiveness -- Allocating Care Under Evidence, Budget, and Equity Constraints (9.7): gap=9.8, compounding=9.9, timeliness=10.0, balance=8.8
+- Foreign Exchange Markets and Currency Risk -- Pricing, Funding, and Hedging Across Monetary Boundaries (9.7): gap=9.8, compounding=9.8, timeliness=10.0, balance=8.8
+Domain balance: notable-people (15 topics) to earth-climate, finance, and health-medicine (17 topics).

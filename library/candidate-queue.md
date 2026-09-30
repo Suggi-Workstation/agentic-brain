@@ -177,3 +177,35 @@
 - **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=10.0, balance=10.0)
 - **Scope:** Explain how institutions communicate hazards, uncertainty, changing evidence, and protective actions before, during, and after emergencies. Cover audience research, trusted messengers, message design, warnings, accessibility, multilingual delivery, rumor control, media coordination, prebunking, feedback, correction, and evaluation across public-health, disaster, organizational, and technological crises. Show how speed, empathy, transparency, consistency, and local context affect whether information produces appropriate action, while distinguishing communication practice from emergency operations, propaganda, and legal compliance.
 - **Status:** proposed
+
+## Candidate: Herbert Simon -- Bounded Rationality, Administrative Decision-Making, and the Birth of AI
+- **Domain:** notable-people
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=10.0, timeliness=9.3, balance=10.0)
+- **Scope:** Profile Herbert A. Simon's development from political science and administrative research to bounded rationality, organization theory, cognitive science, and artificial intelligence. Examine how interdisciplinary collaboration, empirical attention to real decision processes, institutional positions, and model building shaped his Nobel-recognized work, including criticisms of satisficing, symbolic AI, and the reach of his theories. Extract lessons about crossing fields, designing tractable problems, and revising assumptions while keeping the focus on Simon as a person rather than a general decision-science manual.
+- **Status:** proposed
+
+## Candidate: Aesthetics and Artistic Value -- How Interpretation, Form, Experience, and Institutions Make Art Matter
+- **Domain:** ethics-philosophy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.7, timeliness=10.0, balance=9.4)
+- **Scope:** Explain the central theories of beauty, taste, representation, expression, form, interpretation, and aesthetic experience across Western and non-Western traditions. Examine how intention, medium, audience, criticism, institutions, authenticity, appropriation, and cultural context affect judgments of artistic value without reducing them to popularity or market price. Use photography, conceptual art, mass reproduction, and generative AI to test theories of authorship and creativity, while distinguishing philosophical evaluation from art history, copyright law, and entertainment criticism.
+- **Status:** proposed
+
+## Candidate: Health Technology Assessment and Cost-Effectiveness -- Allocating Care Under Evidence, Budget, and Equity Constraints
+- **Domain:** health-medicine
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=8.8)
+- **Scope:** Explain how health technology assessment combines comparative clinical evidence, economic evaluation, budget impact, patient experience, and uncertainty to inform coverage and reimbursement. Cover quality-adjusted life years, incremental cost-effectiveness ratios, model structure, sensitivity analysis, thresholds, opportunity cost, rare diseases, diagnostics, devices, real-world evidence, equity, deliberation, and reassessment. Compare institutional approaches and show how assessment differs from regulatory approval, bedside treatment choice, price negotiation, and bioethical theory while recognizing that technical estimates cannot eliminate value judgments.
+- **Status:** proposed
+
+## Candidate: Foreign Exchange Markets and Currency Risk -- Pricing, Funding, and Hedging Across Monetary Boundaries
+- **Domain:** finance
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.8, timeliness=10.0, balance=8.8)
+- **Scope:** Explain how spot, forward, swap, option, and cross-currency markets connect payments and funding across currencies. Cover exchange-rate quotations, parity conditions, dealer intermediation, liquidity, settlement risk, carry, basis, capital flows, central-bank intervention, corporate exposure, translation and transaction risk, and hedging choices. Show why a hedge can reduce one currency exposure while creating liquidity, counterparty, accounting, or rollover risk, while distinguishing FX market mechanics from macroeconomic exchange-rate theory, speculation, and portfolio allocation.
+- **Status:** proposed
