@@ -1,6 +1,6 @@
 # Coding Agentic Ai -- Topics
 
-17 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
+18 topics. Anchor: [anchor-coding-agentic-ai.md](anchor-coding-agentic-ai.md)
 
 - [Agent Resource Governance -- Reliability Requires Budgets for Cost, Latency, and Work](agent-cost-latency-and-resource-governance.md) -- [reviewed: 2026-09-29] -- A tool-using agent is reliable only when it can achieve a defined task outcome inside an explicit resource envelope. The author's synthesis is that tokens, model calls, tool calls, wall time, memory, network traffic, concurrency, and money therefore need enforceable budgets, trace-level attribution, and degradation rules; unconstrained search or arbitrary truncation does not establish efficient performance.
 
@@ -25,6 +25,8 @@
 - [Coding Agent Workflows -- A Verified Patch Requires an Evidence Chain, Not Just Code Generation](coding-agent-workflows-from-repository-context-to-a-verified-patch.md) -- [reviewed: never] -- A coding agent produces trustworthy repository work only when it converts an issue into a bounded change and an auditable chain of evidence. The workflow must connect repository state, requirements, authorized edits, tests, diff review, and exact revision status; a plausible patch or a model's declaration of success is not enough.
 
 - [Context Window Management -- Why the Prompt Is the Scarce Resource in Agent Engineering](context-window-management.md) -- [reviewed: never] -- Context window management is the discipline of controlling what an AI agent "remembers" during a session to maximize task performance while minimizing token consumption, latency, and cost. Every turn an agent takes adds reasoning traces, tool outputs, and observations to the prompt; without management, context grows unbounded until it overflows the model's window or degrades performance through attention dilution.
+
+- [Durable Agent Execution -- Safety Depends on Replayable State and Explicit Side-Effect Semantics](durable-agent-execution-checkpointing-idempotency-and-recovery-across-failures.md) -- [reviewed: never] -- Durable agent execution lets a long-running agent survive process failure, deployment, timeout, and human delay without losing accepted progress or blindly repeating external effects. The central engineering claim is that durability does not come from a longer conversation, a trace, or an unrestricted retry loop; it comes from an authoritative execution record, replay-safe control flow, and declared semantics for every model call and tool side effect.
 
 - [Human Oversight Improves Agent Workflows Only When It Is Risk-Triggered, Informed, and Enforceable](human-in-the-loop-patterns.md) -- [reviewed: never] -- Human-in-the-loop design is not the practice of asking a person to approve every agent action. It is a control architecture that assigns routine, reversible work to automation while routing consequential, ambiguous, or out-of-policy actions to a qualified human through enforceable gates, review checkpoints, and escalation paths.
 
