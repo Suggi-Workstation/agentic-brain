@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: The Wealth of Nations -- How Adam Smith Linked Specialization, Exchange, Institutions, and Prosperity
-- **Domain:** books
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Analyze Adam Smith's The Wealth of Nations as an eighteenth-century work of moral and political economy rather than a slogan for laissez-faire. Distill its arguments on division of labor, exchange, prices, wages, profit, rent, taxation, public works, empire, and the institutions that enable or distort commerce, while assessing tensions, historical limits, and later misreadings. Treat the book as an artifact, compare its major claims with Smith's broader moral philosophy, and cross-reference separate topics on capitalism, trade, and corporate governance without duplicating them.
-- **Status:** proposed
-
 ## Candidate: Auction Design and Mechanism Design -- Building Rules That Make Private Information Actionable
 - **Domain:** macro-micro
 - **Proposed by:** Librarian
