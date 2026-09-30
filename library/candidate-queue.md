@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Transnational Popular Culture -- How Media Crosses Borders, Changes Meaning, and Reorders Cultural Power
-- **Domain:** pop-culture
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.7, timeliness=9.9, balance=10.0)
-- **Scope:** Examine how films, television, music, games, formats, celebrities, and internet genres move across borders and are translated, localized, remade, hybridized, or resisted. Analyze how language, diaspora, platform discoverability, cultural intermediaries, state policy, and uneven production power shape which works travel and how audiences reinterpret them. Use comparative cases to show when circulation broadens cultural exchange or produces homogenization and asymmetry, while distinguishing cultural analysis from media-industry valuation, foreign policy, and adaptation between media.
-- **Status:** proposed
-
 ## Candidate: Defense Industry Economics -- Procurement Cycles, Program Risk, and Concentrated Buyers
 - **Domain:** industries-sectors
 - **Proposed by:** Librarian
