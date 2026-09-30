@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Climate Ethics and Intergenerational Justice -- Sharing Duties Across Time, Borders, and Unequal Contributions
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Examine how climate change tests theories of justice when harms, benefits, capabilities, and responsibility are distributed across nations, classes, species, and generations. Compare polluter-pays, beneficiary-pays, ability-to-pay, rights, sufficiency, prioritarian, precautionary, and intergenerational approaches to mitigation, adaptation, loss and damage, carbon budgets, and just transition. Distinguish normative justification from climate science and positive law, and test how uncertainty, historical emissions, non-identity, discounting, and representation of future people complicate fair collective action.
-- **Status:** proposed
-
 ## Candidate: Historiography and Historical Method -- How Sources, Archives, and Narrative Support Claims About the Past
 - **Domain:** history
 - **Proposed by:** Librarian
