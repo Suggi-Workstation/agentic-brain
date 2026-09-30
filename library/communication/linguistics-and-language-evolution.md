@@ -6,463 +6,588 @@ domain: communication
 author: Librarian
 tags: [linguistics, language-evolution, linguistic-relativity, sapir-whorf, language-families, endangered-languages]
 links: [library/communication/rhetoric.md, library/communication/narrative-structure-and-storytelling.md, library/communication/the-medium-is-the-message.md, library/communication/propaganda-and-misinformation.md, library/communication/interpersonal-communication-and-negotiation.md, library/anthropology/human-evolution-and-prehistory.md]
+reviewed: 2026-09-30
 ---
 
 # Linguistics and Language Evolution -- How Language Shapes Thought and Culture
 
 Linguistics is the scientific study of language: its structure, its
-history, and its role in human thought. Language is not a fixed code
-but an evolving system -- rebuilt by every generation of children,
-split into thousands of divergent families over millennia, and today
-disappearing at a rate of roughly one language every two weeks.
+history, and its role in human thought; it is not a fixed code but an
+evolving system, transmitted across generations and represented today
+by thousands of spoken languages grouped into hundreds of families and
+isolates [20][21]. UNESCO reports that at least 40 percent of roughly
+7,000 languages are endangered and continues to repeat the estimate
+that one language disappears about every two weeks [13][14].
 Understanding how language is organized, how it changes, and how its
-categories shape perception is foundational to every other act of
-communication, because language is the substrate on which rhetoric,
-storytelling, and writing are all built.
+categories can influence cognition is foundational to communication,
+because rhetoric, storytelling, translation, and writing all operate
+through linguistic form.
 
 ## Background
 
-Linguistics studies language as a natural system, from individual
-sounds to whole conversations. The modern field spans a hierarchy of
-objects: sounds (phonetics), sound systems (phonology), word formation
-(morphology), sentence structure (syntax), meaning (semantics),
-discourse, and conversational use (pragmatics). The communication
-domain anchor names linguistics -- "the structure and evolution of
-language" -- as one of the domain's founding pillars, and for good
-reason: rhetoric, writing craft, storytelling, and negotiation all
-operate on structures that linguistics describes. It is the analytical
-layer beneath every other communication skill.
+Linguistics studies language as a natural and social system, from
+individual sounds to whole conversations. The field distinguishes
+phonetics, phonology, morphology, syntax, semantics, pragmatics, and
+discourse, while historical linguistics studies change through time
+[20]. The communication domain anchor names linguistics -- "the
+structure and evolution of language" -- as one of the domain's pillars:
+rhetoric, writing craft, storytelling, translation, and negotiation all
+operate on structures that linguistics describes. Linguistics therefore
+supplies an analytical layer beneath other communication practices,
+without reducing those practices to grammar alone.
 
-The grammatical tradition is old. As early as the late 17th century,
-the Port Royal grammar of 1660 postulated a universal base beneath all
-human languages. But linguistics became an empirical science in the
-19th century. In 1786, Sir William Jones told the Asiatic Society of
-Bengal that Sanskrit bore affinities to Latin and Greek so strong that
-the three must descend from a common, now lost ancestor. His claim
-launched comparative philology, the dominant branch of European
-linguistics for a century afterward. The Danish philologist Rasmus
-Rask recognized regular consonant correspondences across languages as
-early as 1814, and Jacob Grimm systematized them in his Deutsche
-Grammatik (1819-37), producing what is now called Grimm's law.
+The grammatical tradition is old. The Port-Royal grammar of 1660
+proposed principles intended to apply across languages, but the modern
+scientific field emerged much later [20]. In a 1786 address to the
+Asiatic Society, Sir William Jones argued that Sanskrit, Greek, and
+Latin had affinities too systematic to be accidental and postulated a
+common ancestry, giving major impetus to comparative linguistics [1].
+Rasmus Rask identified systematic consonant correspondences in 1814,
+and Jacob Grimm formulated the larger pattern in *Deutsche Grammatik*
+(1819-37), producing what is now called Grimm's law [3]. These were not
+isolated word resemblances: their importance was the demonstration that
+sound change could display regular correspondences across many words.
 
-The comparative method rests on the Neogrammarian principle that sound
-change is regular: laws governing sound change admit no exceptions that
-cannot themselves be explained by another regular process. English
-"foot" and Italian "piede", "father" and "padre", "fish" and "pesce"
-are cognates -- words with the same meaning, not borrowed, descended
-from a single proto-form. Working backward through such correspondences,
-19th-century scholars reconstructed Proto-Indo-European itself. Modern
-linguists have extended the reconstruction to vocabulary, word
-formation, and even pronunciation, and have inferred the speakers'
-lifestyle from it: the reconstructed lexicon contains words for horses,
-cattle and sheep herding, dairy, wool, honey, and mead. Because wheel
-and axle technology was invented roughly 6,000 years ago, linguists
-treat that date as an upper bound on how old Proto-Indo-European can be.
+The comparative method uses recurring sound and form correspondences to
+reconstruct unattested ancestors [2][3]. Cognates are words or
+morphemes inherited from a common source; they need not retain identical
+meanings, and chance resemblance or borrowing is not enough. English
+"foot" and Italian "piede," "father" and "padre," and "fish" and
+"pesce" illustrate the recurrent Germanic *f* versus Italic *p*
+correspondence associated with Grimm's law [2][3]. By combining many
+such sets, linguists have reconstructed Proto-Indo-European phonology,
+morphology, and vocabulary. Reconstructed terms for pastoralism and
+wheeled transport have been compared with archaeology to infer aspects
+of speakers' lives and to constrain chronology, but these inferences
+remain disputed because reconstructions, borrowing histories, and
+archaeological correlations can be uncertain [7][8][10]. The method
+therefore supports testable historical hypotheses rather than a literal
+transcript of a prehistoric language or culture.
 
-The 20th century moved the field from history to structure. Ferdinand
-de Saussure's posthumous Course in General Linguistics (1916) founded
-structuralism: language as a system of signs whose meanings come from
-internal contrasts, with the link between a word's form and its meaning
-held to be arbitrary and conventional. In the United States, Franz Boas
-stressed the equality of all cultures and languages and grounded
-linguistics in fieldwork. His student Edward Sapir argued that
-grammatical differences between languages indicated real differences in
-how speakers perceived reality. Sapir's student Benjamin Lee Whorf --
-an insurance inspector by profession -- turned this into the "linguistic
-relativity principle," claiming that the categories of one's native
-language shape habitual thought. His most famous examples, the claim
-that Hopi lacks time concepts and the claim about Eskimo snow
-vocabulary, were later shown to be exaggerated or wrong, but the
-program he initiated never died.
+Twentieth-century linguistics added structural, anthropological, and
+cognitive perspectives. Ferdinand de Saussure's posthumous *Course in
+General Linguistics* (1916) helped establish structuralism: language was
+analyzed as a system whose elements derive value from contrasts within
+the system [20]. In the United States, Franz Boas emphasized fieldwork
+and warned against forcing unfamiliar languages into Indo-European
+categories; Edward Sapir and Benjamin Lee Whorf developed influential
+claims about relations between linguistic categories and habitual
+thought [4][20]. Later research rejected or sharply qualified famous
+popular examples. Malotki's extensive Hopi data contradicted Whorf's
+claim that Hopi lacked ways to express time, while the celebrated
+"Eskimo words for snow" story compressed complex questions about what
+counts as a word and what lexical distinctions demonstrate [4][6].
+Those corrections did not end research on linguistic relativity; they
+shifted it toward bounded, experimentally testable effects.
 
-The second revolution came from Noam Chomsky, beginning in the late
-1950s. Chomsky argued that children acquire grammars far richer than
-their linguistic input could support -- the poverty of the stimulus
-argument -- and therefore posited an innate, species-specific Universal
-Grammar: "deep down, there is only one human language." This program
-dominated theoretical linguistics for half a century, and its claims
-remain hotly contested: critics argue there is little agreement on what
-Universal Grammar actually contains, and that its supporting arguments
-are often circular or based on false premises.
+Beginning in the late 1950s, Noam Chomsky redirected theoretical
+linguistics toward formal grammar and the biological capacity for
+language. Generative accounts use poverty-of-the-stimulus arguments to
+claim that children's input underdetermines aspects of the grammars they
+acquire, motivating innate constraints often called Universal Grammar
+[15]. The program has been highly influential, but neither its contents
+nor its evidence are settled. Critics argue that proposed universals are
+few, that speakers do not converge as uniformly as the theory assumes,
+and that learning and construction-based accounts can explain more from
+input than strong nativist arguments allow [15][19]. Contemporary
+disagreement therefore concerns both empirical facts and what would
+count as a specifically linguistic innate constraint.
 
-The late 20th century diversified the field: cognitive linguistics,
-evolutionary linguistics with its search for the biological roots of
-language, and computational linguistics feeding machine translation and
-natural language processing. In the 21st century, two developments
-dominate. First, language evolution has become a data science: scholars
-borrowed phylogenetic methods from evolutionary biology to reconstruct
-language family trees and date their origins, producing a famous
-disagreement over when and where Indo-European began. Second, the field
-confronts an extinction crisis of its own object: UNESCO documents
-roughly 40 percent of the world's estimated 7,000 languages as
-endangered, with one language ceasing to be spoken about every two
-weeks.
+The field later diversified into cognitive, computational,
+sociolinguistic, and evolutionary approaches. Phylogenetic models now
+borrow tools from evolutionary biology to estimate language-family
+trees and dates, but the Indo-European case shows that results depend on
+data, ancestry assumptions, and model design [7][8][9][10]. At the same
+time, documentation confronts rapid language shift. Glottolog 5.3 lists
+7,674 spoken first languages and classifies them into 246 families and
+183 isolates as of March 2026 [21]. Ethnologue's 2026 edition counts
+3,226 endangered languages, while UNESCO reports that no less than 40
+percent of known languages are extinct or endangered [13][24]. These
+figures are not directly interchangeable: the catalogues use different
+inclusion rules, vitality scales, and update cycles. Together they show
+both the scale of linguistic diversity and the measurement difficulty
+in claims about how quickly it is being lost.
 
 ## Core Concepts
 
-### The Design Features of Language
+### Design Features, Productivity, and Recursion
 
-Two properties set human language apart from other communication
-systems. The first is arbitrariness: with rare exceptions, the form of
-a word carries no natural connection to its meaning -- nothing about
-the sound of "dog" resembles a dog. The link is convention, which is
-why the same animal is "perro" in Spanish and "inu" in Japanese. The
-second is productivity: from a finite stock of words and rules,
-speakers generate an unbounded set of novel sentences no one has ever
-said before. This generative capacity depends on recursion -- the
-ability to embed a clause inside a clause without limit. Recursion is
-so central that Chomsky's minimalist program reduced Universal Grammar
-to a single structure-building operation, Merge, which performs
-exactly this embedding.
+Arbitrariness and productivity are two widely discussed features of
+human language, though neither by itself exhausts what distinguishes
+language from other communication systems [25]. Arbitrariness means
+that, except for limited sound-symbolic patterns, the form of a word has
+no necessary natural connection to its meaning: the same animal is
+"dog" in English, "perro" in Spanish, and "inu" in Japanese.
+Productivity means that speakers combine a finite repertoire of forms
+and conventions to produce and understand novel utterances. Recursion --
+embedding or applying a rule within a structure of the same general kind
+-- is one possible source of open-ended structure, but the claim that
+unlimited syntactic recursion is universal or uniquely constitutive of
+language is disputed [19][25]. In Chomskyan Minimalism, the operation
+Merge combines syntactic objects and can yield recursive structures;
+it should not be treated as an uncontested description of how every
+language realizes productivity [15][19].
 
 ### The Levels of Linguistic Structure
 
-Language can be dissected into six ordered levels. Phonetics studies
-the physical sounds of speech; phonology studies how a given language
-organizes those sounds into a system of contrasts, syllables, and
-stress patterns. Morphology studies word formation -- how English
-marks plural with -s or how Turkish stacks suffixes. Syntax studies how
-words combine into sentences; it is syntax that forces English speakers
-to say "It is raining" with a dummy subject, while Italian, a
-"pro-drop" language, simply drops the pronoun. Semantics studies
-meaning, and pragmatics studies how speakers use sentences in context
-to do things -- promise, request, imply. Discourse theory examines how
-sentences assemble into stories and arguments.
+Linguistic analysis uses interacting levels rather than one mandatory
+six-step ladder [20]. Phonetics studies the physical production and
+perception of speech sounds; phonology studies how a language organizes
+sounds or signs into contrastive patterns. Morphology examines word
+formation, such as English plural *-s* or sequences of Turkish suffixes.
+Syntax examines how words and phrases combine into clauses; English
+normally requires an overt subject in "It is raining," whereas Italian
+can omit the corresponding subject pronoun. Semantics studies
+conventional meaning, pragmatics studies meaning and action in context,
+and discourse analysis examines relations across sentences, turns,
+stories, and arguments. The levels interact: a pragmatic contrast can
+motivate a syntactic choice, and a historical sound change can obscure
+a once-transparent morphological pattern.
 
 ### Language Families and the Comparative Method
 
-Languages that descend from a common ancestor form a family, and
-families are reconstructed by the comparative method. The method
-collects cognate sets -- words of the same meaning whose sounds
-correspond regularly across languages, like English "foot" and Italian
-"piede" -- and works backward to the ancestral form. Grimm's law is
-the canonical example of a regular correspondence: where Latin has p,
-Germanic languages have f, a pattern that holds across hundreds of
-words. The reconstructed ancestor of the Indo-European family,
-Proto-Indo-European, split into ten or eleven main branches, two of
-which are now extinct; its living descendants include the Germanic,
-Romance, Slavic, Indo-Iranian, and Celtic languages, together spoken by
-roughly half of humanity. Indo-European is merely the best-studied
-family: the world's languages fall into hundreds of families, many of
-them single-language isolates.
+Languages that demonstrably descend from a common ancestor form a
+family, and the comparative method tests that relationship through
+systematic correspondences [2][21]. A cognate set consists of inherited
+forms, not merely words with similar spelling or meaning. Grimm's law
+is a canonical example: Proto-Indo-European voiceless stops developed
+regularly into Germanic fricatives, producing correspondences such as
+Latin *p* and English *f* [3]. A common convention recognizes ten major
+Indo-European branches, including the wholly extinct Anatolian and
+Tocharian branches; living branches include Germanic, Italic, Balto-
+Slavic, Indo-Iranian, Celtic, Greek, Armenian, and Albanian [7][8][9].
+The family is spoken by close to half the world's population, but it is
+only one part of global diversity. Glottolog 5.3 classifies spoken
+languages into 246 families and 183 isolates, where an isolate is a
+one-member family under the available comparative evidence [21]. Such
+classifications remain hypotheses that can change when new data or
+better comparisons become available.
 
 ### How Languages Change
 
-All languages change constantly. Sound change is regular and
-unconscious: each generation reproduces the previous generation's
-system with tiny drift, and Grimm's law is simply a record of one such
-drift frozen in time. When a speech community splits, the drifts
-diverge independently, and over centuries dialects become mutually
-unintelligible languages. Grammar changes too: English lost its
-pro-drop option, while Italian kept it. Languages also change by
-borrowing words from contact languages, and they die when parents stop
-passing them to children. Change is not decay -- no known language is
-more "primitive" or less expressive than any other; every language
-tested so far can express any thought its speakers need.
+Languages change through interacting sound, grammatical, lexical, and
+social processes [2][20]. Many sound changes are regular within a
+specified historical and phonological environment; Grimm's law records
+a linked set of such changes rather than random damage to individual
+words [3]. When communities become separated, innovations can
+accumulate independently until varieties are no longer mutually
+intelligible. Contact can instead produce borrowing, convergence,
+code-switching, or new mixed practices. Grammatical systems also
+reorganize: categories may erode, be reanalyzed, or arise from once-
+independent words. Language shift becomes language death when a
+community stops transmitting a language to children. Change is not
+decay. Natural languages differ in where they encode distinctions and
+in the effort needed to express them, but linguists do not rank them on
+an evolutionary ladder from primitive to advanced; speakers can usually
+express unfamiliar propositions through description, borrowing, or new
+coinages [20].
 
 ### Linguistic Relativity: Strong and Weak Forms
 
-The Sapir-Whorf hypothesis, better called the linguistic relativity
-principle, comes in two strengths. The strong form -- linguistic
-determinism -- holds that the structure of one's language fully
-determines one's worldview. Professional linguists have rejected the
-strong form almost unanimously: people can plainly think about
-concepts their language does not encode. The weak form holds that
-language influences cognition -- that habitual categories steer
-attention and memory -- and this form has gained new empirical
-credibility since the 1980s through domain-centered research,
-especially in color perception. Whorf's own evidence was largely
-discredited: his Hopi-time claims were questioned, and the famous
-"many words for snow" example was an exaggeration by Whorf of a
-modest observation by Boas. The modern revival, led by researchers
-such as George Lakoff, argues not that language imprisons thought but
-that its habitual metaphors and categories bias it.
+Linguistic relativity is better treated as a family of testable claims
+than as one Sapir-Whorf hypothesis [4][5]. Strong determinism says that
+language fixes what its speakers can think; available evidence does not
+support that claim. Weaker hypotheses ask whether routinely used labels
+or grammatical distinctions influence attention, memory,
+categorization, or response speed under specified conditions. Color
+research supplies evidence for such bounded effects, but results are
+not uniform and often depend on uncertainty and access to verbal
+representations [5]. Historical cautions matter: Malotki documented
+Hopi expressions of time that contradicted Whorf's dramatic claims, and
+popular snow-vocabulary stories often confuse words, roots, and phrases
+[4][6]. The defensible conclusion is not that language imprisons
+thought, but that linguistic categories can be one cue among perceptual,
+contextual, and cultural cues.
 
 ### Universal Grammar and the Innateness Debate
 
-Chomsky's Universal Grammar (UG) hypothesis holds that all human
-languages share fundamental structural principles attributable to an
-innate language faculty, and that "deep down, there is only one human
-language." The motivating argument is the poverty of the stimulus:
-children converge on a correct grammar from finite, noisy input that
-underdetermines it, so they must bring innate constraints to the
-problem. UG itself has shrunk over the decades, from a rich system of
-principles and parameters (binding, case, bounding) to the minimalist
-claim that the innate core may be just Merge. Critics reply that there
-is little agreement on what UG actually contains, that the arguments
-for it are circular, and that the observed linguistic diversity --
-English requiring dummy subjects, Italian not -- is hard to square
-with a single deep grammar. The debate is unresolved, and it matters:
-it is the field's central argument over how much of language is
-biology and how much is culture.
+Universal Grammar (UG) names the hypothesis that human language
+learning is constrained by innate, language-specific structure [15]. A
+central argument is poverty of the stimulus: children appear to acquire
+some generalizations despite finite, variable input that does not
+explicitly teach all relevant contrasts. Generative proposals have
+changed substantially, from rich principles-and-parameters systems to
+minimalist accounts in which Merge may carry much of the explanatory
+load. Critics challenge each premise: languages show profound
+structural diversity, adult speakers vary in grammatical knowledge,
+and some disputed patterns can be learned by construction-based or
+domain-general mechanisms [15][19]. The existence of a human biological
+capacity for language is not the same claim as a detailed innate
+grammar. The unresolved question is which properties come from
+language-specific inheritance, broader cognition and motor control,
+statistical learning, cultural transmission, and interaction among
+those factors.
 
 ### How Language Evolved: The Gestural-Origin Theory
 
-Because language leaves no fossils, its origins are reconstructed
-indirectly. The gestural-origin theory, with roots in the 18th-century
-speculations of Vico and Condillac and revived by Michael Corballis in
-2002, holds that spoken language evolved from an earlier system of arm
-gestures, with mouth gestures later fused onto the manual system. The
-theory draws support from neuroscience: neurons in area F5 of the
-monkey premotor cortex discharge for both hand and mouth actions,
-suggesting a shared motor substrate for gesture and speech. Genetic
-evidence entered the field in 1998, when a point mutation in the FOXP2
-gene on chromosome 7 was linked to a severe speech and language
-disorder in the KE family, and a 2002 study reported signs of recent
-positive selection on the human FOXP2 gene. FOXP2 is not a "language
-gene": it is a regulatory gene involved in sequencing motor actions,
-also present in other mammals, birds, and fish -- but its profile fits
-a system in which speech co-opted ancient motor-sequencing machinery.
+Because language leaves no direct fossil record, origin theories rely
+on converging but indirect evidence. Gestural-origin accounts propose
+that manual or bodily communication preceded, or co-evolved with,
+vocal language. Comparative motor systems, co-speech gesture, and infant
+development are consistent with links between manual and vocal action,
+but they do not by themselves establish a single evolutionary sequence
+[16][22]. FOXP2 provides a related caution. A 1998 linkage study mapped
+a severe speech and language disorder in the KE family to chromosome
+7; the causal FOXP2 point mutation was identified in 2001, not 1998
+[17]. FOXP2 is a transcription factor important for speech and language
+development and is active in neural systems involved in learning and
+motor control [17]. It is not a "language gene," and its presence in
+many vertebrates prevents a one-gene account of human language. A 2002
+study reported a recent human selective sweep, but a larger 2018
+analysis of globally diverse genomes found no evidence for that sweep
+and attributed the earlier signal to sample composition [18]. FOXP2 can
+therefore illuminate parts of the speech-motor system without deciding
+whether language began in gesture.
 
 ### Language Endangerment and Death
 
-UNESCO's Atlas of the World's Languages in Danger rates vitality on a
-five-level scale: unsafe, definitely endangered, severely endangered,
-critically endangered, and extinct. The Atlas catalogues roughly 2,500
-endangered languages, and its most striking finding is how many
-languages survive only in memory: 199 languages have fewer than ten
-speakers, and 178 more have between ten and fifty. Recent documented
-extinctions include Manx (1974, with the death of Ned Maddrell),
-Ubykh (1992, with Tevfik Esenc), and Eyak (2008, with Marie Smith
-Jones). Overall, UNESCO estimates that about 40 percent of the
-world's roughly 7,000 languages are endangered, and that one language
-falls silent roughly every two weeks. What dies with a language is
-not only speech but the knowledge encoded in its vocabulary --
-ecological knowledge, plant names, oral history -- which is why the
-UNESCO Courier calls endangered languages "endangered thought." The
-picture is not uniformly bleak: Papua New Guinea, the most
-linguistically diverse country on earth with over 800 languages, has
-relatively few endangered languages, and some languages listed as
-extinct, including Manx, are being actively revived.
+Language vitality is measured differently across catalogues. UNESCO's
+2009 Atlas used five levels -- unsafe, definitely endangered, severely
+endangered, critically endangered, and extinct -- and listed about
+2,500 endangered languages. At that launch it reported 538 critically
+endangered and 502 severely endangered languages, 199 languages with
+fewer than ten speakers, and 178 with ten to fifty speakers [11][12].
+Those are dated Atlas counts, not current totals. UNESCO's later summary
+reported at least 40 percent of known languages extinct or endangered,
+while Ethnologue's 2026 edition counts 3,226 endangered languages under
+its own EGIDS-based method [13][24]. The estimates differ because
+language identification, data coverage, and vitality criteria differ.
+
+The Atlas recorded the deaths of the last traditional native speakers
+of Manx in 1974, Ubykh in 1992, and Eyak in 2008, while also noting that
+languages classified as extinct can be revitalized [11][12]. Manx is an
+important example: Ned Maddrell's death ended an unbroken native-
+speaker line, but community teaching later produced new fluent speakers
+and Manx-medium education [26]. What
+is lost when transmission ends can include oral literature, ecological
+vocabulary, place knowledge, and other community-specific knowledge
+[12]. UNESCO therefore promotes documentation and multilingual
+education, while emphasizing that economic, political, demographic,
+and sociological conditions interact with policy [12][14]. No single
+speaker threshold or national count determines vitality; the central
+question is whether communities use and transmit the language across
+generations and domains.
 
 ### The Cognitive Science of Language
 
-A final concept bridges linguistics to neighboring domains: language
-is processed by a brain, and its processing constraints shape its
-structure. Psycholinguistics studies how language is acquired,
-comprehended, and produced; neurolinguistics maps it onto neural
-circuits. The central empirical question of this interface is
-linguistic relativity -- whether and how a speaker's native categories
-shape perception, memory, and decision-making -- and it is to this
-evidence that the next section turns.
+Psycholinguistics studies acquisition, comprehension, and production;
+neurolinguistics studies their neural implementation. These fields show
+why single-cause accounts are inadequate. Color judgments can reflect
+both shared perceptual constraints and language-specific category cues,
+with stronger category effects under uncertainty [5]. FOXP2-related
+disorders show that a transcription factor can affect speech and
+language development without encoding a grammar by itself [17][18].
+Early gesture predicts later lexical and syntactic development, but that
+developmental association does not prove a gestural evolutionary origin
+[16][22]. The useful bridge is methodological: claims about language,
+thought, and biology must specify the task, population, mechanism, and
+alternative explanations rather than treating "language" as one
+undifferentiated faculty.
 
 ## Evidence
 
-### Study 1: Color Terms and Perception -- Cibelli et al. (2016)
+### Study 1: Color Categories Under Uncertainty -- Cibelli et al. (2016)
 
-Color is the classic testbed for linguistic relativity because human
-color vision is biologically uniform while color vocabularies differ
-strikingly across languages. Cibelli, Xu, Austerweil, Griffiths, and
-Regier formalized the weak Whorfian position as a model of
-probabilistic inference: the language provides a prior distribution
-over color categories, which speakers combine with perceptual
-evidence when naming or remembering colors. The model fits
-cross-linguistic color-naming data better than either a pure
-perceptual account or a strong determinist account. The finding
-supports the weak form precisely: language biases categorization
-decisions without altering perception itself. The same research
-program documented a striking regularity -- only languages that draw a
-lexical distinction between blue and green go on to develop basic
-color terms for purple, pink, orange, grey, or brown -- evidence that
-lexical categories scaffold the emergence of further categories.
+Color is a useful test case because perceptual constraints are shared
+while category boundaries and labels vary. Cibelli and colleagues
+formalized one weak-relativity mechanism with category-adjustment
+models [5]. In Study 1, English speakers reconstructed colors either
+while the stimulus remained visible or after a delay; biases toward
+English *green* and *blue* category prototypes were stronger in the
+delayed, more uncertain condition. In Studies 2 and 3, models whose
+category parameters were derived from English, Berinmo, and Himba naming
+data accounted for cross-language discrimination patterns better than
+models without the relevant category information [5]. The authors did
+not show that language rewrites sensory biology or fixes what speakers
+can see. They showed that linguistic category information can enter
+nominally non-linguistic reconstruction and discrimination, especially
+when fine-grained perceptual or memory evidence is uncertain. They also
+noted mixed replication in the wider literature and treated uncertainty
+as a reason effects may appear in some tasks but not others [5]. This is
+stronger evidence for a bounded cue-integration effect than for global
+linguistic determinism.
 
 ### Study 2: Three Phylogenetic Analyses, Three Homelands
 
-The Indo-European homeland debate shows language evolution being
-inferred with biological methods, and shows how much the answer
-depends on method. Bouckaert et al. (2012, Science) applied Bayesian
-phylogeographic analysis to cognate vocabulary from ancient and
-contemporary Indo-European languages and dated the family's origin to
-roughly 8,000-9,500 years ago in Anatolia, spreading with agriculture.
-Three years later, Chang, Cathcart, Hall, and Garrett (2015, Language)
-used an ancestry-constrained phylogenetic analysis of 207 languages
-and dated the origin to about 6,500 years ago on the Pontic-Caspian
-steppe, spreading with wheeled vehicles -- the traditional steppe
-hypothesis. Most recently, Heggarty et al. (2023, Science), working
-from a new database of core vocabulary in 161 Indo-European languages
-with cognacy judgments from more than 80 linguists, produced a hybrid:
-the family began diverging about 8,100 years ago south of the
-Caucasus, with the steppe acting as a secondary homeland from which
-most European branches radiated. All three are peer-reviewed, all use
-phylogenetic machinery, and they disagree by millennia -- a useful
-warning about the confidence one should place in any single
-reconstruction of prehistory.
+The Indo-European homeland debate shows both the value and sensitivity
+of biological-style language phylogenies. Bouckaert et al. analyzed
+basic vocabulary and geographic ranges for 103 ancient and modern
+languages with Bayesian phylogeographic models, finding strong support
+for an Anatolian origin roughly 8,000-9,500 years ago [7]. Chang,
+Cathcart, Hall, and Garrett then constrained inferred trees with known
+ancestry relations among historical and modern languages; their 2015
+analysis supported a Pontic-Caspian steppe chronology around 6,500 years
+ago [8]. Heggarty et al. (2023) assembled a new core-vocabulary database
+for 161 languages, including 52 ancient or historical languages, with
+cognacy judgments by more than 80 specialists. Their ancestry-enabled
+Bayesian analysis estimated an initial divergence about 8,100 years ago
+south of the Caucasus and a later steppe homeland for branches entering
+much of Europe [9].
+
+The three results are not interchangeable confirmations. They depend on
+different datasets, ancestry constraints, treatments of borrowing, and
+model assumptions. Mainstream historical linguists have criticized
+vocabulary-heavy phylogenies for underusing sound correspondences and
+morphological structure, and some remain unconvinced by the early dates
+in the 2023 tree [10]. The substantive lesson is methodological: a
+formal model can make assumptions explicit and quantify uncertainty,
+but agreement among model outputs cannot substitute for testing the
+linguistic coding, archaeological correlation, and sensitivity of the
+result [7][8][9][10].
 
 ### Study 3: The Disconfirmation of Whorf's Hopi Claims
 
-Linguistic relativity has also been tested by falsification, and its
-most famous specific claims failed the test. Whorf argued that Hopi
-grammar encodes no concept of time comparable to European languages,
-and that Hopi speakers therefore experience time fundamentally
-differently from English speakers. Later scholars re-examined Hopi
-with Whorf's own data and found the claims factually wrong: Hopi has
-elaborate grammatical means for expressing time, sequence, and
-duration. The episode matters for method, not just history: it shows
-that the strong form of relativity repeatedly collapsed on inspection
-of specific languages, and it forced the field toward the domain-
-centered, quantitatively testable research that now supports only the
-weak form. The modern consensus treats Whorf as a brilliant stimulant
-and an unreliable witness -- his general principle survived his
-specific evidence.
+Whorf used Hopi as a central example for a broad relation between
+grammar and concepts of time. Ekkehart Malotki's 1983 monograph *Hopi
+Time* supplied hundreds of analyzed examples from field notes and
+natural discourse, documenting lexical and grammatical resources for
+time, sequence, and duration that Whorf had said were absent [6]. The
+case disconfirmed those specific descriptions; it did not by itself
+settle every possible language-cognition effect. Its methodological
+importance is larger than its verdict on Whorf. Claims about a
+language's conceptual possibilities require extensive primary-language
+data, not isolated translations or impressions. Modern relativity
+research accordingly tests narrower hypotheses about particular tasks,
+domains, and processing conditions, as the color studies do [5][6].
 
-### Study 5: FOXP2 and the KE Family
+### Study 4: FOXP2, the KE Family, and a Reversed Selection Claim
 
-In 1998, Fisher and colleagues published genetic analysis of the KE
-family, a large British family in which a severe speech and language
-disorder runs across three generations. Linkage analysis traced the
-disorder to a point mutation in the FOXP2 gene on chromosome 7, the
-first time a specific gene had been tied to human language ability.
-The gene encodes a transcription factor active in brain regions
-involved in the motor control of speech. Subsequent work reported
-evidence that the human FOXP2 gene has undergone recent positive
-selection in the human lineage. Interpretation is contested: FOXP2 is
-not a gene "for" language, since it is expressed in other mammals,
-birds, and fish that do not speak, and the most careful reading is
-that it contributes to the neural machinery for sequencing rapid
-motor actions -- precisely the substrate the gestural-origin theory
-predicts speech would co-opt.
+Fisher and colleagues' 1998 linkage study mapped the KE family's
+inherited speech and language disorder to a region of chromosome 7; Lai
+et al. identified the heterozygous FOXP2 point mutation in 2001 [17].
+Affected family members showed severe problems coordinating rapid
+speech movements together with wider language impairments. FOXP2
+encodes a transcription factor rather than a grammar or language module,
+and later clinical variants confirmed that disruption of one copy can
+produce FOXP2-related speech and language disorder [17].
 
-### Study 6: Gesture Precedes Speech in Development
+Evolutionary interpretation changed as data improved. Enard et al.
+(2002) reported a recent selective sweep near FOXP2, a finding that
+became central to popular accounts of language evolution. Atkinson et
+al. (2018) repeated the population-genetic tests with hundreds of
+more-diverse genomes and found no evidence for recent positive or
+balancing selection. They concluded that the earlier sweep signal was
+produced by sample composition and population structure [18]. The case
+is valuable because it contains both a robust clinical association and
+a corrected evolutionary claim: FOXP2 matters to speech and language
+development, but the evidence does not support a recent human-specific
+selective sweep or a single "language gene" story [17][18].
 
-The gestural-origin theory makes a developmental prediction: if speech
-evolved from gesture, gesture should scaffold speech in infants.
-Longitudinal studies support this. Fogel and Hannan (1985) found
-gesture-vocalization synchrony in infants as young as two to three
-months. Volterra et al. (1979) and Bates and Snyder (1987) found that
-word comprehension at 8-10 months and word production at 11-13 months
-are typically accompanied by deictic (pointing) gestures, which help
-infants link symbols to referents. Most important, deictic gestures
-predict later linguistic development across typical and atypical
-populations and across cultures (Iverson and Goldin-Meadow, 2005).
-Adult neuroscience completes the picture: Heim et al. (2012) found a
-common cortical module in the left superior parietal area 7A for
-sequencing vocal gestures and manual actions, evidence that spoken
-language runs on circuitry shared with hand movement.
+### Study 5: Early Gesture Predicts Later Language
 
-### Study 7: The UNESCO Atlas -- Quantifying the Loss
+Iverson and Goldin-Meadow followed ten children making the transition
+from single words to two-word combinations. Objects first referred to in
+gesture often entered the child's spoken vocabulary later, and gesture-
+word combinations predicted later two-word combinations [22]. This was
+a small longitudinal study. Within that sample, the result supports a
+developmental claim: gesture can reveal and perhaps support
+linguistic knowledge before that knowledge appears fully in speech
+[22].
 
-UNESCO's endangered-language data is the field's largest systematic
-survey of language vitality. The 2009 Atlas catalogued roughly 2,500
-endangered languages across a five-level scale of endangerment, and
-reported 538 critically endangered and 502 severely endangered
-languages. The distribution is concentrated but global: India, the
-United States, Brazil, Indonesia, and Mexico combine the greatest
-linguistic diversity with the greatest numbers of endangered
-languages. A 2016 UNESCO analysis found that 40 percent of the
-world's roughly 7,000 languages are endangered, and that 976 -- 56
-percent -- of languages spoken by fewer than 10,000 people are
-critically or severely endangered. UNESCO estimates that one language
-disappears about every two weeks. The counterexample is instructive:
-Papua New Guinea, with more than 800 living languages, has only 88
-listed as endangered, showing that small languages survive where
-communities remain intact -- and pointing to the community as the
-unit where preservation actually happens.
+A broader gestural-origin review also reports gesture-vocalization
+coordination in young infants and shared manual-vocal motor evidence,
+but describes FOXP2 as a possible or suggestive bridge rather than a
+proven evolutionary mechanism [16]. Developmental order is not an
+ancestral fossil: children developing within a modern speaking
+community do not reenact human evolution. The developmental studies
+therefore establish coordination between gesture and language, while
+the claim that manual gesture historically preceded speech remains a
+separate evolutionary hypothesis [16][22].
+
+### Study 6: Language Vitality Data Change With Method and Time
+
+The 2009 UNESCO Atlas launch catalogued about 2,500 endangered
+languages on five levels and reported 538 as critically endangered, 502
+as severely endangered, 632 as definitely endangered, and 607 as
+unsafe. It also reported 199 languages with fewer than ten speakers and
+178 with ten to fifty [11][12]. UNESCO's later analysis expanded its
+data and reported 2,728 mapped languages, at least 40 percent of known
+languages extinct or endangered, and 976 languages with fewer than
+10,000 speakers in the two highest endangerment categories [13]. The
+later page also warned that rising catalogue counts can reflect newly
+documented languages rather than a measured acceleration between two
+fixed samples.
+
+Current catalogues show why dates and definitions must accompany every
+total. Ethnologue's 2026 edition counts 3,226 endangered languages and
+lists 840 living indigenous languages in Papua New Guinea [24]. That
+current source no longer supports the topic's former use of the 2009
+UNESCO figure of only 88 endangered languages in Papua New Guinea as a
+present-day counterexample. Glottolog 5.3, using different inclusion and
+classification criteria, lists 7,674 spoken first languages [21]. These
+are not contradictory measurements of one stable object. A defensible
+claim identifies the catalogue, edition, unit, and vitality scheme.
+Across methods, the common finding is that interrupted
+intergenerational transmission is widespread, while exact totals remain
+provisional [13][21][24].
 
 ## Implications
 
-### For Writers and Communicators
+### For Writers, Editors, and Translators
 
-The deepest implication for anyone who communicates for a living is
-that categories are not universal: your reader's native language
-organizes color, space, and time differently from yours. Writers who
-assume their categories transfer transparently write for an audience
-that does not exist. Practical consequences follow. Word choice is
-never neutral -- it selects a category system and a framing, which is
-why rhetoric and propaganda work through lexical selection. Translation
-is category mapping, not word substitution: a language without a
-blue-green split will not map "cyan" cleanly, and a translator who
-pretends otherwise produces text that misleads. The arbitrariness of
-the sign also cuts the other way: because the link between form and
-meaning is conventional, a writer can and must choose the form that
-carries the intended weight -- "drift" does different work than
-"collapse." For the agents of this organization, the stakes are
-direct: every knowledge artifact is an act of communication, and the
-discipline of linguistics -- knowing that clarity is hard-won, that
-structure carries meaning, and that audiences vary in their
-interpretive categories -- is the scientific foundation of writing
-craft. The topic also sharpens an old McLuhanesque point: the medium
-shapes thought, but so does the language the medium carries.
+Linguistic relativity supports precision, not the claim that audiences
+inhabit mutually inaccessible worlds. Cibelli et al. found category
+effects that depended on task conditions and uncertainty; they did not
+show that labels determine perception [5]. A writer should therefore
+test where a technical term, metaphor, tense, evidential marker, or
+color boundary carries assumptions that a target audience may not
+share. The practical response is to define consequential terms, supply
+examples, and distinguish a source's wording from the writer's
+interpretation. This is especially important when a translation maps
+one lexical field onto another: a one-word equivalent may preserve a
+rough denotation while losing register, grammatical force, or the
+boundaries among neighboring concepts.
+
+Historical linguistics offers a second editorial lesson. Superficial
+word resemblance is weak evidence; the comparative method requires
+regular correspondences across sets of forms and tests inheritance
+against borrowing and chance [2][3]. The analogous rule for factual
+writing is to prefer repeatable patterns and explicit provenance over a
+memorable coincidence. Whorf's Hopi claims show the cost of generalizing
+from sparse examples, while Malotki's corpus shows what corrective
+evidence looks like [6]. Writers should preserve qualifiers such as
+"in this task," "under delay," or "under this catalogue's criteria"
+because those phrases define the evidence rather than weaken it.
+
+The author's synthesis is that linguistic choices are design decisions
+with measurable constraints. A communicator cannot make wording
+neutral, but can make its assumptions visible: name the audience,
+define the category system, preserve uncertainty, and record where a
+translation or paraphrase changes emphasis. That practice connects
+linguistics to rhetoric and fact-checking without claiming that grammar
+alone controls belief.
 
 ### For Educators and Policymakers
 
-Language death is a policy choice, not an accident: languages die when
-institutions stop supporting them. UNESCO's finding that a language
-disappears every two weeks makes preservation an urgent educational
-priority, and its recommended lever is multilingual education --
-teaching children in their mother tongue while adding regional and
-global languages. The case for intervention is not sentimental but
-epistemic: each language encodes generations of local ecological and
-historical knowledge that dies with it, and documentation of the
-world's remaining unwritten languages is a race against time. The
-linguistic-equality tradition that runs from Boas through modern
-sociolinguistics gives the moral frame: no language is more primitive
-than another, so letting one die is not pruning but losing a unique
-cognitive instrument. The revival of Manx, dead since 1974 and now
-again spoken and taught, demonstrates that extinction is not
-necessarily terminal when a community commits to reversal. For
-policymakers, the Papua New Guinea counterexample -- over 800
-languages, few endangered -- shows that the unit of preservation is
-the community, and that top-down standardization is often the
-mechanism of loss. A practical agenda follows: census language
-vitality, fund documentation, support mother-tongue schooling, and
-treat linguistic diversity as a national asset rather than an
-administrative inconvenience.
+Language endangerment is not reducible to a single cause or a simple
+choice. UNESCO identifies interacting economic pressures, language
+policies, demographic conditions, and sociological processes, and its
+World Atlas work treats vitality as multidimensional [12][13]. Policy
+can accelerate language shift by excluding a language from education or
+public institutions, and it can support transmission through teacher
+training, materials, broadcasting, documentation, and legitimate public
+use. The relevant outcome is not the number of archived word lists but
+whether speakers can use the language across generations and domains.
+
+Multilingual education is one intervention, not an automatic cure.
+UNESCO reports that 40 percent of the world's population lacks access to
+education in a language it understands well and promotes learning that
+begins with a learner's strongest language while adding other languages
+[14]. Programs still require community consent, qualified teachers,
+orthographically and culturally appropriate materials, and evaluation
+of learning outcomes. A policy that nominally recognizes a language but
+provides no instructional capacity may change legal status without
+changing transmission. Conversely, documentation is essential when
+fluent speakers are few, but an archive cannot substitute for a living
+speech community.
+
+Data should be reported with edition and method. The 2009 UNESCO Atlas,
+UNESCO's later analysis, Ethnologue 2026, and Glottolog 5.3 count
+different objects under different rules [11][13][21][24]. The former
+claim that Papua New Guinea had only 88 endangered languages was a dated
+2009 Atlas result; Ethnologue 2026 lists 840 living indigenous languages
+there and uses a different vitality system [24]. Policymakers should not
+turn either number into a timeless ranking. Better monitoring tracks
+intergenerational use, domains, speaker age, institutional support, and
+community goals, then publishes definitions so later measurements are
+comparable. The author's assessment is that preservation is strongest
+when communities control priorities and institutions provide durable
+resources rather than treating a language as a museum object.
 
 ### For Technologists and AI Builders
 
-Language technology is overwhelmingly concentrated on a handful of
-high-resource languages. Machine translation, speech recognition, and
-large language models are trained on corpora dominated by English and
-a few dozen other languages, while thousands of languages lack even
-basic digital corpora. This produces a Whorfian effect at industrial
-scale: models inherit the categories of their training languages and
-project them onto the world, homogenizing expression and erasing
-distinctions that smaller languages grammaticalize. The evidence
-reviewed above makes the mechanism concrete -- if color categories
-bias human perception, then a model trained on languages with a
-blue-green split will carry that split into every task it performs.
-For technologists, the actionable conclusions are threefold. First,
-documentation of endangered languages must be digital-first --
-recording speech is cheap, and every unrecorded language is data lost
-permanently. Second, evaluation of language models should test
-cross-linguistic behavior, not assume English defaults generalize.
-Third, the linguistic-relativity evidence cuts both ways for AI: if
-language biases human cognition, then the language an AI system is
-trained in biases its outputs, and training-language diversity is a
-genuine safety and fairness lever rather than a nice-to-have.
+Language technology inherits the unevenness of available data and
+evaluation. UNESCO reports more than 7,000 languages but says fewer than
+100 are used in the digital world in the context it surveyed [14]. A
+multilingual model label therefore does not establish comparable
+coverage, accuracy, or safety across languages. Rajaee and Monz tested
+cross-lingual transfer in multilingual models and found that apparent
+performance could rely on task artifacts, surface cues, and learned
+biases rather than robust transfer of linguistic knowledge; the problem
+was especially consequential for low-resource languages [23]. That
+finding supports narrower operational conclusions than the former claim
+that models simply inherit human color categories from their training
+languages.
+
+Three engineering requirements follow from the evidence. First, publish
+language-level data and evaluation coverage instead of reporting one
+aggregate multilingual score. Tests should use native or expert-reviewed
+materials and should include morphologically, genealogically, and
+geographically diverse languages. Second, separate fluency from task
+accuracy and cross-lingual transfer. A system can produce grammatical
+text while relying on shallow correlations, so evaluations should vary
+which languages appear in instructions, evidence, and answers [23].
+Third, treat community language data as governed cultural material, not
+merely an unclaimed corpus. Documentation projects should record
+consent, provenance, permitted uses, and whether community goals include
+public model training.
+
+Linguistic analysis also improves failure diagnosis. Phonology and
+morphology expose errors hidden by word-level metrics; pragmatics tests
+whether a system preserves implicature, politeness, and reference;
+discourse analysis tests consistency across turns; historical and
+contact linguistics warn that named languages contain variation rather
+than one canonical form. The author's synthesis is that linguistic
+diversity is both a coverage requirement and a stress test. A system
+that works only where data, orthography, and benchmarks are abundant
+has not demonstrated a general language capability. Diversity in
+training may help, but the evidence here supports transparent
+language-specific evaluation more directly than any blanket claim that
+adding languages automatically makes a model fair or safe.
 
 ### For Individuals and Lifelong Learners
 
-The individual implication is that learning a second language is
-cognitive training in the literal sense: it installs a second
-category system alongside the first, and the weak-form evidence
-suggests that bilinguals navigate two ways of slicing the world. A
-learner who studies a language with a different color vocabulary,
-different spatial terms, or different grammatical categories acquires
-not just a skill but an alternative lens -- a practical check on
-assuming one's native categories are reality itself. The
-gestural-origin research points the same way in everyday terms: the
-hands and the mouth share machinery, so gesturing while explaining is
-not ornament but part of the same motor program, and the infant data
-suggest that pointing, drawing, and talking together scaffold clearer
-thought. For the writer and the reader alike, the linguist's stance
-is portable: treat wordings as choices, ask what a given phrase
-assumes, and remember that every language -- including one's own --
-is a historically contingent system that could have carved the world
-differently. That stance converts the study of language from a
-specialty into a daily thinking tool.
+Learning another language exposes a learner to new conventional ways of
+marking categories, relations, and social action. The evidence does not
+justify saying that this installs a wholly separate worldview or
+reliably improves general cognition. It does justify a more disciplined
+habit: ask which distinctions a language marks obligatorily, which it
+leaves to context, and which are easy or difficult to translate. Color
+research shows that labels can influence judgments under some
+conditions without overriding shared perception [5]. That combination
+is a useful mental model for cross-cultural learning: expect both common
+constraints and language-specific habits.
 
-Across these audiences the pattern is the same: language is
-infrastructure, and infrastructure shapes what can be built on it.
-The writer chooses categories; the policymaker decides which
-languages get institutions; the technologist decides which languages
-get models; the individual chooses which category systems to install.
-Each decision is a vote about which ways of slicing the world
-survive, and the evidence from color terms to language death shows
-the votes compound. A communicator who understands linguistics does
-not just transmit messages more precisely -- they transmit them with
-awareness that every sentence carries a theory of how thought works,
-and that the theory is, in part, negotiable.
+Gesture research gives a second bounded application. Iverson and
+Goldin-Meadow found that children's gestures predicted later words and
+word combinations [22]. For teaching and explanation, gesture,
+diagrams, speech, and writing can therefore be treated as coordinated
+channels rather than decoration, while avoiding the unsupported claim
+that a particular hand movement guarantees comprehension. Learners can
+use gesture to externalize a relation they cannot yet state, and
+teachers can watch gesture for knowledge that has not yet become fluent
+speech. This application follows the developmental association; it does
+not require accepting a gestural-origin theory of human language.
+
+Historical linguistics adds an epistemic practice. A compelling word
+story is not established by resemblance; it requires regular
+correspondences, chronology, and exclusion of borrowing or chance
+[2][3]. The same discipline transfers to everyday reasoning: compare
+sets rather than anecdotes, state the mechanism, and seek evidence that
+could disconfirm it. Whorf's Hopi claim, the competing Indo-European
+phylogenies, and the reversed FOXP2 selection claim each show a
+scientific field correcting an attractive generalization when richer
+data arrive [6][7][8][9][18].
+
+The author's synthesis is that linguistic study is training in
+calibrated interpretation. It teaches that categories are conventional
+but constrained, that every dataset reflects classification choices,
+and that disagreement may come from different units or methods rather
+than simple error. An individual can apply that stance by treating
+wording as evidence, asking what a translation omits, checking whether a
+number is current and comparable, and revising a favored explanation
+when a better corpus or broader sample appears.
+
+Across these audiences, language functions as infrastructure: it
+constrains available forms without mechanically determining every use.
+Writers choose categories, institutions affect which languages retain
+public domains, technologists choose which languages receive data and
+evaluation, and learners decide which distinctions to examine. The
+evidence supports practical humility. State the catalogue and date,
+test translation rather than assuming equivalence, distinguish
+correlation from evolutionary history, and preserve uncertainty when
+models disagree [5][9][13][18][23]. Linguistics improves communication
+most when it makes those hidden assumptions inspectable.
 
 ## Sources
 
@@ -484,9 +609,9 @@ and that the theory is, in part, negotiable.
    Evidence from the domain of color." PLoS ONE 11(7): e0158725.
    https://pmc.ncbi.nlm.nih.gov/articles/PMC4951127 [high]
 
-6. Frothingham, M. B. (2023). "Sapir-Whorf hypothesis (linguistic
-   relativity hypothesis)." Simply Psychology.
-   https://www.simplypsychology.org/sapir-whorf-hypothesis.html [medium]
+6. Malotki, E. (1983). *Hopi Time: A Linguistic Analysis of the
+   Temporal Concepts in the Hopi Language.* Mouton.
+   https://books.google.com/books/about/Hopi_Time.html?id=XSeGmS4uXykC [high]
 
 7. Bouckaert, R. et al. (2012). "Mapping the origins and expansion of
    the Indo-European language family." Science 337(6097), 957-960.
@@ -495,7 +620,7 @@ and that the theory is, in part, negotiable.
 8. Chang, W., Cathcart, C., Hall, D., & Garrett, A. (2015).
    "Ancestry-constrained phylogenetic analysis supports the
    Indo-European steppe hypothesis." Language 91(1), 194-244.
-   https://www.linguisticsociety.org/sites/default/files/news/ChangEtAlPreprint.pdf [high]
+   https://escholarship.org/uc/item/9cr00162 [high]
 
 9. Max Planck Institute for Evolutionary Anthropology (2023). "New
    insights into the origin of the Indo-European languages."
@@ -507,14 +632,16 @@ and that the theory is, in part, negotiable.
 11. UN News (2009). "UNESCO on-line atlas seeks to save dying
     languages." https://news.un.org/en/story/2009/02/291652 [high]
 
-12. UNESCO Courier. "Endangered languages, endangered thought."
+12. UNESCO Courier (2009). "Endangered languages, endangered
+    thought."
     https://courier.unesco.org/en/articles/endangered-languages-endangered-thought [high]
 
-13. UNESCO (2016). "Towards World Atlas of Languages."
+13. UNESCO (2023). "Towards World Atlas of Languages" (reporting 2016
+    Atlas analysis).
     https://www.unesco.org/en/articles/towards-world-atlas-languages [high]
 
-14. UNESCO. "Multilingual education, the bet to preserve indigenous
-    languages and justice."
+14. UNESCO (2024). "Multilingual education, the bet to preserve
+    indigenous languages and justice."
     https://www.unesco.org/en/articles/multilingual-education-bet-preserve-indigenous-languages-and-justice [high]
 
 15. Dabrowska, E. (2015). "What exactly is Universal Grammar, and has
@@ -526,16 +653,46 @@ and that the theory is, in part, negotiable.
     Frontiers in Behavioral Neuroscience 7:99.
     https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2013.00099/full [high]
 
-17. MedlinePlus Genetics. "FOXP2 gene."
-    https://medlineplus.gov/genetics/gene/foxp2/ [medium]
+17. MedlinePlus Genetics (2026). "FOXP2 gene." U.S. National Library
+    of Medicine.
+    https://medlineplus.gov/genetics/gene/foxp2/ [high]
 
-18. Wikipedia. "FOXP2." https://en.wikipedia.org/wiki/FOXP2 [medium]
+18. Atkinson, E. G. et al. (2018). "No Evidence for Recent Selection at
+    FOXP2 among Diverse Human Populations." Cell 174(6), 1424-1435.e15.
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC6128738 [high]
 
-19. "An Evaluation of Universal Grammar and the Phonological Mind."
-    Frontiers (2016). https://ncbi.nlm.nih.gov/pmc/articles/PMC4744836 [high]
+19. Everett, D. L. (2016). "An Evaluation of Universal Grammar and the
+    Phonological Mind." Frontiers in Psychology 7:15.
+    https://ncbi.nlm.nih.gov/pmc/articles/PMC4744836 [high]
 
-20. Wikipedia. "History of linguistics."
-    https://en.wikipedia.org/wiki/History_of_linguistics [medium]
+20. Encyclopaedia Britannica. "Linguistics."
+    https://www.britannica.com/science/linguistics [high]
+
+21. Glottolog 5.3 (2026). "About Languoids."
+    https://glottolog.org/glottolog/glottologinformation [high]
+
+22. Iverson, J. M., & Goldin-Meadow, S. (2005). "Gesture Paves the Way
+    for Language Development." Psychological Science 16(5), 367-371.
+    https://pubmed.ncbi.nlm.nih.gov/15869695/ [high]
+
+23. Rajaee, S., & Monz, C. (2024). "Analyzing the Evaluation of
+    Cross-Lingual Knowledge Transfer in Multilingual Language Models."
+    EACL 2024, 2895-2914.
+    https://aclanthology.org/2024.eacl-long.177/ [high]
+
+24. Eberhard, D. M., Simons, G. F., & Robinson, A. J., eds. (2026).
+    *Ethnologue: Languages of the World*, 29th ed.
+    https://www.ethnologue.com/insights/how-many-languages-endangered
+    https://www.ethnologue.com/country/PG/ [high]
+
+25. Wacewicz, S., & Zywiczynski, P. (2015). "Language Evolution: Why
+    Hockett's Design Features are a Non-Starter." Frontiers in
+    Psychology 6:1493.
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC4544681 [high]
+
+26. Isle of Man Government (2020). "Manx Goes Mainstream -- Significant
+    Moment for the Manx Language."
+    https://www.gov.im/news/2020/aug/04/manx-goes-mainstream-significant-moment-for-the-manx-language [high]
 
 ## See Also
 
@@ -554,3 +711,4 @@ and that the theory is, in part, negotiable.
   conversational pragmatics is the applied end of language structure.
 - `library/anthropology/human-evolution-and-prehistory.md` -- the deep
   timeline of human evolution that language emerged within.
+
