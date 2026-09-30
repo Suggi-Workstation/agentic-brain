@@ -6,6 +6,7 @@ domain: self-improvement
 author: Librarian
 tags: [commitment-devices, accountability-systems, precommitment, progress-monitoring, implementation-intentions, behavior-design]
 links: [library/self-improvement/goal-setting-frameworks.md, library/self-improvement/habit-formation.md, library/self-improvement/decision-journals.md, library/self-improvement/personal-n-of-1-experiments.md, library/psychology-behavior/incentives-and-reward-structures.md]
+reviewed: 2026-09-30
 ---
 
 # Commitment Devices Work Best When Accountability Preserves Autonomy and Failure Remains Reversible
@@ -20,7 +21,7 @@ A commitment device is an arrangement chosen now that changes the choices, costs
 
 Accountability is related but not identical. A commitment device alters the future choice environment; accountability makes conduct or progress answerable to an audience, rule, or review. The audience can be the same person through a record, one trusted partner, a small group, an employer, or a public network. Progress monitoring can operate without an audience, and an accountability conversation can operate without a penalty. This separation matters because the evidence for recording progress is broader than the evidence for exposing goals publicly, and because public exposure can deter people from making commitments at all [3][9].
 
-Implementation intentions supply one low-cost bridge from intention to action. They take an if-then form that links a specified situation to a specified response, such as, "If I finish breakfast on a weekday, then I will open the study document before opening email." A meta-analysis of 94 independent tests reported a medium-to-large average effect on goal attainment and described benefits for initiating action, shielding pursuit from disruption, disengaging from failing courses, and conserving capacity for later pursuit [2]. The device does not create a valuable goal. It operationalizes an already chosen goal at a point where noticing or initiation is likely to fail.
+Implementation intentions supply one low-cost bridge from intention to action. They take an if-then form that links a specified situation to a specified response, such as, "If I finish breakfast on a weekday, then I will open the study document before opening email." A meta-analysis of 94 independent tests reported a medium-to-large average effect on goal attainment and described benefits for initiating action, shielding pursuit from disruption, disengaging from failing courses, and conserving capacity for later pursuit [2]. A later meta-analysis of 642 independent tests found positive effects across cognitive, affective, and behavioral outcomes, with effect sizes from d = 0.27 to d = 0.66; effects were larger for contingent if-then plans, highly motivated participants, and rehearsed plans [17]. The device does not create a valuable goal. It operationalizes an already chosen goal at a point where noticing or initiation is likely to fail.
 
 Progress monitoring supplies a second bridge. Harkin and colleagues synthesized 138 randomized studies with 19,951 participants. Interventions increased monitoring frequency strongly and improved goal attainment by a smaller but meaningful average amount; effects were larger when progress was physically recorded, reported to another person, or made public than when monitoring remained private [3]. This result supports visibility and review, but it does not establish that maximum publicity is best for every person. The studies covered varied behaviors and interventions, and a separate randomized field experiment found that public announcements through Facebook and email elicited support while also making participants less likely to form weekly commitments [9].
 
@@ -42,7 +43,7 @@ The worst design starts with the strongest available penalty and searches afterw
 
 ### Implementation intentions convert goals into cue-response rules
 
-A goal intention states a desired end: "I intend to exercise." An implementation intention specifies the execution condition and response: "If it is 7:00 on Monday, Wednesday, or Friday and I am medically able, then I will begin the ten-minute warm-up." Gollwitzer and Sheeran's meta-analysis reported an average effect of d = 0.65 across 94 independent tests, although effects necessarily varied across goals, populations, and designs [2]. The mechanism is not a threat. It reduces the need to notice, decide, and negotiate at the moment of action.
+A goal intention states a desired end: "I intend to exercise." An implementation intention specifies the execution condition and response: "If it is 7:00 on Monday, Wednesday, or Friday and I am medically able, then I will begin the ten-minute warm-up." Gollwitzer and Sheeran's 2006 meta-analysis reported an average effect of d = 0.65 across 94 independent tests [2]. A 2025 meta-analysis encompassing 642 independent tests estimated effects from d = 0.27 to d = 0.66 across outcome classes and found larger effects for if-then formats, high goal motivation, and rehearsal [17]. The evidence therefore supports contingent planning while also showing that effect size varies by outcome and design. The mechanism is not a threat. It reduces the need to notice, decide, and negotiate at the moment of action.
 
 An effective if-then plan has four properties. The cue is specific enough to recognize, the response is under the person's control, the first action is small enough to begin, and an exception protects safety or changed conditions. Time can be a cue, but events are often more reliable: finishing breakfast, arriving at a desk, closing a meeting, or placing a phone on charge. A plan should also address a likely derailment: "If the session is interrupted, then I will write the next action before stopping and resume at the next available block." These are design recommendations derived from the evidence, not universal clinical prescriptions [2].
 
@@ -94,7 +95,7 @@ The minimal viable commitment system has seven parts: a valued goal, one diagnos
 
 ### Planning and monitoring have the broadest experimental base
 
-Gollwitzer and Sheeran reviewed 94 independent tests of implementation intentions and reported a medium-to-large average effect of d = 0.65 on goal attainment [2]. Their framework distinguishes goal intention from execution planning: deciding to reach an outcome does not necessarily prepare a person to notice and respond to the critical situation. The review reported effects across initiation, protection of ongoing pursuit, disengagement from failing action, and preservation of capacity, supporting if-then plans as a general execution aid rather than a single-domain trick [2]. The evidence does not imply that every cue-response plan is correct; poor cues and infeasible responses can still fail.
+Gollwitzer and Sheeran reviewed 94 independent tests of implementation intentions and reported a medium-to-large average effect of d = 0.65 on goal attainment [2]. Their framework distinguishes goal intention from execution planning: deciding to reach an outcome does not necessarily prepare a person to notice and respond to the critical situation. The review reported effects across initiation, protection of ongoing pursuit, disengagement from failing action, and preservation of capacity, supporting if-then plans as a general execution aid rather than a single-domain trick [2]. Sheeran, Listrom, and Gollwitzer later synthesized 642 independent tests and reported positive effects from d = 0.27 to d = 0.66 across cognitive, affective, and behavioral outcomes; contingent if-then wording, high motivation, and rehearsal predicted larger effects [17]. The expanded evidence supports the method but also makes heterogeneity explicit: poor cues, infeasible responses, or weakly valued goals can still fail.
 
 Harkin and colleagues provide stronger direct evidence for the monitoring layer. Their systematic search found 138 randomized studies with 19,951 participants. Monitoring interventions increased the frequency of monitoring with d = 1.98 and improved goal attainment with d = 0.40; mediation analysis linked increased monitoring to improved attainment [3]. Reporting or publicizing monitored outcomes and physically recording information were associated with larger effects [3]. Because the intervention set and goal domains were heterogeneous, the pooled effect is an average, not a guaranteed return from any app, dashboard, or accountability meeting.
 
@@ -111,6 +112,8 @@ Gine, Karlan, and Zinman tested a six-month smoking-cessation deposit contract. 
 Royer, Stehr, and Sydnor tested incentives and self-funded commitment contracts for company-gym attendance. A four-week incentive produced only small lasting changes, while the group offered a commitment option afterward showed significant longer-run differences detectable years later [6]. The experiment supports the possibility that a voluntary contract can extend behavior beyond an initial incentive. It does not establish that contracts are generally superior, because the participants, target, workplace gym, and preceding incentive created a specific selection and support environment.
 
 Kaur, Kremer, and Mullainathan studied full-time data-entry workers for a year. Workers sometimes chose dominated contracts that penalized output below a self-selected target without paying more above the target, and output increased under those contracts; effort also rose as randomly assigned paydays approached [7]. The authors reported substantial worker-level heterogeneity and argued that some workplace constraints can supply self-control benefits [7]. The same heterogeneity limits universal use: a feature helpful to a worker who wants it can impose a cost on a worker who does not.
+
+A more recent education experiment reinforces that context limit. Pugatch, Schroeder, and Wilson randomly offered college students a contract that imposed a financial cost for failing to attend tutoring after a low midterm grade. Ten percent of students offered a contract took it, but the offer did not robustly change tutoring attendance or course grades [18]. Willingness to pay for constraint was therefore not evidence that the device improved the measured outcomes in that setting.
 
 ### Publicity and pressure produce mixed effects
 
@@ -264,11 +267,22 @@ The final principle is proportionality. Use planning when planning is enough, vi
 
 15. Psychological Science (2026). "Retraction: Procrastination,
     Deadlines, and Performance: Self-Control by Precommitment."
-    https://doi.org/10.1111/1467-9280.00441 [high]
+    Psychological Science, 37(9), 665.
+    https://doi.org/10.1177/09567976261488042 [high]
 
 16. Rogers, T., Milkman, K. L. & Volpp, K. G. (2014). "Commitment
     Devices: Using Initiatives to Change Behavior." JAMA, 311(20),
     2065-2066. https://doi.org/10.1001/jama.2014.3485 [high]
+
+17. Sheeran, P., Listrom, O. & Gollwitzer, P. M. (2025). "The When and
+    How of Planning: Meta-analysis of the Scope and Components of
+    Implementation Intentions in 642 Tests." European Review of Social
+    Psychology, 36(1), 162-194.
+    https://doi.org/10.1080/10463283.2024.2334563 [high]
+
+18. Pugatch, T., Schroeder, E. & Wilson, N. (2025). "Study More
+    Tomorrow." Educational Evaluation and Policy Analysis, 47(2),
+    604-615. https://doi.org/10.3102/01623737231218730 [high]
 
 ## See Also
 
