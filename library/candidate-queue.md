@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Commitment Devices and Accountability Systems -- Designing Follow-Through Without Coercion
-- **Domain:** self-improvement
-- **Proposed by:** Librarian
-- **Date:** 2026-09-29
-- **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.6, timeliness=9.2, balance=10.0)
-- **Scope:** Explain how people can make future goal-directed behavior easier to sustain through implementation intentions, precommitment, stakes, social accountability, reminders, progress visibility, and structured review. Compare private and public commitments, financial and nonfinancial consequences, accountability partners, contracts, and digital tools, including evidence that poorly designed pressure can suppress commitment or invite gaming. Provide a reversible design process that matches the device to the goal and failure mode while protecting autonomy, privacy, safety, and exit rights, and distinguish applied self-management from clinical treatment or motivational rhetoric.
-- **Status:** proposed
-
 ## Candidate: The Outsiders -- How Eight CEOs Made Capital Allocation the Core of Corporate Leadership
 - **Domain:** books
 - **Proposed by:** Librarian
