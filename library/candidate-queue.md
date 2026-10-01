@@ -177,3 +177,35 @@
 - **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=10.0, balance=10.0)
 - **Scope:** Explain the moral frameworks used to judge when war may be initiated, how force may be conducted, and what justice requires after conflict. Compare just cause, legitimate authority, proportionality, necessity, discrimination, double effect, civilian protection, surrender, occupation, peace settlement, and competing realist, pacifist, consequentialist, deontological, and virtue-ethical critiques. Test these principles against contemporary proxy war, urban warfare, cyber operations, autonomous weapons, and asymmetric conflict while distinguishing normative judgment from international-law doctrine and geopolitical strategy.
 - **Status:** proposed
+
+## Candidate: Transboundary Water Geopolitics -- River Basins, Dams, Scarcity, and Interstate Power
+- **Domain:** geopolitics
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how upstream-downstream geography, dams, aquifers, climate stress, irrigation, hydropower, data control, and treaty design turn shared water into bargaining power and mutual dependence. Compare cooperation, coercion, benefit sharing, environmental flows, dispute resolution, and conflict risk across major river and groundwater basins without assuming scarcity automatically causes war. Distinguish geopolitical analysis from hydrology, domestic water policy, and detailed international law while connecting water security to food, energy, migration, and regional order.
+- **Status:** proposed
+
+## Candidate: Thomas Gayner -- Insurance Investing, Decentralized Operations, and Patient Compounding
+- **Domain:** investors
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=10.0, compounding=9.9, timeliness=9.7, balance=10.0)
+- **Scope:** Profile Thomas Gayner's evolution from accountant and analyst to Markel investor and chief executive, focusing on his four-part investment framework, long holding periods, insurance-capital constraints, and decentralized operating model. Examine his record, portfolio decisions, acquisitions, partnership with Markel's other leaders, governance responsibilities, mistakes, and changes in capital allocation as the company became a diversified holding company. Keep the focus on Gayner's decisions and development rather than turning the topic into a general treatment of insurance float, quality investing, or conglomerate structure.
+- **Status:** proposed
+
+## Candidate: Animal Ethics and Moral Status -- Sentience, Rights, Welfare, and Human Obligations
+- **Domain:** ethics-philosophy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.8, timeliness=9.9, balance=10.0)
+- **Scope:** Examine which properties make nonhuman animals morally considerable and how sentience, cognition, species membership, relationships, and vulnerability support competing duties. Compare utilitarian, rights, capabilities, care-ethics, contractualist, and relational approaches across farming, research, companionship, wildlife, conservation, and emerging debates about aquatic and invertebrate animals. Separate normative claims from empirical sentience evidence and legal animal-welfare rules while explaining conflicts among suffering reduction, freedom, flourishing, ecological integrity, and human interests.
+- **Status:** proposed
+
+## Candidate: Sales Force Design and Revenue Operations -- Territories, Quotas, Incentives, and Pipeline Quality
+- **Domain:** business-management-strategy
+- **Proposed by:** Librarian
+- **Date:** 2026-09-30
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.8, timeliness=9.7, balance=10.0)
+- **Scope:** Explain how firms translate market segmentation and growth strategy into coverage models, roles, territories, quotas, compensation plans, pipeline definitions, and forecasting routines. Analyze how capacity, account assignment, channel conflict, data quality, ramp time, quota relief, gaming, and AI-assisted prospecting affect revenue quality and seller behavior. Show how to diagnose productivity and incentive failures without reducing sales management to CRM software, generic marketing, or executive-pay governance.
+- **Status:** proposed
