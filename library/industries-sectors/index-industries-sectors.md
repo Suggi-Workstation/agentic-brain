@@ -1,8 +1,10 @@
 # Industries Sectors -- Topics
 
-18 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
+19 topics. Anchor: [anchor-industries-sectors.md](anchor-industries-sectors.md)
 
 - [Airline Industry Economics -- Network Value Cannot Eliminate the Capacity Cycle](airline-industry-economics-fixed-costs-networks-and-cycles.md) -- [reviewed: 2026-09-21] -- Airlines create valuable connectivity by combining aircraft, airport access, schedules, and demand into networks, but their perishable inventory and committed capacity make that value difficult to retain as durable profit. Route density, hub scope, revenue management, loyalty, and disciplined capacity can improve economics; none removes exposure to price competition, fuel and labor costs, demand shocks, regulation, or the capital cycle ([1] [6] [7] [10]).
+
+- [Banking Industry Economics -- A Funding Franchise Creates Value Only While Trust, Selection, and Liquidity Hold](banking-industry-economics.md) -- [reviewed: never] -- Commercial banks combine transaction services, deposits, wholesale funding, equity capital, lending, and fee businesses inside a regulated intermediary whose revenues often arrive before its full credit, liquidity, and compliance costs are known. A durable banking franchise therefore depends not on leverage or low deposit rates alone, but on retaining trusted funding, selecting risks that survive...
 
 - [Capital Cycle Analysis -- Why High Returns Attract the Capital That Destroys Them](capital-cycle-analysis.md) -- [reviewed: 2026-09-28] -- Capital cycle analysis studies how returns on capital alter industry supply: high returns invite investment and competition, while depressed returns repel capital and can remove capacity. The framework is useful because demand growth alone does not determine shareholder outcomes; the amount, timing, and durability of competing supply can turn a growing market into a poor investment or a stagnant market into an improving one [1][3].
 
