@@ -6,6 +6,7 @@ domain: ethics-philosophy
 author: Librarian
 tags: [animal-ethics, moral-status, sentience, animal-rights, animal-welfare, capabilities, speciesism, moral-patiency]
 links: [library/ethics-philosophy/normative-ethics.md, library/ethics-philosophy/philosophy-of-mind-hard-problem-of-consciousness.md, library/ethics-philosophy/bioethics.md, library/ethics-philosophy/moral-uncertainty-and-decision-making.md]
+reviewed: 2026-10-01
 ---
 
 # Animal Ethics -- Moral Status Requires More Than Species Membership
@@ -104,7 +105,7 @@ Care is not mere sentiment. Affection can coexist with overfeeding, restrictive 
 
 Contractualist and contractarian theories ask which principles could be justified to relevant parties or accepted under fair conditions. Animals cannot ordinarily negotiate, understand reciprocal rules, or hold humans accountable, so traditional mutual-advantage versions appear to exclude them. Mark Rowlands argues, however, that at least some contractarian constructions can recognize direct animal status when fair choice prevents parties from tailoring rules to their own species or capacities [7].
 
-The central design question is representation. Human institutions routinely represent children, future persons, ecosystems, and people unable to participate directly. Animal representatives, welfare committees, guardians, independent advocates, and public-interest review can similarly introduce animal interests into procedures. Representation does not prove which substantive right an animal has, but it reduces the risk that the decision-maker benefits from excluding the affected party.
+The author's synthesis is that the central design question is representation. Procedures can appoint animal representatives, welfare committees, guardians, independent advocates, or public-interest reviewers to introduce animal interests into deliberation. Representation does not prove which substantive right an animal has, but it can reduce the risk that a decision-maker benefits from excluding the affected party.
 
 Contractualism contributes publicity and justification: a policy should state the reasons, burdens, alternatives, uncertainty, and safeguards that would be defensible to each affected standpoint. Its limit is dependence on how the hypothetical parties and reasonable objections are defined. If only current human contractors count, animals remain indirect beneficiaries; if representatives can reject severe animal burdens, the theory approaches rights or equal consideration through procedural means [2][7].
 
@@ -125,6 +126,8 @@ Birch, Burn, Schnell, Browning, and Crump reviewed more than 300 studies on ceph
 The review found very strong evidence of sentience in octopods and substantial or strong evidence across several other cephalopod and decapod groups, while also recording gaps where taxa had received little study. The authors recommended that all cephalopods and decapods be treated as sentient for UK welfare law, partly because absence of research should not be confused with evidence of absence [8]. The Animal Welfare (Sentience) Act 2022 subsequently included cephalopod molluscs and decapod crustaceans in its definition of animal [17].
 
 This case demonstrates a defensible evidence-to-policy sequence: define indicators, grade confidence, distinguish uncertainty from negative evidence, and choose a legal response proportionate to welfare risk. It also shows a limitation. Group-level protection is administratively clear but coarser than the uneven evidence across species, life stages, and capacities [8][20].
+
+A 2026 updated assessment reviewed more than 120 studies while retaining eight neural and behavioral criteria and separating major cephalopod groups. It reported strong evidence of sentience in octopuses and cuttlefish, each meeting six criteria with high or very high confidence; substantial evidence in squid, meeting five; and high-confidence support for only one criterion in nautiluses, a group for which research remains sparse [21]. The author's synthesis is that these results refine rather than negate the earlier precautionary recommendation: class-wide legal coverage can protect against severe error while scientific claims about particular taxa remain graded and revisable [8][17][21].
 
 ### Octopus place conditioning links injury to negative affect
 
@@ -335,6 +338,11 @@ A fuller account adds positive welfare, agency, capabilities, bodily integrity, 
     the Evidence." Animal Sentience, 7(32), 1.
     https://www.wellbeingintlstudiesrepository.org/cgi/viewcontent.cgi?article=1691&context=animsent
     [high]
+
+21. Schnell, A. K., Browning, H., Crump, A., Burn, C. C., and Birch, J.
+    (2026). "Sentience in Cephalopod Molluscs: An Updated Assessment."
+    Biological Reviews, 101(3), 1311-1333.
+    https://doi.org/10.1002/brv.70125 [high]
 
 ## See Also
 
