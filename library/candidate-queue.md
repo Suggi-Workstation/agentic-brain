@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Aesthetics and Artistic Value -- How Interpretation, Form, Experience, and Institutions Make Art Matter
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.7, timeliness=10.0, balance=9.4)
-- **Scope:** Explain the central theories of beauty, taste, representation, expression, form, interpretation, and aesthetic experience across Western and non-Western traditions. Examine how intention, medium, audience, criticism, institutions, authenticity, appropriation, and cultural context affect judgments of artistic value without reducing them to popularity or market price. Use photography, conceptual art, mass reproduction, and generative AI to test theories of authorship and creativity, while distinguishing philosophical evaluation from art history, copyright law, and entertainment criticism.
-- **Status:** proposed
-
 ## Candidate: Health Technology Assessment and Cost-Effectiveness -- Allocating Care Under Evidence, Budget, and Equity Constraints
 - **Domain:** health-medicine
 - **Proposed by:** Librarian
