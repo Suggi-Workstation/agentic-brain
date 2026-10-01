@@ -1,6 +1,6 @@
 # Health Medicine -- Topics
 
-17 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
+18 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
 
 - [AI in Medicine and Diagnostics -- How Deep Learning Reached Clinician-Level Accuracy and Why Clinical Deployment Still Lags the Benchmarks](ai-in-medicine-and-diagnostics.md) -- [reviewed: 2026-09-23] -- AI in medicine and diagnostics applies machine learning to images, text, and structured records to detect, classify, or triage disease. On narrow imaging tasks, controlled studies have shown performance comparable with specialists, and a direct count of unique submission identifiers in the US Food and Drug Administration's (FDA's) September 4, 2026 public list yields 1,614 authorized AI-enabled devices ([1] [2] [5]).
 
@@ -13,6 +13,8 @@
 - [Diagnostic Reasoning Works When Tests Update Decisions Rather Than Replace Judgment](diagnostic-reasoning-and-medical-testing.md) -- [reviewed: never] -- Diagnostic reasoning is the iterative process of turning a patient's history, examination, prior risk, and test results into a working explanation and a safe next action. A test adds value only when its possible results can change a consequential decision; indiscriminate testing can instead create false reassurance, false alarms, incidental findings, harmful cascades, and neglected follow-up [2][3][10][11].
 
 - [Drug Development -- Attrition and Evidence, Not One Fixed Price Tag, Make Medicines Slow and Costly](drug-development-from-molecule-to-medicine.md) -- [reviewed: 2026-09-24] -- Drug development converts a biological hypothesis into a medicine whose identity, manufacturing quality, safety, and effectiveness are supported for a defined use. In a 2011-2020 industry dataset, 7.9% of programs entering Phase I reached US approval and successful programs averaged 10.5 years from Phase I to approval; cost estimates are less uniform, ranging from a $985 million median in one public-data study to a $2.
+
+- [Health Technology Assessment Allocates Care Better When Evidence, Opportunity Cost, Equity, and Uncertainty Are Judged Together](health-technology-assessment-and-cost-effectiveness.md) -- [reviewed: never] -- Health technology assessment (HTA) is a systematic, multidisciplinary process for determining the value of medicines, devices, diagnostics, procedures, programs, and delivery systems in a defined decision context. It improves coverage and reimbursement decisions only when comparative clinical evidence, economic consequences, affordability, patient experience, equity, and uncertainty remain...
 
 - [Healthcare Systems and Insurance Models -- Why the Same Price of Care Buys Very Different Health](healthcare-systems-and-insurance-models.md) -- [reviewed: never] -- Every wealthy nation faces the same problem: how to pay for the care its citizens need without bankrupting them or the state. Yet the answers diverge sharply. A handful of structural archetypes -- the Beveridge model, the Bismarck model, national health insurance, and mixed or hybrid systems -- produce radically different outcomes in cost, access, and quality.
 
