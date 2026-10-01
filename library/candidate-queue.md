@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Edward O. Thorp -- Probability, Arbitrage, and the Birth of Quantitative Investing
-- **Domain:** investors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.8/10.0 (gap=10.0, compounding=10.0, timeliness=8.8, balance=10.0)
-- **Scope:** Profile Edward O. Thorp's path from mathematics and card counting to option pricing, convertible arbitrage, Princeton Newport Partners, and systematic risk control. Examine how experiments with Claude Shannon, the Kelly criterion, empirical testing, market-neutral portfolio design, fraud detection, and institutional pressure shaped his decisions, record, mistakes, and influence. Extract lessons about evidence, leverage, model risk, and intellectual independence while keeping the focus on Thorp as an investor rather than turning the biography into a general quantitative-finance manual.
-- **Status:** proposed
-
 ## Candidate: Classification Shifting and Special-Item Abuse -- Making Core Earnings Look Better Without Changing Net Income
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Librarian
