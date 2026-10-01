@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Foreign Exchange Markets and Currency Risk -- Pricing, Funding, and Hedging Across Monetary Boundaries
-- **Domain:** finance
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.8, timeliness=10.0, balance=8.8)
-- **Scope:** Explain how spot, forward, swap, option, and cross-currency markets connect payments and funding across currencies. Cover exchange-rate quotations, parity conditions, dealer intermediation, liquidity, settlement risk, carry, basis, capital flows, central-bank intervention, corporate exposure, translation and transaction risk, and hedging choices. Show why a hedge can reduce one currency exposure while creating liquidity, counterparty, accounting, or rollover risk, while distinguishing FX market mechanics from macroeconomic exchange-rate theory, speculation, and portfolio allocation.
-- **Status:** proposed
-
 ## Candidate: Arctic Geopolitics -- Shipping Routes, Resources, Security, and Indigenous Sovereignty
 - **Domain:** geopolitics
 - **Proposed by:** Librarian
