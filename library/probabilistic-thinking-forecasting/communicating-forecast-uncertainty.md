@@ -6,6 +6,7 @@ domain: probabilistic-thinking-forecasting
 author: Librarian
 tags: [forecast-uncertainty, probability-communication, prediction-intervals, fan-charts, ensemble-forecasts, decision-thresholds, numeracy, calibrated-language]
 links: [library/probabilistic-thinking-forecasting/forecast-question-design.md, library/probabilistic-thinking-forecasting/calibration-and-overconfidence.md, library/probabilistic-thinking-forecasting/expected-value-decision-trees.md, library/probabilistic-thinking-forecasting/scenario-planning-and-analysis.md, library/probabilistic-thinking-forecasting/fermi-estimation-and-decomposition.md, library/probabilistic-thinking-forecasting/base-rate-neglect.md]
+reviewed: 2026-10-01
 ---
 
 # Forecast Uncertainty Is Useful Only When Its Meaning and Decision Consequences Are Explicit
@@ -22,7 +23,7 @@ Economic and climate institutions developed other conventions. The Bank of Engla
 
 Several kinds of uncertainty can coexist in one forecast. Outcome variability concerns which value will occur even if the model is correctly specified. Parameter uncertainty concerns imperfectly known quantities inside the model. Model uncertainty concerns alternative structures, omitted mechanisms, and imperfect approximations. Measurement and baseline uncertainty concern the data used to initialize or estimate the system. Judgmental uncertainty concerns expert choices that cannot be derived mechanically. Communication uncertainty arises when the sender and receiver attach different meanings to the same term, number, range, color, or graphic. IPCC guidance specifically warns that experts tend to understate structural uncertainty and asks authors to state assumptions and provide a traceable account of evidence and agreement.[2] The WMO likewise distinguishes uncertainty in the science from uncertainty introduced by interpretation and language.[3]
 
-The decision context determines which uncertainty matters. A farmer deciding whether to protect a crop, an emergency manager deciding whether to evacuate, and a central bank deciding whether to change policy can rationally take different actions after receiving the same probability because their costs, losses, timing constraints, and available alternatives differ.[1] The National Research Council summarizes the cost-loss logic: a user for whom protection is cheap relative to an unprotected loss should act at a lower event probability than a user facing a high protection cost and a smaller loss.[1] The probability belongs to the forecast; the action threshold belongs to the user and the consequence structure. Combining them without disclosure turns a forecast into hidden advice.
+The decision context determines which uncertainty matters. A farmer deciding whether to protect a crop, an emergency manager deciding whether to evacuate, and a central bank deciding whether to change policy can rationally take different actions after receiving the same probability because their costs, losses, timing constraints, and available alternatives differ.[1] The simple cost-loss model makes this consequence dependence explicit: if protective action costs C and avoids loss L, a user minimizes expected expense by acting when the event probability exceeds the user's C/L ratio.[15] A user with a lower cost relative to the avoidable loss should therefore act at a lower probability. The probability belongs to the forecast; the action threshold belongs to the user and the consequence structure. Combining them without disclosure turns a forecast into hidden advice.
 
 Communication also has an audience constraint. Numerical probabilities can preserve distinctions that words blur, but low numeracy, denominator neglect, graph literacy, and framing can change how those numbers are used.[5][8][13] Verbal probability expressions are accessible and can convey the speaker's attitude or the direction of concern, but those pragmatic meanings may move interpretation away from the intended probability.[6][12] Graphics can make distributions visible, but a cone, band, or color gradient can be read as geography, confidence, density, severity, or a hard limit depending on design and prior expectations.[8] The correct response is not to retreat to a single deterministic number. It is to match the representation to the task, test interpretation, and retain the assumptions needed to audit the message.
 
@@ -80,11 +81,11 @@ Alternative scenarios solve a different problem. A scenario specifies a coherent
 
 ### Decision thresholds connect uncertainty to asymmetric consequences
 
-Forecast communication becomes actionable when it identifies the event probability or outcome quantile relevant to the decision. In a simple cost-loss setting, protective action is justified when the forecast probability exceeds a threshold related to the cost of protection and the avoided loss.[1] Different users can therefore use one probability forecast differently without either user misunderstanding it. A deterministic warning collapses these varied thresholds into one institutional rule and can serve some users poorly.
+Forecast communication becomes actionable when it identifies the event probability or outcome quantile relevant to the decision. In a simple cost-loss setting, protective action is justified when the forecast probability exceeds the user's ratio of protection cost to avoidable loss.[15] Different users can therefore use one probability forecast differently without either user misunderstanding it. A deterministic warning collapses these varied thresholds into one institutional rule and can serve some users poorly.
 
 Losses are often asymmetric. Underprediction of a flood, demand spike, liquidity need, or safety hazard may be far more costly than overprediction; in another setting, false alarms may erode scarce resources or compliance. The relevant central forecast may then be a decision-weighted quantile rather than the mean or median. The author must distinguish this action-oriented statistic from an unbiased descriptive center. The author's synthesis is to publish both when they differ: the predictive distribution describes belief, while the recommended threshold or action states the consequence rule.
 
-Thresholds also expose why framing matters. A message focused on the chance of crossing the harmful threshold usually maps more directly to protective action than a complementary message about remaining below it. Joslyn and colleagues found that mismatch between wording and the decision goal increased errors in threshold tasks.[4] The author's synthesis is to express the event in the same direction as the action trigger, while also showing the complement when balanced interpretation matters.
+Thresholds also expose why framing matters. A message focused on the chance of crossing the harmful threshold usually maps more directly to protective action than a complementary message about remaining below it. Joslyn and colleagues found that mismatch between wording and the decision goal increased errors in threshold tasks.[14] The author's synthesis is to express the event in the same direction as the action trigger, while also showing the complement when balanced interpretation matters.
 
 ### Revision is evidence, not an admission that the prior forecast was meaningless
 
@@ -104,7 +105,7 @@ No format passes merely because it is technically valid. The final test is wheth
 
 ### Numerical uncertainty improved decisions in controlled weather tasks
 
-Joslyn and LeClerc tested forecast formats in road-salting decisions based on overnight temperature forecasts. Participants saw deterministic low-temperature forecasts in a control condition and, in other conditions, explicit probabilities of freezing or decision advice. The task created a cost-loss tradeoff: salting cost resources, while failing to salt before a freeze caused a larger penalty. In one analysis, 17 percent probability of freezing was the economically relevant action threshold, allowing the researchers to classify salting below and not salting above that threshold as decision errors.[4]
+Joslyn and LeClerc tested forecast formats in road-salting decisions based on overnight temperature forecasts. Participants saw deterministic low-temperature forecasts in a control condition and, in other conditions, explicit probabilities of freezing or decision advice. The task created a cost-loss tradeoff: salting cost resources, while failing to salt before a freeze caused a larger penalty. The economically rational action threshold was 17 percent probability of freezing: salting below 17 percent and not salting at or above 17 percent were classified as decision errors.[4]
 
 The experiments found an overall advantage for uncertainty formats, and explicit uncertainty reduced the damaging effects of forecast error on decision quality and trust. Advice alone did not provide the same overall improvement; the combination of advice and uncertainty performed best in the reported comparison.[4] The method matters because it evaluated actions rather than asking only whether participants could restate a percentage. Its limit is equally important: the task was a controlled weather decision with a known payoff structure, not proof that every probability display improves every real-world choice.
 
@@ -156,7 +157,7 @@ Revisions should be published as changes in evidence and assumptions, not merely
 
 ### For decision-makers and organizations
 
-Decision-makers should separate belief from preference. The forecast probability describes the analyst's state of information about an event. The action threshold describes the organization's costs, losses, risk tolerance, legal duties, and reversibility. Asking an analyst to lower a probability because the action is expensive corrupts the belief estimate; asking the decision-maker to act at 10 percent because the possible loss is catastrophic may be rational.[1] The two should meet in an explicit decision rule.
+Decision-makers should separate belief from preference. The forecast probability describes the analyst's state of information about an event. The action threshold describes the organization's costs, losses, risk tolerance, legal duties, and reversibility. Asking an analyst to lower a probability because the action is expensive corrupts the belief estimate; asking the decision-maker to act at 10 percent because the possible loss is catastrophic may be rational.[1][15] The two should meet in an explicit decision rule.
 
 The author's synthesis is a three-column decision table. The first column lists observable states or threshold events. The second gives probabilities, intervals, and conditioning assumptions. The third gives actions and their consequences. Where losses are asymmetric, the table should show why the selected action threshold is below or above 50 percent. Where several actions exist, it should show staged responses rather than forcing one warning level to serve every user.
 
@@ -180,7 +181,7 @@ High-consequence communication should expose low-probability outcomes without al
 
 Warnings should distinguish forecast uncertainty from action advice. One layer can state the chance of the hazard and its timing. Another can state the warning level, trigger, and protective action. Joslyn and LeClerc's experiments found that probability plus advice outperformed advice alone in their controlled setting.[4] The author's synthesis is to preserve both layers so users can understand why the warning exists and organizations with different cost-loss ratios can adapt their response.
 
-Repeated false alarms should be evaluated against the forecast probability and loss structure rather than counted as simple failures. If action is rational at a 10 percent hazard probability, most protective actions will occur on occasions when the hazard does not materialize. That does not make the forecast or decision wrong. Calibration over many comparable forecasts and transparent threshold logic are necessary to judge the system.[1][4]
+Repeated false alarms should be evaluated against the forecast probability and loss structure rather than counted as simple failures. If action is rational at a 10 percent hazard probability, most protective actions will occur on occasions when the hazard does not materialize. That does not make the forecast or decision wrong. Calibration over many comparable forecasts and transparent threshold logic are necessary to judge the system.[1][4][15]
 
 ### For investing and capital allocation
 
@@ -264,6 +265,18 @@ The worst institutional failure is a precise-looking forecast that no one can au
 13. Gigerenzer, G., and Edwards, A. (2003). "Simple Tools for
     Understanding Risks: From Innumeracy to Insight." BMJ, 327(7417),
     741-744. https://doi.org/10.1136/bmj.327.7417.741 [high]
+
+14. Joslyn, S. L., Nadav-Greenberg, L., Taing, M. U., and Nichols,
+    R. M. (2009). "The Effects of Wording on the Understanding and Use
+    of Uncertainty Information in a Threshold Forecasting Decision."
+    Applied Cognitive Psychology, 23(1), 55-72.
+    https://doi.org/10.1002/acp.1449 [high]
+
+15. Richardson, D. S. (2003). "Predictability and Economic Value."
+    Seminar on Predictability of Weather and Climate. European Centre
+    for Medium-Range Weather Forecasts.
+    https://www.ecmwf.int/en/elibrary/76166-predictability-and-economic-value
+    [high]
 
 ## See Also
 
