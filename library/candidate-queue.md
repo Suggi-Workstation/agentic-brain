@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Space Geopolitics and Counterspace Competition -- Orbits, Satellites, and Strategic Dependence
-- **Domain:** geopolitics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=9.4)
-- **Scope:** Explain how states and commercial actors convert satellites, launch access, orbital positions, ground infrastructure, data links, and cislunar reach into geopolitical power and vulnerability. Cover dual-use dependence, counterspace capabilities, attribution, escalation, debris, resilience, alliances, norms, and competition over governance as activity expands beyond Earth orbit. Distinguish international security analysis from spacecraft engineering, commercial space-industry economics, and the detailed law of outer space.
-- **Status:** proposed
-
 ## Candidate: Financial Crises and Macroprudential Policy -- Detecting Systemic Risk and Building Buffers Before Contagion
 - **Domain:** macro-micro
 - **Proposed by:** Librarian
