@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Health Technology Assessment and Cost-Effectiveness -- Allocating Care Under Evidence, Budget, and Equity Constraints
-- **Domain:** health-medicine
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.9, timeliness=10.0, balance=8.8)
-- **Scope:** Explain how health technology assessment combines comparative clinical evidence, economic evaluation, budget impact, patient experience, and uncertainty to inform coverage and reimbursement. Cover quality-adjusted life years, incremental cost-effectiveness ratios, model structure, sensitivity analysis, thresholds, opportunity cost, rare diseases, diagnostics, devices, real-world evidence, equity, deliberation, and reassessment. Compare institutional approaches and show how assessment differs from regulatory approval, bedside treatment choice, price negotiation, and bioethical theory while recognizing that technical estimates cannot eliminate value judgments.
-- **Status:** proposed
-
 ## Candidate: Foreign Exchange Markets and Currency Risk -- Pricing, Funding, and Hedging Across Monetary Boundaries
 - **Domain:** finance
 - **Proposed by:** Librarian
