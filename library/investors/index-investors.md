@@ -1,6 +1,6 @@
 # Investors -- Topics
 
-16 topics. Anchor: [anchor-investors.md](anchor-investors.md)
+17 topics. Anchor: [anchor-investors.md](anchor-investors.md)
 
 - [Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline](benjamin-graham.md) -- [reviewed: 2026-09-24] -- Benjamin Graham made security analysis a repeatable discipline by separating market price from business value, demanding evidence before purchase, and building protection against error into the price paid. His career joined research, teaching, fund management, and self-correction: methods he developed before the 1929 crash and refined afterward became the foundation for *Security Analysis*, *The Intelligent Investor*, and an unusually influential group of students and practitioners [1][2][3][4].
 
@@ -9,6 +9,8 @@
 - [Howard Marks -- Cycle Awareness Is Useful Only When Joined to Price Discipline and Risk Control](howard-marks.md) -- [reviewed: 2026-09-29] -- Howard Marks built his career in high-yield and distressed credit and then made his investment reasoning unusually visible through public memos, books, and Oaktree Capital Management's stated philosophy [1][2][12]. His central contribution is not a forecast formula: it is a decision system that joins price and value, explicit uncertainty, risk control, contrarian thought, and limited changes in aggressiveness when market psychology reaches an extreme [4][5][6][7].
 
 - [Joel Greenblatt -- His Career Shows That an Investment Process Must Evolve With Its Capital](joel-greenblatt-from-special-situations-to-systematic-value-investing.md) -- [reviewed: 2026-09-29] -- Joel Greenblatt built his public reputation in two apparently different forms of value investing: a concentrated special-situations partnership and a diversified systematic process. His career matters because the transition was not a conversion from judgment to formulas; it was an attempt to preserve valuation discipline while changing where judgment operated, how many errors the portfolio could absorb, and how much capital the process could employ [1][2][7].
+
+- [John C. Bogle -- Low-Cost Indexing Worked Because He Joined Product Design to Fiduciary Structure](john-c-bogle-low-cost-indexing-mutual-ownership-fiduciary-reform.md) -- [reviewed: never] -- John C. Bogle changed investing not merely by launching an index fund, but by joining a low-cost portfolio strategy to a fund-owned management company whose stated purpose was to serve fund shareholders. His career shows how an investor-builder can turn arithmetic, governance, and distribution choices into a durable institutional advantage while still leaving unresolved questions about concentrated ownership and stewardship [1][4][5][8].
 
 - [John Templeton -- The Global Contrarian Who Turned Maximum Pessimism into Maximum Returns](john-templeton.md) -- [reviewed: never] -- Sir John Templeton (1912-2008) was the original global value investor, a contrarian who built one of the most successful mutual fund track records in history by systematically buying assets at their moments of deepest despair. His Templeton Growth Fund achieved roughly 15% annual returns over 38 years, a record that placed him among the greatest investors of the 20th century.
 
