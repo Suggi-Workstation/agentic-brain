@@ -1,10 +1,12 @@
 # Investors -- Topics
 
-17 topics. Anchor: [anchor-investors.md](anchor-investors.md)
+18 topics. Anchor: [anchor-investors.md](anchor-investors.md)
 
 - [Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline](benjamin-graham.md) -- [reviewed: 2026-09-24] -- Benjamin Graham made security analysis a repeatable discipline by separating market price from business value, demanding evidence before purchase, and building protection against error into the price paid. His career joined research, teaching, fund management, and self-correction: methods he developed before the 1929 crash and refined afterward became the foundation for *Security Analysis*, *The Intelligent Investor*, and an unusually influential group of students and practitioners [1][2][3][4].
 
 - [Charlie Munger -- Generalist Reasoning and Patient Ownership Reshaped Berkshire](charlie-munger.md) -- [reviewed: 2026-09-29] -- Charlie Munger (1924-2023) influenced investing less by supplying a formula than by changing the decision rules used by Warren Buffett and Berkshire Hathaway: prefer durable businesses to merely cheap assets, test conclusions with models from several disciplines, study incentives, and wait for a small number of unusually favorable opportunities [3][5][6].
+
+- [Edward O. Thorp -- Measured Edges and Survival Discipline Made Quantitative Investing Repeatable](edward-o-thorp-quantitative-investing.md) -- [reviewed: never] -- Edward O. Thorp turned a sequence of apparently different problems -- blackjack, roulette, warrant pricing, convertible arbitrage, and statistical arbitrage -- into one investment method: identify a measurable edge, test it against reality, size it to avoid ruin, and keep searching as competition erodes it.
 
 - [Howard Marks -- Cycle Awareness Is Useful Only When Joined to Price Discipline and Risk Control](howard-marks.md) -- [reviewed: 2026-09-29] -- Howard Marks built his career in high-yield and distressed credit and then made his investment reasoning unusually visible through public memos, books, and Oaktree Capital Management's stated philosophy [1][2][12]. His central contribution is not a forecast formula: it is a decision system that joins price and value, explicit uncertainty, risk control, contrarian thought, and limited changes in aggressiveness when market psychology reaches an extreme [4][5][6][7].
 
