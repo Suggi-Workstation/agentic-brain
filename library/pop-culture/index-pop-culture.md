@@ -1,10 +1,12 @@
 # Pop Culture -- Topics
 
-17 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
+18 topics. Anchor: [anchor-pop-culture.md](anchor-pop-culture.md)
 
 - [Adaptation Changes Stories Because Every Medium Reassigns Attention, Agency, and Cultural Memory](adaptation-across-media.md) -- [reviewed: 2026-09-30] -- Adaptation is not the transport of an unchanged story between neutral containers. When a novel, comic, film, television series, stage work, or game is remade in another medium, the new work redistributes what can be shown, told, enacted, repeated, chosen, and remembered; the result is an interpretation shaped by form, collaborators, institutions, audiences, and historical context [1][6][7].
 
 - [Advertising and Consumer Culture -- Advertising Shapes Desire Beyond Informing Choice](advertising-manufacturing-desire.md) -- [reviewed: 2026-09-23] -- Advertising can inform people about products, prices, and availability, but much of its cultural power comes from doing more: attaching goods to identities, emotions, relationships, and imagined futures. "Manufacturing desire" is therefore best treated as a critical interpretation of how advertising shapes the settings in which preferences develop, not as a claim that audiences have no agency or that every purchase is caused by an advertisement ([5] [6] [17]).
+
+- [Recommendation Systems Co-Produce Cultural Visibility Rather Than Merely Predict Taste](algorithmic-recommendation-and-cultural-gatekeeping.md) -- [reviewed: never] -- Ranking, recommendation, search, autoplay, and personalized feeds decide which cultural artifacts become easy to encounter inside catalogs too large for anyone to inspect. These systems do not act alone: platform objectives, audience behavior, creator adaptation, human curation, advertising, moderation, rights, and inherited popularity form feedback loops that can widen discovery or repeatedly privilege what is already visible [1][5][11].
 
 - [Celebrity Culture Turns Mediated Visibility Into Status, Intimacy, and Social Authority](celebrity-culture-and-parasocial-relationships.md) -- [reviewed: 2026-09-24] -- Celebrity culture is not simply public interest in unusually visible people. It is a media system that constructs recognizable personae, distributes status through attention, and invites audiences to experience managed representations as intimate relationships. Parasocial bonds make this system socially consequential because felt closeness can convert a celebrity's image into trust, identification, persuasion, and a model of how a person ought to look or live [1][8][11].
 
