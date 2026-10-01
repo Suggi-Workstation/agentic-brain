@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Real Options Valuation -- Valuing Flexibility to Wait, Expand, Contract, or Abandon
-- **Domain:** valuation-screening
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.4, balance=10.0)
-- **Scope:** Explain real options valuation as a framework for pricing managerial flexibility when investment is staged, partially irreversible, and exposed to changing information. Develop deferral, expansion, contraction, abandonment, switching, and compound options; map underlying assets, exercise costs, volatility, timing, competition, and decision trees to option-pricing or simulation methods. Compare real-options reasoning with static NPV and scenario analysis, showing when flexibility has measurable value and when unobservable inputs, nontradable risks, strategic interaction, or double counting make numerical precision misleading.
-- **Status:** proposed
-
 ## Candidate: Segment Reporting Shenanigans -- Hiding Weak Businesses Through Aggregation, Reallocation, and Disclosure Changes
 - **Domain:** accounting-financial-shenanigans
 - **Proposed by:** Librarian
