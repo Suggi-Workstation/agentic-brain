@@ -1,6 +1,6 @@
 # Valuation Screening -- Topics
 
-18 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
+19 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
 - [Comparable Company Analysis Is a Controlled Comparison, Not a Peer Median](comparable-company-analysis-peer-selection-and-market-implied-value.md) -- [reviewed: 2026-10-01] -- Comparable company analysis converts the observed prices of selected public peers into a market-implied enterprise-value or equity-value range for a target.[1][2][3] Its reliability depends on controlling the valuation date, peer economics, claim perimeter, accounting definitions, forecast period, and statistical treatment.
 
@@ -21,6 +21,8 @@
 - [Monte Carlo Simulation in Valuation -- Why a Distribution of Values Beats a Single Point Estimate](monte-carlo-simulation-in-valuation.md) -- [reviewed: never] -- Monte Carlo simulation replaces the point estimates of a discounted cash flow model with probability distributions for each uncertain input, runs the model thousands of times with randomly sampled combinations, and produces a distribution of intrinsic values rather than a single number. The technique does not improve the accuracy of the central estimate -- the mean of the simulation typically...
 
 - [Precedent Transaction Analysis Prices Real Deals, Not Standalone Intrinsic Value](precedent-transaction-analysis.md) -- [reviewed: never] -- Precedent transaction analysis estimates a target's value from the prices paid in comparable change-of-control transactions, but those prices are mixtures of standalone economics, control, expected synergies, bargaining, financing, and market conditions. The method is useful because it observes actual negotiated consideration; it is dangerous when an analyst treats deal multiples as timeless...
+
+- [Real Options Valuation -- Flexibility Creates Value Only When Managers Can Learn and Act](real-options-valuation.md) -- [reviewed: never] -- Real-options valuation treats a staged or reversible investment as a set of contingent rights to wait, expand, contract, switch, or abandon rather than as one fixed stream of cash flows. It can identify value that a static net present value calculation omits, but only when uncertainty can be resolved, management retains a genuine future choice, and the exercise rules and inputs are defensible [2][5][9].
 
 - [Residual Income Valuation Prices Equity Through Book Value and Forecast Economic Profit](residual-income-valuation.md) -- [reviewed: never] -- Residual income valuation estimates common equity as current book equity plus the present value of future earnings after charging shareholders for the capital already committed. The method does not create a different source of value from dividends or free cash flow; under consistent accounting and forecasts, it reorganizes the same equity claim so that recorded book value is recognized now and only future economic profit must be forecast.
 
