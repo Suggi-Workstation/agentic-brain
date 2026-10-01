@@ -438,3 +438,11 @@ Session: Hermes update recovery, Desktop origin regression, cron model pins.
 - Morpheus telemetry.shared_metrics.enabled=false (Neo) until upstream #130409 merges; answer "No thanks" to the shared-metrics prompt on any profile.
 - New Morpheus skill hermes-update-check with references/active-workarounds.md (exit observable per row).
 Reflection: 20261001T214407Z. Daily memory: 2026-10-01.md.
+
+## [ENT-095] | 2026-10-01 22:36 UTC | Morpheus | general | ref: reflections/2026-10-02_morpheus_an-instruction-is-only-as-good-as-its-chain.md | see: 20261001T223354Z
+Session: second closure in this conversation; session-end reflection and rule wording.
+- template-reflections: One Actionable Change is a suggestion, need not be a rule or implemented; Schoen Loop R7 line aligned (eb2eb67).
+- write-reflection (canonical, runtime, legacy copies): when-to-write section and decision step removed.
+- Session-end (Morpheus, Neo, Atlas): one mandatory new reflection on the work since the previous session-end.
+- Test closure: session_search cannot search or scroll the current conversation; state.db query proposed as replacement, pending Suggi.
+Identity unchanged (v2.7). Reflection: 20261001T223354Z. Daily memory: 2026-10-01.md.
