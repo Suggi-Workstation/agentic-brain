@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Sales Force Design and Revenue Operations -- Territories, Quotas, Incentives, and Pipeline Quality
-- **Domain:** business-management-strategy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.8, timeliness=9.7, balance=10.0)
-- **Scope:** Explain how firms translate market segmentation and growth strategy into coverage models, roles, territories, quotas, compensation plans, pipeline definitions, and forecasting routines. Analyze how capacity, account assignment, channel conflict, data quality, ramp time, quota relief, gaming, and AI-assisted prospecting affect revenue quality and seller behavior. Show how to diagnose productivity and incentive failures without reducing sales management to CRM software, generic marketing, or executive-pay governance.
-- **Status:** proposed
-
 ## Candidate: Epistemic Injustice -- How Credibility, Interpretation, and Institutions Exclude Knowers
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
