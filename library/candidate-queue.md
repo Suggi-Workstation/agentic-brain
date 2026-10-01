@@ -177,3 +177,35 @@
 - **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=10.0, balance=10.0)
 - **Scope:** Explain how civilian authorities, armed forces, political parties, and societies divide control over military policy, appointments, budgets, operations, and domestic coercion. Compare objective and subjective control, professional autonomy, coup prevention, politicization, legislative oversight, military advice, regime support, and transitions across democracies and autocracies. Distinguish domestic institutional analysis from operational strategy and interstate geopolitics while examining how accountability, effectiveness, and political neutrality can conflict.
 - **Status:** proposed
+
+## Candidate: Migration, Diaspora, and Border Regimes -- How Human Mobility Remade States, Labor, and Identity
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how voluntary and forced migration, diaspora networks, border controls, passports, recruitment systems, and citizenship rules changed states, labor markets, families, and identities across major historical periods. Compare migration caused by conquest, slavery, colonial rule, industrialization, war, partition, and economic opportunity while tracing how transport and communication altered mobility. Keep chronology and causal context central, distinguishing long-run migration history from current immigration policy, demographic measurement, refugee law, and single-event case studies.
+- **Status:** proposed
+
+## Candidate: Cancer Prevention and Treatment -- Risk, Early Detection, Heterogeneity, and Multimodal Care
+- **Domain:** health-medicine
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=10.0, timeliness=9.9, balance=9.4)
+- **Scope:** Explain cancer as a heterogeneous family of diseases shaped by accumulated genomic and cellular changes, tissue context, immune interactions, exposures, aging, and inherited risk. Cover prevention, risk reduction, early detection, diagnosis, staging, surgery, radiotherapy, systemic therapy, immunotherapy, precision medicine, supportive care, survivorship, resistance, recurrence, evidence quality, and unequal access. Show why treatment depends on cancer type, stage, biomarkers, patient goals, and comparative clinical evidence, while distinguishing patient care from pure molecular biology, drug business models, screening in general, and unsupported cure claims.
+- **Status:** proposed
+
+## Candidate: Social Identity and Intergroup Relations -- Categorization, Bias, Conflict, and Contact
+- **Domain:** psychology-behavior
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.9, timeliness=9.9, balance=10.0)
+- **Scope:** Explain how social categorization creates in-groups and out-groups and how identity, status, norms, threat, competition, and perceived similarity shape bias, cooperation, prejudice, and collective action. Compare social identity theory, self-categorization, realistic conflict, stereotype formation, implicit and explicit attitudes, intergroup contact, common-ingroup interventions, and their boundary conditions. Distinguish psychological mechanisms from political ideology, institutional inequality, communication tactics, and clinical treatment while connecting them to conformity, motivated reasoning, and social cohesion.
+- **Status:** proposed
+
+## Candidate: Emotion Regulation in Practice -- Reappraisal, Acceptance, Attention, and Habit
+- **Domain:** self-improvement
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.8, timeliness=9.8, balance=10.0)
+- **Scope:** Translate emotion-regulation research into low-risk personal practices for choosing situations, directing attention, labeling feelings, reappraising meaning, accepting experience, solving problems, and deciding when expression or suppression is useful. Compare immediate relief with long-run effects, account for context and individual variation, and show how implementation intentions, reflection, and repeated practice can make strategies available under stress. Distinguish everyday self-regulation from clinical treatment, emotional avoidance, forced positivity, and claims that one technique works for every person or emotion.
+- **Status:** proposed
