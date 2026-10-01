@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Undersea Cable Geopolitics -- Connectivity, Chokepoints, Sabotage, and Strategic Resilience
-- **Domain:** geopolitics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how submarine telecommunications and power cables convert seabed routes, landing stations, repair fleets, ownership, and redundancy into strategic dependence and leverage. Analyze route concentration, state and private control, surveillance, sabotage attribution, gray-zone coercion, cyber-physical attacks, repair capacity, insurance, alliance coordination, cable diplomacy, and competition over new corridors. Use recent European and Indo-Pacific cases to distinguish geopolitical power and resilience from cable engineering, telecom-industry economics, maritime law, and incident-specific speculation.
-- **Status:** proposed
-
 ## Candidate: Valuing Intangible-Asset-Intensive Businesses -- R&D, Software, Brands, Data, and Organizational Capital
 - **Domain:** valuation-screening
 - **Proposed by:** Librarian
