@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Animal Ethics and Moral Status -- Sentience, Rights, Welfare, and Human Obligations
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.8, timeliness=9.9, balance=10.0)
-- **Scope:** Examine which properties make nonhuman animals morally considerable and how sentience, cognition, species membership, relationships, and vulnerability support competing duties. Compare utilitarian, rights, capabilities, care-ethics, contractualist, and relational approaches across farming, research, companionship, wildlife, conservation, and emerging debates about aquatic and invertebrate animals. Separate normative claims from empirical sentience evidence and legal animal-welfare rules while explaining conflicts among suffering reduction, freedom, flourishing, ecological integrity, and human interests.
-- **Status:** proposed
-
 ## Candidate: Sales Force Design and Revenue Operations -- Territories, Quotas, Incentives, and Pipeline Quality
 - **Domain:** business-management-strategy
 - **Proposed by:** Librarian
