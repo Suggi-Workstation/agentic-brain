@@ -6,338 +6,255 @@ domain: valuation-screening
 author: Researcher-1
 tags: [graham-number, quantitative-screening, value-investing, net-net, defensive-investor, benjamin-graham, margin-of-safety]
 links: [library/valuation-screening/discounted-cash-flow-dcf-methodology.md, library/valuation-screening/valuation-multiples-pe-ev-ebitda-pb-analysis.md, library/value-investing/anchor-value-investing.md]
+reviewed: 2026-10-01
 ---
 
-# The Graham Number and Quantitative Value Screens -- Why Mechanical Filters Produce Superior Returns but Require Human Judgment
+# The Graham Number and Quantitative Value Screens -- Cheapness Filters Organize Research but Do Not Establish Intrinsic Value
 
-Quantitative value screens, epitomized by Benjamin Graham's Graham
-Number formula (sqrt(22.5 x EPS x BVPS)), are mechanical rules that
-filter the universe of stocks down to a manageable set of candidates
-trading below conservative estimates of intrinsic value. Research
-spanning nearly a century -- from Graham's own partnership returns
-through Fama and French's (1992) demonstration that high book-to-market
-stocks outperform -- confirms that systematic cheapness screens
-generate excess returns. But the same evidence reveals a critical
-caveat: purely mechanical screens produce false positives (value traps)
-at a rate that demands qualitative overlay. The screens identify
-candidates; human judgment determines which candidates are bargains and
-which are cheap for good reason.
+The Graham Number is a later algebraic shorthand for Benjamin Graham's 1973 rule that the product of a defensive stock's price-to-earnings and price-to-book ratios should not exceed 22.5; it is not a standalone appraisal and does not require both nominal ratio ceilings to pass separately [1][2]. Graham-style net-current-asset screens and later value-factor screens can impose price discipline and narrow a research universe, but their historical returns depend on definitions, samples, accounting data, test construction, and implementation [3][4][5][6][7][8]. The author's assessment is that a screen identifies a proposition to investigate; it does not establish asset realizability, durable earning power, control over value, or an adequate expected return for a particular security.
 
 ## Background
 
-Benjamin Graham developed his quantitative screening framework over
-decades of teaching at Columbia Business School and managing the
-Graham-Newman partnership (1936-1956). His approach was a response to
-the speculative excesses of the 1920s and the subsequent Great
-Depression, which wiped out investors who had paid any price for growth.
-Graham's core insight was that a stock's price and its underlying value
-are distinct things -- the market is a voting machine in the short run
-but a weighing machine in the long run. Quantitative screens
-operationalize this insight by converting accounting data into buy/sell
-rules.
+Benjamin Graham's quantitative rules were parts of distinct investment programs, not one universal formula. In Chapter 14 of the 1973 edition of *The Intelligent Investor*, his defensive-investor program required adequate enterprise size, financial strength, ten years of positive earnings, twenty years of uninterrupted dividends, at least one-third growth in per-share earnings over ten years measured with three-year averages, a price no greater than fifteen times three-year average earnings, and a price ordinarily no greater than 1.5 times reported book value [1]. Graham then qualified the last two price tests: a lower earnings multiple could justify a higher asset multiple, provided that the product of the P/E multiple and price-to-book ratio did not exceed 22.5 [1]. The familiar square-root expression now called the Graham Number follows from that product rule, but the primary text presents the rule as one element of a seven-part defensive selection system [1][2].
 
-Graham first articulated his screening approach in Security Analysis
-(1934, co-authored with David Dodd) and later refined it for individual
-investors in The Intelligent Investor (1949). The Intelligent Investor
-introduced the distinction between the "defensive" (passive) investor,
-who wants reasonable returns with minimal effort, and the "enterprising"
-(active) investor, who is willing to do the work for superior results.
-The Graham Number was designed for the defensive investor: a single
-formula that caps the maximum price one should pay.
+The historical details matter. Graham called the size thresholds arbitrary, distinguished industrial companies from public utilities in his balance-sheet tests, and used nominal thresholds fitted to the companies, accounting conventions, security prices, and interest-rate environment discussed in that edition [1]. He did not say that every company below the 22.5 product boundary was worth buying. Four of the seven criteria addressed operating history and financial condition before the two price criteria were applied. Treating the square-root result as an estimate of intrinsic value removes the quality tests and changes a multidimensional selection rule into a valuation claim that the source does not make [1].
 
-The quantitative screening tradition evolved dramatically after Graham.
-The rise of computing power in the 1980s and 1990s enabled researchers
-to test mechanical value strategies across thousands of stocks and
-decades of data. The most influential study was Fama and French (1992),
-which demonstrated that stocks with high book-to-market ratios (low P/B,
-i.e., value stocks) produced significantly higher returns than stocks
-with low book-to-market ratios (growth stocks), even after controlling
-for market beta. This finding legitimized quantitative value screening
-within academic finance and spawned the modern factor investing
-industry.
+Graham's net-current-asset method served a different part of the program. He described acquiring a diversified group below net current assets after deducting all prior claims and assigning zero value to fixed and other assets [1]. The book reports satisfactory group experience for more than thirty years, approximately 1923-1957, but explicitly identifies 1930-1932 as a period of real trial and gives only a qualified endorsement for conditions at the start of 1971 [1]. The relevant quantity is not ordinary working capital, current assets minus current liabilities. Graham's usage was current assets minus total liabilities and prior claims; the method was deliberately severe because it gave no credit to fixed assets or future earnings [1]. Mohanty and Oxman's later empirical study defines its entry rule as a market price below two-thirds of net current asset value rather than merely below NCAV [8].
+
+The group character of Graham's process survived his revisions. In a 1976 *Financial Analysts Journal* interview, he questioned whether elaborate security analysis usually justified its cost in a heavily researched market and favored a simplified portfolio approach using one or two objective price criteria, with results judged for the group rather than predicted security by security [3]. He still required impersonal reasoning, a margin of safety, a selling policy, and minimum allocations to both stocks and bond equivalents [3]. The interview therefore supports mechanical discipline, but it does not support an automatic single-stock buy signal. A rule can reduce discretion at the selection stage while leaving accounting verification, implementation, and realization risk unresolved.
+
+Academic research later tested related, but not identical, propositions. Fama and French examined U.S. stocks over July 1963-December 1990 and reported a strong positive relation between book-to-market equity and average returns; they also treated book-to-market as a possible proxy for multidimensional risk or relative distress rather than proving that all of the spread was mispricing [4]. Lakonishok, Shleifer, and Vishny formed value and glamour portfolios using book-to-market, cash-flow-to-price, earnings-to-price, and past sales growth, and argued that investor extrapolation explained much of the value advantage in their sample [5]. These papers examine portfolio sorts. They do not test the Graham Number as a complete seven-criterion rule, and they do not convert a historical cross-sectional association into the intrinsic value of an individual company.
+
+Research on NCAV and financial strength makes the same distinction. Oppenheimer found that diversified NCAV portfolios outperformed benchmarks over 1970-1983, while individual thirty-month portfolio outcomes were widely variable [6]. Piotroski began with the highest book-to-market quintile and used nine accounting signals to separate financially stronger from weaker firms; his result was a quality overlay inside a preselected value universe, not evidence that cheapness alone resolves business deterioration [7]. Mohanty and Oxman's 1969-2019 U.S. study found significant long-run NCAV returns after several factor and liquidity controls, but also found declining profitability in 2004-2019 [8]. The current evidence is therefore conditional: some transparent cheapness rules have worked in specified historical samples, but strength, timing, and implementability vary.
+
+The accounting base has also changed. CFA Institute's 2025 investor report documents that internally generated intangibles are often absent from balance sheets even when investors regard them as economically important; more than 70 percent of surveyed respondents agreed that unrecognized intangibles materially explain differences between book and market equity for many listed companies [10]. That does not make book value useless. It means that a price-to-book threshold compares price with an accounting residual whose economic content differs across industries, firms, acquisition histories, and reporting regimes. A mechanical rule remains useful only when the analyst understands what its numerator and denominator represent.
 
 ## Core Concepts
 
-### The Graham Number: Architecture of a Defensive Screen
+### The Graham Number implements a product rule
 
-The Graham Number formula is: square root of (22.5 x EPS x BVPS). Each
-component encodes a specific constraint. The constant 22.5 is not
-arbitrary: it is the product of Graham's two maximum valuation
-multiples. A stock should trade at no more than 15 times earnings (P/E
-<= 15) and no more than 1.5 times book value (P/B <= 1.5). Multiplying
-these constraints together -- 15 x 1.5 = 22.5 -- and placing the result
-under a square root creates a single maximum-price ceiling that enforces
-both limits simultaneously.
+Let `P` be price per common share, `E` be the relevant earnings per share, and `B` be the relevant book value per common share. When `E` and `B` are positive, the product of the two observed multiples is:
 
-The formula's mathematical derivation works as follows. If P/E <= 15,
-then Price <= 15 x EPS. If P/B <= 1.5, then Price <= 1.5 x BVPS.
-Squaring both sides of the inequality and combining: Price squared <=
-(15 x EPS) x (1.5 x BVPS) = 22.5 x EPS x BVPS. Taking the square root
-yields the Graham Number: the maximum price at which both constraints
-can be satisfied.
+`(P / E) x (P / B) = P^2 / (E x B)`
 
-The Graham Number has important boundary conditions. Both EPS and BVPS
-must be positive -- the formula is undefined for unprofitable companies
-or those with negative equity. This is by design: Graham considered
-companies that cannot generate earnings or that have destroyed
-shareholder capital to be outside the defensive investor's universe
-regardless of how cheap they appear. The Graham Number also implicitly
-assumes that book value is a meaningful measure of asset backing, which
-makes it most appropriate for asset-heavy industries (manufacturing,
-financials, utilities) and least appropriate for asset-light businesses
-(technology, services, brand-driven companies) where most value resides
-in intangible assets not reflected on the balance sheet.
+Setting that product equal to Graham's 22.5 boundary and solving for price gives:
 
-Graham intended the EPS figure to be a multi-year average -- typically
-three years -- rather than a single year's earnings. This reduces the
-risk of buying into cyclically inflated earnings that will mean-revert.
-He also required that the underlying company pass qualitative screens
-before applying the formula: adequate size, strong financial condition
-(current ratio >= 2, long-term debt < net current assets), at least 10
-years of uninterrupted dividends, earnings growth of at least 33% over
-the prior decade, and a P/E below 15 using three-year average earnings.
+`Graham Number = sqrt(22.5 x E x B)`
 
-### Net-Net Working Capital: The Ultimate Margin of Safety
+A price at or below that number satisfies the product rule, subject to the validity and consistency of `E` and `B` [1][2]. The arithmetic is an algebraic transformation, not an independent valuation model. It contains no forecast of future cash flow, no discount rate, no explicit cost of capital, no competitive-advantage period, no adjustment for nonoperating assets or senior claims, and no estimate of liquidation proceeds.
 
-Graham's most extreme quantitative screen is the net-net working capital
-(NNWC) approach, which he introduced in Security Analysis (1934). A
-stock qualifies as a net-net when its market capitalization falls below
-its net current asset value (NCAV), defined as current assets minus all
-liabilities (both current and long-term, plus preferred stock). In other
-words, the market values the entire company at less than the liquidation
-value of its current assets alone, after paying off every liability.
+The product rule must not be confused with simultaneous enforcement of separate P/E and P/B ceilings. Graham expressly wrote that an earnings multiple below fifteen could justify a correspondingly higher asset multiple and gave nine times earnings and 2.5 times asset value as an admissible example; `9 x 2.5 = 22.5` [1]. Such a company passes the product boundary while exceeding the nominal 1.5 price-to-book guideline. Conversely, a user who requires both P/E at or below fifteen and P/B at or below 1.5 is applying a stricter intersection rule. Both rules can be stated, but they answer different questions and must not be represented as equivalent.
 
-Graham typically required the price to be no more than two-thirds (67%)
-of NCAV to provide an adequate margin of safety. At this price, an
-investor is essentially buying the company's cash, receivables, and
-inventory at a discount while receiving all fixed assets (property,
-plant, equipment) and any future earnings for free. Graham recommended
-diversifying across at least 30 such positions because some would
-inevitably turn out to be value traps -- companies so broken that even
-liquidation would not recover the NCAV.
+The inputs also need an as-of definition. Graham's defensive criterion used average earnings for the past three years, not automatically the latest trailing twelve months, a single forecast year, adjusted EBITDA, or management's preferred earnings measure [1]. Book value was the reported common-equity amount relevant to the shares being priced. A reproducible modern implementation must state whether earnings are basic or diluted, continuing or total, reported or normalized; whether book value excludes preferred equity or other senior claims; which share count is used; how stock splits and restatements are handled; and how long after a fiscal period the data become investable. Changing any of these choices changes the screen.
 
-Walter Schloss, who worked for Graham and later ran his own partnership
-(1956-2002), implemented a pure net-net strategy and compound annual
-returns of approximately 16% over 45 years, dramatically outperforming
-the S&P 500. Schloss did no management meetings, no industry research,
-and no DCF modeling. He screened for stocks trading below net working
-capital, bought 50-100 positions, and sold when they reached book value.
+The author's mathematical interpretation is that positive accounting inputs are an economic gate. If either earnings per share or book value per share is zero or negative, the ordinary price multiples and their product no longer carry the intended defensive meaning. When one input is negative, the square root has no real positive value. When both inputs are negative, their product is positive and a calculator can return a number, but that result is economically nonsensical: losses and a common-equity deficit have not become evidence of value by multiplication. The Graham Number should then be marked not meaningful and replaced with a method suited to the company's claim structure and economics.
 
-Warren Buffett ran a concentrated net-net strategy during his Buffett
-Partnership years (1956-1969), achieving compound annual returns of
-approximately 30%. He later described these as "cigar butt" investments:
-companies with one free puff left in them. Buffett abandoned the
-approach in the 1970s as his capital base grew too large for small-cap
-net-nets and as he shifted toward buying quality businesses at fair
-prices under Charlie Munger's influence.
+### Earnings and book value are measurements, not facts of nature
 
-### Low P/E, Low P/B, and High Dividend Yield Screens
+The author's accounting synthesis is that reported earnings can be affected by cyclicality, asset sales, impairments, restructuring, tax items, acquisition accounting, stock compensation, pension assumptions, credit provisions, and changes in share count. A three-year average can dampen one-year noise but does not necessarily span a full business cycle or remove a structural decline. The screen should preserve both reported and normalized versions rather than overwrite the filing number: the reported version makes the rule reproducible, while a separately documented normalization shows the analyst's judgment. A large difference between the two is itself a research signal.
 
-Beyond the Graham Number and net-nets, a family of single-metric and
-multi-metric screens emerged from Graham's principles. The low P/E
-screen identifies stocks trading at low multiples of earnings,
-reflecting the market's pessimism about future growth. The low P/B
-screen identifies stocks trading at a discount to accounting book value,
-capturing the idea that assets have a floor value even if earnings are
-temporarily depressed. The high dividend yield screen identifies mature,
-cash-generating companies that return capital to shareholders.
+Book value likewise requires claim and accounting discipline. Common book equity is an accounting residual, not an appraisal of recoverable assets, and it can include goodwill created in acquisitions while excluding internally generated brands, software, research capability, customer relationships, and organizational capital [10]. CFA Institute reports both the asymmetric treatment of acquired and internally generated intangibles and the widening gap between book and market equity for many large issuers [10]. The author's interpretation is that a low P/B ratio may indicate asset backing, expected weak returns, unrecognized liabilities, poor capital allocation, or merely a business whose recorded equity is economically important. A high P/B ratio can reflect overpricing, but it can also reflect valuable earning assets that accounting does not recognize [10].
 
-The academic evidence strongly supports these screens. Fama and French
-(1992) showed that sorting US stocks by book-to-market (the inverse of
-P/B) produced a value premium of approximately 4-5% annually for the
-highest quintile compared to the lowest, over the period 1963-1990.
-Lakonishok, Shleifer, and Vishny (1994) demonstrated that value
-strategies (low P/E, low P/B, low P/CF) outperformed glamour strategies
-by 10-11% annually from 1968 to 1990 across multiple markets. The
-authors attributed much of the premium to systematic investor errors:
-over-extrapolation of past growth and naive expectation that good
-companies are necessarily good investments.
+The author's assessment is that the Graham Number can compound input errors because it multiplies two accounting quantities. Peak-cycle earnings can raise `E` while an overstated or obsolete asset base raises `B`, producing an attractive number from two weak anchors. Buybacks can reduce book equity and shares in ways that alter both EPS and BVPS, while acquisitions can add goodwill and change the comparability of book value across firms [10]. A pass should therefore trigger a reconciliation of earnings, assets, liabilities, and share claims; it should never terminate that work.
 
-### The Seven Defensive Investor Criteria
+### NCAV is a balance-sheet screen, not cash in hand
 
-Graham provided a complete checklist of seven criteria for defensive
-investors in The Intelligent Investor, going well beyond the Graham
-Number alone. These criteria form a multi-dimensional quantitative
-screen: (1) adequate size -- excluded small companies subject to
-above-average volatility; (2) strong financial condition -- current
-ratio of at least 2:1; (3) earnings stability -- positive earnings in
-each of the past 10 years; (4) dividend record -- uninterrupted
-dividend payments for at least 20 years; (5) earnings growth -- minimum
-33% increase in per-share earnings over the past decade using three-year
-averages; (6) moderate P/E ratio -- no more than 15 times average
-earnings of the past three years; and (7) moderate price-to-book --
-no more than 1.5 times book value. The Graham Number collapses criteria
-6 and 7 into a single formula, but Graham intended it as a quick
-preliminary screen, not a substitute for the full seven-criteria
-checklist.
+At the aggregate company level, a basic Graham-style calculation is [1]:
+
+`NCAV = current assets - total liabilities - senior equity claims`
+
+The comparison is between market capitalization of the common equity and aggregate NCAV, or equivalently between per-share values calculated with a consistent diluted share count. Fixed assets and future earnings receive zero credit in the screen [1]. The stricter two-thirds rule requires market capitalization below two-thirds of NCAV [8]. Because the test uses current assets rather than all book assets and subtracts total claims rather than only current liabilities, it is materially different from a current ratio, ordinary working capital, or price-to-book screen.
+
+NCAV is still not liquidation value: Graham's rule is an accounting screen that assigns zero to fixed and other assets, not a sale-proceeds appraisal [1]. The author's asset-and-claim checklist asks whether cash is restricted; receivables are doubtful or concentrated; inventory is obsolete, pledged, or costly to sell; tax assets are cash-realizable; and contingencies, guarantees, lease termination costs, taxes, severance, and wind-down expenses are complete. It also asks whether operations can consume the apparent current-asset surplus while a minority shareholder waits. The author's interpretation is that the two-thirds purchase threshold and diversification create room for error at the group level, but neither proves realizability for a particular issuer [1][8]. A complete investigation requires the notes, claim priority, cash-burn trajectory, control rights, and a plausible path by which value reaches common shareholders.
+
+The author's terminology rule is not to treat "net-net," "NCAV stock," "below working capital," and "below liquidation value" as automatic synonyms. A screen should publish the exact formula, treatment of preferred stock and lease liabilities, source date, market-cap definition, and any asset haircuts. If receivables and inventory are haircut explicitly, the result is an adjusted liquidation scenario rather than the unadjusted NCAV rule. Both can be useful, but combining their names hides which assumptions produced the candidate.
+
+### Broad value screens rank relative cheapness
+
+The author's claim-matching synthesis is that low P/E, high earnings-to-price, low P/B, high book-to-market, low price-to-cash-flow, and low enterprise-value multiples are related but noninterchangeable signals [4][5]. Equity multiples compare common-share price with common-share quantities, while enterprise multiples compare operating enterprise value with pre-financing operating quantities. Earnings, cash flow, and book value respond differently to leverage, capital intensity, accounting choices, cyclicality, and negative denominators [4][5][10]. A multi-metric screen is useful only when each metric is matched to the claim it prices and the analyst explains why the metrics provide independent information rather than counting the same accounting exposure several times.
+
+Absolute rules and relative ranks also differ. Graham's defensive product boundary is an absolute cutoff. Fama and French's evidence came from portfolios sorted by book-to-market within a historical universe [4]. Lakonishok, Shleifer, and Vishny used deciles and combinations of past growth with valuation ratios [5]. Piotroski applied an accounting-strength score only after selecting high book-to-market firms [7]. A backtest of a relative top decile does not validate an absolute P/E or P/B threshold, and evidence for a U.S. book-to-market portfolio does not validate every stock selected by a Graham Number screen.
+
+### Quality overlays test whether cheapness accompanies deterioration
+
+Piotroski's F_SCORE combined nine binary signals covering profitability, cash generation, accrual quality, leverage, liquidity, external equity issuance, gross-margin change, and asset-turnover change [7]. In the original study, scores of eight or nine defined the high-score group and scores of zero or one defined the low-score group within the highest book-to-market quintile [7]. The design illustrates a general principle: a value screen can identify low expectations, while a separate financial-strength test asks whether recent accounting evidence is improving or deteriorating.
+
+A quality overlay is not a guarantee and should not be copied without definitions. Piotroski's sample covered 1976-1996, used point-in-time lags intended to make annual information available, and assigned a zero delisting return whenever a firm delisted [7]. Later users must decide how to handle revised databases, financial companies, negative denominators, mergers, restatements, and delistings. The author's synthesis is that the value of an overlay lies in making a second hypothesis explicit, not in adding enough factors to fit historical noise.
+
+### Backtest construction determines what a screen result means
+
+A testable screening study specifies the investable universe, security types, minimum price and liquidity, accounting lag, rebalance frequency, holding period, weighting, treatment of mergers and delistings, transaction costs, and capacity. Oppenheimer's conclusions concern portfolios, not isolated securities [6]. Fama and French's headline book-to-market figures came from equal-weighted one-dimensional portfolios [4]. Mohanty and Oxman report a value-weighted NCAV portfolio and separate controls [8]. These research choices determine which screening proposition is being measured and how far its result can be generalized.
+
+Point-in-time discipline is essential. Using a later restatement, a database field unavailable at the formation date, or a survivorship-cleaned list gives the historical screen information that a real investor did not possess. Shumway documents that missing negative delisting returns can bias CRSP-based results upward [11]. Piotroski delayed return measurement until the fifth month after fiscal year-end to improve information availability, but assigned a zero delisting return whenever a firm delisted [7][11]. A trustworthy screening test retains the formation-date data and records every exclusion.
+
+Implementation is another research input. Li, Chow, Pickard, and Garg show that factor strategies with similar labels can have materially different market-impact costs because turnover, concentration, weighting, portfolio volume, and assets under management differ [12]. A deep-value screen concentrated in small or neglected companies can look attractive before spreads and market impact while being difficult to replicate at scale. A gross backtest is therefore not evidence of an implementable return until the cost and feasibility of obtaining and later exiting its positions have been tested.
 
 ## Evidence and Research Foundation
 
-The empirical case for quantitative value screens rests on multiple
-independent research streams spanning decades. The most foundational
-contribution comes from Fama and French (1992), who published "The
-Cross-Section of Expected Stock Returns" in the Journal of Finance.
-Their study demonstrated that two variables -- market capitalization
-(size) and book-to-market equity ratio -- capture the cross-sectional
-variation in average stock returns more effectively than the
-single-factor Capital Asset Pricing Model. The high book-to-market
-(value) premium was economically large (approximately 0.4% per month,
-or roughly 5% annually) and statistically significant across the full
-1963-1990 sample. This was not a marginal anomaly; it was a
-first-order effect that challenged the central paradigm of academic
-finance. The finding was subsequently replicated internationally by
-Fama and French (1998), confirming the value premium across 13 major
-markets including Japan, the UK, France, Germany, and Australia, and
-reinforcing the conclusion that the value effect is not a data-mining
-artifact of US markets.
+### Fama and French: book-to-market was strong in a specific U.S. sample
 
-Lakonishok, Shleifer, and Vishny (1994) took a behavioral approach in
-"Contrarian Investment, Extrapolation, and Risk," published in the
-Journal of Finance. They constructed portfolios sorted by P/E, P/B,
-P/CF, and sales growth and found that value stocks outperformed glamour
-stocks by wide margins. Crucially, they showed that the outperformance
-was not explained by higher risk (value stocks did not have higher betas
-or higher downside during recessions), suggesting the premium arises
-from cognitive biases rather than rational risk compensation.
+Fama and French studied NYSE, AMEX, and NASDAQ stocks from July 1963 through December 1990. In their one-dimensional book-to-market sort, the average equal-weighted monthly return rose from 0.30 percent for the lowest book-to-market portfolio to 1.83 percent for the highest, a difference of 1.53 percentage points per month [4]. The spread was larger than the size-portfolio spread reported nearby, and the paper found that size and book-to-market helped explain cross-sectional average returns when market beta alone did not [4]. These are historically important results, but the portfolio construction, equal weighting, sample period, and accounting definition are part of the result.
 
-The net-net strategy has its own empirical record. Oppenheimer (1986)
-tested a modified NCAV strategy (price < NCAV) on US equities from
-1970 to 1983, finding annualized returns of 29% versus 12% for the
-market. More recently, a 2014 academic study replicated the NCAV
-strategy for the 2003-2010 period and found annualized geometric returns
-of 24.7%, with excess returns unexplained by the CAPM, Fama-French
-three-factor, or Carhart four-factor models. The persistence of the
-return anomaly suggests it capitalizes on a deeply structural market
-inefficiency: institutional investors cannot deploy meaningful capital
-into micro-cap stocks, leaving them systematically underpriced.
+The paper did not establish one uncontested cause. Fama and French discussed book-to-market as a possible proxy for relative distress and stated that, under rational pricing, the variables must proxy for risk [4]. They also acknowledged the possibility that the result reflected market overreaction. The evidence supports a historical relation between relative price and subsequent return; it does not prove that high book-to-market companies were mispriced, that the relation would remain constant, or that the Graham Number measures intrinsic value.
 
-However, the evidence also reveals limitations. Purely mechanical value
-screens generate a high proportion of value traps -- companies that
-appear cheap because their business is in terminal decline. Piotroski
-(2000) demonstrated that applying a simple F-Score (a 9-point
-fundamental health check) to the cheapest quintile of book-to-market
-stocks eliminated most of the underperformers and roughly doubled the
-value premium. This finding underscores a fundamental truth about
-quantitative screens: they are starting points for further analysis, not
-final answers. The screen provides the candidate list; the investor
-provides the judgment to separate the bargains from the value traps.
+### Lakonishok, Shleifer, and Vishny: value beat glamour in portfolio tests
+
+Lakonishok, Shleifer, and Vishny used NYSE and AMEX firms over a sample beginning in 1963, with annual portfolio formations from April 1968 through April 1989 for strategies requiring five years of accounting history [5]. Their value and glamour classifications used cash-flow-to-price, earnings-to-price, book-to-market, and past sales growth. For one combined classification, the average postformation-year return was 22.1 percent for the value portfolio and 11.4 percent for the glamour portfolio, a difference of 10.7 percentage points per year; another combined classification produced an 11.2-point average annual difference [5]. They reported value outperformance across the five postformation years and argued that naive extrapolation contributed to the spread [5].
+
+The study also addressed risk and data design rather than treating raw returns as self-interpreting. It presented size-adjusted results, used annual buy-and-hold periods, restricted much analysis to NYSE and AMEX firms, and discussed look-ahead and survivorship concerns [5]. Its behavioral interpretation differs from Fama and French's risk emphasis, demonstrating that a return spread can be well documented while its economic cause remains disputed. A screening process should preserve that disagreement rather than describe value outperformance as proof of a free return.
+
+### Oppenheimer and Mohanty-Oxman: NCAV evidence is positive but conditional
+
+Oppenheimer tested Graham's net-current-asset criterion over 1970-1983. CFA Institute's abstract reports that qualifying portfolios had higher mean returns than market benchmarks and significantly greater full-period risk-adjusted returns; thirty-month portfolio outcomes were widely variable even though the portfolios as a group outperformed [6]. The most deeply discounted portfolios tended to outperform by the widest margins [6]. This supports the diversified-screen concept and warns against converting the average result into certainty about a selected company.
+
+Mohanty and Oxman extend the U.S. evidence through 2019. Their sample contains 648 unique firms meeting a price-below-two-thirds-of-NCAV criterion over 1969-2019 [8]. The value-weighted NCAV portfolio earned an average 1.94 percent per month. After controls for the Fama-French five factors, the Pastor-Stambaugh liquidity factor, and the January effect, the reported alpha was 1.09 percent per month, equivalent in the paper to 13.9 percent annually; compounding 1.09 percent for twelve months gives approximately 13.89 percent [8]. Industry- and size-matched controls showed no abnormal return, but strategy profitability declined in 2004-2019 [8]. The long sample strengthens the evidence for a historical anomaly while the later weakening argues against a timeless expected return.
+
+### Piotroski: financial strength changed outcomes within value stocks
+
+Piotroski assembled 14,043 high-book-to-market firm-year observations over twenty-one annual cohorts associated with 1976-1996 returns [7]. One-year buy-and-hold returns began in the fifth month after fiscal year-end, a lag chosen to improve information availability [7]. High F_SCORE firms, scores eight or nine, earned a mean one-year market-adjusted return of 13.4 percent, compared with 5.9 percent for the full high-book-to-market sample and negative 9.6 percent for low-score firms, scores zero or one [7]. The high-minus-all difference was 7.5 percentage points and the high-minus-low difference was 23.0 points, both reported as statistically significant at the one-percent level [7].
+
+The distributional evidence was broader than the mean: several percentiles and the proportion of positive observations shifted in favor of the high-score group [7]. Yet the design remains conditional on high book-to-market selection, binary accounting definitions, a historical U.S. sample, and data-handling choices. The paper itself notes a potential data-snooping limitation [7]. Its proper implication is that simple contemporaneous financial information can help discriminate within a cheap universe, not that a nine-point score eliminates valuation, business, or implementation risk.
+
+### Practitioner records show process, not causal proof
+
+Buffett's 1984 essay reports that Walter Schloss's limited partners compounded at 16.1 percent over 28.25 years compared with 8.4 percent for the S&P, while the partnership before general-partner allocations compounded at 21.3 percent [9]. The accompanying description identifies approximately one hundred positions and emphasizes Schloss's independence and price-versus-value orientation [9]. This corrects the stronger claim that the cited record proves a pure NCAV strategy: the source presents a broadly diversified Graham-influenced process, not a controlled attribution of returns to one formula.
+
+The essay is relevant evidence that a Graham-derived discipline was implemented over a long period. It is not a randomized comparison, and Buffett selected an intellectual group to make an argument about efficient markets [9]. Practitioner records combine security selection, portfolio construction, fees, cash, taxes, trading, changing opportunity sets, and judgment. They can demonstrate that a process existed and produced a documented record; they cannot isolate the causal contribution of the Graham Number.
+
+### Accounting and implementation evidence narrow the usable claim
+
+CFA Institute's 2025 report shows why a fixed book-value multiple can change meaning over time. More than 70 percent of surveyed investors agreed that important unrecognized intangibles explain material book-to-market gaps for many listed companies, and the report illustrates how expensed research and other internal investment can leave recorded equity small relative to market value [10]. This evidence does not justify capitalizing every expense or abandoning balance sheets. It requires the analyst to understand recognition differences before comparing firms or declaring a high P/B ratio irrational.
+
+Backtests face an additional failure mode when unsuccessful securities disappear. Shumway documents that missing performance-related delisting returns in CRSP were large and negative and that omitting them biased return evidence [11]. Trading costs add another wedge: Li, Chow, Pickard, and Garg show that factor-index costs depend on turnover, trade concentration, liquidity, weighting, and scale, and that market impact is not captured merely by visible commissions [12]. These findings explain why gross historical factor returns, especially in small or distressed names, are not the same as returns available to a particular investor.
+
+The evidence supports a bounded conclusion. Transparent cheapness screens have produced strong average returns in several historical portfolio studies, and financial-strength information has improved discrimination in at least one influential high-book-to-market sample [4][5][6][7][8]. The studies differ in signal, universe, period, weighting, and interpretation, and newer NCAV evidence reports weaker later-period profitability [8]. Quantitative screening is therefore evidence-backed as a search and research-design discipline; it is not evidence-backed as a universal guarantee of superior returns or as a substitute for valuing the common claim.
 
 ## Implications
 
-For investors building a systematic process, quantitative screens occupy
-a critical middle layer between investment philosophy and practical
-execution. The Graham Number and its derivatives provide an initial
-filter that reduces the investable universe from thousands of stocks to
-a few dozen candidates that warrant deeper analysis. This is not mere
-convenience -- it is a structured defense against the behavioral biases
-that lead investors to overpay. By committing to a screen before looking
-at the details of any individual company, the investor eliminates the
-most common error in investing: falling in love with a story and then
-rationalizing whatever price the market asks.
+### Build a screen as a falsifiable specification
 
-The screens also serve as a discipline mechanism. A stock that fails the
-Graham Number test is one where the market price exceeds Graham's
-conservative estimate of maximum defensible value. The investor who buys
-such a stock is making an implicit claim: "I know something the market
-does not, and my insight justifies paying above Graham's ceiling." That
-claim may occasionally be correct -- the world is full of great
-businesses that always traded above Graham multiples -- but it shifts
-the burden of proof onto the investor's forecasting ability. Graham's
-framework forces investors to acknowledge when they are speculating on
-future growth rather than investing in current value.
+For an analyst, the first deliverable should be a written rule that another person can reproduce. It should name the universe, security and exchange eligibility, valuation date, price source, filing cutoff, accounting fields, treatment of preferred stock and noncontrolling claims, share-count convention, currency, negative-value handling, rebalance date, holding period, weighting, and exclusions. The output should retain the raw inputs and show why each security passed. This discipline prevents a convenient data substitution after results are known and makes later review possible [7][11].
 
-In portfolio construction, quantitative screens address the practical
-problem of maintaining a value discipline in rising markets. Bull
-markets gradually eliminate value candidates because prices rise faster
-than fundamentals. A mechanical screen keeps the investor honest: when
-the screen produces zero candidates, the investor receives an objective
-signal that the market is expensive, which is far more reliable than
-intuition or media narratives. Graham himself recommended that defensive
-investors hold at least 25% in bonds when stocks appear fully valued and
-up to 75% when bargains are plentiful -- a mechanical asset allocation
-rule driven by the availability of screened candidates.
+A Graham Number screen should report at least five fields: price, three-year average EPS if following the 1973 criterion, common BVPS, the observed `(P/E) x (P/B)` product, and the square-root boundary [1]. It should separately mark whether the nominal P/E and P/B guidelines pass. This makes the product-rule distinction visible. If a modern user substitutes trailing EPS, forecast EPS, tangible book, or adjusted book, the screen should receive a different label rather than silently borrowing Graham's authority.
 
-The integration of quantitative screens with modern factor investing
-opens additional applications. Multi-factor models that combine value
-(low P/B, low P/E) with quality (high profitability, low leverage) and
-momentum produce more consistent returns than value alone, reducing the
-frequency and severity of value traps. The author's assessment is that
-Graham's original seven-criteria checklist was arguably the first
-multi-factor model: it combined size, financial strength, earnings
-stability, dividend history, earnings growth, and two valuation
-multiples into a single pass/fail screen. Modern factor investors are
-reproducing Graham's insight with more sophisticated statistical
-machinery.
+An NCAV screen should display current-asset components, total liabilities and senior claims, diluted common shares, aggregate market capitalization, NCAV, and price as a percentage of NCAV. It should flag restricted cash, doubtful receivables, inventory concentration, cash burn, contingencies, and control over realization. The author's synthesis is that the unadjusted rule and a haircut liquidation case should be shown side by side: the first preserves the historical screen, while the second tests whether its apparent cushion survives economic adjustments [1][6][8].
+
+### Separate discovery, verification, valuation, and decision
+
+The author's workflow separates discovery, verification, valuation, and decision. The screen's job is discovery. Verification confirms that the data were available, correctly classified, and matched to the security and claim. Valuation asks what the assets or normalized cash flows are worth under explicit scenarios. The decision compares that range with price, required return, alternative opportunities, liquidity, governance, and other relevant constraints. Collapsing these stages invites a low ratio to masquerade as a complete thesis.
+
+The author's research sequence begins by asking why the candidate is cheap. One branch tests temporary accounting or operating weakness; another tests structural decline; another tests financial distress and claim priority; another tests whether book value is economically relevant; another tests whether the market price reflects a catalyst delay or agency problem. Piotroski's evidence suggests that recent financial strength can help distinguish outcomes within high-book-to-market stocks [7]. It does not remove the need to understand the business, and it does not establish that every high-score company is undervalued.
+
+The author's inversion identifies a false margin of safety as the worst screening error. A Graham Number built from peak earnings and overstated book equity can appear conservative while capitalizing two fragile inputs. An NCAV surplus can disappear through operating losses or senior claims before shareholders receive it. The prevention is to challenge each input with a downside case, reconcile all claims ahead of common equity, and identify how value can be realized. If the screen cannot survive those checks, its historical pedigree does not rescue the candidate.
+
+### Interpret an empty or crowded screen cautiously
+
+Few passing candidates do not by themselves prove that the whole market is expensive. The outcome can also reflect the screen's industry bias, inflation-stale nominal thresholds, accounting changes, rising intangible intensity, an altered interest-rate environment, or a universe that excludes the segment where the rule historically operated [1][10]. Many passing candidates likewise do not prove that the market is cheap; widespread losses, impaired assets, leverage, or a recession can make backward-looking ratios look attractive together.
+
+The author's assessment is that candidate count is a diagnostic series, not a market-timing signal. A disciplined user can track the count, median inputs, sector distribution, and later outcomes under an unchanged specification. Any decision to alter thresholds should be justified by the economics and accounting of the measure, tested out of sample, and documented before seeing which change produces a preferred backtest.
+
+### Match conclusions to the study design
+
+Graham's own NCAV discussion and Oppenheimer's test concern diversified groups [1][6]. Piotroski's score operates across a broad high-book-to-market sample [7]. The author's inference is that these studies support average screening results, not certainty about an isolated security. Selecting one distressed company from evidence generated by many observations changes the proposition, while copying the historical group without its eligibility, timing, weighting, and cost rules also changes the test.
+
+Implementation limits determine whether published screen evidence can be reproduced. Li, Chow, Pickard, and Garg show that turnover, rebalance concentration, weighting, liquidity, and scale affect market-impact cost [12]. A screening report should therefore state the bid-ask spread, expected market impact, turnover, rebalance timing, and capacity assumptions used to translate a gross historical return into an implementable estimate. These are validation conditions for the claimed screen result; decisions about actual portfolio allocation belong in the adjacent portfolio-risk-management domain.
+
+### Backtests should preserve failed and inconvenient observations
+
+A credible test uses point-in-time constituents and filing data, includes inactive securities, applies delisting returns consistently, and discloses missing values. Shumway's evidence shows why assigning no loss to a negative delisting can overstate performance [11]. A result should be rerun under alternative reasonable assumptions for missing delisting returns, stale prices, microcap exclusions, transaction costs, and rebalance timing. If the conclusion disappears under a plausible implementation, the screen is not robust enough to support a strong claim.
+
+The study period also matters. Fama and French, Lakonishok-Shleifer-Vishny, Oppenheimer, Piotroski, and Mohanty-Oxman examine different eras and rules [4][5][6][7][8]. Combining their strongest figures into one expected return would be invalid because the portfolios are not the same. The appropriate comparison is a table of definitions, samples, gross results, controls, and limitations. Agreement across distinct designs raises confidence in a broad cheapness effect; disagreement identifies where the effect depends on method.
+
+### Use the formula as a question generator
+
+For a positive-EPS, positive-book company, the Graham Number can quickly reveal how much price is being paid for the joint earnings-and-book base. A large apparent discount should prompt questions about earnings normalization, asset quality, leverage, dilution, capital allocation, and why the opportunity persists. A failure can also be informative: it may show that the market price depends on valuable intangible assets or future economics that the rule intentionally does not capture [1][10]. Neither result is a verdict.
+
+The author's capital-allocation interpretation is that the same decomposition can help managers diagnose what a low multiple may signal. A discount to book may reflect expected poor returns on equity, untrusted asset values, excess capital, or weak governance. Repurchases create value only if the shares are below a defensible value and the company retains adequate financial strength; a low historical ratio alone is insufficient. For fiduciaries and researchers, a mechanical screen is most valuable when it makes assumptions auditable and constrains story-driven exceptions.
+
+The durable Graham lesson is procedural rather than numerical. Define what counts as evidence, pay a price that leaves room for error, diversify when the method relies on group outcomes, and revise implementation when markets or accounting change [1][3]. Modern empirical research supports disciplined cheapness and quality signals in bounded settings [4][5][6][7][8]. Human judgment enters not to override every failed rule, but to determine whether the rule's inputs describe economic reality and whether the resulting common claim offers a realizable margin of safety.
 
 ## Common Pitfalls and Limitations
 
-The most significant pitfall in applying quantitative value screens is
-treating them as fully automated buy signals. A screen that produces a
-list of candidates passing all criteria still contains both bargains and
-value traps. The difference between the two requires qualitative
-analysis: assessing competitive position, management quality, industry
-trajectory, and the sustainability of the economic moat. No mechanical
-rule can replace this judgment because the accounting data the screen
-uses reflects the past, while investment returns depend on the future.
+The first pitfall is formula overclaim. `sqrt(22.5 x EPS x BVPS)` is an algebraic boundary derived from a ratio-product rule; it is not a discounted cash flow, an asset appraisal, or proof that both P/E and P/B remain below their separate nominal limits [1][2]. Calling the result intrinsic value imports a conclusion that neither the arithmetic nor the source establishes.
 
-A second pitfall is sector incompatibility. The Graham Number assumes
-book value is a meaningful floor, which breaks down for asset-light
-businesses, technology companies, and firms with significant intangible
-assets not on the balance sheet (brands, patents, software, network
-effects). Applying the Graham Number to a company like Microsoft or
-Alphabet would produce nonsensically low ceilings because most of their
-value is in intellectual property and competitive position, not
-physical assets. The screen must be matched to the sector: P/B-based
-screens for financials and industrials; earnings-based screens for
-consumer staples; and entirely different frameworks for technology and
-healthcare.
+The author's second pitfall is input inconsistency. Mixing forecast EPS with historical book value, basic EPS with diluted BVPS, a post-year-end price with later restated accounts, or equity price with enterprise-level earnings produces a ratio without a coherent claim or date. Negative EPS or BVPS makes the ordinary Graham Number economically unusable. A screen should reject or separately classify such observations rather than force a value through absolute values or sign cancellation.
 
-A third limitation is survivorship and look-ahead bias in backtests.
-Many studies that show spectacular returns for mechanical strategies
-use databases that exclude delisted and bankrupt companies, or they use
-accounting data that would not have been available at the screening date
-(restated financials, final rather than preliminary filings). Real-world
-implementation faces additional friction: many net-net candidates are
-illiquid micro-caps with spreads of 5-10%, making the theoretical return
-unachievable after transaction costs.
+The author's third pitfall is treating book equity or NCAV as realizable proceeds. Reported assets can be restricted, obsolete, pledged, or costly to collect, while claims and wind-down costs can be incomplete. Internally generated intangibles can also make ordinary book value understate the resources supporting an asset-light business [10]. The fix is not to assume every intangible has value; it is to reconcile the accounting amount to an explicit economic premise.
+
+The fourth pitfall is backtest leakage. Survivorship filtering, future restatements, insufficient filing lags, missing delisting losses, and after-the-fact threshold changes all make historical results too favorable [7][11]. The fifth is friction blindness: turnover, spreads, market impact, taxes, position size, and capacity can absorb a paper return, especially in small or distressed securities [12]. Every published screen result should distinguish gross research return from a documented implementable estimate.
+
+The final pitfall is causal certainty. Fama and French's risk interpretation and Lakonishok, Shleifer, and Vishny's behavioral interpretation are not the same [4][5]. Oppenheimer's and Mohanty-Oxman's NCAV results use different periods and tests, with the later study reporting weaker profitability after 2004 [6][8]. The evidence warrants investigation and disciplined screen design, not the assertion that mechanical cheapness always produces superior returns.
 
 ## Sources
 
-1. Graham, B. & Dodd, D. (1934). Security Analysis. McGraw-Hill.
-   The foundational text that introduced net-net working capital
-   screening and the framework of buying below intrinsic value. [high]
+1. Graham, B. (1973; 2003 edition with commentary by J. Zweig).
+   *The Intelligent Investor*, fourth revised edition. Primary Graham text for
+   the seven defensive criteria, 22.5 product rule, and diversified
+   net-current-asset method; the linked edition also contains later commentary.
+   https://dn760006.eu.archive.org/0/items/bookplanetbookof0000unse_20230621/Benjamin%20Graham%2C%20Jason%20Zweig%2C%20Warren%20E.%20Buffett%20-%20The%20Intelligent%20Investor-Harper%20Business%20%281973%29.pdf [high]
 
-2. Graham, B. (1949, revised 1973). The Intelligent Investor.
-   Harper & Brothers. Chapters 7 (defensive investor portfolio policy)
-   and 14 (stock selection for the defensive investor) contain the
-   Graham Number derivation and the seven defensive criteria. [high]
+2. GrahamValue. "Tweaking Benjamin Graham's Stock Selection Criteria."
+   Secondary explanation of the later "Graham Number" shorthand and its
+   relationship to Graham's full defensive criteria.
+   https://www.grahamvalue.com/article/tweaking-benjamin-grahams-stock-selection-criteria [medium]
 
-3. Fama, E.F. & French, K.R. (1992). "The Cross-Section of Expected
-   Stock Returns." Journal of Finance, 47(2), 427-465. The seminal
-   academic paper demonstrating that high book-to-market stocks
-   (value) outperform low book-to-market stocks (growth). [high]
+3. Graham, B. (1976). "A Conversation with Benjamin Graham."
+   *Financial Analysts Journal*, 32(5), 20-23. Primary interview on simplified
+   group selection, objective criteria, selling policy, and allocation.
+   https://doi.org/10.2469/faj.v32.n5.20 [high]
 
-4. Lakonishok, J., Shleifer, A., & Vishny, R.W. (1994). "Contrarian
-   Investment, Extrapolation, and Risk." Journal of Finance, 49(5),
-   1541-1578. Demonstrates that value strategies outperform glamour
-   strategies, attributing the premium to behavioral biases rather
-   than risk. [high]
+4. Fama, E.F. and French, K.R. (1992). "The Cross-Section of Expected Stock
+   Returns." *Journal of Finance*, 47(2), 427-465. U.S. evidence on size,
+   book-to-market, beta, portfolio construction, and risk interpretation.
+   https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1992.tb04398.x [high]
 
-5. GrahamValue. "Using The Graham Number Correctly."
-   https://www.grahamvalue.com/article/using-graham-number-correctly
-   Detailed derivation of the Graham Number from Graham's seven
-   criteria and includes the critical point about using multi-year
-   average EPS. [medium]
+5. Lakonishok, J., Shleifer, A., and Vishny, R.W. (1994). "Contrarian
+   Investment, Extrapolation, and Risk." *Journal of Finance*, 49(5),
+   1541-1578. Value-versus-glamour portfolio evidence and behavioral
+   interpretation, with sample and data-design qualifications.
+   https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1994.tb04772.x [high]
 
-6. Investopedia. "Graham Number: Definition, Formula, Example, and
-   Limitations."
-   https://www.investopedia.com/terms/g/graham-number.asp
-   Comprehensive reference for the formula, worked examples, and the
-   limitations for asset-light companies. [medium]
+6. Oppenheimer, H.R. (1986). "Ben Graham's Net Current Asset Values: A
+   Performance Update." *Financial Analysts Journal*, 42(6), 40-47.
+   Portfolio evidence for the NCAV criterion over 1970-1983.
+   https://rpc.cfainstitute.org/research/financial-analysts-journal/1986/ben-grahams-net-current-asset-values-a-performance-update [high]
+
+7. Piotroski, J.D. (2000). "Value Investing: The Use of Historical Financial
+   Statement Information to Separate Winners from Losers." *Journal of
+   Accounting Research*, 38 Supplement, 1-41. Original F_SCORE study,
+   definitions, sample, return timing, findings, and limitations.
+   https://www.anderson.ucla.edu/documents/areas/prg/asam/2019/F-Score.pdf [high]
+
+8. Mohanty, S.K. and Oxman, J.J. (2026). "Does Ben Graham's Net Current
+   Asset Value Investing Continue to Generate Excess Returns?" *Review of
+   Financial Economics*, 44(1), e70034. U.S. NCAV evidence for 1969-2019,
+   factor controls, and later-period weakening.
+   https://onlinelibrary.wiley.com/doi/full/10.1002/rfe.70034 [high]
+
+9. Buffett, W.E. (1984). "The Superinvestors of Graham-and-Doddsville."
+   Columbia Business School. Primary essay and performance tables, including
+   Walter Schloss's record and portfolio description.
+   https://business.columbia.edu/insights/chazen-global-insights/superinvestors-graham-and-doddsville [high]
+
+10. Peters, S.J. and Winters, M.P. (2025). *Investor Perspectives: Intangible
+    Assets*. CFA Institute Research and Policy Center. Accounting-recognition,
+    book-to-market, company examples, and investor-survey evidence.
+    https://rpc.cfainstitute.org/sites/default/files/docs/surveys/intangibles-report_online.pdf [high]
+
+11. Shumway, T. (1997). "The Delisting Bias in CRSP Data." *Journal of
+    Finance*, 52(1), 327-340. Evidence that omitted negative delisting returns
+    can bias historical stock-return tests.
+    https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1997.tb03818.x [high]
+
+12. Li, F., Chow, T., Pickard, A.J., and Garg, Y. (2019). "Transaction
+    Costs of Factor-Investing Strategies." *Financial Analysts Journal*,
+    75(2), 62-78. Framework and evidence on turnover, liquidity, market
+    impact, weighting, and capacity.
+    https://www.tandfonline.com/doi/full/10.1080/0015198X.2019.1567190 [high]
 
 ## See Also
 
-- `library/valuation-screening/discounted-cash-flow-dcf-methodology.md` -- the primary alternative valuation framework. While Graham screens are shortcut heuristics, DCF is a bottom-up intrinsic value estimate. Understanding both provides a complete valuation toolkit.
-- `library/valuation-screening/valuation-multiples-pe-ev-ebitda-pb-analysis.md` -- detailed analysis of the individual multiples (P/E, P/B, EV/EBITDA) that Graham screens combine. The screens are constructed from these building blocks.
-- `library/value-investing/anchor-value-investing.md` -- the philosophy that motivates quantitative screening. The screens are the "how"; the value investing domain is the "why."
-- `library/portfolio-risk-management/anchor-portfolio-risk-management.md` -- the connection between individual security screening and portfolio construction. Graham's diversification requirements (10-30 stocks minimum) are risk management rules, not valuation rules.
+- `library/valuation-screening/discounted-cash-flow-dcf-methodology.md` -- an intrinsic-value framework that makes cash-flow, reinvestment, risk, and terminal assumptions explicit.
+- `library/valuation-screening/valuation-multiples-pe-ev-ebitda-pb-analysis.md` -- claim matching and interpretation for the component multiples used in quantitative screens.
+- `library/valuation-screening/earnings-power-value-and-asset-based-valuation.md` -- reconciliation of current earning power, asset value, NCAV, and claim realization.
+- `library/value-investing/anchor-value-investing.md` -- the adjacent philosophy domain for margin of safety and price-versus-value principles.
