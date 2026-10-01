@@ -1,6 +1,6 @@
 # Notable People -- Topics
 
-17 topics. Anchor: [anchor-notable-people.md](anchor-notable-people.md)
+18 topics. Anchor: [anchor-notable-people.md](anchor-notable-people.md)
 
 - [Abraham Lincoln -- How a Self-Educated Frontier Lawyer Became America's Greatest Crisis Leader](abraham-lincoln.md) -- [reviewed: 2026-09-24] -- Abraham Lincoln rose from a frontier childhood and limited formal schooling to lead the United States through civil war, preserve the Union, make emancipation a Union war aim, and support the constitutional abolition of slavery. His record is instructive not because it was flawless, but because it shows a leader revising policy under pressure, using argument and evidence, managing powerful...
 
@@ -21,6 +21,8 @@
 - [Elinor Ostrom -- Field Evidence Changed the Terms of the Commons Debate](elinor-ostrom-governing-commons-through-institutions-and-collective-action.md) -- [reviewed: 2026-09-23] -- Elinor Ostrom (1933-2012) was a political scientist who showed that users of shared resources can sometimes build durable rules without choosing between privatization and centralized administration ([1] [2] [3]). Her achievement was also methodological: she joined local fieldwork, comparative cases, experiments, and collaborators across disciplines to ask which institutions work under which conditions, rather than treating community management as a universal cure ([1] [3] [10]).
 
 - [Florence Nightingale -- Data, Institution Building, and Discipline Made Nursing a Modern Profession](florence-nightingale-data-institutions-modern-nursing.md) -- [reviewed: never] -- Florence Nightingale (1820-1910) turned wartime nursing authority into a sustained program of hospital, military, statistical, and educational reform. Her durable achievement was not a single fall in mortality or the image of a woman carrying a lamp, but a method: observe conditions, standardize records, make preventable harm visible, build a political coalition, and create institutions that could preserve improved practice after the reformer withdrew ([2] [3] [6]).
+
+- [Herbert Simon -- Bounded Rationality Turned Administrative Limits Into a Science of Decisions and Machines](herbert-simon-bounded-rationality-and-the-birth-of-ai.md) -- [reviewed: never] -- Herbert A. Simon connected public administration, economics, cognitive psychology, and artificial intelligence by treating decision-making as an observable process rather than assuming an omniscient chooser. His account of bounded rationality explained why people and organizations search, stop, and accept satisfactory options, while his work with Allen Newell and J.
 
 - [John von Neumann -- Polymathic Thinking From Game Theory to Modern Computing](john-von-neumann-polymathic-thinking-from-game-theory-to-modern-computing.md) -- [reviewed: never] -- John von Neumann moved from set theory and quantum foundations to economics, weapons, numerical simulation, computers, and automata by repeatedly translating a difficult problem into a formal structure that could be analyzed or calculated. His life shows that intellectual range can compound when abstraction, collaboration, and institutional access reinforce one another, but it also shows that technical power does not settle questions of credit, strategy, or moral responsibility.
 
