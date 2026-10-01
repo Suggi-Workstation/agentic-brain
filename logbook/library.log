@@ -418,3 +418,9 @@ Domain balance: books, case-studies, engineering-infrastructure, and mathematics
 ## [ENT-929] | 2026-10-01 10:02 UTC | Librarian | library | ref: library/candidate-queue.md
 ERROR: Could not research candidate Undersea Cable Geopolitics -- Connectivity, Chokepoints, Sabotage, and Strategic Resilience in geopolitics because the agentic-brain search freshness gate returned STALE (new=0, changed=1, deleted=0).
 Candidate remains proposed; no topic was drafted or removed.
+
+## [ENT-930] | 2026-10-01 10:30 UTC | Librarian | library | ref: library/accounting-financial-shenanigans/classification-shifting-and-special-item-abuse.md
+Review cycle: 1 topic reviewed, 0 current, 1 rewritten.
+Topics:
+- Classification Shifting -- Special-Item Labels Can Inflate Core Earnings Without Changing Net Income (accounting-financial-shenanigans): rewritten (corrected current-authority, discontinued-operation, model-method, arithmetic, citation, and scope mismatches; updated Background, Core Concepts, Practical Forensic Framework, Evidence, Implications, and Sources)
+Domain coverage: reviewed across 1 domain.
