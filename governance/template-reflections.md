@@ -59,7 +59,7 @@ this checklist in the published reflection.
 - [ ] R section: Surprise (30%) / Feel (30%) / Learn (40%)  (PASS / HALT)
 - [ ] Body word counts: I >= 400 words, O >= 400 words, R >= 400 words  (PASS / HALT)
 - [ ] Surprise answers "I expected X, but Y happened"; if nothing surprised you, the reflection is incomplete  (PASS / HALT)
-- [ ] One actionable change: concrete, structural, executable -- another agent could execute it from the description alone. Not "be better" or "pay attention"  (PASS / HALT)
+- [ ] One actionable change: one concrete thing the author would do differently, offered as a suggestion; it need not be implemented. Not "be better" or "pay attention"  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Schoen budget: at most 20% of session effort  (PASS / HALT)
 - [ ] References: at least 1 internal Library/insight/reflection cross-link with a short description; no IDs repeated beside paths or external website links  (PASS / HALT)
@@ -163,10 +163,10 @@ Three sub-sections, weighted 30 / 30 / 40:
 
 End every reflection with:
 
-- **One Actionable Change** -- Exactly one concrete thing that could be
-  done differently next time. Not "be more careful" -- something
-  structural. A gate, a checklist step, a script, a new habit trigger.
-  If you cannot name one, the reflection is not done.
+- **One Actionable Change** -- One concrete thing the author would do
+  differently next time, offered as a suggestion. It need not be a new
+  rule or gate, and it need not be implemented. Not "be more careful" --
+  name the specific change.
 
 - **Cross-links** -- Reference related reflections, Library topics, insights,
   or governance files by repository path with a short description.
@@ -200,8 +200,8 @@ The Schoen Loop is reflection-on-action at session scope.
 1. What happened? (the facts)
 2. What worked / what did not? (with root cause for each "did not")
 3. What surprised me? (the signal)
-4. What structural gate did I add? (R7: every substantive session adds
-   one gate)
+4. What structural gate did I add? (R7: only when the session produced a
+   new failure class, scar or insight; otherwise record "no gate warranted")
 
 **Guardrails:**
 - Reflection budget: at most 20% of session effort. Reflection serves
@@ -299,4 +299,4 @@ the Feynman pass.
 
 ---
 
-*Last updated: 2026-09-18 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
+*Last updated: 2026-10-02 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
