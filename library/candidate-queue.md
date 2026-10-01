@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Algorithmic Recommendation and Cultural Gatekeeping -- How Feeds Shape Attention, Taste, and Visibility
-- **Domain:** pop-culture
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Examine how ranking, recommendation, search, autoplay, and personalization systems mediate which music, film, television, games, news-adjacent entertainment, and creator content become visible. Analyze feedback loops among audience behavior, platform objectives, creators, advertisers, moderators, popularity signals, filter bubbles, cultural diversity, and strategic gaming without treating algorithms as autonomous causes. Use comparative platform cases and current transparency research to distinguish cultural gatekeeping from recommender-system engineering, content-moderation law, media-industry valuation, and individual psychological effects.
-- **Status:** proposed
-
 ## Candidate: Comparable Company Analysis -- Peer Selection, Normalization, and Market-Implied Value
 - **Domain:** valuation-screening
 - **Proposed by:** Librarian
