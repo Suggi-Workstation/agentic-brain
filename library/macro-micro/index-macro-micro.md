@@ -1,6 +1,6 @@
 # Macro Micro -- Topics
 
-17 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
+18 topics. Anchor: [anchor-macro-micro.md](anchor-macro-micro.md)
 
 - [Auction Design Makes Private Information Usable Only When Rules Align Incentives](auction-design-and-mechanism-design.md) -- [reviewed: 2026-09-30] -- Mechanism design works backward from a desired allocation to rules under which self-interested participants reveal enough information for that allocation to emerge. Auction design is its most visible application: the bidding language, sequence, information policy, winner rule, and payment rule jointly determine participation, strategy, efficiency, revenue, and vulnerability to collusion [1][5][6].
 
@@ -11,6 +11,8 @@
 - [Elasticity Determines Incidence Only After Market Structure and Adjustment Are Made Explicit](elasticity-and-tax-incidence.md) -- [reviewed: 2026-10-01] -- Elasticity measures how strongly quantities respond to prices, while incidence traces who ultimately gains or loses when a tax, tariff, subsidy, wage mandate, or price control changes an equilibrium. In a competitive benchmark, the less elastic side of a market bears more of a tax and captures more of a subsidy, but that rule is local and conditional: market power, demand curvature, evasion,...
 
 - [Externalities and Public Goods -- Market Prices Miss Social Costs and Benefits](externalities-and-public-goods.md) -- [reviewed: 2026-09-29] -- Externalities arise when an action changes other people's welfare without an equivalent price entering the decision, while public goods combine shared consumption with weak or impossible exclusion. In both cases, observed market prices omit part of the relevant social value, so efficient analysis must identify the missing cost or benefit, the information and transaction costs of correcting it, and who gains or loses under each remedy.
+
+- [Financial Crises Become Systemic Through Feedback, So Policy Must Build Buffers Before Contagion](financial-crises-and-macroprudential-policy.md) -- [reviewed: never] -- A financial loss becomes a systemic crisis when leverage, runnable funding, common exposures, asset-price declines, and institutional connections cause attempts at self-protection to impair credit, payments, and other financial services across the economy [1][2]. Macroprudential policy addresses that system-wide externality before distress by limiting vulnerability and creating usable buffers; it...
 
 - [Fiscal Policy and Government Spending -- Why the Government's Checkbook Is the Economy's Most Contested Instrument](fiscal-policy-and-government-spending.md) -- [reviewed: never] -- Fiscal policy -- the use of government taxation and spending to influence macroeconomic outcomes -- is the second great lever of economic management alongside monetary policy, and the one most directly accountable to voters. Unlike central banks, which operate with technocratic independence, fiscal decisions are made by elected legislatures, which means every spending bill and tax cut is simultaneously an economic intervention and a political act.
 
