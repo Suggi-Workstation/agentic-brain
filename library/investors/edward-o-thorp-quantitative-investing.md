@@ -6,6 +6,7 @@ domain: investors
 author: Librarian
 tags: [edward-o-thorp, quantitative-investing, princeton-newport-partners, arbitrage, kelly-criterion, risk-control, statistical-arbitrage]
 links: [library/portfolio-risk-management/kelly-criterion.md, library/value-investing/concentration-vs-diversification.md, library/investors/joel-greenblatt-from-special-situations-to-systematic-value-investing.md]
+reviewed: 2026-10-01
 ---
 
 # Edward O. Thorp -- Measured Edges and Survival Discipline Made Quantitative Investing Repeatable
@@ -197,7 +198,7 @@ The durable principle is to build systems in which contrary evidence can stop a 
 11. MIT Museum. "Wearable roulette computer," object 2007.030.014. Institutional description of the Thorp-Shannon device, construction, and 1961 test.
     https://mitmuseum.mit.edu/collections/object/2007.030.014 [high]
 
-12. Silverstein, Stuart (1988). "Indictment Splits Bicoastal Firm: Newport Beach Math Whiz Cleared but N.J. Partner Cited." Los Angeles Times, August 5, 1988. Contemporary reporting on Princeton Newport's structure, strategies, capitalization, and Thorp's non-indictment.
+12. O'Dell, John (1988). "Indictment Splits Bicoastal Firm: Newport Beach Math Whiz Cleared but N.J. Partner Cited." Los Angeles Times, August 5, 1988. Contemporary reporting on Princeton Newport's structure, strategies, capitalization, and Thorp's non-indictment.
     https://www.latimes.com/archives/la-xpm-1988-08-05-fi-8526-story.html [high]
 
 ## See Also
