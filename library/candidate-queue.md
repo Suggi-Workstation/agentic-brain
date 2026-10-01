@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Valuing Intangible-Asset-Intensive Businesses -- R&D, Software, Brands, Data, and Organizational Capital
-- **Domain:** valuation-screening
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how analysts value businesses whose economic assets are created through research, software, brands, data, customer relationships, and organizational capability but are partly expensed or absent from the balance sheet. Cover R&D capitalization, useful lives, maintenance versus growth investment, amortization, acquired versus internally generated intangibles, unit economics, reinvestment, obsolescence, disclosure limits, adjusted returns on capital, and DCF or multiple reconciliation. Show how to avoid both understating investment and inventing unverifiable assets, distinguishing valuation adjustments from accounting-rule design and competitive-advantage analysis.
-- **Status:** proposed
-
 ## Candidate: Just War Theory and the Ethics of Armed Conflict -- Authority, Necessity, Discrimination, and Responsibility
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
