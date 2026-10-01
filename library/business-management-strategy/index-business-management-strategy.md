@@ -1,6 +1,6 @@
 # Business Management Strategy -- Topics
 
-17 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
+18 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
 
 - [Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes](corporate-governance-board-effectiveness.md) -- [reviewed: 2026-09-09] -- Corporate governance allocates decision rights and accountability among the people who finance, direct, and operate a company. Boards are central to this system: they oversee leadership, major decisions, and the information needed to identify risks, but their effectiveness depends on incentives, competence, and the surrounding institutions rather than a formal independence label alone.
 
@@ -27,6 +27,8 @@
 - [Pricing Strategy and Pricing Power -- Why the Price Tag Is the Most Direct Lever on Profitability](pricing-strategy-and-pricing-power.md) -- [reviewed: never] -- Pricing is the single most powerful lever a business has on its unit economics and profitability. A 1 percent improvement in average price realization, holding volume constant, translates into an 8 to 11 percent increase in operating profit for the average S&P 1500 company -- an effect roughly three times larger than an equivalent improvement in volume and nearly double the impact of a 1 percent reduction in variable costs.
 
 - [Resource Allocation and Capital Budgeting -- Why Deciding Where Every Dollar Goes Is the Most Important Job in the Company](resource-allocation-and-capital-budgeting.md) -- [reviewed: never] -- Resource allocation and capital budgeting are the processes by which organizations decide where to deploy their finite financial and operational resources. These decisions -- which projects to fund, which to reject, how much to reinvest versus return to shareholders, and how to allocate capital across competing internal divisions -- determine whether a company compounds value or destroys it over time.
+
+- [Sales Force Design Creates Revenue Quality Only When Territories, Quotas, Incentives, and Pipeline Evidence Fit](sales-force-design-and-revenue-operations.md) -- [reviewed: never] -- Sales force design converts market strategy into account coverage, roles, capacity, territories, quotas, incentives, pipeline definitions, and forecast routines. The core claim is that these elements form one operating system: optimizing any one in isolation can increase reported activity while reducing customer coverage, pricing quality, forecast truth, or economic value [1][2][9].
 
 - [Succession Planning and Leadership Transitions -- Capability Must Survive the Incumbent](succession-planning-and-leadership-transitions.md) -- [reviewed: never] -- Succession planning is not the search for a replacement after a leader announces a departure; it is the continuing organizational work of preserving decision quality, relationships, knowledge, and execution when authority changes hands [1][2]. A sound system gives the board credible choices before a vacancy, protects the enterprise during an emergency, and allows a successor to renew strategy without destroying capabilities that should endure [3][13].
 
