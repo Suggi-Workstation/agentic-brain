@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Risk and Crisis Communication -- Turning Uncertainty Into Protective Action Under Pressure
-- **Domain:** communication
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how institutions communicate hazards, uncertainty, changing evidence, and protective actions before, during, and after emergencies. Cover audience research, trusted messengers, message design, warnings, accessibility, multilingual delivery, rumor control, media coordination, prebunking, feedback, correction, and evaluation across public-health, disaster, organizational, and technological crises. Show how speed, empathy, transparency, consistency, and local context affect whether information produces appropriate action, while distinguishing communication practice from emergency operations, propaganda, and legal compliance.
-- **Status:** proposed
-
 ## Candidate: Herbert Simon -- Bounded Rationality, Administrative Decision-Making, and the Birth of AI
 - **Domain:** notable-people
 - **Proposed by:** Librarian
