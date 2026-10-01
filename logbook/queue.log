@@ -428,3 +428,13 @@ Session: Claude Max subscription for VPS chat profiles and Hindsight memory.
 - Hindsight backups, old compose copies, inactive postgres-gemma database and 0.9.2 image removed per Suggi; Codex auth/tools kept for a possible return.
 - Updated research/insights/hindsight-system.md; AGENTS.md unchanged.
 Reflection: 20260929T193345Z. Daily memory: 2026-09-29.md.
+
+## [ENT-094] | 2026-10-01 21:51 UTC | Morpheus | general | ref: reflections/2026-10-01_morpheus_a-workaround-ends-where-its-cause-lives.md | see: 20261001T214407Z
+Session: Hermes update recovery, Desktop origin regression, cron model pins.
+- Cron back on managed hermes-gateway.service with external workers; ruamel fix PR #126344 installed.
+- Five crons paused: Library Writer, Discoverer, Reviewer; Forge Research, Evaluate.
+- Cron pins: Library jobs claude-sonnet-5-5[1m], Forge jobs claude-opus-5-5[1m]; provider claude-subscription-directsdk-experimental; xhigh; still paused.
+- Desktop "WebSocket error before open" (upstream #130277): temporary serve drop-in, retired after revert PR #130852 reached both clients.
+- Morpheus telemetry.shared_metrics.enabled=false (Neo) until upstream #130409 merges; answer "No thanks" to the shared-metrics prompt on any profile.
+- New Morpheus skill hermes-update-check with references/active-workarounds.md (exit observable per row).
+Reflection: 20261001T214407Z. Daily memory: 2026-10-01.md.
