@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Segment Reporting Shenanigans -- Hiding Weak Businesses Through Aggregation, Reallocation, and Disclosure Changes
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.7/10.0 (gap=9.8, compounding=9.7, timeliness=9.8, balance=9.4)
-- **Scope:** Explain how managers can obscure deteriorating businesses by aggregating operating segments, changing the chief operating decision-maker view, reallocating shared costs, shifting transactions among segments, emphasizing favorable non-GAAP measures, or changing definitions across periods. Develop forensic tests using segment footnotes, reconciliations, organizational changes, geography, product data, capital spending, impairments, acquisitions, management commentary, and prior filings to recover economic trends. Distinguish permissible management-view reporting and genuine reorganizations from disclosure choices that reduce comparability, and connect the analysis to consolidated statements without turning it into general accounting or valuation.
-- **Status:** proposed
-
 ## Candidate: John C. Bogle -- Low-Cost Indexing, Mutual Ownership, and Fiduciary Reform
 - **Domain:** investors
 - **Proposed by:** Librarian
