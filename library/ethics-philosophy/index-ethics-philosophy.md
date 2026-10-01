@@ -1,6 +1,6 @@
 # Ethics Philosophy -- Topics
 
-19 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+20 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
 - [Aesthetics and Artistic Value Depend on Form, Interpretation, Experience, and Institutions](aesthetics-and-artistic-value.md) -- [reviewed: 2026-10-01] -- A work matters artistically through no single property: perceptible form, expressive or cognitive achievement, informed experience, historical context, and practices of recognition can each supply reasons for valuing it. Beauty remains important, but conceptual art, cross-cultural traditions, technological reproduction, and generative AI show why neither beauty, popularity, scarcity, price, nor an institution's approval can serve as a complete measure of artistic value [1][4][5][7][8].
 
@@ -15,6 +15,8 @@
 - [Climate Justice Requires Duties Proportional to Harm, Capacity, Benefit, and Vulnerability](climate-ethics-intergenerational-justice.md) -- [reviewed: 2026-09-30] -- Climate ethics asks how the burdens and benefits of climate action should be shared when contributions, exposure, wealth, power, and decision-making authority are distributed unequally across countries, communities, species, and generations. Its central claim is that no single rule -- not equal shares, polluter pays, ability to pay, rights, aggregate welfare, or precaution -- can by itself assign every duty of mitigation, adaptation, remedy, and transition fairly.
 
 - [Buddhism, Confucianism, and Daoism Are Distinct Traditions, Not a Single Eastern Philosophy](eastern-philosophy-buddhism-confucianism-taoism.md) -- [reviewed: 2026-10-01] -- Buddhism, Confucianism, and Daoism offer different accounts of suffering, ethical cultivation, social order, knowledge, and human flourishing; grouping them as one "Eastern philosophy" conceals their internal debates and their long histories of interaction [1][2][3][4][7][8]. A defensible comparison therefore starts with each tradition's texts and contested interpretations, then compares specific problems rather than treating either "East" or "West" as a single viewpoint [4][12].
+
+- [Epistemic Injustice -- Credibility, Interpretation, and Institutions Can Exclude Knowers](epistemic-injustice.md) -- [reviewed: never] -- Epistemic injustice occurs when people are wronged in their capacity to know, interpret experience, communicate evidence, or participate in inquiry. Its central lesson is that knowledge practices are not insulated from power: credibility judgments, shared concepts, institutional routines, and automated systems can exclude a person's contribution even when no rule explicitly commands exclusion [1][2].
 
 - [Epistemology -- Knowing Something Is Harder Than It Looks, and That Is the Point](epistemology.md) -- [reviewed: never] -- Epistemology is the branch of philosophy that asks what it means to know something, how knowledge differs from mere belief, and what justifies our claims to know. Far from an academic abstraction, epistemology is the operating system underneath every domain of human inquiry -- from science and law to investing and everyday reasoning -- because every field that claims to "know" anything inherits its standards of knowledge from epistemology, whether it acknowledges this or not.
 
