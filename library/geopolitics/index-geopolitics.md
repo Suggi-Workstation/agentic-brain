@@ -1,6 +1,6 @@
 # Geopolitics -- Topics
 
-16 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
+17 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
 
 - [Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture](alliance-credibility-and-burden-sharing.md) -- [reviewed: 2026-09-24] -- A security alliance is a contingent promise: members agree to consult, prepare, or assist under specified circumstances, but the treaty cannot mechanically determine what each government will do in a future crisis.[1][7][10] Alliance credibility therefore depends on the alignment of declared obligations, usable military capability, political resolve, and shared exposure to the costs of failure;...
 
@@ -27,6 +27,8 @@
 - [Rare Earths and Critical Minerals -- The New Cartography of Power](rare-earths-critical-minerals.md) -- [reviewed: never] -- Rare earth elements and critical minerals have become the strategic chokepoints of the 21st century, transforming from obscure industrial inputs into instruments of geopolitical leverage. China's near-monopoly on processing and refining -- approximately 90 percent of global capacity -- gives Beijing coercive power over the defense, clean energy, and semiconductor supply chains of virtually every industrialized nation.
 
 - [Soft Power -- Why Attraction Works When Coercion Cannot](soft-power-and-cultural-influence.md) -- [reviewed: never] -- Soft power is the ability of a state to obtain preferred outcomes through attraction and persuasion rather than coercion or payment. Coined by Joseph Nye in 1990, the concept identifies a dimension of international influence that military and economic power cannot reach: shaping what others want through the appeal of one's culture, political values, and foreign policies.
+
+- [Space Geopolitics -- Strategic Dependence Makes Orbits Contested but Indiscriminate Destruction Self-Defeating](space-geopolitics-counterspace-competition.md) -- [reviewed: never] -- Satellites convert orbital position, launch access, ground infrastructure, data links, and commercial capacity into geopolitical power because modern military and civilian systems depend on services delivered through space [2][4][7]. The same dependence creates vulnerability: states can disrupt a rival through physical attack, electronic interference, cyber operations, or coercion of commercial...
 
 - [Territorial Disputes Escalate When Borders Become Tests of Nationhood, Power, and Resolve](territorial-disputes-and-irredentism.md) -- [reviewed: never] -- Territorial disputes are contests over who may exercise sovereignty in a specified place, but their danger depends less on area alone than on the strategic, economic, historical, and identity claims attached to it. Irredentism is a narrower form in which a state seeks territory associated with ethnic kin outside its borders; it is politically potent but empirically uncommon relative to the number of possible cross-border kin claims.
 
