@@ -1,10 +1,12 @@
 # Ethics Philosophy -- Topics
 
-18 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+19 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
 - [Aesthetics and Artistic Value Depend on Form, Interpretation, Experience, and Institutions](aesthetics-and-artistic-value.md) -- [reviewed: 2026-10-01] -- A work matters artistically through no single property: perceptible form, expressive or cognitive achievement, informed experience, historical context, and practices of recognition can each supply reasons for valuing it. Beauty remains important, but conceptual art, cross-cultural traditions, technological reproduction, and generative AI show why neither beauty, popularity, scarcity, price, nor an institution's approval can serve as a complete measure of artistic value [1][4][5][7][8].
 
 - [AI Ethics -- Trustworthy Systems Require Governance Across the Full Lifecycle](ai-ethics.md) -- [reviewed: 2026-09-21] -- AI ethics studies the principles and institutions that should govern the design, development, deployment, use, and retirement of artificial intelligence systems. It asks not only whether a system performs its assigned task, but whether its purpose is legitimate, its benefits and harms are distributed fairly, affected people can understand and contest consequential decisions, and identifiable humans and organizations remain accountable.
+
+- [Animal Ethics -- Moral Status Requires More Than Species Membership](animal-ethics-and-moral-status.md) -- [reviewed: never] -- Animal ethics asks what humans owe nonhuman animals for the animals' own sake, not merely because humane conduct benefits people. Its central claim is that species membership alone cannot settle moral status: sentience, agency, flourishing, relationships, vulnerability, and ecological context supply different reasons for protection, while uncertainty about animal experience requires calibrated rather than dismissive judgment [1][2][19].
 
 - [Bioethics -- Medical Power Requires Justifiable Rules, Not Technology Alone](bioethics.md) -- [reviewed: 2026-09-22] -- Bioethics examines how medicine and the life sciences should use powers that can heal, harm, select research participants, allocate scarce resources, alter genomes, and define the limits of treatment. Its central problem is not whether technology can produce an outcome, but whether the purpose, process, distribution of benefits and burdens, and treatment of affected persons can be ethically justified.
 
