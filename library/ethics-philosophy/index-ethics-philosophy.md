@@ -1,6 +1,6 @@
 # Ethics Philosophy -- Topics
 
-17 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+18 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
 - [Aesthetics and Artistic Value Depend on Form, Interpretation, Experience, and Institutions](aesthetics-and-artistic-value.md) -- [reviewed: 2026-10-01] -- A work matters artistically through no single property: perceptible form, expressive or cognitive achievement, informed experience, historical context, and practices of recognition can each supply reasons for valuing it. Beauty remains important, but conceptual art, cross-cultural traditions, technological reproduction, and generative AI show why neither beauty, popularity, scarcity, price, nor an institution's approval can serve as a complete measure of artistic value [1][4][5][7][8].
 
@@ -17,6 +17,8 @@
 - [Epistemology -- Knowing Something Is Harder Than It Looks, and That Is the Point](epistemology.md) -- [reviewed: never] -- Epistemology is the branch of philosophy that asks what it means to know something, how knowledge differs from mere belief, and what justifies our claims to know. Far from an academic abstraction, epistemology is the operating system underneath every domain of human inquiry -- from science and law to investing and everyday reasoning -- because every field that claims to "know" anything inherits its standards of knowledge from epistemology, whether it acknowledges this or not.
 
 - [Free Will and Determinism -- Why the Debate About Whether We Choose Our Actions Remains Philosophy's Most Consequential Unresolved Question](free-will-determinism.md) -- [reviewed: never] -- The free will debate asks whether human beings genuinely choose their actions or whether every decision is the inevitable result of prior causes beyond our control. This is not an academic curiosity -- it is the foundation upon which moral responsibility, criminal justice, praise, blame, and our deepest sense of self all rest.
+
+- [Just War Theory -- Moral Permission Requires More Than a Just Cause](just-war-theory-and-the-ethics-of-armed-conflict.md) -- [reviewed: never] -- Just war theory asks when organized force can be morally initiated, how it may be used, and what justice requires when fighting ends. Its central constraint is cumulative: just cause does not excuse indiscriminate conduct, legal compliance does not by itself establish moral permissibility, and victory does not erase duties to surrendering fighters, civilians, or a defeated society [2][7][9].
 
 - [Logic and Critical Thinking -- Formal and Informal Tools Make Arguments Testable](logic-and-critical-thinking.md) -- [reviewed: never] -- Logic identifies whether conclusions follow from reasons, while critical thinking tests whether those reasons are acceptable, relevant, sufficient, and responsive to alternatives. Used together, formal and informal methods turn persuasive language into claims that can be reconstructed, challenged, revised, and either warranted or rejected [1, 2, 4, 8].
 
