@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Classification Shifting and Special-Item Abuse -- Making Core Earnings Look Better Without Changing Net Income
-- **Domain:** accounting-financial-shenanigans
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.7/10.0 (gap=9.6, compounding=9.8, timeliness=9.5, balance=10.0)
-- **Scope:** Explain classification shifting as moving recurring operating costs into special items, discontinued operations, acquisition charges, or other lines to inflate core performance without necessarily changing GAAP net income. Cover restructuring charges, impairment labels, acquisition-related expenses, cost allocation, recurring exclusions, disclosure changes, and forensic tests using reconciliations, footnotes, cash flow, margins, and subsequent reversals. Distinguish manipulation from legitimate unusual items and from outright revenue fabrication, connecting the analysis to non-GAAP abuse, restatements, and valuation normalization.
-- **Status:** proposed
-
 ## Candidate: Undersea Cable Geopolitics -- Connectivity, Chokepoints, Sabotage, and Strategic Resilience
 - **Domain:** geopolitics
 - **Proposed by:** Librarian
