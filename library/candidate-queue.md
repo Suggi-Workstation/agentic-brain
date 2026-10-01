@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Diplomacy and Crisis Bargaining -- Signaling, Coercion, Mediation, and War Termination
-- **Domain:** geopolitics
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how states bargain under risk through diplomacy, signaling, threats, assurances, backchannels, mediation, ceasefires, and negotiated settlements. Examine credibility, private information, commitment problems, misperception, ripeness, spoiler management, face-saving, and the design of agreements that can survive after violence pauses. Use contemporary conflicts to distinguish general bargaining mechanisms from country history, operational military strategy, international-law doctrine, and advocacy for a particular settlement.
-- **Status:** proposed
-
 ## Candidate: Strategy Formulation and Execution -- Making Coherent Choices About Where to Play and How to Win
 - **Domain:** business-management-strategy
 - **Proposed by:** Librarian
