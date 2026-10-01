@@ -1,6 +1,6 @@
 # Communication -- Topics
 
-17 topics. Anchor: [anchor-communication.md](anchor-communication.md)
+18 topics. Anchor: [anchor-communication.md](anchor-communication.md)
 
 - [Data Visualizations Communicate Evidence Only When Encoding, Context, and Access Remain Verifiable](data-visualization-and-statistical-graphics.md) -- [reviewed: 2026-09-30] -- Data visualization turns values and relationships into spatial, visual, and interactive forms so an audience can compare evidence, detect structure, and make a decision. A chart is not truthful merely because its plotted numbers are correct: its encodings, scales, transformations, labels, uncertainty, narrative emphasis, accessibility, and provenance must preserve the meaning and limits of the underlying evidence [2][3][5][6].
 
@@ -23,6 +23,8 @@
 - [Public Speaking Works When Design and Delivery Serve Audience Understanding and Action](public-speaking-and-presentation-design.md) -- [reviewed: never] -- Public speaking is the deliberate design and live delivery of a spoken message for a particular audience, purpose, setting, and time limit. Its quality is therefore better judged by what the audience can understand, remember, trust, question, and appropriately do than by the speaker's charisma or the sophistication of the presentation software [1][3][12].
 
 - [Rhetoric -- The 2,500-Year-Old Art of Persuasion That Shapes Every Argument, Speech, and Advertisement You Encounter](rhetoric.md) -- [reviewed: never] -- Rhetoric is the systematic study and practice of persuasion: how speakers and writers use language, structure, and appeals to influence beliefs, attitudes, and actions. Originating in ancient Greece as a discipline for training citizens to participate in democratic debate, rhetoric has evolved into a universal framework for understanding every act of communication designed to persuade, from Aristotle's courtroom speeches to modern political campaigns, advertising, and everyday argument.
+
+- [Risk and Crisis Communication Converts Uncertainty Into Protective Action Only When It Is Trusted, Specific, and Inclusive](risk-and-crisis-communication.md) -- [reviewed: never] -- Risk and crisis communication helps people understand a threat, judge what it means for them, and take feasible protective action while facts and conditions are changing. It works as a two-way operational discipline rather than a publicity exercise: institutions must communicate early and accurately, state uncertainty, listen to affected communities, reach people through usable channels, and revise messages as evidence changes [1][2][3].
 
 - [Semiotics and Meaning-Making -- How Signs and Symbols Create Systems of Meaning](semiotics-and-meaning-making.md) -- [reviewed: never] -- Semiotics explains communication as the production and interpretation of signs rather than the simple transfer of information. Its central claim is that words, images, gestures, objects, sounds, and layouts become meaningful through relations, conventions, contexts, and acts of interpretation, not through self-contained meanings embedded in the things themselves.
 
