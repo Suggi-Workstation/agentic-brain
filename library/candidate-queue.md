@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Just War Theory and the Ethics of Armed Conflict -- Authority, Necessity, Discrimination, and Responsibility
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain the moral frameworks used to judge when war may be initiated, how force may be conducted, and what justice requires after conflict. Compare just cause, legitimate authority, proportionality, necessity, discrimination, double effect, civilian protection, surrender, occupation, peace settlement, and competing realist, pacifist, consequentialist, deontological, and virtue-ethical critiques. Test these principles against contemporary proxy war, urban warfare, cyber operations, autonomous weapons, and asymmetric conflict while distinguishing normative judgment from international-law doctrine and geopolitical strategy.
-- **Status:** proposed
-
 ## Candidate: Transboundary Water Geopolitics -- River Basins, Dams, Scarcity, and Interstate Power
 - **Domain:** geopolitics
 - **Proposed by:** Librarian
