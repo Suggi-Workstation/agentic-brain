@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Comparable Company Analysis -- Peer Selection, Normalization, and Market-Implied Value
-- **Domain:** valuation-screening
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=9.7, balance=10.0)
-- **Scope:** Explain how trading-comparables analysis converts the observed prices of selected public peers into enterprise-value or equity-value ranges for a target. Cover peer-set design, business mix, geography, size, growth, margins, cyclicality, accounting normalization, forward versus trailing metrics, outliers, control differences, liquidity, calendarization, and reconciliation to diluted per-share value. Show why market multiples embed current expectations and regime conditions rather than intrinsic truth, and connect comparables to DCF, precedent transactions, SOTP, and reverse-DCF checks.
-- **Status:** proposed
-
 ## Candidate: Banking Industry Economics -- Funding Franchises, Regulation, Scale, and Cyclical Risk
 - **Domain:** industries-sectors
 - **Proposed by:** Librarian
