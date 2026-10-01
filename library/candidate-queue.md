@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Operational Excellence and Continuous Improvement -- Building Learning Systems That Improve Cost, Quality, and Flow
-- **Domain:** business-management-strategy
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.7, balance=10.0)
-- **Scope:** Explain operational excellence as a management system for improving flow, quality, cost, reliability, and safety through standardized work, visual management, and structured problem solving. Compare lean, the Toyota Production System, Six Sigma, the Theory of Constraints, total quality management, PDCA, and continuous improvement, covering bottlenecks, variation, frontline authority, incentives, metrics, and organizational learning. Show when local efficiency damages whole-system performance and how leaders sustain gains, while distinguishing management practice from technical engineering, digital tools, and supply-chain strategy.
-- **Status:** proposed
-
 ## Candidate: Edward O. Thorp -- Probability, Arbitrage, and the Birth of Quantitative Investing
 - **Domain:** investors
 - **Proposed by:** Librarian
