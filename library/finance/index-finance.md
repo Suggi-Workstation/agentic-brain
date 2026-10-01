@@ -1,6 +1,6 @@
 # Finance -- Topics
 
-17 topics. Anchor: [anchor-finance.md](anchor-finance.md)
+18 topics. Anchor: [anchor-finance.md](anchor-finance.md)
 
 - [Asset Management Economics -- Scale Expands Fee Revenue Faster Than Investment Capacity](asset-management-economics-incentives-scale-and-financial-intermediation.md) -- [reviewed: 2026-09-21] -- Asset managers are financial intermediaries that convert client mandates into portfolios while charging for selection, implementation, risk control, administration, and access. Their central economic tension is that revenue usually rises with assets under management, while investment capacity, client outcomes, and the ability to outperform do not necessarily scale at the same rate; incentives...
 
@@ -21,6 +21,8 @@
 - [Financial Market Microstructure -- Trading Rules Shape Liquidity, Costs, and Prices](financial-market-microstructure.md) -- [reviewed: never] -- Financial market microstructure explains how orders become trades and how the rules, intermediaries, and technologies of trading shape transaction costs, liquidity, and price discovery. Its central claim is that an observed market price is not produced by information alone: it is also produced by an institutional mechanism that determines who may trade, what they may submit, which orders receive priority, what information is displayed, and how trades are cleared and settled ([1] [2]).
 
 - [Financial Statement Analysis -- How to Read a Business Through Its Numbers](financial-statement-analysis.md) -- [reviewed: never] -- Financial statement analysis is the systematic examination of a company's balance sheet, income statement, and cash flow statement to assess its financial health, operating performance, and intrinsic value. It is the fundamental tool that converts raw accounting data into investable insight -- revealing not just what a company earned, but how it earned it, whether those earnings are sustainable, and what risks are embedded in its capital structure.
+
+- [Foreign Exchange Markets Convert Currency Mismatches Into Funding, Pricing, and Settlement Risks](foreign-exchange-markets-and-currency-risk.md) -- [reviewed: never] -- Foreign exchange markets connect payments and financing across monetary boundaries, but no contract simply removes currency risk: each changes its amount, timing, owner, or cash-flow path. A sound FX decision therefore begins with the exposure and settlement obligation, not a forecast, and tests whether spot, forwards, swaps, options, natural offsets, and accounting treatment together reduce the risk the institution can least afford to bear [1][4][8].
 
 - [IPOs Are Negotiated Capital-Formation Mechanisms, Not Opening-Day Trades](initial-public-offerings-and-primary-capital-markets.md) -- [reviewed: never] -- An initial public offering converts a privately held issuer into a publicly traded company while distributing shares, and often raising new equity, through a primary-market transaction. Its economic result is determined not only by the first trading price but by the mix of new and existing shares, underwriting and disclosure process, offer price, allocation, dilution, investor base, and continuing obligations that connect corporate finance to the secondary market ([1] [3]).
 
