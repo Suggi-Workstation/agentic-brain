@@ -6,6 +6,7 @@ domain: valuation-screening
 author: Librarian
 tags: [comparable-company-analysis, trading-comparables, peer-selection, relative-valuation, enterprise-value, normalization, market-implied-value]
 links: [library/valuation-screening/valuation-multiples-pe-ev-ebitda-pb-analysis.md, library/valuation-screening/enterprise-value-equity-value-reconciliation.md, library/valuation-screening/precedent-transaction-analysis.md, library/valuation-screening/sum-of-the-parts-valuation.md, library/valuation-screening/reverse-dcf-and-sensitivity-analysis.md]
+reviewed: 2026-10-01
 ---
 
 # Comparable Company Analysis Is a Controlled Comparison, Not a Peer Median
@@ -221,7 +222,7 @@ The author's synthesis is that comparability must precede calculation. Market pr
 
 6. Dittmann, I., and Weiner, C. (2005). "Selecting Comparables for the
    Valuation of European Firms." Humboldt University SFB 649 Discussion
-   Paper 2005-015. https://www.econstor.eu/bitstream/10419/25021/1/495975710.PDF [high]
+   Paper 2005-002. https://www.econstor.eu/bitstream/10419/25021/1/495975710.PDF [high]
 
 7. Baker, M., and Ruback, R. S. (1999). "Estimating Industry Multiples."
    Harvard Business School working paper.
@@ -270,7 +271,7 @@ The author's synthesis is that comparability must precede calculation. Market pr
 17. Mauboussin, M. J., and Callahan, D. (2024). "Valuation Multiples:
     What They Miss, Why They Differ, and the Link to Fundamentals."
     Morgan Stanley Investment Management.
-    https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/consilient-observer/article_valuationmultiples.pdf [medium]
+    https://www.morganstanley.com/im/en-us/individual-investor/insights/consilient-observer/valuation-multiples.html [medium]
 
 ## See Also
 
@@ -279,3 +280,4 @@ The author's synthesis is that comparability must precede calculation. Market pr
 - `library/valuation-screening/precedent-transaction-analysis.md` -- contrasts minority public-market evidence with negotiated change-of-control prices.
 - `library/valuation-screening/sum-of-the-parts-valuation.md` -- applies distinct peer sets and valuation methods to heterogeneous business segments.
 - `library/valuation-screening/reverse-dcf-and-sensitivity-analysis.md` -- tests the operating assumptions implied by a market-derived value range.
+
