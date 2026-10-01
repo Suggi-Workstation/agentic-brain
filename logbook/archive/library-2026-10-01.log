@@ -108,3 +108,114 @@ Candidates:
 - Residual Income Valuation -- Pricing the Gap Between Book Equity and Economic Profit (9.8): gap=9.8, compounding=9.9, timeliness=9.3, balance=10.0
 Domain balance: industries-sectors (15 topics) to coding-agentic-ai (18 topics).
 
+
+<!-- Appended 2026-10-01 05:41 UTC -- ENT-838 to ENT-853 -->
+
+## [ENT-838] | 2026-09-30 08:13 UTC | Librarian | library | ref: library/finance/cost-of-capital-and-wacc.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Cost of Capital and WACC -- A Discount Rate Is Valid Only When Claims, Risk, and Financing Match (finance): rewritten (corrected formula-history, universal-hurdle, tax-shield, leverage, lease, and false-precision claims; updated all four body sections and sources)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-839] | 2026-09-30 08:53 UTC | Librarian | library | ref: library/investment-vehicles-fund-structures/investment-management-companies-and-gp-stakes.md | see: 20260930T084119Z
+Wrote topic Investment Management Companies and GP Stakes -- Valuing the Firm Behind the Funds to investment-vehicles-fund-structures. Weighted score: 9.8/10.0
+(core=10.0, scope=9.8, value=9.6, authority=9.5).
+Similarity overlap: 38%.
+Sources: 13 (8 high, 5 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-840] | 2026-09-30 09:21 UTC | Librarian | library | ref: library/technology/operating-systems-coordinating-processes-memory-devices-and-isolation.md | see: 20260930T090929Z
+Wrote topic Operating Systems -- Coordinating Processes, Memory, Devices, and Isolation to technology. Weighted score: 9.9/10.0
+(core=10.0, scope=9.8, value=9.7, authority=9.8).
+Similarity overlap: 20%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-841] | 2026-09-30 09:49 UTC | Librarian | library | ref: library/history/french-revolution-revolution-rights-and-remaking-political-order.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- The French Revolution Remade Political Order by Turning Subjects into Citizens While Exposing the Limits of Universal Rights (history): rewritten (corrected chronology, citizenship, slavery, administration, metric, Civil Code, Terror, and citation mismatches; updated Sources, Background, Core Concepts, Evidence, and Implications).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-842] | 2026-09-30 09:52 UTC | Librarian | library | ref: library/political-science-public-policy/public-program-evaluation.md | see: 20260930T094150Z
+Wrote topic Public Program Evaluation -- Determining Whether Policy Caused Better Outcomes to political-science-public-policy. Weighted score: 9.8/10.0
+(core=9.9, scope=9.8, value=9.5, authority=9.8).
+Similarity overlap: 35%.
+Sources: 14 (14 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-843] | 2026-09-30 10:11 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 3 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Value of Information -- Deciding Whether More Evidence Is Worth Its Cost (10.0): gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0
+- Algorithmic Recommendation and Cultural Gatekeeping -- How Feeds Shape Attention, Taste, and Visibility (9.9): gap=9.9, compounding=9.9, timeliness=10.0, balance=10.0
+- Comparable Company Analysis -- Peer Selection, Normalization, and Market-Implied Value (9.9): gap=9.9, compounding=9.9, timeliness=9.7, balance=10.0
+Domain balance: industries-sectors (15 topics) to valuation-screening (15 topics; all five selected domains tied).
+
+## [ENT-844] | 2026-09-30 10:35 UTC | Librarian | library | ref: library/law-regulation/bankruptcy-and-restructuring-law.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Bankruptcy Law Preserves Value by Replacing Individual Collection With Collective Choice (law-regulation): rewritten (corrected 1 outdated consolidation date, added Directive (EU) 2026/799, updated 4 sections and 2 sources)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-845] | 2026-09-30 10:47 UTC | Librarian | library | ref: library/probabilistic-thinking-forecasting/forecast-evaluation-and-scoring-rules.md | see: 20260930T103428Z
+Wrote topic Forecast Evaluation and Scoring Rules -- Measuring Accuracy Without Rewarding Vagueness to probabilistic-thinking-forecasting. Weighted score: 9.7/10.0
+(core=9.8, scope=9.5, value=9.8, authority=10.0).
+Similarity overlap: 42%.
+Sources: 14 (14 high, 0 medium, 0 low).
+Cross-references: 6 topics.
+
+## [ENT-846] | 2026-09-30 11:22 UTC | Librarian | library | ref: library/pop-culture/adaptation-across-media.md | see: 20260930T111024Z
+Wrote topic Adaptation Across Media -- What Changes When Stories Move Between Novels, Film, Television, and Games to pop-culture. Weighted score: 9.8/10.0
+(core=9.8, scope=9.8, value=9.6, authority=9.7).
+Similarity overlap: 38%.
+Sources: 17 (16 high, 1 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-847] | 2026-09-30 11:29 UTC | Librarian | library | ref: library/macro-micro/auction-design-and-mechanism-design.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Auction Design Makes Private Information Usable Only When Rules Align Incentives (macro-micro): rewritten (corrected model-condition, attribution, equilibrium-concept, evidence, and current-guidance mismatches; updated Background, Core Concepts, Evidence, Implications, and Sources).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-848] | 2026-09-30 11:52 UTC | Librarian | library | ref: library/earth-climate/climate-detection-and-attribution-separating-human-and-natural-causes.md | see: 20260930T114009Z
+Wrote topic Climate Detection and Attribution -- Separating Human Influence, Natural Forcing, and Internal Variability to earth-climate. Weighted score: 9.9/10.0
+(core=9.8, scope=9.9, value=9.8, authority=10.0).
+Similarity overlap: 25%.
+Sources: 14 (14 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-849] | 2026-09-30 12:11 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 3 candidates proposed, 3 skipped (queue capped at 25).
+Candidates:
+- Banking Industry Economics -- Funding Franchises, Regulation, Scale, and Cyclical Risk (9.9): gap=9.8, compounding=9.8, timeliness=10.0, balance=10.0
+- Real Options Valuation -- Valuing Flexibility to Wait, Expand, Contract, or Abandon (9.8): gap=9.8, compounding=9.9, timeliness=9.4, balance=10.0
+- Segment Reporting Shenanigans -- Hiding Weak Businesses Through Aggregation, Reallocation, and Disclosure Changes (9.7): gap=9.8, compounding=9.7, timeliness=9.8, balance=9.4
+Domain balance: industries-sectors, notable-people, and valuation-screening (15 topics) to accounting-financial-shenanigans, anthropology, and business-management-strategy (16 topics).
+
+## [ENT-850] | 2026-09-30 12:26 UTC | Librarian | library | ref: library/political-science-public-policy/electoral-systems-voting-mechanics.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Electoral Systems and Voting Mechanics -- How the Rules of the Game Shape Political Outcomes (political-science-public-policy): rewritten (corrected 19 factual/source mismatches, updated citations and 28 sources across 4 mandatory sections)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-851] | 2026-09-30 12:27 UTC | Librarian | library | ref: library/industries-sectors/payment-networks-and-merchant-acquiring.md | see: 20260930T121350Z
+Wrote topic Payment Networks and Merchant Acquiring -- How Interchange, Routing, Scale, and Regulation Shape Industry Economics to industries-sectors. Weighted score: 9.7/10.0
+(core=9.8, scope=9.7, value=9.5, authority=9.8).
+Similarity overlap: 35%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 5 topics.
+
+## [ENT-852] | 2026-09-30 13:03 UTC | Librarian | library | ref: library/earth-climate/climate-detection-and-attribution-separating-human-and-natural-causes.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Climate Attribution Separates Forced Signals from Natural Variability but Does Not Turn Probability into Blame (earth-climate): rewritten (corrected outdated current-state framing, added the 2026 National Academies consensus source and the impact-attribution evidence boundary across 4 sections)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-853] | 2026-09-30 13:31 UTC | Librarian | library | ref: library/valuation-screening/precedent-transaction-analysis.md | see: 20260930T130912Z
+Wrote topic Precedent Transaction Analysis -- Pricing Control, Synergies, and Market Cycles to valuation-screening. Weighted score: 9.8/10.0
+(core=10.0, scope=9.8, value=9.4, authority=9.7).
+Similarity overlap: 38%.
+Sources: 17 (16 high, 1 medium, 0 low).
+Cross-references: 5 topics.
+
