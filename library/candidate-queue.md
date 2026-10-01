@@ -193,3 +193,19 @@
 - **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=9.8, balance=10.0)
 - **Scope:** Explain statistical learning theory as the mathematical study of when finite data and optimization produce models that generalize beyond their training sample. Cover empirical risk, hypothesis classes, loss, VC dimension, uniform convergence, regularization, stability, bias-variance, concentration bounds, overparameterization, benign overfitting, distribution shift, and limits of classical guarantees for deep learning. Connect probability, regression, optimization, information theory, and modern AI while distinguishing foundational generalization theory from applied machine-learning systems and model-specific engineering.
 - **Status:** proposed
+
+## Candidate: AI Inference Systems -- Accelerators, Memory, Quantization, Serving, and Energy
+- **Domain:** technology
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 10.0/10.0 (gap=10.0, compounding=10.0, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how production AI inference turns trained models into low-latency, high-throughput services across accelerators, memory hierarchies, interconnects, compilers, runtimes, and distributed serving. Cover prefill and decoding, KV caches, batching, parallelism, quantization, speculative decoding, routing, observability, reliability, cost, and energy, showing how workload shape changes bottlenecks. Distinguish inference-system design from model training, semiconductor fabrication, cloud-industry economics, and agent architecture while connecting hardware-software co-design to deployment decisions.
+- **Status:** proposed
+
+## Candidate: Civil-Military Relations and Democratic Control -- Professional Autonomy, Political Neutrality, and Regime Stability
+- **Domain:** political-science-public-policy
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how civilian authorities, armed forces, political parties, and societies divide control over military policy, appointments, budgets, operations, and domestic coercion. Compare objective and subjective control, professional autonomy, coup prevention, politicization, legislative oversight, military advice, regime support, and transitions across democracies and autocracies. Distinguish domestic institutional analysis from operational strategy and interstate geopolitics while examining how accountability, effectiveness, and political neutrality can conflict.
+- **Status:** proposed
