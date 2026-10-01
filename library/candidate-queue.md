@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Transboundary Water Geopolitics -- River Basins, Dams, Scarcity, and Interstate Power
-- **Domain:** geopolitics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how upstream-downstream geography, dams, aquifers, climate stress, irrigation, hydropower, data control, and treaty design turn shared water into bargaining power and mutual dependence. Compare cooperation, coercion, benefit sharing, environmental flows, dispute resolution, and conflict risk across major river and groundwater basins without assuming scarcity automatically causes war. Distinguish geopolitical analysis from hydrology, domestic water policy, and detailed international law while connecting water security to food, energy, migration, and regional order.
-- **Status:** proposed
-
 ## Candidate: Thomas Gayner -- Insurance Investing, Decentralized Operations, and Patient Compounding
 - **Domain:** investors
 - **Proposed by:** Librarian
