@@ -414,3 +414,7 @@ Candidates:
 - Structural Engineering -- Load Paths, Limit States, Robustness, and Progressive Collapse (9.8): gap=9.8, compounding=9.9, timeliness=9.7, balance=10.0
 - Statistical Learning Theory -- Generalization, Capacity, Regularization, and Modern Overparameterization (9.9): gap=9.8, compounding=10.0, timeliness=9.8, balance=10.0
 Domain balance: books, case-studies, engineering-infrastructure, and mathematics-statistics (17 topics each) to the same four domains (17 topics each).
+
+## [ENT-929] | 2026-10-01 10:02 UTC | Librarian | library | ref: library/candidate-queue.md
+ERROR: Could not research candidate Undersea Cable Geopolitics -- Connectivity, Chokepoints, Sabotage, and Strategic Resilience in geopolitics because the agentic-brain search freshness gate returned STALE (new=0, changed=1, deleted=0).
+Candidate remains proposed; no topic was drafted or removed.
