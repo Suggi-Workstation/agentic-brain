@@ -177,3 +177,27 @@
 - **Discovery score:** 9.9/10.0 (gap=9.9, compounding=10.0, timeliness=9.9, balance=10.0)
 - **Scope:** Explain how organizations create, retain, transfer, retrieve, revise, and deliberately forget knowledge so that experience improves future decisions rather than disappearing with individuals or hardening into obsolete routines. Cover tacit and explicit knowledge, learning curves, after-action reviews, communities of practice, documentation, psychological safety, error reporting, absorptive capacity, expertise succession, and the interaction between human judgment and AI-enabled retrieval. Show how incentives, structure, workflow, and governance determine whether knowledge moves across boundaries, while distinguishing organizational capability from personal note-taking, generic culture, innovation management, and software implementation.
 - **Status:** proposed
+
+## Candidate: Diplomacy and Crisis Bargaining -- Signaling, Coercion, Mediation, and War Termination
+- **Domain:** geopolitics
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=10.0, balance=10.0)
+- **Scope:** Explain how states bargain under risk through diplomacy, signaling, threats, assurances, backchannels, mediation, ceasefires, and negotiated settlements. Examine credibility, private information, commitment problems, misperception, ripeness, spoiler management, face-saving, and the design of agreements that can survive after violence pauses. Use contemporary conflicts to distinguish general bargaining mechanisms from country history, operational military strategy, international-law doctrine, and advocacy for a particular settlement.
+- **Status:** proposed
+
+## Candidate: Strategy Formulation and Execution -- Making Coherent Choices About Where to Play and How to Win
+- **Domain:** business-management-strategy
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how firms turn purpose and diagnosis into a coherent set of choices about arenas, advantage, capabilities, resource commitments, and what not to do. Compare deliberate and emergent strategy, positioning and resource-based views, strategic planning, initiative portfolios, execution systems, and feedback under uncertainty. Show how leaders test assumptions and renew strategy without confusing firm-level choices with industry structure, annual budgeting, management control, or capital-market valuation.
+- **Status:** proposed
+
+## Candidate: Bill Ruane -- Sequoia Fund, Concentrated Research, and Fiduciary Long-Termism
+- **Domain:** investors
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.7/10.0 (gap=10.0, compounding=9.8, timeliness=8.8, balance=10.0)
+- **Scope:** Profile Bill Ruane's path from Graham-Newman alumnus and Warren Buffett contemporary to co-founder of Ruane, Cunniff and manager of Sequoia Fund. Examine how intensive company research, concentration, long holding periods, willingness to close the fund, client stewardship, mistakes, succession, and institutional culture shaped his record and influence. Keep the focus on Ruane's decisions and development while distinguishing the biography from a general history of Sequoia, mutual-fund structure, or abstract quality-investing doctrine.
+- **Status:** proposed
