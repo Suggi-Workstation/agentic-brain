@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Arctic Geopolitics -- Shipping Routes, Resources, Security, and Indigenous Sovereignty
-- **Domain:** geopolitics
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how retreating sea ice, shipping routes, hydrocarbons, critical minerals, fisheries, military access, and sparse infrastructure reshape power across the Arctic. Compare the Northern Sea Route, Northwest Passage, Greenland, the Barents region, and the Bering Strait, covering sovereignty claims, alliances, Russian and Chinese activity, Indigenous participation, environmental risk, and governance institutions. Show where competition and cooperation coexist, while distinguishing geopolitical analysis from climate science, maritime engineering, domestic Indigenous policy, and detailed international law.
-- **Status:** proposed
-
 ## Candidate: Operational Excellence and Continuous Improvement -- Building Learning Systems That Improve Cost, Quality, and Flow
 - **Domain:** business-management-strategy
 - **Proposed by:** Librarian
