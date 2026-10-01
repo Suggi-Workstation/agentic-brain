@@ -1,6 +1,6 @@
 # Business Management Strategy -- Topics
 
-18 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
+19 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
 
 - [Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes](corporate-governance-board-effectiveness.md) -- [reviewed: 2026-09-09] -- Corporate governance allocates decision rights and accountability among the people who finance, direct, and operate a company. Boards are central to this system: they oversee leadership, major decisions, and the information needed to identify risks, but their effectiveness depends on incentives, competence, and the surrounding institutions rather than a formal independence label alone.
 
@@ -23,6 +23,8 @@
 - [Organizational Culture and Incentive Systems -- Why the Behavioral Infrastructure Determines Whether Strategy Translates Into Action](organizational-culture-incentive-systems.md) -- [reviewed: never] -- Organizational culture is the system of shared assumptions, values, and norms that governs how people in an organization behave when formal rules are absent, ambiguous, or contradicted. Incentive systems are the deliberate mechanisms -- financial and non-financial, formal and informal -- through which an organization rewards, punishes, and signals what it actually values.
 
 - [Organizational Design and Decentralization -- Why the Distribution of Authority Determines Whether a Firm Can Execute Its Strategy](organizational-design-decentralization.md) -- [reviewed: never] -- Organizational design is the deliberate arrangement of a firm's structure -- its grouping of work, reporting lines, decision rights, and coordination mechanisms -- so that the organization can execute its strategy. Decentralization is the most consequential design choice within it: how far down the hierarchy authority and information are pushed, and how much autonomy local managers retain relative to a central headquarters.
+
+- [Organizational Learning Creates Repeatable Capability Only When Experience Changes Routines and Decisions](organizational-learning-and-knowledge-management.md) -- [reviewed: never] -- Organizational learning is the process through which experience creates knowledge that changes an organization's future behavior, while knowledge management supplies deliberate ways to create, retain, retrieve, transfer, revise, and use that knowledge [1][6]. The central claim is that neither experience, documentation, training, nor artificial intelligence creates organizational capability by...
 
 - [Pricing Strategy and Pricing Power -- Why the Price Tag Is the Most Direct Lever on Profitability](pricing-strategy-and-pricing-power.md) -- [reviewed: never] -- Pricing is the single most powerful lever a business has on its unit economics and profitability. A 1 percent improvement in average price realization, holding volume constant, translates into an 8 to 11 percent increase in operating profit for the average S&P 1500 company -- an effect roughly three times larger than an equivalent improvement in volume and nearly double the impact of a 1 percent reduction in variable costs.
 
