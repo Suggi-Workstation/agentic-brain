@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Financial Crises and Macroprudential Policy -- Detecting Systemic Risk and Building Buffers Before Contagion
-- **Domain:** macro-micro
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how leverage, maturity and currency mismatch, asset-price feedback, runs, fire sales, and interconnected balance sheets turn local losses into systemic crises. Compare early-warning indicators, stress tests, lender-of-last-resort and resolution tools, capital and liquidity buffers, borrower-based measures, countercyclical policy, and cross-border coordination across banking and nonbank finance. Show how macroprudential policy differs from monetary policy, microprudential supervision, and crisis cleanup, while connecting the framework to business cycles, sovereign debt, and financial-market structure.
-- **Status:** proposed
-
 ## Candidate: Risk and Crisis Communication -- Turning Uncertainty Into Protective Action Under Pressure
 - **Domain:** communication
 - **Proposed by:** Librarian
