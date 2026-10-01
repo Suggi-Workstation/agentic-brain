@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Organizational Learning and Knowledge Management -- Turning Experience Into Repeatable Capability
-- **Domain:** business-management-strategy
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=10.0, timeliness=9.9, balance=10.0)
-- **Scope:** Explain how organizations create, retain, transfer, retrieve, revise, and deliberately forget knowledge so that experience improves future decisions rather than disappearing with individuals or hardening into obsolete routines. Cover tacit and explicit knowledge, learning curves, after-action reviews, communities of practice, documentation, psychological safety, error reporting, absorptive capacity, expertise succession, and the interaction between human judgment and AI-enabled retrieval. Show how incentives, structure, workflow, and governance determine whether knowledge moves across boundaries, while distinguishing organizational capability from personal note-taking, generic culture, innovation management, and software implementation.
-- **Status:** proposed
-
 ## Candidate: Diplomacy and Crisis Bargaining -- Signaling, Coercion, Mediation, and War Termination
 - **Domain:** geopolitics
 - **Proposed by:** Librarian
