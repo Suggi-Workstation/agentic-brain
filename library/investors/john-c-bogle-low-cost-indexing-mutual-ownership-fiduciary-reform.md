@@ -6,6 +6,7 @@ domain: investors
 author: Librarian
 tags: [john-c-bogle, vanguard, index-funds, low-cost-investing, mutual-ownership, fiduciary-duty, investor-stewardship]
 links: [library/investment-vehicles-fund-structures/mutual-funds-etfs-retail-capital-pooling.md, library/books/a-random-walk-down-wall-street.md, library/investors/benjamin-graham.md]
+reviewed: 2026-10-01
 ---
 
 # John C. Bogle -- Low-Cost Indexing Worked Because He Joined Product Design to Fiduciary Structure
@@ -14,7 +15,7 @@ John C. Bogle changed investing not merely by launching an index fund, but by jo
 
 ## Background
 
-John Clifton Bogle was born in Montclair, New Jersey, on May 8, 1929. He entered Princeton University on scholarship, worked while studying, and graduated magna cum laude in economics in 1951. His decisive academic project began after he encountered a December 1949 Fortune article about the small and contentious mutual-fund industry. Under adviser Philip Bell, Bogle developed that prompt into a 133-page thesis, "The Economic Role of the Investment Company." The thesis treated mutual funds as institutions that should serve shareholders economically and represent them as corporate owners, themes that remained visible throughout his later career [2][3].
+John Clifton Bogle was born in Montclair, New Jersey, on May 8, 1929. He entered Princeton University on scholarship, worked while studying, and graduated magna cum laude in economics in 1951. His decisive academic project began after he encountered a December 1949 Fortune article about the small and contentious mutual-fund industry. Under adviser Philip Bell, Bogle developed that prompt into a 141-page thesis, "The Economic Role of the Investment Company." The thesis treated mutual funds as institutions that should serve shareholders economically and represent them as corporate owners, themes that remained visible throughout his later career [2][3][15].
 
 Walter L. Morgan, founder of Wellington Fund, read the thesis and hired Bogle after graduation. Bogle moved through Wellington's departments, became an executive, and eventually became chief executive of Wellington Management in 1967. He helped turn a single balanced fund into a fund family and promoted Windsor Fund as an equity complement to Wellington Fund. His rise was rapid, but so was the reversal that defined his later work [2][4].
 
@@ -192,7 +193,7 @@ The final implication is methodological. Bogle revised his own story in response
 2. Vanguard (2019). "Vanguard Announces the Passing of Founder John C. Bogle." Official company obituary and career chronology, distributed by PR Newswire.
    https://www.prnewswire.com/news-releases/vanguard-announces-the-passing-of-founder-john-c-bogle-300779813.html [high]
 
-3. Tomlinson, Brett (2004). "An Old Friendship, New Again." Princeton Alumni Weekly. Account of Bogle's Princeton thesis, adviser Philip Bell, and early connection to Wellington.
+3. Tomlinson, Brett (2004; republished 2019). "An Old Friendship, New Again." Princeton Alumni Weekly. Account of Bogle's Princeton thesis, adviser Philip Bell, and early connection to Wellington.
    https://paw.princeton.edu/article/old-friendship-new-again [high]
 
 4. Bogle, John C. (2003). "Statement of John C. Bogle" before the U.S. House Subcommittee on Capital Markets, Insurance and Government Sponsored Enterprises. Primary testimony on career chronology, Vanguard's mutual structure, costs, and fund-industry reform.
@@ -217,7 +218,8 @@ The final implication is methodological. Bogle revised his own story in response
     https://www.ici.org/system/files/2026-03/per32-01.pdf [high]
 
 11. S&P Dow Jones Indices (2026). "SPIVA U.S. Year-End 2025" and "U.S. Persistence Scorecard Year-End 2025." Benchmark-relative active-fund performance and persistence evidence.
-    https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2025/ [high]
+    https://www.spglobal.com/spdji/en/documents/spiva/spiva-us-year-end-2025.pdf
+    https://www.spglobal.com/spdji/en/documents/spiva/persistence-scorecard-year-end-2025.pdf [high]
 
 12. Arvedlund, Erin (2018). "John Bogle Pens WSJ Op-Ed Warning Index Funds Becoming Too Big." The Philadelphia Inquirer. Contemporary report on Bogle's concentration warning and proposed safeguards.
     https://www.inquirer.com/philly/business/john-bogle-vanguard-wsj-index-funds-blackrock-state-street-fidelity-20181129.html [high]
@@ -227,6 +229,9 @@ The final implication is methodological. Bogle revised his own story in response
 
 14. Knowledge at Wharton (2003). "John Bogle's Advice: Live Long and Prosper, on Index Funds." University of Pennsylvania report on Bogle's investment argument, cost emphasis, and career lessons.
     https://knowledge.wharton.upenn.edu/article/john-c-bogles-advice-live-long-and-prosper-on-index-funds [high]
+
+15. Princeton University Library. "The Economic Role of the Investment Company." Catalog record for John Clifton Bogle's 1951 senior thesis, including its 141-page extent.
+    https://catalog.princeton.edu/catalog/dsp017m01bm63k [high]
 
 ## See Also
 
