@@ -1,6 +1,6 @@
 # Valuation Screening -- Topics
 
-19 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
+20 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
 - [Comparable Company Analysis Is a Controlled Comparison, Not a Peer Median](comparable-company-analysis-peer-selection-and-market-implied-value.md) -- [reviewed: 2026-10-01] -- Comparable company analysis converts the observed prices of selected public peers into a market-implied enterprise-value or equity-value range for a target.[1][2][3] Its reliability depends on controlling the valuation date, peer economics, claim perimeter, accounting definitions, forecast period, and statistical treatment.
 
@@ -39,4 +39,6 @@
 - [Valuing Financial Institutions -- Capital and Liability Quality Determine What Book Value Is Worth](valuing-financial-institutions-banks-insurers-balance-sheet-businesses.md) -- [reviewed: never] -- A bank or insurer cannot be valued reliably by treating its funding liabilities as incidental debt and its accounting equity as automatically realizable cash. The valuation task is to connect credible book equity and sustainable returns on that equity to required capital, credit or claim losses, funding behavior, and the price paid for the common claim ([1] [2] [3] [4]).
 
 - [High-Growth Companies With Negative Earnings Are Valued by the Credibility of Their Path to Durable Cash Flow](valuing-high-growth-companies-with-negative-earnings.md) -- [reviewed: never] -- A high-growth company with negative earnings has value only if its revenue can mature into cash flow after paying for customer acquisition, operations, reinvestment, financing, and dilution. The valuation task is therefore not to excuse current losses or capitalize revenue mechanically, but to model a testable transition from present operating economics to a competitive steady state and to expose how much of that transition the market price already assumes.
+
+- [Intangible-Asset-Intensive Businesses Are Valued by Reconstructing Investment, Not Inventing Assets](valuing-intangible-asset-intensive-businesses.md) -- [reviewed: never] -- Businesses built through research, software, brands, data, customer relationships, and organizational capability cannot be valued reliably from reported earnings and book capital alone because accounting recognition often separates current expenditure from the future benefits it may create.[1][2][4] A defensible valuation reconstructs only supportable intangible investment, applies explicit...
 
