@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Value of Information -- Deciding Whether More Evidence Is Worth Its Cost
-- **Domain:** probabilistic-thinking-forecasting
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how value-of-information analysis compares the expected payoff of acting now with the payoff obtainable after buying, collecting, or waiting for additional evidence. Cover perfect and sample information, Bayesian updating, decision trees, sensitivity to priors and utilities, experiment and test selection, stopping rules, delay, irreversibility, and the difference between information quantity and decision relevance. Show applications in medicine, forecasting, operations, investing, and human-AI workflows while distinguishing decision analysis from pure information theory and statistical power calculations.
-- **Status:** proposed
-
 ## Candidate: Algorithmic Recommendation and Cultural Gatekeeping -- How Feeds Shape Attention, Taste, and Visibility
 - **Domain:** pop-culture
 - **Proposed by:** Librarian
