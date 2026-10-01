@@ -177,3 +177,35 @@
 - **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.8, timeliness=9.9, balance=9.4)
 - **Scope:** Explain how consumer law allocates duties and remedies when products, services, advertising, interfaces, or marketplaces expose buyers to unsafe, deceptive, or unfair practices. Cover product safety, strict liability, warranties, disclosure, unfair terms, dark patterns, recalls, online platforms, cross-border sellers, agency enforcement, collective redress, and the interaction among statutes, regulation, contract, and tort. Compare risk-based prevention with after-the-fact compensation while distinguishing legal rules from marketing ethics, product engineering, competition policy, and general data privacy.
 - **Status:** proposed
+
+## Candidate: Chip War -- Semiconductors, Supply Chains, and the Struggle for Technological Power
+- **Domain:** books
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=9.8, balance=10.0)
+- **Scope:** Analyze Chris Miller's Chip War as a book: its account of how semiconductor design, fabrication, supply chains, industrial policy, and military demand became concentrated sources of economic and geopolitical power. Assess the historical narrative, evidence, case selection, causal claims, and policy implications, including what later export controls and AI-chip competition reveal about the book's thesis. Keep the artifact centered on Miller's argument and method rather than duplicating semiconductor physics, industry economics, or general geopolitics.
+- **Status:** proposed
+
+## Candidate: Silicon Valley Bank's 2023 Failure -- Duration Risk, Uninsured Deposits, and a Digital Bank Run
+- **Domain:** case-studies
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=9.9, balance=10.0)
+- **Scope:** Analyze the 2023 Silicon Valley Bank failure as a bounded case in asset-liability management, concentrated uninsured funding, governance, supervision, crisis communication, and operational liquidity. Reconstruct how rapid growth, duration exposure, weakening deposits, securities losses, a capital-raising announcement, digitally accelerated withdrawals, and delayed corrective action interacted rather than assigning a single cause. Extract lessons for boards, supervisors, risk managers, and crisis planners while distinguishing this event from general banking theory, the 2008 crisis, and broader regional-bank turmoil.
+- **Status:** proposed
+
+## Candidate: Structural Engineering -- Load Paths, Limit States, Robustness, and Progressive Collapse
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.7, balance=10.0)
+- **Scope:** Explain how structural engineers turn uncertain gravity, wind, seismic, flood, fire, impact, and occupancy demands into continuous load paths that protect strength, stability, serviceability, ductility, and robustness. Cover material systems, idealization, load combinations, limit states, dynamic response, connections, redundancy, disproportionate collapse, constructability, inspection feedback, and the boundary between code compliance and engineering judgment. Connect current work on future climate loads and collapse investigations to buildings, bridges, geotechnics, materials degradation, and structural health monitoring without duplicating those topics.
+- **Status:** proposed
+
+## Candidate: Statistical Learning Theory -- Generalization, Capacity, Regularization, and Modern Overparameterization
+- **Domain:** mathematics-statistics
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=9.8, balance=10.0)
+- **Scope:** Explain statistical learning theory as the mathematical study of when finite data and optimization produce models that generalize beyond their training sample. Cover empirical risk, hypothesis classes, loss, VC dimension, uniform convergence, regularization, stability, bias-variance, concentration bounds, overparameterization, benign overfitting, distribution shift, and limits of classical guarantees for deep learning. Connect probability, regression, optimization, information theory, and modern AI while distinguishing foundational generalization theory from applied machine-learning systems and model-specific engineering.
+- **Status:** proposed

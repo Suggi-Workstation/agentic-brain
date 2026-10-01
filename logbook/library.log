@@ -405,3 +405,12 @@ Wrote topic Classification Shifting and Special-Item Abuse -- Making Core Earnin
 Similarity overlap: 45%.
 Sources: 11 (11 high, 0 medium, 0 low).
 Cross-references: 6 topics.
+
+## [ENT-928] | 2026-10-01 10:01 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 4 domains scanned, 4 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Chip War -- Semiconductors, Supply Chains, and the Struggle for Technological Power (9.9): gap=9.8, compounding=9.9, timeliness=9.8, balance=10.0
+- Silicon Valley Bank's 2023 Failure -- Duration Risk, Uninsured Deposits, and a Digital Bank Run (9.9): gap=9.8, compounding=9.9, timeliness=9.9, balance=10.0
+- Structural Engineering -- Load Paths, Limit States, Robustness, and Progressive Collapse (9.8): gap=9.8, compounding=9.9, timeliness=9.7, balance=10.0
+- Statistical Learning Theory -- Generalization, Capacity, Regularization, and Modern Overparameterization (9.9): gap=9.8, compounding=10.0, timeliness=9.8, balance=10.0
+Domain balance: books, case-studies, engineering-infrastructure, and mathematics-statistics (17 topics each) to the same four domains (17 topics each).
