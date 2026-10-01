@@ -219,3 +219,107 @@ Similarity overlap: 38%.
 Sources: 17 (16 high, 1 medium, 0 low).
 Cross-references: 5 topics.
 
+
+<!-- Appended 2026-10-01 09:24 UTC -- ENT-854 to ENT-868 -->
+
+## [ENT-854] | 2026-09-30 13:33 UTC | Librarian | library | ref: library/industries-sectors/data-center-industry-economics.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Data Center Industry Economics -- Power Rights and Utilization Determine Returns Before Compute Demand Does (industries-sectors): rewritten (corrected 2 superseded sources, updated sources 9-10 and Core Concepts, Evidence, Implications, and Sources sections)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-855] | 2026-09-30 14:04 UTC | Librarian | library | ref: library/pop-culture/adaptation-across-media.md
+Review cycle: 1 topics reviewed, 1 current, 0 rewritten.
+Topics:
+- Adaptation Changes Stories Because Every Medium Reassigns Attention, Agency, and Cultural Memory (pop-culture): current, no changes
+Domain coverage: reviewed across 1 domain.
+
+## [ENT-856] | 2026-09-30 14:15 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 2 candidates proposed, 3 skipped (queue capped at 25).
+Candidates:
+- John C. Bogle -- Low-Cost Indexing, Mutual Ownership, and Fiduciary Reform (9.9): gap=10.0, compounding=10.0, timeliness=10.0, balance=9.4
+- Space Geopolitics and Counterspace Competition -- Orbits, Satellites, and Strategic Dependence (9.9): gap=9.9, compounding=10.0, timeliness=10.0, balance=9.4
+Domain balance: notable-people (15 topics) to business-management-strategy, ethics-philosophy, geopolitics, and investors (16 topics).
+
+## [ENT-857] | 2026-09-30 14:17 UTC | Librarian | library | ref: library/index-library.md
+ERROR: Review cycle halted before topic selection: the agentic-brain repository-search freshness gate returned STALE -- live corpus differs from manifest (new=0, changed=1, deleted=0). Prior work could not be searched against a verified-fresh index.
+Topics:
+- None: no topic selected, attempted, stamped, or published.
+Domain coverage: reviewed across 0 domains.
+
+## [ENT-858] | 2026-09-30 14:22 UTC | Librarian | library | ref: library/anthropology/museum-repatriation-cultural-heritage.md | see: 20260930T141004Z
+Wrote topic Museum Repatriation and Cultural Heritage -- Provenance, Power, and Living Community Claims to anthropology. Weighted score: 9.7/10.0
+(core=9.8, scope=9.6, value=9.7, authority=9.8).
+Similarity overlap: 28%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-859] | 2026-09-30 14:53 UTC | Librarian | library | ref: library/health-medicine/diagnostic-reasoning-and-medical-testing.md | see: 20260930T144113Z
+Wrote topic Diagnostic Reasoning and Medical Testing -- Updating Probabilities Without Overtesting to health-medicine. Weighted score: 9.8/10.0
+(core=9.8, scope=9.8, value=9.7, authority=9.8).
+Similarity overlap: 40%.
+Sources: 15 (15 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-860] | 2026-09-30 16:04 UTC | Librarian | library | ref: library/communication/technical-documentation-and-procedural-writing.md | see: 20260930T154447Z
+Wrote topic Technical Documentation and Procedural Writing -- Turning Complex Systems Into Reliable Action to communication. Weighted score: 9.8/10.0
+(core=9.8, scope=9.8, value=9.6, authority=9.8).
+Similarity overlap: 38%.
+Sources: 16 (14 high, 2 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-861] | 2026-09-30 16:12 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 2 candidates proposed, 4 skipped (queue capped at 25).
+Candidates:
+- Financial Crises and Macroprudential Policy -- Detecting Systemic Risk and Building Buffers Before Contagion (10.0): gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0
+- Risk and Crisis Communication -- Turning Uncertainty Into Protective Action Under Pressure (9.9): gap=9.9, compounding=9.9, timeliness=10.0, balance=10.0
+Domain balance: business-management-strategy, communication, ethics-philosophy, law-regulation, macro-micro, and self-improvement (16 topics) to the same six domains (16 topics).
+
+## [ENT-862] | 2026-09-30 16:21 UTC | Librarian | library | ref: library/anthropology/human-biological-variation.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Human Biological Variation Records Population History and Adaptation, Not Discrete Racial Types (anthropology): rewritten (corrected numerical scope, source attribution, sampling, ancestry, adaptation, and ancient-DNA mismatches; updated Sources, Background, Core Concepts, Evidence, and Implications)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-863] | 2026-09-30 16:50 UTC | Librarian | library | ref: library/macro-micro/elasticity-and-tax-incidence.md | see: 20260930T163954Z
+Wrote topic Elasticity and Tax Incidence -- Who Actually Bears a Tax, Tariff, or Subsidy to macro-micro. Weighted score: 9.9/10.0
+(core=10.0, scope=9.8, value=9.6, authority=10.0).
+Similarity overlap: 45%.
+Sources: 12 (12 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-864] | 2026-09-30 17:18 UTC | Librarian | library | ref: library/self-improvement/personal-workflow-systems-and-task-management.md | see: 20260930T170720Z
+Wrote topic Personal Workflow Systems and Task Management -- Capturing Commitments Without Letting Lists Become Work to self-improvement. Weighted score: 9.8/10.0
+(core=9.8, scope=9.9, value=9.5, authority=9.6).
+Similarity overlap: 44%.
+Sources: 16 (14 high, 2 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-865] | 2026-09-30 17:19 UTC | Librarian | library | ref: library/communication/linguistics-and-language-evolution.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Linguistics and Language Evolution -- How Language Shapes Thought and Culture (communication): rewritten (corrected cognate, recursion, FOXP2 chronology and selection, endangerment counts, and unsupported AI and education claims; updated sources and all four mandatory sections).
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-866] | 2026-09-30 17:51 UTC | Librarian | library | ref: library/technology/applied-cryptography-primitives-protocols-key-management.md | see: 20260930T173801Z
+Wrote topic Applied Cryptography -- From Mathematical Primitives to Protocols and Key Management to technology. Weighted score: 9.7/10.0
+(core=9.5, scope=9.8, value=9.8, authority=9.8).
+Similarity overlap: 30%.
+Sources: 20 (20 high, 0 medium, 0 low).
+Cross-references: 4 topics.
+
+## [ENT-867] | 2026-09-30 18:01 UTC | Librarian | library | ref: library/self-improvement/commitment-devices-and-accountability-systems.md
+Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
+Topics:
+- Commitment Devices Work Best When Accountability Preserves Autonomy and Failure Remains Reversible (self-improvement): rewritten (corrected 1 broken retraction DOI, updated implementation-intention evidence and field-experiment coverage with 2 high-authority sources)
+Domain coverage: reviewed across 1 domains.
+
+## [ENT-868] | 2026-09-30 18:07 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 4 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Herbert Simon -- Bounded Rationality, Administrative Decision-Making, and the Birth of AI (9.8): gap=9.8, compounding=10.0, timeliness=9.3, balance=10.0
+- Aesthetics and Artistic Value -- How Interpretation, Form, Experience, and Institutions Make Art Matter (9.8): gap=9.8, compounding=9.7, timeliness=10.0, balance=9.4
+- Health Technology Assessment and Cost-Effectiveness -- Allocating Care Under Evidence, Budget, and Equity Constraints (9.7): gap=9.8, compounding=9.9, timeliness=10.0, balance=8.8
+- Foreign Exchange Markets and Currency Risk -- Pricing, Funding, and Hedging Across Monetary Boundaries (9.7): gap=9.8, compounding=9.8, timeliness=10.0, balance=8.8
+Domain balance: notable-people (15 topics) to earth-climate, finance, and health-medicine (17 topics).
+
