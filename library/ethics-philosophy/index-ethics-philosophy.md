@@ -1,6 +1,8 @@
 # Ethics Philosophy -- Topics
 
-16 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+17 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+
+- [Aesthetics and Artistic Value Depend on Form, Interpretation, Experience, and Institutions](aesthetics-and-artistic-value.md) -- [reviewed: never] -- A work matters artistically through no single property: perceptible form, expressive or cognitive achievement, informed experience, historical context, and practices of recognition can each supply reasons for valuing it. Beauty remains important, but conceptual art, cross-cultural traditions, technological reproduction, and generative AI show why neither beauty, popularity, scarcity, price, nor an institution's approval can serve as a complete measure of artistic value [1][4][5][7][8].
 
 - [AI Ethics -- Trustworthy Systems Require Governance Across the Full Lifecycle](ai-ethics.md) -- [reviewed: 2026-09-21] -- AI ethics studies the principles and institutions that should govern the design, development, deployment, use, and retirement of artificial intelligence systems. It asks not only whether a system performs its assigned task, but whether its purpose is legitimate, its benefits and harms are distributed fairly, affected people can understand and contest consequential decisions, and identifiable humans and organizations remain accountable.
 
