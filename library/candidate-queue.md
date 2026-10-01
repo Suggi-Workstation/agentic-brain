@@ -177,3 +177,35 @@
 - **Discovery score:** 9.5/10.0 (gap=9.7, compounding=9.5, timeliness=9.0, balance=9.4)
 - **Scope:** Explain how burials, bodies, monuments, grave goods, landscapes, and funerary rituals provide evidence about identity, kinship, health, mobility, inequality, belief, memory, and political authority. Cover taphonomy, osteology, isotopes, ancient DNA, chronology, statistical inference, sampling bias, preservation, descendant-community authority, repatriation, and the ethics of human-remains research. Show how archaeologists move from material traces to bounded interpretations without treating elaborate graves as direct mirrors of rank or reducing death practices to universal symbolism.
 - **Status:** proposed
+
+## Candidate: Strategic Alliances, Joint Ventures, and Business Ecosystems -- Governing Interdependence Without Full Ownership
+- **Domain:** business-management-strategy
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.9, timeliness=9.9, balance=10.0)
+- **Scope:** Explain why firms cooperate through strategic alliances, joint ventures, licensing, platforms, consortia, and partner ecosystems instead of building or buying every capability. Cover partner selection, complementarity, bargaining power, contracts, governance, decision rights, knowledge transfer, intellectual property, trust, incentives, conflict, dependency, performance measurement, and exit. Show how managers create and divide value while controlling leakage and systemic risk, distinguishing interorganizational strategy from mergers, procurement transactions, industry structure, and legal doctrine.
+- **Status:** proposed
+
+## Candidate: Disability and Social Inclusion -- Institutions, Accessibility, Stigma, and Unequal Life Chances
+- **Domain:** sociology-demography
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=10.0, timeliness=9.9, balance=9.4)
+- **Scope:** Explain disability as a relationship among bodies, environments, institutions, classifications, and social expectations rather than only an individual medical condition. Examine accessibility, stigma, education, work, income, family and care, housing, technology, organizations, community participation, intersectionality, data gaps, and the difference between inclusion and segregation. Compare medical, social, relational, and capability models while distinguishing population-level structures from clinical treatment, disability law, ethical theory, and personal self-improvement.
+- **Status:** proposed
+
+## Candidate: Stars and Stellar Evolution -- Formation, Fusion, Nucleosynthesis, and Compact Remnants
+- **Domain:** science
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.8/10.0 (gap=9.9, compounding=9.8, timeliness=9.8, balance=9.4)
+- **Scope:** Explain how gravity, pressure, radiation, nuclear reactions, mass, and composition govern a star's path from molecular-cloud collapse to its final remnant. Cover protostars, main-sequence fusion, hydrostatic equilibrium, spectral classification, red giants, mass loss, supernovae, white dwarfs, neutron stars, black holes, element production, observations, and model uncertainties. Connect stellar lifecycles to galactic chemical evolution and current multiwavelength observations while distinguishing astrophysics from telescope engineering, scientist biography, cosmology, and speculative claims about exotic objects.
+- **Status:** proposed
+
+## Candidate: Consumer Protection and Product Safety Law -- Defects, Deception, Digital Design, and Redress
+- **Domain:** law-regulation
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.8, timeliness=9.9, balance=9.4)
+- **Scope:** Explain how consumer law allocates duties and remedies when products, services, advertising, interfaces, or marketplaces expose buyers to unsafe, deceptive, or unfair practices. Cover product safety, strict liability, warranties, disclosure, unfair terms, dark patterns, recalls, online platforms, cross-border sellers, agency enforcement, collective redress, and the interaction among statutes, regulation, contract, and tort. Compare risk-based prevention with after-the-fact compensation while distinguishing legal rules from marketing ethics, product engineering, competition policy, and general data privacy.
+- **Status:** proposed
