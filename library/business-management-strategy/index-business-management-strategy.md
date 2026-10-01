@@ -1,6 +1,6 @@
 # Business Management Strategy -- Topics
 
-16 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
+17 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
 
 - [Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes](corporate-governance-board-effectiveness.md) -- [reviewed: 2026-09-09] -- Corporate governance allocates decision rights and accountability among the people who finance, direct, and operate a company. Boards are central to this system: they oversee leadership, major decisions, and the information needed to identify risks, but their effectiveness depends on incentives, competence, and the surrounding institutions rather than a formal independence label alone.
 
@@ -17,6 +17,8 @@
 - [Mergers and Acquisitions as Strategy -- Why Buying Growth So Often Destroys Value](mergers-and-acquisitions-as-strategy.md) -- [reviewed: never] -- Mergers and acquisitions (M&A) are the most consequential and most destructive capital allocation decision a company can make. An acquisition is a capital budgeting decision executed at unprecedented scale and speed: a single transaction can redirect billions of dollars of shareholder capital, reshape a competitive landscape, and determine a firm's trajectory for decades.
 
 - [Operating Leverage Turns Fixed Cost Into Both a Scale Advantage and a Source of Fragility](operating-leverage-and-cost-structure.md) -- [reviewed: never] -- Operating leverage is the sensitivity of operating profit to changes in sales that arises from a business's cost structure. A model with committed fixed costs and low variable cost can convert growth into profit faster than a flexible model after it passes break-even, but the same commitments magnify losses when volume, price, or utilization falls.
+
+- [Operational Excellence Compounds Only When Improvement Becomes a Management System](operational-excellence-and-continuous-improvement.md) -- [reviewed: never] -- Operational excellence is not a collection of efficiency projects; it is a management system that repeatedly converts customer needs, operating evidence, and frontline knowledge into safer, more reliable, higher-quality flow. The central claim is that lean, the Toyota Production System, total quality management, Six Sigma, the theory of constraints, and iterative learning methods create durable...
 
 - [Organizational Culture and Incentive Systems -- Why the Behavioral Infrastructure Determines Whether Strategy Translates Into Action](organizational-culture-incentive-systems.md) -- [reviewed: never] -- Organizational culture is the system of shared assumptions, values, and norms that governs how people in an organization behave when formal rules are absent, ambiguous, or contradicted. Incentive systems are the deliberate mechanisms -- financial and non-financial, formal and informal -- through which an organization rewards, punishes, and signals what it actually values.
 

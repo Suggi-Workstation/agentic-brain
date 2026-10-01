@@ -1,8 +1,10 @@
 # Geopolitics -- Topics
 
-17 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
+18 topics. Anchor: [anchor-geopolitics.md](anchor-geopolitics.md)
 
 - [Alliance Credibility and Burden Sharing -- How Commitments Deter and Sometimes Fracture](alliance-credibility-and-burden-sharing.md) -- [reviewed: 2026-09-24] -- A security alliance is a contingent promise: members agree to consult, prepare, or assist under specified circumstances, but the treaty cannot mechanically determine what each government will do in a future crisis.[1][7][10] Alliance credibility therefore depends on the alignment of declared obligations, usable military capability, political resolve, and shared exposure to the costs of failure;...
+
+- [Arctic Power Is Expanding, but Geography and Governance Still Constrain Competition](arctic-geopolitics-shipping-routes-resources-security-and-indigenous-sovereignty.md) -- [reviewed: never] -- Retreating sea ice is increasing access to Arctic waters, resources, and strategic approaches, but it is not converting the region into a frictionless global corridor or an ungoverned territorial scramble.[1][2][3] The central geopolitical change is a widening gap between what states can attempt and what sparse infrastructure, hazardous conditions, law, local authority, and mutual dependence allow them to sustain.
 
 - [Cyber Warfare -- Why the Fifth Domain of Conflict Rewrites the Rules of International Security](cyber-warfare.md) -- [reviewed: 2026-09-24] -- In this topic, cyber warfare denotes the use of digital access, code, and networked systems to create strategic effects, including activities as different as espionage, coercion, disruption, sabotage, and operations supporting armed conflict. Its geopolitical importance comes less from a single decisive cyber weapon than from persistent competition below the threshold of conventional war, where attribution, legal classification, and escalation are contested [8][10].
 
