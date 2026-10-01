@@ -1,6 +1,6 @@
 # Accounting Financial Shenanigans -- Topics
 
-16 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
+17 topics. Anchor: [anchor-accounting-financial-shenanigans.md](anchor-accounting-financial-shenanigans.md)
 
 - [Acquisition Accounting Tricks -- How Deal Structure, Purchase Price Allocation, and Earnouts Distort Reality](acquisition-accounting-tricks.md) -- [reviewed: 2026-09-09] -- Acquisition accounting can obscure operating performance because purchase price allocation, contingent payments, and acquired liabilities affect reported earnings long after a deal closes. The forensic task is to distinguish legitimate estimates from unsupported valuations, reserve releases, and classifications that flatter results.
 
@@ -29,6 +29,8 @@
 - [Revenue Recognition Shenanigans -- Why Inflating the Top Line Is the Most Common Form of Accounting Fraud](revenue-recognition-shenanigans.md) -- [reviewed: never] -- Revenue recognition manipulation is the single most pervasive form of financial statement fraud, appearing in over half of all SEC enforcement actions and accounting restatements. Companies inflate reported revenue through premature recognition (booking sales before they are earned), fictitious transactions (recording sales that never occurred), bill-and-hold arrangements (invoicing goods never shipped), and channel stuffing (flooding distributors with excess product to book immediate sales).
 
 - [Round-Tripping and Reciprocal Transactions -- Circular Cash Can Manufacture Revenue Without Creating Sales](round-tripping-and-reciprocal-transactions.md) -- [reviewed: never] -- Round-tripping turns a company's own cash, a reciprocal purchase, or an offsetting obligation into reported revenue even though the linked arrangement creates little or no new economic activity. Detecting it requires treating all connected contracts and cash movements as one transaction, tracing who ultimately funded the apparent customer, and testing whether independent demand, control transfer, and commercial risk existed.
+
+- [Segment Reporting Shenanigans -- Aggregation and Allocation Can Hide Weak Businesses Without Changing Consolidated Earnings](segment-reporting-shenanigans.md) -- [reviewed: never] -- Segment reporting can conceal a deteriorating business even when consolidated revenue, profit, and cash are correctly stated. The distortion arises when dissimilar operations are aggregated, costs or intersegment prices are shifted, management-defined profit measures omit burdens, or repeated reorganizations erase comparability, so the forensic task is to reconstruct the economic units beneath the published segments and reconcile every segment story to the consolidated accounts.
 
 - [Stock-Based Compensation Shenanigans -- Non-Cash Adjustments Can Hide Dilution and Recurring Labor Cost](stock-based-compensation-shenanigans.md) -- [reviewed: never] -- Stock-based compensation transfers value to employees for services, so its non-cash settlement does not make the labor free. The forensic problem arises when adjusted earnings remove the expense, operating cash flow adds it back, capitalized awards defer recognition, and repurchases are described as shareholder returns without reconciling the dilution they offset.
 
