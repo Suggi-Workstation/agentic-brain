@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Epistemic Injustice -- How Credibility, Interpretation, and Institutions Exclude Knowers
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 10.0/10.0 (gap=9.9, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain epistemic injustice as harm to people in their capacity as knowers, distinguishing testimonial injustice, hermeneutical injustice, contributory injustice, and structural exclusion from ordinary error or disagreement. Examine how credibility deficits and excesses, missing interpretive resources, institutional routines, and automated systems shape whose evidence counts across medicine, law, education, workplaces, and AI. Compare proposed remedies such as reflexive listening, participatory knowledge production, counterpublic resources, procedural safeguards, and institutional redesign while separating normative analysis from empirical bias measurement and communication technique.
-- **Status:** proposed
-
 ## Candidate: Organizational Learning and Knowledge Management -- Turning Experience Into Repeatable Capability
 - **Domain:** business-management-strategy
 - **Proposed by:** Librarian
