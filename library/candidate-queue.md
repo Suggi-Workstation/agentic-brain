@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Herbert Simon -- Bounded Rationality, Administrative Decision-Making, and the Birth of AI
-- **Domain:** notable-people
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=10.0, timeliness=9.3, balance=10.0)
-- **Scope:** Profile Herbert A. Simon's development from political science and administrative research to bounded rationality, organization theory, cognitive science, and artificial intelligence. Examine how interdisciplinary collaboration, empirical attention to real decision processes, institutional positions, and model building shaped his Nobel-recognized work, including criticisms of satisficing, symbolic AI, and the reach of his theories. Extract lessons about crossing fields, designing tractable problems, and revising assumptions while keeping the focus on Simon as a person rather than a general decision-science manual.
-- **Status:** proposed
-
 ## Candidate: Aesthetics and Artistic Value -- How Interpretation, Form, Experience, and Institutions Make Art Matter
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
