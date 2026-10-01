@@ -401,3 +401,13 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Banking Industry Economics -- A Funding Franchise Creates Value Only While Trust, Selection, and Liquidity Hold (industries-sectors): rewritten (corrected source identity, scope, denominator, method, and event-data mismatches; updated Core Concepts, Evidence, Implications, and the source set from 14 to 25).
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-913] | 2026-10-01 06:01 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 5 candidates proposed, 0 skipped (queue capped at 25).
+Candidates:
+- Personal Identity and the Self -- Continuity, Embodiment, Narrative, and Moral Responsibility (9.8): gap=9.8, compounding=9.9, timeliness=9.7, balance=10.0
+- Soil Systems and the Critical Zone -- Formation, Carbon, Water, Nutrients, and Degradation (9.8): gap=9.9, compounding=9.9, timeliness=9.9, balance=9.4
+- Teacher Education and Professional Learning -- How Instructional Expertise Is Built, Observed, and Improved (9.8): gap=9.8, compounding=9.9, timeliness=9.8, balance=9.4
+- Marketing Strategy and Brand Management -- Segmentation, Positioning, Demand Creation, and Brand Equity (9.8): gap=9.6, compounding=9.8, timeliness=9.8, balance=10.0
+- Death, Burial, and Mortuary Archaeology -- What Treatment of the Dead Reveals About Living Societies (9.5): gap=9.7, compounding=9.5, timeliness=9.0, balance=9.4
+Domain balance: business-management-strategy and ethics-philosophy (16 topics) to anthropology, earth-climate, and education-learning (17 topics).

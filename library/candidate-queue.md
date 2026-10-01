@@ -169,3 +169,43 @@
 - **Discovery score:** 9.7/10.0 (gap=10.0, compounding=9.8, timeliness=8.8, balance=10.0)
 - **Scope:** Profile Bill Ruane's path from Graham-Newman alumnus and Warren Buffett contemporary to co-founder of Ruane, Cunniff and manager of Sequoia Fund. Examine how intensive company research, concentration, long holding periods, willingness to close the fund, client stewardship, mistakes, succession, and institutional culture shaped his record and influence. Keep the focus on Ruane's decisions and development while distinguishing the biography from a general history of Sequoia, mutual-fund structure, or abstract quality-investing doctrine.
 - **Status:** proposed
+
+## Candidate: Personal Identity and the Self -- Continuity, Embodiment, Narrative, and Moral Responsibility
+- **Domain:** ethics-philosophy
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.7, balance=10.0)
+- **Scope:** Explain competing accounts of personal identity through bodily continuity, memory, psychological connectedness, narrative, social recognition, and reductionist views of the self. Examine duplication, amnesia, dementia, brain intervention, digital replicas, death, and responsibility as tests of what makes a person persist over time. Distinguish metaphysical identity from empirical personality research, legal identity, and practical self-improvement while connecting the debate to consciousness, agency, ethics, and emerging technology.
+- **Status:** proposed
+
+## Candidate: Soil Systems and the Critical Zone -- Formation, Carbon, Water, Nutrients, and Degradation
+- **Domain:** earth-climate
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.8/10.0 (gap=9.9, compounding=9.9, timeliness=9.9, balance=9.4)
+- **Scope:** Explain the critical zone as the coupled system from vegetation through soils and groundwater to weathered rock, where geology, climate, organisms, water, and time create and transform terrestrial environments. Cover soil formation, horizons, minerals, organic matter, microbes, nutrients, erosion, salinization, contamination, compaction, carbon storage, hydrologic feedbacks, land-use change, monitoring, and restoration limits. Show why soil is slowly renewable rather than interchangeable substrate, distinguishing Earth-system mechanisms from farming practice, land regulation, and engineered remediation.
+- **Status:** proposed
+
+## Candidate: Teacher Education and Professional Learning -- How Instructional Expertise Is Built, Observed, and Improved
+- **Domain:** education-learning
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.8, balance=9.4)
+- **Scope:** Explain how teachers develop content knowledge, pedagogical content knowledge, classroom judgment, assessment literacy, and routines for responding to diverse learners. Compare preservice preparation, clinical practice, mentoring, coaching, lesson study, collaborative inquiry, observation, feedback, professional learning communities, and career-long development, covering transfer, workload, incentives, implementation fidelity, and evaluation. Show why isolated workshops rarely create durable instructional change, while distinguishing teacher learning from general pedagogy, school governance, union policy, and subject-specific teaching manuals.
+- **Status:** proposed
+
+## Candidate: Marketing Strategy and Brand Management -- Segmentation, Positioning, Demand Creation, and Brand Equity
+- **Domain:** business-management-strategy
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.8, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how organizations choose markets and customer segments, define positioning, design value propositions, build brand equity, and coordinate product, price, distribution, and promotion. Cover market research, category creation, brand architecture, portfolio choices, channel strategy, demand generation, attribution, customer lifetime value, privacy constraints, and the effects of AI-mediated discovery. Show how marketing creates and captures value without reducing it to advertising, sales operations, pricing alone, or consumer psychology.
+- **Status:** proposed
+
+## Candidate: Death, Burial, and Mortuary Archaeology -- What Treatment of the Dead Reveals About Living Societies
+- **Domain:** anthropology
+- **Proposed by:** Librarian
+- **Date:** 2026-10-01
+- **Discovery score:** 9.5/10.0 (gap=9.7, compounding=9.5, timeliness=9.0, balance=9.4)
+- **Scope:** Explain how burials, bodies, monuments, grave goods, landscapes, and funerary rituals provide evidence about identity, kinship, health, mobility, inequality, belief, memory, and political authority. Cover taphonomy, osteology, isotopes, ancient DNA, chronology, statistical inference, sampling bias, preservation, descendant-community authority, repatriation, and the ethics of human-remains research. Show how archaeologists move from material traces to bounded interpretations without treating elaborate graves as direct mirrors of rank or reducing death practices to universal symbolism.
+- **Status:** proposed
