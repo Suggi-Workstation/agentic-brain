@@ -2,7 +2,7 @@
 
 18 topics. Anchor: [anchor-valuation-screening.md](anchor-valuation-screening.md)
 
-- [Comparable Company Analysis Is a Controlled Comparison, Not a Peer Median](comparable-company-analysis-peer-selection-and-market-implied-value.md) -- [reviewed: never] -- Comparable company analysis converts the observed prices of selected public peers into a market-implied enterprise-value or equity-value range for a target.[1][2][3] Its reliability depends on controlling the valuation date, peer economics, claim perimeter, accounting definitions, forecast period, and statistical treatment.
+- [Comparable Company Analysis Is a Controlled Comparison, Not a Peer Median](comparable-company-analysis-peer-selection-and-market-implied-value.md) -- [reviewed: 2026-10-01] -- Comparable company analysis converts the observed prices of selected public peers into a market-implied enterprise-value or equity-value range for a target.[1][2][3] Its reliability depends on controlling the valuation date, peer economics, claim perimeter, accounting definitions, forecast period, and statistical treatment.
 
 - [Cost of Capital -- Why the Discount Rate Is Both the Most Important and Most Uncertain Number in Valuation](cost-of-capital-capm-wacc-erp.md) -- [reviewed: 2026-09-24] -- Cost of capital is the opportunity return required by providers of debt and equity for bearing risks comparable to those of the cash flows being valued. In a discounted cash flow model, free cash flow to the firm is ordinarily discounted at a weighted average cost of capital, while dividends or free cash flow to equity are discounted at a cost of equity; matching the cash-flow claim, currency, and risk to the rate is more important than reporting the rate to extra decimal places [13].
 
