@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Thomas Gayner -- Insurance Investing, Decentralized Operations, and Patient Compounding
-- **Domain:** investors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=10.0, compounding=9.9, timeliness=9.7, balance=10.0)
-- **Scope:** Profile Thomas Gayner's evolution from accountant and analyst to Markel investor and chief executive, focusing on his four-part investment framework, long holding periods, insurance-capital constraints, and decentralized operating model. Examine his record, portfolio decisions, acquisitions, partnership with Markel's other leaders, governance responsibilities, mistakes, and changes in capital allocation as the company became a diversified holding company. Keep the focus on Gayner's decisions and development rather than turning the topic into a general treatment of insurance float, quality investing, or conglomerate structure.
-- **Status:** proposed
-
 ## Candidate: Animal Ethics and Moral Status -- Sentience, Rights, Welfare, and Human Obligations
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
