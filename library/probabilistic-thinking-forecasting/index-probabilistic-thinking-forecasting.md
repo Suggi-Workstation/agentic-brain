@@ -1,6 +1,6 @@
 # Probabilistic Thinking Forecasting -- Topics
 
-17 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
+18 topics. Anchor: [anchor-probabilistic-thinking-forecasting.md](anchor-probabilistic-thinking-forecasting.md)
 
 - [Base Rate Neglect -- Why Vivid Evidence Looks More Diagnostic Than It Is](base-rate-neglect.md) -- [reviewed: 2026-09-22] -- Base rate neglect is the underweighting of how common an outcome is before case-specific evidence arrives. It can distort posterior probabilities in forecasting, diagnosis, screening, and investment analysis, but the evidence does not support the stronger claim that people always ignore base rates; usage varies with task structure, representation, relevance, and the person making the judgment ([4] [8]).
 
@@ -35,4 +35,6 @@
 - [Scenario Planning -- Why Imagining Multiple Futures Beats Predicting One](scenario-planning-and-analysis.md) -- [reviewed: never] -- Scenario planning is a structured method for reasoning about multiple plausible futures under conditions of irreducible uncertainty. Pioneered by Pierre Wack at Royal Dutch/Shell in the early 1970s and codified by Peter Schwartz in the 1990s, it rejects the single-forecast habit in favor of constructing a small set of internally consistent narrative worlds, then stress-testing strategy against each.
 
 - [Superforecasting -- Why Some Ordinary People Are Dramatically Better at Predicting the Future Than Experts](superforecasting.md) -- [reviewed: never] -- Superforecasting is the empirically demonstrated capacity of a small subset of people -- roughly 2% of forecasters -- to predict geopolitical and economic events with accuracy that consistently surpasses professional intelligence analysts with access to classified information. Identified by Philip Tetlock and Barbara Mellers through the Good Judgment Project (2011-2015), a forecasting tournament sponsored by the U.
+
+- [Value of Information -- More Evidence Is Worth Buying Only When It Can Improve a Decision](value-of-information.md) -- [reviewed: never] -- Value-of-information analysis asks how much better a decision could become if specified uncertainty were reduced before action. It values evidence by the expected improvement in consequences, not by data volume, statistical significance, or uncertainty reduction alone, and then compares that improvement with the monetary, temporal, operational, and opportunity costs of learning.[3][5][6][12]
 
