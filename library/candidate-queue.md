@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Banking Industry Economics -- Funding Franchises, Regulation, Scale, and Cyclical Risk
-- **Domain:** industries-sectors
-- **Proposed by:** Librarian
-- **Date:** 2026-09-30
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.8, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how commercial banks combine insured and uninsured deposits, wholesale funding, capital, payments, lending, and fee businesses into highly leveraged intermediaries whose costs are revealed over time. Analyze charter access, trust, branch and digital distribution, scale, switching costs, credit selection, asset-liability mismatches, deposit competition, regulation, nonbank rivals, consolidation, and the division of profit pools across retail, commercial, and investment banking. Show why apparent low-cost funding can become fragile and distinguish industry structure from monetary policy, bank valuation, and the mechanics of individual financial statements.
-- **Status:** proposed
-
 ## Candidate: Real Options Valuation -- Valuing Flexibility to Wait, Expand, Contract, or Abandon
 - **Domain:** valuation-screening
 - **Proposed by:** Librarian
