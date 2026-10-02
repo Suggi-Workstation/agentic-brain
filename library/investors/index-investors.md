@@ -1,8 +1,10 @@
 # Investors -- Topics
 
-19 topics. Anchor: [anchor-investors.md](anchor-investors.md)
+20 topics. Anchor: [anchor-investors.md](anchor-investors.md)
 
 - [Benjamin Graham -- The Father of Value Investing Who Turned Stock Picking Into a Discipline](benjamin-graham.md) -- [reviewed: 2026-09-24] -- Benjamin Graham made security analysis a repeatable discipline by separating market price from business value, demanding evidence before purchase, and building protection against error into the price paid. His career joined research, teaching, fund management, and self-correction: methods he developed before the 1929 crash and refined afterward became the foundation for *Security Analysis*, *The Intelligent Investor*, and an unusually influential group of students and practitioners [1][2][3][4].
+
+- [Bill Ruane -- Research-Led Concentration and a Willingness to Turn Away Capital Built Sequoia's Long Record](bill-ruane-sequoia-fund-concentrated-research-and-fiduciary-long-termism.md) -- [reviewed: never] -- Bill Ruane, a student of Benjamin Graham whom Warren Buffett later called the only person he recommended to his partners when he closed his partnership in 1969, built Sequoia Fund around one organizing idea: the people who manage the portfolio should be the people who do the research, and the research should be deep enough to justify owning a few businesses in size for many years [1][2][3].
 
 - [Charlie Munger -- Generalist Reasoning and Patient Ownership Reshaped Berkshire](charlie-munger.md) -- [reviewed: 2026-09-29] -- Charlie Munger (1924-2023) influenced investing less by supplying a formula than by changing the decision rules used by Warren Buffett and Berkshire Hathaway: prefer durable businesses to merely cheap assets, test conclusions with models from several disciplines, study incentives, and wait for a small number of unusually favorable opportunities [3][5][6].
 
