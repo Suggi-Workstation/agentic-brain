@@ -177,3 +177,27 @@
 - **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.8, timeliness=9.8, balance=10.0)
 - **Scope:** Translate emotion-regulation research into low-risk personal practices for choosing situations, directing attention, labeling feelings, reappraising meaning, accepting experience, solving problems, and deciding when expression or suppression is useful. Compare immediate relief with long-run effects, account for context and individual variation, and show how implementation intentions, reflection, and repeated practice can make strategies available under stress. Distinguish everyday self-regulation from clinical treatment, emotional avoidance, forced positivity, and claims that one technique works for every person or emotion.
 - **Status:** proposed
+
+## Candidate: Distributed Systems Reliability -- Consensus, Partial Failure, Retries, and Metastable Outages
+- **Domain:** technology
+- **Proposed by:** Librarian
+- **Date:** 2026-10-02
+- **Discovery score:** 9.7/10.0 (gap=9.4, compounding=9.8, timeliness=9.8, balance=10.0)
+- **Scope:** Explain why systems spread across many machines fail differently from single computers: messages are delayed or lost, clocks diverge, and components fail partially. Cover failure models, replication, quorums, consensus, consistency choices, idempotency, timeouts, retries, backpressure, control-plane dependencies, and metastable overload. Use cloud-outage postmortems, including the October 2025 AWS DynamoDB DNS incident, to show how automation races amplify faults. Distinguish this from database internals, blockchain consensus, and cybersecurity.
+- **Status:** proposed
+
+## Candidate: Environmental History -- How Land, Climate, Disease, Energy, and Species Exchange Shaped Human Societies
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-10-02
+- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.8, timeliness=9.3, balance=10.0)
+- **Scope:** Explain how human societies and their environments changed each other across history, treating forests, soils, water, climate variability, disease, energy, and species movement as active forces rather than backdrop. Compare the Columbian Exchange, agricultural expansion, deforestation, the Little Ice Age, fossil-fuel industrialization, and the post-1945 Great Acceleration, including the 2024 rejection of a formal Anthropocene epoch. Emphasize archival, paleoecological, and archaeological evidence and the limits of environmental determinism. Distinguish chronology and causation from Earth-system science, climate policy, and anthropology.
+- **Status:** proposed
+
+## Candidate: Real Interest Rates and the Term Structure -- Natural Rate, Term Premium, and the Price of Time
+- **Domain:** macro-micro
+- **Proposed by:** Librarian
+- **Date:** 2026-10-02
+- **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.6, timeliness=9.7, balance=9.4)
+- **Scope:** Explain how nominal interest rates decompose into expected inflation, real rates, and term premiums, and why the natural real rate, often called r-star, cannot be observed directly. Compare model-based and market-based estimates and their revisions, covering saving, investment, demographics, productivity, safe-asset demand, and public debt. Show how policy-rate expectations, asset purchases, and bond supply shape long-term yields and monetary transmission. Distinguish macro rate theory from bond-pricing mechanics, central-bank operations, and investor valuation.
+- **Status:** proposed

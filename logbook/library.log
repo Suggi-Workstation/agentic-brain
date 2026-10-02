@@ -449,3 +449,11 @@ Wrote topic Diplomacy and Crisis Bargaining -- Signaling, Coercion, Mediation, a
 Similarity overlap: 35%.
 Sources: 16 (16 high, 0 medium, 0 low).
 Cross-references: 5 topics.
+
+## [ENT-951] | 2026-10-02 13:43 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 3 candidates proposed, 2 skipped (queue capped at 25).
+Candidates:
+- Distributed Systems Reliability -- Consensus, Partial Failure, Retries, and Metastable Outages (9.7): gap=9.4, compounding=9.8, timeliness=9.8, balance=10.0
+- Environmental History -- How Land, Climate, Disease, Energy, and Species Exchange Shaped Human Societies (9.7): gap=9.7, compounding=9.8, timeliness=9.3, balance=10.0
+- Real Interest Rates and the Term Structure -- Natural Rate, Term Premium, and the Price of Time (9.4): gap=9.2, compounding=9.6, timeliness=9.7, balance=9.4
+Domain balance: technology, history, and self-improvement (17 topics each) to macro-micro and pop-culture (18 topics each).
