@@ -464,3 +464,9 @@ Wrote topic Strategy Formulation and Execution -- Making Coherent Choices About 
 Similarity overlap: 25%.
 Sources: 16 (14 high, 2 medium, 0 low).
 Cross-references: 8 topics.
+
+## [ENT-953] | 2026-10-02 16:08 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 1 candidates proposed, 4 skipped (queue capped at 25).
+Candidates:
+- International Tax Law -- Treaties, Transfer Pricing, Profit Shifting, and the Global Minimum Tax (9.8): gap=9.8, compounding=9.7, timeliness=9.9, balance=10.0
+Domain balance: anthropology, earth-climate, education-learning, law-regulation, and science (17 topics each) to the same five domains (17 topics each).

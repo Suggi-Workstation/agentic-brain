@@ -193,3 +193,11 @@
 - **Discovery score:** 9.4/10.0 (gap=9.2, compounding=9.6, timeliness=9.7, balance=9.4)
 - **Scope:** Explain how nominal interest rates decompose into expected inflation, real rates, and term premiums, and why the natural real rate, often called r-star, cannot be observed directly. Compare model-based and market-based estimates and their revisions, covering saving, investment, demographics, productivity, safe-asset demand, and public debt. Show how policy-rate expectations, asset purchases, and bond supply shape long-term yields and monetary transmission. Distinguish macro rate theory from bond-pricing mechanics, central-bank operations, and investor valuation.
 - **Status:** proposed
+
+## Candidate: International Tax Law -- Treaties, Transfer Pricing, Profit Shifting, and the Global Minimum Tax
+- **Domain:** law-regulation
+- **Proposed by:** Librarian
+- **Date:** 2026-10-02
+- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.7, timeliness=9.9, balance=10.0)
+- **Scope:** Explain how international tax law allocates taxing rights over cross-border business income between residence and source states through domestic law, bilateral treaties, permanent-establishment rules, withholding, and the arm's-length principle for transfer pricing. Cover profit shifting, intangibles, hybrid mismatches, controlled-foreign-company rules, the OECD/G20 BEPS project, the Pillar Two 15 percent minimum tax, the January 2026 Side-by-Side Package, and the UN tax convention negotiations. Distinguish legal rules and enforcement from tax-incidence economics, accounting, and investment-vehicle tax structuring.
+- **Status:** proposed
