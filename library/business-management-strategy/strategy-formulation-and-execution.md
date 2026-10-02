@@ -142,18 +142,6 @@ George and colleagues report that the positive association between strategic pla
 
 The evidence implies that the planning process is itself a managed system with inputs, owners, and a learning loop. Brews and Hunt's duration finding suggests that the process should be kept stable long enough to build skill, while their finding that formal plans in unstable environments are more amenable to change suggests that stability of process does not require rigidity of content [7]. Mankins and Steele's rules supply the operating cadence: agree on assumptions before projections, agree on resource timing before the plan is finalized, and compare results with the plan continuously so that assumptions are reset and resources reallocated [15]. Mintzberg and Waters' observation that emergent patterns often prompt managers to change their deliberate strategies implies a further design requirement, which is a routine for noticing and reviewing patterns that nobody planned [1]. The author's synthesis is that a strategy process with these elements treats the plan as the current best statement of intent and treats every review as a test of that statement against what the organization has actually done.
 
-## Practical Frameworks
-
-The following review sequence is the author's synthesis of the sources above and is not a validated instrument.
-
-1. Diagnosis: what specific challenge is the strategy responding to, and what evidence supports the diagnosis? [16]
-2. Guiding policy: what does the policy rule out, and which trade-offs does it accept? [2][16]
-3. Advantage logic: which activities differ from rivals', how do they fit one another, and which resources pass the valuable, rare, imperfectly imitable, and non-substitutable tests? [2][3]
-4. Market pace: is the market moderately dynamic, calling for detailed routines, or high-velocity, calling for a few boundary and priority rules? [5]
-5. Commitments: what resources, at what level and timing, does each action require, and who is accountable for each? [15]
-6. Assumptions: which assumptions drive the forecast, and how do they compare with the outside view of similar cases? [14][15]
-7. Feedback: which realized patterns, including emergent ones, would show that the strategy is wrong, and who watches for external-fit loss while internal consistency remains intact? [1][12]
-
 ## Criticisms and Limits of the Evidence
 
 Several limits apply to the claims above. First, the depth of reading differs by source. For Mintzberg and Waters, Porter, Barney, Eisenhardt and Martin, Siggelkow, and Mankins and Steele, substantial excerpts of the text were read; for Teece and colleagues, Miller and Cardinal, Brews and Hunt, Grant, George and colleagues, Rumelt (1991), McGahan and Porter, Burgelman, and Kahneman and Lovallo, claims here are limited to what the abstract, summary page, or short search-result excerpts report, and details of method beyond those pages were not verified. The Rumelt (Good Strategy/Bad Strategy) material comes from a published review, not from the book.
