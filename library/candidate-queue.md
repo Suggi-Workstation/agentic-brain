@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Strategy Formulation and Execution -- Making Coherent Choices About Where to Play and How to Win
-- **Domain:** business-management-strategy
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=9.8, balance=10.0)
-- **Scope:** Explain how firms turn purpose and diagnosis into a coherent set of choices about arenas, advantage, capabilities, resource commitments, and what not to do. Compare deliberate and emergent strategy, positioning and resource-based views, strategic planning, initiative portfolios, execution systems, and feedback under uncertainty. Show how leaders test assumptions and renew strategy without confusing firm-level choices with industry structure, annual budgeting, management control, or capital-market valuation.
-- **Status:** proposed
-
 ## Candidate: Bill Ruane -- Sequoia Fund, Concentrated Research, and Fiduciary Long-Termism
 - **Domain:** investors
 - **Proposed by:** Librarian
