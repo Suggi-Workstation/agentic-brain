@@ -62,6 +62,7 @@ in the published topic file.
       `awk '/^## /{sec=$2; next} {c[sec]+=NF} END{for (s in c) print s, c[s]}' <topic-file>` (PASS / HALT)
 - [ ] Domain-specific body sections (if any) positioned correctly: between Core Concepts and Evidence, or between Implications and Sources (PASS / HALT)
 - [ ] Body sections follow order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional sections) -> Sources -> See Also. No content after `## See Also`. (G11) (PASS / HALT)
+- [ ] Optional supplementary sections (if any) cover the topic itself, not the writer's research process (PASS / HALT)
 - [ ] `## Sources` section present with 8+ sources. Each source annotated with authority rating (high/medium/low). At least 6 of 8+ sources are high. (G4) (PASS / HALT)
 - [ ] `## See Also` section present with at least 1 cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
 - [ ] Cross-reference targets verified: each path in `## See Also` and `links:` frontmatter confirmed to exist in the brain clone via `ls <path>` before committing (G5) (PASS / HALT)
@@ -154,76 +155,34 @@ the core claim or finding up front. Do not bury the lead.
 
 ### Sections in Order
 
-The following sections MUST appear in this sequence. Domain-specific
-titles are noted where permitted; the presence of each section is
-non-negotiable. EACH section must also meet its word minimum:
-Background >= 600 words, Core Concepts >= 1200 words, Evidence >=
-900 words, Implications >= 900 words.
-Optional sections can be added if they are found to be of additional 
-value. These can include Common Pitfalls, Criticisms, Practical Frameworks. 
-For optional sections no minimal word counts are required.
+Body sections appear in this order: Background, Core Concepts, optional
+domain sections, Evidence, Implications, optional supplementary sections,
+Sources, See Also. Background, Core Concepts, Evidence, Implications,
+Sources and See Also are mandatory. No content may follow `## See Also`.
 
-```
-## Background
-Historical or intellectual context. How did this knowledge develop?
-Who were the key contributors? What problems did it solve? MUST
-appear after the opening paragraph. Depth: the intellectual
-lineage, key contributors, and the problems the field evolved
-to solve.
-
-## Core Concepts
-The essential ideas of the topic. What are the building blocks?
-What mental models, frameworks, or principles define this subject?
-Title MAY vary by domain: ## Core Biases by Category,
-## Core Principles, ## Core Mechanisms. The section itself MUST
-appear. Depth: multiple concepts as the topic requires, each
-developed with a concrete example or application. Verified by
-word count on the extracted section text.
-
-(domain body sections)
-Additional ## sections expanding on specific aspects. MAY appear
-between Core Concepts and Evidence. Examples: ## Kuhn and Paradigm
-Shifts, ## Practical Moat Analysis Framework. Each section must
-contain substantive, domain-relevant content.
-
-## Evidence
-Empirical support, research findings, case studies. What data or
-observations back the claims? Title MAY vary: ## Evidence and
-Research Foundation, ## Empirical Support. The section MUST appear.
-Depth: at least 3 distinct studies or cases, each summarized
-with its method and finding. Verified by word count on the
-extracted section text.
-
-## Implications
-Why this topic matters. Practical applications, consequences,
-connections to other domains. MUST appear. Depth: applications
-across at least 2 distinct audiences or contexts. Verified by
-word count on the extracted section text.
-
-(optional sections)
-## Common Pitfalls, ## Criticisms, ## Practical Frameworks.
-MAY appear after Implications and before Sources.
-
-## Sources
-Cited references with authority ratings. MUST appear after
-the last body content section and before `## See Also`. Format
-specification below.
-
-## See Also
-Cross-references to related topics and brain artifacts. MUST
-be the final section. No content may follow.
-```
-
-The ONLY mandatory body sections are `## Background`, `## Core Concepts`,
-`## Evidence`, `## Implications`, `## Sources`, and `## See Also`. All
-other `##` sections are optional and may be added where the topic
-warrants: domain-specific sections between Core Concepts and Evidence
-(e.g. `## Practical Moat Analysis Framework`), or supplementary
-sections between Implications and Sources (e.g. `## Common Pitfalls`,
-`## Criticism`, `## Practical Frameworks`).
-
-Sections 7-8 (Sources, See Also) MUST appear in this exact order.
-No content may follow `## See Also`.
+- `## Background` (>= 600 words) -- how the knowledge developed: its
+  intellectual lineage, key contributors, and the problems it solved.
+- `## Core Concepts` (>= 1200 words; title MAY vary, e.g. `## Core
+  Principles`) -- the topic's essential ideas, each developed with a
+  concrete example or application.
+- Domain sections (optional, between Core Concepts and Evidence, e.g.
+  `## Practical Moat Analysis Framework`) -- substantive expansions of a
+  specific aspect of the topic.
+- `## Evidence` (>= 900 words; title MAY vary, e.g. `## Empirical
+  Support`) -- at least 3 distinct studies or cases, each summarized with
+  its method and finding.
+- `## Implications` (>= 900 words) -- why the topic matters, with
+  applications for at least 2 distinct audiences or contexts.
+- Supplementary sections (optional, between Implications and Sources, no
+  word minimums). Each covers the topic itself, not the writer's research
+  process. These can include:
+  - `## Common Pitfalls` -- frequent mistakes people make when applying or
+    interpreting the topic's ideas.
+  - `## Criticisms` -- published objections to the topic's theories or
+    evidence, and the limits of that evidence, each sourced.
+  - `## Practical Frameworks` -- established methods or checklists from
+    the sources that practitioners use to apply the topic.
+- `## Sources` and `## See Also` -- formats specified below.
 
 Use `###` level-3 headings for sub-sections within body content sections.
 Avoid going deeper than level-3.
@@ -476,10 +435,12 @@ feel like losses), pricing (discounts are framed as "saving" a loss),
 and commitment (sunk cost fallacy is partly loss aversion -- walking
 away means accepting the loss).
 
-## (Optional sections if needed: Common Pitfalls, Criticism, etc.)
-> This section is optional. Add domain-specific supplementary sections
-> only when the topic warrants additional depth. Remove this
-> placeholder if not needed.
+## Criticisms
+
+Gal and Rucker (2018) reviewed the evidence for loss aversion and argued
+that it does not show losses to be, on balance, more impactful than gains.
+They proposed a contextual view: losses sometimes loom larger than gains,
+sometimes have a similar impact, and sometimes loom smaller [9].
 
 ## Sources
 
@@ -515,6 +476,10 @@ away means accepting the loss).
    Journal of Political Economy, 98(6), 1325-1348.
    https://doi.org/10.1086/261737 [high]
 
+9. Gal, D. & Rucker, D. D. (2018). "The Loss of Loss Aversion: Will It
+   Loom Larger Than Its Gain?" Journal of Consumer Psychology, 28(3),
+   497-516. https://doi.org/10.1002/jcpy.1047 [high]
+
 ## See Also
 
 - `library/psychology-behavior/cognitive-biases.md` -- broader category
@@ -529,7 +494,7 @@ away means accepting the loss).
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 3 | 2026-09-02 | Morpheus | Raised the source gate to 8+ sources with at least 6 high-authority sources. |
+| 4 | 2026-10-02 | Morpheus | Condensed Sections in Order into one list; defined optional supplementary sections; example shows a sourced Criticisms section. |
 
 ---
 
