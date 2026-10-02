@@ -70,16 +70,6 @@ For a shorter cutoff month, use that month's final day. Do not substitute
 a fixed day count. Invalid or future review dates are ERROR outcomes, not
 permission to invent a replacement date.
 
-## Accuracy Requirement
-
-Read the complete topic and verify its claims against current sources.
-Correct every identified factual mismatch, outdated claim, broken source
-reference, and substantive gap. There is no percentage allowance for leaving
-known errors in place.
-Preserve correct material and the topic's scope; do not make cosmetic rewrites.
-If evidence cannot resolve a discrepancy, record ERROR and do not stamp or
-publish that topic as reviewed. Complete the template checklist before stamping.
-
 ## Final Self-Check -- HARD GATE
 
 Confirm each item at its corresponding step; commit and push checks follow
@@ -88,19 +78,15 @@ sub-checklists, no section summaries. Each item maps to a procedure
 step or a library guide rule. HALT on any failure; fix before
 committing.
 
-- [ ] Procedure completed: select domains in step 2, select and attempt at most one topic in step 3 with no blocked-topic replacement, read template, research, correct errors and gaps, re-read template, verify checklist, stamp reviewed date, log, commit (PASS / HALT)
+- [ ] Procedure completed: select one topic in step 2, read template, review and correct in step 4, re-read template and verify checklist, stamp reviewed date, log, publish (PASS / HALT)
 - [ ] Template read in full before reviewing and re-read before final checklist verification (PASS / HALT)
-- [ ] Topics selected have no reviewed date or are at least six calendar months past review; actual frontmatter checked, not only index tags (PASS / HALT)
-- [ ] Domain selection follows descending never-reviewed backlog; never-reviewed selection uses the first `[reviewed: never]` entry from the top of that domain's index; overdue fallback applies only when no never-reviewed topics remain and selects the oldest eligible review (PASS / HALT)
-- [ ] Each topic read in full before web-searching (PASS / HALT)
-- [ ] Independent web search conducted; factual claims, including unchanged text, checked against supporting source passages; missing passages recovered and derived figures recalculated (PASS / HALT)
-- [ ] Every identified mismatch and substantive gap resolved; incomplete topics logged and excluded from review stamps/publication (PASS / HALT)
-- [ ] Stale, superseded, incorrect, duplicate, or unused sources removed or replaced; affected citations reconciled throughout the topic (PASS / HALT)
+- [ ] Topic selected per step 2; its frontmatter confirms eligibility (PASS / HALT)
+- [ ] Topic and anchor read in full; independent research done; errors it revealed corrected; Sources and citations consistent (PASS / HALT)
 - [ ] Whole final topic passes the Library Topic Checklist, including measured section word counts; creation-only actions excluded as specified below (PASS / HALT)
 - [ ] `reviewed: <YYYY-MM-DD>` added or updated in frontmatter of each reviewed topic (PASS / HALT)
 - [ ] Changes limited to accuracy, substantive completeness, and template compliance; no padding or cosmetic rewrites (PASS / HALT)
 - [ ] Logbook entry written to logbook/library.log (PASS / HALT)
-- [ ] Logbook entry format: each data field on its own line, matching the step 8 example (PASS / HALT)
+- [ ] Logbook entry format: each data field on its own line, matching the step 7 example (PASS / HALT)
 - [ ] Logbook entry properly separated: exactly one blank line between this entry and the previous (PASS / HALT)
 - [ ] Shared publication used the Library Guide's Publication procedure and returned PASS; no direct topic/log writes or staging outside the helper (PASS / HALT)
 - [ ] No generated index files edited, regenerated, or staged by the reviewer (PASS / HALT)
@@ -120,100 +106,45 @@ in full. Do not modify the live clone while reviewing or preparing drafts.
 VPS-connected agents: no local clone. Every read and write below goes
 through the Path Convention commands above.
 
-### 2. Select domains from the master index
+### 2. Select one topic
 
-Read the complete `library/index-library.md` table. For every domain,
-calculate `never-reviewed = Topics - Reviewed`, using the ever-reviewed
-count before the parentheses. Overdue topics are already included in
-Reviewed; do not subtract them again.
+1. Read `library/index-library.md`. For each domain, never-reviewed =
+   Topics - Reviewed (the number before the parentheses).
+2. If any domain has never-reviewed topics, take the domain with the
+   highest count (tie: domain name). In its `index-<domain>.md`, select
+   the first topic from the top tagged `[reviewed: never]`.
+3. Otherwise, select the eligible topic with the oldest `reviewed:` date
+   across all domains (tie: topic path).
+4. If no topic is eligible, publish a log-only no-op and exit.
+5. Confirm the selected topic's frontmatter matches the index; if it does
+   not, select again from the topics' frontmatter.
+6. Review only this topic. If the review cannot be completed, record
+   ERROR and exit.
 
-If any domain has never-reviewed topics, select the domain with the largest
-absolute never-reviewed count. Break equal counts by domain name. Do not
-rank by percentage, table position, or overdue count. Only never-reviewed
-topics may be selected while any remain anywhere in the reviewable library.
-
-Only when every domain has zero never-reviewed topics, shortlist the domains
-with a positive overdue count. Before entering this overdue phase, confirm
-from current topic frontmatter that no never-reviewed topics remain outside
-quarantine. If this cannot be confirmed, record ERROR rather than proceeding.
-
-Generated counts are shortlisting aids. Resolve missing or stale counts
-from current topic frontmatter and repeat domain selection; never interpret
-missing data as zero. If neither phase has eligible topics, publish a
-log-only no-op outcome and exit.
-
-### 3. Select one topic from the domain indexes
-
-In the never-reviewed phase, open the selected domain's `index-<domain>.md`
-and scan from top to bottom. Select the first topic tagged `[reviewed: never]`.
-
-In the overdue phase, open the shortlisted domain indexes and choose the
-oldest eligible `reviewed:` date across them. Break ties by repository-relative
-topic path.
-
-Verify the selected topic's actual frontmatter from its captured snapshot.
-If index tags or counts disagree with the source, return to step 2 before
-starting the review. Apply the uniform six-calendar-month eligibility rule.
-
-Select and attempt at most one topic in the entire skill cycle. After
-starting that review, do not replace a blocked or incomplete topic, attempt
-another topic, or split publication requests to bypass the limit. Record
-ERROR and exit if the selected review cannot be completed. Never switch to
-an overdue topic because a never-reviewed topic is blocked.
-
-### 4. Read the library template
+### 3. Read the library template
 
 Read `governance/template-library.md` in full before reviewing. Follow its
 format specification and Library Topic Checklist throughout the review.
 
-### 5. Review the selected topic
+### 4. Review the topic
 
-For the selected topic:
+1. Read the captured topic and its domain anchor in full.
+2. Research the topic yourself as the template describes, using current
+   high-authority sources, including evidence published since the topic
+   was written. Check the topic's central claims (title claim, opening
+   paragraph, key figures and findings in Evidence) against your research.
+3. In a temporary draft, correct what your research shows is wrong or
+   outdated, and add important missing concepts, evidence or applications
+   within the topic's scope. Do not remove a claim only because your
+   research did not find it.
+4. Keep Sources consistent: add verified sources for new material with
+   authority ratings, remove sources no longer cited, and update affected
+   citations. Keep the section structure unless new content needs a new
+   section. Keep the original ID and author. ASCII only.
+5. If you find a problem you cannot resolve, record ERROR and leave the
+   topic unchanged.
 
-**5a. Read the topic file.** Read the captured
-`library/<domain>/<topic-slug>.md` in full. Note the key claims,
-the Sources section, and the body structure. Read its full domain anchor
-before preparing corrections. Preserve the original topic identity/author.
-
-**5b. Research and verify.** Perform independent web searches for the
-topic. Read existing and relevant new sources. Compare each factual
-claim, including unchanged text, with the source's supporting passage
-in context. Verify source identity, numbers, units, dates, denominators,
-quotation attribution, and study findings. Recalculate derived figures
-with a tool and distinguish source findings from interpretation.
-
-If an extract omits the needed passage, retrieve and read the complete
-source or an accessible authoritative alternative. HTTP success does
-not verify claim support. Do not remove a claim, quotation, or source
-solely because it is absent from an excerpt. Resolve discrepancies
-before correcting the draft; reconcile affected citations in step 5d.
-
-**5c. Identify errors and gaps.** Check every section for factual errors,
-unsupported claims, missing concepts, examples, evidence, and applications
-within the topic's scope. Compare depth and completeness with the template.
-If none are found, still complete step 6. Otherwise correct them in step 5d.
-Evidence still unresolved after alternative-source research and corrections,
-or a required change outside the topic's scope, prevents a completed review;
-record ERROR and leave that topic and its reviewed date unchanged.
-
-**5d. Correct errors and fill gaps.** Prepare corrections in a temporary
-draft, not the live topic file:
-- Patch inaccurate, outdated, incomplete, or noncompliant sections.
-  Preserve correct material; add substantive detail, not padding.
-- Preserve the template's body structure. Do not add or remove
-  `##` section headings unless the content requires a new section
-  that did not exist before.
-- Remove or replace stale, superseded, incorrect, duplicate, or unused
-  sources. Update or remove their citations throughout the text. Keep valid
-  sources that still support retained claims; age alone does not invalidate
-  a historical source. Add relevant verified sources for new material.
-- All rewritten content MUST be ASCII-only.
-- All new factual claims MUST trace to a source in the Sources
-  section (G3 from the template).
-- New sources MUST include authority ratings [high], [medium], or
-  [low] (G4 from the template).
-
-### 6. Re-read the template and verify its checklist
+### 5. Re-read the template and verify its checklist
 
 Re-read `governance/template-library.md` in full. Verify the entire final
 draft, including unchanged sections, against its Library Topic Checklist.
@@ -222,11 +153,11 @@ and cross-reference requirement. Keep the original ID and author; do not
 repeat creation-only actions (new ID, initial omission of `reviewed`, or
 candidate selection/scoring). Fix failures and recheck the final draft.
 Recheck every occurrence of corrected facts and their citations against
-the sources. Confirm that unchanged claims remain supported.
+the sources.
 If any applicable item remains unconfirmed, record ERROR and do not stamp
 or publish that topic as reviewed. Do not put the checklist in the topic.
 
-### 7. Stamp the reviewed date
+### 6. Stamp the reviewed date
 
 For each completed review, add or update `reviewed:` in the draft's
 frontmatter. Use today's UTC date in `YYYY-MM-DD` format. Do not stamp
@@ -249,7 +180,7 @@ reviewed: 2026-08-25
 If `reviewed:` already exists (from a prior review), update the date
 in place. Do not add a second `reviewed:` line.
 
-### 8. Write logbook entry
+### 7. Write logbook entry
 
 Prepare a body for `logbook/library.log`. The helper generates the ENT
 number, UTC timestamp, actor, and `library` category under its lock. Do not
@@ -275,7 +206,7 @@ Do not count unresolved topics as reviewed. If the helper cannot publish
 safely, surface its HALT result to the caller; never bypass the lock to
 write a failure entry.
 
-### 9. Commit on the VPS clone -- NO push
+### 8. Commit on the VPS clone -- NO push
 
 Follow `agentic-brain:library/guide-library.md#publication`.
 Use `kind: review` with only the completed topic in `writes` and `expected`,
