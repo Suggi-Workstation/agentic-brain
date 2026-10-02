@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Bill Ruane -- Sequoia Fund, Concentrated Research, and Fiduciary Long-Termism
-- **Domain:** investors
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.7/10.0 (gap=10.0, compounding=9.8, timeliness=8.8, balance=10.0)
-- **Scope:** Profile Bill Ruane's path from Graham-Newman alumnus and Warren Buffett contemporary to co-founder of Ruane, Cunniff and manager of Sequoia Fund. Examine how intensive company research, concentration, long holding periods, willingness to close the fund, client stewardship, mistakes, succession, and institutional culture shaped his record and influence. Keep the focus on Ruane's decisions and development while distinguishing the biography from a general history of Sequoia, mutual-fund structure, or abstract quality-investing doctrine.
-- **Status:** proposed
-
 ## Candidate: Personal Identity and the Self -- Continuity, Embodiment, Narrative, and Moral Responsibility
 - **Domain:** ethics-philosophy
 - **Proposed by:** Librarian
