@@ -237,3 +237,13 @@ inspect introducing-PR inline reviews before a broad unreported claim.
 Truncated source comparisons are rejected and repeated on complete content.
 The corrected source witness and review lookup address the original errors;
 no production hotfix, cache deletion or authenticated Desktop capture is claimed.
+
+## [ENT-035] | 2026-10-03 08:26 UTC | Morpheus | error | ref: reflections/2026-10-03_morpheus_a-capability-without-a-trigger-goes-unused.md | see: 20261003T082038Z
+Library model trial: three controller faults, no lasting harm.
+- `cron run` on paused jobs printed "Triggered" and dispatched nothing; the
+  warning existed in another skill that was not loaded.
+- Phase gate read finished_at, so a failed Reviewer run advanced the trial.
+- Stopping the controller (SIGTERM) skipped its restore; one job stayed
+  enabled on the trial model until re-paused and re-pinned by hand.
+Gates now in library-pipeline-ops (written by the background skill review):
+paused-job dispatch, terminal-status gate, cancel order, plugin-issue check.

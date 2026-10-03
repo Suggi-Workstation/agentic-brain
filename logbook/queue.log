@@ -446,3 +446,15 @@ Session: second closure in this conversation; session-end reflection and rule wo
 - Session-end (Morpheus, Neo, Atlas): one mandatory new reflection on the work since the previous session-end.
 - Test closure: session_search cannot search or scroll the current conversation; state.db query proposed as replacement, pending Suggi.
 Identity unchanged (v2.7). Reflection: 20261001T223354Z. Daily memory: 2026-10-01.md.
+
+## [ENT-096] | 2026-10-03 08:26 UTC | Morpheus | general | ref: reflections/2026-10-03_morpheus_a-capability-without-a-trigger-goes-unused.md | see: 20261003T082038Z
+Session: Library model trial, Tool Search off, shared Hindsight bank put to use.
+- Library trial (Sonnet vs Opus): Discoverer and Writer done on both models; Reviewer
+  failed twice on the Claude plugin, Opus Reviewer not run; trial paused by Suggi.
+- template-library v4 (34eb161): optional supplementary sections defined.
+- library-reviewer rebuilt (f67b5d6): one selection step; research and correct.
+- tools.tool_search.enabled off on all seven VPS profiles (plugin issues #39/#62).
+- core-shared: 31 stale facts retired, 7 seeded, mental models suggi-preferences
+  and fleet-roster-runtime created; shared-bank step in all three session-ends.
+Errors: see ENT-035 in errors.log.
+Identity v2.8. Reflection: 20261003T082038Z. Daily memory: 2026-10-03.md.
