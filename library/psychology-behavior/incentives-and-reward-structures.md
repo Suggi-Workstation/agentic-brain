@@ -76,11 +76,12 @@ perceived autonomy, create strategic responses the designer never
 anticipated, and can produce outcomes diametrically opposite to those
 intended.
 
-Charles Goodhart's 1975 observation about monetary policy -- "when a
-measure becomes a target, it ceases to be a good measure" -- and Donald
-Campbell's 1976 corollary -- "the more any quantitative social indicator
-is used for social decision-making, the more subject it will be to
-corruption pressures" -- provide the meta-principle that unifies these
+Charles Goodhart's 1975 observation about monetary policy, best known in
+Marilyn Strathern's 1997 paraphrase -- "when a measure becomes a target,
+it ceases to be a good measure" -- and Donald Campbell's 1976
+corollary -- "the more any quantitative social indicator is used for
+social decision-making, the more subject it will be to corruption
+pressures" -- provide the meta-principle that unifies these
 strands. Any incentive system selects a proxy for the true goal. Agents
 optimize the proxy. The proxy decouples from the goal. The result is
 the cobra effect, the teaching-to-the-test phenomenon, the financial
@@ -168,10 +169,14 @@ goal.
 ### Goodhart's Law and Campbell's Law
 
 Charles Goodhart, an economist at the Bank of England, observed in 1975
-that "when a measure becomes a target, it ceases to be a good measure."
-The principle was originally about monetary policy: when a government
-targets a specific monetary aggregate, banks and consumers rearrange
-their behavior to optimize against the target, and the target loses its
+that "any observed statistical regularity will tend to collapse once
+pressure is placed upon it for control purposes." The familiar wording,
+"when a measure becomes a target, it ceases to be a good measure," is
+anthropologist Marilyn Strathern's 1997 paraphrase in a paper on audit
+in British universities. The principle was originally about monetary
+policy: when a government targets a specific monetary aggregate, banks
+and consumers rearrange their behavior to optimize against the target,
+and the target loses its
 predictive value. But the law generalizes to any system where a proxy
 measure is selected as a target and agents respond to the incentive it
 creates.
@@ -675,6 +680,14 @@ potentially undermine the goal more thoroughly than inaction would have.
 14. "Principal-Agent Problem." Wikipedia.
     https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem
     [medium]
+
+15. Goodhart, C. A. E. (1975). "Problems of Monetary Management: The
+    UK Experience." Papers in Monetary Economics, Vol. 1. Sydney:
+    Reserve Bank of Australia. [high]
+
+16. Strathern, M. (1997). "'Improving ratings': audit in the British
+    University system." European Review, 5(3), 305-321.
+    https://doi.org/10.1017/S1062798700002660 [high]
 
 ## See Also
 
