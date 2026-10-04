@@ -60,7 +60,6 @@ this checklist in the published file.
 - [ ] Discussion: synthesizes findings, addresses contradictions and surprises  (PASS / HALT)
 - [ ] Conclusion: restates question + answer + one recommendation + open questions  (PASS / HALT)
 - [ ] Body word counts: Executive Summary >= 250, Research Question >= 300, Methodology >= 300, Findings >= 300, Discussion >= 300, Conclusion >= 250  (PASS / HALT)
-- [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: evaluations + related reports + referenced library topics  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
@@ -296,4 +295,4 @@ volitional -- self-close must be impossible by design.
 
 ---
 
-*Last updated: 2026-08-08 by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
+*Last updated: 2026-10-04 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*

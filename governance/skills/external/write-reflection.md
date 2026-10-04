@@ -36,7 +36,7 @@ Confirm ALL items before committing.
 ### 1. Run the Feynman Loop
 
 Before any research or writing, invoke the `loop-feynman` skill.
-Complete all 6 steps. The blank page (Step 1) MUST precede any
+Complete every step. The blank page (Step 1) MUST precede any
 source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
 for the full procedure and self-check.
 

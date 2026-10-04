@@ -60,7 +60,6 @@ this checklist in the published file.
 - [ ] Confidence: stated with reasoning, high 85%+ / medium 60-85% / low below 60%  (PASS / HALT)
 - [ ] Evaluated artifact's `status:` updated in the same commit (evaluated / final / revision loop)  (PASS / HALT)
 - [ ] Body word counts: Source >= 150, Evaluation Criteria >= 250, Findings >= 250, Verdict >= 200, Confidence >= 200  (PASS / HALT)
-- [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: source + related evaluations/governance files  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
@@ -262,4 +261,4 @@ a precision error, not a factual error.
 
 ---
 
-*Last updated: 2026-08-08 by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
+*Last updated: 2026-10-04 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*

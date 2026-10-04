@@ -61,7 +61,6 @@ this checklist in the published reflection.
 - [ ] Prose: every section except Cross-links is paragraphs; no bullet or numbered lists  (PASS / HALT)
 - [ ] Surprise answers "I expected X, but Y happened"; if nothing surprised you, the reflection is incomplete  (PASS / HALT)
 - [ ] Key Learning and Improvement: the major learning in brief + one concrete improvement, offered as a suggestion; it need not be implemented. Not "be better" or "pay attention"  (PASS / HALT)
-- [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] References: at least 1 internal Library/insight/reflection cross-link with a short description; no IDs repeated beside paths or external website links  (PASS / HALT)
 - [ ] File named: YYYY-MM-DD_author_slug.md  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
@@ -216,12 +215,6 @@ Reference related reflections, Library topics, insights, or governance
 files by repository path with a short description. Keep permanent IDs in
 frontmatter, not repeated beside the paths.
 
-## The Feynman Loop
-
-The Feynman Loop produces the raw material for a reflection. Its procedure
-and self-check live in the shared `loop-feynman` skill (canonical:
-`governance/skills/loop-feynman.md`).
-
 ## Anti-patterns
 
 | Anti-pattern | Why It Fails | The Fix |
@@ -230,7 +223,6 @@ and self-check live in the shared `loop-feynman` skill (canonical:
 | O section is description | "Here is what happened" dressed as "here is what I think." | The O must take a position. If it does not, delete it. |
 | Learn section is platitudes | "Communication is important" / "Test more." | Make it operational. "When X, do Y, because Z." |
 | Success-only reflection | "Everything went great!" No surprise, no learning. | Structure around surprise and error. |
-| Search-before-blank-page | Research fills gaps before you know what the gaps are. | Feynman Step 1 always precedes Step 3. |
 | Rumination (3rd-order) | Reflecting on a reflection on a reflection. | Stop at second-order. |
 | Bullet-point reflection | Lists cut the links between cause, judgment and lesson; the result reads as notes. | Write every section except Cross-links as paragraphs. |
 | Padding to the word count | Repetition and filler reach the minimum without adding thought. | Use the helper questions to go deeper: causes, alternatives, limits. |

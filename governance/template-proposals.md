@@ -59,7 +59,6 @@ this checklist in the published file.
 - [ ] Open Questions: all uncertainties written down, nothing implied  (PASS / HALT)
 - [ ] Approval Gate: explicit approval condition stated ("If approved, I will [specific action]")  (PASS / HALT)
 - [ ] Body word counts: Problem >= 200, Proposed Solution >= 300, Impact >= 300, Open Questions >= 200, Approval Gate >= 200  (PASS / HALT)
-- [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: at least 1 link to triggering IOR/evaluation/governance file  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
@@ -244,4 +243,4 @@ update the core-files proposal index, and notify Suggi.
 
 ---
 
-*Last updated: 2026-08-08 by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
+*Last updated: 2026-10-04 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*

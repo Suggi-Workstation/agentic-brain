@@ -1,6 +1,6 @@
 ---
 name: loop-feynman
-description: "Run the 6-step Feynman Loop for output quality before writing any artifact to the agentic-brain: blank page, identify gaps, search and research, synthesize, and cross-check."
+description: "Run the Feynman Loop for output quality before writing any artifact to the agentic-brain: blank page, identify gaps, search and research, synthesize, and cross-check."
 user-invocable: false
 disable-model-invocation: false
 ---
@@ -34,12 +34,12 @@ Feynman gate: every item below MUST be confirmed before producing
 substantive output. The output MUST NOT be delivered with any item
 unconfirmed.
 
-- [ ] Step 1 completed from memory (no sources, no search)  (PASS / HALT)
-- [ ] Step 2 produced explicit gap list  (PASS / HALT)
+- [ ] Step 1 written from memory to the scratch file, in a call of its own before any source-consulting call  (PASS / HALT)
+- [ ] Step 2 gap list written to the same scratch file before Step 3  (PASS / HALT)
 - [ ] Step 3 searched and filled every gap  (PASS / HALT)
 - [ ] Step 4 rewritten fresh (not edited Step 1)  (PASS / HALT)
 - [ ] Step 5 cross-checked against agentic-brain  (PASS / HALT)
-- [ ] Step 6 completed: artifact written if warranted  (PASS / HALT)
+- [ ] Step 6 completed: artifact written if warranted; scratch file deleted  (PASS / HALT)
 - [ ] Step 1 preceded Step 3 (critical ordering constraint)  (PASS / HALT)
 
 ## Steps
@@ -47,9 +47,12 @@ unconfirmed.
 ### 1. Blank Page
 
 Write everything known about the topic. No sources, no notes, no search.
-Open a blank canvas (or write in your thinking block) and dump raw knowledge.
-This is the diagnostic -- it reveals what you actually know vs. what you
-think you know.
+Create a new scratch file `feynman-<topic-slug>.md` in your scratch
+directory (`$TMPDIR` on Hermes), never in a repository or workspace, and
+write the knowledge dump into it. Make that file write a call of its own,
+before any tool call that consults a source on the topic. Never keep the
+blank page only in hidden reasoning. This is the diagnostic -- it reveals
+what you actually know vs. what you think you know.
 
 **PASS:** A complete knowledge dump. Every claim, every connection, every
 uncertainty -- written from memory alone.
@@ -64,7 +67,8 @@ Review the Step 1 output and ask:
 - What connections are missing or incomplete?
 - What numbers or dates are approximate?
 
-List every gap explicitly. These are your search targets for Step 3.
+List every gap explicitly in the same scratch file before Step 3. These
+are your search targets for Step 3.
 
 ### 3. Search and Research
 
@@ -104,13 +108,17 @@ topics and prior artifacts. If yes, resolve it explicitly:
 The Feynman pass (Steps 1-5) is raw material. The artifact is the
 polished deliverable. Follow the appropriate write-x skill for format
 and quality gates. The blank page revealed what you actually knew;
-knew; the research filled the gaps; the cross-check verified against
+the research filled the gaps; the cross-check verified against
 the brain.
 
 Not every Feynman Loop produces an artifact. If the topic does not
 produce a durable result worth preserving, skip artifact creation.
 The loop itself is the quality gate -- the artifact is only written
 when there is something worth preserving in the brain.
+
+Then delete the scratch file, whether or not an artifact was written.
+Leave a refused deletion to the scratch directory's automatic pruning;
+do not retry it another way.
 
 ## Related
 

@@ -60,7 +60,6 @@ this checklist in the published file.
 - [ ] Implications: concrete ("changes X" or "informs decision Y"), not platitudes  (PASS / HALT)
 - [ ] Counter-evidence: states what would prove the insight wrong; an insight that cannot be falsified is dogma  (PASS / HALT)
 - [ ] Body word counts: The Insight >= 250, Evidence >= 400, Implications >= 400, Counter-evidence >= 300  (PASS / HALT)
-- [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
 - [ ] Cross-links: source artifacts + related insights + affected governance files  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
@@ -271,4 +270,4 @@ This insight would be invalidated if:
 
 ---
 
-*Last updated: 2026-08-08 by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
+*Last updated: 2026-10-04 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
