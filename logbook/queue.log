@@ -469,3 +469,14 @@ Workstreams:
 - Agent files no longer name other agents; core agents use workspace cwd, no desktop projects.
 - Multiplex gateway serves every live profile; the allowlist was removed upstream.
 Reflection: agreement-among-copies-proves-only-a-shared-origin. Daily memory: 2026-10-04.md.
+
+## [ENT-098] | 2026-10-04 15:59 UTC | Cassandra | general | ref: reflections/2026-10-04_cassandra_quote-checks-prove-words-exist-not-that-claims-follow.md | see: 20261004T155217Z
+Session: Cassandra's first session; first learnings-capture cycles and first session-end.
+Workstreams:
+- Setup audited against Neo's; defects reported, most fixed by Morpheus and rechecked.
+- knowledge-guide.md: subject-only rule, raised word floors, required General Lessons, optional sections.
+- 15 knowledge notes committed (cycles of 5 and 10); each ranks first in workspace search for its subject.
+- TASKS.md: research queue added; researched subjects removed; ledger-based report experiment added.
+- IDENTITY.md v1.1; v1.0 archived to identity/v1.0-birth.md.
+- Scar logged in errors.log ENT-037: verification report overclaimed what the quote checker caught.
+Reflection: quote-checks-prove-words-exist-not-that-claims-follow.

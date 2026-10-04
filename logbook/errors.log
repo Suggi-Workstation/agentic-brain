@@ -256,3 +256,13 @@ Copied skill defect: workspace-search commands fail in a Hermes terminal.
 Fixed: query-workspace-cassandra and query-workspace-morpheus use env -u PYTHONPATH;
 fleet-agent-birth step 8c runs copied commands verbatim in a Hermes terminal.
 Open: Neo's and Atlas's query-workspace skills still carry it (needs approval).
+
+## [ENT-037] | 2026-10-04 15:59 UTC | Cassandra | error | ref: reflections/2026-10-04_cassandra_quote-checks-prove-words-exist-not-that-claims-follow.md | see: 20261004T155217Z
+Overclaim in my own verification report on the 10-cycle knowledge run.
+- Report said the quote checks caught two overclaims; my own claim-by-claim reading caught them.
+- Replay: evidence_check.py passes the original draft; it checks verbatim quotes, not claim-quote fit.
+- Report said about 15 sources were hand-transcribed; the transcript shows 18.
+- Cause: report written from compressed context, not from a record of the run.
+Fix (recorded, untested): learnings-capture run ledger records each correction's mechanism
+and transcription count; final report written from it. TASKS.md experiment pending.
+Same class as the fleet's recurring overclaiming entries (e.g. ENT-031, ENT-032).
