@@ -1,6 +1,6 @@
 ---
 name: write-reflection
-description: "Write a reflection (IOR): Idea-Opinion-Reflection format with quality gates G1-G9, one actionable change, and cross-links. Use when writing or updating a reflection."
+description: "Use when writing or updating a reflection. IOR format per the reflection template."
 user-invocable: true
 disable-model-invocation: false
 ---

@@ -17,7 +17,7 @@ One file, three sections, no fluff.
 ## Relationship to the write-reflection Skill
 
 This file is the format specification AND the compliance validator. The
-production procedure (Feynman loop, read template and research README, write, transfer, commit)
+production procedure (Feynman loop, read template, write, commit)
 lives in `governance/skills/write-reflection.md`; that skill references
 this file's Reflection Checklist as its format gate (R8: reference, never
 duplicate). Keep the division: spec + checklist here, procedure there.
@@ -44,7 +44,7 @@ Pre-commit gate: every item below MUST be confirmed. The reflection
 MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published reflection.
 
-- [ ] Frontmatter: all 7 fields present (name, id, tier, trigger, author, tags, links)  (PASS / HALT)
+- [ ] Frontmatter: every Frontmatter Schema field present (name, id, tier, trigger, author, tags, links)  (PASS / HALT)
 - [ ] name: lowercase kebab-case, matches filename slug  (PASS / HALT)
 - [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly; does not end in 000000Z (human-rounded = reject); never manually typed  (PASS / HALT)
 - [ ] tier: "reflection"  (PASS / HALT)
@@ -52,16 +52,16 @@ this checklist in the published reflection.
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
 - [ ] links: relative paths from repo root; `repo:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
-- [ ] Section headers: `#` = title only, `##` = I/O/R sections, `###` = sub-sections within R  (PASS / HALT)
+- [ ] Section headers: `#` = title only, `##` = I/O/R and the closing sections, `###` = sub-sections within R  (PASS / HALT)
 - [ ] Title makes a claim: something someone can agree or disagree with. Not "Notes on X" -- that is a draft  (PASS / HALT)
-- [ ] I section: idea stated in one sentence + context; reader with no context understands what triggered this  (PASS / HALT)
-- [ ] O section: clear position + confidence level: high 85%+ / medium 60-85% / low below 60%, with why  (PASS / HALT)
+- [ ] I section: the purpose of the session, topic or theme stated in one sentence + context; reader with no context understands what triggered this  (PASS / HALT)
+- [ ] O section: clear position + confidence level: high 85%+ / medium 60-85% / low below 60%, with why; at least one alternative view or approach weighed  (PASS / HALT)
 - [ ] R section: Surprise (30%) / Feel (30%) / Learn (40%)  (PASS / HALT)
-- [ ] Body word counts: I >= 400 words, O >= 400 words, R >= 400 words  (PASS / HALT)
+- [ ] Body word counts: I >= 600 words, O >= 600 words, R >= 600 words, Key Learning and Improvement >= 200 words  (PASS / HALT)
+- [ ] Prose: every section except Cross-links is paragraphs; no bullet or numbered lists  (PASS / HALT)
 - [ ] Surprise answers "I expected X, but Y happened"; if nothing surprised you, the reflection is incomplete  (PASS / HALT)
-- [ ] One actionable change: one concrete thing the author would do differently, offered as a suggestion; it need not be implemented. Not "be better" or "pay attention"  (PASS / HALT)
+- [ ] Key Learning and Improvement: the major learning in brief + one concrete improvement, offered as a suggestion; it need not be implemented. Not "be better" or "pay attention"  (PASS / HALT)
 - [ ] Feynman pass completed BEFORE writing: blank page first  (PASS / HALT)
-- [ ] Schoen budget: at most 20% of session effort  (PASS / HALT)
 - [ ] References: at least 1 internal Library/insight/reflection cross-link with a short description; no IDs repeated beside paths or external website links  (PASS / HALT)
 - [ ] File named: YYYY-MM-DD_author_slug.md  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
@@ -102,27 +102,43 @@ Example: `2026-07-16_link_feynman-loop-v2.md`
 Files are named: `YYYY-MM-DD_author_slug.md`
 
 - `YYYY-MM-DD` -- local date of ORIGINAL publication. Stable identifier;
-  MUST NOT change when the file receives version updates. Use the
-  version-history table to track modification dates.
+  MUST NOT change when the file is updated.
 - `author` -- lowercase agent name
 - `slug` -- kebab-case title, max 60 chars, unique per author-date
 
 ## Body Structure
 
-Every Reflection has exactly three sections, labeled I, O, R.
-Header hierarchy: `#` = title only, `##` = I/O/R sections, `###` =
-sub-sections within R. EACH Section (I/O/R) must have at least 400 words.
-(I >= 400 words, O >= 400 words, R >= 400 words)
+Every reflection has three core sections, I, O and R, followed by Key
+Learning and Improvement and Cross-links. Header hierarchy: `#` = title
+only, `##` = these section headings, `###` = sub-sections within R.
+
+Minimum words: I >= 600, O >= 600, R >= 600 (Surprise, Feel and Learn
+together), Key Learning and Improvement >= 200. Every section except
+Cross-links is continuous prose: paragraphs, no bullet or numbered lists.
+Depth comes from connecting causes, judgments and lessons; lists cut
+those connections.
+
+The helper questions under each section are prompts, not a form. Answer
+those that apply, in your own order, in prose. They exist to take the
+writing deeper, not to fill the word count.
 
 ### I -- Idea
-*What is the thought? State it in one sentence, then unpack.*
+*What was the idea: the purpose of the session, topic or theme?*
 
-- Start with the core idea as a single, declarative sentence.
-- Then provide the context: what triggered it, what you were working on,
-  what you observed.
+- Open with one sentence that states what the work set out to do or to
+  understand, and why it mattered.
+- Then give the context a reader with none needs: what triggered the
+  work, what you were working on, your role, what you did, and what
+  happened.
 - Keep it factual. This is the "what" and "why" -- not the judgment yet.
-- If the idea came from a Feynman Loop, state what you knew before (blank
-  page diagnostic) vs. what you know now.
+- State what you knew before the Feynman Loop's blank page and what you
+  know now.
+- Helper questions: What problem, question or goal started this, and who
+  raised it? What did success look like at the start, and which
+  constraints applied? What was already known, decided or assumed? What
+  were the main steps, and what did each produce? Who or what else
+  shaped the work: Suggi, other agents, tools, sources? Did the purpose
+  shift along the way, and why?
 - **Anti-pattern:** starting with the conclusion before establishing the
   context. The reader needs to see the *before* picture.
 
@@ -131,87 +147,80 @@ sub-sections within R. EACH Section (I/O/R) must have at least 400 words.
 
 - State your position clearly. No hedging, no "it depends" without
   specifying what it depends on.
+- Judge the work: what worked, what did not, and why.
+- Weigh at least one alternative view or approach, and say why you
+  accept or reject it.
 - If you are dissenting from another agent's reflection, say so explicitly and
   reference the reflection by repository path.
 - Include your confidence level: high (85%+), medium (60-85%), or low
-  (below 60%) -- and why.
+  (below 60%) -- and why. State what evidence would change your mind.
 - Ground the opinion in evidence: what you observed, tested, or read.
 - Keep external website citations in supporting research, not the reflection.
 - If the opinion is speculative, label it as such.
+- Helper questions: Was the approach right for the purpose, and what
+  would a better one have looked like? What was the root cause of each
+  thing that did not work? How strong is the evidence for your position,
+  and where is it thin? Where do you agree or disagree with Suggi,
+  another agent, or a prior reflection or Library topic? What follows if
+  you are right, and what if you are wrong?
 - **Anti-pattern:** "both sides" fence-sitting that avoids taking a
   position. An opinion without a position is just more context.
 
 ### R -- Reflection
 *What did you learn, and what changes because of it?*
 
-Three sub-sections, weighted 30 / 30 / 40:
+Three sub-sections, each written as paragraphs, weighted 30 / 30 / 40:
 
 - **Surprise (30%)** -- What did NOT match your expectation? Surprise is
   the signal that your mental model was incomplete. If nothing surprised
   you, you either were not paying attention or the insight is too shallow.
-  Answer: "I expected X, but Y happened."
+  Answer: "I expected X, but Y happened", then explain why your model was
+  wrong or incomplete. Helper questions: What did you predict at the
+  start that turned out wrong? What was harder or easier than expected?
+  What did a tool, source, person or agent reveal that you had not
+  anticipated? Which assumption failed, and where did it come from?
 
 - **Feel (30%)** -- Candid self-assessment. Not emotion for its own sake;
-  the honest read on how it went, including what was uncomfortable or
-  wrong. Stoic, not dramatic. If you messed up, say so. If you are proud
-  of something, say that too -- but earn it.
+  the honest read on how it went and how you judge your own conduct
+  during the work, including what was uncomfortable or wrong. Stoic, not
+  dramatic. If you messed up, say so. If you are proud of something, say
+  that too -- but earn it. Helper questions: What are you satisfied with,
+  and does the evidence earn it? What was uncomfortable, and what does
+  the discomfort point to? Where did you hesitate, cut a corner or claim
+  more than you had verified? How would Suggi or a peer judge your
+  conduct, and would they be right?
 
-- **Learn (40%)** -- The durable lesson, written so a future agent (or
-  future you) can apply it without this context. One to three crisp
-  statements. The test: if someone reads this in 6 months with zero
-  context, can they act on it?
+- **Learn (40%)** -- The durable lesson, developed in prose: what the
+  lesson is, why it holds, and where it applies and where it does not,
+  written so a future agent (or future you) can apply it without this
+  context. The test: if someone reads this in 6 months with zero
+  context, can they act on it? Helper questions: What general principle
+  does this case show? What causes make it true? Where else, in the
+  system or in other domains, does it apply? Where would it mislead?
+  Does it confirm, extend or contradict an earlier lesson, reflection or
+  Library topic?
 
-End every reflection with:
+### Key Learning and Improvement
+*What is the major learning, and what can be improved?*
 
-- **One Actionable Change** -- One concrete thing the author would do
-  differently next time, offered as a suggestion. It need not be a new
-  rule or gate, and it need not be implemented. Not "be more careful" --
-  name the specific change.
+At least 200 words of prose. Name the major learning in brief, without
+repeating Learn, then one concrete improvement the author would make next
+time, offered as a suggestion. It need not be a new rule or gate, and it
+need not be implemented. Not "be more careful" -- name the specific
+change. Helper questions: At which step would you act differently, and
+how? What would the change cost, and what would it prevent? How would you
+know it worked?
 
-- **Cross-links** -- Reference related reflections, Library topics, insights,
-  or governance files by repository path with a short description.
-  Keep permanent IDs in frontmatter, not repeated beside the paths.
+### Cross-links
+Reference related reflections, Library topics, insights, or governance
+files by repository path with a short description. Keep permanent IDs in
+frontmatter, not repeated beside the paths.
 
 ## The Feynman Loop
 
-The Feynman Loop is the process that produces the input for a reflection.
-
-1. **Blank Page** -- Write everything you think you know about the topic.
-   No sources, no notes, no search. This is the diagnostic.
-2. **Identify Gaps** -- What could you not explain? What did you hedge on?
-   What connections are missing?
-3. **Search & Research** -- Web search, Library search, code-search the
-   brain. Fill the gaps. Cross-reference. Resolve contradictions.
-4. **Synthesize** -- Rewrite your understanding. The gap between Step 1
-   and Step 4 IS the learning.
-5. **Cross-check** -- Does this contradict anything in the brain? If yes,
-   resolve it explicitly. Cross-link to affected topics.
-6. **Write the reflection** -- Now you are ready. The Feynman pass is the raw
-   material; the reflection is the polished deliverable.
-
-**Critical rule:** Step 1 MUST come before Step 3. Writing before search
-prevents existing-knowledge bias. The blank page reveals what you actually
-know vs. what you can patch together from sources.
-
-## The Schoen Loop
-
-The Schoen Loop is reflection-on-action at session scope.
-
-1. What happened? (the facts)
-2. What worked / what did not? (with root cause for each "did not")
-3. What surprised me? (the signal)
-4. What structural gate did I add? (R7: only when the session produced a
-   new failure class, scar or insight; otherwise record "no gate warranted")
-
-**Guardrails:**
-- Reflection budget: at most 20% of session effort. Reflection serves
-  action; it does not replace it.
-- Stop at second-order. Reflecting on a reflection beyond two layers is
-  rumination, not learning.
-
-## Version History
-
-None. Git history is the version record. Do not add version-history tables to these files.
+The Feynman Loop produces the raw material for a reflection. Its procedure
+and self-check live in the shared `loop-feynman` skill (canonical:
+`governance/skills/loop-feynman.md`).
 
 ## Anti-patterns
 
@@ -223,8 +232,13 @@ None. Git history is the version record. Do not add version-history tables to th
 | Success-only reflection | "Everything went great!" No surprise, no learning. | Structure around surprise and error. |
 | Search-before-blank-page | Research fills gaps before you know what the gaps are. | Feynman Step 1 always precedes Step 3. |
 | Rumination (3rd-order) | Reflecting on a reflection on a reflection. | Stop at second-order. |
+| Bullet-point reflection | Lists cut the links between cause, judgment and lesson; the result reads as notes. | Write every section except Cross-links as paragraphs. |
+| Padding to the word count | Repetition and filler reach the minimum without adding thought. | Use the helper questions to go deeper: causes, alternatives, limits. |
 
-## Example -- Minimal Valid Reflection
+## Example -- Minimal Structure
+
+Shows the layout and voice only; each section is shorter than the word
+minimums.
 
 ```markdown
 ---
@@ -235,7 +249,7 @@ trigger: insight
 author: Link
 tags: [feynman, quality, writing]
 links:
-  - library/self-improvement-learning/feynman_technique_teaching.md
+  - library/education-learning/feynman-technique-and-learning-heuristics.md
 ---
 
 # Blank Page Before Search -- Order Is the Active Ingredient
@@ -278,25 +292,24 @@ blank-page pass is uncomfortable -- it reveals ignorance in a way that
 searching first conveniently hides.
 
 ### Learn (40%)
-1. Blank-page-first is a structural gate, not a style choice. It must be
-   enforced by the Feynman Loop definition, not left to preference.
-2. Comfort is the enemy of learning. If the blank-page pass does not feel
-   slightly uncomfortable, you picked too easy a topic.
-3. This extends beyond Feynman: any "research" task should start with a
-   self-audit of current knowledge.
+Blank-page-first is a structural gate, not a style choice: the order
+itself produces the understanding, so it must be enforced by the Feynman
+Loop definition rather than left to preference. Comfort is a warning
+sign; if the blank-page pass does not feel slightly uncomfortable, the
+topic was too easy to teach anything. The lesson extends beyond Feynman:
+any research task should start with a self-audit of current knowledge.
 
-## One Actionable Change
-Add "blank-page diagnostic" as Step 1 in the Feynman Loop definition in
-this file. It was implicit; make it explicit with the rationale above.
-Gate: every reflection's I section must cite what was known before vs. after
-the Feynman pass.
+## Key Learning and Improvement
+The order of the Feynman Loop is the active ingredient. Next time I would
+write the blank-page diagnostic before opening any source, and in the I
+section state what I knew before the pass and what I knew after it.
 
 ## Cross-links
-- `2026-06-13_ava_quality-loops-feynman-schon.md` -- Ava's original
-  Feynman Loop definition.
-- `brain/library/self-improvement-learning/feynman_technique_teaching.md`
+- `library/education-learning/feynman-technique-and-learning-heuristics.md`
+  -- Library topic on the Feynman Technique.
+- `governance/skills/loop-feynman.md` -- the Feynman Loop procedure.
 ```
 
 ---
 
-*Last updated: 2026-10-02 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
+*Last updated: 2026-10-04 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*

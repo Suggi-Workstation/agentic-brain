@@ -1,6 +1,6 @@
 ---
 name: write-reflection
-description: "Write a reflection (IOR): Idea-Opinion-Reflection format with quality gates G1-G9, one actionable change, and cross-links. Use when writing or updating a reflection."
+description: "Use when writing or updating a reflection. IOR format per the reflection template."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -24,7 +24,7 @@ Invoke when writing or updating a reflection.
 
 Confirm ALL items before committing.
 
-- [ ] Procedure completed (read template, write, transfer, commit) (PASS / HALT)
+- [ ] Every procedure step completed, Feynman Loop first (PASS / HALT)
 - [ ] Template read before writing: `template-reflections.md` opened in step 2 and followed (PASS / HALT)
 - [ ] File written to the agentic-brain clone (`reflections/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
 - [ ] Template validator gate: `template-reflections.md` Reflection Checklist -- all items confirmed PASS (PASS / HALT)
@@ -35,7 +35,7 @@ Confirm ALL items before committing.
 ### 1. Run the Feynman Loop
 
 Before any research or writing, invoke the `loop-feynman` skill.
-Complete all 6 steps. The blank page (Step 1) MUST precede any
+Complete every step. The blank page (Step 1) MUST precede any
 source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
 for the full procedure and self-check.
 
@@ -62,17 +62,16 @@ Never type the ID digits by hand. The exec output is authoritative.
 Write ONLY to the agentic-brain. NEVER leave artifacts in the workspace.
 
 VPS agents (running on the server, no SSH): write directly to
-`/srv/brain/agentic-brain/reflections/<short-slug>.md` (your filesystem).
+`/srv/brain/agentic-brain/reflections/YYYY-MM-DD_author_slug.md` (your filesystem).
 
 VPS-connected agents (remote machines, e.g. PC or laptop agents): write
 locally (scratch), then transfer via the key door:
 
 ```bash
 cat "<local-scratch>" | ssh -i "$VPS_SSH_KEY" -p 22 root@100.99.142.120 \
-  'cat > /srv/brain/agentic-brain/reflections/<short-slug>.md'
+  'cat > /srv/brain/agentic-brain/reflections/YYYY-MM-DD_author_slug.md'
 ```
 
-`<short-slug>`: kebab-case, max 60 chars, unique.
 ### 5. Commit on the agentic-brain clone -- NO push
 
 Run on the VPS as the clone owner, directly or through your approved connection.
