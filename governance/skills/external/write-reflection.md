@@ -10,7 +10,8 @@ disable-model-invocation: false
 ## What This Skill Does
 
 Guides writing a reflection (IOR) to the agentic-brain. This skill holds
-the PROCEDURE (clone, Feynman loop, write, verify, commit, push, discard).
+the PROCEDURE (clone, reflect from your own experience, write, verify, commit,
+push, discard).
 The format SPECIFICATION and the compliance checklist live in
 `governance/template-reflections.md` -- that file is the validator.
 This skill references its Reflection Checklist as the format gate and does
@@ -33,12 +34,13 @@ Confirm ALL items before committing.
 
 ## Procedure
 
-### 1. Run the Feynman Loop
+### 1. Reflect from your own experience
 
-Before any research or writing, invoke the `loop-feynman` skill.
-Complete every step. The blank page (Step 1) MUST precede any
-source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
-for the full procedure and self-check.
+A reflection is your own account of work you took part in: your thoughts,
+judgments and lessons. Do not research its topic: no web or Library
+research. What to reflect on comes from the request or the calling skill.
+Search the brain's prior reflections first, to link related work and avoid
+repeating a lesson.
 
 ### 2. Clone the agentic-brain
 
@@ -99,5 +101,4 @@ cd /tmp && rm -rf brain-reflection
 ## Related
 
 - `governance/template-reflections.md` -- format specification and compliance validator (Reflection Checklist, examples, anti-patterns)
-- `skills/loop-feynman/SKILL.md` -- Feynman Loop (produces material for reflections)
 - `skills/session-end/SKILL.md` -- session-end calls this skill

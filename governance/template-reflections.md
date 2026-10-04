@@ -17,10 +17,11 @@ One file, three sections, no fluff.
 ## Relationship to the write-reflection Skill
 
 This file is the format specification AND the compliance validator. The
-production procedure (Feynman loop, read template, write, commit)
-lives in `governance/skills/write-reflection.md`; that skill references
-this file's Reflection Checklist as its format gate (R8: reference, never
-duplicate). Keep the division: spec + checklist here, procedure there.
+production procedure (reflect from your own experience, read template,
+write, commit) lives in `governance/skills/write-reflection.md`; that skill
+references this file's Reflection Checklist as its format gate (R8:
+reference, never duplicate). Keep the division: spec + checklist here,
+procedure there.
 
 ## Global Formatting Rules
 
@@ -130,8 +131,7 @@ writing deeper, not to fill the word count.
   work, what you were working on, your role, what you did, and what
   happened.
 - Keep it factual. This is the "what" and "why" -- not the judgment yet.
-- State what you knew before the Feynman Loop's blank page and what you
-  know now.
+- State what you believed going in and what you believe now.
 - Helper questions: What problem, question or goal started this, and who
   raised it? What did success look like at the start, and which
   constraints applied? What was already known, decided or assumed? What
@@ -153,8 +153,8 @@ writing deeper, not to fill the word count.
   reference the reflection by repository path.
 - Include your confidence level: high (85%+), medium (60-85%), or low
   (below 60%) -- and why. State what evidence would change your mind.
-- Ground the opinion in evidence: what you observed, tested, or read.
-- Keep external website citations in supporting research, not the reflection.
+- Ground the opinion in what you observed or tested in the work.
+- No outside research: the opinion is your own.
 - If the opinion is speculative, label it as such.
 - Helper questions: Was the approach right for the purpose, and what
   would a better one have looked like? What was the root cause of each

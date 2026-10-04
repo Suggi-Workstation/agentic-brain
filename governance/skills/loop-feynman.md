@@ -27,6 +27,7 @@ Skip the loop for:
 - Simple factual answers (dates, names, references)
 - Procedural actions (file edits, git commits, config changes)
 - Conversational responses that do not require research
+- Reflections (your own account; see `write-reflection`)
 
 ## Self-Check -- HARD GATE
 
@@ -124,5 +125,4 @@ do not retry it another way.
 
 - AGENTS.md Feynman Loop section -- the gate instruction that triggers this skill
 - `skills/session-end/SKILL.md` -- post-session quality review (step 1: Schoen Loop)
-- `skills/write-reflection/SKILL.md` -- Reflection writing format and quality gates
 - `governance/template-skills.md` -- skill construction rules

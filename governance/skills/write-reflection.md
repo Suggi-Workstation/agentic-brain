@@ -10,7 +10,8 @@ disable-model-invocation: false
 ## What This Skill Does
 
 Guides writing a reflection (IOR) to the agentic-brain. This skill holds
-the PROCEDURE (Feynman loop, read template, write, transfer, commit; the watcher pushes).
+the PROCEDURE (reflect from your own experience, read template, write, transfer,
+commit; the watcher pushes).
 The format SPECIFICATION and the compliance checklist live in
 `agentic-brain:governance/template-reflections.md` -- that file is the validator.
 This skill references its Reflection Checklist as the format gate and does
@@ -24,7 +25,8 @@ Invoke when writing or updating a reflection.
 
 Confirm ALL items before committing.
 
-- [ ] Every procedure step completed, Feynman Loop first (PASS / HALT)
+- [ ] Every procedure step completed (PASS / HALT)
+- [ ] Written from your own experience; no web or Library research (PASS / HALT)
 - [ ] Template read before writing: `template-reflections.md` opened in step 2 and followed (PASS / HALT)
 - [ ] File written to the agentic-brain clone (`reflections/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
 - [ ] Template validator gate: `template-reflections.md` Reflection Checklist -- all items confirmed PASS (PASS / HALT)
@@ -32,12 +34,13 @@ Confirm ALL items before committing.
 
 ## Procedure
 
-### 1. Run the Feynman Loop
+### 1. Reflect from your own experience
 
-Before any research or writing, invoke the `loop-feynman` skill.
-Complete every step. The blank page (Step 1) MUST precede any
-source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
-for the full procedure and self-check.
+A reflection is your own account of work you took part in: your thoughts,
+judgments and lessons. Do not research its topic: no web or Library
+research. What to reflect on comes from the request or the calling skill.
+Search the brain's prior reflections first, to link related work and avoid
+repeating a lesson.
 
 ### 2. Read the format specification -- the validator
 
@@ -112,5 +115,4 @@ PASS: the exact commit is on origin/main. HALT on a publication error.
 ## Related
 
 - `agentic-brain:governance/template-reflections.md` -- format specification and compliance validator (Reflection Checklist, examples, anti-patterns)
-- `skills/loop-feynman/SKILL.md` -- Feynman Loop (produces material for reflections)
 - `skills/session-end/SKILL.md` -- session-end calls this skill
