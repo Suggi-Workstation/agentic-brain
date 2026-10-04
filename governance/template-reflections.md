@@ -56,7 +56,7 @@ this checklist in the published reflection.
 - [ ] Title makes a claim: something someone can agree or disagree with. Not "Notes on X" -- that is a draft  (PASS / HALT)
 - [ ] I section: the purpose of the session, topic or theme stated in one sentence + context; reader with no context understands what triggered this  (PASS / HALT)
 - [ ] O section: clear position + confidence level: high 85%+ / medium 60-85% / low below 60%, with why; at least one alternative view or approach weighed  (PASS / HALT)
-- [ ] R section: Surprise (30%) / Feel (30%) / Learn (40%)  (PASS / HALT)
+- [ ] R section: sub-headings exactly `### Surprise`, `### Feel`, `### Learn`, weighted about 30 / 30 / 40 of R  (PASS / HALT)
 - [ ] Body word counts: I >= 600 words, O >= 600 words, R >= 600 words, Key Learning and Improvement >= 200 words  (PASS / HALT)
 - [ ] Prose: every section except Cross-links is paragraphs; no bullet or numbered lists  (PASS / HALT)
 - [ ] Surprise answers "I expected X, but Y happened"; if nothing surprised you, the reflection is incomplete  (PASS / HALT)
@@ -168,9 +168,11 @@ writing deeper, not to fill the word count.
 ### R -- Reflection
 *What did you learn, and what changes because of it?*
 
-Three sub-sections, each written as paragraphs, weighted 30 / 30 / 40:
+Three sub-sections, each written as paragraphs, weighted 30 / 30 / 40.
+Their headings are exactly `### Surprise`, `### Feel` and `### Learn`; the
+weights are writing guidance and never appear in the headings:
 
-- **Surprise (30%)** -- What did NOT match your expectation? Surprise is
+- **Surprise** (30% of R) -- What did NOT match your expectation? Surprise is
   the signal that your mental model was incomplete. If nothing surprised
   you, you either were not paying attention or the insight is too shallow.
   Answer: "I expected X, but Y happened", then explain why your model was
@@ -179,7 +181,7 @@ Three sub-sections, each written as paragraphs, weighted 30 / 30 / 40:
   What did a tool, source, person or agent reveal that you had not
   anticipated? Which assumption failed, and where did it come from?
 
-- **Feel (30%)** -- Candid self-assessment. Not emotion for its own sake;
+- **Feel** (30% of R) -- Candid self-assessment. Not emotion for its own sake;
   the honest read on how it went and how you judge your own conduct
   during the work, including what was uncomfortable or wrong. Stoic, not
   dramatic. If you messed up, say so. If you are proud of something, say
@@ -189,7 +191,7 @@ Three sub-sections, each written as paragraphs, weighted 30 / 30 / 40:
   more than you had verified? How would Suggi or a peer judge your
   conduct, and would they be right?
 
-- **Learn (40%)** -- The durable lesson, developed in prose: what the
+- **Learn** (40% of R) -- The durable lesson, developed in prose: what the
   lesson is, why it holds, and where it applies and where it does not,
   written so a future agent (or future you) can apply it without this
   context. The test: if someone reads this in 6 months with zero
@@ -270,20 +272,20 @@ performance BEFORE the answer exists, which is where learning happens.
 
 ## R -- Reflection
 
-### Surprise (30%)
+### Surprise
 I expected the order to matter slightly. I did not expect it to be the
 difference between "correct but useless" and "insightful." The magnitude
 of the gap was 4x, not 20%. That is not a refinement -- it is a category
 change.
 
-### Feel (30%)
+### Feel
 Embarrassed that I did not notice this sooner. I have been doing
 research-first my entire life and calling it "efficient." It was efficient
 at producing believable summaries, not at producing understanding. The
 blank-page pass is uncomfortable -- it reveals ignorance in a way that
 searching first conveniently hides.
 
-### Learn (40%)
+### Learn
 Blank-page-first is a structural gate, not a style choice: the order
 itself produces the understanding, so it must be enforced by the Feynman
 Loop definition rather than left to preference. Comfort is a warning
