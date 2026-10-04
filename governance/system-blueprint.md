@@ -30,6 +30,7 @@ links:
 | Morpheus | Hermes (VPS) | none (VPS only) | Manager of the VPS, personal assistant |
 | Neo | Hermes (VPS) | none (VPS only) | Suggi's personal Value Investing Partner and the fleet's Value-Investing Research Agent |
 | Atlas | Hermes (VPS) | none (VPS only) | Personal learning and idea development partner |
+| Cassandra | Hermes (VPS) | none (VPS only) | Suggi's partner in understanding human affairs; scholar of history, politics and geopolitics, anthropology, philosophy, and human behaviour |
 
 Link and Linkie are local (PC, Laptop) assistants with Access to the VPS.
 Morpheus and Ava are independet managers of the VPS and help Suggi build and
