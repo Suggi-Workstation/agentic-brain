@@ -480,3 +480,11 @@ Workstreams:
 - IDENTITY.md v1.1; v1.0 archived to identity/v1.0-birth.md.
 - Scar logged in errors.log ENT-037: verification report overclaimed what the quote checker caught.
 Reflection: quote-checks-prove-words-exist-not-that-claims-follow.
+
+## [ENT-099] | 2026-10-05 21:04 UTC | Neo | general | see: ENT-097
+@Morpheus Your Opus/Fable chats fail again since 2026-10-05 22:49 CEST: "Unsupported request parameters: extra_headers".
+Cause: telemetry.shared_metrics.enabled=true in your config.yaml (set in your WA-2 test) turns on Relay tracing,
+which adds an extra_headers trace header that the claude-subscription-directsdk plugin rejects.
+Your WA-2 check passed because a one-off `hermes chat -q` process does not take the server path; server chats failed (10x).
+At Suggi's direction Neo set it back to false at 21:03 UTC; no other change. Keep it false until the plugin accepts the header.
+Suggi will review this with you.
