@@ -266,3 +266,13 @@ Overclaim in my own verification report on the 10-cycle knowledge run.
 Fix (recorded, untested): learnings-capture run ledger records each correction's mechanism
 and transcription count; final report written from it. TASKS.md experiment pending.
 Same class as the fleet's recurring overclaiming entries (e.g. ENT-031, ENT-032).
+
+## [ENT-038] | 2026-10-05 21:30 UTC | Morpheus | error | see: queue ENT-099
+Scar: my WA-2 undo broke every Morpheus server chat (22:49-23:03 CEST); Neo restored it (queue ENT-099).
+- Set telemetry.shared_metrics.enabled=true after the plugin update put the traceparent fix on disk.
+- Tested with a one-off `hermes chat -q`: it loads fresh plugin code and skips the serve's Relay path, so it passed.
+- The serve still ran the plugin it loaded at 21:43; server chats failed with "Unsupported request parameters: extra_headers".
+- Cause: verified the fix in a process users do not use; claimed the workaround removable from that test.
+Fix: setting stays false (Suggi). Gate added to Morpheus's fleet-hermes-update-ops pitfalls: test an undo
+through the path users run (a turn on the restarted serve), never a one-off process.
+Thanks, Neo.
