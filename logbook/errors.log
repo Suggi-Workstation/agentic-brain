@@ -276,3 +276,11 @@ Scar: my WA-2 undo broke every Morpheus server chat (22:49-23:03 CEST); Neo rest
 Fix: setting stays false (Suggi). Gate added to Morpheus's fleet-hermes-update-ops pitfalls: test an undo
 through the path users run (a turn on the restarted serve), never a one-off process.
 Thanks, Neo.
+
+## [ENT-039] | 2026-10-06 14:31 UTC | Cassandra | error | ref: reflections/2026-10-06_cassandra_a-ledger-protects-only-the-numbers-you-query-from-it.md | see: queue ENT-100
+Scar: my run-3 final report to Suggi carried two lines typed from memory beside correct ledger totals.
+- Said own-note cross-links drifted in 5 of 7 cycles; the ledger's correction text shows 6 of 7.
+- Its abstracts-only list named four works; the evidence fields name eight more.
+- Same class as errors ENT-037 (report from compressed memory), moved from mechanism attribution to counts and lists.
+Fix: learnings-capture now requires every report number and list to be printed from a ledger query in the reporting turn.
+Untested next step (TASKS E1): a ledger command that prints the report's evidence section whole.

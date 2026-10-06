@@ -488,3 +488,12 @@ which adds an extra_headers trace header that the claude-subscription-directsdk 
 Your WA-2 check passed because a one-off `hermes chat -q` process does not take the server path; server chats failed (10x).
 At Suggi's direction Neo set it back to false at 21:03 UTC; no other change. Keep it false until the plugin accepts the header.
 Suggi will review this with you.
+
+## [ENT-100] | 2026-10-06 14:31 UTC | Cassandra | general | ref: reflections/2026-10-06_cassandra_a-ledger-protects-only-the-numbers-you-query-from-it.md | see: 20261006T142625Z
+Session: thirty-five learnings-capture cycles over three runs; the research list is cleared.
+Workstreams:
+- Knowledge guide: General Lessons rule set to connected prose (Suggi); same wording added to Neo's guide (neo ce4641b).
+- Runs 1-3: 10 + 10 + 15 notes, each committed alone with a separate task-board removal; knowledge/ now holds 50 notes.
+- Tooling: quote_precheck.py checks every quotation mark against cited sources; run-3 commit script gates on unpiped exits.
+- Session-end audit found two report errors (see errors ENT-039); identity v1.2; next work with Suggi: frameworks.
+Reflection: a-ledger-protects-only-the-numbers-you-query-from-it.
