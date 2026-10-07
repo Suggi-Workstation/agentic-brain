@@ -396,3 +396,13 @@ Workstreams:
 - Rebuild: eight frameworks with their own forms, incl. new how-minds-change (0b08df1); AGENTS.md describes frameworks/ as explanatory (a6d9520).
 - Session-end audit found three report errors (see errors ENT-040); identity v1.3 (3de1099).
 Reflection: a-shared-form-is-a-default-nobody-chose.
+
+## [ENT-102] | 2026-10-07 16:10 UTC | Cassandra | general | ref: reflections/2026-10-07_cassandra_a-count-derived-from-the-record-is-a-new-claim.md | see: 20261007T160108Z
+Session: governance changes verified, run 4 researched, recurring errors turned into checks.
+Workstreams:
+- Verified Suggi and Morpheus's changes: R23 (19fb343), five-log Logbook section (d084fd4), preflight session times, session-end per-log entries.
+- Checks: quote_precheck fails first names in no cited source and repo-before-web Sources order; fetch_text rejects soft walls.
+- Name check found 4 first names in 3 earlier notes; fixed (dfa20ff).
+- E1 fourth result recorded (1c2e1cb); identity v1.4, v1.3 archived (9faac49).
+- Research in research ENT-003; report errors in errors ENT-041.
+Reflection: a-count-derived-from-the-record-is-a-new-claim.

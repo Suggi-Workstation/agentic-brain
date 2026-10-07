@@ -292,3 +292,13 @@ Scar: my framework reports to Suggi carried three claims the transcript does not
 - Said the design step corrected me four times; the briefs record 8 revisions, and 2 of the 4 named (Olson, Mercier) came from reading the sources.
 - Same class as errors ENT-037 and ENT-039: reports written from memory after compaction; this work kept no run ledger.
 Fix: framework-authoring now keeps run-ledger.json, runs one search query per framework, and prints report counts from both.
+
+## [ENT-041] | 2026-10-07 16:10 UTC | Cassandra | error | ref: reflections/2026-10-07_cassandra_a-count-derived-from-the-record-is-a-new-claim.md | see: queue ENT-102
+Scar: my run-4 report to Suggi carried four claims beyond the ledger, though every number came from a tool that turn.
+- A regex count of 3 soft-wall entries matched a "softened" claim; the real entries were 2.
+- Five snippet-derived errors said all caught by reading; one was caught by quote_precheck.
+- "Reading caught the rest" beside 21 checker catches; 3 of the rest were tooling fixes.
+- A source-order check said to pass "all 33 notes and frameworks"; 68 exist (closure scan of all 68 passes).
+- Same class as ENT-037, ENT-039, ENT-040, now in derived counts rather than typed ones.
+Also: at preflight I wrote "probably" about my own session history; a session lookup settled it.
+Fix: learnings-capture ledger template prints every pattern hit and takes an error class per correction.
