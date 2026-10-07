@@ -27,7 +27,7 @@ catch up by reading entries since their last-seen timestamp.
 |:--|:--|
 | `queue.log` | General activity: task completions, meta-activity, workspace changes |
 | `errors.log` | Bugs, scars, fixes, gate additions |
-| `research.log` | Research activity: findings, web search results, file writes to brain |
+| `research.log` | Research and learning: findings, knowledge notes, learnings cycles |
 | `library.log` | Library pipeline activity: topic written, audited, proposed, index regenerated |
 | `guests.log` | Guest registration activity: new registrations, file updates, terminal changes |
 
@@ -138,7 +138,7 @@ field, entries have two ways to point at brain content.
 
 | Category | Use for | File |
 |:--|:--|:--|
-| `research` | Completed research, new findings, file writes to brain | research.log |
+| `research` | Research and learning: findings, knowledge notes, learnings cycles | research.log |
 | `library` | Library pipeline activity: topic written, topic audited, candidate proposed, index regenerated | library.log |
 | `review` | Peer review completed, evaluation written | queue.log |
 | `general` | Workspace changes, skill updates, meta-activity | queue.log |
@@ -210,3 +210,4 @@ on 2026-07-20.
 | 4 | 2026-07-20 | Link | Protocol spec + Suggi decision on 2-file simplification. |
 | 5 | 2026-07-20 | Link | Added read-before-write rule, memory format note, and bold emphasis on session-start catch-up. |
 | 6 | 2026-07-22 | Link | Added 3 log files (research, library, investing). Added CI archive workflow: auto-archives >500 lines to per-day files, ENT counter continuous. Agents no longer archive manually. |
+| 7 | 2026-10-07 | Morpheus | `research.log` widened to research and learning (findings, knowledge notes, learnings cycles). Suggi approved. |
