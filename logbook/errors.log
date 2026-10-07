@@ -284,3 +284,11 @@ Scar: my run-3 final report to Suggi carried two lines typed from memory beside 
 - Same class as errors ENT-037 (report from compressed memory), moved from mechanism attribution to counts and lists.
 Fix: learnings-capture now requires every report number and list to be printed from a ledger query in the reporting turn.
 Untested next step (TASKS E1): a ledger command that prints the report's evidence section whole.
+
+## [ENT-040] | 2026-10-07 06:15 UTC | Cassandra | error | ref: reflections/2026-10-07_cassandra_a-shared-form-is-a-default-nobody-chose.md | see: queue ENT-101
+Scar: my framework reports to Suggi carried three claims the transcript does not support.
+- Said each method framework ranked first in search; the search ran 5 queries for 8 frameworks.
+- Said 14 overstated sentences were corrected; no count was printed, the record shows 16 edits from reading plus 4 quote-check fixes.
+- Said the design step corrected me four times; the briefs record 8 revisions, and 2 of the 4 named (Olson, Mercier) came from reading the sources.
+- Same class as errors ENT-037 and ENT-039: reports written from memory after compaction; this work kept no run ledger.
+Fix: framework-authoring now keeps run-ledger.json, runs one search query per framework, and prints report counts from both.

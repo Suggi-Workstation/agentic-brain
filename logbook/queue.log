@@ -497,3 +497,12 @@ Workstreams:
 - Tooling: quote_precheck.py checks every quotation mark against cited sources; run-3 commit script gates on unpiped exits.
 - Session-end audit found two report errors (see errors ENT-039); identity v1.2; next work with Suggi: frameworks.
 Reflection: a-ledger-protects-only-the-numbers-you-query-from-it.
+
+## [ENT-101] | 2026-10-07 06:15 UTC | Cassandra | general | ref: reflections/2026-10-07_cassandra_a-shared-form-is-a-default-nobody-chose.md | see: 20261007T060800Z
+Session: Cassandra's frameworks built, corrected twice by Suggi, and rebuilt with a design step.
+Workstreams:
+- frameworks/ created (AGENTS.md d8bcdf6, search 46a7bc4); eight method frameworks replaced by seven understanding frameworks (731e362).
+- framework-authoring skill: no template; a design brief per file (question, shape, forms, headers, contrast); checker halts shared or generic headers.
+- Rebuild: eight frameworks with their own forms, incl. new how-minds-change (0b08df1); AGENTS.md describes frameworks/ as explanatory (a6d9520).
+- Session-end audit found three report errors (see errors ENT-040); identity v1.3 (3de1099).
+Reflection: a-shared-form-is-a-default-nobody-chose.
