@@ -139,8 +139,9 @@ Four fleet artifacts frame the problem.
 (`20260724T182200Z`) states that Anthropic demonstrated a debate pattern
 with two agents and a synthesizer. Anthropic's own post describes an
 orchestrator-worker system with parallel subagents and no debate. The
-primary source wins; that Library passage is not evidence for councils
-and should be corrected through the Library review pipeline.
+primary source wins; that Library passage is not evidence for councils. It
+was corrected on 2026-10-08 to Anthropic's orchestrator-worker design,
+with debate sourced to Du et al. (2023).
 
 ### Runtime facts (Hermes, inspected 2026-10-04)
 
@@ -441,5 +442,5 @@ edited.
 - `reflections/2026-10-04_morpheus_agreement-among-copies-proves-only-a-shared-origin.md` -- copies share defects
 - `library/probabilistic-thinking-forecasting/forecast-aggregation-and-ensembles.md` -- diversity must change error structure
 - `library/coding-agentic-ai/agent-uncertainty-verification-and-abstention.md` -- confidence and abstention
-- `library/coding-agentic-ai/multi-agent-orchestration.md` -- contains the Anthropic debate misattribution noted above
+- `library/coding-agentic-ai/multi-agent-orchestration.md` -- orchestration patterns; its Anthropic debate misattribution was corrected on 2026-10-08
 - `governance/system-blueprint.md` -- live agent roster

@@ -72,13 +72,13 @@ point of failure.
 
 Two or more agents independently analyze the same problem, produce
 answers, and then critique each other's outputs. A moderator agent
-synthesizes the debate into a final answer. Anthropic demonstrated this
-pattern in their multi-agent research system, where two Claude agents
-debated research questions and a third agent summarized the
-disagreements. Strengths: surfaces blind spots, decorrelates errors,
-higher confidence on ambiguous problems. Weakness: 2-3x the token cost,
-debate can converge to middle-ground answers that lose edge-case
-insight.
+synthesizes the debate into a final answer. Du et al. (2023) showed
+that several instances of a language model proposing answers and
+debating them over multiple rounds improved mathematical and strategic
+reasoning and reduced factual errors and hallucinations. Strengths:
+surfaces blind spots, decorrelates errors, higher confidence on
+ambiguous problems. Weakness: 2-3x the token cost, debate can converge
+to middle-ground answers that lose edge-case insight.
 
 ### Hierarchical Decomposition
 
@@ -113,20 +113,28 @@ coupling, debuggability, and failure modes.
 
 ## Evidence
 
-Microsoft's Azure Architecture Center (2026) codified five agent
-orchestration patterns -- sequential pipeline, supervisor-worker,
-debate, hierarchical, and swarm -- as first-class cloud design
-patterns, signaling enterprise maturity. Their analysis found that
-pattern choice is the dominant factor in system reliability, with the
-sequential pipeline achieving the lowest error rate and the debate
-pattern achieving the highest accuracy on ambiguous tasks.
+Microsoft's Azure Architecture Center (2026) describes five agent
+orchestration patterns -- sequential, concurrent, group chat, handoff,
+and magentic -- and treats multi-agent debate as a form of group chat
+orchestration, alongside maker-checker loops in which one agent
+proposes and another checks the result against defined criteria. The
+guide reports no measured error rates for the patterns. Its central
+advice is to use the lowest level of complexity that reliably meets the
+requirements: a direct model call, then a single agent with tools, and
+multi-agent orchestration only when those fall short.
 
-Anthropic's multi-agent research system (2025) demonstrated that a
-debate-based architecture with two Claude agents and a synthesis agent
-produced higher-quality research summaries than any single agent,
-including the same model with 2x context. The decorrelation payoff --
-two agents catching what one misses -- was consistent across
-experiments.
+Anthropic's multi-agent Research system (2025) uses an
+orchestrator-worker design rather than debate: a lead agent plans the
+research and spawns subagents that search in parallel, each in its own
+context window; the lead agent synthesizes their findings, and a
+citation agent then attributes claims to sources. With Claude Opus 4
+as the lead and Claude Sonnet 4 subagents, the system outperformed
+single-agent Claude Opus 4 by 90.2% on Anthropic's internal research
+evaluation. Token usage alone explained 80% of the performance variance
+on the BrowseComp benchmark, and multi-agent runs used about 15 times
+the tokens of a chat. Anthropic notes that tasks needing shared context
+or many dependencies between agents, such as most coding tasks, are a
+poor fit for the design today.
 
 The ICLR 2025 workshop on Agentic AI for Science (Yuksel & Sawaf, 2025)
 presented a five-agent optimization framework (Refinement, Execution,
@@ -188,7 +196,9 @@ original requirements.
    Patterns."
    https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns [high]
 
-2. Anthropic (2025). "Multi-Agent Research System."
+2. Anthropic (2025). "How we built our multi-agent research system."
+   Hadfield, J., Zhang, B., Lien, K., Scholz, F., Fox, J. & Ford, D.
+   Anthropic Engineering, 13 June 2025.
    https://www.anthropic.com/engineering/multi-agent-research-system [high]
 
 3. Yuksel, K. & Sawaf, H. (2025). "Emerging Multi-AI Agent Framework
@@ -202,6 +212,11 @@ original requirements.
 5. NexAI Tech (2025). "AI Agent Architecture Patterns in 2025: How
    Multi-Agent Systems Really Scale in the Enterprise."
    https://nexaitech.com/multi-ai-agent-architecutre-patterns-for-scale/ [medium]
+
+6. Du, Y., Li, S., Torralba, A., Tenenbaum, J. B. & Mordatch, I.
+   (2023). "Improving Factuality and Reasoning in Language Models
+   through Multiagent Debate." arXiv:2305.14325.
+   https://arxiv.org/abs/2305.14325 [high]
 
 ## See Also
 
