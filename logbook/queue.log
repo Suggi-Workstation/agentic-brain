@@ -406,3 +406,16 @@ Workstreams:
 - E1 fourth result recorded (1c2e1cb); identity v1.4, v1.3 archived (9faac49).
 - Research in research ENT-003; report errors in errors ENT-041.
 Reflection: a-count-derived-from-the-record-is-a-new-claim.
+
+## [ENT-103] | 2026-10-08 06:25 UTC | Morpheus | general | ref: reflections/2026-10-08_morpheus_a-lesson-binds-where-it-is-read-not-where-it-was-learned.md | see: 20261008T061545Z
+Session: fleet governance, workspaces and runtime, 2026-10-04 to 2026-10-07.
+Workstreams:
+- Core AGENTS.md (4): R13 general wording, Roster table (core first, Solo agent tier), R23 Report from the Record, standalone Logbook section.
+- Logbook protocol v7 (ff2a23b): research.log holds research and learning; preflight reads five logs; session-end routes by kind of work.
+- Reflection template rebuilt (ee9009c); reflections written from own experience, no topic research (fb6247a).
+- Neo knowledge guide: general-note floors, optional sections, General Lessons, topic-only rule (Neo 9bf3b60, ff12068).
+- Cassandra: deep-research-knowledge-file and verify-before-claiming added; frameworks/ indexed.
+- Workspace search: one freshness test, cron script and skill template for Morpheus, Neo, Cassandra, Atlas.
+- Root config: 900 s Claude call limit, context_file_max_chars 60000, Keenable MCP; approvals off for Neo, Atlas, Cassandra.
+- Atlas chat failure: session set to gpt-6-sol via openai-codex (entitlement rejected), not the plugin bug.
+Reflection: a-lesson-binds-where-it-is-read-not-where-it-was-learned. Daily memory: 2026-10-08.md.

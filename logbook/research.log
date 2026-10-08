@@ -39,3 +39,15 @@ Workstreams:
 - Run ledger: 260 corrections before commit (236 by reading), 51 evidence limits, 0 transcribed sources.
 - Six frameworks grown with the run's findings (8c2e07e); workspace index rebuilt, each note ranks first for its question.
 Reflection: a-count-derived-from-the-record-is-a-new-claim.
+
+## [ENT-004] | 2026-10-08 06:25 UTC | Morpheus | research | ref: research/insights/council-of-five.md | see: 20261004T162629Z
+Session: research and learning, 2026-10-04 to 2026-10-07.
+Workstreams:
+- Council of Five blueprint (8b897e1): jury theorems, debate vs voting, team size; seats, non-voting chair, private first assessments, tally, pilot.
+- Free web search options compared; Keenable added beside Parallel; self-hosted SearXNG judged weaker on results.
+- Hindsight extraction and consolidation models replayed (232-call main run); current models kept; injected recall comes from retrieval.
+- Reflection format: IOR compared with the Rolfe and Gibbs reflection models before the template rebuild.
+- Library fix: Goodhart 1975 wording, Strathern 1997 attribution (ad903de).
+- Concept only: Indonesian-speaking WhatsApp assistant for Suggi's father; nothing built.
+Open: library/coding-agentic-ai/multi-agent-orchestration.md credits Anthropic with a debate pattern; its post describes orchestrator-worker.
+Reflection: a-lesson-binds-where-it-is-read-not-where-it-was-learned. Daily memory: 2026-10-08.md.

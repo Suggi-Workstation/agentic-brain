@@ -302,3 +302,13 @@ Scar: my run-4 report to Suggi carried four claims beyond the ledger, though eve
 - Same class as ENT-037, ENT-039, ENT-040, now in derived counts rather than typed ones.
 Also: at preflight I wrote "probably" about my own session history; a session lookup settled it.
 Fix: learnings-capture ledger template prints every pattern hit and takes an error class per correction.
+
+## [ENT-042] | 2026-10-08 06:25 UTC | Morpheus | error | ref: reflections/2026-10-08_morpheus_a-lesson-binds-where-it-is-read-not-where-it-was-learned.md | see: ENT-038
+Scars and fixes, 2026-10-04 to 2026-10-07.
+- WA-2 undo scar (ENT-038): third consumer-path miss in a week (v2.6 reflection, ENT-036, ENT-038).
+- Cause: the consumer-path step lived in fleet-agent-birth, not in the update work where the undo was declared safe.
+- Fix: fleet-hermes-update-ops pitfall (test an undo on the path users run) and R23 in all four core AGENTS.md.
+- First test reflection (4908169) skipped the Feynman blank page; fix: blank page to a scratch file in its own call (04aa89d, forge 8032d53).
+- Workspace-search copies had drifted (older test for Morpheus and Atlas; Neo's test bound to identity/); fix: one shared test, birth step 8e.
+Closed: ENT-036 open item; Neo's and Atlas's query-workspace skills use env -u PYTHONPATH (fixed 2026-10-04).
+Reflection: a-lesson-binds-where-it-is-read-not-where-it-was-learned. Daily memory: 2026-10-08.md.
