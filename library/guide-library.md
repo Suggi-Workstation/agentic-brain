@@ -95,9 +95,9 @@ for review, skip. < 5.0: reject or redirect to adjacent domain.
 
 ### Review process
 
-**Purpose:** Read existing topics in full, verify their central claims and
-the sources cited for them against independent research, and correct every
-identified mismatch while preserving accurate material,
+**Purpose:** Read existing topics in full, verify the core statements of
+every section and the sources cited for them against independent research,
+and correct every identified mismatch while preserving accurate material,
 the domain scope, and the topic format. No accuracy percentage excuses
 leaving known errors in place. Unresolved discrepancies are logged; the
 affected topic is not stamped or published as reviewed.

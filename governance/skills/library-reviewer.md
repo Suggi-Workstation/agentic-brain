@@ -81,7 +81,7 @@ committing.
 - [ ] Procedure completed: select one topic in step 2, read template, review and correct in step 4, re-read template and verify checklist, stamp reviewed date, log, publish (PASS / HALT)
 - [ ] Template read in full before reviewing and re-read before final checklist verification (PASS / HALT)
 - [ ] Topic selected per step 2; its frontmatter confirms eligibility (PASS / HALT)
-- [ ] Topic and anchor read in full; central claims checked against independent research and each settled as in step 4.3; replaced or orphaned sources removed; every citation resolves (PASS / HALT)
+- [ ] Topic and anchor read in full; core statements of every section checked against independent research and each settled as in step 4.3; replaced or orphaned sources removed; every citation resolves (PASS / HALT)
 - [ ] Whole final topic passes the Library Topic Checklist, including measured section word counts; G3 applied as the template scopes it for review; creation-only actions excluded as specified below (PASS / HALT)
 - [ ] `reviewed: <YYYY-MM-DD>` added or updated in frontmatter of each reviewed topic (PASS / HALT)
 - [ ] Changes limited to corrections, rewrites the findings require, additions whose absence left the topic wrong or seriously incomplete, and template compliance; no padding or cosmetic rewrites (PASS / HALT)
@@ -131,30 +131,33 @@ format specification and Library Topic Checklist throughout the review.
 1. Read the captured topic and its domain anchor in full.
 2. Research the topic yourself as the template describes, using current
    high-authority sources, including evidence published since the topic
-   was written. Check the topic's central claims against your research:
-   the title claim, the opening paragraph, and the key figures and
-   findings in Evidence. Do not trace the topic's other claims.
-3. In a temporary draft, settle each central claim:
-   - Confirmed in the source it cites: keep the claim and its citation.
+   was written. Check the topic's core statements against your research:
+   the essential arguments, findings and figures of every section, from
+   the title and opening paragraph through Background, Core Concepts,
+   Evidence, Implications and any optional sections. Do not trace
+   incidental details or passing examples.
+3. In a temporary draft, settle each core statement:
+   - Confirmed in the source it cites: keep the statement and its
+     citation.
    - Confirmed in a source it does not cite: cite that source, replacing
      any old citation.
-   - Contradicted or outdated: rewrite the claim and every passage that
-     depends on it to match your findings, and cite the source you
+   - Contradicted or outdated: rewrite the statement and every passage
+     that depends on it to match your findings, and cite the source you
      verified.
-   - Not found: keep a cited claim and its citation unchanged. Remove an
-     uncited claim, or label it as synthesis if it is the topic's own
-     reasoning.
+   - Not found: keep a cited statement and its citation unchanged. Remove
+     an uncited statement, or label it as synthesis if it is the topic's
+     own reasoning.
 4. Correct any other text your research shows is wrong the same way. Add
    new material only where its absence leaves the topic wrong or
    seriously incomplete.
-5. Keep Sources consistent. Support each claim with one verified source
-   unless it reports findings from several. Cite an existing entry when it
-   is the source you verified; add an entry only for a source not yet
-   listed. Remove a source once no citation uses it because you replaced
-   it or removed its claim, including a listed but uncited source that
-   only backed a claim you rewrote or removed. Keep other listed sources
-   the original never cited inline. Rate each new source and renumber so
-   every citation resolves.
+5. Keep Sources consistent. Support each statement with one verified
+   source unless it reports findings from several. Cite an existing entry
+   when it is the source you verified; add an entry only for a source not
+   yet listed. Remove a source once no citation uses it because you
+   replaced it or removed its statement, including a listed but uncited
+   source that only backed a statement you rewrote or removed. Keep other
+   listed sources the original never cited inline. Rate each new source
+   and renumber so every citation resolves.
    Keep the section structure unless new content needs a new section.
    Keep the original ID and author. ASCII only.
 6. If you find a problem you cannot resolve, record ERROR and leave the

@@ -269,10 +269,10 @@ and preserves the required structure during rewrites.
   matters from the opening 2-3 sentences alone.
 - **G3 -- Every Claim Is Sourced:** Every factual claim traces to a
   source in the Sources section. Synthesized claims are labeled as
-  such. No orphan facts. In a review, G3 applies to the central claims
-  the Reviewer checks (title claim, opening paragraph, key figures and
-  findings in Evidence) and to text it adds or rewrites; unchanged
-  claims keep their existing citations.
+  such. No orphan facts. In a review, G3 applies to the core statements
+  the Reviewer checks (the essential arguments, findings and figures of
+  every section) and to text it adds or rewrites; other unchanged text
+  keeps its existing citations.
 - **G4 -- Sources Have Authority Ratings:** Every source entry includes
   a `[high]`, `[medium]`, or `[low]` rating. At least 6 of the 8+
   sources must be `[high]`. A topic with fewer than 6 `[high]`
@@ -497,7 +497,7 @@ sometimes have a similar impact, and sometimes loom smaller [9].
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 5 | 2026-10-12 | Morpheus | Scoped G3 and its checklist item in reviews to the central claims and added or rewritten text. |
+| 5 | 2026-10-12 | Morpheus | Scoped G3 and its checklist item in reviews to the core statements of every section and added or rewritten text. |
 
 ---
 

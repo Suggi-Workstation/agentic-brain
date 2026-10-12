@@ -61,8 +61,8 @@ a blocked topic. Selects the domain with the largest never-reviewed backlog,
 then a never-reviewed topic from its index. Only when none remain anywhere
 in the reviewable library does it select the oldest review at least six
 calendar months old. Reads the topic and its domain anchor in full, verifies
-its central claims and their cited sources against independent research,
-replaces citations its research supersedes, corrects errors
+the core statements of every section and their cited sources against
+independent research, replaces citations its research supersedes, corrects errors
 and substantive gaps, and reconciles stale sources and citations. Re-reads
 the template and verifies the whole final topic against its checklist,
 including measured section word counts. Accurate content is preserved.
