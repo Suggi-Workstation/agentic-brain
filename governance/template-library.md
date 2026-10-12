@@ -66,7 +66,7 @@ in the published topic file.
 - [ ] `## Sources` section present with 8+ sources. Each source annotated with authority rating (high/medium/low). At least 6 of 8+ sources are high. (G4) (PASS / HALT)
 - [ ] `## See Also` section present with at least 1 cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
 - [ ] Cross-reference targets verified: each path in `## See Also` and `links:` frontmatter confirmed to exist in the brain clone via `ls <path>` before committing (G5) (PASS / HALT)
-- [ ] Every factual claim traceable to a source in Sources. Synthesized claims are labeled as such. Citations follow the Inline citations rule; every cited number resolves to a numbered entry in `## Sources`. (G3) (PASS / HALT)
+- [ ] Every factual claim traceable to a source in Sources. Synthesized claims are labeled as such. Citations follow the Inline citations rule; every cited number resolves to a numbered entry in `## Sources`. In a review, the first two requirements apply as G3 scopes them. (G3) (PASS / HALT)
 - [ ] Domain anchor compliance verified: topic stays within anchor's In scope, avoids Out scope (G6) (PASS / HALT)
 - [ ] Topic similarity check completed: overlap < 80%. Estimate recorded. (G7) (PASS / HALT)
 - [ ] Weighted score >= 7.0 before writing (PASS / HALT)
@@ -269,7 +269,10 @@ and preserves the required structure during rewrites.
   matters from the opening 2-3 sentences alone.
 - **G3 -- Every Claim Is Sourced:** Every factual claim traces to a
   source in the Sources section. Synthesized claims are labeled as
-  such. No orphan facts.
+  such. No orphan facts. In a review, G3 applies to the central claims
+  the Reviewer checks (title claim, opening paragraph, key figures and
+  findings in Evidence) and to text it adds or rewrites; unchanged
+  claims keep their existing citations.
 - **G4 -- Sources Have Authority Ratings:** Every source entry includes
   a `[high]`, `[medium]`, or `[low]` rating. At least 6 of the 8+
   sources must be `[high]`. A topic with fewer than 6 `[high]`
@@ -494,7 +497,7 @@ sometimes have a similar impact, and sometimes loom smaller [9].
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 4 | 2026-10-02 | Morpheus | Condensed Sections in Order into one list; defined optional supplementary sections; example shows a sourced Criticisms section. |
+| 5 | 2026-10-12 | Morpheus | Scoped G3 and its checklist item in reviews to the central claims and added or rewritten text. |
 
 ---
 
