@@ -81,7 +81,7 @@ committing.
 - [ ] Procedure completed: select one topic in step 2, read template, review and correct in step 4, re-read template and verify checklist, stamp reviewed date, log, publish (PASS / HALT)
 - [ ] Template read in full before reviewing and re-read before final checklist verification (PASS / HALT)
 - [ ] Topic selected per step 2; its frontmatter confirms eligibility (PASS / HALT)
-- [ ] Own research done before reading the topic; anchor and topic read in full; core statements of every section checked against that research and their cited sources, each settled as in step 4.4; replaced or orphaned sources removed; every citation resolves (PASS / HALT)
+- [ ] Own research done before reading the topic: 8+ sources collected and read, at least 6 high (template G4); anchor and topic read in full; core statements of every section checked against that research and their cited sources, each settled as step 4 specifies; replaced or orphaned sources removed; every citation resolves (PASS / HALT)
 - [ ] Whole final topic passes the Library Topic Checklist, including measured section word counts; G3 applied as the template scopes it for review; creation-only actions excluded as specified below (PASS / HALT)
 - [ ] `reviewed: <YYYY-MM-DD>` added or updated in frontmatter of each reviewed topic (PASS / HALT)
 - [ ] Changes limited to corrections, rewrites the findings require, additions whose absence left the topic wrong or seriously incomplete, and template compliance; no padding or cosmetic rewrites (PASS / HALT)
@@ -117,8 +117,8 @@ through the Path Convention commands above.
 4. If no topic is eligible, publish a log-only no-op and exit.
 5. Confirm the selected topic's frontmatter matches the index; if it does
    not, select again from the topics' frontmatter.
-6. Review only this topic. If the review cannot be completed, record
-   ERROR and exit.
+6. Review only this topic; note its title, domain and index summary. If
+   the review cannot be completed, record ERROR and exit.
 
 ### 3. Read the library template
 
@@ -130,8 +130,12 @@ format specification and Library Topic Checklist throughout the review.
 1. Capture the selected topic and its domain anchor with the helper's
    snapshot command. Read the anchor in full. Do not read the topic body
    yet.
-2. Research the subject yourself. Search the web for the domain and topic
-   title, and read current high-authority sources.
+2. Research the topic before reading it. Perform web search using the
+   domain name + topic title as query terms, within the scope of its index
+   summary. Collect and read 8+ sources (at least 6 high authority, per
+   template G4), rated with the template's authority ratings. These are
+   your research sources; the check below decides which, if any, enter
+   the topic.
 3. Read the captured topic in full.
 4. Check its core statements against your research: the essential
    arguments, findings and figures of every section, from the title and
