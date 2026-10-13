@@ -6,368 +6,214 @@ domain: geopolitics
 author: Researcher-1
 tags: [international-relations, realism, liberalism, constructivism, ir-theory, waltz, wendt, keohane, morgenthau, mearsheimer]
 links: [library/geopolitics/nuclear-deterrence-mad.md, library/geopolitics/us-china-great-power-competition.md, library/geopolitics/anchor-geopolitics.md]
+reviewed: 2026-10-13
 ---
 
 # International Relations Theory -- Why the Three Grand Frameworks of Realism, Liberalism, and Constructivism Compete, Coexist, and Shape How We See the World
 
-International relations theory is the intellectual toolkit that
-scholars and policymakers use to explain why states go to war,
-cooperate, compete, and build institutions -- and the three dominant
-frameworks of realism, liberalism, and constructivism offer radically
-different answers to these questions. Realism sees a world of
-anarchic competition where power and survival drive state behavior.
-Liberalism sees a world where trade, democracy, and international
-institutions can overcome anarchy and produce cooperation.
-Constructivism sees a world where ideas, norms, and identities
-determine what states want and who they consider friends or enemies.
-Understanding all three is not an academic exercise -- it is the
-difference between seeing Russia's invasion of Ukraine as an
-inevitable power struggle (realism), a failure of institutions and
-interdependence (liberalism), or a clash of incompatible identities
-and historical narratives (constructivism).
+International relations (IR) theory is the set of competing explanations that scholars and policymakers use to account for why states fight, cooperate, and build institutions. Realism stresses the enduring propensity for conflict among self-interested states in an anarchic system, liberalism identifies ways -- trade, democracy, and institutions -- to mitigate that propensity, and constructivism stresses how ideas, norms, and identities shape state interests and the meaning of anarchy [6][11]. The same event reads differently under each lens -- Russia's actions in Ukraine appear as a reversion to great-power behavior, as an outcome of domestic preferences and institutional failure, or as a clash over identity and narratives [11] -- and no single lens is sufficient [6][11].
 
 ## Background
 
-The academic discipline of international relations emerged from the
-carnage of World War I, born from a simple question: why do nations
-fight, and how can we stop them? The first chair of international
-relations was established in 1919 at the University of Wales,
-Aberystwyth, funded by a donation intended to prevent another great
-war. The early scholars of the field, later labeled "idealists" by
-their critics, believed that war could be eliminated through
-collective security, open diplomacy, and the spread of democratic
-governance. Woodrow Wilson's Fourteen Points and the creation of the
-League of Nations were the practical expression of this idealism.
+The organized study of international politics as a separate subject dates to the aftermath of World War I. The Department of International Politics at Aberystwyth was founded in 1919 with a 20,000-pound endowment from David Davies as a memorial to the students killed and wounded in the war. It holds the world's first chair in international politics, named for Woodrow Wilson, the president associated with the League of Nations [19]. The department's own history calls Sir Alfred Zimmern, the first Woodrow Wilson professor, the most highly regarded of the inter-war idealists. It records that E. H. Carr, the fourth holder of the chair, challenged those ideas in The Twenty Years' Crisis (1939) by stressing the paramount importance of power, a stance at odds with Davies's original vision for the chair [19].
 
-The outbreak of World War II in 1939 shattered this optimism. E.H.
-Carr's "The Twenty Years' Crisis" (1939) delivered a devastating
-critique of idealist thinking, arguing that it mistook aspiration for
-reality and ignored the role of power in international politics.
-Carr's work, alongside Hans Morgenthau's "Politics Among Nations"
-(1948), established realism as the dominant paradigm of the postwar
-era. Morgenthau rooted his theory in a pessimistic view of human
-nature: states, like people, are driven by an innate "lust for
-power," and international politics is a struggle for power that can
-never be transcended, only managed.
+Carr's own framing was not a rejection of ideals. Rood shows that Carr presented utopia and reality as the two facets of political science and wrote that sound political thought and sound political life will be found only where both have their place [20]. Rood's analysis also suggests that Carr and Zimmern were closer in thought than Carr was willing to allow [20]. This suggests that the "idealist versus realist" contrast of the interwar years is better read as a founding polemic than as a precise map of the field; that reading is the author's interpretation.
 
-The 1970s and 1980s saw a transformation of both realism and
-liberalism into more rigorous, structural forms. Kenneth Waltz's
-"Theory of International Politics" (1979) shifted the locus of
-explanation from human nature to the anarchic structure of the
-international system itself -- neorealism was born. Meanwhile, Robert
-Keohane and Joseph Nye's "Power and Interdependence" (1977) developed
-neoliberal institutionalism, arguing that international regimes and
-institutions could facilitate cooperation even under anarchy by
-reducing transaction costs and building trust through iteration.
+Realism became the dominant theoretical tradition of the Cold War, in part because it offered simple but powerful explanations for war, alliances, imperialism, and obstacles to cooperation, and because its emphasis on competition fit the American-Soviet rivalry [6]. Walt distinguishes "classical" realists such as Hans Morgenthau and Reinhold Niebuhr, who believed that states, like human beings, have an innate desire to dominate others, from the neorealism of Kenneth Waltz, which ignored human nature and focused on the effects of the international system [6]. Waltz's Theory of International Politics (1979) defined the structure of a political system by its ordering principle, the differentiation of its units, and the distribution of capabilities, and held that under anarchy states remain like units, so that international structures vary only through a change of organizing principle or through variations in the capabilities of units [1]. Waltz argued that weaker states would balance against, rather than bandwagon with, more powerful rivals and, contrary to Morgenthau, that bipolarity was more stable than multipolarity [6]. Offense-defense theory, developed by Robert Jervis, George Quester, and Stephen Van Evera, added the claim that war is more likely when conquest is easy and that cooperation can flourish when defense has the advantage [6].
 
-The end of the Cold War in 1989-1991 disrupted both paradigms.
-Realism failed to predict the peaceful dissolution of a bipolar
-system; liberalism struggled to explain the ethnic conflicts and
-state failures that followed. Into this gap stepped constructivism,
-championed by Alexander Wendt's seminal 1992 article "Anarchy Is What
-States Make of It." Wendt argued that both realism and liberalism
-took anarchy as a fixed condition with inevitable consequences, when
-in fact anarchy's meaning depends on the shared ideas and identities
-states hold. The Cold War ended not because the balance of power
-shifted but because Soviet leader Mikhail Gorbachev embraced "new
-thinking" that redefined Soviet identity and interests.
+The principal challenge to realism came from a broad family of liberal theories. One strand held that economic interdependence discourages the use of force because warfare would threaten each side's prosperity; a second, associated with Woodrow Wilson, held that democratic states are inherently more peaceful; a third argued that international institutions help states forgo immediate gains for the benefits of enduring cooperation [6]. In Power and Interdependence (first published in 1977), Robert Keohane and Joseph Nye developed the concept of complex interdependence as a condition that differs from the realist picture of world politics [9]. Keohane's After Hegemony (1984) then asked whether cooperation can persist without the dominance of a single power and analyzed the international regimes through which cooperation in the world political economy has taken place [3]. Until the 1980s, Marxism was the main alternative to the realist and liberal traditions; Walt reports that Marxist and dependency theories were largely discredited before the Cold War ended and that constructivism has largely replaced Marxism as the preeminent radical perspective [6].
+
+The end of the Cold War tested all of these traditions. Walt records that realism and liberalism both failed to anticipate the event and had some trouble explaining it, which helped to legitimate constructivist theories, whose explanation was that Mikhail Gorbachev changed Soviet foreign policy because he embraced new ideas such as "common security" [6]. A 2026 primer adds that this change was facilitated by the collapse of Soviet economic power, a material factor that empowered the new thinkers who promoted those ideas [11]. Neither older tradition disappeared. Walt wrote in 1998 that rumors of realism's demise had been largely exaggerated and that the democratic peace debate gave liberalism new life [6]. Waltz argued in 2000 that only changes of the international system, not changes within it, would make structural realism obsolete [8].
+
+Alexander Wendt's article "Anarchy Is What States Make of It" (1992) is the constructivist founding text. By its own abstract it takes aim at the realist view that anarchies are necessarily self-help systems, arguing that self-help is a function not of anarchy but of process, and it presents itself as a bridge between scholarship on the social construction of identities and interests and neoliberalism. Its criticism of neoliberalism is narrower: neoliberals' commitment to rational choice theory treats interests as exogenously given and so offers only a weak form of institutional analysis [2]. Wendt's Social Theory of International Politics (1999) later set out a theory of the international system as a social construction, built around three "cultures of anarchy" [28].
 
 ## Core Concepts
 
-### Realism: The Tragic Logic of Power and Survival
+### Realism: Anarchy, Self-Help, and the Security Dilemma
 
-Realism rests on a few stark propositions. The international system
-is anarchic -- there is no world government, no higher authority
-above the sovereign state. States are the primary actors, and they
-are unitary, rational, and self-interested. Their overriding goal is
-survival. Because no state can trust others to guarantee its
-security, each must engage in self-help, accumulating military and
-economic power to deter threats and, when necessary, prevail in
-conflict. The result is a tragic logic: even when no state desires
-war, the security dilemma -- where one state's defensive buildup
-appears threatening to others, prompting them to arm in response --
-can spiral into conflict that no one wanted.
+Realists disagree about causes but share a small set of structural claims. Mearsheimer lists five assumptions: the international system is anarchic, meaning that independent states have no central authority above them (anarchy here is an ordering principle, not a synonym for chaos); states inherently possess some offensive military capability; states can never be certain of other states' intentions; the most basic motive of states is survival; and states think strategically about how to survive [7]. No single assumption mandates competitive behavior, because survival is a defensive aim, but together they make states fearful and suspicious of one another [7]. A 2026 practitioner primer describes the result as a self-help system in which trust is low and any other state can represent a threat, and adds the security dilemma: a state's efforts to increase its security, even defensive ones, can be read as threatening and lead others to arm in response, so conflict becomes more likely even if neither side wanted it [11].
 
-Realism is not a monolith. Classical realism, associated with
-Morgenthau and drawing on Thucydides, Machiavelli, and Hobbes,
-locates the source of conflict in human nature itself -- the drive
-for power, prestige, and domination that lurks within individuals and
-collectives. Neorealism, or structural realism, developed by Waltz,
-rejects this psychological foundation and focuses instead on the
-structure of the international system. Waltz argues that the ordering
-principle (anarchy), the character of the units (functionally similar
-states), and the distribution of capabilities (how many great powers
-exist) explain outcomes regardless of the particular characteristics
-of individual leaders or regimes.
+Classical realists such as Hans Morgenthau locate the root of conflict in human nature, an innate drive for power [11]. Waltz's neorealism instead looks to the architecture of the international system. In Waltz's definition a system's structure has three parts: the ordering principle (anarchy), the differentiation of units (absent in the international case, because under anarchy states remain like units), and the distribution of capabilities across units. Attributes such as ideology or form of government are not part of the definition [1]. Waltz later cautioned about the limits of the approach: "Structures shape and shove; they do not determine the actions of states," and a theory of structure describes the pressures on states, not how they will respond to them [8].
 
-Within structural realism, a further split divides defensive and
-offensive realists. Defensive realists, following Waltz, argue that
-states seek an "appropriate amount" of power -- enough to ensure
-survival but recognizing that excessive power-seeking provokes
-balancing coalitions that leave the aggressor worse off. The security
-dilemma is the central problem, and status quo powers should pursue
-restraint. Offensive realists, led by John Mearsheimer, argue that
-the system's anarchic structure incentivizes states to maximize their
-share of world power because you can never be certain of others'
-intentions. The ultimate goal is regional hegemony. Mearsheimer's
-"The Tragedy of Great Power Politics" (2001) predicts that rising
-powers like China will inevitably challenge the existing hegemon
-(the United States), and that intense security competition is the
-default condition of international politics.
+Within structural realism, defensive and offensive realists draw different conclusions from the same structure. Defensive realists, following Waltz, hold that states seek an "appropriate amount" of power, because the excessive accumulation of power by one state or coalition elicits the opposition of others [24]. In Walt's account they assumed that states have little intrinsic interest in conquest and that the costs of expansion generally outweigh the benefits, so that great-power wars arise largely from domestic groups' exaggerated perceptions of threat [6]. Offensive realists argue that, because no state can be sure when a revisionist power might emerge, anarchy encourages all states to maximize their relative strength [6]. In Mearsheimer's version the mightiest states try to establish hegemony in their own region while preventing any rival great power from dominating another region [27]. A contemporary review of his book The Tragedy of Great Power Politics (2001) summarizes the theory as the claim that the deep insecurity generated by an anarchic ("tragic") system leads great powers to act aggressively toward each other and to seek hegemony [4]. Applying the theory to Asia, Mearsheimer wrote in 2005 that if China's economic growth continues, the United States and China are likely to engage in an intense security competition with considerable potential for war, and that most of China's neighbors would join the United States to contain China [27]. That is a prediction; the sources reviewed here do not settle it.
 
-### Liberalism: Cooperation Is Possible, Not Just Desirable
+Realists also dispute whether cooperation can be sustained. Mearsheimer argues that states concerned about the balance of power are motivated primarily by relative gains, which makes cooperation harder to achieve than it is under absolute-gains logic [7]. Walt attributes the relative-gains argument to Joseph Grieco and Stephen Krasner, who answered the institutionalists by arguing that anarchy forces states to worry about how the gains from cooperation are distributed [6].
 
-Liberalism rejects the realist premise that anarchy necessarily
-produces conflict. While liberals accept that the international
-system lacks a central authority, they argue that state preferences
--- not just the distribution of power -- determine outcomes, and that
-those preferences can be shaped by democracy, economic
-interdependence, and international institutions.
+### Liberalism: Mitigating Anarchy Through Democracy, Interdependence, and Institutions
 
-The intellectual lineage traces back to Immanuel Kant's "Perpetual
-Peace" (1795), which argued that three conditions would produce
-lasting peace: republican (representative) government, a federation
-of free states, and cosmopolitan law guaranteeing universal
-hospitality. These three pillars became the foundation of modern
-liberal IR theory.
+Liberal theories start from the same anarchic setting but argue that its effects can be mitigated [11]. Walt identifies three strands: economic interdependence, which raises the cost of force; democracy, based on the claim that democratic states are more peaceful; and international institutions, which help states forgo immediate gains for the benefits of durable cooperation [6]. The 2026 primer adds liberal intergovernmentalism, associated with Andrew Moravcsik, which treats national preferences as formed through domestic competition among societal interests before international bargaining begins, so that explaining a state's policy requires looking inside the state [11].
 
-The democratic peace theory is the most prominent empirical claim in
-the liberal tradition. It holds that liberal democracies rarely, if
-ever, fight wars against each other -- a finding that has been called
-"the closest thing to an empirical law in international relations."
-The mechanisms are debated: institutional constraints (elected
-leaders answer to voters who bear the costs of war), democratic norms
-(compromise and peaceful dispute resolution are socialized at home
-and projected abroad), and transparency (democracies can credibly
-signal intentions, reducing the risk of miscalculation).
+The democratic strand has a philosophical root in Kant's Toward Perpetual Peace (1795), which proposed three "definitive articles": every state should have a republican constitution, states should take part in a federation or union of states, and cosmopolitan right should be limited to universal hospitality [21]. The republican article rests on the reasoning that the people who decide on war are the people who would pay for it, so republics will be hesitant to go to war [21]. Doyle (1983) took this to be Kant's key insight and cataloged the lack of wars among liberal democracies as proof [21]. Russett, Oneal, and Davis later tested a "Kantian peace" composed of democracy, economic interdependence, and international organizations, which they present as the foundations Kant believed could establish "perpetual peace" [12]. The author's observation is that this empirical triad overlaps with, but is not identical to, the three definitive articles listed above [21][12]. The democratic peace claim is that democracies rarely or never fight one another. Waltz quotes Jack Levy's judgment that it is "the closest thing we have to an empirical law in the study of international relations" [8]. Proposed mechanisms include shared norms of compromise, mutual accountability, and institutional checks [6][11].
 
-Neoliberal institutionalism, developed by Keohane in "After Hegemony"
-(1984), addresses the realist challenge head-on: even in an anarchic
-system of self-interested states, cooperation is possible if
-institutions provide information, reduce transaction costs, and
-create expectations of future interaction that make defection costly.
-International regimes -- "sets of implicit or explicit principles,
-norms, rules, and decision-making procedures around which actors'
-expectations converge" -- can persist even after the hegemonic power
-that created them declines. Keohane demonstrated this with the
-survival of trade and monetary regimes after the relative decline of
-US economic dominance in the 1970s.
+Neoliberal institutionalism asks how cooperation can arise among egoistic states. Keohane's After Hegemony studied the international regimes through which cooperation in the world political economy has taken place, followed their evolution as American hegemony eroded, and rejected the idea that the decline of a hegemon makes cooperation impossible [3]. Regimes are defined, following Krasner, as principles, norms, rules, and decision-making procedures around which actors' expectations converge in a given issue area [26]. Keohane summarizes the institutionalist argument as holding that regimes contribute to cooperation "not by implementing rules that states must follow, but by changing the context within which states make decisions based on self-interests" [3]. The 2026 primer summarizes the institutionalist case as reducing uncertainty and lowering transaction costs [11]. Keohane and Nye's concept of complex interdependence has three characteristics: multiple channels connect societies; the agenda of interstate relations contains multiple issues that are not arranged in a clear hierarchy; and military force is not used by governments toward other governments within the region, or on the issues, concerned. They say that realist assumptions are sometimes accurate but that complex interdependence frequently gives a better portrayal of reality [9].
 
-The third liberal pillar is commercial liberalism: trade and economic
-interdependence raise the cost of war and create vested interests in
-peace. The argument, dating back to Montesquieu and Adam Smith, is
-that the "sweetness of commerce" civilizes international relations.
-In its modern form, it suggests that complex supply chains and
-cross-border investment make war between interdependent economies
-prohibitively expensive -- though critics note that high
-interdependence in 1914 did not prevent World War I.
+Walt notes that institutionalist claims became more modest over time: institutions facilitate cooperation when it is in each state's interest, but they cannot force states to act against their selfish interests [6]. Realists reject a stronger role. Mearsheimer states that realists see institutions as reflections of the distribution of power, based on the self-interested calculations of the great powers, with no independent effect on state behavior [7]. The interdependence strand has an old rebuttal. Waltz recalls that Norman Angell believed before World War I that wars would not be fought because they would not pay, yet Germany and Britain, each other's second-best customers, fought a long and bloody war; he argues that interdependence multiplies occasions for conflict as well as contacts and is among the weaker forces shaping international politics [8].
 
-### Constructivism: Ideas, Norms, and the Social Construction of Reality
+### Constructivism: Ideas, Identities, and the Social Construction of Anarchy
 
-Constructivism emerged in the late 1980s as a challenge to the
-materialist assumptions of both realism and liberalism. Where realism
-and liberalism see states driven by material power or rational
-interest calculations, constructivists argue that the most important
-factors in international politics are ideational: the shared beliefs,
-norms, identities, and cultures that give meaning to material facts.
+Where realism and liberalism tend to focus on material factors such as power or trade, constructivist approaches emphasize the impact of ideas. They treat the interests and identities of states as malleable products of specific historical processes, and they attend to discourse because it reflects and shapes beliefs, interests, and accepted norms of behavior [6]. Hurd identifies four distinguishing features of the approach: an alternative to materialism, the construction of state interests, the mutual constitution of structures and agents, and multiple logics of anarchy [16]. On the last point Wendt's phrase, quoted by Hurd, is that "an anarchy of friends differs from one of enemies" [16]. In Wendt's 1999 book these differences take the form of three cultures of anarchy -- Hobbesian, Lockean, and Kantian -- in which states see one another as enemies, rivals, or friends; the cultures are shared ideas that help shape state interests and capabilities [28]. The 2026 primer states the contrast with the other traditions as follows: realism and liberalism treat anarchy as a given condition that produces fixed behaviors, whereas constructivism treats it as an "empty vessel" that takes on meaning through the shared understandings and practices of states [11].
 
-Alexander Wendt's "Anarchy Is What States Make of It" (1992) is the
-foundational text. Wendt flips the causal arrow that realists take
-for granted. Realists argue that anarchy (the absence of world
-government) forces states into self-help and competition. Wendt
-counters that "anarchy" has no inherent logic -- its meaning depends
-on the intersubjective understandings states hold. Five hundred
-British nuclear weapons are not perceived by the United States the
-same way as five North Korean nuclear weapons, even though the
-material threat is identical. The difference is identity: Britain is
-a friend, North Korea is not. This is not "mere perception" layered
-on top of material reality -- it IS the reality that determines
-action.
+Wendt's best-known illustration is that "500 British nuclear weapons are less threatening to the United States than 5 North Korean nuclear weapons" because "the British are friends and the North Koreans are not" (Wendt 1995, quoted by Hurd) [16]. Hurd points out that the brute material threat of a British weapon is at least comparable to, and probably much greater than, that of a North Korean weapon, so the difference lies in the conviction among many American leaders that North Korea is more likely to act aggressively toward the United States [16]. Enmity is therefore not a fixed fact; it results from ongoing interactions that may reinforce the relationship or change it [16]. The primer reads the example as showing that material capabilities get their meaning from the social context, not as denying that capabilities exist [11].
 
-Norms are a central constructivist concern. Martha Finnemore's
-"National Interests in International Society" (1996) showed how
-international organizations like UNESCO and the World Bank teach
-states what their interests should be. States did not naturally
-develop science bureaucracies or adopt specific development policies
--- they were socialized into these practices by international norms
-disseminated through organizations. The emergence of the
-"Responsibility to Protect" (R2P) doctrine -- which challenges
-traditional sovereignty by asserting that the international community
-has a duty to intervene when states fail to protect their populations
-from mass atrocities -- is a paradigmatic example of norm evolution
-that constructivism is uniquely equipped to explain.
+Norms are a central constructivist concern. Finnemore's National Interests in International Society (1996) argues that international organizations socialize states to accept new political goals and social values, and it develops three cases: UNESCO and the spread of state science bureaucracies, the Red Cross and the acceptance of the Geneva Convention rules of war, and the World Bank and changing definitions of development [18]. Finnemore and Sikkink (1998) proposed that norms evolve through a three-stage "life cycle": emergence, driven by norm entrepreneurs with organizational platforms; a "norm cascade" that follows a tipping point at which a critical mass of states adopts the norm; and internalization, when the norm becomes taken for granted. They stress that completion of the cycle is not inevitable, because many emergent norms fail to reach a tipping point [17].
 
-Constructivism also explains change in the international system in
-ways that both realism and liberalism struggle to do. Realism
-predicts continuity: the players change but the game remains the
-same. Liberalism sees gradual progress through institutional
-deepening. Constructivism can account for both change and stability
-by examining how shared ideas evolve. The end of the Cold War, the
-spread of human rights norms, the delegitimization of colonialism,
-and the emergence of environmental governance as a central
-international concern are all phenomena better explained by shifting
-norms and identities than by shifting power distributions or
-institutional design alone.
+The Responsibility to Protect (R2P) is a norm that the author reads as qualifying sovereignty without creating an automatic duty to intervene. In paragraphs 138 and 139 of the 2005 World Summit Outcome, each state accepted responsibility for protecting its own population from genocide, war crimes, ethnic cleansing, and crimes against humanity. The international community, through the United Nations, accepted a responsibility to use appropriate peaceful means to help protect populations, and leaders stated that they were "prepared to take collective action, in a timely and decisive manner, through the Security Council" on a case-by-case basis if peaceful means proved inadequate and national authorities were manifestly failing [22].
+
+Constructivism is, in Walt's phrase, especially attentive to the sources of change [6]. The realist reply is that structural change, not unit-level change, is what matters for the theory [8], so the two traditions disagree about which kinds of change are theoretically decisive.
 
 ### The Theories as Complementary Lenses
 
-The three frameworks are not mutually exclusive. Most analysts use
-all three, selecting the lens that best illuminates the question at
-hand. Realism excels at explaining great power conflict, arms races,
-and why balancing behavior recurs throughout history. Liberalism
-excels at explaining why cooperation sometimes succeeds, why
-democracies form security communities, and why international
-institutions persist despite great power shifts. Constructivism
-excels at explaining how interests form in the first place, why
-identities change over time, and how norms spread across the
-international system.
+Walt's 1998 survey concludes that each perspective captures important aspects of world politics: the "compleat diplomat" should remember realism's emphasis on the inescapable role of power, keep liberalism's awareness of domestic forces in mind, and occasionally reflect on constructivism's vision of change [6]. He also finds the boundaries permeable: most realists recognize that nationalism, militarism, and other domestic factors matter; liberals acknowledge that power is central; and some constructivists admit that ideas have greater impact when backed by powerful states and reinforced by enduring material forces [6]. The primer's comparison table assigns each tradition a guiding question: realism asks why war, liberalism asks why not war, and constructivism asks what war means [11].
 
-The author's assessment is that the greatest analytical error is
-treating any one theory as sufficient. A realist analysis of the
-Russia-Ukraine war that ignores the identity dimension -- Putin's
-conviction that Ukrainians and Russians are "one people" -- misses a
-core driver of the conflict. A liberal analysis of European
-integration that ignores the role of US security guarantees in making
-cooperation possible misses the power foundation beneath the
-institutional superstructure. A constructivist analysis of rising
-Chinese nationalism that ignores China's material capabilities and
-geographic imperatives misses the constraints that structure imposes.
+Walt's NATO example shows how the lenses diverge on a single policy. From a realist perspective, expansion extends Western influence during a period of Russian weakness and is likely to provoke a harsh response from Moscow. From a liberal perspective, it reinforces the nascent democracies of Central Europe and extends NATO's conflict-management mechanisms to a potentially turbulent region. A third view stresses the value of incorporating new members into a Western security community whose shared identity has made war largely unthinkable [6]. The lenses also interact. Walt suggests that liberal factors may become relatively more important because U.S. protection reduces the danger of regional rivalries and reinforces the "liberal peace" that emerged after 1945, as long as the United States continues to provide security [6]. The author's reading is that this places a power foundation beneath a liberal arrangement.
+
+The author's assessment, consistent with [6] and [11], is that treating any one theory as sufficient is a serious analytical error. Applied to the war in Ukraine, a purely realist account omits how Moscow redefined a pro-Western Ukraine from a neighbor to be managed into an existential threat [11]. A purely constructivist account omits the material capabilities and alliance commitments that constrained the choices open to each side. The primer presents its realist, liberal, and constructivist accounts of 2014-2022 side by side and concludes that no single theory provides a complete picture [11].
 
 ## Evidence
 
-The empirical track record of each theory is mixed, which is
-precisely why all three survive. Realism receives strong support from
-the recurrence of balancing behavior: throughout history, rising
-powers have triggered counter-coalitions, from the European alliances
-against Napoleonic France to the Cold War bipolar standoff to the
-contemporary balancing against China's rise. The frequency of war --
-roughly one interstate war every two to three years since 1945,
-despite the unprecedented expansion of trade, democracy, and
-international law -- supports the realist claim that anarchy exerts a
-persistent gravitational pull toward conflict.
+The empirical record is mixed, and the mixture differs by question and period. This section summarizes tests and cases for each tradition and the strongest published objections.
 
-Liberalism's strongest empirical support comes from the democratic
-peace. The absence of war between established democracies is a robust
-finding across multiple datasets and methodologies. The correlation
-between trade interdependence and reduced conflict probability has
-also received substantial empirical backing, though the causal
-direction is debated -- peace may enable trade as much as trade
-enables peace. The post-World War II expansion of international
-organizations from fewer than 100 in 1945 to over 6,000 today, and
-the simultaneous decline in interstate war deaths, offers suggestive
-if not conclusive support for the institutionalist argument.
+### Quantitative Tests of the Liberal Peace
 
-Constructivism's empirical contributions lie in explaining phenomena
-that materialist theories struggle with. The peaceful end of the Cold
-War remains a puzzle for realism -- why would a bipolar system
-dissolve without a hegemonic war? Gorbachev's "new thinking," the
-unilateral Soviet withdrawal from Eastern Europe, and the voluntary
-dissolution of the Soviet Union all reflect ideational shifts that
-constructivism can theorize but realism cannot predict. The global
-spread of human rights norms, the abolition of slavery, the
-delegitimization of aggressive war as an instrument of state policy,
-and the emergence of environmental governance all represent norm
-diffusion processes that constructivist empirical research has
-documented through process tracing and discourse analysis.
+Russett, Oneal, and Davis (1998) analyzed politically relevant dyads (pairs of states that include a major power or are contiguous) for 1950-85. They found that each element of the Kantian peace made a statistically significant, independent contribution to peaceful interstate relations, even with relative power, alliances, geographic contiguity, and economic growth held constant. If both members of a dyad were democratic, a militarized dispute was 35 percent less likely than the baseline. Raising both the dyadic trade-to-GDP ratio and its trend by one standard deviation reduced the chance of conflict by 38 percent. Raising the number of shared intergovernmental-organization memberships by one standard deviation cut the incidence of disputes by about 23 percent for a typical pair of bordering states. Together, all the Kantian variables lowered the probability of a dispute by 72 percent. The authors found reason to believe that a feedback system operates: international organizations reduce conflict, and low-conflict dyads join them [12].
 
-The author's synthesis: the empirical record supports an eclectic
-approach. Material power and anarchy create the stage on which
-international politics plays out (realism's domain). Institutions and
-interdependence shape the incentives and constraints that actors face
-(liberalism's domain). But what actors want, who they identify with,
-and what they consider legitimate or unthinkable (constructivism's
-domain) often determine which of the many materially possible
-outcomes actually occurs. The three traditions are not competitors in
-a race to be declared correct -- they are complementary analytical
-tools whose explanatory power varies by context. The practical skill
-is knowing which lens to reach for when, and the intellectual honesty
-to acknowledge when your preferred theory fails to account for the
-evidence.
+Oneal and Russett (1999) replicated the specifications of two challenging studies using data for 1950-92. Among all dyads they found no relationship between interdependence and peace; the pacific benefits of trade became evident among the politically relevant dyads, where the great majority of disputes occur. With their preferred measures and controls they found increasingly strong support for the liberal belief that economic interdependence and democracy have pacific benefits [13].
+
+Critics dispute the causal reading. Waltz calls the democratic peace a "thesis," not a "theory": it rests on a perceived high correlation between governmental form and international outcome, and association does not establish causation. He points to problems of definition, such as whether Wilhelmine Germany counted as a democracy in 1914, and argues that even if all states were democratic the structure of international politics would remain anarchic [8]. Rosato (2003) examined the causal logics proposed to explain democratic peace -- norms of conflict resolution, trust, accountability, constraints on mobilization, and revelation of private information -- and found that the evidence suggests they do not operate as stipulated; peace among democracies "may not be caused by the democratic nature of those states" [14]. Walt reports further qualifiers: Mansfield and Snyder found that states may be more prone to war in the midst of a democratic transition, and Joanne Gowa argued that the post-1945 absence of conflict among democracies may owe more to their common interest in containing the Soviet Union than to shared democratic principles [6].
+
+### Balancing, Polarity, and Unipolarity
+
+Waltz's balancing proposition generated an extensive research program. Vasquez (1997) appraised the "neotraditional" research on balancing by Lakatos's criterion of progressive versus degenerating research programs and judged the program degenerating. He cited its protean theoretical development, an unwillingness to specify what would falsify the paradigm, continual adoption of auxiliary propositions to explain away flaws, and a dearth of strong research findings [25]. Levy and Thompson (2010) argued that balance of power theory is not universally applicable. In their empirical analysis counterhegemonic balancing is frequent in the European system but much less frequent in the global maritime system, so the absence of a balancing coalition against post-Cold War American power is not the puzzle for the theory that it is often taken to be [15]. Waltz maintained in 2000 that, in the light of structural theory, unipolarity "appears as the least durable of international configurations" and observed balancing tendencies already taking place [8]. Pashakhanlou (2014) challenged Waltz's defensive realism and Mearsheimer's offensive realism on their own terms and concluded that neither can account for politics under hegemony or unipolarity [24].
+
+### The Survival of NATO After 1991
+
+NATO's survival and expansion after the Soviet collapse served as a test case between realists and institutionalists. Waltz argued that the case shows that international institutions are shaped and limited by the states that found and sustain them: NATO "survives and expands now not because of its institutions but mainly because the United States wants it to." He conceded that realist predictions of NATO's end were mistaken but attributed the error to "an underestimation of America's folly" and not to a failure of realist theory to comprehend international politics, adding that the sole remaining great power "has behaved as unchecked powers have usually done" [8]. Institutionalists such as John Duffield and Robert McCalla argued that NATO's highly institutionalized character helps explain why it survived and adapted despite the disappearance of its main adversary [6]. The 2026 primer reports the same split: institutionalists credited NATO with providing information, monitoring compliance, and creating focal points for collaboration, while realists countered that it had lost its strategic rationale with the Soviet collapse [11]. Kroenig, writing in 2026, argues that realists predicted that Washington would come home from Europe and instead saw NATO enlargement, and that standard-bearers of realism got almost every theoretical prediction about American behavior wrong; his piece is a policy-magazine argument, not a systematic test, and he adds that, instead of revising their theories, realists insisted that the world was at fault [23].
+
+### The End of the Cold War and the Limits of Ideas
+
+The end of the Cold War is constructivism's signature case. Walt records that neither realism nor liberalism anticipated it and that constructivists pointed to Gorbachev's embrace of "common security" [6]. The 2026 primer's account is more mixed: the "new thinking" was an intentional transformation, but the collapse of Soviet economic power, a material factor, empowered the new thinkers, and Gorbachev used unilateral initiatives and self-binding commitments to build trust [11]. The case therefore shows ideas and material conditions operating together, not ideas alone. The same primer reports that the constructivist claim of a "nuclear taboo" seemed to come under strain after Russia's explicit nuclear threats following its 2022 invasion of Ukraine, which, in its words, seemed to validate realist expectations that material power ultimately prevails over normative restraint [11].
+
+### Norms: Cases and Limits
+
+Finnemore and Sikkink illustrate the norm life cycle with campaigns about women's rights and the laws of war: women had to be persuaded that suffrage was in their interests, and the Red Cross had to persuade military leaders that protecting the wounded was compatible with their war aims [17]. Kroenig, a critic of realism, credits constructivists with showing how norm entrepreneurs persuaded powerful states to sign and comply with human rights treaties [23]. The R2P text shows the limit of such norms: the 2005 commitment to collective action runs through the Security Council on a case-by-case basis [22].
+
+### Author's Synthesis
+
+The author's synthesis is that the evidence supports using the traditions as complements rather than declaring one correct, because their explanatory scope varies with the question and the scope conditions. Balancing claims hold more clearly in the European system than globally [15]. The liberal peace findings are strongest among politically relevant dyads [13], yet the causal story is contested [8][14]. The constructivist account of the Cold War's end depends on a material collapse that empowered new ideas [11]. The practical skill is knowing which lens to reach for on which question, and acknowledging when a preferred theory fails to account for the evidence.
 
 ## Implications
 
-For policymakers, the implications are direct and consequential. A
-policymaker who thinks exclusively in realist terms will see every
-diplomatic opening as a trap, every cooperative gesture as weakness,
-and every rising power as an inevitable adversary. The result is a
-self-fulfilling prophecy: treating China as an enemy produces Chinese
-behavior that confirms the original assumption. A policymaker who
-thinks exclusively in liberal terms will underestimate the
-persistence of nationalism, the appeal of authoritarianism, and the
-willingness of great powers to absorb economic pain for strategic
-gain -- the miscalculation behind the post-Cold War assumption that
-economic integration would inevitably liberalize China.
+### For Policymakers and Strategists
 
-For investors, IR theory provides frameworks for thinking about
-geopolitical risk in a structured rather than reactive way. The
-realist lens prompts questions about military balance and alliance
-commitments: does Taiwan sit at a flashpoint where capabilities
-outpace deterrence? The liberal lens prompts questions about economic
-interdependence and institutional resilience: how deep are the
-supply-chain dependencies that would make conflict unbearably costly?
-The constructivist lens prompts the hardest-to-quantify but often
-most decisive question: do the relevant actors see each other as
-adversaries with incompatible identities, or as competitors within a
-shared framework?
+Walt argues that everyone uses theories, whether or not they know it, and that policy disagreements usually rest on deeper disagreements about the basic forces that shape international outcomes. He shows how the debate over how to respond to China divides along theoretical lines: one perspective sees the ascent of a rising power that alters the balance of power in dangerous ways, another sees the key in China's integration into world markets and the spread of democratic principles, and a third in whether China sees itself, and is seen by others, as a normal member of the world community [6]. The NATO example above shows the same pattern [6]. The 2026 primer describes IR theories as heuristics that help strategic leaders make decisions quickly, and argues that theoretical fluency helps prevent the blind spots that come from viewing every situation through one lens [11].
 
-For the broader public, IR theory is an inoculation against the
-simplistic narratives that dominate political discourse. When a
-politician claims that a conflict is purely about one side's
-aggression and the other's victimhood (realism's billiard-ball
-clash), or that trade alone will guarantee peace (liberalism's
-optimistic assumption), or that changing the narrative will change
-reality (constructivism's idealist temptation), IR theory provides
-the corrective: all three dynamics are usually at play, and
-understanding their interaction is the real work of analysis.
+The author's assessment is that each lens carries a characteristic risk. A reading that is only realist risks treating every cooperative step as weakness; the security-dilemma mechanism indicates that defensive moves can be read as threatening and provoke counter-moves [11], and the author's interpretation is that such misreadings can become self-reinforcing between rivals. A reading that is only liberal risks over-trusting interdependence. Waltz argues that interdependence is a weak force in international politics [8], and the primer reports that economic interdependence, prior security commitments to Ukraine, and international law proved insufficient to deter Russian aggression; from a liberal-intergovernmentalist standpoint, the reason is that where domestic preferences are already set against cooperation, interdependence and institutional ties cannot override them [11]. Walt describes the globalization view that bringing China and Russia into world capitalism is the best route to prosperity and peace, particularly if it creates a strong middle class and pressure to democratize, and notes that this view has been challenged by scholars who argue that the actual scope of globalization is modest and that states still shape and regulate these transactions [6]. Mearsheimer's critique of institutions had direct policy stakes: he observed in 1994-95 that Western policymakers were building post-Cold War security arrangements in Europe on international institutions in explicit rejection of balance-of-power politics, and he examined whether institutions in fact push states away from war and promote peace [7].
 
-The most durable implication is methodological humility. The
-international system is a complex adaptive system. No single theory
-captures it fully because the system itself changes as actors learn
-from history, adopt new norms, and develop technologies that
-reconfigure the material landscape. Nuclear weapons changed the
-meaning of anarchy in ways that Thucydides could not have imagined.
-The internet created forms of interdependence that Kant's commercial
-liberalism could not have predicted. Climate change introduces a
-planetary-scale collective action problem that challenges the
-state-centric assumptions of all three traditions. The value of IR
-theory is not in providing a crystal ball but in disciplining our
-thinking -- ensuring that we consider power, institutions, and ideas
-before reaching conclusions that any one lens would render invisible.
-Used well, the three frameworks function as a checklist: have we
-considered the power dynamics? The institutional incentives? The
-identities and norms in play? When the answer to any of these is no,
-the analysis is incomplete.
+### For Scholars and Students
+
+The three-paradigm map is a teaching device with contested boundaries. Walt cautions that the boundaries between traditions are fuzzy and that a number of important works do not fit neatly into any of them [6]. His survey also covers Marxist, dependency, and "deconstructionist" approaches that fall outside the three [6], and textbooks such as McGlinchey's separate traditional and middle-ground theories from critical theories [5]. Legro and Moravcsik argue that realism's distinctiveness is at risk: contemporary realists who defend propositions that let domestic interests, collective beliefs, or institutions trump material power have reduced realism to a generic commitment to rational state behavior in anarchy, a view shared by liberal, institutionalist, and some constructivist theories [10]. They propose instead a reformulation in three assumptions -- unitary, rational actors in anarchy; an underlying conflict of preferences; and resolution of conflict on the basis of relative control over material resources [10]. For students, the practical lesson is to define a theory by the assumptions that distinguish it from rivals and to test it against those rivals, instead of relying on its label.
+
+The same standard applies across the field. Kroenig invokes Popper and Lakatos to argue that a theory with many unexplained anomalies should be revised or discarded [23], and Vasquez applied Lakatos's criterion to the balancing research program [25]. Waltz, for his part, answered critics that realist theory deals with the pressures of structure, not with how particular states respond to them [8]. These positions are not reconciled in the literature reviewed here, and a student should expect each tradition's defenders and critics to describe the same evidence differently.
+
+### For Investors and Analysts
+
+This subsection is the author's application of the sources, not a finding from them. Each lens suggests a distinct screening question for geopolitical risk. The realist lens asks about the distribution of capabilities, alliance commitments, and whether a rising power has regional ambitions of the kind Mearsheimer predicts for China [27]. The liberal lens asks how deep trade and institutional ties are, with three cautions: the pacific effect of trade is clearest among politically relevant dyads [13], interdependence did not prevent war in 1914 [8], and it did not deter Russia in 2014-2022 [11]. The constructivist lens asks how the relevant actors define one another -- as enemies, rivals, or friends [28] -- and whether norms constrain behavior, with the caution that the strength of the nuclear taboo has been questioned [11]. A single position on any of these questions is a judgment, not a measurement, and the three lenses can point in different directions.
+
+### For the General Reader
+
+Public claims about a conflict usually rest on one lens without saying so. The author's adaptation of the primer's three guiding questions [11] gives a reader a short audit of any such claim: who has power and what pressures does it create, what incentives do institutions, domestic politics, and interdependence create, and what do the actors believe about one another and about the meaning of what is happening. Walt concludes that understanding would be impoverished by confining thought to one perspective [6].
+
+### Limits and What Would Change This Assessment
+
+The theories are simplifications. The primer states that the complexity of the global environment means that theories necessarily simplify how states engage with and react to opposing forces, and that theoretical fluency does not guarantee predictive certainty [11]. Observers disagree on whether realism has weakened: Waltz holds that only changes of the system would require new thinking [8], while Kroenig, Pashakhanlou, and Vasquez argue that realism or its structural variants have failed important tests [23][24][25]. Waltz also holds that nuclear weapons, the greatest unit-level change in modern history, decisively changed how some states provide for their security but did not alter the anarchic structure of the international political system [8]; constructivists have read the same technology through a "nuclear taboo," a claim the primer says came under strain after 2022 [11].
+
+The author's assessment would change if systematic tests showed one tradition consistently outperforming the others across periods and regions. The sources reviewed here point the other way: Levy and Thompson find that balancing varies by regional system [15], and Oneal and Russett find that the effect of trade varies with the dyads examined [13]. Results thus depend on scope conditions, which is why the traditions are treated here as lenses to be matched to questions, and why a claim that one of them explains everything should be treated with suspicion.
 
 ## Sources
 
-1. Waltz, Kenneth N. (1979). "Theory of International Politics."
-   McGraw-Hill. The foundational text of neorealism, arguing that
-   anarchy and the distribution of capabilities explain international
-   outcomes more than unit-level characteristics. [high]
+1. Waltz, Kenneth N. (1979). "Theory of International Politics." Reading, Mass.: Addison-Wesley (the imprint given in the 1979-80 reviews in Political Science Quarterly and the American Political Science Review; some later citations give McGraw-Hill). The foundational text of neorealism, defining international structure by the ordering principle, the differentiation of units, and the distribution of capabilities. Checked against a published excerpt (chapters 5-8) of the book.
+   http://slantchev.ucsd.edu/courses/ps240/03%20Anarchy,%20Hierarchy,%20and%20Sovereignty/Waltz%20-%20Theory%20of%20International%20Politics%20(Ch%205-8).pdf [high]
 
-2. Wendt, Alexander (1992). "Anarchy Is What States Make of It: The
-   Social Construction of Power Politics." International Organization,
-   46(2), 391-425. The seminal constructivist article that challenged
-   the realist assumption that anarchy necessarily produces self-help
-   and competition.
+2. Wendt, Alexander (1992). "Anarchy Is What States Make of It: The Social Construction of Power Politics." International Organization, 46(2), 391-425. Abstract consulted; full text not opened.
    https://www.jstor.org/stable/2706858 [high]
 
-3. Keohane, Robert O. (1984). "After Hegemony: Cooperation and Discord
-   in the World Political Economy." Princeton University Press.
-   The foundational text of neoliberal institutionalism, demonstrating
-   how international regimes facilitate cooperation even after
-   hegemonic decline. [high]
+3. Keohane, Robert O. (1984). "After Hegemony: Cooperation and Discord in the World Political Economy." Princeton University Press. Checked against the publisher's description and excerpts of the book's text seen in search results via a third-party copy; the book was not read in full.
+   https://press.princeton.edu/books/ebook/9781400820269/after-hegemony-pdf [high]
 
-4. Mearsheimer, John J. (2001). "The Tragedy of Great Power Politics."
-   W.W. Norton. The definitive statement of offensive realism,
-   arguing that great powers are primed for aggression by the anarchic
-   structure of the international system. [high]
+4. Mearsheimer, John J. (2001). "The Tragedy of Great Power Politics." W.W. Norton. The statement of offensive realism. The book was not opened; its argument was checked against the Foreign Affairs capsule review of 1 November 2001.
+   https://www.foreignaffairs.com/reviews/capsule-review/2001-11-01/tragedy-great-power-politics [high]
 
-5. McGlinchey, Stephen (2022). "Foundations of International
-   Relations." Bloomsbury / E-International Relations.
-   https://www.e-ir.info/publication/foundations-of-international-relations/
-   An accessible undergraduate textbook that organizes IR theory
-   into traditional, middle-ground, and critical families. [medium]
+5. McGlinchey, Stephen (2022). "Foundations of International Relations." Bloomsbury / E-International Relations. A textbook that separates traditional and middle-ground theories from critical theories (table of contents consulted).
+   https://www.e-ir.info/publication/foundations-of-international-relations/ [medium]
+
+6. Walt, Stephen M. (1998). "International Relations: One World, Many Theories." Foreign Policy, 110, 29-35. Read in full.
+   http://www.columbia.edu/itc/sipa/S6800/courseworks/foreign_pol_walt.pdf [high]
+
+7. Mearsheimer, John J. (1994/95). "The False Promise of International Institutions." International Security, 19(3), 5-49. Abstract, the opening statement of the realist view of institutions, the account of realism's five assumptions, and the relative-gains passage read; the sections on institutionalism, collective security, and critical theory were not read.
+   https://www.mearsheimer.com/wp-content/uploads/2019/07/A0021.pdf [high]
+
+8. Waltz, Kenneth N. (2000). "Structural Realism after the Cold War." International Security, 25(1), 5-41. Passages on democracy and peace, interdependence, NATO, and unipolarity read; the rest of the article was not read in full.
+   https://www.columbia.edu/itc/sipa/U6800/readings-sm/Waltz_Structural%20Realism.pdf [high]
+
+9. Keohane, Robert O. & Nye, Joseph S. (2012, 4th ed.; the catalog record in the text is dated 2011). "Power and Interdependence." Boston: Longman. The passage on the characteristics of complex interdependence read; the rest of the text was not read in full. The first edition (Boston: Little, Brown, 1977) is confirmed by its review in Political Science Quarterly 93(1), 1978, https://doi.org/10.2307/2149069.
+   http://slantchev.ucsd.edu/courses/ps240/05%20Cooperation%20with%20States%20as%20Unitary%20Actors/Keohane%20&%20Nye%20-%20Power%20and%20interdependence%20%5bCh%201-3%5d.pdf [high]
+
+10. Legro, Jeffrey W. & Moravcsik, Andrew (1999). "Is Anybody Still a Realist?" International Security, 24(2), 5-55. Read as Weatherhead Center Working Paper 98-14 (October 1998): abstract, introduction, and the section on realist assumptions.
+    https://www.princeton.edu/~amoravcs/library/98-14.pdf [high]
+
+11. Hillison, Joel; Garcia, Zenel; & Combes, M. L. deRaismes (2026). "International Relations Theory: A Primer for Practitioners." Expeditions with MCUP, Marine Corps University Press, 27 July 2026. Read in full apart from endnotes.
+    https://doi.org/10.36304/ExpwMCUP.2026.09 [medium]
+
+12. Russett, Bruce; Oneal, John R.; & Davis, David R. (1998). "The Third Leg of the Kantian Tripod for Peace: International Organizations and Militarized Disputes, 1950-85." International Organization, 52(3), 441-467. Abstract consulted.
+    https://www.jstor.org/stable/2601398 [high]
+
+13. Oneal, John R. & Russett, Bruce (1999). "Assessing the Liberal Peace with Alternative Specifications: Trade Still Reduces Conflict." Journal of Peace Research, 36(4), 423-442. Abstract consulted.
+    https://doi.org/10.1177/0022343399036004003 [high]
+
+14. Rosato, Sebastian (2003). "The Flawed Logic of Democratic Peace Theory." American Political Science Review, 97(4), 585-602. Abstract consulted.
+    https://doi.org/10.1017/S0003055403000893 [high]
+
+15. Levy, Jack S. & Thompson, William R. (2010). "Balancing on Land and at Sea: Do States Ally against the Leading Global Power?" International Security, 35(1), 7-43. Abstract consulted.
+    https://doi.org/10.1162/ISEC_a_00001 [high]
+
+16. Hurd, Ian (2008). "Constructivism." In Reus-Smit, C. & Snidal, D. (eds.), The Oxford Handbook of International Relations, 298-316. Oxford University Press. Excerpts consulted, including the quotation from Wendt (1995).
+    https://doi.org/10.1093/oxfordhb/9780199219322.003.0017 [high]
+
+17. Finnemore, Martha & Sikkink, Kathryn (1998). "International Norm Dynamics and Political Change." International Organization, 52(4), 887-917. Excerpts consulted.
+    https://doi.org/10.1162/002081898550789 [high]
+
+18. Finnemore, Martha (1996). "National Interests in International Society." Cornell University Press. Publisher and library descriptions and table of contents consulted.
+    https://www.jstor.org/stable/10.7591/j.ctt1rv61rh [high]
+
+19. Department of International Politics, Aberystwyth University. "About us." Institutional history of the 1919 foundation, the Woodrow Wilson Chair, Zimmern, and Carr. Excerpts consulted.
+    https://www.aber.ac.uk/en/interpol/about [high]
+
+20. Rood, T. (2025). "E. H. Carr and Alfred Zimmern: utopia, reality, and the twenty years' crisis." International Theory. Abstract and excerpts consulted.
+    https://doi.org/10.1017/s1752971925100109 [high]
+
+21. "Kant's Social and Political Philosophy." Stanford Encyclopedia of Philosophy. Excerpts on perpetual peace and the three definitive articles consulted; the entry was not read in full.
+    https://plato.stanford.edu/entries/kant-social-political/ [high]
+
+22. United Nations. 2005 World Summit Outcome Document (A/RES/60/1), paragraphs 138-139, as quoted on the UN "World Summit 2005" page; the UN "About the Responsibility to Protect" page (https://www.un.org/en/genocide-prevention/responsibility-protect/about) was also consulted. Text of the paragraphs consulted.
+    https://www.un.org/en/conferences/environment/newyork2005 [high]
+
+23. Kroenig, Matthew (2026). "Realism Is Unrealistic." Foreign Policy, 19 August 2026. An opinion column, read in full; used only for the author's argument and for the realist responses it reports.
+    https://foreignpolicy.com/2026/08/19/realism-international-relations-power-america-cold-war-hegemony [medium]
+
+24. Pashakhanlou, Arash Heydarian (2014). "Waltz, Mearsheimer and the post-Cold War world: The rise of America and the fall of structural realism." International Politics. Abstract and excerpts consulted.
+    https://doi.org/10.1057/ip.2014.16 [high]
+
+25. Vasquez, John A. (1997). "The Realist Paradigm and Degenerative versus Progressive Research Programs: An Appraisal of Neotraditional Research on Waltz's Balancing Proposition." American Political Science Review, 91(4), 899-912. Abstract and opening sections read; the rest of the article was not read.
+    https://www.jstor.org/stable/2952172 [high]
+
+26. Krasner, Stephen D. (1982). "Structural causes and regime consequences: regimes as intervening variables." International Organization, 36(2), 185-205. Abstract consulted.
+    https://www.cambridge.org/core/journals/international-organization/article/structural-causes-and-regime-consequences-regimes-as-intervening-variables/19A9938FE30759F777EA8EDC38BF1227 [high]
+
+27. Mearsheimer, John J. (2005). "The Rise of China Will Not Be Peaceful at All." The Australian, 18 November 2005. A primary statement of the author's own prediction. Excerpt consulted.
+    https://www.mearsheimer.com/wp-content/uploads/2019/06/The-Australian-November-18-2005.pdf [high]
+
+28. Wendt, Alexander (1999). "Social Theory of International Politics." Cambridge University Press. Publisher's description consulted.
+    https://www.cambridge.org/core/books/social-theory-of-international-politics/0346E6FDC74FECEF6D2CDD7EFB003CF2 [high]
 
 ## See Also
 
