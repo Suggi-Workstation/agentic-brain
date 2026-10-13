@@ -81,7 +81,7 @@ committing.
 - [ ] Procedure completed: select one topic in step 2, read template, review and correct in step 4, re-read template and verify checklist, stamp reviewed date, log, publish (PASS / HALT)
 - [ ] Template read in full before reviewing and re-read before final checklist verification (PASS / HALT)
 - [ ] Topic selected per step 2; its frontmatter confirms eligibility (PASS / HALT)
-- [ ] Topic and anchor read in full; core statements of every section checked against independent research and each settled as in step 4.3; replaced or orphaned sources removed; every citation resolves (PASS / HALT)
+- [ ] Own research done before reading the topic; anchor and topic read in full; core statements of every section checked against that research and their cited sources, each settled as in step 4.4; replaced or orphaned sources removed; every citation resolves (PASS / HALT)
 - [ ] Whole final topic passes the Library Topic Checklist, including measured section word counts; G3 applied as the template scopes it for review; creation-only actions excluded as specified below (PASS / HALT)
 - [ ] `reviewed: <YYYY-MM-DD>` added or updated in frontmatter of each reviewed topic (PASS / HALT)
 - [ ] Changes limited to corrections, rewrites the findings require, additions whose absence left the topic wrong or seriously incomplete, and template compliance; no padding or cosmetic rewrites (PASS / HALT)
@@ -99,9 +99,8 @@ committing.
 
 VPS agents: `cd /srv/brain/agentic-brain`. The watcher keeps the
 clone synchronized with GitHub. Read the Publication section of
-`agentic-brain:library/guide-library.md`. Capture selected topics and their
-research inputs with the helper's snapshot command and read captured files
-in full. Do not modify the live clone while reviewing or preparing drafts.
+`agentic-brain:library/guide-library.md`. Do not modify the live clone
+while reviewing or preparing drafts.
 
 VPS-connected agents: no local clone. Every read and write below goes
 through the Path Convention commands above.
@@ -128,29 +127,35 @@ format specification and Library Topic Checklist throughout the review.
 
 ### 4. Review the topic
 
-1. Read the captured topic and its domain anchor in full.
-2. Research the topic yourself as the template describes, using current
-   high-authority sources, including evidence published since the topic
-   was written. Check the topic's core statements against your research:
-   the essential arguments, findings and figures of every section, from
-   the title and opening paragraph through Background, Core Concepts,
-   Evidence, Implications and any optional sections. Do not trace
-   incidental details or passing examples.
-3. In a temporary draft, settle each core statement:
-   - Confirmed in the source it cites: keep the statement and its
+1. Capture the selected topic and its domain anchor with the helper's
+   snapshot command. Read the anchor in full. Do not read the topic body
+   yet.
+2. Research the subject yourself. Search the web for the domain and topic
+   title, and read current high-authority sources.
+3. Read the captured topic in full.
+4. Check its core statements against your research: the essential
+   arguments, findings and figures of every section, from the title and
+   opening paragraph through Background, Core Concepts, Evidence,
+   Implications and any optional sections. Do not trace incidental
+   details or passing examples. Open a statement's cited source only when
+   your research has not already shown what it says. In a temporary
+   draft, settle each core statement:
+   - Your research and its cited source support it: keep the statement
+     and its citation.
+   - Your research supports it, but it is uncited or its cited source
+     does not: cite the source you verified it in, replacing any old
      citation.
-   - Confirmed in a source it does not cite: cite that source, replacing
-     any old citation.
-   - Contradicted or outdated: rewrite the statement and every passage
-     that depends on it to match your findings, and cite the source you
-     verified.
-   - Not found: keep a cited statement and its citation unchanged. Remove
-     an uncited statement, or label it as synthesis if it is the topic's
-     own reasoning.
-4. Correct any other text your research shows is wrong the same way. Add
+   - Your research contradicts it or shows it outdated: rewrite the
+     statement and every passage that depends on it to match your
+     findings, and cite the source you verified.
+   - Your research does not cover it: keep the statement and its citation
+     if the cited source supports it. If it is uncited or its cited source
+     does not support it, remove it, or label it as synthesis if it is the
+     topic's own reasoning.
+5. Correct any other text your research shows is wrong the same way. Add
    new material only where its absence leaves the topic wrong or
    seriously incomplete.
-5. Keep Sources consistent. Support each statement with one verified
+6. Keep Sources consistent. Support each statement with one verified
    source unless it reports findings from several. Cite an existing entry
    when it is the source you verified; add an entry only for a source not
    yet listed. Remove a source once no citation uses it because you
@@ -160,7 +165,7 @@ format specification and Library Topic Checklist throughout the review.
    and renumber so every citation resolves.
    Keep the section structure unless new content needs a new section.
    Keep the original ID and author. ASCII only.
-6. If you find a problem you cannot resolve, record ERROR and leave the
+7. If you find a problem you cannot resolve, record ERROR and leave the
    topic unchanged.
 
 ### 5. Re-read the template and verify its checklist
