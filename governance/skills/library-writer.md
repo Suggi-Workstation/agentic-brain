@@ -81,6 +81,7 @@ publication. HALT on failure.
 - [ ] Every outcome, including ERROR, recorded in library.log when safe publication was available; otherwise failure surfaced to the caller (PASS / HALT)
 - [ ] Shared publication used the Library Guide's Publication procedure and returned PASS; topic, candidate disposition, and log form one commit (PASS / HALT)
 - [ ] Failed or incomplete research did not remove the candidate or publish a partial topic (PASS / HALT)
+- [ ] Papers read in full; none used from its abstract alone (PASS / HALT)
 - [ ] Exact committed work verified on the remote mirror; a fresh unrelated watcher log line alone is insufficient (PASS / HALT)
 
 ## Procedure
@@ -142,7 +143,8 @@ are non-negotiable.
 ### 5. Research the topic
 
 Perform web search using the domain name + topic title as query terms.
-Collect 8+ sources (at least 6 high authority, per template G4). Evaluate source quality:
+Collect 8+ sources (at least 6 high authority, per template G4). Read papers
+in full; never use a paper from its abstract alone. Evaluate source quality:
 - **High authority (8-10):** academic papers, reputable publications,
   primary sources, official data.
 - **Medium authority (4-7):** reputable blogs, industry publications,

@@ -81,7 +81,7 @@ committing.
 - [ ] Procedure completed: select one topic in step 2, read template, review and correct in step 4, re-read template and verify checklist, stamp reviewed date, log, publish (PASS / HALT)
 - [ ] Template read in full before reviewing and re-read before final checklist verification (PASS / HALT)
 - [ ] Topic selected per step 2; its frontmatter confirms eligibility (PASS / HALT)
-- [ ] Own research done before reading the topic: 8+ sources found and read in that research, at least 6 high (template G4), overlap with the topic's sources allowed, sources opened later to check citations not counted; anchor and topic read in full; core statements of every section checked against that research and their cited sources, each settled as step 4 specifies; replaced or orphaned sources removed; every citation resolves (PASS / HALT)
+- [ ] Own research done before reading the topic: 8+ sources found and read in that research, at least 6 high (template G4), overlap with the topic's sources allowed, sources opened later to check citations not counted; no paper used from its abstract alone; anchor and topic read in full; core statements of every section checked against that research and their cited sources, each settled as step 4 specifies; replaced or orphaned sources removed; new sources without reading notes; every citation resolves (PASS / HALT)
 - [ ] Whole final topic passes the Library Topic Checklist, including measured section word counts; G3 applied as the template scopes it for review; creation-only actions excluded as specified below (PASS / HALT)
 - [ ] `reviewed: <YYYY-MM-DD>` added or updated in frontmatter of each reviewed topic (PASS / HALT)
 - [ ] Changes limited to corrections, rewrites the findings require, additions whose absence left the topic wrong or seriously incomplete, and template compliance; no padding or cosmetic rewrites (PASS / HALT)
@@ -133,7 +133,8 @@ format specification and Library Topic Checklist throughout the review.
 2. Research the topic before reading it. Perform web search using the
    domain name + topic title as query terms, within the scope of its index
    summary. Collect and read 8+ sources of your own (at least 6 high
-   authority, per template G4). A source the topic also cites counts if
+   authority, per template G4). Read papers in full; a paper read only as
+   an abstract does not count. A source the topic also cites counts if
    this research found it; sources opened later to check the topic's
    citations do not count. The check below decides which, if any, enter
    the topic.
@@ -143,8 +144,9 @@ format specification and Library Topic Checklist throughout the review.
    opening paragraph through Background, Core Concepts, Evidence,
    Implications and any optional sections. Do not trace incidental
    details or passing examples. Open a statement's cited source only when
-   your research has not already shown what it says. In a temporary
-   draft, settle each core statement:
+   your research has not already shown what it says; a cited paper you
+   cannot read in full does not support it. In a temporary draft, settle
+   each core statement:
    - Your research and its cited source support it: keep the statement
      and its citation.
    - Your research supports it, but it is uncited or its cited source
@@ -154,9 +156,9 @@ format specification and Library Topic Checklist throughout the review.
      statement and every passage that depends on it to match your
      findings, and cite the source you verified.
    - Your research does not cover it: keep the statement and its citation
-     if the cited source supports it. If it is uncited or its cited source
-     does not support it, remove it, or label it as synthesis if it is the
-     topic's own reasoning.
+     if the cited source supports it. Otherwise search for a source that
+     does; if none is found, remove the statement, or label it as
+     synthesis if it is the topic's own reasoning.
 5. Correct any other text your research shows is wrong the same way. Add
    new material only where its absence leaves the topic wrong or
    seriously incomplete.
@@ -166,8 +168,9 @@ format specification and Library Topic Checklist throughout the review.
    yet listed. Remove a source once no citation uses it because you
    replaced it or removed its statement, including a listed but uncited
    source that only backed a statement you rewrote or removed. Keep other
-   listed sources the original never cited inline. Rate each new source
-   and renumber so every citation resolves.
+   listed sources the original never cited inline. Write each new source
+   in the template's Sources format, without reading notes, and renumber
+   so every citation resolves.
    Keep the section structure unless new content needs a new section.
    Keep the original ID and author. ASCII only.
 7. If you find a problem you cannot resolve, record ERROR and leave the
