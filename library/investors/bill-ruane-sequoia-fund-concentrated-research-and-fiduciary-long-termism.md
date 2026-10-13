@@ -6,6 +6,7 @@ domain: investors
 author: Librarian
 tags: [bill-ruane, sequoia-fund, ruane-cunniff, concentrated-investing, investment-research, capacity-discipline, graham-and-doddsville]
 links: [library/investors/warren-buffett.md, library/investors/lou-simpson-concentrated-quality-investing.md, library/value-investing/concentration-vs-diversification.md, library/investment-vehicles-fund-structures/fund-succession-and-key-person-risk.md]
+reviewed: 2026-10-13
 ---
 
 # Bill Ruane -- Research-Led Concentration and a Willingness to Turn Away Capital Built Sequoia's Long Record
@@ -38,7 +39,7 @@ The same letter described the organization that applied the principle. By 1997 t
 
 Ruane connected research depth directly to portfolio construction. "We believe that truth is in the details," he wrote, and intensive research was "of immense importance in avoiding big mistakes and developing the positive convictions required to own and hold concentrated investment positions" [3]. The causal order matters: research produced conviction, and conviction was the precondition for size. Concentration was not presented as a source of return by itself.
 
-The portfolio disclosures show what this meant in practice. Sequoia was registered as a non-diversified fund [3]. At the end of 1996, Berkshire Hathaway alone represented 27.93% of total investments, Freddie Mac 15.22%, and Progressive 11.54%; the five largest positions together were 66.8% of total investments by the author's calculation from the schedule [3]. Berkshire remained the largest holding at 29.19% at the end of 1998, 29.11% at the end of 1999, and 33.8% of assets at the end of 2005 [4][5][6]. The 2005 report summarized the philosophy as making "concentrated commitments of capital in a limited number of companies that have superior long-term economic prospects" at attractive prices, and warned that the fund would therefore often differ significantly from the indexes in any given year [6].
+The portfolio disclosures show what this meant in practice. Sequoia was registered as a non-diversified fund [3]. At the end of 1996, Berkshire Hathaway alone represented 27.93% of total investments, Freddie Mac 15.22%, and Progressive 11.54%; the five largest positions (those four plus First Bank Systems at 5.58%) together were 67.0% of total investments by the author's calculation from the schedule [3]. Berkshire remained the largest holding at 29.19% at the end of 1998, 29.11% at the end of 1999, and 33.8% of assets at the end of 2005 [4][5][6]. The 2005 report summarized the philosophy as making "concentrated commitments of capital in a limited number of companies that have superior long-term economic prospects" at attractive prices, and warned that the fund would therefore often differ significantly from the indexes in any given year [6].
 
 ### Quality at a Price, With Valuation as the Brake
 
@@ -84,7 +85,7 @@ The fund's own illustration of a $10,000 investment shows how long the early tes
 
 ### Portfolio Disclosures Document Concentration and Patience
 
-The annual reports filed with the SEC show the portfolio during Ruane's chairmanship. At the end of 1996, common stocks were 91.85% of investments and U.S. government obligations 8.15%; Berkshire, Freddie Mac, Progressive, Fifth Third, and Johnson & Johnson accounted for about two-thirds of investments [3]. Sequoia owned 5% or more of Progressive's voting securities, making Progressive an affiliated company under the Investment Company Act [3]. Net assets were $2,581.0 million, and turnover was 23% [3]. These figures establish that the fund's concentration was not a rhetorical claim; it was visible in audited schedules.
+The annual reports filed with the SEC show the portfolio during Ruane's chairmanship. At the end of 1996, common stocks were 91.85% of investments and U.S. government obligations 8.15%; Berkshire, Freddie Mac, Progressive, Fifth Third, and First Bank Systems accounted for about two-thirds of investments (67.0% by the author's calculation) [3]. Sequoia owned 5% or more of Progressive's voting securities, making Progressive an affiliated company under the Investment Company Act [3]. Net assets were $2,581.0 million, and turnover was 23% [3]. These figures establish that the fund's concentration was not a rhetorical claim; it was visible in audited schedules.
 
 ### The 1997-2002 Cycle Shows Both the Cost and the Payoff of Discipline
 
@@ -92,7 +93,7 @@ The late-1990s letters provide a case in which the managers' own stated method c
 
 The 1999 letter also contained an explicit admission about process drift. Because the firm had "a tendency to leave a fair amount of money on the table," it had "adopted a tolerance for holding stocks at higher valuation levels than in the past"; that evolution contributed to the outsized 1997 and 1998 results and was "a factor in our unusually poor results in 1999" [5]. By the managers' own account, relaxing the valuation limit on holdings raised returns in the boom and deepened the decline afterward [5].
 
-The following years show the other side. The 2005 report's comparison of $10,000 invested at the end of 1995 implies, by the author's calculation, returns of 20.1%, 10.5%, and -2.6% for Sequoia in 2000, 2001, and 2002, against -9.1%, -11.9%, and -22.1% for the S&P 500 [6]. From the end of 1999 to the end of 2002, Sequoia's comparison value rose 29.2% while the S&P 500's fell 37.6% [6]. The 1999 letter stated that technology stocks accounted for almost all of the index's gains that year [5]. The author's interpretation is that the refusal to buy technology at prevailing valuations contributed to the 1999 relative shortfall and helped protect the fund in the decline that followed [5][6].
+The following years show the other side. The 2005 report's comparison of $10,000 invested at the end of 1995 implies, by the author's calculation, returns of 20.1%, 10.5%, and -2.6% for Sequoia in 2000, 2001, and 2002, against -9.1%, -11.9%, and -22.1% for the S&P 500 [6]. From the end of 1999 to the end of 2002, Sequoia's comparison value rose 29.2% while the S&P 500's fell 37.6% [6]. The 1999 letter stated that technology stocks accounted for almost all of the market indexes' gains in 1999 and in early 2000 [5]. The author's interpretation is that the refusal to buy technology at prevailing valuations contributed to the 1999 relative shortfall and helped protect the fund in the decline that followed [5][6].
 
 ### The Long-Run Record Through Ruane's Death
 
@@ -114,7 +115,7 @@ Ruane's practice reverses the common shortcut of adopting a concentrated portfol
 
 The 1999 letter adds a second rule. A manager who loosens a valuation discipline because it "left money on the table" should expect the cost to appear later, often in concentrated holdings that have already risen [5]. Writing down the sell criteria before a boom, and recording any deliberate change to them, allows the investor to see process drift as it happens rather than only in hindsight.
 
-Circle-of-competence decisions also have a measurable cost. Sequoia trailed the S&P 500 by 37.5 percentage points in 1999, a year in which its letter said technology produced almost all of the index's gains, and then led it substantially over 2000-2002 [5][6]. The author's interpretation is that a competence boundary is useful only if the investor can endure the periods in which it is expensive; otherwise it will be abandoned at the worst moment.
+Circle-of-competence decisions also have a measurable cost. Sequoia trailed the S&P 500 by 37.5 percentage points in 1999, a period in which its letter said technology produced almost all of the market indexes' gains, and then led it substantially over 2000-2002 [5][6]. The author's interpretation is that a competence boundary is useful only if the investor can endure the periods in which it is expensive; otherwise it will be abandoned at the worst moment.
 
 ### For Investment-Firm Builders: Capacity Is a Fiduciary Choice
 
@@ -150,7 +151,7 @@ Ruane, Schloss, and Buffett learned from Graham but built very different portfol
 
 ## Criticisms
 
-Several limits qualify the record. First, it is a team record. Ruane wrote that Goldfarb deserved equal billing from 1971, and Sequoia's letters were written in the collective "we," so specific decisions cannot be assigned to Ruane alone [3][5]. Second, much of the performance evidence is self-reported in fund materials or presented by Buffett, a friend and advocate; the annual reports are audited financial statements, but the narrative interpretations are the managers' own [2][3][6]. Third, Berkshire Hathaway represented roughly 28% to 34% of the fund at the year-ends reported here; the author's assessment is that Sequoia's results in those years were partly a bet on Buffett's capital allocation [3][4][5][6]. Fourth, the margin over the index has not persisted under later management: through September 30, 2025 the fund reported 13.53% a year since inception against 11.48% for the S&P 500, but 9.94% against 15.29% for the latest ten years [17]. Finally, the adviser earned brokerage commissions on fund trades in addition to its advisory fee; the author's assessment is that this disclosed arrangement nonetheless created a potential conflict [3].
+Several limits qualify the record. First, it is a team record. Ruane wrote that Goldfarb deserved equal billing from 1971, and Sequoia's letters were written in the collective "we," so specific decisions cannot be assigned to Ruane alone [3][5]. Second, much of the performance evidence is self-reported in fund materials or presented by Buffett, a friend and advocate; the annual reports are audited financial statements, but the narrative interpretations are the managers' own [2][3][6]. Third, Berkshire Hathaway represented roughly 28% to 34% of the fund at the year-ends reported here; the author's assessment is that Sequoia's results in those years were partly a bet on Buffett's capital allocation [3][4][5][6]. Fourth, the margin over the index has not persisted under later management: through September 30, 2026 the fund reported 13.28% a year since inception against 11.55% for the S&P 500, but 12.24% against 15.32% for the latest ten years [17]. Finally, the adviser earned brokerage commissions on fund trades in addition to its advisory fee; the author's assessment is that this disclosed arrangement nonetheless created a potential conflict [3].
 
 ## Sources
 
@@ -203,9 +204,10 @@ Several limits qualify the record. First, it is a team record. Ruane wrote that 
 16. Kiplinger (2016). "Sequoia Fund's Tragic Love Affair With Valeant." April 29, 2016. Columnist's account of closing periods and Valeant position size.
     https://www.kiplinger.com/article/investing/t041-c007-s001-sequoia-fund-s-tragic-love-affair-with-valeant.html [medium]
 
-17. Sequoia Fund (2025-2026). "About" page and "Q3 2025 Sequoia Fund Factsheet" (as of September 30, 2025). Official fund history, inception date, holdings count, turnover, and since-inception returns.
+17. Sequoia Fund (2026). "About" page; "Performance" page (net returns as of September 30, 2026, accessed October 13, 2026); and "Q2 2026 Sequoia Fund Factsheet" (as of June 30, 2026). Official fund history, inception date, Investment Committee start, and since-inception and ten-year returns.
     https://www.sequoiafund.com/about/
-    https://www.sequoiafund.com/wp-content/uploads/2026/01/Q3-2025-Sequoia-Fund-Factsheet.pdf [high]
+    https://sequoiafund.com/performance
+    https://sequoiafund.com/wp-content/uploads/2026/05/Q2-2026-Sequoia-Fund-Factsheet.pdf [high]
 
 ## See Also
 
