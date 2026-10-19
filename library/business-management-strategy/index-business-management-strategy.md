@@ -1,6 +1,6 @@
 # Business Management Strategy -- Topics
 
-21 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
+22 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
 
 - [Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes](corporate-governance-board-effectiveness.md) -- [reviewed: 2026-09-09] -- Corporate governance allocates decision rights and accountability among the people who finance, direct, and operate a company. Boards are central to this system: they oversee leadership, major decisions, and the information needed to identify risks, but their effectiveness depends on incentives, competence, and the surrounding institutions rather than a formal independence label alone.
 
@@ -33,6 +33,8 @@
 - [Resource Allocation and Capital Budgeting -- Why Deciding Where Every Dollar Goes Is the Most Important Job in the Company](resource-allocation-and-capital-budgeting.md) -- [reviewed: never] -- Resource allocation and capital budgeting are the processes by which organizations decide where to deploy their finite financial and operational resources. These decisions -- which projects to fund, which to reject, how much to reinvest versus return to shareholders, and how to allocate capital across competing internal divisions -- determine whether a company compounds value or destroys it over time.
 
 - [Sales Force Design Creates Revenue Quality Only When Territories, Quotas, Incentives, and Pipeline Evidence Fit](sales-force-design-and-revenue-operations.md) -- [reviewed: never] -- Sales force design converts market strategy into account coverage, roles, capacity, territories, quotas, incentives, pipeline definitions, and forecast routines. The core claim is that these elements form one operating system: optimizing any one in isolation can increase reported activity while reducing customer coverage, pricing quality, forecast truth, or economic value [1][2][9].
+
+- [Strategic Alliances, Joint Ventures, and Business Ecosystems -- Governing Interdependence Without Ownership Is a Design and Capability Problem](strategic-alliances-joint-ventures-and-business-ecosystems.md) -- [reviewed: never] -- A firm that needs a capability it does not own can build it, buy the company that owns it, contract for it, or partner with the owner. Alliances, joint ventures, and ecosystems occupy the ground between buying and contracting: control, information, and returns are shared across legal boundaries. The research reviewed here indicates that results depend less on the label of the form than on three...
 
 - [Strategy Formulation and Execution -- Strategy Is a Coherent Set of Choices That Only Delivery and Feedback Can Prove](strategy-formulation-and-execution.md) -- [reviewed: never] -- Strategy formulation is the process of turning a diagnosis of a firm's situation into a coherent set of choices about where to compete, which activities and capabilities to build, and what to leave undone; execution is the process by which those choices become resource commitments and realized patterns of action.
 
