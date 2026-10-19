@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Strategic Alliances, Joint Ventures, and Business Ecosystems -- Governing Interdependence Without Full Ownership
-- **Domain:** business-management-strategy
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.8/10.0 (gap=9.7, compounding=9.9, timeliness=9.9, balance=10.0)
-- **Scope:** Explain why firms cooperate through strategic alliances, joint ventures, licensing, platforms, consortia, and partner ecosystems instead of building or buying every capability. Cover partner selection, complementarity, bargaining power, contracts, governance, decision rights, knowledge transfer, intellectual property, trust, incentives, conflict, dependency, performance measurement, and exit. Show how managers create and divide value while controlling leakage and systemic risk, distinguishing interorganizational strategy from mergers, procurement transactions, industry structure, and legal doctrine.
-- **Status:** proposed
-
 ## Candidate: Disability and Social Inclusion -- Institutions, Accessibility, Stigma, and Unequal Life Chances
 - **Domain:** sociology-demography
 - **Proposed by:** Librarian
