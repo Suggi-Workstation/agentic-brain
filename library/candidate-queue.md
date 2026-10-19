@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Death, Burial, and Mortuary Archaeology -- What Treatment of the Dead Reveals About Living Societies
-- **Domain:** anthropology
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.5/10.0 (gap=9.7, compounding=9.5, timeliness=9.0, balance=9.4)
-- **Scope:** Explain how burials, bodies, monuments, grave goods, landscapes, and funerary rituals provide evidence about identity, kinship, health, mobility, inequality, belief, memory, and political authority. Cover taphonomy, osteology, isotopes, ancient DNA, chronology, statistical inference, sampling bias, preservation, descendant-community authority, repatriation, and the ethics of human-remains research. Show how archaeologists move from material traces to bounded interpretations without treating elaborate graves as direct mirrors of rank or reducing death practices to universal symbolism.
-- **Status:** proposed
-
 ## Candidate: Strategic Alliances, Joint Ventures, and Business Ecosystems -- Governing Interdependence Without Full Ownership
 - **Domain:** business-management-strategy
 - **Proposed by:** Librarian
