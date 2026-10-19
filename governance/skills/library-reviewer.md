@@ -81,7 +81,7 @@ committing.
 - [ ] Procedure completed: select one topic in step 2, read template, review and correct in step 4, re-read template and verify checklist, stamp reviewed date, log, publish (PASS / HALT)
 - [ ] Template read in full before reviewing and re-read before final checklist verification (PASS / HALT)
 - [ ] Topic selected per step 2; its frontmatter confirms eligibility (PASS / HALT)
-- [ ] Own research done before reading the topic: 8+ sources read before the topic was opened, at least 6 high (template G4), overlap with the topic's sources allowed; no paper used from its abstract alone; anchor and topic read in full; core statements of every section checked against that research and their cited sources, each settled as step 4 specifies; replaced or orphaned sources removed; new sources without reading notes; every citation resolves (PASS / HALT)
+- [ ] Own research done before reading the topic: 8+ sources read before the topic was opened, at least 6 high (template G4), overlap with the topic's sources allowed; every source's whole main text read, none from an abstract, summary or selected sections; anchor and topic read in full; core statements of every section checked against that research and their cited sources, each settled as step 4 specifies; replaced or orphaned sources removed; new sources without reading notes; every citation resolves (PASS / HALT)
 - [ ] Whole final topic passes the Library Topic Checklist, including measured section word counts; G3 applied as the template scopes it for review; creation-only actions excluded as specified below (PASS / HALT)
 - [ ] `reviewed: <YYYY-MM-DD>` added or updated in frontmatter of each reviewed topic (PASS / HALT)
 - [ ] Changes limited to corrections, rewrites the findings require, additions whose absence left the topic wrong or seriously incomplete, and template compliance; no padding or cosmetic rewrites (PASS / HALT)
@@ -133,8 +133,9 @@ format specification and Library Topic Checklist throughout the review.
 2. Research the topic before reading it. Perform web search using the
    domain name + topic title as query terms, within the scope of its index
    summary. Collect and read 8+ sources of your own (at least 6 high
-   authority, per template G4). Read papers in full; a paper read only as
-   an abstract does not count. Only sources read before you open the
+   authority, per template G4). Read every source in full: its whole main
+   text, not only an abstract, summary or selected sections; a source not
+   read in full does not count. Only sources read before you open the
    topic count; a source the topic also cites counts if this research
    found it. The check below decides which, if any, enter the topic.
 3. Read the captured topic in full only once you have read 8+ sources of
@@ -145,7 +146,7 @@ format specification and Library Topic Checklist throughout the review.
    opening paragraph through Background, Core Concepts, Evidence,
    Implications and any optional sections. Do not trace incidental
    details or passing examples. Open a statement's cited source only when
-   your research has not already shown what it says; a cited paper you
+   your research has not already shown what it says; a cited source you
    cannot read in full does not support it. In a temporary draft, settle
    each core statement:
    - Your research and its cited source support it: keep the statement
