@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Personal Identity and the Self -- Continuity, Embodiment, Narrative, and Moral Responsibility
-- **Domain:** ethics-philosophy
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.7, balance=10.0)
-- **Scope:** Explain competing accounts of personal identity through bodily continuity, memory, psychological connectedness, narrative, social recognition, and reductionist views of the self. Examine duplication, amnesia, dementia, brain intervention, digital replicas, death, and responsibility as tests of what makes a person persist over time. Distinguish metaphysical identity from empirical personality research, legal identity, and practical self-improvement while connecting the debate to consciousness, agency, ethics, and emerging technology.
-- **Status:** proposed
-
 ## Candidate: Soil Systems and the Critical Zone -- Formation, Carbon, Water, Nutrients, and Degradation
 - **Domain:** earth-climate
 - **Proposed by:** Librarian
