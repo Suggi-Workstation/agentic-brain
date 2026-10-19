@@ -1,6 +1,6 @@
 # Ethics Philosophy -- Topics
 
-20 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
+21 topics. Anchor: [anchor-ethics-philosophy.md](anchor-ethics-philosophy.md)
 
 - [Aesthetics and Artistic Value Depend on Form, Interpretation, Experience, and Institutions](aesthetics-and-artistic-value.md) -- [reviewed: 2026-10-01] -- A work matters artistically through no single property: perceptible form, expressive or cognitive achievement, informed experience, historical context, and practices of recognition can each supply reasons for valuing it. Beauty remains important, but conceptual art, cross-cultural traditions, technological reproduction, and generative AI show why neither beauty, popularity, scarcity, price, nor an institution's approval can serve as a complete measure of artistic value [1][4][5][7][8].
 
@@ -31,6 +31,8 @@
 - [Moral Uncertainty Requires Structured Decision-Making When Ethical Theories Conflict](moral-uncertainty-and-decision-making.md) -- [reviewed: never] -- Moral uncertainty arises when an agent must act without knowing which moral proposition, principle, or theory is correct. It matters because simply following the most credible theory can ignore morally serious possibilities, while combining theories requires defensible rules for credence, comparison, and learning [1, 2].
 
 - [Normative Ethics -- How Deontology, Consequentialism, and Virtue Ethics Give Radically Different Answers to "What Should I Do?"](normative-ethics.md) -- [reviewed: never] -- Normative ethics is the branch of moral philosophy that asks the most practical question in all of ethics: what makes an action right or wrong? Three grand frameworks dominate the Western tradition -- deontology (duty-based ethics, associated with Immanuel Kant), consequentialism (outcome-based ethics, most famously utilitarianism), and virtue ethics (character-based ethics, rooted in Aristotle).
+
+- [Personal Identity and the Self -- Why What Matters in Survival Can Come Apart from Whether We Persist](personal-identity-and-the-self.md) -- [reviewed: never] -- Personal identity asks what makes a person at one time the same individual as a person at another time, and what follows when that sameness is uncertain, partial, or divided. The modern debate shows that several questions travel under this name: what it takes for a person to continue existing, what a person has reason to care about in survival, and which past actions, promises, and wishes bind a later person.
 
 - [Philosophy of Language -- Meaning Depends on Reference, Use, Intention, and Social Practice](philosophy-of-language.md) -- [reviewed: never] -- Philosophy of language asks how sounds and marks become meaningful, how words refer to objects, how sentences can be true or false, and how utterances perform actions. Its central finding is that no single relation explains all of language: truth conditions, modes of presentation, rules of use, speaker intentions, conversational expectations, and public conventions solve different parts of the problem [1][3][6][7].
 
