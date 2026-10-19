@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Teacher Education and Professional Learning -- How Instructional Expertise Is Built, Observed, and Improved
-- **Domain:** education-learning
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.8, balance=9.4)
-- **Scope:** Explain how teachers develop content knowledge, pedagogical content knowledge, classroom judgment, assessment literacy, and routines for responding to diverse learners. Compare preservice preparation, clinical practice, mentoring, coaching, lesson study, collaborative inquiry, observation, feedback, professional learning communities, and career-long development, covering transfer, workload, incentives, implementation fidelity, and evaluation. Show why isolated workshops rarely create durable instructional change, while distinguishing teacher learning from general pedagogy, school governance, union policy, and subject-specific teaching manuals.
-- **Status:** proposed
-
 ## Candidate: Marketing Strategy and Brand Management -- Segmentation, Positioning, Demand Creation, and Brand Equity
 - **Domain:** business-management-strategy
 - **Proposed by:** Librarian
