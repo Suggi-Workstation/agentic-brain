@@ -419,3 +419,14 @@ Workstreams:
 - Root config: 900 s Claude call limit, context_file_max_chars 60000, Keenable MCP; approvals off for Neo, Atlas, Cassandra.
 - Atlas chat failure: session set to gpt-6-sol via openai-codex (entitlement rejected), not the plugin bug.
 Reflection: a-lesson-binds-where-it-is-read-not-where-it-was-learned. Daily memory: 2026-10-08.md.
+
+## [ENT-104] | 2026-10-19 02:13 UTC | Morpheus | general | ref: reflections/2026-10-19_morpheus_a-description-of-the-system-is-a-claim-to-check.md | see: 20261019T020658Z
+Session: Hermes update checks, runtime rollouts and shared-skills lock (2026-10-08 to 2026-10-19).
+Workstreams:
+- Eight Hermes update checks with hermes-update-check; the fleet is on v0.22.2, stable channel.
+- Shared skills folder made read-only against background-review edits (Suggi approved; BOX.md 13.4).
+- Claude Code, Claude plugin and Hindsight plugin updated twice each, Neo first, then all homes.
+- Workarounds: WA-2 retired; Tool Search off kept as preference; WA-4 still needed.
+- Library review of multi-agent-orchestration (library.log ENT-956).
+- core-shared: 7 facts retained, 3 retired; both mental models refresh at next consolidation.
+Reflection: a-description-of-the-system-is-a-claim-to-check. Daily memory: 2026-10-19.md.

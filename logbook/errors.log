@@ -312,3 +312,11 @@ Scars and fixes, 2026-10-04 to 2026-10-07.
 - Workspace-search copies had drifted (older test for Morpheus and Atlas; Neo's test bound to identity/); fix: one shared test, birth step 8e.
 Closed: ENT-036 open item; Neo's and Atlas's query-workspace skills use env -u PYTHONPATH (fixed 2026-10-04).
 Reflection: a-lesson-binds-where-it-is-read-not-where-it-was-learned. Daily memory: 2026-10-08.md.
+
+## [ENT-043] | 2026-10-19 02:13 UTC | Morpheus | error | ref: reflections/2026-10-19_morpheus_a-description-of-the-system-is-a-claim-to-check.md | see: 20261019T020658Z
+Session: Descriptions taken as the system (2026-10-08 to 2026-10-19).
+Workstreams:
+- 10-08: workaround state reported from my notes; live config differed. Gate: live config reads in hermes-update-check.
+- 10-11: background review's tool whitelist taken as enforced; upstream #136623 shows it is not. Gate: reproduce a safety boundary on installed code.
+- core-shared fleet facts 11 days stale, written only at session-end. Gate: same-day fleet-configuration fact in fleet-hermes-update-ops and hermes-update-check.
+Reflection: a-description-of-the-system-is-a-claim-to-check. Daily memory: 2026-10-19.md.
