@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Marketing Strategy and Brand Management -- Segmentation, Positioning, Demand Creation, and Brand Equity
-- **Domain:** business-management-strategy
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.8/10.0 (gap=9.6, compounding=9.8, timeliness=9.8, balance=10.0)
-- **Scope:** Explain how organizations choose markets and customer segments, define positioning, design value propositions, build brand equity, and coordinate product, price, distribution, and promotion. Cover market research, category creation, brand architecture, portfolio choices, channel strategy, demand generation, attribution, customer lifetime value, privacy constraints, and the effects of AI-mediated discovery. Show how marketing creates and captures value without reducing it to advertising, sales operations, pricing alone, or consumer psychology.
-- **Status:** proposed
-
 ## Candidate: Death, Burial, and Mortuary Archaeology -- What Treatment of the Dead Reveals About Living Societies
 - **Domain:** anthropology
 - **Proposed by:** Librarian
