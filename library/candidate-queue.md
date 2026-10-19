@@ -169,3 +169,43 @@
 - **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.7, timeliness=9.9, balance=10.0)
 - **Scope:** Explain how international tax law allocates taxing rights over cross-border business income between residence and source states through domestic law, bilateral treaties, permanent-establishment rules, withholding, and the arm's-length principle for transfer pricing. Cover profit shifting, intangibles, hybrid mismatches, controlled-foreign-company rules, the OECD/G20 BEPS project, the Pillar Two 15 percent minimum tax, the January 2026 Side-by-Side Package, and the UN tax convention negotiations. Distinguish legal rules and enforcement from tax-incidence economics, accounting, and investment-vehicle tax structuring.
 - **Status:** proposed
+
+## Candidate: Boeing 737 MAX -- Certification, Delegation, Flight-Control Design, and Safety Culture After Two Crashes and a Door-Plug Blowout
+- **Domain:** case-studies
+- **Proposed by:** Librarian
+- **Date:** 2026-10-19
+- **Discovery score:** 9.4/10.0 (gap=9.0, compounding=9.6, timeliness=9.7, balance=10.0)
+- **Scope:** Analyze the 737 MAX as a bounded case in aircraft design, certification, regulatory delegation, and corporate safety culture. Reconstruct how single-sensor MCAS design, limited pilot training, FAA oversight, and schedule and competitive pressure contributed to the Lion Air 610 and Ethiopian 302 crashes. Extend the account to the January 2024 Alaska 1282 door-plug blowout, the NTSB's June 2025 probable-cause finding, and the November 2025 dismissal of the criminal case. Extract lessons for boards, regulators, and engineers while distinguishing this case from Challenger, Deepwater Horizon, and general regulatory-capture theory.
+- **Status:** proposed
+
+## Candidate: Particle Physics and the Standard Model -- Fields, Symmetries, Precision Tests, and the Limits of the Theory
+- **Domain:** science
+- **Proposed by:** Librarian
+- **Date:** 2026-10-19
+- **Discovery score:** 9.4/10.0 (gap=9.4, compounding=9.0, timeliness=9.4, balance=10.0)
+- **Scope:** Explain how the Standard Model organizes known elementary particles and three fundamental interactions through quantum fields and gauge symmetries, including the Higgs mechanism and flavor structure. Cover collider experiments, detectors, cross sections, precision electroweak tests, neutrino mass, the muon anomalous magnetic moment, and the evidence motivating physics beyond the model. Connect the theory to quantum mechanics and cosmology and to the 2026 European Strategy recommendation of the FCC-ee collider. Distinguish particle physics from accelerator engineering, quantum-mechanics foundations, and speculative claims.
+- **Status:** proposed
+
+## Candidate: Public Opinion, Partisanship, and Affective Polarization -- How Citizens Form Political Judgments and Why Party Animosity Persists
+- **Domain:** political-science-public-policy
+- **Proposed by:** Librarian
+- **Date:** 2026-10-19
+- **Discovery score:** 9.4/10.0 (gap=9.0, compounding=9.5, timeliness=9.4, balance=10.0)
+- **Scope:** Explain how citizens form political preferences and vote choices through party identification, group attachments, elite cues, information environments, and issue attitudes. Distinguish ideological from affective polarization, covering cross-national trends, partisan sorting, misperceptions of the other side, and effects on democratic norms. Evaluate intervention evidence, including the 2024 Science megastudy of 25 treatments and later findings that effects are modest and may not reduce support for antidemocratic practices. Separate mass political behavior from party systems, electoral rules, individual psychology, and media effects.
+- **Status:** proposed
+
+## Candidate: Nudges and Choice Architecture -- Defaults, Sludge, Boosts, and What Behavioral Interventions Achieve at Scale
+- **Domain:** psychology-behavior
+- **Proposed by:** Librarian
+- **Date:** 2026-10-19
+- **Discovery score:** 9.2/10.0 (gap=8.6, compounding=9.5, timeliness=9.2, balance=10.0)
+- **Scope:** Explain how designing the decision environment through defaults, reminders, simplification, and social information changes behavior while preserving freedom of choice. Compare effect sizes in the 2022 Mertens meta-analysis, the Maier publication-bias critique, and nudge-unit trials at scale, covering heterogeneity, durability, and domain differences. Cover boosts, sludge, transparency, autonomy, and welfare standards for judging interventions. Distinguish choice architecture as an intervention tool from framing effects, prospect theory, incentives, and policy implementation.
+- **Status:** proposed
+
+## Candidate: Digital Distraction and Smartphone Use Reduction -- Attention, Well-Being, and Interventions That Hold
+- **Domain:** self-improvement
+- **Proposed by:** Librarian
+- **Date:** 2026-10-19
+- **Discovery score:** 8.8/10.0 (gap=8.4, compounding=8.4, timeliness=9.4, balance=10.0)
+- **Scope:** Translate research on smartphone and social-media use into practical methods for reducing distraction: notifications, app blockers, phone-free spaces, screen-time limits, and timed offline periods. Compare randomized trials, including a 2025 PNAS Nexus mobile-internet blocking trial and a 2025 screen-time reduction trial, with attention to compliance, outcome measures, durability, and individual differences. Show how to run low-risk personal experiments that substitute activities rather than relying on willpower or total abstinence. Distinguish personal practice from clinical addiction treatment, deep-work theory, time-blocking systems, and platform regulation.
+- **Status:** proposed

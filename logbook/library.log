@@ -457,3 +457,13 @@ Review cycle: 1 topics reviewed, 0 current, 1 rewritten.
 Topics:
 - Ecosystems Function Through Coupled Energy, Matter, and Interaction Networks (earth-climate): rewritten (corrected the origin of the term ecosystem (now cited to Willis 1997; Tansley 1935 not read in full), the Odum 1969 succession definition and 24-attribute table, the Connell and Slatyer critique of Odum and their predicted ranges of the facilitation, tolerance and inhibition models, Paine 1966 experiment details (15 to 8 species, barnacle then mussel takeover, Thais 10- to 20-fold increase, indirect effects), the Holling 1973 definitions of stability and resilience (original used later engineering-resilience terminology), the May 1972 result (now cited via Holling and Allesina and Tang; May not read in full), the Tilman, Reich and Knops 2006 passage (removed; paper not readable in full) replaced by the Cedar Creek E120 design and the Loreau 2001 and Cardinale 2012 stability evidence, Lindeman efficiencies and Silver Springs figures, NRC and OpenStax nutrient-cycle statements, IPBES 2019 abundance and driver-ranking figures, and IPCC AR6 WGII chapter 2 driver and attribution statements; updated sources from 17 to 16 (15 high, 1 medium; removed Tansley 1935, May 1972 and Tilman 2006, added Willis 1997 and Cedar Creek E120) and the Background, Core Concepts, Evidence and Implications sections)
 Domain coverage: reviewed across 1 domains.
+
+## [ENT-969] | 2026-10-19 10:54 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 5 candidates proposed, 1 skipped (queue capped at 25).
+Candidates:
+- Boeing 737 MAX -- Certification, Delegation, Flight-Control Design, and Safety Culture After Two Crashes and a Door-Plug Blowout (9.4): gap=9.0, compounding=9.6, timeliness=9.7, balance=10.0
+- Particle Physics and the Standard Model -- Fields, Symmetries, Precision Tests, and the Limits of the Theory (9.4): gap=9.4, compounding=9.0, timeliness=9.4, balance=10.0
+- Public Opinion, Partisanship, and Affective Polarization -- How Citizens Form Political Judgments and Why Party Animosity Persists (9.4): gap=9.0, compounding=9.5, timeliness=9.4, balance=10.0
+- Nudges and Choice Architecture -- Defaults, Sludge, Boosts, and What Behavioral Interventions Achieve at Scale (9.2): gap=8.6, compounding=9.5, timeliness=9.2, balance=10.0
+- Digital Distraction and Smartphone Use Reduction -- Attention, Well-Being, and Interventions That Hold (8.8): gap=8.4, compounding=8.4, timeliness=9.4, balance=10.0
+Domain balance: anthropology, case-studies, political-science-public-policy, psychology-behavior, science, and self-improvement (17 topics each) to ethics-philosophy and geopolitics (21 topics each).
