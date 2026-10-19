@@ -402,3 +402,11 @@ Wrote topic Strategic Alliances, Joint Ventures, and Business Ecosystems -- Gove
 Similarity overlap: 10%.
 Sources: 16 (16 high, 0 medium, 0 low).
 Cross-references: 9 topics.
+
+## [ENT-976] | 2026-10-19 14:40 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 6 domains scanned, 3 candidates proposed, 6 skipped (queue capped at 25).
+Candidates:
+- Mathematical Logic and Formal Proof -- Incompleteness, Computability, Proof Assistants, and Machine-Checked Mathematics (9.5): gap=9.3, compounding=9.4, timeliness=9.8, balance=10.0
+- Nuclear Power Plant Engineering -- Reactor Physics, Safety Systems, Fuel Cycles, and Small Modular Reactors (9.3): gap=9.2, compounding=8.8, timeliness=9.6, balance=10.0
+- Loneliness and Social Connection -- Measurement, Trends, Social Infrastructure, and Population Health Consequences (9.2): gap=8.9, compounding=9.2, timeliness=9.3, balance=10.0
+Domain balance: mathematics-statistics, engineering-infrastructure, sociology-demography, and 9 other domains (17 topics each) to business-management-strategy (22 topics).

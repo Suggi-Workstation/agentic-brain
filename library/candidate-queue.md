@@ -185,3 +185,27 @@
 - **Discovery score:** 8.8/10.0 (gap=8.4, compounding=8.4, timeliness=9.4, balance=10.0)
 - **Scope:** Translate research on smartphone and social-media use into practical methods for reducing distraction: notifications, app blockers, phone-free spaces, screen-time limits, and timed offline periods. Compare randomized trials, including a 2025 PNAS Nexus mobile-internet blocking trial and a 2025 screen-time reduction trial, with attention to compliance, outcome measures, durability, and individual differences. Show how to run low-risk personal experiments that substitute activities rather than relying on willpower or total abstinence. Distinguish personal practice from clinical addiction treatment, deep-work theory, time-blocking systems, and platform regulation.
 - **Status:** proposed
+
+## Candidate: Mathematical Logic and Formal Proof -- Incompleteness, Computability, Proof Assistants, and Machine-Checked Mathematics
+- **Domain:** mathematics-statistics
+- **Proposed by:** Librarian
+- **Date:** 2026-10-19
+- **Discovery score:** 9.5/10.0 (gap=9.3, compounding=9.4, timeliness=9.8, balance=10.0)
+- **Scope:** Explain how mathematical logic turns proof into a formal object: first-order languages, axiomatic systems, Goedel's completeness and incompleteness theorems, Turing computability, and the limits these impose on what any formal system can establish. Cover how proof assistants such as Lean check every inference mechanically and why formalization differs from informal proof. Examine the September 2026 reported Lean formalization of Fermat's Last Theorem and AI agents solving formalized Erdos problems, including misformalization risk. Distinguish this from informal argument evaluation, number theory content, and applied machine learning.
+- **Status:** proposed
+
+## Candidate: Nuclear Power Plant Engineering -- Reactor Physics, Safety Systems, Fuel Cycles, and Small Modular Reactors
+- **Domain:** engineering-infrastructure
+- **Proposed by:** Librarian
+- **Date:** 2026-10-19
+- **Discovery score:** 9.3/10.0 (gap=9.2, compounding=8.8, timeliness=9.6, balance=10.0)
+- **Scope:** Explain how nuclear plants convert fission heat into electricity under defense-in-depth safety: neutron economy and criticality control, coolant and moderator choices, decay-heat removal, containment, and passive versus active safety systems. Compare light-water, advanced, and small modular designs, and cover fuel cycles, waste management, construction cost and schedule, and operating-life extension. Connect the topic to the NRC's September 2026 construction permit for TVA's Clinch River BWRX-300 and to growing electricity demand. Distinguish plant engineering from grid operation, utility economics, nuclear physics, and weapons policy.
+- **Status:** proposed
+
+## Candidate: Loneliness and Social Connection -- Measurement, Trends, Social Infrastructure, and Population Health Consequences
+- **Domain:** sociology-demography
+- **Proposed by:** Librarian
+- **Date:** 2026-10-19
+- **Discovery score:** 9.2/10.0 (gap=8.9, compounding=9.2, timeliness=9.3, balance=10.0)
+- **Scope:** Explain loneliness as a perceived gap between desired and actual relationships and social isolation as an objective lack of contacts, and why the two are measured differently. Cover prevalence by age, income, and living arrangement, time trends and data limits, links to mortality and illness with causal caveats, and the roles of households, workplaces, neighborhoods, and digital media. Evaluate community-level interventions and social infrastructure using the 2025 WHO Commission report and World Health Assembly resolution WHA78.9. Distinguish population patterns from clinical treatment, individual psychology, and network theory.
+- **Status:** proposed
