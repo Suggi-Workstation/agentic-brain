@@ -1,6 +1,6 @@
 # Business Management Strategy -- Topics
 
-20 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
+21 topics. Anchor: [anchor-business-management-strategy.md](anchor-business-management-strategy.md)
 
 - [Corporate Governance and Board Effectiveness -- Why the Architecture Between Owners and Operators Determines Firm Outcomes](corporate-governance-board-effectiveness.md) -- [reviewed: 2026-09-09] -- Corporate governance allocates decision rights and accountability among the people who finance, direct, and operate a company. Boards are central to this system: they oversee leadership, major decisions, and the information needed to identify risks, but their effectiveness depends on incentives, competence, and the surrounding institutions rather than a formal independence label alone.
 
@@ -13,6 +13,8 @@
 - [Innovation Management -- Why Established Firms Must Deliberately Protect Exploration From Core-Business Success](innovation-management.md) -- [reviewed: 2026-10-01] -- Innovation management is the set of organizational choices through which a firm turns new knowledge into implemented products or business processes. The central managerial problem is not simply generating ideas: success in current operations produces faster, clearer feedback and decision criteria that favor exploitation, while the benefits of exploration are uncertain and delayed.
 
 - [Management Control Systems Translate Strategy Into Coordinated Action Only When Measures, Authority, and Feedback Fit](management-control-systems.md) -- [reviewed: 2026-10-01] -- Management control systems translate an organization's strategy into objectives, decision rights, plans, measures, review conversations, rewards, and corrective action [3][4][5]. They do not control people mechanically: they shape which facts become visible, which deviations receive attention, who may respond, and whether the organization learns or merely enforces a target [1][2][12].
+
+- [Marketing Strategy and Brand Management -- Why Targeting and Positioning Choices Outweigh Tactics, and Why Marketing's Measured Effects Are Smaller and Harder to Verify Than Practice Assumes](marketing-strategy-and-brand-management.md) -- [reviewed: never] -- Marketing strategy decides which customers an organization serves and what image it presents to them, and brand management stewards the customer knowledge those choices create; tactical decisions on product, price, place, and promotion follow from that strategy and cannot repair it [1][2][3]. The evidence reviewed here shows that brand strength can be measured as a price and volume outcome [4],...
 
 - [Mergers and Acquisitions as Strategy -- Why Buying Growth So Often Destroys Value](mergers-and-acquisitions-as-strategy.md) -- [reviewed: 2026-10-10] -- Mergers and acquisitions (M&A) are among the largest and highest-variance capital allocation decisions a company makes: one transaction can commit billions of dollars of shareholder capital to a single forecast of synergies. Target shareholders earn large announcement premiums, and acquirer shareholders earn roughly zero on average at announcement with a heavy left tail [1][2][20], while studies...
 
