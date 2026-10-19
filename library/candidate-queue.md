@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Soil Systems and the Critical Zone -- Formation, Carbon, Water, Nutrients, and Degradation
-- **Domain:** earth-climate
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.8/10.0 (gap=9.9, compounding=9.9, timeliness=9.9, balance=9.4)
-- **Scope:** Explain the critical zone as the coupled system from vegetation through soils and groundwater to weathered rock, where geology, climate, organisms, water, and time create and transform terrestrial environments. Cover soil formation, horizons, minerals, organic matter, microbes, nutrients, erosion, salinization, contamination, compaction, carbon storage, hydrologic feedbacks, land-use change, monitoring, and restoration limits. Show why soil is slowly renewable rather than interchangeable substrate, distinguishing Earth-system mechanisms from farming practice, land regulation, and engineered remediation.
-- **Status:** proposed
-
 ## Candidate: Teacher Education and Professional Learning -- How Instructional Expertise Is Built, Observed, and Improved
 - **Domain:** education-learning
 - **Proposed by:** Librarian
