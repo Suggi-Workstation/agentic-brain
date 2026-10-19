@@ -1,6 +1,6 @@
 # Education Learning -- Topics
 
-17 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
+18 topics. Anchor: [anchor-education-learning.md](anchor-education-learning.md)
 
 - [Assessment and Testing -- Score Meaning Depends on What a Test Samples and How Its Results Are Used](assessment-and-testing.md) -- [reviewed: 2026-09-23] -- Assessment shapes what learners practice, but a score is not a direct reading of knowledge. Its meaning depends on a coordinated model of learning, tasks that elicit relevant evidence, a defensible interpretation process, and evidence that the proposed use is valid, reliable, and fair ([1] [2]). The practical objective is therefore not to choose one universally superior format, but to build an...
 
@@ -33,6 +33,8 @@
 - [Reading Acquisition Requires Explicit Code Instruction and Deliberate Growth of Language, Knowledge, and Meaning](reading-acquisition-and-literacy-instruction.md) -- [reviewed: never] -- Learning to read requires learners to connect a writing system to spoken language, make word recognition increasingly accurate and automatic, and construct meaning from vocabulary, syntax, discourse, and relevant knowledge. Effective literacy instruction therefore teaches the alphabetic code explicitly while also building oral language, fluent text reading, comprehension processes, and knowledge;...
 
 - [Spaced Repetition and Retrieval Practice -- The Two Most Robust Findings in Learning Science Are Also the Most Underused](spaced-repetition-and-retrieval-practice.md) -- [reviewed: never] -- Spaced repetition -- reviewing material at expanding intervals rather than in a single massed session -- and retrieval practice -- actively recalling information from memory rather than passively rereading it -- are the two most replicated and powerful findings in the cognitive science of learning. Together they can double or triple long-term retention compared to standard study methods, yet most students and educational institutions do not use them.
+
+- [Teacher Education and Professional Learning -- Instructional Expertise Is Built by Practicing and Getting Feedback on Specific Teaching Work, Not by Attending Isolated Workshops](teacher-education-and-professional-learning.md) -- [reviewed: never] -- Teachers improve most reliably when professional learning links specific subject and student-thinking knowledge to rehearsal, observation, and feedback on their own classroom work. Knowledge-only or one-off training often fails to change classrooms: a randomized mathematics program designed to deliver 114 contact hours changed neither teacher knowledge nor student scores, while coaching programs raised measured instruction by 0.
 
 - [Learning Transfers Only When Knowledge Is Built for Recognition, Adaptation, and Use Beyond the Lesson](transfer-of-learning-and-generalization.md) -- [reviewed: never] -- Transfer of learning occurs when prior learning changes performance or further learning in a different task, problem, setting, or time. It is not an automatic dividend from instruction: usable generalization depends on what was learned, how knowledge was represented and practiced, whether the learner recognizes a relevant relationship, and whether assessment actually samples the intended distance from the lesson ([1] [2] [3]).
 
