@@ -1,116 +1,123 @@
 ---
 name: query-brain
-description: "Query the agentic-brain knowledge base with hybrid semantic + keyword search. Clones brain, checks index freshness, runs query, returns ranked results with scores and snippets. Use when asked to search, query or discover from the brain, find a brain artifact of any kind, check for prior or existing work, or discover what the brain contains."
+description: "Use when searching the agentic-brain with your own brain-index, outside the org's server."
 user-invocable: true
 disable-model-invocation: false
 ---
 
 # Query-Brain -- Search the Agentic-Brain
 
-## What This Skill Does
+## Purpose
 
-Searches the agentic-brain knowledge base using the brain-index hybrid
-search tool (semantic vectors + BM25 keyword + RRF fusion). Returns
-ranked file paths with relevance scores and text snippets. The agent
-then reads the top results for deeper context.
+Searches `agentic-brain` with a brain-index you build and keep on your own
+machine. The engine runs EmbeddingGemma semantic search and BM25 keyword
+search in parallel, combines them with Reciprocal Rank Fusion (RRF), and
+returns one ranked result per file. The agent reads the best files for full
+context.
 
-## When to Invoke
+Gold questions are an offline quality test. They never influence live ranking.
 
-- User asks a question that might be answered by brain content
-  (governance, research, reflections, library topics, insights)
-- Researching a topic before writing artifacts
-- Looking up prior agent work (reflections, proposals, evaluations)
-- Any query where `grep` alone is insufficient (conceptual questions
-  that don't share keywords with the target content)
+This is the external copy for agents outside the org's server. Org agents on
+the server use `agentic-brain:governance/skills/query-brain-vps.md`.
 
-## Self-Check -- HARD GATE
+## Use When
 
-- [ ] Brain cloned to /tmp/brain-pf (or reuse existing preflight clone) (PASS / HALT)
-- [ ] Index freshness checked (--check-freshness returned OK) (PASS / HALT)
-- [ ] Query executed with relevant terms (PASS / HALT)
-- [ ] Top 3-5 results read for deep context (PASS / HALT)
-- [ ] Clone discarded (unless shared with other preflight steps) (PASS / HALT)
+- The answer may exist in governance, Library topics, research, and reflections.
+- Conceptual retrieval is needed because exact keyword search is insufficient.
+- Prior repository work must be checked before writing or deciding.
+
+## Paths
+
+| Item | Path |
+|:--|:--|
+| Repository | your read-only clone of `Suggi-Workstation/agentic-brain` (`<brain-clone>`) |
+| Search tool | `<brain-clone>/brain-index/` |
+| Index data | `~/.brain-index` (outside git) |
+
+Keep one clone for searching; the index records which commit it was built
+from. First-time setup and index builds: `brain-index` skill.
 
 ## Procedure
 
-### 1. Ensure brain clone exists
-
-If a preflight brain clone already exists at /tmp/brain-pf (from
-governance or brain-index freshness checks), reuse it. Otherwise:
+### 1. Update the clone
 
 ```bash
-cd /tmp && rm -rf brain-pf && git clone --depth 1 \
-  "https://${GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-pf
+cd <brain-clone>
+git pull --ff-only
 ```
 
-### 2. Verify index freshness
+PASS: fast-forward or already up to date. HALT: any other result; never edit
+or commit in the search clone.
+
+### 2. Verify freshness
 
 ```bash
-cd /tmp/brain-pf
 python brain-index/query.py --check-freshness
 ```
 
-If STALE or NO INDEX: invoke `brain-index` skill to rebuild or
-perform first-time setup. Then re-check freshness before proceeding.
+PASS: exit code 0 and output begins `OK --`. On `STALE` after a pull, run the
+incremental build (`python brain-index/index.py`) and check again. On
+`NO INDEX`, build the index first (`brain-index` skill). HALT on `UNVERIFIED`
+or a failed build; never query a stale index.
 
-### 3. Run the query
-
-Query using any mode from the `brain-index` skill (hybrid, vector-only,
-or keyword-only). Default: `python brain-index/query.py "<query>" --top-k 20`.
-
-Results return file path, domain, title, relevance score, and a text snippet:
-
-```
-[1] research/insights/logbook.md [Research] -- logbook
-    score: 0.0325
-    The logbook is the shared append-only event log... (snippet)
-[2] governance/system-constitution.md [Governance] -- system-constitution
-    score: 0.0164
-    This file is the highest-precedence document... (snippet)
-```
-
-### 4. Read top results
-
-Use `read_file` on the top 3-5 results for full context. The snippet
-in the query output is ~200 chars -- enough to decide relevance, not
-enough for understanding.
-
-### 5. Discard clone
+### 3. Query
 
 ```bash
-cd /tmp && rm -rf brain-pf
+python brain-index/query.py "<question>" --top-k 20
 ```
 
-Skip if the clone is shared with other session steps (preflight
-governance check, logbook read, mid-session poll).
+Use the default hybrid mode. Use `--no-dense` or `--no-sparse` only for a
+specific diagnostic comparison, not routine retrieval.
 
-## Fallback
+PASS: ranked repository paths and snippets returned. HALT: command failure.
 
-If brain-index is unavailable (missing dependencies, broken index):
+### 4. Read results
+
+Read the top 3-5 relevant files from `<brain-clone>/<returned-path>`. Snippets
+select candidates; they are not enough for understanding or citation.
+
+PASS: full files read before using their claims. HALT: conclusions drawn from
+snippets alone.
+
+### 5. Cite and stop
+
+Cite exact repository-relative paths. A query changes nothing in the
+repository.
+
+## Same-Repository Fallback
+
+If the index tool is unavailable but the clone is readable, search the clone's
+Markdown files by keyword, then read the matching files:
 
 ```bash
-grep -r "<search terms>" /tmp/brain-pf/ --include="*.md"
+grep -rn --include='*.md' "<search terms>" <brain-clone>
 ```
 
-Keyword-only search on raw files. No semantic matching, no ranking.
-Report the broken tooling to Suggi.
+This is keyword-only and has no semantic ranking. If the clone itself is
+unavailable, read the files on GitHub. Never substitute another repository's
+search; that silently searches the wrong corpus.
+
+## Hard Gate
+
+- [ ] Clone updated by fast-forward; nothing edited or committed in it (PASS / HALT)
+- [ ] Freshness command returned exit 0 and literal `OK --` (PASS / HALT)
+- [ ] Query returned ranked paths from `agentic-brain` (PASS / HALT)
+- [ ] Top 3-5 relevant files read in full (PASS / HALT)
 
 ## Pitfalls
 
-- **First query is slow (~2s).** The embedding model loads on first
-  query. Subsequent queries in the same process reuse the loaded model.
-- **Index must exist.** If `~/.brain-index/` does not exist, the query
-  fails. Invoke `brain-index` skill to build it first.
-- **Clone path collision.** If another process uses /tmp/brain-pf,
-  use /tmp/brain-pf-query as a unique clone path.
-- **Outdated results.** If another agent pushed new brain files since
-  your last index build, the query returns stale results. The
-  freshness check (step 2) catches this. Always check before querying.
+- The first query in a process loads the embedding model, so it is slower
+  than the rest. The tool first tries a local embedding service on
+  `127.0.0.1:8099` (the org's server runs one); without one it loads the model
+  in-process, which is normal on your machine.
+- `STALE` right after `git pull` is expected: the index was built from an older
+  commit. The incremental build catches it up.
+- Gold questions test retrieval after ranking; they are not query expansion,
+  training data, or a runtime answer key.
+- A snippet is candidate evidence, never the complete source.
 
 ## Related
 
-- `brain-index` skill -- build and maintain the search index
-- AGENTS.md Retrieval section -- the gate that invokes this skill
-- `agentic-brain:research/insights/brain-search-system.md` -- full system blueprint
-- `brain-index/README.md` -- tool usage documentation (query modes,
-  eval gate, technology choices)
+- `agentic-brain:governance/skills/external/brain-index.md` -- build and maintain your index
+- `agentic-brain:brain-index/README.md` -- engine and evaluation commands
+- `agentic-brain:research/insights/brain-search-system.md` -- retrieval design

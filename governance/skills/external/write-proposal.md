@@ -1,6 +1,6 @@
 ---
 name: write-proposal
-description: "Write a proposal: Problem-Solution-Impact format with quality gates G1-G7, frontmatter schema, and cross-links. Use when asked to write a proposal, propose a change, suggest a fix, or design a solution."
+description: "Write a proposal: Problem-Solution-Impact format, frontmatter schema, and cross-links. Use when asked to write a proposal, propose a change, suggest a fix, or design a solution."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -10,11 +10,15 @@ disable-model-invocation: false
 ## What This Skill Does
 
 Guides writing a proposal to the agentic-brain. This skill holds the
-PROCEDURE (clone, Feynman loop, write, verify, commit, push, discard).
+PROCEDURE (Feynman loop, read template, write in your fork, commit, pull request).
 The format SPECIFICATION and the compliance checklist live in
-`governance/template-proposals.md` -- that file is the validator.
+`agentic-brain:governance/template-proposals.md` -- that file is the validator.
 This skill references its Proposal Checklist as the format gate and does
 not restate its items (R8: reference, never duplicate).
+
+This is the external copy for agents outside the org's server: it
+submits by pull request from your own fork. Org agents on the server
+use `agentic-brain:governance/skills/write-proposal.md`.
 
 ## When to Invoke
 
@@ -32,20 +36,23 @@ Skip for:
 
 Confirm ALL items before committing.
 
-- [ ] Procedure completed (clone, read template, write, verify, commit, push, discard) (PASS / HALT)
-- [ ] Template read before writing: `template-proposals.md` opened in step 4 and followed (PASS / HALT)
-- [ ] File written ONLY to /tmp/brain-prop/research/proposals/ (NOT the workspace) (PASS / HALT)
+- [ ] Procedure completed (Feynman loop, read template, write in your fork, commit, pull request) (PASS / HALT)
+- [ ] Template read before writing: `template-proposals.md` opened in step 3 and followed (PASS / HALT)
+- [ ] `research/README.md` read with the template before writing (PASS / HALT)
+- [ ] Prior work queried via `query-brain`; superseded / implemented / resolved artifacts got their `status:` updated (PASS / HALT)
+- [ ] File written only in the clone of your fork, never in your workspace (PASS / HALT)
 - [ ] Template validator gate: `template-proposals.md` Proposal Checklist -- all items confirmed PASS (PASS / HALT)
-- [ ] Committed and pushed: changes pushed to origin main (PASS / HALT)
-- [ ] Discarded clone: temporary directory removed from /tmp/ (PASS / HALT)
+- [ ] Only intended files committed; Git author and committer match your name/email; no secrets (PASS / HALT)
+- [ ] Pull request open against `Suggi-Workstation/agentic-brain` `main` with green checks (PASS / HALT)
+- [ ] Clone discarded once the pull request is merged or closed (PASS / HALT)
 
 ## Procedure
 
 ### 1. Run the Feynman Loop
 
-Before any research or writing, invoke the `loop-feynman` skill.
+Before any research or writing, run the Feynman Loop.
 Complete every step. The blank page (Step 1) MUST precede any
-source consultation (Step 3). See `skills/loop-feynman/SKILL.md`
+source consultation (Step 3). Follow `agentic-brain:governance/skills/loop-feynman.md`
 for the full procedure and self-check.
 
 ### 2. Determine if a proposal is warranted
@@ -54,21 +61,23 @@ A proposal is warranted when a structural change needs approval before
 implementation: new gates, architecture changes, policy updates,
 process additions. The problem must be specific and evidence-backed.
 
-### 3. Clone the agentic-brain
+Before writing, query prior work with the `query-brain`
+skill (`agentic-brain:governance/skills/external/query-brain.md`): existing proposals, reports, evaluations, and insights on
+the topic. If this artifact supersedes, implements, or resolves an
+earlier one, that artifact's `status:` field is updated in the same
+session (see `research/README.md`).
 
-```bash
-cd /tmp && rm -rf brain-prop && git clone --depth 1 \
-  "https://${GITHUB_TOKEN}@github.com/Suggi-Workstation/agentic-brain.git" brain-prop
-```
+### 3. Read the format specification and the pipeline map
 
-### 4. Read the format specification -- the validator
-
-Read `governance/template-proposals.md` BEFORE writing. It defines
+Read `agentic-brain:governance/template-proposals.md` BEFORE writing. ALSO read
+`agentic-brain:research/README.md` -- the pipeline map. It tells
+you where this artifact sits in the flow and which earlier
+artifacts' `status:` fields change when this one lands. It defines
 the Problem-Solution-Impact format with Approval Gate, frontmatter schema,
 and the complete Proposal Checklist. That checklist is the format gate for
 this skill. Follow it exactly.
 
-### 4b. Generate the ID
+### 4. Generate the ID
 
 Run `date -u +'%Y%m%dT%H%M%SZ'` and capture the output:
 
@@ -79,37 +88,89 @@ date -u +'%Y%m%dT%H%M%SZ'
 Paste the exact output into the `id:` field in the frontmatter.
 Never type the ID digits by hand. The exec output is authoritative.
 
-### 5. Write the proposal file
+### 5. Write the artifact
 
-Write ONLY to the agentic-brain. NEVER write proposals to the workspace.
+Write ONLY to the agentic-brain, through a pull request from your own
+fork. NEVER leave artifacts in your workspace.
 
-Path: `/tmp/brain-prop/research/proposals/<short-slug>.md`
+Fork `Suggi-Workstation/agentic-brain` on GitHub once. Before each
+artifact, sync your fork's `main` with the org's (GitHub's Sync fork
+button, or `gh repo sync <your-account>/agentic-brain`). Then clone the
+fork to temporary storage, branch, and switch on the ASCII guard:
+
+```bash
+cd /tmp && rm -rf brain-<short-slug>
+git clone --depth 1 https://github.com/<your-account>/agentic-brain.git brain-<short-slug>
+cd brain-<short-slug>
+git checkout -b proposal-<short-slug>
+bash scripts/setup-hooks.sh
+```
+
+Write the file to `research/proposals/<short-slug>.md` in that clone.
 
 `<short-slug>`: kebab-case, max 60 chars, unique.
 
-### 6. Commit and push
+### 6. Commit and open a pull request
+
+Stage only your artifact paths and check the staged diff before committing:
 
 ```bash
-cd /tmp/brain-prop
-git add -A
+git add <artifact-paths>
 git diff --cached --stat
-git -c user.name="<AGENT>" -c user.email="<AGENT>@suggi-workspace.dev" \
-  commit -m "proposal: <short-slug>"
-git push origin main
 ```
 
-Replace `<AGENT>` with your agent name (e.g. Link, Ava). If the push
-fails, pull first, resolve, then push.
+Commit with your own Git name and email. Do not change repository or global settings.
+
+```bash
+AGENT_NAME="<your Git name>"
+AGENT_EMAIL="<your Git email>"
+env GIT_AUTHOR_NAME="$AGENT_NAME" GIT_AUTHOR_EMAIL="$AGENT_EMAIL" \
+    GIT_COMMITTER_NAME="$AGENT_NAME" GIT_COMMITTER_EMAIL="$AGENT_EMAIL" \
+    git commit -m "proposal: <short-slug>"
+```
+
+Use the returned commit hash to verify both identities. HALT on a mismatch.
+
+```bash
+git show -s --format='Author: %an <%ae>%nCommitter: %cn <%ce>' <commit-sha>
+```
+
+Push the branch to your fork with your own GitHub credentials. Never put
+a token in a URL, a file, or a commit.
+
+```bash
+git push origin proposal-<short-slug>
+```
+
+Open a pull request from `<your-account>:proposal-<short-slug>` to
+`Suggi-Workstation/agentic-brain` `main`, titled `proposal: <short-slug>`.
+With the GitHub CLI:
+
+```bash
+gh pr create --repo Suggi-Workstation/agentic-brain --base main \
+  --head <your-account>:proposal-<short-slug> \
+  --title "proposal: <short-slug>" --body "<one-line summary>"
+```
+
+Everything you push is public: never include secrets. The ASCII guard
+runs on the pull request; org agents review it and merge it once
+approved. Answer review comments by pushing to the same branch.
+
+PASS: the pull request is open and its checks are green. HALT on a
+failed check: fix it and push again.
 
 ### 7. Discard the clone
 
+When the pull request is merged or closed:
+
 ```bash
-cd /tmp && rm -rf brain-prop
+cd /tmp && rm -rf brain-<short-slug>
 ```
 
 ## Related
 
-- `governance/template-proposals.md` -- format specification and compliance validator (Proposal Checklist, examples)
-- `skills/write-evaluation/SKILL.md` -- evaluation writing (proposals get evaluated)
-- `skills/loop-feynman/SKILL.md` -- Feynman Loop (prerequisite for all artifact writing)
-- AGENTS.md approval flow -- proposals require Suggi approval
+- `agentic-brain:governance/template-proposals.md` -- format specification and compliance validator (Proposal Checklist, examples)
+- `agentic-brain:governance/skills/external/write-evaluation.md` -- evaluation writing (proposals get evaluated)
+- `agentic-brain:governance/skills/loop-feynman.md` -- Feynman Loop (prerequisite for all artifact writing)
+- `agentic-brain:research/README.md` -- the org owner decides proposals
+- `agentic-brain:governance/skills/external/query-brain.md` -- search the brain
