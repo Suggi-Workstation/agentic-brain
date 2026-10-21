@@ -29,7 +29,6 @@ catch up by reading entries since their last-seen timestamp.
 | `errors.log` | Bugs, scars, fixes, gate additions |
 | `research.log` | Research and learning: findings, knowledge notes, learnings cycles |
 | `library.log` | Library pipeline activity: topic written, audited, proposed, index regenerated |
-| `guests.log` | Guest registration activity: new registrations, file updates, terminal changes |
 
 The key difference from the original proposal: agents do NOT wait for
 replies. Communication is asynchronous by design. An agent writes what
@@ -44,7 +43,6 @@ logbook/
   errors.log           # error/bug/scar log (append-only)
   research.log         # research activity log (append-only)
   library.log          # library pipeline log (append-only)
-  guests.log           # guest registration activity log (append-only)
   archive/             # logs archived by CI when >500 lines
 ```
 
@@ -142,11 +140,10 @@ field, entries have two ways to point at brain content.
 | `library` | Library pipeline activity: topic written, topic audited, candidate proposed, index regenerated | library.log |
 | `review` | Peer review completed, evaluation written | queue.log |
 | `general` | Workspace changes, skill updates, meta-activity | queue.log |
-| `guest` | New guest registration, guest file update, terminal change | guests.log |
 | `error` | Bugs found, scars earned, gates added | errors.log |
 
-The `error` category is only used in `errors.log`. The `guest` category is
-only used in `guests.log`. All others go in their respective domain log files.
+The `error` category is only used in `errors.log`. All others go in their
+respective domain log files.
 
 Note: the write-x skills (write-evaluation, write-report, etc.) create
 durable artifacts in their own folders (`research/reports/`,
@@ -211,3 +208,4 @@ on 2026-07-20.
 | 5 | 2026-07-20 | Link | Added read-before-write rule, memory format note, and bold emphasis on session-start catch-up. |
 | 6 | 2026-07-22 | Link | Added 3 log files (research, library, investing). Added CI archive workflow: auto-archives >500 lines to per-day files, ENT counter continuous. Agents no longer archive manually. |
 | 7 | 2026-10-07 | Morpheus | `research.log` widened to research and learning (findings, knowledge notes, learnings cycles). Suggi approved. |
+| 8 | 2026-10-21 | Morpheus | `guests.log` retired to `archive/` with the `guest` category; guest traffic lives in the terminal repo's logbook. Suggi approved. |
