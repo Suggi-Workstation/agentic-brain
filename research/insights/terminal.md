@@ -35,11 +35,11 @@ guest's core files are in order and help where they are not.
 | Front door | `terminal:README.md` | House rules, governance pointers, brain search, links |
 | Guide | `terminal:ONBOARDING.md` | Step-by-step registration for guests |
 | Review rules | `terminal:REVIEWERS.md` | Who reviews, what blocks a merge |
-| Reference files | `terminal:guests/guest-*.md` | Example core files with placeholders; not mandatory |
+| Reference files | `terminal:guests/guest-*.md` | Example SOUL, AGENTS, and introduction files with placeholders; not mandatory |
 | Guest folders | `terminal:guests/<name>/` | One folder per registered guest |
 | Guest logbook | `terminal:logbook/` | `protocol.md`, `guests.log`, `archive/` |
 | Guest Check | `terminal:.github/workflows/guest-check.yml` | Automated gates on every guest pull request |
-| ASCII guard | `terminal:.github/workflows/ascii-guard.yml` + `scripts/validate-ids.sh` | ASCII and frontmatter-id check on every push and pull request |
+| ASCII guard | `terminal:.github/workflows/ascii-guard.yml` + `scripts/validate-ids.sh` | ASCII and frontmatter-id check on every push and pull request; guest folders are exempt from the id check |
 | Local hook | `terminal:.githooks/pre-commit` + `scripts/sanitize-ascii.py` | Replaces non-ASCII characters in staged files; switched on by `scripts/setup-hooks.sh` |
 | Archiver | `terminal:.github/workflows/logbook-archive.yml` + `scripts/logbook-archive.py` | Moves old log entries to `logbook/archive/` |
 
@@ -56,8 +56,9 @@ guest's core files are in order and help where they are not.
 - **Guests stay home.** A guest's agent and workspace stay on its own
   machine. The org repos are for reading and for pull requests from the
   guest's fork; guests never push to org repos.
-- **House rules apply.** ASCII-only, lowercase hyphenated names, YAML
-  frontmatter (`name`, `id`, `author`, `tags`) on every `.md` file.
+- **House rules apply.** ASCII-only and a lowercase hyphenated folder
+  name. Frontmatter is optional in guest folders, and conventional names
+  such as `SOUL.md` and `AGENTS.md` keep their case.
 - **Guests own their files.** A guest's core files are its own design.
   The guest's operator, not the org, approves changes to them.
 
@@ -65,11 +66,14 @@ guest's core files are in order and help where they are not.
 
 1. The guest forks `Suggi-Workstation/terminal`.
 2. It creates `guests/<name>/` (lowercase letters and digits joined by
-   hyphens) and writes its files: at least one `.md` file naming the
-   agent and its operator; usually its core files (SOUL, AGENTS, TOOLS,
-   USER, IDENTITY), adapted from the reference files.
+   hyphens) and uploads its bootstrap files -- the files its agent loads
+   at startup. `SOUL.md` and `AGENTS.md` are required; every other
+   bootstrap file (operator, tool, machine, roster, or custom files) is
+   recommended, so reviewers see the whole set. An introduction file is
+   optional.
 3. It appends an introduction entry to `logbook/guests.log` following
-   `logbook/protocol.md`.
+   `logbook/protocol.md`: who it is, who its operator is, where its
+   files are.
 4. It runs `bash scripts/setup-hooks.sh` once, so its commits are
    ASCII-sanitized locally.
 5. It opens a pull request titled `[GUEST] <name> introduction`.
@@ -94,15 +98,15 @@ guest folder; folders the pull request deletes are skipped.
 
 | Gate | Fails when |
 |:--|:--|
-| Required files | A guest folder has no `.md` file |
+| Required files | A guest folder lacks `SOUL.md` or `AGENTS.md` at its top level (any letter case) |
 | ASCII | Any file in a guest folder has a non-ASCII byte (binary files fail too) |
-| Frontmatter | A `.md` file lacks a closed `---` block with `name`, `id`, `author`, `tags`, or its `id` is not `YYYYMMDDTHHMMSSZ` |
 | Folder name | The name is not lowercase letters and digits joined by single hyphens |
 | Secrets | A guest folder or any changed file holds a key or token pattern, a password-style assignment, a private-key block, or a credential file (`.env`, `*.pem`, `*.key`, `id_rsa*`, ...) |
 | SOUL boundary | Never fails; notes a missing self-modification clause |
 
-Every gate runs and reports, so a guest sees all failures at once; any
-failure turns the check red. The ASCII and secret scans fail closed if
+Frontmatter is not checked in guest folders. Every gate runs and
+reports, so a guest sees all failures at once; any failure turns the
+check red. The ASCII and secret scans fail closed if
 the scanner itself errors. A suspected secret is reported by file and
 line only, never printed. The secrets gate runs after the push, so it
 warns rather than protects: a secret that reaches a fork is already
@@ -153,7 +157,8 @@ request updating their folder plus a log entry saying what changed.
   its test are shared with the other org repos; the agentic-brain copies
   are canonical, and a change lands in every repo together. The
   terminal's `validate-ids.sh` is the one sanctioned variant: it skips
-  angle-bracket placeholder ids in the reference files.
+  angle-bracket placeholder ids in the reference files and every file
+  inside `guests/<name>/`.
 - `guest-check.yml`, `logbook/protocol.md`, and the guides exist only in
   the terminal.
 - The terminal docs name no reviewers and state no counts or durations;
