@@ -1,6 +1,6 @@
 ---
 name: write-insight
-description: "Write an insight: Insight-Evidence-Implications-Counter-evidence format with quality gates G1-G8, falsifiability, and cross-links. Use when asked to write an insight, capture a pattern, synthesize a finding, or distill a realization."
+description: "Use when writing an insight: a self-contained manual or blueprint of a system, program, process, or lesson."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -18,22 +18,23 @@ not restate its items (R8: reference, never duplicate).
 
 ## When to Invoke
 
-Invoke when the task involves capturing a cross-artifact pattern or
-distilling a realization: multiple IORs, reports, or evaluations
-point to the same conclusion. An insight is a one-sentence core
-realization with evidence chain, implications, and falsifiability.
+Invoke when a subject -- a system, repo, program, pipeline, process,
+framework, or durable lesson -- needs a standalone reference that any
+agent can follow without other context. An insight is a self-contained
+manual or blueprint of that subject as it is now; its body follows the
+subject (see the template).
 
 Skip for:
-- Single-artifact observations (those are IORs or report findings)
+- A single session's learning (that is a reflection)
 - Unsourced opinions
-- Patterns already documented in an existing insight
+- A subject that already has an insight -- update that insight instead
 
 ## Final Self-Check -- HARD GATE
 
 Confirm ALL items before committing.
 
 - [ ] Procedure completed (read template, write, transfer, commit) (PASS / HALT)
-- [ ] Template read before writing: `template-insights.md` opened in step 4 and followed (PASS / HALT)
+- [ ] Template read before writing: `template-insights.md` opened in step 3 and followed (PASS / HALT)
 - [ ] `research/README.md` read with the template before writing (PASS / HALT)
 - [ ] Prior work queried via `query-brain-vps`; superseded / implemented / resolved artifacts got their `status:` updated (PASS / HALT)
 - [ ] File written to the agentic-brain clone (`research/insights/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
@@ -51,13 +52,13 @@ for the full procedure and self-check.
 
 ### 2. Determine if an insight is warranted
 
-An insight is warranted when a pattern emerges across multiple
-artifacts that can be distilled into one quotable sentence. It must
-be falsifiable (the counter-evidence section must state what would
-prove it wrong).
+An insight is warranted when a subject needs a standalone reference
+any agent can follow without other context. If an insight on the
+subject already exists, update it in place and keep its `id`; never
+write a second one.
 
-As the chain-closer: sweep every proposal, report, and
-evaluation connected to this insight; artifacts still at an
+As the chain-closer: when the insight draws on research artifacts,
+sweep every proposal, report, and evaluation connected to it; artifacts still at an
 interim `status:` with an evident outcome are closed in the same
 commit (never invented decisions -- see `research/README.md`).
 
@@ -72,10 +73,10 @@ session (see `research/README.md`).
 Read `agentic-brain:governance/template-insights.md` BEFORE writing. ALSO read
 `agentic-brain:research/README.md` -- the pipeline map. It tells
 you where this artifact sits in the flow and which earlier
-artifacts' `status:` fields change when this one lands. It defines
-the Insight-Evidence-Implications-Counter-evidence format, frontmatter
-schema, and the complete Insight Checklist. That checklist is the format
-gate for this skill. Follow it exactly.
+artifacts' `status:` fields change when this one lands. The template
+defines the frontmatter schema, the body guidance, and the complete
+Insight Checklist. That checklist is the format gate for this skill.
+Follow it exactly.
 
 ### 4. Generate the ID
 
@@ -87,6 +88,7 @@ date -u +'%Y%m%dT%H%M%SZ'
 
 Paste the exact output into the `id:` field in the frontmatter.
 Never type the ID digits by hand. The exec output is authoritative.
+An update to an existing insight keeps its `id`.
 
 ### 5. Write the artifact
 

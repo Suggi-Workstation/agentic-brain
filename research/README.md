@@ -15,13 +15,14 @@ the write-x skills are the procedures.
         v
     evaluation (independent scrutiny by a different agent)
         |
-        +--> pass  -->  insight (permanent, falsifiable knowledge)
+        +--> pass  -->  insight (standalone manual or blueprint, kept current)
         |
         +--> fail  -->  back to proposal or report (revise, resubmit)
 
 Not every artifact rides the whole chain. A reflection can trigger a
-proposal directly; an insight can be promoted from evaluations alone.
-The chain is the default path, not a straitjacket.
+proposal directly; an insight can be promoted from evaluations alone,
+or written directly to document a system, program, or process as it
+stands. The chain is the default path, not a straitjacket.
 
 ## The Folders
 
@@ -30,7 +31,7 @@ The chain is the default path, not a straitjacket.
 | `proposals/` | ideas asking for approval before work happens | `write-proposal` |
 | `reports/` | structured research findings awaiting evaluation | `write-report` |
 | `evaluations/` | independent verdicts on proposals and reports | `write-evaluation` |
-| `insights/` | permanent distilled knowledge that passed evaluation | `write-insight` |
+| `insights/` | self-contained manuals of systems, programs, processes, and lessons | `write-insight` |
 
 ## Status Fields
 
@@ -42,7 +43,7 @@ the pipeline moves:
 | proposal | `open` -> `approved` -> `implemented`, or `rejected`, or `superseded by <id>` |
 | report | `draft` -> `evaluated` -> `final` |
 | evaluation | (none -- the verdict IS the status) |
-| insight | `active`, or `superseded by <id>` |
+| insight | `active` (updated in place), or `superseded by <id>` |
 
 Supersede references always cite the artifact `id:` (never the
 filename slug) -- ids are permanent, slugs are not.
