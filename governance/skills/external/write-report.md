@@ -1,6 +1,6 @@
 ---
 name: write-report
-description: "Write a report: Executive Summary-Research-Methodology-Findings format and cross-links. Use when asked to write a report, research a topic, investigate a question, or produce structured findings."
+description: "Write a report: Executive Summary-Research Question-Methodology-Findings-Discussion-Conclusion format and cross-links. Use when asked to write a report, research a topic, investigate a question, or produce structured findings."
 user-invocable: true
 disable-model-invocation: false
 ---

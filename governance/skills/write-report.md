@@ -1,6 +1,6 @@
 ---
 name: write-report
-description: "Write a report: Executive Summary-Research-Methodology-Findings format with quality gates G1-G7 and cross-links. Use when asked to write a report, research a topic, investigate a question, or produce structured findings."
+description: "Write a report: Executive Summary-Research Question-Methodology-Findings-Discussion-Conclusion format and cross-links. Use when asked to write a report, research a topic, investigate a question, or produce structured findings."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -33,7 +33,7 @@ Skip for:
 Confirm ALL items before committing.
 
 - [ ] Procedure completed (read template, write, transfer, commit) (PASS / HALT)
-- [ ] Template read before writing: `template-reports.md` opened in step 4 and followed (PASS / HALT)
+- [ ] Template read before writing: `template-reports.md` opened in step 3 and followed (PASS / HALT)
 - [ ] `research/README.md` read with the template before writing (PASS / HALT)
 - [ ] Prior work queried via `query-brain-vps`; superseded / implemented / resolved artifacts got their `status:` updated (PASS / HALT)
 - [ ] File written to the agentic-brain clone (`research/reports/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)

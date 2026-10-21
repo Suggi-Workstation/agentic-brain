@@ -1,6 +1,6 @@
 ---
 name: write-proposal
-description: "Write a proposal: Problem-Solution-Impact format, frontmatter schema, and cross-links. Use when asked to write a proposal, propose a change, suggest a fix, or design a solution."
+description: "Write a proposal: Problem-Solution-Impact-Open Questions-Approval Gate format, frontmatter schema, and cross-links. Use when asked to write a proposal, propose a change, suggest a fix, or design a solution."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -73,8 +73,8 @@ Read `agentic-brain:governance/template-proposals.md` BEFORE writing. ALSO read
 `agentic-brain:research/README.md` -- the pipeline map. It tells
 you where this artifact sits in the flow and which earlier
 artifacts' `status:` fields change when this one lands. It defines
-the Problem-Solution-Impact format with Approval Gate, frontmatter schema,
-and the complete Proposal Checklist. That checklist is the format gate for
+the Problem-Solution-Impact-Open Questions format with Approval Gate,
+frontmatter schema, and the complete Proposal Checklist. That checklist is the format gate for
 this skill. Follow it exactly.
 
 ### 4. Generate the ID

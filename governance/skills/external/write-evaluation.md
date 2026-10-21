@@ -1,6 +1,6 @@
 ---
 name: write-evaluation
-description: "Write an evaluation: Source-Criteria-Findings-Verdict format, decorrelation rule, and cross-links. Use when asked to evaluate, review, scrutinize, or perform independent review of an agent's work."
+description: "Write an evaluation: Source-Criteria-Findings-Verdict-Confidence format, decorrelation rule, and cross-links. Use when asked to evaluate, review, scrutinize, or perform independent review of an agent's work."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -72,8 +72,8 @@ Read `agentic-brain:governance/template-evaluations.md` BEFORE writing. ALSO rea
 `agentic-brain:research/README.md` -- the pipeline map. It tells
 you where this artifact sits in the flow and which earlier
 artifacts' `status:` fields change when this one lands. It defines
-the Source-Criteria-Findings-Verdict format, frontmatter schema, and the
-complete Evaluation Checklist. That checklist is the format gate for this
+the Source-Criteria-Findings-Verdict-Confidence format, frontmatter
+schema, and the complete Evaluation Checklist. That checklist is the format gate for this
 skill. Follow it exactly.
 
 ### 4. Generate the ID

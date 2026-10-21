@@ -1,6 +1,6 @@
 ---
 name: write-evaluation
-description: "Write an evaluation: Source-Criteria-Findings-Verdict format with quality gates G1-G8, decorrelation rule, and cross-links. Use when asked to evaluate, review, scrutinize, or perform independent review of an agent's work."
+description: "Write an evaluation: Source-Criteria-Findings-Verdict-Confidence format, decorrelation rule, and cross-links. Use when asked to evaluate, review, scrutinize, or perform independent review of an agent's work."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -32,7 +32,7 @@ Skip for:
 Confirm ALL items before committing.
 
 - [ ] Procedure completed (read template, write, transfer, commit) (PASS / HALT)
-- [ ] Template read before writing: `template-evaluations.md` opened in step 4 and followed (PASS / HALT)
+- [ ] Template read before writing: `template-evaluations.md` opened in step 3 and followed (PASS / HALT)
 - [ ] `research/README.md` read with the template before writing (PASS / HALT)
 - [ ] Prior work queried via `query-brain-vps`; superseded / implemented / resolved artifacts got their `status:` updated (PASS / HALT)
 - [ ] File written to the agentic-brain clone (`research/evaluations/`): directly by VPS agents, via SSH transfer by VPS-connected agents (PASS / HALT)
@@ -66,8 +66,8 @@ Read `agentic-brain:governance/template-evaluations.md` BEFORE writing. ALSO rea
 `agentic-brain:research/README.md` -- the pipeline map. It tells
 you where this artifact sits in the flow and which earlier
 artifacts' `status:` fields change when this one lands. It defines
-the Source-Criteria-Findings-Verdict format, frontmatter schema, and the
-complete Evaluation Checklist. That checklist is the format gate for this
+the Source-Criteria-Findings-Verdict-Confidence format, frontmatter
+schema, and the complete Evaluation Checklist. That checklist is the format gate for this
 skill. Follow it exactly.
 
 ### 4. Generate the ID
