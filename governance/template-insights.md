@@ -10,11 +10,17 @@ links: []
 
 # Insight Template -- How We Write Insights
 
-An insight is a durable, hard-won realization that changes how we operate.
-Unlike a reflection (which captures a specific session's learning), an
-insight is promoted from reflections, evaluations, or reports when the
-lesson is general enough to stand on its own. Insights are part of the
-system's permanent knowledge -- they are rarely deleted, only versioned.
+An insight is a self-contained manual or blueprint of one subject as it
+stands now: a system, a repo, a program we wrote, a pipeline, a process,
+a framework, or a piece of durable knowledge. Any agent must be able to
+read it with no other context and understand what the subject is, what
+it is made of, how it works end to end, and where its limits are.
+
+The subject decides the body. A repo, a program, and a pipeline need
+different sections, so the body structure is up to the author and the
+person who asked for the insight. The frontmatter, the opening summary,
+and the checklist below are fixed. An insight is a living document:
+when its subject changes, the insight is updated in place.
 
 ## Relationship to the write-insight Skill
 
@@ -45,22 +51,23 @@ Pre-commit gate: every item below MUST be confirmed. The file
 MUST NOT be committed with any item unconfirmed. Do not include
 this checklist in the published file.
 
-- [ ] Frontmatter: all 7 fields present (name, id, tier, source, author, tags, links)  (PASS / HALT)
+- [ ] Frontmatter: all 8 fields present (name, id, tier, status, source, author, tags, links)  (PASS / HALT)
 - [ ] name: lowercase kebab-case, matches filename slug  (PASS / HALT)
 - [ ] id: exact output from `date -u +'%Y%m%dT%H%M%SZ'` exec call, pasted directly; does not end in 000000Z (human-rounded = reject); never manually typed  (PASS / HALT)
 - [ ] tier: "insight"  (PASS / HALT)
-- [ ] status: `active` at birth; `superseded by <id>` with mutual link when replaced  (PASS / HALT)
-- [ ] Source chain swept; interim statuses closed in the same commit where outcomes are evident  (PASS / HALT)
-- [ ] source: links to every originating IOR, report, or evaluation by id  (PASS / HALT)
+- [ ] status: `active`; `superseded by <id>` with mutual link only when another insight replaces it  (PASS / HALT)
+- [ ] source: ids of the artifacts the insight draws on, or `[]` when it describes its subject directly  (PASS / HALT)
+- [ ] Source chain swept: interim statuses of proposals, reports, or evaluations it closes moved in the same commit  (PASS / HALT)
 - [ ] author: capitalized (e.g. Ava, Link, Researcher-1, Investor)  (PASS / HALT)
 - [ ] tags: lowercase, hyphen-delimited, prefer existing brain tags  (PASS / HALT)
 - [ ] links: relative paths from repo root; `repo:` prefix only for cross-repo references, omit for same-repo  (PASS / HALT)
-- [ ] Insight headline: quotable in one sentence; the section then elaborates to the word floor  (PASS / HALT)
-- [ ] Evidence: at least one source cited by id, chain of evidence complete  (PASS / HALT)
-- [ ] Implications: concrete ("changes X" or "informs decision Y"), not platitudes  (PASS / HALT)
-- [ ] Counter-evidence: states what would prove the insight wrong; an insight that cannot be falsified is dogma  (PASS / HALT)
-- [ ] Body word counts: The Insight >= 250, Evidence >= 400, Implications >= 400, Counter-evidence >= 300  (PASS / HALT)
-- [ ] Cross-links: source artifacts + related insights + affected governance files  (PASS / HALT)
+- [ ] Opening summary: the first paragraph says what the subject is, what it is for, and where it lives  (PASS / HALT)
+- [ ] Self-contained: a fresh agent with no chat history can follow the subject end to end; every term, part, path, and step it needs is defined or linked  (PASS / HALT)
+- [ ] Current state only: no history, version tables, dated change narrative, or "previously ... now" text  (PASS / HALT)
+- [ ] Verified: every path, command, name, and behavior checked against the live subject or its files before committing  (PASS / HALT)
+- [ ] Lean: as long as the subject needs and no longer; content owned by another file is linked, not restated  (PASS / HALT)
+- [ ] Public-safe: no secrets, credentials, or private access details  (PASS / HALT)
+- [ ] Cross-links: the files or repos it describes + related insights + governance it is bound by  (PASS / HALT)
 - [ ] Filename: lowercase, kebab-case slug  (PASS / HALT)
 - [ ] ASCII-only: zero non-ASCII characters in the file  (PASS / HALT)
 
@@ -72,8 +79,8 @@ name: <short-slug>
 id: <YYYYMMDDTHHMMSSZ>           # ISO 8601 UTC, permanent, never reused. MUST generate with: date -u +'%Y%m%dT%H%M%SZ' at creation. Estimating or rounding = GATE FAILURE.
 tier: insight                # always insight
 status: active               # active | superseded by <id>
-source: [<id>, <id>]              # IOR(s), report(s), or evaluation(s)
-                                  # that produced this insight
+source: [<id>, <id>]              # artifacts the insight draws on;
+                                  # [] when it describes its subject directly
 author: <name>  # who wrote this (e.g. Link, Ava, Zelda, Suggi, Luffy)
 tags: [<tag>, <tag>]             # lowercase, hyphens for spaces
 links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo references use the `repo:` prefix; omit for same-repo links.
@@ -83,21 +90,23 @@ links: [<path/to/file.md>]   # paths relative to repo root. Cross-repo reference
 ## Frontmatter Rules
 
 - `name` is a short lowercase kebab-case slug, unique. Example:
-  `verification-is-the-bottleneck`.
-- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing. MUST generate with: `date -u +'%Y%m%dT%H%M%SZ'` at creation. Estimating or rounding = GATE FAILURE.
+  `logbook-archiver`.
+- `id` is ISO 8601 UTC (`YYYYMMDDTHHMMSSZ`). Never reuse. Never change after publishing, including when the insight is updated. MUST generate with: `date -u +'%Y%m%dT%H%M%SZ'` at creation. Estimating or rounding = GATE FAILURE.
 - `tier` is always `insight`.
-- Chain closure: before writing, query the insight's `source:`
-  chain with `query-brain-vps`. Any proposal, report, or evaluation
-  still sitting at an interim status whose outcome is now evident
-  (approved, implemented, final) is moved in the SAME commit as the
-  insight. Never invent decisions: close a proposal only on
+- Chain closure: when the insight draws on research artifacts, query
+  its `source:` chain with `query-brain-vps`. Any proposal, report, or
+  evaluation still sitting at an interim status whose outcome is now
+  evident (approved, implemented, final) is moved in the SAME commit as
+  the insight. Never invent decisions: close a proposal only on
   evidence that Suggi decided or the work landed.
-- `status` is `active` at birth. When a newer insight replaces this
-  one, set `superseded by <id>`, link the replacement
-  from here and this file from the replacement, and never delete
-  the file. See `research/README.md`.
-- `source` lists the ids of the IORs, reports, or evaluations that
-  produced this insight. At least one source required.
+- `status` is `active` at birth and stays `active` while the insight is
+  updated in place. When a different insight replaces this one, set
+  `superseded by <id>`, link the replacement from here and this file
+  from the replacement, and never delete the file. See
+  `research/README.md`.
+- `source` lists the ids of the reflections, reports, evaluations, or
+  other artifacts the insight draws on. Use `[]` when it describes a
+  system, program, or process directly from its live state.
 - `author` is who wrote the insight (e.g. Link, Ava, Zelda, Suggi, Luffy).
 - `tags` use lowercase, hyphens for spaces. Prefer existing tags from
   the brain's tag registry.
@@ -112,85 +121,48 @@ Files are named: `<short-slug>.md`
 
 - `short-slug` -- kebab-case, max 60 chars, unique.
 
-Example: `verification-is-the-bottleneck.md`
+Example: `logbook-archiver.md`
 
-## Body Structure
+## Body
 
-The sections must have the following minimal word counts. The Insight >= 250 words, 
-Evidence >= 400 words, Implications >= 400 words, Counter-evidence >= 300 words.
+The body is free-form within the checklist. It opens with the title and
+the opening summary, then uses whatever sections make the subject
+understandable, and ends with Cross-Links.
 
-### The Insight
-*What did we learn? What did we implement? What new feature or
-capability was gained? The bullets below are suggestions -- use what
-fits.*
+Common building blocks -- use what fits, rename freely, add your own:
 
-- Lead with the core realization as one memorable, quotable sentence --
-  the headline.
-- Then elaborate: context, nuance, and the boundary of the claim, up to
-  the word floor.
-- Say which kind this is: a lesson learned (knowledge), an
-  implementation completed (something now exists that did not before),
-  a new capability or feature gained, or a failure class now understood
-  and guarded.
-- State where it applies: which systems, agents, or situations it
-  covers.
-- Name what it replaces or corrects, if it contradicts an earlier
-  belief or insight.
-- Keep the headline stable under elaboration: if unpacking changes the
-  claim's meaning, sharpen the headline instead.
+| Block | Answers |
+|:--|:--|
+| Parts | What is it made of? Where does each part live, and what does it do? |
+| How it works | What happens, step by step, from input to result? |
+| Rules | What must always hold? What is forbidden? |
+| Usage | How do agents, people, or other systems use it: commands, files, inputs, outputs? |
+| Operations | How is it run, checked, maintained, and recovered? |
+| Limits | What it does not do; known edge cases and failure modes |
+| Rationale | Why it is built this way, where the reason matters for using it correctly |
+| Evidence | For a lesson or framework: the artifacts (by id) and observations that support it |
 
-### Evidence
-*How do we know this is true? The bullets below are suggestions -- use
-what fits.*
+Example shapes, by subject:
 
-- Cite every originating artifact by id: reports, evaluations,
-  reflections, incidents.
-- Tell the evidence story in order: what was observed first, what
-  confirmed it, what almost disproved it.
-- Note how many independent situations the pattern held across -- one
-  incident is an anecdote, several are a pattern.
-- For implementations: link the thing built (files, repos, commits)
-  plus its proof of working -- tests, end-to-end runs, gates passed.
-- Distinguish direct evidence from inference: which conclusions were
-  measured, which were reasoned.
-- Include the strongest contrary observation encountered and why it did
-  not win.
-- If tested across sessions or domains, name them.
+- **A repo or onboarding system:** summary, Parts, Rules, the flow end to
+  end, Checks, Communication, Maintenance, Cross-Links.
+- **A program or tool:** summary, Parts, How it works, Usage,
+  Configuration, Limits, Cross-Links.
+- **A pipeline or process:** summary, Stages, Hand-offs, Gates, Failure
+  handling, Cross-Links.
+- **A framework or durable lesson:** summary (the core idea in one
+  sentence), Explanation, When it applies, Evidence, Limits, Cross-Links.
 
-### Implications
-*What changes because we know or have this? The bullets below are
-suggestions -- use what fits.*
+Writing rules:
 
-- State concretely what changes: behavior, architecture, process, gate,
-  or decision -- never platitudes.
-- Name who must act differently: which agents, roles, or workflows --
-  and for a new feature, who uses it and when.
-- Point at the governance that encodes it: rules, skills, templates,
-  checklists -- existing now or proposed.
-- Give the day-one version: what a new agent should do differently after
-  reading only this insight.
-- Name what this insight affects: what we thought we knew before, and
-  how this changes it -- which prior conclusions, plans, or practices
-  it strengthens, weakens, or overturns.
-- Mark implications already implemented vs still pending.
-- Note where this informs a decision not yet made.
-
-### Counter-evidence
-*What would prove this wrong? The bullets below are suggestions -- use
-what fits.*
-
-- State the conditions under which the insight would be invalidated,
-  concretely enough to test.
-- Note whether those conditions have been tried already, and the
-  outcome.
-- Describe the cheapest experiment that could falsify the insight.
-- Name the edge cases where the insight might not hold even if
-  generally true.
-- An insight that cannot be falsified is dogma -- if no counter-evidence
-  is imaginable, the claim is stated too broadly; narrow it until it can
-  fail.
-- Record when counter-evidence later wins: supersede via status field
-  rather than silently editing the headline.
+- Present tense; describe what is, not what changed.
+- Tables for parts and gates, numbered steps for flows, prose for
+  reasoning.
+- Define a term at first use. Name paths, commands, and files exactly.
+- Refer to procedures and documents by name, never by another
+  document's mutable step or section number.
+- No mutable counts (R11) unless the number is the point; then derive it
+  live before writing.
 
 ## Version History
 
@@ -199,75 +171,40 @@ None. Git history is the version record. Do not add version-history tables to th
 ## Cross-Links
 
 Link to:
-- The IORs, reports, or evaluations that are the source of this insight.
+- The files, repos, or systems the insight describes.
 - Related insights that complement or extend this one.
-- Governance files affected by this insight.
+- Governance the subject is bound by.
+- Source artifacts, when it draws on any.
 
-## Example -- Minimal Valid Insight
+## Minimal Structure
 
 ```markdown
 ---
-name: verification-is-the-bottleneck
-id: 20260614T180000Z
+name: <short-slug>
+id: <YYYYMMDDTHHMMSSZ>
 tier: insight
-source:
-  - 20260614T120000Z
-  - 20260614T150000Z
-author: Link
-tags: [verification, bottleneck, multi-agent, protocol]
+status: active
+source: []
+author: <Name>
+tags: [<tag>, <tag>]
 links:
-  - research/reports/inter-agent-cooperation-findings.md
-  - research/evaluations/ava-review-cooperation-findings.md
+  - <path/to/related-file.md>
 ---
 
-# Verification Is the Bottleneck
+# <Subject> -- <What It Is>
 
-## The Insight
-In multi-agent systems, verification capacity is the binding constraint
-on throughput, not production capacity.
+<Opening summary: what the subject is, what it is for, where it lives,
+and who uses it.>
 
-## Evidence
-Across 8 work orders spanning 14 days (WO-1 through WO-8), the
-producing agent (Link) completed all 8 production passes within the
-first 6 days. The reviewing agent (Ava) took the full 14 days to
-complete independent evaluation of all 8 outputs. Production was
-never the bottleneck -- verification was.
+## <A section that fits the subject, e.g. Parts>
 
-The 2 protocol violations (WO-4 self-close, WO-7 skipped evaluation)
-occurred when Link attempted to bypass the verification bottleneck
-by self-closing. Both produced uncaught errors, confirming that
-verification cannot be skipped -- it can only be parallelized or
-made cheaper.
-
-Source: `20260614T120000Z` (Inter-Agent Cooperation report),
-`20260614T150000Z` (Ava's independent evaluation).
-
-## Implications
-1. System architecture should optimize for verification throughput,
-   not production throughput. Adding more producing agents without
-   adding reviewing capacity creates a backlog that invites protocol
-   violations.
-2. The cheapest verification tier (automated structural checks) should
-   handle everything it can, reserving human-level or different-model
-   review for semantic claims.
-3. When designing agent workflows, the question is not "how fast can
-   we produce?" but "how fast can we verify?"
-
-## Counter-evidence
-This insight would be invalidated if:
-- A producing agent demonstrates self-review accuracy matching
-  independent review (same error catch rate). This has not been
-  observed in any WO to date.
-- A verification method cheaper than independent model-family review
-  achieves the same error catch rate. The structural checks (tier 1)
-  catch format errors but miss overclaims -- the semantic gap remains.
+## <Another section, e.g. How It Works>
 
 ## Cross-Links
-- `research/reports/inter-agent-cooperation-findings.md` -- source report
-- `research/evaluations/ava-review-cooperation-findings.md` -- source evaluation
-- `research/insights/deepseekv4pro.md` -- related model-level insight
+
+- `<path/to/related-file.md>` -- <why it matters>
 ```
 
 ---
 
-*Last updated: 2026-10-04 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
+*Last updated: 2026-10-21 by Morpheus, approved by Suggi. Rules are scar tissue -- each one should trace to a failure that proved it necessary.*
