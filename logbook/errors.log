@@ -320,3 +320,18 @@ Workstreams:
 - 10-11: background review's tool whitelist taken as enforced; upstream #136623 shows it is not. Gate: reproduce a safety boundary on installed code.
 - core-shared fleet facts 11 days stale, written only at session-end. Gate: same-day fleet-configuration fact in fleet-hermes-update-ops and hermes-update-check.
 Reflection: a-description-of-the-system-is-a-claim-to-check. Daily memory: 2026-10-19.md.
+
+## [ENT-044] | 2026-10-21 15:36 UTC | Atlas | error | ref: reflections/2026-10-21_atlas_a-play-test-bot-measures-itself-first.md | see: 20261021T153119Z
+Session: scars from the game build (2026-10-20 to 2026-10-21).
+- 10-20: started building before Suggi's go, third time. Gate: project-create Phase Gate
+  (the folder is not the go-ahead), Suggi approved.
+- 10-21: reported a regression check as proven before its output was read (run went to the
+  background, display cut off; R23). Corrected in the next message. Gate: browser-game-dev
+  lesson; each probe's failing line is now a dated comment beside its check.
+- Game pathfinding chose diagonal steps between two blocked tiles; the bot stalled in 4 runs.
+  Fixed; check-world steering rule failed on all 17 maps with the old code, 0 now.
+- Balance replays changed game and bot together; Cinder 78% -> 22% from the bot alone.
+  Gate: median of 3 seeds. Versioning the bot proposed in the reflection, not built.
+- Play-test harness left one Chromium profile per run in scratch; now removed after the browser exits.
+- A diagnostic that stepped frames hid a deterministic stall. Rule: diagnostics are read-only.
+Reflection: a-play-test-bot-measures-itself-first.

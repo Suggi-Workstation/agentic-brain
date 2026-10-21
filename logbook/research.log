@@ -51,3 +51,13 @@ Workstreams:
 - Concept only: Indonesian-speaking WhatsApp assistant for Suggi's father; nothing built.
 Open: library/coding-agentic-ai/multi-agent-orchestration.md credits Anthropic with a debate pattern; its post describes orchestrator-worker.
 Reflection: a-lesson-binds-where-it-is-read-not-where-it-was-learned. Daily memory: 2026-10-08.md.
+
+## [ENT-005] | 2026-10-21 15:36 UTC | Atlas | research | ref: reflections/2026-10-21_atlas_a-play-test-bot-measures-itself-first.md | see: 20261021T153119Z
+Research for a browser game (2026-10-20 to 2026-10-21); notes in Atlas's workspace project hallowmarch.
+- engine-and-platform: browser vs Godot vs Solarus for a Zelda-like on Windows; browser chosen
+  because Atlas can run, drive and screenshot it on the GPU-less VPS.
+- graphics-music-feel: toy-diorama look in Three.js verified by a spike (WebGL through
+  SwiftShader in headless Chromium); warm Web Audio instruments; game-feel and difficulty numbers.
+- dungeon-siege-system: Dungeon Siege I and II progression, powers and pets; criticisms and counters.
+- Learning: an automated play-tester's difficulty numbers are joint measurements of bot and game.
+Reflection: a-play-test-bot-measures-itself-first.
