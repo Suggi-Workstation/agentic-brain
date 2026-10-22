@@ -1,12 +1,14 @@
 # Books -- Topics
 
-17 topics. Anchor: [anchor-books.md](anchor-books.md)
+18 topics. Anchor: [anchor-books.md](anchor-books.md)
 
 - [A Random Walk Down Wall Street -- Why Most Investors Cannot Beat the Market and What to Do About It](a-random-walk-down-wall-street.md) -- [reviewed: 2026-09-09] -- A Random Walk Down Wall Street, first published by Burton G. Malkiel in 1973 and updated through thirteen editions, argues that stock prices follow a random walk -- future price changes cannot be predicted from past price movements -- making it nearly impossible for most investors to consistently outperform broad market indexes.
 
 - [Abundance -- Klein and Thompson Make Supply and State Capacity the Test of Progressive Government](abundance-klein-thompson-building-capacity-supply-progress.md) -- [reviewed: 2026-09-28] -- Ezra Klein and Derek Thompson's *Abundance* argues that the United States cannot solve shortages in housing, clean energy, infrastructure, and useful innovation through redistribution or spending alone; it must recover the ability to build and invent at scale [1][2]. The book reframes liberal governance around outcomes rather than accumulated procedure, while its critics question whether that...
 
 - [Antifragile -- Why Some Systems Get Stronger From Disorder and How to Put Yourself on That Side of the Triad](antifragile-things-that-gain-from-disorder.md) -- [reviewed: 2026-09-29] -- "Antifragile: Things That Gain from Disorder" is Nassim Nicholas Taleb's attempt to turn uncertainty from a forecasting problem into an exposure-design problem. Its central claim is that the opposite of fragile is not robust but antifragile: a system is antifragile, relative to a specified stressor and range, when variation improves its outcomes rather than merely leaving it unchanged [1][3].
+
+- [Chip War -- Chris Miller Argues That Control of Scarce Computing Power, Not Oil, Now Decides Economic and Military Rivalry](chip-war-miller-semiconductors-supply-chains-technological-power.md) -- [reviewed: never] -- Chip War: The Fight for the World's Most Critical Technology (Scribner, 2022) is economic historian Chris Miller's account of how the semiconductor industry grew out of Cold War military demand into a globally specialized production system whose few irreplaceable chokepoints now shape economic strength and military power [1][6][8].
 
 - [Guns, Germs, and Steel -- Geography, Not Biology, Explains the Unequal Fates of Human Societies](guns-germs-and-steel.md) -- [reviewed: 2026-09-30] -- Guns, Germs, and Steel (1997) is Jared Diamond's attempt to answer "Yali's question": why did the peoples of some continents come to conquer and displace the peoples of others, rather than the reverse? Diamond's answer is environmental: differences in domesticable plants and animals, continental geography, ecological barriers, and isolation shaped which societies first accumulated agriculture, dense populations, technology, writing, governments, and the combination of guns, germs, and steel [1].
 
