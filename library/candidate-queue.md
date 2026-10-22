@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Consumer Protection and Product Safety Law -- Defects, Deception, Digital Design, and Redress
-- **Domain:** law-regulation
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.7/10.0 (gap=9.7, compounding=9.8, timeliness=9.9, balance=9.4)
-- **Scope:** Explain how consumer law allocates duties and remedies when products, services, advertising, interfaces, or marketplaces expose buyers to unsafe, deceptive, or unfair practices. Cover product safety, strict liability, warranties, disclosure, unfair terms, dark patterns, recalls, online platforms, cross-border sellers, agency enforcement, collective redress, and the interaction among statutes, regulation, contract, and tort. Compare risk-based prevention with after-the-fact compensation while distinguishing legal rules from marketing ethics, product engineering, competition policy, and general data privacy.
-- **Status:** proposed
-
 ## Candidate: Chip War -- Semiconductors, Supply Chains, and the Struggle for Technological Power
 - **Domain:** books
 - **Proposed by:** Librarian
