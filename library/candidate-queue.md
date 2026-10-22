@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Disability and Social Inclusion -- Institutions, Accessibility, Stigma, and Unequal Life Chances
-- **Domain:** sociology-demography
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=10.0, timeliness=9.9, balance=9.4)
-- **Scope:** Explain disability as a relationship among bodies, environments, institutions, classifications, and social expectations rather than only an individual medical condition. Examine accessibility, stigma, education, work, income, family and care, housing, technology, organizations, community participation, intersectionality, data gaps, and the difference between inclusion and segregation. Compare medical, social, relational, and capability models while distinguishing population-level structures from clinical treatment, disability law, ethical theory, and personal self-improvement.
-- **Status:** proposed
-
 ## Candidate: Stars and Stellar Evolution -- Formation, Fusion, Nucleosynthesis, and Compact Remnants
 - **Domain:** science
 - **Proposed by:** Librarian
