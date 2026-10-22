@@ -1,6 +1,6 @@
 # Science -- Topics
 
-17 topics. Anchor: [anchor-science.md](anchor-science.md)
+18 topics. Anchor: [anchor-science.md](anchor-science.md)
 
 - [Cell Biology -- Compartmentalized, Dynamic Cells Sustain Life Through Coordinated Transport, Signaling, Division, and Death](cell-biology.md) -- [reviewed: 2026-09-22] -- Cell biology explains how cells organize chemical reactions, exchange matter and information, reproduce, and sometimes execute regulated death. The cell is the basic structural and functional unit of cellular life, but no single cell plan is universal: bacterial, archaeal, and eukaryotic cells solve the same functional problems with different degrees and kinds of compartmentalization ([1] [2] [4]).
 
@@ -33,6 +33,8 @@
 - [Quantum Mechanics -- The Strangest Theory Ever Devised, and the Most Precisely Tested in History](quantum-mechanics.md) -- [reviewed: never] -- Quantum mechanics is the fundamental theory of nature at atomic and subatomic scales, describing a world where particles exist in multiple states simultaneously, observation changes what is observed, and entangled particles influence each other instantly across arbitrary distances. Despite predictions so counterintuitive that even Einstein resisted them, quantum mechanics has survived every...
 
 - [The Scientific Method -- How Falsifiability and Self-Correction Produce Reliable Knowledge About Nature](scientific-method-falsifiability.md) -- [reviewed: never] -- The scientific method is not a single recipe but a family of empirical practices -- observation, hypothesis formation, experimentation, peer review, and replication -- united by one non-negotiable principle: scientific claims must be falsifiable. A hypothesis that cannot be proven wrong, even in principle, is not science.
+
+- [Stars and Stellar Evolution -- Mass, Composition, and Companions Decide How a Star Makes Elements and What It Leaves Behind](stellar-evolution-formation-fusion-nucleosynthesis-and-compact-remnants.md) -- [reviewed: never] -- A star is a self-gravitating ball of gas whose long life is a negotiation between gravity, which compresses it, and the pressure maintained by nuclear reactions in its core. Its initial mass, its composition, and whether it has a binary companion decide how long it shines, which elements it forges, and whether it ends as a white dwarf, a neutron star, or a black hole.
 
 - [Thermodynamics -- The Four Laws That Set the Ultimate Rules for Everything](thermodynamics-laws-energy-entropy.md) -- [reviewed: never] -- Thermodynamics is the branch of physics that governs energy, heat, work, and entropy. Its four laws are not mere descriptions of how things behave under certain conditions -- they are absolute constraints on what is physically possible anywhere in the universe. The First Law says you cannot create or destroy energy (you cannot win).
 
