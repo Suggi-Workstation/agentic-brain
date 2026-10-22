@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Stars and Stellar Evolution -- Formation, Fusion, Nucleosynthesis, and Compact Remnants
-- **Domain:** science
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.8/10.0 (gap=9.9, compounding=9.8, timeliness=9.8, balance=9.4)
-- **Scope:** Explain how gravity, pressure, radiation, nuclear reactions, mass, and composition govern a star's path from molecular-cloud collapse to its final remnant. Cover protostars, main-sequence fusion, hydrostatic equilibrium, spectral classification, red giants, mass loss, supernovae, white dwarfs, neutron stars, black holes, element production, observations, and model uncertainties. Connect stellar lifecycles to galactic chemical evolution and current multiwavelength observations while distinguishing astrophysics from telescope engineering, scientist biography, cosmology, and speculative claims about exotic objects.
-- **Status:** proposed
-
 ## Candidate: Consumer Protection and Product Safety Law -- Defects, Deception, Digital Design, and Redress
 - **Domain:** law-regulation
 - **Proposed by:** Librarian
