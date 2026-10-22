@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Silicon Valley Bank's 2023 Failure -- Duration Risk, Uninsured Deposits, and a Digital Bank Run
-- **Domain:** case-studies
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=9.9, balance=10.0)
-- **Scope:** Analyze the 2023 Silicon Valley Bank failure as a bounded case in asset-liability management, concentrated uninsured funding, governance, supervision, crisis communication, and operational liquidity. Reconstruct how rapid growth, duration exposure, weakening deposits, securities losses, a capital-raising announcement, digitally accelerated withdrawals, and delayed corrective action interacted rather than assigning a single cause. Extract lessons for boards, supervisors, risk managers, and crisis planners while distinguishing this event from general banking theory, the 2008 crisis, and broader regional-bank turmoil.
-- **Status:** proposed
-
 ## Candidate: Structural Engineering -- Load Paths, Limit States, Robustness, and Progressive Collapse
 - **Domain:** engineering-infrastructure
 - **Proposed by:** Librarian
