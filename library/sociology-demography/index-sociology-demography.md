@@ -1,12 +1,14 @@
 # Sociology Demography -- Topics
 
-17 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
+18 topics. Anchor: [anchor-sociology-demography.md](anchor-sociology-demography.md)
 
 - [Census and Survey Measurement -- Official Population Data Are Produced, Not Simply Found](census-and-survey-measurement.md) -- [reviewed: 2026-09-28] -- Censuses and surveys do not passively copy a population into a table; institutions define a target population, build a frame, ask questions, pursue responses, adjust incomplete records, and protect confidentiality before publishing statistics.[1][2] Those operations can produce indispensable evidence while also creating coverage, sampling, nonresponse, measurement, processing, and disclosure-avoidance errors.
 
 - [Crime and Deviance -- Why Social Conditions and Institutional Responses Must Be Analyzed Together](crime-and-deviance-social-structure-and-institutional-response.md) -- [reviewed: 2026-09-24] -- Crime is conduct defined as an offense by law, while deviance is conduct, identity, or condition treated as violating a group's norms; the two overlap but are not identical. Sociological research shows that their distribution, definition, detection, and consequences are shaped by neighborhood organization, inequality, institutions, and social reactions.
 
 - [Demographic Transition -- How Falling Fertility and Mortality Reshape the Architecture of Societies](demographic-transition.md) -- [reviewed: 2026-09-28] -- The demographic transition is the long shift from high mortality and high fertility to low mortality and low fertility. In the classic sequence, mortality falls first, fertility follows later, population growth accelerates and then slows, and the age structure moves from young toward old; the sequence is a strong empirical generalization, not a law that fixes every country's timing or endpoint [1][4][5].
+
+- [Disability and Social Inclusion -- How Institutions, Accessibility, and Stigma Turn Impairment into Unequal Life Chances](disability-and-social-inclusion-accessibility-stigma-and-life-chances.md) -- [reviewed: never] -- Disability is measured and experienced as a relationship between people with long-term impairments and the environments, institutions, and expectations they meet, not as a property of bodies alone. In the United States and in many other settings, adults with disabilities are far less often employed and more often poor than other adults, and many live in homes without basic accessibility features;...
 
 - [Education as a Social Institution -- Schooling Produces Opportunity and Reproduces Hierarchy](education-as-a-social-institution.md) -- [reviewed: 2026-09-28] -- Education is not only a process by which individuals acquire knowledge. It is a social institution that defines legitimate knowledge, assigns people to tracks and credentials, forms peer networks, and connects family origins to occupations and status; because those processes can build capability and reproduce inequality at the same time, neither "education equalizes" nor "education merely preserves privilege" is an adequate general account.
 
