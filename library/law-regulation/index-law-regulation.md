@@ -1,6 +1,6 @@
 # Law Regulation -- Topics
 
-17 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
+18 topics. Anchor: [anchor-law-regulation.md](anchor-law-regulation.md)
 
 - [Administrative Law Makes Agency Power Operational but Keeps It Legally Bounded](administrative-law-and-agency-rulemaking.md) -- [reviewed: 2026-09-22] -- Administrative law is the framework through which United States federal agencies turn congressional statutes into generally applicable rules, case-specific orders, licenses, sanctions, and other public actions. The Administrative Procedure Act supplies default procedures for rulemaking and adjudication, while organic statutes grant each agency its substantive authority and courts police the resulting boundaries.
 
@@ -9,6 +9,8 @@
 - [Bankruptcy Law Preserves Value by Replacing Individual Collection With Collective Choice](bankruptcy-and-restructuring-law.md) -- [reviewed: 2026-09-30] -- Bankruptcy and restructuring law does not merely cancel debt or close failed firms. It replaces a destructive race for assets with a collective process that preserves options, tests whether a business is worth more operating or liquidated, ranks claims, supervises bargaining, and distributes unavoidable losses under stated rules.
 
 - [Constitutional Law and Governance Structures -- Why Constitutional Design Choices Made Centuries Ago Shape Modern Political Outcomes](constitutional-law-governance-structures.md) -- [reviewed: 2026-09-29] -- Constitutional law allocates public power, specifies how it may be exercised, and supplies rules for challenging its abuse. The practical constitutional order includes not only a written charter, where one exists, but also courts, legislatures, executives, elections, parties, conventions, and citizens capable of enforcing its limits [1][3].
+
+- [Consumer Protection and Product Safety Law -- Why the Law Moves Safety and Fairness Duties from Buyers to Sellers, Platforms, and Designers](consumer-protection-and-product-safety-law.md) -- [reviewed: never] -- Consumer protection law replaces the old expectation that a buyer must inspect, read, and bargain with a set of duties placed on the party that designs, sells, or hosts the offer. Four legal tools carry those duties: safety rules that act before harm, liability rules that compensate after harm, fairness rules that police terms and sales practices, and collective enforcement that makes small individual losses worth pursuing.
 
 - [Contract Law -- The Legal Architecture That Makes Voluntary Exchange Enforceable and Markets Possible](contract-law-foundations.md) -- [reviewed: 2026-09-30] -- Contract law supplies rules for recognizing agreements, interpreting obligations, responding to nonperformance, and awarding remedies. This topic focuses on United States common-law doctrine and Uniform Commercial Code Article 2, while emphasizing that enacted statutes and state decisions control particular disputes.
 
