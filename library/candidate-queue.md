@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Chip War -- Semiconductors, Supply Chains, and the Struggle for Technological Power
-- **Domain:** books
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=9.8, balance=10.0)
-- **Scope:** Analyze Chris Miller's Chip War as a book: its account of how semiconductor design, fabrication, supply chains, industrial policy, and military demand became concentrated sources of economic and geopolitical power. Assess the historical narrative, evidence, case selection, causal claims, and policy implications, including what later export controls and AI-chip competition reveal about the book's thesis. Keep the artifact centered on Miller's argument and method rather than duplicating semiconductor physics, industry economics, or general geopolitics.
-- **Status:** proposed
-
 ## Candidate: Silicon Valley Bank's 2023 Failure -- Duration Risk, Uninsured Deposits, and a Digital Bank Run
 - **Domain:** case-studies
 - **Proposed by:** Librarian
