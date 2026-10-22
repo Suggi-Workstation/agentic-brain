@@ -100,6 +100,20 @@ The shared service is justified by shared runtime and shared fleet knowledge. Pe
 
 A core agent does not automatically receive every shared fact on each turn. It deliberately recalls or reflects through MCP when shared context is relevant. A personal observation scope is likewise local to its bank: the deployed `scope:private` tag is not a destination, an access grant, or publication to `core-shared`.
 
+### What core-shared holds
+
+`core-shared` holds only facts another core agent needs to do its own work correctly; each private bank already keeps its own sessions. The test is: would another core agent make a mistake in its own work without this fact? One agent's own tasks, projects, files, formats, skills, tools, settings and domain subject matter stay in its private bank, and a rule is stored as the rule, without the incident behind it.
+
+Every shared fact carries exactly one tag, and each tag feeds one mental model scoped to it:
+
+| Tag | Mental model | Holds |
+|:--|:--|:--|
+| `suggi-rule` | `suggi-rules` | How Suggi wants every agent to work; stable facts about him that change how any agent works with him |
+| `fleet-roster` | `fleet-roster` | Which agents exist, what each owns, boundaries and joint projects |
+| `vps-runtime` | `vps-runtime` | Versions, providers, shared configuration, workarounds and known issues every VPS agent meets |
+
+The models use `mode: full`, `refresh_after_consolidation: true` and `exclude_mental_models: true`: each rebuild regenerates the model from its current tagged facts and never reads a sibling model. Agents write shared facts in their session-end skill. They never widen or edit a model; they create a new tag-scoped model only for a shared fact that fits no existing tag.
+
 ### Filesystem and persistence map
 
 The service root is `/srv/hindsight/`. Profile connection settings remain in Hermes profiles; putting the server under one directory does not move Hermes's session database or Docker's internal storage there.
