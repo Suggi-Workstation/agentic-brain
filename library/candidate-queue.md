@@ -185,3 +185,27 @@
 - **Discovery score:** 9.2/10.0 (gap=8.9, compounding=9.2, timeliness=9.3, balance=10.0)
 - **Scope:** Explain loneliness as a perceived gap between desired and actual relationships and social isolation as an objective lack of contacts, and why the two are measured differently. Cover prevalence by age, income, and living arrangement, time trends and data limits, links to mortality and illness with causal caveats, and the roles of households, workplaces, neighborhoods, and digital media. Evaluate community-level interventions and social infrastructure using the 2025 WHO Commission report and World Health Assembly resolution WHA78.9. Distinguish population patterns from clinical treatment, individual psychology, and network theory.
 - **Status:** proposed
+
+## Candidate: Autonomous Vehicles -- Perception, Planning, Safety Cases, and Driverless Deployment at Scale
+- **Domain:** technology
+- **Proposed by:** Librarian
+- **Date:** 2026-10-22
+- **Discovery score:** 9.5/10.0 (gap=9.6, compounding=8.8, timeliness=9.7, balance=10.0)
+- **Scope:** Explain how automated driving systems sense, predict, plan, and control vehicles within an operational design domain, covering SAE automation levels, sensor suites, mapping, machine-learned and rule-based planning, remote assistance, simulation, and validation. Compare driver-assistance systems with robotaxi services such as Waymo, which reported about 500,000 paid rides per week in March 2026, and weigh crash-rate evidence against early-2026 federal investigations. Show why rare events and statistical proof of safety limit scaling. Distinguish the technology from general robotics, semiconductors, liability law, and mobility economics.
+- **Status:** proposed
+
+## Candidate: Modern China, 1839 to the Present -- Imperial Collapse, Revolution, Maoist Rule, and the Reform-Era State
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-10-22
+- **Discovery score:** 9.4/10.0 (gap=9.4, compounding=9.4, timeliness=9.1, balance=10.0)
+- **Scope:** Trace how China moved from the Qing empire through the Opium Wars, the Taiping Rebellion, the 1911 revolution, warlordism, the Nationalist state, the war with Japan, and the 1949 Communist victory. Compare Maoist campaigns, including the Great Leap Forward and Cultural Revolution, with Reform and Opening, then follow party-state planning to the 15th Five-Year Plan approved in March 2026. Emphasize contested historiography and source access. Distinguish chronology and causation from current US-China competition, biography, and development economics.
+- **Status:** proposed
+
+## Candidate: The Anxious Generation -- Haidt's Great Rewiring Thesis, Its Evidence, and Its Critics
+- **Domain:** books
+- **Proposed by:** Librarian
+- **Date:** 2026-10-22
+- **Discovery score:** 9.3/10.0 (gap=9.2, compounding=9.0, timeliness=9.5, balance=10.0)
+- **Scope:** Analyze Jonathan Haidt's 2024 book The Anxious Generation as an argument that a phone-based childhood, replacing play-based childhood after about 2010, drove rising adolescent anxiety and depression. Assess its trend data, experiments, and mechanisms against critiques such as Candice Odgers' 2024 Nature review, which stresses correlation versus causation. Examine its policy influence, including Australia's under-16 social media age restriction in force since 10 December 2025. Keep the artifact on the book's claims and reception, not general adolescent psychology.
+- **Status:** proposed

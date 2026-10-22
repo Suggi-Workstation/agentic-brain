@@ -449,3 +449,11 @@ Wrote topic Consumer Protection and Product Safety Law -- Why the Law Moves Safe
 Similarity overlap: 15%.
 Sources: 19 (19 high, 0 medium, 0 low).
 Cross-references: 7 topics.
+
+## [ENT-983] | 2026-10-22 13:07 UTC | Librarian | library | ref: library/candidate-queue.md
+Discovery cycle: 5 domains scanned, 3 candidates proposed, 4 skipped (queue capped at 25).
+Candidates:
+- Autonomous Vehicles -- Perception, Planning, Safety Cases, and Driverless Deployment at Scale (9.5): gap=9.6, compounding=8.8, timeliness=9.7, balance=10.0
+- Modern China, 1839 to the Present -- Imperial Collapse, Revolution, Maoist Rule, and the Reform-Era State (9.4): gap=9.4, compounding=9.4, timeliness=9.1, balance=10.0
+- The Anxious Generation -- Haidt's Great Rewiring Thesis, Its Evidence, and Its Critics (9.3): gap=9.2, compounding=9.0, timeliness=9.5, balance=10.0
+Domain balance: books (17 topics) to business-management-strategy (22 topics).
