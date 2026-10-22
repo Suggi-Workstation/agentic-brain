@@ -1,6 +1,6 @@
 # Case Studies -- Topics
 
-17 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
+18 topics. Anchor: [anchor-case-studies.md](anchor-case-studies.md)
 
 - [The 2008 Financial Crisis -- How Housing Losses Became a Global Funding Emergency](2008-financial-crisis.md) -- [reviewed: 2026-09-09] -- The 2007-2009 financial crisis turned a downturn in U.S. housing into a global funding and credit emergency through weak underwriting, leveraged exposures, and fragile short-term financing. Lehman Brothers' bankruptcy and AIG's near-failure in September 2008 intensified an already developing crisis, with severe consequences for production, employment, and household wealth.
 
@@ -33,6 +33,8 @@
 - [Long-Term Capital Management -- How the Smartest Minds in Finance Nearly Destroyed the Global System](long-term-capital-management-collapse.md) -- [reviewed: never] -- Long-Term Capital Management (LTCM) was a hedge fund founded in 1994 by former Salomon Brothers bond arbitrage chief John Meriwether and two Nobel Prize-winning economists, Robert Merton and Myron Scholes. The fund used mathematical models to exploit tiny price discrepancies in bond markets, amplifying them into spectacular returns through leverage exceeding 25-to-1.
 
 - [New Coke -- The 1985 Marketing Disaster That Proved Brand Loyalty Is Not About Taste](new-coke-marketing-disaster.md) -- [reviewed: never] -- The 1985 launch of New Coke is the canonical marketing failure: Coca-Cola spent four years and millions of dollars on the most rigorous taste tests in the history of packaged goods, got a clear result that consumers preferred the new formula, acted on it decisively -- and triggered a consumer revolt so intense that the company reintroduced the original formula as "Coca-Cola Classic" just 79 days later.
+
+- [Silicon Valley Bank's 2023 Failure -- Duration Risk Made a Concentrated Uninsured Deposit Base Runnable, and Slow Correction Left No Time](silicon-valley-bank-2023-failure.md) -- [reviewed: never] -- Silicon Valley Bank (SVB), then the 16th largest bank in the United States, was closed on March 10, 2023, after depositors withdrew more than $40 billion in one day and management expected about $100 billion more the next morning [1][3]. The official reviews trace the failure to an interaction rather than a single cause: a bank that roughly tripled in size invested a concentrated, mostly...
 
 - [Volkswagen's Dieselgate Scandal -- How Corporate Pressure and Institutional Deception Produced the Largest Fraud in Automotive History](vw-dieselgate-emissions-scandal.md) -- [reviewed: never] -- Between 2006 and 2015, Volkswagen Group intentionally programmed roughly 11 million diesel vehicles worldwide with software designed to cheat on emissions tests, allowing cars to pass laboratory certification while emitting up to 40 times the legal limit of nitrogen oxides during real-world driving. The deception, uncovered by a four-person research team at West Virginia University working on a...
 
