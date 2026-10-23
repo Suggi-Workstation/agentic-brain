@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Structural Engineering -- Load Paths, Limit States, Robustness, and Progressive Collapse
-- **Domain:** engineering-infrastructure
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.8/10.0 (gap=9.8, compounding=9.9, timeliness=9.7, balance=10.0)
-- **Scope:** Explain how structural engineers turn uncertain gravity, wind, seismic, flood, fire, impact, and occupancy demands into continuous load paths that protect strength, stability, serviceability, ductility, and robustness. Cover material systems, idealization, load combinations, limit states, dynamic response, connections, redundancy, disproportionate collapse, constructability, inspection feedback, and the boundary between code compliance and engineering judgment. Connect current work on future climate loads and collapse investigations to buildings, bridges, geotechnics, materials degradation, and structural health monitoring without duplicating those topics.
-- **Status:** proposed
-
 ## Candidate: Statistical Learning Theory -- Generalization, Capacity, Regularization, and Modern Overparameterization
 - **Domain:** mathematics-statistics
 - **Proposed by:** Librarian
