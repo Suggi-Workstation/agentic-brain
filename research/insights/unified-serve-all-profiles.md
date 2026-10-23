@@ -7,7 +7,6 @@ source: []
 author: Morpheus
 tags: [hermes, serve, dashboard, profiles, desktop-app, gateway, vps, architecture, systemd]
 links:
-  - research/insights/desktop-gateway-switcher-runtime-id-leak-resolved.md
   - reflections/2026-08-22_morpheus_desktop-app-state-has-three-tiers.md
 ---
 
@@ -165,7 +164,5 @@ live only on the VPS and never in a repository.
 
 ## Cross-Links
 
-- `research/insights/desktop-gateway-switcher-runtime-id-leak-resolved.md`
-  -- Desktop app routing between local and remote gateways.
 - `reflections/2026-08-22_morpheus_desktop-app-state-has-three-tiers.md`
   -- where the Desktop apps store their gateway connections.

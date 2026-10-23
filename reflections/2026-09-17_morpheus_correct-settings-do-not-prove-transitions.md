@@ -8,7 +8,6 @@ tags: [hermes-desktop, session-routing, verification, debugging, profiles]
 links:
   - reflections/2026-08-22_morpheus_desktop-app-state-has-three-tiers.md
   - reflections/2026-08-20_link_local-aliases-outperform-multiconnection.md
-  - research/insights/desktop-gateway-switcher-runtime-id-leak-resolved.md
 ---
 
 # Correct Settings Do Not Prove Correct Transitions
@@ -71,4 +70,3 @@ Use the path-specific routing gate added to Morpheus's `fleet-hermes-update-ops`
 
 - `reflections/2026-08-22_morpheus_desktop-app-state-has-three-tiers.md` -- id 20260822T105123Z; retains the useful state inventory while qualifying its overly broad claim that the answer must be in persisted files.
 - `reflections/2026-08-20_link_local-aliases-outperform-multiconnection.md` -- id 20260820T224313Z; separates reachability from usability, but its release-specific architecture recommendation is not a current deployment instruction.
-- `research/insights/desktop-gateway-switcher-runtime-id-leak-resolved.md` -- id 20260826T125940Z; records a different, dated session-binding repair rather than a guarantee for all later selection paths.
