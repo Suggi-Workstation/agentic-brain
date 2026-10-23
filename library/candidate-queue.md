@@ -169,3 +169,43 @@
 - **Discovery score:** 9.3/10.0 (gap=9.2, compounding=9.0, timeliness=9.5, balance=10.0)
 - **Scope:** Analyze Jonathan Haidt's 2024 book The Anxious Generation as an argument that a phone-based childhood, replacing play-based childhood after about 2010, drove rising adolescent anxiety and depression. Assess its trend data, experiments, and mechanisms against critiques such as Candice Odgers' 2024 Nature review, which stresses correlation versus causation. Examine its policy influence, including Australia's under-16 social media age restriction in force since 10 December 2025. Keep the artifact on the book's claims and reception, not general adolescent psychology.
 - **Status:** proposed
+
+## Candidate: Russia and the Soviet Union, 1861 to 1991 -- Autocracy, Revolution, Planned Industrialization, and Imperial Collapse
+- **Domain:** history
+- **Proposed by:** Librarian
+- **Date:** 2026-10-23
+- **Discovery score:** 9.5/10.0 (gap=9.5, compounding=9.2, timeliness=9.4, balance=10.0)
+- **Scope:** Trace the Russian Empire from the 1861 emancipation of the serfs through the 1905 and 1917 revolutions, the civil war, and the New Economic Policy to Stalinist collectivization, industrialization, and terror. Follow postwar Soviet governance, stagnation, perestroika, and the 1991 dissolution, stressing the state's imperial and multiethnic structure and the role of Ukraine. Compare totalitarian, revisionist, and imperial interpretations, and note how contested narratives enter the Russia-Ukraine war. Distinguish internal chronology from Cold War diplomacy, World War II operations, and current geopolitics.
+- **Status:** proposed
+
+## Candidate: Climate Models and Projections -- Physics, Sensitivity, Scenarios, and Remaining Carbon Budgets
+- **Domain:** earth-climate
+- **Proposed by:** Librarian
+- **Date:** 2026-10-23
+- **Discovery score:** 9.4/10.0 (gap=9.3, compounding=9.5, timeliness=9.6, balance=9.4)
+- **Scope:** Explain how climate models represent atmosphere, ocean, ice, land, and carbon-cycle processes, and how parameterization, resolution, and ensembles shape projections. Cover equilibrium climate sensitivity, transient climate response, emergent constraints, the AR6 likely range of 2.5 to 4 C, scenario design, CMIP7, and the hot-model problem. Show how projections yield warming levels and remaining carbon budgets, such as the 130 GtCO2 estimate for 1.5 C from 2026 in Indicators of Global Climate Change 2025. Distinguish model physics from attribution methods, the carbon cycle, and climate policy.
+- **Status:** proposed
+
+## Candidate: Intertemporal Choice and Present Bias -- Delay Discounting, Self-Control, and Why Sooner Rewards Win
+- **Domain:** psychology-behavior
+- **Proposed by:** Librarian
+- **Date:** 2026-10-23
+- **Discovery score:** 9.3/10.0 (gap=9.3, compounding=9.4, timeliness=8.6, balance=10.0)
+- **Scope:** Explain how people trade immediate against delayed outcomes: exponential, hyperbolic, and quasi-hyperbolic discounting, preference reversals, and present bias. Evaluate measurement and evidence, including the 2021 Economic Journal meta-analysis of 220 present-bias estimates, corrections for selective reporting, differences between money and effortful tasks, and the 2018 marshmallow-test replication. Connect the findings to self-control, saving, procrastination, and commitment. Distinguish descriptive intertemporal choice from prospect theory, ego depletion, habit formation, and normative debates about discount rates.
+- **Status:** proposed
+
+## Candidate: Direct Democracy and Deliberative Mini-Publics -- Referendums, Initiatives, Citizens' Assemblies, and Their Institutional Effects
+- **Domain:** political-science-public-policy
+- **Proposed by:** Librarian
+- **Date:** 2026-10-23
+- **Discovery score:** 9.3/10.0 (gap=9.3, compounding=9.0, timeliness=9.0, balance=10.0)
+- **Scope:** Explain how referendums, citizen initiatives, recalls, and randomly selected citizens' assemblies and juries differ in who sets the agenda, who decides, and how results bind representative institutions. Compare turnout quorums, such as Italy's June 2025 referendums that drew about 30 percent against a 50 percent requirement, with the OECD's count of 160 new representative deliberative processes between 2021 and 2023. Assess evidence on policy effects, legitimacy, elite control, and uptake. Distinguish these institutions from electoral systems, party competition, public opinion, and normative democratic theory.
+- **Status:** proposed
+
+## Candidate: Journaling and Expressive Writing -- What Writing About Experience Does for Mood, Health, and Reflection
+- **Domain:** self-improvement
+- **Proposed by:** Librarian
+- **Date:** 2026-10-23
+- **Discovery score:** 9.0/10.0 (gap=9.2, compounding=8.6, timeliness=8.4, balance=10.0)
+- **Scope:** Translate research on expressive writing, gratitude and benefit-finding journals, and routine reflective journaling into practices a person can test safely. Compare Pennebaker and Beall's 1986 paradigm with later randomized trials and meta-analyses reporting small and inconsistent average effects, and with moderators such as session number and population. Cover format, timing, privacy, and when to stop. Distinguish personal practice from clinical treatment, decision journals, emotion-regulation strategies, and narrative craft.
+- **Status:** proposed
