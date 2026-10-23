@@ -1,6 +1,6 @@
 # Engineering Infrastructure -- Topics
 
-17 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
+18 topics. Anchor: [anchor-engineering-infrastructure.md](anchor-engineering-infrastructure.md)
 
 - [Buildings and Urban Infrastructure -- Engineered Systems That Shape the Vertical City](buildings-and-urban-infrastructure.md) -- [reviewed: 2026-09-23] -- A building is simultaneously a structure, an environmental-control system, a long-lived asset, and a node in urban infrastructure. Its performance depends on coordinated decisions about loads, materials, mechanical services, energy, information, maintenance, and connections to power, water, transport, waste, and communications networks.
 
@@ -25,6 +25,8 @@
 - [Process Safety Management Prevents Catastrophe by Governing Barriers Before Failure](process-safety-management-and-hazard-analysis.md) -- [reviewed: never] -- Process safety management is a lifecycle engineering system for preventing and limiting catastrophic releases, fires, explosions, and other major accidents in hazardous processes. Its central claim is prospective: organizations reduce high-consequence risk when they identify credible scenarios, choose inherently safer designs where feasible, install independent protective layers, and continuously verify that technical and organizational barriers remain effective ([1] [5] [11]).
 
 - [Reliability Engineering and Failure Analysis -- Why Designed Systems Fail and How Engineers Keep Them Working](reliability-engineering-failure-analysis.md) -- [reviewed: never] -- Reliability engineering is the discipline that designs physical and engineered systems to perform their intended function without failure, for a specified period, under specified conditions. Failure analysis is its investigative counterpart: the systematic investigation of why a system failed, tracing the physical, procedural, and organizational causes so that the same class of failure does not recur.
+
+- [Structural Engineering -- Collapse Safety Depends on Continuous, Redundant, Ductile Load Paths, Not on Member Strength Alone](structural-engineering-load-paths-limit-states-robustness.md) -- [reviewed: never] -- Structural engineering turns uncertain demands -- gravity, wind, earthquake, flood, fire, impact, and occupancy -- into a continuous chain of members and connections that carries every force to the ground with adequate strength, stiffness, stability, and ductility [3][9]. The major collapse investigations of the last six decades, from Ronan Point (1968) and the Hyatt Regency walkways (1981) to...
 
 - [Structural Health Monitoring and Condition-Based Maintenance -- Evidence Must Trigger Action Before Assets Fail](structural-health-monitoring-and-condition-based-maintenance.md) -- [reviewed: never] -- Structural health monitoring (SHM) observes changes in the response or condition of an engineered asset; condition-based maintenance (CBM) uses credible condition evidence to choose the timing and scope of intervention. Sensors and nondestructive evaluation can reveal deterioration missed by occasional visual inspection, but neither a warning signal nor an algorithm by itself proves remaining capacity or prevents failure.
 
