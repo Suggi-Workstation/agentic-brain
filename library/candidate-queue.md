@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Statistical Learning Theory -- Generalization, Capacity, Regularization, and Modern Overparameterization
-- **Domain:** mathematics-statistics
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=10.0, timeliness=9.8, balance=10.0)
-- **Scope:** Explain statistical learning theory as the mathematical study of when finite data and optimization produce models that generalize beyond their training sample. Cover empirical risk, hypothesis classes, loss, VC dimension, uniform convergence, regularization, stability, bias-variance, concentration bounds, overparameterization, benign overfitting, distribution shift, and limits of classical guarantees for deep learning. Connect probability, regression, optimization, information theory, and modern AI while distinguishing foundational generalization theory from applied machine-learning systems and model-specific engineering.
-- **Status:** proposed
-
 ## Candidate: AI Inference Systems -- Accelerators, Memory, Quantization, Serving, and Energy
 - **Domain:** technology
 - **Proposed by:** Librarian
