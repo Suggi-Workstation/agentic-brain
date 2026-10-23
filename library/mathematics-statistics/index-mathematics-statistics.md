@@ -1,6 +1,6 @@
 # Mathematics Statistics -- Topics
 
-17 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
+18 topics. Anchor: [anchor-mathematics-statistics.md](anchor-mathematics-statistics.md)
 
 - [Bayesian Statistics -- Why Treating Probability as a Degree of Belief, Not a Long-Run Frequency, Changes Everything About How We Learn from Data](bayesian-statistics.md) -- [reviewed: 2026-09-21] -- Bayesian statistics represents uncertainty about unknown quantities with probability distributions and updates those distributions by combining a prior model with the likelihood of observed data. Its distinctive output is a posterior distribution conditional on the prior, likelihood, and data, not a guarantee that any one model is true.
 
@@ -31,6 +31,8 @@
 - [Regression Analysis -- Why Modeling Relationships Between Variables Is the Backbone of Quantitative Reasoning](regression-analysis.md) -- [reviewed: never] -- Regression analysis is the statistical method for estimating how a dependent variable changes when one or more independent variables change, producing equations that quantify relationships, isolate effects, and generate predictions from data. From Francis Galton's 19th-century study of hereditary traits to the generalized linear models that underpin modern data science, regression has evolved into the most widely used family of statistical techniques in science, industry, and policy.
 
 - [Statistical Inference -- Why Drawing Reliable Conclusions from Limited Data Is the Core Challenge of Science](statistical-inference.md) -- [reviewed: never] -- Statistical inference is the mathematical framework for drawing conclusions about populations and processes from finite samples of data. It transforms the raw material of observation -- measurements, counts, responses -- into statements about the world accompanied by quantified uncertainty. Without statistical inference, data is merely anecdote; with it, data becomes evidence.
+
+- [Statistical Learning Theory -- Finite Samples Generalize Only Under Assumptions, and Overparameterized Models Have Outrun the Classical Capacity Bounds](statistical-learning-theory.md) -- [reviewed: never] -- Statistical learning theory studies when a predictor chosen to fit a finite training sample will also perform well on new data drawn from the same source. Its classical answer is that generalization requires a prior restriction -- a hypothesis class of limited capacity, a stable learning algorithm, or a prior distribution over predictors -- because no single learner succeeds on every task [2][3][4][10].
 
 - [Stochastic Processes and Markov Chains -- The Right State Makes Random Evolution Calculable](stochastic-processes-and-markov-chains.md) -- [reviewed: never] -- A stochastic process describes uncertain evolution by assigning a joint probability law to observations indexed by time, while a Markov model compresses the relevant past into a present state. When that state is well chosen, transition rules make future distributions, hitting events, and long-run occupancy calculable; when it is poorly chosen, the same machinery can hide memory, nonstationarity, or omitted variables behind precise-looking matrices [1][2][4].
 
