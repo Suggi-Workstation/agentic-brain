@@ -1,6 +1,8 @@
 # Technology -- Topics
 
-17 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+18 topics. Anchor: [anchor-technology.md](anchor-technology.md)
+
+- [AI Inference Systems -- Serving Trained Models Is Bounded by Memory Traffic, Scheduling, and Measurement Boundaries More Than by Peak Compute](ai-inference-systems.md) -- [reviewed: never] -- An AI inference system turns a trained model into a service that answers requests within latency, cost, and energy limits. For large language models (LLMs) the work splits into a parallel prefill phase and a token-by-token decode phase that rereads the model weights and a growing key-value (KV) cache at every step, so memory bandwidth, memory capacity, batching policy, and scheduling often decide performance more than peak arithmetic throughput [2][5][9].
 
 - [Applied Cryptography Is Secure Only When Primitives, Protocols, and Key Lifecycles Align](applied-cryptography-primitives-protocols-key-management.md) -- [reviewed: 2026-09-30] -- Applied cryptography turns mathematical mechanisms into systems that protect confidentiality, integrity, authenticity, and selected forms of freshness, but a secure primitive does not make an application secure by itself. Security emerges only when randomness, keys, algorithms, protocol state, identity, implementation behavior, and operational change are composed under one explicit threat model and verified at their real boundaries [8][9][10][14].
 
