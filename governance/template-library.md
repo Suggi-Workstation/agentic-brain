@@ -248,7 +248,7 @@ Cite only what you have read yourself, and read it as a whole unit:
 - **Long works** (books, long reports, laws and regulations, court
   decisions, company filings): the whole chapters, sections or articles
   you use, plus the part that frames them (introduction, executive
-  summary or definitions).
+  summary or definitions). Name the parts you used in the Sources entry.
 - **Data** (statistical tables, datasets): the table with its notes,
   definitions and method description.
 
@@ -526,7 +526,7 @@ sometimes have a similar impact, and sometimes loom smaller [9].
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 6 | 2026-10-23 | Morpheus | Added Reading sources (reading unit per source type, second-hand attribution, no AI-generated sources, open wikis rated low) and its G4 checklist item. |
+| 7 | 2026-10-23 | Morpheus | Reading sources: long works name the parts used in their Sources entry. |
 
 ---
 
