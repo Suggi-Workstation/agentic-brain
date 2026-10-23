@@ -6,6 +6,7 @@ domain: mathematics-statistics
 author: Librarian
 tags: [hypothesis-testing, p-values, statistical-significance, replication-crisis, research-methods, open-science]
 links: [library/mathematics-statistics/statistical-inference.md, library/mathematics-statistics/experimental-design.md, library/mathematics-statistics/bayesian-statistics.md, library/mathematics-statistics/causal-inference.md]
+reviewed: 2026-10-23
 ---
 
 # Hypothesis Testing and the p-Value Debate -- Reliable Inference Requires More Than a Threshold
@@ -22,7 +23,7 @@ Applied practice blended these traditions. Researchers commonly calculate a Fish
 
 The basic calculation is conditional. For a selected test statistic T, a p-value is the probability, under the null model and the assumptions used to obtain its reference distribution, of a result at least as extreme as the observed result. In a one-sided schematic form, `p = P_H0(T(X) >= T(x_obs))`; a two-sided test requires an explicit definition of extremeness. The conditioning direction is from the hypothesis to possible data. It is not `P(H0 | data)`, not the probability that chance alone produced the data, and not the probability that a replication will cross the same threshold. [2][3]
 
-Misinterpretation became consequential because the 0.05 boundary acquired institutional functions. Journals, reviewers, promotion systems, and research narratives often treated results below it as discoveries and results above it as absences. This selection rule can suppress estimates that do not cross the boundary, encourage repeated analysis until one result does, and make two nearly identical estimates appear categorically different when their p-values fall on opposite sides of 0.05. The American Statistical Association's 2016 statement responded with six principles, including that scientific decisions should not rest only on a threshold, full reporting is required, and statistical significance does not measure effect size or importance. [2]
+Misinterpretation became consequential because the 0.05 boundary acquired institutional functions. Journals, reviewers, promotion systems, and research narratives often treated results below it as discoveries and results above it as absences. This selection rule can suppress estimates that do not cross the boundary, encourage repeated analysis until one result does, and make two nearly identical estimates appear categorically different when their p-values fall on opposite sides of 0.05. [18] The American Statistical Association's 2016 statement responded with six principles, including that scientific decisions should not rest only on a threshold, full reporting is required, and statistical significance does not measure effect size or importance. [2]
 
 The replication debate exposed the difference between a successful test and reliable knowledge. In 2015 the Open Science Collaboration repeated 100 studies from three psychology journals using high-powered designs and original materials when available. Replication effects averaged about half the original effects, 97% of original studies had statistically significant results, and 36% of replications did. Those figures do not imply that every non-significant replication falsified its original study; they show that a publication record dominated by threshold-crossing original results did not yield equally strong results under new data. [9]
 
@@ -30,7 +31,7 @@ Parallel evidence appeared outside psychology. Camerer and colleagues preregiste
 
 The phrase replication crisis therefore names a bundle of problems rather than proof that one statistical tool caused scientific failure. The National Academies distinguishes reproducibility, obtaining consistent computational results with the same data and procedures, from replicability, obtaining consistent results in a new study addressing the same question. Poor design, insufficient data, model misspecification, selective reporting, undisclosed flexibility, measurement differences, and genuine heterogeneity can all disrupt one or both. The 2021 ASA task force similarly stated that properly applied p-values and significance tests remain important while locating replication problems in design, data, model choice, analytical description, and result selection. [5][16]
 
-The debate is consequently not a contest between keeping p-values unchanged and banning them everywhere. Proposals include interpreting exact p-values without bright-line language, emphasizing effect estimates and intervals, requiring justification for decision thresholds, lowering thresholds for some new claims, adopting Bayesian or likelihood measures, controlling multiplicity, preregistering confirmatory analyses, publishing registered reports, sharing data and code, and valuing direct replication. These proposals solve different failure modes and carry different assumptions. The durable question is not which single statistic should replace 0.05, but which inferential design makes the scientific claim auditable and proportionate to the evidence. [4][5][12][17][18]
+The debate is consequently not a contest between keeping p-values unchanged and banning them everywhere. Proposals include interpreting exact p-values without bright-line language, emphasizing effect estimates and intervals, requiring justification for decision thresholds, lowering thresholds for some new claims, adopting Bayesian or likelihood measures, controlling multiplicity, preregistering confirmatory analyses, publishing registered reports, sharing data and code, and valuing direct replication. These proposals solve different failure modes and carry different assumptions. The durable question is not which single statistic should replace 0.05, but which inferential design makes the scientific claim auditable and proportionate to the evidence. [4][5][12][17][18][20]
 
 ## Core Concepts
 
@@ -60,7 +61,7 @@ Preregistration addresses this information problem by recording hypotheses, outc
 
 ### 5. Power, Selection, and Exaggerated Effects Interact
 
-Power is the probability that a prespecified test rejects the null under a specified alternative and design. Low-powered studies miss many real effects, but the subset that crosses a publication threshold tends to contain unusually favorable sampling error. This selection can exaggerate reported effect sizes even when the underlying effect is real. Ioannidis modeled how low pre-study odds, low power, multiplicity, bias, and competition among research teams can reduce the positive predictive value of published claims. His model is not an empirical count proving that most results in every field are false; it is a conditional demonstration of how research design and selection determine credibility. [6]
+Power is the probability that a prespecified test rejects the null under a specified alternative and design. Low-powered studies miss many real effects, but the subset that crosses a publication threshold tends to contain unusually favorable sampling error. This selection can exaggerate reported effect sizes even when the underlying effect is real. [10][18] Ioannidis modeled how low pre-study odds, low power, multiplicity, bias, and competition among research teams can reduce the positive predictive value of published claims. His model is not an empirical count proving that most results in every field are false; it is a conditional demonstration of how research design and selection determine credibility. [6]
 
 Power cannot be repaired by computing it after seeing the observed effect and treating that as independent evidence. Planning requires a scientifically meaningful effect, variance assumptions, a design, and a desired operating characteristic before data collection. After the study, estimates and intervals communicate what the data support. The author's synthesis is that researchers should plan around the smallest effect that would matter, not around the sample size needed to make any nonzero effect cross 0.05. [3][14]
 
@@ -78,9 +79,9 @@ Bayesian credible intervals can support direct probability statements about a pa
 
 ### 8. Threshold Reform Has Competing Proposals
 
-Benjamin and colleagues proposed changing the default discovery threshold for many new claims from 0.05 to 0.005, arguing that stronger evidence would reduce false positives. Amrhein, Greenland, and McShane instead argued for retiring declarations of statistical significance and reporting estimates, intervals, exact p-values, and context without dichotomizing them. The 2019 American Statistician editorial likewise recommended abandoning the phrase statistically significant, whereas the 2021 ASA task force clarified that properly applied and interpreted significance tests remain useful. [4][5][17][18]
+Benjamin and colleagues proposed changing the default discovery threshold for many new claims from 0.05 to 0.005, arguing that stronger evidence would reduce false positives. Lakens and 87 co-authors replied that the evidence did not warrant a single default and proposed that researchers justify their alpha level, along with the study design, before collecting data. Amrhein, Greenland, and McShane instead argued for retiring declarations of statistical significance and reporting estimates, intervals, exact p-values, and context without dichotomizing them. The 2019 American Statistician editorial likewise recommended abandoning the phrase statistically significant, whereas the 2021 ASA task force clarified that properly applied and interpreted significance tests remain useful. [4][5][17][18][20]
 
-These positions disagree about whether better thresholds, no default thresholds, or broader inferential reform should dominate. They agree on more than the rhetoric suggests: a p-value is not a posterior probability, practical importance is distinct from threshold crossing, uncertainty must be reported, multiplicity and selection matter, and conclusions require design and subject knowledge. The author's assessment is that no universal threshold policy can substitute for explicit error costs, prior plausibility, effect-size relevance, and independent verification. [2][3][4][5][17][18]
+These positions disagree about whether better thresholds, no default thresholds, or broader inferential reform should dominate. They agree on more than the rhetoric suggests: a p-value is not a posterior probability, practical importance is distinct from threshold crossing, uncertainty must be reported, multiplicity and selection matter, and conclusions require design and subject knowledge. The author's assessment is that no universal threshold policy can substitute for explicit error costs, prior plausibility, effect-size relevance, and independent verification. [2][3][4][5][17][18][20]
 
 ### 9. Open-Science Reforms Target Different Failure Modes
 
@@ -98,7 +99,7 @@ Head and colleagues tested for a related pattern in published literature rather 
 
 ### Psychology Replications Found Smaller and Less Often Significant Effects
 
-The Open Science Collaboration coordinated more than 270 contributors to repeat 100 experimental and correlational studies from three psychology journals. Teams used high-powered designs and original materials when available, and the project published materials, data, and analysis resources openly. Replication effects averaged roughly half the original magnitude. Ninety-seven percent of original studies reported statistically significant results, compared with 36% of replications; 47% of original effect sizes fell within the replication effect's 95% confidence interval, and 39% were rated by teams as replicating. The use of several criteria is itself evidence that replication cannot be reduced to one threshold comparison. [9]
+The Open Science Collaboration, with 270 contributing authors, repeated 100 studies published in 2008 in three psychology journals. Teams used high-powered designs and original materials when available, and the project published materials, data, and analysis resources openly. Replication effects averaged roughly half the original magnitude. Ninety-seven percent of original studies reported statistically significant results, compared with 36% of replications; 47% of original effect sizes fell within the replication effect's 95% confidence interval, and fewer than two in five were rated by teams as replicating. The use of several criteria is itself evidence that replication cannot be reduced to one threshold comparison. [9]
 
 The study's scope limits its interpretation. It sampled selected studies from three journals and one publication year, and each result was usually paired with one replication. Differences in context, implementation, sampling variability, and original selection can contribute to discrepancies. The project nevertheless supplied a direct audit of a defined literature and showed that effect magnitudes and significance labels from selected original publications were not stable under systematic repetition. [9][16]
 
@@ -112,7 +113,7 @@ This design addresses some objections to post hoc replication scoring because me
 
 Begley and Ellis described attempts by an Amgen team to confirm 53 landmark preclinical oncology findings before pursuing related drug-development programs. Scientific findings were confirmed in 6 cases, or 11%. The authors reported that papers had been deliberately selected for novel, consequential claims and acknowledged that failed validation could reflect technical differences, model limitations, or other complications. They compared their experience with a Bayer report in which about one quarter of published preclinical studies were validated sufficiently for projects to continue. [11]
 
-This report is influential but differs from a randomized or systematically sampled replication project. Its project-level methods and case details were not disclosed to the degree of the psychology and social-science collaborations, and its selected landmark studies do not represent all biomedical research. The evidence supports concern about preclinical validation and incentives for striking findings; it does not justify treating 11% as a general biomedical replicability rate or attributing all failures to p-values. [11][16]
+This report is influential but differs from a randomized or systematically sampled replication project. Its project-level methods and case details were not disclosed to the degree of the psychology and social-science collaborations, and its selected landmark studies do not represent all biomedical research. The evidence supports concern about preclinical validation and incentives for striking findings; it does not justify treating 11% as a general biomedical replicability rate or attributing all failures to p-values. [9][11][16]
 
 ### Models Explain Why a Threshold Cannot Supply Positive Predictive Value
 
@@ -144,13 +145,13 @@ Confirmatory analyses should be preregistered when feasible, including stopping 
 
 A report should present the effect estimate in meaningful units, its uncertainty interval, the exact p-value when a test is used, sample size, design assumptions, missing-data and exclusion rules, all prespecified outcomes, multiplicity handling, and sensitivity analyses. A result should not become important because `p = 0.049` or disappear because `p = 0.051`. The estimate, precision, prior evidence, decision cost, and robustness to plausible analyses are the relevant profile. [2][3][4][18]
 
-Language should follow that profile. Instead of saying an effect exists because it is statistically significant, state what contrast was estimated, how precise it is, and which values remain compatible with the data and model. Instead of saying there is no effect after a large p-value, state that the data did not distinguish among a specified range of effects and identify whether that range excludes effects of practical importance. Equivalence tests or non-inferiority designs may be appropriate when the question is whether differences are sufficiently small, but their margins must be justified before results are seen. [3][4][18]
+Language should follow that profile. Instead of saying an effect exists because it is statistically significant, state what contrast was estimated, how precise it is, and which values remain compatible with the data and model. Instead of saying there is no effect after a large p-value, state that the data did not distinguish among a specified range of effects and identify whether that range excludes effects of practical importance. Equivalence tests or non-inferiority designs may be appropriate when the question is whether differences are sufficiently small, but their margins must be justified before results are seen. [3][4][18][21]
 
 ### For Reviewers and Journals: Remove Outcome-Based Selection
 
 Review should ask whether the question matters, the design can answer it, the analysis matches the design, and the evidence supports the claim. Requiring a threshold-crossing result as a publication condition creates selection on sampling noise and leaves the literature without informative null, imprecise, or contradictory findings. Registered reports address this directly by deciding in-principle publication before outcomes are available. Journals can also require protocols, complete outcome reporting, data and code where ethically possible, and explicit separation of confirmatory and exploratory analyses. [12][13][19]
 
-Threshold reform alone is insufficient. Lowering a default from 0.05 to 0.005 can reduce false positives under specified designs, but it can also increase false negatives or shift p-hacking toward a new boundary if sample sizes, incentives, and reporting do not change. Removing the term statistical significance can reduce dichotomous language, but readers may recreate a hidden cutoff unless estimates, uncertainty, and decision criteria are taught and enforced. Policy should target selection and transparency as well as numerical rules. [4][5][17][18]
+Threshold reform alone is insufficient. Lowering a default from 0.05 to 0.005 can reduce false positives under specified designs, but holding power at 80% requires samples about 70% larger, and false negatives rise if samples do not grow; its proponents concede that it does not address multiple testing, p-hacking, or publication bias, and critics add that larger required samples could crowd out replication studies and narrow the populations studied. Removing the term statistical significance can reduce dichotomous language, but readers may recreate a hidden cutoff unless estimates, uncertainty, and decision criteria are taught and enforced. Policy should target selection and transparency as well as numerical rules. [4][5][17][18][20]
 
 ### For Medicine and Public Policy: Separate Evidence From Action
 
@@ -186,13 +187,14 @@ The author's assessment is that the durable reform is modular. Use hypothesis te
 
 1. Kennedy-Shaffer, L. (2019). "Before p < 0.05 to Beyond p < 0.05:
    Using History to Contextualize p-Values and Significance Testing."
-   The American Statistician, 73(sup1), 82-90.
+   The American Statistician, 73(sup1), 82-90; author manuscript in
+   PubMed Central.
    https://pmc.ncbi.nlm.nih.gov/articles/PMC6693672 [high]
 
 2. Wasserstein, R. L. and Lazar, N. A. (2016). "The ASA's Statement on
    p-Values: Context, Process, and Purpose." The American Statistician,
    70(2), 129-133.
-   https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf [high]
+   https://www.tandfonline.com/doi/full/10.1080/00031305.2016.1154108 [high]
 
 3. Greenland, S., Senn, S. J., Rothman, K. J., Carlin, J. B., Poole, C.,
    Goodman, S. N., and Altman, D. G. (2016). "Statistical Tests, P Values,
@@ -209,8 +211,8 @@ The author's assessment is that the durable reform is modular. Use hypothesis te
    Vardeman, S. B., Wikle, C. K., Wright, T., Young, L. J., and Kafadar,
    K. (2021). "The ASA President's Task Force Statement on Statistical
    Significance and Replicability." Annals of Applied Statistics, 15(3),
-   1084-1085.
-   https://projecteuclid.org/journals/annals-of-applied-statistics/volume-15/issue-3/The-ASA-presidents-task-force-statement-on-statistical-significance-and/10.1214/21-AOAS1501.pdf [high]
+   1084-1085; read as the reprint in Harvard Data Science Review, 3(3).
+   https://hdsr.mitpress.mit.edu/pub/50vl2b07 [high]
 
 6. Ioannidis, J. P. A. (2005). "Why Most Published Research Findings Are
    False." PLOS Medicine, 2(8), e124.
@@ -228,15 +230,17 @@ The author's assessment is that the durable reform is modular. Use hypothesis te
    https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002106 [high]
 
 9. Open Science Collaboration. (2015). "Estimating the Reproducibility of
-   Psychological Science." Science, 349(6251), aac4716.
-   https://osf.io/ezcuj/overview [high]
+   Psychological Science." Science, 349(6251), aac4716; accepted
+   manuscript in LSE Research Online.
+   https://researchonline.lse.ac.uk/id/eprint/65159/ [high]
 
 10. Camerer, C. F., Dreber, A., Holzmeister, F., Ho, T.-H., Huber, J.,
     Johannesson, M., Kirchler, M., Nave, G., Nosek, B. A., Pfeiffer, T.,
     and others. (2018). "Evaluating the Replicability of Social Science
     Experiments in Nature and Science Between 2010 and 2015." Nature
-    Human Behaviour, 2, 637-644.
-    https://www.nature.com/articles/s41562-018-0399-z [high]
+    Human Behaviour, 2, 637-644; publisher version in the Erasmus
+    University Rotterdam repository.
+    https://pure.eur.nl/en/publications/3ab5eb27-1e23-405b-ad4c-6520fb37b035 [high]
 
 11. Begley, C. G. and Ellis, L. M. (2012). "Raise Standards for
     Preclinical Cancer Research." Nature, 483, 531-533.
@@ -259,7 +263,7 @@ The author's assessment is that the durable reform is modular. Use hypothesis te
 
 15. Stern, H. S. (2016). "A Test by Any Other Name: P-Values, Bayes
     Factors and Statistical Inference." Multivariate Behavioral Research,
-    51(1), 23-29.
+    51(1), 23-29; author manuscript in PubMed Central.
     https://pmc.ncbi.nlm.nih.gov/articles/PMC4809350/ [high]
 
 16. National Academies of Sciences, Engineering, and Medicine. (2019).
@@ -270,19 +274,32 @@ The author's assessment is that the durable reform is modular. Use hypothesis te
 17. Benjamin, D. J., Berger, J. O., Johannesson, M., Nosek, B. A.,
     Wagenmakers, E.-J., Berk, R., Bollen, K. A., Brembs, B., Brown, L.,
     Camerer, C., and others. (2018). "Redefine Statistical Significance."
-    Nature Human Behaviour, 2, 6-10.
-    https://www.nature.com/articles/s41562-017-0189-z [high]
+    Nature Human Behaviour, 2, 6-10; read as the 2017 PsyArXiv
+    preprint.
+    https://osf.io/mky9j [high]
 
 18. Amrhein, V., Greenland, S., and McShane, B. (2019). "Scientists Rise
-    Up Against Statistical Significance." Nature, 567, 305-307.
-    https://www.nature.com/articles/d41586-019-00857-9 [high]
+    Up Against Statistical Significance" (print title "Retire
+    Statistical Significance"). Nature, 567, 305-307.
+    https://media.nature.com/original/magazine-assets/d41586-019-00857-9/d41586-019-00857-9.pdf [high]
 
 19. Soderberg, C. K., Errington, T. M., Schiavone, S. R., Bottesini, J.,
     Thorn, F. S., Vazire, S., Esterling, K. M., and Nosek, B. A. (2021).
     "Initial Evidence of Research Quality of Registered Reports Compared
     With the Standard Publishing Model." Nature Human Behaviour, 5,
-    990-997.
-    https://www.nature.com/articles/s41562-021-01142-4 [high]
+    990-997; read as the MetaArXiv preprint.
+    https://osf.io/preprints/metaarxiv/7x9vy [high]
+
+20. Lakens, D., Adolfi, F. G., Albers, C. J., Anvari, F., Apps, M. A. J.,
+    Argamon, S. E., and others. (2018). "Justify Your Alpha." Nature
+    Human Behaviour, 2, 168-171; read as the accepted manuscript on
+    PsyArXiv.
+    https://osf.io/preprints/psyarxiv/9s3y6 [high]
+
+21. Lakens, D. (2017). "Equivalence Tests: A Practical Primer for t Tests,
+    Correlations, and Meta-Analyses." Social Psychological and Personality
+    Science, 8(4), 355-362.
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC5502906/ [high]
 
 ## See Also
 
