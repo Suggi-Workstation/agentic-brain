@@ -6,6 +6,7 @@ domain: macro-micro
 author: Librarian
 tags: [financial-crises, macroprudential-policy, systemic-risk, financial-cycles, capital-buffers, liquidity-risk, crisis-prevention]
 links: [library/macro-micro/business-cycles.md, library/macro-micro/monetary-policy-and-central-banking.md, library/finance/banking-maturity-transformation.md, library/portfolio-risk-management/portfolio-stress-testing-and-scenario-analysis.md, library/case-studies/2008-financial-crisis.md]
+reviewed: 2026-10-23
 ---
 
 # Financial Crises Become Systemic Through Feedback, So Policy Must Build Buffers Before Contagion
@@ -18,7 +19,7 @@ Financial crises are not defined only by the size of an initial loss. The defini
 
 One intellectual foundation is the Diamond-Dybvig model. Demandable deposits can improve risk sharing by giving savers liquidity while banks hold longer-lived assets, yet the same contract can support a run equilibrium when depositors expect others to withdraw first [13]. The model establishes a coordination mechanism: a run can destroy real value even when it is not merely a delayed recognition that every asset is worthless [13]. It also explains why deposit insurance or credible liquidity support can stabilize runnable claims, while leaving separate questions about asset quality, incentives, and ultimate loss allocation. The mechanism generalizes cautiously to other short-term claims, including wholesale funding and redeemable investment vehicles, but different contracts and safety nets must be analyzed rather than treated as identical deposits [7][13].
 
-Long historical evidence added a second foundation. Schularick and Taylor assembled annual data for 14 advanced economies from 1870 through 2008 and found that credit growth is a powerful predictor of financial crises, especially in the postwar era of expanding bank credit [11]. Jorda, Schularick, and Taylor then examined more than 200 recession episodes in the same broad country sample and found that financial-crisis recessions were more costly than normal recessions and that more credit-intensive expansions tended to precede deeper recessions and slower recoveries [12]. These findings do not mean that every credit boom ends in crisis. They show that aggregate leverage and the path by which balance sheets expand contain information that is invisible when each institution is assessed only against conditions prevailing during the boom [9][11][12].
+Long historical evidence added a second foundation. Schularick and Taylor assembled annual data for 14 advanced economies from 1870 through 2008 and found that lagged credit growth is a powerful predictor of financial crises both before and after 1945, whereas broad money lost its predictive power after 1945 as bank credit decoupled from money [11]. Jorda, Schularick, and Taylor then examined more than 200 recession episodes in the same broad country sample and found that financial-crisis recessions were more costly than normal recessions and that more credit-intensive expansions tended to precede deeper recessions and slower recoveries [12]. These findings do not mean that every credit boom ends in crisis. They show that aggregate leverage and the path by which balance sheets expand contain information that is invisible when each institution is assessed only against conditions prevailing during the boom [9][11][12].
 
 The global financial crisis made the policy gap operationally unavoidable. Price stability and apparently sound individual institutions had not prevented system-wide leverage, maturity transformation, interconnected exposures, and fragile market funding from accumulating [1][2]. Authorities consequently formalized macroprudential mandates, introduced countercyclical and systemic capital buffers, expanded borrower-based measures, and treated stress testing and system-wide surveillance as core financial-stability functions [1][3][5][6]. Emerging-market authorities had used reserve, foreign-currency, liquidity, and borrower restrictions before the crisis; post-crisis frameworks placed such tools within a more explicit objective of limiting systemic risk [14].
 
@@ -52,13 +53,13 @@ Currency mismatch is a related cash-flow channel. A borrower or intermediary tha
 
 A fire sale occurs when an owner sells because of a financing or contractual constraint rather than because the asset's expected cash flows alone justify the price. If potential buyers are also constrained, sales can depress market prices, reduce collateral values, trigger margin calls, and force additional sales [10][16]. Accounting marks and risk models may transmit the price decline to institutions that did not sell. Banks can then reduce lending; funds can sell liquid holdings to meet redemptions; and firms or households can cut spending as credit conditions tighten. The feedback connects market liquidity, funding liquidity, solvency, and the business cycle [7][10][12].
 
-Jeanne and Korinek formalize a pecuniary externality in which borrowers do not internalize how their debt contributes to collateral-price feedback in a bust [10]. That framework supports ex ante measures because an individual borrower takes the future sale price as given even though aggregate borrowing helps determine it. The policy implication is not that every asset decline is inefficient or should be prevented. It is that leverage and financing structures can impose costs through prices and credit supply beyond the private contract, creating a rationale for buffers, borrowing limits, or other targeted constraints before the downturn [10][16].
+Jeanne and Korinek formalize a pecuniary externality in which borrowers do not internalize how their debt contributes to collateral-price feedback in a bust [10]. That framework supports ex ante measures because an individual borrower takes the future price of collateral as given even though aggregate borrowing helps determine it. The policy implication is not that every asset decline is inefficient or should be prevented. It is that leverage and financing structures can impose costs through prices and credit supply beyond the private contract, creating a rationale for buffers, borrowing limits, or other targeted constraints before the downturn [10][16].
 
 ### Interconnectedness transmits both losses and uncertainty
 
 Direct interconnections include loans, deposits, derivatives, securities financing, guarantees, and payment obligations between institutions. Indirect interconnections arise when institutions hold common assets, depend on the same funding providers, use the same central counterparties, or serve clients that react together [1][7]. A network can absorb an idiosyncratic failure when exposures are collateralized, capital is ample, and substitutes are available. It can amplify distress when losses are opaque, collateral values are correlated, or withdrawal from one market interrupts funding elsewhere [1][7][8].
 
-Systemic-importance frameworks therefore consider more than total assets. Cross-jurisdictional activity, intra-financial claims, payment activity, custody, underwriting, complexity, and substitutability reveal channels through which disruption can spread [1]. Resolution planning addresses the failure state by identifying critical functions, loss-absorbing resources, operational dependencies, and transfer or bail-in powers before an institution is nonviable [8]. The FSB's objective is orderly resolution without severe systemic disruption or taxpayer solvency support while maintaining vital economic functions and allocating losses under the legal creditor hierarchy [8]. Resolution limits contagion after failure becomes unavoidable; it is not a substitute for reducing the probability or scale of failure beforehand.
+Systemic-importance frameworks therefore consider more than total assets. The Basel Committee's method for global systemically important banks weights size, cross-jurisdictional activity, interconnectedness, substitutability, and complexity equally and measures the impact of a bank's failure rather than its probability of failure; its indicators include intra-financial-system assets and liabilities, payments activity, assets under custody, underwritten transactions, and over-the-counter derivatives [18]. Resolution planning addresses the failure state by identifying critical functions, loss-absorbing resources, operational dependencies, and transfer or bail-in powers before an institution is nonviable [8]. The FSB's objective is orderly resolution without severe systemic disruption or taxpayer solvency support while maintaining vital economic functions and allocating losses under the legal creditor hierarchy [8]. Resolution limits contagion after failure becomes unavoidable; it is not a substitute for reducing the probability or scale of failure beforehand.
 
 ### Early warning requires a dashboard, not a crisis oracle
 
@@ -74,7 +75,7 @@ Stress tests remain conditional. Results depend on the scenario, models, startin
 
 ### The toolkit targets different points in the amplification chain
 
-Capital-based tools increase loss-absorbing capacity. Minimum requirements establish a floor, while capital conservation, systemic, sectoral, and countercyclical buffers address different risks. The Basel countercyclical capital buffer is intended to protect the banking sector when excess aggregate credit growth is associated with system-wide risk; releasing it in a downturn can reduce the chance that regulatory constraints force a damaging credit contraction [5]. Leverage ratios provide a non-risk-weighted backstop, while sectoral risk weights or buffers can target concentrated lending [1][5][16]. Capital does not supply immediate cash, so it must be paired with liquidity and operational capacity.
+Capital-based tools increase loss-absorbing capacity. Minimum requirements establish a floor, while capital conservation, systemic, sectoral, and countercyclical buffers address different risks. The Basel countercyclical capital buffer is intended to protect the banking sector when excess aggregate credit growth is associated with system-wide risk; releasing it in a downturn can reduce the chance that regulatory constraints force a damaging credit contraction [5]. Leverage ratios provide a non-risk-weighted backstop to risk-based requirements [3], while sectoral risk weights or buffers can target concentrated lending [1][16]. Capital does not supply immediate cash, so it must be paired with liquidity and operational capacity.
 
 Liquidity tools address the timing and reliability of funding. Liquid-asset requirements, stable-funding rules, reserve requirements, loan-to-deposit or core-funding limits, margin preparedness, and restrictions on currency mismatch reduce dependence on financing that may vanish under stress [7][14][16]. Their calibration should distinguish a stock buffer from a flow restraint. A liquid-asset buffer can be used after a shock; a stable-funding rule changes the structure of funding before it. If authorities or markets treat every buffer as an untouchable minimum, the institution may deleverage instead of using it, so communication and release conditions are part of design [3][5].
 
@@ -104,9 +105,9 @@ Jorda, Schularick, and Taylor used local projections and a universe of more than
 
 Gertler, Kiyotaki, and Prestipino provide a model-based qualification to that evidence. Their banking-crisis model reproduces two facts: crises are commonly preceded by credit booms, yet many credit booms do not produce crises [9]. Banks expand leverage and short-term debt during optimistic booms, which can make the system vulnerable to runs after adverse returns. In the model, countercyclical capital buffers are central to optimal policy, but the regulator faces a real trade-off because restraining leverage can stop both bad and productive booms [9]. The evidence is theoretical and quantitatively disciplined rather than a natural experiment; its contribution is to prevent the historical association from becoming a rule that all rapid credit growth should be suppressed.
 
-Jeanne and Korinek study a different model in which collateral-price feedback makes private borrowing socially excessive. Debt accumulation raises vulnerability to a bust; in the bust, binding constraints induce asset sales that lower prices and tighten constraints further [10]. Because individual borrowers do not internalize their effect on future prices, an ex ante prudential intervention can improve welfare. Their later comparison of macroprudential regulation and post-crash stimulus finds that it is generally optimal to use both rather than rely exclusively on cleanup, while showing that circumvention or suboptimal policy changes the preferred mix [10]. The method identifies a precise externality and time-consistency problem; it does not prove that one tax or buffer is correctly calibrated in every institutional setting.
+Jeanne and Korinek study a different model in which collateral-price feedback makes private borrowing socially excessive. Debt accumulation raises vulnerability to a bust; in the bust, binding borrowing constraints depress spending and the price of collateral, which tightens the constraints further, although in equilibrium no collateral is actually sold [10]. Because individual borrowers do not internalize their effect on future prices, an ex ante prudential intervention can improve welfare. Comparing macroprudential regulation with post-crash stimulus in the same framework, they find that it is generally optimal to use both rather than rely exclusively on cleanup, while showing that circumvention or suboptimal policy changes the preferred mix [10]. The method identifies a precise externality and time-consistency problem; it does not prove that one tax or buffer is correctly calibrated in every institutional setting.
 
-The empirical literature on policy effects is broader but more heterogeneous. The IMF's 2023 review draws on a meta-analysis covering more than 6,000 estimates from roughly 60 studies [3]. Across that literature, a wide range of tools are statistically associated on average with slower growth in total or household credit and residential real-estate prices, while borrower-based tools show evidence of durable resilience benefits [3]. Near-term adverse effects on output and consumption appear modest on average, but effects vary by instrument, data level, country conditions, phase of the cycle, and policy design [3]. The review also finds that evidence on structural tools is thinner and that leakages, nonlinear effects, and interactions with monetary or fiscal policy remain open questions. This supports targeted use and evaluation, not a claim that a generic macroprudential index causes the same outcome everywhere.
+The empirical literature on policy effects is broader but more heterogeneous. The IMF's 2023 review draws on a meta-analysis covering more than 6,000 estimates from roughly 60 studies [3]. Across that literature, a wide range of tools are statistically associated on average with slower growth in total or household credit and residential real-estate prices, while borrower-based tools show evidence of durable resilience benefits [3]. Near-term adverse effects on output and consumption appear modest on average, but effects vary by instrument, data level, country conditions, phase of the cycle, and policy design [3]. The review also finds that evidence on structural tools is thinner; that effects are nonlinear, with diminishing marginal benefits and stronger early evidence for tightening than for loosening; that credit leaks to nonbanks and across borders; and that reinforcing interactions with monetary and foreign-exchange policy appear in emerging and developing economies but not robustly in advanced economies. Calibration and the size of resilience benefits remain open questions [3]. This supports targeted use and evaluation, not a claim that a generic macroprudential index causes the same outcome everywhere.
 
 Country experience supplies practical evidence about instrument choice. Lim and coauthors compare the use of credit-related, liquidity-related, and capital-related measures across jurisdictions and relate choices to exchange-rate regimes, financial development, and vulnerability [14]. Their survey-based analysis reports that many tools can reduce procyclicality and identifies measures aimed at excessive leverage, systemic liquidity risk, and volatile capital or foreign-currency funding [14]. The evidence is observational: authorities often tighten because risk is already rising, instruments are used in packages, and legal or institutional differences affect both policy and outcomes. Its main contribution is a taxonomy tied to specific transmission channels rather than an estimate that one instrument dominates all others.
 
@@ -115,6 +116,8 @@ Early-warning evidence is useful but deliberately imperfect. BIS work evaluates 
 Stress testing provides a complementary conditional method. The Basel Committee reviewed post-crisis supervisory and bank practices and set principles covering objectives, governance, decision use, severe and relevant scenarios, resources, data, validation, documentation, and communication [6]. Stress tests can estimate how a named recession, rate shock, property decline, or funding outflow affects capital and liquidity across firms. BIS analysis cautions that tests may understate second-round fire sales, market illiquidity, reduced spending, and rising unemployment, and notes that pre-global-financial-crisis tests did not reveal the full banking vulnerability [15]. The evidence supports tests as structured challenge and capital planning, not as proof that unmodeled states are safe.
 
 Nonbank evidence expands the perimeter. The FSB's 2023 progress report identifies structural liquidity mismatch in some money market and open-end funds, spikes in margin and collateral demand, pockets of high leverage, data gaps, and strong connections within nonbank finance and with banks [7]. Its method combines monitoring data, event analysis, and policy work across standard-setting bodies. The report does not show that every nonbank intermediary is systemically dangerous; it identifies activities that can create aggregate liquidity demand or amplify market moves and argues for a system-wide perspective [7]. This is important evidence against equating macroprudential policy with bank capital regulation alone.
+
+The 2023 banking turmoil provides a recent test of the post-crisis framework. The Basel Committee describes it as the most significant system-wide banking stress since the global financial crisis in scale and scope: between 8 and 19 March 2023, four banks with total assets of about $900 billion were shut down, put into receivership, or rescued, and a bank with roughly $230 billion of assets was closed on 1 May [19]. Its method is a supervisory and regulatory stocktake of the failures of Silicon Valley Bank, Signature Bank, and First Republic and of the rescue of Credit Suisse. The report finds that high leverage combined with long-term opaque assets funded by short-term runnable deposits made banks especially vulnerable to a loss of trust, that uninsured depositors withdrew at unprecedented speed, and that banks not considered internationally active affected confidence in other jurisdictions [19]. At Credit Suisse, mid-March outflows equal to the high-quality liquid assets needed to meet its liquidity coverage ratio requirement occurred within 10 business days, while supervisory and market scrutiny and the bank's concern about signalling impeded use of that buffer [19]. The report also judges that implemented Basel III reforms helped shield the global system from a more severe crisis, while stating that the framework is not calibrated to produce zero failures [19]. The evidence is a case review rather than a causal estimate; it bears directly on runnable funding, buffer usability, and contagion through confidence.
 
 Crisis-management evidence clarifies what prevention cannot do. Anson and coauthors use daily Bank of England transaction ledgers to examine the crises of 1847, 1857, and 1866. They find that lending expanded during crises and was generally provided at rates above pre-crisis levels against a diverse set of eligible debts, broadly conforming to the Bagehot rule with episode-specific variation [17]. The FSB's resolution standard takes a different failure state and specifies powers, planning, cross-border cooperation, and loss allocation intended to preserve critical functions without taxpayer solvency support [8]. Together these sources show that liquidity support and resolution address different problems. Neither evidence supports waiting until distress as an alternative to pre-crisis resilience.
 
@@ -190,28 +193,33 @@ The final implication is that resilience, not crisis prediction, is the achievab
    https://www.fsb.org/2024/04/key-attributes-of-effective-resolution-regimes-for-financial-institutions-revised-version-2024/ [high]
 
 9. Gertler, M., Kiyotaki, N., and Prestipino, A. (2020). "Credit Booms,
-   Financial Crises, and Macroprudential Policy." Review of Economic
-   Dynamics, 37, S8-S33.
+   Financial Crises and Macroprudential Policy." NBER Working Paper 27481,
+   July 2020 (version read); published in Review of Economic Dynamics,
+   37, S8-S33.
    https://www.nber.org/papers/w27481 [high]
 
-10. Jeanne, O., and Korinek, A. (2020). "Macroprudential Regulation versus
-    Mopping Up after the Crash." Review of Economic Studies, 87(3),
-    1470-1497.
+10. Jeanne, O., and Korinek, A. (2013, revised 2016). "Macroprudential
+    Regulation versus Mopping Up after the Crash." NBER Working Paper
+    18675 (version read); published in Review of Economic Studies, 87(3),
+    1470-1497, 2020.
     https://www.nber.org/papers/w18675 [high]
 
-11. Schularick, M., and Taylor, A. M. (2012). "Credit Booms Gone Bust:
-    Monetary Policy, Leverage Cycles, and Financial Crises, 1870-2008."
-    American Economic Review, 102(2), 1029-1061.
-    https://www.aeaweb.org/articles?id=10.1257/aer.102.2.1029 [high]
+11. Schularick, M., and Taylor, A. M. (2009, revised 2011). "Credit Booms
+    Gone Bust: Monetary Policy, Leverage Cycles, and Financial Crises,
+    1870-2008." NBER Working Paper 15512 (version read); published in
+    American Economic Review, 102(2), 1029-1061, 2012.
+    https://www.nber.org/papers/w15512 [high]
 
-12. Jorda, O., Schularick, M., and Taylor, A. M. (2013). "When Credit
-    Bites Back: Leverage, Business Cycles, and Crises." Journal of Money,
-    Credit and Banking, 45(s2), 3-28.
+12. Jorda, O., Schularick, M., and Taylor, A. M. (2011, revised 2012).
+    "When Credit Bites Back: Leverage, Business Cycles, and Crises." NBER
+    Working Paper 17621 (version read); published in Journal of Money,
+    Credit and Banking, 45(s2), 3-28, 2013.
     https://www.nber.org/papers/w17621 [high]
 
 13. Diamond, D. W., and Dybvig, P. H. (1983). "Bank Runs, Deposit
     Insurance, and Liquidity." Journal of Political Economy, 91(3),
-    401-419.
+    401-419; reprinted in Federal Reserve Bank of Minneapolis Quarterly
+    Review, 24(1), Winter 2000, 14-23 (version read).
     https://www.minneapolisfed.org/research/quarterly-review/bank-runs-deposit-insurance-and-liquidity [high]
 
 14. Lim, C., Columba, F., Costa, A., Kongsamut, P., Otani, A., Saiyid, M.,
@@ -231,8 +239,17 @@ The final implication is that resilience, not crisis prediction, is the achievab
 
 17. Anson, M., Bholat, D., Kang, M., and Thomas, R. (2017). "The Bank of
     England as Lender of Last Resort: New Historical Evidence from Daily
-    Transactional Data." Bank of England Working Paper 691.
+    Transactional Data." Bank of England Staff Working Paper 691.
     https://www.bankofengland.co.uk/working-paper/2017/the-bank-of-england-as-lender-of-last-resort-new-historical-evidence-from-daily-transactional-data [high]
+
+18. Basel Committee on Banking Supervision. (2018). "Global Systemically
+    Important Banks: Revised Assessment Methodology and the Higher Loss
+    Absorbency Requirement." July 2018.
+    https://www.bis.org/bcbs/publ/d445.htm [high]
+
+19. Basel Committee on Banking Supervision. (2023). "Report on the 2023
+    Banking Turmoil." October 2023.
+    https://www.bis.org/bcbs/publ/d555.htm [high]
 
 ## See Also
 
