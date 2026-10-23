@@ -178,10 +178,9 @@ After the VPS update, the hermes-dashboard systemd service was
 running stale code (6ce7ab8bfb) while the disk had the new code
 (dcfdc8de). The dashboard refused model picker requests with:
 "This dashboard is running code from 6ce7ab8bfb but the checkout
-on disk is now dcfdc8deec." Fixed by restarting the service:
-sudo systemctl restart hermes-dashboard. This is a standard
-post-update step: the dashboard service does not auto-restart on
-hermes update.
+on disk is now dcfdc8deec." Fixed by restarting that service. The
+VPS now runs one backend, `suggi-vps-hermes`, and no separate
+`hermes-dashboard` unit (see `research/insights/unified-serve-all-profiles.md`).
 
 ## Implications
 
@@ -206,11 +205,11 @@ hermes update.
    overrides would be the correct configuration to route different
    VPS profiles to different backends.
 
-4. **Post-update: restart the dashboard service.** After a hermes
-   update on the VPS, restart hermes-dashboard to clear the
-   stale-code warning: sudo systemctl restart hermes-dashboard.
-   The serve (suggi-vps-hermes) auto-restarts via systemd; the
-   dashboard does not.
+4. **Post-update: confirm the one backend restarted.** After a
+   hermes update on the VPS, confirm `suggi-vps-hermes` started
+   after the update and restart it if not. Never start a second
+   backend: it kills or is killed by this one (see
+   `research/insights/unified-serve-all-profiles.md`).
 
 5. **Link's state.db metadata remains correct.** The
    cwd/git_repo_root fields set on 2026-08-25
@@ -233,7 +232,7 @@ hermes update.
    and "freshDraftReady". If both markers are present, the fix is
    intact. If absent, the fix was refactored or removed -- test
    the sidebar switcher before relying on it. After any VPS
-   update, restart hermes-dashboard to clear stale-code warnings.
+   update, confirm `suggi-vps-hermes` restarted (implication 4).
    Check VPS errors.log for "session-scoped RPC rejected" entries
    after the first switching session -- zero errors means the fix
    is working.
@@ -313,7 +312,7 @@ This insight (the bug is fixed) would be invalidated if:
   -- the three-tier local state model; this insight extends it with
   the resolved session-RPC routing conflict
 - `research/insights/unified-serve-all-profiles.md` -- the VPS-side
-  architecture (one serve, all profiles); the client-side routing
+  architecture (one backend, all profiles); the client-side routing
   now works correctly with this architecture
 - GitHub: PR #95080 (consolidated fix, merged), #93937 (bug, fixed),
   #93888 (bug, fixed), #94145/#94824/#93451/#94927/#94166/#81165/

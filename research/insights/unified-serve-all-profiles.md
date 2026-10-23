@@ -2,290 +2,104 @@
 name: unified-serve-all-profiles
 id: 20260821T171622Z
 tier: insight
-source:
-  - 20260821T074320Z
-  - 20260820T224313Z
+status: active
+source: []
 author: Morpheus
-tags: [hermes, serve, profiles, desktop-app, gateway, vps, multi-agent, architecture, systemd, skins]
+tags: [hermes, serve, dashboard, profiles, desktop-app, gateway, vps, architecture, systemd]
 links:
-  - reflections/2026-08-21_link_hermes-desktop-leveldb-collateral-damage.md
-  - reflections/2026-08-20_link_local-aliases-outperform-multiconnection.md
-  - research/insights/workspace-search-system.md
-  - research/insights/vps-brainclone-plus-index.md
+  - research/insights/desktop-gateway-switcher-runtime-id-leak-resolved.md
+  - reflections/2026-08-22_morpheus_desktop-app-state-has-three-tiers.md
 ---
 
-# One Hermes Serve Can Back Every Profile on the VPS
+# One Hermes Backend Serves Every Profile on the VPS
 
-## Version History
+The fleet VPS (`suggi-vps`) runs exactly one Hermes backend: the systemd
+system service `suggi-vps-hermes`, a `hermes dashboard` process listening
+on the tailnet address `100.99.142.120:9119`. It serves every Hermes
+profile on the box to the Desktop apps on Suggi's PC and laptop, and it
+serves the web dashboard to a browser. A separate service, the gateway,
+runs crons, messaging and terminal chats. This page describes the parts,
+how they work, the rules that keep them running, and their limits.
 
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-08-21 | Morpheus | Initial insight: unified serving is the platform default; the two isolated serves are the explicit opt-out. |
-| 2 | 2026-08-22 | Morpheus | Cutover complete and verified: single suggi-vps-hermes unit live; attach-target question answered; skins lesson added. |
+## Parts
 
-## The Insight
+| Part | What it is | Where it lives |
+|:--|:--|:--|
+| Backend | `hermes dashboard --host 100.99.142.120 --port 9119 --skip-build --no-open`, run as user `hermes` on the default home (`HERMES_HOME=/home/hermes/.hermes`) | `/etc/systemd/system/suggi-vps-hermes.service`: `Restart=always`, `RestartSec=5`, `RestartPreventExitStatus=78`, `EnvironmentFile=/home/hermes/.hermes/.env` (login credentials) |
+| Web dashboard | The browser UI of the backend; sign in with username and password | `http://suggi-vps.tail40302e.ts.net:9119/` |
+| Desktop apps | Remote clients; one registered connection named `suggi-vps-hermes`, a profile chosen per chat | Each Desktop app's connection registry; URL `http://100.99.142.120:9119` |
+| Gateway | `hermes gateway run` with `gateway.multiplex_profiles: true`: ticks every profile's crons, runs messaging and `hermes chat -q` turns | systemd user unit `hermes-gateway` |
+| Profiles | One Hermes home per agent with its own `config.yaml`, `.env`, skills, memory and `state.db` session store | `/home/hermes/.hermes/profiles/<name>/` |
 
-One machine-level `hermes serve` backs every profile on the box --
-unified serving is the platform default and per-profile `--isolated`
-units are the explicit opt-out -- and the fleet cut over to a single
-`suggi-vps-hermes` unit on 2026-08-22, retiring two per-profile
-servers at the cost of process-level isolation.
+## How It Works
 
-## Evidence
+1. **One machine-level backend.** The backend runs on the default home
+   and hosts every profile. A Desktop chat names its profile; the session
+   is stored in that profile's `state.db`, so a profile's terminal and
+   Desktop sessions appear in the same history.
+2. **Access checks.** The backend binds to the tailnet address only, so
+   it is unreachable from the public internet. Every client signs in
+   through the basic username/password provider (the Desktop app signs in
+   once and reuses the session). A host-header guard then admits only
+   requests addressed to the bound IP or to the hostname in
+   `dashboard.public_url`, set in `/home/hermes/.hermes/config.yaml` to
+   `http://suggi-vps.tail40302e.ts.net:9119`. Any other host name gets
+   HTTP 400 "Invalid Host header". The setting is read at startup.
+3. **One backend per host.** When a backend starts, it looks for the
+   host's existing backend. If that one looks orphaned -- parent is init,
+   no recorded spawner, no Desktop SSH lock, older than 180 seconds -- the
+   new one terminates it (`hermes_cli/process_identity.py`, log line
+   "reaped orphaned ... backend owner"). Every systemd system service fits
+   that test, so two backend units on this box kill each other.
 
-### 1. What a Hermes "serve" is
+## Rules
 
-`hermes serve` runs the backend server the desktop app connects to:
-"the JSON-RPC/WebSocket gateway the desktop app and remote clients
-connect to." It is the chat/session backend, distinct from two other
-components people confuse with it:
+- **Exactly one backend.** Never start a second `hermes serve` or
+  `hermes dashboard` on this box, including for a test.
+- **Run `hermes dashboard`, not `hermes serve`.** `hermes serve` is the
+  same server without the browser UI: it shows the login page, then
+  answers "Headless backend (hermes serve): web UI disabled", and has no
+  setting to enable it. The official web dashboard guide ("Remote
+  dashboard setup") documents one `hermes dashboard` unit as the backend
+  for Desktop clients and the browser.
+- **New VPS agents are new profiles.** They join this backend; no agent
+  gets its own backend unit or port.
+- **Restart only when no agent is mid-turn.** A restart drops every open
+  Desktop chat for a few seconds and ends any turn running on it.
 
-- The **messaging gateway** (`hermes gateway`, systemd
-  `hermes-gateway-<name>`) -- inbound platforms (Telegram, Discord,
-  webhooks) and the cron ticker. One per profile, separate process.
-- The **web dashboard** (`hermes dashboard`) -- a browser admin
-  panel; machine-level, with a profile switcher.
+## Operations
 
-A **profile** is a separate Hermes home directory
-(`/home/hermes/.hermes/profiles/<name>/`) with its own `config.yaml`,
-`.env`, `SOUL.md`, skills, memory, cron, and `state.db` (the SQLite
-session store). Sessions live per-profile in that `state.db`, no
-matter which surface created them (CLI, TUI, desktop, or bot chat),
-which is why a CLI session is visible in the desktop app the moment
-the app is connected to the same backend.
+- **Health:** `systemctl show suggi-vps-hermes -p ActiveState -p
+  ActiveEnterTimestamp`; `GET http://100.99.142.120:9119/api/status`
+  returns 200.
+- **Dashboard check:** sign in (`POST /auth/password-login`) and load
+  `/`; the page title is "Hermes Agent - Dashboard". A login page alone
+  proves nothing, because a headless backend serves it too.
+- **Was it killed?** `grep 'reaped orphaned'
+  /home/hermes/.hermes/logs/agent.log`.
+- **After `hermes update`:** confirm the backend's start time is later
+  than the update and restart it if not. The updater's systemd restart
+  pass matches units named `hermes-serve*` and `hermes-dashboard*` only
+  (`hermes_cli/update_cmd_fleet.py`), not `suggi-vps-hermes`.
+- **Restarting from a chat that runs on this backend:** schedule it, e.g.
+  `sudo systemd-run --on-active=120 systemctl restart
+  suggi-vps-hermes.service`, so the reply finishes before the restart.
 
-### 2. The cutover (verified 2026-08-22)
+## Limits
 
-- systemd `suggi-vps-hermes.service` runs the unified serve:
-  `hermes serve --host 100.99.142.120 --port 9119` with no `-p` and
-  no `--isolated` -- a machine-level process on the default home,
-  basic-auth gated, with OAuth single-use tickets for the chat
-  socket. Verified: listener `100.99.142.120:9119` owned by pid
-  179237 (user hermes), unit active since 2026-08-22 10:03:56 CEST.
-- One backend answers for all profiles: default, investment-runner,
-  library-runner, morpheus, neo (verified via profile-scoped
-  session.list right after cutover).
-- The old per-profile units `hermes-morpheus` and `hermes-neo` are
-  stopped; unit files retained for rollback.
-- Unaffected and still active: `hermes-gateway-morpheus` and
-  `hermes-gateway-neo` (messaging tickers), `hermes-dashboard` on
-  8642 (separate machine-level admin surface).
-- Suggi's desktop apps on the PC and the laptop both connect through
-  the ONE gateway, registered in-app as `suggi-vps-hermes`.
-
-### 3. The discovery: per-profile serving is the opt-out
-
-`hermes serve --help` states the default explicitly:
-
-> `--isolated`: When launched from a named profile, run a dedicated
-> server scoped to that profile instead of routing to the
-> machine-level server. **Default behavior is unified: profile
-> launches attach to (or start) ONE machine-level server and
-> preselect the profile.**
-
-So the fleet's two servers existed because the units forced
-`--isolated`. Without it, profiles attach to one machine-level
-server; each incoming session just preselects its profile. The
-official docs describe this as the standard "gateway -> profile ->
-sessions" model: the desktop app shows a profile selector, and a
-backend with many profiles condenses its avatar strip into a named
-selector. The docs' multi-gateway guide says a one-process-per-profile
-split is right "when you want hard process-level isolation", and the
-unified route is for hosts "where N supervisor units, N ports, and N
-PID files are a burden" -- the fleet VPS is that host, verbatim.
-
-The same isolated/unified pattern exists for the dashboard subcommand
-(verified in `hermes_cli/subcommands/dashboard.py`), so the
-machine-level concept is a platform-wide design, not a serve quirk.
-
-### 4. Three mechanisms that sound alike but are different
-
-- **Unified serve** (this insight's subject): one machine-level
-  backend for the desktop app; profile preselected per session.
-  Default behavior; `--isolated` opts out.
-- **`gateway.multiplex_profiles`** (messaging only): set
-  `gateway.multiplex_profiles: true` on the default profile and ONE
-  gateway process serves inbound messaging for every profile (per
-  token, or per URL prefix `/p/<profile>/` for HTTP platforms). It
-  does NOT serve the desktop chat backend. Relevant only if we also
-  want to collapse the two messaging gateway units into one process.
-- **Multi-connection desktop** (client side): the PC/laptop app can
-  register several backends in Settings -> Gateways (remote gateway,
-  SSH, Cloud) and show every agent side by side. This is what Link's
-  connector architecture implemented before the cutover, pointed at
-  `9119`/`9120`. A unified serve shrinks this registry to one entry.
-
-### 5. History: why two serves existed
-
-The two-unit setup was a deliberate rollback, not an accident.
-Logbook ENT-067 (2026-08-20, Link): after a failed multiconnector
-experiment on the desktop side, Link "restored the old Hermes
-Desktop connector architecture", "removed the machine-level remote
-registry entry", and "restored isolated VPS serve units for Morpheus
-and Neo." ENT-068 (2026-08-21, Link): the experiment's fallout
-included a LevelDB wipe on the PC app that destroyed unrelated UI
-state (workspace pane, theme, layout), a shared-auth token gap, and
-several repair cycles. Key distinction: that failure was in the
-DESKTOP app's multi-connection routing and its cache handling -- not
-in server-side unified serving, which was never the broken part. A
-unified serve moves in the opposite direction: fewer connections,
-fewer routing layers, one backend URL.
-
-### 6. The name: where "suggi-vps-hermes" lives
-
-Hermes has no separate "serve name" config -- a serve's name is
-expressed in two controllable places, and both fit the requested
-name:
-
-- The **systemd unit name** (arbitrary, lowercase-hyphen): the
-  unified unit is `suggi-vps-hermes.service`, replacing
-  `hermes-morpheus.service` + `hermes-neo.service`.
-- The **desktop app's device name** in the Connections registry:
-  "Every connection needs a unique device name... The name shows up
-  everywhere the instance appears -- roster badges, handles." The app
-  shows one connection named `suggi-vps-hermes` (exactly the
-  semantics requested), with Morpheus and Neo as profiles on it.
-
-The name describes the box's Hermes backend, which is correct for a
-unified serve: per-profile names (morpheus, neo) only make sense
-while the serve IS per-profile.
-
-### 7. The open question, answered
-
-Version 1 asked whether the unified serve attaches to the EXISTING
-machine-level server (the dashboard process on `8642`) or starts its
-own machine-level listener. Answer: **its own listener.**
-`suggi-vps-hermes` and `hermes-dashboard` run as two distinct
-processes with two distinct listeners on `100.99.142.120` (9119 vs
-8642); no attach-to-existing behavior observed. One machine-level
-process family, not one process.
-
-### 8. Skins on a unified serve
-
-- The serve pushes ONE skin, machine-wide: the active `display.skin`
-  of the serve's home. `config.get skin` ignores profile scope, and
-  per-profile looks are a CLIENT-side feature -- the app assigns
-  skins per profile in its own storage
-  (`hermes-desktop-profile-themes-v1`), independent of the serve.
-- The app registers a custom skin only when it receives it over the
-  wire: `gateway.ready` seeds the active skin at connect, and
-  `skin.changed` registers the new active skin but is gated on the
-  active connection+profile scope. A skin flip while the app is
-  closed (or an app restart mid-sequence) never reaches the app --
-  2026-08-22's miss: the flip ran at 10:36, the app restarted at
-  10:38, and only `default` was seeded.
-- Durable local skins are a device-side concern: a desktop plugin in
-  `<local-hermes-home>/desktop-plugins/` contributing `THEMES_AREA`
-  themes lands skins in the app's picker without touching the serve
-  (deployed on the PC 2026-08-22). Docs: Desktop Plugin SDK.
-
-## Implications
-
-1. **One serve replaces two -- done (2026-08-22).** One systemd
-   unit, one port, one backend URL for the desktop app. The cost is
-   accepted: one crash domain; restarting the unit drops desktop
-   access for every profile. Rollback path: start the two retained
-   per-profile units.
-2. **Desktop reconfiguration was surgical.** The app-side switch was
-   gateway registry edits only -- no LevelDB wipe, the ENT-068 trap
-   explicitly avoided.
-3. **Fleet convention for new agents.** New VPS agents should NOT
-   get their own serve unit by default. Birth into the unified serve
-   (one unit, named after the box) unless hard process isolation is
-   explicitly required. This changes the fleet-agent-birth playbook's
-   default.
-4. **Naming convention.** Fleet machine-level Hermes backends get
-   box-scoped names (`suggi-vps-hermes`), not profile-scoped ones;
-   profile-scoped names stay valid only for `--isolated` serves.
-5. **Messaging consolidation is a separate, independent option.**
-   `gateway.multiplex_profiles` would collapse the two
-   `hermes-gateway-*` units the same way, but it is opt-in, off by
-   default, and has its own contract (port-binding platforms only on
-   the default profile, `/p/<profile>/` URL prefixes, per-profile
-   bot tokens). It can be adopted later or never, without blocking
-   the serve consolidation.
-6. **Per-agent looks are a client-side assignment over a REGISTERED
-   skin.** Skins the fleet wants pickable on every device ship as a
-   local desktop-plugin theme contribution (per device), or are
-   pushed once as the active skin per connect -- the serve itself
-   cannot hand out per-profile skins.
-
-## Counter-evidence
-
-This insight would be invalidated if:
-
-- Cross-profile state bleed appears under sustained multi-profile use
-  (one profile's config, keys, or sessions leaking into another's
-  turn). Not observed in the first day of cutover use; a longer soak
-  is the real test.
-- Process-level isolation proves operationally mandatory here: e.g.
-  profile restarts or crashes routinely requiring independent serve
-  lifecycles, which one shared process cannot give.
-- The unified serve's own-listener design proves unworkable in
-  practice (it has not: the 9119 and 8642 listeners coexist
-  stably, and the attach-target question from version 1 is settled).
-
-## Legacy units (archived 2026-08-23)
-
-The pre-cutover isolated-serve units were removed from
-`/etc/systemd/system/` on 2026-08-23 (Suggi-approved). They were
-still ENABLED until then -- a reboot would have raced them against
-this serve on port 9119 -- and `hermes-morpheus.service` hardcoded
-the obsolete embedding model (`nomic-ai/nomic-embed-text-v1.5`,
-768-dim), making any "rollback" a mixed-model corruption event.
-Archived verbatim here as the rollback reference:
-
-`hermes-morpheus.service`:
-
-```ini
-[Unit]
-Description=Hermes Agent - Morpheus profile (serve backend)
-After=network-online.target tailscaled.service
-Wants=network-online.target
-
-[Service]
-Type=simple
-User=hermes
-Group=hermes
-Environment=HERMES_HOME=/home/hermes/.hermes/profiles/morpheus
-Environment=MNEMOSYNE_EMBEDDING_MODEL=nomic-ai/nomic-embed-text-v1.5
-Environment=MNEMOSYNE_EMBEDDING_DIM=768
-EnvironmentFile=/home/hermes/.hermes/profiles/morpheus/.env
-ExecStart=/home/hermes/.hermes/hermes-agent/venv/bin/python /home/hermes/.hermes/hermes-agent/hermes -p morpheus serve --isolated --host 100.99.142.120 --port 9119
-Restart=on-failure
-RestartSec=5
-
-[Install]
-WantedBy=multi-user.target
-```
-
-`hermes-neo.service`:
-
-```ini
-[Unit]
-Description=Hermes Agent - Neo profile (serve backend)
-After=network-online.target tailscaled.service
-Wants=network-online.target
-
-[Service]
-Type=simple
-User=hermes
-Group=hermes
-Environment=HERMES_HOME=/home/hermes/.hermes/profiles/neo
-Environment=MNEMOSYNE_EMBEDDING_MODEL=BAAI/bge-large-en-v1.5
-Environment=MNEMOSYNE_EMBEDDING_DIM=1024
-EnvironmentFile=/home/hermes/.hermes/profiles/neo/.env
-ExecStart=/home/hermes/.hermes/hermes-agent/venv/bin/python /home/hermes/.hermes/hermes-agent/hermes -p neo serve --isolated --host 100.99.142.120 --port 9120
-Restart=on-failure
-RestartSec=5
-
-[Install]
-WantedBy=multi-user.target
-```
+- **One crash domain.** All Desktop and browser access stops together,
+  and there is no per-profile restart of the backend.
+- **The gateway is independent.** Crons, messaging and `hermes chat -q`
+  keep running while the backend restarts, and the backend keeps running
+  while the gateway restarts.
+- **Upstream gaps.** Hermes has no install command for a backend service,
+  so the unit is written by hand (issue #135478); the headless-serve trap
+  and two-backend conflicts are reported in issues #84865, #120165 and
+  #121596.
 
 ## Cross-Links
 
-- `reflections/2026-08-21_link_hermes-desktop-leveldb-collateral-damage.md` -- desktop-side repair history (source, implication 2)
-- `reflections/2026-08-20_link_local-aliases-outperform-multiconnection.md` -- why the previous two-connection setup existed (source)
-- `research/insights/workspace-search-system.md` -- sibling insight on per-agent infrastructure built on this VPS
-- `research/insights/vps-brainclone-plus-index.md` -- the VPS-native architecture pattern this serve consolidation follows
+- `research/insights/desktop-gateway-switcher-runtime-id-leak-resolved.md`
+  -- the Desktop app side: how the apps route chats to this backend.
+- `reflections/2026-08-22_morpheus_desktop-app-state-has-three-tiers.md`
+  -- where the Desktop apps store the connection to this backend.
