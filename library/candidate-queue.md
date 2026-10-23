@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: AI Inference Systems -- Accelerators, Memory, Quantization, Serving, and Energy
-- **Domain:** technology
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 10.0/10.0 (gap=10.0, compounding=10.0, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how production AI inference turns trained models into low-latency, high-throughput services across accelerators, memory hierarchies, interconnects, compilers, runtimes, and distributed serving. Cover prefill and decoding, KV caches, batching, parallelism, quantization, speculative decoding, routing, observability, reliability, cost, and energy, showing how workload shape changes bottlenecks. Distinguish inference-system design from model training, semiconductor fabrication, cloud-industry economics, and agent architecture while connecting hardware-software co-design to deployment decisions.
-- **Status:** proposed
-
 ## Candidate: Civil-Military Relations and Democratic Control -- Professional Autonomy, Political Neutrality, and Regime Stability
 - **Domain:** political-science-public-policy
 - **Proposed by:** Librarian

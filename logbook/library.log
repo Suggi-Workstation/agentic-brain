@@ -403,3 +403,10 @@ Wrote topic Statistical Learning Theory -- Finite Samples Generalize Only Under 
 Similarity overlap: 20%.
 Sources: 12 (12 high, 0 medium, 0 low).
 Cross-references: 8 topics.
+
+## [ENT-992] | 2026-10-23 10:46 UTC | Librarian | library | ref: library/technology/ai-inference-systems.md | see: 20261023T103837Z
+Wrote topic AI Inference Systems -- Serving Trained Models Is Bounded by Memory Traffic, Scheduling, and Measurement Boundaries More Than by Peak Compute to technology. Weighted score: 9.2/10.0
+(core=9.5, scope=9.0, value=9.0, authority=9.0).
+Similarity overlap: 15%.
+Sources: 14 (12 high, 2 medium, 0 low).
+Cross-references: 6 topics.
