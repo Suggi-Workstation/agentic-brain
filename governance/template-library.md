@@ -64,6 +64,7 @@ in the published topic file.
 - [ ] Body sections follow order: Background -> Core Concepts -> (domain sections) -> Evidence -> Implications -> (optional sections) -> Sources -> See Also. No content after `## See Also`. (G11) (PASS / HALT)
 - [ ] Optional supplementary sections (if any) cover the topic itself, not the writer's research process (PASS / HALT)
 - [ ] `## Sources` section present with 8+ sources. Each source annotated with authority rating (high/medium/low). At least 6 of 8+ sources are high. (G4) (PASS / HALT)
+- [ ] Every cited source read as its whole unit per Reading sources; no abstracts, snippets or AI-generated text cited; open wikis cited only when no better source exists and rated `[low]`; second-hand claims attributed through the source read (G4) (PASS / HALT)
 - [ ] `## See Also` section present with at least 1 cross-reference to a related library topic or brain artifact (G5) (PASS / HALT)
 - [ ] Cross-reference targets verified: each path in `## See Also` and `links:` frontmatter confirmed to exist in the brain clone via `ls <path>` before committing (G5) (PASS / HALT)
 - [ ] Every factual claim traceable to a source in Sources. Synthesized claims are labeled as such. Citations follow the Inline citations rule; every cited number resolves to a numbered entry in `## Sources`. In a review, the first two requirements apply as G3 scopes them. (G3) (PASS / HALT)
@@ -226,11 +227,38 @@ Authority ratings:
   reputable publications with editorial standards.
 - `[medium]` -- reputable blogs, industry publications, secondary
   sources with clear attribution.
-- `[low]` -- personal blogs, forums, unattributed content, sources
-  with no identifiable author or institution.
+- `[low]` -- personal blogs, forums, open wikis such as Wikipedia,
+  unattributed content, sources with no identifiable author or
+  institution.
 
 At least 8 sources required. At least 6 of 8+ sources must be `[high]`.
 A topic with fewer than 6 `[high]` authority sources fails G4.
+
+### Reading sources
+
+Cite only what you have read yourself, and read it as a whole unit:
+
+- **Papers** (journal articles, working papers, preprints, conference
+  papers): the main text from introduction to conclusion, with the tables
+  and notes your claims use. Never the abstract alone. Cite the version
+  you read.
+- **Short works** (articles, news reports, reviews, essays, encyclopedia
+  entries, official web pages, press releases, interview or lecture
+  transcripts): the whole piece.
+- **Long works** (books, long reports, laws and regulations, court
+  decisions, company filings): the whole chapters, sections or articles
+  you use, plus the part that frames them (introduction, executive
+  summary or definitions).
+- **Data** (statistical tables, datasets): the table with its notes,
+  definitions and method description.
+
+A source you cannot read this way is not used. If you know a work only
+through a source you read, cite that source and attribute the claim
+("Tansley (1935), as discussed by Willis (1997)"). Abstracts, search
+snippets and AI-generated text (chatbot answers, AI summaries,
+AI-written encyclopedias such as Grokipedia) are never sources.
+Wikipedia and other open wikis lead you to sources; cite one only when
+no better source supports the claim, and rate it `[low]`.
 
 ## See Also
 
@@ -276,7 +304,8 @@ and preserves the required structure during rewrites.
 - **G4 -- Sources Have Authority Ratings:** Every source entry includes
   a `[high]`, `[medium]`, or `[low]` rating. At least 6 of the 8+
   sources must be `[high]`. A topic with fewer than 6 `[high]`
-  authority sources fails this gate.
+  authority sources fails this gate. Every cited source was read and
+  cited as Reading sources defines.
 - **G5 -- Cross-references Exist AND Are Valid:** At least one link to a
   related library topic or brain artifact. Zero links = isolated knowledge
   that does not compound. Every cross-referenced path MUST point to a file
@@ -497,7 +526,7 @@ sometimes have a similar impact, and sometimes loom smaller [9].
 
 | Version | Date | Author | Change |
 |:--|:--|:--|:--|
-| 5 | 2026-10-12 | Morpheus | Scoped G3 and its checklist item in reviews to the core statements of every section and added or rewritten text. |
+| 6 | 2026-10-23 | Morpheus | Added Reading sources (reading unit per source type, second-hand attribution, no AI-generated sources, open wikis rated low) and its G4 checklist item. |
 
 ---
 
