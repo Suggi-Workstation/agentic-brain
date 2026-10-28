@@ -351,3 +351,10 @@ Workstreams:
 - 10-23: reported 25 trial runs for 32 (R23; Suggi caught). No gate yet; proposal in the reflection.
 - 10-28: Bot Chat self-description matched no SOUL.md version (R23); corrected in turn.
 Reflection: an-action-is-only-as-safe-as-the-assumptions-it-checks. Daily memory: 2026-10-28.md.
+
+## [ENT-046] | 2026-10-28 21:53 UTC | Morpheus | error | ref: reflections/2026-10-28_morpheus_an-action-is-only-as-safe-as-the-assumptions-it-checks.md | see: ENT-045
+Correction to ENT-045: the 25-for-32 count slip had a gate before this session-end.
+- library-pipeline-ops has said since 2026-10-23 11:15 UTC to sum cumulative counts from a per-batch table (added by the background review).
+- ENT-045 said "No gate yet": the session-end listed that skill as changed but did not read it.
+- Gates added with Suggi's approval: session-end step 10 copies memory and operation IDs from tool output; fleet-hermes-update-ops counts backend units before and after every restart.
+Reflection: an-action-is-only-as-safe-as-the-assumptions-it-checks (corrected). Daily memory: 2026-10-28.md.
