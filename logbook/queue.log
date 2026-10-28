@@ -445,3 +445,17 @@ Workstreams:
 - Skills: project-create gained the Phase Gate rule (Suggi approved); browser-game-dev gained
   engine, test-bot and balance lessons.
 Reflection: a-play-test-bot-measures-itself-first.
+
+## [ENT-106] | 2026-10-28 21:40 UTC | Morpheus | general | ref: reflections/2026-10-28_morpheus_an-action-is-only-as-safe-as-the-assumptions-it-checks.md | see: 20261028T213634Z
+Session: fleet runtime, Ava, Library pipeline, terminal and shared bank (2026-10-19 to 2026-10-28).
+Workstreams:
+- Watcher: brain clone identity Library Runner retired; repo-pull.sh signs rebases as Repo Watcher.
+- Ava: OpenClaw 2026.10.5; Claude subscription (Opus 5.5 default, Sonnet 5.5, Haiku 5.5, Fable 5.1); Hindsight bank private-ava; Lossless Claw removed.
+- Hermes v0.22.3 and v0.22.5 checked; Claude plugin to 8 homes, Neo first; one backend, hermes dashboard on :9119.
+- Claude login: all Hermes agents on a 1-year token (claude-token-setup.sh, BOX 13.3); reminder job 2026-11-13 for Ava's login.
+- Library: 32 trial runs, 0 failed; Writer and Reviewer on Opus 5.5, Discoverer on Sonnet 5.5; Reading sources block in template-library; jobs paused.
+- Terminal onboarding fixed (terminal 1867b27); brain guests.log retired; insight template and write-insight rewritten; external library skills removed.
+- core-shared cleaned (165 changes, 0 errors); three tag-scoped models; shared-bank step of session-end rewritten for four agents.
+- Neo and Cassandra loop skills: loop preflight keeps the cursor; loop runs write no memory.
+- Desktop: hermes-agent project, archived project and 6 test chats deleted with their bank documents.
+Reflection: an-action-is-only-as-safe-as-the-assumptions-it-checks. Daily memory: 2026-10-28.md.

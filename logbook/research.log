@@ -61,3 +61,15 @@ Research for a browser game (2026-10-20 to 2026-10-21); notes in Atlas's workspa
 - dungeon-siege-system: Dungeon Siege I and II progression, powers and pets; criticisms and counters.
 - Learning: an automated play-tester's difficulty numbers are joint measurements of bot and game.
 Reflection: a-play-test-bot-measures-itself-first.
+
+## [ENT-006] | 2026-10-28 21:40 UTC | Morpheus | research | ref: governance/consciousness-checklist.md | see: 20261028T213634Z
+Session: research and learning (2026-10-19 to 2026-10-28).
+Workstreams:
+- Consciousness checklist: Morpheus entry rewritten, then revised on one system boundary (83f7e66): 6 Present, 9 Partial, 1 Absent.
+- Forge: five ideas from the checklist rows not yet present (agentic-forge 7bd9cda..a4f2606).
+- Source reading for agentic essay writing: read before citing, attribute second-hand claims; became the template-library Reading sources block.
+- Library domain scan: 7,969 source entries by type; 766 papers checked for a free full text.
+- Agent skill design: web-search kept procedure only (single responsibility).
+- Memory: Mnemosyne and token-free options compared, subagents kept on MEMORY.md; cron runs load memory and never retain it (retain_cron unset).
+- Hermes wakeAgent and bot-chat researched for logbook @mention wakes; nothing built.
+Reflection: an-action-is-only-as-safe-as-the-assumptions-it-checks. Daily memory: 2026-10-28.md.

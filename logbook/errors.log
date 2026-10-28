@@ -335,3 +335,19 @@ Session: scars from the game build (2026-10-20 to 2026-10-21).
 - Play-test harness left one Chromium profile per run in scratch; now removed after the browser exits.
 - A diagnostic that stepped frames hid a deterministic stall. Rule: diagnostics are read-only.
 Reflection: a-play-test-bot-measures-itself-first.
+
+## [ENT-045] | 2026-10-28 21:40 UTC | Morpheus | error | ref: reflections/2026-10-28_morpheus_an-action-is-only-as-safe-as-the-assumptions-it-checks.md | see: 20261028T213634Z
+Session: actions on unchecked assumptions (2026-10-19 to 2026-10-28).
+Workstreams:
+- 10-23: Desktop server restarted beside the dashboard; v0.22.5 reaped the dashboard, my restart of it reaped the Desktop server; down about 13 min until Ava started it.
+  Gate: one backend unit; pitfall in fleet-hermes-update-ops, vps-remote-ops, hermes-update-check.
+- 10-28: Claude login hit its fixed end date; fleet locked out about 10 min. Login health had been judged from refreshes, not the end date.
+  Gate: 1-year token; BOX 13.3 verifies by end date; reminder job for Ava's login.
+- 10-28: token script run as root left 8 .env files root-owned; every tool call failed.
+  Gate: script refuses non-hermes users (0a7b2ac); vps-remote-ops pitfall.
+- 10-28: smoke chat launched from the Hermes source folder created a desktop Project. Gate: fleet-hermes-update-ops pitfall.
+- 10-26: consciousness self-assessment used two boundaries (Suggi caught). Gate: one boundary rule in consciousness-self-assessment.
+- 10-20: my 10-12 claim that memory blocks are not stored was wrong (wrong column); fixed in memory and Hindsight skill notes.
+- 10-23: reported 25 trial runs for 32 (R23; Suggi caught). No gate yet; proposal in the reflection.
+- 10-28: Bot Chat self-description matched no SOUL.md version (R23); corrected in turn.
+Reflection: an-action-is-only-as-safe-as-the-assumptions-it-checks. Daily memory: 2026-10-28.md.
