@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Civil-Military Relations and Democratic Control -- Professional Autonomy, Political Neutrality, and Regime Stability
-- **Domain:** political-science-public-policy
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=9.9, timeliness=10.0, balance=10.0)
-- **Scope:** Explain how civilian authorities, armed forces, political parties, and societies divide control over military policy, appointments, budgets, operations, and domestic coercion. Compare objective and subjective control, professional autonomy, coup prevention, politicization, legislative oversight, military advice, regime support, and transitions across democracies and autocracies. Distinguish domestic institutional analysis from operational strategy and interstate geopolitics while examining how accountability, effectiveness, and political neutrality can conflict.
-- **Status:** proposed
-
 ## Candidate: Migration, Diaspora, and Border Regimes -- How Human Mobility Remade States, Labor, and Identity
 - **Domain:** history
 - **Proposed by:** Librarian
