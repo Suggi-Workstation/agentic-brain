@@ -1,8 +1,10 @@
 # Political Science Public Policy -- Topics
 
-17 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
+18 topics. Anchor: [anchor-political-science-public-policy.md](anchor-political-science-public-policy.md)
 
 - [Bureaucracy and Public Administration -- The Executive Machinery That Turns Law Into Outcomes](bureaucracy-public-administration.md) -- [reviewed: 2026-09-20] -- Bureaucracy is the administrative apparatus through which modern states implement legislation, deliver public services, and enforce rules, while public administration is the discipline and practice that studies, designs, and reforms that apparatus. The field examines how recruitment, authority, discretion, procedure, and performance systems affect the conversion of legal mandates into outcomes.
+
+- [Civil-Military Relations and Democratic Control -- Civilian Supremacy Rests on Institutions That Bound Military Autonomy, Not on the Mere Absence of Coups](civil-military-relations-democratic-control.md) -- [reviewed: never] -- Civil-military relations is the study of how elected or ruling civilians, the armed forces, and the wider society divide authority over the organized means of violence: who sets defense policy, appoints and promotes commanders, approves budgets, directs operations, and decides when soldiers may be used at home.
 
 - [Comparative Political Regimes -- How Institutional Design Separates Democracies From Autocracies and Why the Boundary Is Blurring](comparative-political-regimes.md) -- [reviewed: 2026-09-21] -- Political regimes are the formal and informal rules that determine access to power, the exercise of authority, and rulers' accountability. Comparative research distinguishes democratic and autocratic regimes by examining elections, political freedoms, executive constraints, and the de facto operation of institutions rather than constitutional labels alone ([6] [12]).
 
