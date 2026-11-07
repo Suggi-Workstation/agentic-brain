@@ -185,3 +185,27 @@
 - **Discovery score:** 9.0/10.0 (gap=9.2, compounding=8.6, timeliness=8.4, balance=10.0)
 - **Scope:** Translate research on expressive writing, gratitude and benefit-finding journals, and routine reflective journaling into practices a person can test safely. Compare Pennebaker and Beall's 1986 paradigm with later randomized trials and meta-analyses reporting small and inconsistent average effects, and with moderators such as session number and population. Cover format, timing, privacy, and when to stop. Distinguish personal practice from clinical treatment, decision journals, emotion-regulation strategies, and narrative craft.
 - **Status:** proposed
+
+## Candidate: Computer-Use and GUI Agents -- Screen Grounding, Action Spaces, Long-Horizon Benchmarks, and Prompt-Injection Limits
+- **Domain:** coding-agentic-ai
+- **Proposed by:** Librarian
+- **Date:** 2026-11-07
+- **Discovery score:** 9.3/10.0 (gap=9.2, compounding=9.0, timeliness=9.6, balance=9.4)
+- **Scope:** Explain how computer-use agents operate graphical interfaces: screenshots or accessibility trees as observations, mouse and keyboard actions, grounding instructions in screen elements, and recovery over long task horizons. Compare desktop and browser agents using OSWorld, where humans completed 72.36 percent of 369 tasks against 12.24 percent for the best model in the 2024 paper, and OSWorld 2.0 (June 2026), whose 108 workflows take humans a median of about 1.6 hours. Treat prompt injection through on-screen content as the central safety limit, with approval gates and vendor hardening reports. Distinguish GUI agents from API tool calling, benchmark methodology, and sandboxing.
+- **Status:** proposed
+
+## Candidate: Early Childhood Education and Care -- Perry, Abecedarian, Head Start, and Public Pre-K Evidence on Fade-Out and Long-Run Effects
+- **Domain:** education-learning
+- **Proposed by:** Librarian
+- **Date:** 2026-11-07
+- **Discovery score:** 9.1/10.0 (gap=9.2, compounding=9.0, timeliness=8.8, balance=9.4)
+- **Scope:** Explain what early childhood education and care programs deliver and how the evidence on them should be read. Compare the Perry Preschool and Abecedarian demonstrations, Head Start, Oklahoma and Boston public pre-K, and the Tennessee randomized trial, which found negative sixth-grade achievement effects (Durkin and colleagues, 2022), against the Boston lottery study reporting no grade-school test-score effect but higher graduation and college enrollment (Gray-Lobe, Pathak, and Walters, 2023). Cover fade-out, quality, counterfactual care, targeting versus universal access, and cost-benefit claims. Distinguish program evaluation from child-development psychology, school pedagogy, and welfare-state design.
+- **Status:** proposed
+
+## Candidate: Moral Psychology -- Intuition, Dual-Process Judgment, Moral Foundations, and the Limits of Trolley-Dilemma Evidence
+- **Domain:** psychology-behavior
+- **Proposed by:** Librarian
+- **Date:** 2026-11-07
+- **Discovery score:** 9.0/10.0 (gap=8.8, compounding=9.0, timeliness=8.8, balance=10.0)
+- **Scope:** Explain how people form moral judgments: intuition and reasoning, dual-process accounts of sacrificial dilemmas, moral foundations theory and the contested structure of its questionnaire, intention and harm perception, and cross-cultural variation. Evaluate what trolley-style experiments show about real behavior, including omission bias and wording effects. Connect the findings to the 2025 PNAS study of amplified cognitive biases in large language models' moral decisions and the 2026 Nature roadmap for evaluating their moral competence. Distinguish empirical description from normative ethics, metaethics, AI ethics, and political ideology.
+- **Status:** proposed
