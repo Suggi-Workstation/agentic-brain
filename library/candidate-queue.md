@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Migration, Diaspora, and Border Regimes -- How Human Mobility Remade States, Labor, and Identity
-- **Domain:** history
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.9/10.0 (gap=9.8, compounding=9.9, timeliness=9.8, balance=10.0)
-- **Scope:** Explain how voluntary and forced migration, diaspora networks, border controls, passports, recruitment systems, and citizenship rules changed states, labor markets, families, and identities across major historical periods. Compare migration caused by conquest, slavery, colonial rule, industrialization, war, partition, and economic opportunity while tracing how transport and communication altered mobility. Keep chronology and causal context central, distinguishing long-run migration history from current immigration policy, demographic measurement, refugee law, and single-event case studies.
-- **Status:** proposed
-
 ## Candidate: Cancer Prevention and Treatment -- Risk, Early Detection, Heterogeneity, and Multimodal Care
 - **Domain:** health-medicine
 - **Proposed by:** Librarian
