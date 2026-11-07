@@ -1,10 +1,12 @@
 # Health Medicine -- Topics
 
-18 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
+19 topics. Anchor: [anchor-health-medicine.md](anchor-health-medicine.md)
 
 - [AI in Medicine and Diagnostics -- How Deep Learning Reached Clinician-Level Accuracy and Why Clinical Deployment Still Lags the Benchmarks](ai-in-medicine-and-diagnostics.md) -- [reviewed: 2026-09-23] -- AI in medicine and diagnostics applies machine learning to images, text, and structured records to detect, classify, or triage disease. On narrow imaging tasks, controlled studies have shown performance comparable with specialists, and a direct count of unique submission identifiers in the US Food and Drug Administration's (FDA's) September 4, 2026 public list yields 1,614 authorized AI-enabled devices ([1] [2] [5]).
 
 - [Antibiotic Stewardship Preserves Effective Treatment by Reducing Selection Without Withholding Necessary Care](antimicrobial-resistance-antibiotic-stewardship.md) -- [reviewed: 2026-09-23] -- Antibiotic resistance turns treatable bacterial infections into harder, costlier, and sometimes untreatable disease, but antibiotics remain indispensable when bacterial infection is likely or proven. Antibiotic stewardship therefore means delivering effective therapy while continually narrowing the drug, dose, route, and duration to what the patient actually needs; it is not indiscriminate restriction.
+
+- [Cancer Prevention and Treatment -- Progress Comes From Matching Prevention, Detection, and Multimodal Care to Each Cancer's Biology, Stage, and the Patient's Goals](cancer-prevention-and-treatment.md) -- [reviewed: never] -- Cancer is not one disease but a large group of diseases in which abnormal cells grow beyond their usual boundaries, invade nearby tissue, and can spread to distant organs; widespread metastasis is the main cause of cancer death [1][4]. Outcomes have improved where prevention removes causes such as tobacco and cancer-causing infections, where disease is found while still local, and where surgery,...
 
 - [Chronic Disease Management -- Why Cardiovascular Disease and Diabetes Require Systemic Prevention Over Reactive Treatment](chronic-disease-cvd-diabetes.md) -- [reviewed: 2026-09-24] -- Cardiovascular disease (CVD) and diabetes are overlapping but distinct chronic-disease burdens: CVD caused an estimated 19.8 million deaths in 2022, while the International Diabetes Federation estimated that 589 million adults aged 20-79 were living with diabetes in 2024 [1][2]. Their intersection matters because hyperglycaemia, hypertension, abnormal lipids, obesity, smoking, kidney disease, and...
 
