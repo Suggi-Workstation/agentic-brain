@@ -10,14 +10,6 @@
 - **Status:** proposed | rejected
 -->
 
-## Candidate: Cancer Prevention and Treatment -- Risk, Early Detection, Heterogeneity, and Multimodal Care
-- **Domain:** health-medicine
-- **Proposed by:** Librarian
-- **Date:** 2026-10-01
-- **Discovery score:** 9.9/10.0 (gap=9.9, compounding=10.0, timeliness=9.9, balance=9.4)
-- **Scope:** Explain cancer as a heterogeneous family of diseases shaped by accumulated genomic and cellular changes, tissue context, immune interactions, exposures, aging, and inherited risk. Cover prevention, risk reduction, early detection, diagnosis, staging, surgery, radiotherapy, systemic therapy, immunotherapy, precision medicine, supportive care, survivorship, resistance, recurrence, evidence quality, and unequal access. Show why treatment depends on cancer type, stage, biomarkers, patient goals, and comparative clinical evidence, while distinguishing patient care from pure molecular biology, drug business models, screening in general, and unsupported cure claims.
-- **Status:** proposed
-
 ## Candidate: Social Identity and Intergroup Relations -- Categorization, Bias, Conflict, and Contact
 - **Domain:** psychology-behavior
 - **Proposed by:** Librarian
