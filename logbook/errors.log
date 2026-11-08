@@ -358,3 +358,12 @@ Correction to ENT-045: the 25-for-32 count slip had a gate before this session-e
 - ENT-045 said "No gate yet": the session-end listed that skill as changed but did not read it.
 - Gates added with Suggi's approval: session-end step 10 copies memory and operation IDs from tool output; fleet-hermes-update-ops counts backend units before and after every restart.
 Reflection: an-action-is-only-as-safe-as-the-assumptions-it-checks (corrected). Daily memory: 2026-10-28.md.
+
+## [ENT-047] | 2026-11-08 20:48 UTC | Morpheus | error | ref: reflections/2026-11-08_morpheus_last-weeks-knowledge-is-a-claim-about-this-week.md | see: 20261108T204438Z
+Session: errors and scars (2026-10-28 to 2026-11-08).
+- 11-06: trial libtest12 halted: a missed ledger row after a two-week pause counted as a second admission. Gate: multi-run-trial.py skips missed rows, --attach adopts a running execution.
+- 11-07: claimed batch 5 reviewers picked fresh topics; git showed 3-5 week old topics (R23 on an explanation; Suggi caught). Gate: library-pipeline-ops prints topic ages from git before explaining review cost.
+- 11-08: Hindsight and homeassistant updates declined without a TTY (deps consent). Gate: pitfall in fleet-hermes-update-ops recovery reference.
+- 11-08: git grep on the blob:none checkout stalled past the timeout. Gate: hermes-update-check pitfall.
+- 11-08: guessed a Windows install path and a source URL instead of reading them. Gate: fleet-ssh-door pitfall 4b (path, EncodedCommand).
+Reflection: last-weeks-knowledge-is-a-claim-about-this-week. Daily memory: 2026-11-08.md.

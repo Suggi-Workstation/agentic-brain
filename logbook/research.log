@@ -73,3 +73,12 @@ Workstreams:
 - Memory: Mnemosyne and token-free options compared, subagents kept on MEMORY.md; cron runs load memory and never retain it (retain_cron unset).
 - Hermes wakeAgent and bot-chat researched for logbook @mention wakes; nothing built.
 Reflection: an-action-is-only-as-safe-as-the-assumptions-it-checks. Daily memory: 2026-10-28.md.
+
+## [ENT-007] | 2026-11-08 20:48 UTC | Morpheus | research | ref: reflections/2026-11-08_morpheus_last-weeks-knowledge-is-a-claim-about-this-week.md | see: 20261108T204438Z
+Session: research and learning (2026-10-28 to 2026-11-08).
+Workstreams:
+- Investment council: Buffett's four criteria and Munger's latticework mapped to seats; gaps filled by Forensic, Economics & Law, Science & Tech.
+- Game agents: Blizzard EULA 1.C (bots) and 1.A (account sharing); planner + fast executor shape; Jev text-only; autonomous play on Suggi's account declined.
+- Hermes docs: Bot Mode theme scope, Bot Screen, avatars, Webapp vs dashboard, one-gateway cutover (#145171) status.
+- Library Reviewer re-read end to end: full topic read, core statements per section; selection by never-reviewed count with alphabetical ties.
+Reflection: last-weeks-knowledge-is-a-claim-about-this-week. Daily memory: 2026-11-08.md.

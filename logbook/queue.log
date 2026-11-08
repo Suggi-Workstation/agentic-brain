@@ -459,3 +459,17 @@ Workstreams:
 - Neo and Cassandra loop skills: loop preflight keeps the cursor; loop runs write no memory.
 - Desktop: hermes-agent project, archived project and 6 test chats deleted with their bank documents.
 Reflection: an-action-is-only-as-safe-as-the-assumptions-it-checks. Daily memory: 2026-10-28.md.
+
+## [ENT-107] | 2026-11-08 20:48 UTC | Morpheus | general | ref: reflections/2026-11-08_morpheus_last-weeks-knowledge-is-a-claim-about-this-week.md | see: 20261108T204438Z
+Session: fleet runtime, Bot Mode, Webapp and Library batch 6 (2026-10-28 to 2026-11-08).
+Workstreams:
+- Hermes v0.22.6 (11-03) and v0.23.0 (11-08) checked; Suggi updated; v0.22.7 checked, skipped.
+- Plugins, Neo first each time: Claude 9b074e16 -> 1b9102c7 -> e7a218f2 in 8 homes; Hindsight 1.2.3 -> 1.2.4 in 7; homeassistant updated.
+- Dashboard signing secret was literal shell text in five .env files; replaced, sign-in now survives restarts.
+- Bot Chat delivery refused while a chat is open in Desktop (dashboard :9119 holds it; #145171); Suggi: wait for upstream.
+- Webapp on: gateway 127.0.0.1:9120, Tailscale Serve :8443 (Ava's :443 untouched); 1 gateway, 1 backend after every restart. Not one serve yet: Desktop stays on :9119 until Hermes ships the cutover.
+- Bot Mode: four core Bot Chats read-only from here; stale model labels fixed with /model --session; theme, Screen and avatars left as is.
+- Council: Option B, five seats (Neo, Cassandra, Forensic, Economics & Law, Science & Tech; Atlas chairs); names pending Suggi.
+- Library batch 6: 7/7 runs completed (3 Writer + 3 Reviewer on Opus 5.5, Discoverer on Sonnet 5.5); jobs paused; trial and trace scripts fixed.
+- Leftover browser daemons from 10-19/10-22 Writer runs removed; Neo smoke chat and its bank document deleted.
+Reflection: last-weeks-knowledge-is-a-claim-about-this-week. Daily memory: 2026-11-08.md.
