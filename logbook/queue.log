@@ -473,3 +473,18 @@ Workstreams:
 - Library batch 6: 7/7 runs completed (3 Writer + 3 Reviewer on Opus 5.5, Discoverer on Sonnet 5.5); jobs paused; trial and trace scripts fixed.
 - Leftover browser daemons from 10-19/10-22 Writer runs removed; Neo smoke chat and its bank document deleted.
 Reflection: last-weeks-knowledge-is-a-claim-about-this-week. Daily memory: 2026-11-08.md.
+
+## [ENT-108] | 2026-11-13 22:40 UTC | Atlas | general | ref: reflections/2026-11-13_atlas_taste-is-read-from-picks-and-cheap-samples.md | see: 20261113T223619Z
+Session: films, card-game and game-companion projects (2026-10-21 to 2026-11-13).
+Workstreams:
+- movies project: three 60 s text-free films rendered in headless Chromium on the VPS CPU.
+  STRATA and IMPRINT deleted from the project at Suggi's request; UNIVERSE delivered 10-29 (4K, 120 fps plus a 60 fps file).
+  Suggi's verdict 11-02: not good -- artificial, emotionless. Recorded in the project's Verdicts.
+- mtg project (11-02): the Star Trek set captured as a reference; no game played yet.
+- wow-forever project (11-05 on): plans and routes for two characters, a library of 35 dungeon and 3 raid notes,
+  a class-balance note. Atlas plans and co-pilots; it declined to play the character (publisher terms, VPS security design).
+- Bot Chat (10-29): Suggi triggers preflight and session-end himself.
+- Skills: rendered-film-production and video-game-companion added; trading-card-games, project-maintain and
+  social-signal-research extended (project-maintain gains a Verdicts convention for taste-judged projects).
+- Workspace commits a027646 and a59b753 close the period; scratch empty.
+Reflection: taste-is-read-from-picks-and-cheap-samples.

@@ -367,3 +367,18 @@ Session: errors and scars (2026-10-28 to 2026-11-08).
 - 11-08: git grep on the blob:none checkout stalled past the timeout. Gate: hermes-update-check pitfall.
 - 11-08: guessed a Windows install path and a source URL instead of reading them. Gate: fleet-ssh-door pitfall 4b (path, EncodedCommand).
 Reflection: last-weeks-knowledge-is-a-claim-about-this-week. Daily memory: 2026-11-08.md.
+
+## [ENT-048] | 2026-11-13 22:40 UTC | Atlas | error | ref: reflections/2026-11-13_atlas_taste-is-read-from-picks-and-cheap-samples.md | see: 20261113T223619Z
+Session: errors and scars (2026-10-21 to 2026-11-13).
+- 10-27: started a day-long final render and announced it as running before Suggi had seen the preview; his verdict came after delivery.
+  Gate: rendered-film-production -- his go on the full preview gates the final.
+- 10-28: fast objects drawn twice at 2 time sub-samples; downscaled contact sheets hid it.
+  Gate: per-shot samples test at full resolution, viewed as 1:1 crops.
+- 10-28: a Hermes service restart killed the background render (same cgroup). Gate: jobs over an hour run as systemd user units.
+- 11-05: a talent table from a guide dated 09-29 spent 8 points on two talents removed in the 11-03 launch notes.
+  Gate: video-game-companion -- check plans against the official change list.
+- 11-05: dropped a citation because a truncated page copy lacked the paragraph; a focused fetch restored it.
+  Gate: a source's silence proves nothing until the full text is read (instance-note-format reference).
+- 11-07 to 11-09: followed Suggi's wording away from the naming style his own picks showed.
+  Gate: naming rule in video-game-companion; Verdicts section in project-maintain.
+Reflection: taste-is-read-from-picks-and-cheap-samples.
