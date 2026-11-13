@@ -3,728 +3,728 @@ status: provisional-agent-curated
 description: Balanced Brain retrieval benchmark.
 queries:
 - qid: g004
-  question: What is Suggi's investment approach as documented in governance?
+  question: What weights does Suggi's stock screen give to growth, ROIC and cheapness, and what margin of safety is required before buying?
   gold_files:
   - governance/suggi-investment-approach.md
   domain: investing
 - qid: g007
-  question: How is the Beneish M-Score used to detect earnings manipulation?
+  question: Why does the Beneish model weight accruals so heavily while rising leverage or SG&A costs actually lower the manipulation score?
   gold_files:
   - library/accounting-financial-shenanigans/beneish-m-score.md
   domain: library
 - qid: g008
-  question: What are common revenue recognition shenanigans in financial reporting?
+  question: Which warning signs in receivables, quarter-end sales and returns suggest a company is pulling revenue forward through channel stuffing or cutoff tricks?
   gold_files:
   - library/accounting-financial-shenanigans/revenue-recognition-shenanigans.md
   domain: library
 - qid: g009
-  question: How do non-GAAP metrics and pro-forma figures get manipulated?
+  question: Under SEC Regulation G, what must accompany a company's adjusted earnings, and why does the gap with GAAP earnings keep widening?
   gold_files:
   - library/accounting-financial-shenanigans/non-gaap-metrics-and-pro-forma-manipulation.md
   domain: library
 - qid: g010
-  question: What lessons come from the 2008 financial crisis case study?
+  question: Did the Community Reinvestment Act or Fannie and Freddie's affordable-housing goals cause the subprime mortgage crisis?
   gold_files:
   - library/case-studies/2008-financial-crisis.md
   domain: library
 - qid: g011
-  question: What went wrong in the Challenger disaster regarding organizational silence?
+  question: What made Morton Thiokol managers overrule their O-ring engineers before the Challenger launch, and how had NASA come to accept the risk?
   gold_files:
   - library/case-studies/challenger-disaster-organizational-silence.md
   domain: library
 - qid: g012
-  question: What does the intelligent investor book teach about value investing?
+  question: For a passive investor, what stock-bond split and number of holdings did Graham recommend, and do index funds satisfy his advice today?
   gold_files:
   - library/books/the-intelligent-investor.md
   domain: library
 - qid: g013
-  question: What are the main ideas in Thinking Fast and Slow?
+  question: How can a longer colonoscopy that ends with milder pain be remembered as less unpleasant, and what does that imply for judging well-being?
   gold_files:
   - library/books/thinking-fast-and-slow.md
   domain: library
 - qid: g014
-  question: What does the Black Swan book say about rare unpredictable events?
+  question: How do Taleb's turkey story and the casino that lost money to a tiger attack illustrate the limits of forecasting from past data?
   gold_files:
   - library/books/the-black-swan-taleb.md
   domain: library
 - qid: g015
-  question: How did the Enron scandal illustrate accounting fraud?
+  question: In what ways did Enron's board, auditor, analysts and bonus culture each fail, and which reforms did Sarbanes-Oxley introduce afterwards?
   gold_files:
   - library/case-studies/enron-scandal.md
   domain: library
 - qid: g016
-  question: What are key techniques for agent memory and persistence in AI systems?
+  question: Comparing MemGPT, Zep and Mem0, which approach handles updating and forgetting an agent's long-term memory best?
   gold_files:
   - library/coding-agentic-ai/agent-memory-and-persistence.md
   domain: library
 - qid: g017
-  question: How does multi-agent orchestration work?
+  question: When does splitting a task across several LLM agents actually beat a single agent, and why does debate mostly reduce to voting?
   gold_files:
   - library/coding-agentic-ai/multi-agent-orchestration.md
   domain: library
 - qid: g018
-  question: What is cognitive load theory in education?
+  question: Why is germane load no longer counted as a separate type of cognitive load, and when does placing text beside a diagram help?
   gold_files:
   - library/education-learning/cognitive-load-theory.md
   domain: library
 - qid: g019
-  question: How does spaced repetition improve learning and retrieval practice?
+  question: What happens at the synapse that makes spaced reviews outlast cramming, and why do so few students study that way?
   gold_files:
   - library/education-learning/spaced-repetition-and-retrieval-practice.md
   domain: library
 - qid: g020
-  question: What is the Feynman technique for learning?
+  question: How should a self-directed learner combine SQ3R, Pomodoro, Leitner flashcards and mind mapping, and which kinds of material suit each?
   gold_files:
   - library/education-learning/feynman-technique-and-learning-heuristics.md
   domain: library
 - qid: g021
-  question: What are common logical fallacies?
+  question: Is citing an expert or a speaker's conflict of interest always fallacious, and what must a critic show before alleging a fallacy?
   gold_files:
   - library/communication/logical-fallacies.md
   domain: library
 - qid: g022
-  question: How does propaganda and misinformation spread?
+  question: What separates misinformation from disinformation and malinformation, and why does prebunking scale better than fact-checking individual falsehoods?
   gold_files:
   - library/communication/propaganda-and-misinformation.md
   domain: library
 - qid: g023
-  question: What is the greenhouse effect and the carbon cycle?
+  question: If natural carbon fluxes dwarf human emissions, why does atmospheric CO2 keep rising, and what share do oceans and land absorb?
   gold_files:
   - library/earth-climate/carbon-cycle-greenhouse-effect.md
   domain: library
 - qid: g024
-  question: What are the ethics considerations for AI systems?
+  question: Why can't a recidivism risk score like COMPAS be both calibrated and have equal error rates across racial groups?
   gold_files:
   - library/ethics-philosophy/ai-ethics.md
   domain: library
 - qid: g025
-  question: How do bond pricing and fixed income markets work?
+  question: How do modified duration and convexity combine to estimate a bond's price move, and why do callable bonds break that estimate?
   gold_files:
   - library/finance/bond-pricing-and-fixed-income-markets.md
   domain: library
 - qid: g026
-  question: What is Bayesian reasoning and how is it used in forecasting?
+  question: When updating a forecast with Bayes' rule, how should I handle priors, likelihood ratios and correlated pieces of evidence?
   gold_files:
   - library/probabilistic-thinking-forecasting/bayesian-reasoning.md
   domain: library
 - qid: g027
-  question: What is the psychology of persuasion according to Influence?
+  question: How strong is the replication evidence for Cialdini's door-in-the-face and low-ball compliance techniques?
   gold_files:
   - library/books/influence-psychology-of-persuasion.md
   domain: library
 - qid: g028
-  question: What is the consciousness checklist in governance?
+  question: Why did Morpheus raise its scores on the Butlin consciousness indicators, and which indicator still stays absent?
   gold_files:
   - governance/consciousness-checklist.md
   domain: governance
 - qid: g029
-  question: What did the child agent inheritance design teach about building new agents?
+  question: When seeding a child agent's memory from its parent, why should a full reindex run right after the import?
   gold_files:
   - reflections/2026-08-06_link_child-agent-inheritance-validated.md
   domain: reflections
 - qid: g030
-  question: How does the two-tier fleet memory work in one vector space?
+  question: How was the fleet's shared Mnemosyne memory synced through the VPS blind relay, and why did all agents need one embedding model?
   gold_files:
   - research/insights/two-tier-fleet-memory-single-vector-space.md
   domain: research
 - qid: g041
-  question: What are cash flow shenanigans in accounting?
+  question: How can a company inflate operating cash flow through receivables factoring, supplier finance or acquisitions without faking any cash?
   gold_files:
   - library/accounting-financial-shenanigans/cash-flow-shenanigans.md
   domain: library
 - qid: g042
-  question: How do goodwill impairment games distort earnings?
+  question: Why do goodwill write-downs often arrive years late, and how do discount rate and terminal growth assumptions help companies postpone them?
   gold_files:
   - library/accounting-financial-shenanigans/goodwill-impairment-games.md
   domain: library
 - qid: g043
-  question: What are off-balance-sheet shenanigans?
+  question: Before ASC 842, how did companies structure leases to dodge capital-lease tests, and what loopholes survive the new standard?
   gold_files:
   - library/accounting-financial-shenanigans/off-balance-sheet-shenanigans.md
   domain: library
 - qid: g044
-  question: How did Apple turn around from 1997 to 2010?
+  question: Was Apple's recovery after Steve Jobs returned driven mainly by design, or did cost cutting and inventory reduction matter too?
   gold_files:
   - library/case-studies/apple-turnaround-1997-2010.md
   domain: library
 - qid: g045
-  question: What lessons came from the Cuban Missile Crisis?
+  question: How did Kennedy's ExComm deliberations lead to choosing a naval quarantine over airstrikes, and what role did the secret Jupiter trade play?
   gold_files:
   - library/case-studies/cuban-missile-crisis.md
   domain: library
 - qid: g046
-  question: What happened in the New Coke marketing disaster?
+  question: Why did Coca-Cola's huge blind taste-test program fail to predict the consumer backlash when the original formula was replaced in 1985?
   gold_files:
   - library/case-studies/new-coke-marketing-disaster.md
   domain: library
 - qid: g047
-  question: How do gift economies and reciprocity work in anthropology?
+  question: Does every gift create an obligation to repay, and how do the Kula ring, potlatch and Hindu dan complicate Mauss's theory?
   gold_files:
   - library/anthropology/gift-economies-and-reciprocity.md
   domain: library
 - qid: g048
-  question: What does Sapiens say about human history?
+  question: What do academic critics fault in Harari's claims that collective myths let humans cooperate and that farming was a fraud on humanity?
   gold_files:
   - library/books/sapiens-a-brief-history-of-humankind.md
   domain: library
 - qid: g049
-  question: What is the selfish gene theory?
+  question: How does Dawkins use Hamilton's rule and kin selection to explain altruism like sterile worker ants from a gene's-eye view?
   gold_files:
   - library/books/the-selfish-gene.md
   domain: library
 - qid: g050
-  question: What was the Cold War about and how did it end?
+  question: Did Soviet economic decline, Reagan's arms buildup, or Gorbachev's reforms end the Cold War, and how do historians weigh them?
   gold_files:
   - library/history/cold-war.md
   domain: library
 - qid: g051
-  question: What were the causes and consequences of World War II?
+  question: Was dropping atomic bombs on Hiroshima and Nagasaki necessary to force Japan's surrender, and where does the historical debate stand?
   gold_files:
   - library/history/world-war-ii.md
   domain: library
 - qid: g052
-  question: What did the industrial revolution change about society?
+  question: Why did industrialization start in Britain, and did workers' real wages and heights actually improve before 1840?
   gold_files:
   - library/history/industrial-revolution-and-its-consequences.md
   domain: library
 - qid: g053
-  question: How are agent skills and skill systems designed?
+  question: What distinguishes a packaged agent skill from a raw function-calling tool, and how should skill execution be sandboxed and gated?
   gold_files:
   - library/coding-agentic-ai/agent-skill-systems.md
   domain: library
 - qid: g054
-  question: How does context window management work for LLM agents?
+  question: Does masking old tool observations or summarizing history with an LLM work better for keeping a long-running coding agent's context small?
   gold_files:
   - library/coding-agentic-ai/context-window-management.md
   domain: library
 - qid: g055
-  question: What is prompt engineering for agents?
+  question: How should an agent's system prompt be layered and assembled at runtime, and how do you stop its instructions fading in long sessions?
   gold_files:
   - library/coding-agentic-ai/prompt-engineering-for-agents.md
   domain: library
 - qid: g056
-  question: How is agent evaluation and benchmarking done?
+  question: How do pass@k and pass^k differ when judging whether a stochastic AI agent will succeed consistently across repeated runs?
   gold_files:
   - library/coding-agentic-ai/agent-evaluation-and-benchmarking.md
   domain: library
 - qid: g057
-  question: What is rhetoric and how is it used in communication?
+  question: Which of Cialdini's persuasion principles correspond to Aristotle's ethos, pathos and logos appeals?
   gold_files:
   - library/communication/rhetoric.md
   domain: library
 - qid: g058
-  question: What does the medium is the message mean?
+  question: What would McLuhan's tetrad say social media enhances, makes obsolete, retrieves, and flips into when pushed too far?
   gold_files:
   - library/communication/the-medium-is-the-message.md
   domain: library
 - qid: g059
-  question: How does narrative structure and storytelling work?
+  question: Can a story work without conflict, and how does the East Asian kishotenketsu structure build tension instead?
   gold_files:
   - library/communication/narrative-structure-and-storytelling.md
   domain: library
 - qid: g060
-  question: What is the sixth extinction and biodiversity loss?
+  question: Are we already in a sixth mass extinction, or have modern species losses not yet reached the fossil-record threshold?
   gold_files:
   - library/earth-climate/biodiversity-sixth-extinction.md
   domain: library
 - qid: g061
-  question: How does ocean acidification affect marine life?
+  question: Why does seawater absorbing more carbon dioxide make it harder for oysters, corals and pteropods to build shells?
   gold_files:
   - library/earth-climate/ocean-acidification.md
   domain: library
 - qid: g062
-  question: What is the renewable energy cost revolution?
+  question: What explains solar module and battery prices falling with each doubling of production while nuclear plant costs keep rising?
   gold_files:
   - library/earth-climate/renewable-energy-cost-revolution.md
   domain: library
 - qid: g063
-  question: What is deliberate practice and how does it improve skill?
+  question: Does simulation-based medical training built on deliberate practice and mastery standards beat traditional clinical education, and by how much?
   gold_files:
   - library/education-learning/deliberate-practice.md
   domain: library
 - qid: g064
-  question: What are the main pedagogical teaching methods?
+  question: Compared with guided or unguided inquiry learning, how did direct instruction perform in Project Follow Through and later meta-analyses?
   gold_files:
   - library/education-learning/pedagogy-and-teaching-methods.md
   domain: library
 - qid: g065
-  question: What is stoicism and how is it applied?
+  question: What did Albert Ellis borrow from Epictetus when building REBT, the forerunner of cognitive behavioral therapy?
   gold_files:
   - library/ethics-philosophy/stoicism.md
   domain: library
 - qid: g066
-  question: What is epistemology and how do we know things?
+  question: Why does a justified true belief sometimes fail to count as knowledge, and how have philosophers tried to repair that analysis?
   gold_files:
   - library/ethics-philosophy/epistemology.md
   domain: library
 - qid: g067
-  question: What is the free will versus determinism debate?
+  question: If nobody has free will, what happens to retributive punishment, and how would Pereboom's quarantine model replace it?
   gold_files:
   - library/ethics-philosophy/free-will-determinism.md
   domain: library
 - qid: g068
-  question: What is bioethics concerned with?
+  question: Which historical abuses, such as Tuskegee and the Nazi doctors' experiments, led to the Belmont Report and modern human-research rules?
   gold_files:
   - library/ethics-philosophy/bioethics.md
   domain: library
 - qid: g069
-  question: What does the Modigliani-Miller capital structure theory say?
+  question: When does a company's choice between debt and equity actually change its value, despite the Modigliani-Miller irrelevance result?
   gold_files:
   - library/finance/capital-structure-modigliani-miller.md
   domain: library
 - qid: g070
-  question: How does dividend policy and share buybacks work?
+  question: Should an investor be impressed by EPS growth from share buybacks, and why have buybacks overtaken dividends in the US?
   gold_files:
   - library/finance/dividend-policy-and-share-buybacks.md
   domain: library
 - qid: g071
-  question: What is the yield curve and what does it predict?
+  question: How reliable is an inverted yield curve as a recession signal, and which spread does Campbell Harvey prefer?
   gold_files:
   - library/finance/yield-curve.md
   domain: library
 - qid: g072
-  question: How does nuclear deterrence and MAD work in geopolitics?
+  question: In nuclear strategy, why does mutual assured destruction depend on each side keeping a survivable second-strike force?
   gold_files:
   - library/geopolitics/nuclear-deterrence-mad.md
   domain: library
 - qid: g073
-  question: What is the US-China great power competition about?
+  question: Unlike the Cold War, why can't Washington and Beijing fully decouple, and what does de-risking mean in practice?
   gold_files:
   - library/geopolitics/us-china-great-power-competition.md
   domain: library
 - qid: g074
-  question: How do trade wars and economic sanctions work?
+  question: After the freeze of Russia's central bank reserves in 2022, how effective were Western sanctions and did they accelerate de-dollarization?
   gold_files:
   - library/geopolitics/trade-wars-economic-sanctions.md
   domain: library
 - qid: g075
-  question: What is cyber warfare in modern geopolitics?
+  question: Do state-run cyber operations favor attackers over defenders, and what do Stuxnet, NotPetya and the Ukraine war suggest?
   gold_files:
   - library/geopolitics/cyber-warfare.md
   domain: library
 - qid: g076
-  question: How does the immune system work?
+  question: Which enzyme lets B cells sharpen their antibodies' binding strength during an infection, and where in the body does it happen?
   gold_files:
   - library/health-medicine/immune-system.md
   domain: library
 - qid: g077
-  question: What is the science of longevity and healthspan?
+  question: 'Rapamycin versus metformin: which has stronger evidence as an anti-aging drug, and what have human trials shown so far?'
   gold_files:
   - library/health-medicine/longevity-science-healthspan.md
   domain: library
 - qid: g078
-  question: How does vaccine development and immunology work?
+  question: Why have HIV, malaria and tuberculosis resisted effective vaccines when measles and polio were conquered?
   gold_files:
   - library/health-medicine/vaccine-development-immunology.md
   domain: library
 - qid: g079
-  question: What is Warren Buffett's investment philosophy?
+  question: As Berkshire grew from millions to hundreds of billions, how did Buffett's investing style change, and has Berkshire's edge over the S&P 500 faded?
   gold_files:
   - library/investors/warren-buffett.md
   domain: library
 - qid: g080
-  question: What did Benjamin Graham teach about value investing?
+  question: Late in his career, did Graham still think detailed stock-by-stock research was worth the cost, and what simpler approach did he favor?
   gold_files:
   - library/investors/benjamin-graham.md
   domain: library
 - qid: g081
-  question: What are Charlie Munger's mental models?
+  question: How badly did Munger's own investment partnership fall in the mid-1970s bear market, and what does that say about concentrated portfolios?
   gold_files:
   - library/investors/charlie-munger.md
   domain: library
 - qid: g082
-  question: What is Howard Marks's approach to market cycles?
+  question: What did Oaktree do differently before and during the 2008 credit crisis, and how much did it invest after Lehman collapsed?
   gold_files:
   - library/investors/howard-marks.md
   domain: library
 - qid: g083
-  question: What is Ray Dalio's investment framework?
+  question: In Bridgewater's meetings, whose opinions count most, and what tool turns colleagues' real-time ratings into those weights?
   gold_files:
   - library/investors/ray-dalio.md
   domain: library
 - qid: g084
-  question: What is securities regulation about?
+  question: What separates the classical and misappropriation theories of insider trading, and how do pre-arranged 10b5-1 trading plans shield insiders?
   gold_files:
   - library/law-regulation/securities-regulation.md
   domain: library
 - qid: g085
-  question: What is regulatory capture theory?
+  question: Why do regulators end up serving the industries they oversee even when no one is bribed, as with the FAA and Boeing?
   gold_files:
   - library/law-regulation/regulatory-capture-theory.md
   domain: library
 - qid: g086
-  question: How does intellectual property law work?
+  question: Do strong patent laws actually increase innovation, or do they mainly change which industries inventors work in?
   gold_files:
   - library/law-regulation/intellectual-property.md
   domain: library
 - qid: g087
-  question: What drives business cycles?
+  question: Who officially dates US recessions and on what evidence, and how reliable is an inverted yield curve as an early warning?
   gold_files:
   - library/macro-micro/business-cycles.md
   domain: library
 - qid: g088
-  question: What is game theory and strategic interaction?
+  question: Which strategy won Axelrod's iterated prisoner's dilemma tournaments, and what traits made it beat more sophisticated entries?
   gold_files:
   - library/macro-micro/game-theory-strategic-interaction-and-cooperation.md
   domain: library
 - qid: g089
-  question: How does monetary policy and central banking work?
+  question: Through which channels does a central bank rate hike reach borrowing, asset prices and the currency, and how long until it hits inflation?
   gold_files:
   - library/macro-micro/monetary-policy-and-central-banking.md
   domain: library
 - qid: g090
-  question: What is inflation dynamics and what drives it?
+  question: What caused the 2021-2023 US inflation surge, and did tight labor markets play a big role at first?
   gold_files:
   - library/macro-micro/inflation-dynamics.md
   domain: library
 - qid: g091
-  question: What is causal inference in statistics?
+  question: Why can a standard two-way fixed effects difference-in-differences regression mislead when a policy rolls out to different groups at different times?
   gold_files:
   - library/mathematics-statistics/causal-inference.md
   domain: library
 - qid: g092
-  question: What is information theory about?
+  question: Is it possible to send data over a noisy channel with near-zero errors without slowing down, and what sets the maximum rate?
   gold_files:
   - library/mathematics-statistics/information-theory.md
   domain: library
 - qid: g093
-  question: Who was Richard Feynman and what did he contribute?
+  question: What did Feynman mean by cargo cult science, and how did his Challenger O-ring demonstration put that idea into practice?
   gold_files:
   - library/notable-people/richard-feynman.md
   domain: library
 - qid: g094
-  question: Who was Ada Lovelace?
+  question: Was Ada Lovelace really the first computer programmer, or did Babbage write programs for the Analytical Engine before her Bernoulli notes?
   gold_files:
   - library/notable-people/ada-lovelace.md
   domain: library
 - qid: g095
-  question: What are the common cognitive biases?
+  question: Does training people to recognize anchoring, confirmation and hindsight biases actually improve their judgment, and how big is the effect?
   gold_files:
   - library/psychology-behavior/cognitive-biases.md
   domain: library
 - qid: g096
-  question: What is prospect theory in behavioral economics?
+  question: In behavioral economics, why do people buy lottery tickets and insurance at the same time, yet gamble to avoid sure losses?
   gold_files:
   - library/psychology-behavior/prospect-theory.md
   domain: library
 - qid: g097
-  question: What is cognitive dissonance?
+  question: How well do classic cognitive dissonance experiments like the one-dollar lie study and free-choice spreading hold up under modern replication?
   gold_files:
   - library/psychology-behavior/cognitive-dissonance.md
   domain: library
 - qid: g098
-  question: What is the scientific method and falsifiability?
+  question: Which property did Popper say separates science from pseudoscience, and how do Kuhn's paradigm shifts complement that view?
   gold_files:
   - library/science/scientific-method-falsifiability.md
   domain: library
 - qid: g099
-  question: What are the laws of thermodynamics and entropy?
+  question: What resolved the Maxwell's demon paradox, and which experiment showed that erasing one bit of information gives off heat?
   gold_files:
   - library/science/thermodynamics-laws-energy-entropy.md
   domain: library
 - qid: g100
-  question: How do large language models work?
+  question: How did the Chinchilla findings revise Kaplan's scaling laws on balancing model size against training data?
   gold_files:
   - library/technology/large-language-models.md
   domain: library
 - qid: g101
-  question: How does pricing power create and reveal a durable business advantage?
+  question: Which financial test distinguishes genuine pricing power from simple inflation pass-through or a company harvesting a shrinking franchise?
   gold_files:
   - library/business-management-strategy/pricing-strategy-and-pricing-power.md
   domain: library
 - qid: g102
-  question: How does reliability engineering analyze failures and improve systems?
+  question: Why might adding redundant backup components under simple fault-tolerance rules end up reducing a system's overall reliability?
   gold_files:
   - library/engineering-infrastructure/reliability-engineering-failure-analysis.md
   domain: library
 - qid: g103
-  question: How should Porter's Five Forces be used to assess industry structure?
+  question: 'Compare airlines and credit rating agencies: which competitive forces explain why one destroys capital and the other earns fat margins?'
   gold_files:
   - library/industries-sectors/porters-five-forces.md
   domain: library
 - qid: g104
-  question: How does insurance float function as investment capital?
+  question: Is insurance float really cheaper and safer leverage than bank deposits or hedge fund capital, and what keeps it that way?
   gold_files:
   - library/investment-vehicles-fund-structures/insurance-float-as-investment-capital.md
   domain: library
 - qid: g105
-  question: What is state capacity and why does it matter for policy outcomes?
+  question: What is the difference between a government's despotic power and its infrastructural power, and why do strong dictatorships often fail to deliver?
   gold_files:
   - library/political-science-public-policy/state-capacity.md
   domain: library
 - qid: g106
-  question: How do internet culture and memetics shape collective behavior?
+  question: How do platform recommendation algorithms act as an evolutionary selection pressure on memes, favoring outrage over accurate content?
   gold_files:
   - library/pop-culture/internet-culture-memetics.md
   domain: library
 - qid: g107
-  question: How does the Kelly criterion guide position sizing under uncertainty?
+  question: When sizing positions with the Kelly formula, why is betting half the optimal fraction usually wiser than betting the full amount?
   gold_files:
   - library/portfolio-risk-management/kelly-criterion.md
   domain: library
 - qid: g108
-  question: How do decision journals improve judgment and learning?
+  question: What fields should I record before a big decision so that later reviews are not distorted by hindsight and outcome bias?
   gold_files:
   - library/self-improvement/decision-journals.md
   domain: library
 - qid: g109
-  question: What is the demographic transition and how does it change societies?
+  question: Why can a country's population keep growing for decades even after its fertility falls below replacement level?
   gold_files:
   - library/sociology-demography/demographic-transition.md
   domain: library
 - qid: g110
-  question: How does reverse DCF reveal the expectations embedded in a stock price?
+  question: How can I back out the free cash flow growth a stock price already implies, and test how sensitive it is to WACC?
   gold_files:
   - library/valuation-screening/reverse-dcf-and-sensitivity-analysis.md
   domain: library
 - qid: g111
-  question: What is margin of safety and why is it central to value investing?
+  question: What discount to intrinsic value should an investor require for a stable compounder compared with a cyclical or turnaround company?
   gold_files:
   - library/value-investing/margin-of-safety.md
   domain: library
 - qid: g112
-  question: How should managers allocate capital across competing uses?
+  question: Why do conglomerate headquarters often subsidize weak divisions instead of shifting capital to the units with the best investment prospects?
   gold_files:
   - library/business-management-strategy/resource-allocation-and-capital-budgeting.md
   domain: library
 - qid: g113
-  question: How do power generation, transmission, and distribution form an electric grid?
+  question: What happens to grid frequency stability when inverter-based wind and solar replace large spinning generators, and how is it compensated?
   gold_files:
   - library/engineering-infrastructure/power-grid-infrastructure-generation-transmission-distribution.md
   domain: library
 - qid: g114
-  question: How does capital cycle analysis identify attractive industries?
+  question: Why can booming demand in an industry still lead to poor shareholder returns once competitors finance a wave of new capacity?
   gold_files:
   - library/industries-sectors/capital-cycle-analysis.md
   domain: library
 - qid: g115
-  question: Why is Berkshire Hathaway's permanent-capital structure distinctive?
+  question: How does owning Berkshire Hathaway stock differ from holding a mutual fund, ETF or private equity stake when investors want their money out?
   gold_files:
   - library/investment-vehicles-fund-structures/berkshire-hathaway-permanent-capital-conglomerate.md
   domain: library
 - qid: g116
-  question: How should public policy be designed and implemented effectively?
+  question: Which factors make well-funded, politically popular government programs fall apart once they pass into the hands of implementing agencies?
   gold_files:
   - library/political-science-public-policy/public-policy-design-implementation.md
   domain: library
 - qid: g117
-  question: What economic and social consequences follow population aging?
+  question: How do pension design and reliance on family support versus asset income change the fiscal cost of an aging population?
   gold_files:
   - library/sociology-demography/population-aging-social-consequences.md
   domain: library
 - qid: g118
-  question: What creates an economic moat and how can its durability be judged?
+  question: When are high margins and returns on capital evidence of a durable competitive advantage rather than a temporary tailwind competitors will erode?
   gold_files:
   - library/value-investing/economic-moats.md
   domain: library
 - qid: g119
-  question: How do earnings-power and asset-based valuation differ from DCF?
+  question: What does it signal when a company's earnings power value is well above or below the reproduction cost of its assets?
   gold_files:
   - library/valuation-screening/earnings-power-value-and-asset-based-valuation.md
   domain: library
 - qid: g120
-  question: What rules have the highest precedence across the organization?
+  question: When two operational rules in the fleet conflict and neither has a paired gate, which one should an agent follow?
   gold_files:
   - governance/system-constitution.md
   domain: governance
 - qid: g121
-  question: How are the organization repositories and cross-repository links structured?
+  question: Which repositories belong to the Suggi-Workstation GitHub org, and which of them are private rather than public?
   gold_files:
   - governance/system-blueprint.md
   domain: governance
 - qid: g122
-  question: What are the five Prime Directives governing every agent?
+  question: What test, borrowed from Kant, must an agent apply before taking an action that affects another agent or a human?
   gold_files:
   - governance/system-primedirectives.md
   domain: governance
 - qid: g123
-  question: What gates define a valid Library topic?
+  question: How many words must each mandatory section of a new library topic contain, and how many high-authority sources are required?
   gold_files:
   - governance/template-library.md
   domain: governance
 - qid: g124
-  question: What structure and approval gate must a proposal contain?
+  question: Before Suggi signs off on a proposal, what must its impact and approval sections spell out, and how long must they be?
   gold_files:
   - governance/template-proposals.md
   domain: governance
 - qid: g125
-  question: What sections and evidence standards define a research report?
+  question: Does a research report have to document negative results and source retrieval dates, and what else must its methodology include?
   gold_files:
   - governance/template-reports.md
   domain: governance
 - qid: g126
-  question: How must an independent evaluation be structured and verified?
+  question: Can an agent evaluate its own report, and which verdict options and confidence bands are allowed when reviewing another agent's work?
   gold_files:
   - governance/template-evaluations.md
   domain: governance
 - qid: g127
-  question: What turns research into a durable insight artifact?
+  question: Should a living manual of a fleet system or pipeline record its change history, or describe only how it works now?
   gold_files:
   - governance/template-insights.md
   domain: governance
 - qid: g128
-  question: What IOR structure and checks define a valid reflection?
+  question: For an idea-opinion-reflection essay, what filename pattern, trigger values and minimum section lengths are required?
   gold_files:
   - governance/template-reflections.md
   domain: governance
 
 - qid: g134
-  question: What procedure writes one verified Library topic?
+  question: Which queued candidate should be written up next as a new library topic, and what if its assigned domain looks wrong?
   gold_files:
   - governance/skills/library-writer.md
   domain: governance
 - qid: g135
-  question: What procedure reviews and refreshes an existing Library topic?
+  question: When does an existing library topic become due for re-review, and how is the next topic to check chosen across domains?
   gold_files:
   - governance/skills/library-reviewer.md
   domain: governance
 - qid: g136
-  question: How does a VPS agent query the shared Brain index safely?
+  question: If the brain search freshness check returns STALE or NO INDEX, should I rebuild the index myself or do something else?
   gold_files:
   - governance/skills/query-brain-vps.md
   domain: governance
 - qid: g137
-  question: What is the required blank-page-first order of the Feynman loop?
+  question: In what order should an agent dump its own knowledge, list gaps, research and cross-check before writing to the brain?
   gold_files:
   - governance/skills/loop-feynman.md
   domain: governance
 - qid: g138
-  question: How is the Brain hybrid search system designed and operated?
+  question: Why does the fleet's knowledge-base search read index files from local disk rather than querying a hosted search service?
   gold_files:
   - research/insights/brain-search-system.md
   domain: research
 - qid: g139
-  question: What is the architecture and purpose of the Agentic Forge?
+  question: Where should Neo's Forge keep ANCHOR, STATUS, JOURNAL and LEARNINGS, and what separate role does each file play?
   gold_files:
   - research/insights/forge-architecture.md
   domain: research
 - qid: g140
-  question: Why do gold queries require periodic relevance reassessment?
+  question: When the corpus keeps growing, why can single-file gold queries no longer tell real ranking decline from newly relevant documents?
   gold_files:
   - research/insights/gold-query-maintenance-procedure.md
   domain: research
 - qid: g141
-  question: How does the Library pipeline discover, write, and review topics?
+  question: Which mechanism keeps the library's browsable topic indexes current, and how does it mark reviews as overdue even when Librarian is paused?
   gold_files:
   - research/insights/library-system.md
   domain: research
 - qid: g142
-  question: How does the append-only inter-agent logbook work?
+  question: Why did the fleet choose an append-only event log over threaded request-reply messages for agents to communicate asynchronously?
   gold_files:
   - research/insights/logbook.md
   domain: research
 - qid: g143
-  question: How is the fleet Mnemosyne memory system structured?
+  question: How did agents' distilled episodic memories reach the Mnemosyne shared surface, and which kinds of entries were filtered out?
   gold_files:
   - research/insights/mnemosyne-system.md
   domain: research
 - qid: g144
-  question: What does the OpenClaw manual say about Ava's runtime and operations?
+  question: Why do new OpenClaw webchat sessions keep showing high thinking even after thinkingDefault is set to xhigh in the config?
   gold_files:
   - research/insights/openclaw-manual.md
   domain: research
 - qid: g145
-  question: What prompt-engineering principles improve agent output?
+  question: What do Anthropic and OpenAI guides recommend about examples, structure and explaining rules, and how do our bootstrap files and templates apply it?
   gold_files:
   - research/insights/prompt-engineering.md
   domain: research
 - qid: g146
-  question: Why can a search index be alive but stale or incomplete?
+  question: How can a vector memory index report healthy, with files above zero and dirty no, yet still be missing newly written files?
   gold_files:
   - research/insights/stale-index-problem.md
   domain: research
 - qid: g147
-  question: How does one Hermes serve process support multiple profiles?
+  question: What goes wrong if the VPS runs hermes serve or a second backend unit instead of one hermes dashboard for every profile?
   gold_files:
   - research/insights/unified-serve-all-profiles.md
   domain: research
 - qid: g148
-  question: How do the VPS repository clones, watchers, and indexes work together?
+  question: How does the per-minute watcher keep the VPS repository clones, GitHub and their search indexes in sync, including when histories diverge?
   gold_files:
   - research/insights/vps-brainclone-plus-index.md
   domain: research
 - qid: g149
-  question: How is personal workspace search separated from shared Brain search?
+  question: Which fixes beyond the planned config changes were needed when the brain search engine was forked to index agent workspace folders?
   gold_files:
   - research/insights/workspace-search-system.md
   domain: research
 - qid: g150
-  question: Which free global sources can support company financial research?
+  question: Which free data sources can supply five to ten years of company fundamentals for US, EU, Chinese and Indonesian stocks?
   gold_files:
   - research/reports/free-global-financial-data-sources.md
   domain: research
 - qid: g151
-  question: How is Link's Hermes memory system organized?
+  question: What five memory layers did Link run on Hermes, and which recall problem was each layer meant to solve?
   gold_files:
   - research/reports/link-hermes-memory-system.md
   domain: research
 - qid: g152
-  question: How is Ava's OpenClaw memory system organized?
+  question: Compared with Link's Mnemosyne setup, what did Ava's OpenClaw memory stack use for personal search, conversation history and proactive recall?
   gold_files:
   - research/reports/ava-openclaw-memory-system.md
   domain: research
 - qid: g153
-  question: Why was per-agent workspace search proposed instead of one shared index?
+  question: What reasons favour copying the index and query scripts into each agent's workspace instead of importing them from the brain-index folder?
   gold_files:
   - research/proposals/per-agent-workspace-search.md
   domain: research
 - qid: g154
-  question: What was learned from upgrading the Brain embedding model?
+  question: Why was the cross-encoder reranker dropped from the brain index, and how much did the warm embedding daemon cut query latency?
   gold_files:
   - research/reports/brain-index-embedding-upgrade-2026-08-10.md
   domain: research
 - qid: g155
-  question: What security architecture was proposed for OSSEC on the VPS?
+  question: Which host intrusion detection tool fits a single VPS better than Wazuh or AIDE for file integrity monitoring and log correlation?
   gold_files:
   - research/proposals/ossec-security-vps.md
   domain: research
 - qid: g156
-  question: How was harness-engineering research independently evaluated?
+  question: What omissions and overconfident findings were flagged when Ava assessed her own research on harness engineering, and why was that insufficient?
   gold_files:
   - research/evaluations/harness-engineering-evaluation.md
   domain: research
 - qid: g157
-  question: Why must a canonical blueprint stay separate from runtime deployment?
+  question: Should a canonical blueprint for future Researcher and Analyst agents include locks, monitors and cron jobs before deployment is authorized?
   gold_files:
   - reflections/2026-09-01_morpheus_blueprint-is-not-deployment.md
   domain: reflections
 - qid: g158
-  question: Why should new capabilities default to per-entity isolation?
+  question: When designing a capability that serves only one agent, what question should come before reusing the shape of an existing shared tool?
   gold_files:
   - reflections/2026-08-19_morpheus_isolation-is-the-default.md
   domain: reflections
 - qid: g159
-  question: How can a stated limit conceal an avoidable design choice?
+  question: Why were the ClamAV security scans stuck on one CPU core when no nice, taskset or cgroup limit had been configured?
   gold_files:
   - reflections/2026-08-24_morpheus_limits-are-choices-in-disguise.md
   domain: reflections
 - qid: g160
-  question: Why do mechanical gates expose defects that prose tolerates?
+  question: What latent problems surfaced when word-count floors were added to research templates, and why was missing demand evidence disregarded?
   gold_files:
   - reflections/2026-08-23_morpheus_gates-expose-what-prose-tolerates.md
   domain: reflections
 - qid: g161
-  question: Why is an installed component not necessarily active?
+  question: After installing Cognee as a Hermes memory provider, why might it still not be in use, and how is that checked?
   gold_files:
   - reflections/2026-08-01_link_installed-is-not-active.md
   domain: reflections
 - qid: g162
-  question: Why are uninvoked skills effectively dead letters?
+  question: How could reflections ship with missing frontmatter fields and wrong section levels when a skill checklist already covered each mistake?
   gold_files:
   - reflections/2026-07-20_ava_uninvoked-skills-are-dead-letters.md
   domain: reflections
 - qid: g163
-  question: How can a green outcome hide dead instrumentation?
+  question: If GitHub parity stays green, what can still silently break in a sync watcher's logging, and how should agents verify it?
   gold_files:
   - reflections/2026-08-15_morpheus_outcome-masks-instrumentation.md
   domain: reflections
 - qid: g164
-  question: Why should a stateful runtime upgrade be treated as a data migration?
+  question: What does a major in-place OpenClaw upgrade require beyond installing the package and checking the reported version?
   gold_files:
   - reflections/2026-08-31_morpheus_stateful-runtime-upgrade-is-a-data-migration.md
   domain: reflections
 - qid: g165
-  question: Why must verification happen before making a completion claim?
+  question: Before calling a log file stale or a component obsolete, which checks should run so the human is not given a premature verdict?
   gold_files:
   - reflections/2026-08-31_neo_verification-must-precede-the-claim.md
   domain: reflections
