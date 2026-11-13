@@ -1,4 +1,4 @@
-version: '2.0'
+version: '3.0'
 status: provisional-agent-curated
 description: Balanced Brain retrieval benchmark.
 queries:
@@ -728,3 +728,528 @@ queries:
   gold_files:
   - reflections/2026-08-31_neo_verification-must-precede-the-claim.md
   domain: reflections
+- qid: g166
+  question: When does a company buying back its own shares actually create value for remaining owners, and how can option dilution hide the effect?
+  gold_files:
+  - library/value-investing/capital-allocation.md
+  domain: library
+- qid: g167
+  question: How does Frege account for the fact that 'Hesperus is Phosphorus' tells us something new while 'Hesperus is Hesperus' does not?
+  gold_files:
+  - library/ethics-philosophy/philosophy-of-language.md
+  domain: library
+- qid: g168
+  question: Why do GDP and gross domestic income come out different when they should measure the same thing, and should I average them?
+  gold_files:
+  - library/macro-micro/gdp-and-national-accounts-measuring-output-income-and-living-standards.md
+  domain: library
+- qid: g169
+  question: After Schrems II, what still has to be checked before sending EU personal data to a US recipient under standard contractual clauses?
+  gold_files:
+  - library/law-regulation/data-privacy-and-protection-law.md
+  domain: library
+- qid: g170
+  question: 'Which should set an investor''s equity allocation: a risk questionnaire answer, financial capacity, or how they behaved in past crashes?'
+  gold_files:
+  - library/portfolio-risk-management/behavioral-aspects-of-risk-tolerance.md
+  domain: library
+- qid: g171
+  question: What revenue source financed the Meiji state's centralization and industrial promotion while unequal treaties kept Japan's tariffs low?
+  gold_files:
+  - library/history/meiji-restoration-state-building-industrialization-and-imperial-turn.md
+  domain: library
+- qid: g172
+  question: Can a theory that predicts observations accurately still be a poor explanation in David Deutsch's view, and what criterion does he use instead?
+  gold_files:
+  - library/books/the-beginning-of-infinity-deutsch-explanations-progress-fallibilism.md
+  domain: library
+- qid: g173
+  question: How do VC dimension, Rademacher complexity, stability and PAC-Bayes bounds compare at explaining why overparameterized neural networks generalize?
+  gold_files:
+  - library/mathematics-statistics/statistical-learning-theory.md
+  domain: library
+- qid: g174
+  question: Does letting high school students use ChatGPT for math practice hurt their performance once the AI is taken away?
+  gold_files:
+  - library/education-learning/educational-technology-and-adaptive-learning.md
+  domain: library
+- qid: g175
+  question: When a customer is also a vendor, what tests show whether the reciprocal sale is real revenue or the company's own cash coming back?
+  gold_files:
+  - library/accounting-financial-shenanigans/round-tripping-and-reciprocal-transactions.md
+  domain: library
+- qid: g176
+  question: Does melting Arctic sea ice raise global sea level, and if not, why do floating ice shelves still matter?
+  gold_files:
+  - library/earth-climate/cryosphere-and-sea-level-change.md
+  domain: library
+- qid: g177
+  question: In what order do church attendance, personal importance of religion, and formal affiliation decline as societies secularize?
+  gold_files:
+  - library/sociology-demography/sociology-of-religion.md
+  domain: library
+- qid: g178
+  question: What evidence beyond DNA sequencing is needed to show that a microbe is actually active and driving a nutrient cycle?
+  gold_files:
+  - library/science/microbiology-and-the-microbial-world.md
+  domain: library
+- qid: g179
+  question: Which refinery disasters showed that safeguards credited in hazard studies and low injury rates can mask catastrophic process risk?
+  gold_files:
+  - library/engineering-infrastructure/process-safety-management-and-hazard-analysis.md
+  domain: library
+- qid: g180
+  question: Is a high BLEU or COMET score enough to sign off a machine translation of medical or legal text?
+  gold_files:
+  - library/communication/translation-and-cross-cultural-communication.md
+  domain: library
+- qid: g181
+  question: Why did Silicon Valley Bank collapse in 2023 when its securities were mostly safe government and agency bonds?
+  gold_files:
+  - library/case-studies/silicon-valley-bank-2023-failure.md
+  domain: library
+- qid: g182
+  question: 'Compare passive tower sharing with active radio and spectrum sharing between mobile operators: how large are the cost savings and competition risks?'
+  gold_files:
+  - library/industries-sectors/telecommunications-industry-economics.md
+  domain: library
+- qid: g183
+  question: How do audiences of reality shows decide whether cast members are sincere while still believing scenes were manipulated in editing?
+  gold_files:
+  - library/pop-culture/reality-television-and-the-performance-of-authenticity.md
+  domain: library
+- qid: g184
+  question: Should the drop in Scutari hospital deaths during the Crimean War be credited mainly to Florence Nightingale, or to other reforms?
+  gold_files:
+  - library/notable-people/florence-nightingale-data-institutions-modern-nursing.md
+  domain: library
+- qid: g185
+  question: What limits does an SBOM have for vulnerability response, and how do SLSA provenance and VEX statements complement it?
+  gold_files:
+  - library/technology/software-supply-chain-security-and-sboms.md
+  domain: library
+- qid: g186
+  question: In a sum-of-the-parts valuation, how should corporate overhead, parent debt and minority interests be counted to avoid double counting?
+  gold_files:
+  - library/valuation-screening/sum-of-the-parts-valuation.md
+  domain: library
+- qid: g187
+  question: Which ethnographic cases show informal work, water access and self-built housing shaping who gets recognized as a legitimate city resident?
+  gold_files:
+  - library/anthropology/urban-anthropology-informal-institutions-space-and-everyday-power.md
+  domain: library
+- qid: g188
+  question: 'Compare the Brier score and logarithmic loss: when do they rank forecasters differently, and how should one be chosen?'
+  gold_files:
+  - library/probabilistic-thinking-forecasting/forecast-evaluation-and-scoring-rules.md
+  domain: library
+- qid: g189
+  question: What protection do subordination, overcollateralization, excess spread and reserve accounts give senior noteholders in an asset-backed deal, and how can each fail?
+  gold_files:
+  - library/finance/securitization-and-structured-finance.md
+  domain: library
+- qid: g190
+  question: When is it worth paying an extra layer of fees to a private equity fund of funds instead of investing directly?
+  gold_files:
+  - library/investment-vehicles-fund-structures/fund-of-funds-structures-and-fee-layering.md
+  domain: library
+- qid: g191
+  question: Why can attacks or drought at a strait or canal disrupt trade without ever physically closing it, as in Suez and Panama?
+  gold_files:
+  - library/geopolitics/maritime-chokepoints-and-sea-lane-security.md
+  domain: library
+- qid: g192
+  question: Does being more numerate or scientifically literate reduce partisan polarization over climate risk, or can it increase it?
+  gold_files:
+  - library/psychology-behavior/motivated-reasoning-and-identity-protective-cognition.md
+  domain: library
+- qid: g193
+  question: How are proposed library topics weighted and scored during discovery versus writing, and what minimum score allows writing?
+  gold_files:
+  - library/guide-library.md
+  domain: library
+- qid: g194
+  question: If an agent crashes after calling a payment API but before saving the result, how can recovery avoid charging the customer twice?
+  gold_files:
+  - library/coding-agentic-ai/durable-agent-execution-checkpointing-idempotency-and-recovery-across-failures.md
+  domain: library
+- qid: g195
+  question: How did Jack Bogle's firing from Wellington Management lead him to design Vanguard's fund-owned structure?
+  gold_files:
+  - library/investors/john-c-bogle-low-cost-indexing-mutual-ownership-fiduciary-reform.md
+  domain: library
+- qid: g196
+  question: Does generating several low-fidelity prototypes in parallel before getting feedback produce better creative results than refining one idea?
+  gold_files:
+  - library/self-improvement/creative-practice.md
+  domain: library
+- qid: g197
+  question: What keeps internal best practices from transferring between units of the same firm, even when staff are willing to share?
+  gold_files:
+  - library/business-management-strategy/organizational-learning-and-knowledge-management.md
+  domain: library
+- qid: g198
+  question: To what extent did journal publications overstate antidepressant efficacy compared with the trial data submitted to the FDA?
+  gold_files:
+  - library/health-medicine/clinical-trials-and-evidence-based-medicine.md
+  domain: library
+- qid: g199
+  question: Why might hidden benefits like tax expenditures fail to create a constituency that defends the program, unlike Social Security?
+  gold_files:
+  - library/political-science-public-policy/policy-feedback-public-programs-and-future-politics.md
+  domain: library
+- qid: g200
+  question: When Berkshire Hathaway dropped its book-value ceiling on buybacks, what replaced it and how much was repurchased afterwards?
+  gold_files:
+  - library/value-investing/berkshire-annual-reports-2016-2025.md
+  domain: library
+- qid: g201
+  question: How should I break down and test an everyday argument, from finding hidden premises to checking validity with a countermodel?
+  gold_files:
+  - library/ethics-philosophy/logic-and-critical-thinking.md
+  domain: library
+- qid: g202
+  question: What besides genuine technological progress can show up in the Solow residual when economists measure total factor productivity?
+  gold_files:
+  - library/macro-micro/productivity-measurement-and-economic-growth.md
+  domain: library
+- qid: g203
+  question: In what ways do the EU Digital Markets Act and UK strategic market status rules differ from Sherman Act monopolization cases against platforms?
+  gold_files:
+  - library/law-regulation/antitrust-law-and-digital-markets.md
+  domain: library
+- qid: g204
+  question: Which scenario types should a portfolio stress test combine, and how should margin calls and investor redemptions enter the analysis?
+  gold_files:
+  - library/portfolio-risk-management/portfolio-stress-testing-and-scenario-analysis.md
+  domain: library
+- qid: g205
+  question: How did Britain, the United States and Brazil differ in ending slavery after banning the slave trade, including apprenticeship and owner compensation?
+  gold_files:
+  - library/history/transatlantic-slave-trade-and-abolition.md
+  domain: library
+- qid: g206
+  question: What did Kuhn mean by normal science, and why did he later separate the paradigm concept into disciplinary matrices and exemplars?
+  gold_files:
+  - library/books/the-structure-of-scientific-revolutions.md
+  domain: library
+- qid: g207
+  question: Under what conditions are differentiation and integration inverse operations, and why can a definite integral exist without an elementary antiderivative?
+  gold_files:
+  - library/mathematics-statistics/calculus-limits-derivatives-integrals-and-the-mathematics-of-change.md
+  domain: library
+- qid: g208
+  question: Is systematic phonics enough to teach children to read, or do vocabulary, background knowledge and fluency practice also need explicit instruction?
+  gold_files:
+  - library/education-learning/reading-acquisition-and-literacy-instruction.md
+  domain: library
+- qid: g209
+  question: How can a high expected return on pension plan assets reduce reported pension expense even in a year when the plan's investments lost money?
+  gold_files:
+  - library/accounting-financial-shenanigans/pension-accounting-assumptions.md
+  domain: library
+- qid: g210
+  question: When attribution scientists say climate change doubled the odds of a heatwave, what does that risk ratio mean and what does it not imply?
+  gold_files:
+  - library/earth-climate/climate-detection-and-attribution-separating-human-and-natural-causes.md
+  domain: library
+- qid: g211
+  question: Why could selecting a named local profile in the Hermes desktop app still route chats to the remote gateway despite correct saved preferences?
+  gold_files:
+  - reflections/2026-09-17_morpheus_correct-settings-do-not-prove-transitions.md
+  domain: reflections
+- qid: g212
+  question: Should a research cycle only count as complete when it produces a new knowledge file, or can confirming an existing note suffice?
+  gold_files:
+  - reflections/2026-09-15_neo_learning-is-not-a-file-quota.md
+  domain: reflections
+- qid: g213
+  question: What can a plugin update checker saying up to date, or a shared memory model marked fresh, fail to show about the live runtime?
+  gold_files:
+  - reflections/2026-10-19_morpheus_a-description-of-the-system-is-a-claim-to-check.md
+  domain: reflections
+- qid: g214
+  question: After a two-week pause, why did the Library trial script halt when Hermes began writing missed placeholder rows to the run ledger?
+  gold_files:
+  - reflections/2026-11-08_morpheus_last-weeks-knowledge-is-a-claim-about-this-week.md
+  domain: reflections
+- qid: g215
+  question: Does attaching a shared research skill to every recurring Library job prove the agents actually applied its source retrieval steps?
+  gold_files:
+  - reflections/2026-09-23_morpheus_preloading-proves-exposure-not-application.md
+  domain: reflections
+- qid: g216
+  question: Why did agents never write to the shared memory bank, and what kind of session-end step fixes that without filling it with noise?
+  gold_files:
+  - reflections/2026-10-03_morpheus_a-capability-without-a-trigger-goes-unused.md
+  domain: reflections
+- qid: g217
+  question: When a recurring portfolio briefing runs too long, should I shorten the report or cap the discovery, and how does learning capture fit in?
+  gold_files:
+  - reflections/2026-09-23_neo_bound-research-not-completion.md
+  domain: reflections
+- qid: g218
+  question: How do I know when it is safe to remove the systemd drop-in workaround for the Desktop app's WebSocket origin 403 error?
+  gold_files:
+  - reflections/2026-10-01_morpheus_a-workaround-ends-where-its-cause-lives.md
+  domain: reflections
+- qid: g219
+  question: If a Library reviewer run publishes cleanly through the commit helper, does that mean the reviewed topics actually meet the template and source standards?
+  gold_files:
+  - reflections/2026-09-09_morpheus_safe-publication-does-not-certify-knowledge.md
+  domain: reflections
+- qid: g220
+  question: Should a lesson that applies across many kinds of work go into AGENTS.md or into individual skills, given the WA-2 workaround mistake?
+  gold_files:
+  - reflections/2026-10-08_morpheus_a-lesson-binds-where-it-is-read-not-where-it-was-learned.md
+  domain: reflections
+- qid: g221
+  question: How can rising EPS or a strong company-wide return coexist with a worse result for shareholders, and how should I test for it?
+  gold_files:
+  - reflections/2026-09-14_neo_better-indicators-can-hide-worse-owner-outcomes.md
+  domain: reflections
+- qid: g222
+  question: Why did Hindsight recall still surface an obsolete observation first even after switching to observation-only recall with the BGE and MiniLM rerankers?
+  gold_files:
+  - reflections/2026-09-12_morpheus_consolidated-memory-still-needs-a-current-truth-check.md
+  domain: reflections
+- qid: g223
+  question: When Suggi asks for framework-informed research on a company like ASML but no valuation, which outputs should Neo skip?
+  gold_files:
+  - reflections/2026-09-23_neo_scope-before-workflow.md
+  domain: reflections
+- qid: g224
+  question: Cassandra kept a run ledger for her research cycles, so why did her final report still list too few abstract-only sources?
+  gold_files:
+  - reflections/2026-10-06_cassandra_a-ledger-protects-only-the-numbers-you-query-from-it.md
+  domain: reflections
+- qid: g225
+  question: What did the first live test of the Library reviewer's domain-first backlog selection show, and why did it fail to publish?
+  gold_files:
+  - reflections/2026-09-14_morpheus_coverage-needs-a-selection-order.md
+  domain: reflections
+- qid: g226
+  question: Should the Library guide document both temporary-directory locations that cleanup permissions allow, or only the runtime's normal scratch path?
+  gold_files:
+  - reflections/2026-09-20_morpheus_compatibility-permission-is-not-workflow-guidance.md
+  domain: reflections
+- qid: g227
+  question: When an automated play-tester bot reports a boss is too hard, how do I tell whether the game or the bot changed?
+  gold_files:
+  - reflections/2026-10-21_atlas_a-play-test-bot-measures-itself-first.md
+  domain: reflections
+- qid: g228
+  question: How should I gauge Suggi's taste for creative work like films or character names before committing to an expensive final render?
+  gold_files:
+  - reflections/2026-11-13_atlas_taste-is-read-from-picks-and-cheap-samples.md
+  domain: reflections
+- qid: g229
+  question: Why did reflection sections cluster just above the 400-word minimum, and why was the Feynman blank page step being skipped?
+  gold_files:
+  - reflections/2026-10-04_morpheus_a-procedure-is-followed-as-far-as-its-steps-can-be-seen.md
+  domain: reflections
+- qid: g230
+  question: What made restarting one Hermes backend after the v0.22.5 update take down the other backend and Suggi's chat?
+  gold_files:
+  - reflections/2026-10-28_morpheus_an-action-is-only-as-safe-as-the-assumptions-it-checks.md
+  domain: reflections
+- qid: g231
+  question: Which defects slip through when a new agent is built by copying a sibling's files, and how should copies be tested?
+  gold_files:
+  - reflections/2026-10-04_morpheus_agreement-among-copies-proves-only-a-shared-origin.md
+  domain: reflections
+- qid: g232
+  question: What is wrong with adding a classifier and outbox to share memories, and why keep source records behind consolidated observations?
+  gold_files:
+  - reflections/2026-09-11_morpheus_memory-needs-evidence-not-another-owner.md
+  domain: reflections
+- qid: g233
+  question: During Neo's knowledge-file rework, how did a note get committed even though its strict evidence check had failed?
+  gold_files:
+  - reflections/2026-10-05_neo_a-gate-passes-only-what-it-actually-reads.md
+  domain: reflections
+- qid: g234
+  question: How do I confirm user chats really go through a newly installed provider plugin instead of a built-in provider that shares the sign-in?
+  gold_files:
+  - reflections/2026-09-29_morpheus_a-check-proves-only-what-it-could-catch.md
+  domain: reflections
+- qid: g235
+  question: Does Li Lu's big gain on BYD show it is a wonderful business in Buffett and Munger's sense?
+  gold_files:
+  - reflections/2026-10-03_neo_a-great-investment-is-not-evidence-of-a-wonderful-business.md
+  domain: reflections
+- qid: g236
+  question: Can evidence_check.py catch a sentence that paraphrases a source more strongly than the quoted passage actually supports?
+  gold_files:
+  - reflections/2026-10-04_cassandra_quote-checks-prove-words-exist-not-that-claims-follow.md
+  domain: reflections
+- qid: g237
+  question: Should Cassandra's frameworks all follow one section template, or should their structure vary with the kind of idea each explains?
+  gold_files:
+  - reflections/2026-10-07_cassandra_a-shared-form-is-a-default-nobody-chose.md
+  domain: reflections
+- qid: g238
+  question: In investing knowledge notes, which words in a cited sentence are most likely to be unsupported, and how should they be checked?
+  gold_files:
+  - reflections/2026-10-07_neo_a-sourced-sentence-fails-at-its-connectives-not-its-facts.md
+  domain: reflections
+- qid: g239
+  question: Why can a regex count over a correction ledger still put wrong numbers into a report, and what fixes it?
+  gold_files:
+  - reflections/2026-10-07_cassandra_a-count-derived-from-the-record-is-a-new-claim.md
+  domain: reflections
+- qid: g240
+  question: If Neo's investing-learning loop runs successfully by hand inside a conversation, does that prove the paused scheduled job will work?
+  gold_files:
+  - reflections/2026-09-24_neo_rehearsal-is-not-scheduled-operation.md
+  domain: reflections
+- qid: g241
+  question: Compared with CrewAI's crews and flows, what does our logbook, cron and template setup lack, and is adopting the framework worthwhile?
+  gold_files:
+  - research/proposals/crewai-agenticbrain.md
+  domain: research
+- qid: g242
+  question: What order do proposals, reports, evaluations and insights move through, and who can change a proposal's status?
+  gold_files:
+  - research/README.md
+  domain: research
+- qid: g243
+  question: How should a panel of agents that share one model vote on Suggi's questions so their agreement means something?
+  gold_files:
+  - research/insights/council-of-five.md
+  domain: research
+- qid: g244
+  question: Which extraction failures showed up when the PDF skill was tested on Prosus, ASML, Nintendo and Citigroup annual reports and slides?
+  gold_files:
+  - research/reports/pdf-extraction-company-field-test.md
+  domain: research
+- qid: g245
+  question: Why was Link's design for adding a logbook read to Ava's preflight judged better than Ava's own parallel version?
+  gold_files:
+  - research/evaluations/ava-preflight-logging-eval.md
+  domain: research
+- qid: g246
+  question: What acceptance criteria were set for the first trial run of the library auditor cron, including verdict thresholds and quarantine?
+  gold_files:
+  - research/proposals/library-auditor-test.md
+  domain: research
+- qid: g247
+  question: Why do the Hermes profiles use a named scope:private observation scope instead of the shared keyword in their Hindsight config?
+  gold_files:
+  - research/insights/hindsight-system.md
+  domain: research
+- qid: g248
+  question: Did the revised PDF extraction instructions actually improve OCR accuracy when retested on Berkshire, Toyota, Rio Tinto and JPMorgan filings?
+  gold_files:
+  - research/reports/pdf-extraction-updated-skill-retest.md
+  domain: research
+- qid: g249
+  question: Why did the first four writer-produced library topics end up with inconsistent section order and misplaced Writer Scoring?
+  gold_files:
+  - research/evaluations/ava-library-format-evaluation.md
+  domain: research
+- qid: g250
+  question: What made Ava's queue.log entries go unpushed when no brain files were written, and how should the fix be verified?
+  gold_files:
+  - research/proposals/ava-logbook-session-end-fixes.md
+  domain: research
+- qid: g251
+  question: Where do the Docling, OCRmyPDF and PyMuPDF4LLM environments live on the VPS, and why are they kept separate from Hermes?
+  gold_files:
+  - research/insights/pdf-extraction-tools.md
+  domain: research
+- qid: g252
+  question: Does raising OCRmyPDF oversampling to 300 or 400 fix the JPMorgan proxy salary errors without corrupting other rows?
+  gold_files:
+  - research/reports/pdf-extraction-round3-field-test.md
+  domain: research
+- qid: g253
+  question: Is labelling the Workspace item next to its number enough to keep Ava's session-end cross-reference from breaking after renumbering?
+  gold_files:
+  - research/evaluations/ava-review-link-logbook-fixes.md
+  domain: research
+- qid: g254
+  question: Which of the five harness engineering layers was the fleet missing, and what three-phase plan was first proposed to fill them?
+  gold_files:
+  - research/proposals/harness-engineering-proposal.md
+  domain: research
+- qid: g255
+  question: How does OpenClaw's memory_search combine BM25 keyword matching with vector embeddings, and what happens when its index breaks?
+  gold_files:
+  - research/insights/memory-search.md
+  domain: research
+- qid: g256
+  question: Should we adopt CrewAI to orchestrate Ava and Link, and is its free tier usable for automated GitHub pipelines?
+  gold_files:
+  - research/reports/crewai-integration-assessment.md
+  domain: research
+- qid: g257
+  question: Which omissions, such as iterative DPO or multi-agent debate loops, did the self-review of the loop engineering research find?
+  gold_files:
+  - research/evaluations/loop-engineering-evaluation.md
+  domain: research
+- qid: g258
+  question: How can the library writer and discoverer crons avoid overwriting each other's commits when their pushes to the brain overlap?
+  gold_files:
+  - research/proposals/safe-push-retry-library-skills.md
+  domain: research
+- qid: g259
+  question: Which Tesseract page segmentation mode fits a whole page, a cropped block, a single line, or scattered chart labels?
+  gold_files:
+  - governance/skills/pdf-extraction.md
+  domain: governance
+- qid: g260
+  question: Under the older eight evaluation quality gates, why did reviewers have to state their criteria before writing any findings?
+  gold_files:
+  - governance/archive/template-evaluations-old.md
+  domain: governance
+- qid: g261
+  question: After committing to a watcher-synced repository clone on the VPS, how do I confirm the commit reached origin/main without pushing myself?
+  gold_files:
+  - governance/skills/repo-write-vps.md
+  domain: governance
+- qid: g262
+  question: In the earlier proposal format, how long was the problem statement supposed to be and what seven gates applied?
+  gold_files:
+  - governance/archive/template-proposals-old.md
+  domain: governance
+- qid: g263
+  question: Which repository and query skill should I search for a specific company's valuation versus a general investing concept?
+  gold_files:
+  - governance/skills/repo-search.md
+  domain: governance
+- qid: g264
+  question: Why were the minimum word counts for library topic Core Concepts, Evidence and Implications sections lowered from 750, 500 and 500?
+  gold_files:
+  - governance/archive/template-library-old.md
+  domain: governance
+- qid: g265
+  question: How does an agent on its own machine search the agentic-brain with a local index and handle a STALE freshness result?
+  gold_files:
+  - governance/skills/external/query-brain.md
+  domain: governance
+- qid: g266
+  question: Did insights once have to state their lesson in one quotable sentence and include counter-evidence showing how they could be falsified?
+  gold_files:
+  - governance/archive/template-insights-old.md
+  domain: governance
+- qid: g267
+  question: When discovering new library topics, how is domain balance scored and what happens once the candidate queue is full?
+  gold_files:
+  - governance/skills/library-discoverer.md
+  domain: governance
+- qid: g268
+  question: How many words did each Idea, Opinion and Reflection section need, and how much session effort could the Schoen Loop take?
+  gold_files:
+  - governance/archive/template-reflections-old.md
+  domain: governance
+- qid: g269
+  question: How should an agent outside the fleet server submit a new proposal to the agentic-brain using its own fork?
+  gold_files:
+  - governance/skills/external/write-proposal.md
+  domain: governance
+- qid: g270
+  question: Under the original report rules, what independent review record was required before a report stopped being treated as a draft?
+  gold_files:
+  - governance/archive/template-reports-old.md
+  domain: governance
