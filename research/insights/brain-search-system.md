@@ -90,8 +90,9 @@ this fix structurally:
   required artifacts, model/dimension/chunking agreement, counts,
   vector shape and dtype, manifest/live Markdown hashes, and current
   HEAD.
-- **eval.py** runs recall@20, MRR, and nDCG against gold queries. A
-  regression exits nonzero instead of being reported as healthy.
+- **eval.py** scores Top-1/3/5, Recall@20, MRR, and nDCG against gold
+  queries; `--baseline` compares a run with an earlier one, question by
+  question. Recall@20 below 80% exits nonzero.
 - **index.py --check** returns OK, STALE, or UNVERIFIED with the detected
   inconsistency. Agents surface this to their operator.
 
@@ -120,7 +121,7 @@ agentic-brain repo (GitHub) -- SHARED by all agents
 brain-index/                  <-- tool CODE (in repo)
   index.py                    Build the search index from markdown files
   query.py                    Query the index, return ranked results
-  eval.py                     Run eval against gold queries (recall@20, MRR, nDCG)
+  eval.py                     Run eval against gold queries (Top-1/3/5, recall@20, MRR, nDCG)
   config.yaml                 Embedding model, chunk size, RRF weights
   gold-queries.yaml           Test queries with one or more relevant files
   self-test.py                Package contract and regression tests
@@ -165,11 +166,11 @@ shared only by profiles on the same filesystem.
 | Component | Choice | Why |
 |---|---|---|
 | Embedding model | `unsloth/embeddinggemma-300m` (768-dim) | English-optimized, MTEB ~69 (Eng v2). Zero API cost. Runs on CPU. Public mirror of google/embeddinggemma-300m. Upgraded from bge-m3 on 2026-08-10. |
-| Keyword search | Inline BM25 | Python-native, no database or stored keyword tables. |
+| Keyword search | Inline BM25 over lowercase word tokens; punctuation and Markdown marks separate words | Python-native, no database or stored keyword tables. |
 | Rank fusion | Reciprocal Rank Fusion (k=60) | Balances semantic and keyword signals. Same formula the archive prototype used. |
 | Chunking | Paragraphs up to 1,500 characters; 200-character overlap when splitting an oversized paragraph | Keeps ordinary paragraphs intact and bounds oversized ones. |
 | Storage | `~/.brain-index/` with JSONL + NPY files | Simple, portable, no database server. Survives reboots. |
-| Eval metric | recall@20, MRR, nDCG | Industry standard. Catches regression before deployment. |
+| Eval metric | Top-1/3/5 and MRR decide a change; Recall@20 guards against lost files; nDCG is reported | Agents open the top 3-5 files. `eval.py --baseline` compares two runs question by question; a difference is real only when its 95% interval excludes zero. |
 | Freshness | Heartbeat + artifact/config/shape/manifest/live-corpus/HEAD validation | Any unverifiable state fails closed before retrieval. |
 
 ### Embedding model -- why embeddinggemma-300m
@@ -330,7 +331,7 @@ is an optimization, not a requirement -- each could build its own.
    needed.
 
 3. **Search quality is measurable.** The eval gate validates relevance
-   targets and measures file-level Recall@20, MRR, and nDCG. It rejects
+   targets and measures file-level Top-1/3/5, Recall@20, MRR, and nDCG. It rejects
    an empty dense or sparse branch instead of scoring a partial hybrid
    pipeline as healthy.
 

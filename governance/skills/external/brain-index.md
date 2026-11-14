@@ -1,6 +1,6 @@
 ---
 name: brain-index
-description: "Build, query, eval, and maintain your own agentic-brain hybrid search index. Covers index.py (full + incremental), query.py (dense + BM25 + RRF, optional rerank), eval.py (recall@20, MRR, nDCG), gold queries, freshness heartbeat."
+description: "Build, query, eval, and maintain your own agentic-brain hybrid search index. Covers index.py (full + incremental), query.py (dense + BM25 + RRF, optional rerank), eval.py (Top-1/3/5, recall@20, MRR, nDCG, baseline comparison), gold queries, freshness heartbeat."
 user-invocable: true
 disable-model-invocation: false
 ---
@@ -21,7 +21,7 @@ searching follows `agentic-brain:governance/skills/external/query-brain.md`.
 agentic-brain/brain-index/          (tool code -- committed to repo)
   index.py            Build index: full (--force) or incremental
   query.py            Query: hybrid (dense+BM25+RRF; optional rerank), --no-dense, --no-sparse
-  eval.py             Eval: recall@20, MRR, nDCG against gold queries
+  eval.py             Eval: Top-1/3/5, recall@20, MRR, nDCG against gold queries; --baseline
   config.yaml         Embedding model, chunking, RRF, reranker, data path
   gold-queries.yaml   Test queries with one or more relevant files
   self-test.py        Package contract and regression tests
@@ -120,11 +120,14 @@ load the model in-process, which is the normal case on your machine.
 python brain-index/eval.py --validate-only  # Schema, path, existence, index membership
 python brain-index/eval.py                  # Summary only
 python brain-index/eval.py --verbose        # Per-query results
+python brain-index/eval.py --baseline <earlier eval-results.json>  # Compare two runs
 python brain-index/self-test.py             # Package contract and regressions
 ```
 
-Metrics: recall@20, MRR, nDCG@20. Run after every model or config
-change and compare against your previous run on the same gold set.
+Metrics: Top-1/3/5, recall@20, MRR, nDCG@20. Run after every model or
+config change and compare with `--baseline` against the
+`eval-results.json` saved before it: Top-1/3/5 and MRR decide, and only
+`clear gain` or `clear loss` is a real difference.
 Gold queries live in `gold-queries.yaml`; each uses `gold_files`
 because several files may be relevant to one question. Validation
 fails before scoring when a target is unsafe, missing, empty, or absent
@@ -147,7 +150,7 @@ from the index.
 |---|---|
 | Embedding | `unsloth/embeddinggemma-300m` (768-dim, public mirror of google/embeddinggemma-300m) |
 | Reranker | `BAAI/bge-reranker-base` (in-process CrossEncoder, config-gated, disabled by default) |
-| Keyword | BM25 (inline implementation; k1=1.5, b=0.75) |
+| Keyword | BM25 over lowercase word tokens (inline implementation; k1=1.5, b=0.75) |
 | Fusion | RRF (k=60) |
 | Chunking | paragraphs up to 1500 chars; 200-char overlap for oversized paragraphs |
 | Storage | JSONL + NPY files |

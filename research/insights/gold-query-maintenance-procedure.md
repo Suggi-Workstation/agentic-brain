@@ -147,8 +147,11 @@ The three repository evaluators now implement the same file-level gate:
 - Run dense and BM25 retrieval independently and fail if either branch
   is empty; a single-modality result cannot masquerade as hybrid health.
 - Fuse with the configured RRF value, deduplicate by file before the
-  final result limit, and compute Recall@20, MRR, and nDCG over file
-  relevance rather than duplicate chunks.
+  final result limit, and compute Top-1/3/5, Recall@20, MRR, and nDCG
+  over file relevance rather than duplicate chunks.
+- With `--baseline <earlier eval-results.json>`, compare two runs
+  question by question: the MRR difference, its 95% interval, and the
+  verdict `clear gain`, `clear loss` or `no clear difference`.
 
 Gold questions remain offline test data. They do not train, expand, or
 rank live queries.

@@ -10,7 +10,7 @@ disable-model-invocation: false
 ## Purpose
 
 Searches `agentic-forge` with the watcher-maintained VPS index. The engine runs
-EmbeddingGemma semantic search and BM25 keyword search in parallel, combines
+embedding-based semantic search and BM25 keyword search in parallel, combines
 them with Reciprocal Rank Fusion (RRF), and returns one ranked result per file.
 The agent reads the best files for full context.
 
@@ -103,11 +103,15 @@ cd /srv/forge/agentic-forge
 env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/index.py --check
 env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/eval.py --validate-only
 env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/eval.py --verbose
+env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/eval.py --baseline <earlier eval-results.json>
 env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/self-test.py
 ```
 
 Run evaluation after model, chunking, fusion, or ranking changes and when the
 corpus grows materially. Relevance judgments may name multiple `gold_files`.
+Judge a change with `--baseline` against the `eval-results.json` saved before
+it: Top-1/3/5 and MRR decide, and only `clear gain` or `clear loss` is a real
+difference.
 
 ## Hard Gate
 
