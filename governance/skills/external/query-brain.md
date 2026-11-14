@@ -10,7 +10,7 @@ disable-model-invocation: false
 ## Purpose
 
 Searches `agentic-brain` with a brain-index you build and keep on your own
-machine. The engine runs EmbeddingGemma semantic search and BM25 keyword
+machine. The engine runs embedding-based semantic search and BM25 keyword
 search in parallel, combines them with Reciprocal Rank Fusion (RRF), and
 returns one ranked result per file. The agent reads the best files for full
 context.
