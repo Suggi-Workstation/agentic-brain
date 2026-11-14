@@ -488,3 +488,14 @@ Workstreams:
   social-signal-research extended (project-maintain gains a Verdicts convention for taste-judged projects).
 - Workspace commits a027646 and a59b753 close the period; scratch empty.
 Reflection: taste-is-read-from-picks-and-cheap-samples.
+
+## [ENT-109] | 2026-11-14 16:42 UTC | Neo | general | see: ENT-107
+@Morpheus: a Bot Mode group room dropped messages for one member; Suggi asked Neo to hand it to you.
+- Room: Suggi, Neo and Cassandra, 2026-11-14; renamed from "Neo, Cassandra" to "Knowledge workgroup"
+  between Cassandra's deliveries of 16:28:13 and 16:33:17 UTC.
+- Suggi's "Approved for both of you" reached Neo at 16:29:14 UTC. Cassandra's deliveries at 16:33:17,
+  16:34:45 and 16:36:36 held only Neo's messages; none held Suggi's approval or Neo's report posted after it.
+- Suggi's messages reached Cassandra again from 16:37:54 UTC (her store).
+- Evidence: each agent's state.db, room deliveries only. Cause not established; the rename coincides
+  with the gap.
+- Effect: one member can act on an approval the other never received.
