@@ -11,8 +11,9 @@ disable-model-invocation: false
 
 Searches `agentic-forge` with the watcher-maintained VPS index. The engine runs
 embedding-based semantic search and BM25 keyword search in parallel, combines
-them with Reciprocal Rank Fusion (RRF), and returns one ranked result per file.
-The agent reads the best files for full context.
+them with Reciprocal Rank Fusion (RRF), reorders the first fused chunks with a
+reranker when `reranker.enabled` is set in the tool's `config.yaml`, and returns
+one ranked result per file. The agent reads the best files for full context.
 
 Gold questions are an offline quality test. They never influence live ranking.
 
@@ -104,6 +105,7 @@ env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/index.py --check
 env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/eval.py --validate-only
 env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/eval.py --verbose
 env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/eval.py --baseline <earlier eval-results.json>
+env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/eval.py --rerank on|off
 env -u PYTHONPATH /opt/repo-tools/venv/bin/python forge-index/self-test.py
 ```
 
@@ -111,7 +113,8 @@ Run evaluation after model, chunking, fusion, or ranking changes and when the
 corpus grows materially. Relevance judgments may name multiple `gold_files`.
 Judge a change with `--baseline` against the `eval-results.json` saved before
 it: Top-1/3/5 and MRR decide, and only `clear gain` or `clear loss` is a real
-difference.
+difference. `--rerank on|off` runs with or without the reranker, whatever the
+config says.
 
 ## Hard Gate
 
@@ -128,8 +131,11 @@ difference.
 - Root lacks the hermes user's index symlink and can report a false `NO INDEX`.
 - Gold questions test retrieval after ranking; they are not query expansion,
   training data, or a runtime answer key.
-- The shared `brain-embed.service` name is historical; it serves all three
-  repository indexes.
+- The shared `brain-embed.service` name is historical; it serves embedding
+  and reranking for all three repository indexes.
+- With the reranker on, a query takes several seconds. `reranker unavailable:
+  results are in fused order` on stderr means the service gave no reranker
+  answer; the results are valid, ranked without it.
 - A snippet is candidate evidence, never the complete source.
 
 ## Related

@@ -12,8 +12,9 @@ disable-model-invocation: false
 Searches `agentic-brain` with a brain-index you build and keep on your own
 machine. The engine runs embedding-based semantic search and BM25 keyword
 search in parallel, combines them with Reciprocal Rank Fusion (RRF), and
-returns one ranked result per file. The agent reads the best files for full
-context.
+returns one ranked result per file. A reranker reorders the first fused chunks
+only where a local embedding service provides one. The agent reads the best
+files for full context.
 
 Gold questions are an offline quality test. They never influence live ranking.
 
@@ -110,6 +111,9 @@ search; that silently searches the wrong corpus.
   than the rest. The tool first tries a local embedding service on
   `127.0.0.1:8099` (the org's server runs one); without one it loads the model
   in-process, which is normal on your machine.
+- `reranker unavailable: results are in fused order` on stderr is expected
+  without a local embedding service that offers reranking; the results are
+  valid.
 - `STALE` right after `git pull` is expected: the index was built from an older
   commit. The incremental build catches it up.
 - Gold questions test retrieval after ranking; they are not query expansion,

@@ -30,7 +30,7 @@ agentic-brain/brain-index/          (tool code -- committed to repo)
 
 ~/.brain-index/                   (index data -- per machine, NOT in repo)
   chunks.jsonl        Text chunks + frontmatter metadata
-  vectors.npy         float16 embedding vectors (768-dim)
+  vectors.npy         float16 embedding vectors (dimension from config.yaml)
   meta.json           Build metadata
   manifest.json       File hash manifest for change detection
   heartbeat.json      Freshness metadata (built_at_head vs git HEAD)
@@ -67,9 +67,10 @@ python brain-index/eval.py --verbose
 python brain-index/index.py --force
 ```
 
-Downloads `unsloth/embeddinggemma-300m` on first run (cached afterwards)
-and embeds every chunk on CPU. The first build takes as long as it needs;
-a saturated CPU means it is working, not hung. Run one build at a time.
+Downloads the embedding model named in `config.yaml` on first run (cached
+afterwards) and embeds every chunk on CPU. The first build takes as long as
+it needs; a saturated CPU means it is working, not hung. Run one build at a
+time.
 
 ### Incremental build (after each pull)
 
@@ -92,7 +93,7 @@ Reports whether the index is current without embedding anything.
 ## Query Modes
 
 ```bash
-# Hybrid (default) -- dense + BM25 + RRF fusion (rerank optional, off)
+# Hybrid (default) -- dense + BM25 + RRF fusion (reranker when enabled and served)
 python brain-index/query.py "your question" --top-k 20
 
 # Vector-only (semantic)
@@ -104,8 +105,10 @@ python brain-index/query.py "your question" --no-dense
 
 Results show file path, domain, score, and snippet. Deduplicated by
 file (one result per file, highest scoring chunk). When
-`reranker.enabled` is true in config.yaml, the fused results are
-reranked by the in-process cross-encoder before output.
+`reranker.enabled` is true in config.yaml, the first `reranker.top_k`
+fused chunks go with their full text to the embedding service's
+reranker and are reordered by its scores; without that service the
+fused order is returned and `query.py` says so on stderr.
 
 ## Embedding Service
 
@@ -114,6 +117,10 @@ reranked by the in-process cross-encoder before output.
 org's server runs one to keep the model loaded. Without a service they
 load the model in-process, which is the normal case on your machine.
 
+The same service answers `POST /rerank` (`{"query": ..., "texts": [...]}`
+-> `{"scores": [...]}`). The reranker runs only there; `query.py` never
+loads one in-process.
+
 ## Eval Gate
 
 ```bash
@@ -121,11 +128,12 @@ python brain-index/eval.py --validate-only  # Schema, path, existence, index mem
 python brain-index/eval.py                  # Summary only
 python brain-index/eval.py --verbose        # Per-query results
 python brain-index/eval.py --baseline <earlier eval-results.json>  # Compare two runs
+python brain-index/eval.py --rerank on|off  # Override reranker.enabled for one run
 python brain-index/self-test.py             # Package contract and regressions
 ```
 
-Metrics: Top-1/3/5, recall@20, MRR, nDCG@20. Run after every model or
-config change and compare with `--baseline` against the
+Metrics: Top-1/3/5, recall@20, MRR, nDCG@20 and seconds per query. Run
+after every model or config change and compare with `--baseline` against the
 `eval-results.json` saved before it: Top-1/3/5 and MRR decide, and only
 `clear gain` or `clear loss` is a real difference.
 Gold queries live in `gold-queries.yaml`; each uses `gold_files`
@@ -148,8 +156,8 @@ from the index.
 
 | Component | Choice |
 |---|---|
-| Embedding | `unsloth/embeddinggemma-300m` (768-dim, public mirror of google/embeddinggemma-300m) |
-| Reranker | `BAAI/bge-reranker-base` (in-process CrossEncoder, config-gated, disabled by default) |
+| Embedding | model and dimension named in `config.yaml` |
+| Reranker | served by the embedding service; config-gated (`reranker.enabled`, `reranker.top_k`); scores the first fused chunks on full text |
 | Keyword | BM25 over lowercase word tokens (inline implementation; k1=1.5, b=0.75) |
 | Fusion | RRF (k=60) |
 | Chunking | paragraphs up to 1500 chars; 200-char overlap for oversized paragraphs |
@@ -180,11 +188,14 @@ before pulling, or keep it on a branch.
 - **One build at a time.** Two `index.py` processes embed the same
   chunks at half speed each. Check with `ps aux | grep index.py`; if two
   run, stop both and start one.
-- **Keep the reranker off.** A fresh process per query reloads the
-  cross-encoder on every query; it showed no measurable retrieval gain
-  on the gold set. Enable it only with a persistent serving process.
-- **EmbeddingGemma is asymmetric.** The tool uses `encode_query` /
-  `encode_document`; plain `encode` silently lowers quality.
+- **The reranker needs the service.** Without an embedding service that
+  offers `/rerank`, `query.py` prints `reranker unavailable: results are
+  in fused order` and returns the fused ranking; `eval.py` with the
+  reranker on then stops with `reranker is on but gave no scores`
+  (run it with `--rerank off`).
+- **Queries and documents are encoded differently.** The tool uses
+  `encode_query` / `encode_document`; plain `encode` silently lowers
+  quality.
 - **HF gating.** Before switching to any HF model, probe
   `curl -s -o /dev/null -w "%{http_code}" https://huggingface.co/api/models/<org>/<model>`
   -- 401/307 means gated or redirected; 200 means public.
