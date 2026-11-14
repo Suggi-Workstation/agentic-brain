@@ -37,7 +37,8 @@ each piece lives, and WHAT each agent must do to use it.
 ## The Insight
 
 A self-contained hybrid search tool -- semantic vectors plus keyword
-BM25 fused with reciprocal rank fusion, gated by eval benchmarks and
+BM25 fused with reciprocal rank fusion and reordered by a reranker,
+gated by eval benchmarks and
 fail-closed state validation -- transforms the agentic-brain from a
 pile of unsearchable Markdown files into a queryable knowledge base.
 It uses local CPU infrastructure and no external embedding API.
@@ -58,12 +59,8 @@ prototype of this system:
 - **Eval gate:** 230 gold queries across 4 batches (Ava batch1/2,
   Link batch1/2), each with expected file hits and heading targets
 - **Freshness:** `heartbeat.json` with `git rev-parse HEAD` comparison
-- **Fusion:** semantic (embeddinggemma-300m) + BM25 +
-  frontmatter-graph expansion (three retrieval edges combined).
-  Cross-encoder reranking was evaluated (bge-reranker-base) and
-  REMOVED: it added +15s/query (model reload per fresh process) and
-  measurably hurt ranking (MRR 0.817 with vs 0.955 without on the
-  100-query gold set). Embed + BM25 + RRF is the final pipeline.
+- **Fusion:** semantic + BM25 + frontmatter-graph expansion (three
+  retrieval edges combined).
 
 The prototype proved the architecture at scale. The only failure mode
 was data quality: the 1,348 library files had inconsistent frontmatter
@@ -122,25 +119,28 @@ brain-index/                  <-- tool CODE (in repo)
   index.py                    Build the search index from markdown files
   query.py                    Query the index, return ranked results
   eval.py                     Run eval against gold queries (Top-1/3/5, recall@20, MRR, nDCG)
-  config.yaml                 Embedding model, chunk size, RRF weights
+  config.yaml                 Embedding model, reranker switch, chunk size, RRF weights
   gold-queries.yaml           Test queries with one or more relevant files
   self-test.py                Package contract and regression tests
   requirements.txt            Python deps (sentence-transformers, pyyaml, numpy)
   README.md                   Setup and usage for every agent
 
 /opt/repo-tools/             <-- FLEET tools (NOT in repo)
-  brain-embed.py              Warm embedding daemon (embeddinggemma-300m,
-                              loaded once at boot; 127.0.0.1:8099)
+  brain-embed.py              Warm model daemon (embedding model and
+                              reranker, loaded once at boot;
+                              127.0.0.1:8099)
   brain-embed.service         systemd unit (enabled, auto-restart)
 
 query.py embeds queries via the warm daemon (sub-second); if the
 daemon is down it falls back to in-process model loading (~15s).
 Indexing uses the same daemon first and falls back to in-process model
-loading when the daemon is unavailable.
+loading when the daemon is unavailable. The reranker runs only in the
+daemon: without it, query.py prints `reranker unavailable: results are
+in fused order` and returns the fused ranking.
 
 ~/.brain-index/               <-- index DATA path (NOT in repo)
   chunks.jsonl                Text chunks + frontmatter metadata
-  vectors.npy                 Embedding vectors (float16, 768-dim)
+  vectors.npy                 Embedding vectors (float16, 1024-dim)
   meta.json                   Build metadata (model, dim, count, chunking)
   manifest.json               Indexed Markdown paths and content hashes
   heartbeat.json              Freshness state (last_run_utc, built_at_head)
@@ -165,7 +165,8 @@ shared only by profiles on the same filesystem.
 
 | Component | Choice | Why |
 |---|---|---|
-| Embedding model | `unsloth/embeddinggemma-300m` (768-dim) | English-optimized, MTEB ~69 (Eng v2). Zero API cost. Runs on CPU. Public mirror of google/embeddinggemma-300m. Upgraded from bge-m3 on 2026-08-10. |
+| Embedding model | `IEITYuan/Yuan-embedding-2.0-en` (1024-dim) | English retrieval model. Zero API cost. Runs on CPU. The same model serves every index and memory server of the fleet. |
+| Reranker | `cross-encoder/ettin-reranker-150m-v1` (ONNX, CPU), switched by `reranker.enabled`; scores the first `reranker.top_k` (25) fused chunks on their full text | Reorders the head of the fused list, where agents read. Costs about 5 seconds per query; without it a query takes under 1 second. |
 | Keyword search | Inline BM25 over lowercase word tokens; punctuation and Markdown marks separate words | Python-native, no database or stored keyword tables. |
 | Rank fusion | Reciprocal Rank Fusion (k=60) | Balances semantic and keyword signals. Same formula the archive prototype used. |
 | Chunking | Paragraphs up to 1,500 characters; 200-character overlap when splitting an oversized paragraph | Keeps ordinary paragraphs intact and bounds oversized ones. |
@@ -173,15 +174,23 @@ shared only by profiles on the same filesystem.
 | Eval metric | Top-1/3/5 and MRR decide a change; Recall@20 guards against lost files; nDCG is reported | Agents open the top 3-5 files. `eval.py --baseline` compares two runs question by question; a difference is real only when its 95% interval excludes zero. |
 | Freshness | Heartbeat + artifact/config/shape/manifest/live-corpus/HEAD validation | Any unverifiable state fails closed before retrieval. |
 
-### Embedding model -- why embeddinggemma-300m
+### Embedding model and reranker
 
-The live system uses `unsloth/embeddinggemma-300m`, a public mirror of
-Google's 768-dimensional EmbeddingGemma retrieval model. Query and
-document encoders are asymmetric and must remain distinct. The warm
-daemon serves both with an in-process fallback; BM25 supplies the
-sparse half. Routine builds embed only chunks from new or changed
-files. Model, dimension, or chunking changes invalidate incremental
-reuse and require a deliberate full rebuild followed by evaluation.
+The live system uses `IEITYuan/Yuan-embedding-2.0-en`, a
+1024-dimensional English retrieval model. The warm daemon serves
+query and document embeddings with an in-process fallback; BM25
+supplies the sparse half. Routine builds embed only chunks from new or
+changed files. Model, dimension, or chunking changes invalidate
+incremental reuse and require a deliberate full rebuild followed by
+evaluation.
+
+After fusion, the daemon's reranker
+(`cross-encoder/ettin-reranker-150m-v1`) scores the first 25 fused
+chunks against the question and reorders them. On the 250-question
+gold set the right file ranks first for 219 questions without the
+reranker and 223 with it (MRR 0.923 and 0.936); `eval.py --baseline`
+reports that difference as not clear. `eval.py --rerank on|off`
+measures either setting whatever the config says.
 
 ### VPS query flow -- how an agent uses it
 
@@ -340,8 +349,9 @@ is an optimization, not a requirement -- each could build its own.
    and HEAD. A missing, malformed, stale, or incompatible component
    fails before retrieval.
 
-5. **Zero external embedding cost.** EmbeddingGemma runs on local CPU;
-   there are no embedding API calls, rate limits, or usage bills.
+5. **Zero external model cost.** The embedding model and the reranker
+   run on local CPU; there are no embedding API calls, rate limits, or
+   usage bills.
 
 6. **New VPS profiles reuse the shared index.** They need the query
    skill and filesystem access, not a private dependency install or

@@ -82,7 +82,7 @@ Morpheus (workspace-morpheus/):
     config.yaml                    source_root + include_dirs=[memory, identity]
     index-data/                    GENERATED, gitignored
       chunks.jsonl                 18 chunks (20.9KB)
-      vectors.npy                   18 x 768-dim float16 (27.8KB)
+      vectors.npy                   one 1024-dim float16 vector per chunk
       meta.json                     build metadata (178B)
       manifest.json                 file hash manifest (419B)
       heartbeat.json                freshness marker (231B)
@@ -96,19 +96,20 @@ Neo (workspace-neo/):
     config.yaml                    source_root + include_dirs=[knowledge]
     index-data/
       chunks.jsonl                 2 chunks (3.0KB)
-      vectors.npy                   2 x 768-dim (3.2KB)
+      vectors.npy                   one 1024-dim float16 vector per chunk
       meta.json, manifest.json, heartbeat.json
   skills/query-workspace-neo/SKILL.md
 ```
 
 ### 4. Shared infrastructure (zero new services)
 
-The warm embed daemon (`brain-embed.service`, 127.0.0.1:8099,
-`unsloth/embeddinggemma-300m`, 768-dim) is shared runtime -- multiple
-indexes hitting it is fine (stateless HTTP, each request gets its own
-embedding). The brain's index, the brain's query, and both workspace
-indexes all use the same daemon. Zero new model loads, zero new RAM,
-zero new systemd units.
+The warm embed daemon (`brain-embed.service`, 127.0.0.1:8099) holds
+the embedding model `IEITYuan/Yuan-embedding-2.0-en` (1024-dim) and
+the reranker `cross-encoder/ettin-reranker-150m-v1` (ONNX, CPU). It is
+shared runtime -- multiple indexes hitting it is fine (stateless HTTP,
+each request gets its own answer). The repository indexes and every
+workspace index on the VPS use the same daemon. Zero new model loads,
+zero new RAM, zero new systemd units.
 
 ### 5. Data flow
 
@@ -117,9 +118,11 @@ zero new systemd units.
    daemon, writes `index-data/` (chunks.jsonl + vectors.npy + meta.json
    + manifest.json + heartbeat.json).
 2. **Query**: `query.py "<question>" --top-k 20` runs BM25 keyword search
-   + dense vector cosine search + RRF fusion, returns ranked file paths
-   with scores and text snippets. The agent reads the top 3-5 files
-   for full context.
+   + dense vector cosine search + RRF fusion; the daemon's reranker
+   then reorders the first 25 fused chunks (`reranker` block in
+   `config.yaml`; about 5 seconds per query with it, under 1 second
+   without). It returns ranked file paths with scores and text
+   snippets. The agent reads the top 3-5 files for full context.
 3. **Refresh**: the VPS watcher (`/opt/repo-tools/watch.py`, every minute;
    `research/insights/vps-brainclone-plus-index.md`) runs `query.py
    --check-freshness` in every workspace that has the engine folder; if

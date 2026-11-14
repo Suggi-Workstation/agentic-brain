@@ -210,11 +210,12 @@ Consolidation is event-driven after retention and relevant source changes, not a
 
 | Component | Deployed setting | Work performed |
 |:--|:--|:--|
-| Hindsight server | Official `ghcr.io/vectorize-io/hindsight:0.10.2` (digest pinned in `build/Dockerfile`) plus `claude-agent-sdk` 0.2.161 | Native API, MCP, memory processing and worker lifecycle |
+| Hindsight server | Official `ghcr.io/vectorize-io/hindsight:1.2.1`, digest pinned in Compose | Native API, MCP, memory processing and worker lifecycle |
 | Database | `pgvector/pgvector:pg18`, digest pinned in Compose | Durable relational, full-text and vector-backed memory state |
-| Embedder | `BAAI/bge-small-en-v1.5`, local CPU provider | Converts queries and evidence to the same English-oriented vector space |
-| Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2`, local CPU provider | Scores query/candidate pairs after candidate retrieval |
-| Normal recall candidate cap | `HINDSIGHT_API_RERANKER_MAX_CANDIDATES_MID=30` | Bounds reranking work for `mid` recall, not stored memory or context-token capacity |
+| Embedder | `IEITYuan/Yuan-embedding-2.0-en` (1024 dimensions), local CPU provider | Converts queries and evidence to the same English-oriented vector space |
+| Reranker | `hindsight-ai/hs-rerank-1`, ONNX provider on CPU | Scores query/candidate pairs after candidate retrieval |
+| Recall candidate cap | `HINDSIGHT_API_RERANKER_MAX_CANDIDATES`, `_LOW` and `_MID` = 25 | Bounds reranking work per recall, not stored memory or context-token capacity |
+| Recall score floor | `recall_min_scores: {"reranker": 0.1}` in each profile's `hindsight/config.json` | Drops results the reranker scores below 0.1 before injection |
 | Retain extraction | `claude-code`, `claude-sonnet-5-5`, effort `high` | Extracts structured facts and their framing from retained text |
 | Observation consolidation | `claude-code`, `claude-sonnet-5-5`, effort `high` | Refines observations and adjudicates near-duplicate reconciliation |
 | Reflect and generated-page/model synthesis | `claude-code`, `claude-sonnet-5-5`, effort `high` | Reasons across retrieved evidence and writes the requested answer/document |
@@ -225,7 +226,7 @@ The embedder and reranker load in the long-lived Hindsight process and reuse dis
 
 A chat-model change does not change these memory routes. Hermes conversation compression is another auxiliary operation, separately configured in Hermes; it is not Hindsight consolidation. Fixing a compaction timeout does not repair memory retrieval, and changing a memory model does not repair conversation compression. Hindsight's dedicated Claude token supplies its remote inference route. Self-hosted storage and local embeddings do not make extraction or reflection local, free of usage, or independent of provider availability.
 
-The measured recommendation was to keep the deployed retrieval pair. Larger English embeddings and EmbeddingGemma were evaluated, but stronger model-stage scores did not establish a better complete retrieval path. MiniLM-L12 was a plausible quality-first alternative, not an automatic upgrade: the small native fixture showed a modest ranking gain and greater latency. Removing neural reranking was faster but materially worse on that fixture.
+The embedder is the fleet's one embedding model: repository and workspace search use the same model through their own daemon (`research/insights/brain-search-system.md`), and every Hindsight server of the fleet runs the same retrieval pair. The pair is a standing choice, not a benchmark result: the candidate cap and the score floor are settings, and the floor has not been measured against judged recalls. Changing the embedder means re-embedding every bank (Provisioning and maintenance responsibilities); changing the reranker or the floor needs a before-and-after check on real recalls.
 
 The earlier GPT comparisons (Luna, Terra, Sol) informed the Codex-era settings; they do not rank Claude models. The move to Sonnet 5.5 for all three operations was an operator choice to consolidate on one subscription, verified for correct operation, not benchmarked for memory quality against the previous route. The live settings above are the blueprint. Small, non-blinded fixtures do not establish a universal ranking, and more reasoning did not monotonically improve fidelity: schema-valid outputs could still lose a condition or reverse polarity.
 
