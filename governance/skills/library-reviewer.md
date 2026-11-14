@@ -256,7 +256,7 @@ the candidate queue or regenerate/stage index files. The `library-index.yml`
 workflow regenerates the Markdown indexes after publication.
 
 No direct append, `git add`, commit, pull, or rebase belongs in this cycle.
-The existing `repo-pull.sh` watcher owns synchronization; its Brain log is
+The repository watcher (`/opt/repo-tools/watch.py`) owns synchronization; its Brain log is
 `/srv/brain/logs/brain-pull.log`. Verify the specific publication reached
 GitHub after releasing the helper's lock.
 

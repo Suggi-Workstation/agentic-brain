@@ -214,7 +214,7 @@ the same helper-generated entry numbering and separator rules.
 
 Scope: the three library roles share one queue, activity log, and Git staging
 area. They use `scripts/library-publish.py` for local publication; the
-existing `repo-pull.sh` watcher owns push/pull. No additional service or cron
+repository watcher (`/opt/repo-tools/watch.py`) owns push/pull. No additional service or cron
 is required. Research and drafting stay outside the shared working tree.
 
 1. Create this run's directory in Hermes's scratch space with

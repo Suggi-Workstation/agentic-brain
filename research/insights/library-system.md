@@ -179,8 +179,8 @@ semantic-search index.
 ### Concurrent publication
 
 All library roles use `scripts/library-publish.py` to publish prepared
-drafts. The helper shares `.git/repo-pull.sync.lock` with the existing
-`repo-pull.sh` watcher and holds it from final recheck through file edits,
+drafts. The helper shares `.git/repo-pull.sync.lock` with the repository
+watcher (`/opt/repo-tools/watch.py`) and holds it from final recheck through file edits,
 log numbering, staging, commit, and read-back. Research and drafting stay
 outside the clone and outside that lock. There is no extra daemon or cron.
 

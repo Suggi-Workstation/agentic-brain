@@ -13,6 +13,7 @@ links:
   - research/insights/brain-search-system.md
   - research/insights/mnemosyne-system.md
   - research/insights/two-tier-fleet-memory-single-vector-space.md
+  - research/insights/vps-brainclone-plus-index.md
 ---
 
 # Per-Agent Workspace Search -- Semantic Search Inside Agent Workspaces
@@ -85,7 +86,6 @@ Morpheus (workspace-morpheus/):
       meta.json                     build metadata (178B)
       manifest.json                 file hash manifest (419B)
       heartbeat.json                freshness marker (231B)
-  scripts/workspace-search-refresh.py            cron script (5-min, no_agent, profile-level: ~/.hermes/profiles/morpheus/scripts/)
   skills/query-workspace-morpheus/SKILL.md
 
 Neo (workspace-neo/):
@@ -98,7 +98,6 @@ Neo (workspace-neo/):
       chunks.jsonl                 2 chunks (3.0KB)
       vectors.npy                   2 x 768-dim (3.2KB)
       meta.json, manifest.json, heartbeat.json
-  scripts/workspace-search-refresh.py            cron script (5-min, no_agent, profile-level: ~/.hermes/profiles/neo/scripts/)
   skills/query-workspace-neo/SKILL.md
 ```
 
@@ -121,9 +120,11 @@ zero new systemd units.
    + dense vector cosine search + RRF fusion, returns ranked file paths
    with scores and text snippets. The agent reads the top 3-5 files
    for full context.
-3. **Refresh**: a 5-min Hermes cron (no_agent Python script) runs
-   `index.py --check`; if stale, runs incremental build. Hash-based
-   (md5 manifest): unchanged files cost nothing (sub-second).
+3. **Refresh**: the VPS watcher (`/opt/repo-tools/watch.py`, every minute;
+   `research/insights/vps-brainclone-plus-index.md`) runs `query.py
+   --check-freshness` in every workspace that has the engine folder; if
+   stale, it runs the incremental build. Hash-based (md5 manifest):
+   unchanged files cost nothing (sub-second).
 4. **Fallback**: if the daemon is down, `index.py` falls back to
    in-process sentence-transformers (~15s model load). Querying still
    works with existing vectors.
@@ -171,9 +172,9 @@ Cron refresh scripts: both rc=0 (silent), logs show
    and git-tracked. The index is a derived cache, always rebuildable
    from source. This is structurally the opposite of a Mnemosyne copy
    (which would drift on every edit).
-5. The cron refresh is zero-token (no_agent script, like
-   mnemosyne-sync). The skill is on-demand (agent invokes it only when
-   searching). Total ongoing cost: ~0.
+5. The refresh is zero-token (the watcher is a plain program). The
+   skill is on-demand (agent invokes it only when searching). Total
+   ongoing cost: ~0.
 
 ## Counter-evidence
 
@@ -192,9 +193,9 @@ This architecture would be invalidated if:
   on every edit), is not auto-injected at startup, and creates a
   dual source-of-truth. The index-in-place approach is structurally
   superior for folder files.
-- The 5-min cron cadence was too slow for freshness. Observed: at 5
-  files, the incremental build is sub-second. At 50+ files it would
-  still be under 10s. The cadence is sufficient.
+- The refresh cadence was too slow for freshness. Observed: the watcher
+  checks every minute and an incremental build of a few changed files
+  takes seconds.
 
 ## Cross-Links
 

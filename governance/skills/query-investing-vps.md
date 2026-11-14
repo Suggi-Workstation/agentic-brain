@@ -45,10 +45,11 @@ to mask an inherited-package mismatch.
 
 ### 1. Verify watcher ownership
 
-Run `crontab -l` and confirm the exact `investing-hub` watcher line is present.
+Run `crontab -l` and confirm the watcher line (`/opt/repo-tools/watch.py`) is
+present and names `/srv/investing/investing-hub`.
 Do not run the watcher or rebuild the index during a normal query.
 
-PASS: watcher line present. HALT: missing line.
+PASS: the line is present and names the clone. HALT: otherwise.
 
 ### 2. Verify freshness
 

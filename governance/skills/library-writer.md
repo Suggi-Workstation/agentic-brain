@@ -270,7 +270,7 @@ operation for empty-queue or ERROR outcomes. Do not send whole-queue or index
 hashes; unrelated publications and index refreshes do not require redrafting.
 
 No direct append, `git add`, commit, pull, or rebase belongs in this cycle.
-The existing `repo-pull.sh` watcher owns synchronization; its Brain log is
+The repository watcher (`/opt/repo-tools/watch.py`) owns synchronization; its Brain log is
 `/srv/brain/logs/brain-pull.log`. Verify the specific publication reached
 GitHub after releasing the helper's lock.
 

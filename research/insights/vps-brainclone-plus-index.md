@@ -2,9 +2,8 @@
 name: vps-brainclone-plus-index
 id: 20260807T181615Z
 tier: insight
-source:
-  - 20260720T182751Z
-  - 20260719T070443Z
+status: active
+source: []
 author: Link
 tags:
   - vps
@@ -14,288 +13,198 @@ tags:
   - two-way-sync
   - freshness
   - fleet-infrastructure
-  - tailscale
   - cron
 links:
   - research/insights/brain-search-system.md
+  - research/insights/workspace-search-system.md
   - research/insights/stale-index-problem.md
+  - research/insights/library-system.md
+  - governance/skills/repo-write-vps.md
   - governance/template-insights.md
 ---
 
-# VPS Brain Clone Plus Index -- The Live-Mirror Blueprint
+# VPS Live Mirrors and Watcher -- How the Repo Clones and Search Indexes Stay Current
 
-## Version History
+The fleet VPS holds the working copies of the org's three content
+repositories (`agentic-brain`, `agentic-forge`, `investing-hub`) and a
+search index for each. Agents on the VPS read and write these clones
+directly; GitHub is the mirror for the outside world. One program, the
+watcher (`/opt/repo-tools/watch.py`), runs once a minute and does two
+jobs: it keeps each clone and its GitHub repository equal in both
+directions, and it keeps every search index equal to the files it
+indexes. The same run keeps the search index of every agent workspace
+current. Agents therefore never push, pull or rebuild an index: they
+commit, and within a minute the commit is on GitHub and searchable.
 
-| Version | Date | Author | Change |
-|:--|:--|:--|:--|
-| 1 | 2026-08-07 | Link | Initial insight. |
-| 2 | 2026-08-08 | Link | Watcher interval 5 min -> 1 min (idle cycle cost measured: 0.42 s, 17 MB). |
-| 3 | 2026-08-09 | Link | Watcher logs moved to /srv/brain/logs (fleet-visible, root:agents) + logrotate (size 1M, rotate 5, compressed). |
-| 4 | 2026-08-23 | Morpheus | Multi-repo generalization: index data moved to /srv/<domain>/index, watcher generalized to repo-pull.sh (one cron line per repo), forge + investing-hub onboarded. |
-| 5 | 2026-08-24 | Morpheus | Tools dir renamed to /opt/repo-tools; shim retired; watcher = repo-pull.sh with 4 args; security scans split out to /opt/security-tools. |
-| 6 | 2026-09-03 | Morpheus | Three sibling index packages and query skills aligned; fail-closed integrity validation added; natural push/add and pull/delete paths verified end to end in all three repos. |
+## Parts
 
-This file is the finished-system reference for the fleet VPS live
-mirrors: the persistent agentic-brain, agentic-forge, and investing-hub
-clones; their separate indexes; and the generic watcher that keeps each
-pair synchronized. It extends brain-search-system.md (the search-tool
-blueprint) with the infrastructure layer that keeps repository indexes
-current without per-session sync rituals.
-
-## The Insight
-
-Three persistent live-mirror clones on the fleet VPS, each synchronized
-with GitHub in both directions every minute by the same parameterized
-watcher and each owning a separate repository index, turn repository
-knowledge into a fleet-shared service without cross-repository search.
-
-## Evidence
-
-### Design phase -- 2026-08-06
-
-The live-mirror pattern was researched and confirmed by the user
-before any server was ordered:
-
-- Persistent clone at /srv/brain/agentic-brain replaces the
-  clone-discard ritual for VPS agents.
-- Cron git pull every minute (no webhooks, tailnet-only network).
-- Cron incremental reindex on HEAD change.
-- NO auto-commit cron (secrets and junk risk; commits stay
-  deliberate).
-- Index data lives outside the repo, outside agent homes.
-- Hermes (user hermes) and OpenClaw (user openclaw) live side by
-  side; shared data belongs to neither.
-
-### Build phase -- 2026-08-07
-
-The server was provisioned and the system built:
-
-- netcup RS 4000 G12, Vienna, 12 dedicated EPYC cores, 32 GB RAM,
-  1 TB NVMe, Ubuntu 24.04.4 UEFI Minimal, hostname suggi-vps.
-- Tailscale as root system daemon (the box is the tailnet node);
-  Hermes v0.20.0 installed under user hermes.
-- agents group created; the live clone is owned by hermes:agents and
-  the derived index by root:agents, both group-writable with setgid.
-- Clone at /srv/brain/agentic-brain; token moved to
-  /home/hermes/.git-credentials (mode 600); remote URL clean.
-- Fleet-neutral tools at /opt/repo-tools: repo-pull.sh (the
-  watcher) + venv/ (index python environment, root:agents, setgid).
-- Initial index build: 4931 chunks across 397 files -- identical to
-  the PC index, proving the same embedder on the same source yields
-  the same vectors.
-
-### The gap found by questioning
-
-The user asked: "when you commit to the local clone, does the
-embedder run?" The answer was no. The watcher's reindex condition was
-before != after (pull-only). A purely local commit pushed by the
-watcher had before == after, so the new artifact sat unindexed until
-some future pull triggered a reindex. Root cause: a state-transition
-condition that checked one of two paths (pulled) but not the other
-(pushed). Fixed structurally: the watcher tracks a pushed flag and
-reindexes when content changed in EITHER direction. The lesson:
-every state-transition condition in a sync system must enumerate all
-paths, and every path must be verified by questioning, not by
-inspection alone.
-
-### End-to-end proofs
-
-- ENT-048 logbook entry: committed locally, NOT pushed manually;
-  the watcher pushed it (commit 68cb3f1 verified on origin/main).
-- Divergence simulation in /tmp (git init --bare -b main + two
-  clones): with Suggi's write X on GitHub and agent write Y local,
-  the watcher's push is rejected (non-fast-forward), fast-forward
-  fails, rebase replays Y on top of X, and the final linear history
-  contains both writes. Nothing is lost.
-- Conflict case: both writes touching the same lines halt the
-  rebase; the watcher aborts the rebase back to a clean state, logs
-  loudly, and exits non-zero. An agent resolves manually; the next
-  tick resumes normal sync. Never auto-resolved, because
-  auto-resolving knowledge conflicts risks silently mangling
-  content.
-- Freshness check after the reindex-path exercise: OK, 4931 chunks,
-  heartbeat updated to current HEAD.
-- Daemon wiring (2026-08-18): index.py rebuilds verified in a /tmp
-  sandbox -- daemon path 1.2s vs in-process fallback 10.2s for the
-  same 6 chunks; row-wise cosine between daemon-normalized and
-  in-process vectors = 1.0 (identical). Production incremental
-  reindex 2.6s. Divergence self-heal (rebase + push, nothing lost,
-  linear history) and conflict abort (clean state, exit 1) both
-  verified in sandbox.
-- Three-repository proof (2026-09-03): one unique Markdown artifact was
-  committed locally in each clone. The natural watcher tick pushed all
-  three commits and each index logged `New: 1`, embedded one chunk, and
-  returned the artifact at rank 1 through its matching query skill.
-  Each artifact was then deleted on GitHub. The next natural tick logged
-  `pulled=yes pushed=0` and `Deleted: 1` in all three repositories;
-  baseline file/chunk counts returned, Git SHAs matched origin, and no
-  artifact path remained in query output, manifests, chunks, or clones.
-
-## The System -- How It Works
-
-### Where everything lives -- three categories, never mixed
-
-```
-/srv/brain/agentic-brain/       CLONE     /srv/brain/index/       INDEX
-/srv/forge/agentic-forge/       CLONE     /srv/forge/index/       INDEX
-/srv/investing/investing-hub/   CLONE     /srv/investing/index/   INDEX
-
-/srv/<domain>/logs/             per-repo push and index logs
-/opt/repo-tools/                repo-pull.sh, shared venv, embed daemon
-/home/hermes/crontab            one parameterized watcher line per repo
-```
-
-The rule: knowledge goes in the repo, data goes in /srv, code goes
-in /opt, schedule goes in cron. No category is nested inside another.
-This differs from brain-search-system.md in two deliberate ways:
-(1) the index DATA moved from per-machine ~/.brain-index to the
-fleet-shared /srv/brain/index (the VPS is the shared index service),
-and (2) tooling moved from user homes to /opt/repo-tools so no
-single user's lifecycle owns the fleet infrastructure.
-
-### The watcher -- repo-pull.sh
-
-Every minute each cron line fires and the watcher:
-
-1. Enters its configured clone, records before = HEAD, pushed = 0.
-2. git fetch origin.
-3. If the clone has committed-but-unpushed work (rev-list count of
-   origin/main..HEAD > 0): git push. Never auto-commits -- only
-   already-committed work moves.
-4. git merge --ff-only origin/main. If it fails (divergence),
-   git rebase origin/main && git push.
-5. Record after = HEAD. If before != after (pulled) OR pushed = 1,
-   run that repository's incremental indexer and log the event.
-6. Before reusing vectors, the indexer validates the existing artifact
-   schema, model, dimensions, chunking config, counts, vector shape, and
-   manifest. After building, normal health checks also compare every
-   live Markdown hash and current HEAD.
-
-Production incremental indexing is watcher-owned in both directions.
-The warm `brain-embed.service` is a separate shared process used by all
-three indexers and query tools. Manual full rebuilds are reserved for a
-first build, model/chunking changes, or verified corruption repair.
-
-### Two-way sync semantics
-
-| Direction | Mechanism | Max lag |
+| Part | Where | What it does |
 |:--|:--|:--|
-| GitHub -> clone | cron fetch + ff-only (rebase if diverged) | 1 min |
-| clone -> GitHub | watcher auto-push of committed work | 1 min |
-| clone -> index | reindex on pushed OR pulled content change | seconds after pull/push |
-| GitHub -> Suggi's Obsidian | Obsidian Git auto-pull (PC) | 5 min |
+| Watcher | `/opt/repo-tools/watch.py` | The program described here; Python, standard library only |
+| Watcher tests | `/opt/repo-tools/watch-test.py` | Run the watcher against throwaway repositories and workspaces |
+| Index runtime | `/opt/repo-tools/venv/` | Python environment of the index tools |
+| Embedding service | `brain-embed.service`, `127.0.0.1:8099` | Keeps the embedding model loaded for every index build and query |
+| Schedule | crontab of the `hermes` user | One line, every minute |
+| Clone | `/srv/<name>/<repo>` | Working copy of one repository, branch `main` |
+| Index tool | `<clone>/<name>-index/` | `index.py` (build), `query.py` (search and freshness check), `config.yaml` |
+| Index data | `/srv/<name>/index/` | The built index, outside the repository; the tool reaches it as `~/.<name>-index` |
+| Logs | `/srv/<name>/logs/` | `<name>-pull.log` (sync) and `<name>-index.log` (index) |
 
-Eventual consistency with a 1-minute bound is the accepted standard
-for git-sync systems; webhook real-time was explicitly rejected
-(GitHub cannot reach the tailnet, and the infra cost is unjustified
-for a small fleet).
+`<name>` is `brain`, `forge` or `investing`; the clones are
+`/srv/brain/agentic-brain`, `/srv/forge/agentic-forge` and
+`/srv/investing/investing-hub`. Clones, index data, logs and tools belong
+to the group `agents` and sit outside every agent's home, so no single
+agent's lifecycle owns them.
 
-### Divergence and conflict handling
+The crontab line:
 
-Both sides advancing in different directions is the normal
-convergence case: the push is rejected by GitHub (non-fast-forward
-guard), fast-forward fails, rebase replays local commits on top of
-remote commits, push succeeds. History stays linear and contains
-both writes. Only same-line conflicts halt the watcher; those are
-aborted back to a clean state and resolved deliberately by an agent
-before retrying. There is no silent loss and no auto-resolution.
+```
+* * * * * /opt/repo-tools/watch.py /srv/brain/agentic-brain /srv/forge/agentic-forge /srv/investing/investing-hub 2>&1 | logger -t repo-watch
+```
 
-### Who uses it
+## Targets
 
-- VPS Hermes profiles read the appropriate clone directly under
-  `/srv`, use that repository's query skill, and let the watcher push
-  committed work.
-- Agents on other machines may operate their own clone/index or invoke
-  the approved VPS query path; they do not share local index state.
-- GitHub-side writes are pulled and reindexed automatically.
+| Kind | Found by | Synced with GitHub | Index tool | Index log |
+|:--|:--|:--|:--|:--|
+| Repository | its clone path on the crontab line | yes | `<clone>/<name>-index/` | `/srv/<name>/logs/<name>-index.log` |
+| Agent workspace | every `<profiles>/<agent>/workspace-<agent>/` that contains `scripts/workspace-search/` | no | that folder | `<profiles>/<agent>/logs/workspace-search-refresh.log` |
 
-### Security model
+`<profiles>` is the Hermes profiles folder of the `hermes` user. A
+workspace is a local git repository that is not on GitHub; which of its
+folders are indexed is set in its own `config.yaml`
+(`research/insights/workspace-search-system.md`).
 
-- Credentials remain outside repositories and clean remote URLs.
-- No auto-commits: the watcher can only push work an agent already
-  committed deliberately.
-- No public search endpoint or webhook is required.
+## One Run
 
-## Implications
+Each target runs in its own thread, so a slow target delays no other. A
+run with nothing to do takes about a second.
 
-1. VPS agents never clone-discard these repositories. Each live mirror
-   is its checkout; writing an artifact means committing in the
-   appropriate `/srv` clone and letting the watcher push.
-2. Both directions converge within 1 minute. Suggi's GitHub edits
-   reach the fleet and the shared index automatically; fleet
-   artifacts reach GitHub automatically.
-3. The stale-index failure class is fail-closed: reindex fires after
-   either push or pull, while one shared validator checks heartbeat,
-   artifacts, configuration, shapes/counts, manifest hashes, and HEAD
-   for both `index.py --check` and `query.py --check-freshness`.
-4. Fleet-neutral ownership survives any user's lifecycle: data and
-   tools live outside agent homes; deleting a user never deletes the
-   brain.
-5. Zero API cost: the watcher is git plus a local CPU embedder; no
-   LLM tokens, no embedding API, no subscriptions.
-6. New VPS profiles need no per-profile build: each repository index
-   already exists and is kept current by its watcher.
-7. The PC/laptop pattern (per-machine indexes, clone-discard) stays
-   valid; the VPS pattern is the shared-service evolution for the
-   fleet box.
+Sync, for repositories only, under the sync lock:
 
-## Counter-evidence
+1. `git fetch origin`.
+2. If the clone has commits that GitHub lacks, push them. The push waits
+   while the clone holds untracked files; the sync log names them.
+3. If GitHub has commits that the clone lacks, fast-forward the clone to
+   `origin/main`.
+4. If both sides have new commits, no fast-forward is possible: rebase
+   the local commits onto `origin/main` and push. The commits keep their
+   authors; the watcher signs as committer `Repo Watcher`. History stays
+   linear and holds the work of both sides.
+5. If the rebase stops on a conflict (both sides changed the same
+   lines), abort it, which leaves the clone as it was, and log it. The
+   watcher never resolves a conflict and never commits anything.
 
-This architecture would be invalidated if:
+Index, for every target, under the index lock:
 
-- The 1-minute staleness window causes harmful coordination errors
-  (agents acting on a logbook or artifact up to 1 minute stale).
-  Not observed; all coordination is minute-scale. A real-time need
-  would justify webhooks via Tailscale Funnel.
-- The rebase-on-divergence path silently loses or reorders
-  knowledge. It cannot: same-line conflicts halt for manual
-  resolution, and no auto-resolution exists.
-- The watcher fails and staleness goes unnoticed. Mitigation: query
-  skills require the fail-closed freshness gate, while cron ownership
-  and event logs expose whether the producer remains wired.
-- GitHub adds first-class bidirectional sync that makes the watcher
-  obsolete. Then the watcher is deleted and the pattern remains
-  documented here.
-- A single shared index on the VPS becomes the bottleneck for
-  agents on other machines. Mitigation: per-machine indexes remain
-  the documented fallback (brain-search-system.md).
+6. `query.py --check-freshness` compares the index with its source: the
+   index files are present and well-formed, were built with the model
+   and chunking settings in `config.yaml`, every indexed file has the
+   hash of the live file, and the build belongs to the current commit.
+7. Answer `OK`: write one `ok` line to the index log.
+8. Answer `STALE` or `NO INDEX`: run `index.py`, which embeds new and
+   changed files and drops deleted ones.
+9. Any other answer (`UNVERIFIED`, a crash): log it and leave the index
+   alone.
+
+The check runs on every run, not only after a push or pull. A build that
+was skipped, interrupted or failed is therefore repeated on a later run
+without a new commit. A fetch or push that hangs is ended after five
+minutes; an index build has no time limit.
+
+## Locks
+
+Both locks are files in the target's git directory. They are never
+waited for: a run that finds a lock held skips that step, and the next
+run tries again.
+
+| Lock | Held by | Effect |
+|:--|:--|:--|
+| `repo-pull.sync.lock` | the watcher during sync; the Library publisher (`scripts/library-publish.py`) while it writes and commits | two syncs never overlap; a half-written publication is never pushed |
+| `repo-pull.index.lock` | the watcher during check and build; a full rebuild run by hand | one build per index at a time |
+
+The locks are separate because a build can take far longer than a
+minute. Sync continues every minute while a build runs; when the build
+ends, the next check finds what changed meanwhile and catches up.
+
+## Logs
+
+| Log | Holds | Size limit |
+|:--|:--|:--|
+| `/srv/<name>/logs/<name>-pull.log` | Sync events only: pushes, failed pushes, rebases, conflicts, a held-back push, a failing fetch. Silent while nothing happens | 50 KB, five old copies (`/etc/logrotate.d/brain-tools`) |
+| `/srv/<name>/logs/<name>-index.log` | One `ok` line per run, of which the last 50 are kept; every rebuild with its reason and the indexer's output | as above |
+| `<profiles>/<agent>/logs/workspace-search-refresh.log` | The same as an index log, for that agent's workspace | 1 MB, two old copies (`/etc/logrotate.d/hermes-misc`) |
+| System journal, tag `repo-watch` | Errors of the watcher itself; empty in normal operation | the journal's own limit |
+
+A rebuild line reads
+`reindexing (pulled=yes pushed=0): STALE -- <reason>`; `pulled` and
+`pushed` say what the sync of that run did, and a workspace line carries
+no sync part. A condition that lasts (GitHub unreachable, a held-back
+push, a failing check) is logged once, not every minute.
+
+## Rules
+
+- Agents commit in the clone under their own name and never push, pull
+  or rebase there; the watcher publishes
+  (`governance/skills/repo-write-vps.md`).
+- Nobody rebuilds an index by hand in normal operation. `STALE` that
+  lasts longer than a build is a fault to report, not a reason to
+  rebuild.
+- Repository commands run as the `hermes` user, never as root.
+- The clones carry no git identity, so a commit without an explicit
+  author fails instead of going out under a wrong name.
+- An untracked file left in a clone holds back every push of that clone.
+  Scratch work stays outside the clones.
+- A conflict is resolved by an agent or a person, deliberately. Nothing
+  is force-pushed.
+
+## Operations
+
+Check that it works:
+
+```
+crontab -l                                # the watch.py line, naming the three clones
+cd /srv/<name>/<repo> && env -u PYTHONPATH /opt/repo-tools/venv/bin/python <name>-index/query.py --check-freshness
+tail -2 /srv/<name>/logs/<name>-index.log # an `ok` line from the last two minutes
+journalctl -t repo-watch --since -1h      # no lines
+```
+
+`env -u PYTHONPATH` keeps the calling agent's Python packages out of the
+index runtime.
+
+| Task | How |
+|:--|:--|
+| Add a repository | Clone it to `/srv/<name>/<repo>` with a `<name>-index/` tool folder, an index data folder and a logs folder like the existing three, add its two logs to `/etc/logrotate.d/brain-tools`, and append the clone path to the crontab line |
+| Add a workspace | Give the agent's workspace the `scripts/workspace-search/` folder; the next run builds its index |
+| Full rebuild after a change of embedding model, dimension or chunking | `cd /srv/<name>/<repo> && flock .git/repo-pull.index.lock env -u PYTHONPATH /opt/repo-tools/venv/bin/python <name>-index/index.py --force`; the lock keeps the watcher out |
+| Resolve a conflict | In the clone, naming yourself on each git command (`git -c user.name=<name> -c user.email=<email> ...`): `fetch origin`, `rebase origin/main`, fix the marked lines, `add` them, `rebase --continue`. The next run pushes the result |
+| Change the watcher | Run `python3 /opt/repo-tools/watch-test.py`; then prove it on the live repositories: a probe file committed in each clone must reach GitHub and the index on its own, and deleting it on GitHub must remove it from the clone and the index on its own |
+
+## Limits
+
+- Up to one minute passes between a commit and its publication, and
+  between a change on GitHub and its arrival on the VPS.
+- A same-line conflict stops the sync of that repository until it is
+  resolved; the other targets continue.
+- While GitHub is unreachable, sync waits; the index still follows local
+  commits.
+- An `UNVERIFIED` index is not repaired automatically.
+- The watcher serves the VPS. Agents on other machines search the VPS
+  indexes over their own access to the VPS, or build an index from their
+  own clone (`research/insights/brain-search-system.md`).
 
 ## Cross-Links
 
-- `research/insights/brain-search-system.md` -- parent blueprint of
-  the search tool this infrastructure serves
-- `research/insights/stale-index-problem.md` -- the failure class this
-  system prevents structurally
+- `research/insights/brain-search-system.md` -- the search tool behind
+  the repository indexes
+- `research/insights/workspace-search-system.md` -- the workspace search
+  engine
+- `research/insights/stale-index-problem.md` -- why freshness is checked
+  against the source
+- `research/insights/library-system.md` -- the Library publisher that
+  shares the sync lock
+- `governance/skills/repo-write-vps.md` -- how an agent writes to a
+  watched clone
+- `governance/skills/query-brain-vps.md`,
+  `governance/skills/query-forge-vps.md`,
+  `governance/skills/query-investing-vps.md` -- the query procedures
 - `governance/template-insights.md` -- the template this file follows
-- `logbook/queue.log` -- ENT-048, the watcher-pushed proof entry
-
-### Generalization -- three repos, one watcher (2026-08-23)
-
-The live-mirror pattern covers all three persistent content clones on
-the VPS, grouped by domain under `/srv`:
-
-```
-/srv/brain/agentic-brain/       clone      /srv/brain/index/       data
-/srv/forge/agentic-forge/       clone      /srv/forge/index/       data
-/srv/investing/investing-hub/   clone      /srv/investing/index/   data
-```
-
-- Index DATA lives at `/srv/<domain>/index` (moved from
-  `/srv/brain-index` on 2026-08-23); `~/.<name>-index` symlinks
-  resolve it per repo (`~/.brain-index`, `~/.forge-index`,
-  `~/.investing-index`).
-- The search TOOL lives inside each repo (`<name>-index/` folders:
-  `brain-index/`, `forge-index/`, `investing-index/`) and indexes
-  whatever repo contains it (the SCRIPT_DIR.parent rule).
-- The watcher logic lives once in `/opt/repo-tools/repo-pull.sh`;
-  one hermes cron line per repo passes clone path, logs dir, tool
-  dir, and log prefix.
-- Logs stay event-driven at `/srv/<domain>/logs/<prefix>-pull.log`
-  and `<prefix>-index.log`; logrotate covers all of them.
-- One warm embed daemon (127.0.0.1:8099) serves all three indexes --
-  same model, same dimensions. Separate tool configs and data dirs,
-  plus sibling identity tests, prevent cross-index contamination.
-- The three index packages and three query skills are siblings. Their
-  procedure and engine logic match; only repository identity, scope,
-  paths, and commands differ. A failed repository index never falls
-  back to a different repository.
