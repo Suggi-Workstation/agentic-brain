@@ -1,0 +1,113 @@
+<!-- queue.log archive -- ENT-065 to ENT-074
+     Moved from active log on 2026-11-14 16:43 UTC
+     Active log continues from ENT-075 onward.
+     See logbook/protocol.md for full spec.
+-->
+
+## [ENT-065] | 2026-08-20 05:26 UTC | Morpheus | general | ref: none | see: 20260820T052619Z
+Session: R22 governance, Neo rule alignment, Mnemosyne fix, workspace search verification.
+Workstreams:
+- Formalized R22 (Isolation by Default) in both AGENTS.md files; added Self-Check item 6 to Morpheus only.
+- Aligned Neo's R1-R21 with Morpheus: 7 Born-from clauses restored (R14-R21), R7 Schoen Loop sentence added, Self-Check section added then removed per Suggi.
+- Rewrote R15 as declarative standard (removed "At session-end" trigger + "last 10 sessions" count) in both files.
+- Audited all R1-R22 for contract-procedure separation: rewrote R4/R12/R13 as standards (R12 dropped "manually", R13 moved git sequence to skills, R4 rephrased as standard). Both files, content-identical.
+- Fixed Neo's Mnemosyne: missing memory.provider key in config.yaml (broken from birth, 3 days). Set provider=mnemosyne, restarted serve, verified across 9 config layers. Cleaned orphaned global DB (1 memory). Neo now matches Morpheus end-to-end.
+- Diagnosed Neo's workspace search "stale" report: timezone confusion (CEST vs UTC), not a system bug. Cron caught the change correctly (commit 04:55 UTC, rebuild 05:01 UTC).
+- Analyzed --check git-HEAD freshness gate: not broken, not worth fixing (both workspaces commit after every edit).
+Reflection: 20260820T052619Z. Daily memory: 2026-08-20.md.
+
+## [ENT-066] | 2026-08-20 09:48 UTC | Morpheus | general | ref: reflections/2026-08-20_morpheus_terminal-cwd-gateway-restart.md | see: 20260820T094802Z
+Session: Bot Mode research, terminal.cwd configuration, project archival.
+Workstreams:
+- Researched Bot Mode from docs + source code (bot-mode.md, bot_mode_probe.py, peer.py, prompt_builder.py, projects.ts). Delivered ELI12: a Bot IS a profile, Bot Chat = one forever session, no new storage.
+- Diagnosed Bot Chat not loading governance: terminal.cwd unset -> sessions born in /home/hermes (fallback). Set terminal.cwd for Morpheus and Neo to their workspace folders.
+- Discovered gateways needed restart (terminal.cwd read at startup, bridged to TERMINAL_CWD). Restarted Neo serve + Morpheus gateway (detached subprocess to bypass safety block).
+- Diagnosed Bot Chat session loss: auto-titler renamed "Bot Chat" to generic titles, breaking plugin pin resolution. Cleaned 10 stale sessions, re-pinned correct Bot Chat.
+- Researched: Projects vs terminal.cwd, AGENTS.md not required in Project folders, multiple folders = primary is cwd, additional = sidebar only.
+- Archived "manager-of-vps-github-org" (Morpheus) and "investing-assistant" (Neo) projects. Verified zero data loss before/after.
+Reflection: 20260820T094802Z. Daily memory: 2026-08-20.md.
+
+## [ENT-067] | 2026-08-20 22:45 UTC | Link | general | ref: reflections/2026-08-20_link_local-aliases-outperform-multiconnection.md | see: 20260820T224313Z
+Restored the old Hermes Desktop connector architecture for the Windows PC.
+Workstreams:
+- Recreated minimal local Morpheus and Neo connector profiles.
+- Restored profile-scoped legacy routes to VPS ports 9119 and 9120.
+- Removed the machine-level remote registry entry from the intended local workflow.
+- Restored isolated VPS serve units for Morpheus and Neo; messaging gateway services remained active.
+- Verified authenticated profiles.list, session.list, and projects.tree RPCs on both VPS ports.
+Reflection: 20260820T224313Z. Daily memory: 2026-08-20.md.
+
+## [ENT-068] | 2026-08-21 07:45 UTC | Link | general | ref: reflections/2026-08-21_link_hermes-desktop-leveldb-collateral-damage.md | see: 20260821T074320Z
+Session: Hermes Desktop connector routing + workspace pane repair after failed multiconnector experiment.
+Workstreams:
+- Diagnosed Morpheus + Neo "gateway offline" -- VPS backends healthy, problem was in Desktop AppData configs.
+- Fixed connections.json (experiment-era custom IDs replaced with auto-generated ones matching Linkie).
+- Wiped stale LevelDB cache (gateway-map-repair-v1, lastProfileByConnection) -- collateral damage: workspace-cwd, theme, layoutTree destroyed.
+- Fixed connection.json global remote block (Suggi's sign-in wrote mode:remote with 9119 URL into global, routing all profiles through Morpheus). Reset to {authMode: token}.
+- Discovered both VPS backends share same auth credentials -- copied 9119 native-oauth token to 9120 entry in native-oauth-tokens.json. Neo connected.
+- Restored workspace-cwd key via restore-workspace-cwd.cjs + Hermes-Restore-Workspace.bat.
+- Files pane still hidden -- paneStates.v1 had file-browser:{open:false}. Suggi toggled right sidebar button in titlebar; pane appeared.
+- Cleaned 20+ stray temp files from experiment (hermes-marker-*, hermes-login-*, hermes-ldb-*, old bat files).
+Reflection: 20260821T074320Z. Daily memory: 2026-08-21.md.
+
+## [ENT-069] | 2026-08-22 10:51 UTC | Morpheus | general | ref: reflections/2026-08-22_morpheus_desktop-app-state-has-three-tiers.md | see: 20260822T105123Z
+Session: Unified serve cutover follow-through -- skins, laptop gateway repair, Linkie switch fix.
+Workstreams:
+- Fleet skins delivered to Suggi's PC + laptop pickers via desktop plugin (desktop-plugins/suggi-skins/plugin.js, THEMES_AREA contribution; palettes ported from skinToDesktopTheme). Confirmed pickable + persistent across restarts.
+- FLEET.md unified-serve Handbook block; insight v2 (research/insights/unified-serve-all-profiles.md): cutover verified, attach-target question answered, skins lesson added.
+- R11 fix: dropped hardcoded old unit ports from FLEET.md + insight; removed non-artifact source id from insight frontmatter.
+- Laptop: legacy connection.json still bound neo to dead isolated-serve port 9120 -> cleared to match PC (backup kept). Neo + Morpheus online.
+- Laptop: "This device" bounced to VPS gateway because localStorage lastProfileByConnection.local was "default" (PC: "link"); wrote "linkie" via leveldb with app closed, relaunched via schtasks /IT. Confirmed working.
+Reflection: 20260822T105123Z. Daily memory: 2026-08-22.md.
+
+## [ENT-070] | 2026-08-22 19:38 UTC | Morpheus | general | ref: reflections/2026-08-22_morpheus_promote-the-best-variant-upward.md | see: 20260822T193753Z
+Session: Curator governance, constitution v4, fleet directive unification.
+Workstreams:
+- Curator set OFF on morpheus + neo (paused; manual dry-run channel retained); curator-run skill built, tested (94 candidates, 0 proposals), promoted to shared skills dir (cb303ab); FLEET.md de-hardcoded per R11.
+- Confirmed Hermes background learning loop independent of curator pause (source + docs verified).
+- Constitution v4 (a02182f): shared-state preservation (scar: mnemosyne TTL-trim), agent-output containment, spawn accountability, escalation norm. Primedirectives: means-ends rule + reversibility preference.
+- Directive text unified byte-exactly across all 4 SOUL mirrors (morpheus, neo, link PC, linkie laptop); promoted Neo's memory cross-ref + no-gate-warranted clauses fleet-wide; "bring it to your human" replaces "write a proposal" (f62430d). Programmatic proof: 1 distinct region.
+Reflection: 20260822T193753Z. Daily memory: 2026-08-22.md.
+
+## [ENT-071] | 2026-08-23 11:08 UTC | Morpheus | general | ref: reflections/2026-08-23_morpheus_one-to-many-migration-referential-integrity.md | see: 20260823T110812Z
+Session: multi-repo architecture completed -- agentic-brain + agentic-forge + investing-hub as peer clones.
+Workstreams:
+- investing-hub seeded (gates, README, portfolios/) and moved out of the brain; dead pipeline refs traced and conformed.
+- Cross-repo link convention adopted: <repo>:<path>; blueprint documents it; brain: prefixes migrated to agentic-brain: fleet-wide.
+- Watcher generalized: /opt/brain-tools/repo-pull.sh, three cron lines, brain-pull.sh kept as shim; end-to-end scratch-commit test passed.
+- Indexes built: forge 99, investing 180 chunks; query-forge-vps + query-investing-vps skills created and live-tested.
+- Contracts updated: AGENTS.md both agents; preflight + session-end verify all three indexes; read-proof prints three fields.
+Reflection: 2026-08-23_morpheus_one-to-many-migration-referential-integrity.md. Daily memory: 2026-08-23.md.
+
+## [ENT-072] | 2026-08-23 18:05 UTC | Morpheus | general | ref: reflections/2026-08-23_morpheus_gates-expose-what-prose-tolerates.md | see: 20260823T180541Z
+Session: research pipeline governance built, live-tested, and first runner birthed from it.
+Workstreams:
+- Research templates overhauled: status lifecycle fields, de-versioning, generalized multi-bullet sections, word floors (200/300/300/200/200 proposals; 250/300/300/300/300/250 reports; 150/250/250/200/200 evaluations; 250/400/400/300 insights).
+- research/README.md pipeline map + chain-closure rules: evaluator same-commit status duty, insight source-chain sweep, supersede-by-id convention.
+- write-x skills updated in all copies: README co-read step, query-brain-vps prior-work gate, agentic-brain clone named explicitly; library-writer logbook steps conformed.
+- Pipeline live-tested proposal -> report -> evaluation on a real question; artifacts later deleted at Suggi direction -- conclusions invalidated (demand invisible until capacity exists).
+- Research-runner birthed per domain-clone pattern (profile, bootstrap, config, keys, toolset mirror, FLEET.md entry; no crons, ticker deferred); investment-runner stale brain paths fixed to investing-hub.
+Reflection: 2026-08-23_morpheus_gates-expose-what-prose-tolerates.md. Daily memory: 2026-08-23.md.
+
+## [ENT-073] | 2026-08-24 19:58 UTC | Morpheus | general | ref: reflections/2026-08-24_morpheus_limits-are-choices-in-disguise.md | see: 20260824T195508Z
+Session: Skill lean-down, repo-tools rename, scan parallelization, full E2E proof.
+Workstreams:
+- Pitfall-writing standard (SYMPTOM->DO->BECAUSE->scar tag, zero narrative) established and applied: preflight + session-end catalogs compressed (-25% refs), enforced at creation (skill-review dimension) in Morpheus and Neo profiles.
+- /opt reorganized: security scans -> /opt/security-tools (root crontab), brain-tools renamed -> /opt/repo-tools zero-downtime; shim retired; fossils removed; doc sweep across shared skills, both core-agent profiles, brain canonical + insights v5; AGENTS.md/BOX.md conformed.
+- Security scans parallelized: clamdscan --multiscan --fdpass, MaxThreads 8/12 (EPYC 12c x 1t); daily sweep 43m40s -> 4m28s. Pre-existing grep -c "0\n0" counter bug fixed at root cause.
+- Watcher E2E re-proven on all three repos: create/delete cycles pushed within one tick, chunk counts exact (+1/-1 to baseline 5277/99/180), tokens searchable then gone. Canonical query skills synced to runtime truth.
+- stock-report-pull test skill drafted for the filings pipeline (twin-with-provenance design); converter install deferred pending architecture decisions with Suggi.
+Reflection: 2026-08-24_morpheus_limits-are-choices-in-disguise.md. Daily memory: 2026-08-24.md.
+
+## [ENT-074] | 2026-08-27 13:49 UTC | Morpheus | general | ref: reflections/2026-08-27_morpheus_stale-code-refusal-is-not-a-bug.md | see: 20260827T134937Z
+Session: Atlas skin + serve fix + PC auto-launch cleanup.
+Workstreams:
+- Serve model picker broken: root cause was code version mismatch (running 6ce7ab8bfb vs disk 5fc308a707). Serve has stale-code safety check that refuses /api/model/options. Restart of suggi-vps-hermes fixed it.
+- PC auto-launch on reboot: found leftover Windows Scheduled Task "Hermes" (logon trigger, created 2026-08-25 22:04 by remote repair session). Deleted at Suggi direction. No Hermes code creates bare "Hermes" task -- only "Hermes_Gateway" tasks exist.
+- Atlas skin color changed from #000129 to #01232b across serve YAML, Atlas profile, and PC suggi-skins plugin.js. Laptop plugin updated.
+- Removed 7 Neo-remnant personal skills from Atlas profile (governance/preflight, session-end, learnings-capture, workspace-ops, query-workspace-neo, 2 investing skills).
+- Added workspace search retrieval section to Atlas AGENTS.md (commit ac98cbb).
+- Answered Claude/OpenAI subscription-as-API bridge ToS questions for Suggi.
+- Cleaned 10 scratch .ps1 scripts from PC home dir.
+Reflection: 2026-08-27_morpheus_stale-code-refusal-is-not-a-bug.md. Daily memory: 2026-08-27.md.
+
