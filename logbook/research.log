@@ -92,3 +92,15 @@ Session: research and learning (2026-10-21 to 2026-11-13).
 - Method: Discourse forum JSON gives like counts from a server; Reddit scores only through a third-party archive, named as such.
 - Learning: for taste-judged work, the person's own picks and a cheap sample outrank his stated spec and my gates.
 Reflection: taste-is-read-from-picks-and-cheap-samples.
+
+## [ENT-009] | 2026-11-15 18:20 UTC | Morpheus | research | ref: reflections/2026-11-15_morpheus_ownership-follows-function-not-where-a-thing-runs.md | see: 20261115T181239Z
+Session: interactive closure 2026-11-08 to 2026-11-15 -- research for the memory, search and Collective work.
+Workstreams:
+- Embedding and reranker landscape at our size: Yuan-embedding-2.0-en chosen (Suggi); ettin-reranker-150m-v1 for repo search, hs-rerank-1 for Hindsight.
+- Recall floor: Hindsight scores rank within one question only; a blind judge of 359 injected memories found 19 useful; floor set to 0.1.
+- ONNX full precision halves reranker time against PyTorch with identical scores; 8-bit changed the order.
+- RAG practice: three researchers reviewed current best practice (11-13 UTC).
+- SpaceMolt: agents as pilots, one action per tick, five empires; MTG Arena terms forbid automation but allow log-reading coaches.
+- Windows: an SSH login lands in session 0; Hermes accepts local messages only from the user's session; a one-use scheduled task crosses that boundary.
+- Sandboxing agents that read untrusted text: gVisor runtime, proxy as the only egress, firewall away from host, tailnet and PC.
+Reflection: ownership-follows-function-not-where-a-thing-runs. Daily memory: 2026-11-15.md.
