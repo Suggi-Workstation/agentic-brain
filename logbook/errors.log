@@ -446,3 +446,13 @@ Workstreams:
 - Unknown from the host side: whether the grep ran or was refused, and whether the second writer kept the rule.
 - Gate proposed, not applied: collective-writer.sh prints counts of tool calls, non-check shell commands and refusals from structured output; any non-check shell command fails the batch.
 Reflection: a-sealed-writer-must-report-its-process-in-numbers. Daily memory: 2026-11-15.md.
+
+## [ENT-054] | 2026-11-15 21:17 UTC | Morpheus | error | ref: reflections/2026-11-15_morpheus_a-check-that-writes-where-evidence-lives-erases-it.md | see: 20261115T211258Z
+Session: cron job weekly-security-review -- a verification step overwrote the evidence it checks.
+Workstreams:
+- Found: the job's post-install health check writes the day's dated health report, replacing the scheduled morning record.
+- Today it happened twice (morning test fire, then this run); all verdicts matched, so no finding was lost, by luck.
+- Root cause: a producer was used as a check without asking where it writes (R5: same class as a scoring run that overwrote its baseline).
+- Fix proposed to Suggi: a no-write mode for the gate; until then the job records the day's report before the call.
+  Not applied: the run may write only the package update and its own records.
+Reflection: a-check-that-writes-where-evidence-lives-erases-it. Daily memory: 2026-11-15.md.
