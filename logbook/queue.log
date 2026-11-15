@@ -454,3 +454,14 @@ Workstreams:
 - BOX.md 5.1: ownership in the unit goes by function, not by where a piece runs.
 Cron reflections of the period: a-classifier-must-take-its-evidence-when-the-event-happens, a-score-change-needs-the-same-ruler-and-a-kept-baseline, a-job-is-tested-only-from-the-process-that-runs-it.
 Reflection: ownership-follows-function-not-where-a-thing-runs. Daily memory: 2026-11-15.md.
+
+## [ENT-115] | 2026-11-15 19:08 UTC | Morpheus | general | ref: reflections/2026-11-15_morpheus_a-sealed-writer-must-report-its-process-in-numbers.md | see: 20261115T190403Z
+Session: cron job weekly-search-review -- first scheduled run: host and Collective gold sets repaired and scored.
+Workstreams:
+- Host drift: brain 2 new (g274, g275; f31c75a), ws-morpheus 2 rewritten (w082, w083; 65ba8b8); forge, investing, ws-neo, ws-cassandra none.
+- Scoring: six host sets PASS, 0 unchanged questions moved; brain MRR 0.9261 -> 0.9353, forge 0.6842 -> 0.6926, the other four equal.
+- Misses: 10 listed, no relevance set grew; 8 keep this morning's judgment (corpus and ranks unchanged).
+- The Collective, inside the unit: 16 -> 35 questions (f4c0b92), ws-unity 2 rewritten (848bbd1); MRR 0.9062 -> 0.927; miss c028 (rank 9); five Admiral workspaces skipped (empty index).
+- The first Collective writer reported a forbidden grep; its answers were removed and one new writer ran the same brief (errors.log ENT-053).
+- Proposed to Suggi: writer summary line with tool-call counts; the index refresh step and the "never rebuild" boundary reconciled; a carry rule for unchanged misses.
+Reflection: a-sealed-writer-must-report-its-process-in-numbers. Daily memory: 2026-11-15.md.
