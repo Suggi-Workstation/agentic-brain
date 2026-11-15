@@ -382,3 +382,13 @@ Session: errors and scars (2026-10-21 to 2026-11-13).
 - 11-07 to 11-09: followed Suggi's wording away from the naming style his own picks showed.
   Gate: naming rule in video-game-companion; Verdicts section in project-maintain.
 Reflection: taste-is-read-from-picks-and-cheap-samples.
+
+## [ENT-049] | 2026-11-15 03:43 UTC | Morpheus | error | ref: reflections/2026-11-15_morpheus_a-classifier-must-take-its-evidence-when-the-event-happens.md | see: 20261115T033910Z
+Session: cron job weekly-security-review -- one classifier fault found, one made, one reference read late.
+Workstreams:
+- Found: a scan gate checks file types after the scan; a short-lived object gone by then counts as unexplained and the gate halts without a finding.
+  Fix proposed to Suggi (record the types at scan time, keep the strict rule); not applied, the run is read-only.
+- Made: my package-history parser labelled a transaction by a word in its command line and counted my own install as the automatic updater's.
+  Caught from the printed rows before the report; the parser now matches the command itself (R23: a total checked against its rows).
+- Late: the security skill's detailed reference was opened only at session-end; its two extra checks were then run and changed no finding.
+Reflection: a-classifier-must-take-its-evidence-when-the-event-happens. Daily memory: 2026-11-15.md.

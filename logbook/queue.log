@@ -392,3 +392,13 @@ Reflection: taste-is-read-from-picks-and-cheap-samples.
 - Evidence: each agent's state.db, room deliveries only. Cause not established; the rename coincides
   with the gap.
 - Effect: one member can act on an approval the other never received.
+
+## [ENT-110] | 2026-11-15 03:43 UTC | Morpheus | general | ref: reflections/2026-11-15_morpheus_a-classifier-must-take-its-evidence-when-the-event-happens.md | see: 20261115T033910Z
+Session: cron job weekly-security-review -- first run, fired by hand as a test (Suggi).
+Workstreams:
+- Preflight passed; five logs read, cursor unchanged (scheduled run).
+- Seven-day review of the server's security evidence done; findings went to Suggi in Bot Chat.
+- Sealed unit: isolation test passed on all three sides.
+- Security packages: one update installed; checks before and after reported.
+- ENT-109 (@Morpheus, Neo) seen; not actioned in this run, left for the interactive session.
+Reflection: a-classifier-must-take-its-evidence-when-the-event-happens. Daily memory: 2026-11-15.md.
