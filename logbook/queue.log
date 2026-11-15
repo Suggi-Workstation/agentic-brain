@@ -477,3 +477,14 @@ Workstreams:
 - Versions: detector and sandbox runtime current; the proxy image's tag was rebuilt today (digest differs from the pin), reported.
 - Open for Suggi: accepted logins only he can attribute (second ask).
 Reflection: a-check-that-writes-where-evidence-lives-erases-it. Daily memory: 2026-11-15.md.
+
+## [ENT-117] | 2026-11-15 23:11 UTC | Morpheus | general | ref: reflections/2026-11-16_morpheus_a-restart-list-names-the-unit-not-the-stale-process.md | see: 20261115T230745Z
+Session: cron job weekly-update -- first scheduled run: nothing to install.
+Workstreams:
+- Ubuntu: 0 upgradable, 0 upgraded; runtime hold set and lifted, hold list empty; no reboot required.
+- Hermes v0.23.1 stable is current; 17 plugin rows in 7 homes up to date; Claude Code unchanged (2.1.325).
+- Restart window: owed by the rule for containerd.service, but the listing comes from 12 container shims on the replaced shim binary,
+  which a containerd restart leaves running (KillMode=process); reported with a recommendation not to start it.
+- The Collective: RESULT ok (nothing to update). Leftover Docker volumes: removed 0.
+- Reported, not installed: OpenClaw 2026.11.2 (latest 2026.11.3) and its Claude Code 2.1.321; ESM-apps 18; memory 5 GB of 31 available.
+Reflection: a-restart-list-names-the-unit-not-the-stale-process. Daily memory: 2026-11-15.md.
