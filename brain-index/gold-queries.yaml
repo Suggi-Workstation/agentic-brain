@@ -1,4 +1,4 @@
-version: '3.0'
+version: '3.1'
 status: provisional-agent-curated
 description: Balanced Brain retrieval benchmark.
 queries:
@@ -528,7 +528,7 @@ queries:
   - governance/system-constitution.md
   domain: governance
 - qid: g121
-  question: Which repositories belong to the Suggi-Workstation GitHub org, and which of them are private rather than public?
+  question: How should a file reference a document in a different org repository, and are bare relative paths allowed?
   gold_files:
   - governance/system-blueprint.md
   domain: governance
@@ -569,17 +569,17 @@ queries:
   domain: governance
 
 - qid: g134
-  question: Which queued candidate should be written up next as a new library topic, and what if its assigned domain looks wrong?
+  question: When turning a queued candidate into a new library article, must I take the highest-scored one, and what if its domain looks wrong?
   gold_files:
   - governance/skills/library-writer.md
   domain: governance
 - qid: g135
-  question: When does an existing library topic become due for re-review, and how is the next topic to check chosen across domains?
+  question: When fact-checking an existing library entry, how many independent sources must I read before looking at its current text?
   gold_files:
   - governance/skills/library-reviewer.md
   domain: governance
 - qid: g136
-  question: If the brain search freshness check returns STALE or NO INDEX, should I rebuild the index myself or do something else?
+  question: On the fleet server, why must I clear PYTHONPATH before running the knowledge base search, and should I rebuild when it reports stale?
   gold_files:
   - governance/skills/query-brain-vps.md
   domain: governance
@@ -589,7 +589,7 @@ queries:
   - governance/skills/loop-feynman.md
   domain: governance
 - qid: g138
-  question: Why does the fleet's knowledge-base search read index files from local disk rather than querying a hosted search service?
+  question: Which embedding model, chunk sizes and rank fusion constant does the shared knowledge base search use, and why no external embedding API?
   gold_files:
   - research/insights/brain-search-system.md
   domain: research
@@ -599,12 +599,12 @@ queries:
   - research/insights/forge-architecture.md
   domain: research
 - qid: g140
-  question: When the corpus keeps growing, why can single-file gold queries no longer tell real ranking decline from newly relevant documents?
+  question: Why can a growing document collection make single-answer retrieval benchmarks misleading, and how should relevance judgments be maintained?
   gold_files:
   - research/insights/gold-query-maintenance-procedure.md
   domain: research
 - qid: g141
-  question: Which mechanism keeps the library's browsable topic indexes current, and how does it mark reviews as overdue even when Librarian is paused?
+  question: How are the library's browsable topic indexes regenerated automatically, and how do they catch reviews becoming overdue when agents are paused?
   gold_files:
   - research/insights/library-system.md
   domain: research
@@ -639,12 +639,12 @@ queries:
   - research/insights/unified-serve-all-profiles.md
   domain: research
 - qid: g148
-  question: How does the per-minute watcher keep the VPS repository clones, GitHub and their search indexes in sync, including when histories diverge?
+  question: What happens when the minute-by-minute repository sync finds new commits on both the server clone and GitHub, or a conflict?
   gold_files:
   - research/insights/vps-brainclone-plus-index.md
   domain: research
 - qid: g149
-  question: Which fixes beyond the planned config changes were needed when the brain search engine was forked to index agent workspace folders?
+  question: What code changes were needed to reuse the knowledge base search engine for indexing only selected folders of an agent's own workspace?
   gold_files:
   - research/insights/workspace-search-system.md
   domain: research
@@ -864,7 +864,7 @@ queries:
   - library/psychology-behavior/motivated-reasoning-and-identity-protective-cognition.md
   domain: library
 - qid: g193
-  question: How are proposed library topics weighted and scored during discovery versus writing, and what minimum score allows writing?
+  question: What JSON request shape and which request kinds does the shared library publishing helper accept for writing, reviewing or discarding candidates?
   gold_files:
   - library/guide-library.md
   domain: library
@@ -1134,7 +1134,7 @@ queries:
   - research/proposals/library-auditor-test.md
   domain: research
 - qid: g247
-  question: Why do the Hermes profiles use a named scope:private observation scope instead of the shared keyword in their Hindsight config?
+  question: Why did cross-session memory consolidation fail for agent profiles, and what configuration workaround keeps observations from fragmenting by session?
   gold_files:
   - research/insights/hindsight-system.md
   domain: research
@@ -1224,7 +1224,7 @@ queries:
   - governance/archive/template-library-old.md
   domain: governance
 - qid: g265
-  question: How does an agent on its own machine search the agentic-brain with a local index and handle a STALE freshness result?
+  question: Working from my own machine outside the org server, how do I search the shared knowledge base with a locally built index?
   gold_files:
   - governance/skills/external/query-brain.md
   domain: governance
@@ -1234,7 +1234,7 @@ queries:
   - governance/archive/template-insights-old.md
   domain: governance
 - qid: g267
-  question: When discovering new library topics, how is domain balance scored and what happens once the candidate queue is full?
+  question: When proposing new library topic ideas, how should the domain balance score be assigned and how many domains per cycle?
   gold_files:
   - governance/skills/library-discoverer.md
   domain: governance
@@ -1253,3 +1253,18 @@ queries:
   gold_files:
   - governance/archive/template-reports-old.md
   domain: governance
+- qid: g271
+  question: Why would a security scan gate halt on clean days when short-lived socket files vanish before the classifier checks them?
+  gold_files:
+  - reflections/2026-11-15_morpheus_a-classifier-must-take-its-evidence-when-the-event-happens.md
+  domain: reflections
+- qid: g272
+  question: As a guest new to the shared knowledge repository, where do I start and what does each top-level folder contain?
+  gold_files:
+  - README.md
+  domain: root
+- qid: g273
+  question: What does each script in the knowledge base's hybrid search tool folder do, from index building to evaluation and self-tests?
+  gold_files:
+  - brain-index/README.md
+  domain: brain-index
