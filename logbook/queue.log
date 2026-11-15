@@ -438,3 +438,19 @@ Workstreams:
 - The Collective: update unit ran, RESULT: ok (nothing to update).
 - Reported to Suggi, not installed: containerd, OpenClaw 2026.11.3, its Claude Code.
 Reflection: a-job-is-tested-only-from-the-process-that-runs-it. Daily memory: 2026-11-15.md.
+
+## [ENT-114] | 2026-11-15 18:20 UTC | Morpheus | general | ref: reflections/2026-11-15_morpheus_ownership-follows-function-not-where-a-thing-runs.md | see: 20261115T181239Z
+Session: interactive closure 2026-11-08 to 2026-11-15 (Bot Chat) -- model switches, memory and search on Yuan, The Collective, weekly jobs.
+Workstreams:
+- Models: Fable 5.2 on every profile 11-09 (Claude Code 2.1.321), back to Opus 5.5 by default 11-13 (Suggi); core files name no model.
+- Helpers: plugin advanced-delegation, routes deep (Opus 5.5) and light (Sonnet 5.5) for the core agents and the six Collective agents.
+- Hermes v0.23.1 on VPS, PC and laptop; Claude plugin 0.3.5; Claude Code in C:\AI Stuff\Claude for Link, Linkie and both defaults.
+- Memory: core Hindsight 1.2.1 official image; sibling hindsight-external for Link, Linkie, Oracle; Yuan embeddings, hs-rerank-1 (ONNX, 25 candidates), floor 0.1.
+- Search: repo and workspace indexes on Yuan with ettin-reranker-150m-v1 (first 25); gold sets rewritten; one watcher, watch.py, every minute; every log capped.
+- Atlas profile deleted (memory bank kept); Oracle born on the PC, later removed (Suggi).
+- The Collective: sealed unit for the SpaceMolt agents (own Hermes, Hindsight, watcher, search, station front, fleet engine holding the game key); Unity and five Admirals born.
+- Weekly jobs, Sundays UTC: search review 17:00 (now also the Collective's, inside the unit), security review 21:00, update 23:00; all on Opus 5.5 xhigh.
+- Today: containerd 24.04.4 (no container restarted), OSSEC 4.4.1, scan type recorder, stray apt source trashed.
+- BOX.md 5.1: ownership in the unit goes by function, not by where a piece runs.
+Cron reflections of the period: a-classifier-must-take-its-evidence-when-the-event-happens, a-score-change-needs-the-same-ruler-and-a-kept-baseline, a-job-is-tested-only-from-the-process-that-runs-it.
+Reflection: ownership-follows-function-not-where-a-thing-runs. Daily memory: 2026-11-15.md.
