@@ -456,3 +456,14 @@ Workstreams:
 - Fix proposed to Suggi: a no-write mode for the gate; until then the job records the day's report before the call.
   Not applied: the run may write only the package update and its own records.
 Reflection: a-check-that-writes-where-evidence-lives-erases-it. Daily memory: 2026-11-15.md.
+
+## [ENT-055] | 2026-11-15 23:11 UTC | Morpheus | error | ref: reflections/2026-11-16_morpheus_a-restart-list-names-the-unit-not-the-stale-process.md | see: 20261115T230745Z
+Session: cron job weekly-update -- the restart-window rule reads the unit, not the stale process.
+Workstreams:
+- Found: step 7 makes the window owed when needrestart names a service; tonight it named containerd.service.
+- The daemon runs the new build (started after its upgrade, no deleted maps); 12 shims kept alive by design run the old binary.
+- A window would restart the daemon and leave the line; every careful containerd update would repeat it weekly.
+- Root cause: the rule never asks which process maps the replaced file (R5: same class as a check that proves only what it could catch).
+- Fix proposed to Suggi: step 7 reads each listed unit's main process; a unit held only by kept-alive children is reported, not owed.
+  Not applied: the run may write only the updates and its own records.
+Reflection: a-restart-list-names-the-unit-not-the-stale-process. Daily memory: 2026-11-15.md.
