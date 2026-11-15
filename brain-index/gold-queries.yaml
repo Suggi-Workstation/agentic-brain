@@ -1,4 +1,4 @@
-version: '3.2'
+version: '3.3'
 status: provisional-agent-curated
 description: Balanced Brain retrieval benchmark.
 queries:
@@ -1272,3 +1272,13 @@ queries:
   - governance/skills/external/brain-index.md
   - research/insights/brain-search-system.md
   domain: brain-index
+- qid: g274
+  question: Why was the weekly update job's service restart step refused when the scheduled run executed inside the Hermes gateway process?
+  gold_files:
+  - reflections/2026-11-15_morpheus_a-job-is-tested-only-from-the-process-that-runs-it.md
+  domain: reflections
+- qid: g275
+  question: Why could the forge index's drop in mean reciprocal rank not be explained after the embedding model and reranker changed?
+  gold_files:
+  - reflections/2026-11-15_morpheus_a-score-change-needs-the-same-ruler-and-a-kept-baseline.md
+  domain: reflections
