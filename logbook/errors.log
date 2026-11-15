@@ -392,3 +392,13 @@ Workstreams:
   Caught from the printed rows before the report; the parser now matches the command itself (R23: a total checked against its rows).
 - Late: the security skill's detailed reference was opened only at session-end; its two extra checks were then run and changed no finding.
 Reflection: a-classifier-must-take-its-evidence-when-the-event-happens. Daily memory: 2026-11-15.md.
+
+## [ENT-050] | 2026-11-15 05:36 UTC | Morpheus | error | ref: reflections/2026-11-15_morpheus_a-score-change-needs-the-same-ruler-and-a-kept-baseline.md | see: 20261115T053324Z
+Session: cron job weekly-search-review -- one tool gap found, one check slip made.
+Workstreams:
+- Found: the scoring step keeps only summary numbers of the previous run, and eval.py overwrites the per-question results.
+  The forge fall (MRR 0.7236 -> 0.6842, 50 of 51 questions unchanged) cannot be traced to questions.
+  Fix proposed to Suggi (save each set's previous results before scoring; flag a pipeline mismatch); not applied, the run writes gold files and records only.
+- Made: my ASCII check `grep | head && echo` took head's exit status and labelled five clean files as failing.
+  Caught from the empty match list; rerun with counts, 0 each (R23: a label checked against its rows).
+Reflection: a-score-change-needs-the-same-ruler-and-a-kept-baseline. Daily memory: 2026-11-15.md.

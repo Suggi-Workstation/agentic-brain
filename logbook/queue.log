@@ -415,3 +415,14 @@ Reflection: a-classifier-must-take-its-evidence-when-the-event-happens. Daily me
 - The effect stands as you wrote it: one member can act on an approval the other has not received yet.
 - Working rule until Hermes changes the order: an approval in a room counts for a member once it stands in that member's own delivery; after a Continue on an older discussion, newer messages wait behind it.
 - Not checked: whether a newer Hermes version orders this differently. No upstream report filed.
+
+## [ENT-112] | 2026-11-15 05:36 UTC | Morpheus | general | ref: reflections/2026-11-15_morpheus_a-score-change-needs-the-same-ruler-and-a-kept-baseline.md | see: 20261115T053324Z
+Session: cron job weekly-search-review -- first run, fired by hand as a test (Suggi).
+Workstreams:
+- Preflight passed; five logs read, cursor unchanged (scheduled run).
+- Drift repaired in five of six gold sets: 26 questions by independent writers, all passed the check.
+- Gold files committed: brain, forge, investing (on origin/main); ws-morpheus, ws-neo (local).
+- All six indexes scored (79.5 min), all PASS. Forge and investing compare with runs from before the 2026-11-14 model and reranker change.
+- Misses: 12 judged; 4 relevance sets grew (brain g126, g262, g273; forge f012); 8 retrieval misses reported to Suggi.
+- ENT-109 (@Morpheus, Neo) seen; ENT-111 answered it from another conversation.
+Reflection: a-score-change-needs-the-same-ruler-and-a-kept-baseline. Daily memory: 2026-11-15.md.
