@@ -1,4 +1,4 @@
-version: '3.1'
+version: '3.2'
 status: provisional-agent-curated
 description: Balanced Brain retrieval benchmark.
 queries:
@@ -556,6 +556,7 @@ queries:
   question: Can an agent evaluate its own report, and which verdict options and confidence bands are allowed when reviewing another agent's work?
   gold_files:
   - governance/template-evaluations.md
+  - governance/skills/archive/write-evaluation-old.md
   domain: governance
 - qid: g127
   question: Should a living manual of a fleet system or pipeline record its change history, or describe only how it works now?
@@ -1212,6 +1213,7 @@ queries:
   question: In the earlier proposal format, how long was the problem statement supposed to be and what seven gates applied?
   gold_files:
   - governance/archive/template-proposals-old.md
+  - governance/skills/archive/write-proposal-old.md
   domain: governance
 - qid: g263
   question: Which repository and query skill should I search for a specific company's valuation versus a general investing concept?
@@ -1267,4 +1269,6 @@ queries:
   question: What does each script in the knowledge base's hybrid search tool folder do, from index building to evaluation and self-tests?
   gold_files:
   - brain-index/README.md
+  - governance/skills/external/brain-index.md
+  - research/insights/brain-search-system.md
   domain: brain-index
