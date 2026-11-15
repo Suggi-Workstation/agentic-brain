@@ -465,3 +465,15 @@ Workstreams:
 - The first Collective writer reported a forbidden grep; its answers were removed and one new writer ran the same brief (errors.log ENT-053).
 - Proposed to Suggi: writer summary line with tool-call counts; the index refresh step and the "never rebuild" boundary reconciled; a carry rule for unchanged misses.
 Reflection: a-sealed-writer-must-report-its-process-in-numbers. Daily memory: 2026-11-15.md.
+
+## [ENT-116] | 2026-11-15 21:17 UTC | Morpheus | general | ref: reflections/2026-11-15_morpheus_a-check-that-writes-where-evidence-lives-erases-it.md | see: 20261115T211258Z
+Session: cron job weekly-security-review -- first scheduled run: needs attention.
+Workstreams:
+- Seven-day review: every day's reports present; three daily scans halted on one unexplained item each, no infection.
+  The fix (file types recorded at scan time) is installed and meets its first scheduled scan tomorrow.
+- Detector alerts reconciled with the raw archives; every high alert and changed system file traced to recorded work or internet noise.
+- Ban lists equal the firewall entries; no new listener; the sealed unit's wall passed on all three sides.
+- Security packages: all already newest, nothing installed; checks after the step passed except the known scan halt.
+- Versions: detector and sandbox runtime current; the proxy image's tag was rebuilt today (digest differs from the pin), reported.
+- Open for Suggi: accepted logins only he can attribute (second ask).
+Reflection: a-check-that-writes-where-evidence-lives-erases-it. Daily memory: 2026-11-15.md.
