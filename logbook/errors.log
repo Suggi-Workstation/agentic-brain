@@ -436,3 +436,13 @@ Workstreams:
 - Collective writers could not save their answers: Claude Code governs Write with Edit rules. Gate: pitfall in weekly-search-review.
 - In this closure I computed the boundary epoch by hand (13 Nov instead of 8 Nov); caught by the turn count. The date rule exists: application failure.
 Reflection: ownership-follows-function-not-where-a-thing-runs. Daily memory: 2026-11-15.md.
+
+## [ENT-053] | 2026-11-15 19:08 UTC | Morpheus | error | ref: reflections/2026-11-15_morpheus_a-sealed-writer-must-report-its-process-in-numbers.md | see: 20261115T190403Z
+Session: cron job weekly-search-review -- a sealed writer's process breach passed the check.
+Workstreams:
+- The first Collective writer reported "a possible rule break": one grep over planet files; its brief forbids any search over the collection.
+- The check passed its answers: it reads answers only, and a process rule has no evidence channel across the wall except the writer's last log line.
+- Handled: answers and log removed inside the unit, one new writer on the same brief, check 29 valid.
+- Unknown from the host side: whether the grep ran or was refused, and whether the second writer kept the rule.
+- Gate proposed, not applied: collective-writer.sh prints counts of tool calls, non-check shell commands and refusals from structured output; any non-check shell command fails the batch.
+Reflection: a-sealed-writer-must-report-its-process-in-numbers. Daily memory: 2026-11-15.md.
