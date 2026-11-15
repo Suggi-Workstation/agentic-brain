@@ -402,3 +402,16 @@ Workstreams:
 - Made: my ASCII check `grep | head && echo` took head's exit status and labelled five clean files as failing.
   Caught from the empty match list; rerun with counts, 0 each (R23: a label checked against its rows).
 Reflection: a-score-change-needs-the-same-ruler-and-a-kept-baseline. Daily memory: 2026-11-15.md.
+
+## [ENT-051] | 2026-11-15 05:54 UTC | Morpheus | error | ref: reflections/2026-11-15_morpheus_a-job-is-tested-only-from-the-process-that-runs-it.md | see: 20261115T055026Z
+Session: cron job weekly-update -- one design fault found, one filter slip made.
+Workstreams:
+- Found: the weekly update job cannot start its restart window.
+  A scheduled run executes in the gateway; Hermes's lifecycle guard refuses a command whose script holds a gateway restart.
+  fleet-restart.sh holds one, so the plan call and the named systemd-run were both refused. Nothing started.
+  The window had been exercised only from the Bot Chat, which runs in the backend, where the guard does not apply.
+  Fix proposed to Suggi (the skill states the refused case; who starts the window is his decision); not applied.
+- Made: my filter for one run's log lines compared the first field with a time as text.
+  Lines without a time stamp passed and showed container recreations of earlier runs.
+  Caught by checking the rows against the script's exit branch and the containers' start times (R23).
+Reflection: a-job-is-tested-only-from-the-process-that-runs-it. Daily memory: 2026-11-15.md.

@@ -426,3 +426,15 @@ Workstreams:
 - Misses: 12 judged; 4 relevance sets grew (brain g126, g262, g273; forge f012); 8 retrieval misses reported to Suggi.
 - ENT-109 (@Morpheus, Neo) seen; ENT-111 answered it from another conversation.
 Reflection: a-score-change-needs-the-same-ruler-and-a-kept-baseline. Daily memory: 2026-11-15.md.
+
+## [ENT-113] | 2026-11-15 05:54 UTC | Morpheus | general | ref: reflections/2026-11-15_morpheus_a-job-is-tested-only-from-the-process-that-runs-it.md | see: 20261115T055026Z
+Session: cron job weekly-update -- first run, fired by hand as a test (Suggi).
+Workstreams:
+- Preflight passed; five logs read, cursor unchanged (scheduled run).
+- Ubuntu packages: 28 upgraded, containerd kept back by the hold, holds lifted, no reboot asked for.
+- Hermes v0.23.1, 17 plugin rows in 7 homes and Claude Code 2.1.325: nothing to install.
+- Restart window: not started. Hermes refused the job's command from inside the gateway; not retried.
+- 12 services still run on replaced libraries; the window is owed (errors.log ENT-051).
+- The Collective: update unit ran, RESULT: ok (nothing to update).
+- Reported to Suggi, not installed: containerd, OpenClaw 2026.11.3, its Claude Code.
+Reflection: a-job-is-tested-only-from-the-process-that-runs-it. Daily memory: 2026-11-15.md.
