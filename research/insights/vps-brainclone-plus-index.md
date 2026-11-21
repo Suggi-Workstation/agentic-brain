@@ -87,9 +87,15 @@ Sync, for repositories only, under the sync lock:
 3. If GitHub has commits that the clone lacks, fast-forward the clone to
    `origin/main`.
 4. If both sides have new commits, no fast-forward is possible: rebase
-   the local commits onto `origin/main` and push. The commits keep their
-   authors; the watcher signs as committer `Repo Watcher`. History stays
-   linear and holds the work of both sides.
+   the local commits onto `origin/main` in a scratch work tree, move the
+   clone's branch there with `git reset --keep` and push. The commits keep
+   their authors; the watcher signs as committer `Repo Watcher`. History
+   stays linear and holds the work of both sides. The clone's own work
+   tree only takes the files GitHub changed, so uncommitted edits stay; it
+   waits for a later run while a commit is being staged or an edit sits in
+   one of those files. A rebase in the clone itself would refuse any
+   uncommitted edit, and agents that work in the clone all day nearly
+   always have one.
 5. If the rebase stops on a conflict (both sides changed the same
    lines), abort it, which leaves the clone as it was, and log it. The
    watcher never resolves a conflict and never commits anything.
