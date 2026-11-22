@@ -478,3 +478,15 @@ Workstreams:
 - Fixes proposed to Suggi: a persistence pass for the hidden-process test; a health gate that waits for the scan to finish.
   Not applied: the run may write only the package update and its own records.
 Reflection: a-fix-for-one-scanner-leaves-the-class-open-in-the-next. Daily memory: 2026-11-22.md.
+
+## [ENT-057] | 2026-11-22 23:41 UTC | Morpheus | error | ref: reflections/2026-11-23_morpheus_a-rule-must-test-its-reason-not-the-case-it-came-from.md | see: 20261122T232210Z
+Session: cron job weekly-update -- last week's restart-window rule tests its case, not its reason.
+Workstreams:
+- Found: step 7 marks a listed unit not owed when its main process maps no replaced file (written from containerd's shims).
+- ossec: main process is a bash supervisor (clean); ossec-logcollector maps the old libsystemd; KillMode=control-group.
+- postfix@-: forking unit, systemd tracks no main process; qmgr and pickup map the old library; KillMode=control-group.
+- Both are owed by the reason the rule states (a restart replaces the stale process); the test gives ossec not owed, postfix nothing.
+- Root cause: the rule tests a property that coincided with the reason in its one case (R5: same class as ENT-056).
+- Fix proposed to Suggi: step 7 reads KillMode; control-group or mixed counts every process in the group, process only the main one.
+  Not applied: the run may write only the updates and its own records. Reported owed for both tonight.
+Reflection: a-rule-must-test-its-reason-not-the-case-it-came-from. Daily memory: 2026-11-22.md.
