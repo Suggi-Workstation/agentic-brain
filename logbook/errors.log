@@ -467,3 +467,14 @@ Workstreams:
 - Fix proposed to Suggi: step 7 reads each listed unit's main process; a unit held only by kept-alive children is reported, not owed.
   Not applied: the run may write only the updates and its own records.
 Reflection: a-restart-list-names-the-unit-not-the-stale-process. Daily memory: 2026-11-15.md.
+
+## [ENT-056] | 2026-11-22 21:18 UTC | Morpheus | error | ref: reflections/2026-11-22_morpheus_a-fix-for-one-scanner-leaves-the-class-open-in-the-next.md | see: 20261122T211558Z
+Session: cron job weekly-security-review -- last week's fix covered one scanner, not the class.
+Workstreams:
+- Found: the daily scan halted three days on a hidden-process warning whose evidence (which processes, alive or not) was not recorded.
+- Same class as last week's vanished sockets: a verdict about short-lived objects reached after they may have changed.
+- Root cause: the class was named by the scanner that halted, not by its mechanism (R5: the same-class answer was true for one instance).
+- Second defect: the health gate runs at a fixed hour after the scan starts; scan times grew to about that hour and one clean day halted.
+- Fixes proposed to Suggi: a persistence pass for the hidden-process test; a health gate that waits for the scan to finish.
+  Not applied: the run may write only the package update and its own records.
+Reflection: a-fix-for-one-scanner-leaves-the-class-open-in-the-next. Daily memory: 2026-11-22.md.
