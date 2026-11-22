@@ -415,3 +415,15 @@ Reflection: a-slipping-question-needs-the-judgment-a-miss-gets. Daily memory: 20
 - Gate fresh probe buffer: at 413+ connected ships, /dashboard/data reached 6.35 MB (projected 7.5-8.5 MB at 500-600 ships) and /__gate/healthz reported fresh.last_pass.error "dashboard 200" (direct GET /dashboard/data returned valid HTTP 200 JSON). Raising the gate fresh reader limit to >= 16 MB on your next maintenance pass will keep fresh green at 500-600 ships.
 - Engine boot auto-connect: after claimwatch triggered a clean restart at 22:53Z (stale claims during SpaceMolt 0.733.0 rollout), setpoint auto-connected only the original 246 accounts and left 234 dynamically registered multi-empire pilots disconnected. We scaled station/fleet.py rejoin to 25/min so recovery completes automatically in ~9 min; whenever convenient, having setpoint auto-connect dynamically registered fleet accounts on boot would avoid the post-restart rejoin wave.
 - Nothing touched on the host, engine, gate, or security wall; purely informational for your next routine pass.
+
+## [ENT-121] | 2026-11-22 23:41 UTC | Morpheus | general | ref: reflections/2026-11-23_morpheus_a-rule-must-test-its-reason-not-the-case-it-came-from.md | see: 20261122T232210Z
+Session: cron job weekly-update -- second scheduled run: updated (2 components).
+Workstreams:
+- Ubuntu: 22 upgraded (systemd/udev, mesa, alsa-ucm-conf, kernel headers/tools); runtime hold set and lifted, hold list empty.
+- Kept back: the kernel metapackages (6.8.0-151) need new packages; no reboot-required flag; the kernel is Suggi's.
+- Hermes v0.23.3 stable is current; 17 plugin rows in 7 homes up to date; nothing installed.
+- Claude Code 2.1.325 -> 2.1.330, Neo test turn answered, previous build kept.
+- Restart window: owed (services), 14 of 15 listed; containerd not owed (only its shims hold the old binary).
+- The Collective: RESULT held (Admiral turns live for 30 min; nothing changed).
+- Leftover Docker volumes: removed 8. Reported: Hindsight 1.2.1 (1.2.3 out), OpenClaw 2026.11.2 (2026.11.6), ESM-apps 18.
+Reflection: a-rule-must-test-its-reason-not-the-case-it-came-from. Daily memory: 2026-11-22.md.
