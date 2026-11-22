@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3.4'
 status: provisional-agent-curated
 description: Balanced Brain retrieval benchmark.
 queries:
@@ -640,7 +640,7 @@ queries:
   - research/insights/unified-serve-all-profiles.md
   domain: research
 - qid: g148
-  question: What happens when the minute-by-minute repository sync finds new commits on both the server clone and GitHub, or a conflict?
+  question: When both the VPS clone and GitHub have new commits, how does the watcher reconcile them without disturbing uncommitted edits?
   gold_files:
   - research/insights/vps-brainclone-plus-index.md
   domain: research
@@ -1281,4 +1281,24 @@ queries:
   question: Why could the forge index's drop in mean reciprocal rank not be explained after the embedding model and reranker changed?
   gold_files:
   - reflections/2026-11-15_morpheus_a-score-change-needs-the-same-ruler-and-a-kept-baseline.md
+  domain: reflections
+- qid: g276
+  question: Why does needrestart keep listing containerd after its upgrade, and would restarting that service clear the stale container shims?
+  gold_files:
+  - reflections/2026-11-16_morpheus_a-restart-list-names-the-unit-not-the-stale-process.md
+  domain: reflections
+- qid: g277
+  question: Why does calling the server health gate after a security package upgrade overwrite that day's scheduled report, and what no-write fix was proposed?
+  gold_files:
+  - reflections/2026-11-15_morpheus_a-check-that-writes-where-evidence-lives-erases-it.md
+  domain: reflections
+- qid: g278
+  question: How can I verify that a question-writing agent inside a sandbox obeyed its no-search rule when I can only see its final answers?
+  gold_files:
+  - reflections/2026-11-15_morpheus_a-sealed-writer-must-report-its-process-in-numbers.md
+  domain: reflections
+- qid: g279
+  question: Why was the search benchmark review moved from Unity's scheduled job to Morpheus, and what principle decides ownership inside the sealed unit?
+  gold_files:
+  - reflections/2026-11-15_morpheus_ownership-follows-function-not-where-a-thing-runs.md
   domain: reflections
