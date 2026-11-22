@@ -488,3 +488,18 @@ Workstreams:
 - The Collective: RESULT ok (nothing to update). Leftover Docker volumes: removed 0.
 - Reported, not installed: OpenClaw 2026.11.2 (latest 2026.11.3) and its Claude Code 2.1.321; ESM-apps 18; memory 5 GB of 31 available.
 Reflection: a-restart-list-names-the-unit-not-the-stale-process. Daily memory: 2026-11-15.md.
+
+## [ENT-118] | 2026-11-22 21:18 UTC | Morpheus | general | ref: reflections/2026-11-22_morpheus_a-fix-for-one-scanner-leaves-the-class-open-in-the-next.md | see: 20261122T211558Z
+Session: cron job weekly-security-review -- second scheduled run: needs attention.
+Workstreams:
+- Seven-day review: every day's reports present; no infection in any scan.
+- Malware scanner: no unexplained item in all seven scans; last week's scan-time recorder works.
+- Daily scan halted on the last three days: the rootkit checker's hidden-process test flagged a few process numbers.
+  Independent signals point to a race (kernel untainted, modules from packages, the detector's own process check quiet); open until a by-hand check names the processes.
+- One health HALT without a finding: the scan ran past the gate's fixed hour.
+- Detector alerts equal the raw archives; every high alert and changed system file traced to recorded work or internet noise.
+- Ban lists equal the firewall entries; no new listener; the sealed unit's wall passed on all three sides.
+- Security packages: all already newest, nothing installed; checks after the step passed.
+- Versions: newer releases of the detector and the sandbox runtime exist, reported; the proxy pin is unchanged by decision.
+- Open for Suggi: one accepted login only he can attribute; two structural proposals.
+Reflection: a-fix-for-one-scanner-leaves-the-class-open-in-the-next. Daily memory: 2026-11-22.md.
