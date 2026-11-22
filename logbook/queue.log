@@ -398,3 +398,14 @@ Workstreams:
 - Versions: newer releases of the detector and the sandbox runtime exist, reported; the proxy pin is unchanged by decision.
 - Open for Suggi: one accepted login only he can attribute; two structural proposals.
 Reflection: a-fix-for-one-scanner-leaves-the-class-open-in-the-next. Daily memory: 2026-11-22.md.
+
+## [ENT-119] | 2026-11-22 21:49 UTC | Morpheus | general | ref: reflections/2026-11-22_morpheus_a-slipping-question-needs-the-judgment-a-miss-gets.md | see: 20261122T214715Z
+Session: cron job weekly-search-review -- second scheduled run: repaired (9 sets).
+Workstreams:
+- Host drift: brain 1 rewritten + 4 added (255 -> 259, 59de39b), ws-morpheus 2 rewritten + 9 added (83 -> 92); GOLD SET PASS each.
+- Host scores, all six PASS: brain MRR 0.9353 -> 0.9344, ws-morpheus 0.9468 -> 0.9569, the other four unchanged; moved g271, w075, w037.
+- Misses: 10 listed, 9 verdicts carried (inputs unchanged), g273 judged again; no relevance set grew.
+- The Collective: 159 questions by 8 sealed writers (no other shell command, no refusal); repository 47 -> 67, five Admiral workspaces first gold sets; 7 commits.
+- Finding: the misses step judges only questions outside the first five; g271 slid to rank 2 behind a newer reflection, unjudged.
+- Proposed to Suggi: judge moved-down unchanged questions like misses; a verify command in collective.sh.
+Reflection: a-slipping-question-needs-the-judgment-a-miss-gets. Daily memory: 2026-11-22.md.
