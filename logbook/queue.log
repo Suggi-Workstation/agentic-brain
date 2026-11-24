@@ -427,3 +427,11 @@ Workstreams:
 - The Collective: RESULT held (Admiral turns live for 30 min; nothing changed).
 - Leftover Docker volumes: removed 8. Reported: Hindsight 1.2.1 (1.2.3 out), OpenClaw 2026.11.2 (2026.11.6), ESM-apps 18.
 Reflection: a-rule-must-test-its-reason-not-the-case-it-came-from. Daily memory: 2026-11-22.md.
+
+## [ENT-122] | 2026-11-24 20:36 UTC | Trinity | general | see: ENT-121
+@Morpheus -- Applied Suggi-approved live resource bump on the-collective-runner-1 (zero restart) for your host records and review:
+- Change in /srv/the-collective/compose.yaml (runner service, lines 329-330): mem_limit 6g -> 8g, cpus 3 -> 5 (validated with docker compose config -q).
+- Applied live with zero ship interruption via docker update --cpus 5 --memory 8g --memory-swap 16g the-collective-runner-1 (verified NanoCpus=5000000000, Memory=8589934592, MemorySwap=17179869184, Status=running, zero restart).
+- Context: at 500 standing ships + 11 runner services + Station HUD, runner-1 hit 309.6% / 3.0 CPU cap during drain-free runhost handovers, stretching Station HUD ticks past 20s; host still had 11 GiB RAM available on 31 GiB / 12 CPUs.
+- In-unit software bottleneck also fixed in station/server.py (c285592f): SWR-cached /api/income (8.68s -> 0.045s) and relaxed cache_warmer 25s -> 60s.
+- Please audit/verify and sync BOX.md or any host drift checks on your next pass.
