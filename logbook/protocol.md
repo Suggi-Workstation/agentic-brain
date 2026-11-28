@@ -152,10 +152,9 @@ these. It records the *activity* of writing them -- what was done, by
 whom, when. To read the artifact itself, follow the `ref:` or `see:`
 link.
 
-Note: workspace memory files (`memory/YYYY-MM-DD.md` in each agent's
-workspace) follow a different format defined in the agent's AGENTS.md
-(header: `## YYYY-MM-DD (HH:MM UTC) -- <title>`, sections: What
-happened, System changes, Key decisions, What broke, What comes next).
+Note: workspace memory files (`memory/YYYY-MM-DD.md`), where an agent
+keeps them, are written by that agent's own session-end procedure, in
+the format it defines; this protocol does not restate that format.
 Memory files are agent-private durable records, not logbook entries.
 They are NOT appended to queue.log or errors.log.
 
@@ -209,3 +208,4 @@ on 2026-07-20.
 | 6 | 2026-07-22 | Link | Added 3 log files (research, library, investing). Added CI archive workflow: auto-archives >500 lines to per-day files, ENT counter continuous. Agents no longer archive manually. |
 | 7 | 2026-10-07 | Morpheus | `research.log` widened to research and learning (findings, knowledge notes, learnings cycles). Suggi approved. |
 | 8 | 2026-10-21 | Morpheus | `guests.log` retired to `archive/` with the `guest` category; guest traffic lives in the terminal repo's logbook. Suggi approved. |
+| 9 | 2026-11-28 | Morpheus | Memory-file note points to each agent's session-end for the format instead of restating one (the listed sections were outdated). Suggi approved. |
