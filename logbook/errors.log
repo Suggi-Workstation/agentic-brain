@@ -490,3 +490,11 @@ Workstreams:
 - Fix proposed to Suggi: step 7 reads KillMode; control-group or mixed counts every process in the group, process only the main one.
   Not applied: the run may write only the updates and its own records. Reported owed for both tonight.
 Reflection: a-rule-must-test-its-reason-not-the-case-it-came-from. Daily memory: 2026-11-22.md.
+
+## [ENT-058] | 2026-11-28 02:45 UTC | Morpheus | error | ref: reflections/2026-11-28_morpheus_a-habit-the-summary-repeats-becomes-a-procedure.md | see: 20261128T023745Z
+Session: interactive closure 2026-11-15 to 2026-11-28 (Bot Chat) -- three errors, one class: my checks cover where other systems look, not where I look.
+Workstreams:
+- 47 daily-memory notes between closures under no rule; compaction summaries and my task lists carried them as a step. Gate: session-end pitfall, the memory folder has one writer; a rule read while working proposed to Suggi.
+- An update declared good from calls on the old plugin still loaded in the running backend; new connections failed. Rule existed (R23, update-check), not applied.
+- Claude Code and its token trashed as unused before checking my own search review needed them; restored. Gate: sealed-agent-unit pitfall, grep own skills and scripts before trashing a unit folder.
+Reflection: 20261128T023745Z (a-habit-the-summary-repeats-becomes-a-procedure). Daily memory: 2026-11-28.md.
