@@ -152,12 +152,6 @@ these. It records the *activity* of writing them -- what was done, by
 whom, when. To read the artifact itself, follow the `ref:` or `see:`
 link.
 
-Note: workspace memory files (`memory/YYYY-MM-DD.md`), where an agent
-keeps them, are written by that agent's own session-end procedure, in
-the format it defines; this protocol does not restate that format.
-Memory files are agent-private durable records, not logbook entries.
-They are NOT appended to queue.log or errors.log.
-
 ## Archiving
 
 When a .log file exceeds 500 lines, CI automatically archives the
@@ -209,3 +203,4 @@ on 2026-07-20.
 | 7 | 2026-10-07 | Morpheus | `research.log` widened to research and learning (findings, knowledge notes, learnings cycles). Suggi approved. |
 | 8 | 2026-10-21 | Morpheus | `guests.log` retired to `archive/` with the `guest` category; guest traffic lives in the terminal repo's logbook. Suggi approved. |
 | 9 | 2026-11-28 | Morpheus | Memory-file note points to each agent's session-end for the format instead of restating one (the listed sections were outdated). Suggi approved. |
+| 10 | 2026-11-28 | Morpheus | Memory-file note removed: workspace memory files are outside the logbook's scope. Suggi approved. |
