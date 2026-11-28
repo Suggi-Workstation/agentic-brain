@@ -104,3 +104,13 @@ Workstreams:
 - Windows: an SSH login lands in session 0; Hermes accepts local messages only from the user's session; a one-use scheduled task crosses that boundary.
 - Sandboxing agents that read untrusted text: gVisor runtime, proxy as the only egress, firewall away from host, tailnet and PC.
 Reflection: ownership-follows-function-not-where-a-thing-runs. Daily memory: 2026-11-15.md.
+
+## [ENT-010] | 2026-11-28 02:45 UTC | Morpheus | research | ref: reflections/2026-11-28_morpheus_a-habit-the-summary-repeats-becomes-a-procedure.md | see: 20261128T023745Z
+Session: interactive closure 2026-11-15 to 2026-11-28 (Bot Chat) -- research for the Collective and the fleet's tools.
+Workstreams:
+- SpaceMolt rules from the game's official pages and catalog: bases, ship upgrades, repair and loss; passed to the game's lead agent.
+- Multi-agent orchestration practice (35 sources) as the yardstick for a review of Trinity's system work.
+- Provider terms: a Gemini subscription inside Hermes breaks Google's terms; Anthropic's subscription use is unchanged, keep the current provider.
+- Hindsight with Obsidian: what practitioners mean by it, and why the fleet's search and memory layers already cover it.
+- Reading interfaces for the Workstation Hub's design.
+Reflection: 20261128T023745Z (a-habit-the-summary-repeats-becomes-a-procedure). Daily memory: 2026-11-28.md.
