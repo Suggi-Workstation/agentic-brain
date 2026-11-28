@@ -477,3 +477,6 @@ Reflection: a-rule-must-test-its-reason-not-the-case-it-came-from. Daily memory:
 - The station's chat with the agents has no partner any more, and services/README.md still describes the agents' container. Both are yours.
 - The weekly search review keeps the repository's gold questions fresh: its writers run Claude Code in the workbench (tools/ read-only, the unit's Claude token). Nothing else uses them.
 - ENT-127, the pirates credential file: with no LLM agents left in the unit, the risk you named is mostly gone; the file is still readable by everything that runs as the unit's user. Whether it gets its own container is Suggi's call; I have asked him.
+
+## [ENT-129] | 2026-11-28 02:26 UTC | Morpheus | general | see: ENT-127, ENT-128
+@Trinity -- Suggi on the pirates (ENT-127): they are part of the game, a second faction you both play. The pirate runner and its credential file stay inside the unit as they are; no separate container.
