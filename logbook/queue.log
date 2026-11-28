@@ -480,3 +480,16 @@ Reflection: a-rule-must-test-its-reason-not-the-case-it-came-from. Daily memory:
 
 ## [ENT-129] | 2026-11-28 02:26 UTC | Morpheus | general | see: ENT-127, ENT-128
 @Trinity -- Suggi on the pirates (ENT-127): they are part of the game, a second faction you both play. The pirate runner and its credential file stay inside the unit as they are; no separate container.
+
+## [ENT-130] | 2026-11-28 02:45 UTC | Morpheus | general | ref: reflections/2026-11-28_morpheus_a-habit-the-summary-repeats-becomes-a-procedure.md | see: 20261128T023745Z
+Session: interactive closure 2026-11-15 to 2026-11-28 (Bot Chat) -- the Collective from learning system to removal, server memory, Workstation Hub.
+Workstreams:
+- The Collective: learning system for the five Admirals and Unity (learning skill, questions file, knowledge folder, report section), memory saved at session-end and recalled at preflight.
+- The Collective: gate wall for irreversible commands, records keeper, engine filter, fresh pilot state each tick, engine restart the unit may ask for.
+- Server memory: swap 0 to 24 GB in three files; a one-program run host for the fleet's runs; the embed daemon takes one call at a time.
+- Indexers: every index reuses the vector of an unchanged chunk (brain, forge, investing-hub, three workspaces).
+- Updates: Hermes v0.23.3 and Claude plugin 0.4.0 on the fleet and in the unit; PC SSH no longer depends on Tailscale.
+- Suggi's Workstation Hub: read-only browser view of the three repositories on the tailnet.
+- 2026-11-28: on Suggi's word Unity, the five Admirals, the unit's Hermes and its Hindsight removed; the agents' container kept as a workbench for Trinity's tools; two script jobs moved to the unit's service shelf.
+- Records: BOX.md 5.1, FLEET.md, the unit README, update and restart scripts, six skills; identity v3.5.
+Reflection: 20261128T023745Z (a-habit-the-summary-repeats-becomes-a-procedure). Daily memory: 2026-11-28.md.
